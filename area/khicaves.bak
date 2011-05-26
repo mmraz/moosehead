@@ -1,0 +1,1770 @@
+#AREA
+/mud/moosehead/area/khicaves.are~
+Lost Ways~
+{ all } Khira   Lost Ways~
+21100 21195
+
+#MOBILES
+#21100
+ghostly apparition~
+a ghost~
+A ghostly apparition drifts through the tunnels, moaning.
+~
+The ghost looks at you and moans, shaking spectral chains.
+~
+human~
+(null)~
+(null)~
+(null)~
+ACE 0 600 0
+3 0 2d6+35 1d9+100 1d6+0 none
+7 7 7 10
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#21100
+potion refresh~
+a potion of refresh~
+A potion of refresh is just what you need.~
+glass~
+potion A A
+20 'refresh' 'refresh' '' ''
+0 100 150 P
+#21101
+potion fly flying~
+a potion of flying~
+A potion of flying is here.~
+glass~
+potion A A
+15 'fly' '' '' ''
+0 10 250 P
+#0
+
+#ROOMS
+#21100
+A small, narrow tunnel~
+You stoop to fit inside this small, narrow part of the tunnel.  
+Darkness surrounds you, and it is impossible to tell how far back
+the tunnel stretches.  Faint echos bounce back at you, but it is
+impossible to tell how far away they are coming from.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21101
+D2
+Exit ~
+door~
+16451 0 11072
+S
+#21101
+A small narrow tunnel~
+The tunnel stretches north and south, strange noises drift down
+to your ears.  As you stumble along, you notice the tunnel widening
+to the north, and narrowing to the south.  You wonder what lies ahead.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21102
+D2
+Exit ~
+door~
+16384 0 21100
+S
+#21102
+A small narrow tunnel~
+The tunnel makes a sharp turn here, you almost stumble and smack
+into the wall because of it.  The faint glow of your light barely
+cuts into the darkness, and the only sounds of life are your own.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21103
+D2
+Exit ~
+door~
+16384 0 21101
+S
+#21103
+A narrow tunnel~
+The tunnel continues onward, it seems like you have been down here
+forever.  The rough rock gives no clues to your whereabouts, the
+darkness muddles your sense of direction.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21104
+D3
+Exit ~
+door~
+16384 0 21102
+S
+#21104
+An intersection in the tunnel~
+A small junction in the tunnels gives you room to stretch for a
+change, for once you don't have to worry about hitting your head
+on low hanging rock.  Faint echos drift from all directions, each
+tunnel looking the same as the other.
+~
+0 ACDT 0
+D0
+Exit ~
+door~
+16384 0 21106
+D1
+Exit ~
+door~
+16384 0 21105
+D3
+Exit ~
+door~
+16384 0 21103
+S
+#21105
+A dead end~
+The tunnel narrows again as you stumble into what seems to be a
+dead end, the blank rock unchanging from everywhere else in this
+mess of tunnels.  The echos are slightly louder here though, as if
+they collect in odd places.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16451 0 11195
+D3
+Exit ~
+door~
+16384 0 21104
+S
+#21106
+A narrow tunnel~
+The change in direction seems to make no difference, the tunnels
+continue on, each the same as the last.  Twists and turns lie
+all around, giving no clue as to where you are in the world.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21107
+D2
+Exit ~
+door~
+16384 0 21104
+S
+#21107
+An intersection in the tunnels~
+Another intersection gives you room to stretch and relax, though
+once again there is no indication of where any of the tunnels
+lead.  This confusing place looks the same as everywhere else, each
+tunnel stretching off into darkness.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21108
+D1
+Exit ~
+door~
+16384 0 21142
+D2
+Exit ~
+door~
+16384 0 21106
+S
+#21108
+An intersection in the tunnels~
+Another intersection adds to the confusion, tunnels seem to meet
+and disappear off into the darkness, never to meet again.  The
+oppressive atmosphere is starting to get to you, at the moment you
+wish you could just find a way out.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21109
+D2
+Exit ~
+door~
+16384 0 21107
+D3
+Exit ~
+door~
+16384 0 21122
+S
+#21109
+An intersection in the tunnels~
+Another intersection gives you room to stretch and relax, though
+once again there is no indication of where any of the tunnels
+lead.  This confusing place looks the same as everywhere else, each
+tunnel stretching off into darkness.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21110
+D1
+Exit ~
+door~
+16384 0 21121
+D2
+Exit ~
+door~
+16384 0 21108
+S
+#21110
+A bend in the tunnel~
+The tunnel once again takes a sharp turn, but you can't tell
+anything more about where you are, or what this all leads to.
+Panic edges into your mind, but you quickly supress it... only
+children are afraid of the dark.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21111
+D2
+Exit ~
+door~
+16384 0 21109
+S
+#21111
+Where tunnels meet~
+Another branching in the tunnels.  Will this never end?  No matter
+how often you twist and turn, you can't seem to find your way out.
+The darkness moves in closer than ever, echos adding to the sense
+of oppression.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21130
+D1
+Exit ~
+door~
+16384 0 21112
+D3
+Exit ~
+door~
+16384 0 21110
+S
+#21112
+A narrow tunnel~
+The tunnel never seems to stop twisting and turning, just as
+it never seems to end.  This mess has to lead somewhere, perhaps
+it has been built to protect a great secret, a hoard of great
+value!  You press on, there really isn't much choice.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16384 0 21113
+D3
+Exit ~
+door~
+16384 0 21111
+S
+#21113
+A twist in the tunnel~
+You trudge along, through yet another twist in the tunnel.  The
+tight space, the darkness, the unchanging features of the endless
+maze, its all starting to get to you, sapping your strength.  Still,
+until you find a way out, you're stuck here.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21112
+D1
+Exit ~
+door~
+16384 0 21114
+S
+#21114
+Where tunnels meet~
+On and on, the tunnels seem to stretch into the darkness forever.
+Each place they intersect, it gets more confusing.  Completely lost,
+you despair of ever finding a way out.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21115
+D2
+Exit ~
+door~
+16384 0 21118
+D3
+Exit ~
+door~
+16384 0 21113
+S
+#21115
+A small branch in the tunnels~
+Once more the tunnels stretch out into different directions, each
+looking the same as the last.  You sigh, and trudge onwards, barely
+noticing which direction you move in as they all look the same.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21116
+D2
+Exit ~
+door~
+16384 0 21117
+D3
+Exit ~
+door~
+16384 0 21114
+S
+#21116
+A dead end~
+A dead end is a depressing find, you had hoped this might lead to
+a way out.  Still, at least its a change from the unending sameness
+of the rest of the maze.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16384 0 21115
+S
+#21117
+A dead end~
+A blank wall is all you find, the only thing you can do is turn
+back the way you came.  The small panic deep inside your head tries
+to break out again, reminding you how long you've been lost down here
+in the dark.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21115
+S
+#21118
+Where tunnels meet~
+On and on the tunnels twist and turn, it is impossible to figure
+out how far you've gone, or how long you've been stuck down here in
+the darkness.  There has to be some way out, if only you could find 
+the place you had entered again!  Still, that would be taking the
+easy path, you'd never know why this place was built.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21114
+D1
+Exit ~
+door~
+16384 0 21133
+D3
+Exit ~
+door~
+16384 0 21119
+S
+#21119
+A long, narrow tunnel~
+The tunnel stretches onwards, relatively straight for a change.
+Faint pinpricks of light reflect back off the walls, different from
+anywhere else you've seen down here.  You look more closely, and it
+would appear that the wall is covered in tiny specks of diamond dust.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21118
+D3
+Exit ~
+door~
+16384 0 21120
+S
+#21120
+A turn in the tunnel~
+Which way to go, which way to go... not that it would seem to
+make a difference, as yet again the options all look the same.
+You hold your light higher, hoping to see down the tunnels a
+bit further, and a faint shimmer reflects back from the east.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21121
+D1
+Exit ~
+door~
+16384 0 21119
+D2
+Exit ~
+door~
+16384 0 21142
+S
+#21121
+A bend in the tunnel~
+The tunnel turns again, the featureless rock stretching out before
+you into the darkness.  All there is to do is walk on, and try to
+find a way through this mess.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16384 0 21120
+D3
+Exit ~
+door~
+16384 0 21109
+S
+#21122
+A bend in the tunnel~
+A sharp bend in the tunnel almost catches you off guard again, the
+turn almost invisible until you were upon it.  You hold your torch
+higher, but the light still doesn't cut any further into the darkness.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21123
+D1
+Exit ~
+door~
+16384 0 21108
+S
+#21123
+A bend in the tunnel~
+Once again the tunnel turns, the darkness and featureless rock
+remaining the same.  Peering down into the black, you think you
+see faint movement, but perhaps your eyes are tricking you.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21124
+D2
+Exit ~
+door~
+16384 0 21122
+S
+#21124
+A long straight tunnel~
+For once the tunnel seems to be heading in a straight line, though
+your senses could be deceiving you.  The echos seem to be fainter in
+this part of the maze, just your own footsteps sounding loud.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21125
+D3
+Exit ~
+door~
+16384 0 21123
+S
+#21125
+A long straight tunnel~
+This part of the tunnel seems to be moving in a fairly straight
+path, though you could be wrong.  In the darkness deep below the
+surface, it is difficult to tell which way you are really going.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21126
+D3
+Exit ~
+door~
+16384 0 21124
+S
+#21126
+An intersection in the tunnels~
+Tunnels stretch out in all directions, each one exactly the same
+as the other.  The ceiling is much higher, you're standing in more
+of a cave than just an intersection, but there are still no 
+discerning features to this place, just endless rock and darkness.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21131
+D1
+Exit ~
+door~
+16384 0 21127
+D2
+Exit ~
+door~
+16384 0 21129
+D3
+Exit ~
+door~
+16384 0 21125
+S
+#21127
+The tunnel turns again~
+Will this place ever have a straight path?  Another turn adds to the
+confusion of your location, it is impossible to tell where you are now.
+The prospect of finding a way out seems slim, unless you can somehow
+retrace your path.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16384 0 21128
+D3
+Exit ~
+door~
+16384 0 21126
+S
+#21128
+A dead end~
+A dead end greets you with its blank, featureless face.  It looks
+like no one has been here since it was first blasted from the
+rock.  Faint scratches on the floor make no easily discernable
+pattern, whatever made them must have been heavy.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21127
+S
+#21129
+A bend in the tunnel~
+On and on the tunnel winds and curves, never seeming to move in
+the same direction for more than a short distance.  With no markers
+or scratches on the floor, it is almost impossible to keep track of
+where you are down here.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21126
+D3
+Exit ~
+door~
+16384 0 21130
+S
+#21130
+A bend in the tunnel~
+Once again the tunnel turns, the darkness and featureless rock
+remaining the same.  Peering down into the black, you think you
+see faint movement, but perhaps your eyes are tricking you.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21129
+D2
+Exit ~
+door~
+16384 0 21111
+S
+#21131
+A turn in the tunnel~
+The tunnel makes a sharp turn in direction, though how anyone
+could carve rock so cleanly is beyond imagination.  The rough
+walls give no clue as to how these tunnels were built, but the
+sharp angles and turns indicate a greater power than you know must
+have been involved.
+~
+0 ACDT 0
+D1
+Exit ~
+door~
+16384 0 21132
+D2
+Exit ~
+door~
+16384 0 21126
+S
+#21132
+A dead end~
+A dead end looks grim, its featureless walls seem to mock you.  The
+tunnel stretches off into the darkness, with no way of knowing where
+it ends.  The echos seem louder here, as if they collect in spaces
+like this, faint scuffles coming from directions that should be
+impossible.
+~
+0 ADT 0
+D3
+Exit ~
+door~
+16384 0 21131
+D4
+Exit ~
+door~
+16451 0 1148
+S
+#21133
+A narrow tunnel~
+The tunnel stretches off into the darkness, for once in a straight
+line.  The echos are louder in this part of the maze, some coming 
+from the west but seemingly more from the east, though you can't
+see a thing that is making them.
+~
+0 ACDT 0
+D1
+Exit ~
+door~
+16384 0 21134
+D3
+Exit ~
+door~
+16384 0 21118
+S
+#21134
+A bend in the tunnel~
+Once again the tunnel takes a sharp turn, disappearing into the
+darkness.  Strange paintings dance and move on the wall as your
+light casts uneven shadows, you wonder what they mean.  A central
+figure that resembles a centaur looks upwards, arms outstretched,
+as if it is trying to tell you something.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21135
+D3
+Exit ~
+door~
+16384 0 21133
+D4
+Exit ~
+door~
+16451 0 331
+S
+#21135
+A bend in the tunnel~
+On and on the tunnel twists and turns, each place looks almost
+the same as the last.  Echos ping back from all directions, its
+hard to say if they are from you or something else moving around
+down here.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21136
+D2
+Exit ~
+door~
+16384 0 21134
+S
+#21136
+A bend in the tunnel~
+The tunnel makes a sharp turn in the darkness, the way ahead
+only visible from a few feet away.  The walls seem to close in on
+you, the rough cut rock seeming to sag above your head as though it
+is about to collapse.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21137
+D3
+Exit ~
+door~
+16384 0 21135
+S
+#21137
+A narrow tunnel~
+For once the tunnel stretches in a straight line, though you can't
+see what lies ahead or behind.  Your light seems to end just a short
+distance away from you, illuminating little more than you need to
+walk.  Moving quickly is out of the question.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21138
+D2
+Exit ~
+door~
+16384 0 21136
+S
+#21138
+A bend in the tunnel~
+Twists and turns, the people who built this place didn't seem to
+like straight lines.  The darkness draws in close, scuffles and
+pings echoing back at you from a distance. 
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21139
+D2
+Exit ~
+door~
+16384 0 21137
+S
+#21139
+An uplink in the tunnel~
+You begin to panic as it seems there is only one way out of this
+place, however, as you hold your torch high you can see a faint exit
+above you.  The rough cut rock would probably give you enough places
+to grip to climb, however, a fall here could be nasty.
+~
+0 ADT 0
+D3
+Exit ~
+door~
+16384 0 21138
+D4
+Exit ~
+door~
+16384 0 21140
+S
+#21140
+A wider spot in the tunnel~
+The tunnel here is quite wide, and much to your surprise the
+darkness isn't complete.  Though you still need your light, a
+faint grey smear is visible to the east.  A dark pit near your
+feet gives you a start, good thing you didn't take a fall.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21141
+D5
+Exit ~
+door~
+16384 0 21139
+S
+#21141
+A cave in a cliff face~
+You find yourself in a deep, broad cave, overlooking a vast
+plain.  Tiny specks can be seen moving far below, though you 
+have no way of knowing what they are.  The mouth of the cave
+is quite small, but there is enough room for you to climb
+through if you are careful.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16384 0 753
+D3
+Exit ~
+door~
+16384 0 21140
+S
+#21142
+An intersection in the tunnel~
+The darkness stretches out before you in several directions, each
+looking exactly the same as the other.  You sigh, and trudge onwards,
+the darkness sapping your strength and will to go on.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21120
+D1
+Exit ~
+door~
+16384 0 21143
+D3
+Exit ~
+door~
+16384 0 21107
+S
+#21143
+A bend in the tunnel~
+Another sharp turn in the tunnel only adds to your confusion, it
+seems hopeless that you will ever find a way out of the dark and
+never ending maze of tunnels.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16384 0 21144
+D3
+Exit ~
+door~
+16384 0 21142
+S
+#21144
+A long, narrow tunnel~
+You hold your torch high, trying to see any change either ahead
+or behind.  A faint movement in the darkness catches your eye, but
+as you strain to see more clearly, it disappears.  Perhaps it was
+just your imagination... perhaps not.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21143
+D2
+Exit ~
+door~
+16384 0 21145
+S
+#21145
+An intersection in the tunnels~
+On and on the darkness stretches out before you, splitting into 
+several different directions.  You pause to stretch, and wonder 
+where each path leads, if they do in fact go anywhere.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21144
+D1
+Exit ~
+door~
+16384 0 21172
+D2
+Exit ~
+door~
+16384 0 21146
+S
+#21146
+An intersection in the tunnel~
+Another place where the dark, unending tunnels split and turn.  Just
+what you were looking for.  Still, you think you hear faint noises to
+the west, and the air seems to move a little from that direction.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21145
+D2
+Exit ~
+door~
+16384 0 21147
+D3
+Exit ~
+door~
+16384 0 21167
+S
+#21147
+An intersection in the tunnels~
+Twists and turns, on and on and on, the unending darkness is
+starting to feel oppressive.  Holding your light as high as you
+can, you still can't see more than a few feet away from you down
+any of the tunnels, and nothing gives you any clue as to which 
+way will lead you out of this place.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21146
+D1
+Exit ~
+door~
+16384 0 21171
+D2
+Exit ~
+door~
+16384 0 21148
+S
+#21148
+A narrow tunnel~
+The blackness never changes, eating up your feeble light as you
+stumble along through the darkness.  You wonder if you'll ever find 
+a way out of here.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21147
+D2
+Exit ~
+door~
+16384 0 21149
+S
+#21149
+A bend in the tunnel~
+Once again the tunnel turns, the new direction barely visible in
+the darkness.  It seems like you've been trapped down here forever,
+all you want to do is find a way out.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21148
+D3
+Exit ~
+door~
+16384 0 21150
+S
+#21150
+A bend in the tunnel~
+Once again the tunnel turns, never running straight for more than
+a few feet.  It makes for slow walking, though speed is hardly possible
+in the pitch black darkness.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21149
+D2
+Exit ~
+door~
+16384 0 21151
+S
+#21151
+An intersection in the tunnels~
+Tunnels branch off in several directions, though you can't see far
+down any of them.  Faint echos sound in the distance, though it is
+impossible to identify what is causing them.  Peering into the darkness,
+you try to spot some difference, some indication of which way you should
+go, but you can see nothing.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21150
+D1
+Exit ~
+door~
+16384 0 21177
+D3
+Exit ~
+door~
+16384 0 21152
+S
+#21152
+A long narrow tunnel~
+For once, the rough cut tunnel travels in a straight line for more
+than a few steps.  Still, you can't see much a head or behind, and the
+faint echos don't seem to change no matter where you are.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21151
+D3
+Exit ~
+door~
+16384 0 21153
+S
+#21153
+Where tunnels meet~
+The tunnel widens into a small alcove, tunnels stretching off in
+all directions.  You can barely make out the shadowy entrances, which
+look exactly the same as each other.  In fact, you start to wonder where
+you entered, let alone where you should travel next.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21162
+D1
+Exit ~
+door~
+16384 0 21152
+D2
+Exit ~
+door~
+16384 0 21154
+D3
+Exit ~
+door~
+16384 0 21160
+S
+#21154
+A bend in the tunnel~
+No matter where you go, the path before you never seems to run in a
+straight line.  Twists and turns keep you bewildered and lost, wondering
+where you are.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21153
+D3
+Exit ~
+door~
+16384 0 21155
+S
+#21155
+A bend in the tunnel~
+Once again the tunnel changes direction, though the pitch black
+darkness never changes.  It seems to swallow the light from your 
+torch whole, you can only see a short distance ahead.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21156
+D1
+Exit ~
+door~
+16384 0 21154
+S
+#21156
+A bend in the tunnel~
+As you hold your torch up, peering into the darkness, you could
+swear you've been here before.  With no distinguishing features to
+the rock or the tunnel, its hard to know where you've been and where
+you haven't.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16384 0 21155
+D3
+Exit ~
+door~
+16384 0 21157
+S
+#21157
+An intersection in the tunnel~
+A small intersection gives you a little more room than usual, though
+not much.  The only light that shines is your own, and still the odd
+echos reflect forwards and back, with no way of knowing if you are the
+cause or something else is making them.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21160
+D1
+Exit ~
+door~
+16384 0 21156
+D3
+Exit ~
+door~
+16384 0 21158
+S
+#21158
+A long narrow tunnel~
+A straight path is a welcome change, even if the appearance of it
+is exactly the same as everywhere else.  Faint flickers in the 
+darkness cause you to doubt your own eyes, the strain of peering
+into pitch black is taking its toll.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21157
+D3
+Exit ~
+door~
+16384 0 21159
+S
+#21159
+A dead end~
+A blank wall is all that greets you here, the featureless rock the
+same as everywhere else, leading nowhere.  You must have taken an odd
+turn, though where you have no idea.  The way back through the dark,
+unchanging tunnels behind seems a daunting undertaking, but there is
+no other choice.
+~
+0 ACDT 0
+D1
+Exit ~
+door~
+16384 0 21158
+S
+#21160
+Where tunnels meet~
+Another branching in the tunnels.  Will this never end?  No matter
+how often you twist and turn, you can't seem to find your way out.
+The darkness moves in closer than ever, echos adding to the sense
+of oppression.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21161
+D1
+Exit ~
+door~
+16384 0 21153
+D2
+Exit ~
+door~
+16384 0 21157
+S
+#21161
+An intersection in the tunnel~
+A small junction in the tunnels gives you room to stretch for a
+change, for once you don't have to worry about hitting your head
+on low hanging rock.  Faint echos drift from all directions, each
+tunnel looking the same as the other.
+~
+0 ACDT 0
+D1
+Exit ~
+door~
+16384 0 21162
+D2
+Exit ~
+door~
+16384 0 21160
+D3
+Exit ~
+door~
+16384 0 21164
+S
+#21162
+An intersection in the tunnel~
+A small junction in the tunnels gives you room to stretch for a
+change, for once you don't have to worry about hitting your head
+on low hanging rock.  Faint echos drift from all directions, each
+tunnel looking the same as the other.
+~
+0 ACDT 0
+D1
+Exit ~
+door~
+16384 0 21163
+D2
+Exit ~
+door~
+16384 0 21153
+D3
+Exit ~
+door~
+16384 0 21161
+S
+#21163
+A dead end~
+The tunnel narrows again as you stumble into what seems to be a
+dead end, the blank rock unchanging from everywhere else in this
+mess of tunnels.  The echos are slightly louder here though, as if
+they collect in odd places.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16451 0 11197
+D3
+Exit ~
+door~
+16384 0 21162
+S
+#21164
+A small narrow tunnel~
+The tunnel makes a sharp turn here, you almost stumble and smack
+into the wall because of it.  The faint glow of your light barely
+cuts into the darkness, and the only sounds of life are your own.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21165
+D1
+Exit ~
+door~
+16384 0 21161
+S
+#21165
+A small narrow tunnel~
+The tunnel stretches north and south, strange noises drift down
+to your ears.  As you stumble along, you notice the tunnel widening
+to the south, and narrowing to the north.  You wonder what lies ahead.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21166
+D2
+Exit ~
+door~
+16384 0 21164
+S
+#21166
+A small, narrow tunnel~
+You stoop to fit inside this small, narrow part of the tunnel.  
+Darkness surrounds you, and it is impossible to tell how far back
+the tunnel stretches.  Faint echos bounce back at you, but it is
+impossible to tell how far away they are coming from.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16451 0 11073
+D2
+Exit ~
+door~
+16384 0 21165
+S
+#21167
+A bend in the tunnel~
+The tunnel turns, the darkness remains the same.  Perhaps your
+earlier feelings that this might lead somewhere were wrong.  The
+way ahead looks the same as the way behind, there's no way of
+knowing if you're wasting your time or not.
+~
+0 ACDT 0
+D0
+Exit ~
+door~
+16384 0 21168
+D1
+Exit ~
+door~
+16384 0 21146
+S
+#21168
+An uplink in the tunnel~
+The tunnel ends abruptly in a blank wall, but as you hold your
+light higher, you notice handholds cut into the rock.  Peering
+upwards, the darkness seems fainter above, perhaps even becoming
+a darker shade of grey.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16384 0 21167
+D4
+Exit ~
+door~
+16384 0 21169
+S
+#21169
+A steep climb~
+You carefully clamber up the rock, hanging tightly onto the ledges
+and pockets cut here and there.  This is far from safe, but it beats
+wandering around down below in the darkness.  A strange, shimmering
+light flickers above, but you can't tell what is causing it.
+~
+0 ADT 0
+D4
+Exit ~
+door~
+16384 0 21170
+D5
+Exit ~
+door~
+16384 0 21168
+S
+#21170
+An odd place to be~
+This is definitely not an ordinary spot in the mess of tunnels that
+stretch out beneath you.  The handholds in the rock face end here, and
+just above your head a strange, shimmering wall ripples and moves like
+liquid metal.  You can take your chances climbing into the strange wall,
+or crawl back into the darkness below.
+~
+0 ADT 0
+D4
+Exit ~
+door~
+16384 0 1025
+D5
+Exit ~
+door~
+16384 0 21169
+S
+#21171
+A bend in the tunnel~
+Once again the tunnel takes a turn, without any visible reason.
+The darkness stretches ahead, unchanging, depressing, and all you
+can do is walk onwards.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21172
+D3
+Exit ~
+door~
+16384 0 21147
+S
+#21172
+An intersection in the tunnels~
+An intersection gives you some room to stretch, though not
+much.  With barely enough room to walk, the dark tunnels seem
+to close in even smaller.  There is no way to know which way
+you should take, they all look the same.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21173
+D2
+Exit ~
+door~
+16384 0 21171
+D3
+Exit ~
+door~
+16384 0 21145
+S
+#21173
+A bend in the tunnel~
+Twist and turn, the tunnel disappears into pitch black darkness.
+With no way of knowing what lies ahead, you can only walk forwards
+with caution and hope your light reveals any dangers before it's
+too late.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21174
+D2
+Exit ~
+door~
+16384 0 21172
+S
+#21174
+A bend in the tunnel~
+The tunnel takes yet another turn, it seems that you can only
+take a few small steps in any one direction down here.  Whatever
+prompted someone to dig this wretched place out, you'd like to know.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16384 0 21175
+D3
+Exit ~
+door~
+16384 0 21173
+S
+#21175
+A bend in the tunnel~
+Darkness creeps in around you, your feeble light barely cutting
+into the inky black.  You barely see the turn before you, almost
+walking into the rock walls.  Beyond a few feet, you can't see
+a thing.
+~
+0 ACDT 0
+D0
+Exit ~
+door~
+16384 0 21174
+D1
+Exit ~
+door~
+16384 0 21176
+S
+#21176
+A narrow tunnel in the rock~
+Pitch black darkness surrounds you, threatening to swallow you
+and your small light whole.  This is definitely not the same as
+where you just were, though you're hard pressed to figure out
+the difference.  Perhaps if you explore a little further it might
+make some sense.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16451 0 7019
+D3
+Exit ~
+door~
+16384 0 21175
+S
+#21177
+A long straight tunnel~
+For once the tunnel seems to be heading in a straight line, though
+your senses could be deceiving you.  The echos seem to be fainter in
+this part of the maze, just your own footsteps sounding loud.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21178
+D3
+Exit ~
+door~
+16384 0 21151
+S
+#21178
+A long straight tunnel~
+This part of the tunnel seems to be moving in a fairly straight
+path, though you could be wrong.  In the darkness deep below the
+surface, it is difficult to tell which way you are really going.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21179
+D3
+Exit ~
+door~
+16384 0 21177
+S
+#21179
+An intersection in the tunnels~
+Tunnels stretch out in all directions, each one exactly the same
+as the other.  The ceiling is much higher, you're standing in more
+of a cave than just an intersection, but there are still no 
+discerning features to this place, just endless rock and darkness.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21180
+D1
+Exit ~
+door~
+16384 0 21192
+D2
+Exit ~
+door~
+16384 0 21188
+D3
+Exit ~
+door~
+16384 0 21178
+S
+#21180
+A bend in the tunnel~
+Once again the tunnel turns, heading off in a new direction.  The
+utter darkness and unending rock hasn't changed, right now you'd do
+almost anything just for something different to look at.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21181
+D2
+Exit ~
+door~
+16384 0 21179
+S
+#21181
+A bend in the tunnel~
+Twists and turns every few feet are going to drive you mad, surely.
+Whoever built this place didn't seem to know about cutting in a single
+direction, though just cutting out this much rock is astounding.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21182
+D3
+Exit ~
+door~
+16384 0 21180
+S
+#21182
+A bend in the tunnel~
+The tunnel bends once again, making a sharp turn in the darkness.  
+You start to wonder where this is leading, if anywhere, or is it just
+someone's idea of a really bad joke.
+~
+0 ACDT 0
+D1
+Exit ~
+door~
+16384 0 21183
+D2
+Exit ~
+door~
+16384 0 21181
+S
+#21183
+A long narrow tunnel~
+For once the tunnel seems to be heading in a straight line, though
+your senses could be deceiving you.  The echos seem to be fainter in
+this part of the maze, just your own footsteps sounding loud.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21184
+D3
+Exit ~
+door~
+16384 0 21182
+S
+#21184
+A long narrow tunnel~
+For once the tunnel doesn't bend, it seems to run fairly straight here.
+Still, it looks exactly the same as everywhere else you've been, plain
+rough cut rock for walls and the floor, with no discerning features.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21185
+D3
+Exit ~
+door~
+16384 0 21183
+S
+#21185
+A bend in the tunnel~
+The tunnel bends yet again, after just a few small steps.  Trying to
+navigate down here at more than a slow walk would be impossible.  You
+hold your torch higher, but you still can't see anything more down here.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21186
+D3
+Exit ~
+door~
+16384 0 21184
+S
+#21186
+A bend in the tunnel~
+The long tunnel of darkness makes an abrupt turn, almost catching you
+off guard.  Scrapes and scuffles echo from in front and behind, but there's
+no way of knowing if the source is you or something else.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21187
+D2
+Exit ~
+door~
+16384 0 21185
+S
+#21187
+A dead end~
+Three blank walls and a pit of darkness are all you can make out here,
+the pit of darkness stretching off to the west.  The bare rock walls give
+no indication of where you are or where you should go, no scuffs or scrapes
+exist to show where others have gone before.
+~
+0 ACDT 0
+D3
+Exit ~
+door~
+16384 0 21186
+D4
+Exit ~
+door~
+16451 0 9502
+S
+#21188
+A long narrow tunnel~
+A small section of the tunnel seems to run in a straight line for a
+while, though you can't see anything ahead or behind you.  The light from
+your torch disappears into the darkness just a few feet away, bare rock
+the only thing you can see.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21179
+D2
+Exit ~
+door~
+16384 0 21189
+S
+#21189
+An intersection in the tunnel~
+The darkness stretches out before you in several directions, each
+looking exactly the same as the other.  You sigh, and trudge onwards,
+the darkness sapping your strength and will to go on.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21188
+D1
+Exit ~
+door~
+16384 0 21191
+D3
+Exit ~
+door~
+16384 0 21190
+S
+#21190
+A dead end~
+A blank wall is all you find, the only thing you can do is turn
+back the way you came.  The small panic deep inside your head tries
+to break out again, reminding you how long you've been lost down here
+in the dark.
+~
+0 ADT 0
+D1
+Exit ~
+door~
+16384 0 21189
+S
+#21191
+A bend in the tunnel~
+A sharp bend in the tunnel comes as no surprise, nothing seems to 
+be in a straight line down here.  Every few steps you are forced to
+change direction, frustrating in the murky darkness.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21192
+D3
+Exit ~
+door~
+16384 0 21189
+S
+#21192
+An intersection in the tunnels~
+Several tunnels split off in different directions, each looking
+just like the others.  There's no way of telling which way you should
+go, no matter how hard you strain your eyes you can see nothing down
+any of the tunnels.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21193
+D2
+Exit ~
+door~
+16384 0 21191
+D3
+Exit ~
+door~
+16384 0 21179
+S
+#21193
+A bend in the tunnels~
+The tunnel twists and turns, there's no way you can take more than
+a few steps in any one direction.  The darkness is oppressive, it seems
+more difficult to breath down here in the pitch black.  Strange echos
+sound from all over, there's no way to tell if they're from ahead or
+behind.
+~
+0 ACDT 0
+D1
+Exit ~
+door~
+16384 0 21194
+D2
+Exit ~
+door~
+16384 0 21192
+S
+#21194
+A bend in the tunnel~
+The tunnel takes a sharp turn, almost catching you off guard in the
+pitch black.  The light from your torch seems to be eaten by the darkness
+just a few short strides away, illuminating almost nothing.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16384 0 21195
+D3
+Exit ~
+door~
+16384 0 21193
+S
+#21195
+A dead end~
+A blank wall is a depressing find, after all the twists and turns
+in the darkness you were sure this tunnel lead somewhere.  The sound
+of dripping water is maddening, nearby yet far away, adding to your
+frustration at this place.  All there is to do is turn back.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 21194
+D4
+Exit ~
+door~
+16451 0 9588
+S
+#0
+
+#RESETS
+M 0 21100   1 21110  1	* a ghost
+G 1 21100  -1     	*   a potion of refresh
+M 0 21100   2 21143  1	* a ghost
+G 1 21101  -1     	*   a potion of flying
+M 0 21100   3 21150  1	* a ghost
+G 1 21100  -1     	*   a potion of refresh
+M 0 21100   4 21190  1	* a ghost
+G 1 21101  -1     	*   a potion of flying
+D 0 21100   2 16385	* A small, narrow tunnel south
+D 0 21166   0 16385	* A small, narrow tunnel north
+D 0 21105   1 16385	* A dead end east
+D 0 21163   1 16385	* A dead end east
+D 0 21132   4 16385	* A dead end up
+D 0 21134   4 16385	* A bend in the tunnel up
+D 0 21176   2 16385	* A narrow tunnel in the rock south
+D 0 21187   4 16385	* A dead end up
+D 0 21195   4 16385	* A dead end up
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

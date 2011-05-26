@@ -1,0 +1,554 @@
+#PLAYER
+Name Mythorn~
+Id   808720055
+Email (null)~
+LogO 1111103420
+Vers 31
+LnD  none
+~
+Desc Mythy looks at you mischievously.  You wonder what's on his mind.
+~
+Prom <w/%Y i/%I> ~
+Race dwarf~
+Outc 0
+RufT 0
+MatookT 0
+SkPTimer 0
+SkPTracker 5
+LogoutTracker 0
+Kill 0 0 0 0
+Steal 0 0 0
+LstK no one~
+LstKBy no one~
+LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1094011482
+LstKillDate 1084417651
+LstDeathDate 1084417651
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+Deity 0 mojo~
+Sac  52
+Sex  1
+Vump  0
+Node 0
+Cap 0
+Created 0
+Glad 0 0 0 0 0 0
+LastHost CPE005018049455-CM001225dfe472.cpe.net.cable.rogers.com~
+Cla  3
+ClaO 3
+Levl 53
+DLevl 0
+Plyd 9346010
+Not  1111102158 1111102228 1110969733 1110408641 1111102150 1111021118 1111102202 1111102225 1111102210 1111048001
+Scro 28
+Rank 5
+Room 22500
+HMV  1170 1170 304 409 356 356
+Gold 550
+Silv 0
+Exp  74200
+Act  DFHKNQ
+AfBy J
+Comm GORS
+Disp BFGHIJ
+IcgB V
+Icg 0
+Wizn ABCEFLRSX
+Invi 52
+Pos  5
+Prac 712
+Trai 186
+SkiP 31
+Alig  1000
+ACs 79 79 79 100
+Attr 25 25 25 25 25 13 13 13
+AMod 0 -2 0 1 0 0 0 0
+Pass MyEjIUONT3oGw~
+Bin  Mythorn drives up to you in a little car, beeping his horn at you as he enters.~
+Bout Mythorn speaks into a small device, and is suddenly engulfed in a shimmering    light. When it clears, the device and his clothes lie on the ground. A voice    comes from the device: "Very funny, Scotty, now beam up my clothes!"~
+Titl  SLED noogie maker.~
+Pnts 48
+TSex 1
+LLev 2587
+HMVP 1170 409 356
+Cnd  0 0 -1 -1
+Edit ABCEH
+ERange 1 50000
+Macro pos trans %1 31600~
+Macro home2 goto 1202~
+Macro leg trans %1 4900~
+Macro cam trans %1 4600~
+Macro nuke nochan %1;noemote %1;notell %1;noshout %1;freeze %1;trans %1 1212~
+Macro bwhome goto 30175~
+Macro sd edit;4;7;9;6;5;6;2;4;11~
+Macro nomob edit;room;mod;flags;2;done;exit~
+Macro thome edit;room;mod;flags;2;5;done;exit~
+Macro cir trans %1 4400~
+Macro matook trans %1 16500~
+Macro delete quit~
+Macro leave gecho The giggling fades away as Mythorn takes his leave; wizi 52~
+Macro appear wizi; gecho A maniacal giggling in your ear indicates that Mythorn has arrived.~
+Macro home goto 22500~
+Macro lvl load obj 30041; at %1 give gas %1; at %1 shake %1; grats Congrats to %1 on Level %2!!!; grats~
+Macro roomname edit room;mod;name;$1;exit~
+Macro bal trans %1 4500~
+Macro rid trans %1 6900~
+Macro asave edit;2;6;11~
+Macro own edit room;mod;owner;$1;exit~
+Macro desc edit room;mod;description~
+Macro extroom edit;room;mod;extended~
+Macro clanroom edit;room;mod;flag;indoor;safe;done;clan;%1;exit~
+Macro mstat stat mob %1~
+Macro ostat stat obj %1~
+Macro rstat stat room %1~
+Macro improom goto 17041~
+Macro note inote~
+Macro bm goto 10091~
+Macro dem trans %1 31400~
+Macro hon trans %1 31500~
+Macro zea trans %1 31801~
+Sk 100 'reserved'
+Sk 100 'opiate'
+Sk 100 'acid blast'
+Sk 100 'aid'
+Sk 100 'armor'
+Sk 100 'asphyxiate'
+Sk 100 'bestow holiness'
+Sk 100 'bless'
+Sk 100 'blindness'
+Sk 100 'blur'
+Sk 100 'body of stone'
+Sk 100 'body weaponry'
+Sk 100 'burning hands'
+Sk 100 'call lightning'
+Sk 100 'calm'
+Sk 100 'cancellation'
+Sk 100 'cause critical'
+Sk 100 'cause light'
+Sk 100 'cause serious'
+Sk 100 'chain lightning'
+Sk 100 'change sex'
+Sk 100 'charm person'
+Sk 100 'chill touch'
+Sk 100 'colour spray'
+Sk 1 'cone of silence'
+Sk 100 'continual light'
+Sk 100 'control weather'
+Sk 100 'create food'
+Sk 100 'create fountain'
+Sk 100 'create node'
+Sk 100 'create rose'
+Sk 100 'create spring'
+Sk 100 'create water'
+Sk 100 'crusade'
+Sk 100 'cure blindness'
+Sk 100 'cure critical'
+Sk 100 'cure disease'
+Sk 100 'cure light'
+Sk 100 'cure poison'
+Sk 100 'cure serious'
+Sk 100 'curse'
+Sk 100 'demonfire'
+Sk 100 'detect evil'
+Sk 100 'detect good'
+Sk 100 'detect hidden'
+Sk 100 'detect invis'
+Sk 100 'detect magic'
+Sk 100 'detect poison'
+Sk 100 'dispel evil'
+Sk 100 'dispel good'
+Sk 100 'dispel magic'
+Sk 100 'dust storm'
+Sk 100 'earthbind'
+Sk 100 'earthquake'
+Sk 100 'enchant armor'
+Sk 100 'enchant weapon'
+Sk 100 'endure cold'
+Sk 100 'endure heat'
+Sk 100 'energy drain'
+Sk 100 'enervation'
+Sk 100 'entrance'
+Sk 100 'faerie fire'
+Sk 100 'faerie fog'
+Sk 100 'famine'
+Sk 100 'farsight'
+Sk 100 'feast'
+Sk 100 'feeblemind'
+Sk 100 'fireball'
+Sk 100 'fireproof'
+Sk 100 'flamestrike'
+Sk 100 'flamesword'
+Sk 100 'floating disc'
+Sk 100 'fly'
+Sk 100 'forget'
+Sk 100 'frenzy'
+Sk 100 'fumble'
+Sk 100 'gate'
+Sk 100 'giant strength'
+Sk 100 'harm'
+Sk 100 'haste'
+Sk 100 'heal'
+Sk 100 'heat metal'
+Sk 100 'hold person'
+Sk 100 'holy silence'
+Sk 100 'holy word'
+Sk 100 'ice storm'
+Sk 100 'identify'
+Sk 100 'infravision'
+Sk 100 'invisibility'
+Sk 100 'irradiate'
+Sk 100 'knock'
+Sk 100 'know alignment'
+Sk 100 'lay on hands'
+Sk 100 'lightning bolt'
+Sk 100 'locate object'
+Sk 100 'magic missile'
+Sk 100 'mass healing'
+Sk 100 'mass invis'
+Sk 100 'mirror image'
+Sk 100 'mistform'
+Sk 100 'nexus'
+Sk 100 'orb of awakening'
+Sk 100 'orb of surprise'
+Sk 100 'orb of touch'
+Sk 100 'orb of turning'
+Sk 100 'pass door'
+Sk 100 'plague'
+Sk 100 'poison'
+Sk 100 'portal'
+Sk 100 'protection evil'
+Sk 100 'protection good'
+Sk 100 'protection neutral'
+Sk 100 'psionic blast'
+Sk 100 'ray of truth'
+Sk 100 'recharge'
+Sk 100 'refresh'
+Sk 100 'remove curse'
+Sk 100 'rust armor'
+Sk 100 'rust weapon'
+Sk 100 'sacred guardian'
+Sk 100 'sanctuary'
+Sk 100 'shield'
+Sk 100 'shocking grasp'
+Sk 100 'sleep'
+Sk 100 'slow'
+Sk 100 'smoke screen'
+Sk 100 'see soul'
+Sk 100 'stonefist'
+Sk 100 'stone skin'
+Sk 100 'summon'
+Sk 100 'teleport'
+Sk 100 'tower of iron will'
+Sk 100 'traveler fog'
+Sk 100 'ventriloquate'
+Sk 100 'visit node'
+Sk 100 'wall of wind'
+Sk 100 'warp'
+Sk 100 'water breathing'
+Sk 100 'weaken'
+Sk 100 'word of recall'
+Sk 100 'acid breath'
+Sk 100 'fire breath'
+Sk 100 'frost breath'
+Sk 100 'gas breath'
+Sk 100 'lightning breath'
+Sk 100 'small bomb'
+Sk 100 'high explosive'
+Sk 100 'animate dead'
+Sk 100 'summon dead'
+Sk 100 'cryogenesis'
+Sk 100 'draw life'
+Sk 1 'make bag'
+Sk 100 'turn undead'
+Sk 100 'withstand death'
+Sk 100 'wound transfer'
+Sk 100 'axe'
+Sk 100 'dagger'
+Sk 100 'flail'
+Sk 100 'mace'
+Sk 100 'polearm'
+Sk 100 'spear'
+Sk 100 'sword'
+Sk 100 'whip'
+Sk 100 'backstab'
+Sk 100 'throw'
+Sk 100 'bash'
+Sk 100 'berserk'
+Sk 100 'bite'
+Sk 100 'bleed'
+Sk 100 'daetok'
+Sk 100 'dirt kicking'
+Sk 100 'disarm'
+Sk 100 'dodge'
+Sk 100 'dual wield'
+Sk 100 'infiltrate'
+Sk 100 'kailindo'
+Sk 100 'enhanced damage'
+Sk 100 'weave resistance'
+Sk 100 'insanity'
+Sk 100 'envenom'
+Sk 100 'hand to hand'
+Sk 100 'kick'
+Sk 100 'morph'
+Sk 100 'parry'
+Sk 100 'rescue'
+Sk 100 'trip'
+Sk 100 'shield block'
+Sk 100 'scan'
+Sk 100 'second attack'
+Sk 100 'third attack'
+Sk 100 'chee'
+Sk 100 'communion'
+Sk 100 'fast healing'
+Sk 100 'haggle'
+Sk 100 'hide'
+Sk 100 'lore'
+Sk 100 'meditation'
+Sk 100 'peek'
+Sk 100 'pick lock'
+Sk 1 'sharpen'
+Sk 100 'slice'
+Sk 100 'sneak'
+Sk 100 'spellcraft'
+Sk 100 'steal'
+Sk 100 'scrolls'
+Sk 100 'staves'
+Sk 100 'wands'
+Sk 100 'swimming'
+Sk 100 'vorpal'
+Sk 100 'trap'
+Sk 100 'recall'
+Gr 'rom basics'
+Gr 'cleric basics'
+Gr 'cleric default'
+Gr 'weaponsmaster'
+Gr 'attack'
+Gr 'benedictions'
+Gr 'creation'
+Gr 'curative'
+Gr 'detection'
+Gr 'draconian'
+Gr 'harmful'
+Gr 'healing'
+Gr 'maladictions'
+Gr 'necromancy'
+Gr 'protective'
+Gr 'transportation'
+Gr 'weather'
+End
+
+#O
+Vnum 5243
+Nest 0
+PrevOwner (null)~
+Name ball juggling~
+ShD  a shiny new juggling ball~
+Desc A ball lies on the ground here, having been dropped by Mythorn.~
+Cond 0
+Wear 18
+Cost 100
+End
+
+#O
+Vnum 13
+Nest 0
+PrevOwner (null)~
+ShD  the heart of Mythorn~
+Desc The torn-out heart of Mythorn is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 0
+PrevOwner (null)~
+Name shiny new juggling ball~
+ShD  a shiny new juggling ball~
+Desc A fly wrapped in spider's silk lies here, dead.~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 10055
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 50
+End
+
+#O
+Vnum 9214
+Nest 0
+PrevOwner (null)~
+Name gold lipped underwear~
+ShD  a pair of gold-lipped underwear~
+Cond 0
+Wear 7
+Cost 1700
+End
+
+#O
+Vnum 13
+Nest 0
+PrevOwner (null)~
+ShD  the heart of Kuno~
+Desc The torn-out heart of Kuno is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12
+Nest 0
+PrevOwner (null)~
+ShD  the head of Ryoga~
+Desc The severed head of Ryoga is lying here.~
+ExtF 1
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5551
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 12
+Cost 100
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5553
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 3353
+Nest 0
+PrevOwner (null)~
+Name pair velvet padded handcuffs cuffs~
+ShD  a pair of velvet-padded handcuffs~
+Desc A pair of comfortable-looking velvet-padded steel handcuffs lies here, ready to be snapped on to your favourite kinky love partner.~
+WeaF 8193
+Cond 0
+Wear 16
+Lev  52
+Cost 900
+Val  12 12 12 12 1
+End
+
+#END

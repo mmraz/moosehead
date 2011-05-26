@@ -1,0 +1,289 @@
+#AREA
+../newareas/maclav.are~
+Flip Side~
+{ U/C } Maclav  Flip Side~
+18090 18099
+
+#MOBILES
+#18090
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#18091
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#18092
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 3000
+0 0 medium 0
+F par GHIJK
+#18093
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 3000
+0 0 medium 0
+F par GHIJK
+#18094
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#18090
+maclav bloody heart~
+Maclav's bloody heart~
+Maclav's bloody heart convulses at your feet.~
+meat~
+weapon IMORY AN
+dagger 666 1 wrath CDEI
+52 30 3000 P
+E
+~
+~
+#18091
+wooden ring small~
+a delicete woden ring~
+A small engraved wooden ring sits here on the ground.~
+wood~
+armor Y AB
+0 0 0 0 0
+0 10 0 P
+E
+wooden engrave ring~
+The words "Love Maclav" are engraved on the inside of the ring
+~
+#18092
+spotted grey rose~
+a spotted grey rose~
+A lovely grey rose covered with spots pokes through the ground.~
+plant~
+trash TY AO
+3000 53 81 57 -1
+0 100 0 P
+#18093
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#18094
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#0
+
+#ROOMS
+#18090
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 18091
+D5
+Exit ~
+door~
+0 0 18095
+S
+#18091
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 18090
+D4
+Exit ~
+door~
+1 0 18097
+D5
+Exit ~
+door~
+0 0 18092
+S
+#18092
+Generic room name~
+Generic room description.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 18091
+D5
+Exit ~
+door~
+0 0 18094
+S
+#18093
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#18094
+Generic room name~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 18095
+D4
+Exit ~
+door~
+0 0 18092
+S
+#18095
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 18094
+D4
+Exit ~
+door~
+0 0 18090
+D5
+Exit ~
+door~
+0 0 18096
+S
+#18096
+Generic room name~
+Generic room description.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 18095
+S
+#18097
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 18098
+D5
+Exit ~
+door~
+1 0 18091
+S
+#18098
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 18097
+D4
+Exit ~
+door~
+0 0 18099
+S
+#18099
+Generic room name~
+Generic room description.
+~
+0 0 0
+D5
+Exit ~
+door~
+0 0 18098
+S
+#0
+
+#RESETS
+D 0 18091   2    1	* Generic room name south
+D 0 18092   0    1	* Generic room name north
+D 0 18092   1    1	* Generic room name east
+M 0 1200   1 18090  1	* Heimdall
+O 0 3032 100 18093	* a bag
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+P 1 16140  -1 3032 15	*   a batch of fresh chocolate chip cookies
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

@@ -1,0 +1,659 @@
+#AREA
+/mud/moosehead/area/cwarsbb.are~
+Gladiator Arena~
+{ ALL } Dallas  Gladiator Arena~
+10800 10824
+
+#MOBILES
+#10800
+Priest~
+A priest is here absolving you of your past sins~
+A priest is here absolving you of your past sins.
+~
+A priest is here overseeing the slaughter down below.
+He can absolve you of your past transgressions so that you can
+die without any worries.
+type 'heal' for a list of forgivable sins.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQVae DFH 1000 0
+51 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCDLMNQ 0 0
+stand stand male 0
+0 0 medium 0
+#10801
+Emperor Vespasian~
+Vespasian the Roman Emperor~
+Vespasian stands here overlooking the Collosseum and the gladiators.
+~
+Flavius Vespasian the famous army commander and now Emperor of Rome and
+creator of this great Collosseum, stands here causing you to want to bow
+and worship this great man. Strong and very charismatic, you wouldn't
+be able to think of such a great man as he. Ask him for help and you
+will recieve, for a small price of course.
+~
+dwarf~
+(null)~
+(null)~
+(null)~
+ABGQUVac DFHTVZc 0 0
+51 100 50d10+5500 100d100+100 50d1+50 divine
+-50 -50 -50 -50
+ABEFHKU ABCD 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+#10802
+Thracius~
+Thracius the Gladiator~
+Thracius stands here overlooking your team's progress.
+~
+Thracius the renowned Gladiator stands tall, towering over you. His body
+build like an olympian, sort of makes you jealous. His biceps must be over
+25" as his leather band around his biceps shows signs of stretching. His 
+chest is built like an ox with the pecs extruding tremendously. Thracius
+looks towards you, smiles and wishes you good luck.
+~
+dwarf~
+(null)~
+(null)~
+(null)~
+ABGQUVac DFHTVZc 0 0
+51 100 50d10+5500 100d100+100 50d1+50 divine
+-50 -50 -50 -50
+ABEFHKU ABCD 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+#10803
+Samunite~
+Samunite the Barbarian~
+Samunite stands here over looking your team's progress.
+~
+Here stands one of the greatest Barbarians to live. Samunite doesn't appear
+dangerous. His stomach with age has rounded and he's grown plump and chubby.
+His arms and vigarous look enable him to still show signs of life in the 
+arena. With his large battle axe slung on his back and the leather armour
+strapped around his chest, Samunite hasn't lost the barbarian appeal.
+His arms have lost size since his days of youth but still at 18" thick,
+they strike fear in the opposition. He looks towards you and with his
+large mouth covered by his viking beard, he speaks, "Hey there little 
+one, I'ed join you on the field, but in my old age I wouldn't stand a 
+chance against young lads like yourself, but here, I'ed be more then 
+happy to help you out, need to buy any potions or such?".
+~
+dwarf~
+(null)~
+(null)~
+(null)~
+ABGQUVac DFHTVZc 0 0
+51 100 50d10+5500 100d100+100 50d1+50 divine
+-50 -50 -50 -50
+ABEFHKU ABCD 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+#0
+
+#OBJECTS
+#10800
+potion sanct sanctuary~
+a potion of sanctuary~
+A potion of sanctuary is here.~
+glass~
+potion G AO
+20 'sanctuary' '' '' ''
+11 10 1600 P
+#0
+
+#ROOMS
+#10800
+West Wall of the Collosseum~
+Standing inside the great collosseum of Emperor Vespasian, you can't help
+but stand and notice the sheer size. The wall has been covered with blood
+stains from previous gladitorial combats and beasts slayed here. The ground
+is covered with ancient sand with blood stained on it and small pieces of
+bone scattered all over.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10801
+D1
+Exit ~
+door~
+16384 0 10809
+S
+#10801
+West Wall of the Collosseum~
+Standing inside the great collosseum of Emperor Vespasian, you can't help
+but stand and notice the sheer size. The wall has been covered with blood
+stains from previous gladitorial combats and beasts slayed here. The ground
+is covered with ancient sand with blood stained on it and small pieces of
+bone scattered all over.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10802
+D1
+Exit ~
+door~
+16384 0 10808
+D2
+Exit ~
+door~
+16384 0 10800
+D3
+Exit ~
+door~
+16384 0 10803
+S
+#10802
+West Wall of the Collosseum~
+Standing inside the great collosseum of Emperor Vespasian, you can't help
+but stand and notice the sheer size. The wall has been covered with blood
+stains from previous gladitorial combats and beasts slayed here. The ground
+is covered with ancient sand with blood stained on it and small pieces of
+bone scattered all over.
+~
+0 CDNU 0
+D1
+Exit ~
+door~
+16384 0 10807
+D2
+Exit ~
+door~
+16384 0 10801
+S
+#10803
+Beast Cage~
+Claw and fang marks cover the black stone walls. Entrails from the beast's 
+meals have been left on the ground covering it with blood. A human's skull
+lies in the corner, more then likely the beast's ex-master. The cage that
+would normally keep the beast inside here has been left opened.
+~
+0 CDNU 0
+D1
+Exit ~
+door~
+16384 0 10801
+S
+#10804
+South Wall of the Collosseum~
+Standing inside the great collosseum of Emperor Vespasian, you can't help
+but stand and notice the sheer size. The wall has been covered with blood
+stains from previous gladitorial combats and beasts slayed here. The ground
+is covered with ancient sand with blood stained on it and small pieces of
+bone scattered all over.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10810
+D3
+Exit ~
+door~
+16384 0 10814
+S
+#10805
+Center of the Collosseum~
+The ground here feels slushy as you notice you're standing in fresh blood
+spilled from a previous event. A shattered tip of a sword has been left on
+the ground here mixed in the marks of feet scattering about in apparent 
+panic. The screams of death still echo here.
+~
+0 CDNU 0
+D1
+Exit ~
+door~
+16384 0 10815
+D3
+Exit ~
+door~
+16384 0 10808
+S
+#10806
+North Wall of the Collosseum~
+Standing inside the great collosseum of Emperor Vespasian, you can't help
+but stand and notice the sheer size. The wall has been covered with blood
+stains from previous gladitorial combats and beasts slayed here. The ground
+is covered with ancient sand with blood stained on it and small pieces of
+bone scattered all over.
+~
+0 CDNU 0
+D1
+Exit ~
+door~
+16384 0 10813
+D2
+Exit ~
+door~
+16384 0 10807
+S
+#10807
+Center of the Collosseum~
+The ground here feels slushy as you notice you're standing in fresh blood
+spilled from a previous event. A shattered tip of a sword has been left on
+the ground here mixed in the marks of feet scattering about in apparent 
+panic. The screams of death still echo here.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10806
+D1
+Exit ~
+door~
+16384 0 10812
+D2
+Exit ~
+door~
+16384 0 10808
+D3
+Exit ~
+door~
+16384 0 10802
+S
+#10808
+Center of the Collosseum~
+The ground here feels slushy as you notice you're standing in fresh blood
+spilled from a previous event. A shattered tip of a sword has been left on
+the ground here mixed in the marks of feet scattering about in apparent 
+panic. The screams of death still echo here.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10807
+D1
+Exit ~
+door~
+16384 0 10805
+D2
+Exit ~
+door~
+16384 0 10809
+D3
+Exit ~
+door~
+16384 0 10801
+S
+#10809
+Center of the Collosseum~
+The ground here feels slushy as you notice you're standing in fresh blood
+spilled from a previous event. A shattered tip of a sword has been left on
+the ground here mixed in the marks of feet scattering about in apparent 
+panic. The screams of death still echo here.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10808
+D1
+Exit ~
+door~
+16384 0 10810
+D2
+Exit ~
+door~
+16384 0 10814
+D3
+Exit ~
+door~
+16384 0 10800
+S
+#10810
+Center of the Collosseum~
+The ground here feels slushy as you notice you're standing in fresh blood
+spilled from a previous event. A shattered tip of a sword has been left on
+the ground here mixed in the marks of feet scattering about in apparent 
+panic. The screams of death still echo here.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10811
+D1
+Exit ~
+door~
+16384 0 10819
+D2
+Exit ~
+door~
+16384 0 10804
+D3
+Exit ~
+door~
+16384 0 10809
+S
+#10811
+Center of the Collosseum~
+The ground here feels slushy as you notice you're standing in fresh blood
+spilled from a previous event. A shattered tip of a sword has been left on
+the ground here mixed in the marks of feet scattering about in apparent 
+panic. The screams of death still echo here.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10812
+D1
+Exit ~
+door~
+16384 0 10818
+D2
+Exit ~
+door~
+16384 0 10810
+D3
+Exit ~
+door~
+16384 0 10815
+S
+#10812
+Center of the Collosseum~
+The ground here feels slushy as you notice you're standing in fresh blood
+spilled from a previous event. A shattered tip of a sword has been left on
+the ground here mixed in the marks of feet scattering about in apparent 
+panic. The screams of death still echo here.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10813
+D1
+Exit ~
+door~
+16384 0 10817
+D2
+Exit ~
+door~
+16384 0 10811
+D3
+Exit ~
+door~
+16384 0 10807
+S
+#10813
+North Wall of the Collosseum~
+Standing inside the great collosseum of Emperor Vespasian, you can't help
+but stand and notice the sheer size. The wall has been covered with blood
+stains from previous gladitorial combats and beasts slayed here. The ground
+is covered with ancient sand with blood stained on it and small pieces of
+bone scattered all over.
+~
+0 CDNU 0
+D2
+Exit ~
+door~
+16384 0 10812
+D3
+Exit ~
+door~
+16384 0 10806
+S
+#10814
+South Wall of the Collosseum~
+Standing inside the great collosseum of Emperor Vespasian, you can't help
+but stand and notice the sheer size. The wall has been covered with blood
+stains from previous gladitorial combats and beasts slayed here. The ground
+is covered with ancient sand with blood stained on it and small pieces of
+bone scattered all over.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10809
+D1
+Exit ~
+door~
+16384 0 10804
+S
+#10815
+Center of the Collosseum~
+The ground here feels slushy as you notice you're standing in fresh blood
+spilled from a previous event. A shattered tip of a sword has been left on
+the ground here mixed in the marks of feet scattering about in apparent 
+panic. The screams of death still echo here.
+~
+0 CDNU 0
+D1
+Exit ~
+door~
+16384 0 10811
+D3
+Exit ~
+door~
+16384 0 10805
+S
+#10816
+Lion's Cage~
+The solid walls appear to be un-marked still showing their original Roman
+artistic look. In the corner lies a pile of bones and human entrails from
+the Lion's kills. The cage's doors have been left open exposing the large
+collosseum and the crys of death.
+~
+0 CDNU 0
+D3
+Exit ~
+door~
+16384 0 10818
+S
+#10817
+East Wall of the Collosseum~
+Standing inside the great collosseum of Emperor Vespasian, you can't help
+but stand and notice the sheer size. The wall has been covered with blood
+stains from previous gladitorial combats and beasts slayed here. The ground
+is covered with ancient sand with blood stained on it and small pieces of
+bone scattered all over.
+~
+0 CDNU 0
+D2
+Exit ~
+door~
+16384 0 10818
+D3
+Exit ~
+door~
+16384 0 10812
+S
+#10818
+East Wall of the Collosseum~
+Standing inside the great collosseum of Emperor Vespasian, you can't help
+but stand and notice the sheer size. The wall has been covered with blood
+stains from previous gladitorial combats and beasts slayed here. The ground
+is covered with ancient sand with blood stained on it and small pieces of
+bone scattered all over.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10817
+D1
+Exit ~
+door~
+16384 0 10816
+D2
+Exit ~
+door~
+16384 0 10819
+D3
+Exit ~
+door~
+16384 0 10811
+S
+#10819
+East Wall of the Collosseum~
+Standing inside the great collosseum of Emperor Vespasian, you can't help
+but stand and notice the sheer size. The wall has been covered with blood
+stains from previous gladitorial combats and beasts slayed here. The ground
+is covered with ancient sand with blood stained on it and small pieces of
+bone scattered all over.
+~
+0 CDNU 0
+D0
+Exit ~
+door~
+16384 0 10818
+D3
+Exit ~
+door~
+16384 0 10810
+S
+#10820
+Arena Preparation Room~
+The room looks out over all the collosseum exposing the reality of the
+upcoming bloodshed. Prepare to fight for your honor and your life!
+~
+0 CDKNUW 0
+H 2000 M 2000
+S
+#10821
+Gladiator's Preparation Room~
+The room looks out over all the collosseum exposing the reality of the
+upcoming bloodshed. Prepare to kill some Barbarians!
+~
+0 CDKNUW 0
+H 2000 M 2000
+D1
+Exit ~
+door~
+16385 0 10800
+D5
+Exit ~
+door~
+16451 0 10815
+S
+#10822
+Clan Dallas Hall~
+Here in Clan Dallas, you feel rather comfortable. Maybe it's those
+magazines on the coffee table or the lazy-boy recliner you're sitting on,
+but whatever it is, you're in heaven. In the corner is an antique cabinet
+with a padlock to keep people like you out. Paintings of Dallas's clan life
+hang on the wall, reminding him of the old days. The mini-fridge sitting
+beside the recliner is stuffed with beer bottles yet to be drank and it best
+stay that way. A plaque hangs on the wall telling anyone who wasn't invited
+here to please leave before Dallas returns. Otherwise, you feel rather
+pleasant relaxing in his lazy-boy. Just don't mess up the groove he's
+worked so hard to create.
+~
+0 CDJKNTUW 0
+H 5000 M 5000
+O dallas~
+D5
+Exit ~
+door~
+16451 0 10807
+S
+#10823
+High above the Battlefield~
+The screams of the wounded and dying grate on your nerves as you
+make you way cautiously around the battlefield.  You wonder if 
+your next encouter with the ennemy will be your last.
+~
+0 CDLNP 0
+S
+#10824
+Barbarian's Preparation Room~
+The room looks out over all the collosseum exposing the reality of the
+upcoming bloodshed. Prepare to kill some Gladiators!
+~
+0 CDKNUW 0
+H 2000 M 2000
+D3
+Exit ~
+door~
+16385 0 10819
+S
+#0
+
+#RESETS
+D 0 10822   5 16385	* Clan Dallas Hall down
+M 0 10800   1 10823  1	* A priest is here absolving you of your past sins
+M 0 10801   1 10820  1	* Vespasian the Roman Emperor
+G 1 10800  -1     	*   a potion of sanctuary
+G 1 11086  -1     	*   a cyan potion
+G 1 3034  -1     	*   a potion of vision
+G 1  710  -1     	*   a sanct potion
+G 1 3084  -1     	*   a potion of cure serious wounds
+G 1  723  -1     	*   a haste potion
+G 1 3050  -1     	*   a raft
+G 1  712  -1     	*   some dragon jerky
+G 1 3091  -1     	*   a potion of flying
+G 1 9573  -1     	*   an off white potion
+G 1 9571  -1     	*   a deep-green potion
+G 1  711  -1     	*   some unholy water
+G 1 3082  -1     	*   a potion of divine protection
+G 1 4316  -1     	*   a shot of whiskey
+D 0 10820   5 16385	* Arena Preparation Room down
+M 0 10802   1 10821  1	* Thracius the Gladiator
+G 1 10800  -1     	*   a potion of sanctuary
+G 1 4316  -1     	*   a shot of whiskey
+G 1 3082  -1     	*   a potion of divine protection
+G 1 9571  -1     	*   a deep-green potion
+G 1 9573  -1     	*   an off white potion
+G 1 3091  -1     	*   a potion of flying
+G 1  712  -1     	*   some dragon jerky
+G 1 3050  -1     	*   a raft
+G 1 3084  -1     	*   a potion of cure serious wounds
+G 1 11086  -1     	*   a cyan potion
+G 1 3034  -1     	*   a potion of vision
+G 1  710  -1     	*   a sanct potion
+G 1  723  -1     	*   a haste potion
+G 1  711  -1     	*   some unholy water
+G 1 4316  -1     	*   a shot of whiskey
+D 0 10821   5 16385	* Gladiator's Preparation Room down
+M 0 10803   1 10824  1	* Samunite the Barbarian
+G 1 10800  -1     	*   a potion of sanctuary
+G 1 4316  -1     	*   a shot of whiskey
+G 1 3082  -1     	*   a potion of divine protection
+G 1  711  -1     	*   some unholy water
+G 1 9571  -1     	*   a deep-green potion
+G 1 9573  -1     	*   an off white potion
+G 1 3091  -1     	*   a potion of flying
+G 1  712  -1     	*   some dragon jerky
+G 1 3050  -1     	*   a raft
+G 1  723  -1     	*   a haste potion
+G 1 3084  -1     	*   a potion of cure serious wounds
+G 1  710  -1     	*   a sanct potion
+G 1 3034  -1     	*   a potion of vision
+G 1 11086  -1     	*   a cyan potion
+S
+
+#SHOPS
+10801 10 17 19  1 22 	 600   0 	 0 24 	* Vespasian the Roman Emperor
+10802 10 17 19  1 22 	 600   0 	 0 24 	* Thracius the Gladiator
+10803 10 17 19  1 22 	 600   0 	 0 24 	* Samunite the Barbarian
+0
+
+#SPECIALS
+M 10800 spec_cast_adept     	* A priest is here absolving you of your past sins
+M 10801 spec_cast_adept     	* Vespasian the Roman Emperor
+M 10802 spec_cast_adept     	* Thracius the Gladiator
+M 10803 spec_cast_adept     	* Samunite the Barbarian
+S
+
+#$

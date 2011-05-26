@@ -1,0 +1,181 @@
+Sender  Laimen~
+Date    Tue Jun 12 20:31:02 2001~
+Stamp   992395862
+To      Guerrand ~
+Subject Code tweaks ~
+Text
+I address the following code problems in this note: 
+Walking out midfight after a death or flee, mobs using skills while charmed, 
+free round of combat after being rescued, Ruffian flags not being assigned 
+(Comment only)  These coding suggestions are serious fix suggestions, so you 
+might want to copy/paste this note then do a find and replace all @ with left 
+curly brace (Due to color code those would be removed if I used them so I 
+replaced all of them with @'s) 
+
+-------------------------------------------------------------------------------
+
+
+The problem with walking out of midfight after a death or flee shows as when 
+you kill an enemy OR the enemy flees, you can simply walk out of the room even 
+if someone else is in combat with you.  The reason for this is because 
+stop_fighting is passed TRUE for fBoth when either of these events happens, 
+and if the character takes advantage of not fighting can leave before the 
+engine reinitiates with the opponent.  Here is my proposed fix, with negligible
+increase in processing time, and possibly a decrease because it no longer 
+cycles the entire list just to make the current char stop fighting. 
+(fBoth==FALSE) (This is more than one line so entire function included): 
+
+void stop_fighting( CHAR_DATA *ch, bool fBoth ) 
+@ 
+.   CHAR_DATA *fch; 
+.   CHAR_DATA *och;//other character 
+.   ch->fighting       = NULL;//first always end the ch's fighting 
+.   ch->position       = IS_NPC(fch) ? ch->default_pos : POS_STANDING; 
+.   update_pos( ch ); 
+.   if(fBoth) 
+.   @ 
+.       for ( fch = char_list; fch != NULL; fch = fch->next ) 
+.       @ 
+.           if(fch->fighting == ch ) 
+.           @//if this character is fighting the character that fled or died 
+.               for(och = char_list; och!=NULL; och = och->next ) 
+.               @//walk through the character list again 
+.                   if(och->fighting==fch&&och!=ch) 
+.                       break; 
+//somebody is still fighting this character, that's all that matters 
+.               } 
+//if och is NULL it means nobody is still fighting so it's okay to end combat 
+.               if(!och) 
+.               @ 
+.                   fch->fighting = NULL; 
+.                   fch->position = IS_NPC(fch) ? fch->default_pos \ 
+: POS_STANDING; 
+.                   update_pos( fch ); 
+.               } 
+.           } 
+.       }
+.   } 
+
+.   return; 
+} 
+
+-------------------------------------------------------------------------------
+
+While mobs using skills while charmed when not ordered to is not what some 
+think of as a bug it makes huge charmy armies incredibly powerful by disarming 
+and/or tripping/bashing without mtaking any of the caster's time to order. 
+With this minor tweak mobs would still use their automatic skills while 
+fighting other mobs, but not players unless ordered to do so. Normal combat 
+would not be changed. Partial function only listed, because the change is 
+very minor (Change occurs immediately after normal attacks but before any 
+skills, on the same line ch->wait is checked): 
+
+void mob_hit (CHAR_DATA *ch, CHAR_DATA *victim, int dt) 
+@ 
+
+...//normal attack code 
+
+. /* oh boy! Fun stuff! */ 
+
+. if (ch->wait > 0 || (ch->master&&!IS_NPC(victim))) 
+. return;//if charmed and fighting a player, no skills allowed 
+
+...//mob use of skills/spells 
+
+} 
+
+Continued...
+~
+Sender  Laimen~
+Date    Tue Jun 12 20:34:18 2001~
+Stamp   992396058
+To      Guerrand~
+Subject Code tweaks 2~
+Text
+The free round of combat from reinitiating while grouped has been called a bug 
+at times, so here is the easy way to fix it. If rescued and the player 
+manually attacks, they will still get a free round but since it will do a 
+pulse violence for initiating this is much more fair than autoassist rounds 
+because it costs the player time to do. Partial function only listed, because 
+the change is very minor (Change occurs at the end of the function when 
+normally combat is ended and left ended for the rescued 'victim'): 
+
+void do_rescue( CHAR_DATA *ch, char *argument ) 
+@ 
+
+...//normal rescue check code, if not successful never reaches this part 
+
+. act( "You rescue $N!", ch, NULL, victim, TO_CHAR ); 
+. act( "$n rescues you!", ch, NULL, victim, TO_VICT ); 
+. act( "$n rescues $N!", ch, NULL, victim, TO_NOTVICT ); 
+. check_improve(ch,gsn_rescue,TRUE,1); 
+
+. stop_fighting( fch, FALSE ); 
+. stop_fighting( victim, FALSE ); 
+
+. check_killer( ch, fch ); 
+. set_fighting( ch, fch ); 
+. set_fighting( fch, ch ); 
+. //if autoassisting and in the same group as the rescuer, make the rescued 
+. //player set_fighting this will remove the free round of combat unless they 
+. //manually type hit, with autoassist off which will fix the abusable free 
+. //round (Using skills or having charmies rescue) 
+. if(IS_SET(victim->act,PLR_AUTOASSIST)&&is_same_group(ch,victim)) 
+. set_fighting(victim, fch);//make them keep fighting, no reinitiate round 
+. return; 
+} 
+
+-------------------------------------------------------------------------------
+
+Comment on ruffians not being assigned: The situation where ruffians fail to 
+be assigned is if an unflagged character is already fighting, and is attacked 
+by another unflagged character. Why the flag is not assigned is a mystery to 
+me, because based on this code that I was working from the killer flag WILL be 
+assigned, even if the victim is already fighting. This means that the 
+check_killer function (which should have been retained, but as check_ruffian) 
+has been removed and not properly replaced. An example is look at the function 
+above, the check_killer is still there but I don't believe if you rescue you 
+get a ruffian for fighting (Could be wrong, but if the function has been 
+removed it won't) All skills used, murder, and hit have check_killer upon use 
+of the skill, and none have any checks for if victim is in combat. I haven't 
+found where spells are handled but I suspect they're the same. So, for all 
+I've been told it can't be fixed, the change looks like it was made either on 
+purpose, or through an incomplete (or just poor) transition to the new flag 
+system, since it worked with the original system. 
+
+-------------------------------------------------------------------------------
+
+Well there's what I found from going through the fight.c file, I'd be able to 
+do more if I had the actual code but you had a good point about recreating the 
+wheel, and it would be a waste of effort (And inaccurate besides since I 
+haven't seen the actual functions) to try to rewrite it more efficiently.
+Maybe you'll want to implement these :)
+
+Enjoy! 
+
+Laimen 
+~
+Sender  Guerrand~
+Date    Tue Jun 12 21:04:49 2001~
+Stamp   992397889
+To      Laimen~
+Subject Code~
+Text
+
+I confess to not understanding our current flag system, nor having any
+interest in it.  I like the KILLER/non KILLER system, but we can't go back
+to that.  You're unlikely to motivate me to look at it.
+
+As for any other code you think you have fixed, email it to ben@slapshot.org.
+I'm not sure what exactly you're doing here and I need a more detailed
+description of the bugs that your code is attempting to address.
+
+-Guerrand
+~
+Sender  Rusty~
+Date    Fri Jun 15 09:12:51 2001~
+Stamp   992614371
+To      rusty~
+Subject foo~
+Text
+~

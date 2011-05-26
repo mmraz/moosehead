@@ -1,0 +1,721 @@
+#AREA
+/mud/moosehead/area/balance.are~
+Balance Clan Hall~
+{ all }         Balance Clan Hall~
+4500 4592
+
+#MOBILES
+#4500
+shopkeeper old man~
+the ancient potion-brewer~
+An old man eyes you greedily.
+The old man says, 'Would you like to buy a nice love potion?'
+~
+He looks very dangerous.  I wouldn't try to rob him.
+~
+human~
+ABQRV DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#4501
+healer~
+the healer~
+A healer is here, selling spells.
+~
+Although retired from adventuring, the healer still lends a hand.
+Type 'heal' to see a listing of spells.
+~
+human~
+ABQa DFH 1000 0
+44 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#4502
+bartender dominus~
+the bartender~
+The Balance Clan Bartender
+~
+This is an aged Balance member, now retired.  He smiles at you warmly
+and offers to sell you a beverage, or perhaps some of Wilf's famous
+chicken wings.
+~
+human~
+ABT DF 0 0
+1 1 10d10+100 10d10+10 10d10+200 slice
+-50 -50 -50 -50
+EFNU ABCD 0 0
+stand stand male 2000
+0 0 large 0
+F par GHIJK
+#4503
+ghost~
+Sneaker's ghost~
+A ghost is here, sneaking among the shadows.
+~
+The man standing before you is the epitome of bad etiquette and 
+horrible hygiene.  His only redeeming qualities are that he..er..
+he likes...that is..hrmmm..why don't you just kill him and do
+the world a favor?
+~
+human~
+AGT 0 -500 0
+24 0 5d10+500 10d10+100 2d10+6 cleave
+-6 -6 -6 -6
+DEFNU A 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#4504
+potion brewer~
+a potion brewer~
+An unemployed potion brewer is here, looking miserable.
+~
+The potion brewer has been sitting here, waiting for Balance members to
+come along and buy potions, for many months. He is covered with dust and
+cobwebs.
+~
+human~
+AB N 0 0
+28 0 6d12+778 14d9+100 2d12+8 none
+-7 -7 -7 6
+EFNU A 0 0
+stand stand male 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#4500
+alia~
+a stone statue of Alia~
+A statue of Alia with arms raised.~
+~
+furniture OR 0
+0 0 0 0 0
+0 1 1 R
+E
+statue~
+A beautiful Elven mage, Alia is depicted casting a spell of goodwill and 
+blessing towards Balance as she opens the clan hall for the first time.
+~
+E
+alia~
+The beautiful Elven mage, Alia is depicted casting a spell of goodwill and
+blessing towards Balance as she opens the clan hall for the first time.
+~
+#4501
+lokkar~
+a stone state of Lokkar~
+A statue of Lokkar ready to accept new Balance members.~
+~
+furniture OR 0
+0 0 0 0 0
+0 1 1 R
+E
+statue~
+Lokkar, a Human warrior, is carved standing proudly marking the opening
+day of Balance clan hall.
+~
+E
+Lokkar~
+Lokkar, a Human warrior, is carved standing proudly marking the opening
+day of Balance clan hall.
+~
+#4502
+Krantzstone~
+a stone statue of Krantzstone~
+A statue of Krantzstone with arms outstretched.~
+~
+furniture OR 0
+0 0 0 0 0
+0 1 1 R
+E
+statue~
+An older Human cleric, Krantzstone is shown healing one of his fellow
+clan members with gentle care.
+~
+E
+krantzstone~
+An older Human cleric, Krantzstone is shown healing one of his fellow
+clan members with gentle care.
+~
+#4503
+Alucard~
+a stone statue of Alucard~
+A statue of Alucard fighting in battle.~
+~
+furniture OR 0
+0 0 0 0 0
+0 1 1 R
+E
+statue~
+A Giant warrior, Alucard holds his sword in an attack position defending
+Balance against any foe.
+~
+E
+Alucard~
+A Giant warrior, Alucard holds his sword in an attack position defending
+Balance against any foe.
+~
+#4504
+BloodMoon~
+a stone statue of BloodMoon~
+A statue of BloodMoon in flight.~
+~
+furniture OR 0
+0 0 0 0 0
+0 1 1 R
+E
+statue~
+A Dragon warrior, BloodMoon is shown in flight as she rushes to the rescue
+of a fellow clanner.
+~
+#4505
+Briareu~
+a stone statue of Briareu~
+A statue of Briareu standing proudly.~
+~
+furniture OR 0
+0 0 0 0 0
+0 1 1 R
+E
+statue~
+Briareu, a Human warrior, is shown in his prime, as he brandishes his
+sword for Balance.
+~
+E
+Briareu~
+Briareu, a Human warrior, is shown in his prime, as he brandishes his
+sword for Balance.
+~
+#4506
+Randell statue~
+a stone statue of Randell~
+A statue of Randell holding a golden Balance.~
+~
+furniture OR 0
+0 0 0 0 0
+0 1 1 R
+E
+sneaker~
+You see Sneaker approaching someone from behind with a dagger held high.
+The victim seems to have not noticed the hunter. The pain is clearly seen
+on Sneaker's face.
+~
+E
+statue~
+A fairly new statue of a young thief, Sneaker is depicted holding a dagger
+in one hand that has a small symbol of balance on it.
+~
+E
+Randell~
+A fairly new statue of a young, handsome, Human cleric, Randell is
+depicted kneeling to his God, Sonari, with a golden Balance in hand.
+~
+#4507
+sneaker statue~
+Sneakers Statue~
+A statue of Sneaker backstabbing someone.~
+~
+furniture OR 0
+0 0 0 0 0
+52 1 1 R
+E
+sneaker~
+A fairly new statue of a young thief, Sneaker is depicted holding a dagger
+in one hand that has a small symbol of balance on it.
+~
+#4508
+Drow~
+the magical Vortex~
+~
+~
+portal RS P
+0 0 0 5100 0
+0 100 0 P
+#4509
+Haon~
+the magical Vortex~
+~
+~
+portal RS P
+0 0 0 6102 0
+0 100 0 P
+#4510
+bar key~
+a bar key~
+~
+~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#4511
+black leather couch~
+a black leather couch~
+You see a comfortable black leather couch here.~
+~
+furniture 0 0
+5 0 CFIL 100 100
+0 100 0 P
+#4512
+elemental canyon~
+the magical Vortex~
+~
+~
+portal R P
+0 0 0 9209 0
+0 100 0 P
+#4513
+pyramid~
+the magical Vortex~
+~
+~
+portal R P
+0 0 0 8701 0
+0 100 0 P
+#4514
+oldthalos~
+the magical Vortex~
+~
+~
+portal R P
+0 0 0 5300 0
+0 100 0 P
+#4515
+sands sorrow~
+the magical Vortex~
+~
+~
+portal R P
+0 0 0 5001 0
+0 100 0 P
+#4516
+couch purple~
+a purple couch~
+An odd looking purple couch is resting on the nearby ground.~
+~
+furniture CR AP
+4 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+0 10000 0 P
+#4517
+statue Quicksilver~
+A statue of Quicksilver~
+A statue of the brave warrior Quicksilver in one of many battles.~
+~
+furniture OR 0
+0 0 0 0 0
+0 1 1 R
+E
+statue quicksilver~
+Quicksilver was a brave soldier who would not let his fellows clan members
+go down without him giving all he had to protect their lives.  But,
+unfortunately for us all, a higher power took him from us.  He rests high
+above, still watching over his beloved clan and guiding its members by
+powers unkown to mankind.
+~
+E
+statue~
+A Dragon warrior, BloodMoon is shown in flight as she rushes to the rescue
+of a fellow clanner.
+~
+#4518
+fountain water~
+the fountain~
+a fountain of spring water~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+fountain marble~
+This beautiful marble fountain depicts a meeting between the four
+mighty creatures of legend: the fiery phoenix, the mighty gryphon,
+the cunning manticore and the powerful dragon.  Legend speaks of a
+pact sealed between them, which dictated the mixture of their life
+essences in the creation of one entity: Kunji.
+~
+#4519
+table~
+a long, scarred oaken table~
+A long, scarred oaken table stands here.~
+wood~
+furniture OTY 0
+10 0 D 100 100
+0 0 0 P
+E
+table~
+An Oaken table stands here, riddled with scars from mailed fists,
+and bored daggers.  The War Table has been the location for many meetings
+of great importance to Clan Balance
+~
+#4520
+aggro~
+a statue of Aggro~
+A statue of Aggro, larger than life and grinning evilly.~
+stone~
+furniture ORTY 0
+0 0 0 0 0
+52 1 1 R
+E
+aggro~
+A giant warrior, Aggro, is show grinning as he balances the world.
+~
+E
+guido~
+A human thief, Guido, is depicted in deep thought, pondering clan affairs.
+~
+#4521
+Guido statue~
+a statue of Guido~
+A human thief, Guido, is depicted in deep thought, pondering what to do with his hair.~
+stone~
+furniture ORTY 0
+0 0 0 0 0
+52 1 1 R
+E
+guido~
+A human thief, Guido, is depicted in deep thought, pondering clan affairs.
+~
+#4522
+shadow~
+the magical Vortex~
+~
+~
+portal RS P
+0 0 0 6137 0
+0 100 0 P
+#4523
+dazzle statue~
+a statue of Dazzle~
+A statue of Dazzle stands here looking over you like a caring mother.~
+stone~
+furniture ORTY 0
+0 0 0 0 0
+52 1 1 R
+E
+guido~
+A human thief, Guido, is depicted in deep thought, pondering clan affairs.
+~
+E
+dazzle statue~
+A smiling statue of a beautiful woman stands here, something special about
+her makes you feel at home.
+~
+#4524
+Quickster statue~
+a statue of Quickster~
+A statue of Quickster stands here, her weapon drawn, ready to die for you.~
+stone~
+furniture ORTY 0
+0 0 0 0 0
+52 1 1 R
+E
+guido~
+A human thief, Guido, is depicted in deep thought, pondering clan affairs.
+~
+E
+dazzle statue~
+A smiling statue of a beautiful woman stands here, something special about
+her makes you feel at home.
+~
+E
+Quickster statue~
+A large imposing statue stands here, embodying all that is strong in
+Balance.
+~
+#0
+
+#ROOMS
+#4500
+Main Hall of Clan Balance~
+At first glance the main hall is smaller than you would expect.  A fire
+burns brightly in the corner, and the flickering flames seem to give the 
+walls a life of their own.  The ceiling is painted a true black and covered 
+with stars that almost seem to glow.  When you look up at it, the room 
+seems to expand to infinity.  You feel very safe and peaceful here.
+You see a golden glow to the south and a silver glow to the east.
+~
+0 DK 0
+D0
+Exit ~
+door~
+0 0 3316
+D1
+Exit ~
+~
+0 -1 4503
+D2
+Exit ~
+~
+0 -1 4504
+D3
+Exit ~
+~
+0 -1 4501
+D4
+Exit ~
+door~
+0 0 4505
+S
+#4501
+The Balance Clan Store~
+You can buy all kinds of things here. The colors and smells show
+construction as the store is new and expanding.  There is a hole in the
+floor.
+~
+0 DK 0
+D1
+Exit ~
+~
+0 -1 4500
+D5
+Exit ~
+door~
+0 0 4502
+S
+#4502
+The Vortex Chamber~
+The room is made of strong grey stone.  The room is bereft of any
+furniture or decoration.  Its only attraction is the swirl of light
+that is located in the centre of this chamber.  A strong wind beckons
+you to step into the vortex.  Blues, whites, blacks and reds come
+together and mix to create the most beatifull golden color that
+you have ever seen.  As the colors change, strange colorfull shadows
+are cast on the walls in the shapes of Balances and strange arcane
+symbols...
+  A little plaque is embeded into the ground.
+  The Magical Vortex swirls with brilliant colors.
+~
+0 CDK 0
+D4
+Exit ~
+door~
+0 0 4501
+E
+vortex~
+The vortex is swirling with brillian pastel like colors.  All around
+you is its light and power.  Peering deeper inside it, you slowly come
+to realise that you have once again found purpose.  To aid the weak in
+order to tilt the scales of life.  
+~
+E
+plaque~
+The plaque reads as follows:  We, the three Red Mages of Hal'lodan
+have given you this gift of travel in thanks for the aid that you have
+given us on the hills of Thon'dorin.  Without the aid of your lordship
+Sir. Balance, we never could have defeated the evil hordes that came
+oh so close to swallowing the lands.  
+  In order to travel, you must simply think of your destination and
+enter the vortex...  
+  Drow city =                 Enter Drow
+  The Great Pyramid =         Enter Pyramid
+  Elemental Canyon =          Enter Canyon
+  Haon Dor (forest) =         Enter Haon
+  Sands of Sorrow =           Enter Sands
+  Old thalos =                Enter OldThalos
+  Shadow Grove =              Enter Shadow
+~
+S
+#4503
+Room of the Moon~
+This room is filled with a cool silver glow.  The walls are black, and
+there are no fires, yet the room still seems filled with light.  A
+feeling of tranquility eminates from an altar at the end of the room where
+you see a small statue of the Goddess Artemis.  You feel your peace of
+mind growing as you rest in this room.
+~
+0 DK 0
+D3
+Exit ~
+~
+0 -1 4500
+D5
+Exit ~
+door~
+1 0 4508
+E
+statue goddess artemis~
+You see a small silver statue of a graceful woman drawing a bow.  The metal
+seems to pulse with a life of its own.
+~
+S
+#4504
+Room of the Sun~
+When you walk into this room you are almost blinded by a bright golden
+light.  You recover quickly, but cannot seem to locate the source of the glow.
+It seems to come from everywhere and nowhere.  You feel a comforting warmth
+radiating from a small altar which holds a statue of the God Apollo.
+You feel your wounds healing themselves as you rest here.
+~
+0 DK 0
+D0
+Exit ~
+~
+0 -1 4500
+E
+statue god apollo~
+You see a small golden statue of a young man playing the lyre.  When you 
+look closely, he almost seems to be moving.  Come to think of it, you do 
+hear music...
+~
+S
+#4505
+The Office~
+You have entered the Balance clan office.  Looking around you, you realise
+the room was designed to be efficent.  A circular table dominates the
+middle of the room, allowing everyone who sits at it an equal say when the
+clan sits down for dicussion.  Placed in the centre of the table is a
+large, golden balance.  Along the Northern wall are the statues of
+previous and current leaders of the clan.
+~
+0 CDK 0
+D1
+Exit ~
+door~
+0 0 4506
+D3
+Exit ~
+door~
+0 0 4507
+D5
+Exit ~
+door~
+0 0 4500
+E
+Balance~
+A large, golden balance sits in the centre of the massive, round table.
+It's shiny mass represents the hopes and dreams of all Balance members,
+to become an equal person in heart, body, and soul.
+~
+E
+table~
+A massive, circular, cherry-oak table sits in the centre of the room.
+It allows everyone who sits at it an equal say when the clan sits down for
+dicussion.
+~
+S
+#4506
+The Saints Room~
+This room is beautiful beyond belief. Great friezes depicting holy
+acts of the Balance are on the walls, while the floor is covered with
+black and white marble flags, perfectly balanced. A table shaped like
+the pan of a balance occupies the center of the room, with a small
+silver plate set in the center of it.
+~
+0 DK 0
+D3
+Exit ~
+door~
+0 0 4505
+E
+freize wall~
+Each of the tiles friezes depicts a great act done by a member of Balance.
+~
+E
+table plate~
+The plate is inscribed with the words: Preserve, protect, serve.
+- Aggro.
+~
+S
+#4507
+The Soldiers' Room~
+A spartan room, this room exudes an aura of business like militarism.
+From maps of Boinga and the major cities and areas of the land on
+the walls to a sand table to plot movements in the center, every
+detail is planned for efficiency. Truly this is a soldier's room.
+As you study the room in more depth, you notice a small silver plate
+set on the wall.
+~
+0 DK 0
+D1
+Exit ~
+door~
+0 0 4505
+E
+plate~
+The plate is inscribed with the words: To give your life to your
+fellows, to keep your word, to know the truth. - Aggro
+~
+S
+#4508
+The Balance Bar~
+The Balance bar, located under the spacious Moon Room, has a less somber
+motif.  The walla are decorated in strange astral images, with pictures
+of the former leaders and prominant members from the clans history, up
+to the present.  Music filters out in soft, yet lively tones, as people
+gather to chat, talk, and even practice spells when things get dull.
+Sit, relax, enjoy yourselef.
+~
+0 CDK 0
+D4
+Exit ~
+door~
+1 0 4503
+S
+#4590
+A Tunnel~
+A dark tunnel, where could it lead?
+~
+0 D 0
+D3
+Exit ~
+~
+0 -1 6102
+S
+#4591
+A Tunnel~
+A dark tunnel, where could it lead?
+~
+0 D 0
+D4
+Exit ~
+~
+0 -1 5001
+S
+#4592
+A Tunnel~
+A dark tunnel, where could it lead?
+~
+0 D 0
+D0
+Exit ~
+~
+0 -1 5100
+S
+#0
+
+#RESETS
+O 0 4510 100 4504	* a bar key
+O 0 4519 100 4507	* a long, scarred oaken table
+O 0 4517 100 4507	* A statue of Quicksilver
+O 0 3237 100 4500	* the donation pit
+O 0 4511 100 4508	* a black leather couch
+O 0 4520 100 4505	* a statue of Aggro
+O 0 4506 100 4505	* a stone statue of Randell
+O 0 4505 100 4505	* a stone statue of Briareu
+O 0 4504 100 4505	* a stone statue of BloodMoon
+O 0 4503 100 4505	* a stone statue of Alucard
+O 0 4502 100 4505	* a stone statue of Krantzstone
+O 0 4501 100 4505	* a stone state of Lokkar
+O 0 4500 100 4505	* a stone statue of Alia
+O 0 4507 100 4505	* Sneakers Statue
+O 0 4521 100 4505	* a statue of Guido
+O 0 4523 100 4505	* a statue of Dazzle
+O 0 4524 100 4505	* a statue of Quickster
+O 0 4518 100 4503	* the fountain
+S
+
+#SHOPS
+4500 10  0  0  0  0 	 500  50 	 0 23 	* the ancient potion-brewer
+4502  0  0  0  0  0 	 100 110 	 0 23 	* the bartender
+0
+
+#SPECIALS
+M 4501 spec_cast_adept     	* the healer
+S
+
+#$

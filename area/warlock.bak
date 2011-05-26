@@ -1,0 +1,1506 @@
+#AREA
+/mud/moosehead/area/warlock.are~
+Warlock Clan Hall~
+{Clan } MHS     Warlock Clan Hall~
+31900 31924
+
+#MOBILES
+#31900
+shopkeeper old man~
+the ancient potion-brewer~
+An old man eyes you greedily.
+The old man says, 'Would you like to buy a nice love potion?'
+~
+He looks very dangerous.  I wouldn't try to rob him.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQRV DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#31901
+orb healer~
+{CThe Orb{x~
+{cThe {CGlowing Orb {cof Regeneration{x
+~
+Although retired from adventuring, the healer still lends a hand.
+Type 'heal' to see a listing of spells.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQVa DFH 1000 0
+51 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#31902
+ernie warlock guard~
+Ernie, the Warlock Hall Guard~
+Ernie, the Warlock Hall Guard stands here guarding the hall.
+~
+This guard lives to defend Warlock.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABTV 0 0 0
+40 15 15d10+4000 25d10+2250 4d8+13 pound
+-1 -1 -1 -1
+CEFJNU AB 0 0
+stand stand male 0
+AHMV ABCDEF medium 0
+#31903
+hero magic~
+The hero of the Magic~
+Hero of the magic, Warlocks's personal salesman stands here.
+~
+He is white bearded old hero from the time of Avatar wars. 
+He is one of the five survivors of the great war and is
+now helping the clan Warlock's members to overcome the enemies.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABe 0 550 0
+60 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand female 500000
+0 0 giant 0
+#31904
+Warlock Hall Guard~
+A Warlock Hall Guard~
+A Warlock Hall Guard stands here defending the hall
+~
+This guard lives to defend Warlock.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABTV 0 0 0
+52 15 50d10+11000 25d10+2250 4d10+22 pound
+-20 -20 -20 -20
+CEFJNU AB 0 0
+stand stand male 0
+AHMV ABCDEF medium 0
+#0
+
+#OBJECTS
+#31900
+pit magic~
+the Pit of Pure Magic~
+The Pit of Pure Magic lies here.~
+~
+container Y 0
+10000 0 0 1000 100
+0 0 0 P
+#31901
+black hole~
+the Black Hole~
+The Black Hole hovers nearby.~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+#31902
+fountain water~
+a fountain~
+A small drinking fountain is here.~
+~
+fountain 0 0
+0 0 'milk' 0 0
+0 0 0 G
+#31903
+stream blood~
+a stream of blood~
+A stream of blood flows here.~
+~
+fountain 0 0
+0 0 'blood' 0 0
+0 0 0 G
+#31904
+sands of sorrow~
+a magical vortex~
+A magical vortex leading to the Sands of Sorrow is here.~
+magic~
+portal R P
+0 0 0 5001 0
+0 100 0 P
+#31905
+haon dor~
+a magical vortex to Haon Dor~
+A magical vortex leading to Haon Dor is here.~
+magic~
+portal R P
+0 0 0 6102 0
+0 100 0 P
+#31906
+drow city~
+a magical vortex~
+A magical vortex leading to the Drow City is here.~
+magic~
+portal R P
+0 0 0 5100 0
+0 100 0 P
+#31907
+ancient thalos~
+a magical vortex~
+A magical vortex leading to Ancient Thalos is here.~
+magic~
+portal R P
+0 0 0 5300 0
+0 100 0 P
+#31908
+cot~
+a magical vortex~
+A magical vortex leading to the City of Thieves is here.~
+magic~
+portal R P
+0 0 0 6023 0
+0 100 0 P
+#31909
+nt New Thalos~
+a votex to New Thalos~
+A magical vortex leading to New Thalos is here.~
+magic~
+portal R P
+0 0 0 9506 0
+0 100 0 P
+#31910
+runt bag~
+A comfortable looking {Rr{Yu{Gn{Mt{x filled bag lies in the corner.~
+A comfortable looking {Rr{Yu{Gn{Mt{x filled bag lies in the corner.~
+runts~
+furniture 0 0
+90 0 BEHK 100 100
+0 10000 0 P
+#31911
+emerald forest ef~
+a vortex to the emerald forest~
+A magical vortex leading to the Emerald Forest is here.~
+magic~
+portal R P
+0 0 0 3521 0
+0 100 0 P
+#31912
+camelot~
+a magical vortex to Camelot~
+A magical vortex leading to Camelot is here.~
+magic~
+portal R P
+0 0 0 17676 0
+0 100 0 P
+#31913
+atlantis~
+a vortex to atlantis~
+A magical vortex leading to Atlantis is here.~
+magic~
+portal R P
+0 0 0 2318 0
+0 100 0 P
+#31914
+great pyramid~
+a magical vortex leading to the Great Pyramid~
+A magical vortex leading to the Great Pyramid is here.~
+~
+portal R P
+0 0 0 8701 0
+0 100 0 P
+#31915
+elemental canyon~
+a magical vortex to elemental canyon~
+A magical vortex leading to Elemental Canyon is here.~
+~
+portal R P
+0 0 0 9209 0
+0 100 0 P
+#31916
+silver book astral travel~
+a silver book~
+A silver book lies here, entitled 'Astral Travel'.~
+paper~
+trash ORY 0
+0 0 0 0 0
+0 10000 0 P
+E
+silverintro~
+============
+  Astral travel can be the quickest way to move around 
+our land.  However one must have a clue as to the creatures
+that live in the destination area.  The following list
+has been compiled by the sages of Warlock to aid the
+traveller in this regard.  First some cautions for the
+new Astral traveler.
+ 
+  1) Do not gate to an area you cannot handle!
+  2) The creature may be dead.  Thus your gate spell will fail.
+  3) A malicious renegade can summon your target creature
+     elsewhere to trap you.
+  4) The target creature may be cursed.  Your spell will fail.
+  5) The target creature may be charmed.  Your spell will fail.
+ 
+  Much of this information is also useful for the portal and
+nexus spells.  These spells are often under-utilized.  You 
+may wish to reflect on their use in your practice of magick.
+~
+E
+silver1~
+Area                          Gate Post
+============================  ======================
+Altirin Forest                None
+Arachnos                      Young spider
+Aspen Penal Colony            Link angel
+Astral/Githyanki              Githzerai
+Avarice Clan Hall             Herald
+Balance Clan Hall             None
+Banshee                       None
+Bathe House                   Desk clerk
+Bluetspur                     Geist, jiakan, illithid
+Buccaneer Bay                 ?
+Camelot                       Black knight
+Campgrounds                   Faerie
+Castle Camorra                Apparition
+Castle Delain                 Delain guard
+Castle Trinity                Young warrior
+Chapel Catacombs              Etcher
+Church of Matook              None
+City of Atlantis              Fido fish
+City of Thieves               Cockroach
+Crescent Beach                Crane
+Cuthbert's Fief               Firbolg
+~
+E
+silver2~
+Dangerous Neighborhood        Gang
+Den of Thieves                Guardian thief
+Descent to Hell               Coins, nose, weeds, burning fool, 
+                              female construction worker, jury
+Dragon Tower                  Draconian fool
+Drow City                     Drow commoner
+Dwarven Catacombs             Grand templar
+Dwarven Day Care              Doll
+Dwarven Kingdom               None
+Dylan's Area                  Harpy
+Elemental Canyon              Bandit
+Elemental Planes              ?
+Elven High Court              None
+Elven Printing Co             Printer
+Emerald Forest                Porcupine
+Enchanted Lake                Heap
+Forbidden City                Fanatic
+~
+E
+silver3~
+Galaxy                        Cepheus
+Ghoul Forest                  Sassy, hungry ghoul
+Gladiator Arena               None
+Gnome Village                 Gnome child
+Graveyard                     ?
+Great Pyramid                 Tomb
+Gypsy Camp                    Bruno
+Hall of Clan Bane             None
+Hall of Ennoble               ?
+Hall of the Apocalypse        None
+Haon Dor                      Warg
+Haunted House                 Rocking horse
+High Tower of Sorcery         Ezmerelda
+Holy Grove                    Hierophant
+In the Air                    Faerie dragon
+Ivory Stronghold              Dove
+Keep of Mahn-Tor              Tyrgoth
+Kender Village                Kender mayor
+~
+E
+silver4~
+Legion Clan Hall              None
+Limbo                         ?
+Lost Bog                      None
+Lost Catacombs                ?
+Lost Ways                     ?
+Lycanthropia                  Pooh
+Machine Dreams                None
+Mega-City One                 Futsie
+Miden'nir                     Dark horseman
+Midgaard                      Vagabond
+Mob Factory                   Toxic slime
+Moonstone Inn                 None
+Moria                         ?
+Mystgar's Domain              Tetraps
+New Ofcol                     Diana       
+New Thalos                    Vulture
+Nirvana                       None
+Nottingham                    Merry man           
+Nova Veesa                    3.bandit
+~
+E
+silver5~
+Ofcol                         Jacklyn
+Old Hall of Clan Circle       Circle guardian
+Old Marsh                     None
+Old Thalos                    Lamia
+Olympus                       Pegasus
+Orcs' Lair                    Orc leader
+Pakat                         Indian fido
+Plains of the North           Sorbus, Aruncus
+Plane of Time                 Egg timer, split second, bedtime
+Rainforest                    Crocodile
+Redferne's Residence          Grand knight
+Sands of Sorrow               Scorpion
+Sea of Serenity               None
+Secret Tomb                   Jade
+Sewer                         Herald, 7.wererat etc
+Shadowvale                    None
+Shire                         Thain
+Smurf Village                 Smurfette
+Sri Raji                      Indian fido
+Stormy Mountain               Satyr
+Swimming Hole                 Beaver?
+~
+E
+silver6~
+Temple o' Evil                Clan warrior
+Tenochtitlan                  Aztec guard
+Thalos                        Beholder
+Theatre of Boinga             Hamlet
+Troll Den                     None
+UnderSmurf                    None
+Valley of the Elves           Antelope
+Village Fair                  Baloo
+Warlock Clan Hall             Circle guardian, desk clerk
+Whore House                   (see city of thieves)
+Wooster                       Security
+Wyvern River                  Will-o-wisp
+Wyvern's Tower                Black pudding, Elite gargoyle
+Zealot Clan Hall              Sorbus, Aruncus
+ 
+============================================================
+~
+E
+silverend~
+This work is a product of funding, research, compilation,
+and publishing by the clan: Warlock.  All rights reserved.
+(Boinga copyright)
+~
+E
+silver{x~
+======Table of Contents:  Astral Travel======
+silverintro-Introduction
+silver1, silver2, etc.-Pages
+silverend-Credits and copyright
+~
+#31917
+A Warlock Clan Voucher (35 eggs)~
+A Warlock Clan Voucher~
+A Warlock Clan Voucher can only be used by leaders of Warlock to guild in Outcasts.~
+slate~
+trash ST AO
+0 0 0 0 0
+5 100 35 P
+E
+certificate warlock voucher~
+This certificate is to be sold to the leader of Warlock at the
+discounted cost of 35 eggs.  This wish has been granted by
+Prowler to the current leader of Warlock, Runt.  It cannot be
+used for any other purpose than guilding an Outcast directly
+into Warlock.  The Outcast must meet the requirements as said in
+the Warlock Clan Charter.
+ 
+Prowler.
+~
+E
+certificate~
+This certificate can only be used by the leaders of Warlock
+to guild in Outcasts.  It cannot be used on non-clanners or
+by any other clan.  Present this certificate to an Immortal
+and they will guild the person directly into Warlock.
+~
+#31918
+black art war~
+a black book titled 'The Art of War'~
+A black book lies here, entitled 'The Art of War'~
+paper~
+trash OY 0
+0 0 0 0 0
+0 10000 0 P
+E
+war{x~
+Table of Contents
+warintro-  Introduction
+war1 through war9- Information
+warend-Credits
+~
+E
+warintro~
+*** The Art Of War ***
+    (1st Edition)
+{x
+In ages long ago, this world was born of magic. Some
+of our ancestors learned how to weave magical energies. 
+Unfortunately, those who have been blessed with magic 
+are also threatened by both renegades, and by those 
+who would seek to destroy those who are more powerful 
+than themselves.  To defend themselves against these 
+renegades, the magi have long ago developed an Art of War.
+{x
+Anazar of the Black Robes of Warlock passes along key
+points in this art.
+~
+E
+war1~
+Know Your Enemy - Before you begin any pfight, always know who 
+you are fighting with.  Most races/remorts have a certain vulnerability 
+which you can use against them in combat.  For example, you can use 
+weapons with the "flame" noun to vuln yinns and if you are a mage/wizard, 
+the "incinerate" spell will also hurt them.  Also look at their class.  
+Realize that you will probably have a more difficult time casting a 
+sleep spell on a berzerker than you would on a warrior for example.  
+The mage who knows his or her opponent before battle will have a 
+much easier time coming out of that battle alive.
+ 
+~
+E
+war2~
+Use Your Spells As An Advantage - First and foremost, you 
+are a caster.  You don't rely on hits like a fighter or stealth 
+like a thief.  You rely on your magic.  Use this to your ability.  
+Destroy your opponent with spells, catch them off-guard with your 
+magic.  If you choose to rely only on your hits to kill an enemy, 
+being a caster, you will have a much harder fight on your hands.
+~
+E
+war3~
+Know When to Flee - A good fighter always knows his limits.  
+Know yours.  There are a variety of things you can do to know 
+when to flee.  Wimpy can help you automatically flee when you 
+are very hurt.  Also, being mages, you have a variety of ways 
+to escape combat besides just fleeing.  If you are a cleric 
+class, the "mirror image" spell in the psionics group will 
+enable you to leave the room you were previously fighting in, 
+while your opponent fights a temporary mirror image he thinks 
+is you.  If you are an elementalist, nodes are meant to make 
+your life much easier.  Use them to your advantage.  Choose 
+wisely when you pick a location to make your node as once you 
+do pick one, you won't be able to change your mind.  For other 
+casters, besides just spamming flee, you can use the transportation 
+group to assist you.  Both the teleport and gate spells can help 
+you with this.  However, if you want to use one of these spells 
+IN combat, use gate.  If you flee and then use a spell, you can 
+use either gate or teleport.  Do not try to use teleport in combat 
+as its chances of succeeding are low and you will most likely fail.  
+You can also try to use the recall spell in or out of combat.  
+Certain magical items such as wearing a compass, or quaffing a 
+jar of blood, may also assist you in escaping a fight.  Your 
+last option is to use deity gifts.  If you are pledge Hermes 
+and have enough sac points, you can pray transport (if you aren't 
+cursed) and this will be similar to casting teleport.  A better 
+option than casting 'word of recall' would be to pray recall.  
+If you cast 'word of recall' then you have some spell lag, and 
+your opponent may be able to catch you because of this.  Pray 
+recall however has no lag.  Once you pray for it, you arrive 
+instantly at Hassan, and can then walk quickly to your hall or 
+to a place of safety.
+~
+E
+war4~
+Use Your Class' Advantages - Every magic-using class has 
+its own advantages.  For example, cleric classes can heal 
+themselves, wizards cast powerful maledictions, and elementalists 
+have a variety of interesting nature spells.  Learn how to use 
+your class effectively.  Learn its weaknesses and its strengths, 
+as both of these will hurt and help you in combat.
+~
+E
+war5~
+Use Spells Which Are Special To Your Class - Every caster 
+class has certain spells which only he or she can use.  For 
+example, crusaders have hold person elementalists have earthbind, 
+and wizards have sleep.  Both of these spells can be used to 
+completely immobilize your opponent for a period of time.  This 
+can give you the chance to maladict them or to call for other 
+methods of aid to assist in killing them.  However, be warned 
+before using these spells.  Each of these will have a certain 
+spell lag time if you fail.  During this lag time, your opponent 
+will be made aware of the fact that you have tried to kill him or 
+her, and will thus attack you.  If you are at low health, do not 
+try to cast one of these spells unless you are certain you will 
+not fail it.
+~
+E
+war6~
+For Necromancers - If you are a class with necromancy (every 
+caster class but elementalists) then ALWAYS use withstand death.  
+If you are leveling, if you are out gathering funds, even if 
+you go into town to spell someone up, always have withstand 
+death on.  This spell will enable you to "cheat" death.  Once 
+you have died, you will immediately return with a small percentage 
+of your hp, giving you another chance to flee from your opponent.
+~
+E
+war7~
+Healing In Combat - Healing while fighting is always a good 
+idea.  For cleric classes, the healing group is very useful.  
+However, in order to conserve mana, if you are outside of 
+combat (i.e. flee then gate to a safe spot to heal) use the 
+'cure critical' spell on yourself.  This spell, although it 
+heals less hit points, also helps you to conserve your mana.  
+If you are in combat, use the heal spell for quick hit point 
+regeneration.  Also, gain the curative class.  This will enable 
+you to heal basic maledictions - poison, plague, and blindness.  
+If you are a mage class, things are more difficult for you.  
+It might be wise to carry around potions of cure serious (available 
+for sale at most clan hall shops).  Certain staves, wands, other 
+potions, and pills also have healing abilities which can grant 
+you some health regeneration in combat.
+~
+E
+war8~
+Maladict Your Enemy - As a caster, you most likely will not 
+be able to match a fighter when you compare your hit points 
+and hits to his.  To even out combat, use maledictions.  For 
+elementalists, you have a variety of powerful nature spells 
+such as asphyxiate and irradiate which can make your opponent 
+much weaker in combat.  For all other classes, the maledictions 
+group will serve you well.  Poison and plague will slowly drain 
+away an opponents health and mana, respectively, weaken will 
+lower their strength attribute, blindess will take away their 
+vision temporarily, curse will cause their deity to turn his 
+eyes from them, and energy drain, when it lands, helps you to 
+drain their mana and movement points.
+~
+E
+war9~
+Hunting - If you wish to hunt your opponent, take a few 
+factors into account.  Are they leveling? If so, what alignment 
+are they?  What possible places could they be leveling in?  If 
+they are not leveling, use gate points to search around places 
+where they could be gathering funds and also check town occasionally.  
+If you're lucky, you may be able to catch them as they recall 
+or return to their halls.
+~
+E
+warend~
+These tips are only a small portion of the true Art of War.  
+Use these to fight, but do not rely on them completely.  Every 
+mage has his or her own way of combat.  With enough pkilling 
+experience, you will find yours.  Benefit from your mistakes, 
+learn from your errors, and remember, always defend the magic.
+{x
+  This work is a product of funding, research, compilation,
+and publishing by the clan: Warlock.  All rights reserved.
+(Boinga copyright)
+~
+#31919
+scarlet red robes book~
+a scarlet tome entitled 'Red Robes'~
+A scarlet tome entitled 'Red Robes' is here.~
+paper~
+trash R P
+0 0 0 0 0
+0 10000 0 P
+E
+redrobecontents~
+===Table of Contents===
+RedRobeIntro
+RedRobeGoals
+RedRobeLeader
+RedRobeRecruiter
+RedRobeFinancer
+RedRobeLibrarian
+RedRobeVeteran
+RedRobeApprentice
+RedRobeEnd
+~
+E
+redrobeintro~
+*** Red Robe Sect, Guidelines ***
+          1st Edition
+ 
+From our charter we have a clear, if rather general, description of
+the role of a red robe in Warlock.  It reads:
+ 
+"Those who adorn the Red Robes of Warlock use their magical gifts to help 
+with clan responsibilities. Their neutrality gives them the clear minds to
+recruit for each sect. They have also been entrusted with our clan finances."
+ 
+The aim of this tome is too clarify and organize our sect so 
+that we can better do the job set out in our charter.
+~
+E
+redrobegoals~
+The white robes of warlock with their more peaceful and inquiring
+natures stand at one end of the warlock spectrum.  Blackrobes with
+their heightened combat skills and ability to deliver punishment
+and retribution stand at the other end of the warlock spectrum.
+Warlock gains strength when we are active across the full spectrum
+of activities.  It falls to the red robes to help make it so as
+we are the ones in the middle bridging the gap between white and
+black.  Our primary goals as red robes are spelled out in the 
+charter:
+ 
+  1) Recruiting 
+  2) Fund raising
+ 
+We have secondary goals as well:
+ 
+  1) Assist black robes with punishment and retributions when
+     needed and feasible. (optional)
+  2) Assist white robes with research, equipping, and advising
+     young casters. (optional)
+  3) Keep up to date on clan activities and be a source of information
+     for other clan members. (required)
+~
+E
+redrobeleader~
+This is a /5 position.  The leader of red robes sets the direction
+for the sect to accomplish its charter goals, and to better
+interpret them into specific action.  The leader also must work
+cooperatively with the leaders of the black and white robes in
+setting the direction for the entire clan.  Some good attributes 
+for this postion:
+ 
+  1) Plenty of active time online.
+ 
+  2) Good knowledge of the charter and all leader's directives.
+  3) Ability to remain calm in a crisis.
+  4) Ability to get along with people.
+  5) Ability to be decisive.
+  6) Ability to communicate.
+  7) Ability to organize.
+ 
+We have one leader.
+Experienced people are needed for this job, so
+they must at least be /2 Veterans to qualify.
+Level 51 is also advisable for a leader.
+ 
+Rudigor Murgatroyd fills that role now.
+~
+E
+redroberecruiter~
+This is a /4 position.  Recruiting is a key responsibility of
+our sect.  We must even fill in for other sects when they are
+weakened by loss of members.  Some good attributes for this
+postion:
+ 
+  1) Plenty of active time online.
+  2) Good knowledge of the charter and all leader's directives.
+  3) Ability to help young casters with their questions and needs.
+  4) Ability to get along with people -- be charming :)
+ 
+We are only allowed to have one recruiter.
+Experienced people are needed for this job, so
+they must at least be /2 Veterans to qualify.
+ 
+Rhodea is our current recruiter.
+~
+E
+redrobefinancer~
+This is a /3 position.  This job involves not
+only personal fund raising, but also holding
+clan funds.  It is a very important role given to
+us by charter.  People in this position must
+be talented at preserving our clans wealth in 
+dire circumstances, as we are required to be
+active in this role and cannot just sit 
+around in hall.
+ 
+We can have up to three people in this role.
+Experienced people are needed for this job, so
+they must at least be /2 Veterans to qualify.
+ 
+Currently these positions are unassigned.
+(If you are interested talk to Rudigor)
+~
+E
+redrobelibrarian~
+1This is a /3 position.  This is a new position
+that was not envisioned by our charter.  Red robes
+are charged with the responsibility of keeping
+the library stocked with up-to-date knowledge.
+Specifically, editing and publishing tasks.
+White robes may well provide most of the 
+content, but red robes are responsible for
+getting it into the library and seeing that it
+is kept up-to-date.
+ 
+We can have up to three people in this role.
+Experienced people are needed for this job, so
+they must at least be /2 Veterans to qualify.
+ 
+Currently these positions are unassigned.
+(If you are interested talk to Rudigor)
+~
+E
+redrobeveteran~
+This is a /2 position.
+ 
+Any red robe with more than 200 hours is qualified
+for this rank.
+ 
+This will gradually be put into place using the honor
+system.  (Be reasonable!)
+~
+E
+redrobeapprentice~
+This is a /1 position.
+ 
+Upon choosing to join red robes a new member
+is entitled to this rank.  It is the starting point
+for service in the Red Robe sect.
+~
+E
+redrobeend~
+This work covers a subject that will evolve over time.
+Future editions will be produced to cover what new
+leaders believe is important to the role of the Red Robes.  
+ 
+This work is a product of funding, research, compilation,
+and publishing by the clan: Warlock, Red Robe sect.  
+All rights reserved.  (Boinga copyright)
+~
+#31920
+emerald book advanced wizardry~
+an emerald book entitled 'Advanced Wizardry'~
+An emerald book entitled 'Advanced Wizardry' is here.~
+paper~
+trash RY P
+0 0 0 0 0
+0 10000 0 P
+E
+wizcontents~
+wizintro
+wiz1, wiz2...wiz8
+wizend
+~
+E
+wizintro~
+*** Advanced Wizardry ***
+    (1st Edition)
+ 
+Our magi have, through the ages, retired to
+their spell laboratories to devise new incantations.
+Others have gone on long perilous quests in search 
+of valuable spell components, or arcane knowledge.  
+Herein you will find current research by our own sages.
+ 
+Phaze of the White Robes of Warlock passes along timely
+advice on these matters.
+~
+E
+wiz1~
+The Scroll of Binding is a key ingredient in both of a wizard's researchable 
+spells, adamantite skin and incinerate.  However, this item does not exist in 
+this world in a form useful to us; instead, it has to be created.
+ 
+Firstly, a container suitable for the creation of this item is needed - the 
+binding kit.  This can be found on the Master Spell Binder in the High Tower of
+Sorcery (gate master binder).  The first step towards creating a scroll is to 
+start with a blank one first; St. Bob's Map Shop has a large supply of blank 
+scrolls at affordable prices.  In order for the scroll to have its binding 
+properties, the acquisition of a thread of binding silk from one of the 
+numerous spiders in this world which carry it is imperative.  Trying to track 
+down one of these can be laborious, so it is suggested to select the Queen 
+Spider.  Finally, something is needed out of which the arcane symbols will be 
+formed on the scroll.  A bottle of ink will not suffice as the magic held 
+within the symbols will cause the ink to combust, destroying the scroll.  
+Instead, two diamonds need to be used.
+ 
+Place the blank scroll, the thread of binding silk and the two diamonds into 
+the binding kit and head to the forge at the Midgaard Armourer. Type "forge 
+kit" to set the magic in motion.  The two diamonds will shatter and the dust 
+and the thread will merge into the blank scroll, forming the Scroll of Binding,
+retrievable from the binding kit.
+~
+E
+wiz2~
+The cost of researching adamantite skin and incinerate is not cheap; they need 
+six eggs and eight eggs respectively.  The ingredients needed aren't the eggs 
+though, but sapphires formed from the eggs.  The Midgaard Jeweller possesses a 
+crucible which he has on sale which is needed to form the sapphires.  Although 
+this item is relatively cheap compared to the price of research, it wouldn't 
+hurt to ask around to see if someone has one that they aren't using.
+ 
+Sapphires are made at the forge at the Midgaard Armourer.  Place the required 
+number of eggs into the jeweller's crucible and type "forge crucible".  The 
+eggs are then fused together to form the different sapphires.  Adamantite skin 
+requires two reflective sapphires made from three eggs each, while incinerate 
+uses two fire sapphires made from four eggs each.
+ 
+For more information reguarding the creation of sapphires, refer to the 
+Novice's Guide to Jewelcraft, on sale at the Midgaard Jeweller when in stock.
+~
+E
+wiz3~
+In order to research adamantite skin and incinerate, wizards need to be trained in this 
+skill.  However, practicing research is fairly difficult and, considering the price of 
+these two spells, failure is costly.
+Research can be practiced up to 95% and if you intend using it, it is advisable to get 
+it this high.  If you don't wish to use all your practice sessions on research, ask if 
+someone else in the clan can do it for you.  If you wish to do it yourself, take the 
+following into account:
+ 
+Intelligence at 20 increases research by 6% per prac.
+Intelligence at 21 increases research by 6% per prac.
+Intelligence at 22 increases research by 7% per prac.
+Intelligence at 23 increases research by 8% per prac.
+Intelligence at 24 increases research by 10% per prac.
+Intelligence at 25 increases research by 10% per prac.
+This only applies when research is below 75%.  Any practice used after this only 
+increases it by 1%.  For this reason, you could attempt to save a practice session of 
+two by reducing your intelligence to reach 74% to get the maximum out of your sessions.
+~
+E
+wiz4~
+Adamantite skin is the most powerful spell wizards can use to defend 
+themselves.  It is only available from level 50 at a cost of 150 mana and comes
+with a considerable casting delay, but has an initial duration of 25 to 26 
+hours (casting level / 2 rounded down).  Each hit you deflect reduces the 
+duration by 2 hours.
+ 
+To create the scroll of adamantite skin, a scroll of binding, two reflective 
+sapphires and a bar of adamantite are required.  (Refer to pages 1 and 2 for 
+details on the scroll and sapphires.)  The bar of adamantite can be found north
+of the Master Enchanter in the High Tower of Sorcery.
+ 
+Place all ingredients directly into the magelab 2000 forge in the Mage's Guild 
+in Midgaard and type "forge magelab".  The bar of adamantite and the sapphires 
+will begin fusing together while the binding forces are extended from the 
+scroll.  When fused, the bar and sapphires will explode and, if the binding 
+forces were aligned correctly by the wizard, the magical energy released will 
+be bound into the scroll, altering the runes and thus forming the scroll of 
+adamantite skin.
+ 
+This scroll, once retrieved from the magelab, should be taken to our magelab, 
+held, and copied using the "copyspell" command.
+~
+E
+wiz5~
+Incinerate is the fire version of acid blast, and most useful for making crispy
+yinns.  It is only available from level 38 at a cost of 50 mana.
+ 
+To create the scroll of incineration, a scroll of binding, two fire sapphires 
+and a rune of fire are required.  (Refer to pages 1 and 2 for details on the 
+scroll and sapphires.)  The rune of fire can be found on the Greater Fire Demon
+in the depths of hell.
+ 
+Place all ingredients directly into the magelab 2000 forge in the Mage's Guild 
+in Midgaard and type "forge magelab".  The fire sapphires will burst into 
+flames to be absorbed by the rune of fire, causing the rune to harden and 
+shatter.  The dust will then merge with the binding forces from the scroll and,
+if aligned correctly by the wizard, the magical energy will be bound into the 
+scroll, altering the runes and thus forming the scroll of incineration.
+ 
+This scroll, once retrieved from the magelab, should be taken to our magelab, 
+held, and copied using the "copyspell" command.
+~
+E
+wiz6~
+Not all of the advanced spells have to be researched.  Steel skin and diamond 
+skin can be found in Boinga, but these are nowhere near as powerful as 
+adamanatite skin.
+ 
+Steel skin is available from level 35 at a cost of 100 mana, comes with a 
+moderate casting delay, and has an initial duration of a mere 7 to 10 hours 
+(casting level / 5 rounded down).  The spell page can be found on the steel 
+clam, in Buccaneer Bay.
+ 
+Diamond skin is available from level 45 at a cost of 100 mana, comes with a 
+lengthy casting delay, and has an initial duration of 15 to 17 hours (casting 
+level / 3 rounded down).  The spell page can be found on a diamond golem two 
+rooms east and one room south of Ezmeralda in the High Tower of Sorcery.
+ 
+Both these spells are copied in a magelab by holding the spell page and using 
+the "copyspell" command.  Each hit you deflect reduces the duration by 2 hours.
+~
+E
+wiz7~
+Rivalling acid blast and incinerate, two new spells can be found; sunburst and
+sonic blast.
+ 
+Sunburst is available from level 44 at a cost of 65 mana.  Its damage is 
+slightly less than that of acid blast, but does light damage which can blind 
+your victim.  The spell page is found on the s'lu master in Altirin.
+ 
+Sonic blast is available from level 45 at a cost of 75 mana.  Its damage is 
+slightly less than that of acid blast as well, but has a chance to stun your 
+victim for a round or two.  The spell page is found on the yinnish monk in 
+Altirin.
+~
+E
+wiz8~
+Not all combat spells come in the form of something that can do damage 
+directly.  Some come in maladictive form, as is the case with flameseek.
+ 
+Flameseek is available from level 40 at a cost of 75 mana, and imparts a fire 
+vuln on your victim.  Its affects will stay with your victim for 2 to 3 hours. 
+The spell page is found on the elemental guardian at the entrance to the 
+Elemental Plane of Fire.
+ 
+Used in conjunction with fireball or incinerate, flameseek may result in 
+several charred remains.  Welding torches and flamewhips also
+are handy with this spell.  Use this spell on slept victims,
+or to initiate combat.
+~
+E
+wizend~
+This work covers a subject that is continually changing.
+Future editions will be produced to cover what is learned in 
+the future.  Perhaps *your* work will be included.
+Benefit from your mistakes, learn from your errors, and 
+remember, always defend the magic.
+ 
+This work is a product of funding, research, compilation,
+and publishing by the clan: Warlock.  All rights reserved.
+(Boinga copyright)
+~
+#31921
+plaque library~
+Plaque~
+There is a Plaque here, with some writing on it.~
+gold~
+trash OR 0
+0 0 0 0 0
+0 190 0 P
+E
+library plaque~
+How to use the Library
+ 
+The 'The Art of War' book can be read with the keyword War*
+The 'Astral Travel' book can be read with the keyword silver*
+The 'Advanced Wizardry' book can be read with the keyword wiz*
+ 
+The *'s represent the page number you wish to access.
+ 
+You can access the 'Red Robes' book's ToC using redrobecontents,
+then follow the directions there.
+~
+#31922
+skull renegade~
+a skull of a renegade~
+The skull of an unfortunate wizard lies here.~
+magic~
+armor G AE
+10 10 10 5 0
+30 100 0 P
+A
+31 -3
+#31923
+red magus shield~
+a {RRed{x Magus Shield~
+A brilliant {Rred{x shield lies here, shining magically.~
+magic~
+armor G AJ
+10 10 10 5 0
+30 100 0 P
+#31924
+Pit of useful stuff~
+A Pit of useful stuff~
+A pit of useful stuff for clanmates is here.~
+Marble~
+container Y 0
+10000 0 0 1000 100
+0 0 0 P
+#0
+
+#ROOMS
+#31900
+{CThe Gateway to the Plain of Magic{x~
+You enter this portal leading to another plane of existance.  You feel
+the magic coursing through your veins as you find yourself wandering
+within the domain of the mighty spellcasters of {gClan Warlock{x.
+~
+0 CDY 0
+D0
+Exit ~
+warlock~
+24643 0 26000
+D1
+Exit ~
+door~
+16384 0 31906
+D2
+Exit ~
+door~
+16384 0 31918
+D4
+Exit ~
+door~
+16384 0 31901
+D5
+Exit ~
+door~
+16384 0 31910
+S
+#31901
+The Plane of Pure Magic~
+As you float in the mists of the Clan Hall of Warlock, you wonder as to
+how this could be. You are not entrapped in the cold stone walls that you
+would expect to see. Somehow you have been transported to a place of pure
+magical energy. All around you are swirling orbs of red, white, and black,
+that seem to pulsate and writhe as though they are alive. As you stand 
+amongst these orbs you can feel your body heal and your magic seems to be
+growing with every second. To the east you see a portal with a dagger
+encircled by a brilliant glow.
+~
+0 CDY 0
+H 300 M 300
+D0
+Exit ~
+door~
+16384 0 31902
+D1
+Exit ~
+door~
+16384 0 31905
+D3
+Exit ~
+door~
+16387 0 31907
+D5
+Exit ~
+door~
+16384 0 31900
+S
+#31902
+Wind Void~
+You have left the sanctity of the glowing orbs, and have found yourself in
+an even stranger place. You are floating in the center of a crevice. You
+look down and your stomach churns, for there seems to be no end to this
+pit. You feel a gust of wind pulling you down to the depths below. You
+have been falling for what seems like days, before finally you come to a
+halt. Weapons and armor are scattered all over the place. As you look for
+an exit and there appears to be none, you grab all the equipment you may
+need, for you may be here a while.
+~
+0 CDY 0
+D0
+Exit ~
+door~
+16384 0 31911
+D1
+Exit ~
+door~
+16384 0 31904
+D2
+Exit ~
+door~
+16384 0 31901
+D3
+Exit ~
+door~
+16384 0 31903
+S
+#31903
+The Alchemists Shop~
+Here the spellcasters may purchase the tools of their trade.
+The walls are covered in shelves containing the elements that
+make up the many powerful potions & gear that he sells.  Better
+get your gold out!
+ 
+Notice to Customers:
+The rumor that Warlock clan vouchers only cost 35 eggs
+is incorrect.  Warlock doesn't get any more of a special price
+than any other clan.  If this was due to a quest, it was a long
+time ago, and the current administration does not recognize it.
+Sorry for any confusion.
+~
+0 CDY 0
+D1
+Exit ~
+door~
+16384 0 31902
+S
+#31904
+The Gathering Chamber~
+This very large formal dining is often used for meetings and even
+informal gatherings.  When not being used for formal functions it
+serves as a nice place to get away from the constant action through
+the rest of the plane.
+~
+0 CDY 0
+D3
+Exit ~
+door~
+16384 0 31902
+S
+#31905
+Warlock's Advanced Magelab~
+The mage lab of the Warlock clan is truly a sight to behold, the room is
+immense, and crackles with the raw magical energies that are focused here.
+Ancient tomes, containers, pipes, instruments from the bizarre to the mundane
+fill the shelves from floor to ceiling awaiting their next user.  Large granite
+tables, heat baths, and a few furnaces fill most of the floor space, only
+leaving the most modest of personal space for the spellcaster.  You are certain
+that even the most inept spellcaster could produce spectacular results with the
+equipment and knowledge contained here.
+~
+0 CDY 13
+D0
+Exit ~
+door~
+16384 0 31915
+D3
+Exit ~
+door~
+16384 0 31901
+D4
+Exit ~
+door~
+16384 0 31917
+D5
+Exit ~
+door~
+16384 0 31906
+S
+#31906
+Warlock's Practice Library~
+You enter an ancient library, but, much to your surprise, you see no dust 
+on any of the books.  As you look around, you discover that this is not an 
+ordinary library.  There are summoning circles on the ground, following 
+the exact examples shown by the open books on the tables, there are vials 
+of blood, and other stranger liquids. As you take a closer look at the 
+books, you notice that they were written by great mages, such as Merlin
+You can't help but feel that you will learn the arts faster in this place.
+~
+0 CDNY 0
+D1
+Exit ~
+door~
+16387 0 31913
+D2
+Exit ~
+door~
+16449 0 31916
+D3
+Exit ~
+door~
+16384 0 31900
+D4
+Exit ~
+door~
+16384 0 31905
+S
+#31907
+{BWater Void{x~
+You find yourself completely submerged in water swirling you in all
+directions, from here power of the element water is drawn.
+~
+0 CDKY 6
+D1
+Exit ~
+door~
+16387 0 31901
+D5
+Exit ~
+door~
+16384 0 31908
+S
+#31908
+{BWater Void{x~
+Swirl Spin Swirl Spin! This water is Getting Mighty Turbulent.
+~
+0 CDKY 6
+D4
+Exit ~
+door~
+16384 0 31907
+D5
+Exit ~
+door~
+16384 0 31909
+S
+#31909
+{B Deepest Depth of the Water Void{x~
+It is much calmer here, and much Darker, but the pressure is
+incredible if you don't surface soon you are likely to Implode!
+~
+0 CDKY 6
+D4
+Exit ~
+door~
+16384 0 31908
+S
+#31910
+Warlock's Portal Room~
+Magicks from all over the realm concentrate themselves here.
+Allowing those of Clan Warlock to travel the land.
+A small sign is here.
+~
+0 CDY 0
+D1
+Exit ~
+door~
+16385 0 26000
+D4
+Exit ~
+door~
+16384 0 31900
+E
+sign~
+Welcome to Clan Warlock's Portal Room.
+type 'enter drow'    to go to Drow City
+type 'enter sands'   to go to Sands of Sorrow
+type 'enter ancient' to go to Ancient Thalos
+type 'enter cot'     to go to the City of Thieves
+type 'enter nt'      to go to New Thalos
+type 'enter haon'    to go to Haon Dor
+type 'enter emerald' to go to Emerald Forest
+type 'enter camelot' to go to Camelot
+type 'enter atlantis' to go to Atlantis
+type 'enter elemental' to go to Elemental Canyon
+type 'enter pyramid' to go to the Great Pyramid
+~
+S
+#31911
+Narrow Path~
+You find a narrow rocky path winding away from the windy void
+to the south.  To the left, steep granite walls block all access;
+while on the right, mist swirls above an endless drop into nothingness.
+Northward, you see a large set of oaken double-doors that are covered 
+with burnt magical runes.
+ 
+~
+0 CDST 0
+D0
+Exit ~
+oak door~
+16387 0 31912
+D2
+Exit ~
+door~
+16384 0 31902
+S
+#31912
+Portico~
+You are standing in the center of a courtyard constructed from red brick and 
+white mortar.  At your feet, the bricks are arranged in a pleasant wave pattern
+that soothes the senses.  At the four corners, large tan earthenware pots give 
+root to the large network of ivy vines that creep all over the walls.  Above,
+a large skylight allows the sun to peek through the clouds giving light to
+the greenery.  There are several benches arranged at just the right distance
+to allow private conversations.  A large oak door shuts out the elements and 
+attendant noise to the south.  A hallway leads to the north.
+ 
+~
+0 CKST 2
+D0
+Exit ~
+door~
+16384 0 31914
+D2
+Exit ~
+oak door~
+16387 0 31911
+S
+#31913
+Warlock Storage Room~
+This small storage closet is just the right size to store the many empty
+containers that Warlock loots from fallen renegades.  The door to the west
+returns to the practice area.
+~
+0 CDKTY 0
+D3
+Exit ~
+door~
+16387 0 31906
+S
+#31914
+Entrance Hallway~
+The wall to the right is studded with a number of oak hangers on which
+are hung a variety of robes, cloaks, and pointy hats.  A small abstract 
+painting, apparently a landscape on the Astral plane, hangs on the wall
+to the left.  The hallway opens into the portico to the south, while
+at the north it opens into the central courtyard.
+~
+0 CDKY 0
+D2
+Exit ~
+door~
+16384 0 31912
+S
+#31915
+Blessed Altar~
+Black, Red and White ensigns of magic drawn to the walls
+glowing with magical light makes the small altar in the
+center of the room look quite worthless. the floor in 
+Northeast corner of room is covered with used scrolls,
+books and tomes. As you enter the room you feel the knowledge
+of Clerics of ancient times rushing through your mind with
+warm comfort. This altar has been used for centuries by clerics
+to learn new spells from their gods and to pray for a better
+future.
+ 
+The only exit seems to be back south, to the Mage lab.
+~
+0 CDKY 16
+D2
+Exit ~
+door~
+16384 0 31905
+S
+#31916
+Draconian Cell~
+It was a tight squeeze, but you have entered a small
+rough-hewn granite rock cell.  The walls are scorched and
+pitted from repeated blasting by Warlock mages who have
+sharpened their skills with area-effect spells here.
+~
+0 CDY 0
+D0
+Exit ~
+door~
+16449 0 31906
+S
+#31917
+Library of Arcana~
+You have entered a large room lined with mahogany book cases 
+loaded with tomes of ancient lore. Long polished oak tables 
+give seat to the busy Warlock researchers intently at work 
+with quills poised over parchment scrolls.
+~
+0 CDY 0
+D5
+Exit ~
+door~
+16384 0 31905
+S
+#31918
+The Panic Room~
+The room is small and tidy. Just and barely just enough
+room for few members of the clan to run into when huge
+enemy attacks their homehall and they have no way to
+help their guards. There is no windows or exits other
+than the one controlled from this room, to prevent 
+anyone entering without permission. There is source
+of water and magic can be used to create food for the
+ones hiding. This is place you might need to spend 
+a long time when enemy troops take control of your
+hall. 
+~
+0 CDK 0
+C warlock~
+D0
+Exit ~
+door~
+16384 0 31900
+D2
+Exit ~
+door~
+16384 0 3303
+S
+#0
+
+#RESETS
+O 0 31901 100 31902	* the Black Hole
+O 0 31910 100 31904	* A comfortable looking {Rr{Yu{Gn{Mt{x filled bag lies in the corner.
+O 0 31910 100 31905	* A comfortable looking {Rr{Yu{Gn{Mt{x filled bag lies in the corner.
+M 0 31900   1 31903  1	* the ancient potion-brewer
+G 1 3242  -1     	*   a scroll of recall
+G 1 3240  -1     	*   a scroll of identify
+G 1 3239  -1     	*   a bucket of hot Buffalo chicken wings
+G 1 3238  -1     	*   a buffalo water skin
+G 1 3288  -1     	*   a vial of holy water
+G 1 3032  -1     	*   a bag
+G 1 3292  -1     	*   a potion of true sight
+G 1 3291  -1     	*   a potion of flying
+G 1 3289  -1     	*   a potion of armor
+G 1 3287  -1     	*   a potion of cure blindness
+G 1 3286  -1     	*   a bottle of antidote
+G 1 3284  -1     	*   a potion of cure serious wounds
+G 1 3283  -1     	*   a potion of cure light wounds
+G 1 3282  -1     	*   a potion of divine protection
+G 1 3281  -1     	*   a potion of sanctuary
+G 1 3241  -1     	*   a yellow potion of see invisible
+G 1 3290  -1     	*   a potion of negation
+D 0 31902   0 16384	* Wind Void north
+D 0 31902   1 16384	* Wind Void east
+D 0 31902   2 16384	* Wind Void south
+D 0 31902   3 16384	* Wind Void west
+D 0 31903   1 16384	* The Alchemists Shop east
+D 0 31904   3 16384	* The Gathering Chamber west
+D 0 31905   0 16384	* Warlock's Advanced Magelab north
+D 0 31905   3 16384	* Warlock's Advanced Magelab west
+D 0 31905   4 16384	* Warlock's Advanced Magelab up
+D 0 31905   5 16384	* Warlock's Advanced Magelab down
+D 0 31906   1 16387	* Warlock's Practice Library east
+D 0 31906   2 16449	* Warlock's Practice Library south
+D 0 31906   3 16384	* Warlock's Practice Library west
+D 0 31906   4 16384	* Warlock's Practice Library up
+D 0 31907   1 16387	* {BWater Void{x east
+D 0 31907   5 16384	* {BWater Void{x down
+D 0 31908   4 16384	* {BWater Void{x up
+D 0 31908   5 16384	* {BWater Void{x down
+D 0 31909   4 16384	* {B Deepest Depth of the Water Void{x up
+D 0 31911   0 16387	* Narrow Path north
+D 0 31911   2 16384	* Narrow Path south
+D 0 31912   0 16384	* Portico north
+D 0 31912   2 16387	* Portico south
+D 0 31913   3 16387	* Warlock Storage Room west
+D 0 31914   2 16384	* Entrance Hallway south
+D 0 31915   2 16384	* Blessed Altar south
+D 0 31916   0 16449	* Draconian Cell north
+O 0 31921 100 31917	* Plaque
+O 0 31918 100 31917	* a black book titled 'The Art of War'
+O 0 31916 100 31917	* a silver book
+O 0 31919 100 31917	* a scarlet tome entitled 'Red Robes'
+O 0 31920 100 31917	* an emerald book entitled 'Advanced Wizardry'
+D 0 31917   5 16384	* Library of Arcana down
+O 0 31912 100 31910	* a magical vortex to Camelot
+O 0 31908 100 31910	* a magical vortex
+O 0 31904 100 31910	* a magical vortex
+O 0 31905 100 31910	* a magical vortex to Haon Dor
+O 0 31906 100 31910	* a magical vortex
+O 0 31907 100 31910	* a magical vortex
+O 0 31909 100 31910	* a votex to New Thalos
+O 0 31911 100 31910	* a vortex to the emerald forest
+O 0 31913 100 31910	* a vortex to atlantis
+O 0 31915 100 31910	* a magical vortex to elemental canyon
+O 0 31914 100 31910	* a magical vortex leading to the Great Pyramid
+D 0 31910   1 16385	* Warlock's Portal Room east
+D 0 31910   4 16384	* Warlock's Portal Room up
+M 0 31902   1 31901  1	* Ernie, the Warlock Hall Guard
+E 1 31923  -1   11	*   a {RRed{x Magus Shield
+E 1 31922  -1    6	*   a skull of a renegade
+O 0 31903 100 31901	* a stream of blood
+O 0 31900 100 31901	* the Pit of Pure Magic
+O 0 31902 100 31901	* a fountain
+D 0 31901   0 16384	* The Plane of Pure Magic north
+D 0 31901   1 16384	* The Plane of Pure Magic east
+D 0 31901   3 16387	* The Plane of Pure Magic west
+D 0 31901   4 16384	* The Plane of Pure Magic up
+D 0 31901   5 16384	* The Plane of Pure Magic down
+M 0 31903   1 31918  1	* The hero of the Magic
+O 0 31903 100 31918	* a stream of blood
+O 0 31902 100 31918	* a fountain
+D 0 31918   5 16384	* The Panic Room down
+M 0 31904   1 31900  1	* A Warlock Hall Guard
+M 0 31901   1 31900  1	* {CThe Orb{x
+D 0 31900   0 24643	* {CThe Gateway to the Plain of Magic{x north
+D 0 31900   1 16384	* {CThe Gateway to the Plain of Magic{x east
+D 0 31900   2 16384	* {CThe Gateway to the Plain of Magic{x south
+D 0 31900   4 16384	* {CThe Gateway to the Plain of Magic{x up
+D 0 31900   5 16384	* {CThe Gateway to the Plain of Magic{x down
+S
+
+#SHOPS
+31900 10  0  0  0  0 	 500  90 	 0 23 	* the ancient potion-brewer
+31903  9  5 11 33 32 	 100  10 	 0 23 	* The hero of the Magic
+0
+
+#SPECIALS
+M 31901 spec_cast_adept     	* {CThe Orb{x
+M 31902 spec_warlock_guard  	* Ernie, the Warlock Hall Guard
+M 31904 spec_warlock_guard  	* A Warlock Hall Guard
+S
+
+#$

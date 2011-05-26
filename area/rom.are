@@ -1,0 +1,3318 @@
+#HELPS
+
+0 ASSEMBLE~
+Usage:   assemble <part>
+
+    The assemble command is used to combine items with item_type 
+"PART" to create a new item.  You must have all the required "parts"
+in your inventory for the assemble command to work sucessfully.
+Anyone can use the assemble command, and there is no skill required.
+
+~
+0 HD~
+Syntax: hd
+
+The hd (hit/damage) command is used to give you a rough idea of
+how well your character hits and how much base damage your
+character does.
+
+~
+
+0 CHARTER CHARTERS~
+
+    Each of the organized clans have charters that dictate their
+actions during PK.  Loners and Outcasts, not being organized clans,
+dictate their own actions as they see fit.
+
+    The charters are there to define your clan, and to set rules for
+members of your clan to follow.  Leaders and recruiters are expected
+to know these rules, and explain them in detail to new recruits.
+
+    Charters are to be followed to the letter.
+~
+
+
+0 ABOLISH~
+Usage:  abolish <player>
+
+    Abolish is a Paladin-only skill that allows them to cure
+diseases with a touch, by a direct act of divine intervention.
+However, a Paladin's god will not grant this power frequently,
+and there is a period of time the Paladin must wait before being
+granted the power to Abolish again.  This delay grows shorter as
+the Paladin ages and gains experience.
+
+~
+
+0 'CONE OF SILENCE'~
+Usage:  cast 'cone of silence' <target>
+
+This spell, if it lands, will envelope the vicitm in a cone of 
+silence.  They will be unable to cast, chant, or use any of
+the communication channels.
+
+This spell requires a component.  The component can be found
+on a certian dominatrix in the City of Thives.  If the casting
+of this spell fails, there is also a chance that it will fire back
+on the caster, causing them to be wrapped in the cone.
+
+~
+0 BOUNTY~
+Usage:   bounty <victim> <amount>
+         bounty show
+
+    Bounties may be set by any clanner on any other clanner, even a 
+player in your own clan.  The victim will be notified that a bounty
+has been raised on him/her, but (s)he won't know by who.  The bounty
+is measured in gold.  You MUST have the gold on you to set the bounty.
+Bounties can be set anywhere at any time.  Bounties are cumulative,
+and will accumulate until the victim is slain.  They can never be
+taken back.  You may place multiple bounties on the same person.  
+To see who is logged on that has a bounty, type 'bounty show'.  The
+bounty will be automatically deposited into your 'gold' count once 
+you kill the victim.  There are some specific rules on bounties, see
+'help rules' for details.  Ignorance of these rules is no excuse to
+break them or the spirit of them.
+
+~
+
+0 'MEDIUM'~
+
+   The medium is a very simple kit.  The Medium is throughly connected
+to the physical world, and is able to enhance the regen of anybody in
+the same room.  All hit point, mana, and move gains are increased by
+a ratio to the medium's level for others in the same room.  This is not
+a skill, simply an inate ability of the medium.  The medium has no other
+skills or abilities.  The medium does, of course, increase his/her own
+regen as well, and at all times.
+~
+
+0 'WITCH'~
+
+Warlocks and Witches are two parallel kits.  They have the same skills
+and requirements.  One is for males and the other for females.  These
+two kits are for mages and wizards, and are combination offense-
+enhancement kits.  They receive five spells.
+
+ immolate  :: A fire damage spell comprable to acid blast
+ lacerate  :: The most damaging non-breath weapon spell in the game
+ clarity   :: Enhances mana regeneraation
+
+ arcantic alacrity :: Speeds up spell casting, even for offensive spells.
+ arcantic lethargy :: Slows down spell casting for your enemies.
+
+ Note that arcantic alacrity's affect will stack with spellcraft, 
+ making Warlocks and Witches the fastest spell casters in the 
+ realm.
+~
+
+0 'SHIELD OF THORNS'~
+This spell, available to Druids and Elementalists, causes attackers to
+take a small amount of damage when attacking you.  The spell has a 
+long casting delay and large mana cost, and a comparatively short
+duration.  It may be cast on anybody.
+~
+
+0 'SHIELD OF BRAMBLES'~
+This spell, available to Druids and Elementalists, causes attackers to
+take a moderate amount of damage when they land attacks on you.  It
+does slightly more damage than 'shield of thorns', and also has a high
+mana cost, long delay, and brief duration.
+~
+
+0 'SHIELD OF SPIKES'~
+Sister spell to 'shield of thorns' and 'shield of brambles', this spell
+has a long casting time, high mana cost, and short duration.  It does,
+however, do a significant amount of damage to attackers who land their
+hits on you.
+~
+
+0 'SHIELD OF BLADES'~
+The last spell in the damage shield line, shield of blades is available
+only to Druids and Elementalists, and does a severe amount of damage 
+to the source of a melee attack that hits the caster.
+~
+
+0 'SPIRIT OF BEAR'~
+This spell, castable only by Spirit Caller Druids, boosts the target's
+Strength.  It can be cast on anybody, even while in combat.  It also
+boosts the target's damage output by a set ratio.
+~
+
+0 'SPIRIT OF CAT'~
+This spell, castable only by Spirit Caller Druids, boosts the target's
+Dexterity.  It can be cast on anybody, even while in combat.  It also
+boosts the target's chance of landing second, third, and off-hand 
+attacks.
+~
+
+0 'SPIRIT OF BOAR'~
+This spell, castable only by Spirit Caller Druids, boosts the target's
+Constitution.  It can be cast on anybody, even while in combat.  It also
+boosts the target's damage resistance.
+~
+
+0 'SPIRIT OF OWL'~
+This spell, castable only by Spirit Caller Druids, boosts the target's
+Wisdom.  It can be cast on anybody, even while in combat.  It also
+boosts the target's experience gains while levelling.
+~
+
+0 'SPIRIT OF WOLF'~
+This spell, castable only by Spirit Caller Druids, gives the target
+a few extra attacks during melee.  If the target backstabs or kcharges
+while affected by Spirit of Wolf, they'll get a third attack, but the
+spell will fade immediately.  Otherwise, the spell gives a set number
+of extra attacks before fading.
+~
+
+
+0 'SPIRIT CALLER' 'SPIRITCALLER'~
+
+Spirit Callers are druids who are intensely in tune with the spirit
+world around them.  As such, they have access to five spells relating
+to this ability.
+
+  Spirit of Boar, gives a constitution boost.
+  Spirit of Bear, gives a strength boost.
+  Spirit of Cat,  gives a dexterity boost.
+  Spirit of Owl,  gives a wisdom boost.
+  Spirit of Wolf, gives a combat boost.
+
+  All of the spirit spells cost some skill points, and very little 
+mana.  They are also all cast very rapidly.
+
+The spiritcaller kit is available to all races, all genders, but
+only if they are druids.
+~
+
+0 'FENCE'~
+Fences are the consumate sellers of goods.  They are real smooth 
+operators, classy, mobster type slick guys.  They use the 
+connive skill in their trade.  Fences also know about the secret
+back rooms that most shopkeepers have.  This allows fences to
+trade while invis or hidden.
+This being said, the social stat is very important to them.
+
+See also:  connive
+~
+0 'CONNIVE'~
+Connive is the skill used by a fence when selling goods.  It
+also allows the fence to talk their way out of "sticky" 
+situations every now and then.
+
+See also:  fence
+~
+
+0 'SHIELD BASH'~
+Syntax: shieldbash <Victim>
+
+Available to Warriors, Blademasters, Samurai, Paladins, Berzerkers.
+
+Shield bash stuns your victim for 1 round, and makes spellcasting
+more difficult for a brief period afterwards.
+~
+
+0 'SYMBOL'~
+
+There are four Symbol spells.  They are available to clerics and
+crusaders only.  Their whereabouts and purpose are unknown.
+
+~
+
+0 'HAMSTRING'~
+Syntax: hamstring <victim>
+
+  Hamstring is a specialized opening move for Rogues, Thieves, and
+Assassins.  Hamstring does not require any special weaponry, and it
+can in fact be performed using only one's bare hands.  When successful,
+hamstring costs the victim moves, some DEXTERITY, and applies the slow
+flag.  Hamstring will also strip haste if it's there.  A hamstrung
+victim will occassionally have trouble when moving from room to room.
+Having high strength and constitution not only reduces this problem,
+but helps to avoid getting hamstrung in the first place.  Hamstring's
+impressive array of debilitative affects are countered by its short
+duration and the fact that it cannot be used in combat, meaning the
+thief must give up on an opening backstab to use this manuever.
+
+~
+
+0 'ACCLIMATE'~
+Syntax: c 'acclimate' <target>
+
+   Acclimate attunes the recipient to the ambient energy of his or her
+surroundings, making him/her regenerate incredibly rapidly.  If the
+recipient of this spell does *ANYTHING* or takes damage from almost
+any source, the spell will cancel.  The recipient must remain absolutely
+still to receive the full affect.  Druids only may cast this spell.
+The spell can only be acquired via spell pages.
+
+The location of this spell page is unknown.
+~
+
+0 'RESEARCH'~
+
+   Research is the skill that mages uses to create new spell scrolls.
+The higher the skill, the more likely the mage is to successfully
+craft spell pages.  Research is given automatically to all Mages
+and Wizards.
+
+   Currently most spell research must be done at the public magelab
+in Midgaard, which has recently purchased a MageLab 2000 research kit.
+~
+
+0 'REGENERATION'~
+Syntax: cast 'regeneration' <target>
+
+    This is a restoration-over-time spell.  It lasts for about 4
+minutes and heals a small amount of hit points during that time.
+It is available to clerics, crusaders, and any hybrids that could
+be old class cleric.  This spell belongs to no group and must be
+found on spell pages.
+~
+
+0 'CRITICAL HIT'~
+
+    Critical strikes are a feature that is only available to classes
+that can be old class warriors.  These are Warrior, Blademaster, Samurai
+Berserker, and Paladin.  If you are one of these classes and you are
+oldclass Warrior, you will automatically receive critical strikes.  They
+do extra damage based on your level.
+
+   If you are not an oldclass warrior but are one of these classes, you
+can buy the ability to have critical hits by taking the 'enhanced 
+critical' skill.  This will give you critical hitting ability akin to
+a warrior's inate ability.  For warriors, this will improve your chance
+of landing a critical hit.  For all characters with 'critical strike'
+the damage curve is softened slightly.
+
+  Two other specialized crits are available.  'Bludgeoning' works with
+bash weapons, and 'Cleave' works with slashing weapons.  Both give an
+additional chance to land a critical strike.
+
+  Note that you don't have to take enhanced critical to use cleave or
+bludgeoning.  
+
+ Example:	Cleric Paladin
+	Has no natural crit ability.  If he takes 'enhanced crit', he
+has basic crit ability with a soft curve.  If he takes 'cleave', he
+has better crit chance with slashing weapons, and regular crit chance
+with all others, and a softer curve.
+
+ Example:	Blademaster
+	Has natural crit ability.  If he takes 'enhanced crit' he has
+better chance to land a crit plus a softer curve.  If he takes 'cleave',
+he gets a REALLY good chance to crit with slashers, improved chance to
+crit with everything else, and soft damage curve.
+~
+
+0 'ENHANCED CRITICAL' 'CLEAVE' 'BLUDGEON'~
+See 'CRITICAL HIT'.
+~
+
+0 'SUNBURST'~
+Syntax: cast 'sunburst' <target>
+
+    Sunburst is a single-target offensive spell.  It deals LIGHT damage,
+not fire, and as such it has the potential to blind the victim from the
+intense light.  Sunburst does slightly less damage than the spell 'acid
+blast,' which is part of the basic training of most Boingan mages.
+
+   The origins of the Sunburst spell are unknown.  Researchers have
+determined that it is probably usable by Wizards, Mages, and Druids.
+~
+
+0 'SONIC BLAST'~
+Syntax: cast 'sonic blast' <target>
+
+    Sonic Blast emits a wall of mechanic waves that slam into a target in
+a concentrated force, snapping bones and causing pain.  Sonic blast does
+slightly less damage than the standard Boingan spell 'acid blast'.   It
+has the potential to stun the victim for 1, and sometimes 2 rounds of
+combat.
+
+    Nobody knows where this spell comes from.  A leading researching at
+the New Thalos academy of magic has suggested that a renegade mage may
+have escaped into Altirin and developed the spell there.
+~
+
+0 'ADAMANTITE SKIN'~
+Syntax: cast 'adamantite skin'
+ 
+    Available to Mages and Wizards only, 'adamantite skin' is a special
+type of transmutation.  The caster's flesh becomes as hard as adamantite.
+As the consequence, attacks bounce off harmlessly and do no damage,
+even magical attacks.  Each attack lowers the duration of the affect,
+until eventually it vanishes completely.
+
+    This spell is not in any spell group.  It may only be obtained
+from spell pages.  The pages must be researched at the public mage
+lab.  The formula for the adamantite page can be found at the same 
+location as one of the ingredients.
+~
+
+0 'INCINERATE'~
+Syntax: cast 'incinerate' <victim>
+
+    Incinerate is identicle to the 'acid blast' spell, except it does
+fire-based damage.  Incinerate is available to mages and wizards only.
+It must be researched at the mage's guild in Midgaard.  The formula
+to create the spell scroll can be found at the magelab.
+~
+
+0 'STEEL SKIN'~
+Syntax: cast 'steel skin'
+
+	Available to Mages and Wizards only, 'steel skin' is a special
+type of transmutation.  The caster's flesh becomes as hard as steel.
+As the consequence, attacks bounce off harmlessly and do no damage,
+even magical attacks.  Each attack lowers the duration of the affect,
+until eventually it vanishes completely.
+
+    This spell is not in any spell group.  It may only be obtained
+from spell pages.
+~
+
+0 'DIAMOND SKIN'~
+Syntax: cast 'diamond skin'
+
+	Diamond skin is available to Mages and Wizards only.  It
+transforms the flesh of the caster to a diamond-like substance
+capable of repelling all damage.  Each attack lowers the duration of
+the affect until eventually it fades completely.
+
+    This spell is not in any spell group.  It may only be obtained
+from spell pages.
+~
+
+0 'SHIELD OF FAITH'~
+Syntax: cast 'shield of faith'
+
+   This self-only spell is available to Clerics, Crusaders, Paladins,
+Druids, and Monks.  A shimmering shield of protection is draped over
+the shoulders of the caster by his/her deity.  The shield will absorb
+the next several attempts to injure the caster.  The number of attacks
+it absorbs depends on the casting level of the caster.
+
+    This spell belongs to no spell group.  It may only be learned via
+spell pages and the Ritual.
+~
+
+0 RITUAL~
+Syntax: ritual
+ 
+   The Ritual is a rite by which religious classes learn new spells.
+ To perform the ritual, the caster must be holding a spell page that
+ has a copy of the spell he wants to learn, and be in an Altar room.
+ The better the Altar, the better the chance of the Ritual being 
+ successful.  Four main factors influence the success of the Ritual.
+ A combination of Intelligence, Wisdom, and Level help the caster perform
+ the Ritual properly.  But the inherent complexity of the scroll makes
+ it more difficult.  
+
+ If the Ritual is successful, the caster will receive the spell in his
+ 'practice' and 'spells' list, and it functions like a normal spell
+ after that.  The scroll is no longer needed, and the caster will never
+ lose the spell.  It can be practiced and used like any other spell.
+ It does not belong to any spell group.
+
+ The caster must meet a level requirement for using the scroll, which
+ is generally far lower than the actual level of the spell.  Whether
+ or not the Ritual works, the scroll will lose 1 use.  Most scrolls have
+ only 1 use, but some lesser scrolls may have more.
+
+ The Ritual only works for oldclass clerics.  Oldclass mages will have
+ to use study command.
+~
+
+0 STUDY~
+Syntax:  study <scroll name>
+
+This command only works if your oldclass is mage.  It does one thing:  
+copy a spellpage.
+
+If the study attempt  is successful, the caster will receive the spell 
+in their 'practice' and 'spells' list.  Once you have enscribed it, the
+the spellpage is no longer needed.  The learned spell can be practiced
+and used like any other spell.  It does not belong to any spell group.
+
+See Also:  ritual, 'spell pages'
+
+~
+0 'SPELL PAGES'~
+Spell pages are special scrolls that are found throughout the land of
+Boinga.  They enable an oldclass mage or cleric to learn a new scroll
+without having to gain the scroll from a Guildmaster.
+
+See Also:  ritual, study
+
+~
+0 'REMOVE DISEASE'~
+Syntax: cast 'remove disease' <victim>
+
+  Although the healers of Midgaard have been unable to learn how to counter
+damage over time spells, the Drachlan Shamans do know!  This spell may only
+be learned by obtaining a spell page and using 'RITUAL' to copy it.  It 
+belongs to no spell group.
+
+  Remove Disease is a spell available to Clerics, Crusaders, Druids, and
+Paladins.  It attacks disease-based damage over time spells.  It does NOT
+work on plague or other non-DOT disease spells.  Remove Disease will weaken
+the DOT.  It may require several castings before Remove Disease gets rid
+of the DOT entirely.
+~
+
+0 'REMOVE POISON'~
+Syntax: cast 'remove poison' <victim>
+
+  Although the healers of Midgaard have been unable to learn how to counter
+damage over time spells, the Drachlan Shamans do know!  This spell may only
+be learned by obtaining a spell page and using 'RITUAL' to copy it.  It
+belongs to no spell group.
+
+  Remove Poison is a spell available to Clerics, Crusaders, Druids, and
+Paladins.  It attacks poison-based damage over time spells.  It does NOT
+work on 'poison' or other non-DOT poison spells.  Remove Poison will weaken
+the DOT.  It may require several castings before Remove Poison gets rid
+of the DOT entirely.
+~
+
+0 SURNAME~
+Syntax:	surname <name>
+
+  Characters who have reached level 35 may select a surname.  This name
+  must conform to the same rules as first names.  You may have the same
+  surname as another character if you wish.  Nobody owns a surname, and
+  nobody has to have your permission to use yours.  Surnames can only be
+  changed by an IMMORTAL once set.  This is not normally done unless your
+  surname is inappropriate, or your character gets married and wishes to
+  take the surname of his or her spouse.  Surnames are only displayed in
+  your score and the who list,  and serve no purpose but for roleplaying 
+  and fun.
+
+  You can toggle whether or not you see surnames in the who list by 
+  using "brief surname."
+
+~
+
+0 PREFRESH PFRESH~
+
+Q: What exactly is this prefresh I keep hearing about?
+
+A: Over the course of the almost 6 years MHS has been around, characters
+   have levelled under many different systems of gains.  In an effort to
+   address this issue, the administration has decided to allow all characters
+   to "refresh" themselves, and thereby take full advantage of things that
+   might not have existed when they first created.  This refresh will
+   eliminate the cumulative affects of many different changes over the years
+   and put everyone on a level playing field.
+
+Q: Okay, that explains why we're doing this, but how's it all going to work?
+
+A: When the prefresh happens, you will log into the game just like you 
+   always do.  If your character hasn't been prefreshed yet, you'll be taken
+   directly to the character creation screen, where you will go through all
+   the stuff you did the first time you made your character.  After you finish
+   selecting all your skills, improving your stats etc, your new cp (creation
+   points) will be calculated.  Using this new value, and the experience you
+   had earned before the prefresh, you will be given a bunch of debit levels.
+   The only things that will stay the same about your character are your name,
+   and your sex.  Everything else you will be allowed to choose again.
+   This includes your class, your alignment,, your race, your old class (if
+   applicable), your skills and anything else that takes place during normal
+   creation.
+
+Q: That's all well and good, but there's this creation point cap now.  What
+   if the experience I earned before the prefresh is so much that after
+   refreshing and recreating, I end up with a bunch of leftover experience?
+
+A: This particular topic is still under discussion.  Some ideas that are
+   being discussed include giving out "xp vouchers" for the left over xp,
+   or giving out skill points for the leftover xp.  When this is finally
+   decided, the answer will be posted here.
+
+Q: Skill points? What the hell are you talking about man?
+
+A: Currently, the only way to gain new skills, or to gain kits is through
+   the use of trains.  After the prefresh, you won't be able to do this
+   anymore.  Instead, you will gain new skills, kits, specialization etc
+   using skill points and/or practices.  You gain skill points by using
+   your skills.  The more you use your skills, the more skill points you can
+   get.  There is a limit to the number you can gain in an hour though, so 
+   don't be surprised to see your skill points come in spurts.
+
+Q: Well, if I can't use my trains to gain stuff, take a kit or specialize,
+   what good are they?
+
+A: Trains will be used to increase your stats (strength, wisdom, etc.), or to 
+   increase your hp, mana, or movement.  You will get 1 train every time you
+   level, plus a few when you start out.  These are the only trains you will
+   ever get, so use them wisely.  Yes, that means no more converting practices
+   to trains.  Practices will have other uses now.
+
+Q: Okay, give me the low down on practices then.
+
+A: Practices can be earned in two ways.  You get some when you level, depending
+   on your wisdom, or you can convert skill points into practices.  You can
+   use your practices for several things.  They can be used to practice skills
+   and/or spells, just like now.  You can use them to gain a kit, to gain a new
+   skill or spell group, or you can use them to specialize (if you have that
+   option available to your class).  The costs for all these things will be
+   adjusted to show you the cost in practices, instead of in trains, as it
+   is now.  The conversion rate will be 10 practices to one train.  So, if
+   a skill used to cost 4 trains to gain, it will now cost 40 practices instead.
+
+Q: What about the skills I already had practiced? Do I get to keep those?
+
+A: You will have the option, when practicing a skill again, to either take
+   your old skill level (%) for a cost of 1 practice, or to take the 
+   normal amount a practice would give you for that skill.
+
+Q: Wait.  Why would I not want to take my old percent, won't I get more for my
+   practice sessions that way?
+
+A: Sure you will, but when you do that, you won't have the opportunity to gain
+   the experience that goes with increasing a skill, and you also will end up 
+   with fewer skill points.  The choice is yours in how to best apply your
+   practice sessions.
+
+Q: Okay, I think I understand all that, but if I used to be level 40, and
+   I have to recreate, won't all my equipment disappear?
+
+A: Special instructions have been included in the code to compensate for your
+   new level.  You will have 5 logins after the prefresh where the normal
+   equipment level restrictions will not apply.  During these 5 logins,
+   you should easily be able to get yourself back to your old level, or find
+   someone to hold onto your things for you until you can.
+
+Q: What about my restrings and enchants?  Do I get to keep those too?
+
+A: Part of the reason we're doing this prefresh is get rid of unfair 
+   equipment that was given out in quests.  In order to do this all 
+   equipment you have when you refresh will be replaced with a "stock"
+   equivalent of the item.  The exceptions to this are restrings and highly
+   enchanted eq.  Any restrung eq you have will retain it's special
+   descriptions.  This means you won't have to worry about that special
+   wedding ring your MUD wife had created for you.  Highly enchanted
+   equipment will also retain some of it's enchants, to a maximum of
+   +8hit/+8damage.  The exact method of how the new enchant level will
+   be calculated hasn't been determined yet.
+
+Q: What bout warps? Will my equipment still be the right size?
+
+A: Since you can change your race, it was decided that the best thing
+   for everyone would be to remove existing warps on equipment.  If we
+   didn't do that, you wouldn't be able to wear most your gear if you
+   chose to change races.
+
+Q: I heard that the things we used to call reclasses are going to be available
+   right from the creation screen.  Is this true?
+
+A: Yes it is.  MHS will do away with our current class->reclass structure and
+   go to a simplified version of it.  Now, you will have 11 choices of for
+   your class right from when you create.  If you do choose one the classes
+   that used to be a reclass, you will be prompted to choose an "old class".
+   This is used exactly how old class is used now, to calculate casting level
+   and a few other things like delays on skills.
+
+Q: So, no more reclasses. Fine, what about remorts then?
+
+A: If you were a remort before the prefresh, you will be creditted for the
+   xp you earned before remorting.  So, you will actually get credit for 1.5
+   times your current xp, if you are level 51.  Don't worry about the math,
+   just understand that we're taking remort status into account when we're
+   calculating how much xp you have.  As for your remort status, that will
+   gone.  If you have enough debit levels after refreshing, you can remort
+   again, and use your remaining debit levels to level back up after remorting.
+   Note: Only those that are currently remorted can possibly be granted more
+   than 50 debit levels.  If you are not a current remort, you will NOT be 
+   able to use your extra experience to gain levels after remorting.
+
+Q: What bout my clan?  Do I have to stay in the clan system if I don't want
+   to be?  Can I change clans? If I was a non-clanner, can I join the clan
+   system?
+
+   We've decided to not store your old clan status.  That means you can 
+   change anything and everything about it if you want.  You used to be 
+   in a clan, and want to be a non-clanner now?  No problem.  You used
+   to be in Honor, and want to be in Demise now?  Check with the leader
+   of the clan you want to join, maybe they'll take you.  The only change
+   to clan status at all will be if you are an Outcast.  If you an Outcast,
+   your Outcast timer will be set to 0, and you'll be permitted to clan
+   again whenever you want (subject to the normal level restrictions).
+
+Q: What about my Mutant characters?
+
+A: We are currently discussing how to best implement and change mutants,
+   this takes intensive discussions and changes and therefore is not 
+   going to be completed for the pfresh. If you want your Mutant to remain
+   a mutant (assuming they ever get imped) then do not pfresh them. Once
+   you pfresh you will select a race and will not be able to go back to
+   mutant. A news will be posted when and if Mutants are returning and you
+   can pfresh a mutant character in the future.
+
+Q: Ok, I really think I'm starting to get it now.  What should I do if I
+   think of something not covered in this help file?
+
+A: Your best bet is to first ask around.  Chances are someone else has had
+   the same question as you.  If the answer isn't here, it might be 
+   in one of the many news articles posted about the prefresh.  If that
+   doesn't answer your question, ask one of the Admins (especially
+   Rage, Poquah or Minister).  These are the guys that are actually coding
+   this prefresh, so they usually have the answers.  If you can't find an
+   Admin, post an idea note with your question.  It will be answered either
+   by the general MUD populace, who can sometimes be wrong, or one of the 
+   Admins.
+
+FINAL NOTE: This help file is by no means comprehensive.  If you can think of 
+            something that should be included but isn't, please send a note
+	    to Rage, the writer of this particular help file.  He'll consider
+	    adding in your question if it hasn't already been answered.
+
+
+~
+
+0 MYRMIDON~
+
+Myrmidon
+Concept - The ultimate campaigner, the myrmidon is a classic soldier.
+The military life is law to this kit.  Myrmidons live and die for the
+martial life.  As a result of their rigid adherence to law and order,
+and the chain of command they tend to be strict and inflexible.
+However, the myrmidon is also highly trained in standard combat
+and is a skilled and powerful fighter.
+
+Benefits: 
+* Specialization is free.  If the myrmidon has a specialization already
+when he picks up the kit, he'll be refunded the trains for it.
+* Because of their extensive training in basic combat prowess,
+myrmidons, when using their specialized weapon, receive second
+and third attacks more often, anywhere from 125% to 150% depending
+on the weapon skill percent and the myrmidon's level.
+* Also because of their extensive training, myrmidons receive a
+fourth attack skill.  With 100% in his/her specialized weapon
+and level 51, the myrmidon receives second attacks 75% of the
+time, third attacks 50% of the time, and fourth attacks 25% of
+the time.  These only apply with the specialized weapons.
+
+Drawbacks:
+* Because of their regimented martial life, these soldiers are less
+familiar with other fighting styles than their own.  As a result, they
+fight at a slight penalty when going up against creatures of a different
+size (though not of a difference race if the race is the same size).
+This penalty decreases as the myrmidon levels.
+
+~
+
+0 SPECIALIZE SPECIALIZATION~
+Syntax: specialize <weapon>
+	specialize help (displays this help file and costs)
+
+Specialization is an option available to warriors and warrior reclasses
+Specialization offers the warrior a better hitroll, more damage, and a
+remote shot at an extra attack.  Warriors and Blademasters may specialize in
+anything.  The warrior reclasses may specialize as follows:
+ 
+ Samurai: sword, polearm, dagger
+ Berzerker: sword, mace, axe
+ Paladin: sword, flail, mace
+
+Note: In order to specialize, your oldclass must be warrior. IE a cleric
+      paladin cannot specialize, but a warrior paladin can.
+
+ ~
+0 PAB 'PLAYER ADVISORY BOARD'~
+The player advisory board (PAB) is an outlet for the coders to receive feedback about the major concerns for the game. Issues and suggestions brought forth by the PAB do not have to be implemented at all. Keep that in mind.
+
+Each clan will have 1 member on the board, usually the clan leader, but it can be anyone the clan decides to represent them. Clans can call for a change of representation at any time if the motion is supported by 3 different people, not characters. There will be 3 non-clanner positions on the board. Non-clanners will be appointed to the board by the immortal in charge of the PAB after having applied. These positions will be reviewed and possibly rotated on a monthly basis. Members of the player advisory board will receive an extra (PAB) flag by their name and be able to read notes posted to PAB. This will allow the other players to know who to talk to with their concerns. Being a member of the board is not something to be taken lightly, you will be required to post notes, attend meetings, and talk to the player base quite often.
+
+Meetings will be held on a bi-weekly basis. All other correspondence between the PAB will be through notes to all members, or through tells in order to come up with a working note to post. All members of the player advisory board will have their opinions considered, however the most popular idea will be the one that is sent on to the coders. Any questions about the PAB or its function will be answered by the immortal in charge of it at the time. No one else on the imm team is to be contacted concerning the PAB.
+
+Imm currently in charge of the PAB: Hobkin
+
+Mortals on the PAB have the PAB flag next to their names.
+
+
+~
+
+0 PYROTECHNICS~
+
+The pyrotechnics spell group involves the creation of explosive materials.
+Its use is currently limited to samurai, monks and assassins. The spells 
+are very powerful.
+
+small bomb: a small explosive device explodes on the target
+high explosive: blasts opponents with a larger bomb
+smoke screen: obscures vision and allows an escape from combat
+
+**NOTE: Only Monks,Assassins and Samurai's get Smoke Screen **
+~
+
+0 NETHERMANCER NETHERMANCY FADE~
+
+   The Nethermancer is the most mysterious and unpredictable of spellcasters.
+Through the art of {Cnethermancer{x, this kit can transfer hp to mana and vice
+versa as needed, at an exchange rate of 2::1.  This conversion is automatic.
+A perfect Nethermancer can only be destroyed when both his hit points and mana
+reach 0.  The Nethermancer also has a unique and uncontrollable ability to 
+become completely invisible at will.  He cannot control when this happens and
+when it ceases, though he can force himself to become visible by engaging in
+combat.  Nethermancers refer to this skill/annoyance as the {Cfade{x.  Finally,
+the Nethermancer can bestow upon any weapon a special type of enchantment,
+called the nether flag.  What this does, nobody knows, and how the Nethermancer
+manages to do it, nobody knows that either.  Nethermancers are automatically
+outfitted with a set of special robes.  If they lose their robes, they may use
+the "outfit" command to get another set.  
+
+Nethermancers cannot wear armor.
+Armor is defined as any item whose item type is armor.
+~
+
+0 BLADESINGER BLADESONG~
+
+Syntax: Bladesong
+        Bladesong stop
+
+   The Bladesinger is a special type of elf combatant.  Through the use of the
+{Cbladesong{x skill, the elven bladesinger receives a variety of bonuses in
+combat, as well as up to a 25% chance for an extra attack during each combat
+round.  Bladesong can only be performed with a sword or dagger, and cannot be
+used if the bladesinger is wearing a shield.
+
+   Bladesong stop will end your deadly dance with the blades.
+~
+
+0 BATTLERAGER 'KILLING RAGE'~
+
+  The Battleragers are the elite corps of dwarven warriors.  Ragers are 
+unstable at best, flying into insane fits of intense rage.  They can actually
+inflate their own hit points through the use of the {Ckilling rage{x, as well
+as receive a variety of other combat bonuses, including a chance at an extra
+attack during each combat round.  Battleragers can only perform the {Crage{x
+when wielding an axe, and cannot see their own hit point count while affected
+by the rage.
+~
+
+0 DAETOK~
+  Syntax: daetok
+
+  Dae'Tok is a Yinnish fighting style that cannot be learned by any other race.
+It involves a style of trainin that Yinn are taught from childhood, and results
+in spectacular accuracy and maximum potential for damage with any form of 
+weapon.  All Yinn become better with this skill as they advance in their
+careers.  Dae'tok increases both the hitroll and damroll, and increases the
+chances of landing {Csecond{x and {Cthird{x attacks.
+
+~
+
+0 RANGERS~
+
+  The ranger is a master of the wilderness.  As such, (s)he fights most
+effectively in nature - plains, forests, hills and mountains, and is
+uncomfortable and ill-at-ease when indoors or in urban areas.  All rangers
+may declare a species enemy (see {cSPECIES ENEMY{x), and will receive bonuses
+when fighting against any player or creature of that species.  The ranger's
+dislike of his/her species enemy is so strong that those creatures are 
+penalized in defensive skills when defending against the ranger.  Rangers may
+move from any sector to any sector for one movement point, and receive +3 
+moves when they level.  They also may dual wield with any combination of
+weapon types.
+
+NOTE:  When the material table is complete, Rangers will be forbidden from
+wearing armor made from non-natural materials.  This means they'll be 
+restricted to leathers, cloth, wood, and the like.
+~
+
+0 'SPECIES ENEMY'~
+Syntax: species <race>
+
+   Rangers do not have to declare a species enemy, but the cost of this 
+feature is included with the price of the kits, they pay for it whether they
+use it or not.  The species enemy must be a PC race.  Once you pick one, you
+can never -ever- change it.  Select wisely.  Rangers fight remarkably well
+when going up against their species enemy, and members of that race don't
+defend as well against the ranger.  You may not declare your own race as your
+species enemy.
+~
+
+0 'TUTINDEX'~
+
+MHS Newbie Tutorial
+
+ GETTING STARTED        Introduction to MHS
+ TUT2			Practices and Trains
+ TUT3			Levels and Rules Changes
+
+~
+
+0 'GETTING STARTED'~
+MHS Newbie Tutorial
+
+   Moosehead SLED is based on ROM2.3, so if you've ever played a ROM MUD,
+many of these elements will be familiar to you.  If you are new to MHS or
+mudding, this file is designed to help you get started.  One of the first
+things you will want to do is familiarize yourself with the commands.  The
+"score" command contains most of the relevent information about your character.
+The "worth" and "attrib" commands show your gold/silver line and attributes
+lines seperately.  The "who" command lists all the characters that are logged
+in right now (that you can see).  Type "equipment" to see what gear your
+character is currently wearing.  The "inventory" command lists the things that
+have on you but are not currently using.  We recommend that you go through
+the newbie school (type {crecall{x, {cup{x, {cnorth{x to get there) to get
+a good head stat. 
+
+To continue this tutorial, type 'help tut2'.
+For the index of Tutorial topics, type 'help tutindex'.
+~
+
+0 TUT2~
+MHS Newbie Tutorial Part 2 
+
+TRAINS and PRACTICES
+   Your character improves by killing beasties and getting experience.  By
+gaining experience you eventually gain levels, which allow you to learn and
+use new skills, spells, and abilities.  All new skills that you learn will
+begin at 1% (except recall and scan, which start at 50%).  Although your skills
+will naturally improve with use, you have to jump-start them by practicing
+them.  A skill at 1% will never improve.  Any skill at 2% or greater will
+eventually begin to go up just by using it, although the frequency at which
+this happens is generally very low at low levels.  To practice a skill, you
+need to locate a trainer (there is one in the Newbie school, follow the
+signs to find him).  After level 5, you'll have to find the guild for your
+class to practice skills.  To practice a skill, you need to have at least 1
+{Gpractice{x session available (type {Cpractice{x to see how many you have).
+Simply type: {Cpractice <skill_name>{x, where <skill_name> is the skill
+that you wish to practice.  Do not use quotes.  The skill you selected will
+increase by a few percentage points.  The higher your {YINT{x is when you
+practice, the more your skills will increase with each {Gpractice{x session.
+The highest a skill can go with manually practicing is 75%.  For anything
+beyond that, you'll just have to use the skill and let it improve naturally.
+You begin with 5 {Gpractices{x and you receive from 1 to 5 more every time
+you level.  The higher your {YWIS{x is when you level, the more {Gpractice{x
+sessions you receive.
+
+   Your character also has 5 primary {Yattributes{x that summarize his or her
+abilities.  They are: {Ystrength{x, {Ydexterity{x, {Yintelligence{x, 
+{Ywisdom{x, {and {Yconstitution{x.  See the individual help files for each 
+for detailed information on how they affect your character.  {YAttributes{x
+start at a specific value depending on what race and class you selected. To
+improve your attributes, you use a {Gtraining{x session.  You begin with 3
+{Gtrains{x and after that, you receive 1 more every time you level.  Your
+{Yattributes{x range from 3 to 25, and usually start out between 10 and 15.
+You will want to train your {YCON{x and {YWIS{x first.  This action also
+requires a trainer.  There is one in the newbie school.  These trainers are
+not always the same as the {Gpractice{x trainers.
+
+To continue this tutorial, type 'help tut3'.
+For the index of Tutorial topics, type 'help tutindex'.
+~
+
+0 TUT3~
+MHS Newbie Tutorial Part 3
+
+LEVELS and RULES CHANGES
+ 
+   As your character levels up, some of the game rules will change.  Also,
+you'll be gradually forced to explore more the game world.  At level 6, you
+will nol onger be able to enter newbie school, and must locate trainers in 
+the world somewhere.  Your character does not have to worry about the size of
+his/her armor until level 11, and is able to use the {Crecall{x skill at will
+until level 11 as well.  After that, recalling requires the use of deity gifts
+(see {chelp deity{x), spells, or magic items.  The game will warn you about 
+these changes as you approach level 11.
+
+   When you level, it is in your best interests to wear what is called
+"levelling gear."  Anything can technically be "levelling gear", but this
+term generally refers to equipment that people only wear when they are about
+to level.  Usually this equipment gives you bonuses to your {YCON{x, {YWIS{x,
+and {YINT{x (see the helpfiles for each attribute for more information).
+Where do you find levelling gear?  Ask around and explore, that is your best
+bet.  Note that when you level, the amount of experience that you need to 
+reach the next level doesn't change.  Rather, you begin to gradually get less
+experience for the same monsters.  You'll need to explore and find new monsters
+to slaughter that are more of a challenge.
+
+To continue this tutorial, type 'help tut4'.
+For the index of Tutorial topics, type 'help tutindex'.
+~
+
+0 SPELLCRAFT~
+
+   Spellcraft is a special skill in which the spellcaster has studied
+the metaphysics of spellcasting.  Those skilled with spellcraft are able
+to identify which spells other are casting, whether they are of the same class
+or not.  They also suffer a smaller mana drain when they loose concentration,
+can sometimes cast a +1 over their normal casting level.  Spellcraft has a
+variety of other, more subtle effects that make for a more solid 
+spellcasting character.  This skill is incredibly difficult to increase.
+~
+
+0 BANKS BANKING DEPOSIT WITHDRAW~
+Syntax: deposit <#>
+        withdraw <#>
+
+   There is one banker in Midgaard, his name is Otho, he can be
+found on clan road.  You may only deposit eggs into the bank, and they
+must be in your inventory for you to do it.  Your total number of eggs
+in the bank is listed in your score.  You do not collect interest and 
+there is no minimum balance.  Your eggs are completely safe in the bank.
+Notice that unsavory individuals may hang around and attempt to steal your
+eggs when you go to deposit/withdraw them.  The bank is not responsible 
+for stolen eggs.  
+
+~
+
+0 COLOR COLOUR~
+
+   Syntax based on Lope's standard colour code.
+
+   To enable color, type "color on".  To disable, type "color off".
+
+   This SLED automatically colorizes some elements of the game.  If you do
+not like our colors, do not turn color on.  If you want to use only a few
+parts of color, get a client and utilize its color features.
+
+   You may use the following in any place to create color; notes, titles,
+tells, channel use, any where.  Please note that if you do not reset the
+color to 'normal', your color will bleed.  If you do this, you will be 
+frozen, so be very careful.
+
+    Red:    {{r for {rnormal{x, {{R for {Rbright{x
+    Blue:   {{b for {bnormal{x, {{B for {Bbright{x
+    Green:  {{g for {gnormal{x, {{G for {Gbright{x
+    Yellow: {{y for {ynormal{x, {{Y for {Ybright{x
+    Black:  {{D for {Dblack{x,  {{W for {Wwhite{x
+    Cyan:   {{c for {cnormal{x, {{C for {Cbright{x
+    Magenta:{{m for {mnormal{x, {{M for {Mbright{x
+    NORMAL: {{x resets colors to normal.
+     
+    Proper use of color:
+
+    <100/100hp> title will kick your {{RASS{{x!
+    <100/100hp> whois me
+    [51 Human War] Me will kick your {RASS{x!
+
+    Improper use:
+    <100/100hp> title will kick your {{RASS!!!
+    <100/100hp> whois me
+    [51 Human War] Me will kick your {RASS!!!
+    <100/100hp> whois me
+    [51 Human War] Me will kick your {RASS!!!
+    <100/100hp>
+    {x
+
+    Get it?  If not, don't use it, please.  We don't issue warnings for
+    stupidity.
+~
+
+
+0 TRADE TRADING MUDTRADER~
+MudTrader 1.1
+
+Syntax: trade <cmd> <arg1> |amount|
+
+Command Summary
+> trade request <character>	 	- Start a trade 
+> trade accept <character>		- Accept a request to trade
+> trade decline <character>		- Decline a request to trade
+> trade clear				- Clear the current trade
+> trade cancel				- Abort current trade
+> trade add <item in inventory>		- Add something to the trade
+> trade add <gold|silver> <amount>	- Add money to the trade
+> trade remove <item in trade>		- Remove an item from the trade
+> trade remove <gold|silver> <amount>   - Remove money from the trade
+> trade show				- Display current trade
+> trade approve				- Finalize trade
+
+MudTrader is a special program that lets the MUD software act as a
+third-party agent between two players who want to trade something,
+or purchase something from each other.  When you are trading, the money
+and items are removed from your inventory and held in memory.  If you remove
+the items/money from the trade, leave the room, or cancel/clear the trade,
+you get them back.  If you approve the trade, they go over to the other
+person and are no longer yours.  When you are happy with the trade, type
+"trade approve" to finalize it.  BOTH traders must type "trade approve"
+for it to work.  If anybody changes the trade, by either adding to it or
+removing stuff from it, both people must type "trade approve" again.
+~
+
+-1 WIZLIST~
+
+        ________      ===============================      ________
+      /+_+_+_+_+_\    |    The Gods of Moosehead    |    /+_+_+_+_+_\
+      \__________/    ===============================    \__________/
+        |::XXXX|                                           |XXXX::|
+        |X::XXX|              Creator / IMP                |:XXXX:|
+        |XX::XX|               -----------                 |::XXXX|
+	|XXX::X|        Rusty, The Oxidizing Dragon        |X::XXX|
+        |XXXX::|                                           |XXX::X|
+        |X::XXX|            Benefactor / Coder             |:XXXX:|
+        |XXXX::|               -----------                 |XXX::X|
+        |X::XXX|       Boogums "BooglyDude" McDugal        |::XXXX|
+        |XXXX::|                                           |XXX::X|
+        |:XXXX:|                                           |XXXX::|
+/<<>>\/<<>>\/<<>>\/<<>>\                           /<<>>\/<<>>\/<<>>\/<<>>\
+\<<>>/\<<>>/\<<>>/\<<>>/       Immortals           \<<>>/\<<>>/\<<>>/\<<>>/
+       |.  /\ . |            ---------------              |.  /\ . |
+       | . /\  .|               Alagaster                 | .//\ . |
+       | .//\.  |               BriarRose  - ADMIN        |.  /\ . |
+       |.  /\.  |               KallaLilly                |.  /\ . |
+       | . /\  .|               Karag                     | . /\  .|
+       | . /\  .|               Kuno - ADMIN              | . /\  .|
+       | .//\.  |               Slodhian - ADMIN          | .//\  .|
+       | . /\.  |                                         | . /\.  |
+       |.  /\ . |                                         |.  /\ . |
+       | . /\  .|                                         | .//\ . |
+       | .//\.  |                                         |.  /\ . |
+       |.  /\.  |                                         |.  /\ . |
+       | . /\  .|                                         | . /\  .|
+       | . /\  .|                                         | . /\  .|
+       |.  /\  .|                                         |.  /\  .|
+       | . /\.  |                                         | . /\.  |
+       |.  /\ . |                                         |.  /\ . |
+       | .//\  .|     Long live the memory of Mandrake    | .//\  .|
+        \. /\  /         who left before his time.         \. /\  /
+         \ /\ /    [ IMMORTAL ] Grey Kellam : Mandrake      \ /\ /
+          \/\/                                               \/\/
+           \/                                                 \/
+Art by Blackstaff and Sara
+
+Last Updated By Boogums - 30NOV03
+~
+-1 HERO HEROES~
+The list that follows is that of those who have attained the
+level of 52.  They are Heroes of MHS who either climbed to the
+rank of Hero and retired in glory or went on to serve as an 
+Immortal but are no longer with us.  We honor them here in
+name.
+
+Culain  Maggie  Johnwa  Eiram  Tisha  Alonso  Anomius
+Blackblade  Bunion  Galad  Gwenhwyvar  Handel Nobody  
+Palibar  Rebecca  Shun  Valnor  Seog  Alucard  Maclav
+Barg  Zad  Thunder  Alander  Ohara  Seth  Satin  Saska
+Windrunner  Sunrunner  Gunslinger  Dwarfy  Reborn
+Talltree  Foun  Hoth  Modi  Frik  Yukon  Blackstaff
+Midian  Kathy  Reznor  Palin  Scintilla  Krantzstone
+Hyzenthalay  Marina  Apoptygma  Ramona  MacDuff  Hela
+Guido  Ryoga  Hannah  Borne  Ghanima Haryld Rigger
+Maerchyng  Soviet  Mythorn  Minister  Terex  Doofie
+Dazrin  Dallas  Ned  Moonwind  Delstar  Daisy  Bloodmoon
+Robinhood Prowler Tiag Nimthas Santiago Braxen Harry
+Pacifist Ruiner Tamar Firestorm Rage Poquah Valder
+{YKD "BugBug" McDugal{x Stylee Earendil Seog Moonwind
+Hobkin Randal Luria Nightdagger Matteo Mindweaver Halo
+
+~
+
+-1 ROM~
+Based on ROM 2.3, based on Merc 2.1, based on Gamma Diku
+~
+
+-1 IMMORTAL IMMORT GOD WIZARD WIZ~
+'Immortal' (often, simply, 'imm') refers to players who have reached
+the highest attainable levels in the game.  Here, anyone of level 52
+or higher is an 'immortal.'  Immortals are capable of exceeding the
+usual game rules, in more drastic and pervasive ways as levels increase;
+examples range from teleportation and invisibility to mortal sight to
+creation of objects, removal of a player's privileges (channels,
+ability to move, or even ability to log in), and ability to promote
+players to immortality.
+
+Since immortals can wreak havoc with game balance, they are (ideally)
+a carefully-chosen and policed group.  An absolute rule of immortal
+behavior is that no immortal can aid or assist any player without
+explicit permission from the higher ranks; in other words, please
+don't ask an immortal to help you kill a mob, gather EQ, etc, or
+you'll likely be either politely or rudely refused, or referred to
+this file.
+
+The duties of immortals, and even the very reasons for their existence,
+are topics of continual and heated debate in various MUD forums, and are
+fraught with misconceptions, poor examples, and outrageous hypocrisies. :)
+~
+
+-1 SOCIALS~
+ 
+This is a complete list of socials for Moosehead SLED:
+Compiled originally by: Sara
+accuse       adjust      air          apologize     applaud     babble
+bark         bcatch      beckon       beer          bearhug     beg
+bird         bkiss       bleed        blink         blush       boast
+boggle       bonk        bounce       bow           brb         burp
+cackle       caress      charge       cheer         chuckle     clap
+claw         collapse    comfort      comb          cough       cover
+cower        cringe      criticize    cry           cuddle      curse
+curtsey      dance       daydream     drool         duck        embrace
+explode      eyebrow     faint        fart          flare       flash
+flex         flinch      flip         flirt         flutter     fondle
+french       frown       fume         gasp          giggle      glare
+goose        grimace     grin         groan         grope       grovel
+growl        grumble     hand         head          hiccup      highfive
+hop          howl        hug          hush          ignore      innocent
+insane       judge       kiss         knee          laugh       lick
+love         lust        massage      meditate      moan        moon
+mosh         mutter      nibble       nod           nudge       nuzzle
+pant         passout     pat          peck          pie         pinch
+pissed       plead       point        poke          ponder      pout
+pray         propose     puke         punch         purr        ramble
+raspberry    rofl        roll         rub           ruffle      run
+scratch      scream      serenade     shake         shiver      shrug
+sigh         sing        slap         slobber       smile       smirk
+snap         snarl       sneeze       snicker       sniff       snore
+snort        snowball    snuggle      sob           spam        spank
+spit         squeal      squeeze      squirm        stare       stretch
+strip        stroke      strut        sulk          swoon       tackle
+tease        thank       threaten     tickle        tip         tongue
+twiddle      type        undress      view          wave        whine
+whistle      wiggle      wince        wink          wonder      worry
+worship      yawn        yeehaw       yodel         rose	laces
+tank	     starve	 aargh	      homework	    puff	differ
+yae	     lightbulb   voodoo       ogg	    confused	beam
+bite	     discodance  scuff        whap	    lag		chortle
+zerbert      twitch      roxbury
+ 
+~
+
+-1 MERC~
+This sled is based on Merc 2.1, created by Furey, Hatchet, and Kahn.  
+Merc 2.1 is available as Merc_21.tar.gz from ftp.tcp.com and 
+ftp.math.okstate.edu.
+E-mail to 'merc-request@kpc.com' to join the merc mailing list.
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, Melinda Mud, and Mystic Realms for bug reports, 
+      ideas, new code, and hours of enjoyment.
+
+~
+-1 MAP MAPS~
+Thanks to Ezra for drawing the originals of several maps on MHS.
+~
+
+-1 ECIRAVA~
+Since the sun first shined down upon Boinga, there have always been
+a few individuals that are encompassed by their extreme desire for
+wealth, power, and position.
+ 
+These covetous individuals of Boinga have joined together to form
+Clan Avarice.  Their universal greed is the strongest bond between
+any of the existing clanners.
+  
+Avarice is a highly selective clan, who tends to keep its numbers
+low.  The exclusivity is derived from the clan's lack of trust in
+outsiders, and a desire to have a large market that can be used
+in amassing great wealth in the name of the Avarice clan.
+   
+Entrance Requirements:
+ -Must be level 20+
+ -Must have the steal skill (above 75%)
+    
+Avarice's great power and wealth must be protected at all costs.  In order
+to ensure that only loyal members to the cause of Avarice are gulded, expect
+tests of your abilities and quests to prove your faithfulness if you
+choose to join the ranks of Avarice.
+
+Avarice Charter (rules)
+    
+ -You MAY attack anyone of a thief-based reclass (thief, rogue, assassin,
+  berzerker, monk)
+ -You may NOT attack anyone who is not a thief-based reclass.
+  EXCEPTION:  You are allowed to attack to aid a clanmate who has
+    been attacked.  Note that this doesn't mean you can attack your
+    clanmate, but you may attack anyone who is attacking them.
+ -You do NOT group with those outside of your clan EVER. 
+ -You do NOT help those outside of your clan for free.
+ -Read those again.  Avarice does not trust outsiders be they clanners
+  or non-clanners.  You may sell items and services, as this is part 
+  of your clan ideals.  But you are not Matookers or Honor.
+ -There will be no alliances with any clans.
+
+See 'help avarice sanction' for sanctioning information.
+
+Avarice is not a sin, it's a way of life...
+~
+
+-1 HONOR~
+It is a time of ideals,
+of leaders, of followers,
+of love, of friendship,
+of life, of death, of truth...
+of HONOR!!
+
+We are truly now the new generation of HONOR clansmen and women.
+Our forefathers began the quest for justice and truth a millennia ago, 
+on the plains of Northern Midgaard. Blood and tears were shed to regain 
+HONOR once lost, and alas, is lost once again!!
+
+In the past Clan Honor's strength in numbers allowed for victory, but at a 
+great cost in lives. The evil were caught, drawn, quartered and hung.
+These old reminders remain there even today, remember my brethern...the 
+folly in betrayal, and the swift hand of vengeance!
+
+CLAN HONOR's ideals come from the very heart of it's members. We exist to 
+purge this realm of evil that exists in the minds and souls of many, and as
+it seems leads more into its grasp every day. We must stand strong together
+to strive to assist our own, no matter what the cost, especially in 
+accomplishing the first goal.  
+
+If YOU believe in yourself, in truth, in HONOR, and wish to join the family 
+called HONOR, you must first send a note to 'HONOR' stating your intentions.
+You will also be responsible for petitioning a Knight, or Lord to direct
+you to the person who will give you your quest. Expect a rigorous interview,
+and a test of your skills!
+
+Stand strong together my brethern, for the paths of false HONOR may lead to 
+your own death!
+
+"May the light of HONOR show you the true paths to glory..."
+                                     ---Thunder
+                                        Clan Father
+
+Entrance Requirements:
+
+* None
+
+======================Honor Charter (rules)================================
+
+* Grouping or Working with any member of Demise is forbidden.
+
+* Members of Demise are to be killed on sight.
+
+* If you are asked for help, you will provide it if you are able.
+
+* Thievery is not honorable, if you get a thief flag expect to be
+  sanctioned.
+
+
+~
+
+-1 WARLOCK~
+In the land of Boinga, in a time forgotten by most, there was a spellcaster
+whose name has also been lost. He was travelling the land and noticed that
+there was power in the magical arts that was far beyond his or any others'
+comprehension. He decided from that day forth to unite all pure spellcasters
+so as to fully understand and improve upon the arts of magic. He and his
+faithful followers travelled the lands of Boinga to search out all those that
+had the pure blood of magic in their veins. Those who would not join him and
+his brethren were made to pay with their lives.
+
+Here we are left but a few proud spellcasters who have survived the trials
+of time. Now we shall rise again amongst the ashes of our ancestors. In our
+plight to truly unite the purity of magic, we have been forced to divide
+into three sects.
+
+Those who adorn the White Robes of Warlock show the purity of magic through
+kindness. Their role in our clan is to guide all young spellcasters to gain
+knowledge of the magical arts.
+
+Those who adorn the Red Robes of Warlock use their magical gifts to help 
+with clan responsibilities. Their neutrality gives them the clear minds to
+recruit for each sect. They have also been entrusted with our clan finances.
+
+Those who adorn the Black Robes of Warlock use the darker side of magic to
+punish the renegades who chose not to follow the true path, and defend our
+clan against those who would wage war. 
+
+Our goals of the unity of pure magic has made us a very diverse clan, and for
+all those interested you may speak with any member of our clan and they will
+put you in touch with our recruitment officers.
+
+
+Entrance Requirements:
+  
+* You must be a pure spellcaster
+  (mage, cleric, elementalist, druid, wizard, crusader)
+   
+Warlock Charter (rules)
+*  You may not group with any clanner who is a:
+   Mage, Cleric, Elementalist, Druid, Wizard, or Crusader
+   They abuse the art and are to be killed on site.
+
+*  You may group with / help any nonclanner.
+
+
+~
+
+-1 RONOH~
+."It is a time of ideals,
+ of leaders, of followers,
+ of love, of friendship,
+ of life, of death...
+ of Honor."
+
+WE are the new generation of Honor clansmen and women.  Our forefathers
+began the quest for justice a millennia ago, on the plains of Northern
+Midgaard.  Blood and tears were shed to regain honor once lost.  In the end,
+Clan Honor's strength in numbers allowed for victory, but at a great cost
+in lives.  The evil were caught, drawn, quartered, and hung.  They remain
+there even today, as a reminder of the folly in betrayal, and the swift hand
+of vengeance.
+ 
+CLAN Honor's ideals come from the very heart of it's members.  We exist to
+purge this realm of the evil that exists in the minds and souls of many. We
+strive to assist our own, especially in accomplishing the first goal.
+Our actions may not always be presented in the light of Good; although most
+will agree it is sometimes necessary to combat evil with it's own devices.
+
+TO be allowed to join Honor, you must first send a note to 'Honor' stating
+your intentions.  You will also be responsible for petitioning a Knight, 
+Earl, or Lord to give you a quest.  Expect a rigorous interview, for the 
+paths of false Honor may lead to your own death.
+
+"May the light of Honor show you the true paths to glory..."
+                                  --- Thunder
+                                      Clan Father
+                                      
+~
+-1 NOIGEL~
+The Legion of the Goblin Hoard.
+Long ago a new race was formed, offshoots from the human race, the Goblin
+came into being. They were a peacefull kind, only wishing to keep their 
+race going, raising cattle, and growing crops.  But as outsiders came to 
+the lands of the Goblins and tried to take over their farmland, it became 
+obvious they would need some kind of defense, an army of some sort to fend 
+off the newcommers.  And so was formed the Legion.
+
+The Legion has one reason for being, and that is to keep the Goblins alive.
+If you are a Goblin, and want to stand up for yourself in this world of
+races far bigger then the Goblins, then the Legion is the place for you.
+The Legion does not wish to seek out battle, we just wish to defend ourselves.
+Any race can join the Legion, but only a Goblin can ever hope to become
+anything more then just a guardsman.
+
+If you wish to join the Legion, to help the Goblin race survive, you must
+contact one of the leaders, or a recruiter, in a note or when you meet one
+on-line. You must be able to roleplay, because the Legion is a clan formed 
+around roleplaying and it is imperitive that you can do so to join this clan. 
+If you are a non-goblin then you may have to prove yourself worthy of 
+protecting the Goblins, because it would be a horrible thing if we recruited 
+the weak for this task.
+
+LONG LIVE THE LEGION!
+~
+
+-1 ELCRIC~
+The Clan Circle
+
+    "As one I am weak, but as many we are strong.  We are the Keepers of
+Magic.  We are the Magi of Clan Circle, Never Ending and Ever Lasting."
+
+    Magic.  It is the lifeblood of the universe.  It is magic that drives
+us, and it is in magic that we find true power.  This is the founding belief
+of clan Circle.  Through magic, any problem can be solved, any obstacle over-
+come.  The main goal of Circle is to encourage and foster the development
+and increased use of magic, through the use of our own magic, power, and
+strength.
+
+    The members of Clan Circle reside in the Tower, a massive building in 
+which we work our spells.  Members of Circle receive free spell-ups, enchants,
+corpse retrievals, and all of the other benefits that one would expect from a
+clan.  Although all clan members are expected to be willing to help others,
+the Mentors of Circle are dedicated to this task.  The Guardians of Circle 
+are the clan's military force, ready to fight at a moment's notice, and
+willing to sacrafice their lives in defense of our ideals, members, and magic.
+
+    Roleplaying is *not* required to join Circle.  The only roleplaying
+that is asked of all members is that you keep your characters seperate, as per
+the basic "no multiplaying" rule of MHS.  We do encourage members to roleplay
+and develop their characters, but we do not require it.  Tithing of income
+is also encouraged but not required.
+
+Circle Leadership and Law
+
+    Circle is overseen by the Conclave, a council of 7 leaders who are
+elected or appointed from the clan.  There are very few defined rules in 
+Circle.  We are a clan, we are Magi, we are family.  All members of Circle
+are given as much personal freedom as possible, and in return, we expect 
+that all members take responsibility for their actions, words, and beliefs.
+
+Joining Circle
+
+    Any race or class can join Circle.  Although our specialty is magic,
+and we generally only actively recruit mages and clerics, warriors and thieves
+are welcome to apply for admission.
+
+    The is only one requirement to join Circle.  Mages and Clerics must
+have at least 8 spell groups, and Warriors and Thieves must have at least 3.
+Because dragons are very difficult and timely to advance, the draconian spells
+are considered a spell group for the purpose of meeting this requirement.
+
+    If you wish to join Circle, talk to a Recruiter.  Any Inner Circle
+or Outer Circle is also a Recruiter.  If no recruiter is available, then post
+a note to Circle, informing us of your race, class, and current level.  All
+applicants will be given a thorough interview, and some will be asked to 
+complete a quest.
+
+                                  - Clan Circle, Never Ending, Ever Lasting
+~
+
+-1 LONER~
+Loners are individualists, standing alone from any Clan, but subject
+to the same rules as clanners with respect to pkilling, pstealing,
+and transportation spells.  By definition, Loners have no common
+hall, no leaders, and no affiliation among each other, save what they
+agree upon for themselves.
+
+To become a Loner simply issue the 'loner' command between levels 5
+and 20.  This command -cannot- be reversed under any circumstance.
+Do it carefully.
+~
+
+-1 ECNALAB~
+In life there are those who take, those who give, those who lead and
+those who follow.  Seldom are they one and the same, but this is the
+land of Boinga, the land where the beautiful princess Alia once
+stepped. She had a vision, a vision of a family where to lead and to
+follow to give and to take were equally respected by all who were
+part of the family of BALANCE.
+
+In the days when Alia walked among us we were happy, at peace and
+able to console ourselves that we were no-one's master and no-one's
+slave. But Alia left this realm and chaos ensued. We strived to
+become what she had taught us and when we achieved it she did walk
+among us again.  Dissention was rife and soon after her visitation
+Balance fell under internal turmoil and deceit; the few feeling
+that they took precedence over the many...
+
+And so this continued until one day few were left. They decided
+to make their own way and live the teachings of Alia rather than
+follow them, throwing scorn on the likes of Riders those who would
+have sheep rather than friends.
+
+With that Balance was reborn!
+
+Balance is a family of members, none being any more important than
+any other. We strive for total equality and are in a constant
+state of war with Riders, who see some fit to be ranked far above
+others.  To join Balance just speak to any full member and they
+will give you an interview (or arrange one for later). A full member
+is one who has been in the clan for 6 levels (or 20 days at 51). This
+is so new members have time to learn the ways of Balance before 
+completing entrance into our clan.
+
+The Current Speaker of Balance is Rigger.
+The speaker of Balance is the person who is elected to be the
+spokesperson to the outside world.
+~
+
+-1 ESIMED~
+Children of Demise
+
+        Darkness swallows light, death extinguishes life, and hope is but a 
+foolish dream. All things must come to an end, and the Children of Demise
+faithfully help the end come quicker. We willingly bear the burden of life,
+so we can help the unbelievers on into the everlasting darkness. To enter
+the darkness serving the faith is the greatest priviledge. To crush all
+hope and happiness is one the many steps to our eventual success.
+I, Eiji, am the father of Demise. I have come forth from the shadows to bring
+the words and wisdom of Demise. There is no stopping our tide. We shall 
+prevail.
+
+Clan Demise
+
+        Clan Demise consists of a cult with a inner hierarchy. You rank
+is based on your level, your acts in the name of Demise, and your Role-
+playing. Clan Demise allows pking, pstealing, and other cruel activities.
+We work together as a tight unit, planning carefully all ventures.
+If thou wishest to join Demise, expect a serious questioning from members.
+They tolerate no stupidity, foolhardiness, or insolence.
+ROLE-PLAYING is a MUST.
+~
+
+-1 DEMISE~
+Above, in the planes of the Deities lies one of true evil.  His power is fueled
+by destruction and vengeance that are channeled through the wrath of his 
+glorious children!  We are the Children of Cthon!  Spawns of Hell, Delivers 
+of Death, Vengeance and Chaos.  We are the elite army of the greatest 
+power.  We bare the burden of life to crush all hope and extinguish all life, 
+making Cthon ever so much stronger! 
+
+Those within our ranks have the privilege of serving the greatest evil.  As such
+Cthon himself grants the elite army with speed and aura of fear that makes 
+our enemies cower in fear with our power!  Possessing so much power we 
+harness it and war with every existing clan, loner and outcast.  No treaty or 
+bond between clans is powerful enough to stop our storm,  for we come for 
+you?always. In the words of wisdom of Eiji, the father of Demise, "There is no
+stopping our tide! We shall prevail!"
+
+Clan Demise
+
+To enter Clan Demise is a feat in itself.  Do not come looking for us.  We 
+will come to you.  Show us your power by killing and looting.  Any attack 
+on you consider it a test.  You must also be a minimum of level 15, and  
+even then, when we feel you are ready you fill be asked to join and no 
+sooner.
+
+Clan Demise is a cult of inner hierarchy, in which your rank is on the basis
+of your level,  your acts in demise, and other cruel activities.  If you do not
+maintain your power and skills you will be outcasted and hunted by your 
+former clan.  No stupidity, foolishness or insolence is allowed, and  
+role-playing is a must.  
+
+Entrance Requirements:
+
+* You must have a Thug or Killer flag
+
+Demise Charter (rules)
+{YGROUPING{x or {YWORKING{x with anyone outside the clan is *expressly* 
+forbidden! If they are in your range, kill them!!!
+You may assist nonclanners as you see fit.
+
+~
+
+-1 ZEALOT~
+Zealot....
+
+"Blessed are we, the Children of the Almighty, for we will live to see His
+eternal paradise brought upon Boinga.  Let us pray..."
+
+The words of the Almighty are spoken, and his children wake, and listen.
+These children are known for their devotion to the Almighty, the one
+true God of Boinga. Teachers, Warriors, Healers, Sages, Young and old
+alike, they bind together under one holy creed. Seeking out the false
+faiths and their unholy prophets, they continue steadfastly to cleanse
+the lands of the evil that has spawned within the hearts of pagan
+men.
+
+These children of the Almighty, from all walks of life, are bound
+heart, mind, and soul to a common purpose, and a common name:
+
+Zealot.
+
+The faithful of the Almighty have but one purpose:  to annihilate the
+false faiths of the lands through any means necessary.
+
+Noone shall be considered neutral.  All will fall before the might of
+the Almighty!
+
+Entrance Requirements:
+None
+
+Zealot Charter (rules)
+You may not group with or work with any other clanners.  They all
+serve false gods.  You may work or group with nonclanners as 
+their gods have already been conqured by the Almighty and they are
+only humoring themselves.
+
+~
+-1 'ZEALOT RANKS'~
+----------------------------Ranking----------------------------
+
+/1 The Light of the Almighty. [*]
+The members of the light are entrusted with the task of spreading
+the teachings of the Almighty. They proclaim his holy glories to
+the heathen nations, distribute holy scripture, heal and aid fellow
+brethren in the congregation. They aid in the equipping and teaching
+of new recruits of the Almighty's Church. They may also aid in the
+cleansing of heathens or errant pledges, but this is not required.
+They also aid the recruiters in bringing new recruits into the clan.
+
+/2 The Hand of the Almighty. [!]
+The members of the hand concentrate their skills to the task of
+eliminating false prophets and heathens. They seek out the heathen
+filth and send their souls to the light via a bloodshed cleansing.
+The creed: "There is no forgiveness of sin without the shedding of
+blood." is very dear to them, and each has taken this crusade to
+heart. They also may aid in the gathering of new recruits, but this
+is not their main task.
+
+/3 The Crown of the Almighty. [^]
+These members seek to enforce clan policy through intervention
+when the recruiters or the Anointed are unavailable. They report
+directly to the Anointed any violation that they witness within the
+congregation, and are appointed only by the Anointed. Their prime
+tasks are the purging of false pledges, and to aid in collection of
+funds of the clan.
+
+All Ranks: Inquisitors.
+Due to vile forces of greed and lust, power struggles within the
+clan are all too frequent. The Inquisitors seek out those within
+the clan whose faith in the Almighty and whose loyalty to the Anointed
+are weak or insubordinate. They report to the Grand Inquisitor or
+directly to the Anointed, who then deliberate on any action which
+might be necessary to quell the disturbance. Who is an inquisitor?
+That knowledge is only kept by the Grand Inquisitor and by the Anointed.
+All inquisitors are chosen by the Grand Inquisitor or the Anointed. Any
+inquisitor who exposes his status can expect to have it revoked at best,
+or become an outcast at worst.
+
+Ranks 1-3 are considered equal in all aspects, and shall be treated
+as such. No one rank is superior to the other, and should not become
+boastful over his brothers. Such boasting breeds intolerance and resentment,
+and is highly frowned upon.
+
+/4 The Preacher of Light, The Hand of Destruction, The Crowning Glory
+The Holy Scribe, The Grand Inquisitor, Protectors of the Faith.
+These select positions are hand picked by the Anointed, and given
+responsibility of recruiting, as well as tending to their own
+branch affairs. None possesses any rank above the other, and all report
+directly to the Anointed. These members also collect funds from the
+clan.
+
+/5 The Anointed of the Almighty.
+These chosen children of the Almighty oversee all that happens within
+the church of the Almighty. These people are said to be the direct
+voice of the Almighty, and obediance of their decrees is required.
+These people have complete control of the congregation, but may seek
+advice on internal matters as they so choose.
+~
+
+
+
+-1 POSSE~
+A band of evil beings roamed the lands, spreading fear and chaos,
+killing, looting, and bringing havoc to the world.  Within this band
+were a few consumed with guilt, which could no longer bear the screams
+and death cries of the fallen.  Straying from their evil ways, they
+formed a Posse.
+
+The Posse would no longer stand by and let criminals walk freely about
+the world.  Thus, Posse attacks all KILLERS, THIEVES, THUGS, and
+RUFFIANS.  In doing so, Posse has made a few enemies along the way.
+
+Posse does not wage war upon any clan.  We strive to kill all KILLERS,
+THIEVES, THUGS, and RUFFIANS, dealing swift justice where possible.
+Taking this into account, no member of Posse is to carry any of the 
+above flags, with the exception of the Ruffian flag.  We are of the
+understanding that sometimes excessive force is necessary, and also
+that accidents _do_ happen.  Should other flags occur, each such incident
+will be judged on its merits.  As a general rule, Thug flags are usually
+unacceptable at best and Killer and Thief flags are almost always an
+outcastable offense.  Exceptions can be made for bugs and extenuating
+circumstances, again as the situation dictates.
+
+We are not a group of individuals, we are a Clan family of sorts, in that
+we help each other out whether it be pkilling, eq, grouping, spell-ups, 
+or even just to sit and talk.  We do not group with those that carry
+flags, but will deal with them for goods if it is for the good of our
+greater cause and they are deemed trustworthy enough to do so.
+
+Posse consists of those who are Good, Neutral, and Evil.  All races
+and classes are considered in joining, but we do not accept just anyone.
+Players are urged to talk to a recruiter at an early age/level as to
+not invest too much time into a character who will be turned down.
+Teamwork is a _must_, as is clan/pkill experience.  Roleplaying is not
+required.
+
+Sanctions will be handed out to those members of posse who have trouble
+following the posse charter. These can be given by both /4s and /5s and
+will generally last for the duration of your flag. However, if the /4 or /5
+you ask to remove you sanction feels that you have not yet served your time
+they will post a note to the clan stating why they feel that way and how
+long they feel you should keep the sanctions. It will then be upto a /5 to
+remove the flag. Sanctions will be handed out as follows:
+
+Ruffian - Skill, Store, Portal Room, Regen, Healer
+Thug - Healer, Regen, Skill, Store, Portal Room, Hall for 1 week.
+Killer and Thief - Immediate outcast, no questions asked. 
+
+Entrance Requirements:
+
+* You may not have a flag (see definition below).
+
+Posse Charter (rules)
+
+- any member of any clan that carries a flag (Killer, Thief, Thug or Ruffian),
+  is to be killed.
+- No member of Posse may carry any flag. Carrying a flag is grounds for 
+  sanctions. The worse the flag the worse the sanctions.
+- Grouping with or helping any member of any clan with any flag is forbidden.
+~
+-1 SREDIR REDIR~
+And when He opened the seal there went out a horse that was red, and power was
+given unto him that sat thereon to take peace from the Earth, and that its
+inhabitants should kill one another, and there was given unto him a great
+sword...
+
+And behold there came forth an ashen horse, and he that sat upon him had a pair
+of balances in his hand; with a measure of wheat on one side and a mound of
+dust on the other.  And the power was given unto him to steal that which
+nourishes the body--and the spirit...
+
+And lo a black horse then appeared, and he that sat upon him bore a bow whose
+arrows flew across the sky as an infectious cloud; and unto him the power to
+disfigure and drain away the life of Man was given...
+
+And behold a pale horse arose; and his name that sat on him was Death, and Hell
+followed with him...
+
+And power was given unto them over the four parts of the Earth; to kill with
+the Sword, and with Hunger, with Disease, and with Death...And lo there was a
+great earthquake; and the Sun became as black as sackcloth, and the Moon became
+as blood, and the Stars of Heaven fell unto the Earth...
+
+For when the great day of His wrath has come...who shall be able to stand?
+
+MAKE WAY FOR THE APOCALYPSE...
+
+[Premise]
+We are a lawful organization constrained by the inevitability of the End; we
+are but harbingers of the coming Apocalypse.  We do not seek out conflict or
+destruction, nor do we believe in pkilling and pstealing with impunity.  Our
+purpose is not to bring about the End but rather to facilitate what inevitably
+must, and will be.
+
+Those who wish to become minions of the Apocalypse must request an audience
+with the proper Incarnation.
+
+Warriors should direct their requests for membership to WAR.
+Thieves should direct their requests for membership to FAMINE.
+Clerics should direct their requests for membership to PESTILENCE.
+Mages should direct their requests for membership to DEATH.
+~
+
+-1 OUTCAST OUTCASTS~
+Outcasts are the few who have left or been driven from their clan.  They
+are, in essence, Loners who have already been in a clan at some point in
+their lives.  Although some Outcasts are voluntary, the following are
+a few reasons for someone to be removed from a clan:
+
+-- Attacking a fellow clan member
+-- Stealing from a fellow clan member
+-- Acting in conflict with the ideals of your clan
+-- Failing a mutiny of clan leadership
+-- Receiving a DWEEB flag
+-- Spying for another Clan
+-- Causing Inner-Clan Dissention
+
+Once someone has been Outcast, they may not rejoin another clan unless
+a voucher is purchased, these cost 50eggs. 
+
+~
+
+-1 DWEEB~
+Dweebs are special flags given to those who have invoked the rage of the
+gods themselves.  A Dweeb is given no safe haven, as they are allowed to be
+attacked by all.  This is considered the worst punishment an immortal can
+bestow on a mortal, short of deletion.  The following are some reasons for
+a Dweeb flag:
+
+-- Continually spamming the public channels.
+-- Continually harrassing particular players.
+-- Cheating, Exploiting Bugs, and Intentionally Crashing the Sled.
+-- Interfering with Non-Clan combat if a Clanner.
+-- Interfering with Clanned combat if a Non-Clanner.
+-- Acting like an ass in the extreme.
+-- Using CB lingo on public channels
+-- Using l33t speak on public channels
+   (You don't look cool, you look like an idiot.  Real hackers don't use
+    it.  Quit watching TechTV.)
+
+Note that for MOST of the above offenses, you will be given warnings
+before you are Dweebed.  Those who have a Dweeb flag are considered to
+have done something truly horrendous.
+
+Also, if you find yourself Dweebed, the immortals will let you know the
+period of time you will keep the Dweeb flag.  It is a punishment, and you
+must live with it.
+~
+
+-1 MATOOK~
+Help 'Matook'
+Matook is an organized group of characters that have shown interest
+in dedicating their time to helping out other individuals as they
+can.  This can involve spell ups, retrieving equipment, corpse
+retrievals, enchantments, and other miscellaneous  tasks that the
+individual is willing to do.
+
+The helpers of Matook gathered together and created a Grand Church
+in the North-Western Corner of Midgaard. Here in the Church many
+helpful souls can be found, as well they have provided fast healing
+and mana recouperation rooms for the needy.
+
+If you believe in yourself to follow the ways of Matook and wish to
+join their order be prepared to give an example of your skill and
+knowledge of Boinga.  You will be directed to speak with a member of
+the Council who will bestow a quest upon you. Any Matooker will be
+willing to answer any further questions about the the Church in
+general and please don't be shy to ask for some assistance in any
+area. Of course, since Matookers are non-clanners, clan interference
+is always forbidden.
+
+"One cannot love with anger and hate for fear will always ruin one's
+fate...To live a life full of peace one must love or see it decrease."
+
+-May Matook Protect You.
+
+~
+
+-1 DONATION DONATIONS~
+
+The DIKU liscence states that I can not take any money from anyone 
+playing MHS.  I feel it my obligation to inform you that donations 
+should not be sent to me for the game.  
+For further clarification e-mail:   rusty@mraz.org
+
+~
+
+-1 'NEWBIE INFO' NEWBIE~
+
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+  |           W E L C O M E                N E W B I E              |
+  |  Welcome, mortal, to Moosehead SLED!  Please note that MHS has  |  
+  |  been put back into a state of change after a long static       |
+  |  period.  This means that many of the help files are out dated  |
+  |  and may contain erroneous information.  The 'help rules' file  |
+  |  is kept as up-to-date as possible, please read it and ask us   |
+  |  a question if something doesn't make sense.  Please note the   |
+  |  existance of the Question/Answer channel.  You should try that |
+  |  channel first if you have questions.  Please be patient if no  |
+  |  one responds to you, spamming your question will only irritate |
+  |  others. You also have access to the Newbie channel, as long as |
+  |  your newbie flag remains, this channel can help you talk to    |
+  |  other newbies for help and suggestions. We recommend that you  |   
+  |  go through NEWBIE SCHOOL first  if you are not familiar with   |  
+  |  MUDs.  Some imporant commands to get you started:              |
+  |  "look"  "help"  "commands"  "skills" "who" "score" "rules"     |    
+  |  "spells" "equipment" "inventory" "notes"                       |
+  |                                                                 |
++ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - +
+
+~
+ 
+-1 GREETING~
+.
+   Original DikuMUD by Hans Staerfeldt, Katja Nyboe, Tom Madsen, 
+Michael Seifert, and Sebastian Hammer.  Modified by Hatchet, Furey, Kahn, 
+ROM2.3, Kris Carlgren and your IMP: Rusty the Oxidizing Dragon 
+[2J[0;0f
+
+
+         ___                                                  ___
+        /   \      _                \|/                _     /   \
+        |    |    / \   _       ___________       _   / \    |    |
+        |     \__/   \_/ \_____/           \_____/ \_/   \__/     |
+        \_____________________/   _     _   \____________________/
+                             /   |o|   |o|   \
+                             |               |
+                             |     /   \     |
+                             \    /     \    /
+      Welcome to:             \   |     |   /    
+    MooseHead SLED II          \__|     |__/
+                                  |     |
+    (Pfresh Vers 1.0)             \ o o /
+                                   \___/
+ 
+
+By what name do you wish to be known? ~
+ 
+52 IMOTD~ 
+You will stay calm.
+You will stay quiet.
+You will let the mortals play the game.
+You will ignore their complaining.
+You will not respond, even when goaded on.
+You will keep policing them to a bare minimum, always.
+Leave them alone, they will leave us alone.
+Restrings and quests and that stuff is still VERY cool.
+
+Ignore these directives and you will not be an IMM.
+[Hit Rusty if you're pissed]
+~ 
+
+-1 MOTD~
+Welcome my son, welcome to the machine....
+**DISCLAIMER**
+By playing a character on this SLED, you recognize that much of the 
+material presented could possibly be unsuitable for young players, and 
+absolve the administrators from any liability under applicable laws.
+All commands and communications are subject to monitoring and censure
+at the discretion of the administration.
+No matter where you go, there you are.
+[Press CTRL+ALT+SHIFT+F8+N+ESC+F13 to continue]
+~
+
+-1 PFRESHMOTD~
+Moosehead has gone through a state of Player Refreshing. This character has
+not yet been refreshed. If you 'continue' you will go through parts of the
+creation process allowing you to change parts of your character to better
+balance you within the game. If you 'quit' this character remains unrefreshed
+and you can do it at another time.
+
+You can test pfreshing a character by logging into the OLC Port instead of
+here with this character. Login to sled.moosehead.com port 8080. Once you
+pfresh a character on port 4000 you can not undo or retry it.
+
+If you have any questions as to what this process involves we recommend
+'quit' and create a new character and read 'help pfresh' once you are in
+the game and ask questions of the other players and Immortals.
+~
+
+52 JOBS~
+As an Immortal on MHS, there are certain things expected of you, and
+especially as a newer immortal, you should be mindful of exactly what
+it is you're supposed to be doing.  Below is a short summary of what's
+expected of an Immortal at each of the 7 levels.
+
+Note:  Not fulfilling the expectations of your job can result in demotion.
+
+All levels:  Ensure that the rules are being followed.  If someone is
+cheating, either snap them back in line yourself, or ask for the aid of
+a higher level Immortal.  You must be completely neutral in all dealings
+with mortals, meaning you must treat your friends exactly the same as
+you would your enemies.  Personal feelings have no place in the job of
+an Immortal.
+
+52 - Retired.  This is the level where immortals who have become inactive
+or have voluntarily retired are placed.  There are no real expectations,
+save to follow the same rules as everyone else.
+
+53 - Trial IMM.  This is the first level you will be placed at as an
+Immortal.  At this level, your future IMMhood is dependant upon how
+you act during this time.  Sometimes, Immortals don't work out, and if
+you are found to be one of the ones who isn't working out, you'll be
+placed at 52.  Expectations at this level are minor:  help enforce the
+rules, run a few minor quests, but most importantly, learn the lay of the
+land, the limited commands available to you at this time, the rules of
+being an Immortal, and begin statting mobs to get an idea of how mob
+strength is balanced against level.  At this level, you should be asking
+questions often, and seeking input to the majority of your decisions.
+
+55 - Newbie IMM.  At this level, you have a few more commands available
+to you, most notably string.  You've pass the majority of the 'trial'
+stage, but you're still expected to be learning.  This is the first level
+where you will have access to On-Line Construction (OLC), and you'll be
+given a small set of vnums to practice your building skills.  Expectations
+at this level:  help enforce the rules, handle restrings for players, learn
+OLC, continue learning the balances of mob and item strength vs. level.
+You have a bit more free reign when it comes to making decisions, but any
+major decision should still be brought forward to a more experienced
+Immortal.
+
+57 - Immortal.  At this level, you are no longer considered a 'newbie' to
+Immortalhood, and you have the majority of the commands in the game used
+to penalize other players and handle day-to-day situations.  By now, you
+should have a firm grasp of the rules of MHS and the rules of IMMhood,
+and a working relationship with the rest of the IMMteam.  Expectations at
+this level are:  be active, enforce the rules, run quests, handle strings,
+build on OLC, and deal with any other day-to-day situations that may arise.
+Your conduct may still be up for review if you're found to be lacking, but
+you're no longer at risk for being cut from the team for not 'fitting in'
+once you've reached this point.
+
+58 - Senior Immortal.  Immortals who've proven that they have a solid grasp
+of the way MHS and the IMMteam works, and the maturity to handle almost any
+situation with a cool, neutral demeanor may find themselves promoted to
+Senior Immortal.  The job expectations don't change, but you are given some
+of the more sensitive commands on MHS with which to work.  Not all
+Immortals will make it this far, and the ones that do should be respected
+for their dedication to MHS.
+
+59 - Admin.  Admins supervise the lower level Immortals, while still 
+keeping up all of the expectations of all the other jobs.  They have
+their hands full of responsibility, and almost every command available
+on MHS, including reboot and permban.  If, as a lower level Immortal,
+you have a question as to a rule, either for mortals or for Immortals,
+or you need feedback on an idea that you've had but you aren't sure
+about, speak to an Admin.  They've been around long enough to know MHS
+inside and out, and can answer any question you have for them.  Some Admins
+are also Coders, and have the additional responsibility of writing new
+code for the game, and eradicating bugs from existing code.
+
+60 - Implementor.  If you need to be told what your job as an Implementor
+is, you should probably put down the crack pipe now...
+
+~
+
+-1 PKILL PKILLING PKILLER 'PLAYER KILLING' PSTEAL PSTEALING 'PLAYER STEALING'~
+You may kill other players once you join a Clan or Loner.  If they are 
+more than 8* levels below you, you can't do it.  If your intended victim
+is not in a Clan, again you can't touch them (unless they have a THIEF 
+or DWEEB flag). You may steal from other players if they are not more 
+than 7* levels below your level, and in a Clan. For either of the above 
+actions you will recieve a flag and may have trouble with guards in town.  
+Also other players may get to attack you.
+
+There are specific ways to get certain flags:
+(Tf) A thief flag is gotten for failing an attempt at stealing from a 
+     player.  You may be attacked by anyone up to 12 levels above you
+     when you have this flag.  It can only be lost by dying to another
+     player while you have no other flags.
+(R)  A ruffian flag is gotten from initiating combat on an unflagged 
+     player. This flag has no consequence except saving someone who 
+     attacks you from receiving a flag.  This flag is lost by dying to 
+     another player.
+(Th) A thug flag is received if you actually kill a player. This 
+     enables people up to 10 levels above you to attack you .  This 
+     flag is lost by dying to a player either 1 or 2 times depending 
+     on the number of players killed as a thug.
+(K)  A killer flag is earned by killing 3 players without dying in 
+     between. The consequence is that {YANYONE{x may attack you. 
+     The flag is lowered to a thug flag upon death at the hands of 
+     another player.  When attacking somebody who origionally isn't 
+     able to attack you, that person gains the right to attack you 
+     until they have killed you.
+
+Is it worth it?  You decide.
+
+~
+
+52 COMMANDMENTS LAWS 'GOD RULES' GODS~
+.
+                         **********************
+                         ** The Rules of MHS **
+                         **********************
+ 
+1)  Do not kill mortals, do not kill mortals, do not kill mortals.
+    This includes transferring/summoning them to aggressive mobs.
+ 
+2)  Do not cheat for ANY mortal in ANY way, especially your own. 
+    Unless of course you LIKE deletion. Yes this includes tanking,
+    healing/restoring, casting protection spells <armor, sanct>,    
+    and softening up or altering mobs.
+ 
+3)  Do not transfer or summon mobs to mortals or mortals to mobs.
+    They have legs, if they want to kill a mob, they can easilly
+    go there themselves.
+ 
+4)  DO NOT kill the shopkeepers for any reason at ALL.
+ 
+5)  DO NOT use reboot.  <--- Note, simple English.
+ 
+6)  Do not give out free equipment.  You don't need to win brownie
+    points with the mortals.  Quest are fine but handing out items
+    isn't.
+ 
+7)  A note on quests: Quests are a good thing, more or less, BUT 
+    do not give out overly extravagant prizes.  Exercise some 
+    common sense here folks.  Do not load items more than 4 levels
+    below their normal level (i.e. no level 5 ogre gauntlets).
+ 
+8)  Do not undermine the authority of a higher level god.  If you 
+    see that someone has been frozen or nochannelled do not restore
+    their priveleges.  They are being punished for a reason.
+ 
+9)  Do not try to overrule each other.  
+ 
+10) Trusted mortals:  Do not use your god powers to help your mortal
+    character.  If you do, your trust will be taken away.
+
+11) Do not argue with level 59 or 60 IMM's.  You're wrong, just admit it!
+~
+-1 PUFF~
+No plain fanfold paper could hold that fractal Puff --
+He grew so fast no plotting pack could shrink him far enough.
+Compiles and simulations grew so quickly tame
+And swapped out all their data space when Puff pushed his stack frame.
+CHORUS:
+        Puff the fractal dragon was written in C,
+        And frolicked while processes switched in mainframe memory.
+        Puff the fractal dragon was written in C,
+        And frolicked while processes switched in mainframe memory.
+Puff, he grew so quickly, while others moved like snails
+And mini-Puffs would perch themselves on his gigantic tail.
+All the student hackers loved that fractal Puff
+But DCS did not like Puff, and finally said, "Enough!"
+                (chorus)
+Puff used more resources than DCS could spare.
+The operator killed Puff's job -- he didn't seem to care.
+A gloom fell on the hackers; it seemed to be the end,
+But Puff trapped the exception, and grew from naught again!
+                (chorus)
+~
+
+-1 CLIST~
+This is a list of currently active clans on MHS.  For more details,
+see the clan's helpfile "help <clan name>"
+
+Honor: A group of noble warriors, united in a common cause against
+       the evils of Boinga.
+
+Demise: A clan of bloodthirsty killers, solely intent upon the
+        destruction of good.
+
+Warlock: A clan of spellcasters, devoted to the preservation and
+         purity of magic.
+
+Zealot: A group of religious fanatics, intent on preaching the word
+        of their God, and converting nonbelievers by any means
+        necessary.
+
+Posse: A militia who charge themselves with the eradication of
+       lawbreakers.
+
+Loner: Not members of a true clan, these warriors venture forth
+       into the dangerous lands of Boinga, with nobody to rely
+       on but themselves.
+
+Outcast: Once members of a clan, they have either left their old
+         life behind, or been banished forever for bring harm
+         upon their former brethen.
+
+See the appropriate clan helpfile for more information, or speak with
+a clan leader or recruiter (denoted by a rank of /5 or /4, respectively)
+~
+
+-1 RULES~
+These are the rules of MHS.  For other matters, use common sense.
+
+* Anything not covered here is at ANY God/IMMs discretion.  Obey them and
+  take them at their word.  Whining and/or rules lawyering will NOT be
+  tolerated.
+
+* Cheating will not be tolerated.  This includes accepting favors from gods
+  and exploiting bugs. If you find a bug, report it, then do not use it.
+  Please MAIL these bugs to: cascadia@nventure.com
+
+* Seerated player stealing or player killing.  Clanned players will NOT
+  involve non-clanned players in player killing in any way.  Non-Clanned
+  players will NOT intentionally involve themselves in player killing.
+  This includes spelling up clanners so they can go pkilling, or who are
+  being pkilled themsleves.  Nonclanners also cannot stand near pfights
+  and take disarmed weapons or fallen stones.
+
+* Summoning mobs and sleeping them at other aggresive mobs is forbidden.
+  If you summon Papa to the Dees and sleep Papa, and a nonclanner or 
+  clanner gates to Papa, expect to be punished.  If you want to use Papa
+  or any other mob as a gate post, do not sleep them in a room with other
+  mobs, you may or may not know they are aggressive. 
+
+  *NOTE* This does not mean summoning low level clanners to the Dees or
+  any Aggie is now illegal, however summoning any nonclanner to an aggie
+  without their permission still is illegal.
+
+* Sitting around idle with a client is not permitted.
+  This includes using a script away from your terminal.
+  If you are found idling with a client, you will be penalized.
+  If you are using a client you -must- be at the keyboard, and you
+  -must- be paying attention to the MUD.  You may use clients to ease your
+  typing woes, not play your character for you.
+
+* No multiple logins, multiple playing, or helping your own characters with 
+  other characters you own -- by any arrangment.  If you have two characters, 
+  in essence, one does not know the other.  A character belongs to only 1 
+  person and can never be transfered, shared or given to anyone else under 
+  any circumstances.  If the Immortals think you are multiplaying, you are 
+  guilty until proven innocent.  This is not easy to do, please keep that 
+  in mind.  This includes transferral of gear from character to another,
+  and using the influence of your characters to gain access to special
+  privileges. 
+  This also includes the revealing of alternate characters.  If you know
+  who someone's "alt" is, you are not to reveal that at all.  Not over
+  public channels, not in notes, or says or tells.  Your characters are
+  seperate.
+
+* Do not log off one character and quickly log in another character. Wait
+  atleast 2 minutes between switching, regardless if it switching between
+  nonclanner and clanner or any combination of the two. If you do not wait
+  atleast 2 minutes expect to be watched and penalized for any wrong doings.
+
+* Any equipment found laying on the ground is completely fair game.
+  -> Exception: non-clanners may NOT pick up disarmed weapons from clanners.
+  -> Exception: vice versa of the above exception.
+  -> Exception: stones and floaters fall into this category, too
+
+ (Note: Heat Metalled EQ is the same as disarmed, if you know the EQ is from
+  a pfight then dont take it.)
+
+* Under no circumstance may a clanner loot a non-clanner's corpse, unless
+  the non-clanner requests it.  At this point, anything the clanner does with
+  the looted gear is his/her own prerogative, and the non-clanner has left the
+  the fate of that equipment in the hands of the clanner.
+
+* Softening creatures for lower levels is now expressly forbidden and
+  cheating.  Don't be surprised if an IMM reprimands or punishes you for 
+  it.  This includes maladicting/damaging mobs and fleeing.  If you are
+  grouped with someone it is acceptable to flee, however please note that
+  sometimes they will receive less experience then if you had stayed. To
+  re-iterate, this still means its illegal for a level 51 to knock a mob
+  down to awful then allow a level 30 to kill it. If you can't group with
+  them do not help them level.
+
+* Telling IMMS who deserves a dweeb will result in one being applied to
+  yourself; leave IMMs to their job.
+
+* Channel "spamming" and personal attacks on someone over public channels
+  are not allowed.  This can result in having no public channel access to
+  denial of your character, depending on severity and intent.  No excuse
+  or reason is required to remove channels.  If you are being irritating,
+  you'll loose channels, though generally not for a very long time.
+
+* Excessive use of capital letters is extremely irritating, and highly
+  frowned upon.  It's the internet equivalent of shouting, so if you
+  insist on using massive amounts of capital letters, don't be surprised
+  if you find yourself with a warning, or without your channels.
+
+* Your equipment is your equipment.  Keep it with you.  You may not leave
+  your special/rare/enchanted gear or money behind in a safe place while
+  you go pkilling.  If you're going to involve yourself in a pkill 
+  situation, are are being forcibly involved in wear, KEEP YOUR EQUIPMENT
+  WITH YOU.  You also may not steal or beguile if you have no equipment.
+  Casting of eq damaging spells such as, but not limitted to, heat metal
+  acid breath, rust wepaon, rust armor etc. is also illegal with less
+  than 10 pieces of gear suitable for your level equipped.
+
+  (Keep ATLEAST 10 items equiped when PKilling/Stealing/Infiltrating)
+  (Charming and Entrancing are both considered Pkilling/Stealing as well)
+  (These 10 pieces must be for characters of your level.  You may not go
+   get equipment off cityguards with your 51 mage and then go sleep people).
+ 
+* Clans may not have a Treasure or Storage Character. No Character is to be
+  used to remain in the Hall and hold any items. It is also illegal to have
+  Non Clanners hold things for Clanners they do not wish to lose due to 
+  Pkilling/Pstealing. Any character found to be a Treasure or Storage
+  character shall be denied.
+
+* You may not attack nor cast any spells with the intent of waking a fellow
+  Clan Mate due to a pkilling situation. Attacking a fellow clan mate is 
+  always grounds for Outcast and in this case a DWEEB.
+
+* Other rules for clanned players are found in "Help Clan"
+
+* Your presence here is a privilege not a right. Obey any orders from gods, and
+  you will be fine.  DELETION does not require a reason, appeals are to be sent
+  to Boogums (cascadia@nventure.com) 
+
+* Incessant complaining about penalties will generally result in said penalty
+  being extended.  If you'd like to form a reasonable and mature case for
+  your own defense, that's fine.  Whining will be ignored at best, and could
+  increase the duration of your penalties.
+
+* Please respect the time and effort that have gone into Moosehead SLED.
+  The IMMs who work here do so voluntarily.  Do not advertise other MUDs
+  on our channels or notes.  Player privacy is -generaly- respected when
+  it comes to private tells, but we ask that you do not use MHS as a base
+  for recruiting players or staffers for other MUDs.  There are sites on
+  the web that have posting boards for such thins, such as:
+  http://www.mudconnector.com/
+
+* Repeat offenders are dealt with more harshly, even if not for the same
+  offense.  Everything is stated clearly in this helpfile, don't break 
+  these rules.
+
+* If you are penalized for cheating, the penalty is a sanction against you
+  the player, not necessarily just your invididual character.  This means
+  that if one of your characters is penalized for something and you log in
+  a different, unpenalized character, you don't get a blank slate.  Your
+  penalty record belongs to you the person at the keyboard, sanctions are
+  applied against whichever of your characters violated the rules.
+
+* Bounties are intended as a fun option for players, but there is potential
+  for abuse.  For example, you could arrange for a friend to kill him so 
+  the friend collects the gold donated by your enemies.  This kind of thing
+  is watched, and if you are suspected of making such an arrangement, or
+  engaging in any other abuse of the bounty system, you and your cohorts
+  will be slain and your corpse eaten.  Details of bounties and collections
+  are logged and will be watched.
+
+* Anything not covered here is at any God/IMMs discretion.  Obey them and
+  take them at their word.  Whining and/or rules lawyering will NOT be 
+  tolerated.
+
+* Remember, this game is brought to you for FREE.  You have no rights nor 
+  do the PEOPLE who run the game owe you anything.
+
+~
+
+0 SUICIDE DELETE~
+Use the delete command to erase unwanted characters, so the name will be
+available for use.  This command must be typed twice to delete a character,
+and you cannot be forced to delete.  Typing delete with an argument will
+return your character to 'safe' status if you change your mind after the
+first delete.
+~
+ 
+0 HEALER~
+The healer decided to grab a quick buck, and now charges for his heals.  Some
+services are still free to players of level 10 or below, however.  To see
+a full listing of the healer's services, type 'heal' at his residence. To
+receive healing, bring plenty of money, and type 'heal <spell>'.
+~ 
+
+
+-1 GAIN~
+The gain command is used to learn new skills, once the proper trainer has 
+been found. (Check New Thalos) The following options can be used with gain:
+
+gain list:    list all groups and skills that can be learned
+gain <name>:  add a skill or skill group, at the listed cost
+gain apply :  turns 10 skill points into one practice 
+
+Gain uses practices to gain new skills, spell groups, and kits.
+Gained skills and groups do NOT increase your experience per level or total
+number of creation points. 
+~
+
+52 CLONE~
+Syntax:
+  clone obj <object>
+  clone mob <mobile>
+  clone <name>
+
+The clone command duplicates an object or mobile.  The level of item or mobile
+that may be cloned depends on your level.  The target object or mob must be in
+the same room as you, or in your posession.  Strung and set information is
+preserved by clone, as well as any spell effects and container contents or
+mobile inventory, except for items which are too high for you to clone.  
+Strung extended descriptions on objects are not kept, however.
+~
+
+
+0 SKILLS SPELLS~
+The skills and spells commands are used to display your character's list
+of available skills (or spells, as the case may be).  They are listed in
+order of level, with mana cost (for spells) or percentage (for skills)
+listed where applicable.
+~
+0 'SKILL POINTS'~
+Skill Points are rewarded to you for using your various skills in a 
+combat situation.  You cannot "spam up" a skill and get skill points.
+You need to actually get out and do stuff.
+
+They may be converted with the 'gain apply' command at the appropriate
+guildmasters into practices.
+~
+
+0 OUTFIT~
+The outfit command, usable by levels 5 and below, equips your character with
+a new set of sub issue gear (banner, weapon, helmet, shield, and vest), 
+courtesy of the Mayor's warehouses.  Only empty equipment slots are affected.
+~
+
+0 AUTO AUTOLIST AUTOLOOT AUTOGOLD AUTOSAC AUTOEXIT AUTOASSIST AUTOSPLIT FULLSAC~
+MHS uses varies automatic actions, to ease the boredom of always splitting
+gold and sacrificing corpses.  The commands are as follows:
+
+autolist  : list all automatic actions
+autoloot  : take all equipment from dead mobiles
+autogold  : take all gold from dead mobiles
+autosac	  : sacrifice dead monsters (if autoloot is on, only empty corpes)
+autoexit  : display room exits upon entering a room
+autosplit : split up spoils from combat among your group members
+autoassit : makes you help group members in combat
+fullsac   : able to sacrifice containers with items inside
+
+Typing a command sets the action , typing it again removes it. 
+~ 
+-1 CLAN CLANS~
+Throughout Boinga, there exist groups of people united through a common
+cause.  These clans have been formed for a purpose, whether it be the
+spread of goodness, the accumulation of money, or just to maintain the peace.
+
+In order to join a clan, you must contact a clan leader or recruiter,
+either by tells or via a note.  Leaders will have a /5 beside the name
+of their clan.  Recruiters are usually, but not always found with a /4
+beside the name of their clan.  The requirements to join ANY clan are as
+follows:
+
+You must be between the levels of 5 and 20 or a Loner or an Outcast
+of any level.  After you have exceeded level 20, and have not either
+joined a clan or become a Loner, you can never join the pkill system.
+
+Once you have joined a clan, you are making a committment to a cause.  If
+for some reason you wish to switch clans, you may do so.  However, you
+must first OUTCAST yourself from your old clan.  After outcasting you must
+purchase a voucher (not a cheap item) to gain access into a new clan. 
+Also, be wary, for those who make frequent changes in their clan find 
+themselves clanless quickly.
+
+Expect to be full looted. Some clans out there are destined to make your
+life miserable. Accept it and go on with the game, however with that said
+there must be an appeal to your humanity. Understand how full looting some
+one makes them feel. Yes you've had it done to you, yes its a part of
+the game. Do you really want to have a hand in driving off the player base?
+Find better ways to enjoy the game, help people stay and play. The larger
+the player base grows the more fun you'll have and the more targets you'll
+have. 
+
+See HELP CLIST for a list of currently active clans on MHS, and a brief
+description of the purpose of each clan.
+~
+-1 PRICES PRICE~
+Price upgrades for clans
+==============================================================================
+The prices below are for clans only.  Nonclanners may buy townhomes.  See the
+townhome helpfile for pricing information.
+
+{YRoom Modifications{x
++======================================+=====================================+
+|                                      |                                     |
+|          Add a new room:    3 eggs   |  Add a piece of furniture:   3 eggs |
+| Change room description:    3 eggs   |      Add a closeable door:   3 eggs |
+|                Fountain:    5 eggs   |              Donation Pit:   5 eggs |
+|          Basic Mage Lab:   30 eggs   |               Basic Altar:  30 eggs |
+|   Intermediate Mage Lab:   75 eggs   |        Intermediate Altar:  75 eggs |
+|       Advanced Mage Lab:  250 eggs   |            Advanced Altar: 250 eggs |
+|        Observation Room:  150 eggs   |     Move An Existing Room:   5 eggs |
+|                                      |                                     |
++======================================+=====================================+
+Room Notes and Rules:
+* A room may be either a Mage Lab or an Altar, but not both.  
+* Rooms in clan halls may not be flagged SOLITARY or OWNER.
+* Prices for Mage Labs and Altars are cumulative.  
+* Observation rooms may observe one area only.
+* Doors in a clan hall may only have the CLOSED flag.  They may not be locked, 
+  hidden, or concealed.  They may not be called another name (i.e. a bookcase, 
+  etc...)
+
+{YBranch Halls{x
+Portals may no longer be purchased.  You may purchase a branch hall to an area
+of your choosing.  See the 'branch hall' helpfile.  The Immortals will choose
+to which room your branch hall opens into the new area.
++======================================+=====================================+
+|                                                                            |
+|First Room In An Area:  25 eggs                                             |
+|     Additional Rooms:  Standard New Room Price                             |
+|                                                                            |
++======================================+=====================================+
+
+{YRoom Regen Rates{x - Rooms start off at 100/100 hp/mana regen.            
++============================================================================+
+|                                                                            |
+|Increase a room's Mana or HP regen rates by 25%: 15 eggs (up to 200/200)    |
+|Increase a room's Mana or HP regen rates by 10%: 25 eggs (up to 300/300)    |
+|                                                                            |
++============================================================================+
+
+{YHealer Upgrades{x                                                         
++============================================================================+
+|                                                                            |
+|Price for a New Level 40 Healer: 50 eggs                                    |
+|  Price per level from 40 to 45: 30 eggs                                    |
+|  Price per level from 46 to 51: 50 eggs                                    |
+|  Price per level from 52 to 55: 100 eggs                                   |
+|                                                                            |
++============================================================================+
+
+{YNon Guard Mob Pricing{x                                                         
++============================================================================+
+|                                                                            |
+|Shop Keeper Price Reduction:  50 eggs (10% reduction with a max of 50%      |
+|                  Bartender:  50 eggs                                       |
+|       Price Per Drink Sold:   2 eggs                                       |
+|                                                                            |
++============================================================================+
+
+{YGuard Mob Pricing{x                                                         
++============================================================================+
+|  Standard Guards                                                           |
+|  =========================                                                 | 
+|  First Guard - free                                                        |
+|  Second Guard - 50 eggs                                                    |
+|  Third Guard - 100 eggs                                                    |
+|  etc...etc..                                                               |
+|                                                                            |
+|  Roaming Guards                                                            |
+|  =========================                                                 |
+|  First Guard  - 100 eggs                                                   |
+|  Second Guard - 200 eggs                                                   |
+|  Third Guard  - 300 eggs                                                   |
+|  etc...etc..                                                               |
+|                                                                            |
+| Prices for guards is cumilitive and increases by 50 eggs on the price of   |
+| last guard purchased.  Roaming guards pricing increases by 100 eggs on     |
+| the price of the last guard purchased.                                     |
+| Immortals:  see help bhalls for more information                           |
+|                                                                            |
++============================================================================+
+
+{YGuard Mob Equipment And Training{x                                                         
++============================================================================+
+|                                                                            |
+| Guard Equipment consists of a helmet, shield, gloves, a torso item, and    |
+| boots.                                                                     |
+|                                                                            |
+| The price is 10 eggs per piece, per guard.  The equipment will repop on    |
+| the guard it was placed.                                                   |
+|                                                                            |
+| Prices for training all your guards is 200 eggs per step.                  | 
+| Legionaire - Stock      - Level 40                                         |
+|    Sargent - Step one   - Level 43                                         |
+| Lieutenant - Step two   - Level 46                                         |
+|    Colonel - Step three - Level 49                                         |
+|    General - Step four  - Level 52                                         |
+|                                                                            |
+| Guard mobs come stock with the following offensive flags:                  | 
+| Bash,           Disarm,           Dodge,                                   | 
+| Trip,           Assist_vnum                                                | 
+|                                                                            | 
+| You may add the following offensive flags/abilities to your                | 
+| Guard Corps:                                                               | 
+| Backstab        Berserk           Parry                                    | 
+| Kick            Dirt Kick                                                  | 
+|                                                                            | 
+| The price for this is 25 eggs for the first offensive ability,             | 
+| 50 eggs for the second, 75 for the third, etc...                           | 
+| For this price all of your guards will be trained in the                   | 
+| ability you have chosen.                                                   | 
+|                                                                            |
+| {YROAMING GUARDS{x                                                         |
+|  The price for training roaming guards is double the above pricing.        |
+|  Immortals:  see help bhall for more information                           |
+|                                                                            |     
++============================================================================+
+
+{YOther Clan Purchases{x                                                         
++============================================================================+
+|                                                                            |
+| Outcast Voucher:  50 eggs                                                  |
+|                                                                            |
++============================================================================+
+An Outcast Voucher is required to make an Outcast a member of your clan.  It
+may not be used to make an Outcast a Loner or take an Outcast out of the clan
+system.
+
+~
+
+
+52 SECIRP ECIRP~
+Price upgrades for clans
+------------------------
+
+-Increase of a mana or hp room regen rates:
+--15 eggs for a 25% increase in hp OR mana, not both (up to 200/200)
+--25 eggs for a 10% increase in hp OR mana, OR both for 30 eggs (up to 300/300)
+-Price of an item (ie: furniture) = 3 egg
+-Price to change the description of a room = 3 egg
+-Price of a healer upgrade:
+--30 eggs per level from 40 to 45.
+--50 eggs per level from 46 to 51.
+--100 eggs per level from 52 to 55.
+-Price of a shopkeeper going and selling at cheaper prices.
+-- 50 eggs for a 10% reduction in price, up to a maximum of 50% 
+-Price for each additional room = 3 egg 
+-Price for a Clan Portal Room (includes 4 standard destinations) = 50 eggs
+--Standard destinations: Hoan Dor, Drow City, Sands of Sorrow, Ancient Thalos
+--Price for additional Portals = 12 eggs
+--Addition destinations: Elemental Canyon, Pyramids, Emerald Forest, Atlantis
+--                     : Camelot, City of Thieves, New Thalos 
+-Price for a bartender = 50 eggs 
+--Price for each drink he sells = 2 eggs (vices aren't cheap!)
+-Price for a Clan Mage lab:
+--Basic = 30 eggs
+--Intermediate = 75 eggs
+--Advanced = 250 eggs (yes, these are cumulative)
+-Price for a fountain = 5 eggs
+-Price for a donation pit = 5 eggs
+-Price for an outcast voucher = 50 eggs
+-Price for a room to observe a different area = 150 eggs
+-Price for clan specific skills/spells/items = 20 eggs per point 
+-- Clans can have upto 10 points worth of skills/spells/items
+   Clan skills may be "cashed in" for the points they cost.  However
+   the eggs will *NOT* be refunded.
+-- The prices above are for clans only.  Non-clan groups may not purchase
+   upgrades, new rooms, stores, bartenders, or anything on the above list.
+
+Note:  Clan halls may not have rooms that are SOLITARY or OWNERED.
+Also Note:  Doors in clan halls may have only the CLOSED flag.
+
+~
+
+-53 LOCATION LOCATIONS~
+Vnum locations for clan hall portals
+Camelot	           17676
+City of Thieves    6023
+New Thalos         9506
+Atlantis           2318
+Emerald Forest     3521
+Sands              5001
+Drow               5100
+Ancient Thalos     5300
+Hoan Dor           6102
+Pyramid            8701
+Elemental Canyon   9209
+
+~
+
+
+
+
+
+-1 COUNT~
+The count command displays the number of people (that you can see) logged
+into the sled.  It also displays the highest number observed that day, if
+it is higher.
+~ 
+ 
+-1 GATE~
+The gate spell is a powerful transportation magic that opens up a portal 
+between your character and another person or creature somewhere else in the
+world.  This portal will transport you and any pet you might have, but not
+other members of your group.  Monsters recieve a save against gate, and
+monster or players more than 3 levels higher than you can not be gated to at 
+all.  God rooms, private rooms, and no recall rooms cannot be gated to, and
+no recall rooms cannot be gated out of.  Finally, any god or hero is also 
+immune to gate, as well as in player who has no summon set.  Clan members 
+may not be gated to except by their fellow Clan members.
+~
+-1 AFFECTS AFFECT~
+This command is used to show all the spells affecting your character. At
+low levels, only the spell name will be displayed, at higher levels the
+effects and duration of the spell will also be shown.  Spell effects
+are no longer shown on score (this can be changed by using 'show' command).
+~
+-1 RIDING MOUNTS~
+This skill allows the combatent to mount a creature purchased at one of the
+many stables located around Boinga.  It will allow you to get a special
+Mounted attack versus your foes. 
+
+~
+59 CSKILL 'CLAN SKILL'~
+Honor
+Skill: honor guard
+Affect: -3 saves -25 prcent damage done by demise
+Cost: 4 points (80 eggs)
+Only castable on self, removed if removed from honor
+
+Avarice:
+Skill: cure vision
+Affect: Castable at level 20, costs 20 mana, same
+code as cure blind except only castable on avarice
+members. Is removed if no longer in Avarice.
+Cost: 3 points (60 eggs)
+
+Skill: fast steal/slice
+Affect: Delay after steal/slice is 1/2 regular beats.
+Cost: 6 points (120 eggs)
+
+Skill: peek worth
+Affect: See worth of victim in peek statistics.
+Cost: 1 point (20 eggs)
+
+Warlock:
+Skill: concentration
+Affect: Has secondary check on lost concentration
+when casting a spell (% < 50 will fail). Also stun
+does not cause quite the loss to their spell % 
+(a spell at 100% will only be cut to 60% instead of 50%)
+(in effect its % = %/2 + %/10). Only in effect if 
+clan is Warlock.
+Cost: 4 points (80 eggs)
+
+Demise:
+Spell: Confusion
+All members of Demise cast this spell at their level or their casting
+level, which ever is greater.  Victims of the spell have a chance
+of moving in a direction other than the one intended.  IE: they
+type "north", but may go east, west, up, down etc.  The effect is random
+on each move made.  The spell cannot be cancelled or dispelled other than
+through use of the "cure disease" spell.
+Cost: 6 Points (120 eggs)
+Spell: Aura of Cthon
+Reduces the chacnes of someone in combat with the affected demiser of
+fleeing.
+CostL 4 points.
+DEMISE HAS NO CLAN SKILL POINTS LEFT.
+
+
+Posse:
+Skill: increased hit and damage to flaggers
+killers = + 14 percent
+thieves = + 11 percent
+thugs   = +  8 percent
+ruffian = +  5 percent
+Cost: 6 Points (120 eggs)
+
+Skill:  cuffs of justice
+-to dex of the caster and victim if it lands.  decreased chance of
+fleeing as well.
+Cost: 4 Points
+
+POSSE HAS NO CLAN SKILL POINTS AVAILABLE
+
+
+Zealot 180f Eggs and no clan skill points are available :
+Your clan skill is completed and will be in with the next reboot
+after this note.  It is a spell you cast on yourself.  While affected
+you will not be protected from anything but certain spells, if
+they land, will be sent back upon your attacker by The Almighty.
+The spells are: faerie fire, dispel magic, teleport, blindness,
+change sex, curse, energy drain, plague, poison, slow, weaken, famine,
+feast, fumble, forget, feeblemind, heat metal, charm person, sleep,
+hold person, earthbind, asphyxiate and dust storm.
+
+~
+-1  TOWNHOMES HOMES~
+
+Price for people in Town Homes 
+------------------------------------------
+-4 room house 30 eggs.
+-2 room house 15 eggs
+-1 room house - unavailable
+
+-Mana OR hit point upgrade in a room 15 eggs, PER UPGRADE
+--The upgrade is 25% per payment.
+--Room can only be either mana or HP but not both combined.
+--Max bonus is 200% (rooms start at 100%)
+
+-Fountain/pit - 5 eggs each
+
+-Furniture, items, etc. 3 eggs 
+
+-Healers, shop keepers, or portals are not available. 
+
+-Mage lab: (Yes these are cumulative)
+--Basic = 20 eggs                  
+--Intermediate = Basic + 50 eggs
+--Advanced = Basic + Intermediate + 200 eggs 
+(Your Mage Lab must be ownered to the owners of the house)
+ 
+Rules for Townhomes:
+------------------------------------------
+Only two characters allowed per home, these characters cannot be the same player
+and they cannot be changed.  Once an owner is in, its there for good.
+
+Transfer of ownership under any circumstances from the origional owner(s) 
+is not allowed. The original owner(s) must always keep ownership.
+
+Doors cannot have any flags except the closed flag.
+
+One private flag per home is allowed. Owner flags and private flags are 
+two entirelly seperate flags.  Private flags the room 2 person only.
+
+The player is allowed to have all his/her rooms flaged as owner.
+
+One way doors are not permitted.
+
+We do NOT take downpayment on townhomes or townhome work. All work must
+be paid in full before it is completed and all work must be paid for at
+the same time.
+
+Pits must be in an room that is private to the owners of the townhome.
+
+All townhome rooms must be flagged SAFE and NO_MOB. There is no exception
+to this rule.  Safe prevents loss of exp for quitting outside of town,
+no_mob prevents mobs entering the house.
+
+Nowhere flags are allowed in townhomes.
+
+When noting townhome work to immortals always note it to immortal.
+Always add directions to your home as well, or to the location it need to be
+added to.
+
+Fountains may produce any available drink type.  There is no charge for the
+original drink type, other than the charge for the fountain itself.
+
+We do not allow hidden exits or more then one exit/entrance per townhome.
+The exit must lead the the townhome street. There are NO exceptions to this
+rule.
+
+Once your townhome has been added per the room/object descriptions you provided,
+changes will be charged for.  The cost to change the description of a room and/or
+object is half it's original cost.  That is, to change a room's description it will
+cost you 375 diamonds.
+
+** NOTE **  Clanners no longer can own nor even walk into Town Home areas.
+~
+0  SUMMONER 'SUMMON ELEMENTAL'~
+This spell allows the elementalist to open a gateway to one of the 
+Elemental Planes.  Through this gatewy, the elementalist calls a creature
+to do his bidding.  The exact type of elemental summoned is completely
+random.  It is said that the elementals from the Planes of Spirit and Energy 
+grant special powers to those that summon them.
+~
+0 NATURE FRIEND~
+A Druid with this kit is the ultimate friend of nature.  They are able to
+use the charm animal spell to easily charm members of the animal kingdom.
+They can also call forth a swarm to come to their aid.
+
+See Also:  charm animal, swarm
+~
+0 CHARM ANIMAL~
+     Syntax: cast 'charm animal' <target>
+
+The charm animal is nothing like the charm person spell.  It can only be
+cast on animals.  Some mobs are animals, and some mobs are not animals.
+The number of animals a Druid can control is based on their level.
+~
+0 SWARM~
+     Syntax: cast swarm <target>
+The swarm spell calls a swarm of one of the following:
+     Rats, Locusts, Ants, Butterflies, Wasps, Fireflys.
+
+The swarm is very angry at those attacking their friend of nature.
+~
+0 KNIGHT~
+Individuals who have  studied the art of mounted combat are the Knights
+in Boinga.  They must rely on their strength and constitution in order to
+endure the long hours of Knight school.
+
+Knights have the unique ability to call forth a warhorse using the 
+{Ccall mount{x spell.  Even the larger races, who are unable to ride current
+mounts, can ride their magestic warhorses.  The warhorse's time on this 
+world is limited.
+
+Knights also have the ability to charge their opponents with the {Ckcharge{x 
+skill.  The kcharge attack can only be used to initiate combat, as it is
+very difficult to do a charge in melee. 
+
+Knights from the warrior or blademaster classes must wield a polearm
+in order to kcharge.  Knights from the cleric or paladin classes must wield
+a flail in order to kcharge.
+
+NOTE:  The riding skill is *NOT* included in the Knight kit.  In order to
+       use your warhorse with any proficiency, you must take this skill
+       in addition to the knight kit.
+       {YALSO!!!{x
+       Knights are no longer given the polearm and flail skills they require
+       to do the kcharge attack depending on your class.  There are now
+       pre-reqs for Knight-School.
+       
+~
+0 RALLY~
+Syntax:  automatic
+
+Cavaliers have the inate ability to rally their group in combat.  This 
+skill is automatic.  In order to inspire their group in a fight, the
+cavalier must be mounted on thier warhorse.  This skill gives a chance
+of an additional attack, as well as making the group more determined.
+
+When the cavalier is fighting alone, their presence has cowing affect
+on their target.
+~
+
+0 CAVALIER~
+The cavalier is oh so cavalier.  He is able to offer a very reassuring
+presence to his group mates. 
+
+See also:  rally
+           call mount
+~
+0 SHADOWSTALKER~
+NOTE:  THIS KIT IS USELESS FOR NONCLANNERS.  If you take it as a non=
+clanner, don't cry to the imms for a reimb of your pracs.
+
+Shadowstalkers use a little known ancient drow spell to enable them
+to silently move through the umbra and stalk victims.
+If they are sucessful, the victim will not see them enter the room
+at all.  There are several indications that you are being stalked, learn
+to trust your gut instinct.
+
+See also:  kit info shadowstalker
+           help stalk
+
+~
+0 STALK~
+Syntax: cast stalk <target>
+
+The stalk spell is used by those with the shadowstalker kit to stalk
+their victims.  It enables them to silently enter the room where the
+victim is.
+
+However, since Boinga is not a lawless society, there are some rules
+for the use of the stalk spell.
+
+You may not stalk mobs.
+You may not stalk nonclanners.
+You may not cast this spell as a nonclanner.
+
+
+See also:  kit info shadowstalker
+           help shadowstalker
+~
+0 KCHARGE~
+Syntax:  kcharge <target>
+
+Kcharge is a command available to those who have taken the knight kit.
+It is usually used to initiate combat.  A knight must be mounted on their
+warhorse and wielding a polearm, if they are a warrior/blademaster, or a
+flail, if they are a cleric/paladin, in order to use kcharge.
+
+See also:  call mount
+
+~
+52 SPECIALS~
+You can give mobs specials when you are creating them on OLC.  Here is a
+listing of the specials and what they do:
+
+spec_jabber:
+Will cause the mob to say random things, mob will also attack
+last person who attacked them if they walk in a room.
+
+spec_breath_any:
+This special will give the MOB the ability to breathe fire, lightning, 
+gas, acid, or frost breath.
+
+spec_breath_acid:
+This special will give the MOB the ability to breathe acid breath.
+
+spec_breath_fire:
+This special will give the MOB the ability to breathe fire breath.
+
+spec_breath_frost:
+This special will give the MOB the ability to breathe frost breath.
+
+spec_breath_gas:
+This special will give the MOB the ability to breate gas breath.
+
+spec_breath_lightning
+This special will give the MOB the ability to breathe lightning breath.
+
+spec_cast_adept:
+This special will cause the MOB to cast spells randomly like the healer
+does.
+
+spec_cast_cleric:
+Gives the mob the ability to cast certian clerical spells in combat.
+
+spec_cast_judge:
+Gives the mob the ability to cast "high explosive" in combat.
+
+spec_cast_mage:
+Gives the mob the abilty to cast certian mage spells in combat.
+
+spec_cast_undead:
+Does something, don't use.
+
+spec_executioner:
+Casues the MOB to go after Killers, Thieves, and Ruffians.
+i.e. Hassan
+
+spec_fido
+Causes the MOB to devour corpses.
+
+spec_guard_l
+
+spec_guard_d
+spec_janitor
+Causes the MOB to pick up stuff lying on the floor.
+
+spec_mayor
+spec_poison
+spec_thief
+spec_puff
+spec_phoenix
+spec_nasty
+spec_troll_member
+spec_ogre_member
+spec_patrolman
+spec_rabbit
+spec_cast_dispel
+spec_monk
+spec_altirin_undead
+spec_vhan
+spec_drachlan_melee
+spec_drachlan_medic
+
+spec_average
+1. swaps and wears EQ (like the Yinnish Monk, good to combine with
+ACT_SCAVENGER)
+2. Randomly says (1 in 50 chance each round) each of its 3 spec_words
+3. Remembers the last PC it was fighting or the master of the last
+NPC it was fighting.  If it is above 25% HP it will attack them
+if they come back in the room.  This is good on MOBs that people
+have to flee from and come back to.
+
+spec_elemental_king
+
+Spec_Words:
+These values can be used by various specials.
+
+spec_salesman:
+A spec_proc for a MOB to follow and pester a player into buying whatever he
+is selling.  Used in combination with a SHOP setting on the MOB and a wandering
+scavenger MOB it makes for some fun.  The spec_proc makes use of spec_words.
+spec_word[0] is what is said when the MOB begins to follow the PC.  The other
+two are said at random.  Please see the new Sales Manney MOB in Midgaard for
+an example.
+
+~
+
+0 'CALL MOUNT'~
+Syntax:  c 'call mount'
+
+Call mount is a spell given to those who have taken the Knight kit.  It calls
+forth a magestic warhorse that only the knight can ride.  The Knight must
+be mounted on their warhorse in order to use the kcharge skill.  Normal 
+mounts lack the training and magical abilties of the warhorse.  However, 
+since the warhorse is a magical being, it's time on this world is limited.
+Warhorses do go away after a time.
+
+Cavaliers are also given call mount.
+
+
+See also: kcharge
+
+~
+59 DOUBLEXP~
+Syntax:  doublexp
+
+This toggles double xp and all the rewards that go along with it.
+~
+0 SCRIBE~
+Syntax:  scribe 'spell name' scroll ink
+
+The scribe skill allows those who have taken the scribe kit to make scrolls.
+Not all spells may be put on scrolls, and some spells may not work properly
+if they are put on scrolls.  Different spells also require different types of
+blank scrolls.  Most of the scrolls and ink are available from the Magic and
+Map shop in Midgaard.  There are others out in Boinga as well.  Scrolls made
+with the scribe skill tend to be less effective than those that exist in the
+game already.
+
+Requirements:
+You must be in a magelab
+You must have the correct blank scroll for the spell you want to make
+
+See also:  scribekit scribe kit
+
+~
+0 SCRIBE 'SCRIBE KIT'~
+This kit will allow you to use the scribe skill to make scrolls.
+
+See also:  scribe
+
+~
+52 SHITLIST~
+The following players have been banned forever from MHS
+---DATE--- --NAME----------   ---OFFENSE---------------------------------
+11-25-2001 Zifnab           - Looting Nonclanner (Pacifists) corpse
+05-29-2002 Billyjean        - Repeated pens, doesn't listen
+04-15-2003 Tant or any      = Repeatedly bitching.  not condusive to a 
+           variation of       positive player atmosphere.  
+09-06-2003 Phaze            - Bank Character for Warlock
+11-01-2003 Snapple          - RL Threats against Imms
+07-14-2004 Huxley           - RL Threats against IMMS
+                              Calling a female player a cunt
+                              Unstable dickwad who needs a life
+
+~
+0 RARE 'RARE ITEM'~
+Any item which does not repop in the game.
+
+Any weapon with the following flag is considered RARE for looting purposes:
+Favored, artificial vamp (necromancer vamping), nether, non-natural holy
+(Holy Avenger, etc. doesn't count, those pop holy), non-natural vorpal (no
+Hassan's scimitars)
+
+Elementalist sword spells do NOT count, but weapons carrying a holy flag from
+a Crusader casting bestow holiness on it DOES, since you can't really tell the
+difference.  Take note, Paladins, have your weapons bestowed at your own risk.
+~
+0 'STAFF CRAFTER'~
+The staff crafter makes staves.  Only three staves can be endowed with the 
+power of the crafter's deity.  The crafter must be in a special holy room
+to endow the staff.  
+
+see also:  endow
+~
+0 ENDOW~
+The endow skill is used by the staff crafter to put their deities power
+into special staves.  Everything the staff crafter needs is in New Thalos.
+
+see also:  staff crafter
+
+~
+0 WANDER 'WAND MAKER'~
+The wand maker kit allows the mage or wizard to infuse certian spells onto 
+the wand.  This can only be done in a mage lab, and requires a one of five  
+special wands.  
+These wands are:
+* wand of pine
+* wand of apple
+* wand of oak
+* wand of willow
+* wand of yew
+The wands of pine and apple are available in Midgaard.  The other three
+can be found in various locations through out the land.
+
+see also:  infuse
+~
+0 INFUSE~
+The infuse skill is used by wand makers to put the magical energy of certian
+spells on to a special wand.
+The syntax for infuse is:  infuse <spellname> <wand to use>
+
+The different wands offer different levels of difficulty to the wand maker.
+Some are also more powerful and can hold more charges than others.
+
+see also: 'wand maker'
+~
+
+0 PICKSTATS 'STATS TO PICK' STATS~
+STRENGTH
+This stat determines how strong you are.  Affects that is has within the 
+game are, but are not limited to:
+* How much weight you can carry.
+* How hard you hit when you hit with a weapon.
+
+INTELLIGENCE
+This stat determines how intelligent your character is.  Affects within the 
+game are, but are not limited to:
+* How strong the 'mage' type spells you cast are.
+* How well you save vs. mage type spells.
+* How quickly you will learn skills and spells.
+* The higher your int, the more you will learn each time you practice a 
+  skill/spell.
+
+WISDOM
+This stat determines your characters ability to judge what is right.  It is
+also an indicator of their commonsense.
+Affects within the game are, but are not limited to:
+
+* How well you percieve the world around you.
+* How strong the 'clerical' type spells you cast are.
+* How well you save vs. clerical type spells
+* The higher your wisdom, the more practices you will gain when you level.
+
+DEXTERITY
+This stat determines your characters speed in movement, espically with the 
+hands or things held.  To a lesser extent, it also shows how quick your
+mind/thinking can be.
+Affects within the game are, but are not limited to:
+* How many movement points you gain when you level.
+* How well you avoid spells, espically area affect spells.
+
+CONSTITUTION
+The aggregate of all one's inherited physical qualities; the aggregate of 
+the vital powers of an individual, with reference to ability to endure 
+hardship, resist disease, etc.; as, a robust constitution.
+Affects within the game are, but are not limited to:
+* How many hit points you gain when you level
+* Your resistance to posions.
+
+AGILITY
+Agility is how gracefully and nimble your character is.  This differs from
+dexterity in that dex is how quickly your character moves.
+Affects within the game are, but are not limited to:
+* How well you avoid spells, espically area affect spells.
+* How well you avoid melee attacks.
+
+ENDURANCE
+Endurance determines how well your character withstands stress and stressful
+situations physically and mentally.
+Affects within the game are, but are not limited to:
+* How many Hit Points you gain when you level.
+* Movement over rough terrain.
+
+SOCIAL
+The social stat is used in your interaction with the MOBS of MHS.  Sorry, 
+it has no affect on your interaction with other players.
+Affects with the game are, but are not limited to:
+* Players who haggle find it easier with a higher social stat.
+* Guard mobs may find you to likeable to alert everyone to your presense.
+* Aggressive mobs may not be as aggressive to you.
+~
+
+52 SETCOUNCIL~
+Syntax:  setcouncil <target>
+This command sets or strips the Matook council bit from a certian player.
+
+~
+52 BHALLS~
+Honor:  25000-25499
+Demise:  25500-25999
+Warlock:  26000-26499
+Zealot:  26500-26999
+Posse:  27000-27499
+These are the vnums to use for adding branch clan halls to the game
+boogums
+
+Roaming Guard Mobs.  Here is how it works.  Each clan hall area and 
+branch hall area should have/get a copy of the existing guard mob.
+hte only difference is, you remove the sentinal flag from the mob.
+you also need to add the stay_area flag as well.  The name of the 
+mob should be changed to 'roaming blah blah blah' so for Demise it
+woudl be 'roaming guard of cthon' or something like that.  that way
+we can find them easily.  For roamers in the branch halls, use the 
+branch hall area.  Let's try an minimize cross vnumming.  Post
+up any questions to me.
+
+Guard HPS
+Level	Amount
+40-42     15d10+4000
+43-45     25d10+5000
+46-48     25d10+6500
+49-51     50d10+8000
+52        50d10+11000
+Guards cannot be above level 52.  The amount means the amount
+of HP for that level range.  Do not add 15d10+4000 for each
+level between 40 and 42, k?
+
+
+{gWARLOCK'S GUARDS{x
+11JAN04 - Added The dirt kick ability to all their guards
+
+
+{YZEALOT'S GUARDS{x
+14JUN04 - Added parry to main hall guards
+28SEP04 - Upgraded guards to elvel 41
+
+{CHONOR'S GUARDS{x
+2FEB05 - Added dirt kick to abilities
+
+~
+0 'BRANCH HALLS'~
+Branch Clan halls
+
+Initial room, guard, and discription - free
+
+Your guard corps start out as entry level.  You may pay for 
+training for your entire guard corps.  This training includes 
+all guards on staff at your branch hall. Should decide to hire more 
+guards, they will have the same level of training and ability 
+as your existing corps.   Prices for training your guards or 
+hiring new guards are found in the {YPRICES{x helpfile.
+
+Clan leaders are responsible for the descriptions of the equipment, 
+however stats and affects of the equipment has been predetermined 
+and will be the same for all clans.  This is not negotiable or 
+upgrade-able.  
+
+You may have a maximum of 2 guards per room.
+
+A Guard Eq set consists of a helmet, a shield, gloves, a torso item,
+and boots.  
+
+Branch offices will be open to all clanners, that is
+why you have a guard, who will sound the alarm should an
+enemy invade your branch hall.
+
+You will be provided one (1) one way door into your branch
+clan hall from the portal room of your Main hall.  To return 
+to your main hall, you will have to use your traditional 
+means of transportation.  The branch halls are nowhere, 
+meaning people scanning from outside your hall cannot see you. 
+However, you will not be able to use scan from inside your 
+branch hall.  You will have to go outside. The entrance to 
+your branch hall is a secret entrance.    
+
+Clan leaders can purchase upgrades and additions for their 
+branch hall, but remember, all clanners can get into your 
+alls and have access to anything in there, so build wisely.
+Prices for additions to your branch halls are the same as
+those in the "help prices" file.  Branch halls may not have 
+portals or obs rooms.  Branch halls may not have locking doors, 
+private rooms, owner only, or clan specific only rooms.  
+Every room in a branch hall will be open to all clanners.
+
+Portals are NO LONGER AVAILABLE you may put a branch hall in an area of your
+choosing.
+
+Immortals:
+See the help BHALLS file for vnums.
+~
+0 DOT 'DAMAGE OVER TIME'~
+
+Damage Over Time (also called DOT) affects are special types of spell affects.
+A DOT affect doesn't cycle with normal spell affects, it has its own timer
+and is not looked at during normal ticks.  DOTs use a special, faster tick
+that kicks in every 10 seconds.  When this tick hits, the DOT runs its course,
+doing damage to the victim.  Some DOT spells also do direct damage up front, but
+this isn't a requirement of a DOT affect.  Most DOTs have no cure, but do low
+amounts of damage, so low they often fall under the damage curve.  But for this
+very reason, DOTs are also quite powerful, as they can do hundreds of points of
+damage and none of it gets curved.  The cost is time, as a victim of a DOT can
+use several tactics to reduce the effectiveness.  Most DOTs last 1-2 minutes 
+and do gradually less damage as they go.  Many things affect how much damage
+a DOT does, and none of those secrets will be divulged here.
+
+The Shaman kit is the best in the game, having access to an elite corp of DOT
+spells in the 'disease' group.  No DOT can rival the power of these spells.
+Other, more mundane DOT spells exist.
+
+~
+0 $~
+
+#$

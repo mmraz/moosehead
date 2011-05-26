@@ -1,0 +1,363 @@
+#AREA
+/mud/moosehead/area/macleod.are~
+The Castle Camorra~
+{Clan}  Morgana The Castle Camorra~
+4600 4609
+
+#MOBILES
+#4600
+healer~
+Tuck~
+The healer Truck stands ready to assist you with a spell.
+~
+The ancient and friendly Truck stands ready to assist you with his spells.
+Once a member of Macleod, Truck now works for the glory of Camorra.  Although
+he dosn't look that bright, this giant seems wizened, and knowledgable.
+~
+human~
+ABQa DFH 1000 0
+40 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#4601
+mamma maria~
+Mamma Maria~
+Mamma Maria stands here ready to fill your stomach with pasta.
+~
+Mamma Maria is similiar to every Ialian grandmother you've ever met.  She
+smiles at you with wizened, warm eyes, and than shoves a plate of spaghetti
+into your face exclaiming, "eat something before you waiste away, you thin
+boy!"
+~
+human~
+ABQR DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand female 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#4600
+plate spaghetti~
+a hot plate of spaghetti~
+A large plate of Mamma Maria's spaghetti lies here.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+E
+wings~
+These are Wilf's special wings, guaranteed to burn the skin off the roof 
+of your mouth.  Care for a bite? ~
+#4601
+golden fountain statuette hand maiden~
+the hand of a battered statuette~
+A once beautiful golden statuette stands in ruins.~
+gold~
+drink 0 0
+100 100 'water' 10 0
+0 0 0 G
+E
+golden fountain statuette hand maiden~
+This statue is over 6 feet high, and carved of pure gold.  An invisible water
+supply fills the maiden's hand with cold, refreshing water.  You suck
+delicately on her fingers to drink.
+~
+E
+~
+~
+E
+fountain~
+~
+#4602
+drow~
+a shadowy corner~
+~
+~
+portal R P
+0 0 0 5100 0
+0 100 0 P
+#4603
+Haon Dor~
+a shadowy corner~
+~
+~
+portal R P
+0 0 0 6102 0
+0 100 0 P
+#4604
+ancient thalos~
+a shadowy corner~
+~
+~
+portal R P
+0 0 0 5300 0
+0 100 0 P
+#4605
+elemental canyon~
+a shadowy corner~
+~
+~
+portal R P
+0 0 0 9209 0
+0 100 0 P
+#4606
+Pyramid~
+a shadowy corner~
+~
+~
+portal R P
+0 0 0 8701 0
+0 100 0 P
+#4607
+sands sorrow~
+a shadowy corner~
+~
+~
+portal R P
+0 0 0 5001 0
+0 100 0 P
+#4608
+donation pit huge gaping hole~
+a gaping hole~
+There is a huge gaping hole in the center of the floor.~
+~
+container O 0
+10000 0 0 1000 100
+0 0 0 P
+#4609
+cracked crystal sphere~
+a cracked crystal sphere~
+A once perfect sphere of crystal is now flawed by many cracks~
+crystal~
+drink OR 0
+100 100 'water' 10 0
+1 0 0 G
+E
+blue crystal sphere fountain~
+A once perfectly carved blue crystal sphere now hovers in the dim light
+of the vault.  A slightly liquidy substance moves within, but it seems
+tainted, and almost green.  The names and faces of Blackball and Morgana
+are barely visible amist the thousands of tiny cracks along the surface
+of the sphere.
+~
+#0
+
+#ROOMS
+#4600
+The Common Room of the Once Clan Camorra~
+You have entered a huge and empty hall.  The chared remains of tables, chairs
+and other adornments are strewn about in piles of rubbish about the room.
+A long silk banner on the northern wall is torn and also signed by a great
+fire that must of destroyed all it encountered; the word 'Camorra' is barely
+visible in red stich on the banner.
+~
+0 DF 0
+D0
+Exit ~
+door~
+0 0 4604
+D1
+Exit ~
+door east~
+1 -1 4602
+D3
+Exit ~
+door west~
+1 -1 4603
+D5
+Exit ~
+door~
+0 0 7019
+E
+e east~
+Two very large goons bar your passage to the east. 
+"Council members only!" the uglier one bellows at you, fingering his brass
+knuckles and scowling fiercly.
+~
+S
+#4601
+A (Safe)ty Deposit Box~
+This room is a tiny, solid metal room connected to the once Camorran Vault.
+The magical properties giving the ability for a member to remain in solitude
+are now faded, making it open for anyone to enter.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 4604
+S
+#4602
+The Board Room~
+This room was where the "big boys" of Camorra once met to make the decisions
+concerning the direction Camorra would take.  It reflects the wealth the
+members once shared, even in a state of destruction from the fires that 
+ravaged the hall.  All of the once beautiful mahogany and cherry wood 
+furniture is now destroyed, and useless.
+~
+0 DEFG 0
+D1
+Exit ~
+door~
+0 0 4605
+D3
+Exit ~
+door~
+1 -1 4600
+E
+east e~
+A pair of very sinister looking skeletal warriors bar your passage to the
+east.  "Only Camorra leaders may enter," the one identified as 'Crush' by
+his silver collar hisses at you.  The other skeleton, 'Smash' grins evily
+and knashes his teeth.
+~
+E
+fire leather chairs~
+On the southern wall, a roaring fire warms the room creating a more 
+comfortable atmosphere.  The council members also use this room to relax
+between meetings.  The leather chairs seem warm and inviting.
+~
+E
+table~
+A very wide, 10-foot black, marble table runs paralel with the pool table,
+the length of the room.  Several tall, black leather chairs are arranged
+neatly around the table, and on its top, you can see various ledgers, pens,
+ect. the council members use to record minutes.
+~
+E
+velvet green pool table~
+Shiny, multi-colored balls are neatly organised in a triangular fashion
+at one end of this antique, carved rosewood pool table.  The cue ball gleams
+radiantly white in the glow of several dim, golden lamps alone the walls of
+the board room.  Even though this pool table has seen a lot of use, it
+is carefully maintained, and in no obvious disrepair.
+~
+S
+#4603
+Mamma's Kitchen~
+This was once the feasting hall of the clan Camorra.  Long wooden tables,
+and great, sturdy benches are now piled in heapes on all sides of the room.
+It appears that the Camorra members made their last attempt to contain the
+fire in this room in an effort to save Mamma's Kitchen.  Alas, she'll never
+feed her boys spahgetti again.
+~
+0 DEFG 0
+D1
+Exit ~
+door~
+1 -1 4600
+S
+#4604
+The Vault~
+This huge and spartan vault is the last remaining testement to Camorra.
+In here, the merchants once met to rest and to count their wealth.  The walls
+and cupboards are now baren, empty of all valuables.  A small plaque is the
+only thing seemingly untouched by the course of the fire; it appears newly
+placed.
+~
+0 DEFG 0
+D1
+Exit ~
+door~
+0 0 4606
+D2
+Exit ~
+door~
+0 0 4600
+D3
+Exit ~
+door~
+0 0 4601
+D5
+Exit ~
+door~
+0 0 4607
+E
+plaque~
+-------------------
+   (                  )
+   (      R.I.P       )
+   |                  |
+   | In loving memory |
+   | of TRUCK.  He    |
+   | died to save his |
+   | fellow Camorrans |
+  _|__________________|_
+~
+S
+#4605
+The Inner Office~
+CAMORRA is written in large, bold, golden letters on the nothern wall.  Only
+leaders of Camorra could enter this room, once upon a time.  Although this
+room was untouched by the fire, a search of the twin desks, and matching
+shelves reveils nothing.  The names Evaldar, Morgana, Blackball, Kefka,
+and Camille are chiseled in the cold stone beneith the Camorra lettering.
+~
+0 DEFG 0
+D3
+Exit ~
+door~
+0 0 4602
+S
+#4606
+A (Safe)ty Deposit Box~
+This room is a tiny, solid metal room connected to the once Camorran Vault.
+The magical properties giving the ability for a member to remain in solitude
+are now faded, making it open for anyone to enter.
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 4604
+S
+#4607
+The Portal Room~
+This room is lit only by a songle flickering torch.  The shadows dance
+across the walls in ever changing patterns of light and dark.  It is from
+here that the mercenaries of Camorra launch their attacks, a dark and
+shadowy room that befits the secretive nature of this Clan.  Each portal
+itself, appears to be no more than just another shadow on the walls.
+ 
+There is a small sign under the torch, just barely readable in this light.
+~
+0 CD 0
+D4
+Exit ~
+door~
+0 0 4604
+E
+sign~
+The Camorra Clan Portals
+ 
+'Enter haon' or 'Enter dor' to go to the Forest of Haon Dor
+'Enter Drow' to go to the Drow City
+'Enter Ancient' or 'Enter Thalos' to go to the City of Ancient Thalos
+'Enter Elemental' or 'Enter Canyon' to go to the Elemental Canyon
+'Enter Pyramid' to go to the Great Pyramid
+'Enter Sands' or 'Enter Sorrow' to go to the Sands of Sorrow
+ 
+~
+S
+#0
+
+#RESETS
+O 0 4601 100 4602	* the hand of a battered statuette
+O 0 4608 100 4600	* a gaping hole
+O 0 4609 100 4604	* a cracked crystal sphere
+S
+
+#SHOPS
+4601 10  0  0  0  0 	1000 100 	 0 23 	* Mamma Maria
+0
+
+#SPECIALS
+M 4600 spec_cast_adept     	* Tuck
+S
+
+#$

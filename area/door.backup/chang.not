@@ -1,0 +1,2350 @@
+Sender  Rusty~
+Date    Tue May 16 13:38:44 2000~
+Stamp   958509524
+To      all~
+Subject No more superweapons using fading enchants~
+Text
+The function that stripped the affects when a weapon faded
+on an enchant did not remove the bitvector that defined
+the specials (ie: frost, nether, holy).  This function, free_aff(paf)
+was replaced with affect_remove_obj(obj, paf) which does strip
+the bitvector(s) before freeing the affect. 
+
+What does that mean in simple english?  You will no longer be
+able to give perma frost, flaming, nether, holy to a weapon
+by casting those spells on it then fading it with an enchant.
+The fade will strip all the nifty affects too.
+-Rusty
+~
+Sender  Rage~
+Date    Wed May 17 08:12:40 2000~
+Stamp   958576360
+To      immortal~
+Subject newdamage nouns~
+Text
+I've added two new damage nouns (value3 on weapons).
+40 splash DAM_DROWNING
+41 mental blast DAM_MENTAL
+
+I haven't added in the capability to use these into OLC yet, 
+but they are available using the set command.
+
+I'll probably be adding a few more as well in the next little
+while, as I add in nifty things with kits.
+
+Rage.
+~
+Sender  Rusty~
+Date    Thu May 18 14:44:17 2000~
+Stamp   958686257
+To      Rage Minister Boogums Poquah~
+Subject icg command~
+Text
+You can now "icg <char> group none" in order to remove an assigned
+ICG group.  I'm going to work on "icg <char> remove <command"
+next to only remove commands they have assigned and let you
+know if you tried to take one away they didn't have.  Also a
+argument to show a char's ICG group and commands will be coming.
+-Rusty
+~
+Sender  Rage~
+Date    Fri May 19 06:50:01 2000~
+Stamp   958744201
+To      all~
+Subject Alchemist~
+Text
+Alchemist kit is now in and functional.  Please report
+any problems to Rage immediately.
+
+PLEASE NOTE: costs involved in brewing potions are subject to
+change without notice. I'll try my best to inform you 
+when I do change them(and I probably will) ahead of time.
+However, I make no guarantees regarding potion cost, present
+or future.  Everyone understand?
+~
+Sender  Minister~
+Date    Tue May 23 21:04:02 2000~
+Stamp   959141042
+To      all~
+Subject traps crusaders~
+Text
+Traps: 
+Can be immune to traps.
+Non-clanners may not set traps or be affected by traps.
+Increased damage of claw, let me know if it is still too little.
+Snare is similar to hold person now.
+
+
+Crusaders:
+Change made......figure it out.
+
+
+This will take effect as of next reboot.
+
+Minister
+~
+Sender  Poquah~
+Date    Wed May 24 18:33:22 2000~
+Stamp   959218402
+To      all~
+Subject Shapemorph changes~
+Text
+White Aura, Fire Shield, Ice Shield, Electric Shield,
+Killer, Thief, Ruffian,and Thug will no longer show
+on a shapemorphed shapeshifter when you look in the
+room.
+
+You can no longer shapemorph into anything starting 
+with 'self'. You also won't be able to shapemorph
+into anything using any other letters then a thru Z
+(but this isnt done yet, but expect it sooner or 
+later).
+~
+Sender  Poquah~
+Date    Thu May 25 13:02:19 2000~
+Stamp   959284939
+To      all~
+Subject Zealot Helpfile and Mutiny file~
+Text
+Zealot Helpfile and Mutiny files updated
+In with next reboot. Happy Reading.
+
+Any thoughts that it is plagerized, please attack
+Virgarius :)
+~
+Sender  Minister~
+Date    Thu May 25 18:45:38 2000~
+Stamp   959305538
+To      all~
+Subject reanimate earthbind~
+Text
+Reanimate:
+Can't reanimate if the corpse is located in a clan hall
+
+Earthbind
+You can move if earthbound, not very far mind you
+but at least you can try escaping.
+
+
+In as of next reboot
+~
+Sender  Rage~
+Date    Fri May 26 11:02:07 2000~
+Stamp   959364127
+To      all~
+Subject Gladiator betting~
+Text
+As of the next reboot, you will be allowed to bet on *inidividual*
+gladiator events.  See "help gbet" for info on how to do this.
+
+Coming soon:
+Odds based on win/loss stats, bet amounts, total bet etc! Just like
+betting on the ponies!
+
+Betting on Team events, with odds based on who is on each team!
+
+Rage, your soon to be bookie :)
+~
+Sender  Minister~
+Date    Fri May 26 20:30:54 2000~
+Stamp   959398254
+To      all~
+Subject code tweaks~
+Text
+Swim skill will help you from floating away.
+
+Minimum position needed changed for zap, brandish, recite
+quaff, and eating for pills.
+
+Number of ticks on snare trap similar to hold person
+
+Fixed bug with changing kits and keeping special abilities.
+
+~
+Sender  Poquah~
+Date    Sun May 28 15:37:41 2000~
+Stamp   959553461
+To      all~
+Subject Steal~
+Text
+Added a line of code to stop people from
+stealing (always successful might I add) who dont even
+have the steal skill.
+~
+Sender  Poquah~
+Date    Tue Jun 13 18:09:38 2000~
+Stamp   960944978
+To      all~
+Subject Matook Pledgers Messages Updated~
+Text
+Don't you just hate it when you get the
+Matook message telling you that someone is
+incapitated or mortally wounded but the mob
+still continues on killing them before you
+get a chance to help them out?
+
+Well now the mobs will stop attacking the 
+poor downed foe and won't even reattack him
+if they are aggies, giving you helpful Matook
+follower's a chance to rescue some lives.
+
+Also it will now tell you the villanious
+mob's name that downed the poor soul as well
+as the room name.
+
+For those of you that do not know, this special
+power is available only to those pledged to
+the deity Matook, and will only report those
+players incap or mortally wounded who are not
+clanned.
+~
+Sender  Poquah~
+Date    Sat Jun 17 12:24:15 2000~
+Stamp   961269855
+To      all~
+Subject Minor Changes~
+Text
+Cosmetic changes
+- Tsunami damage is now done before moving.
+- Steal with no moves change from 'to' to 'too' exhausted.
+
+Flame Shield now protects from fire blind.
+Flame Shield now protects from dehydration.
+
+~
+Sender  Poquah~
+Date    Sat Jun 17 14:33:58 2000~
+Stamp   961277638
+To      all~
+Subject Steal and Slice while Hold Person~
+Text
+You can no longer steal or slice while affected by Hold Person.
+~
+Sender  Poquah~
+Date    Sun Jun 18 14:25:44 2000~
+Stamp   961363544
+To      all~
+Subject Endure Heat/Cold~
+Text
+Crusader's and Faeries rejoice!
+
+Fixed Endure Cold and Endure Heat so they are
+castable on faeries now.
+
+Increased spell duration of Endure Heat and cold.
+~
+Sender  Poquah~
+Date    Mon Jun 19 15:45:44 2000~
+Stamp   961454744
+To      all~
+Subject Brew/Alchemy~
+Text
+Added some check_improves so you can now get better at it
+while using it.
+~
+Sender  Poquah~
+Date    Mon Jun 19 19:12:37 2000~
+Stamp   961467157
+To      all~
+Subject Midgaard Public Mage Lab~
+Text
+The Admins have discussed putting a Magelab back
+into town. Here is the new Magelab. It is no_mob,
+it is open to the public, including clanners,
+clanners can fight in there if they want. No one
+owns the public magelab. The mana regen rate has
+been removed, it never should have been there. 
+
+Now here is the kicker and please dont bitch and
+complain. The public magelab is 'simple'. We have
+decided that we dont want public rooms being
+more then 'simple', same as we dont allow public
+rooms to have both hp and mana regen, nor allow
+them to go above 200. Its an Admin and Game decision.
+
+You can still purchase magelabs for your townhomes
+and clan halls these can be upgraded to intermediate
+and advanced.
+
+There will be no refunds or reimbursements for eggs
+put into building the old magelab, so dont bother
+asking.
+~
+Sender  Poquah~
+Date    Thu Jun 22 15:55:54 2000~
+Stamp   961714554
+To      all~
+Subject Pfiles saving with deaths~
+Text
+When you die your pfile will be save, this is
+being done to eliminate two things:
+
+1) People going out and getting spammed killed
+which may or may not crash us, if it does crash
+us then they get all their EQ back.
+
+2) People duplicating items in the above way.
+
+So when you die now your pfile is saved, if we
+crash boom you got nothing. Simple. Done.
+
+No reimbs either.
+~
+Sender  Rusty~
+Date    Fri Jun 23 12:27:31 2000~
+Stamp   961788451
+To      all~
+Subject free_string() calls in PC kills removed~
+Text
+Since we use a garbage collector anyhow (noo free()'s required)
+and the only thing new that might corrolate with multiple PC
+deaths and our memory allocation problems is the last_killed_by
+and last_killed stuff I yanked the free_string() calls prior to
+the str_dup() calls when those fields are filled in.  Since we
+garbage collect and don't actually free() memory (the memory is
+simply recycled when all pointers to it have been dereferenced)
+there is no need to actually free() the string.
+
+This could, perhaps, fix our little memory based crashing problem.
+If it does not I will be rewriting everything to directly allocate
+its own memory instead of the hack into the old MERC recycle.c
+memory recycling model.
+-Rusty
+~
+Sender  Rusty~
+Date    Fri Jun 23 16:25:48 2000~
+Stamp   961802748
+To      Poquah Rage Boogums~
+Subject reconnect ch not in char_list fix?~
+Text
+I added a loop after the reconnect of the character in check_reconnect()
+to make sure they were in the char_list.  Hopefully this will take care
+of those poor saps who get reconnected but can't manipulate the world
+as the char_list thinks they don't exist.
+-Rusty
+~
+Sender  Poquah~
+Date    Sun Jun 25 21:47:26 2000~
+Stamp   961994846
+To      all~
+Subject Who~
+Text
+You can now do 'who nonclan' like 'who clan'
+You figure out what it does.
+~
+Sender  Rage~
+Date    Mon Jun 26 21:25:37 2000~
+Stamp   962079937
+To      all~
+Subject new spell in piety group~
+Text
+Goemon suggested a new spell for paladins, and I liked it, so I coded
+it up quick.  Thank him for the idea if you like it.
+Spell: Indulgence
+A paladin affected by indulgence will not have their alignment change
+either by killing mobs, use of necromancy spells, or use of alignment
+changing weapons.
+
+This spell is castable only on yourself.
+~
+Sender  Rage~
+Date    Mon Jun 26 21:27:44 2000~
+Stamp   962080064
+To      all~
+Subject indulgence~
+Text
+Forgot to add, any paladin with the piety group will get this spell at
+level 25.  Hopefully, you can manage 10 skill points on your own, to get
+a practice for it, without having someone hold your hand :)
+
+Please report any bugs immediately.
+~
+Sender  Rage~
+Date    Tue Jun 27 09:16:12 2000~
+Stamp   962122572
+To      all~
+Subject Alchemist potion durations~
+Text
+Some of the durations for potions brewed by alchemists
+have been increased significantly.  Some have not.  Prices will probably
+change in the next few days, so look forward to that.
+~
+Sender  Poquah~
+Date    Tue Jun 27 18:48:20 2000~
+Stamp   962156900
+To      all~
+Subject Gladiator Code~
+Text
+Gladiator has been cleaned up a bit:
+- Fixed team victories not being recorded
+- Fixed total events played resetting to 0
+- reset team to none after a team event,
+so if you then join a single it doesnt say
+barbarian
+- You will not be disqualified (killed by
+lions) if you are blind or dust stormed,
+since you cant attack anyone.
+- When a team event ends it will tell you
+who won (to signify its over) even if you
+have the gladiator channel off.
+- there is a new command for use with team
+events 'gscore' will tell you the current
+score and number of ticks remaining.
+- Eq damaging effects (acid,fire,etc) will
+not effect Gladiator's EQ.
+- A team even that ends in a tie will set
+2 ticks on the clock and continue until
+one team wins
+- Immortals can skip the betting phase with
+'skipbet' this is really useful right now
+since betting wont work at all with teams
+and may not be working for single events.
+
+Yes there is still more coming on Gladiator,
+Rage is continuing to work the betting code
+and I'm continuing to enhance the game code.
+When its all over we'll be ready to wipe the
+slates and start for good, till then Gladiator
+is still considered in Beta, which means you
+participate at your own risk and currently only
+58+ can run them.
+
+Emperor Poquah of Rome
+~
+Sender  Poquah~
+Date    Wed Jun 28 15:21:50 2000~
+Stamp   962230910
+To      all~
+Subject New Gladiator Stuff~
+Text
+You will automatically be awoken at the start of
+the gladiator match, in case you are sleeping
+avoiding all the spam.
+
+Also added some messages when you are removed
+from the Event (via void, inactivity or immortal
+removal). These messages are sent to the player
+instead of the gladiator channel, since most of
+the gladiators keep it off they dont even realize
+the event ends.
+
+The winner of the gladiator will now be restored
+along with the losers.
+
+When you leave the Arena your quit timer will be
+set to 0 so you dont have to wait out your combat
+ticks to quit.
+~
+Sender  Rusty~
+Date    Wed Jun 28 21:51:02 2000~
+Stamp   962254262
+To      all~
+Subject Tsunami damage and movement~
+Text
+Casting tsunami and dealing the death blow to a MOB will no longer
+crash the game.  The spell was trying to move a dead MOB out of
+the room after killing it.  (For you coders, we were doing a
+move_char() operation on a NULL vch.)
+<sarcasm> Thanks so much for reporting the bug jackass.</sarcasm>
+The people who that is refering to know who they are...
+-Rusty
+~
+Sender  Rage~
+Date    Thu Jun 29 09:31:05 2000~
+Stamp   962296265
+To      all~
+Subject Gladiator betting~
+Text
+Betting on *INDIVIDUAL* Gladiator events is now functional.
+See help gbet for how information on how to place your wagers.
+See "help odds" for how to find out what the odds on a 
+given competitor are.  Use the "odds" command to find out the 
+*current* odds for all current Gladiator contestants.
+
+Odds are calculated dynamically, based on the total bets on all
+competitors vs the total bet on that particular competitor.
+Odds shown in the "odds" listing are approximate, however payouts are exact.
+
+Please report all bugs immediately, or suffer very serious
+nasty, evil, and generally unpleasant consequences.
+~
+Sender  Poquah~
+Date    Thu Jun 29 17:03:00 2000~
+Stamp   962323380
+To      all~
+Subject Gladiator adjustments~
+Text
+Gladiators that are disarmed just have
+the weapon drop into their inv.
+
+Gladiators that are heat metalled just
+have the eq drop into their inv.
+
+Gladiators are not affected by the
+over weight dropping code.
+
+Eventually we'll write all this in some big help file
+assuming we can remember everything this code does
+anymore :)
+~
+Sender  Poquah~
+Date    Mon Jul  3 17:15:03 2000~
+Stamp   962669703
+To      all~
+Subject Gladiator Spells~
+Text
+Gladiator spells do not lower in duration
+or level during the waiting periods (joining or
+betting). So spell up once and wait for the start.
+~
+Sender  Rage~
+Date    Tue Jul  4 10:51:36 2000~
+Stamp   962733096
+To      all~
+Subject a few fixes~
+Text
+Potion prices for alchemists adjusted. Costs now range
+from 100 to 1250 gold.  This will probably be the
+only price reduction , especially if people continue to ask about it.
+
+There is now code to prevent people from betting on team
+gladiator events.  This will of course be removed when
+team betting code is completed.  It's there now as a safeguard.
+
+Small bug fixed in bet resolution when gladiator combat is 
+is declared over, rather than finishing on it's own.  You'll
+now get paid for those bets.
+~
+Sender  Poquah~
+Date    Wed Jul  5 17:16:52 2000~
+Stamp   962842612
+To      all~
+Subject Gain List~
+Text
+'gain list' will now tell you how many
+practices you have remaining.
+
+You can thank Imposter for being to
+lazy to type 'score' to find out on
+his own.
+~
+Sender  Rage~
+Date    Thu Jul  6 08:42:46 2000~
+Stamp   962898166
+To      all~
+Subject bunch of stuff~
+Text
+YOu can no longer clear your bet after GLadiator combat has started.
+
+You can no longer attempt to hide while in combat or in the 
+resting position.
+
+Tail slap will actually be stopped by orb of touch now, instead of just showing
+the message and going right through.
+
+
+Fixed bug with changing kits and keeping your kit skills.
+~
+Sender  Rage~
+Date    Mon Jul 10 21:02:39 2000~
+Stamp   963288159
+To      all~
+Subject Gladiator betting~
+Text
+Gladiator odds are now limitted to a max payout of 99:1
+
+Use "gbet show" to see who you bet on.  There might be some bugs in this
+usage of the gbet command, I threw it in quick while I was fixing other bugs.
+
+Report all bugs immediately, thank you for your patience.
+~
+Sender  Poquah~
+Date    Tue Jul 11 16:21:38 2000~
+Stamp   963357698
+To      all~
+Subject 'Die' Command~
+Text
+new command useable when you are incapiciated or
+mortally wounded.
+
+'die' - Head for the bright light in the sky,
+you will be dead on the next tick.
+
+For those of you who don't wish to give up so
+easily on life you can wait out the slow death
+in hopes that a friendly person comes along and
+heals you.
+~
+Sender  Poquah~
+Date    Tue Jul 11 16:28:26 2000~
+Stamp   963358106
+To      all~
+Subject Fade/Shapemorph/Gladiator~
+Text
+Nethermancers will not accidently fade during Gladiator
+matches.
+
+Shapeshifters can not shapemorph during Gladiator matches
+(they can still shapeshift).
+~
+Sender  Rage~
+Date    Wed Jul 12 14:28:20 2000~
+Stamp   963437300
+To      all~
+Subject bug with slice~
+Text
+Small bug with victim needing to see an object in order for a thief
+to slice it fixed.  Also chances for success modified for steal
+and slice.  Both are more difficult to land now.  Additionally,
+you no longer get successful slice attaempts on mobs added to your KR
+
+Of course, none of this take affect until after next reboot.
+~
+Sender  Poquah~
+Date    Wed Jul 12 19:04:24 2000~
+Stamp   963453864
+To      all~
+Subject Shapemorph and Blind Gladiator~
+Text
+Fixed the code to make shapemorphed players
+display their actual description instead of
+their name when they leave a room.
+
+Gladiator blind matches are ready to go.
+You will not see any names or be able to 
+look at anyone in the gladiator events to
+determine who is who. All you will ever
+see is 'A Gladiator' is here or in excellent
+condition, etc. You attack people by kill
+glad, or kill 2.glad etc.
+
+And of course Team Glads you have Barbarians as well.
+~
+Sender  Poquah~
+Date    Sun Jul 16 12:15:56 2000~
+Stamp   963774956
+To      all~
+Subject Gladiator Bugs~
+Text
+Fixed bugs in gladiator:
+
+* Will not give you a kill stat for killing yourself
+* will not declare you the winner for killing yourself
+if there is only two people left in the match, instead
+awards it to the other person.
+~
+Sender  Rusty~
+Date    Mon Jul 17 14:02:45 2000~
+Stamp   963867765
+To      Rage Poquah Boogums~
+Subject confusion (Demise skill)~
+Text
+Put it in the checks in spell_cancellation() and spell_dispel_magic()
+as this can not be a non-removable affect.  (Yes, I know about cure
+disease.)
+-Rusty
+~
+Sender  Rusty~
+Date    Tue Jul 18 11:45:50 2000~
+Stamp   963945950
+To      immortal~
+Subject Seeing players during blind gladiators~
+Text
+If you wish to see a blind Gladiator match the way the morts
+do turn off your holylight.  Otherwise, leave holylight on and
+you will not be blinded in any way.
+-Rusty
+~
+Sender  Rage~
+Date    Tue Jul 18 12:19:21 2000~
+Stamp   963947961
+To      all~
+Subject betting changes~
+Text
+The method for calculation of payout and odds has changed
+completely.  Odds are now based solely on the player's
+gladiator stats, and not the amounts bet.  This means
+that odds are static for a given gladiator match.
+
+The winner of a single Gladiator match will receive a prize from
+the Emporer in gold coins.  This amount is based
+on the total amounts placed in bets.
+~
+Sender  Boogums~
+Date    Tue Jul 18 20:10:08 2000~
+Stamp   963976208
+To      all~
+Subject Item changed~
+Text
+There used to be this item that added a kind of nice affect
+That item has had it's affect removed
+The item was the broken nicked sword, if you know what i'm talking
+about.
+
+~
+Sender  Poquah~
+Date    Thu Jul 20 13:13:05 2000~
+Stamp   964123985
+To      all~
+Subject Matook Distress Calls~
+Text
+Matooker's will not hear distress calls if in quiet mode.
+~
+Sender  Poquah~
+Date    Thu Jul 20 17:47:38 2000~
+Stamp   964140458
+To      all~
+Subject Gladiators Sleeping~
+Text
+Gladiators that are slept will be left alone by
+the tigers, consider it playing dead, works
+sometimes on bears, maybe on tigers too?
+~
+Sender  Poquah~
+Date    Fri Jul 21 16:48:55 2000~
+Stamp   964223335
+To      all~
+Subject Gladiator Code Changes~
+Text
+Lets try this in Gladiator Events:
+
+You can not cast withstand death in the arena.
+You can not cast orbs in the arena.
+You can not quaff potions in the arena.
+
+This means you must have these spells on
+prior to the end of betting or quaff potions
+before then, means you can not respell those
+up during the event.
+
+Please do not bitch about this change, part of
+it power's down spellcasters and part of it
+power's down nonspell casters. Remember Gladiator
+Events are quests and this code is all still beta,
+I am just trying out different things to see how
+it works.
+
+Emperor Poquah
+~
+Sender  Poquah~
+Date    Sat Jul 22 14:21:48 2000~
+Stamp   964300908
+To      all~
+Subject Gladiator Casting~
+Text
+Gladiators can not cast offensive spells at themselves, no chickening out once 
+you are in.
+
+Gladiator's dispell has been changed, should take off fewer spells then normal.
+~
+Sender  Poquah~
+Date    Sun Jul 23 17:30:58 2000~
+Stamp   964398658
+To      all~
+Subject Rust Weapon/Rust Armor~
+Text
+Hard coded some metal material types into rust weapon and
+rust armor spells, it is now safe to use these again as 
+they will not affect all weapons and armor now. This will
+suffice until the Grand and Mysterious Material Table is
+completed.
+~
+Sender  Poquah~
+Date    Mon Jul 24 12:27:57 2000~
+Stamp   964466877
+To      all gladiators~
+Subject Gladiator Spells~
+Text
+Gladiators are only blinded or slept for 3 ticks period.
+Thats plenty of time to maladict them up and hunt them down.
+~
+Sender  Poquah~
+Date    Tue Jul 25 13:07:44 2000~
+Stamp   964555664
+To      all Matookers~
+Subject Matook Timer~
+Text
+Fixed issue with matook timer wrapping around to 0 for
+you really old Matookers, causing you to lose your ability
+to guild.
+
+Also added a message when you reach that hour that you can
+finally guild.
+~
+Sender  Poquah~
+Date    Wed Jul 26 17:42:22 2000~
+Stamp   964658542
+To      all~
+Subject Damage Code/Size Code/Dodge Code~
+Text
+Uped Rockbiters damage with size (did it in a way
+as to not up dragons or yinns though, just RB's).
+
+Lowered dodge + with smaller size, just a bit.
+
+Let see how it goes... the reason? To help rockbiters
+atleast be able to hit and when they do atleast make
+up for being hit 10 times.
+~
+Sender  Poquah~
+Date    Thu Jul 27 11:20:35 2000~
+Stamp   964722035
+To      all~
+Subject Death and Lost Exp~
+Text
+Fixed bug on death that was causing you to
+lose exp in no_die rooms (bb and glads) and not lose
+exp from regular deaths.
+
+People were quick to report that they were losing
+exp in gladiators and blood baths, but only one
+person reported not losing exp on regular deaths.
+~
+Sender  Rusty~
+Date    Fri Jul 28 09:12:00 2000~
+Stamp   964800720
+To      all~
+Subject Timing out of Gladiators~
+Text
+Gladiators got thrown to the lions if they did not cause damage
+(even 0 damage, i.e. a miss) for a period of time.  This was
+being usurped by damaging yourself which reset your timer.
+I made the timer reset check that you were "damaging" someone
+other than yourself.
+-Rusty
+~
+Sender  Rusty~
+Date    Mon Jul 31 15:17:46 2000~
+Stamp   965081866
+To      all~
+Subject 'remove curse' spell~
+Text
+This should make everyone happy.  If you cast remove curse
+on yourself or someone cursed and it strips your curse off
+the spell is done.  It will not continue to cruise through
+your EQ and remove the curses.  Now, there is still risk as
+if it fails to remove your curse or you are not cursed the 
+EQ unzapping continues.  But, at least it's a bit of a more
+polite spell now...
+-Rusty
+~
+Sender  Rage~
+Date    Fri Aug 11 16:31:15 2000~
+Stamp   966036675
+To      all~
+Subject new deity~
+Text
+Clanners may now pledge to the Almighty, patron god of Clan Zealot.  Currently,
+he gives only the gifts of recall and knowledge, but one more gift is 
+forthcoming shortly.
+
+Please report any bugs immediately.
+~
+Sender  Poquah~
+Date    Fri Aug 11 21:49:01 2000~
+Stamp   966055741
+To      all~
+Subject Almighty Knowledge~
+Text
+Matooker's dont show up in list anymore, and now the 
+non-almightiers show up in red.
+~
+Sender  Rage~
+Date    Sat Aug 12 11:49:09 2000~
+Stamp   966106149
+To      all~
+Subject New Deity gift for the Almighty~
+Text
+New gift added, "Banishment"
+Worshippers of the Almighty may pray for banishment.  When they do, those in
+the room may be banished from their clan halls (ie unable to enter their hall)
+The chosen of the Almighty (ie people in Zealot) may call upon this
+power more effectively than others.
+
+Worshippers of the Almighty in any clan are immune from banishment.
+~
+Sender  Rage~
+Date    Sat Aug 12 15:57:08 2000~
+Stamp   966121028
+To      all~
+Subject more Almighty stuff~
+Text
+To avoid cheezy people from just pledging Almighty to avoid the
+affects of banishment, the following has been done.
+
+If you are pledged to the Almighty, and attack a Zealot, you will
+lose all your sac points, and be affected by banishment automatically.
+
+Note, that should a Zealot attack you, and you are pledged Almighty,
+you will still be affected by this punishment.  It is assumed that
+Zealots will *not* be attacking anyone pledged to the Almighty.
+~
+Sender  Rage~
+Date    Thu Aug 17 09:02:25 2000~
+Stamp   966528145
+To      all~
+Subject new command for clan leaders~
+Text
+Syntax: sanction <char> <hall|channel|portal|regen|healer|store|skill>
+
+The sanction command is for clan leaders only.  Using this command
+on any of your clan mates prevents them from making use of any
+clan specific improvements that are available. See further
+explanation below.
+
+Hall: A character sanctioned from the hall is not permitted to 
+enter his/her clan hall.
+
+channel: A character sanctioned from the clan channel cannot make
+use of their clan channel.  If the channel was on when they were
+sanctioned, they may still listen on that channel.
+
+portal: A character sanctioned from the clan portals may not make
+use of the portals in the clan hall.  Other portals will still 
+function for that character.
+
+regen: A character sanctioned from regen receives no bonus to 
+their regen rate while using their clan's regen room.  Other 
+bonuses still apply, such as furniture, other rooms with improved
+regen, etc.
+
+healer: A character sanctioned from the healer may not make use
+of the clan's healer in any way.  Other healers will still provide
+services to the sanctioned character.
+
+store:  A character sanctioned from the store may not make use of 
+the clan's store.  They may not buy, sell or value their items.
+Other shops will still function for this character.
+
+skill:  A character sanctioned from the clan skill may not use
+their clan's skills, assuming their clan has any.  Only those
+skills purchased by the clan as clan skills are affected.
+
+As it currently stands, the sanction against a clan skill is not
+functional.  It will be functional shortly however.
+
+This command is available only to /5's right now.  If the majority
+of /5's wish it to become available to /4's, that will be changed.
+
+Report any bugs immediately.
+~
+Sender  Rage~
+Date    Thu Aug 17 09:09:05 2000~
+Stamp   966528545
+To      all~
+Subject addenedum to sanction~
+Text
+All sanctions are toggles.  Simply repeat the command to remove
+a sanction.
+~
+Sender  Rage~
+Date    Thu Aug 17 10:28:38 2000~
+Stamp   966533318
+To      all~
+Subject sanction~
+Text
+Clan leaders may now give sanctioning power to their /4's.
+Syntax: sanction char allow
+
+Only /4's may be given this power.  It is an all or nothing
+proposition.  Once they are allowed to sanction, they
+have access to *all* the sanction commands.  Again, to
+revoke their sanctioning power, simply execute the command again.
+
+NOTE: /4's *CANNOT* enforce sanction's on /5's.
+~
+Sender  Poquah~
+Date    Thu Aug 17 17:23:06 2000~
+Stamp   966558186
+To      all~
+Subject Gladiator Bug with Losing exp while dying~
+Text
+Found the bug. Gladiator's have special code to trans them
+back to their hall when they die, so a glad dies, it
+transes them back to their hall then it goes into the code
+to check if they should loose exp. The exp code checked
+the victim's room to see if it was no_die. However the victim
+has already been transed. Changed to look at the room of the
+killer not the victim. in with next reboot.
+~
+Sender  Rage~
+Date    Tue Aug 22 05:57:08 2000~
+Stamp   966949028
+To      all~
+Subject Addition to sanction~
+Text
+Small addition made to sanction command.  You can now
+do "sanction <player> show" to see what sanctions
+are in place against a given player.  Of course this
+only works for those in your clan.
+~
+Sender  Rage~
+Date    Wed Aug 23 07:26:31 2000~
+Stamp   967040791
+To      immortal~
+Subject olist~
+Text
+The "olist" command works now.  I know there is a bug with how it
+it prints out what containers carry, but I'll fix that later.
+
+For those that may not know what olist does, it's
+a command to list *every* object a person is carrying.  It will show you
+their eq worn, their inventory, and the contents of all
+their containers.  It will even get what is in a container contained in
+another container, and so on down.
+
+Olist does not tell you where the objects are conttained, you can do that with 
+stat if you need that information.
+
+You may use this command on mobs as well as players.
+
+Please report any bugs immediately.
+
+Rage.
+~
+Sender  Rage~
+Date    Fri Aug 25 10:06:12 2000~
+Stamp   967223172
+To      immortal~
+Subject new field in stat obj~
+Text
+As of next reboot, stat obj will show you who last owned an item.
+This field only changes when a PC drops/gives/otherwize loses an item.
+Hopefully,  this will assist us in tracking where various items 
+go to, and come from
+
+Please report any bugs to Rage ASAP.
+~
+Sender  Rage~
+Date    Mon Aug 28 06:35:14 2000~
+Stamp   967469714
+To      all~
+Subject bug fixes~
+Text
+Fixed the following.
+
+Bug with communion allowing people to go into negative sac points
+and still not die.
+
+Saction hall will now transport the victim to recall if they are
+in their hall when sanctioned.
+
+Bug with sneaking mobs(sorta) fixed.  Sneaking mobs *should* be easier
+to see now.  Players sneak hasn't changed.
+
+Bug with hiding in combat fixed.
+
+All goes in with next reboot.
+~
+Sender  Rage~
+Date    Tue Aug 29 09:00:41 2000~
+Stamp   967564841
+To      all~
+Subject new brief toggle~
+Text
+You now have the option to use "brief scan".  When toggled 
+ON, the where/scan command will return only those with the
+same clan/non-clan status as yourself.  IE if you are clanned
+you will see only clanners on where/scan, if you are non-clanned
+you will see only non-clanners.
+
+If you leave brief scan toggled off, where/scan will operate
+exactly as it does now.
+
+NOTE: This change only affects the use of where/scan with no arguments.
+If you "scan <target>", your brief scan toggle is not checked.
+
+Use the "display" command to see what your brief toggles are set to.
+~
+Sender  Rusty~
+Date    Fri Sep  1 20:35:11 2000~
+Stamp   967865711
+To      all~
+Subject Elves natural magic resistance~
+Text
+In the code to check saves versus spells the bonus for elves
+was applied to the saves value after it was already applied to
+a comparison value.  I moved it up a few lines and now elves
+will actually get their magic resistance bonus.
+-Rusty
+~
+Sender  Boogums~
+Date    Mon Sep  4 12:56:13 2000~
+Stamp   968097373
+To      all~
+Subject Mounts~
+Text
+From now on, you will only be able to mount a mount if you
+own it.  Boinga has strict horse-thieving laws and they are
+in affect.
+~
+Sender  Rusty~
+Date    Sun Sep 10 11:23:22 2000~
+Stamp   968610202
+To      all~
+Subject shapemorph~
+Text
+There will be no more shapemorphing into names with punctuation
+in them.  No more using {{x in names and people's names with
+a '.' at the end.  Sorry, to many abuses being made.  This
+leaves letters, numbers and spaces as the only valid names.
+
+Also, if you know the morpher's real name you can still hit/get
+them by their real name.  (Though this may change.)
+-Rusty
+~
+Sender  Rusty~
+Date    Mon Sep 11 13:23:04 2000~
+Stamp   968703784
+To      immortal~
+Subject Few small things~
+Text
+Object 10323 changed from type "none" to type "trash".
+Exit to 22595 north from room 730 (BB staging area) removed
+as it pointed to a room in Palibar's now disconnected area.
+The chance for a flag such as Favored, Holy or Vorpal to randomly
+appear went up from  about 1 in 100 to 1 in 333 repops.
+-Rusty
+~
+Sender  Rusty~
+Date    Mon Sep 11 13:29:34 2000~
+Stamp   968704174
+To      immortal~
+Subject Myrmidon kit no longer available to yinns~
+Text
+I've yanked the yinn race from those able to take myrmidon.
+We'll figure out what to do with those who already have this
+combo shortly.  Do not speak a word of this to mortals until
+a course of action for those with the combo is decided upon.
+-Rusty
+~
+Sender  Rusty~
+Date    Mon Sep 11 15:23:57 2000~
+Stamp   968711037
+To      all~
+Subject EXP loss in glads fixed~
+Text
+I moved the exit/return() up in the damage function so a death
+in a gladiator will not knock you down 2/3 of the way back to
+the start of your level in EXP.
+-Rusty
+~
+Sender  Rusty~
+Date    Tue Sep 12 09:02:07 2000~
+Stamp   968774527
+To      all~
+Subject Primary weapons special attacks coming on secondary weapon hits~
+Text
+All fixed, each weapon will give it's appropriate special attacks.
+Sorry for the error, *lick* Boogums if it bothered you terribly.
+-Rusty
+~
+Sender  Rage~
+Date    Wed Sep 13 07:14:34 2000~
+Stamp   968854474
+To      immortal~
+Subject a couple little changes~
+Text
+Imms with holylight on, will now see Red/Gold aura, like
+you do when affected by detect evil/good.  Also, with holylight
+you'll see spell effects like you would with detect magic.
+
+Also added in a message for players in the room to see
+someone get caught in a snare trap.
+
+Finally, adjusted morph panic damage *slightly*.
+
+I'd appreciate it if that last change didn't become public
+knowledge, since I'll be tweaking it further and 
+further over the next months.
+
+Rage.
+~
+Sender  Rage~
+Date    Wed Sep 13 07:16:48 2000~
+Stamp   968854608
+To      all~
+Subject sneak~
+Text
+Some more adjustments to sneak, hopefully it will
+work a little better now, and not be an
+improved version of hide, like it is now.
+
+If this doesn't work out, look for more changes to sneak over 
+the next few weeks.  We'll be playing with this until it's done right.
+This becomes effective next reboot.
+~
+Sender  Boogums~
+Date    Fri Sep 15 21:31:51 2000~
+Stamp   969078711
+To      all~
+Subject Knight Kit~
+Text
+As of the next Beroot, the knight kit will be available to clerics
+and paladins.  However, kcharge for them requires that they are wielding
+a flail.
+Please let me know if there are any problems encountered with
+this kit. Thanks
+ttfn
+Boogums
+~
+Sender  Boogums~
+Date    Fri Sep 15 22:45:38 2000~
+Stamp   969083138
+To      all~
+Subject new weapons added~
+Text
+I added a couple more weapons to help the young inspiring knights out.
+ttfn
+Boogums
+~
+Sender  Poquah~
+Date    Sun Sep 17 13:32:36 2000~
+Stamp   969222756
+To      all~
+Subject Gladiator Sac Points~
+Text
+Sac points are restore when you die or win.
+~
+Sender  Boogums~
+Date    Sun Sep 17 20:19:13 2000~
+Stamp   969247153
+To      all~
+Subject MegaCity-1~
+Text
+Howdy doodly do everyone,
+MC1 has been revamped.  Many thanks to Firestorm and Randal
+for working together on this one.  A new entrance near
+the southgate of NT has been added for those who do not
+want to cross the sands of sorrow.
+Be sure to look for more of your favorite but less travelled
+areas to be getting make overs as well.
+ttfn
+Boogums
+~
+Sender  Poquah~
+Date    Sun Sep 17 22:20:25 2000~
+Stamp   969254425
+To      all~
+Subject Group Colored~
+Text
+Same idea as prompt, color changes in group on hp,mana,mv based
+on current state. Enjoy.
+~
+Sender  Rusty~
+Date    Tue Sep 19 20:41:07 2000~
+Stamp   969421267
+To      immortal~
+Subject nodrop and noremove objects~
+Text
+You as an IMM may now remove noremove EQ from yourself
+Morts may now give an IMM a nodrop object
+Abuse either of these abilities and I'll deny you (as with any other
+abuses, ask Falcor).  This is to aid restringing mostly.
+
+Tomorrow I'll be coding a skill that removes a noremove item from
+a character in the same room as you and puts it in your inventory.
+Again this will be to assist with restrings.
+-Rusty
+~
+Sender  Boogums~
+Date    Tue Sep 19 21:15:54 2000~
+Stamp   969423354
+To      all~
+Subject Helpfile update~
+Text
+Modified the pkill and outcast helpfiles.
+They should be correct now
+~
+Sender  Poquah~
+Date    Wed Sep 20 15:56:31 2000~
+Stamp   969490591
+To      all~
+Subject Charmies and Last Attacked By~
+Text
+If your charmie kills a clanner now
+it will check your last_attacked_by
+and if its that person it will clear
+your last_attacked_by.
+
+As well your charmies will now take
+victim's flags.
+
+No more using charmies to do your dirty
+work and then keep doing it over and over.
+~
+Sender  Rusty~
+Date    Tue Sep 26 12:11:22 2000~
+Stamp   969995482
+To      immortal~
+Subject explode <bag>~
+Text
+while(!victim){
+num = number_range (0,count);
+for ( count = 0; (count < num) && victim; count++ )
+
+So count was always the same as a MAX value for the iterations
+of the for() loop hitting the first MOB that meets the level
+requirements and decrimenting count.  On the next itteration of
+the while() loop num shrinks to something between 0 and that
+MAX taken to hit the first MOB.  This means looping through the
+char_list is even more likely to hit that first MOB that meets
+the level range again on the next loop, piling the objects onto 1 MOB.
+
+I'm going to chang it to randomly generate MOB vnums (like spell_teleport()
+does for room VNUMS) and then see if that MOB meets the level
+range qualifications.  If it does then run through the char_list
+to see if an instance of that MOB VNUM exists and give it the
+object.  Perhaps it'll even count the number of instances and
+place the object on a random one of those VNUM MOBs instead
+of the first instance match.  It's a bit more CPU intensive
+but we'll get random disbursement of objects on an explode.
+-Rusty
+
+P.S. I'll let you know when it's done.
+Line 7 s/decrimenting/incrementing/
+~
+Sender  Rusty~
+Date    Wed Sep 27 08:14:35 2000~
+Stamp   970067675
+To      immortal~
+Subject explode command works~
+Text
+I fixed the explode command.  You can now put a bunch of stuff
+in a bag and 'explode bag # #' using a level range for the 2
+numbers.  The objects will be randomly placed on MOBs within
+the level range specified.  
+
+The rewrite of the routine is VERY CPU intesive so don't screw
+around with it just for fun.  But, use it to spread out items
+onto MOBs for a quest.
+Enjoy!
+-Rusty
+~
+Sender  Boogums~
+Date    Sun Oct  1 12:12:04 2000~
+Stamp   970427524
+To      all~
+Subject kcharge modified~
+Text
+Modified kcharge so it's a bit "smarter" in sending you
+out of the room, when you really really fail a kcharge attack.
+ttfn
+Boogums
+~
+Sender  Poquah~
+Date    Sat Oct  7 14:44:10 2000~
+Stamp   970955050
+To      all~
+Subject Dual Wield/Alignment fixed~
+Text
+bug allowing you to change your alignment, dropping your primary
+then it doesnt move your secondary to primary has been fixed.
+~
+Sender  Poquah~
+Date    Mon Oct  9 14:22:18 2000~
+Stamp   971126538
+To      immortal~
+Subject Sanctions~
+Text
+Sanctions will now (after a reboot) show on wiznet, same as penalties, so
+if you see 'freeze' and things like that you'll see sanctions.
+~
+Sender  Boogums~
+Date    Mon Oct  9 21:15:58 2000~
+Stamp   971151358
+To      all~
+Subject swarm spell~
+Text
+I made some changes to how the spell works.
+You will no longer be able to stack affects from different swarm
+attacks.  However, you can now cast the spell in combat.
+And while the various affects won't take, if the swarm is a damage
+doing swarm, the damage will be done.
+Also made some cosmetic changes to some of the messages, and
+added some additional messages.
+ttfn
+Boogums
+~
+Sender  Boogums~
+Date    Thu Oct 12 11:59:27 2000~
+Stamp   971377167
+To      all~
+Subject charm animal~
+Text
+made a slight change to the cost of this spell
+enjoy
+ttfn
+Boogums
+~
+Sender  Poquah~
+Date    Thu Oct 12 15:07:55 2000~
+Stamp   971388475
+To      all~
+Subject Killing the Same Player you just killed~
+Text
+Killing the player in your last_kill no longer gives you exp, go find
+a new target, no leveling off of spam kills.
+~
+Sender  Poquah~
+Date    Thu Oct 12 16:25:16 2000~
+Stamp   971393116
+To      all~
+Subject Drag~
+Text
+Rewrote the drag code a bit since once again people
+found a way to circumvent what it was intended for.
+
+You should be able to drag anyone in your clan.
+You should be able to drag anyone in your group
+(unless that person is charmed).
+
+Happy dragging...
+~
+Sender  Poquah~
+Date    Sat Oct 14 16:44:21 2000~
+Stamp   971567061
+To      all~
+Subject Limit on Gladiator Betting~
+Text
+Well it seems some people will go to any lengths
+to cheat. I've just scanned various logs and found
+that people were betting upwards of 15000 gold on
+gladiators, and winning sometimes as much as 188000
+gold, and this isnt a one time occurance. Throw this
+in with a recent event where an Immortal found people
+rigging the event to ensure the winner (because everyone
+had bet heavily on him), and recent clans raking in
+huge clan upgrades it was easy to see where the problem
+lied...
+
+So rather then rip out a nice feature of the game,
+I've thrown a limit on betting to 500 gold. 
+
+Gladiator matches weren't put in to make people rich,
+the betting was just something fun, sorry to see it
+got abused.
+~
+Sender  Rage~
+Date    Mon Oct 16 12:27:36 2000~
+Stamp   971724456
+To      all~
+Subject Couple clan things~
+Text
+Sanction skill now works for Demise, Warlock and Avarice.
+For now, you can only sanction all the clan skills your clan
+possesses.  I'm working out a syntax to distinguish between skills
+when someone gets around to buying a second clan skill.
+
+Bug with indulgence spell and vampiric weapons finally fixed.
+
+~
+Sender  Poquah~
+Date    Mon Oct 16 15:13:49 2000~
+Stamp   971734429
+To      all~
+Subject Brief toggles~
+Text
+New brief toggle, for character descriptions.
+'brief chardesc' , read 'help brief'.
+~
+Sender  Poquah~
+Date    Mon Oct 16 16:35:44 2000~
+Stamp   971739344
+To      all~
+Subject Last Attacked By~
+Text
+There is now a timer before your last attacked by
+is cleared after you kill the lowbie who attacked you.
+You now have 2 ticks to attack them again, allowing
+you to defend the corpse for a period of time.
+
+After 2 ticks, they are removed from your last attacked by
+and you can not attack them again.
+~
+Sender  Rusty~
+Date    Wed Oct 18 10:06:25 2000~
+Stamp   971888785
+To      all~
+Subject kcharge delay~
+Text
+Added the appropriate delay for a kcharge success, twas missing.
+-Rusty
+~
+Sender  Poquah~
+Date    Wed Oct 18 16:36:25 2000~
+Stamp   971912185
+To      all~
+Subject Warlock Enemy~
+Text
+New line to your score that you may see if you attack
+a Warlock:
+
+Enemy of: Warlock
+
+You are open season for Warlocks if you are an enemy,
+you remain an enemy until you are killed by a Warlock.
+You become an enemy by attacking or stealing from a
+Warlock.
+
+For Warlocks, they can do 'enemy' to see a list of all
+enemies currently online.
+
+Warlock /5's can also remove a char from the enemy list.
+
+*See 'help enemy' for more info*
+~
+Sender  Poquah~
+Date    Mon Oct 23 15:58:13 2000~
+Stamp   972341893
+To      all~
+Subject Clan Enemy Codes~
+Text
+Posse and Zealot Enemy code done... Here is a recap
+of the enemy code...
+
+If you are not a warlock and you attack a warlock
+you will be flagged a warlock enemy, you will be
+unflagged when you die to a warlock.
+
+If you are not a zealot but you are pledged to the
+almighty and you attack a zealot you will be flagged
+a zealot enemy, you will be unflagged when you die to
+a zealot.
+
+If you are not a posse and you are not flagged and you
+attack a posse you will be flagged a posse enemy, you 
+will be unflagged when you die to a posse.
+
+/5's in the clans can remove enemies by doing a 
+'enemy charname'. All members of a clan can see their
+enemies online by doing a 'enemy'. See Help Enemy for
+more info. Clan Help files have been adjusted to take
+into affect enemies.
+~
+Sender  Boogums~
+Date    Sun Nov 19 11:05:58 2000~
+Stamp   974660758
+To      all~
+Subject Mirror Image and Warhorses~
+Text
+Good Morning,
+You will no longer be able to cast mirror image while mounted on a warhorse.
+This was done to keep people from getting multiple kcharge attacks.
+In as of next beroot.
+~
+Sender  Poquah~
+Date    Mon Nov 27 08:41:29 2000~
+Stamp   975343289
+To      all~
+Subject Ending Glad puts you to Sleep~
+Text
+When you are killed or win a gladiator you will
+now be sent back to your hall sleeping, this will
+prevent any after the event attacks accidentally
+against your own clanmates etc, who pop in the same
+room as you.
+~
+Sender  Poquah~
+Date    Mon Nov 27 09:37:34 2000~
+Stamp   975346654
+To      all~
+Subject Ventriloquate and Mirror Image~
+Text
+Fixed the switched operator that was causing 
+Ventriloquate and Mirror Image to 'utters'.
+
+Was an interesting one, the only time it wouldnt
+'utters' is if you cast both spells at the same
+time, and if you can do that, well power to you.
+
+These two spells should no longer 'utters'.
+~
+Sender  Poquah~
+Date    Mon Nov 27 15:28:06 2000~
+Stamp   975367686
+To      all~
+Subject Colour List in Notes for Clans and Matook~
+Text
+Notes will show up on a list coloured if you
+are a member of a clan or Matook that it is 
+addressed to.
+
+They will show up the same Magenta colour
+as those notes addressed to you.
+~
+Sender  Rusty~
+Date    Tue Dec 12 13:02:17 2000~
+Stamp   976654937
+To      all~
+Subject Draggin inside clan halls~
+Text
+You will no longer be able to drag your clanmates around
+inside your clan hall.  This means when you drag them into
+hall saving their ass they'll get stuck just inside the door.
+This chang was made to combat hit and run tactics by spamchars
+and such.
+
+If you don't like it you can thank Borb and his buddies for
+pressing the issue.
+-Rusty
+~
+Sender  Rusty~
+Date    Tue Dec 12 14:51:30 2000~
+Stamp   976661490
+To      all~
+Subject Remort VULN bug squished~
+Text
+Subject says it all...
+~
+Sender  Rusty~
+Date    Thu Dec 14 14:44:36 2000~
+Stamp   976833876
+To      all~
+Subject Sanctioning ability on demoted clanners~
+Text
+If you were allowed to sanction as a /4 in your clan and you
+get ranked to 3 or lower, outcasted or outcast yourself your
+ability to still sanction will now be removed.
+-Rusty
+~
+Sender  Rusty~
+Date    Thu Dec 14 16:24:33 2000~
+Stamp   976839873
+To      all~
+Subject Final vuln/resist bug goes *SQUISH*~
+Text
+There was a check for the RES_LIGHT (resist light) flag in check_immune()
+which has the exact same flag value as MHS_WARLOCK_ENEMY.  So
+all Warlock enemies were resistant to all damage types.  All
+fixed now.  See, no VULN bug, but a RES bug...  ;-)
+-Rusty
+~
+Sender  Boogums~
+Date    Wed Dec 20 21:40:25 2000~
+Stamp   977377225
+To      all~
+Subject Necromancers and the undead~
+Text
+*cheer* you can now be a little bit more evil when summoning dead
+ttfn
+Boogums
+~
+Sender  Poquah~
+Date    Sun Dec 24 02:07:45 2000~
+Stamp   977652465
+To      all~
+Subject Outcasts~
+Text
+Outcasts are now sent to the Tomb of Matook upon
+outcasting instead of recall, no more snagging an unsuspecting
+sleeping victim that way.
+~
+Sender  Boogums~
+Date    Sun Dec 24 10:08:33 2000~
+Stamp   977681313
+To      all~
+Subject Ordering while in wraithform~
+Text
+You can no longer order charmies to do stuff while in wraithform.
+~
+Sender  Rusty~
+Date    Mon Jan  8 15:22:35 2001~
+Stamp   978996155
+To      all~
+Subject Deity pledging and gifts~
+Text
+First, I fixed the "bug" where you have to relog in order to
+get your deity gifts after being pledged to a deity for 1 hour.
+*cheer*
+I also added that you can only switch deities after this affect
+has kicked in.  The new deity doubts the tenacity of your pledge
+when changing after just having changed within the last hour.
+The only people this should really affect are those who try
+to screw with Zealot by pledging to and away from the Almighty
+in order to avoid being attacked or getting on their enemy list.
+
+Please post any problems with this change in the bug note spool.
+-Rusty
+~
+Sender  Poquah~
+Date    Fri Jan 19 17:08:00 2001~
+Stamp   979952880
+To      all~
+Subject Charm Person~
+Text
+Charming mobs will now remove spec_executioner and spec_guard
+Meaning you wont be able to go around the pkill limit by charming mobs
+then nofollowing them. 
+
+Killers, thieves and thugs rejoice!
+~
+Sender  Poquah~
+Date    Tue Jan 23 12:05:13 2001~
+Stamp   980280313
+To      all~
+Subject Reclassing~
+Text
+Mages,clerics,warriors,thieves and elementalists (what use to be 
+"old classes") can now reclass again. There is no penalty etc etc
+in fact if you think about it, it gives you no benefit, its the
+same as deleting and recreating.
+
+However it may not always stay that way, eventually the "old classes"
+will be bulked up and then reclassing will again come back into the
+game for all classes, this is just the first step.
+
+So if you are one of the above classes and really bored you can
+reclass, but its just the same as typing delete and recreating.
+~
+Sender  Rusty~
+Date    Wed Jan 24 11:36:59 2001~
+Stamp   980365019
+To      all~
+Subject Ogre, Giant and RockBiter MAX DEX~
+Text
+In an effort to correct these 3 race's most significant problem
+the maximum their DEX stat can be raised to with +dex equipment,
+spells or other bonuses has been raised.  Their racial base
+MAX has not been raised.
+
+Please post a bug note or onote discussing any problems.
+-Rusty
+~
+Sender  Rusty~
+Date    Mon Jan 29 19:39:53 2001~
+Stamp   980825993
+To      all~
+Subject Samurais in the Thieve's Guild~
+Text
+You have to use the Mage guild now...  No more dirty tricks
+on unsuspecting thief types.
+-Rusty
+~
+Sender  Rusty~
+Date    Tue Jan 30 08:06:54 2001~
+Stamp   980870814
+To      all~
+Subject RB Ogre and Giant DEX bonus~
+Text
+I made a mistake an miscalculated.  The bonus was not supposed to get
+them up to 25.  I've bumped it down, sorry about that.
+-Rusty
+~
+Sender  Rusty~
+Date    Fri Feb  9 14:24:16 2001~
+Stamp   981757456
+To      all~
+Subject Last attacked by bug fixed~
+Text
+The problem with the timer that clears your "last attacked by"
+never ticking down and clearing has been fixed.  That high level
+character you attacked 2 weeks ago that no one low level has gone
+after since then isn't going to still be able to hunt you down.
+-Rusty
+~
+Sender  Rusty~
+Date    Fri Feb  9 14:43:31 2001~
+Stamp   981758611
+To      all~
+Subject Skill Point timers~
+Text
+To encourage people to not have huge periods where they sit waiting
+for their skill point timer to reset I changed the model a bit.
+Now the timer only lasts 6 ticks, but you can only gain 2 or 3
+skill points until your timer is set.  This should make things
+more flowing without making the gains unlimited.
+-Rusty
+~
+Sender  Rusty~
+Date    Fri Feb  9 14:50:10 2001~
+Stamp   981759010
+To      all~
+Subject Tick lengths~
+Text
+The help file has been updated to more accurately reflect the behavior
+of tick lengths.  I also adjusted the settings on the function
+that randomize tick lengths.
+-Rusty
+~
+Sender  Rusty~
+Date    Sat Feb 10 06:23:02 2001~
+Stamp   981814982
+To      all~
+Subject No more fear'ing shopeepers~
+Text
+The Mummy fear skill will no longer work on shopkeepers.
+-Rusty
+~
+Sender  Rusty~
+Date    Tue Feb 13 12:37:59 2001~
+Stamp   982096679
+To      all~
+Subject NoOutOfRange toggle~
+Text
+Tired of that nasty shapeshifter tricking you into attacking him when
+he's 20 levels higher than you?  No problem, just set your "nooutofrange"
+toggle and you won't attack anyone more than 8 levels higher than you.
+
+I'm sure you can find other good uses for this one, too.
+Enjoy!
+-Rusty
+~
+Sender  Rusty~
+Date    Tue Feb 20 10:44:04 2001~
+Stamp   982694644
+To      all~
+Subject Renice, CPU lag~
+Text
+I just commented out the self renice to 4 call for the game port.
+We previously ran on a machine shared with others.  So, to be a good
+neighbor we reniced our process priority to 4 (0 is normal) to hog less
+CPU time from everyone else suing the machine.  Now we run on a machine
+that no one else uses so I commented out the function call.  This should
+speed things up a bit, specifcally addressing TICK lag.
+-Rusty
+~
+Sender  Rusty~
+Date    Sat Mar  3 07:43:19 2001~
+Stamp   983634199
+To      all~
+Subject orb of suprise~
+Text
+If you are doing damage to someone your orb of suprise will blow.
+No more preventing someone from attacking you while fighting with
+a orb that is supposed to keep you out of combat.
+-Rusty
+~
+Sender  Rusty~
+Date    Mon Mar  5 14:45:48 2001~
+Stamp   983832348
+To      all~
+Subject Rockbiters~
+Text
+Please see the 'help rockbiter' file.  Also, the max dex is 21 not 22
+now.
+~
+Sender  Rusty~
+Date    Mon Mar  5 14:47:51 2001~
+Stamp   983832471
+To      all~
+Subject Skill Point gain cycle~
+Text
+We're going to try another set of numbers.  This time you can gain
+12 to 13 Skill Points in 30 ticks (about 22 minutes).
+~
+Sender  Rusty~
+Date    Tue Mar  6 13:53:58 2001~
+Stamp   983915638
+To      all~
+Subject NoOutOfRange set at creation~
+Text
+New characters will now be created with the No Out of Range toggle
+turned on by default.
+~
+Sender  Poquah~
+Date    Sat Mar 10 08:43:42 2001~
+Stamp   984242622
+To      all~
+Subject Picking up corpses~
+Text
+You can now pick up a corpse if it is empty
+regardless of the same clan/group rules.
+
+This allows you to make some trophies from your kills.
+~
+Sender  Rusty~
+Date    Wed Mar 14 13:58:55 2001~
+Stamp   984607135
+To      all~
+Subject kcharge delay (WAIT STATE)~
+Text
+Kcharge delay repositioned to before the damage/attack happens
+and set to 2 rounds to be more in line with similar skills delay
+(ie. backstab).
+-Rusty
+~
+Sender  Poquah~
+Date    Thu Mar 15 11:15:44 2001~
+Stamp   984683744
+To      all~
+Subject Returning from AFK~
+Text
+There is now a counter on your afk messages received,
+so when you return from afk it tells you how many
+messages you have waiting.
+
+This feature brought to you by the Boinga Answering Service.
+~
+Sender  Poquah~
+Date    Mon Mar 19 13:14:17 2001~
+Stamp   985036457
+To      all~
+Subject Make Bag and Item Count~
+Text
+A minor bug in make bag. Bags that were made were not
+removing the old item count of the corpse, if you logged
+out and back in it would fix it. I have fixed it so it 
+removes the number from the corpse
+
+If you have noticed that the bag does not take add to the
+count of your items, its not a bug, containers do not
+add to the number of items you are carrying. 
+
+So you can carry all the hides of corpses you want.
+~
+Sender  Rusty~
+Date    Wed Mar 21 11:51:30 2001~
+Stamp   985204290
+To      all~
+Subject # of messages waiting in AFK prompt~
+Text
+The AFK prompt will now include the number of messages you have
+waiting for you.
+-Rusty
+~
+Sender  Rusty~
+Date    Sun Apr  8 20:07:21 2001~
+Stamp   986785641
+To      all~
+Subject Corpse looting changes~
+Text
+In order to prevent full looting regularly pissing off everyone
+without completely making a wussy place to play some changes to
+looting have been made.  We'll try them out for a while and see
+how they make things.
+
+1) Your fellow clan members will be able to loot your corpse without
+needing to be grouped with you.
+2) Your groupmate(s) and clanmate(s) will be able to 'loot all corpse'
+now allowing a much better chance to save your gear for you.
+3) Only 4 non-"treasure"[*] items can be looted from your corpse
+before it becomes "picked clean".  The counter increments each
+time someone not in your clan or group loots a non-"treasure"[*]
+Lets see how this works out.  We'll adjust it if problems arise.
+
+[*]  Treasure items, which can be looted unchecked by the counter:
+Money (gold/silver), gems (shards/eggs), pills, potions, scrolls,
+staves, wands, keys, trash, grenades, potion components, traps
+and jewelry.
+-Rusty
+~
+Sender  Rusty~
+Date    Sun Apr  8 20:15:14 2001~
+Stamp   986786114
+To      all~
+Subject loot treasure~
+Text
+Oh yeah, bags too...  :)
+~
+Sender  Rusty~
+Date    Mon Apr  9 12:02:11 2001~
+Stamp   986842931
+To      all~
+Subject Trading nodrops in mudtrader~
+Text
+You may now trade nodrop items in mudtrader facilitating the tranfer
+of items you got during a corpse retrieval using 'loot all'.
+This will also help in enchanting nodrop weapons.
+-Rusty
+~
+Sender  Rusty~
+Date    Sun May 20 16:27:12 2001~
+Stamp   990394032
+To      all~
+Subject Looting corpse while wraithed~
+Text
+No more lotting your corpse while wraithed.  Everyone takes their
+lumps in solid form when picking things up.
+-Rusty
+~
+Sender  Rusty~
+Date    Sun May 20 16:28:52 2001~
+Stamp   990394132
+To      all~
+Subject Necro bonus casting levels bug squished~
+Text
+*SQUASH*  Naughty Boogums put an = where a == belonged.  All fixed
+now.  Necros should only get their align based casting level bonus
+on Necro spells now...
+-Rusty
+~
+Sender  Rusty~
+Date    Sun May 20 16:47:33 2001~
+Stamp   990395253
+To      all~
+Subject Nailing traps while wraithed~
+Text
+I fixed it so that those in wraithform will not set off traps.
+-Rusty
+~
+Sender  Boogums~
+Date    Mon May 21 21:22:04 2001~
+Stamp   990498124
+To      all~
+Subject More wraith form bugs fixed~
+Text
+As of next beroot, you will no longer be able to give or
+recieve items in wraithform.  Sorry for the oversight.
+ttfn
+Boogums, silly code_bunny.
+ps
+You were never able to give items in wraithform, it's the
+receiving that was fixed.
+~
+Sender  Boogums~
+Date    Tue May 22 21:48:02 2001~
+Stamp   990586082
+To      all~
+Subject Trading while in wraithform~
+Text
+Can't do that anymore either :)
+~
+Sender  Poquah~
+Date    Wed May 23 20:50:45 2001~
+Stamp   990669045
+To      all~
+Subject Corpse Looting CHanges (mainly for nonclan corpses)~
+Text
+Clan vs. Nonclan looting of corpses has been split a bit.
+
+If the corpse is a clan corpse then anyone in the person's
+group or clan can loot the corpse in one command (same as
+it was).
+
+If the corpse is a nonclan corpse, the person must turn
+off their noloot flag before anyone can loot the corpse,
+including groupmates. (this is the change).
+~
+Sender  Poquah~
+Date    Thu May 24 09:48:15 2001~
+Stamp   990715695
+To      all~
+Subject Janitor type mobs~
+Text
+Mobs should not be able to pick up corpses anymore.
+No more using the mobs to quickly get a full loot.
+~
+Sender  Guerrand~
+Date    Thu May 24 20:40:20 2001~
+Stamp   990754820
+To      immortal~
+Subject Cha-cha-cha-changes~
+Text
+
+1. You can now give things to mortals even if they can't see the object
+you're trying to give them.  This includes invis items and stuff on you
+while you're wizi.
+
+2. I added a fourth magelab - 'magelab superior.'  This isn't necessarily
+for clan halls or anything, but I plan on using it later in Altirin.
+This might be a good "secret" type room to add to areas.  Currently it
+has no real affect but to improve alchemist's chances of making potions.
+It doesn't help enchanters in any way.
+
+I think that's it.  Oh, and the Yinnish monk is a bit tougher now :)
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Thu May 24 20:46:20 2001~
+Stamp   990755180
+To      all~
+Subject Better Cocktails and Phatter Monkz!~
+Text
+
+The damage on molotov cocktails has been increased across the board.
+
+The AI for the kaethan monk in Altirin has been altered.  Some of his
+priorities for when he decides to do things have been altered.  Not
+necessarily to make him any tougher, just different.  Try him out if
+you're bored, see if you notice anything different.
+
+-Guerrand
+~
+Sender  Boogums~
+Date    Thu May 24 21:28:47 2001~
+Stamp   990757727
+To      all~
+Subject Trading in Wraithform~
+Text
+As of next reboot, you should not be able to trade while
+in wraithform.  
+ttfn
+Boogums "It's either make corpses or crash the game" McDugal
+~
+Sender  Rusty~
+Date    Sun May 27 15:16:19 2001~
+Stamp   990994579
+To      zealot immortal~
+Subject Zealot clan skill "annointment"~
+Text
+Your clan skill is completed and will be in with the next reboot
+after this note.  It is a spell you cast on yourself.  While affected
+you will not be protected from anything but certain spells, if
+they land, will be sent back upon your attacker by The Almighty.
+The spells are: faerie fire, dispel magic, teleport, blindness,
+change sex, curse, energy drain, plague, poison, slow, weaken, famine,
+feast, fumble, forget, feeblemind, heat metal, charm person, sleep,
+hold person, earthbind, asphyxiate and dust storm.
+
+Enojy!
+-Rusty
+~
+Sender  Rusty~
+Date    Sun May 27 16:00:30 2001~
+Stamp   990997230
+To      all~
+Subject kcharge delay fixed~
+Text
+Ooops, Boogums had the 'kick' skill delay on a sucessful kcharge.
+All fixed, the 2 round delay on success will happen now.
+-Rusty
+~
+Sender  Guerrand~
+Date    Tue May 29 21:23:35 2001~
+Stamp   991189415
+To      all~
+Subject Gargoyles are available~
+Text
+
+A new race is available: gargoyles.
+
+See the help file for details.
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Tue May 29 22:12:08 2001~
+Stamp   991192328
+To      all~
+Subject Gargoyles~
+Text
+
+
+Gargoyle starting stats have been changed to something reasonable.
+They were originally set up before we had customized stats during
+creation.  No longer the case.
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Wed May 30 18:55:06 2001~
+Stamp   991266906
+To      all~
+Subject GIANTS and OGRES!~
+Text
+
+Giants and Ogres rejoice.  Your unique size and distribution of mass
+make you excellent bashers.  Ogres and Giants have a bonus when bashing
+and more easily dispel an 'orb of touch' when bashing.
+
+The dex cap for both ogres and giants has been increased by 1.
+
+The con cap for ogres has been increased by 1.
+
+
+Also, due to their excellent natural fighting abilities, ogres and giants
+pack an extra whallop while using their fists or concussion weapons,
+including maces, flails, or any weapon that does blunt/bash damage.
+
+
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Wed May 30 19:02:20 2001~
+Stamp   991267340
+To      all~
+Subject Gargoyles~
+Text
+
+After gathering feedback from faithful (and outspoken) gargoyle testers,
+the damage-during-the-day thing has been yanked.  Your flags will still
+change during day/night, as will your regen rates.
+
+Gargoyles are also going to get the shizaft on movement gains in general.
+This should be offset slightly by your AFF_FLYING flag.
+
+Thanks to one and all for your feedback.
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Thu May 31 21:13:41 2001~
+Stamp   991361621
+To      all~
+Subject Kits~
+Text
+
+The kit table has been updated to include gargoyles.
+
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Thu May 31 21:36:38 2001~
+Stamp   991362998
+To      all~
+Subject Gargoyles~
+Text
+
+My final change to gargoyles in response to popular request.
+All gargoyles will receive "stone skin" for free.  You can cast it at
+level 5 for old class mage or cleric, level 15 for oldclass
+thief or warrior.
+
+Once you get past a certain level, the AC bonus can get better than -40.
+
+I think that's plenty for Gargoyles, and it more than offsets your flag
+problems and crappy regen.  No further changes will be made.  Your
+suggestions have been appreciated and the best of them have gone into
+this race.
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Thu May 31 21:45:55 2001~
+Stamp   991363555
+To      all~
+Subject Remorts and Gargoyles: This Bud's for You!~
+Text
+
+Putting %t in your 'prompt' line will show you the time of day in 
+Boinga.  Rejoice remorts!  Rejoice gargoyles!
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Thu May 31 22:11:45 2001~
+Stamp   991365105
+To      all~
+Subject Mistform changed.~
+Text
+
+Fixed a bug in mistform.  Previously, I had it using 'affect_strip' to
+yank the mistform affect if the duration fell to 0.  I should have been
+using 'affect_remove.'  Fixed now.
+
+I also added wear-off messages for both the Elementalist and the room
+so everybody is properly informed.
+
+I have also increased the duration of mistform by 10 ticks, but lowered
+the affect of duration on how often it works.
+
+
+Mistform will also be a 24-pulse cast instead of a 12-pulse cast.
+
+Send complaints to Guerrand.
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Thu May 31 23:11:01 2001~
+Stamp   991368661
+To      all~
+Subject Rockbiters and Racial Sizes~
+Text
+
+FYI: The adjustments to damage for your character's size don't work.
+
+This also means rockbiters weren't getting their special rockbiter
+bonus.  This has been fixed, they will now get the bonus.  I have left
+the size adjustments out for now.  We're still playing with it.
+
+-Guerrand
+
+Note: rockbiter hand-to-hand bonus IS there and always has been
+~
+Sender  Guerrand~
+Date    Thu May 31 23:42:32 2001~
+Stamp   991370552
+To      all~
+Subject BUG FIXES and OLC CHANGES~
+Text
+
+Some bug fixes
+
+1. Gargoyle kits should work right now.
+2. Message when mistform wears off has been fixed.
+3. Negative number error in stone skin fixed.
+4. Skill levels for gargoyle stone skin fixed.
+
+Also, there's a few new items in Altirin.
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Fri Jun  1 18:56:22 2001~
+Stamp   991439782
+To      all~
+Subject Altirin~
+Text
+
+The Treebreaker in Altirin now has all the proper keywords.
+rot_death flag was removed as well.
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Sun Jun  3 13:04:16 2001~
+Stamp   991591456
+To      all~
+Subject DEXTERITY~
+Text
+
+Previously, ogres/giants/rockbiters enjoyed a +4 bonus to their DEX.
+This gave ogres a 25 max dex and giants a 24.  This, I and other coders
+felt, was silly.  This bonus has been removed.  For those of you who
+are now furious at me and think your ogre/giant/rockbiter is now
+worthless, I will explain a few things.
+
+1. Your DEX does not affect how often you hit.
+2. The effective difference between your 25 DEX AC and your 20 DEX AC
+is going to be about 14 AC.  In hitroll terms, this means a character
+with the same hitroll as before will have a +5% chance to land attacks
+on you compared with before.
+
+How is this possible?  Armor class that is sufficiently good is curved.
+And majorly curved.  Curved worse than damage and casting levels, which
+are already curved twice.  After applying the curve, the difference
+between a 20 DEX and a 25 DEX is about 14 AC, and when you factor in
+the way that armor class is used to calculate whether or not you get
+hit, that 14 translates into +1 on a 20 point scale, or 5%.
+
+I will continue to examine the importance of DEX in skills and make
+adjustments appropriately.  DEX should not be the be-all end-all stat
+in pkilling.
+
+-Guerrand
+
+PS: Ogres, your dex should cap at 21 now.  Giants at 20.
+~
+Sender  Guerrand~
+Date    Sun Jun  3 13:27:23 2001~
+Stamp   991592843
+To      all~
+Subject DWARF DEX~
+Text
+
+Max train on dwarf dex is now 16 instead of 15.
+
+-Guerrand
+~
+Sender  Guerrand~
+Date    Sun Jun  3 13:45:45 2001~
+Stamp   991593945
+To      all~
+Subject HEX~
+Text
+
+Mummy 'hex' will now do 0 damage in addition to the affects.  This is
+to kick in the combat engine to prevent abuse.  If you don't know I
+mean, then this won't change your combat tactics with hex in any way.
+If you do know what I mean, you knew about this bug and should have
+reported it.
+
+Kudos to one mortal to who did step up and point it out.
+
+-Guerrand
+~

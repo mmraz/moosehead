@@ -1,0 +1,61 @@
+#AREA
+/mud/moosehead/area/bzealot.are~
+bzealot~
+{ All } MHS     Zealot Branch Halls~
+26500 26500
+
+#MOBILES
+#26500
+zealot hall guard enslaved heritic~
+an enslaved heritic~
+An enslaved heritic stands guard here.
+~
+This guard lives to defend Zealot.
+Legend has it, that all guards within these walls were once mortal enemies 
+of the Church, heretics and heathens alike. It was the will of the WLightx 
+that they be not banished from existence or converted, rather put to work
+within the Tower of the YAlmightyx. They are ready to slay or be slain,
+in his name, for only in death might they be forgiven of their sins.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABTV 0 0 0
+40 15 15d10+4000 25d10+2250 3d12+14 pound
+-1 -1 -1 -1
+CEFNU AB 0 0
+stand stand male 0
+AHMV ABCDEF medium 0
+#0
+
+#OBJECTS
+#0
+
+#ROOMS
+#26500
+Zealot Branch Hall~
+If you can read this, it means your clan leader has not submitted
+a new description for this room.  
+~
+0 CDNY 0
+D5
+Exit ~
+door~
+16387 0 18911
+S
+#0
+
+#RESETS
+M 0 26500   1 26500  1	* an enslaved heritic
+D 0 26500   5 16387	* Zealot Branch Hall down
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 26500 spec_zealot_guard   	* an enslaved heritic
+S
+
+#$

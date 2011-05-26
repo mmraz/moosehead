@@ -1,0 +1,1788 @@
+#AREA
+../newareas/alonso.are~
+The lost planes~
+( UC  } Alonso  The lost planes~
+16300 16366
+
+#MOBILES
+#16300
+dog pet fido~
+the crazy little dog~
+A crazy little dog is here to be restrung for quests.
+~
+He looks pretty frisky.  You think you better play with him.
+~
+fido~
+(null)~
+(null)~
+(null)~
+ABH 0 -200 0
+0 0 1d6+4 1d1+99 1d4+0 bite
+10 10 10 10
+0 ABCDEFG 0 0
+stand stand male 0
+0 0 small 0
+#16301
+tree oak~
+the Old Oaktree~
+An old oak tree stands here.
+~
+The old oak look very old and war torn.  You wonder what powers this 
+ancient tree could posses
+~
+human~
+(null)~
+(null)~
+(null)~
+ABF 0 500 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+#16302
+willow black~
+the Black Willow~
+A black willow tree is here.
+~
+The tree look like a willow but its bark is as black as coal.  You feel an
+evil presents from within the tree.  Better leave while you have the chance.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABF 0 -500 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+#16303
+rat plague~
+the plague rat~
+A huge rat stands here.
+~
+~
+fox~
+(null)~
+(null)~
+(null)~
+ACFG JP 0 0
+32 0 10d10+1000 32d9+100 4d6+9 bite
+-10 -10 -10 4
+EKU LQ 0 0
+stand stand none 0
+H BGI medium 0
+F aff Z
+F par QV
+#16304
+man lifeless~
+The shell of a man~
+A man lies here looking like a shell of his former self.
+~
+The man looks like he was once a mighty warrior.  Someone or something has
+drained him of all life and experience.  You wonder if you should start going
+back home.
+~
+giant~
+(null)~
+(null)~
+(null)~
+ABH J 0 0
+33 0 10d10+1100 16d9+100 6d4+10 punch
+-11 -11 -11 5
+EF 0 0 0
+stand stand none 0
+I 0 large 0
+F res HI
+F vul J
+F for V
+#16305
+man old soulkeeper~
+The soulkeeper~
+The Soulkeeper looks very old and very wise.
+~
+He is fat and has a content although watchful look on his face.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABV 0 900 0
+23 0 1d1+999 1d1+99 1d8+22 slap
+-15 -15 -15 -15
+AF ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#16306
+guard~
+the guard~
+The guard stands here waiting for you to make your move.
+~
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFT 0 -600 0
+40 0 15d10+1850 20d9+100 4d8+13 punch
+-13 -13 -13 5
+CEFU 0 0 0
+stand stand male 4000
+0 0 medium 0
+#16307
+priest~
+the priest~
+The priest stands here making an offering.
+~
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQ 0 -1000 0
+40 0 15d10+1850 20d9+100 4d8+10 punch
+-13 -13 -13 5
+FNU 0 C 0
+stand stand male 4000
+0 0 medium 0
+#16308
+apprentice~
+the apprentice~
+The apprentice stands here practicing summon.
+~
+~
+human~
+(null)~
+(null)~
+(null)~
+AR TV -700 0
+32 0 10d10+1000 32d9+100 4d6+5 punch
+-10 -10 -10 4
+FINU 0 0 0
+stand stand female 3000
+I 0 medium 0
+#16309
+familiar Ykatoobu~
+the familiar~
+The familiar looks at you with intelligent eyes.
+~
+~
+cat~
+(null)~
+(null)~
+(null)~
+ABS J 0 0
+20 0 3d9+333 3d9+100 4d4+6 claw
+-5 -5 -5 0
+B B 0 0
+stand stand female 2000
+0 0 medium 0
+F aff Z
+#16310
+master summoner~
+the master summoner~
+The master summoner stands here talking to his familiar.
+~
+~
+human~
+(null)~
+(null)~
+(null)~
+ABR TV -900 0
+50 1 50d10+4500 10d10+100 4d10+15 punch
+-25 -25 -25 -15
+EFNU 0 0 0
+stand stand female 5000
+0 0 medium 0
+F par GHIJK
+#16311
+guard~
+the guard~
+A guard is here sharpening his weapon.
+~
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFT 0 -600 0
+40 0 15d10+1850 20d9+100 4d8+13 punch
+-13 -13 -13 5
+CEFU 0 0 0
+stand stand male 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#16300
+oak chair seat~
+a comfortable oak chair~
+~
+~
+furniture O 0
+2 100 BE 100 100
+0 0 0 P
+E
+chair~
+It looks very soft and very comfortable.  Kinda makes you want to get in it
+and spin around.
+~
+#16301
+table oak~
+an oak table~
+A large round table if positioned in the center of the room.~
+wood~
+container 0 0
+34 ABCD 16306 20 100
+0 0 0 G
+E
+drawer~
+You notice a keyhole in the drawer.
+~
+E
+table~
+The table look as if it were made of one piece of oak.  You
+wonder what master craftsman could have made it.
+~
+#16302
+A contract with the soul keeper~
+a contract~
+A contract lies here written on parchment.~
+oldstyle~
+scroll AEGH AO
+40 'dispel good' 'protection good' 'withstand death' ''
+45 50 3600 P
+E
+contract~
+Your head swoons has you read the words of the unholy power.  The 
+contract is littered with calls to prophecy and minors of the nether
+region.  As you look at the bottom you see words which would instill
+fear in even the darkest of mages and clerics.
+"And so onto me your soul shall pass for this divine protection that I 
+shall place upon you.  For when your days of evil have passed on the
+plane of Bogia you shall find a place to worship at my feet wrenched
+in unimaginable eroticism of pain and pleasure..."
+ 
+~
+#16303
+lost sword~
+the lost sword~
+A sword is here stuck in the ground.~
+oldstyle~
+weapon EGHJLM AN
+sword 1 500 slice C
+53 240 15300 P
+F
+A 0 0 DEF
+A
+13 50
+E
+lost~
+The lost sword of Etenlong shines brightly befor you.  Forged of ore
+found only in the mountins of Lotoke it is a work of art with runes
+engraved along the blade.  With your limited knowledge of dwarven 
+lore and the black art allows you can make out the words: "... And so
+no sheath shall hold what finds its home in flesh..."
+ 
+~
+E
+sword~
+The lost sword of Etenlong shines brightly befor you.  Forged of ore
+found only in the mountins of Lotoke it is a work of art with runes
+engraved along the blade.  With your limited knowledge of dwarven 
+lore and the black art allows you can make out the words: "... And so
+no sheath shall hold what finds its home in flesh..."
+ 
+~
+#16304
+Sceptre Shadows~
+the sceptre of shadows~
+The Sceptre of Shadows lies here.~
+oldstyle~
+light BGJ ACDEGHIJKLMN
+0 0 -1 0 0
+49 40 2400 P
+F
+A 0 0 P
+A
+19 2
+A
+20 -2
+#16305
+oakleaves willowleaves~
+some fallen leaves~
+~
+rock~
+container 0 0
+50 AC 0 5 100
+0 0 0 P
+#16306
+key~
+a key~
+A key lies here~
+~
+key 0 A
+0 0 0 0 0
+0 1 0 P
+#16307
+polearm~
+a polearm~
+A polearm is here against the wall.~
+~
+weapon 0 AN
+polearm 9 3 stab 0
+39 70 2200 P
+#16308
+spear~
+a spear~
+A spear is here standing against the wall~
+~
+weapon 0 AN
+staff 9 3 pierce 0
+39 70 2200 P
+#16309
+sword~
+a sword~
+A sword lies here.~
+~
+weapon 0 AN
+sword 9 3 slash 0
+39 100 2200 P
+#16310
+dagger~
+a dagger~
+A dagger with a razor sharp blade lies here.~
+~
+weapon 0 AN
+dagger 3 10 pierce D
+32 100 2200 P
+A
+13 1
+#16311
+neck brace neckbrace~
+a neckbrace~
+A neckbrace lies here.~
+~
+armor ABGS AC
+7 4 7 12 0
+30 20 2000 P
+A
+5 1
+A
+4 1
+A
+20 -1
+#16312
+demon figurine~
+a demon figurine~
+A small demon figurine sits here looking evil.~
+~
+jewelry EGJL AO
+0 0 0 0 0
+40 100 3000 P
+A
+12 20
+A
+17 -2
+A
+20 -1
+#16313
+ward~
+the ward~
+A ward stands here keeping evil spirits out.~
+~
+furniture GO P
+0 0 0 0 0
+1 1000 0 P
+#16314
+ring witchcraft~
+a ring of witchcraft~
+A twisted band of something grisly-looking is nearby.~
+~
+jewelry BGHMU AB
+0 0 0 0 0
+35 0 600 P
+A
+20 -5
+#16315
+breast plate~
+a breast plate~
+A metallic breast plate has been cast off here.~
+~
+armor 0 AD
+11 11 11 0 0
+38 150 3200 P
+#16316
+arm plate~
+a pair of arm plates~
+A pair of Arm plates have been cast off here.~
+oldstyle~
+armor 0 AI
+9 9 9 0 0
+38 75 3200 P
+#16317
+axe~
+an axe~
+An axe has been dropped here.~
+~
+weapon 0 AN
+axe 9 3 cleave 0
+39 70 2200 P
+#16318
+rack weapon~
+the rack~
+A weapon rack is fixed to the wall here.~
+rock~
+container O 0
+200 A 0 100 100
+0 0 0 P
+E
+chest~
+A modest wooden storage chest lies here.
+~
+#16319
+whip~
+a whip~
+A whip has been cast left here.~
+~
+weapon 0 AN
+whip 9 3 whip 0
+39 100 2200 P
+#16320
+humm~
+the ward~
+A ward stands here keeping evil spirits out.~
+~
+furniture GO P
+0 0 0 0 0
+1 1000 0 P
+#16321
+staff magic~
+a staff~
+A staff lies here with runes etched along its sides.~
+~
+weapon G AN
+exotic 3 10 magic 0
+32 100 2200 P
+#16322
+robe~
+a robe~
+a robe has been cast off here.~
+~
+clothing GIY AK
+0 0 0 0 0
+35 35 3800 P
+A
+14 10
+A
+2 1
+#16323
+leggings~
+a pair of leggings~
+a pair of leggings have been cast off here.~
+~
+armor 0 AF
+9 9 9 0 0
+38 150 3200 P
+#16324
+crown~
+a golden crown~
+A golden crown lies here looking valuable~
+~
+armor 0 AE
+11 11 11 0 0
+50 150 7700 P
+A
+2 -1
+#0
+
+#ROOMS
+#16300
+A meeting room~
+You have entered a large meeting room.  A large table stand ominously in the
+center of the room.  Ten oak chairs sit about the round table inviting you to
+sit down and relax.  The room is quite dusty but it looks lived in.
+ 
+Available exit leads to your clan hall.  Type exits to see which direction.
+~
+0 DNSU 0
+H 800 M 800
+O alonso rebecca talltree delstar rusty valnor~
+D0
+Exit ~
+door~
+0 0 4400
+D1
+Exit ~
+door~
+0 0 4201
+D2
+Exit ~
+door~
+0 0 4300
+D3
+Exit ~
+door~
+0 0 4300
+D4
+Exit ~
+door~
+0 0 6900
+D5
+Exit ~
+door~
+0 0 4604
+S
+#16301
+At the foot of the path~
+As you look ahead in the distance you see two trees, one which leans to
+the west and one which leans to the east.  By looking further you can 
+see mountain ranges starting in east and bending along with the horizon 
+to encapsulate the swamps which are accessible just ahead and to the 
+west.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 16302
+S
+#16302
+Before the mighty roots~
+You are before the large roots of two great trees.  One is an oak and the
+other appears to be a willow with black bark.  You can see that the trunks
+of the two trees have many scares as if they have been attacked repeatedly. 
+Their leaves are scattered about the ground as if the trees have just 
+been shaken.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 16304
+D2
+Exit ~
+door~
+0 0 16301
+D3
+Exit ~
+door~
+0 0 16303
+E
+leaves~
+You see oak and willow leaves scattered about as if someone was trying to
+conceal something.
+~
+S
+#16303
+On a muddy path~
+You have stepped onto a muddy path.  The path behind you has vanished and you
+have the feeling that this may be one of the last times Mojo will listen to
+your prayers, for someone or something has made certain that nothing can
+escape this place.  Ahead you hear the sounds of the marsh and see a low 
+riding mist which obscures your view.
+ 
+A skull floats here bearing a sign to be read in its teeth.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 16309
+D3
+Exit ~
+door~
+0 0 16305
+E
+skull~
+Beware for herin lies PESTILENCE!
+ 
+In the year of the rat when the moon blocked the sun a great evil invaded
+Bogia.  Only the great powers of the gods were able to move that evil here.
+Many adventures have found there way here but few have escaped alive.
+Those who have did not last long as disease ate away at thier flesh and 
+evil tore at thier souls.  
+-O- Alonso  @=)=====-
+~
+E
+sign~
+Beware for herin lies PESTILENCE!
+ 
+In the year of the rat when the moon blocked the sun a great evil invaded
+Bogia.  Only the great powers of the gods were able to move that evil here.
+Many adventures have found there way here but few have escaped alive.
+Those who have did not last long as disease ate away at thier flesh and 
+evil tore at thier souls.  
+-O- Alonso  @=)=====-
+~
+S
+#16304
+On a rocky path~
+As you look to the east you see unpassable mountains.  It is obvious that
+there is no going in this direction.  The mountains extend straight up into
+the clouds and wrap about the horizon. 
+~
+0 0 3
+D3
+Exit ~
+door~
+0 0 16302
+S
+#16305
+At the foot of the swamp~
+You are now standing in the swamp.  The stench is horrible and the sounds 
+send chills running up and down your spine.  Insects are biting at you with 
+every step making you feel as if you are being eaten alive.  You feel 
+creatures stirring about you and wonder what adventures could lie ahead in 
+this gloomy place.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 16303
+D3
+Exit ~
+door~
+0 0 16306
+S
+#16306
+Knee deep in the mud~
+You wonder how far you can get in the swamp.  There appears to be no
+discernable path in any direction and the stinging and irritation of a
+thousand insect bits is driving you mad.  You feel a wave of panic come
+over you as you see that every direction you look in looks just like the
+the place you are standing in.
+~
+0 N 3
+D0
+Exit ~
+door~
+0 0 16307
+D1
+Exit ~
+door~
+0 0 16305
+D2
+Exit ~
+door~
+0 0 16309
+D3
+Exit ~
+door~
+0 0 16309
+S
+#16307
+At the bridge~
+You are at the foot of a bridge made of dead logs with rotting planks 
+stretched across them.  Evidently someone or something lives in this 
+direction.  As you look ahead you see a warm light which draws you toward it.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 16308
+D2
+Exit ~
+door~
+0 0 16306
+S
+#16308
+Along the rotting bridge~
+In the distance you can make you the silhouette of a low straw hut.  An
+unearthly glow comes from behind the hut and mists surround the hut as if
+a colony of spirits inhabit the air.  You have a feeling that a great evil
+lies ahead, but strangely you have no fear of it.  It feels as if you are
+walking towards a quiet resting place were you can relieve your tired 
+spirit.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 16314
+D2
+Exit ~
+door~
+0 0 16307
+S
+#16309
+Knee deep in the mud~
+You wonder how far you can get in the swamp.  There appears to be no
+discernable path in any direction and the stinging and irritation of a
+thousand insect bits is driving you mad.  You feel a wave of panic come
+over you as you see that every direction you look in looks just like the
+the place you are standing in.
+~
+0 N 3
+D0
+Exit ~
+door~
+0 0 16309
+D1
+Exit ~
+door~
+0 0 16310
+D2
+Exit ~
+door~
+0 0 16336
+D3
+Exit ~
+door~
+0 0 16303
+S
+#16310
+Knee deep in the mud~
+You wonder how far you can get in the swamp.  There appears to be no
+discernable path in any direction and the stinging and irritation of a
+thousand insect bits is driving you mad.  You feel a wave of panic come
+over you as you see that every direction you look in looks just like the
+the place you are standing in.
+~
+0 N 3
+D0
+Exit ~
+door~
+0 0 16311
+D1
+Exit ~
+door~
+0 0 16309
+D2
+Exit ~
+door~
+0 0 16310
+D3
+Exit ~
+door~
+0 0 16309
+S
+#16311
+On a solid path~
+The ground is a little firmer here.  You see a path ahead leading to a 
+mysterious looking castle.  The castle is set directly into the mountain
+side and appears very dark and sinister.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 16312
+D2
+Exit ~
+door~
+0 0 16310
+S
+#16312
+Before the gates of the lost castle~
+The castle gates are composed of very thin razor like wires bound together
+into bars and strung together to make the gate.  There is a crystal skull 
+set into the center of the gate into whose teeth have been carved a keyhole.
+~
+0 0 3
+D0
+Exit ~
+gate~
+4 16306 16313
+D2
+Exit ~
+door~
+0 0 16311
+S
+#16313
+The foyer~
+The ceiling stands 30 feet above you and the walls are lined with
+portraits of dark and sinister looking characters.  There is the smell of
+incense in air and the quiet chimming of small bells in the background. 
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 16316
+D2
+Exit ~
+gate~
+4 16306 16312
+S
+#16314
+At the threshold~
+You can see the hut now.  It is made of straw tied into bundles and then
+the bundles are tied together to make the walls.  There is no door, but
+rather just a simple opening in one of the walls.  You have a feeling you
+should enter as the twinkle of an old pair of eyes invites you in.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 16315
+D2
+Exit ~
+door~
+0 0 16308
+S
+#16315
+Inside the straw hut~
+The smell of the burning incense and low light makes you feel at home.
+The old man appears to be working on some papers at a small table.  As 
+you look over his shoulder you see that he is filling in your name on a 
+contract. He then turns to you with his compelling eyes and beckons you to
+sign.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 16314
+S
+#16316
+The grand hall~
+There are more portraits on the walls and the smell of incense is stronger. 
+Ahead you see two guards standing atop the landing of two great stair 
+cases which begin at either side of the room and meet at a landing on the 
+second floor.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 16325
+D1
+Exit ~
+door~
+0 0 16317
+D2
+Exit ~
+door~
+0 0 16313
+D3
+Exit ~
+door~
+0 0 16318
+S
+#16317
+The east stairs~
+These stair wrap along the east wall of a large round room to meet with 
+a similar set of stairs on the west wall at the second floor.
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 16316
+D4
+Exit ~
+door~
+0 0 16320
+S
+#16318
+The west stairs~
+These stair wrap along the east wall of a large round room to meet with 
+a similar set of stairs on the west wall at the second floor.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 16316
+D4
+Exit ~
+door~
+0 0 16319
+S
+#16319
+At the top of the grand staircase~
+You have reach the top of the stairs and a guard stands here grinning at
+you.  He doesn't make a sound but you can see by his stance that if you
+take one more step he will chop off a limb of yours.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 16321
+D5
+Exit ~
+door~
+0 0 16318
+S
+#16320
+At the top of the grand staircase~
+You have reach the top of the stairs and a guard stands here grinning at
+you.  He doesn't make a sound but you can see by his stance that if you
+take one more step he will chop off a limb of yours.
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 16321
+D5
+Exit ~
+door~
+0 0 16317
+S
+#16321
+Overlooking the foyer~
+You have reach the top of the stairs and a guard stands here grinning at
+you.  He doesn't make a sound but you can see by his stance that if you
+take one more step he will chop off a limb of yours.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 16323
+D1
+Exit ~
+door~
+0 0 16320
+D3
+Exit ~
+door~
+0 0 16319
+S
+#16322
+In the caves~
+It looks like these tunnels strech for miles.  The walls are as smooth as
+glass and as cold as ice.  You hear nothing but the quiet echo of your
+footsteps.  You have a feeling that the only way out of this cursed land
+is to make your way under the mountains.
+ 
+You feel a breeze comming from the east.
+~
+0 DN 3
+D0
+Exit ~
+door~
+0 0 16322
+D1
+Exit ~
+door~
+0 0 16331
+D2
+Exit ~
+door~
+0 0 16322
+D3
+Exit ~
+door~
+0 0 16322
+S
+#16323
+A hallway~
+The hallway is very spacious but the dim light makes it feel cramped.  
+You see a door to the west with a large crest etched into it.  
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 16324
+D2
+Exit ~
+door~
+0 0 16321
+D3
+Exit ~
+door~
+1 0 16328
+S
+#16324
+A hallway~
+The hallway is very spacious but the dim light makes it feel cramped.  
+You see a door to the east with strange symbols etched into it.  You can 
+tell strong incense is burning inside.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 16330
+D1
+Exit ~
+door~
+1 0 16329
+D2
+Exit ~
+door~
+0 0 16323
+S
+#16325
+The grand hall~
+The dim light in the grand hall makes it feel cramped.  The air is perfectly
+still yet the bells on the south end of the wall chimes softly.  To the north
+you see a sacrificial pit where a priest of some sort in dark robes is 
+making an offering.  
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 16326
+D2
+Exit ~
+door~
+0 0 16316
+S
+#16326
+At the edge of the sacrificial pit~
+The pit itself is a circular opening in ground.  The opening is about 10 feet
+in diameter with a runed ledge.  There is a row of candles burning on the 
+west wall and a large bowl at the base of the row of candles.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 16325
+D5
+Exit ~
+pit~
+0 0 16327
+S
+#16327
+At the bottom~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 16322
+S
+#16328
+The armory~
+You see weapons and flint stones for blade sharpening all about the room.
+Weapon racks line the walls with all the standard implements of destruction.
+~
+0 D 0
+D1
+Exit ~
+door~
+1 0 16323
+S
+#16329
+The apprentices quarters~
+It is a modest room filled with how to books on magic.  You get the 
+feeling that the apprentice who resides here has not been practicing magic
+for very long.
+~
+0 D 0
+D3
+Exit ~
+door~
+1 0 16324
+S
+#16330
+At the end of the hallway~
+You are in a room with a large circle drawn in the floor.  Above you
+you hear voices.  You can clearly hear someone say "Ykatoobu I have told
+you before to clear you mind of all thoughts to accept the transfer.  One
+of the days I will make a decent familiar of you..."
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 16324
+S
+#16331
+In the caves~
+It looks like these tunnels strech for miles.  The walls are as smooth as
+glass and as cold as ice.  You hear nothing but the quiet echo of your
+footsteps.  You have a feeling that the only way out of this cursed land
+is to make your way under the mountains.
+ 
+You feel a breeze comming from the south.
+~
+0 DN 0
+D0
+Exit ~
+door~
+0 0 16331
+D1
+Exit ~
+door~
+0 0 16331
+D2
+Exit ~
+door~
+0 0 16332
+D3
+Exit ~
+door~
+0 0 16331
+S
+#16332
+In the caves~
+It looks like these tunnels strech for miles.  The walls are as smooth as
+glass and as cold as ice.  You hear nothing but the quiet echo of your
+footsteps.  You have a feeling that the only way out of this cursed land
+is to make your way under the mountains.
+~
+0 DN 0
+D0
+Exit ~
+door~
+0 0 16331
+D1
+Exit ~
+door~
+0 0 16338
+D2
+Exit ~
+door~
+0 0 16332
+D3
+Exit ~
+door~
+0 0 16332
+S
+#16333
+The summoning chamber~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+1 0 16341
+D2
+Exit ~
+door~
+1 0 16334
+S
+#16334
+A hallway~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+1 0 16333
+D2
+Exit ~
+door~
+0 0 16335
+S
+#16335
+A hallway~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16334
+D2
+Exit ~
+door~
+0 0 16339
+S
+#16336
+On a well trodden path~
+Generic room description.
+~
+0 C 3
+D0
+Exit ~
+door~
+0 0 16309
+D2
+Exit ~
+door~
+0 0 16337
+S
+#16337
+At the village entrance~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 16336
+S
+#16338
+At the whole in the wall~
+Generic room description.
+~
+0 CDN 0
+D3
+Exit ~
+door~
+0 0 16332
+D5
+Exit ~
+door~
+0 0 16304
+S
+#16339
+The throne room~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16335
+D2
+Exit ~
+door~
+0 0 16340
+S
+#16340
+Before the great throne~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16339
+S
+#16341
+The study~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+1 0 16333
+S
+#16342
+SouthEast Corner~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16357
+D3
+Exit ~
+door~
+0 0 16343
+S
+#16343
+South Wall~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16358
+D1
+Exit ~
+door~
+0 0 16342
+D3
+Exit ~
+door~
+0 0 16344
+S
+#16344
+South Wall~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16359
+D1
+Exit ~
+door~
+0 0 16343
+D3
+Exit ~
+door~
+0 0 16345
+S
+#16345
+South Wall~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16360
+D1
+Exit ~
+door~
+0 0 16344
+D3
+Exit ~
+door~
+0 0 16346
+S
+#16346
+SouthWest Corner~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16347
+D1
+Exit ~
+door~
+0 0 16345
+S
+#16347
+West Wall~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16348
+D2
+Exit ~
+door~
+0 0 16346
+D3
+Exit ~
+door~
+0 0 16360
+S
+#16348
+West Wall~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16349
+D2
+Exit ~
+door~
+0 0 16347
+D3
+Exit ~
+door~
+0 0 16361
+S
+#16349
+West Wall~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16350
+D2
+Exit ~
+door~
+0 0 16348
+D3
+Exit ~
+door~
+0 0 16366
+S
+#16350
+NorthWest Corner~
+~
+0 U 0
+D2
+Exit ~
+door~
+0 0 16349
+D3
+Exit ~
+door~
+0 0 16351
+S
+#16351
+North Wall~
+~
+0 U 0
+D1
+Exit ~
+door~
+0 0 16350
+D2
+Exit ~
+door~
+0 0 16366
+D3
+Exit ~
+door~
+0 0 16352
+S
+#16352
+North wall~
+~
+0 U 0
+D1
+Exit ~
+door~
+0 0 16351
+D2
+Exit ~
+door~
+0 0 16365
+D3
+Exit ~
+door~
+0 0 16351
+S
+#16353
+North Wall~
+~
+0 U 0
+D1
+Exit ~
+door~
+0 0 16354
+D2
+Exit ~
+door~
+0 0 16364
+D3
+Exit ~
+door~
+0 0 16352
+S
+#16354
+NorthEast Corner~
+~
+0 U 0
+D2
+Exit ~
+door~
+0 0 16355
+D3
+Exit ~
+door~
+0 0 16353
+S
+#16355
+East Wall~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16354
+D1
+Exit ~
+door~
+0 0 16364
+D2
+Exit ~
+door~
+0 0 16356
+S
+#16356
+East Wall~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16355
+D1
+Exit ~
+door~
+0 0 16363
+D2
+Exit ~
+door~
+0 0 16357
+S
+#16357
+East Wall~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16356
+D1
+Exit ~
+door~
+0 0 16358
+D2
+Exit ~
+door~
+0 0 16342
+S
+#16358
+Arena~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16363
+D1
+Exit ~
+door~
+0 0 16359
+D2
+Exit ~
+door~
+0 0 16343
+D3
+Exit ~
+door~
+0 0 16357
+S
+#16359
+Arena~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16362
+D1
+Exit ~
+door~
+0 0 16360
+D2
+Exit ~
+door~
+0 0 16344
+D3
+Exit ~
+door~
+0 0 16358
+S
+#16360
+Arena~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16361
+D1
+Exit ~
+door~
+0 0 16347
+D2
+Exit ~
+door~
+0 0 16345
+D3
+Exit ~
+door~
+0 0 16359
+S
+#16361
+Arena~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16366
+D1
+Exit ~
+door~
+0 0 16348
+D2
+Exit ~
+door~
+0 0 16360
+D3
+Exit ~
+door~
+0 0 16362
+S
+#16362
+Arena~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16365
+D1
+Exit ~
+door~
+0 0 16361
+D2
+Exit ~
+door~
+0 0 16359
+D3
+Exit ~
+door~
+0 0 16363
+S
+#16363
+Arena~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16364
+D1
+Exit ~
+door~
+0 0 16362
+D2
+Exit ~
+door~
+0 0 16358
+D3
+Exit ~
+door~
+0 0 16356
+S
+#16364
+Arena~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16353
+D1
+Exit ~
+door~
+0 0 16365
+D2
+Exit ~
+door~
+0 0 16363
+D3
+Exit ~
+door~
+0 0 16355
+S
+#16365
+Arena~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16352
+D1
+Exit ~
+door~
+0 0 16366
+D2
+Exit ~
+door~
+0 0 16362
+D3
+Exit ~
+door~
+0 0 16364
+S
+#16366
+Arena~
+~
+0 U 0
+D0
+Exit ~
+door~
+0 0 16351
+D1
+Exit ~
+door~
+0 0 16349
+D2
+Exit ~
+door~
+0 0 16361
+D3
+Exit ~
+door~
+0 0 16365
+S
+#0
+
+#RESETS
+M 0 16300   1 16300  1	* the crazy little dog
+M 0 16301   1 16302  1	* the Old Oaktree
+M 0 16302   1 16302  1	* the Black Willow
+M 0 16303   4 16305  1	* the plague rat
+M 0 16303   4 16306  1	* the plague rat
+M 0 16304   1 16307  1	* The shell of a man
+M 0 16303   4 16309  1	* the plague rat
+M 0 16303   4 16310  1	* the plague rat
+M 0 16305   1 16315  1	* The soulkeeper
+G 1 16302  -1     	*   a contract
+D 0 16312   0    2	* Before the gates of the lost castle north
+D 0 16313   2    2	* The foyer south
+O 0 16300 100 16300	* a comfortable oak chair
+O 0 16301 100 16300	* an oak table
+O 0 16305 100 16302	* some fallen leaves
+P 1 16306  -1 16305  1	*   a key
+O 0 16313 100 16336	* the ward
+M 0 16308   1 16329  1	* the apprentice
+E 1 16311  -1    3	*   a neckbrace
+E 1 16310  -1   16	*   a dagger
+D 0 16329   3    1	* The apprentices quarters west
+D 0 16323   3    1	* A hallway west
+M 0 16307   1 16326  1	* the priest
+E 1 16322  -1   12	*   a robe
+E 1 16321  -1   16	*   a staff
+M 0 16311   1 16328  1	* the guard
+E 1 16316  -1   10	*   a pair of arm plates
+E 1 16323  -1    7	*   a pair of leggings
+E 1 16315  -1    5	*   a breast plate
+E 1 16317  -1   16	*   an axe
+O 0 16318 100 16328	* the rack
+P 1 16308  -1 16318  1	*   a spear
+P 1 16307  -1 16318  1	*   a polearm
+P 1 16317  -1 16318  1	*   an axe
+P 1 16309  -1 16318  1	*   a sword
+P 1 16319  -1 16318  1	*   a whip
+D 0 16328   1    1	* The armory east
+M 0 16306   4 16320  1	* the guard
+E 1 16315  -1    5	*   a breast plate
+E 1 16323  -1    7	*   a pair of leggings
+E 1 16316  -1   10	*   a pair of arm plates
+E 1 16317  -1   16	*   an axe
+M 0 16306   4 16319  1	* the guard
+E 1 16315  -1    5	*   a breast plate
+E 1 16323  -1    7	*   a pair of leggings
+E 1 16316  -1   10	*   a pair of arm plates
+E 1 16317  -1   16	*   an axe
+M 0 16306   4 16317  1	* the guard
+E 1 16315  -1    5	*   a breast plate
+E 1 16323  -1    7	*   a pair of leggings
+E 1 16316  -1   10	*   a pair of arm plates
+E 1 16307  -1   16	*   a polearm
+M 0 16306   4 16318  1	* the guard
+E 1 16307  -1   16	*   a polearm
+E 1 16316  -1   10	*   a pair of arm plates
+E 1 16323  -1    7	*   a pair of leggings
+E 1 16315  -1    5	*   a breast plate
+M 0 16310   1 16333  1	* the master summoner
+E 1 16322  -1   12	*   a robe
+E 1 16312  -1   17	*   a demon figurine
+E 1 16310  -1   16	*   a dagger
+M 0 16309   1 16333  1	* the familiar
+S
+
+#SHOPS
+16305  8 30 32 33  0 	 200  75 	 0 23 	* The soulkeeper
+0
+
+#SPECIALS
+M 16300 spec_fido           	* the crazy little dog
+M 16303 spec_poison         	* the plague rat
+M 16306 spec_guard          	* the guard
+M 16307 spec_cast_cleric    	* the priest
+M 16308 spec_cast_mage      	* the apprentice
+M 16309 spec_thief          	* the familiar
+M 16310 spec_cast_mage      	* the master summoner
+M 16311 spec_guard          	* the guard
+S
+
+#$

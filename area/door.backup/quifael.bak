@@ -1,0 +1,532 @@
+#AREA
+/mud/moosehead/area/quifael.are~
+Hall of the Apocalypse~
+{Clan } Quifael Hall of the Apocalypse~
+6900 6915
+
+#MOBILES
+#6900
+healer~
+the healer~
+The clan healer is here, attending to the wounded.
+~
+Although retired from adventuring, the healer still lends a hand.
+Type 'heal' to see a listing of spells.
+~
+human~
+ABQVa DFH 1000 0
+48 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#6901
+dryad potion brewer~
+a dryad~
+A Dryad is here, offering to sell her wares.
+~
+He looks very dangerous.  I wouldn't try to rob him.
+~
+human~
+ABQRV DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand female 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#6900
+round oak table center pit~
+An oak table~
+An oak table for clan equipment is here.~
+wood~
+furniture O 0
+0 0 0 0 0
+0 0 0 P
+#6901
+basin fountain~
+the basin~
+A trickle of rain water pools in a jewel-encrusted basin.~
+stone~
+fountain O 0
+0 0 'water' 0 0
+0 0 0 G
+E
+fountain~
+It is very nice.  Made from fine white marble.
+~
+#6902
+drow~
+the Golden Archway~
+~
+~
+portal 0 0
+0 0 0 6910 0
+0 100 0 P
+#6903
+gateway~
+the Golden Archway~
+~
+~
+portal C 0
+0 0 0 9209 0
+0 100 0 P
+#6904
+pyramid~
+the Golden Archway~
+~
+~
+portal 0 0
+0 0 0 8710 0
+0 100 0 P
+#6905
+hoan haon dor~
+the Golden Archway~
+~
+~
+portal C 0
+0 0 0 6001 0
+0 100 0 P
+#6906
+underground river~
+the Golden Archway~
+~
+~
+portal C 0
+0 0 0 5005 0
+0 100 0 P
+#6907
+old thalos~
+the Golden Archway~
+~
+~
+portal 0 0
+0 0 0 5300 0
+0 100 0 P
+#6908
+black velvet couch~
+one of the black velvet couches~
+Several black velvet couches are arranged here.~
+velvet~
+furniture CTY 0
+20 0 BEHK 100 100
+0 100 0 P
+#6909
+Slaag statue warrior~
+Slaag, a most powerful dragon warrior~
+Slaag stands here, looking towards the sky.~
+stone~
+furniture COTY 0
+0 0 0 0 0
+0 100 0 P
+E
+slaag~
+Please note/Email Mythorn if you know Slaag's description.
+~
+#6910
+docks dragon sea~
+the Golden Archway~
+~
+~
+portal C 0
+0 0 0 9795 0
+0 100 0 P
+#6911
+shadow grove~
+the Golden Archway~
+~
+~
+portal 0 0
+0 0 0 1300 1300
+0 100 0 P
+#0
+
+#ROOMS
+#6900
+Inside the Ancient Tree~
+You are underneath the oldest tree in Miden'nir, the Ancient Tree. The
+walls of this burrow are mostly hard mud and rock, but wooden
+supports are present. A silk rope leads upwards through a narrow shaft,
+into the darkness above.
+~
+0 D 0
+D0
+Exit ~
+~
+0 0 3584
+D4
+Exit ~
+~
+0 -1 6902
+S
+#6901
+Living Room~
+This is the largest old fashion living room you've ever seen. Many
+comfortable couches and mats are positioned in a circle around a round
+oak table, piled with armor, weapons and various items, which sits on a
+red mat in the center. The clan healer walks around, tending to the
+wounded who lay on the couches. A cool breeze rushes through the
+windows, making a soothing noise of rustling leaves.
+~
+0 CD 0
+D2
+Exit ~
+~
+0 -1 6904
+E
+chair~
+It is big and old-fashioned, but quite comfortable nevertheless.
+~
+E
+desk~
+It is very massive and but seems worn from many years of use.
+~
+E
+fireplace~
+The fireplace isn't particularly big, but the fire crackles merrily in it.
+~
+E
+bookcase bookcases volume volumes book books~
+Most of the books are heavy, leatherbound and covered in a thin layer of dust.
+There are many titles on necromancy, conjuring and other spheres of Magick,
+but also some on computer science (although these seem to be VERY dusty
+indeed) and a fair collection of horror literature, ranging from Bram Stoker
+and H. P. Lovecraft to Anne Rice and Stephen King.
+~
+S
+#6902
+Entrance Hall of the Apocalypse~
+You stand in the center of a large entrance hallway. The floorboards creak
+softly as you move across the hall, admiring the many trophies from
+victories against great beasts and evil foes, which are nailed high up on
+the walls. Oil lanterns hang lower on the walls, lighting the dark interior of
+the tree. The Doomsday clock is on the north wall, ticking away ominously. A
+silk rope ladder hangs through a trap door, leading into the burrow below.
+ A pair of open double doors lead west onto a bridge attached to another
+tree of the forest. In the east wall is a spiral stair case leading even
+further up the Ancient Tree.
+~
+0 CD 0
+D0
+Exit ~
+door~
+0 0 6911
+D1
+Exit ~
+~
+0 -1 6903
+D2
+Exit ~
+door~
+0 0 6915
+D3
+Exit ~
+~
+0 -1 6904
+D5
+Exit ~
+~
+0 -1 6900
+E
+desk~
+On the desk is a peculiar apparatus of glass bottles and globes connected by
+small pipelines.  The green liquid inside the apparatus' globes and pipelines
+is bubbling steadily.
+~
+E
+shelves~
+The shelves contain a mass of bottles, jars and boxes of different shapes and
+sizes, of which some contain powders and liquids in various colours.  Others
+contain dragon's claws, giant's eyes, rabbit's ears and other body parts of
+different monsters.
+~
+S
+#6903
+Apocalypse Loft~
+This plush palacial room is at the very top of the Ancient Tree.
+Only the highest level Riders are allowed in here. You can see portraits
+of the original Horsemen on the wall: Merlyk...DEATH of the Apocalypse,
+Pell...Pestilence of the Apocalypse, Tarod...FAMINE of the Apocalypse,
+and the mighty dragon Hamlet...WAR of the Apocalypse.
+  The magical restorative properties of this loft are obvious. Just being in
+the room makes you feel more refreshed and mentally agile. The black velvet
+couches beckon you to rest on them, and the serving wenches are at your beck
+and call.
+~
+0 D 0
+D3
+Exit ~
+~
+0 -1 6902
+E
+forest Haon-Dor view~
+Through the tree crowns, you see fellow adventurers walking around in the
+forest, gathering mushrooms, eating blackberries, committing rabbit genocide
+and generally having a good time.
+~
+E
+plate~
+The transparent bronze plate looks quite strange, but the engraved letters are
+quite easy to read, nevertheless :-
+ 
+              Quifael's Virtual Balcony
+ 
+                   Do not lean out!
+ 
+  Please do not try to attract the attention of any
+      adventurers in the forest, as you are not
+         really in existence at the moment.
+ 
+        (This could possibly mess up Reality,
+      and we wouldn't want to do that, would we?)
+~
+E
+balcony railing~
+Quite transparent, but visible anyway, because of the blue glow that surrounds
+the whole place.
+~
+S
+#6904
+Rope bridges~
+It is here, standing on the stable rope bridge, that you realize
+that this truly is the perfect sanctuary. You dream of crushing victories
+over foes, of outlasting hopeless sieges laid upon this eternally beautiful
+place, and of the celebrations afterwards. You arrive in the center of the
+three rope bridges, a guard tower surrounding a loved tree. The forest
+leaves rustle in the usual breeze and a guard casually salutes you as you
+look around. The bridge west leads to the massive Ancient Tree. To the
+north, the sounds of voices are resonating from a large tree house, which
+is built comfortably between huge branches. The southern bridge leads to a
+more fortified building, with battlements and arrow slits.
+~
+0 D 0
+D0
+Exit ~
+~
+0 -1 6901
+D1
+Exit ~
+~
+0 -1 6902
+D2
+Exit ~
+~
+0 -1 6905
+E
+mirror~
+You see yourself looking back at you.
+~
+S
+#6905
+War Room~
+This heavily fortified building is the last-stand-building, should
+the Hall's location ever be found, and invaded. In the south-west corner
+is a small hole, which leads into the tunnels.
+Maps of the various area's of Boinga line the walls, and assorted battle
+strategies are pinned up and traced in red on the maps. The table in
+the middle is used for banquets, important meetings, war briefings and
+such. It is very tidy and clean, all the papers and maps that would be on
+it in times of war being stored in a cabinet near the wall.
+~
+0 D 0
+D0
+Exit ~
+~
+0 -1 6904
+D5
+Exit ~
+door~
+0 0 6906
+S
+#6906
+The Riders Clan Portal Room~
+A golden archway appear before you.  Images of foreign lands flash 
+periodically. A sign on the wall details the destinations of the portals.
+~
+0 D 0
+D4
+Exit ~
+door~
+0 0 6905
+E
+wall sign~
+The Riders Clan Portals:
+"Enter Drow" takes you to the city of the Drow.
+"Enter gateway" takes you to the Elemental Gateway.
+"Enter Pyramid" takes you to the base of the Pyramid.
+"Enter Hoan" takes you to the forest of Hoan Dor.
+"Enter River" takes you to the underground river.
+"Enter Thalos" takes you to ancient Thalos.
+"Enter Docks" takes you to the east side of Thalos.
+"Enter Shadow" takes you to the Entrance to the Shadow Grove.
+~
+E
+sign~
+"Enter Drow" takes you to the city of the Drow.
+"Enter gateway" takes you to the Elemental Gateway.
+"Enter Pyramid" takes you to the base of the Pyramid.
+"Enter Hoan" takes you to the forest of Hoan Dor.
+"Enter River" takes you to the underground river.
+"Enter Thalos" takes you to the ancient Thalos.
+"Enter Docks" takes you to the east side of Thalos.
+"Enter Shadow" takes you to the Entrance to the Shadow Grove.
+~
+S
+#6907
+A Tunnel~
+A dark tunnel, where could it lead?
+~
+0 D 0
+D4
+Exit ~
+door~
+0 0 6908
+S
+#6908
+A Tunnel~
+A dark tunnel, where could it lead?
+~
+0 D 0
+D4
+Exit ~
+door~
+0 0 5001
+S
+#6909
+A Tunnel~
+A dark tunnel, where could it lead?
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 6102
+S
+#6910
+A Tunnel~
+A dark tunnel, where could it lead?
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 5100
+S
+#6911
+Hallway~
+This hallway is filled with portraits of all previous the Riders Clan
+members.  These paintings are meant to capture the moments of attainment of
+the highest ranking available in to mere mortals.  All Riders hope to have
+their picture on these walls someday.
+~
+0 CD 0
+D0
+Exit ~
+door~
+0 0 6913
+D1
+Exit ~
+door~
+0 0 6912
+D2
+Exit ~
+door~
+0 0 6902
+S
+#6912
+Practice Room~
+This room has been devastated all to pieces.  The room barely stands
+together. The floor creaks loudly as if it were ready to give way under
+your weight.  Some parts of the room are frozen, other parts are on 
+fire. The walls are blackened to a crisp.  The smell of ash is strong
+enough to make the most powerful faint.  This room is used as a safe
+practice area.  Every harmful spell imaginable has been cast in this
+room at one time.
+~
+0 CD 0
+D3
+Exit ~
+door~
+0 0 6911
+S
+#6913
+Hallway~
+This hallway is filled with portraits of all previous the Riders Clan
+members.  These paintings are meant to capture the moments of attainment of
+the highest ranking available in to mere mortals.  All Riders hope to have
+their picture on these walls someday.  To the west is the private room of
+Slither.
+~
+0 CD 0
+D2
+Exit ~
+door~
+0 0 6911
+D3
+Exit ~
+door~
+4 9587 6914
+S
+#6914
+Slither's Room~
+As you enter the room you notice the bookshelves lining the walls.
+Walking over to the most well-worn, you notice the theme of all of
+the books.  They are books from various cultures, all showing how they
+think the world will end.  However, the room is not limited to study.
+Weapons of all sorts line the walls.  A roosting perch for a Dragon is in
+the center of the room.
+ 
+On the desk you spot a book.  It is a diary.  Skimming through you see
+Slither's history.  He started off as a warrior, and never took his
+studies seriously.  He joined the first clan that would accept him.  Due
+to his inability to do anything, he invoked an old, little known
+draconian spell.  It ended his life, but ressurrected him.  He started
+off fresh, 17 years old once again, and took up a new profession.
+Studying under Krill, he learnt both the ways of a thief, and the ways of
+the Apocalypse.
+~
+0 ACD 0
+D1
+Exit ~
+door~
+4 9587 6913
+S
+#6915
+Rider's Pride~
+You are standing in a large cherry wooden room, filled
+with prizes, awards and memorable moments that have been
+locked into this room forever, so that future Riders may
+look unto this room for inspiration, and guidance of upcoming
+events that haven't yet been written.
+~
+0 CD 0
+D0
+Exit ~
+door~
+0 0 6902
+E
+pride sign~
+Perhaps one day, your name will be added to the room?
+~
+S
+#0
+
+#RESETS
+O 0 3873 100 6914	* a claw-footed bathtub
+D 0 6914   1    1	* Slither's Room east
+D 0 6913   3    1	* Hallway west
+O 0 6900 100 6901	* An oak table
+O 0 6901 100 6901	* the basin
+S
+
+#SHOPS
+6901 10  0  0  0  0 	 500  50 	 0 23 	* a dryad
+0
+
+#SPECIALS
+M 6900 spec_cast_adept     	* the healer
+S
+
+#$

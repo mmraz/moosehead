@@ -1,0 +1,99 @@
+#AREA
+../newareas/friker.are~
+Lil' Ole Monastery~
+{ANGEL} Angel    Lil' Ole Monastery~
+19200 19202
+
+#MOBILES
+#19200
+warder guardian gatekeeper warden~
+Generic short description~
+One of the huge guards that have been especially chosen and trained for their post.
+~
+Generic description.
+~
+human~
+(null)~
+(null)~
+(null)~
+AT CDFHQTVZc 0 0
+52 57 400d30+3000 10d10+350 11d5+10 crush
+-41 -41 -40 -32
+EFNU N 0 MP
+stand stand male 0
+0 0 huge 0
+F par GHIJK
+#19201
+warder guardian gatekeeper warden~
+Generic short description~
+One of the huge guards that have been especially chosen and trained for their post.
+~
+Generic description.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABRTU CDFHQTVZac 0 0
+52 57 400d30+3000 10d10+350 11d5+10 crush
+-41 -41 -40 -32
+EFNU O NP H
+stand stand male 0
+0 0 huge 0
+F par GHIJK
+#0
+
+#OBJECTS
+#0
+
+#ROOMS
+#19200
+Monastery Gateway~
+You are standing in the gateway to an imposing monastery. The sounds of monks
+in prayer filters out from within the walls.
+~
+0 CNST 0
+D0
+Exit ~
+door~
+0 0 19202
+S
+#19201
+The Priest Hole~
+You are in a room where the priests hide in times of trouble.
+~
+0 CDJ 0
+H 400 M 620
+O Immortal~
+S
+#19202
+Monastery Courtyard~
+The thing that strikes you most is the order. Everything seems so tidy
+and, well, right. The sound of chanting is more pronounced, and seems
+to emanate from the door to the east. You can barely make out a door
+in the west wall, on the other side of the fountain.
+~
+0 NS 1
+D2
+Exit ~
+door~
+0 0 19200
+E
+west~
+You see a door cleverly worked into the stone facade.
+~
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 19200 spec_cast_cleric    	* Generic short description
+M 19201 spec_cast_mage      	* Generic short description
+S
+
+#$

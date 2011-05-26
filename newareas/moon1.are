@@ -1,0 +1,610 @@
+#AREA
+../newareas/moon1.are~
+Smuggler's Cottage~
+Smuggler's Cottage~
+7600 7621
+
+#MOBILES
+#7600
+sabletooth tiger~
+A Sabletooth Tiger~
+A small tiger with extremely long teeth stands here.
+~
+Before you stands a small tiger. It resembles a normal tiger in all 
+forms except it has some rather unpleasent looking teeth curling from
+its mouth.
+~
+cat~
+ABCHU DF 0 0
+4 2 2d7+46 2d50+25 1d5+1 bite
+6 6 6 6
+DU ABQ IP H
+stand stand female 100
+HM B small 0
+F par HQUV
+#7601
+guardian platinum golem~
+A Guardian Golem~
+A large massive looking platinum figure stands here.
+~
+Looking at this large platinum golem makes you shiver. Your own small
+reflection in the silver like metal makes you reconsider even touching 
+this large creature.
+~
+unique~
+ACGU DFV 0 0
+50 50 50d10+4500 4d10+200 5d8+19 pound
+-20 -20 -20 -20
+DEFKNU ABJQ P H
+stand stand none 0
+CDEHM ABCGHIJK large 0
+#7602
+large raven~
+A Large Raven~
+A large raven is resting in it's nest in a tree.
+~
+You see a regular bird. A raven. Nothing special about it.
+~
+human~
+ABCU 0 0 0
+5 3 2d6+60 4d12+25 1d6+1 scratch
+5 5 5 5
+FH 0 0 C
+rest rest none 0
+GW P tiny 0
+F for H
+F par BGHIJ
+#7603
+smuggler bandit~
+A smuggler~
+A smuggler is standing here, sorting some trade.
+~
+Dressed in leather clothes you see a man ready to carry a huge load of
+cargo. He looks rather friendly, if it weren't for the sable in his
+belt.
+~
+human~
+ABF 0 -1000 0
+6 5 2d7+71 2d7+71 1d7+1 punch
+4 4 4 4
+BEFNU 0 0 0
+stand stand male 300
+0 0 medium 0
+#0
+
+#OBJECTS
+#7600
+Bedroom Key~
+A Small Platinum Key Marked "B"~
+This key is beautifully created. Its made of platinum and bears the letter "B"~
+Platinum~
+key AORTY AP
+0 0 0 0 0
+52 1 0 P
+#7601
+A Small Casket~
+A Small Casket~
+A beautiful casket is placed here~
+Wood and metal~
+container FORY A
+10000 AC 7603 10000 50
+1 100 1000 P
+#7602
+water bed ~
+Moonshae's Waterbed~
+A HUGE bed stands here. The bed is not like others.. The mattress is made of.... water~
+Wood, cloth and water~
+furniture AIORY AP
+4 0 EHK 400 400
+52 1000 300000 P
+F
+A 0 0 c
+#7603
+fountain~
+A Fountain of Life~
+A fountain is placed here, floating with the life giving fluid... water.~
+Stone~
+fountain M AP
+0 0 'water' 0 0
+1 -31072 0 P
+#7604
+metal key~
+A Small Metal Key~
+A small key made of metal is lying here.~
+Metal~
+key 0 A
+0 0 0 0 0
+0 1 0 P
+#7605
+cupboard~
+A large cupboard~
+~
+Wood~
+container R AP
+1000 AC 0 1000 10
+5 1000 0 W
+#7606
+silver knife~
+a silver knife~
+a small silver knife is lying here~
+Silver~
+weapon I AN
+dagger 2 3 pierce 0
+4 10 2000 G
+#7607
+light pill gift~
+A Light Source~
+A small silver disk lies here radiating a bright light.~
+Light~
+pill A A
+20 'haste' 'withstand death' '' ''
+1 1 0 P
+E
+Moonshae~
+Moonshae's levelling gift.
+~
+E
+pill~
+Moonshae's levelling gift.
+~
+#7608
+sable~
+A sharp sable~
+A large sable is lying here.~
+metal~
+weapon 0 AN
+sword 1 7 cleave D
+5 50 2000 P
+#7609
+coins~
+some coins~
+A pile of coins.~
+metal~
+money 0 A
+0 20 0 0 0
+0 10 0 P
+#7610
+box~
+A large box~
+A large wooden box is standing here.~
+wood~
+container OTY 0
+200 AC 0 200 100
+0 0 0 W
+#0
+
+#ROOMS
+#7600
+Moonshae's Public Chat Room~
+This room is the public room used by Moonshae to talk to mortals in.
+The room is warm and relaxing. You feel as if all your thoughts are ready
+to leave you head and be exposed. In one corner of the room stands a nice
+little couch. In another corner stands a little desk with a chair
+behind it. On the desk lies small pieces of paper, containing notes and
+drawings. The room is being lit by small glowing globes hanging from the
+ceiling.
+~
+0 DKNST 0
+D1
+Exit ~
+east~
+2 0 7602
+D3
+Exit ~
+west~
+2 0 7601
+S
+#7601
+Moonshae's Private Conversation Room~
+This room is not very big. A desk and a chair are standing at the wall
+to the north. A small oil lamp is standing on the desk. A pen is lying
+on a rather large pile of notes. At the southern wall a large
+fireplace is burning filling the room with warmth. An overstuffed
+bookcase is placed up against the west wall.
+~
+0 DKNST 0
+D1
+Exit ~
+east~
+2 0 7600
+S
+#7602
+Moonshae's Resting Room~
+This room is often used by visitors to relax and feel cozy in.
+A couch is placed at the southern wall, and a small table is in front
+of it. A cabinet containing many different kinds of liquor is looking
+very inviting.
+~
+0 DKNST 0
+H 150 M 150
+D0
+Exit ~
+door~
+0 0 7603
+D3
+Exit ~
+west~
+1 7600 7600
+S
+#7603
+Moonshae's Private Resting Room~
+This is Moonshae's private resting chamber. This is where she usually
+spends her time, dealing with troublesome mortals.
+The room is beautifully decorated. A fireplace is burning, a parrot is
+resting in a fake tree, talking nonsense to those to those who try to
+listen. Paintings and portraits of different immortals hang here 
+and you feel they are watching you as you move around in the room.
+~
+0 DKNS 0
+H 2000 M 2000
+D2
+Exit ~
+door~
+0 0 7602
+D3
+Exit ~
+door~
+2 7600 7604
+S
+#7604
+Moonshae's Bedroom~
+This room is lovely. The walls are painted in a deep red color. Small 
+globes glowing a red soft light are set into the ceiling. Soft tunes from
+what sounds like pan flutes echoes in the room. A strange smell meet your
+nose, what is that smell?.. Not sure what it is, you begin to locate the 
+source from where it comes, and then you notice it... A fountain in the
+middle of the room creates the smell, .. but is that not weird?, usually
+fountains hold water.. unable to think anymore, you slowly doze away into
+dreamland.... Where paradise begins....
+~
+0 DJKNST 0
+H 2000 M 2000
+D1
+Exit ~
+east~
+1 7603 7603
+S
+#7605
+Outside a small cottage~
+You are standing outside a small cottage. The cottage is no larger than
+a small family would live cozy in it. Its in rather poor condition, and
+you sense that it has been inhabitated for quiet some time. A door
+leading into the cottage is before you. The door looks as if it has been
+replaced not long ago.
+~
+0 0 4
+D1
+Exit ~
+east door~
+1 7604 7606
+S
+#7606
+Inside the cottage~
+You are standing inside a small cottage. The room looks like a common
+living room. A few chairs and a table are standing in one corner of the 
+room, and some once cozy looking couches in another. A stairway leading
+downwards are placed next to a doorway leading into a kitchen.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 7607
+D2
+Exit ~
+door~
+0 0 7609
+D3
+Exit ~
+west door~
+1 7604 7605
+D5
+Exit ~
+door~
+0 0 7608
+S
+#7607
+Small living room~
+This is a small living room. A nice little cozy room. The room is in
+better condition than most of the rooms in the cottage. A nice couch is
+placed against a wall and a few chairs are standing close to it.
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 7606
+S
+#7608
+Stairs leading down~
+You are moving down some stairs. The stairs are leading down into
+darkness. The stairs are in amazing condition, if you compare them to the
+cottage itself. They look as if they are being used frequently and you
+get the feeling that you could meet someone here.
+~
+0 AD 0
+D4
+Exit ~
+door~
+0 0 7606
+D5
+Exit ~
+door~
+0 0 7611
+S
+#7609
+The kitchen~
+You are standing in a kitchen. A very dirty kitchen. The room has not 
+been cleaned in ages. A table and a few chairs are lying tossed at the
+far end of the room. Kitchen utilities are spread all over the floor. 
+A rotten stairway leads up to the addict.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 7606
+D4
+Exit ~
+door~
+0 0 7619
+D5
+Exit ~
+door~
+0 0 7610
+S
+#7610
+A small storage room~
+You are standing in a small storage room. Large crates and boxes are
+piled against each other. The room is uncomfortable to be in, because of
+the cold air. A supply of food is also gathered here, which varies from
+uneatable bread, corn and flour to rotten dried meat and what seems to 
+be the head of some animal.
+~
+0 AD 0
+D4
+Exit ~
+door~
+0 0 7609
+S
+#7611
+The basement~
+You are standing in the basement of the cottage. More crates have been 
+left here. The floor is covered with white powder and you notice some 
+footprints in it. The walls are covered with green moss. There is a foul
+smell in the air, almost like something is rottening somewhere down here.
+~
+0 AD 0
+D2
+Exit ~
+hidden door~
+1 0 7612
+D4
+Exit ~
+door~
+0 0 7608
+S
+#7612
+Passage in the basement~
+You are standing in a small hall way. It is dark down here. The walls
+are covered with what seems to be moss. The floor is dirty and very used.
+Large crates and boxes are placed along the walls, just waiting to 
+be moved.
+~
+0 AD 0
+D0
+Exit ~
+door~
+1 0 7611
+D1
+Exit ~
+door~
+0 0 7613
+S
+#7613
+Passage in the basement~
+You are standing in a small hall way. It is dark down here. The walls
+are covered with what seems to be moss. The floor is dirty and very used.
+Large crates and boxes are placed along the walls, just waiting to 
+be moved.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 7614
+D1
+Exit ~
+door~
+0 0 7616
+D2
+Exit ~
+door~
+0 0 7615
+D3
+Exit ~
+door~
+0 0 7612
+S
+#7614
+Storage Room~
+You are in a large storage room. HUGE crates and boxes and piled amongst
+each other in here. The room very cold.  The walls are moist from being 
+soaked in water. Tracks on the floor informs you that the room is being 
+used frequently.
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 7613
+S
+#7615
+Storage Room~
+You are in a large storage room. HUGE crates and boxes and piled amongst
+each other in here. The room very cold.  The walls are moist from being 
+soaked in water. Tracks on the floor informs you that the room is being 
+used frequently.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 7613
+S
+#7616
+Passage in the basement~
+You are standing in a small hall way. It is dark down here. The walls
+are covered with what seems to be moss. The floor is dirty and very used.
+Large crates and boxes are placed along the walls, just waiting to 
+be moved.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 7617
+D2
+Exit ~
+door~
+0 0 7618
+D3
+Exit ~
+door~
+0 0 7613
+S
+#7617
+Storage Room~
+You are in a large storage room. HUGE crates and boxes and piled amongst
+each other in here. The room very cold.  The walls are moist from being 
+soaked in water. Tracks on the floor informs you that the room is being 
+used frequently.
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 7616
+S
+#7618
+Storage Room~
+You are in a large storage room. HUGE crates and boxes and piled amongst
+each other in here. The room very cold.  The walls are moist from being 
+soaked in water. Tracks on the floor informs you that the room is being 
+used frequently.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 7616
+S
+#7619
+The addict~
+You are standing in a very messy room.  Large boxes containing junk of all
+kinds are taking up most of the space in the room.  Its rather dark up here
+and only the sounds of silence and your own breath can be heard here.
+~
+0 AD 0
+D0
+Exit ~
+north~
+1 0 7620
+D5
+Exit ~
+door~
+0 0 7609
+S
+#7620
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 7621
+D2
+Exit ~
+south~
+1 0 7619
+S
+#7621
+Generic room name~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 7620
+S
+#0
+
+#RESETS
+M 0 7600   1 7601  1	* A Sabletooth Tiger
+M 0 7601   1 7604  1	* A Guardian Golem
+M 0 7602   1 7605  1	* A Large Raven
+G 1 7604  -1     	*   A Small Metal Key
+M 0 7603   6 7614  1	* A smuggler
+E 1 7608  -1   16	*   A sharp sable
+M 0 7603   6 7615  2	* A smuggler
+E 1 7608  -1   16	*   A sharp sable
+M 0 7603   6 7615  2	* A smuggler
+E 1 7608  -1   16	*   A sharp sable
+M 0 7603   6 7617  2	* A smuggler
+E 1 7608  -1   16	*   A sharp sable
+M 0 7603   6 7617  2	* A smuggler
+E 1 7608  -1   16	*   A sharp sable
+M 0 7603   6 7618  1	* A smuggler
+E 1 7608  -1   16	*   A sharp sable
+O 0 7603 100 7600	* A Fountain of Life
+O 0 3815 100 7602	* a liquor cabinet
+P 1 3824  -1 3815  1	*   a bowl of ice
+P 1 3823  -1 3824 10	*   some ice
+P 1 3823  -1 3824 10	*   some ice
+P 1 3823  -1 3824 10	*   some ice
+P 1 3823  -1 3824 10	*   some ice
+P 1 3823  -1 3824 10	*   some ice
+P 1 3823  -1 3824 10	*   some ice
+P 1 3823  -1 3824 10	*   some ice
+P 1 3823  -1 3824 10	*   some ice
+P 1 3823  -1 3824 10	*   some ice
+P 1 3823  -1 3824 10	*   some ice
+P 1 3817  -1 3815  1	*   a decanter of whisky
+P 1 3816  -1 3815  1	*   a bottle of red wine
+P 1 3818  -1 3815  1	*   a silver coffeepot
+O 0 7601 100 7603	* A Small Casket
+P 1 7600  -1 7601  1	*   A Small Platinum Key Marked "B"
+O 0 7601 100 7604	* A Small Casket
+P 1 7600  -1 7601  1	*   A Small Platinum Key Marked "B"
+O 0 7602 100 7604	* Moonshae's Waterbed
+O 0 7605 100 7607	* A large cupboard
+P 1 7606  -1 7605  1	*   a silver knife
+O 0 7610 100 7614	* A large box
+P 1 7609  -1 7610  1	*   some coins
+O 0 7610 100 7615	* A large box
+O 0 7610 100 7617	* A large box
+P 1 7609  -1 7610  1	*   some coins
+O 0 7610 100 7618	* A large box
+P 1 7609  -1 7610  1	*   some coins
+D 0 7600   1    1	* Moonshae's Public Chat Room east
+D 0 7600   3    1	* Moonshae's Public Chat Room west
+D 0 7601   1    1	* Moonshae's Private Conversation Room east
+D 0 7602   3    1	* Moonshae's Resting Room west
+D 0 7605   1    2	* Outside a small cottage east
+D 0 7606   3    2	* Inside the cottage west
+D 0 7611   2    1	* The basement south
+D 0 7612   0    1	* Passage in the basement north
+D 0 7619   0    1	* The addict north
+D 0 7620   2    1	* Generic room name south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 7601 spec_cast_dispel    	* A Guardian Golem
+S
+
+#$

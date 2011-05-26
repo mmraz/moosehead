@@ -1,0 +1,1611 @@
+#AREA
+/mud/moosehead/area/elenar.are~
+Elven High Court~
+{15-25} Poquah  Elven High Court~
+16000 16056
+
+#MOBILES
+#16000
+goblin~
+a goblin~
+A goblin wanders free here.
+~
+A goblin freed from the slavery of the drow can reveal to you
+many secrets of the dark complex, "To find the true darkness underneath
+you must search out the hidden door in the Main Chamber of the Matron
+Mother of The First House."
+~
+goblin~
+(null)~
+(null)~
+(null)~
+ABH 0 450 0
+1 0 2d6+10 0d9+100 1d4+0 none
+9 9 9 10
+EFNR 0 0 0
+sleep sleep male 0
+0 0 medium 0
+#16001
+elven commoner~
+an elven commoner~
+An elven commoner saunters about in the forest.
+~
+He'll jump at the chance to give you directions, unless of course
+you are drow in which case he'll jump at the chance to slit your
+throat.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ADG D 1000 0
+10 0 2d7+121 5d9+100 2d4+2 none
+1 1 1 8
+EFN 0 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F vul Z
+#16002
+elven warrior~
+an elven warrior~
+An elven warrior stands ready to protect the trees.
+~
+He looks pissed off!
+~
+elf~
+(null)~
+(null)~
+(null)~
+AB D 1000 0
+14 0 2d10+190 7d9+100 1d12+3 none
+-1 -1 -1 8
+EFN 0 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F vul Z
+#16003
+elven mage~
+an elven mage~
+An elven mage sits here with his nose in his books.
+~
+The mage sits here researching new spells, perhaps someday the 
+benefits of his research will be passed on to you.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABR D 1000 0
+15 0 2d10+190 15d9+100 1d10+3 none
+-1 -1 -1 5
+F 0 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F vul Z
+#16004
+elven priestess~
+an elven priestess~
+An elven priestess is here healing the needy.
+~
+With the strength and power of Megena she tends to those in need.
+You do not want to stand against her.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABQ D 1000 0
+17 0 3d9+258 17d9+100 2d6+4 none
+-3 -3 -3 6
+EIK 0 0 0
+stand stand female 0
+0 0 medium 0
+F aff J
+F vul Z
+#16005
+elven leader~
+an elven leader~
+An elven leader prepares his plans for battle.
+~
+The elven leader was once a great hero in the battles long past.
+Today he uses his expertise to plan the defense of the forest and
+the attacks against the drow.
+~
+elf~
+(null)~
+(null)~
+(null)~
+AB D 1000 0
+21 0 4d10+360 10d9+100 4d4+5 none
+-5 -5 -5 7
+EFN 0 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F vul Z
+#16006
+elven commander~
+an elven commander~
+An elven commander hardened by battle is here.
+~
+A master of all combat, he find peace while amongst the trees.
+~
+elf~
+(null)~
+(null)~
+(null)~
+AB D 1000 0
+23 0 5d10+450 11d9+100 3d6+6 none
+-6 -6 -6 6
+EFN 0 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F vul Z
+#16007
+elven countess~
+an elven countess~
+An elven countess awaits the members of the court.
+~
+Wisdom in years she appears to be a strong elven woman.
+Her power does not come only from wisdom though.
+~
+elf~
+(null)~
+(null)~
+(null)~
+AB D 1000 0
+24 0 5d10+500 12d9+100 2d10+6 none
+-6 -6 -6 6
+EFN 0 0 0
+stand stand female 0
+0 0 medium 0
+F aff J
+F vul Z
+#16008
+elven count~
+an elven count~
+An elven count is here deciding the fate of his people.
+~
+Years of ruling have weighed heavily on this poor elf.
+Anger and power are still seen within his eyes, do not anger a man
+who help rule an entire forest.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABQ DH -1000 0
+27 0 5d10+600 26d9+100 2d10+7 none
+-7 -7 -7 5
+EIK 0 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F vul Z
+#16009
+cooshee~
+a cooshee~
+A cooshee runs quickly around you.
+~
+Looking like an oversized dog, it has a greenish coat with brown
+spots. Its paws are huge with heavy claws and its tail is curved
+and held above the back.
+~
+elf~
+(null)~
+(null)~
+(null)~
+AB D 1000 0
+24 0 5d10+500 17d9+100 4d7+11 none
+-11 -11 -11 5
+EFN 0 0 0
+stand stand female 0
+0 0 medium 0
+F aff J
+F vul Z
+#16010
+elven guard~
+an elven guard~
+An elven guard watches you closely.
+~
+His glare reminds you not to harm the trees or his fellow elves.
+~
+elf~
+(null)~
+(null)~
+(null)~
+AB Q 1000 0
+12 0 2d10+150 6d9+100 1d10+3 none
+0 0 0 8
+EFN 0 0 0
+stand stand male 0
+0 0 medium 0
+F vul Z
+#16011
+elven scout~
+an elven scout~
+An elven scout sneaks through the forest.
+~
+The elven scout blends so well with the forest you can barely catch a 
+glimpse of her.
+~
+elf~
+(null)~
+(null)~
+(null)~
+AH PQ 1000 0
+11 0 2d8+134 5d9+100 1d10+2 none
+1 1 1 8
+EFN 0 0 0
+stand stand female 0
+0 0 medium 0
+F aff J
+F vul Z
+#16012
+eagle~
+an eagle~
+A protective eagle is here watching over the forest.
+~
+With wings wide spread this Eagle is formidable. It flys from tree
+to tree overseeing the forest.
+~
+dog~
+(null)~
+(null)~
+(null)~
+ABG DQ 1000 0
+5 2 4d6+60 2d9+100 1d8+1 bite
+5 5 5 9
+EGQRU 0 0 0
+stand stand male 0
+0 0 small 0
+#0
+
+#OBJECTS
+#16000
+Elven Throne~
+the Elven Court Throne~
+The magical Throne of the Elven Court is here.~
+gold~
+furniture GOY P
+1 0 EHK 125 125
+0 0 0 P
+E
+throne~
+Made of the most expensive gold with intricate etched designs, you can
+feel the magic radiate off the throne. You can see it is most 
+definately the Throne of the Elven King. Poquah some times returns
+to sit on his throne and council the Court. As with all things elven
+you know this throne has some secret of its own.
+~
+#16001
+secret compartment~
+the secret compartment~
+~
+gold~
+container OR 0
+10000 AC 0 1000 100
+0 100 0 P
+#16002
+key~
+an Elven key~
+The key to the Elven Treasure room lies here.~
+wood~
+key UV A
+0 0 0 0 0
+0 5 0 P
+#16003
+royal elven vest~
+a Royal Elven vest~
+A vest crafted of the finest Elven quality for Royalty lies here.~
+mithril~
+armor G AD
+7 7 7 2 3
+26 50 7600 P
+A
+19 1
+A
+1 2
+#16004
+royal elven helm~
+a Royal Elven helm~
+A helm crafted of the finest Elven quality for Royalty lies here.~
+mithril~
+armor G AE
+7 7 7 2 3
+27 50 3400 P
+A
+18 2
+#16005
+royal elven gauntlets~
+a pair of Royal Elven gauntlets~
+A pair of gauntlets crafted of the finest Elven quality for Royalty lies here.~
+mithril~
+armor G AH
+7 7 7 2 3
+25 50 2700 P
+A
+18 1
+A
+19 1
+#16006
+royal elven sleeves~
+some Royal Elven sleeves~
+A set of sleeves crafted of the finest Elven quality for Royalty lies here.~
+mithril~
+armor G AI
+7 7 7 2 3
+25 50 2700 P
+A
+18 1
+A
+19 1
+#16007
+boots royal elven~
+a pair of Royal Elven boots~
+A pair of boots crafted of the finest Elven quality for Royalty lies here.~
+mithril~
+armor G AG
+7 7 7 2 3
+25 50 3100 P
+A
+18 1
+A
+2 1
+#16008
+leggings royal elven~
+a set of Royal Elven leggings~
+A set of leggings crafted of the finest Elven quality for Royalty lies here.~
+mithril~
+armor G AF
+7 7 7 2 3
+25 50 3100 P
+A
+18 1
+A
+2 1
+#16009
+girth royal elven~
+a Royal Elven girth~
+A girth crafted of the finest Elven quality for Royalty lies here.~
+mithril~
+armor G AL
+7 7 7 2 3
+26 50 5200 P
+A
+5 2
+#16010
+ancient elven torso~
+an Ancient Elven torso~
+A torso crafted by the Ancient Elves lies here.~
+mithril~
+armor G AD
+7 7 7 2 3
+25 50 5000 P
+A
+12 10
+A
+1 1
+#16011
+ancient elven helm~
+an Ancient Elven helm~
+A helm crafted by the Ancient Elves lies here.~
+mithril~
+armor G AE
+7 7 7 2 3
+25 50 2900 P
+A
+12 5
+A
+2 1
+#16012
+leggings ancient elven~
+a pair of Ancient Elven leggings~
+A set of leggings crafted by the Ancient Elves lies here.~
+mithril~
+armor G AF
+7 7 7 2 3
+25 50 2900 P
+A
+12 5
+A
+3 1
+#16013
+boots ancient elven~
+a pair of Ancient Elven boots~
+A pair of boots crafted by the Ancient Elves lies here.~
+mithril~
+armor G AG
+7 7 7 2 3
+25 50 2900 P
+A
+12 5
+A
+4 1
+#16014
+ancient elven gauntlets~
+a set of Ancient Elven gauntlets~
+A pair of gauntlets crafted by the Ancient Elves lies here.~
+mithril~
+armor G AH
+7 7 7 2 3
+25 50 2900 P
+A
+12 5
+A
+5 1
+#16015
+sleeves ancient elven~
+some Ancient Elven sleeves~
+A set of sleeves crafted by the Ancient Elves lies here.~
+mithril~
+armor G AI
+7 7 7 2 3
+25 50 2400 P
+A
+12 5
+A
+18 1
+#16016
+ancient elven shield~
+an Ancient Elven shield~
+A shield crafted by the Ancient Elves lies here.~
+silver~
+armor G AJ
+7 7 7 2 3
+25 50 4200 P
+A
+12 5
+A
+17 -3
+#16017
+girth ancient elven~
+an Ancient Elven girth~
+A girth crafted by the Ancient Elves lies here.~
+silver~
+armor G AL
+7 7 7 2 3
+25 50 2400 P
+A
+12 5
+A
+19 1
+#16018
+sizzling blade~
+a sizzling blade~
+here lies a sizzling blade, scorching the ground, you wonder if you should pick it up~
+fire~
+weapon G AN
+sword 2 12 slash AC
+28 200 2200 P
+A
+18 1
+#0
+
+#ROOMS
+#16000
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 5257
+D2
+Exit ~
+door~
+16384 0 16001
+S
+#16001
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AC 3
+D0
+Exit ~
+door~
+16384 0 16000
+D2
+Exit ~
+door~
+16384 0 16002
+S
+#16002
+Intersection in The Elenar Forest~
+A decision must be made, deeper and deeper in the woods you go.
+Wisely? You do not know. Perhaps treasures it will yield, perhaps
+your death by a weapon they wield.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16001
+D1
+Exit ~
+door~
+16384 0 16003
+D3
+Exit ~
+door~
+16384 0 16008
+S
+#16003
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16004
+D3
+Exit ~
+door~
+16384 0 16002
+S
+#16004
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AT 3
+D2
+Exit ~
+door~
+16384 0 16005
+D3
+Exit ~
+door~
+16384 0 16003
+S
+#16005
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16004
+D1
+Exit ~
+door~
+16384 0 16006
+S
+#16006
+Entrance to A Great Tree~
+One of the Great Trees of the Elenar Forest, resting softly in
+it's old age, many battles has it seen over the years. To protect
+the Elves is its life and duty.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16007
+D3
+Exit ~
+door~
+16384 0 16005
+S
+#16007
+Inside a Great Tree~
+The magic of this old tree keeps it well lit inside. Peaceful and
+serene you understand why the elves choose refuge here.
+~
+0 DNT 3
+D0
+Exit ~
+door~
+16384 0 16039
+D1
+Exit ~
+door~
+16384 0 16040
+D2
+Exit ~
+door~
+16384 0 16041
+D3
+Exit ~
+door~
+16384 0 16006
+S
+#16008
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16002
+D3
+Exit ~
+door~
+16384 0 16009
+S
+#16009
+Intersection in The Elenar Forest~
+A decision must be made, deeper and deeper in the woods you go.
+Wisely? You do not know. Perhaps treasures it will yield, perhaps
+your death by a weapon they wield.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16008
+D2
+Exit ~
+door~
+16384 0 16011
+D3
+Exit ~
+door~
+16384 0 16010
+S
+#16010
+A Guard Post~
+A resting place for the weary guards. A chance to renew their 
+strength before continuing battle with the enemies of the forest.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16009
+S
+#16011
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16009
+D2
+Exit ~
+door~
+16384 0 16012
+S
+#16012
+Intersection in The Elenar Forest~
+A decision must be made, deeper and deeper in the woods you go.
+Wisely? You do not know. Perhaps treasures it will yield, perhaps
+your death by a weapon they wield.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16011
+D1
+Exit ~
+door~
+16384 0 16026
+D2
+Exit ~
+door~
+16384 0 16018
+D3
+Exit ~
+door~
+16384 0 16013
+S
+#16013
+Entrance to A Great Tree~
+One of the Great Trees of the Elenar Forest, resting softly in
+it's old age, many battles has it seen over the years. To protect
+the Elves is its life and duty.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16012
+D3
+Exit ~
+door~
+16384 0 16014
+S
+#16014
+Inside a Great Tree~
+The magic of this old tree keeps it well lit inside. Peaceful and
+serene you understand why the elves choose refuge here.
+~
+0 DNT 3
+D0
+Exit ~
+door~
+16384 0 16015
+D1
+Exit ~
+door~
+16384 0 16013
+D2
+Exit ~
+door~
+16384 0 16016
+D3
+Exit ~
+door~
+16384 0 16017
+S
+#16015
+A Court Elder's Room~
+One of the many rooms of the Court. Used for defense in times
+of battle it is currently a general home.
+~
+0 DNT 3
+D2
+Exit ~
+door~
+16384 0 16014
+S
+#16016
+A Court Elder's Room~
+One of the many rooms of the Court. Used for defense in times
+of battle it is currently a general home.
+~
+0 DNT 3
+D0
+Exit ~
+door~
+16384 0 16014
+S
+#16017
+A Court Elder's Room~
+One of the many rooms of the Court. Used for defense in times
+of battle it is currently a general home.
+~
+0 DNT 3
+D1
+Exit ~
+door~
+16384 0 16014
+S
+#16018
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16012
+D2
+Exit ~
+door~
+16384 0 16019
+S
+#16019
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16018
+D2
+Exit ~
+door~
+16384 0 16020
+S
+#16020
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16019
+D1
+Exit ~
+door~
+16384 0 16021
+S
+#16021
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16022
+D3
+Exit ~
+door~
+16384 0 16020
+S
+#16022
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16023
+D3
+Exit ~
+door~
+16384 0 16021
+S
+#16023
+Entrance to A Great Tree~
+One of the Great Trees of the Elenar Forest, resting softly in
+it's old age, many battles has it seen over the years. To protect
+the Elves is its life and duty.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16024
+D2
+Exit ~
+door~
+16384 0 16022
+S
+#16024
+Inside a Great Tree~
+The magic of this old tree keeps it well lit inside. Peaceful and
+serene you understand why the elves choose refuge here.
+~
+0 DNT 3
+D0
+Exit ~
+door~
+16384 0 16056
+D1
+Exit ~
+door~
+16384 0 16042
+D2
+Exit ~
+door~
+16384 0 16023
+D3
+Exit ~
+door~
+16384 0 16025
+S
+#16025
+A Court Training Room~
+The war with the enemies of the trees is far from over. Training
+in all areas of combat sounds throughout this room.
+~
+0 DNT 3
+D1
+Exit ~
+door~
+16384 0 16024
+S
+#16026
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16027
+D3
+Exit ~
+door~
+16384 0 16012
+S
+#16027
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16028
+D3
+Exit ~
+door~
+16384 0 16026
+S
+#16028
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16029
+D3
+Exit ~
+door~
+16384 0 16027
+S
+#16029
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AT 3
+D2
+Exit ~
+door~
+16384 0 16030
+D3
+Exit ~
+door~
+16384 0 16028
+S
+#16030
+Intersection in The Elenar Forest~
+A decision must be made, deeper and deeper in the woods you go.
+Wisely? You do not know. Perhaps treasures it will yield, perhaps
+your death by a weapon they wield.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16029
+D1
+Exit ~
+door~
+16384 0 16031
+D2
+Exit ~
+door~
+16384 0 16032
+S
+#16031
+A Guard Post~
+A resting place for the weary guards. A chance to renew their 
+strength before continuing battle with the enemies of the forest.
+~
+0 AT 3
+D3
+Exit ~
+door~
+16384 0 16030
+S
+#16032
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16030
+D2
+Exit ~
+door~
+16384 0 16033
+S
+#16033
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16032
+D1
+Exit ~
+door~
+16384 0 16034
+S
+#16034
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16035
+D3
+Exit ~
+door~
+16384 0 16033
+S
+#16035
+Intersection in The Elenar Forest~
+A decision must be made, deeper and deeper in the woods you go.
+Wisely? You do not know. Perhaps treasures it will yield, perhaps
+your death by a weapon they wield.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16043
+D2
+Exit ~
+door~
+16384 0 16036
+D3
+Exit ~
+door~
+16384 0 16034
+S
+#16036
+Entrance to A Great Tree~
+One of the Great Trees of the Elenar Forest, resting softly in
+it's old age, many battles has it seen over the years. To protect
+the Elves is its life and duty.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16035
+D1
+Exit ~
+door~
+16384 0 16037
+S
+#16037
+Inside a Great Tree~
+The magic of this old tree keeps it well lit inside. Peaceful and
+serene you understand why the elves choose refuge here.
+~
+0 DNT 3
+D0
+Exit ~
+door~
+16384 0 16054
+D1
+Exit ~
+door~
+16384 0 16038
+D2
+Exit ~
+door~
+16384 0 16055
+D3
+Exit ~
+door~
+16384 0 16036
+S
+#16038
+The Court Dining Rooms~
+Grand festivals and years of harmony and bliss once echoed in this
+tree. Now silent meals are prepared as the time for battle draws close.
+~
+0 DNT 3
+D3
+Exit ~
+door~
+16384 0 16037
+S
+#16039
+The Court Library~
+A wing in the Court Library. Many great minds have come to study
+here, and many can be found here now searching for lost magic.
+~
+0 DNT 3
+D2
+Exit ~
+door~
+16384 0 16007
+S
+#16040
+The Court Library~
+A wing in the Court Library. Many great minds have come to study
+here, and many can be found here now searching for lost magic.
+~
+0 DNT 3
+D3
+Exit ~
+door~
+16384 0 16007
+S
+#16041
+The Court Library~
+A wing in the Court Library. Many great minds have come to study
+here, and many can be found here now searching for lost magic.
+~
+0 DNT 3
+D0
+Exit ~
+door~
+16384 0 16007
+S
+#16042
+A Court Training Room~
+The war with the enemies of the trees is far from over. Training
+in all areas of combat sounds throughout this room.
+~
+0 DNT 3
+D3
+Exit ~
+door~
+16384 0 16024
+S
+#16043
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16044
+D2
+Exit ~
+door~
+16384 0 16035
+S
+#16044
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16045
+D2
+Exit ~
+door~
+16384 0 16043
+S
+#16045
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16046
+D3
+Exit ~
+door~
+16384 0 16044
+S
+#16046
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AT 3
+D1
+Exit ~
+door~
+16384 0 16047
+D3
+Exit ~
+door~
+16384 0 16045
+S
+#16047
+Deep in the Elenar Forest~
+Peering through the trees you think you see the faint outline
+of someone. Then again maybe not. You can't seem to see anything
+through this dense forest.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16048
+D3
+Exit ~
+door~
+16384 0 16046
+S
+#16048
+The Elenar Forest~
+The deeper you tred into the dark forest the more alone you feel,
+yet at the same time you feel you are constantly being watched. The
+only sounds you can here are the wildlife around you.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16049
+D2
+Exit ~
+door~
+16384 0 16047
+S
+#16049
+Entrance to The Sacred Tree~
+Standing outside one of the largest trees you have ever seen.
+Legends say that Megena herself blessed this tree in its youth
+and that is why it has grown so strong and is rich with magic.
+~
+0 AT 3
+D0
+Exit ~
+door~
+16384 0 16050
+D2
+Exit ~
+door~
+16384 0 16048
+S
+#16050
+The Elven Court~
+The High Elven Court gathers about discussing the future of  the
+Forest and all the Elven Lands. Years of wisdom have graced this
+Court and even in the darkest of times they have succeeded.
+~
+0 DNT 3
+D0
+Exit ~
+door~
+16487 16002 16051
+D1
+Exit ~
+door~
+16384 0 16053
+D2
+Exit ~
+door~
+16384 0 16049
+D3
+Exit ~
+door~
+16384 0 16052
+S
+#16051
+The Treasure of The Elven Court~
+Here lies some of the greatest treasures of the Elven Court. Hidden
+in this safe room from the drow and the other enemies of the forest.
+Given the small size of this room you find yourself very cramped.
+~
+0 DLT 3
+D2
+Exit ~
+door~
+16487 16002 16050
+S
+#16052
+The Sacred Blessing Chamber~
+Here the ancient Elven rituals take place. From preparation for 
+battle or the blessing of a wedding, it all begins in this room. The 
+feeling of Holiness fills the air.
+~
+0 DNT 3
+D1
+Exit ~
+door~
+16384 0 16050
+S
+#16053
+The Sacred Prayer Chamber~
+The smell of strong incense and the sound of soft prayers to the 
+Elven Gods circulate through the room. During the battles with the
+Drow sometimes only the strength of the Gods can help save the Forest.
+~
+0 DNT 3
+D3
+Exit ~
+door~
+16384 0 16050
+S
+#16054
+The Court Dining Rooms~
+Grand festivals and years of harmony and bliss once echoed in this
+tree. Now silent meals are prepared as the time for battle draws close.
+~
+0 DNT 3
+D2
+Exit ~
+door~
+16384 0 16037
+S
+#16055
+The Court Dining Rooms~
+Grand festivals and years of harmony and bliss once echoed in this
+tree. Now silent meals are prepared as the time for battle draws close.
+~
+0 DNT 3
+D0
+Exit ~
+door~
+16384 0 16037
+S
+#16056
+A Court Training Room~
+The war with the enemies of the trees is far from over. Training
+in all areas of combat sounds throughout this room.
+~
+0 DNT 3
+D2
+Exit ~
+door~
+16384 0 16024
+S
+#0
+
+#RESETS
+M 0 16011   1 16000  1	* an elven scout
+M 0 16010   5 16001  2	* an elven guard
+M 0 16010   5 16001  2	* an elven guard
+M 0 16002  18 16002  1	* an elven warrior
+M 0 16001   6 16004  1	* an elven commoner
+M 0 16002  18 16006  2	* an elven warrior
+M 0 16002  18 16006  2	* an elven warrior
+M 0 16002  18 16007  1	* an elven warrior
+M 0 16006   5 16007  1	* an elven commander
+M 0 16004   7 16007  1	* an elven priestess
+M 0 16003   7 16007  1	* an elven mage
+M 0 16001   6 16009  1	* an elven commoner
+M 0 16000   3 16009  1	* a goblin
+M 0 16012  12 16010  6	* an eagle
+M 0 16012  12 16010  6	* an eagle
+M 0 16012  12 16010  6	* an eagle
+M 0 16012  12 16010  6	* an eagle
+M 0 16012  12 16010  6	* an eagle
+M 0 16012  12 16010  6	* an eagle
+M 0 16010   5 16010  1	* an elven guard
+M 0 16002  18 16012  1	* an elven warrior
+M 0 16002  18 16013  2	* an elven warrior
+M 0 16002  18 16013  2	* an elven warrior
+M 0 16002  18 16014  1	* an elven warrior
+M 0 16006   5 16014  1	* an elven commander
+M 0 16004   7 16014  1	* an elven priestess
+M 0 16003   7 16014  1	* an elven mage
+M 0 16007   5 16015  1	* an elven countess
+M 0 16007   5 16016  1	* an elven countess
+M 0 16007   5 16017  1	* an elven countess
+M 0 16000   3 16018  1	* a goblin
+M 0 16002  18 16020  1	* an elven warrior
+M 0 16000   3 16021  1	* a goblin
+M 0 16002  18 16023  2	* an elven warrior
+M 0 16002  18 16023  2	* an elven warrior
+M 0 16002  18 16024  1	* an elven warrior
+M 0 16006   5 16024  1	* an elven commander
+M 0 16004   7 16024  1	* an elven priestess
+M 0 16003   7 16024  1	* an elven mage
+M 0 16004   7 16025  1	* an elven priestess
+M 0 16001   6 16027  1	* an elven commoner
+M 0 16002  18 16029  1	* an elven warrior
+M 0 16012  12 16031  6	* an eagle
+M 0 16012  12 16031  6	* an eagle
+M 0 16012  12 16031  6	* an eagle
+M 0 16012  12 16031  6	* an eagle
+M 0 16012  12 16031  6	* an eagle
+M 0 16012  12 16031  6	* an eagle
+M 0 16010   5 16031  1	* an elven guard
+M 0 16001   6 16032  1	* an elven commoner
+M 0 16010   5 16035  1	* an elven guard
+M 0 16002  18 16036  2	* an elven warrior
+M 0 16002  18 16036  2	* an elven warrior
+M 0 16002  18 16037  1	* an elven warrior
+M 0 16004   7 16037  1	* an elven priestess
+M 0 16003   7 16037  1	* an elven mage
+M 0 16006   5 16037  1	* an elven commander
+M 0 16005   4 16038  1	* an elven leader
+M 0 16003   7 16039  1	* an elven mage
+M 0 16003   7 16040  1	* an elven mage
+M 0 16003   7 16041  1	* an elven mage
+M 0 16004   7 16042  1	* an elven priestess
+M 0 16001   6 16043  1	* an elven commoner
+M 0 16001   6 16045  1	* an elven commoner
+M 0 16005   4 16048  1	* an elven leader
+M 0 16002  18 16048  1	* an elven warrior
+M 0 16005   4 16054  1	* an elven leader
+M 0 16005   4 16055  1	* an elven leader
+M 0 16004   7 16056  1	* an elven priestess
+M 0 16009   1 16050  1	* a cooshee
+M 0 16008   3 16050  1	* an elven count
+E 1 16010  -1    5	*   an Ancient Elven torso
+E 1 16011  -1    6	*   an Ancient Elven helm
+E 1 16012  -1    7	*   a pair of Ancient Elven leggings
+E 1 16013  -1    8	*   a pair of Ancient Elven boots
+E 1 16014  -1    9	*   a set of Ancient Elven gauntlets
+E 1 16015  -1   10	*   some Ancient Elven sleeves
+E 1 16016  -1   11	*   an Ancient Elven shield
+E 1 16017  -1   13	*   an Ancient Elven girth
+O 0 16001 100 16050	* the secret compartment
+P 1 16002  -1 16001  1	*   an Elven key
+O 0 16000 100 16050	* the Elven Court Throne
+M 0 16008   3 16052  1	* an elven count
+E 1 16009  -1   13	*   a Royal Elven girth
+E 1 16008  -1    7	*   a set of Royal Elven leggings
+E 1 16007  -1    8	*   a pair of Royal Elven boots
+E 1 16006  -1   10	*   some Royal Elven sleeves
+E 1 16005  -1    9	*   a pair of Royal Elven gauntlets
+E 1 16004  -1    6	*   a Royal Elven helm
+E 1 16003  -1    5	*   a Royal Elven vest
+M 0 16007   5 16052  1	* an elven countess
+M 0 16008   3 16053  1	* an elven count
+E 1 16003  -1    5	*   a Royal Elven vest
+E 1 16004  -1    6	*   a Royal Elven helm
+E 1 16005  -1    9	*   a pair of Royal Elven gauntlets
+E 1 16006  -1   10	*   some Royal Elven sleeves
+E 1 16007  -1    8	*   a pair of Royal Elven boots
+E 1 16008  -1    7	*   a set of Royal Elven leggings
+E 1 16009  -1   13	*   a Royal Elven girth
+M 0 16007   5 16053  1	* an elven countess
+M 0 16002  18 16049  1	* an elven warrior
+M 0 16006   5 16049  1	* an elven commander
+G 1 16018  -1     	*   a sizzling blade
+D 0 16000   0 16384	* The Elenar Forest north
+D 0 16000   2 16384	* The Elenar Forest south
+D 0 16001   0 16384	* Deep in the Elenar Forest north
+D 0 16001   2 16384	* Deep in the Elenar Forest south
+D 0 16002   0 16384	* Intersection in The Elenar Forest north
+D 0 16002   1 16384	* Intersection in The Elenar Forest east
+D 0 16002   3 16384	* Intersection in The Elenar Forest west
+D 0 16003   1 16384	* The Elenar Forest east
+D 0 16003   3 16384	* The Elenar Forest west
+D 0 16004   2 16384	* Deep in the Elenar Forest south
+D 0 16004   3 16384	* Deep in the Elenar Forest west
+D 0 16005   0 16384	* The Elenar Forest north
+D 0 16005   1 16384	* The Elenar Forest east
+D 0 16006   1 16384	* Entrance to A Great Tree east
+D 0 16006   3 16384	* Entrance to A Great Tree west
+D 0 16007   0 16384	* Inside a Great Tree north
+D 0 16007   1 16384	* Inside a Great Tree east
+D 0 16007   2 16384	* Inside a Great Tree south
+D 0 16007   3 16384	* Inside a Great Tree west
+D 0 16008   1 16384	* The Elenar Forest east
+D 0 16008   3 16384	* The Elenar Forest west
+D 0 16009   1 16384	* Intersection in The Elenar Forest east
+D 0 16009   2 16384	* Intersection in The Elenar Forest south
+D 0 16009   3 16384	* Intersection in The Elenar Forest west
+D 0 16010   1 16384	* A Guard Post east
+D 0 16011   0 16384	* Deep in the Elenar Forest north
+D 0 16011   2 16384	* Deep in the Elenar Forest south
+D 0 16012   0 16384	* Intersection in The Elenar Forest north
+D 0 16012   1 16384	* Intersection in The Elenar Forest east
+D 0 16012   2 16384	* Intersection in The Elenar Forest south
+D 0 16012   3 16384	* Intersection in The Elenar Forest west
+D 0 16013   1 16384	* Entrance to A Great Tree east
+D 0 16013   3 16384	* Entrance to A Great Tree west
+D 0 16014   0 16384	* Inside a Great Tree north
+D 0 16014   1 16384	* Inside a Great Tree east
+D 0 16014   2 16384	* Inside a Great Tree south
+D 0 16014   3 16384	* Inside a Great Tree west
+D 0 16015   2 16384	* A Court Elder's Room south
+D 0 16016   0 16384	* A Court Elder's Room north
+D 0 16017   1 16384	* A Court Elder's Room east
+D 0 16018   0 16384	* The Elenar Forest north
+D 0 16018   2 16384	* The Elenar Forest south
+D 0 16019   0 16384	* Deep in the Elenar Forest north
+D 0 16019   2 16384	* Deep in the Elenar Forest south
+D 0 16020   0 16384	* The Elenar Forest north
+D 0 16020   1 16384	* The Elenar Forest east
+D 0 16021   1 16384	* Deep in the Elenar Forest east
+D 0 16021   3 16384	* Deep in the Elenar Forest west
+D 0 16022   0 16384	* The Elenar Forest north
+D 0 16022   3 16384	* The Elenar Forest west
+D 0 16023   0 16384	* Entrance to A Great Tree north
+D 0 16023   2 16384	* Entrance to A Great Tree south
+D 0 16024   0 16384	* Inside a Great Tree north
+D 0 16024   1 16384	* Inside a Great Tree east
+D 0 16024   2 16384	* Inside a Great Tree south
+D 0 16024   3 16384	* Inside a Great Tree west
+D 0 16025   1 16384	* A Court Training Room east
+D 0 16026   1 16384	* The Elenar Forest east
+D 0 16026   3 16384	* The Elenar Forest west
+D 0 16027   1 16384	* Deep in the Elenar Forest east
+D 0 16027   3 16384	* Deep in the Elenar Forest west
+D 0 16028   1 16384	* The Elenar Forest east
+D 0 16028   3 16384	* The Elenar Forest west
+D 0 16029   2 16384	* Deep in the Elenar Forest south
+D 0 16029   3 16384	* Deep in the Elenar Forest west
+D 0 16030   0 16384	* Intersection in The Elenar Forest north
+D 0 16030   1 16384	* Intersection in The Elenar Forest east
+D 0 16030   2 16384	* Intersection in The Elenar Forest south
+D 0 16031   3 16384	* A Guard Post west
+D 0 16032   0 16384	* The Elenar Forest north
+D 0 16032   2 16384	* The Elenar Forest south
+D 0 16033   0 16384	* Deep in the Elenar Forest north
+D 0 16033   1 16384	* Deep in the Elenar Forest east
+D 0 16034   1 16384	* The Elenar Forest east
+D 0 16034   3 16384	* The Elenar Forest west
+D 0 16035   0 16384	* Intersection in The Elenar Forest north
+D 0 16035   2 16384	* Intersection in The Elenar Forest south
+D 0 16035   3 16384	* Intersection in The Elenar Forest west
+D 0 16036   0 16384	* Entrance to A Great Tree north
+D 0 16036   1 16384	* Entrance to A Great Tree east
+D 0 16037   0 16384	* Inside a Great Tree north
+D 0 16037   1 16384	* Inside a Great Tree east
+D 0 16037   2 16384	* Inside a Great Tree south
+D 0 16037   3 16384	* Inside a Great Tree west
+D 0 16038   3 16384	* The Court Dining Rooms west
+D 0 16039   2 16384	* The Court Library south
+D 0 16040   3 16384	* The Court Library west
+D 0 16041   0 16384	* The Court Library north
+D 0 16042   3 16384	* A Court Training Room west
+D 0 16043   0 16384	* Deep in the Elenar Forest north
+D 0 16043   2 16384	* Deep in the Elenar Forest south
+D 0 16044   1 16384	* The Elenar Forest east
+D 0 16044   2 16384	* The Elenar Forest south
+D 0 16045   1 16384	* Deep in the Elenar Forest east
+D 0 16045   3 16384	* Deep in the Elenar Forest west
+D 0 16046   1 16384	* Deep in the Elenar Forest east
+D 0 16046   3 16384	* Deep in the Elenar Forest west
+D 0 16047   0 16384	* Deep in the Elenar Forest north
+D 0 16047   3 16384	* Deep in the Elenar Forest west
+D 0 16048   0 16384	* The Elenar Forest north
+D 0 16048   2 16384	* The Elenar Forest south
+D 0 16049   0 16384	* Entrance to The Sacred Tree north
+D 0 16049   2 16384	* Entrance to The Sacred Tree south
+D 0 16050   0 16487	* The Elven Court north
+D 0 16050   1 16384	* The Elven Court east
+D 0 16050   2 16384	* The Elven Court south
+D 0 16050   3 16384	* The Elven Court west
+D 0 16051   2 16487	* The Treasure of The Elven Court south
+D 0 16052   1 16384	* The Sacred Blessing Chamber east
+D 0 16053   3 16384	* The Sacred Prayer Chamber west
+D 0 16054   2 16384	* The Court Dining Rooms south
+D 0 16055   0 16384	* The Court Dining Rooms north
+D 0 16056   2 16384	* A Court Training Room south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 16003 spec_cast_mage      	* an elven mage
+M 16004 spec_cast_cleric    	* an elven priestess
+M 16008 spec_cast_cleric    	* an elven count
+M 16009 spec_breath_any     	* a cooshee
+S
+
+#$

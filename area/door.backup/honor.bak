@@ -1,0 +1,1806 @@
+#AREA
+/mud/moosehead/area/honor.are~
+Hall of Ennoble~
+{ ALL } MHS     Hall of Ennoble~
+4300 4399
+
+#MOBILES
+#4300
+shopkeeper old man~
+the ancient potion-brewer~
+An old man eyes you greedily.
+The old man says, 'Would you like to buy a nice love potion?'
+~
+He looks very dangerous.  I wouldn't try to rob him.
+~
+human~
+ABQRV DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#4301
+Honor Clan Bartender~
+the Honor Clan Bartender~
+The Honor Clan Bartender stands here, ready to sell you a drink.
+~
+This man is a retired Honor member.  He has a kind smile as he offers
+to sell you a drink.
+~
+human~
+ABTa DF 1000 0
+0 1 10d10+10 10d10+10 10d10+200 slice
+-50 -50 -50 -50
+EFNU ABCD 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#4302
+old leather chair recliner~
+an old leather chair~
+An old leather recliner has nearly collapsed here.
+~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#4303
+healer~
+the healer~
+A healer is here, selling spells.
+~
+Although retired from adventuring, the healer still lends a hand.
+Type 'heal' to see a listing of spells.
+~
+human~
+ABQVa DFH 1000 0
+51 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#4300
+stone statue~
+a stone statue~
+A stone statue of a dwarven warrior is here.~
+~
+furniture 0 0
+0 0 0 0 0
+0 0 0 G
+E
+thunder statue~
+This is a finely crafted stone statue of Thunder, founder and first leader
+of the Honor Clan.  He is in full plate armor with sword drawn.  This warrior
+looks very powerful indeed!
+~
+#4301
+oak table~
+a large oak table~
+A large oak table is here.~
+wood~
+furniture 0 0
+5 0 D 100 100
+0 0 0 G
+#4302
+couch sofa~
+a small sofa~
+~
+cloth~
+furniture TY 0
+99 0 BEHK 100 100
+1 10 0 G
+#4303
+single bed~
+a single bed~
+A single bed.~
+~
+furniture I 0
+2 100 BEHK 110 110
+0 0 0 P
+#4304
+old leather chair recliner~
+an old leather chair~
+An old leather recliner has nearly collapsed here.~
+~
+furniture I 0
+2 0 CFIL 100 100
+0 0 0 P
+E
+leather~
+~
+E
+old leather chair recliner~
+Its worn brown surface invites you to sink into its comfy depths.  You
+wonder if it can actually hold anything, due to the amount of springs
+and fluff sticking out from its sides...
+~
+E
+old leather couch~
+You see an old leather couch standing in the corner awaiting it's use.
+Comfortable? Well it's better then sitting on the hard rock floor.
+~
+#4305
+dented cup herb tea~
+a dented cup of herb tea~
+A dented cup of herb tea is incredibly hot.~
+ceramic~
+drink 0 AO
+1 1 'tea' 0 0
+0 10 0 P
+#4306
+fireplace stove~
+a roaring fireplace~
+A roaring fireplace is set into the corner here.~
+~
+container 0 0
+200 DGH 0 200 100
+0 100 0 P
+E
+fireplace stove~
+Wow, this fire is warm!  It is weren't for that haggis, you might draw
+closer and warm yourself by it.
+~
+#4307
+haggis~
+some haggis~
+Some haggis is steaming here.~
+entrails~
+food ORSY A
+1 1 0 0 0
+0 20 0 P
+E
+haggis~
+You look at this meal and don't even know which side is up!  A favorite
+dish among Dwarves, it consists of a sheep's or calf's offal mixed with
+suet, oatmeal, veggies, and dragon's testicles.  Then it is cooked over
+an open flame for about an hour, while wrapped up inside a bag made from
+the animal's stomach.
+~
+#4308
+wood firewood~
+some firewood~
+Some firewood lies dangerously close to the fire here.~
+wood~
+light ORSY A
+0 0 20 0 0
+0 50 0 P
+#4309
+bottle firebreather breather~
+a bottle of Firebreather~
+A bottle of Firebreather sits here.~
+~
+drink N A
+10 10 'firebreather' 0 0
+0 10 100 P
+#4310
+hot spring springs~
+a hot spring~
+~
+water~
+furniture TY 0
+99 0 CFIL 100 100
+0 10 50 P
+#4311
+glass milk~
+a glass of milk~
+A glass of milk sits warming here.~
+~
+drink N A
+3 3 'milk' 0 0
+0 10 5 P
+#4312
+glass beer moosehead head sled~
+a glass of Moosehead Sled beer~
+A glass of Moosehead Sled beer is here.~
+~
+drink N A
+6 6 'beer' 0 0
+0 10 50 P
+#4313
+cup coffee~
+a cup of coffee~
+A cup of coffee is cooling here.~
+~
+drink N A
+3 3 'coffee' 0 0
+0 10 20 P
+#4314
+can pepsi~
+a can of Pepsi~
+A can of Pepsi loses its bubbles here.~
+~
+drink N A
+6 6 'pepsi' 0 0
+0 10 10 P
+#4315
+cup blood demisers~
+a cup of Demiser's blood~
+A cup of Demiser's blood is stinking here.~
+~
+drink N A
+5 5 'blood' 0 0
+0 100 100 P
+#4316
+shot whiskey~
+a shot of whiskey~
+A shot of whiskey begs to be consumed.~
+~
+drink N A
+2 2 'whisky' 0 0
+0 10 30 P
+#4317
+rug shaggy mat~
+a large, shaggy rug~
+A large, shaggy rug covers the floor.~
+~
+furniture 0 0
+20 0 BEHK 100 100
+0 100 0 P
+E
+large shaggy brown rug mat~
+A large, brown rug made of some large beast is stretched out here,
+giving the room a finishing touch of coziness.  Despite being constantly
+underfoot from all who walk in here, it looks clean!  Could it be that
+Palibar actually tidies up his room now and then??
+~
+E
+large shaggy mat rug~
+A large, brown rug made of some large beast is stretched out here,
+give the room a finishing touch of coziness.  Despite being constantly
+underfoot from all who walk in, it looks clean!  Could it be that Palibar
+actually tidies up his room now and then??
+~
+#4318
+old leather chair recliner~
+an old leather chair~
+An old leather recliner has nearly collapsed here.~
+~
+furniture 0 0
+1 0 CFIL 100 100
+0 100 0 P
+E
+old leather chair recliner~
+Its worn brown surface invites you to sink into its comfy depths.
+You wonder if it can actually hold anything, due to the amount of
+springs and fluff sticking out from its sides...
+~
+#4319
+icewine rebecca bottle crystal clear wine~
+a bottle of Rebecca's Icewine~
+A bottle of Rebecca's crystal clear icewine.~
+~
+drink A AO
+100 100 'icewine' 0 0
+0 100 350 P
+E
+rebecca icewine wine crystal clear~
+This drink is in memory of all Honor that has come and gone:
+Nightman, Thunder, Maggie, Soviet, Rage, Seog, Dazrin - just to
+name a few.  But is also for those that represent us in other ways.
+And so, we dedicate this drink to Rebecca, for all her help in
+past quests and her dedication (and patience) on helping us form this
+lovely clan hall.
+~
+#4320
+drow~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 5100 0
+0 100 0 P
+#4321
+Haon Dor~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 6102 0
+0 100 0 P
+#4322
+ancient thalos~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 5300 0
+0 100 0 P
+#4323
+elemental canyon~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 9209 0
+0 100 0 P
+#4324
+Pyramid~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 8701 0
+0 100 0 P
+#4325
+shadow grove~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 1300 0
+0 100 0 P
+#4326
+the dragon's hoard~
+Dragon's hoard~
+The Dragon's Hoard glitters and glows here.~
+~
+furniture AG P
+1 0 BEHK 100 100
+0 100 0 P
+E
+dragon hoard treasure gems~
+This pile of gold and gems is as hard as... well, gold and gems.  You find
+it hard to believe that somebody would be able to sleep on this (although
+you really would not mind).  You bad it is all magically bound to this room,
+never to line your own pockets anywhere but inside this strange chamber.
+~
+#4327
+huge rug floor~
+the huge rug~
+The huge rug covers the floor of this vast room.~
+~
+furniture 0 P
+20 0 BEHK 100 100
+0 100 0 P
+E
+rug huge floor~
+This rug is HUGE, huge enough for a small army.  It stays immaculately clean,
+also. Must be something in the air...
+~
+#4328
+fireplace roaring~
+a roaring fireplace~
+A roaring fireplace nearly covers one wall.~
+~
+container 0 P
+300000 0 0 300000 100
+0 100 0 P
+E
+fireplace roaring~
+Wow, it's hot!  It seems to burn through magical means, with the fire coming
+through the walls itself.  Seems like a good place to cook a meal (if the
+meal is for 20 dragons).
+~
+#4329
+couch throne chair~
+Tomato's throne~
+A cozy leather couch sits here, the colour of tomatoes.~
+leather~
+furniture OT P
+1 0 BEHK 100 100
+1 400 1 P
+E
+couch throne chair~
+Tomato's throne isn't what you expected, but she never was one for
+the fancy stuff.
+~
+#4330
+jacuzzi water hot~
+a hot relaxing jacuzzi~
+A hot relaxing jacuzzi twirls with bubbles here.~
+porcelain~
+furniture I 0
+255 0 CFIL 100 100
+0 0 0 P
+#4331
+Nyanniichuan pool water spring fountain~
+the Nyanniichuan~
+Before you lies the legendary pool, the Nyanniichuan.~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+#4332
+picture painting nixy~
+a painting of Mammoth's beautiful wife, Nixy~
+You see a painting hanging on the wall.~
+canvas~
+furniture AORSTY 0
+0 0 0 0 0
+0 100 0 P
+E
+painting nixy~
+Here you see a beautiful giant warrior.  She is Mammoth's beloved wife, Nixy.
+~
+#4333
+white leather couch~
+a white leather couch~
+You see a comfortable white leather couch here.~
+~
+furniture 0 0
+5 0 BEHK 100 100
+0 100 0 P
+#4334
+bar~
+the bar~
+A hand-crafted solid-oak bar stands here.~
+wood~
+container DOTY 0
+400 ACD 5555 50 50
+1 100 0 P
+E
+bar~
+This is a beautifully crafted bar, made by Cresent.
+~
+#4335
+fountain gold crystal~
+a gold-etched crystal fountain~
+A gold-etched crystal fountain is here, bubbling away merrily.~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+fountain~
+Donated by Camille Devereux.
+~
+#4336
+crystal vase~
+a crystal vase~
+A splendid crystal vase lies here.~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+#4337
+love seat~
+a love seat~
+A velvet burgundy love seat for two is here.~
+cloth~
+furniture OTY 0
+2 0 BEH 100 100
+1 100 0 P
+E
+love seat~
+Running your hand across this finely textured seat you admire its rich
+burgundy colour and notice the craftmanship of the hand-carved wood.
+~
+#4338
+bed four poster canopy~
+a four-poster bed~
+A soft bed stuffed with griffin feathers is here.~
+feathers~
+furniture OTY 0
+2 0 BEHK 100 100
+1 100 0 P
+E
+bed~
+Made of the finest enchanted oak and with the expert craftmanship of the
+elven nation this bed is obviously high quality.  You almost miss the ornate
+woodworking on the frame as your eyes are drawn to the drawn chiffon curtains.
+~
+#4339
+marble fountain water~
+a beautiful marble fountain~
+A beautiful marble fountain bubbles merrily.~
+~
+fountain 0 0
+0 0 'water' 0 0
+1 0 0 G
+E
+marble fountain~
+This beautiful marble fountain depicts a meeting between the four
+mighty creatures of legend: the fiery phoenix, the mighty gryphon,
+the cunning manticore and the powerful dragon.  Legend speaks of a
+pact sealed between them, which dictated the mixture of their life
+essences in the creation of one entity: Kunji.
+~
+#4340
+black marble fountain blood water~
+a fountain of bubbling blood~
+a black, marble fountain of blood sits here.~
+~
+fountain O 0
+0 0 'water' 0 0
+1 20000 0 P
+E
+black marble fountain blood water~
+This fountain once belonged to the Devil himself.  From it flowed nothing
+but the purest evil.  After much effort on the part of Hash, it has
+finally been purified and now provides him with sustanance.  It still 
+appears evil however, and if I were you, I'd consider seriously wether
+or not I needed a drink before attempting to take water from it.
+~
+E
+Jump~
+You jump into the water and clean your self up. Ahh.. How refreshing.
+~
+#4341
+bar stool stools~
+a wooden bar stool~
+Six wooden bar stools line the front of the bar.~
+wood~
+furniture OTY 0
+3 0 BEH 100 100
+1 100 0 P
+E
+bar stool~
+They look ike the perfect place to relax and have a few cold ones.
+~
+#4342
+bed~
+a bed~
+A bed with black silken sheets.~
+silk~
+furniture OTY 0
+2 0 BEHK 100 100
+0 100 0 P
+E
+bed~
+At the back wall of the room lies a large, king-size bed. The bed
+looks very comfortable but the black silken sheets still manage to
+create an eerie atmosphere to an already dark room.
+~
+#4343
+golden honor plaque honor code~
+a golden plaque~
+The code of Honor is etched on a golden plaque.~
+~
+trash RT P
+0 0 0 0 0
+0 100 0 P
+E
+plaque honor code golden golden~
+***************************  THE CODE OF HONOR  ***************************
+*                                                                         *
+* 1. Watch what you say, especially on public channels.  Mild taunting is *
+*      ok, but pointless slandering is not.                               *
+*                                                                         *
+* 2. Never full loot.  You may initially loot all, but always return some *
+*      of the items.                                                      *
+*                                                                         *
+* 3. Never argue over the clan channel.  If it escalates, either take it  *
+*      to tells, or sit down & discuss it in the War Room.                *
+*                                                                         *
+* 4. Take time to help others.  Your clanmates, allies, and newbies are   *
+ 
+*      often in need.                                                     *
+*                                                                         *
+* 5. Be constructive.  If you see a problem, offer a solution.  Whining   *
+*      is not constructive.                                               *
+*                                                                         *
+* 6. Most importantly, always let the honor in your heart guide you and   *
+*      Treasure it that it may never tarnish or die.                      *
+*                                                                         *
+**************************************************************************
+~
+#4344
+bed queen~
+Waterlilly's Queen-sized bed~
+Here stands a four poster bed with silken sheets and pillows.~
+cloth~
+furniture OTY 0
+2 0 BEHK 100 100
+0 100 0 P
+#4345
+granite bed~
+a granite bed~
+A sturdy slab of black granite rests here, supported by four short, matching columns.~
+granite~
+furniture OTY 0
+2 0 BEHL 100 100
+1 100 0 P
+E
+bed~
+Upon further inspection, you find that the slab's surface ripples with
+your touch, but remains solid.  Intrigued, you lie down and find the
+slab has molded itself to your contours... very comfortable.
+~
+#4346
+box magic~
+a Big Screen TV~
+A Big Screen TV.~
+wood~
+trash TY 0
+0 0 0 0 0
+0 100 0 P
+E
+tv box big screen~
+This amazing box carries pictures from all around.
+Donated by Stylee.
+~
+#4347
+vase~
+a beautiful vase~
+~
+china~
+container OTY 0
+100 0 0 100 100
+1 100 0 P
+E
+vase~
+With closer inspection, you notice the fine, delicate frosts and 
+etchings of the vase, depicting a majestic mountain scene. In the 
+foreground is a noble looking giant with an extremely beautiful elven 
+lady by his side. Through the magic of the craftsman, the armor of the 
+giant seems to glisten with silver sparkles while her long flowing red 
+hair is caressed by the wind. Beneath the delicate artwork is an 
+inscription that reads,
+ 
+        */\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*
+        |To my beloved Marina -                                  |
+        | It is my hope that our Love will continue to blossom   |
+        | and grow, like these flowers, until the end of Eternity|
+        |                                                        |
+        |               With Love,                               |
+        |                   Sterling Silveria                    |
+        |                                                        |
+        *\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/*
+ 
+The roses, which you only noticed to be silver before, actually shift 
+their colors, from pure silver to hues of purple and blue. The changing
+of the colors is not in unison, but does remain in a set pattern unique
+to each delicate bloom. In awe of their beauty, you pick one, and cannot
+help staring in amazement as a new bud grows from the vase to replace
+it.
+~
+#4348
+rose silver~
+a sparkling silver rose~
+A pure silver rose glistens in the light.~
+organic~
+jewelry A AO
+0 0 0 0 0
+0 1 0 P
+E
+rose~
+A pure silver rose glistens in the light as it phases through blue and
+purple hues, an expression of Sterling's Love for Marina.
+~
+#4349
+redferne~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 7900 0
+0 100 0 P
+#4350
+midgaard~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 3001 0
+0 100 0 P
+#4351
+water fountain ivory~
+a beautiful ivory fountain~
+A beautiful ivory fountain gurgles happily here.~
+~
+fountain 0 0
+0 0 'water' 0 0
+1 0 0 G
+#4352
+etched brass plaque~
+a plaque~
+.~
+wood~
+trash TY 0
+0 0 0 0 0
+0 100 0 P
+E
+etched brass plaque~
+This vortex is known to be a traveling agent.  It seems unstable, but if
+one enters it with a destination in mind he is generally safe from harm.
+        -----------------------------------------------------
+       |      Here is a list of suggested paths...           |
+       |                                                     |
+       |  Haon Dor       (Enter Haon / Enter Dor)            |
+       |  Drow City      (Enter Drow)                        |
+       |  Ancient Thalos (Enter Ancient / Enter Thalos)      |
+       |  Elem. Canyon   (Enter Elemental / Enter Canyon)    |
+       |  Great Pyramid  (Enter Pyramid)                     |
+       |  Shadow Grove   (Enter Shadow / Enter Grove)        |
+       |  Redferne's     (Enter Redferne)                    |
+       |  Midgaard       (Enter Midgaard)                    |
+       |                                                     |
+       |        May your journeys bring forth a new light!   |
+       \-----------------------------------------------------/
+~
+#4353
+cedar shelf shelves pit~
+some cedar shelves~
+~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+#4354
+large chair~
+a large chair at the end of the table~
+~
+cloth~
+furniture TY 0
+1 0 CFIL 100 100
+0 100 0 P
+#0
+
+#ROOMS
+#4300
+The Grand Vestibule of Ennoble.~
+Upon entering this grand entrance room you can't help but admire the
+tall pillars stretching up to the cathedral-style ceiling.  There is an
+ivory fountain that invites you to take a drink. Energy fills you as you
+begin to think that at last you have a place you can call your home.
+~
+0 DK 0
+D0
+Exit ~
+door~
+0 0 4303
+D1
+Exit ~
+door~
+0 0 4310
+D3
+Exit ~
+~
+0 -1 4301
+D4
+Exit ~
+door~
+0 0 4305
+S
+#4301
+The Little Shop~
+When you enter this room the aroma of food is simply amazing.  The man
+behind the counter is cooking food and he does a good job of it too.
+However If you are looking for other necessities you have come to the
+right place, the man behind the counter can sell you most anything you
+may need for the journeys that await you.
+~
+0 DK 0
+D0
+Exit ~
+door~
+0 0 4302
+D1
+Exit ~
+~
+0 -1 4300
+D5
+Exit ~
+door~
+0 0 4304
+S
+#4302
+Storage Closet~
+As you enter this large, walk in closet you notice the smell of cedar
+permeates your clothing.  Sturdy shelves line the walls here filled with
+items for the taking.
+~
+0 DK 0
+D1
+Exit ~
+door~
+0 0 4303
+D2
+Exit ~
+door~
+0 0 4301
+S
+#4303
+Temple of Ennoble~
+Much like the entrance room, tall pillars reach up to high ceilings.  You
+notice a change of atmosphere, however.  Gone is the hustle-bustle of clan
+life.  You feel a wave of calm pass over you as you walk up to the altar
+of this temple.  An old man wearing holy robes smiles at you as you enter.;
+~
+0 CDK 0
+D2
+Exit ~
+door~
+0 0 4300
+D3
+Exit ~
+door~
+0 0 4302
+S
+#4304
+A Swirling Vortex~
+The very air in this room seems to be unstable.  A large vortex of
+unknown material spins in the center of the room.  You seem drawn to it
+and want to jump in and let it take you where it will.  You notice an
+etched brass plaque on the wall.
+~
+0 DK 0
+D4
+Exit ~
+door~
+0 0 4301
+E
+golden archway~
+The archway stands 8 feet tall and gleems with a holy golden radiance.
+Its surface it made of the strongest platinum.  Gazing through it, you
+come ro realise that you are not realy looking at the other side, but 
+merely a cleaner or holyer version of the world that you currently live
+in.
+~
+S
+#4305
+Corridors of Honor, 1st level~
+You are in the corridors of Honor where private offices, residences,
+and other rooms can be found.  To the south you see a short, oak, metal-
+handled, worn, old, knife-driven, splintered door.  To the north, a 
+beautiful, highly-polished, tall cedar door looms before you.
+To the east is a hand-carved wooden door with a Knightly crest upon it.
+~
+0 CDKU 0
+D0
+Exit ~
+door~
+1 0 4306
+D1
+Exit ~
+door~
+4 4348 4317
+D2
+Exit ~
+door~
+1 0 4307
+D3
+Exit ~
+door~
+0 0 4308
+D4
+Exit ~
+door~
+0 0 4319
+D5
+Exit ~
+door~
+0 0 4300
+E
+south short oak metal splintered~
+You see the entrance to the room of Clan Lt. Palibar.  The door, though
+scratched, beaten, splintered, and notched, still holds strong and solid.
+~
+E
+short oak south metalhandled handled worn old knifedriven driven splintered~
+You see the door to the room of Clan Lt. Palibar.
+~
+E
+east crest~
+A beaded curtain with a magical force field surrounding it hangs here.
+~
+S
+#4306
+Sterling's Chamber~
+This room is made entirely of a deep shade of dark green marble
+with flecks of black and silver. In each corner stands a marble
+pillar, almost as big around as Sterling himself.  Each pillar is
+delicately etched and antiqued with scenes from Honor's history.
+In the center of the east wall is an exquisite waterfall with
+flower beds stretching from its base to the north and south walls.
+In the center of the north wall is a large fireplace with odd
+glass tubes on the back wall behind a thick screen.  The floor
+is oddly warm for marble.  On the East wall is a portrait.
+~
+0 CDK 0
+D2
+Exit ~
+door~
+1 0 4305
+E
+door~
+You see the exit.
+~
+S
+#4307
+Palibar's Room~
+You have entered the room of the clan Lt. Palibar 'the torque' McHaggis,
+explaining why the room is about 5' high in total, so watch your head.
+A strange smell assaults your nostrils, drawing you toward the fire in
+the corner of the room.  When you look inside the fire, you see Pal's
+favorite dish roasting to perfection, a nice scoff of haggis.  Adorning
+the walls are various worn-out weapons and tarnished armors, nearly
+useless from years of use.  Over the fireplace hangs a large oil painting
+of Crusher, Miskahal, and Palibar.  Aside from the large rug, a roaring
+fire, and a nice worn-out couch in front of the fire, the rest is
+pretty well dwarvish in nature.
+~
+0 CDKNT 0
+D0
+Exit ~
+door~
+1 0 4305
+D2
+Exit ~
+door~
+1 0 4313
+E
+picture painting oilpainting~
+This painting holds the likeness of Crusher, Miskahal, and Palibar posing
+together. It must mean something great to Pal considering he placed the
+picture above his beloved Haggis.
+~
+S
+#4308
+Corridors of Honor~
+You are in the corridors of Honor where private offices, residences,
+and other rooms can be found.
+~
+0 CDK 0
+D0
+Exit ~
+door~
+1 0 4309
+D1
+Exit ~
+door~
+0 0 4305
+D2
+Exit ~
+door~
+1 0 4322
+D3
+Exit ~
+door~
+1 0 4316
+D4
+Exit ~
+door~
+0 0 4314
+D5
+Exit ~
+door~
+1 0 4315
+S
+#4309
+AshenShugar's Room~
+Entering through the huge blue steel doors, you are awed by the sight before
+you... A chamber, larger than the exterior of the clan hall lies before you,
+a sight most have not seen.  Obviously magically supported, the huge vaulted
+ceiling would allow even the largest of creatures breathing room.  Lining the
+walls of the chamber, holding up supports, are statues of various figures,  
+sculpted from pure white marble.  Between each statue are giant murals,
+depicting a great battle in which involves the figure from which that statue
+was sculpted after.  At the very end of the room, a yawning fireplace roars,
+warming up the entire room to an almost uncomfortable warm temperature.  Above
+its rather huge mantle, another mural is visible, spanning the entire wall.
+It represents a great celebration, in which all the leaders of Honor are cele-
+brating. A sudden sparkle catches your eye, and you see a sight which makes
+you nearly faint.  A pile of gold, gems and jewelry, larger and greater than
+any you have ever seen, a hoard of treasure that surely only could be part of
+your wildest dreams, piled and shaped in a way that would surely be comfortable
+for only a dragon.  In the enter of the chamber, a gigantic rug containing the
+symbol of Honor covers most of the room's floor.  Grabbing a few gems (surely
+they would not be missed), you leave this place awed, for this room was surely
+a wonderous sight to have seen.  But your glee fades, as do the gems in your
+possession, when you pass beyond the huge doors.
+~
+0 CDK 0
+D2
+Exit ~
+door~
+1 0 4308
+E
+pillars statues figures wall~
+Each statue is of a different person.  You examine them and find most to be
+unfamiliar, until you reach near the end.  You find that these have been
+modeled after current Honor members.  Manchester, Kalgalath, Quintanas, Trini,
+and Miskhal are some of the more familiar ones, each sculpted in all their
+glory.
+~
+E
+mantle mural large celebration~
+This huge mural seems to almost come alive.  A huge table holding every type
+of food and drink hosts a number of well-known figures, each of whom you can
+identify as an Honor leader.  At the head of the table, Thunder, founder of
+Honor, hoists his cup in a toast to his comrades.
+~
+S
+#4310
+The Recreation Room of Ennoble~
+The minute you enter this room you feel your health improving.  The
+forces of the realm unite to improve flesh and soul.  Faint, relaxing
+music can be heard, but not entirely placed.  This seems an ideal place to
+relax and share stories of glory with your fellow clanmates.
+~
+0 DK 0
+H 200 M 200
+D0
+Exit ~
+door~
+0 0 4311
+D1
+Exit ~
+door~
+0 0 4332
+D2
+Exit ~
+door~
+0 0 4312
+D3
+Exit ~
+door~
+0 0 4300
+S
+#4311
+Ye Olde Pub~
+After a long hard day of killing and being killed, what would taste better
+than a nice ice cold beverage? This room is where you can meet up with
+your fellow clan mates and chat about the days events and enjoy the taste
+of a nice cold beer.  There are many stools so that you have a place to 
+sit and relax just to tell as many stories as you can muster.
+~
+0 DK 0
+D2
+Exit ~
+door~
+0 0 4310
+S
+#4312
+Council Chambers~
+As you look around you see a magnificent oval table dominating the
+center of the room, surrounded by solid walnut chairs.   At one end of the
+oval table is a large, sturdy chair.  Here, the clan leader sits while
+consulting council members, as well as other members.  Oil lamps are spaced
+evenly around the wooden panneling of the room, providing a steady,
+flickering light.  The only exit is through the door to the north.
+~
+0 DK 0
+D0
+Exit ~
+door~
+0 0 4310
+S
+#4313
+Pal's Bedroom~
+Palibar's personal bedroom.  It is dark and very bland, compared to,
+well, just about anything else.  There is a single bed in the center of
+the room and little else.
+~
+0 ACDKNPTU 0
+O immortal bouncer~
+D0
+Exit ~
+door~
+1 0 4307
+S
+#4314
+Waterlilly's Chambers~
+Here stands a beautiful room with a large fireplace, a golden statue and
+a large bed.  To your right is a large picture of a woman; it's Waterlilly.
+Then you glance to the left:  It'a path that leads Waterlilly to the forest
+where she spends much of her time with the animals and the flowers.  A small
+stream comes down from the heavens to the forest which leads to her hottub.
+Waterlilly is a 6'0" angel with dark blue hair and ruby red eyes.  Over the
+entrance says "I will live with Honor, I will die with Honor"
+~
+0 CK 0
+D5
+Exit ~
+door~
+0 0 4308
+E
+palibars~
+A painting of Palibar shows him looking quite agitated at posing
+for this picture, but then, when does he not?
+~
+E
+waterpaintings paintings pictures walls glass~
+Pictures of Tomato's many ex-husbands line the glass walls here.  But
+away from those stand three paintings that stand out.  Not Tomato's
+husbands, but her good comrades and friends.  Crusher, RaeFon, and Palibar
+have posed for these colorful veggie-dyed pictures.
+~
+E
+crushers~
+A picture of Crusher shows him standing in a victory pose over Maclav,
+still fixing his deadly gaze over the still-warm corpse.
+~
+E
+raefons~
+A painting of RaeFon depicts him standing alongside Tomato, smiling and
+poking his best friend.  They look like they enjoy each other immensely.
+~
+S
+#4315
+Cursed Springs of Juusenkyo~
+Before you lies a large field with hundreds of pools of clear water in
+the ground.  From each of the pools rises a pole of perhaps 20 feet in
+height, making the field resemble a large forest of bare trees.  A
+strange mist rises from the pools and you feel a strange sensation, as if
+you are being drawn towards them.  Images of pandas and pigs, of cats and
+nubile young women flash through your mind, images of battles fought and
+yet to come, visions of splendor and of horror.  A voice calls to you
+from somewhere, as if the wind itself were speaking...
+        "Beware the pools, beware the curse of Juusenkyo!"
+~
+0 CDK 0
+D4
+Exit ~
+door~
+1 0 4308
+S
+#4316
+Mammoth and Nixy's suite~
+This room is very large and spacious. There is a fireplace on the wall that 
+lights up the entire room. You feel very warm and cozy here. As you rest here, 
+a feeling of safety and protection overcomes. It is almost like the Lord of 
+Honor is watching over you himself. The room is well decorated with a very 
+large central window with curtains. On the floor is a very large fur rug that 
+feels nice and warm to lie down on. On the wall, there are paintings of the 
+past Lords of Honor, as a tribute to their service and dedication to the clan.
+On the main wall, there is a large painting of Mammoth's beautiful wife, Nixy.
+it appears as if she watches over you as you rest here.
+~
+0 CK 0
+D1
+Exit ~
+door~
+1 0 4308
+S
+#4317
+Marina's Sanctuary~
+You feel instantly relaxed upon entring this haven.  Soft music filters
+through the room from an unseen source.  A swirling portrait hangs over
+the crackling fireplace depicting a pleasant green forest scene.  You
+look closer and discover its misty hues shift to reflect Marina's current
+mood.  In front of the fireplace a throw rug of burgundy and deep blues
+covers the hardwood floor.  Marina's silver cat Riley rests on the rug
+quietly preening.  She rumbles a greeting and raises her head, blinking.
+You can't help but give her an affectionate pat or two.
+ 
+An intricately carved emerald vase hovers here atop a pillar of gently
+swirling red flame, providing a haven for a flourish of silver roses.
+~
+0 CDKP 0
+D3
+Exit ~
+door~
+4 4348 4305
+S
+#4318
+Corridors of Honor, 3rd level~
+You are in the corridors of Honor where private offices, residences,
+and other rooms can be found.  This floor is fairly barren at the moment.
+~
+0 CDK 0
+D0
+Exit ~
+door~
+0 0 4330
+D2
+Exit ~
+door~
+0 0 4331
+D5
+Exit ~
+door~
+0 0 4319
+S
+#4319
+Corridors of Honor, 2nd level~
+You are in the corridors of Honor where private offices, residences,
+and other rooms can be found.  This floor is fairly barren at the moment.
+Only a single room lies to the south, residence for a couple, by the 
+ornamentation on the door.
+~
+0 CDK 0
+D0
+Exit ~
+door~
+0 0 4323
+D1
+Exit ~
+door~
+1 0 4321
+D2
+Exit ~
+door~
+1 0 4320
+D3
+Exit ~
+door~
+0 0 4324
+D4
+Exit ~
+door~
+0 0 4318
+D5
+Exit ~
+door~
+0 0 4305
+S
+#4320
+Elektra and Noraim's Den~
+You are in a small comfortable cave that is home to
+Elektra and Noraim.  Though small, it is very nice as far
+as caves go.  It is well furnished and has all of the
+necessities to live comfortably.  This seems to be a
+friendly place to just sit back and chat for a while.
+~
+0 CDK 0
+D0
+Exit ~
+door~
+1 0 4319
+S
+#4321
+Belldandy's Roost~
+You enter though a round opening of what appears to be a giant
+birdhouse.  Soft and fluffy blankets and plump pillows are strewn about
+the area.  There are a multitude of chewed humanoid leg bones that have
+been piled in a dark corner.  A bowl of water and another empty bowl
+marked "Griffin" are placed on a bright blue place mat.  Above on a very
+high shelf are stacked a bunch of cans marked "Griffin's Gourmet"...
+they come in many flavors too: Beef, Chicken, Rabbit, Elf, and Demiser.
+The creature that resides here is truly a pampered and well loved pet.
+~
+0 CK 0
+D3
+Exit ~
+door~
+1 0 4319
+S
+#4322
+Belevairn's Dark Glowing Dwelling~
+As you walk in to this dark room your eyes take a while to adjust
+but slowly the walls begin glowing eerily and shapes begin to take
+form slowly.  Your eyes begin to make out a rack on a wall
+containing many weapons most likely won on previous adventures.
+They all shine gleamingly as if taken care by a true master of
+war.  As you look to the other wall you notice a shelf with large
+jars lined up along the wall.  As you look closer you see shrunken
+heads in each jar and cut into each forehead is the name of a clan.
+Many contain heads with the word DEMISE etched into their foreheads
+and as you look further along the shelves after seeing those
+disgusting heads you see a 3 large plants on the shelf.  Alongside
+the plants lay a small package.  As you look to the last corner
+of the room you see a large elegant 4 poster bed.  It has black
+silk sheets and a black silky smooth comforter.  Beside the bed
+on a small table sits a bottle of strong sweet smelling wine.  
+The bottle's label says GreenWood Elf-wine.  You are tempted
+to take a sip of this sweet smelling wine.
+~
+0 CDK 0
+D0
+Exit ~
+door~
+1 0 4308
+S
+#4323
+The Haven of Mostius Karver.~
+You enter the room from the south and you are soon surrounded by a
+cloud of darkness that shrouds you in black.  Not only can you not
+see but a wave of calm is passing over you, it makes you feel a little
+light headed but still stable. Walking further into the blackness it
+slowly fades to a dim red light and you can now visualize your
+surroundings.  The room looks carved from a single block of black marble,
+the walls are adorned by various weapons and pieces of armour.  The room
+is lit by mystical red torches flickering in a small but cold breeze.
+At the center of the room is a coffin made from a strange pitch black
+metal fit with finely crafted jewels.  Around the coffin are candles that
+burn never ending and the wax drys in thick pools on the ground.  The 
+coffin and the candles sit at the center of a large blood red pentagram.
+The room seems empty after that except for a large desk that holds many
+books from ages past.
+~
+0 CK 0
+D2
+Exit ~
+door~
+1 0 4319
+S
+#4324
+Corridors of Honor, Level 2~
+The mazelike corridors of Honor continue on here.
+To the South you see Tas and MoonAngels room.
+~
+0 CK 0
+D0
+Exit ~
+door~
+0 0 4325
+D1
+Exit ~
+door~
+0 0 4319
+D2
+Exit ~
+door~
+1 0 4327
+D3
+Exit ~
+door~
+1 0 4328
+D4
+Exit ~
+door~
+0 0 4326
+D5
+Exit ~
+door~
+1 0 4329
+E
+door~
+Nothing special there.
+~
+E
+west~
+Nothing special there.
+~
+S
+#4325
+Sleeth's Hideout~
+You have entered a dark room, with the ever so faint smell of
+cigarette smoke.  As you look to and fro around the room, you
+note various tools of thievery and subterfuge carelessly strewn
+around.  The inhabitant of this room is a true rogue, indeed.
+~
+0 CKT 0
+O Sleeth Ravenna Immortal~
+D2
+Exit ~
+door~
+0 0 4324
+S
+#4326
+Saphron's Chamber~
+You enter a room similar to the tomb of Tutankamun, filled to the
+ceiling with trasures and equipment of Demisers.  In one corner of the
+room is a sleeping mat.  Humble lodgings for such a rich person.  You feel
+right at home as you are greeted by the owner, Saphron Theef.
+~
+0 CDK 0
+D5
+Exit ~
+door~
+0 0 4324
+S
+#4327
+Tas and Moonangels Room~
+As you enter the room, you notice the various different 
+weapon types adorning the wall. Trophies from several different 
+kills line a shelf on the back wall.  In one corner,  
+Tas and Moonangel's bodybuilding equipment stand.  From the wear
+and tear you can tell that it has been used quite often.  
+You notice an open chest of pictures and letters from Tas's past, 
+such as his parents BloodMoon and Alucard.  After reading a few notes 
+you can discern that Tas led a very evil past.
+ 
+ 
+Glancing at the table,you notice a beautiful picture
+of MoonAngel.  It is adorned with a single rose, and has a caption.
+The caption reads:
+ 
+ 
+"To the love of my life,who showed me the happiness of
+the light,and who turned me away from the evil path of darkness"
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 4324
+S
+#4328
+Alanza's Room~
+Big.  Very Big
+Messy.  Very Messy.
+ 
+As you look around this room, you notice many things scattered about.  There
+are some used clothes in the middle of the floor, and all of the bed's covers
+have been tossed around.  Entering the room, you step on a toy car and fall
+heavily to the floor.  From your low viewpoint, you can see an old picture
+of five people lying on the floor under the bed.  Who could they be?
+One of them you assume to be Alanza, and the older man and woman to be her
+parents, but you can't figure out who the two boys are...
+You decide they must be her brothers, even though you have never heard her
+speak of them.  As you look away from the picture and are getting up, you
+wish her luck in finding her brothers.
+~
+0 CDK 0
+D1
+Exit ~
+door~
+1 0 4324
+S
+#4329
+Kasimir's Dream~
+You walk into a silent expanse of nothingness.  It is not cold
+or warm it in fact has no feeling at all.  All of a sudden a
+spectre appears in front of you.  The spectre hands you a scroll
+that reads:
+ 
+Welcome to my dreamscape.  Anything you can imagine can happen
+here.  But BEWARE!  I have a twisted mind and what you imagine
+may become dangerous and cause you never to leave this room.
+-Kasimir the Dreamer.
+ 
+The scroll turns to dust and the spectre smiles at you; a cold and 
+twisted smile, then he too disappears.  You can't wait to try your 
+imagination on this room, but you become scared by Kas' warning
+and run away.
+~
+0 CDK 0
+D4
+Exit ~
+door~
+1 0 4324
+S
+#4330
+Stymie's Room~
+You have walked into a room that is more than a bedroom. It is a shrine to
+punk rock. As you look around you see the original billboards for the
+Sex Pistols, The Clash, Generation X and The Ramones, all autographed by
+the bands.  All of a sudden something catches your eye...."NO IT CAN'T BE"
+you say... but there is no mistaking it... There in the corner of the room
+is the CRYO'D CORPSE OF SID VISCIOUS!!!!!!
+~
+0 CDK 0
+D2
+Exit ~
+door~
+0 0 4318
+S
+#4331
+Nemerle's Room~
+As you step into Nemerle's room you are bathed in the warm glow of a
+crackling fire.  After his long exile in the swamp, Nemerle has gone to great
+lengths to make this room warm and cozy.  In one corner,  a huge bed with
+feather pillows looks VERY inviting to your tired body.  There is also a
+sunken hot tub in the middle of the floor...the perfect way to relax after a
+hard day of battle.  Around the walls you see various trophies from battles
+and duels and a portrait of Nemerle, golden scales shining and eyes flashing.
+Beloe the picture is inscribed "Honor Forever".  Finally, your eyes land on
+Nem's reading chair where he reads his favorite book, "101 ways to cook a
+Demiser".
+~
+0 CDK 0
+D0
+Exit ~
+door~
+0 0 4318
+S
+#4332
+A Long Hallway~
+Tapestries line the walls of this long, candlelit hallway.  You stop and
+take a brief look at the various pictures depicted.  Some show beautiful
+pastoral scenes, some show glorious battle scenes. The conservatory is
+just to the north, and a spa is to the south.  There is a closed door
+to the east.  You can see people relaxing in the recreation room to the
+west.
+~
+0 CK 0
+D0
+Exit ~
+door~
+1 0 4333
+D1
+Exit ~
+door~
+1 0 4335
+D2
+Exit ~
+door~
+0 0 4337
+D3
+Exit ~
+door~
+0 0 4310
+S
+#4333
+The Conservatory~
+As you enter this room the smell reminds you of a Tropical Rain Forest.
+With plants all around you and comfortable sofas to sit in, you think you
+will like spending time in this room. There is always something going
+on in here with pet animals such as birds and little lizards in and
+amongst the plants you feel as though you can spend some time alone in
+here and think. You feel lethargic as you sit and just ponder upon life
+as the sounds of a magic mist soothes you as it waters the plants and
+animals.
+~
+0 CK 0
+D1
+Exit ~
+door~
+1 0 4334
+D2
+Exit ~
+door~
+1 0 4332
+S
+#4334
+A Small Gazebo~
+You step outside and walk down a small path to a white gazebo.  There's
+just enough room for you and one other to have quiet talks or share a kiss
+under the moonlight.  Sounds of nature can be heard in the distance.  A
+wild bird calls and the moving waters of the nearby lake soothe you.
+~
+0 CK 0
+D3
+Exit ~
+door~
+1 0 4333
+S
+#4335
+The Courtyard~
+Feeling the need to get outdoors, you step outside into the courtyard.
+Years of landscaping and cultivating have produced beautiful gardens and
+shrubbery.  You walk among the flowers and trees and reflect on life.  If
+you feel like being completely alone, perhaps you can take a walk through
+the garden maze.  The gate to the maze is to the east.
+~
+0 CK 0
+D1
+Exit ~
+gate~
+1 0 4336
+D2
+Exit ~
+door~
+0 0 4338
+D3
+Exit ~
+door~
+1 0 4332
+S
+#4336
+The Garden Maze~
+One could definitely get lost in this maze of tall shrubs.  Someone has
+spent a lot of time shaping and caring for these tall, dense plants.  You
+work your way to the center of the maze and find a small bench.  Maybe
+you'll just sit here for awhile enjoying the quiet.
+~
+0 CDK 0
+D3
+Exit ~
+gate~
+1 0 4335
+S
+#4337
+Indoor Hot Springs~
+The stone floor of this room is cold in stark contrast to the hot waters
+of natural hot spring bubbling up from the ground.  These natural springs
+have been controlled by stones and wood to create a spa of sorts.  You
+carefully step into the hot water and let the heat soothe away the aches
+and pains of battle.  If you don't feel like being trapped indoors to
+relax, maybe you should take a dip in the lake to the east.
+~
+0 CK 0
+D0
+Exit ~
+door~
+0 0 4332
+D1
+Exit ~
+door~
+0 0 4338
+S
+#4338
+Lake~
+Generic room description.
+~
+0 CK 0
+D0
+Exit ~
+door~
+0 0 4335
+D1
+Exit ~
+door~
+0 0 4339
+D3
+Exit ~
+door~
+0 0 4337
+S
+#4339
+Lake~
+Generic room description.
+~
+0 CK 0
+D1
+Exit ~
+door~
+0 0 4340
+D3
+Exit ~
+door~
+0 0 4338
+S
+#4340
+Lake~
+Generic room description.
+~
+0 CK 0
+D0
+Exit ~
+door~
+0 0 4341
+D3
+Exit ~
+door~
+0 0 4339
+S
+#4341
+Glade~
+Generic room description.
+~
+0 CK 0
+D2
+Exit ~
+door~
+0 0 4340
+S
+#4390
+A Tunnel~
+A dark tunnel, where could it lead?
+~
+0 D 0
+D3
+Exit ~
+~
+0 -1 6102
+S
+#4391
+A Tunnel~
+A dark tunnel, where could it lead?
+~
+0 D 0
+D4
+Exit ~
+~
+0 -1 5001
+S
+#4392
+A Tunnel~
+A dark tunnel, where could it lead?
+~
+0 D 0
+D0
+Exit ~
+~
+0 -1 5100
+S
+#4399
+A NewlyWed Suite~
+Nightman and Nora will enjoy many hours in this fancy room.  More to be 
+added as the need arises.
+~
+0 CDK 0
+D3
+Exit ~
+~
+0 -1 4302
+S
+#0
+
+#RESETS
+O 0 4328 100 4309	* a roaring fireplace
+O 0 4327 100 4309	* the huge rug
+O 0 4326 100 4309	* Dragon's hoard
+D 0 4321   3    1	* Belldandy's Roost west
+O 0 4331 100 4315	* the Nyanniichuan
+O 0 4332 100 4316	* a painting of Mammoth's beautiful wife, Nixy
+O 0 4511 100 4316	* a black leather couch
+D 0 4316   1    1	* Mammoth and Nixy's suite east
+D 0 4320   0    1	* Elektra and Noraim's Den north
+D 0 4327   0    1	* Tas and Moonangels Room north
+M 0 4300   1 4301  1	* the ancient potion-brewer
+G 1 3292  -1     	*   a potion of true sight
+G 1 3291  -1     	*   a potion of flying
+G 1 3290  -1     	*   a potion of negation
+G 1 3289  -1     	*   a potion of armor
+G 1 3288  -1     	*   a vial of holy water
+G 1 3287  -1     	*   a potion of cure blindness
+G 1 3286  -1     	*   a bottle of antidote
+G 1 3284  -1     	*   a potion of cure serious wounds
+G 1 3283  -1     	*   a potion of cure light wounds
+G 1 3282  -1     	*   a potion of divine protection
+G 1 3281  -1     	*   a potion of sanctuary
+G 1 3242  -1     	*   a scroll of recall
+G 1 3241  -1     	*   a yellow potion of see invisible
+G 1 3240  -1     	*   a scroll of identify
+G 1 3239  -1     	*   a bucket of hot Buffalo chicken wings
+G 1 3238  -1     	*   a buffalo water skin
+G 1 3032  -1     	*   a bag
+O 0 4303 100 4313	* a single bed
+D 0 4313   0    1	* Pal's Bedroom north
+D 0 4326   1    2	* Saphron's Chamber east
+D 0 4328   1    1	* Alanza's Room east
+D 0 4329   4    1	* Kasimir's Dream up
+D 0 4324   2    1	* Corridors of Honor, Level 2 south
+D 0 4324   3    1	* Corridors of Honor, Level 2 west
+D 0 4324   5    1	* Corridors of Honor, Level 2 down
+O 0 4306 100 4307	* a roaring fireplace
+P 1 4305  -1 4306  1	*   a dented cup of herb tea
+P 1 4307  -1 4306  1	*   some haggis
+P 1 4308  -1 4306  1	*   some firewood
+O 0 4317 100 4307	* a large, shaggy rug
+O 0 4318 100 4307	* an old leather chair
+O 0 4316 100 4307	* a shot of whiskey
+D 0 4307   0    1	* Palibar's Room north
+D 0 4307   2    1	* Palibar's Room south
+O 0 4344 100 4314	* Waterlilly's Queen-sized bed
+D 0 4322   0    1	* Belevairn's Dark Glowing Dwelling north
+D 0 4308   0    1	* Corridors of Honor north
+D 0 4308   2    1	* Corridors of Honor south
+D 0 4308   3    1	* Corridors of Honor west
+D 0 4308   5    1	* Corridors of Honor down
+D 0 4319   1    1	* Corridors of Honor, 2nd level east
+D 0 4319   2    1	* Corridors of Honor, 2nd level south
+D 0 4305   0    1	* Corridors of Honor, 1st level north
+D 0 4305   1    1	* Corridors of Honor, 1st level east
+D 0 4305   2    1	* Corridors of Honor, 1st level south
+O 0 4345 100 4306	* a granite bed
+D 0 4306   2    1	* Sterling's Chamber south
+O 0 4347 100 4317	* a beautiful vase
+P 1 4348  -1 4347  4	*   a sparkling silver rose
+P 1 4348  -1 4347  4	*   a sparkling silver rose
+P 1 4348  -1 4347  4	*   a sparkling silver rose
+P 1 4348  -1 4347  4	*   a sparkling silver rose
+O 0 4337 100 4317	* a love seat
+O 0 4338 100 4317	* a four-poster bed
+O 0 4339 100 4317	* a beautiful marble fountain
+D 0 4317   3    1	* Marina's Sanctuary west
+O 0 4327 100 4325	* the huge rug
+O 0 4328 100 4325	* a roaring fireplace
+O 0 4353 100 4302	* some cedar shelves
+M 0 4303   1 4303  1	* the healer
+M 0 4301   1 4311  1	* the Honor Clan Bartender
+G 1 4319  -1     	*   a bottle of Rebecca's Icewine
+G 1 4316  -1     	*   a shot of whiskey
+G 1 4313  -1     	*   a cup of coffee
+G 1 4312  -1     	*   a glass of Moosehead Sled beer
+G 1 4311  -1     	*   a glass of milk
+G 1 4309  -1     	*   a bottle of Firebreather
+G 1 9568  -1     	*   a glass of wine
+G 1 3001  -1     	*   a bottle of beer
+O 0 4341 100 4311	* a wooden bar stool
+O 0 4335 100 4310	* a gold-etched crystal fountain
+O 0 4354 100 4312	* a large chair at the end of the table
+O 0 4301 100 4312	* a large oak table
+D 0 4332   1    1	* A Long Hallway east
+O 0 4349 100 4304	* a swirling vortex
+O 0 4350 100 4304	* a swirling vortex
+O 0 4320 100 4304	* a swirling vortex
+O 0 4321 100 4304	* a swirling vortex
+O 0 4322 100 4304	* a swirling vortex
+O 0 4323 100 4304	* a swirling vortex
+O 0 4324 100 4304	* a swirling vortex
+O 0 4325 100 4304	* a swirling vortex
+O 0 4352 100 4304	* a plaque
+O 0 4302 100 4333	* a small sofa
+D 0 4333   1    1	* The Conservatory east
+D 0 4334   3    1	* A Small Gazebo west
+O 0 4310 100 4337	* a hot spring
+D 0 4335   1    1	* The Courtyard east
+D 0 4335   3    1	* The Courtyard west
+D 0 4336   3    1	* The Garden Maze west
+O 0 4351 100 4300	* a beautiful ivory fountain
+S
+
+#SHOPS
+4300 10  0  0  0  0 	 500  50 	 0 23 	* the ancient potion-brewer
+4301 -1  0  0  0  0 	 110 100 	 0 23 	* the Honor Clan Bartender
+0
+
+#SPECIALS
+M 4303 spec_cast_adept     	* the healer
+S
+
+#$

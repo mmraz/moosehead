@@ -1,0 +1,385 @@
+#AREA
+../newareas/rabbit.are~
+Legacy of El-ahrairah~
+0500 0599       Legacy of El-ahrairah~
+500 521
+
+#MOBILES
+#500
+El-ahrairah, Prince of Many Enemies~
+El-ahrairah~
+El-ahrairah, Hyzenthlay's Highpriest
+~
+This is El-ahrairah, the Prince of Rabbits
+He is the Highpriest of Hyzenthlay and he often helps her out with 
+various tasks and you feel that he might help you, if you ask him
+nicely.
+~
+rabbit~
+AGQSac CDEFHNPQVZce 1000 0
+45 30 25d10+2750 25d10+2000 6d6+16 divine
+-25 -5 -45 -45
+BJN ABCJKLNQ IMP DEGR
+rest rest male 50
+CH BQ tiny 0
+F par HK
+#0
+
+#OBJECTS
+#500
+fluffy tail~
+something fluffy~
+You can see Hyzenthlay's cute fluffy tail here.  Do you think she's hiding?~
+Rabbit~
+food AI A
+0 0 0 0 0
+0 1 0 P
+A
+0 0
+E
+~
+Generic extended description.
+~
+#501
+Hyzenthlay's famous Rose Wine~
+Hyzenthlay's Rose Wine~
+This is a blessed Rose Wine from Hyzenthlay's Gardens.~
+Blessed Roses~
+potion ABI A
+25 'create rose' 'create rose' 'create rose' ''
+1 2 0 P
+A
+0 0
+E
+Hyzenthlay's Rose Wine~
+This is rose wine from Hyzenthlay's famous rose gardens.
+~
+#0
+
+#ROOMS
+#500
+Hyzenthlay's Burrow~
+This is a little rabbit burrow where Hyzenthlay hides from the wrath
+of the other Immortals, when she has made something stupid, which is
+rather often.
+Its a nice rabbit hole, filled with carrots and heads of lettuce and
+in the middle of the burrow lies a pile of leaves and a pool of rain
+water that allows her to drink.
+~
+0 ADKTU 2
+H 140 M 140
+D4
+Exit ~
+door~
+0 0 501
+S
+#501
+In the shade of the tree~
+You stand on the hill under the great tree, small rabbits bounce
+all around you, guarded by the Owlsa.
+At the foot of the tree, you see a strange burrow, it leads down 
+to what looks like the temple of Hyzenthlay.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 502
+D3
+Exit ~
+door~
+0 0 503
+D5
+Exit ~
+door~
+0 0 500
+E
+~
+Generic extended description.
+~
+E
+/c~
+Generic extended description.
+~
+S
+#502
+At the beach~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 501
+S
+#503
+Owlsa guard post~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 501
+D3
+Exit ~
+door~
+0 0 504
+S
+#504
+Top of the hill~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 505
+D1
+Exit ~
+door~
+0 0 503
+D3
+Exit ~
+door~
+0 0 512
+S
+#505
+Edge of Watership Down~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 504
+D5
+Exit ~
+door~
+0 0 506
+S
+#506
+Below the Hill~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 507
+D1
+Exit ~
+door~
+0 0 509
+D4
+Exit ~
+door~
+0 0 505
+S
+#507
+Grassy plains~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 511
+D1
+Exit ~
+door~
+0 0 508
+D2
+Exit ~
+door~
+0 0 506
+S
+#508
+Grassy plains~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 509
+D3
+Exit ~
+door~
+0 0 507
+S
+#509
+Grassy plains~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 508
+D3
+Exit ~
+door~
+0 0 506
+S
+#510
+El-ahrairah's Burrow~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 500
+D4
+Exit ~
+door~
+0 0 17040
+S
+#511
+Path to the farm~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 507
+D3
+Exit ~
+door~
+0 0 515
+S
+#512
+Entrance to Watership Down~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 504
+D2
+Exit ~
+door~
+0 0 514
+D5
+Exit ~
+door~
+0 0 513
+S
+#513
+Inside Watership Down~
+Generic room description.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 512
+S
+#514
+Keehar's spot~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 512
+S
+#515
+Path to the farm~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 516
+S
+#516
+Bend in the path~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 515
+D2
+Exit ~
+door~
+0 0 517
+S
+#517
+Infront of the farm~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 516
+D1
+Exit ~
+door~
+0 0 521
+D2
+Exit ~
+door~
+0 0 518
+S
+#518
+The barn~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 517
+D3
+Exit ~
+door~
+0 0 519
+S
+#519
+The barn~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 518
+S
+#520
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#521
+In the field~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 517
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 500 spec_rabbit         	* El-ahrairah
+S
+
+#$

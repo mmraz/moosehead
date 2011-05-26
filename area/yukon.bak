@@ -1,0 +1,3599 @@
+#AREA
+/mud/moosehead/area/yukon.are~
+The Ghoul Forest~
+{10-25} Yukon   The Ghoul Forest~
+22900 22999
+
+#MOBILES
+#22900
+huge white weasel~
+a huge white weasel~
+A huge white weasel scurries about looking for food.
+~
+The huge white weasel is one of the larger rodents you've seen, about the
+size of a large wolf, but with a long thick tail.  Boy it moves quick!
+~
+dog~
+(null)~
+(null)~
+(null)~
+AFG J 0 0
+12 0 2d10+150 6d9+100 1d10+3 none
+0 0 0 8
+CFU 0 0 0
+sleep stand male 0
+H T medium 0
+F for G
+F par HUV
+#22901
+ancient white weasel~
+an ancient white weasel~
+An ancient white weasel stands here looking menacing.
+~
+The ancient white weasel is the largest you've ever seen! his teeth are 
+chipped and worn, but huge enough to rend you to bits!
+~
+dog~
+(null)~
+(null)~
+(null)~
+AG J 0 0
+16 0 3d9+233 6d9+100 2d6+4 none
+-1 -2 -1 7
+CFU 0 0 0
+sleep stand male 0
+HM T large 0
+F for G
+F par HUV
+#22902
+Jaded Knight~
+The Jaded Knight~
+The Jaded Knight stands here looking bored.
+~
+This warrior looks like a formidable opponent, despite his rather outlandish
+appearance: greenish armor, a bright blue cape, and a very silly hat.
+The Jaded Knight is bored with life, but a good fight is always uplifting...
+~
+human~
+(null)~
+(null)~
+(null)~
+ACGHT V -500 0
+17 0 3d9+283 8d9+100 3d4+4 none
+-3 -3 -3 7
+CDEIK 0 0 0
+stand stand male 400
+0 0 medium 0
+#22903
+ghoul scout~
+a ghoul scout~
+A ghoul scout sculks in the shadows
+~
+The ghoul scout is sneaking around looking for potential corpses.
+~
+human~
+(null)~
+(null)~
+(null)~
+AH JPQZ -750 0
+11 0 2d8+134 5d9+100 1d10+2 pound
+1 1 1 8
+BJU 0 0 0
+stand stand female 0
+B 0 medium 0
+#22904
+hungry ghoul~
+a hungry ghoul~
+A hungry ghoul considers eating you
+~
+These ghouls aren't into scavenging cold corpses, they'd rather make new ones.
+~
+human~
+(null)~
+(null)~
+(null)~
+AGT JZ -1000 0
+14 0 2d10+190 9d9+100 1d12+3 pound
+-1 -1 -1 8
+EFNQ 0 0 0
+stand stand male 225
+B 0 medium 0
+#22905
+ghoul sentry~
+a ghoul sentry~
+A ghoul sentry guards the way
+~
+This ghoul is a skilled warrior, trained to protect his ghoulish community.
+~
+human~
+(null)~
+(null)~
+(null)~
+AFGT JZ -1000 0
+14 0 2d10+190 7d9+100 1d12+3 pound
+-1 -1 -1 8
+DEFNQ 0 0 0
+stand stand male 0
+B 0 medium 0
+#22906
+howling lunatic~
+a howling lunatic~
+A howling lunatic is here, screaming his head off
+~
+This bizarre soul is dressed in rags, and walks around in a daze, howling.
+~
+human~
+(null)~
+(null)~
+(null)~
+AFGT J -500 0
+14 0 2d10+190 5d5+150 1d12+3 pound
+-1 -1 -1 8
+DFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+#22907
+spirit torment~
+a spirit of torment~
+A spirit of torment floats here
+~
+The tormenting spirit is a roughly human-shaped swirl of color and light,
+woven of fear and anxiety, it seeks to destroy from within.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFGOR DFZ -1000 0
+18 0 3d9+233 8d10+200 2d6+4 magic
+-2 -2 -2 7
+AFG 0 0 0
+stand stand none 0
+IK 0 medium 0
+F for AMV
+#22908
+rock snake~
+a large rock snake~
+A large snake slithers among the rocks
+~
+The snake is pale white, with a very tough hide.  Its fangs look poisonous.
+~
+snake~
+(null)~
+(null)~
+(null)~
+AT J 0 0
+12 0 2d10+150 1d10+100 1d10+3 bite
+0 0 0 8
+EFNU 0 0 0
+stand stand female 0
+0 U medium 0
+F res L
+F vul I
+F for X
+F par KLQVX
+#22909
+pit boss~
+the pit boss~
+The pit boss is here to whip you into shape
+~
+She's got long greasy hair tied behind her back, and a stained leather vest.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT 0 -500 0
+22 0 5d10+400 1d10+100 4d4+6 beating
+-3 -3 -3 6
+CEFN 0 0 0
+stand stand female 800
+0 0 medium 0
+F par GHIJK
+#22910
+hungry guest~
+a hungry guest~
+A hungry guest is here, ready for dinner!
+~
+This guest loves a good meal! It shows in the huge rolls of fat.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT 0 -500 0
+16 0 3d9+233 1d10+100 2d6+4 punch
+-2 -2 -2 7
+CE 0 E 0
+stand stand female 1600
+0 0 medium 0
+#22911
+a wandering guest~
+a wandering guest~
+A guest is here, wandering aimlessly
+~
+This guest looks a little bit bored, perhaps you can provide some action...
+~
+human~
+(null)~
+(null)~
+(null)~
+AGHT 0 -750 0
+17 0 3d9+258 1d10+100 3d4+4 pound
+-3 -3 -3 6
+CE 0 0 P
+stand stand male 1700
+0 0 medium 0
+#22912
+palace guard~
+a palace guard~
+A palace guard is here, guarding the palace
+~
+The Lord of the palace has outfitted his guards well.  He looks tough.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT JZ 0 0
+15 0 3d9+208 0d0+0 2d6+3 punch
+-2 -2 -2 7
+EFNU 0 AB 0
+stand stand male 450
+0 0 medium 0
+#22913
+elite palace guard~
+an elite palace guard~
+An elite palace guard stands her ground
+~
+The Lord of Decadence chooses only the most beautiful young women to train
+as his elite palace guards.  This one looks lovely, but is as deadly as they
+come! 
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFT 0 -500 0
+22 0 5d10+400 1d10+100 4d4+6 claw
+-5 -5 -5 5
+EFNQU AB 0 0
+stand stand female 0
+0 0 medium 0
+#22914
+troll gladiator~
+a troll gladiator~
+A troll gladiator is waiting for the next fight
+~
+This troll has the meanest expression you've ever seen.  He likes his job.
+~
+troll~
+(null)~
+(null)~
+(null)~
+ABT Z -1000 0
+18 0 3d9+288 1d10+100 2d7+4 pound
+-3 -3 -3 7
+EFNU 0 0 0
+rest rest none 0
+0 0 medium 0
+F aff FJ
+F res BE
+F vul K
+F for B
+F par UV
+#22915
+giant gladiator~
+a giant gladiator~
+A giant gladiator is eager to start the next fight
+~
+This huge fellow seems quite enthusiastic about ripping your arms off.
+~
+giant~
+(null)~
+(null)~
+(null)~
+ABT JZ -1000 0
+18 0 3d9+288 1d10+100 2d7+4 beating
+-3 -3 -3 7
+EFNU 0 0 0
+rest rest none 0
+0 0 medium 0
+#22916
+minotaur captain gladiator~
+a minotaur captain~
+A captive minotaur captain sulks in his cage
+~
+Captured from the wyvern tower by the Lord of Decadence, this minotaur
+(former) Captain doesn't look very happy to be here.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABCFG DJZ -900 0
+17 0 3d9+258 8d9+100 3d4+4 claw
+-3 -3 -3 7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#22917
+ofcol cityguard gladiator~
+a captive Ofcol cityguard~
+A captive Ofcol cityguard bravely awaits death
+~
+Once a proud defender of the good in the city of Ofcol, this cityguard has
+been captured for the entertainment of the Lord of Decadence.  The current
+champion, his skills have served him well, and he's beginning to enjoy the
+new and strange lifestyle.
+~
+human~
+(null)~
+(null)~
+(null)~
+ACT JZ 250 0
+20 0 3d9+333 9d9+100 2d8+5 punch
+-4 -4 -4 6
+CDEIK 0 0 0
+stand stand male 0
+0 0 medium 0
+#22918
+lord decadence~
+the Lord of Decadence~
+The Lord of Decadence is here, enjoying himself immensely
+~
+The Lord of Decadence is the epitomy of arrogance and evil.  He lives only
+for the pleasures of the moment.  Right now he is considering the great
+pleasure he will get from seeing your corpse lying before him.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABR H -1000 0
+26 0 5d10+550 3d10+200 2d10+7 punch
+-7 -7 -7 3
+EFQ 0 AP 0
+stand stand male 0
+0 0 medium 0
+#22919
+Horus Aggressor ghoul~
+Horus Aggressor~
+Horus Aggressor calmly considers eating your brain
+~
+Horus Aggressor is the king of ghouls.  He is a talented warrior, and a brain
+sucking monstrosity.  He is tall and wiry, with thin black hair and a pale
+complexion.  Where ordinary ghouls are content to scavenge corpses, Horus
+Aggressor prefers to make his own...
+~
+human~
+(null)~
+(null)~
+(null)~
+AGT JZ -1000 0
+27 0 5d10+650 7d10+200 5d4+7 beating
+-8 -8 -8 2
+CEFU 0 0 0
+stand stand male 2400
+0 0 medium 0
+#22920
+owner ~
+the owner of the Blue Perch~
+The owner of the Blue Perch mingles with the customers
+~
+This dim-witted middle-aged man seems eager to tell you a fish story.
+~
+human~
+(null)~
+(null)~
+(null)~
+AGT 0 500 0
+17 0 3d9+258 1d10+100 3d4+4 punch
+-3 -3 -3 7
+FQ 0 0 P
+stand stand male 1000
+0 0 medium 0
+#22921
+stable boy~
+the stable boy~
+The stable boy is here, carefully cleaning the stable.
+~
+He looks a little bit old for a stable boy, perhaps 30? he is blond, clean
+cut, and very much into keeping things in order.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT 0 500 0
+19 0 3d9+308 1d10+100 2d7+5 punch
+-4 -4 -4 6
+EFNU 0 0 0
+stand stand male 7
+0 0 medium 0
+#22922
+mysterious stranger~
+the mysterious stranger~
+A mysterious stranger sits here, calmly sipping his drink
+~
+He has that road-weary look about him, like he's sat in way too many inns.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT 0 -500 0
+21 0 4d10+360 1d10+100 4d4+5 pound
+-5 -5 -5 6
+DFN 0 0 0
+sit sit male 2100
+0 0 medium 0
+#22923
+maid~
+a maid~
+A maid stand here, gossiping about the guests
+~
+The maid is not particularly pretty: he's about 25 years old, and unshaven.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABS 0 -250 0
+11 1 2d7+121 1d10+100 2d4+2 slap
+1 1 1 8
+FNU 0 0 0
+stand stand male 400
+0 0 medium 0
+#22924
+cook~
+the cook~
+The cook is here, wondering if you would make a good second course
+~
+The cook seems to enjoy her work: she is covered head to toe in food.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFHT 0 -1000 0
+19 0 3d9+308 1d10+100 2d7+5 chop
+-4 -4 -4 6
+CDFI 0 0 P
+stand stand female 400
+0 0 medium 0
+#22925
+serpent greed~
+the serpent of greed~
+The serpent of greed eyes you hungrily
+~
+This small but fierce dragon gains strength from the avarice of mankind.
+its thick claws are crusted with blood, and it smells AWFUL!
+~
+dragon~
+(null)~
+(null)~
+(null)~
+ABFT 0 -1000 0
+18 0 3d9+288 7d10+150 2d7+4 bite
+-3 -3 -3 7
+EFN 0 0 0
+stand stand none 0
+M B large 0
+F aff T
+F par GHIJKPQUVX
+#22926
+A lanky bartender~
+a lanky bartender~
+A lanky bartender is here, robbing the owner blind!
+~
+This is a sharp guy.  A lightning calculator, he makes sure that all the
+profit goes to himself, not the owner...but then the owner is too dense
+to know the difference anyway.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABV C 666 0
+1 1 1d1+9999 1d1+99 2d2+2 scratch
+-300 -300 -300 -300
+H ABCD 0 0
+stand stand female 0
+G 0 medium A
+#22927
+sassy brunette harlot~
+a sassy brunette harlot~
+A sassy brunette harlot is here, giving you "the eye"
+~
+She's rather short, with very long dark hair.  Quite a looker!  
+Something about her tells you that she's not what she appears...
+~
+human~
+(null)~
+(null)~
+(null)~
+ABGHR 0 -200 0
+16 1 2d10+190 6d10+150 1d12+3 beating
+-1 -1 -1 6
+EFN 0 0 0
+stand stand female 800
+0 0 medium 0
+#22928
+giant trout~
+a giant trout~
+A giant trout leaps out of the water!
+~
+The Trout looks like its seen better days, its battered and scarred.
+~
+snake~
+(null)~
+(null)~
+(null)~
+ABFTU 0 0 0
+10 0 2d7+121 1d10+100 2d4+2 bite
+1 1 1 8
+FU 0 HR 0
+stand stand none 0
+b JO medium 0
+F res L
+F vul I
+F for GXY
+F par KLQVX
+#0
+
+#OBJECTS
+#22900
+weasel tooth~
+A weasel's tooth~
+The sharp front incisor of a huge white weasel makes a dandy dagger~
+bone~
+weapon 0 AN
+dagger 2 7 stab 0
+13 5 600 G
+#22901
+rusty broad sword~
+a rusty broadsword~
+a rusty steel broadsword is laying here~
+steel~
+weapon AG AN
+sword 2 6 slash 0
+11 120 600 W
+A
+19 1
+#22902
+green key~
+a green key~
+a green key is laying here~
+copper~
+key 0 A
+2 0 0 0 0
+0 20 0 P
+#22903
+pile fur bones~
+pile of fur and bones~
+A pile of fur and bones has been shoved against the wall.~
+fur~
+container 0 0
+30 0 0 30 100
+0 0 0 P
+#22904
+small black key~
+a small black key~
+a small black key is laying here~
+steel~
+key 0 A
+2 0 0 0 0
+0 20 0 P
+#22905
+palace key~
+the palace key~
+the palace key is laying here~
+metal~
+key 0 A
+2 0 0 0 0
+0 20 0 P
+#22906
+fat brass key~
+a fat brass key~
+a fat brass key is laying here~
+brass~
+key 0 A
+2 0 0 0 0
+0 20 0 P
+#22907
+small brass key~
+a small brass key~
+a small brass key is laying here~
+brass~
+key 0 A
+2 0 0 0 0
+0 20 0 P
+#22908
+large iron key~
+a large iron key~
+a large iron key is laying here~
+iron~
+key 0 A
+2 0 0 0 0
+0 20 0 P
+#22909
+small gold key~
+a small gold key~
+a small gold key is laying here~
+gold~
+key 0 A
+2 0 0 0 0
+0 20 0 P
+E
+small gold key~
+The key has tiny writing on it: Property of the Blue Perch Inn
+~
+#22910
+fancy halberd~
+a fancy halberd~
+a fancy halberd has been propped up here~
+steel~
+weapon AG AN
+polearm 2 7 chop F
+15 120 1750 P
+A
+18 -1
+A
+19 3
+#22911
+jade breast plate~
+a jade breastplate~
+a jade breastplate is laying here~
+jade~
+armor G AD
+6 6 6 0 0
+16 100 2700 P
+A
+2 1
+E
+jade breast plate~
+This armor was artfully crafted in jade, using powerful magical techniques.
+~
+#22912
+jade girth~
+a jade girth~
+a jade girth is laying here~
+jade~
+armor G AL
+6 5 6 1 0
+16 100 1280 P
+A
+20 -1
+A
+19 1
+E
+jade girth~
+This armored belt is beautifully crafted of finely carved jade.
+~
+#22913
+pint blackwood stout~
+a pint of Blackwood Stout~
+a pint of Blackwood Stout is sitting here~
+clay~
+drink I AO
+16 16 'dark ale' 0 0
+0 10 7 P
+#22914
+bottle blue lager~
+a bottle of Blue Perch Lager~
+a bottle of Blue Perch Lager has been carelessly discarded~
+glass~
+drink 0 A
+16 16 'beer' 0 0
+0 10 5 P
+#22915
+fragrant fish biscuit~
+a fragrant fish biscuit~
+a fragrant fish biscuit is here, smelling awful~
+fish~
+food 0 A
+4 3 0 0 0
+0 10 15 P
+E
+fragrant fish biscuit~
+This little invention of the owner of the Blue Perch inn combines the 
+wonders of a biscuit with the smell of dead fish...yummy.
+~
+E
+biscuit~
+A nice, soft biscuit with just enough butter.  Better buy two.
+~
+#22916
+delicious fish steak~
+a delicious fish steak~
+a big slab of fish is laying here~
+fish~
+food 0 A
+25 25 0 0 0
+0 20 20 P
+#22917
+bowl fish soup~
+a bowl of fish soup~
+there is a smelly bowl of soup here~
+clay~
+food 0 A
+4 8 0 0 0
+0 20 10 P
+E
+soup~
+This looks like just the thing for a cold!
+~
+#22918
+special java~
+Blue Perch Special Java~
+a flask of dark black fluid is here~
+clay~
+potion 0 A
+7 'refresh' '' '' ''
+3 10 275 G
+E
+potion~
+It's a tight-stoppered glass bottle with a thick amber liquid inside. It
+tastes kind of like whiskey.
+~
+#22919
+ornate box~
+an ornate jewelry box~
+an ornate jewlery box is here~
+wood~
+container 0 A
+30 AC 0 10 100
+0 100 100 P
+E
+ornate jewelry box~
+this is a very nice jewelry box, carved of hardwood and inlaid gold.
+~
+#22920
+hard bed~
+a hard bed~
+a hard bed is against the far wall~
+wood~
+furniture I 0
+4 50 BEHKN 125 150
+0 0 0 P
+E
+bed~
+This bed is too HARD!  Ouch!
+~
+#22921
+soft bed~
+a soft bed~
+a soft bed is against the far wall~
+wood~
+furniture I 0
+4 50 BEHKN 125 150
+0 0 0 P
+E
+bed~
+This bed is TOO soft.  Yuck.
+~
+#22922
+comfy bed~
+a comfy bed~
+a big, comfy bed is against the wall~
+wood~
+furniture I 0
+4 50 BEHKN 125 150
+0 0 0 P
+E
+bed~
+This bed is JUST Right!!!
+~
+#22923
+luxurious velvet couch~
+a luxurious velvet couch~
+a luxurious velvet couch is against the wall~
+velvet~
+furniture I 0
+6 100 BELN 110 110
+0 0 0 P
+E
+couch~
+This cusioned couch is double stuffed--no, TRIPLE-stuffed!  
+It looks very inviting.
+~
+#22924
+long wooden table~
+a long wooden table~
+a long wooden table occupies most of this room.~
+wood~
+furniture I 0
+12 50 BDGN 110 110
+0 0 0 P
+E
+long wooden table~
+There is room for quite a few people at this long, wide table. 
+Time for a feast!
+~
+#22925
+small table~
+a small round table~
+there is a small round table back here~
+wood~
+furniture I 0
+12 50 BDGN 110 110
+0 0 0 P
+E
+small round table~
+The table is small, but sturdy.  If you pull up enough chairs around it
+quite a few people could squeeze in.
+~
+#22926
+double dagger~
+a double bladed dagger~
+a double bladed dagger is laying here~
+steel~
+weapon G AN
+dagger 3 7 pierce 0
+22 10 1600 P
+A
+19 2
+A
+17 -4
+E
+double dagger~
+The two parallel blades are quite long, forged from very fine steel.
+~
+#22927
+heavy maul~
+a very heavy maul~
+a heavy maul has been left here~
+iron~
+weapon 0 AN
+mace 3 5 crush F
+16 290 750 P
+#22928
+stuffed fish~
+a stuffed fish~
+a large stuffed fish lays here, staring at you~
+fish~
+weapon 0 AN
+exotic 2 7 thwack 0
+15 290 750 P
+E
+large stuffed fish~
+Someone has taken a large fish, probably a perch, and made it into a 
+fierce weapon.
+~
+#22929
+welded broad sword~
+a welded broadsword~
+a welded broadsword is laying here, rusting away~
+steel~
+weapon GH AN
+sword 2 12 slash 0
+26 240 3300 P
+A
+18 2
+A
+19 3
+E
+welded broad sword~
+This sword has been broken at least three times, welded back together by
+some magic force?  Its blade is rusty and rather crooked.
+~
+#22930
+steel whip~
+a steel whip~
+some long flexible strips of steel are laying here~
+steel~
+weapon AEGJ AN
+whip 3 6 whip 0
+20 10 1530 P
+A
+19 2
+A
+18 2
+E
+steel whip~
+Long flexible strips of steel have been fashioned into a viscious whip.
+This looks like a cruel and gruesome weapon.
+~
+#22931
+old broad sword~
+an old broadsword~
+an old broadsword has seen better days~
+steel~
+weapon AG AN
+sword 2 7 slash 0
+15 120 1510 P
+A
+19 2
+E
+old broad sword~
+This sword has been around a while, but its still QUITE functional.
+~
+#22932
+bundle black leaves~
+some black leaves~
+a bundle of black leaves is laying here~
+plant~
+pill 0 A
+16 'shield' '' '' ''
+12 10 950 P
+#22933
+black steel corselet~
+a black steel corselet~
+some black armor is laying here~
+steel~
+armor G AD
+8 8 8 2 0
+25 200 5000 P
+A
+13 10
+A
+2 2
+#22934
+bronze helmet~
+a bronze helmet~
+a bronze gladiator's helmet is laying here~
+bronze~
+armor AG AE
+7 7 7 2 0
+20 40 2300 P
+A
+1 1
+E
+helm~
+This elegant helm is plated in mithril and silver.~
+#22935
+bronze bracer~
+a bronze bracer~
+a bronze gladiator's bracer is laying here~
+bronze~
+jewelry G AM
+2 2 2 0 0
+20 100 1300 P
+A
+19 2
+#22936
+eye serpent gem~
+the Eye of the Serpent~
+a huge green gem is laying here~
+emerald~
+warp_stone A AO
+0 0 0 0 0
+0 1 6500 P
+#22937
+gaping mouth~
+a gaping mouth~
+on the south wall is a huge, gaping mouth~
+stone~
+container 0 0
+1000 0 0 400 100
+0 0 0 P
+E
+mouth~
+The mouth goes back into the wall quite a ways, you could easily fit your
+arm in there.
+~
+#22938
+green black cape cloth~
+a green and black cape~
+a pile of green and black cloth lies here~
+cloth~
+armor 0 AK
+6 6 6 0 0
+18 50 2200 P
+A
+2 2
+#22939
+old leather pants~
+a pair of old leather pants~
+a pair of old leather pants is crumpled on the ground~
+leather~
+armor 0 AF
+5 4 5 0 3
+10 100 660 P
+#22940
+old leather vest~
+an old leather vest~
+an old leather vest is laying here~
+leather~
+armor 0 AD
+5 4 5 0 3
+10 100 660 P
+#22941
+jade pendant~
+a jade pendant~
+a lovely jade pendant is laying here~
+jade~
+jewelry 0 AC
+0 0 0 0 0
+0 20 2200 P
+#22942
+fist-sized emerald~
+a fist-sized emerald~
+a fist-sized emerald is laying here~
+emerald~
+gem 0 A
+0 0 0 0 0
+0 100 5500 P
+#22943
+studded leather vest~
+a studded leather vest~
+a studded leather vest is laying here~
+leather~
+armor G AD
+6 5 6 2 0
+14 100 660 P
+#22944
+short thick dagger~
+a short thick dagger~
+a short thick dagger is laying here~
+steel~
+weapon G AN
+dagger 2 8 pierce 0
+17 10 1100 P
+A
+1 1
+E
+short thick dagger~
+The blade of this well made dagger is very wide at the base, tapering to
+a VERY sharp point.
+~
+#22945
+polished cleaver~
+a well polished cleaver~
+a well polished cleaver is laying here~
+steel~
+weapon EGJL AN
+axe 4 4 chop 0
+19 22 1400 P
+#22946
+silver shovel~
+a silver shovel~
+a silver shovel is laying here~
+silver~
+weapon G AN
+mace 3 5 pound F
+16 80 400 P
+A
+3 -1
+E
+silver shovel~
+This is less a tool, and more a piece of art.  The blade is silver,
+expertly shaped to most efficiently clean a stable.  The handle is of
+a dark, closed-grain hardwood, contoured to fit the hand comfortably.
+~
+#22947
+frozen key~
+a frozen key~
+a frozen key has been left here~
+metal~
+key C A
+2 0 0 0 0
+0 20 0 P
+#22948
+chest solid ice~
+a chest made of solid ice~
+a chest made of solid ice is sitting here~
+ice~
+container CR 0
+2000 ABCD 22947 2000 0
+0 1000 0 P
+#22949
+rage lunatic~
+rage of the lunatic~
+when you place your ears to this you can still hear the fiery howling of the lunatic~
+fire~
+weapon S AN
+sword 2 6 thwack I
+8 35 50 P
+A
+1 1
+#22950
+string obj slod1 long gladiator sword~
+a {YG{Wl{Ya{Wd{Yi{Wa{Yt{Wo{Yr{x's Sword~
+a long sword convered in blood is laying on the ground waiting for you to kill someone with it.~
+steel~
+weapon BFGHMTd AN
+sword 3 10 slice DH
+35 90 120 P
+A
+20 -3
+A
+32 1
+A
+31 1
+A
+1 1
+#0
+
+#ROOMS
+#22900
+On a trail near the Dwarf Forest~
+You are on a small trail which curves from north to west here.  Further to
+the west you see a long, wide valley.  The valley seems to be obscurred
+by a thick, unnatural looking cloud cover.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 5281
+D3
+Exit ~
+door~
+16384 0 22901
+E
+archway~
+The archway is about six feet wide and twelve feet high.  Strange symbols
+have been drawn into the stone, almost too lightly to read.
+~
+E
+symbols~
+You cannot understand the writing.
+~
+E
+north~
+Through the archway, you can barely make out a stone altar.
+~
+S
+#22901
+Overlooking a strange valley~
+Strange View!  You are overlooking a long, narrow valley walled on all sides
+with steep to sheer sandstone cliffs.  The valley seems to be completely 
+covered with purple clouds, very thick and low.  The light filtering through
+the clouds gives the whole valley an eerie purple glow.
+The floor of the valley seem to be almost completely wooded with very odd
+trees: they are tall and thick-trunked, with black leaves.  Obviously, some
+strange sorcery has produced this environment.
+  A very steep trail cuts its way down into the valley.  a message has been
+carved into a rock near the edge of the trail.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 22900
+D5
+Exit ~
+door~
+16384 0 22976
+E
+message~
+The Ghoul Forest,  Area created by Yukon, May 1995
+Designed for levels 10 - 30.  Beware the Ghoul King.
+~
+S
+#22902
+The edge of the cavern~
+You at at the northern edge of the vast cavern.  From here you can see that
+the ceiling curves into the floor, as if the cavern were a giant dome.
+To the west, the wall curves south, rounding the corner of the cavern.
+It is quiet in this part of the cave, you detect only a very slight breeze,
+and no traces of sound.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 22903
+D2
+Exit ~
+door~
+16384 0 22907
+D3
+Exit ~
+door~
+16384 0 22906
+E
+floor~
+The floor is smooth and black--very hard.  Of what material you cannot guess.
+~
+E
+wall~
+The wall of the cavern is rough stone, slightly warm to the touch.
+~
+E
+ceiling~
+The ceiling seems to be of rough stone, but with a slight luster.
+It reminds you of hard rock polished by centuries of rushing water.
+~
+S
+#22903
+The edge of the cavern~
+You are at the edge of the vast cavern.  The wind is blowing harder here.
+Moans and howls can be heard clearly, but you cannot make out the direction.
+To the north is a small cave that looks like it was scratched out of the
+rock by huge claws.  It smells funny in there.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22904
+D1
+Exit ~
+door~
+16384 0 22905
+D2
+Exit ~
+door~
+16384 0 22908
+D3
+Exit ~
+door~
+16384 0 22902
+S
+#22904
+a small, smelly cave~
+You are in a small cave off the vast cavern.  This cave looks almost like
+it was scratched out of the rock by some huge claws.  the floor, walls, and
+ceiling are all extremely rough.  There is a fair amount of carnage piled
+up here on the floor.  Fur, bones, and rocks.  The cave opening is to the 
+south, there doesn't seem to be any other exits.
+~
+0 AD 0
+D2
+Exit ~
+door~
+16384 0 22903
+S
+#22905
+The edge of the cavern~
+You are at the northern edge of the vast cavern. To the east, the wall turn
+You are at the northern edge of the cavern. To the east, the wall turns 
+south, and the ceiling begins to curve towards the floor, like the side of
+a giant dome.
+  A set of carved steps, parallel to the wall, leads to a ledge above you.
+The moaning is much louder now, and seems to be coming from that direction.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 22910
+D2
+Exit ~
+door~
+16384 0 22909
+D3
+Exit ~
+door~
+16384 0 22903
+D4
+Exit ~
+door~
+16384 0 22922
+S
+#22906
+The edge of the cavern~
+You are at the western edge of the vast cavern.  Here, the rough stone wall
+curves gently into the ceiling, as if the cavern were a giant dome.
+North of here, the cavern wall curves sharply to the east.  It is VERY quiet
+in this part of the cavern: you can hear the beating of your own heart.
+The floor here is slightly stained with blood.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22902
+D1
+Exit ~
+door~
+16384 0 22907
+D2
+Exit ~
+door~
+16384 0 22911
+E
+blood~
+It looks like it was a good-sized pool of blood, but it is mostly dry now.
+~
+S
+#22907
+A Vast Cavern~
+You stand in an insanely large space! A vast cavern which extends further
+than you can see in all directions, the black floor a featureless plane.
+The quiet in this cavern is unnerving, you can hear no sounds save that of
+your own breathing.  There is virtually no wind here.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22902
+D1
+Exit ~
+door~
+16384 0 22908
+D2
+Exit ~
+door~
+16384 0 22912
+D3
+Exit ~
+door~
+16384 0 22906
+S
+#22908
+A Vast Cavern~
+You stand in an insanely large space!  A vast cavern which extends further
+than you can see in all directions, the black floor a featureless plane.
+It is eerily quiet here, just a hint of moans echoing from the darkness.
+Perhaps the moans are just your own thoughts, exxagerated by the silence.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22903
+D1
+Exit ~
+door~
+16384 0 22909
+D2
+Exit ~
+door~
+16384 0 22913
+D3
+Exit ~
+door~
+16384 0 22907
+S
+#22909
+A Vast Cavern~
+You stand in an insanely large space!  A vast cavern which extends further
+than you can see in all directions, the black floor a featureless plane.
+It is almost too quiet in this place, you can hear nothing but a breeze
+blowing past your ears, and a soft moaning from, you think, the north.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22905
+D1
+Exit ~
+door~
+16384 0 22910
+D2
+Exit ~
+door~
+16384 0 22914
+D3
+Exit ~
+door~
+16384 0 22908
+S
+#22910
+The edge of the cavern~
+You are at the western edge of the vast cavern.  Here, the rough stone wall
+curves gently into the ceiling, as if the cavern were a giant dome.
+North of here, the cavern wall turns west.  From here you can clearly make
+out sounds of moaning, with the occassional howl thrown in for good measure.
+The moans are coming from the north.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22905
+D2
+Exit ~
+door~
+16384 0 22915
+D3
+Exit ~
+door~
+16384 0 22909
+S
+#22911
+The edge of the cavern~
+You are at the western edge of the vast cavern.  Here, the rough stone wall
+curves gently into the ceiling, as if the cavern were a giant dome.
+South of here, the edge of the cavern curves east. This part of the cavern
+has no detectable air movement, and not a single sound...so quiet that
+it makes you feel rather uncomfortable.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22906
+D1
+Exit ~
+door~
+16384 0 22912
+D2
+Exit ~
+door~
+16384 0 22916
+S
+#22912
+A Vast Cavern~
+You stand in an insanely large space! A vast cavern which extends further
+than you can see in all directions, the black floor a featureless plane.
+The quiet in this cavern is unnerving, you can hear no sounds save that of
+your feet as you walk.  The air is very very still.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22907
+D1
+Exit ~
+door~
+16384 0 22913
+D2
+Exit ~
+door~
+16384 0 22916
+D3
+Exit ~
+door~
+16384 0 22911
+S
+#22913
+A Vast Cavern~
+You stand in an insanely large space! A vast cavern which extends further
+than you can see in all directions, the black floor a featureless plane.
+The quiet in this cavern is unnerving, you can hear no sounds save that of
+your own making -- not even the slightest breeze to brush past your ears.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22908
+D1
+Exit ~
+door~
+16384 0 22914
+D2
+Exit ~
+door~
+16384 0 22917
+D3
+Exit ~
+door~
+16384 0 22912
+S
+#22914
+A Vast Cavern~
+You stand in an insanely large space! A vast cavern which extends further
+than your light reaches each direction, the black floor a featureless plane.
+The quiet in this cavern is unnerving, you can hear no sounds save that of
+your own breathing.  There is virtually no wind here.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22909
+D1
+Exit ~
+door~
+16384 0 22915
+D2
+Exit ~
+door~
+16384 0 22918
+D3
+Exit ~
+door~
+16384 0 22913
+S
+#22915
+pile of rubble~
+There cavern floor here is covered with tons of dark stone rubble.  It looks
+like a section of the ceiling has collapsed and blocked further passage.
+You smell fresh air coming from above you. It looks like you can easily
+scramble up the pile at this point to investigate.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22910
+D3
+Exit ~
+door~
+16384 0 22914
+D4
+Exit ~
+door~
+16384 0 22920
+S
+#22916
+The edge of the cavern~
+You are at the southern edge of the cast cavern.  From here you see where 
+the ceiling curves into the floor, as if the cavern were a giant dome.
+The air is as still as death here.  The only sound you hear is that of your
+blood coursing through your own veins.  Now that's quiet!
+The floor here looks slightly scratched.  You wonder what could make a mark
+in such hard stone...
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22912
+D1
+Exit ~
+door~
+16384 0 22917
+D3
+Exit ~
+door~
+16384 0 22911
+S
+#22917
+The edge of the cavern~
+You are at the southern edge of the vast cavern.  There is non wind here at
+all, and not a trace of any sound.  Your footsteps echo loudly, no matter
+how carefully you seem to walk.  The sound of your eyelids closing irritates
+you somewhat.  Decidedly TOO quiet here.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22913
+D1
+Exit ~
+door~
+16384 0 22918
+D3
+Exit ~
+door~
+16384 0 22916
+S
+#22918
+pile of rubble~
+It looks like a good-sized chunk of the ceiling collapsed in this corner of
+the cavern.  Huge boulders and large slabs of rock lie on the floor here,
+leaving a hole in the cavern dome.  It looks like you can scramble up the
+rocks from here.
+~
+0 AD 5
+D3
+Exit ~
+door~
+16384 0 22917
+D4
+Exit ~
+door~
+16384 0 22919
+S
+#22919
+On the rubble~
+The pile of rubble is rough-going, between crawling over loose rocks, and 
+ducking under the sharp stone overhead.  The rock seems to have broken in
+quite large slabs, fracturing along long cleavage lines.  
+From here, you can work your way north on top of the pile, or go down
+to the floor of the cavern.
+~
+0 AD 5
+D0
+Exit ~
+door~
+16384 0 22920
+D5
+Exit ~
+door~
+16384 0 22918
+S
+#22920
+On the rubble~
+You have quite a bit of difficulty squeezing along on this pile of shattered
+stone, the rocks tend to slip, and sometimes there is only barely enough
+room to squeeze through between the rubble and the stone overhead.  There
+is a light breeze coming from the east, but the fresh air is being quickly
+replaced by stagnant cave-air.  You can move along the rubble to the east,
+the south, or climb down to a large cavern floor.
+~
+0 AD 5
+D1
+Exit ~
+door~
+16384 0 22921
+D2
+Exit ~
+door~
+16384 0 22919
+D5
+Exit ~
+door~
+16384 0 22915
+S
+#22921
+On the rubble~
+You are standing in largish space underneath a large cave.  The floor is 
+nothing but rubble.  Its hard to walk on the loose and shifting slabs of 
+stone.  The chamber seems to continue west, although the space gets much
+tighter as you move away from the opening.
+~
+0 AD 5
+D3
+Exit ~
+door~
+16384 0 22920
+D4
+Exit ~
+door~
+16384 0 22939
+S
+#22922
+On a high ledge~
+You are on a high, narrow ledge above the floor of the vast cavern.  a set 
+of stairs leading down has been neatly carved into the strange rock that
+makes up the walls of this cavern.  To the north is a precisely-dug tunnel
+leading into darkness.
+The howling and moaning is very load now, and is quite obviously coming from
+somewhere down the tunnel.  It is clearly the sound of more than one voice.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 22923
+D5
+Exit ~
+door~
+16384 0 22905
+S
+#22923
+The opening of the moaning tunnels~
+The tunnel leading from the ledge branches off into several directions.
+The tunnels are low, and almost round, just slightly flattened on the floor.
+They appear to be carved into the solid rock: an unrecognizable black stone
+which is quite hard, but has a slightly polished appearance despite being
+quite rough-cut.  
+  Moans and howls come from all directions here.  Loud and disturbing, they
+distract you, and give you chills down your spine.
+~
+0 AD 0
+H 50 M 50
+D0
+Exit ~
+door~
+16384 0 22924
+D1
+Exit ~
+door~
+16384 0 22924
+D2
+Exit ~
+door~
+16384 0 22922
+D3
+Exit ~
+door~
+16384 0 22927
+S
+#22924
+In the moaning tunnels~
+The tunnels continue to twist and wind around, while the moaning continues
+to twist your mind, and make it wander.  You try not to listen, but have
+little success...
+  Exits lead in all directions, it would be easy to get lost here.
+~
+0 AD 0
+H 50 M 50
+D0
+Exit ~
+door~
+16384 0 22925
+D1
+Exit ~
+door~
+16384 0 22926
+D2
+Exit ~
+door~
+16384 0 22923
+D3
+Exit ~
+door~
+16384 0 22927
+S
+#22925
+In the moaning tunnels~
+The tunnels continue to twist and wind around, while the moaning continues
+to invade your mind.  Ignore the voices! Don't Listen! You try to block
+out the sounds, but try as you might, you cannot.
+  Exits lead in all directions, it would be easy to get lost here.
+~
+0 AD 0
+H 50 M 50
+D0
+Exit ~
+door~
+16384 0 22926
+D1
+Exit ~
+door~
+16384 0 22927
+D2
+Exit ~
+door~
+16384 0 22924
+D3
+Exit ~
+door~
+16384 0 22929
+S
+#22926
+In the moaning tunnels~
+The tunnels continue to twist and wind around, while the moaning continues
+to twist your mind, and make it wander.  You don't want to know what sort
+of thing might cause such suffering.
+  Exits lead in all directions, it would be easy to get lost here.
+~
+0 AD 0
+H 50 M 50
+D0
+Exit ~
+door~
+16384 0 22927
+D1
+Exit ~
+door~
+16384 0 22929
+D2
+Exit ~
+door~
+16384 0 22925
+D3
+Exit ~
+door~
+16384 0 22924
+S
+#22927
+In the moaning tunnels~
+The tunnels continue to twist and wind around, while the moaning continues
+and the howls sound like cries of ultimate suffering.  You are going to have
+nightmares for months after this!
+  By now, you barely know which way is up, let alone which way to continue.
+~
+0 AD 0
+H 50 M 50
+D0
+Exit ~
+door~
+16384 0 22928
+D1
+Exit ~
+door~
+16384 0 22924
+D2
+Exit ~
+door~
+16384 0 22926
+D3
+Exit ~
+door~
+16384 0 22925
+E
+~
+Generic extended description.
+~
+S
+#22928
+In the moaning tunnels~
+The confusing maze of tunnels continue to twist and wind around.  The moans
+are driving you half mad!  You try to think happy thoughts, and hum a simple
+tune, but the noise is too great.
+  Exits lead every which way.  Good luck.
+~
+0 AD 0
+H 50 M 50
+D0
+Exit ~
+door~
+16384 0 22924
+D1
+Exit ~
+door~
+16384 0 22930
+D2
+Exit ~
+door~
+16384 0 22927
+D3
+Exit ~
+door~
+16384 0 22926
+S
+#22929
+In the moaning tunnels~
+The tunnels continue to twist and wind around, while the moaning continues
+to twist your mind, and the howls make you a nervous wreck.  You feel as 
+though you are being drawn into the suffering.
+  Exits lead in all directions, it would be easy to get lost here.
+~
+0 AD 0
+H 50 M 50
+D0
+Exit ~
+door~
+16384 0 22924
+D1
+Exit ~
+door~
+16384 0 22925
+D2
+Exit ~
+door~
+16384 0 22927
+D3
+Exit ~
+door~
+16384 0 22926
+S
+#22930
+Hall of Lunacy~
+You stand at the south end of a long, grim hallway decorated with macabre
+paintings of human faces is anguish.  The walls are lined with dozens of
+these faces, each showing a twisted and pained expression more bizzare than
+the last.  You try to shut out the moans and howls, but they are so loud 
+here that you can feel them in your very bones.
+  You can enter the howing tunnels to either the east or the west.  On the
+south wall is a single face with its mouth wide open in a weird grimace.
+~
+0 D 0
+H 25 M 25
+D0
+Exit ~
+door~
+16384 0 22931
+D1
+Exit ~
+door~
+16384 0 22929
+D3
+Exit ~
+door~
+16384 0 22928
+S
+#22931
+The Hall of Lunacy~
+You are in a long hallway, the walls covered with paintings of twisted faces
+in various degrees of manic suffering.  The deafening howls fill your heart
+with dread and make you nervous and uneasy.
+  The hallway runs north and south.  Faces on the walls here look lonely and
+bereaved.  The eyes seem to stare at you.
+~
+0 D 0
+H 25 M 25
+D0
+Exit ~
+door~
+16384 0 22932
+D2
+Exit ~
+door~
+16384 0 22930
+S
+#22932
+The Hall of Lunacy~
+You are in a long hallway, the walls covered with paintings of twisted faces
+which seem to scream out in agony.  Moans and howls are deafening here. 
+You realize that the howling is coming from the faces on the walls!
+  The hallway continues north and south, with doors on each side.
+The door to the east features a relief carving of a long, sad looking face
+wearing spectacles.  To the west, a woman staring at the ground.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22935
+D1
+Exit ~
+door~
+16391 22904 22934
+D2
+Exit ~
+door~
+16384 0 22931
+D3
+Exit ~
+door~
+16391 22904 22933
+S
+#22933
+Chamber of Useless Knowlege~
+This is a featureless white chamber, almost round but not quite.  There is 
+nothing in the room save the door leading back to the hallway.  out of the
+corner of your eye you think you see rows of books on shelves covering the
+walls, but you cannot see these books if you try to look straight at them.
+It doesn't matter, however, because they are worthless.  For that matter,
+so is everything you've ever read, or been taught, or figured out, or teven 
+thought that you understood...You just aren't prepared for this.
+~
+0 D 0
+D1
+Exit ~
+door~
+16391 22904 22932
+S
+#22934
+Chamber of Lost Ambition~
+You find yourself in a chamber painted an awful blood red.  The walls seem
+to close in on you, and the intensity of the color weighs heavily on your
+heart.  You have come so far, but to what end?  The prizes you have so long
+sought seem meaningless now.  Riches, fame, power, magic...they all seem so
+far away.  Hardly goals worthy of the effort you have so long put forth.
+~
+0 D 0
+D3
+Exit ~
+door~
+16391 22904 22932
+S
+#22935
+The Hall of Lunacy~
+You are in a long hallway, the walls covered with paintings of twisted faces
+which scream, howl, and moan so loud that the sound courses through your
+entire body.  The faces get more and more bizzare and mis-shaped as you
+continue along the hallway.  You try not to look directly at them.
+  The hallway continues to run north/south, and there are doors to the
+east and west:  Each depicts a face enduring great suffering.  To the west,
+a woman's pain-stricken eyes gaze at the sky.  To the east, a man grimaces
+and holds his hands over his eyes.
+~
+0 D 0
+H 25 M 25
+D0
+Exit ~
+door~
+16384 0 22938
+D1
+Exit ~
+door~
+16391 22904 22937
+D2
+Exit ~
+door~
+16384 0 22932
+D3
+Exit ~
+door~
+16391 22904 22936
+S
+#22936
+Chamber of misery~
+You are in a featureless black chamber, slightly circular, with only one
+door leading back to the hallway you entered from.  The *feeling* you get
+in this room is almost indescribable.  Just being here makes you feel sad.
+Not just a little sad, but Very Very sad.  You wonder why you even bother.
+~
+0 DN 0
+D1
+Exit ~
+door~
+16391 22904 22935
+S
+#22937
+Chamber of Self-doubt~
+You are in a plain chamber, with deep, dark blue walls.  The room is almost
+circular-not exactly round, but no corners, either.  There is nothing in
+here except a door leading back into the hallway.  You don't think you are
+really up to continuing.  Perhaps you should just recall now, before you 
+get killed.  on the other hand, Mojo probably doesn't want you anyway.
+~
+0 DN 0
+D3
+Exit ~
+door~
+16391 22904 22935
+S
+#22938
+End of the Hall of Lunacy~
+You stand at the end of the disturbing Hall of Lunacy.  There are only a few
+faces here, and they are not as bad as many of the others.  The moaning 
+still chills your blood, but the sight of the large, green door to the north
+heartens you.  Whatever lies beyond will be a relief compared to this!
+~
+0 0 0
+H 25 M 25
+D0
+Exit ~
+green door~
+16391 22902 22997
+D2
+Exit ~
+door~
+16384 0 22935
+S
+#22939
+In a large cave~
+You are in a fairly large natural cave, the ground is rough, covered in
+You are in a large cave with a very rough floor.  This appears to be a 
+natural cave that was widened and carved at one time.  There are hints of
+carvings on the wall, long ago scratched out, and partially collapsed.
+The cave has definitely seen better days: large portions of the ceiling have
+collapsed, and you see the remains of some stone columns, shattered and on
+the floor.  There is an opening to the north, and a largish hole in the
+center of the floor.
+~
+0 AD 0
+H 150 M 150
+D0
+Exit ~
+door~
+16384 0 22940
+D5
+Exit ~
+door~
+16384 0 22921
+S
+#22940
+Outside a cave~
+You outside a large cave on a narrow gravel road.  The sky is a deep shade
+of purple, not too bright.  Everything is bathed in a purplish half-light,
+lending a peculiar atmosphere to your surroundings.  This seems to be a 
+long, narrow valley, surrounded on all sides by a high sandstone cliff.
+Far to the north, just over the trees, you can see the top of what must be
+a very tall tower.
+  The road leads north, and to the south is a large cave opening.  It looks
+like this was once some important place.  You can see traces of stone steps
+underneath the rocks and dirt leading up to the opening, and the cave mouth
+itself looks like it was once a carefully carved arch.
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 22941
+D2
+Exit ~
+door~
+16384 0 22939
+S
+#22941
+On a gravel road in the Ghoul Forest~
+You are on a gravel road which runs north/south down into a bizzare valley.
+The sky glows deep purple, bathing everything in a weird colored half-light.
+The ground here is mostly rocky, but with several scattered trees.  These
+trees are an unfamiliar species: tall, with a narrow trunk, and broad black
+leaves.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22942
+D2
+Exit ~
+door~
+16384 0 22940
+S
+#22942
+On a gravel road in the Ghoul Forest~
+You are on a gravel road which runs north/south down into a bizzare valley.
+The trees are a bit closer together here, and you can see that the forest
+grows more dense to the south and east.  To the west, the rocky hills climb
+to the edge of the valley.  Further south, you can see that the entire 
+floor of the valley is covered with the strange black trees.
+  The road continues to decend north into the valley, and a small trail 
+leads off the road to the east.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22943
+D1
+Exit ~
+door~
+16384 0 22953
+D2
+Exit ~
+door~
+16384 0 22941
+S
+#22943
+On a gravel road in the Ghoul Forest~
+You are on a gravel road running through the ghoul forest.  The woods are
+very thick here, the thick canopy of black leaves block out most of the
+purple light from the sky.  
+To the east is a largish stable, connected to a well-built inn.  The front
+door of the inn is to the north.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22944
+D1
+Exit ~
+door~
+16384 0 22945
+D2
+Exit ~
+door~
+16384 0 22942
+S
+#22944
+In front of the Blue Perch~
+As the road continues to cut through the dense ghoul forest, the trees 
+have been cut back to the east just enough to build a small, friendly-
+looking roadhouse/inn.  A very large stuffed fish hangs over the doorway
+and a sign proclaims "Welcome to The Blue Perch"
+  The gravel road continues north and south, and you see the entrance to
+the inn's stable just south of here.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22970
+D1
+Exit ~
+front door~
+16387 22909 22946
+D2
+Exit ~
+door~
+16384 0 22943
+S
+#22945
+The stable~
+You are in a smallish stable off the blue perch inn.  This is probably the 
+neatest stable you've ever seen.  The floor covered with a uniform layer of
+sawdust, raked and clean.  On the posts and the end walls are various tools
+of the trade, carefully hung on hooks, with little black outlines painted
+to show which goes where.  And, each stall has a polished tin water bucket
+filled to exactly 2 inches below the rim.
+Strangely, there are no horses here...perhaps they would be too dirty?
+  A door to the north leads into the inn, and the back door is east.
+~
+0 0 3
+D0
+Exit ~
+stable door~
+16387 22909 22947
+D1
+Exit ~
+stable door~
+16387 0 22961
+D3
+Exit ~
+door~
+16384 0 22943
+S
+#22946
+Inside the Blue Perch~
+You are in the luxuriously appointed Blue Perch Inn, gem of the Ghoul Forest.
+The walls are adorned with varied decorations: Large, beautiful stuffed fish,
+Paintings of exotic marine life, tapestries depicting fantastic fishing trips
+not to mention souvenier fishing poles, nets, fish clubs, and an intricately
+carved canoe of solid Maple hanging above the bar.
+  A set of stairs lead to the rooms on the second floor, and to the east is
+the quieter "back of the bar"
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 22947
+D3
+Exit ~
+front door~
+16387 22909 22944
+D4
+Exit ~
+door~
+16384 0 22948
+S
+#22947
+The back of the bar~
+It does seem a bit more relaxing here, in the back of the bar.  There are
+only a few decorations back here, it looks like the owner wanted to show you
+the best right when you walk in!  It is fairly dark here, no windows allow
+outside light in, and just a few lanterns hanging in corners provide the
+illumination.  Perhaps the food looks better that way.
+  There is a door leading south into the stable, and a back door to the east.
+~
+0 D 0
+D1
+Exit ~
+back door~
+16387 22909 22952
+D2
+Exit ~
+stable door~
+16387 22909 22945
+D3
+Exit ~
+door~
+16384 0 22946
+S
+#22948
+A hallway in the Blue Perch~
+You are in a hallway upstairs in the Blue Perch Inn, the walls are tastfully
+paneled in cedar, and a fine woven rug covers the floor.  Obviously, the
+owner did not help in decorating up here, as there is no reference to fish.
+  The doors leading east, west, and north are numbered '1', '2', and '3'.
+A stairway leads down to the bar.
+~
+0 0 0
+D0
+Exit ~
+door 3~
+16391 22906 22951
+D1
+Exit ~
+door 1~
+16387 22907 22949
+D3
+Exit ~
+door 2~
+16387 22907 22950
+D5
+Exit ~
+door~
+16384 0 22946
+S
+#22949
+A room in the Blue Perch~
+This is your typical room: fairly small, but comfortable.  A small bed looks
+pretty inviting, as long as you don't have to share it...  There is also
+a little table and chair if, for some reason, you want to sit upstairs,
+away from the action.  A small window looks out at a small clearing and a 
+stream which runs behind the inn.  There appears to be no way to open the
+window.
+~
+0 D 0
+D3
+Exit ~
+door 1~
+16387 22907 22948
+S
+#22950
+A room in the Blue Perch~
+This is your standard, average quality room.  A small, but comfortable, bed
+sits against the far wall, and there is a small table with a chair for late
+night reading, or perhaps having a meal in private.  A small window looks
+out onto the gravel road in front of the inn.  There appears to be no way
+to open the window.
+~
+0 0 0
+D1
+Exit ~
+door 2~
+16387 22907 22948
+S
+#22951
+A fancy room in the Blue Perch~
+You are in what must be the fanciest room in the inn!  (of course, there are
+only three rooms here)  The bed is large, and looks really cushy.  There is
+a small table here, and several chairs.  Perfect for a late-night meeting.
+Out the large window, you can see only the black Ghoul Forest pressing in
+on the inn, tree limbs come rightup to the glass.  There appears to be no
+way to open the window.
+~
+0 D 0
+D2
+Exit ~
+door 3~
+16391 22906 22948
+S
+#22952
+Behind the Blue Perch~
+You are behind the Blue Perch Inn.  A small area here has been cleared, and
+to the east is a wide, fast-moving stream which flows north through this
+valley.  There is little in the way of garbage or clutter here, unusual for
+an inn...  Above the back door hangs a large stuffed fish to welcome guests.
+  You can't force your way through the underbrush to the north, but the
+stream is accessible to the east, and the clearing continues to the south.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 22958
+D2
+Exit ~
+door~
+16384 0 22961
+D3
+Exit ~
+back door~
+16387 22909 22947
+S
+#22953
+On a small path in the Ghoul Forest~
+You are on a small path which cuts through the dense foilage of the black-
+leaved ghoul forest.  It doesn't look like this trail gets much use...
+tiny black weeds grow out of the ground in abundance.  You can hear the
+sound of rushing water to the east.  The trail continues east and west.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 22954
+D3
+Exit ~
+door~
+16384 0 22942
+S
+#22954
+At a ford on a wide stream~
+There is a natural ford here in a wide, fast-moving stream which seems to
+run north-south along the valley.  The water is quite shallow here, easy to
+walk across.  The current is fast and noisy, with a very rocky bottom.  You 
+can follow a small pathh to the east or west, or you could head into deeper
+water to the north or south.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22957
+D1
+Exit ~
+door~
+16384 0 22955
+D2
+Exit ~
+door~
+16384 0 22962
+D3
+Exit ~
+door~
+16384 0 22953
+S
+#22955
+On a small path in the Ghoul Forest~
+You are on a small path which cuts through the dense foilage of the black-
+leaved ghoul forest.  It doesn't look like this trail gets much use...
+tiny black weeds grow out of the ground in abundance.  You can hear the
+rushing of water to the west.  This path continues east and west, and a 
+muddy trail heads off to the north.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22965
+D1
+Exit ~
+door~
+16384 0 22956
+D3
+Exit ~
+door~
+16384 0 22954
+S
+#22956
+On a small path in the Ghoul Forest~
+You are on a small path which cuts through the dense foilage of the black-
+leaved ghoul forest.  The path  meets the high-cliffed wall of the valley
+here, and a wider, more-travelled trail leads north along the rock-face.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22966
+D3
+Exit ~
+door~
+16384 0 22955
+S
+#22957
+on a wide stream~
+You are on a wide stream in the ghoul forest.  The water is fast-moving and
+quite cold.  The high muddy bank to the east is impassible due to thick and
+thorny vines and other strange black undergrowth.  To the west there is a 
+clearing cut, and a small path dug down to the stream.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 22958
+D2
+Exit ~
+door~
+16384 0 22954
+D3
+Exit ~
+door~
+16384 0 22961
+S
+#22958
+On a wide stream~
+You are on a wide stream in the ghoul forest.  The water is fast-moving and
+quite cold.  The high bank to the east is too steep to climb, and the 
+undergrowth is too thick to penetrate even if you could get up it.  To
+the west is a small clearing, and the bank has been dug down to provide
+access to the stream.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 22959
+D2
+Exit ~
+door~
+16384 0 22957
+D3
+Exit ~
+door~
+16384 0 22952
+S
+#22959
+On a wide stream~
+You are on a wide stream in the ghoul forest.  The water is fast-moving and
+really really cold.  The bank is impassible to the west, but someone has 
+cleared a small campsite to the east.  You can smell wood smoke, like that
+of a campfire.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 22960
+D1
+Exit ~
+door~
+16384 0 22963
+D2
+Exit ~
+door~
+16384 0 22958
+S
+#22960
+Under a wooden bridge~
+You are on a wide stream in the ghoul forest.  The water is fast-moving and
+quite cold.  The high bank to the east is too steep to climb, and the 
+much colder than you would prefer.  The high muddy banks are basically 
+impassible here, but you can probably scramble up onto a bridge which
+crosses the stream at this point.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 22998
+D2
+Exit ~
+door~
+16384 0 22959
+D4
+Exit ~
+door~
+16384 0 22974
+S
+#22961
+Behind the stable~
+You are standing on a bank overlooking a wide stream, behind the stable of
+the Blue Perch.  There are several neatly-stacked piles of firewood here,
+each piece cut to excrutiating tolerences.  A tidy little path to the wide
+stream has been dug here, and carefully lined with perfectly flat little
+river stones.
+  The stream lies to the east of here, and the stable to the west.  The dense
+forest blocks passage to the south, but the clearing continues north.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22952
+D1
+Exit ~
+door~
+16384 0 22957
+D3
+Exit ~
+stable door~
+16387 0 22945
+S
+#22962
+At the head of a wide stream~
+You are at the head of a wide stream which flows north through the valley.
+The water cascades down the valley wall from high overhead.  The banks are
+very high here, and the tall black trees and thick undergrowth prevent any
+passage up them.  The only way to go is north along the stream.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 22954
+S
+#22963
+A small campsite in the Ghoul Forest~
+Someone has built a small campsite next to the river here.  A small campfire
+burns in the center of a ring of cleared dirt.  The canopy of the forest 
+overhead blocks out most light, keeping the area in shadows.
+A muddy trail leads south along the stream.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 22964
+D3
+Exit ~
+door~
+16384 0 22959
+S
+#22964
+A muddy trail in the Ghoul Forest~
+You are on a very narrow, very muddy trail running parallel to the stream.
+It looks like the trail was hastily cut from the thick undergrowth, and is
+meant to be hidden from the water.  It looks like there has been a fair
+amount of traffic here, even though the trail is so small.  
+You smell a campfire to the north.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22963
+D2
+Exit ~
+door~
+16384 0 22965
+S
+#22965
+A muddy trail in the Ghoul Forest~
+You are on a very narrow, very muddy trail running parallel to the stream.
+It looks like the trail was hastily cut from the thick undergrowth, and is
+meant to be hidden from the water.  It looks like there has been a fair
+amount of traffic here, even though the trail is so small.  
+The trail continues to the north and south.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22964
+D2
+Exit ~
+door~
+16384 0 22955
+S
+#22966
+A trail along the valley edge~
+You are on a trail that runs north/south along the wall of the valley.  The
+trees of the ghoul forest are thinner here, and there is less undergrowth.
+The trail is sandy, and well defined.  The valley edge itself seems mainly
+to be sandstone, with the occasional black weed or tiny tree growing from
+cracks in the rock.  The high wall is far to steep to climb.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22967
+D2
+Exit ~
+door~
+16384 0 22956
+S
+#22967
+A trail along the valley edge~
+You are on a trail that runs north/south along the wall of the valley.  The
+trees of the ghoul forest are thinner here, and there is less undergrowth.
+The trail is sandy, and well defined.  The valley edge itself seems mainly
+to be sandstone, with the occasional black weed or tiny tree growing from
+cracks in the rock.  The high wall is far to steep to climb.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22968
+D2
+Exit ~
+door~
+16384 0 22966
+S
+#22968
+By a small cave in the valley edge~
+You are on a trail that heads north along the wall of the valley.  The
+trail ends here at a small cave in the granite wall of the valley.  The 
+opening to the cave is relatively small, but you can tell that it opens up
+considerably once inside.
+  A well-defined trail heads south from here along the edge of the valley.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 22969
+D2
+Exit ~
+door~
+16384 0 22967
+S
+#22969
+In a small cave in the Ghoul Forest~
+You are in a small natural cave in the granite wall of the valley.  It looks
+like someone has been living here for quite some time:  possible a lot of
+someone's.  The room is littered with old, worn blankets and rags used as
+beds, and a large number of bones scattered around the room.  The bones are
+clearly humanoid: mainly elves and humans, but occassionally larger samples,
+perhaps even from a giant.
+~
+0 AD 0
+D3
+Exit ~
+door~
+16384 0 22968
+S
+#22970
+On a gravel road in the Ghoul Forest~
+You are on a gravel road which runs north/south down into a bizzare valley.
+The sky glows deep purple, bathing everything in a weird colored half-light.
+The forest is quite a bit thicker here, with the canopy of black leaves
+blocking out almost all the sunlight.  The ground is rocky, with few weeds
+on the road itself, but the undergrowth in the forest is very thick.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22971
+D2
+Exit ~
+door~
+16384 0 22944
+S
+#22971
+At an intersection in the Ghoul Forest~
+You are at an intersection between a wide path coming from the east, and a
+gravel road which runs north/south through the valley.
+The sky glows deep purple, bathing everything in a weird colored half-light.
+The ground here is mostly rocky, but with several scattered trees.  These
+trees are an unfamiliar species: tall, with a narrow trunk, and broad black
+leaves.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22972
+D1
+Exit ~
+door~
+16384 0 22973
+D2
+Exit ~
+door~
+16384 0 22970
+S
+#22972
+On a gravel road in the Ghoul Forest~
+You are on a gravel road which runs north/south down into a bizzare valley.
+The sky glows deep purple, bathing everything in a weird colored half-light.
+The ground here is mostly rocky, but with several scattered trees.  These
+trees are an unfamiliar species: tall, with a narrow trunk, and broad black
+leaves.  Just ahead, to the north, you can see a small palace with a single,
+very tall tower reaching into the sky.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 22977
+D2
+Exit ~
+door~
+16384 0 22971
+S
+#22973
+On a wide path in the Ghoul Forest~
+You are on a wide path running through the thinner part of the Ghoul Forest.
+The path has been carefully cut to go almost straight through the woods,
+and the ground here is remarkably clear of weeds, especially considering
+the density of the undergrowth to the sides.
+The path meets up with a gravel road to the west, and to the east, you can
+hear the sound of rushing water.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 22974
+D3
+Exit ~
+door~
+16384 0 22971
+S
+#22974
+On a wooden bridge over a wide stream~
+You are on a small bridge which crosses a wide, fast moving stream.  The
+planks are very thick, and rough-cut.  It looks like they are made of the
+local wood, a very hard, peculiar black species.  This bridge was obviously
+built to last.
+  A wide path runs to the east and west, or you could scramble down into
+the stream from here.  Watch out, it looks cold!
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 22975
+D3
+Exit ~
+door~
+16384 0 22973
+D5
+Exit ~
+door~
+16384 0 22960
+S
+#22975
+On a wide path in the Ghoul Forest~
+You are on a wide path running through the thinner part of the Ghoul Forest.
+The path has been carefully cut to go almost straight through the woods,
+and the ground here is remarkably clear of weeds, especially considering
+the density of the undergrowth to the sides.
+  To the west, you see a small bridge which crossed over a wide stream.  To
+the east, the path gets very steep, and climbs up the valley wall.
+~
+0 0 3
+D3
+Exit ~
+door~
+16384 0 22974
+D4
+Exit ~
+door~
+16384 0 22976
+S
+#22976
+On a steep trail~
+The going is quite treacherous on this trail which decends into the valley
+below.  The trail switches back frequently, but is still a serious slope
+for most of the way.  You are under the purple cloud cover here, and the
+world is bathed in a peculiar light which you are not sure you can get used
+to or not.  Below you the trail flattens out, and gets wider.
+~
+0 0 5
+D4
+Exit ~
+door~
+16384 0 22901
+D5
+Exit ~
+door~
+16384 0 22975
+S
+#22977
+In front of the palace~
+The gravel road ends at a huge metal gate on the side of a small palace.  
+The palace is not too flashy, but decidedly fancy nonetheless.  The walls 
+are made of carefully cut and fitted granite blocks, decorated with many
+faces running all the way across the top edge.  The faces have varied
+expressions: contentment, happiness, ecstasy...  several stages in between.
+A few of the faces are rather odd, and you can't quite tell what they are
+supposed to be feeling.
+  From the center of the palace roof, a ridiculously tall and very narrow
+tower rises up, nearly into the purple clouds which cover this valley.
+A large sign hangs above the gate.
+~
+0 0 3
+D0
+Exit ~
+gate~
+16391 22905 22978
+D2
+Exit ~
+door~
+16384 0 22972
+E
+sign~
+WELCOME to the PALACE OF DECADENCE
+~
+S
+#22978
+The Grand Hall~
+You are in the grand hall of the Palace of Decadence.  Rich guests from all
+over Boinga come here to watch exciting death sports in the arena, or to
+partake in expensive and exotic food in the famous dining room.  The hall
+here is decorated with rich tapestries on the walls depicting stylized
+gladiators in the heat of battle.
+  A large archway to the north leads to the arena, and large double doors
+to the east lead to the dining room.  The front gate is south.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22979
+D1
+Exit ~
+door~
+16387 0 22993
+D2
+Exit ~
+gate~
+16391 22905 22977
+D4
+Exit ~
+door~
+16384 0 22989
+S
+#22979
+The south side of the pit~
+You are on the south side of the fighting pit.  This is a large room with
+plain stone walls.  There is no ornamentation or decoration to detract or
+distract from the action below.  The fighting can be viewed from three 
+sides of the pit: you can go east or west around the circular arena to
+find the best view, or you can go down an iron ladder into the pit itself.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 22980
+D2
+Exit ~
+door~
+16384 0 22978
+D3
+Exit ~
+door~
+16384 0 22981
+D5
+Exit ~
+door~
+16384 0 22982
+S
+#22980
+The east side of the pit~
+You are on the east side of the fighting pit, a circular arena sunk deep
+into the stone floor.  The view here is slightly better than from the south
+side, as the seats are slightly elevated so you can get a better angle on
+gladiators as they move closer to this side.
+  You can go south around the pit if you don't like the perspective.
+~
+0 D 0
+D2
+Exit ~
+door~
+16384 0 22979
+S
+#22981
+The west side of the pit~
+You are on the west side of the fighting pit, a circular arena sunk deep
+into the stone floor.  The view here is slightly better than from the south
+side, as the seats are slightly elevated so you can get a better angle on
+gladiators as they move closer to this side.
+  You can go south around the pit if you don't like the perspective.
+~
+0 D 0
+D2
+Exit ~
+door~
+16384 0 22979
+S
+#22982
+In the fighting pit~
+You are in the bottom of a deep, wide fighting pit which is overlooked by
+rows of seats to the south, east, and west.  The floor is hard tile, stained
+by the blood of innumerable combatants.  There is a tunnel leading north,
+with a heavy steel grate which can be raised or lowered to control the 
+movement of the occassional gladiator who may be less than enthusiastic.
+There is an iron ladder which leads up to the south edge of the pit.
+~
+0 D 0
+D0
+Exit ~
+grate~
+16387 22908 22983
+D4
+Exit ~
+door~
+16384 0 22979
+S
+#22983
+In a dark tunnel~
+You are in a dark tunnel which leads to the fighting pit to the south.  The
+floor here is a hard tile, stained with a considerable amount of blood...
+no doubt the blood of returning champions, and fallen corpses alike.  To
+the east and west are cages to confine combatants waiting for their turn.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22986
+D1
+Exit ~
+cage~
+16387 0 22985
+D2
+Exit ~
+grate~
+16387 22908 22982
+D3
+Exit ~
+cage~
+16387 0 22984
+S
+#22984
+A damp cage~
+You are in a rather small, and very damp cage.  There is some straw on the
+floor which serves as a bed for the gladiator who wants to catch a short
+nap before going into the arena and fighting to the death.  It looks like 
+this room is often sprayed down with water, perhaps to keep it clean, or 
+maybe just to keep it damp and uncomfortable.
+~
+0 AD 0
+H 75
+D1
+Exit ~
+cage~
+16387 0 22983
+S
+#22985
+A damp cage~
+You are in a rather small, and very damp cage.  There is some straw on the
+floor which serves as a bed for the gladiator who wants to catch a short
+nap before going into the arena and fighting to the death.  It looks like 
+this room is often sprayed down with water, perhaps to keep it clean, or 
+maybe just to keep it damp and uncomfortable.
+~
+0 AD 0
+H 75
+D3
+Exit ~
+cage~
+16387 0 22983
+S
+#22986
+The training room~
+You are in a large, long room with plain stone floor, walls, and ceiling.
+It looks like this room is for the gladiators to be properly prepared for
+battle.  After all, the fight would be far less gratifying if those involved
+were not in tip-top shape for the fight.
+A dark tunnel leads south to the arena, and there are cages east and west.
+~
+0 D 0
+D1
+Exit ~
+cage~
+16387 0 22988
+D2
+Exit ~
+door~
+16384 0 22983
+D3
+Exit ~
+cage~
+16387 0 22987
+S
+#22987
+A damp cage~
+You are in a rather small, and very damp cage.  There is some straw on the
+floor which serves as a bed for the gladiator who wants to catch a short
+nap before going into the arena and fighting to the death.  It looks like 
+this room is often sprayed down with water, perhaps to keep it clean, or 
+maybe just to keep it damp and uncomfortable.
+~
+0 AD 0
+H 75
+D1
+Exit ~
+cage~
+16387 0 22986
+S
+#22988
+A damp cage~
+You are in a rather small, and very damp cage.  There is some straw on the
+floor which serves as a bed for the gladiator who wants to catch a short
+nap before going into the arena and fighting to the death.  It looks like 
+this room is often sprayed down with water, perhaps to keep it clean, or 
+maybe just to keep it damp and uncomfortable.
+~
+0 AD 0
+H 75
+D3
+Exit ~
+cage~
+16387 0 22986
+S
+#22989
+On a spiral staircase~
+You are on a steep spiral staircase leading up the tall spire which is the
+trademark of the palace of decadence.  The steps themselves are carved of
+marble, and the walls are carved granite, decorated with numerous scenes
+of various jaded and exotic pleasures.
+The Grand Hall is just below you, or you can continue up the steps.
+~
+0 D 0
+D4
+Exit ~
+door~
+16384 0 22990
+D5
+Exit ~
+door~
+16384 0 22978
+S
+#22990
+Up a spiral staircase~
+You are on a steep spiral staircase leading up the tall spire which is the
+trademark of the palace of decadence.  The steps themselves are carved of
+marble, and the walls are carved granite, decorated with numerous scenes
+of various jaded and exotic pleasures.
+You can continue up or down, but its probably a long walk either way.
+~
+0 D 0
+D4
+Exit ~
+door~
+16384 0 22991
+D5
+Exit ~
+door~
+16384 0 22989
+S
+#22991
+WAY up a spiral staircase~
+You are on a steep spiral staircase leading up the tall spire which is the
+trademark of the palace of decadence.  The steps themselves are carved of
+marble, and the walls are carved granite, decorated with numerous scenes
+of various jaded and exotic pleasures.
+You are very far up the stairs at this point.  There seems to be a chamber
+just a bit above you, and the Grand Hall is WAY below you.
+~
+0 D 0
+D4
+Exit ~
+door~
+16384 0 22992
+D5
+Exit ~
+door~
+16384 0 22990
+S
+#22992
+Chamber of Decadence~
+You are in the chamber of the Lord of the palace: The Lord of Decadence!
+The Lord of Decadence is feared throughout boinga for his reputation as a
+fighter, and a mage.  He built this palace, and perhaps the entire valley
+as a way to privately explore his own bizzare tastes.
+  The chamber itself is fantastically opulent: with ridiculously complex
+carvings on the marble walls, and a floor of jade tile, magically heated
+to keep the chamber warm and comfortable.  Windows look out on the black
+and purple ghoul forest outside.
+~
+0 D 0
+H 125 M 150
+D5
+Exit ~
+door~
+16384 0 22991
+S
+#22993
+The Grand Dining Room~
+This is the famous dining room of the Palace of Decadence.  You have heard
+some pretty awful stories about the unusual dishes served here, but hoped
+that those rumours were just an exaggeration.  Even the rough and tumble
+stomach of a seasoned adventurer turns loops at the sight of the huge
+cannibilistic feast laid out on the long dining table.
+You can go west through the double doors into the Grand hall, or explore
+the kitchen to the east.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 22994
+D3
+Exit ~
+door~
+16387 0 22978
+S
+#22994
+The kitchen~
+You are in the kitchen of the Palace of Decadence.  This is where the feasts
+of legend are prepared before being served to well-paying guest.  The 
+facilities look like that of any royal kitchen: large ovens, huge tables
+for preparation and an assortment of odd-looking utensils and fancy dining-
+ware.  From here you can go west into the Grand Dining Room.
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 22993
+D5
+Exit ~
+panel~
+16387 0 22995
+S
+#22995
+A narrow tunnel~
+You are in a narrow tunnel which heads down at an uncomfortably steep angle.
+It looks like the tunnel was dug through nearly solid stone, and it is very
+rough and uneven.  You can barely smell food from above you, and you hear
+just the hint of howling and moans from below.
+  Overhead there is a small panel, or you can go down the tunnel.
+~
+0 AD 0
+D4
+Exit ~
+panel~
+16387 0 22994
+D5
+Exit ~
+door~
+16384 0 22996
+S
+#22996
+A narrow tunnel~
+You are in a narrow tunnel which heads down at an uncomfortably steep angle.
+It looks like the tunnel was dug through nearly solid stone, and it is very
+rough and uneven.  You can barely smell food from above you, and you hear
+load moaning and howling coming from below you.
+~
+0 AD 0
+D4
+Exit ~
+door~
+16384 0 22995
+D5
+Exit ~
+door~
+16384 0 22997
+S
+#22997
+The Pit of Despair~
+You have an awful feeling deep in the pit of your stomach just from being in
+this room.  Its like being in a bottom of a very deep pit  The air is so 
+stale as to be almost unbreathable, and your ears ring with constant noise:
+howling and moaning coming from the the south.  A large green door is on the
+south wall of the pit, and a narrow tunnnel climbs up, away from here.
+~
+0 AD 0
+D2
+Exit ~
+green door~
+16391 22902 22938
+D4
+Exit ~
+door~
+16384 0 22996
+S
+#22998
+The end of a wide stream~
+The wide, fast moving stream ends here at a large iron grate on the side of
+a large palace.  The water rushes through the grate, and from the sound of
+it, seems to drop a considerable distance beyond that.  There appears to be
+no way to get through the grate.
+  You can head back south, against the current, or you can stay right here.
+~
+0 0 7
+D2
+Exit ~
+door~
+16384 0 22960
+E
+crate~
+You can barely read some small print at the base of the crate:
+"Some assembly required"
+~
+S
+#22999
+The Hall of Yukon~
+You stand in a long hall with a high vaulted ceiling and a floor that has
+been formed of a single, huge slab of blue and white marble.  The walls
+are made of granite blocks: well carved and polished, but bare...
+In the far corner there is a card table covered with notebooks and scraps
+of paper.  Several unpacked boxes are stacked against the wall.
+ 
+A large crate marked "Midgaard Throne Co." sit in the center of the hall.
+~
+0 CDPT 0
+E
+crate~
+You can barely read some small print at the base of the crate:
+"Some assembly required"
+~
+S
+#0
+
+#RESETS
+M 0 22901   1 22904  1	* an ancient white weasel
+M 0 22900   4 22905  1	* a huge white weasel
+M 0 22900   4 22906  1	* a huge white weasel
+M 0 22900   4 22912  1	* a huge white weasel
+M 0 22900   4 22914  1	* a huge white weasel
+M 0 22908   2 22919  1	* a large rock snake
+M 0 22908   2 22920  1	* a large rock snake
+M 0 22906   5 22923  1	* a howling lunatic
+M 0 22906   5 22925  1	* a howling lunatic
+M 0 22906   5 22929  1	* a howling lunatic
+M 0 22906   5 22930  1	* a howling lunatic
+G 1 22904  -1     	*   a small black key
+M 0 22907   4 22933  1	* a spirit of torment
+M 0 22907   4 22934  1	* a spirit of torment
+M 0 22907   4 22936  1	* a spirit of torment
+M 0 22907   4 22937  1	* a spirit of torment
+M 0 22921   1 22945  1	* the stable boy
+E 1 22946  -1   16	*   a silver shovel
+M 0 22920   1 22946  1	* the owner of the Blue Perch
+G 1 22909  -1     	*   a small gold key
+E 1 22928  -1   16	*   a stuffed fish
+M 0 22926   1 22946  1	* a lanky bartender
+G 1 22918  -1     	*   Blue Perch Special Java
+G 1 22915  -1     	*   a fragrant fish biscuit
+G 1 22916  -1     	*   a delicious fish steak
+G 1 22917  -1     	*   a bowl of fish soup
+G 1 22914  -1     	*   a bottle of Blue Perch Lager
+G 1 22913  -1     	*   a pint of Blackwood Stout
+M 0 22922   1 22947  1	* the mysterious stranger
+G 1 22906  -1     	*   a fat brass key
+M 0 22927   1 22947  1	* a sassy brunette harlot
+M 0 22923   2 22948  2	* a maid
+G 1 22907  -1     	*   a small brass key
+M 0 22923   2 22948  2	* a maid
+G 1 22907  -1     	*   a small brass key
+M 0 22905   4 22954  1	* a ghoul sentry
+E 1 22939  -1    7	*   a pair of old leather pants
+E 1 22901  -1   16	*   a rusty broadsword
+M 0 22905   4 22956  1	* a ghoul sentry
+E 1 22901  -1   16	*   a rusty broadsword
+M 0 22928   2 22958  1	* a giant trout
+M 0 22928   2 22960  1	* a giant trout
+M 0 22904   4 22963  2	* a hungry ghoul
+E 1 22943  -1    5	*   a studded leather vest
+E 1 22901  -1   16	*   a rusty broadsword
+G 1 22932  -1     	*   some black leaves
+M 0 22904   4 22963  2	* a hungry ghoul
+E 1 22939  -1    7	*   a pair of old leather pants
+E 1 22901  -1   16	*   a rusty broadsword
+M 0 22905   4 22965  1	* a ghoul sentry
+E 1 22943  -1    5	*   a studded leather vest
+E 1 22901  -1   16	*   a rusty broadsword
+M 0 22905   4 22968  1	* a ghoul sentry
+E 1 22901  -1   16	*   a rusty broadsword
+G 1 22932  -1     	*   some black leaves
+M 0 22919   1 22969  1	* Horus Aggressor
+E 1 22929  -1   16	*   a welded broadsword
+E 1 22933  -1    5	*   a black steel corselet
+E 1 22938  -1   12	*   a green and black cape
+M 0 22904   4 22969  2	* a hungry ghoul
+E 1 22901  -1   16	*   a rusty broadsword
+E 1 22939  -1    7	*   a pair of old leather pants
+M 0 22904   4 22969  2	* a hungry ghoul
+E 1 22901  -1   16	*   a rusty broadsword
+E 1 22939  -1    7	*   a pair of old leather pants
+M 0 22903   2 22970  1	* a ghoul scout
+E 1 22901  -1   16	*   a rusty broadsword
+E 1 22940  -1    5	*   an old leather vest
+M 0 22903   2 22975  1	* a ghoul scout
+G 1 22940  -1     	*   an old leather vest
+E 1 22901  -1   16	*   a rusty broadsword
+E 1 22940  -1    5	*   an old leather vest
+M 0 22912   2 22977  2	* a palace guard
+E 1 22910  -1   16	*   a fancy halberd
+G 1 22905  -1     	*   the palace key
+M 0 22912   2 22977  2	* a palace guard
+E 1 22910  -1   16	*   a fancy halberd
+M 0 22902   1 22978  1	* The Jaded Knight
+E 1 22910  -1   16	*   a fancy halberd
+E 1 22911  -1    5	*   a jade breastplate
+E 1 22912  -1   13	*   a jade girth
+M 0 22911   3 22978  1	* a wandering guest
+M 0 22911   3 22980  1	* a wandering guest
+M 0 22911   3 22981  1	* a wandering guest
+M 0 22915   1 22985  1	* a giant gladiator
+E 1 22927  -1   16	*   a very heavy maul
+M 0 22909   1 22986  1	* the pit boss
+E 1 22930  -1   16	*   a steel whip
+G 1 22908  -1     	*   a large iron key
+M 0 22916   1 22987  1	* a minotaur captain
+E 1 22931  -1   16	*   an old broadsword
+M 0 22917   1 22988  1	* a captive Ofcol cityguard
+E 1 22934  -1    6	*   a bronze helmet
+E 1 22935  -1   14	*   a bronze bracer
+E 1 22944  -1   16	*   a short thick dagger
+M 0 22913   2 22991  2	* an elite palace guard
+E 1 22926  -1   16	*   a double bladed dagger
+M 0 22913   2 22991  2	* an elite palace guard
+E 1 22926  -1   16	*   a double bladed dagger
+M 0 22918   1 22992  1	* the Lord of Decadence
+G 1 22942  -1     	*   a fist-sized emerald
+M 0 22910   2 22993  1	* a hungry guest
+M 0 22910   2 22994  1	* a hungry guest
+M 0 22924   1 22994  1	* the cook
+E 1 22945  -1   16	*   a well polished cleaver
+M 0 22925   1 22997  1	* the serpent of greed
+G 1 22936  -1     	*   the Eye of the Serpent
+O 0 22903 100 22904	* pile of fur and bones
+P 1 22900  -1 22903  1	*   A weasel's tooth
+O 0 22937 100 22930	* a gaping mouth
+P 1 22902  -1 22937  1	*   a green key
+O 0 22924 100 22946	* a long wooden table
+O 0 22925 100 22947	* a small round table
+O 0 22921 100 22949	* a soft bed
+O 0 22920 100 22950	* a hard bed
+O 0 22922 100 22951	* a comfy bed
+O 0 22919 100 22951	* an ornate jewelry box
+P 1 22941  -1 22919  1	*   a jade pendant
+O 0 22923 100 22992	* a luxurious velvet couch
+M 0 22906   5 22932  1	* a howling lunatic
+G 1 22904  -1     	*   a small black key
+E 1 22949  -1   16	*   rage of the lunatic
+D 0 22900   0 16384	* On a trail near the Dwarf Forest north
+D 0 22900   3 16384	* On a trail near the Dwarf Forest west
+D 0 22901   1 16384	* Overlooking a strange valley east
+D 0 22901   5 16384	* Overlooking a strange valley down
+D 0 22902   1 16384	* The edge of the cavern east
+D 0 22902   2 16384	* The edge of the cavern south
+D 0 22902   3 16384	* The edge of the cavern west
+D 0 22903   0 16384	* The edge of the cavern north
+D 0 22903   1 16384	* The edge of the cavern east
+D 0 22903   2 16384	* The edge of the cavern south
+D 0 22903   3 16384	* The edge of the cavern west
+D 0 22904   2 16384	* a small, smelly cave south
+D 0 22905   1 16384	* The edge of the cavern east
+D 0 22905   2 16384	* The edge of the cavern south
+D 0 22905   3 16384	* The edge of the cavern west
+D 0 22905   4 16384	* The edge of the cavern up
+D 0 22906   0 16384	* The edge of the cavern north
+D 0 22906   1 16384	* The edge of the cavern east
+D 0 22906   2 16384	* The edge of the cavern south
+D 0 22907   0 16384	* A Vast Cavern north
+D 0 22907   1 16384	* A Vast Cavern east
+D 0 22907   2 16384	* A Vast Cavern south
+D 0 22907   3 16384	* A Vast Cavern west
+D 0 22908   0 16384	* A Vast Cavern north
+D 0 22908   1 16384	* A Vast Cavern east
+D 0 22908   2 16384	* A Vast Cavern south
+D 0 22908   3 16384	* A Vast Cavern west
+D 0 22909   0 16384	* A Vast Cavern north
+D 0 22909   1 16384	* A Vast Cavern east
+D 0 22909   2 16384	* A Vast Cavern south
+D 0 22909   3 16384	* A Vast Cavern west
+D 0 22910   0 16384	* The edge of the cavern north
+D 0 22910   2 16384	* The edge of the cavern south
+D 0 22910   3 16384	* The edge of the cavern west
+D 0 22911   0 16384	* The edge of the cavern north
+D 0 22911   1 16384	* The edge of the cavern east
+D 0 22911   2 16384	* The edge of the cavern south
+D 0 22912   0 16384	* A Vast Cavern north
+D 0 22912   1 16384	* A Vast Cavern east
+D 0 22912   2 16384	* A Vast Cavern south
+D 0 22912   3 16384	* A Vast Cavern west
+D 0 22913   0 16384	* A Vast Cavern north
+D 0 22913   1 16384	* A Vast Cavern east
+D 0 22913   2 16384	* A Vast Cavern south
+D 0 22913   3 16384	* A Vast Cavern west
+D 0 22914   0 16384	* A Vast Cavern north
+D 0 22914   1 16384	* A Vast Cavern east
+D 0 22914   2 16384	* A Vast Cavern south
+D 0 22914   3 16384	* A Vast Cavern west
+D 0 22915   0 16384	* pile of rubble north
+D 0 22915   3 16384	* pile of rubble west
+D 0 22915   4 16384	* pile of rubble up
+D 0 22916   0 16384	* The edge of the cavern north
+D 0 22916   1 16384	* The edge of the cavern east
+D 0 22916   3 16384	* The edge of the cavern west
+D 0 22917   0 16384	* The edge of the cavern north
+D 0 22917   1 16384	* The edge of the cavern east
+D 0 22917   3 16384	* The edge of the cavern west
+D 0 22918   3 16384	* pile of rubble west
+D 0 22918   4 16384	* pile of rubble up
+D 0 22919   0 16384	* On the rubble north
+D 0 22919   5 16384	* On the rubble down
+D 0 22920   1 16384	* On the rubble east
+D 0 22920   2 16384	* On the rubble south
+D 0 22920   5 16384	* On the rubble down
+D 0 22921   3 16384	* On the rubble west
+D 0 22921   4 16384	* On the rubble up
+D 0 22922   0 16384	* On a high ledge north
+D 0 22922   5 16384	* On a high ledge down
+D 0 22923   0 16384	* The opening of the moaning tunnels north
+D 0 22923   1 16384	* The opening of the moaning tunnels east
+D 0 22923   2 16384	* The opening of the moaning tunnels south
+D 0 22923   3 16384	* The opening of the moaning tunnels west
+D 0 22924   0 16384	* In the moaning tunnels north
+D 0 22924   1 16384	* In the moaning tunnels east
+D 0 22924   2 16384	* In the moaning tunnels south
+D 0 22924   3 16384	* In the moaning tunnels west
+D 0 22925   0 16384	* In the moaning tunnels north
+D 0 22925   1 16384	* In the moaning tunnels east
+D 0 22925   2 16384	* In the moaning tunnels south
+D 0 22925   3 16384	* In the moaning tunnels west
+D 0 22926   0 16384	* In the moaning tunnels north
+D 0 22926   1 16384	* In the moaning tunnels east
+D 0 22926   2 16384	* In the moaning tunnels south
+D 0 22926   3 16384	* In the moaning tunnels west
+D 0 22927   0 16384	* In the moaning tunnels north
+D 0 22927   1 16384	* In the moaning tunnels east
+D 0 22927   2 16384	* In the moaning tunnels south
+D 0 22927   3 16384	* In the moaning tunnels west
+D 0 22928   0 16384	* In the moaning tunnels north
+D 0 22928   1 16384	* In the moaning tunnels east
+D 0 22928   2 16384	* In the moaning tunnels south
+D 0 22928   3 16384	* In the moaning tunnels west
+D 0 22929   0 16384	* In the moaning tunnels north
+D 0 22929   1 16384	* In the moaning tunnels east
+D 0 22929   2 16384	* In the moaning tunnels south
+D 0 22929   3 16384	* In the moaning tunnels west
+D 0 22930   0 16384	* Hall of Lunacy north
+D 0 22930   1 16384	* Hall of Lunacy east
+D 0 22930   3 16384	* Hall of Lunacy west
+D 0 22931   0 16384	* The Hall of Lunacy north
+D 0 22931   2 16384	* The Hall of Lunacy south
+D 0 22932   0 16384	* The Hall of Lunacy north
+D 0 22932   1 16391	* The Hall of Lunacy east
+D 0 22932   2 16384	* The Hall of Lunacy south
+D 0 22932   3 16391	* The Hall of Lunacy west
+D 0 22933   1 16391	* Chamber of Useless Knowlege east
+D 0 22934   3 16391	* Chamber of Lost Ambition west
+D 0 22935   0 16384	* The Hall of Lunacy north
+D 0 22935   1 16391	* The Hall of Lunacy east
+D 0 22935   2 16384	* The Hall of Lunacy south
+D 0 22935   3 16391	* The Hall of Lunacy west
+D 0 22936   1 16391	* Chamber of misery east
+D 0 22937   3 16391	* Chamber of Self-doubt west
+D 0 22938   0 16391	* End of the Hall of Lunacy north
+D 0 22938   2 16384	* End of the Hall of Lunacy south
+D 0 22939   0 16384	* In a large cave north
+D 0 22939   5 16384	* In a large cave down
+D 0 22940   0 16384	* Outside a cave north
+D 0 22940   2 16384	* Outside a cave south
+D 0 22941   0 16384	* On a gravel road in the Ghoul Forest north
+D 0 22941   2 16384	* On a gravel road in the Ghoul Forest south
+D 0 22942   0 16384	* On a gravel road in the Ghoul Forest north
+D 0 22942   1 16384	* On a gravel road in the Ghoul Forest east
+D 0 22942   2 16384	* On a gravel road in the Ghoul Forest south
+D 0 22943   0 16384	* On a gravel road in the Ghoul Forest north
+D 0 22943   1 16384	* On a gravel road in the Ghoul Forest east
+D 0 22943   2 16384	* On a gravel road in the Ghoul Forest south
+D 0 22944   0 16384	* In front of the Blue Perch north
+D 0 22944   1 16387	* In front of the Blue Perch east
+D 0 22944   2 16384	* In front of the Blue Perch south
+D 0 22945   0 16387	* The stable north
+D 0 22945   1 16387	* The stable east
+D 0 22945   3 16384	* The stable west
+D 0 22946   1 16384	* Inside the Blue Perch east
+D 0 22946   3 16387	* Inside the Blue Perch west
+D 0 22946   4 16384	* Inside the Blue Perch up
+D 0 22947   1 16387	* The back of the bar east
+D 0 22947   2 16387	* The back of the bar south
+D 0 22947   3 16384	* The back of the bar west
+D 0 22948   0 16391	* A hallway in the Blue Perch north
+D 0 22948   1 16387	* A hallway in the Blue Perch east
+D 0 22948   3 16387	* A hallway in the Blue Perch west
+D 0 22948   5 16384	* A hallway in the Blue Perch down
+D 0 22949   3 16387	* A room in the Blue Perch west
+D 0 22950   1 16387	* A room in the Blue Perch east
+D 0 22951   2 16391	* A fancy room in the Blue Perch south
+D 0 22952   1 16384	* Behind the Blue Perch east
+D 0 22952   2 16384	* Behind the Blue Perch south
+D 0 22952   3 16387	* Behind the Blue Perch west
+D 0 22953   1 16384	* On a small path in the Ghoul Forest east
+D 0 22953   3 16384	* On a small path in the Ghoul Forest west
+D 0 22954   0 16384	* At a ford on a wide stream north
+D 0 22954   1 16384	* At a ford on a wide stream east
+D 0 22954   2 16384	* At a ford on a wide stream south
+D 0 22954   3 16384	* At a ford on a wide stream west
+D 0 22955   0 16384	* On a small path in the Ghoul Forest north
+D 0 22955   1 16384	* On a small path in the Ghoul Forest east
+D 0 22955   3 16384	* On a small path in the Ghoul Forest west
+D 0 22956   0 16384	* On a small path in the Ghoul Forest north
+D 0 22956   3 16384	* On a small path in the Ghoul Forest west
+D 0 22957   0 16384	* on a wide stream north
+D 0 22957   2 16384	* on a wide stream south
+D 0 22957   3 16384	* on a wide stream west
+D 0 22958   0 16384	* On a wide stream north
+D 0 22958   2 16384	* On a wide stream south
+D 0 22958   3 16384	* On a wide stream west
+D 0 22959   0 16384	* On a wide stream north
+D 0 22959   1 16384	* On a wide stream east
+D 0 22959   2 16384	* On a wide stream south
+D 0 22960   0 16384	* Under a wooden bridge north
+D 0 22960   2 16384	* Under a wooden bridge south
+D 0 22960   4 16384	* Under a wooden bridge up
+D 0 22961   0 16384	* Behind the stable north
+D 0 22961   1 16384	* Behind the stable east
+D 0 22961   3 16387	* Behind the stable west
+D 0 22962   0 16384	* At the head of a wide stream north
+D 0 22963   2 16384	* A small campsite in the Ghoul Forest south
+D 0 22963   3 16384	* A small campsite in the Ghoul Forest west
+D 0 22964   0 16384	* A muddy trail in the Ghoul Forest north
+D 0 22964   2 16384	* A muddy trail in the Ghoul Forest south
+D 0 22965   0 16384	* A muddy trail in the Ghoul Forest north
+D 0 22965   2 16384	* A muddy trail in the Ghoul Forest south
+D 0 22966   0 16384	* A trail along the valley edge north
+D 0 22966   2 16384	* A trail along the valley edge south
+D 0 22967   0 16384	* A trail along the valley edge north
+D 0 22967   2 16384	* A trail along the valley edge south
+D 0 22968   1 16384	* By a small cave in the valley edge east
+D 0 22968   2 16384	* By a small cave in the valley edge south
+D 0 22969   3 16384	* In a small cave in the Ghoul Forest west
+D 0 22970   0 16384	* On a gravel road in the Ghoul Forest north
+D 0 22970   2 16384	* On a gravel road in the Ghoul Forest south
+D 0 22971   0 16384	* At an intersection in the Ghoul Forest north
+D 0 22971   1 16384	* At an intersection in the Ghoul Forest east
+D 0 22971   2 16384	* At an intersection in the Ghoul Forest south
+D 0 22972   0 16384	* On a gravel road in the Ghoul Forest north
+D 0 22972   2 16384	* On a gravel road in the Ghoul Forest south
+D 0 22973   1 16384	* On a wide path in the Ghoul Forest east
+D 0 22973   3 16384	* On a wide path in the Ghoul Forest west
+D 0 22974   1 16384	* On a wooden bridge over a wide stream east
+D 0 22974   3 16384	* On a wooden bridge over a wide stream west
+D 0 22974   5 16384	* On a wooden bridge over a wide stream down
+D 0 22975   3 16384	* On a wide path in the Ghoul Forest west
+D 0 22975   4 16384	* On a wide path in the Ghoul Forest up
+D 0 22976   4 16384	* On a steep trail up
+D 0 22976   5 16384	* On a steep trail down
+D 0 22977   0 16391	* In front of the palace north
+D 0 22977   2 16384	* In front of the palace south
+D 0 22978   0 16384	* The Grand Hall north
+D 0 22978   1 16387	* The Grand Hall east
+D 0 22978   2 16391	* The Grand Hall south
+D 0 22978   4 16384	* The Grand Hall up
+D 0 22979   1 16384	* The south side of the pit east
+D 0 22979   2 16384	* The south side of the pit south
+D 0 22979   3 16384	* The south side of the pit west
+D 0 22979   5 16384	* The south side of the pit down
+D 0 22980   2 16384	* The east side of the pit south
+D 0 22981   2 16384	* The west side of the pit south
+D 0 22982   0 16387	* In the fighting pit north
+D 0 22982   4 16384	* In the fighting pit up
+D 0 22983   0 16384	* In a dark tunnel north
+D 0 22983   1 16387	* In a dark tunnel east
+D 0 22983   2 16387	* In a dark tunnel south
+D 0 22983   3 16387	* In a dark tunnel west
+D 0 22985   3 16387	* A damp cage west
+D 0 22986   1 16387	* The training room east
+D 0 22986   2 16384	* The training room south
+D 0 22986   3 16387	* The training room west
+D 0 22987   1 16387	* A damp cage east
+D 0 22988   3 16387	* A damp cage west
+D 0 22989   4 16384	* On a spiral staircase up
+D 0 22989   5 16384	* On a spiral staircase down
+D 0 22990   4 16384	* Up a spiral staircase up
+D 0 22990   5 16384	* Up a spiral staircase down
+D 0 22991   4 16384	* WAY up a spiral staircase up
+D 0 22991   5 16384	* WAY up a spiral staircase down
+D 0 22992   5 16384	* Chamber of Decadence down
+D 0 22993   1 16384	* The Grand Dining Room east
+D 0 22993   3 16387	* The Grand Dining Room west
+D 0 22994   3 16384	* The kitchen west
+D 0 22994   5 16387	* The kitchen down
+D 0 22995   4 16387	* A narrow tunnel up
+D 0 22995   5 16384	* A narrow tunnel down
+D 0 22996   4 16384	* A narrow tunnel up
+D 0 22996   5 16384	* A narrow tunnel down
+D 0 22997   2 16391	* The Pit of Despair south
+D 0 22997   4 16384	* The Pit of Despair up
+D 0 22998   2 16384	* The end of a wide stream south
+M 0 22914   1 22984  1	* a troll gladiator
+G 1 22950  -1     	*   a {YG{Wl{Ya{Wd{Yi{Wa{Yt{Wo{Yr{x's Sword
+D 0 22984   1 16387	* A damp cage east
+S
+
+#SHOPS
+22926 17  0  0  0  0 	 150  75 	 0 23 	* a lanky bartender
+0
+
+#SPECIALS
+M 22907 spec_cast_mage      	* a spirit of torment
+M 22908 spec_poison         	* a large rock snake
+M 22918 spec_cast_mage      	* the Lord of Decadence
+M 22923 spec_thief          	* a maid
+M 22925 spec_breath_gas     	* the serpent of greed
+M 22927 spec_cast_mage      	* a sassy brunette harlot
+S
+
+#$

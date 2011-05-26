@@ -1,0 +1,1942 @@
+#AREA
+/mud/moosehead/area/scint.are~
+The Crescent Beach~
+{10 25} Scint   The Crescent Beach~
+750 799
+
+#MOBILES
+#750
+serpent~
+a serpent~
+A scarlet serpent emerges from the stone and coils it massive body around you.
+~
+The serpents enormous, scarlet head arises from the stone and turns toward
+you. Its ruby eyes glint with a firey light as it locks its gaze with yours.
+Its monstrous fangs drip with venom as it emits a low pitched hiss which
+vibrates the stones around you. Scarlet scales glitter as it coils its huge
+body around you in a death grip.
+~
+snake~
+ABFT JQ -1000 0
+25 0 5d10+550 5d10+550 3d10+7 bite
+-7 -7 -7 -7
+CFKNO AB H 0
+stand stand male 850
+H UW giant 0
+F res L
+F for GX
+F par KQVX
+#751
+mist cloud~
+a mist cloud~
+(glowing) A mist cloud hangs high above the ground.
+~
+Its opalescent surface scintillates with light. Vague shapes form its legs
+and head. Lacy tendrils form its arms which reach out towards you and sting
+your eyes. Its glowing eyes look towards you as it hovers above the ground.
+~
+human~
+ABFT 0 -1000 0
+10 1 2d7+121 2d7+121 2d4+2 sting
+-1 -1 -1 -1
+EFGN AB L JO
+stand stand none 100
+KS 0 medium 0
+F for MV
+F par GHIJK
+#752
+mirror image yourself~
+a mirror image of yourself~
+A mirror image of yourself sneaks along the wall.
+~
+It looks exactly like you! Its body mimics your moves with perfect symmetry
+as you walk. You cannot decide if it is alive or not, until it plunges its
+dagger into you back and cackles gleefully!
+~
+modron~
+ABFHS Q -500 0
+25 6 5d10+550 5d10+550 2d10+7 pierce
+-7 -7 -7 -7
+BEFKN A 0 H
+stand stand none 650
+ACMV DEF large 0
+F aff J
+F imm MNPQ
+F res HK
+F par GHJK
+#753
+ethereal mist form~
+an ethereal mist~
+An ethereal form dances in and out of the trees.
+~
+It dances in and out of the trees then falls and floats across the forest floor. 
+~
+unique~
+ABGHT BTV -1000 0
+15 1 3d9+200 3d9+200 3d6+3 blast
+-2 -2 -2 -2
+EFGIKNR 0 IK J
+stand stand female 400
+AHK ABCDEFU medium 0
+#754
+sand lurker~
+a sand lurker~
+A sand lurker blends in with the sand.
+~
+The sand lurker looks like a cross between a jellyfish and a sand dune. It
+arises on its many feet and swiftly sneaks across the beach, then burrows
+down into the sand. The only thing remaing are its sand colored eyes which
+quickly scan the beach. 
+~
+unique~
+ACHS GPV -300 0
+10 1 2d7+121 2d4+121 2d4+2 pierce
+1 1 1 1
+BEFJKNR 0 0 0
+stand stand female 100
+ABHVX BCDEF medium 0
+#755
+multicolored sea dragon~
+a multicolored sea dragon~
+A multicolored sea dragon glitters with light.
+~
+It has the head and wings of a dragon and the body of a sea serpent. Light
+glitters off its rainbow scales as it winks in and out of existence.
+~
+dragon~
+ABGHR b -500 0
+17 1 3d9+258 3d9+258 3d4+4 flame
+-3 -3 -3 -3
+EFNR 0 C 0
+stand stand female 200
+V TW small 0
+F aff J
+F res BE
+F par CGHIJKQUVX
+#756
+black stone gargoyle~
+a black, stone gargoyle~
+(flying) A black, stone gargoyle emerges from the wall.
+~
+An enormous, stone gargoyle glows with an eerie bluish light. Its eyes glint
+as it flutters its massive, black wings and turns towards you. Its hideous
+face contorts as it emits a blood curdling scream! It flies at you while
+you stand frozen in horror!
+~
+unique~
+ABFS QTZ -1000 0
+23 1 5d10+450 3d6+6 3d6+6 wrath
+-6 -6 -6 -6
+EFNORU AB I N
+stand stand none 600
+ABHMV ABCDEFPTU huge 0
+#757
+water demon~
+a water demon~
+A water demon blends into the sea.
+~
+Its huge form swirls around you like an enormous pool of water. It locks its
+glowing, blue eyes with yours and a shiver runs down your spine.
+~
+unique~
+ABFS DQ -1000 0
+25 3 5d10+400 5d10+450 4d4+6 blast
+-6 -6 -6 -6
+EFNU ABH 0 I
+stand stand none 850
+AHKS ABCDEF medium 0
+#758
+warped image~
+a warped image~
+A warped image sneaks along the wall.
+~
+It looks like a hideously warped image of you! It sneaks along the wall and
+blends in with hundreds of others. A long crack splits its face in two and
+distorts its features badly. Its green eyes glitter as it looks at you.
+~
+unique~
+ABCS GPVa -1000 0
+20 2 3d9+333 2d7+7 2d8+5 pierce
+-4 -4 -4 -4
+BEFIKNR AB I J
+stand stand none 400
+AHMV ABCDEF medium 0
+#759
+huge stalagmite~
+a huge stalagmite~
+A huge stalagmite rises from the floor.
+~
+Its rocky form blends perfectly into the floor. The only clue is its snore,
+which rumbles through the cave. You look at its massive form, and thank the
+gods it is sleeping.
+~
+dwarf~
+ABCFGS GHQW -1000 0
+22 11 5d10+400 2d7+22 2d7+12 crush
+-5 -5 -5 -5
+CEFJKNOU ABQR 0 IK
+sleep sleep none 475
+0 0 giant 0
+F aff J
+F res Q
+F vul R
+F for A
+F par GHIJK
+#760
+shadow echo~
+a shadow echo~
+A shadow echoes across the floor with scintillating light.
+~
+It looks like your shadow mingled with features of your face and body. Its
+body scintillates across the floor then arises and hovers next to you. It
+locks its yellow gaze with yours and grins evilly.
+~
+unique~
+ABFGT QZ -1000 0
+21 1 4d10+360 4d10+360 4d4+5 magic
+-5 -5 -5 -5
+EFJKNU AB Q K
+stand stand none 450
+AHMV ABCDEF large 0
+#761
+crane~
+a crane~
+A crane flies low in search of food.
+~
+A crane flies low across the shore. It overturns pieces of seaweed and small
+sea shells while it searches for food beneath them. It cries out to its mate
+then ruffles its feathers and flies away.
+~
+water fowl~
+ACHT V -300 0
+14 2 2d10+190 2d10+190 1d12+3 peck
+-1 -1 -1 -1
+EFHIKNRU 0 0 0
+stand stand female 100
+HV T small 0
+F aff b
+F res R
+F for G
+F par HK
+#762
+gust wind~
+a gust of wind~
+A gust of wind almost knocks you down.
+~
+You can barely make out its transparent form. It howls through the trees
+and rushes at you with a torrential force that almost knocks you down.
+~
+unique~
+ABGT T -300 0
+10 1 2d7+121 2d7+121 2d4+2 blast
+1 1 1 1
+CEFJNR 0 Q H
+stand stand none 100
+CHLS BCDEF huge 0
+#763
+particle cloud~
+a particle cloud~
+A particle cloud swirls about your feet.
+~
+A small particle cloud swirls across the cliff. It throws bits of rocks and
+dust high into the air. You cannot tell if it is alive until it turns its
+mud colored eyes towards you. 
+~
+unique~
+ABT TV -200 0
+14 1 2d10+190 2d10+190 1d12+3 sting
+-1 -1 -1 -1
+CEFIJKN 0 E 0
+stand stand none 150
+EHIS BCDEFK medium 0
+#764
+stalactite~
+a stalactite~
+A stalactite hangs from the ceiling.
+~
+Its rocky form ripples with water as it hangs from the ceiling. Vague 
+cracks in its surface appear to form arms and hands. You wonder how it
+can sleep hanging upside down.
+~
+wyvern~
+ABFT V -1000 0
+24 1 5d10+550 5d10+500 2d10+6 smash
+-6 -6 -6 -6
+DEKNU AB LQ GK
+stand stand female 400
+EHIc B large 0
+F aff DFT
+F imm L
+F vul S
+F for ABGZ
+F par HJKQVX
+#765
+mermaid~
+a mermaid~
+A mermaid splashes playfully in the sea.
+~
+Her sea blue eyes gaze mischievously at you. Her long ebony hair flows in
+wavy rivulets down her back. She has the tail of a fish and the torso of a
+woman. She splashes water at you and smiles then disappears back into the
+sea.
+~
+half-elf~
+ABCGHS GVZb -300 0
+20 1 3d9+333 3d9+333 2d8+5 thwack
+-4 -4 -4 -4
+CEFKN R I F
+stand stand female 250
+b QW medium 0
+F aff J
+F res B
+F vul Z
+F par CGHIJK
+#766
+small stone gargoyle~
+a small, stone gargoyle~
+(flying) A small, stone gargoyle emerges from the wall.
+~
+A small stone gargoyle shimmers with an eerie red light then emerges from
+the wall across from you. It turns its glowing, red eyes towards you as it
+hovers in the air. You try to scream but it is too late.
+~
+wyvern~
+ABCFS Z -1000 0
+20 0 3d9+333 3d9+333 2d8+5 claw
+-4 -4 -4 -4
+IKNR AB L J
+stand stand female 400
+HIMc BPTU small 0
+F aff DF
+F imm L
+F vul S
+F for GZ
+F par HJKQVX
+#767
+phantom~
+a phantom~
+(glowing) A phantom wails with an unearthly cry.
+~
+Its transparent form hovers in the air beside you. Its tormented soul glows
+faintly with a white light. It opens its hideous mouth and emite an unearthly
+wail. A shiver runs down you spine as it brushes against you.
+~
+wyvern~
+ABFGT GUZ -1000 0
+24 1 5d10+500 2d10+550 2d10+7 magic
+-6 -6 -6 -6
+EGKNR ABR L O
+stand stand male 500
+HL B medium 0
+F aff DF
+F imm L
+F vul S
+F for BGZ
+F par HJKQVX
+#768
+merman~
+a merman~
+A merman gazes at you then disappears into the sea.
+~
+He has the muscular torso of a man and the tail of a fish. His sea green eyes
+briefly gaze at you with a look of warning. He turns away and disappears back
+into the depth of the sea.
+~
+half-elf~
+ABS Gb -400 0
+16 0 3d9+233 3d9+233 2d6+4 thrust
+-2 -2 -2 -2
+DEFKNU R I B
+stand stand male 225
+b QW huge 0
+F aff J
+F res B
+F vul Z
+F par CGHIJK
+#769
+spiral mist~
+a spiral mist~
+(flying) The mist spirals around you like a huge whirlpool.
+~
+Its opalescent form swirls slowly around you. Tendrils of mist form its arms.
+They reach out and entangle themselves into the tree limbs. No visable head
+can be seen. Its misty blue eyes gaze at you from within its center. 
+~
+unique~
+ABT BGTa -700 0
+19 1 3d9+308 3d9+308 2d7+5 blast
+-4 -4 -4 -4
+EFGJKN 0 EI OS
+stand stand none 275
+HK BCDEFK huge 0
+#770
+basalt beast~
+a basalt beast~
+A basalt beast shifts across the rocks.
+~
+It blends in perfectly with the rocks! Vague shapes form its legs and arms.
+The rocks around you rumble as it shifts across the face of the boulder. 
+It's huge body towers above you while it grins evilly at you.
+~
+unique~
+ABFS GP -1000 0
+16 0 3d9+233 0d0+0 2d6+4 crush
+-2 -2 -2 -2
+EFJKLNO AB 0 0
+stand stand none 200
+AHIM ABCDEF huge 0
+#771
+seagull~
+a seagull~
+A seagull cries out to its mate.
+~
+The seagulls soars above the cliffs. Its white feathers glisten when the
+sunlight shimmers off them. The seagull cry echoes off the cliffs and
+mingles with the sound of the waves crashing far below.
+~
+water fowl~
+AGHT G -300 0
+18 1 3d9+283 3d9+283 2d7+4 peck
+-3 -3 -3 -3
+EFIJKNR 0 0 0
+stand stand male 175
+HV T small 0
+F res R
+F for G
+F par HK
+#0
+
+#OBJECTS
+#750
+rainbow portal~
+A rainbow portal~
+A rainbow portal hums and glows with an eerie light.~
+energy~
+portal ABGMORSTY 0
+0 0 0 790 0
+1 10 0 P
+#751
+A Large Boulder~
+a large boulder~
+A large boulder sits in the center of the path.~
+stone~
+furniture IOY 0
+2 0 BEHK 150 150
+0 0 0 P
+E
+boulder~
+Ancient script carved within the stone has been worn away by wind and time.
+You can barely make out a marker pointing towards the cliff. A place appears
+to have been worn away from someone sitting on it long ago.
+~
+#752
+scared rock~
+A scared rock~
+A scared rock sits here.~
+stone~
+furniture IOY 0
+2 0 BEHK 100 100
+0 200 0 P
+E
+rock scared~
+Long cracks scar its surface badly. A place appears to have been worn away
+from someone sitting on it long ago.
+~
+#753
+stygian blade~
+a stygian blade~
+A stygian blade glows with a demonic light~
+stone~
+weapon AJ AN
+dagger 3 7 stab C
+25 30 250 R
+A
+1 1
+E
+stygian blade~
+A long, ebony blade lies here. It glows with a demonic light.
+~
+#754
+Ethereal wand~
+an ethereal wand~
+An ethereal wand lies here softly humming as tendrils of mist rise off its ruined covered wood.~
+wood~
+wand BG AO
+15 10 10 'faerie fire' 0
+15 10 500 P
+E
+ethereal wand~
+A mystical wand humms softly on the ground. Wisps of mist arise from its
+rune-covered wood.
+~
+#755
+scarlet chest~
+scarlet chest~
+A scarlet, crystalline chest is here~
+crystal~
+container ABDMTY P
+100 ABCD 756 20 100
+0 200 100 P
+A
+0 0
+A
+14 0
+E
+chest scarlet crystalinne~
+A crystal chest hums softly as it shimmers with a scarlet light.
+~
+#756
+A drop of water~
+a drop of water~
+A drop of water falls to the ground and shimmers in the light~
+crystal~
+key AFT A
+0 0 0 0 0
+0 10 0 B
+E
+drop water~
+A drop of water falls to the ground and shimmers with light. You wonder 
+why it does not disappear into the sand.
+~
+#757
+basalt key~
+a basalt key~
+A basalt key lies here~
+stone~
+key 0 A
+0 0 0 0 0
+0 10 0 P
+#758
+scarlet scale~
+a scarlet scale~
+A scarlet scale glitters with an errie light.~
+scale~
+key AST A
+0 0 0 0 0
+0 10 0 P
+#759
+multicolored crystal~
+a multicolored crystal~
+A multicolored crystal hums softly~
+crystal~
+gem ABFT AQ
+0 0 0 0 0
+26 100 3000 P
+A
+19 2
+A
+12 15
+A
+14 -25
+#760
+driftwood wood~
+a piece of driftwood~
+A piece of driftwood has been tossed upon the shore.~
+wood~
+boat 0 A
+0 0 0 0 0
+1 200 0 P
+E
+driftwood~
+A piece of driftwood has been tossed to the shore.
+~
+#761
+seaweed~
+a piece of seaweed~
+A piece of seaweed has been tossed upon the shore.~
+seaweed~
+food N AH
+20 40 0 0 0
+0 20 18 P
+E
+seaweed~
+A piece of seaweed has been tossed to the shore.
+~
+#762
+shell sea colorful~
+a colorful sea shell~
+A colorful sea shell glitters in the sun.~
+shell~
+warp_stone AT AO
+0 0 0 0 0
+20 10 1000 P
+E
+shell colorful sea~
+A colorful sea shell shimmers with light. 
+~
+#763
+scaled flail~
+a scaled flail~
+A scaled flail lies humming on the ground~
+stone~
+weapon B AN
+flail 3 4 whip 0
+12 60 475 P
+A
+2 1
+E
+scaled flail~
+Scaled patterns have been carved into its stone. Its deadly barbed ends
+hum as you look at it.
+~
+#764
+pool mikly white glowing~
+a milky pool of water~
+A milky pool of water glows with light.~
+stone~
+fountain AMRTY P
+0 0 'water' 0 0
+0 0 0 P
+E
+pool milky water~
+Drop of water slowly drip off the stalactites which hang above the pool.
+They ripple its milky surface with wavy lines of light and cast glowing
+circles across the ceiling of the cavern.
+~
+#765
+phosphorescent pool water~
+a phosphorescent pool~
+A phosphorescent pool of water shimmers with light.~
+energy~
+light ATY AQ
+0 0 -1 0 0
+0 100 0 P
+E
+phosphorescent pool water light~
+A phosphorescent pool of water illuninates the darkness with wavy patterns
+of light.
+~
+#766
+A luminescent circle of light~
+A luminescent circle of light~
+A luminescent circle ripples across the ceiling~
+energy~
+portal ABMRTY 0
+0 0 0 18407 0
+0 100 0 P
+E
+luninescent circle rippled light~
+A luminescent circle of light ripples across the ceiling as it hums softly.
+~
+#767
+reflective stone~
+a reflective stone~
+An ebony stone reflects the images around it.~
+stone~
+gem GT AQ
+0 0 0 0 0
+25 20 2000 P
+A
+4 2
+A
+5 1
+A
+19 -2
+A
+12 -25
+#768
+golden pile coins~
+a shimmering pile of golden coins~
+A pile of golden coins shimmers with light~
+gold~
+money 0 A
+120 25 0 0 0
+0 100 0 P
+#769
+tush protection pill~
+Scintilla's tush protection pill~
+A tiny pill lies here. It It looks like it has been pinched! Or is that writing?~
+chocolate~
+pill 0 A
+20 'frenzy' 'shield' 'cure critical' ''
+0 10 0 P
+E
+pinch writing~
+A tiny pill looks like it has been pinched! Upon closer inspection you
+notice tiny letters in the shape of a finger print! It reads, " Eat this
+pill quickly if Scintilla is anywhere near you!"
+~
+#770
+fountain crystalline~
+a crystalline fountain~
+A crystalline fountain gurgles quietly.~
+~
+fountain AB 0
+0 0 'water' 0 0
+0 -15536 0 P
+E
+fountain crystalline~
+A fountain made of shimmering crystal gurgles quietly in the corner. Ebony
+and sapphire light glitters off its surface and reflects upon the water
+which bubbles forth from its center.
+~
+#771
+silk sapphire bed ebony~
+a crystalline bed~
+A bed of intricate crystals shimmers with sapphire and ebony light.~
+crystal~
+furniture 0 0
+2 0 EHK 100 100
+0 10000 0 P
+E
+bed crystal sapphire ebony~
+Its crystalline surface shimmers with various shades of blue and ebony
+light. A silken, ebony comforter rests within its center. Sapphire marbles
+its soft fabric. A set of king sized pillows lies at the head of the bed.
+Their sapphire fabric marbled with wavy ebony lines. 
+~
+#0
+
+#ROOMS
+#750
+The narrow trail~
+The narrow trail ends at the base of a sheer basalt cliff. A small path winds
+its way up the cliff face. The faint smell of sea salt lingers on a slight
+breeze. Muffled sounds drift down from the cliff. It is hard to distinguish
+what is making the sound. The trail continues upwards or eastwards.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 799
+D4
+Exit ~
+door~
+0 0 751
+S
+#751
+A Path Up The Basalt Cliffs~
+The forest thins as the narrow trail winds its way upward. Tall patches of
+grass grow out of the cracks which scar the cliff face. They ripple with
+the touch of a cool breeze that blows from the south. The scent of sea salt
+lingers on a wind that softly caresses your skin. Waves crashing somewhere
+in the distance echo off the cliff. You wonder where the sound is coming 
+from. The path continues up the cliff face.
+~
+0 0 5
+D4
+Exit ~
+door~
+0 0 752
+D5
+Exit ~
+door~
+0 0 750
+S
+#752
+The Sea Cliffs~
+Far below you, vast basalt cliffs descend into an ultramarine sea. Its 
+turbulent waves rush to meet an ivory beach. Their ebb and flow traces
+mystic patterns across the shimmering sands. Wisps of mist arise from a
+dense forest that encompasses the beach. They dance in and out of the
+tree tops far below you. From this view, the shimmering sands create a
+perfect crescent moon. Billowy clouds swiftly shift across an azure sky
+and cast surreal shadows upon the restless sea. A cool wind caresses your
+skin and carries on it, the tangy scent of salt. It whispers to you, the
+soft cadence of waves resounding off the beach. 
+~
+0 0 5
+D3
+Exit ~
+door~
+0 0 753
+D5
+Exit ~
+door~
+0 0 751
+E
+door d e~
+A small wooden door is here. You wonder whre it leads.
+~
+S
+#753
+The Wind Swept Sea Cliff~
+You stand on a rocky ledge sparsley covered with ancient oaks and aspens.
+A fierce wind howls across the ground. It picks up particles of dust as it
+rips through the twisted branches. Small patches of grass ripple with its
+touch and the ancient trees grow half bent from its torrential gusts. Their
+branches tangle into each other in a vain attempt to reach the sky. Parts
+of the beach below disappear into the dense forest. Wisp of mist arise from
+the tops of the trees and swirl slowly on the wind. The faint smell of sea
+salt lingers in the air. A small, rocky path winds its way down the cliff
+face. You wonder where it leads.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 752
+D3
+Exit ~
+door~
+0 0 754
+D5
+Exit ~
+door~
+0 0 755
+S
+#754
+The Sea Cliffs~
+Far below you, vast basalt cliffs descend into an ultramarine sea. Its 
+turbulent waves rush to meet an ivory beach. Their ebb and flow traces
+mystic patterns across the shimmering sands. Wisps of mist arise from a
+dense forest that encompasses the beach. They dance in and out of the
+tree tops far below you. From this view, the shimmering sands create a
+perfect crescent moon. Billowy clouds swiftly shift across an azure sky
+and cast surreal shadows upon the restless sea. A cool wind caresses your
+skin and carries on it, the tangy scent of salt. It whispers to you, the
+soft cadence of waves resounding off the beach. 
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 753
+E
+door d e~
+A small wooden door is here. You wonder whre it leads.
+~
+S
+#755
+A Rocky Path Down The Cliff~
+The rocky trail widens here and a small ledge hangs above your head. Long
+cracks scar the basalt and form bizarre patterns across the cliff face. The
+wind blows in malevolent gusts and almost knocks you down. All sound is
+stifled by its eerie wail resounding off the rocks. Billowy clouds swiftly
+shift across the azure sky. They seem to mingle with the mist as it swirls
+above the tree tops far below you. The dense forest swallows up the beach
+and blocks it from your view. A large boulder sits in the center of the path.
+Some sort of ancient script has been carved within its stone. The path
+continues downward.
+~
+0 0 5
+D2
+Exit ~
+cliff~
+1 0 784
+D4
+Exit ~
+door~
+0 0 753
+D5
+Exit ~
+door~
+0 0 756
+E
+cliff~
+Long cracks scar the basalt and form bizarre patterns across the cliff face.
+You wonder if they where made by wind and time, or some mystical force.
+~
+S
+#756
+The Rocky Path~
+The rocky trail narrows as you continue downward. The mist dances in and
+out of the tree tops below you. It hangs above the ground and swirls slowly
+as it licks the edge of the forest at the trail's end. The dense forest
+blocks the wind and muffles its eerie cry. You gaze at the clearing below
+and a shiver runs down your spine. You wonder if you should continue down
+or go back the way you came.
+~
+0 0 5
+D4
+Exit ~
+door~
+0 0 755
+D5
+Exit ~
+door~
+0 0 757
+S
+#757
+The Edge Of The Dense Forest~
+A narrow trail leads north into the forest. Its majestic oaks and aspens
+tangle into each other and make the trail ahead barely passable. Wisps of 
+mist arise from the forest's edge and form ethereal shapes that flow in and
+out of the trees. It floats above the ground ahead and swirls slowly as if
+caught by an unseen breeze. Hushed, obscure sounds drift out of the forest
+and the faint smell of salt lingers in the air. You wonder if you should
+continue ahead or go back the way you came.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 758
+D4
+Exit ~
+door~
+0 0 756
+S
+#758
+The Misty Forest~
+The trees crowd against each other and make the trail barely passable.
+Their leaves form a thick carpet upon the forest floor which muffles all
+sound. Wisps of mist shroud the trail ahead of you as they swirl about
+your feet. The mist dances in and out of the trees and forms ethereal 
+shapes which fall and float across the forest floor. The tangy scent of 
+salt grows stronger here and waves echo softly on a slight breeze. It
+chills your skin as it blows through the branches that block the path
+ahead. The hair on the back of your neck prickles in warning. When you
+turn around no one is there. Perhaps you should continue on your way.
+~
+0 A 3
+D0
+Exit ~
+branches~
+1 0 759
+D1
+Exit ~
+door~
+0 0 768
+D2
+Exit ~
+door~
+0 0 757
+D3
+Exit ~
+door~
+0 0 781
+E
+branches~
+The branches entangle into each other and block the trail ahead.
+Faint rays of sunlight filter through the branches. It falls upon
+the mist and forms eerie clouds of floating white. You think you
+might be able to get through them.
+~
+S
+#759
+The Crescent Beach~
+The beach spans out before you. The trees encompass it to form a secluded,
+crescent shaped alcove. The sun warms your skin and casts off the chill of
+the misty forest. Waves crash against the ivory shore. Their ebb and flow
+traces mystic patterns across the shimmering sands. A humid wind picks up 
+in gusts and softly caresses your skin. Tall sea grass ripples at its touch.
+Billowy clouds race across the azure sky and cast surreal shadows across the
+restless sea. Flashes of multicolored light twinkle across its ultramarine
+waves as tiny dragon like creatures wink in and out of existence. The soft
+cadence of waves resounding off the beach lulls you and eases the stress of
+your long journey.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 760
+D1
+Exit ~
+door~
+0 0 767
+D2
+Exit ~
+branches~
+1 0 758
+D3
+Exit ~
+door~
+0 0 780
+E
+branches~
+Wisps of mist rise out of the branches and dance about the trees. The
+branches entangle into each other and block the trail leading south.
+You think you might be able to get through them.
+~
+S
+#760
+The Crescent Beach~
+The sun shimmers off the ultramarine sea. Waves echo off the shore with a
+deafening roar and leave colorful sea shells across the tide line. A humid
+wind caresses your skin and blows the sea spray across it. The waves lap
+against your feet as they scatter bits of seaweed and driftwood across the
+shore. Cranes fly low in search of food. The azure sky stretches out before
+you and merges with the sea. Clouds swiftly shift across it and cast surreal
+shadows upon the restless waves. The cry of cranes echoes faintly on the
+wind and eases the stress of your long journey.
+~
+0 0 10
+D1
+Exit ~
+door~
+0 0 763
+D2
+Exit ~
+door~
+0 0 759
+D3
+Exit ~
+door~
+0 0 761
+S
+#761
+The Crescent Beach~
+The sun shimmers off the ultramarine sea. Waves echo off the shore with a
+deafening roar and leave colorful sea shells across the tide line. A humid
+wind caresses your skin and blows the sea spray across it. The waves lap
+against your feet as they scatter bits of seaweed and driftwood across the
+shore. Cranes fly low in search of food. The azure sky stretches out before
+you and merges with the sea. Clouds swiftly shift across it and cast surreal
+shadows upon the restless waves. The cry of cranes echoes faintly on the
+wind. It eases the stress of your long journey.
+~
+0 0 10
+D1
+Exit ~
+door~
+0 0 760
+D2
+Exit ~
+door~
+0 0 780
+D3
+Exit ~
+door~
+0 0 762
+S
+#762
+The Crescent Beach~
+You walk along a narrow strip of sand. The trees thin out to merge with a
+sheer basalt cliff that rises up to tower above you. The surf rushes to
+meet the shore and leaves foamy patterns across the tide line. The waves
+deposit seaweed and small shells as they recede back into the sea. The
+crash of waves echoes off the cliffs in a continual murmer. Billowy clouds
+race across the azure sky as it merges with the sea. Dozens of tiny foot-
+prints scatter across the sand. They end abruptly as if going nowhere. You
+see something move out of the corner of your eye. When you turn to look
+nothing is there.
+~
+0 0 10
+D1
+Exit ~
+door~
+0 0 761
+E
+wall~
+A long crack runs along the wall and distorts the image reflecting there.
+~
+S
+#763
+The Crescent Beach~
+The sun shimmers off the ultramarine sea. Waves echo off the shore with a
+deafening roar and leave colorful sea shells across the tide line. A humid
+wind caresses your skin and blows the sea spray across it. The waves lap
+against your feet as they scatter bits of seaweed and driftwood across the
+shore. Cranes fly low in search of food. The azure sky stretches out before
+you and merges with the sea. Clouds swiftly shift across it and cast surreal
+shadows upon the restless waves. The cry of cranes echoes faintly on the
+wind and eases the stress of your long journey.
+~
+0 0 10
+D1
+Exit ~
+door~
+0 0 764
+D2
+Exit ~
+door~
+0 0 767
+D3
+Exit ~
+door~
+0 0 760
+S
+#764
+The Crescent Beach~
+You walk along a narrow strip of beach. The forest thins out to merge with a
+sheer basalt cliff. It rises up to tower above you then extends out into the
+sea. It forms a huge arch between the sea and the shore. Waves crash against
+its edge and toss foam high into the air. Sunlight glitters off the mist and
+forms hundreds of tiny rainbows within the center of the arch. The sun hangs
+in the azure sky and warms your skin. The wind picks up in gusts blowing the
+mist across your skin chilling it. Huge boulders rise up out of the sea. You
+think you see something move across them.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 769
+D3
+Exit ~
+door~
+0 0 763
+S
+#765
+The Misty Forest~
+The narrow trail ends abruptly. Sheer basalt cliffs rise up to tower above
+you. Dense trees block the path up the cliff face. Tendrils of mist dance
+in and out of the trees as they spiral around you like a huge whirlpool.
+The faint sound of waves echos from somewhere. The scent of salt lingers 
+in the stagnant air. You wonder how the mist can swirl in the stillness.
+Perhaps you should go back the way you came.
+~
+0 A 3
+D2
+Exit ~
+door~
+0 0 766
+S
+#766
+The Misty Forest~
+The trees thicken as you walk along the trail. All sound is stifled by the
+thick carpet of leaves that line the forest floor. The mist thickens into
+clouds of ghostly white. Your light flickers off their opalescent surface in
+eerie scintillations. They hang high above the ground and slowly swirl in
+circular motion. The musty scent of forest creatures mingled with decaying
+leaves hangs in the stagnant air. The mist shrouds your vision and stings 
+your eyes. You hope you can find your way out of the forest.
+~
+0 A 2
+D0
+Exit ~
+door~
+0 0 765
+D3
+Exit ~
+door~
+0 0 768
+S
+#767
+The Cresent Beach~
+You walk along a crescent shaped beach. Sunlight shimmers off its ivory
+sands. Gust of wind ripple its surface and form lacy patterns across the
+beach. Tendrils of mist lick the edge of the sand then retreat back into
+the forest behind you. Waves crash upon the shore with a lulling melody.
+They deposit bits of seaweed and driftwood as they ebb back into the sea. 
+Tall sea grass dances of a cool breeze which softly caresses your skin.
+The tangy scent of sea salt is carried on the wind. It whispers to you a
+soft cadence of the sea.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 763
+D3
+Exit ~
+door~
+0 0 759
+S
+#768
+The Misty Forest~
+The trees thicken as you walk along the trail. All sound is stifled by the
+thick carpet of leaves that line the forest floor. The mist thickens into
+clouds of ghostly white. Your light flickers off their opalescent surface in
+eerie scintillations. They hang high above the ground and slowly swirl in
+circular motion. The musty scent of forest creatures mingled with decaying
+leaves hangs in the stagnant air. The mist shrouds your vision and stings 
+your eyes. You hope you can find your way out of the forest.
+~
+0 A 3
+D1
+Exit ~
+door~
+0 0 766
+D3
+Exit ~
+door~
+0 0 758
+S
+#769
+The Ultramarine Sea~
+The waves batter your boat. The ultramarine sea stretches out before you to
+merge with the azure sky. Its clear, blue water reveals a sea of life below
+you. The sand swirls, caught between the conflicting currents of the tide. 
+Several sailfish circle a school of smaller fish. They charge in, impaling
+a few on their long, sharp noses. A mermaid appears before you and splashes
+water in your direction. She smiles mischievously then disappears back into
+the sea. In the distance, the arch rises up to tower above you.
+~
+0 0 6
+D0
+Exit ~
+door~
+0 0 770
+D2
+Exit ~
+door~
+0 0 764
+S
+#770
+The Ultramarine Sea~
+The sea churns violently around you. Waves drench you as they crash over the
+side of your boat. A merman breaks the surface of the waves before you. He
+gazes at you with a look of warning then disappears back into the depths of
+the sea. The sea floor is lost to the fathomless depth of the murky water.
+The arch arises from the sea to your east. It towers above the waves which
+batter against it. A huge boulder lies to your west. You think you see some-
+thing move across it. 
+~
+0 0 6
+D1
+Exit ~
+door~
+0 0 771
+D2
+Exit ~
+door~
+0 0 769
+D3
+Exit ~
+door~
+0 0 791
+S
+#771
+The Center of the Arch~
+You float within the center of the arch. Waves churn violently around you
+and threaten to sink your boat. They crash against the black basalt which
+forms the center of the arch and jet sea spray high into the air. Sunlight
+forms hundreds of miniature rainbows which swirl around you. They seem to
+dance while suspended within the sea mist. A faint hum mingles with the 
+deafening roar of the waves. It vibrates the air around you and sends a
+shiver up your spine. A warning has been carved within the acient stone.
+~
+0 0 6
+D0
+Exit ~
+arch~
+1 0 772
+D3
+Exit ~
+door~
+0 0 770
+E
+arch~
+Long cracks run along the side of the arch. They seem to form a door. You
+wonder if it opens.
+~
+E
+warning~
+**************************************************
+* Only the brave of heart should enter the arch. *
+* If you are below level 20, enter at your own   *
+* peril. The Demons within will devour your soul.*
+**************************************************
+~
+S
+#772
+The Bottom within the Arch~
+Your light flickers off the black, basalt walls with ghostly scintillations.
+Emormous, black stone gargoyles have been carved into the circular walls. 
+Their faces are forever frozen in hideous screams. You light flickers eerie
+shadows across their ebony wings. Their eyes glint red and wings appear to
+flutter as if trying to escape the black stone which binds them. A narrow
+staircase carved within the walls spirals up into an endless darkness. The
+sound of shattering stone pierces the magical stillness which hangs in the
+air. A hideous scream echoes off the walls. You try to run but it is too 
+late!
+~
+0 AD 0
+D2
+Exit ~
+arch rocks~
+1 0 771
+D4
+Exit ~
+door~
+0 0 773
+E
+rocks~
+Log cracks run along the wall and appear to form a sort of door.
+You wonder if it opens.
+~
+E
+arch rocks~
+Long cracks run along the walls. They appear to form a sort of door. You
+wonder if it opens.
+~
+S
+#773
+The Spiral Stairs~
+The staircase spirals up into an endless darkness. A vast, ebony chasm fills
+the void between the stairs you climb and the ones carved into the stone wall
+across from you. A huge, scaled carving arises from the stone. It snakes its
+way up the wall as it rims the bottom of the staircase. Vertigo hits you as
+you look down. Darkness has swallowed up the room below. A black gargoyle
+emerges from the wall and hovers beside you. Your light casts eerie shadows
+across its hideously contorted face. A faint breeze blows from above.
+~
+0 AD 0
+D4
+Exit ~
+door~
+0 0 774
+D5
+Exit ~
+door~
+0 0 772
+S
+#774
+The Spiral Stairs~
+The staircase spirals up into an endless darkness. A vast, ebony chasm fills
+the void between the stairs you climb and the ones carved into the stone wall
+across from you. A huge, scaled carving arises from the stone. It snakes its
+way up the wall as it rims the bottom of the staircase. Vertigo hits you as
+you look down. Darkness has swallowed up the room below. A black gargoyle
+emerges from the wall and hovers beside you. Your light casts eerie shadows
+across its hideously contorted face. A faint breeze blows from the south.
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 775
+D4
+Exit ~
+door~
+0 0 773
+D5
+Exit ~
+door~
+0 0 773
+S
+#775
+The Stone Funnel~
+You have crawled through a small, circular door. The stone room funnels 
+out to create a dark chasm at the opposite end. Long rippled lines spiral
+out and twist their way around the room. Lacy tendrils flow beside them
+and form foamy patterns, which pool at the wide end of the room. The stone
+carvings depict an enormous whirlpool tipped over on its side. A black,
+scaled carving snakes its way around the room. It coils across the walls
+and ceiling, then disappears into the ebony chasm. You feet lose their
+grip, and you slide across the stone floor almost plummeting to your death.
+Vertigo hits you, as the chasm disappears into the darkness far below you.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 774
+D2
+Exit ~
+door~
+0 0 776
+D5
+Exit ~
+rocks~
+1 758 779
+S
+#776
+The Spiral Stairs~
+The staircase spirals up into an endless darkness. A vast, ebony chasm fills
+the void between the stairs you climb and the ones carved into the stone wall
+across from you. A huge, scaled carving arises from the stone. It snakes its
+way up the wall as it rims the bottom of the staircase. Vertigo hits you as
+you look down. Darkness has swallowed up the room below. A black gargoyle
+emerges from the wall and hovers beside you. Your light casts eerie shadows
+across its hideously contorted face. A faint breeze blows from the north.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 775
+D4
+Exit ~
+door~
+0 0 777
+D5
+Exit ~
+door~
+0 0 777
+S
+#777
+The Spiral Stairs~
+The staircase spirals up into an endless darkness. A vast, ebony chasm fills
+the void between the stairs you climb and the ones carved into the stone wall
+across from you. A huge, scaled carving arises from the stone. It snakes its
+way up the wall as it rims the bottom of the staircase. Vertigo hits you as
+you look down. Darkness has swallowed up the room below. A black gargoyle
+emerges from the wall and hovers beside you. Your light casts eerie shadows
+across its hideously contorted face. A faint breeze blows from below.
+~
+0 AD 0
+D4
+Exit ~
+door~
+0 0 776
+D5
+Exit ~
+door~
+0 0 778
+S
+#778
+The Scarlet Room~
+The staircase coils to an end. A ghostly mist arises from the floor and
+swirls about your feet. The black scaled carving ends to form an enormous
+serpents head. Its huge mouth hangs frozen in a silent hiss. Its ruby eyes
+catch the glow of your torch and flicker with a blood red light. An azure
+light crackles across the wall. It transforms black stone into scarlet 
+scales. You stand frozen in horror while it turns its massive head towards
+you. Its huge fangs drip venom as it emits a low pitched hiss which vibrates
+the stone. It coils its massive body around you in a death grip. You try to
+scream but all sound dies in your throat.
+~
+0 AD 0
+D4
+Exit ~
+door~
+0 0 777
+S
+#779
+Suspended in the Rainbow Mist~
+You are suspended within the center of the arch. Hundreds of miniature
+rainbows swirl within the sea spray. It clings to your armor and chills
+your skin. The sun glares off the ultramarine sea as it churns violently.
+Its ultramarine waves crash against the arch far below you and toss foam
+high into the air. Tiny drops of sea spray glisten off the stone walls 
+and reflect an endless sea of color upon the surface of its stone. A low
+pitched hum pulsates around you and electrifies the air. You wonder, where
+it is coming from.
+~
+0 0 9
+D4
+Exit ~
+rocks~
+1 758 775
+S
+#780
+The Crescent Beach~
+You walk along a crescent shaped beach. Sunlight glitters off its ivory 
+sands. Gusts of wind form lacy patterns across the beach. Tendrils of mist
+lick the edge of the sand then retreat back into the forest behind you. 
+The sun glimmers off the ultramarine sea. Its waves deposit bits of seaweed
+and colorful sea shells as they ebb back into the sea. Tall grass dances on
+a cool breeze which softly caresses your skin. Dozens of tiny footprints
+scatter across the sand. They end abruptly as if going nowhere. Enormous
+boulder arise from the sea. They tower above the waves that crash againts
+them in the distance. You think you see something move across them.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 761
+D1
+Exit ~
+door~
+0 0 759
+S
+#781
+The Misty Forest~
+The trees thicken as you walk along the trail. All sound is stifled by the
+thick carpet of leaves that line the forest floor. The mist thickens into
+clouds of ghostly white. Your light flickers off their opalescent surface in
+eerie scintillations. They hang high above the ground and slowly swirl in
+circular motion. The musty scent of forest creatures mingled with decaying
+leaves hangs in the stagnant air. The mist shrouds your vision and stings 
+your eyes. You hope you can find your way out of the forest.
+~
+0 A 3
+D1
+Exit ~
+door~
+0 0 758
+D3
+Exit ~
+door~
+0 0 782
+S
+#782
+The Misty Forest~
+The trees thicken as you walk along the trail. All sound is stifled by the
+thick carpet of leaves that line the forest floor. The mist thickens into
+clouds of ghostly white. Your light flickers off their opalescent surface in
+eerie scintillations. They hang high above the ground and slowly swirl in
+circular motion. The musty scent of forest creatures mingled with decaying
+leaves hangs in the stagnant air. The mist shrouds your vision and stings 
+your eyes. You hope you can find your way out of the forest.
+~
+0 A 3
+D0
+Exit ~
+door~
+0 0 783
+D1
+Exit ~
+door~
+0 0 781
+E
+~
+Generic extended description.
+~
+S
+#783
+The Misty Forest~
+The narrow trail ends abruptly. Sheer basalt cliffs rise up to tower above
+you. Dense trees block the path up the cliff face. Tendrils of mist dance
+in and out of the trees as they spiral around you like a huge whirlpool.
+The faint sound of waves echos from somewhere. The scent of salt lingers 
+in the stagnant air. You wonder how the mist can swirl in the stillness.
+Perhaps you should go back the way you came.
+~
+0 A 3
+D2
+Exit ~
+door~
+0 0 782
+S
+#784
+The Cave of Mirrors~
+Light glistens off the walls and rocks of the cave. It reflects off the
+polished, black basalt and mirrors the glow of your light. Water drips off
+stalactites to ripple down stalagmites which arise from the cave floor. The
+sound of waves echoes faintly off the walls and a slight breeze chills your
+skin. It crawls as hundreds of mirror images move in symmetry as you walk.
+You shrug it off. After all, it is only a mirror image of yourself.
+~
+0 AD 0
+D0
+Exit ~
+wall~
+1 0 755
+D1
+Exit ~
+door~
+0 0 787
+D2
+Exit ~
+door~
+0 0 785
+D3
+Exit ~
+door~
+0 0 787
+E
+wall~
+Long cracks run across the wall and form some sort of door. A small handle has been carved into the wall. You wonder if it opens.
+~
+S
+#785
+The Cave of Mirrors~
+Your light barely penetrates the darkness which shrouds the back of the cave.
+Hundreds of images reflect off the polished, black basalt. They mimic your
+moves as they warp across the walls and ceiling of the cave. Even the floor
+echoes your image and cast scintillating shadows across the stone. The sound
+of waves echoes off the rocks and softly vibrates the air. The smell of salt
+grows stronger as a faint wind gusts from somewhere. Something moves across
+the floor but when you look nothing is there.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 784
+D1
+Exit ~
+door~
+0 0 786
+D3
+Exit ~
+door~
+0 0 786
+E
+wall~
+A long crack runs along the wall and warps the image reflected there.
+~
+S
+#786
+The Cave of Mirrors~
+Your light barely penetrates the darkness which shrouds the back of the cave.
+Hundreds of images reflect off the polished, black basalt. They mimic your
+moves as they warp across the walls and ceiling of the cave. Even the floor
+echoes your image and cast scintillating shadows across the stone. The sound
+of waves echoes off the rocks and softly vibrates the air. The smell of salt
+grows stronger as a faint wind gusts from somewhere. Something moves across
+the floor but when you look nothing is there.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 787
+D1
+Exit ~
+door~
+0 0 785
+D2
+Exit ~
+wall~
+1 757 788
+D3
+Exit ~
+door~
+0 0 785
+E
+wall~
+A long crack runs along the wall and warps the image reflected there.
+~
+S
+#787
+The Cave of Mirrors~
+Light glistens off the walls and rocks of the cave. It reflects off the
+polished, black basalt and mirrors the glow of your light. Water drips off
+stalactites to ripple down stalagmites which arise from the cave floor. The
+sound of waves echoes faintly off the walls and a slight breeze chills your
+skin. It crawls as hundreds of mirror images move in symmetry as you walk.
+You shrug it off. After all, it is only a mirror image of yourself.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 784
+D2
+Exit ~
+door~
+0 0 786
+D3
+Exit ~
+door~
+0 0 784
+E
+wall~
+Long cracks run across the wall and form some sort of door. A small handle has been carved into the wall. You wonder if it opens.
+~
+S
+#788
+The Sea Hole~
+You stand on a narrow ledge. The floor before you drops away into fathomless
+darkness. The deafening sound of waves vibrates the cave as they churn far
+below you. Sea spray jets up out of the hole as the waves surge with the
+tide. It clings to your armor and trickles down the back of your neck. The
+wind howls through the cavern and resounds off the rocks with a phantom
+wail. The force of the wind almost knocks you down. It gnaws at your armor
+and sends a shiver down your spine. A narrow staircase spirals downward into
+the dark chasm. You wonder if you can get down without tumbling to your 
+death.
+~
+0 AD 0
+D0
+Exit ~
+wall~
+1 757 786
+D5
+Exit ~
+door~
+0 0 789
+E
+wall~
+A long crack runs along the wall and distorts the image reflecting there.
+~
+S
+#789
+Down The Sea Hole~
+You climb down a narrow staircase. An inky blackness extinguishes all light
+as you spiral downward. Sea spray crashes against you and drenches your
+armor. It collects in a slippery pool upon the staircase and almost causes
+you to tumble to your death. The deafening sound of waves echoes off the
+walls and vibrates the stones around you. Its phantom wail sends a shiver
+down your spine. You hope the sound is made only by the wind.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 792
+D4
+Exit ~
+door~
+0 0 788
+D5
+Exit ~
+door~
+0 0 793
+S
+#790
+The Eye of the Whirlpool~
+You stand in the eye of an enormous whirlpool. Its ultramarine water plummets
+past you with a deafening roar. It blasts clouds of sand high into the sea as
+it erupts against the sea floor. Lacy tendrils of bubbles spiral downward,
+caught within it torrential currents. They erupt against the huge rocks and
+form vaporous clouds. Their white bubbles mingle briefly with the swirling
+sand then arise to the surface of the sea far above you. A glowing, scarlet
+chest lies within the center of the eye. Its crystalline surface shimmers
+while a faint hum vibrates from within it. You stare in utter amazement and
+wonder why you are still alive.
+~
+0 AC 6
+S
+#791
+On the Boulder~
+You stand in the center of a huge boulder. The sea churns like a caldron
+below you. Its ultramarine waves batter the sides of the boulder as they
+blast sea foam high into the air. A cool wind blows the mist across your
+skin. It trickles down your neck chilling your skin. The sun hangs low in
+the azure sky as billowy clouds race across it. The sea merges with the
+sky on the horizon. Something shifts across the boulder. You turn around
+but nothing is there.
+~
+0 0 6
+D1
+Exit ~
+door~
+0 0 770
+S
+#792
+The Bridge of Basalt~
+You walk across a narrow bridge of basalt. The sea churns like an inky
+caldron below you. Its waves batter the sheer, stone walls. They echo
+through the cavern with a slight vibration. The wind howls through the 
+sea hole. It rips at your armor and batters against you. You gaze down
+into the darkened chasm and pray you do not tumble to your death.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 794
+D2
+Exit ~
+door~
+0 0 789
+S
+#793
+The Sea Cavern~
+You stand on a small semicircular ledge. Sheer, stone walls drop away into
+fathomless darkness. The sea churns like an inky caldron below you. Waves
+crash against the stone walls and blast sea spray high into the air. A
+fierce wind rips at your armor as it howls through the cavern. Its phantom
+wail echoes off the cavern walls with an unearthly cry. Darkness shrouds
+the depth of the cavern. You cannot tell where the narrow ledge ends and
+the inky sea begins. Something brushes against you in the blackness. You
+think a vague form hovers beside you but it is hard to tell in the darkness.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 797
+D3
+Exit ~
+door~
+0 0 798
+D4
+Exit ~
+door~
+0 0 789
+S
+#794
+The Cave of Mirrors~
+Darkness shrouds the depth of the cavern. Your light falls in a luminescent
+pool around you. It casts surreal shadows that warp across the floor of the
+cavern. Small pools of milky water scatters across the floor. Their surfaces
+ripple as water slowly drips off the stalactites which hang above them. Their
+phosphorescent surfaces illuminate the ceiling with wavy circles of light.
+The only sound is the rhythmic drip of water.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 796
+D2
+Exit ~
+door~
+0 0 792
+D3
+Exit ~
+door~
+0 0 795
+S
+#795
+The Cave of Mirrors~
+Darkness shrouds the depth of the cavern. Your light falls in a luminescent
+pool around you. It casts surreal shadows that warp across the floor of the
+cavern. Small pools of milky water scatters across the floor. Their surfaces
+ripple as water slowly drips off the stalactites which hang above them. Their
+phosphorescent surfaces illuminate the ceiling with wavy circles of light.
+The only sound is the rhythmic drip of water.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 794
+D3
+Exit ~
+door~
+0 0 796
+S
+#796
+The Cave of Mirrors~
+Darkness shrouds the depth of the cavern. Your light falls in a luminescent
+pool around you. It casts surreal shadows that warp across the floor of the
+cavern. Small pools of milky water scatters across the floor. Their surfaces
+ripple as water slowly drips off the stalactites which hang above them. Their
+phosphorescent surfaces illuminate the ceiling with wavy circles of light.
+The only sound is the rhythmic drip of water.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 795
+D3
+Exit ~
+door~
+0 0 794
+S
+#797
+The Sea Cavern~
+You stand on a small semicircular ledge. Sheer, stone walls drop away into
+fathomless darkness. The sea churns like an inky caldron below you. Waves
+crash against the stone walls and blast sea spray high into the air. A
+fierce wind rips at your armor as it howls through the cavern. Its phantom
+wail echoes off the cavern walls with an unearthly cry. Darkness shrouds
+the depth of the cavern. You cannot tell where the narrow ledge ends and
+the inky sea begins. Something brushes against you in the blackness. You
+think a vague form hovers beside you but it is hard to tell in the darkness.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 798
+D3
+Exit ~
+door~
+0 0 793
+S
+#798
+The Sea Cavern~
+You stand on a small semicircular ledge. Sheer, stone walls drop away into
+fathomless darkness. The sea churns like an inky caldron below you. Waves
+crash against the stone walls and blast sea spray high into the air. A
+fierce wind rips at your armor as it howls through the cavern. Its phantom
+wail echoes off the cavern walls with an unearthly cry. Darkness shrouds
+the depth of the cavern. You cannot tell where the narrow ledge ends and
+the inky sea begins. Something brushes against you in the blackness. You
+think a vague form hovers beside you but it is hard to tell in the darkness.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 793
+D3
+Exit ~
+door~
+0 0 797
+S
+#799
+The narrow trail~
+The trail grows more narrow as you continue deeper into the forest. All
+signs of animal life disappear from the trees. The trail continues west.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 6151
+D3
+Exit ~
+door~
+0 0 750
+S
+#0
+
+#RESETS
+M 0  750   1  778  1	* a serpent
+G 1  758  -1     	*   a scarlet scale
+O 0  750 100  779	* A rainbow portal
+D 0  771   0    1	* The Center of the Arch north
+D 0  775   5    2	* The Stone Funnel down
+D 0  779   4    1	* Suspended in the Rainbow Mist up
+M 0  760   1  785  1	* a shadow echo
+M 0  755   1  759  1	* a multicolored sea dragon
+D 0  759   2    1	* The Crescent Beach south
+M 0  754   1  762  1	* a sand lurker
+M 0  751   1  781  1	* a mist cloud
+M 0  751   2  782  1	* a mist cloud
+M 0  751   3  768  1	* a mist cloud
+M 0  755   2  767  1	* a multicolored sea dragon
+M 0  754   5  780  1	* a sand lurker
+M 0  755   4  780  1	* a multicolored sea dragon
+M 0  764   1  784  1	* a stalactite
+M 0  759   1  784  1	* a huge stalagmite
+D 0  784   0    1	* The Cave of Mirrors north
+O 0  760 100  764	* a piece of driftwood
+M 0  767   1  793  1	* a phantom
+M 0  767   2  798  1	* a phantom
+M 0  767   3  797  1	* a phantom
+M 0  756   2  772  2	* a black, stone gargoyle
+M 0  756   2  772  2	* a black, stone gargoyle
+D 0  772   2    1	* The Bottom within the Arch south
+M 0  760   2  786  1	* a shadow echo
+M 0  758   2  786  1	* a warped image
+D 0  786   2    2	* The Cave of Mirrors south
+M 0  765   1  769  1	* a mermaid
+E 1  762  -1   17	*   a colorful sea shell
+M 0  768   1  770  1	* a merman
+E 1  763  -1   16	*   a scaled flail
+M 0  755   4  763  1	* a multicolored sea dragon
+M 0  761   6  763  2	* a crane
+M 0  761   6  763  2	* a crane
+O 0  761 100  763	* a piece of seaweed
+M 0  752   1  787  1	* a mirror image of yourself
+E 1  753  -1   16	*   a stygian blade
+G 1  757  -1     	*   a basalt key
+M 0  762   2  755  1	* a gust of wind
+O 0  751 100  755	* a large boulder
+D 0  755   2    1	* A Rocky Path Down The Cliff south
+M 0  770   1  791  1	* a basalt beast
+M 0  753   2  765  1	* an ethereal mist
+M 0  769   2  765  1	* a spiral mist
+M 0  753   3  783  1	* an ethereal mist
+M 0  769   2  783  1	* a spiral mist
+M 0  751   4  766  1	* a mist cloud
+M 0  771   1  754  1	* a seagull
+M 0  771   3  752  1	* a seagull
+M 0  771   3  753  1	* a seagull
+M 0  763   1  753  1	* a particle cloud
+M 0  762   2  753  1	* a gust of wind
+M 0  753   3  758  1	* an ethereal mist
+E 1  754  -1   17	*   an ethereal wand
+D 0  758   0    1	* The Misty Forest north
+M 0  764   4  795  1	* a stalactite
+M 0  759   4  795  1	* a huge stalagmite
+O 0  765 100  795	* a phosphorescent pool
+M 0  766   8  773  2	* a small, stone gargoyle
+M 0  766   8  773  2	* a small, stone gargoyle
+M 0  766   8  774  2	* a small, stone gargoyle
+M 0  766   8  774  2	* a small, stone gargoyle
+M 0  766   8  776  2	* a small, stone gargoyle
+M 0  766   8  776  2	* a small, stone gargoyle
+M 0  766   8  777  2	* a small, stone gargoyle
+M 0  766   8  777  2	* a small, stone gargoyle
+M 0  764   4  794  1	* a stalactite
+M 0  759   4  794  1	* a huge stalagmite
+O 0  764 100  794	* a milky pool of water
+M 0  758   2  788  1	* a warped image
+E 1  767  -1   18	*   a reflective stone
+D 0  788   0    2	* The Sea Hole north
+M 0  757   1  790  1	* a water demon
+G 1  756  -1     	*   a drop of water
+O 0  755 100  790	* scarlet chest
+P 1  768  -1  755  1	*   a shimmering pile of golden coins
+P 1  759  -1  755  1	*   a multicolored crystal
+M 0  755   4  760  1	* a multicolored sea dragon
+M 0  761   6  760  2	* a crane
+M 0  761   6  760  2	* a crane
+O 0  761 100  760	* a piece of seaweed
+M 0  761   6  761  2	* a crane
+M 0  761   6  761  2	* a crane
+O 0  761 100  761	* a piece of seaweed
+M 0  759   4  796  1	* a huge stalagmite
+M 0  764   4  796  1	* a stalactite
+O 0  766 100  796	* A luminescent circle of light
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 750 spec_poison         	* a serpent
+M 752 spec_thief          	* a mirror image of yourself
+M 754 spec_thief          	* a sand lurker
+M 755 spec_breath_frost   	* a multicolored sea dragon
+M 757 spec_breath_gas     	* a water demon
+M 758 spec_thief          	* a warped image
+S
+
+#$

@@ -1,0 +1,1344 @@
+Sender  Prowler~
+Date    Mon May 14 20:11:13 2001~
+Stamp   989889073
+To      Rusty Poquah Boogums Guerrand Rage~
+Subject OLC~
+Text
+Could someone look into fixing my area?  For a very long time
+now, when I saved it crashed olc.  Rusty thought he had it fixed
+once, however, the change didn't work.
+
+Thanks
+~
+Sender  Rusty~
+Date    Tue May 15 12:55:09 2001~
+Stamp   989949309
+To      Guerrand Boogums Rage poquah~
+Subject Coding account access~
+Text
+Please come and see me individually for information on logging into
+your account on the new server, making code mods and VERY important
+operating information regarding the game binding port 23.  We're not
+working quite the same way as before and as such I need to give you
+some additional information.
+-Rusty
+~
+Sender  Nightdagger~
+Date    Wed May 16 02:43:17 2001~
+Stamp   989998997
+To      immortal~
+Subject Ruffian bug~
+Text
+Rowen of Posse now has a ruffian flag, but the thing is, he got it
+counterattacking a Zealot who attacked him.  Sitting here, watching his
+screen, here's what happened:
+
+Rowen is fighting castle warrior in trinity.  Korlak attacks, leading
+with dirt kick.  Rowen flees, returns, attacks Korlak.  A wholist
+approximately 30 seconds later shows Rowen with a ruffian, and Korlak
+without.  I know Posse has been griping a lot about our flag code, and if
+this kind of thing is happening, I can sure see why.  Korlak should
+have gotten the ruffian in that case, not Rowen.  So, could someone go
+ahunting for this bug, and pardon Rowen's undeserved ruffian flag?
+~
+Sender  Poquah~
+Date    Wed May 16 09:20:46 2001~
+Stamp   990022846
+To      immortal~
+Subject re: Ruffian bug~
+Text
+There is a known bug in combat where you will not receive
+a flag for attacking someone who is already in combat 
+(ie: Korlak didnt get a flag for attacking Rowen who was
+fighting a mob, so when Rowen came back and attacked he
+was attacking a flagless person and therefore got the ruffian).
+
+I believe Rusty once said this was hard or impossible to fix,
+its a part of life. I would have thought that Korlak would have
+been flagged a Posse-enemy though, there could quite possibly
+be a bug in the Posse-enemy code.
+~
+Sender  Rusty~
+Date    Wed May 16 09:21:19 2001~
+Stamp   990022879
+To      immortal~
+Subject Ruffian flags~
+Text
+Flags are handed out based on who is in combat or not.  There is
+no other way to detect who attacked first.  So, when he got attacked
+while fighting a MOB the player attacking him did not get a Ruffian
+because his target was already set to a fighting state.  He got
+his Ruffian by attacking back without checking if his target already
+had a flag.  No bug so to speak, just that no Ruffians are handed
+out to people attacking unflagged others who are already in combat.
+
+There is nothing we can do about this short of revamping the entire
+combat system.
+-Rusty
+~
+Sender  Rusty~
+Date    Wed May 16 10:47:03 2001~
+Stamp   990028023
+To      immortal~
+Subject OLC up~
+Text
+The OLC port is up and running.
+-Rusty
+~
+Sender  Rusty~
+Date    Wed May 16 10:47:43 2001~
+Stamp   990028063
+To      prowler~
+Subject Your area~
+Text
+Hmmm, if you see me lets work on getting your area back online.
+-Rusty
+~
+Sender  Rusty~
+Date    Wed May 16 14:02:43 2001~
+Stamp   990039763
+To      immortal~
+Subject Responsibilities~
+Text
+Now that we're in full swing everyone needs to get back to work.
+By June 1 I will be reviewing all IMM's personally.  If, by that
+time, you have not gotten back in the swing of things you will be
+demoted or deleted.  Anyone who is not actively coding, building,
+running quests, actively enforcing policy, doing restrings and/or
+answering prayers WILL be eliminated.  This is not a place to sit
+chat and futz around, you can do that as a mortal.
+
+Take this how you will.  Past contributions will be counted, but only
+for a small percentage if your current activity is borderline.
+
+So, lets see 2 weeks with a flurry of activity.  Reviews will happen
+quarterly there after.
+-Rusty
+~
+Sender  Prowler~
+Date    Wed May 16 16:43:48 2001~
+Stamp   990049428
+To      Rusty~
+Subject Emerald Forest~
+Text
+I took a chance, and went to OLC, modified the heal rate in
+my Imm room and saved.  It didn't crash.  So, it seems that EF
+is back to normal.  I'll let you know if the problem reoccurs
+down the road again.
+~
+Sender  Nightdagger~
+Date    Thu May 17 07:04:23 2001~
+Stamp   990101063
+To      immortal~
+Subject Re:  responsibilities~
+Text
+Guess this means it's time for me to take my 2 areas on paper (and
+one in progress) and toss them up on the OLC port, eh?  ;)
+
+Along those lines, anyone wanna set me up with a couple blocks of 100 so
+I can start work on new projects?
+~
+Sender  Poquah~
+Date    Thu May 17 07:38:02 2001~
+Stamp   990103082
+To      immortal~
+Subject Names~
+Text
+Perhaps suggest alternative names not using 'The' and the like
+its not very good for names. I know we arent stigant on names, or atleast
+we never have been before, but personally I don't like names
+like 'TheReaper'.
+
+Its probably just the extra capital letter that throws me
+off, I mean a name like 'Thereaper' is fine, you can pronounce it
+in different ways, many that make a good name, but TheReaper is two names
+I guess I'm against two names, which I guess needs a code
+change to not allow capital letters used in your name other
+then the first.
+~
+Sender  Poquah~
+Date    Thu May 17 08:43:43 2001~
+Stamp   990107023
+To      admins~
+Subject Nightdagger's area online~
+Text
+I have brought Nightdagger's area online, we checked it months
+ago but couldnt bring it online because of a problem with NT
+that if we saved it would crash (like Emerald Forest). This 
+problem has gone away so we added his area off NT.
+
+As with any area once its brought online I have removed 
+Nightdagger's bflag access to it, if we find things that
+need to be fixed we can fix it or give him bflag access back
+to it. 
+~
+Sender  Boogums~
+Date    Thu May 17 09:30:55 2001~
+Stamp   990109855
+To      admins~
+Subject Nightdagger given new vnums~
+Text
+I have him 16200 - 16299 and took his bflag away for the current
+area that's online
+Side Note:
+It'll probobly be monday before we get net access from home :(
+hopefully the modem will show up friday :) 
+New house looks great, i'll put some pics up and such
+ttfn
+Boogums
+first line have = gave
+~
+Sender  Poquah~
+Date    Thu May 17 19:16:18 2001~
+Stamp   990144978
+To      Guerrand~
+Subject Onote~
+Text
+A well written onote G, you havent lost your writing touch.
+~
+Sender  Guerrand~
+Date    Thu May 17 20:07:10 2001~
+Stamp   990148030
+To      Poquah~
+Subject Thanks~
+Text
+*tips a hat*  Thanks.  Players really lack a good perspective on the game
+and how IMM life really works.  I think they get this idea that coders
+concoct elaborate schemes to make their characters awesome and hide it
+away in code "changes" that we sneak in under their noses.
+
+Never occurs to them that we'd can more easily and unaccountably set
+flags or edit pfiles.  It helps to not quite take their accusations
+seriously.  I think the less defensive we are the more easily they'll 
+accept our word as being honest.
+
+Me being one of the most defensive people on earth, it's hard to do but
+I'm trying :)
+
+-G
+~
+Sender  CyberDeath~
+Date    Thu May 17 21:38:30 2001~
+Stamp   990153510
+To      guerrand~
+Subject Altirin...~
+Text
+Gimmie yer e-mail addy and I can send you a map of yer area.
+I have it all mapped out...all except the "Generic Room Name"
+part of it of course.
+
+Send yer addy to reggemS@hotmail.com
+
+CD
+~
+Sender  CyberDeath~
+Date    Thu May 17 21:46:12 2001~
+Stamp   990153972
+To      Immortal~
+Subject Me, myself, and I...~
+Text
+Well, now that we've got our OLC up I can get back to
+blowing the cobwebs off my area and get the smegging
+thing done.
+
+CyberDeath
+~
+Sender  Earendil~
+Date    Sat May 19 15:52:41 2001~
+Stamp   990305561
+To      immortal~
+Subject Townhome construction~
+Text
+I re-appointed Nyaxtor's townhome for his use,
+including yanking the mana upgrade.  So ND can
+take that one off his list. :)
+-ear
+~
+Sender  Rusty~
+Date    Sun May 20 16:19:29 2001~
+Stamp   990393569
+To      Boorums Poquah Rage Guerrand~
+Subject Necro casting levels bug squashed~
+Text
+Boogly you're going to bonk yourself on the head for this one:
+sn = skill_lookup( "animate dead" )
+That does not belong in an if() statement, should have been:
+sn == skill_lookup( "animate dead" )
+
+Also simplified your align range checks a bit.  Swapped the ends
+so only < had to be used instead of <= and >=.    Then I changed
+all your level = level-20; type lines to level -= 20;  Cleaner coe
+that way.  Should be all fixed.
+-Rusty
+~
+Sender  Boogums~
+Date    Sun May 20 16:47:11 2001~
+Stamp   990395231
+To      Rusty Rage Poquah Guerrand~
+Subject And the bonehead of the month award goes to...~
+Text
+I believe my exact words were:
+"Fuck me running"
+*sigh*
+Sorry bout that, I get confused sometimes when I switch
+between languages
+ttfn
+Boogums
+~
+Sender  Ruiner~
+Date    Sun May 20 17:18:03 2001~
+Stamp   990397083
+To      Rusty Poquah~
+Subject Imm Review~
+Text
+I don't have the time or desire to put in the effort required
+of an imm of my level.  Please replace me.
+If ever I feel the urge to dedicate time to MHS
+I'll work my way back up the ranks like anyone
+else.
+
+Thanks for the memories,
+Ruiner
+~
+Sender  Boogums~
+Date    Tue May 22 10:38:05 2001~
+Stamp   990545885
+To      nightdagger~
+Subject Huxley~
+Text
+What flag did he have before?  I can pload and flag him
+ttfn
+Boogums
+~
+Sender  Prowler~
+Date    Tue May 22 22:54:58 2001~
+Stamp   990590098
+To      Guerrand~
+Subject Wizlist~
+Text
+
+G, umm, someone forgot to include you in the updated wizlist.
+He shall remain nameless.  Anyway, I went in and put your name in
+but, we couldn't remember your [name]
+
+if you can tell me what you like beside your name i will
+fix it for you.
+
+Prowler
+~
+Sender  Boogums~
+Date    Tue May 22 23:05:55 2001~
+Stamp   990590755
+To      prowler guerrand~
+Subject wizlist~
+Text
+HEY! :) i resemble that remark.  Sorry bout forgetting
+to add you G, if i recall, it was for the same reason
+Prowler didn't add you.  I didn't know what snazzy title
+you wanted :)
+ttfn
+Boogums
+~
+Sender  Boogums~
+Date    Tue May 22 23:09:23 2001~
+Stamp   990590963
+To      prowler~
+Subject sorry bout that~
+Text
+Hey dude, sorry I had to bail on you earlier.  Mar's not
+feeling to good, got a touch of the stomach bug.
+Hollar if you have any questions about stuff, even
+mail me at work cgibbs@westmarkproducts.com if you're around
+and i'm not.
+ttfn
+Boogums
+~
+Sender  Boogums~
+Date    Tue May 22 23:10:40 2001~
+Stamp   990591040
+To      immortal~
+Subject updated email addresses~
+Text
+Briar and I have updated email addresses
+cascadia@nventure.com is me
+and
+booska@nventure.com is her
+ttfn
+Boogums
+~
+Sender  Prowler~
+Date    Wed May 23 01:41:39 2001~
+Stamp   990600099
+To      Boogums Rage Guerrand Poquah Rusty~
+Subject Theseus@146.230.147.244~
+Text
+
+He claims that his charactor has been deleted without his knowledge.
+He was lvl 20, and is now lvl 1.  Wondered if someone could walk me
+through looking at the logs to see if there was a "delete" "delete"
+command entered.  I told him if I did find that the char was 
+deleted by a user, he should use a better password.  But, if not, I 
+would reimb his levels due to the bug.
+
+Prowler
+~
+Sender  Nightdagger~
+Date    Wed May 23 06:16:25 2001~
+Stamp   990616585
+To      boogums~
+Subject Huxley~
+Text
+He had a KILLER flag.
+
+If you could replace it I'm sure he'd be pleased as punch.
+~
+Sender  Nightdagger~
+Date    Wed May 23 11:51:08 2001~
+Stamp   990636668
+To      guerrand~
+Subject Checkin in~
+Text
+Heard you're working on some things for Altirin to help balance out
+things ingame...new weapons to play with, items, so forth.  I'm working on a
+highlevel area myself, and wanted to touch base with you, find out if you have
+any solid plans that cross over my tentative ones, so that we don't end up
+copying each other.
+
+Anything that you're sure that you're putting in your area that I should
+shy away from?  The only solid item I know I will have is an exotic mental
+blast noun weapon of about 20 average dam, in the 45-50 range.
+~
+Sender  Ruiner~
+Date    Wed May 23 15:31:53 2001~
+Stamp   990649913
+To      Guerrand~
+Subject Windshield wiper IMM~
+Text
+
+That's classic.
+~
+Sender  Poquah~
+Date    Wed May 23 17:16:51 2001~
+Stamp   990656211
+To      immortal~
+Subject Kanaris renamed Canaris~
+Text
+Canaris pfile was removed (actually renamed to Canarisold for
+the time being, left it incase we wanted to look at it for anything)
+and Kanaris was renamed to Canaris.
+~
+Sender  Guerrand~
+Date    Wed May 23 18:16:29 2001~
+Stamp   990659789
+To      prowler boogums~
+Subject Cool~
+Text
+
+Uh.. snazzy title.  Everything I can think of is really inappropriate.
+Let me think on it and I'll get back to you.
+
+-G
+~
+Sender  Guerrand~
+Date    Wed May 23 18:21:08 2001~
+Stamp   990660068
+To      nightdagger~
+Subject Areas~
+Text
+
+My plans for equipment are as follows (and these may get changed - some
+of them will need adjusting based on how hard they are to get and how
+rarely they repop):
+
+3 new weapons of each weapon type.  1 level 50 high-damage weapon,
+1 level 50 nifty-flags, low-damage weapons, and 1 miscallenous weapon to
+fill in any gaps in the equipment list.
+
+I'm also planning several armor sets, one aimed for monks, one aimed for
+non-armor people, and one for everybody else.
+
+THe armor sets are all level 51.
+
+In addition, if I can get my automated quest thing in, I'm going to make
+a few items that you have to quest for - basically the kind of thing
+that will cost the player time, eggs, and effort, and frustration, but
+if they stick with it, they'll get a weapon or item that's slightly above
+the cut.
+
+So taht's basically it.  I'd recommend just doing what you have planned
+and if we overlap or have similar items, we can make adjustments.  The
+stuff in the back part of Altirin, I'd like to make just slightly better
+than other equipment of its level, because, well one nobody below about
+level 45 or so can even survive in there, and for two, the back areas
+will be quite difficult to access and survive through.
+
+Anyway, gotta go take the ol' battleaxe out for dinner, see ya.
+
+-G
+~
+Sender  Poquah~
+Date    Wed May 23 20:47:46 2001~
+Stamp   990668866
+To      immortal~
+Subject Looting Nonclanner corpses~
+Text
+You were correct in your assumptions on how looting worked
+Prowler, so I changed it a bit. It will now do the following:
+
+Check if noloot flag is set, if not then anyone can loot
+check if player is clanned, if clanned are they in the same group
+or clan, if so then they can loot.
+if player is not clanned, check if noloot flag is set, if not
+then anyone can loot.
+
+Basically if in a clan in order to do a loot you have to be
+grouped or in the same clan. For nonclanners regardless of group
+they have to have the canloot flag off.
+~
+Sender  Prowler~
+Date    Wed May 23 21:18:02 2001~
+Stamp   990670682
+To      Immortal~
+Subject My ICQ number~
+Text
+
+For those of you that don't have it.
+
+36663926
+~
+Sender  Nightdagger~
+Date    Thu May 24 06:54:19 2001~
+Stamp   990705259
+To      guerrand~
+Subject Re: areas~
+Text
+Thanks man :)  Since people will end up almost literally going through
+Hell itself to get to your new stuff, and in my area they'll just have to
+do a bit of exploration, I can probably just do what I had planned and we
+shouldn't overlap too badly even if we do make the same thing.  Yours will
+likely be harder to get, but a bit nicer than mine, so that'll give people
+choices in what they want to shoot for.  Anyway, thanks for the info, I'll
+let ya know when I get items coded in.
+~
+Sender  Nightdagger~
+Date    Thu May 24 10:44:17 2001~
+Stamp   990719057
+To      immortal~
+Subject Recent spree of crashes~
+Text
+There's been 6 crashes that I've counted this morning in the 4 hours
+I've been on.  I can't connect the dots and pin it down to an occurance, but
+it sure is annoying, and people have been complaining.
+
+Anyone have any clues why?
+~
+Sender  Rusty~
+Date    Thu May 24 13:35:55 2001~
+Stamp   990729355
+To      Rage Poquah Boogums Guerrand~
+Subject Core files on crashes~
+Text
+Seems a side affect of running the game as root to start means when
+we crash no core files area generated.  So, gdb can't debug into the
+syslog.  *sigh*  I'll work on fixing that so we have some crash debug
+output...
+-Rusty
+~
+Sender  Ruiner~
+Date    Thu May 24 23:17:44 2001~
+Stamp   990764264
+To      Gman Poquah Rage and other admins~
+Subject PRivate rooms in the motral realm~
+Text
+Private rooms in the mortal realm
+
+Would it be possible to have it check for level (52+) with the goto command
+or just have the goto command ignor private mortal rooms.  ITt's a pain
+when you want to goto someone and they are in a private room.
+
+Sorry for the typos, etc.  on a telnet client.
+
+Ruiner
+~
+Sender  Nightdagger~
+Date    Fri May 25 06:14:49 2001~
+Stamp   990789289
+To      immortal~
+Subject Accomplice lonered~
+Text
+Forgot to loner before reaching 21, prayed up about 5 seconds after wiznet
+showed the level, so I lonered him.
+~
+Sender  BriarRose~
+Date    Fri May 25 10:01:36 2001~
+Stamp   990802896
+To      immortal~
+Subject i crashed the mud today~
+Text
+learned the wrong way to end a glad...then learned the right way
+My first time crashing the mud, I think I'm following in Boog's
+footsteps very well..I'll learn what I'm doing soon, I promise
+just wait till i make an area... :P
+The blundering, helpless, female imm *sigh* :P 
+Briar
+~
+Sender  Rusty~
+Date    Fri May 25 13:32:36 2001~
+Stamp   990815556
+To      Coders and Prowler~
+Subject goto and private rooms~
+Text
+Umm, this is intentional and we have the 'violate' command to hop
+into private rooms if able.  If someone needs someone who's in a private
+room and can't get in using the commands they have they should trans
+said person out (if able).
+-Rusty
+~
+Sender  Prowler~
+Date    Fri May 25 15:43:21 2001~
+Stamp   990823401
+To      Poquah Guerrand Boogums Rusty Rage~
+Subject double exp day~
+Text
+
+Could we make that a command for us to use?  I know in the
+past it was a code change, and required a reboot.
+~
+Sender  Rage~
+Date    Fri May 25 19:20:07 2001~
+Stamp   990836407
+To      prowler guerrand rusty poquah boogums~
+Subject double xp command~
+Text
+Done.  Command is "doublexp" available for 59+.
+Lemme know if there's bugs, which I'm sure there are.  It's been too long
+since I coded anything ;)
+
+Rage.
+~
+Sender  Randal~
+Date    Sat May 26 16:20:28 2001~
+Stamp   990912028
+To      Rusty Boogums Rage Poquah Guerrand Prowler~
+Subject String~
+Text
+
+I had some problems with string today, I was trying to string items in my inv 
+and it was jumping to other items. Maybe I fucked it up, but I don't think
+I did. Just thought I'd write a note about it.
+All the real dmg has been fixed i think.
+
+Randal
+~
+Sender  Boogums~
+Date    Sat May 26 17:02:41 2001~
+Stamp   990914561
+To      randal rusty rage poquah guerrand prowler~
+Subject string~
+Text
+A while back, things got screwy with some items.  Was this on
+an item you just loaded or was it an existing item?
+ttfn
+Boogums
+~
+Sender  Valder~
+Date    Sat May 26 17:42:34 2001~
+Stamp   990916954
+To      immortal~
+Subject if anyone reads this while it's on...~
+Text
+
+The clan leaders and a few rank /3s are in 1212 to discuss clan matters.
+Just thought I'd explain their presence.
+
+Due to 2 of the leaders (Therman-Demise and Slodhian Warlock) are the same play
+-er I allowed them both to be there, but I am watching them so nothing happens.
+erm Therman is Warlock, Slod is Avarice not Warlock and demise as stated)
+
+Valder
+~
+Sender  Boogums~
+Date    Sun May 27 00:12:34 2001~
+Stamp   990940354
+To      Rusty~
+Subject me vi'ing my pfile~
+Text
+Hey dude,
+I had some items that got screwed up from a while back
+none of the names matched anything, so i just vi'd my
+pfile and deleteing all my inv.  Just wanted to let you know
+Hope all is well for you and yours
+ttfn
+Boogums
+~
+Sender  Nightdagger~
+Date    Sun May 27 07:16:19 2001~
+Stamp   990965779
+To      immortal~
+Subject Re:  coding new nifty things~
+Text
+I was wondering, while we're adding nifty new stuff here...I have a spell
+coded on my rom code I have on my PC, called empowerment.  It acts kind of
+like enchant weapon, except that the effect is temporary, and it gives better
+bonuses.  When it's cast on a weapon it leaves a residual extra flag,
+'empowered', and the weapon glows green.  After the spell wears off, the
+empowered flag stays around, and any weapon that's been previously empowered
+can't have the spell cast upon it again.  Mainly, it's an added extra oomph
+for those really important fights.
+
+Anyway, anyone like this idea enough to try it here?  Like I said, I've got
+it already coded on my PC, so I could email snippets if you'd like em.  But
+I think it'd be a cool little addition to uneven the odds a bit in pfighting,
+something to keep everyone on their toes.
+~
+Sender  Nightdagger~
+Date    Sun May 27 07:29:28 2001~
+Stamp   990966568
+To      rusty poquah boogums~
+Subject Re:  Dakota~
+Text
+Spoke with Alexia today.  She accidently deleted her alt Dakota yesterday, and
+was wondering about her chances of getting her pfile restored.  She was a
+pretty new character, and I'm not sure how often you guys do pfile backups, but
+I told her I'd ask ya for her.
+~
+Sender  Prowler~
+Date    Sun May 27 11:30:45 2001~
+Stamp   990981045
+To      Immortal Randal~
+Subject string~
+Text
+
+When you were trying to string the items in your inventory,
+were they freshly placed there?  Or were they something you've been
+holding on to for a while?
+
+Ideally anytime anyone uses the "string" command, they should
+use the "owhere object" command first.  The item should be at
+the TOP of the list.  If it is not at the top of the list, you either
+load another, clone it, or use "string obj 2.item short desc".
+
+Using the 2.item is obviously not the prefferred method, but 
+there are times when it comes in handy.  Like, when you find someone that
+has an illeagal restring, and you just want to add a couple extra names
+to it.
+
+Prowler
+~
+Sender  Rusty~
+Date    Sun May 27 11:36:11 2001~
+Stamp   990981371
+To      Randal~
+Subject String~
+Text
+Were you using 1.item or just the name?  Some people were taught the
+wrong way to restring things and it screws things up.
+-Rusty
+~
+Sender  Nightdagger~
+Date    Sun May 27 11:48:47 2001~
+Stamp   990982127
+To      immortal~
+Subject Re:  restringing~
+Text
+I use stat obj <item name> first.  If I get the one in my inventory, things
+usually go pretty smoothly, unless I make a booboo.
+~
+Sender  Boogums~
+Date    Sun May 27 15:26:45 2001~
+Stamp   990995205
+To      Rusty Rage Poquah Guerrand Prowler~
+Subject Scribe Kit~
+Text
+Morning Gents,
+Here is what I am proposing to do for the scribe kit.  Any feedback
+would be appreciated.
+*  This kit would be available to mages only.  
+I know the kit info said it was for mages and wizards, but here's 
+my thinking behind why.
+Wizards are the "best enchanters in the land" and they have those
+way cool neato wizard spells.
+Mages "specialize in the casting of spells".  I see Scribes as 
+"specialize in the writing of spells".  It seemed that Wizards would
+be to busy with researching enchanting that they wouldn't have the
+time to read up on the magic behind the magic.
+*  There will be five different types of paper.  
+This is done because the more expensive the paper, the higher the 
+level of the spell that can be put on it.  I haven't finalized on 
+the pricing or the names of the scrolls yet.  Basically they'll 
+range from papyrus to silk parchment.
+*  There will be three different types of ink.
+Same reason as the different types of paper.  Both the paper and the ink
+would be for sale in the Midgaard Magic Shop.
+*  Scribes will only be able to scribe in a Mage Lab
+*  Scribes will only be able to write scrolls for the spells they know
+Is an explination necessary? :)
+*  There will be certian spells that cannot be put on to scrolls.
+A couple were already suggested to me.  Withstand death would be one of them,
+the others have slipped my mind.  Anyone have any suggestions?
+*  Scrolls created by a Scribe will be less effictive when used by a non scribe
+The spells would still rock, but i'm thinking of increasing the chance of failu
+by like 7 to 10 percent.  Reason is, a scribe's handwriting may be a bit messy
+or what not.
+*  Scribes get a bonus when using "stock" scrolls
+That's about all i've got for now.  Questions, comments and critiques gladley 
+accepted.
+ttfn
+Boogums
+~
+Sender  Santiago~
+Date    Sun May 27 16:02:07 2001~
+Stamp   990997327
+To      Immortal~
+Subject Rennard Unfrozen~
+Text
+Unfroze Rennard...No pen on it either
+Rusty mentioned the notes were not transferred from other server
+If anyone has a problem then please re-instate as you wish..
+Santiago
+~
+Sender  Rusty~
+Date    Sun May 27 16:20:47 2001~
+Stamp   990998447
+To      Boogums Rage Poquah Guerrand Prowler~
+Subject Scribe kit~
+Text
+May I suggest the kit be available to Samurai and Monks too?  The
+reason?  The other 2 are mage base classes and odds are they won't
+take the kit, but making a kit that more than 1 class can use just
+seems like less of a waste of coding time.  Either that or make it
+a mage/cleric kit and let cleric scribes make some cool stuff.
+-Rusty
+~
+Sender  Boogums~
+Date    Sun May 27 16:42:42 2001~
+Stamp   990999762
+To      Rusty Rage Poquah Guerrand Prowler~
+Subject scribe kit~
+Text
+I like the idea of making it available for mages and clerics
+The only thing I can think of is we may need to add a room type
+of Sanctuary, or something like that for the mages.
+Or we could just make them use the magelab like alchimests do
+thanks for the feedback Rusty, i gotta go research stuff
+and draw this out on paper now :)
+ttfn
+Boogums
+~
+Sender  Prowler~
+Date    Mon May 28 00:21:13 2001~
+Stamp   991027273
+To      Guerrand Rage Rusty Poquah Boogums~
+Subject Scribe~
+Text
+
+The only suggestion I would make is that it be a very cheap
+kit.  There are already lots of scrolls in the game, and if I personally
+had the choice of creating spells I already know (scribe) or
+totally kick ass spells no one else knows (alchemist) my choice wouldn't
+be too hard to make.
+
+Prowler
+~
+Sender  Randal~
+Date    Mon May 28 01:29:48 2001~
+Stamp   991031388
+To      Rusty Prowler Rage Poquah Boogums~
+Subject string~
+Text
+The item was a golden ring that Helios had bought a restring for.
+It had just been put in my inv. The object that was strung instead was a wand i
+Lynskyns' inv....i used the string obj golden name  technique that Rusty told m
+e to use instead of the X. technique Boogums tought me.
+
+randal
+~
+Sender  Ruiner~
+Date    Mon May 28 01:52:37 2001~
+Stamp   991032757
+To      immortal~
+Subject Received 150 eggs from Slodian for hall upgrade.~
+Text
+~
+Sender  Ruiner~
+Date    Mon May 28 01:57:48 2001~
+Stamp   991033068
+To      immortal~
+Subject Eggs from Slodhian~
+Text
+Received 150 eggs from Slod for obs tower.
+not sure where too, ask him.
+~
+Sender  Nightdagger~
+Date    Mon May 28 08:00:01 2001~
+Stamp   991054801
+To      boogums~
+Subject Zealot tower...~
+Text
+Umm, Boogums, the problem isn't people looking in there, it's farsight.
+Farsight shows everyone inside hall, clear to the top, unless they're hiding
+out in the shopkeeper's room.
+~
+Sender  Boogums~
+Date    Mon May 28 10:30:14 2001~
+Stamp   991063814
+To      immortal~
+Subject stringing~
+Text
+My apologies for teaching people the x.item method of stringing
+That was back before I knew any better :).
+Please do not use that way of stringing
+ttfn
+Boogums
+~
+Sender  Boogums~
+Date    Mon May 28 10:32:13 2001~
+Stamp   991063933
+To      nightdagger~
+Subject zealot clan hall~
+Text
+I know, Sayaka explained it to me.  Sucks to be them to have
+a "tower" ;) i'm working on fixing it.
+ttfn
+Boogums
+~
+Sender  Rusty~
+Date    Mon May 28 11:06:17 2001~
+Stamp   991065977
+To      immortal~
+Subject restringing objects, quick lesson~
+Text
+Never use 1.item 2.item etc.  Always restring the first item.
+As NightDagger mentioned, use 'stat item' to make sure it is the
+one in your inventory before beginning.  One thing I do that helps
+quite a bit is to change the 'name' first to something that is
+definitely NOT anywhere else in the game, ie:
+string object golden name fizgiggery
+then do the rest of the restring on the 'fizgiggery' object and
+finally change the 'name' to the proper keywords last thing.
+If the item is cursed please use mudtrader to get it.
+
+In summary, restrings should NEVR be done on anything but stuff
+in your inventory using the name.
+-Rusty
+~
+Sender  Guerrand~
+Date    Mon May 28 18:31:19 2001~
+Stamp   991092679
+To      Rusty Rage Poquah Prowler Boogums~
+Subject ROom Types~
+Text
+
+Scribe kit:
+
+I plan on making room types of 'ALTER' for some future work in Altirin.
+That will coincide well with your plans for the 'scribe' kit, methinks.
+
+
+-Guerrand
+~
+Sender  Prowler~
+Date    Mon May 28 18:56:55 2001~
+Stamp   991094215
+To      Rusty Boogums Rage Poquah Guerrand~
+Subject log all~
+Text
+
+Just curious when we should turn it off.  Or, who in particular
+we should be looking for.  
+~
+Sender  Rusty~
+Date    Mon May 28 21:43:01 2001~
+Stamp   991104181
+To      Prowler Rage Guerrand Boogums Poquah~
+Subject Log all~
+Text
+The log all is to find the crashing command.  We have no core files
+currently so I need a log all.  If you don't like the spam turn off
+wiznet secure.
+-Rusty
+~
+Sender  Boogums~
+Date    Mon May 28 23:23:06 2001~
+Stamp   991110186
+To      Rusty Rage Poquah Guerrand Prowler~
+Subject Room Types and Log all~
+Text
+That new room type would fit in nicely G.  I'll won't worry bout
+the room type, and will focus on the kit.  
+As to the crashing, i recently made a change in trade.c
+to do some wraithform checks.  Up in top of the program, 
+it checks to see if the person is in wraithform, down in the
+guts of it, near where the notrade toggle is checked, i added
+another one to see if vicitim was affected by wraithform
+and i added some comments to const.c but it compiled
+clean
+Yikes and Zounds batman!
+ttfn
+Boogums
+~
+Sender  Guerrand~
+Date    Tue May 29 12:48:45 2001~
+Stamp   991158525
+To      Rusty Rage Poquah Guerrand Prowler~
+Subject Coding Errors~
+Text
+
+A clean compilation with no warnings is always a good sign.  Means we
+don't have any accidental lexical errors in our code that could cause
+crashes.  But the compiler can't see divide by zero errors coming or
+segmentation faults.  Runtime crash errors are rarely caused by 
+syntactical mistakes, they're usually logic or design errors or oversights.
+
+Out of curiosity, why aren't we getting cores?  Permission problem?
+
+I know this was answered at some point earlier but I forgot.
+
+-Guerrand
+~
+Sender  Poquah~
+Date    Tue May 29 15:27:14 2001~
+Stamp   991168034
+To      scintilla rusty rage boogums guerrand~
+Subject OLC work~
+Text
+OLC work
+Scintilla has been given bflag access to her Stormy mountain area so she
+can clean things up. Someone (Boogums I think is the current holder of the
+vnums) can assign her new vnums if she wants to start a new
+area. I have advanced her to level 54 so she can edit and do
+everything on OLC, I think its level 54 to edit etc.
+~
+Sender  Rusty~
+Date    Wed May 30 16:08:25 2001~
+Stamp   991256905
+To      Guerrand Rage Poquah Boogums Prowler~
+Subject logging in directly as user mud~
+Text
+I told you all NOT to do it and a couple of you did anyhow.
+NEVER log in as mud directly, always use 'su - mud' when logged
+in as your account.  Next person to do it loses all access.
+-Rusty
+~
+Sender  Guerrand~
+Date    Wed May 30 18:12:36 2001~
+Stamp   991264356
+To      Rusty~
+Subject MUD logins~
+Text
+
+I was probably guilty.  Boogums and Prowler set me straight and said not
+to.  Sorry for the fuggup.
+
+-G
+~
+Sender  Poquah~
+Date    Wed May 30 20:22:38 2001~
+Stamp   991272158
+To      rusty~
+Subject re" mud logins~
+Text
+I did it once that I know of, I realized I had as soon as I logged in
+so I did a su - poquah, however in retrospect I should have just logged out
+and logged back in, hope it didnt do any damage.
+~
+Sender  Rusty~
+Date    Thu May 31 08:23:54 2001~
+Stamp   991315434
+To      Scintilla immortal~
+Subject echo vs. pecho~
+Text
+If it is directed to one person pecho is the command of choice (personal
+echo).  If you want everyone in the room to see it 'at Foo echo' is
+fine.  
+-Rusty
+~
+Sender  Boogums~
+Date    Thu May 31 09:20:45 2001~
+Stamp   991318845
+To      scintilla~
+Subject areas~
+Text
+Morning Scin,
+I have created a new area for you.  Starting vnum is 12500 and
+ending vnum is 12599.  I have also removed your bflag on 
+Stormy Mountain, since you said you have fixed typos and stuff
+Let me know if you need to do any more work in that area
+and i'll add it back for you.  Let me know if you have any
+questions about anything.  It's good to have you back
+ttfn
+Boogums
+~
+Sender  Rusty~
+Date    Thu May 31 14:16:47 2001~
+Stamp   991336607
+To      Cyberdeath Poquah~
+Subject Matook Web page change~
+Text
+http://www.matook.com/links.htm has the old web page address for
+MHS on it.  It should be changed to http://www.moosehead.mraz.org/
+Thanks,
+-Rusty
+~
+Sender  Rusty~
+Date    Thu May 31 15:50:28 2001~
+Stamp   991342228
+To      Guerrand~
+Subject Outdated link~
+Text
+http://www.arpens.net/ben/mudding.html
+The HREF to Moosehead SLED is incorrect now.
+The new site is http://www.moosehead.mraz.org/
+-Rusty the URL scraper
+~
+Sender  Rusty~
+Date    Sat Jun  2 10:12:38 2001~
+Stamp   991494758
+To      Poquah Rage Boogums Guerrand Prowler~
+Subject Hobkin's IMM application~
+Text
+So, lets hear what you think about Hobkin as an IMM.  I'll break
+any ties if they occur.
+-Rusty
+~
+Sender  Guerrand~
+Date    Sat Jun  2 10:54:14 2001~
+Stamp   991497254
+To      Rusty Poquah Rage Boogums Prowler~
+Subject Hobkin~
+Text
+
+No opinion.  I don't know him.
+
+-G
+~
+Sender  Boogums~
+Date    Sat Jun  2 14:45:36 2001~
+Stamp   991511136
+To      Rusty Rage Poquah Prowler~
+Subject Hobkin~
+Text
+I've seen him around for ever.  I do not know of any pens against
+him, so he seems to play by the rules (that's always a plus ;))
+So, my vote is sure.  Why not.
+ttfn
+Boogums
+~
+Sender  Rage~
+Date    Sat Jun  2 14:53:54 2001~
+Stamp   991511634
+To      rusty poquah boogums guerrand prowler~
+Subject Hobkin~
+Text
+My vote is no, currently.  I think we should wait to see the outcome
+of Rusty'd upcoming hatchet session.  After that, if we feel we need some new
+blood, I'd be more than happy to reconsider any of our previous IMM applicants,
+includeing HObkin and the others we turned down in the last round of IMM
+applications.
+
+Rage.
+~
+Sender  Prowler~
+Date    Sat Jun  2 21:22:24 2001~
+Stamp   991534944
+To      Rusty Guerrand Rage Boogums Poquah~
+Subject Hobkin's Immortality~
+Text
+
+I think Hobkin is suitable for Immhood.  He's active, motivated,
+has shown decent leadership skills, and has always had a good head
+on his shoulders.  I find him to be trustworthy, and responsible.
+
+If the next question is when to recruit him, I don't think it
+make much difference.  Why wait?  The hacking of other Imms will
+no doubt be at Rusty's leisure.  I would imagine that could go on
+for some time.  If after Rusty is done reviewing us, and there is a
+MAJOR bare spot up here, then perhaps we could continue to recruit then.
+
+I say we should move forward with his promotion.
+
+Prowler
+~
+Sender  Rusty~
+Date    Sat Jun  2 23:53:19 2001~
+Stamp   991543999
+To      Prowler~
+Subject Quarterly review goals~
+Text
+If you would oblige me, could we add reviewing and installing at least 2
+areas for other IMMs to your goals for the next 3 months, please?
+-Rusty
+~
+Sender  Ruiner~
+Date    Sun Jun  3 03:49:20 2001~
+Stamp   991558160
+To      immortal~
+Subject changes~
+Text
+
+11 unread changes
+11 Changes from Guerrand.
+Good work, man :).
+~
+Sender  Ruiner~
+Date    Sun Jun  3 03:53:01 2001~
+Stamp   991558381
+To      immortal~
+Subject Spell pages~
+Text
+
+A cool idea, I think it adds a lot of versatility
+to both area builders and players that play castetrs.  
+Two questions:
+1) Will there be a limit to the number of spells a player can take?
+2) I can't remember
+
+This may have been answered in G's note, but my A.D.D didn't
+allow me to complete it.
+
+Ruiner
+~
+Sender  Rusty~
+Date    Sun Jun  3 09:32:47 2001~
+Stamp   991578767
+To      Scintilla immortal~
+Subject Can't see onotes~
+Text
+Scintilla's typo disease strikes again:
+Your onote about "I am taking requests for new eq" reads
+To: alll
+
+That extra 'l' means no one casn see it.  No bug Scinty, sorry.
+-Rusty
+~
+Sender  Boogums~
+Date    Sun Jun  3 11:19:18 2001~
+Stamp   991585158
+To      Guerrand ~
+Subject scribing stuff~
+Text
+I am making a command called scribe for the scribe kit
+This kit is going to require one five different types of
+scrolls which can be purchased.  The higher the level of the spell
+the higher quality of scroll.
+I was going to do the command like this:
+scribe scrollname spellname
+I noticed in your news, there was a scribe percent slot
+Just making sure we're not duplicating our efforts
+mail me at cascadia@nventure.com or post me a note, so we
+can coordinate :)
+gotta go, MarMar's gone into high maintenance mode
+ttfn
+Boogums
+~
+Sender  Guerrand~
+Date    Sun Jun  3 11:53:25 2001~
+Stamp   991587205
+To      all~
+Subject Spell Pages~
+Text
+
+Spell Pages:
+
+There is no limit to how many pages a player can scribe.
+
+The purpose of these is to force players to work a little harder to
+get their spells.  It also lets us put in specialized spells that do
+neat things and make a quest-like atmosphere out of it.
+
+Any more suggestions/ideas/questions, please let me know.
+
+-Guerrand
+~
+Sender  Poquah~
+Date    Sun Jun  3 14:52:17 2001~
+Stamp   991597937
+To      rusty rage boogums guerrand prowler~
+Subject Hobkin~
+Text
+Hobkin is a stable player, he's been around a long time,
+he's heavily involved in clan life and will be a good 
+addition to the team. I give him a 'yes'.
+
+I'd also like to nominate Ralaana to join us as part of
+the building and questing restructuring. She's had imms
+on other muds, she knows how to hold quests and roleplay,
+something I'd like to see more involvement from the Immortals
+in.
+~
+Sender  Guerrand~
+Date    Sun Jun  3 14:54:02 2001~
+Stamp   991598042
+To      poquah rusty rage boogums prowler~
+Subject IMMs~
+Text
+
+I also don't have any problems with Ralaana.
+
+-Guerrand
+~
+Sender  Prowler~
+Date    Sun Jun  3 15:34:51 2001~
+Stamp   991600491
+To      Rusty Poquah Rage Boogums Guerrand ~
+Subject Ralaana~
+Text
+
+
+If we are hiring in mass, I say bring her on.  My first choice of
+the two is still Hobkin.
+~
+Sender  Prowler~
+Date    Sun Jun  3 15:42:15 2001~
+Stamp   991600935
+To      Rusty Poquah Rage Boogums Guerrand ~
+Subject decisions~
+Text
+
+I was under the misconception that things like new races, major changes
+to current races, spells, clan policies in the name of "balance" would
+be discussed amongst ourselves first.
+
+The 5 or 6 of us should PRIORITIZE what needs to be done, then we should
+discuss our feelings on each individual topic.  This is what I would call
+organization.  It would prevent the mud from tipping ass over tea kettle
+in the span of a week.
+
+Our morts, and a couple of our coders have had ALL the say in what has been
+done over the last week.  Instead of notes saying, "what kits should be code
+next?" We get announcements.  Instead a note suggesting that we overhaul a
+particular race, we get notes that inform everyone what has been done already.
+
+This bothers me.  I understand that when coders are motivated to code things 
+will get done faster, and that's good.  But, without some sort of organization
+we aren't doing anyone any good at all.
+
+Prowler
+~
+Sender  Prowler~
+Date    Sun Jun  3 16:19:08 2001~
+Stamp   991603148
+To      Guerrand~
+Subject OLC~
+Text
+
+I did the last revision of the FUNIE for OLC.  I will add the
+stipulations for the new weapon flag etc on it.  While I have you
+there was something called "secret" doors that we trying to put
+in over there.  It's been buggy from day one.  Just curious if we
+should pull it from the "door flag" menu, or if we will try to fix 
+it.
+~
+Sender  Guerrand~
+Date    Sun Jun  3 16:20:21 2001~
+Stamp   991603221
+To      Prowler~
+Subject FUNIE~
+Text
+
+Nope, I'm going to fix secret and concealed doors.  The problem with
+them is that they aren't in our reset stuff, so you can set them, but
+they don't actually reset.  I intend to fix that soon.
+
+-Guerrand
+~

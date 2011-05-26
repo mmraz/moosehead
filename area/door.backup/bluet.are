@@ -1,0 +1,2267 @@
+#AREA
+/mud/moosehead/area/bluet.are~
+Bluetspur~
+{ 1 10} Delstar Bluetspur~
+20401 20497
+
+#MOBILES
+#20401
+aquatic slinker~
+an aquatic slinker~
+An aquatic slinker swims in the water.
+~
+The aquatic slinker is a half-man half-lizard humanoid with no apparent brain functions.
+~
+lizard~
+ABG 0 -300 20401
+1 0 0d0+6 2d6+1 1d3+0 slice
+9 9 9 -1
+0 0 0 0
+stand stand female 0
+0 0 small 0
+#20402
+akak fish~
+an akak fish~
+An akak fish is here swimming about.
+~
+The akak fish seems innocent enough until you notice a trail of blood around its mouth.
+~
+modron~
+ABC 0 -300 20401
+2 0 0d0+12 2d7+2 1d3+0 slice
+8 8 8 -1
+0 0 0 0
+stand stand female 0
+0 0 tiny 0
+#20403
+brethren mind slave~
+A Brethren Mind Slave~
+A Brethren mind slave is here staring into nothingness.
+~
+The Brethren mind slave is a rat like humanoid who seems to have been deprived of its brain.
+~
+human~
+AB 0 300 20401
+3 0 0d0+28 2d6+3 1d4+0 slice
+7 7 7 -1
+0 0 0 0
+stand stand female 0
+0 0 tiny 0
+#20404
+illithid mind flayer~
+An Illithid Mind Flayer~
+An Illithid mind flayer is flailing its tentacles at you.
+~
+The illithid appears to be a biped squid with rubbery skin.
+~
+human~
+AB 0 -300 20401
+4 0 2d7+46 2d7+4 1d5+0 slice
+6 6 6 -1
+0 0 0 0
+stand stand male 0
+0 0 tiny 0
+#20405
+lashweed~
+A Lashweed~
+A Lashweed is growing out of the wall here.
+~
+The Lashweed appears to be a poisonous plant of the Venus fly trap family.
+~
+wyvern~
+ABF 0 -400 20401
+5 0 0d0+42 2d6+6 1d6+0 slice
+5 5 5 -1
+0 AB 0 0
+sleep sleep male 0
+0 0 tiny 0
+F aff DFT
+#20406
+drow mind scientist~
+A Drow Mind Scientist~
+A drow scientist is here leeching mental energies.
+~
+The drow scientist is an undead mage animated by the psychic energy of the Elder Brain.
+~
+human~
+AB 0 -300 20401
+6 0 0d0+87 2d7+7 1d5+0 slice
+4 4 4 -1
+0 0 0 0
+stand stand male 20
+0 0 tiny 0
+#20407
+illithid mind scientist~
+An Illithid Mind Scientist~
+An Illithid mind scientist is busying himself to mental experiments.
+~
+The illithid appears to be a biped squid with rubbery skin.
+~
+wyvern~
+AB 0 -300 20401
+7 0 0d0+63 2d6+8 1d6+0 slice
+4 4 4 -1
+0 0 0 0
+sit sit female 0
+0 0 tiny 0
+#20408
+geist~
+A Geist~
+A geist is here screeching howls of pain.
+~
+The geist is a material ghost representing the state of mind of a dead victim.
+~
+human~
+AB 0 300 20401
+5 0 0d0+43 2d6+6 1d5+0 slice
+5 5 5 -1
+0 0 0 0
+stand stand male 0
+0 0 tiny 0
+#20409
+mind block~
+A Mind Block~
+A Mind Block made of pure energy is blocking your way
+~
+The mind block is the Elder Brain's last line of defence. It is erected before you to help you meet your doom.
+~
+dragon~
+AB 0 300 20401
+9 0 0d0+84 2d6+11 1d7+0 slice
+2 2 2 -1
+0 MOPS 0 0
+stand stand male 0
+0 0 tiny 0
+#20410
+elder brain~
+The Elder Brain~
+The Elder Brain is here ready for the final showdown.
+~
+The Elder Brain is just that. An exposed brain with superimposed gloomy eyes. It sits in the middle of the room ready for you.
+~
+human~
+ABQ 0 -300 20401
+10 1 0d0+100 2d7+12 1d7+0 slice
+1 1 1 -1
+0 OP 0 0
+stand stand male 0
+0 0 tiny 0
+#20411
+jiakan mind flayer~
+A Jiakan Mind Flayer~
+A Jiakan mind flayer is here probing your mind.
+~
+The Jiakan mind flayer is a descendent of the Impala. He has a doglike face with powerful psychic powers.
+~
+human~
+AB 0 -300 20401
+4 0 0d0+32 2d7+4 1d4+0 slice
+6 6 6 -1
+0 0 0 0
+stand stand female 50
+0 0 tiny 0
+#20412
+carbano mind slave~
+A Carbano Mind Slave~
+A Carbano mind slave gives you a blank stare.
+~
+The Carbano is a biped rabbit who has lost most of its fur and marbles.
+~
+rabbit~
+AB 0 300 20401
+2 0 0d0+13 2d7+2 1d4+0 slice
+8 8 8 -1
+0 0 0 0
+stand stand female 0
+0 0 tiny 0
+#0
+
+#OBJECTS
+#20401
+jail key~
+A jail key~
+A jail key is on the floor.~
+iron~
+key TU AO
+0 0 0 0 0
+1 10 0 P
+#20402
+treasure key~
+a treasure key~
+A treasure key opens a nearby booty.~
+iron~
+key TU AO
+0 0 0 0 0
+0 10 0 P
+#20403
+bolasses diving container~
+A pair of diving bolasses~
+hollow diving containers are on the floor.~
+iron~
+boat 0 A
+0 0 0 0 0
+0 100 10 P
+#20404
+glowing necklace~
+a glowing necklace~
+A glowing necklace emanates light on the floor.~
+energy~
+jewelry AB AC
+0 0 0 0 0
+3 10 110 P
+A
+3 1
+#20405
+illithid corona~
+an illithid's corona~
+The rubbery head gear of an illithid is on the floor.~
+cloth~
+clothing G AE
+3 3 3 0 0
+3 10 125 P
+A
+4 1
+#20406
+scepter power~
+the scepter of power~
+A long golden scepter lies on the floor.~
+iron~
+light I AO
+0 0 -1 0 0
+5 10 225 P
+A
+5 1
+#20407
+jiakan bamboo torso~
+a Jiakan bamboo torso~
+A woven piece of bamboo is on the floor.~
+cloth~
+armor G AD
+4 4 4 1 0
+4 30 160 P
+#20408
+jiakan bamboo shoes~
+Jiakan bamboo shoes~
+A pair of bamboo shoes is on the floor.~
+leather~
+armor 0 AG
+4 3 4 1 0
+4 10 180 P
+A
+13 5
+#20409
+jiakan bamboo gloves~
+Jiakan bamboo gloves~
+A pair of wood covered gloves are on the floor.~
+cloth~
+armor 0 AH
+4 4 4 1 0
+4 10 250 P
+A
+12 5
+#20410
+jiakan spear~
+a Jiakan spear~
+A long deadly spear leans against the wall.~
+silver~
+weapon 0 AN
+exotic 2 2 stab 0
+4 40 100 P
+#20411
+mindwave cape~
+a mindwave cape~
+A cape made out of pure energy is on the floor.~
+leather~
+armor B AC
+4 4 4 1 0
+7 20 150 P
+#20412
+mind flayer wand~
+a mind flayer wand~
+A mental wand is on the floor.~
+silver~
+wand 0 AO
+5 2 2 'weaken' 0
+7 10 150 P
+#20413
+cerebral mace~
+a cerebral mace~
+A mace owned by an illithid is on the floor.~
+silver~
+weapon 0 AN
+mace 2 3 pound 0
+7 10 85 P
+#20414
+undead flail~
+the flail of the undead~
+An old rusted flail is on the floor.~
+iron~
+weapon 0 AN
+flail 2 3 blast 0
+6 30 60 P
+#20415
+stone leggings~
+stone plated leggings~
+A pair of stone plated leggings are on the floor.~
+leather~
+armor 0 AF
+5 5 4 1 0
+0 10 10 P
+#20416
+clerical stimulant~
+a clerical stimulant~
+A vial of clerical stimulant is on the floor.~
+cloth~
+potion C AO
+5 '' '' '' ''
+6 10 50 P
+#20417
+potion exchange~
+a potion of exchange~
+A potion of trading qualities is on the floor.~
+cloth~
+potion 0 AO
+5 'armor' 'faerie fire' '' ''
+6 10 30 P
+#20418
+brain staff~
+the brain staff~
+The staff of the Elder Brain is on the floor.~
+silver~
+staff 0 AO
+12 3 3 'lightning bolt' 0
+10 40 150 P
+#20419
+algae inviting~
+inviting algae~
+A bush of inviting algae is growing here.~
+cloth~
+food G AO
+5 100 0 0 0
+1 5 0 P
+#20420
+treasure illithid~
+the treasure of the illithid~
+The treasure of the Illithid is on the floor.~
+silver~
+money 0 A
+50 20 0 0 0
+0 100 0 P
+#0
+
+#ROOMS
+#20401
+The Ledge~
+As you are walking along the Shire, you feel your feet give from under you.
+You are expedited into a fall down a subterranean cave created by an 
+underwater water table.  The fall projects you onto a bed of rocks down
+below. The impact of your body on the hard surface causes you to pass out.
+You awaken only to find yourself on the ledge in a dark murky cave.  The
+air is cool and damp.  You cover your nose as stale air invade your lungs.
+A low, constant metallic drone is in the air.  To the east you see a
+small pond. You feel you should be careful of that water...
+~
+0 D 0
+D1
+Exit ~
+east pond~
+0 -1 20402
+S
+#20402
+On The Pond~
+You are navigating on a pond inside a murky cave.  From the humidity and 
+smells, you realize that you are the first living being to transgress 
+these grounds.  The question now is, how long will you remain a living 
+being...
+~
+0 D 7
+D1
+Exit ~
+east pond~
+0 -1 20403
+D3
+Exit ~
+west ledge~
+0 -1 20401
+S
+#20403
+On The Pond~
+You are floating about the murky pond.  The cave opens to the east 
+exposing the grandeur of the cave.  The incessant noise is really getting 
+on your nerves.  Strange banging noises erupt from the east.
+~
+0 D 7
+D0
+Exit ~
+north~
+0 -1 20407
+D1
+Exit ~
+east pond~
+0 -1 20404
+D2
+Exit ~
+south~
+0 -1 20410
+D3
+Exit ~
+west pond~
+0 -1 20402
+D5
+Exit ~
+down~
+0 -1 20416
+S
+#20404
+On The Pond~
+The cave appears to be getting darker as you navigate towards the middle.  
+You figure that the walls of this cave have a certain light emitting 
+quality.  The banging noise continues to the east.
+~
+0 D 7
+D0
+Exit ~
+north~
+0 -1 20408
+D1
+Exit ~
+east~
+0 -1 20405
+D2
+Exit ~
+south~
+0 -1 20411
+D3
+Exit ~
+west~
+0 -1 20403
+D5
+Exit ~
+down~
+0 -1 20417
+S
+#20405
+On The Pond~
+The waters of the pond carry you towards the eastern banging noise.  The 
+metallic noise still fill the air.  The obvious path seems to lead east, 
+but the cave remains unexplored in other directions.
+~
+0 D 7
+D0
+Exit ~
+north~
+0 -1 20409
+D1
+Exit ~
+east~
+0 -1 20406
+D2
+Exit ~
+south~
+0 -1 20412
+D3
+Exit ~
+west~
+0 -1 20404
+D5
+Exit ~
+down~
+0 -1 20418
+S
+#20406
+The Uplink~
+You are at the east end of the murky pond.  A platform stands here while a 
+dangling rope ladder leads upwards. This noise is really getting to you by 
+now and appears to be getting worse as you peer into the tunnel leading 
+through the ceiling of the cave.
+~
+0 D 4
+D3
+Exit ~
+west~
+0 -1 20405
+D4
+Exit ~
+up~
+0 -1 20423
+S
+#20407
+On The Pond~
+You have reached the northwest edge of the cave.  Jagged rocks spear out 
+of the cave walls offering you no possibility to climb the sides of the 
+cave.  The water appears to be moving under you.
+~
+0 D 7
+D1
+Exit ~
+east~
+0 -1 20408
+D2
+Exit ~
+south~
+0 -1 20403
+D5
+Exit ~
+down~
+0 -1 20413
+S
+#20408
+On The Pond~
+You are at the northern edge of the murky pond.  Phosphorus lichens grow 
+out of the walls of the cave, providing the soft light that enables you to 
+navigate safely on the pond.
+~
+0 D 7
+D1
+Exit ~
+east~
+0 -1 20409
+D2
+Exit ~
+south~
+0 -1 20404
+D3
+Exit ~
+west~
+0 -1 20407
+D5
+Exit ~
+down~
+0 -1 20414
+S
+#20409
+On The Pond~
+You have reached the northeast edge of the cave.  Jagged rocks spear out 
+of the cave walls offering you no possibility to climb the sides of the 
+cave.  The water appears to be moving under you.
+~
+0 D 7
+D2
+Exit ~
+south~
+0 -1 20405
+D3
+Exit ~
+west~
+0 -1 20408
+D5
+Exit ~
+down~
+0 -1 20415
+S
+#20410
+On The Pond~
+You have reached the southwest edge of the cave.  Jagged rocks spear out 
+of the cave walls offering you no possibility to climb the sides of the 
+cave.  The water appears to be moving under you.
+~
+0 D 7
+D0
+Exit ~
+north~
+0 -1 20403
+D1
+Exit ~
+east~
+0 -1 20411
+D5
+Exit ~
+down~
+0 -1 20420
+S
+#20411
+On The Pond~
+You are at the southern edge of the murky pond.  Phosphorus lichens grow 
+out of the walls of the cave, providing the soft light that enables you to 
+navigate safely on the pond.
+~
+0 D 7
+D0
+Exit ~
+north~
+0 -1 20404
+D1
+Exit ~
+east~
+0 -1 20412
+D3
+Exit ~
+west~
+0 -1 20410
+D5
+Exit ~
+down~
+0 -1 20421
+S
+#20412
+On The Pond~
+You have reached the southeast edge of the cave.  Jagged rocks spear out 
+of the cave walls offering you no possibility to climb the sides of the 
+cave.  The water appears to be moving under you.
+~
+0 D 7
+D0
+Exit ~
+north~
+0 -1 20405
+D3
+Exit ~
+west~
+0 -1 20411
+D5
+Exit ~
+down~
+0 -1 20422
+S
+#20413
+Shadow Deep~
+Aquatic bacteria float about as you thread your way through these disease 
+infected waters.  Trying to peer through the muck, you think you see 
+crevices leading east and south.
+~
+0 D 6
+D1
+Exit ~
+east~
+0 -1 20414
+D2
+Exit ~
+south~
+0 -1 20416
+D4
+Exit ~
+up~
+0 -1 20407
+S
+#20414
+Shadow Deep~
+You made the unfortunate mistake of opening your mouth. Foul tasting muck 
+invade your mouth making your stomach turn. The water seems to flow 
+towards the south. Perhaps something lies there.
+~
+0 D 6
+D1
+Exit ~
+east~
+0 -1 20415
+D2
+Exit ~
+south~
+0 -1 20417
+D3
+Exit ~
+west~
+0 -1 20413
+D4
+Exit ~
+up~
+0 -1 20408
+S
+#20415
+Shadow Deep~
+You are at one of the extremity of this underwater opening.  Aquatic 
+debris float in suspension around you.  You think to yourself that 
+previous adventurers like yourself may have ended up as fish food.
+~
+0 D 7
+D2
+Exit ~
+south~
+0 -1 20418
+D3
+Exit ~
+west~
+0 -1 20414
+D4
+Exit ~
+up~
+0 -1 20409
+S
+#20416
+Shadow Deep~
+You are floating about what you think is water. By the strictest of 
+definitions it is water, but at no time should you try drinking it.  
+Discarded refuse and animal remains litter this watery hell.  Perhaps you 
+should return to the surface of the pond.
+~
+0 D 6
+D0
+Exit ~
+north~
+0 -1 20413
+D1
+Exit ~
+east~
+0 -1 20417
+D2
+Exit ~
+south~
+0 -1 20420
+D4
+Exit ~
+up~
+0 -1 20403
+S
+#20417
+The Center Deep~
+You have reached the absolute center of muck.  The soiled water seems to 
+be flowing towards this position from every directions. The floor of the 
+underwater opening appears to be moving.  Is it quick sand, mud, or is it 
+something else...
+~
+0 D 6
+D0
+Exit ~
+north~
+0 -1 20414
+D1
+Exit ~
+east~
+0 -1 20418
+D2
+Exit ~
+south~
+0 -1 20421
+D3
+Exit ~
+west~
+0 -1 20416
+D4
+Exit ~
+up~
+0 -1 20404
+D5
+Exit ~
+down floor mud quick sand~
+1 -1 20497
+S
+#20418
+Shadow Deep~
+OUCH!  You have just hit your head on the eastern wall of the underwater 
+cavern.  The water is so dirty here that you can't even see the wall not 
+that you have hit it.  You determine your exits by feeling your way 
+around.
+~
+0 CDJ 6
+D0
+Exit ~
+north~
+0 -1 20415
+D2
+Exit ~
+south~
+0 -1 20422
+D3
+Exit ~
+west~
+0 -1 20417
+D4
+Exit ~
+up~
+0 -1 20405
+S
+#20419
+The Crevice~
+You have entered a small underwater cave.  Strange religious symbols adorn 
+the walls of the cave.  Perhaps an ancient civilization has blessed this 
+cave in a feeble attempt to create a safe sanctuary.
+~
+0 D 0
+D1
+Exit ~
+magical magic door west~
+0 2502 20420
+S
+#20420
+Shadow Deep~
+Ack! This is gross. You have just swum in what others would classify as 
+animal excrements.  Why are your subjecting yourself to this kind of 
+humiliation? But wait! you see faint rays of light coming from the west. 
+Could this be what you were seeking?.
+ 
+~
+0 D 6
+D0
+Exit ~
+north~
+0 -1 20416
+D1
+Exit ~
+east~
+0 -1 20421
+D3
+Exit ~
+magical magic door west~
+0 2502 20419
+D4
+Exit ~
+up~
+0 -1 20410
+S
+#20421
+Shadow Deep~
+Filth and garbage swirl around your body as you try to make your way 
+through the water.  You wonder to yourself why you didn't stay in bed this 
+morning.  Flickering lights come from the west. Perhaps you should 
+investigate.
+~
+0 D 6
+D0
+Exit ~
+north~
+0 -1 20417
+D1
+Exit ~
+east~
+0 -1 20422
+D3
+Exit ~
+west~
+0 -1 20420
+D4
+Exit ~
+up~
+0 -1 20411
+S
+#20422
+Shadow Deep~
+You are at the southeast corner of the underwater cave. You feel yourself 
+gasping for air as you see the corpse of a fellow adventurer float about 
+in this mass of putrescence.
+~
+0 D 6
+D0
+Exit ~
+north~
+0 -1 20418
+D3
+Exit ~
+west~
+0 -1 20421
+D4
+Exit ~
+up~
+0 -1 20412
+S
+#20423
+Up The Rope Ladder~
+You are climbing the rope ladder which leads you through a crevice in the 
+ceiling of this cave.  The buzzing noise that make you irate seems to grow 
+louder as you climb upwards.  A strange pulsating light seems to be 
+emanating from the top of the ladder.
+~
+0 D 4
+D4
+Exit ~
+up~
+0 -1 20424
+D5
+Exit ~
+down~
+0 -1 20406
+S
+#20424
+Up The Ladder~
+You are climbing the rope ladder.  The buzzing noise that make you irate 
+seems to grow louder as you climb upwards.  The strange pulsating light 
+emanating from the top of the ladder seems to be growing in intensity.
+~
+0 D 4
+D4
+Exit ~
+up~
+0 -1 20425
+D5
+Exit ~
+down~
+0 -1 20423
+S
+#20425
+The Entrance To Slaveland~
+You are at the entrance of Slaveland. This is the site where the Elder 
+Brain stores his mental slaves.  Beings of various race wander aimlessly 
+as their higher brain functions are sucked out telepathically by the Mind 
+Flayers.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20426
+D5
+Exit ~
+down~
+0 -1 20424
+S
+#20426
+The Slave Pen~
+You are inside the Mind Flayer's slave pen.  The walls have been white 
+washed and any furniture removed so that the mind slaves will not spend 
+any brain functions thinking of their situation or environment.  Zombie 
+looking creatures wander around.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20434
+D1
+Exit ~
+east~
+0 -1 20427
+D2
+Exit ~
+south~
+0 -1 20438
+D3
+Exit ~
+west~
+0 -1 20425
+S
+#20427
+The Slave Pen~
+You are inside the Mind Flayer's slave pen.  The walls have been white 
+washed and any furniture removed so that the mind slaves will not spend 
+any brain functions thinking of their situation or environment.  Zombie 
+looking creatures wander around.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20435
+D1
+Exit ~
+east~
+0 -1 20428
+D2
+Exit ~
+south~
+0 -1 20439
+D3
+Exit ~
+west~
+0 -1 20426
+S
+#20428
+The Slave Pen~
+You are inside the Mind Flayer's slave pen.  The walls have been white 
+washed and any furniture removed so that the mind slaves will not spend 
+any brain functions thinking of their situation or environment.  Zombie 
+looking creatures wander around.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20436
+D1
+Exit ~
+east~
+0 -1 20429
+D2
+Exit ~
+south~
+0 -1 20440
+D3
+Exit ~
+west~
+0 -1 20427
+S
+#20429
+The Slave Pen~
+You are at the east end of the Mind Flayer's slave pen.  Soft moaning fill 
+the air as apparently brainless souls wander about.  The unending drone 
+fills the air. To the east you see a corridor leading out of the slave 
+pen.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20437
+D1
+Exit ~
+east~
+0 -1 20446
+D2
+Exit ~
+south~
+0 -1 20441
+D3
+Exit ~
+west~
+0 -1 20428
+S
+#20430
+The Slave Pen~
+You are at the northwest corner of the Mind Flayer's slave pen.  Soft 
+moaning fill the air as apparently brainless souls wander about.  The 
+unending drone fills the air. .
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20431
+D2
+Exit ~
+south~
+0 -1 20434
+S
+#20431
+The Slave Pen~
+The north wall if the slave pen is in front of you.  You see mindless 
+creatures ricochet off the rubber surface as if controlled by a higher 
+being.  The wall offers you no chance of climbing it.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20432
+D2
+Exit ~
+south~
+0 -1 20435
+D3
+Exit ~
+west~
+0 -1 20430
+S
+#20432
+The Slave Pen~
+The north wall if the slave pen is in front of you.  You see mindless 
+creatures ricochet off the rubber surface as if controlled by a higher 
+being.  The wall offers you no chance of climbing it.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20433
+D2
+Exit ~
+south~
+0 -1 20436
+D3
+Exit ~
+west~
+0 -1 20431
+S
+#20433
+The Slave Pen~
+You are at the northeast corner of the Mind Flayer's slave pen.  Soft 
+moaning fill the air as apparently brainless souls wander about.  The 
+unending drone fills the air. .
+~
+0 D 0
+D2
+Exit ~
+south~
+0 -1 20437
+D3
+Exit ~
+west~
+0 -1 20432
+S
+#20434
+The Slave Pen~
+The west wall if the slave pen is in front of you.  You see mindless 
+creatures ricochet off the rubber surface as if controlled by a higher 
+being.  The wall offers you no chance of climbing it.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20430
+D1
+Exit ~
+east~
+0 -1 20435
+D2
+Exit ~
+south~
+0 -1 20426
+S
+#20435
+The Slave Pen~
+You are at the center stage of the slave pen.  Empty stares meet your gaze 
+as mind slaves plead for you to slay them.  The incessant noise now fills 
+your ears. You realize that the noise is created by mental energy being 
+drained out of the slaves.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20431
+D1
+Exit ~
+east~
+0 -1 20436
+D2
+Exit ~
+south~
+0 -1 20427
+D3
+Exit ~
+west~
+0 -1 20434
+S
+#20436
+The Slave Pen~
+You are at the center stage of the slave pen.  Empty stares meet your gaze 
+as mind slaves plead for you to slay them.  The incessant noise now fills 
+your ears. You realize that the noise is created by mental energy being 
+drained out of the slaves.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20432
+D1
+Exit ~
+east~
+0 -1 20437
+D2
+Exit ~
+south~
+0 -1 20428
+D3
+Exit ~
+west~
+0 -1 20435
+S
+#20437
+The Slave Pen~
+The east wall if the slave pen is in front of you.  You see mindless 
+creatures ricochet off the rubber surface as if controlled by a higher 
+being.  The wall offers you no chance of climbing it.
+~
+0 0 0
+D0
+Exit ~
+north~
+0 -1 20433
+D2
+Exit ~
+south~
+0 -1 20429
+D3
+Exit ~
+west~
+0 -1 20436
+S
+#20438
+The Slave Pen~
+The west wall if the slave pen is in front of you.  You see mindless 
+creatures ricochet off the rubber surface as if controlled by a higher 
+being.  The wall offers you no chance of climbing it.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20426
+D1
+Exit ~
+east~
+0 -1 20439
+D2
+Exit ~
+south~
+0 -1 20442
+S
+#20439
+The Slave Pen~
+You are at the center stage of the slave pen.  Empty stares meet your gaze 
+as mind slaves plead for you to slay them.  The incessant noise now fills 
+your ears. You realize that the noise is created by mental energy being 
+drained out of the slaves.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20427
+D1
+Exit ~
+east~
+0 -1 20440
+D2
+Exit ~
+south~
+0 -1 20443
+D3
+Exit ~
+west~
+0 -1 20438
+S
+#20440
+The Slave Pen~
+You are at the center stage of the slave pen.  Empty stares meet your gaze 
+as mind slaves plead for you to slay them.  The incessant noise now fills 
+your ears. You realize that the noise is created by mental energy being 
+drained out of the slaves.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20428
+D1
+Exit ~
+east~
+0 -1 20441
+D2
+Exit ~
+south~
+0 -1 20444
+D3
+Exit ~
+west~
+0 -1 20439
+S
+#20441
+The Slave Pen~
+The east wall if the slave pen is in front of you.  You see mindless 
+creatures ricochet off the rubber surface as if controlled by a higher 
+being.  The wall offers you no chance of climbing it.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20429
+D2
+Exit ~
+south~
+0 -1 20445
+D3
+Exit ~
+west~
+0 -1 20440
+S
+#20442
+The Slave Pen~
+You are at the southwest corner of the Mind Flayer's slave pen.  Soft 
+moaning fill the air as apparently brainless souls wander about.  The 
+unending drone fills the air. .
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20438
+D1
+Exit ~
+east~
+0 -1 20443
+S
+#20443
+The Slave Pen~
+The south wall if the slave pen is in front of you.  You see mindless 
+creatures ricochet off the rubber surface as if controlled by a higher 
+being.  The wall offers you no chance of climbing it.
+~
+0 0 0
+D0
+Exit ~
+north~
+0 -1 20439
+D1
+Exit ~
+east~
+0 -1 20444
+D3
+Exit ~
+west~
+0 -1 20442
+S
+#20444
+The Slave Pen~
+The south wall if the slave pen is in front of you.  You see mindless 
+creatures ricochet off the rubber surface as if controlled by a higher 
+being.  The wall offers you no chance of climbing it.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20440
+D1
+Exit ~
+east~
+0 -1 20445
+D3
+Exit ~
+west~
+0 -1 20443
+S
+#20445
+The Slave Pen~
+You are at the southeast corner of the Mind Flayer's slave pen.  Soft 
+moaning fill the air as apparently brainless souls wander about.  The 
+unending drone fills the air. .
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20441
+D3
+Exit ~
+west~
+0 -1 20444
+S
+#20446
+The Dark Corridor~
+You are penetrating a dark corridor which leads to the lair of the mind 
+flayers.  The dark marble walls seem to be emanating mental energies aimed 
+at your cognitive functions.  Someone definitely doesn't want you to 
+progress through his lair.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20455
+D3
+Exit ~
+west~
+0 -1 20429
+S
+#20447
+Another Dead End~
+You are at another dead en in the lair of the mind flayers.  The feel the 
+moist wet wall and think to yourself that you may have walked into a live 
+being. No time to panic, more adventure lies ahead.
+~
+0 0 0
+D1
+Exit ~
+east~
+0 -1 20448
+S
+#20448
+A Junction In The Lair~
+You are at a decision point in the land of the mind flayers. The lair has 
+been designed to trick adventurers like yourself into getting lost or 
+walking into ambushes. Be wise in your decisions.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20449
+D2
+Exit ~
+south~
+0 -1 20452
+D3
+Exit ~
+west~
+0 -1 20447
+S
+#20449
+Further In The Lair~
+These mind flayers are clever. The moist walls seem to conceal one way 
+windows. Are the flayers watching your every moves? Are you but a rat in 
+their laboratory? We shall see.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20450
+D2
+Exit ~
+south~
+0 -1 20453
+D3
+Exit ~
+west~
+0 -1 20448
+S
+#20450
+The "L" Bow~
+You are at a turn in the corridors of the of the lair. The corridors have 
+been carefully laid out to lead you into deceit. You feel that you may 
+have chosen the wrong path. Perhaps its only another clever ploy from he 
+mind flayers.
+~
+0 D 0
+D2
+Exit ~
+south~
+0 -1 20454
+D3
+Exit ~
+west~
+0 -1 20449
+S
+#20451
+The Mental Curb~
+You enter a bend in the corridor of the mind lair.  You wonder to yourself 
+if something is waiting for you around the corner. All this twists must 
+have been made for a reason. Perhaps the mind flayers will pay you a 
+visit.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20452
+D2
+Exit ~
+south~
+0 -1 20455
+S
+#20452
+Another Bend~
+You are facing another change in your course. You start to wonder is there 
+is an end to all this or if you are only another peon in the game of the 
+Elder Brain. From far away you hear laughter piercing through the the 
+buzzing noise.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20448
+D3
+Exit ~
+west~
+0 -1 20451
+S
+#20453
+The Right Of Way~
+Finally a straight corridor.  All these bends have made you dizzy. This 
+may have been deliberate. The mind flayers may have wanted to confuse your 
+mind only to lead you to them in a disoriented state.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20449
+D2
+Exit ~
+south~
+0 -1 20457
+S
+#20454
+The Dead End~
+You are at another dead en in the lair of the mind flayers.  The feel the 
+moist wet wall and think to yourself that you may have walked into a live 
+being. No time to panic, more adventure lies ahead.
+~
+0 0 0
+D0
+Exit ~
+north~
+0 -1 20450
+S
+#20455
+The Grand Entrance~
+You are at the entrance of the lair of the mind flayers.  This lair guards 
+the way to the Elder Brain so you can expect resistance from those who 
+inhabit this area. Maybe you should turn around and leave them be.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20451
+D1
+Exit ~
+east~
+0 -1 20456
+D3
+Exit ~
+west~
+0 -1 20446
+S
+#20456
+The First Dead End~
+You are at a dead en in the lair of the mind flayers.  The feel the moist 
+wet wall and think to yourself that you may have walked into a live being. 
+No time to panic, more adventure lies ahead.
+~
+0 D 0
+D3
+Exit ~
+west~
+0 -1 20455
+S
+#20457
+The Long Way Home~
+This corridor seems to extend at great lengths.  The buzzing noise is now 
+shares with mind echoes of lost souls. Many slaves have become brain dead 
+within these great halls, sucked out of their mental powers.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20453
+D2
+Exit ~
+south~
+0 -1 20461
+S
+#20458
+The Final Turn~
+You are at the final turn in this jungle of twists. No matter what 
+follows, you can be certain that a decisive even will take place. Although 
+this thought comforts you, you can't help but to fear that this happy 
+ending might turn sour.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20467
+D2
+Exit ~
+south~
+0 -1 20462
+S
+#20459
+YADE (Yet Another Dead End)~
+You are at another dead en in the lair of the mind flayers.  The feel the 
+moist wet wall and think to yourself that you may have walked into a live 
+being. No time to panic, more adventure lies ahead.
+~
+0 D 0
+D2
+Exit ~
+south~
+0 -1 20463
+S
+#20460
+Mind Bender Way~
+These mind flayers should really be named mind benders. All these twists 
+and turns are making you sick. If it weren't for this buzzing noise you 
+would stop for a quick snooze. Perhaps this is exactly what the mind 
+flayers expect...
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20461
+D2
+Exit ~
+south~
+0 -1 20464
+S
+#20461
+The Warped Way~
+You are facing another change in your course. You are now certain that 
+there is no end to all this and that the Elder Brain is only toying with 
+you. He needs to soften your mental block before moving in for the kill.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20457
+D3
+Exit ~
+west~
+0 -1 20460
+S
+#20462
+The Final Stretch~
+Yes! You feel within yourself that you are on the right way. The mental 
+attacks seem to grow louder in your mind which indicate that you are 
+getting close to your goal. These attacks only make you stronger.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20458
+D2
+Exit ~
+south~
+0 -1 20466
+S
+#20463
+Crooked Corner~
+This is insane. All these corridors are leeching out the coherence of your 
+being. You now remember the poor beings that wandered about the slave pen 
+and wonder if you will become one of them, destined to wander aimlessly in 
+a featureless room.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20459
+D1
+Exit ~
+east~
+0 -1 20464
+S
+#20464
+Another Junction~
+You are at another decision point in the land of the mind flayers. The 
+lair has been designed to trick adventurers like yourself into getting 
+lost or walking into ambushes. Be wise in your decisions.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20460
+D1
+Exit ~
+east~
+0 -1 20465
+D3
+Exit ~
+west~
+0 -1 20463
+S
+#20465
+The Lateral Way~
+You are in a large moist corridor running east-west. By this time you have 
+absolutely no clue where you are.  All these bends and twists combined 
+with the droning noise confused you into getting lost.
+~
+0 0 0
+D1
+Exit ~
+east~
+0 -1 20466
+D3
+Exit ~
+west~
+0 -1 20464
+S
+#20466
+Exit Stage Left~
+You are definitely confused. Have you been here before? The walls sure 
+seem familiar. The noise, the smell, everything seem to indicate that you 
+will never make it out of here alive.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20462
+D3
+Exit ~
+west~
+0 -1 20465
+S
+#20467
+The Mystic Elevator~
+Your force of mind has permitted you to defeat the mental assaults and 
+make it to this mystic elevator. The Elder Brain is aware of your progress 
+and what was up until now games has turned into a serious effort towards 
+your doom.
+~
+0 D 0
+D3
+Exit ~
+west~
+0 -1 20458
+D4
+Exit ~
+up~
+0 -1 20478
+S
+#20468
+Experimental Room A~
+You have entered the realm of teh freak, the demented and twisted.  The
+experimental rooms are where the mind scientists store their experiments 
+on the poor slaves. Many mind slaves have spent their final moments within 
+these walls shrieking in pain.
+~
+0 D 0
+D1
+Exit ~
+east~
+1 -1 20469
+S
+#20469
+The Moaning Hall~
+You are at the end of moaning hall. All around you mental cells contain 
+warped prisoners who have been submitted to inhuman mental experiments. 
+Most prisoners lack the most basic of mental capacity to even notice your 
+presence. Jail cells lie to the west, north and south of this position.
+~
+0 D 0
+D0
+Exit ~
+north~
+1 -1 20479
+D1
+Exit ~
+east~
+0 -1 20470
+D2
+Exit ~
+south~
+1 -1 20482
+D3
+Exit ~
+west~
+1 -1 20468
+S
+#20470
+The Moaning Hall~
+You are at the center of moaning hall. You hear howls and screams coming 
+from all directions. Looking around you see cells containing mind slaves 
+who have been submitted to insane experiments, turning them into wandering 
+vegetables. Jail cell doors lie to the north and south of here.
+~
+0 D 0
+D0
+Exit ~
+north~
+1 -1 20480
+D1
+Exit ~
+east~
+0 -1 20471
+D2
+Exit ~
+south~
+1 -1 20483
+D3
+Exit ~
+west~
+0 -1 20469
+S
+#20471
+The Moaning Hall~
+You have entered the most gruesome area of Bluetspur. The results of the 
+Elder Brain's experiments are stored in here. The ultimate cruelty of his 
+efforts can be observed through the eyes of his victims. Jail cells
+appear to the north and south while the jail entrance is to the east.
+~
+0 D 0
+D0
+Exit ~
+north~
+1 -1 20481
+D1
+Exit ~
+east~
+1 20401 20472
+D2
+Exit ~
+south~
+1 -1 20484
+D3
+Exit ~
+west~
+0 -1 20470
+S
+#20472
+Gruesome Way~
+You are in a long tunnel which connects the labs to the experimental area. 
+Brain waves are being imprinted into your brain. Elder Brain seems to be 
+attempting to turn you away. Perhaps you are on to something big.
+A jail door rises before you to the west side of the room.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20473
+D3
+Exit ~
+west~
+1 20401 20471
+S
+#20473
+The Psychic Laboratory~
+You are at the western end of the psychic laboratory. To the west is a 
+corridor leading to the test chambers. Vials of cerebral fluids and 
+psychic crystals lie on the experiments tables.  You feel you are being 
+observed.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20474
+D2
+Exit ~
+south~
+0 -1 20485
+D3
+Exit ~
+west~
+0 -1 20472
+S
+#20474
+The Psychic Laboratory~
+You are at the eastern entrance of the psychic lab.  Experiments are 
+bubbling away while disembodied brains lay on tables pulsating at a stable 
+frequency. Many poor souls have perished in these rooms.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20475
+D2
+Exit ~
+south~
+0 -1 20486
+D3
+Exit ~
+west~
+0 -1 20473
+S
+#20475
+Center Hall~
+You are in the main hall of the Elder Brain's complex. East and west of 
+this position you see laboratories where inhumane experiences are taking 
+place, while to the north lies an elevator.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20487
+D1
+Exit ~
+east~
+0 -1 20476
+D3
+Exit ~
+west~
+0 -1 20474
+S
+#20476
+The Mind Laboratory~
+You are at the western end of the mind lab. You see mind slaves tied to 
+the walls screaming in pain and erupting into uncontrollable convulsions. 
+Here is where brains are actually removed from the skulls of those poor 
+mind slaves.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20477
+D2
+Exit ~
+south~
+0 -1 20488
+D3
+Exit ~
+west~
+0 -1 20475
+S
+#20477
+The Mind Laboratory~
+You are the the eastern end of the mind lab. Various jars are filled with 
+matter which resembles human brains lie on a table.  The stench of 
+formadihyde preservatives fill your nostrils. Your stomach reminds you 
+that this is not a pleasant experience.
+~
+0 D 0
+D1
+Exit ~
+east~
+0 -1 20478
+D2
+Exit ~
+south~
+0 -1 20489
+D3
+Exit ~
+west~
+0 -1 20476
+S
+#20478
+The Mystic Elevator~
+You have been propulsed upwards to the laboratories of the Elder Brain. 
+Mind scientists busy themselves to indecent experiments on these poor mind 
+slaves. Maybe you will find it in your heart to relieve them of their 
+pain.
+~
+0 D 0
+D3
+Exit ~
+west~
+0 -1 20477
+D5
+Exit ~
+down~
+0 -1 20467
+S
+#20479
+Experimental Room B~
+You have entered the real of the freak, the demented and twisted.  The 
+experimental rooms are where the mind scientists store their experiments 
+on the poor slaves. Many mind slaves have spent their final moments within 
+these walls shrieking in pain.
+~
+0 D 0
+D2
+Exit ~
+south~
+1 -1 20469
+S
+#20480
+Experimental Room C~
+You have entered the real of the freak, the demented and twisted.  The 
+experimental rooms are where the mind scientists store their experiments 
+on the poor slaves. Many mind slaves have spent their final moments within 
+these walls shrieking in pain.
+~
+0 D 0
+D2
+Exit ~
+south~
+1 -1 20470
+S
+#20481
+Experimental Room D~
+You have entered the real of the freak, the demented and twisted.  The 
+experimental rooms are where the mind scientists store their experiments 
+on the poor slaves. Many mind slaves have spent their final moments within 
+these walls shrieking in pain.
+~
+0 D 0
+D2
+Exit ~
+south~
+1 -1 20471
+S
+#20482
+Experimental Room E~
+You have entered the real of the freak, the demented and twisted.  The 
+experimental rooms are where the mind scientists store their experiments 
+on the poor slaves. Many mind slaves have spent their final moments within 
+these walls shrieking in pain.
+~
+0 D 0
+D0
+Exit ~
+north~
+1 -1 20469
+S
+#20483
+Experimental Room F~
+You have entered the real of the freak, the demented and twisted.  The 
+experimental rooms are where the mind scientists store their experiments 
+on the poor slaves. Many mind slaves have spent their final moments within 
+these walls shrieking in pain.
+~
+0 D 0
+D0
+Exit ~
+north~
+1 -1 20470
+S
+#20484
+Experimental Room G~
+You have entered the real of the freak, the demented and twisted.  The 
+experimental rooms are where the mind scientists store their experiments 
+on the poor slaves. Many mind slaves have spent their final moments within 
+these walls shrieking in pain.
+~
+0 D 0
+D0
+Exit ~
+north~
+1 -1 20471
+S
+#20485
+The Psychic Laboratory~
+You have entered the experimental area of the psychic lab. Pulsating 
+lights seem to indicate that an experiment is in progress, yet no mind 
+slave is around. You realize that YOU are the subject of the experiment.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20473
+D1
+Exit ~
+east~
+0 -1 20486
+S
+#20486
+The Psychic Laboratory~
+This is the observation room. From this vantage point, the mind scientists 
+can observe the mind slaves while they subject them to insane tortures.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20474
+D3
+Exit ~
+west~
+0 -1 20485
+S
+#20487
+The Executive Elevator~
+You have entered the elevator which leads to the private chambers of the 
+elder brain. You suddenly feel clostrophobic as the elevator doors close. 
+It couldn't be so easy. The Elder Brain must be awaiting your arrival.
+~
+0 D 0
+D2
+Exit ~
+south~
+0 -1 20475
+D4
+Exit ~
+up~
+0 -1 20490
+S
+#20488
+The Mind Laboratory~
+You are in the scrap yard area of the laboratory. Discarded body parts 
+litter the floor while the smell of decomposing flesh fill the air. You 
+see maggots crawling over brainless remains.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20476
+D1
+Exit ~
+east~
+0 -1 20489
+S
+#20489
+The Mind Laboratory~
+You are in the mental power storage area.  A large containment tank is is 
+the corner, protected by a mental blocking barrier.  This tank contains 
+the collective presence of millions of souls, trapped forever by the Elder 
+Brain.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20477
+D3
+Exit ~
+west~
+0 -1 20488
+S
+#20490
+The Executive Elevator~
+The elevator has stopped at the entrance of what appears to be private 
+quarters. It would seem that the Elder Brain also treasures the comforts 
+of material possessions. The elevator leads to a lavish reception area.
+~
+0 D 0
+D2
+Exit ~
+south~
+0 -1 20491
+D5
+Exit ~
+down~
+0 -1 20487
+S
+#20491
+The Cloak Room~
+You have entered the cloak room of the Elder Brain's private quarters. A 
+registry lays on a podium for you to sign your name in. The Elder Brain 
+may be the embodiment of evil but is not without sophistication.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20490
+D2
+Exit ~
+south~
+0 -1 20492
+S
+#20492
+The Grand Ballroom~
+You are at the entrance of the grand ballroom of the Elder Brain. Here is 
+where mental masters mingle amongst peers. Tapestries embroided with 
+pictures of brains are hanging off the walls.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20491
+D2
+Exit ~
+south~
+0 -1 20495
+S
+#20495
+The Grand Finale~
+You have entered the meditation area of the Elder Brain.  The walls seem 
+to have been constructed with mental resonating materials in order to 
+focus cerebral energies to the center point of the room. The floor seems 
+hollow here.
+~
+0 D 0
+D0
+Exit ~
+north~
+0 -1 20492
+D5
+Exit ~
+down~
+2 20402 20496
+S
+#20496
+The Treasure Room~
+Your journey is at an end. Here lies the treasure of the Elder Brain. 
+Although the Elder Brain's most prized possession was the mental energies 
+of his slaves, he did collect their wealth should the need for money ever 
+arise.
+~
+0 DJ 0
+D4
+Exit ~
+up~
+2 20402 20495
+S
+#20497
+The Underwater Cache~
+You have discovered an ancient hiding place used by mind slaves to store 
+mind blocking devices. It doesn't seem to have been used for many years. 
+Perhaps the mind slaves have forgotten about this place. At trap door
+leads back up to the watery depths.
+~
+0 DK 7
+D4
+Exit ~
+up~
+1 -1 20417
+S
+#0
+
+#RESETS
+M 0 20401   4 20404  1	* an aquatic slinker
+M 0 20402   5 20407  1	* an akak fish
+M 0 20401   4 20409  1	* an aquatic slinker
+M 0 20401   4 20411  1	* an aquatic slinker
+M 0 20402   5 20412  1	* an akak fish
+M 0 20401   4 20413  1	* an aquatic slinker
+M 0 20402   5 20415  1	* an akak fish
+M 0 20402   5 20418  1	* an akak fish
+M 0 20404   4 20427  1	* An Illithid Mind Flayer
+M 0 20412   3 20430  1	* A Carbano Mind Slave
+M 0 20403   5 20432  1	* A Brethren Mind Slave
+M 0 20403   5 20435  1	* A Brethren Mind Slave
+M 0 20404   4 20436  1	* An Illithid Mind Flayer
+E 1 20404  -1    3	*   a glowing necklace
+M 0 20403   5 20437  1	* A Brethren Mind Slave
+M 0 20404   4 20438  1	* An Illithid Mind Flayer
+M 0 20403   5 20439  1	* A Brethren Mind Slave
+M 0 20403   5 20441  1	* A Brethren Mind Slave
+M 0 20412   3 20442  1	* A Carbano Mind Slave
+M 0 20404   4 20444  1	* An Illithid Mind Flayer
+M 0 20412   3 20445  1	* A Carbano Mind Slave
+M 0 20411   4 20447  1	* A Jiakan Mind Flayer
+E 1 20410  -1   16	*   a Jiakan spear
+E 1 20409  -1    9	*   Jiakan bamboo gloves
+E 1 20408  -1    8	*   Jiakan bamboo shoes
+E 1 20407  -1    5	*   a Jiakan bamboo torso
+M 0 20405   6 20449  1	* A Lashweed
+M 0 20405   6 20452  1	* A Lashweed
+M 0 20405   6 20454  1	* A Lashweed
+M 0 20411   4 20457  1	* A Jiakan Mind Flayer
+E 1 20410  -1   16	*   a Jiakan spear
+E 1 20409  -1    9	*   Jiakan bamboo gloves
+E 1 20408  -1    8	*   Jiakan bamboo shoes
+E 1 20407  -1    5	*   a Jiakan bamboo torso
+M 0 20411   4 20458  1	* A Jiakan Mind Flayer
+E 1 20410  -1   16	*   a Jiakan spear
+E 1 20409  -1    9	*   Jiakan bamboo gloves
+E 1 20408  -1    8	*   Jiakan bamboo shoes
+E 1 20407  -1    5	*   a Jiakan bamboo torso
+M 0 20405   6 20460  1	* A Lashweed
+M 0 20411   4 20462  1	* A Jiakan Mind Flayer
+E 1 20407  -1    5	*   a Jiakan bamboo torso
+E 1 20408  -1    8	*   Jiakan bamboo shoes
+E 1 20409  -1    9	*   Jiakan bamboo gloves
+E 1 20410  -1   16	*   a Jiakan spear
+M 0 20405   6 20463  1	* A Lashweed
+M 0 20405   6 20466  1	* A Lashweed
+M 0 20408   7 20468  1	* A Geist
+M 0 20408   7 20479  1	* A Geist
+M 0 20408   7 20480  1	* A Geist
+M 0 20408   7 20481  1	* A Geist
+M 0 20408   7 20482  1	* A Geist
+M 0 20408   7 20483  1	* A Geist
+M 0 20408   7 20484  1	* A Geist
+M 0 20407   1 20485  1	* An Illithid Mind Scientist
+E 1 20401  -1    1	*   A jail key
+E 1 20405  -1    6	*   an illithid's corona
+E 1 20411  -1    3	*   a mindwave cape
+E 1 20412  -1   17	*   a mind flayer wand
+E 1 20413  -1   16	*   a cerebral mace
+M 0 20406   2 20488  1	* A Drow Mind Scientist
+E 1 20406  -1   17	*   the scepter of power
+E 1 20414  -1   16	*   the flail of the undead
+E 1 20415  -1    7	*   stone plated leggings
+M 0 20406   2 20489  1	* A Drow Mind Scientist
+E 1 20406  -1   17	*   the scepter of power
+E 1 20414  -1   16	*   the flail of the undead
+E 1 20415  -1    7	*   stone plated leggings
+M 0 20409   1 20492  1	* A Mind Block
+M 0 20410   1 20495  1	* The Elder Brain
+E 1 20402  -1    1	*   a treasure key
+E 1 20417  -1   17	*   a potion of exchange
+G 1 20418  -1     	*   the brain staff
+O 0 20403 100 20401	* A pair of diving bolasses
+O 0 20419 100 20414	* inviting algae
+O 0 20419 100 20416	* inviting algae
+O 0 20419 100 20419	* inviting algae
+O 0 20419 100 20422	* inviting algae
+O 0 20420 100 20496	* the treasure of the illithid
+O 0 20413 100 20497	* a cerebral mace
+D 0 20417   5    1	* The Center Deep down
+D 0 20468   1    1	* Experimental Room A east
+D 0 20469   0    1	* The Moaning Hall north
+D 0 20469   2    1	* The Moaning Hall south
+D 0 20469   3    1	* The Moaning Hall west
+D 0 20470   0    1	* The Moaning Hall north
+D 0 20470   2    1	* The Moaning Hall south
+D 0 20471   0    1	* The Moaning Hall north
+D 0 20471   1    2	* The Moaning Hall east
+D 0 20471   2    1	* The Moaning Hall south
+D 0 20472   3    2	* Gruesome Way west
+D 0 20479   2    1	* Experimental Room B south
+D 0 20480   2    1	* Experimental Room C south
+D 0 20481   2    1	* Experimental Room D south
+D 0 20482   0    1	* Experimental Room E north
+D 0 20483   0    1	* Experimental Room F north
+D 0 20484   0    1	* Experimental Room G north
+D 0 20495   5    2	* The Grand Finale down
+D 0 20496   4    2	* The Treasure Room up
+D 0 20497   4    1	* The Underwater Cache up
+M 0 20402   5 20420  1	* an akak fish
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 20410 spec_cast_cleric    	* The Elder Brain
+S
+
+#$

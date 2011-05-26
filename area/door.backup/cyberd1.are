@@ -1,0 +1,2367 @@
+#AREA
+/mud/moosehead/area/cyberd1.are~
+The Theatre of Boinga~
+{07-20} CyberD  The Theatre of Boinga~
+11300 11390
+
+#MOBILES
+#11300
+tickect clerk man~
+a ticket clerk~
+A man is here waiting to tear your ticket.
+~
+This guy looks as though he's bored out of his skull.  He doesn't
+even seem to notice your presence.  Perhaps you should snap him out
+of it?
+~
+human~
+ABT 0 800 0
+9 0 2d6+150 1d6+90 1d8+1 slap
+2 2 2 4
+EFNU 0 0 0
+stand stand male 100
+0 0 medium 0
+F par GHIJK
+#11301
+manager~
+the Theatre Manager~
+The Manager looks up, closes the box, and tries to force you out.
+~
+"What are you doing in here?" he says loudly.  "Get out, I'm busy!"
+~
+human~
+AT 0 -750 0
+12 0 2d10+180 1d6+90 1d10+2 beating
+0 0 0 2
+EFNU 0 0 0
+sit sit male 1000
+0 0 medium 0
+F par GHIJK
+#11302
+man~
+a man in the audience~
+A man is here trying to enjoy the show.  Shhhh!
+~
+As you pass by him, he pulls his legs back.  He looks up at you with
+a rather annoyed look on his face.  Maybe you could find a seat some-
+where else?
+~
+human~
+AT 0 750 0
+9 0 2d6+150 1d6+90 1d8+2 beating
+2 2 2 5
+EFNU 0 0 0
+sit sit male 106
+0 0 medium 0
+F par GHIJK
+#11303
+woman~
+a woman in the audience~
+A woman is here trying to enjoy the show.  Shhhh!
+~
+The lady sitting here doesn't even notice as you pass by her.  She
+is too engrossed in the wonderful performance of the man onstage.
+~
+human~
+AT 0 750 0
+9 0 2d6+150 1d6+90 1d8+0 beating
+2 2 2 5
+EFNU 0 0 0
+sit sit female 76
+0 0 medium 0
+F par GHIJK
+#11304
+teenager kid~
+a teenager~
+Hiding in the corner, a kid is trying to sneak into the theatre.
+~
+This teenager isn't old enough to be going to this play so he's
+trying to sneak in.  He probably doesn't have the money for a ticket
+either.  Hopefully the ticket clerk will notice him.
+~
+human~
+ACGS PQ -800 0
+8 0 2d7+130 1d6+90 1d7+1 scratch
+3 3 3 6
+FHNU 0 0 0
+stand stand male 19
+0 0 small 0
+F par GHIJK
+#11305
+usher man~
+an usher~
+Walking through the auditorium, the usher tries to keep you quiet.
+~
+All this guy seems to know how to say is "please get your feet down,"
+and "don't talk so loud."  He seems to know how to ush pretty good but
+his manner is fairly offensive.
+~
+human~
+ACGT 0 -900 0
+10 0 2d7+170 1d6+90 2d4+2 pound
+1 1 1 3
+EFNU 0 0 0
+stand stand male 252
+0 0 medium 0
+F par GHIJK
+#11306
+phantom man~
+the Phantom~
+The Phantom is here, playing his organ.
+~
+Not much is known about this man.  It is said he's worked at the
+theatre sometime in the past and has been here ever since.  No-one can
+seem to remember if he was an actor or an employee.  One thing is
+certain, however.  He is not content to stay in the shadows.
+~
+human~
+ACGHT HU -850 0
+15 2 3d9+250 1d6+90 2d6+3 pound
+-2 -2 -2 0
+EFKNOU AB K NS
+sit sit male 1576
+0 0 medium 0
+F par GHI
+#11307
+rat~
+a rat~
+A disgusting brown rat scurries along past you.
+~
+Two feet long from nose to tail, this huge rodent searches for food.
+~
+unique~
+AT JQZb -350 0
+7 0 2d6+115 1d6+90 1d8+1 chomp
+4 4 4 7
+EFNU Q L S
+stand stand none 0
+AHMV ACDEFQU small 0
+#11308
+drunk man~
+a drunk~
+A drunken man is here, sleeping off the affects.
+~
+It looks as though this fellow has had one too many cases of wine.
+~
+human~
+ACHT 0 -600 0
+9 0 2d6+140 1d6+90 1d7+2 slap
+2 2 2 5
+EINU 0 0 0
+sleep sleep male 12
+0 0 medium 0
+F par GHIJK
+#11309
+Mae fat lady woman~
+the fat lady~
+A large woman is here practicing her singing.
+~
+Her vocal coach once told her to let herself go.  Mae took her
+seriously.  Not one to skip a meal or a snack, Mae eats constantly,
+however, her singing keeps the money pouring in so she'll always
+have plenty of food.
+~
+human~
+ABT 0 500 0
+13 1 2d10+185 1d6+90 2d5+1 crush
+-1 -1 -1 0
+COU I G FR
+sit sit female 954
+0 0 large 0
+F par GHIJK
+#11310
+Bruce man~
+Bruce the vain~
+Muttering to himself, the conceited man is oblivious to you.
+~
+Bruce has a lot of problems.  Most of them stem from the fact that
+he is totally in love with himself.  Unfortunately he's the only one.
+He feels he was put into this world just so that everyone else would
+have something nice to look at.  Actually he was put into the world
+because of a sick joke.
+~
+human~
+ABHT 0 -999 0
+13 1 2d10+240 1d6+90 1d12+1 slap
+-2 -2 -2 0
+FINU S I N
+sit sit male 205
+0 0 medium 0
+F par GHIJK
+#11311
+violinist~
+the violinist~
+The violinist is here crying over his broken instrument.
+~
+Clearly he came out on the short end of the brawl.  His beloved
+violin is in pieces.  He sits dejected on the ground bawling loudly.
+~
+human~
+ABT 0 500 0
+11 0 2d8+180 1d6+90 1d10+2 slice
+1 1 1 3
+DFHU 0 0 0
+sit sit male 100
+0 0 medium 0
+F par GHIJK
+#11312
+clarinet player~
+a clarinet player~
+The clarinet player ignores everyone as he practices his clarinet.
+~
+Covered in bruises, the clarinet player goes back to his music.  The
+other members of his group, having jumped on him for not practicing,
+now give him a wide berth.
+~
+human~
+ABFT 0 -875 0
+10 0 2d7+160 1d6+90 2d4+2 slice
+1 1 1 3
+EFNU 0 0 0
+sit sit male 94
+0 0 medium 0
+F par GHIJK
+#11313
+lute player~
+a lute player~
+The remains of the lute surround its owner who lies unconscious.
+~
+Someone really did a number on this guy.  He's knocked out cold on
+the hard stone floor.  Broken pieces of his instrument are all around
+him.  The neck of it has been draped over his chest.
+~
+human~
+ABT 0 550 0
+11 0 2d8+170 1d6+90 1d10+2 punch
+1 1 1 3
+DFHU 0 0 0
+sleep sleep male 0
+0 0 medium 0
+F par GHIJK
+#11314
+Harpsichord player~
+the harpsichord player~
+The harpsichord player is attempting to replace some broken strings.
+~
+Favoring his left arm, the harpsichordist reaches into his piano-like
+instrument and tries to put a new string in.  He seems to be in a bad
+mood, mumbling curses and epithets about his co-musicians.
+~
+human~
+ABT 0 350 0
+11 0 2d8+170 1d6+90 1d10+2 whip
+1 1 1 3
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#11315
+stagehand boy~
+a stagehand~
+The stagehand runs back and forth getting everything ready.
+~
+This boy seems to have quite a lot of energy as he dashes around you
+trying to keep the play going.  "Stupid janitor keeps blowing his lines"
+he mutters to no-one in particular.
+~
+human~
+ACGHT 0 600 0
+12 0 2d10+150 1d6+90 1d10+3 punch
+0 0 0 2
+FHNU 0 0 0
+stand stand male 45
+0 0 medium 0
+F par GHIJK
+#11316
+stage manager~
+the stage manager~
+His play in ruins, the stage manager throws his hands up and screams.
+~
+He used to know why he went into this business but now he's not sure
+why he's still here.  After firing his star performer he had to find a
+quick replacement.  Unfortunately the only person who even came close
+to knowing the lines was the janitor who is currently about to be
+lynched by the audience.
+~
+human~
+AGT 0 600 0
+14 0 2d10+200 1d6+90 1d12+0 smash
+0 0 0 2
+CEFINU 0 0 0
+rest rest male 365
+0 0 medium 0
+F par GHIJK
+#11317
+hamlet janitor~
+Hamlet the janitor~
+The janitor is here, attempting to play Hamlet.
+~
+He came to work today planning on sweeping the floors.  The manager
+had other ideas.  The janitor has never acted a day in his life and it
+shows.  He hasn't made it through a single paragraph without making a
+mistake.  Nervous and just a bit scared, his voice cracks as he does
+his best to finish the play.
+~
+human~
+ABHT 0 800 0
+11 1 2d8+190 1d6+90 1d10+2 beating
+1 1 1 4
+EFNU 0 0 0
+stand stand male 95
+0 0 medium 0
+F par GHIJK
+#11318
+pickpocket thief~
+a pickpocket~
+Hiding in the shadows, the thief tries to pick your pocket.
+~
+Waiting for passersby, you make a pretty good mark to the thief.
+Dressed in tattered and dirty clothes he lurks in the darkness quietly
+watching for sport.
+~
+human~
+ACGS PQU -800 0
+8 0 2d7+130 1d6+90 1d7+2 stab
+3 3 3 5
+BEFHNU 0 0 0
+stand stand male 98
+0 0 medium 0
+F par GHIJK
+#11319
+concession worker girl~
+a concession worker~
+The girl behind the counter looks like she's almost asleep.
+~
+As you step up to the counter the concession girl comes out of her
+coma.  "Can I get you something?" she asks.
+~
+human~
+ABVc 0 1000 0
+10 0 2d6+300 1d6+90 2d6+3 scratch
+0 0 0 0
+EFNU ABCD 0 0
+stand stand female 3000
+0 0 medium 0
+F par GHIJK
+#11320
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#11321
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#11300
+key shiny~
+a shiny key~
+Someone dropped this key to the Manager's office. ~
+iron~
+key 0 A
+0 0 0 0 0
+7 5 100 P
+#11301
+chandelier~
+the chandelier~
+A beautiful chandelier hangs from the ceiling.~
+crystal~
+light O 0
+0 0 -1 0 0
+1 1000 100000 R
+#11302
+fountain~
+a drinking fountain~
+Just near the exit a drinking fountain sits bubbling noisily.~
+metal~
+fountain O 0
+0 0 'water' 0 0
+1 1000 50000 R
+#11303
+money box~
+a money box~
+~
+steel~
+container O 0
+10000 AC 0 10000 0
+1 500 4500 R
+#11304
+stick gum bubblegum~
+a stick of bubblegum~
+Some kid must have dropped a stick of gum here.~
+chewing gum~
+food 0 A
+1 10 0 0 0
+1 1 25 P
+#11305
+flashlight light~
+a flashlight~
+A flashlight has been left here.  ~
+aluminum~
+light 0 A
+0 0 200 0 0
+7 10 100 P
+A
+3 1
+#11306
+copy Hamlet~
+a copy of "Hamlet"~
+Someone's dog-eared copy of "Hamlet" sits here on a shelf.~
+paper~
+scroll 0 A
+30 'burning hands' '' '' ''
+8 10 340 P
+#11307
+mask phantom~
+the mask of the Phantom~
+A white mask is here stuck in the mud.~
+porcelain~
+armor LY AE
+5 5 5 1 0
+15 15 740 R
+A
+5 1
+#11308
+boat small~
+a small boat~
+Someone has left a small boat here.~
+wood~
+boat 0 A
+0 0 0 0 0
+10 450 300 P
+#11309
+rose blood red~
+a blood red rose~
+A lovely crimson rose has been left here.  Beware of its thorns.~
+rose~
+wand AG AO
+30 7 7 'cancellation' 0
+15 10 923 P
+#11310
+bottle maddog~
+a bottle of Maddog~
+A bottle of Maddog has been left here in a brown paper sack.~
+glass~
+drink 0 AO
+100 90 'red wine' 0 0
+1 10 100 P
+#11311
+dressing gown~
+a dressing gown~
+Someone is without their dressing gown.  Hope they don't need it.~
+silk~
+armor b AK
+6 6 6 0 0
+13 20 475 P
+A
+6 1
+#11312
+valkyrie helmet~
+a Valkyrie's helmet~
+A helmet with two large horns is lying on its side nearby.~
+metal~
+armor Hb AE
+5 5 5 2 0
+13 30 175 P
+#11313
+vial nightshade~
+a vial of nightshade~
+A small vial of black liquid sits here looking menacing.~
+poison~
+potion 0 A
+30 'change sex' 'stone skin' '' ''
+14 7 190 P
+#11314
+violin bow stick~
+a broken violin bow~
+A short stick with strings coming off the top has been tossed aside.~
+cat gut~
+weapon 0 AN
+flail 2 8 thwack 0
+11 50 387 P
+#11315
+clarinet~
+a clarinet~
+A perfectly sound clarinet has been left behind.~
+wood~
+weapon 0 AN
+mace 2 6 wrath 0
+8 25 345 P
+A
+18 1
+#11316
+harpsichord strings~
+some harpsichord strings~
+A few very long strings run along the ground.~
+cat gut~
+weapon 0 AN
+whip 2 6 whip D
+11 6 175 P
+A
+18 3
+#11317
+broom~
+a push broom~
+A janitor's push broom has been left standing in the corner.~
+wood~
+weapon 0 AN
+polearm 2 7 smash F
+12 30 150 P
+#11318
+old key~
+an old key~
+A dirty key has been left here.  It looks quite old.~
+iron~
+key P A
+0 0 0 0 0
+10 2 0 R
+#11319
+skull yorick~
+the skull of Yorick~
+A bleach white skull grins at you with empty eye-sockets.~
+bone~
+container G AO
+100 AC 0 40 50
+5 25 15 P
+#11320
+prop sword~
+a wooden sword~
+This replica of a sword is pretty convincing to look at.~
+wood~
+weapon S AN
+sword 2 6 thwack I
+8 35 50 P
+A
+1 1
+#11321
+box popcorn~
+a box of popcorn~
+A warm box of freshly popped popcorn has been left here.~
+corn~
+food 0 A
+10 15 0 0 0
+1 10 25 P
+#11322
+cup pop beverage~
+a large cup of pop~
+Sitting on the counter, the cold beverage fizzes noisily.~
+waxed paper~
+drink 0 A
+50 45 'root beer' 0 0
+1 10 20 P
+#11323
+licorice bag~
+a bag of licorice~
+The bag of candy lying here claims to "make mouths happy."~
+candy~
+food 0 A
+8 10 0 0 0
+1 7 18 P
+#11324
+chocolate bar~
+a chocolate bar~
+The candy bar on the counter is calling your name.~
+milk chocolate~
+food 0 A
+10 12 0 0 0
+1 5 15 P
+#11325
+box candy sour patch kids~
+a box of sour-patch kids~
+Filled with sour gummy candies, this box _almost_ disgusts you.~
+candy~
+food 0 A
+5 5 0 0 0
+1 8 13 P
+F
+A 0 0 M
+#11326
+chocolate peanuts box~
+a box of chocolate covered peanuts~
+Covered in chocolate, these peanuts look extremely delicious.~
+peantus~
+food 0 A
+7 10 0 0 0
+1 8 17 P
+#11327
+time thread~
+a time thread~
+Past, present, and future.  All of time converges in this one place.~
+energy~
+weapon CQTUY AN
+exotic 100 4 wrath ABDEFGHI
+54 100 100 R
+A
+3 10
+A
+4 10
+A
+18 150
+A
+19 150
+A
+0 0
+E
+time~
+This weapon is CyberDeath's.  Please return it to him.
+~
+#11328
+petty cash~
+petty cash~
+The Theatre's petty cash is here for safe keeping.~
+gold~
+money 0 A
+35 22 0 0 0
+0 100 0 P
+#0
+
+#ROOMS
+#11300
+Hanging on the chandelier~
+You step through a hidden doorway and walk for several minutes along
+a dusty twisting hall.  Climbing steadily you finally emerge in a very
+small room above the chandelier.  From up here you can see the auditorium
+and stage.  The door behind you slams shut leaving you with only one 
+direction, down.
+~
+0 D 0
+D5
+Exit ~
+door~
+0 0 11311
+S
+#11301
+Entrance to the Theatre~
+As you enter through the doors the smell of popcorn greets you.  There
+are several posters on the walls announcing the coming attractions of the
+next few months.  There is a small display filled with pictures of actors
+and playwrights that have performed here.  The aura of the theatre calls
+you inward, urging you to come to the show.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11302
+D2
+Exit ~
+door~
+0 0 3101
+S
+#11302
+The Lobby~
+The farther inside you go the more the aroma in the air makes your
+stomach growl.  Looking around at your surroundings, you find yourself
+in a beautifully designed lobby.  Red-painted walls are covered in
+drapes that frame many more posters.  On the floor is a tasteful rose-
+print carpet.  To the north you can see the source of the tantalizing
+odor, while to the south is the entrance.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11304
+D2
+Exit ~
+door~
+0 0 11301
+S
+#11303
+The east auditorium entrance~
+Having purchased your snacks you continue on towards the auditorium.
+Passing through this small hallway you try to decide if you'd rather sit
+downstairs or in the balcony.  Faintly to the north you can hear the
+actors.  There is an exit to the east which leads out of the theatre.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 11307
+D1
+Exit ~
+door~
+1 0 11328
+D3
+Exit ~
+door~
+0 0 11304
+D4
+Exit ~
+door~
+0 0 11339
+S
+#11304
+The Concession Stand~
+Walking up to the counter you see all kinds of candy inside the glass.
+Mounted to one side of the counter is a large machine full of popped
+popcorn.  Just the sight of it makes your mouth water.  On the counter's
+other side is a soda fountain.  Hanging on the wall behind everything 
+is a large sign displaying the items and prices.  A concession worker
+stands nearby waiting for you to purchase something.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11303
+D2
+Exit ~
+door~
+0 0 11302
+D3
+Exit ~
+door~
+0 0 11305
+E
+sign~
+Unfortunately for you, the prices are in some obscure writing.  It
+might be a better idea just to ask the clerk.
+~
+E
+counter~
+Underneath the glass you can see a wide selection of candy.  Licorice,
+jelly beans, chocolate bars, and sour patch kids are available.
+~
+S
+#11305
+The west auditorium entrance~
+As you enter this small hallway you notice a door to the west marked
+"Manager".  The sound of popcorn popping can be heard to the east.  You
+can also barely hear the voices of the actors filtering through the door
+to the north.  A staircase leads up to the balcony.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 11309
+D1
+Exit ~
+door~
+0 0 11304
+D3
+Exit ~
+office~
+1 11300 11306
+D4
+Exit ~
+door~
+0 0 11341
+S
+#11306
+The Manager's office~
+Upon entering the room you slowly become aware that you should have
+knocked first.  You look around and see several old filing cabinets,
+probably containing income and inventory reports.  A large desk is
+situated against the wall and is covered with a mass of papers.  On 
+top of the papers there sits a large open money box.
+~
+0 D 0
+D1
+Exit ~
+office~
+1 11300 11305
+S
+#11307
+In the aisle~
+Walking into the auditorium you almost stumble.  The lights have
+already been dimmed inside and you wonder just how much of the play you
+have missed.  You should hurry to find a seat so you can enjoy the show.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11310
+D2
+Exit ~
+door~
+1 0 11303
+D3
+Exit ~
+door~
+0 0 11308
+S
+#11308
+Towards the back~
+If you don't like sitting too close to the stage, these seats look
+pretty inviting.  People with good sight and hearing love to sit here
+but many don't like to have to look around other people's heads.  Perhaps
+you would prefer to sit closer?
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11307
+D3
+Exit ~
+door~
+0 0 11309
+S
+#11309
+In the aisle~
+Walking into the auditorium you almost stumble.  The lights have
+already been dimmed inside and you wonder just how much of the play you
+have missed.  You should hurry to find a seat so you can enjoy the show.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11312
+D1
+Exit ~
+door~
+0 0 11308
+D2
+Exit ~
+door~
+1 0 11305
+S
+#11310
+In the aisle~
+As you continue down the asile it gets easier to see and hear the play.
+It is obviously a one man version of Hamlet.  Most of the words are
+comprehensible but the actor seems to be stumbling through some of his
+lines.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11315
+D2
+Exit ~
+door~
+0 0 11307
+D3
+Exit ~
+door~
+0 0 11311
+S
+#11311
+In the middle~
+The middle of the auditorium is perhaps the most popular section of
+the theatre.  Close enough to see and hear the play but far enough back
+to allow a person to take in the entire stage.  The actor onstage seems
+to be rather unsure of his lines which prompts you to begin asking your-
+self if this was such a good idea after all.  Maybe you might get your
+money's worth sitting down front so you could have a better laugh.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11310
+D3
+Exit ~
+door~
+0 0 11312
+S
+#11312
+In the aisle~
+As you continue down the asile it gets easier to see and hear the play.
+It is obviously a one man version of Hamlet.  Most of the words are
+comprehensible but the actor seems to be stumbling through some of his
+lines.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11317
+D1
+Exit ~
+door~
+0 0 11311
+D2
+Exit ~
+door~
+0 0 11309
+S
+#11313
+The Janitor's closet~
+What was obviously once a cleaning closet has been changed into
+someone's dressing room.  A small mirror hass been absently nailed to
+the wall while a small stand covered in stage-makeup bottles and cleaning
+supplies has been shoved in the corner.  You wonder how anyone could
+have managed to change clothes in a room this small.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 11319
+S
+#11314
+A small room~
+Finding yourself in a small room just off the auditorium you notice
+very little.  Except for a large portion of wall covered in graffiti
+of a rather questionable nature nothing else grabs your eye.  To the
+east you can still see Hamlet giving the performance of his life
+(possibly his last).  There is also a door leading north.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 11320
+D3
+Exit ~
+door~
+0 0 11315
+E
+graffiti~
+What are you looking at this for?  Didn't I say it was perverse?  Are
+you some kind of sick little monkey???
+ 
+  Good, cause I am too.  Hee hee.  
+ 
+signed CD.
+~
+S
+#11315
+In the aisle~
+You have walked all the way to the front of the auditorium.  You can
+see the actor above you as he really screws up this performance.  Below
+you the orchestra is taking a small break.  Why don't you find a seat
+and have a good laugh at the actor's expense?
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11314
+D2
+Exit ~
+door~
+0 0 11310
+D3
+Exit ~
+door~
+0 0 11316
+S
+#11316
+Down front~
+Now that you have reached the front of the theatre you can plainly
+see that this actor does not have a very good grasp of Shakespeare.
+"To be or not to be, what was the question?" he says quietly.  Hamlet
+was meant to be a tragedy, not a comedy.  The only tragedy around here
+is his acting.  He does happen to have one thing going for him, however.
+Perserverance.  If you didn't buy any popcorn, now would be a good time.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11315
+D3
+Exit ~
+door~
+0 0 11317
+S
+#11317
+In the aisle~
+You have walked all the way to the front of the auditorium.  You can
+see the actor above you as he really screws up this performance.  Below
+you the orchestra is taking a small break.  Why don't you find a seat
+and have a good laugh at the actor's expense?
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11316
+D2
+Exit ~
+door~
+0 0 11312
+S
+#11318
+Mae's dressing room~
+This dressing room belongs to Mae, the singer.  She has been here
+performing for several years.  Flowers from her many admirers fill
+nearly one-quarter of the room.  Another quarter is taken up by a very
+large wardrobe.  A huge wall length mirror dominates the north wall and
+its edges are covered by pictures of Mae's friends and relatives.  The
+final portion of the room is taken up by Mae, herself.  A rather large
+valkyrie warrior costume is hanging on the door of the wardrobe.
+~
+0 D 0
+D3
+Exit ~
+door~
+1 0 11319
+S
+#11319
+A small hallway~
+At this end of the hall you see three doors.  The one to the north
+has a large star on it.  Through it you can hear someone throwing a
+tantrum.  From the east you can hear another person singing.  Her voice
+seems rather loud but is almost in key.  A small door to the south has
+a small plaque which reads "Janitor".  The hallway continues to the west.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 11322
+D1
+Exit ~
+door~
+1 0 11318
+D2
+Exit ~
+door~
+1 0 11313
+D3
+Exit ~
+door~
+0 0 11320
+S
+#11320
+A small hallway~
+The hallway makes a slight turn as it continues on toward the dressing
+rooms to the east.  The Orchestra pit is to the west and sounds of a
+fight can be heard from that direction.  The hallway to the north leads
+backstage.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11324
+D1
+Exit ~
+door~
+0 0 11319
+D2
+Exit ~
+door~
+1 0 11314
+D3
+Exit ~
+door~
+0 0 11321
+S
+#11321
+The Orchestra pit~
+The orchestra players have decided to take a break.  Or rather they
+tried to break each other.  Pieces of instruments and torn sheet music
+litter the floor.  What was once a chair and parts of a music stand
+indicate that nothing was spared.  What could have started all this, you
+ask yourself.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11320
+S
+#11322
+Bruce's dressing room~
+If you could sum up this room into one word, that word would have to
+be "vain".  Pictures of Bruce are everywhere.  Some large, some small,
+most of them are autographed by Bruce, himself.  It doesn't look as
+though he's been performing here long as most of his possessions are
+still stuffed into his suitcases.  His makeup table is conspicuously
+empty except for a solitary piece of paper.
+~
+0 D 0
+D2
+Exit ~
+door~
+1 0 11319
+E
+paper~
+Bruce,
+ 
+    Due to your quick temper and total disregard
+  for anything but yourself, you are released from
+  your contract for the part of Hamlet.  I will
+  personally do everything I can to ensure that
+  you never work again.
+ 
+                               the Manager
+ 
+~
+S
+#11323
+The back exit~
+Just inside the rear entrance you watch the people going about their
+work.  With everyone bustling about you try to keep out of the way as
+much as possible.  Hanging hap-hazzardly on some nearby hooks are the
+coats of the employees.  A time clock slowly ticks the seconds away.
+The exit to the north will lead you out of the theatre while to the
+west might get you run down by a busy stagehand.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 11328
+D3
+Exit ~
+door~
+0 0 11324
+S
+#11324
+A small hallway~
+The bustling around you grates on your nerves as you get jostled back
+and forth.  Stagehands and actors trying to get ready for the next show
+bump into you time and again.  Someone shouts "hey, buddy, get outta
+the way, would ya?"  Most of the people are rushing to the stage door
+to the north while some are trying to get to the dressing rooms to the
+south.  The rear exit can be seen to the east.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11329
+D1
+Exit ~
+door~
+0 0 11323
+D2
+Exit ~
+door~
+0 0 11320
+S
+#11325
+Stage Right~
+The audience almost roars with applause once you step onto the stage.
+They appear to expect you to kick the actor off the stage and perhaps
+quote some lines for them.  You think to yourself that it might not be
+such a bad idea.  The closer you come to Hamlet you can tell he's no
+actor.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11330
+D3
+Exit ~
+door~
+0 0 11326
+S
+#11326
+Center Stage~
+The crowd is really getting ugly now.  Hamlet has just reached the
+middle of the play and the audience doesn't look like it can take
+anymore.  "A lass for Yorick, I knew him when, Horatio?" he intones
+meekly.  As you glance at the people they stare blankly back at you.
+If you don't stop him, they may turn on the both of you.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11325
+D3
+Exit ~
+door~
+0 0 11327
+S
+#11327
+Stage Left~
+The audience almost roars with applause once you step onto the stage.
+They appear to expect you to kick the actor off the stage and perhaps
+quote some lines for them.  You think to yourself that it might not be
+such a bad idea.  The closer you come to Hamlet you can tell he's no
+actor.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11331
+D1
+Exit ~
+door~
+0 0 11326
+S
+#11328
+Outside the Theatre~
+Standing underneath a small light you can barely see anything.  The
+alley here is very dark but you see trash piled up everywhere.  Strange
+pictures and graffiti cover the brick walls and are so numerous that
+you can't make out anything.  The alleyway leads north but you should
+be on your guard.  The light overhead can't reach into the blackness
+that reaches for you.
+~
+0 AN 0
+D0
+Exit ~
+door~
+0 0 11334
+D2
+Exit ~
+door~
+1 0 11323
+S
+#11329
+The stage door~
+As you near the stage entrance you have this uncontrollable urge to
+be as quiet as possible.  It might be your common sense telling you this
+or it could be the sign on the wall.  In any case you do your best.
+Stagehands and actors speed along moving in both directions and on
+several occasions nearly collide.  You decide you'd hate to be around
+when they finally have an accident.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 11324
+D3
+Exit ~
+door~
+0 0 11330
+S
+#11330
+Backstage~
+Here is where all the scenery is created.  There are several
+different sets stored here.  Tools and raw materials can also be seen
+on various shelves.  It's a good thing no-one is trying to construct
+anything as there is a play going on.  On the other hand, given the way
+the crowd is recieving it, perhaps a distraction wouldn't be much of a
+bad thing.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11329
+D2
+Exit ~
+door~
+0 0 11325
+D3
+Exit ~
+door~
+0 0 11331
+S
+#11331
+Backstage~
+Judging from your surroundings you decide you've ended up in the prop
+department.  Everything from fake swords to fake food can be found here.
+Costumes and fake jewelry are also stored in this room.  Roman, Greek, 
+Renaissance, and other types of dress have been created by some very
+talented seamstresses.  One of the more interesting of all the props is
+an iron maiden set against the wall.  You wonder if there are any spikes
+in it.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11330
+D2
+Exit ~
+door~
+0 0 11327
+D3
+Exit ~
+maiden~
+1 0 11351
+E
+maiden~
+A "bronzed" wooden replica of a medieval iron maiden has been left
+here.  You can tell it hasn't been used in quite some time as it is
+coverd by a layer of dust.
+~
+S
+#11332
+A filthy corner~
+You have stumbled onto someone's sleeping area.  Trash and rotten
+food are strewn around everywhere you look and the stench makes you
+sick to your stomach.  Whoever lives here isn't home at the moment
+and you hope that you don't come upon him.
+~
+0 AN 0
+D3
+Exit ~
+door~
+0 0 11333
+S
+#11333
+A dark alley~
+Whoever decided to put these buildings this close together was an
+idiot and a fool.  Sunlight is completely shut out even at high noon.
+You hurry along hoping to find the exit.
+~
+0 AN 0
+D0
+Exit ~
+door~
+0 0 11336
+D1
+Exit ~
+door~
+0 0 11332
+D3
+Exit ~
+door~
+0 0 11334
+S
+#11334
+A dark alley~
+Somewhere nearby you can hear a faint squeaking.  To the south you
+can barely make out a pinpoint of light.  Apart from that, the darkness
+is absolute.  The smell of the trash and filth threatens to overwhelm
+you.
+~
+0 AN 0
+D1
+Exit ~
+door~
+0 0 11333
+D2
+Exit ~
+door~
+0 0 11328
+D3
+Exit ~
+door~
+0 0 11335
+S
+#11335
+A rats nest~
+After squeezing yourself between two building you quickly wish that
+you hadn't bothered.  Looking around you, you quickly notice a large
+grate set into the ground.  Below it can be seen several rats noisily
+climbing over one another.  Just the sight of them makes your skin
+crawl.
+~
+0 AN 0
+D1
+Exit ~
+door~
+0 0 11334
+S
+#11336
+A dark alley~
+Stepping over and around discarded popcorn boxes and drink cups, you
+continue down the alley.  The sun still refuses to shine its light down
+upon this blighted path, the tops of the buildings obscuring any sign
+of the sky above.  A very faint light can be seen to the north while
+echoes eminate from the darkness to the south.
+~
+0 AN 0
+D0
+Exit ~
+door~
+0 0 11338
+D2
+Exit ~
+door~
+0 0 11333
+S
+#11337
+The entrance to the alley~
+The sun shines bright above you as you travel down the alley.  Trash
+accumulates near the base of the buildings since the janitors seem
+rather reluctant to enter this place.  Rats scurry this way and that
+in search of one more morsel of food.  To the east you can see the dump
+as the wind blows the foul air towards you.  The alley continues west
+and as the buildings lean closer toward each other the light from above
+gradually dims.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 3030
+D3
+Exit ~
+door~
+0 0 11338
+S
+#11338
+An alleyway~
+The usually bright light from above has become near night now.  All
+around you is theatre trash.  Popcorn tubs, cups, and candy wrappers
+cover the ground.  A narrow path down the center of the alley is the
+only part devoid of trash.  Sunlight is barely visible to the east
+while to the south black shadows wait to engulf you.
+~
+0 N 0
+D1
+Exit ~
+door~
+0 0 11337
+D2
+Exit ~
+door~
+0 0 11336
+S
+#11339
+The balcony~
+Coming up the stairs you can see everything from up here.  There are
+several people in the audience watching the play intently.  The seats
+nearby also have people in them.  You proceed to the center to find
+your seat.
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 11340
+D5
+Exit ~
+door~
+0 0 11303
+S
+#11340
+The balcony~
+Now that you have made it up here, finally, you wonder why you
+bothered.  The play is almost impossible to hear from up here.  Not
+to mention that of the few people that are up here, none of them look
+like they are even watching it.  If you brought a date then this is
+the place to be.  If you're alone then you'd better go someplace else.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11339
+D3
+Exit ~
+door~
+0 0 11341
+S
+#11341
+The balcony~
+Coming up the stairs you can see everything from up here.  There are
+several people in the audience watching the play intently.  The seats
+nearby also have people in them.  You proceed to the center to find
+your seat.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11340
+D5
+Exit ~
+door~
+0 0 11305
+S
+#11342
+The Catacombs~
+The darkness of the catacombs threaten to swallow you.  Water covers
+the floor and filth covers the walls and ceiling.  As you move along,
+eerie music and the sound of water dripping echoes all around you.
+~
+0 AD 6
+D0
+Exit ~
+door~
+0 0 11345
+D1
+Exit ~
+door~
+0 0 11343
+D2
+Exit ~
+door~
+0 0 11344
+D3
+Exit ~
+door~
+0 0 11343
+S
+#11343
+The Catacombs~
+The darkness of the catacombs threaten to swallow you.  Water covers
+the floor and filth covers the walls and ceiling.  As you move along,
+eerie music and the sound of water dripping echoes all around you.
+~
+0 AD 6
+D0
+Exit ~
+door~
+0 0 11348
+D1
+Exit ~
+door~
+0 0 11342
+D2
+Exit ~
+door~
+0 0 11342
+D3
+Exit ~
+door~
+0 0 11344
+S
+#11344
+The Catacombs~
+The darkness of the catacombs threaten to swallow you.  Water covers
+the floor and filth covers the walls and ceiling.  As you move along,
+eerie music and the sound of water dripping echoes all around you.
+~
+0 AD 6
+D0
+Exit ~
+door~
+0 0 11346
+D1
+Exit ~
+door~
+0 0 11343
+D2
+Exit ~
+door~
+0 0 11342
+D3
+Exit ~
+door~
+0 0 11346
+S
+#11345
+The Catacombs~
+The room around you is bathed in a dim light coming from the north.
+The music increases its volume and intensity as you proceed.  You hope
+your footsteps don't attract any unwanted attention.
+~
+0 AD 6
+D0
+Exit ~
+door~
+0 0 11347
+D1
+Exit ~
+door~
+0 0 11345
+D2
+Exit ~
+door~
+0 0 11342
+D3
+Exit ~
+door~
+0 0 11345
+S
+#11346
+The Catacombs~
+The darkness of the catacombs threaten to swallow you.  Water covers
+the floor and filth covers the walls and ceiling.  As you move along,
+eerie music and the sound of water dripping echoes all around you.
+~
+0 AD 6
+D0
+Exit ~
+door~
+0 0 11350
+D1
+Exit ~
+door~
+0 0 11348
+D2
+Exit ~
+door~
+0 0 11344
+D3
+Exit ~
+door~
+0 0 11344
+S
+#11347
+The Chamber~
+Deep in the heart of the catacombs you find it.  This room is the home
+of the mysterious figure known as the Phantom.  It's covered in pictures
+and etchings of some of the most glamorous actresses that have graced the
+theater with their presence.  Stage props, scripts, and papers are strewn
+about the place.  Dominating the entire north wall is a giant pipe organ.
+The largest of the pipes reaches almost to the top of the ceiling 30 feet
+off of the floor.  The eerie music you have been hearing originates from
+it and is reaching a fevered pitch.
+~
+0 AD 0
+D0
+Exit ~
+hidden~
+1 0 11300
+D2
+Exit ~
+door~
+0 0 11345
+E
+pipes~
+The large metal pipes reach up from the back of the organ.  They shine
+a dull gold in the candlelight.  Steam powered, they echo throughout the
+catacombs and seem powerful enough to be heard even from the Lobby.
+~
+E
+organ~
+This pipe organ is a fairly huge piece of work.  Someone must have
+spent almost an entire lifetime building it.  The music that eminates
+from it is hauntingly beautiful and the lower notes can be felt all
+around you.  You almost can't help yourself from playing it but decide
+that its current owner might not appreciate it.
+~
+S
+#11348
+The Catacombs~
+The darkness of the catacombs threaten to swallow you.  Water covers
+the floor and filth covers the walls and ceiling.  As you move along,
+eerie music and the sound of water dripping echoes all around you.
+~
+0 AD 6
+D0
+Exit ~
+door~
+0 0 11349
+D1
+Exit ~
+door~
+0 0 11343
+D2
+Exit ~
+door~
+0 0 11346
+S
+#11349
+The Catacombs~
+The darkness of the catacombs threaten to swallow you.  Water covers
+the floor and filth covers the walls and ceiling.  As you move along,
+eerie music and the sound of water dripping echoes all around you.
+~
+0 AD 6
+D0
+Exit ~
+door~
+0 0 11349
+D1
+Exit ~
+door~
+0 0 11349
+D2
+Exit ~
+door~
+0 0 11348
+D3
+Exit ~
+door~
+0 0 11350
+S
+#11350
+Beneath the Theatre~
+Walking down a long narrow staircase you come into a darkened room,
+the only light coming from above.  Echoes of music and dripping water
+surround and disorient you.  You find it difficult to discern whether
+the music is coming from above you or from somewhere deeper into the
+darkness.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11350
+D1
+Exit ~
+door~
+0 0 11349
+D2
+Exit ~
+door~
+0 0 11346
+D3
+Exit ~
+door~
+0 0 11350
+D4
+Exit ~
+secret~
+4 11318 11351
+S
+#11351
+Inside the Iron Maiden~
+As you enter the maiden you feel very disappointed.  The carpenter
+who built it wasn't very thorough.  He forgot the spikes!  As you
+stomp your foot in frustration you knock loose a hidden door set into
+the floor.  Faint music can just be heard through the crack.
+~
+0 D 0
+D1
+Exit ~
+maiden~
+1 0 11331
+D5
+Exit ~
+secret~
+4 11318 11350
+S
+#11352
+The Foyer~
+~
+0 DK 0
+D0
+Exit ~
+door~
+0 0 11353
+D2
+Exit ~
+door~
+0 0 11390
+S
+#11353
+The Hall of Enemies~
+~
+0 DK 0
+D0
+Exit ~
+door~
+0 0 11374
+D1
+Exit ~
+door~
+0 0 11364
+D2
+Exit ~
+door~
+0 0 11352
+D3
+Exit ~
+door~
+0 0 11354
+S
+#11354
+The Hall of Enemies~
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11362
+D1
+Exit ~
+door~
+0 0 11353
+D2
+Exit ~
+door~
+1 0 11363
+D3
+Exit ~
+door~
+0 0 11355
+S
+#11355
+The Hall of Enemies~
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11360
+D1
+Exit ~
+door~
+0 0 11354
+D2
+Exit ~
+door~
+1 0 11361
+D3
+Exit ~
+door~
+0 0 11356
+S
+#11356
+The Hall of Enemies~
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11358
+D1
+Exit ~
+door~
+0 0 11355
+D2
+Exit ~
+door~
+1 0 11359
+D3
+Exit ~
+door~
+1 0 11357
+S
+#11357
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D1
+Exit ~
+door~
+1 0 11356
+S
+#11358
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D2
+Exit ~
+door~
+1 0 11356
+S
+#11359
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11356
+S
+#11360
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D2
+Exit ~
+door~
+1 0 11355
+S
+#11361
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11355
+S
+#11362
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D2
+Exit ~
+door~
+1 0 11354
+S
+#11363
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D0
+Exit ~
+door~
+0 0 11354
+S
+#11364
+The Hall of Enemies~
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11365
+D1
+Exit ~
+door~
+0 0 11367
+D2
+Exit ~
+door~
+1 0 11366
+D3
+Exit ~
+door~
+0 0 11353
+S
+#11365
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D2
+Exit ~
+door~
+1 0 11364
+S
+#11366
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11364
+S
+#11367
+The Hall of Enemies~
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11368
+D1
+Exit ~
+door~
+0 0 11370
+D2
+Exit ~
+door~
+1 0 11369
+D3
+Exit ~
+door~
+0 0 11364
+S
+#11368
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D2
+Exit ~
+door~
+1 0 11367
+S
+#11369
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11367
+S
+#11370
+The Hall of Enemies~
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11371
+D1
+Exit ~
+door~
+1 0 11373
+D2
+Exit ~
+door~
+1 0 11372
+D3
+Exit ~
+door~
+0 0 11367
+S
+#11371
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D2
+Exit ~
+door~
+1 0 11370
+S
+#11372
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11370
+S
+#11373
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D3
+Exit ~
+door~
+1 0 11370
+S
+#11374
+The Hall of the Doctors~
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11375
+D1
+Exit ~
+door~
+0 0 11383
+D2
+Exit ~
+door~
+0 0 11353
+D3
+Exit ~
+door~
+0 0 11376
+S
+#11375
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D2
+Exit ~
+door~
+1 0 11374
+S
+#11376
+The Hall of the Doctors~
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11381
+D1
+Exit ~
+door~
+0 0 11374
+D2
+Exit ~
+door~
+1 0 11382
+D3
+Exit ~
+door~
+0 0 11377
+S
+#11377
+The Hall of the Doctors~
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11379
+D1
+Exit ~
+door~
+0 0 11376
+D2
+Exit ~
+door~
+1 0 11380
+D3
+Exit ~
+door~
+1 0 11378
+S
+#11378
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D1
+Exit ~
+door~
+1 0 11377
+S
+#11379
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D2
+Exit ~
+door~
+1 0 11377
+S
+#11380
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11377
+S
+#11381
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D2
+Exit ~
+door~
+1 0 11376
+S
+#11382
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11376
+S
+#11383
+The Hall of the Doctors~
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11388
+D1
+Exit ~
+door~
+0 0 11384
+D2
+Exit ~
+door~
+1 0 11389
+D3
+Exit ~
+door~
+0 0 11374
+S
+#11384
+The Hall of the Doctors~
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11386
+D1
+Exit ~
+door~
+1 0 11385
+D2
+Exit ~
+door~
+1 0 11387
+D3
+Exit ~
+door~
+0 0 11383
+S
+#11385
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D3
+Exit ~
+door~
+1 0 11384
+S
+#11386
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D2
+Exit ~
+door~
+1 0 11384
+S
+#11387
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11384
+S
+#11388
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D2
+Exit ~
+door~
+1 0 11383
+S
+#11389
+Generic room name~
+Generic room description.
+~
+0 DK 0
+D0
+Exit ~
+door~
+1 0 11383
+S
+#11390
+The Doctor Who Museum~
+~
+0 DKPT 0
+D0
+Exit ~
+door~
+0 0 11352
+S
+#0
+
+#RESETS
+O 0 11301 100 11300	* the chandelier
+O 0 11302 100 11303	* a drinking fountain
+D 0 11303   0    1	* The east auditorium entrance north
+D 0 11303   1    1	* The east auditorium entrance east
+D 0 11305   0    1	* The west auditorium entrance north
+D 0 11305   3    2	* The west auditorium entrance west
+D 0 11319   0    1	* A small hallway north
+D 0 11319   1    1	* A small hallway east
+D 0 11319   2    1	* A small hallway south
+D 0 11323   0    1	* The back exit north
+O 0 11306 100 11313	* a copy of "Hamlet"
+D 0 11313   0    1	* The Janitor's closet north
+M 0 11300   1 11302  1	* a ticket clerk
+G 1 11300  -1     	*   a shiny key
+M 0 11303   1 11308  1	* a woman in the audience
+M 0 11302   1 11308  1	* a man in the audience
+M 0 11304   1 11301  1	* a teenager
+G 1 11304  -1     	*   a stick of bubblegum
+M 0 11303   2 11311  1	* a woman in the audience
+M 0 11302   2 11311  1	* a man in the audience
+M 0 11303   3 11316  1	* a woman in the audience
+M 0 11302   3 11316  1	* a man in the audience
+M 0 11305   1 11314  1	* an usher
+E 1 11305  -1    0	*   a flashlight
+D 0 11314   0    1	* A small room north
+M 0 11305   2 11309  1	* an usher
+E 1 11305  -1    0	*   a flashlight
+D 0 11309   2    1	* In the aisle south
+M 0 11307   1 11345  1	* a rat
+M 0 11307   2 11343  1	* a rat
+M 0 11307   3 11346  1	* a rat
+M 0 11307   4 11349  1	* a rat
+M 0 11306   1 11347  1	* the Phantom
+G 1 11309  -1     	*   a blood red rose
+E 1 11307  -1    6	*   the mask of the Phantom
+D 0 11347   0    1	* The Chamber north
+M 0 11302   4 11340  1	* a man in the audience
+M 0 11308   1 11340  1	* a drunk
+E 1 11310  -1   17	*   a bottle of Maddog
+O 0 11308 100 11350	* a small boat
+D 0 11350   4    2	* Beneath the Theatre up
+M 0 11307   5 11332  1	* a rat
+M 0 11307   8 11335  3	* a rat
+M 0 11307   8 11335  3	* a rat
+M 0 11307   8 11335  3	* a rat
+M 0 11308   2 11336  1	* a drunk
+E 1 11310  -1   17	*   a bottle of Maddog
+M 0 11307   9 11337  1	* a rat
+M 0 11309   1 11318  1	* the fat lady
+E 1 11312  -1    6	*   a Valkyrie's helmet
+E 1 11311  -1   12	*   a dressing gown
+D 0 11318   3    1	* Mae's dressing room west
+M 0 11310   1 11322  1	* Bruce the vain
+G 1 11313  -1     	*   a vial of nightshade
+D 0 11322   2    1	* Bruce's dressing room south
+M 0 11313   1 11321  1	* a lute player
+M 0 11312   1 11321  1	* a clarinet player
+E 1 11315  -1   16	*   a clarinet
+M 0 11311   1 11321  1	* the violinist
+E 1 11314  -1   16	*   a broken violin bow
+M 0 11314   1 11321  1	* the harpsichord player
+E 1 11316  -1   16	*   some harpsichord strings
+M 0 11315   2 11331  1	* a stagehand
+D 0 11331   3    1	* Backstage west
+M 0 11316   1 11329  1	* the stage manager
+G 1 11318  -1     	*   an old key
+M 0 11315   2 11329  1	* a stagehand
+E 1 11317  -1   16	*   a push broom
+M 0 11317   1 11326  1	* Hamlet the janitor
+E 1 11319  -1   17	*   the skull of Yorick
+E 1 11320  -1   16	*   a wooden sword
+M 0 11318   1 11328  1	* a pickpocket
+D 0 11328   2    1	* Outside the Theatre south
+D 0 11351   5    2	* Inside the Iron Maiden down
+M 0 11319   1 11304  1	* a concession worker
+G 1 11322  -1     	*   a large cup of pop
+G 1 11323  -1     	*   a bag of licorice
+G 1 11325  -1     	*   a box of sour-patch kids
+G 1 11326  -1     	*   a box of chocolate covered peanuts
+G 1 11324  -1     	*   a chocolate bar
+G 1 11321  -1     	*   a box of popcorn
+M 0 11301   1 11306  1	* the Theatre Manager
+O 0 11303 100 11306	* a money box
+P 1 11328  -1 11303  1	*   petty cash
+D 0 11306   1    2	* The Manager's office east
+D 0 11354   0    1	* The Hall of Enemies north
+D 0 11354   2    1	* The Hall of Enemies south
+D 0 11355   0    1	* The Hall of Enemies north
+D 0 11355   2    1	* The Hall of Enemies south
+D 0 11356   0    1	* The Hall of Enemies north
+D 0 11356   2    1	* The Hall of Enemies south
+D 0 11356   3    1	* The Hall of Enemies west
+D 0 11364   0    1	* The Hall of Enemies north
+D 0 11364   2    1	* The Hall of Enemies south
+D 0 11367   0    1	* The Hall of Enemies north
+D 0 11367   2    1	* The Hall of Enemies south
+D 0 11370   0    1	* The Hall of Enemies north
+D 0 11370   1    1	* The Hall of Enemies east
+D 0 11370   2    1	* The Hall of Enemies south
+D 0 11374   0    1	* The Hall of the Doctors north
+D 0 11376   0    1	* The Hall of the Doctors north
+D 0 11376   2    1	* The Hall of the Doctors south
+D 0 11377   0    1	* The Hall of the Doctors north
+D 0 11377   2    1	* The Hall of the Doctors south
+D 0 11377   3    1	* The Hall of the Doctors west
+D 0 11383   0    1	* The Hall of the Doctors north
+D 0 11383   2    1	* The Hall of the Doctors south
+D 0 11384   0    1	* The Hall of the Doctors north
+D 0 11384   1    1	* The Hall of the Doctors east
+D 0 11384   2    1	* The Hall of the Doctors south
+S
+
+#SHOPS
+11319 17 19  0  0  0 	 115  10 	 0 23 	* a concession worker
+0
+
+#SPECIALS
+M 11318 spec_thief          	* a pickpocket
+S
+
+#$

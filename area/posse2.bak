@@ -1,0 +1,654 @@
+#AREA
+/mud/moosehead/area/posse2.are~
+Posse Clan Hall~
+{ All }         Posse Clan Hall~
+31600 31615
+
+#MOBILES
+#31600
+honest peddler~
+the honest peddler~
+An Honest Peddler stands here working the shop.
+~
+He looks very dangerous.  I wouldn't try to rob him.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQRV DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#31601
+drunken friar~
+the drunken friar~
+A Drunken Friar stands here, ready to perform surgical procedures.
+~
+Although retired from adventuring, the healer still lends a hand.
+Type 'heal' to see a listing of spells.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQVa DFH 1000 0
+51 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#31602
+Posse Hall Guard~
+A Posse Hall Guard~
+A Posse Hall Guard stands here defending the hall.
+~
+This guard lives to defend Posse.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABTV 0 0 0
+43 15 25d10+5000 25d10+2250 4d8+13 pound
+-6 -6 -6 -6
+CEFNU AB 0 0
+stand stand male 0
+AHMV ABCDEF medium 0
+#31603
+hero justice~
+The hero of the Justice~
+The Hero of the Justice, Posse's personal salesman stands here.
+~
+He is white bearded old hero from the time of Avatar wars. 
+He is one of the five survivors of the great war and is
+now helping the clan Posse to overcome the enemies.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABe 0 550 0
+60 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand female 500000
+0 0 giant 0
+#31604
+Posse Hall Guard~
+A Posse Hall Guard~
+A Posse Hall Guard stands here defending the hall.
+~
+This guard lives to defend Posse.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABTV 0 0 0
+43 15 50d10+11000 25d10+2250 4d10+22 pound
+-20 -20 -20 -20
+CEFNU AB 0 0
+stand stand male 0
+AHMV ABCDEF medium 0
+#0
+
+#OBJECTS
+#31600
+pit~
+the donation pit~
+The jolly friar's pit of donations is here in front of the fire.~
+~
+container O 0
+10000 0 0 1000 100
+0 0 0 P
+#31601
+fountain water~
+a fountain~
+A small drinking fountain is here.~
+milk~
+fountain 0 0
+0 0 'milk' 0 0
+0 0 0 G
+#31602
+oldthalos thalos old~
+the shimmering black wall~
+~
+~
+portal R P
+0 0 0 5300 0
+0 100 0 P
+#31603
+drow~
+the shimmering black wall~
+~
+~
+portal R P
+0 0 0 5100 0
+0 100 0 P
+A
+0 0
+#31604
+sands sorrow~
+the shimmering black wall~
+~
+~
+portal R P
+0 0 0 5001 0
+0 100 0 P
+#31605
+haon dor~
+the shimmering black wall~
+~
+~
+portal R P
+0 0 0 6103 0
+0 100 0 P
+#31606
+nt new thalos~
+the shimmering black wall~
+~
+~
+portal R P
+0 0 0 9506 0
+0 100 0 P
+#31607
+emerald forest carnage~
+the shimmering black wall~
+~
+~
+portal R P
+0 0 0 3521 0
+0 100 0 P
+#31608
+atlantis~
+the shimmering black wall~
+~
+~
+portal R P
+0 0 0 2318 0
+0 100 0 P
+#31609
+cot city of thieves~
+the shimmering black wall~
+~
+~
+portal R P
+0 0 0 6023 0
+0 100 0 P
+#31610
+camelot~
+the shimmering black wall~
+~
+~
+portal R P
+0 0 0 17676 0
+0 100 0 P
+#31611
+black leather couch~
+a black leather couch~
+You see a comfortable black leather couch here.~
+~
+furniture ORS P
+5 0 CFIL 100 100
+0 100 0 P
+#31612
+Pit of useful stuff~
+A Pit of useful stuff~
+A pit of useful stuff for clanmates is here.~
+Marble~
+container Y 0
+10000 0 0 1000 100
+0 0 0 P
+#0
+
+#ROOMS
+#31600
+The Entrance to the Chateau of the Posse~
+It would appear that a small battle happened here.  The door looks as if
+it were kicked in and those inside thrown out.  The flower garden looks
+as if it had seen better days.  The building itself is rather pleasing to the
+eye.  It looks like a quaint and comfortable place.  It also looks like a
+nice place to hide out, or plan an ambush....
+~
+0 DY 0
+D2
+Exit ~
+door~
+16384 0 31601
+D4
+Exit ~
+door~
+16384 0 31614
+D5
+Exit ~
+posse~
+24643 0 27000
+S
+#31601
+The Chateau of the Posse~
+In the middle of this room is roaring fire.  It is a cozy room.  The place
+has been well kept up considering it was taken by force from the
+previous owners.  This seems like a nice place to kick back, relax, and
+reflect on the day's battles.  Before you is a large pit.  The pit looks
+perfect for storing extra equipment or making donations to those in
+need.  To the east lies the Bunk House, to the west is the clan store, and
+to the south is a nice outdoor garden.
+~
+0 CDY 0
+D0
+Exit ~
+door~
+16384 0 31600
+D1
+Exit ~
+door~
+16384 0 31603
+D2
+Exit ~
+door~
+16384 0 31604
+D3
+Exit ~
+door~
+16384 0 31602
+S
+#31602
+The Specialty Store~
+This is a really nice place. There are all kinds interesting things scattered
+about the store.  The store has been well decorated and appears to be
+quite clean.   I guess the store owner has friends in high places in the
+Posse.  You can buy all kinds of things here.  The shop keeper has quite
+good taste, but mind you all things you see here are not for sale.
+~
+0 DY 0
+D1
+Exit ~
+door~
+16384 0 31601
+S
+#31603
+The Bunk House~
+It would appear that all the nice beds are in here.  Although all the
+bedding has been thrown about the room,  this looks like a nice place to
+sleep and heal your wounds.  There are cots, beds, and bunks all over
+the room.  Some of the Posse seem to be a bit sloppy, as there are
+clothes and bloody weapons strewn all over the place.  For some
+strange reason there seems to be something magical about the bunk
+house.  It feels as if you just heal faster in here than anywhere else.
+This room just gives you a feeling of  goodness, for some that makes
+you feel quite at home, but for those members of the Posse that are
+more evil, this room tends to make you queasy.
+~
+0 CDY 0
+H 300 M 300
+D3
+Exit ~
+door~
+16384 0 31601
+S
+#31604
+The Garden~
+As you step outside the Chateau you are met by the wonderful smell of
+beautiful flowers.  Who ever cared for this garden was a master,
+because even those with the blackest of hearts could easily find peace
+here.  You can hear the singing of birds and the buzzing of bees as they
+gather pollen from the flowers.  This seems to be one of the few places
+that the Posse has left untouched since their arrival.  You spy a set of 
+stairs leading down under a rose bush.
+~
+0 DY 0
+D0
+Exit ~
+door~
+16384 0 31601
+D2
+Exit ~
+door~
+16384 0 31608
+D3
+Exit ~
+door~
+16384 0 31609
+D4
+Exit ~
+door~
+16385 0 31607
+D5
+Exit ~
+door~
+16384 0 31605
+S
+#31605
+Posse's Portal Room~
+This room has an air of anticipation about it, as though it knew you were
+about to use one of its portals to hunt an unfortunate soul.  The walls
+are hewn out of solid pyrite, and the floor gleams where it has been worn
+from the tread of many feet.  A short ivory pillar rises from the floor,
+ebony writing inscribed upon it.  Across the room from you, the wall seems
+to shimmer slightly, and seems darker than the rest of the room.
+~
+0 DY 0
+D1
+Exit ~
+door~
+16385 0 27000
+D3
+Exit ~
+door~
+16384 0 31612
+D4
+Exit ~
+door~
+16384 0 31604
+E
+pillar ivory ebony plaque writing sign~
+Welcome!  You are in Posse's Portal Room.  From within this room,
+you may instantly travel to many places in the land.
+The wall in front of you is actually a Magic Mirror, and it can
+take you to many places.  All you have to do is enter the mirror
+while concentrating on where you want to go.
+  Example:      enter drow
+ 
+Current regions available for travel are:
+ - Drow City          (enter drow)
+ - Sands Of Sorrow    (enter sands) (enter sorrow)
+ - Old Thalos         (enter old) (enter thalos)
+ - Haon Dor Forest    (enter haon)
+ - Emerald Forest     (enter emerald)
+ - Docks East of NT   (enter dragon) (enter sea) (enter new)
+ - City of Thieves    (enter cot) (enter city) (enter thieves)
+ - Atlantis           (enter atlantis)
+ - Camelot            (enter camelot)
+~
+E
+sign~
+Generic extended description.
+~
+E
+ebony~
+Welcome!  You are in Posse's Portal Room.  From within this room,
+you may instantly travel to many places in the land.
+The wall in front of you is actually a Magic Mirror, and it can
+take you to many places.  All you have to do is enter the mirror
+while concentrating on where you want to go.
+  Example:      enter drow
+ 
+Current regions available for travel are:
+ - Drow City          (enter drow)
+ - Sands Of Sorrow    (enter sands) (enter sorrow)
+ - Old Thalos         (enter old) (enter thalos)
+ - Haon Dor Forest    (enter haon)
+ - Emerald Forest     (enter emerald)
+ - New Thalos         (enter new) (enter nt)
+ - City of Thieves    (enter cot) (enter city) (enter thieves)
+ - Atlantis           (enter atlantis)
+ - Camelot            (enter camelot)
+~
+E
+writing~
+Welcome!  You are in Posse's Portal Room.  From within this room,
+you may instantly travel to many places in the land.
+The wall in front of you is actually a Magic Mirror, and it can
+take you to many places.  All you have to do is enter the mirror
+while concentrating on where you want to go.
+  Example:      enter drow
+ 
+Current regions available for travel are:
+ - Drow City          (enter drow)
+ - Sands Of Sorrow    (enter sands) (enter sorrow)
+ - Old Thalos         (enter old) (enter thalos)
+ - Haon Dor Forest    (enter haon)
+ - Emerald Forest     (enter emerald)
+ - New Thalos         (enter new) (enter nt)
+ - City of Thieves    (enter cot) (enter city) (enter thieves)
+ - Atlantis           (enter atlantis)
+ - Camelot            (enter camelot)
+~
+S
+#31606
+an Electric Socket~
+An electric socket is all you can see on the wall.
+A closer look at the socket reveals a nice comfortable
+room with furniture and all the decorations you need.
+~
+0 CDK 1
+C posse~
+S
+#31607
+The Office~
+Inside this room is where the leaders of Posse make all the big decisions.
+There are papers on the walls containing strategies and membership information.
+If you were invited in here or not, you are probably in trouble.       
+Thank you and please have a seat.  
+~
+0 CDY 0
+D5
+Exit ~
+door~
+16385 0 31604
+S
+#31608
+Posse Mage Lab~
+As you step into this room your nostrils are immediately assaulted by the
+overpowering aroma of spell augmenting herbs and spices. Shelves line the
+walls containing things you've only heard of in legends, artifacts of truly
+awesome power, know to increase the natural magical abilities in those who
+bestow powerful enchantments upon the armaments of justice. On the far wall
+you see a large elegant tapestry, there is a message woven into it that reads:
+ 
+"This tapestry hangs as a symbol of what The Posse can accomplish when they
+put their minds to it. Between this magelab and our skill, everyone came
+together to help raise over 140 eggs. Be proud, for we have truly lived upto
+our name. Posse forever!"
+~
+0 CDTY 13
+D0
+Exit ~
+door~
+16384 0 31604
+S
+#31609
+A Winding Path To The Glade~
+You have found your way to a small path which leads further down into
+the garden. Huge oak trees surround you, whispering in tune with the 
+slight, cool breeze. A small unseen creature scurries through the leafy 
+undersbrush. You feel safe, and suddenly relax as you realize nothing can 
+harm you here. The path takes a sharp turn to your left before dissapearing 
+into the trees.
+~
+0 CDY 0
+D1
+Exit ~
+door~
+16384 0 31604
+D2
+Exit ~
+door~
+16384 0 31610
+S
+#31610
+The Peacefull Glade~
+You have entered an alcove of trees. The circle of trees rest on a slightly 
+raised bank surrounding a shady pond. The water ripples as leaves fall on its 
+mirrored surface, causing your reflection to waver. Suddenly you lose your 
+bearings, and reality seems to distort slightly around you, then, just as 
+suddenly, everything returns to normal. 
+~
+0 CDNTY 6
+D0
+Exit ~
+door~
+16384 0 31609
+D5
+Exit ~
+door~
+16384 0 31611
+S
+#31611
+A Cavern Beneath the Pond ~
+The water clears considerably as you swim beneath the surface of the pond, 
+allowing you to clearly see the marvels which lie beneath. Huge Emerald 
+crystals line the cavern walls, they pulsate to an unknown rythm, giving off 
+a dreamy green glow with every pulse. You suddenly realize that you have no 
+need to return to the surface, you can breathe.
+~
+0 CDNTY 6
+D4
+Exit ~
+door~
+16384 0 31610
+E
+crystal~
+Huge Emerald crystals line the cavern walls pulsating with emerald glow.
+~
+S
+#31612
+The Posse Observatory~
+An immense glass dome can be seen through a smooth marble doorway ahead. As
+you enter the doorway the dome seems to increase impossibly in size, you
+suddenly realize that it is seamless and blends with the sky making
+it larger than it appears at first glance. Light rays filter through the glass
+creating ghost-like shadows on the deep black granite floor. Trees and
+colorfull roses can be seen through the dome, they grace the bottom of the
+garden and follow a path down into the glade. A doorway to the west melds with
+the dome creating a tunnel to another glass room.
+~
+0 DY 0
+D1
+Exit ~
+door~
+16384 0 31605
+D3
+Exit ~
+door~
+16384 0 31613
+S
+#31613
+The Nottingham Observatory~
+You walk through the short glass tunnel, emerging into a smaller version of the
+main observatory. A huge golden telescope, odd in shape pierces the glass above
+you. The telescope draws you in, a marvelous creation. As you put you eye to 
+the scope a city suddenly jumps before your eyes, allowing you to see 
+everything going on, even down to the smallest mouse scurrying along.
+~
+0 DTY 21
+B 10342
+D1
+Exit ~
+door~
+16384 0 31612
+D4
+Exit ~
+door~
+16384 0 31605
+S
+#31614
+The Panic Room~
+The room is small and tidy. Just and barely just enough
+room for few members of the clan to run into when huge
+enemy attacks their homehall and they have no way to
+help their guards. There is no windows or exits other
+than the one controlled from this room, to prevent 
+anyone entering without permission. There is source
+of water and magic can be used to create food for the
+ones hiding. This is place you might need to spend 
+a long time when enemy troops take control of your
+hall. 
+~
+0 CDK 0
+C posse~
+D0
+Exit ~
+door~
+16384 0 3314
+D5
+Exit ~
+door~
+16384 0 31600
+S
+#31615
+USE THIS ROOM FIRST!!!~
+It would appear that all the nice beds are in here.  Although all the
+bedding has been thrown about the room,  this looks like a nice place to
+sleep and heal your wounds.  There are cots, beds, and bunks all over
+the room.  Some of the Posse seem to be a bit sloppy, as there are
+clothes and bloody weapons strewn all over the place.  For some
+strange reason there seems to be something magical about the bunk
+house.  It feels as if you just heal faster in here than anywhere else.
+This room just gives you a feeling of  goodness, for some that makes
+you feel quite at home, but for those members of the Posse that are
+more evil, this room tends to make you queasy.
+~
+0 CDY 0
+H 300 M 300
+S
+#0
+
+#RESETS
+M 0 31600   1 31602  1	* the honest peddler
+G 1 3288  -1     	*   a vial of holy water
+G 1 3238  -1     	*   a buffalo water skin
+G 1 3239  -1     	*   a bucket of hot Buffalo chicken wings
+G 1 3292  -1     	*   a potion of true sight
+G 1 3291  -1     	*   a potion of flying
+G 1 3290  -1     	*   a potion of negation
+G 1 3289  -1     	*   a potion of armor
+G 1 3287  -1     	*   a potion of cure blindness
+G 1 3286  -1     	*   a bottle of antidote
+G 1 3284  -1     	*   a potion of cure serious wounds
+G 1 3282  -1     	*   a potion of divine protection
+G 1 3283  -1     	*   a potion of cure light wounds
+G 1 3281  -1     	*   a potion of sanctuary
+G 1 3241  -1     	*   a yellow potion of see invisible
+G 1 3242  -1     	*   a scroll of recall
+G 1 3240  -1     	*   a scroll of identify
+G 1 3032  -1     	*   a bag
+O 0 31609 100 31605	* the shimmering black wall
+O 0 31608 100 31605	* the shimmering black wall
+O 0 31605 100 31605	* the shimmering black wall
+O 0 31604 100 31605	* the shimmering black wall
+O 0 31603 100 31605	* the shimmering black wall
+O 0 31602 100 31605	* the shimmering black wall
+O 0 31606 100 31605	* the shimmering black wall
+O 0 31607 100 31605	* the shimmering black wall
+O 0 31610 100 31605	* the shimmering black wall
+D 0 31605   1 16385	* Posse's Portal Room east
+D 0 31605   3 16384	* Posse's Portal Room west
+D 0 31605   4 16384	* Posse's Portal Room up
+M 0 31602   2 31601  1	* A Posse Hall Guard
+M 0 31601   1 31601  1	* the drunken friar
+O 0 31600 100 31601	* the donation pit
+D 0 31601   0 16384	* The Chateau of the Posse north
+D 0 31601   1 16384	* The Chateau of the Posse east
+D 0 31601   2 16384	* The Chateau of the Posse south
+D 0 31601   3 16384	* The Chateau of the Posse west
+M 0 31602   4 31603  1	* A Posse Hall Guard
+O 0 31611 100 31603	* a black leather couch
+O 0 31601 100 31603	* a fountain
+D 0 31603   3 16384	* The Bunk House west
+D 0 31603   4 16384	* The Bunk House up
+M 0 31603   1 31614  1	* The hero of the Justice
+O 0 30118 100 31614	* a black leather couch
+O 0 31601 100 31614	* a fountain
+D 0 31614   5 16384	* The Panic Room down
+M 0 31604   1 31600  1	* A Posse Hall Guard
+M 0 31602   3 31600  1	* A Posse Hall Guard
+D 0 31600   2 16384	* The Entrance to the Chateau of the Posse south
+D 0 31600   5 24643	* The Entrance to the Chateau of the Posse down
+S
+
+#SHOPS
+31600 10  0  0  0  0 	 600 100 	 0 23 	* the honest peddler
+31603  9  5 11 33 32 	 100  10 	 0 23 	* The hero of the Justice
+0
+
+#SPECIALS
+M 31601 spec_cast_adept     	* the drunken friar
+M 31602 spec_posse_guard    	* A Posse Hall Guard
+M 31604 spec_posse_guard    	* A Posse Hall Guard
+S
+
+#$

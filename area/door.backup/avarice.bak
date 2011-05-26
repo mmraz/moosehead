@@ -1,0 +1,615 @@
+#AREA
+/mud/moosehead/area/avarice.are~
+Avarice Clan Hall~
+{Clan } MHS     Avarice Clan Hall~
+31700 31722
+
+#MOBILES
+#31700
+Sister Fyria~
+Sister Fyria~
+Sister Fyria stands here.
+~
+Sister Fyria dances and chants about the fire pit. 
+ 
+As she dances about, Sister Fyria makes magical jesters speaks in an 
+ancient tongue. Her motions cause sparks and flames to leap from the fire.
+She wears only a long black robe and diamond crucifix around her neck. She 
+will gladly cure what ails you but would like a donation for her and her Gods. 
+ 
+~
+human~
+ABQVa DFH 1000 0
+51 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand female 0
+0 0 medium 0
+#31701
+Alren~
+Alren the Shopkeeper~
+Alren is resting here.
+~
+Like any member of the Elite he is highly skilled in his trade. Just
+barely over three feet his movement is quick and nimble. His captivating
+black eyes and sardonic smile mask an aged and wisdom riden face.
+A handful of gold and he well scour the marvel before you in serch
+of your request. He knows you don't gladly pay for his profitable servitude
+to the imperishable hoard of necessaties offered, but all said and done,
+you do pay.
+ 
+~
+human~
+ABV DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#31700
+pit fire~
+the fire~
+A large fire burns in the center of the room.~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+#31701
+pants~
+fitted blue pants~
+a pair of fitted blue pants are here.~
+cotton~
+trash T AF
+0 0 0 0 0
+0 10 0 P
+#31702
+cape~
+a shoulder length red cape~
+A red cape is here.~
+cotton~
+trash T AD
+0 0 0 0 0
+0 10 0 P
+#31703
+shirt~
+a tight blue shirt~
+A blue shirt is here.~
+cotton~
+trash T AK
+0 0 0 0 0
+0 10 0 P
+#31704
+club~
+a standard issue club~
+A club is here.~
+wood~
+trash T AN
+0 0 0 0 0
+0 10 0 P
+#31705
+cloak~
+a black cloak~
+A black cloak is here.~
+cotton~
+trash T AO
+0 0 0 0 0
+0 10 0 P
+#31706
+sack~
+a pitch-black sack~
+A sack is here.~
+cotton~
+trash T AQ
+0 0 0 0 0
+0 10 0 P
+#31707
+robe~
+a long Black Robe~
+A long black robe is here.~
+cotton~
+trash T AK
+0 0 0 0 0
+0 10 0 P
+#31708
+crucifix~
+Diamond Crucifix~
+A diamond crucifix is here.~
+diamonds~
+trash T AC
+0 0 0 0 0
+0 10 0 P
+#31709
+hoan haon~
+a swirling black mist~
+~
+~
+portal R P
+0 0 0 6102 0
+0 100 0 P
+#31710
+drow~
+a swirling black mist~
+~
+~
+portal R P
+0 0 0 5100 0
+0 100 0 P
+#31711
+ancient thalos~
+a swirling black mist~
+~
+~
+portal R P
+0 0 0 5300 0
+0 100 0 P
+#31712
+sands sorrow~
+a swirling black mist~
+~
+~
+portal R P
+0 0 0 5001 0
+0 100 0 P
+#31713
+elemental canyon~
+a swirling black mist~
+~
+~
+portal R P
+0 0 0 9209 0
+0 100 0 P
+#31714
+Pyramid~
+a swirling black mist~
+~
+~
+portal R P
+0 0 0 8701 0
+0 100 0 P
+#31715
+pit fire~
+the fire~
+~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+#31716
+filthy toilet~
+the filthiest toilet you've ever seen~
+A filthy toilet sits half broken in the middle of the room. ~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+#31717
+monster~
+the hideous monster~
+A hideous monster sits on the floor bleeding profusely.~
+~
+fountain 0 0
+0 0 'blood' 0 0
+0 0 0 G
+#31718
+Emerald~
+a swirling black mist~
+~
+~
+portal R P
+0 0 0 3521 0
+0 100 0 P
+#31719
+atlantis~
+a swirling black mist~
+~
+~
+portal R P
+0 0 0 2318 0
+0 100 0 P
+#31720
+cot~
+a swirling black mist~
+~
+~
+portal R P
+0 0 0 6023 0
+0 100 0 P
+#31721
+nt new thalos~
+a swirling black mist~
+~
+~
+portal R P
+0 0 0 9506 0
+0 100 0 P
+#31722
+the Aura of Rejuvenation~
+the Aura of Rejuvenation~
+~
+~
+fountain 0 P
+0 0 'milk' 0 0
+1 10000 0 P
+#0
+
+#ROOMS
+#31700
+The Entrance way to the Alcazar of the Avarice Guild~
+Two rows of elaborate marble columns support the ceiling in the Entrance way.
+This entrance was cut right into the side of the Wall of the Abyss. Torches are
+the only light source and they alone show you the path to follow. The path leads
+between the columns, east to the Abyss or north into the arms of the Guild.
+~
+0 CDKT 0
+C avarice~
+D0
+Exit ~
+door~
+0 0 31701
+D1
+Exit ~
+door~
+0 0 7399
+S
+#31701
+The Treasure Chamber~
+You have entered a large square room with exits in each direction. In the 
+center of the room you see a large fire but you feel no heat coming from it. 
+There is also a young Female dressed in cleric robes pacing about the room.
+Upon closer inspection you can see weapons, armor and other assorted items
+in the fire. Do you dare risk pulling an item from within? Perhaps you can 
+ask the young female for assistance.
+~
+0 CDK 0
+C avarice~
+D0
+Exit ~
+door~
+0 0 31702
+D1
+Exit ~
+door~
+0 0 31704
+D2
+Exit ~
+door~
+0 0 31700
+D3
+Exit ~
+door~
+0 0 31703
+D5
+Exit ~
+door~
+4 3283 31705
+S
+#31702
+Aura of Rejuvenation~
+Wow...What was that sensation??
+There are no floors, walls or ceilings, only a White Aura of Energy
+all about you.  You feel overwhelmed with energy and can't help but
+lay back into the light.  As you float in the Aura, you feel your 
+strength, energy and stamina returning.  It took a short time for
+you to get back to tip top condition.  You can leave south, or perhaps
+you can just stay here a bit longer.
+~
+0 CDKT 0
+H 300 M 300
+C avarice~
+D0
+Exit ~
+door~
+0 0 31713
+D2
+Exit ~
+door~
+0 0 31701
+D5
+Exit ~
+Trap Door~
+1 0 31706
+S
+#31703
+The Extravagant Alcove~
+This isn't a room at all. The gigantic shimmering divider is indeed
+gold bullion: counted, stacked and sealed together with magic to which
+there is no testimony. A glorious splendor of memorabilia, keep-sakes
+and other buried treasures bring the path way to an abrupt ending.
+~
+0 CDK 0
+C avarice~
+D1
+Exit ~
+door~
+0 0 31701
+S
+#31704
+The Gate~
+A soft, starlight burns beneath your feet. There is nothing
+to the north or south. A hole, blackness, dark shadows, that would
+be something, but there is simply nothing.
+ 
+A black portal swirls and pulls the willing to the ends of the dimentia.
+ 
+A sign hangs on the wall.
+~
+0 CDK 0
+C avarice~
+D3
+Exit ~
+door~
+0 0 31701
+E
+sign~
+To enter the portal type: enter (name).
+ 
+You have the following options:
+Enter hoan  (Hoan Dor)
+Enter drow  (Drow City)
+Enter sands  (Sands of Sorrow)
+Enter element  (Elemental Canyon)
+Enter pyramid  (The Pyramids)
+Enter ancient  (Ancient Thalos)
+Enter emerald  (Emerald Forest)
+Enter atlantis (Atlantis)
+Enter cot      (City of Thieves)
+Enter nt       (New Thalos)
+~
+S
+#31705
+Avarice's Secret Hoard~
+This is the main storage room in which Avarice's riches are held.
+You are almost blinded by the shimmering mounds of gems piled
+floor to ceiling.  Some of the rarest items known to man or Immortal
+are scattered around the room.  The mere thought of the value of
+the rooms contents are mind boggling.  Theft of any of this rooms
+contents will surely be your demise.  Gently place your latest
+aquisition in a pile and take your leave.
+ 
+~
+0 CDKNT 0
+C avarice~
+D4
+Exit ~
+door~
+4 3283 31701
+S
+#31706
+A Glimmering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle
+by the light of several small torches that line the hallway.  The cold
+unforgiving walls echo your footsteps just as they did hundreds of
+years ago.  This hallway leads to the private rooms of the most feared
+and prestigious thieves and killers to ever walk the lands of Boinga.
+Every doorway is framed in solid gold with a small plaque on each door
+engraved with the names of all whom have occupied such a luxury.
+ 
+There is a small plaque on the west door.
+~
+0 CDK 0
+C avarice~
+D0
+Exit ~
+door~
+1 0 31711
+D2
+Exit ~
+door~
+0 0 31707
+D3
+Exit ~
+door~
+1 0 31709
+D4
+Exit ~
+Trap Door~
+1 0 31702
+E
+plaque west~
+Slight
+~
+S
+#31707
+A Glimmering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle
+by the light of several small torches that line the hallway.  The cold
+unforgiving walls echo your footsteps just as they did hundreds of
+years ago.  This hallway leads to the private rooms of the most feared
+and prestigious thieves and killers to ever walk the lands of Boinga.
+Every doorway is framed in solid gold with a small plaque on each door
+engraved with the names of all whom have occupied such a luxury.
+~
+0 CDK 0
+C avarice~
+D0
+Exit ~
+door~
+0 0 31706
+D2
+Exit ~
+door~
+0 0 31708
+S
+#31708
+A Glimmering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle
+by the light of several small torches that line the hallway.  The cold
+unforgiving walls echo your footsteps just as they did hundreds of
+years ago.  This hallway leads to the private rooms of the most feared
+and prestigious thieves and killers to ever walk the lands of Boinga.
+Every doorway is framed in solid gold with a small plaque on each door
+engraved with the names of all whom have occupied such a luxury.
+~
+0 CDK 0
+C avarice~
+D0
+Exit ~
+door~
+0 0 31707
+D5
+Exit ~
+door~
+1 0 31710
+S
+#31709
+The Rogues Grotto~
+The darkest midnight would seem brilliant compared to this dungeon.
+Thick silver baseboards, six inches high, line the room. An intricate
+vine crafted from the finest sterling spreads across the walls of the
+room. Each corner possesses an eerie silence, yet you feel safe here.
+ 
+The room is empty, save a plaque in the corner and the extravagant jewels
+sparsely inset into the walls of the room. There are piles of silver, 
+gold, shards and other glittering items littered about the prison.
+ 
+The room eminates peace and tranquility from it's owner. However, it is
+walls that keep you safe, not the owner. Beware: stepping outside this
+room will surely result in death.
+~
+0 CDKN 0
+C avarice~
+D1
+Exit ~
+door~
+1 0 31706
+S
+#31710
+The Lair of The Berzerking Goblin~
+As you enter this lair a horrible stench assails your nostrils as you look 
+around in the darkness you begin to realize what is causing the horrible 
+stench,mounds and mounds of corpses,body parts,and refuse are strewn about
+the room in what seems to have been an orgy of destruction. As you take a 
+few steps within the room you begin to feel a liquid drip down onto your 
+head, you fear looking up but you know you must to see what it is that is 
+dripping onto you,as you look up you see the most shocking thing you have 
+ever seen it seems a large cow is being suspended from ceiling in some sort
+of magical manner. As you take a final glance around the room you realize,
+what ever being lives here must not be a person you would like to meet,
+especially if you've entered this room without his permission. So with 
+that,either get out,or prepare to die if caught within and have your corpse
+added to the pile.
+~
+0 CDK 0
+C avarice~
+D4
+Exit ~
+door~
+1 0 31708
+S
+#31711
+The Idiot Stick King's Bedroom~
+As you walk into this small room you have to cover your mouth to
+stop from puking. This place is a pig sty, with garbage all over
+the floor, and rotting food stuck to the walls. There is a toilet
+in the center of the room, with pieces missing and holes all over.
+The floor is soaking wet with water from the toilet As you walk towards 
+the back of the room you become lost in all the garbage. A monster 
+jumps out of the filth and pukes in your hair. All of a suddan Borb,
+the Idiot Stick King jumps in front of you and cuts open the belly 
+of the monster, spilling guts all over the floor. Borb laughs at 
+the monster and then leaves it to rot with the rest of his possesions, 
+and leaves the room chuckling to himself.
+~
+0 CDK 0
+C avarice~
+D2
+Exit ~
+door~
+1 0 31706
+S
+#31712
+Avarice's Intermediate Magelab~
+Generic room description.
+~
+0 CDK 12
+C avarice~
+S
+#31713
+Behind the Aura of Rejuvenation~
+You have entered a small passage which is hidden
+extremely well behind the glowing Aura of Rejuvenation.
+This small passage has been cut right through the walls
+of an Abyss making it even harder to find it's entrance.
+You can see that the main passage continues to the north 
+and the small side passages leads off to the sidestreets 
+of Boinga.
+~
+0 CDKST 0
+C avarice~
+D2
+Exit ~
+door~
+0 0 31702
+D3
+Exit ~
+door~
+1 0 10544
+S
+#0
+
+#RESETS
+M 0 31701   1 31703  1	* Alren the Shopkeeper
+E 1 31701  -1    7	*   fitted blue pants
+E 1 31702  -1    5	*   a shoulder length red cape
+E 1 31703  -1   12	*   a tight blue shirt
+E 1 31704  -1   16	*   a standard issue club
+E 1 31705  -1   17	*   a black cloak
+E 1 31706  -1   18	*   a pitch-black sack
+G 1 3238  -1     	*   a buffalo water skin
+G 1 3239  -1     	*   a bucket of hot Buffalo chicken wings
+G 1 3240  -1     	*   a scroll of identify
+G 1 3241  -1     	*   a yellow potion of see invisible
+G 1 3242  -1     	*   a scroll of recall
+G 1 3281  -1     	*   a potion of sanctuary
+G 1 3282  -1     	*   a potion of divine protection
+G 1 3283  -1     	*   a potion of cure light wounds
+G 1 3284  -1     	*   a potion of cure serious wounds
+G 1 3286  -1     	*   a bottle of antidote
+G 1 3287  -1     	*   a potion of cure blindness
+G 1 3288  -1     	*   a vial of holy water
+G 1 3289  -1     	*   a potion of armor
+G 1 3290  -1     	*   a potion of negation
+G 1 3291  -1     	*   a potion of flying
+G 1 3292  -1     	*   a potion of true sight
+D 0 31709   1    1	* The Rogues Grotto east
+D 0 31705   4    2	* Avarice's Secret Hoard up
+M 0 31700   1 31701  1	* Sister Fyria
+E 1 31708  -1    3	*   Diamond Crucifix
+E 1 31707  -1   12	*   a long Black Robe
+O 0 31700 100 31701	* the fire
+D 0 31701   5    2	* The Treasure Chamber down
+D 0 31706   3    1	* A Glimmering Hallway west
+D 0 31706   4    1	* A Glimmering Hallway up
+O 0 31076 100 31710	* the cow's udder
+O 0 31715 100 31710	* the fire
+D 0 31710   4    1	* The Lair of The Berzerking Goblin up
+O 0 31717 100 31711	* the hideous monster
+O 0 31716 100 31711	* the filthiest toilet you've ever seen
+D 0 31711   2    1	* The Idiot Stick King's Bedroom south
+O 0 22018 100 31700	* a crack in the wall
+O 0 31721 100 31704	* a swirling black mist
+O 0 31719 100 31704	* a swirling black mist
+O 0 31714 100 31704	* a swirling black mist
+O 0 31713 100 31704	* a swirling black mist
+O 0 31712 100 31704	* a swirling black mist
+O 0 31711 100 31704	* a swirling black mist
+O 0 31710 100 31704	* a swirling black mist
+O 0 31709 100 31704	* a swirling black mist
+O 0 31718 100 31704	* a swirling black mist
+O 0 31720 100 31704	* a swirling black mist
+O 0 31722 100 31702	* the Aura of Rejuvenation
+D 0 31702   5    1	* Aura of Rejuvenation down
+S
+
+#SHOPS
+31701 10  0  0  0  0 	 600 100 	 0 23 	* Alren the Shopkeeper
+0
+
+#SPECIALS
+M 31700 spec_cast_adept     	* Sister Fyria
+S
+
+#$

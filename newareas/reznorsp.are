@@ -1,0 +1,671 @@
+#AREA
+../newareas/reznorsp.are~
+Reznor's practice~
+{ All }         Reznor's practice~
+18800 18817
+
+#MOBILES
+#18800
+The Hive Mother~
+Hive Mother~
+The Hive Mother stands here grinning.
+~
+The brown insect like body of the Hive Mother is here. It is one of
+the largest creatures you have ever encountered. It has legs going in
+almost every direction. It looks down at you and smiles it toothy grin.
+The mouth is almost as large as your torso. Maybe she is only a little
+hungry today.
+~
+human~
+AFT DFHVZ -1000 0
+25 0 5d10+600 0d0+100 2d10+17 sting
+0 0 0 0
+DEFNU KLQ AB S
+stand stand none 2200
+0 0 giant 0
+F par GHIJK
+#18801
+A Hive warrior.~
+A Hive Warrior~
+A Hive warrior.
+~
+The brown insect body is simialr to the workers. This one looks more
+like a combatant. It snarls as it moves and eyes you contently, it moves
+in for the attack when you least expect it.
+~
+human~
+ABFT NV -1000 0
+20 0 3d9+333 0d0+100 2d7+5 claw
+0 0 0 0
+CEFNU KL H 0
+stand stand none 1100
+0 0 medium 0
+F par GHIJK
+#18802
+A Hive worker.~
+A Hive worker~
+A Hive worker runs around working.
+~
+This brown colored insectoid creature stares at you as you enter. It
+has 3 sets of legs protruding from its torso. It walks on two of them
+and uses the other pair as arms. It has a sunken face with black eyes that
+stare blankly. After looking at you it returns to work creating this green
+slime on the walls.
+~
+human~
+ABT AZ -500 0
+18 0 3d9+280 0d0+100 2d7+4 pound
+0 0 0 0
+EFNU 0 0 0
+stand stand none 100
+0 0 medium 0
+F par GHIJK
+#18803
+A Hive Baby~
+A Hive Baby~
+A Newborn Hive crawls around here.
+~
+A small newborn Hive crawls around in the Slime. It looks as if can
+swim through the green goo. It is similar to the other insectoids but
+of course much smaller. It semms not to notice you as it continues to play
+around in the muck.
+~
+human~
+ABS Z 0 0
+14 -1 2d10+180 0d0+100 1d12+3 slime
+0 0 0 0
+BENU 0 0 E
+stand stand none 10
+0 0 small 0
+F par GHIJK
+#18804
+Billy Goat~
+A Billy Goat~
+A billy-goat trapped in the slime
+~
+~
+bear~
+ABGT 0 0 0
+5 0 2d6+60 1d1+1 1d7+1 chomp
+0 0 0 0
+FNU 0 0 0
+rest rest male 0
+HM 0 medium 0
+F res EI
+F for G
+F par HJKUV
+#18805
+Hive Queen~
+The Hive Queen~
+Generic long description~
+Generic description.~
+unique~
+ABCGRTc HVZ -1000 0
+30 0 6d12+853 10d20+100 4d6+8 acbite
+0 0 0 0
+FM ABKL P H
+sit sit female 20
+ABHMO ABCDEF giant 0
+#0
+
+#OBJECTS
+#18800
+Boney Sword~
+Boney Sword~
+A sharp boney sword lies here.~
+bone~
+weapon 0 AN
+sword 3 6 slash 0
+22 10 234 P
+A
+2 1
+E
+boney~
+A sharp sword made from the bone of a creature.
+~
+#18801
+A piece of Green Slime~
+A piece of Green Slime~
+A small piece of Green Slime sits here wobbling~
+slime~
+food 0 A
+5 25 0 0 0
+0 1 0 P
+E
+slime~
+A small piece of green slime.
+~
+#18802
+the technicolor dreamcoat~
+the technicolor dreamcoat~
+A coat swirling with millions of colors floats here.~
+silk~
+armor ABGILS AK
+-10 -10 -10 -5 0
+26 10 0 P
+A
+1 -1
+F
+A 0 0 T
+A
+12 30
+A
+4 1
+A
+3 2
+A
+5 -1
+E
+dreamcoat~
+A wonderous coat of shimmering colors floats here. It seems to draw you
+towards it, you feel the need to wear it. Why not just try it on?
+~
+#18803
+hive tail~
+Hive Tail~
+The sharp tail of a hive useable as a whip.~
+bone~
+weapon IS AN
+whip 3 8 whip D
+24 12 0 P
+#18804
+Black Wizcloth~
+Black Wizcloth~
+A long robe of a shear black cloth coils around in a pile.~
+cloth~
+clothing AFGJLS AK
+0 0 0 0 0
+40 10 0 P
+A
+12 40
+A
+14 -10
+A
+13 -20
+A
+2 1
+A
+3 1
+A
+18 -1
+A
+20 -1
+F
+A 0 0 EJ
+#18805
+Red Wizcloth~
+Red Wizcloth~
+A robe glowing a bright red is tossed here~
+cloth~
+clothing AGJKY AK
+0 0 0 0 0
+40 1 0 P
+A
+2 -1
+A
+13 -20
+A
+12 40
+A
+14 -10
+A
+5 1
+A
+1 1
+A
+18 -1
+A
+17 1
+A
+20 -1
+F
+A 0 0 EJ
+#18806
+white wizcloth~
+White Wizcloth~
+A stainless white robe hangs here.~
+cloth~
+clothing AGIKL AK
+0 0 0 0 0
+40 1 0 P
+A
+5 -1
+A
+14 -10
+A
+12 40
+A
+13 -20
+A
+19 -1
+A
+3 2
+A
+20 -1
+A
+18 1
+A
+17 1
+F
+A 0 0 CEJ
+#18807
+Pulsing Heart~
+Pulsing Heart~
+A large bloody heart beats here emiting light~
+tissue~
+light AG A
+0 0 -1 0 0
+0 5 0 P
+A
+13 -10
+A
+20 -2
+A
+18 2
+A
+17 -2
+#18808
+Ring of Delusion~
+Ring of Delusion~
+A small silver ring shaped into a shallow face.~
+silver~
+jewelry AGHMY AB
+0 0 0 0 0
+20 100 0 P
+F
+A 0 0 I
+A
+20 5
+A
+17 10
+A
+14 -100
+A
+13 -50
+A
+12 -10
+A
+4 -2
+A
+5 -2
+A
+3 -3
+A
+2 -2
+A
+1 -2
+#18809
+Sewer Water~
+Sewer Water~
+A small vile of bottle water, looks green.~
+glass~
+potion S A
+25 'energy drain' 'weaken' 'plague' ''
+5 10 0 R
+#18810
+Red Mist~
+Red Mist~
+A strange red mist follows you.~
+mist~
+clothing AGIS AQ
+0 0 0 0 0
+25 0 0 P
+A
+17 -9
+A
+18 -1
+A
+20 -1
+A
+2 1
+#18811
+Theives Tools~
+Thieves Tools~
+A belt holding many picks, knives and clamps for breaking locks.~
+steel~
+armor 0 AL
+-6 -5 -6 -4 0
+27 60 3400 P
+A
+1 -1
+A
+14 50
+A
+2 2
+A
+18 1
+A
+19 1
+A
+20 2
+#18812
+Silver Hair Pin~
+Silver Hair Pin~
+A slim silver pin to keep hair from the face.~
+silver~
+armor I AE
+-1 -1 -1 -10 0
+17 3 7800 P
+A
+20 -3
+A
+18 -1
+A
+19 -1
+F
+A 0 0 B
+#0
+
+#ROOMS
+#18800
+The Secret Entrance~
+The secret door opens into a circular sewer tunnel that leads to the
+east. The dark and damp environment gives you chills and the hairs on your
+neck stand on end. There is about half a foot of water that your feet are
+soaking in. As you take your first step a small water snake slithers away
+from under your foot. The smell of rot and decay are very pungent here.
+The path forward looks dark and dangerous.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 18801
+S
+#18801
+Into the Tunnel~
+The tunnel continues to the east. The smell seems to get a little
+stronger as you press on. The walls appear to have a thin layer of green
+slime on them. The slime gets thicker and thicker as you walk, it is now
+thick enough to possibly hold a small creature. The smell seems to drift
+off the green goo, your nostrils are flaring. The darkness seems to thin
+out as you go farther into the tunnel....a light up a head maybe?
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 18802
+D3
+Exit ~
+door~
+0 0 18800
+S
+#18802
+The Tunnel Widens.~
+The darkness seems to have given way to a dim yellow light. The walls are
+covered with the green smile, there is about enough to hold a average
+sized human within. The smell of rot and decay assualt your nose more
+than ever here, it is almost intolerable. The water around or feet has
+drained away into a large vent leading down. The path east is blocked
+by a door which looks suspended in the slime. Now that you have look up
+you see the slime is on the ceiling as well. You here noises from behind
+the door.
+~
+0 AD 0
+D1
+Exit ~
+door~
+1 0 18803
+D3
+Exit ~
+door~
+0 0 18801
+D5
+Exit ~
+door~
+0 0 18804
+E
+door~
+A door stands here suspened in the slime.
+~
+S
+#18803
+The Tunnel Ends.~
+The tunnels ends here!
+There is no light except that of yours. The walls are bulging with the
+green slime. You can see animals in posed at there death in the slime.
+Worse yet you can see humans too! You hear growling, as you look further
+into the room two red eyes stare back. A toothy grin appears under the
+eyes and it attacks!
+~
+0 AD 0
+D3
+Exit ~
+door~
+1 0 18802
+S
+#18804
+Tunnel leading down~
+The tunnel is damp and cold.  There is dim light which shows the room you
+are in.  The room is barren of slime and has exits up the ladder you came
+from and to the west, south and east.  Water is pooling where you stand
+from the down poor above.
+~
+0 DN 0
+D1
+Exit ~
+door~
+0 0 18809
+D2
+Exit ~
+door~
+0 0 18806
+D3
+Exit ~
+door~
+0 0 18805
+D4
+Exit ~
+door~
+0 0 18802
+S
+#18805
+Breeding Room~
+This room is really large.  It looks out of the ordinary for the sewer
+being so large.  The walls are again covered in the slime that the other
+tunnels are covered in.  The center of this room is covered by a larger
+Hive, probably a mother.  Little Hive scurry around the floor.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 18804
+S
+#18806
+Dark Tunnel~
+The tunnel you stand in is pitch black.  You can see absolutly nothing to
+any direction.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+0 0 18804
+D2
+Exit ~
+door~
+0 0 18807
+S
+#18807
+Still Dark~
+This room is still pitch black similar to the one to the north. The sight
+sense is null, your hearing is becoming in tune.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18806
+D2
+Exit ~
+door~
+0 0 18808
+S
+#18808
+Falling into darkness and death~
+Stepping into this room you feel lighter than air...probably cause you are
+falling to your death in a bottomless pit.  Seeya...try to smile while you
+waste half your movement recalling...:).
+~
+0 D 0
+S
+#18809
+Tunnel leading into Slime~
+This room is a little small, only becuase the slime up ahead seems to be
+growing in thickness.  To the east the slime seems to make a solid block
+further down the tunnel.  To the north is a narrow passage way that you
+can fit through.  The water level on the floor has began to puddle
+and their is still a cooling breeze.
+~
+0 AN 0
+D0
+Exit ~
+door~
+0 0 18813
+D1
+Exit ~
+door~
+0 0 18810
+D3
+Exit ~
+door~
+0 0 18804
+S
+#18810
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 18811
+D3
+Exit ~
+door~
+0 0 18809
+S
+#18811
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 18812
+D3
+Exit ~
+door~
+0 0 18810
+S
+#18812
+Generic room name~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 18811
+S
+#18813
+Musky Tunnel~
+The walls are covered in a small thin layer of slime.  This tunnel turns
+east into a wider room.  The one thing the differs this tunnel from the
+others is that is has a strong smell.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 18814
+D2
+Exit ~
+door~
+0 0 18809
+S
+#18814
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 18815
+D3
+Exit ~
+door~
+0 0 18813
+S
+#18815
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 18814
+D3
+Exit ~
+door~
+0 0 18816
+S
+#18816
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 18815
+D3
+Exit ~
+door~
+0 0 18817
+S
+#18817
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 18816
+S
+#0
+
+#RESETS
+M 0 18802   2 18801  2	* A Hive worker
+G 1 18801  -1     	*   A piece of Green Slime
+M 0 18802   2 18801  2	* A Hive worker
+G 1 18801  -1     	*   A piece of Green Slime
+M 0 18803   4 18803  4	* A Hive Baby
+M 0 18803   4 18803  4	* A Hive Baby
+M 0 18803   4 18803  4	* A Hive Baby
+M 0 18803   4 18803  4	* A Hive Baby
+M 0 18800   1 18803  1	* Hive Mother
+D 0 18803   3    1	* The Tunnel Ends. west
+M 0 18801   2 18802  2	* A Hive Warrior
+E 1 18800  -1   16	*   Boney Sword
+M 0 18801   2 18802  2	* A Hive Warrior
+E 1 18800  -1   16	*   Boney Sword
+D 0 18802   1    1	* The Tunnel Widens. east
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 18800 spec_poison         	* Hive Mother
+M 18804 spec_fido           	* A Billy Goat
+M 18805 spec_breath_acid    	* The Hive Queen
+S
+
+#$

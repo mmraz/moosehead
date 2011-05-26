@@ -1,0 +1,1284 @@
+#AREA
+../newareas/gianthal.are~
+The Giant Halls~
+{ U C } Haryld  The Giant Halls~
+19500 19549
+
+#MOBILES
+#19500
+Skeletal king~
+the undead giant king~
+The last king of the giants lives undeath
+~
+~
+unique~
+(null)~
+(null)~
+(null)~
+AOc CDEFHJNV 0 0
+58 20 100d100+0 20d50+0 7d6+10 cleave
+-40 -40 -40 -40
+CFHKNOU ABR 0 0
+sleep sleep none 5000
+AHIMV ABCDEF giant 0
+#19501
+Akturan~
+Akturan the giant mage~
+Akturan the last giant mage is here, still alive centuries after the fall.
+~
+Akturan still lives, centuries after the fall of the giant kings, their last
+hope and their final betrayal. His magic saved them from the demon he let
+into the world, and in return, he has lived as long as it has. Pity and
+disgust should be his lot for now and forever.
+~
+giant~
+(null)~
+(null)~
+(null)~
+AGQRc CDEFHNVZ 0 0
+50 10 20d20+3500 20d50+0 20d4+0 magic
+-25 -25 -25 -50
+CFHIKNOU ABLQR 0 0
+sit sit male 0
+I 0 giant 0
+F res HI
+F vul JP
+F for A
+#19502
+giant guardian champion~
+The giant guardian~
+The giant champion remains on guard, even in undeath.
+~
+The armor of the giant king's champion stands here, animated by the power
+of the champion's soul. He remains true to his sworn duty even unto death.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABGc CDEFHNVae 0 0
+51 50 20d4+3000 10d10+400 6d6+8 pierce
+-25 -25 -25 -40
+ACEGJK ABIQR F N
+stand stand none 0
+EHJM ABCDEF medium 0
+#19503
+demonlord lord~
+the Demonlord~
+The lord of all demons is here, mad at his ages of imprisonment.
+~
+This is the lord of all evil, the evil opposite of Ra, and the winner of
+many of their eternal wars. He waits here for mortals to come, for his
+life is one of boredom and imprisonment. How unlucky you are to happen
+upon this place.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AFGQRTc DFHNTVZc -1000 0
+60 40 2d20+10000 2d20+1000 4d4+20 wrath
+-40 -40 -40 -15
+ACEFHKM ABKPQR CL GN
+stand stand none 0
+AHMV ABCDEFLMNPTUVWX giant 0
+#19504
+giant tick~
+A giant tick~
+A huge, hairy giant tick springs at you, hungry for blood
+~
+This giant tick is ancient by any standard, and has drunk the blood of many
+a foolhardy adventurer. Hopefully, you won't be next!
+~
+unique~
+(null)~
+(null)~
+(null)~
+AFGTc BJQVY 0 0
+25 30 10d100+2000 10d10+400 20d5+10 suction
+-20 -30 -20 -10
+EFHKU ABHILR JKQ E
+stand stand none 0
+HOV ABCDEFL huge 0
+#19505
+undead giant guard~
+A skeletal giant guard~
+A long dead giant guards the castle even in death
+~
+This skeletal giant still remains alive, at least partially, his afterlife
+spent guarding that to which he owes his alleigance.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABFGOTc CDEFH 0 0
+50 25 20d40+2500 50d2+200 20d4+5 claw
+-30 -20 -20 -30
+CEFIKN AHIJLPQRS 0 EG
+stand stand none 500
+IM ABC huge 0
+#19506
+Fire Elemental~
+The fire elemental~
+A long toiling, long imprisoned fire elemental is here
+~
+This fire elemental was placed here to cook the giants food long ago. Now its
+awesome fires are banked, and it seems to slumber. However, its might is 
+still evident and you can feel its white hot heat emanating from it.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AGTc LZ 1000 0
+48 15 10d20+3500 50d10+500 0d0+0 flame
+-40 -20 -20 -5
+EFNU H 0 I
+rest rest none 0
+CEHM 0 giant 0
+#19507
+hill giant~
+a shaggy hill giant~
+A long haired, low browed giant is in ambush here
+~
+This descendant of the original rulers of this area has reversed their noble
+traditions and now lies in ambush waiting for the unwary traveller. His
+strength however, harks back to the olden days, and he is no mere cannon
+fodder.
+~
+giant~
+(null)~
+(null)~
+(null)~
+AFT 0 -1000 0
+38 10 10d10+1500 10d10+200 10d5+5 smash
+-15 -30 -15 0
+CDEFIJNU 0 0 B
+stand stand male 2000
+0 0 huge 0
+F vul J
+F par GHIJK
+#0
+
+#OBJECTS
+#19500
+Gladiator's gauntlet~
+A giant gladiator's gauntlet~
+A chain and plate hand to shoulder protector lies here.~
+~
+armor MY AI
+12 12 12 3 0
+45 150 5000 P
+A
+2 2
+#19501
+Flaming flamberge~
+A flaming flamberge~
+A long wavy bladed sword lies here, it's blade aflame.~
+~
+weapon BH AN
+sword 6 7 slice 0
+48 200 5000 P
+A
+18 5
+A
+19 5
+#19502
+Shieldstone~
+a rune marked stone~
+A rune marked stone inscribed with a shield float here.~
+~
+armor GRSY AQ
+-20 -10 -20 -5 0
+50 1 200 P
+A
+20 2
+#19503
+Polished brass breastplate~
+A bronze colored breastplate~
+A rune scribed breastplate an inch thick lies here.~
+~
+armor AY AD
+12 13 12 3 0
+51 2000 100000 P
+E
+rune~
+The runes glow with an odd bluish light as you look at them.
+~
+#19504
+Dragonslayer~
+the Dragonslayer~
+A great glowing giant's two handed sword lays here, looking for a hero.~
+~
+weapon ABGHIY AN
+sword 0 0 none 0
+50 500 50000 P
+A
+18 5
+A
+19 5
+E
+Dragonslayer sword two~
+A giant dragon hilted magesword.
+~
+#19505
+polished brass gauntlets~
+Gauntlets of giantkind~
+A huge pair of brass colored, thickly plated gauntlets.~
+~
+armor AGY A
+10 10 10 4 0
+48 300 30000 P
+A
+0 0
+A
+19 3
+A
+18 2
+A
+4 -2
+A
+3 -2
+A
+5 2
+A
+1 2
+#19506
+Golden gorget~
+A golden gorget~
+A glowing golden colored neck protector~
+~
+armor AK A
+6 5 6 4 0
+45 50 10000 P
+A
+19 3
+A
+18 -1
+A
+20 -4
+A
+2 1
+#19507
+Necklace of missiles~
+A tacky looking necklace made of brass ~
+Generic Description~
+~
+wand A AO
+50 5 5 '' 0
+50 50 40 P
+#19508
+Dwarfstomper boots~
+the Dwarfstomper boots~
+A pair of huge spiked plated boots~
+~
+armor 0 AG
+11 10 11 2 0
+40 400 4500 P
+A
+14 -50
+A
+2 -2
+A
+19 4
+#19509
+Havokbender~
+The Havokbender~
+A spiked, barbed, chained flail that glows with a greenish light~
+~
+weapon AE AN
+mace 5 8 whip 0
+38 350 3000 P
+A
+12 20
+A
+17 -5
+A
+18 4
+A
+19 6
+A
+18 2
+#19510
+Polished brass shinguards~
+a pair of polished brass shinguards~
+A pair of glowing brass colored shinguards~
+~
+armor AY AF
+12 10 12 2 0
+51 250 2500 P
+A
+20 2
+A
+18 3
+#19511
+darkhorn helm~
+A Darkgiant's horned helm.~
+A helmet with long, black horns that seem to consume light gleams on the floor.~
+~
+armor CGMY AE
+10 15 10 4 0
+51 300 1000 P
+F
+A 0 0 BUe
+A
+20 -1
+A
+19 4
+A
+18 2
+A
+12 -50
+#19512
+Unholy water~
+A small glass vial of holy water~
+An evilly glowing vial of holy water is here~
+~
+potion ACS AO
+45 'armor' 'bless' 'blindness' ''
+45 10 500 P
+#19513
+Polished brass boots~
+A pair of polished brass boots~
+A gleaming pair of polished brass boots lie here~
+~
+armor AG AG
+-11 -8 -11 -3 0
+45 300 4500 P
+A
+14 40
+A
+18 2
+A
+19 2
+#19514
+Polished brass armplates~
+a pair of polished brass armplates~
+A shiny pair of heavy brass armplates reflect the light back in your eyes~
+~
+armor A AI
+9 10 11 3 0
+48 350 4000 P
+A
+19 2
+A
+1 1
+#19515
+loaf giant bread~
+a loaf of giant bread~
+A giant's loaf of hard and heavy bread.~
+bread~
+food 0 A
+36 0 0 0 0
+5 250 0 P
+A
+14 -50
+A
+14 0
+#0
+
+#ROOMS
+#19500
+Crypt of the giant king~
+Far out in the center of this dust laden, but intricately carved and 
+decorated room you see a raised dais. Standing on the top of the circular
+raised platform is an elaborate stone throne, obviously built to accomodate
+the great size of a true giant. The only exit you can see it to retreat back
+down to the previous level.
+~
+0 CD 0
+D5
+Exit ~
+door~
+0 0 19501
+E
+throne~
+The throne is heavily carved in relief, showing scenes of happiness and 
+triumphant heroes. Truly, whoever made it loved their work, and had the
+greasest skill in carving that this world has ever seen.
+~
+S
+#19501
+Grand hall of the giant king~
+Ancient, dust covered trophies of battles, festivals, and grand tourneys
+long past in the dawn of the ages of the giant kings adorn the walls of 
+this great hall. This place has been long abandoned, and you suspect the
+owners are long dead and gone. Stairs lead up, and there is a small niche
+to the east.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19502
+D3
+Exit ~
+door~
+0 0 19503
+D4
+Exit ~
+door~
+0 0 19500
+S
+#19502
+Guardian's niche~
+This was once the guard post of the king's champion. Now long dead, his 
+spirit has inhabited his armor, and guards him even unto the world of the
+dead. Your only exit is to the west.
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 19501
+S
+#19503
+Top of the grand stairway~
+You stand at the top of the stairway, it's giant steps descending far below.
+To your east you see a great hall, it's ancient splendor now dust covered.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19501
+D5
+Exit ~
+door~
+0 0 19504
+S
+#19504
+The base of the grand stairway~
+Giant steps lead upwards, each one easily six feet high. Who, or whatever
+used them was surely of monstrous size. The carefully crafted black steps
+lead up, or you can go east into the central hall.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19505
+D4
+Exit ~
+door~
+0 0 19503
+S
+#19505
+The central hall~
+This hall was obviously shaped long ago, and it's age shows even in the
+very stone of the walls and the black granite flagstones that cover the
+floor. Exits lead to the north, south, east, and west.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19507
+D1
+Exit ~
+door~
+0 0 19508
+D2
+Exit ~
+door~
+0 0 19506
+D3
+Exit ~
+door~
+0 0 19504
+S
+#19506
+A storage room~
+Once the main storage room for the tower of the giant kings, this room now
+serves as the lair of something huge. You can see the marks of some huge
+beast's feet in the mixture of dust and ancient flour that coats the floor
+and you have the sneaking suspicion that something lurks in the piles of
+ancient food and goods.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19505
+S
+#19507
+The giant's armory~
+Once a storeroom for weapons, almost all of the implements of destruction
+once stored here are gone. What few remain are of ancient design, and made
+specially for the giants who once ruled the place. Even the racks that once
+held the weapons shows wear on the surface of the stone they are made of,
+and even more so, the dust of the ages. You may exit back to the south.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 19505
+S
+#19508
+The lower stairway~
+These stairs lead down to the lower levels of the halls. Their steps are
+plain black granite, carefully shaped, but not elaborate. Long ago, when
+this place was inhabited by it's rightful owners, they must have seen
+heavy use. Giant foot size impressions are still evident in the ancient
+stone of the steps. You can return down to the lower levels or go west to
+a large hall.
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 19505
+D5
+Exit ~
+door~
+0 0 19509
+S
+#19509
+The base of the lower stairs~
+Huge granite blocks of a deep black color, worn by the tread of ancient
+feet lead upwards in a giant sized stairway. Long ago this must have been
+quite a grand place, since the remnants of tapestries, rusted and rotted
+shields and armor decorate the walls. You can scale the monstrous stairs,
+or you can leave east or west.
+~
+0 D 0
+D1
+Exit ~
+gate~
+1 0 19510
+D3
+Exit ~
+door~
+0 0 19514
+D4
+Exit ~
+door~
+0 0 19508
+S
+#19510
+The great gates of the inner hall~
+A gate made of at least a foot of an odd brass colored alloy dominate the
+western end of this room. They are heavily barred and sealed, and magical
+appearing sigils glow with an eerie green light in the thick, dusty lead
+of the seals. To the north and south you can see small alcoves, most likely
+rooms for long dead guards.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19511
+D1
+Exit ~
+door~
+0 0 19540
+D2
+Exit ~
+door~
+0 0 19512
+D3
+Exit ~
+gate~
+1 0 19509
+S
+#19511
+The niche~
+This small room is only small on the scale of the rest of this edifice. It's
+ceiling is far above you, and the room itself is easily the size of some 
+human inns you have been in. However, it seems to once have been used as
+a guard post. The only exit you can see is back to the south.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 19510
+S
+#19512
+The niche~
+This small room is only small on the scale of the rest of this edifice. It's
+ceiling is far above you, and the room itself is easily the size of some 
+human inns you have been in. However, it seems to once have been used as
+a guard post. The only exit you can see is to the north.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19510
+S
+#19513
+Haryld's Respite and Relaxation room.~
+Giant size sofas, bean bag chairs, and a huge wet bar make this one of the
+most luxurious rooms you have ever seen. A giant jacuzzi in the corner is
+easily big enough to be a swimming pool for a mere human. From all sides
+comes music from concealed speakers, and you feel that you could relax
+forever here. However, this room means business too. Off in one corner 
+a huge desk is covered with giant flatscreen monitors and a tri-d tank
+for viewing parts of the SLED. Constant monitors show the status of 
+various mobs, areas, and subprocessors, and small demons move about
+maintaining a massively parallel Aries Technologies megacomputer with a
+special giant size keyboard for either hand.
+~
+0 CD 0
+H 200 M 200
+S
+#19514
+The passage~
+This passage leads off to a separate section of the keep. From the looks of
+it, it was used mostly by the lesser giants, and saw much wear. This is
+probably the way to the kitchens and barracks.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19509
+D3
+Exit ~
+door~
+0 0 19515
+S
+#19515
+The great dining hall~
+A huge carved stone table dominates the center of this hall. The remains
+of a great feast litter the table, long rotted past being edible. Still
+the once mighty giants are here, now mere skeletons. 
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19523
+D1
+Exit ~
+door~
+0 0 19514
+D2
+Exit ~
+door~
+0 0 19517
+D3
+Exit ~
+door~
+0 0 19516
+S
+#19516
+The giant chapel~
+This chapel has a clean look to it's gigantic white accountrements that even
+great age can't dull. Love and matrimony were a treasure to the giants of
+old, and that love shows in the elaborate and still beautiful decorations
+that have lasted the ages, just as the giants believed marriage did. 
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19515
+S
+#19517
+The side passage~
+From the looks of this side passage, it must lead to the kitchens. You can
+see signs of long use and hours of cleaning by the giant's servants. Small
+dents and dings in the ancient walls evidence accidents between heavily
+laden giant sized servants and black granite walls. To the south you see
+the kitchen area, and doors lead east and west.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19515
+D1
+Exit ~
+door~
+1 0 19520
+D2
+Exit ~
+door~
+0 0 19518
+D3
+Exit ~
+door~
+1 0 19521
+S
+#19518
+The kitchen~
+This room is dominated by a fireplace the size of some of the largest rooms
+lesser human structures boast. An iron hook as thick as a man's leg shows
+where once the great pots and implements needed for giant sized fare were
+hung. Tables, cabinets, and crumbling, dusty remnants of once sumptous fare
+litter the room. Your only paths out are north to the passage, or west into
+the still glowing fireplace.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19517
+D3
+Exit ~
+door~
+0 0 19519
+S
+#19519
+The gigantic fireplace~
+This stone fireplace is remarkably clean of ashes and soot. In the center, 
+rather than coals, there is a chained fire elemental, seemingly happy in
+it's confinement. Your only exit is back into the exit to the kitchen.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19518
+S
+#19520
+The pantry~
+The lowest shelves in this pantry are six feet high, and they reach far up
+into the distance. This place was once the central food storage area for
+the kitchen, and as you look around, some of the food still seems good,
+if in giant size portions. There is a door back to the west.
+~
+0 D 0
+D3
+Exit ~
+door~
+1 0 19517
+S
+#19521
+The servant's passage~
+This passage looks much like the others in the halls, if slightly plainer.
+It seems to be a hall to the servant's quarters of the place, with an arch
+to the west, and a door to the east.
+~
+0 D 0
+D1
+Exit ~
+door~
+1 0 19517
+D3
+Exit ~
+door~
+0 0 19522
+S
+#19522
+The servants' quarters~
+These plain but expensive looking quarters seem to once have housed the
+giants who served the lords of the halls. You can see plain oaken doors
+bound with an odd bronze colored metal to the north, south, and west.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19521
+S
+#19523
+The northern passage~
+This passage leads north to the barracks of the halls. It's black stone walls
+are covered with the dust and wear of the ages, and the floor shows the 
+marks of armored boots and heavy weapons being dropped. You can continue
+north to the barracks, or south to the feasting hall.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19524
+D2
+Exit ~
+door~
+0 0 19515
+S
+#19524
+The barracks~
+Bunks are stacked high into the air in this great hall. Rows of the beds line
+the walls and create aisles in the room. Weapons racks are near the entrance
+and empty armor stands are beside each bed. The barracks continue to the
+west, and the passage is back to the south.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19527
+D2
+Exit ~
+door~
+0 0 19523
+D3
+Exit ~
+door~
+0 0 19525
+S
+#19525
+The barracks~
+This room is a continuation of that to the east. Once again, bunks line the
+room, and ancient chests, weapons, and armor racks of majestic proportions
+fill the room. Good thing the giants who lived here once aren't here any
+more, they might have stepped on you. You can exit back to the east.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19524
+D5
+Exit ~
+door~
+1 0 19526
+S
+#19526
+The secret cellar~
+Apparently, the guards who lived in these quarters had a secret their 
+commanders knew nothing about. This rooms is well equipped with a number
+of beds, what look to once have been aphrodisiacs, a gaming table, and a
+wine rack that appears to have been well stocked before death of the halls.
+~
+0 D 0
+D4
+Exit ~
+door~
+1 0 19525
+S
+#19527
+The guards' stairs~
+These stairs are of the same black granite the rest of the halls are made of
+and are crafted with the same care. However, they are plainer than the rest
+of the halls, and show long and heavy use by armored booted feet and the
+small scrapes, dings, and dents that armored giants create by accident. The
+stairs lead upwards, probably to more living quarters, and there is a heavy
+bronze colored metallic gate to the north.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19528
+D3
+Exit ~
+door~
+0 0 19524
+S
+#19528
+The southeastern courtyard~
+This courtyard appears to be in the center of the fortified walls that 
+surround the halls. To the east a black granite wall's smooth surface 
+towers far above you. The courtyard continues to the north and west.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19529
+D2
+Exit ~
+door~
+0 0 19527
+D3
+Exit ~
+door~
+0 0 19531
+S
+#19529
+The northwestern courtyard~
+This section of the courtyard is adjacent to a tower that is only smallish
+on the great scale the giants built on. It abuts to the curtain wall, and
+is constructed of a black granite with reddish veins and metallic glints
+showing in it. You feel an odd sensation of ancient power and something
+intelligent coming from the tower. The tower's fortified gate is to the
+north, and the courtyard continues to the west and south.
+~
+0 0 0
+D0
+Exit ~
+Fortified gate~
+0 0 19530
+D2
+Exit ~
+door~
+0 0 19528
+D3
+Exit ~
+door~
+0 0 19532
+S
+#19530
+The tower entrance~
+Mystic energy seems to be exuded by the very walls of this tower, their
+odd flecks and veins seeming to have a lifeblood of magic flowing in them
+and sustaining them. The gate to this room is heavily fortified, and you
+get the idea that this tower would have been quite defensible. An archway
+leads to the north, and a set of narrow, curving stairs hugs the side of
+the tower leading up. The fortified gate is to the south.
+~
+0 D 0
+D2
+Exit ~
+Fortified gate~
+0 0 19529
+D4
+Exit ~
+door~
+0 0 19535
+S
+#19531
+The southwestern courtyard~
+This is the southwestern quarter of the courtyard. To the west you see what
+looks like a barracks or a smithy. You can exit to the east, west, or south.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19532
+D1
+Exit ~
+door~
+0 0 19528
+D3
+Exit ~
+door~
+0 0 19534
+S
+#19532
+The northwestern courtyard~
+This is the northwestern area of the courtyard. To your east you see a large
+building, most likely storage for the halls. To the east you can see the
+tower in the distance, and to the south, you see the southwestern courtyard.
+You can exit south, east, and west.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 19529
+D2
+Exit ~
+door~
+0 0 19531
+D3
+Exit ~
+door~
+0 0 19533
+S
+#19533
+The storage building~
+The walls of this room are lined with stored equipment from the age when
+the halls were in use. Now, the equipment has decayed to a point where it
+is useless. As you listen intently, you hear something moving in the room.
+What could have lived all these ages in an abandoned building?
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19532
+D2
+Exit ~
+door~
+0 0 19534
+S
+#19534
+The smithy~
+A giant anvil dominates this room, with a forge built on the scale of the 
+giants who built the halls on the northern wall. Huge hammers, chisels, 
+grindstones, and other smithing implements fill tables and racks, and line
+the edge of the forge. You may exit to the north to the storage rooms, or
+east to the southwestern courtyard.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19533
+D1
+Exit ~
+door~
+0 0 19531
+S
+#19535
+The mage's study~
+When the giants lived here, their mages lived in this tower, a testament to
+their power. Their use of magic must have stunted then however, since while
+the furniture is quite large, it is not up to the scale of the rest of this
+place. Around you are bookshelves full of oddly bound books, leather covered
+couches and chairs, desks, lamps that still glow with a brilliant glow, and
+book stands with books opened upon them. 
+~
+0 D 0
+D0
+Exit ~
+secret~
+1 0 19536
+D4
+Exit ~
+door~
+0 0 19537
+D5
+Exit ~
+door~
+0 0 19530
+S
+#19536
+The hidden study~
+This is an octagonal room with thin windows that must be nearly impossible
+to see from outside. It is built into the thickness of the wall, and seems
+to have once been the hidden study of a great mage. Mystical works and high
+magics are haphazardly tossed about the room. In the center of the the
+stacked high on the heavy oaken furniture, and the ingredients of great
+room is a pentagram with something still moving inside it after all these
+years.
+~
+0 DKLNT 0
+H 125 M 140
+D2
+Exit ~
+secret~
+1 0 19535
+E
+pentagram~
+You could have sworn you saw something in the pentagram, but now you cannot
+see anything. 
+~
+S
+#19537
+Mage's quarters~
+The carved furniture in this room carries on the motif of the lower rooms,
+it's oak surface wearing the patina of age, and miscellaneous items 
+scattered all over the room. You see stairs leading both up and down.
+~
+0 D 0
+D4
+Exit ~
+door~
+0 0 19538
+D5
+Exit ~
+door~
+0 0 19535
+S
+#19538
+The observatory~
+This room is covered with an dome of some clear substance like glass, but
+seemingly unable to be harmed by physical means or age. It remains clear and
+unblemished after all the ages this edifice has stood. Around the room and
+traced into the floor are sigils and diagrams depicting the phases of the
+moons, stars, and the movements of the sun, along with less mundane 
+happenings. There is an exit to a walkway around the tower to the east, and
+the stairs lead down.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19539
+D5
+Exit ~
+door~
+0 0 19537
+S
+#19539
+The balcony~
+This balcony is far over the rest of the tower. Looking over the edge gives
+you a sense of being higher than even the clouds, which in fact you are.
+Below you you can see the fluffy whiteness of the clouds. You can go back
+into the tower to the west.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 19538
+S
+#19540
+The drawbridge~
+This drawbridge extends out to the middle of a huge dry moat that would even
+be impassable to a giant. In the middle, on a huge pillar of polished black
+granite stands a gatehouse of the same material. It looks to be carved from 
+a single piece of the stone. To the west there is a huge fortress's entrance,
+or you may enter the gatehouse to the east.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 19541
+D3
+Exit ~
+door~
+0 0 19510
+S
+#19541
+The gatehouse~
+This rooms is the central room of the gatehouse fortification. A drawbridge's
+lip reaches the western exit, and to the east a heavy broze colored door with
+a heavy bridge reaching to it's foot. A set of gigantic stairs leads upwards
+with a series of black granite treads, each high and wide enough to 
+accomodate a being of huge stature. 
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 19547
+D3
+Exit ~
+door~
+0 0 19540
+D4
+Exit ~
+door~
+0 0 19542
+S
+#19542
+The upper level~
+This upper room in the gatehouse seems to have a dual purpose. One side has
+giant sized bunks lining the walls, and weapons racks scattered about, while
+the other side has a fireplace and cooking area. Obviously, this part of
+the fortress was made to be quite self sufficient. A set of stairs leads
+upward, and a second set lead down to the main level of the gatehouse.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19544
+D4
+Exit ~
+door~
+0 0 19543
+D5
+Exit ~
+door~
+0 0 19541
+S
+#19543
+The battlements~
+This is the top level of the gatehouse, far above the road below. The walls
+themselves are crenelated and have merlons. A stone hoarding projects out
+over the walls, and large holes are spaced evenly in the base of the 
+hoarding. A set of stairs leading downwards appears to be your only exit.
+~
+0 0 0
+D5
+Exit ~
+door~
+0 0 19542
+S
+#19544
+The stairs to the storage room~
+These plain black granite stairs lead deep down into the plinth that the
+gatehouse sits on. They were crafted with the same elaborate care that shows
+in the rest of this marvellous castle, but seem somehow darker in purpose.
+You may exit to the south, or delve deeper into the dark depths.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 19542
+D5
+Exit ~
+door~
+0 0 19545
+S
+#19545
+The darker stairs~
+A permanent gloom and shadow seems to lurk in this room, even with the light
+you carry bringing it's spreading glow. There seems to almost be a presence
+pushing the light in. You wonder what could be below to make a room in such
+a place as this seem so evil. You barely catch sight of a door in the south
+wall, heavily barred with crude looking iron, and covered with glowing
+sigils shaped into the lead that seals it. The door seems to be the only
+exit from this room, other than the stairs leading up.
+~
+0 D 0
+D2
+Exit ~
+edit~
+1 6 19546
+D4
+Exit ~
+door~
+0 0 19544
+S
+#19546
+The cell~
+Total darkness rules this room, and odd substances drip from walls that seem
+to ooze the very essence of evil itself. In the center of the room lies a 
+glowing force field, it's edges delineated by silver runes and lines forming
+a mystic summoning and warding diagram. As you step farther into the room
+the ward suddenly fades, it's magic broken. In horror, you look down and
+see you have stepped across some kind of threshold of silver. Whatever was
+held by that ward is now loose.
+~
+0 ACDNT 0
+S
+#19547
+The first drawbridge~
+You are standing on a huge construction of oaken planks easily thicker than
+the trunk of a normal man. Giant bronze colored metal bindings still shine
+as if polished today. To your east you see a colossal gatehouse standing on
+a giant black granite plinth that descends far into the depths below. To 
+the west, a once wide trail leading into the mountains, now almost entirely
+blocked with rubble.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 19548
+D3
+Exit ~
+door~
+0 0 19541
+S
+#19548
+The end of the path~
+This once mighty path ends here, leading west onto a great drawbridge. To 
+the south you can see the path extending back into the mountains. 
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 19547
+S
+#19549
+Haryld's work room~
+This is Haryld's work room. It is empty for a purpose.
+~
+0 C 0
+O Haryld~
+S
+#0
+
+#RESETS
+M 0 19500   1 19500  1	* the undead giant king
+M 0 19502   1 19502  1	* The giant guardian
+M 0 19505   8 19511  2	* A skeletal giant guard
+M 0 19505   8 19511  2	* A skeletal giant guard
+M 0 19505   8 19512  2	* A skeletal giant guard
+M 0 19505   8 19512  2	* A skeletal giant guard
+M 0 19505   8 19515  1	* A skeletal giant guard
+M 0 19506   1 19519  1	* The fire elemental
+M 0 19501   1 19535  1	* Akturan the giant mage
+M 0 19504   1 19538  1	* A giant tick
+M 0 19505   8 19541  1	* A skeletal giant guard
+M 0 19505   8 19542  2	* A skeletal giant guard
+M 0 19505   8 19542  2	* A skeletal giant guard
+M 0 19503   1 19546  1	* the Demonlord
+M 0 19507   1 19548  1	* a shaggy hill giant
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

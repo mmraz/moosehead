@@ -1,0 +1,3680 @@
+ CHAR_DATA *gch,*gch_next;
+    char buf[MAX_STRING_LENGTH];
+    int i;
+
+    stop_fighting( victim, TRUE );
+    death_cry( victim );
+
+    if ( is_affected(victim,gsn_wound_transfer) )
+    for ( gch = char_list ;
+	  gch != NULL ;
+	  gch = gch_next )
+   {
+	gch_next = gch->next;
+
+	if ( gch->leader == victim )
+	{
+  sprintf(buf, "Your soul shatters with your link to %s.",victim->name);
+  send_to_char(buf,gch);
+  /* one more to avoid recursive crap */
+  if ( is_affected( gch, gsn_wound_transfer ) ) /*strip it */
+      affect_strip( gch, gsn_wound_transfer );
+  raw_kill(gch,ch);
+	}
+    }
+
+    if ( IS_NPC(victim) )
+    {
+  make_corpse (victim);
+  victim->pIndexData->killed++;
+  kill_table[URANGE(0, victim->level, MAX_LEVEL-1)].killed++;
+  extract_char( victim, TRUE );
+  return;
+    }
+    
+  if (!IS_SET(victim->affected_by,AFF_WITHSTAND_DEATH))
+  {
+     if (IS_SET (victim->in_room->room_flags,ROOM_NODIE)
+         || (ch->clan == clan_lookup("smurf") 
+             || victim->clan == clan_lookup("smurf")))
+     {
+        act("$n disintegrates into dust.",victim,NULL,NULL,TO_ROOM,FALSE);
+        char_from_room (victim);
+        clear_mount( victim );
+	if(IS_SET(victim->mhs,MHS_GLADIATOR) &&
+	   (gladiator_info.type == 3 || gladiator_info.type == 4))
+	{
+           if(victim->pcdata->gladiator_team == 1)
+              char_to_room(victim,get_room_index(ROOM_VNUM_TEAM_GLADIATOR));
+           else
+              char_to_room(victim,get_room_index(ROOM_VNUM_TEAM_BARBARIAN));
+	}
+	else
+           char_to_room(victim,get_room_index(clan_table[victim->clan].hall));
+     } 
+     else 
+     {
+        if (IS_SET(victim->mhs,MHS_HIGHLANDER) && IS_SET(ch->mhs,MHS_HIGHLANDER))
+        {
+           highlander_die( ch,victim );
+           char_from_room(victim);
+           clear_mount( victim );
+           if (!is_clan(victim))
+              char_to_room(victim,get_room_index(clan_table[0].hall));
+           else
+              char_to_room(victim,get_room_index(clan_table[victim->clan].hall));
+           send_to_char( "You are blasted with the {GQuickening{x!\n\r", ch);
+           act("$n is blasted by the {GQuickening{x.",ch,NULL,NULL,TO_ROOM,FALSE);
+        }
+        else
+        {	 
+           make_corpse( victim );
+           extract_char( victim, FALSE );
+        }
+     }
+     while ( victim->affected )
+        affect_remove( victim, victim->affected,APPLY_BOTH );
+
+     /* victim->affected_by = victim->affected_by|race_table[victim->race].aff;*/
+     victim->affected_by = race_table[victim->race].aff;
+
+     if (IS_SET(ch->mhs, MHS_BANISH))
+	REMOVE_BIT(ch->mhs, MHS_BANISH);
+     for (i = 0; i < 4; i++)
+        victim->armor[i]= 100;
+
+     victim->position    = POS_RESTING;
+     victim->hit         = UMAX( 1, victim->hit  );
+     victim->mana        = UMIN( 20, victim->mana );
+     victim->move        = UMAX( 1, victim->move );
+
+     /*
+     REMOVE_BIT(victim->act,PLR_KILLER);
+     REMOVE_BIT(victim->act,PLR_THIEF);
+     REMOVE_BIT(victim->act,PLR_BOUGHT_PET);
+     save_char_obj( victim ); */
+
+     return;
+  }
+  else
+  {
+     victim->position    = POS_STANDING;
+     while ( victim->affected )
+        affect_remove( victim, victim->affected,APPLY_BOTH );
+
+     victim->affected_by = victim->affected_by|race_table[victim->race].aff;
+     victim->hit         = victim->max_hit/8;
+     act("$n twitches a bit then stands up.",victim,NULL,NULL,TO_ROOM,FALSE);
+     send_to_char ("A chilling wave passes over as you withstand death.\n\r",victim);
+     WAIT_STATE(victim, 4);
+    /* Gladiator Spectator Channel */
+    if (IS_SET(victim->mhs,MHS_GLADIATOR))
+    {
+       sprintf(buf,"%s withstood a mighty blow from %s! He's still alive!",victim->name,ch->name);
+       gladiator_talk(buf);
+    }
+  }
+}
+
+
+
+void group_gain( CHAR_DATA *ch, CHAR_DATA *victim )
+{
+    char buf[MAX_STRING_LENGTH];
+    CHAR_DATA *gch;
+    CHAR_DATA *lch;
+    int xp;
+    int members;
+    int group_levels;
+
+    /*
+     * Monsters don't get kill xp's or alignment changes.
+     * P-killing doesn't help either.
+     * Dying of mortal wounds or poison doesn't give xp to anyone!
+     */
+    if ( victim == ch || 
+	(IS_NPC(victim) && victim->pIndexData->vnum == MOB_VNUM_MIRROR_IMAGE )
+       )
+  return;
+    
+    members = 0;
+    group_levels = 0;
+    for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
+    {
+  if ( is_same_group( gch, ch ) )
+       {
+      members++;
+      if (!IS_NPC(gch)) 
+	 {
+	  group_levels += gch->level-(gch->level/7);
+  	 }
+      else
+	 {
+	  if (gch->level >= 6)
+	   {
+	    group_levels += (gch->level *3)/2;
+	   }
+	  else
+	   {
+	    group_levels += 6;
+	   }
+	 }
+	}
+    }
+
+    if ( members == 0 )
+    {
+  bug( "Group_gain: members.", members );
+  members = 1;
+  group_levels = ch->level ;
+    }
+
+    lch = (ch->leader != NULL) ? ch->leader : ch;
+
+    for ( gch = ch->in_room->people; gch != NULL; gch = gch->next_in_room )
+    {
+  OBJ_DATA *obj;
+  OBJ_DATA *obj_next;
+
+  if ( !is_same_group( gch, ch ) || IS_NPC(gch))
+      continue;
+
+  xp = xp_compute( gch, victim, group_levels );
+  sprintf( buf, "You receive {G%d{x experience points.\n\r", xp );
+  send_to_char( buf, gch );
+  gain_exp( gch, xp );
+
+  for ( obj = gch->carrying; obj != NULL; obj = obj_next )
+  {
+      obj_next = obj->next_content;
+      if ( obj->wear_loc == WEAR_NONE )
+    continue;
+
+      if ( ( IS_OBJ_STAT(obj, ITEM_ANTI_EVIL)    && IS_EVIL(gch)    )
+      ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_GOOD)    && IS_GOOD(gch)    )
+      ||   ( IS_OBJ_STAT(obj, ITEM_ANTI_NEUTRAL) && IS_NEUTRAL(gch) ) )
+      {
+    act( "You are zapped by $p.", gch, obj, NULL, TO_CHAR ,FALSE);
+    act( "$n is zapped by $p.",   gch, obj, NULL, TO_ROOM ,FALSE);
+    obj_from_char( obj );
+    obj_to_room( obj, gch->in_room );
+      }
+  }
+    }
+
+    return;
+}
+
+
+
+/*
+ * Compute xp for a kill.
+ * Also adjust alignment of killer.
+ * Edit this function to change xp computations.
+ */
+int xp_compute( CHAR_DATA *gch, CHAR_DATA *victim, int total_levels )
+{
+    int xp,base_exp;
+    int align,level_range;
+    int change;
+    AFFECT_DATA af;
+    
+    /* heck if they've got debit leels */
+    if ( (gch->pcdata->debit_level > 0) ||  
+	(gch->exp > exp_per_level(gch,gch->pcdata->points) * (gch->level + 1)))
+		return 0;
+
+    level_range = victim->level - gch->level;
+ 
+    /* compute the base exp */
+    switch (level_range)
+    {
+  default :   base_exp =   0;   break;
+  case -8 : base_exp =   2;   break;
+  case -7 : base_exp =   7;   break;
+  case -6 : base_exp =   13;   break;
+  case -5 : base_exp =   20;   break;
+  case -4 : base_exp =  26;   break;
+  case -3 : base_exp =  40;   break;
+  case -2 : base_exp =  60;   break;
+  case -1 : base_exp =  80;   break;
+  case  0 : base_exp =  100;   break;
+  case  1 : base_exp =  140;   break;
+  case  2 : base_exp =  180;   break;
+  case  3 : base_exp = 220;   break;
+  case  4 : base_exp = 280;   break;
+  case  5 : base_exp = 320;   break;
+    } 
+    
+    if (level_range > 5)
+  base_exp = 320 + 30 * (level_range - 5);
+
+    if (!IS_NPC(victim) && IS_SET(victim->act,PLR_DWEEB))
+  base_exp = 0;
+
+    /* do alignment computations */
+   
+    align = victim->alignment - gch->alignment;
+
+    /*Gladiator's alignment doesnt change */
+    if (IS_SET(victim->act,ACT_NOALIGN) || IS_SET(gch->mhs,MHS_GLADIATOR)
+    || is_affected(gch, skill_lookup("indulgence")) )
+    {
+  /* no change */
+    }
+
+    else if (align > 500) /* monster is more good than slayer */
+    {
+  change = (align - 500) * base_exp / 500 * gch->level/total_levels; 
+  change = UMAX(1,change);
+        gch->alignment = UMAX(-1000,gch->alignment - change);
+    }
+
+    else if (align < -500) /* monster is more evil than slayer */
+    {
+  change =  ( -1 * align - 500) * base_exp/500 * gch->level/total_levels;
+  change = UMAX(1,change);
+  gch->alignment = UMIN(1000,gch->alignment + change);
+    }
+
+    else /* improve this someday */
+    {
+  change =  gch->alignment * base_exp/500 * gch->level/total_levels;  
+  gch->alignment -= change;
+    }
+    
+    /* calculate exp multiplier */
+    if (IS_SET(victim->act,ACT_NOALIGN))
+  xp = base_exp;
+
+    else if (gch->alignment > 500)  /* for goodie two shoes */
+    {
+  if (victim->alignment < -750)
+      xp = (base_exp *4)/3;
+   
+    else if (victim->alignment < -500)
+      xp = (base_exp * 5)/4;
+
+    else if (victim->alignment > 750)
+      xp = base_exp / 3;
+
+    else if (victim->alignment > 500)
+      xp = base_exp / 2;
+
+    else if (victim->alignment > 250)
+      xp = (base_exp * 3)/4; 
+
+
+  else
+      xp = base_exp;
+    }
+
+    else if (gch->alignment < -500) /* for baddies */
+    {
+  if (victim->alignment > 750)
+      xp = (base_exp * 5)/4;
+  
+    else if (victim->alignment > 500)
+      xp = (base_exp * 11)/10; 
+
+    else if (victim->alignment < -750)
+      xp = base_exp/2;
+
+  else if (victim->alignment < -500)
+      xp = (base_exp * 3)/4;
+
+  else if (victim->alignment < -250)
+      xp = (base_exp * 9)/10;
+
+  else
+      xp = base_exp;
+    }
+
+    else if (gch->alignment > 200)  /* a little good */
+    {
+
+  if (victim->alignment < -500)
+      xp = (base_exp * 6)/5;
+
+  else if (victim->alignment > 750)
+      xp = base_exp/2;
+
+  else if (victim->alignment > 0)
+      xp = (base_exp * 3)/4; 
+  
+  else
+      xp = base_exp;
+    }
+
+    else if (gch->alignment < -200) /* a little bad */
+    {
+  if (victim->alignment > 500)
+      xp = (base_exp * 6)/5;
+ 
+  else if (victim->alignment < -750)
+      xp = base_exp/2;
+
+  else if (victim->alignment < 0)
+      xp = (base_exp * 3)/4;
+
+  else
+      xp = base_exp;
+    }
+
+    else /* neutral */
+    {
+
+  if (victim->alignment > 500 || victim->alignment < -500)
+      xp = (base_exp * 4)/3;
+
+  else if (victim->alignment < 200 && victim->alignment > -200)
+      xp = base_exp/2;
+
+  else
+      xp = base_exp;
+    }
+
+    /* more exp at the low levels */
+    if (gch->level < 11)
+      xp = 15 * xp / (gch->level + 4);
+
+    /* less at high */
+
+    if (gch->level > 40 )
+  xp =  40 * xp / (gch->level -1);
+
+
+    /* reduce for playing time -
+       Removed */
+    
+    {
+  /**** compute quarter-hours per level 
+  time_per_level = 4 *
+       (gch->played + (int) (current_time - gch->logon))/3600
+       / gch->level;  
+
+  time_per_level = URANGE(2,time_per_level,12);
+  if (gch->level < 15)  
+      time_per_level = UMAX(time_per_level,(15 - gch->level));
+  xp = xp * time_per_level / 12;
+ *****/ 
+  }
+   
+    /* randomize the rewards */
+    xp = number_range (xp * 4/5, xp * 6/5);
+
+    /* adjust for grouping */
+    if ( total_levels > gch->level)
+    xp = xp * gch->level/( UMAX(1,total_levels -4) );
+
+    /* Adjust for WIS */
+    xp = ( ( 100 + get_curr_stat(gch,STAT_WIS) ) * xp ) / 100;
+ 
+     if ( gch->clan == clan_lookup("outcast") && (gch->pcdata->outcT > 0) )
+     xp /= 2;
+
+    /* smurf grouping extra */
+    if (gch->race == race_lookup("smurf") && smurf_group_count(gch) > 1)
+       xp = 3 * xp / 2; 
+
+    xp = 90 * xp / 100; /* Gradually step this down until it's about 75 */
+
+/* no exp for killing the same person twice */
+    if (!IS_NPC(victim))
+       if (!str_cmp(gch->pcdata->last_kill,victim->name))
+          xp = 0;
+
+
+    /* double EXP day for the 25th of each month  
+    --- Dont forget to change 'override' to TRUE in act_wiz.c   
+*/
+    if (xp > 0 && override)
+    {
+       switch( number_percent() )
+       {
+       case 1: 
+	   do_spreward(gch,"all 1");
+	   break;
+       case 2:
+	    act("You feel a rejuvenating rush.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+            gch->pcdata->skill_point_timer = 0;
+	    gch->pcdata->skill_point_tracker = 0;
+	    break;
+       case 3:
+	    act("You have been rewarded by the gods instead.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+            gch->skill_points += 5;
+	    gch->pcdata->skill_point_tracker += 5;
+	    break;
+       case 4:
+	    act("Boogums gives you a great big hulking Bear Hug!",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+            xp *= 3; 
+	    break;
+       case 5:
+	    act("Now what did they ever do to you to deserve that?",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+            gch->skill_points += 1;
+	    xp *= 2;
+	    break;
+       case 6:
+	    act("A shard has fallen out of Poquah's wallet into your own.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+            obj_to_char(create_object(get_obj_index(OBJ_VNUM_SHARD),0,FALSE),gch);
+	    break;
+       case 7:
+	    act("Dallas has given you the power to heal all.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    do_restore(gch,"all");
+	    break;
+       case 8:
+	    act("Firestorm is a Simp!",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 9:
+	    act("Prowler teaches you to do the Roxbury.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 10:
+	    act("Rage toasts you with a huge ass cup of Coffee.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 11:
+	    act("Strife, Strife... oh what a life.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 12:
+	    act("Valder is still around ya know.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 13:
+	    act("Smile or we'll sick Boogums on you.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 14:
+	    act("Ruiner of all things good.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 15:
+	    act("Its not Rage's Birthday, but he's still an old fart.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 16:
+	    act("You are so generous you share the wealth.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+            do_reward(gch,"all 200");
+	    xp *= 2;
+	    break;
+       case 17:
+	    act("Minister performs the last rites.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 18:
+	    act("Nimthas screams 'Eek!' and runs away.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 19:
+	    act("Robinhood hands you a golden arrow.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 20:
+	    act("Tiag yells ... No Don't Say It!.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 2;
+	    break;
+       case 21:
+	    act("*Squish* goes the Communion bug and the crowd cheers!",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    xp *= 3;
+            gch->gold += 100;
+	    break;
+       case 22:
+	    act("Gillian says 'Have a beer!'.",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+            obj_to_char(create_object(get_obj_index(3001),0,FALSE),gch);
+	    xp *=2;
+	    break;
+       case 23:
+	    xp *= 2; 
+            if( gch->exp + xp > (exp_per_level(gch,gch->pcdata->points) * (gch->level+1)) && gch->level < 50 )
+	    {
+	       act("Prowler thinks you deserve an extra level!",
+                   gch,NULL,NULL,TO_CHAR,FALSE);
+               gch->exp += exp_per_level(gch,gch->pcdata->points);
+	    }
+	    break;
+       case 24:
+	    xp *= 4;
+	    act("You spot Rage wearing a cowboy hat and samurai shirt!",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    break;
+       case 25:
+	    xp *= 2;
+	    act("Firestorm sits alone in his basement instead of going on a date, say 'SIMP!'",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    break;
+       case 26:
+	    xp *= 2;
+	    act("Stylee walks by, shagging a goat.",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+	    break;
+       case 27:
+	    xp *= 2;
+	    act("Santiago secretes soething icky and gooey.",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+	    break;
+       case 28:
+	    xp *= 2;
+	    act("Randal stops by, and does nothing special.",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+	    break;
+       case 29:
+	    xp *= 2;
+	    act("Be sure to tickle Volcanic if you see him.",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+	    break;
+       case 30:
+	    xp *= 3;
+	    act("BADOOF! Damn that was an experience!",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+	    break;
+       case 31:
+	    xp *= 5;
+	    act("'Aloha', says Poquah practicing for his trip!",
+		gch,NULL,NULL,TO_CHAR,FALSE);
+	    break;
+       case 32:
+	    xp *= 2;
+	    act("I suppose you want me to say something witty... just take the double exp.",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+	    break;
+       case 33:
+	    xp *= 3;
+	    act("<Rent this space. Pester Prowler alot for more details.",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+	    break;
+       case 34:
+	    xp *= 2;
+	    act("Did you know Rage likes to sniff dwarven panties?",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+	    break;
+       case 35:
+	    xp *= 3;
+	    act("Have you heard that a certain P-word yelling Immortal has returned to Boinga?",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+	    break;
+       case 36:
+	    xp *= 2;
+	    act("In honor of ages gone by, enjoy this bottle and think of Poquah and Ruiner.",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+            obj_to_char(create_object(get_obj_index(4822),0,FALSE),gch);
+	    break;
+       case 37:
+	    xp *= 2;
+            affect_strip(gch,gsn_sanctuary);
+            REMOVE_BIT(gch->affected_by,AFF_SANCTUARY);
+            af.where     = TO_AFFECTS;
+    	    af.type      = gsn_sanctuary;
+    	    af.level     = 60;
+            af.duration  = 20;
+            af.location  = APPLY_NONE;
+            af.modifier  = 0;
+            af.bitvector = AFF_SANCTUARY;
+            affect_to_char( gch, &af );
+	    act("Nightdagger slams the door and says 'Another one one.'",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+            act( "$n is surrounded by a white aura.", gch, NULL, NULL, TO_ROOM ,FALSE);
+            send_to_char( "You are surrounded by a white aura.\n\r", gch );
+            break;
+       case 38:
+	    xp *= 2;
+            affect_strip(gch,skill_lookup("haste"));
+            REMOVE_BIT(gch->affected_by, AFF_HASTE);
+   	    af.where     = TO_AFFECTS;
+    	    af.type      = skill_lookup("haste");
+    	    af.level     = 1;
+      	    af.duration  = 30;
+    	    af.location  = APPLY_DEX;
+    	    af.modifier  = 5;
+   	    af.bitvector = AFF_HASTE;
+    	    affect_to_char( gch, &af );
+	    act("BriarRose asks, 'Do you have any french fried faerie wings?'",
+		 gch, NULL, NULL, TO_CHAR, FALSE);
+    	    send_to_char( "You feel yourself moving more quickly.\n\r", gch );
+    	    act("$n is moving more quickly.",gch,NULL,NULL,TO_ROOM,FALSE);
+            break;
+       default:
+	    xp *= 2;
+	    break;
+       }
+    }
+
+    if ( gch->race == race_lookup("gargoyle") && weather_info.sunlight >= SUN_RISE 
+	&& weather_info.sunlight <= SUN_SET )
+    {	/* up to a 25% bonus */
+	xp = (100+(gch->level/2)) * xp / 100;
+    }
+
+    if ( is_affected(gch,gsn_spirit_of_owl) )
+	xp = xp * (100+get_curr_stat(gch,STAT_WIS)) / 100;
+
+    /* Gradual XP reduction. yanked - test is over
+    return 57 * xp / 100;
+    */
+
+    return xp;
+}
+
+
+void dam_message( CHAR_DATA *ch, CHAR_DATA *victim,int dam,int dt,bool immune )
+{
+    char buf1[256], buf2[256], buf3[256];
+    const char *vs;
+    const char *vp;
+    const char *attack;
+    char punct;
+
+    if (ch == NULL || victim == NULL)
+  return;
+
+   if ( dam ==   0 ) { vs = "{ymiss{x"; vp = "{ymisses{x";    }
+    else if ( dam <=   4 ) { vs = "scratch";  vp = "scratches"; }
+    else if ( dam <=   8 ) { vs = "graze";  vp = "grazes";    }
+    else if ( dam <=  12 ) { vs = "hit";  vp = "hits";    }
+    else if ( dam <=  16 ) { vs = "injure"; vp = "injures";   }
+    else if ( dam <=  20 ) { vs = "wound";  vp = "wounds";    }
+    else if ( dam <=  24 ) { vs = "maul";       vp = "mauls";   }
+    else if ( dam <=  28 ) { vs = "decimate"; vp = "decimates"; }
+    else if ( dam <=  32 ) { vs = "devastate";  vp = "devastates";  }
+    else if ( dam <=  36 ) { vs = "maim"; vp = "maims";   }
+    else if ( dam <=  40 ) { vs = "MUTILATE"; vp = "MUTILATES"; }
+    else if ( dam <=  44 ) { vs = "DISEMBOWEL"; vp = "DISEMBOWELS"; }
+    else if ( dam <=  48 ) { vs = "DISMEMBER";  vp = "DISMEMBERS";  }
+    else if ( dam <=  52 ) { vs = "MASSACRE"; vp = "MASSACRES"; }
+    else if ( dam <=  56 ) { vs = "MANGLE"; vp = "MANGLES";   }
+    else if ( dam <=  60 ) { vs = "*** DEMOLISH ***";
+           vp = "*** DEMOLISHES ***";     }
+    else if ( dam <=  75 ) { vs = "*** DEVASTATE ***";
+           vp = "*** DEVASTATES ***";     }
+    else if ( dam <= 100)  { vs = "=== OBLITERATE ===";
+           vp = "=== OBLITERATES ===";    }
+    else if ( dam <= 125)  { vs = ">>> ANNIHILATE <<<";
+           vp = ">>> ANNIHILATES <<<";    }
+    else if ( dam <= 150)  { vs = "<<< ERADICATE >>>";
+           vp = "<<< ERADICATES >>>";     }
+    else                   { vs = "do {RUNSPEAKABLE{x things to";
+           vp = "does {RUNSPEAKABLE{x things to";   }
+
+    punct   = (dam <= 24) ? '.' : '!';
+
+    if ( dt == TYPE_HIT )
+    {
+  if (ch  == victim)
+  {
+      sprintf( buf1, "$n %s $melf%c",vp,punct);
+      sprintf( buf2, "You %s yourself%c",vs,punct);
+  }
+  else
+  {
+      sprintf( buf1, "$n %s $N%c",  vp, punct );
+      sprintf( buf2, "You %s $N%c", vs, punct );
+      sprintf( buf3, "$n %s you%c", vp, punct );
+  }
+    }
+    else
+    {
+  if ( dt >= 0 && dt < MAX_SKILL )
+      attack  = skill_table[dt].noun_damage;
+  else if ( dt >= TYPE_HIT
+  && dt <= TYPE_HIT + MAX_DAMAGE_MESSAGE) 
+      attack  = attack_table[dt - TYPE_HIT].name;
+  else
+  {
+      bug( "Dam_message: bad dt %d.", dt );
+      dt  = TYPE_HIT;
+      attack  = attack_table[0].name;
+  }
+
+  if (immune)
+  {
+      if (ch == victim)
+      {
+    sprintf(buf1,"$n is unaffected by $s own %s.",attack);
+    sprintf(buf2,"Luckily, you are immune to that.");
+      } 
+      else
+      {
+        sprintf(buf1,"$N is unaffected by $n's %s!",attack);
+        sprintf(buf2,"$N is unaffected by your %s!",attack);
+        sprintf(buf3,"$n's %s is powerless against you.",attack);
+      }
+  }
+  else
+  {
+      if (ch == victim)
+      {
+    sprintf( buf1, "$n's %s %s $m%c",attack,vp,punct);
+    sprintf( buf2, "Your %s %s you%c",attack,vp,punct);
+      }
+      else
+      {
+        sprintf( buf1, "$n's %s %s $N%c",  attack, vp, punct );
+        sprintf( buf2, "Your %s %s $N%c",  attack, vp, punct );
+        sprintf( buf3, "$n's %s %s you%c", attack, vp, punct );
+      }
+  }
+    }
+
+    if (ch == victim)
+    {
+  act(buf1,ch,NULL,NULL,TO_ROOM,FALSE);
+  act(buf2,ch,NULL,NULL,TO_CHAR,FALSE);
+    }
+    else
+    {
+      act( buf1, ch, NULL, victim, TO_NOTVICT ,FALSE);
+      act( buf2, ch, NULL, victim, TO_CHAR ,FALSE);
+      act( buf3, ch, NULL, victim, TO_VICT ,FALSE);
+    }
+
+    return;
+}
+
+
+
+/*
+ * Disarm a creature.
+ * Caller must check for successful attack.
+ */
+void disarm( CHAR_DATA *ch, CHAR_DATA *victim )
+{
+    OBJ_DATA *obj;
+
+    if ( ( obj = get_eq_char( victim, WEAR_WIELD ) ) == NULL )
+  return;
+
+    if ( IS_OBJ_STAT(obj,ITEM_NOREMOVE))
+    {
+  act("$S weapon won't budge!",ch,NULL,victim,TO_CHAR,FALSE);
+  act("$n tries to disarm you, but your weapon won't budge!",
+      ch,NULL,victim,TO_VICT,FALSE);
+  act("$n tries to disarm $N, but fails.",ch,NULL,victim,TO_NOTVICT,FALSE);
+  return;
+    }
+
+     /* Blademasters */
+    if ( number_percent() < ( get_skill(ch,gsn_disarm) / 10 )
+         && !IS_OBJ_STAT(obj,ITEM_NODROP) &&
+	 ch->class == class_lookup("blademaster") 
+	 && (!IS_NPC(ch) && !IS_SET(ch->mhs,MHS_GLADIATOR)))
+    {
+       act("$n {GDISARMS{x you, and sends your weapon into $s own hands!",
+	ch,NULL,victim,TO_VICT ,FALSE);
+       act("You disarm $N and send $S weapon into your own hands!",
+	ch,NULL,victim,TO_CHAR,FALSE);
+       act("$n disarms $N and catches the weapon!",ch,NULL,victim,TO_NOTVICT,FALSE);
+       obj_from_char( obj );
+       obj_to_char( obj, ch ); 
+
+       /* Primary has been disarmed move Secondary to Primary */
+       /* moved to handler.c
+       if ((obj = get_eq_char(victim,WEAR_SECOND)) != NULL)
+       {
+	  obj_from_char( obj );
+	  obj_to_char( obj, victim);
+	  equip_char( victim, obj, WEAR_WIELD );
+       }
+       */
+    }
+    else
+    {
+    act( "$n {GDISARMS{x you and sends your weapon flying!", 
+   ch, NULL, victim, TO_VICT    ,FALSE);
+    act( "You disarm $N!",  ch, NULL, victim, TO_CHAR    ,FALSE);
+    act( "$n disarms $N!",  ch, NULL, victim, TO_NOTVICT ,FALSE);
+
+    obj_from_char( obj );
+    if ( IS_OBJ_STAT(obj,ITEM_NODROP) || IS_OBJ_STAT(obj,ITEM_INVENTORY)
+	 || (!IS_NPC(victim) && IS_SET(victim->mhs,MHS_GLADIATOR)))
+  obj_to_char( obj, victim );
+    else
+    {
+  obj_to_room( obj, victim->in_room );
+  if (IS_NPC(victim) && victim->wait == 0 && can_see_obj(victim,obj))
+      get_obj(victim,obj,NULL);
+    }
+
+       /* Primary has been disarmed move Secondary to Primary */
+       /* moved to handler.c
+       if ((obj = get_eq_char(victim,WEAR_SECOND)) != NULL)
+       {
+          obj_from_char( obj );
+          obj_to_char( obj, victim);
+	  equip_char( victim, obj, WEAR_WIELD );
+       }
+       */
+    }
+
+    return;
+}
+
+void do_dae_tok( CHAR_DATA *ch, char *argument )
+{
+    int skill;
+    AFFECT_DATA af;
+
+    if( ch->race != race_lookup("yinn") )
+	return;
+
+    if ( is_affected(ch,gsn_dae_tok) )
+    {
+	send_to_char("You already did that.\n\r",ch);
+	return;
+    }
+
+    if ( ch->move < 10 )
+    {
+	send_to_char("You must rest.\n\r",ch);
+	return;
+     }
+
+     ch->move -= apply_chi(ch,10 );
+     
+     WAIT_STATE(ch,skill_table[gsn_dae_tok].beats);
+
+    if ( number_percent() > ( skill = get_skill(ch,gsn_dae_tok) ) )
+    {
+	check_improve(ch,gsn_dae_tok,FALSE,2); 
+	send_to_char("You failed.\n\r",ch);
+	return;
+    }
+ 
+    check_improve(ch,gsn_dae_tok,TRUE,4);
+    af.where		= TO_AFFECTS;
+    af.type		= gsn_dae_tok;
+    af.level		= ch->level;
+    af.duration		= skill / 8;
+    af.modifier		= skill / 20;
+    af.location		= APPLY_HITROLL;
+    af.bitvector	= 0;
+    affect_to_char(ch,&af);
+
+     af.location		= APPLY_DAMROLL;
+     affect_to_char(ch,&af);
+
+     send_to_char("You put yourself into a state of combat readiness.\n\r",ch);
+     act("$n quietly utters a yinnish mantra.",ch,NULL,NULL,TO_ROOM,FALSE);
+     return;
+}
+
+void do_berserk( CHAR_DATA *ch, char *argument)
+{
+    char buf[MAX_STRING_LENGTH];
+    int chance, hp_percent;
+
+    if ((chance = get_skill(ch,gsn_berserk)) == 0
+    ||  (IS_NPC(ch) && !IS_SET(ch->off_flags,OFF_BERSERK))
+    ||  (!IS_NPC(ch)
+    &&   ch->level < skill_level(ch,gsn_berserk)))
+    {
+  send_to_char("You turn red in the face, but nothing happens.\n\r",ch);
+  return;
+    }
+
+    if (IS_AFFECTED(ch,AFF_BERSERK) || is_affected(ch,gsn_berserk)
+    || ( is_affected(ch,skill_lookup("frenzy")) &&
+	 ch->race != race_lookup("dwarf") ) ) 
+    {
+  send_to_char("You get a little madder.\n\r",ch);
+  return;
+    }
+
+    if (IS_AFFECTED(ch,AFF_CALM))
+    {
+  send_to_char("You're feeling too mellow to berserk.\n\r",ch);
+  return;
+    }
+
+    if (ch->mana < 50)
+    {
+  send_to_char("You can't get up enough energy.\n\r",ch);
+  return;
+    }
+
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR))
+    {
+       sprintf(buf,"%s goes berserk! The crowd goes wild!",ch->name);
+       gladiator_talk(buf);
+    }
+
+    /* modifiers */
+
+    /* fighting */
+    if (ch->position == POS_FIGHTING)
+  chance += 10;
+
+    /* damage -- below 50% of hp helps, above hurts */
+    hp_percent = 100 * ch->hit/ch->max_hit;
+    chance += 25 - hp_percent/2;
+
+    if (number_percent() < chance)
+    {
+  AFFECT_DATA af;
+
+  WAIT_STATE(ch,PULSE_VIOLENCE);
+  ch->mana -= 50;
+  ch->move *= 50;
+  ch->move /= UMAX(60,apply_chi(ch,100));
+
+  /* heal a little damage */
+  ch->hit += ch->level * 2;
+  ch->hit = UMIN(ch->hit,ch->max_hit);
+
+  send_to_char("Your pulse races as you are consumed by rage!\n\r",ch);
+  act("$n gets a wild look in $s eyes.",ch,NULL,NULL,TO_ROOM,FALSE);
+  check_improve(ch,gsn_berserk,TRUE,2);
+
+  af.where  = TO_AFFECTS;
+  af.type   = gsn_berserk;
+  af.level  = ch->level;
+  af.duration = number_fuzzy(ch->level / 8);
+  af.modifier = UMAX(1, ch->level/5);
+
+  if ( !IS_NPC(ch) && ( ch->pcdata->old_class != class_lookup("warrior") &&
+	ch->class != class_lookup("berzerker")))
+	af.modifier = UMAX(1,ch->level/7);
+
+  if ( !IS_NPC(ch) && ( ch->pcdata->old_class == class_lookup("warrior") &&
+	ch->class != class_lookup("berzerker")))
+	af.modifier = UMAX(1,ch->level/5);
+
+  if ( !IS_NPC(ch) && ( ch->class == class_lookup("berzerker")))
+	af.modifier = UMAX(1,ch->level/4 + 1);
+  
+
+  af.bitvector  = AFF_BERSERK;
+
+  af.location = APPLY_HITROLL;
+  affect_to_char(ch,&af);
+
+  af.location = APPLY_DAMROLL;
+  affect_to_char(ch,&af);
+
+  af.modifier = UMAX(10,10 * (ch->level/5));
+  af.location = APPLY_AC;
+  affect_to_char(ch,&af);
+    }
+
+    else
+    {
+  WAIT_STATE(ch,2 * PULSE_VIOLENCE);
+  ch->mana -= 25;
+  ch->move *= 50;
+  ch->move /= UMAX(60,apply_chi(ch,100));
+
+  send_to_char("Your pulse speeds up, but nothing happens.\n\r",ch);
+  check_improve(ch,gsn_berserk,FALSE,2);
+    }
+}
+
+void do_grenade( CHAR_DATA *ch, char *argument )
+{
+    int dam, chance;
+    char arg[MAX_INPUT_LENGTH];
+    char arg2[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+    OBJ_DATA *grenade;
+    int iMiss;
+    argument = one_argument( argument, arg );
+    one_argument( argument, arg2 );
+
+    if ( arg[0] == '\0' || argument[0] == '\0' )
+    {
+	send_to_char("Syntax: grenade <item> <victim>\n\r",ch);
+	return;
+    }
+
+    if ( ( victim = get_char_room(ch,arg2) ) == NULL  && str_cmp(arg2,"ground"))
+    {
+	send_to_char("Nobody here by that name.\n\r",ch);
+	return;
+    }
+
+    if ( is_safe(ch,victim) )
+    {
+	send_to_char("Go play with someone else, they aren't worth your time.\n\r",ch);
+	return;
+    }
+
+    if ( IS_NPC(victim) && victim->fighting != NULL &&
+	  !is_same_group(ch,victim->fighting))
+    {
+	send_to_char("No kill stealing, dammit.\n\r",ch);
+	return;
+    }
+
+    if ( IS_AFFECTED(ch,AFF_CHARM) && ch->master == victim)
+    {
+	act("But $N is your friend!",ch,NULL,victim,TO_CHAR,FALSE);
+	return;
+    }
+
+    if ( ( grenade = get_obj_carry( ch, arg ) ) == NULL )
+    {
+	send_to_char("You aren't carrying that.\n\r",ch);
+	return;
+    }
+
+    if ( grenade->item_type != ITEM_GRENADE )
+    {
+       send_to_char("That isn't a grenade weapon.\n\r",ch);
+       return;
+    }
+
+    check_killer( ch, victim );
+
+    dam = dice( grenade->value[0], grenade->value[1] );
+    chance = 100 - ( get_curr_stat( victim, STAT_DEX ) * 3 );
+    chance += ( victim->level - ch->level ) * 5;
+    chance += ( !can_see(victim,ch,FALSE) ) ? 15 : 0;
+    chance *= ( IS_AWAKE(victim) ) ? 1 : 2;
+
+    /* Miss */
+    if ( number_percent() < chance )
+    {
+	act("$n lobs $p at $N, but misses.",ch,grenade,victim,TO_NOTVICT,FALSE);
+	act("You lob $p at $N but miss.",ch,grenade,victim,TO_CHAR,FALSE);
+	act("$n lobs $p at you, but misses.",ch,grenade,victim,TO_VICT,FALSE);
+	/* Add handling for spaslh here */
+	iMiss = TARGET_ROOM;
+	obj_from_char( grenade );
+	extract_obj( grenade );
+    }
+    else
+    {
+	act("You hit $N with $p!",ch,grenade,victim,TO_CHAR,FALSE);
+	act("$n hits you with $p!",ch,grenade,victim,TO_VICT,FALSE);
+	act("$n hits $N with $p!",ch,grenade,victim,TO_NOTVICT,FALSE);
+	obj_from_char( grenade );
+	extract_obj( grenade );
+	damage(ch,victim,dam,grenade->value[4]+TYPE_HIT,attack_table[grenade->value[4]].damage,TRUE,FALSE);
+	/* add handling for special effects here */
+	iMiss = TARGET_CHAR;
+    }
+    /* special affects, based on damage type, hit either the character
+       if the grenade hits the target, or the room, if grenade misses */
+    switch ( attack_table[grenade->value[4]].damage )
+    {
+      case DAM_COLD:
+         cold_effect(victim, grenade->value[1],dam,iMiss);
+	 break;
+      case DAM_FIRE:
+	 fire_effect(victim, grenade->value[1],dam,iMiss);
+	 break;
+      case DAM_ACID:
+	 acid_effect(victim,grenade->value[1],dam,iMiss);
+	 break;
+      case DAM_LIGHTNING:
+	 shock_effect(victim,grenade->value[1],dam,iMiss);
+	 break;
+    }
+    WAIT_STATE( ch, 6  );
+    return;
+}
+
+
+
+
+
+
+
+
+
+
+
+void do_throw( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    char buf[MAX_STRING_LENGTH];
+    CHAR_DATA *victim;
+    int chance;
+
+    one_argument(argument,arg);
+
+    if ( (chance = get_skill(ch,gsn_throw)) == 0
+    ||   (!IS_NPC(ch)
+    &&    ch->level < skill_level(ch,gsn_throw)))
+    {
+  send_to_char("Throw? What? Huh?\n\r",ch);
+  return;
+    }
+    if (is_mounted(ch) )
+    {
+    send_to_char("So, you're going to get off your horse and throw them?\r\n",ch);
+    return;
+    }
+
+    if (arg[0] == '\0')
+    {
+  victim = ch->fighting;
+  if (victim == NULL)
+  {
+      send_to_char("But you aren't fighting anyone!\n\r",ch);
+      return;
+  }
+    }
+    
+    else if ((victim = get_char_room(ch,arg)) == NULL)
+    {
+  send_to_char("They aren't here.\n\r",ch);
+  return;
+    }
+    
+    if (victim->position < POS_FIGHTING)
+    {
+  act("You'll have to let $M get back up first.",ch,NULL,victim,TO_CHAR,FALSE);
+  return;
+    }
+     
+    if (victim == ch)
+    {
+  send_to_char("You try to flip over to everyone's delight.\n\r",ch);
+  return;
+    }
+    
+    if ( ch->move < (ch->level/15) )
+    {
+        send_to_char("You're too exhausted.\n\r",ch);
+        return;
+    }
+    ch->move -= apply_chi(ch,(ch->level/15));
+
+    if (is_safe(ch,victim))
+  return;
+
+    if (victim->fighting != NULL &&
+       IS_SET(victim->mhs,MHS_HIGHLANDER) && IS_SET(ch->mhs,MHS_HIGHLANDER))
+    {
+       send_to_char("Honorable combat is one on one.\n\r",ch);
+       return;
+    }
+
+    if ( IS_NPC(victim) &&
+  victim->fighting != NULL &&
+  !is_same_group(ch,victim->fighting))
+    {
+        send_to_char("Kill stealing is not permitted.\n\r",ch);
+        return;
+    }
+    
+    if (IS_AFFECTED(ch,AFF_CHARM) && ch->master == victim)
+    {
+  act("But $N is your friend!",ch,NULL,victim,TO_CHAR,FALSE);
+  return;
+    }
+    
+  check_killer(ch,victim);
+
+    if( is_affected(victim,skill_lookup("orb of touch")) )
+    {
+        send_to_char("You bounce off an orb of touch.\n\r",ch);
+        check_dispel( ch->level , victim, skill_lookup("orb of touch"));
+        WAIT_STATE(ch,skill_table[gsn_throw].beats/2);
+        return;
+    }
+    
+    /* modifiers */
+
+    /* size  and weight */
+    chance -= victim->carry_weight / 200;
+
+    /* stats */
+    chance += get_curr_stat(ch,STAT_STR);
+    chance -= (get_curr_stat(victim,STAT_DEX) * 4)/3;
+    /* speed */
+    if (IS_SET(ch->off_flags,OFF_FAST) || IS_AFFECTED(ch,AFF_HASTE))
+        chance += 30;
+    if (IS_SET(victim->off_flags,OFF_FAST) || IS_AFFECTED(victim,AFF_HASTE))
+        chance -= 10;
+
+    /* level */
+    chance += 2*(ch->level - victim->level);
+
+    /* race */
+    /*
+    if (victim->race == race_lookup("kender")) chance = (3*chance) / 4;
+    */
+
+    /* Dodge lowers the chance of landing throw, up to -33% */
+    if (!IS_NPC(victim))
+       chance -= (get_skill(victim,gsn_dodge)/3 );
+
+    /* Always a slim chance it will land */
+    if (chance < 0 )
+       chance = 1; 
+    
+    if( victim->race == race_lookup("kender")
+        && number_percent() <= victim->level)
+    {
+        act("You roll out of the way of $n's throw.",ch,NULL,victim,TO_VICT,FALSE);
+        act("$N rolls to safety, you fall flat on your face.",ch,NULL,victim,TO_CHAR,FALSE);
+        if (IS_AFFECTED(ch,AFF_SLOW))
+                WAIT_STATE(ch,skill_table[gsn_throw].beats+12);
+        else
+                WAIT_STATE(ch,skill_table[gsn_throw].beats);
+        return;
+    }
+
+    /* now the attack */
+    if (number_percent() <= chance )
+    {
+    
+  act("$n flips you to the ground with an amazing throw!",
+    ch,NULL,victim,TO_VICT,FALSE);
+  act("You flip $N with a throw and send $M to the ground!",
+	ch,NULL,victim,TO_CHAR,FALSE);
+  act("$n throws $N to the ground.", ch,NULL,victim,TO_NOTVICT,FALSE);
+  check_improve(ch,gsn_throw,TRUE,1);
+
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent() < 50)
+    {
+       sprintf(buf,"%s throws %s to the ground! I bet that hurt.",ch->name,victim->name);
+       gladiator_talk(buf);
+    }
+  DAZE_STATE(victim, 3 * PULSE_VIOLENCE);
+  WAIT_STATE(ch,skill_table[gsn_throw].beats);
+  victim->position = POS_RESTING;
+  damage(ch,victim,number_range(2,2 + 2 * ch->size + chance/20),gsn_throw,
+      DAM_BASH,FALSE,FALSE);
+ 
+    }
+    else
+    {
+  damage(ch,victim,0,gsn_throw,DAM_BASH,FALSE,FALSE);
+  act("You fall flat on your face!",
+      ch,NULL,victim,TO_CHAR,FALSE);
+  act("$n falls flat on $s face.",
+      ch,NULL,victim,TO_NOTVICT,FALSE);
+  act("You evade $n's throw, causing $m to fall flat on $s face.",
+      ch,NULL,victim,TO_VICT,FALSE);
+  check_improve(ch,gsn_throw,FALSE,1);
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent() < 50)
+    {
+       sprintf(buf,"%s tried to throw %s to the ground, %s eats dirt instead.",ch->name,victim->name,ch->name);
+       gladiator_talk(buf);
+    }
+  ch->position = POS_RESTING;
+  WAIT_STATE(ch,skill_table[gsn_bash].beats * 3/2);
+    }
+    
+  return;
+}
+
+
+void do_tail_slap(   CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    char buf[MAX_STRING_LENGTH];
+    CHAR_DATA *victim;
+    int chance;
+
+    one_argument(argument,arg);
+ 
+    if (!IS_SET(race_table[ch->race].parts,PART_TAIL) )
+    {
+        send_to_char("Huh?\n\r", ch);
+        return;
+    }
+
+    if( is_affected(ch,skill_lookup("wraithform")) )
+    {
+    send_to_char("Not while in wraithform.\r\n",ch);
+    return;
+    }
+
+    if (arg[0] == '\0')
+    {
+        victim = ch->fighting;
+        if (victim == NULL)
+        {
+            send_to_char("You're not fighting anybody.\n\r",ch);
+            return;
+        }
+    }
+    else if ((victim = get_char_room(ch,arg)) == NULL)
+    {
+        send_to_char("They're not here.\n\r",ch);
+        return;
+    }
+
+    if (victim == ch)
+    {
+        send_to_char("You chase your tail.\n\r",ch);
+        return;
+    }
+
+    if (is_safe(ch,victim))
+        return;
+
+if( is_affected(victim,skill_lookup("wraithform")) )
+{
+send_to_char("Your tail passes right through their misty form.\r\n",ch);
+return;
+}
+
+    if (victim->fighting != NULL &&
+       IS_SET(victim->mhs,MHS_HIGHLANDER) && IS_SET(ch->mhs,MHS_HIGHLANDER))
+    {
+       send_to_char("Honorable combat is one on one.\n\r",ch);
+       return;
+    }
+
+    if ( IS_NPC(victim) && 
+        victim->fighting != NULL && 
+        !is_same_group(ch,victim->fighting))
+    {
+        send_to_char("Kill stealing is not permitted.\n\r",ch);
+        return;
+    }
+    
+    if (IS_AFFECTED(ch,AFF_CHARM) && ch->master == victim)
+    {
+      act("$N is your beloved master.",ch,NULL,victim,TO_CHAR,FALSE);
+	return;
+    }
+
+    check_killer(ch,victim);
+      
+    if( is_affected(victim,skill_lookup("orb of touch")) )                     
+      {                                                                      
+        send_to_char("You bounce off an orb of touch.\n\r",ch);                
+        check_dispel( ch->level , victim, skill_lookup("orb of touch"));       
+        WAIT_STATE(ch, 2*PULSE_VIOLENCE);                        
+	return;
+      }  
+
+
+    /* Compute chance of landing the tail slap.
+     * Tail slap is based on your size, level, and hours.
+     * Defense is just a dodge, basically.
+     */
+
+    chance = ch->level + ( ch->size * 5 );
+    chance += ( IS_NPC(ch) ? 0 : ( 2 * ch->level / 3 ) );
+    chance += ( ch->hit / 100 );
+    chance -= get_curr_stat(victim,STAT_DEX)*2;
+    chance -= ( victim->size * 3 );
+    
+    if (victim->race == race_lookup("kender")) chance = (3*chance) / 4;
+
+    chance = URANGE( 10, chance, 90 );
+
+    if ( number_percent() < chance )
+    {
+        act("$n sends you to the ground with a tail slap!",
+                ch,NULL,victim,TO_VICT,FALSE);
+        act("You knock $N to the ground with your tail!",ch,NULL,victim,TO_CHAR,FALSE);
+        act("$n knocks $N to the ground with $s tail!",
+                ch,NULL,victim,TO_NOTVICT,FALSE);
+       
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent() < 50)
+    {
+       sprintf(buf,"%s trips up %s's feet , score one for the dragons.",ch->name,victim->name);
+       gladiator_talk(buf);
+    }
+        DAZE_STATE(victim, 2 * PULSE_VIOLENCE);
+        WAIT_STATE(ch,2 * PULSE_VIOLENCE);
+	damage(ch,victim,dice(ch->level /10+1,8),gsn_bash,DAM_BASH,FALSE,FALSE);
+	/*
+        victim->position = POS_RESTING;
+	*/
+    }
+
+    else
+    {
+        WAIT_STATE(ch,2 * PULSE_VIOLENCE); 
+	  act("You attempt to whip $N with your tail, but {ymiss{x.",ch,NULL,victim,TO_CHAR,FALSE);
+	  act("$n attempts to whip you with $s tail, but {ymisses{x.",ch,NULL,victim,TO_VICT,FALSE);
+	  act("$n attempts to whip $N with $s tail, but {ymisses{x.",ch,NULL,victim,TO_NOTVICT,FALSE);
+	  damage(ch,victim,0,gsn_bash,DAM_BASH,FALSE,FALSE);
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent() < 50)
+    {
+       sprintf(buf,"Some dragons just can't use their tails well, %s failed to trip up %s.",ch->name,victim->name);
+       gladiator_talk(buf);
+    }
+    }
+
+    return;
+}
+
+void do_bash( CHAR_DATA *ch, char *argument )
+{
+    bool fGiant = FALSE;
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+    int chance;
+    char buf[MAX_STRING_LENGTH];
+
+    one_argument(argument,arg);
+ 
+    if ( (chance = get_skill(ch,gsn_bash)) == 0
+    ||   (IS_NPC(ch) && !IS_SET(ch->off_flags,OFF_BASH))
+    ||   (!IS_NPC(ch)
+    &&    ch->level < skill_level(ch,gsn_bash)))
+    { 
+  send_to_char("Bashing? What's that?\n\r",ch);
+  return;
+    }
+
+    if( is_affected(ch,skill_lookup("wraithform")) )
+    {
+    send_to_char("Not while in wraithform.\r\n",ch);
+    return;
+    }
+
+ 
+    if (arg[0] == '\0')
+    {
+  victim = ch->fighting;
+  if (victim == NULL)
+  {
+      send_to_char("But you aren't fighting anyone!\n\r",ch);
+      return;
+  }
+    }
+
+    else if ((victim = get_char_room(ch,arg)) == NULL)
+    {
+  send_to_char("They aren't here.\n\r",ch);
+  return;
+    }
+
+    if (victim->position < POS_FIGHTING)
+    {
+  act("You'll have to let $M get back up first.",ch,NULL,victim,TO_CHAR,FALSE);
+  return;
+    } 
+
+    if (victim == ch)
+    {
+  send_to_char("You try to bash your brains out, but fail.\n\r",ch);
+  return;
+    }
+
+    if ( ch->move < (ch->level/15) )
+    {   
+        send_to_char("You're too exhausted.\n\r",ch);
+        return;
+    }
+    ch->move -= apply_chi(ch,(ch->level/15));
+
+    if (is_safe(ch,victim))
+  return;
+    if( is_affected(victim,skill_lookup("wraithform")) )
+    {
+    send_to_char("You bash your way through their misty form.\r\n",ch);
+    return;
+    }
+
+
+
+    if (victim->fighting != NULL &&
+       IS_SET(victim->mhs,MHS_HIGHLANDER) && IS_SET(ch->mhs,MHS_HIGHLANDER))
+    {
+       send_to_char("Honorable combat is one on one.\n\r",ch);
+       return;
+    }
+
+    if ( IS_NPC(victim) && 
+  victim->fighting != NULL && 
+  !is_same_group(ch,victim->fighting))
+    {
+        send_to_char("Kill stealing is not permitted.\n\r",ch);
+        return;
+    }
+
+    if (IS_AFFECTED(ch,AFF_CHARM) && ch->master == victim)
+    {
+  act("But $N is your friend!",ch,NULL,victim,TO_CHAR,FALSE);
+  return;
+    }
+
+  check_killer(ch,victim);
+
+    fGiant = ( ch->race == race_lookup("giant") || ch->race == race_lookup("ogre") );
+
+    if( is_affected(victim,skill_lookup("orb of touch")) )
+    {
+	send_to_char("You bounce off an orb of touch.\n\r",ch);
+	/* Giants and ogres get a +10% chance to dispel an orb of touch with bash */
+	check_dispel( !fGiant ? ch->level : (ch->level + (ch->level/10)) , victim, skill_lookup("orb of touch"));
+	if (IS_AFFECTED(ch,AFF_SLOW)) 
+	    WAIT_STATE(ch,skill_table[gsn_bash].beats);
+	else
+	    WAIT_STATE(ch,skill_table[gsn_bash].beats/2);
+	return;
+    }
+
+    /* modifiers */
+    /* size  and weight */
+    chance += ch->carry_weight / 250;
+    chance -= victim->carry_weight / 200;
+
+    if (!IS_NPC(ch) &&   ch->pcdata->old_class != class_lookup("warrior") )
+    	chance -= 25;
+
+    if (ch->size < victim->size)
+  chance += (ch->size - victim->size) * 15;
+    else
+  chance += (ch->size - victim->size) * 10; 
+
+
+    /* stats */
+    chance += get_curr_stat(ch,STAT_STR);
+    chance -= (get_curr_stat(victim,STAT_DEX) * 4)/3;
+    /* speed */
+    if (IS_SET(ch->off_flags,OFF_FAST) || IS_AFFECTED(ch,AFF_HASTE))
+        chance += 10;
+    if (IS_SET(victim->off_flags,OFF_FAST) || IS_AFFECTED(victim,AFF_HASTE))
+        chance -= 30;
+
+    /* level */
+    chance += (ch->level - victim->level);
+
+    /* magic */
+    if ( is_affected(victim,gsn_fumble) )
+    chance += 15;
+
+    /* race */
+    if (victim->race == race_lookup("kender")) chance = (3*chance) / 4;
+
+    /* mountes */
+    if ( is_mounted( victim ) && !is_mounted(ch) &&
+	victim->riding->size >= ch->size )
+	chance /= 2;
+    
+    if (!IS_NPC(victim) 
+       && chance < get_skill(victim,gsn_dodge) && !is_mounted(victim) )
+    { /*
+        act("$n tries to bash you, but you dodge it.",ch,NULL,victim,TO_VICT,FALSE);
+        act("$N dodges your bash, you fall flat on your face.",ch,NULL,victim,TO_CHAR,FALSE);
+	if (IS_AFFECTED(ch,AFF_SLOW))
+	    WAIT_STATE(ch,skill_table[gsn_bash].beats+12);
+	else
+            WAIT_STATE(ch,skill_table[gsn_bash].beats);
+        return;*/
+  chance -= 3 * (get_skill(victim,gsn_dodge) - chance);
+    }
+
+    if ( !IS_NPC(victim) &&  !is_mounted(victim) &&
+	  ((get_skill(victim,gsn_tumbling) > 0  &&
+	   (number_percent() + chance / 2) < get_skill(victim,gsn_tumbling))
+	|| (victim->race == race_lookup("kender") 
+	    && number_percent() <= victim->level)))
+    {
+	act("You roll out of the way of $n's bash.",ch,NULL,victim,TO_VICT,FALSE);
+	act("$N rolls to safety, you fall flat on your face.",ch,NULL,victim,TO_CHAR,FALSE);
+	check_improve(victim,gsn_tumbling,TRUE,3);
+	if (IS_AFFECTED(ch,AFF_SLOW))
+		WAIT_STATE(ch,skill_table[gsn_bash].beats+12);
+	else
+		WAIT_STATE(ch,skill_table[gsn_bash].beats);
+	return;
+    }
+
+    /* 20% bonus based on level */
+    if ( fGiant )
+	chance += 20;
+
+    /* now the attack */
+    if (number_percent() < chance )
+    {
+        act("$n sends you sprawling with a powerful bash!", ch,NULL,victim,TO_VICT,FALSE);
+        act("You slam into $N, and send $M flying!",ch,NULL,victim,TO_CHAR,FALSE);
+        act("$n sends $N sprawling with a powerful bash.", ch,NULL,victim,TO_NOTVICT,FALSE);
+        check_improve(ch,gsn_bash,TRUE,1);
+	victim->position = POS_RESTING;
+        if ( IS_AFFECTED(ch,AFF_SLOW))
+                WAIT_STATE(ch,skill_table[gsn_bash].beats+12);
+        else
+                WAIT_STATE(ch,skill_table[gsn_bash].beats);
+
+        /* Gladiator Spectator Channel */
+        if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent() < 50)
+        {
+           sprintf(buf,"Somebody get the number of that wagon! %s just got slammed by %s.",victim->name,ch->name);
+           gladiator_talk(buf);
+        }
+
+        if ( is_mounted(victim) ) /* knocked off horse */
+  	{
+  	    if ( number_percent() < get_skill(victim,gsn_riding/3) )
+	    {
+		act("You manage to stay on your mount.",victim,NULL,NULL,TO_CHAR,FALSE);
+		act("$n manages to stay mounted.",victim,NULL,NULL,TO_ROOM,FALSE);
+		DAZE_STATE(victim, PULSE_VIOLENCE);
+                damage(ch,victim,number_range(2,2 + 2 * ch->size + chance/20),gsn_bash, DAM_BASH,FALSE,TRUE);
+		return;
+	    }
+  	    else
+  	    {
+  		act("$n falls from $s mount!",victim,NULL,NULL,TO_ROOM,FALSE);
+  		act("You fall from your mount!",victim,NULL,NULL,TO_CHAR,FALSE);
+		victim->riding->passenger = NULL;
+		victim->riding = NULL;
+		DAZE_STATE(victim, PULSE_VIOLENCE*4);
+                damage(ch,victim,number_range(2,2 + 2 * ch->size + chance/20),gsn_bash, DAM_BASH,FALSE,TRUE);
+		return;
+            }
+        }
+
+  	    if ( number_percent() + chance < get_skill(victim,gsn_tumbling) && get_skill(victim,gsn_tumbling) > 0 )
+   	    {
+     	 	act("$n rolls to $s feet!",victim,NULL,NULL,TO_ROOM,FALSE);
+      	 	act("You roll to your feet.",victim,NULL,NULL,TO_CHAR,FALSE);
+		victim->position = POS_STANDING;
+      	 	check_improve(ch,gsn_tumbling,TRUE,3);
+	  	DAZE_STATE(victim, PULSE_VIOLENCE);
+                damage(ch,victim,number_range(2,2 + 2 * ch->size + chance/20),gsn_bash, DAM_BASH,FALSE,TRUE);
+	  	return;
+  	    }
+
+	/* Not mounted.  Now figure out delay - 2 or 3 rounds */
+	/* Ogres/giants have enhanced chance to lay 'em out flat */
+	/* Otherwise, compare STR versus some random chance. */
+	chance = get_curr_stat(ch,STAT_STR) + ( fGiant ? 10 : 0 );
+	if ( number_percent() < chance )
+     	        DAZE_STATE( victim, PULSE_VIOLENCE*3 );
+        else
+    		DAZE_STATE( victim, PULSE_VIOLENCE*5/2 );
+        damage(ch,victim,number_range(2,2 + 2 * ch->size + chance/20),gsn_bash, DAM_BASH,FALSE,TRUE);
+
+   }
+    else
+    {
+  damage(ch,victim,0,gsn_bash,DAM_BASH,FALSE,FALSE);
+  act("You fall flat on your face!",
+      ch,NULL,victim,TO_CHAR,FALSE);
+  act("$n falls flat on $s face.",
+      ch,NULL,victim,TO_NOTVICT,FALSE);
+  act("You evade $n's bash, causing $m to fall flat on $s face.",
+      ch,NULL,victim,TO_VICT,FALSE);
+  check_improve(ch,gsn_bash,FALSE,1);
+  ch->position = POS_RESTING;
+  if ( IS_AFFECTED(ch,AFF_SLOW) )
+      WAIT_STATE(ch,skill_table[gsn_bash].beats * 2 );
+  else
+      WAIT_STATE(ch,skill_table[gsn_bash].beats * 3/2); 
+    }
+
+  return;
+}
+
+void do_dirt( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+    int chance;
+    char buf[MAX_STRING_LENGTH];
+
+    one_argument(argument,arg);
+
+    if ( (chance = get_skill(ch,gsn_dirt)) == 0
+    ||   (IS_NPC(ch) && !IS_SET(ch->off_flags,OFF_KICK_DIRT))
+    ||   (!IS_NPC(ch)
+    &&    ch->level < skill_level(ch,gsn_dirt)))
+    {
+  send_to_char("You get your feet dirty.\n\r",ch);
+  return;
+    }
+
+    if (arg[0] == '\0')
+    {
+  victim = ch->fighting;
+  if (victim == NULL)
+  {
+      send_to_char("But you aren't in combat!\n\r",ch);
+      return;
+  }
+    }
+
+    else if ((victim = get_char_room(ch,arg)) == NULL)
+    {
+  send_to_char("They aren't here.\n\r",ch);
+  return;
+    }
+
+    if (IS_AFFECTED(victim,AFF_BLIND))
+    {
+  act("$E's already been blinded.",ch,NULL,victim,TO_CHAR,FALSE);
+  return;
+    }
+
+    if (victim == ch)
+    {
+  send_to_char("Very funny.\n\r",ch);
+  return;
+    }
+
+    if (victim->fighting != NULL &&
+       IS_SET(victim->mhs,MHS_HIGHLANDER) && IS_SET(ch->mhs,MHS_HIGHLANDER))
+    {
+       send_to_char("Honorable combat is one on one.\n\r",ch);
+       return;
+    }
+
+    if( is_affected(victim,skill_lookup("wraithform")) )
+    {
+    send_to_char("Your well kicked clods of dirt pass right through them.\r\n",ch);
+    return;
+    }
+
+
+    if (is_safe(ch,victim))
+  return;
+    if (IS_NPC(victim) &&
+   victim->fighting != NULL && 
+  !is_same_group(ch,victim->fighting))
+    {
+        send_to_char("Kill stealing is not permitted.\n\r",ch);
+        return;
+    }
+
+    if (IS_AFFECTED(ch,AFF_CHARM) && ch->master == victim)
+    {
+  act("But $N is such a good friend!",ch,NULL,victim,TO_CHAR,FALSE);
+  return;
+    }
+
+    /* modifiers */
+
+    /* dexterity */
+    chance += get_curr_stat(ch,STAT_DEX);
+    chance -= 2 * get_curr_stat(victim,STAT_DEX);
+
+    /* speed  */
+    if (IS_SET(ch->off_flags,OFF_FAST) || IS_AFFECTED(ch,AFF_HASTE))
+  chance += 10;
+    if (IS_SET(victim->off_flags,OFF_FAST) || IS_AFFECTED(victim,AFF_HASTE))
+  chance -= 25;
+    if (!IS_NPC(ch) && ( ch->pcdata->old_class != class_lookup("warrior") &&
+			 ch->pcdata->old_class != class_lookup("thief") ) )
+  chance -= 25;
+
+    /* level */
+    chance += (ch->level - victim->level) * 2;
+
+    /* sloppy hack to prevent false zeroes */
+    if (chance % 5 == 0)
+  chance += 1;
+
+    /* terrain */
+
+    switch(ch->in_room->sector_type)
+    {
+  case(SECT_INSIDE):    chance -= 20; break;
+  case(SECT_CITY):    chance -= 10; break;
+  case(SECT_FIELD):   chance +=  5; break;
+  case(SECT_FOREST):        break;
+  case(SECT_HILLS):       break;
+  case(SECT_MOUNTAIN):    chance -= 10; break;
+  case(SECT_WATER_SWIM):    chance  =  0; break;
+  case(SECT_WATER_NOSWIM):  chance  =  0; break;
+  case(SECT_AIR):     chance  =  0;   break;
+  case(SECT_DESERT):    chance += 10;   break;
+    }
+
+    if (chance == 0)
+    {
+  send_to_char("There isn't any dirt to kick.\n\r",ch);
+  return;
+    }
+
+  if ( ch->move < (ch->level/15) )
+    {
+	send_to_char("You're too exhausted.\n\r",ch);
+	return;
+    }
+
+  ch->move -= apply_chi(ch,(ch->level/15));
+  check_killer(ch,victim);
+
+    if( is_affected(victim,skill_lookup("orb of touch")) )
+    {
+	send_to_char("You bounce off an orb of touch.\n\r",ch);
+	check_dispel( ch->level , victim, skill_lookup("orb of touch"));
+	if (IS_AFFECTED(ch,AFF_SLOW)) 
+	    WAIT_STATE(ch,skill_table[gsn_dirt].beats);
+	else
+	    WAIT_STATE(ch,skill_table[gsn_dirt].beats/2);
+	return;
+    }
+
+    /* now the attack */
+    if (number_percent() < chance)
+    {
+  AFFECT_DATA af;
+  act("$n is blinded by the dirt in $s eyes!",victim,NULL,NULL,TO_ROOM,FALSE);
+  act("$n kickes dirt in your eyes!",ch,NULL,victim,TO_VICT,FALSE);
+        damage(ch,victim,number_range(2,5),gsn_dirt,DAM_NONE,FALSE,FALSE);
+  send_to_char("You can't see a thing!\n\r",victim);
+  check_improve(ch,gsn_dirt,TRUE,2);
+  WAIT_STATE(ch,skill_table[gsn_dirt].beats);
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent())
+    {
+       sprintf(buf,"%s throws sand in the eyes of %s. Very unsportsmanlike, but a good sport doesnt live long in the Arena",ch->name,victim->name);
+       gladiator_talk(buf);
+    }
+
+  af.where  = TO_AFFECTS;
+  af.type   = gsn_dirt;
+  af.level  = ch->level;
+  af.duration = 0;
+  af.location = APPLY_HITROLL;
+  af.modifier = -4;
+  af.bitvector  = AFF_BLIND;
+
+  affect_to_char(victim,&af);
+    }
+    else
+    {
+  damage(ch,victim,0,gsn_dirt,DAM_NONE,TRUE,FALSE);
+  check_improve(ch,gsn_dirt,FALSE,2);
+  WAIT_STATE(ch,skill_table[gsn_dirt].beats);
+    }
+}
+
+void do_trip( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+    int chance;
+    char buf[MAX_STRING_LENGTH];
+
+    one_argument(argument,arg);
+
+    if ( (chance = get_skill(ch,gsn_trip)) == 0
+    ||   (IS_NPC(ch) && !IS_SET(ch->off_flags,OFF_TRIP))
+    ||   (!IS_NPC(ch) 
+    && ch->level < skill_level(ch,gsn_trip)))
+    {
+  send_to_char("Tripping?  What's that?\n\r",ch);
+  return;
+    }
+
+    if (arg[0] == '\0')
+    {
+  victim = ch->fighting;
+  if (victim == NULL)
+  {
+      send_to_char("But you aren't fighting anyone!\n\r",ch);
+      return;
+  }
+    }
+
+    else if ((victim = get_char_room(ch,arg)) == NULL)
+    {
+  send_to_char("They aren't here.\n\r",ch);
+  return;
+    }
+
+    if ( victim == ch )
+    {
+	send_to_char("Doh!  You're such a clutz!\n\r",ch);
+	return;
+	}
+
+    if ( ch->move < (ch->level/15) )
+    {   
+        send_to_char("You're too exhausted.\n\r",ch);
+        return;
+    }
+    ch->move -= apply_chi(ch,(ch->level/15));
+
+    if( is_affected(victim,skill_lookup("wraithform")) )
+    {
+    send_to_char("They are made of mist.\r\n",ch);
+    return;
+    }
+
+
+    if (is_safe(ch,victim))
+  return;
+    if (victim->fighting != NULL &&
+       IS_SET(victim->mhs,MHS_HIGHLANDER) && IS_SET(ch->mhs,MHS_HIGHLANDER))
+    {
+       send_to_char("Honorable combat is one on one.\n\r",ch);
+       return;
+    }
+
+    if (IS_NPC(victim) &&
+   victim->fighting != NULL && 
+  !is_same_group(ch,victim->fighting))
+    {
+  send_to_char("Kill stealing is not permitted.\n\r",ch);
+  return;
+    }
+
+    if (victim->position < POS_FIGHTING)
+    {
+  act("$N is already down.",ch,NULL,victim,TO_CHAR,FALSE);
+  return;
+    }
+
+    if (victim == ch)
+    {
+  send_to_char("You fall flat on your face!\n\r",ch);
+  WAIT_STATE(ch,2 * skill_table[gsn_trip].beats);
+  act("$n trips over $s own feet!",ch,NULL,NULL,TO_ROOM,FALSE);
+  return;
+    }
+
+    if (IS_AFFECTED(ch,AFF_CHARM) && ch->master == victim)
+    {
+  act("$N is your beloved master.",ch,NULL,victim,TO_CHAR,FALSE);
+  return;
+    }
+
+  check_killer(ch,victim);
+
+    if( is_affected(victim,skill_lookup("orb of touch")) )
+    {
+        send_to_char("You bounce off an orb of touch.\n\r",ch);
+        check_dispel( ch->level , victim, skill_lookup("orb of touch"));
+	WAIT_STATE(ch,skill_table[gsn_trip].beats/2);
+        return;
+    }
+
+    /* modifiers */
+
+    /* size */
+    if (ch->size < victim->size)
+        chance += (ch->size - victim->size) * 10;  /* bigger = harder to trip */
+
+    if (!IS_NPC(ch) && ( ch->pcdata->old_class != class_lookup("warrior") &&
+  			  ch->pcdata->old_class!=class_lookup("thief")))
+   		chance -= 25;
+
+    /* dex */
+    chance += get_curr_stat(ch,STAT_DEX);
+    chance -= get_curr_stat(victim,STAT_DEX) * 3 / 2;
+
+    /* speed */
+    if (IS_SET(ch->off_flags,OFF_FAST) || IS_AFFECTED(ch,AFF_HASTE))
+  chance += 10;
+    if (IS_SET(victim->off_flags,OFF_FAST) || IS_AFFECTED(victim,AFF_HASTE))
+  chance -= 20;
+
+    /* level */
+    chance += (ch->level - victim->level) * 2;
+
+
+    
+    if (IS_AFFECTED(victim,AFF_FLYING))
+    chance /= 2;
+
+    /* now the attack */
+    if (number_percent() < chance)
+    {
+  act("$n trips you and you go down!",ch,NULL,victim,TO_VICT,FALSE);
+  act("You trip $N and $N goes down!",ch,NULL,victim,TO_CHAR,FALSE);
+  act("$n trips $N, sending $M to the ground.",ch,NULL,victim,TO_NOTVICT,FALSE);
+  check_improve(ch,gsn_trip,TRUE,1);
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent() < 50)
+    {
+       sprintf(buf,"%s can't stay standing. Especially not with %s tripping.",victim->name,ch->name);
+       gladiator_talk(buf);
+    }
+
+  DAZE_STATE(victim,2 * PULSE_VIOLENCE);
+        WAIT_STATE(ch,skill_table[gsn_trip].beats);
+  victim->position = POS_RESTING;
+  damage(ch,victim,number_range(2, 2 +  2 * victim->size),gsn_trip,
+      DAM_BASH,TRUE,FALSE);
+    }
+    else
+    {
+  damage(ch,victim,0,gsn_trip,DAM_BASH,TRUE,FALSE);
+  WAIT_STATE(ch,skill_table[gsn_trip].beats*2/3);
+  check_improve(ch,gsn_trip,FALSE,1);
+    } 
+
+  return;
+}
+
+void do_attack( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+
+    if ( !HAS_KIT(ch,"brawler") ) {
+	send_to_char("Just kill them!\n\r",ch);
+	return;
+    }
+
+    one_argument( argument, arg );
+    if ( (victim = get_char_room( ch, arg ) ) != NULL ) 
+    {
+       if (victim == ch->fighting)
+       {
+	  send_to_char("Don't try to cheat you are being watched.\n\r",ch);
+	  return;
+        }
+    }
+
+
+    kill( ch, argument, TRUE );
+    return;
+}
+
+void do_kill( CHAR_DATA *ch, char *argument )
+{
+    kill( ch, argument, FALSE );
+    return;
+}
+
+void kill( CHAR_DATA *ch, char *argument, bool canChange )
+{
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+    char buf[MAX_STRING_LENGTH];
+
+    one_argument( argument, arg );
+
+    if ( canChange && ch->fighting == NULL )
+    {
+    send_to_char("You aren't in combat.\n\r",ch);
+    return;
+    }
+
+    if( is_affected(ch,skill_lookup("wraithform")) )
+    {
+    send_to_char("You are made of mist, you can not attack.\n\r",ch);
+    return;
+    }
+
+    if ( arg[0] == '\0' )
+    {
+  send_to_char( "Kill whom?\n\r", ch );
+  return;
+    }
+
+    if ( ( victim = get_char_room( ch, arg ) ) == NULL )
+    {
+  send_to_char( "They aren't here.\n\r", ch );
+  return;
+    }
+/*
+    if ( !IS_NPC(victim) )
+    {
+        if ( !IS_SET(victim->act, PLR_KILLER)
+        &&   !IS_SET(victim->act, PLR_THIEF) )
+        {
+            send_to_char( "You must MURDER a player.\n\r", ch );
+            return;
+        }
+    }
+*/
+    if ( victim == ch )
+    {
+  send_to_char( "You hit yourself.  Ouch!\n\r", ch );
+  multi_hit( ch, ch, TYPE_UNDEFINED );
+  return;
+    }
+    if ( is_safe( ch, victim ) )
+  return;
+    if( is_affected(victim,skill_lookup("wraithform")) )
+    {
+      send_to_char("They are made of mist.  Your weapon goes right through them.\r\n",ch);
+      return;
+    }
+
+    if (victim->fighting != NULL &&
+       IS_SET(victim->mhs,MHS_HIGHLANDER) && IS_SET(ch->mhs,MHS_HIGHLANDER))
+    {
+       send_to_char("Honorable combat is one on one.\n\r",ch);
+       return;
+    }
+
+    if ( victim->fighting != NULL && 
+  !is_same_group(ch,victim->fighting))
+    {
+        send_to_char("Kill stealing is not permitted.\n\r",ch);
+        return;
+    }
+
+    if ( IS_AFFECTED(ch, AFF_CHARM) && ch->master == victim )
+    {
+  act( "$N is your beloved master.", ch, NULL, victim, TO_CHAR ,FALSE);
+  return;
+    }
+
+    if ( ch->position == POS_FIGHTING )
+    {
+	if ( !canChange ) {
+  send_to_char( "You do the best you can!\n\r", ch );
+  return;
+	}
+	else
+	{
+	    ch->fighting = victim;
+	    act("$n focuses %s attack on $N",ch,NULL,victim,TO_NOTVICT,FALSE);
+	    act("You focus your attack on $N",ch,NULL,victim,TO_CHAR,FALSE);
+	    act("$n focuses %s attack on you!",ch,NULL,victim,TO_VICT,FALSE);
+	}
+    }
+
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR))
+    {
+       sprintf(buf,"%s trades blows with %s.",ch->name,victim->name);
+       gladiator_talk(buf);
+    }
+    WAIT_STATE( ch, 1 * PULSE_VIOLENCE );
+    check_killer( ch, victim );
+    multi_hit( ch, victim, TYPE_UNDEFINED );
+    return;
+}
+
+
+
+void do_murde( CHAR_DATA *ch, char *argument )
+{
+    send_to_char( "If you want to MURDER, spell it out.\n\r", ch );
+    return;
+}
+
+
+
+void do_murder( CHAR_DATA *ch, char *argument )
+{
+    char buf[MAX_STRING_LENGTH];
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+
+    one_argument( argument, arg );
+
+    if ( arg[0] == '\0' )
+    {
+  send_to_char( "Murder whom?\n\r", ch );
+  return;
+    }
+
+    if (IS_AFFECTED(ch,AFF_CHARM) || (IS_NPC(ch) && IS_SET(ch->act,ACT_PET)))
+  return;
+
+    if ( ( victim = get_char_room( ch, arg ) ) == NULL )
+    {
+  send_to_char( "They aren't here.\n\r", ch );
+  return;
+    }
+
+    if ( victim == ch )
+    {
+  send_to_char( "Suicide is a mortal sin.\n\r", ch );
+  return;
+    }
+
+    if ( is_safe( ch, victim ) )
+  return;
+
+    if (victim->fighting != NULL &&
+       IS_SET(victim->mhs,MHS_HIGHLANDER) && IS_SET(ch->mhs,MHS_HIGHLANDER))
+    {
+       send_to_char("Honorable combat is one on one.\n\r",ch);
+       return;
+    }
+
+    if (IS_NPC(victim) &&
+   victim->fighting != NULL && 
+  !is_same_group(ch,victim->fighting))
+    {
+        send_to_char("Kill stealing is not permitted.\n\r",ch);
+        return;
+    }
+
+    if ( IS_AFFECTED(ch, AFF_CHARM) && ch->master == victim )
+    {
+  act( "$N is your beloved master.", ch, NULL, victim, TO_CHAR ,FALSE);
+  return;
+    }
+
+    if ( ch->position == POS_FIGHTING )
+    {
+  send_to_char( "You do the best you can!\n\r", ch );
+  return;
+    }
+
+    WAIT_STATE( ch, 1 * PULSE_VIOLENCE );
+    if (IS_NPC(ch))
+  sprintf(buf, "Help! I am being attacked by %s!",ch->short_descr);
+    else
+    {
+      if(IS_SET(ch->mhs,MHS_GLADIATOR) && gladiator_info.blind == TRUE) 
+         sprintf( buf, "Help!  I am being attacked by %s!", ch->long_descr );
+      else
+         sprintf( buf, "Help!  I am being attacked by %s!", ch->name );
+    }
+    do_yell( victim, buf );
+    check_killer( ch, victim );
+    multi_hit( ch, victim, TYPE_UNDEFINED );
+    return;
+}
+
+
+
+void do_backstab( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+    OBJ_DATA *obj;
+    char buf[MAX_STRING_LENGTH];
+    int wait_mod = 0;
+    int percent;
+
+    one_argument( argument, arg );
+
+    if ( IS_AFFECTED(ch,AFF_SLOW) )
+	wait_mod = 12;
+
+    if ( !IS_NPC(ch) && ch->pcdata->old_class != class_lookup("thief") )
+	wait_mod += 12;
+
+    if ( !IS_NPC(ch)
+    &&   ch->level < skill_level(ch,gsn_backstab) )
+    {
+  send_to_char("You better leave assasinations to thieves.\n\r", ch );
+  return;
+    }
+
+    if (arg[0] == '\0')
+    {
+        victim = ch->fighting;
+        if (victim == NULL)
+        {
+            send_to_char("Backstab whom?\n\r",ch);
+            return;
+        }
+    }
+ 
+    else if ((victim = get_char_room(ch,arg)) == NULL)
+    {
+        send_to_char("They aren't here.\n\r",ch);
+        return;
+    }
+
+    if ( victim == ch )
+    {
+  send_to_char( "How can you sneak up on yourself?\n\r", ch );
+  return;
+    }
+
+    if ( is_safe( ch, victim ) )
+      return;
+
+      if( is_affected(victim,skill_lookup("wraithform")) )
+      {
+      send_to_char("Your brilliant backstab passes through thier misty body.\r\n",ch);
+      return;
+      }
+
+
+    if (victim->fighting != NULL &&
+       IS_SET(victim->mhs,MHS_HIGHLANDER) && IS_SET(ch->mhs,MHS_HIGHLANDER))
+    {
+       send_to_char("Honorable combat is one on one.\n\r",ch);
+       return;
+    }
+
+    if (IS_NPC(victim) &&
+   victim->fighting != NULL && 
+  !is_same_group(ch,victim->fighting))
+    {
+        send_to_char("Kill stealing is not permitted.\n\r",ch);
+        return;
+    }
+
+    if ( !IS_AFFECTED(ch,AFF_MORPH) 
+	&& ( obj = get_eq_char( ch, WEAR_WIELD ) ) == NULL)
+    {
+  send_to_char( "You need to wield a weapon to backstab.\n\r", ch );
+  return;
+    }
+
+    if ( ch->move < (ch->level/10) )
+    {
+	send_to_char("You're too exhausted.\n\r",ch);
+	return;
+    }
+    ch->move -= apply_chi(ch,(ch->level/10));
+
+    if ( victim->fighting != NULL && victim->hit < victim->max_hit / 2 )
+    {
+  send_to_char( "You can't hack a bigger hole into them.\n\r", ch );
+  return;
+    }
+
+    if ( victim->hit < victim->max_hit / 3)
+    {
+  act( "$N is hurt and suspicious ... you can't sneak up.",
+      ch, NULL, victim, TO_CHAR ,FALSE);
+  return;
+    }
+
+    check_killer( ch, victim );
+
+    if( is_affected(victim,skill_lookup("orb of touch")) )
+    {
+        send_to_char("You bounce off an orb of touch.\n\r",ch);
+        check_dispel( ch->level , victim, skill_lookup("orb of touch"));
+	WAIT_STATE( ch, skill_table[gsn_backstab].beats/2+wait_mod);
+        return;
+    }
+    percent  = get_skill(ch,gsn_backstab);
+    if(!IS_NPC(victim) && victim->class == class_lookup("rogue"))
+	percent -= 25;
+
+    if(!IS_NPC(ch) && ch->class == class_lookup("rogue"))
+	percent += 25;
+
+    if(!IS_NPC(ch) && (ch->class == class_lookup("rogue")))
+	percent = URANGE(5,percent,100); 
+    else
+	percent = URANGE(5,percent,95);  
+
+
+    WAIT_STATE( ch, skill_table[gsn_backstab].beats + wait_mod );
+    if ( (number_percent( ) < percent )
+    || ( get_skill(ch,gsn_backstab) >= 2 && !IS_AWAKE(victim) ) )
+    {
+  check_improve(ch,gsn_backstab,TRUE,1);
+  multi_hit( ch, victim, gsn_backstab );
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent() < 50)
+    {
+       sprintf(buf,"%s sticks a knife in %s's back, there goes that friendship.",ch->name,victim->name);
+       gladiator_talk(buf);
+    }
+    }
+    else
+    {
+  check_improve(ch,gsn_backstab,FALSE,1);
+  damage( ch, victim, 0, gsn_backstab,DAM_NONE,TRUE,FALSE);
+    }
+
+    return;
+}
+
+
+void do_flee( CHAR_DATA *ch, char *argument )
+{
+   flee( ch, argument, FALSE );
+   return;
+}
+
+void flee( CHAR_DATA *ch, char *argument, bool fWimpy )
+{
+    ROOM_INDEX_DATA *was_in;
+    ROOM_INDEX_DATA *now_in;
+    CHAR_DATA *victim;
+    int attempt;
+    char buf[MAX_STRING_LENGTH];
+
+    if ( fWimpy && ch->daze )
+	return;
+
+    if ( ( victim = ch->fighting ) == NULL )
+    {
+        if ( ch->position == POS_FIGHTING )
+            ch->position = POS_STANDING;
+  send_to_char( "You aren't fighting anyone.\n\r", ch );
+  return;
+    }
+
+    if( !fWimpy )
+    {
+      WAIT_STATE( ch, PULSE_PER_SECOND / 2 );
+    }
+    ch->move -= apply_chi( ch, 2 );
+
+    was_in = ch->in_room;
+    for ( attempt = 0; attempt < 6; attempt++ )
+    {
+  EXIT_DATA *pexit;
+  int door;
+
+  door = number_door( );
+  if ( ( pexit = was_in->exit[door] ) == 0
+  ||   pexit->u1.to_room == NULL
+  ||   pexit->u1.to_room->clan
+  ||   IS_SET(pexit->exit_info, EX_CLOSED)
+  ||   number_range(0,ch->daze) != 0
+  || ( IS_NPC(ch)
+  &&   IS_SET(pexit->u1.to_room->room_flags, ROOM_NO_MOB) ) )
+      continue;
+
+  move_char( ch, door, FALSE );
+  if ( ( now_in = ch->in_room ) == was_in )
+      continue;
+
+  ch->in_room = was_in;
+  act( "$n has fled!", ch, NULL, NULL, TO_ROOM ,FALSE);
+  ch->in_room = now_in;
+
+  ch->move -= apply_chi( ch, 10 );
+
+  if ( number_percent() < get_skill(ch,gsn_tumbling) || 
+	HAS_KIT(ch,"ninja") )
+  {
+      check_improve(ch,gsn_tumbling,TRUE,3);
+      act( "You flee $T!", ch, NULL, dir_name[door], TO_CHAR,FALSE);
+  }
+  else
+	send_to_char("You flee from combat!\n\r", ch );
+
+  if ( !IS_NPC(ch) )
+  {
+    if( (ch->class == 2 || HAS_KIT(ch,"acrobat") ||
+	HAS_KIT(ch,"ninja") ) 
+        && (number_percent() < 3*(ch->level/2) ) )
+    send_to_char( "You snuck away safely.\n\r", ch);
+  else
+      {
+      send_to_char( "You lost 10 exp.\n\r", ch); 
+      gain_exp( ch, -10 );
+      }
+  }
+
+  stop_fighting( ch, TRUE );
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent() < 50)
+    {
+       sprintf(buf,"%s couldn't handle the pressure and runs off.",ch->name);
+       gladiator_talk(buf);
+    }
+  return;
+    }
+
+    send_to_char( "PANIC! You couldn't escape!\n\r", ch );
+    return;
+}
+
+
+
+void do_rescue( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH],arg2[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+    CHAR_DATA *fch;
+    char buf[MAX_STRING_LENGTH];
+
+    argument = one_argument( argument, arg );
+    if ( arg[0] == '\0' )
+    {
+  send_to_char( "Rescue whom?\n\r", ch );
+  return;
+    }
+
+    if ( ( victim = get_char_room( ch, arg ) ) == NULL )
+    {
+  send_to_char( "They aren't here.\n\r", ch );
+  return;
+    }
+
+    if ( victim == ch || victim->fighting == ch )
+    {
+  send_to_char( "What about fleeing instead?\n\r", ch );
+  return;
+    }
+
+    if ( !IS_NPC(ch) && IS_NPC(victim) && !is_same_group(ch,victim))
+    {
+  send_to_char( "Doesn't need your help!\n\r", ch );
+  return;
+    }
+
+    if ( ch->fighting == victim )
+    {
+  send_to_char( "Too late.\n\r", ch );
+  return;
+    }
+
+    if ( ( fch = victim->fighting ) == NULL )
+    {
+  send_to_char( "That person is not fighting right now.\n\r", ch );
+  return;
+    }
+
+    if ( IS_NPC(fch) && (!is_same_group(ch,victim) && !is_same_clan(ch,victim)))
+    {
+        send_to_char("Kill stealing is not permitted.\n\r",ch);
+        return;
+    }
+
+    if (IS_SET(victim->mhs,MHS_NORESCUE))
+    {
+       send_to_char("They don't want to be rescued.\n\r",ch);
+       return;
+    }
+
+    if ( is_safe(ch,fch))
+    {
+	send_to_char("They don't need your help!\n\r",ch);
+	return;
+    }
+
+    check_killer(ch,fch);
+
+    WAIT_STATE( ch, skill_table[gsn_rescue].beats );
+    one_argument(argument,arg2);
+    if ( number_percent( ) > get_skill(ch,gsn_rescue) && str_cmp(arg2,"xvx2"))
+    {
+  send_to_char( "You fail the rescue.\n\r", ch );
+  check_improve(ch,gsn_rescue,FALSE,1);
+  return;
+    }
+
+    act( "You rescue $N!",  ch, NULL, victim, TO_CHAR    ,FALSE);
+    act( "$n rescues you!", ch, NULL, victim, TO_VICT    ,FALSE);
+    act( "$n rescues $N!",  ch, NULL, victim, TO_NOTVICT ,FALSE);
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) )
+    {
+       sprintf(buf,"It appears we have a hero in the Arena today! %s decides to rescue %s.",ch->name,victim->name);
+       gladiator_talk(buf);
+    }
+    check_improve(ch,gsn_rescue,TRUE,1);
+
+    stop_fighting( fch, FALSE );
+    stop_fighting( victim, FALSE );
+    stop_fighting( ch, FALSE );
+
+    check_killer( ch, fch );
+    set_fighting( ch, fch );
+    set_fighting( fch, ch );
+    return;
+}
+
+
+
+void do_kick( CHAR_DATA *ch, char *argument )
+{
+    CHAR_DATA *victim;
+    char buf[MAX_STRING_LENGTH];
+
+    if ( !IS_NPC(ch)
+    &&   ch->level < skill_level(ch,gsn_kick))
+    {
+  send_to_char(
+      "You better leave the martial arts to fighters.\n\r", ch );
+  return;
+    }
+
+    if (IS_NPC(ch) && !IS_SET(ch->off_flags,OFF_KICK))
+  return;
+
+    if ( ( victim = ch->fighting ) == NULL )
+    {
+  send_to_char( "You aren't fighting anyone.\n\r", ch );
+  return;
+    }
+
+    if( is_affected(ch,skill_lookup("wraithform")) )
+    {
+    send_to_char("Cool, you kicked a cloud.\r\n",ch);
+    return;
+    }
+
+
+    if ( ch->move < (ch->level/15) )
+    {
+        send_to_char("You're too exhausted.\n\r",ch);
+        return;
+    }
+    ch->move -= apply_chi(ch,(ch->level/15));
+
+  check_killer(ch,victim);
+
+    if( is_affected(victim,skill_lookup("orb of touch")) )
+    {   
+        send_to_char("You bounce off an orb of touch.\n\r",ch);
+        check_dispel( ch->level , victim, skill_lookup("orb of touch"));
+	WAIT_STATE( ch, skill_table[gsn_kick].beats);
+        return;
+    }
+
+    WAIT_STATE( ch, skill_table[gsn_kick].beats );
+    if ( get_skill(ch,gsn_kick) > number_percent())
+    {
+ damage(ch,victim,number_range(2,(3*ch->level)/2),gsn_kick,DAM_BASH,TRUE,FALSE);
+  check_improve(ch,gsn_kick,TRUE,1);
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent() < 50)
+    {
+       sprintf(buf,"Amazing! A beautiful roundhouse from %s nails %s.",ch->name,victim->name);
+       gladiator_talk(buf);
+    }
+    }
+    else
+    {
+  damage( ch, victim, 0, gsn_kick,DAM_BASH,TRUE,FALSE);
+  check_improve(ch,gsn_kick,FALSE,1);
+    }
+    return;
+}
+
+void do_insanity( CHAR_DATA *ch, char *argument )
+{
+    CHAR_DATA *victim;
+
+    if ( !IS_NPC(ch)
+    &&   ch->level < skill_level(ch,gsn_insanity) )
+    {
+  send_to_char(
+      "You better just take your lithium for now.\n\r", ch );
+  return;
+    }
+
+    if ( ( victim = ch->fighting ) == NULL )
+    {
+  send_to_char( "You aren't fighting anyone.\n\r", ch );
+  return;
+    }
+
+    if ( ch->move < (ch->level/15) )
+    {
+        send_to_char("You're too exhausted.\n\r",ch);
+        return;
+    }
+    ch->move -= apply_chi(ch,(ch->level/5));
+     
+  check_killer(ch,victim);
+     
+    if( is_affected(victim,skill_lookup("orb of touch")) )
+    {
+        send_to_char("You bounce off an orb of touch.\n\r",ch);
+        check_dispel( ch->level , victim, skill_lookup("orb of touch"));
+        WAIT_STATE( ch, skill_table[gsn_insanity].beats);
+        return;
+    }
+    
+    WAIT_STATE( ch, skill_table[gsn_insanity].beats );
+    if ( get_skill(ch,gsn_insanity) > number_percent())
+    {
+  act("$n goes into a fit of rage directed at you!",
+    ch,NULL,victim,TO_VICT,FALSE);
+  act("You charge madly at $N, and flay $M!",ch,NULL,victim,TO_CHAR,FALSE);
+  act("$n charges $N looking crazed.",
+    ch,NULL,victim,TO_NOTVICT,FALSE);
+  damage(ch,victim,number_range(10,3*ch->level),gsn_insanity,DAM_BASH,TRUE,FALSE);
+  DAZE_STATE(victim, 2* PULSE_VIOLENCE/3);
+  check_improve(ch,gsn_insanity,TRUE,1);
+    }
+    else
+    {
+  act("You swing wildly and hurt yourself!", ch,NULL,victim,TO_CHAR,FALSE);
+  act("$n flails widly hurting $mself.", ch,NULL,victim,TO_NOTVICT,FALSE);
+  if(!IS_SET(victim->display,DISP_BRIEF_COMBAT))
+ act("You narrowly escape $n's fit of insanity.", ch,NULL,victim,TO_VICT,FALSE);
+  damage(ch,ch,number_range(10,3*ch->level),gsn_insanity,DAM_BASH,TRUE,FALSE);
+  DAZE_STATE(ch, 2* PULSE_VIOLENCE/3);
+  check_improve(ch,gsn_insanity,FALSE,2);
+    }
+  return;
+}
+
+
+void do_dbite( CHAR_DATA *ch, char *argument )
+{
+    	char  arg[MAX_INPUT_LENGTH]; 
+	CHAR_DATA *victim;
+	int bite_damage;
+	int chance;
+
+	one_argument(argument, arg);
+
+      if ( !IS_SET(race_table[ch->race].parts,PART_FANGS) )
+      {
+        send_to_char("Your chompers a tad lacking for that.\n\r",ch);
+        return;
+      }
+
+	if ( arg[0] == '\0' )
+	{
+        if ( ( victim = ch->fighting ) == NULL )
+        {
+        send_to_char( "Yeah, we already know you bite.\n\r", ch );
+        return;
+        }
+
+	if( is_affected(ch,skill_lookup("wraithform")) )
+	{
+	send_to_char("Not while in wraithform.\r\n",ch);
+	return;
+	}
+
+	}
+	else
+	if (( victim = get_char_room(ch, arg) ) == NULL )
+	{
+		send_to_char("That individual isn't here.\n\r", ch);
+		return;
+	}
+
+        if (victim->fighting != NULL &&
+	   IS_SET(victim->mhs,MHS_HIGHLANDER) && IS_SET(ch->mhs,MHS_HIGHLANDER))
+        {
+           send_to_char("Honorable combat is one on one.\n\r",ch);
+           return;
+        }
+
+	if ( IS_NPC(victim) &&
+		victim->fighting != NULL &&
+		!is_same_group(ch, victim->fighting))
+	{
+		send_to_char("Kill stealing is not permitted.\n\r", ch);
+		return;
+	}
+
+	if (victim == ch)
+	{
+		send_to_char("You reach around and gnaw on your tail.\n\r",ch);
+		return;
+	}
+
+	if( is_affected(victim,skill_lookup("wraithform")) )
+	{
+	send_to_char("Biting at a fog bank? \r\n",ch);
+	return;
+	}
+
+
+	if ( is_safe(ch, victim))
+	{
+		send_to_char("Pick on somebody your own size.\n\r", ch);
+		return;
+	}
+      if( is_affected(victim,skill_lookup("orb of touch")) )
+      {
+	   send_to_char("You bounce off an orb of touch.\n\r",ch);
+           check_dispel( ch->level , victim, skill_lookup("orb of touch"));
+           WAIT_STATE(ch,12);
+	   return;
+      }
+
+        check_killer(ch,victim);
+        WAIT_STATE( ch, 24 );
+        bite_damage= dice(ch->size,ch->level);
+
+	  chance = 3 * ch->level / 2;
+	  chance += ch->size * 4;
+	  chance -= 2 * get_curr_stat(victim,STAT_DEX) /3;
+	  chance -= ( check_dodge( ch, victim,FALSE ) ? 20 : 0 );
+
+ 	if ( victim->fighting == NULL )
+	{
+		bite_damage *= 2;
+		chance += 25;
+	}
+
+	chance = URANGE( 5, chance, 95 );
+
+        if ( number_percent( ) < chance || !IS_AWAKE(victim) )
+              damage(ch,victim,bite_damage,gsn_bite,DAM_PIERCE,TRUE,FALSE);
+        else
+	        damage( ch, victim, 0, gsn_bite, DAM_PIERCE,TRUE,FALSE);
+
+        return;
+}
+
+void do_bite( CHAR_DATA *ch, char *argument )
+{
+    CHAR_DATA *victim;
+    AFFECT_DATA af;
+    int sn;
+    char buf[MAX_STRING_LENGTH];
+
+    if(IS_NPC(ch))
+       return;
+
+    if( is_affected(ch,skill_lookup("wraithform")) )
+    {
+    send_to_char("Mistfangs, kinky but not very effictive.\r\n",ch);
+    return;
+    }
+
+    if ( ( victim = ch->fighting ) == NULL )
+    {
+  send_to_char( "You aren't fighting anyone.\n\r", ch );
+  return;
+    }
+
+    if ( ch->move < (ch->level/15) )
+    {
+        send_to_char("You're too exhausted.\n\r",ch);
+        return;
+    }
+
+    if ( ch->pcdata->condition[COND_FULL] > 46 )
+    {
+	send_to_char("You no longer crave the flesh.\n\r",ch);
+	return;
+    }
+
+    ch->move -= apply_chi(ch,(ch->level/15));
+     
+   check_killer(ch,victim);
+
+    if( is_affected(victim,skill_lookup("orb of touch")) )
+    {
+        send_to_char("You bounce off an orb of touch.\n\r",ch);
+        check_dispel( ch->level , victim, skill_lookup("orb of touch"));
+	WAIT_STATE( ch, skill_table[gsn_bite].beats/2);
+        return;
+    }
+    if( is_affected(victim,skill_lookup("wraithform")) )
+    {
+    send_to_char("You bite air, cold, fridgid, undead air.\r\n",ch);
+    return;
+    }
+
+
+
+    WAIT_STATE( ch, skill_table[gsn_bite].beats );
+    if ( get_skill(ch,gsn_bite) > number_percent())
+    {
+  damage(ch,victim,number_range( ch->level/4, ch->level ), gsn_bite,DAM_PIERCE,TRUE,FALSE);
+    if (saves_spell(ch->level-2,victim,DAM_DISEASE) ||
+        (IS_NPC(victim) && IS_SET(victim->act,ACT_UNDEAD)))
+    {
+     if (ch == victim)
+	send_to_char("You feel momentarily ill, but it passes.\n\r",ch);
+     else
+	act("$N seems to be unaffected.",ch,NULL,victim,TO_CHAR,FALSE);
+    }
+    else
+    {
+	sn = skill_lookup("plague");
+	af.where     = TO_AFFECTS;
+	af.type     = sn;
+	af.level    = ch->level;
+	af.duration  = (ch->level/10) + 1;
+	af.location  = APPLY_STR;
+	af.modifier  = -1;
+	af.bitvector = AFF_PLAGUE;
+	affect_join(victim,&af);
+
+ 	send_to_char("Your stomache turns and you feel ill.\n\r",victim);
+	send_to_char("Your bite spreads the infestation.\n\r",ch);
+	
+        /* Gladiator Spectator Channel */
+        if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent() < 50)
+        {
+           sprintf(buf,"%s sinks a pair of plague-infested rotting teeth into %s.",ch->name,victim->name); 
+           gladiator_talk(buf);
+        }
+    }
+    check_improve(ch,gsn_bite,TRUE,1);
+   }
+   else
+   {
+	damage( ch, victim, 0, gsn_bite,DAM_PIERCE,TRUE,FALSE);
+	check_improve(ch,gsn_bite,FALSE,1);
+   }
+    return;
+}    
+
+void do_bleed( CHAR_DATA *ch, char *argument )
+{
+	CHAR_DATA *victim;
+	int dam;
+	char arg[MAX_INPUT_LENGTH];
+    char buf[MAX_STRING_LENGTH];
+
+	one_argument( argument, arg );
+
+    if (IS_NPC(ch))
+       return;
+
+ 
+    if ( arg[0] == '\0' )
+    {
+	victim = ch->fighting;
+	if ( ( victim = ch->fighting ) == NULL )
+	{
+	    send_to_char("You aren't fighting anybody.\n\r",ch);
+	    return;
+	}
+    }
+    else if ( ( victim = get_char_room(ch,arg) ) == NULL )
+    {
+	send_to_char("Who?  They aren't here.\n\r",ch);
+	return;
+    }
+    
+    if (IS_IMMORTAL(victim))
+    {
+	send_to_char("Don't be a dumbass.\n\r", ch);
+	return;
+    }
+
+    if ((is_clan(ch) && !is_clan(victim) && !IS_NPC(victim))
+	 || (!is_clan(ch) && !IS_NPC(victim)))
+    {
+	send_to_char("Don't cheat...you will get caught.\n\r",ch);
+	return;
+    }
+
+    if (IS_NPC(victim) && IS_SET(victim->act, ACT_UNDEAD))
+    {
+	send_to_char("You cannot bleed the already dead.\n\r", ch);
+	return;
+    }
+
+
+    if ( victim == ch )
+    {
+	send_to_char("You taste like chicken.\n\r",ch);
+	return;
+    }
+
+    if (is_safe(ch,victim))
+       return;
+
+ if ( IS_NPC(victim) &&                                     
+   victim->fighting != NULL &&
+    !is_same_group(ch,victim->fighting))                                         
+	 {                                                                          
+           send_to_char("Kill stealing is not permitted.\n\r",ch);        
+	 return;                                                                
+      }
+
+
+    if ( ch->move < (ch->level/15) )
+    {
+        send_to_char("You're too exhausted.\n\r",ch);
+        return;
+    }
+
+    if ( ch->pcdata->condition[COND_FULL] > 46 )
+    {
+	send_to_char("Your lust for blood is already satiated.\n\r",ch);
+	return;
+    }
+
+    ch->move -= apply_chi(ch,(ch->level/15));
+
+    if ( get_skill(ch,gsn_bleed) < 1 )
+	return;
+
+    check_killer(ch,victim);
+
+    if( is_affected(victim,skill_lookup("orb of touch")) )
+    {
+        send_to_char("You bounce off an orb of touch.\n\r",ch);
+        check_dispel( ch->level , victim, skill_lookup("orb of touch"));
+        WAIT_STATE( ch, skill_table[gsn_bleed].beats/2);
+        return;
+    }
+
+    WAIT_STATE( ch, skill_table[gsn_bleed].beats );
+    if ( get_skill(ch,gsn_bleed) > number_percent())
+    {
+	dam = number_range(ch->level/2, 5*ch->level/3);
+	switch(check_immune(victim,DAM_PIERCE))
+	{
+	 case(IS_IMMUNE):
+	  dam = 0;
+	  break;
+	 case(IS_RESISTANT):
+	  dam -= dam/4;
+	  break;
+	 case(IS_VULNERABLE):
+	  dam += dam/4;
+	  break;
+	}
+
+	damage( ch, victim, dam, gsn_bleed, DAM_PIERCE, TRUE,FALSE);
+	ch->mana += 4 * dam  / 5;
+	send_to_char("You feel your lifeblood seeping from your neck.\n\r",victim);
+	send_to_char("Your heart beats strong with life.\n\r",ch);
+	check_improve(ch,gsn_bleed,TRUE,1);
+
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) && number_percent() < 75)
+    {
+       sprintf(buf,"EWWW! %s drinks blood from %s. The crowd loves it!",ch->name,victim->name);
+       gladiator_talk(buf);
+    }
+
+/** The higher your level, the more bleeding you need to get full
+    Seems backwards, but it allows for better bleed at 51 **/
+
+	gain_condition(ch,COND_FULL,   15 - ( ch->level / 5 ) );
+	gain_condition(ch,COND_HUNGER, 15 - ( ch->level / 5 ) );
+	gain_condition(ch,COND_THIRST, 15 - ( ch->level / 5 ) );
+
+	if ( ch->pcdata->condition[COND_FULL] > 46 )
+	{
+	  send_to_char("Your lust for blood has been satiated.\n\r",ch);
+	  return;
+	}
+
+    }
+    else
+    {
+	send_to_char("Your teeth gnash together, {ymissing{x their target.\n\r",ch);
+ 	damage(ch,victim,0,gsn_bleed,DAM_PIERCE,TRUE,FALSE);
+        check_improve(ch,gsn_bite,FALSE,1);
+    }
+  return;
+}
+
+void do_hex(CHAR_DATA *ch, char *argument)
+{
+    CHAR_DATA *victim;
+    AFFECT_DATA af;
+    char arg[MAX_INPUT_LENGTH];
+    char buf[MAX_STRING_LENGTH];
+
+   if(IS_NPC(ch))
+     return;
+
+   if(!IS_SET(ch->act,PLR_MUMMY))
+   {
+     send_to_char("You ain't no stinking Mummy!\n\r",ch);
+     return;
+   }
+
+   if( is_affected(ch,skill_lookup("wraithform")) )
+   {
+     send_to_char("Not while in wraithform.\r\n",ch);
+     return;
+   }
+
+   if ( ( victim = ch->fighting ) == NULL )
+    {
+       send_to_char( "You aren't fighting anyone.\n\r", ch );
+       return;
+    }
+    one_argument( argument, arg );
+
+    if (arg[0] != '\0')
+    {
+       if ( ( victim = get_char_room(ch,arg) ) == NULL )
+       {
+	send_to_char("Who?  They aren't here.\n\r",ch);
+	return;
+       }
+    }
+
+    if (is_safe(ch,victim))
+       return;
+    if( is_affected(victim,skill_lookup("wraithform")) )
+    {
+    send_to_char("Your hex does not affect them, they are pretty scary looking themselves.\r\n",ch);
+    return;
+    }
+
+
+ if ( IS_NPC(victim) &&                                     
+   victim->fighting != NULL &&
+    !is_same_group(ch,victim->fighting))                                         
+	 {                                                                          
+           send_to_char("Kill stealing is not permitted.\n\r",ch);        
+	 return;                                                                
+	 }
+
+    WAIT_STATE( ch, skill_table[gsn_hex].beats );
+
+    if ( get_skill(ch,gsn_hex) > number_percent())
+    {
+       if ( saves_spell(ch->level,victim,DAM_OTHER))
+       {
+          send_to_char("Your hex fails.\n\r",ch);
+          send_to_char("You ward off a hex.\n\r",victim);
+	act( "$n makes a sign with $s fingers and wards off the hex.",
+		victim, NULL, victim, TO_ROOM ,FALSE);
+          return;
+       }
+       else
+       {
+          af.where     = TO_AFFECTS;
+          af.type      = gsn_curse;
+          af.level     = ch->level;
+          af.duration  = ch->level / 3;
+          af.location  = APPLY_HITROLL;
+          af.modifier  = -3;
+          af.bitvector = AFF_CURSE;
+          affect_to_char( victim, &af );
+
+          af.location  = APPLY_SAVING_SPELL;
+          af.modifier  = 3;
+          affect_to_char( victim, &af );
+
+          send_to_char( "You have been hexed!\n\r", victim );
+          act( "$n has been hexed.", victim, NULL, victim, TO_ROOM ,FALSE);
+	  damage(ch,victim,0,gsn_hex,DAM_OTHER,FALSE,FALSE);
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) )
+    {
+       sprintf(buf,"Have you ever seen a hex in action? %s is teaching %s what its all about.",ch->name,victim->name);
+       gladiator_talk(buf);
+    }
+       }
+       check_improve(ch,gsn_hex,TRUE,1);
+    }
+    else
+    {
+       send_to_char("You attempt to cast a hex but fail.\n\r",ch);
+       check_improve(ch,gsn_hex,FALSE,1);
+    }
+
+    return;
+}
+
+void do_fear( CHAR_DATA *ch, char *argument )
+{
+   CHAR_DATA *victim,*nextvictim;
+   ROOM_INDEX_DATA *was_in;
+   ROOM_INDEX_DATA *now_in;
+   EXIT_DATA *pexit;
+   int attempt, door;
+    char buf[MAX_STRING_LENGTH];
+
+   if (IS_NPC(ch))
+      return;
+
+   if(!IS_SET(ch->act,PLR_MUMMY))
+   {
+     send_to_char("You ain't no stinking Mummy!\n\r",ch);
+     return;
+   }
+
+   if ( ch->move < 20 )
+   {   
+       send_to_char("You're tired of making scary faces.\n\r",ch);
+       return;
+   }
+
+    if ( ch->pcdata->condition[COND_FULL] > 46 )
+    {
+	send_to_char("Your desire for fear has been completed.\n\r",ch);
+	return;
+    }
+
+   ch->move -= apply_chi(ch,20);
+
+   WAIT_STATE( ch, skill_table[gsn_fear].beats );
+
+   if ( number_percent() < get_skill(ch,gsn_fear) )
+   {
+      act( "$n spreads fear through the room!", ch, NULL, NULL, TO_ROOM ,FALSE);
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) )
+    {
+       sprintf(buf,"%s is scaring everyone away!",ch->name);
+       gladiator_talk(buf);
+    }
+      for ( victim= ch->in_room->people; victim != NULL; victim = nextvictim )
+      {
+	 nextvictim = victim->next_in_room;
+         if(victim != ch  && 
+	      ( (is_clan(victim) && is_clan(ch) ) || IS_NPC(victim) ) )
+         {
+            if (IS_NPC(victim) && (IS_SET(victim->act,ACT_TRAIN)
+		||  victim->pIndexData->pShop != NULL
+                ||  IS_SET(victim->act,ACT_PRACTICE)
+                ||  IS_SET(victim->act,ACT_IS_HEALER)
+                ||  IS_SET(victim->act,ACT_NOPURGE)
+		||  IS_SET(victim->act, ACT_AGGRESSIVE)
+                ||  IS_SET(victim->act,ACT_IS_CHANGER)))  
+	       continue;
+
+	    if(is_safe(ch,victim))
+		continue;
+
+            if ( saves_spell(ch->level,victim,DAM_MENTAL))
+	       continue;
+            if( is_affected(ch,skill_lookup("wraithform")) )
+               continue;
+
+	    if (is_same_group(ch,victim))
+	       continue;
+
+            if ( IS_AFFECTED(victim, AFF_SLEEP))
+	       continue;
+
+            for ( attempt = 0; attempt < 6; attempt++ )
+            {
+	       door = number_door();
+               was_in = victim->in_room;
+	       if ( ( pexit = was_in->exit[door] ) == 0
+		 ||   pexit->u1.to_room == NULL
+		 ||   IS_SET(pexit->exit_info, EX_CLOSED)
+		 ||   number_range(0,victim->daze) != 0
+		 ||   (IS_NPC(victim)
+		 &&   IS_SET(pexit->u1.to_room->room_flags, ROOM_NO_MOB) ) )
+                 continue;
+
+               move_char( victim, door, FALSE );
+               if ( ( now_in = victim->in_room ) == was_in )
+                  continue;
+
+               victim->in_room = was_in;
+               act( "$n runs in fear!", victim, NULL, NULL, TO_ROOM ,FALSE);
+               victim->in_room = now_in;
+               send_to_char("You run in fear.\n\r",victim);
+	       check_killer(ch,victim);
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) )
+    {
+       sprintf(buf,"%s hops out of the shadows and scares the hell out of %s, who runs off like a little girl.",ch->name,victim->name); 
+       gladiator_talk(buf);
+    }
+
+               gain_condition(ch,COND_FULL,   15 - ( ch->level / 5 ) );
+               gain_condition(ch,COND_HUNGER, 15 - ( ch->level / 5 ) );
+               gain_condition(ch,COND_THIRST, 15 - ( ch->level / 5 ) );
+
+               if ( ch->pcdata->condition[COND_FULL] > 46 )
+	       {
+	          send_to_char("Your fear has empowered you completely.\n\r",ch);
+	          return;
+	       }
+            }
+         }
+      }
+      check_improve(ch,gsn_fear,TRUE,1);
+   }
+   else
+   {
+      send_to_char("You attempt to instill fear but fail.\n\r",ch);
+      check_improve(ch,gsn_fear,FALSE,1);
+   }
+   return;
+}
+    
+void do_breathe( CHAR_DATA *ch, char *argument )
+{
+    CHAR_DATA *victim;
+    AFFECT_DATA af;
+    int sn;
+    char buf[MAX_STRING_LENGTH];
+
+     if(IS_NPC(ch))
+       return;
+
+    if ( ( victim = ch->fighting ) == NULL )
+    {
+       send_to_char( "You aren't fighting anyone.\n\r", ch );
+       return;
+    }
+
+    if ( ch->move < (ch->level/15) )
+    {
+       send_to_char("You're too exhausted.\n\r",ch);
+       return;
+    }
+
+    ch->move -= apply_chi(ch,(ch->level/15));
+    check_killer(ch,victim);
+
+    if( is_affected(victim,skill_lookup("orb of turning")) )
+    {
+       send_to_char("Your breath bounces off an orb of turning.\n\r",ch);
+       check_dispel( ch->level , victim, skill_lookup("orb of turning"));
+       WAIT_STATE( ch, skill_table[gsn_breathe].beats/2);
+       return;
+    }
+
+    WAIT_STATE( ch, skill_table[gsn_breathe].beats );
+
+    if ( get_skill(ch,gsn_breathe) > number_percent())
+    {
+       damage(ch,victim,number_range( ch->level/4, ch->level ),
+	      gsn_breathe,DAM_POISON,TRUE,FALSE);
+       if (saves_spell(ch->level-2,victim,DAM_POISON) ||
+          (IS_NPC(victim) && IS_SET(victim->act,ACT_UNDEAD)))
+       {
+          if (ch == victim)
+	     send_to_char("You feel momentarily ill, but it passes.\n\r",ch);
+          else
+	     act("$N seems to be unaffected.",ch,NULL,victim,TO_CHAR,FALSE);
+       }
+       else
+       {
+          sn = skill_lookup("poison");
+          af.where     = TO_AFFECTS;
+          af.type     = sn;
+          af.level    = ch->level;
+          af.duration  = (ch->level/10) + 1;
+          af.location  = APPLY_STR;
+          af.modifier  = -1;
+          af.bitvector = AFF_POISON;
+          affect_join(victim,&af);
+
+          send_to_char("Your feel ill from the putrescent breath.\n\r",victim);
+          send_to_char("Your rancid breath spreads the poison.\n\r",ch);
+        /* Gladiator Spectator Channel */
+        if (IS_SET(ch->mhs,MHS_GLADIATOR))
+        {
+           sprintf(buf,"The stench of %s's makes %s spew chunks all over.",ch->name,victim->name); 
+           gladiator_talk(buf);
+        }
+       }
+       check_improve(ch,gsn_breathe,TRUE,1);
+    }
+    else
+    {
+       damage( ch, victim, 0, gsn_breathe,DAM_POISON,TRUE,FALSE);
+       check_improve(ch,gsn_breathe,FALSE,1);
+    }
+    return;
+}    
+
+void do_disarm( CHAR_DATA *ch, char *argument )
+{
+    CHAR_DATA *victim;
+    OBJ_DATA *obj;
+    int chance,hth,ch_weapon,vict_weapon,ch_vict_weapon;
+    char buf[MAX_STRING_LENGTH];
+
+    hth = 0;
+
+    if ((chance = get_skill(ch,gsn_disarm)) == 0)
+    {
+  send_to_char( "You don't know how to disarm opponents.\n\r", ch );
+  return;
+    }
+
+    if ( get_eq_char( ch, WEAR_WIELD ) == NULL 
+    &&   ((hth = get_skill(ch,gsn_hand_to_hand)) == 0
+    ||    (IS_NPC(ch) && !IS_SET(ch->off_flags,OFF_DISARM))))
+    {
+  send_to_char( "You must wield a weapon to disarm.\n\r", ch );
+  return;
+    }
+
+    if ( ( victim = ch->fighting ) == NULL )
+    {
+  send_to_char( "You aren't fighting anyone.\n\r", ch );
+  return;
+    }
+
+    if ( ( obj = get_eq_char( victim, WEAR_WIELD ) ) == NULL )
+    {
+  send_to_char( "Your opponent is not wielding a weapon.\n\r", ch );
+  return;
+    }
+
+    if ( ch->move < (ch->level/15) )
+    {   
+        send_to_char("You're too exhausted.\n\r",ch);
+        return;
+    }
+    ch->move -= apply_chi(ch,(ch->level/15));
+
+    /* find weapon skills */
+    ch_weapon = get_weapon_skill(ch,get_weapon_sn(ch,FALSE));
+    vict_weapon = get_weapon_skill(victim,get_weapon_sn(victim,FALSE));
+    ch_vict_weapon = get_weapon_skill(ch,get_weapon_sn(victim,FALSE));
+
+    /* modifiers */
+
+    /* skill */
+    if ( get_eq_char(ch,WEAR_WIELD) == NULL)
+  chance = chance * hth/150;
+    else
+  chance = chance * ch_weapon/100;
+
+    chance += (ch_vict_weapon/2 - vict_weapon) / 2; 
+
+    if (!IS_NPC(ch) && ( ch->pcdata->old_class != class_lookup("warrior") &&
+    			 ch->pcdata->old_class!=class_lookup("thief")))
+	chance -= 25;
+
+    /* dex vs. strength */
+    chance += get_curr_stat(ch,STAT_DEX);
+    chance -= 2 * get_curr_stat(victim,STAT_STR);
+
+    /* level */
+    chance += (ch->level - victim->level) * 2;
+
+    /* Spells */
+    chance /= ( is_affected(victim,gsn_stonefist) ? 2 : 1 );
+
+    /* Blademaster */
+    if ( victim->class == class_lookup("blademaster") )
+	chance /= 3;
+
+     /* Battleragers and bladesingers */
+    if ( is_affected(victim,gsn_rage) || is_affected(victim,gsn_bladesong) )
+	chance /= 2;
+
+    if( is_affected(victim,skill_lookup("orb of touch")) )
+    {
+	send_to_char("You bounce off an orb of touch.\n\r",ch);
+	check_dispel( ch->level , victim, skill_lookup("orb of touch"));
+	if (IS_AFFECTED(ch,AFF_SLOW)) 
+	    WAIT_STATE(ch,skill_table[gsn_disarm].beats);
+	else
+	    WAIT_STATE(ch,skill_table[gsn_disarm].beats/2);
+	return;
+    }
+
+    /* Shoguns are impossible to disarm */
+    if ( check_hai_ruki(victim) )
+	chance = UMIN(chance,15);
+
+    /* and now the attack */
+    if (number_percent() < chance)
+    {
+      WAIT_STATE( ch, skill_table[gsn_disarm].beats );
+  disarm( ch, victim );
+  check_improve(ch,gsn_disarm,TRUE,1);
+    /* Gladiator Spectator Channel */
+    if (IS_SET(ch->mhs,MHS_GLADIATOR) )
+    {
+       sprintf(buf,"Now that was impressive! %s just sent %s's weapon flying.",ch->name,victim->name);
+       gladiator_talk(buf);
+    }
+    }
+    else
+    {
+  WAIT_STATE(ch,skill_table[gsn_disarm].beats);
+  act("You fail to disarm $N.",ch,NULL,victim,TO_CHAR,FALSE);
+  act("$n tries to disarm you, but fails.",ch,NULL,victim,TO_VICT,FALSE);
+  act("$n tries to disarm $N, but fails.",ch,NULL,victim,TO_NOTVICT,FALSE);
+  check_improve(ch,gsn_disarm,FALSE,1);
+    }
+    check_killer(ch,victim);
+    return;
+}
+
+
+
+void do_sla( CHAR_DATA *ch, char *argument )
+{
+    send_to_char( "If you want to SLAY, spell it out.\n\r", ch );
+    return;
+}
+
+
+
+void do_slay( CHAR_DATA *ch, char *argument )
+{
+    CHAR_DATA *victim;
+    char arg[MAX_INPUT_LENGTH];
+
+    one_argument( argument, arg );
+    if ( arg[0] == '\0' )
+    {
+  send_to_char( "Slay whom?\n\r", ch );
+  return;
+    }
+
+    if ( ( victim = get_char_room( ch, arg ) ) == NULL )
+    {
+  send_to_char( "They aren't here.\n\r", ch );
+  return;
+    }
+
+    if ( ch == victim )
+    {
+  send_to_char( "Suicide is a mortal sin.\n\r", ch );
+  return;
+    }
+
+    if ( !IS_NPC(victim) && victim->level >= get_trust(ch) )
+    {
+  send_to_char( "You failed.\n\r", ch );
+  return;
+    }
+
+    act( "You slay $M in cold blood!",  ch, NULL, victim, TO_CHAR    ,FALSE);
+    act( "$n slays you in cold blood!", ch, NULL, victim, TO_VICT    ,FALSE);
+    act( "$n slays $N in cold blood!",  ch, NULL, victim, TO_NOTVICT ,FALSE);
+    raw_kill( victim,ch );
+    return;
+}
+
+void do_cutpurse( CHAR_DATA *ch, CHAR_DATA *victim )
+{
+   int chance;
+   int gold,silver;
+
+   if(IS_SET(ch->mhs,MHS_GLADIATOR) || IS_SET(ch->mhs,MHS_HIGHLANDER))
+      return;
+   if(ch->clan == clan_lookup("smurf"))
+     return;
+
+   chance = get_skill(ch,gsn_cutpurse)/3;
+
+   chance += (get_curr_stat(ch,STAT_DEX) - (get_curr_stat(victim,STAT_DEX)))*5;
+   chance += (ch->level - victim->level)*2;
+
+   if (number_percent() <= chance)
+   {
+act("You rip apart $N's purse and steal their gold!", ch, NULL, victim,TO_CHAR,FALSE);
+act("$n rips open your purse and scoops up the coins!",ch,NULL,victim,TO_VICT,FALSE);
+act("$n rips open $N's purse, and scoops up the coins!",ch,NULL,victim,TO_ROOM,FALSE);
+   gold = victim->gold/25;
+   victim->gold -= gold;
+   ch->gold += gold;
+
+   silver = victim->silver/20;
+   victim->silver -= silver;
+   ch->silver += silver;
+   
+   check_improve(ch,gsn_cutpurse,TRUE,3);
+
+   return;
+   }
+   else
+   {
+   check_improve(ch,gsn_cutpurse,FALSE,6);
+   return;
+   }
+}
+
+void do_garotte( CHAR_DATA *ch, char *argument )
+{
+    CHAR_DATA *victim;
+    OBJ_DATA *wield;
+    AFFECT_DATA af;
+    int level;
+    int chance;
+    char arg[MAX_INPUT_LENGTH];
+    char buf[MAX_STRING_LENGTH];
+
+    one_argument(argument,arg);
+
+    if ( !IS_NPC(ch)
+    &&   ch->level < skill_level(ch,gsn_garotte) )
+    {
+  send_to_char( "You better stick to choking your chicken.\n\r", ch );
+  return;
+    }
+
+    if ( ch->fighting != NULL )
+    {
+  send_to_char( "You can't sneak up on anyone while you're fighting.\n\r", ch );
+  return;
+    }
+
+
+    if( arg[0] == '\0' || (victim = get_char_room(ch,arg)) == NULL )
+    {
+      send_to_char("They're not here.\n\r",ch);
+      return;
+    }
+
+    if(IS_SET(victim->mhs,MHS_HIGHLANDER) && !IS_NPC(victim))
+    {
+     send_to_char("Highlanders are immune to that.\n\r",ch);
+     return;
+    }
+
+    if (victim->fighting != NULL)
+    {
+       send_to_char("They are too active to get a hold on.\n\r",ch);
+       return;
+    }
+   
+    if (ch == victim)
+    {
+     send_to_char(" You attempt to garotte yourself and fail like the pathetic miserable loser you are.\n\r", ch);
+     return;
+     }
+
+    if (is_safe(ch,victim))
+       return;
+
+    if ( IS_AFFECTED(victim, AFF_SLEEP)
+    ||   (IS_NPC(victim) && IS_SET(victim->act,ACT_UNDEAD)) )
+    {
+      send_to_char("Leave the sleeping and the undead in peace.\n\r",ch);
+      return;
+    }
+
+    if ( ch->move < (ch->level/5) )
+    {
+        send_to_char("You're too exhausted.\n\r",ch);
+        return;
+    }
+    ch->move -= apply_chi(ch,(ch->level/5));
+
+  check_killer(ch,victim);
+
+  WAIT_STATE( ch, skill_table[gsn_garotte].beats );
+
+    /* modifiers */
+
+    chance = get_skill(ch,gsn_garotte);
+
+    /* stats */
+    chance += get_curr_stat(ch,STAT_STR);
+    chance -= get_curr_stat(victim,STAT_DEX);
+    chance -= get_curr_stat(victim,STAT_CON);
+
+    /* level */
+    chance +=                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

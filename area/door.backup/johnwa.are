@@ -1,0 +1,4214 @@
+#AREA
+/mud/moosehead/area/johnwa.are~
+The Lost Bog~
+{32-40} Johnwa  The Lost Bog~
+22000 22100
+
+#MOBILES
+#22000
+bog rat~
+A bog rat~
+An oversized rat shambles along in the dark.
+~
+This particular bog rat has almost humanoid features.  In fact, if you 
+didn't know any better, you might think it was previously a giant type
+humanoid.  It looks at you and snarls...
+~
+unique~
+ACFT PZ -700 0
+37 0 10d10+1500 10d10+100 4d7+10 bite
+-12 -12 -12 2
+CFJP A HLQ FJ
+stand stand none 30
+BGVc ACDEFHJK large 0
+#22001
+scaled swamp rat~
+A scaled swamp rat~
+A swamp rat half-covered in scales stand here.
+~
+This swamp rat looks rather strange.  It is half-covered in what looks
+like dragon scales.  It also looks rather hungry, and it's approaching you!
+~
+unique~
+ABFRT WYZ -500 0
+33 0 10d10+1100 10d10+550 6d4+10 bite
+-11 -11 -11 2
+EFP A BEH FI
+stand stand none 0
+BGXc ABCDEFTW huge 0
+#22002
+overgrown mouse~
+A bog runner~
+A overgrown mouse stand here, frothing from the mouth.
+~
+As you stare at this grotesque mutation of a mouse, he eyes you warily, 
+wondering why you look so funny.  As you turn your glance, he decides that
+no matter what you look like, it is what you taste like that counts.
+~
+unique~
+ACT Z -100 0
+32 0 10d10+1000 10d10+150 4d6+9 claw
+-10 -10 -10 3
+EFP A 0 0
+stand stand none 0
+AGHV ABCDEF medium 0
+#22003
+worm-like creature~
+A tunnel maggot~
+A large worm-like creature rears its head at you.
+~
+A large, worm-like creature emits a large squeal at the sight of you, and
+rears its head to attack.  He doesn't look like a pleasent fellow.
+~
+unique~
+ABFT 0 -850 0
+38 0 10d10+1500 10d10+150 3d10+12 charge
+-13 -13 -13 0
+F A K 0
+stand stand male 0
+AHRV ADEF huge 0
+#22004
+grand wizard aranastra~
+The Grand Wizard~
+The Grand Wizard, Aranastra, stands here glaring at you.
+~
+The Grand Wizard is a wicked looking man.  His head nearly reaches the 
+ceiling, and his robes flow around the room.  He looks at you with an icy
+glare, then utters a few inaudible words.
+~
+unique~
+ABR Z -1000 0
+44 0 25d10+3000 20d12+1000 8d4+15 magic
+-16 -16 -16 -3
+EFU 0 0 0
+stand stand male 0
+CK A medium 0
+#22005
+guardian~
+The Guardian~
+The guardian of the underchamber stands here snarling.
+~
+The Guardian of the Underchamber looks like a mutated human, dragon, 
+Basilisk, and Vulture all compressed into one.  Overall, he is a utterly
+disgusting sight.  As he turns to you, while you're caught in his gaze,
+he moves to attack.
+~
+unique~
+ABFT BDT -1000 0
+40 0 15d10+1850 3d100+100 4d8+13 slash
+-14 -14 -14 1
+DEFNU A H 0
+stand stand male 5000
+AXc ABCDEFPTU giant 0
+#22006
+massive rock biter~
+The massive Rock-Biter~
+The massive, slat-grey Rock-Biter stands here.
+~
+This is a rock of mammoth protportion.
+He seems to be young, for his size; approximately 20 elephants high and
+200 elephants in weight.  The look of distress seems to be imprinted
+on his face...and the growling in his stomach isn't helping matters
+any.
+~
+unique~
+AQRT HTV 1000 0
+60 50 50d10+9500 5d1000+3000 10d10+50 pound
+-30 -30 -30 -10
+CEFIKU AB CD 0
+stand stand male 0
+AHMV ABCDEFGHIJK giant 0
+#22007
+rabbit~
+the rabbit~
+A rabbit is bouncing around here.
+~
+The rabbit smiles at you, completely harmless!
+~
+rabbit~
+AGHU 0 100 0
+1 0 1d1+10 1d1+99 1d3+0 bite
+10 10 10 10
+0 0 0 0
+stand stand either 0
+0 0 tiny 0
+#22008
+sand rat~
+A sand rat~
+A mottled sand rat burrows into the sand.
+~
+A tiny, mottled rat burrows into the sand, but with no ears, it can't
+hear you, and keeps on about his business, as you slowly sink into
+oblivion.
+~
+unique~
+ABGHS DFH -300 0
+1 0 2d4+2 0d9+100 1d2+0 flbite
+-10 -10 -10 -10
+BEFJNU AB 0 0
+stand stand none 10
+BG ACDEFJKT tiny 0
+#0
+
+#OBJECTS
+#22000
+johnwa pill boingy~
+Johnwa's Boingy pill~
+Johnwa's concotion lies here.~
+Juice of Tiki~
+pill AC A
+45 'haste' 'bless' '' ''
+1 10 0 P
+A
+2 0
+#22001
+mace aranastra~
+the mace of Aranastra~
+The mace of Aranastra lie here, collecting dust.~
+magic~
+weapon F AN
+mace 3 13 blast I
+44 60 5700 P
+A
+19 1
+#22002
+weapon~
+Tiki~
+Tiki stands here, looking at you funny with one eye.~
+penis~
+weapon SY AN
+dagger 100 50 thrust ABCDEFGHI
+59 1 0 P
+A
+17 -300
+A
+1 5
+A
+2 5
+A
+20 -30
+F
+A 0 0 HV
+A
+19 50
+A
+18 50
+#22003
+jewel encrusted chest~
+A jewel encrusted chest~
+A jewel encrusted chest gleams in the light.~
+gem~
+container R 0
+400 ABCD 22004 50 25
+0 600 0 P
+#22004
+jewelled key~
+a jewelled key~
+A jewelled key lies glinting in the light.~
+gem~
+key P AO
+0 0 0 0 0
+0 5 0 P
+#22005
+dusty chest~
+A dusty chest~
+A dusty chest lies discarded in a corner.~
+wood~
+container R 0
+400 ABCD 22006 50 25
+0 500 0 P
+#22006
+dusty key~
+a dusty key~
+A dusty, rotting key lies here.~
+iron~
+key P AO
+0 0 0 0 0
+0 3 0 P
+#22007
+yaeini stone~
+a yaeini stone~
+A yaeini stone lies here.~
+adamantium~
+none C AQ
+0 0 0 0 0
+51 1 0 P
+A
+18 2
+A
+0 0
+A
+19 3
+#22008
+crystal shard~
+a crystal shard~
+A crystal formation lies here, reflecting light.~
+crystal~
+weapon 0 AN
+staff 2 18 thrust AF
+38 400 1250 P
+#22009
+ring power~
+a ring of power~
+A ring rests easily on the ground, radiating power.~
+energy~
+jewelry A AB
+0 0 0 0 0
+40 3 6000 P
+A
+19 2
+A
+13 10
+A
+17 -5
+#22010
+staff darklord~
+a staff of the darklord~
+A staff of the darklord, Aranastra, draws the light from the sky.~
+metal~
+staff 0 AO
+43 10 5 'animate dead' 0
+38 50 9800 P
+#22011
+rat tail~
+a rat's tail~
+A rat's tail lies here, as long as a whip.~
+scales~
+weapon S AN
+whip 5 5 whip C
+30 100 2700 P
+A
+19 2
+A
+2 -1
+#22012
+black pearl~
+a black pearl~
+A black pearl lies glintly softly in the light.~
+pearl~
+key 0 AO
+0 0 0 0 0
+0 20 8000 P
+A
+0 0
+#22013
+object of wonder~
+Johnwa's object of wonder~
+This item is only for reimbs.  Please return to owner if found.~
+polyprophaline~
+light BCR AQ
+0 0 -1 0 0
+0 0 0 R
+A
+5 10
+A
+4 10
+A
+3 10
+A
+2 10
+A
+1 10
+E
+~
+Generic extended description.
+~
+#22014
+sleep can~
+Sleep in a Can (tm)~
+It's Sleep in a Can! Garunteed to work!~
+aluminum~
+potion C AO
+60 'change sex' 'sleep' '' ''
+1 10 0 P
+#22015
+cuban cigar~
+a cuban cigar~
+A cuban cigar for level 51 lies here!~
+tobacco~
+pill CSTY A
+60 'cure critical' 'cure critical' 'cure critical' ''
+51 10 0 P
+#22016
+balance~
+Balance clan portal~
+~
+~
+portal O 0
+0 0 0 4500 0
+1 50 0 P
+E
+balance~
+Balance clan portal shimmers here.
+~
+#22017
+black leather couch~
+a pitch black leather couch~
+A pitch black leather couch blends into the room perfectly.~
+leather~
+furniture OS P
+2 0 EHK 200 200
+1 100 0 P
+#22018
+crack~
+a crack in the wall~
+A crack in the wall dribbles water.~
+stone~
+fountain OS 0
+0 0 'water' 0 0
+1 100 0 P
+E
+crack~
+A small crack in the pitch black wall dribbles water slowly.
+~
+#22019
+restrung~
+a cape of blood~
+A cape made of blood lies here, dripping madly.~
+blood~
+container ACOY AC
+900 A 0 9999 5
+52 1000 0 P
+#22020
+test container~
+a test container~
+Generic Description~
+~
+drink C A
+500 500 'pepsi' 0 0
+1 1 0 P
+#22021
+super save~
+a super save~
+rose snowy white~
+~
+staff C AO
+0 0 0 '' 0
+30 100 0 P
+A
+20 -30
+#22022
+tablet~
+a tablet of death~
+A tablet of death lies here.~
+stone~
+trash SY AO
+0 0 0 0 0
+1 50 100 P
+E
+tablet~
+Cinder
+Lurker
+Spaceboy
+Hulk
+Jakar
+Courtney
+Zodianne
+~
+#22023
+reznor fist~
+Reznor's bare fist~
+Reznor's disembodied hand lies here, twitching.~
+flesh~
+weapon BCORY AN
+dagger 50 50 punch ABCDEGHI
+54 50 0 P
+A
+19 10
+A
+18 10
+#22024
+demise~
+Demise clan portal~
+~
+~
+portal O 0
+0 0 0 4201 0
+1 50 0 P
+E
+demise~
+Demise clan portal shimmers here.
+~
+#22025
+circle~
+Circle clan portal~
+~
+~
+portal O 0
+0 0 0 4400 0
+1 50 0 P
+E
+circle~
+Circle clan portal shimmers here.
+~
+#22026
+camo~
+the Camorra clan portal~
+~
+~
+portal O 0
+0 0 0 4600 0
+1 50 0 P
+E
+macleod~
+MacLeod clan portal shimmers here.
+~
+#22027
+honor~
+Honor clan portal~
+~
+~
+portal O 0
+0 0 0 4300 0
+1 50 0 P
+E
+honor~
+Honor clan hall portal shimmers here.
+~
+#22028
+posse~
+Posse clan portal~
+~
+~
+portal O 0
+0 0 0 4700 0
+1 50 0 P
+E
+posse~
+Posse clan hall protal shimmers here.
+~
+#22029
+riders~
+Riders clan hall portal~
+~
+~
+portal O 0
+0 0 0 6902 0
+1 50 0 P
+E
+riders~
+Riders clan hall portal shimmers here.
+~
+#22030
+throne bone~
+The Throne of Bone~
+A throne made entirely of bone awaits its master.~
+bone~
+furniture COR 0
+1 0 F 0 0
+1 100 0 P
+#22031
+golden table~
+a table of gold~
+A table made of solid gold stands here, reflecting the light.~
+gold~
+furniture OR 0
+5 0 AE 100 100
+1 5000 0 P
+#22032
+plaque mandrake golden~
+A plaque, Immortalizing Mandrake~
+A golden plaque, immortalizing Mandrake and his vision hangs on the wall.~
+magic~
+furniture OR 0
+0 0 0 0 0
+1 100 0 P
+E
+plaque mandrake golden~
+Mandrake, one whose vision never failed him in life.
+He lived a long and prospering life, ending short in the life of an
+Immortal.  His ideas, though not always feasible, were always unique.
+He brought into existance the 'Temple of Elemental Evil' as a level
+55 Immortal.  This area, being 200 rooms large, was the largest area
+ever created by one so young in his Immortal life.
+Other characters he played had great impact.  ShadowCat, once leader of
+clan Honor, helped bring about many changes.  Live long, [Hunter].
+QuickSilver of clan Balance took in this young Dragon Warrior, and
+he became an elite Soldier, when his life was cut short.
+ 
+We the people and Immortal of the world Boinga remember you always.
+Through good times, and bad, you stood with all around you, and made
+a tremendous impact on our lives.
+ 
+At the very bottom, in very tiny letters, the sign reads:
+"To my bestest friend, Mandrake.  I miss you already." -Johnwa
+~
+#22033
+big pink fluffy dog~
+a big, pink, fluffy dog~
+A big, pink, fluffy dog says "Hug me when you are blue!"~
+cotton~
+gem CI AO
+0 0 0 0 0
+5 1 550 P
+A
+2 1
+#22034
+black silk bed~
+a bed, dressed in black silk~
+A bed, dressed in black silk, lies quietly in the corner.~
+silk~
+furniture ORT 0
+2 0 EHK 100 100
+1 100 0 P
+E
+bed black silk~
+A bed, dressed in the blackest of silk sheets, lays here in waiting.
+~
+#22035
+?~
+Mike's portal~
+~
+~
+portal ORT A
+0 0 0 30634 0
+4 100 0 P
+#22036
+black marble whirlpool~
+a black marble whirpool~
+A black marble whirlpool bubbles in the middle of the room.~
+marble~
+furniture BORST 0
+4 0 FI 100 100
+5 100 0 P
+E
+black marble whirlpool~
+The strong black tone of the marble set into the ground gives this
+whirling bath a sinister look, yet it seems to fit right into the
+room.  You can feel the steam coming from its open mouth.
+~
+#22037
+wedding cake~
+the wedding cake~
+A large, white wedding cake stands in the middle of the floor.~
+cake~
+container OR 0
+100 0 0 100 0
+1 100 0 P
+#22038
+piece wedding cake~
+a piece of wedding cake~
+A beautiful piece of white wedding cake lies here.~
+cake~
+food 0 A
+30 30 0 0 0
+60 1 0 P
+#22039
+ebony sapphire couch~
+an overstuffed ebony and sapphire couch~
+An overstuffed ebony and sapphire couch sits here.~
+leather~
+furniture ORSTY 0
+4 0 EHK 100 100
+1 850 0 P
+E
+ebony sapphire couch~
+A vivid sapphire marbles the soft ebony leather of this couch.
+It looks quite comfortable, and you should rest for a while.
+~
+#22040
+black marble fireplace~
+a black marble fireplace~
+A black marble fireplace stands here, gently radiating heat.~
+marble~
+container ORSTY 0
+20 0 0 20 0
+1 100 0 P
+E
+black marble fireplace~
+A beautifully crafted marble fireplace stands here, stolidly colored black.
+~
+#22041
+glowing red embers~
+red embers~
+Some glowing red embers lay burning.~
+ember~
+trash AORST 0
+0 0 0 0 0
+1 1 0 P
+#22042
+stained glass window~
+a stained glass window~
+A stained glass window casts various shades of blue around the room.~
+glass~
+container ORSTY 0
+10 AC 0 10 0
+1 100 0 P
+#22043
+Johnwa portable portal~
+Johnwa's portable portal~
+Johnwa's portable portal lies here.~
+air~
+portal ACORT A
+0 0 0 22020 0
+0 100 0 P
+#22044
+jewelled shard~
+a jewelled shard~
+A jewelled shard lies here, shattered from a full egg.~
+diamond~
+gem STWY A
+0 0 0 0 0
+0 5 100000 P
+#22045
+johnwa wand en-chant-o-matic~
+Johnwa's boom stick~
+Johnwa's boom stick lies here, to make things go *BOOM!*~
+Wood of a Tiki~
+wand C AO
+3000 1000 1000 'enchant weapon' 0
+59 100 0 P
+#22046
+accursed coin~
+a single, accursed coin~
+A single accursed coin lies here, glowing malevolently.~
+silver~
+trash HTY A
+0 0 0 0 0
+1 1 0 P
+#22047
+kahsita~
+a kahsita~
+A fairly long harpoon lies here, tip pointed to a sharp V.~
+metal~
+weapon AI AN
+polearm 5 4 thrust F
+21 50 2400 P
+#22048
+slaag neckguard black~
+a pitch-black neckguard~
+A studded black neckguard lies here.~
+magic~
+container CGORSTY AC
+1 0 0 0 100
+51 10 0 P
+#22049
+wand en-chant-o-armor johnwa boom stick~
+Johnwa's boom stick~
+Johnwa's boom stick lies here, to make things go *BOOM!*~
+Wood of a Tiki~
+wand C AO
+3000 1000 1000 'enchant armor' 0
+59 100 0 P
+#22050
+feather staff~
+a feather staff~
+A long pole lies here, small blades protruding from it's ends.~
+bamboo~
+weapon S AN
+polearm 6 2 slash F
+17 30 1550 P
+A
+18 2
+A
+19 3
+#22051
+zagaye~
+a zagaye~
+A long, iron-headed lance lies here.~
+Iron~
+weapon BG AN
+polearm 6 3 thrust FH
+26 100 9240 P
+A
+2 1
+A
+1 1
+A
+19 1
+#22052
+tiger trident~
+a tiger trident~
+A widely spaced, three prong trident lies on the ground.~
+metal~
+weapon 0 AN
+polearm 5 6 claw F
+33 40 3300 P
+#22053
+brandestoc~
+a brandestoc~
+A long, metal pole lies here, burning a small hole in the ground.~
+metal~
+weapon ABI AN
+polearm 4 8 thrust AF
+36 100 3240 P
+#22054
+bayengette~
+a bayengette~
+A hulking silver lance lies here, gleaming.~
+silver~
+weapon GIY AN
+polearm 2 19 stab F
+41 120 4950 P
+#22055
+sainite~
+a sainite~
+A long wooden shaft lies here, carved with ruinic marking.~
+wood~
+weapon 0 AN
+polearm 3 13 drain CF
+44 50 4100 P
+#22056
+buse-daemon~
+a buse-daemon~
+A wicked looking polearm lies here, dripping blood.~
+metal~
+weapon H AN
+polearm 6 7 thrust F
+50 120 5780 P
+#22057
+boar spear~
+a boar spear~
+A short, boar hunting spear lies here.~
+wood~
+weapon 0 AN
+staff 2 3 stab 0
+3 20 32 P
+#22058
+bilari~
+a bilari~
+A long shafted staff lies on the ground.~
+iron~
+weapon B AN
+staff 2 6 pierce 0
+9 60 110 P
+#22059
+hak~
+a hak~
+A long hunting spear lies here.~
+wood~
+weapon 0 AN
+staff 3 5 thrust 0
+13 45 450 P
+#22060
+cateia~
+a cateia~
+A magical spear lies here, glowing softly.~
+metal~
+weapon A AN
+staff 3 5 thrust C
+15 10 930 P
+A
+1 2
+#22061
+argon~
+an argon~
+A spear with a large, barbed, iron-head lies on the ground.~
+iron~
+weapon 0 AN
+staff 2 9 thrust 0
+18 110 1300 P
+#22062
+garro~
+a garro~
+A old, battle-worn spear lies here, with intricate carvings.~
+wood~
+weapon I AN
+staff 2 10 pierce F
+20 40 1550 P
+#22063
+hoko~
+a hoko~
+A double edged spear marked with designs lies here.~
+metal~
+weapon G AN
+staff 4 6 thrust 0
+23 110 1740 P
+A
+1 -1
+#22064
+lembing~
+a lembing~
+A long spear, tipped with a diamond head, lies here.~
+iron~
+weapon 0 AN
+staff 4 6 pierce AF
+25 140 3600 P
+#22065
+pilum~
+a pilum~
+An extremely long riders' spear lies on the ground.~
+silver~
+weapon 0 AN
+staff 3 9 thrust F
+29 180 2550 P
+#22066
+tombak~
+a tombak~
+A wooden pointed staff lies here.~
+wood~
+weapon AB AN
+staff 2 16 slash 0
+32 100 3300 P
+A
+19 3
+A
+18 2
+#22067
+tawok~
+a tawok~
+A short, diamond headed spear lies here.~
+iron~
+weapon 0 AN
+staff 6 5 thrust G
+37 120 3750 P
+#22068
+yari~
+a yari~
+A long, trident-headed staff lies here, carved with markings.~
+metal~
+weapon GH AN
+staff 5 8 thrust F
+42 100 4200 P
+A
+18 2
+A
+20 -2
+#0
+
+#ROOMS
+#22000
+The Great Arch~
+As you walk into a small clearing, a noticable silence has befallen the
+inhabitants of these parts.  Your eyes are drawn immediately to the giant
+bending trees waiting in front of you.  They look like an arch of some sort,
+made out of the surrounding plant growth.  As you try to pierce the inky
+blackness around you, the clearing dims further.
+~
+0 AC 0
+D0
+Exit ~
+door~
+0 0 22001
+D2
+Exit ~
+door~
+0 0 8318
+E
+down~
+The ground here is made of soft dirt and many small rocks.  The vegetation
+overruns your feet as you move around.
+~
+E
+up~
+The tips of trees loom gloomily overhead, making a jaged outline in the
+sky.  They look like teeth waiting to swallow the sky.
+~
+E
+tree arch~
+Old and withered trees bend into an arch formation, covered with the 
+surrounding vegetation.  The noble trees seem like creatures themselves.
+~
+E
+west east~
+Thick vegetation and trees block your way.
+~
+S
+#22001
+Inside The Arch~
+As you look around you, it feels as if the trees were closing in on
+themselves, to crush the life from any intruders.  As they tower above
+you, the trees block your view overhead, leaving you alone, with very
+meager light.  With the trees, it seems no weather could penetrate this
+place, but a strong breeze flows swifty by.  The ground begins to creep
+up around your ankles in a vain attempt to suck you into the marshland.
+A single shrub among the many bushes stands out to the east.  You can feel
+the evil in this place.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 22002
+D1
+Exit ~
+shrub~
+1 0 22083
+D2
+Exit ~
+door~
+0 0 22000
+E
+trees~
+These trees are almost alive.  You can feel them staring at you, as you
+trespass into their domain.
+~
+E
+ground marshland~
+The ground you stand on is a mix between hard ground, and mud.  Some 
+places are easy to walk over, and others can be fatal.
+~
+E
+up~
+The trees have completely blocked your view upwards.
+~
+E
+west~
+Thick vegetation prevents you from going any further here.
+~
+E
+down~
+The vegetation seems to grope at your ankles and feet.
+~
+E
+east bush shrub~
+Among the many bushes, there is a shrub that looks a bit out of place.
+Then agian, this whole place seems strange.
+~
+S
+#22002
+Southern Shores~
+In the darkness, you can faintly make out the edge of what seems to be
+a vast expanse of bog land.  Piercing the night are the shadows of 
+enormous trees, the likes of which you have never seen before.  Here and
+there, you catch a glimpse of a scurrying shadow, without descerning any
+solid form.  Nearby, you hear the grunt of creatures that could be the
+size of war horses.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22007
+D1
+Exit ~
+door~
+0 0 22003
+D2
+Exit ~
+door~
+0 0 22001
+D3
+Exit ~
+door~
+0 0 22005
+E
+edge bog~
+The muddy ground turns to slush at the edge of this bog.
+Watch where you step so you don't sink in too deep.
+~
+E
+shadows~
+Shadows dance and dart all around you.  Although they pass right in
+front of you, not a single one is identifiable.
+~
+E
+up~
+Darkness protrudes, and shadows dance around the upper tree limbs.
+~
+E
+down~
+The ground is softer here.  It looks as though you've entered a swamp.
+~
+S
+#22003
+Southern Bog~
+As you wade through the murky water here, you feel your feet being 
+sucked into the mud on the bottom of the bog floor.  In some places the
+water comes to chest level.  Wading through this bog will prove to be
+a challenge.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22006
+D1
+Exit ~
+door~
+0 0 22004
+D3
+Exit ~
+door~
+0 0 22002
+E
+murky water down~
+The water here looks like midnight itself.  Its blackness rivals the 
+blackest of nights.  The claim to this being water is amazing, since the
+texture is that of a thick soup.
+~
+E
+~
+Generic extended description.
+~
+E
+up~
+The emense trees have yielded a bit, and you can catch a glimpse of
+the sky.
+~
+E
+down~
+This water is disgusting.
+~
+E
+south~
+Thick vegetation blocks your view.
+~
+S
+#22004
+Southern Bog~
+As you wade through the murky water here, you feel your feet being 
+sucked into the mud on the bottom of the bog floor.  In some places the
+water comes to chest level.  Wading through this bog will prove to be
+a challenge.
+~
+0 A 0
+D3
+Exit ~
+door~
+0 0 22003
+E
+murky water down~
+The water here looks like midnight itself.  Its blackness rivals the 
+blackest of nights.  The claim to this being water is amazing, since the
+texture is that of a thick soup.
+~
+E
+~
+Generic extended description.
+~
+E
+up~
+The emense trees have yielded a bit, and you can catch a glimpse of
+the sky.
+~
+E
+down~
+This water is disgusting.
+~
+E
+north south east~
+Thick vegetation blocks your progress in this direction.
+~
+S
+#22005
+Southern Bog~
+As you wade through the murky water here, you feel your feet being 
+sucked into the mud on the bottom of the bog floor.  In some places the
+water comes to chest level.  Wading through this bog will prove to be
+a challenge.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22008
+D1
+Exit ~
+door~
+0 0 22002
+E
+murky water down~
+The water here looks like midnight itself.  Its blackness rivals the 
+blackest of nights.  The claim to this being water is amazing, since the
+texture is that of a thick soup.
+~
+E
+~
+Generic extended description.
+~
+E
+up~
+The emense trees have yielded a bit, and you can catch a glimpse of
+the sky.
+~
+E
+down~
+This water is disgusting.
+~
+E
+west south~
+Thick vegetation blocks your way further.
+~
+S
+#22006
+The Bog~
+As you wander here, your knees haven't been out of the water yet.
+Travel is hard considering you have to wrench your feet from the mud
+every step of the way.  A few dead saplings lay bent over under the weight
+of the darkness.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22010
+D2
+Exit ~
+door~
+0 0 22003
+D3
+Exit ~
+door~
+0 0 22007
+E
+saplings~
+A few trees bend into the water here.
+~
+E
+water down~
+More black water.  It seems that most of this bog is black water.
+~
+E
+up~
+The sky peeks through the tips of trees all around, but it has a very
+black tinge to it.  This blackness is depressing.
+~
+E
+east~
+Plant growth blocks your way east.
+~
+S
+#22007
+The Bog~
+Your first step here sends you chest deep into the murky water.
+It is a great struggle to pull your feet from the bottom, as the mud
+securely holds your feet in place.  How do you move around in here?
+You think swimming may be more productive.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22011
+D1
+Exit ~
+door~
+0 0 22006
+D2
+Exit ~
+door~
+0 0 22002
+D3
+Exit ~
+door~
+0 0 22008
+E
+down~
+Generic extended description.
+~
+E
+down water~
+You cannot penetrate the blackness of this water.
+~
+E
+up~
+Looking up, you see trees and a dark sky.
+~
+S
+#22008
+The Bog~
+The bog floor feels alive with small mouths pulling your feet further 
+inside.  Sweat rolls down your back as you try to move through this harsh
+land.  Some deadfall lies strewn about harmlessly.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22012
+D1
+Exit ~
+door~
+0 0 22007
+D2
+Exit ~
+door~
+0 0 22005
+D3
+Exit ~
+door~
+0 0 22009
+E
+up~
+You see many trees, and a lot of darkness.
+~
+E
+floor down~
+The floor consists of mud and murky water.
+~
+E
+deadfall~
+These trees look like they have been dead a long time.
+~
+S
+#22009
+The Bog~
+This part of the bog looks as desolate as the rest.  Dark water rests
+all around you, undisturbed.  Trees block your way to the west and the
+south.  You can feel eyes watching from all around.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22013
+D1
+Exit ~
+door~
+0 0 22008
+E
+west south trees~
+Trees block your way here.
+~
+E
+dark water~
+The blackness of this water makes it a horrible sight.
+~
+E
+~
+Generic extended description.
+~
+E
+down water~
+The blackness of this water makes a horrible sight.
+~
+E
+up~
+The sky peeks through the tree tips as you look up.
+~
+S
+#22010
+The Bog~
+Creeping along slowly through these waters is a task in itself.
+The trees have covered the sky once more, and you cannot see above you.
+Red eyes glow at you through the bushes in the east.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 22014
+D2
+Exit ~
+door~
+0 0 22006
+D3
+Exit ~
+door~
+0 0 22011
+E
+east bushes~
+You can see the outline of red eyes, glowing at you.
+~
+E
+down water~
+The black water engulfs your legs.
+~
+E
+up~
+The sky has been enveloped by the trees.
+~
+S
+#22011
+The Bog~
+The water here engulfs your legs.  The shadows dance around you
+as your feet struggle to free themselves once again.  The sky peeks 
+through the trees in an evil smile.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 22015
+D1
+Exit ~
+door~
+0 0 22010
+D2
+Exit ~
+door~
+0 0 22007
+D3
+Exit ~
+door~
+0 0 22012
+E
+down water~
+The black water continues to suck you in, down towards the bottom.
+~
+E
+up sky trees~
+The sky peeks through the trees in what looks like an evil smile.
+~
+E
+shadows~
+The shadows dance freely around the bog, and you can't make out a 
+single one of them.
+~
+S
+#22012
+The Bog~
+The trees have bent in to form a low dome above your head, cutting out
+the sky from view.  The water here is at neck level, and travelling is
+quite hard.  As you wade through the water, sticks and twigs slap your
+face, and leaves stick to your head.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22011
+D2
+Exit ~
+door~
+0 0 22008
+D3
+Exit ~
+door~
+0 0 22013
+E
+trees dome up~
+The trees have bent inward to form a small dome, cutting out the light.
+~
+E
+down water~
+You are up to your neck in water.
+~
+S
+#22013
+The Bog~
+The water is more shallow here, but the going seems to be more 
+dangerous.  Many small bushes dot the slim shores.  As you look at them,
+you notice that each of these bushes has poisonous brambles on them.
+Something tells you to stay away from them.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22012
+D2
+Exit ~
+door~
+0 0 22009
+E
+water down~
+The water has become more shallow, making it easier to walk around.
+~
+E
+up~
+You still can't see anything upwards.
+~
+E
+bushes~
+You've seen these bushes somewhere before.  You can't put your finger on
+it, but somehow, you know they're poisonous.  You decide to stay away
+from them either way.  Thos brambles look like they'd hurt, even if the
+plant isn't poisonous.
+~
+E
+brambles~
+These brambles look dangerous...and you think they're poison too.
+~
+E
+shores~
+The shores are dotted with small bushes.
+~
+E
+north west~
+The poisonous bushes hinder your progress here.
+~
+S
+#22014
+Hardening Land~
+The terrain has become more rocky, keeping the water levels low.  Although
+your feet do not stick as much, you now face the dangers of sliding on the
+slippery rocks.  The trees have opened up to reveal the sky in a black
+haze.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22018
+D2
+Exit ~
+door~
+0 0 22010
+D3
+Exit ~
+door~
+0 0 22015
+E
+up sky~
+The sky is tinged with the blackness of the bog.
+~
+E
+east~
+The way east is blocked by many trees.
+~
+E
+terrain down rocky~
+These rocks are quite slippery.  At least your feet aren't stuck anymore.
+~
+E
+water~
+The water is still as black as midnight, but not very deep.
+~
+S
+#22015
+The Bog~
+You can barely wade through this water in some places, and in others, the
+water just touches your ankles.  You have trouble seeing your hand
+extended in front of your face.  In the distance, you hear a large splash.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22014
+D2
+Exit ~
+door~
+0 0 22011
+D3
+Exit ~
+door~
+0 0 22016
+E
+north~
+You can't see that far.
+~
+E
+down water~
+This murky water has variable levels here.
+~
+E
+up~
+You can't see that far.
+~
+S
+#22016
+The Bog~
+This can barely be considered part of a bog.  It feels more like a pool
+of water.  At some points, it is necessary to swim to put your feet on 
+the ground again.  There is heavy vegetation to the south.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 22034
+D1
+Exit ~
+door~
+0 0 22015
+D3
+Exit ~
+door~
+0 0 22017
+E
+down water~
+This deep pool of black water is frightening.
+~
+E
+up~
+You can see the sky clearly through the tree tops.
+~
+E
+south~
+Heavy vegetation blocks your way.
+~
+S
+#22017
+Dead End~
+The water has become to deep to travel any farther.  You need to turn back
+to the east.
+~
+0 A 0
+D1
+Exit ~
+door~
+0 0 22016
+E
+north south west~
+This water is much to deep to continue this way.
+~
+E
+down~
+The water is immeasurably deep.
+~
+E
+up~
+The sky look demonic as you stare at it.
+~
+S
+#22018
+The Rock~
+You stand here on a large rock, protruding from the murky depths.  It 
+seems to be unnatural for the rock to be here, but it keeps your feet
+out of the mud, so you can't complain.  The vegetation is sparse here
+except for a huge tree here or there.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22021
+D2
+Exit ~
+door~
+0 0 22014
+D3
+Exit ~
+door~
+0 0 22019
+E
+rock down~
+An enormous rock rests in the murky water.
+~
+E
+east~
+One gigantic tree blocks your way.
+~
+E
+vegetation tree~
+There is little vegetation, save the giant trees thrown in here and there.
+~
+E
+up~
+The clouds hover low to the trees, keeping it dark here.
+~
+S
+#22019
+A Tree House~
+After wading through all that mud and murk, this small little island is
+a comforting change.  On the south side of this island, you stand before
+an enormous tree.  It looks as though it has been converted into some
+sort of home by the door in the front.  The branches with their heavy
+foliage, cut off your view of the sky.
+~
+0 A 0
+D0
+Exit ~
+door~
+1 0 22085
+D1
+Exit ~
+door~
+0 0 22018
+E
+island down~
+You stand on the southern part of an island.
+~
+E
+tree house~
+This huge tree would be perfect living for a small creature.
+Maybe you shouldn't disturb it...
+~
+E
+up~
+The tree has cut off your view.  You can see many leaves and branches.
+~
+E
+door~
+The door is quite small.  It's looks like you might have to squeeze 
+yourself in if you want to enter.
+~
+E
+north~
+You cannot pass around this huge tree.
+~
+E
+west south~
+The murky water has climbed up to the edge of this island.
+It's much to deep to pass through.
+~
+S
+#22020
+The Black Light Chamber~
+...It's completely dark...
+All the walls around you are as black as tar, and the only light you can
+see is that from small white splotches of paint on the walls.  There are
+black light hanging everywhere in this room, illuminating all the white,
+turning it a deep purple color.
+The sound of Nine Inch Nails emits from an unknown source.
+You feel like you are being watched, but you can't be sure, since it is
+too dark to see anyone that might be watching you....
+ 
+You can hear the humming of portals in the background. To get out of here:
+'enter <clan name>' to head back to your clan hall.
+'recall' will return you to the middle of Midgaard.
+~
+0 CDJKTU 0
+H 30000 M 30000
+D2
+Exit ~
+door~
+0 0 17041
+S
+#22021
+The Bog~
+Your feet stumble within the murky water for purchase on the ground.
+The trees are thickest you have seen yet.  The sound of moving creatures
+seems to come from all around you.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22022
+D2
+Exit ~
+door~
+0 0 22018
+D3
+Exit ~
+door~
+0 0 22023
+E
+down water~
+The black water clinges to you like a set of clothing.
+~
+E
+up~
+The trees block your view.
+~
+E
+west east~
+There is too many trees to see through that way.
+~
+S
+#22022
+The Bog~
+The water has thinned measurably here.  You can walk around freely with
+little effort.  The trees are almost non-existant.  It feels like a 
+completely new place.
+~
+0 A 0
+D2
+Exit ~
+door~
+0 0 22004
+D3
+Exit ~
+door~
+0 0 22021
+E
+north east~
+The few trees in this area do not allow passage this way.
+~
+E
+trees~
+The trees are sparse enough not to even metion them.
+~
+E
+down water~
+There is very little water to look at here.
+~
+E
+up~
+The sky has cleared up from the darkness it was shrouded in.
+~
+S
+#22023
+Northern Side of The Island~
+This island seems to be near the end of the bog.  The water creeps up
+to the west, blocking you off.  To the south is an enormous tree blocking
+your way.  It is still very dark, but the sky has cleared slightly.  The
+soft grass looks inviting for you to rest in.  It looks like no one has
+been here for quite some time.
+~
+0 AC 0
+H 125 M 125
+D0
+Exit ~
+door~
+0 0 22024
+D1
+Exit ~
+door~
+0 0 22021
+E
+up~
+The sky looks hazey, yet it is fairly clear through the trees.
+~
+E
+west water~
+The black water rises up to the west, making it impassible.
+~
+E
+down grass~
+The grass looks very comfortable.  This place seems safe, since it looks
+fairly untravelled.
+~
+E
+south tree~
+An enormous tree blocks your way south.
+~
+S
+#22024
+Rocks and Sand~
+Small rocks and sand make up the ground here.  It is very easily
+travelled, which is a small relief.  There are large drop-offs to the
+east and west.  The trees have become young saplings, and there is no
+water around to speak of.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22025
+D2
+Exit ~
+door~
+0 0 22023
+E
+up~
+The sky is now visible.
+~
+E
+saplings~
+These young trees are striving for sun and water to grow.
+~
+E
+east west~
+To the east and west are steep drop-offs. 
+They look like something to stay away from if you don't like falling.
+~
+E
+armlessly.
+wounds.
+
+~
+Small rocks and sand make travel easy.
+~
+S
+#22025
+Quick Sand~
+The quick sand here is very warm.  It hasn't pulled you down...yet.
+It could be safe to venture here, then again, it might not.
+Do you dare venture further?
+~
+0 A 0
+H 0 M 0
+D1
+Exit ~
+door~
+0 0 22026
+D2
+Exit ~
+door~
+0 0 22024
+D3
+Exit ~
+door~
+0 0 22031
+S
+#22026
+Quick Sand~
+The quick sand here is very warm.  It hasn't pulled you down...yet.
+It could be safe to venture here, then again, it might not.
+Do you dare venture further?
+~
+0 A 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 22027
+D3
+Exit ~
+door~
+0 0 22025
+S
+#22027
+Quick Sand~
+The quick sand here is very warm.  It hasn't pulled you down...yet.
+It could be safe to venture here, then again, it might not.
+Do you dare venture further?
+~
+0 A 0
+H 0 M 0
+D2
+Exit ~
+door~
+0 0 22026
+D3
+Exit ~
+door~
+0 0 22028
+D5
+Exit ~
+door~
+0 0 22032
+S
+#22028
+Quick Sand~
+The quick sand here is very warm.  It hasn't pulled you down...yet.
+It could be safe to venture here, then again, it might not.
+Do you dare venture further?
+~
+0 A 0
+H 0 M 0
+D1
+Exit ~
+door~
+0 0 22027
+D3
+Exit ~
+door~
+0 0 22030
+S
+#22029
+Rocky Marsh~
+This rocky terrain seems out of place.  Large rocks block your way both
+east and west.  Above you, the trees sway to and fro, making strange light
+patterns on the ground.  The ground you are walking on is damp and 
+squishy, but you can't see any water anywhere.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22031
+D2
+Exit ~
+door~
+0 0 22034
+E
+ground down patterns~
+The ground is damp to the touch, but there is no water around.
+The patterns filtered from the trees are displayed on the ground.  They 
+are rather entrancing, actually.
+~
+E
+up~
+The trees sway back and forth, letting little light in.
+~
+E
+east west rocks~
+Huge rocks block your way.
+~
+S
+#22030
+Quick Sand~
+The quick sand here is very warm.  It hasn't pulled you down...yet.
+It could be safe to venture here, then again, it might not.
+Do you dare venture further?
+~
+0 A 0
+H 0 M 0
+D1
+Exit ~
+door~
+0 0 22028
+D2
+Exit ~
+door~
+0 0 22031
+S
+#22031
+Quick Sand~
+The quick sand here is very warm.  It hasn't pulled you down...yet.
+It could be safe to venture here, then again, it might not.
+Do you dare venture further?
+~
+0 A 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 22030
+D1
+Exit ~
+door~
+0 0 22025
+D2
+Exit ~
+door~
+0 0 22029
+D5
+Exit ~
+door~
+0 0 22033
+S
+#22032
+Drowning in Quicksand~
+You've fallen into the quicksand, and you're slowly drowning!!!
+~
+0 ACD 0
+H 0 M 0
+S
+#22033
+Drowning in Quicksand~
+You've fallen into the quicksand, and you're slowly drowning!!!
+~
+0 ACDL 0
+H 0 M 0
+S
+#22034
+The Bog~
+Creeping along slowly through these waters is a task in itself.
+The trees have covered the sky once more, and you cannot see above you.
+Red eyes glow at you through the bushes in the east.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 22029
+D2
+Exit ~
+door~
+0 0 22016
+D3
+Exit ~
+door~
+0 0 22035
+E
+east bushes~
+You can see the outline of red eyes, glowing at you.
+~
+E
+down water~
+The black water engulfs your legs.
+~
+E
+up~
+The sky has been enveloped by the trees.
+~
+S
+#22035
+The Bog~
+You can barely wade through this water in some places, and in others, the
+water just touches your ankles.  You have trouble seeing your hand
+extended in front of your face.  In the distance, you hear a large splash.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22034
+D3
+Exit ~
+door~
+0 0 22036
+E
+south~
+You can't see that far.
+~
+E
+north~
+You can't see that far.
+~
+E
+down water~
+This murky water has variable levels here.
+~
+E
+up~
+You can't see that far.
+~
+S
+#22036
+The Ascent to Higher Ground~
+The land dips up and down here.  You can feel the ground grow more firm
+as you move upwards.  To both the north and south are heavy patches of
+trees.
+~
+0 A 0
+D1
+Exit ~
+door~
+0 0 22035
+D3
+Exit ~
+door~
+0 0 22037
+E
+north south~
+There are heavy patches of trees blocking your way.
+~
+E
+down~
+You are standing on a small raise in the land.
+You notice the murky substance covering your feet.
+Looks like you need to clean your feet off.
+~
+E
+up~
+The sky can be seen through a general haze.
+~
+S
+#22037
+Wet Ground~
+The ground is only slightly wet.  It looks as if someone drained this 
+land for a specific purpose.  The trees are very thick, and quite old.
+They tower over you with an evil disposition.  Nothing is too out of
+the ordinary.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22036
+D2
+Exit ~
+door~
+0 0 22038
+E
+trees~
+The trees here are huge.  They must have grown here for ages.
+As you look at them, they seem to look back.  Not a good sign.
+~
+E
+up~
+You can't see anything through the trees.
+~
+E
+north west~
+Huge, menacing trees block your way.
+~
+E
+down ground~
+You're stepping on slightly wet dirt...usually called mud.
+~
+S
+#22038
+Solid Ground~
+This land is perfectly solid.  It is boggling to think of a piece of
+land like this where it is placed.  It is barren land, and very flat.
+From the east and the south protrudes a bright light.  You can feel 
+power in that area.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22037
+D1
+Exit ~
+door~
+0 0 22039
+D2
+Exit ~
+door~
+0 0 22040
+D3
+Exit ~
+door~
+0 0 22042
+S
+#22039
+Enchanted Lands~
+Power radiates from everywhere.  You can feel it flowing around you.
+This is very flat land, but the ruinic symbols embeded in the earth
+remind you of certain holy symbols from tales long ago.
+A voice inside you head speaks to you saying:
+"You have intruded...leave this place now."
+You think you had better listen and leave quickly.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 22041
+E
+north east west~
+A huge wall of vines blocks your progess this way.
+~
+E
+holy symbols~
+These symbols are of a ritual that was described to you once.
+You can't recall where it came from.
+~
+E
+down~
+The ground is covered in lush grass and ruinic holy symbols.
+~
+E
+up~
+The sky shows brighty into your face.
+~
+S
+#22040
+Enchanted Lands~
+Power radiates from everywhere.  You can feel it flowing around you.
+This is very flat land, but the ruinic symbols embeded in the earth
+remind you of certain holy symbols from tales long ago.
+A voice inside you head speaks to you saying:
+"You have intruded...leave this place now."
+You think you had better listen and leave quickly.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 22041
+E
+north east south~
+A huge wall of vines block your progress this way.
+~
+E
+holy symbols~
+These symbols are of a ritual that was described to you once.
+You can't recall where it came from.
+~
+E
+down~
+The ground is covered in lush grass and ruinic holy symbols.
+~
+E
+up~
+The sky shows brighty into your face.
+~
+S
+#22041
+Enchanted Land~
+The power is not so concentrated here.  You feel a bit more at ease when
+you notice the passage leading to the east.  The sky darkens as you look
+around you.  The hard ground trembles slighty.  You think it's time to
+leave now.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 22039
+D1
+Exit ~
+door~
+0 0 22013
+D3
+Exit ~
+door~
+0 0 22040
+E
+south~
+A huge wall of vines blocks your way south.
+~
+E
+down ground~
+The ground begins to shake as you stand here.
+~
+E
+up~
+The sky grows darker the longer you stand here.
+~
+S
+#22042
+The Slopes~
+You stand amidst gently sloping land.  It rolls on for what looks like an
+eternity.  Wild forest growth has sprouted up all around this place.  
+Further north, it looks like the land slopes downward a bit.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22043
+D1
+Exit ~
+door~
+0 0 22038
+E
+wild forest growth~
+The growth here is tremendous.  Many different plant types can be found.
+~
+E
+south west~
+Wild growing plants block the way.
+~
+E
+up~
+The sky has a hazy gray tinge to it.
+~
+E
+down~
+You stand on solid, sloping land.
+~
+S
+#22043
+Wet Ground~
+The ground here is low enough to collect a minimal amount of water.  You
+here a squishing sound with each step you take.  The plant growth has 
+become fuller.  As you look around you, the north and south seem steeper
+and the west seems fairly flat.
+~
+0 A 0
+D0
+Exit ~
+door~
+0 0 22044
+D2
+Exit ~
+door~
+0 0 22042
+D3
+Exit ~
+door~
+0 0 22009
+E
+plant growth~
+The vegetation here is amazingly thick.
+~
+E
+up~
+You can see the weather through a deep red-grey hue.
+~
+E
+ground down water~
+The water on the ground makes a squishing noise with your steps.
+~
+S
+#22044
+A Small Mountain~
+You stand on the peak of a small mountain.  The hard, rocky surface
+is easily navigated.  The vegetation has cleared, and you have a clear
+view of the sky from here.  Rocks of different sizes and shapes litter
+the ground everywhere.
+~
+0 A 0
+D1
+Exit ~
+door~
+0 0 22045
+D2
+Exit ~
+door~
+0 0 22043
+E
+rocks~
+Rocks of all different sizes are strewn about.
+~
+E
+up sky~
+You have a clear view of the sky from here.
+~
+E
+north west~
+You have a clear view of a small valley.  Unfortunately, you can't reach
+it from here...or do you really want to jump off a cliff?
+~
+E
+down ground~
+The ground is littered with rocks of different sizes and shapes.
+~
+S
+#22045
+Ascent into the Trees~
+You can't see a thing except trees and more trees.  Your only hope is
+to follow the small path that leads east and west.  The path is made
+of small sticks and twigs, and hundreds of leaves from the trees around
+you.  It looks like the work of a small animal of some sort.  You can
+tell that you are fairly high up off the floor of the bog.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22046
+D3
+Exit ~
+door~
+0 0 22044
+E
+up~
+You see a bunch of branches and leaves.
+Then you realize you are looking up into the trees.
+~
+E
+path sticks twigs leaves~
+This path looks like the busy work of a small animal.
+~
+E
+down~
+The ground is covered in tree litter.
+~
+E
+north south~
+You can't see a thing through these trees!
+~
+S
+#22046
+Inside the Tree Cover~
+There are so many trees here you can barely see the trail back, let alone
+anywhere else.  The sky is blocked out completely, leaving you in almost
+total darkness.  As you look around, you catch a small rope bridge to the
+north out of the corner of your eye.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 22047
+D3
+Exit ~
+door~
+0 0 22045
+E
+down~
+It is pitch black ...
+~
+E
+up~
+You can't see a thing!
+~
+E
+south east~
+It is pitch black ...
+~
+E
+trees~
+You can barely see these trees, but most look or feel rather large.
+~
+S
+#22047
+The Rope Bridge~
+This thin rope bridge doesn't look like it can support much weight.  It
+may be best to move off it as soon a possible.  The view up here is
+breathtaking, but as you hear the bridge groan under your weight, you
+quickly change your mind.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 22048
+D2
+Exit ~
+door~
+0 0 22046
+E
+bridge~
+The bridge is made of a thin rope, and hasn't been replaced for ages.
+~
+E
+east west~
+You stare off into the distance and see many moutain cliffs.
+As you hear the bridge groan under your weight, you snap back into reality.
+~
+E
+down~
+You look down into hundreds of feet of nothing, ending up in jagged rocks
+below.  You suddenly feel very sick.  Next time, remind yourself not to 
+look down when you are this high up.
+~
+E
+up~
+The sky has a crystal clear quality up here.
+SNAP!
+Best not look too long.
+~
+S
+#22048
+A Steep Ledge~
+This steep ledge surrounds this whole cliff you stand on.  It would be 
+best to move slowly around this edge, unless you want to fall off.  Below
+you is a giagantic gorge...way below you.  Looking out, you can only see
+the land for the next few hundred miles.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 22049
+D2
+Exit ~
+door~
+0 0 22047
+D3
+Exit ~
+door~
+0 0 22055
+E
+down~
+You stare into a gorge hundreds of feet down, ending in jaged rocks.
+Probably not a good idea to look down there.
+~
+E
+up~
+You can see more mountains, and a bit of the sky.
+~
+E
+north~
+A large portion of a cliff is here.
+~
+S
+#22049
+A Steep Ledge~
+This steep ledge surrounds this whole cliff you stand on.  It would be 
+best to move slowly around this edge, unless you want to fall off.  Below
+you is a giagantic gorge...way below you.  Looking out, you can only see
+the land for the next few hundred miles.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 22050
+D3
+Exit ~
+door~
+0 0 22048
+E
+down~
+You stare into a gorge hundreds of feet down, ending in jaged rocks.
+Probably not a good idea to look down there.
+~
+E
+up~
+You can see more mountains, and a bit of the sky.
+~
+S
+#22050
+A Steep Ledge~
+This steep ledge surrounds this whole cliff you stand on.  It would be 
+best to move slowly around this edge, unless you want to fall off.  Below
+you is a giagantic gorge...way below you.  Looking out, you can only see
+the land for the next few hundred miles.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 22051
+D2
+Exit ~
+door~
+0 0 22049
+E
+down~
+You stare into a gorge hundreds of feet down, ending in jaged rocks.
+Probably not a good idea to look down there.
+~
+E
+up~
+You can see more mountains, and a bit of the sky.
+~
+E
+west~
+A large portion of a cliff is here.
+~
+S
+#22051
+A Steep Ledge~
+This steep ledge surrounds this whole cliff you stand on.  It would be 
+best to move slowly around this edge, unless you want to fall off.  Below
+you is a giagantic gorge...way below you.  Looking out, you can only see
+the land for the next few hundred miles.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 22050
+D3
+Exit ~
+door~
+0 0 22052
+E
+down~
+You stare into a gorge hundreds of feet down, ending in jaged rocks.
+Probably not a good idea to look down there.
+~
+E
+up~
+You can see more mountains, and a bit of the sky.
+~
+S
+#22052
+A Steep Ledge~
+This steep ledge surrounds this whole cliff you stand on.  It would be 
+best to move slowly around this edge, unless you want to fall off.  Below
+you is a giagantic gorge...way below you.  Looking out, you can only see
+the land for the next few hundred miles.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 22051
+D3
+Exit ~
+door~
+0 0 22053
+E
+down~
+You stare into a gorge hundreds of feet down, ending in jaged rocks.
+Probably not a good idea to look down there.
+~
+E
+up~
+You can see more mountains, and a bit of the sky.
+~
+E
+south~
+A large portion of a cliff is here.
+~
+S
+#22053
+A Steep Ledge~
+This steep ledge surrounds this whole cliff you stand on.  It would be 
+best to move slowly around this edge, unless you want to fall off.  Below
+you is a giagantic gorge...way below you.  Looking out, you can only see
+the land for the next few hundred miles.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 22052
+D2
+Exit ~
+door~
+0 0 22054
+E
+down~
+You stare into a gorge hundreds of feet down, ending in jaged rocks.
+Probably not a good idea to look down there.
+~
+E
+up~
+You can see more mountains, and a bit of the sky.
+~
+S
+#22054
+A Steep Ledge~
+This steep ledge surrounds this whole cliff you stand on.  It would be 
+best to move slowly around this edge, unless you want to fall off.  Below
+you is a giagantic gorge...way below you.  Looking out, you can only see
+the land for the next few hundred miles.
+To the east lies a small cave in the cliff.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 22053
+D1
+Exit ~
+door~
+0 0 22057
+D2
+Exit ~
+door~
+0 0 22055
+E
+down~
+You stare into a gorge hundreds of feet down, ending in jaged rocks.
+Probably not a good idea to look down there.
+~
+E
+up~
+You can see more mountains, and a bit of the sky.
+~
+S
+#22055
+A Steep Ledge~
+This steep ledge surrounds this whole cliff you stand on.  It would be 
+best to move slowly around this edge, unless you want to fall off.  Below
+you is a giagantic gorge...way below you.  Looking out, you can only see
+the land for the next few hundred miles.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 22054
+D1
+Exit ~
+door~
+0 0 22048
+E
+down~
+You stare into a gorge hundreds of feet down, ending in jaged rocks.
+Probably not a good idea to look down there.
+~
+E
+up~
+You can see more mountains, and a bit of the sky.
+~
+S
+#22056
+The Demonic Holding Area~
+"SLAM!"
+As you clear the portal, it slams shut leaving you with no way out.  As
+you look down at the portal, you notice the large, demonic symbols of 
+holding etched into the surface.  It feels like the walls are closing in on
+you.  A quick check confirms your idea that there is no way out.  You're
+trapped.
+~
+0 CDT 0
+E
+north south east west~
+The glowing walls of stone keep you from leaving this place.
+~
+E
+up~
+The glowing ceiling is too high for you to reach.
+~
+E
+portal symbol~
+The portal is etched with a demonic symbol of holding.
+The only way out of here is to pray.
+~
+E
+walls~
+The glowing walls of stone keep you from leaving this place.
+~
+S
+#22057
+The Cave~
+The cave has been here a long time from what you can tell.  There is dust
+and a few bones lying strewn around.  Looking up, you can see a small
+portal that looks very rusty.  Leading downwards is a small staircase.
+~
+0 AD 0
+D3
+Exit ~
+door~
+0 0 22054
+D4
+Exit ~
+portal~
+1 0 22056
+D5
+Exit ~
+door~
+0 0 22058
+E
+up portal~
+This portal looks old and rusty, but still usable.
+~
+E
+down staircase~
+You can't see anything past the darkness of the staircase.
+~
+E
+bones~
+These bones have been here a while, and have started to decay.
+~
+E
+north south east~
+You see a big stone wall.  It's almost as if you were in a cave.
+Oh yeah...you are.
+~
+S
+#22058
+The Staircase~
+This long staircase leads down into the depths of the cave.  There is a 
+stong, musty odor emitting from the walls around you.  As you walk, you 
+notice the heavy green mist shrouding your body.  In the distance, you
+notice the smell of blood, rot, and decay.
+~
+0 AD 0
+D4
+Exit ~
+door~
+0 0 22057
+D5
+Exit ~
+door~
+0 0 22059
+E
+staircase~
+The stairs are etched from the rock floor of the cave.
+~
+E
+green mist~
+The green mist you walk through is weighing heavily on your body.
+~
+E
+up~
+A low stone ceiling comes close to your head.
+~
+E
+east west~
+The stone walls surround you.
+~
+E
+north south~
+You are looking along the staircase made of stone.
+~
+S
+#22059
+The Descent~
+Progressing on the staircase, you can feel the green mist surrounding you
+become heavier, making it difficult to move freely.  The stairs themselves
+have become slick with the green substance, and you lose your balance once
+or twice.  To the east, there is a small, open hole which you may be able
+to squeeze through.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22062
+D4
+Exit ~
+door~
+0 0 22058
+D5
+Exit ~
+door~
+0 0 22060
+E
+mist~
+The green mist here is weighing heavily on your body, exhausting you.
+~
+E
+up~
+The ceiling looks like it gets closer with every step you take.
+~
+E
+west~
+A thick stone wall of the cave stand before you.
+~
+E
+north south~
+You look along the staircase etched from the stone floor.
+~
+E
+staircase~
+The staircase is etched from the stone floor, and is covered in a green
+substance of some sort.
+~
+S
+#22060
+The End~
+You have come to the end of the staircase.  The green mist shrouds you
+with the weight of a second body.  There is no way you can move back
+upwards with the weight laying on your shoulders.  There is only one way
+that you can go, and that is down.
+~
+0 ACD 0
+D5
+Exit ~
+door~
+0 0 22061
+E
+green mist~
+The mist is laying on your body, weighing you down to much to move any
+farther upwards, the way you came.  It is so heavy, you feel like laying
+down and giving up hope for movement.
+~
+E
+north south~
+The staircase runs along this way.
+~
+E
+east west~
+Thick stone walls seem to close in on you.
+~
+E
+up~
+The staircase leads back up, but you can't seem to make it up again.
+~
+S
+#22061
+Stuck In A Hole~
+You've fallen through the floor of the stairs and can no longer get out!
+~
+0 ACD 0
+H 0 M 0
+E
+down~
+The stone floor is as comfortable as any stone floor could be.
+~
+E
+north south east west~
+Narrow stone walls hold you inside this hole in the floor.
+~
+E
+up~
+You look up from a deep pit in the floor.  There is no way you can get out.
+~
+S
+#22062
+A Small Tunnel~
+You are squeezed into a small tunnel east of the staircase.  It is very
+hard to move around in this tunnel.  The ceiling is only inches above
+your head as you crawl your way along the passage.  A small light shines
+ahead of you in the tunnel.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 22063
+D3
+Exit ~
+door~
+0 0 22059
+E
+down~
+The cold, digusting floor is no place for an adventurer to be.
+~
+E
+east south~
+A tunnel wall blocks off this direction.
+~
+E
+up~
+The cold stone ceiling hangs inches from your head.
+~
+S
+#22063
+Lit Section of the Tunnel~
+This small, curved section of the tunnel is lit by a few torches hanging
+on the wall.  As you cross the floor, you notice a small metal panel under
+your hands.  The ceiling is pressing you futher down onto the cold floor,
+making it even harder to move.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 22062
+D3
+Exit ~
+door~
+0 0 22064
+D5
+Exit ~
+panel~
+1 0 22067
+E
+torches~
+The torches hanging on the wall are fixed in tight.  It would be worthless
+to try and take these torches.  They are just pretty decorations.
+~
+E
+north east~
+Cold stone walls are in this direction.
+~
+E
+down~
+A small metal panel lies under your hands.
+~
+E
+up~
+The ceiling presses you onto the floor, forcing you to crawl with your
+chest dragging on the floor.
+~
+S
+#22064
+A Small Tunnel~
+You are squeezed into a tight fitting tunnel and you can't see a thing.
+You're light cannot penetrate the darkness of this segement of the tunnel.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22063
+D2
+Exit ~
+door~
+0 0 22065
+E
+up down~
+It is pitch black ...
+~
+E
+north west east~
+It is pitch black ...
+~
+S
+#22065
+The Dead End~
+Walls block your way in every directioon but the way you came.  You can
+barely make out your surroundings, but you notice the dirt on the floor
+has been walked over by what looks like a small creature...or many small
+creatures.  The ceiling has become wider here, allowing you to catch your
+breath.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 22064
+D5
+Exit ~
+secret~
+1 0 22068
+E
+south east west~
+Thick stone walls of a passage stand here.
+~
+E
+up~
+The ceiling is just high enough for you to catch your breath.
+~
+E
+down~
+There is a small crack in the floor, and many footprints of small 
+creatures in the dust along the segment of the passage.
+~
+S
+#22066
+The Slope~
+You walk along a very acute angled slope as you try to keep yourself from
+tripping and falling.  The fall looks like a nasty tumble for sure.  
+Around you lie small piles of bones, and corpses infested with rats and 
+other unidentifiable creatures.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22068
+D4
+Exit ~
+door~
+0 0 22067
+E
+bones corpses~
+Bones and corpses litter the steep slope.
+~
+E
+slope~
+You look at a very steeply angled slope.
+~
+E
+west~
+The stone wall of a cave stand firm.
+~
+E
+down~
+It's a dirt floor.  Not too special.
+~
+E
+east~
+A small passage lies this way.
+~
+S
+#22067
+The Entry Chamber~
+As you inch your way down a ledge of of dirt and rock, you can smell the 
+reek of pure death below you.  The ledge dips of sharply downwards and 
+into an unknown abyss.  Better watch your step.
+~
+0 AD 1
+D4
+Exit ~
+panel~
+1 0 22063
+D5
+Exit ~
+door~
+0 0 22066
+E
+ledge~
+This ledge is very thin, made of rock and dirt.
+~
+E
+South~
+A thick stone wall waits here patiently.
+~
+E
+north~
+You are looking into a great, black void.
+~
+E
+east west~
+A thin ledge leads along this way.  It's not too long, nor wide.
+~
+E
+up panel~
+You stare into the rusty face of a panel, used as a door.
+~
+S
+#22068
+The Corner Room~
+You stand in a very cubical room, deliberately ecthed from the stone walls
+surrounding you.  Every way you turn, the only exit seems to be in the 
+west wall.  As you stand here, the room goes suddenly dark.
+~
+0 AD 0
+D3
+Exit ~
+door~
+0 0 22066
+D4
+Exit ~
+secret~
+1 0 22065
+D5
+Exit ~
+hollow floor~
+1 0 22069
+E
+down~
+Thud Thud! Hollow floor?
+It is pitch black ...
+~
+E
+north south east~
+It is pitch black ...
+~
+E
+up~
+CLANG! A secret door?
+It is pitch black ...
+~
+S
+#22069
+The Passage~
+The passageway you stand in is dimly lit, and smells of rot and decay.
+You cannot see around you well, but you can feel the soft dirt floor 
+shifting heavily under your weight.  The sounds of a large creature
+breathing are coming from a distance.
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 22070
+E
+down~
+The soft dirt shifts under your newly added weight.
+~
+E
+north east west~
+A large stone wall stands here looking rather unsturdy.
+~
+E
+up~
+A small door lies here, with no way to open it.
+~
+S
+#22070
+The Echo Chamber~
+Everywhere you step, your footfall is echoed and amplified hundreds of
+times over.  Even shifting your head yields soft swishing echoes.  It is
+as if the passage was made as a warning system to someone, or something, 
+around here.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 22069
+D2
+Exit ~
+door~
+0 0 22071
+E
+down~
+Even the floor in this room has specially etched stone.
+~
+E
+east west up~
+The walls and ceiling are ecthed in special patterns to make each sound
+in this room louder than it was previously.
+~
+S
+#22071
+The Guardian's Chamber~
+You can tell a very large creature lives here from the large sleeping hole
+that has been etched from the wall many ages ago.  Within the hole, there 
+are a few skeletons and other bones from humanoid and young dragon
+adventurers that have visited these parts.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 22070
+D1
+Exit ~
+door~
+0 0 22072
+D3
+Exit ~
+door~
+0 0 22074
+E
+west~
+You peek into a sleeping hole.
+~
+E
+down floor~
+The hard stone floor is littered with debris.
+~
+E
+up~
+This room has an unusally high ceiling.
+~
+E
+skeletons bones~
+Many bomes lie scattered around this part of the passage.
+~
+E
+south~
+A hard stone wall stands here.
+~
+S
+#22072
+Bloody Passage~
+Along the floor are severed and decaying limbs, skeletons, an array of
+bones, and old and rusting equipment.  Blood lines the room along all 
+sides.  It looks as though a war took place in this passage alone.
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 22073
+D3
+Exit ~
+door~
+0 0 22071
+E
+down floor~
+The floor is littered with body parts and covered in blood.
+~
+E
+north east~
+A bloodied wall stand here.
+~
+E
+equipment~
+Much of this old metal is in it's own form of decay.
+It is all useless to you.
+~
+E
+skeletons bones~
+Piles of bones are misarrayed all over the passage.
+~
+E
+limbs~
+Bloody severed limbs lay here in decay.
+~
+E
+up~
+Even the ceiling is dripping with blood.
+~
+S
+#22073
+The Echo Chamber~
+Everywhere you step, your footfall is echoed and amplified hundreds of
+times over.  Even shifting your head yields soft swishing echoes.  It is
+as if the passage was made as a warning system to someone, or something, 
+around here.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 22072
+D2
+Exit ~
+door~
+0 0 22075
+E
+down~
+Even the floor in this room has specially etched stone.
+~
+E
+east west up~
+The walls and ceiling are ecthed in special patterns to make each sound
+in this room louder than it was previously.
+~
+S
+#22074
+The Sleeping Hole~
+You are standing in a very large hole, etched from the inside of the 
+passage.  Someone, or something, very large lives here.  You spot a small
+chest sitting comfortably in the corner of the room.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22071
+E
+down~
+From the size of the body print in the floor, you sure are glad that 
+whatever lives here is not at home right now.
+~
+E
+west south north~
+You see a deeply etched wall of the sleeping hole.
+~
+E
+up~
+You stare into a large, domed ceiling.
+~
+S
+#22075
+Cramped Passage~
+This small passage makes it a bit uncomfortable to fit through.  You don't
+have much of a problem getting through with a little twisting and turning.
+The passageway smells of old animal and human rot.  Not a very pleasant
+place to be be any means.
+~
+0 ACD 0
+D3
+Exit ~
+door~
+0 0 22076
+E
+up~
+A low hanging ceiling rests over head.
+~
+E
+down~
+The floor is a bleached red color fo some reason.
+~
+E
+east west~
+A thick wall is close to your body.
+~
+E
+north~
+You can't make it back this way.  The walls seem too close together.
+~
+S
+#22076
+The Boiler Room~
+This room contains a few small heating units with pipes extending through
+the ceiling to an unknown destination.  It reeks of coal and an older,
+mold smell.  Looking around, you can see a small hole in the floor leading
+into the blackness.  It is much to hot to stay in here long.
+~
+0 AD 0
+D0
+Exit ~
+boiler~
+1 0 22078
+D1
+Exit ~
+door~
+0 0 22075
+D5
+Exit ~
+door~
+0 0 22077
+E
+up~
+A few pipes lead to a place above you.
+~
+E
+south west~
+A heated stone wall lies in your path.
+~
+S
+#22077
+Under The Boilers~
+As you step under the boilers, a blast of heat hits your body, knocking
+you right to the ground.  This is when you notice that the floor is white 
+hot, just as everything else is in here.  When you look back up for the
+hole you entered through, you can't find it!  The white hot walls begin
+to seer your flesh uncomfortably.  Time to leave before any serious
+damage is done.
+~
+0 ACD 0
+E
+up~
+The hole in the ceiling has vanished!
+~
+E
+down~
+The stone ground seers your feet.
+~
+E
+north west south east~
+A white hot wall blocks you off.
+~
+S
+#22078
+Inside The Boiler~
+Inside this boiler you stand on very cool sandstone.  The thin, steel 
+metal walls surrounding you are quite cool.  There is one fairly large
+pipe leading upwards.  It looks just big enough so that you can crawl up
+into it.
+~
+0 AD 0
+D2
+Exit ~
+boiler~
+1 0 22076
+D4
+Exit ~
+door~
+0 0 22079
+E
+walls steel metal~
+The metal walls should be hot, but from the lack of heat, and the cooled
+floor, they are not.
+~
+E
+sandstone~
+This stone material is ground into a rough powder, and lines the floor.
+~
+E
+up~
+You look into the darkness of a boiler pipe.
+~
+E
+north east west~
+Curved, thin metal walls surround you.
+~
+E
+down~
+Cool sandstone lines the small boiler's floor.
+~
+S
+#22079
+Inside The Pipe~
+The pipe leads off to the north, and downwards.  It is cool, and fairly 
+dirty from the old ashes lining the metal tube.  It contains an almost
+entrancing mold odor.  It is a comfortable place to crawl around in, but
+it doesn't seem like a place you'd want to live.  It is rather hard to 
+navigate your way around the tube, but the ample light to the north gives
+you a small ideea of where you are headed.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 22080
+D5
+Exit ~
+door~
+0 0 22078
+E
+east west south~
+Curving metal piping leads down and north.
+~
+E
+up~
+Metal plated piping curves over your head.
+~
+S
+#22080
+The End of The Pipe~
+The metal pipe exits here into a dimly lit room.  Footprints lead in 
+different directions, looking like a confused animal's tracks.  You can
+see glints of light up above you.  All around you are stone walls and 
+some oversized tree roots.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 22079
+D4
+Exit ~
+rug~
+1 0 22081
+E
+tree roots~
+These tree roots are unually large.  The criss and cross all over the room.
+~
+E
+walls~
+These stone walls were not naturally constructed.
+~
+E
+down~
+You stand on a stone floor.  You feet are right above it.
+~
+E
+west east north~
+Stone and tree roots block your way.
+~
+S
+#22081
+The Cellar~
+You stand in a cold, damp cellar.  Around you, there are barrels and 
+bottles lining the walls, and standing on racks on the floor.  There is
+little light to see by, except for that of the few rays peeking through
+an overhang to your east.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22082
+D5
+Exit ~
+rug~
+1 0 22080
+E
+barrels bottles racks~
+Bottles and barrels stand on racks and line the walls.
+~
+E
+north south west~
+A damp wall stands in this direction.
+~
+E
+up~
+A damp ceiling hangs over your head.
+~
+S
+#22082
+The Stairwell~
+You stand at the foot of a flight of stairs.  The stairs lead upwards into
+a lit room.  To your west and east, it is pitch black.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 22084
+D3
+Exit ~
+door~
+0 0 22081
+D4
+Exit ~
+door~
+0 0 22085
+E
+north south~
+A wall blocks your way.
+~
+E
+down~
+A dirt floor coats your wet feet in mud.
+~
+S
+#22083
+The Holy Shrine~
+You stand in a holy shrine, dedicated to the denizens of the wildlife.
+You feel a strong, magical aura around this area, but there is nothing
+out of the ordinary, save the small altar surrounded by a circle of stones.
+~
+0 AC 0
+M 115
+D3
+Exit ~
+shrub~
+1 0 22001
+E
+down~
+Small, seemingly trimmed grass blades cushion your feet.
+~
+E
+up~
+You can see the sky.
+~
+E
+north south~
+Creeping vines stand in columns here.
+~
+E
+stones~
+Small stones rest around the alter.
+~
+E
+altar~
+A small, sacrificial alter rests in the middle of the shrine.
+~
+S
+#22084
+The Shrine Entrance~
+You stand in a small, dark room.  To the east, you can feel a strong 
+magical aura emitting from the waildlife outside.  The small exit to the
+east leads upwards into the light.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 22083
+D3
+Exit ~
+door~
+0 0 22082
+E
+down~
+A cold dirt floor supports your feet.
+~
+E
+up~
+A drab ceiling stares back in your face.
+~
+E
+north south~
+A cold wall stares you down.
+~
+S
+#22085
+The Foyer~
+You stand in a small foyer inside an enormous tree.  There isn't much to
+look at here, except for the small rug lying by the door, and a coatrack
+standing in the corner.  You can smell the odor of cooking meat somewhere
+inside the house.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 22086
+D2
+Exit ~
+door~
+1 0 22019
+D5
+Exit ~
+door~
+0 0 22082
+E
+east west~
+A wall is made from the sturdy tree.
+~
+E
+up~
+You see the carved ceiling of a tree.
+~
+E
+rug~
+A hand crafted rug lies near the door.
+~
+E
+coatrack~
+A wooden coatrack stands here for your extra body wears.
+~
+S
+#22086
+The Hallway~
+This hallway is lit heavily by small, clear bottles hanging on the wall.
+It seems to run almost the whole length of the tree.  There are small 
+doorways in each direction.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 22087
+D1
+Exit ~
+oak door~
+3 22012 22089
+D2
+Exit ~
+door~
+0 0 22085
+D3
+Exit ~
+door~
+0 0 22090
+E
+bottles~
+The small bottles hanging on the wall have what seem to be small specks
+of light inside them.  Examining them closer, you seel that each small 
+speck is a young faerie...trapped for eternity.
+~
+E
+down~
+The hard wooden floor has been etched from the tree base.
+~
+E
+up~
+The ceiling is carved out from the tree.
+~
+S
+#22087
+The Dining Hall~
+A fairly large room holds a large dining table and many wooden chairs.
+The table is set for what could be twenty people, but the dust layer 
+coating the untensils and table decorations shows that this room has not
+been used in many years.  The floor looks like it has been used for a table
+more than the table itself.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 22088
+D2
+Exit ~
+door~
+0 0 22086
+E
+decorations~
+The table is decorated with fancy cloth, candles, and dead flowers.
+~
+E
+untesils~
+Common utensils sit on the table.
+You see sporks, knives, and spoons.
+~
+E
+chairs~
+Heavy oak chairs sit at the table.
+~
+E
+table~
+The table itself is made of oak.  It looks like it has not been used for
+many years with the layers of dust it has collected.
+~
+E
+up~
+Small knot holes in the wood decorate the ceiling.
+~
+E
+down~
+The floor looks like it has been used as a table more than the table 
+itself.  Small pieces of meat lay scattered around the floor.
+~
+E
+west north~
+You look at the wooden dining room wall.
+~
+S
+#22088
+The Kitchen~
+You stand in the kitchen, where it looks as though little has been cooked
+for ages.  A few pots and pans have been left out, growing mold for what
+looks to be some years now.  Nothing is out of the ordinary here, but some
+meat that has been left over a fire which no one seems to be cooking.  It 
+has burnt to a crisp.
+~
+0 DT 0
+D3
+Exit ~
+door~
+0 0 22087
+E
+north south east~
+The walls of the kitchen are black with the soot of ages worth of fires.
+~
+E
+down~
+The floor is a mess with scattered meat pieces.
+~
+E
+up~
+The ceiling is covered in black, from the soot of burning fires.
+~
+E
+fire~
+There is a warm, cozy fire lit here in the kitchen.
+~
+E
+meat~
+A crisp of meat has been bruning on this fire for some time.
+~
+E
+pots pans~
+The pots and pans have gathered mold for what could be a century.
+~
+S
+#22089
+The Sitting Room~
+You stand in the middle of a dust laden room.  Within the rooms, there are 
+Many soft, plush chairs that look quite comfortable.  The room glows with
+the light of a small fire, lit in a marble fireplace.  There are pictures
+hanging on the walls of a stately, noble man and his family.  The floors
+are furnished with comfortable rugs.
+~
+0 D 0
+H 200 M 200
+D3
+Exit ~
+oak door~
+3 22012 22086
+E
+chairs~
+These chair sare covered in dust, but quite comfortable looking.
+~
+E
+marble fireplace~
+The fireplace is made of an old, black marble.  It looks expensive.
+~
+E
+pictures~
+These pictures portray a young, stately man, standing with his wife and
+family.  It seems strange that people like this would live here.
+~
+E
+rugs~
+The plush rugs seem almost inviting.
+~
+E
+walls north east south~
+The walls are made of the wood of the tree, poslished to a glow.
+There are many pictures covering the walls.
+~
+E
+down~
+On the hard wooden floor, plush rugs lay quite undisturbed.
+~
+E
+up~
+The hard wood ceiling has been polished to a brilliant shine.
+~
+S
+#22090
+A Stairway~
+You stand at the base of a stairway, leading up into the upper floors of
+the house.  Up above you, in the ceiling, is a large chandelier made of
+beautiful crytal.  Small animal tracks run up and down the stairs.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 22086
+D4
+Exit ~
+door~
+0 0 22091
+E
+Chandelier~
+The chandelier is made of a pure crystal, and looks quite expensive.
+~
+E
+down~
+The hard wood floor stops at the foot of the stairs.
+~
+E
+stairway stairs~
+The stairs lead up, into the upper level of the house.
+~
+E
+north south~
+The wooden wall leads into the stairs.
+~
+E
+west~
+This way leads into the stairs.
+~
+S
+#22091
+The Upstairs Foyer~
+The foyer her is magnificant.  It is laden with lights of all types.
+Around you, you see pictures of a man and his family.  The ceiling has 
+been etched high into the tree, and it seems like you can see for hundreds
+of feet upwards.  There are rooms in each direction, save west.
+~
+0 D 0
+D0
+Exit ~
+~
+0 0 22092
+D1
+Exit ~
+door~
+0 0 22096
+D2
+Exit ~
+door~
+0 0 22097
+D5
+Exit ~
+door~
+0 0 22090
+E
+lights~
+There are lamps, wall lights, and a glowing ball hanging from the ceiling.
+~
+E
+pictures~
+Beautifully painted pictures are hung on the wall with care.
+~
+E
+up~
+The ceiling has been etched tens of feet high into the ceiling.
+It looks more like hundreds.
+~
+E
+down~
+The hard wood floor supports your feet.
+~
+E
+west~
+The wall is highly polished wood, like most in this house.
+~
+S
+#22092
+The Northern Hall~
+This hallway is completely barren.  It has been stripped of all that makes
+this house beautiful.  Even the walls have lost their shine.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 22093
+D2
+Exit ~
+door~
+0 0 22091
+E
+up ~
+The ceiling is dull, and bare.
+~
+E
+down~
+The floor contains a small, battered rug.  Otherwise, it has nothing.
+~
+E
+west north~
+This wall seems devoid of everything...even a shine of polished wood.
+~
+S
+#22093
+The Master Bedroom~
+This bedroom is huge.  Aside from the large bed resting in the middle of
+the room, and a small, undisturbed ladder, this room has been stripped of
+everything it once contained.  Some sort of creature's tracks run all
+throughout this room.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 22094
+D3
+Exit ~
+door~
+0 0 22092
+D4
+Exit ~
+attic~
+2 0 22095
+E
+bed~
+A large bed rests on the north wall.
+~
+E
+ladder~
+This dusty ladder had some purpose at one time.
+It is now to rotted to do anything with.
+~
+E
+north south~
+A wall of the bedroom stands firm.
+~
+E
+tracks~
+Some creature's tracks wind through the room.
+~
+E
+down~
+The hard wood floor has been scratched to death by animal trakcs.
+~
+S
+#22094
+The Closet~
+You stand in a large, walk in closet.  The wooden racks are devoid of
+all contents.  The wooden floor, ceiling, and walls are scratched and
+marred.  You can see nothing of interst in here.
+~
+0 D 0
+H 115
+D3
+Exit ~
+door~
+0 0 22093
+E
+north south east~
+The wall is scratched and marred.
+~
+E
+up~
+The ceiling is scratched and marred.
+~
+E
+down~
+The floor is scratched and marred, and littered with animal excrement.
+~
+E
+wooden racks~
+The wooden racks stand bare.
+~
+S
+#22095
+The Attic~
+You stand in the attic.  It seems that no one has been up here yet.
+Dust has settled over everything, and the room is barely lit by your light.
+As you walk around here, the floor creeks and groans in protest.  You 
+notice a small chest in the corner that stands out from everything else in
+the attic.  
+~
+0 D 0
+D5
+Exit ~
+attic~
+2 0 22093
+E
+north south east west~
+A old wooden, dusty wall stands questioning here.
+~
+E
+up~
+The ceiling is made of the same tree you've been walking in.
+~
+S
+#22096
+The Guest Room~
+As you look around, this room looks like a guest room of sorts.  Most of
+the elegance of the room has been muted by the animal droppings, and claw
+marks everywhere.  The bed is in shambles, as is everything else.
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 22091
+E
+north south east~
+The wall looks worn by the abuse it has gone through.
+~
+E
+down~
+Animal droppings are everywhere.
+~
+E
+up~
+The ceiling is the only thing in this room in decent condition.
+~
+E
+bed~
+The bed has been torn to pieces.
+~
+S
+#22097
+The Southern Hall~
+This hallway has been scathed the the scratches of many a creature.  Not 
+a thing about this hall is asthetic.  Is has lost its beauty through
+what loooks like repeated attacks by some sort of smaller creature.
+The tracks lead to and fro, mainly to the east.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 22091
+D1
+Exit ~
+door~
+0 0 22098
+E
+south west~
+The wall here has been mutilated.
+~
+E
+up~
+The ceiling looks like the only portion of the hall that couldn't be
+reached by whatever creature was here.
+~
+E
+down~
+The floor is littered by animal droppings and claw scratches.
+~
+S
+#22098
+The Childrens' Bedroom~
+By the colors the room has been laid out in, you can tell this was a 
+childrens' bedroom at one time.  The beds rest in a state of complete 
+shambles, ripped to pieces by the creatures that seem to have been through
+this house.  It is truely a desolate sight.  There is a large, grandfather
+standing on the east wall.
+~
+0 D 0
+D1
+Exit ~
+clock~
+1 0 22099
+D3
+Exit ~
+door~
+0 0 22097
+E
+beds~
+The beds lay in pieces all over the floor.
+~
+E
+north south~
+This wall has been desecrated.
+~
+S
+#22099
+The Secret Passage~
+Inside the clock, there is only one way out.  Down.
+~
+0 D 0
+D5
+Exit ~
+door~
+0 0 22038
+E
+north south east west up~
+You look at the insides of a clock.
+~
+S
+#22100
+Scintilla's private room~
+As you enter the room, faint smells of wood smoke and perfume drift
+over to you. The rooms white marble walls are adorned with elegant
+tapestries, and a ebony and sapphire Persian rug covers the floor.
+To the right, rays of sunlight stream through an oval stained glass
+window casting various shades of blue around the room. There is a
+black marble fireplace here, in it the embers of a dying fire glow
+and hiss. An overstuffed couch sits to the left, its ebony leather
+marbled with sapphire. It looks quite comfortable and you should
+rest for awhile.
+~
+0 CDJNPTU 0
+E
+up down north south east west~
+Nothing........................
+~
+S
+#0
+
+#RESETS
+M 0 22000  15 22003  1	* A bog rat
+M 0 22002   2 22005  1	* A bog runner
+M 0 22000  15 22005  1	* A bog rat
+M 0 22001   7 22006  1	* A scaled swamp rat
+M 0 22000  15 22007  1	* A bog rat
+M 0 22002   2 22007  1	* A bog runner
+M 0 22000  15 22008  1	* A bog rat
+M 0 22001   7 22010  1	* A scaled swamp rat
+E 1 22011  -1   16	*   a rat's tail
+M 0 22001   7 22011  1	* A scaled swamp rat
+M 0 22000  15 22011  1	* A bog rat
+M 0 22001   7 22012  1	* A scaled swamp rat
+E 1 22011  -1   16	*   a rat's tail
+M 0 22000  15 22013  1	* A bog rat
+M 0 22000  15 22014  1	* A bog rat
+M 0 22001   7 22021  1	* A scaled swamp rat
+E 1 22011  -1   16	*   a rat's tail
+M 0 22000  15 22053  1	* A bog rat
+M 0 22003   6 22058  1	* A tunnel maggot
+M 0 22003   6 22060  1	* A tunnel maggot
+M 0 22003   6 22063  1	* A tunnel maggot
+M 0 22003   6 22065  1	* A tunnel maggot
+M 0 22003   6 22066  1	* A tunnel maggot
+M 0 22005   1 22071  1	* The Guardian
+E 1 22004  -1   17	*   a jewelled key
+M 0 22003   6 22073  1	* A tunnel maggot
+M 0 22000  15 22077  1	* A bog rat
+M 0 22001   7 22081  1	* A scaled swamp rat
+M 0 22000  15 22081  1	* A bog rat
+M 0 22000  15 22085  1	* A bog rat
+M 0 22000  15 22088  1	* A bog rat
+M 0 22000  15 22092  1	* A bog rat
+M 0 22004   1 22093  1	* The Grand Wizard
+E 1 22006  -1   17	*   a dusty key
+M 0 22000  15 22096  1	* A bog rat
+O 0 22003 100 22074	* A jewel encrusted chest
+P 1 22009  -1 22003  1	*   a ring of power
+P 1 22008  -1 22003  1	*   a crystal shard
+O 0 22005 100 22095	* A dusty chest
+P 1 22010  -1 22005  1	*   a staff of the darklord
+P 1 22001  -1 22005  1	*   the mace of Aranastra
+P 1 22012  -1 22005  1	*   a black pearl
+D 0 22001   1    1	* Inside The Arch east
+D 0 22019   0    1	* A Tree House north
+D 0 22057   4    1	* The Cave up
+D 0 22063   5    1	* Lit Section of the Tunnel down
+D 0 22065   5    1	* The Dead End down
+D 0 22067   4    1	* The Entry Chamber up
+D 0 22068   4    1	* The Corner Room up
+D 0 22068   5    1	* The Corner Room down
+D 0 22076   0    1	* The Boiler Room north
+D 0 22078   2    1	* Inside The Boiler south
+D 0 22080   4    1	* The End of The Pipe up
+D 0 22081   5    1	* The Cellar down
+D 0 22083   3    1	* The Holy Shrine west
+D 0 22085   2    1	* The Foyer south
+D 0 22093   4    1	* The Master Bedroom up
+D 0 22095   5    1	* The Attic down
+D 0 22098   1    1	* The Childrens' Bedroom east
+O 0 22032 100 22020	* A plaque, Immortalizing Mandrake
+O 0 22016 100 22020	* Balance clan portal
+O 0 22017 100 22020	* a pitch black leather couch
+O 0 22018 100 22020	* a crack in the wall
+O 0 22024 100 22020	* Demise clan portal
+O 0 22025 100 22020	* Circle clan portal
+O 0 22026 100 22020	* the Camorra clan portal
+O 0 22027 100 22020	* Honor clan portal
+O 0 22028 100 22020	* Posse clan portal
+O 0 22029 100 22020	* Riders clan hall portal
+O 0 22034 100 22020	* a bed, dressed in black silk
+O 0 22036 100 22020	* a black marble whirpool
+O 0 22037 100 22020	* the wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+P 1 22038  -1 22037 50	*   a piece of wedding cake
+M 0 22008   1 22032  1	* A sand rat
+G 1 22046  -1     	*   a single, accursed coin
+O 0  771 100 22100	* a crystalline bed
+O 0  770 100 22100	* a crystalline fountain
+O 0 22042 100 22100	* a stained glass window
+P 1  700  -1 22042  1	*   Far below you, vast basalt cliffs descend into an ultramarine sea.
+P 1  701  -1 22042  1	*   Its turbulent waves rush to meet an ivory beach. Their ebb and flow
+P 1  702  -1 22042  1	*   traces mystic patterns across the shimmering sands. Wisps of mist
+P 1  703  -1 22042  1	*   rise off a dense forest that encompasses the beach. From this view,
+P 1  704  -1 22042  1	*   its shimmering sands create a perfect crescent moon. Bilious clouds
+P 1  705  -1 22042  1	*   swiftly shift across an azure sky and cast surreal shadows upon the
+P 1  706  -1 22042  1	*   restless sea. A chill breeze caresses your skin and carries on it
+P 1  707  -1 22042  1	*   the tangy scent of salt. It whispers to you, the soft cadence of
+P 1  708  -1 22042  1	*   waves resounding off the beach.
+O 0 22039 100 22100	* an overstuffed ebony and sapphire couch
+O 0 22040 100 22100	* a black marble fireplace
+P 1 22041  -1 22040  1	*   red embers
+O 0 30118 100 22089	* a black leather couch
+O 0 30118 100 22089	* a black leather couch
+D 0 22089   3    2	* The Sitting Room west
+D 0 22086   1    2	* The Hallway east
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 22001 spec_poison         	* A scaled swamp rat
+M 22003 spec_breath_acid    	* A tunnel maggot
+M 22004 spec_breath_any     	* The Grand Wizard
+M 22005 spec_breath_fire    	* The Guardian
+M 22007 spec_rabbit         	* the rabbit
+M 22008 spec_thief          	* A sand rat
+S
+
+#$

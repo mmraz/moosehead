@@ -1,0 +1,458 @@
+#AREA
+/mud/moosehead/area/limbo.are~
+Limbo~
+{ N/A } Diku    Limbo~
+1 29
+
+#MOBILES
+#1
+Puff~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+You see a fantastic, vaguely draconian-shaped mathematical pattern.  
+Even as you watch, though, the form reiterates itself in finer detail--
+with each passing moment, the shape becomes more complex and interesting.
+Almost, almost, you can discern the pattern...
+
+For all her fabulous appearance, though, Puff seems quite... addled.  As 
+the definition of her eyes increases, you realize that the Fractal Dragon 
+is obviously not paying much attention to the mortal world; she seems lost 
+in strange contemplations.
+
+~
+unique~
+A 0 1000 0
+26 5 5d10+550 26d5+100 4d6+3 chomp
+-15 -15 -15 -10
+ABCDEFHIJKMNc AB CDFGHIJKLMNOPR 0
+stand stand female 500
+DHZ ACDEFHJKPQUVX medium 0
+#2
+corpse~
+a corpse~
+A corpse is here, twitching uncontrollablly.
+~
+You see a corpse here, animated through dark magic.  The corpse is twitching
+uncontrollably.
+~
+unique~
+AOT V -1000 0
+1 10 0d0+0 0d0+0 3d3+1 punch
+0 0 0 0
+EFHIN 0 BHIK JN
+stand stand none 0
+DHIM BCDI medium 0
+#3
+skeletal warrior~
+a skeletal warrior~
+A skeletal warrior is here, awaiting instructions.
+~
+You see a bony skeleton, equipped and ready for battle.  The skeleton appears
+to be waiting for some orders from its master.
+~
+unique~
+AIOT V -1000 0
+1 10 0d0+0 0d0+0 3d3+1 punch
+0 0 0 0
+EFHIN B BHIK JN
+stand stand none 0
+DHIM BCDI medium 0
+#4
+mirror image~
+a mirror image~
+A mirror image of you is here.
+~
+You see a mirror image of you.
+~
+unique~
+AOT V -1000 0
+1 10 0d0+0 0d0+0 3d3+1 punch
+0 0 0 0
+EFHIN 0 BHIK JN
+stand stand none 0
+DHIM BCDI medium 0
+#5
+fire elemental~
+a fire elemental~
+A fire elemental burns fiercely, awaiting commands.
+~
+An elemental summoned from the Plane of Fire stand here.  It is vaguely
+humanoid in shape and burns with an intense white-hot flame.
+~
+unique~
+AITU 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 flame
+0 0 0 0
+EFHN ABHLQ KO IR
+stand stand none 0
+CDHJ ABCGHI huge 0
+#6
+air elemental~
+an air elemental~
+An air elemental hovers here, awaiting commands.
+~
+An elemental, summoned from the Plane of Ait is hovers here.  It's almost
+humanoid shape is only vaguely discernable as a distortion in the air.
+~
+unique~
+AITU 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 shock
+0 0 0 0
+EFHN ABJLQ IO K
+stand stand none 0
+CDHJ ABCGHI huge 0
+#7
+water elemental~
+a water elemental~
+A water elemental drips here, awaiting commands.
+~
+An elemental, summoned from the Plane of Water is here.  It is roughly
+humanoid in shape, filled with crashing waves and sea foam.
+~
+unique~
+AITU 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 frbite
+0 0 0 0
+EFHN ABILQR JO H
+stand stand none 0
+CDHJ ABCGHI huge 0
+#8
+earth elemental~
+an earth elemental~
+An earth elemental stands here, awaiting commands.
+~
+An elemental, summoned from the Plane of Earth stands here.  Looking much
+like an enormous version of a rockbiter, this creature has an aura of
+ancient strength and power.
+~
+unique~
+AITU 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 crush
+0 0 0 0
+EFHN ABKLQ HO J
+stand stand none 0
+CDHJ ABCGHI huge 0
+#9
+spirit elemental~
+a spirit elemental~
+A spirit elemental glows softly here, awaiting commands.
+~
+An elemental, summoned from the Plane of Spirit is here.  It glows softly
+with an inner light, as if in direct communion with the spirits of all living
+things.
+~
+unique~
+AITU 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 drain
+0 0 0 0
+EFHN ABLMNQ 0 O
+stand stand none 0
+CDHJ ABCGHI huge 0
+#10
+energy elemental~
+an energy elemental~
+An energy elemental glows here, awaiting commands.
+~
+An elemental, summoned from the Plane of Energy glows brightly here.  You
+can feel an almost electric charge in the air surrounding it.
+~
+unique~
+AITU 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 magic
+0 0 0 0
+EFHN ABLOQS 0 MN
+stand stand none 0
+CDHJ ABCGHI huge 0
+#11
+magestic warhorse war horse~
+a magestic war horse~
+A magestic war horse stands here.
+~
+Truly beautiful.  This magestic war horse is very loyal to it's 
+master.
+~
+unique~
+ABITZ 0 0 0
+10 10 10d10+250 0d0+0 2d6+5 chomp
+-50 -50 -50 -50
+EFNU AB 0 0
+stand stand female 0
+AHMV ABCDEF giant 0
+#0
+
+#OBJECTS
+#1
+coin silver gcash~
+a silver coin~
+One miserable silver coin.~
+silver~
+money 0 A
+1 0 0 0 0
+0 10 0 P
+#2
+coin gold gcash~
+a gold coin~
+One valuable gold coin.~
+gold~
+money 0 A
+0 1 0 0 0
+0 10 0 P
+#3
+coins gold gcash~
+%d gold coins~
+A pile of gold coins.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#4
+coins silver gcash~
+%d silver coins~
+A pile of silver coins.~
+silver~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#5
+coins silver gold gcash~
+%d silver coins and %d gold coins~
+A pile of coins.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#6
+fountain~
+the fountain~
+A magical fountain shimmers before your vision.~
+~
+fountain GORY P
+0 0 'water' 0 0
+0 5000 0 P
+#7
+fog green portal~
+a green fog~
+A swirling cloud of green fog leading to parts unknown.~
+fog~
+portal GOT 0
+0 0 0 0 0
+0 0 0 P
+#8
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#9
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#10
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+meat~
+npc_corpse 0 A
+0 0 0 1 0
+0 1000 0 D
+#11
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+meat~
+pc_corpse O A
+0 0 0 1 0
+0 1000 0 D
+#12
+head~
+the head of %s~
+The severed head of %s is lying here.~
+meat~
+trash 0 A
+0 0 0 0 0
+0 50 0 D
+#13
+heart~
+the heart of %s~
+The torn-out heart of %s is lying here.~
+meat~
+food 0 A
+16 16 0 0 0
+0 20 0 D
+#14
+arm~
+the arm of %s~
+The sliced-off arm of %s is lying here.~
+meat~
+food 0 A
+20 20 0 0 0
+0 50 0 D
+#15
+leg~
+the leg of %s~
+The sliced-off leg of %s is lying here.~
+meat~
+food 0 A
+20 20 0 0 0
+0 50 0 D
+#16
+guts entrails~
+the guts of %s~
+A steaming pile of %s's entrails is lying here.~
+meat~
+food 0 A
+5 5 0 1 0
+0 20 0 D
+#17
+brains brain~
+the brains of %s~
+The splattered brains of %s are lying here.~
+meat~
+food 0 A
+10 10 0 0 0
+0 20 0 D
+#18
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#19
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#20
+mushroom~
+a Magic Mushroom~
+A delicious magic mushroom is here.~
+food~
+food 0 A
+8 8 0 0 0
+0 10 0 P
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+energy~
+light A A
+0 0 -1 0 0
+0 0 0 P
+#22
+spring~
+a magical spring~
+A magical spring flows from the ground here.~
+water~
+fountain G 0
+100000 100000 'water' 0 0
+0 0 0 P
+#23
+disc disk floating black~
+a floating disc~
+A floating black disc hangs in the air.~
+energy~
+container GMPUYZ AQ
+0 E 0 0 0
+0 0 0 P
+#24
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#25
+gate portal~
+a shimmering gate~
+A shimmering black gate rises from the ground, leading to parts unknown.~
+shadow~
+portal GOT 0
+0 0 0 0 0
+0 0 0 P
+#26
+potion accuracy~
+a potion of accuracy~
+A small vial containing an effervescent white liquid lies here.~
+glass~
+potion BG AO
+0 'accuracy' '' '' ''
+0 100 0 P
+#27
+potion speed~
+a potion of speed~
+A small vial filled with thick black liquid is here.~
+glass~
+potion BG AO
+0 'speed' '' '' ''
+0 100 0 P
+#28
+potion magic resistance~
+a potion of magic resistance~
+A small vial containing a silvery liquid is here.~
+glass~
+potion BG AO
+0 'magic resistance' '' '' ''
+0 100 0 P
+#29
+potion restoration~
+a potion of restoration~
+A small vial containing a thin blue liquid lies here.~
+glass~
+potion BG AO
+0 'restore mana' '' '' ''
+0 100 0 P
+#0
+
+#ROOMS
+#1
+The Void~
+You are floating in nothing.
+~
+0 CD 1
+S
+#2
+Limbo~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 DK 1
+D4
+Exit ~
+~
+0 -1 3001
+S
+#0
+
+#RESETS
+M 0    1   1    2  1	* Puff
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 1 spec_puff           	* Puff
+M 5 spec_breath_fire    	* a fire elemental
+M 6 spec_breath_lightning	* an air elemental
+M 7 spec_breath_frost   	* a water elemental
+M 8 spec_breath_acid    	* an earth elemental
+M 9 spec_cast_undead    	* a spirit elemental
+M 10 spec_cast_judge     	* an energy elemental
+S
+
+#$

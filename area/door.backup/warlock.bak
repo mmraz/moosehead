@@ -1,0 +1,529 @@
+#AREA
+/mud/moosehead/area/warlock.are~
+Warlock Clan Hall~
+{Clan } MHS     Warlock Clan Hall~
+31900 31915
+
+#MOBILES
+#31900
+shopkeeper old man~
+the ancient potion-brewer~
+An old man eyes you greedily.
+The old man says, 'Would you like to buy a nice love potion?'
+~
+He looks very dangerous.  I wouldn't try to rob him.
+~
+human~
+ABQRV DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#31901
+orb healer~
+{CThe Orb{x~
+{cThe {CGlowing Orb {cof Regeneration{x
+~
+Although retired from adventuring, the healer still lends a hand.
+Type 'heal' to see a listing of spells.
+~
+human~
+ABQVa DFH 1000 0
+51 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#31900
+pit magic~
+the Pit of Pure Magic~
+The Pit of Pure Magic lies here.~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+#31901
+black hole~
+the Black Hole~
+The Black Hole hovers nearby.~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+#31902
+fountain water~
+a fountain~
+A small drinking fountain is here.~
+~
+fountain 0 0
+0 0 'milk' 0 0
+0 0 0 G
+#31903
+stream blood~
+a stream of blood~
+A stream of blood flows here.~
+~
+fountain 0 0
+0 0 'blood' 0 0
+0 0 0 G
+#31904
+sands of sorrow~
+a magical vortex~
+A magical vortex leading to the Sands of Sorrow is here.~
+magic~
+portal R P
+0 0 0 5001 0
+0 100 0 P
+#31905
+haon dor~
+a magical vortex to Haon Dor~
+A magical vortex leading to Haon Dor is here.~
+magic~
+portal R P
+0 0 0 6102 0
+0 100 0 P
+#31906
+drow city~
+a magical vortex~
+A magical vortex leading to the Drow City is here.~
+magic~
+portal R P
+0 0 0 5100 0
+0 100 0 P
+#31907
+ancient thalos~
+a magical vortex~
+A magical vortex leading to Ancient Thalos is here.~
+magic~
+portal R P
+0 0 0 5300 0
+0 100 0 P
+#31908
+cot~
+a magical vortex~
+A magical vortex leading to the City of Thieves is here.~
+magic~
+portal R P
+0 0 0 6023 0
+0 100 0 P
+#31909
+nt New Thalos~
+a votex to New Thalos~
+A magical vortex leading to New Thalos is here.~
+magic~
+portal R P
+0 0 0 9506 0
+0 100 0 P
+#31910
+runt bag~
+A comfortable looking {Rr{Yu{Gn{Mt{x filled bag lies in the corner.~
+A comfortable looking {Rr{Yu{Gn{Mt{x filled bag lies in the corner.~
+runts~
+furniture 0 0
+90 0 BEHK 100 100
+0 10000 0 P
+#31911
+emerald forest ef~
+a vortex to the emerald forest~
+A magical vortex leading to the Emerald Forest is here.~
+magic~
+portal R P
+0 0 0 3521 0
+0 100 0 P
+#31912
+camelot~
+a magical vortex to Camelot~
+A magical vortex leading to Camelot is here.~
+magic~
+portal R P
+0 0 0 17676 0
+0 100 0 P
+#31913
+atlantis~
+a vortex to atlantis~
+A magical vortex leading to Atlantis is here.~
+magic~
+portal R P
+0 0 0 2318 0
+0 100 0 P
+#31914
+great pyramid~
+a magical vortex leading to the Great Pyramid~
+A magical vortex leading to the Great Pyramid is here.~
+~
+portal R P
+0 0 0 8701 0
+0 100 0 P
+#31915
+elemental canyon~
+a magical vortex to elemental canyon~
+A magical vortex leading to Elemental Canyon is here.~
+~
+portal R P
+0 0 0 9209 0
+0 100 0 P
+#0
+
+#ROOMS
+#31900
+{CThe Gateway to the Plain of Magic{x~
+You enter this portal leading to another plane of existance.  You feel
+the magic coursing through your veins as you find yourself wandering
+within the domain of the mighty spellcasters of {gClan Warlock{x.
+~
+0 CDK 0
+C warlock~
+D1
+Exit ~
+door~
+0 0 31906
+D2
+Exit ~
+door~
+0 0 3303
+D4
+Exit ~
+door~
+0 0 31901
+D5
+Exit ~
+door~
+0 0 31910
+S
+#31901
+The Plane of Pure Magic~
+As you float in the mists of the Clan Hall of Warlock, you wonder as to
+how this could be. You are not entrapped in the cold stone walls that you
+would expect to see. Somehow you have been transported to a place of pure
+magical energy. All around you are swirling orbs of red, white, and black,
+that seem to pulsate and writhe as though they are alive. As you stand 
+amongst these orbs you can feel your body heal and your magic seems to be
+growing with every second. To the east you see a portal with a dagger
+encircled by a brilliant glow.
+~
+0 CDKN 0
+H 300 M 300
+C warlock~
+D0
+Exit ~
+door~
+0 0 31902
+D1
+Exit ~
+door~
+0 0 31905
+D3
+Exit ~
+door~
+1 0 31907
+D5
+Exit ~
+door~
+0 0 31900
+S
+#31902
+Wind Void~
+You have left the sanctity of the glowing orbs, and have found yourself in
+an even stranger place. You are floating in the center of a crevice. You
+look down and your stomach churns, for there seems to be no end to this
+pit. You feel a gust of wind pulling you down to the depths below. You
+have been falling for what seems like days, before finally you come to a
+halt. Weapons and armor are scattered all over the place. As you look for
+an exit and there appears to be none, you grab all the equipment you may
+need, for you may be here a while.
+~
+0 CDK 0
+C warlock~
+D0
+Exit ~
+door~
+0 0 31911
+D1
+Exit ~
+door~
+0 0 31904
+D2
+Exit ~
+door~
+0 0 31901
+D3
+Exit ~
+door~
+0 0 31903
+S
+#31903
+The Alchemists Shop~
+Here the spellcasters may purchase the tools of their trade.
+The walls are covered in shelves containing the elements that
+make up the many powerful potions & gear that he sells.  Better
+get your gold out!
+~
+0 CDK 0
+C warlock~
+D1
+Exit ~
+door~
+0 0 31902
+S
+#31904
+The Gathering Chamber~
+This very large formal dining is often used for meetings and even
+informal gatherings.  When not being used for formal functions it
+serves as a nice place to get away from the constant action through
+the rest of the plane.
+~
+0 CDK 0
+C warlock~
+D3
+Exit ~
+door~
+0 0 31902
+S
+#31905
+Warlock's Advanced Magelab~
+The mage lab of the Warlock clan is truly a sight to behold, the room is
+immense, and crackles with the raw magical energies that are focused here.
+Ancient tomes, containers, pipes, instruments from the bizarre to the mundane
+fill the shelves from floor to ceiling awaiting their next user.  Large granite
+tables, heat baths, and a few furnaces fill most of the floor space, only
+leaving the most modest of personal space for the spellcaster.  You are certain
+that even the most inept spellcaster could produce spectacular results with the
+equipment and knowledge contained here.
+~
+0 CDK 13
+C warlock~
+D3
+Exit ~
+door~
+0 0 31901
+D5
+Exit ~
+door~
+0 0 31906
+S
+#31906
+Warlock's Practice Library~
+You enter an ancient library, but, much to your surprise, you see no dust 
+on any of the books.  As you look around, you discover that this is not an 
+ordinary library.  There are summoning circles on the ground, following 
+the exact examples shown by the open books on the tables, there are vials 
+of blood, and other stranger liquids. As you take a closer look at the 
+books, you notice that they were written by great mages, such as Merlin
+You can't help but feel that you will learn the arts faster in this place.
+~
+0 CDKN 0
+C warlock~
+D1
+Exit ~
+door~
+1 0 31913
+D3
+Exit ~
+door~
+0 0 31900
+D4
+Exit ~
+door~
+0 0 31905
+S
+#31907
+{BWater Void{x~
+You find yourself completely submerged in water swirling you in all
+directions, from here power of the element water is drawn.
+~
+0 CDK 6
+C warlock~
+D1
+Exit ~
+door~
+1 0 31901
+D5
+Exit ~
+door~
+0 0 31908
+S
+#31908
+{BWater Void{x~
+Swirl Spin Swirl Spin! This water is Getting Mighty Turbulent.
+~
+0 CDK 6
+C warlock~
+D4
+Exit ~
+door~
+0 0 31907
+D5
+Exit ~
+door~
+0 0 31909
+S
+#31909
+{B Deepest Depth of the Water Void{x~
+It is much calmer here, and much Darker, but the pressure is
+incredible if you don't surface soon you are likely to Implode!
+~
+0 CDK 6
+C warlock~
+D4
+Exit ~
+door~
+0 0 31908
+S
+#31910
+Warlock's Portal Room~
+Magicks from all over the realm concentrate themselves here.
+Allowing those of Clan Warlock to travel the land.
+A small sign is here.
+~
+0 CDK 0
+C warlock~
+D4
+Exit ~
+door~
+0 0 31900
+E
+sign~
+Welcome to Clan Warlock's Portal Room.
+type 'enter drow'    to go to Drow City
+type 'enter sands'   to go to Sands of Sorrow
+type 'enter ancient' to go to Ancient Thalos
+type 'enter cot'     to go to the City of Thieves
+type 'enter nt'      to go to New Thalos
+type 'enter haon'    to go to Haon Dor
+type 'enter emerald' to go to Emerald Forest
+type 'enter camelot' to go to Camelot
+type 'enter atlantis' to go to Atlantis
+type 'enter elemental' to go to Elemental Canyon
+type 'enter pyramid' to go to the Great Pyramid
+~
+S
+#31911
+Narrow Path~
+You find a narrow rocky path winding away from the windy void
+to the south.  To the left, steep granite walls block all access;
+while on the right, mist swirls above an endless drop into nothingness.
+Northward, you see a large set of oaken double-doors that are covered 
+with burnt magical runes.
+ 
+~
+0 CDKST 0
+C warlock~
+D0
+Exit ~
+oak door~
+1 0 31912
+D2
+Exit ~
+door~
+0 0 31902
+S
+#31912
+Portico~
+You are standing in the center of a courtyard constructed from red brick and 
+white mortar.  At your feet, the bricks are arranged in a pleasant wave pattern
+that soothes the senses.  At the four corners, large tan earthenware pots give 
+root to the large network of ivy vines that creep all over the walls.  Above,
+a large skylight allows the sun to peek through the clouds giving light to
+the greenery.  There are several benches arranged at just the right distance
+to allow private conversations.  A large oak door shuts out the elements and 
+attendant noise to the south.  A hallway leads to the north.
+ 
+~
+0 CKST 2
+C warlock~
+D0
+Exit ~
+door~
+0 0 31914
+D2
+Exit ~
+oak door~
+1 0 31911
+S
+#31913
+Warlock Storage Room~
+This small storage closet is just the right size to store the many empty
+containers that Warlock loots from fallen renegades.  The door to the west
+returns to the practice area.
+~
+0 CDKT 0
+C warlock~
+D3
+Exit ~
+door~
+1 0 31906
+S
+#31914
+Entrance Hallway~
+The wall to the right is studded with a number of oak hangers on which
+are hung a variety of robes, cloaks, and pointy hats.  A small abstract 
+painting, apparently a landscape on the Astral plane, hangs on the wall
+to the left.  The hallway opens into the portico to the south, while
+at the north it opens into the central courtyard.
+~
+0 CDK 0
+C warlock~
+D2
+Exit ~
+door~
+0 0 31912
+S
+#0
+
+#RESETS
+M 0 31900   1 31903  1	* the ancient potion-brewer
+G 1 3242  -1     	*   a scroll of recall
+G 1 3240  -1     	*   a scroll of identify
+G 1 3239  -1     	*   a bucket of hot Buffalo chicken wings
+G 1 3238  -1     	*   a buffalo water skin
+G 1 3288  -1     	*   a vial of holy water
+G 1 3032  -1     	*   a bag
+G 1 3292  -1     	*   a potion of true sight
+G 1 3291  -1     	*   a potion of flying
+G 1 3289  -1     	*   a potion of armor
+G 1 3287  -1     	*   a potion of cure blindness
+G 1 3286  -1     	*   a bottle of antidote
+G 1 3284  -1     	*   a potion of cure serious wounds
+G 1 3283  -1     	*   a potion of cure light wounds
+G 1 3282  -1     	*   a potion of divine protection
+G 1 3281  -1     	*   a potion of sanctuary
+G 1 3241  -1     	*   a yellow potion of see invisible
+G 1 3290  -1     	*   a potion of negation
+O 0 31901 100 31902	* the Black Hole
+O 0 31903 100 31901	* a stream of blood
+O 0 31900 100 31901	* the Pit of Pure Magic
+O 0 31902 100 31901	* a fountain
+D 0 31907   1    1	* {BWater Void{x east
+O 0 31910 100 31904	* A comfortable looking {Rr{Yu{Gn{Mt{x filled bag lies in the corner.
+O 0 31910 100 31905	* A comfortable looking {Rr{Yu{Gn{Mt{x filled bag lies in the corner.
+M 0 31901   1 31900  1	* {CThe Orb{x
+O 0 31914 100 31910	* a magical vortex leading to the Great Pyramid
+O 0 31915 100 31910	* a magical vortex to elemental canyon
+O 0 31913 100 31910	* a vortex to atlantis
+O 0 31911 100 31910	* a vortex to the emerald forest
+O 0 31909 100 31910	* a votex to New Thalos
+O 0 31907 100 31910	* a magical vortex
+O 0 31906 100 31910	* a magical vortex
+O 0 31905 100 31910	* a magical vortex to Haon Dor
+O 0 31904 100 31910	* a magical vortex
+O 0 31908 100 31910	* a magical vortex
+O 0 31912 100 31910	* a magical vortex to Camelot
+D 0 31912   2    1	* Portico south
+D 0 31911   0    1	* Narrow Path north
+D 0 31913   3    2	* Warlock Storage Room west
+D 0 31906   1    2	* Warlock's Practice Library east
+S
+
+#SHOPS
+31900 10  0  0  0  0 	 500  90 	 0 23 	* the ancient potion-brewer
+0
+
+#SPECIALS
+M 31901 spec_cast_adept     	* {CThe Orb{x
+S
+
+#$

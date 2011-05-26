@@ -1,0 +1,60 @@
+#AREA
+/mud/moosehead/area/bposse.are~
+bposse~
+{ All } MHS     Posse Branch Halls~
+27000 27000
+
+#MOBILES
+#27000
+Posse Hall Guard~
+A Posse Hall Guard~
+A Posse Hall Guard stands here defending the hall.
+~
+This guard lives to defend Posse.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABTV 0 0 0
+41 15 15d10+4000 25d10+2250 3d12+14 pound
+-1 -1 -1 -1
+CEFNU AB 0 0
+stand stand male 0
+AHMV ABCDEF medium 0
+#0
+
+#OBJECTS
+#0
+
+#ROOMS
+#27000
+Posse Branch Hall~
+If you can read this, your clan leaders haven't submitted
+a new description for this room.
+~
+0 CDNY 0
+D3
+Exit ~
+door~
+16385 0 16627
+D4
+Exit ~
+posse~
+24643 0 31600
+S
+#0
+
+#RESETS
+M 0 27000   1 27000  1	* A Posse Hall Guard
+D 0 27000   3 16385	* Posse Branch Hall west
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 27000 spec_posse_guard    	* A Posse Hall Guard
+S
+
+#$

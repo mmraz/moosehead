@@ -1,0 +1,43 @@
+#! /bin/csh -f
+
+# Change to area directory.
+cd /mud/moosehead/area
+
+# Set limits.
+# limit stack 8192k
+unlimit coredumpsize
+umask 007
+if ( -e shutdown.txt ) rm -f shutdown.txt
+gzip -f /mud/moosehead/log/*.log
+
+while ( 1 )
+# Set up logfile name
+    set index = 1000
+    while ( 1 )
+	set logfile = /mud/moosehead/log/$index.log
+	if ( ! -e $logfile\.gz ) break
+	@ index++
+    end
+
+    # Run moose.
+    cd /mud/moosehead/src
+    /mud/moosehead/src/moose 4000 >&! $logfile
+    gzip $logfile
+
+    # output debugging
+    echo ''
+    date
+    if ( -e /mud/moosehead/src/moose.core ) then
+    gdb -batch -x bt /mud/moosehead/src/moose /mud/moosehead/src/moose.core
+    rm /mud/moosehead/src/moose.core
+    else
+	echo 'No core.'
+    endif
+
+    # Restart, giving old connections a chance to die.
+    if ( -e /mud/moosehead/area/shutdown.txt ) then
+	rm -f /mud/moosehad/area/shutdown.txt
+	exit 0
+    endif
+    sleep 10
+end

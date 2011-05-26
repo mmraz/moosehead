@@ -1,0 +1,1654 @@
+#AREA
+/mud/moosehead/area/circle2.are~
+The Old Hall of Clan Circle~
+{15-25} Anthy   The Old Hall of Clan Circle~
+4400 4442
+
+#MOBILES
+#4400
+potion brewer alchemist~
+the alchemist~
+The old potion-brewer of Circle remains behind in the gloomy tower.
+~
+The ancient alchemist still remembers his old spells.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABR D -1000 0
+15 0 2d10+190 15d9+100 1d10+3 none
+-1 -1 -1 5
+FU 0 0 0
+stand stand male 0
+0 0 medium 0
+#4401
+healer~
+the ancient healer~
+The ancient healer of clan Circle remains here, having outlived her clan.
+~
+The healer of Circle has a few spells at her disposal.  Watch out!
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQ D -1000 0
+17 0 3d9+258 17d9+100 2d6+4 none
+-3 -3 -3 6
+EIKU 0 0 0
+stand stand female 0
+0 0 medium 0
+#4402
+ghost mage~
+the ghost of a mage~
+The ghost of a mage wanders the halls of the ancient wizard tower.
+~
+The mage can cast spells, even in death.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABR D -1000 0
+15 0 2d10+190 15d9+100 1d10+3 none
+-1 -1 -1 5
+FU 0 0 0
+stand stand male 0
+0 0 medium 0
+#4403
+apprentice ghost~
+the ghost of an apprentice~
+The ghost of an apprentice mage wanders about, seemingly lost.
+~
+The young mage is of indiscernable race, and looks about in confusion,
+either not knowing that he is gone, or not understanding that his clan
+is lost.
+~
+human~
+(null)~
+(null)~
+(null)~
+ADG D -1000 0
+10 0 2d7+121 5d9+100 2d4+2 none
+1 1 1 8
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#4404
+circle guardian~
+a Circle Guardian~
+A Guardian wanders the halls, protecting the spellcasters of his clan.
+~
+He looks pissed off!
+~
+human~
+(null)~
+(null)~
+(null)~
+ABF D -1000 0
+14 0 2d10+190 7d9+100 1d12+3 none
+-1 -1 -1 8
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#4405
+ghost inner circle mage~
+the ghost of an Inner Circle mage~
+An Inner Circle mage ghost numbly stares into the halls of the fallen clan.
+~
+~
+human~
+(null)~
+(null)~
+(null)~
+AB D -1000 0
+24 0 5d10+500 12d9+100 2d10+6 none
+-6 -6 -6 6
+EFNU 0 0 0
+stand stand female 0
+0 0 medium 0
+#4406
+lost soul~
+The lost soul~
+A lost soul is trapped here forever.
+~
+The lost soul has been traped in Circle's dungeons for centuries.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFQ DH -1000 0
+26 0 5d10+600 26d9+100 2d10+7 none
+-7 -7 -7 5
+EIKU 0 0 0
+rest rest female 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#4400
+fountain water~
+a fountain~
+A small drinking fountain is here.~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+#4401
+pit~
+the donation pit~
+A pit for sacrifices is in front of the altar.~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+E
+pit~
+This is where you put money and items to help Bigfoot expand this shrine and
+convert more people to the belief of Mojo, lord of the gods.
+~
+#4402
+shimmering chest pit~
+A shimmering chest~
+A shimmering chest lies next to the wall.~
+~
+container C 0
+10000 0 0 1000 100
+0 0 0 P
+E
+pit~
+This is where you put money and items to help Bigfoot expand this shrine and
+convert more people to the belief of Mojo, lord of the gods.
+~
+#4403
+fountain water~
+a fountain~
+A drinking fountain is here, with a small plaque on it.~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+plaque~
+This fountain was paid for and donated by Anthalas and Tobias.
+~
+#4404
+drow~
+the large magical mirror~
+~
+~
+portal R P
+0 0 0 5100 0
+0 100 0 P
+A
+0 0
+#4405
+sands sorrow~
+the large magical mirror~
+~
+~
+portal R P
+0 0 0 5001 0
+0 100 0 P
+#4406
+pyramid~
+the large magical mirror~
+~
+~
+portal R P
+0 0 0 8701 0
+0 100 0 P
+#4407
+canyon~
+the large magical mirror~
+~
+~
+portal R P
+0 0 0 9209 0
+0 100 0 P
+#4408
+oldthalos thalos old~
+the large magical mirror~
+~
+~
+portal R P
+0 0 0 5300 0
+0 100 0 P
+#4409
+haon dor~
+the large magical mirror~
+~
+~
+portal R P
+0 0 0 6103 0
+0 100 0 P
+#4410
+skin water buffalo~
+a buffalo water skin~
+A bloated dead buffalo is on the floor.~
+leather~
+drink 0 A
+64 64 'water' 0 0
+0 40 5 G
+#4411
+wings chicken~
+a bucket of hot Buffalo chicken wings~
+A big bucket of Wilf's hot chicken wings sits here steaming.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 1 P
+#4412
+scroll identify~
+a scroll of identify~
+A scroll has carelessly been left here.~
+vellum~
+scroll G AO
+12 'identify' '' '' ''
+7 10 890 P
+E
+scroll identify~
+The scroll has a magic formula drawn upon it:
+     ???
+    ?   ?
+       ?
+      ?
+      ?
+      *
+~
+#4413
+potion yellow~
+a yellow potion of see invisible~
+A small yellow potion has carelessly been left here.~
+glass~
+potion G AO
+12 'detect invis' '' '' ''
+0 10 220 P
+E
+potion yellow~
+The potion has a small label 'Detect The Invisible'.
+~
+#4414
+scroll recall~
+a scroll of recall~
+A scroll has carelessly been left here.~
+vellum~
+scroll G AO
+20 'word of recall' '' '' ''
+17 20 2900 P
+E
+scroll~
+The scroll has written a formula of 'Word of Recall' upon it.
+~
+#4415
+0~
+the leg of Belrak~
+~
+~
+none C A
+0 0 0 0 0
+0 100 0 P
+#4416
+0~
+the leg of a tortured soul~
+~
+~
+none C A
+0 0 0 0 0
+0 100 0 P
+#4417
+bed~
+a large veiled bed~
+A large veiled bed with silk pillows and satin sheets.~
+love~
+furniture ORTY 0
+2 0 BEHK 100 100
+0 100 0 P
+E
+bed~
+It is a huge, comfortable four-poster bed.  Veils hang down the sides.
+There are silk-covered feather pillows and satin sheets.  On the pillow
+is a fresh rose.
+~
+#4418
+potion divine~
+a potion of divine protection~
+A potion of divine protection is here.~
+crystal~
+potion ABGI AO
+35 'sanctuary' 'stone skin' 'armor' ''
+16 10 1800 P
+#4419
+potion cure light~
+a potion of cure light wounds~
+A potion of cure light wounds is here.~
+glass~
+potion G AO
+5 'cure light' '' '' ''
+0 10 150 P
+#4420
+potion cure serious~
+a potion of cure serious wounds~
+A potion of cure serious wounds is here.~
+glass~
+potion G AO
+10 'cure serious' '' '' ''
+1 10 220 P
+#4421
+potion cure critical critic~
+a potion of cure critical wounds~
+A potion of cure critical wounds is here.~
+glass~
+potion G AO
+15 'cure critical' '' '' ''
+5 10 390 P
+#4422
+potion antidote bottle~
+a bottle of antidote~
+A bottle of antidote is here.~
+clay~
+potion G AO
+14 'cure poison' 'cure light' 'cure disease' ''
+8 10 550 P
+#4423
+potion cure blindness~
+a potion of cure blindness~
+A potion of cure blindness is here.~
+glass~
+potion G AO
+13 'cure blindness' '' '' ''
+0 10 230 P
+#4424
+vial holy water~
+a vial of holy water~
+A vial of holy water is here.~
+crystal~
+potion AGI AO
+20 'bless' 'protection evil' 'remove curse' ''
+10 10 720 P
+#4425
+potion armor~
+a potion of armor~
+A potion of armor is here.~
+glass~
+potion G AO
+10 'armor' '' '' ''
+0 10 200 P
+#4426
+potion negation~
+a potion of negation~
+A potion of negation is here.~
+glass~
+potion BG AO
+35 'cancellation' '' '' ''
+9 10 830 P
+#4427
+potion fly flying~
+a potion of flying~
+A potion of flying is here.~
+glass~
+potion G AO
+9 'fly' '' '' ''
+3 10 250 P
+#4428
+potion true sight~
+a potion of true sight~
+A potion of true sight is here.~
+glass~
+potion G AO
+10 'detect invis' 'detect magic' 'detect hidden' ''
+4 10 290 P
+#4429
+0~
+rottweiler dog pet gateweeds~
+the leg of a troll gang member~
+~
+none C A
+0 0 0 0 0
+0 100 0 P
+#4430
+potion sanct sanctuary~
+a potion of sanctuary~
+A potion of sanctuary is here.~
+glass~
+potion G AO
+20 'sanctuary' '' '' ''
+11 10 800 P
+#4431
+Circle circular table book~
+the table~
+A large circular table with the great book at the center.~
+wood~
+furniture AGOR 0
+6 0 ADG 100 100
+0 100 0 P
+E
+circle table book~
+This is the meeting and ceremonial table of the circle.  Here, people 
+are initiated, and meetings are held.  Also, at the centre of the table, 
+is the great book of the Circle.  You cannnot remove the book, as it is 
+held in place by the power of the Inner Circle.
+~
+#4432
+pedestal~
+a marble pedestal~
+A marble pedestal with a massive tome on it rests against the back wall.~
+marble~
+furniture OTY 0
+0 0 0 0 0
+1 100 0 P
+E
+tome~
+Circle began humbly, as the dream of one man.  The dream to prove that
+Magicks are more powerful than mere weapons and armor.  This man,
+Arkisbane, was joined by other mages of his day. Together they sought to
+increase the influence of magic in the land of Boinga.  To further this
+goal they aligned themselves as a clan and purchased a place of refuge and
+contemplation.
+ 
+In the year when the great storm passed over the land, Arkisbane was
+called away to other lands.  He passed leadership of this new clan to one
+whom he deemed worthy.  A time of growth and prosperity ensued.  Circle was
+quickly accepted in the land and all began to look to them as wise men and
+women. Then one day this leader was called away to other adventures.
+ 
+A period of darkness consumed Circle.  They floated for a time
+...without guidance.  Until one day a light renewed itself, and rose up out
+of the darkness to bring a new life to the Unending path of the Circle.
+Mythorn had a vision.  A new way to govern a clan.  Not by rule of one man
+or woman, subject to his or her whims, but rule by a group, a council of
+those who had long traveled the Path of the Magicks.  He prayed to the gods
+and it was ordained that there shall be four members in this 'innermost'
+group of Circle.  For by having four leaders Circle would never again be
+without a ruler.  Thus was born the tradition of the Inner Circle.
+ 
+This first Inner Circle was short lived.  Two of the chosen four left
+the realms of mortality and clanhood in search of the greater Magicks of
+immortality. Four moons passed while Circle was once again ruled by one
+man, a man who was a capable and kind leader.  One who still had a dream of
+a clan ruled by a group.
+ 
+After the fourth moon grew dim, Mythorn dreamt.  In his dream were
+presented to him the names of those who should next guide Circle.  Inner
+Circle once again rose into being.  This time cautions were taken to ensure
+that there would always be leaders if one or more of the Inner Circle were
+called away.  Thus began the Outer Circle. Not officially leaders, but
+designated protectors and advisors for younger members.  Circle once again
+began to prosper as a clan.  Their ranks grew large and they became a
+fearsome force in the land of Boinga.  But still their main purpose was the
+study and teaching of Magicks.
+ 
+In the year of the great gold dragon, a shadow passed across Circle.
+Some members sold themselves to the dark side and tried to turn the entire
+clan to the ways of evil.  But with the guidance of Mojo they were put in
+their places, and Circle was once again covered by a holy aura of
+protection. During this time of upheaval many wise persons were lost to
+the dark side.  Unfortunately none of them could be converted back, and
+they were forever banished from the brotherhood.  Another brief period of
+disarray ensued while new leaders were chosen to replace those who had
+left. But this disarray was short lived, and when new leaders were voted
+upon, the doors were once again open for Circle to lead the way in search
+of ever greater and more powerful knowledge.
+ 
+May the past serve to guide us in our future.
+-Recorded this Day of Ascension in the Year of the Coming.
+-With many thinks to the elders for their patient retelling of
+the past to this humble servant.
+~
+#4433
+circle guardian bracer~
+a Circle Guardian bracer~
+The bracer of a Circle Guardian lies here.~
+copper~
+jewelry G AM
+0 0 0 0 0
+5 10 550 P
+A
+5 1
+#4434
+magus necklace~
+a magus power necklace~
+A magus necklace lies here.~
+energy~
+jewelry G AC
+0 0 0 0 0
+5 20 550 P
+A
+12 10
+A
+5 1
+#4435
+chain lost soul~
+the chain of the lost soul~
+A heavy steel chain lies here.~
+steel~
+weapon 0 AN
+flail 3 7 crush I
+20 30 2800 P
+A
+19 3
+F
+A 0 0 I
+#4436
+promise ring~
+an ancient promise ring~
+An ancient ring lies here.~
+gold~
+jewelry F AB
+0 0 0 0 0
+3 2 5000 P
+A
+4 2
+A
+13 -20
+#4437
+star chart~
+the star chart~
+~
+paper~
+portal ORY P
+0 0 0 4440 0
+0 0 0 P
+#4438
+star Anteres~
+Anteres~
+A large star lies here.~
+hydrogen~
+armor A AD
+1 1 1 0 0
+2 100 5000 P
+A
+1 1
+A
+5 1
+#4439
+event horizon~
+an event horizon~
+Torn from the fabric of time and space, an event horizon lies here.~
+nothing~
+gem A AQ
+0 0 0 0 0
+0 100 0 P
+A
+13 10
+#4440
+orion belt~
+Orion's Belt~
+A belt lies here.~
+hydrogen~
+armor AB AL
+0 0 0 0 0
+0 100 0 P
+A
+3 1
+A
+4 1
+#4441
+sentinel axe~
+The Sentinel's Axe~
+An axe lies here.~
+nothing~
+weapon C AN
+exotic 0 0 none 0
+22 20 0 P
+#4442
+ancient promise ring~
+an ancient promise ring~
+An ancient ring lies here.~
+gold~
+jewelry EFHMd AB
+0 0 0 0 0
+3 2 5000 P
+F
+A 0 0 MW
+A
+13 -20
+A
+4 2
+#0
+
+#ROOMS
+#4400
+The Foyer~
+You stand in the Tower of Clan Circle.  A sense of peace comes over you as 
+you stand here.  The walls are made of polished black marble, and the air is 
+cool and comforting.  The marble floor is covered with a dark, forest green 
+carpet.  At regular intervals on the walls, various hallmarks of Circle's past 
+are proudly displayed for all to see.  To the west and east, hallways extend 
+around the tower.  An oak door to the north leads outside onto Clan Road.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 3303
+D1
+Exit ~
+door~
+16384 0 4419
+D3
+Exit ~
+door~
+16384 0 4418
+S
+#4401
+The Clan Suites~
+Tucked back away in the coolness of the clan's basement, many members have
+built their own apartments.  A long hallway of suites extends beneath the
+bedrock of Midgaard.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 4402
+D2
+Exit ~
+door~
+16384 0 4438
+S
+#4402
+The Clan Suites.~
+Tucked back away in the coolness of the clan's basement, many members have
+built their own apartments.  A long hallway of suites extends beneath the
+bedrock of Midgaard.  A small private room lays to the north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4417
+D3
+Exit ~
+door~
+16384 0 4401
+S
+#4403
+The Great Hall~
+A massive meeting place, the Great Hall is where grand decisions are made.  
+A large wooden table runs down the center of the room.  There are enough chairs 
+to seat the entire clan at once.  Seven large, interconnected rings hang above 
+the table.  Seven symbolizing the hallowed number of leaders that were ordained 
+to be.  Rings symbolizing the unending path of life which we all follow.
+Interlinked to symbolize our dependence on each other.  As individuals we 
+are weak, but as many we are strong.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 4436
+S
+#4404
+The Open Courtyard~
+The eastern wall of the tower has been removed, and this edge of the tower
+opens up into the sky and air.  The floor above is only half-sized, and so
+you can see straight into the sky from the courtyard.  An ivy-covered marble
+arch leads back towards the interior of the tower.  Against the north wall 
+there is a semi-circular fountain with the statue of a great mage in the 
+middle.  The water flows out of the mage's outstretched hands cascading down 
+forming a watery shield.  The wind blows gently through the courtyard and
+you swear you hear the words, "Never ending, ever lasting..."
+~
+0 0 1
+D2
+Exit ~
+door~
+16384 0 4434
+S
+#4405
+The Great Library of Clan Circle~
+The Great Library, wherein lies the collective knowledge and power of the
+entire clan.  This massive room is lined, wall-to-wall, with shelves of books, 
+most of them written in archaic foreign tongues.  The spellbooks of departed 
+clan members are displayed in places of honor around the library.  Tables and 
+cots are placed around the room, so that clan members may study and rest 
+here if they like.  Clan rumor has it that the power of the library tends to 
+enhance the natural curative process.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4421
+D1
+Exit ~
+door~
+16384 0 4415
+D3
+Exit ~
+door~
+16384 0 4416
+S
+#4406
+The Observatory~
+As you reach the top of a narrow staircase you had not seen before, you 
+find yourself in a room that is open to the city.  Large circular openings 
+in the wall allow the air to drift in.  You can nearly see the whole city 
+from this height.  Just south of here the spires of the Temple poke into 
+view, while farther away you can see the Midgaard River flowing lazily out 
+of the city. To the north you can just see Mt. Olympus on the horizon.  Up 
+here, so close to the sky, you feel at one with nature.
+~
+0 CDK 1
+S
+#4407
+The Hall of Remembrance~
+The Hall of Remembrance is a smaller version of the library.  A few spell
+books are on display here, including those of some famous clan members, and
+figures of historic significance.  Portraits of all clan leaders, past and
+present, line the walls.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4431
+E
+portrait portraits~
+There are many portraits, arranged in chronological order.  They are of
+Arkisbane, <he who cannot be named>, Mythorn, Naqytar, Shafter, Loroth
+Cirin, Slayer, Marius, SandGorgon, Icendur, Hatcher, Salome, Handel,
+Gwenhwyvar, Biso, Titanic, Taron, Anthalas, Lys, Kelmar, Katja.
+~
+S
+#4408
+The Map Room~
+Of all the rooms in the hall, this is the only one that has a military
+look to it.  Various trophies from past victories adorn the walls.  In the
+center of the room is a planning table that contains strategic maps of all
+of Boinga.  The blueprints and original layout of the Tower of Clan Circle
+are framed and hanging on the wall, next to a picture of the design crew. 
+Looking closely at the picture, you recognize a few of the members of the
+design team.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 4433
+E
+picture~
+The picture shows Anthalas, Tobias, and Caliban, proudly standing in front of 
+the newly completed Tower, holding up a copy of the blueprints.
+~
+E
+table~
+On the table are the maps for various area of Boinga.
+ 
+New Thalos -- look newthalos
+Olympus    -- look olympus
+~
+E
+newthalos~
+* * * **************** New Thalos ***************** * * *
+                   "Not Thalos or Old Thalos but New Thalos"
+            = = =============================================== = =
+ 
+                                   Plains
+                                     |
+Northwest--West Casbah------------North-----------------Casbah--------Northeast
+  Tower     |                      Gate                    |            Tower
+          Alley                     |                      |              |
+            |    Guard           Sultan's                  |  Library----Kali
+          Alley  House             Walk                    |             Row
+                   |                |      Dancing         |              |
+     Sultan's----Grand---Palace--Sultan's--Daemon          |   Dance-----Kali
+      Palace    Entrance  Gate     Walk      Inn           |   Hall      Row
+                   |                |                      |
+                 Guard              |         Bowyer--Guildsman's--Mason's
+                 House              |         Guild       Row      Guild
+ High                               |                      |
+Priest                              |         Weaver--Guildsman's--Craftsman
+Chamber  Altar                   Sultan's     Guild       Row        Guild
+  |        |                       Walk                    |
+Inside--Inside--Donation            |         Tanner--Guildsman's--Museum
+Temple  Temple    Room              |         Guild       Row      of the
+  |        |                        |                      |       Greater
+Cleric     |                        |                 Guildsman's---Gods
+Guild     /                         |                     Row
+        /                           |                      |
+     Temple             Ahkeem's Sultan's  Vera's     Guildsman's         Mage
+     Gates                Stuff    Walk   Veggies         Row             Tower
+       |     Alley--Alley    |      |       |              |                |
+     Temple    |          Market--Market--Market           | Witch's  Magic |
+     Square  Alley  Bank--Square  Square  Square--Butchery |  Brew    Shop  |
+       |       |             |      |       |              |    |      |    |
+West--West---West---West--Market--Center--Market---East--East--East--East--East
+Gate  Main   Main   Main  Square  Square  Square   Main  Main  Main  Main  Gate
+  |    |       |             |      |       |              |    |
+  |  Repair  Alley  Store-Market--Market--Market--Abdul's  | Mercenary--Thieves
+  |   Shop     |          Square  Square  Sqaure   Armor   |   Guild     Guild
+  |          Alley--Alley    |      |       |             Alley
+Warrior's                  Bread  Medina  Igor's  Leather  |           Smuggler
+  Guild                    Stand    |    Weapons   Shop---Alley--Alley---Inn
+                                  Medina                        /
+      Warehouse    Shipwright       |     Forge  Stables      /    Cass's  Dump
+       |     |          |         Common    |       |        |       |      |
+       +-----West Ishtar Drive----Square----+---East Ishtar Drive----+------+
+                        |            |
+                    Boat Ramp        |
+                        |          South
+===================Ishtar River====Bridge======================> To Dragon Sea
+                                     |
+                                   South
+                                   Gate
+~
+E
+olympus~
+*****OLYMPUS*****
+                               =================
+ 
+                                   Bedroom
+                                      |
+                                   Northern
+                                     Hall
+                        Western       |         Eastern
+              Bedroom----Hall----Second Floor----Hall----Bedroom
+                                /     |
+                         Stairway  Southern
+                             |       Hall                    North
+                        Throne Room   |                        |  /Up
+                             |      Bedroom                    |/
+                             |                          West---+---East
+                  Kitchen    |     Stable                     /|
+                     |       |       |                  Down/  |
+        Guest     Western  Castle  Eastern   Guest           South
+       Quarters----Wing----Entry----Wing----Quarters
+                     |       |       |
+                  Storage   Z|    Storage
+                   Room     e|S    Room   Smithy
+                            u|t             |
+                            s+--Ares Street-+--Weapon
+                    Mystery  |              |   Shop
+                    Shop-----+           Armoury
+                             |
+                   Residence-+-Residence
+                             |
+                     Bakery--+
+                             |
+                       **Entrance**
+                            /
+                      Mountain
+~
+S
+#4409
+The Portal Chamber of Clan Circle~
+A quiet humming sound can be heard as you stand in the Portal Chamber.  
+The room is very dark and you can almost see the power eminating from the
+various portals that lead to unknown regions.  Against the back wall are
+several black gates, whose surfaces twist and churn with magical energy,
+looking like a whirlpool of black waters.
+ 
+A large metalic plaque beckons for you to read it.
+~
+0 D 1
+D3
+Exit ~
+door~
+16384 0 4438
+E
+mirror~
+The mirror is aproximately 7 feet high and 5 feet wide.  The frame is
+made of a hard metal, which harbors the most intricate designs you
+have ever set eyes upon.  Huge snake like dragons are carved into
+the frame, circling dozens of hour glasses.  The glass itself is
+smooth and untarnished.  Peering into the reflective surface, you
+come to realise that shadowy figures seem to be staring back at you
+from the other side of the glass.  
+~
+E
+metalic plaque~
+The plaque reads as follows:
+ 
+     Welcome to Circle's portal chamber.  This chamber calls forth on
+     great magical energies that have been put into the stone by the
+     old masters of magic.  A large mirror is used to create rifts
+     in time, which allows us to open gateways to other dimensions.
+     This in turn lets us travel from one place to another in very
+     little time.  The use of this wonderous magical relic is quite
+     simple.  Simply enter the portal while thinking of your desired
+     destination.
+      Example:     enter drow
+ 
+Dimensional rifts currently accesible are: 
+ - Drow City        (enter drow)
+ - Sand of Sorrow   (enter sands, enter sorrow)
+ - Great Pyramid    (enter pyramid)
+ - Elemental Canyon (enter canyon)
+ - Old Thalos       (enter old, enter thalos)
+ - Haon Dor Forest  (enter haon)
+~
+S
+#4410
+The Herb Garden~
+The south end of the Tower has been removed, and growing in the open air
+and sunshine is a garden of herbs.  A cobblestone path through the garden,
+among the well-trimmed hedges and carefully-tended flowers and plants.  There
+is no gardener in sight, perhaps these plants live off of the magic of the
+clan.  Various spell components are rare plants are grown and tended here,
+for the use and enjoyment of the clan.
+~
+0 D 1
+D3
+Exit ~
+door~
+16384 0 4423
+S
+#4411
+The Gazebo~
+At the north end of the second floor, the wall of the Tower has been
+cut away, and fresh air flows freely into this room.  A soft layer of grass
+grows magically out of floor, and a quiant, wooden gazebo with a comfortable
+swinging bench is located in the grass.  The room is very peaceful and offers
+a little privacy from the rest of the clan.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 4425
+S
+#4412
+The Battlements~
+The battlements of the Tower are mostly for show, but nevertheless, a wooden
+pathway extends around the tower.  The wind at this height is strong, and 
+the altitude is somewhat dizzying, but the railings are secure, and the view
+is magnificent.  The spires of the hall reach towards the sky from just over
+your head, and looking directly down, you can see the open courtyard on the
+third floor, and the gazebo and herb garden on the second floor.
+~
+0 0 1
+D3
+Exit ~
+door~
+16384 0 4436
+S
+#4413
+The Practice Room~
+Tucked away in a unused wing of the Tower, the practice room is a safe place
+for mages to apply their studies to experience.  The room is dark, and smells
+like sulfur, probably a leftover from so many endless hours of fireballs and
+magic missiles being hurled through the air.  Near the door to the room is
+a small sign, with some admonishments for the would-be practicer.  "Thou shalt
+not practice thy combat spells on thy clanmates."  "Thou canst kill thyself 
+with thine own magic missile."  "If thou shoudst sleep thyself by accident, 
+ask not for help from thy clanmates, but certainly shouldst thou expect to be 
+mercilessly teased for thine idiocy."  Mages always were a rather sarcastic 
+bunch.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 4424
+S
+#4414
+The Dungeons~
+Newly added after the tower was completed, the dungeons are not really all  
+that bad.  Comfortable straw mattresses with cloth sheets and woolen blankets
+are shoved against the far wall, and magical barriers replace steel bars.  It
+appears that the dungeons were added as an afterthought, and have probably 
+never yet been used.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 4438
+D5
+Exit ~
+grate~
+16455 0 4439
+S
+#4415
+The Alchemist's Lab~
+Whoever hired the alchemist to work for the clan is long gone, but Circle's
+mad scientist is still here, brewing potions and running a side operation in
+tangent with Wilf's Diner.  Seems that magic users have an appetite for
+buffalo wings.
+~
+0 CD 1
+D0
+Exit ~
+door~
+16384 0 4422
+D3
+Exit ~
+door~
+16384 0 4405
+S
+#4416
+The Healer's Room~
+As you step into this room, a silence encloses you.  All that can be
+heard is the soft chanting of the healer who spends her time here.  She sits
+here hour after hour ... day after day, waiting to be useful once again.  To 
+one side of the room lies a communal chest of donated items.  All clan members 
+are invited to share in the surplus bounty of treasure.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4420
+D1
+Exit ~
+door~
+16384 0 4405
+S
+#4417
+A Small, Cozy Room~
+This small cozy room contains little furnishing except for a bed in
+the corner.  A small fire burns to heat the room when it is cold.
+The walls are a soft white and glow with a pale radiance.  Champagne,
+ale and various pre-mixed drinks are sitting on the bar's
+counter.  Delicate foods are arranged on intricately designed chinaware.
+The small curtained window looks out into the garden.  Through the window,
+in the far corner of the garden, you can see the gazebo.  The scent of the
+herbs outside gently waft through the room.
+~
+0 CDJ 0
+D2
+Exit ~
+door~
+16384 0 4402
+S
+#4418
+The Northwest Corner of the First Floor~
+The hallway leads east to the Foyer, and south into the West Hall.  The
+walls are decorated with a large painting of the Tower of Clan Circle, and
+a commemorative plaque below it.  Hanging from the ceiling of this hallway
+is a circular brass ring, with 7 candles arranged around it, representing
+the members of the Conclave of Circle.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 4400
+D2
+Exit ~
+door~
+16384 0 4420
+E
+plaque~
+The plaque reads, "We, the Magi of Clan Circle do hereby dedicate this, our
+bastion of strength, the Tower of Clan Circle, to preserving our wisdom, our
+magic, and our very lives.  The Tower was built by Anthalas, Caliban, Jafar, 
+Kelmar, and Tobias.  This project was made possible by Clan Circle, and all
+of your individual donations and efforts."
+~
+S
+#4419
+The Northeast Corner of the First Floor~
+The hallway extends east and south from here.  Hanging on the walls are
+many artifacts from Circle's past, famous weapons used by various clan members,
+and powerful magic items recovered from enemy hands and dangerous, distant
+lands.  The Sith Blade, The Dagger of Circle, and a few other, unidentifiable
+weapons are hung carefully here for show, a clear reminder of the power of
+our enchantments.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 4422
+D3
+Exit ~
+door~
+16384 0 4400
+S
+#4420
+The West Hall of the First Floor~
+This hall leads north and south, with an exit to the east which accesses  
+the tower's core stairwell.  The west wall is covered with tapestries, depicting
+glorious moments of Circle's past.  There are pictures of the founding of the
+Inner Circle, and another one displays several clan members discussing the
+restructuring of the leadership.  Many of the tapestries are very old, and are
+so faded that they are difficult to see or understand.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4418
+D1
+Exit ~
+door~
+16384 0 4421
+D2
+Exit ~
+door~
+16384 0 4416
+S
+#4421
+A Grand Staircase~
+A spiraling, oak staircase runs from the basement of the tower all the
+way to the very top.  Exits east, west and south allow access to the first
+floor of the Tower.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 4422
+D2
+Exit ~
+door~
+16384 0 4405
+D3
+Exit ~
+door~
+16384 0 4420
+D4
+Exit ~
+door~
+16384 0 4426
+D5
+Exit ~
+door~
+16384 0 4438
+S
+#4422
+The East Hall of the First Floor~
+This hallway runs north and south, and access the core staircase to
+the west.  The east side of this hallway is decorated with plaques, trophies,
+medals, and various other memories of the clan's past.  There are awards for
+many incredible feats, including a gold medal for Shadowlord, the greatest 
+enchanter in all of Boinga.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4419
+D2
+Exit ~
+door~
+16384 0 4415
+D3
+Exit ~
+door~
+16384 0 4421
+S
+#4423
+The Southwest Corner of the Second Floor~
+This corner of the hall leads north into the west hall, and east into the
+Herb Garden.  Cool, fresh air wafts into the hallway from the garden,
+accompanied by the smell of various flowering plants and herbs.  The marble
+floor turns to cobblestone as it approaches the entrance to the garden.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4424
+D1
+Exit ~
+door~
+16384 0 4410
+S
+#4424
+The West Hall of the Second Floor~
+This hallway runs north and south, with access to the core stairwell to 
+the east.  The west side of this hallway appears to be a miniature art gallery.
+There are pictures of various gods who ascended to their immortal thrones from
+clan Circle.  Some of the more recent portraits are of Handel, one of our oldest
+leaders, and Gwenhwyvar.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4413
+D1
+Exit ~
+door~
+16384 0 4426
+D2
+Exit ~
+door~
+16384 0 4423
+S
+#4425
+The Northeast Corner of the Second Floor~
+This corner of the second floor bends to the south and to the west.  The
+hallway towards the west turns into a cobblestone path.  Cool air drifts
+aimlessly into the hallway, and you can just see the gazebo in the distance.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 4427
+D3
+Exit ~
+door~
+16384 0 4411
+S
+#4426
+A Grand Staircase~
+A spiraling, oak staircase runs from the basement of the tower all the
+way to the very top.  Exits east and west allow access to the second floor of
+the Tower.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 4427
+D3
+Exit ~
+door~
+16384 0 4424
+D4
+Exit ~
+door~
+16384 0 4429
+D5
+Exit ~
+door~
+16384 0 4421
+S
+#4427
+The East Hall of the Second Floor~
+Running north and south, this hallway also accesses the core stairwell of
+the Tower.  The hall is decorated with an elaborate mosiac of the Tower itself,
+as can be seen from clan road.  As you stare at the mosaic, it almost seems 
+to come alive, and you can almost see the winds rustling the leaves of the 
+trees.  Indeed, magic is everywhere in the Tower of Clan Circle.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4425
+D2
+Exit ~
+door~
+16384 0 4428
+D3
+Exit ~
+door~
+16384 0 4426
+S
+#4428
+The Chapel~
+Tucked away into a quiet floor of the hall, the Chapel is a very solemn
+and humble room.  Rows of benches and kneelers line the walls, and an altar
+at the front of the room is covered by a black silk skirt.  Stained-glass
+windows of magical patterns illuminate the room, and you feel awed by the
+very power of life and magic as you reflect on your own experiences.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4427
+S
+#4429
+A Grand Staircase~
+A spiraling, oak staircase runs from the basement of the tower all the
+way to the very top.  Exits north and south allow access to the third floor of
+the Tower.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4430
+D2
+Exit ~
+door~
+16384 0 4433
+D4
+Exit ~
+door~
+16384 0 4436
+D5
+Exit ~
+door~
+16384 0 4426
+S
+#4430
+The North Hall of the Third Floor~
+An exit to the south allows access to the stairwall, and the hall itself
+runs east to west.  This section of the hall is quiet and contemplative, and
+you feel as though it would almost be wrong to make any noise here.  Instead
+of decorations, windows interrupt the walls at regular intervals, giving you
+an incredible view of northern Boinga.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 4432
+D2
+Exit ~
+door~
+16384 0 4429
+D3
+Exit ~
+door~
+16384 0 4431
+S
+#4431
+The Northwest Corner of the Third Floor~
+A very quiet corner of the tower, it leads south into the Hall of Remembrance
+and east into the North hall.  Instead of decorations, there are arch-shaped
+windows, allowing the passer-by to enjoy the breathtaking view from the
+upper levels of the tower.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 4430
+D2
+Exit ~
+door~
+16384 0 4407
+S
+#4432
+The Ceremonial Chamber~
+This is where the Rite of Initiation is held.  A raised dias lies against
+the back of the room, where the Ceremony Master facilitates the Rite of
+Initiation.  A circle of high-backed chairs surrounds an empty spot in the 
+floor, where the Apprentice stands before his masters to swear his life and
+magic to the clan.  The chamber's walls are made of polished blue and white
+marble, and colorful, yet solemn tapestries and coats of arms line the walls.
+The room has a quiet, serious, yet very uplifting and confident feel to it.
+~
+0 D 1
+D3
+Exit ~
+door~
+16384 0 4430
+S
+#4433
+The South Hall of the Third Floor~
+The south hall is quiet and solemn.  It least west into the Map Room,
+and east towards a somber room.  The southern wall of the hall is not decorated.
+Several windows offer the view of the city of Midgaard, and of southern Boinga.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4429
+D1
+Exit ~
+door~
+16384 0 4434
+D3
+Exit ~
+door~
+16384 0 4408
+S
+#4434
+The Southeast Corner of the Third Floor~
+This quiet corner of the Tower has only one decoration.  Hung carefully on 
+the wall between two magical blue flames is a portrait of Mandrake, the god 
+who left before his time.  Below the portrait is a small brass plaque, which
+simply reads: "Mandrake, You Shall Not Be Forgotton."  You feel somewhat sad,
+looking at the portrait, but even more, you feel a sense of fullness and
+confidence.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4404
+D3
+Exit ~
+door~
+16384 0 4433
+S
+#4435
+The Open Courtyard~
+The eastern wall of the tower has been removed, and this edge of the tower
+opens up into the sky and air.  The floor above is only half-sized, and so
+you can see straight into the sky from the courtyard.  An ivy-covered marble
+arch leads back towards the interior of the tower.  Against the north wall 
+there is a semi-circular fountain with the statue of a great mage in the 
+middle.  The water flows out of the mage's outstretched hands cascading down 
+forming a watery shield.  The wind blows gently through the courtyard and
+you swear you hear the words, "Never ending, ever lasting..."
+~
+0 K 1
+D2
+Exit ~
+door~
+16384 0 4434
+S
+#4436
+A Grand Staircase~
+A spiraling staircase connects the top floor of the tower with the others.
+It descends downward to the third floor.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4437
+D1
+Exit ~
+door~
+16384 0 4412
+D3
+Exit ~
+door~
+16384 0 4403
+D5
+Exit ~
+door~
+16384 0 4429
+S
+#4437
+The Observatory~
+Located at the very top of the Tower of Clan Circle, the Observatory is a  
+massive, semi-circular shaped room.  Slits in the walls allow air to drift in
+and out of the room. A planesphere and star chart on the wall help the aspiring
+astronomers and astrologers to watch and observe the changing motions of the 
+world in the heavens.  The view from here is spectacular.  Just south of the
+tower, the spires of the Temple poke into view, while farther away you can see 
+the Midgaard River flowing lazily out of the city. To the north you can just 
+see Mt. Olympus on the horizon.  So close to the sky, you feel at one with 
+nature, and with your own magic.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 4436
+S
+#4438
+A Wooden Stairwell~
+The bottom of the Grand Staircase is secured to the floor of the basement.
+The bottom part is made of finished oak, and supported by iron beams.  It 
+leads upwards to the surface.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 4401
+D1
+Exit ~
+door~
+16384 0 4409
+D3
+Exit ~
+door~
+16384 0 4414
+D4
+Exit ~
+door~
+16384 0 4421
+S
+#4439
+The Lower Dungeons~
+You stand in a vile-smelling room beneath the Circle Clan Hall
+dungeons.  The air is putrid and smells like rot and decay.
+Piles of bones and leftover chains litter the floor.
+~
+0 ADNT 0
+H 150 M 150
+D4
+Exit ~
+grate~
+16455 0 4414
+S
+#4440
+Inside the Star Chart~
+You stand amidst the stars within the Observatory of Clan Circle.
+The magic permeates your body, this is where the mages come to
+study the moons and stars, as the heavens are the source of magic
+and must be studied.  Within the star chart, the mages can learn
+more.
+~
+0 CD 0
+H 150 M 150
+S
+#0
+
+#RESETS
+M 0 4403   8 4400  1	* the ghost of an apprentice
+M 0 4403   8 4401  1	* the ghost of an apprentice
+M 0 4405   3 4403  1	* the ghost of an Inner Circle mage
+E 1 4434  -1    3	*   a magus power necklace
+M 0 4402   1 4404  1	* the ghost of a mage
+M 0 4404   8 4404  1	* a Circle Guardian
+M 0 4403   8 4405  1	* the ghost of an apprentice
+M 0 4405   3 4407  1	* the ghost of an Inner Circle mage
+E 1 4434  -1    3	*   a magus power necklace
+M 0 4404   8 4407  1	* a Circle Guardian
+M 0 4403   8 4410  1	* the ghost of an apprentice
+M 0 4404   8 4410  1	* a Circle Guardian
+E 1 4433  -1   14	*   a Circle Guardian bracer
+M 0 4404   8 4411  1	* a Circle Guardian
+E 1 4433  -1   14	*   a Circle Guardian bracer
+M 0 4404   8 4412  1	* a Circle Guardian
+E 1 4434  -1    3	*   a magus power necklace
+M 0 4405   3 4412  1	* the ghost of an Inner Circle mage
+E 1 4434  -1    3	*   a magus power necklace
+M 0 4404   8 4413  1	* a Circle Guardian
+E 1 4433  -1   14	*   a Circle Guardian bracer
+M 0 4403   8 4414  1	* the ghost of an apprentice
+M 0 4400   1 4415  1	* the alchemist
+M 0 4401   1 4416  1	* the ancient healer
+M 0 4403   8 4421  1	* the ghost of an apprentice
+M 0 4403   8 4428  1	* the ghost of an apprentice
+M 0 4404   8 4428  1	* a Circle Guardian
+E 1 4434  -1    3	*   a magus power necklace
+M 0 4403   8 4432  1	* the ghost of an apprentice
+M 0 4404   8 4437  1	* a Circle Guardian
+E 1 4433  -1   14	*   a Circle Guardian bracer
+O 0 4431 100 4404	* the table
+O 0 4403 100 4405	* a fountain
+O 0 4432 100 4407	* a marble pedestal
+O 0 4417 100 4417	* a large veiled bed
+O 0 4437 100 4437	* the star chart
+O 0 4440 100 4440	* Orion's Belt
+O 0 4439 100 4440	* an event horizon
+O 0 4438 100 4440	* Anteres
+D 0 4400   0 16384	* The Foyer north
+D 0 4400   1 16384	* The Foyer east
+D 0 4400   3 16384	* The Foyer west
+D 0 4401   1 16384	* The Clan Suites east
+D 0 4401   2 16384	* The Clan Suites south
+D 0 4402   0 16384	* The Clan Suites. north
+D 0 4402   3 16384	* The Clan Suites. west
+D 0 4403   1 16384	* The Great Hall east
+D 0 4404   2 16384	* The Open Courtyard south
+D 0 4405   0 16384	* The Great Library of Clan Circle north
+D 0 4405   1 16384	* The Great Library of Clan Circle east
+D 0 4405   3 16384	* The Great Library of Clan Circle west
+D 0 4407   0 16384	* The Hall of Remembrance north
+D 0 4408   1 16384	* The Map Room east
+D 0 4409   3 16384	* The Portal Chamber of Clan Circle west
+D 0 4410   3 16384	* The Herb Garden west
+D 0 4411   1 16384	* The Gazebo east
+D 0 4412   3 16384	* The Battlements west
+D 0 4413   2 16384	* The Practice Room south
+D 0 4414   1 16384	* The Dungeons east
+D 0 4414   5 16455	* The Dungeons down
+D 0 4415   0 16384	* The Alchemist's Lab north
+D 0 4415   3 16384	* The Alchemist's Lab west
+D 0 4416   0 16384	* The Healer's Room north
+D 0 4416   1 16384	* The Healer's Room east
+D 0 4417   2 16384	* A Small, Cozy Room south
+D 0 4418   1 16384	* The Northwest Corner of the First Floor east
+D 0 4418   2 16384	* The Northwest Corner of the First Floor south
+D 0 4419   2 16384	* The Northeast Corner of the First Floor south
+D 0 4419   3 16384	* The Northeast Corner of the First Floor west
+D 0 4420   0 16384	* The West Hall of the First Floor north
+D 0 4420   1 16384	* The West Hall of the First Floor east
+D 0 4420   2 16384	* The West Hall of the First Floor south
+D 0 4421   1 16384	* A Grand Staircase east
+D 0 4421   2 16384	* A Grand Staircase south
+D 0 4421   3 16384	* A Grand Staircase west
+D 0 4421   4 16384	* A Grand Staircase up
+D 0 4421   5 16384	* A Grand Staircase down
+D 0 4422   0 16384	* The East Hall of the First Floor north
+D 0 4422   2 16384	* The East Hall of the First Floor south
+D 0 4422   3 16384	* The East Hall of the First Floor west
+D 0 4423   0 16384	* The Southwest Corner of the Second Floor north
+D 0 4423   1 16384	* The Southwest Corner of the Second Floor east
+D 0 4424   0 16384	* The West Hall of the Second Floor north
+D 0 4424   1 16384	* The West Hall of the Second Floor east
+D 0 4424   2 16384	* The West Hall of the Second Floor south
+D 0 4425   2 16384	* The Northeast Corner of the Second Floor south
+D 0 4425   3 16384	* The Northeast Corner of the Second Floor west
+D 0 4426   1 16384	* A Grand Staircase east
+D 0 4426   3 16384	* A Grand Staircase west
+D 0 4426   4 16384	* A Grand Staircase up
+D 0 4426   5 16384	* A Grand Staircase down
+D 0 4427   0 16384	* The East Hall of the Second Floor north
+D 0 4427   2 16384	* The East Hall of the Second Floor south
+D 0 4427   3 16384	* The East Hall of the Second Floor west
+D 0 4428   0 16384	* The Chapel north
+D 0 4429   0 16384	* A Grand Staircase north
+D 0 4429   2 16384	* A Grand Staircase south
+D 0 4429   4 16384	* A Grand Staircase up
+D 0 4429   5 16384	* A Grand Staircase down
+D 0 4430   1 16384	* The North Hall of the Third Floor east
+D 0 4430   2 16384	* The North Hall of the Third Floor south
+D 0 4430   3 16384	* The North Hall of the Third Floor west
+D 0 4431   1 16384	* The Northwest Corner of the Third Floor east
+D 0 4431   2 16384	* The Northwest Corner of the Third Floor south
+D 0 4432   3 16384	* The Ceremonial Chamber west
+D 0 4433   0 16384	* The South Hall of the Third Floor north
+D 0 4433   1 16384	* The South Hall of the Third Floor east
+D 0 4433   3 16384	* The South Hall of the Third Floor west
+D 0 4434   0 16384	* The Southeast Corner of the Third Floor north
+D 0 4434   3 16384	* The Southeast Corner of the Third Floor west
+D 0 4435   2 16384	* The Open Courtyard south
+D 0 4436   0 16384	* A Grand Staircase north
+D 0 4436   1 16384	* A Grand Staircase east
+D 0 4436   3 16384	* A Grand Staircase west
+D 0 4436   5 16384	* A Grand Staircase down
+D 0 4437   2 16384	* The Observatory south
+D 0 4438   0 16384	* A Wooden Stairwell north
+D 0 4438   1 16384	* A Wooden Stairwell east
+D 0 4438   3 16384	* A Wooden Stairwell west
+D 0 4438   4 16384	* A Wooden Stairwell up
+M 0 4406   1 4439  1	* The lost soul
+E 1 4442  -1    1	*   an ancient promise ring
+E 1 4435  -1   16	*   the chain of the lost soul
+D 0 4439   4 16455	* The Lower Dungeons up
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 4400 spec_cast_mage      	* the alchemist
+M 4401 spec_cast_cleric    	* the ancient healer
+M 4402 spec_cast_mage      	* the ghost of a mage
+M 4406 spec_cast_cleric    	* The lost soul
+S
+
+#$

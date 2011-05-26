@@ -1,0 +1,1071 @@
+#AREA
+/mud/moosehead/area/honor2.are~
+Honor Clan Hall~
+{ all } MHS     Honor Clan Hall~
+31500 31529
+
+#MOBILES
+#31500
+shopkeeper halfling~
+The shopkeeper~
+A fat little halfling shopkeeper smiles broadly at you.
+~
+As the halfling notices your gaze he immediately begins to chatter away
+cheerfully, talking about the latest gossip and asking you about your
+adventures.  He flips the dragonwings on the grill skillfully and bastes
+it with his special barbeque sauce without missing a beat in his
+conversation.  He tells you that the "dragonwings" aren't actually made
+out of dragons wings, but he couldn't possibly give away the recipe because
+it is a trade secret passed down in his family for many generations.  He
+truely loves his job and enjoys the company of the "many great heroes",
+as he likes to call the members of Honor.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQRV DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#31501
+healer guard man~
+The gate guard~
+The gate guard nods at you as you walk by.
+~
+The old man smiles curtly and returns your gaze as he stands guard at
+the gate.  Those passing by Clan Road may wonder how an old man like him
+was hired to guard the gate to the great hall of Honor, but among the
+members of Honor it is common knowledge that he was one of the first
+adventurers who slew the diamond dragon that threatened the inhabitants
+of Midgaard long ago.  He received a handsome reward for his feat, but
+rumour has it that he gambled it all away at the casino of Atlantis. In
+any case he now spends his days as the gate guard and also sells some
+spells on the side.  Through your trained senses you get the feeling that
+his magic is still as potent as ever.  Maybe you should buy a spell or two.
+Type 'heal' to see a listing of spells.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQVa DFH 1000 0
+51 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#31502
+honor bartender tender~
+the Honor bartender~
+The Honor bartender stands here, skillfully mixing drinks.
+~
+Having served drinks to generations of Honor clansmen, this bartender
+can still whip up just about anything you ask for.  He smiles at you
+with gentle blue eyes, and asks, 'What'll it be tonight?'
+~
+human~
+(null)~
+(null)~
+(null)~
+ABV 0 900 0
+23 0 1d1+499 1d1+99 1d8+18 beating
+-6 -6 -6 0
+FHJN AB CD 0
+stand stand male 100
+0 0 medium 0
+#31503
+Honor Legionaire Guard~
+An Honor Hall Guard~
+An Honor Hall Guard stands here, ready to protect the hall.
+~
+This guard lives to defend Honor and its holdings.  He is trained
+and prepared to be a killing machine.  
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABTV 0 0 0
+46 15 25d10+6500 25d10+2250 4d10+18 thwack
+-15 -15 -15 -15
+CEFJNU AB 0 0
+stand stand male 0
+AHMV ABCDEF medium 0
+#31504
+Jones Janitor Sweeper of the Hall.~
+Jones the janitor~
+Jones the janitor, sweeper of the hall.
+~
+He is trying to catch every filthy thing on the floor with his
+pitch black eyes which glow red in the dark. Nothing
+will be missed by him. All filthy things will be lost for good.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABCGTV DFJPQZ 0 0
+60 100 1000d20+5000 1000d20+5000 10d10+100 crush
+-50 -50 -50 -50
+EFN ABCD 0 0
+stand stand male 0
+0 0 giant 0
+F par GHIJK
+#31505
+Hero of light~
+The hero of Light~
+Hero of Light, Honor's personal Equipment seller stands here.
+~
+He is white bearded old hero from the time of Avatar wars. 
+He is one of the five survivors of the great war and is
+now helping the clan Honor's members to overcome the evil.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABe 0 550 0
+60 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand female 1000000
+0 0 giant 0
+#31506
+Honor Legionaire Guard~
+An Honor Hall Guard~
+An Honor Hall Guard stands here, ready to protect the hall.
+~
+This guard lives to defend Honor and its holdings.  He is trained
+and prepared to be a killing machine.  
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABTV 0 0 0
+52 15 50d10+11000 25d10+2250 4d10+22 thwack
+-20 -20 -20 -20
+CEFJNU AB 0 0
+stand stand male 0
+AHMV ABCDEF medium 0
+#0
+
+#OBJECTS
+#31500
+shelf pit free stuff~
+the "free stuff" shelf~
+You see a shelf lined with donated equipment.~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+#31501
+Haon Dor~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 6102 0
+0 100 0 P
+#31502
+drow~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 5100 0
+0 100 0 P
+#31503
+ancient thalos~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 5300 0
+0 100 0 P
+#31504
+sands sorrow~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 5001 0
+0 100 0 P
+#31505
+majestic fountain~
+a majestic fountain~
+A majestic fountain~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+majestic fountain~
+The fountain has several delicately crafted spouts from which it sprays
+its crystalline waters.  The excess water from the fountain spills over 
+a small waterfall and into a small stream that nourishes the flower garden.
+~
+#31506
+spa pool~
+a black marble spa~
+An enormous black marble spa is here, bubbling quietly.~
+Nature spring~
+furniture IORSTY P
+10 0 CFIL 100 100
+0 10000 0 P
+E
+pool spa~
+The spa bubbles soothingly, caressing away the days worries and troubles.
+This spa is easily large enough to fit several weary clan members in.  The
+spa itself is carved from a deep black marble quarried in the remote
+Blackspire Mountains.
+~
+#31507
+flower garden~
+a flower garden~
+~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+E
+flower garden~
+A pure silver rose glistens in the light as it phases through
+blue and purple hues.
+~
+#31508
+comfortable reading chair~
+a comfortable reading chair~
+A cushioned high-back oaken chair sits here in front of the fireplace.~
+oak~
+furniture 0 0
+3 0 CFIL 100 100
+0 100 0 P
+E
+comfortable reading chair~
+This comfortably padded chair beckons you to relax in the warm
+glow of the fire.
+~
+#31509
+wings dragonwing~
+a barbequed dragonwing~
+Someone dropped a tasty dragonwing here~
+food~
+food 0 A
+25 25 0 0 0
+0 30 1 P
+E
+wing~
+This tasty dragonwing is as dragon as buffalo wings are buffalo.
+~
+#31510
+corpse sid vicious~
+a corpse of Sid Vicious~
+There in the corner lies the Cryo'd Corpse of Sid Vicious.~
+flesh~
+furniture OTY P
+2 0 EHK 100 100
+0 10000 0 P
+#31511
+pyramids~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 8701 0
+0 100 0 P
+#31512
+city of thieves cot~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 6023 0
+0 100 0 P
+#31513
+atlantis~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 2318 0
+0 100 0 P
+#31514
+emerald forest~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 3521 0
+0 100 0 P
+#31515
+camelot~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 17676 0
+0 100 0 P
+#31516
+bar stool~
+a bar stool~
+A row of stools sit here, facing the bar.~
+leather~
+furniture OTY 0
+90 0 AEHK 100 100
+0 10 0 P
+E
+stool~
+Sturdy wooden stools sit here, facing the bar.
+~
+#31517
+red velvet rug~
+a red velvet rug~
+A red velvet rug lies here, rescued from Palibar's room of ancient Honor.~
+wood~
+furniture RY 0
+10 0 BEHK 100 100
+0 10000 0 P
+#31518
+nt new thalos~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 9506 0
+0 100 0 P
+#31519
+c 'create fountain' milk fountain~
+a milk fountain~
+A milk fountain stands here, serving milk to underage clanners.~
+~
+fountain GORY P
+0 0 'milk' 0 0
+0 5000 0 P
+#31520
+brains brain~
+the brains of %s~
+The splattered brains of %s are lying here.~
+meat~
+food 0 A
+10 10 0 0 0
+0 20 0 D
+#31521
+chilled monkey brains~
+chilled monkey brains~
+Chilled monkey brains sit here, looking enticing.~
+brains~
+food 0 A
+20 50 0 0 0
+0 10 50 D
+#31522
+blood reservoir~
+a blood reservoir~
+A blood reservoir sits here, keeping blood fresh within a cryogenesis weave.~
+~
+fountain GORY P
+0 0 'blood' 0 0
+0 5000 0 P
+#31523
+gold plaque~
+A {YGold{x Plaque~
+You see a {YGold{x Plaque here.~
+~
+furniture ABGI 0
+0 0 0 0 0
+0 -11072 0 P
+E
+plaque~
+Honor Was Built On Greatness, Hard Work , And Dedication
+In Memory of those who served with the highest Honor:
+IceBreaker's Quest 1 Winners: Sleeth, Wotan, Talron
+IceBreaker's Quest #2: Halo, Nakor
+Halo's Quest #1: Jonas, Arin, Ickypo
+~
+#31524
+elemental canyon ~
+a swirling vortex~
+~
+~
+portal R P
+0 0 0 9209 0
+0 100 0 P
+#31525
+bottle fine elvish wine~
+a bottle of fine elvish wine~
+A bottle of fine elvish wine is here to drink.~
+glass~
+drink N AO
+200 200 'elvish wine' 0 0
+0 10 100 P
+E
+bottle fine elvish wine~
+This bottle of excellent green elvish wine is far older than you.  You 
+suspect it was worth every penny paid for it.  It's nicely chilled,
+just right for drinking.
+~
+#31526
+bottle vodka~
+a bottle of vodka~
+A bottle of Boinga's finest vodka lies here.~
+glass~
+drink 0 AO
+100 100 'vodka' 0 0
+0 10 400 P
+#31527
+cup demiser blood~
+a cup of Demiser's blood~
+A cup of dark crimson blood is here.~
+glass~
+drink 0 AO
+50 50 'blood' 0 0
+0 5 500 P
+#31528
+Pit of useful stuff~
+A Pit of useful stuff~
+A pit of useful stuff for clanmates is here.~
+Marble~
+container Y 0
+10000 0 0 1000 100
+0 0 0 P
+#31529
+Flaming wrath of Honor~
+a Flaming Wrath of {CHonor{x~
+Wrath of Honor lies here sizzling.~
+iron~
+weapon HMPTUZd AN
+mace 5 8 pound I
+52 30 6500 P
+A
+19 4
+A
+13 20
+A
+0 0
+#0
+
+#ROOMS
+#31500
+The Path to Honor~
+As you approach a large iron gate, a weathered old man wanders out of the
+guardhouse to greet you.  Before you, a brick path makes its way up a 
+hill, lined with trees as old as the city of Midgaard itself and providing
+a pleasant shade from the hot summer sun.  You lift your eyes to the end of
+the path and see the stone steps leading to the large entrance of the hall
+of the clan Honor, its foundations firmly laid upon a fortified hill.  Four
+large towers reach upward from the corners of the stone structure.  The
+strength eminating from the fortress encourages you, reminding you of the
+many legendary men and women of Honor who fought to defend their clan;
+the clan you now call your own.
+~
+0 DY 0
+D1
+Exit ~
+honor~
+24643 0 25000
+D2
+Exit ~
+door~
+16384 0 31520
+D4
+Exit ~
+door~
+16384 0 31501
+S
+#31501
+The Patio~
+A cool breeze dances refreshingly across your face as you enter the patio.
+Thick slabs of blue-green marble serve as the floor and ceiling of this
+open area.  A series of exquisitely carved black columns support the
+delicately arched ceiling.  To the left is a small enclosed area for 
+changing and to the right is an enormous black marble spa.
+~
+0 CDY 0
+H 300 M 300
+D0
+Exit ~
+door~
+16384 0 31504
+D1
+Exit ~
+door~
+16385 0 31503
+D3
+Exit ~
+door~
+16384 0 31502
+D5
+Exit ~
+door~
+16384 0 31500
+E
+pillars columns~
+These massive columns are supporting the tremendous ceiling.  Thousands
+of hours were spend by master artisans to engrave the detailed scenes
+and events from Clan Honor's history.
+~
+E
+changing area~
+Behind the screen is the changing area.  There are hooks to hang
+belongings on and a small bench.  It is slightly cramped when its
+full of equipment that has been abandoned in favor of a swimsuit
+or pair of swimming trunks.
+~
+S
+#31502
+The Comissary~
+You enter the comissary of Honor Hall.  Behind the counter, a plump
+halfling is busy arranging the items on the shelves.  He takes great
+pride in keeping the area impeccably clean.  You wander towards the
+shelf marked "free stuff" and look through the items donated by the
+members of your clan.  Your stomach growls as you smell the famous
+barbequed dragonwings cooking on the grill.
+~
+0 DY 0
+D1
+Exit ~
+door~
+16384 0 31501
+D4
+Exit ~
+door~
+16384 0 31508
+S
+#31503
+Hall of Forgotten Lore~
+Books and more books, books everywhere, lining the walls from ceiling
+to floor.  Numerous landings and spiral staircases with heavy oaken
+bannisters allow you to browse the seemingly infinite selection of
+tomes stored in this rectangular hall.  As you wander about, you sense
+a vague feeling of magic permeating the air.  Oddly enough, there is
+not a speck of dust to be found.  In the centers of the shorter north
+and south walls are massive fireplaces that drive the chill from your
+bones.
+~
+0 CDY 0
+D0
+Exit ~
+door~
+16384 0 31517
+D1
+Exit ~
+door~
+16384 0 31516
+D3
+Exit ~
+door~
+16385 0 31501
+D4
+Exit ~
+door~
+16384 0 31509
+S
+#31504
+The Portal Room~
+You see before you a room filled made of mirrored walls...
+the light reflecting almost blinding, yet you feel calm.
+As you look for your reflection you notice these are not mirrors at all.
+For as you look you believe what you see are distant lands!
+ 
+ 
+There is a small sign on the wall.
+~
+0 DY 0
+D0
+Exit ~
+door~
+16384 0 31505
+D1
+Exit ~
+door~
+16385 0 25000
+D2
+Exit ~
+door~
+16384 0 31501
+E
+sign~
+Available Destinations
+ 
+Sands of Sorrow     "enter sands"
+Haon'Dor            "enter haon"
+Drow City           "enter drow"
+Ancient Thalos      "enter ancient" "enter thalos"
+City of Thieves     "enter thieves" "enter city"
+Pyramids            "enter pyramid"
+Atlantis            "enter atlantis"
+Camelot             "enter Camelot"
+Emerald Forest      "enter emerald"
+New Thalos          "enter nt"      "enter new"
+Elemental Canyon    "enter elemental"
+~
+S
+#31505
+The War Room~
+You have entered the Council Chambers of Honor
+ 
+As you look around you see a magnificent oval table, surrounded by
+solid walnut chairs. You begin sense a feeling of magical beings
+surrounding the table,  your eyes blur over and as you rub them clear you
+can see the faint outline of images sitting in many of the chairs.  The
+images take on a personality some you may recognize others you will
+not, but you feel as though they are the aura of all the former lords and
+knights that made this clan what it is. If the sensations scare you then
+you don't have what it takes to sit at the table of greatness.
+~
+0 DY 0
+D2
+Exit ~
+door~
+16384 0 31504
+S
+#31506
+Stylee's Shag Pit ~
+WHOOOAAAA!!!!!
+ 
+You are blinded by flashing lights of all colors!!  Everywhere you look
+there are people partying.  Laughter and Music fill your ears as the
+waitress in a way to short skirt gives you a glass of champagne.  When
+your senses come back to you, you notice that everyone looks like they
+are from the swinging sixties.   People wearing suede, and bellbottoms.  In
+your head your thinking one thing,  *who could throw such a Amazing
+Party??* then as a man in a light blue suede tux comes up to you,
+you know the answer.  He greets you with Hey Baby you look smashing!!
+Then as he gets close to you start to feel the sex vibe take affect on you,  
+OOOOHHHH BEHAVE!!!!!
+ 
+Welcome to Stylee's Shag Pit Baby!!!!
+~
+0 CDY 0
+D5
+Exit ~
+door~
+16384 0 31509
+S
+#31507
+Stymie's Room~
+You have walked into a room that appears to be a shrine of punk rock. As
+you look around, you see memorabilia from some of the greatest punk
+bands known to man. There are autographed billboards and fliers from
+bands such as the Sex Pistols, The Ramones, The Misfits, and Generation
+X to name just a few. As you walk further into this sanctuary, you hear
+a strange sound emanating in the air. You suddenly feel the urge to slam
+dance as the sounds take control of your mind.
+ 
+You quickly regain your composure and continue exploring this strange
+and unique abode. As you look further into the room, you come across a
+ghastly sight. You swear it can't be but there is no mistaking it! You
+see this thing in the corner and you scream and run for the door to tell
+everyone of the horrors that lies beyond these doors. You are asked what
+the most frightening thing you saw was, to which you reply "In the
+corner was... was the most horrifying thing I ever saw. It was.... It
+was......."
+~
+0 CDKY 0
+D0
+Exit ~
+door purple mohawk~
+16387 0 31508
+S
+#31508
+Marble Stairs~
+This twisting set of dark green marble slabs and the finely etched onyx
+hand rails seem to carry your weary feet up towards your awaiting chamber
+almost effortlessly. It is really a shame you are too intent on your destination
+to admire the heart and soul the master craftsmen embued in their work.
+~
+0 DY 0
+D0
+Exit ~
+door~
+16384 0 31510
+D2
+Exit ~
+door purple mohawk~
+16387 0 31507
+D3
+Exit ~
+door~
+16384 0 31518
+D4
+Exit ~
+door~
+16384 0 31512
+D5
+Exit ~
+door~
+16384 0 31502
+E
+door~
+The purple mohawk on the door tells you that you are at the entrance to
+Stymie's Room.
+~
+E
+purple~
+The purple mohawk on the door tells you that you are at the entrance to
+Stymie's Room.
+~
+E
+mohawk~
+The purple mohawk on the door tells you that you are at the entrance to
+Stymie's Room.
+~
+S
+#31509
+Marble Stairs~
+This twisting set of dark green marble slabs and the finely etched onyx
+hand rails seem to carry your weary feet up towards your awaiting chamber
+almost effortlessly. It is really a shame you are too intent on your destination
+to admire the heart and soul the master craftsmen embued in their work.
+~
+0 CDY 0
+D4
+Exit ~
+door~
+16384 0 31506
+D5
+Exit ~
+door~
+16384 0 31503
+S
+#31510
+Ravenna's Loft~
+You enter a cool, dark stone room, high on the towers northern face.  A
+great stone window frames the blue spires of distant mountain tops and
+far away, the sparkle of the sea.  The room is piled with armor, swords,
+keepsakes from hundreds of encounters and friendships.  A sense of
+sadness strikes you, these items once so valued by their owners now
+forgotten in this remote eyrie.
+ 
+A tiny wooden door leads away to the east, but, alas, you lack the key.
+~
+0 DY 0
+D1
+Exit ~
+door~
+16384 0 31511
+D2
+Exit ~
+door~
+16384 0 31508
+S
+#31511
+A cold and distant shore.~
+You stand atop a rolling dune, the last marches of deep forest at your
+back.  Before you lies the Dragon Sea, cold and grey under the storm.
+Sheets of icy rain drift across the waves and away to the north a
+lighthouse flashes its warning beacon across the sea.
+ 
+The beach is deserted, but far far away you sense rather than hear the
+sound of bells, chiming a pattern above the crash of the storm.  It is the
+Rainsong, the sea elves' keen lament.  You listen enchanted, until at last
+the pattern fades and is lost in the wailing of the gulls.
+~
+0 CJTY 0
+D3
+Exit ~
+door~
+16384 0 31510
+S
+#31512
+Marble Stairs~
+This twisting set of dark green marble slabs and the finely etched onyx
+hand rails seem to carry your weary feet up towards your awaiting chamber
+almost effortlessly. It is really a shame you are too intent on your destination
+to admire the heart and soul the master craftsmen embued in their work.
+~
+0 DY 0
+D0
+Exit ~
+door~
+16384 0 31515
+D2
+Exit ~
+door~
+16387 0 31513
+D3
+Exit ~
+door~
+16384 0 31514
+D4
+Exit ~
+door~
+16384 0 31519
+D5
+Exit ~
+door~
+16384 0 31508
+E
+door~
+The purple mohawk on the door tells you that you are at the entrance to
+Stymie's Room.
+~
+E
+purple~
+The purple mohawk on the door tells you that you are at the entrance to
+Stymie's Room.
+~
+E
+mohawk~
+The purple mohawk on the door tells you that you are at the entrance to
+Stymie's Room.
+~
+S
+#31513
+Sencyth's Tower~
+Sencyth's Tower, open to all, whom prove to be honorable.
+From this tower, you can see far into boinga, the forests,
+waterfalls, stars at night, sunsets and sunrises.
+~
+0 CDKY 0
+D0
+Exit ~
+door~
+16387 0 31512
+S
+#31514
+Dlanod's Room~
+Welcome to Dlanods room as you look around at the genral clutter
+of potions, bats heads, and strange spell ingredents,
+you notice a few well crafted weapons, and amulets.
+the large picture windows, and the view of boinga is astounding.
+As you look closer you think you can see someone down there!
+Why yes you can!! it's that misarable bastard you been trying to kill!!!
+Well what are you doing here in my stuff!!!
+GO KILL THAT FOOL!!!!!!
+~
+0 DY 0
+D1
+Exit ~
+door~
+16384 0 31512
+S
+#31515
+Nyaxtor's Lair~
+You step into a seemingly dank and lifeless cavern.
+ 
+Soft and soulful jazz music eminates from the walls. You hear a voice from
+somewhere in the dark back of the cave say "Hey baby, come on back here and
+I'll show you a good time,".  Taking this unknown voice up on its offer ,
+you step cautiously towards its source.  Suddenly a lava lamp lights up and
+spreads its groovy light throughout the cave.  The light reveals what looks
+like a really nifty bead curtain.  You part the beads and enter the hidden
+room. The floor is carpeted with a very hip shag rug.   Sitting temptingly
+on a bean bag chair is a youthful and virile looking silver dragon.  He
+extends a claw and pulls you down into his lap, tail thumping happily on the
+floor.  "Welcome to the Lair o' Love, baby," he says with a devilish grin...
+~
+0 DTY 0
+D2
+Exit ~
+door~
+16384 0 31512
+E
+owner~
+Carved into the rock of the cave is this message...
+Nyaxtor and Sheeana forever
+~
+S
+#31516
+Honor's {WAdvanced{x Magelab~
+A feeling of old overwhelms you as you enter this room.  Various aromas
+both fill and excite your senses.  Magical books line the walls in a
+disorder that actually has some meaning to it.
+~
+0 CD 13
+D3
+Exit ~
+door~
+16384 0 31503
+S
+#31517
+Honor Clan Bar ~
+The sound of happy clansmen, toasting thier victories, echos through
+this room.  A giant fireplace roars at the end of the room, with
+trophies of victories past adorning the walls.  Young clansmen boast of
+success to come, and glory to win; older veterans just sit back and
+smile at them, nodding with wisdom.
+ 
+~
+0 CDSY 0
+D2
+Exit ~
+door~
+16384 0 31503
+S
+#31518
+Sleeth's Hideout~
+You have entered a secret alcove in Honor hall...this is the lair of
+Sleeth, dragon rogue.  Past trophies adorn the walls, and a small hoard
+is piled in the corner, glittering softly.
+~
+0 DJSTY 0
+D1
+Exit ~
+door~
+16384 0 31508
+S
+#31519
+Den of NyteWolf~
+As you enter the Den of NyteWolf a bitter cold blast almost knocks you over.
+Regaining your composure you your eyes begin to strain to see in the dim light 
+emanating from two torches on the far wall.
+Throughout the the dark you can view the furs from the many kills strewn about 
+to a make crude carpet. It is obvious this Yinn has been battle tested. You hav
+e an overwhelming feeling of saftey in these walls.
+You know that this one can be trusted and will always be by your side.
+ 
+~
+0 DSY 0
+D5
+Exit ~
+door~
+16384 0 31512
+S
+#31520
+The Panic Room~
+The room is small and tidy. Just and barely just enough
+room for few members of the clan to run into when huge
+enemy attacks their homehall and they have no way to
+help their guards. There is no windows or exits other
+than the one controlled from this room, to prevent 
+anyone entering without permission. There is source
+of water and magic can be used to create food for the
+ones hiding. This is place you might need to spend 
+a long time when enemy troops take control of your
+hall. 
+~
+0 CDK 0
+C honor~
+D0
+Exit ~
+door~
+16384 0 31500
+D2
+Exit ~
+door~
+16384 0 3302
+E
+~
+Generic extended description.
+~
+S
+#0
+
+#RESETS
+M 0 31500   1 31502  1	* The shopkeeper
+G 1 31509  -1     	*   a barbequed dragonwing
+G 1 3292  -1     	*   a potion of true sight
+G 1 3291  -1     	*   a potion of flying
+G 1 3289  -1     	*   a potion of armor
+G 1 3287  -1     	*   a potion of cure blindness
+G 1 3286  -1     	*   a bottle of antidote
+G 1 3284  -1     	*   a potion of cure serious wounds
+G 1 3283  -1     	*   a potion of cure light wounds
+G 1 3282  -1     	*   a potion of divine protection
+G 1 3281  -1     	*   a potion of sanctuary
+G 1 3241  -1     	*   a yellow potion of see invisible
+G 1 3290  -1     	*   a potion of negation
+G 1 3242  -1     	*   a scroll of recall
+G 1 3240  -1     	*   a scroll of identify
+G 1 3238  -1     	*   a buffalo water skin
+G 1 3288  -1     	*   a vial of holy water
+G 1 3032  -1     	*   a bag
+O 0 31500 100 31502	* the "free stuff" shelf
+O 0 31508 100 31503	* a comfortable reading chair
+O 0 31523 100 31503	* A {YGold{x Plaque
+O 0 31510 100 31507	* a corpse of Sid Vicious
+O 0 31517 100 31518	* a red velvet rug
+D 0 31502   1 16384	* The Comissary east
+D 0 31502   4 16384	* The Comissary up
+D 0 31503   0 16384	* Hall of Forgotten Lore north
+D 0 31503   1 16384	* Hall of Forgotten Lore east
+D 0 31503   3 16385	* Hall of Forgotten Lore west
+D 0 31503   4 16384	* Hall of Forgotten Lore up
+D 0 31505   2 16384	* The War Room south
+D 0 31506   5 16384	* Stylee's Shag Pit  down
+D 0 31507   0 16387	* Stymie's Room north
+D 0 31508   0 16384	* Marble Stairs north
+D 0 31508   2 16387	* Marble Stairs south
+D 0 31508   3 16384	* Marble Stairs west
+D 0 31508   4 16384	* Marble Stairs up
+D 0 31508   5 16384	* Marble Stairs down
+D 0 31509   4 16384	* Marble Stairs up
+D 0 31509   5 16384	* Marble Stairs down
+D 0 31510   1 16384	* Ravenna's Loft east
+D 0 31510   2 16384	* Ravenna's Loft south
+D 0 31511   3 16384	* A cold and distant shore. west
+D 0 31512   0 16384	* Marble Stairs north
+D 0 31512   2 16387	* Marble Stairs south
+D 0 31512   3 16384	* Marble Stairs west
+D 0 31512   4 16384	* Marble Stairs up
+D 0 31512   5 16384	* Marble Stairs down
+D 0 31513   0 16387	* Sencyth's Tower north
+D 0 31514   1 16384	* Dlanod's Room east
+D 0 31515   2 16384	* Nyaxtor's Lair south
+D 0 31516   3 16384	* Honor's {WAdvanced{x Magelab west
+D 0 31518   1 16384	* Sleeth's Hideout east
+D 0 31519   5 16384	* Den of NyteWolf down
+M 0 31502   1 31517  1	* the Honor bartender
+G 1 31527  -1     	*   a cup of Demiser's blood
+G 1 31525  -1     	*   a bottle of fine elvish wine
+G 1 3001  -1     	*   a bottle of beer
+G 1 4319  -1     	*   a bottle of Rebecca's Icewine
+G 1   30  -1     	*   chilled monkey brains
+G 1 31526  -1     	*   a bottle of vodka
+O 0 31522 100 31517	* a blood reservoir
+O 0 31516 100 31517	* a bar stool
+O 0 31519 100 31517	* a milk fountain
+D 0 31517   2 16384	* Honor Clan Bar  south
+O 0 31524 100 31504	* a swirling vortex
+O 0 31511 100 31504	* a swirling vortex
+O 0 31515 100 31504	* a swirling vortex
+O 0 31514 100 31504	* a swirling vortex
+O 0 31513 100 31504	* a swirling vortex
+O 0 31512 100 31504	* a swirling vortex
+O 0 31501 100 31504	* a swirling vortex
+O 0 31502 100 31504	* a swirling vortex
+O 0 31503 100 31504	* a swirling vortex
+O 0 31504 100 31504	* a swirling vortex
+O 0 31518 100 31504	* a swirling vortex
+D 0 31504   0 16384	* The Portal Room north
+D 0 31504   1 16385	* The Portal Room east
+D 0 31504   2 16384	* The Portal Room south
+M 0 31503   2 31501  2	* An Honor Hall Guard
+M 0 31503   2 31501  2	* An Honor Hall Guard
+O 0 31505 100 31501	* a majestic fountain
+O 0 31506 100 31501	* a black marble spa
+O 0 31507 100 31501	* a flower garden
+D 0 31501   0 16384	* The Patio north
+D 0 31501   1 16385	* The Patio east
+D 0 31501   3 16384	* The Patio west
+D 0 31501   4 16384	* The Patio up
+D 0 31501   5 16384	* The Patio down
+M 0 31505   1 31520  1	* The hero of Light
+O 0 31506 100 31520	* a black marble spa
+O 0 31505 100 31520	* a majestic fountain
+D 0 31520   5 16384	* The Panic Room down
+M 0 31506   1 31500  1	* An Honor Hall Guard
+M 0 31501   1 31500  1	* The gate guard
+D 0 31500   1 24643	* The Path to Honor east
+D 0 31500   2 16384	* The Path to Honor south
+D 0 31500   4 16384	* The Path to Honor up
+S
+
+#SHOPS
+31500 10  0  0  0  0 	 500 100 	 0 23 	* The shopkeeper
+31502  0  0  0  0  0 	 110 100 	 0 23 	* the Honor bartender
+31505  9  5 11 33 32 	 100  10 	 0 23 	* The hero of Light
+0
+
+#SPECIALS
+M 31501 spec_cast_adept     	* The gate guard
+M 31503 spec_honor_guard    	* An Honor Hall Guard
+M 31504 spec_janitor        	* Jones the janitor
+M 31506 spec_honor_guard    	* An Honor Hall Guard
+S
+
+#$

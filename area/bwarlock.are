@@ -1,0 +1,60 @@
+#AREA
+/mud/moosehead/area/bwarlock.are~
+bwarlock~
+{ All } MHS     Warlock Branch Halls~
+26000 26000
+
+#MOBILES
+#26000
+Warlock Hall Guard~
+A Warlock Hall Guard~
+A Warlock Hall Guard stands here defending the hall
+~
+This guard lives to defend Warlock.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABTV 0 0 0
+40 15 15d10+4000 25d10+2250 3d12+14 pound
+-1 -1 -1 -1
+CEFJNU AB 0 0
+stand stand male 0
+AHMV ABCDEF medium 0
+#0
+
+#OBJECTS
+#0
+
+#ROOMS
+#26000
+Warlock Branch Hall~
+If you can read this, it means your clan leader has not submitted
+a new description for this room.  
+~
+0 CDNY 0
+D1
+Exit ~
+door~
+16385 0 1326
+D2
+Exit ~
+warlock~
+24643 0 31900
+S
+#0
+
+#RESETS
+M 0 26000   1 26000  1	* A Warlock Hall Guard
+D 0 26000   1 16385	* Warlock Branch Hall east
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 26000 spec_warlock_guard  	* A Warlock Hall Guard
+S
+
+#$

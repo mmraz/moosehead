@@ -1,0 +1,116 @@
+#AREA
+../newareas/braxen1.are~
+braxen1~
+{ All }         braxen1~
+18500 18501
+
+#MOBILES
+#18500
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+(null)~
+(null)~
+(null)~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#18501
+Crazy Dog Thing~
+A crazy dog thing~
+A crazy dog thing, which is quite crazy
+~
+Generic description.
+Thats good enough
+~
+rabbit~
+(null)~
+(null)~
+(null)~
+ABFQTa BCDEFH 1000 0
+51 100 2500d2500+1 0d0+200 10d20+40 flame
+-40 -40 -40 -40
+BCDEKNU ABCHIKLM 0 JP
+rest rest none 100
+HMb B giant 0
+F off H
+F par AHJK
+#0
+
+#OBJECTS
+#18500
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#18501
+An Awesome Sword~
+An Awesome Sword~
+An Awesome Sword, ready to slice your head off.~
+Wood~
+weapon AB AN
+axe 5 10 stab C
+5 50 50000000 P
+#0
+
+#ROOMS
+#18500
+Braxen's Lair~
+You enter into a room filled with naked people. Ack, no girls. Run away.
+Oh wait, that's just Braxen, sitting alone, naked. What a wierdo.
+~
+0 0 3
+D1
+Exit ~
+Gate to braxen's Kickass lair~
+24679 30057 18501
+E
+Tree Rock~
+Yep, its a tree. But wait, thats a rock. Its a tree-rock?
+~
+S
+#18501
+1 Braxen's Lair~
+Braxens lair is way cool
+you could not be here unless you are way cool
+if you are here, and suck, like alot of people, you will die
+because the coolness level is just way to high for your mortal existance
+~
+0 0 14
+H 400 M 1000
+C demise~
+D3
+Exit ~
+Gate to braxen's Kickass lair~
+24679 30057 18500
+E
+Braxen~
+If you are reading this sign, your cool enough to be here.
+yeah.. thats it.
+~
+S
+#0
+
+#RESETS
+D 0 18501   3 24679	* 1 Braxen's Lair west
+M 0 18501   1 18500  1	* A crazy dog thing
+E 1 18501  -1   16	*   An Awesome Sword
+D 0 18500   1 24679	* Braxen's Lair east
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

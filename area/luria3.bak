@@ -1,0 +1,2091 @@
+#AREA
+/mud/moosehead/area/luria3.are~
+Faerie Glenn~
+{05-10} Luria   Faerie Glenn~
+9800 9869
+
+#MOBILES
+#9800
+little pixie~
+a little pixie~
+A little pixie flies about, tending to the garden.
+~
+She is small enough that she can fit in the palm of your hand. Busily flying
+from one flower to another, she still seems serene in expression. 
+~
+faerie~
+~
+(null)~
+(null)~
+AG 0 1000 0
+6 0 2d7+80 30d9+100 1d6+2 magic
+0 0 0 -1
+EFHI 0 0 F
+stand stand female 0
+G 0 tiny 0
+F aff DFJ
+F res C
+F for HM
+F par BGI
+#9801
+tiny butterfly~
+a tiny butterfly~
+A tiny butterfly flutters about in the sunshine.
+~
+A gorgeous butterfly flitters here and there, gracefully dancing and escaping
+your attempts to catch it.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AGH T 1000 0
+5 0 2d6+70 2d6+50 1d6+1 beating
+0 0 0 0
+CFH 0 F EGHI
+stand stand none 2
+AOV ACDEFHKP tiny 0
+#9802
+busy bumblebee bee~
+a busy bumblebee~
+A busy bumblebee buzzes between the begonias.
+~
+A fuzzy bumblebee looks very busy collecting pollen. It probably won't attack
+you if you don't come after it.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AGH T 1000 0
+7 2 2d7+80 2d6+50 1d7+2 sting
+0 0 0 0
+DFH 0 FL EGHIKR
+stand stand none 0
+AO ACDEFHKP tiny 0
+#9803
+a spotted ladybug~
+a spotted ladybug~
+A spotted ladybug nibbles on some leaves.
+~
+Black spots decorate the ladybug's beautiful red shell. It's so tiny that
+you barely notice it.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AGH T 1000 0
+6 0 2d7+80 2d6+50 1d7+1 bite
+0 0 0 0
+CFH 0 G EHIK
+stand stand none 0
+AO ACDEFHKP tiny 0
+#9804
+queen bee~
+The Queen Bee~
+The Queen Bee buzzes quietly here, guarding her nest.
+~
+Her Royal Highness waits at the hive for her drones to return. She crawls
+about the hive, helping to take care of her young and tasting the honey that
+they've produced. Only giving you a passing glance, it looks as if she won't
+harm you as long as you don't harm her.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABG 0 1000 0
+8 0 2d7+121 0d0+0 1d7+3 sting
+0 0 0 1
+DEFHK 0 GL IKR
+stand stand female 5
+AHO ABCDEFP small 0
+#9805
+little nymph child~
+a little nymph child~
+A little nymph child plays in the trees.
+~
+What a curious little nymph child! It darts about through the branches 
+without a care, wings a-flutter and laughs echoing in the leaves.
+~
+faerie~
+(null)~
+(null)~
+(null)~
+ABHR 0 500 0
+7 0 2d7+90 3d9+100 1d8+1 magic
+0 0 0 0
+FIN 0 0 MQ
+sit sit female 0
+0 P tiny 0
+F aff DFJ
+F vul E
+#9806
+fae child~
+a fae child~
+A fae child flies up to you and observes you with curious eyes.
+~
+The tiny child flutters its wings as it comes right up to your nose. Little
+sparkles fall all around it, and its wings shimmer with magic. It giggles 
+with a little magical laugh.
+~
+faerie~
+(null)~
+(null)~
+(null)~
+ACE 0 600 0
+6 0 2d7+70 1d9+100 1d7+1 magic
+4 4 4 3
+EFNU 0 0 B
+stand stand male 0
+0 P tiny 0
+F aff DFJ
+#9807
+red-breasted robin~
+a robin~
+A red-breasted robin hops along cheerfully, collecting bits and pieces for her nest.
+~
+You notice a little robin bobbing about in the grass and leaves as she 
+collects twigs and twine to make her nest. She is not afraid of you, nor
+anyone else here in the glen.
+~
+song bird~
+(null)~
+(null)~
+(null)~
+ABT V 800 0
+6 0 2d6+55 2d7+10 1d7+2 peck
+1 1 1 1
+E 0 0 F
+stand stand female 0
+H 0 small 0
+F for G
+F par HK
+#9808
+bluejay~
+a bluejay~
+A bluejay soars through the air, singing a happy song.
+~
+Twittering through the trees, the bluejay soars carefree in the magical glen.
+You can't help but notice how happy it is, and wish that you were just as 
+free of all responsibility. But alas, there are things to kill and levels to
+gain.
+~
+song bird~
+(null)~
+(null)~
+(null)~
+ABT V 800 0
+7 2 2d6+80 2d7+10 1d8+2 peck
+5 4 4 4
+E 0 0 F
+stand stand female 100
+H 0 small 0
+F for G
+F par HK
+#9809
+faerie~
+a faerie~
+A lovely faerie flies about, basking in the sunshine.
+~
+The faerie glows with magic. It is these wee folk who help to make this 
+glen an enchanted place. They are the guardians of this small forest.
+~
+faerie~
+(null)~
+(null)~
+(null)~
+ART 0 1000 0
+9 0 2d7+95 2d7+60 1d8+1 magic
+4 3 3 2
+EFHI 0 0 F
+stand stand female 200
+0 P small 0
+F aff DFJ
+F res C
+F for M
+F par BHI
+#9810
+Faerie Queen~
+The Faerie Queen~
+The Faerie Queen sits here quietly, watching you with serene and knowing eyes.
+~
+The more you gaze upon her, the more the beautiful Faerie Queen is able to
+enchant your heart. She is a pretty little thing, flowers of all colors
+woven into her hair, a long shimmering dress cloaking her body, her glittered
+silver wings resting behind her. The Faerie Queen is well-beloved in her
+kingdom, for she is wise and fair.
+~
+faerie~
+(null)~
+(null)~
+(null)~
+ABR H 1000 0
+12 0 2d9+140 2d10+150 1d10+5 magic
+0 0 0 -2
+EFHIK 0 0 L
+sit sit female 1500
+C P tiny 0
+F aff DFJT
+F res C
+F vul E
+F par GH
+#9811
+Faerie Guard~
+A faerie guard~
+A royal faerie guard stands here proudly, watching over the castle.
+~
+Although he is small and good-natured, this fellow has a fierce loyalty to
+his people and his queen. His attire is ironed and pressed, and his eyes 
+eyes are clear and ready. Better not to mess with him.
+~
+faerie~
+(null)~
+(null)~
+(null)~
+ABRT V 1000 0
+11 0 2d7+130 2d7+140 2d4+1 magic
+0 0 0 0
+DEFINRU 0 0 FI
+stand stand male 200
+0 P tiny 0
+F aff DFJT
+F res C
+F vul E
+#9812
+faerie servant~
+A faerie servant~
+A faerie servant flies about busily here, attending to his duties.
+~
+Dressed in uniform, this servant barely has a chance to glance at you before
+hurrying with the daily duties. 
+~
+faerie~
+(null)~
+(null)~
+(null)~
+ACR V 800 0
+9 0 2d6+100 2d6+110 1d7+2 magic
+2 2 2 1
+EFNU 0 0 FHI
+stand stand none 100
+0 P tiny 0
+F aff DFJT
+F res C
+#9813
+goldfish~
+a goldfish~
+A bored goldfish stares up at you as you swim by.
+~
+This goldfish is covered in bright orange-gold scales that glint in the
+sunshine. As brilliant as its appearance is, it is very bored with its
+mundane life here.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AHT b 500 0
+7 1 2d7+85 2d7+50 1d7+2 bite
+4 3 4 3
+CFU R 0 ACFHL
+stand stand none 150
+AHbc ADEFI small 0
+#9814
+guppy~
+a guppy~
+A guppy swims happily here, its tail waggling from side to side.
+~
+It's a guppy, what more do you want?!
+~
+unique~
+(null)~
+(null)~
+(null)~
+AHT b 400 0
+7 1 2d6+80 2d6+40 1d7+2 suction
+4 4 4 4
+CFMU R 0 CEFL
+stand stand none 0
+AHb ADEFIK tiny 0
+#9815
+colorful koi~
+a colorful koi~
+A colorful koi swims here, its white body covered in red and orange patches.
+~
+This Kohaku Koi looks up at you sweetly. It is a gentle and beautiful
+creature who would never dream of harming a soul.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ACHT b 850 0
+9 1 2d7+90 2d7+90 1d8+2 beating
+3 3 3 3
+EFNU R 0 FI
+stand stand none 300
+AHb ADEFIK small 0
+#9816
+dragonfly~
+a dragonfly~
+A lazy dragonfly hovers above the pond and looks for faerie playmates.
+~
+A brilliant emerald green, this dragonfly catches your attention with its
+bright metallic colors. It isn't much smaller than the wee folk of the glen,
+and can fit in the palm of your hand easily.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AHT T 700 0
+7 1 2d7+90 2d7+85 1d7+2 charge
+2 3 3 4
+EFU 0 0 IL
+stand stand none 100
+AHO ABCDEFKP tiny 0
+#0
+
+#OBJECTS
+#9800
+smooth white bench~
+a smooth white bench~
+A smooth white bench sits here, ready to ease your tired feet.~
+wood~
+furniture 0 0
+2 0 BEHK 100 100
+0 100 0 P
+#9801
+tree stump~
+a tree stump~
+An old tree stump is decaying here.~
+wood~
+container D 0
+20 AC 0 30 10
+0 100 0 P
+#9802
+acorn~
+an acorn~
+A squirrel has lost his treasure.~
+food~
+food ISY AO
+0 0 0 0 0
+4 1 0 P
+A
+19 1
+A
+31 1
+#9803
+bee hive~
+a bee hive~
+A bee hive is attached to one of the trees.~
+stuff~
+container D 0
+50 ACD 9805 30 0
+0 100 0 P
+#9804
+honey~
+honey~
+Some delicious-looking honey oozes here!~
+food~
+pill GSU A
+20 'cure light' '' '' ''
+5 1 0 P
+#9805
+piece honeycomb part~
+a piece of honeycomb~
+Part of the beehive has broken off here.~
+honeycomb~
+key 0 A
+0 0 0 0 0
+0 1 0 P
+#9806
+tiny crystal crown~
+a tiny crystal crown~
+A tiny crystal crown twinkles in the light.~
+crystal~
+clothing A AE
+0 0 0 0 0
+5 5 1000 P
+A
+20 1
+A
+3 1
+E
+tiny crystal crown~
+This tiny crown once belonged to the great Faerie Queen. She only wishes
+that you take good care of it.
+~
+#9807
+a kitten doll~
+a kitten doll~
+An adorable kitten doll has been left behind here by a fae child.~
+stuff~
+trash IY AO
+0 0 0 0 0
+3 8 550 P
+A
+18 -1
+A
+17 -1
+A
+32 2
+E
+doll~
+This silky-soft grey stuffed kitten doll looks up at you with big, glassy
+eyes. It has been abandoned by its owner ages ago, and it looks up at you
+longingly for a new home.
+~
+E
+kitten doll~
+This silky-soft grey stuffed kitten doll looks up at you with big, glassy
+eyes. It has been abandoned by its owner ages ago, and it looks up at you
+longingly for a new home.
+~
+#0
+
+#ROOMS
+#9800
+A small pathway~
+You can barely make out a path through the grass. A sense of magic fills the
+atmosphere. From the east, the wind brings a light perfume of flowers. And 
+maybe, just maybe, you can see little lights over there.
+~
+0 C 0
+D1
+Exit ~
+door~
+16384 0 9801
+D3
+Exit ~
+door~
+16384 0 6011
+S
+#9801
+A small pathway~
+You can barely make out a path through the grass. A sense of magic fills the
+atmosphere. From the east, the wind brings a light perfume of flowers. And 
+maybe, just maybe, you can see little lights over there.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9802
+D3
+Exit ~
+door~
+16384 0 9800
+S
+#9802
+A small pathway~
+The scent of flowers grows stronger, and you can see moving spots of light to
+the east. It seems to be a garden of some kind, with a tall white gazebo
+standing in the middle of it.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9803
+D3
+Exit ~
+door~
+16384 0 9801
+S
+#9803
+A Garden Pathway~
+The path is still fairly faint on the ground, but its edges are clearly
+defined by the flowers on either side of you. Sunlight pours onto the 
+flowers and your skin, making you feel at peace. Small creatures skitter 
+about happily in this magical garden.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9804
+D1
+Exit ~
+door~
+16384 0 9810
+D2
+Exit ~
+door~
+16384 0 9806
+D3
+Exit ~
+door~
+16384 0 9802
+S
+#9804
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9805
+D1
+Exit ~
+door~
+16384 0 9811
+D2
+Exit ~
+door~
+16384 0 9803
+S
+#9805
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9812
+D2
+Exit ~
+door~
+16384 0 9804
+S
+#9806
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9803
+D1
+Exit ~
+door~
+16384 0 9809
+D2
+Exit ~
+door~
+16384 0 9807
+S
+#9807
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9806
+D1
+Exit ~
+door~
+16384 0 9808
+D3
+Exit ~
+door~
+16384 0 9806
+S
+#9808
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9809
+D1
+Exit ~
+door~
+16384 0 9817
+D3
+Exit ~
+door~
+16384 0 9807
+S
+#9809
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9810
+D1
+Exit ~
+door~
+16384 0 9816
+D2
+Exit ~
+door~
+16384 0 9808
+D3
+Exit ~
+door~
+16384 0 9806
+S
+#9810
+A Garden Pathway~
+The path is still fairly faint on the ground, but its edges are clearly
+defined by the flowers on either side of you. Sunlight pours onto the 
+flowers and your skin, making you feel at peace. Small creatures skitter 
+about happily in this magical garden.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9811
+D1
+Exit ~
+door~
+16384 0 9815
+D2
+Exit ~
+door~
+16384 0 9809
+D3
+Exit ~
+door~
+16384 0 9803
+S
+#9811
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9812
+D1
+Exit ~
+door~
+16384 0 9814
+D2
+Exit ~
+door~
+16384 0 9810
+D3
+Exit ~
+door~
+16384 0 9804
+S
+#9812
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9813
+D2
+Exit ~
+door~
+16384 0 9811
+D3
+Exit ~
+door~
+16384 0 9805
+S
+#9813
+A Garden Pathway~
+The path is still fairly faint on the ground, but its edges are clearly
+defined by the flowers on either side of you. Sunlight pours onto the 
+flowers and your skin, making you feel at peace. Small creatures skitter 
+about happily in this magical garden.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9828
+D1
+Exit ~
+door~
+16384 0 9822
+D2
+Exit ~
+door~
+16384 0 9814
+D3
+Exit ~
+door~
+16384 0 9812
+S
+#9814
+A Garden Pathway~
+The path is still fairly faint on the ground, but its edges are clearly
+defined by the flowers on either side of you. Sunlight pours onto the 
+flowers and your skin, making you feel at peace. Small creatures skitter 
+about happily in this magical garden.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9813
+D1
+Exit ~
+door~
+16384 0 9821
+D2
+Exit ~
+door~
+16384 0 9815
+D3
+Exit ~
+door~
+16384 0 9811
+S
+#9815
+A White Gazebo~
+A lovely gazebo stands proudly in the middle of the garden. White gardenias
+creep up the trellis, and impatiens hang from the cupola. Although this spot
+isn't nearly as colorful as the surroundings, it stands as a point of purity,
+and provides a peaceful place for reflection and rejuvenation.
+~
+0 0 0
+H 125
+D0
+Exit ~
+door~
+16384 0 9814
+D1
+Exit ~
+door~
+16384 0 9820
+D2
+Exit ~
+door~
+16384 0 9816
+D3
+Exit ~
+door~
+16384 0 9810
+S
+#9816
+A Garden Pathway~
+The path is still fairly faint on the ground, but its edges are clearly
+defined by the flowers on either side of you. Sunlight pours onto the 
+flowers and your skin, making you feel at peace. Small creatures skitter 
+about happily in this magical garden.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9815
+D1
+Exit ~
+door~
+16384 0 9819
+D2
+Exit ~
+door~
+16384 0 9817
+D3
+Exit ~
+door~
+16384 0 9809
+S
+#9817
+A Garden Pathway~
+The path is still fairly faint on the ground, but its edges are clearly
+defined by the flowers on either side of you. Sunlight pours onto the 
+flowers and your skin, making you feel at peace. Small creatures skitter 
+about happily in this magical garden.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9816
+D1
+Exit ~
+door~
+16384 0 9818
+D3
+Exit ~
+door~
+16384 0 9808
+S
+#9818
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9819
+D1
+Exit ~
+door~
+16384 0 9827
+D3
+Exit ~
+door~
+16384 0 9817
+S
+#9819
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9820
+D1
+Exit ~
+door~
+16384 0 9826
+D2
+Exit ~
+door~
+16384 0 9818
+D3
+Exit ~
+door~
+16384 0 9816
+S
+#9820
+A Garden Pathway~
+The path is still fairly faint on the ground, but its edges are clearly
+defined by the flowers on either side of you. Sunlight pours onto the 
+flowers and your skin, making you feel at peace. Small creatures skitter 
+about happily in this magical garden.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9821
+D1
+Exit ~
+door~
+16384 0 9825
+D2
+Exit ~
+door~
+16384 0 9819
+D3
+Exit ~
+door~
+16384 0 9815
+S
+#9821
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9822
+D1
+Exit ~
+door~
+16384 0 9824
+D2
+Exit ~
+door~
+16384 0 9820
+D3
+Exit ~
+door~
+16384 0 9814
+S
+#9822
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9823
+D2
+Exit ~
+door~
+16384 0 9821
+D3
+Exit ~
+door~
+16384 0 9813
+S
+#9823
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 9824
+D3
+Exit ~
+door~
+16384 0 9822
+S
+#9824
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9823
+D2
+Exit ~
+door~
+16384 0 9825
+D3
+Exit ~
+door~
+16384 0 9821
+S
+#9825
+A Garden Pathway~
+The path is still fairly faint on the ground, but its edges are clearly
+defined by the flowers on either side of you. Sunlight pours onto the 
+flowers and your skin, making you feel at peace. Small creatures skitter 
+about happily in this magical garden.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9824
+D2
+Exit ~
+door~
+16384 0 9826
+D3
+Exit ~
+door~
+16384 0 9820
+S
+#9826
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9825
+D2
+Exit ~
+door~
+16384 0 9827
+D3
+Exit ~
+door~
+16384 0 9819
+S
+#9827
+A Faerie Garden~
+An abundance of flora thrives here. The scent is pleasant, and your eyes are
+even more pleased than your nose. A brilliant palette of flowers grow 
+everywhere: irises, petunias, magnolias, dahlias, tiger lilies, you name it.
+Busily tending the garden, little pixies give a faint smile to you and
+continue with their work.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9826
+D3
+Exit ~
+door~
+16384 0 9818
+S
+#9828
+To the glen~
+To the north is a circle of very tall trees. Sunlight pours into the circle
+like a gift from the gods. You can sense an even stronger presence of magic
+there, and your curiosity grows stronger as well.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 9829
+D2
+Exit ~
+door~
+16384 0 9813
+S
+#9829
+In a circle of trees~
+You are in a small valley, where a circle of trees surrounds you. The trees
+are very healthy and tall, and the leaves are as green as they would be on
+the best of summer days. They reach towards the heavens, and hum with a
+certain magic to them. Perhaps you should investigate these trees further.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 9830
+D1
+Exit ~
+door~
+16384 0 9834
+D2
+Exit ~
+door~
+16384 0 9828
+D3
+Exit ~
+door~
+16384 0 9835
+D4
+Exit ~
+door~
+16384 0 9836
+S
+#9830
+In a circle of trees~
+You are in a small valley, where a circle of trees surrounds you. The trees
+are very healthy and tall, and the leaves are as green as they would be on
+the best of summer days. They reach towards the heavens, and hum with a
+certain magic to them. Perhaps you should investigate these trees further.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 9831
+D1
+Exit ~
+door~
+16384 0 9832
+D2
+Exit ~
+door~
+16384 0 9829
+D3
+Exit ~
+door~
+16384 0 9833
+D4
+Exit ~
+door~
+16384 0 9839
+S
+#9831
+Amidst the trees~
+Oak, maple, pine, and birch grow strong here. There are so many trunks here
+that you can hardly count them. Just about all light is covered up by the
+leaves, and you'd have to return to the center of the trees in order to see
+the sunlight again.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 9830
+E
+s~
+~
+S
+#9832
+Amidst the trees~
+Oak, maple, pine, and birch grow strong here. There are so many trunks here
+that you can hardly count them. Just about all light is covered up by the
+leaves, and you'd have to return to the center of the trees in order to see
+the sunlight again.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 9834
+D3
+Exit ~
+door~
+16384 0 9830
+S
+#9833
+Amidst the trees~
+Oak, maple, pine, and birch grow strong here. There are so many trunks here
+that you can hardly count them. Just about all light is covered up by the
+leaves, and you'd have to return to the center of the trees in order to see
+the sunlight again.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 9830
+D2
+Exit ~
+door~
+16384 0 9835
+S
+#9834
+Amidst the trees~
+Oak, maple, pine, and birch grow strong here. There are so many trunks here
+that you can hardly count them. Just about all light is covered up by the
+leaves, and you'd have to return to the center of the trees in order to see
+the sunlight again.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 9832
+D1
+Exit ~
+door~
+16384 0 9860
+D3
+Exit ~
+door~
+16384 0 9829
+S
+#9835
+Amidst the trees~
+Oak, maple, pine, and birch grow strong here. There are so many trunks here
+that you can hardly count them. Just about all light is covered up by the
+leaves, and you'd have to return to the center of the trees in order to see
+the sunlight again.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 9833
+D1
+Exit ~
+door~
+16384 0 9829
+S
+#9836
+Flying in the trees~
+The leaves and branches form a perfect circle for you to fly through. There
+are faerie homes on either side of you, but you're not sure if you'll be 
+able to squeeze in them or not. The air here is very fresh, and the magic
+sends a sense of exhiliration through your veins.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9839
+D1
+Exit ~
+door~
+16384 0 9841
+D3
+Exit ~
+door~
+16384 0 9837
+D4
+Exit ~
+door~
+16384 0 9847
+D5
+Exit ~
+door~
+16384 0 9829
+S
+#9837
+A Faerie Home~
+From the little chairs to the little jugs, it feel as if you've come across
+a real live dollhouse. Everything here is well-crafted and very clean, as
+few possessions as they may have. Please don't forget to wipe your feet at
+the door... and don't break through the walls, large visitors!
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9836
+S
+#9838
+A Faerie Home~
+This home is particularly messy. The children have been bringing in all kinds
+of tidbits like feathers and pebbles and twigs. Tiny little footprints of
+dirt cover the floor, and the walls are smudged, too. The parents will sure
+be mad once they come home!
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9839
+S
+#9839
+Flying in the trees~
+The leaves and branches form a perfect circle for you to fly through. There
+are faerie homes on either side of you, but you're not sure if you'll be 
+able to squeeze in them or not. The air here is very fresh, and the magic
+sends a sense of exhiliration through your veins.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9840
+D2
+Exit ~
+door~
+16384 0 9836
+D3
+Exit ~
+door~
+16384 0 9838
+D4
+Exit ~
+door~
+16384 0 9844
+D5
+Exit ~
+door~
+16384 0 9830
+S
+#9840
+A Faerie Home~
+You can smell some kind of nut roasting above a tiny fire. It's very warm
+and inviting here, and extremely cozy. It's a lazy sort of day, just like
+every other, and the inhabitants of this home are only too happy to serve
+your needs.
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 9839
+S
+#9841
+A Faerie Home~
+Wow! Everything in here is so tiny! From the tiny beds to the tiny pictures
+on the wall, you wonder how it must be live here. Faeries don't seem to own
+a lot of possessions or furniture. You suspect it's because squirrels or 
+birds steal them.
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 9836
+S
+#9842
+A Faerie Home~
+Here is the home of a pair of newlyweds! The bed is covered in fresh white
+silk, and flowers and other gifts are set out on the table from the fabulous
+affair. On the wall, there is a portrait of the two faeries during the
+happiest moments of their lives. Pretty soon there will be even more little
+faeries running around!
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 9847
+S
+#9843
+A Faerie Home~
+Hm, this family happens to have a taste for oak wood. There's an oak table,
+oak chairs, oak headboards, oak cabinets... far more furniture than any
+faerie could ever need or want, but perhaps someone here takes a hobby to
+wood-carving. A faerie could carve out splendid furniture for an entire
+family with only half a branch.
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 9844
+S
+#9844
+Flying in the trees~
+The leaves and branches form a perfect circle for you to fly through. There
+are faerie homes on either side of you, but you're not sure if you'll be 
+able to squeeze in them or not. The air here is very fresh, and the magic
+sends a sense of exhiliration through your veins.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9843
+D2
+Exit ~
+door~
+16384 0 9847
+D3
+Exit ~
+door~
+16384 0 9845
+D4
+Exit ~
+door~
+16384 0 9848
+D5
+Exit ~
+door~
+16384 0 9839
+S
+#9845
+A Faerie Home~
+This home is completely barren. Perhaps the inhabitants have moved out, or
+passed away, but all that is left here is the skeleton of an empty bed. On
+one side of the house, there are twigs and bits of string accumulating, as 
+if a bird is trying to build its nest here.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9844
+S
+#9846
+A Faerie Home~
+Goodness gracious, it's busy here! Faeries, children and adult alike keep
+passing through here-- the door is open all the time. Most of the faeries
+here barely have time to notice yet another guest, but you are most 
+certainly welcome to what hospitality they can squeeze in.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9847
+S
+#9847
+Flying in the trees~
+The leaves and branches form a perfect circle for you to fly through. There
+are faerie homes on either side of you, but you're not sure if you'll be 
+able to squeeze in them or not. The air here is very fresh, and the magic
+sends a sense of exhiliration through your veins.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9844
+D1
+Exit ~
+door~
+16384 0 9842
+D3
+Exit ~
+door~
+16384 0 9846
+D5
+Exit ~
+door~
+16384 0 9836
+S
+#9848
+Above the trees~
+Here you are, above all of the trees! Everything below seems so very small,
+and the ants look like... well, ants. To the north, you see the outline of
+a beautiful white castle.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9849
+D5
+Exit ~
+door~
+16384 0 9844
+S
+#9849
+Entrance to the Faerie Castle~
+Just like a dream, a faerie castle sits up on the clouds as if it had been
+there since creation. The walls are pure white, and the trimmings are of a
+pale blue. You can see some faeries flying to and from the castle, their
+fluttering wings shining in the sunlight. It seems to be a friendly place,
+a welcoming one to any and all visitors.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9850
+D2
+Exit ~
+door~
+16384 0 9848
+S
+#9850
+Castle Hallway~
+You stand in a long white hallway. The floor is white as well, shining as
+thought it had just been mopped minutes ago. The walls are fairly bare, save
+for a few pieces of artwork and windows to the outside.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9858
+D1
+Exit ~
+door~
+16384 0 9851
+D2
+Exit ~
+door~
+16384 0 9849
+D3
+Exit ~
+door~
+16384 0 9857
+S
+#9851
+Castle Ballroom~
+Grand chandeliers hang from the ceiling, gorgeous satin curtains hang from
+the windows, and your heart hangs on the enchanting music that plays from
+no apparent source. The floor gleams and the air smells fresh. Everything 
+here calls for you to dance...
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9852
+D3
+Exit ~
+door~
+16384 0 9850
+S
+#9852
+Castle Hallway~
+You stand in a long white hallway. The floor is white as well, shining as
+thought it had just been mopped minutes ago. The walls are fairly bare, save
+for a few pieces of artwork and windows to the outside.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9853
+D2
+Exit ~
+door~
+16384 0 9851
+S
+#9853
+Castle Library~
+The room's walls have shelves upon shelves of tiny little books. Their pages
+are filled with the history of faeries, and knowledge of their arcane magic.
+Gorgeous polished tables have regular reads splayed out upon them, and the
+settees are all too comfortable. If you could read their language and sit
+upon their furniture like the faeries here could, you would most likely
+spend hours here.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 9852
+D3
+Exit ~
+door~
+16384 0 9854
+S
+#9854
+Castle Hallway~
+You stand in a long white hallway. The floor is white as well, shining as
+thought it had just been mopped minutes ago. The walls are fairly bare, save
+for a few pieces of artwork and windows to the outside.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9853
+D3
+Exit ~
+door~
+16384 0 9855
+D5
+Exit ~
+door~
+24579 0 9859
+S
+#9855
+Castle Kitchen~
+It's a busy place here, with faeries running about, cooking, cleaning,
+flying! Over to one side, you notice some of them preparing nectar, the 
+drink of the gods. It's perfect for folk of their size. In another area of
+the room, faeries prepare nuts and fruit, and in yet another, they are
+preparing some kind of meat. With lots of people to feed, the kitchen is
+a very lively and exciting place!
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9854
+D2
+Exit ~
+door~
+16384 0 9856
+S
+#9856
+Castle Hallway~
+You stand in a long white hallway. The floor is white as well, shining as
+thought it had just been mopped minutes ago. The walls are fairly bare, save
+for a few pieces of artwork and windows to the outside.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9855
+D2
+Exit ~
+door~
+16384 0 9857
+S
+#9857
+Castle Garden~
+Here is the Faerie Queen's special garden. It's rather small in comparison
+to the one below, but it's a pleasant place for the Queen (and any visitors)
+to stroll through. White roses grow in abundance, and the sunshine pours its
+warmth generously onto the petals. It is quiet here.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9856
+D1
+Exit ~
+door~
+16384 0 9850
+S
+#9858
+The Throne Room~
+The floor, walls, and columns all seem to be made of bright crystal that 
+shines in the sunlight. Seated majestically in the center of the tiny room
+is the Faerie Queen, a beautiful creature with enchanting eyes. This is her
+home, the domain over which she rules with a gentle and caring hand. She
+spends her days here in the glistening throne room while she deals with
+both important and mundane matters. For now, the castle and her little glen
+kingdom seem to be at peace.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 9850
+S
+#9859
+A Secret Stash~
+It seems that beneath the floor there is a hidden room. What you can make of
+it through the dust and gloom is that this was probably once a set of 
+servants' quarters, but it has long been out of use. Maybe something has
+been left behind here?
+~
+0 0 0
+D4
+Exit ~
+door~
+16384 0 9854
+S
+#9860
+A trail through the trees~
+The growth of trees isn't quite as thick here, and the gaps between them are
+enough to make a path. There isn't much wear on the ground here, as faeries
+usually fly, but visitors who walk through here have made something of a mark
+for you to tread upon.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 9861
+D3
+Exit ~
+door~
+16384 0 9834
+S
+#9861
+A little pond~
+You've come across a tranquil little pond that has a cool touch and a sweet
+taste. The gentle breeze creates tiny ripples that travel from one side of
+the pond to the other, the indentations in the water shimmering in the
+sunlight. The water is calm and clear, and you can see everything swimming
+below its surface.
+~
+0 0 6
+D0
+Exit ~
+door~
+16384 0 9866
+D1
+Exit ~
+door~
+16384 0 9862
+D3
+Exit ~
+door~
+16384 0 9860
+S
+#9862
+A little pond~
+You've come across a tranquil little pond that has a cool touch and a sweet
+taste. The gentle breeze creates tiny ripples that travel from one side of
+the pond to the other, the indentations in the water shimmering in the
+sunlight. The water is calm and clear, and you can see everything swimming
+below its surface.
+~
+0 0 6
+D0
+Exit ~
+door~
+16384 0 9865
+D1
+Exit ~
+door~
+16384 0 9863
+D3
+Exit ~
+door~
+16384 0 9861
+S
+#9863
+A little pond~
+You've come across a tranquil little pond that has a cool touch and a sweet
+taste. The gentle breeze creates tiny ripples that travel from one side of
+the pond to the other, the indentations in the water shimmering in the
+sunlight. The water is calm and clear, and you can see everything swimming
+below its surface.
+~
+0 0 6
+D0
+Exit ~
+door~
+16384 0 9864
+D3
+Exit ~
+door~
+16384 0 9862
+S
+#9864
+A little pond~
+You've come across a tranquil little pond that has a cool touch and a sweet
+taste. The gentle breeze creates tiny ripples that travel from one side of
+the pond to the other, the indentations in the water shimmering in the
+sunlight. The water is calm and clear, and you can see everything swimming
+below its surface.
+~
+0 0 6
+D0
+Exit ~
+door~
+16384 0 9869
+D2
+Exit ~
+door~
+16384 0 9863
+D3
+Exit ~
+door~
+16384 0 9865
+S
+#9865
+A little pond~
+You've come across a tranquil little pond that has a cool touch and a sweet
+taste. The gentle breeze creates tiny ripples that travel from one side of
+the pond to the other, the indentations in the water shimmering in the
+sunlight. The water is calm and clear, and you can see everything swimming
+below its surface.
+~
+0 0 6
+D0
+Exit ~
+door~
+16384 0 9868
+D1
+Exit ~
+door~
+16384 0 9864
+D2
+Exit ~
+door~
+16384 0 9862
+D3
+Exit ~
+door~
+16384 0 9866
+S
+#9866
+A little pond~
+You've come across a tranquil little pond that has a cool touch and a sweet
+taste. The gentle breeze creates tiny ripples that travel from one side of
+the pond to the other, the indentations in the water shimmering in the
+sunlight. The water is calm and clear, and you can see everything swimming
+below its surface.
+~
+0 0 6
+D0
+Exit ~
+door~
+16384 0 9867
+D1
+Exit ~
+door~
+16384 0 9865
+D2
+Exit ~
+door~
+16384 0 9861
+S
+#9867
+A little pond~
+You've come across a tranquil little pond that has a cool touch and a sweet
+taste. The gentle breeze creates tiny ripples that travel from one side of
+the pond to the other, the indentations in the water shimmering in the
+sunlight. The water is calm and clear, and you can see everything swimming
+below its surface.
+~
+0 0 6
+D1
+Exit ~
+door~
+16384 0 9868
+D2
+Exit ~
+door~
+16384 0 9866
+S
+#9868
+A little pond~
+You've come across a tranquil little pond that has a cool touch and a sweet
+taste. The gentle breeze creates tiny ripples that travel from one side of
+the pond to the other, the indentations in the water shimmering in the
+sunlight. The water is calm and clear, and you can see everything swimming
+below its surface.
+~
+0 0 6
+D1
+Exit ~
+door~
+16384 0 9869
+D2
+Exit ~
+door~
+16384 0 9865
+D3
+Exit ~
+door~
+16384 0 9867
+S
+#9869
+A little pond~
+You've come across a tranquil little pond that has a cool touch and a sweet
+taste. The gentle breeze creates tiny ripples that travel from one side of
+the pond to the other, the indentations in the water shimmering in the
+sunlight. The water is calm and clear, and you can see everything swimming
+below its surface.
+~
+0 0 6
+D2
+Exit ~
+door~
+16384 0 9864
+D3
+Exit ~
+door~
+16384 0 9868
+S
+#0
+
+#RESETS
+M 0 9801   1 9801  1	* a tiny butterfly
+M 0 9801   5 9813  2	* a tiny butterfly
+M 0 9801   5 9813  2	* a tiny butterfly
+M 0 9801   7 9821  1	* a tiny butterfly
+M 0 9800   8 9821  1	* a little pixie
+M 0 9801  14 9818  1	* a tiny butterfly
+M 0 9800   8 9818  1	* a little pixie
+M 0 9802   7 9811  1	* a busy bumblebee
+M 0 9801  20 9811  1	* a tiny butterfly
+M 0 9802   9 9810  1	* a busy bumblebee
+M 0 9801  20 9810  1	* a tiny butterfly
+M 0 9802  10 9820  1	* a busy bumblebee
+M 0 9800   8 9820  1	* a little pixie
+M 0 9801  20 9820  1	* a tiny butterfly
+M 0 9802  13 9809  1	* a busy bumblebee
+M 0 9801  20 9809  1	* a tiny butterfly
+M 0 9802  17 9802  1	* a busy bumblebee
+M 0 9801  20 9803  1	* a tiny butterfly
+M 0 9800   8 9803  1	* a little pixie
+M 0 9803   0 9804  1	* a spotted ladybug
+M 0 9800   8 9804  1	* a little pixie
+M 0 9802  17 9804  1	* a busy bumblebee
+M 0 9803   1 9805  1	* a spotted ladybug
+M 0 9801  20 9805  1	* a tiny butterfly
+M 0 9800   8 9805  1	* a little pixie
+M 0 9802  17 9805  1	* a busy bumblebee
+M 0 9803   2 9812  1	* a spotted ladybug
+M 0 9800   8 9812  1	* a little pixie
+M 0 9803   3 9814  1	* a spotted ladybug
+M 0 9800   8 9814  2	* a little pixie
+M 0 9800   8 9814  2	* a little pixie
+M 0 9802  17 9814  1	* a busy bumblebee
+M 0 9803   4 9824  1	* a spotted ladybug
+M 0 9800   8 9824  1	* a little pixie
+M 0 9802  17 9824  1	* a busy bumblebee
+M 0 9803   5 9823  1	* a spotted ladybug
+M 0 9801  20 9823  2	* a tiny butterfly
+M 0 9801  20 9823  2	* a tiny butterfly
+M 0 9802  17 9823  1	* a busy bumblebee
+M 0 9803   6 9822  1	* a spotted ladybug
+M 0 9800   8 9822  2	* a little pixie
+M 0 9800   8 9822  2	* a little pixie
+M 0 9802  17 9822  1	* a busy bumblebee
+M 0 9803   7 9825  1	* a spotted ladybug
+M 0 9801  20 9825  2	* a tiny butterfly
+M 0 9801  20 9825  2	* a tiny butterfly
+M 0 9803   8 9826  1	* a spotted ladybug
+M 0 9800   8 9826  2	* a little pixie
+M 0 9800   8 9826  2	* a little pixie
+M 0 9802  17 9826  1	* a busy bumblebee
+M 0 9803   9 9827  1	* a spotted ladybug
+M 0 9801  20 9827  1	* a tiny butterfly
+M 0 9802  17 9827  2	* a busy bumblebee
+M 0 9802  17 9827  2	* a busy bumblebee
+M 0 9803  12 9817  2	* a spotted ladybug
+M 0 9803  12 9817  2	* a spotted ladybug
+M 0 9800   8 9817  1	* a little pixie
+M 0 9802  17 9817  1	* a busy bumblebee
+M 0 9803  13 9808  1	* a spotted ladybug
+M 0 9801  20 9808  2	* a tiny butterfly
+M 0 9801  20 9808  2	* a tiny butterfly
+M 0 9803  14 9806  1	* a spotted ladybug
+M 0 9800   8 9806  2	* a little pixie
+M 0 9800   8 9806  2	* a little pixie
+M 0 9803  15 9807  1	* a spotted ladybug
+M 0 9801  20 9807  1	* a tiny butterfly
+M 0 9800   8 9807  1	* a little pixie
+M 0 9802  17 9807  1	* a busy bumblebee
+M 0 9802  18 9819  1	* a busy bumblebee
+M 0 9803  15 9819  1	* a spotted ladybug
+M 0 9800   8 9819  1	* a little pixie
+M 0 9800   8 9816  1	* a little pixie
+M 0 9801  20 9816  1	* a tiny butterfly
+D 0 9816   0 16384	* A Garden Pathway north
+D 0 9816   1 16384	* A Garden Pathway east
+D 0 9816   2 16384	* A Garden Pathway south
+D 0 9816   3 16384	* A Garden Pathway west
+D 0 9815   0 16384	* A White Gazebo north
+D 0 9815   1 16384	* A White Gazebo east
+D 0 9815   2 16384	* A White Gazebo south
+D 0 9815   3 16384	* A White Gazebo west
+O 0 9800 100 9815	* a smooth white bench
+M 0 9807   3 9832  2	* a robin
+M 0 9807   3 9832  2	* a robin
+M 0 9805   6 9832  1	* a little nymph child
+O 0 9801 100 9832	* a tree stump
+P 1 9802  -1 9801  1	*   an acorn
+D 0 9832   3 16384	* Amidst the trees west
+M 0 9807   4 9834  1	* a robin
+M 0 9805   6 9834  2	* a little nymph child
+M 0 9805   6 9834  2	* a little nymph child
+D 0 9834   3 16384	* Amidst the trees west
+M 0 9807   5 9835  1	* a robin
+M 0 9804   1 9835  1	* The Queen Bee
+G 1 9805  -1     	*   a piece of honeycomb
+O 0 9803 100 9835	* a bee hive
+P 1 9804  -1 9803  1	*   honey
+D 0 9835   1 16384	* Amidst the trees east
+M 0 9807   6 9833  1	* a robin
+M 0 9805   6 9833  2	* a little nymph child
+M 0 9805   6 9833  2	* a little nymph child
+D 0 9833   1 16384	* Amidst the trees east
+M 0 9807   7 9828  1	* a robin
+D 0 9828   0 16384	* To the glen north
+D 0 9828   2 16384	* To the glen south
+M 0 9807   8 9831  2	* a robin
+M 0 9807   8 9831  2	* a robin
+M 0 9805   6 9831  1	* a little nymph child
+D 0 9831   2 16384	* Amidst the trees south
+M 0 9808   1 9829  1	* a bluejay
+D 0 9829   0 16384	* In a circle of trees north
+D 0 9829   1 16384	* In a circle of trees east
+D 0 9829   2 16384	* In a circle of trees south
+D 0 9829   3 16384	* In a circle of trees west
+M 0 9808   2 9836  1	* a bluejay
+M 0 9809   1 9841  1	* a faerie
+M 0 9809   4 9839  2	* a faerie
+M 0 9809   4 9839  2	* a faerie
+M 0 9809   5 9840  1	* a faerie
+M 0 9809   6 9838  1	* a faerie
+M 0 9806   6 9838  1	* a fae child
+M 0 9809   8 9843  1	* a faerie
+M 0 9806   6 9843  2	* a fae child
+M 0 9806   6 9843  2	* a fae child
+M 0 9809   8 9844  1	* a faerie
+M 0 9808   4 9844  1	* a bluejay
+M 0 9809   9 9845  1	* a faerie
+M 0 9809  11 9842  2	* a faerie
+M 0 9809  11 9842  2	* a faerie
+M 0 9809  12 9846  1	* a faerie
+M 0 9806   6 9846  1	* a fae child
+M 0 9809  13 9847  1	* a faerie
+M 0 9808   4 9847  1	* a bluejay
+M 0 9809  14 9837  2	* a faerie
+M 0 9809  14 9837  2	* a faerie
+M 0 9806   6 9837  1	* a fae child
+M 0 9811   2 9849  2	* A faerie guard
+M 0 9811   2 9849  2	* A faerie guard
+D 0 9849   0 16384	* Entrance to the Faerie Castle north
+D 0 9849   2 16384	* Entrance to the Faerie Castle south
+M 0 9812   2 9850  2	* A faerie servant
+M 0 9812   2 9850  2	* A faerie servant
+D 0 9850   0 16384	* Castle Hallway north
+D 0 9850   1 16384	* Castle Hallway east
+D 0 9850   2 16384	* Castle Hallway south
+D 0 9850   3 16384	* Castle Hallway west
+M 0 9812   5 9851  1	* A faerie servant
+D 0 9851   0 16384	* Castle Ballroom north
+D 0 9851   3 16384	* Castle Ballroom west
+M 0 9812   6 9853  1	* A faerie servant
+D 0 9853   2 16384	* Castle Library south
+D 0 9853   3 16384	* Castle Library west
+M 0 9812   8 9854  2	* A faerie servant
+M 0 9812   8 9854  2	* A faerie servant
+D 0 9854   1 16384	* Castle Hallway east
+D 0 9854   3 16384	* Castle Hallway west
+M 0 9812  11 9855  3	* A faerie servant
+M 0 9812  11 9855  3	* A faerie servant
+M 0 9812  11 9855  3	* A faerie servant
+D 0 9855   1 16384	* Castle Kitchen east
+D 0 9855   2 16384	* Castle Kitchen south
+M 0 9812  12 9856  1	* A faerie servant
+D 0 9856   0 16384	* Castle Hallway north
+D 0 9856   2 16384	* Castle Hallway south
+M 0 9812  14 9857  2	* A faerie servant
+M 0 9812  14 9857  2	* A faerie servant
+D 0 9857   0 16384	* Castle Garden north
+D 0 9857   1 16384	* Castle Garden east
+M 0 9811   4 9858  2	* A faerie guard
+M 0 9811   4 9858  2	* A faerie guard
+M 0 9810   1 9858  1	* The Faerie Queen
+E 1 9806  -1    6	*   a tiny crystal crown
+D 0 9858   2 16384	* The Throne Room south
+O 0 9807 100 9859	* a kitten doll
+M 0 9815   2 9862  2	* a colorful koi
+M 0 9815   2 9862  2	* a colorful koi
+M 0 9814  10 9862  1	* a guppy
+M 0 9815   3 9863  1	* a colorful koi
+M 0 9813   7 9863  1	* a goldfish
+M 0 9814  10 9863  2	* a guppy
+M 0 9814  10 9863  2	* a guppy
+M 0 9815   9 9868  2	* a colorful koi
+M 0 9815   9 9868  2	* a colorful koi
+M 0 9813   7 9868  1	* a goldfish
+M 0 9816   1 9861  1	* a dragonfly
+M 0 9813   8 9861  1	* a goldfish
+M 0 9814  10 9861  1	* a guppy
+M 0 9816   2 9864  1	* a dragonfly
+M 0 9814  10 9864  2	* a guppy
+M 0 9814  10 9864  2	* a guppy
+M 0 9815  10 9864  1	* a colorful koi
+M 0 9816   3 9865  1	* a dragonfly
+M 0 9813   8 9865  2	* a goldfish
+M 0 9813   8 9865  2	* a goldfish
+M 0 9815  10 9865  1	* a colorful koi
+M 0 9816   4 9866  1	* a dragonfly
+M 0 9815  10 9866  1	* a colorful koi
+M 0 9814  10 9866  1	* a guppy
+M 0 9813   8 9866  1	* a goldfish
+M 0 9816   5 9867  1	* a dragonfly
+M 0 9814  10 9867  1	* a guppy
+M 0 9813   8 9867  1	* a goldfish
+M 0 9815  10 9867  1	* a colorful koi
+M 0 9816   6 9869  1	* a dragonfly
+M 0 9814  10 9869  2	* a guppy
+M 0 9814  10 9869  2	* a guppy
+M 0 9813   8 9869  1	* a goldfish
+D 0 9800   1 16384	* A small pathway east
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 9804 spec_cast_cleric    	* The Queen Bee
+M 9810 spec_cast_cleric    	* The Faerie Queen
+S
+
+#$

@@ -1,0 +1,935 @@
+#AREA
+../newareas/guido.are~
+The Haunted House~
+{15 30} Guido   The Haunted House~
+5400 5436
+
+#MOBILES
+#5400
+A leather bound book~
+A leather bound book~
+A leather bound book is lying on a table here.
+~
+A leather bound copy of Moby Dick flies at you and attacks!
+~
+unique~
+AT T -1000 0
+15 1 3d9+150 1d1+99 2d4+3 thwack
+0 0 0 0
+CEKU 0 0 H
+sit sit none 10
+CH ABCDEF small 0
+#5401
+A glowing ghost~
+A glowing ghost~
+A glowing ghost is floating here
+~
+Oooo. You can see right through the ghost. Spooky.
+~
+human~
+AGT T -1000 0
+18 2 3d9+283 1d1+99 2d7+4 wrath
+0 0 0 0
+CEFKNU 0 0 FN
+stand stand none 22
+0 0 medium 0
+F par GHIJK
+#5402
+pink towel~
+A pink linen towel~
+A pink linen towel.
+~
+A pink linen towel is floating here.
+~
+unique~
+AT T -1000 0
+20 1 3d9+333 1d1+99 2d7+4 thwack
+0 0 0 0
+EFNU 0 0 0
+stand stand none 15
+AEH ABCDEF medium 0
+#5403
+griselda~
+Griselda~
+Griselda, the owner of the manor is here.
+~
+Griselda the owner of the manor is here looking at you, wondering what the
+hell you're doing here. She shrugs and prepares to kick your ass.
+~
+human~
+ABFOR BHV -1000 0
+30 15 10d10+1000 1d1+99 0d0+0 claw
+-1 -1 -1 -1
+EFHKNU AI 0 N
+stand stand female 35
+0 0 medium 0
+F par GHIJK
+#5404
+turkish towel~
+A pink turkish towel~
+A pink turkish towel is here, trying to wrap itself around your head.
+~
+A pink turkish towel seems to be very pissed off and is giving you dirty
+looks. How odd considering it IS a towel.
+~
+unique~
+AFT T -1000 0
+19 5 3d9+258 1d1+99 3d4+4 thwack
+0 0 0 0
+EFNU 0 0 0
+stand stand none 20
+AHMV ABCDEF medium 0
+#5405
+rocking horse~
+A rocking horse~
+A rotted rocking horse is here.
+~
+A rotted rocking horse is here, rocking completely on it's own.
+~
+cat~
+ABGR DP 800 0
+25 0 5d10+500 25d9+100 4d4+6 none
+-6 -6 -6 2
+R 0 0 H
+stand stand female 0
+0 0 medium 0
+#5406
+blood~
+the blood~
+A pool of blood collects here in the sink basin.
+~
+A pool of red blood is collecting in the basin, it seems to be staring at you. Odd.
+~
+unique~
+ABFR GV -1000 0
+20 6 4d10+100 99d1+1 2d7+3 pound
+-15 -15 -15 -2
+BDEFK 0 F N
+stand stand none 2000
+EHI ABCE medium 0
+#5407
+rotting skeleton~
+a rotting skeleton~
+A rotting skeleton stands here, still moving.
+~
+This was once a person.  Now it is a creeping skeleton that refuses to rest in
+the grave.  It hungers for flesh...
+~
+human~
+ABCHO 0 -1000 0
+23 10 5d10+450 22d9+100 8d4+15 drain
+0 0 0 0
+EKNU R 0 N
+stand stand none 0
+BI 0 medium 0
+F for V
+#0
+
+#OBJECTS
+#5400
+A pair of glasses~
+A pair of Antique Glasses~
+A pair of antique glasses lies here~
+Metal~
+clothing AKLY AE
+0 0 0 0 0
+20 5 15000 P
+A
+19 2
+A
+18 2
+#5401
+A Bookmark~
+A Bookmark~
+A red tasseled bookmark lies here~
+Paper~
+scroll 0 AO
+20 'fireball' '' '' ''
+15 100 0 P
+A
+0 0
+#5402
+mahogany desk~
+A large mahogany desk~
+A large mahogany desk.~
+~
+container 0 0
+10000 AC 0 1000 25
+52 100 0 P
+#5403
+Oaken End Table~
+An oaken endtable~
+An oaken endtable sits here, collecting dust.~
+Wood~
+container 0 0
+10000 0 0 1000 25
+52 10000 0 P
+#5404
+small old fashioned key~
+A small old fashioned key~
+A small old fashioned key.~
+~
+key 0 AO
+0 0 0 0 0
+0 2 2 P
+#5405
+moth ridden jacket~
+A moth ridden jacket~
+A moth ridden jacket is lying here in a crumpled heap.~
+cloth~
+clothing 0 AK
+0 0 0 0 0
+10 5 0 P
+A
+4 2
+A
+13 -15
+#5406
+rod decay~
+The Rod of Decay~
+The Rod of Decay is lying here, an eerie black glow surrounding it.~
+metal~
+weapon AE AN
+mace 7 4 drain C
+30 10 0 P
+A
+18 1
+A
+19 1
+A
+13 -10
+#5407
+old scroll~
+an old scroll~
+An very ancient looking scroll lays open on the floor. You think it would be a good idea to READ it.~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+E
+writing~
+To whomever find this scroll,
+   I fear that my time in this realm is slowly winding down. The flame
+of my soul is almost extinguished, so I depart this information unto you
+so that whomever can defeat the challenges I have put before you can take
+up my staff to defend this realm from the evils that plague it. I have
+set up a series of riddles and puzzles to ward of those that would take
+the staff for their own selfish reasons. I pray that a just soul takes up
+the staff and defends the realm as I once did.
+~
+#0
+
+#ROOMS
+#5400
+The front lawn~
+You are on the front lawn of what looks to have been a beautiful mansion at
+one point in time, but it has now become dilapidated and appears to be
+deserted. Most of the windows are boarded up, but you can hear a few
+shutters banging in the wind. Also, oddly enough, you can hear what sounds
+like voices coming from the inside...
+~
+0 0 0
+D0
+Exit ~
+door~
+1 0 5401
+D3
+Exit ~
+door~
+0 0 2152
+S
+#5401
+The Grand Foyer~
+You have entered the grand foyer of the house. It is a large and spacious 
+room, and is rather dusty and dark. You can't quite tell where the light in 
+this room is coming from, it just seems to be coming from everywhere. There
+are many small endtables and such, displaying pictures, vases, and the like.
+A large chandelier hangs from the center of the ceiling, and a large
+spiraling staircase leads up to the second level. There is also a door to the
+north, and one to the south.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 5402
+D2
+Exit ~
+door~
+1 0 5400
+D4
+Exit ~
+door~
+0 0 5405
+E
+picture~
+A picture of a well dressed man sits on the table framed in a nice oak
+border. His eyes seem to follow you everywhere.
+~
+S
+#5402
+The reading room~
+This room is dusty and smells of stale air. As you look around, you see some
+dust covered velvet chairs. There are some books and magazines on tables,
+and a lamp lighting the room. Also, oddly enough, there is a fire crackling 
+in the fireplace. Perhaps this house isn't so deserted afterall?
+~
+0 D 0
+D0
+Exit ~
+fireplace~
+1 0 5416
+D1
+Exit ~
+door~
+0 0 5403
+D2
+Exit ~
+door~
+1 0 5401
+S
+#5403
+A hallway~
+A long dark hallway lined with portraits leads to a narrow stairway at the
+opposite end of the hall. As you look up the stairway, you notice you can't
+seem to see the top.
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 5402
+D4
+Exit ~
+door~
+0 0 5404
+E
+portrait~
+The eyes of the portraits seem to follow you wherever you go.
+~
+S
+#5404
+A hallway~
+You are in another long dark hallway, with more portraits and doors to the
+rooms of the second level. Some doors are actually pushing outwards, as if
+they are going to burst open. From behind others you can hear odd noises
+emanating. Perhaps you should turn back now?
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 5408
+D4
+Exit ~
+trapdoor~
+1 0 5427
+D5
+Exit ~
+door~
+0 0 5403
+S
+#5405
+Up the spiraling staircase~
+The walls going up the staircase are lined with various portraits, and there
+is even the occasional tapestry hanging from the wall. As you look back down
+the staircase, you can see that you are leaving your footprints in the dust,
+obviously no one has travelled up these stairs in a very long time.
+The stairs are creaking under your weight, and you wonder if one will give
+out when you step on it...better be careful.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 5406
+D5
+Exit ~
+door~
+0 0 5401
+E
+tapestry~
+The tapestry is a beautifully woven scene depicting a Knight in silver armor
+atop a great white warhorse. Though it is quite dusty. I hope you have no
+allergies. :)
+~
+S
+#5406
+A hallway~
+You are in another long dark hallway, with more portraits and doors to the
+rooms of the second level. Some doors are actually pushing outwards, as if
+they are going to burst open, from behind others you can hear odd noises
+emanating.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 5409
+D1
+Exit ~
+door~
+0 0 5407
+D2
+Exit ~
+door~
+1 0 5410
+D3
+Exit ~
+door~
+0 0 5405
+S
+#5407
+A hallway~
+You are in another long dark hallway, with more portraits and doors to the
+rooms of the second level. Some doors are actually pushing outwards, as if
+they are going to burst open, from behind others you can hear odd noises
+emanating.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 5412
+D1
+Exit ~
+door~
+0 0 5408
+D2
+Exit ~
+door~
+1 0 5413
+D3
+Exit ~
+door~
+0 0 5406
+S
+#5408
+A hallway~
+You are in another long dark hallway, with more portraits and doors to the
+rooms of the second level. Some doors are actually pushing outwards, as if
+they are going to burst open, from behind others you can hear odd noises
+emanating.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 5414
+D1
+Exit ~
+door~
+0 0 5404
+D2
+Exit ~
+door~
+1 0 5415
+D3
+Exit ~
+door~
+0 0 5407
+S
+#5409
+The bathroom~
+The black and white tiles in this room are cracked and rotted wood is
+exposed in the breaks, the wallpaper is peeling from the walls and there
+is dust everywhere. The bathtub is full of dirt and there is blood dripping
+from the sink faucet. The room is lit by shafts of moonlight peeking from
+between the boards covering the small window on the north wall.
+~
+0 D 0
+D2
+Exit ~
+door~
+1 0 5406
+S
+#5410
+A study~
+There is a large mahogany desk pushed up against the far wall of this room,
+directly underneath the boarded up window. There are papers strewn
+everywhere and broken glass all over what looks to have once been a nice,
+plush, red carpet. The drapes on the window are fluttering, but oddly,
+there is not any wind.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 5406
+D3
+Exit ~
+door~
+3 5404 5411
+S
+#5411
+A small closet~
+This closet is small, cramped, dark and dusty. It's not very fun in here.
+~
+0 D 0
+D1
+Exit ~
+door~
+3 5404 5410
+S
+#5412
+The bedroom~
+This room is very large, and was once quite beautiful. The plush red carpet
+has degenerated to a dirty, moth ridden mess on the floor, and the oak
+panneling is rotting. The ceiling is cracked, and you can see up into the 
+attic through a few holes. There is a largecanopy bed in the middle of this
+room with nightstands on either side, otherwise the room has been emptied.
+~
+0 D 0
+D2
+Exit ~
+door~
+1 0 5407
+E
+canopy bed~
+This bed was once quite magnificent, but now the canopy is moth ridden,
+the posts on the corners of the bed are rotted, and the springs are poking
+through the mattress in some places.
+~
+S
+#5413
+The playroom~
+The dust in this room is very thick, and there are cobwebs hanging off
+of toys in the corners, the carpet, like all the others is moth ridden
+and caked with grime. There is a large window on the far wall, with 
+what used to be a nice ledge to sit on. The room flashes white as
+lightning streaks by outside.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 5407
+S
+#5414
+The master bedroom~
+This room appears to be a bedroom, much larger than the other. It must be
+the master bedroom. This room is in amazingly good condition, the carpet is
+perfect and clean, the wallpaper isn't peeling, the bed is made, and the
+lights are on. Someone must certainly live here.
+~
+0 D 2
+D2
+Exit ~
+door~
+1 0 5408
+S
+#5415
+A linen closet~
+This is the linen closet. Being in here is not an enjoyable experience,
+especially with the towels trying to kill you. Yes, this room is
+definetly no fun at all.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 5408
+S
+#5416
+A secret passageway~
+You have stepped into a secret passage way, moss is growing from the damp
+walls and water can be heard dripping from the ceiling. The passageway
+continues off into the darkness.
+~
+0 D 0
+D2
+Exit ~
+fireplace~
+1 0 5402
+D3
+Exit ~
+door~
+0 0 5417
+S
+#5417
+A secret passageway~
+The dark passageway continues, it seems to be sloping down slightly.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 5416
+D3
+Exit ~
+door~
+0 0 5418
+S
+#5418
+A secret passageway~
+The dark passageway continues, it seems to be sloping down slightly.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 5417
+D3
+Exit ~
+door~
+0 0 5419
+S
+#5419
+A secret passageway~
+The dark passageway continues, it seems to be sloping down slightly.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 5418
+D3
+Exit ~
+door~
+0 0 5420
+S
+#5420
+A secret passageway~
+The tunnel has come to a carved archway, there are stairs leading downwards
+into more darkness.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 5419
+D5
+Exit ~
+door~
+0 0 5421
+E
+~
+Generic extended description.
+~
+S
+#5421
+A secret stairway~
+The stairway continues down into the darkness, the stairs are damp and
+slightly slippy. Better be careful.
+~
+0 D 0
+D4
+Exit ~
+door~
+0 0 5420
+D5
+Exit ~
+door~
+0 0 5422
+S
+#5422
+A secret stairway~
+The stairway continues down into the darkness, the stairs are damp and
+slightly slippy. Better be careful.
+~
+0 D 0
+D4
+Exit ~
+door~
+0 0 5421
+D5
+Exit ~
+door~
+0 0 5423
+S
+#5423
+A secret stairway~
+The stairway continues down into the darkness, the stairs are damp and
+slightly slippy. Better be careful.
+~
+0 D 0
+D4
+Exit ~
+door~
+0 0 5422
+D5
+Exit ~
+door~
+0 0 5424
+S
+#5424
+A secret stairway~
+The stairway is coming to an end, you can see a light not too far below
+you.
+~
+0 D 0
+D4
+Exit ~
+door~
+0 0 5423
+D5
+Exit ~
+door~
+0 0 5425
+S
+#5425
+The end of the stairway~
+You have reached the bottom of the stairway, light seeps from underneath
+a wooden door to the north.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 5426
+D4
+Exit ~
+door~
+0 0 5424
+S
+#5426
+The library~
+The room is lit by flickering candle light, coming from a candle resting
+atop a human skull on a large table in the center of the room. The walls are
+lined with bookshelves containing countless books. There is a ladder which
+slides across the walls to allow access to the books normally out of reach,
+and a comfortable looking chair at the table.
+~
+0 D 0
+D2
+Exit ~
+door~
+1 0 5425
+S
+#5427
+The attic~
+The attic is dark and there are cobwebs everywhere, it is completely empty,
+except for the dust.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 5436
+D3
+Exit ~
+door~
+0 0 5428
+D5
+Exit ~
+trapdoor~
+1 0 5404
+S
+#5428
+The attic~
+The attic is dark and there are cobwebs everywhere. It is completely empty
+except for the dust.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 5427
+D2
+Exit ~
+door~
+0 0 5436
+D3
+Exit ~
+door~
+0 0 5429
+S
+#5429
+The attic~
+The attic is dark and there are cobwebs everywhere. It is completely empty
+except for the dust.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 5428
+D3
+Exit ~
+door~
+0 0 5430
+S
+#5430
+The attic~
+The attic is dark and there are cobwebs everywhere. It is completely empty
+except for the dust.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 5429
+D3
+Exit ~
+door~
+0 0 5431
+S
+#5431
+The attic~
+The attic is dark and there are cobwebs everywhere. It is completely empty
+except for the dust.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 5430
+D2
+Exit ~
+door~
+0 0 5432
+S
+#5432
+The attic~
+The attic is dark and there are cobwebs everywhere. It is completely empty
+except for the dust.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 5431
+D3
+Exit ~
+door~
+0 0 5433
+S
+#5433
+The attic~
+The attic is dark and there are cobwebs everywhere. It is completely empty
+except for the dust.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 5432
+D3
+Exit ~
+door~
+0 0 5434
+S
+#5434
+The attic~
+The attic is dark and there are cobwebs everywhere. It is completely empty
+except for the dust.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 5433
+D3
+Exit ~
+door~
+0 0 5435
+S
+#5435
+The attic~
+The attic is dark and there are cobwebs everywhere. It is completely empty
+except for the dust.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 5436
+D1
+Exit ~
+door~
+0 0 5434
+D3
+Exit ~
+door~
+0 0 5436
+S
+#5436
+The attic~
+The attic is dark and there are cobwebs everywhere. It is completely empty
+except for the dust.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 5427
+D1
+Exit ~
+door~
+0 0 5435
+D2
+Exit ~
+door~
+0 0 5435
+S
+#0
+
+#RESETS
+M 0 5407   1 5409  1	* a rotting skeleton
+M 0 5406   1 5409  1	* the blood
+M 0 5401   5 5410  1	* A glowing ghost
+M 0 5403   2 5412  1	* Griselda
+E 1 5406  -1   16	*   The Rod of Decay
+M 0 5403   2 5414  1	* Griselda
+M 0 5401   5 5417  1	* A glowing ghost
+M 0 5400   6 5426  5	* A leather bound book
+M 0 5400   6 5426  5	* A leather bound book
+M 0 5400   6 5426  5	* A leather bound book
+M 0 5400   6 5426  5	* A leather bound book
+M 0 5400   6 5426  5	* A leather bound book
+E 1 5401  -1   17	*   A Bookmark
+M 0 5401   5 5427  1	* A glowing ghost
+M 0 5401   5 5434  1	* A glowing ghost
+O 0 5402 100 5410	* A large mahogany desk
+P 1 5404  -1 5402  1	*   A small old fashioned key
+O 0 5405 100 5411	* A moth ridden jacket
+D 0 5400   0    1	* The front lawn north
+D 0 5401   0    1	* The Grand Foyer north
+D 0 5401   2    1	* The Grand Foyer south
+D 0 5406   0    1	* A hallway north
+D 0 5406   2    1	* A hallway south
+D 0 5407   0    1	* A hallway north
+D 0 5407   2    1	* A hallway south
+D 0 5408   0    1	* A hallway north
+D 0 5408   2    1	* A hallway south
+D 0 5409   2    1	* The bathroom south
+D 0 5410   0    1	* A study north
+D 0 5410   3    2	* A study west
+D 0 5411   1    2	* A small closet east
+D 0 5414   2    1	* The master bedroom south
+D 0 5416   2    1	* A secret passageway south
+D 0 5425   0    1	* The end of the stairway north
+D 0 5426   2    1	* The library south
+D 0 5427   5    1	* The attic down
+M 0 5401   5 5402  1	* A glowing ghost
+M 0 5400   6 5402  1	* A leather bound book
+G 1 5401  -1     	*   A Bookmark
+O 0 5403 100 5402	* An oaken endtable
+P 1 5400  -1 5403  1	*   A pair of Antique Glasses
+D 0 5402   0    1	* The reading room north
+D 0 5402   2    1	* The reading room south
+M 0 5404  10 5415 10	* A pink turkish towel
+M 0 5404  10 5415 10	* A pink turkish towel
+M 0 5404  10 5415 10	* A pink turkish towel
+M 0 5404  10 5415 10	* A pink turkish towel
+M 0 5404  10 5415 10	* A pink turkish towel
+M 0 5404  10 5415 10	* A pink turkish towel
+M 0 5404  10 5415 10	* A pink turkish towel
+M 0 5404  10 5415 10	* A pink turkish towel
+M 0 5404  10 5415 10	* A pink turkish towel
+M 0 5404  10 5415 10	* A pink turkish towel
+D 0 5415   0    1	* A linen closet north
+M 0 5405   1 5413  1	* A rocking horse
+D 0 5413   0    1	* The playroom north
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 5403 spec_cast_mage      	* Griselda
+M 5406 spec_cast_undead    	* the blood
+M 5407 spec_cast_undead    	* a rotting skeleton
+S
+
+#$

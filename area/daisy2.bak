@@ -1,0 +1,2411 @@
+#AREA
+/mud/moosehead/area/daisy2.are~
+Swimming Hole~
+{ 5-15} Daisy   Swimming Hole~
+21000 21060
+
+#MOBILES
+#21000
+snapping turtle~
+a snapping turtle~
+A large snapping turtle with a hard brown shell is resting here.
+~
+The jaws of the big snapping turtle look dangerous.  His sad looking eyes
+gaze at you unblinkingly.
+~
+lizard~
+(null)~
+(null)~
+(null)~
+ABFT b 0 0
+9 -1 2d6+110 2d6+10 1d8+2 bite
+2 2 2 2
+KU 0 R 0
+rest rest male 20
+Ha T small 0
+F res L
+F vul I
+F for GX
+F par HKQV
+#21001
+crawdad~
+a crawdad~
+A little brown crawdad with big claws swims quickly by you.
+~
+Looking like a miniature brown lobster, you are careful not to get too close
+to his pinchers.
+~
+centipede~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+8 0 2d7+96 2d7+10 1d7+2 claw
+3 3 3 3
+F 0 0 0
+stand stand female 10
+Hbc DEFT tiny 0
+F aff J
+F res FI
+F vul E
+F for BGO
+F par CK
+#21002
+water spider~
+a water spider~
+A long-legged water spider floats on the top of the water.
+~
+The black water spider skims across the top of the water effortlessly.
+~
+centipede~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+6 0 2d7+71 2d7+10 1d7+1 bite
+4 4 4 4
+F 0 0 0
+stand stand none 5
+HP DEF tiny 0
+F aff J
+F res FI
+F vul E
+F for BGO
+F par K
+#21003
+scum sucker fish~
+a scum sucker~
+A large scum sucker is cleaning up the bottom of the swimming hole.
+~
+The grey color of the scum sucker makes it almost blend in with the sand at
+the bottom of the pond.
+~
+snake~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+6 0 2d7+10 0d0+0 1d7+1 suction
+4 4 4 4
+F 0 0 0
+rest rest male 5
+Hb O small 0
+F res L
+F vul I
+F for GXY
+F par KLQVX
+#21004
+minnow fish~
+a minnow~
+A tiny minnow darts between your legs.
+~
+The silvery-grey minnow flashes through the water almost too fast to be
+seen.
+~
+snake~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+5 0 2d6+60 2d6+10 1d6+1 slap
+5 5 5 5
+F 0 0 0
+stand stand female 6
+Hb O tiny 0
+F res L
+F vul I
+F for GXY
+F par KLQVX
+#21005
+mosquito insect~
+a mosquito~
+A hungry mosquito lands on your arm.
+~
+This tiny insect looks harmless, but you know that all it wants is blood.
+~
+centipede~
+(null)~
+(null)~
+(null)~
+ABT T 0 0
+7 0 2d6+85 2d6+10 1d8+1 bite
+4 4 4 4
+F 0 0 0
+stand stand none 3
+H DEFP tiny 0
+F aff J
+F res FI
+F vul E
+F for BG
+F par K
+#21006
+blue bird~
+a blue bird~
+A pretty little blue bird flutters its wings.
+~
+This little bird is a beautiful shade of blue.  It hops around on the
+ground before you and sings a sweet song.
+~
+song bird~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+10 0 2d7+121 2d7+10 2d4+2 peck
+1 1 1 1
+0 0 0 0
+stand stand female 15
+H 0 small 0
+F for G
+F par HK
+#21007
+sparrow bird~
+a sparrow~
+An angry sparrow swoops down upon you.
+~
+The sparrow, a large black bird, is very protective of his territory.  He
+will try to chase off any who invade this home.
+~
+song bird~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+11 0 2d8+134 2d8+10 1d10+2 peck
+1 1 1 1
+0 0 0 0
+stand stand male 0
+H 0 small 0
+F for G
+F par HK
+#21008
+grasshopper insect~
+a grasshopper~
+A large green grasshopper spits tobacco juice at you.
+~
+Hopping along the ground, the grasshopper is all play and no work.  His
+favorite activity is sunning himself on a large rock.
+~
+centipede~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+10 0 2d7+121 2d7+10 2d4+2 bite
+1 1 1 1
+F 0 0 0
+stand stand none 8
+H DEF small 0
+F aff J
+F res FI
+F vul E
+F for BG
+F par K
+#21009
+fox red~
+a red fox~
+Growling, a red fox advances toward you.
+~
+This fox looks to be upset with your intrusion.
+~
+fox~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+13 -1 2d10+170 2d10+10 2d5+3 bite
+-1 -1 -1 -1
+R 0 0 0
+stand stand female 15
+H 0 medium 0
+F aff J
+F for G
+F par HJKQV
+#21010
+baby fox~
+a baby fox~
+A tiny baby fox is waiting for its mother to return.
+~
+This little baby fox looks like it was just born a couple of days ago.  It
+looks so innocent and sweet that you consider making it your pet.
+~
+fox~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+11 0 2d8+134 2d8+10 1d10+2 bite
+1 1 1 1
+0 0 0 0
+sleep sleep male 7
+H 0 small 0
+F aff J
+F for G
+F par HJKQV
+#21011
+black ant bug~
+a black ant~
+A large black ant looks busy preparing for winter.
+~
+This black ant ignores your existence and goes on working.
+~
+centipede~
+(null)~
+(null)~
+(null)~
+ABCT D 0 0
+13 0 2d10+170 2d10+10 2d5+3 bite
+-1 -1 -1 -1
+F 0 0 0
+stand stand male 20
+H DEF tiny 0
+F aff J
+F res FI
+F vul E
+F for BG
+F par K
+#21012
+worker ant bug~
+a worker ant~
+A small black ant scurries around looking busy.
+~
+This ant is hurrying around trying to get ready for winter.
+~
+centipede~
+(null)~
+(null)~
+(null)~
+ABCT D 0 0
+12 0 2d10+150 2d10+10 1d10+3 bite
+0 0 0 0
+F 0 0 0
+stand stand male 0
+H DEF tiny 0
+F aff J
+F res FI
+F vul E
+F for BG
+F par K
+#21013
+queen ant bug~
+the queen ant~
+The queen ant is guarding her eggs.
+~
+The queen ant is larger than any ant you've ever seen.  Her black eyes
+watch you suspiciously.
+~
+centipede~
+(null)~
+(null)~
+(null)~
+ABT D 0 0
+15 0 3d9+208 3d9+10 2d6+3 bite
+-2 -2 -2 -2
+CEFN 0 0 0
+stand stand female 30
+H DEF small 0
+F aff J
+F res FI
+F vul E
+F for BG
+F par K
+#21014
+biffee cliff diver~
+Biff, the cliff diver~
+A studly looking diver is stretching his muscles before jumping off the cliff.
+~
+This man is well muscled with short black hair.  He has a tattoo on his
+right arm that reads 'Biff'.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+15 -1 3d9+208 3d9+10 2d6+3 punch
+-2 -2 -2 -2
+CEFN 0 0 0
+stand stand male 50
+0 0 medium 0
+F par GHIJK
+#21015
+grizzly bear~
+a grizzly bear~
+A large black grizzly bear appears to be asleep.
+~
+A large black grizzly looks sleepy.  He also looks like he would make a 
+great rug for your living room.
+~
+bear~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+15 -1 3d9+208 3d9+10 2d6+3 bite
+-2 -2 -2 -2
+CFN 0 0 0
+sleep sleep male 25
+HM 0 large 0
+F res EI
+F par BHJKUV
+#21016
+vampire bats blacks~
+a small black bat~
+A small black bat is hanging from the ceiling.
+~
+Although the small black cat seems to be sleeping, you had better be
+careful not to disturb it.  You wonder if its the kind of rodent that
+drinks blood.
+~
+bat~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+14 0 2d10+190 2d10+10 1d12+3 bite
+-1 -1 -1 -1
+E 0 0 0
+sleep sleep female 18
+H 0 small 0
+F aff JT
+F vul S
+F for G
+F par HJK
+#0
+
+#OBJECTS
+#21000
+police report affidvat~
+a police report~
+A police report has been left here.~
+velvet~
+furniture CORT 0
+6 100 BELN 110 110
+0 0 0 P
+E
+report~
+The police arrived at Redfernes mansion at 8am Friday, Nov. 15.  They
+were called to the scene by the housekeeper who had arrived at the
+residence about 7:30 that morning.  She reported having found Redfernes
+body in his bedroom.  He had been stabbed over 14 times with a two-
+handed long sword.  The blood smeared sword was discovered on the 
+balcony.  The maid reported that Thursday night was usually Redfernes
+poker evening and that his fellow players were Vito, the Diploma Beast,
+Slash, the Mind Block, and Homer.  The neighbors report, however, that
+all five men left the residence at around 1am and at that time Redferne was
+still alive.  The police have discovered no other leads.
+~
+E
+police~
+The police arrived at Redfernes mansion at 8am Friday, Nov. 15.  They
+were called to the scene by the housekeeper who had arrived at the
+residence about 7:30 that morning.  She reported having found Redfernes
+body in his bedroom.  He had been stabbed over 14 times with a two-
+handed long sword.  The blood smeared sword was discovered on the 
+balcony.  The maid reported that Thursday night was usually Redfernes
+poker evening and that his fellow players were Vito, the Diploma Beast,
+Slash, the Mind Block, and Homer.  The neighbors report, however, that
+all five men left the residence at around 1am and at that time Redferne was
+still alive.  The police have discovered no other leads.
+~
+E
+~
+Generic extended description.
+~
+#21001
+diploma beast affidavit~
+the Diploma Beast's Affidavit~
+The Diploma Beast's Affidavit is here.~
+velvet~
+furniture CORT 0
+6 100 BELN 110 110
+0 0 0 P
+E
+affidavit~
+Yea, I played poker with Redferne Thursday night.  Just like always.  
+Nothing unusual happened.  We sat around joking and drinking beer.
+Talked about what pains in the necks our women were.  Reddie (thats
+what I used to call Redferne) did keep complaining about his new 
+girl friend, the Queen Wasp,  though.  Said she was the jealous kind, 
+always trying to keep a leash on him.  I never cared for her.  She was 
+a real drag.  If I were you, Id go talk to her and find out what she 
+knew.  She kept tabs on everything Reddie did and everyone he saw.
+~
+#21002
+Queen Wasp affidavit~
+the Queen Wasp's affidavit~
+The Queen Wasp's affidavit is here.~
+velvet~
+furniture CORT 0
+6 100 BELN 110 110
+0 0 0 P
+E
+affidavit~
+Oh, *sob* I cant believe my smoopie is really gone!  We were so in
+love... he worshipped the ground I walked on.  If only he were still here!
+There is no way, *I* would have ever hurt him.  Sure I worried about
+other women trying to steal him from me, but he would never have 
+fallen for their silly traps.  Besides I hired Foreman Floyd to follow
+him around and make sure he said faithful.  And Floyd never had any
+thing bad to report.  Im sorry I cant be more helpful but I do hope
+you can bring to justice whoever did this awful thing!
+~
+#21003
+foreman floyd affidavit~
+Foreman Floyd's affidavit~
+Foreman Floyd's affidavit is here.~
+velvet~
+furniture CORT 0
+6 100 BELN 110 110
+0 0 0 P
+E
+affidavit~
+Yea, I followed Redferne for a bit.  His psycho girlfriend hired me too.
+Its really not my line of work, but I guess she thought since I am from
+the working class that we are all shifty characters.  Dames!  Anyways,
+Redferne found out right away that I was following him and he paid me
+some good money to feed his girlfriend a bunch of lies about how he
+wasnt messing around on her.  But I followed him and I know he was
+meeting some hot chick at the graveyard twice a week.  The grounds-
+keeper there was renting them his shack I think.  If you want to know
+who she was, go talk to him...
+~
+E
+~
+Generic extended description.
+~
+#21004
+henry the gardner affidavit~
+Henry the gardner's affidavit~
+Henry the gardner's affidavit is here.~
+velvet~
+furniture CORT 0
+6 100 BELN 110 110
+0 0 0 P
+E
+affidavit~
+Ah yes... I let Redferne and his little hussy use my tool house.  They were
+quite willing to pay me gold to use it for an hour or so.  They seemed 
+like a happy enough couple.  That is until the last time they visited.
+That was just the day before he was killed.  They got into a horrible fight.  
+I dont know what about... was none of my business, but the girl sure
+was screaming up a storm about what a no-good so and so he was.  Naw
+I dont remember her name but she had some sorta job as a guard in New
+Ofcol.
+~
+E
+~
+Generic extended description.
+~
+#21005
+marshall diana affidavit~
+Marshall Diana's affidavit~
+Marshall Diana's affidavit is here.~
+velvet~
+furniture CORT 0
+6 100 BELN 110 110
+0 0 0 P
+E
+affidavit~
+I didnt kill Redferne.  I loved him... even if he was a two-timing jerk.
+We fought last Wednesday because I wanted him to start seeing only
+me.  I mean I deserve better than just an hour a week in the graveyard.
+That guy had money.  He could have afforded to at least take me some
+place nice.  But no... he was too worried about being seen.  He kept
+saying that if his girlfriend found out shed kill him.  I bet she did it.
+Besides I was working that night, you can ask anyone.
+~
+E
+~
+Generic extended description.
+~
+#21006
+slash affidavit~
+Slash's affidavit~
+Slash's affidavit is here.~
+velvet~
+furniture CORT 0
+6 100 BELN 110 110
+0 0 0 P
+E
+affidavit~
+Sure, I played poker with Redferne and guys Thursday night.  Same as
+always.  Nothing unusual happened.  Vito and me went out to the Market
+Square Inn afterwards and had a couple of drinks.  One thing that I 
+thought was kinda strange was that Redferne had sent us home kinda
+early that night, he claimed that he had a meeting the next morning with
+the mazekeeper.  Vito and I had no idea what it could be about cause,
+Redferne is kinda picky about who he invites to his house.  Ya know?
+~
+#21007
+mazekeepers affidavit~
+the Mazekeeper's affidavit~
+The Mazekeeper's affidavit is here.~
+velvet~
+furniture CORT 0
+6 100 BELN 110 110
+0 0 0 P
+E
+affidavit~
+Yes... I had an appointment with Mr. Redferne on Friday.  But when I
+got to his house it was surround by police so I didnt go in.  My friend
+Baby New Year had told me that Mr. Redferne was selling jewelry at
+a very inexpensive price.  Id been saving up to by the queen a nice
+silver chastity belt.  I dont know where he got all the fancy stuff, some
+times its better not to ask.
+~
+#21008
+baby new year affidavit~
+Baby New Year's affidavit~
+Baby New Year's affidavit is here.~
+velvet~
+furniture CORT 0
+6 100 BELN 110 110
+0 0 0 P
+E
+affidavit~
+Googoo, baby new year buy some pretty rings and stuff from the rich
+man in the mansion.  Baby like pretty things.  Baby friend the hermit
+told me that the rich man didnt own the pretty things, though.  That
+made me cry!  *sniff*  Would you change me diaper?  Its stinky!
+~
+#21009
+sorbus hermit affidavit~
+Sorbus the Hermit's affidavit~
+Sorbus the Hermit's affidavit is here.~
+velvet~
+furniture CORT 0
+6 100 BELN 110 110
+0 0 0 P
+E
+affidavit~
+Oh yes... I knew that Redferne was selling jewelry.  But I knew more 
+than that.  It wasnt just *any* jewelry.  But a Queens set.  I heard
+that he had acquired it from her when she was short of cash.  However,
+he broke their agreement and sold it off instead of holding it for her to
+buy back.  Well, naturally she was quite upset.  If her husband, 
+Montezuma, finds out shell be in very bad trouble.  Those people
+have human sacrifices. *shudder*
+~
+#21010
+aztec queen affidavit~
+the Aztec Queen's affidavit~
+The Aztec Queen's affidavit is here.~
+velvet~
+furniture CORT 0
+6 100 BELN 110 110
+0 0 0 P
+E
+~
+Generic extended description.
+~
+E
+affidavit~
+Oh yes, I hated Redferne.  He was simply a no good, greedy man.  I
+am glad he is dead.  I thought he was honorable and thats why I
+trusted him.  Now I realize what a mistake I made.  It will take me,
+forever, to reclaim my jewelry from all the different people he sold
+it too.  Of course, I didnt kill him though.  I mean Im a queen, we 
+just dont do things like that.
+~
+#21011
+affidavit~
+an affidavit~
+An affidavit is here.~
+paper~
+furniture CORT AP
+4 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+0 10000 0 P
+#21012
+rock skipping stone~
+a skipping stone~
+The smooth grey rock looks like the perfect skipping stone.~
+stone~
+gem G AO
+0 0 0 0 0
+4 5 0 P
+A
+20 -2
+#21013
+fish hook~
+a fish hook~
+A sharp fish hook is stuck here.~
+iron~
+weapon G AN
+exotic 2 4 slice 0
+10 10 5 P
+A
+19 1
+A
+1 1
+#21014
+ant egg~
+an ant egg~
+An ant egg has been laid here.~
+organic~
+pill 0 AO
+10 'cure serious' 'refresh' '' ''
+1 8 0 P
+#21015
+robin egg~
+a robin egg~
+A vulnerable robin egg has been laid here.~
+organic~
+gem G AQ
+0 0 0 0 0
+3 5 0 P
+A
+12 3
+#0
+
+#ROOMS
+#21000
+Slow Flowing Stream~
+The water here is extremely clear.  You look down at the bottom of the
+stream bed and are fascinated with the smooth pebbles that line it.
+The stream continues north and south.
+~
+0 C 7
+D0
+Exit ~
+door~
+16384 0 17620
+D2
+Exit ~
+door~
+16384 0 21001
+E
+west~
+The banks are too steep for you to climb out of the stream.
+~
+E
+east~
+The banks are too steep for you to climb out of the stream.
+~
+S
+#21001
+Slow Flowing Stream~
+The water here is extremely clear.  You look down at the bottom of the
+stream bed and are fascinated with the smooth pebbles that line it.
+The stream continues north and south.
+~
+0 C 7
+D0
+Exit ~
+door~
+16384 0 21000
+D2
+Exit ~
+door~
+16384 0 21002
+E
+west~
+The banks are too steep for you to climb out of the stream.
+~
+E
+east~
+The banks are too steep for you to climb out of the stream.
+~
+S
+#21002
+Slow Flowing Stream~
+The water here is extremely clear.  You look down at the bottom of the
+stream bed and are fascinated with the smooth pebbles that line it.
+The western edge of the stream is bordered by a steep grey stone cliff.
+The stream contines north and to south lies a deep pool of water.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 21001
+D2
+Exit ~
+door~
+16384 0 21004
+E
+west~
+The grey stone cliff is too steep for you to climb.
+~
+E
+east~
+The bank is too steep for you to climb out of the stream.
+~
+S
+#21003
+Swimming Hole~
+The water is a bit colder in this section of the pool.  You shiver
+slightly as the current swirls around your legs.  The steep walls of
+the grey stone cliff lay to the north and west, but the pool continues
+to the south and east.
+~
+0 0 7
+D1
+Exit ~
+door~
+16384 0 21004
+D2
+Exit ~
+door~
+16384 0 21006
+D5
+Exit ~
+door~
+16384 0 21012
+E
+north~
+The grey stone cliff is too steep for you to climb.
+~
+E
+west~
+The grey stone cliff is too steep for you to climb.
+~
+S
+#21004
+The Swimming Hole~
+You are in the middle of deep pool of water.  It feels cool and 
+refreshing against your skin.  You could return to the stream by heading
+north, but his pool is so nice you feel like staying here awhile.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 21002
+D1
+Exit ~
+door~
+16384 0 21005
+D2
+Exit ~
+door~
+16384 0 21007
+D3
+Exit ~
+door~
+16384 0 21003
+D5
+Exit ~
+door~
+16384 0 21013
+E
+up~
+There is nothing above you but the clear blue sky.
+~
+S
+#21005
+The Swimming Hole~
+This is the shallow end of the swimming hole.  You feel like tossing
+off your clothes and going skinny dipping.  The woods to the north would
+probably provide you with enough protection so that you wouldn't get
+caught.  A sandy beach lies to the east and the pool continues to the
+south and west.
+~
+0 0 7
+D1
+Exit ~
+door~
+16384 0 21016
+D2
+Exit ~
+door~
+16384 0 21008
+D3
+Exit ~
+door~
+16384 0 21004
+D5
+Exit ~
+door~
+16384 0 21014
+E
+north~
+The woods are too thick for you to see through.
+~
+S
+#21006
+The Swimming Hole~
+The water is very still at this end of the pool.  You decide that this
+must be the deepest end of the swimming hole since the light does not
+penetrate the water.  Thick woods lie to your west and south.  The pool
+continues to the north and east.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 21003
+D1
+Exit ~
+door~
+16384 0 21007
+D5
+Exit ~
+door~
+16384 0 21011
+E
+south~
+The woods are too thick for you too see through.
+~
+E
+west~
+The woods are too thick for you to see through.
+~
+S
+#21007
+The Swimming Hole~
+You feel very relazed in this refreshing pool of water.  It seems like
+your cares and worries are just floating away.  There are woods to your
+south but the pool continues to the north, east and west.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 21004
+D1
+Exit ~
+door~
+16384 0 21008
+D3
+Exit ~
+door~
+16384 0 21006
+D5
+Exit ~
+door~
+16384 0 21010
+E
+south~
+The woods are too thick for you to see through.
+~
+S
+#21008
+The Swimming Hole~
+The water is a bit warmer at this end of the pool.  You can see the sandy
+bottom of the swimming hole here.  Thick woods block the view to the south,
+but there is a picturesque beach to the east.  The pool continues to
+the north and west.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 21005
+D1
+Exit ~
+door~
+16384 0 21017
+D3
+Exit ~
+door~
+16384 0 21007
+D5
+Exit ~
+door~
+16384 0 21009
+E
+south~
+The woods are too thick for you to see through.
+~
+S
+#21009
+Underwater~
+The floor of the swimming hole is covered with sand.  You have an
+overwhelming desire to take off your shoes and run your feet through it.
+Stone walls lies to the south and east, but the pool continues to the
+north and west.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 21014
+D3
+Exit ~
+door~
+16384 0 21010
+D4
+Exit ~
+door~
+16384 0 21008
+E
+Iceman~
+,Å|~
+E
+Persia~
+A small teddybear, made from crystal, lies abandoned in the street, glistening in the sun.~
+E
+Wryllish~
+The splattered brains of skeletal warrior are lying here.~
+E
+inscription~
+~
+E
+writing~
+A gold and silver lipstick case is laying here.~
+E
+rose~
+The black velvet choker that lays here would make you look very sexy.~
+E
+rose~
+A burning cigarette, you bummed from Rage, you better remember to pay him back~
+E
+Daisy~
+A burning cigarette, you bummed from Rage, you better remember to pay him back~
+E
+ring~
+D‚ì~
+E
+Ghanima~
+æî~
+E
+trophy~
+pÂó~
+E
+door~
+The corpse of the aggressive monster is lying here.~
+S
+#21010
+Underwater~
+The floor of the swimming hole is covered with sand.  You have an
+overwhelming desire to take off your shoes and run your feet through it.
+Stone walls lies to the south and east, but the pool continues to the
+north, east, and west.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 21013
+D1
+Exit ~
+door~
+16384 0 21009
+D3
+Exit ~
+door~
+16384 0 21011
+D4
+Exit ~
+door~
+16384 0 21007
+E
+south~
+A grey stone wall lines this edge of the pool.
+~
+S
+#21011
+Underwater~
+Your ears pop from being at the bottom of the deep end of the swimming
+hole.  Sunlight does not penetrate the water so it is very dark here.
+Grey stone walls lie to the south and west, but the pool continues
+to the north and east.
+~
+0 0 7
+D0
+Exit ~
+door~
+16384 0 21012
+D1
+Exit ~
+door~
+16384 0 21010
+D4
+Exit ~
+door~
+16384 0 21006
+E
+west~
+A grey stone wall lines this edge of the pool.
+~
+S
+#21012
+Underwater~
+Your ears pop from being at the bottom of the deep end of the swimming
+hole.  Sunlight does not penetrate the water so it is very dark here.
+Grey stone walls lie to the south and west, but the pool continues
+to the south and east.
+~
+0 0 7
+D1
+Exit ~
+door~
+16384 0 21013
+D2
+Exit ~
+door~
+16384 0 21011
+D4
+Exit ~
+door~
+16384 0 21003
+E
+north~
+A grey stone wall lines this edge of the pool.
+~
+E
+west~
+A grey stone wall lines this edge of the pool.
+~
+S
+#21013
+Underwater~
+The Water is extremely cold in this part of the pool.  You consider
+surfacing just to warm up or heading to the east, west, or south to see
+if those spots are any better.  As you are about to leave, however, your
+eye notices a dark cave to the north.
+~
+0 A 7
+D0
+Exit ~
+door~
+16384 0 21015
+D1
+Exit ~
+door~
+16384 0 21014
+D2
+Exit ~
+door~
+16384 0 21010
+D3
+Exit ~
+door~
+16384 0 21012
+D4
+Exit ~
+door~
+16384 0 21004
+E
+down~
+You stand on clean, soft sand.
+~
+S
+#21014
+Underwater~
+The floor of the swimming hole is covered with sand.  You have an over-
+whelming desire to take off your shoes and run your feet through it.  A
+stone wall lies to the north and east, but the pool continues to the 
+south and west.
+~
+0 A 7
+D2
+Exit ~
+door~
+16384 0 21009
+D3
+Exit ~
+door~
+16384 0 21013
+D4
+Exit ~
+door~
+16384 0 21005
+E
+north~
+A grey stone wall lines this edge of the pool.
+~
+E
+east~
+A grey stone wall lines this edge of the pool.
+~
+S
+#21015
+An Underwater Cave~
+You stand in the center of a dingy underwater cave.  Fish bones and 
+crawdad claws are scattered around the edges of the walls.  You feel very
+uncomfortable here.  The only exit is to the south.
+~
+0 A 7
+D2
+Exit ~
+door~
+16384 0 21013
+E
+north~
+In this direction lies the grey stone wall of the cave.
+~
+E
+east~
+In this direction lies the grey stone wall of the cave.
+~
+E
+west~
+In this direction lies the grey stone wall of the cave.
+~
+S
+#21016
+A Sandy Beach~
+This beach looks like a great place to catch some rays or bring the
+family for a picnic.  You notice that someone has even built a little
+sand castle near the water to your west.  The beach continues to the 
+south and a tree lined path is to the east.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21019
+D2
+Exit ~
+door~
+16384 0 21017
+D3
+Exit ~
+door~
+16384 0 21005
+E
+north~
+The woods are too dense to see through.
+~
+E
+castle~
+As you get closer, you notice that the sand castle is a little miniature
+of the High Tower.
+~
+S
+#21017
+A Sandy Beach~
+The beach appears to be very clean and well kept.  It is exactly the
+type of place to relax at after a vigorous swim.  The water lies to your
+west, while the beach continues to the north.  To the east is a tree
+lined path.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 21016
+D1
+Exit ~
+door~
+16384 0 21018
+D3
+Exit ~
+door~
+16384 0 21008
+E
+south~
+The woods are too dense to see through.
+~
+S
+#21018
+A Tree Lined Path~
+You are standing on a narrow tree lined path that borders the beach to
+your west and the city wall of Midgaard to the east.  It seems like the
+perfect day for a stroll.  The path continues to the north and the south.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 21019
+D2
+Exit ~
+door~
+16384 0 21023
+D3
+Exit ~
+door~
+16384 0 21017
+E
+east~
+The city wall of Midgaard is much too high to climb over.
+~
+S
+#21019
+A Tree Lined Path~
+The shade from the trees that line this path make you feel very 
+comfortable as a slight breeze ruffles your hair.  The path goes north
+and south.  The beach lies to your west and the city wall of Midgaard is
+to the east.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 21020
+D2
+Exit ~
+door~
+16384 0 21018
+D3
+Exit ~
+door~
+16384 0 21016
+E
+east~
+The city wall of Midgaard is much too high to climb over.
+~
+S
+#21020
+A Turn in the Path~
+The path curves slightly and heads to the west from the south.  The grass
+is a little higher here because fewer people travel in this direction.  The
+city wall of Midgaard lies to your east.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 21019
+D3
+Exit ~
+door~
+16384 0 21021
+E
+east~
+The city wall of Midgaard is much too high to climb over.
+~
+E
+north~
+The woods are too dense to see through.
+~
+S
+#21021
+The Tall Grass~
+Tall grass have covered over what used to be a path that went east and west.
+Although you can still make your way through the woods, you can no longer
+see what you are stepping on.  You hope there are no snakes hiding around
+here.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21020
+D3
+Exit ~
+door~
+16384 0 21022
+E
+north~
+The trees are too dense to see through.
+~
+E
+south~
+The trees are too dense to see through.
+~
+S
+#21022
+A Fox Den~
+You have stumbled into the den of a red fox.  You look around nervously 
+hoping that you haven't made any of them angry.  The spring lies to your
+west, but the only exit appears to be to the east.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21021
+E
+north~
+The trees are too dense to see through.
+~
+E
+south~
+The trees are too dense to see through.
+~
+E
+west~
+The bank of the spring is too steep to climb down.
+~
+S
+#21023
+A Climbing Tree~
+You stand at the bottom of a large tree that looks perfect for climbing.
+You instantly wish you were once again a child so that you could indulge in
+your desire.  The path continues to the north and west.  The city wall of
+Midgaard is to your east.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 21018
+D3
+Exit ~
+door~
+16384 0 21034
+D4
+Exit ~
+door~
+16384 0 21024
+E
+south~
+The woods are too dense to see through.
+~
+E
+east~
+The city wall of Midgaard is too high to climb over.
+~
+S
+#21024
+Up the Tree~
+You cling to the trunk of the tree contemplating whether you should continue
+or not.  It would be easier to turn back now because the top is a long way
+up.
+~
+0 0 3
+D4
+Exit ~
+door~
+16384 0 21025
+D5
+Exit ~
+door~
+16384 0 21023
+E
+west~
+You can't see very far down the western path.
+~
+E
+east~
+You have not climbed high enough to see over the city wall.
+~
+E
+south~
+You are afraid to turn around because you might lost your grip on the tree.
+~
+E
+north~
+The tree trunk is blocking your view.
+~
+S
+#21025
+Up the Tree~
+You cling to the trunk of the tree contemplating whether you should continue
+or not.  It would be easier to turn back now because the top is a long way
+up.
+~
+0 0 3
+D4
+Exit ~
+door~
+16384 0 21026
+D5
+Exit ~
+door~
+16384 0 21024
+E
+west~
+You can't see very far down the western path.
+~
+E
+east~
+You have not climbed high enough to see over the city wall.
+~
+E
+south~
+You are afraid to turn around because you might lost your grip on the tree.
+~
+E
+north~
+The tree trunk is blocking your view.
+~
+S
+#21026
+Up the Tree~
+The bark of the tree scratches your face as you cling to the trunk.  There
+is a large branch to your east that you can rest on, or you can continue up
+toward the top of the tree.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21027
+D4
+Exit ~
+door~
+16384 0 21029
+D5
+Exit ~
+door~
+16384 0 21025
+E
+west~
+You can make out little creatures scurrying down the western path.
+~
+E
+south~
+You are afraid to turn around because you might lose your grip on the tree.
+~
+E
+north~
+The tree trunk is blocking your view.
+~
+S
+#21027
+A Large Branch~
+This large branch can easily hold your weight.  As you look down you can see
+the top of the Midgaard city wall.  The wall appears too narrow to walk on.
+You can climb back onto the tree trunk to the west, or go further along the
+branch to your east.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21028
+D3
+Exit ~
+door~
+16384 0 21026
+E
+south~
+The trees are too dense to see through.
+~
+E
+north~
+Below you a tree lined path leads north.
+~
+S
+#21028
+The End of a Branch~
+You stand on the end of a large branch which sways softly in the breeze.
+Below you is the Concourse near the Midgaard city park.  It looks like the
+drop down would be dangerous.  The only exit is to turn around and go back
+west.
+~
+0 0 3
+D3
+Exit ~
+door~
+16384 0 21027
+E
+down~
+You watch as a member of Riders hurrys down the Concourse with a Demise
+clanner right on his heels.
+~
+E
+east~
+There is a good view of teh city park from this branch.
+~
+E
+south~
+From this high up you can see the southern city gates.
+~
+E
+north~
+From this high up you can see the bridge over th river in Midgaard.
+~
+S
+#21029
+Up the Tree~
+You cling to the trunk of the tree contemplating whether you should continue
+or not.  It would be easier to turn back now because the top is a long way
+up.
+~
+0 0 3
+D4
+Exit ~
+door~
+16384 0 21030
+D5
+Exit ~
+door~
+16384 0 21026
+E
+west~
+You can make out little creatures scurrying down the western path.
+~
+E
+east~
+You can just see the edge of Midgaard park.
+~
+E
+south~
+You are afraid to turn around because you might lose your grip on the tree.
+~
+E
+north~
+The tree trunk is blocking your view.
+~
+S
+#21030
+Up the Tree~
+Clinging to the trunk of the tree you're surprised that the top is so close.
+A small limb lies to the west.  You can continue up the tree or head down to
+the ground.
+~
+0 0 3
+D3
+Exit ~
+door~
+16384 0 21031
+D4
+Exit ~
+door~
+16384 0 21032
+D5
+Exit ~
+door~
+16384 0 21029
+E
+east~
+You can just see the edge of the Midgaard park.
+~
+E
+south~
+You are afraid to turn around because you might lost your grip on the tree.
+~
+E
+north~
+The tree trunk is blocking your view.
+~
+S
+#21031
+A Narrow Limb~
+This tiny limb trembles under your feet.  You feel uneasy and wonder if it
+is safe to remain standing on it.  By going east you can grab hold of the
+tree trunk.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21030
+E
+west~
+You can make out little creatures scurrying down the western path.
+~
+E
+south~
+The trees are too dense to see through.
+~
+E
+north~
+A tree lined path lies far below you to the north.
+~
+S
+#21032
+Top of the Tree~
+The breeze is strong at the top of the tree, but the view is spectacular.
+You can see the swimming hole and all of southern Midgaard from here.  As
+you start to climb back down to the ground, you become aware of noise above
+you.
+~
+0 0 3
+D4
+Exit ~
+door~
+16384 0 21033
+D5
+Exit ~
+door~
+16384 0 21030
+E
+west~
+You hope someone starts to go skinny-dipping while you're up here.
+~
+E
+east~
+You have a great view of the park from here.
+~
+E
+south~
+From this high up you can see the southern city gates.
+~
+E
+north~
+From this high up you can see the bridge over the river in Midgaard.
+~
+S
+#21033
+A Bird's Nest~
+A pretty little bird's nest sits at the top of the tree.  Pieces of string,
+twigs, and feathers line its bottom.  It almost looks comfortable enough to
+lay down and sleep.  The only exit is to climb down.
+~
+0 0 3
+D5
+Exit ~
+door~
+16384 0 21032
+E
+west~
+You hope someone starts to go skinny-dipping while you're up here.
+~
+E
+east~
+You have a great view of the park from here.
+~
+E
+south~
+From the high up you can see the southern city gates.
+~
+E
+north~
+From this high up you can see the bridge over the river in Midgaard.
+~
+S
+#21034
+A Tree Lined Path~
+The shade from the trees that line this path makes you feel very comfortable
+as a slight breeze ruffles your hair.  The path goes east and west and a
+large tree lies to your east.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21023
+D3
+Exit ~
+door~
+16384 0 21035
+E
+north~
+The trees are too dense to see through.
+~
+E
+south~
+The trees are too dense to see through.
+~
+S
+#21035
+A Tree Lined Path~
+This pretty little path through the woods for some reason seems very
+soothing.  As birds sing from near by trees you feel closer to nature than
+ever before.  The path continues to the east and west.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21034
+D3
+Exit ~
+door~
+16384 0 21036
+E
+west~
+The trees are too dense to see through.
+~
+E
+east~
+The trees are too dense to see through.
+~
+S
+#21036
+A Tree Lined Path~
+This pretty little path through the woods for some reason seems very
+soothing.  As birds sings from nearby trees, you feel closer to nature 
+than ever before.  The path continues to the north and the south.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21035
+D3
+Exit ~
+door~
+16384 0 21037
+E
+north~
+The trees are too dense to see through.
+~
+E
+south~
+The trees are too dense to see through.
+~
+S
+#21037
+An Ant Hill~
+The path is partly blocked by a huge ant hill.  You can go around it and
+continue north or south down the path.  However, the hole appears big
+enough to squeeze into if you're curious to see the inside.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21036
+D3
+Exit ~
+door~
+16384 0 21047
+D5
+Exit ~
+door~
+16384 0 21038
+E
+north~
+The trees are too dense to see through.
+~
+E
+south~
+The trees are too dense to see through.
+~
+S
+#21038
+Inside the Ant Hill~
+You are in a narrow dirt tunnel that leads up and down.  There is a faint
+glow of light above you.  Better keep your mouth closed or it will get
+full of dust!
+~
+0 AD 0
+D4
+Exit ~
+door~
+16384 0 21037
+D5
+Exit ~
+door~
+16384 0 21039
+E
+north~
+Hard dirt walls surround you.
+~
+E
+south~
+Hard dirt walls surround you.
+~
+E
+east~
+Hard dirt walls surround you.
+~
+E
+west~
+Hard dirt walls surround you.
+~
+S
+#21039
+Inside the Ant Hill~
+You are in a long but narrow east-west dirt tunnel.  You can see light
+coming from a hole above you.  You can investigate this level of the ant
+hill or try and squeeze through a small hole in the floor.
+~
+0 A 0
+D1
+Exit ~
+door~
+16384 0 21040
+D3
+Exit ~
+door~
+16384 0 21041
+D4
+Exit ~
+door~
+16384 0 21038
+D5
+Exit ~
+door~
+16384 0 21043
+E
+north~
+A hard dirt wall blocks the north.
+~
+E
+south~
+A hard dirt wall blocks the south.
+~
+S
+#21040
+Dead End~
+It looks like the ants have been digging here to expand their lair.  They
+have not made much progress, however, and the tunnel dead ends.  The only
+exit is to your west.
+~
+0 AD 0
+D3
+Exit ~
+door~
+16384 0 21039
+E
+north~
+A hard dirt wall blocks the north.
+~
+E
+south~
+A hard dirt wall blocks the south.
+~
+E
+east~
+A hard dirt wall blocks the east.
+~
+S
+#21041
+Storage Room~
+This appears to be one of several storage rooms that the ants use.  Stacks
+of organic material line the walls.  The aroma is surprisingly pleasant in
+here.  The tunnel continues west and east.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 21039
+D3
+Exit ~
+door~
+16384 0 21042
+E
+north~
+A hard dirt wall blocks the north.
+~
+E
+south~
+A hard dirt wall blocks the south.
+~
+S
+#21042
+Storage Room~
+This appears to be one of several storage rooms that the ants use.  Stacks
+of organic material line the walls.  The aroma is surprisingly pleasant in
+here.  The only exit is to your east.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 21041
+S
+#21043
+Inside the Ant Hill~
+You are deep down in the ant hill.  As the tunnel gets narrow in this
+spot, you begin to feel claustrophobic.  The dirt walls seem to be closing
+in on you.  There is a tiny point of light above you and the dark hole
+continues downward.
+~
+0 AD 0
+D4
+Exit ~
+door~
+16384 0 21039
+D5
+Exit ~
+door~
+16384 0 21044
+E
+north~
+A hard dirt wall blocks the north.
+~
+E
+south~
+A hard dirt wall blacks the south.
+~
+E
+east~
+A hard dirt wall blocks the east.
+~
+E
+west~
+A hard dirt wall blocks the west.
+~
+S
+#21044
+Inside the Ant Hill~
+You have reached the bottom of the ant hill.  The earth is packed so tight
+here that you wonder how you'll ever climb out.  There is a tiny point of
+light above your head, and a tunnel that heads east and west.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 21046
+D3
+Exit ~
+door~
+16384 0 21045
+D4
+Exit ~
+door~
+16384 0 21043
+E
+north~
+A hard dirt wall blocks the north.
+~
+E
+south~
+A hard dirt wall blocks the south.
+~
+S
+#21045
+Storage Room~
+This appears to be one of several storage rooms that the ants use.  Stacks
+of organic material line the walls.  The aroma is surprisingly pleasant in
+here.  The only exit is to your east.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 21044
+E
+north~
+A hard dirst wall blocks the north.
+~
+E
+south~
+A hard dirt wall blocks the south.
+~
+E
+west~
+A hard dirt wall blocks the west.
+~
+S
+#21046
+The Queen Ant's Room~
+You have stumbled into the queen ant's chamber.  The warm, moist air is 
+the perfect breeding ground for the stacks of ant eggs lining the walls.
+Although you are curious, you are careful not to disturb anything.  The
+only exit is to the west.
+~
+0 AD 0
+D3
+Exit ~
+door~
+16384 0 21044
+E
+north~
+A hard dirt wall blocks the north.
+~
+E
+south~
+A hard dirt wall blocks the south.
+~
+E
+east~
+A hard dirt wall blocks the east.
+~
+S
+#21047
+A Path Through the Woods~
+The woods grow darker along this section of the path, since less sunlight
+is able to break through the dense tree limbs overhead.  Sounds from the
+surrounding forest grow louder as your ears compensate for what your eyes
+can not see.  Although the main path continues to the east and west, a
+less traveled sections lies to the north up a steep hill.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 21048
+D1
+Exit ~
+door~
+16384 0 21037
+D3
+Exit ~
+door~
+16384 0 21052
+E
+south~
+The trees are too dense to see through.
+~
+S
+#21048
+A Steep Incline~
+You stand at the bottom of a steep hill.  Although the trees are still
+thick around the path, the ground has grown more rocky.  There is not a
+clear view of the top from this angle.  You can return to the path through
+the woods by heading south, or you can climb up the hill but going west.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 21047
+D3
+Exit ~
+door~
+16384 0 21049
+E
+north~
+The rocky hillside is impassable to the north.
+~
+E
+east~
+The trees are too dense to see through.
+~
+S
+#21049
+A Steep Incline~
+You slip and stumble along the trail of the steep hill.  Small rocks roll
+down the path as you try to steady yourself against the downward pull of
+gravity.  One slight misstep and you too would tumble down the hill.  The
+path continues upward to the north and downward to the east.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 21050
+D1
+Exit ~
+door~
+16384 0 21048
+E
+west~
+The rocky hillside is impassable to the west.
+~
+E
+south~
+The rocky hillside is impassable to the south.
+~
+S
+#21050
+A Steep Incline~
+Sweat drips off your face and you have a hard time catching your breath
+as your near the top of the steep hill.  You move carefully, because a 
+fall from here would mean certain death.  To the east is the hill top and
+to the south is the rocky path down the hill.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21051
+D2
+Exit ~
+door~
+16384 0 21049
+E
+north~
+The rocky hillside is impassable to the north.
+~
+E
+west~
+The rocky hillside is impassable to the west.
+~
+S
+#21051
+The Diving Cliff~
+You stand at the top of a tall cliff that overlooks the deep-end of the
+swimming hole.  This must be the place where all the local cliff divers
+come to practice.  It does not look like a safe place for amateurs.  You
+could try your luck and jump down from the cliff into the water, or you
+can go west and head back down the hill.
+~
+0 0 3
+D3
+Exit ~
+door~
+16384 0 21050
+D5
+Exit ~
+door~
+16384 0 21060
+E
+north~
+The rocky hillside is impassable to the north.
+~
+E
+south~
+The rocky hillside is impassable to the south.
+~
+E
+east~
+You can look out over the entire swimming hole from the top of this hill.
+~
+S
+#21052
+End of the Path~
+The trail through the woods ends at this small clearing in the trees.
+Large shrubs and bushes line the north and south sides of the clearing.
+Although the western edge is blocked by low tree limbs there appears to be
+some grasslands behind them.  The only visible exit is the path to the
+east.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 21047
+D3
+Exit ~
+door~
+16387 0 21053
+E
+north~
+Dense shrubs and trees block any movement to the north.
+~
+E
+south~
+Dense shrubs and trees block any movement to the south.
+~
+S
+#21053
+Make-Out Point~
+This looks like the perfect place to get cozy with your sweetheart.  The
+ground is covered with a soft, green grass and the trees on your south
+and west provide the perfect cover from prying eyes.  To the east low
+limbs partially conceal a path through the woods.  A narrow trail north
+leads away from this spot.
+~
+0 J 3
+D0
+Exit ~
+door~
+16384 0 21054
+D1
+Exit ~
+door~
+16387 0 21052
+E
+south~
+Dense trees block any movemetn south.
+~
+E
+west~
+Dense trees block any movement west.
+~
+S
+#21054
+A Dark Trail~
+The woods are dark along this section of the trail.  The sounds from the
+surrounding forest grow louder as your ears compensate for what your eyes
+can not see.  The trail continues north and south.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 21055
+D2
+Exit ~
+door~
+16384 0 21053
+E
+east~
+Dense trees block any movement east.
+~
+E
+west~
+Dense trees block any movement west.
+~
+S
+#21055
+A Dark Trail~
+It grows darker as the trail through the woods narrows.  Your eyes begin
+to deceive you, and you imagine that every branch that brushes against 
+your sleeve is a monster waiting to attack.  The trail appears to only go
+south, but there is large opening cut into the rocks to the north.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 21056
+D2
+Exit ~
+door~
+16384 0 21054
+E
+east~
+The trees are too dense to see through.
+~
+E
+west~
+The trees are too dense to see through.
+~
+S
+#21056
+Entrance to a Cave~
+You stand inside a large damp cave.  Light pours into the opening along
+the south wall, but barely illuminates the huge space.  You can hear water
+trickling down the walls and see it forming into several pools on the
+ground.  There is a crack in the east wall big enough for a large man to
+squeeze through.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 21057
+D2
+Exit ~
+door~
+16384 0 21055
+E
+north~
+The cave's wall is cold and damp to the touch.
+~
+E
+west~
+The cave's wall is cold and damp to the touch.
+~
+S
+#21057
+Inside a Damp Cave~
+It is very cold and dark inside this part of the cave.  A shiver runs up
+your spine as the squeaks from some hidden cold-blooded animal reach your
+ears.  The cave continues to the east, or you can leave through a large
+crack in the western wall.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 21058
+D3
+Exit ~
+door~
+16384 0 21056
+E
+north~
+The cave's wall is cold and damp to the touch.
+~
+E
+south~
+The cave's wall is cold and damp to the touch.
+~
+S
+#21058
+Deep Inside the Cave~
+No outside light penetrates this section of the cave.  You can smell the
+damp rocks that surround you and hear the sound of water drops hitting the
+stone floor.  There is a small room to the east and the main part of the
+caves lies to the west.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 21059
+D3
+Exit ~
+door~
+16384 0 21057
+E
+south~
+The cave's wall is cold and damp to the touch.
+~
+E
+north~
+The cave's wall is cold and damp to the touch.
+~
+S
+#21059
+A Bear's Den~
+You have stumbled into a bear's den.  There is dead grass and leaves 
+covering the floor, and a wild scent in the air.  You cling to the edge of
+the room, hoping not to be discovered.  The only exit is to the west.
+~
+0 AD 0
+D3
+Exit ~
+door~
+16384 0 21058
+E
+east~
+The cave's wall is cold and damp to the touch.
+~
+E
+south~
+The cave's wall is cold and damp to the touch.
+~
+E
+north~
+The cave's wall is cold and damp to the touch.
+~
+S
+#21060
+Crushed Against the Rocks~
+You dive from the top of the cliff, but your inexperience cause you to be
+hurled through the air into its side.  Your body is crushed against the
+rocks and lands to rest on a small ledge above the water.  You are in too
+much pain to move from here.
+~
+0 C 3
+E
+down~
+The still water lies below you.
+~
+E
+up~
+The top of cliff lies far above you.
+~
+E
+west~
+The side of the cliff is not climbable.
+~
+E
+east~
+You are too hurt to look over the edge of the outcropping.
+~
+E
+south~
+You are too hurt to look over the edge of this outcropping.
+~
+E
+north~
+You are too hurt to look over the edge of this outcropping.
+~
+S
+#0
+
+#RESETS
+M 0 21004   4 21000  1	* a minnow
+M 0 21002   2 21000  1	* a water spider
+M 0 21003   2 21001  1	* a scum sucker
+M 0 21001   3 21003  1	* a crawdad
+M 0 21002   2 21004  1	* a water spider
+M 0 21005   5 21006  2	* a mosquito
+M 0 21005   5 21006  2	* a mosquito
+M 0 21004   4 21008  1	* a minnow
+M 0 21001   3 21009  1	* a crawdad
+M 0 21001   3 21010  1	* a crawdad
+M 0 21004   4 21012  1	* a minnow
+M 0 21004   4 21013  1	* a minnow
+M 0 21003   2 21014  1	* a scum sucker
+M 0 21000   1 21015  1	* a snapping turtle
+M 0 21005   5 21017  1	* a mosquito
+M 0 21008   6 21018  1	* a grasshopper
+M 0 21006   5 21020  1	* a blue bird
+M 0 21008   6 21021  1	* a grasshopper
+M 0 21009   1 21022  1	* a red fox
+M 0 21010   2 21022  2	* a baby fox
+M 0 21010   2 21022  2	* a baby fox
+M 0 21006   5 21023  1	* a blue bird
+M 0 21007   5 21025  1	* a sparrow
+M 0 21005   5 21027  1	* a mosquito
+M 0 21006   5 21029  1	* a blue bird
+M 0 21007   5 21031  1	* a sparrow
+M 0 21007   5 21033  2	* a sparrow
+M 0 21007   5 21033  2	* a sparrow
+E 1 21015  -1   18	*   a robin egg
+M 0 21008   6 21034  1	* a grasshopper
+M 0 21011   4 21035  1	* a black ant
+M 0 21008   6 21035  1	* a grasshopper
+M 0 21011   4 21036  1	* a black ant
+M 0 21012   5 21037  1	* a worker ant
+M 0 21012   5 21038  1	* a worker ant
+M 0 21011   4 21040  1	* a black ant
+M 0 21012   5 21042  2	* a worker ant
+M 0 21012   5 21042  2	* a worker ant
+M 0 21012   5 21043  1	* a worker ant
+M 0 21011   4 21045  1	* a black ant
+M 0 21013   1 21046  1	* the queen ant
+E 1 21014  -1   17	*   an ant egg
+M 0 21006   5 21047  1	* a blue bird
+M 0 21005   5 21049  1	* a mosquito
+M 0 21008   6 21050  1	* a grasshopper
+M 0 21014   1 21051  1	* Biff, the cliff diver
+E 1 21012  -1   17	*   a skipping stone
+M 0 21006   5 21052  1	* a blue bird
+M 0 21008   6 21054  1	* a grasshopper
+M 0 21007   5 21055  1	* a sparrow
+M 0 21016   3 21057  2	* a small black bat
+M 0 21016   3 21057  2	* a small black bat
+M 0 21016   3 21058  1	* a small black bat
+M 0 21015   1 21059  1	* a grizzly bear
+G 1 21013  -1     	*   a fish hook
+D 0 21052   3 16385	* End of the Path west
+D 0 21053   1 16385	* Make-Out Point east
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

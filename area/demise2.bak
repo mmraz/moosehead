@@ -1,0 +1,729 @@
+#AREA
+/mud/moosehead/area/demise2.are~
+Demise Clan Hall~
+{ all } MHS     Demise Clan Hall~
+31400 31422
+
+#MOBILES
+#31400
+shopkeeper old man~
+the ancient potion-brewer~
+An old man eyes you greedily.
+The old man says, 'Would you like to buy a nice love potion?'
+~
+He looks very dangerous.  I wouldn't try to rob him.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQRV DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#31401
+adept cthon~
+an adept of Cthon~
+An adept of Cthon is here, selling spells.
+~
+Although retired from adventuring, the adept still lends a hand.
+Type 'heal' to see a listing of spells.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQVa DFH -1000 0
+51 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#31400
+pit~
+the donation pit~
+The donation pit for Clan Demise~
+evil~
+container Y 0
+10000 0 0 1000 100
+0 0 0 P
+#31401
+drow~
+a dark foreboding shadow~
+~
+~
+portal R P
+0 0 0 5100 0
+0 100 0 P
+#31402
+oldthalos~
+a dark foreboding shadow~
+~
+~
+portal R P
+0 0 0 5300 0
+0 100 0 P
+#31403
+haondor hoandor~
+a dark foreboding shadow~
+~
+~
+portal R P
+0 0 0 6102 0
+0 100 0 P
+#31404
+sands sorrow~
+a dark foreboding shadow~
+~
+~
+portal R P
+0 0 0 5001 0
+0 100 0 P
+#31405
+fountain water~
+a fountain~
+A small drinking fountain is here.~
+~
+fountain 0 0
+0 0 'milk' 0 0
+0 0 0 G
+#31406
+atlantis~
+a dark foreboding shadow~
+~
+~
+portal R P
+0 0 0 2318 0
+0 100 0 P
+#31407
+Emerald~
+a dark foreboding shadow~
+~
+~
+portal R P
+0 0 0 3521 0
+0 100 0 P
+#31408
+elemental canyon~
+a dark foreboding shadow~
+~
+~
+portal R P
+0 0 0 9209 0
+0 100 0 P
+#31409
+cot~
+a dark foreboding shadow~
+~
+~
+portal R P
+0 0 0 6023 0
+0 100 0 P
+#31410
+camelot~
+a dark foreboding shadow~
+~
+~
+portal R P
+0 0 0 17676 0
+0 100 0 P
+#31411
+nt~
+a dark foreboding shadow~
+~
+~
+portal R P
+0 0 0 9506 0
+0 100 0 P
+#31412
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#31413
+pyramid~
+a dark foreboding shadow~
+~
+~
+portal R P
+0 0 0 8701 0
+0 100 0 P
+#31414
+stream blood~
+a stream of blood~
+A stream of blood flows here, making your mouth water.~
+~
+fountain 0 0
+0 0 'blood' 0 0
+0 0 0 G
+#31415
+Manual elite pkilling~
+the Manual of Elite pkilling~
+There is dark booklet on the ground covered with blood and gooey stuff.~
+Skin~
+key CPTUXd AO
+0 0 0 0 0
+51 5 13320 P
+A
+17 50
+A
+20 -5
+A
+18 5
+A
+19 5
+E
+booklet~
+As you open the manual, You feel your inside of upside down. The pictures of
+Most horrifying terrors and ways to torture beings has been drawn very precisly
+with blood.
+~
+E
+xar haplo Kerbouchard~
+The picture of Xar, Kerbouchard and Haplo has been glued on the page.
+they are feeding Bunnies and other furry cute creatures with acorn and 
+berries. 
+Man, if this picture would get out into public...
+~
+#0
+
+#ROOMS
+#31400
+Dark Passageway~
+Your torches flicker and flare as you head down through a dark passage,
+passing below the bustling streets of Midgaard.  An oppressive mood hangs
+in the air, prickling at your spine.  You realize that if you were an
+enemy of Demise you would be dead by now...
+~
+0 DKY 0
+D2
+Exit ~
+door~
+16384 0 3315
+D5
+Exit ~
+door~
+16384 0 31401
+S
+#31401
+The Hall of Clan Demise~
+The darkness and smoke in the room envelops your mood.  A bit of your
+evil side starts to come out.  The room is quite messy as when your
+concern is death and destruction housekeeping is of little importance.
+This seems like a good place to hide from other Clans.
+~
+0 DKY 0
+D0
+Exit ~
+door~
+16384 0 31404
+D4
+Exit ~
+door~
+16384 0 31400
+S
+#31402
+The Demise Clan Store~
+You can buy all kinds of things here. The colors and smells show
+construction as the store is new and expanding.  There is a hole in the
+floor.
+~
+0 DKY 0
+D1
+Exit ~
+door~
+16384 0 31404
+D5
+Exit ~
+door~
+16384 0 31405
+S
+#31403
+The Altar~
+This room is shrouded in perpetual darkness, with sconces on the wall 
+flickering with an eerie violet flame.  A large emblem on the north wall
+proclaims the glories of Cthon, patron deity of Demise. His blood-soaked
+altar lies directly under it, with blackened instruments of death awaiting
+new victims.  A statue sits on either side of the altar, the right one of
+Eiji, founder of the clan, the left of Valnor, its second leader. The room
+reeks of evil darkness, making you feel quite at home.
+ 
+A large Golden Altar stands in the middle of the room.
+~
+0 DKY 15
+H 300 M 300
+D0
+Exit ~
+door~
+16384 0 31422
+D1
+Exit ~
+door~
+16384 0 31407
+D2
+Exit ~
+door~
+16384 0 31404
+D3
+Exit ~
+door~
+16384 0 31408
+D4
+Exit ~
+door~
+16384 0 31409
+D5
+Exit ~
+door~
+16384 0 31411
+E
+statues eiji valnor~
+The statues are carved from solid marble, and enlaid with gold. They must have
+cost a fortune.  Each is portrayed with sword upraised and shield on guard,
+ready to slay enemies for the great Cthon.
+~
+E
+altar cthon blood~
+The altar is made from strange black stone that is warm and pulsing to the
+touch.  A red glow surrounds your hand as you reach towards it, and you
+feel the power of Cthon around you...
+~
+E
+emblem~
+It's a design of the many-tentacled head of Cthon, with helpless warriors and
+townspeople ensared in his grasp and being pulled towards his sharp-toothed
+maw.  His eyes seem to move to follow you...
+~
+S
+#31404
+A Grim Hallway~
+This hallway is lined with torches, but they burn only fitfully, leaving you
+shrouded in darkness and smoke. Shields and swords marked with the scars
+of battle line either wall.  South is the main hall of Clan Demise, and
+to the north lies the altar of dark Cthon.
+~
+0 DKY 0
+D0
+Exit ~
+door~
+16384 0 31403
+D1
+Exit ~
+door~
+16384 0 31406
+D2
+Exit ~
+door~
+16384 0 31401
+D3
+Exit ~
+door~
+16384 0 31402
+E
+shields swords~
+They appear to be well-made, but non-magical, weapons. Your own equipment
+is most likely superior.  Labels above each indicate the battles they were
+used in.
+~
+E
+torches~
+The torches are enchanted to burn continously and give off the smokey 
+haze that fills the clan hall. 
+~
+S
+#31405
+'Shadow Walk'~
+Shadows dance in the pale green light as you step into the chamber.
+Thick wart like growths cover the chamber walls. It is rumored that these
+'warts' are parts of people's souls, forever living a tortured existance,
+only to be released when the last spark of life has been crushed by
+the faithful Demise worshipers.  In the center of this chamber sits a
+mass of darkness.  Its shadows moving, reaching towards you, almost as
+if to wrap itself around your body to embrace you in its evil presence.
+  Before the dark mass sits an old wooden sign.
+~
+0 ADKY 0
+H 0 M 0
+D1
+Exit ~
+door~
+16384 0 25500
+D4
+Exit ~
+door~
+16384 0 31402
+E
+sign~
+Walk forth and embrace the shadows, for they shall help you in your
+journeys...  The dark beings that rule over our souls have given us the
+ability to shadow walk.  For this we must be thankful;  Thus we will
+continue our everlasting hunt for souls so that we may feed the evil
+that binds us.
+ 
+  In order to Shadow Walk, type 'enter <destination name>'
+ 
+Here are the accepted destinations:
+ 
+  Atlantis             " enter atlantis "
+  Drow City            " enter drow "
+  Elemental Canyon     " enter elemental "
+  Emerald Forest       " enter emerald "
+  Haon Dor             " enter Haon "
+  Old Thalos           " enter oldthalos "
+  Sands of Sorrow      " enter sands "
+  City of Thieves      " enter cot"
+  Camelot              " enter camelot"
+  New Thalos             " enter nt"
+  City of Thieves      " enter cot"
+  Great Pyramid        " enter pyramid "
+~
+S
+#31406
+The Freezer Room~
+DEATH surrounds you.  Corpses everywhere hanging on meat hooks, for 
+future use as tanks or for decoration.  It is cold in here and there
+is a really funky smell in the air so get in and out as fast as you
+can.
+A wooden door is in the middle of the freezer room.
+~
+0 CDKY 0
+D3
+Exit ~
+door~
+16384 0 31404
+D5
+Exit ~
+door~
+16387 0 31410
+S
+#31407
+The Evil Magic Sanctuary~
+~
+0 CDKY 0
+D3
+Exit ~
+door~
+16384 0 31403
+S
+#31408
+The Evil Magic Library~
+~
+0 CDKY 0
+D1
+Exit ~
+door~
+16384 0 31403
+S
+#31409
+Demise Advanced Magelab~
+Upon entering a small, bleak room, you are struck by the change in the
+surroundings.  The stagnant, slightly warm air pulsates with a profound
+throb, and the base of your spine quakes in deference to some awesome
+power that eludes your conscious sense, which can only detect a dearth
+of something unplacable that distinguishes this cell from the rest of the
+hall.  A pipe projects from one wall and connects to a distorted metal
+structure that resembles, to your impetuous imagination, a battered rib
+cage.  On it is a small label.  Two stone statues glare down at the room.
+Following their gaze to the winding stairway which led you here, your
+nostrils fill with the familiar stench of blood, placating your unease.
+~
+0 CDKY 13
+D5
+Exit ~
+door~
+16384 0 31403
+E
+2.statue~
+A second stone statue of Eidolon, the elf wizard, leans craftily in a corner.
+~
+E
+statue~
+A stone statue of Infernis, the great red wyrm, is coiled up restively 
+in a corner of the chamber.
+~
+E
+sign~
+A small label states:
+From the sacrificial altar of Tenochtitlan.
+~
+S
+#31410
+Clan Demise Pool~
+*Splash splash splash*
+~
+0 CDKY 6
+D0
+Exit ~
+door~
+16384 0 31412
+D1
+Exit ~
+door~
+16384 0 31414
+D2
+Exit ~
+door~
+16384 0 31413
+D4
+Exit ~
+door~
+16387 0 31406
+S
+#31411
+Demise Observation Rooms~
+This dark, musty, cool room radiates black black magic.  A set of glowing
+sigils is ingraved on the wall.
+ 
+~
+0 CDK 0
+C demise~
+D0
+Exit ~
+door~
+16384 0 31418
+D1
+Exit ~
+door~
+16384 0 31420
+D2
+Exit ~
+door~
+16384 0 31419
+D3
+Exit ~
+door~
+16384 0 31421
+D4
+Exit ~
+door~
+16384 0 31403
+D5
+Exit ~
+door~
+16384 0 31416
+E
+sigils~
+Go north to observe Hell
+Go south to observe Altirin Forest
+Go East to observe Nottingham
+Go West to observe The Emerald Forest
+~
+S
+#31412
+Clan Demise Pool~
+*Splash splash splash*
+~
+0 CDKY 6
+D2
+Exit ~
+door~
+16384 0 31410
+S
+#31413
+Clan Demise Pool~
+*Splash splash splash*
+~
+0 CDKY 6
+D0
+Exit ~
+door~
+16384 0 31410
+S
+#31414
+Clan Demise Pool~
+*Splash splash splash*
+~
+0 CDKY 6
+D3
+Exit ~
+door~
+16384 0 31410
+S
+#31415
+Demise Observation Room to Castle Trinity~
+Generic room description.
+~
+0 CDKSTW 21
+B 5901
+C demise~
+D1
+Exit ~
+door~
+16384 0 31416
+S
+#31416
+Demise Observation Rooms~
+This dark, musty, cool room radiates black magic.  A set of glowing
+sigils is ingraved on the wall.
+~
+0 CDK 0
+C demise~
+D2
+Exit ~
+door~
+16384 0 31417
+D3
+Exit ~
+door~
+16384 0 31415
+D4
+Exit ~
+door~
+16384 0 31411
+S
+#31417
+Demise Observation Room to Camelot~
+You vaguely hear the whinney of horses, and the clash of
+armor as the knights of Camelot hold a joust.
+~
+0 CDKT 21
+B 2491
+C demise~
+D0
+Exit ~
+door~
+16384 0 31416
+S
+#31418
+Demise Observation Room Into Hell~
+Spy into Hell, Demiser.
+ 
+~
+0 CDKT 21
+B 10401
+C demise~
+D2
+Exit ~
+door~
+16384 0 31411
+S
+#31419
+Demise Observation Room into The Altirin Forest~
+Spy forth mighty Demisers, into Altirin.
+~
+0 CDKT 21
+B 12000
+C demise~
+D0
+Exit ~
+door~
+16384 0 31411
+S
+#31420
+Demise Observation Room Into Nottingham~
+This room allows those in clan {RDemise{x to observe Nottingham.
+~
+0 CDKT 21
+B 10399
+C demise~
+D3
+Exit ~
+door~
+16384 0 31411
+S
+#31421
+Clan Demise's Obs room to the Emerald Forest~
+Peer forth into the Emerald Forest.
+~
+0 CDST 21
+B 8593
+C demise~
+D1
+Exit ~
+door~
+16384 0 31411
+S
+#31422
+Demise's healing room~
+~
+0 CDK 15
+H 300 M 300
+C demise~
+D2
+Exit ~
+door~
+16384 0 31403
+S
+#0
+
+#RESETS
+D 0 31400   2 16384	* Dark Passageway south
+D 0 31400   5 16384	* Dark Passageway down
+D 0 31401   0 16384	* The Hall of Clan Demise north
+D 0 31401   4 16384	* The Hall of Clan Demise up
+D 0 31404   0 16384	* A Grim Hallway north
+D 0 31404   1 16384	* A Grim Hallway east
+D 0 31404   2 16384	* A Grim Hallway south
+D 0 31404   3 16384	* A Grim Hallway west
+D 0 31406   3 16384	* The Freezer Room west
+D 0 31406   5 16387	* The Freezer Room down
+D 0 31407   3 16384	* The Evil Magic Sanctuary west
+D 0 31409   5 16384	* Demise Advanced Magelab down
+D 0 31410   4 16387	* Clan Demise Pool up
+D 0 31411   0 16384	* Demise Observation Rooms north
+D 0 31411   1 16384	* Demise Observation Rooms east
+D 0 31411   2 16384	* Demise Observation Rooms south
+D 0 31411   4 16384	* Demise Observation Rooms up
+M 0 31401   1 31403  1	* an adept of Cthon
+O 0 31400 100 31403	* the donation pit
+O 0 31405 100 31403	* a fountain
+O 0 31414 100 31403	* a stream of blood
+D 0 31403   1 16384	* The Altar east
+D 0 31403   2 16384	* The Altar south
+D 0 31403   3 16384	* The Altar west
+D 0 31403   4 16384	* The Altar up
+D 0 31403   5 16384	* The Altar down
+O 0 31411 100 31405	* a dark foreboding shadow
+O 0 31409 100 31405	* a dark foreboding shadow
+O 0 31401 100 31405	* a dark foreboding shadow
+O 0 31402 100 31405	* a dark foreboding shadow
+O 0 31403 100 31405	* a dark foreboding shadow
+O 0 31404 100 31405	* a dark foreboding shadow
+O 0 31406 100 31405	* a dark foreboding shadow
+O 0 31407 100 31405	* a dark foreboding shadow
+O 0 31408 100 31405	* a dark foreboding shadow
+O 0 31410 100 31405	* a dark foreboding shadow
+O 0 31413 100 31405	* a dark foreboding shadow
+D 0 31405   4 16384	* 'Shadow Walk' up
+M 0 31400   1 31402  1	* the ancient potion-brewer
+G 1 3290  -1     	*   a potion of negation
+G 1 3241  -1     	*   a yellow potion of see invisible
+G 1 3281  -1     	*   a potion of sanctuary
+G 1 3282  -1     	*   a potion of divine protection
+G 1 3283  -1     	*   a potion of cure light wounds
+G 1 3284  -1     	*   a potion of cure serious wounds
+G 1 3286  -1     	*   a bottle of antidote
+G 1 3287  -1     	*   a potion of cure blindness
+G 1 3289  -1     	*   a potion of armor
+G 1 3291  -1     	*   a potion of flying
+G 1 3292  -1     	*   a potion of true sight
+G 1 3032  -1     	*   a bag
+G 1 3288  -1     	*   a vial of holy water
+G 1 3238  -1     	*   a buffalo water skin
+G 1 3239  -1     	*   a bucket of hot Buffalo chicken wings
+G 1 3240  -1     	*   a scroll of identify
+G 1 3242  -1     	*   a scroll of recall
+D 0 31402   1 16384	* The Demise Clan Store east
+D 0 31402   5 16384	* The Demise Clan Store down
+D 0 31408   1 16384	* The Evil Magic Library east
+O 0 31414 100 31422	* a stream of blood
+O 0 31405 100 31422	* a fountain
+S
+
+#SHOPS
+31400 10  0  0  0  0 	 500 100 	 0 23 	* the ancient potion-brewer
+0
+
+#SPECIALS
+M 31401 spec_cast_adept     	* an adept of Cthon
+S
+
+#$

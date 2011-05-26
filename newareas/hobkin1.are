@@ -1,0 +1,112 @@
+#AREA
+../newareas/hobkin1.are~
+hobkin1~
+{ All }         hobkin1~
+17800 17802
+
+#MOBILES
+#17800
+Big scary monster faerie~
+a great big scary faerie~
+You see a big scary monster of a faerie here.
+~
+The teeth! The claws! It all makes you want to run away and hide under your bed
+~
+faerie~
+~
+(null)~
+(null)~
+AFGRT V 750 0
+47 40 25d10+3500 10d5+50 5d8+20 claw
+-25 -25 -25 -20
+DEFNU AB 0 0
+stand stand male 0
+C PT small 0
+F par GHIJK
+#17801
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+(null)~
+(null)~
+(null)~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#17800
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#0
+
+#ROOMS
+#17800
+A small clearing between the trees~
+As you step into a small clearing between the trees you notice that it was
+not created by nature, somebody cleared the trees from this area for a reason.
+~
+0 U 9
+H 175 M 200
+D0
+Exit ~
+bushes~
+16707 0 17801
+S
+#17801
+Hobkin's other room.~
+This is my other room, it's found to the north of my first room. I think I like
+this one more.
+~
+0 0 3
+M 200
+D0
+Exit ~
+door~
+16384 0 17802
+D2
+Exit ~
+bushes~
+16707 0 17800
+E
+sign~
+This sign is here cuz Prowler told me to. ;)
+~
+S
+#17802
+Generic room name~
+Generic room description.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 17801
+S
+#0
+
+#RESETS
+M 0 17800   1 17801  1	* a great big scary faerie
+D 0 17801   2 16707	* Hobkin's other room. south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 17800 spec_cast_mage      	* a great big scary faerie
+S
+
+#$

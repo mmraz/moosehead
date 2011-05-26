@@ -1,0 +1,287 @@
+#AREA
+../newareas/alag3.are~
+alagaster_9900_9999~
+{ All }         alagaster_9900_9999~
+9900 9909
+
+#MOBILES
+#9900
+moat sea monster~
+a hideous monster~
+A monster swims about the moat, attacking anything that moves.
+~
+You look upon a terribly deformed monster.  You can only imagine what this creature
+used to be.  Obviously the toxins from this moat have mutated this creature beyond
+recognition.  Hopefully you can sneak past it without it noticing.
+~
+human~
+(null)~
+(null)~
+(null)~
+AFT 0 0 0
+45 7 10d10+4500 1d1+499 7d7+20 digestion
+-40 -40 -40 -50
+EFMNU 0 0 0
+stand stand none 0
+0 0 large 0
+F par GHIJK
+#9901
+Elite Nottingham Cityguard~
+An Elite Nottingham Cityguard~
+An Elite Nottingham Cityguard stands here protecting Nottingham Castle.
+~
+The most feared and hated of all Prince John's soldiers.  By the looks of him you
+know that he has seen his fair share of battle and will kill anyone that tries to
+harm the prince or this castle.  You must be cautious.
+~
+human~
+You do not belong here! Away from the castle!~
+Prince John will see you hang!~
+This is the worst invasion attempt I've ever seen!~
+ABFT DFHV 1000 0
+53 38 1d100+6500 1d1+499 5d8+20 punch
+-35 -35 -35 -35
+DEFIKNU A B 0
+stand stand none 0
+0 0 large 0
+F par GHIJK
+#9902
+Elite Nottingham Cityguard~
+An Elite Nottingham Cityguard~
+An Elite Nottingham Cityguard stands here protecting Nottingham Castle.
+~
+The most feared and hated of all Prince John's soldiers.  By the looks of him you
+know that he has seen his fair share of battle and will kill anyone that tries to
+harm the prince or this castle.  You must be cautious.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFT DFHV 1000 0
+53 38 1d100+6500 1d1+499 5d8+20 punch
+-35 -35 -35 -35
+DEFIKNU A B 0
+stand stand none 0
+0 0 large 0
+F par GHIJK
+#0
+
+#OBJECTS
+#9900
+gate key nottingham~
+Nottingham Gatekey~
+A Key lies here.  Upon it is the ensignia of Nottingham Castle.~
+iron~
+none 0 A
+0 0 0 0 0
+1 0 0 P
+#9901
+bed comfortable~
+A Nottingham Guard's Bed~
+A really comfy bed is here, man just looking at that thing makes you tired.~
+feathers~
+furniture 0 0
+2 0 K 125 115
+1 1000 0 P
+#0
+
+#ROOMS
+#9900
+Before a Drawbridge~
+You stand before an immense drawbridge leading into Nottingham Castle.  Upon the
+bridge stands two of Nottingham's most elite guards.  You can spot at least two more
+on the walls.  Invasion of such a place will not be easy.  You begin to contemplate
+how best to attack the castle.
+~
+0 C 1
+D0
+Exit ~
+door~
+16384 0 9901
+S
+#9901
+Upon a Drawbridge~
+You stand upon a wooden bridge.  It seems to be the only way into Nottingham Castle.
+Well, the only reasonable way.  Below the bridge on either side you can see the
+filthy moat that surrounds the castle.  A large iron gate is at the far end of the 
+bridge.  It looks as though it could be lowered quickly to keep intruders out, or
+perhaps, to keep prevent someone from escaping.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9906
+D1
+Exit ~
+door~
+20480 0 9902
+D2
+Exit ~
+door~
+16384 0 9900
+S
+#9902
+Within the Moat~
+You have jumped from the bridge into the moat below.  The cold water of the moat
+begins to make you shiver.  While the smell of the stagnated water is almost too much
+to stand.  You begin to think there is something moving in the water but you decide
+it is just your imagination.  Nothing could live in this putrid hole.
+~
+0 0 6
+D1
+Exit ~
+door~
+16384 0 9903
+S
+#9903
+Within the Moat~
+You thought the smell was rancid when you first came into the moat but this is even
+worse.  You now see the source of the smell though, it looks as though the sewer
+from the castle empties out into the moat.  The sewer is covered with a large metal
+grate that doesn't even budge.
+~
+0 0 6
+D0
+Exit ~
+grate~
+16451 0 9904
+D3
+Exit ~
+door~
+16384 0 9902
+S
+#9904
+Within Notthingham's Sewers~
+You stand within the sewers of Nottingham.  The smell is far worse than anything you
+have ever imagined.  The only source of light other than your own is the light that
+is filtering through a large metal grate to the south.  This pipeline leads to the
+North where it branches off into other lines.  You can only guess where all those
+tunnels may lead.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9905
+D2
+Exit ~
+door~
+16384 0 9903
+S
+#9905
+Within Nottingham's Sewers~
+The putrid smell of the sewer is almost overwhelming.  The sewage flows Southward
+towards what looks to be a natural source of light.  This large tunnel splits into
+three smaller ones to the North, West and East.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 9904
+S
+#9906
+Before the Castle Gates~
+To the south is the drawbridge that leads into Nottingham Castle.  You stand before
+a large iron gate.  There are at least two guard towers here in the front of the
+castle.  Patrols of Elite Nottingham Guards pass by every few minutes.  You realize
+that if you do not have a good plan for getting in and out of this castle there is a
+good chance that you won't make it out alive.
+~
+0 N 0
+D0
+Exit ~
+door~
+16422 9900 9907
+D2
+Exit ~
+door~
+16384 0 9901
+S
+#9907
+Within the gates of Nottingham Castle~
+You have just stepped inside the gates of Nottingham Castle.  You look across a very
+large courtyard.  The various towers of the castle loom over you.  To the North is
+the Castle main.  To the East you can see the barracks of the Prince's men.  To the
+West you can see the field where various festivals are held.  At your back is a large
+metal gate.  If the guards close it, then you will have to find a new route out of
+the castle.
+~
+0 N 2
+D1
+Exit ~
+door~
+16384 0 9908
+D2
+Exit ~
+door~
+16486 0 9906
+S
+#9908
+Nottingham Castle Courtyard~
+Just to the East is the guard barracks, to the North you can see the main castle.  You
+can see the tournament and festival grounds.  High above you the towers of Nottingham
+castle are guarded by the Prince's men.  If the alarm is sounded then you know that
+there is a good chance you will not get out alive.
+~
+0 N 2
+D1
+Exit ~
+door~
+16384 0 9909
+D3
+Exit ~
+door~
+16384 0 9907
+S
+#9909
+Nottingham Guard Barracks~
+The barracks of Nottingham Castle is quite comfortable.  The guards come here to rest
+and prepare for another day of defending Prince John.  The room is rather large with
+four beds that the guards use.  On the Northern wall of the room you see a door that
+leads to the guards' toilet.
+~
+0 N 0
+D3
+Exit ~
+door~
+16384 0 9908
+S
+#0
+
+#RESETS
+M 0 9900   1 9902  1	* a hideous monster
+M 0 9901   2 9906  2	* An Elite Nottingham Cityguard
+M 0 9901   2 9906  2	* An Elite Nottingham Cityguard
+G 1 9900  -1     	*   Nottingham Gatekey
+M 0 9902   2 9907  2	* An Elite Nottingham Cityguard
+M 0 9902   2 9907  2	* An Elite Nottingham Cityguard
+D 0 9900   0 16384	* Before a Drawbridge north
+D 0 9901   0 16384	* Upon a Drawbridge north
+D 0 9901   1 20480	* Upon a Drawbridge east
+D 0 9901   2 16384	* Upon a Drawbridge south
+D 0 9902   1 16384	* Within the Moat east
+D 0 9903   0 16451	* Within the Moat north
+D 0 9903   3 16384	* Within the Moat west
+D 0 9904   0 16384	* Within Notthingham's Sewers north
+D 0 9904   2 16384	* Within Notthingham's Sewers south
+D 0 9905   2 16384	* Within Nottingham's Sewers south
+D 0 9906   0 16422	* Before the Castle Gates north
+D 0 9906   2 16384	* Before the Castle Gates south
+D 0 9907   2 16486	* Within the gates of Nottingham Castle south
+O 0 9901 100 9909	* A Nottingham Guard's Bed
+O 0 9901 100 9909	* A Nottingham Guard's Bed
+O 0 9901 100 9909	* A Nottingham Guard's Bed
+O 0 9901 100 9909	* A Nottingham Guard's Bed
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 9901 spec_jabber         	* An Elite Nottingham Cityguard
+S
+
+#$

@@ -1,0 +1,1223 @@
+#AREA
+/mud/moosehead/area/tallt.are~
+Orcs' Lair~
+{ 7 15} TallTre Orcs' Lair~
+17000 17041
+
+#MOBILES
+#17000
+small orc~
+The small orc~
+A small orc stands here ready to defend his lair.
+~
+The small orc is very ugly to look at. Its fangs stick out as it approaches
+you with a huge grin on its face.
+~
+human~
+(null)~
+(null)~
+(null)~
+AFGT 0 -300 0
+7 1 2d6+85 10d9+80 1d8+1 pierce
+4 4 4 4
+EFNU 0 L 0
+stand stand male 15
+0 0 small 0
+F par GHIJK
+#17001
+rabid minotaur~
+the Rabid Minotaur~
+The Rabid Minotaur pounces on you!
+~
+The minotaur looks rather helpless with drool running down its chin, eyes
+glazed over. It doesn't seem to care if it dies or not.
+~
+giant~
+(null)~
+(null)~
+(null)~
+ABCFG 0 -400 0
+17 0 3d9+258 7d9+100 2d6+3 stab
+-3 -3 -3 -3
+EFNU B 0 0
+stand stand male 0
+0 0 medium 0
+F res HI
+F vul JP
+#17002
+orc leader~
+the Orc Leader~
+The orc leader looking at the table looks up, screams and attacks
+~
+-- Dumb as sin!
+He was obviously chosen leader for only one reason, HIS SIZE!!!
+~
+orc~
+(null)~
+(null)~
+(null)~
+ABFGT 0 -200 0
+15 1 3d9+208 2d9+100 2d6+3 stab
+-2 -2 -2 -2
+EFJNU 0 0 C
+stand stand none 2
+0 0 large 0
+F aff J
+F res Q
+F vul S
+F par GHIJK
+#17003
+orc sub-chief~
+The Orc Sub-chief~
+The Orc Sub-chief is sitting at the table discussing plans
+~
+The Orc Sub-Chief is a burly man but smaller then the leader.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABGT 0 -100 0
+10 0 2d7+121 2d6+90 2d4+2 slice
+1 1 1 1
+EFNU 0 0 0
+stand stand male 5
+0 0 medium 0
+F par GHIJK
+#17004
+slime mold~
+The slime mold~
+The slime mold is sitting here digesting human remains.
+~
+This slime mold looks disgusting! It has no eyes that can be seen
+and nothing else that can even look human.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABC 0 0 0
+8 1 2d7+96 2d9+100 1d7+2 none
+3 3 3 3
+EFNU 0 0 0
+sit sit none 0
+0 0 medium 0
+#17005
+orc guard~
+an Orc Guard~
+The orc guard is standing here guarding his post.
+~
+This orc guard is dedicated to making sure no one invades his lair.
+His spear looks quite sharp.
+~
+orc~
+(null)~
+(null)~
+(null)~
+ABF 0 -150 0
+9 0 2d6+110 4d9+100 1d8+2 thrust
+2 2 2 2
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F res Q
+F vul S
+#17006
+orc cook~
+The Orc Cook~
+The Orc cook is standing over a hot stove
+~
+The Orc cook looks quite busy preparing his slop. Eating it would probably
+make you sick.
+~
+orc~
+(null)~
+(null)~
+(null)~
+ABCT 0 -40 0
+11 0 2d8+134 2d10+100 1d10+2 cleave
+0 0 0 0
+EFNU 0 0 0
+stand stand female 0
+0 0 medium 0
+F aff J
+F res Q
+F vul S
+F par GHIJK
+#17007
+sleeping guard~
+The Sleeping Guard~
+The sleeping guard is here snoring away
+~
+The guards seem to be sleeping confortably on the floor. Are you sure you
+want to wake them by killing them?
+~
+orc~
+(null)~
+(null)~
+(null)~
+AGT 0 0 0
+7 0 2d6+85 2d6+80 1d8+1 punch
+8 8 8 8
+EFNU 0 0 0
+sleep sleep male 0
+0 0 medium 0
+F aff J
+F res Q
+F vul S
+F par GHIJK
+#0
+
+#OBJECTS
+#17000
+orc spear~
+an orc spear~
+You see an orc spear lying here. It doesn't look in great shape.~
+wood~
+weapon 0 AN
+staff 1 8 thrust 0
+6 15 500 P
+#17001
+small wooden key~
+a small wooden key~
+You see a small wooden key. What could it open?~
+wood~
+key P AO
+0 0 0 0 0
+0 1 0 P
+#17002
+treasure chest~
+a treasure chest~
+The treasure chest lies here waiting for someone to open it.~
+wood~
+container R 0
+2000 ABCD 17003 2000 0
+0 1000 0 P
+#17003
+key treasure chest~
+a treasure chest key~
+A key of GREAT importances lies here.~
+metal~
+key AP A
+0 0 0 0 0
+0 10 0 P
+#17004
+orc treasure~
+the orcs' treasure~
+You see the orcs' treasure.~
+coins~
+money 0 A
+2500 15 0 0 0
+0 1 100 P
+#17005
+white potion~
+a white potion~
+A white potion is sitting here waiting to be drunk.~
+glass~
+potion 0 AO
+10 'cure poison' 'protection evil' '' ''
+8 3 120 P
+#17006
+sword sheathe~
+a sword sheathe~
+You see a sword sheathe lying here.~
+leather~
+armor 0 AL
+3 4 4 0 0
+8 20 1200 P
+A
+1 1
+#17007
+orc vest~
+an orc vest~
+The vest lies here a mish-mash of several armors glued together.~
+metal~
+armor 0 AD
+5 6 4 1 0
+12 30 1400 P
+#17008
+orc ring~
+an orc ring~
+You see an orc leader ring on the floor.~
+steel~
+armor 0 AB
+1 2 2 2 0
+9 5 700 P
+A
+19 1
+#17009
+firefly lantern~
+a firefly lantern~
+You see a firefly lantern lying here on the ground. Proof the orcs are cruel!~
+glass~
+light 0 A
+0 0 -1 0 0
+5 8 1000 P
+A
+18 1
+#17010
+orc whip~
+an orc's whip~
+The crude orc whip lies here on the ground.~
+leather~
+weapon 0 AN
+whip 1 9 whip 0
+6 20 1000 P
+#17011
+crinkly scroll~
+a crinkly scroll~
+A crinkly scroll lies here with unlegible writting.~
+paper~
+scroll A A
+5 'invisibility' '' '' ''
+8 2 1500 P
+#17012
+wooden spoon~
+a wooden spoon~
+A wooden spoon lies on the ground waiting to stir something.~
+wood~
+wand 0 AO
+15 5 5 'fly' 0
+15 4 2000 P
+#17013
+meat cleaver~
+a meat cleaver~
+You see a cook's meat cleaver lying here.~
+steel~
+weapon 0 AN
+dagger 2 4 cleave 0
+10 100 1500 P
+#17014
+cook apron~
+a cook's apron~
+You see a cook's apron here. It reads "Kiss the cook" on it.~
+cloth~
+armor 0 AC
+5 5 5 2 0
+11 20 1300 P
+#17015
+tree bark~
+a piece of tree bark~
+You see a piece of tree bark given to you by Talltree~
+~
+pill GT A
+30 'cure critical' 'bless' 'create rose' ''
+0 10 1 P
+#17016
+test portal~
+a test portal~
+a test portal sits here~
+~
+portal AC P
+0 0 0 3001 0
+1 5000 10000 P
+#17017
+Talltree easy chair~
+talltree's easy chair~
+You see a nice comfy easy chair recliner.~
+~
+furniture ABC 0
+1 0 F 200 200
+0 500 10000 P
+#0
+
+#ROOMS
+#17000
+Entrance to the Orcs' Lair~
+You are at the entrance to the orcs' lair. Revolting odors wafting from the
+caves make your stomach retch and you fight to stop from vomiting. Evil
+can be felt throughout the entrance. Darkness is all that is ahead in the
+caves, the ground is made of solid rock and covered in dirt, fresh
+footprints lead off into the darker confines of the lair.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17001
+D3
+Exit ~
+door~
+16384 0 1524
+S
+#17001
+Inside the Orcs' Lair~
+You have decided to brave the lair, how foolish people can be. The smell
+gets stronger as you come fully into the lair, where the air has been stale
+for a long time. The footprints lead off east. Snoring can be heard coming
+from the north, and a small hole leads down into the darkness.
+~
+0 AD 0
+D0
+Exit ~
+~
+16384 0 17029
+D1
+Exit ~
+~
+16384 0 17002
+D3
+Exit ~
+~
+16384 0 17000
+D5
+Exit ~
+~
+16384 0 17030
+S
+#17002
+A tunnel in the orcs' lair~
+You are inside the orcs' lair. The smell grows stronger as you enter this
+room. You fight to keep from becoming ill, while gasping for fresh air.
+The footprints seem to have vanished from sight. Straw strewn about
+haphazardly covers the floor of this room. Recent blood splatters of a fight
+cover the walls. The tunnel continues deeper into the darkness while fresh
+air and safety lies on the way out.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17004
+D3
+Exit ~
+~
+16384 0 17001
+D5
+Exit ~
+straw~
+16387 -1 17003
+E
+straw~
+You see a small patch of straw. It looks like it is covering something up.
+~
+S
+#17003
+Under the straw bed~
+You have climbed down a ladder into a dark tunnel. The odor while not gone
+is more tolerable here. The footprints continue east. A wooden door can be
+seen here. The ladder you came down on seems quite old and unstable. You
+wonder how you got down it safely. The dimness of the tunnels make your eyes
+squint as you adjust your light source to get a better view.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17009
+D3
+Exit ~
+wooden door~
+16391 17001 17008
+D4
+Exit ~
+straw~
+16387 -1 17002
+S
+#17004
+An intersection in the orcs' lair~
+You are at an intersection in the orcs' lair, darkness and evil permeate the
+room. The footprints have not re-appeared beyond the straw, where they have
+gone no one knows. Small drafts can be felt coming from all directions while
+the putrid odors come directly from a dark pit below. 
+~
+0 AD 0
+D0
+Exit ~
+~
+16384 0 17006
+D1
+Exit ~
+~
+16384 0 17005
+D2
+Exit ~
+~
+16384 0 17007
+D3
+Exit ~
+~
+16384 0 17002
+D5
+Exit ~
+~
+16384 0 17032
+S
+#17005
+Dead End~
+You have reached a dead end. On the east wall is a small arrow slit most
+probably made by the orcs.
+~
+0 AD 0
+D3
+Exit ~
+~
+16384 0 17004
+E
+slit~
+The slit looks big enough for an arrow or hand to fit through. Sticking
+your eye in this slit COULD be dangerous.
+~
+S
+#17006
+Dead End~
+You have reached a dead end. On the north wall is a small arrow slit most 
+probably made by the orcs.
+~
+0 AD 0
+D2
+Exit ~
+~
+16384 0 17004
+E
+slit~
+The slit looks big enough for an arrow or hand to fit through. Sticking
+your eye in this slit COULD be dangerous.
+~
+S
+#17007
+Dead End~
+You have reached a dead end. On the south wall is a small arrow slit. Most
+probably it was made by the orcs.
+~
+0 AD 0
+D0
+Exit ~
+~
+16384 0 17004
+E
+slit~
+The slit looks big enough for an arrow or hand to fit through. Sticking
+your eye in this slit COULD be dangerous.
+~
+S
+#17008
+Orcs' Weapon Storage~
+You have entered the orcs' weapon storage area. Racks line the walls and
+boxes are piled all over the floor. The only exit to this room is the door
+to the east.
+~
+0 AD 0
+D1
+Exit ~
+wooden door~
+16391 17001 17003
+E
+boxes~
+The boxes are filled with hay but otherwise are empty of items. There is
+nothing of value hidden in them.
+~
+E
+racks~
+Tall columns with holes to insert spears look rather silly when empty.
+~
+S
+#17009
+Intersection in the tunnel~
+You are at an intersection, the blackness here seems to be playing tricks
+with your light source. Scuttling noises are heard coming from all over.
+The footprints lead off east. Evil can be felt nearby.
+~
+0 AD 0
+D0
+Exit ~
+~
+16384 0 17010
+D1
+Exit ~
+~
+16384 0 17013
+D2
+Exit ~
+~
+16384 0 17016
+D3
+Exit ~
+~
+16384 0 17003
+S
+#17010
+Tunnel in the orcs' lair~
+You are in a tunnel in the orcs' lair. Bones and skulls line this section
+as a monument to the victories of the orcs' over their enemies. The passage
+here narrows to an almost impassable state. Footprints cover this
+room as if to indicate recent activity.
+~
+0 AD 0
+D0
+Exit ~
+~
+16384 0 17011
+D2
+Exit ~
+~
+16384 0 17009
+S
+#17011
+Foot of the ladder~
+You are at the foot of a ladder, the walls are covered with bones and skulls
+from past victories of the orcs. The ladder is made of slender bones which
+seem very brittle to the eyes. A light can be seen from above and sounds
+of shuffling feet can be heard. 
+~
+0 AD 0
+D2
+Exit ~
+~
+16384 0 17010
+D4
+Exit ~
+~
+16384 0 17012
+S
+#17012
+Ambush site~
+You are in one of the ambush sites that the orcs built in order to reduce
+the number of people invading their lair. On the south wall you notice a
+familiar arrow slit.
+~
+0 AD 0
+D5
+Exit ~
+~
+16384 0 17011
+E
+slit~
+You peer into the slit and can see the passage whereby the orcs could hold
+off an invading force by shooting their arrow.
+~
+S
+#17013
+Tunnel in the orcs' lair~
+You are in a tunnel in the orcs' lair. Bones and skulls line this section
+as a monument to the victories of the orcs' over their enemies. The passage
+here narrows to an almost impassable state. Footprints cover this
+room as if to indicate recent activity.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17014
+D3
+Exit ~
+~
+16384 0 17009
+S
+#17014
+Foot of the ladder~
+You are at the foot of a ladder, the walls are covered with bones and skulls
+from past victories of the orcs. The ladder is made of slender bones which
+seem very brittle to the eyes. A light can be seen from above and sounds
+of shuffling feet can be heard. Fresh footprints lead off to the east and
+faint sounds of an alarm can be heard.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17019
+D3
+Exit ~
+~
+16384 0 17013
+D4
+Exit ~
+~
+16384 0 17015
+S
+#17015
+Ambush site~
+You are in one of the ambush sites that the orcs built in order to reduce
+the number of people invading their lair. On the west wall you notice a
+familiar arrow slit.
+~
+0 AD 0
+D5
+Exit ~
+~
+16384 0 17014
+E
+slit~
+You peer into the slit and can see the passage whereby the orcs could hold
+off an invading force by shooting their arrow.
+~
+S
+#17016
+Tunnel in the orcs' lair~
+You are in a tunnel in the orcs' lair. Bones and skulls line this section
+as a monument to the victories of the orcs' over their enemies. The passage
+here narrows to an almost impassable state. Footprints cover this
+room as if to indicate recent activity.
+~
+0 AD 0
+D0
+Exit ~
+~
+16384 0 17009
+D2
+Exit ~
+~
+16384 0 17017
+S
+#17017
+Foot of the ladder~
+You are at the foot of a ladder, the walls are covered with bones and skulls
+from past victories of the orcs. The ladder is made of slender bones which
+seem very brittle to the eyes. A light can be seen from above and sounds
+of shuffling feet can be heard. 
+~
+0 AD 0
+D0
+Exit ~
+~
+16384 0 17016
+D4
+Exit ~
+~
+16384 0 17018
+S
+#17018
+Ambush site~
+You are in one of the ambush sites that the orcs built in order to reduce
+the number of people invading their lair. On the north wall you notice a
+familiar arrow slit.
+~
+0 AD 0
+D5
+Exit ~
+~
+16384 0 17017
+E
+slit~
+You peer into the slit and can see the passage whereby the orcs could hold
+off an invading force by shooting their arrow.
+~
+S
+#17019
+Tunnel in the orcs' lair~
+You are in a tunnel in the orcs' lair, footprints lead off to the east. Alarm
+sounds echoing in the tunnel make you grab your ears to plug them up. You
+can smell a faint, unpleasant odor coming from up ahead. A bad depiction of
+a dragon being slain by an orc is drawn on the wall, no doubt a bored guard
+occupied himself someday.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17020
+D3
+Exit ~
+~
+16384 0 17014
+S
+#17020
+An intersection in the orcs' lair~
+You are at a small intersection. To the north can be heard the clattering
+of pots and pans while to the south in close competition the snoring behind
+the closed door. Footprints continue east. On the door is written in crude
+common Do Not Desturb orc sleeping!!
+~
+0 AD 0
+D0
+Exit ~
+~
+16384 0 17021
+D1
+Exit ~
+~
+16384 0 17023
+D2
+Exit ~
+wooden door~
+16387 0 17022
+D3
+Exit ~
+~
+16384 0 17019
+S
+#17021
+The Kitchen~
+You are in the kitchen, where the cook is boiling the slop to feed the 
+multitude of hungry soldiers.A few signs hang from the walls with
+crude, careful lettering. One reads: Take all you want but eat all you take.
+while another reads: This ain't Burger King, you don't get things your way.
+You take it my way, or you don't get the stupid food. Obviously whoever
+wrote these sayings was not Shakespeare. The pantry is off the kitchen.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17024
+D2
+Exit ~
+~
+16384 0 17020
+S
+#17022
+Orcs' Barracks~
+You are in the orcs' barracks. Several orc guards are sleeping while off-duty
+Hand drawn pictures adorn the walls. Several of them include copulating
+couples, while others depict great battles with dragons slayed by orcs.
+Beds made of straw and wood line both sides of the room as well as small
+cabinets beside each bed. The only exit in this room is the door which has
+a calendar hanging on it.
+~
+0 AD 0
+D0
+Exit ~
+wooden door~
+16387 0 17020
+S
+#17023
+A tunnel deeper into the orcs' lair~
+You have just passed the kitchen and the barracks. Footprints continue east
+while alarm sounds ring loudly in your ears. You almost drop your weapon
+in an effort to stop the ringing by plugging up your ears. A picture of
+an orc is drawn on the wall here, he looks quite ugly. Faint smells coming
+from behind you can be identified as the sloop the cook is preparing.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17025
+D3
+Exit ~
+~
+16384 0 17020
+S
+#17024
+Pantry~
+You are in the pantry. A violent stench assaults your nose as you walk
+in this door. Rotting meat, moldy bread and maggoty fish heads fill the 
+shelves. Old ale barrels with very smelly ale are on the floor.
+In one barrel a floating skull marinates in a pickling formula. A loose
+floorboard creaks as you step on it.
+~
+0 AD 0
+D3
+Exit ~
+~
+16384 0 17021
+D5
+Exit ~
+floorboard~
+16387 0 17035
+E
+floorboard~
+The floorboard looks rather loose. Upon closer examination it reveals a set
+of hinges.
+~
+S
+#17025
+A tunnel in the orcs' lair~
+You have reached the source of the alarm. The sound here is unbearably
+painful to the ears. You decide that staying in this room too long
+would not be healthy for your eardrums. Footprints lead off to the east
+another picture adorns the wall below the alarm, this one of a small orc
+woman being kicked in the shins by a male orc.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17026
+D3
+Exit ~
+~
+16384 0 17023
+S
+#17026
+Main Chamber of the orcs' lair~
+You are in the main chamber of the orcs' lair. Erected armor suits adorn
+the walls in a show of defiance to all those who have dared to enter the
+orcs's lair.Covering most of the northern wall is a tapestry that depicts
+a great orc battle of decades ago. It is quite old and hangs loosely from
+pegs pounded into the walls. Whispers can be heard from the south.
+~
+0 AD 0
+D0
+Exit ~
+tapestry~
+16387 0 17027
+D2
+Exit ~
+~
+16384 0 17028
+D3
+Exit ~
+~
+16384 0 17025
+S
+#17027
+Treasure Room~
+You are in a treasure room. The orcs keep all their valuables, what little
+they have, here. The tapestry hid the entrance to this room rather well
+but if you have found it, it wasn't good enough. The walls are solidly
+build and show no other way out of this room except back the way you came.
+~
+0 AD 0
+D2
+Exit ~
+tapestry~
+16387 0 17026
+S
+#17028
+Orcs' War Room~
+You have entered the orcs' war room. Here all the plans of war and repelling
+invading forces are made. The table at the center of the room looks rather
+shaky under all the weight of food and maps. The opening to this room seems
+to be the only way out. Pictures that were obviously not drawn by orcs hang
+on all the walls. Some depicting great battles others of women with tails
+flying in the air. 
+~
+0 AD 0
+D0
+Exit ~
+~
+16384 0 17026
+D5
+Exit ~
+table~
+16387 0 17033
+S
+#17029
+A Small Alcove~
+You are in a small alcove. Carved within the stone of a wall is a small seat
+where the guards sits and watches the entrance to the lair. A small pull cord
+is located beside this seat. The only exit from the alcove is south.
+~
+0 AD 0
+D2
+Exit ~
+~
+16384 0 17001
+S
+#17030
+A Dark Room~
+You are in a small, dark, damp room. The walls are covered with green sticky
+slime. Its substance is unknown to mankind. The mud at your feet is very
+soft as your feet sink into its depths. The darkness seems to extend a hand
+as if to swallow you into its realm.
+~
+0 AD 0
+D0
+Exit ~
+~
+16384 0 17031
+D4
+Exit ~
+~
+16384 0 17001
+E
+slime~
+The slime has a greenish hue to it; its smell and stickiness are revolting
+to your senses.
+~
+E
+mud~
+The mud is a greyish color. Most likely dragged in from the nearby stream
+by some creature in order to complete his nest.
+~
+S
+#17031
+Slime mold Pit~
+You are waist deep in a slime mold pit. The walls are covered with the green
+gooie stuff. What looks to be a nest sits in one corner of the room. It is 
+made of bones and adorned with skulls held together by a slimey secretion.
+The only exit is back the way you came.
+~
+0 AD 0
+D2
+Exit ~
+~
+16384 0 17030
+S
+#17032
+Dark Room~
+You have entered a small dark hole. Knee deep in liquid that is putrid
+and yellow in color leaves no question as to what this room is. You 
+decided that this is not the place you wish to be in and decide to leave
+it as quickly as you can.
+~
+0 AD 0
+D4
+Exit ~
+~
+16384 0 17004
+S
+#17033
+Hidden tunnel~
+You are in a hidden tunnel. The tunnel seems to have been built very quickly
+and is unstable. Constructed of wood and planks it makes you feel rather
+unsafe. The ground seems rather soft to the touch and might explain the 
+shoring of this passage. Your light has trouble piercing through the gloom
+of this room and you hope that combat is not in your plans as the confines
+would make combat rather difficult.
+~
+0 AD 0
+D0
+Exit ~
+~
+16384 0 17034
+D4
+Exit ~
+table~
+16387 0 17028
+S
+#17034
+Hidden tunnel~
+You are in a hidden tunnel. The tunnel seems to have been built very quickly
+and is unstable. Constructed of wood and planks it makes you feel rather
+unsafe. The ground seems rather soft to the touch and might explain the 
+shoring of this passage. Your light has trouble piercing through the gloom
+of this room and you hope that combat is not in your plans as the confines
+would make combat rather difficult.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17036
+D2
+Exit ~
+~
+16384 0 17033
+D3
+Exit ~
+~
+16384 0 17035
+S
+#17035
+Hidden tunnel~
+You are in a hidden tunnel. The tunnel seems to have been built very quickly
+and is unstable. Constructed of wood and planks it makes you feel rather
+unsafe. The ground seems rather soft to the touch and might explain the 
+shoring of this passage. Your light has trouble piercing through the gloom
+of this room and you hope that combat is not in your plans as the confines
+would make combat rather difficult. You notice a few loose boards on top
+of you and a familiar smell drifts down from above.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17034
+D4
+Exit ~
+floorboard~
+16387 0 17024
+S
+#17036
+Hidden tunnel~
+You are in a hidden tunnel. The tunnel seems to have been built very quickly
+and is unstable. Constructed of wood and planks it makes you feel rather
+unsafe. The ground seems rather soft to the touch and might explain the 
+shoring of this passage. Your light has trouble piercing through the gloom
+of this room and you hope that combat is not in your plans as the confines
+would make combat rather difficult.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17037
+D3
+Exit ~
+~
+16384 0 17034
+S
+#17037
+Hidden tunnel~
+You are in a hidden tunnel. The tunnel seems to have been built very quickly
+and is unstable. Constructed of wood and planks it makes you feel rather
+unsafe. The ground seems rather soft to the touch and might explain the 
+shoring of this passage. Your light has trouble piercing through the gloom
+of this room and you hope that combat is not in your plans as the confines
+would make combat rather difficult.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17038
+D3
+Exit ~
+~
+16384 0 17036
+S
+#17038
+Hidden tunnel~
+You are in a hidden tunnel. The tunnel seems to have been built very quickly
+and is unstable. Constructed of wood and planks it makes you feel rather
+unsafe. The ground seems rather soft to the touch and might explain the 
+shoring of this passage. Your light has trouble piercing through the gloom
+of this room and you hope that combat is not in your plans as the confines
+would make combat rather difficult.
+~
+0 AD 0
+D1
+Exit ~
+~
+16384 0 17039
+D3
+Exit ~
+~
+16384 0 17037
+S
+#17039
+Dead End~
+You have reached a dead end. The room is quite large and makes you feel
+much safer then the tunnel did. The walls are made of rock and seem quite
+solid compared to the softness of the tunnel. Bones scattered all over the
+floor create a grisly scene for your eyes to behold. Old rusted and useless
+equipment is piled into an orderly fashion in one corner of the room as if
+someone lived here. Before you can manage a scream of alarm --
+~
+0 AD 0
+D3
+Exit ~
+~
+16384 0 17038
+S
+#17040
+Hyzenthlay's Rabbit Hole~
+You stand just inside a very comfortable rabbit hole.  Although built into
+the ground beneath you, it seem more than warm and hospitable, rather 
+than the expected cold, dank, dreary hole.  From around you, the sounds of
+nature call from here and there: a lark, a small owl, even the sounds of
+squirrels bedding down for the night.  In the sky, which you can see 
+peeking out from the opening of this rabbit hole are the most brilliant
+display of stars.  As you look, you almost see then dancing around the
+rabbit hole itself; in fact, they look like they are playing, waiting for
+the residing rabbit to come join them.  They seem to beckon you to join in
+their games.
+ 
+A cool breeze blows softly around you.
+~
+0 CDKNPT 0
+S
+#17041
+Board Room of the Creators~
+You stand within the great Board Room of the Creators.  The walls are lined
+with tapestries and murals of the great gods of Boinga.  The room is a 
+circular wonder, with each ray of light focusing into the center onto a 
+golden table where the master Creators gather to meet.
+~
+0 CDT 0
+O immortal~
+S
+#0
+
+#RESETS
+M 0 17000   5 17000  1	* The small orc
+G 1 17005  -1     	*   a white potion
+E 1 17000  -1   16	*   an orc spear
+M 0 17000   5 17003  1	* The small orc
+E 1 17000  -1   16	*   an orc spear
+G 1 17005  -1     	*   a white potion
+M 0 17005  12 17005  1	* an Orc Guard
+E 1 17000  -1   16	*   an orc spear
+E 1 17009  -1    0	*   a firefly lantern
+M 0 17005  12 17006  1	* an Orc Guard
+E 1 17000  -1   16	*   an orc spear
+E 1 17009  -1    0	*   a firefly lantern
+M 0 17005  12 17007  1	* an Orc Guard
+E 1 17000  -1   16	*   an orc spear
+E 1 17009  -1    0	*   a firefly lantern
+M 0 17000   5 17008  1	* The small orc
+G 1 17005  -1     	*   a white potion
+E 1 17000  -1   16	*   an orc spear
+M 0 17005  12 17009  1	* an Orc Guard
+E 1 17009  -1    0	*   a firefly lantern
+E 1 17000  -1   16	*   an orc spear
+M 0 17000   5 17010  1	* The small orc
+G 1 17005  -1     	*   a white potion
+E 1 17000  -1   16	*   an orc spear
+M 0 17005  12 17012  1	* an Orc Guard
+E 1 17000  -1   16	*   an orc spear
+E 1 17009  -1    0	*   a firefly lantern
+M 0 17005  12 17015  1	* an Orc Guard
+E 1 17000  -1   16	*   an orc spear
+E 1 17009  -1    0	*   a firefly lantern
+M 0 17000   5 17016  1	* The small orc
+E 1 17000  -1   16	*   an orc spear
+G 1 17005  -1     	*   a white potion
+M 0 17005  12 17018  1	* an Orc Guard
+E 1 17000  -1   16	*   an orc spear
+E 1 17009  -1    0	*   a firefly lantern
+M 0 17007   5 17022  5	* The Sleeping Guard
+M 0 17007   5 17022  5	* The Sleeping Guard
+M 0 17007   5 17022  5	* The Sleeping Guard
+M 0 17007   5 17022  5	* The Sleeping Guard
+M 0 17007   5 17022  5	* The Sleeping Guard
+M 0 17005  12 17026  2	* an Orc Guard
+E 1 17000  -1   16	*   an orc spear
+E 1 17009  -1    0	*   a firefly lantern
+M 0 17005  12 17026  2	* an Orc Guard
+E 1 17000  -1   16	*   an orc spear
+E 1 17009  -1    0	*   a firefly lantern
+M 0 17003   2 17028  2	* The Orc Sub-chief
+E 1 17008  -1    1	*   an orc ring
+E 1 17006  -1   13	*   a sword sheathe
+E 1 17000  -1   16	*   an orc spear
+M 0 17003   2 17028  2	* The Orc Sub-chief
+E 1 17000  -1   16	*   an orc spear
+E 1 17006  -1   13	*   a sword sheathe
+E 1 17008  -1    1	*   an orc ring
+M 0 17002   1 17028  1	* the Orc Leader
+G 1 17001  -1     	*   a small wooden key
+E 1 17010  -1   16	*   an orc's whip
+E 1 17006  -1   13	*   a sword sheathe
+G 1 17011  -1     	*   a crinkly scroll
+E 1 17008  -1    1	*   an orc ring
+E 1 17007  -1    5	*   an orc vest
+M 0 17005  12 17029  1	* an Orc Guard
+E 1 17009  -1    0	*   a firefly lantern
+E 1 17000  -1   16	*   an orc spear
+M 0 17004   1 17031  1	* The slime mold
+M 0 17005  12 17032  1	* an Orc Guard
+E 1 17000  -1   16	*   an orc spear
+E 1 17009  -1    0	*   a firefly lantern
+M 0 17005  12 17036  1	* an Orc Guard
+E 1 17009  -1    0	*   a firefly lantern
+E 1 17000  -1   16	*   an orc spear
+O 0 17002 100 17027	* a treasure chest
+P 1 17004  -1 17002  1	*   the orcs' treasure
+D 0 17002   5 16385	* A tunnel in the orcs' lair down
+D 0 17003   3 16386	* Under the straw bed west
+D 0 17003   4 16385	* Under the straw bed up
+D 0 17008   1 16386	* Orcs' Weapon Storage east
+D 0 17020   2 16385	* An intersection in the orcs' lair south
+D 0 17022   0 16385	* Orcs' Barracks north
+D 0 17024   5 16385	* Pantry down
+D 0 17026   0 16385	* Main Chamber of the orcs' lair north
+D 0 17027   2 16385	* Treasure Room south
+D 0 17028   5 16385	* Orcs' War Room down
+D 0 17033   4 16385	* Hidden tunnel up
+D 0 17035   4 16385	* Hidden tunnel up
+M 0 17001   1 17039  1	* the Rabid Minotaur
+E 1 17007  -1    5	*   an orc vest
+E 1 17010  -1   16	*   an orc's whip
+G 1 17003  -1     	*   a treasure chest key
+M 0 17006   1 17021  1	* The Orc Cook
+E 1 17014  -1    3	*   a cook's apron
+G 1 17012  -1     	*   a wooden spoon
+E 1 17013  -1   16	*   a meat cleaver
+O 0 9557 100 17040	* a carrot
+O 0 9557 100 17040	* a carrot
+O 0 4207 100 17041	* a chair
+O 0 22031 100 17041	* a table of gold
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

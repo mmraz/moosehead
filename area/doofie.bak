@@ -1,0 +1,2792 @@
+#AREA
+/mud/moosehead/area/doofie.are~
+Kender Village~
+{ 7-15} Doofie  Kender Village~
+5700 5783
+
+#MOBILES
+#5700
+kender villager~
+a kender villager~
+A kender villager picks your pocket unknowingly.
+~
+You see a four feet tall kender with his hair tied in a topknot. He smiles
+a greeting at you and continues with his business.
+~
+kender~
+(null)~
+(null)~
+(null)~
+AS 0 0 0
+10 1 2d7+110 4d4+300 2d6+3 scratch
+0 0 0 0
+BENU 0 0 0
+stand stand male 0
+0 0 medium 0
+F res E
+F vul IL
+F par GHIJK
+#5701
+female kender~
+a female kender~
+A female kender is here chattering endlessly.
+~
+She is a female kender, almost four feet in height. Hair in a topknot like 
+most kenders, she eyes you intently. She smiles at you warmly and stops
+staring.
+~
+kender~
+(null)~
+(null)~
+(null)~
+ACS 0 250 0
+8 1 2d6+80 1d10+100 1d7+2 slap
+0 0 0 0
+EFNU 0 0 0
+stand stand female 0
+0 0 small 0
+F res E
+F vul IL
+F par GHIJK
+#5702
+young kender adventurer~
+a young kender adventurer~
+A young kender is here ready to begin with his wanderlust.
+~
+The kender is young and about three and half feet tall. His hair is tied in a
+topknot and his clothes are clean, looking very new. He looks at you in
+wonder then smiles merrily.
+~
+kender~
+(null)~
+(null)~
+(null)~
+ACS 0 300 0
+6 1 2d7+65 1d5+100 1d7+1 slash
+0 0 0 0
+EFNU 0 0 0
+stand stand male 0
+0 0 small 0
+F res E
+F vul IL
+F par GHIJK
+#5703
+kender child~
+a kender child~
+A kender child is here exploring something.
+~
+The kender child is small and very inquisitive. His hair almost shoulder
+length, is tied in a small knot. He babbles something then runs off into
+the village.
+~
+kender~
+(null)~
+(null)~
+(null)~
+ACS 0 0 0
+6 1 2d7+60 1d10+100 0d0+0 scratch
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 small 0
+F res E
+F vul IL
+F par GHIJK
+#5704
+kender elder~
+a kender elder~
+A kender elder is here telling tales of his adventures.
+~
+He looks older than the other kenders around, but his face is still childlike
+and mischevious.
+~
+kender~
+(null)~
+(null)~
+(null)~
+ACS 0 250 0
+10 1 2d7+110 1d1+10 0d0+0 slash
+0 0 0 0
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+F res E
+F vul IL
+F par GHIJK
+#5705
+gully dwarf~
+a gully dwarf~
+A filthy dwarf is here looking for scraps.
+~
+He is about four feet tall and extremely dirty. His body, covered with grime,
+emits a terrible odour. He mutters some garbage in broken common language
+and continues searching for some food.
+~
+dwarf~
+(null)~
+(null)~
+(null)~
+ABCT 0 300 0
+8 1 2d7+80 1d10+100 1d7+1 slime
+0 0 0 0
+EFNU LQ 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+F par GHIJK
+#5706
+female gully dwarf~
+a female gully dwarf~
+A foul smelling dwarf lies here in the dirt.
+~
+You see a filthy dwarf, vaguely looking like a female. Her clothes covered
+with dirt and hair knotted like its never been combed before. She looks at
+you with hungry eyes begging for some food.
+~
+dwarf~
+(null)~
+(null)~
+(null)~
+ABCT 0 300 0
+7 1 2d6+75 10d1+100 1d8+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand female 0
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+F par GHIJK
+#5707
+kender mayor~
+the Kender Mayor~
+The mayor of kender village stands here proudly.
+~
+You see a chubby kender dressed in a fine suit. His raven black hair is tied
+in a topknot. He seems wiser than most kenders. He stands proudly admiring
+his village.
+~
+kender~
+(null)~
+(null)~
+(null)~
+ABCS 0 300 0
+15 1 3d9+200 1d10+100 2d6+3 cleave
+0 0 0 0
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+F res E
+F vul IL
+F par GHIJK
+#5708
+dwarf bouncer~
+the dwarven bouncer~
+A short but stocky bouncer is here keeping vagrants out.
+~
+He is about four foot tall and looks very strong. His face is covered by a
+pitch black beard, but you can still make out a scowl through it.
+~
+dwarf~
+(null)~
+(null)~
+(null)~
+ABT 0 300 0
+13 1 2d10+170 1d20+100 2d5+3 pound
+0 0 0 0
+EFNU 0 0 0
+stand stand male 100
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+F par GHIJK
+#5709
+waitress woman human~
+a human waitress~
+A human waitress is here ready to serve you.
+~
+She looks overworked and tired. Her face covered with dirt and grime. She
+glares at you angrily and then says 'Wait your turn'.
+~
+human~
+(null)~
+(null)~
+(null)~
+ACT 0 300 0
+6 1 2d6+60 1d10+100 1d6+1 slap
+0 0 0 0
+EFNU 0 0 0
+stand stand female 0
+0 0 medium 0
+F par GHIJK
+#5710
+dwarven waitress~
+a dwarven waitress~
+A dwarven waitress is here cleaning the tables.
+~
+She looks overworked and tired. Her face covered with dirt and grime. She
+glares at you angrily and then says 'Wait your turn'.
+~
+human~
+(null)~
+(null)~
+(null)~
+ACT 0 300 0
+6 1 2d6+60 1d10+100 1d6+1 slap
+0 0 0 0
+EFNU 0 0 0
+stand stand female 0
+0 0 medium 0
+F par GHIJK
+#5711
+human vendor~
+a human vendor~
+A human vendor is here waiting for someone to buy something.
+~
+He is about forty years old, with black hair. He once used to trade in
+far off lands, but with his old age he has resigned to selling his
+goods in the village. Suddenly he yells 'Hey! Stop Thief!!'.
+~
+human~
+(null)~
+(null)~
+(null)~
+ACS 0 300 0
+8 1 2d7+85 1d20+100 1d7+2 slash
+0 0 0 0
+EFNU 0 0 0
+stand stand male 100
+0 0 medium 0
+F par GHIJK
+#5712
+kender storyteller~
+a kender storyteller~
+A kender storyteller is here speaking of some incredible adventure.
+~
+You see a four foot tall kender with his hair tied in a topknot. He does not
+take notice of you too engrossed in his own tale.
+~
+kender~
+(null)~
+(null)~
+(null)~
+ACS 0 300 0
+8 1 2d7+80 1d100+10 1d7+1 stab
+0 0 0 0
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+F res E
+F vul IL
+F par GHIJK
+#5713
+half-elf vendor~
+a half-elf vendor~
+A half-elf vendor is here yelling at the top of his lungs.
+~
+He is about six feet tall and doesn't look well-fed. His face is hidden by
+a red beard and his pointy ears stick out of his hat.
+~
+half-elf~
+(null)~
+(null)~
+(null)~
+AT 0 -300 0
+8 1 2d7+85 1d30+100 1d8+1 stab
+0 0 0 0
+EFNU 0 0 0
+stand stand male 1000
+0 0 medium 0
+F aff J
+F res B
+F vul Z
+F par GHIJK
+#5714
+halfling vendor~
+a halfling vendor~
+A short halfling is here annoying everyone.
+~
+The halfling is just like any other, short and dimunitive. Past his prime
+he has given up adventuring to sell his wares.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AS 0 -350 0
+8 1 2d6+85 1d10+20 1d7+2 slash
+0 0 0 0
+EFNU 0 0 0
+stand stand none 100
+AHMV ABCDEF medium 0
+#5715
+female vendor~
+a female vendor~
+A female vendor is here sobbing over lost goods.
+~
+She is a plump woman in her mid forties. She glares around angrily at
+everyone, muttering nasties under her breath.
+~
+human~
+(null)~
+(null)~
+(null)~
+AT 0 100 0
+7 1 2d6+80 1d20+100 2d4+3 slap
+0 0 0 0
+EFNU 0 0 0
+stand stand female 1000
+0 0 medium 0
+F par GHIJK
+#5716
+minotaur innkeeper~
+the Innkeeper~
+A burly minotaur is here looking over the inn.
+~
+The innkeeper is a fierce looking minotaur. In his younger days he was quite
+a seasoned fighter. His huge horns and menacing figure make you think twice
+before cheating him.
+~
+giant~
+(null)~
+(null)~
+(null)~
+AT 0 0 0
+40 1 1d1+10 1d2+100 0d0+0 flame
+0 0 0 0
+EFNU ABCDEFGHIPS 0 0
+stand stand male 10000
+0 0 huge 0
+F res HI
+F vul J
+F par GHIJK
+#5717
+barkeep~
+the barkeep~
+The barkeep is here mixing a drink.
+~
+You are looking at the barkeep of this inn. He looks up and asks 'What will
+you have stranger ?'
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+40 1 1d2+10 1d1+100 0d0+0 flame
+0 0 0 0
+EFNU ACD 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#5718
+kender storyteller~
+a kender storyteller~
+A kender storyteller is here chatting about some adventure.
+~
+The kender is too engrossed in another tale of dragons and trolls to take
+notice of you. Every few minutes he stops his tale and takes a sip of his
+ale and begins another tale.
+~
+kender~
+(null)~
+(null)~
+(null)~
+ACS 0 -150 0
+9 1 2d7+96 1d10+120 1d7+2 pierce
+0 0 0 0
+EFNU 0 0 0
+sit sit male 0
+0 0 medium 0
+F res E
+F vul IL
+F par GHIJK
+#5719
+human traveller~
+a human traveller~
+A human traveller is here resting after another long journey.
+~
+He is big and muscular. He does not seem to be of these parts. His clothes
+are dusty and worn. He seems to have travelled a long way and is ver
+tired.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT 0 -400 0
+9 1 2d7+98 1d20+120 1d7+2 slash
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#5720
+elven traveller~
+an elven traveller~
+An elven traveller rests here wearily.
+~
+The elven traveller is small and fair-skinned. His expressionless face is
+covered with many scars of battle.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABT 0 300 0
+10 1 2d7+121 1d30+130 2d4+2 stab
+0 0 0 0
+EFNU 0 0 0
+sleep sleep male 1000
+0 0 medium 0
+F aff J
+F vul Z
+F par GHIJK
+#5721
+elf elven traveller~
+a female elven traveller~
+A beautiful elf rests here.
+~
+She is a most beautiful creature. She looks almost human but her pointed
+ears shows elven blood. She glances around and then looks away in disgust.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABT 0 300 0
+9 1 2d6+100 1d10+140 1d8+2 slap
+0 0 0 0
+EFNU 0 0 0
+rest rest female 1000
+0 0 medium 0
+F aff J
+F vul Z
+F par GHIJK
+#5722
+human drunk~
+a human drunk~
+A drunken human is here sleeping in his slobber.
+~
+He is a slob, he has no life. You can tell that he is fat and out of 
+shape, yet it looks like with some proper training he could be big and 
+powerful.
+~
+human~
+(null)~
+(null)~
+(null)~
+AT 0 -300 0
+6 1 2d7+71 1d20+100 1d7+1 crush
+0 0 0 0
+EFNU 0 0 0
+sleep sleep none 100
+0 0 medium 0
+F par GHIJK
+#5723
+dwarf dwarven patron~
+the dwarven patron~
+A red bearded dwarf is here drinking ale.
+~
+This dwarf stares right back at you as you check him over. He is about
+four feet tall and built like an ox. His beard hides a stern look that
+dwarves usually wear.
+~
+dwarf~
+(null)~
+(null)~
+(null)~
+ABT 0 -200 0
+10 1 2d7+121 1d30+100 2d4+2 slash
+0 0 0 0
+EFNU 0 0 0
+stand stand none 100
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+F par GHIJK
+#5724
+halfling patron~
+the halfling patron~
+A short humanoid is here, looks like a halfling.
+~
+The halfling is short and dimunitive. He looks very dangerous and very
+confident of his movements. He guzzles down the last bits of his ale 
+and calls for a refill.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AT 0 -500 0
+9 1 2d6+110 1d10+100 1d8+2 cleave
+0 0 0 0
+EFNU 0 0 0
+sit sit none 100
+AHMV ABCDEF medium 0
+#5725
+drunken kender~
+a drunken kender~
+A drunken kender is here chattering endlessly.
+~
+The kender is just under four feet tall. Even in this drunken state he
+picks your pocket and deposit his finds into his pouch.
+~
+kender~
+(null)~
+(null)~
+(null)~
+AS 0 0 0
+7 1 2d6+85 1d10+100 1d8+1 pierce
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F res E
+F vul IL
+F par GHIJK
+#5726
+human talespinner~
+a human talespinner~
+A human talespinner is here weaving another tale.
+~
+He is a seasoned adventurer with many tales of combat. He beckons for you
+to sit down before he begins another tale.
+~
+human~
+(null)~
+(null)~
+(null)~
+AT 0 200 0
+6 1 2d7+71 1d7+130 1d7+1 thrust
+0 0 0 0
+EFNU 0 0 0
+stand stand none 1000
+0 0 medium 0
+F par GHIJK
+#5727
+Dougan dwarf~
+Dougan~
+A stocky dwarf is here forging something.
+~
+His face is covered with soot working in the fire so long. Without stopping
+he says 'Type list to see what I have for sale.'
+~
+dwarf~
+(null)~
+(null)~
+(null)~
+ABT H 0 0
+30 1 1d1+1 1d1+1 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 100000
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+F par GHIJK
+#5728
+Soren dwarf~
+Soren~
+A plump looking dwarf stands here, eyeing your equipment.
+~
+He is short and very plump. A long red beard covers his face. 
+~
+dwarf~
+(null)~
+(null)~
+(null)~
+ABT H 0 0
+50 1 1d1+1 1d10+200 0d0+0 slice
+0 0 0 0
+EFNU CD 0 0
+stand stand none 100000
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+F par GHIJK
+#5729
+drevlin wizard~
+Drevlin~
+A frail wizard stands here selling magical artifacts.
+~
+A befuddled magican dressed in blue robes and a crooked hat.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT H 0 0
+40 1 1d1+100 1d10+100 0d0+0 slice
+0 0 0 0
+EFNU CD 0 0
+stand stand none -1
+0 0 medium 0
+F par GHIJK
+#5730
+gnome inventor~
+a gnome inventor~
+A small gnome is here tinkering with something.
+~
+He is smaller than the average gnome, about three feet five. He is really 
+busy fidgeting on some inventions and taking notes.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABT H 0 0
+40 1 1d1+10 1d10+100 0d0+0 slice
+0 0 0 0
+EFNU CD 0 0
+stand stand none 100000
+AHMV ABCDEF medium 0
+#5731
+Jarre human~
+Jarre~
+A burly human covered with flour stands here baking something.
+~
+You see a large man, covered from head to toe with flour.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT H 0 0
+40 1 1d1+10 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none -1
+0 0 medium 0
+F par GHIJK
+#5732
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+(null)~
+(null)~
+(null)~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#5700
+cotton leggings blue~
+a pair of blue cotton leggings~
+A pair of blue cotton leggings lie here.~
+cotton~
+armor 0 AF
+0 0 0 0 2
+5 30 1000 P
+A
+5 1
+#5701
+dirty apron~
+a dirty apron~
+A dirty apron is here.~
+cotton~
+armor 0 AK
+0 0 0 0 3
+6 100 0 P
+A
+2 1
+#5702
+hoopak~
+a hoopak~
+A walking stick with a sling fitted to the yoke at the top lies here.~
+wood~
+weapon I AN
+exotic 2 6 smash 0
+10 200 300 P
+A
+2 1
+#5703
+wooden bashing tool~
+a bashing tool~
+A sturdy piece of wood is here, seems good for bashing.~
+wood~
+weapon 0 AN
+mace 3 3 pound I
+6 300 300 P
+A
+1 1
+#5704
+kender dagger~
+a kender dagger~
+A small dagger, perfect for stabbing is here.~
+iron~
+weapon 0 AN
+dagger 3 3 stab 0
+6 30 300 P
+#5705
+kender pouch~
+a kender pouch~
+A small pouch is here perfect for storing stuff.~
+cotton~
+container Y AL
+500 0 0 10 25
+0 30 0 P
+E
+girdle pouches many~
+It appears to be full of tiny pockets.
+~
+#5706
+mayor's chain~
+the Mayor's chain~
+A golden chain is here, probally belongs to the mayor.~
+gold~
+jewelry A AC
+0 0 0 0 0
+10 50 2000 P
+A
+4 1
+A
+3 1
+#5707
+red cotton tunic~
+a red cotton tunic~
+A red cotton tunic lies here in the dirt.~
+cotton~
+armor 0 AD
+2 2 2 2 2
+6 30 500 P
+A
+5 1
+#5708
+elven silk robe~
+an elven-made silk robe~
+A silk robe is here, seems elven made.~
+silk~
+armor 0 AK
+2 2 2 2 2
+8 30 1000 P
+A
+12 15
+#5709
+leather travelling boots~
+leather travelling boots~
+A pair of leather travelling boots lie here.~
+leather~
+armor 0 AG
+2 2 2 2 2
+0 30 0 P
+A
+14 100
+#5710
+the Mayor's ring~
+the Mayor's ring~
+A golden ring embedded in jewels lies here.~
+gold~
+jewelry A AB
+0 0 0 0 0
+10 30 1000 P
+A
+3 1
+A
+4 1
+#5711
+dwarven helmet~
+a dwarven helmet~
+A sturdy dwarven helmet is here.~
+iron~
+armor 0 AE
+2 2 2 2 3
+8 50 0 P
+A
+1 1
+A
+13 1
+#5712
+jacket scale mail~
+a scale mail jacket~
+A scale mail jacket is lying on the ground.~
+steel~
+armor N AD
+3 4 4 0 0
+5 160 850 G
+#5713
+boots ironbound~
+a pair of iron-bound boots~
+A pair of iron-bound boots lies here.~
+iron~
+armor N AG
+5 4 5 0 0
+10 60 660 P
+#5714
+shield small metal~
+a small metal shield~
+A small metal shield is lying on the ground.~
+steel~
+armor N AJ
+4 4 4 1 2
+5 30 750 P
+#5715
+sleeves scale mail~
+a pair of scale mail sleeves~
+A pair of scale mail sleeves is lying on the ground.~
+steel~
+armor N AI
+3 4 4 0 0
+5 60 420 P
+#5716
+cap leather~
+a leather cap~
+A leather cap is lying on the ground.~
+leather~
+armor N AE
+1 2 2 0 0
+0 10 136 G
+#5717
+axe battle~
+a battle axe~
+A large steel axe rests on the ground.~
+steel~
+weapon N AN
+axe 2 5 chop F
+5 90 650 G
+#5718
+sword long~
+a long sword~
+A long sword has been left here.~
+steel~
+weapon N AN
+sword 2 5 slash 0
+7 50 610 G
+#5719
+mace heavy~
+a mace~
+A heavy iron mace is here.~
+iron~
+weapon N AN
+mace 2 4 pound 0
+6 100 390 G
+A
+19 1
+#5720
+spear~
+a spear~
+A long spear leans against the wall.~
+steel~
+weapon N AN
+staff 1 8 pierce 0
+4 50 84 G
+#5721
+dagger~
+a dagger~
+A dagger with a long thin blade is here.~
+steel~
+weapon N AN
+dagger 1 4 stab 0
+0 10 157 G
+#5722
+danish blueberry~
+a blueberry danish~
+A scrumptious blueberry danish is here.~
+food~
+food N A
+8 6 0 0 0
+0 10 5 P
+#5723
+shepherd's pie~
+a plate of shepherd's pie~
+A plate of shepherd's pie from the Moonstone Inn steams here.~
+potatoe~
+food IN A
+8 8 0 0 0
+0 10 14 P
+#5724
+bread~
+a bread~
+A loaf of bread is here. It doesn't look too stale.~
+food~
+food N A
+18 12 0 0 0
+0 10 9 P
+#5725
+dry rations~
+some dry rations~
+Some dry rations lie here.~
+food~
+food N A
+15 20 0 0 0
+0 20 24 P
+#5726
+cinnamon roll~
+a cinnamon roll~
+A piping hot cinnamon roll is here. It looks delicious!~
+food~
+food N A
+4 8 0 0 0
+0 10 16 P
+#5727
+scroll of seeing~
+a scroll of seeing~
+A scroll with ancient writing lies here beneath the dust.~
+paper~
+scroll 0 A
+10 'detect invis' 'detect magic' 'detect hidden' ''
+11 100 2500 P
+#5728
+scroll recall~
+a scroll of recall~
+A scroll has carelessly been left here.~
+vellum~
+scroll G AO
+20 'word of recall' '' '' ''
+17 20 2900 P
+E
+scroll~
+The scroll has written a formula of 'Word of Recall' upon it.
+~
+#5729
+yellow vial~
+a yellow vial~
+A glowing yellow vial lies here.~
+glass~
+potion A AO
+12 'giant strength' '' '' ''
+10 100 1100 P
+#5730
+clear potion~
+a clear potion~
+short~
+glass~
+potion 0 AO
+15 'create spring' '' '' ''
+10 100 1200 P
+#5731
+blue staff~
+a blue staff~
+A blue staff is here.~
+wood~
+staff B AO
+14 3 3 'cure blindness' 0
+7 40 3000 P
+#5732
+bottle ale~
+a bottle of ale~
+A dark bottle of ale has been left here.~
+glass~
+drink N A
+16 16 'ale' 0 0
+0 20 6 P
+#5733
+whiskey shot~
+a shot of whiskey~
+A shot of whiskey is on the table.~
+glass~
+drink N A
+2 2 'whisky' 0 0
+0 10 12 P
+#5734
+port brew quart~
+a quart of port brew~
+A quart of port brew is on the table.~
+pewter~
+drink N A
+32 32 'dark ale' 0 0
+0 20 18 P
+#5735
+spiced potatoes~
+some spiced potatoes~
+A spicy potato is ripe for the pickin'.~
+food~
+food N A
+25 25 0 0 0
+0 30 14 P
+#5736
+beef stew~
+some beef stew~
+A bowl of beef stew is here emitting a delicious aroma.~
+food~
+food N A
+20 40 0 0 0
+0 20 22 P
+#5737
+vegetable stew~
+a bowl of vegetable stew~
+A bowl of vegetable stew is here.~
+food~
+food N A
+20 40 0 0 0
+0 20 22 P
+#5738
+gnomish sea travelling device~
+a gnomish sea travelling device~
+A strange device with oars and paddle is here, probally a gnomish travelling device.~
+wood~
+boat N A
+0 0 0 0 0
+0 750 400 A
+E
+raft~
+The raft looks very primitive.
+~
+#5739
+gnomish water carrying device~
+a gnomish water carrying device~
+A gnomish water carrying device is here.~
+leather~
+drink N A
+64 64 'water' 0 0
+0 40 24 G
+#5740
+light creating device~
+a gnomish light creating device~
+A gnomish light creating device is here.~
+wood~
+light N A
+0 0 0 0 0
+0 30 1000 G
+A
+3 1
+#5741
+glass cabinet~
+a glass cabinet~
+A beautiful glass cabinet lies here.~
+glass~
+container 0 0
+500 ACD 5742 100 100
+0 0 0 P
+#5742
+key cabinet~
+the cabinet key~
+A small key lies here.~
+iron~
+key AP AC
+0 0 0 0 0
+0 100 0 P
+#5743
+Thief guard~
+Thief Guard~
+A guard against thieves has been placed here~
+Magic~
+weapon T AN
+axe 2 20 slime H
+45 10 0 P
+#5744
+potion negation~
+a potion of negation~
+A potion of negation is here.~
+glass~
+potion BG AO
+35 'cancellation' '' '' ''
+9 10 1000 P
+#0
+
+#ROOMS
+#5700
+A dusty path~
+You are on a small path leading to what seems to be a small town. The tops
+of a few buildings can be seen far to the south.
+~
+0 A 2
+D0
+Exit ~
+door~
+16384 0 1522
+D2
+Exit ~
+door~
+16384 0 5701
+S
+#5701
+Path to Kender Village~
+You are on a path to a village. The path is well-used but seems poorly
+maintained. You can hear sounds of the village to the south. The begining
+of the path is north.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 5700
+D2
+Exit ~
+door~
+16384 0 5702
+S
+#5702
+Entrance to Kender Village~
+Unlike most cities the entrance has no gate and is not guarded in any way.
+The wooden archway overhead is just big enough to allow a small human to 
+enter comfortably. The path to the village is north while the Straight Road
+is south of here.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5701
+D2
+Exit ~
+door~
+16384 0 5703
+S
+#5703
+Straight Street~
+You are on a street called Straight Street. The street is anything but
+straight. The street is poorly maintained with small holes on it. The
+bustling sounds of the market can be heard in the distance. The street
+continues east and the entrance to the village is north.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 5702
+D1
+Exit ~
+door~
+16384 0 5704
+S
+#5704
+Straight Street~
+You are on a street in the village. Unlike it's name the street is anything
+but straight. The bustling sounds of a market can be heard in the distance.
+The street continues west and south.
+~
+0 0 1
+D2
+Exit ~
+door~
+16384 0 5705
+D3
+Exit ~
+door~
+16384 0 5703
+S
+#5705
+Straight Street~
+You are on a street in kender village, although this street is anything but
+straight. The bustling sounds of the market clearly in the distance. The 
+street continues north and east.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5704
+D1
+Exit ~
+door~
+16384 0 5706
+S
+#5706
+Corner of Straight Street and the Market.~
+You are at the end of the so-called Straight Street. The distinct sounds of
+a market place in total disarray can be heard from the south. The street 
+continues west.
+~
+0 0 1
+D2
+Exit ~
+door~
+16384 0 5707
+D3
+Exit ~
+door~
+16384 0 5705
+S
+#5707
+Market Street~
+You are in the marketplace of kender village. All around you is complete and
+utter chaos. Kenders running everywhere trying to 'borrow' whatever they can
+whilst the poor vendors watch in disappointment as their goods go missing.
+Every few minutes you hear someone yell 'Hey! Stop Thief!!'. The market
+continues east, west and south. North of you is the so-called straight road.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5706
+D1
+Exit ~
+door~
+16384 0 5708
+D2
+Exit ~
+door~
+16384 0 5714
+D3
+Exit ~
+door~
+16384 0 5709
+S
+#5708
+Market Street~
+You are in the marketplace of kender village. All around you is complete and
+utter chaos. Kenders running everywhere trying to 'borrow' whatever they can
+whilst the poor vendors watch in disappointment as their goods go missing.
+Every few minutes you hear someone yell 'Hey! Stop Thief!!'. The market
+continues east, west and south.
+~
+0 0 1
+D1
+Exit ~
+door~
+16384 0 5711
+D2
+Exit ~
+door~
+16384 0 5713
+D3
+Exit ~
+door~
+16384 0 5707
+S
+#5709
+Market Street~
+You are in the marketplace of kender village. All around you is complete and
+utter chaos. Kenders running everywhere trying to 'borrow' whatever they can
+whilst the poor vendors watch in disappointment as their goods go missing.
+Every few minutes you hear someone yell 'Hey! Stop Thief!!'. The market
+continues east, west and south.
+~
+0 0 1
+D1
+Exit ~
+door~
+16384 0 5707
+D2
+Exit ~
+door~
+16384 0 5715
+D3
+Exit ~
+door~
+16384 0 5710
+S
+#5710
+Market Street~
+You are in the marketplace of kender village. All around you is complete and
+utter chaos. Kenders running everywhere trying to 'borrow' whatever they can
+whilst the poor vendors watch in disappointment as their goods go missing.
+Every few minutes you hear someone yell 'Hey Stop Thief!!'. The market
+continues east and south.
+~
+0 0 1
+D1
+Exit ~
+door~
+16384 0 5709
+D2
+Exit ~
+door~
+16384 0 5716
+S
+#5711
+Market Street~
+You are in the marketplace of kender village. All around you is complete and
+utter chaos. Kenders running everywhere trying to 'borrow' whatever they can
+whilst the poor vendors watch in disappointment as their goods go missing.
+Every few minutes you hear someone yell 'Hey! Stop Thief!!'. The market 
+continues south and west.
+~
+0 0 1
+D2
+Exit ~
+door~
+16384 0 5712
+D3
+Exit ~
+door~
+16384 0 5708
+S
+#5712
+Southern Market Street~
+This part of the market is quieter by kender standards. The hustle and the
+bustle of the central market is gone. Several empty stands lie here, probably
+remains of a kender rush. Central market is north of here while this street
+continues west.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5711
+D3
+Exit ~
+door~
+16384 0 5713
+S
+#5713
+Southern Market Street~
+This part of the market is quieter by kender standards. The hustle and the
+bustle of the central market is gone. Several empty stands lie here, probably
+remains of a kender rush. Central market is north of here while the street 
+continues east and west.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5708
+D1
+Exit ~
+door~
+16384 0 5712
+D3
+Exit ~
+door~
+16384 0 5714
+S
+#5714
+Southern Market Street~
+This part of the market is quieter by kender standards. The hustle and the
+bustle of the central market is gone. Several empty stands lie here, probably
+remains of a kender rush. Central market is north of here while the street 
+continues east and west. To the south is a pathway.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5707
+D1
+Exit ~
+door~
+16384 0 5713
+D2
+Exit ~
+door~
+16384 0 5717
+D3
+Exit ~
+door~
+16384 0 5715
+E
+~
+~
+S
+#5715
+Southern Market Street~
+This part of the market is quieter by kender standards. The hustle and the
+bustle of the central market is gone. Several empty stands lie here, probably
+remains of a kender rush. Central market is north of here while the street 
+continues east and west.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5709
+D1
+Exit ~
+door~
+16384 0 5714
+D3
+Exit ~
+door~
+16384 0 5716
+S
+#5716
+Southern Market Street~
+This part of the market is quieter by kender standards. The hustle and the
+bustle of the central market is gone. Several empty stands lie here, probably
+remains of a kender rush. Central market is north of here while this street
+continues east.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5710
+D1
+Exit ~
+door~
+16384 0 5715
+S
+#5717
+A worn pathway~
+The stone path you are travelling seems old and used frequently. Several
+trees line the pathway, leading to the centre of the village. The noise of
+the market can be heard from the north and the pathway continues south.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5714
+D2
+Exit ~
+door~
+16384 0 5718
+S
+#5718
+A worn pathway~
+The stone path you are travelling seems old and used frequently. Several
+trees line the pathway, leading to the centre of the village. The noise of
+the market can be heard far to the north. 
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5717
+D2
+Exit ~
+door~
+16384 0 5719
+S
+#5719
+Talorin Street~
+You are on Talorin Street in the kender village. The street seems to be
+made of stone. The street appears to be quiet except for the occasional
+laughter. A worn pathway lies to the north, and the centre of the village
+is south. The street continues east and west.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5718
+D1
+Exit ~
+door~
+16384 0 5720
+D2
+Exit ~
+door~
+16384 0 5746
+D3
+Exit ~
+door~
+16384 0 5724
+S
+#5720
+Talorin Street~
+You are on Talorin Street in the kender village. The street seems to be
+made of stone. The street seems to be quiet except for the occasional
+laughter. The sounds of a weaponsmith can be heard to the north. The street
+continues east and west.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5731
+D1
+Exit ~
+door~
+16384 0 5721
+D3
+Exit ~
+door~
+16384 0 5719
+S
+#5721
+Talorin Street~
+You are on Talorin Street in the kender village. The street seems to be
+made of stone. The street appears quiet except for the occasional
+laughter. To the north is a shop of some sorts. The street continues east
+and west.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5732
+D1
+Exit ~
+door~
+16384 0 5722
+D3
+Exit ~
+door~
+16384 0 5720
+S
+#5722
+Talorin Street~
+You are on Talorin Street in the kender village. The street seems to be
+made of stone. The street appears quiet except for the occasional
+laughter. The laughter seems loudest at this point. A sign to the north 
+says 'The Spinner's Inn'. The street continues east and west.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5733
+D1
+Exit ~
+door~
+16384 0 5723
+D3
+Exit ~
+door~
+16384 0 5721
+E
+sign~
+The Spinner's Inn. (Bring your purse with you).
+~
+S
+#5723
+Dead end of Talorin Street~
+You are at the east end of Talorin Street. The poor lighting and lack of
+escape routes makes this a perfect place to ambush an unsuspecting enemy.
+To the south is a dark alley, while Talorin Street continues west.
+~
+0 0 1
+D2
+Exit ~
+door~
+16384 0 5735
+D3
+Exit ~
+door~
+16384 0 5722
+S
+#5724
+Talorin Street~
+You are on Talorin Street in the kender village. The street seems to be
+made of stone. The street appears to be quiet except for the occasional 
+laughter. To the north is a small shop, while the street continues east and
+west.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5728
+D1
+Exit ~
+door~
+16384 0 5719
+D3
+Exit ~
+door~
+16384 0 5725
+S
+#5725
+Talorin Street~
+You are on Talorin Street in the kender village. The street seems to be
+made of stone. The street appears to be quiet except for the occasional
+laughter. The sweet aroma of freshly baked goodies lingers in the air. The
+smells of the bakery emit from the south. The street continues east and west.
+~
+0 0 1
+D1
+Exit ~
+door~
+16384 0 5724
+D2
+Exit ~
+door~
+16384 0 5729
+D3
+Exit ~
+door~
+16384 0 5726
+S
+#5726
+Talorin Street~
+You are on Talorin Street in the kender village. The street seems to be
+made of stone. The street appears quiet except for the occasional laughter.
+A huge warehouse is south of here. The street continues east and west.
+~
+0 0 1
+D1
+Exit ~
+door~
+16384 0 5725
+D2
+Exit ~
+door~
+16384 0 5730
+D3
+Exit ~
+door~
+16384 0 5727
+S
+#5727
+Dead end of Talorin Street~
+You are at the east end of Talorin Street. The poor lighting and lack of
+escape routes makes this a perfect place to ambush an unsuspecting enemy.
+Talorin street continues west.
+~
+0 0 1
+D1
+Exit ~
+door~
+16384 0 5726
+S
+#5728
+Drevlin's Magics~
+You are in the so called magic shop of the kender village. The room is small
+and is mostly taken up by an oak desk. Several shelves line the wall, but 
+they are empty. South is your only exit.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5724
+S
+#5729
+Jarre's Bakery~
+You are standing in a small bakery. The sensuous aroma of baked goodies
+makes your mouth water. On the counter lies freshly baked bread and pastries
+for sale. The only exit is north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5725
+S
+#5730
+The Gnome's Warehouse~
+The warehouse is huge and smells of smoke. Several half completed devices lie
+on the floor, waiting to be finished. The walls are blackened with soot and
+most of the windows are shattered. A typical gnome workshop. Talorin Street 
+is north of here.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5726
+S
+#5731
+Dougan's Forge~
+You are in Dougan's weapons shop. Various types of weapons line the wall. The
+ringing sound of hammer on steel vibrates in your ears. You can buy rare and
+exotic weapons of dwarven make. The only exit is south.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5720
+S
+#5732
+Soren's Armoury~
+Several pieces of armor adorn the windows and the walls. The sound of a
+hammer banging against armor rings in your ears. The best equipment in the
+village can be purchased from here. The only exit is south.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5721
+E
+wall armor~
+These are Soren's best armor and are not for sale.
+~
+S
+#5733
+Entrance of the Spinner's Inn~
+You are at the entrance of Spinner's Inn. The walls are wooden and you 
+can smell the delicious armoa of spiced food, cooking. The place is noisy,
+with several conversations very loud, usually ending in laughter. Talorin
+Street is south while the Common Room of the inn lies to the north.
+~
+0 CD 1
+D0
+Exit ~
+door~
+16384 0 5734
+D2
+Exit ~
+door~
+16384 0 5722
+S
+#5734
+The Common Room of Spinner's Inn~
+You are in the Common Room of the Spinner's Inn. Tables sit all around,
+scattered around with no apparent order. Most of the customers are busy
+talking, eating or drinking. The Common Room continues east,west and
+north. To the south is the entrance.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5738
+D1
+Exit ~
+door~
+16384 0 5736
+D2
+Exit ~
+door~
+16384 0 5733
+D3
+Exit ~
+door~
+16384 0 5740
+S
+#5735
+A Dark Alley~
+Darkness surrounds you. The ground and walls are wet and slimy. This seems a
+perfect place to be ambushed by thugs and the like. Talorin Street is north
+while the alley continues south.
+~
+0 C 1
+D0
+Exit ~
+door~
+16384 0 5723
+D2
+Exit ~
+door~
+16384 0 5778
+S
+#5736
+The Common Room of Spinner's Inn~
+You are in the Common Room of the Spinner's Inn. Tables sit all around,
+scattered around with no apparent order. Most of the customers are busy
+talking, eating or drinking. The Common room continues west and north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5737
+D3
+Exit ~
+door~
+16384 0 5734
+S
+#5737
+The Common Room of Spinner's Inn~
+You are in the Common Room of the Spinner's Inn. Tables sit all around,
+scattered around with no apparent order. Most of the customers are busy
+talking, eating or drinking. The Common room continues west and south.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5736
+D3
+Exit ~
+door~
+16384 0 5738
+S
+#5738
+The Common Room of Spinner's Inn~
+You are in the Common Room of the Spinner's Inn. Tables sit all around,
+scattered around with no apparent order. Most of the customers are busy
+talking, eating or drinking. The Common room continues east west and south.
+The bar is to the north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5741
+D1
+Exit ~
+door~
+16384 0 5737
+D2
+Exit ~
+door~
+16384 0 5734
+D3
+Exit ~
+door~
+16384 0 5739
+S
+#5739
+The Common Room of Spinner's Inn~
+You are in the Common Room of the Spinner's Inn. Tables sit all around,
+scattered around with no apparent order. Most of the customers are busy
+talking eating or drinking. The Common room continues east and south.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 5738
+D2
+Exit ~
+door~
+16384 0 5740
+S
+#5740
+The Common Room of Spinner's Inn~
+You are in the Common Room of the Spinner's Inn. Tables sit all around,
+scattered around with no apparent order. Most of the customers are busy
+talking, eating or drinking. The Common Room continues east and north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5739
+D1
+Exit ~
+door~
+16384 0 5734
+S
+#5741
+The Bar at the Spinner's Inn~
+You are standing at the bar of the Spinner's Inn. The counter is covered with
+several empty bottles and glasses. The smell of alcohol fills the air. The 
+floor is sticky, probably remains of someone's spilled drink. The Common 
+Room is south and there is a stairway to the west.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5738
+D3
+Exit ~
+door~
+16384 0 5742
+S
+#5742
+A stairway~
+You are at the bottom of a wooden stairway. From this point you can see most
+of the Common Room and the bar. The bar is east while the stairway leads up.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 5741
+D4
+Exit ~
+door~
+16384 0 5743
+S
+#5743
+Top of the stairway in the inn~
+You are on the top of the stairway in the Spinner's Inn. For this vantage 
+point you can see most of the Inn. The rooms of the inn are east and west of
+here. You can go down the stairway to the bar.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 5744
+D3
+Exit ~
+door~
+16384 0 5745
+D5
+Exit ~
+door~
+16384 0 5742
+S
+#5744
+A room in the inn~
+You stand in a poorly furnished room in the inn. The only furniture in the 
+room is an old bed. A small sign above the doorway says 'Keep your belongings
+with you. This is a kender town.' The only exit is west.
+~
+0 D 1
+D3
+Exit ~
+door~
+16384 0 5743
+E
+sign~
+Keep your belongings with you. This is a kender town.
+~
+S
+#5745
+A room in the inn~
+You stand in a poorly furnished room in the inn. The only furniture in the 
+room is an old bed. A small sign above the doorway says 'Keep your belongings
+with you. this is a kender town.' The only exit is east.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 5743
+E
+sign~
+Keep your belongings with you. This is a kender town.
+~
+S
+#5746
+Village Center~
+The center of the village is dominated by a huge marble fountain. The noise
+of the market can be heard in the distance. Unlike most places in the village
+the center is relatively inactive and very calm. Talorin Street is south, 
+while another path begins north.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5719
+D2
+Exit ~
+door~
+16384 0 5747
+S
+#5747
+A path in the village~
+The path is quiet and seems rarely used. Beautiful oak trees line either side
+of the path. The center of the village is south while the path continues 
+north.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5746
+D2
+Exit ~
+door~
+16384 0 5748
+S
+#5748
+A path in the village~
+The path is quiet and seems rarely used. Beautiful oak trees line either side
+of the path. The path continues north, while Lockpicker Street begins south.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5747
+D2
+Exit ~
+door~
+16384 0 5749
+S
+#5749
+Lockpicker Street~
+You are on Lockpicker Street in kender village. The street is devoid of any
+activity except for the occasional kender running around. Lockpicker Street
+continues east and west. To the north is the path to Talorin Street, while
+the southern route takes you further into the village.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5748
+D1
+Exit ~
+door~
+16384 0 5750
+D2
+Exit ~
+door~
+16384 0 5758
+D3
+Exit ~
+door~
+16384 0 5754
+S
+#5750
+Lockpicker Street~
+You are on Lockpicker Street in kender village. The street is devoid of any
+activity except for the occasional kender running around. Lockpicker Street
+continues east and west. To the north and south are kender homes. Typically 
+there are no doors.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5759
+D1
+Exit ~
+door~
+16384 0 5751
+D2
+Exit ~
+door~
+16384 0 5760
+D3
+Exit ~
+door~
+16384 0 5749
+S
+#5751
+Lockpicker Street~
+You are on Lockpicker Street in kender village. The street is devoid of any
+activity except for the occasional kender running around. Lockpicker Street
+continues east and west. To the north and south are kender homes. Typically 
+there are no doors.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5761
+D1
+Exit ~
+door~
+16384 0 5752
+D2
+Exit ~
+door~
+16384 0 5762
+D3
+Exit ~
+door~
+16384 0 5750
+S
+#5752
+Lockpicker Street~
+You are on Lockpicker Street in kender village. The street is devoid of any
+activity except for the occasional kender running around. Lockpicker Street
+continues east and west. To the north and south are kender homes. Typically 
+there are no doors.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5763
+D1
+Exit ~
+door~
+16384 0 5753
+D2
+Exit ~
+door~
+16384 0 5764
+D3
+Exit ~
+door~
+16384 0 5751
+S
+#5753
+Lockpicker Street~
+You are on Lockpicker Street in kender village. The street is devoid of any
+activity except for the occasional kender running around. Lockpicker Street
+continues west. To the north, south and east are kender homes. Typically
+there are no doors.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5774
+D1
+Exit ~
+door~
+16384 0 5776
+D2
+Exit ~
+door~
+16384 0 5775
+D3
+Exit ~
+door~
+16384 0 5752
+S
+#5754
+Lockpicker Street~
+You are on Lockpicker Street in kender village. The street is devoid of any
+activity except for the occasional kender running around. Lockpicker Street
+continues east and west. To the north and south are kender homes. Typically 
+there are no doors.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5765
+D1
+Exit ~
+door~
+16384 0 5749
+D2
+Exit ~
+door~
+16384 0 5766
+D3
+Exit ~
+door~
+16384 0 5755
+S
+#5755
+Lockpicker Street~
+You are on Lockpicker Street in kender village. The street is devoid of any
+activity except for the occasional kender running around. Lockpicker Street
+continues east and west. To the north and south are kender homes. Typically 
+there are no doors.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5767
+D1
+Exit ~
+door~
+16384 0 5754
+D2
+Exit ~
+door~
+16384 0 5768
+D3
+Exit ~
+door~
+16384 0 5756
+S
+#5756
+Lockpicker Street~
+You are on Lockpicker Street in kender village. The street is devoid of any
+activity except for the occasional kender running around. Lockpicker Street
+continues east and west. To the north and south are kender homes. Typically 
+there are no doors.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5769
+D1
+Exit ~
+door~
+16384 0 5755
+D2
+Exit ~
+door~
+16384 0 5770
+D3
+Exit ~
+door~
+16384 0 5757
+S
+#5757
+Lockpicker Street~
+You are on Lockpicker Street in kender viallge. The street is devoid of any
+activity except for the occasional kender running around. Lockpicker Street
+continues east. To the north, west , and south are more homes. Typically
+there are not doors.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5771
+D1
+Exit ~
+door~
+16384 0 5756
+D2
+Exit ~
+door~
+16384 0 5772
+D3
+Exit ~
+door~
+16384 0 5773
+S
+#5758
+Trapsinger Avenue~
+You are on Trapsinger Avenue in the kender village. The avenue is clean
+and well kept. On either side of the avenue are small lamposts keeping the
+area bright. Lockpicker Street is north of here, while the avenue continues
+south.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5749
+D2
+Exit ~
+door~
+16384 0 5781
+E
+pouches~
+They seem empty and stuck to the wall.
+~
+S
+#5759
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is south.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5750
+E
+pouches~
+The pouches are empty and seem stuck to the wall.
+~
+S
+#5760
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5750
+E
+pouches~
+They seem empty and stuck to the wall.
+~
+S
+#5761
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is south.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5751
+E
+pouches~
+The pouches are empty and seem stuck to the wall.
+~
+S
+#5762
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5751
+E
+pouches~
+They seem empty and stuck to the wall.
+~
+S
+#5763
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is south.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5752
+E
+pouches~
+The pouches are empty and seem stuck to the wall.
+~
+S
+#5764
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5752
+E
+pouches~
+They seem empty and stuck to the wall.
+~
+S
+#5765
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is south.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5754
+E
+pouches~
+The pouches are empty and seem stuck to the wall.
+~
+S
+#5766
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5754
+E
+pouches~
+They seem empty and stuck to the wall.
+~
+S
+#5767
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is south.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5755
+E
+pouches~
+The pouches are empty and seem stuck to the wall.
+~
+S
+#5768
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5755
+E
+pouches~
+They seem empty and stuck to the wall.
+~
+S
+#5769
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is south.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5756
+E
+pouches~
+The pouches are empty and seem stuck to the wall.
+~
+S
+#5770
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5756
+E
+pouches~
+They seem empty and stuck to the wall.
+~
+S
+#5771
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is south.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5757
+E
+pouches~
+The pouches are empty and seem stuck to the wall.
+~
+S
+#5772
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5757
+E
+pouches~
+They seem empty and stuck to the wall.
+~
+S
+#5773
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is east.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 5757
+E
+pouches~
+The pouches are empty and seem stuck to the wall.
+~
+S
+#5774
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is south.
+~
+0 D 1
+D2
+Exit ~
+door~
+16384 0 5753
+E
+pouches~
+The pouches are empty and seem stuck to the wall.
+~
+S
+#5775
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5753
+E
+pouches~
+They seem empty and stuck to the wall.
+~
+S
+#5776
+A kender home~
+You are in a small house made of stone and clay. Although small the house is 
+rather spacious due to the lack of furniture. Several empty pouches hang on
+the wall. Lockpicker Street is west.
+~
+0 D 1
+D3
+Exit ~
+door~
+16384 0 5753
+E
+pouches~
+The pouches are empty and seem stuck to the wall.
+~
+S
+#5777
+Trapsinger Avenue~
+You are on Trapsinger Avenue in the kender village. The avenue is clean
+and well kept. On either side of the avenue are small lamposts keeping the
+area bright. The avenue continues north, while south of here is the 
+courthouse.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5781
+D2
+Exit ~
+door~
+16384 0 5783
+E
+pouches~
+They seem empty and stuck to the wall.
+~
+S
+#5778
+A Dark Alley~
+Darkness surrounds you. The ground and walls are wet and slimy. This seems a 
+perfect place to be ambushed by thugs and the like. The alley continues north
+and east.
+~
+0 C 1
+D0
+Exit ~
+door~
+16384 0 5735
+D1
+Exit ~
+door~
+16384 0 5779
+S
+#5779
+A Dark Alley~
+Darkness surrounds you. The ground and walls are wet and slimy. This seems a 
+perfect place to ambushed by thugs and the like. The alley continues west 
+and east.
+~
+0 C 1
+D1
+Exit ~
+door~
+16384 0 5780
+D3
+Exit ~
+door~
+16384 0 5778
+S
+#5780
+A Dark Alley~
+Darkness surrounds you. The ground and walls are wet and slimy. This seems a 
+perfect place to set an ambush. The only exit is west.
+~
+0 AC 1
+D3
+Exit ~
+door~
+16384 0 5779
+S
+#5781
+Trapsinger Avenue~
+You are on Trapsinger Avenue in the kender village. The avenue is clean
+and well kept. On either side of the avenue are small lamposts keeping the
+area bright. The mayor's house lies to the west. The avenue continues 
+north and south.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 5758
+D2
+Exit ~
+door~
+16384 0 5777
+D3
+Exit ~
+door~
+16384 0 5782
+E
+pouches~
+They seem empty and stuck to the wall.
+~
+S
+#5782
+The Mayor's House~
+This is a magnificent house, beautiful beyond belief. The walls have been
+painted in pure white and a crimson carpet lines the floor, wall to wall.
+A small glass cabinet in the center of the room displays a wide selection
+of beautiful jewelry. This doesn't look like an ordinary kender home. The
+only exit is east.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 5781
+E
+cabinet~
+The glass cabinet is full of beautiful jewellry on display.
+~
+S
+#5783
+The Courthouse~
+The courthouse is small and unimpressive. The walls seem incomplete and 
+almost ready to fall apart. A small desk with five chairs around it
+dominate the room. The only exit is north.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 5777
+S
+#0
+
+#RESETS
+M 0 5702   4 5701  2	* a young kender adventurer
+E 1 5705  -1   13	*   a kender pouch
+E 1 5704  -1   16	*   a kender dagger
+M 0 5702   4 5701  2	* a young kender adventurer
+E 1 5704  -1   16	*   a kender dagger
+E 1 5705  -1   13	*   a kender pouch
+M 0 5700  10 5703  1	* a kender villager
+E 1 5702  -1   16	*   a hoopak
+M 0 5701  12 5704  1	* a female kender
+M 0 5700  10 5705  1	* a kender villager
+G 1 5702  -1     	*   a hoopak
+M 0 5703  14 5707  1	* a kender child
+M 0 5701  12 5707  1	* a female kender
+M 0 5711   1 5707  1	* a human vendor
+M 0 5713   1 5708  1	* a half-elf vendor
+M 0 5701  12 5708  1	* a female kender
+M 0 5703  14 5709  1	* a kender child
+M 0 5704  10 5709  1	* a kender elder
+M 0 5714   1 5709  1	* a halfling vendor
+M 0 5700  10 5710  1	* a kender villager
+M 0 5703  14 5710  1	* a kender child
+M 0 5715   1 5710  1	* a female vendor
+M 0 5701  12 5711  1	* a female kender
+M 0 5703  14 5711  1	* a kender child
+M 0 5703  14 5712  1	* a kender child
+M 0 5703  14 5713  1	* a kender child
+M 0 5704  10 5714  1	* a kender elder
+M 0 5701  12 5715  1	* a female kender
+M 0 5702   4 5716  1	* a young kender adventurer
+G 1 5705  -1     	*   a kender pouch
+M 0 5704  10 5717  1	* a kender elder
+M 0 5702   4 5718  1	* a young kender adventurer
+E 1 5704  -1   16	*   a kender dagger
+M 0 5701  12 5724  1	* a female kender
+M 0 5700  10 5726  1	* a kender villager
+M 0 5731   1 5729  1	* Jarre
+G 1 5725  -1     	*   some dry rations
+G 1 5726  -1     	*   a cinnamon roll
+G 1 5724  -1     	*   a bread
+G 1 5722  -1     	*   a blueberry danish
+M 0 5730   1 5730  1	* a gnome inventor
+G 1 5740  -1     	*   a gnomish light creating device
+G 1 5739  -1     	*   a gnomish water carrying device
+G 1 5738  -1     	*   a gnomish sea travelling device
+M 0 5727   1 5731  1	* Dougan
+G 1 5717  -1     	*   a battle axe
+G 1 5718  -1     	*   a long sword
+G 1 5719  -1     	*   a mace
+G 1 5720  -1     	*   a spear
+G 1 5721  -1     	*   a dagger
+M 0 5728   1 5732  1	* Soren
+G 1 5713  -1     	*   a pair of iron-bound boots
+G 1 5712  -1     	*   a scale mail jacket
+G 1 5714  -1     	*   a small metal shield
+G 1 5715  -1     	*   a pair of scale mail sleeves
+G 1 5716  -1     	*   a leather cap
+M 0 5708   1 5733  1	* the dwarven bouncer
+E 1 5711  -1    6	*   a dwarven helmet
+M 0 5719   1 5734  1	* a human traveller
+M 0 5718   1 5734  1	* a kender storyteller
+E 1 5707  -1    5	*   a red cotton tunic
+E 1 5705  -1   13	*   a kender pouch
+M 0 5710   2 5734  1	* a dwarven waitress
+E 1 5701  -1   12	*   a dirty apron
+M 0 5706   2 5735  1	* a female gully dwarf
+E 1 5703  -1   16	*   a bashing tool
+M 0 5705   3 5735  1	* a gully dwarf
+E 1 5703  -1   16	*   a bashing tool
+M 0 5720   1 5736  1	* an elven traveller
+E 1 5709  -1    8	*   leather travelling boots
+M 0 5721   1 5736  1	* a female elven traveller
+E 1 5708  -1   12	*   an elven-made silk robe
+M 0 5710   2 5737  1	* a dwarven waitress
+E 1 5701  -1   12	*   a dirty apron
+M 0 5724   1 5737  1	* the halfling patron
+M 0 5725   4 5737  1	* a drunken kender
+M 0 5716   1 5738  1	* the Innkeeper
+G 1 5735  -1     	*   some spiced potatoes
+G 1 5737  -1     	*   a bowl of vegetable stew
+G 1 5736  -1     	*   some beef stew
+M 0 5709   1 5738  1	* a human waitress
+E 1 5701  -1   12	*   a dirty apron
+M 0 5725   4 5741  1	* a drunken kender
+M 0 5722   3 5741  1	* a human drunk
+M 0 5717   1 5741  1	* the barkeep
+G 1 5732  -1     	*   a bottle of ale
+G 1 5733  -1     	*   a shot of whiskey
+G 1 5734  -1     	*   a quart of port brew
+M 0 5704  10 5747  1	* a kender elder
+M 0 5703  14 5749  1	* a kender child
+M 0 5703  14 5755  1	* a kender child
+M 0 5700  10 5757  1	* a kender villager
+M 0 5703  14 5758  1	* a kender child
+M 0 5701  12 5759  1	* a female kender
+M 0 5700  10 5759  1	* a kender villager
+M 0 5701  12 5761  1	* a female kender
+M 0 5703  14 5761  1	* a kender child
+M 0 5701  12 5764  1	* a female kender
+M 0 5703  14 5764  1	* a kender child
+M 0 5703  14 5765  1	* a kender child
+M 0 5700  10 5765  1	* a kender villager
+M 0 5701  12 5766  1	* a female kender
+M 0 5703  14 5769  1	* a kender child
+M 0 5701  12 5769  1	* a female kender
+M 0 5700  10 5769  1	* a kender villager
+M 0 5703  14 5771  1	* a kender child
+M 0 5700  10 5774  1	* a kender villager
+M 0 5701  12 5775  1	* a female kender
+M 0 5700  10 5776  1	* a kender villager
+M 0 5704  10 5777  1	* a kender elder
+M 0 5705   3 5778  1	* a gully dwarf
+E 1 5703  -1   16	*   a bashing tool
+M 0 5705   3 5779  1	* a gully dwarf
+M 0 5706   2 5780  1	* a female gully dwarf
+M 0 5704  10 5783  4	* a kender elder
+M 0 5704  10 5783  4	* a kender elder
+M 0 5704  10 5783  4	* a kender elder
+M 0 5704  10 5783  4	* a kender elder
+M 0 5723   1 5739  1	* the dwarven patron
+M 0 5717   1 5739  1	* the barkeep
+G 1 5732  -1     	*   a bottle of ale
+G 1 5733  -1     	*   a shot of whiskey
+G 1 5734  -1     	*   a quart of port brew
+M 0 5725   4 5739  1	* a drunken kender
+E 1 5700  -1    7	*   a pair of blue cotton leggings
+M 0 5722   3 5739  2	* a human drunk
+M 0 5722   3 5739  2	* a human drunk
+M 0 5723   2 5740  1	* the dwarven patron
+M 0 5704  10 5746  1	* a kender elder
+O 0 3135 100 5746	* a foutain
+M 0 5729   1 5728  1	* Drevlin
+G 1 5727  -1     	*   a scroll of seeing
+G 1 5728  -1     	*   a scroll of recall
+G 1 5729  -1     	*   a yellow vial
+G 1 5730  -1     	*   a clear potion
+G 1 5731  -1     	*   a blue staff
+M 0 5707   1 5782  1	* the Kender Mayor
+E 1 5706  -1    3	*   the Mayor's chain
+E 1 5742  -1    4	*   the cabinet key
+O 0 5741 100 5782	* a glass cabinet
+P 1 5743  -1 5741  1	*   Thief Guard
+P 1 5710  -1 5741  1	*   the Mayor's ring
+P 1 3378  -1 5741  1	*   an opal
+D 0 5782   1 16384	* The Mayor's House east
+S
+
+#SHOPS
+5716  0  0  0  0  0 	  75 150 	 0 24 	* the Innkeeper
+5717  0  0  0  0  0 	 150 150 	 0 24 	* the barkeep
+5727  5  0  0  0  0 	 125  75 	 6 18 	* Dougan
+5728  9  0  0  0  0 	 125  75 	 6 20 	* Soren
+5729 10  4  2  0  0 	 125  75 	 0 24 	* Drevlin
+5730  0  0  0  0  0 	 125  75 	 5 20 	* a gnome inventor
+5731  0  0  0  0  0 	 125  75 	 0 24 	* Jarre
+0
+
+#SPECIALS
+M 5700 spec_thief          	* a kender villager
+M 5705 spec_fido           	* a gully dwarf
+M 5706 spec_fido           	* a female gully dwarf
+M 5707 spec_fido           	* the Kender Mayor
+S
+
+#$

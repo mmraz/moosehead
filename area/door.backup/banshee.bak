@@ -1,0 +1,2906 @@
+#AREA
+/mud/moosehead/area/banshee.are~
+The "Banshee"~
+{20 35} BS & GW The "Banshee"~
+16100 16184
+
+#MOBILES
+#16100
+Heartless Pirate~
+a heartless pirate~
+A heartless pirate spits on you.
+~
+This slovenly piece of human refuse makes a living killing hapless
+victims and singing off-key sea chanteys.
+~
+human~
+ACG D -500 0
+23 0 6d10+490 11d9+100 4d8+5 none
+-6 -6 -6 6
+DEFN A 0 0
+stand stand male 1000
+0 0 medium 0
+#16101
+swarthy deck-hand~
+a swarthy deck-hand~
+A swarthy deck-hand is busy swabbing the decks.
+~
+This heavily tanned sailor is hard at work making sure that the 
+"Banshee" remains in good order.  If he fails, there's a short trip
+into the sea by means of a wooden plank and a sword.
+~
+human~
+AG D -500 0
+18 0 2d10+300 7d9+100 1d12+5 none
+-2 -2 -2 -2
+EFN A 0 0
+stand stand male 200
+0 0 medium 0
+#16102
+Captain Kalish'ah~
+Captain Kalish'ah~
+The menacing Captain Kalish'ah snarls at you.
+~
+Captain Kalish'ah is the tall and powerfully built mastermind behind the
+crew of the Banshee.  His eyes glow with a cruel light, and he seems 
+willing and able to murder anyone who interferes with his evil plans.
+His glossy obsidian armor seems almost impenetrable.
+~
+human~
+ABST DFHN -1000 0
+37 0 10d10+1600 2d10+50 4d7+14 none
+-2 -2 -2 -2
+BDEFKU AB 0 0
+stand stand male 4000
+0 0 medium 0
+#16103
+Najir~
+Najir~
+Najir the Sorcerer glares at you malevolently.
+~
+This tall, black-robed evil man is Najir, one of the most accomplished
+sorcerers in all of the lands of Midgaard.  He, along with Shak'Ra and
+Kalish'ah, leads the crew of cutthroats to bloody gains.  His eyes
+glow with an evil light that unsettles you.
+~
+human~
+ABFR BDHN -1000 0
+34 0 10d10+1250 10d10+600 4d7+11 magic
+-11 -11 -11 -11
+FU A A 0
+stand stand male 3500
+0 0 medium 0
+#16104
+shak'ra~
+Shak'Ra~
+Shak'Ra ceases his unholy chants and giggles insanely.
+~
+This evil patriarch is totally consumed by evil and is completely insane.
+He follows the way of Valnor is enjoys pleasing him with bloody 
+sacrifices.  His bloody robes hang in tatters around his body, and
+he is constantly giggling and laughing.
+~
+human~
+ABFQ DHN -1000 0
+34 0 10d10+1250 10d10+600 4d7+11 punch
+-11 -11 -11 -11
+KU A A 0
+stand stand male 3500
+0 0 medium 0
+#16105
+master lookout~
+Master Lookout~
+The Master Lookout is here, spying for ships to plunder.
+~
+This man seems more rat-like than human, and seems to relish his job of
+scanning the seas for easy plunder.
+~
+human~
+ABCF DF -500 0
+31 0 6d12+928 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU A 0 0
+stand stand male 2500
+0 0 medium 0
+#16106
+quartermaster~
+The Quartermaster~
+The Quartermaster is swearing and cursing at his sailors.
+~
+This pirate was not hired on for his good looks and polite mannerisms.
+It's obvious that all he likes doing is pillaging and SHOUTING very LOUD.
+Obviously he's the product of a dysfunctional family.
+~
+human~
+ABCFG D -500 0
+28 0 6d12+703 14d9+100 5d4+8 none
+-7 -7 -7 6
+EFNU A 0 0
+stand stand male 3000
+0 0 medium 0
+#16107
+1st Mate~
+The 1st Mate~
+The 1st Mate is here at the ship's wheel.
+~
+The 1st Mate is in command of the ship when his captain is busy with his
+own matters.  Currently, he is at the wheel of the ship, guiding it 
+through narrow reefs and atolls with great skill.  His eyes scan the sea
+with narrow, beady eyes.
+~
+human~
+AB N 0 0
+28 0 6d12+778 14d9+100 2d12+8 none
+-7 -7 -7 6
+EFNU A 0 0
+stand stand male 2000
+0 0 medium 0
+#16108
+giant albatross~
+a giant albatross~
+A giant albatross is perched here, looking at you hungrily.
+~
+A giant albatross looks at you hungrily, it is a big and ugly bird
+which sqwawks obscenely as you approach it.
+~
+water fowl~
+ACG DF -750 0
+23 0 5d10+450 11d9+100 3d6+6 none
+-6 -6 -6 6
+EFJMNU A 0 0
+stand stand female 100
+0 IT medium 0
+F aff Tb
+F res R
+F for G
+F par CH
+#16109
+willie gardener~
+Willie the Gardener~
+Willie the Gardener is here, foaming at the mouth.
+~
+Willie the Gardener is a great kilted Scotsman with the odor to match.
+His love for flowers exceeds anything in the world, and your intrusion
+into his sanctuary has made him VERY mad.
+"DON"T YE BE TOUCHIN" MY FLOWERS YE BLOODY GOAT'S STOOL!
+~
+human~
+ABCFG Va -500 0
+33 0 10d10+1100 15d9+100 6d4+10 none
+-3 -3 -3 6
+EFNU A 0 0
+stand stand male 0
+0 0 medium 0
+#16110
+master jailkeeper~
+The Master Jailkeeper~
+The Master Jailkeeper is just waiting for you to escape.
+~
+The Master Jailkeeper is very ugly.  So ugly in fact, that he has to be
+kept below the decks so he doesn't scare all of those albatrosses away.
+He makes up for his lack of comeliness with an abundance of hatred 
+and agression.  
+~
+human~
+AGTU DF -1000 0
+32 0 10d10+1000 15d9+100 6d4+9 none
+-6 -6 -6 -6
+CDEIK A 0 0
+stand stand male 3000
+0 0 tiny 0
+F par GHIJK
+#16111
+the 2nd mate~
+The 2nd Mate~
+The 2nd Mate is minding the large ballista.
+~
+The 2nd Mate is given all the jobs that the 1st Mate doesn't want to do.
+Poor guy.  He's secretly thinking of assassinating the 1st Mate, and 
+taking over, but in the mean time, he'll be content with killing you!
+~
+human~
+AB N -500 0
+26 0 10d10+600 14d9+100 2d12+8 none
+-7 -7 -7 6
+EFNU A 0 0
+stand stand male 2000
+0 0 medium 0
+#16112
+the 3rd mate~
+The 3rd Mate~
+The 3rd Mate is here, doing the laundry.
+~
+If you thought the 2nd Mate had it bad, well, this guy's got it worse.
+He's stuck doing laundry in the barracks, and boy is he mad.
+(You can tell by the way he's treating the Tide)
+I'd get out of here before he notices you..TOO LATE!
+~
+human~
+AB N -500 0
+25 0 5d10+550 14d9+100 2d12+8 none
+-7 -7 -7 0
+EFNU A 0 0
+stand stand male 1500
+0 0 medium 0
+#16113
+gronk ship ship's cook ~
+Gronk the Cook~
+Gronk the ship's cook is here, preparing some distasteful repast.
+~
+Gronk looks like he belongs below the deck, because he smells almost as
+bad as the food he's making.  He seems to be about half-minotaur, 
+half-orc, and half-something else which you can't put a finger on.
+He doesn't appreciate the way you're analyzing his heritage, and
+snarls loudly.  SNARRRL.
+~
+human~
+AB N -1000 0
+25 0 5d10+550 14d9+100 2d12+8 none
+-6 -6 -6 -6
+EFNU A 0 0
+stand stand male 1000
+0 0 medium 0
+#16114
+ghost mr. mister smee~
+The Ghost of Mr. Smee~
+The Ghost of Mr. Smee grins maniacally.
+~
+Mr. Smee was brought back from the dead, and he is ROYALLY PISSED OFF!
+Imagine having a hangover forever...that's what this guy's got to live
+with.  That's why he hates you.
+~
+human~
+ABOT DF -1000 0
+26 0 5d10+600 10d10+50 3d7+7 beating
+-7 -7 -7 -7
+AEFNU A F BN
+stand stand male 0
+IL 0 medium 0
+F par GHIJK
+#16115
+ghost black beard blackbeard~
+The Ghost of Blackbeard~
+The Ghost of Blackbeard glares maliciously at you.
+~
+Blackbeard attempted to usurp Kalish'ah and wound up dead as a doornail.
+Also, he lost his big black beard.  No wonder he's not too impressed 
+with you showing up in his quarters.
+~
+human~
+ABOT DF -1000 0
+26 0 5d10+600 10d10+50 3d7+7 beating
+-7 -7 -7 -7
+AEFNU A F BN
+stand stand male 0
+IL 0 medium 0
+F par GHIJK
+#16116
+ghost long john silv~
+The Ghost of Long John Silver~
+The Ghost of Long John Silver is here, singing chanteys to himself.
+~
+Blackbeard attempted to usurp Kalish'ah and wound up dead as a doornail.
+Also, he lost his big black beard.  No wonder he's not too impressed 
+with you showing up in his quarters.
+~
+human~
+ABOT DF -1000 0
+26 0 5d10+600 10d10+50 3d7+7 beating
+-7 -7 -7 -7
+AEFNU A F BN
+stand stand male 0
+IL 0 medium 0
+F par GHIJK
+#16117
+ghost captain hook~
+The Ghost of Captain Hook~
+The Ghost of Captain Hook fixes his icy glare upon you.
+~
+Captain Hook led the mutiny against Captain Kalish'ah, and was rewarded
+by being allowed to die...slowly, over a matter of weeks.  Now he has
+nothing left to do but torment the living..like yourself!
+~
+human~
+ABFOT DF -1000 0
+29 0 6d12+853 10d10+100 4d6+8 cleave
+-7 -7 -7 -7
+ACDEFN A F BN
+stand stand male 0
+IL 0 medium 0
+F par GHIJK
+#16118
+chameleon man~
+Chameleon Man~
+Chameleon Man is attempting to blend into his surroundings, and fails.
+~
+Wow!  Face to face with Midgaard's most famous superhero!  Actually,
+he doesn't look all that imposing, in fact, he looks kinda geeky.
+Still, you're aware that he didn't live this long without having 
+something up his sleeve..
+~
+human~
+ABS QT 1000 0
+30 0 6d12+875 10d10+100 4d6+8 thwack
+-3 -3 -3 -3
+BEFJNU A 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#16119
+guardian beast~
+The Guardian Beast~
+The Guardian Beast roars menacingly at your arrival.
+~
+This thing can only be described as monstrous.  You can barely make out
+tentacles, horns, mandibles, and a host of other appendages it uses
+to crush the life out of its food.  This is one mean creature.
+~
+school monster~
+ABT TV 0 0
+33 0 10d10+1200 10d10+100 4d7+11 crush
+-12 -12 -12 -6
+DEFNU 0 0 0
+stand stand none 2000
+H 0 huge 0
+F imm B
+F vul C
+F par HJKQU
+#16120
+mutant parrot~
+A Mutant Parrot~
+A Mutant Parrot is here, squawking loudly in annoyance.
+~
+This incredibly large parrot was once much smaller, and kept as a pet
+by Kalish'ah.  Unfortunately, it ate too many Birdie Num-nums, and
+became the hideous abomination you see before you.  It looks bad and
+smells even worse.
+~
+human~
+ABFT T -1000 0
+28 0 6d12+750 10d10+100 2d12+8 peck
+-7 -7 -7 -7
+CDEFNU A H K
+stand stand none 0
+W P large 0
+F for V
+F par BGHIJK
+#16121
+peter pan~
+Peter Pan~
+Peter Pan is hovering here, playing with his shadow.
+~
+Hrmm, who is this old man wearing green tights and a silly green hat?
+Oh, it's Peter Pan.  Apparently his youthfulness didn't last long under
+Kalish'ah's famous torture techniques.  This guy won't be going back
+to NeverNeverLand anytime soon.
+~
+human~
+ABS TV 1000 0
+31 1 6d12+928 10d10+100 2d12+8 stab
+-2 -2 -2 -2
+EFKNU A N 0
+stand stand male 0
+0 0 small 0
+F par GHIJK
+#16122
+damsel dis dis'dress~
+A Damsel in Dis'Dress~
+A Damsel in Dis'Dress is waiting for you to rescue her.
+~
+Amazing.  An actual bonafide 100% "Damsel in Dis'Dress".  You had 
+assumed that the Honor clan had rescued them all years ago, and yet
+here's one waiting for you.  Isn't she sweet?  That's a nice dress she's
+wearing too....I wonder how it would look on you?
+~
+human~
+ABT H 500 0
+22 1 4d10+360 10d10+100 4d6+6 slap
+-4 -4 -4 -4
+FJU A B N
+stand stand female 0
+0 0 small 0
+F par GHIJK
+#16123
+a bloodthirsty buccaneer~
+A bloodthirsty buccaneer~
+A bloodthirsty buccaneer winks and says "Arr!"
+~
+The man standing before you is the epitome of bad etiquette and 
+horrible hygiene.  His only redeeming qualities are that he..er..
+he likes...that is..hrmmm..why don't you just kill him and do
+the world a favor?
+~
+human~
+AGT 0 -500 0
+24 0 5d10+500 10d10+100 2d10+6 cleave
+-6 -6 -6 -6
+DEFNU A 0 0
+stand stand male 1300
+0 0 medium 0
+F par GHIJK
+#16124
+pirate navigator~
+the Navigator~
+The Navigator is busy examining some naval charts.
+~
+This man spells doom for any merchant vessel.  His keen intellect and
+cunning have allowed the Banshee to track down any heavily laden
+cog there is.  Besides possessing incredible intelligence, he also
+has finely tuned fighting skills.  He is a formidable enemy.
+~
+human~
+ABR H -1000 0
+30 0 6d12+928 4d6+9 4d6+9 pound
+-10 -10 -10 -10
+FKU A 0 0
+stand stand male 3000
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#16100
+steel rapier~
+a steel rapier~
+A steel sword is lying here in the dust.~
+steel~
+weapon J AN
+sword 4 4 slash 0
+23 50 2100 P
+A
+3 -1
+A
+18 2
+A
+19 -1
+E
+1~
+Generic extended description.
+~
+#16101
+obsidian breast plate~
+an obsidian breastplate~
+A night-black breastplate is lying on the ground.~
+obsidian~
+armor GJ AD
+9 9 9 3 0
+30 500 9200 P
+A
+5 2
+A
+13 15
+#16102
+obsidian helmet~
+the obsidian helmet~
+An obsidian helmet is propped up on the ground.~
+obsidian~
+armor GJ AE
+9 9 9 3 0
+30 300 6300 P
+A
+4 2
+A
+13 10
+E
+1~
+Generic extended description.
+~
+#16103
+obsidian leggings~
+obsidian leggings~
+Some leggings fashioned from black obsidian lie here.~
+obsidian~
+armor GJ AF
+9 9 9 3 0
+30 400 6300 P
+A
+2 2
+A
+13 10
+#16104
+obsidian boots~
+obsidian boots~
+Some black boots sit here in the dust.~
+obsidian~
+armor GJ AG
+9 9 9 3 0
+32 400 4100 P
+A
+14 25
+A
+13 10
+#16105
+obsidian gauntlets~
+obsidian gauntlets~
+Some great obsidian gauntlets lie here.~
+obsidian~
+armor GJ AH
+9 9 9 3 0
+31 400 4300 P
+A
+18 2
+A
+13 10
+#16106
+obsidian armplates~
+obsidian armplates~
+Some black armplates lie here in a heap.~
+obsidian~
+armor GJ AI
+9 9 9 3 0
+30 400 6300 P
+A
+1 2
+A
+13 10
+#16107
+obsidian kite shield~
+an obsidian kite shield~
+A black kite shield is lying face down in the grime.~
+obsidian~
+armor GJ AJ
+9 9 9 5 0
+31 400 6000 P
+A
+19 2
+A
+13 10
+#16108
+obsidian plated belt~
+an obsidian plated belt~
+A strong obsidian belt is coiled up here.~
+obsidian~
+armor GJ AL
+9 9 9 3 0
+31 400 4000 P
+A
+20 -2
+A
+13 10
+#16109
+deathlance death lance~
+the Deathlance~
+A gleaming lance of pure obsidian lies here.~
+obsidian~
+weapon AG AN
+polearm 5 6 stab C
+35 200 5400 P
+A
+14 5
+#16110
+staff of power~
+the Staff of Power~
+An oaken staff tipped with a fine crystal stands here.~
+wood~
+staff AJ AO
+30 5 5 'acid blast' 0
+25 90 10000 P
+#16111
+hammer of kaos~
+the Hammer of Kaos~
+An ebony hammer carved with runes lies here.~
+metal~
+weapon AEJM AN
+mace 6 3 pound C
+31 40 4000 P
+A
+18 2
+A
+19 2
+#16112
+brass spyglass~
+a brass spyglass~
+A brass tube is sitting here.~
+brass~
+staff G AO
+15 8 8 'farsight' 0
+15 10 1000 P
+E
+A brass tube is lying here on the ground.~
+Generic extended description.
+~
+#16113
+bloody axe~
+a bloody axe~
+A bloody axe is sitting here in the dust.~
+steel~
+weapon GI AN
+axe 4 6 slash 0
+27 120 2000 P
+A
+18 1
+A
+19 1
+#16114
+fine black chimera leather chair~
+a fine black chimera leather chair~
+A fine black chimera leather chair is waiting to be sat in.~
+oldstyle~
+furniture EOSTY A
+2 100 BE 100 100
+52 5 300 P
+#16115
+tartan kilt~
+a tartan kilt~
+A kilt with a tartan pattern lays here in a pile.~
+cloth~
+armor Y AF
+8 9 8 4 0
+30 150 3500 P
+A
+1 1
+A
+2 1
+#16116
+moose juice blackstaff~
+Moose Juice [Blackstaff's Concoction]~
+A bottle of a vile liquid sits here ominously.~
+~
+potion 0 AO
+15 'refresh' 'cure critical' '' ''
+0 100 0 P
+#16117
+slightly burnt muffin~
+a slightly burnt muffin~
+A pastry sits here, lost and afraid.~
+~
+room_key ABIM AQ
+0 0 0 0 14
+56 100 0 P
+F
+A 0 0 e
+A
+0 0
+#16118
+black seagull~
+a black seagull~
+A black seagull is looking for a hand to feed it.~
+organic~
+clothing A AQ
+0 0 0 0 0
+23 50 1000 P
+A
+19 1
+A
+18 1
+#16119
+electric eel~
+an electric eel~
+An electric eel squirms here, waiting to be picked up.~
+organic~
+weapon AB AN
+whip 4 7 whip G
+30 80 4500 P
+A
+2 1
+A
+18 2
+A
+20 2
+A
+0 0
+E
+~
+Generic extended description.
+~
+#16120
+scarlet dress~
+a scarlet dress~
+A scarlet dress lies here in a heap.~
+cloth~
+armor K AK
+5 5 5 3 0
+20 120 1200 P
+A
+3 1
+A
+20 -1
+E
+~
+Generic extended description.
+~
+#16121
+multi-colored bracelet~
+a multi-colored bracelet~
+A bracelet glimmers with everchanging rainbow hues.~
+metal~
+clothing A AM
+0 0 0 0 0
+25 80 1700 P
+A
+2 1
+A
+18 2
+#16122
+twisted amulet~
+a twisted amulet~
+A twisted and misshapen amulet lies here.~
+stone~
+clothing EJ AC
+0 0 0 0 0
+31 20 1500 P
+A
+13 20
+A
+12 10
+A
+17 -3
+E
+~
+Generic extended description.
+~
+#16123
+robe of shadows~
+the robe of shadows~
+A black robe lies in a heap, blending in with the shadows.~
+cloth~
+clothing FJ AK
+0 0 0 0 0
+30 80 3000 P
+F
+A 0 0 B
+A
+0 0
+A
+20 2
+A
+12 30
+#16124
+a stainless steel hook~
+a stainless steel hook~
+A stainless steel hook sits here, detached from its owner.~
+steel~
+weapon 0 AN
+exotic 3 8 cleave D
+29 120 3500 P
+A
+0 0
+A
+18 4
+#16125
+gronk's cooking gronk~
+Gronk's cooking~
+Here is Gronk's prized delicacy, something you cannot identify.~
+food~
+food APY A
+1 50 0 1 0
+15 100 0 P
+#16126
+gaudy multi-colored bathrobe~
+a gaudy multi-colored bathrobe~
+A bathrobe you wouldn't give to your own mother-in-law lies here.~
+cloth~
+clothing 0 AK
+0 0 0 0 0
+0 100 0 P
+#16127
+prismatic tights~
+a pair of prismatic tights~
+A pair of shimmering prismatic tights lies on the floor.~
+cloth~
+clothing 0 AF
+0 0 0 0 0
+0 100 0 P
+#16128
+birdie num-nums~
+some Birdie Num-Nums~
+A bunch of tasty-looking birdie treats are strewn here.~
+food~
+pill 0 A
+30 'change sex' 'frenzy' 'fly' ''
+0 10 0 P
+A
+6 1
+#16129
+pixie dust~
+pixie dust~
+A pouch of pixie dust sits on the ground.~
+food~
+potion 0 A
+20 'haste' 'fly' 'cure light' ''
+20 10 1400 P
+#16130
+dirty rum-soaked laundry~
+some dirty rum-soaked laundry~
+A pile of dirty rum-soaked laundry stagnates the area.~
+trash~
+trash 0 A
+0 0 0 0 0
+0 100 0 P
+#16131
+bottle perfume~
+a bottle of cheap perfume~
+A bottle of cheap perfume sits on the floor where it belongs.~
+container~
+wand 0 AO
+25 5 5 'faerie fog' 0
+15 20 1000 P
+#16132
+silver embossed key~
+a silver embossed key~
+A silver embossed key lies waiting to be picked up.~
+silver~
+key P A
+0 0 0 0 0
+0 10 0 P
+#16133
+gold embossed key~
+a gold embossed key~
+A gold embossed key is here, waiting to be picked up.~
+gold~
+key P A
+0 0 0 0 0
+0 10 0 P
+#16134
+platinum embossed key~
+a platinum embossed key~
+A platinum embossed key is lying on the ground.~
+platinum~
+key P A
+0 0 0 0 0
+0 10 0 P
+#16135
+jailkeeper keys jailkeeper's~
+the Jailkeeper's keys~
+A ring of keys owned by the jailkeeper lies here.~
+steel~
+key P A
+0 0 0 0 0
+0 10 0 P
+#16136
+ebony ring~
+an ebony ring~
+A ring carved from pure ebony sits on the ground.~
+ebony~
+armor 0 AB
+2 2 2 0 0
+25 10 3000 P
+A
+18 1
+#16137
+a pirate treasure chest~
+a pirate treasure chest~
+The treasure chest of the pirates rests here on the deck.~
+container~
+container R 0
+2000 ABCD 16134 2000 0
+0 1000 0 P
+#16138
+a fine brass sextant~
+a fine brass sextant~
+A finely crafted sextant made from exquisite brass lies on the ground.~
+brass~
+jewelry 0 AO
+0 0 0 0 0
+30 100 1500 P
+A
+3 3
+#16139
+pirate treasure~
+the pirate treasure~
+The treasure of the pirates is strewn about.~
+treasure~
+money A A
+0 0 0 0 0
+0 100 2000 P
+#16140
+cookies maclav fresh~
+a batch of fresh chocolate chip cookies~
+A fresh batch of chocolate chip cookies made my Maclav is here in a pile.~
+food~
+pill ESTY AO
+5 'summon dead' '' '' ''
+0 5 300 P
+#16141
+avatar imm weapon~
+avatar imm weapon~
+an avatar imm weapon is lying here.~
+steel~
+weapon ABFI AN
+mace 200 10 claw BCEF
+52 100 0 P
+A
+13 75
+A
+19 75
+F
+A 0 0 HNUac
+#16142
+obsidian fountain~
+an obsidian fountain~
+Crimson blood flows from an obsidian fountain in the middle of the room.~
+obsidian~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+fountain~
+It is very nice.  Made from fine white marble.
+~
+#16143
+plastic penis trophy~
+a Plastic Trophy of a Penis~
+a Plastic Trophy sit here waiting for someone.~
+plastic~
+pill 0 A
+15 '' '' 'change sex' ''
+0 0 0 P
+E
+trophy~
+The trophy bears the inscription: To the winner of Gwenhwyvar and Soviet's
+pkill tournament.  Congratulations.
+ 
+Instructions:  For a good time, just eat me.
+~
+#16144
+ebony chair~
+an ebony black chair~
+An ebony black chair blends into the darkness, almost invisible.~
+ebony~
+furniture F 0
+2 0 BEHK 10000 10000
+0 10000 350 P
+#16145
+obsidian table~
+an obsidian table~
+An obsidian table with crimson swirls invites you to dine.~
+obsidian~
+furniture E 0
+34 15 BEFHIJKLMN 20 100
+0 -31072 0 G
+#16146
+oak table~
+an oak table~
+A smooth and sturdy oak table occupies the middle of the room.~
+obsidian~
+furniture 0 0
+34 15 BEFHIJKLMN 20 100
+0 -31072 0 G
+#16147
+old oak chair~
+an old oak chair~
+An old straight-backed oak chair is beside the table, waiting...~
+ebony~
+furniture 0 0
+2 0 BEHK 10000 10000
+0 -31072 350 P
+#16148
+paper scroll~
+a paper scroll~
+A paper scroll lies here.~
+paper~
+furniture T A
+0 0 0 0 0
+0 100 0 P
+E
+scroll~
+As Time Itself came to an end, the scribe of Time wrote it's final words
+here:
+ 
+"Look to the one who has been closest through all of Time.  From creation to
+oblivion wedded."
+~
+#16149
+paper scroll~
+a paper scroll~
+A paper scroll lies here.~
+paper~
+furniture T A
+0 0 0 0 0
+0 100 0 P
+E
+scroll~
+As Time Itself came to an end, the scribe of Time wrote it's final words
+here:
+ 
+"Look to the one who has been closest through all of Time.  From creation to
+oblivion wedded."
+~
+#16150
+paper scroll~
+a paper scroll~
+A paper scroll lies here.~
+paper~
+furniture T A
+0 0 0 0 0
+0 100 0 P
+E
+scroll~
+As Time Itself came to an end, the scribe of Time wrote it's final words
+here:
+ 
+"Look to the one who has been closest through all of Time.  From creation to
+oblivion wedded."
+~
+#16151
+buc sledge~
+Buc's Sledge~
+Buc's sledge rests on the ground venting off steam.~
+fire~
+weapon ABS AN
+mace 2 8 flame A
+18 40 3200 P
+A
+18 1
+A
+19 1
+#0
+
+#ROOMS
+#16100
+Prow of the "Banshee"~
+You inhale the hearty seabreeze at the ship's prow, as the mighty
+"Banshee" cuts through the seafoam at great speeds.  A huge bronze and
+steel ram carved in the form of a giant fist jutts out the front,
+bringing certain death to slow or unprotected merchant ships.  Pirate
+sailors are trimming the sails or sharpening their weapons, and most
+are too occupied to take notice of you.
+  To the south you can see a large mast.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 16101
+D5
+Exit ~
+door~
+0 0 16159
+S
+#16101
+Foremast~
+A wooden mast extends high into the sky here, covered with rigging and
+sail.  The shouts and cries of naval jargon overwhelm you as the sleek
+craft ploughs effortlessly through the Dragon Sea.  The wooden hull holds
+up sturdily under the massive weight of the gigantic masts, and you
+have no fear of a sudden breach in the ship.
+  The mainmast lies directly south of here, and the rigging of the mast
+leads upwards.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16100
+D1
+Exit ~
+door~
+0 0 16103
+D2
+Exit ~
+door~
+0 0 16104
+D3
+Exit ~
+door~
+0 0 16102
+D4
+Exit ~
+door~
+0 0 16123
+E
+~
+Generic extended description.
+~
+S
+#16102
+Deck~
+The heaving and tossing of the "Banshee" in rough seas threatens to 
+topple you into the churning waters, but you manage to avoid being flung
+overboard.  Busy deck-hands hustle this way and that, working diligently
+at their appointed tasks.
+  The foremast lies to the east.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 16101
+D2
+Exit ~
+door~
+0 0 16105
+E
+~
+Generic extended description.
+~
+S
+#16103
+Deck~
+The heaving and tossing of the "Banshee" in rough seas threatens to 
+topple you into the churning waters, but you manage to avoid being flung
+overboard.  Busy deck-hands hustle this way and that, working diligently
+at their appointed tasks.
+  You can see the foremast to the west.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 16107
+D3
+Exit ~
+door~
+0 0 16101
+E
+~
+Generic extended description.
+~
+S
+#16104
+Mainmast~
+This area of the deck is bustling with activity.  Sailors are clambering
+nimbly up the rigging of the mainmast like monkeys, and precious cargo
+is being lowered into the hold by a great platfrom connected with a 
+pulley.
+  A ladder leads down into the shadowy depths of the hold, and the main
+cabin lies to the south.  You can climb the rigging up the mast, where
+the crow's nest station is.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16101
+D1
+Exit ~
+door~
+0 0 16107
+D2
+Exit ~
+door~
+3 16133 16108
+D3
+Exit ~
+door~
+0 0 16105
+D4
+Exit ~
+door~
+0 0 16126
+D5
+Exit ~
+door~
+3 16132 16132
+S
+#16105
+Deck~
+The heaving and tossing of the "Banshee" in rough seas threatens to 
+topple you into the churning waters, but you manage to avoid being flung
+overboard.  Busy deck-hands hustle this way and that, working diligently
+at their appointed tasks.
+The mainmast lies to the east.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 16104
+D3
+Exit ~
+door~
+0 0 16111
+E
+~
+Generic extended description.
+~
+S
+#16106
+Captain Kalish'ah's Quarters~
+This is the most richly decorated room you have ever laid eyes upon, and
+fittingly, it belongs to the cruel and calculating Captain Kalish'ah, 
+the leader of the bloodthirsty crew of the "Banshee".  Silver chalices
+filled with diamonds sit on platinum inlayed tables, and priceless
+works of art hang in frames of the purest gold.  Truly Kalish'ah enjoys
+the riches he cunningly steals from those weaker than he.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 16108
+S
+#16107
+Deck~
+The heaving and tossing of the "Banshee" in rough seas threatens to 
+topple you into the churning waters, but you manage to avoid being flung
+overboard.  Busy deck-hands hustle this way and that, working diligently
+at their appointed tasks.
+  The mainmast lies to the west.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16103
+D1
+Exit ~
+door~
+0 0 16122
+D3
+Exit ~
+door~
+0 0 16104
+E
+~
+Generic extended description.
+~
+S
+#16108
+Entrance Hall of the Main Cabin~
+Unlike the deck, the entry hall of the cabin is full of elegant splendor,
+the spoils of unwary merchantmen on the high seas.  Torches are held in
+golden sconces, and exotic carpets from Sri Raji cover the floor.  Fine
+ornamental weapons are mounted on the wall, and maps of all the islands
+of the seas are presented in beautiful crystal cases along the wall.
+  There is an oaken door to the east marked with a wizard's rune, and
+another door to the west.  A finely carved elvenwood double door bars
+the way to the south.
+  A ladder leads upwards through a trapdoor to the bridge.
+~
+0 D 0
+D0
+Exit ~
+door~
+4 16133 16104
+D1
+Exit ~
+door~
+1 0 16109
+D2
+Exit ~
+door~
+1 0 16106
+D3
+Exit ~
+door~
+1 0 16110
+D4
+Exit ~
+door~
+0 0 16152
+S
+#16109
+Najir's Quarters~
+The ship's wizard Najir makes his home in this well-appointed room of 
+the main cabin.  Shelves of spellbooks line the walls and scrolls of
+every make and description are neatly ordered in a rack by the far wall.
+Beakers full of chemicals bubble away on a stone counter, and you have
+no doubt that the fiendish wizard is obviously concocting some vile 
+poison for his own evil purposes.
+~
+0 D 0
+D3
+Exit ~
+door~
+1 0 16108
+S
+#16110
+Shak'Ra's Quarters~
+The powerful chaplain of the pirates, Shak'Ra, maintains his quarters 
+here.  A blood-streaked obsidian altar dominates the room, apparently
+used for ritual sacrifices.  The altar is covered with silver-inlaid
+runes, and dedicated to Valnor, the Dark God.  Instruments of torture 
+drip blood from the racks which hold them, and you shiver as you can 
+almost hear the terrifying screams of Shak'Ra's victims.
+~
+0 D 0
+D1
+Exit ~
+door~
+1 0 16108
+S
+#16111
+Port Deck~
+The port side of the ship is surprisingly well organized in comparison
+with the rest of the ship.  Neat bundles of arrows and flaming oil wait
+patiently for use against peaceful merchants.  The sea rushes by 
+as the "Banshee" rides the waves of the Dragon Sea.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 16105
+D2
+Exit ~
+door~
+0 0 16112
+S
+#16112
+Port Deck~
+The port side of the ship is surprisingly well organized in comparison
+with the rest of the ship.  Neat bundles of arrows and flaming oil wait
+patiently for use against peaceful merchants.  The sea rushes by 
+as the "Banshee" rides the waves of the Dragon Sea.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16111
+D2
+Exit ~
+door~
+0 0 16113
+D3
+Exit ~
+door~
+0 0 16168
+S
+#16113
+Port Deck~
+The port side of the ship is surprisingly well organized in comparison
+with the rest of the ship.  Neat bundles of arrows and flaming oil wait
+patiently for use against peaceful merchants.  The sea rushes by 
+as the "Banshee" rides the waves of the Dragon Sea.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16112
+D1
+Exit ~
+door~
+0 0 16114
+S
+#16114
+Deck~
+The heaving and tossing of the "Banshee" in rough seas threatens to 
+topple you into the churning waters, but you manage to avoid being flung
+overboard.  Busy deck-hands hustle this way and that, working diligently
+at their appointed tasks.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 16115
+D3
+Exit ~
+door~
+0 0 16113
+E
+~
+Generic extended description.
+~
+S
+#16115
+Deck~
+The heaving and tossing of the "Banshee" in rough seas threatens to 
+topple you into the churning waters, but you manage to avoid being flung
+overboard.  Busy deck-hands hustle this way and that, working diligently
+at their appointed tasks.
+  You can see the mizzenmast to the east.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16114
+D1
+Exit ~
+door~
+0 0 16116
+E
+~
+Generic extended description.
+~
+S
+#16116
+Mizzenmast~
+The wooden mast at the rear of teh ship is braced here, its iron-bound
+supports creaking with every pitch and roll of the deck.  Determined
+deck-hands pull on yardarms to hold the mighty power of the wind in 
+check.  The deck is strewn with iron bars, poles, rope and other 
+equipment.
+  A large ballista can be seen at the stern of the ship, to the south.
+The rigging also provides a way up to a lookout.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 16118
+D2
+Exit ~
+door~
+0 0 16117
+D3
+Exit ~
+door~
+0 0 16115
+D4
+Exit ~
+door~
+0 0 16129
+E
+~
+Generic extended description.
+~
+S
+#16117
+Stern of the "Banshee"~
+The stern of the ship is fitted with a large ballista used to fire
+heavy fiery bolts at enemy ships.  Several pirates carefully oil the
+many parts of the large crossbow, to insure that its deadly aim remains
+accurate.  Large ballista bolts are neatly grouped in bundles by 
+the weapon, easily accessible in times of need.  Beyond the stern
+lies only the churning sea.
+  You can see the mizzenmast to the north.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16116
+S
+#16118
+Deck~
+The heaving and tossing of the "Banshee" in rough seas threatens to 
+topple you into the churning waters, but you manage to avoid being flung
+overboard.  Busy deck-hands hustle this way and that, working diligently
+at their appointed tasks.
+  The mizzenmast lies directly to the west.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16119
+D3
+Exit ~
+door~
+0 0 16116
+E
+~
+Generic extended description.
+~
+S
+#16119
+Deck~
+The heaving and tossing of the "Banshee" in rough seas threatens to 
+topple you into the churning waters, but you manage to avoid being flung
+overboard.  Busy deck-hands hustle this way and that, working diligently
+at their appointed tasks.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 16120
+D2
+Exit ~
+door~
+0 0 16118
+E
+~
+Generic extended description.
+~
+S
+#16120
+Starboard Deck~
+The starboard deck is quite clean, due mostly to the constant swabbing
+done by the deck-hands.  The pirates off duty lounge around here,
+singing sea chanteys or playing games of chance.  Great barrels of rum
+dot the deck, constantly emptied by thirsty buccaneers.  You're careful
+not to bother these drunken men, but you doubt that even a roaring
+dragon could snap them out of their stupor.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16121
+D3
+Exit ~
+door~
+0 0 16119
+S
+#16121
+Starboard Deck~
+The starboard deck is quite clean, due mostly to the constant swabbing
+done by the deck-hands.  The pirates off duty lounge around here,
+singing sea chanteys or playing games of chance.  Great barrels of rum
+dot the deck, constantly emptied by thirsty buccaneers.  You're careful
+not to bother these drunken men, but you doubt that even a roaring
+dragon could snap them out of their stupor.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 16122
+D2
+Exit ~
+door~
+0 0 16120
+S
+#16122
+Starboard Deck~
+The starboard deck is quite clean, due mostly to the constant swabbing
+done by the deck-hands.  The pirates off duty lounge around here,
+singing sea chanteys or playing games of chance.  Great barrels of rum
+dot the deck, constantly emptied by thirsty buccaneers.  You're careful
+not to bother these drunken men, but you doubt that even a roaring
+dragon could snap them out of their stupor.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 16121
+D3
+Exit ~
+door~
+0 0 16107
+S
+#16123
+Lower Foremast~
+Climbing up the rigging is no small task, and you tell yourself 
+repeatedly not to look down.  Unfortunately, as you do, a wave of
+vertigo hits you.  A fall from this height is certain death.  The 
+sailors working about you seem to have no problem with the altitude,
+and cling to the ropes and booms of the rigging with no difficulty.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 16124
+D5
+Exit ~
+door~
+0 0 16101
+S
+#16124
+Upper Foremast~
+Pirates scurrying below resemble ants from this height, and you 
+carefully inch your way up the hemp rigging.   The squawks of sea birds
+echo about you, and the cool seabreeze eases your concerns of falling.
+You feel as if you belong up here, high above the sapphire blue sea.
+  The lookout is right above you.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 16125
+D5
+Exit ~
+door~
+0 0 16123
+S
+#16125
+Lookout~
+The lookout is nothing more than a wooden barrel cut in half and 
+fashioned atop a mast.  It is cramped and smells as if a few sailors
+had brought their rum up here during their shifts as sentinels searching
+for easy plunder.  Still, the incredible sight of the endless sea and
+fluffy white clouds manages to dispel some of the comtemptible 
+conditions.
+~
+0 0 0
+D5
+Exit ~
+door~
+0 0 16124
+S
+#16126
+Lower Mainmast~
+Climbing up the rigging is no small task, and you tell yourself 
+repeatedly not to look down.  Unfortunately, as you do, a wave of
+vertigo hits you.  A fall from this height is certain death.  The 
+sailors working about you seem to have no problem with the altitude,
+and cling to the ropes and booms of the rigging with no difficulty.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 16173
+D5
+Exit ~
+door~
+0 0 16104
+S
+#16127
+Upper Mainmast~
+Pirates scurrying below resemble ants from this height, and you 
+carefully inch your way up the hemp rigging.   The squawks of sea birds
+echo about you, and the cool seabreeze eases your concerns of falling.
+You feel as if you belong up here, high above the sapphire blue sea.
+The crow's nest is situated above you.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 16128
+D5
+Exit ~
+door~
+0 0 16173
+S
+#16128
+Crow's Nest~
+The crow's nest is a large wooden platform, surrounded by wooden beams.
+Large in comparison with the lookouts, it is where the majority of ship
+sightings take place.  Initials are carved into the rough wooden boards
+by the idle Master Lookout, as are other more vulgar sayings that
+would make a dockworker blush.
+~
+0 0 0
+D5
+Exit ~
+door~
+0 0 16127
+S
+#16129
+Lower Mizzenmast~
+Climbing up the rigging is no small task, and you tell yourself 
+repeatedly not to look down.  Unfortunately, as you do, a wave of
+vertigo hits you.  A fall from this height is certain death.  The 
+sailors working about you seem to have no problem with the altitude,
+and cling to the ropes and booms of the rigging with no difficulty.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 16130
+D5
+Exit ~
+door~
+0 0 16116
+S
+#16130
+Upper Mizzenmast~
+Pirates scurrying below resemble ants from this height, and you 
+carefully inch your way up the hemp rigging.   The squawks of sea birds
+echo about you, and the cool seabreeze eases your concerns of falling.
+You feel as if you belong up here, high above the sapphire blue sea.
+  The lookout is right above you.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 16131
+D5
+Exit ~
+door~
+0 0 16129
+S
+#16131
+Lookout~
+The lookout is nothing more than a wooden barrel cut in half and 
+fashioned atop a mast.  It is cramped and smells as if a few sailors
+had brought their rum up here during their shifts as sentinels searching
+for easy plunder.  Still, the incredible sight of the endless sea and
+fluffy white clouds manages to dispel some of the comtemptible 
+conditions.
+~
+0 0 0
+D5
+Exit ~
+door~
+0 0 16130
+S
+#16132
+Main Hold~
+The main hold is only dimly lit by cheap brass lanterns hung from the
+ceiling, but the contents are awe-inspiring nonetheless.  Chests of 
+silver from Midgaard, carpets and spices from Sri Raji, precious metals
+mined by the dwarves, everything and anything can be found in the hold
+of the "Banshee"
+  A ladder leads up on deck.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16133
+D1
+Exit ~
+door~
+0 16135 16135
+D2
+Exit ~
+door~
+0 0 16134
+D3
+Exit ~
+door~
+0 0 16138
+D4
+Exit ~
+door~
+2 16132 16104
+S
+#16133
+Main Hold~
+The main hold is only dimly lit by cheap brass lanterns hung from the
+ceiling, but the contents are awe-inspiring nonetheless.  Chests of 
+silver from Midgaard, carpets and spices from Sri Raji, precious metals
+mined by the dwarves, everything and anything can be found in the hold
+of the "Banshee"
+  You feel a sense of foreboding when you look to the north.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16141
+D1
+Exit ~
+door~
+0 0 16136
+D2
+Exit ~
+door~
+0 0 16132
+D3
+Exit ~
+door~
+0 0 16139
+S
+#16134
+Main Hold~
+The main hold is only dimly lit by cheap brass lanterns hung from the
+ceiling, but the contents are awe-inspiring nonetheless.  Chests of 
+silver from Midgaard, carpets and spices from Sri Raji, precious metals
+mined by the dwarves, everything and anything can be found in the hold
+of the "Banshee"
+  You can see the outer hold to the south.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16132
+D1
+Exit ~
+door~
+0 0 16137
+D2
+Exit ~
+door~
+0 0 16148
+D3
+Exit ~
+door~
+0 0 16140
+S
+#16135
+Main Hold~
+The trail of riches continues in this area of the hold, and you can make
+out rare wealth from all corners of Boinga.  You nearly weep at the sight
+of the elvish jewels from the valley, and the platinum wrought jewelry
+from Ofcol.  All taken from butchered merchants who were unlucky enough
+to cross the "Banshee"'s path.
+  The door to a steel cage bars the way to the east.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16136
+D1
+Exit ~
+door~
+4 16135 16157
+D2
+Exit ~
+door~
+0 0 16137
+D3
+Exit ~
+door~
+0 0 16132
+S
+#16136
+Main Hold~
+The trail of riches continues in this area of the hold, and you can make
+out rare wealth from all corners of Boinga.  You nearly weep at the sight
+of the elvish jewels from the valley, and the platinum wrought jewelry
+from Ofcol.  All taken from butchered merchants who were unlucky enough
+to cross the "Banshee"'s path.
+  The outer hold lies to the north, and you smell something awful from
+the east.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16147
+D1
+Exit ~
+door~
+2 16135 16158
+D2
+Exit ~
+door~
+0 0 16135
+D3
+Exit ~
+door~
+0 0 16133
+S
+#16137
+Main Hold~
+The trail of riches continues in this area of the hold, and you can make
+out rare wealth from all corners of Boinga.  You nearly weep at the sight
+of the elvish jewels from the valley, and the platinum wrought jewelry
+from Ofcol.  All taken from butchered merchants who were unlucky enough
+to cross the "Banshee"'s path.
+   The door to a steel cage bars the way to the east, and the outer hold
+lies to the south of here.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16135
+D1
+Exit ~
+door~
+4 16135 16156
+D2
+Exit ~
+door~
+0 0 16150
+D3
+Exit ~
+door~
+0 0 16134
+S
+#16138
+Main Hold~
+The hoard of riches continues in this section of the hold, as you can
+catch the glint of precious gold bars and statues off the dim lantern-
+light.  Kalish'ah has a king's ransom all loaded up in his hold, it's
+saddening to know that it's all too heavy for you to carry.
+  The door to a steel cage bars the way to the west.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16139
+D1
+Exit ~
+door~
+0 0 16132
+D2
+Exit ~
+door~
+0 0 16140
+D3
+Exit ~
+door~
+4 16135 16154
+S
+#16139
+Main Hold~
+The hoard of riches continues in this section of the hold, as you can
+catch the glint of precious gold bars and statues off the dim lantern-
+light.  Kalish'ah has a king's ransom all loaded up in his hold, it's
+saddening to know that it's all too heavy for you to carry.
+  The door to a steel cage bars the way to the west, and the outer hold
+can be made out to the north.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16146
+D1
+Exit ~
+door~
+0 0 16133
+D2
+Exit ~
+door~
+0 0 16138
+D3
+Exit ~
+door~
+4 16135 16153
+S
+#16140
+Main Hold~
+The hoard of riches continues in this section of the hold, as you can
+catch the glint of precious gold bars and statues off the dim lantern-
+light.  Kalish'ah has a king's ransom all loaded up in his hold, it's
+saddening to know that it's all too heavy for you to carry.
+  The door to a steel cage bars the way to the west, and the outer hold 
+begins to the south.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16138
+D1
+Exit ~
+door~
+0 0 16134
+D2
+Exit ~
+door~
+0 0 16149
+D3
+Exit ~
+door~
+4 16135 16155
+S
+#16141
+The Lair of the Guardian~
+You have stumbled into the lair of some horrible creature!  Bones and
+skulls of every race and size litter the ground, as rats gnaw them to
+powder.  Hopefully the guardian beast who dwells here isn't waiting to
+rip out your intestines with a mighty claw, or mash your head into 
+pulp.
+~
+0 AD 0
+D0
+Exit ~
+door~
+4 16134 16142
+D2
+Exit ~
+door~
+0 0 16133
+S
+#16142
+Pirate Treasure Room~
+Your jaw drops in awe as you enter this room.  Here, the pirates
+store all the most valuable jewels and treasures they pillage.
+Gold and silver chalices shimmer, as massive piles of jewels, rings,
+and gems reflect the candlelight.  Unfortunately, there is far too much
+loot to carry...perhaps a few choice tidbits wouldn't be missed.
+  A plank in the floor seems a little out of place.
+~
+0 0 0
+D2
+Exit ~
+door~
+4 16134 16141
+D5
+Exit ~
+plank~
+1 0 16161
+S
+#16143
+Entrance hall to Blackstaff Tower~
+This room is lavishly decorated with exotic carpets, gold inlayed incense
+lamps and beautiful furniture carved from heart-oak.  It is a room 
+obviously designed to inspire awe in the visitor.  It does this very well
+indeed, as your heart swells at the sight of such wonders.
+ An obsidian spiral staircase leads upwards into the tower.
+~
+0 PT 0
+D1
+Exit ~
+door~
+0 0 16174
+D4
+Exit ~
+door~
+0 0 16144
+E
+~
+Generic extended description.
+~
+S
+#16144
+Blackstaff's Study~
+The glow of a fire burning in a hearth in the corner illuminates this study.
+The shelves of the chamber are lined with spellbooks, containing every known 
+spell in the universe, and many more.  An overstuffed chair sits in front
+of the hearth, waiting to be enjoyed.  Clearly, this is a mellow room
+to be enjoyed by that most powerful of mages, the great Blackstaff.
+  The obsidian spiral staircase continues upwards into the tower.
+~
+0 CDJKNPT 0
+H 200 M 200
+O blackstaff~
+D4
+Exit ~
+door~
+0 0 16145
+D5
+Exit ~
+door~
+0 0 16143
+S
+#16145
+Blackstaff's Laboratory~
+This room lies at the very top of Blackstaff Tower, and through great
+windows, one can see the lands of Midgaard far below.  The
+laboratory is full of beakers, chemicals and components which are used
+by Blackstaff in his magic research.  You feel as if the greatest 
+discoveries in magical lore will be unlocked in this chamber.
+ 
+  At the eastern end of the room, a shimmering gate of mystical energy
+beckons...
+~
+0 CDKNPT 0
+D1
+Exit ~
+door~
+0 0 1212
+D5
+Exit ~
+door~
+0 0 16144
+E
+portal great~
+Generic extended description.
+~
+E
+gate portal mystical~
+The Great Portal stands before you, a cunningly crafted passageway to
+places and times far removed from here.
+~
+S
+#16146
+Outer Hold~
+The outer holds have less valuable contents, mostly supplies and 
+equipment for the pirates.  Flaming oil, arrows, and swords sit in 
+stacks next to crates of rations and barrels of fresh water.  However,
+these unvaluable items are vital for the smooth running of the ship, and
+all the inventory of the outer holds is carefully checked and recorded.
+  The main hold is to the south.
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 16139
+S
+#16147
+Outer Hold~
+The outer holds have less valuable contents, mostly supplies and 
+equipment for the pirates.  Flaming oil, arrows, and swords sit in 
+stacks next to crates of rations and barrels of fresh water.  However,
+these unvaluable items are vital for the smooth running of the ship, and
+all the inventory of the outer holds is carefully checked and recorded.
+  The main hold is to the south.
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 16136
+S
+#16148
+Outer Hold~
+These holds in the aft part of the ship are empty and clean.  They can
+be used to store excess loot, supplies, or whatever else which needs
+storage.  
+  You can smell rum fumes emenating from the south, and the main hold
+lies to the north.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16134
+D1
+Exit ~
+door~
+0 0 16150
+D2
+Exit ~
+door~
+0 0 16151
+D3
+Exit ~
+door~
+0 0 16149
+S
+#16149
+Outer Hold~
+These holds in the aft part of the ship are empty and clean.  They can
+be used to store excess loot, supplies, or whatever else which needs
+storage.  
+  You can return to the main hold by heading north.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16140
+D1
+Exit ~
+door~
+0 0 16148
+S
+#16150
+Outer Hold~
+These holds in the aft part of the ship are empty and clean.  They can
+be used to store excess loot, supplies, or whatever else which needs
+storage.  
+  You can return to the main hold by heading north.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16137
+D3
+Exit ~
+door~
+0 0 16148
+S
+#16151
+Ship's Barracks~
+The sleeping quarters of the pirates smell like the burning corpses of
+a hundred trolls.  Bottles of rum and dirty shirts litter the floor,
+and the only furniture seems to be crude hammocks fashioned from
+bedsheets or sails, which hang from wall to wall.  What these 
+bloodthirsty pirates lack in hygiene they apparently make up for in
+cruelty and you are careful not to disturb any of the buccaneers who
+are snoring in their bunks.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 16148
+S
+#16152
+Bridge~
+The ship's bridge is the brain of the "Banshee".  The massive wooden
+shipwheel bolted into the boards attracts your attention almost 
+immediately.  The seabreeze cools your face, and you feel like a 
+gallant seaman conquering the seas.  Then you remember the number
+of evil pirates about you and you assume a more cautious demeanor.  
+  A ladder leads downwards through a trapdoor, the only exit to this
+small but vital part of the ship, and a door blocks the way to the
+south.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 16170
+D2
+Exit ~
+door~
+1 0 16172
+D3
+Exit ~
+door~
+0 0 16171
+D5
+Exit ~
+door~
+0 0 16108
+S
+#16153
+Willie's Garden~
+This caged room houses one of the most deranged men in all of Boinga.
+The smell of roasted haggis revolts you and the room is a mess.  Only 
+in one corner of the room, is there some semblance of cleanliness.
+There, a flower bed full of dead flowers attempts to brighten up the room.
+Apparently, Willie didn't know that flowers don't usually grow well in
+the hold of a sailing ship.
+~
+0 D 0
+D1
+Exit ~
+door~
+4 16135 16139
+E
+~
+Generic extended description.
+~
+S
+#16154
+The Cell of the Damsel in Dis'dress~
+This room is sparsely furnished, empty except for a small cot in the
+corner.  A ball and chain is attached to the cot, as if a prisoner is 
+being restrained to the bed.  You catch the faint scent of something in
+the normally stagnant air, something feminine..perfume?
+~
+0 AD 0
+D1
+Exit ~
+door~
+4 16135 16138
+S
+#16155
+Cage of the Mutant Parrot~
+This cage smells like mixture of decomposing corpses and animal droppings.
+The smell is almost, but not quite, as bad as Gronk's cooking.  The room
+seems to be the lair for some great and fearsome creature, as you can
+see blood stains and bones covering the floor.
+~
+0 D 0
+D1
+Exit ~
+door~
+4 16135 16140
+S
+#16156
+The Cell of Peter Pan~
+This cell contains nothing more than a set of manacles attached to
+the wall.  However, a brass plaque mounted above the chains catches
+your eye.
+~
+0 D 0
+D3
+Exit ~
+door~
+4 16135 16137
+E
+brass plaque~
+The plaque reads: Peter Pan finally met his match when the great
+Captain Kalish'ah captured the little squirt without even breaking
+into a sweat.
+~
+S
+#16157
+The Cell of "The Chameleon"~
+This cell is designed to hold the famed Midgaardian crimefighter,
+"Chameleon Man".  After a long and distinguished career, he was finally
+capture trying to thwart the plans of the evil pirates and has been 
+imprisoned ever since.  But, he truly lives up to his namesake as
+the room appears empty.
+~
+0 D 0
+D3
+Exit ~
+door~
+4 16135 16135
+S
+#16158
+Ship's Galley~
+This foul smelling room is where most of the slop, er food is prepared.
+Shelves of dry rations and bottles of crude oils help proveide the most
+unwholesome diet in all of Boinga.  Besides giving the pirates premature
+heart conditions, the food also makes them angry at the world, thus their
+bloodthirsty ways.  A crude counter sits along the wall, where Gronk
+assembles most of the disgusting repasts.
+~
+0 0 0
+D3
+Exit ~
+door~
+2 16135 16136
+S
+#16159
+Top of the Anchor~
+Phew! After all that work, you've almost made it to the deck of the
+mighty sea vessel.  The anchor is slippery but you can still maintain
+a handhold between the massive chain links.
+A tarnished brass plaque is bolted on to the side of the ship.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 16100
+D5
+Exit ~
+door~
+0 0 16160
+E
+tarnished brass plaque~
+The plaque reads:  "THE BANSHEE"
+~
+S
+#16160
+Bottom of the Anchor~
+This area of the Dragon Sea seems to have visitors.  An awesome vessel
+looms before you, and looking up, you can barely make out the skull
+and crossbones banner flapping from the main mast.  There seems to be
+no way to get onto the ship without being noticed...
+  A great iron chain plunges past you into the depths, as the ship 
+drops its anchor.  Perhaps you could scale the slippery links..if you
+are nimble enough..
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 9789
+D4
+Exit ~
+door~
+0 0 16159
+S
+#16161
+A Hidden Passageway in the Keel~
+You have found a secret passageway below the hold!  This area is 
+dry and musty, and cobwebs cover the walls.  It seems as if no one
+has been down here in ages, but you are still filled with a sense of
+foreboding.
+  You see some crudely scrawled writing on the wall.
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 16162
+D4
+Exit ~
+plank~
+1 0 16142
+E
+crudely scrawled writing~
+This is what happens to those fools who attempt to seize my power!
+-Captain Kalish'ah
+~
+S
+#16162
+Mr. Smee's Tomb~
+This room is empty except for a discarded wooden box which is resting 
+on the floor in the center of the room.  It seems placid, but your heart
+beings to race for no discernible reason...
+  The wooden box seems to have something written upon it.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16161
+D2
+Exit ~
+door~
+0 0 16163
+E
+~
+Generic extended description.
+~
+E
+discarded wooden box~
+HERE LIES MR. SMEE
+MAY HE REST IN UNSPEAKABLE AGONY!
+~
+S
+#16163
+Hidden Passageway in the Keel~
+This part of the passageway seems more worn and rotted than the rest of
+the keel.  However, water still hasn't penetrated the thick oaken hull.
+Besides cobwebs and dust, there is little here of interest.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16162
+D2
+Exit ~
+door~
+0 0 16164
+S
+#16164
+Blackbeard's Tomb~
+This room is lit by torches on the four walls.  It seems to have been 
+inhabited recently, as you can smell the odor of old rum.  An ebony
+box occupies the center of the room, and after inspection you see
+that it is empty.
+  The ebony box is inlayed with runes.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16163
+D2
+Exit ~
+door~
+0 0 16165
+E
+j~
+Generic extended description.
+~
+E
+ebony box~
+HERE LIES BLACKBEARD..
+MAY HE REST IN FIERY HELL!
+~
+S
+#16165
+Hidden Passageway in the Keel~
+This room is filled from floor to ceiling with cobwebs, which you have
+to brush aside as you walk through the passage.  The wood creaks
+noisily as you walk across it, and in your paranoid state, you decide
+to step lightly to avoid any..unforseen encounters.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16164
+D2
+Exit ~
+door~
+0 0 16166
+S
+#16166
+Long John Silver's Tomb~
+This room is empty except for a few old chairs and a sandalwood
+box which sits in the center of the room.  It is empty.  You look
+around carefully, your eyes trying to pierce the shadows about you..
+  The sandalwood box has something scrawled upon it.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16165
+D2
+Exit ~
+door~
+0 0 16167
+E
+sandalwood box~
+HERE LIES LONG JOHN SILVER
+MAY HE REST IN ETERNAL TORMENT!
+~
+S
+#16167
+Captain Hook's Tomb~
+As you enter this room, you feel a darkness engulf your soul.  This 
+chamber houses something evil..something sinister..
+An oaken box lies in the middle of the room.  A disembodied sound 
+echoes throughout, filling you with dread...
+"TICK..TICK...TICK..TICK.."
+  The oaken box bears an inscription.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 16166
+E
+oaken box~
+HERE LIES CAPTAIN HOOK..
+MAY HE REST IN ETERNAL DAMNATION!
+~
+S
+#16168
+Walking the Plank~
+Hrmm.  You seem to have made your way onto a thin piece of wood that
+may or may not hold your weight.  The water rushes by beneath you, and
+the trade winds blow through your hair.  It would almost be pleasant 
+except for the fact that a false step could send you into the azure
+blue ocean.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 16112
+D3
+Exit ~
+door~
+0 0 16169
+S
+#16169
+The End of the Plank~
+You seem to have run out of plank, as the ominous waters of the
+Dragon Sea churn beneath you.  You stop to wonder how many people
+have been cast into the sea from here, but that only increases your
+anxiety.  Perhaps you should retreat to the...safety..of being
+surrounded by evil pirates.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 16168
+S
+#16170
+Starboard Quarterdeck~
+This part of the quarterdeck is virtually empty, as most sailors do not
+have the time to stand around and admire the lovely seascape.  However,
+this doesn't stop you from sitting back and enjoying the ride.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 16152
+S
+#16171
+Port Quarterdeck~
+This area of the quarterdeck provides an excellent view of all the
+activity bustling about you on this mighty ship.  Sailors running about
+to and fro, crazy pirates sprawled out on the deck with their arms and
+legs akimbo.  Apparently the pirates are only counted on to drink and
+fight, which suits them fine, since most of them are in a drunken
+stupor.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 16152
+S
+#16172
+The Navigator's Post~
+You have stumbled into a small shelter which is crammed full of maps,
+charts, graphs and sketches of every description.  A large map of
+the Dragon Sea is particularly noticeable, as all the major shipping
+lanes are recorded in red ink upon it.  It is the job of the Navigator
+to pilot the pirate ship to easy plunder.  
+~
+0 0 0
+D0
+Exit ~
+door~
+1 0 16152
+S
+#16173
+Halfway up the Mainmast~
+After much toil, you still have only made it halfway up this stately
+mast of solid teak.  Your palms weating, and the rigging seems slippery
+in your hands.  Hopefully you can keep your nerve long enough to reach
+the top of this unique climbing experience.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 16127
+D5
+Exit ~
+door~
+0 0 16126
+S
+#16174
+The Killing Circle~
+You are on top of a fifty-foot high cylindrical platform made of pure
+ebony that is only about twenty feet in diameter.  At the edges of the 
+platform is a precipitous fall that would mean death to any who fell.  
+The platform seems to be made of a single block of the stone, since even
+after looking at it closely, it is impossible to find any seams.  The 
+walls of the circular room are also pure black and perfectly polished.
+The torches lining the wall offer the sole source of light in the room,
+casting ominous shadows throughout.  Dried blood and other unrecognizable
+innards are plastered on the floor and walls from previous glorious
+battles fought in this age-old room.
+~
+0 CDTU 0
+S
+#16175
+The Killing Circle~
+You are on top of a fifty-foot high cylindrical platform made of pure
+ebony that is only about twenty feet in diameter.  At the edges of the 
+platform is a precipitous fall that would mean death to any who fell.  
+The platform seems to be made of a single block of the stone, since even
+after looking at it closely, it is impossible to find any seams.  The 
+walls of the circular room are also pure black and perfectly polished.
+The torches lining the wall offer the sole source of light in the room,
+casting ominous shadows throughout.  Dried blood and other unrecognizable
+innards are plastered on the floor and walls from previous glorious
+battles fought in this age-old room.
+~
+0 CDNTU 0
+S
+#16176
+Fields for the Dead~
+You are surrounded by fields of scorched grass.  Short tree stumps litter
+the ground, black and crumbling.  There is nothing left living for as far
+as you can see.  Sun-bleached bones of those who could not outrun the 
+deadly fires are scattered all around you.  You see sone that are clearly
+animal bones, but among them you see human skulls and other remains.  You
+are almost overcome by the everpresent stench of death and decay hanging 
+in the air.
+<<You can recall from here, but do it during a battle and yer toast!>>
+~
+0 TU 0
+D0
+Exit ~
+door~
+0 0 16177
+D3
+Exit ~
+door~
+0 0 16181
+S
+#16177
+Fields for the Dead~
+You are surrounded by fields of scorched grass.  Short tree stumps litter
+the ground, black and crumbling.  There is nothing left living for as far
+as you can see.  Sun-bleached bones of those who could not outrun the 
+deadly fires are scattered all around you.  You see sone that are clearly
+animal bones, but among them you see human skulls and other remains.  You
+are almost overcome by the everpresent stench of death and decay hanging 
+in the air.
+~
+0 NTU 0
+D0
+Exit ~
+door~
+0 0 16178
+D2
+Exit ~
+door~
+0 0 16176
+D3
+Exit ~
+door~
+0 0 16180
+S
+#16178
+Fields for the Dead~
+You are surrounded by fields of scorched grass.  Short tree stumps litter
+the ground, black and crumbling.  There is nothing left living for as far
+as you can see.  Sun-bleached bones of those who could not outrun the 
+deadly fires are scattered all around you.  You see sone that are clearly
+animal bones, but among them you see human skulls and other remains.  You
+are almost overcome by the everpresent stench of death and decay hanging 
+in the air.
+~
+0 NTU 0
+D2
+Exit ~
+door~
+0 0 16177
+D3
+Exit ~
+door~
+0 0 16179
+S
+#16179
+Fields for the Dead~
+You are surrounded by fields of scorched grass.  Short tree stumps litter
+the ground, black and crumbling.  There is nothing left living for as far
+as you can see.  Sun-bleached bones of those who could not outrun the 
+deadly fires are scattered all around you.  You see sone that are clearly
+animal bones, but among them you see human skulls and other remains.  You
+are almost overcome by the everpresent stench of death and decay hanging 
+in the air.
+~
+0 NTU 0
+D1
+Exit ~
+door~
+0 0 16178
+D2
+Exit ~
+door~
+0 0 16180
+S
+#16180
+Fields for the Dead~
+You are surrounded by fields of scorched grass.  Short tree stumps litter
+the ground, black and crumbling.  There is nothing left living for as far
+as you can see.  Sun-bleached bones of those who could not outrun the 
+deadly fires are scattered all around you.  You see sone that are clearly
+animal bones, but among them you see human skulls and other remains.  You
+are almost overcome by the everpresent stench of death and decay hanging 
+in the air.
+~
+0 NTU 0
+D0
+Exit ~
+door~
+0 0 16179
+D1
+Exit ~
+door~
+0 0 16177
+D2
+Exit ~
+door~
+0 0 16181
+S
+#16181
+Fields for the Dead~
+You are surrounded by fields of scorched grass.  Short tree stumps litter
+the ground, black and crumbling.  There is nothing left living for as far
+as you can see.  Sun-bleached bones of those who could not outrun the 
+deadly fires are scattered all around you.  You see sone that are clearly
+animal bones, but among them you see human skulls and other remains.  You
+are almost overcome by the everpresent stench of death and decay hanging 
+in the air.
+~
+0 NTU 0
+D0
+Exit ~
+door~
+0 0 16180
+D1
+Exit ~
+door~
+0 0 16176
+S
+#16182
+The Foyer of Gwenhwyvar's Tower~
+You are now in a medium-sized room, lavishly decorated with intricately
+weaved, richly coloured tapestries.  The tower is filled with a sense of
+foreboding evil and you are unable to control a shiver as you survey the
+room.  Two windows allow splinters of light into the otherwise dark room.
+Through one window you can make out the ivory-white marble walls of
+Blackstaff's Tower.  The other gives you a view of a vast plain of clouds,
+completely devoid of anything but a thick, white mist.  Directly before
+you, ebony stairs lead up to the higher levels of the tower.
+~
+0 PT 0
+D4
+Exit ~
+door~
+0 0 16183
+S
+#16183
+Gwenhwyvar's Living Quarters~
+The room is sparcely furnished, with only the bare necessities gracing
+the view of the room before you.  No dust has settled over the furniture or
+the floor, as though it is scared to do so.  A small bed with beautiful
+black silk sheets is in the corner.  Opposite the bed is a fireplace, its
+hearth carved of pure obsidian and its ever=present warmth takes a bit of
+the unnatural chill from the room.  A dining table and two chairs sit off
+to one side, already set for the next meal.
+~
+0 PT 0
+D4
+Exit ~
+door~
+0 0 16184
+D5
+Exit ~
+door~
+0 0 16182
+S
+#16184
+Gwenhwyvar's Laboratory~
+A chill comes over you as you walk into the circular room and the cold
+from the bare stone floor seems to seep through your boots into your body.
+Although there are no windows, it seems as though there is a cold draft.  A
+mixture of sweet, sour and bitter smells from the herbs kept for use as
+spell components occupies the room.  Bookshelves cover the walls of the
+room from midway up the wall to the ceiling.  The bookshelves are filled
+with large, leatherbound tomes covered with mystical runes of silver and
+gold scribed into them.  Again, no dust defaces the room.  There is very 
+little furniture, save a wooden table, obviously used for preparing spell
+components and studying, and chair beside it in the middle of the room.
+~
+0 DPT 0
+D5
+Exit ~
+door~
+0 0 16183
+S
+#0
+
+#RESETS
+O 0 5306 100 16143	* a large beautiful fountain
+O 0 16114 100 16144	* a fine black chimera leather chair
+D 0 16108   0    1	* Entrance Hall of the Main Cabin north
+D 0 16108   1    1	* Entrance Hall of the Main Cabin east
+D 0 16108   2    1	* Entrance Hall of the Main Cabin south
+D 0 16108   3    1	* Entrance Hall of the Main Cabin west
+D 0 16139   3    2	* Main Hold west
+D 0 16138   3    2	* Main Hold west
+D 0 16140   3    2	* Main Hold west
+D 0 16137   1    2	* Main Hold east
+D 0 16135   1    2	* Main Hold east
+D 0 16136   1    2	* Main Hold east
+M 0 16102   1 16106  1	* Captain Kalish'ah
+E 1 16101  -1    5	*   an obsidian breastplate
+E 1 16102  -1    6	*   the obsidian helmet
+E 1 16103  -1    7	*   obsidian leggings
+E 1 16104  -1    8	*   obsidian boots
+E 1 16105  -1    9	*   obsidian gauntlets
+E 1 16106  -1   10	*   obsidian armplates
+E 1 16107  -1   11	*   an obsidian kite shield
+E 1 16108  -1   13	*   an obsidian plated belt
+E 1 16109  -1   16	*   the Deathlance
+D 0 16106   0    1	* Captain Kalish'ah's Quarters north
+M 0 16103   1 16109  1	* Najir
+E 1 16123  -1   12	*   the robe of shadows
+E 1 16110  -1   17	*   the Staff of Power
+D 0 16109   3    1	* Najir's Quarters west
+M 0 16104   1 16110  1	* Shak'Ra
+E 1 16111  -1   16	*   the Hammer of Kaos
+E 1 16122  -1    3	*   a twisted amulet
+D 0 16110   1    1	* Shak'Ra's Quarters east
+M 0 16107   1 16152  1	* The 1st Mate
+E 1 16113  -1   16	*   a bloody axe
+D 0 16152   2    1	* Bridge south
+M 0 16105   1 16128  1	* Master Lookout
+E 1 16112  -1   17	*   a brass spyglass
+M 0 16111   1 16117  1	* The 2nd Mate
+G 1 16133  -1     	*   a gold embossed key
+M 0 16119   1 16141  1	* The Guardian Beast
+G 1 16134  -1     	*   a platinum embossed key
+D 0 16141   0    2	* The Lair of the Guardian north
+M 0 16110   1 16132  1	* The Master Jailkeeper
+E 1 16119  -1   16	*   an electric eel
+G 1 16135  -1     	*   the Jailkeeper's keys
+D 0 16132   4    1	* Main Hold up
+M 0 16113   1 16158  1	* Gronk the Cook
+G 1 16125  -1     	*   Gronk's cooking
+D 0 16158   3    1	* Ship's Galley west
+M 0 16118   1 16157  1	* Chameleon Man
+E 1 16127  -1    7	*   a pair of prismatic tights
+E 1 16126  -1   12	*   a gaudy multi-colored bathrobe
+E 1 16121  -1   14	*   a multi-colored bracelet
+D 0 16157   3    1	* The Cell of "The Chameleon" west
+M 0 16121   1 16156  1	* Peter Pan
+G 1 16129  -1     	*   pixie dust
+D 0 16156   3    1	* The Cell of Peter Pan west
+M 0 16120   1 16155  1	* A Mutant Parrot
+G 1 16128  -1     	*   some Birdie Num-Nums
+D 0 16155   1    1	* Cage of the Mutant Parrot east
+M 0 16122   1 16154  1	* A Damsel in Dis'Dress
+E 1 16120  -1   12	*   a scarlet dress
+G 1 16131  -1     	*   a bottle of cheap perfume
+D 0 16154   1    1	* The Cell of the Damsel in Dis'dress east
+M 0 16109   1 16153  1	* Willie the Gardener
+E 1 16115  -1    7	*   a tartan kilt
+D 0 16153   1    1	* Willie's Garden east
+M 0 16114   1 16162  1	* The Ghost of Mr. Smee
+M 0 16115   1 16164  1	* The Ghost of Blackbeard
+M 0 16116   1 16166  1	* The Ghost of Long John Silver
+M 0 16117   1 16167  1	* The Ghost of Captain Hook
+E 1 16124  -1   16	*   a stainless steel hook
+D 0 16161   4    1	* A Hidden Passageway in the Keel up
+M 0 16124   1 16172  1	* the Navigator
+E 1 16136  -1    1	*   an ebony ring
+E 1 16138  -1   17	*   a fine brass sextant
+D 0 16172   0    1	* The Navigator's Post north
+M 0 16108   5 16170  1	* a giant albatross
+M 0 16108   5 16126  1	* a giant albatross
+M 0 16108   5 16131  1	* a giant albatross
+M 0 16108   5 16173  1	* a giant albatross
+M 0 16108   5 16125  1	* a giant albatross
+M 0 16101   1 16100  1	* a swarthy deck-hand
+M 0 16100   1 16101  1	* a heartless pirate
+E 1 16100  -1   16	*   a steel rapier
+M 0 16101   2 16111  1	* a swarthy deck-hand
+M 0 16100   2 16113  1	* a heartless pirate
+E 1 16100  -1   16	*   a steel rapier
+M 0 16100   3 16169  1	* a heartless pirate
+E 1 16100  -1   16	*   a steel rapier
+M 0 16101   3 16118  1	* a swarthy deck-hand
+M 0 16101   4 16122  1	* a swarthy deck-hand
+M 0 16100   4 16119  1	* a heartless pirate
+E 1 16100  -1   16	*   a steel rapier
+O 0 16137 100 16142	* a pirate treasure chest
+P 1 16139  -1 16137  1	*   the pirate treasure
+D 0 16142   2    2	* Pirate Treasure Room south
+D 0 16142   5    1	* Pirate Treasure Room down
+M 0 16101   5 16112  1	* a swarthy deck-hand
+M 0 16100   6 16120  1	* a heartless pirate
+E 1 16100  -1   16	*   a steel rapier
+M 0 16100   6 16116  1	* a heartless pirate
+E 1 16100  -1   16	*   a steel rapier
+M 0 16101   6 16104  1	* a swarthy deck-hand
+M 0 16106   1 16104  1	* The Quartermaster
+G 1 16132  -1     	*   a silver embossed key
+D 0 16104   2    2	* Mainmast south
+D 0 16104   5    2	* Mainmast down
+M 0 16112   1 16151  1	* The 3rd Mate
+G 1 16130  -1     	*   some dirty rum-soaked laundry
+E 1 16118  -1   18	*   a black seagull
+M 0 16123   4 16151  4	* A bloodthirsty buccaneer
+E 1 16151  -1   16	*   Buc's Sledge
+M 0 16123   4 16151  4	* A bloodthirsty buccaneer
+M 0 16123   4 16151  4	* A bloodthirsty buccaneer
+M 0 16123   4 16151  4	* A bloodthirsty buccaneer
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 16102 spec_thief          	* Captain Kalish'ah
+M 16103 spec_cast_mage      	* Najir
+M 16104 spec_cast_cleric    	* Shak'Ra
+M 16107 spec_thief          	* The 1st Mate
+M 16118 spec_guard_d        	* Chameleon Man
+M 16119 spec_poison         	* The Guardian Beast
+M 16124 spec_cast_mage      	* the Navigator
+S
+
+#$

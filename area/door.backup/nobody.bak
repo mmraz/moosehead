@@ -1,0 +1,3359 @@
+#AREA
+/mud/moosehead/area/nobody.are~
+City of Atlantis~
+{20-40} Nobody  City of Atlantis~
+23100 23204
+
+#MOBILES
+#23100
+palace guard~
+The palace guard~
+The palace guard is blocking your way into the palace.
+~
+This large merman has no intention of letting you by. Looks like you'll
+have to get in the hard way...
+~
+human~
+ABGT Z 500 0
+35 1 10d10+1350 10d10+100 5d6+12 smash
+-13 -12 -13 1
+DEFNTU LR 0 0
+stand stand male 0
+b 0 medium 0
+F for H
+F par GHIJK
+#23101
+atlantis city guard~
+the Atlantis city guard~
+The Atlantis city guard is on guard here.
+~
+This man-fish looks much more powerful than the others who live here. The
+insignia on his armor must denote some type of military service.
+~
+human~
+AGT Zb 500 0
+31 0 10d10+1000 15d9+100 4d6+9 slash
+-10 -10 -10 5
+ACDEKLNTU L 0 0
+stand stand male 0
+b 0 tiny 0
+F par GHIJK
+#23102
+lord atlantis~
+the Lord of Atlantis~
+The Lord of Atlantis, ruler of the sea, is here.
+~
+This powerfully-built merman looks to be part man, part sea serpent. His
+upper body is more muscled than most warriors you've seen, while his tail
+must extend for 15 feet or more. Looking at him, you can understand why
+he is the ruler of this city.
+~
+human~
+ABGT HNZb 1000 0
+40 3 15d11+1900 10d10+200 4d8+15 pierce
+-13 -13 -13 0
+CEFNRU LR 0 0
+stand stand male 180
+b 0 medium 0
+F par GHIJK
+#23103
+store angelica~
+Angelica~
+Angelica Seasinger is here.
+~
+This lovely young mermaid is dressed in clothes that are both comfortable
+enough to work in, yet seductive enough to entice a few looks. Her bright
+eyes and sweet smile brighten the room, and brighten your spirits.
+~
+human~
+ABT 0 0 0
+60 1 10d10+100 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU AB 0 0
+stand stand none 10000
+0 0 medium 0
+F par GHIJK
+#23104
+sam barkeep~
+Sam the Barkeep~
+A bartender is waiting to take your order.
+~
+Sam used to be a professional mercenary. He won this bar in a bet a long
+time ago. Eventually, he hurt his leg too badly to be healed, so he
+retired to run the bar.
+~
+human~
+ABT 0 0 0
+60 1 10d10+100 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU AB 0 0
+stand stand male 100
+0 0 medium 0
+F par GHIJK
+#23105
+Maitre 'D~
+the Maitre 'D~
+The Maitre 'D will seat you now.
+~
+He's a rather snooty looking fellow, dressed in a tuxedo.
+~
+human~
+ABT 0 0 0
+60 1 10d10+100 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU AB 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#23106
+bouncer~
+the bouncer~
+A VERY large merman is watching for trouble.
+~
+This man-fish looks much more powerful than the others who live here. The
+insignia on his armor must denote some type of military service.
+~
+human~
+ABGT VZb 500 0
+31 0 10d10+1000 15d9+100 4d6+9 punch
+-10 -10 -10 5
+ACDEKLNPU L 0 0
+stand stand male 0
+b 0 tiny 0
+F par GHIJK
+#23107
+Elmuster~
+Elmuster~
+Elmuster the Great is here, at your service.
+~
+His appearance changes every second. Must be a spell.
+~
+human~
+ABT 0 0 0
+60 1 10d10+100 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU AB 0 0
+stand stand male 100000
+0 0 medium 0
+F par GHIJK
+#23108
+blacksmith~
+the blacksmith~
+A blacksmith is making armor over a hot forge.
+~
+This is, by far, the largest merman you've ever set eyes on. You think 
+that perhaps this merman descended from a giant rather than a human.
+~
+human~
+ABT 0 0 0
+60 1 10d10+100 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU AB 0 0
+stand stand male 100000
+0 0 medium 0
+F par GHIJK
+#23109
+weaponsmith~
+the weaponsmith~
+A weaponsmith examines his newest creation.
+~
+A young weaponsmith, who still has lots to learn.
+~
+human~
+ABTV 0 900 0
+23 10 1d1+999 1d1+99 1d8+32 punch
+-15 -15 -15 -15
+CEIK ABCD 0 0
+stand stand male 100000
+0 0 medium 0
+#23110
+mermaid grandma sallith~
+Grandma Sallith~
+A kind old mermaid smiles at you as you enter.
+~
+This is a kindly old mermaid, your steriotypical grandmother. She smiles
+at you sweetly and offers you a cookie. You can't help but like her.
+~
+human~
+ABT 0 0 0
+60 1 10d10+500 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU AB 0 0
+stand stand female 500000
+0 0 medium 0
+F par GHIJK
+#23111
+beastly fido fish fidofish~
+a beastly fidofish~
+A beastly fidofish is swimming here.
+~
+This large fish is one of those sucker-type fish that everyone seems to
+have in their aquariums at home, but a hell of a lot bigger. It also looks
+to be wearing some sort of dog collar around what would be a neck on it.
+Even as you look at it, it's devours everything in sight. You hope it's
+not aggressive.
+~
+fido~
+ACGT Zb 0 0
+15 0 3d9+225 5d5+100 2d6+2 suction
+-2 -3 -2 3
+ENU 0 0 0
+stand stand none 0
+bc B medium 0
+F vul C
+F for V
+F par HJKQV
+#23112
+Curiosities~
+Curiosities~
+A large yet well-trained fidofish is swimming around.
+~
+This large fish is one of those sucker-type fish that everyone seems to
+have in their aquariums at home, but a hell of a lot bigger. It also looks
+to be wearing some sort of dog collar around what would be a neck on it.
+Even as you look at it, it's devours everything in sight. You hope it's
+not aggressive.
+~
+fido~
+ABCGT VZb 0 0
+15 0 3d9+225 5d5+100 2d6+2 suction
+-2 -3 -2 3
+ENU 0 0 0
+stand stand none 0
+bc B medium 0
+F vul C
+F for V
+F par HJKQV
+#23113
+legendary warrior~
+The Legendary Warrior~
+A legend come to life, a warrior stands here.
+~
+He looks at you even as you look at him, summing you up, determining your
+strengths and weaknesses. He wears little but a belt around his waist, his
+only weapons being his formidable strength, and his harpoon. Do you dare to 
+test the prowess of such an accomplished warrior?
+~
+unique~
+ABT DFb 750 0
+40 3 25d10+1900 10d10+200 4d8+14 punch
+-14 -14 -13 -6
+CDEFHKNRU LR 0 0
+stand stand male 1100
+AHMVb ABCDEF medium 0
+#23114
+legendary cleric~
+The Legendary Cleric~
+A legend come to life, a cleric stands here.
+~
+This seeminly-young cleric of Posidon moves towards you, and makes you feel
+welcome in her small temple. Her movements are feminine, yet you can sense
+a power within her lithe body. Her eyes are always smiling, but you notice
+that her flail hangs on her belt within easy reach, ready to defend herself,
+her guests, and her temple.
+~
+unique~
+ABQ DFb 900 0
+40 2 18d10+1850 15d10+400 4d8+12 wrath
+-13 -13 -13 -8
+FHNU LR 0 0
+stand stand female 1100
+AHMVb ABCDEF medium 0
+#23115
+legendary mage~
+The Legendary Mage~
+A legend come to life, a mage stands here.
+~
+This merman is rather timid-looking for one of that race. He's not very big,
+his hair is stringy and grey, his skin has a pale look to it. Even his scales
+lack the luster you've come to associate with fish. Then you notice his eyes.
+Two orbs of ice blue which penetrate your body, seeing into your very soul.
+Two pools of frozen water, reflecting your thoughts and dreams, your hopes 
+and desires. Two windows into the mind of a powerful being.
+~
+unique~
+ABR DFb 600 0
+40 2 15d10+1800 25d10+500 5d6+14 magic
+-13 -14 -13 -10
+FHU LR C 0
+stand stand male 1200
+AHMVb ABCDEF medium 0
+#23116
+legendary thief~
+The Legendary Thief~
+A legend come to life, a thief stands here.
+~
+Quite an average looking merman. short hair, unremarkable features, not as
+built as some of the other merfolk you've seen. However, his movements are
+very fluid, almost graceful. His eyes are constantly moving, always looking
+for something, never missing the slightest detail. And after looking around
+the room, he does the same with you.
+~
+unique~
+ABS DFPVb 600 0
+40 2 15d10+1850 10d10+250 4d8+14 punch
+-14 -14 -14 -9
+BEFHNU LR 0 0
+stand stand male 2250
+AHMVb ABCDEF medium 0
+#23117
+mermaid~
+a mermaid~
+A beautiful mermaid swims here.
+~
+Her long blonde hair flows about her, her pale blue eyes gaze upon you with
+affection. This is a mermaid, one of the lovely half-woman, half-fish that
+have always been a part of both childrens stories, and sailor's fantasies.
+~
+unique~
+AGHT b 1000 0
+25 0 5d10+550 10d10+100 2d10+7 slap
+-7 -7 -7 -1
+FNU LR 0 0
+stand stand female 1000
+AHMVb ABCDEF medium 0
+#23118
+merman~
+a merman~
+A merman swims here, engaged in some work.
+~
+I guess it stands to reason that if mermaids exist, then so do mermen. These
+half-breeds are just like the beautiful ladies that swin here, except, of
+course, these are well-built men. You begin to think that there's no such
+a thing as an ugly mer..person?
+~
+unique~
+AT b 1000 0
+26 0 5d10+600 10d10+150 3d7+7 punch
+-5 -5 -5 -1
+EFNU LR 0 0
+stand stand male 1050
+AHMVb ABCDEF medium 0
+#23119
+homeless mermaid~
+a homeless mermaid~
+A dirty, poor, mermaid tries to make a home on the street.
+~
+In every city there are those who just can't live above the poverty line.
+I guess the same is true for even the mythical Atlantis, because here is
+an example of just that. You wish you could help feed and shelter her,
+but the trials of the world keep your funds low, and you know there is
+nothing you can do to help.
+~
+human~
+ABHT b 1000 0
+21 0 4d10+350 0d0+0 4d4+5 beating
+-5 -5 -5 -1
+FU LR 0 0
+stand stand female 0
+b 0 medium 0
+F par GHIJK
+#23120
+homeless merman~
+a homeless merman~
+A homeless merman tries to make a home on the street.
+~
+In every city there are those who just can't live above the poverty line.
+I guess the same is true for even the mythical Atlantis, because here is
+a example of just that. You wish you could help feed and shelter him,
+but the trials of the world keep your funds low, and you know there is
+nothing you can do to help.
+~
+human~
+ABHT b 1000 0
+21 0 4d10+350 0d0+0 4d4+5 beating
+-5 -5 -5 -1
+FU LR 0 0
+stand stand male 0
+b 0 medium 0
+F par GHIJK
+#23121
+merfolk gawker~
+a merfolk gawker~
+A merman swims here, engaged in some work.
+~
+"Look at that hole!"
+"I wonder what could have made it?"
+"I sure don't want to run into-"
+"-glad I'm not cleaning it up."
+"-said it was a sea sepent that-"
+~
+unique~
+ABTc b 1000 0
+26 0 5d10+600 10d10+150 3d7+7 punch
+-5 -5 -5 -1
+FNU LR 0 0
+stand stand male 0
+AHMVb ABCDEF medium 0
+#23122
+giant sea serpent~
+a sea serpent~
+A giant sea serpent coils up to attack you.
+~
+Fully 50 feet long and several tons heavy, this thing could prove to be even
+more of a handful than you can handle. It's covered in rock-hard scales,
+with rows of razor-sharp teeth in it's mouth. This thing could swallow a
+team of horses in 2 bites, a full grown man in considerably less. Maybe
+it's not hungry.
+~
+snake~
+ABFT HVZab -50 0
+40 2 15d10+1900 15d10+400 4d8+14 shbite
+-13 -13 -13 -9
+FNU ABR EJ O
+stand stand none 0
+b BC giant 0
+F vul I
+F for GX
+F par KLQVX
+#23123
+roulette player~
+a roulette player~
+A roulette player is compulsively gambling.
+~
+"I'll put it all on 42. I've got a feeling about that number."
+    "The wheel only goes to 36, sir."
+"Then I'll put it all on 36. I've got a feeling about that number."
+    "Double 0, house wins."
+"Doh! Ok then, I'll put it all on 42. I've got a feeling about that number."
+~
+unique~
+ABT b 800 0
+28 0 6d12+703 12d10+150 2d12+8 thwack
+-8 -8 -8 -1
+DFNU L 0 0
+stand stand male 0
+AHMVb ABCDEF medium 0
+#23124
+blackjack player~
+a blackjack player~
+A blackjack player is compulsively gambling.
+~
+"Hit me."
+    "15, house shows 10."
+"Hit me."
+    "4 for 19, house shows 10."
+"Ummm.... hit me."
+    "Ace, for 20."
+"STICK!"
+    "House turns an ace, 21."
+"Doh!"
+~
+unique~
+ABT b 800 0
+28 0 6d12+703 12d10+150 2d12+8 thwack
+-8 -8 -8 -1
+DFNU L 0 0
+stand stand male 0
+AHMVb ABCDEF medium 0
+#23125
+craps player~
+a craps player~
+A craps player is compulsively gambling.
+~
+Due to censorship, the description for the craps player has been removed
+from the game, due to the sick sense of humor of the creating immortal.
+It seems he decided to take the term 'craps' and exploit it to the
+fullest in vulgarity. We apologize for the lack of description at this
+time.
+          -The management.
+~
+unique~
+ABT b 800 0
+28 0 6d12+703 12d10+150 2d12+8 thwack
+-8 -8 -8 -1
+DFNU L 0 0
+stand stand male 0
+AHMVb ABCDEF medium 0
+#23126
+slot machine player~
+a slot jockey~
+A middle-aged lady is playing the slots.
+~
+The mermaid takes a coin, puts it in the slot, pulls the lever, doesn't win.
+The mermaid takes a coin, puts it in the slot, pulls the lever, doesn't win.
+The mermaid takes a coin, puts it in the slot, pulls the lever, doesn't win.
+The mermaid takes a coin, puts it in the slot, pulls the lever, doesn't win.
+The mermaid takes a coin, puts it in the slot, pulls the lever, doesn't win.
+The mermaid takes a coin, puts it in the slot, pulls the lever, doesn't win.
+The mermaid takes a coin, puts it in the slot, pulls, the lever, doesn't win.
+The mermaid takes a coin, puts it in the slot, pulls, the lever, doesn't win.
+The mermaid takes a coin, puts it in the slot, pulls, the lever, doesn't win.
+~
+unique~
+ABT b 800 0
+28 0 6d12+703 12d10+150 2d12+8 thwack
+-8 -8 -8 -1
+DFNU L 0 0
+stand stand female 0
+AHMVb ABCDEF medium 0
+#23127
+merfolk assassin~
+a merfolk assassin~
+A merfolk assassin strikes from the shadows.
+~
+This merman is a bit different from other you have seen. He is wearing
+a black, skin-tight suit and a mask. In his hands he holds a bow, and a
+quiver is attached to his tail. His black eyes shine as he looks at you.
+A faint smile crosses his lips as he draws an arrow and prepares to fire.
+~
+unique~
+ABFT V -1000 0
+37 2 10d10+1500 10d10+200 3d10+12 pound
+-12 -12 -12 -8
+BEFKNU LR 0 0
+stand stand male 600
+AHMVb ABCDEF medium 0
+#23128
+guildmaster assassins~
+the guildmaster of assassins~
+A powerful humanoid tries to rip your throat out.
+~
+Judging by it's appearance, and the myths you've heard, this is a Sahaugin, a
+bloodthirsty half-fish half-reptile hybrid. It's mouth is full of razor-sharp
+fangs, and it has 3 inch claws on it's hand. It's scale are a shining black,
+and it's eyes glow red. You get a chill down your back just looking at him.
+~
+unique~
+ABFT VZb -1000 0
+40 1 5d10+1850 10d10+200 4d8+15 claw
+-13 -13 -13 -9
+BEFHJNU ABLR 0 0
+stand stand male 2300
+AHMXb ABCDEF medium 0
+#23129
+neptune~
+Neptune~
+Neptune, god of the sea, towers above you.
+~
+Standing fully 30ft tall, the all-powerful Neptune looks down upon you.
+His long white hair and beard cascade over massively-muscled shoulders
+and upper torso. His waist and legs are shrouded in a mist that hangs
+in the air. You can see a faint glow encircling his head, some type of
+aura you guess. Eyeing you warily, he takes a more defensive stance,
+waiting for you to make the next move.
+~
+unique~
+ABFQ HNTVWabc 1000 0
+58 2 50d10+8500 20d10+500 6d10+27 crush
+-28 -28 -28 -20
+ADEFHIKNU LR N 0
+stand stand male 8000
+AHMV ABCDEF giant 0
+#23130
+high priest neptune~
+the high priest of Neptune~
+The high priest of Neptune welcomes you to his temple.
+~
+This slightly rotund merman has dedicated his life to worshipping Neptune.
+As you look upon him, he smiles and begins to tell you the tales of Neptune,
+how he created the seas, the fish, the plants... he's rather long winded too.
+~
+human~
+ABQ Hb 1000 0
+35 0 10d10+1500 10d10+300 4d7+15 magic
+-11 -11 -11 -9
+EFNU N 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#23131
+blackjack dealer~
+a blackjack dealer~
+A blackjack dealer asks if you want another card.
+~
+This merman is dressed in a black tuxedo. He skillfully deals cards to the
+gamblers gathered around his table.
+~
+unique~
+ABT 0 350 0
+30 0 6d12+853 2d10+50 4d6+8 pound
+-9 -9 -9 -1
+EFNU LR 0 0
+stand stand male 10000
+AHMVb ABCDEF medium 0
+#23132
+generic mob~
+generic quest mob~
+Smurfette is here, looking beautiful.
+~
+Smurfette is the cutest little smurf you've ever seen.  If only she were your
+size.  I wonder how much she charges the other smurfs.
+~
+human~
+AGHS DF 100 0
+3 0 2d7+21 1d9+100 1d5+0 none
+8 8 8 10
+BEFJNU A 0 0
+stand stand female 0
+0 0 medium 0
+#23133
+croupier~
+a croupier~
+A croupier is running a craps game. Care to join in?
+~
+This merman is dressed in a black tuxedo. He skillfully
+collects chips and money from losers, and gives it out
+to winners.
+~
+unique~
+ABT 0 350 0
+30 0 6d12+853 2d10+50 4d6+8 pound
+-9 -9 -9 -1
+EFNU LR 0 0
+stand stand male 0
+AHMVb ABCDEF medium 0
+#23134
+male nixie~
+a nixie~
+A nixie swims by. He nods his head at you in greeting.
+~
+Most of the original humans who lives in Atlantis died when it
+disappeared into the sea. But a few, using powerful magic,
+modified their forms to become nixies: a human with webbed
+hands and feet, gills, and patches of blue scaled skin.
+~
+human~
+AGHT b 900 0
+34 -1 10d10+1200 10d10+200 4d7+9 beating
+-11 -11 -10 -6
+FNQU R L 0
+stand stand male 450
+b 0 medium 0
+F par GHIJK
+#23135
+female nixie~
+a nixie~
+A nixie floats in the water. She smiles at you as you pass by.
+~
+Most of the original humans who lives in Atlantis died when it
+disappeared into the sea. But a few, using powerful magic,
+modified their forms to become nixies: a human with webbed
+hands and feet, gills, and patches of blue scaled skin.
+~
+human~
+AGHT b 1000 0
+33 -1 10d10+1100 10d10+200 6d4+9 beating
+-11 -11 -10 -6
+FNQU R L 0
+stand stand female 600
+b 0 medium 0
+F par GHIJK
+#23136
+healer~
+the healer~
+A healer is here, selling spells.
+~
+Although retired from adventuring, the healer still lends a hand.
+Type 'heal' to see a listing of spells.
+~
+human~
+ABQVa DFH 1000 0
+44 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#23137
+Nassah~
+Nassah~
+Nassah is here, waiting to kick out minors.
+~
+Big. Very big.
+Stupid. Very stupid.
+
+Brother. Brother of Hassan.
+~
+giant~
+ABFTV CDFJVZ 1000 0
+15 30 1d1+3999 1d1+499 5d4+40 crush
+-25 -25 -25 -15
+ACDEFHIKLNOT ABPQ CD 0
+stand stand male 0
+0 0 huge 0
+#23138
+turtle dragon~
+a dragon turtle~
+A dragon turtle rises from the depths for a snack.
+~
+The dragon turtles shell is a deep green with silver highlights,
+its legs and tail are a lighter green with golden highlights. The
+huge head is topped with a greenish gold crest. You see death in
+its eyes.
+~
+dragon~
+AFGT DFbc -500 0
+45 13 10d20+1700 1d1+99 3d20+5 crush
+-12 -14 -13 -13
+CDEK AEHI IR J
+stand stand male 0
+0 0 huge B
+#0
+
+#OBJECTS
+#23100
+pearl trident~
+a pearl trident~
+A trident made from pearl is lying here.~
+pearl~
+weapon Y AN
+staff 6 6 pierce 0
+40 150 2300 P
+A
+19 2
+A
+18 1
+#23101
+coral key~
+a coral key~
+a key made from coral is on the sea floor.~
+coral~
+key 0 A
+0 0 0 0 0
+0 100 0 P
+#23102
+squid~
+some fresh squid~
+There is some fresh squid in a basket.~
+~
+food 0 A
+0 0 0 0 0
+0 2 13 P
+E
+~
+~
+#23103
+bowl clam chowder~
+a bowl of clam chowder~
+A steaming hot bowl of clam chowder is making your mouth water.~
+soup~
+food 0 A
+20 35 0 0 0
+0 5 10 P
+#23104
+plate sautee periwinkles~
+some sauteed periwinkles~
+A plate of steamed periwinkles, sauteed to perfection, is waiting to be eaten.~
+snail~
+food 0 A
+45 50 0 0 0
+0 5 18 P
+#23105
+bottle water breather~
+a bottle of waterbreather~
+A bottle of waterbreather awaits your consumption.~
+glass~
+drink 0 A
+12 12 'aquavit' 0 0
+0 100 25 P
+#23106
+fish scale helm~
+a fish scale helm~
+A helm made from silvery fish scales is here.~
+fishscale~
+armor 0 AE
+5 5 5 4 0
+20 5 1500 P
+A
+19 1
+A
+18 1
+#23107
+fish scale sleeves~
+a set of fish scale sleeves~
+A set of sleeves made from silvery fish scales is here.~
+fishscale~
+armor 0 AI
+5 5 5 4 0
+20 20 1500 P
+A
+19 1
+A
+18 1
+#23108
+a fish scale jerkin~
+a fish scale jerkin~
+A jerkin made from silvery fish scales is here.~
+fishscale~
+armor 0 AD
+5 5 5 4 0
+20 20 1500 P
+A
+19 1
+A
+18 1
+#23109
+fish scale leggings~
+a set of fish scale leggings~
+A set of leggings made from silvery fish scales is here.~
+fishscale~
+armor 0 AF
+5 5 5 5 0
+20 20 1500 P
+A
+19 1
+A
+18 1
+#23110
+eelskin boots~
+eelskin boots~
+A pair of slightly oily boots are here.~
+eelskin~
+armor 0 AG
+5 5 5 4 0
+20 20 1500 P
+A
+18 1
+A
+19 1
+#23111
+eelskin gloves~
+eelskin gloves~
+a pair of slightly oily gloves is here.~
+eelskin~
+armor 0 AH
+5 5 5 4 0
+20 20 1500 P
+A
+19 1
+A
+18 1
+#23112
+eelskin belt~
+an eelskin belt~
+A slightly oily belt is here.~
+eelskin~
+armor 0 AL
+5 5 5 4 0
+20 20 1500 P
+A
+19 1
+A
+18 1
+#23113
+petrified electric eel~
+a petrified electric eel~
+A very dead electric eel has hardened into stone.~
+eel~
+wand AS AO
+35 3 3 'chain lightning' 0
+28 20 14000 P
+A
+2 -2
+#23114
+table~
+a table~
+~
+~
+furniture 0 0
+3 0 DG 250 250
+0 100 0 P
+#23115
+sea shell seashell~
+a seashell~
+A colorful little shell catches your eye~
+shell~
+trash 0 AO
+6 5 8 7 256
+0 1 100 P
+#23116
+sea serpent skin~
+the skin of a sea serpent~
+The skin of a sea serpent has been peeled of its body and left here.~
+skin~
+armor SY AK
+1 9 9 8 0
+38 12 6500 P
+A
+1 1
+A
+19 1
+A
+20 -1
+#23117
+darksight potion~
+a darksight potion~
+A black potion, glowing with an inner light, is here.~
+glass~
+potion A A
+8 'infravision' '' '' ''
+3 100 125 P
+#23118
+spear gun~
+a spear gun~
+This crossbow, made to be used underwater, shoots a shortened spear.~
+wood~
+weapon 0 AN
+exotic 4 5 thrust 0
+23 10 1200 P
+#23119
+merfolk trident~
+a merfolk trident~
+There is a trident made by merfolk here.~
+steel~
+weapon 0 AN
+staff 4 4 pierce 0
+19 40 800 P
+A
+19 1
+A
+18 3
+#23120
+legendary harpoon~
+the Legendary Harpoon~
+A large harpoon seems to shine with an inner light.~
+steel~
+weapon GI AN
+polearm 4 9 thrust H
+40 50 4300 P
+A
+20 -1
+#23121
+legendary flail~
+the Legendary Flail~
+A two-headed flail, made from a shining metal, awaits your command.~
+steel~
+weapon I AN
+flail 5 6 smash 0
+36 30 3600 P
+A
+5 -2
+A
+19 2
+A
+18 4
+#23122
+legendary whip~
+the Legendary Whip~
+A long leather cord is coiled on the ground. It'd make a nice whip.~
+eelskin~
+weapon IS AN
+whip 6 5 whip 0
+38 8 3458 P
+F
+A 0 0 J
+A
+3 -1
+A
+19 1
+A
+18 1
+#23123
+legendary dagger blade~
+the Legendary Dagger~
+A well-crafted blade reflects the light in the room.~
+steel~
+weapon I AN
+dagger 10 3 stab 0
+40 5 4125 P
+A
+2 2
+#23124
+orb might~
+the Orb of Might~
+An orb of interest lies here.~
+glass~
+gem ABFGJY AO
+0 0 -1 0 0
+22 40 2400 P
+A
+19 2
+A
+18 2
+#23125
+casino chip~
+a casino chip~
+A small plastic chip looks pretty worthless.~
+plastic~
+gem 0 AO
+6 5 8 7 256
+0 1 100 P
+#23126
+pair craps dice~
+a pair of craps dice~
+A pair of dice are showing 7.~
+bone~
+gem 0 AQ
+0 0 0 0 0
+5 1 500 P
+A
+18 1
+#23127
+assassins quiver~
+an assassin's quiver~
+An assassin's quiver lies at your feet.~
+~
+container Y AF
+50 0 0 5 50
+1 5 800 P
+#23128
+assassin's arrow~
+an assassin's arrow~
+An acid-tipped arrow is just the thing for an assassination.~
+wood~
+wand 0 AO
+30 2 2 'acid blast' 0
+28 5 6000 P
+#23129
+neptune's might~
+Neptune's Might~
+The glowing aura of Neptune's Might floats in the air.~
+light~
+armor AGSUY AE
+11 11 11 11 0
+50 1 10000 P
+A
+5 -3
+A
+12 75
+#23130
+slot machine~
+a slot machine~
+A slot machine beckons you to try your luck.~
+~
+container AOR P
+100 0 0 100 0
+1 100 0 P
+#23131
+craps table~
+a craps table~
+A craps table attracts the attention of gamblers.~
+~
+container OR P
+100 0 0 100 0
+1 100 0 P
+#23132
+blackjack table~
+a blackjack table~
+A blackjack table of mahogany looks like a good place to play.~
+~
+container OR P
+100 0 0 100 0
+1 100 0 P
+#23133
+deck cards~
+a deck of cards~
+A deck of playing cards is already shuffled for the next game.~
+cardboard~
+gem 0 AO
+0 0 0 0 0
+10 2 1000 P
+A
+12 10
+A
+13 10
+#23134
+eelskin bag~
+an eelskin bag~
+A small eelskin bag is here.~
+eelskin~
+container Y A
+50 0 0 5 100
+0 10 900 G
+#23135
+sponge~
+a sponge~
+A large dead sponge soaks up water.~
+sponge~
+drink 0 A
+150 150 'water' 0 0
+0 20 200 P
+#23136
+sign~
+a sign~
+A large sign is here. It would be wise to read it.~
+~
+furniture 0 0
+0 0 0 0 0
+0 100 0 P
+E
+sign~
+You must be of at least level 21 to enter the casino, due to Boinga law.
+If you are not of at least level 21, the bouncer will have to eject you.
+The bouncer like to hurt people he ejects. 
+~
+#23137
+scroll~
+scroll~
+scroll~
+~
+scroll 0 A
+30000 'enchant weapon' 'enchant weapon' 'enchant weapon' ''
+56 100 0 P
+#23138
+neptune blessing~
+Neptune's blessing~
+The blessing of the god Neptune fills your soul.~
+light~
+key ASUY AQ
+0 0 0 0 0
+35 100 0 P
+A
+19 2
+A
+18 5
+#23139
+coins money~
+some coins~
+Some coins are here.~
+~
+money 0 A
+0 5 0 0 0
+0 100 0 P
+#23140
+pit chest~
+a chest~
+A chest full of donated items sits here.~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+E
+pit~
+This is where you put money and items to help Bigfoot expand this shrine and
+convert more people to the belief of Mojo, lord of the gods.
+~
+#23141
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#23142
+recall portal~
+a recall portal~
+A portal leads back to civilization.~
+~
+portal 0 0
+0 0 0 3001 0
+0 100 0 P
+#23143
+key~
+a jewelled key~
+The jewelled key to safety lies here.~
+diamond~
+key ANY AO
+0 0 0 0 0
+1 10 0 P
+#23144
+boot knife~
+a boot knife~
+a very small dagger, looks like it would be easy to conceal, for what pupose will you use it?~
+fire~
+weapon B AN
+exotic 4 4 pierce H
+21 1 4200 P
+A
+19 1
+A
+18 1
+#0
+
+#ROOMS
+#23100
+Palace Courtyard~
+This is a large courtyard within the palace walls. The surface of the yard
+is paved with mother-of-pearl, reflecting the light that falls on it into
+a myriad of colors. To the south  is the gate to the rest of the city, and
+the entrance to the palace itself is to the north.
+~
+0 D 7
+D0
+Exit ~
+~
+0 0 23101
+D2
+Exit ~
+obsidian gates~
+1 0 23104
+S
+#23101
+Entrance to the Royal Palace~
+You stand at the entrance to a palace made completely from living coral!
+It must have taken years of work to get the coral to grow in the exact way
+necessary to create a home for bipeds. Peering through the arched entrance,
+you can catch a glimpse of the immense wealth that lies inside. However,
+to get to that wealth, you have to get past the portcullis, and the two
+guards that happen to stand in front of it.
+~
+0 D 7
+D0
+Exit ~
+portcullis~
+1 23101 23102
+D2
+Exit ~
+door~
+0 0 23100
+S
+#23102
+The Royal Palace of Atlantis~
+This is unlike any building you've ever been inside in your life. Which
+stands to reason, as a palace built of living coral underneath the sea is
+not exactly a common thing. Strange lights are spaced along the walls, 
+illuminating the room with a soft glow. This place must be used as a large
+meeting area, as there are tables filled with food and refreshment along
+the walls, and padded benches on which to sit on.
+~
+0 D 7
+D2
+Exit ~
+portcullis~
+1 23101 23101
+D4
+Exit ~
+trap door~
+1 0 23103
+E
+lights~
+These lights are attached to the walls spaced about 10 feet apart. You've
+heard that some types of fish have light-giving parts similar to this, so
+you assume that's where these come from. They look to fragile to remove.
+~
+S
+#23103
+Palace Tower~
+This large room is at the top of the palace tower. Windows on all sides 
+give an excellent view of Atlantis. In this room are a large bed, a chair,
+and a table, giving you the impression that this is a bedroom.
+ 
+The only exit is back down.
+~
+0 D 7
+D5
+Exit ~
+trap door~
+1 0 23102
+S
+#23104
+Center Plaza~
+This large, cleared-out area is at the heart of the city.  People from
+all walks of life are moving about, going to work, returning home, or just
+enjoying the surroundings. A large set of obsidian gates to the north give
+entrance to the palace, where the Lord of Atlantis rules. Water Street is
+to the west, while Main Street is to the east. To the south is a wide lane
+that looks better kept than the others.
+~
+0 D 7
+D0
+Exit ~
+obsidian gates~
+1 0 23100
+D1
+Exit ~
+door~
+0 0 23105
+D2
+Exit ~
+door~
+0 0 23137
+D3
+Exit ~
+door~
+0 0 23141
+S
+#23105
+Main street~
+You are on main street. It continues to the east, and opens up onto a 
+large plaza to the west. there are shops north and south of you.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23106
+D1
+Exit ~
+door~
+0 0 23109
+D2
+Exit ~
+door~
+0 0 23107
+D3
+Exit ~
+door~
+0 0 23104
+S
+#23106
+Angelica's Delictables~
+This small, neat-looking shop is a seafood store, owned and operated by
+Angelica Seasinger. The display case has a variety of seafood delights
+to tantilize your tastebuds. A complete list of her selections can be
+seen attached to one of the walls.
+~
+0 D 7
+D2
+Exit ~
+door~
+0 0 23105
+E
+list~
+Angelica's Delectables:
+ 
+Squid, caught fresh daily
+Piping hot clam chowder
+Angelica's Secret Sauteed Periwinkles
+Wilf's Buffalo chicken wings (for out-of-towners)
+~
+S
+#23107
+The Laughing Seahorse~
+Welcome to the Laughing Seahorse, known thoughout the city for it's fine
+food, thirst-quenching drink, and friendly atmosphere. All around you are
+people enjoying the refreshments that can be purchased at a reasonable
+price. Just find a table, pull up a chair, and have fun.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23105
+D1
+Exit ~
+door~
+0 0 23108
+S
+#23108
+The bar~
+What needs to be said? It's a bar, drink up!
+~
+0 D 7
+D3
+Exit ~
+door~
+0 0 23107
+S
+#23109
+Main street~
+You are on Main street. It continues to the east and west. There are shops
+to the north and south.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23110
+D1
+Exit ~
+door~
+0 0 23112
+D2
+Exit ~
+door~
+0 0 23111
+D3
+Exit ~
+door~
+0 0 23105
+S
+#23110
+Elmuster's Emporium.~
+This is Atlantis's mageware shop. Spell components of all types are placed
+on shelves around the room. Against the walls are racks of robes, most
+being black, white, or grey. At the back  of the shop, Elmuster keeps what
+few magical items he has for sale... for a price.
+~
+0 D 7
+D2
+Exit ~
+door~
+0 0 23109
+S
+#23111
+Curiosities Killed the Catfish~
+This small shop is a General Store. The inside looks old, but well-cared
+for, sort of like what your grandmothers house looks like. An elderly
+mermaid is tending shop, and what looks like a large dead catfish is hung
+over the door.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23109
+E
+catfish fish~
+This catfish is about 10 feet long, with foot-long feelers sticking out
+around it's mouth. Underneath is a plaque which reads:
+    "This catfish was killed by my pet fidofish, Curiosities."
+~
+S
+#23112
+Main street~
+You are on Main street. It continues to the west, and the entrance to the
+city is to the east. There are shops north and south of here.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23113
+D1
+Exit ~
+door~
+0 0 23115
+D2
+Exit ~
+door~
+0 0 23114
+D3
+Exit ~
+door~
+0 0 23109
+S
+#23113
+Implements of War~
+This well-lit room contains weapons of all shapes, sizes, weights, and
+colors. The Shopkeeper is a huge merman with arms as large as a human's 
+legs. He greets you warmly and askes if you will do business today.
+~
+0 D 7
+D2
+Exit ~
+door~
+0 0 23112
+S
+#23114
+Ye Olde Armor Shoppe~
+This old-style blacksmith shop offers you the finest in all your armor
+needs. Whether is plate, chain, or leather armor you're lookind for, you
+can probably find it here, given enough time. And money.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23112
+S
+#23115
+The City of Atlantis~
+You are inside a bustling city... completely underwater! All around you, 
+various races of merfolk swim about, going into shops and restaurants, 
+talking to each other, and basically going about their everyday normal
+lives. It looks like any other city in Boinga - with the exception of all
+the fish swimming around.
+  Main Street, with its many fine shops, leads off to the west, while
+smaller roads lead north and south.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23179
+D1
+Exit ~
+door~
+0 0 23176
+D2
+Exit ~
+door~
+0 0 23116
+D3
+Exit ~
+door~
+0 0 23112
+S
+#23116
+A side street~
+This side street looks somewhat neglected. Small potholes dot the road and
+trash litters the area. Looking south, the conditions seem to get worse, 
+and you can hear the noise of Main street to the north.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23115
+D2
+Exit ~
+door~
+0 0 23117
+S
+#23117
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23116
+D2
+Exit ~
+door~
+0 0 23118
+D3
+Exit ~
+door~
+0 0 23121
+S
+#23118
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23117
+D2
+Exit ~
+door~
+0 0 23119
+D3
+Exit ~
+door~
+0 0 23122
+S
+#23119
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23118
+D2
+Exit ~
+door~
+0 0 23120
+D3
+Exit ~
+door~
+0 0 23123
+S
+#23120
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23119
+D3
+Exit ~
+door~
+0 0 23124
+S
+#23121
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23117
+D2
+Exit ~
+door~
+0 0 23122
+D3
+Exit ~
+door~
+0 0 23125
+S
+#23122
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23121
+D1
+Exit ~
+door~
+0 0 23118
+D2
+Exit ~
+door~
+0 0 23123
+D3
+Exit ~
+door~
+0 0 23126
+S
+#23123
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23122
+D1
+Exit ~
+door~
+0 0 23119
+D2
+Exit ~
+door~
+0 0 23124
+D3
+Exit ~
+door~
+0 0 23127
+S
+#23124
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23123
+D1
+Exit ~
+door~
+0 0 23120
+D3
+Exit ~
+door~
+0 0 23128
+S
+#23125
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23121
+D2
+Exit ~
+door~
+0 0 23126
+S
+#23126
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23125
+D1
+Exit ~
+door~
+0 0 23122
+D2
+Exit ~
+door~
+0 0 23127
+S
+#23127
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23126
+D1
+Exit ~
+door~
+0 0 23123
+D2
+Exit ~
+door~
+0 0 23128
+S
+#23128
+The slums~
+All around you is squallor and poverty. Merfolk dressed in rags live in
+crude wooden crates, torn tents, or in some cases, nowhere at all. Trash
+and debris are strewn all about, and the area is thick with dirt and grit.
+You can almost smell the fear and hopelessness of those around you.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23127
+D1
+Exit ~
+door~
+0 0 23124
+D3
+Exit ~
+door~
+0 0 23129
+S
+#23129
+A side street~
+Pebbles and small bits of trash line the road. The dirt and trash seem to
+increase to the east. An intersection with a large road can be seen to
+the west.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23128
+D3
+Exit ~
+door~
+0 0 23130
+S
+#23130
+The end of Legendary Way~
+Legendary Way comes to an end here. Two smaller side streets branch off
+to the east and west, following the outer wall. The eastern street looks
+like it could use a bit of work, you notice.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23131
+D1
+Exit ~
+door~
+0 0 23129
+D3
+Exit ~
+door~
+0 0 23163
+S
+#23131
+Legendary Way~
+You are on a wide road that runs north and south. The noise of the rest of
+the city is merely a whisper in the water around you. To the west is a well
+made building which appears to be some sort of warehouse. On the whole, it's
+a rather non-descript building.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23133
+D2
+Exit ~
+door~
+0 0 23130
+D3
+Exit ~
+door~
+0 0 23132
+S
+#23132
+Warehouse of the Legendary Thief~
+This large building is full of quite a bit of odd equipment. Dummies, some
+covered with bells, and in one case blades, take up one corner of the open
+space. Gymnastic equipment stands off to the side, and ropes hang down from
+the ceiling. Parts of the area are very bright, while others are hidden in
+shadow. This must be some sort of training area.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23131
+S
+#23133
+Legendary Way~
+You are on a wide road that runs north and south. The ambient noise of the
+rest of the city is much quieter here. To the east stands a marble tower,
+made from obsidian. Light reflects of it's polished surface.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23135
+D1
+Exit ~
+door~
+0 0 23134
+D2
+Exit ~
+door~
+0 0 23131
+S
+#23134
+Tower of the Legendary Mage~
+This tower is made out of polished black obsidian. As there are no seams
+in the walls, it must have been carved out of one large rock. You can't
+imagine the power necessary to create such a wonder of construction. The 
+walls of tower reflect the light of many torches set about the room, making
+it seem as if the light were coming from the walls instead.
+~
+0 D 7
+D3
+Exit ~
+door~
+0 0 23133
+S
+#23135
+Legendary Way~
+You are on a wide road that runs north and south. The ambient noise of
+the rest of the city is a bit quieter here. To the west is a building that
+resembles some sort of temple. The coral spires seem to glow with a holy
+light.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23137
+D2
+Exit ~
+door~
+0 0 23133
+D3
+Exit ~
+door~
+0 0 23136
+S
+#23136
+Temple of the Legendary Cleric~
+A calmness passes over you as you enter this humble temple. Soft light
+from globes on the ceiling brighten the shadows that lurk in the corners.
+At the far end of the room, a marble altar stands on a raised dias, and a
+statue of Poseidon is behind it. Perhaps turning to this god will help
+where Mojo has not?
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23135
+D5
+Exit ~
+altar~
+3 0 946
+S
+#23137
+Legendary Way~
+This wide street runs south through the center of the city. You can hear
+the noise of the Plaza to the north, while the relative quiet becons you 
+south along the road. A large, almost castle-like structure is to your
+east. Whoever lives there must be rich!
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23104
+D1
+Exit ~
+door~
+0 0 23138
+D2
+Exit ~
+door~
+0 0 23135
+S
+#23138
+Castle of the Legendary Warrior~
+It is blatantly obvious that a great warrior lives here. Suits of armour
+guard the entranceway. Weapons of every conceivable design are mounted on
+the wall, along with various maps and war trophies. The floor is tiled with
+a depiction of a coat-of-arms: 2 crossed swords, with the shadow of a 
+marlin superimposed in the backround.
+~
+0 D 7
+D3
+Exit ~
+door~
+0 0 23137
+S
+#23139
+The Middle of Nowhere~
+You have entered a place that does not exist. There is no light, but you 
+can see. There is no air, yet you can breathe. Looking around, it's as if
+everything - the sky, the ground - is the same blank color. Yet at the same
+time it isn't, as you cannot see any color. You move about a bit, but the
+surroundings never change. No matter where you go, what you look at, you
+see nothing. Nothing at all, for as far as you can see...
+~
+0 ACDJNTU 0
+H 500 M 500
+O nobody~
+S
+#23140
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#23141
+Water Street~
+This is one of the main roads that lead away from the Plaza, which is just
+to the east of here. Many merfolk have chosen this area to build their 
+homes. A few of these homes are here, to the north and south side of the
+street. More homes can be seen forther west.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23142
+D1
+Exit ~
+door~
+0 0 23104
+D2
+Exit ~
+door~
+0 0 23143
+D3
+Exit ~
+door~
+0 0 23144
+S
+#23142
+A merfolk home~
+This house, while not expensively decorated, is quite modest in the way it
+appears. Being underwater has forced subtle differences in everyday items, 
+such as shell and coral taking the place of wood in furniture. The colors
+that are predominate tend to be shades of blue or green, giving the small
+dwelling a calm, serene atmosphere.
+~
+0 D 7
+D2
+Exit ~
+door~
+0 0 23141
+S
+#23143
+A merfolk home~
+This house, while not expensively decorated, is quite modest in the way it
+appears. Being underwater has forced subtle differences in everyday items, 
+such as shell and coral taking the place of wood in furniture. The colors
+that are predominate tend to be shades of blue or green, giving the small
+dwelling a calm, serene atmosphere.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23141
+S
+#23144
+Water Street~
+This road continues east and west. The homes of many merfolk line the road
+to the north and south in both directions. Maybe one day, when you retire
+from the the trials of exploring Boinga, you'll build a house of your own.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23145
+D1
+Exit ~
+door~
+0 0 23141
+D2
+Exit ~
+door~
+0 0 23146
+D3
+Exit ~
+door~
+0 0 23147
+S
+#23145
+A merfolk home~
+This house, while not expensively decorated, is quite modest in the way it
+appears. Being underwater has forced subtle differences in everyday items, 
+such as shell and coral taking the place of wood in furniture. The colors
+that are predominate tend to be shades of blue or green, giving the small
+dwelling a calm, serene atmosphere.
+~
+0 D 7
+D2
+Exit ~
+door~
+0 0 23144
+S
+#23146
+A merfolk home~
+This house, while not expensively decorated, is quite modest in the way it
+appears. Being underwater has forced subtle differences in everyday items, 
+such as shell and coral taking the place of wood in furniture. The colors
+that are predominate tend to be shades of blue or green, giving the small
+dwelling a calm, serene atmosphere.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23144
+S
+#23147
+Water Street~
+This road continues east and west. The homes of many merfolk line the road
+to the north and south in both directions. Maybe one day, when you retire
+from the the trials of exploring Boinga, you'll build a house of your own.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23148
+D1
+Exit ~
+door~
+0 0 23144
+D2
+Exit ~
+door~
+0 0 23149
+D3
+Exit ~
+door~
+0 0 23150
+S
+#23148
+A merfolk home~
+This house, while not expensively decorated, is quite modest in the way it
+appears. Being underwater has forced subtle differences in everyday items, 
+such as shell and coral taking the place of wood in furniture. The colors
+that are predominate tend to be shades of blue or green, giving the small
+dwelling a calm, serene atmosphere.
+~
+0 D 7
+D2
+Exit ~
+door~
+0 0 23147
+S
+#23149
+A merfolk home~
+This house, while not expensively decorated, is quite modest in the way it
+appears. Being underwater has forced subtle differences in everyday items, 
+such as shell and coral taking the place of wood in furniture. The colors
+that are predominate tend to be shades of blue or green, giving the small
+dwelling a calm, serene atmosphere.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23147
+S
+#23150
+Water Street at Freedom Road~
+This is the corner where Water Street meets Freedom Road. The former leads
+off to the east, where you can see quite a few houses lining the road. The
+latter, heading off to the south, leads to the Temple of Neptune, which you
+can see rising above the surrounding buildings. A small alley also connects
+to the intersection to the north.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23164
+D1
+Exit ~
+door~
+0 0 23147
+D2
+Exit ~
+door~
+0 0 23151
+S
+#23151
+Freedom Road~
+This quiet road is devoid of any shops or houses. Beds of flowering seaweed
+line the road to both sides, which fill the water with a fragrant perfume.
+A large intersection is to the north, while the Temple of Neptune rises to
+the south.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23150
+D2
+Exit ~
+door~
+0 0 23152
+S
+#23152
+Outside the Temple Gates~
+You are outside the Temple of Neptune. Solid gold gates stand open to the
+east, an open invitation to those who seek peace. Large flowering anemone
+fill the water with a delicate fragrance, and small tropical fish dart here
+and there among the plants. If you do not wish to enter the temple, you can
+follow the street north or south.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23151
+D1
+Exit ~
+gate~
+0 0 23153
+D2
+Exit ~
+door~
+0 0 23156
+S
+#23153
+The Temple Courtyard~
+You are in the large courtyard of the Temple of Neptune. Races of all ages
+and descriptions admire the surroundings as they rest on soft beds of sea
+grass. The temple itself rises above the courtyard to the east, the doors
+wide open to admit all who wish to enter. Freedom Way lies east through the
+temple gates.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23154
+D3
+Exit ~
+door~
+0 0 23152
+S
+#23154
+The Temple of Neptune~
+This dimly-lit building is the temple to the sea god Neptune. Pilgrims are
+scattered about the large room, kneeling in prayer, or simply enjoying the
+peaceful setting. A small merfolk quietly moves to each person, offering to
+ease their weariness, whether in mind or body. A large chest in front of 
+the altar stands ready to accept donations to the poor.
+~
+0 CD 7
+D2
+Exit ~
+portal~
+4 23138 23155
+D3
+Exit ~
+door~
+0 0 23153
+S
+#23155
+~
+A warm feeling washes over you. You get the sensation of fast movement as
+you black out for a moment...
+ 
+ 
+The Throne Room of Neptune
+  You come back to your senses. You are in a large throne room. Most of the
+room is hard to see, even though the room is filled with light. Your gaze
+is drawn to a large gem-encrusted throne in the center of the room. Sitting
+on the throne is a large man with snow-white hair and a large flowing beard.
+Held in one of his hands is a large, deadly-looking trident. He looks at
+you, waiting for you to act.
+~
+0 ACDJNT 7
+D0
+Exit ~
+door~
+3 23143 23154
+S
+#23156
+Freedom Road~
+This quiet road is devoid of any shops or houses. Flowering beds of seaweed
+fill the water with a fragrant perfume. The Temple of Neptune can be seen to 
+the north, and the road continues to the south.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23152
+D2
+Exit ~
+door~
+0 0 23157
+S
+#23157
+Freedom Road~
+This quiet road is devoid of any shops or houses. Flowering beds of seaweed
+fill the water with a fragrant perfume. The Temple of Neptune can be seen to 
+the north a ways, and the road meets a side street to the south.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23156
+D2
+Exit ~
+door~
+0 0 23158
+S
+#23158
+End of Freedom Road~
+Freedom Road comes to an end here. You can barely make out the gates to the
+Temple of Neptune to the north through the water. A side street leads off to
+the east, though you don't see many people using it.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23157
+D1
+Exit ~
+door~
+0 0 23159
+S
+#23159
+A side street~
+This small road is a connector between Legendary Way and Freedom Raod. It's
+used primarily by city workers and guards. There's not much traffic on it
+right now.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23160
+D3
+Exit ~
+door~
+0 0 23158
+S
+#23160
+A side street~
+This small road is a connector between Legendary Way and Freedom Raod. It's
+used primarily by city workers and guards. There's not much traffic on it
+right now.
+~
+0 D 7
+D0
+Exit ~
+secret~
+1 0 23161
+D1
+Exit ~
+door~
+0 0 23163
+D3
+Exit ~
+door~
+0 0 23159
+S
+#23161
+Merfolk Assassin's Guild~
+You are in a dark room. Black tapestries inlaid with glittering silver runes
+hang on the walls. A coldness begins to creep into your bones, chilling your
+heart, as you recognize the pattern of the inlaid tiles on the floor: the 
+rune of death. You are in an assassin's guild. And you don't want to be here.
+~
+0 AD 7
+D2
+Exit ~
+door~
+0 0 23160
+D3
+Exit ~
+secret~
+1 0 23162
+S
+#23162
+The guildmaster's room~
+This dimly lit room is unfurnished save for a large table in the center. On
+it is a map of all of Boinga, with unknown symbols drawn on it, mainly on
+cities and towns. The floor of the room is covered in sand instead of tiled,
+as in most other merfolk homes. The only way out of the room is back the way
+you came in.
+~
+0 D 7
+D1
+Exit ~
+secret~
+1 0 23161
+S
+#23163
+A side street~
+This small road is a connector between Legendary Way and Freedom Raod. It's
+used primarily by city workers and guards. There's not much traffic on it
+right now.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23130
+D3
+Exit ~
+door~
+0 0 23160
+S
+#23164
+A small alley~
+This alleyway look newer than the rest of the city. It also looks hastily 
+constructed, as there are still building material left in the ground. It
+leads off to the north. 
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23165
+D2
+Exit ~
+door~
+0 0 23150
+S
+#23165
+A small alley~
+You're near the middle of the alley. It's no neater here than anywhere else
+in it... tools are lying here and there, stone blocks are piled in places.
+The alley continues north and south, the the sound of city life seem to be
+louder to the south.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23166
+D2
+Exit ~
+door~
+0 0 23164
+S
+#23166
+A small alley~
+You're near the middle of the alley. It's no neater here than anywhere else
+in it... tools are lying here and there, stone blocks are piled in places.
+The alley continues north and south, the the sound of city life seem to be
+louder to the south.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23167
+D2
+Exit ~
+door~
+0 0 23165
+S
+#23167
+Turn in the small alley~
+The small alley comes to a south-east corner here. Loking to the south, you 
+can barely make out a large street at the far end. To the east, however,
+you can see what looks like a newly-made subdivision. A small square is to
+the east, where you can make out the shapes of some type of humanoid life.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23168
+D2
+Exit ~
+door~
+0 0 23166
+S
+#23168
+A small town square~
+This new square, in contrast to the alley you took to get here, is spotless
+Whoever takes care of this place sure knows how to clean, even the water
+around you seems clearer. A sizable street leads off to the south, where
+you can see a collection of small homes. While not built quite the same way
+as the other homes from a distance, they still look quite comfortable.
+~
+0 D 7
+D2
+Exit ~
+door~
+0 0 23169
+D3
+Exit ~
+door~
+0 0 23167
+S
+#23169
+A small neighborhood~
+Upon closer inspection of the houses along this road, you realize that they
+are made from giant snail shells. And their occupants are just as strange,
+they appear to be a cross between a merman and a human. You remember hearing
+stories about such creatures, and the name 'nixie' comes to mind.
+ 
+  A nixie home lies to the east and west.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23168
+D1
+Exit ~
+door~
+0 0 23171
+D2
+Exit ~
+door~
+0 0 23172
+D3
+Exit ~
+door~
+0 0 23170
+S
+#23170
+A nixie home~
+Well now you know what a snail feels like. This home is all one room, with 
+a small living area in the center ans sleeping areas lining the walls. The
+ceiling spirals up into the shadows above. On the whole, it's quite a nice 
+design for a house - almost cozy.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23169
+S
+#23171
+A nixie home~
+Well now you know what a snail feels like. This home is all one room, with 
+a small living area in the center ans sleeping areas lining the walls. The
+ceiling spirals up into the shadows above. On the whole, it's quite a nice 
+design for a house - almost cozy.
+~
+0 D 7
+D3
+Exit ~
+door~
+0 0 23169
+S
+#23172
+A small neighborhood~
+Upon closer inspection of the houses along this road, you realize that they
+are made from giant snail shells. And their occupants are just as strange,
+they appear to be a cross between a merman and a human. You remember hearing
+stories about such creatures, and the name 'nixie' comes to mind.
+ 
+  A nixie home lies to the east, west, and south.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23169
+D1
+Exit ~
+door~
+0 0 23174
+D2
+Exit ~
+door~
+0 0 23175
+D3
+Exit ~
+door~
+0 0 23173
+S
+#23173
+A nixie home~
+Well now you know what a snail feels like. This home is all one room, with 
+a small living area in the center ans sleeping areas lining the walls. The
+ceiling spirals up into the shadows above. On the whole, it's quite a nice 
+design for a house - almost cozy.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23172
+S
+#23174
+A nixie home~
+Well now you know what a snail feels like. This home is all one room, with 
+a small living area in the center ans sleeping areas lining the walls. The
+ceiling spirals up into the shadows above. On the whole, it's quite a nice 
+design for a house - almost cozy.
+~
+0 D 7
+D3
+Exit ~
+door~
+0 0 23172
+S
+#23175
+A nixie home~
+Well now you know what a snail feels like. This home is all one room, with 
+a small living area in the center ans sleeping areas lining the walls. The
+ceiling spirals up into the shadows above. On the whole, it's quite a nice 
+design for a house - almost cozy.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23172
+S
+#23176
+Along the bottom of the sea.~
+The glow to the east looks to be a city of some sort. Hard to imagine that,
+as you can't think of any creature who'd want to live in the dark water that
+surrounds you. Nonetheless, you can;t deny what your eyes are telling you, a
+city lies to the east. Seeing as how you've finally adjusted to walking on 
+the bottom, you could go investigate, or you could return to the sunshine 
+above the waves.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23177
+D3
+Exit ~
+door~
+0 0 23115
+S
+#23177
+The bottom of the sea~
+You finally hit the bottom, almost 1200ft below the surface of the water.
+Already, you miss the sunlight and open air, as the dark water pushes 
+against your body with a pressure far greater than you're accustomed to. A
+faint glow can be seen to the east.
+~
+0 D 7
+D3
+Exit ~
+door~
+0 0 23176
+D4
+Exit ~
+door~
+0 0 23178
+S
+#23178
+Further under the sea~
+Now, you are about 600ft under the surface of the water. You notice its much
+darker, as little light can penetrate to this deep. There are also less fish
+here, as they prefer the brighter, warm water above you. You can barely make
+out the bottom of the sea, far below you.
+~
+0 D 7
+D4
+Exit ~
+door~
+0 0 23185
+D5
+Exit ~
+door~
+0 0 23177
+S
+#23179
+The Boardwalk~
+You're on a road that is overlaid by finished pine boards. This seems to be
+the entertainment strip of the city, as you can hear music and laughter from
+passers-by. Off to the north, you see a brightly lit archway that enters a
+large building. Or, if fun isn't to your taste right now, you can return to
+Main Street and the city entrance by going south.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23180
+D2
+Exit ~
+door~
+0 0 23115
+S
+#23180
+The Boardwalk at the Casino~
+Light spills out of a large archway here. Inside you can here the shouts of
+the big winners, and the groans of the losers. It's only somewhat muffled by
+the walls, but the noise outside is just as loud, as people move in and out
+of the casino. The Boardwalk continues north and south from here.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23182
+D2
+Exit ~
+door~
+0 0 23179
+D3
+Exit ~
+door~
+0 0 23181
+S
+#23181
+The Atlantis City Casino~
+Welcome to the Atlantis City Casino, where fortunes are made and lost on the
+slot machines. The cheers of big winners fill the water, and the moans
+of big losers try to drown those cheers out. So pick a game and try your
+luck, who knows, you may hit it big!
+ 
+          A small sign is posted at the door.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23191
+D1
+Exit ~
+door~
+0 0 23180
+D2
+Exit ~
+door~
+0 0 23189
+D3
+Exit ~
+door~
+0 0 23192
+E
+sign~
+None of these game can be played by characters. Maybe one day soon code
+for slot machines and some other games can be written, but for now all 
+the games are just for show.
+~
+S
+#23182
+The Boardwalk~
+You're still on the boardwalk. It a bit quieter now that you're away from the
+casino and the main drag south of here. The end of the boardwalk is in sight
+just to the north. There seems to be a crowd of people gathering there.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23183
+D2
+Exit ~
+door~
+0 0 23180
+S
+#23183
+End of The Boardwalk~
+The boardwalk ends here, connecting to a smaller road to the west. As you
+look west, the same way the crowd's looking, you can see a large hole in the
+wall, as if something really big tried to break in. Merfolk are working to 
+clear the road of rubble, and also patch the hole. You are having trouble
+imagining what could have made a hole that big.
+~
+0 D 7
+D2
+Exit ~
+door~
+0 0 23182
+D3
+Exit ~
+door~
+0 0 23184
+S
+#23184
+A really big hole~
+There is a really big hole in the wall. Must be at least 20 feet across. You
+wonder what could have made a hole that big, and shudder at the thought.
+ 
+Quite a few merfolk are working here, trying to patch the hole. And they
+seem to be in quite a hurry. Every now and then, one of the workers looks
+through the hole with a concerned look on his face. Looks like he's worried
+that whatever made the hole might come back...
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23187
+D1
+Exit ~
+door~
+0 0 23183
+S
+#23185
+Under the sea~
+You're about 200ft under the the surface of the water. You still have a good
+range of sight, as quite a bit of sunlight can penetrate this deep. Fish of
+all shapes, sizes, and colors swim around and about, without a care in the
+world. Everything is peaceful and tranquil.
+~
+0 D 7
+D4
+Exit ~
+door~
+0 0 23186
+D5
+Exit ~
+door~
+0 0 23178
+S
+#23186
+The Blood Sea~
+You are far out to sea now, with miles of water in every direction.
+The winds out here are fairly strong, stirring up waves a good five
+or six feet high. it's this wave action that stirs up the red sand
+that covers the sea floor, giving the water it's reddish tint, and
+giving the sea it's name.
+~
+0 0 7
+D0
+Exit ~
+door~
+0 0 23202
+D1
+Exit ~
+door~
+0 0 23201
+D3
+Exit ~
+door~
+0 0 23200
+D5
+Exit ~
+door~
+0 0 23185
+S
+#23187
+Path of destruction~
+Something big sure was in a hurry. Plants have been uprooted, the ground has
+been torn up, and fish parts lie strewn about. Dirt and grit still hangs in 
+the water, reducing visibility to mere feet. You can either go back to the
+safety of the city to the south, or hunt out the creature to the north.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23188
+D2
+Exit ~
+door~
+0 0 23184
+S
+#23188
+Resting place of the sea serpent~
+Well, like it or not, you found what made the big hole in the wall. Let's
+hope you survive long enough to tell about it...
+~
+0 D 7
+D2
+Exit ~
+door~
+0 0 23187
+S
+#23189
+Inside the casino~
+You're having trouble hearing yourself think with all the noise. You're also
+having trouble picking a game, they all look like so much fun. You push
+through the crowd gathered here, trying to see what game is being played in
+this part of the casino.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23181
+D2
+Exit ~
+door~
+0 0 23190
+D3
+Exit ~
+door~
+0 0 23194
+S
+#23190
+Inside the casino~
+You're having trouble hearing yourself think with all the noise. You're also
+having trouble picking a game, they all look like so much fun. You push
+through the crowd gathered here, trying to see what game is being played in
+this part of the casino.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23189
+D3
+Exit ~
+door~
+0 0 23195
+S
+#23191
+Inside the casino~
+You're having trouble hearing yourself think with all the noise. You're also
+having trouble picking a game, they all look like so much fun. You push
+through the crowd gathered here, trying to see what game is being played in
+this part of the casino.
+~
+0 D 7
+D2
+Exit ~
+door~
+0 0 23181
+D3
+Exit ~
+door~
+0 0 23193
+S
+#23192
+Inside the casino~
+You're having trouble hearing yourself think with all the noise. You're also
+having trouble picking a game, they all look like so much fun. You push
+through the crowd gathered here, trying to see what game is being played in
+this part of the casino.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23193
+D1
+Exit ~
+door~
+0 0 23181
+D2
+Exit ~
+door~
+0 0 23194
+D3
+Exit ~
+door~
+0 0 23196
+S
+#23193
+Inside the casino~
+You're having trouble hearing yourself think with all the noise. You're also
+having trouble picking a game, they all look like so much fun. You push
+through the crowd gathered here, trying to see what game is being played in
+this part of the casino.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23191
+D2
+Exit ~
+door~
+0 0 23192
+D3
+Exit ~
+door~
+0 0 23197
+S
+#23194
+Inside the casino~
+You're having trouble hearing yourself think with all the noise. You're also
+having trouble picking a game, they all look like so much fun. You push
+through the crowd gathered here, trying to see what game is being played in
+this part of the casino.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23192
+D1
+Exit ~
+door~
+0 0 23189
+D2
+Exit ~
+door~
+0 0 23195
+D3
+Exit ~
+door~
+0 0 23198
+S
+#23195
+Inside the casino~
+You're having trouble hearing yourself think with all the noise. You're also
+having trouble picking a game, they all look like so much fun. You push
+through the crowd gathered here, trying to see what game is being played in
+this part of the casino.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23194
+D1
+Exit ~
+door~
+0 0 23190
+D3
+Exit ~
+door~
+0 0 23199
+S
+#23196
+Inside the casino~
+You're having trouble hearing yourself think with all the noise. You're also
+having trouble picking a game, they all look like so much fun. You push
+through the crowd gathered here, trying to see what game is being played in
+this part of the casino.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23197
+D1
+Exit ~
+door~
+0 0 23192
+D2
+Exit ~
+door~
+0 0 23198
+S
+#23197
+Inside the casino~
+You're having trouble hearing yourself think with all the noise. You're also
+having trouble picking a game, they all look like so much fun. You push
+through the crowd gathered here, trying to see what game is being played in
+this part of the casino.
+~
+0 D 7
+D1
+Exit ~
+door~
+0 0 23193
+D2
+Exit ~
+door~
+0 0 23196
+S
+#23198
+Inside the casino~
+You're having trouble hearing yourself think with all the noise. You're also
+having trouble picking a game, they all look like so much fun. You push
+through the crowd gathered here, trying to see what game is being played in
+this part of the casino.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23196
+D1
+Exit ~
+door~
+0 0 23194
+D2
+Exit ~
+door~
+0 0 23199
+S
+#23199
+Inside the casino~
+You're having trouble hearing yourself think with all the noise. You're also
+having trouble picking a game, they all look like so much fun. You push
+through the crowd gathered here, trying to see what game is being played in
+this part of the casino.
+~
+0 D 7
+D0
+Exit ~
+door~
+0 0 23198
+D1
+Exit ~
+door~
+0 0 23195
+S
+#23200
+The Blood Sea~
+You are far out to sea now, with miles of water in every direction.
+The winds out here are fairly strong, stirring up waves a good five
+or six feet high. it's this wave action that stirs up the red sand
+that covers the sea floor, giving the water it's reddish tint, and
+giving the sea it's name.
+~
+0 0 7
+D0
+Exit ~
+door~
+0 0 23203
+D1
+Exit ~
+door~
+0 0 23186
+S
+#23201
+The Blood Sea~
+You are far out to sea now, with miles of water in every direction.
+The winds out here are fairly strong, stirring up waves a good five
+or six feet high. it's this wave action that stirs up the red sand
+that covers the sea floor, giving the water it's reddish tint, and
+giving the sea it's name.
+~
+0 0 7
+D0
+Exit ~
+door~
+0 0 23204
+D3
+Exit ~
+door~
+0 0 23186
+S
+#23202
+The Blood Sea~
+You are out on the Blood Sea, site of one of the most tragic stories
+in history. Once, a large, thriving city existed here, a beautiful
+metropolis full of exciting people and wonderous goods. But, long
+ago, a magical experiment gone wrong brough doom to this once lush
+land, and the city known as Atlantis sank into the ground. Water
+from the nearby rivers and laked rushed in to fill the massive hole,
+creating a watery grave for thousand of victims.
+~
+0 0 7
+D0
+Exit ~
+door~
+0 0 2324
+D1
+Exit ~
+door~
+0 0 23204
+D2
+Exit ~
+door~
+0 0 23186
+D3
+Exit ~
+door~
+0 0 23203
+S
+#23203
+The Blood Sea~
+You are out on the Blood Sea, site of one of the most tragic stories
+in history. Once, a large, thriving city existed here, a beautiful
+metropolis full of exciting people and wonderous goods. But, long
+ago, a magical experiment gone wrong brough doom to this once lush
+land, and the city known as Atlantis sank into the ground. Water
+from the nearby rivers and laked rushed in to fill the massive hole,
+creating a watery grave for thousand of victims.
+~
+0 0 7
+D0
+Exit ~
+door~
+0 0 2323
+D1
+Exit ~
+door~
+0 0 23202
+D2
+Exit ~
+door~
+0 0 23200
+S
+#23204
+The Blood Sea~
+You are out on the Blood Sea, site of one of the most tragic stories
+in history. Once, a large, thriving city existed here, a beautiful
+metropolis full of exciting people and wonderous goods. But, long
+ago, a magical experiment gone wrong brough doom to this once lush
+land, and the city known as Atlantis sank into the ground. Water
+from the nearby rivers and laked rushed in to fill the massive hole,
+creating a watery grave for thousand of victims.
+~
+0 0 7
+D0
+Exit ~
+door~
+0 0 2325
+D2
+Exit ~
+door~
+0 0 23201
+D3
+Exit ~
+door~
+0 0 23202
+S
+#0
+
+#RESETS
+M 0 23100   2 23101  2	* The palace guard
+M 0 23100   2 23101  2	* The palace guard
+G 1 23101  -1     	*   a coral key
+M 0 23102   1 23103  1	* the Lord of Atlantis
+E 1 23100  -1   16	*   a pearl trident
+M 0 23101  15 23104  2	* the Atlantis city guard
+M 0 23101  15 23104  2	* the Atlantis city guard
+M 0 23111  13 23105  1	* a beastly fidofish
+M 0 23103   1 23106  1	* Angelica
+G 1 3152  -1     	*   a bucket of hot Buffalo chicken wings
+G 1 23102  -1     	*   some fresh squid
+G 1 23104  -1     	*   some sauteed periwinkles
+G 1 23103  -1     	*   a bowl of clam chowder
+M 0 23105   1 23107  1	* the Maitre 'D
+M 0 23106   1 23108  1	* the bouncer
+M 0 23104   1 23108  1	* Sam the Barkeep
+G 1 9569  -1     	*   a bottle of grog
+G 1 23105  -1     	*   a bottle of waterbreather
+G 1 3004  -1     	*   a bottle of local specialty
+M 0 23111  13 23110  1	* a beastly fidofish
+M 0 23107   1 23110  1	* Elmuster
+G 1 23117  -1     	*   a darksight potion
+G 1 23113  -1     	*   a petrified electric eel
+M 0 23112   1 23111  1	* Curiosities
+M 0 23110   1 23111  1	* Grandma Sallith
+G 1 23135  -1     	*   a sponge
+G 1 23134  -1     	*   an eelskin bag
+M 0 23109   1 23113  1	* the weaponsmith
+G 1 23119  -1     	*   a merfolk trident
+G 1 23118  -1     	*   a spear gun
+M 0 23108   1 23114  1	* the blacksmith
+G 1 23112  -1     	*   an eelskin belt
+G 1 23111  -1     	*   eelskin gloves
+G 1 23110  -1     	*   eelskin boots
+G 1 23109  -1     	*   a set of fish scale leggings
+G 1 23108  -1     	*   a fish scale jerkin
+G 1 23107  -1     	*   a set of fish scale sleeves
+G 1 23106  -1     	*   a fish scale helm
+M 0 23101  15 23115  2	* the Atlantis city guard
+M 0 23101  15 23115  2	* the Atlantis city guard
+M 0 23111  13 23116  1	* a beastly fidofish
+M 0 23119   6 23118  1	* a homeless mermaid
+M 0 23120   5 23119  1	* a homeless merman
+M 0 23120   5 23120  1	* a homeless merman
+M 0 23119   6 23120  1	* a homeless mermaid
+M 0 23101  15 23120  1	* the Atlantis city guard
+M 0 23119   6 23121  1	* a homeless mermaid
+M 0 23111  13 23122  1	* a beastly fidofish
+M 0 23120   5 23122  1	* a homeless merman
+M 0 23119   6 23123  1	* a homeless mermaid
+M 0 23120   5 23124  1	* a homeless merman
+M 0 23111  13 23125  1	* a beastly fidofish
+M 0 23101  15 23125  1	* the Atlantis city guard
+M 0 23119   6 23126  1	* a homeless mermaid
+M 0 23120   5 23127  1	* a homeless merman
+M 0 23119   6 23128  1	* a homeless mermaid
+M 0 23111  13 23129  1	* a beastly fidofish
+M 0 23101  15 23130  1	* the Atlantis city guard
+M 0 23116   1 23132  1	* The Legendary Thief
+E 1 23123  -1   16	*   the Legendary Dagger
+M 0 23115   1 23134  1	* The Legendary Mage
+E 1 23122  -1   16	*   the Legendary Whip
+M 0 23114   1 23136  1	* The Legendary Cleric
+E 1 23121  -1   16	*   the Legendary Flail
+M 0 23113   1 23138  1	* The Legendary Warrior
+E 1 23120  -1   16	*   the Legendary Harpoon
+M 0 23111  13 23141  1	* a beastly fidofish
+M 0 23118   7 23142  1	* a merman
+M 0 23117   7 23142  1	* a mermaid
+M 0 23118   7 23143  1	* a merman
+M 0 23117   7 23143  1	* a mermaid
+M 0 23118   7 23145  1	* a merman
+M 0 23117   7 23145  1	* a mermaid
+M 0 23118   7 23146  1	* a merman
+M 0 23117   7 23146  1	* a mermaid
+M 0 23118   7 23148  1	* a merman
+M 0 23117   7 23148  1	* a mermaid
+M 0 23111  13 23149  1	* a beastly fidofish
+M 0 23118   7 23149  1	* a merman
+M 0 23117   7 23149  1	* a mermaid
+M 0 23101  15 23150  1	* the Atlantis city guard
+M 0 23118   7 23152  1	* a merman
+M 0 23117   7 23152  1	* a mermaid
+M 0 6511   8 23153  1	* the dwarf
+M 0 1711   2 23153  1	* a centaur
+M 0 23111  13 23156  1	* a beastly fidofish
+M 0 23101  15 23158  2	* the Atlantis city guard
+M 0 23101  15 23158  2	* the Atlantis city guard
+M 0 23128   1 23162  1	* the guildmaster of assassins
+E 1 23124  -1   17	*   the Orb of Might
+M 0 23111  13 23163  1	* a beastly fidofish
+M 0 23111  13 23165  1	* a beastly fidofish
+M 0 23101  15 23167  2	* the Atlantis city guard
+M 0 23101  15 23167  2	* the Atlantis city guard
+M 0 23111  13 23168  1	* a beastly fidofish
+M 0 23135   5 23170  1	* a nixie
+M 0 23134   5 23170  1	* a nixie
+M 0 23135   5 23171  1	* a nixie
+M 0 23134   5 23171  1	* a nixie
+M 0 23135   5 23173  1	* a nixie
+M 0 23134   5 23173  1	* a nixie
+M 0 23135   5 23174  1	* a nixie
+M 0 23134   5 23174  1	* a nixie
+M 0 23135   5 23175  1	* a nixie
+M 0 23134   5 23175  1	* a nixie
+M 0 23111  13 23179  1	* a beastly fidofish
+M 0 23137   1 23181  1	* Nassah
+M 0 23121   6 23183  4	* a merfolk gawker
+M 0 23121   6 23183  4	* a merfolk gawker
+M 0 23121   6 23183  4	* a merfolk gawker
+M 0 23121   6 23183  4	* a merfolk gawker
+M 0 23101  15 23183  2	* the Atlantis city guard
+M 0 23101  15 23183  2	* the Atlantis city guard
+M 0 23122   1 23188  1	* a sea serpent
+E 1 23116  -1   12	*   the skin of a sea serpent
+M 0 23124  12 23189  3	* a blackjack player
+M 0 23124  12 23189  3	* a blackjack player
+M 0 23124  12 23189  3	* a blackjack player
+M 0 23131   5 23189  1	* a blackjack dealer
+M 0 23124  12 23190  3	* a blackjack player
+M 0 23124  12 23190  3	* a blackjack player
+M 0 23124  12 23190  3	* a blackjack player
+M 0 23131   5 23190  1	* a blackjack dealer
+M 0 23125   9 23191  3	* a craps player
+M 0 23125   9 23191  3	* a craps player
+M 0 23125   9 23191  3	* a craps player
+M 0 23133   3 23191  1	* a croupier
+M 0 23125   9 23192  3	* a craps player
+M 0 23125   9 23192  3	* a craps player
+M 0 23125   9 23192  3	* a craps player
+M 0 23133   3 23192  1	* a croupier
+M 0 23125   9 23193  3	* a craps player
+M 0 23125   9 23193  3	* a craps player
+M 0 23125   9 23193  3	* a craps player
+M 0 23133   3 23193  1	* a croupier
+M 0 23124  12 23194  3	* a blackjack player
+M 0 23124  12 23194  3	* a blackjack player
+M 0 23124  12 23194  3	* a blackjack player
+M 0 23131   5 23194  1	* a blackjack dealer
+M 0 23126   4 23196  1	* a slot jockey
+M 0 23126   4 23197  1	* a slot jockey
+M 0 23126   4 23198  1	* a slot jockey
+M 0 23126   4 23199  1	* a slot jockey
+O 0 23136 100 23180	* a sign
+O 0 23132 100 23189	* a blackjack table
+P 1 23133  -1 23132  1	*   a deck of cards
+P 1 23139  -1 23132  1	*   some coins
+O 0 23132 100 23190	* a blackjack table
+P 1 23139  -1 23132  1	*   some coins
+O 0 23131 100 23191	* a craps table
+P 1 23139  -1 23131  1	*   some coins
+O 0 23131 100 23192	* a craps table
+P 1 23126  -1 23131  1	*   a pair of craps dice
+P 1 23139  -1 23131  1	*   some coins
+O 0 23131 100 23193	* a craps table
+P 1 23126  -1 23131  1	*   a pair of craps dice
+O 0 23132 100 23194	* a blackjack table
+P 1 23133  -1 23132  1	*   a deck of cards
+O 0 23130 100 23196	* a slot machine
+P 1 23139  -1 23130  1	*   some coins
+O 0 23130 100 23197	* a slot machine
+P 1 23139  -1 23130  1	*   some coins
+O 0 23130 100 23198	* a slot machine
+P 1 23139  -1 23130  1	*   some coins
+O 0 23130 100 23199	* a slot machine
+P 1 23139  -1 23130  1	*   some coins
+D 0 23100   2    1	* Palace Courtyard south
+D 0 23101   0    2	* Entrance to the Royal Palace north
+D 0 23102   2    2	* The Royal Palace of Atlantis south
+D 0 23102   4    1	* The Royal Palace of Atlantis up
+D 0 23103   5    1	* Palace Tower down
+D 0 23104   0    1	* Center Plaza north
+D 0 23136   5    1	* Temple of the Legendary Cleric down
+D 0 23160   0    1	* A side street north
+D 0 23162   1    2	* The guildmaster's room east
+M 0 23101  15 23187  1	* the Atlantis city guard
+O 0 23140 100 23187	* a chest
+M 0 23101  15 23184  1	* the Atlantis city guard
+M 0 23121   6 23184  2	* a merfolk gawker
+M 0 23121   6 23184  2	* a merfolk gawker
+M 0 23130   1 23154  1	* the high priest of Neptune
+E 1 23138  -1   18	*   Neptune's blessing
+M 0 23136   1 23154  1	* the healer
+O 0 23140 100 23154	* a chest
+D 0 23154   2    2	* The Temple of Neptune south
+M 0 23129   1 23155  1	* Neptune
+E 1 23143  -1   17	*   a jewelled key
+E 1 23129  -1    6	*   Neptune's Might
+M 0 23127   2 23161  2	* a merfolk assassin
+E 1 23127  -1    7	*   an assassin's quiver
+P 1 23128  -1 23127  3	*   an assassin's arrow
+P 1 23128  -1 23127  3	*   an assassin's arrow
+P 1 23128  -1 23127  3	*   an assassin's arrow
+M 0 23127   2 23161  2	* a merfolk assassin
+E 1 23127  -1    7	*   an assassin's quiver
+P 1 23128  -1 23127  3	*   an assassin's arrow
+P 1 23128  -1 23127  3	*   an assassin's arrow
+P 1 23128  -1 23127  3	*   an assassin's arrow
+D 0 23161   3    2	* Merfolk Assassin's Guild west
+M 0 23131   4 23195  1	* a blackjack dealer
+E 1 23144  -1   16	*   a boot knife
+M 0 23124  12 23195  3	* a blackjack player
+M 0 23124  12 23195  3	* a blackjack player
+M 0 23124  12 23195  3	* a blackjack player
+O 0 23132 100 23195	* a blackjack table
+P 1 23133  -1 23132  1	*   a deck of cards
+P 1 23139  -1 23132  1	*   some coins
+S
+
+#SHOPS
+23103 19 19  0  0  0 	 150  90 	 0 24 	* Angelica
+23104 17  0  0  0  0 	 100 100 	 0 24 	* Sam the Barkeep
+23105  0  0  0  0  0 	  50  50 	 0 24 	* the Maitre 'D
+23107 -1 -1  0  0  0 	 130  90 	 0 24 	* Elmuster
+23108  0  0  0  0  0 	 125 100 	 0 24 	* the blacksmith
+23109  5  6  7  0  0 	 120  40 	 0 23 	* the weaponsmith
+23110  0  0  0  0  0 	  50  50 	 0 24 	* Grandma Sallith
+0
+
+#SPECIALS
+M 23100 spec_guard_l        	* The palace guard
+M 23101 spec_guard_l        	* the Atlantis city guard
+M 23106 spec_patrolman      	* the bouncer
+M 23111 spec_fido           	* a beastly fidofish
+M 23112 spec_rabbit         	* Curiosities
+M 23114 spec_cast_cleric    	* The Legendary Cleric
+M 23115 spec_cast_mage      	* The Legendary Mage
+M 23116 spec_thief          	* The Legendary Thief
+M 23122 spec_fido           	* a sea serpent
+M 23128 spec_thief          	* the guildmaster of assassins
+M 23129 spec_breath_any     	* Neptune
+M 23130 spec_cast_cleric    	* the high priest of Neptune
+M 23132 spec_thief          	* generic quest mob
+M 23136 spec_cast_adept     	* the healer
+M 23137 spec_rabbit         	* Nassah
+S
+
+#$

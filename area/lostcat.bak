@@ -1,0 +1,1981 @@
+#AREA
+/mud/moosehead/area/lostcat.are~
+The Lost Catacombs~
+{30-45} NDagger The Lost Catacombs~
+13000 13099
+
+#MOBILES
+#13000
+hell cat hellcat~
+a hellcat~
+A large cat prowls around here, its eyes lit with a demonic light.
+~
+The cat snarls at you, baring its long, sharp fangs, and a jet of flame
+curls out of it's nostrils.  Its muscles tense up, in preperation to
+pounce.
+~
+cat~
+(null)~
+(null)~
+(null)~
+ACFGHT DFU -1000 0
+30 4 20d25+600 1d100+100 6d4+12 flbite
+-13 -13 -13 -2
+DINU 0 ABHLMQ HIJN
+stand stand none 0
+H B medium 0
+F par HJKQUV
+#13001
+night stalker nightstalker undead shadow~
+a nightstalker~
+The shadows around you congeal into a body and drift silently toward you.
+~
+The only thing you see is a roughly humanoid, pitch black form drifting
+your way.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AFGOT 0 -1000 0
+35 6 10d30+1200 1d100+100 6d5+20 drain
+-15 -15 -15 -10
+CEFINU 0 ABIMP HJN
+stand stand none 0
+DHIM ABCDEF large 0
+#13002
+wight undead shadow~
+A wight~
+A shadowy undead creature flys towards you and laughs silently.
+~
+Its body is made of congealed shadow, and its eyes glow with a demonic
+light.  It swings at you, trying to drain away your life force.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AFGHOQ BPTUZ -1000 0
+36 8 20d30+1200 1d100+100 5d7+15 drain
+-14 -14 -14 -14
+EFHNU 0 ABILQ JN
+stand stand none 0
+DHIM ABCDEF medium 0
+#13003
+umber hulk beast~
+an umber hulk~
+A huge clawed beast hisses at you angrily.
+~
+This beast is huge!  It waves it's clawed hands at you menacingly, clicks
+its gigantic mandibles together, and hisses at you angrily.  You are just
+the right size to make a tasty snack for this monster.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AFGT VZ -1000 0
+40 22 25d28+1300 1d1+100 4d10+21 claw
+-20 -20 -20 -10
+CDEIKU 0 ABQ 0
+stand stand none 0
+ACHMV ABCDEF huge 0
+#13004
+marilith demon devil woman creature~
+Marilith~
+A six-armed creature, half-woman, half-demon, cackles madly at you.
+~
+Her female half is very attractive.  A perfectly proportioned body, with
+features that would be considered lovely, even beautiful, if they weren't
+contorted into an eternal sneer of disdain.  Her lower half is an absolute
+abominiation.  A dark black tail curls underneath her, with shimmering
+black scales of purest ebony.  They are covered with bloodstains and bits
+of gore from her last victim, who is still entwined within her coils.
+She sneers at you, cackles, and readies her weapon.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABFGQ DFJNV -1000 0
+42 15 50d10+2000 5d100+200 7d4+22 wrath
+-25 -25 -25 -25
+CDEFKNU 0 ABLPQ N
+stand stand female 2000
+ACEHM ABCDEFW large 0
+#13005
+lich undead cleric skeleton skeletal~
+the lich~
+A skeletal figure in ancient cleric's robes turns to you, annoyed at your presence.
+~
+His skin having rotted away ages ago, this cleric has supported his life-
+force through the use of ancient evil magics.  What remains is only this,
+the lich before you, one of the most feared undead creatures in existance.
+He wears a dark breastplate that seems to soak up all the light that comes
+into contact with it, and a ring glints from his finger.  Most notable
+however is the flail that he carries, as it is swinging toward you now!
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFGOQ DFHJNV -1000 0
+45 18 25d20+2800 5d100+300 8d4+24 drain
+-27 -27 -27 -30
+EFHKNU 0 FILMQ N
+stand stand none 5000
+I 0 medium 0
+F for AV
+F par GHIJK
+#0
+
+#OBJECTS
+#13000
+finger elf bone~
+the fingerbone of an elf~
+A slim fingerbone lies here, collecting dust.~
+bone~
+key TUY AO
+0 0 0 0 0
+30 4 0 P
+A
+3 1
+#13001
+life drinker whip~
+Life Drinker~
+A long whip lies here, covered in blood.~
+flesh~
+weapon ABGJY AN
+whip 4 8 drain C
+39 50 6300 P
+A
+4 1
+A
+5 -1
+#13002
+flail damned~
+the Flail of the Damned~
+An ebony black flail lies here, radiating evil.~
+ebony~
+weapon ABEHJ AN
+flail 6 5 blast B
+40 100 7000 P
+A
+19 2
+A
+18 2
+#13003
+luck stone charm luckstone~
+a luckstone~
+Someone's lucky charm lies here.  Apparently it didn't help them much.~
+stone~
+gem GI AO
+0 0 0 0 0
+25 4 2000 P
+A
+14 20
+A
+20 -2
+#13004
+demon armor breastplate~
+a demon's breastplate~
+A breastplate lies on the ground, scorching the earth.~
+steel~
+armor ABEGJ AD
+10 10 10 10 0
+40 350 6400 P
+A
+19 2
+A
+1 2
+A
+5 -3
+#13005
+darkwood shield wood~
+a darkwood shield~
+A shield made of dark wood lies here.~
+wood~
+armor EJY AJ
+9 9 9 5 0
+38 100 6500 P
+A
+19 1
+A
+20 -2
+#13006
+ring lich~
+the Ring of the Lich~
+A ring set with a tiny animal skull in it lies here.~
+bone~
+jewelry EGMTd AB
+0 0 0 0 0
+40 5 10000 P
+F
+A 0 0 MX
+A
+12 50
+#0
+
+#ROOMS
+#13000
+A stairway into darkness~
+As you walk along, an utter silence befalls the area.  You push your
+way through some brush, into a foggy clearing, and the branches seal shut
+behind you, sealing you within the clearing.  You stumble along and find
+yourself standing inside a clearing ringed with huge obsidian pillars, as
+if an ancient temple rested on this spot.  An icy wind chills you to the
+bone as you search around and discover a stairway leading down into
+darkness.  A stone slab is embedded within the ground next to the stairway.
+Perhaps it would be prudent to read it before continuing onward.
+~
+0 ACD 0
+D2
+Exit ~
+door~
+16384 0 9793
+D5
+Exit ~
+stairs~
+16384 0 13001
+E
+slab~
+Warning- the area beyond this stairway is absolutely full of aggressive
+monsters.  If you are below level 30, proceed at your own risk!
+~
+S
+#13001
+A grim hallway~
+You stand within a grim hallway inside what appears to be catacombs
+underneath a ruined temple.  An icy cold breeze blows through the hall,
+chilling you to your very soul.  Your nose is assaulted by a carrion stench,
+and a distant piercing scream strikes fear into your heart.  Perhaps you
+should go back while you still can...
+~
+0 AD 0
+D2
+Exit ~
+door~
+16384 0 13002
+D4
+Exit ~
+stairs~
+16384 0 13000
+S
+#13002
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13001
+D2
+Exit ~
+door~
+16384 0 13003
+S
+#13003
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13002
+D1
+Exit ~
+door~
+16384 0 13004
+D3
+Exit ~
+door~
+16384 0 13005
+S
+#13004
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16387 0 13021
+D3
+Exit ~
+door~
+16384 0 13003
+S
+#13005
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13003
+D3
+Exit ~
+door~
+16387 0 13006
+S
+#13006
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D0
+Exit ~
+door~
+16387 0 13007
+D1
+Exit ~
+door~
+16387 0 13005
+S
+#13007
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13008
+D2
+Exit ~
+door~
+16387 0 13006
+S
+#13008
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13009
+D2
+Exit ~
+door~
+16384 0 13007
+S
+#13009
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13010
+D2
+Exit ~
+door~
+16384 0 13008
+D3
+Exit ~
+door~
+16387 0 13069
+S
+#13010
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16387 0 13011
+D2
+Exit ~
+door~
+16384 0 13009
+S
+#13011
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D0
+Exit ~
+door~
+16387 0 13012
+D2
+Exit ~
+door~
+16387 0 13010
+S
+#13012
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13013
+D2
+Exit ~
+door~
+16387 0 13011
+S
+#13013
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16387 0 13014
+D2
+Exit ~
+door~
+16384 0 13012
+S
+#13014
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D1
+Exit ~
+door~
+16387 0 13018
+D2
+Exit ~
+door~
+16387 0 13013
+D3
+Exit ~
+door~
+16387 0 13015
+S
+#13015
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16387 0 13014
+D3
+Exit ~
+door~
+16384 0 13016
+S
+#13016
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13015
+D3
+Exit ~
+door~
+16387 0 13017
+S
+#13017
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D1
+Exit ~
+door~
+16387 0 13016
+S
+#13018
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13019
+D3
+Exit ~
+door~
+16387 0 13014
+S
+#13019
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16387 0 13020
+D3
+Exit ~
+door~
+16384 0 13018
+S
+#13020
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D3
+Exit ~
+door~
+16387 0 13019
+S
+#13021
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D0
+Exit ~
+door~
+16387 0 13022
+D2
+Exit ~
+door~
+16387 0 13025
+D3
+Exit ~
+door~
+16387 0 13004
+S
+#13022
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13023
+D2
+Exit ~
+door~
+16387 0 13021
+S
+#13023
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13024
+D2
+Exit ~
+door~
+16384 0 13022
+S
+#13024
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13050
+D3
+Exit ~
+door~
+16384 0 13023
+S
+#13025
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16387 0 13021
+D2
+Exit ~
+door~
+16384 0 13026
+S
+#13026
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13025
+D2
+Exit ~
+door~
+16387 0 13027
+S
+#13027
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D0
+Exit ~
+door~
+16387 0 13026
+D1
+Exit ~
+door~
+16387 0 13029
+D3
+Exit ~
+door~
+16387 0 13028
+S
+#13028
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16387 0 13027
+D2
+Exit ~
+door~
+16387 0 13030
+S
+#13029
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13037
+D3
+Exit ~
+door~
+16387 0 13027
+S
+#13030
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D0
+Exit ~
+door~
+16387 0 13028
+D3
+Exit ~
+door~
+16387 0 13031
+S
+#13031
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16387 0 13030
+D3
+Exit ~
+door~
+16384 0 13032
+S
+#13032
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13031
+D3
+Exit ~
+door~
+16384 0 13033
+S
+#13033
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16387 0 13034
+D1
+Exit ~
+door~
+16384 0 13032
+D2
+Exit ~
+door~
+16387 0 13036
+D3
+Exit ~
+door~
+16387 0 13035
+S
+#13034
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D2
+Exit ~
+door~
+16387 0 13033
+S
+#13035
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D1
+Exit ~
+door~
+16387 0 13033
+S
+#13036
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D0
+Exit ~
+door~
+16387 0 13033
+S
+#13037
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13038
+D3
+Exit ~
+door~
+16384 0 13029
+S
+#13038
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13039
+D3
+Exit ~
+door~
+16384 0 13037
+S
+#13039
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13040
+D3
+Exit ~
+door~
+16384 0 13038
+S
+#13040
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13041
+D2
+Exit ~
+door~
+16387 0 13042
+D3
+Exit ~
+door~
+16384 0 13039
+S
+#13041
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13043
+D2
+Exit ~
+door~
+16384 0 13040
+S
+#13042
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D0
+Exit ~
+door~
+16387 0 13040
+S
+#13043
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16387 0 13044
+D2
+Exit ~
+door~
+16384 0 13041
+S
+#13044
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D1
+Exit ~
+door~
+16387 0 13045
+D2
+Exit ~
+door~
+16387 0 13043
+S
+#13045
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16387 0 13046
+D3
+Exit ~
+door~
+16387 0 13044
+S
+#13046
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D0
+Exit ~
+door~
+16387 0 13047
+D3
+Exit ~
+door~
+16387 0 13045
+S
+#13047
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13048
+D2
+Exit ~
+door~
+16387 0 13046
+S
+#13048
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16387 0 13049
+D2
+Exit ~
+door~
+16384 0 13047
+S
+#13049
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D2
+Exit ~
+door~
+16387 0 13048
+S
+#13050
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13051
+D2
+Exit ~
+door~
+16384 0 13024
+S
+#13051
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13052
+D2
+Exit ~
+door~
+16384 0 13050
+S
+#13052
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13055
+D2
+Exit ~
+door~
+16384 0 13051
+D3
+Exit ~
+door~
+16384 0 13053
+S
+#13053
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13052
+D3
+Exit ~
+door~
+16387 0 13054
+S
+#13054
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D1
+Exit ~
+door~
+16387 0 13053
+S
+#13055
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13056
+D3
+Exit ~
+door~
+16384 0 13052
+S
+#13056
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13057
+D3
+Exit ~
+door~
+16384 0 13055
+S
+#13057
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13058
+D2
+Exit ~
+door~
+16384 0 13056
+S
+#13058
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13059
+D2
+Exit ~
+door~
+16384 0 13057
+S
+#13059
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16387 0 13060
+D3
+Exit ~
+door~
+16384 0 13058
+S
+#13060
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D0
+Exit ~
+door~
+16387 0 13061
+D2
+Exit ~
+door~
+16387 0 13062
+D3
+Exit ~
+door~
+16387 0 13059
+S
+#13061
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D2
+Exit ~
+door~
+16387 0 13060
+S
+#13062
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16387 0 13060
+D2
+Exit ~
+door~
+16384 0 13063
+S
+#13063
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13062
+D2
+Exit ~
+door~
+16384 0 13064
+S
+#13064
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13063
+D2
+Exit ~
+door~
+16387 0 13065
+S
+#13065
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D0
+Exit ~
+door~
+16387 0 13064
+D3
+Exit ~
+door~
+16387 0 13066
+S
+#13066
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16387 0 13065
+D3
+Exit ~
+door~
+16384 0 13067
+S
+#13067
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13066
+D2
+Exit ~
+door~
+16384 0 13068
+S
+#13068
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13067
+S
+#13069
+A secret passageway!~
+You step into the secret passageway.  The hallway before you looks much
+like the others, and the smell of death and decay in the air is as strong
+as before.  But nothing could be worse than what you've already been
+through...can it?
+~
+0 AD 0
+D1
+Exit ~
+door~
+16387 0 13009
+D3
+Exit ~
+door~
+16384 0 13070
+S
+#13070
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13069
+D3
+Exit ~
+door~
+16384 0 13071
+S
+#13071
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13070
+D3
+Exit ~
+door~
+16384 0 13072
+S
+#13072
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13071
+D3
+Exit ~
+door~
+16384 0 13073
+S
+#13073
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13072
+D3
+Exit ~
+door~
+16384 0 13074
+S
+#13074
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13073
+D3
+Exit ~
+door~
+16384 0 13075
+S
+#13075
+A room within the catacombs~
+This small room is dimly lit by patches of phosphorescent fungus growing
+on the walls.  The floor is littered with old rags, bones, and stained
+with blood.  An involuntary chill creeps down your spine as you envision
+the fiend that must lair here.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 13074
+D2
+Exit ~
+door~
+16384 0 13076
+S
+#13076
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13075
+D2
+Exit ~
+door~
+16384 0 13077
+S
+#13077
+A grim hallway~
+You are walking through a grim hallway within the catacombs.  The stench
+of death pervades the air, and occasional shrieks jar your nerves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13076
+D2
+Exit ~
+door~
+16384 0 13078
+S
+#13078
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13077
+D1
+Exit ~
+door~
+16384 0 13095
+D3
+Exit ~
+door~
+16384 0 13079
+S
+#13079
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13078
+D3
+Exit ~
+door~
+16384 0 13080
+S
+#13080
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13079
+D2
+Exit ~
+door~
+16384 0 13081
+S
+#13081
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13080
+D2
+Exit ~
+door~
+16384 0 13082
+S
+#13082
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13081
+D2
+Exit ~
+door~
+16384 0 13083
+D3
+Exit ~
+secret~
+16387 0 13096
+S
+#13083
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13082
+D1
+Exit ~
+door~
+16384 0 13084
+S
+#13084
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13085
+D3
+Exit ~
+door~
+16384 0 13083
+S
+#13085
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13086
+D3
+Exit ~
+door~
+16384 0 13084
+S
+#13086
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D0
+Exit ~
+secret~
+16487 13000 13099
+D1
+Exit ~
+door~
+16384 0 13087
+D3
+Exit ~
+door~
+16384 0 13085
+S
+#13087
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13088
+D3
+Exit ~
+door~
+16384 0 13086
+S
+#13088
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13089
+D3
+Exit ~
+door~
+16384 0 13087
+S
+#13089
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13090
+D3
+Exit ~
+door~
+16384 0 13088
+S
+#13090
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13091
+D2
+Exit ~
+door~
+16384 0 13089
+S
+#13091
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13092
+D2
+Exit ~
+door~
+16384 0 13090
+S
+#13092
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D2
+Exit ~
+door~
+16384 0 13091
+D3
+Exit ~
+door~
+16384 0 13093
+S
+#13093
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13092
+D3
+Exit ~
+door~
+16384 0 13094
+S
+#13094
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13093
+D3
+Exit ~
+door~
+16384 0 13095
+S
+#13095
+Deep within the catacombs~
+You are now lost deep within the catacombs.  The smell of death has grown
+much stronger, and the wind carries an unnatural chill that sinks deep
+into your bones, chilling your soul.  The screams have all faded away, to
+be replaced by an eerie, cackling laugh, the voice tinged with pure,
+malicious evil.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13094
+D3
+Exit ~
+door~
+16384 0 13078
+S
+#13096
+A secret passageway!~
+You step into the secret passageway.  The hallway before you looks much
+like the others, and the smell of death and decay in the air is as strong
+as before.  But nothing could be worse than what you've already been
+through...can it?
+~
+0 AD 0
+D1
+Exit ~
+secret~
+16387 0 13082
+D3
+Exit ~
+door~
+16384 0 13097
+S
+#13097
+A grim hallway~
+Shrill, cackling laughter pierces the still air as you enter this room. A
+light fog rolls in across the damp stone floors from the room to the west.
+Something deep within you screams out in fear at the notion of continuing
+onward.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13096
+D3
+Exit ~
+door~
+16384 0 13098
+E
+fog~
+Before your very eyes, the fog twists itself into a face and taunts you
+with a silent laugh...
+~
+S
+#13098
+Marilith's lair~
+The first thing you notice upon stepping into this room is a revolting
+pool of blood and gore on the floor...the grisly remains of the last
+adventurer to foolishly stumble into this lair.  The entire room is
+filled with a hazy fog, and you hear something slithering around in the
+fog, cackling madly.
+~
+0 DN 0
+D1
+Exit ~
+door~
+16384 0 13097
+S
+#13099
+The lich's master bedroom~
+You step into the room beyond the door, and are amazed.  This room, unlike
+the other rooms within this unhallowed place, is lavishly furnished.  Many
+tapestries, well faded with age, hang from the walls, and a comfortable
+looking bed rests in one corner.  A writing desk sits against the eastern
+wall, covered with scrolls, ink vials, and open books.  To the north, a
+standing, full length mirror sits just in front of the wall.  The entire
+room speaks of forgotten eras, mystery, and power.
+~
+0 ADJ 0
+D2
+Exit ~
+secret~
+16487 13000 13086
+S
+#0
+
+#RESETS
+D 0 13004   1 16385	* A grim hallway east
+D 0 13007   2 16385	* A grim hallway south
+D 0 13009   3 16385	* A grim hallway west
+D 0 13012   2 16385	* A grim hallway south
+D 0 13013   0 16385	* A grim hallway north
+D 0 13016   3 16385	* A grim hallway west
+D 0 13018   3 16385	* A grim hallway west
+D 0 13022   2 16385	* A grim hallway south
+D 0 13026   2 16385	* A grim hallway south
+D 0 13028   1 16385	* A grim hallway east
+D 0 13028   2 16385	* A grim hallway south
+D 0 13029   3 16385	* A grim hallway west
+D 0 13033   0 16385	* A grim hallway north
+D 0 13033   2 16385	* A grim hallway south
+D 0 13033   3 16385	* A grim hallway west
+D 0 13043   0 16385	* A grim hallway north
+D 0 13047   2 16385	* A grim hallway south
+D 0 13048   0 16385	* A grim hallway north
+D 0 13053   3 16385	* A grim hallway west
+D 0 13059   1 16385	* A grim hallway east
+D 0 13062   0 16385	* A grim hallway north
+D 0 13064   2 16385	* A grim hallway south
+D 0 13066   1 16385	* A grim hallway east
+D 0 13082   3 16385	* Deep within the catacombs west
+D 0 13086   0 16386	* Deep within the catacombs north
+D 0 13096   1 16385	* A secret passageway! east
+M 0 13000   1 13005  1	* a hellcat
+D 0 13005   3 16385	* A grim hallway west
+M 0 13000   2 13010  1	* a hellcat
+D 0 13010   0 16385	* A grim hallway north
+M 0 13000   3 13015  1	* a hellcat
+D 0 13015   1 16385	* A grim hallway east
+M 0 13000   4 13019  1	* a hellcat
+D 0 13019   1 16385	* A grim hallway east
+M 0 13000   5 13025  1	* a hellcat
+D 0 13025   0 16385	* A grim hallway north
+M 0 13000   6 13031  1	* a hellcat
+D 0 13031   1 16385	* A grim hallway east
+M 0 13000   7 13037  1	* a hellcat
+M 0 13000   8 13040  1	* a hellcat
+D 0 13040   2 16385	* A grim hallway south
+M 0 13000   9 13045  1	* a hellcat
+D 0 13045   1 16385	* A grim hallway east
+D 0 13045   3 16385	* A grim hallway west
+M 0 13000  10 13050  1	* a hellcat
+M 0 13000  11 13055  1	* a hellcat
+M 0 13000  12 13061  1	* a hellcat
+D 0 13061   2 16385	* A grim hallway south
+M 0 13000  13 13068  1	* a hellcat
+M 0 13001   1 13006  1	* a nightstalker
+D 0 13006   0 16385	* A room within the catacombs north
+D 0 13006   1 16385	* A room within the catacombs east
+M 0 13001   2 13011  1	* a nightstalker
+D 0 13011   0 16385	* A room within the catacombs north
+D 0 13011   2 16385	* A room within the catacombs south
+M 0 13001   3 13014  1	* a nightstalker
+D 0 13014   1 16385	* A room within the catacombs east
+D 0 13014   2 16385	* A room within the catacombs south
+D 0 13014   3 16385	* A room within the catacombs west
+M 0 13001   4 13017  1	* a nightstalker
+D 0 13017   1 16385	* A room within the catacombs east
+M 0 13001   5 13020  1	* a nightstalker
+D 0 13020   3 16385	* A room within the catacombs west
+M 0 13001   6 13021  1	* a nightstalker
+D 0 13021   0 16385	* A room within the catacombs north
+D 0 13021   2 16385	* A room within the catacombs south
+D 0 13021   3 16385	* A room within the catacombs west
+M 0 13001   7 13027  1	* a nightstalker
+D 0 13027   0 16385	* A room within the catacombs north
+D 0 13027   1 16385	* A room within the catacombs east
+D 0 13027   3 16385	* A room within the catacombs west
+M 0 13001   8 13030  1	* a nightstalker
+D 0 13030   0 16385	* A room within the catacombs north
+D 0 13030   3 16385	* A room within the catacombs west
+M 0 13002   1 13034  1	* A wight
+D 0 13034   2 16385	* A room within the catacombs south
+M 0 13002   2 13035  1	* A wight
+D 0 13035   1 16385	* A room within the catacombs east
+M 0 13002   3 13036  1	* A wight
+D 0 13036   0 16385	* A room within the catacombs north
+M 0 13002   4 13042  1	* A wight
+D 0 13042   0 16385	* A room within the catacombs north
+M 0 13002   5 13044  1	* A wight
+D 0 13044   1 16385	* A room within the catacombs east
+D 0 13044   2 16385	* A room within the catacombs south
+M 0 13002   6 13046  1	* A wight
+D 0 13046   0 16385	* A room within the catacombs north
+D 0 13046   3 16385	* A room within the catacombs west
+M 0 13002   7 13049  1	* A wight
+D 0 13049   2 16385	* A room within the catacombs south
+M 0 13002   8 13054  1	* A wight
+D 0 13054   1 16385	* A room within the catacombs east
+M 0 13002   9 13060  1	* A wight
+D 0 13060   0 16385	* A room within the catacombs north
+D 0 13060   2 16385	* A room within the catacombs south
+D 0 13060   3 16385	* A room within the catacombs west
+M 0 13002  10 13065  1	* A wight
+D 0 13065   0 16385	* A room within the catacombs north
+D 0 13065   3 16385	* A room within the catacombs west
+M 0 13003   1 13070  1	* an umber hulk
+M 0 13003   2 13075  1	* an umber hulk
+M 0 13003   3 13080  1	* an umber hulk
+M 0 13003   4 13085  1	* an umber hulk
+M 0 13003   5 13090  1	* an umber hulk
+M 0 13003   6 13095  1	* an umber hulk
+M 0 13004   1 13098  1	* Marilith
+E 1 13001  -1   16	*   Life Drinker
+E 1 13000  -1   17	*   the fingerbone of an elf
+E 1 13005  -1   11	*   a darkwood shield
+M 0 13005   1 13099  1	* the lich
+E 1 13006  -1    1	*   the Ring of the Lich
+E 1 13004  -1    5	*   a demon's breastplate
+E 1 13002  -1   16	*   the Flail of the Damned
+D 0 13099   2 16386	* The lich's master bedroom south
+O 0 13003 100 13069	* a luckstone
+D 0 13069   1 16385	* A secret passageway! east
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 13000 spec_fido           	* a hellcat
+M 13001 spec_poison         	* a nightstalker
+M 13002 spec_cast_undead    	* A wight
+M 13004 spec_cast_cleric    	* Marilith
+M 13005 spec_cast_cleric    	* the lich
+S
+
+#$

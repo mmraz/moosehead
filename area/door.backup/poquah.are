@@ -1,0 +1,4172 @@
+#AREA
+/mud/moosehead/area/poquah.are~
+UnderSmurf~
+{ 1 10} Ryoga   UnderSmurf~
+8100 8162
+
+#MOBILES
+#8100
+Spunky Smurf~
+Spunky Smurf~
+Spunky Smurf shags your leg.
+~
+Smurfette's son seems odd, even for a smurf. He is short and blue,
+but has some non-smurfy features, as if his father was not one of the smurfs.
+~
+human~
+ACGHe 0 -400 0
+2 0 3d4+3 0d9+100 1d3+0 crush
+9 9 9 9
+CF Q L P
+stand stand male 1
+0 L tiny 0
+#8101
+berry picking smurf undersmurf~
+a berry-picking UnderSmurf~
+An UnderSmurf is here picking "special" berries.
+~
+A small smurf is quietly picking berries.  He seems to hardly notice you.
+~
+elf~
+ABCHSe DFV -700 0
+5 0 4d10+30 0d9+100 2d3+0 punch
+6 6 6 9
+FJN 0 0 S
+stand stand male 10
+0 0 tiny 0
+F aff J
+F res B
+F vul Z
+#8102
+undersmurf smurf guard~
+an UnderSmurf guard~
+An UnderSmurf guard watches you approach.
+~
+A purplish smurf stands here, wearing black pants and a black hat.
+He watches you approach the entrance to UnderSmurf, and tries to decide
+whether he likes you or not.
+~
+elf~
+ABe DFZ -1000 0
+3 0 2d10+20 0d9+100 1d4+0 punch
+7 7 7 7
+CDEFHKNTU AB 0 S
+stand stand male 5
+0 0 tiny 0
+F res B
+F vul Z
+#8103
+Junkie Smurf~
+Junkie Smurf~
+A disheveled smurf drools here.
+~
+You see before you an unkempt smurf who most likely has not bathed for
+years. Drool covers his chin, and he stinks of smurfberry juice.
+~
+elf~
+ACFSe Va -720 0
+4 0 3d6+32 0d9+100 2d3+0 suction
+7 7 7 15
+CD AB 0 CPS
+sleep sleep male 12
+0 0 tiny 0
+F aff J
+F res B
+F vul Z
+F par G
+#8104
+frisky bubble~
+a frisky bubble~
+A frisky bubble slams into you, moshing painfully against you.  That REALLY hurts!
+~
+A tiny bubble tries to bounce off of you in an effort to play,
+but they bounce hard for something so small.
+~
+school monster~
+ABFTe TUV -150 0
+1 -1 2d6+3 0d9+100 1d3+0 charge
+10 10 10 10
+CFU 0 0 FK
+stand stand none 0
+CHS 0 tiny 0
+F act U
+F vul C
+F for AMV
+F par ABCEFHJKQU
+#8105
+greedy smurf~
+Greedy Smurf~
+Greedy Smurf prepares to defend his machine.
+~
+Greedy Smurf stands here, food in one hand, and a clenched fist in the other.
+He sees that you covet his precious contraption, and he leaps toward you
+because you looked at it too long.
+~
+elf~
+ABFSe DF -500 0
+3 0 2d7+21 1d9+100 1d5+0 digestion
+8 8 8 10
+BEFJNU 0 0 S
+stand stand male 10
+0 0 tiny 0
+F res B
+F vul Z
+#8106
+Farmer Smurf~
+Farmer Smurf~
+Farmer Smurf is here, buying and selling food.
+~
+Farmer Smurf sits in his UnderSmurf home buying and selling
+various things, both edible and inedible.
+~
+elf~
+ABGVe D 0 0
+10 1 5d10+50 0d0+0 0d0+0 slice
+0 0 0 0
+0 0 0 0
+stand stand male 1000
+0 0 tiny 0
+F res B
+F vul Z
+F par GHIJK
+#8107
+big undersmurf smurf guard~
+a big UnderSmurf guard~
+A really big (for a smurf) guard patrols here.
+~
+Dressed like the other guards, this one stands almost as tall as an elf.
+He appears to want to rip your head off, if he could just reach it.
+"Where do you think YOU'RE smurfing?"
+~
+human~
+ABFGTe DFJV -1000 0
+6 0 2d7+21 1d9+100 1d5+0 beating
+8 8 8 10
+CDEFHJKNTU 0 0 S
+stand stand male 20
+0 0 small 0
+#8108
+Jeweler Smurf~
+Jeweller Smurf~
+Jeweller Smurf is here ready to buy and sell your trinkets.
+~
+He's short, but he packs a lot of silver. He seems to have a few rules,
+however. He doesn't deal with anyone who got kicked out of SLED school,
+and he doesn't allow pets in his store, either.
+~
+human~
+ABe DFJ -300 0
+20 1 1d1+100 0d5+100 0d0+0 slice
+0 0 0 0
+0 0 0 0
+stand stand male 1000000
+0 0 medium 0
+F par GHIJK
+#8109
+Healer Smurf~
+Healer Smurf~
+Healer Smurf is here, selling spells.
+~
+Healer Smurf isn't a really good healer, but he'll sell his spells
+just the same. Type 'heal' to see a listing of spells.
+~
+human~
+ABQVae DFHJ 0 0
+10 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#8110
+Warrior Smurf~
+Warrior Smurf~
+Warrior Smurf stands in front of a wall lined with armor and weapons.
+~
+He's a grizzled old smurf, who wishes to share his joy of hacking
+and slashing his way through life to the ignorant masses.
+~
+human~
+ABTe DFJ -500 0
+10 1 1d10+100 0d0+0 0d0+0 slice
+0 0 0 0
+0 0 0 0
+stand stand male 1000000
+0 0 medium 0
+F par GHIJK
+#8111
+Tailor Smurf~
+Tailor Smurf~
+Tailor Smurf stands behind the counter sewing up a pair of white pants.
+~
+He spends all day making clothing for the smurfs.
+It's a thankless job, except when he makes new dresses for Smurfette.
+~
+human~
+ABTe DFJ -500 0
+10 1 1d10+100 0d0+0 0d0+0 slice
+0 0 0 0
+0 0 0 0
+stand stand male 50000
+0 0 medium 0
+F par GHIJK
+#8112
+Swindler Smurf~
+Swindler Smurf~
+A shady smurf rummages amongst the junk strewn about the alcove.
+~
+Swindler Smurf will give a few silver for most items that others
+wouldn't even think about touching.
+~
+human~
+ABCTe DFJ -500 0
+10 1 1d10+100 0d0+0 0d0+0 slice
+0 0 0 0
+0 0 0 0
+stand stand male 1000
+0 0 medium 0
+F par GHIJK
+#8113
+UnderSmurf smurf dark~
+an UnderSmurf~
+A dark smurf shuffles along here.
+~
+These are semi-sentient creatures that even the smurfs don't
+want people to know about.
+~
+school monster~
+ABCGHSe 0 -300 0
+1 0 2d10+2 1d1+99 1d1+0 claw
+10 10 10 10
+0 0 0 S
+stand stand none 10
+H IT tiny 0
+F act U
+F imm AB
+F vul C
+F par QU
+#8114
+Brewer Smurf~
+Brewer Smurf~
+A smurf sits behind the counter, selling his brews.
+~
+Brewer Smurf buys, sells, and makes all sorts of drinks.
+He even has a few non-alcoholic drinks for the young smurfs.
+~
+human~
+ABTe DFJ -500 0
+10 1 1d10+100 0d0+0 0d0+0 slice
+0 0 0 0
+0 0 0 0
+stand stand male 200000
+0 0 medium 0
+F par GHIJK
+#8115
+not handy smurf~
+Not-So-Handy Smurf~
+Handy Smurf's son is here, buying and selling household items.
+~
+Handy Smurf has his son run the store, not because he has
+confidence in him, but because he prefers to keep him out of sight.
+~
+elf~
+ABGVe D 0 0
+10 1 5d10+50 0d0+0 0d0+0 slice
+0 0 0 0
+0 0 0 0
+stand stand male 100000
+0 0 tiny 0
+F res B
+F vul Z
+F par GHIJK
+#8116
+smurf janitor~
+the smurf janitor~
+A smurfy janitor is walking around, cleaning up.
+~
+~
+elf~
+ABGHe 0 -900 0
+1 0 2d6+10 1d1+99 1d5+0 pound
+10 10 10 10
+N 0 0 CS
+stand stand either 0
+0 0 tiny 0
+F aff J
+F res B
+F vul Z
+#8117
+attack gerbil pet~
+the attack gerbil~
+A small gerbil is here.
+~
+Careful, this gerbil is trained to attack.
+~
+rabbit~
+ABIU F -400 0
+2 2 2d8+20 1d1+99 1d4+0 bite
+7 7 7 9
+I 0 C 0
+stand stand either 0
+0 0 tiny 0
+#8118
+submissive pet smurf~
+the submissive smurf~
+A submissive smurf is here, ready to take orders.
+~
+This small blue smurf is here to do whatever you wish.
+~
+elf~
+ABIU DF -400 0
+4 2 3d10+30 1d1+99 1d6+0 bite
+7 7 7 10
+FHN 0 C 0
+stand stand either 0
+G 0 small 0
+F res B
+F vul Z
+F for HM
+F par BGI
+#8119
+kinky pet smurf~
+the kinky smurf~
+A kinky smurf is here, sucking on your toes.
+~
+A kinky smurf is here, ready to teach you things that you were
+never taught in SLED School.
+~
+elf~
+ABIU DF -400 0
+6 2 4d10+40 0d0+100 2d4+0 suction
+4 4 4 8
+EFN Q C 0
+stand stand none 0
+0 L tiny 0
+F res B
+F vul Z
+#8120
+dark smurf undersmurf drunk~
+a drunk UnderSmurf~
+A dark smurf is here, drinking and eating.
+~
+These are semi-sentient creatures that even the smurfs don't
+want people to know about. This one is drinking fermented smurfberry
+juice to wash down the pretzels and smurf nuts.
+~
+school monster~
+ABCGe 0 -500 0
+3 -3 2d10+30 1d1+99 1d6+0 charge
+7 9 7 5
+CD L 0 S
+stand stand none 30
+H IT tiny 0
+F act U
+F imm AB
+F vul C
+F par QU
+#8121
+generic quest mob~
+a Generic Quest Mob(tm)~
+A Generic Quest Mob(tm) is here.
+~
+Generic description.
+~
+school monster~
+Ae ADFJKWY 0 0
+60 -16 1d1+0 1d1+99 1d1+0 thwack
+32 32 32 32
+BCEFHKN 0 0 0
+stand stand none 0
+H 0 medium 0
+F imm AB
+F vul C
+F par HJKQU
+#8122
+street smurf~
+a street smurf~
+A smurf hardened by life on the streets watches you closely.
+~
+The smurfs from the Smurf Light District aren't like those wimpy
+smurfs above ground. These smurfs can fight back.
+~
+elf~
+ABCSe DF -800 0
+9 0 2d6+110 4d9+100 1d8+2 punch
+2 2 2 2
+EFJN 0 0 S
+stand stand male 150
+0 0 small 0
+F res B
+F vul Z
+#8123
+smurf slave~
+a smurf slave~
+An enslaved smurf is penned up here, but it seems to like it.
+~
+Here is a smurf that would make a good pet. No, wait, that would
+be unethical, wouldn't it?
+~
+elf~
+ABHe 0 -450 0
+6 1 2d7+60 1d10+100 1d7+1 slap
+4 4 4 4
+EFN Q 0 BS
+sleep sleep none 0
+0 0 tiny 0
+F aff J
+F res B
+F vul Z
+#8124
+Baby Smurf~
+Baby Smurf~
+Baby Smurf is sitting on the counter smoking smurfweed, and cursing the customers.
+~
+Baby Smurf tends to relax and drop his act when he goes below ground.
+Up there he's all cute and cuddly, but down here, he's more likely
+to maledict you than smile at you.
+~
+elf~
+ABRe DEFHV -1000 0
+60 60 10d10+5000 1d1+9999 10d10+50 acbite
+-40 -40 -40 -40
+AFHK ABC 0 0
+stand stand male 100000
+0 0 tiny 0
+F res B
+F vul Z
+#8125
+Breedy Smurf~
+Breedy Smurf~
+Breedy Smurf is here, trying to sell you a smurf...or at least a gerbil.
+~
+He is young and close-cropped and looks quite happy.
+~
+elf~
+ABVe 0 -900 0
+23 0 1d1+999 1d1+99 1d8+20 punch
+-15 -15 -15 -15
+0 ABCD 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F res B
+F vul Z
+#8126
+dark smurf undersmurf drunk~
+a drunk UnderSmurf~
+A dark smurf is here, drinking and throwing daggers.
+~
+These are semi-sentient creatures that even the smurfs don't
+want people to know about. This one is stumbling around half-blind
+from alcohol and trying to throw daggers into a target dummy.
+~
+school monster~
+ABCGe 0 -500 0
+4 -3 2d10+30 1d1+99 1d6+0 charge
+7 9 7 5
+CD L 0 S
+stand stand none 0
+H IT tiny 0
+F act U
+F imm AB
+F vul C
+F par QU
+#8127
+Rashful Smurf~
+Rashful Smurf~
+A rash-covered smurf is here.
+~
+Eeew, he's all covered with icky rashes. Yes, you can discern at
+least five different types of rashes.
+~
+elf~
+AGe DFX -700 0
+13 0 2d10+150 6d9+100 1d10+3 slime
+0 0 0 7
+EFJN 0 0 QS
+stand stand male 0
+0 W tiny 0
+F res B
+F vul Z
+#8128
+Sleazy Smurf~
+Sleazy Smurf~
+You almost miss seeing this sleazy smurf skulking about the room.
+~
+The little bugger steals stuff and is generally obnoxious.
+~
+elf~
+ACGe DFPQ -480 0
+5 0 2d6+60 2d9+100 1d6+1 thrust
+5 5 5 9
+EFNU Q 0 S
+stand stand male 0
+0 0 tiny 0
+F res B
+F vul Z
+#8129
+Proctologist Smurf~
+Proc~
+A smurf with a doctor's coat asks you to turn around for a moment.
+~
+His full name is Proctologist Smurf, but his friends call him "Proc".
+~
+elf~
+AGe DFX -600 0
+13 0 2d10+150 6d9+100 1d10+3 suction
+0 0 0 7
+EFJN Q 0 S
+stand stand male 0
+0 W tiny 0
+F res B
+F vul Z
+#8130
+Bleepy Smurf~
+Bleepy Smurf~
+A smurf looks at you and says "What the *bleeping* *bleep* are you doing here?"
+~
+Wow, this smurf's language is even bad for a smurf.
+~
+elf~
+AGQe DF -700 0
+13 0 2d10+150 6d9+100 1d10+3 sting
+0 0 0 7
+EFJN 0 0 S
+stand stand male 0
+0 0 tiny 0
+F res B
+F vul Z
+#8131
+Gropey Smurf~
+Gropey Smurf~
+A smurf attempts to grope and fondle you.
+~
+Gropey Smurf just can't keep his hands to himself. You think you
+may need to cut them off to solve his problem.
+~
+elf~
+AGSe DF -700 0
+13 0 2d10+150 6d9+100 1d10+3 thwack
+0 0 0 7
+EFJN 0 0 S
+stand stand male 0
+0 0 tiny 0
+F res B
+F vul Z
+#8132
+Ouchie Smurf~
+Ouchie Smurf~
+Ouchie Smurf is here to cause you pain.
+~
+Ouchie Smurf is the biggest, baddest smurf in town.
+Get prepared to run, because he is even armed with his handy
+glow-in-the-dark spear. Hey, is that thing humming?
+~
+elf~
+ABCe DF -1000 0
+20 0 3d9+333 10d9+100 2d8+5 thrust
+-4 -4 -4 7
+FN AB 0 S
+stand stand male 0
+0 0 tiny 0
+F res B
+F vul Z
+#8133
+Slappy Smurf~
+Slappy Smurf~
+A smurf slaps you stingingly!
+~
+She just seems to like slapping people. Then again, she also seems
+to enjoy being slapped herself. Just goes to prove that all smurfs
+are depraved deep down.
+~
+elf~
+AGe DF -700 0
+13 0 2d10+150 6d9+100 1d10+3 slap
+0 0 0 7
+DEFN 0 0 S
+stand stand female 0
+0 0 tiny 0
+F res B
+F vul Z
+#8134
+miniature pig~
+a miniature pig~
+A miniature pig sniffs out berries.
+~
+The pig appears quite happy to be a pig.  He is oblivious to your presence
+and cares only for the care-free life that he leads.  It is enormously fat
+and consequently cannot move around very quickly.
+~
+pig~
+AGe 0 -200 0
+3 0 2d6+35 1d9+100 1d6+0 scratch
+7 7 7 10
+EFNR A 0 S
+rest rest none 0
+0 0 tiny 0
+#8135
+Questie Smurf~
+Questie Smurf~
+Questie Smurf is here to sell you things for quests. Morts? Bugger off!
+~
+Psst!  Wanna buy some Quest items?
+~
+human~
+ABe DFJ -300 0
+52 1 1d1+100 0d5+100 0d0+0 slice
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#8100
+shrine~
+Smurfette's shrine~
+~
+wood~
+container RT P
+500 ACD 107 100 100
+0 1000 0 P
+E
+shrine~
+A small wooden shrine sits here, with several candles lit around
+a small stained picture locked in a small cabinet.
+~
+#8101
+stained picture~
+a stained picture~
+A small picture lies here, but various stains on it obscure the image of a male humanoid. Careful, it may stick to your finger.~
+paper~
+key HMT AB
+0 0 0 0 0
+1 1 5 W
+A
+13 5
+A
+12 -10
+#8102
+Greedy still~
+Greedy Smurf's still~
+A small still belonging to Greedy Smurf sits here, bubbling.~
+metal~
+fountain B AO
+0 0 'local specialty' 0 0
+1 5000 1000 P
+A
+20 10
+A
+17 20
+A
+14 -50
+A
+18 -5
+F
+A 0 0 G
+#8103
+smurf pole~
+a smurf pole~
+A not-so-smurfy polearm with an iron blade sits here.~
+iron~
+weapon 0 AN
+polearm 1 7 slice F
+0 10 300 P
+#8104
+dark UnderSmurf berry~
+a dark UnderSmurf berry~
+A dark not-so-smurfy berry taunts you here.~
+food~
+pill PU AO
+16 'refresh' 'shield' 'sleep' ''
+22 1 10 P
+A
+0 0
+F
+A 0 0 C
+#8105
+smurfy cloak~
+a smurfy cloak~
+A cloak that Junkie Smurf uses as a blanket is balled up here.~
+cloth~
+armor N AC
+2 2 2 0 1
+0 10 100 D
+A
+20 2
+#8106
+greedy smurfberry cake~
+a smurfberry cake~
+Greedy Smurf's smurfberry cake sits here, looking scrumptious.~
+food~
+food HTZ AO
+-10 -10 0 0 0
+1 30 10 P
+A
+1 -3
+A
+4 -1
+A
+5 2
+#8107
+mist air~
+the mist in the air~
+~
+water~
+fountain RT P
+0 0 'local specialty' 0 0
+0 10 0 P
+#8108
+smurfy knife~
+a smurfy knife~
+A smurfy knife sits here in a not-so-smurfy way.~
+metal~
+weapon 0 AN
+dagger 2 3 stab 0
+3 10 200 P
+#8109
+fist full smurf~
+a fist full of smurf~
+A fist full of smurf-beating rocks in a bag awaits you here.~
+stone~
+weapon J AN
+mace 2 4 beating 0
+4 30 980 G
+A
+14 5
+A
+13 5
+#8110
+copper necklace~
+a copper necklace~
+A copper necklace resembling a string of smurfberries is here.~
+copper~
+jewelry 0 AC
+0 0 0 0 0
+2 10 120 P
+A
+2 1
+A
+1 -1
+#8111
+pearl ring~
+a pearl ring~
+A small copper ring set with a smurfy pearl lusters here.~
+copper~
+jewelry 0 AB
+0 0 0 0 0
+3 3 100 P
+A
+4 -1
+A
+5 1
+#8112
+cloth bracelet~
+a cloth bracelet~
+A smurfy-looking cloth bracelet yearns for your wrist.~
+cloth~
+clothing 0 AM
+0 0 0 0 0
+4 10 200 P
+A
+18 1
+#8113
+dark UnderSmurf berry~
+a dark UnderSmurf berry~
+A dark so-not-smurfy berry taunts you here.~
+food~
+pill PU AO
+22 'curse' 'poison' 'sleep' ''
+22 1 10 P
+#8114
+smurfy white pants~
+a pair of smurfy white pants~
+Tailor Smurf smurfed up a smurfy pair of white pants. Hope they aren't too snug.~
+cloth~
+armor A AF
+3 3 3 3 1
+2 10 300 P
+A
+18 1
+#8115
+smurfberry pretzel~
+a smurfberry pretzel~
+A soft, doughy pretzel with a smurfy aroma steams here.~
+food~
+food 0 AB
+20 20 0 0 0
+0 5 100 P
+A
+13 1
+#8116
+pile smurfboard board~
+a pile of smurfboard~
+A pile of corrugated smurfboard is all the rage to sleep on in UnderSmurf.~
+cardboard~
+furniture RS AJP
+1 0 EHK 105 105
+4 100 500 P
+A
+17 -2
+#8117
+blue lantern~
+a blue lantern~
+A small blue lantern glows here.~
+glass~
+light AB AO
+0 0 -1 0 0
+4 10 500 P
+A
+14 10
+F
+A 0 0 E
+#8118
+small footlocker locker~
+a small footlocker~
+A small footlocker rests at your feet.~
+iron~
+container Y AG
+100 A 8119 4 25
+3 100 250 P
+A
+17 -2
+A
+14 -25
+#8119
+footlocker key locker~
+a footlocker key~
+A small key to a small footlocker is here.~
+iron~
+key F AO
+0 0 0 0 0
+3 3 1000 P
+A
+18 1
+#8120
+port spigot~
+a Port-a-Spigot(tm)~
+One of Swindler Smurf's patented Port-a-Spigots(tm) drips here.~
+lead~
+wand G AO
+18 1 1 'create water' 0
+1 30 600 P
+A
+17 -1
+#8121
+smurfberry juice bottle~
+a bottle of smurfberry juice~
+You see a small bottle of "special" smurfberry juice.~
+glass~
+potion BG AO
+1 'haste' 'blindness' '' ''
+0 10 400 P
+A
+14 10
+#8122
+smurfberry muffin~
+a smurfberry muffin~
+A freshly-baked, lighter-than-air smurfberry muffin seems to float here.~
+food~
+food T AQ
+4 8 0 0 0
+0 1 20 P
+A
+14 1
+#8123
+dark chandelier~
+a dark chandelier~
+A chandelier with eerie dark candles shadows the room.~
+brass~
+furniture A Q
+0 0 0 0 0
+0 500 1000 P
+F
+A 0 0 G
+#8124
+smurf blue body oil~
+some smurf body oil~
+You see some smurfy blue body oil here, with a tiny label.~
+smurf~
+trash MPU AK
+0 0 0 0 0
+2 20 640 P
+A
+1 -3
+A
+4 1
+E
+label~
+Bottled by Gargamel Enterprises.
+~
+#8125
+blue wristband~
+a blue wristband~
+A smurfy blue wristband is here.~
+cloth~
+clothing CG AM
+0 0 0 0 0
+8 20 1000 P
+A
+5 1
+#8126
+smurfy white dress~
+a smurfy white dress~
+A smurfy white dress, tailored perfectly for Smurfette's figure, is here.~
+cloth~
+clothing 0 AK
+0 0 0 0 0
+4 30 500 P
+A
+17 -2
+A
+2 3
+#8127
+white leather jacket~
+a white leather jacket~
+A tiny white leather jacket, the same kind used by Gangsta Smurf, is here.~
+leather~
+armor L AD
+3 3 3 0 1
+2 100 320 P
+A
+13 5
+#8128
+rude language~
+rude language~
+"Smurfing smurf smurfed smurf smurfity smurf smurfer!" -- What rude language!!~
+mental~
+weapon J AN
+flail 2 2 sting D
+3 10 0 P
+F
+A 0 0 K
+#8129
+surprise~
+a SURPRISE!!~
+Shh... It's a surprise!~
+paper~
+staff BCGH AO
+10 1 1 'psionic blast' 0
+1 30 200 P
+#8130
+white leather sleeves~
+a pair of white leather sleeves~
+A pair of white leather sleeves is lying on the ground.~
+leather~
+armor 0 AI
+3 3 3 0 1
+3 30 350 P
+A
+2 1
+#8131
+white leather belt~
+a white leather belt~
+A white leather belt is waisting away.~
+leather~
+armor 0 AL
+3 3 3 0 1
+3 30 350 P
+A
+13 1
+#8132
+smurf nuts~
+a handful of smurf nuts~
+A handful of smurf nuts to go along with your smurfberry juice is here.~
+food~
+food 0 A
+1 1 0 0 0
+0 1 6 P
+#8133
+blue leather couch~
+a blue leather couch~
+A smurfy blue leather couch is on display here.~
+leather~
+furniture OR P
+3 0 BEHK 200 200
+0 2500 12000 P
+#8134
+batch tough cookies ryoga gift~
+a batch of tough cookies~
+A batch of really tough cookies gets even tougher here.~
+food~
+pill TY A
+30 'withstand death' 'stone skin' 'protection neutral' ''
+2 20 1000 P
+E
+cookies~
+These were lovingly baked by Akane Tendo.
+Complain about the toughness at your peril.
+~
+E
+tough~
+These were lovingly baked by Akane Tendo.
+Complain about the toughness at your peril.
+~
+#8135
+smurfwise aura sense culture~
+a smurfwise aura~
+A sense of the smurf underground culture can be found here.~
+mental~
+key AJ AQ
+0 0 0 0 0
+3 2 300 P
+A
+17 -3
+#8136
+enchanted wet noodle~
+an enchanted wet noodle~
+An enchanted wet noodle is laying here with smurfberry pesto on it.~
+pasta~
+weapon ABJ AN
+whip 1 4 whip 0
+9 10 3350 P
+A
+18 4
+A
+19 4
+A
+3 1
+E
+noodle~
+It looks like a noodle freshly made at the Olive Garden.
+~
+#8137
+glow dark spear~
+a glow-in-the-dark spear~
+A long spear-like object is glowing in the dark.~
+light~
+weapon ABGI AN
+staff 1 5 thrust 0
+0 20 480 P
+#8138
+baby pacifier thumb~
+a baby pacifier~
+An artificial thumb to pacify babies is here.~
+rubber~
+staff G AO
+20 5 5 'refresh' 0
+3 4 420 P
+A
+14 5
+#8139
+baby bib~
+a baby bib~
+A small baby's bib with a eating instructions wants your neck.~
+cloth~
+scroll G AC
+4 'create food' 'create food' 'detect poison' ''
+4 10 360 P
+A
+13 3
+#8140
+baby rattle~
+a baby rattle~
+An eerie rattle lies here.~
+bone~
+wand G AO
+7 1 1 'curse' 0
+7 10 1200 P
+A
+2 1
+#8141
+inflatable armband~
+an inflatable armband~
+An inflatable armband is flattened on the ground.~
+rubber~
+boat J AI
+0 0 0 0 0
+8 40 1500 P
+A
+17 -3
+#8142
+reddish blue goo~
+a reddish-blue goo~
+A gooey reddish-blue substance mucks about here.~
+meat~
+potion GJ AH
+6 'giant strength' 'frenzy' 'shield' ''
+4 50 4000 P
+A
+19 1
+#8143
+tarnished dagger~
+a tarnished dagger~
+A tarnished dagger with alcohol stains and various scratches lies here.~
+iron~
+weapon J AN
+dagger 1 3 pierce H
+4 20 360 D
+A
+18 -1
+A
+4 -1
+#8144
+quest bag~
+a Quest bag~
+A bag for use in quests is here.~
+magic~
+container GRTY AQ
+500 ACD 20720 20 25
+9 10 10000 P
+#8145
+Briareu~
+a stone statue of Briareu~
+A statue of Briareu standing proudly.~
+~
+furniture OR 0
+0 0 0 0 0
+0 1 1 R
+E
+statue~
+Briareu, a Human warrior, is shown in his prime, as he brandishes his
+sword for Balance.
+~
+E
+Briareu~
+Briareu, a Human warrior, is shown in his prime, as he brandishes his
+sword for Balance.
+~
+#8146
+quest pill~
+a Quest Pill~
+A mystery Quest Pill is here.~
+magic~
+pill RTYd APQ
+100 'cure light' 'cure light' 'cure light' ''
+0 10 1000 P
+#0
+
+#ROOMS
+#8100
+Smurfette's basement~
+You are in a dark, secluded room underneath Smurfette's house.
+A small wooden shrine with candles and incense burning sits by the west wall.
+Half-empty barrels of smurfberry juice are stacked against the north wall,
+while the other two walls are packed dirt.
+~
+0 ADT 0
+H 120 M 80
+D0
+Exit ~
+shaft~
+3 8101 8101
+D4
+Exit ~
+door~
+1 0 129
+E
+north~
+Several half-empty barrels of smurfberry juice lie scattered by the
+north wall, but as you look behind them, you notice a small door that
+may lead to a hidden shaft.
+~
+E
+east~
+The east wall is made of packed dirt. On second glance, though, you
+can make out faint impressions of what packed the dirt. Small smurf-shaped
+indentations mark the wall in various places.
+~
+E
+west~
+A small shrine sits against the west wall.
+~
+E
+south~
+The south wall is made of packed earth. You notice a small indentation
+where you are sure that Spunky has been packing four to five times an hour.
+~
+E
+down~
+The floor is a mess. Clothing is strewn about everywhere, and various
+indeterminable stains spot the earthen floor.
+~
+E
+up~
+The trapdoor to Smurfette's house is above you.
+~
+S
+#8101
+The entrance to UnderSmurf~
+You are in a squalid tunnel, which reeks of smurfberry juice.
+To the south is a small door concealing a hidden shaft leading to
+Smurfette's basement.
+~
+0 D 0
+H 40 M 40
+D0
+Exit ~
+door~
+0 0 8102
+D2
+Exit ~
+shaft~
+3 8101 8100
+E
+west~
+The walls are made of packed earth.
+~
+E
+east~
+The walls are made of packed earth.
+~
+E
+south~
+You see a small door to the hidden shaft that leads to Smurfette's basement.
+~
+E
+down~
+The floor is made of packed earth, and it seems to be sloping downwards.
+~
+E
+up~
+Only a smurf could be comfortable with these low ceilings.
+~
+E
+north~
+You see a not-so-smurfy intersection.
+~
+S
+#8102
+A not-so-smurfy intersection~
+A tunnel leads off into the darkness at each of the four directions.
+An aroma similar to smurfberries, but not quite right, seems to pervade the
+area.
+~
+0 D 0
+H 50 M 50
+D0
+Exit ~
+door~
+0 0 8108
+D1
+Exit ~
+door~
+0 0 8104
+D2
+Exit ~
+door~
+0 0 8101
+D3
+Exit ~
+door~
+0 0 8103
+E
+east~
+You smell a smurfy aroma from the east.
+~
+E
+west~
+You think you see what appears to be dozens of dark smurfs picking berries
+in a huge underground field.
+~
+E
+north~
+You see a so-not-so-smurfy tunnel.
+~
+E
+south~
+You look back towards the entrance to UnderSmurf.
+~
+E
+up~
+Damn these low ceilings!
+~
+E
+down~
+Other than a few scattered and splattered berries, 
+there isn't much of interest on the ground.
+~
+S
+#8103
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D1
+Exit ~
+door~
+0 0 8102
+D2
+Exit ~
+door~
+0 0 8128
+D3
+Exit ~
+door~
+0 0 8130
+E
+west~
+The fields continue to the west.
+~
+E
+south~
+The fields continue to the south.
+~
+E
+east~
+You see a not-so-smurfy intersection.
+~
+E
+north~
+This wall seems to be made of stone.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8104
+A smurfy aroma...~
+This tunnel is oddly shaped, but then you realize that something large
+and heavy must have been pushed through here, scraping the walls.
+~
+0 D 0
+H 80 M 80
+D1
+Exit ~
+door~
+0 0 8105
+D3
+Exit ~
+door~
+0 0 8102
+E
+west~
+You see a not-so-smurfy intersection.
+~
+E
+east~
+You see lots of bubbles floating in from the east.
+~
+E
+up~
+You see scrapes along the ceiling, as if a large metal contraption
+was pushed through here.
+~
+E
+down~
+You see scrapes along the floor, as if a large metal contraption
+was pushed through here.
+~
+E
+north~
+You see scrapes along the walls, as if a large metal contraption
+was pushed through here.
+~
+E
+south~
+You see scrapes along the walls, as if a large metal contraption
+was pushed through here.
+~
+S
+#8105
+Bubbles?~
+Thousands of bubbles float in from the south and continue heading west
+down the tunnel. Several of the bubbles, however, seem a little frisky. The
+aroma of fermented smurfberries is getting stronger.
+~
+0 D 0
+H 125 M 125
+D2
+Exit ~
+door~
+0 0 8106
+D3
+Exit ~
+door~
+0 0 8104
+E
+north~
+The walls are covered with a shiny film.
+~
+E
+east~
+The walls are covered with a shiny film.
+~
+E
+up~
+The ceiling is covered with a shiny film.
+~
+E
+down~
+The floor is covered with a shiny film.
+~
+E
+south~
+You hear the sounds of something mechanical to the south.
+~
+E
+west~
+You watch as bubbles float westward down the tunnel.
+~
+S
+#8106
+Greedy's still~
+You enter a larger underground room, with a large humming machine
+sitting prominently in the center of the room. You watch as liquids
+bubble, steam, and circulate throughout the contraption. Greedy eyes you as
+you obviously covet his machine, and he prepares to defend it with his life.
+~
+0 D 0
+H 150 M 150
+D0
+Exit ~
+door~
+0 0 8105
+D5
+Exit ~
+trap door~
+3 8104 8107
+E
+north~
+You watch as the bubbles from the contraption float down the corridor
+to the north.
+~
+E
+west~
+The wall is covered with the steam from the still's smurfberry emissions.
+~
+E
+east~
+The wall is covered with the steam from the still's smurfberry emissions.
+~
+E
+south~
+The wall is covered with the steam from the still's smurfberry emissions.
+~
+E
+up~
+The ceiling is covered with the steam from the still's smurfberry emissions.
+Small droplets form and fall from the ceiling almost like a light rain.
+~
+E
+down~
+Underneath the still, you notice that the floor is sagging slightly.
+Examining the floor closer, you spot a trap door.
+~
+S
+#8107
+Junkie Smurf's hideout~
+Underneath Greedy's still, you find a small hidden room, littered
+with hundreds of empty bottles of the "local specialty" of smurfberry juice.
+The room is constantly being infused with fumes from the still above, and
+you almost feel as if you could get drunk off of the air itself.
+~
+0 ADJT 0
+H 200 M 200
+D4
+Exit ~
+trap door~
+3 8104 8106
+E
+up~
+You see the trap door above, and listen to the deep hum of the still
+as it lulls you to sleep.
+~
+E
+south~
+It looks like he left this wall alone. I wonder why?
+~
+E
+stain~
+God, I hope so.
+~
+E
+north~
+Hey, is that a vomit stain?
+~
+E
+down~
+You almost trip over all of the empties that litter the floor in this room.
+But the smurfberry mist seems to make it all worthwhile...
+~
+E
+east~
+You see a puddle of drool.
+~
+E
+west~
+You see Junkie Smurf's makeshift lavoratory. A few bottles of his own
+"local specialty" sit against the west wall.
+~
+S
+#8108
+A so-not-so-smurfy tunnel~
+These tunnels are definitely cramped. As you proceed, however, you
+notice that the walls are actually more than packed earth. Occasional
+support beams can be seen, but the place still looks like smurf.
+~
+0 D 0
+H 40 M 40
+D2
+Exit ~
+door~
+0 0 8102
+D3
+Exit ~
+door~
+0 0 8109
+E
+down~
+You have become one with the floor, or you were already short.
+~
+E
+up~
+Aaaaiiieeee! The ceiling is caving in!!! No, wait, smurfs are just short.
+~
+E
+west~
+You peer into the darkness to the west, and you think you caught
+a glimpse of movement, but then it was gone.
+~
+E
+north~
+You note that they use some extra supports in this area.
+Perhaps there is some important stuff further down the tunnel?
+~
+E
+east~
+You note that they use some extra supports in this area.
+Perhaps there is some important stuff further down the tunnel?
+~
+E
+south~
+You see a not-so-smurfy intersection with a small guard post.
+~
+S
+#8109
+Access smurfed!~
+This looks like another guard post, but a huge shadow from the west
+seems to darken the room a bit.
+~
+0 AD 0
+H 40 M 40
+D1
+Exit ~
+door~
+0 0 8108
+D3
+Exit ~
+door~
+0 0 8110
+E
+down~
+Looks like the floor slopes slightly downward as well.
+~
+E
+up~
+Hey, you think the ceiling is getting a little bit higher here.
+~
+E
+west~
+You would look that way, but it's a little too dark there.
+Or maybe it's just one huge shadow.
+~
+E
+south~
+You see a big sign saying "Smurfs only! Go away!"
+~
+E
+east~
+You see a so-not-so-smurfy tunnel.
+~
+E
+north~
+Several old tic-tac-toe games are scratched into the north wall.
+You guess they get bored occasionally.
+~
+S
+#8110
+Where do you think YOU'RE smurfing?~
+You were right, it was a huge shadow. You are starting to get the
+feeling that you may not be totally welcome here. Well, you'll show those
+smurfs.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 8111
+D1
+Exit ~
+door~
+0 0 8109
+E
+south~
+No tic-tac-toe games on this wall. Just big dents.
+~
+E
+west~
+Etched into the wall is "Welcome to the Smurf Market! Now go away!"
+~
+E
+down~
+You think you can actually see the indentations from this smurf's
+feet in the stone.
+~
+E
+up~
+You are actually grateful that the smurf guard is so large,
+because it means that the ceiling is that much higher, and
+thus a little bit more bearable.
+~
+E
+north~
+You see what seems to be an underground market, bustling with dark smurfs.
+~
+E
+east~
+You see yet another guard post.
+~
+S
+#8111
+Southwest corner of the Smurf Market~
+You see before you a underground market. Several smurfs wander the
+market square, going from shop to shop. To the south you see the entrance
+to the market, and to the west you see Farmer Smurf's shop.
+~
+0 D 1
+H 20 M 20
+D0
+Exit ~
+door~
+0 0 8118
+D1
+Exit ~
+door~
+0 0 8113
+D2
+Exit ~
+door~
+0 0 8110
+D3
+Exit ~
+door~
+0 0 8112
+E
+south~
+You see the entrance to the market.
+~
+E
+north~
+You see the northwestern corner of the market.
+~
+E
+east~
+You see the southeastern corner of the market.
+~
+E
+west~
+You see a small grocery store.
+~
+E
+down~
+The ground is fairly well-kept. It seems that even smurfs have janitors.
+ 
+~
+E
+up~
+The market has an extremely high roof, speaking smurfatively.
+It looks like even an ogre would be able to stand comfortably here.
+~
+E
+†ŸS~
+‡M~
+E
+ŸS~
+~
+E
+ÿS~
+PÅY~
+E
+ŸS~
+∞ÖY~
+E
+‡◊S~
+xÖY~
+S
+#8112
+Farmer Smurf's~
+You see a modest shop filled with all the shelves and racks
+that you would need to store all kinds of edibles. Many bins and shelves
+are currently empty, but look as if they are well-kept.
+~
+0 CR 1
+H 30 M 30
+D1
+Exit ~
+door~
+0 0 8111
+E
+east~
+You see the southwestern corner of the market.
+~
+E
+north~
+You see a small table against the north wall, covered with flour.
+~
+E
+west~
+Bins filled with vegetables and eggs line the wall.
+~
+E
+south~
+There are several shelves with various bottles on it,
+and space fore even more bottles, if he makes a purchase.
+~
+E
+up~
+You see a few hooks for hanging any meat that he purchases.
+~
+E
+down~
+Traces of flour can be seen on the floor.
+~
+S
+#8113
+Southeast corner of the Smurf Market~
+You see before you a underground market. Several smurfs wander the
+market square, going from shop to shop. To the south you see the
+entrance to Jeweler Smurf's, and to the east you see a small alcove
+with a smurfy healer.
+~
+0 D 1
+H 20 M 20
+D0
+Exit ~
+door~
+0 0 8116
+D1
+Exit ~
+door~
+0 0 8115
+D2
+Exit ~
+door~
+0 0 8114
+D3
+Exit ~
+door~
+0 0 8111
+E
+west~
+You see the southwestern corner of the market.
+~
+E
+north~
+You see the northeastern corner of the market.
+~
+E
+south~
+You see a small jewelry store.
+~
+E
+east~
+You see a smurfy priest. Or is that a priestly smurf...?
+~
+E
+down~
+The ground is fairly well-kept. It seems that even smurfs have janitors.
+ 
+~
+E
+up~
+The market has an extremely high roof, speaking smurfatively.
+It looks like even an ogre would be able to stand comfortably here.
+~
+E
+ŸS~
+òhT~
+E
+†ŸS~
+‡M~
+E
+ŸS~
+~
+E
+ÿS~
+PÅY~
+E
+ŸS~
+∞ÖY~
+E
+‡◊S~
+xÖY~
+S
+#8114
+Jeweler Smurf's~
+Several glass cases line the walls, but since these dark smurfs
+don't like the light that much, you'll have to bring your own to view
+any of the items within them.
+~
+0 CDR 1
+H 20 M 20
+D0
+Exit ~
+door~
+0 0 8113
+E
+down~
+The floors of the shop are immaculate. Most likely because
+he doesn't allow pets inside.
+~
+E
+west~
+More glass cases line this wall as well.
+~
+E
+south~
+The cases and cabinets on the south wall contain places for various rings.
+~
+E
+east~
+The cases on this side are filled with gems.
+~
+E
+north~
+You see the southeastern corner of the market.
+~
+E
+up~
+You see a small well-designed chandolier. It looks great, despite the
+fact that the candles are not lit.
+~
+S
+#8115
+Healer Smurf's~
+You are in a small alcove. Soothing incense and smurfy paintings
+make you feel all warm and smurfy inside.
+~
+0 CDRST 1
+H 150 M 150
+D3
+Exit ~
+door~
+0 0 8113
+E
+down~
+A catskin rug is here. So that's what happened to Gargamel's first pet.
+~
+E
+up~
+No, there are no paintings on this ceiling.
+~
+E
+north~
+This wall feels warm to the touch, soothing your pain.
+~
+E
+east~
+Soothing incense burns in small holders attached to the wall.
+~
+E
+south~
+A happy painting of smurf village is here.
+You can almost hear them singing...
+~
+E
+west~
+You see the southwestern corner of the market.
+~
+S
+#8116
+Northeast corner of the Smurf Market~
+You see before you a underground market. Several smurfs wander the
+market square, going from shop to shop. To the north you see the entrance
+to the shop run by Handy Smurf's son, and to the east you see Tailor
+Smurf's modest alcove.
+~
+0 D 1
+H 20 M 20
+D0
+Exit ~
+door~
+0 0 8120
+D1
+Exit ~
+door~
+0 0 8117
+D2
+Exit ~
+door~
+0 0 8113
+D3
+Exit ~
+door~
+0 0 8118
+E
+east~
+You see a small clothing store.
+~
+E
+north~
+You see a store run by Handy Smurf's son.
+~
+E
+south~
+You see the southeastern corner of the market.
+~
+E
+west~
+You see the northwestern corner of the market.
+~
+E
+down~
+The ground is fairly well-kept. It seems that even smurfs have janitors.
+~
+E
+up~
+The market has an extremely high roof, speaking smurfatively.
+It looks like even an ogre would be able to stand comfortably here.
+~
+S
+#8117
+Tailor Smurf's~
+You stand in a modest clothing shop, with racks of white dresses,
+white pants, and other smurfy things to wear.
+~
+0 CDR 1
+H 20 M 20
+D3
+Exit ~
+door~
+0 0 8116
+E
+west~
+You see the northeastern corner of the market.
+~
+E
+up~
+A beautiful cloth tapestry hangs on the ceiling of the store.
+~
+E
+down~
+You see a few cloth clippings on the floor, but not much else.
+~
+E
+south~
+You see a few racks filled with dresses for Smurfette.
+~
+E
+east~
+You see a small table covered with various sewing tools.
+~
+E
+north~
+You see racks upon racks of smurfy white pants.
+~
+S
+#8118
+Northwest corner of the Smurf Market~
+You see before you a underground market. Several smurfs wander the
+market square, going from shop to shop. To the north you see the entrance
+to the Smurf Light district, and to the west you see an armory.
+~
+0 AD 1
+H 20 M 20
+D0
+Exit ~
+door~
+0 0 8121
+D1
+Exit ~
+door~
+0 0 8116
+D2
+Exit ~
+door~
+0 0 8111
+D3
+Exit ~
+door~
+0 0 8119
+E
+up~
+The market has an extremely high roof, speaking smurfatively.
+It looks like even an ogre would be able to stand comfortably here.
+~
+E
+down~
+The ground is fairly well-kept. It seems that even smurfs have janitors.
+ 
+~
+E
+south~
+You see the southwestern corner of the market.
+~
+E
+east~
+You see the northeastern corner of the market.
+~
+E
+north~
+You see the entrance to a shadowy area of the underground market.
+~
+E
+west~
+You see an armory, selling weapons and armor.
+~
+S
+#8119
+Warrior Smurf's~
+This shop is lined with various forms of armor and weapons,
+some of which are designed to do extremely unsmurfy things to a
+living body.
+~
+0 DR 1
+H 50 M 20
+D1
+Exit ~
+door~
+0 0 8118
+E
+up~
+A few small weapons hang from hooks in the ceiling.
+~
+E
+down~
+Only a few scraps of leather lie about the floor.
+~
+E
+north~
+This wall is bare, except for numerous dents and scratches.
+It looks like this is the wall he uses to demonstrate his wares.
+~
+E
+west~
+Various types of armor, as well as protective clothing, are displayed
+against the west wall.
+~
+E
+south~
+Racks of pointy things line the wall.
+~
+E
+east~
+You see the northeastern corner of the market.
+~
+S
+#8120
+Good Housesmurfing~
+This is a lovely little shop, where Handy Smurf's son sits behind
+the counter, trying to get his commission for selling you some furniture.
+~
+0 CDR 1
+D2
+Exit ~
+door~
+0 0 8116
+E
+north~
+You see spaces for a few mirrors and paintings, but it seems that
+the store may be sold out for the moment.
+~
+E
+west~
+Various cabinets and display cases line the wall.
+~
+E
+east~
+Several finely crafted footlockers are lined against the east wall.
+~
+E
+up~
+Several blue lanterns hang from the ceiling.
+~
+E
+down~
+The floor is covered by smurf-to-smurf carpeting.
+~
+E
+south~
+You see the northeastern corner of the market.
+~
+S
+#8121
+The Smurf Light District~
+You enter a section of UnderSmurf that is lit by an eerie blue glow
+from lanterns hanging outside of a few alcoves. To the west is a
+shady looking smurf offering to buy and sell your useless junk, and
+to the east you see a tavern that stinks of fermented smurfberries.
+~
+0 ADNT 1
+H 10 M 10
+D0
+Exit ~
+door~
+0 0 8123
+D1
+Exit ~
+door~
+0 0 8143
+D2
+Exit ~
+door~
+0 0 8118
+D3
+Exit ~
+door~
+0 0 8122
+E
+up~
+Are those scorch marks in the ceiling? Maybe someone has been playing
+with their fireballs down here.
+~
+E
+north~
+The district continues to the north.
+~
+E
+west~
+A shady smurf in an alcove to the west beckons for you to check out
+his goods.
+~
+E
+east~
+You see a small tavern, with smurfs eating, drinking, and being smurfy.
+~
+E
+down~
+It looks like the janitors ingore this area. Trash litters the ground.
+~
+E
+south~
+You see the northwestern corner of the market.
+~
+S
+#8122
+Swindler Smurf's~
+Swindler Smurf has stockpiled a huge amount of trash here.
+But as they say, "One smurf's trash is another smurf's pile of crap."
+~
+0 ADNRT 1
+H 10 M 10
+D1
+Exit ~
+door~
+0 0 8121
+E
+north~
+This wall seems to be made of trash.
+~
+E
+west~
+This wall seems to be made of trash.
+~
+E
+south~
+This wall seems to be made of trash.
+~
+E
+up~
+You begin to wonder how those stains got on the ceiling.
+~
+E
+down~
+Trash, trash, more trash. It wouldn't matter if the janitors came
+in here, because you think the stuff is glued to the floor.
+~
+E
+east~
+You peer out into the Smurf Light District, and see The Smurfy Tavern
+across the way.
+~
+S
+#8123
+The Smurf Light District~
+More blue lanterns hang around this area, and some tough street smurfs
+wander the area picking fights. To the east you see a small occult shop
+run by...is that Baby Smurf?
+~
+0 ADNT 1
+H 50 M 50
+D0
+Exit ~
+door~
+0 0 8127
+D1
+Exit ~
+door~
+0 0 8126
+D2
+Exit ~
+door~
+0 0 8121
+D3
+Exit ~
+door~
+0 0 8124
+E
+south~
+The district continues to the south.
+~
+E
+up~
+Yes, those are definitely scorch marks on the ceiling.
+~
+E
+down~
+It looks like the janitors ingore this area. Trash litters the ground.
+~
+E
+north~
+You see the entrance to an unclean dwelling.
+~
+E
+east~
+You see an occult shop.
+~
+E
+west~
+You see a smurf selling other smurfs. Not very smurfy of him, is it?
+~
+S
+#8124
+Breedy Smurf's~
+Breedy Smurf stands in front of a small crowd of smurfs on leashes.
+You almost feel that there is something unethical about a smurf selling
+other smurfs, but that kinky smurf sort of catches your eye. And, for
+those with a moral code, he has cute little gerbils for sale.
+~
+0 ACDMNST 1
+H 25 M 25
+D1
+Exit ~
+door~
+0 0 8123
+E
+north~
+Breedy wonders if you're interested in a well-trained gerbil.
+~
+E
+west~
+Breedy tries to sell you a kinky smurf.
+~
+E
+south~
+Breedy tries to sell you a submissive smurf.
+~
+E
+up~
+A few extra leashes hang from the ceiling.
+~
+E
+down~
+Eeew, you stepped in something!!
+~
+E
+east~
+You see the eerie blue glow of the lanterns.
+~
+S
+#8125
+Breedy's stock room~
+The pets for Breedy Smurf's are kept here.
+~
+0 CDKS 1
+S
+#8126
+Baby Smurf's Occult Shop~
+You stand within a shop that buys and sells most magical goods.
+Baby Smurf is apparently the proprietor, and deep down you always
+suspected that he was the most evil smurf out there.
+~
+0 ADNRT 1
+H 20 M 150
+D3
+Exit ~
+door~
+0 0 8123
+D5
+Exit ~
+door~
+0 0 8614
+E
+south~
+You see more displays of various wands, staves, and magical devices.
+~
+E
+east~
+A large cabinet is displaying various potions.
+~
+E
+north~
+Racks of scrolls and books line the wall.
+~
+E
+up~
+You see what appears to be a perfect night sky with a blue moon.
+You could have sworn that there was a ceiling when you walked into the shop.
+~
+E
+down~
+As you look down, you seem to be standing on absolutely nothing.
+A deep black void is all that is beneath you, and you need to look
+back up to overcome a sense of vertigo.
+~
+E
+west~
+You look out across the district and see Breedy Smurf's "pet" shop.
+~
+S
+#8127
+Outside the hovel of the Seven Smurfs~
+You approach a door with many warnings to leave, but you begin
+to get curious. Even though this place is a dump by your standards,
+compared to the rest of UnderSmurf, it's pretty good. Of course, that
+isn't really saying much.
+~
+0 ADNT 1
+H 30 M 30
+D0
+Exit ~
+door~
+1 8135 8144
+D2
+Exit ~
+door~
+0 0 8123
+E
+north~
+You see a pretty squalid (by your standards) dwelling.
+~
+E
+up~
+You thought you saw a rat crawling on the ceiling.
+It must be all the smurfberry fumes in the air.
+~
+E
+down~
+You see a tattered old mat that says "GO AWAY!"
+~
+E
+east~
+Written in some unidentifiable substance is:
+"HOME OF THE SEVEN SMURFS! GO AWAY!"
+~
+E
+west~
+Written in some unidentifiable substance is:
+"HOME OF THE SEVEN SMURFS! GO AWAY!"
+~
+E
+south~
+You see the eerie blue glow of the lanterns.
+~
+S
+#8128
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8103
+D2
+Exit ~
+door~
+0 0 8129
+D3
+Exit ~
+door~
+0 0 8133
+E
+west~
+The fields continue to the west.
+~
+E
+south~
+The fields continue to the south.
+~
+E
+east~
+This wall appears to me made of stone.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8129
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8128
+D2
+Exit ~
+door~
+0 0 8139
+D3
+Exit ~
+door~
+0 0 8136
+E
+south~
+The fields continue to the south.
+~
+E
+west~
+The fields continue to the west.
+~
+E
+east~
+This wall appears to me made of stone.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8130
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D1
+Exit ~
+door~
+0 0 8103
+D2
+Exit ~
+door~
+0 0 8133
+D3
+Exit ~
+door~
+0 0 8131
+E
+east~
+The fields continue to the east.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+E
+south~
+The fields continue to the south.
+~
+E
+west~
+The fields continue to the west.
+~
+E
+north~
+This wall appears to be made of stone.
+~
+S
+#8131
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D1
+Exit ~
+door~
+0 0 8130
+D2
+Exit ~
+door~
+0 0 8134
+D3
+Exit ~
+door~
+0 0 8132
+E
+east~
+The fields continue to the east.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+E
+north~
+This wall appears to be made of stone.
+~
+E
+west~
+The fields continue to the west.
+~
+E
+south~
+The fields continue to the south.
+~
+S
+#8132
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D1
+Exit ~
+door~
+0 0 8131
+D2
+Exit ~
+door~
+0 0 8135
+E
+west~
+This wall appears to me made of stone.
+~
+E
+east~
+The fields continue to the east.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+E
+north~
+This wall appears to be made of stone.
+~
+E
+south~
+The fields continue to the south.
+~
+S
+#8133
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8130
+D1
+Exit ~
+door~
+0 0 8128
+D2
+Exit ~
+door~
+0 0 8136
+D3
+Exit ~
+door~
+0 0 8134
+E
+south~
+The fields continue to the south.
+~
+E
+east~
+The fields continue to the east.
+~
+E
+west~
+The fields continue to the west.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8134
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8131
+D1
+Exit ~
+door~
+0 0 8133
+D2
+Exit ~
+door~
+0 0 8137
+D3
+Exit ~
+door~
+0 0 8135
+E
+south~
+The fields continue to the south.
+~
+E
+east~
+The fields continue to the east.
+~
+E
+west~
+The fields continue to the west.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8135
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8132
+D1
+Exit ~
+door~
+0 0 8134
+D2
+Exit ~
+door~
+0 0 8138
+E
+east~
+The fields continue to the east.
+~
+E
+west~
+This wall appears to me made of stone.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+E
+south~
+The fields continue to the south.
+~
+S
+#8136
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8133
+D1
+Exit ~
+door~
+0 0 8129
+D2
+Exit ~
+door~
+0 0 8140
+D3
+Exit ~
+door~
+0 0 8137
+E
+south~
+The fields continue to the south.
+~
+E
+west~
+The fields continue to the west.
+~
+E
+east~
+The fields continue to the east.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8137
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8134
+D1
+Exit ~
+door~
+0 0 8136
+D2
+Exit ~
+door~
+0 0 8141
+D3
+Exit ~
+door~
+0 0 8138
+E
+south~
+The fields continue to the south.
+~
+E
+west~
+The fields continue to the west.
+~
+E
+east~
+The fields continue to the east.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8138
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8135
+D1
+Exit ~
+door~
+0 0 8137
+D2
+Exit ~
+door~
+0 0 8142
+E
+south~
+The fields continue to the south.
+~
+E
+east~
+The fields continue to the east.
+~
+E
+west~
+This wall appears to me made of stone.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8139
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8129
+D3
+Exit ~
+door~
+0 0 8140
+E
+west~
+The fields continue to the west.
+~
+E
+east~
+This wall appears to be made of stone.
+~
+E
+south~
+This wall appears to me made of stone.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8140
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8136
+D1
+Exit ~
+door~
+0 0 8139
+D3
+Exit ~
+door~
+0 0 8141
+E
+west~
+The fields continue to the west.
+~
+E
+south~
+This wall appears to me made of stone.
+~
+E
+east~
+The fields continue to the east.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8141
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8137
+D1
+Exit ~
+door~
+0 0 8140
+D3
+Exit ~
+door~
+0 0 8142
+E
+west~
+The fields continue to the west.
+~
+E
+south~
+This wall appears to me made of stone.
+~
+E
+east~
+The fields continue to the east.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8142
+UnderSmurf berry patch~
+You stare across the huge fields of berry patches at the dozens
+of dark smurfs picking them. They seem different than the light-dwelling
+smurfs. Meaner, nastier, grumpier...
+~
+0 AD 2
+H 120 M 120
+D0
+Exit ~
+door~
+0 0 8138
+D1
+Exit ~
+door~
+0 0 8141
+E
+south~
+This wall appears to me made of stone.
+~
+E
+east~
+The fields continue to the east.
+~
+E
+west~
+This wall appears to me made of stone.
+~
+E
+north~
+The fields continue to the north.
+~
+E
+down~
+Dark, not-quite-smurfy berries seem plentiful on these bushes.
+~
+E
+up~
+You are thankful that the roof here is almost bearable.
+~
+S
+#8143
+The Smurfy Tavern~
+You enter the room to find a rowdy bunch of drunken smurfs.
+A few sit at tables, but one or two are trying to throw daggers at
+a target dummy against the wall, and failing miserably.
+~
+0 ADNRT 1
+M 20
+D3
+Exit ~
+door~
+0 0 8121
+E
+south~
+Brewer Smurf stares back at you from over the counter.
+~
+E
+east~
+A target dummy for dagger-throwing stands here. Not many holes in it.
+~
+E
+north~
+You see barrels upon barrels of booze.
+~
+E
+down~
+You see various marks from when the drunks threw daggers into the floor.
+~
+E
+up~
+You see various marks from when the drunks threw daggers into the ceiling.
+~
+E
+west~
+You see the eerie blue glow of the lanterns outside.
+~
+S
+#8144
+The hovel's entry hall~
+You look around the hovel, and it reminds you of Midgaard's dump.
+Trash litters the floor, and rotten wood panels cover the stone
+walls and floor.
+~
+0 DNT 1
+H 50 M 50
+D0
+Exit ~
+door~
+0 0 8146
+D1
+Exit ~
+door~
+0 0 8145
+D2
+Exit ~
+door~
+1 8135 8127
+E
+south~
+You see the door leading back to the Smurf Light District.
+~
+E
+east~
+You see a small kitchen.
+~
+E
+west~
+The wood panels on the wall are loose and rotten.
+~
+E
+up~
+Small fungus patches can be seen in various corners of the ceiling.
+~
+E
+north~
+A small area for entertaining guests is to the north.
+~
+E
+down~
+The floorboards are rotting as well, but the stone underneath supports you.
+~
+S
+#8145
+The kitchen of the Seven Smurfs~
+The kitchen is a squalid room with packages of food strewn about
+the area. A huge pile of food encrusted dishes and utensils sits upon
+a small table in the center of the room.
+~
+0 DNT 1
+H 50 M 50
+D3
+Exit ~
+door~
+0 0 8144
+S
+#8146
+The smurfing room~
+This is a small area for entertaining guests. A few boxes sit about
+the room for people to sit on, and a short wooden table sits in the
+middle for people to use as a place to put their drinks.
+~
+0 DNT 1
+H 50 M 50
+D0
+Exit ~
+door~
+0 0 8149
+D1
+Exit ~
+door~
+0 0 8147
+D2
+Exit ~
+door~
+0 0 8144
+D3
+Exit ~
+door~
+0 0 8148
+D5
+Exit ~
+floorboard~
+1 0 8150
+E
+up~
+Small fungus patches can be seen in various corners of the ceiling.
+~
+E
+down~
+The floorboards here don't seem quite as rotten, but they do creak.
+You seem to notice that one floorboard looks newer than the rest.
+~
+E
+east~
+You see a small bedroom.
+~
+E
+west~
+You see a small bedroom.
+~
+E
+north~
+You see a larger bedroom.
+~
+S
+#8147
+A smurfy bedroom~
+This room seems much cleaner than the rest, though the taste is
+still pretty poor.
+~
+0 DNT 1
+D3
+Exit ~
+door~
+0 0 8146
+E
+north~
+An extra set of shackles and chains are fixed to the wall.
+~
+E
+east~
+A pair of bunk beds are set into an alcove in the east wall.
+~
+E
+south~
+A painting of the hovel's occupants is displayed on the south wall:
+"The Seven Smurfs"
+~
+E
+up~
+There is a noticeable lack of fungus here.
+~
+E
+down~
+This room's occupant seems to keep the floorboards in better condition.
+~
+E
+west~
+You see the smurfing room.
+~
+S
+#8148
+A not-so-smurfy bedroom~
+At first glance, this room appears to be an indoor compost pile,
+but upon further inspection, you actually seem to get the idea that
+someone actually sleeps in here.
+~
+0 ADJNT 1
+H 10 M 10
+D1
+Exit ~
+door~
+0 0 8146
+E
+down~
+If you expect to see a floor, keep dreaming.
+~
+E
+up~
+More fungus seems to cover the ceiling here than in any other room.
+~
+E
+north~
+It looks like someone has either been throwing food at this wall,
+or has been working on a modern art piece.
+~
+E
+west~
+The west wall is the one clean area in the whole bedroom.
+~
+E
+south~
+Faded and unrecognizable posters cover this wall.
+~
+E
+east~
+You can almost see the smurfing room over all the junk in the room.
+~
+S
+#8149
+The master bedroom~
+You enter a large (for a smurf) bedroom with blue walls and a
+well-kept catskin rug. It doesn't look like the smurfs are too big
+on beds, since the pillows are placed on the floor by the rug.
+~
+0 DNT 0
+H 120 M 120
+D2
+Exit ~
+door~
+0 0 8146
+E
+north~
+The walls are painted a smurfy blue.
+~
+E
+east~
+The walls are painted a smurfy blue.
+~
+E
+west~
+The walls are painted a smurfy blue.
+~
+E
+up~
+Hey, you can see yourself! Oh, it's just a mirror.
+~
+E
+down~
+You see a catskin rug.
+~
+E
+south~
+You see the smurfing room.
+~
+S
+#8150
+Through the blue door...~
+Underneath the hovel's floorboards, you find yourself in a small room
+with only one other exit. To the north is a blue door, behind which
+can be heard the shuffling and moaning of many smurfs.
+~
+0 ADNT 0
+H 25 M 25
+D0
+Exit ~
+"blue door"~
+1 0 8151
+D4
+Exit ~
+floorboard~
+1 0 8146
+E
+down~
+You see lots of scuff marks in the stone, implying frequent traffic.
+~
+E
+south~
+The walls here are made of stone.
+~
+E
+east~
+The walls here are made of stone.
+~
+E
+west~
+The walls here are made of stone.
+~
+E
+north~
+You see a blue door.
+~
+E
+up~
+You see the loose floorboard leading to the smurfing room.
+~
+S
+#8151
+The smurf pens~
+As you wander about the pens, you see many shackled smurfs mulling
+about. You almost think about freeing them, but they seem to covet their
+shackles as if you plan on stealing their chains from them. Perhaps they
+actually like being sold at Breedy Smurf's shop...
+~
+0 ADNT 0
+H 10 M 10
+D0
+Exit ~
+door~
+0 0 8154
+D1
+Exit ~
+door~
+0 0 8153
+D2
+Exit ~
+blue door~
+1 0 8150
+D3
+Exit ~
+door~
+0 0 8152
+E
+south~
+You see a blue doorway.
+~
+E
+down~
+You see smurf shackles.
+~
+E
+up~
+You see smurf shackles.
+~
+E
+north~
+You see smurf shackles.
+~
+E
+east~
+You see smurf shackles.
+~
+E
+west~
+You see smurf shackles.
+~
+S
+#8152
+The smurf pens~
+As you wander about the pens, you see many shackled smurfs mulling
+about. You almost think about freeing them, but they seem to covet their
+shackles as if you plan on stealing their chains from them. Perhaps they
+actually like being sold at Breedy Smurf's shop...
+~
+0 ADNT 1
+H 10 M 10
+D1
+Exit ~
+door~
+0 0 8151
+E
+down~
+You see smurf shackles.
+~
+E
+up~
+You see smurf shackles.
+~
+E
+east~
+You see smurf shackles.
+~
+E
+north~
+You see smurf shackles.
+~
+E
+south~
+You see smurf shackles.
+~
+E
+west~
+You see smurf shackles.
+~
+S
+#8153
+The smurf pens~
+As you wander about the pens, you see many shackled smurfs mulling
+about. You almost think about freeing them, but they seem to covet their
+shackles as if you plan on stealing their chains from them. Perhaps they
+actually like being sold at Breedy Smurf's shop...
+~
+0 ADNT 0
+H 10 M 10
+D3
+Exit ~
+door~
+0 0 8151
+E
+down~
+You see smurf shackles.
+~
+E
+up~
+You see smurf shackles.
+~
+E
+south~
+You see smurf shackles.
+~
+E
+north~
+You see smurf shackles.
+~
+E
+west~
+You see smurf shackles.
+~
+E
+east~
+You see smurf shackles.
+~
+S
+#8154
+The smurf pens~
+As you wander about the pens, you see many shackled smurfs mulling
+about. You almost think about freeing them, but they seem to covet their
+shackles as if you plan on stealing their chains from them. Perhaps they
+actually like being sold at Breedy Smurf's shop...
+~
+0 ADNT 0
+H 10 M 10
+D0
+Exit ~
+door~
+0 0 8157
+D1
+Exit ~
+door~
+0 0 8156
+D2
+Exit ~
+door~
+0 0 8151
+D3
+Exit ~
+door~
+0 0 8155
+E
+south~
+You see smurf shackles.
+~
+E
+down~
+You see smurf shackles.
+~
+E
+up~
+You see smurf shackles.
+~
+E
+north~
+You see smurf shackles.
+~
+E
+east~
+You see smurf shackles.
+~
+E
+west~
+You see smurf shackles.
+~
+S
+#8155
+The smurf pens~
+As you wander about the pens, you see many shackled smurfs mulling
+about. You almost think about freeing them, but they seem to covet their
+shackles as if you plan on stealing their chains from them. Perhaps they
+actually like being sold at Breedy Smurf's shop...
+~
+0 ADNT 0
+H 10 M 10
+D1
+Exit ~
+door~
+0 0 8154
+S
+#8156
+The smurf pens~
+As you wander about the pens, you see many shackled smurfs mulling
+about. You almost think about freeing them, but they seem to covet their
+shackles as if you plan on stealing their chains from them. Perhaps they
+actually like being sold at Breedy Smurf's shop...
+~
+0 ADNT 0
+H 10 M 10
+D3
+Exit ~
+door~
+0 0 8154
+E
+down~
+You see smurf shackles.
+~
+E
+up~
+You see smurf shackles.
+~
+E
+south~
+You see smurf shackles.
+~
+E
+west~
+You see smurf shackles.
+~
+E
+east~
+You see smurf shackles.
+~
+E
+north~
+You see smurf shackles.
+~
+S
+#8157
+The smurf pens~
+As you wander about the pens, you see many shackled smurfs mulling
+about. You almost think about freeing them, but they seem to covet their
+shackles as if you plan on stealing their chains from them. Perhaps they
+actually like being sold at Breedy Smurf's shop...
+~
+0 ADNT 0
+H 10 M 10
+D1
+Exit ~
+door~
+0 0 8159
+D2
+Exit ~
+door~
+0 0 8154
+D3
+Exit ~
+door~
+0 0 8158
+E
+down~
+You see smurf shackles.
+~
+E
+up~
+You see smurf shackles.
+~
+E
+west~
+You see smurf shackles.
+~
+E
+south~
+You see smurf shackles.
+~
+E
+north~
+You see smurf shackles.
+~
+E
+east~
+You see smurf shackles.
+~
+S
+#8158
+The smurf pens~
+As you wander about the pens, you see many shackled smurfs mulling
+about. You almost think about freeing them, but they seem to covet their
+shackles as if you plan on stealing their chains from them. Perhaps they
+actually like being sold at Breedy Smurf's shop...
+~
+0 ADNT 0
+H 10 M 10
+D1
+Exit ~
+door~
+0 0 8157
+E
+down~
+You see smurf shackles.
+~
+E
+up~
+You see smurf shackles.
+~
+E
+south~
+You see smurf shackles.
+~
+E
+north~
+You see smurf shackles.
+~
+E
+east~
+You see smurf shackles.
+~
+E
+west~
+You see smurf shackles.
+~
+S
+#8159
+The smurf pens~
+As you wander about the pens, you see many shackled smurfs mulling
+about. You almost think about freeing them, but they seem to covet their
+shackles as if you plan on stealing their chains from them. Perhaps they
+actually like being sold at Breedy Smurf's shop...
+~
+0 ADNT 0
+H 10 M 10
+D3
+Exit ~
+door~
+0 0 8157
+E
+down~
+You see smurf shackles.
+~
+E
+up~
+You see smurf shackles.
+~
+E
+south~
+You see smurf shackles.
+~
+E
+north~
+You see smurf shackles.
+~
+E
+west~
+You see smurf shackles.
+~
+E
+east~
+You see smurf shackles.
+~
+S
+#8160
+Middle of Nowhere~
+You're in the Middle of Nowhere. This is probably the one place
+where Ryoga can't get lost, since he'll always end up in the 
+Middle of Nowhere.
+~
+0 KLNPTU 5
+O Ryoga~
+D0
+Exit ~
+door~
+0 0 8160
+D1
+Exit ~
+door~
+0 0 8160
+D2
+Exit ~
+door~
+0 0 8160
+D3
+Exit ~
+door~
+0 0 8160
+D4
+Exit ~
+door~
+0 0 8160
+D5
+Exit ~
+door~
+0 0 8160
+E
+south~
+You see the Middle of Nowhere.
+~
+E
+north~
+You see the Middle of Nowhere.
+~
+E
+west~
+You see the Middle of Nowhere.
+~
+E
+east~
+You see the Middle of Nowhere.
+~
+E
+down~
+You see the Middle of Nowhere.
+~
+E
+up~
+You see the Middle of Nowhere.
+~
+S
+#8161
+Restringable Quest items room~
+This room contains some items to be used in quests for this with
+the "string" command, but not the "load" or "clone" command.
+~
+0 CNPST 5
+S
+#8162
+The Padded Cell~
+You are standing in the middle of a room that has been completely covered
+with thick white padding. During your stay, this is here to protect you from
+harming yourself. The heliotrope light emanating from all around is mentally
+soothing. As your mind drifts into oblivion, you hear the insanity induced
+screams of the other inmates of this hell.
+Above your head, you can see a sort of faint scrawled message on the wall
+what looks to be excrement.
+~
+0 CDJKU 5
+E
+message~
++-------------------------------------------------------------------------+
+ 
+Mythorn was here
+ 
+ 
+ 
++-------------------------------------------------------------------------+
+~
+S
+#0
+
+#RESETS
+M 0 8100   1 8100  1	* Spunky Smurf
+M 0 8102   5 8102  2	* an UnderSmurf guard
+E 1 8103  -1   16	*   a smurf pole
+M 0 8102   5 8102  2	* an UnderSmurf guard
+E 1 8103  -1   16	*   a smurf pole
+M 0 8134  16 8103  1	* a miniature pig
+M 0 8101  80 8103  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8103  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8103  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8103  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8103  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8104  10 8105 10	* a frisky bubble
+M 0 8104  10 8105 10	* a frisky bubble
+M 0 8104  10 8105 10	* a frisky bubble
+M 0 8104  10 8105 10	* a frisky bubble
+M 0 8104  10 8105 10	* a frisky bubble
+M 0 8104  10 8105 10	* a frisky bubble
+M 0 8104  10 8105 10	* a frisky bubble
+M 0 8104  10 8105 10	* a frisky bubble
+M 0 8104  10 8105 10	* a frisky bubble
+M 0 8104  10 8105 10	* a frisky bubble
+M 0 8105   1 8106  1	* Greedy Smurf
+G 1 8106  -1     	*   a smurfberry cake
+M 0 8103   1 8107  1	* Junkie Smurf
+E 1 8105  -1    3	*   a smurfy cloak
+M 0 8102   5 8109  3	* an UnderSmurf guard
+E 1 8108  -1   16	*   a smurfy knife
+M 0 8102   5 8109  3	* an UnderSmurf guard
+E 1 8108  -1   16	*   a smurfy knife
+M 0 8102   5 8109  3	* an UnderSmurf guard
+E 1 8108  -1   16	*   a smurfy knife
+M 0 8107   1 8110  1	* a big UnderSmurf guard
+E 1 8109  -1   16	*   a fist full of smurf
+M 0 8116   4 8111  1	* the smurf janitor
+M 0 8113  13 8111  3	* an UnderSmurf
+M 0 8113  13 8111  3	* an UnderSmurf
+M 0 8113  13 8111  3	* an UnderSmurf
+M 0 8106   1 8112  1	* Farmer Smurf
+G 1 9557  -1     	*   a carrot
+G 1 9556  -1     	*   an egg
+G 1  611  -1     	*   a bottle of milk
+G 1 3004  -1     	*   a bottle of local specialty
+G 1 8122  -1     	*   a smurfberry muffin
+M 0 8116   4 8113  1	* the smurf janitor
+M 0 8113  13 8113  3	* an UnderSmurf
+M 0 8113  13 8113  3	* an UnderSmurf
+M 0 8113  13 8113  3	* an UnderSmurf
+M 0 8108   1 8114  1	* Jeweller Smurf
+G 1 3373  -1     	*   a small pearl
+G 1 3374  -1     	*   a garnet
+G 1 8110  -1     	*   a copper necklace
+G 1 8111  -1     	*   a pearl ring
+M 0 8109   1 8115  1	* Healer Smurf
+M 0 8116   4 8116  1	* the smurf janitor
+M 0 8113  13 8116  3	* an UnderSmurf
+M 0 8113  13 8116  3	* an UnderSmurf
+M 0 8113  13 8116  3	* an UnderSmurf
+M 0 8111   1 8117  1	* Tailor Smurf
+G 1  102  -1     	*   a smurf hat
+G 1 8112  -1     	*   a cloth bracelet
+G 1 8114  -1     	*   a pair of smurfy white pants
+G 1 8126  -1     	*   a smurfy white dress
+M 0 8116   4 8118  1	* the smurf janitor
+M 0 8113  13 8118  4	* an UnderSmurf
+M 0 8113  13 8118  4	* an UnderSmurf
+M 0 8113  13 8118  4	* an UnderSmurf
+M 0 8113  13 8118  4	* an UnderSmurf
+M 0 8110   1 8119  1	* Warrior Smurf
+G 1 8127  -1     	*   a white leather jacket
+G 1 8108  -1     	*   a smurfy knife
+G 1 8103  -1     	*   a smurf pole
+G 1 8130  -1     	*   a pair of white leather sleeves
+G 1 8131  -1     	*   a white leather belt
+M 0 8115   1 8120  1	* Not-So-Handy Smurf
+G 1 9539  -1     	*   a candle
+G 1 8116  -1     	*   a pile of smurfboard
+G 1 8117  -1     	*   a blue lantern
+G 1  667  -1     	*   a chest
+G 1 8118  -1     	*   a small footlocker
+G 1 8119  -1     	*   a footlocker key
+M 0 8122  10 8121  4	* a street smurf
+E 1 8128  -1   16	*   rude language
+M 0 8122  10 8121  4	* a street smurf
+E 1 8135  -1   18	*   a smurfwise aura
+M 0 8122  10 8121  4	* a street smurf
+E 1 8127  -1    5	*   a white leather jacket
+M 0 8122  10 8121  4	* a street smurf
+E 1 8136  -1   16	*   an enchanted wet noodle
+M 0 8112   1 8122  1	* Swindler Smurf
+G 1 3165  -1     	*   a map of the Dwarven Kingdom
+G 1 3163  -1     	*   an Old Map of Boinga
+G 1 8120  -1     	*   a Port-a-Spigot(tm)
+M 0 8122  10 8123  6	* a street smurf
+E 1 8127  -1    5	*   a white leather jacket
+M 0 8122  10 8123  6	* a street smurf
+E 1 8108  -1   16	*   a smurfy knife
+M 0 8122  10 8123  6	* a street smurf
+E 1 8127  -1    5	*   a white leather jacket
+M 0 8122  10 8123  6	* a street smurf
+E 1 8130  -1   10	*   a pair of white leather sleeves
+M 0 8122  10 8123  6	* a street smurf
+E 1 8131  -1   13	*   a white leather belt
+M 0 8122  10 8123  6	* a street smurf
+E 1 8141  -1   10	*   an inflatable armband
+M 0 8125   1 8124  1	* Breedy Smurf
+M 0 8117   1 8125  1	* the attack gerbil
+M 0 8118   1 8125  1	* the submissive smurf
+M 0 8119   1 8125  1	* the kinky smurf
+M 0 8124   1 8126  1	* Baby Smurf
+G 1 8142  -1     	*   a reddish-blue goo
+G 1 8140  -1     	*   a baby rattle
+G 1 8139  -1     	*   a baby bib
+G 1 8138  -1     	*   a baby pacifier
+M 0 8134  16 8128  1	* a miniature pig
+M 0 8101  80 8128  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8128  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8128  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8128  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8128  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8129  1	* a miniature pig
+M 0 8101  80 8129  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8129  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8129  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8129  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8129  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8130  1	* a miniature pig
+M 0 8101  80 8130  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8130  5	* a berry-picking UnderSmurf
+M 0 8101  80 8130  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8130  5	* a berry-picking UnderSmurf
+M 0 8101  80 8130  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8131  1	* a miniature pig
+M 0 8101  80 8131  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8131  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8131  5	* a berry-picking UnderSmurf
+M 0 8101  80 8131  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8131  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8132  1	* a miniature pig
+M 0 8101  80 8132  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8132  5	* a berry-picking UnderSmurf
+M 0 8101  80 8132  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8132  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8132  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8133  1	* a miniature pig
+M 0 8101  80 8133  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8133  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8133  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8133  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8133  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8134  1	* a miniature pig
+M 0 8101  80 8134  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8134  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8134  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8134  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8134  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8135  1	* a miniature pig
+M 0 8101  80 8135  5	* a berry-picking UnderSmurf
+M 0 8101  80 8135  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8135  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8135  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8135  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8136  1	* a miniature pig
+M 0 8101  80 8136  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8136  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8136  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8136  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8136  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8137  1	* a miniature pig
+M 0 8101  80 8137  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8137  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8137  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8137  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8137  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8138  1	* a miniature pig
+M 0 8101  80 8138  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8138  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8138  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8138  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8138  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8139  1	* a miniature pig
+M 0 8101  80 8139  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8139  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8139  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8139  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8139  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8140  1	* a miniature pig
+M 0 8101  80 8140  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8140  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8140  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8140  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8140  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8141  1	* a miniature pig
+M 0 8101  80 8141  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8141  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8141  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8141  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8141  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8134  16 8142  1	* a miniature pig
+M 0 8101  80 8142  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8142  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8142  5	* a berry-picking UnderSmurf
+G 1 8104  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8142  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8101  80 8142  5	* a berry-picking UnderSmurf
+G 1 8113  -1     	*   a dark UnderSmurf berry
+M 0 8126   2 8143  2	* a drunk UnderSmurf
+E 1 8143  -1   16	*   a tarnished dagger
+M 0 8126   2 8143  2	* a drunk UnderSmurf
+E 1 8143  -1   16	*   a tarnished dagger
+M 0 8120   5 8143  5	* a drunk UnderSmurf
+M 0 8120   5 8143  5	* a drunk UnderSmurf
+M 0 8120   5 8143  5	* a drunk UnderSmurf
+M 0 8120   5 8143  5	* a drunk UnderSmurf
+M 0 8120   5 8143  5	* a drunk UnderSmurf
+M 0 8114   1 8143  1	* Brewer Smurf
+G 1 11322  -1     	*   a large cup of pop
+G 1 8115  -1     	*   a smurfberry pretzel
+G 1 3004  -1     	*   a bottle of local specialty
+G 1 8121  -1     	*   a bottle of smurfberry juice
+G 1 9569  -1     	*   a bottle of grog
+G 1 8132  -1     	*   a handful of smurf nuts
+M 0 8127   1 8144  1	* Rashful Smurf
+M 0 8129   1 8145  1	* Proc
+M 0 8128   1 8145  1	* Sleazy Smurf
+G 1 8124  -1     	*   some smurf body oil
+M 0 8130   1 8146  1	* Bleepy Smurf
+E 1 8128  -1   16	*   rude language
+M 0 8131   1 8146  1	* Gropey Smurf
+M 0 8133   1 8147  1	* Slappy Smurf
+E 1 8137  -1   16	*   a glow-in-the-dark spear
+M 0 8132   1 8149  1	* Ouchie Smurf
+E 1 8137  -1   16	*   a glow-in-the-dark spear
+M 0 8123  40 8151  7	* a smurf slave
+M 0 8123  40 8151  7	* a smurf slave
+M 0 8123  40 8151  7	* a smurf slave
+M 0 8123  40 8151  7	* a smurf slave
+M 0 8123  40 8151  7	* a smurf slave
+M 0 8123  40 8151  7	* a smurf slave
+M 0 8123  40 8151  7	* a smurf slave
+M 0 8123  40 8152  4	* a smurf slave
+M 0 8123  40 8152  4	* a smurf slave
+M 0 8123  40 8152  4	* a smurf slave
+M 0 8123  40 8152  4	* a smurf slave
+M 0 8123  40 8153  5	* a smurf slave
+M 0 8123  40 8153  5	* a smurf slave
+M 0 8123  40 8153  5	* a smurf slave
+M 0 8123  40 8153  5	* a smurf slave
+M 0 8123  40 8153  5	* a smurf slave
+M 0 8123  40 8154  4	* a smurf slave
+M 0 8123  40 8154  4	* a smurf slave
+M 0 8123  40 8154  4	* a smurf slave
+M 0 8123  40 8154  4	* a smurf slave
+M 0 8123  40 8155  3	* a smurf slave
+M 0 8123  40 8155  3	* a smurf slave
+M 0 8123  40 8155  3	* a smurf slave
+M 0 8123  40 8156  5	* a smurf slave
+M 0 8123  40 8156  5	* a smurf slave
+M 0 8123  40 8156  5	* a smurf slave
+M 0 8123  40 8156  5	* a smurf slave
+M 0 8123  40 8156  5	* a smurf slave
+M 0 8123  40 8157  4	* a smurf slave
+M 0 8123  40 8157  4	* a smurf slave
+M 0 8123  40 8157  4	* a smurf slave
+M 0 8123  40 8157  4	* a smurf slave
+M 0 8123  40 8158  3	* a smurf slave
+M 0 8123  40 8158  3	* a smurf slave
+M 0 8123  40 8158  3	* a smurf slave
+M 0 8123  40 8159  5	* a smurf slave
+M 0 8123  40 8159  5	* a smurf slave
+M 0 8123  40 8159  5	* a smurf slave
+M 0 8123  40 8159  5	* a smurf slave
+M 0 8123  40 8159  5	* a smurf slave
+O 0 8100 100 8100	* Smurfette's shrine
+P 1 8101  -1 8100  1	*   a stained picture
+O 0 8102 100 8106	* Greedy Smurf's still
+O 0 8107 100 8107	* the mist in the air
+O 0 8123 100 8114	* a dark chandelier
+O 0 8133 100 8120	* a blue leather couch
+O 0 8145 100 8162	* a stone statue of Briareu
+D 0 8100   0    2	* Smurfette's basement north
+D 0 8101   2    2	* The entrance to UnderSmurf south
+D 0 8106   5    1	* Greedy's still down
+D 0 8107   4    2	* Junkie Smurf's hideout up
+D 0 8127   0    2	* Outside the hovel of the Seven Smurfs north
+D 0 8144   2    2	* The hovel's entry hall south
+D 0 8146   5    1	* The smurfing room down
+D 0 8150   0    1	* Through the blue door... north
+D 0 8150   4    1	* Through the blue door... up
+D 0 8151   2    1	* The smurf pens south
+M 0 8135   1 8161  1	* Questie Smurf
+G 1 8146  -1     	*   a Quest Pill
+G 1 8144  -1     	*   a Quest bag
+G 1 8134  -1     	*   a batch of tough cookies
+S
+
+#SHOPS
+8106 19 26 17  0  0 	 150 120 	 0 24 	* Farmer Smurf
+8108 32 30 33  0  0 	 120 100 	 0 24 	* Jeweller Smurf
+8110  9  5  0  0  0 	 100 100 	 0 24 	* Warrior Smurf
+8111 11  0  0  0  0 	 150 100 	 0 24 	* Tailor Smurf
+8112 13 28 22 35 18 	 200  10 	 0 24 	* Swindler Smurf
+8114 25 17 10  0  0 	 100  75 	 0 24 	* Brewer Smurf
+8115 12 25  1 15 18 	 100  50 	 0 24 	* Not-So-Handy Smurf
+8124  3  4  2 10 30 	 150 100 	 0 24 	* Baby Smurf
+8125  0  0  0  0  0 	 100 100 	 0 23 	* Breedy Smurf
+8135 32 30 33  0  0 	 120 100 	 0 24 	* Questie Smurf
+0
+
+#SPECIALS
+M 8101 spec_thief          	* a berry-picking UnderSmurf
+M 8102 spec_guard_l        	* an UnderSmurf guard
+M 8105 spec_thief          	* Greedy Smurf
+M 8107 spec_guard_l        	* a big UnderSmurf guard
+M 8109 spec_cast_adept     	* Healer Smurf
+M 8116 spec_janitor        	* the smurf janitor
+M 8122 spec_thief          	* a street smurf
+M 8130 spec_cast_cleric    	* Bleepy Smurf
+S
+
+#$

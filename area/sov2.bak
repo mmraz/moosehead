@@ -1,0 +1,3092 @@
+#AREA
+/mud/moosehead/area/sov2.are~
+Mystgar's Domain~
+{ 5 35} Soviet  Mystgar's Domain~
+2700 2800
+
+#MOBILES
+#2700
+carnivorous tree~
+a carnivorous tree~
+A tall, green tree is here.
+~
+Before your eyes the tree begins to move its branches threateningly and
+opens a mouth full of sharp, pointed teeth. This tree eats meat!
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABFG J -500 0
+8 1 2d7+96 2d6+10 1d7+2 chomp
+3 3 3 6
+DEFNU 0 0 H
+stand stand none 0
+CHJ ABCDEF large 0
+#2701
+squirrel rabbit~
+a squirrel-rabbit~
+A squirrel with unusually powerful hind legs is here.
+~
+This squirrel looks like it has been given the hindquarters of a rabbit.
+How could that be possible?
+~
+rabbit~
+(null)~
+(null)~
+(null)~
+ACGHS P 0 0
+10 1 2d7+121 2d6+60 2d4+2 bite
+1 1 1 5
+EINU 0 0 0
+stand stand male 0
+CHJ B small 0
+F for G
+F par HJK
+#2702
+spider crab~
+a spider crab~
+An enormous spider leaps at you from behind a rock!
+~
+This large spider has also been changed. It has a pair of sharp claws like a
+crab's.
+~
+centipede~
+(null)~
+(null)~
+(null)~
+ABCF V -250 0
+13 1 2d10+170 2d6+60 2d5+3 claw
+-1 -1 -1 4
+EFKNU 0 0 0
+stand stand female 200
+CHJ BDEF large 0
+F res F
+F vul E
+F for G
+F par K
+#2703
+unicorn goat~
+a unicorn goat~
+A large goat with very unusual horns is here, looking threatening.
+~
+This bizarre goat has two horns that would look more natural on a unicorn.
+They are long and very sharp, and it would be very painful to be impaled
+on them.
+~
+bear~
+(null)~
+(null)~
+(null)~
+ABGH 0 -100 0
+15 1 3d9+208 2d6+60 2d6+3 stab
+-2 -2 -2 3
+CFU 0 0 0
+stand stand male 600
+CHJ 0 medium 0
+F res EI
+F for G
+F par HJKUV
+#2704
+lizard shark~
+a lizard shark~
+You see the fin of a most unusual shark coming at you!
+~
+This creature has the body of a shark, and the sharp teeth, but has legs
+like those of a lizard.
+~
+lizard~
+(null)~
+(null)~
+(null)~
+ABF 0 -250 0
+16 1 3d9+233 2d7+121 2d6+4 chomp
+-2 -2 -2 4
+DEFU 0 IQ 0
+stand stand none 160
+CHJa B medium 0
+F res L
+F vul I
+F for GXc
+F par HKQV
+#2705
+frog snake~
+a frog snake~
+You see a frog watching you. As it moves, you see it has a long, snake-like tail.
+~
+This frog seems to have been conbined with a snake of some sort. It is able
+to use its long, slimy tail as a whip.
+~
+snake~
+(null)~
+(null)~
+(null)~
+AB 0 -250 0
+15 1 3d9+208 2d6+60 2d6+3 whip
+-2 -2 -2 3
+EFNU 0 0 0
+stand stand none 150
+BCHJa BC small 0
+F vul I
+F for GXYc
+F par KLQVX
+#2706
+piranha beast fish creature~
+a piranha beast~
+A tall, fishlike creature with two legs and the teeth of a piranha looks hungrily at you.
+~
+This is a very large fish with the legs and arms of a human. And a very sharp
+set of teeth as well.
+~
+water fowl~
+(null)~
+(null)~
+(null)~
+ABC 0 -500 0
+12 1 2d10+150 2d7+96 1d10+3 bite
+0 0 0 5
+EFNQ 0 I 0
+stand stand male 120
+CHJMb B medium 0
+F aff Tb
+F res R
+F for GW
+F par HKP
+#2707
+piranha beast fish creature warrior~
+a piranha beast warrior~
+You see a creature with the body of a fish and the arms and legs of a man emerging from the creek.
+~
+This tall creature has the arms and legs of a man combined with the body of
+a fish, and it looks hungry.
+~
+water fowl~
+(null)~
+(null)~
+(null)~
+ABC JV -500 0
+14 1 2d10+190 2d6+85 1d12+3 bite
+-1 -1 -1 5
+EFNQ 0 IJ 0
+stand stand female 140
+CHJMbc B medium 0
+F aff Tb
+F res R
+F for AGW
+F par HKP
+#2708
+giant beetle~
+a giant beetle~
+A giant beetle is here, burrowing into the dirt.
+~
+Insects shouldn't be this big! This monster practically comes up to your
+knees. How did it get to be this size?
+~
+centipede~
+(null)~
+(null)~
+(null)~
+ABGH 0 0 0
+6 1 2d7+71 2d7+21 1d7+1 bite
+4 4 4 9
+EFNU 0 0 0
+stand stand none 0
+CJ BDEF small 0
+F res FI
+F vul E
+F for BG
+F par K
+#2709
+rolling boulder~
+a rolling boulder~
+A large boulder rolls down the hill at you.
+~
+A rolling stone may gather no moss, but this stone gathers corpses. It is
+a meat eater, crushing its prey and devouring them at its leisure.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABF V -500 0
+16 1 3d9+233 2d6+60 2d6+4 crush
+-2 -2 -2 5
+CEFNU 0 F C
+stand stand none 200
+CHJc ABCDEF large 0
+#2710
+green ooze~
+a green ooze~
+A green ooze crawls over the rocks at you.
+~
+The moss covering the rocks suddenly springs into a slimy life and crawls
+towards you.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABC 0 0 0
+15 1 3d9+208 2d6+60 2d6+3 slime
+-2 -2 -2 5
+FNU 0 JL H
+stand stand none 200
+ABCHJS ABCDEF medium 0
+#2711
+rock snapping turtle~
+a snapping turtle~
+A wet rock is here. It looks like a good place to sit.
+~
+Whoops, this isn't a rock after all. It's the shell of a very large snapping
+turtle, which objects to you trying to sit on its back.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AB V 0 0
+18 1 3d9+283 2d7+121 2d7+4 chomp
+-3 -3 -3 2
+DEFNU 0 0 0
+stand stand female 150
+ACHJXc ABCDEF large 0
+#2712
+invisible ogre ghostly humanoid~
+an invisible ogre~
+You see the ghostly shape of a large humanoid here.
+~
+This used to be an ordinary ogre, but it too has be magically changed. Its
+skin now reflects virtually all light that hits it.
+~
+giant~
+(null)~
+(null)~
+(null)~
+ABCF BPV -750 0
+12 1 2d10+150 2d6+60 1d10+3 slash
+0 0 0 4
+DEFNU 0 0 0
+stand stand male 150
+CJLXc 0 large 0
+F res HI
+F vul JP
+F for V
+F par GHIJK
+#2713
+wolf spider~
+a wolf spider~
+A large spider with a wolf's head glares at you.
+~
+This abomination has a vicious looking wolf's head, including a gnashing
+set of teeth, set on the body of a giant spider.
+~
+fox~
+(null)~
+(null)~
+(null)~
+AB 0 -250 0
+17 1 3d9+258 2d6+60 3d4+4 pierce
+-3 -3 -3 2
+ENU 0 L 0
+stand stand female 220
+BCHJO B medium 0
+F for GV
+F par HJKQV
+#2714
+sparrow eagle~
+a sparrow eagle~
+You see a sparrow flying above your head. It has a large set of sharp eagle's talons.
+~
+Another modified creature, this sparrow has been given the talons of an eagle
+to tear its victims apart.
+~
+song bird~
+(null)~
+(null)~
+(null)~
+AGH V 0 0
+14 1 2d10+190 2d6+60 1d12+3 claw
+-1 -1 -1 4
+BEU 0 I 0
+stand stand female 240
+CHJ BT small 0
+F for G
+F par HK
+#2715
+half eaten corpse~
+a half-eaten corpse~
+A decrepit half-eaten corpse is decaying in the dirt.
+~
+This man has seen better days. Most of the meat has been chewed off his bones
+by something very large, yet he still lives, probably due to the horrible
+magic of the area.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFO 0 -750 0
+16 1 3d9+233 2d6+60 2d6+4 scratch
+-2 -2 -2 3
+EFNU 0 MQ N
+stand stand none 600
+BCI 0 medium 0
+F par GHIJK
+#2716
+half eaten elf~
+a half-eaten elf~
+A bloody, half-eaten elf lies here, mumbling warnings to you.
+~
+"Beware.. the gargoyle.." he gasps. This once proud elf has nearly been torn
+in half by his wounds. Maybe it would be better to put him out of his misery?
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABR 0 750 0
+17 1 3d9+258 2d6+60 3d4+4 slap
+-3 -3 -3 1
+EFNU 0 0 0
+stand stand male 400
+0 0 small 0
+F aff J
+F vul Z
+F par GHIJK
+#2717
+enormous gargoyle~
+an enormous gargoyle~
+The biggest gargoyle you've ever seen attacks you!
+~
+This thing is huge! It radiates an evil, magical aura. Obviously it too has
+been modified, its original powers augmented and multiplied.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABFT DJT -1000 0
+25 1 5d10+550 3d9+233 2d10+7 slash
+-7 -7 -7 -2
+CDEFNU 0 JM IN
+stand stand none 750
+CHJMXc ABCDEFPT huge 0
+#2718
+skeletal remains~
+skeletal remains~
+The skeletal remnants of some sort of creature clatter to life before you.
+~
+You can't quite tell what it used to be when it was truly alive, but you know
+its intentions are currently hostile.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABCF J -850 0
+20 1 3d9+333 2d6+100 2d8+5 smash
+-4 -4 -4 1
+EFHKNU 0 FQ 0
+stand stand none 1200
+CDHIM ABCDEF medium 0
+#2719
+tetraps~
+a tetraps~
+A tetraps is here, guarding the cave complex from intruders like you.
+~
+The tetraps resembles a large ogre, with three large eyes on its round head.
+It can see all around itself at all times.
+~
+giant~
+(null)~
+(null)~
+(null)~
+ABCFQ DJ -750 0
+25 1 5d10+550 3d9+233 2d10+7 pierce
+-7 -7 -7 0
+EFNU 0 BP 0
+stand stand male 2000
+CJc 0 large 0
+F res HI
+F vul JP
+F for V
+F par GHIJK
+#2720
+giant bat~
+a giant bat~
+A giant bat swoops down at you from its hiding place.
+~
+This is the largest bat you've ever seen. It didn't seem to be there a moment
+ago. It must have hidden itself in the shadows that fill the caves.
+~
+bat~
+(null)~
+(null)~
+(null)~
+AGH PQ 0 0
+26 1 5d10+600 3d9+233 3d7+7 bite
+-7 -7 -7 -1
+EKU 0 I 0
+stand stand female 3000
+CHJ B large 0
+F vul S
+F for G
+F par HJK
+#2721
+cave crawler~
+a cave crawler~
+A cave crawler pounces down on you from above!
+~
+This lizardlike monster usually crawls on all fours, but it is capable of 
+walking upright and leaping great distances. As you've probably already figured
+out, it is a meat eater.
+~
+lizard~
+(null)~
+(null)~
+(null)~
+ABCF JPQ 0 0
+27 1 5d10+650 3d9+233 5d4+7 pierce
+-8 -8 -8 -2
+DEFHNU 0 I H
+stand stand male 3000
+M BL medium 0
+F vul I
+F for G
+F par HKQV
+#2722
+luminescent fish~
+a luminescent fish~
+A strange luminescent fish is swimming around you, lighting its way with an eerie glow.
+~
+This large fish seems to be hunting the smaller fish around it, ignoring you
+for the time being.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABH JT 0 0
+26 1 5d10+600 2d9+233 3d7+7 frbite
+-7 -7 -7 -1
+EFHNU 0 IJ H
+stand stand none 2800
+ACJb ADEFO small 0
+#2723
+vampire rat~
+a vampire rat~
+A large rat with a vampire's fangs leaps at you from the darkness.
+~
+This giant rat has also been magically altered. It now has a taste for blood.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ACGH JQc -800 0
+28 1 6d12+703 3d9+233 2d12+8 bite
+-8 -8 -8 -1
+EFNU 0 M N
+stand stand female 3200
+ACHJV ABCDEFTU medium 0
+#2724
+miniature shark~
+a miniature shark~
+A tiny shark tries to bite your leg off.
+~
+Obviously another magically created creature, this shark resembles those of
+the great oceans, but much smaller. The teeth are still just as sharp, however.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABFT T -500 0
+28 1 6d12+703 3d9+233 2d12+8 bite
+-8 -8 -8 -2
+DEFNU 0 F 0
+stand stand male 3400
+ACJb ADEFU small 0
+#2725
+male piranha beast fishlike humanoid~
+a male piranha beast~
+A tall fishlike humanoid wanders about here.
+~
+This would seem to be a human male combined with some sort of fish. The result
+is quite horrifying, being neither one nor the other.
+~
+water fowl~
+(null)~
+(null)~
+(null)~
+ACGH 0 -500 0
+26 1 5d10+600 3d9+233 3d7+7 stab
+-7 -7 -7 -1
+EFNU 0 I J
+stand stand male 3000
+CHJMb BO medium 0
+F aff Tb
+F res R
+F for GW
+F par HKP
+#2726
+female piranha beast fish woman~
+a female piranha beast~
+A half-fish, half-woman creature peers around in the dark.
+~
+This monstrous creation seems to be a female human that has been partly turned
+into a fish. A row of pointed teeth gleam in her mouth as she smiles evilly
+at you.
+~
+water fowl~
+(null)~
+(null)~
+(null)~
+ACG 0 -750 0
+27 1 5d10+650 3d9+233 5d4+7 thrust
+-8 -8 -8 -3
+EFHINR 0 I J
+stand stand female 3200
+CHJMb BO medium 0
+F aff Tb
+F res R
+F for GW
+F par HKP
+#2727
+baby piranha beast fish~
+a baby piranha beast~
+A bizarre fish with small arms and legs sits here squawking.
+~
+This is one of the young of the piranha beasts which infest this cavern. It's
+almost cute, in a rather slimy sort of way.
+~
+water fowl~
+(null)~
+(null)~
+(null)~
+ABH 0 -750 0
+24 1 5d10+500 2d9+233 2d10+6 chomp
+-6 -6 -6 0
+EFNU 0 I J
+stand stand none 2800
+BCHJMb BO small 0
+F aff Tb
+F res R
+F for GW
+F par HKP
+#2728
+piranha beast acolyte fish~
+a piranha beast acolyte~
+An acolyte of the holy Mage worships here.
+~
+Like his brethren, this creature is half-man and half-fish. He is dressed in
+a ceremonial gown, and his head is bowed in worship to his deity.
+~
+water fowl~
+(null)~
+(null)~
+(null)~
+AB V -750 0
+27 1 5d10+650 3d9+233 5d4+7 bite
+-8 -8 -8 -1
+DEFNR 0 I J
+stand stand male 3300
+CHJMb BO medium 0
+F aff Tb
+F res R
+F for GW
+F par HKP
+#2729
+lavish fish man priest church mage~
+the Priest of the Holy Mage~
+A lavishly dressed fish-man leads his Church in prayer to their god.
+~
+This tall piranha beast is obviously the head of the temple. Upon seeing you,
+he screams, "HERETICS! We shall sacrifice you to appease the great Mage!"
+~
+water fowl~
+(null)~
+(null)~
+(null)~
+ABCQ H -900 0
+29 1 6d12+778 3d9+233 2d12+8 drain
+-9 -9 -9 -2
+EFNU 0 IM JN
+stand stand male 3750
+CHJMb BO medium 0
+F aff Tb
+F res R
+F for GW
+F par HKP
+#2730
+snake bat~
+a snake bat~
+An immensely long snake flies overhead on batlike wings.
+~
+This tremendous snake has had the wings of a bat grafted onto its back.
+It looks down on you hungrily.
+~
+snake~
+(null)~
+(null)~
+(null)~
+ABF JQT -700 0
+28 1 6d12+703 3d9+233 2d12+8 bite
+-8 -8 -8 -2
+EFHKU L 0 0
+stand stand none 3500
+CHJ PU large 0
+F res L
+F vul I
+F for AGY
+F par KQVX
+#2731
+guard mystgar bodyguard~
+Mystgar's Guard~
+The bodyguard of the powerful mage Mystgar stands at attention.
+~
+Mystgar's guards are all fanatical, formidable warriors. They are his first
+line of defense.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFT 0 -500 0
+28 1 6d12+703 3d9+233 2d12+8 charge
+-8 -8 -8 -2
+CDEFNU 0 B 0
+stand stand male 3000
+0 0 medium 0
+F par GHIJK
+#2732
+angelica avatar light~
+Angelica, Avatar of the Light~
+Angelica, Mystgar's Avatar of the Light, casts an icy stare at you.
+~
+This lovely female seems almost ghostlike. She is clad in a flowing white robe,
+with pale skin and hair of pure white. She is sworn to defend her master, the
+insane mage, Mystgar.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFR HJTV -750 0
+32 1 10d10+1000 3d9+333 6d4+9 blast
+-10 -10 -10 -3
+EFNU 0 BC M
+stand stand female 4500
+0 0 medium 0
+F par GHIJK
+#2733
+diabolica avatar darkness~
+Diabolica, Avatar of Darkness~
+Diabolica, Mystgar's Avatar of Darkness, screams a blood-curdling battlecry as she launches herself at you.
+~
+Diabolica is a breathtakingly beautiful woman dressed in a black leather 
+outfit. As the Realm's greatest female warrior, Mystgar was very eager to
+recruit her to his services, and she now serves him with an unmatched
+fanaticism.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFT HJQ -750 0
+32 1 10d10+1000 3d9+333 6d4+9 punch
+-10 -10 -10 -3
+CDEFIJNU 0 BE N
+stand stand female 4500
+0 0 medium 0
+F par GHIJK
+#2734
+mystgar insane mage~
+Mystgar~
+The insane mage, Mystgar, contemplates your upcoming destruction with an evil grin.
+~
+Mystgar is a tall, broad-shouldered man dressed in the robes of a master mage.
+His eyes seethe with burning hatred of all life, but are somehow strangely
+hypnotic. You can see how this man has come to be worshipped as a god by those
+around him.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABCFQ DHJT -1000 0
+36 1 10d10+1400 5d10+600 3d10+11 wrath
+-12 -12 -12 -5
+EFKNU BP CM 0
+stand stand male 5500
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#2700
+piranha teeth~
+a set of piranha teeth~
+A very sharp set of teeth from a vicious fish lie here.~
+calcium~
+weapon S AN
+exotic 2 5 chomp 0
+10 20 550 P
+#2701
+clamshell loincloth~
+a clamshell loincloth~
+A giant clam shell has been fixed with straps into a primitive armor.~
+shell~
+armor SY AF
+5 5 5 1 0
+10 50 500 P
+A
+13 5
+#2702
+blue caviar fish eggs~
+blue caviar~
+A lump of blue tinted fish eggs lies here.~
+caviar~
+pill S A
+16 'bless' '' '' ''
+8 5 150 P
+#2703
+red caviar fish eggs~
+red caviar~
+A lump of red tinted fish eggs lie here.~
+caviar~
+pill 0 A
+16 'armor' '' '' ''
+8 5 150 P
+#2704
+green caviar fish eggs~
+green caviar~
+A green tinted lump of fish eggs lies here.~
+caviar~
+pill 0 A
+16 'infravision' '' '' ''
+8 5 150 P
+#2705
+purple caviar fish eggs~
+purple caviar~
+A purple tinged lump of fish eggs lies here.~
+caviar~
+pill 0 A
+20 'poison' '' '' ''
+8 5 20 P
+#2706
+turtle half shell~
+a turtle's half-shell~
+The top part of a turtle's shell makes an excellent shield.~
+shell~
+armor SY AJ
+7 5 5 2 0
+18 120 1900 P
+A
+20 -1
+A
+17 -1
+A
+14 -5
+#2707
+key ring~
+a key ring~
+This large ring holds the three keys for the barricaded doors.~
+metal~
+container 0 AO
+10 0 0 2 100
+0 30 0 P
+#2708
+eagle claw~
+an eagle claw~
+The sharpened claw of an eagle lies here.~
+bone~
+weapon SY AN
+dagger 2 6 claw 0
+13 20 3500 P
+A
+18 2
+A
+20 2
+#2709
+key~
+the west key~
+The key to the western barricade.~
+iron~
+key 0 A
+0 0 0 0 0
+0 20 0 P
+#2710
+key~
+the north key~
+The key to the northern barricade.~
+iron~
+key 0 A
+0 0 0 0 0
+0 20 0 P
+#2711
+key~
+the east key~
+The key to the eastern barricade.~
+iron~
+key 0 A
+0 0 0 0 0
+0 20 0 P
+#2712
+stalactite~
+a stalactite~
+A huge stalactite is threatening to fall on you!~
+limestone~
+furniture ERS 0
+0 0 0 0 0
+0 4500 0 P
+#2713
+priest cowl~
+a priest's cowl~
+This cowl consists of a loose head and neck covering made of some strange, slimy fabric.~
+slime mold~
+armor GSY AC
+7 7 7 3 0
+28 20 3600 P
+A
+3 2
+A
+18 -2
+A
+19 -1
+A
+12 30
+#2714
+holy parchment~
+a piece of the Church's Holy Parchment~
+This rather tattered piece of ancient parchment is covered with smudged writing.~
+parchment~
+scroll S AO
+20 'blindness' 'pass door' 'continual light' ''
+20 10 2000 P
+E
+writing~
+What little you can make out details the creation of the world by Mystgar,
+the insane mage. He and his two female assistants, Angelica and Diabolica,
+hold the fish people's very lives in their hands, and so are great symbols
+of terror and are worshipped as gods. It is rumored the three live someplace
+in the cave system, but there are no further details.
+~
+#2715
+snake tooth venom~
+a hollow snake's tooth~
+The hollow tooth of a large snake contains its venom.~
+bone~
+potion ESY AO
+35 'fly' 'flamestrike' 'poison' ''
+25 20 7500 P
+#2716
+shining portal~
+a shining portal~
+A brilliantly shining portal is here.~
+magic~
+portal AGRS 0
+0 0 0 2786 0
+0 0 0 P
+#2717
+wavering portal~
+a wavering portal~
+A magical portal wavers nauseatingly before you.~
+magic~
+portal AGR 0
+0 0 0 2791 0
+0 0 0 P
+#2718
+brilliant portal~
+a brilliant portal~
+A brilliantly shining portal is here.~
+magic~
+portal AGR 0
+0 0 0 2794 0
+0 0 0 P
+#2719
+portal freedom~
+a portal to freedom~
+A portal leads back to the freedom of Boinga.~
+magic~
+portal FGR 0
+0 0 0 3054 0
+0 0 0 P
+#2720
+mage scroll~
+a mage's scroll~
+A scroll bearing mystical writing lies here.~
+paper~
+scroll U A
+35 'teleport' '' '' ''
+25 10 3500 P
+#2721
+mage scroll~
+a mage's scroll~
+A scroll bearing mystical writing lies here.~
+paper~
+scroll U A
+35 'word of recall' '' '' ''
+25 10 3500 P
+#2722
+mage scroll~
+a mage's scroll~
+A scroll bearing mystical writing lies here.~
+paper~
+scroll U A
+35 'curse' '' '' ''
+25 10 3500 P
+#2723
+mage pouch~
+a mage's pouch~
+This pouch can hold several scrolls and potions.~
+leather~
+container S AL
+10 0 0 2 100
+0 50 2000 P
+#2724
+heavy whip~
+a heavy whip~
+A coiled, hefty whip lies here, ready to smite your foes.~
+leather~
+weapon ESY AN
+whip 5 5 thwack I
+28 80 3400 P
+A
+18 2
+A
+2 -1
+#2725
+white boots~
+white boots~
+A pair of white leather boots lie here.~
+leather~
+armor AGSY AG
+7 7 7 4 0
+30 30 3600 P
+A
+3 1
+A
+12 30
+A
+18 -1
+A
+19 -1
+A
+17 -2
+#2726
+brilliant white shield~
+a brilliant white shield~
+A shield lies here, glowing a brilliant white.~
+ivory~
+armor AGSY AJ
+5 5 5 5 0
+30 100 3600 P
+A
+2 -2
+A
+12 25
+A
+14 -10
+A
+17 -2
+A
+20 -2
+#2727
+flail magi white~
+the flail of the Magi~
+A formidable looking white flail lies here.~
+leather~
+weapon GSY AN
+flail 7 4 sting C
+30 50 3600 P
+A
+18 2
+#2728
+black leather corset~
+a black leather corset~
+A tight black leather corset lies on the ground.~
+leather~
+clothing GIS AK
+0 0 0 0 0
+30 50 3600 P
+A
+13 20
+A
+19 2
+#2729
+black leather leggings~
+black leather leggings~
+A pair of black leggings are here, made from the finest leather.~
+leather~
+armor GIS AF
+8 8 8 2 0
+30 50 3600 P
+A
+2 1
+A
+13 10
+A
+17 -1
+A
+20 1
+A
+18 2
+#2730
+wand darkness~
+a wand of darkness~
+A short wand of pure black seems to absorb the light around it.~
+ebony~
+wand EGSUY AO
+38 8 8 'blindness' 0
+30 10 4400 P
+#2731
+black robe~
+a black mage's robe~
+This black robe has a strange magical quality to it.~
+evil magic~
+armor AGSY AK
+5 5 5 8 0
+35 60 4600 P
+A
+3 1
+A
+4 1
+A
+12 25
+A
+20 -3
+A
+18 -2
+#2732
+pitch black stone~
+a pitch black stone~
+A stone of pure, pitch black floats a few inches off the ground.~
+ebony~
+gem FGSY AQ
+0 0 0 0 0
+35 10 4850 P
+A
+3 2
+A
+12 25
+A
+19 -2
+#2733
+staff magi~
+the staff of the Magi~
+A long, thick staff seems to radiate magical power.~
+wood~
+weapon EGS AN
+staff 3 10 flame 0
+35 50 4900 P
+A
+18 2
+A
+19 2
+#2734
+ogre blood potion~
+the blood of an invisible ogre~
+Yellowy-green ogre blood makes a disgusting potion.~
+blood~
+potion S AO
+20 'invisibility' '' '' ''
+12 10 1800 P
+#2735
+tree branch~
+a tree branch~
+A thin, sharp branch of a tree lies here.~
+wood~
+weapon S AN
+flail 2 3 thwack 0
+8 20 1200 P
+A
+18 1
+#2736
+fishscale rattle~
+a fishscale rattle~
+This child's rattle seems to be made from the scales of a large fish.~
+scale~
+wand SY AO
+30 4 4 'calm' 0
+20 10 2400 P
+#2737
+belt tree bark~
+a belt of tree bark~
+A winding belt made from the bark of a tree lies here.~
+wood~
+armor S AL
+3 3 3 1 0
+8 20 1000 P
+A
+18 1
+A
+13 5
+#2738
+necklace fish teeth~
+a necklace of fish teeth~
+A necklace of needle-sharp fish teeth is here.~
+bone~
+armor SY AC
+6 6 6 2 0
+25 10 3000 P
+A
+2 1
+A
+13 10
+A
+18 1
+#2739
+ring mystgar~
+a ring of Mystgar~
+This ring symbolizes the wearer's subservience to Mystgar.~
+~
+jewelry ASU AB
+0 0 0 0 0
+25 10 3850 P
+A
+20 -2
+A
+12 15
+#2740
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none C A
+0 0 0 0 0
+0 100 0 P
+#0
+
+#ROOMS
+#2700
+A Forest Path~
+You are walking through a verdant green forest. You hear the birds
+singing in the background and the pure, fresh air fills your lungs
+and invigorates you.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 2701
+D1
+Exit ~
+door~
+16384 0 323
+S
+#2701
+A Forest Path~
+But as you walk further into the forest, something seems to change
+in the atmosphere. The forest is still beautiful, but you begin to
+sense something strange, something unnatural.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 2702
+D2
+Exit ~
+door~
+16384 0 2700
+S
+#2702
+A Split in the Path~
+Deeper now in the forest, the uneasy feeling you have is getting
+stronger and stronger. Something about this forest is definitely
+not right. The tall trees have started looking malevolent, and the
+sounds of the birds singing have almost become screams of agony.
+The path splits into three here.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 2705
+D1
+Exit ~
+door~
+16384 0 2704
+D2
+Exit ~
+door~
+16384 0 2701
+D3
+Exit ~
+door~
+16384 0 2703
+S
+#2703
+A Dark Path~
+The path between the trees meanders aimlessly, as if made by a
+drunk. The trees and bushes seem to become a cage, closing you in.
+Your feeling of caution becomes one of fear as you realize you are
+being watched.
+~
+0 A 3
+D1
+Exit ~
+door~
+16384 0 2702
+D3
+Exit ~
+door~
+16384 0 2706
+S
+#2704
+A Dark Path~
+The path between the trees meanders aimlessly, as if made by a
+drunk. The trees and bushes seem to become a cage, closing you in.
+Your feeling of caution becomes one of fear as you realize you are
+being watched.
+~
+0 A 3
+D0
+Exit ~
+door~
+16384 0 2707
+D3
+Exit ~
+door~
+16384 0 2702
+S
+#2705
+A Dark Path~
+The path between the trees meanders aimlessly, as if made by a
+drunk. The trees and bushes seem to become a cage, closing you in.
+Your feeling of caution becomes one of fear as you realize you are
+being watched.
+~
+0 A 3
+D0
+Exit ~
+door~
+16384 0 2709
+D2
+Exit ~
+door~
+16384 0 2702
+S
+#2706
+The Meandering Path~
+You follow the wandering path deeper into the creepy forest. As you
+progress, you notice that not only have the trees and undergrowth
+become dark and malevolent, but the animal life has as well. You
+notice several strange, misshaped forms running through the
+shadows. You sense they're not nearly as timid as you'd like them
+to be.
+~
+0 A 3
+D0
+Exit ~
+door~
+16384 0 2708
+D1
+Exit ~
+door~
+16384 0 2703
+S
+#2707
+The Meandering Path~
+You follow the wandering path deeper into the creepy forest. As you
+progress, you notice that not only have the trees and undergrowth
+become dark and malevolent, but the animal life has as well. You
+notice several strange, misshaped forms running through the
+shadows. You sense they're not nearly as timid as you'd like them
+to be.
+~
+0 A 3
+D1
+Exit ~
+door~
+16384 0 2710
+D2
+Exit ~
+door~
+16384 0 2704
+S
+#2708
+The Path Continues~
+Off in the distance of the dark woods, you see the path making its
+way gradually up the hill. This deep in the forest, even the air
+has taken on a foul, unnatural smell. You boldly continue your
+exploration.
+~
+0 A 3
+D2
+Exit ~
+door~
+16384 0 2706
+D3
+Exit ~
+door~
+16384 0 2711
+S
+#2709
+The Meandering Path~
+You follow the wandering path deeper into the creepy forest. As you
+progress, you notice that not only have the trees and undergrowth
+become dark and malevolent, but the animal life has as well. You
+notice several strange, misshaped forms running through the
+shadows. You sense they're not nearly as timid as you'd like them
+to be.
+~
+0 A 3
+D2
+Exit ~
+door~
+16384 0 2705
+D3
+Exit ~
+door~
+16384 0 2712
+S
+#2710
+The Path Near the Stream~
+As you follow this aimless path through the dark woods, you notice
+even the scent in the air has become unnatural and impure. In the
+distance you begin to hear the sound of running water trickling
+along a stream.
+~
+0 A 3
+D0
+Exit ~
+door~
+16384 0 2713
+D3
+Exit ~
+door~
+16384 0 2707
+S
+#2711
+The Foot of the Hill~
+The thick canopy of trees and bushes all around you begins to thin
+as you ascend the hill. The feeling of surrounding evil is as
+intense as ever, though. The creatures you've encountered so far
+seem to have been changed, combined somehow with other creatures in
+a most hideous, evil fashion. The answers to these mysterious
+changes must be here somewhere.
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 2714
+D1
+Exit ~
+door~
+16384 0 2708
+S
+#2712
+The Thick Brush~
+The strange path turns abruptly into a valley between two hills,
+one of which looks very tall. The trees begin to thin out, and the
+light of the sun practically blinds you as you emerge from the dark
+canopy of trees. Unfortunately, the bushes and undergrowth
+thickens, so much that you almost lose the path in it.
+~
+0 A 3
+D0
+Exit ~
+door~
+16384 0 2715
+D1
+Exit ~
+door~
+16384 0 2709
+S
+#2713
+The Path by the Creek~
+The stream you heard has turned out to be a nearly empty, obviously
+polluted creek. The path follows the creek closely, so you follow
+it and hope none of the region's denizens notice you.
+~
+0 A 2
+D0
+Exit ~
+door~
+16384 0 2716
+D2
+Exit ~
+door~
+16384 0 2710
+S
+#2714
+Partway Up the Hill~
+The hill takes a much steeper angle as the treeline of the forest
+thins out, and the menacing vegetation that surrounded you becomes
+a path strewn with rocks. At least nothing can be hiding here now,
+can it?
+~
+0 0 5
+D2
+Exit ~
+door~
+16384 0 2711
+D3
+Exit ~
+door~
+16384 0 2717
+S
+#2715
+The Thick Brush~
+You plod your way through the thick plants, which have slowed your
+pace to a near crawl. Your noisy progress has attracted the
+attentions of other misshapen, foul creatures of this area. You
+hear them slashing their way through the bushes directly towards
+you.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 2712
+D3
+Exit ~
+door~
+16384 0 2718
+S
+#2716
+The Path by the Creek~
+The water in this part of the creek is so polluted that the
+skeletons of the few fish you see along its banks have begun to
+turn a corrupt, unnatural brown color. What sort of beast could
+survive in such a hideous place?
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 2719
+D2
+Exit ~
+door~
+16384 0 2713
+S
+#2717
+Nearing the Top of the Hill~
+As you scramble past large boulders littering the hillside, you see
+the top of the steep incline off in the distance. You also hear the
+unmistakable sounds of rocks being shifted by unknown, unseen
+beings. You warily prepare to defend yourself as you climb higher.
+~
+0 0 5
+D0
+Exit ~
+door~
+16384 0 2721
+D1
+Exit ~
+door~
+16384 0 2714
+S
+#2718
+The Dismal Swamp~
+The undergrowth begins to gradually thin as you continue your
+explorations. You sigh with relief as the brush clears enough to
+allow you to move freely, then groan with exasperation as you find
+yourself emerging into a murky swamp.
+~
+0 0 6
+D0
+Exit ~
+door~
+16384 0 2720
+D1
+Exit ~
+door~
+16384 0 2715
+S
+#2719
+The Start of the Creek~
+The path you are following begins to turn away from the foul creek,
+thankfully. The stench pouring out of its polluted waters was
+beginning to choke you. You see the source of the creek as it wends
+its way into a hill. The answers to the bizarre corruption of the
+surrounding countryside must lie within that hill somewhere.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 2724
+D2
+Exit ~
+door~
+16384 0 2716
+S
+#2720
+The Dismal Swamp~
+You stagger through the knee-deep water of the swamp, wondering
+what other horrors await you. The creatures in this strange place
+seem to have been altered, bonded to other creatures through an
+evil perversion of the art of magic. There must be a reason for
+this insanity.
+~
+0 0 6
+D0
+Exit ~
+door~
+16384 0 2722
+D2
+Exit ~
+door~
+16384 0 2718
+S
+#2721
+Near the Top~
+The rocks slip and slide under your feet as you approach the top of
+the hill. Just what you'd need is to get caught up in a rockfall.
+Or pushed off the edge, for that matter.
+~
+0 0 5
+D2
+Exit ~
+door~
+16384 0 2717
+D3
+Exit ~
+door~
+16384 0 2725
+S
+#2722
+The Marsh's End~
+The swampy vegetation begins to thin here, thankfully. You look for
+a convenient rock to sit and empty the filthy water that has been
+soaking inside your boots.
+~
+0 0 2
+D1
+Exit ~
+door~
+16384 0 2723
+D2
+Exit ~
+door~
+16384 0 2720
+S
+#2723
+A Dead End~
+You approach what seems to be a dead end in the valley. The path
+ends at a bridge between the two hills on either side of you, in a
+sheer cliff wall. The wall is far too steep to climb successfully.
+You contemplate having to turn back through the swamp when you spot
+what appears to be a small cave opening near the base of the wall.
+It may be possible to force your way through, if you can push a few
+rocks out of the way..
+~
+0 0 10
+D3
+Exit ~
+door~
+16384 0 2722
+D5
+Exit ~
+boulders~
+16387 0 2751
+E
+couple boulders~
+A couple of boulders block the entrance to a cave. Perhaps they can be pushed
+out of the way, opening the hole wide enough for you to fit through.
+~
+E
+rocks~
+Those aren't just rocks! They're huge boulders!
+~
+S
+#2724
+A Slight Incline~
+The path swings through a lightly forested area and begins to climb
+gently up the hill. Somewhere around here there must be some sort
+of a clue how to find the source of the corruption surrounding you.
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 2726
+D2
+Exit ~
+door~
+16384 0 2719
+S
+#2725
+A Different Approach~
+The path swings around to take a less steep approach to the peak.
+You sigh with relief, almost forgetting the feeling you have that
+something amongst the rocks is watching you intently.
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 2727
+D1
+Exit ~
+door~
+16384 0 2721
+S
+#2726
+A Steep Incline~
+Abruptly the trees thin as the path takes a far more steep slope up
+the hill. Fortunately the ground seems fairly stable under your
+feet, so you don't need to worry about winding up in a heap at the
+bottom.
+~
+0 0 4
+D2
+Exit ~
+door~
+16384 0 2724
+D3
+Exit ~
+door~
+16384 0 2730
+S
+#2727
+The Top of the Hill~
+Finally you reach the peak of the summit. This point offers you a
+breathtaking view of the surrounding countryside. You see strange
+groupings of trees, looking as though they grew in clumps and all
+other vegetation avoids them like the plague. The sights strengthen
+your belief that the place must have been engineered by some insane
+and frighteningly powerful mind.
+~
+0 0 4
+D1
+Exit ~
+door~
+16384 0 2728
+D2
+Exit ~
+door~
+16384 0 2725
+S
+#2728
+Along the Peak~
+As you progress along the rocky outcroppings, you see down below
+you a strange swamp, seemingly placed in the center of a valley
+between two hills. You hear weird, pained cries coming from the
+swamp below as you.. oops! You almost slip and plunge into the
+valley on a loose stone. Keep your eyes on what you're doing!
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 2729
+D3
+Exit ~
+door~
+16384 0 2727
+S
+#2729
+A Stable Footing~
+The rocks seem to become more stable as you follow the path along
+the ridge. The path seems to drop into a small valley connecting
+this hill with another, off in the distance. Perhaps there you'll
+be able to relax, to shake the feeling of hateful eyes following
+your every move.
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 2734
+D2
+Exit ~
+door~
+16384 0 2728
+S
+#2730
+A Featureless Slope~
+The vegetation thins even further as the path continues its steep
+climb. Only the grasses and a thick green slime coating the rocks
+around you remains. Your skin begins to crawl as you notice the
+slime move over the rocks and take an interest in you as you pass
+by.
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 2731
+D1
+Exit ~
+door~
+16384 0 2726
+S
+#2731
+A Spectacular Viewpoint~
+The path seems to level off here and begins making its way towards
+another hill off in the distance. Looking down, you see a strange
+valley below you.
+~
+0 0 4
+D2
+Exit ~
+door~
+16384 0 2730
+D3
+Exit ~
+door~
+16384 0 2732
+S
+#2732
+The Stone Bridge~
+You are walking on a natural stone bridge in between the two hills.
+It seems sturdy enough to support several people. You follow it for
+quite some time before you come to a large break in the bridge. It
+seems possible for you to jump across it to the other side, if you
+wish to try.
+~
+0 0 4
+D1
+Exit ~
+door~
+16384 0 2731
+D3
+Exit ~
+door~
+16384 0 2733
+S
+#2733
+Grabbing Desperately at the Far Side of the Bridge~
+It seems the gap was too wide for you to jump across after all. You
+plummet to the bottom of the valley, screaming horribly until the
+ground stops you.
+~
+0 AC 9
+S
+#2734
+Along the Cliffs~
+The path levels off as it rounds its way along the cliffs of the
+hill. One wrong step here and you may find yourself in little
+pieces at the bottom. Still, the path seems more than capable of
+holding you and whatever else happens to live in these barren
+hills.
+~
+0 0 5
+D0
+Exit ~
+door~
+16384 0 2735
+D2
+Exit ~
+door~
+16384 0 2729
+S
+#2735
+Approaching the Bridge~
+The path begins to move down from the summit of the hill as it
+winds its way towards what seems to be a large stone bridge leading
+to another hill in the distance. You hesitate to follow the path,
+but it must lead to something, perhaps to the explanation for the
+strange beasts you've encountered so far. You plod on.
+~
+0 0 4
+D1
+Exit ~
+door~
+16384 0 2736
+D2
+Exit ~
+door~
+16384 0 2734
+S
+#2736
+Approaching the Bridge~
+You see the start of the stone bridge off in front of you. You
+pause a moment to get your bearings and look around. The barren,
+rocky hill you are on clashes wildly with the lush, aggressive
+vegetations of the valley far below. There's no way that could
+possibly be natural. You continue along the path.
+~
+0 0 4
+D1
+Exit ~
+door~
+16384 0 2737
+D3
+Exit ~
+door~
+16384 0 2735
+S
+#2737
+At the Stone Bridge~
+You reach the stone bridge to the other hill, only to find the path
+you were following swings off to the north, avoiding the bridge
+completely. This is probably a good thing, since the bridge has a
+large visible gap in it. You doubt it could have held you up for
+very long. 
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 2738
+D3
+Exit ~
+door~
+16384 0 2736
+S
+#2738
+Approaching a Strange Hill~
+The path leads north to what appears to be a smaller hill which
+would have been inaccessible from the valley or the other hill.
+Unlike the hill you came from, this one seems to be surrounded by
+trees and other vegetation. You approach the hill cautiously.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 2739
+D2
+Exit ~
+door~
+16384 0 2737
+S
+#2739
+A Strange Hill~
+This is the most bizarre hill you've ever seen, even in this weird
+countryside. The rock of the hill seems almost alive, pulsating
+with a demonic energy. The hill seems to have no summit. Instead a
+strange red glow shines from the top. There appears to be no way
+inside the hill at this point. Perhaps if you were to circle the
+hill, you'd find a way in..
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 2740
+D2
+Exit ~
+door~
+16384 0 2738
+D3
+Exit ~
+door~
+16384 0 2741
+S
+#2740
+At the Strange Hill~
+Circling the strange hill, you still can't seem to find a way of
+gaining entry. What you do seem to be finding more and more of are
+bones, evidently human bones, and well-chewed ones at that.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 2748
+D3
+Exit ~
+door~
+16384 0 2739
+S
+#2741
+At the Strange Hill~
+Circling the strange hill, you still can't seem to find a way of
+gaining entry. What you do seem to be finding more and more of are
+bones, evidently human bones, and well-chewed ones at that.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 2742
+D1
+Exit ~
+door~
+16384 0 2739
+S
+#2742
+Circling the Hill~
+As you continue around the hill, you begin to hear a strange noise,
+like the grinding of metal on metal. The ground is still littered
+with bones. You begin to get an uneasy feeling..
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 2743
+D2
+Exit ~
+door~
+16384 0 2741
+S
+#2743
+Circling the Hill~
+The bizarre noise you hear is getting louder, beginning to ring in
+your ears. The corpses here are relatively fresh, and haven't yet
+begun to decay. In fact, a couple of them aren't quite dead yet.
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 2744
+D2
+Exit ~
+door~
+16384 0 2742
+S
+#2744
+The Far Side of the Hill~
+You make your way around another corner of the hill. So far you
+haven't seen any entrances. The grinding noise has now become
+deafening. Pools of blood lie on the ground in several places. You
+clasp your weapon tightly and forge ahead.
+~
+0 0 4
+D1
+Exit ~
+door~
+16384 0 2745
+D2
+Exit ~
+door~
+16384 0 2743
+S
+#2745
+The Entrance to the Hill~
+At last you find a crevice in the rocks of the hill that you can
+crawl through. It seems like all the noise and light are definitely
+coming from inside. Unfortunately, whatever killed everything
+you've seen around here also is inside.
+~
+0 0 4
+D1
+Exit ~
+door~
+16384 0 2746
+D2
+Exit ~
+door~
+16384 0 2749
+D3
+Exit ~
+door~
+16384 0 2744
+S
+#2746
+The Far Side of the Hill~
+You make your way around another corner of the hill. So far you
+haven't seen any entrances. The grinding noise has now become
+deafening. Pools of blood lie on the ground in several places. You
+clasp your weapon tightly and forge ahead.
+~
+0 0 4
+D2
+Exit ~
+door~
+16384 0 2747
+D3
+Exit ~
+door~
+16384 0 2745
+S
+#2747
+Circling the Hill~
+The bizarre noise you hear is getting louder, beginning to ring in
+your ears. The corpses here are relatively fresh, and haven't yet
+begun to decay. In fact, a couple of them aren't quite dead yet.
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 2746
+D2
+Exit ~
+door~
+16384 0 2748
+S
+#2748
+Circling the Hill~
+As you continue around the hill, you begin to hear a strange noise,
+like the grinding of metal on metal. The ground is still littered
+with bones. You begin to get an uneasy feeling..
+~
+0 0 4
+D0
+Exit ~
+door~
+16384 0 2747
+D2
+Exit ~
+door~
+16384 0 2740
+S
+#2749
+Amongst the Rocks~
+As you pass through the rocks into the interior of the hill, the
+grinding noise becomes so loud you can feel the earth shaking. You
+recognize the noise now as the roaring of a gargoyle, but how can
+it be so intensely loud? 
+~
+0 A 5
+D0
+Exit ~
+door~
+16384 0 2745
+D2
+Exit ~
+door~
+16384 0 2750
+S
+#2750
+The Gargoyle's Lair~
+That's how it can be so loud. This gargoyle is enormous! Despite
+the shimmering white light coming from it, you sense its nature is
+one of pure evil. It tosses aside the corpse it was munching on,
+which seemed to be a cow at some point, and promptly closes on you,
+roaring with the anticipation of adding you to its dinner menu.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 2749
+S
+#2751
+A Crevice in the Rocks~
+You find yourself in a claustrophobic, cramped tunnel leading
+downwards into the bowels of the earth. It is very quiet, unusually
+quiet for a cave.
+~
+0 AD 4
+D4
+Exit ~
+boulders~
+16387 0 2723
+D5
+Exit ~
+door~
+16384 0 2752
+S
+#2752
+A Dark Chamber~
+The small tunnel opens into a much larger chamber, which can only
+have been man-made. This chamber has openings leading to the north,
+east, and west, each with a large barricade blocking it. This
+chamber also has a guard, suggesting that you may finally be on the
+track of whoever is responsible for the mutated creatures you've
+encountered.
+~
+0 AD 10
+D0
+Exit ~
+north barricade~
+16391 2710 2754
+D1
+Exit ~
+east barricade~
+16391 2711 2753
+D3
+Exit ~
+west barricade~
+16391 2709 2755
+D4
+Exit ~
+door~
+16384 0 2751
+S
+#2753
+A Cave Passage~
+This passage has a less artificial look to it. Most of this system
+was probably a natural cave, with man-made areas added to it. It's
+more like a typical cave; damp, dreary and spooky. You hear distant
+sounds of movement and dripping water echoing through the cave
+complex.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 2756
+D3
+Exit ~
+east barricade~
+16391 2711 2752
+S
+#2754
+A Cave Passage~
+This passage has a less artificial look to it. Most of this system
+was probably a natural cave, with man-made areas added to it. It's
+more like a typical cave; damp, dreary and spooky. You hear distant
+sounds of movement and dripping water echoing through the cave
+complex.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2757
+D2
+Exit ~
+north barricade~
+16391 2710 2752
+S
+#2755
+A Cave Passage~
+This passage has a less artificial look to it. Most of this system
+was probably a natural cave, with man-made areas added to it. It's
+more like a typical cave; damp, dreary and spooky. You hear distant
+sounds of movement and dripping water echoing through the cave
+complex.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2758
+D1
+Exit ~
+west barricade~
+16391 2709 2752
+S
+#2756
+A Cave Passage~
+The passage in the cave turns a corner here, as the way east is
+blocked by immense stalagmites. You tread through collected puddles
+of murky water as you continue along the passage.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2759
+D3
+Exit ~
+door~
+16384 0 2753
+S
+#2757
+A Wider Passage~
+The passage you are following seems to widen here, thankfully. The
+air is becoming more and more damp as you progress down the tunnel,
+and the muddy puddles you keep stepping in seem to become more and
+more abundant.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2760
+D2
+Exit ~
+door~
+16384 0 2754
+S
+#2758
+A Passage in the Cave~
+A wall of solid rock forces the passage you are following to turn
+north. As you continue onwards, you sense something watching you in
+the darkness, but as you shine your light around you, you see
+nothing.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2761
+D2
+Exit ~
+door~
+16384 0 2755
+S
+#2759
+A Passage through the Caves~
+You follow the passageway deeper into the caves. The passage is
+dimly lit by luminescent lichens along the walls, but not so much
+that you don't need a light source of your own. Your heart seems to
+pound in your chest as you hear the distant and not-so-distant
+roars and cries of strange creatures.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2765
+D2
+Exit ~
+door~
+16384 0 2756
+S
+#2760
+The Entrance to a Cavern~
+The passage opens up into a huge cavern, which seems to be mostly
+full of water. Presumably there is a path ahead where you can wade
+or swim. As you look around, you can see occasional flashes of
+movement in the dismal darkness, as well as several passages shaped
+into the cavern walls leading to other parts of the cave system.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2769
+D1
+Exit ~
+door~
+16384 0 2764
+D2
+Exit ~
+door~
+16384 0 2757
+D3
+Exit ~
+door~
+16384 0 2763
+S
+#2761
+A Passage in the Cave~
+You find yourself stumbling and tripping over small outcrops of
+rock as you continue down the passage. Judging from the roughness
+of the walls surrounding you, this must be a natural tunnel through
+the caves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2762
+D2
+Exit ~
+door~
+16384 0 2758
+S
+#2762
+A Passage in the Cave~
+You find yourself stumbling and tripping over small outcrops of
+rock as you continue down the passage. Judging from the roughness
+of the walls surrounding you, this must be a natural tunnel through
+the caves.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2767
+D2
+Exit ~
+door~
+16384 0 2761
+S
+#2763
+A Dry Part of the Cavern~
+You walk along a rock outcropping in the huge cavern. Around you,
+the rest of the cavern seems to be full of water, hopefully not
+deep enough for you to drown in.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2768
+D1
+Exit ~
+door~
+16384 0 2760
+S
+#2764
+A Dry Part of the Cavern~
+You walk along a rock outcropping in the huge cavern. Around you,
+the rest of the cavern seems to be full of water, hopefully not
+deep enough for you to drown in.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2770
+D1
+Exit ~
+door~
+16384 0 2766
+D3
+Exit ~
+door~
+16384 0 2760
+S
+#2765
+The Malevolent Passage~
+Looking around, you see not only a set of strange stalactites
+hanging threateningly above you, ready to drop through the top of
+your head at any moment, but also a ledge about fifteen feet above,
+where any number of creatures could be lurking, waiting for the
+proper moment to leap down at you.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2766
+D2
+Exit ~
+door~
+16384 0 2759
+S
+#2766
+The Malevolent Passage~
+You continue carefully and quietly along the passage. Ahead in the
+dim light, you see other passages branching off, leading elsewhere.
+You hear the sounds of water dripping coming from them. You creep
+closer, trying to avoid any other monstrosities which may be hiding
+above you.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2783
+D2
+Exit ~
+door~
+16384 0 2765
+D3
+Exit ~
+door~
+16384 0 2764
+S
+#2767
+A Long Passage~
+In the distance at the end of this long passage, you see dim,
+flickering light, made by torches. Perhaps you are finally getting
+closer to the ones responsible for the changes in the wildlife of
+the area. You move on as quickly and quietly as you can.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2780
+D2
+Exit ~
+door~
+16384 0 2762
+S
+#2768
+The Cavern~
+You wade out into the water, which at this point only comes up to
+your knees. Under the water's surface, you see small fish, some
+sending off a glow in the darkness to light their way. Here and
+there you see much larger fish..
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2771
+D1
+Exit ~
+door~
+16384 0 2769
+D2
+Exit ~
+door~
+16384 0 2763
+S
+#2769
+The Cavern~
+You wade out into the water, which at this point only comes up to
+your knees. Under the water's surface, you see small fish, some
+sending off a glow in the darkness to light their way. Here and
+there you see much larger fish..
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2772
+D1
+Exit ~
+door~
+16384 0 2770
+D2
+Exit ~
+door~
+16384 0 2760
+D3
+Exit ~
+door~
+16384 0 2768
+S
+#2770
+The Cavern~
+You wade out into the water, which at this point only comes up to
+your knees. Under the water's surface, you see small fish, some
+sending off a glow in the darkness to light their way. Here and
+there you see much larger fish..
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2773
+D2
+Exit ~
+door~
+16384 0 2764
+D3
+Exit ~
+door~
+16384 0 2769
+S
+#2771
+The Cavern~
+The water in the cavern becomes much deeper and murkier here.
+Strange noises echo eerily through the enormous chamber, almost
+sounding like a chant. You plow ahead through the muddy, freezing
+water.
+~
+0 AD 6
+D0
+Exit ~
+door~
+16384 0 2776
+D1
+Exit ~
+door~
+16384 0 2772
+D2
+Exit ~
+door~
+16384 0 2768
+S
+#2772
+The Cavern~
+The water in the cavern becomes much deeper and murkier here.
+Strange noises echo eerily through the enormous chamber, almost
+sounding like a chant. You plow ahead through the muddy, freezing
+water.
+~
+0 AD 6
+D0
+Exit ~
+door~
+16384 0 2775
+D1
+Exit ~
+door~
+16384 0 2773
+D2
+Exit ~
+door~
+16384 0 2769
+D3
+Exit ~
+door~
+16384 0 2771
+S
+#2773
+The Cavern~
+The water in the cavern becomes much deeper and murkier here.
+Strange noises echo eerily through the enormous chamber, almost
+sounding like a chant. You plow ahead through the muddy, freezing
+water.
+~
+0 AD 6
+D0
+Exit ~
+door~
+16384 0 2774
+D2
+Exit ~
+door~
+16384 0 2770
+D3
+Exit ~
+door~
+16384 0 2772
+S
+#2774
+The Cavern~
+The strange chanting seems to be getting louder. You drag your
+waterlogged armor towards its source and hope not to meet any more
+of the cave's hostile denizens.
+~
+0 AD 6
+D0
+Exit ~
+door~
+16384 0 2779
+D1
+Exit ~
+door~
+16384 0 2785
+D2
+Exit ~
+door~
+16384 0 2773
+D3
+Exit ~
+door~
+16384 0 2775
+S
+#2775
+The Cavern~
+The strange chanting seems to be getting louder. You drag your
+waterlogged armor towards its source and hope not to meet any more
+of the cave's hostile denizens.
+~
+0 AD 6
+D0
+Exit ~
+door~
+16384 0 2778
+D1
+Exit ~
+door~
+16384 0 2774
+D2
+Exit ~
+door~
+16384 0 2772
+D3
+Exit ~
+door~
+16384 0 2776
+S
+#2776
+The Cavern~
+The strange chanting seems to be getting louder. You drag your
+waterlogged armor towards its source and hope not to meet any more
+of the cave's hostile denizens.
+~
+0 AD 6
+D0
+Exit ~
+door~
+16384 0 2777
+D1
+Exit ~
+door~
+16384 0 2775
+D2
+Exit ~
+door~
+16384 0 2771
+S
+#2777
+The Cavern~
+The chanting seems to be coming from someplace to the east. To the
+north, you seem to hear the sound of a distant whirlpool. You still
+can't see very much in the dank, shadowy reaches of the cavern
+except for the occasional spot of luminescence which shows you
+virtually nothing.
+~
+0 AD 6
+D0
+Exit ~
+door~
+16384 0 2788
+D1
+Exit ~
+door~
+16384 0 2778
+D2
+Exit ~
+door~
+16384 0 2776
+S
+#2778
+The Church of the Master Mage~
+You find a small, musty building in the cave. Entering, you find it
+is as flooded as the rest of the cavern. It seems to be a temple of
+some sort, devoted to the worship of a strange deity which holds
+the power of life and death over the inhabitants of the caves. The
+deity's servants are not pleased at your interruption of their
+homage to their god.
+~
+0 AD 6
+D0
+Exit ~
+door~
+16384 0 2789
+D1
+Exit ~
+door~
+16384 0 2779
+D2
+Exit ~
+door~
+16384 0 2775
+D3
+Exit ~
+door~
+16384 0 2777
+S
+#2779
+The Cavern~
+The chanting you hear seems to be emanating from someplace to the
+west. All you seem to be able to make out as you look west are
+black blotches. Then again, that's all you really are able to see
+whatever direction you look.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2790
+D2
+Exit ~
+door~
+16384 0 2774
+D3
+Exit ~
+door~
+16384 0 2778
+S
+#2780
+A Long Passage~
+The tunnel continues for quite some time. The look of this section
+seems to indicate it was man-made, or at least humanoid-made. You
+follow the tunnel towards the source of the light.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2781
+D2
+Exit ~
+door~
+16384 0 2767
+S
+#2781
+A Long Passage~
+This tunnel is obviously longer than you first thought. It seems
+you're not really getting much closer to the source of the strange
+light ahead. You continue on undeterred.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2782
+D2
+Exit ~
+door~
+16384 0 2780
+S
+#2782
+A Fork in the Tunnel~
+You finally reach what seems to be the end of the tunnel. The light
+source is here, evidently some sort of magical light. Looking
+behind you, you see the tunnel you came from twisting and bending
+in a sickening manner. It seems the area's creator had used
+illusion to make the tunnel seem much longer than it actually is.
+To your left, a smaller passage branches off into the darkness.
+~
+0 AD 0
+D2
+Exit ~
+door~
+16384 0 2781
+D3
+Exit ~
+door~
+16384 0 2787
+S
+#2783
+The Dismal Passage~
+The ledge above your head seems to vanish into the darkness looming
+over you as the tunnel continues. Your light source doesn't seem to
+illuminate anything more than ten feet above you. Anything could be
+hiding up there.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2784
+D2
+Exit ~
+door~
+16384 0 2766
+S
+#2784
+The Dismal Passage~
+The ledge above your head seems to vanish into the darkness looming
+over you as the tunnel continues. Your light source doesn't seem to
+illuminate anything more than ten feet above you. Anything could be
+hiding up there.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2785
+D2
+Exit ~
+door~
+16384 0 2783
+S
+#2785
+A Dismal Tunnel~
+A small tunnel branches off to the west here as the main tunnel
+ends. You can't seem to see anything down it, but you can clearly
+hear the sound of dripping water echoing. You also hear the cries
+of monstrous creatures from the darkness.
+~
+0 AD 0
+D2
+Exit ~
+door~
+16384 0 2784
+D3
+Exit ~
+door~
+16384 0 2774
+S
+#2786
+The Room of Illusions~
+You feel sick to your stomach as the room begins to bend and fold
+all around you, distorting its dimensions and ignoring the laws of
+physics. The floor seems to be trying to engulf you as the ceiling
+seems to drop down at you an inch at a time. Struggling valiantly
+against the illusions, you make your way towards what seems to be
+a portal, fighting the sickening feelings of falling and swimming
+through mid-air.
+~
+0 ACD 9
+S
+#2787
+A Narrow Tunnel~
+As you walk down the narrow passage, you suddenly find yourself
+tripping over something, a short ridge of rock or something.
+Suddenly the roof begins to cave in behind you with a deafening
+crash. You cough the dust the cavein has kicked up out of your
+lungs and turn to find the fallen rocks have completely sealed off
+the way back. You turn around, only to find the passage is a dead
+end. You are trapped.
+~
+0 ACD 0
+S
+#2788
+The Cavern Wall~
+To the north you see a small hole in the cavern wall. A deep
+roaring of rushing water comes from within. Your light reveals
+nothing as you look into the cramped passageway. The water around your
+legs seems drawn into the hole.
+~
+0 AD 6
+D0
+Exit ~
+door~
+16384 0 2796
+D1
+Exit ~
+door~
+16384 0 2789
+D2
+Exit ~
+door~
+16384 0 2777
+S
+#2789
+The Cavern Wall~
+To your south, you hear a chanting, reminiscent of the chanting of
+monks in a monastery. You make out the dark silhouette of a small
+building against the surrounding blackness. To the north there
+seems to be a shaft leading out of the vast cavern. It's so dark
+you have no way of knowing how stable the shaft is or if there's
+anything waiting for you. Should you risk it?
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2798
+D1
+Exit ~
+door~
+16384 0 2790
+D2
+Exit ~
+door~
+16384 0 2778
+D3
+Exit ~
+door~
+16384 0 2788
+S
+#2790
+The Cavern Wall~
+Your light reveals the walls of the cavern just before you walk
+into them. You seem to be at the extreme northeast of the cave.
+There are no obvious exits, just sheer rock wall and water up to
+your knees.
+~
+0 AD 6
+D2
+Exit ~
+door~
+16384 0 2779
+D3
+Exit ~
+door~
+16384 0 2789
+S
+#2791
+The Grey Room~
+You find yourself inside a large room. The room seems to be made
+from the same light-absorbing polished rock you encountered before,
+only here it is a dull greyish color. It seems to become lighter
+towards the west of the chamber and darker to the east.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 2793
+D3
+Exit ~
+door~
+16384 0 2792
+S
+#2792
+The White Room~
+The rock in this room seems to almost glow with an inner white
+light. In fact, it has become so bright you have to squint, and can
+barely make out the figure clad in white in the middle of the room.
+She has been awaiting your arrival.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 2791
+S
+#2793
+The Black Room~
+The rock of the walls becomes darker and darker, absorbing all the
+light your light source puts out. You gape uselessly into the
+darkness, hardly noticing the dark-clad form swooping down to
+attack you..
+~
+0 AD 0
+D3
+Exit ~
+door~
+16384 0 2791
+S
+#2794
+Mystgar's Laboratory~
+You have entered what seems to be a mage's laboratory. Various
+potions and chemicals steam and bubble within bottles and long
+glass tubes. Cages along the walls contain several normal-looking
+but pathetically underfed animals. Containers hold various powdery,
+foul-smelling ingredients for magic spells. The air is almost
+electric with the overwhelming magic in this room.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 2795
+S
+#2795
+Mystgar's Laboratory~
+Here you find the source of the magic and the destruction of the
+nearby countryside. Mystgar is a middle-aged but well-preserved
+magician clad in black robes. His eyes bulge wildly with insanity
+and evil. He is shocked at your arrival. "How did YOU get in here
+past my guards?? No matter, you have come to your doom!" he cries.
+~
+0 AD 0
+D2
+Exit ~
+door~
+16384 0 2794
+S
+#2796
+The Rushing Waters~
+Water swirls and flows around you as you make your way down the
+narrow passage. Occasionally you find yourself gasping for breath
+as the rushing water splashes up and over you. The water is indeed
+foul, probably having been used as a sewer before you arrived.
+~
+0 AD 6
+D2
+Exit ~
+door~
+16384 0 2788
+D3
+Exit ~
+door~
+16384 0 2797
+S
+#2797
+The Whirlpool~
+You are unable to fight against the current of the rushing water
+any longer as it overwhelms you and pulls you in. You watch
+helplessly as you are dragged down into a huge whirlpool and
+dragged underneath the water's surface.
+~
+0 ACD 6
+S
+#2798
+A Jet Black Room~
+The walls of the shaft seem to be made from a very dark, polished
+rock that seems to absorb most of the light. As far as you can
+tell, the floor of this room is surprisingly stable. It leads to
+the north, into a glowing portal. You cannot see a wall behind the
+portal. A sign is on the wall.
+~
+0 AD 0
+D2
+Exit ~
+door~
+16384 0 2789
+E
+sign~
+The sign says, "Go no further if you are not powerful and sure of your
+strength, for death will surely greet you."
+~
+S
+#2799
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 2800
+S
+#2800
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 2799
+S
+#0
+
+#RESETS
+M 0 2701   1 2705  1	* a squirrel-rabbit
+M 0 2701   2 2706  1	* a squirrel-rabbit
+M 0 2702   1 2714  1	* a spider crab
+M 0 2703   1 2717  1	* a unicorn goat
+M 0 2704   1 2715  1	* a lizard shark
+M 0 2705   1 2720  1	* a frog snake
+M 0 2708   1 2701  1	* a giant beetle
+M 0 2706   2 2713  1	* a piranha beast
+G 1 2702  -1     	*   blue caviar
+M 0 2707   1 2716  1	* a piranha beast warrior
+G 1 2704  -1     	*   green caviar
+E 1 2700  -1   16	*   a set of piranha teeth
+E 1 2701  -1    7	*   a clamshell loincloth
+M 0 2706   2 2716  1	* a piranha beast
+G 1 2705  -1     	*   purple caviar
+G 1 2703  -1     	*   red caviar
+M 0 2709   1 2726  1	* a rolling boulder
+M 0 2710   1 2730  1	* a green ooze
+M 0 2711   1 2722  1	* a snapping turtle
+E 1 2706  -1   11	*   a turtle's half-shell
+M 0 2713   1 2729  1	* a wolf spider
+M 0 2714   1 2734  1	* a sparrow eagle
+E 1 2708  -1   16	*   an eagle claw
+M 0 2715   1 2740  1	* a half-eaten corpse
+M 0 2715   2 2741  1	* a half-eaten corpse
+M 0 2716   1 2743  1	* a half-eaten elf
+M 0 2717   1 2750  1	* an enormous gargoyle
+M 0 2718   1 2747  1	* skeletal remains
+D 0 2723   5 16385	* A Dead End down
+D 0 2751   4 16385	* A Crevice in the Rocks up
+D 0 2755   1 16386	* A Cave Passage east
+D 0 2754   2 16386	* A Cave Passage south
+D 0 2753   3 16386	* A Cave Passage west
+M 0 2719   1 2752  1	* a tetraps
+E 1 2707  -1   17	*   a key ring
+P 1 2710  -1 2707  1	*   the north key
+P 1 2709  -1 2707  1	*   the west key
+P 1 2711  -1 2707  1	*   the east key
+D 0 2752   0 16386	* A Dark Chamber north
+D 0 2752   1 16386	* A Dark Chamber east
+D 0 2752   3 16386	* A Dark Chamber west
+M 0 2720   1 2758  1	* a giant bat
+M 0 2720   2 2756  1	* a giant bat
+M 0 2721   1 2765  1	* a cave crawler
+O 0 2712 100 2765	* a stalactite
+M 0 2722   1 2770  1	* a luminescent fish
+M 0 2722   2 2768  1	* a luminescent fish
+M 0 2723   1 2767  1	* a vampire rat
+M 0 2724   1 2775  1	* a miniature shark
+M 0 2728   2 2778  2	* a piranha beast acolyte
+E 1 2714  -1   17	*   a piece of the Church's Holy Parchment
+M 0 2728   2 2778  2	* a piranha beast acolyte
+M 0 2729   1 2778  1	* the Priest of the Holy Mage
+E 1 2713  -1    3	*   a priest's cowl
+M 0 2730   1 2784  1	* a snake bat
+E 1 2715  -1   17	*   a hollow snake's tooth
+O 0 2716 100 2798	* a shining portal
+M 0 2731   1 2786  1	* Mystgar's Guard
+E 1 2724  -1   16	*   a heavy whip
+O 0 2717 100 2786	* a wavering portal
+M 0 2732   1 2792  1	* Angelica, Avatar of the Light
+E 1 2727  -1   16	*   the flail of the Magi
+E 1 2726  -1   11	*   a brilliant white shield
+E 1 2725  -1    8	*   white boots
+O 0 2718 100 2792	* a brilliant portal
+M 0 2733   1 2793  1	* Diabolica, Avatar of Darkness
+E 1 2730  -1   17	*   a wand of darkness
+E 1 2729  -1    7	*   black leather leggings
+E 1 2728  -1   12	*   a black leather corset
+O 0 2718 100 2793	* a brilliant portal
+M 0 2734   1 2795  1	* Mystgar
+E 1 2733  -1   16	*   the staff of the Magi
+E 1 2732  -1   18	*   a pitch black stone
+E 1 2731  -1   12	*   a black mage's robe
+E 1 2723  -1   13	*   a mage's pouch
+P 1 2720  -1 2723  1	*   a mage's scroll
+P 1 2721  -1 2723  1	*   a mage's scroll
+P 1 2722  -1 2723  1	*   a mage's scroll
+O 0 2719 100 2795	* a portal to freedom
+M 0 2712   1 2725  1	* an invisible ogre
+E 1 2734  -1   17	*   the blood of an invisible ogre
+M 0 2700   2 2704  1	* a carnivorous tree
+E 1 2735  -1   16	*   a tree branch
+M 0 2700   2 2703  1	* a carnivorous tree
+E 1 2737  -1   13	*   a belt of tree bark
+M 0 2727   1 2779  1	* a baby piranha beast
+E 1 2736  -1   17	*   a fishscale rattle
+M 0 2726   4 2779  2	* a female piranha beast
+E 1 2738  -1    3	*   a necklace of fish teeth
+M 0 2726   4 2779  2	* a female piranha beast
+M 0 2725   2 2779  1	* a male piranha beast
+M 0 2725   2 2777  1	* a male piranha beast
+E 1 2739  -1    1	*   a ring of Mystgar
+M 0 2726   4 2777  2	* a female piranha beast
+M 0 2726   4 2777  2	* a female piranha beast
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 2705 spec_poison         	* a frog snake
+M 2710 spec_poison         	* a green ooze
+M 2713 spec_poison         	* a wolf spider
+M 2715 spec_cast_undead    	* a half-eaten corpse
+M 2716 spec_cast_mage      	* a half-eaten elf
+M 2717 spec_cast_dispel    	* an enormous gargoyle
+M 2719 spec_cast_judge     	* a tetraps
+M 2720 spec_poison         	* a giant bat
+M 2727 spec_poison         	* a baby piranha beast
+M 2729 spec_cast_cleric    	* the Priest of the Holy Mage
+M 2732 spec_cast_dispel    	* Angelica, Avatar of the Light
+M 2734 spec_cast_mage      	* Mystgar
+S
+
+#$

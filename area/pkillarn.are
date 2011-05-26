@@ -1,0 +1,2169 @@
+#AREA
+/mud/moosehead/area/pkillarn.are~
+The BloodBath~
+{Quest} NobzPal The BloodBath~
+700 730
+
+#MOBILES
+#700
+War Priest~
+a war priest~
+A Priest of War is here selling spells and potions.
+~
+This old man looks like he could womp your butt here anyday.  A veteran
+of the bloodbaths he's come back just to watch and to give Pal a hand.
+He'll sell you spells at discount prices, so don't bug me. ;)  -Pal
+~
+dwarf~
+(null)~
+(null)~
+(null)~
+ABGQUVac DFHTVZc 0 0
+51 100 50d10+5500 100d100+100 50d1+50 divine
+-50 -50 -50 -50
+ABEFHKU ABCD 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+#0
+
+#OBJECTS
+#700
+j1~
+Far below you, vast basalt cliffs descend into an ultramarine sea.~
+Generic Description~
+air~
+trash 0 0
+0 0 0 0 0
+1 1 0 P
+#701
+j2~
+Its turbulent waves rush to meet an ivory beach. Their ebb and flow~
+Generic Description~
+air~
+trash 0 0
+0 0 0 0 0
+1 1 0 P
+#702
+j3~
+traces mystic patterns across the shimmering sands. Wisps of mist~
+Generic Description~
+air~
+trash 0 0
+0 0 0 0 0
+1 1 0 P
+#703
+j4~
+rise off a dense forest that encompasses the beach. From this view,~
+Generic Description~
+air~
+trash 0 0
+0 0 0 0 0
+1 1 0 P
+#704
+j5~
+its shimmering sands create a perfect crescent moon. Bilious clouds~
+Generic Description~
+air~
+trash 0 0
+0 0 0 0 0
+1 1 0 P
+#705
+j6~
+swiftly shift across an azure sky and cast surreal shadows upon the~
+Generic Description~
+air~
+trash 0 0
+0 0 0 0 0
+1 1 0 P
+#706
+j7~
+restless sea. A chill breeze caresses your skin and carries on it~
+Generic Description~
+air~
+trash 0 0
+0 0 0 0 0
+1 1 0 P
+#707
+j8~
+the tangy scent of salt. It whispers to you, the soft cadence of~
+Generic Description~
+air~
+trash 0 0
+0 0 0 0 0
+1 1 0 P
+#708
+j9~
+waves resounding off the beach.~
+Generic Description~
+air~
+trash 0 0
+0 0 0 0 0
+1 1 0 P
+#709
+town portal~
+a town portal~
+A shimmering portal leading to town stands here.~
+magic~
+portal AORSTY 0
+0 CFG 0 3014 22002
+0 10 1 P
+E
+Town Portal Midgaard Square Townsquare City~
+This portal will lead to the Market Square of Midgaard.  To enter just type
+ `Enter Portal'.  If you find you cannot enter you should check to see if you
+ are cursed or you are wearing a item that bestows a curse apon you.  If you
+ leave the Bloodbath via this portal after the bath has started, you are
+ considered to have been disqualified and cannot enter back into the current
+ Bloodbath.  Fare thee well...
+ .
+-Pal
+~
+#710
+Sanctuary Potion~
+a sanct potion~
+A Sanct potion is here, quaff up!~
+Glass an Entrails~
+potion AGHPSTUZ AO
+54 'sanctuary' '' '' ''
+25 100 5000 P
+A
+5 -2
+F
+A 0 0 K
+E
+Sanctuary Potion~
+A Sanctuary potion made by Palibar for the bloodbath.  It's ingrediants
+include, but arn't limited to, blood, guts, brains, rotting flesh, puke,
+maybe a bit of old sock, and just a pinch of thyme.
+~
+#711
+Vial Unholy Water~
+some unholy water~
+A vial of unholy water curropts the ground it rests apon.~
+Larva~
+potion AEFGHJLPSTUZ A
+54 'giant strength' 'protection good' 'poison' ''
+25 100 3000 P
+E
+Vial Unholy Water~
+A vial of unholy water, made with the dried blood of the victoms that have
+dies in the Bloodbath.  Cursed by the gods Maclav and Tisha, it is bound
+to curropt any mortal soul with the utter power it promises.
+~
+#712
+Dragon Meat Jerkey Dried Dry~
+some dragon jerky~
+Some Dragon jerky is here, eat up!~
+Red Dragon~
+food SY AO
+30 30 0 0 0
+0 10 25 P
+E
+Dragon Meat Jerkey Dried Dry~
+Mmmm Mmm MMMMM!  This must be the stuff Pal is munching on all the time, 
+grade A, top O' the line Dragon Jerkey!  Skinned from the very best of 
+players who take part in his bloodbaths..  Enjoy, your eating the breakfast
+of champions here. ;)
+~
+#713
+Honor~
+the hazy mist~
+~
+~
+portal ORSTY P
+0 0 0 4300 0
+0 100 0 P
+#714
+Demise~
+the hazy mist~
+~
+~
+portal ORSTY P
+0 0 0 4201 0
+0 100 0 P
+#715
+Balance~
+the hazy mist~
+~
+~
+portal ORSTY P
+0 0 0 4500 0
+0 100 0 P
+#716
+Circle~
+the hazy mist~
+~
+~
+portal ORSTY P
+0 0 0 4400 0
+0 100 0 P
+#717
+Riders~
+the hazy mist~
+~
+~
+portal ORSTY P
+0 0 0 6902 0
+0 100 0 P
+#718
+Posse~
+the hazy mist~
+~
+~
+portal ORSTY P
+0 0 0 4701 0
+0 100 0 P
+#719
+Pamphlet Newsletter Paper Bloodbath BB~
+the BB newsletter~
+A small pamphlet promoting the Bloodbath is littering the ground here.~
+paper~
+trash CGSY AO
+0 0 0 0 0
+0 1 0 P
+E
+Pamphlet Newsletter Paper Bloodbath BB~
+You best read the table of contents first.
+~
+E
+Table Contents~
+(Look word) Page 1> Words from the auther
+(look itro) Page 2> What is a Bloodbath?
+(look rule) Page 3> Rules and regulations
+<Look priz) Page 4) Prize and winning guidlines
+(look lone) Page 5> Note of intrest to Outcast and Loner Participants
+(look Disa) Page 6> Note about equ lost in the BB
+(look srse) Page 7> A list of people who contributed to the BB
+(look term) Page 8) Terms and meanings to abbriviations
+~
+E
+word 1~
+Holas, an thanks for picking up this piece of trash. ;)  I decided
+to make this BB newsletter so as to give out to those new to the BB or
+those newbies who have not yet even heard of the thing.  Just look at the
+table of contents and then look at the corosponding item of intrest.  
+Free copies are avalible on request.  It'll save me the hassle when I'm
+in the middle of doing something else and somebody asks the well known
+Q: 'What's a BB?' Anyhow, take care an enjoy...
+ 
+-Pal
+~
+E
+Intro itro 2~
+Welcome to the Bloodbath(tm).  You've decided to read up on some of the
+more bloodier aspects of the Moosehead Quest system.  The Bloodbath has
+been around as long as I have at least, and maybe then some.  It was
+orginally created by Johnwa, by request of Nobody.  It was used on and off
+by the two to have scattered quests involving a no-kill area and space
+needed to run around in while not haveing the quest inturropted.
+Soon after, I immed from Honor, and found that as much of a rush as 
+Immhood was, it was damn boaring after the first week. So, while 
+exploring the vnums in the mud, I stumbled onto this place.  After getting
+my good bud Valder to make a portable portal to transport people there, I
+began to hold my first BB quests at level 53.  From there it evolved to
+where it is today.  
+ 
+The Bloodbath, or BB for short, is a killing arena where you and several
+other players get in to butt egos to the death.  The place is No-die
+(which I shall explain later) meaning when you die you shall be regened
+at 1 hp with all your equiment.  It is also No-recall, meaning it's not
+easy wimp out.  Prizes for winning is usually cash with a note following
+saying you bet the hell outta all who was against you.      -end
+~
+E
+rules 3~
+The BB is ment to be fun and -relitively- fair.  You are all required to
+have Nofollow active inside, meaning NO GROUPING PERMITTED.  Next, no
+mobs are permitted to be summoned or corpses reanimated, meaning
+NO CHARMIES PERMITTED.  Breaking of either of these rules will get you
+booted from the BB at the very least, further punishment pending on the
+mood I'm in if you try and get smart with me.. ;/  But the most 
+importiant and deadly rule, is that there is to be NO STEALING, that
+ranges from NO LOOTING, and -=* returning *=- of any picked up equiment.
+The breaking of this rule will most likly send me off the edge..;p
+If you want to find out what that will bring ya, well, try it sometime.;)
+ 
+Oh, another rule I was forced to permit was for Loners and Outcasts, which
+is, if a Loner or Outcast was defeated in the BB, he/she/it will have a
+3 minute/5 tick grace, whichever comes first, to get to a safe place.
+If this is violated from either the attacker, or abused from the 
+Outcast or Loner, I won't hestitate get ya frozen.  Please abide by these
+rules, I would REALLY hate to have to imp any of em.  So far, it's been
+a clean slate with the writing of this note.   -end
+~
+E
+prizes 4~
+Prizes are, as a rule, something I can make myself, I tried to run these
+quests without higher imm help.  It is usually a jewelled shard for
+winning, and a shard for each kill you managed to get in that BB.
+On request, I will check Puff to see if she has a fractical shard and
+give that out as a prize instead.  As always, if you manage to find a heart
+ANY heart and only hearts from a player in the battlefield, I'll give you
+a heal potion for it.  Higher prizes MIGHT be included, but don't expect
+em, if there are I'll announce it beforehand.  -end
+~
+E
+loner 5~
+If you take part in my BB, as a Loner or Outcast, you have my garenteed
+safty that you'll not be attacked for 3 minutes/5 ticks.  If this is 
+abused in ANY fashion, it's void, and your subject to the whimes of who
+is waxing the walls with yer blood.  On request, I'll let you hang in my
+BB startup room tell you get buffed up and ready to go out on your own.
+Oh, if you start yelling to those inside, I'll slap a no_channels flag
+on ya, I can do that now. ;)  -end
+~
+E
+disa 6~
+The BB is garenteed NO_LOOT, if somebody voiloates this, you'll get your
+equiments back and I'll bust em for you.  If either of you try to scam
+me, we'll get the logs checked and the lier will get frozen. ;)  
+For disarmed weapons, let me know who picked it up, and I'll get it back.
+Most are extreamly honest in this respect, thank gawd. ;p  If you use
+hard to get orginal weapons, highly enchanted, special restrings, ect.
+It is much easer to track down.  For equiment lost due to lost str, I'll
+do my best, but you best watch your strength yourself and try not to
+fuck yerself over. ;)    -end
+~
+E
+srse 7~
+The Bloodbath(tm) was contributed to by the following people...
+1> Rusty --- Well, it IS his mud.
+2> Johnwa -- Thanks john for letting me have access to the BB vnums.  He 
+             made the first BB.
+3> Nobody -- He helped john come up with the idea, and help several BB's 
+             himself, he also made the current maze it is today.
+4> Bloodmoon!!! - It was her sadistic bloodthirsty personality that made
+                  me hungry for more BLOOD(baths)...!  I helped her on a
+                  small minny BB one night and well, I got addicted! ;)
+Soviet, Rage, Scorn, Scintilla, Harald, Valder, Krantz, Daisy, Delstar
+blah blah blah.  Basicly, ALL the imms helped in one way or another.  
+I still can't do a global echo, or a restore myself. ;)  It is thanks
+to whomever is on that gives me a hand.  thanks guys.. ;)
+~
+E
+Terms Meanings 8~
+BB - Bloodbath
+regen - Regeneration
+No-die - basicly a withstand death in that room only, you regen in your
+         clan house or matook if your a loner/outcast.
+;) - The smile of a big 8 foot wierdoo, thanks blinky ;)
+other slang you find - The pure, unfiltered Newfie language I know an love
+ 
+If you find any inprovments, addations, ect.  give me a note/tell!
+ 
+-Palibar
+~
+#720
+Camorra~
+the hazy mist~
+~
+~
+portal ORSTY P
+0 0 0 4600 0
+0 100 0 P
+#721
+Matook~
+the hazy mist~
+~
+~
+portal ORSTY P
+0 0 0 16502 0
+0 100 0 P
+#722
+spring water fountain ~
+a fresh spring~
+A fresh spring flows from the ground here.~
+water~
+fountain ORSTY 0
+100000 100000 'water' 0 0
+0 0 0 P
+#723
+haste potion~
+a haste potion~
+A super improved haste potion made for the BB lies here.~
+Sugar~
+potion AFGHPSTUZ A
+54 'haste' '' '' ''
+25 10 3300 P
+#724
+haggis~
+some haggis~
+Some haggis is steaming here.~
+entrails~
+pill IORSTY AOQ
+5 'cure critical' 'frenzy' 'giant strength' ''
+0 20 1000 P
+E
+haggis~
+You look at this meal and don't even know which side is up!  A favorite
+dish among Dwarves, it consists of a sheep's or calf's offal mixed with
+suet, oatmeal, veggies, and dragon's testicles.  Then it is cooked over
+an open flame for about an hour, while wrapped up inside a bag made from
+a dragon's stomach.
+~
+#725
+Bloodstained stained runes words letters rules~
+the bloodstained runes~
+Some bloodstained runes, carved in the door command your attention.~
+Splinters and dried blood~
+trash ORSTY P
+0 0 0 0 0
+0 1 1 P
+E
+Bloodstained Stained Runes Words Letters Rules Carvings~
+Written on the door, appearently via a claw of sorts covered in blood,
+are some dwarven runes, covering the basic and regulary enforced
+rules of the bloodbath, follow and enjoy, break and die.  -Pal
+1) No Looting.  The area is no_die so you will `repop' in your clan hall
+   (Matook for you loners and outcasts) with your equ intact.  A word of
+   advice, relog.  When you die in a no_die area you AC gets a bit screewed
+   up and a simple relog shall fix that.
+2) Outcasts and loners have no fear of being looted at matook.  I give you a
+   2 minute free passage (or 5 ticks, where ever comes first) to get to a
+   safe place and regen.  If someone kills you in that time after getting
+   defeated from my bloodbath you'll get your equ back.  If I find you
+   were abusing this free grace then your phucked.
+3) Once inside the bloodbath you will be put in a small regen room with
+   everybody else.  Talk, brag, trade equ, but if you attack your out.
+   There is -NO- Stealing anywhere in my quests, do so and I'll get ya
+   frozen for a month.  There is in excuse for stealing.  Once I give the
+   word you spell up inside the room and then when everybody is ready I
+   open the door and you leave east then start to kill.
+4) Disarmed weapons will be returned, just keep track who picked it up, I
+   cannot return a weapon if I don't know who has it.
+5) -=NO=- Charmies..  that included skelly warriors, animated corpses, and
+   summoned charmies.  This also includes summoning someone else into
+   the bloodbath that was not a starting member or was previously defeated.
+6) Potions, staves, wands are permitted.  If you happened to toast a person
+   Inside the Bloodbath and get a heart, find me and I'll trade you the heart
+   for a heal potion.
+7) Rewards is a shard for winning and a shard per kill.  You also have the
+   option of asking me to check to see if Puff has a fractial shard on her, if
+   so, it's yours.  Weather she has it or not though, you'll lose all rights to
+   the cash prize.
+8) I cannot remove or give back KILLER or THIEF flags, so don't ask me.
+9) If you happen to have to relog, you can risk it and lose link inside
+   the bloodbath or you can try and find the portal out and leave, your
+   choice, but if you leave you do not get to go back inside.  That's that.
+Good luck and hope you enjoy the Bloodbath!(tm)
+-Pal
+-Soviet
+~
+#726
+Townhomes Homes Houses~
+the hazy mist~
+~
+~
+portal ORSTY P
+0 0 0 30000 0
+0 100 0 P
+#727
+Shimmering Bloodbath Portal~
+a bloodbath portal~
+A shimmering poral to the Bloodbaths.~
+Magic~
+portal AIORSTY APQ
+0 0 0 730 0
+25 10000 1 P
+E
+Shimmering Bloodbath Portal~
+Your see before you a swirling red portal leading to a plane of death
+and sport enjoyed by the gods at the expense of hapless morts.  However
+such blood and gore is heavly rewarded...
+~
+#728
+Legion~
+the hazy mist~
+~
+~
+portal ORSTY P
+0 0 0 4902 0
+0 100 0 P
+#0
+
+#ROOMS
+#700
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CDU 0
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 701
+E
+North~
+A hazy mist prevents you from seeing any farther...
+~
+E
+West South East Wall~
+A blackened wall made of etched stone.
+~
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+This room has a wooden roof overhead to mark the exit portal out of the 
+bloodbath.
+~
+S
+#701
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D0
+Exit ~
+door~
+0 0 702
+D1
+Exit ~
+door~
+0 0 713
+D2
+Exit ~
+door~
+0 0 725
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A blackened wall made of etched stone.
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#702
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 729
+D1
+Exit ~
+door~
+0 0 708
+D2
+Exit ~
+door~
+0 0 711
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+west~
+A blackened wall made of etched stone.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#703
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D0
+Exit ~
+door~
+0 0 704
+D1
+Exit ~
+door~
+0 0 709
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+south~
+A blackened wall made of etched stone.
+~
+E
+west~
+A blackened wall made of etched stone.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#704
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D1
+Exit ~
+door~
+0 0 705
+D2
+Exit ~
+door~
+0 0 703
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A blackened wall made of etched stone.
+~
+E
+west~
+A blackened wall made of etched stone.
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#705
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D1
+Exit ~
+door~
+0 0 710
+D2
+Exit ~
+door~
+0 0 709
+D3
+Exit ~
+door~
+0 0 704
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A blackened wall made of etched stone.
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#706
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 707
+D1
+Exit ~
+door~
+0 0 714
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+south~
+A blackened wall made of etched stone.
+~
+E
+west~
+A blackened wall made of etched stone.
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#707
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D0
+Exit ~
+door~
+0 0 708
+D1
+Exit ~
+door~
+0 0 714
+D2
+Exit ~
+door~
+0 0 706
+D3
+Exit ~
+door~
+0 0 701
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#708
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 709
+D2
+Exit ~
+door~
+0 0 707
+D3
+Exit ~
+door~
+0 0 702
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+east~
+A blackened wall made of etched stone.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#709
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D0
+Exit ~
+door~
+0 0 705
+D1
+Exit ~
+door~
+0 0 711
+D2
+Exit ~
+door~
+0 0 708
+D3
+Exit ~
+door~
+0 0 703
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#710
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D1
+Exit ~
+door~
+0 0 715
+D3
+Exit ~
+door~
+0 0 705
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A blackened wall made of etched stone.
+~
+E
+south~
+A blackened wall made of etched stone.
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#711
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D1
+Exit ~
+door~
+0 0 716
+D2
+Exit ~
+door~
+0 0 712
+D3
+Exit ~
+door~
+0 0 709
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A blackened wall made of etched stone.
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#712
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 2
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 711
+D1
+Exit ~
+door~
+0 0 717
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+south~
+A blackened wall made of etched stone.
+~
+E
+west~
+A blackened wall made of etched stone.
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#713
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 705
+D1
+Exit ~
+door~
+0 0 724
+D2
+Exit ~
+door~
+0 0 700
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+west~
+A blackened wall made of etched stone.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#714
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 707
+D3
+Exit ~
+door~
+0 0 707
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+south~
+A blackened wall made of etched stone.
+~
+E
+east~
+A blackened wall made of etched stone.
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#715
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D1
+Exit ~
+door~
+0 0 720
+D2
+Exit ~
+door~
+0 0 716
+D3
+Exit ~
+door~
+0 0 710
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A blackened wall made of etched stone.
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#716
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 715
+D1
+Exit ~
+door~
+0 0 721
+D2
+Exit ~
+door~
+0 0 717
+D3
+Exit ~
+door~
+0 0 711
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#717
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 2
+H 150 M 50
+D0
+Exit ~
+door~
+0 0 716
+D1
+Exit ~
+door~
+0 0 722
+D2
+Exit ~
+door~
+0 0 718
+D3
+Exit ~
+door~
+0 0 712
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#718
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 717
+D1
+Exit ~
+door~
+0 0 723
+D2
+Exit ~
+door~
+0 0 719
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+west~
+A blackened wall made of etched stone.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#719
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D0
+Exit ~
+door~
+0 0 718
+D1
+Exit ~
+door~
+0 0 724
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+south~
+A blackened wall made of etched stone.
+~
+E
+west~
+A blackened wall made of etched stone.
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#720
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D1
+Exit ~
+door~
+0 0 725
+D2
+Exit ~
+door~
+0 0 721
+D3
+Exit ~
+door~
+0 0 715
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A blackened wall made of etched stone.
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#721
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D0
+Exit ~
+door~
+0 0 720
+D1
+Exit ~
+door~
+0 0 726
+D2
+Exit ~
+door~
+0 0 722
+D3
+Exit ~
+door~
+0 0 716
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#722
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 721
+D2
+Exit ~
+door~
+0 0 723
+D3
+Exit ~
+door~
+0 0 717
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+east~
+A blackened wall made of etched stone.
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#723
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D0
+Exit ~
+door~
+0 0 722
+D1
+Exit ~
+door~
+0 0 728
+D3
+Exit ~
+door~
+0 0 718
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+south~
+A blackened wall made of etched stone.
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#724
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D1
+Exit ~
+door~
+0 0 729
+D3
+Exit ~
+door~
+0 0 719
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+north~
+A blackened wall made of etched stone.
+~
+E
+south~
+A blackened wall made of etched stone.
+~
+E
+east~
+A hazy mist prevents you from seeing any farther...
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#725
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D0
+Exit ~
+door~
+0 0 700
+D2
+Exit ~
+door~
+0 0 726
+D3
+Exit ~
+door~
+0 0 720
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+east~
+A blackened wall made of etched stone.
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#726
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 725
+D2
+Exit ~
+door~
+0 0 727
+D3
+Exit ~
+door~
+0 0 721
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+east~
+A blackened wall made of etched stone.
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#727
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D0
+Exit ~
+door~
+0 0 726
+D2
+Exit ~
+door~
+0 0 728
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+east~
+A blackened wall made of etched stone.
+~
+E
+west~
+A blackened wall made of etched stone.
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#728
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 50 M 150
+D0
+Exit ~
+door~
+0 0 727
+D2
+Exit ~
+door~
+0 0 729
+D3
+Exit ~
+door~
+0 0 713
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+east~
+A blackened wall made of etched stone.
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#729
+Inside The Bloodbath~
+You stand inside the bloodbath of The Killing Fields, the realm of death
+only accesible to the very few.  You must be here for a purpose.  As you
+wander around, all the rooms seem to look the same.
+You surely hope you don't have to find an opponent in here...
+~
+0 CNU 0
+H 150 M 50
+D0
+Exit ~
+door~
+0 0 728
+D2
+Exit ~
+door~
+0 0 702
+D3
+Exit ~
+door~
+0 0 724
+E
+Floor Down~
+The stone floor is stained with dried blood.
+~
+E
+Up Sky~
+From sun and shine to rain and overcast, there always seems to be a
+lingering mist about 20 feet off the ground.  This chilling fog makes
+you look twice before continuing on...
+~
+E
+Fog Mist~
+A lingering mist covers you from the floor on up.  It's vamperic nature
+prevents you from trying to rest anywhere in this area.  Pray you get
+out soon, for you feel the life draining right out of you in here.
+~
+E
+east~
+A blackened wall made of etched stone.
+~
+E
+west~
+A hazy mist prevents you from seeing any farther...
+~
+E
+north~
+A hazy mist prevents you from seeing any farther...
+~
+E
+south~
+A hazy mist prevents you from seeing any farther...
+~
+S
+#730
+Bloodbath Staging Area~
+Prepare for a Bloodbath...
+~
+0 CDKU 0
+H 2000 M 2000
+D1
+Exit ~
+Bloodbath exit BB door~
+4 20720 716
+E
+empty bottle burnt wands potions junk mess litter~
+It's just junk, keep your mind on the battle tocome berk.
+~
+E
+west south~
+A blackened wall made of etched stone.
+~
+E
+Up roof~
+A mural made of dried blood depicting a Dragon being run though by a 
+Dwarf wielding a rather large hammer...  Being run though with a hammer?
+now -THAT'S- impresive...
+~
+E
+Down Floor~
+Empty potion bottles and burned out wands.  They litter the floor, being
+dropped here by contestents as they rushed to get spelled up.
+~
+E
+North Mist~
+The north wall is northing but a wall of mist...  It was replaced by pal
+for the convience of the BB participants...  It works only for clanners.
+type `enter (clan name here)' and you will go to your corosponging
+clan hall.  
+~
+E
+east door oaken splintered exit~
+The entrance to the BloodBath.  Although the room itself is somewhat
+clean, there seems to be claw marks and scratches of blood in the
+splintered oaken door.
+~
+S
+#0
+
+#RESETS
+O 0 6011 100  729	* a mushroom
+O 0 6011 100  719	* a mushroom
+O 0 6011 100  725	* a mushroom
+O 0 6011 100  705	* a mushroom
+O 0 6011 100  710	* a mushroom
+O 0 6011 100  715	* a mushroom
+O 0 6011 100  717	* a mushroom
+O 0 6011 100  726	* a mushroom
+O 0 6011 100  716	* a mushroom
+O 0 6011 100  723	* a mushroom
+O 0 6011 100  702	* a mushroom
+O 0 6011 100  709	* a mushroom
+O 0 6011 100  700	* a mushroom
+O 0  722 100  700	* a fresh spring
+O 0  709 100  700	* a town portal
+M 0  700   1  730  1	* a war priest
+G 1  710  -1     	*   a sanct potion
+G 1  711  -1     	*   some unholy water
+G 1 3082  -1     	*   a potion of divine protection
+G 1 9571  -1     	*   a deep-green potion
+G 1 9573  -1     	*   an off white potion
+G 1 3092  -1     	*   a potion of true sight
+G 1 3091  -1     	*   a potion of flying
+G 1 4316  -1     	*   a shot of whiskey
+G 1  712  -1     	*   some dragon jerky
+G 1 3050  -1     	*   a raft
+G 1  723  -1     	*   a haste potion
+G 1 3084  -1     	*   a potion of cure serious wounds
+G 1 3081  -1     	*   a potion of sanctuary
+O 0  728 100  730	* the hazy mist
+O 0  726 100  730	* the hazy mist
+O 0  713 100  730	* the hazy mist
+O 0  709 100  730	* a town portal
+O 0  720 100  730	* the hazy mist
+O 0  714 100  730	* the hazy mist
+O 0  715 100  730	* the hazy mist
+O 0  716 100  730	* the hazy mist
+O 0  717 100  730	* the hazy mist
+O 0  718 100  730	* the hazy mist
+O 0  721 100  730	* the hazy mist
+O 0  722 100  730	* a fresh spring
+O 0  725 100  730	* the bloodstained runes
+D 0  730   0    2	* Bloodbath Staging Area north
+D 0  730   1    2	* Bloodbath Staging Area east
+S
+
+#SHOPS
+ 700 10 17 19  1 22 	 600   0 	 0 24 	* a war priest
+0
+
+#SPECIALS
+M 700 spec_cast_adept     	* a war priest
+S
+
+#$

@@ -1,0 +1,1763 @@
+#AREA
+/mud/moosehead/area/themes.are~
+The Den of Thieves~
+{15-35} Khira   The Den of Thieves~
+11000 11061
+
+#MOBILES
+#11000
+guard thief thieves guardian~
+a guardian for the thieves~
+A thief stands guard, watching for trespassers
+~
+Dirty and unshaven, the thief looks like a tough customer.  The
+smell of him alone is enough to knock you off your feet!
+~
+human~
+ABCFGS DFQ 1000 0
+16 3 15d15+160 1d1+149 2d4+4 pierce
+-2 -2 -2 6
+CDKLTU 0 CF 0
+stand stand either 4
+0 0 medium 0
+#11001
+cave rat~
+a cave rat~
+A nasty looking cave rat snarls and attacks!
+~
+Almost the size of a small dog, this nasty looking rat is covered
+with mangy looking fur, looking entirely unwholesom and unfriendly.
+~
+human~
+ACF DFJPZ -500 0
+20 0 3d9+333 10d9+100 2d8+5 none
+-4 -4 -4 7
+FINU 0 0 0
+stand stand female 0
+BG 0 medium 0
+F for M
+#11002
+river sprite~
+a river sprite~
+A river sprite resents your intrusion
+~
+A river sprite is barely distinguishable from the river surrounding
+it...it looks like its made out of water moving through water!
+~
+human~
+ACFS DFPTb -375 0
+20 0 3d9+333 10d9+100 2d8+5 bite
+-4 -4 -4 7
+FHNU 0 H 0
+stand stand female 0
+CL 0 large 0
+F for V
+#11003
+mean thief~
+a mean thief~
+A really, REALLY mean looking thief glowers at you
+~
+Wow, this guy looks tough.  Real, real tough.  Bet his momma raised
+him on nails and barbed wire for breakfast.  If I were you, I wouldn't
+make any comments about his momma.
+~
+unique~
+ACFS DFPT -450 0
+35 -2 10d10+1100 17d9+100 6d4+10 stab
+-11 -11 -11 6
+BEFU 0 F C
+stand stand male 0
+AHMV ABCDEFGHJK medium 0
+#11004
+thief~
+a male sneaky thief~
+A thief sneaks around, minding his own business...you think
+~
+A thief is clad in ragged clothing, times must be tough.  He doesn't
+seem too bothered by your presence, he just wants to be left alone.  No
+one around this place seems to interfere with anyone else, it seems there
+is some kind of truce in place.
+~
+human~
+ABCGS DFJP -350 0
+25 0 5d10+400 11d9+100 4d4+6 stab
+-5 -5 -5 7
+BFHNU 0 F C
+stand stand male 0
+0 0 large 0
+#11005
+sneaky thief~
+a female sneaky thief~
+A thief sneaks around, minding her own business...you think
+~
+A thief is clad in ragged clothing, times must be tough.  She doesn't
+seem too bothered by your presence, she just wants to be left alone.  No
+one around this place seems to interfere with anyone else, it seems there
+is some kind of truce in place
+~
+human~
+ABCGS DFJP -350 0
+25 0 5d10+400 11d9+100 4d4+6 stab
+-5 -5 -5 7
+BFHNU 0 F C
+stand stand female 0
+0 0 large 0
+#11006
+dog belgian tervuren ceilidh~
+Ceilidh~
+Ceilidh bounds towards you at high speed!
+~
+A large, friendly dog bounds over to you and tries to grab your arm.
+You try to fend her off, but before you know it she licks your face,
+looking way too pleased with herself.  What a pest!  but a cute pest.
+~
+dog~
+AB DFVe 1000 0
+51 35 50d10+5000 60d10+200 0d0+0 slice
+-16 -16 -16 -16
+DEFKLMNU ABCD 0 0
+stand stand female 1000
+HM BL medium 0
+F for G
+F par HUV
+#11007
+silver dragon~
+An ancient, silver dragon~
+An ancient silver dragon curls around the outside of the cavern
+~
+A great, giant silver dragon reflects the wisdom and sorrow of ages in
+her gleaming scales.  The wings are like mirrors, causing you to look
+deep into your own soul, pale blue eyes piercing through yours to 
+invade your deepest thoughts.  This is not a beast to be taken lightly,
+one misstep could bring disaster.
+~
+dragon~
+ABFQ DFHV 700 0
+40 0 15d10+1700 19d9+100 5d6+13 wrath
+-13 -13 -13 5
+AFHNR IK 0 HJ
+sleep sleep female 10000
+0 0 huge 0
+F res H
+F vul I
+#0
+
+#OBJECTS
+#11000
+iron dirk~
+an iron dirk~
+The dirk has lost its shine, but the edge is still sharp.~
+iron~
+weapon B AN
+dagger 4 4 pierce 0
+15 10 1800 P
+#11001
+black leather braid braided strap~
+a braided, black leather strap~
+An intricately braided strap of black leather buckles around your wrist.~
+leather~
+armor G AM
+0 0 0 0 0
+16 10 2308 P
+A
+13 -5
+A
+19 1
+A
+18 1
+#11002
+rat rats tooth key~
+a rats tooth~
+A nasty, pointy rats tooth pricks your finger.~
+bone~
+key W AO
+8 8 0 0 0
+0 0 2300 P
+#11003
+garden vegetable~
+A small vegetable garden~
+~
+earth~
+container RT 0
+100 0 0 100 100
+0 9999 0 P
+E
+vegetable garden~
+The small garden is full of plants waiting to be harvested.  It
+wouldn't take long to gather enough food to make a meal.
+~
+#11004
+carrot carrots~
+some carrots~
+A few carrots lie scattered about, waiting to be eaten.~
+food~
+food 0 A
+20 20 0 0 0
+0 10 6 P
+#11005
+beans~
+a handful of green beans~
+Some long, green beans would make a crunchy snack.~
+food~
+food 0 A
+20 20 0 0 0
+0 10 6 P
+#11006
+pea peas~
+some peas~
+Some bright green peas look delicious.~
+food~
+food 0 A
+20 20 0 0 0
+0 10 0 P
+#11007
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none C A
+0 0 0 0 0
+0 100 0 P
+#11008
+shelf shelves sagging old~
+A sagging shelf on the wall~
+~
+wood~
+container RT 0
+1000 0 0 1000 100
+0 1 0 P
+E
+shelf shelves sagging old~
+The shelves are full of broken bits of equipment, odds and ends, and
+assorted items, some more disgusting than others.  You pick through the
+mess, on the chance that there might actually be something useful here.
+Your biggest fear is that they will collapse before you are done!
+~
+#11009
+a cracked bottle~
+a cracked bottle~
+A cracked bottle holds a small amount of liquid~
+glass~
+potion 0 A
+20 'farsight' '' '' ''
+10 20 2700 P
+#11010
+glowing glass beaker potion~
+a faintly glowing glass beaker~
+A faintly glowing glass beaker holds an odd looking liquid~
+glass~
+potion A A
+25 'teleport' 'shield' '' ''
+15 20 2700 P
+#11011
+rack drying fish~
+A rack for drying fish~
+A rack for drying fish~
+wood~
+container R 0
+100 0 0 100 100
+0 10 0 P
+E
+rack drying fish~
+A rack that has been woven out of branches has several ledges and
+hooks that contain fish, which are drying nicely in the sun.
+~
+#11012
+dried fish~
+dried fish~
+Partially dried fish looks edible...barely.~
+fish~
+food 0 A
+10 10 0 0 0
+1 10 250 P
+#11013
+river~
+a river~
+~
+water~
+fountain OTY 0
+0 0 'water' 0 0
+0 100 0 P
+#11014
+fishing rod pole staff sanctuary~
+a fishing pole~
+Hey!  A fishing pole...~
+bamboo~
+wand GT AO
+30 5 1 'sanctuary' -1
+35 50 10000 P
+A
+17 50
+#11015
+copper studded leather pants~
+copper-studded leather pants~
+A pair of copper-studded leather pants are a bit greenish, and they don't smell to good either.~
+leather~
+armor 0 AF
+7 7 7 3 0
+23 25 5000 P
+A
+0 0
+A
+20 -1
+#11016
+leather jerkin torn~
+a torn leather jerkin~
+A torn leather jerkin smells pretty vile, it makes your skin crawl just to touch it, let alone wear it.~
+leather~
+armor S AD
+7 7 7 3 0
+23 15 1500 P
+#11017
+waterskin skin~
+a large leather waterskin~
+A large, leather waterskin hangs on the wall.~
+leather~
+fountain 0 P
+0 0 'milk' 0 0
+0 10 0 P
+#11018
+rust rusty dagger~
+a dagger speckled with rust~
+A once-bright dagger is now speckled with rust, but still seems sharp~
+steel~
+weapon 0 AN
+dagger 3 7 pierce 0
+22 10 1600 P
+A
+13 1
+A
+19 2
+E
+double dagger~
+The two parallel blades are quite long, forged from very fine steel.
+~
+#11019
+leather collar~
+a red leather collar~
+Ceilidh's leather collar provides a convenient handle.~
+leather~
+jewelry IMT AC
+0 0 0 0 0
+51 0 0 P
+#11020
+silver frame fire flames~
+a massive silver frame, flames roaring high~
+A massive silver frame holds a roaring fire, lighting up the entranceway.~
+fire~
+furniture RY 0
+1 0 CFIL 200 200
+0 10000 0 P
+#11021
+silver ring celtic knot~
+a silver celtic knot ring~
+Several strands of silver intertwine to form an elaborite celtic knot, twisted into a ring.~
+silver~
+jewelry Cc AB
+0 0 0 0 11000
+52 -31072 10000 P
+#11022
+victorian gold buckle ring~
+a victorian buckle ring~
+Elaborately carved into a buckle, this gold wedding band is one of a kind.~
+gold~
+jewelry CTc AB
+0 0 0 0 11040
+52 -31072 0 P
+#11023
+plain silver ring~
+a plain silver ring~
+A wide silver ring has no special markings or engravings, the broad band is quite plain.~
+silver~
+portal TY AB
+3 0 C 11053 0
+40 5 10000 P
+#11024
+a broken nicked sword~
+a broken nicked sword~
+An old, nicked sword is useless, blade snapped off just above the hilt~
+steel~
+trash TW AN
+0 3 2 0 0
+24 30 30 P
+A
+12 -200
+A
+13 -200
+F
+A 0 0 KP
+#11025
+feed cart~
+a feed cart~
+A feed cart is parked to one side, brimming with oats.~
+steel~
+furniture R 0
+2 0 BEHK 0 0
+0 1000 0 P
+#11026
+pony snak~
+a pony snak<tm>~
+I'm sure this looks yummy to a pony...~
+crunchies~
+pill CW A
+20 'detect hidden' 'frenzy' 'cure critical' ''
+0 10 0 P
+#11027
+large tropical leaves~
+some large tropical leaves~
+Some tough, dark grean leaves look great to use as armor.~
+leaves~
+armor 0 AI
+2 2 2 0 0
+8 10 1000 P
+A
+18 1
+#11028
+white pink speckled orchid~
+a white and pink speckled orchid~
+An uprooted flower is here, looking like a very good weapon.~
+flower~
+weapon 0 AN
+mace 1 10 thwack AC
+8 25 1500 P
+A
+18 1
+#11029
+burning branch~
+a burning branch~
+A piece of tree has been snapped off, it would make a good torch.~
+wood~
+light 0 AO
+0 0 -1 0 0
+7 10 1200 P
+A
+14 5
+A
+2 1
+A
+18 1
+#11030
+piranha spirit~
+the spirit of a piranha~
+The spirit of a vicious fish eminates here~
+fish~
+gem 0 AQ
+0 0 0 0 0
+14 1 1500 P
+A
+0 0
+A
+20 3
+A
+19 1
+#11031
+lily pad~
+a lily pad~
+A bright green lily pad is here~
+plant~
+armor 0 AJ
+4 4 3 2 0
+7 10 1200 P
+A
+0 0
+F
+A 0 0 T
+A
+17 -1
+A
+20 2
+A
+2 1
+#11032
+hippo tooth~
+a hippo tooth~
+A large, square tooth has a small hole at the top to make it into a necklace~
+bone~
+jewelry 0 AC
+0 0 0 0 0
+12 20 2000 P
+A
+5 1
+A
+3 -1
+A
+1 1
+#11033
+dog drool~
+dog drool~
+A vial is filled with.. wha?!?!?  DOG DROOL!!! EUUWWW!!!~
+drool~
+potion C A
+20 'infravision' 'shield' '' ''
+0 1 0 P
+#0
+
+#ROOMS
+#11000
+The Tor~
+Tall, knee deep grass rolls and waves in the breeze as you look down
+the hill.  The moon overhead gives off an eerie light, making it seem
+like shadows play amongst the rippling blades of silver and green.
+Behind you, the woods grow tall, branches like fingers reaching up to the
+star filled sky, while below the flat plain moves like something alive as
+the wind pushes through the fields.  Far off behind you, you hear the
+howl of the coyote, and as you turn your head the whisper of an owl's
+wings reach your ears as a ghostly form swoops across the clearing.
+~
+0 CDPTU 0
+D0
+Exit ~
+door~
+1 0 11001
+E
+owl~
+A blur becomes a ghostly white owl as your eyes try to track it through
+the darkness, silent as it hunts, eyes bright in the moonlight.
+~
+S
+#11001
+A narrow wooded path~
+A narrow wooded path winds through the trees, making it difficult to
+see ahead.  Bushes grab at your clothing as you push your way through,
+the noise startling birds up into the sky.
+~
+0 C 3
+D1
+Exit ~
+door~
+0 0 11002
+D3
+Exit ~
+door~
+0 0 6023
+E
+birds~
+Large black birds, bigger than crows fly up into the sky, startled at
+the noise you are making.  Could they be ravens?
+~
+S
+#11002
+A narrow wooded path~
+The woods widen here, with several large rocks in amongst the
+trees.  The birds have gone quiet, and nothing seems to be moving
+at all.  The deathly silence is unnerving, and you are eager to
+leave, but you are unsure whether to go forwards or turn back.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11003
+D3
+Exit ~
+door~
+0 0 11001
+S
+#11003
+The path widens~
+As you warily walk on through the forest, you wonder what is in
+store for you ahead.  The woods are still near silent, twigs
+snapping under your feet are alarmingly loud, making you even
+more cautious.  You wonder if you should rest here to prepare for 
+what may be in store, or press onwards.
+~
+0 0 3
+H 120 M 120
+D1
+Exit ~
+door~
+0 0 11004
+D3
+Exit ~
+door~
+0 0 11002
+S
+#11004
+The mouth of the cave~
+The wooded path you have been following ends abruptly in a small
+clearing.  You wonder how you couldn't see it until you were upon
+it, and as you enter the small area, you notice the entrance to a
+cave behind some bushes.  Every creak your armor makes seems
+louder than ever as you try to move silently onwards.
+~
+0 C 3
+D1
+Exit ~
+door~
+0 0 11005
+D3
+Exit ~
+door~
+0 0 11003
+S
+#11005
+Inside the thieves' cave~
+As you crouch down through the entrance to the cave, you find it
+widens rapidly into a much larger place than you expected.  The
+sound of trickling water plays in your ears, and the scuffle of
+small feet echos around you.  You squint and hold your light
+higher, trying to see into the thick darkness ahead, but to no avail.
+~
+0 AD 3
+D0
+Exit ~
+door~
+0 0 11006
+D1
+Exit ~
+door~
+0 0 11008
+D3
+Exit ~
+door~
+0 0 11004
+S
+#11006
+Inside the thieves' cave~
+The gloominess in the cave is depressing, and the trickling and
+scuffling from the darkness are starting to get on your nerves. 
+The damp makes breathing difficult, and the light you hold barely
+cuts into the inky black around you.
+~
+0 AD 3
+D0
+Exit ~
+door~
+0 0 11007
+D1
+Exit ~
+door~
+0 0 11007
+D2
+Exit ~
+door~
+0 0 11005
+D3
+Exit ~
+door~
+0 0 11011
+S
+#11007
+Inside the thieves' cave~
+The gloominess in the cave is depressing, and the trickling and
+scuffling from the darkness are starting to get on your nerves. 
+The damp makes breathing difficult, and the light you hold barely
+cuts into the inky black around you.
+~
+0 AD 3
+D0
+Exit ~
+door~
+0 0 11010
+D1
+Exit ~
+door~
+0 0 11010
+D2
+Exit ~
+door~
+0 0 11008
+D3
+Exit ~
+door~
+0 0 11006
+S
+#11008
+Inside the thieves' cave~
+The gloominess in the cave is depressing, and the trickling and
+scuffling from the darkness are starting to get on your nerves. 
+The damp makes breathing difficult, and the light you hold barely
+cuts into the inky black around you.
+~
+0 AD 3
+D0
+Exit ~
+door~
+0 0 11007
+D1
+Exit ~
+door~
+0 0 11009
+D2
+Exit ~
+door~
+0 0 11015
+D3
+Exit ~
+door~
+0 0 11005
+S
+#11009
+Inside the thieves' cave~
+The gloominess in the cave is depressing, and the trickling and
+scuffling from the darkness are starting to get on your nerves. 
+The damp makes breathing difficult, and the light you hold barely
+cuts into the inky black around you.
+~
+0 AD 3
+D0
+Exit ~
+door~
+0 0 11010
+D1
+Exit ~
+door~
+0 0 11012
+D2
+Exit ~
+door~
+0 0 11014
+D3
+Exit ~
+door~
+0 0 11008
+S
+#11010
+Inside the thieves' cave~
+The gloominess in the cave is depressing, and the trickling and
+scuffling from the darkness are starting to get on your nerves. 
+The damp makes breathing difficult, and the light you hold barely
+cuts into the inky black around you.
+~
+0 AD 3
+D0
+Exit ~
+door~
+0 0 11011
+D1
+Exit ~
+door~
+0 0 11011
+D2
+Exit ~
+door~
+0 0 11009
+D3
+Exit ~
+door~
+0 0 11007
+S
+#11011
+Inside the thieves' cave~
+The gloominess in the cave is depressing, and the trickling and
+scuffling from the darkness are starting to get on your nerves. 
+The damp makes breathing difficult, and the light you hold barely
+cuts into the inky black around you.
+~
+0 AD 3
+D0
+Exit ~
+door~
+0 0 11013
+D1
+Exit ~
+door~
+0 0 11006
+D2
+Exit ~
+door~
+0 0 11012
+D3
+Exit ~
+door~
+0 0 11010
+S
+#11012
+Inside the thieves' cave~
+The gloominess in the cave is depressing, and the trickling and
+scuffling from the darkness are starting to get on your nerves. 
+The damp makes breathing difficult, and the light you hold barely
+cuts into the inky black around you.
+~
+0 AD 3
+D0
+Exit ~
+door~
+0 0 11011
+D1
+Exit ~
+door~
+0 0 11008
+D2
+Exit ~
+door~
+0 0 11013
+D3
+Exit ~
+door~
+0 0 11009
+S
+#11013
+Inside the thieves' cave~
+The gloominess in the cave is depressing, and the trickling and
+scuffling from the darkness are starting to get on your nerves. 
+The damp makes breathing difficult, and the light you hold barely
+cuts into the inky black around you.
+~
+0 AD 3
+D0
+Exit ~
+door~
+0 0 11012
+D1
+Exit ~
+door~
+0 0 11014
+D2
+Exit ~
+door~
+0 0 11011
+D3
+Exit ~
+door~
+0 0 11014
+S
+#11014
+Inside the thieves' cave~
+The gloominess in the cave is depressing, and the trickling and
+scuffling from the darkness are starting to get on your nerves. 
+The damp makes breathing difficult, and the light you hold barely
+cuts into the inky black around you.
+~
+0 AD 3
+D0
+Exit ~
+door~
+0 0 11009
+D1
+Exit ~
+door~
+0 0 11013
+D2
+Exit ~
+door~
+0 0 11016
+D3
+Exit ~
+door~
+0 0 11015
+S
+#11015
+Inside the thieves' cave~
+The gloominess in the cave is depressing, and the trickling and
+scuffling from the darkness are starting to get on your nerves. 
+The damp makes breathing difficult, and the light you hold barely
+cuts into the inky black around you.
+~
+0 AD 3
+D0
+Exit ~
+door~
+0 0 11008
+D1
+Exit ~
+door~
+0 0 11014
+D3
+Exit ~
+door~
+0 0 11020
+E
+~
+Generic extended description.
+~
+S
+#11016
+A small alcove~
+You stumble into a small alcove, almost hitting your head on the
+jagged roof.  The darkness is almost suffocating, and you wonder if
+you will ever see daylight again.   Squinting, you think you see a
+tunnel to the south.
+~
+0 ACD 3
+D0
+Exit ~
+door~
+0 0 11014
+D2
+Exit ~
+door~
+0 0 11017
+S
+#11017
+A tunnel~
+Hunkering down on your hands and knees, you find yourself in a
+small tunnel.  A faint light ahead gives you some small hope of
+getting out of the depressing darkness, and you crawl onwards.
+~
+0 D 3
+D0
+Exit ~
+door~
+0 0 11016
+D2
+Exit ~
+door~
+0 0 11018
+S
+#11018
+~
+A small rush torch is the most wonderful thing you've seen since
+entering this miserable cave, its faint light barely filling the
+room.  You look to the north and shudder, going back isn't even a 
+consideration.  You peer around the small room you're in, trying
+to find another exit.  You know there has to be one somewhere!
+~
+0 D 3
+D2
+Exit ~
+door south~
+3 11002 11019
+S
+#11019
+The back door~
+You emerge from the tunnel into a small, airy cave.  The
+entranceway to the south is clearly visible, and torches glow
+brightly on the wall to light your way.  Sounds filter in from
+outside, birds are singing, and you think you can hear the sound
+of people in the distance.
+~
+0 DT 3
+D0
+Exit ~
+door south~
+3 11002 11018
+D2
+Exit ~
+door~
+0 0 11023
+S
+#11020
+A small crevass~
+You scrape and wriggle your way through a small crack, to find
+yourself standing in a small crevass high upon a cliff face.  You
+cling to the rock, and try to figure out just how high up you really
+are.  Small birds fly by, and far far below you hear the sound of
+rushing water.
+~
+0 CD 5
+D1
+Exit ~
+door~
+0 0 11015
+D5
+Exit ~
+door~
+0 0 11021
+S
+#11021
+Clinging to a cliff face~
+You find yourself clinging desperately to a sheer wall of rock, 
+with no idea how far down it goes.  The bottom is concealed by
+thick mist and spray, and the rumble of water crashing onto rocks
+is always in the background.
+~
+0 0 5
+D4
+Exit ~
+door~
+0 0 11020
+D5
+Exit ~
+door~
+0 0 11022
+S
+#11022
+Clinging to a cliff face~
+The cliff face doesn't get any easier as you squirm and inch your
+way downwards, in fact, it looks like down is no longer an option.
+The route has gotten too difficult.  However, it looks like you
+might be able to inch your way along sideways.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 11045
+D4
+Exit ~
+door~
+0 0 11021
+S
+#11023
+A dusty lane through the camp~
+You find yourself standing on a dusty pathway winding through a
+small camp.  The cave to the north is barely visible behind some
+shrubs, while to the south you can hear the sound of a river.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 11019
+D1
+Exit ~
+door~
+0 0 11026
+D3
+Exit ~
+door~
+0 0 11024
+S
+#11024
+A dusty lane through the camp~
+You wander along a dusty path through the camp, wondering where
+everybody is hiding.  A small shack is to the north, while the
+pathway continues onward.  Perhaps they're all down at the river.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 11032
+D1
+Exit ~
+door~
+0 0 11023
+D3
+Exit ~
+door~
+0 0 11025
+S
+#11025
+The end of a dusty laneway~
+The small, dusty trail you've been following ends here, to your
+surprise.  The river can still be heard to the south, but the small
+camp continues no further.  Its odd that there's so few people
+around...
+~
+0 C 2
+D1
+Exit ~
+door~
+0 0 11024
+D2
+Exit ~
+door~
+0 0 11034
+S
+#11026
+A dusty lane through the camp~
+The dusty trail continues through the little camp you've found, but
+surprisingly, you don't see anyone.  A small shack lies to the north,
+while to the south the river rushes onwards.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 11031
+D1
+Exit ~
+door~
+0 0 11027
+D2
+Exit ~
+door~
+0 0 11044
+D3
+Exit ~
+door~
+0 0 11023
+S
+#11027
+A dusty lane through the camp~
+The dusty trail comes to an end, it seems that the camp isn't
+very big after all.  In fact, the whole place doesn't seem to be
+of much use to anyone!  Perhaps its worth exploring the tent you
+can see to the north, it looks like its in good repair at least.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 11029
+D1
+Exit ~
+door~
+0 0 11028
+D3
+Exit ~
+door~
+0 0 11026
+S
+#11028
+A small garden~
+A small, neat vegetable garden is at the end of the laneway, rows
+of assorted plants are neatly labelled and not a weed can be seen.
+The plants thrive, someone must take good care of this small patch of
+land.  It looks like its ready to be harvested.
+~
+0 0 2
+D3
+Exit ~
+door~
+0 0 11027
+S
+#11029
+A well worn tent~
+The tent is quite tidy inside, everything has its place.  There is
+none of the clutter you've seen in the rest of the camp, which makes
+you wonder if the occupant is close by.  Rugs cover a wooden floor,
+which strikes you as odd, since you are in a tent.
+~
+0 DT 2
+D2
+Exit ~
+door~
+0 0 11027
+D5
+Exit ~
+door~
+1 0 11030
+S
+#11030
+A comfortable den~
+So THIS is where the owner of the tent is!  Nice place down here,
+just big enough for two.  Too bad he doesn't want to share.
+~
+0 DJNT 2
+D4
+Exit ~
+door~
+1 0 11029
+S
+#11031
+A small shack~
+The clutter in here is unbelievable.  Bits and pieces of broken
+equipment are everywhere, and dirty dishes with half eaten meals
+cover most flat surfaces.  No wonder they don't bother locking the 
+door, nothing in here is worth stealing!
+~
+0 D 2
+D2
+Exit ~
+door~
+0 0 11026
+S
+#11032
+A small shack~
+Yuck!  What a mess!  Bits of offal and rotting food are mixed in
+with old clothing and broken armour, with the odd snapped blade
+of an old weapon sticking out.  What kind of person could live in
+this mess?  You hold your nose and back out, since there's
+obviously nothing here worth looking at.
+~
+0 D 2
+D0
+Exit ~
+door~
+0 0 11033
+D2
+Exit ~
+door~
+0 0 11024
+S
+#11033
+A small storage room~
+The ceiling in this small storage room is so low you have to
+duck your head to get in.  Much like the front room, there is an
+unbelievable amount of muck and clutter in here.  Rough wooden
+shelves sag, threatening to cave in, broken jars hold drips of
+unknown substances, all in all its quite disgusting in here.
+~
+0 DLN 2
+H 50 M 50
+D2
+Exit ~
+door~
+0 0 11032
+S
+#11034
+On the river~
+You move swiftly along the river, wondering where it leads.  Its
+so much easier to drift westwards with the current, surely this
+is the way to travel!  You spy a spot on the bank to the north
+where you could get ashore not far from the camp.
+~
+0 0 7
+D0
+Exit ~
+door~
+0 0 11025
+D1
+Exit ~
+door~
+0 0 11035
+D3
+Exit ~
+door~
+0 0 11041
+S
+#11035
+On the river~
+The sounds of the camp filter down onto the river as you wind
+your way along it...its surprising how swiftly its moving along
+for such a small river.
+~
+0 0 7
+D1
+Exit ~
+door~
+0 0 11036
+D3
+Exit ~
+door~
+0 0 11034
+S
+#11036
+On the river~
+The river pulls you swiftly along, smooth as glass without a rock
+or plant in sight in the water itself.  The banks are thick with
+verdant plantlife, and fish leap up to catch insects as you watch.
+Don't you wish you had a fishing pole?
+~
+0 0 7
+D1
+Exit ~
+door~
+0 0 11037
+D2
+Exit ~
+door~
+0 0 11043
+D3
+Exit ~
+door~
+0 0 11035
+S
+#11037
+On a small river~
+The river is deeper than you expected, and moving much more
+quickly than you bargained for.  You can go west, following the
+flow downriver, or battle the current towards the east.
+~
+0 0 7
+D0
+Exit ~
+door~
+0 0 11044
+D1
+Exit ~
+door~
+0 0 11038
+D3
+Exit ~
+door~
+0 0 11036
+S
+#11038
+On the river~
+The river moves swiftly along, and it takes all that you have to
+maintain your position on it.  You wonder what the source of the
+speed and power for such a small rivulet is.  It looks like you
+might be able to bank your boat to the north-west, and to the south
+it looks like the river widens.
+~
+0 0 7
+D2
+Exit ~
+door~
+0 0 11039
+D3
+Exit ~
+door~
+0 0 11037
+S
+#11039
+A wider spot on the river~
+The river widens here, and to the south you can see where it
+meets up with a much larger river.  It takes all your strength to
+keep afloat as the water rushes onwards, trying to sweep you
+downstream.  However, you are determined to explore ahead, no
+turning back!
+~
+0 C 7
+D2
+Exit ~
+door~
+0 0 9772
+S
+#11040
+The stable~
+As you enter the stable, several horses look your way and nicker.
+Long rows of box stalls are on each side of the barn, most are
+occupied, with many of the horses leaning out over their half doors
+to watch the world go by.  Large windows set deep in the walls let
+you look out across the fields and pastures, without endangering the
+horses.  The sun hangs low in the sky, casting a deep red glow across
+the landscape, shadows stretching long and sharp across the fields
+outside.  
+~
+0 CDT 2
+E
+horse horses~
+Pasture C:  BudII, Lady Westwind, April, Joshua, Mayo, Miranda, Pepper
+            OJ, Clover, Athena
+Pasture D:  Smoke, Araban, Sassy, Goldie, Dizzy, Daisy, Barbie, Lydia
+            Sierra, Karen, Margaret, Elroy, O'Doyle
+Stabled:    Clyde, Huw, Prince, Red, Mindy, Chickenpony, Frosty
+            Benny, June, Atlas, Reabald, Bud
+~
+E
+pony ponies~
+Pasture A: Sox    Hazel    Rosie    Venus    Fury    Raven    Kiska
+           Nina   Candy    Walnut   Polly    Aquila  Stretch
+Pasture B: Daisy  Danielle Pansy    Moose    Junior  Spice    Ruth
+           Jenny  Elsie    Josie    Annie    Betsy   Fiesta   Princess
+           Brownie Priscilla
+~
+S
+#11041
+On the river~
+The small but swift river has carried you past the camp, and on
+to new adventures.  You hear a rushing to the west, perhaps this
+is where the small tributary joins with a larger river, one that
+actually goes somewhere!
+~
+0 0 7
+D1
+Exit ~
+door~
+0 0 11034
+D3
+Exit ~
+door~
+0 0 11042
+S
+#11042
+A waterfall~
+OOOPS!!!!   So much for river travel.  Before you know it you're
+plummeting over the edge of a huge waterfall!
+  At least you lose conciousness before your bones are pounded into
+a fine pulp.
+~
+0 C 7
+E
+~
+Generic extended description.
+~
+S
+#11043
+A small bank for two~
+Hidden among the reeds and rushes of the river is a small spot on
+the bank, just big enough for two.  There's even a fishing pole
+here, perfect for a lazy afternoon away from the usual bloodshed
+and killing.  Makes you want to kick back and go to sleep, doesnt it?
+~
+0 CJNT 2
+H 150 M 150
+D0
+Exit ~
+door~
+0 0 11036
+S
+#11044
+A spit on the river~
+You're on a spit sticking into a small river.  Its obviously a
+good spot for fishing, as there are several racks of fish drying
+in the sun along the river banks.  The river rushes onwards not
+far from your feet.
+~
+0 C 2
+D0
+Exit ~
+door~
+0 0 11026
+D2
+Exit ~
+door~
+0 0 11037
+S
+#11045
+Clinging to a cliff face~
+Your arms hurt, your hands feel raw as the sharp edges of rock
+dig in, giving you little support.  Your toes scrabble at tiny
+edges in the cliff face, hoping to find some grip before you fall.
+As you inch your way along, you wonder what you were thinking to
+put yourself in such a perilous situation.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 11022
+D2
+Exit ~
+door~
+0 0 11046
+E
+~
+Generic extended description.
+~
+S
+#11046
+A narrow entrance into the cliff face~
+A tiny crack in the rock forms a small way into the cliff face,
+you have to crawl but you can get in there.  The rock is wet from
+spray, and the thunder of a large waterfall makes your ears ring.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 11045
+D1
+Exit ~
+door~
+0 0 11047
+S
+#11047
+A tunnel into the cliff face~
+The tunnel here is tall enough for you to stand, if only barely.
+The narrow crack that leads to the cliff face is barely visible,
+while the tunnel takes a sharp turn just ahead.  It looks like
+it has been worked on to make it big enough for a person to
+walk through comfortably, but who would have made this place?
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 11048
+D3
+Exit ~
+door~
+0 0 11046
+S
+#11048
+Behind the waterfall~
+The tunnel wall to the west has disappeared, you find yourself
+standing on a wide ledge, almost like a deep cave, staring into
+the back of a massive waterfall.  The water crashes past with
+incredible force, mesmerizing you.  It takes all your willpower
+to move onwards from this place.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11047
+D2
+Exit ~
+door~
+0 0 11049
+S
+#11049
+Behind the waterfall~
+You continue onwards behind the waterfall, its massive weight
+making you feel very small.  The low, loud rumble has deafened
+you, you can barely hear it or anything else any more.  As you
+stare into the water plummeting downwards, you feel oddly drawn
+towards it, and you take a slow step...Shaking your head, you
+break the spell, realizing it would lead to a very quick death.
+Time to move on.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11048
+D1
+Exit ~
+door~
+0 0 11054
+D2
+Exit ~
+door~
+0 0 11050
+S
+#11050
+In a long, damp tunnel~
+This long, damp tunnel must have taken some work to carve out,
+the rock walls are smooth as glass, almost polished.  The mist
+from the waterfalls penetrates even into here, making the
+ground slippery and a little treacherous.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 11049
+D3
+Exit ~
+door~
+0 0 11051
+S
+#11051
+A tiny exit from the rock face~
+You find yourself standing on a tiny rock ledge, just big enough
+for one person to safely stand.  As you look down, you realize you
+are still very high indeed, while not far away the waterfall
+crashes by.  However, the ledge is dry and solid, and much to
+your surprise, you notice iron railings going up the cliff face.
+In fact, it looks like an easy climb.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 11050
+D4
+Exit ~
+door~
+0 0 11052
+S
+#11052
+A ledge overlooking the waterfall~
+A large ledge provides a safe place to sit and stare at the
+massive waterfall that rushes near your feet, a railing makes
+a small barrier, just in case you feel that strange desire to
+get too close to the rushing water.  A cave behind you strikes
+you as unusual, and you're not sure, but there might be a rumble
+that is different from the rumble of the waterfall...
+Just ever so slightly different...
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 11053
+D5
+Exit ~
+door~
+0 0 11051
+S
+#11053
+A cave overlooking the waterfall~
+The mouth of the cave opens up into a huge cavern, so large its 
+surprising it hasn't collapsed.  The walls glitter and points of
+light flash in a multitude of different colours, as you look closer
+you realize crystals and gemstones are the source.  The beauty in
+here is breathtaking!  Great fires are built within frosted glass
+enclosures on the walls, the light transforming the cave into a
+flickering realm of shadows pierced by the bright refractions of
+the cut gems embedded in the walls.  The only thing at odds with
+the place is a strange statue standing in an alcove, you think
+perhaps its a mistake, and take a closer look.
+~
+0 DN 5
+D1
+Exit ~
+door~
+0 0 11056
+D3
+Exit ~
+door~
+0 0 11052
+E
+dragon~
+As you peer more closely at the blackened, twisted form of
+the dragon, you notice an inscription around the pedestal
+it stands upon.  You bend closer, and read:
+ 
+  "Betrayer and betrayed, I will fight no more,
+   My heart is weary, my soul is lost
+   I grieve for the memory of what is past.
+ 
+   I will remain, I will survive, for in me
+   the memory lives on.  Betrayer and betrayed,
+   I may wish for the freedom of death, but I will live.
+ 
+   As long as I remain, the past will be preserved,
+   Ever remembered, never forgotten
+   As long as I am here to defend the memory."
+ 
+~
+E
+alcove statue~
+As you peer more closely into the alcove, you realize your first
+impressions were right.  A strangely hideous form is sculpted here,
+out of some blackened and charred substance.  It isn't a skeleton,
+but a statue... strangely enough, of a dragon.  Its wings are
+twisted back as though blown by a fierce gale, far more than should
+be possible, its grim face is contorted by what looks like anger and
+pain.  The eyes glower fiercely from below a deep brow, they are
+the only thing not black, but glitter with a deep, silver light.
+~
+S
+#11054
+A tunnel through the rock~
+A narrow tunnel winds back through the rock, remarkably dry
+given the proximity to a large waterfall.  Torches flicker on 
+the walls, casting odd shadows as you move through the rough
+passageway.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11055
+D3
+Exit ~
+door~
+0 0 11049
+S
+#11055
+Entrance to the City of Thieves~
+The tunnel widens, and an incredible sight stops you in your
+tracks.  Massive carved gates flank an impossibly huge opening
+in the rock, runes set in silver adorn the walls and floor.  You
+cautiously step around the writings, not knowing what they say,
+hoping that you do not trigger an unknown trap.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 11062
+D3
+Exit ~
+door~
+0 0 11054
+S
+#11056
+The Lair~
+The glitter of fine gems and gold attracts your attention almost
+immediately....almost.  What does attract your immediate attention
+is the rather large dragon curled up in the giant cavern.  Great,
+sad eyes meet yours, eyes that contain the wisdom of ages, and the
+beast seems to bear some distant resemblance to the statue in the
+outer cave.  Still, you get the feeling it would not be wise to
+remain, it is an unsafe practice to rely on the temperment of a
+dragon to be the same from one moment to the next.
+~
+0 D 5
+D3
+Exit ~
+door~
+0 0 11053
+S
+#11057
+Unused~
+~
+0 DP 0
+D1
+Exit ~
+door~
+0 0 11058
+S
+#11058
+Unused~
+~
+0 DP 0
+D0
+Exit ~
+door~
+0 0 11059
+D3
+Exit ~
+door~
+0 0 11057
+S
+#11059
+Unused~
+~
+0 DP 0
+D0
+Exit ~
+door~
+0 0 11060
+D2
+Exit ~
+door~
+0 0 11058
+S
+#11060
+Unused~
+~
+0 DP 0
+D0
+Exit ~
+door~
+0 0 11061
+D2
+Exit ~
+door~
+0 0 11059
+S
+#11061
+Unused~
+~
+0 DP 0
+D2
+Exit ~
+door~
+0 0 11060
+S
+#0
+
+#RESETS
+M 0 11000   2 11002  2	* a guardian for the thieves
+E 1 11000  -1   16	*   an iron dirk
+M 0 11000   2 11002  2	* a guardian for the thieves
+E 1 11001  -1   14	*   a braided, black leather strap
+E 1 11000  -1   16	*   an iron dirk
+M 0 11001   5 11005  1	* a cave rat
+M 0 11001   5 11009  1	* a cave rat
+M 0 11001   5 11011  1	* a cave rat
+M 0 11001   5 11013  1	* a cave rat
+G 1 11002  -1     	*   a rats tooth
+M 0 11001   5 11015  1	* a cave rat
+M 0 11004   2 11025  1	* a male sneaky thief
+E 1 11000  -1   16	*   an iron dirk
+E 1 11016  -1    5	*   a torn leather jerkin
+M 0 11003   1 11030  1	* a mean thief
+G 1 11001  -1     	*   a braided, black leather strap
+M 0 11005   2 11031  1	* a female sneaky thief
+E 1 11016  -1    5	*   a torn leather jerkin
+E 1 11018  -1   16	*   a dagger speckled with rust
+E 1 11015  -1    7	*   copper-studded leather pants
+M 0 11004   2 11032  1	* a male sneaky thief
+E 1 11016  -1    5	*   a torn leather jerkin
+E 1 11015  -1    7	*   copper-studded leather pants
+E 1 11018  -1   16	*   a dagger speckled with rust
+M 0 11002   4 11034  1	* a river sprite
+M 0 11002   4 11035  2	* a river sprite
+M 0 11002   4 11035  2	* a river sprite
+M 0 11002   4 11036  1	* a river sprite
+M 0 11005   2 11044  1	* a female sneaky thief
+E 1 11018  -1   16	*   a dagger speckled with rust
+E 1 11001  -1   14	*   a braided, black leather strap
+G 1 11000  -1     	*   an iron dirk
+E 1 11015  -1    7	*   copper-studded leather pants
+E 1 11016  -1    5	*   a torn leather jerkin
+M 0 11007   1 11056  1	* An ancient, silver dragon
+E 1 11023  -1    1	*   a plain silver ring
+O 0 11003 100 11028	* A small vegetable garden
+P 1 11004  -1 11003  1	*   some carrots
+P 1 11005  -1 11003  1	*   a handful of green beans
+P 1 11006  -1 11003  1	*   some peas
+O 0 11017 100 11030	* a large leather waterskin
+O 0 11008 100 11033	* A sagging shelf on the wall
+P 1 11024  -1 11008  1	*   a broken nicked sword
+P 1 11009  -1 11008  1	*   a cracked bottle
+P 1 11010  -1 11008  1	*   a faintly glowing glass beaker
+O 0 11013 100 11034	* a river
+O 0 11013 100 11035	* a river
+O 0 11013 100 11036	* a river
+O 0 11013 100 11037	* a river
+O 0 11014 100 11043	* a fishing pole
+O 0 11011 100 11044	* A rack for drying fish
+P 1 11012  -1 11011  3	*   dried fish
+P 1 11012  -1 11011  3	*   dried fish
+P 1 11012  -1 11011  3	*   dried fish
+O 0 11020 100 11055	* a massive silver frame, flames roaring high
+D 0 11000   0    1	* The Tor north
+D 0 11018   2    2	*  south
+D 0 11019   0    2	* The back door north
+D 0 11029   5    1	* A well worn tent down
+D 0 11030   4    1	* A comfortable den up
+M 0 11006   1 11040  1	* Ceilidh
+E 1 11019  -1    3	*   a red leather collar
+O 0 11025 100 11040	* a feed cart
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 11007 spec_breath_acid    	* An ancient, silver dragon
+S
+
+#$

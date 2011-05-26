@@ -1,0 +1,236 @@
+#AREA
+/mud/moosehead/area/ofcol.are~
+Ofcol~
+{ All } Alfa    Ofcol~
+5550 5577
+
+#MOBILES
+#0
+
+#OBJECTS
+#5550
+pitch black rose~
+a pitch black rose~
+A deathly looking black rose somehow makes you weep with joy.~
+organic~
+clothing 0 AO
+0 0 0 0 0
+1 0 10000 P
+#5551
+bouquet flowers~
+a bouquet of flowers~
+a bouquet of flowers is here~
+flowers~
+container 0 AK
+60 0 0 6 100
+1 20 100 P
+#5552
+pale blue rose~
+a pale blue rose~
+a nice little pale blue rose is here~
+organic~
+clothing 0 AO
+0 0 0 0 0
+1 0 90 P
+#5553
+a pure white rose~
+a pure white rose~
+a pure white rose is here~
+organic~
+clothing 0 AO
+0 0 0 0 0
+1 0 90 P
+#5554
+a soft red rose~
+a soft red rose~
+a soft red rose is here~
+organic~
+clothing 0 AO
+0 0 0 0 0
+1 1 90 P
+#5555
+vaalean keltainen ruusu~
+vaalean keltainen ruusu~
+vaalean keltainen ruusu on lattialla~
+organic~
+clothing 0 AO
+0 0 0 0 0
+1 0 180 P
+#0
+
+#ROOMS
+#5550
+Village street~
+You stand at the small village street in Ofcol.
+From here you see small houses and only few people.
+North of here the village street continues up to the small
+square where some people are gathered as always.
+~
+0 0 1
+D0
+Exit ~
+~
+0 -1 5551
+D2
+Exit ~
+~
+0 -1 314
+S
+#5551
+Village street~
+You are standing on the village street of Ofcol.
+East from here is a small alley and north you enter the village
+square. Towards the south you can leave Ofcol.
+~
+0 0 1
+D0
+Exit ~
+~
+0 -1 5552
+D1
+Exit ~
+~
+0 -1 5553
+D2
+Exit ~
+~
+0 -1 5550
+S
+#5552
+Village square~
+The village square is a place where inhabitants of Ofcol gather
+to talk, trade and sell items and just have a good time.
+You see a small shop to the west and the local inn to the north.
+If you leave south you go to village street.
+~
+0 0 1
+D0
+Exit ~
+~
+0 -1 5556
+D2
+Exit ~
+~
+0 -1 5551
+D3
+Exit ~
+~
+0 -1 5555
+S
+#5553
+The small alley~
+You are in a small, quiet alley.  From here you see the village street
+to the west and a small room lies to the south.
+~
+0 0 1
+D1
+Exit ~
+~
+0 0 601
+D2
+Exit ~
+~
+0 -1 5554
+D3
+Exit ~
+~
+0 -1 5551
+S
+#5554
+The future training room~
+This is the future site of a training room.  The only exit is north
+leading to the small alley.
+~
+0 D 1
+D0
+Exit ~
+~
+0 -1 5553
+S
+#5555
+Ivy's House of Flowers~
+You are standing in a small shop, filled with all kinds of flowers.
+Here you might be able to find just the thing you're looking for.
+The only exit is east to village square.
+~
+0 D 1
+D1
+Exit ~
+~
+0 -1 5552
+S
+#5556
+The Local Inn~
+You are in the local inn, where the peaceful citizens of Ofcol
+gather to have a drink or 5 if they have dry throats.
+You can't help thinking that Ofcol is a dry city, when you see the
+many people here.
+The only exit is south to the village square.
+~
+0 D 1
+D2
+Exit ~
+~
+0 -1 5552
+S
+#5577
+Ravan's hideout~
+This place is a small, cosy place where no one disturbs you all
+the time. The room has little decoration except for some pictures
+on the wall.
+You notice that there are no exits from this room.
+~
+0 C 0
+E
+friend friends~
+The list include such prominent names as : God, Lottie, Kurgan,
+Ezzard, Mike, Sprocket and Stormbringer.
+~
+E
+foe foes enemies~
+There is only one picture yet... Dim.
+It pictures him hanging from a gallow, north of the town.
+It has the letters R.I.P. inscripted underneath.
+~
+E
+pictures picture decoration~
+These pictures show the friend's and foe's of Ravan.
+They are easy to separate, as most of the foe's have the letters
+R.I.P. inscripted underneath them.
+~
+S
+#0
+
+#RESETS
+M 0  303   5 5550  1	* the citizen
+M 0  304   5 5552  3	* the citizen
+E 1 3020  -1   16	*   a dagger
+M 0  303   5 5552  1	* the citizen
+M 0  304   5 5552  3	* the citizen
+M 0  304   5 5552  3	* the citizen
+E 1 3020  -1   16	*   a dagger
+M 0  304   5 5554  2	* the citizen
+M 0  304   5 5554  2	* the citizen
+M 0  303   5 5556  3	* the citizen
+M 0  303   5 5556  3	* the citizen
+M 0  303   5 5556  3	* the citizen
+M 0  308   1 5556  1	* the Innkeeper
+G 1 3001  -1     	*   a bottle of beer
+G 1 3000  -1     	*   a barrel of beer
+M 0  350   1 5577  1	* the pet dragon
+M 0  306   1 5555  1	* Luxan
+G 1 5554  -1     	*   a soft red rose
+G 1 5553  -1     	*   a pure white rose
+G 1 5552  -1     	*   a pale blue rose
+G 1 5550  -1     	*   a pitch black rose
+G 1 5551  -1     	*   a bouquet of flowers
+G 1 5555  -1     	*   vaalean keltainen ruusu
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

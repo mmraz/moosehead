@@ -1,0 +1,1018 @@
+From caceman@mailhost.tcs.tulane.edu Sun Oct  2 18:07:21 1994
+Return-Path: <caceman@mailhost.tcs.tulane.edu>
+Received: from mailhost.tcs.tulane.edu ([129.81.224.52]) by eskimo.com (5.65c/1.35)
+	id AA19868; Sun, 2 Oct 1994 18:05:56 -0700
+Received: from [129.81.100.176] (doris306b.dorm.tulane.edu [129.81.100.176]) by mailhost.tcs.tulane.edu (8.6.9/8.5) with SMTP id UAA12772; Sun, 2 Oct 1994 20:05:38 -0500
+Message-Id: <199410030105.UAA12772@mailhost.tcs.tulane.edu>
+Date: Mon, 3 Oct 1994 18:16:04 -0700
+To: rusty@eskimo.com
+From: caceman@mailhost.tcs.tulane.edu (Andrew Cace)
+Subject: New Area to be Added to Marsh
+Status: RO
+X-Status: 
+
+Here is the first draft of a new area that can fit in with the dark castle
+in the marsh.  If you know of any sites where I can test my areas out,
+please let me know.
+
+
+#AREA   {25-30} Cace~   Ruined Castle~
+
+#HELPS
+0 $~
+
+#MOBILES
+#1901
+bug pill mutant roly-poly~
+A mutant roly-poly~
+A large, black bug crawls through the stinking feces.
+~
+A heavily armored, segmented insect lies here.  When you approach it, it
+curls up into a ball of its nearly impenetrable armor.
+~
+insect~
+ABT N 300 S
+27 13 10d10+500 3d30+60 10d2+10 8
+-14 -14 -14 -10
+CKOR 0 0 0
+8 8 0 30
+0 0 3 0
+#1902
+giant butterfly~
+A giant butterfly~
+A large, orange and black butterfly flits from flower to flower.
+~
+A giant monarch butterfly gathers pollen from the beautiful flowers. It
+looks at you through multi-faceted eyes, and returns to gathering pollen.
+~
+insect~
+BR HT 700 S
+-10 -10 -10 -8
+R 0 0 0
+8 8 2 30
+0 0 4 0
+#1903
+statue hero caceman~
+The statue of Caceman~
+One statue seems to be in perfect condition.
+~
+This is a statue of the famous hero Caceman.  Its eyes look deep into your
+soul, looking for evil.
+~
+human~
+BCT CHNT 1000 S
+34 18 4d50+600 1d1+199 10d2+5 3
+-20 -20 -20 -10
+BEFHJKNQRT 0 0 0
+8 8 1 45
+0 0 2 0
+#1904
+rug carpet~
+The living rug.~
+A beautiful rug lies at your feet.
+~
+An ornate Persian rug, intricately woven from the finest fibers, covers the
+floor.
+~
+elf~
+BS A 0 S
+28 14 4d25+500 3d6+100 2d6+8 13
+A 0 0 0
+8 8 0 23
+0 0 3 0
+#1905
+bones skeleton~
+The skeleton~
+A pile of bones lies forgotten in the corner.
+~
+As you watch the bones, they seem to rearrange themselves into fantastic
+combinations.
+~
+human~
+FOQ DF -500 S
+31 16 4d30+600 1d1+99 4d5+5 5
+-12 -12 -12 -8
+EN 0 0 0
+8 8 1 29
+0 0 2 0
+#1906
+banshee ghost~
+The banshee~
+An apparition's scream makes your blood run cold.
+~
+A banshee, dressed in tattered rags, wails in distress at the parting on
+another life...possibly YOURS.
+~
+human~
+FGR BTV -300 S
+33 17 2d30+666 3d40+200 4d5+8 18
+ER 0 0 0
+8 8 2 27
+0 0 2 0
+#1907
+box twinkies monster~
+The Twinkie Monster~
+An ancient box of snack food lies on the ground.
+~
+Upon closer examination, you notice that the both has eyes.  Furthermore,
+it also has arms, legs, and a mouth full of sharp teeth.
+~
+fido~
+FQ DFHN -450 S
+29 15 2d60+400 2d50+200 3d4+10 14
+-14 -14 -14 -6
+CEN 0 0 0
+8 8 0 23
+0 0 3 0
+#1908
+reflection image~
+The Reflection~
+There is an image of yourself.
+~
+You see yourself.  WOW!!  You have been eating far too many buckets of
+chicken wings.
+~
+elf~
+BFS PT 0 S
+32 17 3d45+550 3d20+60 6d2+5 25
+-16 -16 -16 -8
+FR 0 0 0
+8 8 0 30
+0 0 2 0
+#1909
+cold air draft~
+The cold draft~
+A cold draft of air blows through the room.
+~
+Invisible, its cold bites into your skin like tiny daggers.
+~
+elf~
+CF BDFH -200 S
+33 17 6d15+600 3d40+200 6d6+1 30
+-18 -18 -18 -10
+BRV 0 0 0
+8 8 0 30
+0 0 4 0
+#1910
+crab white albino~
+The albino crab~
+A pure white crab hides in a dark corner.
+~
+White as the pure fallen snow, this poor crab has never seen the light of
+day.  It only wants to be left alone in the darkness.
+~
+fish~
+BC NQZ 800 S
+35 18 2d50+800 3d40+300 6d6+3 5
+-19 -19 -19 -11
+CNQR 0 0 0
+8 8 1 35
+0 0 2 0
+#1911
+tentacle~
+The leprous tentacle~
+A decaying tentacle gropes blindly about the room.
+~
+The tentacle is covered with little suckers designed to hold its
+prey...namely YOU!
+~
+fish~
+BO TX -300 S
+30 16 3d40+400
+3d60+100 3d6+4 12
+-19 -19 -19 -19 -11
+NR 0 0 0
+8 8 1 29
+0 0 1 0
+#1912
+man gypsy servant insane crazy~
+The crazy Gypsy~
+An insane man wearing brightly colored scarves dances about the room,
+cleaning up.
+~
+Years of being so close to the beautiful gypsy queen, but unable to do
+anything has driven him crazy.
+~
+human~
+CFR HT 0 S
+31 16 4d40+500 6d30+300 3d4+10 4
+-19 -19 -19 -11
+CENR 0 0 0
+8 8 1 31
+0 0 2 0
+#1913
+boots~
+A pair of boots~
+A worn out pair of boots mildews in the corner.
+~
+This is the dirtiest pair of boots that you have ever seen.  It's tongue is
+salivating from the delicious meal that you are about to give it.
+~
+dwarf~
+BCFS DFTZ 0 S
+29 15 3d60+500 3d10+100 3d4+10 15
+-17 -17 -17 -9
+IJR 0 0 0
+8 8 1 29
+0 0 1 0
+#1914
+dress~
+An old dress~
+A threadbare dress hangs crookedly on a hanger.
+~
+An old wedding dress seems to have taken a life of its own, and now it
+wants yours.
+~
+human~
+BCFS DFTZ 0 S
+29 15 3d60+500 3d10+100 3d4+10 16
+-17 -17 -17 -9
+IJR 0 0 0
+8 8 1 29
+0 0 2 0
+#1915
+steam~
+A cloud of steam~
+Hot steam rises from the bath.
+~
+As the steam surrounds you, you feel lightheaded and start to choke.
+~
+human~
+BFR BT -100 S
+29 15 1d50+600 3d40+200 4d5+3 29
+-16 -16 -16 -8
+FK 0 0 0
+8 8 0 29
+0 0 3 0
+#1916
+bed~
+A bed~
+A round bed rotates in the middle of the room.
+~
+This bed is covered with black satin sheets. It looks like it has seen a
+lot of use recently.
+~
+dragon~
+BQ DFRZ 500 S
+34 18 6d20+750 6d30+200 3d5+10 8
+-19-19-19-11
+CDEFK 0 0 0
+8 8 0 34
+0 0 4 0
+#1917
+gypsy man king~
+The Gypsy King~
+The King of the Gypsies stands before you.
+~
+He is a man of noble birth.  However, he chooses to dress in rags and live
+the life of a hermit.
+~
+human~
+GT DFHNTUV 0S
+35 18 3d40+800 3d60+100 3d6+11 1
+-19 -19 -19 -11
+CEFIKN 0 0 0
+8 8 1 35
+0 0 2 0
+# 1918
+gypsy woman queen~
+The Gypsy Queen~
+A beautiful woman stands before you.
+~
+36-24-36
+~
+human~
+GR HTV 0 S 34 18 3d40+750 3d60+300 3d6+10 2
+-19 -19 -19 -11
+CEFIKN 0 0 0
+8 8 2 34
+0 0 2 0
+#0
+
+#OBJECTS
+#1901
+butterfly wings~
+butterfly wings~
+Brightly colored cloth ripples in the breeze.~
+cloth~
+9A KA
+28 82 56 0 0 
+1 0 0 P
+#1902
+banshee wail~
+banshee's wail~
+A banshee's wail can cut straight to the heart.~
+iron~
+5 F AN
+32 10 30 3 0
+1 0 0 P
+#1903 box twinkies~
+box of Twinkies~
+A new box of Twinkies lies unguarded.~
+wood~
+15 0 A
+50 1 1900 0 0
+1 0 0 P
+#1904
+twinkie~
+twinkie~
+An uneaten twinkie can stay fresh forever.  There is writing on the package.~
+bread~
+26 G AO
+28 17 28 62 0
+1 0 0 P
+E
+package writing~
+Made from the stupidest ideas ever recieved from the immortals of MHS.
+~
+#1905
+shell crab~
+crab shell~
+A shell of pure white lies on the ground.~
+diamond~
+9 G AD
+34 0 0 0 0
+10 0 0 P
+#1906
+rubber chicken~
+a rubber chicken~
+A rubber chicken lies on the floor.~
+rubber~
+3 A AO
+30 5 7 63 0
+1 00 P
+#1907
+boots work~
+a pair of work boots~
+A pair of boots caked with shit stink up the room.  There is a tag on the side~
+leather~
+9 G AG
+0 0 0 0 0
+1 1 0 P
+E
+tag
+Made by Red Wing shoe company.~
+A
+17 2
+A
+18 1
+A
+4 -1
+#1908
+compact makeup mirror~
+a compact mirror~
+A mirror and some makeup are left here.~
+glass~
+9 G AO
+0 0 0 0 0
+1 1 0 P
+A
+6 -1
+A
+22 3
+#1930
+soap bubble~
+a soap bubble~
+A soap bubble floats on a light breeze.~
+water~
+18 G AO
+0 0 0 0 0
+1 1 0 P
+E
+soap bubble~
+Looking into the soap bubble, you see many far off lands.~
+#1931
+platinum ball~
+a platinum ball~
+A round sphere of white metal lies here.~
+platinum~
+8 G AO
+0 0 0 0 0
+1 1 0 P
+#1932
+golden ball~
+a golden ball~
+A round sphere of yellow metal lies here.~
+gold~
+8 G AO
+0 0 0 0 0
+1 1 0 P
+#1933
+silver ball~
+a silver ball~
+A ball of silver lies here.~
+silver~
+8 G AO
+0 0 0 0 0
+1 1 0 P
+#1934
+bronze ball~
+a bronze ball~
+A ball of orange metal lies here.~
+bronze~
+8 G AO
+0 0 0 0 0
+1 1 0 P
+#1935
+wooden ball~
+a wooden ball~
+A ball made of wood lies here.~
+wood~
+8 G AO
+0 0 0 0 0
+1 1 0 P
+#0
+
+#ROOMS
+#1920
+The Castle Entrance~
+The rusty portcullis slowly creaks open above your head, unseen hands
+operating its mechanism.  Ahead, you can see the ruins of a once majestic
+courtyard, its walls lined with the tattered remnants of glorious flags.~
+0 9 1
+D0
+You see the dreary marsh.~
+gate~
+2 6969 8318
+D2
+You see a ruined courtyard.~
+~
+0 0 1921
+S
+#1921
+The Ruined Courtyard~
+The tattered remnants of flags hang limply in the stale air.  The tiny echo
+of claws clicking against stone comes at you from every angle.  To the
+north, a long dark tunnel leads back to the marsh, while the courtyard
+continues to the east and west.  A multi-colored beam of light shimmers in
+the south.~
+0 8192 2
+D0
+You see a dark tunnel, barred at the end.~
+~
+0 0 1920
+D1
+You see more courtyard.~
+~
+0 0 1923
+D2
+You see the end of a rainbow.~
+rainbow~
+2 1930 9020
+D3
+You see more courtyard.~
+~
+0 0 1922
+S
+#1922
+The Ruined Courtyard~
+This corner of the courtyard is filled with stinking feces.  The sounds of
+maggots happily feasting makes you sick.  The courtyard continues to your
+east and south, while a dazzling display of colored lights draws your
+attention southeast.~
+0 8192 2
+D1
+You see more courtyard.~
+~
+0 0 1921
+D2
+You see more courtyard.~
+~
+0 0 1924
+S
+#1923
+The Ruined Courtyard~
+Through the crumbling walls, you can see feral eyes looking at you with
+longing.  The stench from the marsh wafts in here on a hot breeze.~
+0 8192 2
+D2
+You see more courtyard.~
+~
+0 0 1925
+D3
+You see more courtyard.~
+~
+0 0 1921
+S
+#1924
+The Ruined Courtyard~
+A well-worn path end abruptly at a solid oak door in the west wall.  This
+area seems very well preserved.~
+0 8192 2
+D0
+You see a pile of stinking shit.~
+~
+0 0 1922
+D1
+You see the base of a rainbow.~
+rainbow~
+2 1930 9020
+D2
+You see more courtyard.~
+~
+0 0 1926
+D3
+You see a huge, iron-bound door.~
+door~
+1 6931 1931
+S
+#1925
+The Ruined Courtyard~
+Beautiful flowers grow in abundance through cracks in the pave stones. 
+Butterflies flit from flower to flower carelessly.~
+0 8192 2
+D0
+You see more courtyard.~
+~
+0 0 1923
+D1
+You see a heavily barred door.~
+door~
+1 1932 1929
+D2
+You see the south wall of the courtyard.~
+~
+0 0 1928
+D3
+You see a majestic rainbow.~
+rainbow~
+2 1930 9020
+S
+#1926
+The Ruined Courtyard~
+The gravity here is very strong.  You can barely move across the room.~
+0 8192 11
+D0
+You see more courtyard.~
+~
+0 0 1924
+D1
+You see more courtyard.~
+~
+0 0 1927
+S
+#1927
+The Ruined Courtyard~
+Statues of heroes long forgotten stand here, aged by the weather.  A metal
+plaque with unreadable writing is sunken into the pedestal of each statue.~
+0 8192 2
+D0
+You see the base of a beautiful rainbow.~
+rainbow~
+2 1930 9020
+D1
+You see a shady corner of the courtyard.~
+~
+0 0 1928
+D2
+You see a dark hole gaping in the ground.~
+~
+0 0 1930
+D3
+You see more courtyard.~
+~
+0 0 1926
+S
+#1928
+The Ruined Courtyard~
+Vines bearing luscious fruit climb the walls, blocking out the light of the
+sun.~
+0 8193 2
+D0
+You see more courtyard.~
+~
+0 0 1925
+D3
+You see more courtyard.~
+~
+0 0 1927
+S
+#1929
+The Waiting Room~
+Intricately woven rugs cover the north and south walls, while a gigantic
+painting hangs on the east wall.~
+0 9 1
+D0
+It is too dark to see.~
+door~
+1 1933 1932
+D2
+It is too dark to see.~
+door~
+1 1933 1933
+E
+painting~
+Unfortunately, a leak in the roof has ruined this once fine painting. 
+However, you see the name "Rusty" at the bottom, and your head is filled
+with visions of a magnificent dragon in flight.~
+S
+#1930
+The Dark Hole~
+Part of the floor has collapsed, allowing entrance to the natural caverns
+below the castle.  There is a notice posted on a beam.~
+0 1033 9
+D0
+You see a brightly lit courtyard.~
+~
+0 0 1927
+E
+notice~
+Attn:  This area has been closed by the Midgaard health inspector due to
+unsanitary conditions.~
+S
+#1931
+The Broken Wall~
+Part of the wall has crumbled here, forming makeshift stairs to the first
+level of the tower.  There is yellow tape covering the stairs.~
+D1
+You see an old, decrepit courtyard.~
+~
+1 1931 1924
+E
+tape~
+POLICE LINE...DO NOT CROSS...POLICE LINE...DO NOT CROSS...~
+S
+#1932
+The North Guard Room~
+At one time, this was the post of many a brave knight set here to guard the
+king and queen.  Alas, all that remains now are some skeletons which
+crumble to dust as you approach them.~
+0 9 1
+D1
+It is too dark to tell.~
+~
+0 0 1934
+D2
+It is too dark to tell.~
+door~
+1 1933 1929
+S
+#1933
+The Dark Hall~
+The floor of this hall is covered with an undisturbed layer of dust.~
+0 9 1
+D0
+It is too dark to tell.~
+~
+1 1933 1929
+D1
+The hall continues east.~
+~
+0 0 1944
+S
+#1934
+The Mess Hall~
+A fine layer of dust covers the long table and broken chairs that clutter
+the room.  A serving door is cut into the north wall, almost as an
+afterthought.~
+0 9 1
+D0
+It is too dark to tell.~
+~
+0 0 1935
+D3
+It is too dark to tell.~
+~
+0 0 1932
+S
+#1935
+The Kitchen~
+Nobody has been in this kitchen for hundreds of years.  All of the food has
+spoiled, except for a box of Twinkies which appears to be in perfect
+condition.~
+0 9 1
+D2
+It is too dark to tell.~
+~
+0 0 1936
+D3
+It is too dark to tell.~
+~
+0 0 1934
+S
+#1936
+The Hall of Mirrors~
+Massive mirrors line the walls of this hall.  A quick glance into one of
+the mirrors gives the impression that there is something in the room with
+you.~
+0 9 1
+D0
+You see a warped and twisted reflection of yourself.~
+~
+0 0 1937
+D1
+It is too dark to tell.~
+~
+0 0 1935
+S
+#1937
+The Hall of Mirrors~
+Massive mirrors line the walls of this hall.  A quick glance into one of
+the mirrors gives the impression that there is something in the room with
+you.~
+0 9 1
+D0
+You see a warped and twisted reflection of yourself.~
+~
+0 0 1938
+D2
+You see a warped and twisted reflection of yourself.~
+~
+0 0 1936
+S
+#1938
+The Hall of Mirrors~
+Massive mirrors line the walls of this hall.  A quick glance into one of
+the mirrors gives the impression that there is something in the room with
+you.~
+0 9 1
+D1
+The floor drops away sharply.~
+~
+0 0 1939
+D2
+You see a warped and twisted reflection of yourself.~
+~
+0 0 1937
+S
+# 1939
+The Deep Chasm~
+An endless chasm stretches out below you.~
+0 9 9
+D1
+It is too dark to tell.~
+~
+0 0 1940
+D3
+You see the edge of the chasm.~
+~
+0 0 1938
+S
+#1940
+The Deep Chasm~
+An unending chasm yawns below you.~
+0 9 9
+D2
+You see the edge of the chasm.~
+~
+0 0 1941
+D3
+It is too dark to tell.~
+~
+0 0 1939
+S
+#1941
+The Subterranean River~
+An underground river flows off the edge of a chasm.  Try as you might, you
+cannot hear the water hit the bottom.~
+0 9 7
+D0
+You see the lip of a dark chasm.~
+~
+0 0 1940
+D1
+It is too dark to tell.~
+~
+0 0 1942
+S
+#1942
+The Subterranean River~
+An underground river flows rapidly through here.  You can hear splashing
+sound in the darkness around you.~
+0 9 7
+D1
+It is too dark to tell.~
+~
+0 0 1943
+D3
+It is too dark to tell.~
+~
+0 0 1941
+S
+#1943
+The Waterfall Room~
+A large volume of water pours incessantly from a hole in the roof and flows
+off to the west.~
+0 9 1
+D1
+It is too dark to tell.~
+~
+0 0 1950
+D3
+It is too dark to tell.~
+~
+0 0 1942
+S
+#1944
+The Dark Hall~
+An old staircase used to descend here, but it has been sealed off with
+mystic wards.~
+0 9 1
+D2
+It is too dark to tell.~
+~
+0 0 1945
+D3
+It is too dark to tell.~
+~
+0 0 1933
+S
+#1945
+The Whirlpool~
+A swirling vortex of mystical energy draws all of the light in the room
+into its core.~
+0 9 1
+D0
+It is too dark to tell.~
+~
+0 0 1944
+D2
+It is too dark to tell.~
+~
+0 0 1946
+S
+#1946
+The Cliff's Edge~
+A weak rope bridge spans a dark chasm.  To the east, there looms a large
+door, covered in writing.~
+0 9 1
+D1
+It is too dark to tell.~
+door~
+1 1934 1948
+D3
+It is too dark to tell.~
+~
+0 0 1946
+E
+writing~
+For dust though art, and unto dust though shalt then return.~
+S
+#1948
+The Antechamber~
+Comfortable couches and overstuffed pillows have been placed around the
+room.  It is obvious that someone takes care of this room.~
+0 9 1
+D0
+It is too dark to tell.~
+~
+0 0 1949
+D2
+It is too dark to tell.~
+~
+0 0 1950
+D3
+It is too dark to tell.~
+door~
+1 1934 1947
+S
+#1949
+The Changing Room~
+Male clothes are strewn all over the place.  Torches, placed in the
+corners, provide light.~
+0 8 1
+D1
+You see nothing special.~
+~
+0 0 1951
+D2
+It is too dark to tell.~
+~
+0 0 1948
+S
+#1950
+The Changing Room~
+Female clothes and makeup are everywhere, making this one of the messiest
+places you have ever seen.  The marsh outside seems neat compared to this.~
+0 8 1
+D0
+It is too dark to tell.~
+~
+0 0 1948
+D1
+You see nothing special.~
+~
+0 0 1953
+D3
+It is too dark to tell.~
+~
+0 0 1943
+S
+#1951
+The Bath Room~
+Steam rises from natural springs carved into the rock.  The floor is
+covered with a beautiful mosaic, and the faint scent of eucalyptus hangs on
+the air.~
+0 8 1
+D2
+You see nothing special.~
+door~
+1 1935 1952
+D3
+You see nothing special.~
+~
+0 0 1949
+S
+#1952
+The Bedroom~
+Mirrors glisten on the ceiling, while a circular bed with silk sheets
+rotates in the center of the room.~
+0 8 1
+D0
+You see nothing special.~
+door~
+1 1935 1951
+D2
+You see nothing special.~
+door~
+1 1935 1953
+S
+#1953
+The Bathing Room~
+Hot steam assaults you as it rises from natural hot springs.  Tropical
+flowers fill the room with bright colors.~
+0 8 1
+D0
+You see nothing special.~
+door~
+1 1935 1952
+D3
+You see nothing special.~
+~
+0 0 1950
+S
+#0
+
+#RESETS 
+M 0 1901 1 1922         ROLY-POLY
+G 1 1932 30                     GOLD BALL
+*
+M 0 1902 1 1925         BUTTERFLY
+E 1 1901 -1 5                   ADD WINGS ON BUTTERFLY
+*
+M 0 1903 1 1927         STATUE OF CACEMAN
+*
+M 0 1904 1 1929         LIVING RUG
+G 1 1933 30                     SILVER BALL
+*
+M 0 1905 2 1932         SKELETON #1
+M 0 1905 2 1932         SKELETON #2
+*
+M 0 1906 1 1933         BANSHEE
+E 1 1902 -1 16                  ADD BANSHEE WAIL
+*
+M 0 1907 1 1935         TWINKIE MONSTER
+O 0 1903 1 1935         BOX OF TWIKIES
+P 1 1904 2 1903         PUT TWINKIES IN BOX
+*
+M 0 1908 2 1936         REFLECTION #1
+*
+M 0 1908 2 1937         REFLECTION #2
+G 1 1931 30
+*
+M 0 1909 2 1938         COLD AIR #1
+*
+M 0 1909 2 1946         COLD AIR #2
+*
+M 0 1910 2 1941         WHITE CRAB #1
+*
+M 0 1910 2 1942         WHITE CRAB #2
+E 1 1905 -1 5                   CRAB SHELL
+*
+M 0 1911 1 1945         TENTACLE
+*
+M 0 1912 2 1948         GYPSY
+G 1 1906 30                     RUBBER CHICKEN
+G 1 1934 30                     BRONZE BALL
+*
+M 0 1912 2 1924         GYPSY
+*
+M 0 1913 1 1949         BOOTS MOB
+E 1 1907 -1 8                   BOOTS OBJ
+*
+M 0 1914 1 1950         DRESS MOB
+*
+M 0 1915 2 1951         STEAM MOB
+*
+M 0 1915 2 1953         STEAM MOB
+G 1 1935 30                     WOODEN BALL
+*
+M 0 1916 1 1952         BED MOB
+*
+M 0 1917 1 1947         GYPSY KING
+G 1 1930 30
+*
+M 0 1918 1 1947         GYPSY QUEEN
+E 1 1908 -1 17
+*end of resets
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$
+
+
