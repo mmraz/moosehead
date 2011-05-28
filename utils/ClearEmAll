@@ -1,9 +1,0 @@
-#! /bin/csh -f
-
-# to delete all pfiles not logged in in over a year
-# change directory listings for your appropriate dir's
-# Written by rusty@moosehead.com, do not distribute without permission
-
-cd /mud/moosehead/player
-find . -mtime +365 -exec rm {} \;
-

@@ -1,9 +1,0 @@
-#!/bin/csh
-cd /mud/moosehead/area
-set chksled=`ps x | grep "startup" | grep -v "grep"`
-if "$chksled" == "" then
-echo 'No Sled Restarting..'
- mv /mud/moosehead/area/syslog /mud/moosehead/area/sys.log
- /mud/moosehead/area/startup > & syslog&
-endif
-unset chksled
