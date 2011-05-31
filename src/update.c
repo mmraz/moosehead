@@ -312,7 +312,7 @@ if( ch != NULL )
     add_hp  = 3*(con_app[get_curr_stat(ch,STAT_CON)].hitp + number_range(
         class_table[old_class].hp_min,
         class_table[old_class].hp_max ))/3;
-    add_hp  = 3*(con_app[get_curr_stat(ch,STAT_END)].hitp + number_range(
+    add_hp  = add_hp + 3*(con_app[get_curr_stat(ch,STAT_END)].hitp + number_range(
         class_table[old_class].hp_min,
         class_table[old_class].hp_max ))/4;
     add_hp  = add_hp + ((con_app[get_curr_stat(ch,STAT_STR)].hitp + number_range(
