@@ -8475,12 +8475,6 @@ void do_garotte( CHAR_DATA *ch, char *argument )
       return;
     }
 
-    if ((!IS_NPC(ch) && !IS_NPC(victim)) && (ch != victim) && ch->pcdata)
-    {
-        ch->pcdata->quit_time = 4;
-        if (victim->pcdata) victim->pcdata->quit_time = 4;
-    } 
-
 
     if ( ch->fighting != NULL )
     {
@@ -8500,6 +8494,12 @@ void do_garotte( CHAR_DATA *ch, char *argument )
      send_to_char("Highlanders are immune to that.\n\r",ch);
      return;
     }
+
+    if ((!IS_NPC(ch) && !IS_NPC(victim)) && (ch != victim) && ch->pcdata)
+    {
+        ch->pcdata->quit_time = 4;
+        if (victim->pcdata) victim->pcdata->quit_time = 4;
+    } 
 
     if (victim->fighting != NULL)
     {
