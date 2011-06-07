@@ -524,7 +524,7 @@ int init_socket( int port )
 
 
   ld.l_onoff  = 1;
-  ld.l_linger = 1000;
+  ld.l_linger = 0;
 
   if ( setsockopt( fd, SOL_SOCKET, SO_LINGER,
   (char *) &ld, sizeof(ld) ) < 0 )
