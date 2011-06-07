@@ -15,7 +15,7 @@
  *  around, comes around.                                                  *
  ***************************************************************************/
 /* $Id: merc.h,v 1.406 2004/10/25 02:48:45 boogums Exp $"; */
-#define unix
+//#define unix
 /*
  *  Accommodate old non-Ansi compilers.
  */
@@ -91,8 +91,6 @@ typedef struct  room_index_data         ROOM_INDEX_DATA;
 typedef struct  shop_data               SHOP_DATA;
 typedef struct  time_info_data          TIME_INFO_DATA;
 typedef struct  weather_data            WEATHER_DATA;
-typedef struct  menu_item               MENU_ITEM;
-typedef struct  menu_item               MENU_DATA[];
 typedef struct  edit_data               EDIT_DATA;
 typedef struct  macro_data              MACRO_DATA;
 typedef struct  line_data               LINE_DATA; 
@@ -2055,6 +2053,9 @@ struct menu_item
   int id;
   MENU_FUN *menu_fun;
 };
+
+typedef struct  menu_item               MENU_ITEM;
+typedef struct  menu_item               MENU_DATA[];
 
 #define EDIT_DEFAULT_ROOM     1   /* Default to current or use old */
 #define EDIT_DEFAULT_OBJ      2

@@ -7340,7 +7340,7 @@ void spell_animate_dead ( int sn, int level, CHAR_DATA *ch, void *vo, int targ)
     send_to_char ("Your controlling as many undead as you can handle.",ch);
     return;
   }
-  if (target_name == "") {
+  if (!strcmp(target_name,"")) {
     target = "corpse";
   } else {
     target = target_name;
@@ -7629,7 +7629,7 @@ void spell_turn_undead ( int sn, int level, CHAR_DATA *ch, void *vo,int target)
   OBJ_DATA *obj,*next_obj;
   sh_int found = 0;
   sh_int skl = 0;
-  sh_int passedLevel =0;
+  //sh_int passedLevel =0;
 
   for ( gch = ch->in_room->people; gch != NULL; gch = next_char ) 
   {

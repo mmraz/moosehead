@@ -180,18 +180,19 @@ int     socket          args( ( int domain, int type, int protocol ) );
 #endif
 
 #if     defined(linux)
-int     accept          args( ( int s, struct sockaddr *addr, int *addrlen ) );
-int     bind            args( ( int s, struct sockaddr *name, int namelen ) );
+int     accept          args( ( int s, struct sockaddr *addr, socklen_t *addrlen ) );
+int     bind            args( ( int s, const struct sockaddr *name, socklen_t namelen ) );
 int     close           args( ( int fd ) );
-int     getpeername     args( ( int s, struct sockaddr *name, int *namelen ) );
-int     getsockname     args( ( int s, struct sockaddr *name, int *namelen ) );
+int     getpeername     args( ( int s, struct sockaddr *name, socklen_t *namelen ) );
+int     getsockname     args( ( int s, struct sockaddr *name, socklen_t *namelen ) );
 int     gettimeofday    args( ( struct timeval *tp, struct timezone *tzp ) );
 int     listen          args( ( int s, int backlog ) );
-int     read            args( ( int fd, char *buf, int nbyte ) );
+//int     read            args( ( int fd, char *buf, int nbyte ) );
+ssize_t read(int fd, void *buf, size_t nbyte);
 int     select          args( ( int width, fd_set *readfds, fd_set *writefds,
           fd_set *exceptfds, struct timeval *timeout ) );
 int     socket          args( ( int domain, int type, int protocol ) );
-int     write           args( ( int fd, char *buf, int nbyte ) );
+ssize_t write		args( ( int fd, const void *buf, size_t count) );
 #endif
 
 #if     defined(macintosh)
@@ -1118,7 +1119,11 @@ void init_descriptor( int control )
     struct sockaddr_in sock;
     struct hostent *from = NULL;
     int desc;
+#if defined(linux)
+    size_t size;
+#else
     int size;
+#endif
 
     size = sizeof(sock);
     getsockname( control, (struct sockaddr *) &sock, &size );
@@ -4055,7 +4060,7 @@ bool check_playing( DESCRIPTOR_DATA *d, char *name )
      ? dold->original->name : dold->character->name ) )
   {
       write_to_buffer( d, "That character is already playing.\n\r",0);
-	strcpy( d->incomm, "" );
+	strcpy( d->incomm, "\r" );
       /*write_to_buffer( d, "Do you wish to connect anyway (Y/N)?",0);*/
 	     for ( dold = descriptor_list; dold != NULL; dold = d_next )
       {

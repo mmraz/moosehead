@@ -4622,7 +4622,7 @@ void highlander_die( CHAR_DATA *ch, CHAR_DATA *victim )
 {
   char buf[MAX_STRING_LENGTH];
 
-   sprintf(buf,"%s kills %s in Highlander, %s before %d/%d/%d/%d/%d/%d with all=%d and real=%d",
+   sprintf(buf,"%s kills %s in Highlander, %s before %d/%d/%ld/%d/%d/%d with all=%d and real=%d",
 	   ch->name,victim->name,ch->name,ch->pcdata->perm_hit,
 	   ch->pcdata->perm_mana,ch->pcdata->perm_move,
 	   ch->max_hit,ch->max_mana,ch->max_move,
@@ -4649,7 +4649,7 @@ void highlander_die( CHAR_DATA *ch, CHAR_DATA *victim )
    ch->mana /= 2;
 
    remove_highlander(ch,victim);
-   sprintf(buf,"%s kills %s in Highlander, %s after %d/%d/%d/%d/%d/%d with all=%d and real=%d",
+   sprintf(buf,"%s kills %s in Highlander, %s after %d/%d/%ld/%d/%d/%d with all=%d and real=%d",
 	   ch->name,victim->name,ch->name,ch->pcdata->perm_hit,
 	   ch->pcdata->perm_mana,ch->pcdata->perm_move,
 	   ch->max_hit,ch->max_mana,ch->max_move,
@@ -9560,7 +9560,7 @@ void do_grab( CHAR_DATA *ch, char *argument )
     char arg[MAX_INPUT_LENGTH];
     CHAR_DATA *victim;
     int chance;
-    char buf[MAX_STRING_LENGTH];
+    //char buf[MAX_STRING_LENGTH];
     int sn;
 
     one_argument(argument,arg);

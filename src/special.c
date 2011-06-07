@@ -1800,8 +1800,8 @@ bool spec_puff( CHAR_DATA *ch )
                 NULL, NULL, TO_ROOM ,FALSE);
         act( "For a moment, the world's mathematical beauty is lost to you!",
                 ch, NULL, NULL, TO_CHAR ,FALSE);
-        act( "   ...but joy! yet another novel phenomenon seizes your
-                attention.", ch, NULL, NULL, TO_CHAR,FALSE);
+        act( " ...but joy! Yet another novel phenomenon seizes your attention.",
+		 ch, NULL, NULL, TO_CHAR,FALSE);
 	return TRUE;
               }
  

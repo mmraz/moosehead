@@ -3379,8 +3379,7 @@ void spell_cuffs_of_justice(int sn, int level, CHAR_DATA *ch, void *vo, int targ
     /* Gladiator Spectator Channel */
     if (IS_SET(ch->mhs,MHS_GLADIATOR))
     {
-       sprintf(buf,"%s makes  %s respect his authorita!
-",ch->name,victim->name);
+       sprintf(buf,"%s makes  %s respect his authorita!",ch->name,victim->name);
        gladiator_talk(buf);
     }
        return;
@@ -3417,8 +3416,7 @@ void spell_restrain(int sn, int level, CHAR_DATA *ch, void *vo, int target)
     /* Gladiator Spectator Channel */
     if (IS_SET(ch->mhs,MHS_GLADIATOR))
     {
-       sprintf(buf,"%s makes  %s respect his authorita!
-",ch->name,victim->name);
+       sprintf(buf,"%s makes  %s respect his authorita!",ch->name,victim->name);
        gladiator_talk(buf);
     }
        return;
@@ -3539,7 +3537,7 @@ void spell_charm_animal( int sn, int level, CHAR_DATA *ch, void *vo,int target )
   {
     return;
   }
-  if ( victim->form != NULL && !IS_SET(victim->form,FORM_ANIMAL) )
+  if ( !IS_SET(victim->form,FORM_ANIMAL) )
   {
     if ( victim == ch )
     {
@@ -5682,7 +5680,7 @@ void spell_dispel_wall( int sn, int level, CHAR_DATA *ch, void *vo, int target)
 	if(paf->type == gsn_wall_ice ) break;
 	}
 
-if (target_name == "") {
+if (!strcmp(target_name,"")) {
     targ = "wall";
   } else {
     targ = target_name;
