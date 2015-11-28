@@ -3,7 +3,7 @@ Name Earendil~
 SurN Mulder~
 Id   774109293
 Email (null)~
-LogO 1114913272
+LogO 1310620740
 Vers 31
 Desc Earendil Mulder, the legendary Special Agent of
 the BBI, Boinga Bureau of Investigation stands 
@@ -40,6 +40,8 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
 Deity 6608122 megena~
 DeityT -19269 megena~
 Sac  300
@@ -49,13 +51,13 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost c-24-56-201-44.chrlmi.cablespeed.com~
+LastHost 197.169.201.32~
 Cla  9
 Kit wu jen~
 ClaO 3
 Levl 52
 DLevl 0
-Plyd 16850256
+Plyd 16850259
 Not  1114538383 1101790521 1101790521 1114528329 1110312209 1114207900 1101790521 1114537911 1101790521 1111048001
 Scro 22
 Rank 0
@@ -102,13 +104,13 @@ Alias whosi whois~
 Alias nuzzle nuzzle ghan~
 Alias kiss kiss ghan~
 Alias chinese ooc wo xiang-yao yi-bei bing shui~
-Macro sre string obj %1 extended %2 $3~
-Macro stl string obj %1 long $2~
-Macro award at %1 give opal %1~
-Macro stn string obj %1 name $2~
-Macro sts string obj %1 short $2~
-Macro pay clone dia; at %1 give dia %1~
 Macro gift at %1 say grats on your level;clone vacc; at %1 give vacc %1~
+Macro pay clone dia; at %1 give dia %1~
+Macro sts string obj %1 short $2~
+Macro stn string obj %1 name $2~
+Macro award at %1 give opal %1~
+Macro stl string obj %1 long $2~
+Macro sre string obj %1 extended %2 $3~
 Spz 'sword'
 Sk 100 'reserved'
 Sk 100 'opiate'
@@ -450,9 +452,9 @@ Cond 0
 Wear -1
 Lev  46
 Cost 5000
-Affc 'reserved'   1  40  -1   1   5          0
-Affc 'reserved'   1  40  -1   2  18          0
 Affc 'enchant armor'   1  56  -1 -12  17          0
+Affc 'reserved'   1  40  -1   2  18          0
+Affc 'reserved'   1  40  -1   1   5          0
 End
 
 #O
@@ -482,10 +484,10 @@ Wear -1
 Lev  50
 Cost 4000
 Val  7 7 7 4 3
-Affc 'reserved'   1  47  -1   2  19          0
-Affc 'reserved'   1  47  -1   2  18          0
-Affc 'reserved'   1  47  -1  -2  20          0
 Affc 'enchant armor'   1  56  -1  -4  17          0
+Affc 'reserved'   1  47  -1  -2  20          0
+Affc 'reserved'   1  47  -1   2  18          0
+Affc 'reserved'   1  47  -1   2  19          0
 End
 
 #O
@@ -524,10 +526,10 @@ Cond 0
 Wear 8
 Lev  47
 Cost 0
-Affc 'reserved'   1  44  -1   2  18          0
-Affc 'reserved'   1  44  -1   3  19          0
-Affc 'reserved'   1  44  -1  35  14          0
 Affc 'enchant armor'   1  56  -1  -3  17          0
+Affc 'reserved'   1  44  -1  35  14          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1   2  18          0
 End
 
 #O
@@ -544,9 +546,9 @@ Cond 0
 Wear 13
 Lev  50
 Cost 6050
-Affc 'enchant armor'   1  56  -1 -10  17          0
-Affc 'reserved'   1  46  -1   2  19          0
 Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1   2  19          0
+Affc 'enchant armor'   1  56  -1 -10  17          0
 End
 
 #O
@@ -561,8 +563,8 @@ Cond 0
 Wear 7
 Lev  48
 Cost 3200
-Affc 'enchant armor'   1  56  -1 -13  17          0
 Affc 'reserved'   1  40  -1  -2  20          0
+Affc 'enchant armor'   1  56  -1 -13  17          0
 End
 
 #O
@@ -578,9 +580,9 @@ Cond 0
 Wear 12
 Lev  46
 Cost 5000
-Affc 'enchant armor'   1  56  -1 -12  17          0
-Affc 'reserved'   1  40  -1   2  18          0
 Affc 'reserved'   1  40  -1   1   5          0
+Affc 'reserved'   1  40  -1   2  18          0
+Affc 'enchant armor'   1  56  -1 -12  17          0
 End
 
 #O
@@ -617,8 +619,8 @@ Cond 0
 Wear 9
 Lev  46
 Cost 3000
-Affc 'enchant armor'   1  56  -1  -7  17          0
 Affc 'reserved'   1  40  -1   2   2          0
+Affc 'enchant armor'   1  56  -1  -7  17          0
 End
 
 #O
@@ -634,8 +636,8 @@ Cond 0
 Wear 4
 Lev  42
 Cost 5000
-Affc 'enchant armor'   1  56  -1  -6  17          0
 Affc 'reserved'   1  40  -1   2  19          0
+Affc 'enchant armor'   1  56  -1  -6  17          0
 End
 
 #O
@@ -651,10 +653,10 @@ Cond 0
 Wear 11
 Lev  46
 Cost 3500
-Affc 'enchant armor'   1  56  -1  -6  17          0
-Affc 'reserved'   1  42  -1   2   1          0
-Affc 'reserved'   1  42  -1   2  19          0
 Affc 'reserved'   1  42  -1   1  18          0
+Affc 'reserved'   1  42  -1   2  19          0
+Affc 'reserved'   1  42  -1   2   1          0
+Affc 'enchant armor'   1  56  -1  -6  17          0
 End
 
 #O
@@ -717,8 +719,8 @@ Cond 0
 Wear 5
 Lev  46
 Cost 17800
-Affc 'enchant armor'   1  56  -1 -10  17          0
 Affc 'reserved'   1  37  -1   3   2          0
+Affc 'enchant armor'   1  56  -1 -10  17          0
 End
 
 #O

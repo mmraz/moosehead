@@ -2,8 +2,8 @@
 Name Hanec~
 Id   994416609
 Email (null)~
-LogO 1130421513
-Vers 31
+LogO 1445547188
+Vers 33
 LnD  A Gladiator~
 Prom [%hhp %mma %vmv][%w][%n/%N][%a][$%g.%s]%c[%e][%r] ~
 Race dragon~
@@ -12,10 +12,11 @@ Outc 0
 RufT 0
 MatookT 12001
 SkPTimer 0
-SkPTracker 9
+SkPTracker 0
 LogoutTracker 0
 Kill 2 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +28,12 @@ LoginsWOKill 3
 LoginsWODeath 3
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 795054 matook~
 DeityT -29356 matook~
 Sac  700
@@ -35,50 +42,50 @@ Vump  0
 Node 0
 Cap 0
 Created 994416621
-Glad 5 20 0 0 13 0
-LastHost 146.230.192.137~
+Glad 5 20 0 0 14 0
 Cla  5
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 2744119
-Not  1100492461 1104144673 1099986304 1102104209 1099986304 1104314237 1099986304 1101727413 1099986304 1103409714
+Plyd 2776469
+Not  1314761134 1104144673 1099986304 1314850209 1313859824 1314273658 1099986304 1309548779 1099986304 1308936986
 Scro 98
 Rank 0
 Room 3054
-HMV  1264 1267 955 1111 283 526
-Gold 172
-Silv 2619
+HMV  1342 1342 1111 1111 526 526
+Gold 778
+Silv 18365
 Exp  433608
-Act  BCDGHIKMSW
+Act  BCDEGHIKMS
 MHSF RX
-AfBy HJTVZ
+AfBy JTc
 Comm GIJPS
 Disp FGIJMN
 IcgB 0
 Icg 0
 Pnet ABCDEFGH
 Pos  4
-Trai 3
-SkiP 295
-Save  -8
-Alig  -1000
-Hit   42
-Dam   41
-SecHit   34
-SecDam   28
-ACs -90 -90 -90 -68
+Prac 1
+Trai 5
+SkiP 381
+Save  -4
+Alig  -847
+Hit   38
+Dam   39
+SecHit   23
+SecDam   24
+ACs -27 -27 -27 1
 Wimp  10
-Attr 17 20 21 19 23 13 13 17
-AMod 4 5 3 7 2 0 0 0
+Attr 17 20 21 19 23 11 14 17
+AMod 4 5 5 3 2 0 0 0
 Pass Ha73iqlLxyoIo~
 Titl .~
 Pnts 94
 TSex 1
 LLev 1
 HMVP 1202 1006 491
-Cnd  0 0 23 0
+Cnd  0 0 0 0
 Alias pg ch 'protection good'~
 Alias pe ch 'protection evil'~
 Alias c chant~
@@ -109,7 +116,6 @@ Sk 100 'chain lightning'
 Sk 1 'change sex'
 Sk 100 'chill touch'
 Sk 100 'colour spray'
-Sk 1 'cone of silence'
 Sk 84 'continual light'
 Sk 77 'control weather'
 Sk 75 'create food'
@@ -132,7 +138,7 @@ Sk 100 'detect hidden'
 Sk 100 'detect invis'
 Sk 100 'detect magic'
 Sk 75 'detect poison'
-Sk 81 'dispel evil'
+Sk 83 'dispel evil'
 Sk 82 'dispel good'
 Sk 100 'dispel magic'
 Sk 100 'earthquake'
@@ -235,7 +241,7 @@ Sk 100 'enhanced damage'
 Sk 100 'hand to hand'
 Sk 100 'kick'
 Sk 100 'parry'
-Sk 99 'trip'
+Sk 100 'trip'
 Sk 100 'shield bash'
 Sk 100 'shield block'
 Sk 100 'scan'
@@ -243,7 +249,7 @@ Sk 100 'second attack'
 Sk 100 'third attack'
 Sk 100 'holy chant'
 Sk 89 'lore'
-Sk 85 'meditation'
+Sk 88 'meditation'
 Sk 94 'peek'
 Sk 50 'pick lock'
 Sk 100 'riding'
@@ -271,18 +277,6 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'sanctuary'   0  45   0   0   0        128
-Affc 'haste'   0  45  16   4   2    2097152
-Affc 'frenzy'   0  44   8  30  17          0
-Affc 'frenzy'   0  46   8   7  19          0
-Affc 'frenzy'   0  45   8   7  18          0
-Affc 'body weaponry'   0  46  17   0   0   33554432
-Affc 'tower of iron will'   3  47  16   0   0      32768
-Affc 'bless'   0  46  46  -5  24          0
-Affc 'bless'   0  46  46   5  18          0
-Affc 'stone skin'   0  46  40 -40  17          0
-Affc 'shield'   0  45  48 -20  17          0
-Affc 'armor'   0  45  27 -20  17          0
 End
 
 #O
@@ -307,10 +301,10 @@ Cond 0
 Wear 5
 Lev  34
 Cost 850
-Affc 'enchant armor'   1  53  -1 -16  17          0
-Affc 'reserved'   1  25  -1   1   4          0
-Affc 'reserved'   1  25  -1   2  18          0
 Affc 'reserved'   1  25  -1   1  19          0
+Affc 'reserved'   1  25  -1   2  18          0
+Affc 'reserved'   1  25  -1   1   4          0
+Affc 'enchant armor'   1  53  -1 -16  17          0
 End
 
 #O
@@ -328,8 +322,8 @@ Wear 9
 Lev  45
 Cost 4000
 Val  8 8 8 5 5
-Affc 'reserved'   1  37  -1   2   1          0
 Affc 'reserved'   1  37  -1   2  19          0
+Affc 'reserved'   1  37  -1   2   1          0
 End
 
 #O
@@ -357,10 +351,10 @@ Cond 0
 Wear 8
 Lev  50
 Cost 0
-Affc 'enchant armor'   1  53  -1 -13  17          0
-Affc 'reserved'   1  44  -1   2  18          0
-Affc 'reserved'   1  44  -1   3  19          0
 Affc 'reserved'   1  44  -1  35  14          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1   2  18          0
+Affc 'enchant armor'   1  53  -1 -13  17          0
 End
 
 #O
@@ -377,9 +371,9 @@ Wrp 1
 Cond 0
 Wear 12
 Cost 0
-Affc 'reserved'   1  50  -1  75  12          0
-Affc 'reserved'   1  50  -1   3   2          0
 Affc 'reserved'   1  50  -1   2   3          0
+Affc 'reserved'   1  50  -1   3   2          0
+Affc 'reserved'   1  50  -1  75  12          0
 End
 
 #O
@@ -394,380 +388,81 @@ ExtF 321
 Cond 0
 Wear 6
 Cost 0
-Affc 'reserved'   1  40  -1   2  18          0
 Affc 'reserved'   1  40  -1   3   3          0
+Affc 'reserved'   1  40  -1   2  18          0
 End
 
 #O
-Vnum 20813
-Nest 0
-PrevOwner Hanec~
-Cond 0
-Wear 1
-Cost 4000
-End
-
-#O
-Vnum 12006
+Vnum 5913
 Enchanted
 Nest 0
 PrevOwner Hanec~
-ExtF 2049
+Name draconian leggings~
+ShD  ({BHoly Aura{x) a pair of {RBloody {DDraconian {RL{re{Rg{rg{Ri{rn{Rg{rs{x~
+Desc ({BHoly Aura{x) a pair of {RBloody {DDraconian {RL{re{Rg{rg{Ri{rn{Rg{rs{x Lie Here.~
+ExtF 65
 Cond 0
-Wear 10
-Cost 900
-Affc 'reserved'   1  40  -1   2   2          0
-Affc 'reserved'   1  40  -1  20  13          0
+Wear 7
+Lev  43
+Cost 2000
+Affc 'reserved'   1  39  -1   2  19          0
+Affc 'reserved'   1  39  -1  -2  20          0
 End
 
 #O
-Vnum 5929
+Vnum 12014
+Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Hanec~
+Name doom device~
+ShD  {RD{ro{Ro{rm{RH{ra{Rm{rm{Re{rr{R'{rs {DD{Wa{Ds{Wt{Da{Wr{Dd{Wl{Dy {RD{ro{Ro{rm{Rs{rd{Ra{ry {DD{We{Dv{Wi{Dc{We{x {Ro{rf {DD{Wo{Do{Wm{x~
+Desc {RD{ro{Ro{rm{RH{ra{Rm{rm{Re{rr{R'{rs {DD{Wa{Ds{Wt{Da{Wr{Dd{Wl{Dy {RD{ro{Ro{rm{Rs{rd{Ra{ry {DD{We{Dv{Wi{Dc{We{  {Ro{rf {DD{ro{Ro{Dm{x~
+ExtF 451
+Cond 0
+Wear -1
+Cost 0
+Val  6 2 20 7 37
+Affc 'enchant weapon'   0  59  -1  15  18          0
+Affc 'enchant weapon'   1  59  -1  15  19          0
+End
+
+#O
+Vnum 22566
+Nest 0
+PrevOwner Hanec~
 ExtF 1
 Cond 0
-Wear 15
+Wear 13
 Cost 0
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 0
+PrevOwner Hanec~
+ExtF 226
+Cond 0
+Wear -1
+Lev  50
+Cost 4756
+Val  2 2 19 2 1035
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'sharpen'   5  50  -1   0   0          8
 End
 
 #O
 Vnum 2513
 Nest 0
-PrevOwner Theodoric~
-ExtF 16779777
-Cond 0
-Wear 4
-Cost 710
-End
-
-#O
-Vnum 26
-Nest 1
 PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 0
-Val  51 2 -1 -1 -1
-Spell 1 'accuracy'
-End
-
-#O
-Vnum 26
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 0
-Val  51 2 -1 -1 -1
-Spell 1 'accuracy'
-End
-
-#O
-Vnum 23578
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 0
-Val  0 0 0 0 23567
-End
-
-#O
-Vnum 23578
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 0
-Val  0 0 0 0 23567
-End
-
-#O
-Vnum 23578
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 23578
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3126
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 5408
-Nest 1
-PrevOwner Hanec~
-ExtF 16
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10038
-Nest 1
-PrevOwner Hanec~
-ExtF 0
-Cond 0
-Wear -1
-Cost 1000
-Val  40 35 32 125 0
-Spell 3 'invisibility'
-End
-
-#O
-Vnum 22568
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2397
-Nest 1
-PrevOwner Hanec~
-Name a wand of rasefseers~
-ShD  a wand of rasefseers~
-Desc A wand of rasefseers lies here.
-~
-ExtF 536870914
-Cond 0
-Wear -1
-Lev  10
-Cost 0
-Val  53 5 5 165 -1
-Spell 3 'restrain'
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Hanec~
-Name silver bracer~
-ShD  {gSilver{x Bracer {RScored{x with the {RRuins{x of {RB{ra{Rt{rt{Rl{re{x~
-Desc {gSilver{x Bracer {RScored{x with the {RRuins{x of {RB{ra{Rt{rt{Rl{re{x is here.~
-ExtF 17301505
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 10736
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 6702
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 20000
-Val  1 6 6 1 516
-End
-
-#O
-Vnum 6702
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 20000
-Val  1 6 6 1 516
-End
-
-#O
-Vnum 6702
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 20000
-Val  1 6 6 1 516
-End
-
-#O
-Vnum 1925
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 1300
-Val  7 2 10 26 544
-End
-
-#O
-Vnum 11023
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 22513
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3033
-Nest 1
-PrevOwner Hanec~
-Name BriarRose's Birthday Present~
-ShD  BriarRose's Birthday Present~
-Desc One of BriarRose's birthday presents, happily wrapped, sits here~
-Cond 0
-Wear -1
-Cost 30
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 20819
-Nest 1
-PrevOwner Hanec~
-Name leaf pot large best plant~
-ShD  A very large {GPot leaf{x~
-Desc This leaf looks like it came from the best plant around.~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 23514
-Nest 1
-PrevOwner Hanec~
-Name nerdling wannabe thug ice diamond~
-ShD  Nerdling's Wannabe Thug ICE~
-Desc A thug like aura glows around these shimmering diamonds. You hear them say Yo Waddup GGGGGGGGGGGGGGGGGG. BLING BLING!!!!!!~
-ExtF 17301569
-Cond 0
-Wear -1
-Cost 3690
-End
-
-#O
-Vnum 22505
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 22513
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 23504
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Hanec~
-Name silver bracer war~
-ShD  {gSilver{x Bracer {RScored{x with the {RRuins{x of {RW{ra{Rr{x~
-Desc {gSilver{x Bracer {RScored{x with the {RRuins{x of {RW{ra{Rr{x is here.~
-ExtF 17301505
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12060
-Nest 0
-PrevOwner Alexis~
-ExtF 554172545
-Cond 0
-Wear -1
-Cost 5673
-Val  5 6 7 38 8716
-Affc 'bestow holiness'   5  51  -1   0   0        512
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 2513
-Nest 0
-PrevOwner Alexis~
 Name Shimmering Black Cloak~
 ShD  a {DShimmering Black Cloak{X~
 Desc a {DShimmering Black Cloak{X~
 ExtF 16779777
 Cond 0
-Wear 3
+Wear 4
 Cost 710
-End
-
-#O
-Vnum 911
-Nest 1
-PrevOwner Hanec~
-Name ring lightning~
-ShD  ({RSpinning{x) a {RR{ri{Rn{rg{x of {DBlack {YLightning{x~
-Desc A ({RSpinning{x) {RR{ri{Rn{rg{x of {DBlack {YLightning{x sizzles in the dust.~
-Cond 0
-Wear -1
-Cost 6900
 End
 
 #O
@@ -831,73 +526,6 @@ Cost 10
 End
 
 #O
-Vnum 22552
-Enchanted
-Nest 1
-PrevOwner Hanec~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 5918
-Nest 1
-PrevOwner Hanec~
-ExtF 1
-Cond 0
-Wear -1
-Cost 0
-Val  4 3 12 7 1280
-End
-
-#O
-Vnum 10420
-Nest 1
-PrevOwner Hanec~
-ExtF 1
-Cond 0
-Wear -1
-Cost 2400
-Val  8 9 4 2 1058
-End
-
-#O
-Vnum 2413
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 2700
-Val  4 6 6 8 1027
-End
-
-#O
-Vnum 20410
-Nest 1
-PrevOwner Hanec~
-ExtF 1
-Cond 0
-Wear -1
-Cost 106
-Val  0 2 2 2 16
-End
-
-#O
-Vnum 6717
-Nest 1
-PrevOwner Hanec~
-ExtF 67
-Cond 0
-Wear -1
-Cost 3600
-Val  5 3 10 1 1024
-End
-
-#O
 Vnum 10415
 Nest 1
 PrevOwner Hanec~
@@ -906,47 +534,6 @@ Cond 0
 Wear -1
 Cost 5400
 Val  2 4 10 5 1028
-End
-
-#O
-Vnum 2409
-Enchanted
-Nest 1
-PrevOwner Hanec~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1750
-Val  5 5 7 21 1057
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 10420
-Enchanted
-Nest 1
-PrevOwner Hanec~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 2400
-Val  8 9 4 2 1058
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-End
-
-#O
-Vnum 10427
-Nest 1
-PrevOwner Hanec~
-ExtF 65
-Cond 0
-Wear -1
-Cost 11800
-Val  0 12 3 10 1028
 End
 
 #O
@@ -966,71 +553,8 @@ PrevOwner Hanec~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 8 161 0
+Val  52 10 8 166 0
 Spell 3 'remove curse'
-End
-
-#O
-Vnum 20012
-Nest 1
-PrevOwner Hanec~
-ExtF 65
-Cond 0
-Wear -1
-Cost 175000
-End
-
-#O
-Vnum 22566
-Nest 1
-PrevOwner Hanec~
-ExtF 1
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 6647
-Nest 1
-PrevOwner Hanec~
-Name wild action Bike~
-ShD  Wild Wacky Action Bike~
-Desc a Wild Wacky Action Bike lays spinning here~
-ExtF 1
-Cond 0
-Wear -1
-Cost 300
-Val  3 2 3 2 2592
-End
-
-#O
-Vnum 10032
-Enchanted
-Nest 1
-PrevOwner Hanec~
-Name dragon claws~
-ShD  {Ds{Wh{Da{Wd{Do{Ww{x dragon's claws~
-Desc Larthos's claws are laying here HE MUST BE PISSED!~
-ExtF 323
-Cond 0
-Wear -1
-Lev  50
-Cost 1700
-Val  4 3 12 7 772
-Affc 'enchant weapon'   0  68  -1  12  18          0
-Affc 'enchant weapon'   1  68  -1  14  19          0
-Affc 'reserved'   1  44  -1   2   2          0
-End
-
-#O
-Vnum 20014
-Nest 1
-PrevOwner Hanec~
-ExtF 19
-Cond 0
-Wear -1
-Cost 500000
 End
 
 #O
@@ -1054,6 +578,839 @@ Val  4 3 5 36 576
 End
 
 #O
+Vnum 1929
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 60
+Val  2 3 6 41 1032
+End
+
+#O
+Vnum 10329
+Enchanted
+Nest 1
+PrevOwner Hanec~
+ExtF 1835075
+Cond 0
+Wear -1
+Lev  24
+Cost 3200
+Val  4 2 8 38 1536
+Affc 'enchant weapon'   1  52  -1   7  19          0
+Affc 'enchant weapon'   1  52  -1   7  18          0
+End
+
+#O
+Vnum 10300
+Enchanted
+Nest 1
+PrevOwner Hanec~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Val  4 5 8 7 772
+Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  14  19          0
+Affc 'reserved'   0  48  -1   0   0     524288
+End
+
+#O
+Vnum 15231
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 8000
+End
+
+#O
+Vnum 18941
+Nest 1
+PrevOwner Hanec~
+ExtF 524289
+Cond 0
+Wear -1
+Cost 0
+Val  6 2 19 33 1536
+End
+
+#O
+Vnum 8006
+Nest 1
+PrevOwner Hanec~
+ExtF 1
+Cond 0
+Wear -1
+Cost 870
+Val  4 3 5 7 544
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner Hanec~
+Name quest code tablet scrap~
+ShD  a tablet with some secret code-key pieces on it~
+Desc This piece of quest code reads: 'LV' = 'A'~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 20012
+Nest 1
+PrevOwner Hanec~
+ExtF 65
+Cond 0
+Wear -1
+Cost 175000
+End
+
+#O
+Vnum 23514
+Nest 1
+PrevOwner Hanec~
+Name nerdling wannabe thug ice diamond~
+ShD  Nerdling's Wannabe Thug ICE~
+Desc A thug like aura glows around these shimmering diamonds. You hear them say Yo Waddup GGGGGGGGGGGGGGGGGG. BLING BLING!!!!!!~
+ExtF 17301569
+Cond 0
+Wear -1
+Cost 3690
+End
+
+#O
+Vnum 8508
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 1300
+End
+
+#O
+Vnum 28057
+Enchanted
+Nest 1
+PrevOwner Hanec~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 5918
+Nest 1
+PrevOwner Hanec~
+ExtF 1
+Cond 0
+Wear -1
+Cost 0
+Val  4 3 12 7 1280
+End
+
+#O
+Vnum 22552
+Enchanted
+Nest 1
+PrevOwner Hanec~
+ExtF 67
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 10734
+Nest 1
+PrevOwner Hanec~
+ExtF 1027
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 23504
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 22513
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 22513
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Hanec~
+Name silver bracer~
+ShD  {gSilver{x Bracer {RScored{x with the {RRuins{x of {RB{ra{Rt{rt{Rl{re{x~
+Desc {gSilver{x Bracer {RScored{x with the {RRuins{x of {RB{ra{Rt{rt{Rl{re{x is here.~
+ExtF 17301505
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 2413
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 2700
+Val  4 6 6 8 1027
+End
+
+#O
+Vnum 12029
+Enchanted
+Nest 1
+PrevOwner Hanec~
+Name spear vesipeto steel stick~
+ShD  Long Steel Spear~
+Desc A long stick belonging to Vesipeto lies on the ground.~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 5940
+Val  8 6 6 2 1032
+Affc 'enchant weapon'   1  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1  14  19          0
+End
+
+#O
+Vnum 6717
+Nest 1
+PrevOwner Hanec~
+ExtF 67
+Cond 0
+Wear -1
+Cost 3600
+Val  5 3 10 1 1024
+End
+
+#O
+Vnum 2409
+Enchanted
+Nest 1
+PrevOwner Hanec~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1750
+Val  5 5 7 21 1057
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Hanec~
+ExtF 67
+Cond 0
+Wear -1
+Cost 9500
+Val  5 5 8 18 548
+End
+
+#O
+Vnum 20808
+Enchanted
+Nest 1
+PrevOwner Hanec~
+ExtF 67
+Cond 0
+Wear -1
+Cost 1000
+Val  5 5 8 30 14
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 20808
+Enchanted
+Nest 1
+PrevOwner Hanec~
+Name frost ridden axe~
+ShD  A Frost-ridden Axe~
+Desc A Forst-Ridden Axe is chillin' here, ready to kick some ass~
+ExtF 67
+Cond 0
+Wear -1
+Cost 1000
+Val  5 5 8 30 1030
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 10420
+Nest 1
+PrevOwner Hanec~
+ExtF 1
+Cond 0
+Wear -1
+Cost 2400
+Val  8 9 4 2 1058
+End
+
+#O
+Vnum 10420
+Enchanted
+Nest 1
+PrevOwner Hanec~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 2400
+Val  8 9 4 2 1058
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 1
+PrevOwner Hanec~
+Name quivering mist of silver~
+ShD  a {DQ{gu{DI{gv{DE{gr{DI{gn{DG {DMist{x of {gSilver{x~
+Desc a {DQ{gu{DI{gv{DE{gr{DI{gn{DG {DMist{x of {gSilver{x Hovers Here~
+ExtF 323
+Cond 0
+Wear -1
+Lev  50
+Cost 4950
+Val  6 4 10 3 516
+Affc 'enchant weapon'   1  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 2205
+Enchanted
+Nest 1
+PrevOwner Hanec~
+ExtF 323
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+End
+
+#O
+Vnum 10032
+Enchanted
+Nest 1
+PrevOwner Hanec~
+Name dragon claws~
+ShD  {Ds{Wh{Da{Wd{Do{Ww{x dragon's claws~
+Desc Larthos's claws are laying here HE MUST BE PISSED!~
+ExtF 323
+Cond 0
+Wear -1
+Lev  50
+Cost 1700
+Val  4 3 12 7 772
+Affc 'reserved'   1  44  -1   2   2          0
+Affc 'enchant weapon'   1  68  -1  14  19          0
+Affc 'enchant weapon'   0  68  -1  12  18          0
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 1
+PrevOwner Hanec~
+ExtF 67
+Stolen 964
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Val  4 5 8 38 516
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 1
+PrevOwner Hanec~
+Name heathen destroyer weapon funny~
+ShD  {yHeathen {RD{re{Rs{rt{Rr{ro{Ry{re{Rr{x~
+Desc A verry funny looking weapon lies here~
+ExtF 323
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Val  6 4 10 3 1036
+Affc 'enchant weapon'   1  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 1
+PrevOwner Hanec~
+Name blades destiny~
+ShD  ({BHoly Aura{x) {BB{Dlades{x of {BD{Destiny{x~
+Desc The {BB{Dlades{x of {BD{Destiny{x Belonging to {BHanec{x Dances Here.~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 140
+Val  2 2 19 2 519
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Hanec~
+Name silver bracer war~
+ShD  {gSilver{x Bracer {RScored{x with the {RRuins{x of {RW{ra{Rr{x~
+Desc {gSilver{x Bracer {RScored{x with the {RRuins{x of {RW{ra{Rr{x is here.~
+ExtF 17301505
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 20813
+Nest 0
+PrevOwner Hanec~
+Cond 0
+Wear 2
+Cost 4000
+End
+
+#O
+Vnum 20813
+Nest 0
+PrevOwner Hanec~
+Cond 0
+Wear 1
+Cost 4000
+End
+
+#O
+Vnum 20818
+Enchanted
+Nest 0
+PrevOwner Hanec~
+Name spiked draconian battle shield~
+ShD  ({RBloody{X) a {RS{rp{Ri{rk{Re{rd {DDraconian {RBattle {RS{rh{Ri{re{Rl{rd{x~
+Desc ({RBloody{X) a {RS{rp{Ri{rk{Re{rd {DDraconian {RBattle {RS{rh{Ri{re{Rl{rd{x Lies here~
+Cond 0
+Wear 11
+Lev  50
+Cost 4000
+Affc 'reserved'   1  49  -1  30  12          0
+Affc 'reserved'   1  49  -1   1  19          0
+Affc 'reserved'   1  49  -1  -1  20          0
+Affc 'reserved'   1  49  -1   2  18          0
+Affc 'enchant armor'   1  53  -1 -11  17          0
+End
+
+#O
+Vnum 12060
+Nest 0
+PrevOwner Hanec~
+ExtF 554172545
+Cond 0
+Wear -1
+Cost 5673
+Val  5 6 7 38 8716
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'bestow holiness'   5  51  -1   0   0        512
+End
+
+#O
+Vnum 12068
+Enchanted
+Nest 0
+PrevOwner Hanec~
+Name jedi mind trick~
+ShD  {BHanec{x'{Bs{x {DJ{x{Re{x{DD{x{Ri{x {DM{x{Ri{x{DN{x{Rd{x {DT{x{Rr{x{DI{x{Rc{x{DK{x~
+Desc {BHanec{x'{Bs{x {DJ{x{Re{x{DD{x{Ri{x {DM{x{Ri{x{DN{x{Rd{x {DT{x{Rr{x{DI{x{Rc{x{DK{x Hovers Here~
+ExtF 17301570
+Cond 0
+Wear 16
+Lev  50
+Cost 25000
+Val  3 7 6 11 301
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   1 3000  -1  15  19          0
+Affc 'enchant weapon'   0 3000  -1  15  18          0
+End
+
+#O
+Vnum 5929
+Nest 0
+PrevOwner Hanec~
+ExtF 1
+Cond 0
+Wear 15
+Cost 0
+End
+
+#O
+Vnum 5929
+Nest 0
+PrevOwner Hanec~
+ExtF 1
+Cond 0
+Wear 14
+Cost 0
+End
+
+#O
+Vnum 2405
+Nest 0
+PrevOwner Hanec~
+Name tits chick guy gun~
+ShD  Your tits (if you're a chick), a gun to your face that blows your mother fucking brains out! (if you're a guy).~
+Desc You see either tits or a gun, you can't decide.~
+ExtF 17694977
+Cond 0
+Wear 17
+Cost 1000
+Val  48 32 0 0 0
+End
+
+#O
+Vnum 2513
+Nest 0
+PrevOwner Hanec~
+ExtF 16779777
+Cond 0
+Wear 3
+Cost 710
+End
+
+#O
+Vnum 26
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 26
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 23578
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 23567
+End
+
+#O
+Vnum 23578
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 23567
+End
+
+#O
+Vnum 23578
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23578
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3126
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 10038
+Nest 1
+PrevOwner Hanec~
+ExtF 0
+Cond 0
+Wear -1
+Cost 1000
+Val  40 35 32 130 0
+Spell 3 'invisibility'
+End
+
+#O
+Vnum 22568
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2397
+Nest 1
+PrevOwner Hanec~
+Name a wand of rasefseers~
+ShD  a wand of rasefseers~
+Desc A wand of rasefseers lies here.
+~
+ExtF 536870914
+Cond 0
+Wear -1
+Lev  10
+Cost 0
+Val  53 5 5 170 -1
+Spell 3 'restrain'
+End
+
+#O
+Vnum 12001
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1925
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 1300
+Val  7 2 10 26 544
+End
+
+#O
+Vnum 3033
+Nest 1
+PrevOwner Hanec~
+Name BriarRose's Birthday Present~
+ShD  BriarRose's Birthday Present~
+Desc One of BriarRose's birthday presents, happily wrapped, sits here~
+Cond 0
+Wear -1
+Cost 30
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 20009
+Nest 1
+PrevOwner Hanec~
+ExtF 1
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 5408
+Nest 1
+PrevOwner Hanec~
+ExtF 16
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2431
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 911
+Nest 1
+PrevOwner Hanec~
+Name ring lightning~
+ShD  ({RSpinning{x) a {RR{ri{Rn{rg{x of {DBlack {YLightning{x~
+Desc A ({RSpinning{x) {RR{ri{Rn{rg{x of {DBlack {YLightning{x sizzles in the dust.~
+Cond 0
+Wear -1
+Cost 6900
+End
+
+#O
+Vnum 11023
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 6702
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 20000
+Val  1 6 6 1 516
+End
+
+#O
+Vnum 6702
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 20000
+Val  1 6 6 1 516
+End
+
+#O
+Vnum 6702
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 20000
+Val  1 6 6 1 516
+End
+
+#O
+Vnum 10427
+Nest 1
+PrevOwner Hanec~
+ExtF 65
+Cond 0
+Wear -1
+Cost 11800
+Val  0 12 3 10 1028
+End
+
+#O
+Vnum 2421
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20819
+Nest 1
+PrevOwner Hanec~
+Name leaf pot large best plant~
+ShD  A very large {GPot leaf{x~
+Desc This leaf looks like it came from the best plant around.~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
 Vnum 20006
 Nest 1
 PrevOwner Hanec~
@@ -1073,397 +1430,57 @@ Val  0 0 0 0 20007
 End
 
 #O
-Vnum 1929
+Vnum 6647
 Nest 1
 PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 60
-Val  2 3 6 41 1032
-End
-
-#O
-Vnum 22552
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2405
-Nest 1
-PrevOwner Hanec~
-Name tits chick guy gun~
-ShD  Your tits (if you're a chick), a gun to your face that blows your mother fucking brains out! (if you're a guy).~
-Desc You see either tits or a gun, you can't decide.~
-ExtF 17694977
-Cond 0
-Wear -1
-Cost 1000
-Val  48 32 0 0 0
-End
-
-#O
-Vnum 10329
-Enchanted
-Nest 1
-PrevOwner Hanec~
-ExtF 1835075
-Cond 0
-Wear -1
-Lev  24
-Cost 3200
-Val  4 2 8 38 1536
-Affc 'enchant weapon'   1  52  -1   7  18          0
-Affc 'enchant weapon'   1  52  -1   7  19          0
-End
-
-#O
-Vnum 28057
-Enchanted
-Nest 1
-PrevOwner Hanec~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 10300
-Enchanted
-Nest 1
-PrevOwner Hanec~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6500
-Val  4 5 8 7 772
-Affc 'reserved'   0  48  -1   0   0     524288
-Affc 'enchant weapon'   1  52  -1  14  19          0
-Affc 'enchant weapon'   0  52  -1  10  18          0
-End
-
-#O
-Vnum 15231
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 8000
-End
-
-#O
-Vnum 2205
-Enchanted
-Nest 1
-PrevOwner Hanec~
-ExtF 323
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-End
-
-#O
-Vnum 10734
-Nest 1
-PrevOwner Hanec~
-ExtF 1027
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 18941
-Nest 1
-PrevOwner Hanec~
-ExtF 524289
-Cond 0
-Wear -1
-Cost 0
-Val  6 2 19 33 1536
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Hanec~
-ExtF 67
-Stolen 1783
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Val  4 5 8 38 516
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-End
-
-#O
-Vnum 10320
-Nest 1
-PrevOwner Hanec~
-ExtF 67
-Cond 0
-Wear -1
-Cost 9500
-Val  5 5 8 18 548
-End
-
-#O
-Vnum 8006
-Nest 1
-PrevOwner Hanec~
+Name wild action Bike~
+ShD  Wild Wacky Action Bike~
+Desc a Wild Wacky Action Bike lays spinning here~
 ExtF 1
 Cond 0
 Wear -1
-Cost 870
-Val  4 3 5 7 544
+Cost 300
+Val  3 2 3 2 2592
 End
 
 #O
-Vnum 20738
+Vnum 22505
 Nest 1
 PrevOwner Hanec~
 Cond 0
 Wear -1
-Cost 4850
-End
-
-#O
-Vnum 18106
-Enchanted
-Nest 1
-PrevOwner Hanec~
-Name quivering mist of silver~
-ShD  a {DQ{gu{DI{gv{DE{gr{DI{gn{DG {DMist{x of {gSilver{x~
-Desc a {DQ{gu{DI{gv{DE{gr{DI{gn{DG {DMist{x of {gSilver{x Hovers Here~
-ExtF 323
-Cond 0
-Wear -1
-Lev  50
-Cost 4950
-Val  6 4 10 3 516
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   1  53  -1  12  18          0
-End
-
-#O
-Vnum 3155
-Nest 1
-PrevOwner Hanec~
-Name quest code tablet scrap~
-ShD  a tablet with some secret code-key pieces on it~
-Desc This piece of quest code reads: 'LV' = 'A'~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
-Vnum 20808
-Enchanted
-Nest 1
-PrevOwner Hanec~
-ExtF 67
-Cond 0
-Wear -1
-Cost 1000
-Val  5 5 8 30 14
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'enchant weapon'   0  53  -1  13  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 12029
-Enchanted
-Nest 1
-PrevOwner Hanec~
-Name spear vesipeto steel stick~
-ShD  Long Steel Spear~
-Desc A long stick belonging to Vesipeto lies on the ground.~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 5940
-Val  8 6 6 2 1032
-Affc 'enchant weapon'   1  53  -1  14  19          0
-Affc 'enchant weapon'   1  53  -1   8  18          0
-End
-
-#O
-Vnum 18106
-Enchanted
-Nest 1
-PrevOwner Hanec~
-Name heathen destroyer weapon funny~
-ShD  {yHeathen {RD{re{Rs{rt{Rr{ro{Ry{re{Rr{x~
-Desc A verry funny looking weapon lies here~
-ExtF 323
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Val  6 4 10 3 1036
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   1  53  -1  10  18          0
-End
-
-#O
-Vnum 20808
-Enchanted
-Nest 1
-PrevOwner Hanec~
-Name frost ridden axe~
-ShD  A Frost-ridden Axe~
-Desc A Forst-Ridden Axe is chillin' here, ready to kick some ass~
-ExtF 67
-Cond 0
-Wear -1
-Cost 1000
-Val  5 5 8 30 1030
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 12068
-Enchanted
-Nest 1
-PrevOwner Hanec~
-Name jedi mind trick~
-ShD  {BHanec{x'{Bs{x {DJ{x{Re{x{DD{x{Ri{x {DM{x{Ri{x{DN{x{Rd{x {DT{x{Rr{x{DI{x{Rc{x{DK{x~
-Desc {BHanec{x'{Bs{x {DJ{x{Re{x{DD{x{Ri{x {DM{x{Ri{x{DN{x{Rd{x {DT{x{Rr{x{DI{x{Rc{x{DK{x Hovers Here~
-ExtF 17301570
-Stolen 36
-Cond 0
-Wear -1
-Lev  50
-Cost 25000
-Val  3 7 6 11 301
-Affc 'enchant weapon'   0 3000  -1  15  18          0
-Affc 'enchant weapon'   1 3000  -1  15  19          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 1
-PrevOwner Hanec~
-Name blades destiny~
-ShD  ({BHoly Aura{x) {BB{Dlades{x of {BD{Destiny{x~
-Desc The {BB{Dlades{x of {BD{Destiny{x Belonging to {BHanec{x Dances Here.~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 140
-Val  2 2 19 2 519
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 20009
-Nest 0
-PrevOwner Hanec~
-ExtF 1
-Cond 0
-Wear 13
-Cost 100000
-End
-
-#O
-Vnum 5929
-Nest 0
-PrevOwner (null)~
-ExtF 1
-Cond 0
-Wear 14
-Cost 0
-End
-
-#O
-Vnum 20818
-Enchanted
-Nest 0
-PrevOwner Hanec~
-Name spiked draconian battle shield~
-ShD  ({RBloody{X) a {RS{rp{Ri{rk{Re{rd {DDraconian {RBattle {RS{rh{Ri{re{Rl{rd{x~
-Desc ({RBloody{X) a {RS{rp{Ri{rk{Re{rd {DDraconian {RBattle {RS{rh{Ri{re{Rl{rd{x Lies here~
-Cond 0
-Wear 11
-Lev  50
 Cost 4000
-Affc 'enchant armor'   1  53  -1 -11  17          0
-Affc 'reserved'   1  49  -1   2  18          0
-Affc 'reserved'   1  49  -1  -1  20          0
-Affc 'reserved'   1  49  -1   1  19          0
-Affc 'reserved'   1  49  -1  30  12          0
 End
 
 #O
-Vnum 5913
-Enchanted
-Nest 0
+Vnum 16721
+Nest 1
 PrevOwner Hanec~
-Name draconian leggings~
-ShD  ({BHoly Aura{x) a pair of {RBloody {DDraconian {RL{re{Rg{rg{Ri{rn{Rg{rs{x~
-Desc ({BHoly Aura{x) a pair of {RBloody {DDraconian {RL{re{Rg{rg{Ri{rn{Rg{rs{x Lie Here.~
-ExtF 65
-Cond 0
-Wear 7
-Lev  43
-Cost 2000
-Affc 'reserved'   1  39  -1  -2  20          0
-Affc 'reserved'   1  39  -1   2  19          0
-End
-
-#O
-Vnum 12014
-Enchanted
-Nest 0
-PrevOwner Hanec~
-Name doom device~
-ShD  {RD{ro{Ro{rm{RH{ra{Rm{rm{Re{rr{R'{rs {DD{Wa{Ds{Wt{Da{Wr{Dd{Wl{Dy {RD{ro{Ro{rm{Rs{rd{Ra{ry {DD{We{Dv{Wi{Dc{We{x {Ro{rf {DD{Wo{Do{Wm{x~
-Desc {RD{ro{Ro{rm{RH{ra{Rm{rm{Re{rr{R'{rs {DD{Wa{Ds{Wt{Da{Wr{Dd{Wl{Dy {RD{ro{Ro{rm{Rs{rd{Ra{ry {DD{We{Dv{Wi{Dc{We{  {Ro{rf {DD{ro{Ro{Dm{x~
-ExtF 451
 Cond 0
 Wear -1
-Cost 0
-Val  6 2 20 7 37
-Affc 'enchant weapon'   1  59  -1  15  19          0
-Affc 'enchant weapon'   0  59  -1  15  18          0
+Cost 1400
 End
 
 #O
-Vnum 18119
+Vnum 10736
+Nest 1
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 12006
 Enchanted
 Nest 0
 PrevOwner Hanec~
-ExtF 226
+ExtF 2049
 Cond 0
-Wear 16
-Lev  50
-Cost 4756
-Val  2 2 19 2 1035
-Affc 'sharpen'   5  50  -1   0   0          8
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
+Wear 10
+Cost 900
+Affc 'reserved'   1  40  -1  20  13          0
+Affc 'reserved'   1  40  -1   2   2          0
 End
 
 #END

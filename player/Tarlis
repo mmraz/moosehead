@@ -2,8 +2,8 @@
 Name Tarlis~
 Id   951286833
 Email (null)~
-LogO 1117263863
-Vers 31
+LogO 1406952188
+Vers 33
 Desc You can't blame the Wang... no, you can't blame the Wang. The Wang
 wants what the Wang wants. And whether the Wang wants old bus station
 skanks, or to meet new bus station skanks by the nacho cart, the
@@ -20,11 +20,12 @@ Clan zealot~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 25
+SkPTimer 4
 SkPTracker 12
 LogoutTracker 0
 Kill 0 1 0 0
 Steal 0 0 0
+MSteal 0
 LstK Jaana~
 LstKBy Bloodhound~
 LstAtkedBy no one~
@@ -32,10 +33,16 @@ LstAtkedByTimer 0
 LstCombatDate 1071487308
 LstKillDate 1061365089
 LstDeathDate 1057902400
-LoginsWOKill 65
-LoginsWODeath 68
-LoginsWOCombat 12
+LoginsWOKill 73
+LoginsWODeath 76
+LoginsWOCombat 20
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 169995 almighty~
 Sac  234
 Sex  1
@@ -44,21 +51,21 @@ Node 324
 Cap 0
 Created 954499715
 Glad 0 0 0 0 0 0
-LastHost 65-101-108-173.spkn.qwest.net~
+LastHost 68.186.103.129~
 Cla  10
 Kit summoner~
 ClaO 10
 Levl 41
 DLevl 0
-Plyd 342538
-Not  1071746204 1071746204 1071746204 1071848442 1071795641 1071865419 1071746204 1116829041 1071746204 1071746204
+Plyd 343361
+Not  1071746204 1071746204 1071746204 1071848442 1310884472 1071865419 1071746204 1116829041 1071746204 1071746204
 Scro 22
 Rank 2
-Room 31806
-HMV  310 389 585 792 390 390
+Room 31816
+HMV  389 389 792 792 390 390
 Gold 545
 Silv 2048
-Exp  355139
+Exp  355057
 Act  CDGHMQSa
 MHSF RSX
 AfBy CDFJT
@@ -67,18 +74,19 @@ Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  4
+Pos  8
 Prac 42
+Trai 16
 SkiP 13
-Save  -11
+Save  -6
 Alig  -1000
-Hit   26
-Dam   32
-SecHit   26
-SecDam   32
-ACs 36 36 36 66
+Hit   21
+Dam   24
+SecHit   21
+SecDam   24
+ACs 56 56 56 86
 Wimp  20
-Attr 13 25 25 25 13 25 16 20
+Attr 13 25 25 25 13 17 8 20
 AMod 0 0 0 1 4 0 0 0
 Pass Tas.oV.BVwP3I~
 Titl  says "You can't blame the Wang."~
@@ -86,10 +94,10 @@ Pnts 96
 TSex 1
 LLev 94
 HMVP 369 821 390
-Cnd  0 46 47 47
+Cnd  0 4 26 26
 Sk 100 'acid blast'
 OldSk 75 'aid'
-Sk 1 'annointment'
+OldSk 1 'annointment'
 Sk 90 'asphyxiate'
 OldSk 1 'bestow holiness'
 Sk 88 'bless'
@@ -250,11 +258,7 @@ Gr 'element energy'
 Gr 'element fire'
 Gr 'element spirit'
 Gr 'element water'
-Affc 'stonefist'   0  39   0   8  19          0
-Affc 'body of stone'   0  42  26   3   5          0
-Affc 'armor'   0  42  16 -20  17          0
-Affc 'bless'   0  34   7   5  18          0
-Affc 'bless'   0  32   7  -5  24          0
+Affc 'body of stone'   0  36   5   3   5          0
 End
 
 #O
@@ -527,7 +531,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 4 4 236 -1
+Val  52 4 4 241 -1
 Spell 3 'turn undead'
 End
 
@@ -544,7 +548,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 4 4 236 -1
+Val  52 4 4 241 -1
 Spell 3 'turn undead'
 End
 
@@ -561,7 +565,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 4 4 236 -1
+Val  52 4 4 241 -1
 Spell 3 'turn undead'
 End
 
@@ -578,7 +582,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 4 4 236 -1
+Val  52 4 4 241 -1
 Spell 3 'turn undead'
 End
 
@@ -595,7 +599,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 4 4 236 -1
+Val  52 4 4 241 -1
 Spell 3 'turn undead'
 End
 
@@ -686,7 +690,7 @@ PrevOwner Tarlis~
 Cond 0
 Wear -1
 Cost 4400
-Val  38 8 6 19 0
+Val  38 8 6 22 0
 Spell 3 'blindness'
 End
 
@@ -697,7 +701,7 @@ PrevOwner Tarlis~
 Cond 0
 Wear -1
 Cost 4400
-Val  38 8 7 19 0
+Val  38 8 7 22 0
 Spell 3 'blindness'
 End
 
@@ -714,7 +718,7 @@ Cond 0
 Wear -1
 Lev  12
 Cost 0
-Val  53 20 -1 -1 -1
+Val  53 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -952,7 +956,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 2 2 236 -1
+Val  52 2 2 241 -1
 Spell 3 'turn undead'
 End
 
@@ -979,7 +983,7 @@ Cond 0
 Wear -1
 Lev  16
 Cost 0
-Val  53 5 3 72 -1
+Val  53 5 3 75 -1
 Spell 3 'dispel magic'
 End
 
@@ -1011,7 +1015,7 @@ Enchanted
 Nest 1
 PrevOwner Tarlis~
 ExtF 67
-Stolen 6624
+Stolen 6603
 Cond 0
 Wear -1
 Lev  27

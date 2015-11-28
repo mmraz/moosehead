@@ -3,8 +3,8 @@ Name Mystik~
 SurN Killjoy~
 Id   1085885466
 Email (null)~
-LogO 1107126797
-Vers 31
+LogO 1391505274
+Vers 33
 Desc A strange being from a distant land shimmers into existance
 before you. He is not bound to the ground on which you tread,
 but rather floats, without use of his translucent wings, 
@@ -31,6 +31,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 1 13 0 3
 Steal 0 0 0
+MSteal 0
 LstK Nike~
 LstKBy Galstaff~
 LstAtkedBy no one~
@@ -38,35 +39,41 @@ LstAtkedByTimer 0
 LstCombatDate 1106526095
 LstKillDate 1102381491
 LstDeathDate 1102562156
-LoginsWOKill 78
-LoginsWODeath 73
-LoginsWOCombat 7
+LoginsWOKill 90
+LoginsWODeath 85
+LoginsWOCombat 19
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 100739 matook~
-Sac  270
+Sac  300
 Sex  1
 Vump  2
 Node 0
 Cap 0
 Created 1085885607
 Glad 0 0 0 0 0 0
-LastHost 4.46.204.164~
+LastHost 67.185.179.181~
 Cla  11
 Kit nethermancer~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 494514
+Plyd 504572
 Not  1106687144 1106889574 1101520777 1106261392 1101520777 1107056929 1101520777 1106989677 1101520777 1106603232
 Scro 22
 Rank 0
-Room 3302
-HMV  1084 1096 1137 1137 463 463
-Gold 342
-Silv 7
+Room 4400
+HMV  996 996 1172 1172 463 463
+Gold 641
+Silv 243
 Exp  269549
 Act  CDGHKMOQS
-MHSF RSUV
+MHSF HRSUV
 AfBy DFJTU
 Comm T
 Disp BFIJN
@@ -74,23 +81,24 @@ IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-SkiP 398
-Save  -4
+Prac 40
+SkiP 15
+Save  -1
 Alig  -1000
-Hit   10
-Dam   19
-SecHit   10
-SecDam   19
-ACs 88 88 88 88
+Hit   27
+Dam   36
+SecHit   13
+SecDam   22
+ACs 66 66 66 66
 Attr 13 25 25 21 13 25 16 18
-AMod 4 9 -1 0 2 0 0 0
-Pass My2pzfc9PtjiE~
+AMod 2 10 -1 0 2 0 0 0
+Pass My96UXKeXN/Ms~
 Titl  is a friend not a foe!!~
 Pnts 82
 TSex 1
 LLev 41
 HMVP 771 962 463
-Cnd  0 16 21 21
+Cnd  0 0 0 0
 Alias 5 c acid~
 Alias ` scan~
 Alias sss order all recall~
@@ -114,7 +122,7 @@ Sk 1 'burning hands'
 Sk 75 'call lightning'
 Sk 75 'calm'
 Sk 100 'cancellation'
-Sk 85 'chain lightning'
+Sk 88 'chain lightning'
 Sk 1 'change sex'
 Sk 98 'charm person'
 Sk 1 'chill touch'
@@ -149,7 +157,7 @@ Sk 82 'fumble'
 Sk 100 'gate'
 Sk 88 'giant strength'
 Sk 90 'haste'
-Sk 95 'identify'
+Sk 96 'identify'
 Sk 1 'infravision'
 Sk 100 'invisibility'
 Sk 77 'knock'
@@ -195,12 +203,12 @@ Sk 100 'flail'
 Sk 75 'breathe'
 Sk 100 'dodge'
 Sk 75 'fear'
-Sk 93 'hex'
+Sk 94 'hex'
 Sk 100 'parry'
 Sk 81 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
-Sk 95 'fade'
+Sk 98 'fade'
 Sk 100 'meditation'
 Sk 100 'nethermancy'
 Sk 100 'spellcraft'
@@ -223,6 +231,7 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'mummy'
+Affc 'shield'   0  45   7 -20  17          0
 End
 
 #O
@@ -275,7 +284,7 @@ Vnum 23127
 Nest 0
 PrevOwner Mystik~
 Cond 0
-Wear 7
+Wear -1
 Cost 800
 End
 
@@ -307,15 +316,6 @@ Cost 3000
 End
 
 #O
-Vnum 12060
-Nest 0
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 5234
-End
-
-#O
 Vnum 23514
 Nest 0
 PrevOwner Mystik~
@@ -328,6 +328,7 @@ End
 Vnum 1236
 Nest 0
 PrevOwner (null)~
+ExtF2 1
 Cond 0
 Wear 5
 Cost 0
@@ -337,6 +338,8 @@ End
 Vnum 1236
 Nest 0
 PrevOwner (null)~
+ExtF 587759684
+ExtF2 1
 Cond 0
 Wear 12
 Cost 0
@@ -370,46 +373,12 @@ Cost 4000
 End
 
 #O
-Vnum 23504
-Enchanted
-Nest 1
-PrevOwner Mystik~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 2250
-Val  2 2 20 38 2057
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-End
-
-#O
 Vnum 15227
 Nest 1
 PrevOwner Mystik~
 Cond 0
 Wear -1
 Cost 20000
-End
-
-#O
-Vnum 1964
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10711
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 1
 End
 
 #O
@@ -423,51 +392,6 @@ Spell 3 'cure critical'
 End
 
 #O
-Vnum 8503
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
 Vnum 9602
 Nest 1
 PrevOwner Mystik~
@@ -477,109 +401,12 @@ Cost 1000
 End
 
 #O
-Vnum 10338
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 4200
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 3104
 Nest 1
 PrevOwner Mystik~
 Cond 0
 Wear -1
 Cost 25000
-End
-
-#O
-Vnum 1347
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5409
-Enchanted
-Nest 1
-PrevOwner Mystik~
-ExtF 67
-Cond 0
-Wear -1
-Lev  32
-Cost 1250
-Val  2 3 5 2 2048
-Affc 'enchant weapon'   1  52  -1   8  19          0
-Affc 'enchant weapon'   0  52  -1   8  18          0
-End
-
-#O
-Vnum 20808
-Nest 1
-PrevOwner Mystik~
-ExtF 67
-Cond 0
-Wear -1
-Cost 1000
 End
 
 #O
@@ -607,22 +434,8 @@ PrevOwner Mystik~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 7 161 0
+Val  52 10 7 166 0
 Spell 3 'remove curse'
-End
-
-#O
-Vnum 18912
-Enchanted
-Nest 1
-PrevOwner Mystik~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 2400
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
@@ -641,7 +454,7 @@ PrevOwner Mystik~
 Cond 0
 Wear -1
 Cost 0
-Val  51 135 -1 -1 -1
+Val  51 140 -1 -1 -1
 Spell 1 'magic resistance'
 End
 
@@ -673,15 +486,6 @@ Cost 20000
 End
 
 #O
-Vnum 10032
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 1700
-End
-
-#O
 Vnum 10445
 Nest 1
 PrevOwner Mystik~
@@ -697,15 +501,6 @@ PrevOwner Mystik~
 Cond 0
 Wear -1
 Cost 10
-End
-
-#O
-Vnum 3375
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -772,30 +567,6 @@ Cost 6500
 End
 
 #O
-Vnum 10300
-Enchanted
-Nest 1
-PrevOwner Mystik~
-ExtF 322
-Cond 0
-Wear -1
-Lev  50
-Cost 6500
-Affc 'enchant weapon'   0  52  -1   8  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-Affc 'reserved'   0  48  -1   0   0     524288
-End
-
-#O
-Vnum 10336
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
 Vnum 12010
 Nest 1
 PrevOwner Mystik~
@@ -834,24 +605,6 @@ PrevOwner Mystik~
 Cond 0
 Wear -1
 Cost 15000
-End
-
-#O
-Vnum 2428
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 3400
-End
-
-#O
-Vnum 2422
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 700
 End
 
 #O
@@ -910,32 +663,14 @@ Affc 'enchant weapon'   0  52  -1   9  18          0
 End
 
 #O
-Vnum 23504
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
 Vnum 17667
 Nest 1
 PrevOwner Mystik~
 Cond 0
 Wear -1
 Cost 1000
-Val  20 5 1 55 0
+Val  20 5 1 58 0
 Spell 3 'cure critical'
-End
-
-#O
-Vnum 10030
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 20000
 End
 
 #O
@@ -959,7 +694,29 @@ Cost 0
 End
 
 #O
-Vnum 9807
+Vnum 3034
+Nest 1
+PrevOwner Mystik~
+Cond 0
+Wear -1
+Cost 7000
+Val  28 213 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Mystik~
+Cond 0
+Wear -1
+Cost 7000
+Val  28 213 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 9107
 Nest 1
 PrevOwner Mystik~
 Cond 0
@@ -968,25 +725,12 @@ Cost 0
 End
 
 #O
-Vnum 3034
+Vnum 10032
 Nest 1
 PrevOwner Mystik~
 Cond 0
 Wear -1
-Cost 7000
-Val  28 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 1
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 7000
-Val  28 208 -1 -1 -1
-Spell 1 'vision'
+Cost 1700
 End
 
 #O
@@ -1000,17 +744,128 @@ Cost 4000
 End
 
 #O
-Vnum 18941
+Vnum 10300
 Enchanted
 Nest 1
 PrevOwner Mystik~
-ExtF 524355
+ExtF 322
 Cond 0
 Wear -1
 Lev  50
+Cost 6500
+Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'reserved'   0  48  -1   0   0     524288
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Mystik~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Mystik~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 5409
+Enchanted
+Nest 1
+PrevOwner Mystik~
+ExtF 67
+Cond 0
+Wear -1
+Lev  32
+Cost 1250
+Val  2 3 5 2 2048
+Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   0  52  -1   8  18          0
+End
+
+#O
+Vnum 9807
+Nest 1
+PrevOwner Mystik~
+Cond 0
+Wear -1
 Cost 0
-Affc 'enchant weapon'   1  52  -1   6  19          0
-Affc 'enchant weapon'   0  52  -1   6  18          0
+End
+
+#O
+Vnum 1347
+Nest 1
+PrevOwner Mystik~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1964
+Nest 1
+PrevOwner Mystik~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10338
+Nest 1
+PrevOwner Mystik~
+Cond 0
+Wear -1
+Cost 4200
+End
+
+#O
+Vnum 10338
+Nest 1
+PrevOwner Mystik~
+Cond 0
+Wear -1
+Cost 4200
+End
+
+#O
+Vnum 23504
+Nest 1
+PrevOwner Mystik~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 10711
+Nest 1
+PrevOwner Mystik~
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 18912
+Enchanted
+Nest 1
+PrevOwner Mystik~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 2400
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
@@ -1026,8 +881,9 @@ End
 Vnum 17671
 Nest 0
 PrevOwner (null)~
+ExtF 262146
 Cond 0
-Wear 6
+Wear -1
 Cost 1500
 End
 
@@ -1045,6 +901,7 @@ Vnum 12014
 Enchanted
 Nest 0
 PrevOwner Munkey~
+Link Mystik
 ExtF 66
 Cond 0
 Wear -1
@@ -1055,22 +912,13 @@ Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #O
-Vnum 2205
-Nest 0
-PrevOwner Baelem~
-Cond 0
-Wear -1
-Cost 0
-Val  6 2 20 7 2336
-End
-
-#O
 Vnum 12063
 Nest 0
 PrevOwner Mystik~
+Link Mystik
 ExtF 555483201
 Cond 0
-Wear 17
+Wear -1
 Cost 50000
 End
 
@@ -1081,15 +929,6 @@ PrevOwner Mystik~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 10338
-Nest 0
-PrevOwner Mystik~
-Cond 0
-Wear -1
-Cost 4200
 End
 
 #O
@@ -1108,21 +947,144 @@ Affc 'enchant weapon'   1  52  -1  13  19          0
 End
 
 #O
-Vnum 9107
+Vnum 3298
 Nest 0
-PrevOwner Mystik~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 0
+Cost 100000
 End
 
 #O
-Vnum 8503
+Vnum 3298
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 0
+PrevOwner Mystik~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 2250
+Val  2 2 20 38 2057
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 23503
+Enchanted
+Nest 0
+PrevOwner Mystik~
+Name black bitch~
+ShD  {WThe {DBlack {MBitch{R !!{x~
+Desc A pile of accomplice entrails sit in a pool of black blood.~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 800
+Val  2 9 4 36 2112
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 2428
 Nest 0
 PrevOwner Mystik~
 Cond 0
 Wear -1
-Cost 5000
+Cost 3400
+End
+
+#O
+Vnum 3294
+Nest 0
+PrevOwner Mystik~
+Cond 0
+Wear -1
+Cost 9900
+End
+
+#O
+Vnum 3298
+Nest 0
+PrevOwner Mystik~
+Cond 0
+Wear 17
+Cost 100000
+End
+
+#O
+Vnum 10030
+Nest 0
+PrevOwner Mystik~
+Cond 0
+Wear 6
+Cost 20000
+End
+
+#O
+Vnum 20808
+Enchanted
+Nest 0
+PrevOwner Kurasawa~
+Cond 0
+Wear -1
+Cost 125
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
+End
+
+#O
+Vnum 2205
+Enchanted
+Nest 0
+PrevOwner Kurasawa~
+Link Mystik
+ExtF 323
+Cond 0
+Wear -1
+Cost 0
+Val  6 2 20 7 2336
+Affc 'reserved'   1  50  -1   5  20          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
+End
+
+#O
+Vnum 10336
+Nest 0
+PrevOwner Mystik~
+Cond 0
+Wear 11
+Cost 4000
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 0
+PrevOwner Kurasawa~
+Link Mystik
+ExtF 66
+Cond 0
+Wear 16
+Lev  50
+Cost 812
+Val  4 5 8 7 260
+Affc 'enchant weapon'   1  52  -1  14  19          0
+Affc 'enchant weapon'   0  52  -1  14  18          0
 End
 
 #END

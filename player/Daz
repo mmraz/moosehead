@@ -3,18 +3,19 @@ Name DaZ~
 SurN Crackhead~
 Id   1030232807
 Email (null)~
-LogO 1070080189
-Vers 31
+LogO 1358654323
+Vers 33
 Prom %h %m %v ~
 Race lasher~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -560 xochipili~
 Sac  283
@@ -35,21 +40,21 @@ Node 0
 Cap 0
 Created 1030232827
 Glad 0 0 0 0 0 0
-LastHost ky-richmond1b-85.rhmdky.adelphia.net~
+LastHost 74.140.20.50~
 Cla  6
 ClaO 3
 Levl 6
 DLevl 0
-Plyd 28393
+Plyd 29013
 Not  1068174780 0 0 1067995287 0 1036872928 0 0 0 0
 Scro 22
 Rank 0
-Room 3001
-HMV  123 123 123 123 119 119
+Room 3050
+HMV  70 123 123 123 98 119
 Gold 5
 Silv 314
 Exp  55502
-Act  CDEFGHKQX
+Act  CDEFGHKQ
 MHSF R
 AfBy T
 Comm I
@@ -58,14 +63,15 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 11
+Trai 2
 SkiP 8
 Save  -5
 Alig  1000
-Hit   6
+Hit   4
 SecHit   5
 ACs 83 83 85 98
 Wimp  10
-Attr 20 15 18 13 21 13 13 14
+Attr 20 15 18 16 21 10 11 14
 AMod 7 0 3 2 4 0 2 0
 Pass DajHHKYdq5JW6~
 Titl  the confused [CbM]~
@@ -73,7 +79,7 @@ Pnts 100
 TSex 1
 LLev 7
 HMVP 113 123 119
-Cnd  0 0 35 0
+Cnd  0 0 20 0
 Sk 1 'aid'
 Sk 1 'bestow holiness'
 Sk 1 'bless'
@@ -127,9 +133,9 @@ Gr 'warriorberzerker default'
 Gr 'weaponsmaster'
 Gr 'benedictions'
 Gr 'transportation'
-Affc 'giant strength'   0  35  27   4   1          0
-Affc 'bless'   0  39  33   5  18          0
-Affc 'bless'   0  37  33  -5  24          0
+Affc 'bless'   0  32  18  -5  24          0
+Affc 'bless'   0  37  18   5  18          0
+Affc 'giant strength'   0  34  12   4   1          0
 End
 
 #O
@@ -137,7 +143,7 @@ Vnum 3700
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 16
+Wear -1
 Cost 250
 End
 
@@ -347,6 +353,24 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
+End
+
+#O
+Vnum 3072
+Nest 0
+PrevOwner Calabaza~
+Cond 0
+Wear -1
+Cost 850
+End
+
+#O
+Vnum 3500
+Nest 0
+PrevOwner Calabaza~
+Cond 0
+Wear 16
+Cost 460
 End
 
 #END

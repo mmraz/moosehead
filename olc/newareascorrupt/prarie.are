@@ -1,0 +1,86 @@
+#AREA
+../newareas/prarie.are~
+prairie~
+{ All }         prairie~
+21000 21000
+
+#MOBILES
+#21000
+Bob~
+Bob the businessman~
+Bob, dealer in dubious consumables, is here.
+~
+Bob is a man in his late middle years - possessing a craggy face and a
+determinded expression, along with piercing eyes that seem to drill into
+your brain demanding that you BUY SOMTHING.
+~
+human~
+ABG JN -753 0
+40 2 15d10+1850 15d10+100 4d8+13 slice
+0 -13 -12 -13
+EFNU 0 0 0
+sit sit male 5000
+B N medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#0
+
+#ROOMS
+#21000
+The door to Boinga~
+You stand before a dark steel door lined with uncountable runes and sigils.
+Above the door, on the strange grey rocklike substance that makes up the
+walls and floor of this otherworldly place, is a gold plaque inscribed in
+some ancient script.  Looking about you see that you are in some sort of
+hall which stretches on both north and south for as far as the eye can see.
+To the east, you can just make out the opposite wall of this hall.  
+~
+0 CD 0
+D1
+Exit ~
+door~
+0 0 21001
+D2
+Exit ~
+door~
+0 0 21004
+D3
+Exit ~
+door~
+1 0 17702
+E
+wall stone~
+The walls and floor are made of a strange unworked, but perfectly smooth
+grey stone.  Running your hand over it you find that the walls are virtually
+frictionless - fortunately the floor, although made of the same substance,
+doesn't have this property.
+~
+E
+plaque~
+As you gaze at the plaque, you feel a strange resonance building between your
+eyes and the alien script.  Gradually the words shift and change until they
+resolve themselves into your home tounge.  The words revealed read thus
+"Boinga - Home to Dragons, Dwarves, Elves, Giants and Humans"
+~
+E
+door~
+You cannot even begin to make sense of the sigils and runes that adorn the
+dark metal of the door.  What you can understand is the simple, unpretentious
+doorknob.
+~
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+21000 -1 -1  5 19  0 	 150 200 	 8  7 	* Bob the businessman
+0
+
+#SPECIALS
+S
+
+#$

@@ -2,8 +2,8 @@
 Name Salmisstra~
 Id   868358248
 Email (null)~
-LogO 1087058990
-Vers 31
+LogO 1360944171
+Vers 33
 Desc You see a beautiful, scantily clad young  woman before you... 
 She wispers into your ear ..Do you wanna be...?
 ~
@@ -13,10 +13,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -28,6 +29,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 17313 megena~
 Sac  400
 Sex  2
@@ -36,42 +41,42 @@ Node 0
 Cap 0
 Created 1071999614
 Glad 0 0 0 0 0 0
-LastHost chi.spunge.org~
+LastHost 199.255.212.198~
 Cla  1
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 1688723
+Plyd 1690432
 Not  1086718598 1085047908 1074443154 1085048022 1085454727 1085047901 1074443154 1080030392 1074443154 1077048677
 Scro 22
 Rank 0
-Room 5243
-HMV  798 798 187 834 270 708
-Gold 144
-Silv 18
+Room 1220
+HMV  614 798 239 834 690 708
+Gold 204
+Silv 2309
 Exp  1032415
-Act  BDEGH
+Act  BDEGHR
 MHSF R
 AfBy CJT
-Comm DEFGILOSc
+Comm DEFGILOS
 Disp BEFIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 74
-Trai 3
-SkiP 47
-Save  -5
-Alig  520
-Hit   31
-Dam   48
-SecHit   20
-SecDam   37
-ACs -29 -29 -8 7
+Trai 23
+SkiP 55
+Save  -11
+Alig  284
+Hit   35
+Dam   49
+SecHit   24
+SecDam   38
+ACs -35 -35 -14 -5
 Wimp  50
-Attr 24 16 25 24 20 21 24 17
+Attr 24 16 25 24 20 11 14 17
 AMod 5 2 -2 3 0 0 0 0
 Pass Sa.naVJ/XvwNY~
 Titl  sslippery ssnivelling sserpentile ssseductres~
@@ -79,7 +84,7 @@ Pnts 123
 TSex 2
 LLev 452
 HMVP 798 766 673
-Cnd  0 0 0 0
+Cnd  0 0 23 0
 Alias 0 cast 'cure light'~
 Alias ` chant 'cure serious'~
 Alias 9 cast 'cure serious'~
@@ -294,7 +299,7 @@ Sk 100 'kick'
 Sk 100 'parry'
 OldSk 41 'parry'
 Sk 92 'shield block'
-Sk 50 'scan'
+Sk 51 'scan'
 OldSk 62 'scan'
 Sk 100 'second attack'
 OldSk 1 'second attack'
@@ -331,6 +336,8 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
+Affc 'bless'   0  47  37  -6  24          0
+Affc 'bless'   0  46  37   6  18          0
 End
 
 #O
@@ -518,6 +525,54 @@ Cost 5200
 End
 
 #O
+Vnum 8510
+Nest 1
+PrevOwner Salmisstra~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 8508
+Nest 1
+PrevOwner Salmisstra~
+Cond 0
+Wear -1
+Cost 1300
+End
+
+#O
+Vnum 10443
+Nest 1
+PrevOwner Salmisstra~
+Cond 0
+Wear -1
+Cost 1520
+End
+
+#O
+Vnum 5924
+Nest 1
+PrevOwner Salmisstra~
+ExtF 134217729
+Wt   48
+Cond 0
+Wear -1
+Cost 4000
+Val  8 8 8 5 5
+End
+
+#O
+Vnum 1342
+Nest 1
+PrevOwner Salmisstra~
+Cond 0
+Wear -1
+Cost 3600
+End
+
+#O
 Vnum 5936
 Nest 0
 PrevOwner Salmisstra~
@@ -535,18 +590,6 @@ ExtF 134217729
 Wt   48
 Cond 0
 Wear 9
-Cost 4000
-Val  8 8 8 5 5
-End
-
-#O
-Vnum 5924
-Nest 0
-PrevOwner Salmisstra~
-ExtF 134217729
-Wt   48
-Cond 0
-Wear 6
 Cost 4000
 Val  8 8 8 5 5
 End
@@ -991,8 +1034,8 @@ PrevOwner Salmisstra~
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   1  51  -1   0  19          0
 Affc 'enchant weapon'   0  51  -1   0  18          0
+Affc 'enchant weapon'   1  51  -1   0  19          0
 End
 
 #O
@@ -1012,9 +1055,9 @@ PrevOwner Salmisstra~
 Cond 0
 Wear -1
 Cost 4125
-Affc 'enchant weapon'   0  46  -1   0  18          0
-Affc 'enchant weapon'   1  46  -1   0  19          0
 Affc 'reserved'   1  40  -1   2   2          0
+Affc 'enchant weapon'   1  46  -1   0  19          0
+Affc 'enchant weapon'   0  46  -1   0  18          0
 End
 
 #O
@@ -1025,9 +1068,9 @@ PrevOwner Salmisstra~
 Cond 0
 Wear -1
 Cost 4125
-Affc 'reserved'   1  40  -1   2   2          0
-Affc 'enchant weapon'   1  50  -1   0  19          0
 Affc 'enchant weapon'   0  50  -1   0  18          0
+Affc 'enchant weapon'   1  50  -1   0  19          0
+Affc 'reserved'   1  40  -1   2   2          0
 End
 
 #O
@@ -1124,8 +1167,8 @@ Desc Winston's only pair of jeans.~
 Cond 0
 Wear -1
 Cost 6500
-Affc 'reserved'   1  30  -1  20  12          0
 Affc 'reserved'   1  30  -1  20  13          0
+Affc 'reserved'   1  30  -1  20  12          0
 End
 
 #O
@@ -1136,8 +1179,8 @@ PrevOwner Salmisstra~
 Cond 0
 Wear -1
 Cost 6400
-Affc 'enchant weapon'   0  51  -1   0  18          0
 Affc 'enchant weapon'   1  51  -1   0  19          0
+Affc 'enchant weapon'   0  51  -1   0  18          0
 End
 
 #O
@@ -1232,10 +1275,10 @@ Cond 0
 Wear -1
 Lev  46
 Cost 4800
-Affc 'reserved'   1  40  -1   0   0          0
-Affc 'reserved'   1  40  -1  -1  20          0
-Affc 'enchant weapon'   1  53  -1   6  19          0
 Affc 'enchant weapon'   0  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'reserved'   1  40  -1  -1  20          0
+Affc 'reserved'   1  40  -1   0   0          0
 End
 
 #O
@@ -1291,6 +1334,15 @@ PrevOwner Salmisstra~
 Cond 0
 Wear -1
 Cost 1450
+End
+
+#O
+Vnum 10424
+Nest 1
+PrevOwner Salmisstra~
+Cond 0
+Wear -1
+Cost 5500
 End
 
 #O
@@ -1352,8 +1404,8 @@ Cond 0
 Wear 16
 Lev  50
 Cost 2400
-Affc 'enchant weapon'   0  52  -1  11  18          0
 Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
@@ -1490,10 +1542,10 @@ PrevOwner Nuklon~
 Cond 0
 Wear -1
 Cost 4500
-Affc 'reserved'   1  46  -1   1  19          0
-Affc 'reserved'   1  46  -1   1  18          0
-Affc 'reserved'   1  46  -1  20  13          0
 Affc 'reserved'   1  46  -1  15  12          0
+Affc 'reserved'   1  46  -1  20  13          0
+Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1   1  19          0
 End
 
 #O
@@ -1544,8 +1596,8 @@ Desc Nuklon's middle finger is here, staring you in the face.~
 Cond 0
 Wear -1
 Cost 5000
-Affc 'enchant weapon'   1  50  -1   0  18          0
 Affc 'enchant weapon'   1  50  -1   0  19          0
+Affc 'enchant weapon'   1  50  -1   0  18          0
 End
 
 #O
@@ -1562,53 +1614,17 @@ Vnum 16726
 Nest 0
 PrevOwner Tryffan~
 Cond 0
-Wear -1
+Wear 6
 Cost 4000
 End
 
 #O
-Vnum 10443
+Vnum 3009
 Nest 0
-PrevOwner Salmisstra~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 1520
-End
-
-#O
-Vnum 8508
-Nest 0
-PrevOwner Salmisstra~
-Cond 0
-Wear -1
-Cost 1300
-End
-
-#O
-Vnum 1342
-Nest 0
-PrevOwner Nuklon~
-Cond 0
-Wear -1
-Cost 3600
-End
-
-#O
-Vnum 10424
-Nest 0
-PrevOwner Nuklon~
-Cond 0
-Wear -1
-Cost 5500
-End
-
-#O
-Vnum 8510
-Nest 0
-PrevOwner Nuklon~
-Cond 0
-Wear -1
-Cost 200
+Cost 22
 End
 
 #END

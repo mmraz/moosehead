@@ -3,7 +3,7 @@ Name Paradise~
 SurN Lost~
 Id   1004656007
 Email (null)~
-LogO 1124862696
+LogO 1311819492
 Vers 31
 LnD  A Gladiator~
 Prom %r - %e%c<%h %m %v %w> [$%g - %s] ~
@@ -12,7 +12,7 @@ Outc 0
 RufT 0
 MatookT 7928
 SkPTimer 0
-SkPTracker 4
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -27,6 +27,9 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 149984 matook~
 DeityT -4978 matook~
 Sac  300
@@ -36,32 +39,33 @@ Node 0
 Cap 0
 Created 1004656021
 Glad 0 0 0 0 1 0
-LastHost pool-71-113-1-212.sttlwa.dsl-w.verizon.net~
+LastHost 67.171.33.228~
 Cla  7
 Kit medium~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 362865
+Plyd 368808
 Not  1067208560 1067208560 1067208560 1067208560 1067208560 1067208560 1067208560 1067208560 1067208560 1067208560
 Scro 22
 Rank 0
-Room 3770
-HMV  744 744 1272 1414 496 496
-Gold 399
-Silv 172
+Room 3001
+HMV  646 744 1414 1414 325 496
+Gold 248
+Silv 72
 Exp  61211
-Act  DEFGHIKM
+Act  CDEFGHIKM
 MHSF R
-AfBy DFHJTVbc
-Comm DGc
-Disp FIJN
+AfBy DFJTbc
+Comm DGLc
+Disp BFIJN
 IcgB 0
 Icg 0
 Pnet ACDEHI
 Pos  8
-Prac 6
-SkiP 4
+Prac 3
+Trai 8
+SkiP 20
 Save  -2
 Alig  -1000
 Hit   20
@@ -70,15 +74,15 @@ SecHit   19
 SecDam   15
 ACs -32 -32 -32 3
 Wimp  20
-Attr 13 25 25 25 13 17 16 16
-AMod 2 0 -1 5 -2 0 0 0
+Attr 13 25 25 25 13 17 8 16
+AMod 2 0 -1 1 -2 0 0 0
 Pass PaqJ8FVdmmO1c~
 Titl  {x~
 Pnts 28
 TSex 1
 LLev 47
 HMVP 579 1099 496
-Cnd  0 40 44 44
+Cnd  0 12 29 29
 Alias o order all rescue paradise~
 Alias xx c summon lethys~
 Alias orb c 'orb of surprise'~
@@ -87,6 +91,7 @@ Alias kk murder~
 Alias 1 bleed~
 Alias 2 c fam~
 Alias x murder 2.~
+Alias sum c 'summon dead'~
 Sk 100 'acid blast'
 Sk 75 'acclimate'
 Sk 86 'armor'
@@ -123,12 +128,12 @@ Sk 100 'gate'
 Sk 83 'giant strength'
 Sk 81 'haste'
 Sk 100 'heal'
-Sk 85 'identify'
+Sk 89 'identify'
 Sk 75 'infravision'
 Sk 1 'knock'
 Sk 75 'know alignment'
 Sk 75 'lightning bolt'
-Sk 90 'locate object'
+Sk 91 'locate object'
 Sk 77 'magic missile'
 Sk 75 'mass healing'
 Sk 75 'nexus'
@@ -172,7 +177,7 @@ Sk 100 'bleed'
 Sk 100 'dodge'
 Sk 59 'scan'
 Sk 75 'scrolls'
-Sk 1 'staves'
+Sk 75 'staves'
 Sk 1 'wands'
 Sk 56 'swimming'
 Sk 50 'recall'
@@ -189,8 +194,6 @@ Gr 'orbs'
 Gr 'protective'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'haste'   0  55  26   4   2    2097152
-Affc 'sanctuary'   0  55   8   0   0        128
 End
 
 #O
@@ -379,6 +382,60 @@ Cost 710
 End
 
 #O
+Vnum 5231
+Nest 1
+PrevOwner Paradise~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5232
+Nest 1
+PrevOwner Paradise~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5252
+Nest 1
+PrevOwner Paradise~
+Cond 0
+Wear -1
+Cost 590
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Paradise~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Paradise~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5409
+Nest 1
+PrevOwner Paradise~
+Cond 0
+Wear -1
+Cost 2500
+End
+
+#O
 Vnum 8503
 Nest 0
 PrevOwner (null)~
@@ -439,6 +496,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 8500
+Val  52 10 5 161 0
 Spell 3 'remove curse'
 End
 
@@ -458,20 +516,6 @@ PrevOwner Marle~
 Cond 0
 Wear -1
 Cost 6000
-End
-
-#O
-Vnum 23505
-Enchanted
-Nest 0
-PrevOwner Paradise~
-Stolen 51
-Cond 0
-Wear 16
-Lev  50
-Cost 700
-Affc 'enchant weapon'   1  54  -1   1  19          0
-Affc 'enchant weapon'   0  54  -1   1  18          0
 End
 
 #O
@@ -535,6 +579,102 @@ PrevOwner Paradise~
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5212
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5209
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5252
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 590
+End
+
+#O
+Vnum 5252
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 590
+End
+
+#O
+Vnum 5217
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3300
+Spell 3 'charm person'
+End
+
+#O
+Vnum 23505
+Enchanted
+Nest 0
+PrevOwner Paradise~
+Stolen 7
+Cond 0
+Wear 16
+Lev  50
+Cost 700
+Affc 'enchant weapon'   0  54  -1   1  18          0
+Affc 'enchant weapon'   1  54  -1   1  19          0
+End
+
+#O
+Vnum 10708
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 10701
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20405
+Nest 0
+PrevOwner Hanec~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

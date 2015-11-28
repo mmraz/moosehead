@@ -2,8 +2,8 @@
 Name KallaLilly~
 Id   1031355731
 Email (null)~
-LogO 1126994256
-Vers 31
+LogO 1370880805
+Vers 33
 LnD  A Gladiator~
 Prom [%e] %R %z %i %y $%g %s ~
 Race faerie~
@@ -11,10 +11,11 @@ Outc 0
 RufT 0
 MatookT 2
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 mojo~
 DeityT -13551 xochipili~
 Sac  300
@@ -35,12 +42,12 @@ Node 0
 Cap 0
 Created 1031355786
 Glad 2 0 0 0 1 0
-LastHost berea-motorola1--70-35-220-217.ironoh.adelphia.net~
+LastHost 76.177.48.145~
 Cla  7
 ClaO 0
-Levl 58
+Levl 52
 DLevl 0
-Plyd 2640396
+Plyd 2640527
 Not  1126328533 1126644518 1124694675 1126122115 1121859963 1126916461 1121659484 1126733652 1126887570 1125952714
 Scro 22
 Rank 5
@@ -59,8 +66,8 @@ Icg 2
 Wizn ACDEFIJLORTUXb
 Pnet ACFI
 Pos  8
-Prac 300
-Trai 60
+Prac 301
+Trai 62
 SkiP 157
 Save  -180
 Alig  623
@@ -69,7 +76,7 @@ Dam   81
 SecHit   2
 SecDam   6
 ACs -768 -768 -768 -780
-Attr 6 25 25 17 5 19 8 15
+Attr 6 25 25 17 5 17 8 15
 AMod 21 5 0 20 17 0 0 0
 Pass Ka.w2nkPjBshc~
 Bin  Your heart begins to flutter as Kallalilly enters the room.~
@@ -82,24 +89,24 @@ LLev 535
 HMVP 215 1030 286
 Cnd  0 48 48 48
 Edit ABCEH
-ERange 6200 6399
 ERange 31000 31399
+ERange 6200 6399
 Alias bye ] *blows kisses to all*~
-Macro woohoo load obj 31088; at %1 give slave %1; at %1 wiggle %1; at %1 say Grats on leveling!~
-Macro ohlala goto 21053; transfer %1 21053~
-Macro wesite gecho You can find help at {Wwww.geocities.com/mhshelp{x or {Wwww.geocities.com/borbborb{x~
-Macro duel goto 16174;transfer %1;transfer %2~
-Macro warlock trans %1 31902~
-Macro demise trans %1 31401~
-Macro honor trans %1 31501~
-Macro posse trans %1 31603~
-Macro avarice trans %1 31702~
-Macro zealot trans %1 31806~
-Macro card string obj coal short a %1 of %2; string obj coal long A %1 of %2playing card is here.;string obj coal name %1 %2 playing card~
-Macro stalk emote stalks %1~
-Macro yay load obj 3375; at %1 give emerald %1~
-Macro fix get cor; eat cor~
 Macro newbie ctalk newbie This is a reminder that the newbie flag is for true newbies only.  If you are not a true newbie, then please type 'newbie' to remove the flag. Thank you.~
+Macro fix get cor; eat cor~
+Macro yay load obj 3375; at %1 give emerald %1~
+Macro stalk emote stalks %1~
+Macro card string obj coal short a %1 of %2; string obj coal long A %1 of %2playing card is here.;string obj coal name %1 %2 playing card~
+Macro zealot trans %1 31806~
+Macro avarice trans %1 31702~
+Macro posse trans %1 31603~
+Macro honor trans %1 31501~
+Macro demise trans %1 31401~
+Macro warlock trans %1 31902~
+Macro duel goto 16174;transfer %1;transfer %2~
+Macro wesite gecho You can find help at {Wwww.geocities.com/mhshelp{x or {Wwww.geocities.com/borbborb{x~
+Macro ohlala goto 21053; transfer %1 21053~
+Macro woohoo load obj 31088; at %1 give slave %1; at %1 wiggle %1; at %1 say Grats on leveling!~
 Sk 100 'reserved'
 Sk 100 'opiate'
 Sk 100 'accuracy'
@@ -136,7 +143,6 @@ Sk 100 'charm animal'
 Sk 100 'chill touch'
 Sk 100 'clarity'
 Sk 100 'colour spray'
-Sk 1 'cone of silence'
 Sk 100 'contagion'
 Sk 100 'continual light'
 Sk 100 'control weather'

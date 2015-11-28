@@ -1,12 +1,11 @@
 #PLAYER
 Name Greyjoy~
-SurN Stark~
-Id   1033110458
+Id   1330457570
 Email (null)~
-LogO 1033111388
-Vers 31
-Prom %h %m %v%c> ~
-Race giant~
+LogO 1330458041
+Vers 33
+Prom <%hhp %mm %vmv %Xxp> ~
+Race dragon~
 Clan newbie~
 Outc 0
 RufT 0
@@ -16,94 +15,98 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1033110458
-LstKillDate 1033110458
-LstDeathDate 1033110458
+LstCombatDate 1330457570
+LstKillDate 1330457570
+LstDeathDate 1330457570
 LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 mojo~
-DeityT -18 mojo~
-Sac  52
+Sac  0
 Sex  1
 Vump  0
 Node 0
 Cap 0
-Created 1033110476
+Created 1330457711
 Glad 0 0 0 0 0 0
-LastHost ky-richmond2a-165.rhmdky.adelphia.net~
-Cla  3
+LastHost 204.209.44.14~
+Cla  6
 ClaO 3
-Levl 3
+Levl 1
 DLevl 0
-Plyd 745
+Plyd 330
 Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
-Room 16501
-HMV  22 56 103 107 28 106
-Gold 34
-Silv 87
-Exp  7749
+Room 3709
+HMV  20 20 100 100 88 100
+Gold 25
+Silv 325
+Exp  5880
 Act  CDEFGHKQ
-Comm DGIR
+MHSF R
+AfBy JT
+Comm DGT
 Disp FJN
 IcgB 0
 Icg 0
-Pos  4
-Save  -6
-Alig  399
-Hit   5
-Dam   1
-SecHit   5
-ACs 75 75 75 79
-Wimp  10
-Attr 18 14 17 14 17 9 13 10
-AMod 2 -1 1 2 1 0 0 0
+Pos  8
+Save  -1
+Alig  0
+Hit   1
+ACs 95 95 95 99
+Attr 21 15 16 17 20 11 14 14
+AMod 2 -1 0 2 0 0 0 0
 Pass GrOVxLHP0xkOA~
 Titl  the confused~
-Pnts 62
+Pnts 81
 TSex 1
-LLev 0
-HMVP 56 107 106
-Cnd  0 0 30 12
-Alias bb buy bread~
-Alias ba bash~
+LLev 1
+HMVP 20 100 100
+Cnd  0 16 40 32
 Alias k kill~
-Alias q unlock door~
-Alias qq open door~
-Sk 1 'mace'
-Sk 80 'polearm'
-Sk 1 'sword'
-Sk 15 'bash'
-Sk 1 'berserk'
-Sk 1 'bludgeon'
-Sk 1 'cleave'
-Sk 1 'enhanced critical'
-Sk 75 'enhanced damage'
+Sk 1 'acid breath'
+Sk 1 'fire breath'
+Sk 1 'frost breath'
+Sk 1 'gas breath'
+Sk 1 'lightning breath'
+Sk 1 'dagger'
+Sk 80 'mace'
+Sk 9 'sword'
+Sk 1 'backstab'
+Sk 1 'disarm'
+Sk 1 'dodge'
+Sk 25 'enhanced damage'
+Sk 1 'weave resistance'
+Sk 1 'insanity'
 Sk 1 'hand to hand'
-Sk 1 'kick'
-Sk 1 'parry'
+Sk 1 'trip'
 Sk 50 'scan'
 Sk 1 'second attack'
-Sk 1 'third attack'
-Sk 1 'fast healing'
-Sk 1 'haggle'
+Sk 1 'hide'
+Sk 1 'peek'
+Sk 1 'pick lock'
+Sk 1 'sneak'
+Sk 1 'steal'
 Sk 1 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
 Sk 50 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
-Gr 'warrior basics'
-Affc 'bless'   0  39  41  -5  24          0
-Affc 'bless'   0  38  41   5  18          0
-Affc 'armor'   0  39  29 -20  17          0
+Gr 'berzerker basics'
+Gr 'thiefberzerker default'
+Gr 'draconian'
 End
 
 #O
@@ -111,9 +114,9 @@ Vnum 3716
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
-Val  0 0 182 0 0
+Val  0 0 199 0 0
 End
 
 #O
@@ -126,12 +129,21 @@ Cost 0
 End
 
 #O
-Vnum 3722
+Vnum 3700
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 16
-Cost 183
+Cost 250
+End
+
+#O
+Vnum 3704
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 11
+Cost 0
 End
 
 #O
@@ -153,9 +165,37 @@ Cost 1500
 End
 
 #O
+Vnum 3716
+Nest 0
+PrevOwner Greyjoy~
+Cond 0
+Wear 0
+Cost 0
+Val  0 0 175 0 0
+End
+
+#O
+Vnum 2445
+Nest 0
+PrevOwner Greyjoy~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 2444
+Nest 0
+PrevOwner Greyjoy~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
 Vnum 3726
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear 12
 Cost 0
@@ -164,7 +204,7 @@ End
 #O
 Vnum 3724
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear -1
 Cost 0
@@ -173,7 +213,7 @@ End
 #O
 Vnum 3011
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear -1
 Cost 9
@@ -182,7 +222,7 @@ End
 #O
 Vnum 3011
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear -1
 Cost 9
@@ -191,7 +231,7 @@ End
 #O
 Vnum 3011
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear -1
 Cost 9
@@ -200,7 +240,7 @@ End
 #O
 Vnum 3011
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear -1
 Cost 9
@@ -209,7 +249,7 @@ End
 #O
 Vnum 3011
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear -1
 Cost 9
@@ -218,7 +258,7 @@ End
 #O
 Vnum 3011
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear -1
 Cost 9
@@ -227,7 +267,7 @@ End
 #O
 Vnum 3011
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear -1
 Cost 9
@@ -236,7 +276,7 @@ End
 #O
 Vnum 3011
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear -1
 Cost 9
@@ -245,7 +285,7 @@ End
 #O
 Vnum 3011
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear -1
 Cost 9
@@ -254,28 +294,10 @@ End
 #O
 Vnum 3138
 Nest 0
-PrevOwner (null)~
+PrevOwner Greyjoy~
 Cond 0
 Wear -1
 Cost 24
-End
-
-#O
-Vnum 3709
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 9
-Cost 72
-End
-
-#O
-Vnum 3715
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 17
-Cost 1140
 End
 
 #END

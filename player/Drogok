@@ -2,22 +2,23 @@
 Name Drogok~
 Id   898055642
 Email (null)~
-LogO 1119309166
-Vers 31
+LogO 1345067357
+Vers 33
 Desc I'm an old gobo in a new younger body,...
 BITE ME if you dont like it,..
 Oh yea,.. and I glow from my power... 
 ~
-Prom *** %hh %m/%Mm %vv *** %c * %eex %gg %ss *%c~
+Prom *** %h h %m m %v mv  %e ex *** ~
 Race goblin~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -29,6 +30,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 1381655 xochipili~
 DeityT -67 xochipili~
 Sac  300
@@ -38,49 +43,48 @@ Node 0
 Cap 0
 Created 951505631
 Glad 0 0 0 0 0 0
-LastHost 208-33-80-62.prairieweb.com~
+LastHost 75.135.235.117~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 1685800
-Not  1020872775 1000158342 972702354 1022168485 1022178316 1119281770 972702354 1000158342 972702354 0
+Plyd 1750207
+Not  1309262308 1307042354 972702354 1309270216 1022178316 1308960415 972702354 1306874349 972702354 0
 Scro 22
 Rank 0
-Room 16503
-HMV  608 608 1297 1297 330 330
-Gold 366
-Silv 9466
+Room 3001
+HMV  608 608 1467 1467 330 330
+Gold 218
+Silv 4869
 Exp  398138
 Act  DEFGHI
 MHSF R
-AfBy DFJTW
-Comm DFGILOS
-Disp FIJ
+AfBy DEFJW
+Comm DGILOSc
+Disp BFIJ
 IcgB 0
 Icg 0
 Pos  5
-Prac 43
-Trai 10
-SkiP 33
+Prac 50
+SkiP 26
 Save  -2
 Alig  -1000
-Hit   18
-Dam   28
-SecHit   7
-SecDam   22
-ACs -44 -44 -44 -23
+Hit   23
+Dam   36
+SecHit   13
+SecDam   26
+ACs -72 -72 -72 -51
 Wimp  20
-Attr 18 21 18 19 17 13 13 13
-AMod 4 6 5 2 0 0 0 0
-Pass Drqzqfb4/i7eE~
-Titl  eno EnAS eht...,ebirt esoN nekorB eht fo ~
+Attr 18 21 18 19 17 11 11 16
+AMod 4 2 1 2 0 0 0 0
+Pass Dr/TbWWp/tCE2~
+Titl  eno {ME{x{Yn{x{BA{x{RS{x eht...,ebirt {gesoN{~
 Pnts 99
 TSex 1
 LLev 1
-HMVP 578 1122 330
-Cnd  0 8 39 39
+HMVP 578 1232 330
+Cnd  0 0 17 17
 Alias 1 tit is busy,.. {RFUCK{X off! ({DS{xo{CM{X)~
 Alias 2 tit eno EnAS eht...,ebirt esoN nekorB eht fo~
 Alias gr grats {gDrogok{x appears before you, {Rrips{x off a random body part from you, {bcryoes{x it, and give it to you as a gift!!~
@@ -91,6 +95,7 @@ Alias nt tit is here to help, just ask ({DS{Xo{CM{X)~
 Alias gw c gate grand wizard~
 Alias 3 tit eno {ME{x{Yn{x{BA{x{RS{x eht...,ebirt {gesoN{x {rnekorB{x eht fo~
 Alias cc c cryo~
+Alias earm c 'enchant armor'~
 Sk 100 'acid blast'
 OldSk 100 'acid blast'
 Sk 100 'armor'
@@ -105,9 +110,9 @@ Sk 78 'call lightning'
 OldSk 75 'call lightning'
 Sk 75 'calm'
 OldSk 76 'calm'
-Sk 78 'cancellation'
+Sk 81 'cancellation'
 OldSk 91 'cancellation'
-Sk 91 'chain lightning'
+Sk 92 'chain lightning'
 OldSk 84 'chain lightning'
 Sk 1 'change sex'
 OldSk 1 'change sex'
@@ -117,12 +122,11 @@ Sk 100 'chill touch'
 OldSk 75 'chill touch'
 Sk 100 'colour spray'
 OldSk 97 'colour spray'
-Sk 1 'cone of silence'
 Sk 93 'continual light'
 OldSk 96 'continual light'
 Sk 77 'control weather'
 OldSk 75 'control weather'
-Sk 79 'create food'
+Sk 82 'create food'
 OldSk 86 'create food'
 Sk 80 'create fountain'
 OldSk 96 'create fountain'
@@ -132,13 +136,13 @@ Sk 75 'create spring'
 OldSk 75 'create spring'
 Sk 75 'create water'
 OldSk 75 'create water'
-Sk 84 'curse'
+Sk 85 'curse'
 OldSk 75 'curse'
 Sk 75 'detect evil'
 OldSk 75 'detect evil'
 Sk 75 'detect good'
 OldSk 75 'detect good'
-Sk 93 'detect hidden'
+Sk 95 'detect hidden'
 OldSk 92 'detect hidden'
 Sk 92 'detect invis'
 OldSk 85 'detect invis'
@@ -171,11 +175,11 @@ OldSk 75 'famine'
 Sk 75 'farsight'
 OldSk 79 'farsight'
 Sk 81 'feast'
-Sk 81 'feeblemind'
+Sk 82 'feeblemind'
 OldSk 82 'feeblemind'
 Sk 91 'fireball'
 OldSk 94 'fireball'
-Sk 77 'fireproof'
+Sk 78 'fireproof'
 OldSk 75 'fireproof'
 Sk 75 'floating disc'
 OldSk 75 'floating disc'
@@ -187,13 +191,13 @@ Sk 100 'fumble'
 OldSk 96 'fumble'
 Sk 100 'gate'
 OldSk 100 'gate'
-Sk 90 'giant strength'
+Sk 92 'giant strength'
 OldSk 90 'giant strength'
-Sk 92 'haste'
+Sk 94 'haste'
 OldSk 99 'haste'
 Sk 100 'identify'
 OldSk 100 'identify'
-Sk 75 'incinerate'
+Sk 77 'incinerate'
 Sk 81 'infravision'
 OldSk 76 'infravision'
 Sk 75 'invisibility'
@@ -212,13 +216,13 @@ Sk 75 'mass invis'
 OldSk 75 'mass invis'
 Sk 43 'nexus'
 OldSk 43 'nexus'
-Sk 82 'pass door'
+Sk 85 'pass door'
 OldSk 93 'pass door'
 Sk 75 'plague'
 OldSk 75 'plague'
 Sk 76 'poison'
 OldSk 75 'poison'
-Sk 75 'portal'
+Sk 77 'portal'
 OldSk 75 'portal'
 Sk 75 'protection evil'
 OldSk 75 'protection evil'
@@ -238,7 +242,7 @@ Sk 100 'shield'
 OldSk 99 'shield'
 Sk 75 'shocking grasp'
 OldSk 75 'shocking grasp'
-Sk 77 'sleep'
+Sk 80 'sleep'
 OldSk 75 'sleep'
 Sk 76 'slow'
 OldSk 78 'slow'
@@ -252,7 +256,7 @@ Sk 75 'ventriloquate'
 OldSk 75 'ventriloquate'
 Sk 96 'warp'
 OldSk 86 'warp'
-Sk 81 'weaken'
+Sk 84 'weaken'
 OldSk 79 'weaken'
 Sk 100 'word of recall'
 OldSk 97 'word of recall'
@@ -316,10 +320,11 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect hidden'   0  52  49   0   0         32
-Affc 'detect invis'   0  49  47   0   0          8
-Affc 'fly'   0  40   7   0   0     524288
-Affc 'shield'   0  50  37 -20  17          0
+Affc 'armor'   0  51  27 -20  17          0
+Affc 'shield'   0  51  43 -20  17          0
+Affc 'detect hidden'   0  49  34   0   0         32
+Affc 'detect invis'   0  49  33   0   0          8
+Affc 'detect magic'   0  51  29   0   0         16
 End
 
 #O
@@ -334,9 +339,9 @@ Wear 13
 Lev  44
 Cost 4000
 Val  7 7 7 4 3
-Affc 'enchant armor'   1  52  -1  -4  17          0
-Affc 'reserved'   1  41  -1  25  12          0
 Affc 'reserved'   1  41  -1   2   1          0
+Affc 'reserved'   1  41  -1  25  12          0
+Affc 'enchant armor'   1  52  -1  -4  17          0
 End
 
 #O
@@ -360,9 +365,9 @@ Wear 5
 Lev  44
 Cost 4000
 Val  7 7 7 6 3
-Affc 'enchant armor'   1  52  -1  -7  17          0
-Affc 'reserved'   1  38  -1   2  19          0
 Affc 'reserved'   1  38  -1  20  13          0
+Affc 'reserved'   1  38  -1   2  19          0
+Affc 'enchant armor'   1  52  -1  -7  17          0
 End
 
 #O
@@ -376,10 +381,10 @@ Wear 11
 Lev  46
 Cost 3500
 Val  12 12 12 5 3
-Affc 'enchant armor'   1  52  -1  -5  17          0
-Affc 'reserved'   1  42  -1   2   1          0
-Affc 'reserved'   1  42  -1   2  19          0
 Affc 'reserved'   1  42  -1   1  18          0
+Affc 'reserved'   1  42  -1   2  19          0
+Affc 'reserved'   1  42  -1   2   1          0
+Affc 'enchant armor'   1  52  -1  -5  17          0
 End
 
 #O
@@ -393,8 +398,8 @@ Wear 9
 Lev  43
 Cost 3000
 Val  10 10 10 8 3
-Affc 'enchant armor'   1  52  -1  -4  17          0
 Affc 'reserved'   1  40  -1   2   2          0
+Affc 'enchant armor'   1  52  -1  -4  17          0
 End
 
 #O
@@ -428,9 +433,9 @@ Wear 7
 Lev  42
 Cost 2000
 Val  7 7 7 4 3
-Affc 'enchant armor'   1  52  -1  -4  17          0
-Affc 'reserved'   1  39  -1  -2  20          0
 Affc 'reserved'   1  39  -1   2  19          0
+Affc 'reserved'   1  39  -1  -2  20          0
+Affc 'enchant armor'   1  52  -1  -4  17          0
 End
 
 #O
@@ -452,9 +457,9 @@ Cond 0
 Wear 6
 Cost 4000
 Val  12 12 12 12 3
-Affc 'enchant armor'   1  52  -1  -3  17          0
-Affc 'reserved'   1  51  -1   1  18          0
 Affc 'reserved'   1  51  -1   2  19          0
+Affc 'reserved'   1  51  -1   1  18          0
+Affc 'enchant armor'   1  52  -1  -3  17          0
 End
 
 #O
@@ -469,35 +474,12 @@ Val  100 1 0 10 85
 End
 
 #O
-Vnum 12005
-Enchanted
-Nest 1
-PrevOwner Drogok~
-ExtF 134219841
-Cond 0
-Wear -1
-Lev  44
-Cost 605
-Val  12 12 12 0 3
-Affc 'enchant armor'   1  52  -1 -13  17          0
-End
-
-#O
 Vnum 3093
 Nest 1
 PrevOwner Drogok~
 Cond 0
 Wear -1
 Cost 605
-End
-
-#O
-Vnum 1347
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -528,27 +510,133 @@ Cost 50000
 End
 
 #O
-Vnum 17633
+Vnum 22506
+Enchanted
 Nest 1
 PrevOwner Drogok~
+ExtF 66
 Cond 0
 Wear -1
-Time 300
-Cost 400
-Spell 1 'armor'
-Spell 2 'shield'
+Lev  50
+Cost 37
+Val  1 10 4 38 12
+Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
-Vnum 17632
+Vnum 10417
+Enchanted
+Nest 1
+PrevOwner Drogok~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'reserved'   1  43  -1   2   2          0
+Affc 'enchant weapon'   1  52  -1   9  19          0
+Affc 'enchant weapon'   0  52  -1   9  18          0
+End
+
+#O
+Vnum 12007
 Nest 1
 PrevOwner Drogok~
 Cond 0
 Wear -1
-Time 382
-Cost 400
-Spell 1 'sanctuary'
-Spell 2 'haste'
+Cost 0
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 10000
 End
 
 #O
@@ -561,111 +649,12 @@ Cost 500000
 End
 
 #O
-Vnum 3377
+Vnum 22044
 Nest 1
 PrevOwner Drogok~
 Cond 0
 Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 20808
-Nest 1
-PrevOwner Drogok~
-ExtF 67
-Cond 0
-Wear -1
-Cost 1000
-Val  5 5 8 30 1026
-End
-
-#O
-Vnum 22506
-Enchanted
-Nest 1
-PrevOwner Drogok~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 37
-Val  1 10 4 38 12
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  52  -1  12  19          0
-Affc 'enchant weapon'   0  52  -1  12  18          0
+Cost 100000
 End
 
 #O
@@ -679,81 +668,6 @@ ExtF 16777281
 Cond 0
 Wear 12
 Cost 0
-End
-
-#O
-Vnum 15227
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 20000
-Val  -1 -1 -1 -1 -1
-End
-
-#O
-Vnum 23129
-Nest 1
-PrevOwner Drogok~
-ExtF 152305729
-Cond 0
-Wear -1
-Cost 10000
-Val  11 11 11 11 3
-End
-
-#O
-Vnum 10447
-Enchanted
-Nest 1
-PrevOwner Drogok~
-Name pair overalls blue jeans~
-ShD  a pair of overalls~
-Desc You see a pair of blue faded jeans lying here.~
-ExtF 134217793
-Cond 0
-Wear -1
-Lev  48
-Cost 13700
-Val  6 6 6 12 3
-Affc 'reserved'   1  45  -1  -4  20          0
-Affc 'reserved'   1  45  -1  30  12          0
-Affc 'enchant armor'   1  52  -1  -6  17          0
-End
-
-#O
-Vnum 2726
-Enchanted
-Nest 1
-PrevOwner Drogok~
-ExtF 151257153
-Cond 0
-Wear -1
-Lev  33
-Cost 3600
-Val  5 5 5 5 3
-Affc 'reserved'   1  30  -1  -2   2          0
-Affc 'reserved'   1  30  -1  25  12          0
-Affc 'reserved'   1  30  -1 -10  14          0
-Affc 'enchant armor'   1  52  -1  -5  17          0
-Affc 'reserved'   1  30  -1  -2  20          0
-End
-
-#O
-Vnum 2725
-Enchanted
-Nest 1
-PrevOwner Drogok~
-ExtF 151257153
-Cond 0
-Wear -1
-Cost 3600
-Val  7 7 7 4 3
-Affc 'reserved'   1  30  -1   1   3          0
-Affc 'reserved'   1  30  -1  30  12          0
-Affc 'reserved'   1  30  -1  -1  18          0
-Affc 'reserved'   1  30  -1  -1  19          0
-Affc 'enchant armor'   1  51  -1  -6  17          0
 End
 
 #O
@@ -1043,34 +957,6 @@ Cost 6000
 End
 
 #O
-Vnum 8504
-Nest 1
-PrevOwner Drogok~
-ExtF 17301505
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 5922
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 300
-End
-
-#O
-Vnum 5922
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 300
-End
-
-#O
 Vnum 15102
 Enchanted
 Nest 1
@@ -1081,9 +967,9 @@ Wear -1
 Lev  38
 Cost 3500
 Val  3 3 3 0 3
-Affc 'enchant armor'   1  52  -1  -5  17          0
-Affc 'reserved'   1  35  -1  -1  20          0
 Affc 'reserved'   1  35  -1  15  12          0
+Affc 'reserved'   1  35  -1  -1  20          0
+Affc 'enchant armor'   1  52  -1  -5  17          0
 End
 
 #O
@@ -1097,9 +983,9 @@ Wear -1
 Lev  37
 Cost 3500
 Val  3 3 3 0 3
-Affc 'enchant armor'   1  52  -1  -7  17          0
-Affc 'reserved'   1  35  -1  15  12          0
 Affc 'reserved'   1  35  -1  -1  20          0
+Affc 'reserved'   1  35  -1  15  12          0
+Affc 'enchant armor'   1  52  -1  -7  17          0
 End
 
 #O
@@ -1109,44 +995,6 @@ PrevOwner Drogok~
 Cond 0
 Wear -1
 Cost 4850
-End
-
-#O
-Vnum 10428
-Nest 1
-PrevOwner Drogok~
-ExtF 1
-Cond 0
-Wear -1
-Cost 2900
-End
-
-#O
-Vnum 5909
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 10428
-Nest 1
-PrevOwner Drogok~
-ExtF 1
-Cond 0
-Wear -1
-Cost 2900
-End
-
-#O
-Vnum 10003
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -1180,28 +1028,9 @@ Wear -1
 Lev  39
 Cost 6500
 Val  8 8 8 4 3
-Affc 'reserved'   1  30  -1  20  12          0
-Affc 'reserved'   1  30  -1  20  13          0
 Affc 'enchant armor'   1  52  -1 -10  17          0
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Drogok~
-ExtF 17301505
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 4823
-Nest 1
-PrevOwner Drogok~
-Cond 0
-Wear -1
-Cost 0
+Affc 'reserved'   1  30  -1  20  13          0
+Affc 'reserved'   1  30  -1  20  12          0
 End
 
 #O
@@ -1214,8 +1043,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4800
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
 End
 
 #O
@@ -1227,22 +1056,8 @@ ExtF 579
 Cond 0
 Wear -1
 Cost 4000
-Affc 'enchant weapon'   0  52  -1   5  18          0
 Affc 'enchant weapon'   1  52  -1   8  19          0
-End
-
-#O
-Vnum 17665
-Enchanted
-Nest 1
-PrevOwner Drogok~
-ExtF 262211
-Cond 0
-Wear -1
-Lev  25
-Cost 3200
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   1  53  -1  11  18          0
+Affc 'enchant weapon'   0  52  -1   5  18          0
 End
 
 #O
@@ -1254,24 +1069,8 @@ ExtF 323
 Cond 0
 Wear -1
 Cost 4000
+Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   0  52  -1   9  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-End
-
-#O
-Vnum 10431
-Enchanted
-Nest 1
-PrevOwner Drogok~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6500
-Affc 'enchant weapon'   0  52  -1   7  18          0
-Affc 'reserved'   1  49  -1   0   0          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
@@ -1284,22 +1083,245 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   0  52  -1   6  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
-Vnum 18429
+Vnum 5909
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 23129
+Nest 1
+PrevOwner Drogok~
+ExtF 152305729
+Cond 0
+Wear -1
+Cost 10000
+Val  11 11 11 11 3
+End
+
+#O
+Vnum 15227
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 20000
+Val  -1 -1 -1 -1 -1
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 1347
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12
+Nest 1
+PrevOwner Drogok~
+ShD  the head of Lily~
+Desc The severed head of Lily is lying here.~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 17628 0 0
+End
+
+#O
+Vnum 2725
+Enchanted
+Nest 1
+PrevOwner Drogok~
+ExtF 151257153
+Cond 0
+Wear -1
+Cost 3600
+Val  7 7 7 4 3
+Affc 'enchant armor'   1  51  -1  -6  17          0
+Affc 'reserved'   1  30  -1  -1  19          0
+Affc 'reserved'   1  30  -1  -1  18          0
+Affc 'reserved'   1  30  -1  30  12          0
+Affc 'reserved'   1  30  -1   1   3          0
+End
+
+#O
+Vnum 10447
+Enchanted
+Nest 1
+PrevOwner Drogok~
+Name pair overalls blue jeans~
+ShD  a pair of overalls~
+Desc You see a pair of blue faded jeans lying here.~
+ExtF 134217793
+Cond 0
+Wear -1
+Lev  48
+Cost 13700
+Val  6 6 6 12 3
+Affc 'enchant armor'   1  52  -1  -6  17          0
+Affc 'reserved'   1  45  -1  30  12          0
+Affc 'reserved'   1  45  -1  -4  20          0
+End
+
+#O
+Vnum 20808
 Enchanted
 Nest 1
 PrevOwner Drogok~
 ExtF 67
 Cond 0
 Wear -1
-Lev  45
-Cost 3000
-Affc 'enchant weapon'   0  52  -1  10  18          0
-Affc 'enchant weapon'   1  52  -1  10  19          0
+Cost 1000
+Val  5 5 8 30 1026
+Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
+End
+
+#O
+Vnum 12008
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Drogok~
+ExtF 17301505
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Drogok~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'enchant weapon'   0  52  -1   7  18          0
+End
+
+#O
+Vnum 12005
+Enchanted
+Nest 1
+PrevOwner Drogok~
+ExtF 134219841
+Cond 0
+Wear -1
+Lev  44
+Cost 605
+Val  12 12 12 0 3
+Affc 'enchant armor'   1  52  -1 -13  17          0
+End
+
+#O
+Vnum 10003
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4823
+Nest 1
+PrevOwner Drogok~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10410
+Enchanted
+Nest 1
+PrevOwner Drogok~
+ExtF 67
+Cond 0
+Wear -1
+Lev  40
+Cost 7600
+Val  0 7 4 10 1024
+Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'enchant weapon'   1  53  -1  11  18          0
+End
+
+#O
+Vnum 2726
+Enchanted
+Nest 1
+PrevOwner Drogok~
+ExtF 151257153
+Cond 0
+Wear -1
+Lev  33
+Cost 3600
+Val  5 5 5 5 3
+Affc 'reserved'   1  30  -1  -2  20          0
+Affc 'enchant armor'   1  52  -1  -5  17          0
+Affc 'reserved'   1  30  -1 -10  14          0
+Affc 'reserved'   1  30  -1  25  12          0
+Affc 'reserved'   1  30  -1  -2   2          0
 End
 
 #O
@@ -1310,77 +1332,6 @@ ExtF 97
 Cond 0
 Wear 18
 Cost 5000
-End
-
-#O
-Vnum 10410
-Enchanted
-Nest 0
-PrevOwner Drogok~
-ExtF 67
-Cond 0
-Wear 16
-Lev  40
-Cost 7600
-Val  0 7 4 10 1024
-Affc 'enchant weapon'   1  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1   6  19          0
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Drogok~
-ExtF 16777217
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8504
-Nest 0
-PrevOwner Drogok~
-ExtF 17301505
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner Drogok~
-Cond 0
-Wear 4
-Cost 2000
-End
-
-#O
-Vnum 5710
-Nest 0
-PrevOwner Drogok~
-Cond 0
-Wear 2
-Cost 1000
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner Drogok~
-Cond 0
-Wear 3
-Cost 2000
-End
-
-#O
-Vnum 5710
-Nest 0
-PrevOwner Drogok~
-Cond 0
-Wear 1
-Cost 1000
 End
 
 #O
@@ -1399,6 +1350,118 @@ PrevOwner Drogok~
 Cond 0
 Wear 15
 Cost 1150
+End
+
+#O
+Vnum 10428
+Nest 0
+PrevOwner Drogok~
+ExtF 1
+Cond 0
+Wear 2
+Cost 2900
+End
+
+#O
+Vnum 10428
+Nest 0
+PrevOwner Drogok~
+ExtF 1
+Cond 0
+Wear 1
+Cost 2900
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner Drogok~
+Cond 0
+Wear 4
+Cost 300
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner Drogok~
+Cond 0
+Wear 3
+Cost 300
+End
+
+#O
+Vnum 4442
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner Drogok~
+ExtF 17301505
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 9224
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+Val  150 150 13 0 0
+End
+
+#O
+Vnum 18429
+Enchanted
+Nest 0
+PrevOwner Drogok~
+ExtF 67
+Cond 0
+Wear 16
+Lev  45
+Cost 3000
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
+End
+
+#O
+Vnum 3024
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 299
+End
+
+#O
+Vnum 13
+Nest 0
+PrevOwner (null)~
+ShD  the heart of the ancient healer~
+Desc The torn-out heart of the ancient healer is lying here.~
+Cond 0
+Wear -1
+Cost 0
+Val  16 16 4401 0 0
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Drogok~
+ExtF 16777217
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

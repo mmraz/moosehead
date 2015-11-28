@@ -3,8 +3,8 @@ Name Bode~
 SurN Phaseblade~
 Id   1115129173
 Email (null)~
-LogO 1115129691
-Vers 31
+LogO 1380748753
+Vers 33
 Prom (%h %m %v)[%X][{W%g.%s %n/%N %w{x][%a]%c[%r][%e] ~
 Race dwarf~
 Outc 0
@@ -15,6 +15,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 xochipili~
 Sac  0
 Sex  1
@@ -34,17 +41,17 @@ Node 0
 Cap 0
 Created 1115129187
 Glad 0 0 0 0 0 0
-LastHost 146.230.192.111~
+LastHost 197.106.167.209~
 Cla  12
 ClaO 1
 Levl 1
 DLevl 0
-Plyd 168
+Plyd 216
 Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3054
-HMV  20 20 100 100 96 100
+HMV  20 20 100 100 100 100
 Gold 29
 Silv 561
 Exp  16000
@@ -56,13 +63,14 @@ Disp FIJN
 IcgB 0
 Icg 0
 Pos  4
-Prac 5
-Trai 4
-Save  -1
+Prac 6
+Trai 10
+Save  -6
 Alig  -750
-Hit   1
+Hit   6
+SecHit   5
 ACs 93 93 93 99
-Attr 14 11 18 10 18 10 18 19
+Attr 14 11 18 10 18 9 13 19
 AMod 0 0 0 0 0 0 0 0
 Pass Boc/ZdNvmQr7c~
 Titl  the confused~
@@ -70,7 +78,7 @@ Pnts 120
 TSex 1
 LLev 1
 HMVP 20 100 100
-Cnd  0 40 44 44
+Cnd  0 38 43 43
 Sk 1 'aid'
 Sk 1 'armor'
 Sk 1 'bestow holiness'
@@ -81,7 +89,6 @@ Sk 1 'call lightning'
 Sk 1 'calm'
 Sk 1 'cancellation'
 Sk 1 'change sex'
-Sk 1 'cone of silence'
 Sk 1 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -200,6 +207,8 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
+Affc 'bless'   0  44  50  -5  24          0
+Affc 'bless'   0  44  50   5  18          0
 End
 
 #O
@@ -209,7 +218,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 196 0 0
+Val  0 0 195 0 0
 End
 
 #O

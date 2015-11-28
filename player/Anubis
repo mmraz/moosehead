@@ -2,7 +2,7 @@
 Name Anubis~
 Id   873252657
 Email (null)~
-LogO 1039378864
+LogO 1306472432
 Vers 31
 Desc Anubis is a tall, thickly built Yinn with a coat the color of the dead of night.
 His eyes radiate a deep red glow that gives off a hellish heat, like a blast furnace.
@@ -32,9 +32,9 @@ LstAtkedByTimer 0
 LstCombatDate 1039378785
 LstKillDate 1039378785
 LstDeathDate 1039378785
-LoginsWOKill 1
-LoginsWODeath 1
-LoginsWOCombat 1
+LoginsWOKill 2
+LoginsWODeath 2
+LoginsWOCombat 2
 Bnty 0
 Deity 674973 hermes~
 DeityT -2 hermes~
@@ -45,13 +45,13 @@ Node 0
 Cap 0
 Created 952245975
 Glad 0 0 0 0 0 0
-LastHost lnk-24-27-136-14.neb.rr.com~
+LastHost 68.224.161.143~
 Cla  12
 Kit bishop~
 ClaO 1
 Levl 40
 DLevl 0
-Plyd 745171
+Plyd 745209
 Not  974221417 974221417 974221417 974221417 974221417 974221417 974221417 988133295 974221417 0
 Scro 22
 Rank 1
@@ -59,7 +59,7 @@ Room 31905
 HMV  795 795 613 613 345 345
 Gold 2713
 Silv 20
-Exp  352367
+Exp  352287
 Act  CDEGHMQRS
 MHSF R
 AfBy JT
@@ -86,7 +86,7 @@ Pnts 100
 TSex 1
 LLev 1
 HMVP 795 613 345
-Cnd  0 20 41 34
+Cnd  0 16 40 32
 Alias / chant 'word of recall'~
 Alias kill-list murder: avenar~
 Alias kicko order all kick~
@@ -117,6 +117,7 @@ Sk 85 'cancellation'
 OldSk 75 'cancellation'
 Sk 1 'change sex'
 OldSk 1 'change sex'
+Sk 1 'cone of silence'
 OldSk 75 'continual light'
 OldSk 75 'control weather'
 OldSk 90 'create food'
@@ -322,14 +323,14 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
-Affc 'bless'   0  42  25  -6  24          0
-Affc 'bless'   0  46  25   6  18          0
-Affc 'shield'   0  37  13 -20  17          0
-Affc 'armor'   0  39  15 -20  17          0
-Affc 'fly'   0  34  25   0   0     524288
-Affc 'tower of iron will'   3  39  14   0   0      32768
-Affc 'daetok'   0  40   8   5  18          0
-Affc 'daetok'   0  38   8   5  19          0
+Affc 'daetok'   0  38   7   5  19          0
+Affc 'daetok'   0  40   7   5  18          0
+Affc 'tower of iron will'   3  39  13   0   0      32768
+Affc 'fly'   0  34  24   0   0     524288
+Affc 'armor'   0  38  14 -20  17          0
+Affc 'shield'   0  37  12 -20  17          0
+Affc 'bless'   0  46  24   6  18          0
+Affc 'bless'   0  42  24  -6  24          0
 End
 
 #O
@@ -569,9 +570,9 @@ Cond 0
 Wear -1
 Lev  27
 Cost 1600
-Affc 'enchant weapon'   0  28  -1   5  18          0
-Affc 'enchant weapon'   1  28  -1   7  19          0
 Affc 'reserved'   1  22  -1  -4  17          0
+Affc 'enchant weapon'   1  28  -1   7  19          0
+Affc 'enchant weapon'   0  28  -1   5  18          0
 End
 
 #O
@@ -584,9 +585,9 @@ Cond 0
 Wear -1
 Lev  27
 Cost 1600
-Affc 'reserved'   1  22  -1  -4  17          0
-Affc 'enchant weapon'   1  29  -1   7  19          0
 Affc 'enchant weapon'   0  29  -1   5  18          0
+Affc 'enchant weapon'   1  29  -1   7  19          0
+Affc 'reserved'   1  22  -1  -4  17          0
 End
 
 #O
@@ -598,9 +599,9 @@ ExtF 577
 Wear -1
 Lev  29
 Cost 250
-Affc 'enchant weapon'   0  53  -1   4  18          0
-Affc 'enchant weapon'   1  53  -1   4  19          0
 Affc 'reserved'   1  25  -1   1   1          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
+Affc 'enchant weapon'   0  53  -1   4  18          0
 End
 
 #O
@@ -622,9 +623,9 @@ Cond 0
 Wear -1
 Lev  33
 Cost 1630
-Affc 'enchant weapon'   0  53  -1   6  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
 Affc 'reserved'   1  28  -1  -1   1          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   6  18          0
 End
 
 #O
@@ -646,8 +647,8 @@ Cond 0
 Wear -1
 Lev  25
 Cost 3200
-Affc 'enchant weapon'   1  53  -1   9  19          0
 Affc 'enchant weapon'   1  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
@@ -736,8 +737,8 @@ Cond 0
 Wear -1
 Lev  26
 Cost 4200
-Affc 'enchant weapon'   1  51  -1   6  19          0
 Affc 'enchant weapon'   1  51  -1   6  18          0
+Affc 'enchant weapon'   1  51  -1   6  19          0
 End
 
 #O
@@ -747,7 +748,7 @@ PrevOwner Anubis~
 Cond 0
 Wear -1
 Cost 0
-Val  51 162 -1 -1 -1
+Val  51 164 -1 -1 -1
 Spell 1 'restore mana'
 End
 
@@ -758,7 +759,7 @@ PrevOwner Anubis~
 Cond 0
 Wear -1
 Cost 0
-Val  51 162 -1 -1 -1
+Val  51 164 -1 -1 -1
 Spell 1 'restore mana'
 End
 
@@ -769,7 +770,7 @@ PrevOwner Anubis~
 Cond 0
 Wear -1
 Cost 0
-Val  51 162 -1 -1 -1
+Val  51 164 -1 -1 -1
 Spell 1 'restore mana'
 End
 
@@ -780,7 +781,7 @@ PrevOwner Anubis~
 Cond 0
 Wear -1
 Cost 0
-Val  51 162 -1 -1 -1
+Val  51 164 -1 -1 -1
 Spell 1 'restore mana'
 End
 
@@ -791,7 +792,7 @@ PrevOwner Anubis~
 Cond 0
 Wear -1
 Cost 0
-Val  51 162 -1 -1 -1
+Val  51 164 -1 -1 -1
 Spell 1 'restore mana'
 End
 
@@ -823,8 +824,8 @@ Cond 0
 Wear -1
 Lev  33
 Cost 4000
-Affc 'enchant weapon'   1  53  -1   4  18          0
 Affc 'enchant weapon'   1  53  -1   4  19          0
+Affc 'enchant weapon'   1  53  -1   4  18          0
 End
 
 #O
@@ -856,8 +857,8 @@ Cond 0
 Wear -1
 Lev  31
 Cost 1160
-Affc 'enchant weapon'   0  53  -1   9  18          0
 Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
@@ -988,8 +989,8 @@ Cond 0
 Wear -1
 Lev  34
 Cost 2500
-Affc 'enchant weapon'   1  53  -1   6  19          0
 Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
 End
 
 #O
@@ -1026,7 +1027,7 @@ PrevOwner Anubis~
 Cond 0
 Wear -1
 Cost 10000
-Val  30 5 1 108 0
+Val  30 5 1 110 0
 Spell 3 'haste'
 End
 
@@ -1049,9 +1050,9 @@ Cond 0
 Wear -1
 Lev  36
 Cost 0
-Affc 'reserved'   1  30  -1 -10  13          0
-Affc 'enchant weapon'   1  53  -1   7  19          0
 Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'reserved'   1  30  -1 -10  13          0
 End
 
 #O

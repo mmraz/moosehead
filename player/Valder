@@ -2,8 +2,8 @@
 Name Valder~
 Id   794604120
 Email (null)~
-LogO 1124568271
-Vers 31
+LogO 1444251953
+Vers 33
 LnD  A Gladiator~
 Prom <%gg %ss [%R](%z)> ~
 Race human~
@@ -11,10 +11,11 @@ Outc 0
 RufT 0
 MatookT 230
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,12 @@ LoginsWOKill 2
 LoginsWODeath 2
 LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 17155958 xochipili~
 DeityT -50082 xochipili~
 Sac  300
@@ -35,42 +42,39 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost 82-38-124-79.cable.ubr01.hali.blueyonder.co.uk~
+LastHost 86.191.143.241~
 Cla  0
 Kit enchanter~
 ClaO 0
-Levl 52
+Levl 55
 DLevl 0
-Plyd 23033219
-Not  1124564087 1124564087 1124564087 1124564087 1124564087 1124564087 1124564087 1124564087 1124564087 1124564087
+Plyd 23653532
+Not  1408725217 1406980220 1312241617 1314850209 1316486992 1444248718 1314455017 1407046784 1408278263 1316544994
 Scro 22
 Rank 5
-Room 1245
-HMV  403 403 516 664 333 333
-Gold 6962
-Silv 85
-Exp  52000
-Act  BDEGHNQST
+Room 1270
+HMV  590 590 733 733 545 545
+Gold 6460
+Silv 16
+Exp  55000
+Act  BDEGHNQRST
 MHSF I
-AfBy DH
-Comm GJOS
+Comm GOS
 Disp CFGHIJM
-IcgB 0
+IcgB A
 Icg 0
-Wizn CLR
-Pnet EFGHI
-Invi 52
-Pos  5
-Prac 204
-Trai 62
-SkiP 120
-Alig  754
+Wizn ACDEIJLRSTUXc
+Pnet AEFGHI
+Pos  6
+Prac 877
+Trai 296
+SkiP 195
+Alig  755
 Hit   10
 Dam   14
 SecDam   4
 ACs 70 70 70 95
-Wimp  50
-Attr 18 21 18 18 18 13 13 13
+Attr 18 21 18 18 18 10 10 13
 AMod 4 0 0 0 0 0 0 0
 Pass Va.0KYV4cNaZo~
 Bin  You hear the slashing of scythes and as the mist clears Valder appears.~
@@ -79,46 +83,44 @@ Titl  exists in the OMNISCIENT dimension.~
 Pnts 37
 WhoName The Brit~
 TSex 1
-LLev 6395
-HMVP 373 664 308
-Cnd  15 0 0 0
+LLev 6569
+HMVP 560 733 520
+Cnd  12 3 12 7
 Edit ABCEH
-ERange 1270 1270
 ERange 20000 20099
-Alias 1 cast 'mirror image'~
-Alias 3 peace~
-Macro culain goto 30035~
-Macro mp tell %1 are you multiplaying?;tell %2 are you multiplaying?~
-Macro enter wizi;gecho Valder is on the scene!~
-Macro highjohn load obj 22000;tell %1 Grats on level %2;wizinvis %2;at %1 give pill %1;at %1 smile;wizinvis 52~
-Macro toilet goto 1233~
-Macro arena goto 1211~
-Macro bunion goto 1209~
-Macro duel4 goto 16174;trans %1;trans %2;trans %3;trans %4~
-Macro groovy gecho Valder utters the words 'Groooovy Baybeeee'.;Gecho You become cool.~
-Macro sext string obj %1 ext %2 $3~
-Macro rname edit room;mod;name;$1;exit~
-Macro own edit room;mod;owner;$1;exit~
-Macro mksaf edit room;mod;flag;2;3;5;done;exit~
-Macro addit edit reset;room;exit~
-Macro apt goto 28200~
-Macro opal goto %1;give opal %1;q cat %1?~
-Macro letter goto %1;give opal %1;q letter %1?~
-Macro win at %1 give opal %1~
-Macro sl string obj %1 long $2~
-Macro sn string obj %1 name $2~
-Macro ss string obj %1  short $2~
-Macro sas goto 9710~
-Macro six goto 3815~
-Macro exit wizi 52;gecho Valder has slipped into another dimension, leaving you in tears.~
-Macro home goto 1270~
-Macro kc goto 16174~
-Macro duel goto 16174;trans %1;trans %2~
-Macro foun goto 1225~
-Macro lvlbm load obj 30033;tell %1 Grats on level %2;wizinvis %2;at %1 give dust %1;at %1 smile;wizinvis 52~
-Macro exit1 gecho Valder has left the building.;wizi 52~
-Macro lvl load obj 30039;tell %1 Grats on level %2;at %1 give pot %1;at %1 smile~
+ERange 1270 1270
 Macro triv at %1 give diam %1~
+Macro lvl load obj 30039;tell %1 Grats on level %2;at %1 give pot %1;at %1 smile~
+Macro exit1 gecho Valder has left the building.;wizi 52~
+Macro lvlbm load obj 30033;tell %1 Grats on level %2;wizinvis %2;at %1 give dust %1;at %1 smile;wizinvis 52~
+Macro foun goto 1225~
+Macro duel goto 16174;trans %1;trans %2~
+Macro kc goto 16174~
+Macro home goto 1270~
+Macro exit wizi 52;gecho Valder has slipped into another dimension, leaving you in tears.~
+Macro six goto 3815~
+Macro sas goto 9710~
+Macro ss string obj %1  short $2~
+Macro sn string obj %1 name $2~
+Macro sl string obj %1 long $2~
+Macro win at %1 give opal %1~
+Macro letter goto %1;give opal %1;q letter %1?~
+Macro opal goto %1;give opal %1;q cat %1?~
+Macro apt goto 28200~
+Macro addit edit reset;room;exit~
+Macro mksaf edit room;mod;flag;2;3;5;done;exit~
+Macro own edit room;mod;owner;$1;exit~
+Macro rname edit room;mod;name;$1;exit~
+Macro sext string obj %1 ext %2 $3~
+Macro groovy gecho Valder utters the words 'Groooovy Baybeeee'.;Gecho You become cool.~
+Macro duel4 goto 16174;trans %1;trans %2;trans %3;trans %4~
+Macro bunion goto 1209~
+Macro arena goto 1211~
+Macro toilet goto 1233~
+Macro highjohn load obj 22000;tell %1 Grats on level %2;wizinvis %2;at %1 give pill %1;at %1 smile;wizinvis 52~
+Macro enter wizi;gecho Valder is on the scene!~
+Macro mp tell %1 are you multiplaying?;tell %2 are you multiplaying?~
+Macro culain goto 30035~
 Sk 100 'reserved'
 Sk 100 'opiate'
 Sk 100 'accuracy'
@@ -155,7 +157,6 @@ Sk 100 'charm animal'
 Sk 100 'chill touch'
 Sk 100 'clarity'
 Sk 100 'colour spray'
-Sk 1 'cone of silence'
 Sk 100 'contagion'
 Sk 100 'continual light'
 Sk 100 'control weather'
@@ -445,7 +446,19 @@ Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'detect invis'   0  44  15   0   0          8
+End
+
+#O
+Vnum 11
+Nest 0
+PrevOwner (null)~
+ShD  the corpse of Valder~
+Desc The corpse of Valder is lying here.~
+Cond 0
+Wear -1
+Lev  52
+Cost 0
+Val  0 0 0 1 4
 End
 
 #O
@@ -486,18 +499,6 @@ Cost 5800
 End
 
 #O
-Vnum 15209
-Nest 0
-PrevOwner (null)~
-Name straitjacket jacket cloth pile~
-ShD  a straitjacket~
-Desc A menacing pile of cloth lies here. It appears to have belts and straps, and it looks quite uncomfortable.~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 644
 Enchanted
 Nest 0
@@ -523,6 +524,18 @@ ExtF 16777281
 Cond 0
 Wear 12
 Cost 0
+End
+
+#O
+Vnum 12
+Nest 1
+PrevOwner (null)~
+ShD  the head of KeisukeN~
+Desc The severed head of KeisukeN is lying here.~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 3011 0 0
 End
 
 #O
@@ -560,44 +573,6 @@ Cost 12000
 End
 
 #O
-Vnum 10437
-Nest 1
-PrevOwner (null)~
-Name card~
-ShD  Foun's Business Card (Foun, LLB, Divorce Lawyer)~
-Desc Foun's Business Card. It says : "Foun the Tyranny of Evil Men. LLB, Divorce Lawyer".~
-Cond 0
-Wear -1
-Cost 17600
-Val  54 10 9 3 0
-Spell 3 'acid blast'
-End
-
-#O
-Vnum 13
-Nest 1
-PrevOwner (null)~
-ShD  the heart of Valder~
-Desc The torn-out heart of Valder is lying here.~
-Ityp 13
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3155
-Nest 1
-PrevOwner (null)~
-Name valentine card~
-ShD  A valentines day card from Slodhian~
-Desc A valentines day card from Slodhian~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
 Vnum 16729
 Nest 1
 PrevOwner (null)~
@@ -607,15 +582,30 @@ Cost 10
 End
 
 #O
-Vnum 12
+Vnum 6517
 Nest 1
 PrevOwner (null)~
-ShD  the head of KeisukeN~
-Desc The severed head of KeisukeN is lying here.~
+Name last card malderek ultimatum~
+ShD  Malderek's Powerful Last Ultimatum Card~
+Desc Malderek's Powerful Last Ultimatum Card is here. Better pick it up before deadline. 8 hours and still counting.~
+Wt   1
 Cond 0
 Wear -1
 Cost 0
-Val  0 0 3011 0 0
+End
+
+#O
+Vnum 10437
+Nest 1
+PrevOwner (null)~
+Name card~
+ShD  Foun's Business Card (Foun, LLB, Divorce Lawyer)~
+Desc Foun's Business Card. It says : "Foun the Tyranny of Evil Men. LLB, Divorce Lawyer".~
+Cond 0
+Wear -1
+Cost 17600
+Val  54 10 9 6 0
+Spell 3 'acid blast'
 End
 
 #O
@@ -1423,6 +1413,70 @@ Cost 0
 End
 
 #O
+Vnum 3155
+Nest 1
+PrevOwner (null)~
+Name valentine card~
+ShD  A valentines day card from Slodhian~
+Desc A valentines day card from Slodhian~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 15209
+Nest 1
+PrevOwner (null)~
+Name straitjacket jacket cloth pile~
+ShD  a straitjacket~
+Desc A menacing pile of cloth lies here. It appears to have belts and straps, and it looks quite uncomfortable.~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10030
+Nest 1
+PrevOwner (null)~
+ShD  {MPink fluffy tiara with purple heart in front{x~
+Cond 0
+Wear -1
+Cost 20000
+End
+
+#O
+Vnum 17641
+Nest 1
+PrevOwner (null)~
+ShD  {Ma pair of pink and {Dblack{M leather boots{x~
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 3701
+Nest 1
+PrevOwner (null)~
+ShD  {YFluffy {MPink{D black{x eyed {Mbunny{x~
+Cond 0
+Wear -1
+Cost 210
+End
+
+#O
+Vnum 2728
+Nest 1
+PrevOwner (null)~
+ShD  {MBright pink Corset{x~
+Cond 0
+Wear -1
+Cost 3600
+End
+
+#O
 Vnum 3706
 Nest 0
 PrevOwner (null)~
@@ -1430,6 +1484,35 @@ ShD  a tattoo that reads 'MUG'~
 Cond 0
 Wear 6
 Cost 72
+End
+
+#O
+Vnum 1200
+Nest 0
+PrevOwner (null)~
+Name sonic screwdriver~
+ShD  a Sonic Screwdriver(tm)~
+Desc A Sonic Screwdriver(tm) lies here humming rhythmically.~
+Cond 0
+Wear -1
+Cost 12000
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner (null)~
+Name bag beta Seog~
+ShD  a bag made from Seog's hide~
+Desc A bag of fine Seog hide catches your eye.  ~
+ExtF 16385
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  20
+Cost 3000
+Val  600 1 -1 90 25
 End
 
 #O
@@ -1445,35 +1528,61 @@ Cost 0
 End
 
 #O
-Vnum 1200
+Vnum 6517
 Nest 0
 PrevOwner (null)~
-Name sonic screwdriver~
-ShD  a Sonic Screwdriver(tm)~
-Desc A Sonic Screwdriver(tm) lies here humming rhythmically.~
-Cond 0
-Wear 16
-Cost 12000
-End
-
-#O
-Vnum 30021
-Nest 0
-PrevOwner (null)~
-WeaF 1
+Name valder manhood~
+ShD  Valder's manhood~
+Desc This is Valder's manhood, remove by the powers-that-be.  Maybe, one day...~
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 6517
+Vnum 3077
+Enchanted
 Nest 0
 PrevOwner (null)~
-Name last card malderek ultimatum~
-ShD  Malderek's Powerful Last Ultimatum Card~
-Desc Malderek's Powerful Last Ultimatum Card is here. Better pick it up before deadline. 8 hours and still counting.~
-Wt   1
+ExtF 65
+Cond 0
+Wear -1
+Lev  12
+Cost 269
+Affc 'enchant armor'   1  58  -1 -12  17          0
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Dakky~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22000
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1200
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 16
+Cost 12000
+End
+
+#O
+Vnum 22000
+Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0

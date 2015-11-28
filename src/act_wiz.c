@@ -56,7 +56,7 @@ DECLARE_DO_FUN(do_disconnect);
 DECLARE_DO_FUN(do_help	);
 DECLARE_DO_FUN(do_clantalk);
 
-bool override;
+//bool override;
 /*
  * Local functions.
  */
@@ -90,11 +90,101 @@ char *  format_obj_to_char      args( ( OBJ_DATA *obj, CHAR_DATA *ch,
 "<{Wsecondary weapon{x>  "
 };
 
+void do_changepassword(CHAR_DATA *ch, char *argument)
+{
+  CHAR_DATA *victim;
+  char arg[MAX_INPUT_LENGTH];
+	char *pArg, *p;
+	char cEnd;
+	char buf[256];
+	char *pwdnew;
+
+  argument = one_argument(argument, arg);
+
+	if (arg[0] == '\0')
+	{
+	  send_to_char( "Syntax: changepassword <player> <new>.\n\r", ch );
+	  return;
+	}	
+
+  if ( ( victim = get_char_online( ch, arg ) ) == NULL )
+  {
+    send_to_char( "They aren't here.\n\r", ch );
+    return;
+  }
+
+  /** Person is legitimately logged on... was not ploaded.
+    * Why are you changing the password of someone who already knows it?
+    */
+  if (victim->desc != NULL)
+  { 
+    send_to_char("That player was not ploaded, leave their password alone.\n\r", ch);
+    return;
+  }
+
+	pArg = arg;
+	while ( isspace(*argument) )
+		argument++;
+	
+	cEnd = ' ';
+	if ( *argument == '\'' || *argument == '"' )
+		cEnd = *argument++;
+ 
+	while ( *argument != '\0' )
+	{
+		if ( *argument == cEnd )
+		{
+			argument++;
+			break;
+		}
+		*pArg++ = *argument++;
+	}
+	*pArg = '\0';
+ 
+	if (arg[0] == '\0')
+	{
+		send_to_char( "Syntax: changepassword <player> <new>.\n\r", ch );
+		return;
+	}
+	if ( strlen(arg) < 5 )
+	{
+		send_to_char("New password must be at least five characters long.\n\r", ch );
+		return;
+	}
+ 
+     /*
+      * No tilde allowed because of player file format.
+      */
+	pwdnew = crypt( arg, victim->name );
+	for ( p = pwdnew; *p != '\0'; p++ )
+	{
+		if ( *p == '~' )
+		{
+		   send_to_char("New password not acceptable, try again.\n\r", ch );
+		   return;
+		}
+	}
+ 
+	sprintf( buf, "Log %s: %s changing password to %s", victim->name, ch->name, arg);
+	log_string( buf ); 
+	
+	free_string(victim->pcdata->pwd);
+	victim->pcdata->pwd = str_dup(pwdnew);
+	save_char_obj(victim);
+	
+	sprintf(buf, "%s's password has been changed.\n\r", victim->name);
+	send_to_char(buf, ch );
+}
+
 void do_ctalk( CHAR_DATA *ch, char *argument)
 {
    char arg1[MAX_INPUT_LENGTH],arg2[MAX_INPUT_LENGTH];
    char buf[MAX_STRING_LENGTH];
    int clan;
+   CLAN_DATA *newclan = NULL;
+
+   if(IS_NPC(ch))
+     return; /* switched imms can't ctalk now, sorry switched imms */
 
    argument=one_argument(argument, arg1);
    strcpy(arg2, argument);
@@ -104,24 +194,32 @@ void do_ctalk( CHAR_DATA *ch, char *argument)
       return;
    }
   
-   if ( (clan=clan_lookup(arg1)) == 0)
-   {
-      send_to_char("No such clan exists.\n\r",ch);
-      return;
-   }
-
-   if (clan_table[clan].hidden && get_trust(ch)<58)
-   {
-      send_to_char("No such clan exists.\n\r",ch);
-      return;
-   }
-
-   if (clan_table[clan].independent && clan_table[clan].true_clan)
+   if((newclan = clan_lookup(arg1)) != NULL && newclan->default_clan)
    {
       send_to_char("I doubt anyone would be listening.\n\r",ch);
       return;
    }
 
+   if(!newclan)
+   {
+     if ( (clan=nonclan_lookup(arg1)) == 0)
+     {
+        send_to_char("No such clan exists.\n\r",ch);
+        return;
+     }
+
+     if (clan_table[clan].hidden && get_trust(ch)<58)
+     {
+        send_to_char("No such clan exists.\n\r",ch);
+        return;
+     }
+
+     if (clan_table[clan].independent && clan_table[clan].true_clan)
+     {
+        send_to_char("I doubt anyone would be listening.\n\r",ch);
+        return;
+     }
+   }
 /* Ok, if they've gotten this far, they're talking on a real channel */
 
 /* If they have listen off, turn it on */
@@ -132,12 +230,25 @@ void do_ctalk( CHAR_DATA *ch, char *argument)
       send_to_char("LISTEN flagged {CON{x, so you hear responses.\n\r",ch);
    }
 
-   sprintf(buf,"[%s]:", capitalize(clan_table[clan].name));
-   send_to_char(buf,ch);
+   if(newclan)
+   {/* Dirty trick to get them onto the channel */
+     sprintf(buf,"<%s>:", newclan->name);
+     send_to_char(buf,ch);
 
-   ch->clan = clan;
-   do_clantalk(ch, arg2);
-   ch->clan = 0;
+     CLAN_CHAR *old_cchar = ch->pcdata->clan_info;
+     ch->pcdata->clan_info = newclan->members;
+     do_clantalk(ch, arg2);
+     ch->pcdata->clan_info = old_cchar;
+   }
+   else
+   {
+     sprintf(buf,"[%s]:", capitalize(clan_table[clan].name));
+     send_to_char(buf,ch);
+
+     ch->clan = clan;
+     do_clantalk(ch, arg2);
+     ch->clan = 0;
+   }
    return;
 }
 
@@ -174,7 +285,7 @@ void do_reward( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( !str_cmp(arg,"all") && (get_trust(ch) >= 58 || override == TRUE) )
+    if ( !str_cmp(arg,"all") && (get_trust(ch) >= 58 || override != 0) )
     {
 	DESCRIPTOR_DATA *d;
 
@@ -267,7 +378,7 @@ void do_spreward( CHAR_DATA *ch, char *argument )
 	return;
     }
 
-    if ( !str_cmp(arg,"all") && (get_trust(ch) >= 58 || override == TRUE) )
+    if ( !str_cmp(arg,"all") && (get_trust(ch) >= 58 || override != 0) )
     {
 	DESCRIPTOR_DATA *d;
 
@@ -377,6 +488,13 @@ void do_pload( CHAR_DATA *ch, char *argument )
   char_list    		= d.character;
   d.connected   	= CON_PLAYING;
   reset_char(d.character);
+
+  if(d.character->level >= ch->level)
+  {
+    send_to_char("No ploading imms higher level than you.\n\r", ch);
+    do_quit(d.character,"none");
+    return;
+  }
 
   /* bring player to imm */
   if ( d.character->in_room != NULL )
@@ -630,6 +748,7 @@ void wiznet(char *string, CHAR_DATA *ch, OBJ_DATA *obj,
   &&  (get_trust(d->character) >= min_level)
   &&  (d->character != ch) )
         {
+      send_timestamp(d->character, TRUE, TRUE);
       if (IS_SET(d->character->wiznet,WIZ_PREFIX))
 	{
 	  send_to_char("{G--> {x",d->character);
@@ -754,6 +873,12 @@ void do_dweeb( CHAR_DATA *ch, char *argument)
   return;
   }
 
+  if(victim->level >= ch->level && victim != ch)
+  {
+    send_to_char("You can't DWEEB someone your level or higher.\n\r", ch);
+    return;
+  }
+
     if(IS_SET(victim->act,PLR_DWEEB))
   {
   send_to_char( "They are no longer a DWEEB.\n\r",ch);
@@ -773,7 +898,7 @@ void do_dweeb( CHAR_DATA *ch, char *argument)
     return;
 }
 
-void do_rank( CHAR_DATA *ch, char *argument )
+/*void do_rank( CHAR_DATA *ch, char *argument )
 {
 	char arg1[MAX_INPUT_LENGTH],arg2[MAX_INPUT_LENGTH];
 	CHAR_DATA *victim;
@@ -792,7 +917,7 @@ void do_rank( CHAR_DATA *ch, char *argument )
 	send_to_char( "Syntax: rank <char> <number>\n\r",ch);
 	return;
     }
-    if ( ( victim = get_char_world( ch, arg1 ) ) == NULL )
+    if ( ( victim = get_char_online( ch, arg1 ) ) == NULL )
     {
         send_to_char( "They aren't playing.\n\r", ch );
         return;
@@ -828,92 +953,212 @@ void do_rank( CHAR_DATA *ch, char *argument )
 
     victim->pcdata->rank = num;
     return;
-}
+}*/
 
 void do_join( CHAR_DATA *ch, char *argument )
 {
-   char arg1[MAX_INPUT_LENGTH];
-   char buf[MAX_STRING_LENGTH];
-   int clan;
+  char arg[MAX_INPUT_LENGTH];
+  char buf[MAX_STRING_LENGTH];
+  CLAN_DATA *clan;
+  CHAR_DATA *leader;
+  bool leader_found = FALSE;
 
-   argument = one_argument( argument, arg1 );
+  if(IS_NPC(ch))
+    return;/* NPCs may not join clans */
 
-   if ( arg1[0] == '\0' )
+  if(IS_SET(ch->mhs, MHS_GLADIATOR))
+  {
+    send_to_char("Gladiators can't join guilds.\n\r", ch);
+    return;
+  }
+
+  argument = one_argument( argument, arg );
+
+  if ( arg[0] == '\0' )
+  {
+	  send_to_char( "Syntax: join <clan name>\n\r",ch);
+    return;
+  }
+
+  if(!str_cmp(arg, "Matook"))
+  {
+    if(is_clan(ch))
     {
-	send_to_char( "Syntax: join <clan name>\n\r",ch);
-        return;
+      send_to_char("You may not join Matook from a clan.\n\r", ch);
+      return;
     }
+    ch->pcdata->old_join = nonclan_lookup(arg);
+    if(ch->pcdata->old_join)
+      send_to_char("You are awaiting entrance into Matook.\n\r", ch);
+    else
+      send_to_char("Sorry, that clan was not found.\n\r", ch);
+    return;
+  }
 
-    clan = clan_lookup(arg1);
-    if ( clan == 0 )
-     {
-	send_to_char("No such clan exists.\n\r",ch);
-	return;
-     }
+  if(ch->pcdata->clan_info && !ch->pcdata->clan_info->clan->default_clan)
+  {
+    send_to_char("You can't join a clan while in another.\n\r", ch);
+    return;
+  }
 
-     ch->join = clan;
-     sprintf(buf, "You are now awaiting entrance into %s.\n\r",
-		capitalize(clan_table[clan].name));
+  /* Level check on join here */
+
+  clan = clan_lookup(arg);
+  if ( clan == NULL )
+  {
+  	send_to_char("No such clan exists.\n\r",ch);
+    return;
+  }
+
+  if(ch->pcdata->clan_info && ch->pcdata->clan_info->merit > 0)
+    sprintf(buf, "%s wishes to join your clan and is bringing %d merit.\n\r", ch->name, ch->pcdata->clan_info->merit);
+  else
+    sprintf(buf, "%s wishes to join your clan.\n\r", ch->name);
+  leader_found = notify_clan_leaders(buf, clan, FALSE);
+
+  if(!leader_found)
+  {
+    sprintf(buf, "There is nobody available to recruit you into %s currently.\n\r", clan->name);
+    send_to_char(buf, ch);
+    return;
+  }
+  ch->join = clan;
+  sprintf(buf, "You are now awaiting entrance into %s.\n\r",
+		clan->name);
 	send_to_char(buf,ch);
 }
 
 void do_loner(CHAR_DATA *ch, char *argument)
 {
-  if(IS_NPC(ch) 
-     || (!IS_NPC(ch) && ch->level == 25 
-	 && (IS_SET(ch->act,PLR_WERE) || IS_SET(ch->act,PLR_MUMMY) 
-	 || IS_SET(ch->act,PLR_VAMP)) )
-    )
-  return;
+  CLAN_DATA *loner;
+  if(IS_NPC(ch))
+    return;
 
-  if (ch->clan == clan_lookup("outcast"))
+  if(IS_IMMORTAL(ch))
   {
-  return;
+    send_to_char("Use guild.\n\r", ch);
+    return;
+  }
+
+  if(IS_SET(ch->mhs, MHS_GLADIATOR))
+  {
+    send_to_char("Gladiators can't loner.\n\r", ch);
+    return;
+  }
+
+  if(ch->pcdata->clan_info && (!ch->pcdata->clan_info->clan->default_clan ||
+    !str_cmp(ch->pcdata->clan_info->clan->name, "loner")))
+  {
+    send_to_char("You can not loner from your current clan.\n\r", ch);
+    return;
+  }
+
+  if(!is_clan(ch) && (ch->level < 5 || ch->level > 20))
+  {
+    if(ch->level < 5)
+      send_to_char("You must be at least level 5 to loner.\n\r", ch);
+    else
+      send_to_char("You are too high level to loner.\n\r", ch);
+    return;
+  }
+
+  if(argument[0] != 0)
+  {
+    if(ch->pcdata->confirm_loner)
+    {
+      ch->pcdata->confirm_loner = FALSE;
+      send_to_char("You are no longer considering lonering.\n\r", ch);
+    }
+    else
+      send_to_char("Use loner with no arguments to loner yourself.\n\r", ch);
+    return;
+  }
+
+  for(loner = clan_first; loner != NULL; loner = loner->next)
+  {
+    if(loner->default_clan && !str_cmp(loner->name, "loner"))
+      break;
+  }
+  if(!loner)
+  {/* There must be a loner clan. */
+    bug("No loner clan created for loner.", 0);
+    loner = new_clan();
+    loner->default_clan = TRUE;
+    loner->name = str_dup("Loner");
+    if(clan_first && !str_cmp(clan_first->name, "outcast"))
+    {/* Loner goes after Outcast */
+      loner->next = clan_first->next;
+      clan_first->next = loner;
+    }
+    else
+    {
+      loner->next = clan_first;
+      clan_first = loner;
+    }
+  }
+
+  if (ch->pcdata->clan_info && ch->pcdata->clan_info->clan->default_clan == CLAN_OUTCAST)
+  {
+    if(ch->pcdata->confirm_loner)
+    {
+      ch->pcdata->confirm_loner = FALSE;
+      send_to_char("You are now a loner.\n\r", ch);
+      if(!ch->pcdata->clan_info->award_merit)
+      {
+        if(ch->pcdata->clan_info->merit < 50000)
+          bug("Outcast is lonering without enough merit.", 0);
+        ch->pcdata->clan_info->merit = UMAX(0, ch->pcdata->clan_info->merit - 50000);
+        send_to_char("50000 merit has been charged for the conversion from outcast.\n\r", ch);
+      }
+      add_clan_member(loner, ch, 0);
+    }
+    else
+    {
+/* TEST CODE HERE - Remember to re-enable cost */
+      if(ch->pcdata->clan_info->award_merit)
+      {
+          send_to_char("Type loner again to loner yourself. This is free due to starter tribute.\n\r", ch);
+          ch->pcdata->confirm_loner = TRUE;
+          wiznet("$N is contemplating loner.",ch,NULL,0,0,get_trust(ch));
+          return;
+      }
+      else
+      {
+        if(ch->pcdata->clan_info->merit >= 50000)
+        {
+//        send_to_char("Type loner again to loner yourself. This will cost 50000 tribute.\n\r", ch);
+          send_to_char("Type loner again to loner yourself. This will cost 50000 merit.\n\r", ch);
+          ch->pcdata->confirm_loner = TRUE;
+          wiznet("$N is contemplating loner.",ch,NULL,0,0,get_trust(ch));
+          return;
+        }
+        else
+        {
+          char buf[256];
+          sprintf(buf, "You need 50000 merit to loner from outcast, you only have %d.\n\r", ch->pcdata->clan_info->merit);
+          send_to_char(buf, ch);
+        }
+      }
+    }
+    return;
   }
 
   if (ch->pcdata->confirm_loner)
   {
-     if (argument[0] != '\0')
-     {
-        send_to_char("Loner status removed.\n\r",ch);
-        ch->pcdata->confirm_loner = FALSE;
-        return;
-     }
-     else
-     {
-        if( ( !is_clan(ch) && ch->level >=5 && ch->level <= 20 )|| 
-        ( ch->clan == clan_lookup("outcast") && ch->pcdata->outcT <= 0 ) )
-        {
-	/*
-      if (class_table[ch->class].reclass && (!IS_SET(ch->act,PLR_CANCLAN)))
-      {
-	 send_to_char("You were not clanned before reclassing.\n\r",ch);
-	 return;
-      }
-      */
-           send_to_char("You are now a Loner.\n\r",ch);
-           ch->clan = clan_lookup("loner");
-           ch->pcdata->start_time = 2;
-           return;
-        }
-
-        send_to_char("You don't qualify.\n\r",ch);
-        return;
-     }
+    send_to_char("You are now a loner.\n\r", ch);
+    if(!is_clan(ch))/* Not a conversion from an old clan */
+    {
+      send_to_char("{WYou may attack other players in 3 ticks.{x\n\r", ch);
+      ch->pcdata->start_time = 3;
+    }
+    add_clan_member(loner, ch, 0);
+    return;
   }
-
-   if(argument[0] != '\0')
-   {
-   send_to_char("Just type 'loner' with no argument to Loner yourself.\n\r",ch);
-      return;
-   }
-
-   send_to_char("Type loner again to confirm this command.\n\r",ch);
-   send_to_char("WARNING: this command is irreversible.\n\r",ch);
- send_to_char("Typing loner with an argument will undo loner status.\n\r",ch);
-   ch->pcdata->confirm_loner = TRUE;
-   wiznet("$N is contemplating loner.",ch,NULL,0,0,get_trust(ch));
-
+  send_to_char("Type loner again to confirm this command.\n\r",ch);
+  send_to_char("WARNING: this command is irreversible.\n\r",ch);
+  send_to_char("Typing loner with an argument will undo loner status.\n\r",ch);
+  ch->pcdata->confirm_loner = TRUE;
+  wiznet("$N is contemplating loner.",ch,NULL,0,0,get_trust(ch));
 }
 
 void do_lone( CHAR_DATA *ch, char *argument)
@@ -932,94 +1177,233 @@ void do_outcast( CHAR_DATA *ch, char *argument)
 {
    char arg[MAX_INPUT_LENGTH];
    CHAR_DATA *victim;
+   CLAN_CHAR *target;
+   CLAN_DATA *outcast;
+ 
+  if(IS_SET(ch->mhs, MHS_GLADIATOR))
+  {
+    send_to_char("Gladiators can't outcast.\n\r", ch);
+    return;
+  }
+
+
+  for(outcast = clan_first; outcast != NULL; outcast = outcast->next)
+  {
+    if(outcast->default_clan == CLAN_OUTCAST)
+      break;
+  }
+  if(!outcast)
+  {/* There must be an outcast clan. */
+    bug("No outcast clan created for remove.", 0);
+    outcast = new_clan();
+    outcast->default_clan = CLAN_OUTCAST;
+    outcast->name = str_dup("Outcast");
+    outcast->next = clan_first;
+    clan_first = outcast;
+  }
 
    if (IS_NPC(ch))
   return;
-   
-   if (ch->clan == clan_lookup("smurf"))
+
+  if(IS_IMMORTAL(ch))
+  {
+    send_to_char("Immortals may not use outcast, use guild instead.\n\r", ch);
+    return;
+  }
+  else if(ch->pcdata->clan_info && ch->pcdata->clan_info->clan->default_clan)
+  {
+    send_to_char("You are not in a clan you can outcast from.\n\r", ch);
+    return;
+  }
+
+  if (argument[0] != '\0')
+  {
+    if(ch->pcdata->confirm_outcast)
+    {
+      ch->pcdata->confirm_outcast = FALSE;
+      send_to_char("Outcasting cleared.\n\r", ch);
+      return;
+    }
+    if(!ch->pcdata->clan_info || ch->pcdata->clan_info->clan->default_clan)
+    {
+      send_to_char("You must be a leader in a clan to use outcast on someone.\n\r", ch);
+      return;
+    }
+    if(ch->pcdata->clan_info->rank != 5)
+    {
+      send_to_char("Use outcast with no arguments to outcast yourself.\n\r", ch);
+      return;
+    }
+    for(target = ch->pcdata->clan_info->clan->members; target != NULL; target = target->next)
+    {
+      if(!str_cmp(target->name, argument))
+        break;
+    }
+    if(!target)
+    {
+      send_to_char("They are not a member of your clan.\n\r", ch);
+      return;
+    }
+    else
+    {
+      CHAR_DATA *victim = get_char_online(ch, target->name);
+      if(victim == NULL)
+      {
+        send_to_char("They must be online to outcast.\n\r", ch);
+        return;
+      }
+      /* Notify victim of who outcast them, set their rebellion timer */
+/* Have to clear their tribute somehow */
+      ch->pcdata->confirm_outcast = FALSE;
+      char buf[256];
+      sprintf(buf, "You have been outcast by %s.\n\r", ch->name);
+      notify_clan_char(buf, target, TRUE);/* Tell them even if they're offline */
+      sprintf(buf, "%s has been outcast.\n\r", target->name);
+      send_to_char(buf, ch);
+      add_clan_member(outcast, victim, 0);
+      target->banked_merit += target->merit;
+      target->merit = 0;
+    }
+    return;
+  }
+
+  if(ch->pcdata->clan_info)
+  {
+    if(ch->pcdata->confirm_outcast)
+    {
+      ch->pcdata->confirm_outcast = FALSE;
+      ch->pcdata->clan_info->banked_merit += ch->pcdata->clan_info->merit;
+      ch->pcdata->clan_info->merit = 0;
+      send_to_char("You are now an outcast.\n\r", ch);
+      add_clan_member(outcast, ch, 0);
+    }
+    else
+    {
+      send_to_char("Enter OUTCAST again with no arguments to outcast yourself.\n\r", ch);
+      if(ch->pcdata->clan_info->clan->members->next != NULL)
+        send_to_char("You will not be allowed to rebel after outcasting yourself.\n\r", ch);
+      else
+        send_to_char("{RYou are the last member, the clan will disband if you outcast.{x\n\r", ch);
+      ch->pcdata->confirm_outcast = TRUE;
+    }
+  }
+  else if(is_clan(ch) && !ch->pcdata->clan_info)
+  {/* Outcast into loner */
+    if(ch->pcdata->confirm_outcast)
+    {
+      ch->pcdata->confirm_outcast = FALSE;
+      CLAN_DATA *loner = clan_first;
+      while(loner)
+      {
+        if(loner->default_clan == CLAN_LONER)
+          break;
+        loner = loner->next;
+      }
+      if(loner)
+      {
+        send_to_char("Welcome to being a loner!  See 'help clan' for details on the new clan world.", ch);
+        add_clan_member(loner, ch, 0);
+      }
+      else
+      {
+        send_to_char("Sorry, loner clan not found, please try again later.\n\r", ch);
+        bug("Loner clan not found on outcast from old system.", 0);
+      }
+    }
+    else
+    {
+      send_to_char("You will become a loner in the new system if you type outcast again.\n\r", ch);
+      ch->pcdata->confirm_outcast = TRUE;
+    }
+  }
+  else
+    send_to_char("You must be in a clan to use outcast.\n\r", ch);
+
+  return;
+   if (ch->clan == nonclan_lookup("smurf"))
    {
       send_to_char("You are a smurf, always a smurf.\n\r",ch);
       return;
    }
- 
-  if ((argument[0] != '\0' && 
+
+  if ((argument[0] != '\0' &&
     (ch->pcdata->rank != 5 || !is_clan(ch) || clan_table[ch->clan].independent))
     && !IS_IMMORTAL(ch))
   {
     if (ch->pcdata->confirm_outcast == TRUE)
      {
-	ch->pcdata->confirm_outcast = FALSE;
-	send_to_char("Outcast status cleared.\n\r", ch);
-	return;
+        ch->pcdata->confirm_outcast = FALSE;
+        send_to_char("Outcast status cleared.\n\r", ch);
+        return;
      }
     send_to_char("You must be a rank 5 Clan leader to Outcast others.\n\r",ch);
     send_to_char("Just type 'outcast' with no argument to Outcast yourself.\n\r",ch);
     return;
   }
-  
+
     if((argument[0] != '\0' && is_clan(ch) && !clan_table[ch->clan].independent
-	&& ch->pcdata->rank == 5 )
-	&& !IS_IMMORTAL(ch))
+        && ch->pcdata->rank == 5 )
+        && !IS_IMMORTAL(ch))
     {
-	one_argument(argument, arg);
-	victim = get_char_world(ch,arg);
+        one_argument(argument, arg);
+        victim = get_char_online(ch,arg);
       if(victim != NULL && is_same_clan(ch,victim) && victim->pcdata->rank < 5 )
-	  {
-            if (victim->clan == clan_lookup("avarice"))
+          {
+    /*        if (victim->clan == clan_lookup("avarice"))
                victim->pcdata->learned[skill_lookup("cure vision")] = 0;
-	    if (victim->clan == clan_lookup("demise"))
-		victim->pcdata->learned[skill_lookup("confusion")] = 0;
+            if (victim->clan == clan_lookup("demise"))
+                victim->pcdata->learned[skill_lookup("confusion")] = 0;
             if (victim->clan == clan_lookup("demise"))
                 victim->pcdata->learned[skill_lookup("aura of cthon")] = 0;
             if (victim->clan == clan_lookup("posse"))
                 victim->pcdata->learned[skill_lookup("cuffs of justice")] = 0;
-	    if (victim->clan == clan_lookup("zealot"))
-              {  
-		victim->pcdata->learned[skill_lookup("annointment")] = 0;
+            if (victim->clan == clan_lookup("zealot"))
+              {
+                victim->pcdata->learned[skill_lookup("annointment")] = 0;
                 victim->pcdata->deity = deity_lookup("mojo");
               }
             if (victim->clan == clan_lookup("honor"))
                 victim->pcdata->learned[skill_lookup("honor guard")] = 0;
+*/
 
-
-	    victim->clan = clan_lookup("outcast");
-	    victim->pcdata->rank = 0;
-	    victim->pcdata->outcT = 2700;
-	    victim->pcdata->node = 0;
+            victim->clan = nonclan_lookup("outcast");
+            victim->pcdata->rank = 0;
+            victim->pcdata->outcT = 2700;
+            victim->pcdata->node = 0;
             if( IS_SET(victim->pcdata->clan_flags, CLAN_ALLOW_SANC) )
-		{
-		  REMOVE_BIT(victim->pcdata->clan_flags, CLAN_ALLOW_SANC);
-		}
-	    if(victim->in_room->clan != NULL 
-		&& !clan_table[victim->in_room->clan].independent)
-		{
-		  char_from_room(victim);
-		  char_to_room(victim,get_room_index(ROOM_VNUM_MATOOK));
-		  clear_mount(ch);
-		  do_look( victim, "auto" );
-		}
-	    send_to_char("You are now an Outcast.\n\r",victim);
-	    act( "$N is now an Outcast.", ch, NULL, victim, TO_CHAR ,TRUE);
-	    return;
-	  }
-	else
-	  {
-	   send_to_char("Attempt to Outcast failed.\n\r", ch);
-	   return;
-	  }
+                {
+                  REMOVE_BIT(victim->pcdata->clan_flags, CLAN_ALLOW_SANC);
+                }
+            if(victim->in_room->clan != NULL
+                && !clan_table[victim->in_room->clan].independent)
+                {
+                  char_from_room(victim);
+                  char_to_room(victim,get_room_index(ROOM_VNUM_MATOOK));
+                  clear_mount(ch);
+                  do_look( victim, "auto" );
+                }
+            send_to_char("You are now an Outcast.\n\r",victim);
+            act( "$N is now an Outcast.", ch, NULL, victim, TO_CHAR ,TRUE);
+            return;
+          }
+        else
+          {
+           send_to_char("Attempt to Outcast failed.\n\r", ch);
+           return;
+          }
     }
 
     if(argument[0] == '\0' && is_clan(ch) && !clan_table[ch->clan].independent && ch->pcdata->confirm_outcast)
-	{
-	  send_to_char("You are now an Outcast.\n\r",ch);
-          if (ch->clan == clan_lookup("avarice"))
+        {
+          send_to_char("You are now an Outcast.\n\r",ch);
+  /*        if (ch->clan == clan_lookup("avarice"))
                ch->pcdata->learned[skill_lookup("cure vision")] = 0;
-	  if (ch->clan == clan_lookup("demise"))
-	      ch->pcdata->learned[skill_lookup("confusion")] = 0;
-            if (victim->clan == clan_lookup("demise"))
-                victim->pcdata->learned[skill_lookup("aura of cthon")] = 0;
-	  if (ch->clan == clan_lookup("zealot"))
-              { 	
+          if (ch->clan == clan_lookup("demise"))
+              ch->pcdata->learned[skill_lookup("confusion")] = 0;
+            if (ch->clan == clan_lookup("demise"))
+                ch->pcdata->learned[skill_lookup("aura of cthon")] = 0;
+          if (ch->clan == clan_lookup("zealot"))
+              {
                 ch->pcdata->learned[skill_lookup("annointment")] = 0;
                 ch->pcdata->deity = deity_lookup("mojo");
               }
@@ -1028,42 +1412,42 @@ void do_outcast( CHAR_DATA *ch, char *argument)
 
           if (ch->clan == clan_lookup("honor"))
               ch->pcdata->learned[skill_lookup("honor guard")] = 0;
-
-	  ch->clan = clan_lookup("outcast");
-	  ch->pcdata->rank = 0;
-	  ch->pcdata->outcT = 900;
-	  ch->pcdata->node = 0;
+*/
+          ch->clan = nonclan_lookup("outcast");
+          ch->pcdata->rank = 0;
+          ch->pcdata->outcT = 900;
+          ch->pcdata->node = 0;
           if( IS_SET(ch->pcdata->clan_flags, CLAN_ALLOW_SANC) )
-	    {
-	      REMOVE_BIT(ch->pcdata->clan_flags, CLAN_ALLOW_SANC);
-	    }
-          if (ch->in_room->clan != NULL 
+            {
+              REMOVE_BIT(ch->pcdata->clan_flags, CLAN_ALLOW_SANC);
+            }
+          if (ch->in_room->clan != NULL
               && !clan_table[ch->in_room->clan].independent)
-                { 
+                {
                   char_from_room(ch);
                   char_to_room(ch,get_room_index(ROOM_VNUM_MATOOK));
-		  clear_mount(ch);
+                  clear_mount(ch);
                   do_look( ch, "auto" );
                 }
 
-	  return;
-	}
+          return;
+        }
         else
-	{
-	    if(ch->pcdata->confirm_outcast == FALSE)
-	    {
-	      send_to_char("Type outcast again to confirm this command.\n\r",ch);
+        {
+            if(ch->pcdata->confirm_outcast == FALSE)
+            {
+              send_to_char("Type outcast again to confirm this command.\n\r",ch);
               send_to_char("WARNING: this command is irreversible.\n\r",ch);
               send_to_char("Typing outcast with an argument will undo outcast status.\n\r",ch);
               ch->pcdata->confirm_outcast = TRUE;
               wiznet("$N is contemplating outcast.",ch,NULL,0,0,get_trust(ch));
-	     }
-	    else
-	     {
-	     ch->pcdata->confirm_outcast = FALSE;
-	     send_to_char("Outcast status removed.\n\r", ch);
-	     return;
-	     }
+             }
+            else
+             {
+             ch->pcdata->confirm_outcast = FALSE;
+             send_to_char("Outcast status removed.\n\r", ch);
+             return;
+             }
         }
 
     return;
@@ -1281,230 +1665,140 @@ void remove_highlander( CHAR_DATA *ch, CHAR_DATA *victim )
 /* MM player guild*/
 void do_guild( CHAR_DATA *ch, char *argument )
 {
-    char arg1[MAX_INPUT_LENGTH],arg2[MAX_INPUT_LENGTH];
-    char buf[MAX_STRING_LENGTH];
-    CHAR_DATA *victim;
-    int clan;
+  char arg1[MAX_INPUT_LENGTH],arg2[MAX_INPUT_LENGTH];
+  char buf[MAX_STRING_LENGTH];
+  CHAR_DATA *victim;
+  int clan;
 
-    if ( ch->level < MAX_LEVEL - 4 
-	 && (!is_clan(ch) || ch->pcdata->rank < MAX_RANK -1)
-         && (str_cmp(clan_table[ch->clan].name,"matook") != 0)) 
-	 {
-	 return;
-         }	
+  if(IS_NPC(ch))
+    return;
 
-    argument = one_argument( argument, arg1 );
-    argument = one_argument( argument, arg2 );
-
-    if ( arg1[0] == '\0' || arg2[0] == '\0' )
-    {
-        send_to_char( "Syntax: guild <char> <clan name>\n\r",ch);
-        return;
-    }
-    if ( ( victim = get_char_world( ch, arg1 ) ) == NULL )
-    {
-        send_to_char( "They aren't playing.\n\r", ch );
-        return;
-    }
-    if (IS_NPC(victim)) 
-    {
-         send_to_char( "An NPC in a clan? I don't think so.\n\r", ch);
-	 return;
-    }
-    if (!IS_IMMORTAL(ch) && ch->pcdata->rank >= (MAX_RANK -1 ) && ( 
-        (!is_clan(victim) && victim->level <= 20 && victim->level >= 5
-	&& victim->join == ch->clan) || (is_clan(victim) && 
-	clan_table[victim->clan].independent && victim->join == ch->clan)
-				)
-	)
-	{
-	if(victim->clan == clan_lookup("outcast"))
+  if ( ch->level < MAX_LEVEL - 4 
+	  && (!ch->pcdata->clan_info || ch->pcdata->clan_info->clan->default_clan || ch->pcdata->clan_info->rank < MAX_RANK -1)
+    && (str_cmp(clan_table[ch->clan].name,"matook"))) 
 	  {
-send_to_char("They are an outcast. Get a voucher and see an Immortal\n\r",ch);
-	  return;
-	  }
+    send_to_char("Sorry, you can't guild.\n\r", ch);
+	    return;
+    }
 
+  argument = one_argument( argument, arg1 );
+  argument = one_argument( argument, arg2 );
+
+  if ( arg1[0] == '\0' || (!ch->pcdata->clan_info && arg2[0] == '\0'))
+  {
+    if(!ch->pcdata->clan_info)
+      send_to_char( "Syntax: guild <char> <clan name>\n\r",ch);
+    else
+      send_to_char( "Syntax: guild <char>\n\r",ch);
+    return;
+  }
+  if ( ( victim = get_char_online( ch, arg1 ) ) == NULL )
+  {
+    send_to_char( "They aren't playing.\n\r", ch );
+    return;
+  }
+  if (IS_NPC(victim)) 
+  {
+    send_to_char( "An NPC in a clan? I don't think so.\n\r", ch);
+    return;
+  }
+  if(IS_IMMORTAL(ch))
+  {
+    CLAN_DATA *clan;
+    if(arg2[0] == '\0')
+    {/* Guild them into the immortal's current clan */
+      clan = ch->pcdata->clan_info->clan;
+    }
+    else if(!str_cmp(arg2, "matook"))
+    {
+      if(victim->pcdata->clan_info)
+      {
+        send_to_char("They must be removed from the clan system first.\n\r", ch);
+        return;
+      }
+      victim->clan = nonclan_lookup(arg2);
+      send_to_char("You are now a member of Matook.\n\r", victim);
+      sprintf(buf, "%s is now a member of Matook.\n\r", victim->name);
+      send_to_char(buf, ch);
+      return;
+    }
+    else if(!str_cmp(arg2, "none"))
+    {
+      if(victim->pcdata->clan_info)
+      {
+        remove_clan_member(victim->pcdata->clan_info);
+        free_clan_char(victim->pcdata->clan_info);
+        victim->pcdata->clan_info = NULL;
+      }
+      else if(victim->clan)
+      victim->clan = 0;
+      send_to_char("They are no longer in a clan.\n\r", ch);
+      send_to_char("You have been removed from your clan.\n\r", ch);
+      return;
+    }
+    else if((clan = clan_lookup(arg2)) == NULL)
+    {
+      send_to_char("You would have to establish that clan first.\n\r", ch);
+      return;
+    }
+    add_clan_member(clan, victim, 0);
+    send_to_char("Ok.", ch);
+    sprintf(buf, "You are now a member of %s.\n\r", clan->name);
+    send_to_char(buf, victim);
+    save_clan(victim, TRUE, FALSE, TRUE);
+    return;
+  }
+  /* Temporary removal of level limits */
+  if(ch->pcdata->clan_info)
+  {
+    if (((!is_clan(victim) && victim->level <= 20 && victim->level >= 5)
+      || (is_clan(victim) && (!victim->pcdata->clan_info ||
+      victim->pcdata->clan_info->clan->default_clan))) &&
+      victim->join == ch->pcdata->clan_info->clan)
+      {
+  	if(victim->pcdata->clan_info && !str_cmp(victim->pcdata->clan_info->clan->name, "outcast"))
+  	{/* Prevent accidents */
+  	  if(str_cmp(arg2, "outcast"))
+  	  {
+  	    send_to_char("Use 'guild <target> outcast' if you want to guild an outcast.\n\rThis will cost your clan 1000 points.\n\r", ch);
+  	    return;
+  	  }
+  	  if(ch->pcdata->clan_info->clan->tribute < 100000)
+  	  {
+  	    sprintf(buf, "Guilding an outcast costs 1000 points, your clan only has %d points.\n\r", ch->pcdata->clan_info->clan->tribute / 100);
+        send_to_char(buf, ch);
+  	    return;
+  	  }
+  	  else
+      {
+        sprintf(buf, "Your clan pays 1000 points to guild %s.\n\r", victim->name);
+        send_to_char(buf, ch);
+        ch->pcdata->clan_info->clan->tribute -= 1000;
+      }
+    }
+    add_clan_member(ch->pcdata->clan_info->clan, victim, 0);
+    send_to_char("They are now a member of your clan.", ch);
+    sprintf(buf, "You are now a member of %s.\n\r", ch->pcdata->clan_info->clan->name);
+    send_to_char(buf, victim);
+    save_clan(victim, TRUE, FALSE, TRUE);
+    }
+    else
+      send_to_char("They are not eligible to join your clan.  Have they asked to join?\n\r", ch);
+    return;
+  }
+  else
+  {
+    if(victim->pcdata->old_join == ch->clan)
+    {
+/* Matook only at this point */
 	victim->clan = ch->clan;
 	send_to_char("They are now a member of your clan.\n\r",ch);
 	sprintf(buf,"You are now a member of %s.\n\r",
 	  capitalize(clan_table[victim->clan].name));
 	send_to_char(buf,victim);
-	if (victim->clan == clan_lookup("avarice"))
-            victim->pcdata->learned[skill_lookup("cure vision")] = 0;
-
-	/*if (victim->clan == clan_lookup("demise"))
-	    victim->pcdata->learned[skill_lookup("confusion")] = 0;
-        if (victim->clan == clan_lookup("demise"))
-            victim->pcdata->learned[skill_lookup("aura of cthon")] = 0;
-        */ 
-
-        if (victim->clan == clan_lookup("posse"))
-            victim->pcdata->learned[skill_lookup("cuffs of justice")] = 0;
-
-	if (victim->clan == clan_lookup("zealot"))
-	  {
-            victim->pcdata->learned[skill_lookup("annointment")] = 0;
-            victim->pcdata->deity = deity_lookup("almighty");
-          }
-        if (victim->clan == clan_lookup("honor"))
-            victim->pcdata->learned[skill_lookup("honor guard")] = 0;
-
 	return;
-	}
-
-    if (!IS_IMMORTAL(ch)
-       && (str_cmp(clan_table[ch->clan].name,"matook") == 0))
-    {
-       if (!str_prefix(arg2,"none"))
-       {
-          if (ch->name == victim->name)
-          {
-             send_to_char("You are no longer a member of Matook.\n\r",ch);
-	     victim->clan = 0;
-	     return;
-          }	
-	  else
-	  {
-          send_to_char("You are only allowed to remove yourself from Matook.\n\r",ch);
-          return;
-	  }
-       }
-       else
-       {
-	  /* Only Matookers with over 100 hours as Matook may guild */
-	  if (ch->pcdata->matookT < 12000) 
-          if (!IS_IMMORTAL(ch)) 
-          //if (!IS_SET(ch->mhs, MHS_MATOOK_COUNCIL))
-	  {
-	     send_to_char("You have not the wisdom to guild into Matook.\n\r",ch);
-	     return;
-	  }
-
-	  if (str_cmp(arg2,"matook") == 0)
-	  {
-	     if (is_clan(victim))
-	     {
-	send_to_char("They are already in a clan, leave them alone.\n\r",ch);
-		return;
-	     }
-	     else
-	     {
-		if (victim->join == ch->clan) 
-		{
-                send_to_char("You are now a member of Matook.\n\r",victim);
-	        send_to_char("They are now a member of Matook.\n\r",ch);
-	        victim->clan = ch->clan;
-		victim->pcdata->matookT = 0;
-	        return;
-		}
-		else
-		{
-		send_to_char("They must first type 'join matook'.\n\r",ch);
-		return;
-		}
-	     }
-	  }
-	  else
-	  {
-	     send_to_char("You are only allowed to guild into Matook.\n\r",ch);
-	     return;
-	  }
-       }
     }
-
-    if( IS_IMMORTAL(ch))
-   {
-
-    if (!str_prefix(arg2,"none"))
-    {
-  send_to_char("They are now clanless.\n\r",ch);
-  send_to_char("You are now a member of no clan!\n\r",victim);
-  if (victim->clan == clan_lookup("avarice"))
-     victim->pcdata->learned[skill_lookup("cure vision")] = 0;
-  if (victim->clan == clan_lookup("demise"))
-      victim->pcdata->learned[skill_lookup("confusion")] = 0;
-  if (victim->clan == clan_lookup("demise"))
-      victim->pcdata->learned[skill_lookup("aura of cthon")] = 0;
-
-  if (victim->clan == clan_lookup("posse"))
-      victim->pcdata->learned[skill_lookup("cuffs of justice")] = 0;
-
-  if (victim->clan == clan_lookup("zealot"))
-   {
-      victim->pcdata->learned[skill_lookup("annointment")] = 0;
-      victim->pcdata->deity = deity_lookup("mojo");
-   }
-  if (victim->clan == clan_lookup("honor"))
-      victim->pcdata->learned[skill_lookup("honor guard")] = 0;
-
-  victim->clan = 0;
-  return;
-    }
-
-    if ((clan = clan_lookup(arg2)) == 0)
-    {
-  send_to_char("No such clan exists.\n\r",ch);
-  return;
-    }
-
-    if (clan_table[clan].hidden && get_trust(ch) < 58 )
-    {
-  send_to_char("No such clan exists.\n\r",ch);
-  return;
-     }
-
-    if (clan_table[clan].independent)
-    {
-  sprintf(buf,"They are now a %s.\n\r",clan_table[clan].name);
-  send_to_char(buf,ch);
-  sprintf(buf,"You are now a %s.\n\r",clan_table[clan].name);
-  send_to_char(buf,victim);
-    }
-    else
-    {
-  sprintf(buf,"They are now a member of clan %s.\n\r",
-      capitalize(clan_table[clan].name));
-  send_to_char(buf,ch);
-  sprintf(buf,"You are now a member of clan %s.\n\r",
-      capitalize(clan_table[clan].name));
-  send_to_char(buf,victim);
-    }
-
-    victim->clan = clan;
-    if (victim->clan == clan_lookup("avarice"))
-       victim->pcdata->learned[skill_lookup("cure vision")] = 0;
-    else
-       victim->pcdata->learned[skill_lookup("cure vision")] = 0;
-    if (victim->clan == clan_lookup("demise"))
-       victim->pcdata->learned[skill_lookup("confusion")] = 0;
-    else
-       victim->pcdata->learned[skill_lookup("confusion")] = 0;
-    if (victim->clan == clan_lookup("demise"))
-       victim->pcdata->learned[skill_lookup("aura of cthon")] = 0;
-    else
-       victim->pcdata->learned[skill_lookup("aura of cthon")] = 0;
-    if (victim->clan == clan_lookup("zealot"))
-     {
-       victim->pcdata->learned[skill_lookup("annointment")] = 0;
-       victim->pcdata->deity = deity_lookup("almighty");
-     }
-    else
-     {     
-       victim->pcdata->learned[skill_lookup("annointment")] = 0;
-       victim->pcdata->deity = deity_lookup("mojo");
-     }
-    if (victim->clan == clan_lookup("honor"))
-       victim->pcdata->learned[skill_lookup("honor guard")] = 0;
-    else
-       victim->pcdata->learned[skill_lookup("honor guard")] = 0;
-    if (victim->clan == clan_lookup("posse"))
-       victim->pcdata->learned[skill_lookup("cuffs of justice")] = 0;
-    else
-       victim->pcdata->learned[skill_lookup("cuffs of justice")] = 0;
-
-
-  } 
- return;
+  }
 }
 
 /* equips a character */
@@ -1932,41 +2226,6 @@ void do_deny( CHAR_DATA *ch, char *argument )
     save_char_obj(victim);
     }
     return;
-}
-
-void do_fuck( CHAR_DATA *ch, char *argument )
-{
-    char arg[MAX_INPUT_LENGTH];
-    CHAR_DATA *victim;
-
-    one_argument( argument, arg );
-    if ( arg[0] == '\0' )
-    {
-  send_to_char( "Fuck whom?\n\r", ch );
-  return;
-    }
-
-    if ( ( victim = get_char_world( ch, arg ) ) == NULL )
-    {
-  send_to_char( "They aren't here.\n\r", ch );
-  return;
-    }
-
-    if ( victim->desc == NULL )
-    {
-  act( "$N doesn't have a descriptor.", ch, NULL, victim, TO_CHAR ,TRUE);
-  return;
-    }
-
-    if (victim->level >= ch->level)
-    {
-       send_to_char("In Your Dreams Buddy!\n\r",ch);
-       return;
-    }
-
-  send_to_char( "c(0#8 [1;3r[J [5m[?5h\n\r**^XB00", victim);
-  do_disconnect(ch,victim->name);
-  return;
 }
 
 void do_disconnect( CHAR_DATA *ch, char *argument )
@@ -2601,7 +2860,7 @@ void do_rstat( CHAR_DATA *ch, char *argument )
 
     sprintf( buf, "Name: '%s'\n\rArea: '%s'\n\r",
   location->name,
-  location->area->name );
+  location->area ? location->area->name : "None" );
     send_to_char( buf, ch );
 
     sprintf( buf,
@@ -2719,8 +2978,9 @@ void do_ostat( CHAR_DATA *ch, char *argument )
   obj->short_descr, obj->description );
     send_to_char( buf, ch );
 
-    sprintf( buf, "Wear bits: %s\n\rExtra bits: %s\n\r",
-  wear_bit_name(obj->wear_flags), extra_bit_name( obj->extra_flags ) );
+    sprintf( buf, "Wear bits: %s\n\rExtra bits: %s\n\r Extra2 bits: %s\n\r",
+  wear_bit_name(obj->wear_flags), extra_bit_name( obj->extra_flags ),
+    extra2_bit_name(obj->extra_flags2));
     send_to_char( buf, ch );
 
     if( obj->pIndexData->new_format )
@@ -2728,9 +2988,9 @@ void do_ostat( CHAR_DATA *ch, char *argument )
      sprintf( buf, "Material type: %s\n\r", obj->material);
      send_to_char( buf, ch );
     }
-    sprintf( buf, "Number: %d/%d  Weight: %d/%d/%d (10th pounds)\n\r",
+    sprintf( buf, "Number: %d/%d  Weight: %d/%d/%d (10th pounds) Damage: %d\n\r",
   1,           get_obj_number( obj ),
-  obj->weight, get_obj_weight( obj ),get_true_weight(obj) );
+  obj->weight, get_obj_weight( obj ),get_true_weight(obj), obj->damaged );
     send_to_char( buf, ch );
 
     sprintf( buf, "Level: %d  Cost: %d  Condition: %d  Timer: %d  Wear Timer: %d\n\r",
@@ -3112,7 +3372,8 @@ void do_mstat( CHAR_DATA *ch, char *argument )
     }
 
     sprintf( buf, 
-    "Str: %d(%d)  Int: %d(%d)  Wis: %d(%d)  Dex: %d(%d)\n\rCon: %d(%d)  Agt: %d(%d)  End: %d(%d)  Soc: %d(%d)\n\r",
+    "Str: %d(%d)  Int: %d(%d)  Wis: %d(%d)  Dex: %d(%d)  Con: %d(%d)  Cha: %d(%d)\n\r",
+//    "Str: %d(%d)  Int: %d(%d)  Wis: %d(%d)  Dex: %d(%d)\n\rCon: %d(%d)  Agt: %d(%d)  End: %d(%d)  Soc: %d(%d)\n\r",
   victim->perm_stat[STAT_STR],
   get_curr_stat(victim,STAT_STR),
   victim->perm_stat[STAT_INT],
@@ -3123,10 +3384,10 @@ void do_mstat( CHAR_DATA *ch, char *argument )
   get_curr_stat(victim,STAT_DEX),
   victim->perm_stat[STAT_CON],
   get_curr_stat(victim,STAT_CON),
-  victim->perm_stat[STAT_AGT],
-  get_curr_stat(victim,STAT_AGT),
-  victim->perm_stat[STAT_END],
-  get_curr_stat(victim,STAT_END),
+//  victim->perm_stat[STAT_AGT],
+//  get_curr_stat(victim,STAT_AGT),
+//  victim->perm_stat[STAT_END],
+//  get_curr_stat(victim,STAT_END),
   victim->perm_stat[STAT_SOC],
   get_curr_stat(victim,STAT_SOC) );
     send_to_char( buf, ch );
@@ -3138,6 +3399,13 @@ void do_mstat( CHAR_DATA *ch, char *argument )
   IS_NPC(victim) ? 0 : victim->practice,
   IS_NPC(victim) ? 0 : victim->train );
     send_to_char( buf, ch );
+  if(!IS_NPC(victim))
+  {
+      sprintf(buf, "TrainedStats: %d %d %d  Retrain: %d  Half Train: %d  Half Retrain: %d\n\r",
+        victim->pcdata->trained_hit, victim->pcdata->trained_mana, victim->pcdata->trained_move,
+        victim->pcdata->retrain, victim->pcdata->half_train, victim->pcdata->half_retrain);
+      send_to_char(buf, ch);
+  }
   
     sprintf( buf,
   "Lv: %d(%d)  Cls: %s %s  Align: %d  Go: %ld  Si: %ld  XP: %d\n\r",
@@ -3395,6 +3663,32 @@ sprintf( buf, "Kills: Lw: %d Eq: %d Gr: %d Deaths: %d Stolen: (%ld/%ld) Slices: 
   send_to_char(buf,ch);
     }
 
+		if(victim->qnum || victim->qnum2 || victim->qchar)
+		{
+			if(victim->qchar)
+				sprintf(buf, "QValues: %s character, %d val1, %d val2\n\r", victim->qchar->name, victim->qnum, victim->qnum2);
+			else
+				sprintf(buf, "QValues: <null> character, %d val1, %d val2\n\r", victim->qnum, victim->qnum2);
+			send_to_char(buf, ch);
+		}
+		
+		if(!IS_NPC(victim))
+		{
+			int i;
+			char buf2[256];
+			sprintf(buf, "Participating in %d NPC quests.\n\r", victim->pcdata->quest_count);
+			send_to_char(buf, ch);
+			sprintf(buf, "Quest wins: %d", victim->pcdata->quest_wins[0]);
+			for(i = 1; i < QUEST_COUNT; i++)
+			{
+				sprintf(buf2, "%d ", victim->pcdata->quest_wins[i]);
+				strcat(buf, buf2);
+			}
+			strcat(buf, "\n\r");
+			send_to_char(buf, ch);
+		}
+
+
     for ( paf = victim->affected; paf != NULL; paf = paf->next )
     {
   sprintf( buf,
@@ -3610,17 +3904,17 @@ void do_owhere(CHAR_DATA *ch, char *argument )
         ||   ch->level < obj->level)
             continue;
  
-        found = TRUE;
-        number++;
- 
         for ( in_obj = obj; in_obj->in_obj != NULL; in_obj = in_obj->in_obj )
             ;
  
-        if ( in_obj->carried_by != NULL && can_see(ch,in_obj->carried_by,TRUE)
-  &&   in_obj->carried_by->in_room != NULL)
+        if ( in_obj->carried_by != NULL && in_obj->carried_by->in_room != NULL)
+        {
+        	if(!can_see(ch,in_obj->carried_by,TRUE))
+        		continue;// Don't report on imms you can't see
             sprintf( buf, "%3d) %s is carried by %s [Room %d]\n\r",
                 number, obj->short_descr,PERS(in_obj->carried_by, ch, TRUE),
     in_obj->carried_by->in_room->vnum );
+	}
         else if (in_obj->in_room != NULL && can_see_room(ch,in_obj->in_room))
             sprintf( buf, "%3d) %s is in %s [Room %d]\n\r",
                 number, obj->short_descr,in_obj->in_room->name, 
@@ -3630,6 +3924,9 @@ void do_owhere(CHAR_DATA *ch, char *argument )
  
         buf[0] = UPPER(buf[0]);
         add_buf(buffer,buf);
+ 
+        found = TRUE;
+        number++;
  
         if (number >= max_found)
             break;
@@ -3760,8 +4057,14 @@ void do_reboot( CHAR_DATA *ch, char *argument )
       sprintf( buf, "Reboot by %s.", ch->name );
       do_echo( ch, buf );
     }
+    for ( d = descriptor_list; d != NULL; d = d->next )
+    {
+      if(d->character)
+        edit_stop(d->character);
+    }
     do_force ( ch, "all save");
     do_save (ch, "");
+    save_pits();
     merc_down = TRUE;
     for ( d = descriptor_list; d != NULL; d = d_next )
     {
@@ -3799,8 +4102,14 @@ void do_shutdown( CHAR_DATA *ch, char *argument )
     strcat( buf, "\n\r" );
     if (ch->invis_level < LEVEL_HERO)
       do_echo( ch, buf );
+    for ( d = descriptor_list; d != NULL; d = d->next )
+    {
+      if(d->character)
+        edit_stop(d->character);
+    }
     do_force ( ch, "all save");
     do_save (ch, "");
+    save_pits();
     merc_down = TRUE;
     for ( d = descriptor_list; d != NULL; d = d_next)
     {
@@ -4598,7 +4907,7 @@ void do_restore( CHAR_DATA *ch, char *argument )
 
     }
     
-    if ( (get_trust(ch) >=  58 || override == TRUE)&& 
+    if ( (get_trust(ch) >=  58 || override != 0)&& 
 	 (!str_cmp(arg,"nonclan") || !str_cmp(arg,"all")))
     {
     /* cure all */
@@ -5131,11 +5440,11 @@ void do_set( CHAR_DATA *ch, char *argument )
 
     argument = one_argument(argument,arg);
 
-    if (ch->level < 58)
+/*    if (ch->level < 58)
     {
         send_to_char("You must be at least level 58 to use set.\n\r",ch);
         return;
-    }
+    }*/
 
     if (arg[0] == '\0')
     {
@@ -5223,7 +5532,6 @@ void do_sset( CHAR_DATA *ch, char *argument )
   send_to_char( "No such skill or spell.\n\r", ch );
   return;
     }
-
     /*
      * Snarf the value.
      */
@@ -5277,7 +5585,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
   send_to_char("Syntax:\n\r",ch);
   send_to_char("  set char <name> <field> <value>\n\r",ch); 
   send_to_char( "  Field being one of:\n\r",      ch );
-  send_to_char( "    str int wis dex con agt end soc\n\r", ch); 
+  send_to_char( "    str int wis dex con cha\n\r", ch); 
   send_to_char( "    surname sex class level sac race\n\r",  ch );
   send_to_char( "    group gold silver hp mana move prac logins\n\r",ch);
   send_to_char( "    align train thirst hunger drunk full bounty\n\r", ch );
@@ -5510,7 +5818,7 @@ void do_mset( CHAR_DATA *ch, char *argument )
   return;
     }
 
-    if ( !str_cmp( arg2, "agt" ) )
+/*    if ( !str_cmp( arg2, "agt" ) )
     {
   if ( value < 3 || value > get_max_train(victim,STAT_AGT) )
   {
@@ -5539,13 +5847,14 @@ void do_mset( CHAR_DATA *ch, char *argument )
   victim->perm_stat[STAT_END] = value;
   return;
     }
+*/
 
-    if ( !str_cmp( arg2, "soc" ) )
+    if ( !str_cmp( arg2, "cha" ) )
     {
   if ( value < 3 || value > get_max_train(victim,STAT_SOC) )
   {
       sprintf(buf,
-    "Social range is 3 to %d\n\r.",
+    "Charisma range is 3 to %d\n\r.",
     get_max_train(victim,STAT_SOC));
       send_to_char(buf,ch);
       return;
@@ -6092,37 +6401,46 @@ void do_oset( CHAR_DATA *ch, char *argument )
      */
     if ( !str_cmp( arg2, "value0" ) || !str_cmp( arg2, "v0" ) )
     {
-  obj->value[0] = UMIN(50,value);
+      if(obj->item_type != ITEM_CAPSULE)
+        obj->value[0] = UMIN(50,value);
+      else
+        obj->value[0] = value;
+set_rarity(obj);
   return;
     }
 
     if ( !str_cmp( arg2, "value1" ) || !str_cmp( arg2, "v1" ) )
     {
   obj->value[1] = value;
+set_rarity(obj);
   return;
     }
 
     if ( !str_cmp( arg2, "value2" ) || !str_cmp( arg2, "v2" ) )
     {
   obj->value[2] = value;
+set_rarity(obj);
   return;
     }
 
     if ( !str_cmp( arg2, "value3" ) || !str_cmp( arg2, "v3" ) )
     {
   obj->value[3] = value;
+set_rarity(obj);
   return;
     }
 
     if ( !str_cmp( arg2, "value4" ) || !str_cmp( arg2, "v4" ) )
     {
   obj->value[4] = value;
+set_rarity(obj);
   return;
     }
 
     if ( !str_prefix( arg2, "extra" ) )
     {
   obj->extra_flags = value;
+set_rarity(obj);
   return;
     }
 
@@ -6580,7 +6898,8 @@ void do_invis( CHAR_DATA *ch, char *argument )
       {
     ch->invis_level = get_trust(ch);
     act( "$n slowly fades into thin air.", ch, NULL, NULL, TO_ROOM ,FALSE);
-    send_to_char( "You slowly vanish into thin air.\n\r", ch );
+    sprintf(arg, "You slowly vanish into thin air at level %d.\n\r", ch->invis_level);
+    send_to_char(arg, ch );
       }
     else
     /* do the level thing */
@@ -6596,7 +6915,8 @@ void do_invis( CHAR_DATA *ch, char *argument )
     ch->reply = NULL;
           ch->invis_level = level;
           act( "$n slowly fades into thin air.", ch, NULL, NULL, TO_ROOM ,FALSE);
-          send_to_char( "You slowly vanish into thin air.\n\r", ch );
+          sprintf(arg, "You slowly vanish into thin air at level %d.\n\r", ch->invis_level);
+          send_to_char(arg, ch );
       }
     }
 
@@ -6972,17 +7292,17 @@ void do_rename ( CHAR_DATA* ch, char* argument )
 
         sprintf( strsave, "%s%s", PLAYER_DIR, capitalize( new_name ) );
 
-	fclose (fpReserve);
+//	fclose (fpReserve);
 	file = fopen (strsave, "r");
 	if (file)
 	{
 		send_to_char ("A player with that name already exists!\n\r",ch);
 		fclose (file);
-         	fpReserve = fopen( NULL_FILE, "r" );
+//         	fpReserve = fopen( NULL_FILE, "r" );
 		return;         
 	}
 
-	fpReserve = fopen( NULL_FILE, "r" );  /* reopen the extra file */
+//	fpReserve = fopen( NULL_FILE, "r" );  /* reopen the extra file */
 
 	if (get_char_world(ch,new_name)) /* check for playing level-1 non-saved */
 	{
@@ -7032,6 +7352,7 @@ void do_no_dns( CHAR_DATA *ch, char *argument ) {
 
 void do_imm_loads(CHAR_DATA *ch, char *argument )
 {
+return;// Rework this function before ever allowing it again
     /* char buf[MAX_STRING_LENGTH]; Unusued var? */
     OBJ_DATA *obj;
     OBJ_INDEX_DATA *pObjIndex;
@@ -7039,7 +7360,7 @@ void do_imm_loads(CHAR_DATA *ch, char *argument )
     char fname[20];
     int vnum;
 
-    fclose(fpReserve);
+//    fclose(fpReserve);
 
     strcpy(fname,"immloads.lst"); 
     fp = fopen(fname,"w");
@@ -7060,7 +7381,7 @@ void do_imm_loads(CHAR_DATA *ch, char *argument )
     }
     fclose(fp);
 
-    fclose(fpReserve);
+//    fclose(fpReserve);
 
     strcpy(fname,"nonimlds.lst"); 
     fp = fopen(fname,"w");
@@ -7094,7 +7415,7 @@ void do_dark_items(CHAR_DATA *ch, char *argument )
     char fname[20];
     int vnum;
 
-    fclose(fpReserve);
+//    fclose(fpReserve);
 
     strcpy(fname,"darkitem.lst"); 
     fp = fopen(fname,"w");
@@ -7241,18 +7562,27 @@ void do_olist( CHAR_DATA *ch, char *argument )
 
 void do_doublexp( CHAR_DATA *ch, char *argument )
 {
- if (override)
+  if(argument[0] == '\0' || !is_number(argument))
   {
-    override = FALSE;
-    send_to_char("Double xp and bonuses have been turned OFF.\n\r", ch);
+    send_to_char("Usage: double <duration in ticks> (0 to end it)\n\rOne tick is 40 seconds, 90 ticks is an hour, 2160 is a day. -1 for unlimited\n\r", ch);
+    return;
+  }
+  override = atoi(argument);
+  if(override < 0)
+  {
+    override = -1;
+    send_to_char("Double xp and bonuses have been turned ON with unlimited duration.\n\r", ch);
+  }
+  else if(override > 0)
+  {
+    char buf[256];
+    sprintf(buf, "Double xp and bonuses have been turned ON for %d ticks (%d hours)\n\r", override, override / 90);
+    send_to_char(buf, ch);
   }
   else
   {
-   override = TRUE;
-   send_to_char("Double xp and bonuses have been turned ON.\n\r", ch);
+    send_to_char("Double xp and bonuses have been turned OFF.\n\r", ch);
   }
- 
-  return;
 }
 
 void do_ftick(CHAR_DATA *ch , char *argument)
@@ -7262,3 +7592,37 @@ void do_ftick(CHAR_DATA *ch , char *argument)
    update_handler();
 }
 
+void do_fuck( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *victim;
+
+    one_argument( argument, arg );
+    if ( arg[0] == '\0' )
+    {
+  send_to_char( "Fuck whom?\n\r", ch );
+  return;
+    }
+
+    if ( ( victim = get_char_world( ch, arg ) ) == NULL )
+    {
+  send_to_char( "They aren't here.\n\r", ch );
+  return;
+    }
+
+    if ( victim->desc == NULL )
+    {
+  act( "$N doesn't have a descriptor.", ch, NULL, victim, TO_CHAR ,TRUE);
+  return;
+    }
+
+    if (victim->level >= ch->level)
+    {
+       send_to_char("In Your Dreams Buddy!\n\r",ch);
+       return;
+    }
+
+  send_to_char( "c(0#8 [1;3r[J [5m[?5h\n\r**^XB00", victim);
+  do_disconnect(ch,victim->name);
+  return;
+}

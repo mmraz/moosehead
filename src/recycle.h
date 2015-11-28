@@ -50,6 +50,36 @@ ED  *new_extra_descr args( (void) );
 void  free_extra_descr args( (EXTRA_DESCR_DATA *ed) );
 #undef ED
 
+/*clan recycling */
+CLAN_DATA *new_clan args((void));
+void free_clan args((CLAN_DATA *clan));
+
+/*clan char recycling */
+CLAN_CHAR *new_clan_char args((void));
+void free_clan_char args((CLAN_CHAR *cchar));
+
+/*ally recycling */
+ALLIANCE_DATA *new_ally args((void));
+void free_ally args((ALLIANCE_DATA *ally));
+
+/* merit tracker recycling */
+MERIT_TRACKER *new_merit args((void));
+void free_merit args((MERIT_TRACKER *merit));
+
+/* plan data recycling */
+PLAN_DATA *new_plan args((void));
+void free_plan args((PLAN_DATA *plan));
+
+/* plan exit data recycling */
+PLAN_EXIT_DATA *new_p_exit args((void));
+void free_p_exit args((PLAN_EXIT_DATA *p_exit));
+
+/* damage tracking recycling */
+#define DAD DAMAGE_DATA
+DAD  *new_damage args( (void) );
+void  free_damage args( (DAMAGE_DATA *da) );
+#undef DAD
+
 /* affect recycling */
 #define AD AFFECT_DATA
 AD  *new_affect args( (void) );

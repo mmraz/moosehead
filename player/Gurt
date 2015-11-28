@@ -3,19 +3,20 @@ Name Gurt~
 SurN Gurtson~
 Id   1107585961
 Email (null)~
-LogO 1130533066
-Vers 31
+LogO 1363391517
+Vers 33
 LnD  A Gladiator~
-Prom <%hhp %mm %vmv %Xxp %Spts> ~
+Prom <%h/%Hhp %m/%Mm %vmv %Xxp %Spts> ~
 Race volare~
 Outc 0
 RufT 0
-MatookT 0
+MatookT 27
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +28,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 122946 matook~
 Sac  300
 Sex  1
@@ -34,21 +41,20 @@ Vump  0
 Node 0
 Cap 0
 Created 1107585999
-Glad 2 2 0 0 2 0
-LastHost 24.16.129.245~
+Glad 2 2 0 1 2 1
 Cla  4
 Kit acrobat~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 341184
-Not  1126328533 1130446298 1113166260 1130510192 1121859963 1130523462 1113166260 1126315041 1113166260 1129478192
+Plyd 380365
+Not  1361501064 1361489894 1113166260 1361403731 1361566834 1361539382 1113166260 1359874532 1113166260 1360882323
 Scro 22
 Rank 0
-Room 16503
-HMV  1018 1018 717 717 712 712
-Gold 304
-Silv 9903
+Room 9616
+HMV  1178 1178 737 737 712 712
+Gold 392
+Silv 14872
 Exp  255276
 Act  CDGHIK
 MHSF R
@@ -59,25 +65,25 @@ IcgB 0
 Icg 0
 Pnet ABCEFGHI
 Pos  8
-Prac 4
-SkiP 137
+Prac 5
+SkiP 231
 Save  -4
-Alig  555
+Alig  1000
 Hit   33
-Dam   41
+Dam   46
 SecHit   24
-SecDam   30
+SecDam   35
 ACs -362 -362 -362 -362
 Wimp  10
-Attr 17 19 21 19 18 18 19 22
-AMod 4 5 5 0 4 0 0 2
-Pass GuuHqSav7dB0U~
+Attr 17 19 21 19 18 10 11 22
+AMod 4 2 2 0 4 0 0 0
+Pass Guxlxs6w/TV9g~
 Titl , 90 degrees~
 Pnts 80
 TSex 1
 LLev 44
-HMVP 973 717 677
-Cnd  0 0 0 0
+HMVP 1133 717 677
+Cnd  0 0 14 14
 Alias / c word~
 Alias 9 order all rescue gurt~
 Alias 6 cast 'cure critical'~
@@ -101,7 +107,6 @@ Sk 83 'chain lightning'
 Sk 1 'change sex'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 71 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -120,12 +125,12 @@ Sk 74 'demonfire'
 Sk 77 'detect evil'
 Sk 1 'detect good'
 Sk 68 'detect hidden'
-Sk 76 'detect invis'
-Sk 78 'detect magic'
+Sk 79 'detect invis'
+Sk 81 'detect magic'
 Sk 1 'detect poison'
 Sk 1 'dispel evil'
 Sk 1 'dispel good'
-Sk 73 'dispel magic'
+Sk 75 'dispel magic'
 Sk 88 'earthquake'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
@@ -139,7 +144,7 @@ Sk 1 'farsight'
 Sk 79 'feast'
 Sk 1 'feeblemind'
 Sk 1 'fireball'
-Sk 82 'fireproof'
+Sk 85 'fireproof'
 Sk 1 'flamestrike'
 Sk 1 'floating disc'
 Sk 71 'fly'
@@ -158,7 +163,7 @@ Sk 73 'infravision'
 Sk 1 'knock'
 Sk 1 'know alignment'
 Sk 1 'lightning bolt'
-Sk 68 'locate object'
+Sk 73 'locate object'
 Sk 1 'magic missile'
 Sk 71 'mass healing'
 Sk 71 'nexus'
@@ -167,21 +172,21 @@ Sk 63 'plague'
 Sk 71 'poison'
 Sk 36 'portal'
 Sk 74 'protection evil'
-Sk 75 'protection good'
+Sk 76 'protection good'
 Sk 71 'protection neutral'
 Sk 100 'ray of truth'
 Sk 94 'refresh'
 Sk 1 'regeneration'
 Sk 76 'remove curse'
 Sk 1 'sacred guardian'
-Sk 76 'sanctuary'
-Sk 76 'shield'
+Sk 78 'sanctuary'
+Sk 79 'shield'
 Sk 71 'shield of faith'
 Sk 1 'shocking grasp'
 Sk 1 'slow'
-Sk 71 'stone skin'
+Sk 73 'stone skin'
 Sk 74 'summon'
-Sk 76 'teleport'
+Sk 87 'teleport'
 Sk 97 'warp'
 Sk 61 'weaken'
 Sk 96 'word of recall'
@@ -241,626 +246,12 @@ Cost 3000
 End
 
 #O
-Vnum 6409
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 11800
-Val  35 10 9 84 0
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 1373
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 3400
-Val  21 15 14 59 0
-Spell 3 'cure serious'
-End
-
-#O
-Vnum 5933
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5933
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 5923
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'frenzy'
-Spell 2 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 10412
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 9600
-Val  46 10 1 224 0
-Spell 3 'small bomb'
-End
-
-#O
-Vnum 10412
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 9600
-Val  46 10 5 224 0
-Spell 3 'small bomb'
-End
-
-#O
-Vnum 10412
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 9600
-Spell 3 'small bomb'
-End
-
-#O
-Vnum 10412
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 9600
-Spell 3 'small bomb'
-End
-
-#O
-Vnum 10412
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 9600
-Spell 3 'small bomb'
-End
-
-#O
-Vnum 5923
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'frenzy'
-Spell 2 'haste'
-End
-
-#O
-Vnum 5933
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 11145
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 10032
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 1700
-Val  4 3 12 7 1280
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 5902
-Enchanted
-Nest 1
-PrevOwner Gurt~
-ExtF 0
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 23108
-Nest 1
-PrevOwner Gurt~
-ExtF 134217728
-Wt   9
-Wrp 5
-Cond 0
-Wear -1
-Cost 1500
-Val  5 5 5 4 3
-End
-
-#O
-Vnum 16721
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 1400
-End
-
-#O
-Vnum 5212
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 20825
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 1130
-Spell 1 'dispel evil'
-Spell 2 'cure critical'
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 20819
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 22507
-Enchanted
-Nest 1
-PrevOwner Gurt~
-ExtF 134479937
-Wt   9
-Wrp 1
-Cond 0
-Wear -1
-Cost 0
-Val  12 12 12 15 3
-Affc 'reserved'   1  50  -1  75  12          0
-Affc 'reserved'   1  50  -1   3   2          0
-Affc 'reserved'   1  50  -1   2   3          0
-Affc 'enchant armor'   1  53  -1  -5  17          0
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
 Vnum 8503
 Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Gurt~
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10431
-Enchanted
-Nest 1
-PrevOwner Gurt~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6500
-Affc 'enchant weapon'   0  52  -1  12  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-End
-
-#O
-Vnum 10431
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 6500
-Val  4 5 8 7 1280
-End
-
-#O
-Vnum 10431
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 6500
-Val  4 5 8 7 1280
-End
-
-#O
-Vnum 10069
-Enchanted
-Nest 1
-PrevOwner Gurt~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 1000
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   1  53  -1   8  18          0
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Gurt~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 6400
-Affc 'reserved'   1  47  -1  -5  17          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-Affc 'enchant weapon'   0  52  -1  10  18          0
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Gurt~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 6400
-Affc 'reserved'   1  47  -1  -5  17          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-Affc 'enchant weapon'   0  52  -1  10  18          0
-End
-
-#O
-Vnum 10445
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 6400
-Val  4 5 8 38 512
-End
-
-#O
-Vnum 5409
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22552
-Enchanted
-Nest 1
-PrevOwner Gurt~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
-Vnum 12014
-Enchanted
-Nest 1
-PrevOwner Gurt~
-Name spoon bent~
-ShD  a bent spoon~
-Desc DOH! You've stepped on a spoon and bent it!~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Val  6 2 20 7 1065
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
@@ -936,15 +327,6 @@ PrevOwner (null)~
 Cond 0
 Wear 4
 Cost 300
-End
-
-#O
-Vnum 12070
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 17
-Cost 25000
 End
 
 #O
@@ -1046,30 +428,729 @@ Val  12 12 12 5 3
 End
 
 #O
-Vnum 5212
+Vnum 2513
 Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 710
+End
+
+#O
+Vnum 23021
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 710
+End
+
+#O
+Vnum 9602
+Nest 1
 PrevOwner Gurt~
 Cond 0
-Wear 18
-Cost 550
+Wear -1
+Cost 1000
 End
 
 #O
 Vnum 3018
-Nest 0
-PrevOwner (null)~
+Nest 1
+PrevOwner Gurt~
 Cond 0
 Wear -1
 Cost 1310
 End
 
 #O
-Vnum 9602
-Nest 0
-PrevOwner (null)~
+Vnum 5923
+Nest 1
+PrevOwner Gurt~
 Cond 0
 Wear -1
+Cost 0
+Spell 1 'frenzy'
+Spell 2 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 10412
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 9600
+Val  46 10 1 229 0
+Spell 3 'small bomb'
+End
+
+#O
+Vnum 10412
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 9600
+Val  46 10 5 229 0
+Spell 3 'small bomb'
+End
+
+#O
+Vnum 10412
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 9600
+Spell 3 'small bomb'
+End
+
+#O
+Vnum 10412
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 9600
+Spell 3 'small bomb'
+End
+
+#O
+Vnum 10412
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 9600
+Spell 3 'small bomb'
+End
+
+#O
+Vnum 16721
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 1400
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 6409
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 11800
+Val  35 10 9 87 0
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 1373
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 3400
+Val  21 15 14 62 0
+Spell 3 'cure serious'
+End
+
+#O
+Vnum 22507
+Enchanted
+Nest 1
+PrevOwner Gurt~
+ExtF 134479937
+Wt   9
+Wrp 1
+Cond 0
+Wear -1
+Cost 0
+Val  12 12 12 15 3
+Affc 'reserved'   1  50  -1  75  12          0
+Affc 'reserved'   1  50  -1   3   2          0
+Affc 'reserved'   1  50  -1   2   3          0
+Affc 'enchant armor'   1  53  -1  -5  17          0
+End
+
+#O
+Vnum 5933
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5933
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5933
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5923
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'frenzy'
+Spell 2 'haste'
+End
+
+#O
+Vnum 5212
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 5212
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 10069
+Enchanted
+Nest 1
+PrevOwner Gurt~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
 Cost 1000
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Gurt~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 6500
+Val  4 5 8 7 1280
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 6500
+Val  4 5 8 7 1280
+End
+
+#O
+Vnum 10032
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 1700
+Val  4 3 12 7 1280
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 1
+PrevOwner Gurt~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 6400
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 1
+PrevOwner Gurt~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 6400
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
+End
+
+#O
+Vnum 10445
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 6400
+Val  4 5 8 38 512
+End
+
+#O
+Vnum 5902
+Enchanted
+Nest 1
+PrevOwner Gurt~
+ExtF 0
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 22089
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 12014
+Enchanted
+Nest 1
+PrevOwner Gurt~
+Name spoon bent~
+ShD  a bent spoon~
+Desc DOH! You've stepped on a spoon and bent it!~
+ExtF 67
+Cond 0
+Wear -1
+Cost 0
+Val  6 2 20 7 1065
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 5409
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500
+End
+
+#O
+Vnum 11310
+Nest 1
+PrevOwner Gurt~
+Damaged 90
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 20825
+Nest 1
+PrevOwner Gurt~
+ExtF 1121
+Damaged 84
+Cond 0
+Wear -1
+Cost 1130
+Spell 1 'dispel evil'
+Spell 2 'cure critical'
+End
+
+#O
+Vnum 22552
+Enchanted
+Nest 1
+PrevOwner Gurt~
+ExtF 67
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Gurt~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 23108
+Nest 1
+PrevOwner Gurt~
+ExtF 134217728
+Wt   9
+Wrp 5
+Cond 0
+Wear -1
+Cost 1500
+Val  5 5 5 4 3
+End
+
+#O
+Vnum 11145
+Nest 0
+PrevOwner Gurt~
+Cond 0
+Wear 18
+Cost 4500
+End
+
+#O
+Vnum 20819
+Nest 0
+PrevOwner Gurt~
+Cond 0
+Wear 17
+Cost 4000
 End
 
 #O
@@ -1078,7 +1159,6 @@ Enchanted
 Nest 0
 PrevOwner Gurt~
 ExtF 66
-Stolen 412
 Cond 0
 Wear 16
 Lev  50
@@ -1087,6 +1167,24 @@ Val  4 5 8 38 1024
 Affc 'reserved'   1  47  -1  -5  17          0
 Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   0  52  -1   9  18          0
+End
+
+#O
+Vnum 20803
+Nest 0
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 20000
+End
+
+#O
+Vnum 20802
+Nest 0
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 6000
 End
 
 #END

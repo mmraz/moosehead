@@ -3,8 +3,8 @@ Name Sayaka~
 SurN Takeii~
 Id   995693739
 Email (null)~
-LogO 1131257649
-Vers 31
+LogO 1444404926
+Vers 33
 Desc I was stained with a role, in a day not my own.
 But as you walked into my life, you showed what needed to be shown.
 I always knew what was right, I just didn't know that I might
@@ -46,14 +46,15 @@ Desc I was stained with a role, in a day not my own.
 Prom <%hhp %mm %vmv %X %S %w> ~
 Race human~
 Clan zealot~
-Outc 656
+Outc 418
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 0 2 0 1
 Steal 0 0 0
+MSteal 0
 LstK Maichigo~
 LstKBy Anazar~
 LstAtkedBy no one~
@@ -61,10 +62,16 @@ LstAtkedByTimer 0
 LstCombatDate 1040520396
 LstKillDate 1037010472
 LstDeathDate 1040517407
-LoginsWOKill 85
-LoginsWODeath 77
-LoginsWOCombat 76
+LoginsWOKill 124
+LoginsWODeath 116
+LoginsWOCombat 115
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 25785 almighty~
 DeityT -2162 almighty~
 Sac  300
@@ -74,48 +81,49 @@ Node 0
 Cap 0
 Created 995693766
 Glad 0 0 0 0 0 0
-LastHost 65-101-104-218.spkn.qwest.net~
+LastHost 58.85.103.174~
 Cla  4
-Kit prophet~
+Kit acrobat~
 ClaO 1
 Levl 33
 DLevl 0
-Plyd 216917
-Not  1068635280 1068798852 1068635280 1131210186 1068635280 1068953901 1068635280 1108459579 1068635280 1129478192
+Plyd 226664
+Not  1410235890 1406980220 1068635280 1371977109 1367893112 1444346353 1068635280 1443430548 1068635280 1384474516
 Scro 22
 Rank 0
-Room 31816
+Room 31807
 HMV  420 420 407 407 260 260
-Gold 1038
+Gold 946
 Silv 17
-Exp  259952
+Exp  259416
 Act  CDEFGHKMQS
 MHSF RU
-AfBy C
-Comm I
+AfBy BC
+Comm 0
 Disp FGIJN
 IcgB 0
 Icg 0
 Pos  8
-Prac 2
-SkiP 4
+Prac 30
+ReTrai 12
+SkiP 7
 Save  -6
 Alig  -1000
-Hit   16
-Dam   27
-SecHit   15
-SecDam   26
-ACs -83 -83 -83 -83
+Hit   14
+Dam   29
+SecHit   13
+SecDam   28
+ACs -64 -64 -64 -64
 Wimp  50
-Attr 18 18 19 20 18 18 18 21
-AMod 4 0 1 5 0 0 0 0
+Attr 18 18 19 20 18 10 10 25
+AMod 4 0 1 3 0 0 0 0
 Pass Safl2q0pBogm.~
 Titl  : Broken Heart of The Almighty~
 Pnts 99
 TSex 2
 LLev 52
 HMVP 430 421 255
-Cnd  0 14 0 23
+Cnd  0 0 20 20
 Sk 1 'aid'
 Sk 1 'armor'
 Sk 1 'bestow holiness'
@@ -127,7 +135,6 @@ Sk 1 'calm'
 Sk 78 'cancellation'
 Sk 1 'change sex'
 Sk 75 'charm person'
-Sk 1 'cone of silence'
 Sk 1 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -176,7 +183,6 @@ Sk 75 'heat metal'
 Sk 1 'hold person'
 Sk 1 'holy word'
 Sk 75 'identify'
-Sk 75 'imbue'
 Sk 75 'invisibility'
 Sk 1 'knock'
 Sk 1 'know alignment'
@@ -218,8 +224,9 @@ Sk 1 'wound transfer'
 Sk 1 'dagger'
 Sk 1 'flail'
 Sk 100 'mace'
-Sk 1 'backstab'
+Sk 75 'backstab'
 Sk 74 'kailindo'
+Sk 75 'tumbling'
 Sk 94 'kick'
 Sk 1 'shield block'
 Sk 85 'scan'
@@ -248,15 +255,7 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-End
-
-#O
-Vnum 23110
-Nest 0
-PrevOwner Sayaka~
-Cond 0
-Wear 8
-Cost 1500
+Affc 'invisibility'   0  28  26   0   0          2
 End
 
 #O
@@ -302,15 +301,6 @@ PrevOwner Sayaka~
 Cond 0
 Wear 1
 Cost 1150
-End
-
-#O
-Vnum 23107
-Nest 0
-PrevOwner Sayaka~
-Cond 0
-Wear 10
-Cost 1500
 End
 
 #O
@@ -378,16 +368,6 @@ Cost 75
 End
 
 #O
-Vnum 1260
-Nest 1
-PrevOwner Pieto~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'haste'
-End
-
-#O
 Vnum 4439
 Nest 1
 PrevOwner Pieto~
@@ -412,7 +392,7 @@ PrevOwner Pieto~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -440,14 +420,13 @@ Enchanted
 Nest 1
 PrevOwner Sayaka~
 ExtF 66
-Stolen 119
 Cond 0
 Wear -1
 Lev  22
 Cost 2800
-Affc 'enchant weapon'   1  38  -1   5  19          0
-Affc 'reserved'   0  20  -1   0   0        256
 Affc 'enchant weapon'   0  38  -1   2  18          0
+Affc 'reserved'   0  20  -1   0   0        256
+Affc 'enchant weapon'   1  38  -1   5  19          0
 End
 
 #O
@@ -540,7 +519,7 @@ PrevOwner Sayaka~
 Cond 0
 Wear -1
 Cost 7000
-Val  45 208 -1 -1 -1
+Val  45 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -551,7 +530,7 @@ PrevOwner Sayaka~
 Cond 0
 Wear -1
 Cost 7000
-Val  45 208 -1 -1 -1
+Val  45 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -562,7 +541,7 @@ PrevOwner Sayaka~
 Cond 0
 Wear -1
 Cost 7000
-Val  45 208 -1 -1 -1
+Val  45 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -642,7 +621,7 @@ Cond 0
 Wear -1
 Lev  16
 Cost 0
-Val  53 6 6 72 -1
+Val  53 6 6 75 -1
 Spell 3 'dispel magic'
 End
 
@@ -659,7 +638,7 @@ Cond 0
 Wear -1
 Lev  12
 Cost 0
-Val  53 6 6 19 -1
+Val  53 6 6 22 -1
 Spell 3 'blindness'
 End
 
@@ -676,7 +655,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  53 4 4 179 -1
+Val  53 4 4 184 -1
 Spell 3 'slow'
 End
 
@@ -827,6 +806,16 @@ Spell 3 'harm'
 End
 
 #O
+Vnum 1260
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'haste'
+End
+
+#O
 Vnum 8500
 Nest 0
 PrevOwner (null)~
@@ -860,6 +849,168 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 3365
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3364
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3360
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 450
+End
+
+#O
+Vnum 3358
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 450
+End
+
+#O
+Vnum 3364
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3361
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 380
+End
+
+#O
+Vnum 3359
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 450
+End
+
+#O
+Vnum 3365
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3350
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 7216
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 5800
+End
+
+#O
+Vnum 7305
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 3700
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 9201
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 23110
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 23107
+Nest 1
+PrevOwner Sayaka~
+Cond 0
+Wear -1
+Cost 1500
 End
 
 #O
@@ -992,7 +1143,6 @@ End
 Vnum 16151
 Nest 1
 PrevOwner Sayaka~
-Stolen 1
 Cond 0
 Wear -1
 Cost 3200
@@ -1002,7 +1152,6 @@ End
 Vnum 9203
 Nest 1
 PrevOwner Sayaka~
-Stolen 134
 Cond 0
 Wear -1
 Cost 2800
@@ -1108,47 +1257,11 @@ Cost 0
 End
 
 #O
-Vnum 9201
-Nest 0
-PrevOwner FuzzyWuzzy~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Sayaka~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Demnogonis~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 7305
-Nest 0
-PrevOwner Demnogonis~
-Cond 0
-Wear -1
-Cost 3700
-End
-
-#O
 Vnum 7309
 Nest 0
 PrevOwner Demnogonis~
 Cond 0
-Wear -1
+Wear 8
 Cost 3700
 End
 
@@ -1157,117 +1270,17 @@ Vnum 7310
 Nest 0
 PrevOwner Demnogonis~
 Cond 0
-Wear -1
+Wear 10
 Cost 3700
-End
-
-#O
-Vnum 7216
-Nest 0
-PrevOwner Demnogonis~
-Cond 0
-Wear -1
-Cost 5800
 End
 
 #O
 Vnum 5406
 Nest 0
 PrevOwner Sayaka~
-Stolen 240
 Cond 0
 Wear 16
 Cost 0
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Sayaka~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3350
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1280
-End
-
-#O
-Vnum 3365
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 640
-End
-
-#O
-Vnum 3359
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 450
-End
-
-#O
-Vnum 3361
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 380
-End
-
-#O
-Vnum 3364
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1280
-End
-
-#O
-Vnum 3358
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 450
-End
-
-#O
-Vnum 3360
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 450
-End
-
-#O
-Vnum 3364
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1280
-End
-
-#O
-Vnum 3365
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 640
 End
 
 #END

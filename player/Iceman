@@ -2,20 +2,21 @@
 Name Iceman~
 Id   799241514
 Email (null)~
-LogO 1052113753
+LogO 1316885890
 Vers 31
 Desc A mage from the far depths of the north is he before you.
 With frost bitten fingers, and winter scared face,
 he still moves on, helping his friends in need.
+
 ~
-Prom (%h/%HHp)(%m/%Mm)(%vmv)%c[%e/%r]%c[%gg/%ss]%c> ~
+Prom (%hhp %mm %vmv "%r" %e) ~
 Race elf~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
 SkPTracker 0
-LogoutTracker 1
+LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
 LstK no one~
@@ -29,67 +30,73 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 mojo~
 DeityT -8 mojo~
-Sac  48
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 962038757
 Glad 0 0 0 0 0 0
-LastHost mmarch.gta.igs.net~
+LastHost 184.151.127.253~
 Cla  0
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 2055118
-Not  1051891852 862474030 0 1051892967 977681313 910204615 0 0 0 0
+Plyd 2152790
+Not  1307642737 1307808945 0 1308329065 977681313 1308038334 0 1307500318 0 0
 Scro 18
 Rank 0
-Room 3001
-HMV  386 386 992 992 175 250
-Gold 4
-Silv 6353
+Room 20007
+HMV  426 426 1103 1157 250 250
+Gold 578
+Silv 2505
 Exp  73950
 Act  DEGMQS
-MHSF R
-AfBy J
-Comm GOS
+MHSF RX
+AfBy DFJ
+Comm DLOS
 Disp BFJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 170
-Trai 27
-SkiP 500
-Save  -2
+Prac 47
+Trai 14
+SkiP 13
 Alig  -1000
-Hit   3
-Dam   2
-SecHit   2
-SecDam   2
-ACs 53 51 52 86
-Wimp  50
-Attr 12 22 18 21 16 13 13 13
-AMod 0 1 0 -1 2 0 0 0
+Hit   15
+Dam   12
+SecHit   12
+SecDam   10
+ACs 11 11 17 55
+Wimp  40
+Attr 17 22 18 21 16 11 12 13
+AMod 3 0 0 0 1 0 0 0
 Pass Ic.9W0VqBXi36~
-Titl  thinks happiness is everything.~
+Titl  is only a little helpful... not Matook~
 Pnts 49
 TSex 1
 LLev 569
-HMVP 366 942 250
-Cnd  0 0 34 0
+HMVP 376 1042 250
+Cnd  0 24 38 30
 Alias e1 c 'enchant weapon' ~
 Alias dis c 'dispel magic' ~
 Alias k or all kill ~
 Alias p or all rescue iceman~
 Alias j c acid~
-Sk 1 'acid blast'
+Alias recall c word~
+Alias invis c 'detect invis'~
+Alias hide c 'detect hidd'~
+Alias g get all corpse~
+Sk 100 'acid blast'
 OldSk 100 'acid blast'
-Sk 1 'armor'
+Sk 100 'armor'
 OldSk 100 'armor'
-Sk 1 'blindness'
+Sk 98 'blindness'
 OldSk 98 'blindness'
 Sk 1 'blur'
 OldSk 1 'blur'
@@ -101,7 +108,7 @@ Sk 1 'calm'
 OldSk 75 'calm'
 Sk 89 'cancellation'
 OldSk 89 'cancellation'
-Sk 1 'chain lightning'
+Sk 96 'chain lightning'
 OldSk 96 'chain lightning'
 Sk 1 'change sex'
 OldSk 1 'change sex'
@@ -111,6 +118,7 @@ Sk 1 'chill touch'
 OldSk 87 'chill touch'
 Sk 1 'colour spray'
 OldSk 82 'colour spray'
+Sk 1 'cone of silence'
 OldSk 90 'continual light'
 Sk 1 'control weather'
 OldSk 76 'control weather'
@@ -119,23 +127,25 @@ OldSk 1 'create fountain'
 OldSk 75 'create rose'
 OldSk 100 'create spring'
 OldSk 71 'create water'
-Sk 1 'curse'
+Sk 83 'curse'
 OldSk 83 'curse'
-Sk 1 'detect evil'
+Sk 78 'detect evil'
 OldSk 78 'detect evil'
-Sk 1 'detect good'
+Sk 81 'detect good'
 OldSk 81 'detect good'
-Sk 1 'detect hidden'
+Sk 97 'detect hidden'
 OldSk 96 'detect hidden'
-Sk 1 'detect invis'
+Sk 100 'detect invis'
 OldSk 97 'detect invis'
 Sk 1 'detect magic'
 OldSk 75 'detect magic'
 Sk 1 'detect poison'
 OldSk 75 'detect poison'
-Sk 1 'dispel magic'
+Sk 93 'dispel magic'
 OldSk 93 'dispel magic'
+Sk 100 'enchant armor'
 OldSk 100 'enchant armor'
+Sk 100 'enchant weapon'
 OldSk 100 'enchant weapon'
 Sk 1 'endure cold'
 OldSk 1 'endure cold'
@@ -144,22 +154,22 @@ OldSk 1 'endure heat'
 Sk 1 'energy drain'
 OldSk 75 'energy drain'
 OldSk 1 'enervation'
-Sk 1 'faerie fire'
+Sk 96 'faerie fire'
 OldSk 96 'faerie fire'
-Sk 1 'faerie fog'
+Sk 72 'faerie fog'
 OldSk 72 'faerie fog'
 Sk 1 'famine'
 OldSk 1 'famine'
-Sk 1 'farsight'
+Sk 75 'farsight'
 OldSk 75 'farsight'
 Sk 1 'feeblemind'
 OldSk 1 'feeblemind'
-Sk 1 'fireball'
+Sk 75 'fireball'
 OldSk 75 'fireball'
-Sk 1 'fireproof'
+Sk 75 'fireproof'
 OldSk 75 'fireproof'
 OldSk 80 'floating disc'
-Sk 1 'fly'
+Sk 100 'fly'
 OldSk 100 'fly'
 Sk 1 'forget'
 OldSk 1 'forget'
@@ -167,29 +177,29 @@ Sk 1 'fumble'
 OldSk 1 'fumble'
 Sk 100 'gate'
 OldSk 100 'gate'
-Sk 1 'giant strength'
+Sk 100 'giant strength'
 OldSk 100 'giant strength'
 Sk 100 'haste'
 OldSk 100 'haste'
 Sk 100 'identify'
 OldSk 100 'identify'
-Sk 1 'infravision'
+Sk 90 'infravision'
 OldSk 90 'infravision'
-Sk 1 'invisibility'
+Sk 100 'invisibility'
 OldSk 100 'invisibility'
 Sk 1 'knock'
 OldSk 1 'knock'
-Sk 1 'know alignment'
+Sk 71 'know alignment'
 OldSk 71 'know alignment'
 Sk 1 'lightning bolt'
 OldSk 96 'lightning bolt'
-Sk 1 'locate object'
+Sk 100 'locate object'
 OldSk 100 'locate object'
-Sk 1 'magic missile'
+Sk 79 'magic missile'
 OldSk 79 'magic missile'
-Sk 1 'mass invis'
+Sk 78 'mass invis'
 OldSk 78 'mass invis'
-Sk 1 'nexus'
+Sk 76 'nexus'
 OldSk 76 'nexus'
 Sk 89 'pass door'
 OldSk 89 'pass door'
@@ -197,41 +207,43 @@ Sk 78 'plague'
 OldSk 78 'plague'
 Sk 1 'poison'
 OldSk 85 'poison'
-Sk 1 'portal'
+Sk 76 'portal'
 OldSk 76 'portal'
-Sk 1 'protection evil'
+Sk 75 'protection evil'
 OldSk 75 'protection evil'
-Sk 1 'protection good'
+Sk 75 'protection good'
 OldSk 75 'protection good'
 Sk 1 'protection neutral'
 OldSk 1 'protection neutral'
+Sk 1 'recharge'
 OldSk 80 'recharge'
-Sk 1 'refresh'
+Sk 85 'refresh'
 OldSk 85 'refresh'
 Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
 Sk 100 'sanctuary'
 OldSk 100 'sanctuary'
-Sk 1 'shield'
+Sk 100 'shield'
 OldSk 100 'shield'
 Sk 1 'shocking grasp'
 OldSk 79 'shocking grasp'
 Sk 100 'sleep'
 OldSk 100 'sleep'
-Sk 1 'slow'
+Sk 94 'slow'
 OldSk 94 'slow'
-Sk 1 'stone skin'
+Sk 84 'stone skin'
 OldSk 84 'stone skin'
-Sk 1 'summon'
+Sk 100 'summon'
 OldSk 100 'summon'
 Sk 99 'teleport'
 OldSk 99 'teleport'
-Sk 1 'ventriloquate'
+Sk 83 'ventriloquate'
 OldSk 83 'ventriloquate'
+Sk 1 'warp'
 OldSk 79 'warp'
-Sk 1 'weaken'
+Sk 99 'weaken'
 OldSk 99 'weaken'
-Sk 1 'word of recall'
+Sk 94 'word of recall'
 OldSk 75 'word of recall'
 OldSk 78 'animate dead'
 OldSk 77 'summon dead'
@@ -243,44 +255,47 @@ OldSk 1 'wound transfer'
 Sk 80 'dagger'
 OldSk 100 'dagger'
 OldSk 77 'dodge'
-Sk 50 'scan'
+Sk 63 'scan'
 OldSk 50 'scan'
 OldSk 100 'haggle'
-Sk 1 'hide'
+Sk 75 'hide'
 OldSk 1 'hide'
 Sk 100 'meditation'
 OldSk 100 'meditation'
-Sk 1 'sneak'
+Sk 80 'sneak'
 OldSk 1 'sneak'
+Sk 79 'spellcraft'
 Sk 77 'scrolls'
 OldSk 77 'scrolls'
-Sk 1 'staves'
+Sk 100 'staves'
 OldSk 100 'staves'
-Sk 1 'wands'
+Sk 94 'wands'
 OldSk 94 'wands'
-Sk 50 'swimming'
+Sk 53 'swimming'
 OldSk 50 'swimming'
 Sk 50 'recall'
 OldSk 75 'recall'
-Sk 1 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
 Gr 'beguiling'
 Gr 'combat'
 Gr 'detection'
+Gr 'enchantment'
 Gr 'enhancement'
 Gr 'illusion'
 Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
+Affc 'detect hidden'   0  51  42   0   0         32
+Affc 'detect invis'   0  50  42   0   0          8
 End
 
 #O
 Vnum 17660
 Nest 0
-PrevOwner (null)~
+PrevOwner Iceman~
 Cond 0
 Wear 10
 Cost 4000
@@ -290,289 +305,28 @@ End
 Vnum 15223
 Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Iceman~
 Cond 0
 Wear 7
 Cost 6500
-Affc 'enchant armor'   1  50  -1  -4  17          0
-Affc 'reserved'   1  30  -1  20  13          0
 Affc 'reserved'   1  30  -1  20  12          0
-End
-
-#O
-Vnum 8800
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1870
-End
-
-#O
-Vnum 8800
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1870
-End
-
-#O
-Vnum 6420
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 13
-Cost 3500
-End
-
-#O
-Vnum 18105
-Enchanted
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4500
-Affc 'reserved'   1  46  -1  15  12          0
-Affc 'reserved'   1  46  -1  20  13          0
-Affc 'reserved'   1  46  -1   1  18          0
-Affc 'reserved'   1  46  -1   1  19          0
+Affc 'reserved'   1  30  -1  20  13          0
+Affc 'enchant armor'   1  50  -1  -4  17          0
 End
 
 #O
 Vnum 2513
 Nest 0
-PrevOwner (null)~
+PrevOwner Iceman~
 Cond 0
-Wear 4
+Wear -1
 Cost 710
 End
 
 #O
-Vnum 2390
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5800
-End
-
-#O
-Vnum 1401
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 17800
-End
-
-#O
-Vnum 10003
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10427
-Enchanted
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 11800
-Affc 'enchant weapon'   1  51  -1   4  19          0
-Affc 'enchant weapon'   0  51  -1   4  18          0
-End
-
-#O
-Vnum 18011
-Enchanted
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 650
-Affc 'enchant armor'   1  51  -1  -4  17          0
-Affc 'reserved'   1  18  -1   2  19          0
-Affc 'reserved'   1  18  -1   1  18          0
-End
-
-#O
-Vnum 10428
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2900
-End
-
-#O
-Vnum 10428
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 2
-Cost 2900
-End
-
-#O
-Vnum 3353
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 900
-End
-
-#O
-Vnum 3363
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 390
-End
-
-#O
-Vnum 3359
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 9
-Cost 450
-End
-
-#O
-Vnum 3350
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1280
-End
-
-#O
-Vnum 3365
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 640
-End
-
-#O
-Vnum 3364
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 1
-Cost 1280
-End
-
-#O
-Vnum 104
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 3
-Cost 550
-End
-
-#O
-Vnum 103
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 370
-End
-
-#O
-Vnum 102
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 310
-End
-
-#O
-Vnum 102
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 310
-End
-
-#O
-Vnum 102
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 6
-Cost 310
-End
-
-#O
-Vnum 103
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 370
-End
-
-#O
-Vnum 11324
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 15
-End
-
-#O
-Vnum 20738
-Enchanted
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4850
-Affc 'enchant weapon'   1  49  -1   3  18          0
-Affc 'enchant weapon'   1  49  -1   3  19          0
-End
-
-#O
-Vnum 1329
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1640
-Spell 3 'bless'
-End
-
-#O
 Vnum 13
-Nest 0
-PrevOwner (null)~
-ShD  the heart of Dregs~
-Desc The torn-out heart of Dregs is lying here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 13
-Nest 0
-PrevOwner (null)~
+Nest 1
+PrevOwner Iceman~
 ShD  the heart of Malderek~
 Desc The torn-out heart of Malderek is lying here.~
 Cond 0
@@ -581,51 +335,35 @@ Cost 0
 End
 
 #O
-Vnum 3721
+Vnum 13
+Nest 1
+PrevOwner Iceman~
+ShD  the heart of Dregs~
+Desc The torn-out heart of Dregs is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20728
 Enchanted
-Nest 0
-PrevOwner (null)~
+Nest 1
+PrevOwner Iceman~
+Name screaming women children shield~
+ShD  screaming women and children~
+Desc Screaming women and children flee from the might of Riders.~
 Cond 0
 Wear -1
-Cost 330
-Affc 'enchant weapon'   1  51  -1   2  18          0
-Affc 'enchant weapon'   1  51  -1   1  19          0
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 10419
-Enchanted
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1330
-Affc 'enchant weapon'   1  53  -1   4  19          0
-Affc 'enchant weapon'   0  53  -1   4  18          0
+Cost 6500
+Affc 'reserved'   1  44  -1   2  19          0
+Affc 'reserved'   1  44  -1   1  18          0
 End
 
 #O
 Vnum 12
-Nest 0
-PrevOwner (null)~
+Nest 1
+PrevOwner Iceman~
 ShD  the head of Needledick~
 Desc The severed head of Needledick is lying here.~
 Cond 0
@@ -634,9 +372,142 @@ Cost 0
 End
 
 #O
-Vnum 765
+Vnum 8800
+Nest 1
+PrevOwner Iceman~
+Name tattoo grimm loves khira~
+ShD  a tattoo saying "Grimm loves Khira"~
+Desc A tattoo announcing Grimm's love with his wife, done with a rusty needle, is here.~
+Cond 0
+Wear -1
+Cost 1870
+End
+
+#O
+Vnum 10428
 Nest 0
-PrevOwner (null)~
+PrevOwner Iceman~
+Cond 0
+Wear 1
+Cost 2900
+End
+
+#O
+Vnum 3359
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear 9
+Cost 450
+End
+
+#O
+Vnum 1401
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 17800
+End
+
+#O
+Vnum 10003
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 16726
+Enchanted
+Nest 0
+PrevOwner Iceman~
+Name demise skull~
+ShD  a Demise skull~
+Desc A bloodied, hallowed out Demisian skull lies here.~
+Cond 0
+Wear 6
+Cost 4000
+Affc 'reserved'   1  51  -1   1  18          0
+Affc 'reserved'   1  51  -1   2  19          0
+Affc 'enchant armor'   1  50  -1  -4  17          0
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 102
+Nest 0
+PrevOwner Iceman~
+Name flag~
+ShD  (Dweeb) flag~
+Desc A (Dweeb) flag~
+Cond 0
+Wear -1
+Cost 310
+End
+
+#O
+Vnum 3427
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear 12
+Cost 100
+End
+
+#O
+Vnum 8800
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear 14
+Cost 1870
+End
+
+#O
+Vnum 1395
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 1970
+End
+
+#O
+Vnum 28005
+Enchanted
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear 16
+Cost 5000
+Affc 'enchant weapon'   1  50  -1   2  19          0
+Affc 'enchant weapon'   1  50  -1   3  18          0
+End
+
+#O
+Vnum 1395
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 1970
+End
+
+#O
+Vnum 20710
+Nest 0
+PrevOwner Trage~
 Cond 0
 Wear -1
 Cost 0
@@ -647,108 +518,228 @@ Vnum 10440
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 17
 Cost 8500
+Val  52 10 3 161 0
 Spell 3 'remove curse'
 End
 
 #O
-Vnum 28005
+Vnum 18105
 Enchanted
 Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear 11
+Cost 4500
+Affc 'reserved'   1  46  -1   1  19          0
+Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1  20  13          0
+Affc 'reserved'   1  46  -1  15  12          0
+End
+
+#O
+Vnum 20729
+Enchanted
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear 5
+Cost 9800
+Affc 'reserved'   1  49  -1   2   1          0
+Affc 'enchant armor'   1  48  -1  -8  17          0
+End
+
+#O
+Vnum 23112
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear 13
+Cost 1500
+End
+
+#O
+Vnum 23138
+Nest 0
 PrevOwner (null)~
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Iceman~
 Cond 0
 Wear -1
 Cost 5000
-Affc 'enchant weapon'   1  50  -1   3  18          0
-Affc 'enchant weapon'   1  50  -1   2  19          0
 End
 
 #O
-Vnum 1329
+Vnum 2201
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 1640
-Spell 3 'bless'
+Cost 2000
 End
 
 #O
-Vnum 10425
+Vnum 8510
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 2261
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 980
+End
+
+#O
+Vnum 2220
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 270
+End
+
+#O
+Vnum 2211
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1450
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 2223
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 940
+End
+
+#O
+Vnum 2250
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
 Cost 5300
-Spell 3 'cure poison'
+Spell 3 'energy drain'
 End
 
 #O
-Vnum 901
-Enchanted
+Vnum 2251
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 5400
-Affc 'enchant weapon'   0  51  -1   4  18          0
-Affc 'enchant weapon'   1  51  -1   4  19          0
+Time 370
+Cost 1060
+Spell 1 'blindness'
+Spell 2 'harm'
 End
 
 #O
-Vnum 3716
+Vnum 2261
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
-Cost 0
-Val  0 0 132 0 0
+Wear 4
+Cost 980
 End
 
 #O
-Vnum 3703
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 5
-Cost 0
+Wear -1
+Cost 22
 End
 
 #O
-Vnum 3701
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 16
-Cost 210
+Wear -1
+Cost 22
 End
 
 #O
-Vnum 3704
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 11
-Cost 0
+Wear -1
+Cost 22
 End
 
 #O
-Vnum 4433
+Vnum 3009
 Nest 0
-PrevOwner Tommy~
+PrevOwner (null)~
 Cond 0
-Wear 15
-Cost 550
+Wear -1
+Cost 22
 End
 
 #O
-Vnum 4433
+Vnum 3009
 Nest 0
-PrevOwner Tommy~
+PrevOwner (null)~
 Cond 0
-Wear 14
-Cost 550
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 20703
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 753
+Nest 0
+PrevOwner (null)~
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 3428
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2200
 End
 
 #END

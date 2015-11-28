@@ -3,8 +3,8 @@ Name Vortigan~
 SurN Slingblade~
 Id   1044534988
 Email (null)~
-LogO 1092414420
-Vers 31
+LogO 1326825820
+Vers 33
 Prom (%h %m %v)[%X][{W%g.%s %n/%N %w{x][%a]%c[%r][%e] ~
 Race dragon~
 Outc 0
@@ -15,6 +15,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -536 xochipili~
 Sac  300
@@ -35,19 +40,19 @@ Node 0
 Cap 0
 Created 1044535013
 Glad 0 0 0 0 0 0
-LastHost 146.230.193.66~
+LastHost 197.168.133.230~
 Cla  3
 ClaO 3
 Levl 20
 DLevl 0
-Plyd 49182
+Plyd 49841
 Not  1092274531 1061461434 1061461434 1061461434 1080807612 1092385533 1061461434 1061461434 1061461434 1061461434
-Scro 22
+Scro 98
 Rank 0
-Room 3001
-HMV  320 454 137 205 233 242
-Gold 815
-Silv 21
+Room 16508
+HMV  454 454 198 205 117 242
+Gold 678
+Silv 15
 Exp  235783
 Act  CDGHK
 MHSF R
@@ -57,6 +62,7 @@ Disp FIJN
 IcgB 0
 Icg 0
 Pos  4
+Trai 6
 SkiP 41
 Alig  -1000
 Hit   12
@@ -65,7 +71,7 @@ SecHit   11
 SecDam   18
 ACs 67 67 67 86
 Wimp  5
-Attr 21 21 21 20 23 12 19 12
+Attr 21 21 21 20 23 11 14 12
 AMod 2 5 2 4 1 0 0 0
 Pass Vom78BvXlDQSc~
 Titl .~
@@ -73,7 +79,7 @@ Pnts 100
 TSex 1
 LLev 6
 HMVP 449 205 242
-Cnd  0 0 1 0
+Cnd  0 0 0 0
 Alias zx dirt~
 Alias kk who clan~
 Alias zc bash~
@@ -397,30 +403,12 @@ Cost 0
 End
 
 #O
-Vnum 8015
-Nest 1
-PrevOwner Vortigan~
-Cond 0
-Wear -1
-Cost 750
-End
-
-#O
 Vnum 10424
 Nest 1
 PrevOwner Vortigan~
 Cond 0
 Wear -1
 Cost 5500
-End
-
-#O
-Vnum 8015
-Nest 1
-PrevOwner Vortigan~
-Cond 0
-Wear -1
-Cost 750
 End
 
 #O
@@ -688,6 +676,24 @@ Spell 3 'detect hidden'
 End
 
 #O
+Vnum 8015
+Nest 1
+PrevOwner Vortigan~
+Cond 0
+Wear -1
+Cost 750
+End
+
+#O
+Vnum 8015
+Nest 1
+PrevOwner Vortigan~
+Cond 0
+Wear -1
+Cost 750
+End
+
+#O
 Vnum 4440
 Nest 0
 PrevOwner Alexis~
@@ -922,10 +928,78 @@ End
 Vnum 18012
 Nest 0
 PrevOwner Vortigan~
-Stolen 324
+Stolen 309
 Cond 0
 Wear 16
 Cost 750
+End
+
+#O
+Vnum 4100
+Enchanted
+Nest 0
+PrevOwner Godric~
+ExtF 2626
+Cond 0
+Wear -1
+Lev  19
+Cost 0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Godric~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Godric~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Godric~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Godric~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Godric~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Godric~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #END

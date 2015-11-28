@@ -3,8 +3,8 @@ Name Muchaka~
 SurN Chakalaka~
 Id   1037793576
 Email (null)~
-LogO 1123629131
-Vers 31
+LogO 1389285154
+Vers 33
 LnD  A Gladiator~
 Desc Stop It!
 ~
@@ -12,13 +12,14 @@ Prom %hhp %mm %vmv {C%e {W%w %g %s %n {B%t {x ~
 Race dwarf~
 Clan honor~
 Outc 0
-RufT 55
+RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 8
+SkPTracker 0
 LogoutTracker 0
 Kill 1 37 1 26
 Steal 0 0 0
+MSteal 0
 LstK Doven~
 LstKBy Pacewon~
 LstAtkedBy no one~
@@ -26,10 +27,16 @@ LstAtkedByTimer 0
 LstCombatDate 1112077225
 LstKillDate 1111791278
 LstDeathDate 1109703913
-LoginsWOKill 28
-LoginsWODeath 99
-LoginsWOCombat 15
+LoginsWOKill 30
+LoginsWODeath 101
+LoginsWOCombat 17
 Bnty 420
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 641748 huitzilopochtli~
 DeityT -10869 almighty~
 Sac  300
@@ -39,47 +46,49 @@ Node 0
 Cap 0
 Created 1037793588
 Glad 1 3 0 0 2 0
+LastHost 68.102.68.53~
 Cla  6
 Kit vampyre hunter~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 2305108
-Not  1115688335 1117850114 0 1117850876 1110312209 1116540540 1107506046 1123314755 0 1111048001
+Plyd 2307787
+Not  1115688335 1117850114 0 1117850876 1110312209 1389235336 1107506046 1385305178 0 1384474516
 Scro 22
 Rank 1
-Room 31501
-HMV  1603 1603 365 365 611 611
-Gold 33
-Silv 31
+Room 31520
+HMV  1793 1793 102 365 481 481
+Gold 211
+Silv 3966
 Exp  445726
 Act  DEGHJKQS
 MHSF RSU
-AfBy CDFJPTc
+AfBy CDEFJTUc
 Comm GIR
 Disp BCFIJN
 IcgB 0
 Icg 0
-Wizn W
 Pnet ABCDEFGHI
 Pos  4
-SkiP 64
-Save  -17
+Prac 6
+StatsTrained 190 0 0
+SkiP 9
+Save  -11
 Alig  -1000
-Hit   16
-Dam   19
-SecHit   16
-SecDam   19
-ACs -198 -190 -194 -110
-Attr 21 16 19 17 21 17 24 19
-AMod 7 4 5 1 4 0 0 5
+Hit   24
+Dam   31
+SecHit   13
+SecDam   20
+ACs -160 -152 -156 -82
+Attr 21 16 19 17 21 9 13 19
+AMod 6 4 5 1 4 0 0 3
 Pass MuO6UpgyA6/4o~
 Titl  the {rAngry {yMidget{x~
 Pnts 99
 TSex 1
 LLev 214
-HMVP 1383 365 381
-Cnd  0 0 0 0
+HMVP 1573 365 381
+Cnd  0 16 18 18
 Alias fp c 'fireproof'~
 Alias dh c 'detect hidden'~
 Alias di c 'detect invis'~
@@ -185,15 +194,15 @@ Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'shield'   0  31   8 -20  17          0
-Affc 'stone skin'   0  31   1 -40  17          0
-Affc 'giant strength'   0  33   1   4   1          0
-Affc 'detect hidden'   0  38   1   0   0         32
-Affc 'detect invis'   0  33   2   0   0          8
-Affc 'fly'   0  34   4   0   0     524288
-Affc 'bless'   0  43  18   6  18          0
-Affc 'bless'   0  43  18  -6  24          0
-Affc 'sneak'   0  38  14   0   0      32768
+Affc 'pass door'   0  37   0   0   0    1048576
+Affc 'stone skin'   0  39  18 -40  17          0
+Affc 'detect magic'   0  38  18   0   0         16
+Affc 'detect hidden'   0  35  17   0   0         32
+Affc 'detect invis'   0  36  18   0   0          8
+Affc 'fly'   0  38  21   0   0     524288
+Affc 'armor'   0  34  12 -20  17          0
+Affc 'shield'   0  30  11 -20  17          0
+Affc 'giant strength'   0  35   3   4   1          0
 End
 
 #O
@@ -249,7 +258,7 @@ Vnum 23514
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 3
+Wear 4
 Cost 3690
 End
 
@@ -328,17 +337,8 @@ Name nappy beard~
 ShD  a nappy, cluttered beard~
 Desc a nappy mass of braided, bloody hair lies here.~
 Cond 0
-Wear 4
+Wear 3
 Cost 710
-End
-
-#O
-Vnum 1344
-Nest 1
-PrevOwner Muchaka~
-Cond 0
-Wear -1
-Cost 1000
 End
 
 #O
@@ -396,90 +396,14 @@ Cost 0
 End
 
 #O
-Vnum 3375
-Nest 1
-PrevOwner Muchaka~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 13208
-Nest 1
-PrevOwner Muchaka~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 2511
-Nest 1
-PrevOwner Muchaka~
-Cond 0
-Wear -1
-Cost 1810
-Spell 3 'magic missile'
-End
-
-#O
-Vnum 28057
-Enchanted
-Nest 1
-PrevOwner Muchaka~
-ExtF 524354
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Val  3 2 20 20 40
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
 Vnum 10306
 Nest 1
 PrevOwner Muchaka~
 Cond 0
 Wear -1
 Cost 11000
-Val  50 20 16 88 0
+Val  50 20 16 91 0
 Spell 3 'faerie fog'
-End
-
-#O
-Vnum 18433
-Enchanted
-Nest 1
-PrevOwner Muchaka~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Val  3 3 14 36 264
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   0  52  -1  12  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-End
-
-#O
-Vnum 6602
-Enchanted
-Nest 1
-PrevOwner Muchaka~
-ExtF 524354
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Val  5 2 20 16 12
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
@@ -503,22 +427,13 @@ Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
-Vnum 3378
-Nest 1
-PrevOwner Muchaka~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
 Vnum 10440
 Nest 1
 PrevOwner Muchaka~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 7 161 0
+Val  52 10 7 166 0
 Spell 3 'remove curse'
 End
 
@@ -735,7 +650,7 @@ PrevOwner Muchaka~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 5 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -745,7 +660,7 @@ Nest 1
 PrevOwner Muchaka~
 Cond 0
 Wear -1
-Time 1147
+Time 1078
 Cost 8500
 Spell 1 'withstand death'
 End
@@ -756,7 +671,7 @@ Nest 1
 PrevOwner Muchaka~
 Cond 0
 Wear -1
-Time 849
+Time 780
 Cost 8500
 Spell 1 'withstand death'
 End
@@ -767,32 +682,9 @@ Nest 1
 PrevOwner Muchaka~
 Cond 0
 Wear -1
-Time 202
+Time 133
 Cost 8500
 Spell 1 'withstand death'
-End
-
-#O
-Vnum 15225
-Nest 1
-PrevOwner Muchaka~
-Cond 0
-Wear -1
-Time 727
-Cost 8500
-Spell 1 'withstand death'
-End
-
-#O
-Vnum 4831
-Nest 1
-PrevOwner Muchaka~
-Name bed waterbed statik portable~
-ShD  {GStatik's {mPortable {CW{Ba{Ct{Be{Cr{Bb{Ce{Bd{x!!!~
-Desc Statik's Portable Waterbed is here... wiggly!!~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -852,15 +744,6 @@ Spell 2 'haste'
 End
 
 #O
-Vnum 22566
-Nest 1
-PrevOwner Muchaka~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 5914
 Enchanted
 Nest 1
@@ -895,15 +778,6 @@ Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
-Vnum 12007
-Nest 1
-PrevOwner Muchaka~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 22901
 Enchanted
 Nest 1
@@ -916,6 +790,236 @@ Cost 600
 Val  1 2 6 3 16
 Affc 'enchant weapon'   1  52  -1  12  19          0
 Affc 'enchant weapon'   0  52  -1  11  18          0
+End
+
+#O
+Vnum 6602
+Enchanted
+Nest 1
+PrevOwner Muchaka~
+ExtF 524354
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Val  5 2 20 16 12
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Muchaka~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9007
+Enchanted
+Nest 1
+PrevOwner Muchaka~
+ExtF 339
+Cond 0
+Wear -1
+Lev  50
+Cost 5000
+Val  3 5 8 33 12
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'reserved'   1  49  -1  -5  17          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 9536
+Nest 1
+PrevOwner Muchaka~
+Cond 0
+Wear -1
+Cost 50
+End
+
+#O
+Vnum 10322
+Nest 2
+PrevOwner Muchaka~
+Cond 0
+Wear -1
+Cost 4850
+End
+
+#O
+Vnum 10322
+Nest 2
+PrevOwner Muchaka~
+Cond 0
+Wear -1
+Cost 4850
+End
+
+#O
+Vnum 1966
+Enchanted
+Nest 1
+PrevOwner Muchaka~
+ExtF 134217795
+Cond 0
+Wear -1
+Lev  40
+Cost 4000
+Val  10 10 10 5 3
+Affc 'enchant armor'   1  53  -1  -9  17          0
+Affc 'reserved'   1  35  -1 100  14          0
+Affc 'reserved'   1  35  -1  -1   1          0
+Affc 'reserved'   1  35  -1   2  19          0
+End
+
+#O
+Vnum 2511
+Nest 1
+PrevOwner Muchaka~
+Cond 0
+Wear -1
+Cost 1810
+Spell 3 'magic missile'
+End
+
+#O
+Vnum 15225
+Nest 1
+PrevOwner Muchaka~
+Cond 0
+Wear -1
+Time 658
+Cost 8500
+Spell 1 'withstand death'
+End
+
+#O
+Vnum 4831
+Nest 1
+PrevOwner Muchaka~
+Name bed waterbed statik portable~
+ShD  {GStatik's {mPortable {CW{Ba{Ct{Be{Cr{Bb{Ce{Bd{x!!!~
+Desc Statik's Portable Waterbed is here... wiggly!!~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 13208
+Nest 1
+PrevOwner Muchaka~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 28057
+Enchanted
+Nest 1
+PrevOwner Muchaka~
+ExtF 524354
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Val  3 2 20 20 40
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 18433
+Enchanted
+Nest 1
+PrevOwner Muchaka~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Val  3 3 14 36 264
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+End
+
+#O
+Vnum 1344
+Nest 1
+PrevOwner Muchaka~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 12083
+Nest 1
+PrevOwner Muchaka~
+Cond 0
+Wear -1
+Cost 32142
+End
+
+#O
+Vnum 10069
+Enchanted
+Nest 1
+PrevOwner Muchaka~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 1000
+Affc 'enchant weapon'   1  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+End
+
+#O
+Vnum 5939
+Enchanted
+Nest 1
+PrevOwner Muchaka~
+ExtF 66
+Cond 0
+Wear -1
+Cost 500
+Val  1 5 8 3 72
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 18150
+Enchanted
+Nest 1
+PrevOwner Muchaka~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Muchaka~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #O
@@ -944,90 +1048,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 3000
-End
-
-#O
-Vnum 10069
-Enchanted
-Nest 1
-PrevOwner Muchaka~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 1000
-Affc 'enchant weapon'   1  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-End
-
-#O
-Vnum 9007
-Enchanted
-Nest 1
-PrevOwner Muchaka~
-ExtF 339
-Cond 0
-Wear -1
-Lev  50
-Cost 5000
-Val  3 5 8 33 12
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'reserved'   1  49  -1  -5  17          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 5939
-Enchanted
-Nest 1
-PrevOwner Muchaka~
-ExtF 66
-Cond 0
-Wear -1
-Cost 500
-Val  1 5 8 3 72
-Affc 'enchant weapon'   1  52  -1  12  19          0
-Affc 'enchant weapon'   0  52  -1  12  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 2205
-Enchanted
-Nest 1
-PrevOwner Muchaka~
-ExtF 323
-Cond 0
-Wear -1
-Cost 0
-Val  6 2 20 7 296
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-End
-
-#O
-Vnum 18150
-Enchanted
-Nest 1
-PrevOwner Muchaka~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  52  -1  12  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -1074,20 +1094,11 @@ Cost 2000
 End
 
 #O
-Vnum 12083
-Nest 0
-PrevOwner Muchaka~
-Cond 0
-Wear 13
-Cost 32142
-End
-
-#O
 Vnum 12060
 Nest 0
 PrevOwner Muchaka~
 Cond 0
-Wear 16
+Wear -1
 Cost 5234
 Val  5 6 7 38 8200
 Affc 'sharpen'   5  51  -1   0   0          8
@@ -1103,47 +1114,27 @@ Cost 3500
 End
 
 #O
-Vnum 1966
+Vnum 2205
 Enchanted
 Nest 0
 PrevOwner Muchaka~
-ExtF 134217795
+ExtF 323
 Cond 0
-Wear 11
-Lev  40
-Cost 4000
-Val  10 10 10 5 3
-Affc 'enchant armor'   1  53  -1  -9  17          0
-Affc 'reserved'   1  35  -1 100  14          0
-Affc 'reserved'   1  35  -1  -1   1          0
-Affc 'reserved'   1  35  -1   2  19          0
+Wear 16
+Cost 0
+Val  6 2 20 7 296
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
-Vnum 9536
+Vnum 22566
 Nest 0
 PrevOwner Muchaka~
 Cond 0
-Wear -1
-Cost 50
-End
-
-#O
-Vnum 10322
-Nest 1
-PrevOwner Muchaka~
-Cond 0
-Wear -1
-Cost 4850
-End
-
-#O
-Vnum 10322
-Nest 1
-PrevOwner Muchaka~
-Cond 0
-Wear -1
-Cost 4850
+Wear 13
+Cost 0
 End
 
 #END

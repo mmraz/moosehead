@@ -2,8 +2,8 @@
 Name RockWilder~
 Id   1015491776
 Email (null)~
-LogO 1095857513
-Vers 31
+LogO 1325944962
+Vers 33
 Prom (%h/%Hhp %m/%Mm %v/%Vmv|{C%X{x|(%g.%s)|{C%e{x|%a) ~
 Race rockbiter~
 Clan posse~
@@ -15,6 +15,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 2 6 3 6
 Steal 0 0 0
+MSteal 0
 LstK Nematik~
 LstKBy Caine~
 LstAtkedBy no one~
@@ -22,10 +23,14 @@ LstAtkedByTimer 0
 LstCombatDate 1084262215
 LstKillDate 1046089758
 LstDeathDate 1046089389
-LoginsWOKill 55
-LoginsWODeath 55
-LoginsWOCombat 17
+LoginsWOKill 58
+LoginsWODeath 58
+LoginsWOCombat 20
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 165276 hermes~
 DeityT 10 hermes~
 Sac  600
@@ -35,40 +40,41 @@ Node 0
 Cap 0
 Created 1015491782
 Glad 0 0 0 0 0 0
+LastHost 41.133.230.165~
 Cla  5
 Kit knight~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 222866
-Not  1092274531 1082820673 0 1015545479 1094178263 0 0 1091344148 0 0
+Plyd 225621
+Not  1325837093 1082820673 0 1015545479 1094178263 0 0 1322962377 0 0
 Scro 22
 Rank 1
-Room 31614
+Room 31602
 HMV  1324 1324 464 464 292 292
 Gold 865
 Silv 3013
 Exp  652852
 Act  CDGHKQRS
 MHSF RS
-AfBy CDF
-Comm Gc
+AfBy CDFN
+Comm G
 Disp FGIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 42
-Trai 3
+Trai 21
 SkiP 179
-Save  -6
+Save  -7
 Alig  1000
 Hit   36
 Dam   35
 SecHit   26
 SecDam   25
 ACs 51 51 56 71
-Attr 25 16 21 14 25 16 25 18
+Attr 25 16 21 14 25 8 15 18
 AMod 1 0 0 1 0 0 0 0
 Pass Ro7M1YtzYDdq2~
 Titl  Beware of plummeting rocks!~
@@ -76,7 +82,7 @@ Pnts 100
 TSex 1
 LLev 61
 HMVP 1284 418 292
-Cnd  0 0 48 0
+Cnd  0 6 48 31
 Alias b bash~
 Alias 1 hide~
 Alias v c heal~
@@ -87,6 +93,7 @@ Alias 4 bash~
 Alias 3 bash~
 Alias k kcharge~
 Alias r order all rescue rockwilder~
+Alias nw kcharge miz~
 Sk 1 'aid'
 Sk 81 'armor'
 Sk 1 'bestow holiness'
@@ -115,7 +122,7 @@ Sk 1 'mass healing'
 Sk 1 'nexus'
 Sk 75 'pass door'
 Sk 1 'portal'
-Sk 88 'protection evil'
+Sk 91 'protection evil'
 Sk 77 'protection good'
 Sk 75 'protection neutral'
 Sk 87 'refresh'
@@ -156,6 +163,7 @@ Gr 'enhancement'
 Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
+Affc 'protection evil'   0  42  13  -1  24       8192
 End
 
 #O
@@ -241,8 +249,8 @@ Cond 0
 Wear -1
 Lev  33
 Cost 750
-Affc 'enchant weapon'   1  53  -1   4  19          0
 Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
 End
 
 #O
@@ -356,8 +364,8 @@ Cond 0
 Wear -1
 Lev  42
 Cost 9200
-Affc 'enchant weapon'   0  53  -1   6  18          0
 Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'enchant weapon'   0  53  -1   6  18          0
 End
 
 #O
@@ -424,8 +432,8 @@ Cond 0
 Wear -1
 Lev  46
 Cost 1000
-Affc 'enchant weapon'   1  53  -1   2  18          0
 Affc 'enchant weapon'   1  53  -1   3  19          0
+Affc 'enchant weapon'   1  53  -1   2  18          0
 End
 
 #O
@@ -627,9 +635,9 @@ Cond 0
 Wear -1
 Lev  45
 Cost 1700
-Affc 'enchant weapon'   1  53  -1   3  19          0
-Affc 'reserved'   1  44  -1   2   2          0
 Affc 'enchant weapon'   0  53  -1   1  18          0
+Affc 'reserved'   1  44  -1   2   2          0
+Affc 'enchant weapon'   1  53  -1   3  19          0
 End
 
 #O
@@ -854,13 +862,13 @@ Enchanted
 Nest 0
 PrevOwner RockWilder~
 ExtF 524354
-Stolen 1797
+Stolen 1729
 Cond 0
 Wear 16
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
 End
 
 #END

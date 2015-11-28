@@ -3,8 +3,8 @@ Name Raliak~
 SurN Goman~
 Id   1043783575
 Email (null)~
-LogO 1132609936
-Vers 31
+LogO 1362284009
+Vers 33
 Desc You see NOTHING special.
 ~
 Prom <%hh %mm %a %e %t>%c<%Ss %Xxp %gg %ss %n/%Ni %ww> ~
@@ -12,11 +12,12 @@ Race dragon~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 9
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -28,6 +29,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 DeityT -4839 matook~
 Sac  300
@@ -37,49 +44,49 @@ Node 0
 Cap 0
 Created 1043783594
 Glad 0 0 0 0 0 0
-LastHost san.lanecc.edu~
+LastHost 71.193.185.245~
 Cla  3
 Kit myrmidon~
 ClaO 3
 Levl 48
 DLevl 0
-Plyd 760152
-Not  1111062385 1110430195 1077640267 1131210186 1110312209 1132178880 1077640267 1077640267 1077640267 1129478192
+Plyd 770664
+Not  1111062385 1359591497 1077640267 1131210186 1110312209 1132178880 1077640267 1077640267 1077640267 1129478192
 Scro 22
 Rank 0
-Room 3001
-HMV  1077 1077 283 386 404 516
-Gold 620
-Silv 12137
-Exp  273153
+Room 3054
+HMV  1077 1077 386 386 516 516
+Gold 534
+Silv 10472
+Exp  273169
 Act  BCDEFGHKMQS
 MHSF R
-AfBy CJNT
+AfBy CJT
 Comm S
-Disp ABCFGIJN
+Disp BCFGIJN
 IcgB 0
 Icg 0
 Pnet ACEFI
-Pos  4
+Pos  8
 Prac 31
 Trai 1
 SkiP 18
-Save  -4
+Save  -3
 Alig  1000
 Hit   19
 Dam   27
 SecHit   17
 SecDam   24
-ACs -98 -100 -93 -21
+ACs -18 -20 -13 59
 Attr 25 20 20 22 25 25 25 14
 AMod 0 3 1 3 3 0 0 0
-Pass RaYKt5wze5kJg~
+Pass RaK4.910k23jk~
 Titl  says Life is like a pair of thongs. Just when you get to the good stuff, it all falls in the crack.~
 Pnts 80
 TSex 1
 LLev 205
 HMVP 1027 378 516
-Cnd  0 0 30 11
+Cnd  0 0 8 0
 Spz 'sword'
 Sk 82 'armor'
 Sk 77 'cancellation'
@@ -120,7 +127,7 @@ Sk 100 'second attack'
 Sk 100 'third attack'
 Sk 92 'fourth attack'
 Sk 100 'fast healing'
-Sk 84 'lore'
+Sk 87 'lore'
 Sk 74 'peek'
 Sk 82 'sneak'
 Sk 75 'scrolls'
@@ -133,10 +140,6 @@ Gr 'warrior basics'
 Gr 'draconian'
 Gr 'protective'
 Gr 'transportation'
-Affc 'shield'   0  30  29 -20  17          0
-Affc 'stone skin'   0  31  14 -40  17          0
-Affc 'protection evil'   0  35   0  -1  24       8192
-Affc 'armor'   0  31   8 -20  17          0
 End
 
 #O
@@ -245,15 +248,6 @@ Cost 1140
 End
 
 #O
-Vnum 9224
-Nest 1
-PrevOwner Raliak~
-Cond 0
-Wear -1
-Cost 200
-End
-
-#O
 Vnum 3377
 Nest 1
 PrevOwner Raliak~
@@ -278,42 +272,6 @@ PrevOwner Raliak~
 Cond 0
 Wear -1
 Cost 250
-End
-
-#O
-Vnum 3152
-Nest 1
-PrevOwner Raliak~
-Cond 0
-Wear -1
-Cost 14
-End
-
-#O
-Vnum 3152
-Nest 1
-PrevOwner Raliak~
-Cond 0
-Wear -1
-Cost 14
-End
-
-#O
-Vnum 3152
-Nest 1
-PrevOwner Raliak~
-Cond 0
-Wear -1
-Cost 14
-End
-
-#O
-Vnum 3152
-Nest 1
-PrevOwner Raliak~
-Cond 0
-Wear -1
-Cost 14
 End
 
 #O
@@ -436,42 +394,6 @@ Cost 5000
 End
 
 #O
-Vnum 3152
-Nest 1
-PrevOwner Raliak~
-Cond 0
-Wear -1
-Cost 14
-End
-
-#O
-Vnum 3152
-Nest 1
-PrevOwner Raliak~
-Cond 0
-Wear -1
-Cost 14
-End
-
-#O
-Vnum 3152
-Nest 1
-PrevOwner Raliak~
-Cond 0
-Wear -1
-Cost 14
-End
-
-#O
-Vnum 3152
-Nest 1
-PrevOwner Raliak~
-Cond 0
-Wear -1
-Cost 14
-End
-
-#O
 Vnum 10449
 Nest 1
 PrevOwner Raliak~
@@ -550,6 +472,116 @@ PrevOwner Raliak~
 Cond 0
 Wear -1
 Cost 1500
+End
+
+#O
+Vnum 9224
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 200
+Val  150 102 0 0 0
+End
+
+#O
+Vnum 2101
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 970
+End
+
+#O
+Vnum 2101
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 970
+End
+
+#O
+Vnum 3021
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 3036
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 980
+End
+
+#O
+Vnum 102
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 310
+End
+
+#O
+Vnum 3036
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 1062
+End
+
+#O
+Vnum 10445
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 6400
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10414
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 5000
+Spell 3 'sleep'
+End
+
+#O
+Vnum 9201
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Raliak~
+Cond 0
+Wear -1
+Cost 5420
 End
 
 #O
@@ -686,68 +718,12 @@ Cost 2700
 End
 
 #O
-Vnum 10449
-Nest 0
-PrevOwner Raliak~
-Cond 0
-Wear -1
-Cost 5420
-End
-
-#O
-Vnum 9201
-Nest 0
-PrevOwner Raliak~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 10414
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-Spell 3 'sleep'
-End
-
-#O
-Vnum 10449
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 6701
 Nest 0
 PrevOwner Raliak~
-Stolen 96
 Cond 0
 Wear 16
 Cost 3000
-End
-
-#O
-Vnum 10445
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6400
-End
-
-#O
-Vnum 3036
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1062
 End
 
 #O
@@ -757,8 +733,27 @@ PrevOwner Raliak~
 Cond 0
 Wear 17
 Cost 930
-Val  30 8 6 57 0
+Val  30 8 6 60 0
 Spell 3 'cure light'
+End
+
+#O
+Vnum 15214
+Nest 0
+PrevOwner Banish~
+Cond 0
+Wear -1
+Cost 5000
+Spell 1 'remove curse'
+End
+
+#O
+Vnum 18106
+Nest 0
+PrevOwner Krung~
+Cond 0
+Wear -1
+Cost 4500
 End
 
 #END

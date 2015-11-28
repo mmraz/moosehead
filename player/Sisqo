@@ -2,8 +2,8 @@
 Name Sisqo~
 Id   954333615
 Email (null)~
-LogO 1122874727
-Vers 31
+LogO 1406951950
+Vers 33
 Desc Quicksilver is difficult to hold for long....
 ~
 Prom <%hhp %mm %vmv %X %S %w> ~
@@ -13,10 +13,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 8 2042 0
+MSteal 0
 LstK no one~
 LstKBy Rowen~
 LstAtkedBy no one~
@@ -24,10 +25,16 @@ LstAtkedByTimer 0
 LstCombatDate 1037448178
 LstKillDate 1019458296
 LstDeathDate 1019458296
-LoginsWOKill 40
-LoginsWODeath 40
-LoginsWOCombat 31
+LoginsWOKill 44
+LoginsWODeath 44
+LoginsWOCombat 35
 Bnty 400
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 194381 almighty~
 DeityT -331 huitzilopochtli~
 Sac  300
@@ -37,48 +44,49 @@ Node 0
 Cap 0
 Created 954333635
 Glad 0 0 0 0 0 0
-LastHost 64.146.147.32~
+LastHost 68.186.103.129~
 Cla  13
 Kit ninja~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 421654
-Not  1121879730 1121727691 958935085 1122288737 1121859963 1122795775 958935085 1122244833 958935085 1106603232
+Plyd 425396
+Not  1309847497 1121727691 958935085 1122288737 1121859963 1310062194 958935085 1309967146 958935085 1106603232
 Scro 22
 Rank 2
 Room 31816
 HMV  806 806 401 401 514 514
-Gold 867
-Silv 5
+Gold 1510
+Silv 73
 Exp  408184
 Act  CDGHQS
 MHSF RSTUV
-AfBy BCDFHJPT
+AfBy BCDFJPV
 Comm 0
 Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-SkiP 1
-Save  -11
+Trai 21
+SkiP 9
+Save  -6
 Alig  -1000
-Hit   34
+Hit   29
 Dam   37
-SecHit   23
+SecHit   18
 SecDam   26
-ACs -20 -20 -20 -2
+ACs 40 40 40 58
 Wimp  49
-Attr 17 20 18 23 16 21 23 13
-AMod 6 0 -1 1 0 0 0 0
+Attr 17 20 18 23 16 11 12 13
+AMod 2 0 -1 5 0 0 0 0
 Pass SiC46f/F9aKrA~
 Titl  Harder, Better, Faster, Stronger.~
 Pnts 100
 TSex 1
 LLev 113
 HMVP 786 415 509
-Cnd  0 22 35 35
+Cnd  0 18 35 29
 Sk 80 'armor'
 Sk 1 'blur'
 Sk 75 'cancellation'
@@ -152,18 +160,12 @@ Gr 'enhancement'
 Gr 'illusion'
 Gr 'protective'
 Gr 'transportation'
-Affc 'armor'   0  39  26 -20  17          0
-Affc 'giant strength'   0  40  33   4   1          0
-Affc 'fly'   0  40  37   0   0     524288
-Affc 'detect hidden'   0  40  35   0   0         32
-Affc 'detect invis'   0  40  35   0   0          8
-Affc 'sneak'   0  50  45   0   0      32768
-Affc 'invisibility'   0  41  48   0   0          2
-Affc 'shield'   0  41  44 -20  17          0
-Affc 'stone skin'   0  41  36 -40  17          0
-Affc 'sanctuary'   0  43   2   0   0        128
-Affc 'bless'   0  45  46   5  18          0
-Affc 'bless'   0  42  46  -5  24          0
+Affc 'invisibility'   0  40  46   0   0          2
+Affc 'haste'   0  37   2   4   2    2097152
+Affc 'shield'   0  31   1 -20  17          0
+Affc 'sneak'   0  48  19   0   0      32768
+Affc 'detect hidden'   0  32   9   0   0         32
+Affc 'detect invis'   0  34   9   0   0          8
 End
 
 #O
@@ -392,8 +394,8 @@ Cond 0
 Wear -1
 Lev  27
 Cost 1160
-Affc 'enchant weapon'   1  53  -1   4  19          0
 Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
 End
 
 #O
@@ -472,8 +474,8 @@ Cond 0
 Wear -1
 Lev  29
 Cost 1160
-Affc 'enchant weapon'   0  52  -1   7  18          0
 Affc 'enchant weapon'   1  52  -1   7  19          0
+Affc 'enchant weapon'   0  52  -1   7  18          0
 End
 
 #O
@@ -541,8 +543,8 @@ Cond 0
 Wear -1
 Lev  14
 Cost 60
-Affc 'enchant weapon'   0  53  -1  10  18          0
 Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
@@ -564,8 +566,8 @@ Cond 0
 Wear -1
 Lev  30
 Cost 1160
-Affc 'enchant weapon'   0  42  -1   7  18          0
 Affc 'enchant weapon'   1  42  -1   7  19          0
+Affc 'enchant weapon'   0  42  -1   7  18          0
 End
 
 #O
@@ -677,8 +679,8 @@ Cond 0
 Wear -1
 Lev  35
 Cost 1250
-Affc 'enchant weapon'   0  53  -1   5  18          0
 Affc 'enchant weapon'   1  53  -1   5  19          0
+Affc 'enchant weapon'   0  53  -1   5  18          0
 End
 
 #O
@@ -800,9 +802,9 @@ Cond 0
 Wear -1
 Lev  32
 Cost 0
-Affc 'enchant weapon'   0  53  -1   4  18          0
-Affc 'enchant weapon'   1  53  -1   6  19          0
 Affc 'reserved'   1  28  -1  -1   1          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'enchant weapon'   0  53  -1   4  18          0
 End
 
 #O
@@ -967,14 +969,14 @@ Enchanted
 Nest 1
 PrevOwner Sisqo~
 ExtF 66
-Stolen 623
+Stolen 535
 Cond 0
 Wear -1
 Lev  34
 Cost 2200
 Val  1 2 12 3 1029
-Affc 'enchant weapon'   1  51  -1   6  19          0
 Affc 'enchant weapon'   1  51  -1   7  18          0
+Affc 'enchant weapon'   1  51  -1   6  19          0
 End
 
 #O
@@ -988,8 +990,8 @@ Wear -1
 Lev  50
 Cost 3400
 Val  4 4 10 9 1028
-Affc 'enchant weapon'   0  52  -1   8  18          0
 Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   0  52  -1   8  18          0
 End
 
 #O
@@ -1026,6 +1028,22 @@ PrevOwner Sisqo~
 Cond 0
 Wear -1
 Cost 1000
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Sisqo~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
 End
 
 #O
@@ -1047,10 +1065,10 @@ Cond 0
 Wear -1
 Lev  21
 Cost 3100
-Affc 'reserved'   1  15  -1   1   1          0
-Affc 'reserved'   1  15  -1  -1   3          0
-Affc 'enchant weapon'   1  53  -1   7  18          0
 Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'reserved'   1  15  -1  -1   3          0
+Affc 'reserved'   1  15  -1   1   1          0
 End
 
 #O
@@ -1078,6 +1096,15 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 3000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #O
@@ -1143,18 +1170,36 @@ Val  470 1 -1 90 25
 End
 
 #O
+Vnum 8504
+Nest 0
+PrevOwner Sisqo~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
 Vnum 16724
 Enchanted
 Nest 0
 PrevOwner Sisqo~
 ExtF 67
-Stolen 181
+Stolen 303
 Cond 0
 Wear 16
 Cost 2200
 Val  0 4 10 5 1025
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 10320
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 9500
 End
 
 #END

@@ -2,83 +2,91 @@
 Name Aveolar~
 Id   1023182487
 Email (null)~
-LogO 1128799339
-Vers 31
+LogO 1395792849
+Vers 33
 Desc Atrox Avarita Elf.
 ~
 Prom @ %hhps %mmana %vmv  %wcap %g{Y${x %Xtnl> ~
 Race elf~
-Clan loner~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 9
+SkPTracker 0
 LogoutTracker 0
-Kill 18 23 0 12
+Kill 18 23 0 13
 Steal 0 0 0
+MSteal 0
 LstK Tsung~
-LstKBy Eikel~
+LstKBy Azagahl~
 LstAtkedBy no one~
 LstAtkedByTimer 0
 LstCombatDate 1128799126
 LstKillDate 1070892104
-LstDeathDate 1128799148
-LoginsWOKill 34
-LoginsWODeath 1
-LoginsWOCombat 0
+LstDeathDate 1331089107
+LoginsWOKill 48
+LoginsWODeath 7
+LoginsWOCombat 14
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 1 178 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 405981 huitzilopochtli~
 DeityT -2483 huitzilopochtli~
-Sac  300
+Sac  202
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1023182495
 Glad 0 0 0 0 0 0
-LastHost conr-adsl-209-169-102-29.consolidated.net~
+LastHost 24.5.1.36~
 Cla  7
 Kit medium~
 ClaO 10
 Levl 51
 DLevl 0
-Plyd 638126
-Not  1114196080 1110893585 1110893585 1111901610 1110893585 1110906024 1110893585 1110893585 1110893585 1110893585
+Plyd 646083
+Not  1312770949 1312495529 1110893585 1111901610 1310884472 1312550465 1110893585 1110893585 1110893585 1110893585
 Scro 98
 Rank 0
-Room 22089
-HMV  102 948 9 1033 386 386
-Gold 52
-Silv 621
+Room 901
+HMV  1089 1103 822 1148 357 386
+Gold 56
+Silv 473
 Exp  408068
-Act  DEGHKOQST
+Act  DGHKOQRST
 MHSF R
-AfBy JTb
+AfBy DFJc
 Comm GIRS
 Disp BFIJLN
 IcgB 0
 Icg 0
 Pnet ABCDEFG
 Pos  8
-Prac 4
-SkiP 6
-Save  -4
-Alig  -1000
-Hit   12
-Dam   8
-SecHit   12
-SecDam   8
-ACs 29 35 37 87
-Attr 17 21 19 21 16 17 17 12
-AMod 0 1 3 3 6 0 0 0
+Prac 5
+Trai 5
+StatsTrained 40 20 0
+SkiP 38
+Save  -7
+Alig  -958
+Hit   11
+Dam   5
+SecHit   11
+SecDam   5
+ACs -14 -8 -6 53
+Attr 17 21 19 21 16 11 12 12
+AMod 4 1 3 3 3 0 0 1
 Pass Avyxm5Ox2irIc~
 Titl  waits patiently for your death.~
 Pnts 100
 TSex 1
 LLev 103
-HMVP 768 953 386
-Cnd  0 20 23 23
+HMVP 808 973 386
+Cnd  0 0 0 0
 Alias k murder~
 Alias cc c 'acid blast'~
 Alias sur c 'orb of surprise'~
@@ -86,10 +94,12 @@ Alias ee c energy~
 Alias faith c 'shield of faith'~
 Alias ff c 'fireball'~
 Alias aa c 'acid blast'~
-Alias 3 c 'orb of sur'~
-Alias 1 order all rescue aveolar~
+Alias 3 c 'orb of surprise'~
+Alias 1 c 'orb of touch'~
 Alias 4 c 'orb of turn'~
 Alias 5 c 'orb of touch'~
+Alias 2 c 'orb of turn'~
+Alias x c 'faerie fog'~
 Sk 100 'acid blast'
 Sk 80 'acclimate'
 Sk 1 'aid'
@@ -111,7 +121,6 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 83 'control weather'
 Sk 97 'cure blindness'
 Sk 96 'cure critical'
@@ -150,7 +159,7 @@ Sk 91 'frenzy'
 Sk 1 'fumble'
 Sk 99 'gate'
 Sk 87 'giant strength'
-Sk 75 'harm'
+Sk 80 'harm'
 Sk 95 'haste'
 Sk 100 'heal'
 Sk 77 'heat metal'
@@ -213,7 +222,7 @@ Sk 75 'make bag'
 Sk 97 'turn undead'
 Sk 88 'withstand death'
 Sk 75 'wound transfer'
-Sk 81 'dagger'
+Sk 91 'dagger'
 Sk 100 'mace'
 Sk 1 'breathe'
 Sk 100 'dodge'
@@ -250,6 +259,10 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'mummy'
+Affc 'shield'   0  44   3 -20  17          0
+Affc 'detect hidden'   0  48   5   0   0         32
+Affc 'detect invis'   0  45   4   0   0          8
+Affc 'giant strength'   0  48  29   4   1          0
 End
 
 #O
@@ -257,7 +270,7 @@ Vnum 2725
 Nest 0
 PrevOwner Aveolar~
 Cond 0
-Wear -1
+Wear 8
 Cost 3600
 End
 
@@ -291,26 +304,6 @@ Cost 3000
 End
 
 #O
-Vnum 2332
-Nest 0
-PrevOwner Aveolar~
-ExtF 65
-Cond 0
-Wear 13
-Cost 7600
-End
-
-#O
-Vnum 23513
-Nest 0
-PrevOwner Aveolar~
-ExtF 17301569
-Cond 0
-Wear -1
-Cost 6410
-End
-
-#O
 Vnum 23513
 Nest 0
 PrevOwner Aveolar~
@@ -329,9 +322,9 @@ ExtF 2051
 Cond 0
 Wear 9
 Cost 5500
-Affc 'reserved'   1  41  -1  20  13          0
-Affc 'reserved'   1  41  -1  25  12          0
 Affc 'reserved'   1  41  -1  -1   5          0
+Affc 'reserved'   1  41  -1  25  12          0
+Affc 'reserved'   1  41  -1  20  13          0
 End
 
 #O
@@ -344,29 +337,11 @@ Cost 3000
 End
 
 #O
-Vnum 12019
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 150
-End
-
-#O
-Vnum 12006
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 900
-End
-
-#O
 Vnum 12004
 Nest 0
 PrevOwner Aveolar~
 Cond 0
-Wear 7
+Wear -1
 Cost 40
 End
 
@@ -377,28 +352,6 @@ PrevOwner Aveolar~
 Cond 0
 Wear 2
 Cost 4000
-End
-
-#O
-Vnum 3282
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Time 887
-Cost 1800
-Spell 1 'sanctuary'
-Spell 2 'stone skin'
-Spell 3 'armor'
-End
-
-#O
-Vnum 8504
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 6000
 End
 
 #O
@@ -414,30 +367,12 @@ Val  12 10 11 2 0
 End
 
 #O
-Vnum 8503
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 12079
 Nest 0
 PrevOwner Aveolar~
 ExtF 17301505
 Cond 0
-Wear -1
+Wear 10
 Cost 0
 End
 
@@ -455,30 +390,8 @@ Vnum 23504
 Nest 0
 PrevOwner Aveolar~
 Cond 0
-Wear -1
+Wear 16
 Cost 4500
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 22552
-Enchanted
-Nest 0
-PrevOwner Aveolar~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   0  52  -1  12  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #O
@@ -491,34 +404,6 @@ Cost 4500
 End
 
 #O
-Vnum 2405
-Nest 0
-PrevOwner Aveolar~
-ExtF 17694977
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 104
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear 3
-Cost 550
-End
-
-#O
-Vnum 8141
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear 10
-Cost 1500
-End
-
-#O
 Vnum 8106
 Nest 0
 PrevOwner Aveolar~
@@ -528,37 +413,9 @@ Cost 10
 End
 
 #O
-Vnum 8504
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 20405
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear 6
-Cost 125
-End
-
-#O
-Vnum 10339
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear 8
-Cost 20000
-End
-
-#O
 Vnum 5705
 Nest 0
-PrevOwner Eikel~
-Stolen 46
+PrevOwner Aveolar~
 Cond 0
 Wear -1
 Cost 0
@@ -567,306 +424,19 @@ End
 #O
 Vnum 8500
 Nest 0
-PrevOwner Eikel~
-Stolen 55
+PrevOwner Aveolar~
 Cond 0
-Wear -1
+Wear 12
 Cost 3000
 End
 
 #O
-Vnum 23514
+Vnum 8503
 Nest 1
-PrevOwner Aveolar~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 3690
-End
-
-#O
-Vnum 8517
-Nest 1
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 13
-Nest 1
-PrevOwner Aveolar~
-ShD  the heart of Aveolar~
-Desc The torn-out heart of Aveolar is lying here.~
-Ityp 13
-Cond 0
-Wear -1
-Cost 0
-Val  16 16 4 0 0
-End
-
-#O
-Vnum 12
-Nest 1
-PrevOwner Aveolar~
-ShD  the head of Nemo~
-Desc The severed head of Nemo is lying here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 23512
-Nest 1
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 6740
-End
-
-#O
-Vnum 7303
-Nest 1
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 18600
-Spell 3 'sanctuary'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Aveolar~
-Name a scroll of summon dead~
-ShD  a scroll of summon dead~
-Desc A scroll of summon dead lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  23
-Cost 0
-Val  48 230 -1 -1 -1
-Spell 1 'summon dead'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Aveolar~
-Name a scroll of summon dead~
-ShD  a scroll of summon dead~
-Desc A scroll of summon dead lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  23
-Cost 0
-Val  48 230 -1 -1 -1
-Spell 1 'summon dead'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Aveolar~
-Name a scroll of summon dead~
-ShD  a scroll of summon dead~
-Desc A scroll of summon dead lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  23
-Cost 0
-Val  48 230 -1 -1 -1
-Spell 1 'summon dead'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Aveolar~
-Name a scroll of summon dead~
-ShD  a scroll of summon dead~
-Desc A scroll of summon dead lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  23
-Cost 0
-Val  48 230 -1 -1 -1
-Spell 1 'summon dead'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Aveolar~
-Name a scroll of summon dead~
-ShD  a scroll of summon dead~
-Desc A scroll of summon dead lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  23
-Cost 0
-Val  48 230 -1 -1 -1
-Spell 1 'summon dead'
-End
-
-#O
-Vnum 3048
-Nest 1
-PrevOwner Aveolar~
-Name a scroll of word of recall~
-ShD  a scroll of word of recall~
-Desc A scroll of word of recall lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  9
-Cost 0
-Val  45 216 -1 -1 -1
-Spell 1 'word of recall'
-End
-
-#O
-Vnum 3048
-Nest 1
-PrevOwner Aveolar~
-Name a scroll of word of recall~
-ShD  a scroll of word of recall~
-Desc A scroll of word of recall lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  9
-Cost 0
-Val  45 216 -1 -1 -1
-Spell 1 'word of recall'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Aveolar~
-Name a scroll of remove curse~
-ShD  a scroll of remove curse~
-Desc A scroll of remove curse lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  18
-Cost 0
-Val  51 161 -1 -1 -1
-Spell 1 'remove curse'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Aveolar~
-Name a scroll of remove curse~
-ShD  a scroll of remove curse~
-Desc A scroll of remove curse lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  18
-Cost 0
-Val  51 161 -1 -1 -1
-Spell 1 'remove curse'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Aveolar~
-Name a scroll of remove curse~
-ShD  a scroll of remove curse~
-Desc A scroll of remove curse lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  18
-Cost 0
-Val  51 161 -1 -1 -1
-Spell 1 'remove curse'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Aveolar~
-Name a scroll of summon dead~
-ShD  a scroll of summon dead~
-Desc A scroll of summon dead lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  23
-Cost 0
-Val  48 230 -1 -1 -1
-Spell 1 'summon dead'
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 0
-PrevOwner Aveolar~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 3200
-Affc 'enchant weapon'   1  52  -1  12  19          0
-Affc 'enchant weapon'   0  52  -1  12  18          0
-End
-
-#O
-Vnum 3034
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 0
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
+Cost 5000
 End
 
 #O
@@ -887,21 +457,50 @@ Val  540 1 -1 90 25
 End
 
 #O
-Vnum 8503
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
+Vnum 23512
 Nest 0
 PrevOwner Aveolar~
 Cond 0
 Wear -1
-Cost 5000
+Cost 6740
+End
+
+#O
+Vnum 23514
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear -1
+Cost 3690
+End
+
+#O
+Vnum 2332
+Nest 0
+PrevOwner Aveolar~
+ExtF 65
+Cond 0
+Wear -1
+Cost 7600
+End
+
+#O
+Vnum 23513
+Nest 0
+PrevOwner Aveolar~
+ExtF 17301569
+Cond 0
+Wear 3
+Cost 6410
+End
+
+#O
+Vnum 12019
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear -1
+Cost 150
 End
 
 #O
@@ -923,66 +522,332 @@ Cost 5000
 End
 
 #O
-Vnum 11
-Nest 0
-PrevOwner (null)~
-ShD  the corpse of Aveolar~
-Desc The corpse of Aveolar is lying here.~
-ExtF 67125248
-Cond 0
-Wear -1
-Lev  51
-Time 27
-Cost 0
-Val  0 0 0 1 4
-End
-
-#O
-Vnum 6304
-Nest 1
-PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 4600
-End
-
-#O
-Vnum 8517
+Vnum 8503
 Nest 0
 PrevOwner Aveolar~
 Cond 0
 Wear -1
-Cost 0
-Val  0 0 0 0 22089
+Cost 5000
 End
 
 #O
-Vnum 8517
+Vnum 8503
 Nest 0
 PrevOwner Aveolar~
 Cond 0
 Wear -1
-Cost 0
-Val  0 0 0 0 22089
+Cost 5000
 End
 
 #O
-Vnum 8517
+Vnum 2405
 Nest 0
 PrevOwner Aveolar~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8517
-Nest 0
-PrevOwner Aveolar~
+ExtF 17694977
 Cond 0
 Wear 17
+Cost 1000
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 10339
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear -1
+Cost 20000
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear -1
 Cost 0
 Val  0 0 0 0 22089
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 22089
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 22089
+End
+
+#O
+Vnum 7303
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear -1
+Cost 18600
+Val  13 10 7 174 0
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 12005
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear -1
+Cost 605
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner Aveolar~
+Cond 0
+Wear 7
+Cost 40
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 12
+Nest 0
+PrevOwner Aveolar~
+ShD  the head of Nemo~
+Desc The severed head of Nemo is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4822
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 18112
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 28025
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 28023
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 28026
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 9000
+End
+
+#O
+Vnum 28024
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 28036
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 28038
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 28039
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 2000
+Spell 1 'turn undead'
+End
+
+#O
+Vnum 28041
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 3000
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 28046
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 3500
+Spell 1 'cure disease'
+Spell 2 'cure critical'
+End
+
+#O
+Vnum 28045
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 4500
+Spell 1 'shield'
+Spell 2 'stone skin'
+Spell 3 'change sex'
+End
+
+#O
+Vnum 28044
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 8000
+Spell 1 'plague'
+Spell 2 'poison'
+End
+
+#O
+Vnum 28043
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 4500
+Spell 1 'create food'
+Spell 2 'create food'
+Spell 3 'create spring'
+End
+
+#O
+Vnum 28042
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 3500
+Spell 1 'teleport'
+Spell 2 'sanctuary'
+End
+
+#O
+Vnum 28047
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 8000
+Spell 3 'lightning bolt'
+End
+
+#O
+Vnum 1349
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 5000
+End
+
+#O
+Vnum 1351
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12
+End
+
+#O
+Vnum 1352
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 50
 End
 
 #END

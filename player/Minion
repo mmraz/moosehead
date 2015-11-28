@@ -2,19 +2,20 @@
 Name Minion~
 Id   1012963605
 Email (null)~
-LogO 1091384031
-Vers 31
+LogO 1407696864
+Vers 33
 Prom [%e %hHp %mMana %n/%N %v(%S)$%g.%s %a %wLbs %X]  ~
 Race ogre~
 Clan honor~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 3
+SkPTimer 1
+SkPTracker 2
 LogoutTracker 0
 Kill 0 0 0 2
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy Zorszaul~
 LstAtkedBy no one~
@@ -22,10 +23,16 @@ LstAtkedByTimer 0
 LstCombatDate 1090736053
 LstKillDate 1012963605
 LstDeathDate 1016847000
-LoginsWOKill 64
-LoginsWODeath 42
-LoginsWOCombat 4
+LoginsWOKill 69
+LoginsWODeath 47
+LoginsWOCombat 9
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 167247 mojo~
 DeityT -3560 mojo~
 Sac  300
@@ -35,56 +42,56 @@ Node 0
 Cap 0
 Created 1012963613
 Glad 0 0 0 0 0 0
-LastHost 209.120.156.200~
+LastHost 209.169.196.58~
 Cla  6
 Kit brawler~
 ClaO 3
 Levl 26
 DLevl 0
-Plyd 170834
-Not  1090736351 1090736351 1090736351 1091239452 1091251327 1090736351 1090736351 1091309907 1090736351 1090736351
+Plyd 172983
+Not  1364355573 1364355573 1364355573 1364355573 1364355573 1364355573 1364355573 1364355573 1364355573 1364355573
 Scro 22
 Rank 2
-Room 31520
-HMV  685 685 251 251 254 254
-Gold 452
-Silv 1371
-Exp  185100
-Act  CDEFGHJK
+Room 4802
+HMV  815 815 234 234 244 244
+Gold 455
+Silv 1446
+Exp  185234
+Act  CDEFGHJKQ
 MHSF R
-AfBy C
+AfBy CV
 Comm GS
 Disp FIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFG
 Pos  8
-Prac 45
-Trai 1
-SkiP 21
-Save  -5
-Alig  -1000
-Hit   10
-Dam   13
-SecHit   10
-SecDam   13
-ACs 60 60 60 71
-Attr 22 16 18 18 21 17 21 17
-AMod 0 6 2 3 1 3 4 -1
+Prac 42
+StatsTrained 140 0 0
+SkiP 27
+Save  -10
+Alig  -844
+Hit   17
+Dam   18
+SecHit   17
+SecDam   18
+ACs 70 70 70 93
+Attr 22 16 18 18 21 11 14 17
+AMod 0 6 2 6 0 1 4 -1
 Pass MiEpk5IiJAUN2~
 Titl  says on my signal, unleash hell!~
 Pnts 88
 TSex 1
 LLev 46
-HMVP 685 228 274
-Cnd  0 0 0 0
+HMVP 825 228 274
+Cnd  0 6 47 8
 Sk 1 'aid'
 Sk 1 'bestow holiness'
 Sk 49 'bless'
 Sk 1 'calm'
 Sk 1 'famine'
 Sk 73 'feast'
-Sk 1 'fly'
+Sk 73 'fly'
 Sk 75 'frenzy'
 Sk 75 'gate'
 Sk 1 'holy word'
@@ -97,7 +104,7 @@ Sk 75 'summon'
 Sk 73 'teleport'
 Sk 78 'word of recall'
 Sk 75 'axe'
-Sk 29 'dagger'
+Sk 42 'dagger'
 Sk 10 'flail'
 Sk 81 'mace'
 Sk 10 'polearm'
@@ -109,8 +116,8 @@ Sk 1 'bite'
 Sk 75 'dirt kicking'
 Sk 1 'disarm'
 Sk 75 'dodge'
-Sk 47 'enhanced critical'
-Sk 78 'enhanced damage'
+Sk 49 'enhanced critical'
+Sk 84 'enhanced damage'
 Sk 17 'weave resistance'
 Sk 33 'insanity'
 Sk 43 'morph'
@@ -118,7 +125,7 @@ Sk 75 'parry'
 Sk 25 'rescue'
 Sk 36 'shield block'
 Sk 69 'scan'
-Sk 75 'second attack'
+Sk 77 'second attack'
 Sk 75 'third attack'
 Sk 44 'fast healing'
 Sk 1 'steal'
@@ -134,6 +141,12 @@ Gr 'weaponsmaster'
 Gr 'benedictions'
 Gr 'transportation'
 Gr 'garou'
+Affc 'bless'   0  16  20   2  18          0
+Affc 'bless'   0  19  20  -2  24          0
+Affc 'frenzy'   0  20   0   3  18          0
+Affc 'frenzy'   0  19   0   3  19          0
+Affc 'frenzy'   0  20   0  10  17          0
+Affc 'haste'   0  33  12   4   2    2097152
 End
 
 #O
@@ -179,15 +192,6 @@ PrevOwner (null)~
 Cond 0
 Wear 17
 Cost 100
-End
-
-#O
-Vnum 2504
-Nest 1
-PrevOwner Minion~
-Cond 0
-Wear -1
-Cost 1160
 End
 
 #O
@@ -380,41 +384,12 @@ Cost 2000
 End
 
 #O
-Vnum 9201
-Nest 1
-PrevOwner Minion~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
 Vnum 23106
 Nest 1
 PrevOwner Minion~
 Cond 0
 Wear -1
 Cost 1500
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Minion~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Minion~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
 End
 
 #O
@@ -503,30 +478,12 @@ Cost 450
 End
 
 #O
-Vnum 5710
-Nest 1
-PrevOwner Minion~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
 Vnum 5706
 Nest 1
 PrevOwner Minion~
 Cond 0
 Wear -1
 Cost 2000
-End
-
-#O
-Vnum 16721
-Nest 1
-PrevOwner Minion~
-Cond 0
-Wear -1
-Cost 1400
 End
 
 #O
@@ -584,6 +541,114 @@ Cost 1500
 End
 
 #O
+Vnum 9201
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 3022
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 610
+End
+
+#O
+Vnum 7708
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 2300
+End
+
+#O
+Vnum 3022
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 610
+End
+
+#O
+Vnum 3022
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 610
+End
+
+#O
+Vnum 3022
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 610
+End
+
+#O
+Vnum 7717
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 1450
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 2387
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 880
+End
+
+#O
+Vnum 4434
+Nest 1
+PrevOwner Minion~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
 Vnum 16721
 Nest 0
 PrevOwner Minion~
@@ -629,15 +694,6 @@ Cost 5
 End
 
 #O
-Vnum 4434
-Nest 0
-PrevOwner Minion~
-Cond 0
-Wear 3
-Cost 550
-End
-
-#O
 Vnum 17631
 Nest 0
 PrevOwner Minion~
@@ -651,7 +707,7 @@ Vnum 10707
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 7
+Wear -1
 Cost 20
 End
 
@@ -710,31 +766,57 @@ Cost 1500
 End
 
 #O
-Vnum 2387
+Vnum 7709
 Nest 0
-PrevOwner Minion~
-Stolen 32
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 880
+Cost 2600
 End
 
 #O
-Vnum 4433
+Vnum 7715
 Nest 0
-PrevOwner Minion~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 550
+Cost 2100
 End
 
 #O
-Vnum 4433
+Vnum 7716
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1450
+End
+
+#O
+Vnum 7715
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2100
+End
+
+#O
+Vnum 16721
 Nest 0
 PrevOwner Minion~
 Cond 0
-Wear -1
-Cost 550
+Wear 3
+Cost 1400
+End
+
+#O
+Vnum 2504
+Nest 0
+PrevOwner Minion~
+Cond 0
+Wear 7
+Cost 1160
 End
 
 #END

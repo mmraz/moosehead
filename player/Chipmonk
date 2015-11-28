@@ -3,8 +3,8 @@ Name Chipmonk~
 SurN Kiwi~
 Id   1044917895
 Email (null)~
-LogO 1130470550
-Vers 31
+LogO 1392541338
+Vers 33
 LnD  A Gladiator~
 Prom <%hhp %mma %vmv %Xtnl> ~
 Race yinn~
@@ -12,10 +12,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +28,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 509576 matook~
 DeityT -208 huitzilopochtli~
 Sac  300
@@ -36,24 +43,24 @@ Node 0
 Cap 0
 Created 1044917987
 Glad 0 0 0 0 8 0
-LastHost pool-71-112-173-113.sttlwa.dsl-w.verizon.net~
+LastHost 67.185.179.181~
 Cla  4
 Kit wu jen~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 942824
+Plyd 953333
 Not  1085815854 1130446298 1085815854 1129145608 1096333685 1130086989 1085815854 1097158830 1085815854 1129478192
 Scro 22
 Rank 0
-Room 3001
-HMV  993 993 976 976 519 519
-Gold 250
-Silv 2574
+Room 3014
+HMV  993 993 976 976 518 519
+Gold 1698
+Silv 47
 Exp  446277
 Act  DGHIKMS
 MHSF R
-AfBy J
+AfBy DFJV
 Comm 0
 Disp BFIJN
 IcgB 0
@@ -61,23 +68,23 @@ Icg 0
 Pnet ACEFI
 Pos  8
 Prac 4
-SkiP 170
-Save  -8
+SkiP 209
+Save  -14
 Alig  -1000
-Hit   32
-Dam   42
-SecHit   20
-SecDam   30
+Hit   44
+Dam   48
+SecHit   31
+SecDam   35
 ACs -69 -69 -69 -69
 Attr 22 18 20 23 22 22 22 21
-AMod 0 0 0 1 1 2 0 4
-Pass ChXGuuv.lDSDQ~
+AMod 4 0 0 5 1 2 0 4
+Pass Chy1QE.pv09Ec~
 Titl  is afk-ish eating {GKiwis!!!{x~
 Pnts 95
 TSex 1
 LLev 99
 HMVP 848 946 519
-Cnd  0 0 0 0
+Cnd  0 0 37 16
 Alias 3 c famine~
 Alias 5 backstab~
 Alias 2 bleed~
@@ -85,7 +92,6 @@ Alias ` scan~
 Alias ll get all corpse~
 Alias mi c 'mirror image'~
 Alias re order all rescue chip~
-Alias sof c 'shield of faith'~
 Alias 6 c heal~
 Alias 4 c harm~
 Alias sd f 'summon dead~
@@ -93,6 +99,7 @@ Alias gk .{GKiwis!!!{x~
 Alias lc get coins corpse~
 Alias 8 dirt~
 Alias x follow flower~
+Alias 1 backstab~
 Sk 1 'aid'
 Sk 85 'armor'
 Sk 1 'bestow holiness'
@@ -143,7 +150,7 @@ Sk 78 'heat metal'
 Sk 1 'hold person'
 Sk 75 'holy word'
 Sk 82 'hydrophilia'
-Sk 86 'identify'
+Sk 88 'identify'
 Sk 75 'infravision'
 Sk 1 'knock'
 Sk 75 'know alignment'
@@ -164,7 +171,7 @@ Sk 78 'regeneration'
 Sk 80 'remove curse'
 Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
-Sk 83 'shield'
+Sk 84 'shield'
 Sk 87 'shield of faith'
 Sk 82 'sleep'
 Sk 81 'stone skin'
@@ -174,7 +181,7 @@ Sk 88 'tower of iron will'
 Sk 95 'word of recall'
 Sk 81 'animate dead'
 Sk 100 'summon dead'
-Sk 79 'cryogenesis'
+Sk 80 'cryogenesis'
 Sk 75 'draw life'
 Sk 78 'make bag'
 Sk 82 'turn undead'
@@ -219,6 +226,14 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'nosferatu'
+Affc 'giant strength'   0  48   7   4   1          0
+Affc 'bless'   0  43  26  -6  24          0
+Affc 'bless'   0  48  26   6  18          0
+Affc 'detect hidden'   0  50  37   0   0         32
+Affc 'detect invis'   0  47  36   0   0          8
+Affc 'haste'   0  46  11   4   2    2097152
+Affc 'daetok'   0  51  11   5  18          0
+Affc 'daetok'   0  51  11   5  19          0
 End
 
 #O
@@ -240,43 +255,6 @@ Desc Chipmonks Alvin Nitelight~
 Cond 0
 Wear 0
 Cost 2000
-End
-
-#O
-Vnum 5705
-Nest 0
-PrevOwner Chipmonk~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 18912
-Enchanted
-Nest 1
-PrevOwner Chipmonk~
-ExtF 83
-Cond 0
-Wear -1
-Lev  50
-Cost 4800
-Val  2 2 17 11 14
-Affc 'reserved'   1  40  -1   0   0          0
-Affc 'reserved'   1  40  -1  -1  20          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 22559
-Nest 1
-PrevOwner Chipmonk~
-ExtF 1
-Cond 0
-Wear -1
-Cost 3000
 End
 
 #O
@@ -305,15 +283,6 @@ Cond 0
 Wear -1
 Cost 1000
 Val  48 0 0 0 0
-End
-
-#O
-Vnum 10445
-Nest 0
-PrevOwner Chipmonk~
-Cond 0
-Wear -1
-Cost 6400
 End
 
 #O
@@ -353,8 +322,8 @@ Wear -1
 Lev  50
 Cost 1600
 Val  2 9 4 36 68
-Affc 'enchant weapon'   0  52  -1  12  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
@@ -460,16 +429,6 @@ Val  7 7 7 4 4
 End
 
 #O
-Vnum 18119
-Nest 0
-PrevOwner Disraeli~
-ExtF 225
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
 Vnum 5913
 Nest 0
 PrevOwner Disraeli~
@@ -500,19 +459,10 @@ Cost 4500
 End
 
 #O
-Vnum 6600
-Nest 0
-PrevOwner Chipmonk~
-Cond 0
-Wear -1
-Cost 250
-End
-
-#O
 Vnum 18108
 Nest 0
 PrevOwner Chipmonk~
-Stolen 273
+Stolen 10
 Cond 0
 Wear -1
 Cost 5600
@@ -524,14 +474,13 @@ Enchanted
 Nest 0
 PrevOwner Chipmonk~
 ExtF 67
-Stolen 211
 Cond 0
-Wear -1
+Wear 16
 Lev  50
 Cost 350
 Val  2 9 4 40 6
-Affc 'enchant weapon'   0  53  -1  13  18          0
 Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   0  53  -1  13  18          0
 End
 
 #O
@@ -560,12 +509,12 @@ Nest 0
 PrevOwner Chipmonk~
 ExtF 67
 Cond 0
-Wear 16
+Wear -1
 Lev  50
 Cost 294
 Val  2 3 12 11 140
-Affc 'enchant weapon'   0  52  -1  12  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
@@ -575,6 +524,118 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 22559
+Nest 0
+PrevOwner Chipmonk~
+ExtF 1
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 18912
+Enchanted
+Nest 0
+PrevOwner Chipmonk~
+ExtF 83
+Cond 0
+Wear -1
+Lev  50
+Cost 4800
+Val  2 2 17 11 14
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'reserved'   1  40  -1  -1  20          0
+Affc 'reserved'   1  40  -1   0   0          0
+End
+
+#O
+Vnum 5252
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 590
+End
+
+#O
+Vnum 5232
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5740
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 13
+Nest 0
+PrevOwner (null)~
+ShD  the heart of {YA {RShambling {CSnowman{x~
+Desc The torn-out heart of {YA {RShambling {CSnowman{x is lying here.~
+Cond 0
+Wear -1
+Cost 0
+Val  16 16 8121 0 0
+End
+
+#O
+Vnum 6600
+Nest 0
+PrevOwner Chipmonk~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 3021
+Nest 0
+PrevOwner Chipmonk~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 2102
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 970
+End
+
+#O
+Vnum 6504
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 880
 End
 
 #END

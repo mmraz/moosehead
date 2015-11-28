@@ -3,8 +3,8 @@ Name Kurai~
 SurN Kitori~
 Id   1022629212
 Email (null)~
-LogO 1105923352
-Vers 31
+LogO 1392746159
+Vers 33
 Desc .
 As you approach, you see a large white yinn standing, ready for battle.
 Grasped in his left hand is the sheathe of an extreemly sharp katana.
@@ -25,10 +25,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 1 3 2 6
 Steal 144 11703 0
+MSteal 0
 LstK DoomSledge~
 LstKBy Baelem~
 LstAtkedBy no one~
@@ -36,37 +37,43 @@ LstAtkedByTimer 0
 LstCombatDate 1045551741
 LstKillDate 1054273959
 LstDeathDate 1045290372
-LoginsWOKill 6
-LoginsWODeath 19
-LoginsWOCombat 16
+LoginsWOKill 24
+LoginsWODeath 37
+LoginsWOCombat 34
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 640635 matook~
 DeityT -5893 almighty~
-Sac  298
+Sac  148
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1022629237
 Glad 0 0 0 0 0 0
-LastHost 4.46.204.164~
+LastHost 67.185.179.181~
 Cla  4
 Kit acrobat~
 ClaO 2
 Levl 43
 DLevl 0
-Plyd 920668
+Plyd 927347
 Not  1047439725 1047439725 1047439725 1054211170 1054163568 1047439725 1047439725 1054176377 1047439725 1047439725
 Scro 22
 Rank 0
-Room 3005
-HMV  661 768 286 326 406 418
-Gold 22
-Silv 22
-Exp  419401
+Room 4400
+HMV  803 803 319 319 418 418
+Gold 5
+Silv 97
+Exp  419403
 Act  CDGHKQS
 MHSF RSUX
-AfBy J
+AfBy CJ
 Comm 0
 Disp FGIJN
 IcgB 0
@@ -75,23 +82,24 @@ Pnet ACDEF
 Pos  8
 Prac 5
 Trai 1
-SkiP 57
-Alig  961
-Hit   12
-Dam   10
-SecHit   12
-SecDam   10
-ACs -175 -175 -175 -175
+SkiP 60
+Save  -3
+Alig  964
+Hit   25
+Dam   32
+SecHit   16
+SecDam   19
+ACs -193 -193 -193 -193
 Wimp  10
 Attr 22 18 20 23 22 18 15 12
-AMod 0 0 0 3 1 0 0 0
-Pass KuQZPqzyvZeng~
+AMod 0 0 0 5 1 0 0 0
+Pass KuImmY93FMfg2~
 Titl .~
 Pnts 99
 TSex 1
 LLev 255
 HMVP 768 326 418
-Cnd  0 0 26 4
+Cnd  0 0 0 0
 Alias 2 dirt~
 Alias 4 c sleep~
 Alias 5 backstab~
@@ -103,6 +111,7 @@ Alias f flee~
 Alias z steal coins~
 Alias ` scan~
 Alias mi c 'mirror image~
+Alias 1 backstab~
 Sk 1 'aid'
 Sk 80 'armor'
 Sk 1 'bestow holiness'
@@ -135,7 +144,7 @@ Sk 80 'giant strength'
 Sk 92 'haste'
 Sk 92 'heal'
 Sk 75 'holy word'
-Sk 76 'identify'
+Sk 78 'identify'
 Sk 75 'infravision'
 Sk 1 'knock'
 Sk 1 'know alignment'
@@ -304,13 +313,155 @@ Enchanted
 Nest 0
 PrevOwner Kurai~
 ExtF 67
-Stolen 4231
+Stolen 4069
 Cond 0
-Wear -1
+Wear 16
 Lev  38
 Cost 2800
 Affc 'enchant weapon'   0  52  -1   9  18          0
 Affc 'enchant weapon'   1  52  -1  13  19          0
+End
+
+#O
+Vnum 3138
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 24
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 15
+Cost 1150
+End
+
+#O
+Vnum 16721
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 1400
+End
+
+#O
+Vnum 8509
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 2803
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 1150
+End
+
+#O
+Vnum 2803
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 2
+Cost 1150
+End
+
+#O
+Vnum 8045
+Nest 0
+PrevOwner Molten~
+Cond 0
+Wear 11
+Cost 0
+End
+
+#O
+Vnum 18912
+Enchanted
+Nest 0
+PrevOwner Elrimir~
+ExtF 83
+Cond 0
+Wear -1
+Lev  45
+Cost 4800
+Affc 'enchant weapon'   0  52  -1   6  18          0
+Affc 'enchant weapon'   1  52  -1   6  19          0
+Affc 'reserved'   1  40  -1  -1  20          0
+Affc 'reserved'   1  40  -1   0   0          0
+End
+
+#O
+Vnum 8048
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 8046
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 12
+Cost 2000
+End
+
+#O
+Vnum 8045
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 12076
+Nest 0
+PrevOwner Caliber~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

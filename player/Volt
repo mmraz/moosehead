@@ -2,8 +2,8 @@
 Name Volt~
 Id   998166403
 Email (null)~
-LogO 998399794
-Vers 28
+LogO 1309893901
+Vers 31
 Prom %hh %mm %Xtnl ~
 Race rockbiter~
 Outc 0
@@ -12,12 +12,20 @@ MatookT 0
 SkPTimer 17
 SkPTracker 12
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1309893895
+LstKillDate 1309893895
+LstDeathDate 1309893895
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
 Deity 0 mojo~
 Sac  300
 Sex  1
@@ -26,17 +34,17 @@ Node 0
 Cap 0
 Created 998166412
 Glad 0 0 0 0 0 0
-LastHost cx911336-b.elkhn1.ne.home.com~
+LastHost 196.210.181.191~
 Cla  10
 ClaO 10
 Levl 8
 DLevl 0
-Plyd 11364
-Not  0 0 0 0 0 0 0 0 0
+Plyd 11370
+Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3025
-HMV  147 147 153 153 112 114
+HMV  147 147 153 153 114 114
 Gold 44
 Silv 760
 Exp  48211
@@ -47,6 +55,7 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 16
+Trai 10
 SkiP 14
 Save  -3
 Alig  -285
@@ -54,8 +63,8 @@ Hit   10
 Dam   4
 SecHit   5
 ACs 65 65 65 80
-Attr 25 16 19 8 19
-AMod 3 3 3 0 5
+Attr 25 16 19 8 19 13 13 13
+AMod 3 3 3 0 5 0 0 0
 Pass VoXnE48RIk7Cg~
 Titl , The Bouncer~
 Pnts 76
@@ -73,10 +82,10 @@ Sk 1 'cancellation'
 Sk 1 'chain lightning'
 Sk 75 'continual light'
 Sk 1 'control weather'
+Sk 1 'create node'
 Sk 1 'create spring'
 Sk 1 'create water'
 Sk 1 'curse'
-Sk 1 'create node'
 Sk 75 'dust storm'
 Sk 1 'earthbind'
 Sk 1 'earthquake'
@@ -130,9 +139,9 @@ Gr 'element energy'
 Gr 'element fire'
 Gr 'element spirit'
 Gr 'element water'
-Affc 'bless'   0  36   9   5  18          0
-Affc 'bless'   0  39   9  -5  24          0
 Affc 'armor'   0  40   7 -20  17          0
+Affc 'bless'   0  39   9  -5  24          0
+Affc 'bless'   0  36   9   5  18          0
 End
 
 #O
@@ -462,8 +471,8 @@ Cond 0
 Wear 16
 Lev  4
 Cost 250
-Affc 'enchant weapon'   1  55  -1   4  19          0
 Affc 'enchant weapon'   1  55  -1   5  18          0
+Affc 'enchant weapon'   1  55  -1   4  19          0
 End
 
 #O

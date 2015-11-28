@@ -2,8 +2,8 @@
 Name Tssault~
 Id   881436060
 Email (null)~
-LogO 990032138
-Vers 27
+LogO 1310096253
+Vers 31
 Desc You know you have heard rumors of a small human thief,..
 You think that this fellow is just a myth,...
 Could he really be able to slip under door cracks???
@@ -17,15 +17,24 @@ Race human~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 4
-SkPTracker 35
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1307368596
+LstKillDate 1307368596
+LstDeathDate 1307368596
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
 Deity 0 megena~
 Sac  300
 Sex  1
@@ -34,46 +43,48 @@ Node 0
 Cap 0
 Created 952950109
 Glad 0 0 0 0 0 0
-LastHost 206.156.246.58~
+LastHost 75.135.235.117~
 Cla  13
 Kit ninja~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 597313
-Not  964971144 964971145 0 964971143 964971144 964971144 953554312 964971145 0
+Plyd 603219
+Not  964971144 964971145 0 1309330112 964971144 964971144 953554312 964971145 0 0
 Scro 22
 Rank 0
-Room 3054
-HMV  1089 1089 383 383 368 368
-Gold 588
-Silv 74
+Room 31170
+HMV  1089 1089 363 363 368 368
+Gold 590
+Silv 60
 Exp  255000
 Act  BCDEFGHM
-AfBy PQT
-Comm DEGIOSc
-Disp BCFIJ
+MHSF R
+AfBy DEFPT
+Comm DEGILOSc
+Disp CFIJ
 IcgB 0
 Icg 0
-Pos  8
-Prac 7
-Save  -6
-Alig  1000
-Hit   16
-Dam   34
-SecHit   10
-SecDam   28
-ACs -8 -10 -10 24
-Wimp  212
-Attr 18 18 18 21 18
-AMod 9 5 6 3 0
-Pass TsF6esns7yr.2~
-Titl  {D@@@@@@@@@@@@@{X THE MOUSE{D@@@@@@@@@@@@@{x ~
+Pos  5
+Trai 4
+SkiP 1
+Save  -1
+Alig  997
+Hit   12
+Dam   47
+SecHit   6
+SecDam   41
+ACs 1 -1 -1 35
+Wimp  20
+Attr 18 18 18 21 18 10 10 25
+AMod 7 -1 4 3 0 0 0 0
+Pass TsyMCehTb6PL6~
+Titl  {b((((((((((((({x THE MOUSE {b))))))))))))){x~
 Pnts 85
 TSex 1
 LLev 165
 HMVP 1059 358 368
-Cnd  0 4 34 26
+Cnd  0 8 36 22
 Alias gr grats  May your success help in mine!~
 Alias 1 tit {D@@@@@@@@@@@@@{X THE MOUSE{D@@@@@@@@@@@@@{x~
 Alias 2 tit {W#############{x THE MOUSE {W#############{x~
@@ -90,7 +101,7 @@ Sk 43 'detect hidden'
 OldSk 43 'detect hidden'
 Sk 41 'detect invis'
 OldSk 38 'detect invis'
-Sk 39 'detect magic'
+Sk 40 'detect magic'
 OldSk 1 'detect magic'
 Sk 1 'detect poison'
 OldSk 1 'detect poison'
@@ -114,7 +125,7 @@ Sk 74 'locate object'
 OldSk 74 'locate object'
 Sk 1 'nexus'
 OldSk 1 'nexus'
-Sk 52 'pass door'
+Sk 75 'pass door'
 OldSk 52 'pass door'
 Sk 36 'portal'
 OldSk 18 'portal'
@@ -146,27 +157,27 @@ OldSk 100 'enhanced damage'
 Sk 100 'kick'
 OldSk 100 'kick'
 Sk 100 'kurijitsu'
-Sk 55 'ninjitsu'
+Sk 69 'ninjitsu'
 Sk 100 'parry'
 OldSk 100 'parry'
 OldSk 71 'trip'
 OldSk 81 'shield block'
-Sk 99 'scan'
+Sk 100 'scan'
 OldSk 88 'scan'
 Sk 100 'second attack'
 OldSk 100 'second attack'
 Sk 99 'third attack'
 OldSk 93 'third attack'
-Sk 44 'fast healing'
+Sk 55 'fast healing'
 Sk 73 'haggle'
-Sk 52 'hide'
-Sk 22 'lore'
+Sk 75 'hide'
+Sk 24 'lore'
 OldSk 85 'meditation'
 Sk 96 'peek'
 OldSk 93 'peek'
-Sk 68 'pick lock'
+Sk 75 'pick lock'
 OldSk 68 'pick lock'
-Sk 52 'slice'
+Sk 69 'slice'
 Sk 69 'sneak'
 OldSk 69 'sneak'
 Sk 78 'steal'
@@ -185,10 +196,10 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'detection'
 Gr 'transportation'
-Affc 'sneak'   0  51  49   0   0      32768
-Affc 'bless'   0  30  18   5  18          0
-Affc 'bless'   0  35  18  -5  24          0
-Affc 'shield'   0  23   7 -20  17          0
+Affc 'detect magic'   0  37  22   0   0         16
+Affc 'detect hidden'   0  39  21   0   0         32
+Affc 'sneak'   0  46  24   0   0      32768
+Affc 'detect invis'   0  33   0   0   0          8
 End
 
 #O
@@ -196,7 +207,7 @@ Vnum 3726
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 Val  100 1 0 10 85
 End
@@ -211,9 +222,92 @@ Cost 5000
 End
 
 #O
-Vnum 3032
+Vnum 18120
+Enchanted
 Nest 1
 PrevOwner (null)~
+ExtF 67
+Cond 0
+Wear -1
+Lev  40
+Cost 1250
+Affc 'enchant weapon'   0  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 3715
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 20405
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 125
+End
+
+#O
+Vnum 4434
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 17633
+Nest 1
+PrevOwner Tssault~
+Cond 0
+Wear -1
+Time 601
+Cost 400
+Spell 1 'armor'
+Spell 2 'shield'
+End
+
+#O
+Vnum 5707
+Nest 1
+PrevOwner Tssault~
+ExtF 134217728
+Wt   33
+Cond 0
+Wear -1
+Cost 500
+Val  2 2 2 2 3
+End
+
+#O
+Vnum 3032
+Nest 1
+PrevOwner Tssault~
 Cond 0
 Wear -1
 Cost 9
@@ -346,74 +440,73 @@ Cost 10000
 End
 
 #O
-Vnum 18120
+Vnum 5706
+Nest 1
+PrevOwner Tssault~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Tssault~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Tssault~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Tssault~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 17631
+Nest 1
+PrevOwner Tssault~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 15231
+Nest 1
+PrevOwner Tssault~
+Stolen 4000
+Cond 0
+Wear -1
+Cost 8000
+End
+
+#O
+Vnum 9203
 Enchanted
 Nest 1
-PrevOwner (null)~
+PrevOwner Tssault~
 ExtF 67
+Stolen 520
 Cond 0
 Wear -1
-Lev  40
-Cost 1250
-Affc 'enchant weapon'   0  53  -1   6  18          0
-Affc 'enchant weapon'   1  53  -1   6  19          0
-End
-
-#O
-Vnum 4433
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 4433
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 5707
-Nest 1
-PrevOwner (null)~
-ExtF 134217728
-Wt   33
-Cond 0
-Wear -1
-Cost 500
-Val  2 2 2 2 3
-End
-
-#O
-Vnum 3715
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 20405
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 125
-End
-
-#O
-Vnum 4434
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
+Lev  33
+Cost 2800
+Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
 End
 
 #O
@@ -421,7 +514,7 @@ Vnum 1345
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 12
 Cost 1000
 End
 
@@ -680,48 +773,12 @@ Cost 6500
 End
 
 #O
-Vnum 10447
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
 Vnum 8503
 Nest 1
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5000
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
 End
 
 #O
@@ -811,7 +868,7 @@ Nest 0
 PrevOwner (null)~
 ExtF 1121
 Cond 0
-Wear -1
+Wear 2
 Cost 6900
 End
 
@@ -821,7 +878,7 @@ Nest 0
 PrevOwner (null)~
 ExtF 1121
 Cond 0
-Wear -1
+Wear 1
 Cost 6900
 End
 
@@ -868,15 +925,6 @@ Cost 0
 End
 
 #O
-Vnum 4823
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
 Vnum 11145
 Nest 0
 PrevOwner (null)~
@@ -890,7 +938,7 @@ Vnum 5922
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 4
 Cost 300
 End
 
@@ -899,7 +947,7 @@ Vnum 15208
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 3
 Cost 5000
 End
 
@@ -920,60 +968,22 @@ Affc 'reserved'   1  40  -1  -1  20          0
 End
 
 #O
-Vnum 17633
+Vnum 4823
+Nest 0
+PrevOwner Tssault~
+Cond 0
+Wear 0
+Cost 4500
+End
+
+#O
+Vnum 9224
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 746
-Cost 400
-Spell 1 'armor'
-Spell 2 'shield'
-End
-
-#O
-Vnum 5710
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 2
-Cost 1000
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 4
-Cost 2000
-End
-
-#O
-Vnum 5710
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 1
-Cost 1000
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 3
-Cost 2000
-End
-
-#O
-Vnum 17631
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 0
-Cost 250
+Cost 200
+Val  150 70 0 0 0
 End
 
 #O
@@ -982,7 +992,70 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 22
+Cost 14
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 21
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 21
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 21
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 17
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 16
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 20
+End
+
+#O
+Vnum 10447
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
 End
 
 #END

@@ -3,18 +3,19 @@ Name Gimli~
 SurN Stonebeard~
 Id   1043541485
 Email (null)~
-LogO 1121818582
-Vers 31
+LogO 1407614043
+Vers 33
 Prom (%hhp %b %mm %vmv {W%X{xxp) ~
 Race dwarf~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 5
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 DeityT -362 matook~
 Sac  300
@@ -35,17 +42,17 @@ Node 0
 Cap 0
 Created 1043541499
 Glad 0 0 0 0 0 0
-LastHost 67.163.146.203~
+LastHost 105.236.40.247~
 Cla  3
 ClaO 3
 Levl 13
 DLevl 0
-Plyd 15069
+Plyd 20952
 Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
-Room 3001
-HMV  265 265 152 152 158 158
+Room 3054
+HMV  255 255 152 152 153 153
 Gold 27
 Silv 29
 Exp  84587
@@ -59,23 +66,19 @@ Icg 0
 Pnet ACEFG
 Pos  8
 Prac 12
-SkiP 19
-Save  -5
+Trai 6
+SkiP 20
 Alig  -1000
-Hit   9
-Dam   4
-SecHit   9
-SecDam   4
-ACs 81 81 81 94
-Attr 17 16 19 15 21 10 18 19
-AMod 8 0 1 3 3 0 0 0
+ACs 100 100 100 109
+Attr 17 16 19 15 21 9 13 19
+AMod 0 0 0 0 0 0 0 0
 Pass GiazP25GI8plM~
 Titl  "Dont tell the elf!"~
 Pnts 92
 TSex 1
 LLev 3
 HMVP 255 152 153
-Cnd  0 0 4 4
+Cnd  0 0 0 0
 Sk 1 'aid'
 Sk 1 'armor'
 Sk 1 'bestow holiness'
@@ -138,10 +141,6 @@ Gr 'benedictions'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'bless'   0  43  21  -5  24          0
-Affc 'bless'   0  43  21   5  18          0
-Affc 'shield'   0  38  22 -20  17          0
-Affc 'giant strength'   0  43   5   4   1          0
 End
 
 #O
@@ -149,16 +148,7 @@ Vnum 4440
 Nest 0
 PrevOwner Gimli~
 Cond 0
-Wear 13
-Cost 0
-End
-
-#O
-Vnum 4439
-Nest 0
-PrevOwner Gimli~
-Cond 0
-Wear 18
+Wear -1
 Cost 0
 End
 
@@ -167,7 +157,7 @@ Vnum 3726
 Nest 0
 PrevOwner Gimli~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 Val  100 1 0 10 85
 End
@@ -179,6 +169,268 @@ PrevOwner Gimli~
 Cond 0
 Wear -1
 Cost 2000
+End
+
+#O
+Vnum 5740
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 17666
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2912
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 3715
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 16711
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 4100
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 940
+End
+
+#O
+Vnum 2911
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6511
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 6511
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 17666
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9513
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 490
+End
+
+#O
+Vnum 4438
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3138
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 24
+Val  64 48 0 0 0
+End
+
+#O
+Vnum 3138
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 24
+End
+
+#O
+Vnum 4439
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Gimli~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -209,25 +461,6 @@ Cost 72
 End
 
 #O
-Vnum 3138
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 24
-End
-
-#O
-Vnum 3138
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 24
-Val  64 48 0 0 0
-End
-
-#O
 Vnum 3709
 Nest 0
 PrevOwner (null)~
@@ -243,240 +476,6 @@ PrevOwner (null)~
 Cond 0
 Wear 10
 Cost 72
-End
-
-#O
-Vnum 3715
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 4438
-Nest 0
-PrevOwner Gimli~
-Cond 0
-Wear 5
-Cost 0
-End
-
-#O
-Vnum 4433
-Nest 0
-PrevOwner Gimli~
-Cond 0
-Wear 15
-Cost 0
-End
-
-#O
-Vnum 4433
-Nest 0
-PrevOwner Gimli~
-Cond 0
-Wear 14
-Cost 0
-End
-
-#O
-Vnum 9513
-Nest 0
-PrevOwner Reznar~
-Cond 0
-Wear -1
-Cost 490
-End
-
-#O
-Vnum 5740
-Nest 0
-PrevOwner Marina~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 17666
-Nest 0
-PrevOwner Gimli~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 17666
-Nest 0
-PrevOwner Gimli~
-Cond 0
-Wear 3
-Cost 0
-End
-
-#O
-Vnum 6511
-Nest 0
-PrevOwner Airborne~
-Cond 0
-Wear 2
-Cost 460
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 2912
-Nest 0
-PrevOwner Fortuna~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 6511
-Nest 0
-PrevOwner Majutsushi~
-Cond 0
-Wear 1
-Cost 460
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner Eowithraldur~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 5710
-Nest 0
-PrevOwner Zest~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 2911
-Nest 0
-PrevOwner Zest~
-Cond 0
-Wear 0
-Cost 0
-End
-
-#O
-Vnum 5710
-Nest 0
-PrevOwner Flowergurl~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner Flowergurl~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 4100
-Nest 0
-PrevOwner Zest~
-Cond 0
-Wear 16
-Cost 940
-End
-
-#O
-Vnum 16711
-Nest 0
-PrevOwner GreenStoner~
-Cond 0
-Wear 17
-Cost 200
 End
 
 #END

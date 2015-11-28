@@ -2,7 +2,7 @@
 Name Orbit~
 Id   905738017
 Email (null)~
-LogO 1044892612
+LogO 1307554231
 Vers 31
 Desc Standing before you is a man like none other you have
 seen.  He was born out of the spawning of the natural
@@ -37,7 +37,7 @@ Prom %h/%Hh %m/%Mm %vv (%Xx) (%w/%W)(%n/%N) %g.%s %e %c~
 Race lasher~
 Clan demise~
 Outc 0
-RufT 314
+RufT 311
 MatookT 0
 SkPTimer 0
 SkPTracker 3
@@ -51,9 +51,9 @@ LstAtkedByTimer 0
 LstCombatDate 1008174861
 LstKillDate 1008174861
 LstDeathDate 1008174861
-LoginsWOKill 2
-LoginsWODeath 2
-LoginsWOCombat 2
+LoginsWOKill 3
+LoginsWODeath 3
+LoginsWOCombat 3
 Bnty 0
 Deity 910402 cthon~
 DeityT -12 cthon~
@@ -64,17 +64,17 @@ Node 31408
 Cap 0
 Created 952298887
 Glad 0 0 0 0 0 0
-LastHost info-dsldyna-63-151-198-139.advantexcom.net~
+LastHost 76.237.92.68~
 Cla  10
 ClaO 10
 Levl 51
 DLevl 0
-Plyd 982553
-Not  1044892096 1044892096 1044892096 1044892096 1044892096 1044892096 1044892096 1044892096 1044892096 1044892096
+Plyd 982685
+Not  1307554103 1307554103 1307554103 1307554103 1307554103 1307554103 1307554103 1307554103 1307554103 1307554103
 Scro 0
 Rank 2
 Room 31408
-HMV  1203 1203 735 865 342 342
+HMV  1203 1203 865 865 342 342
 Gold 1554
 Silv 75
 Exp  351900
@@ -100,13 +100,13 @@ ACs -62 -62 -62 -7
 Wimp  100
 Attr 18 19 18 17 19 13 13 13
 AMod 5 4 6 7 4 0 0 0
-Pass OrSf4Utfhc196~
+Pass Orj71H2UIhtTM~
 Titl , "Count to six and die."{x~
 Pnts 90
 TSex 1
 LLev 1
 HMVP 1148 815 342
-Cnd  0 0 37 4
+Cnd  0 0 34 0
 Alias recall c 'word'~
 Alias eb c 'earthbind'~
 Alias h c 'heat metal'~
@@ -119,7 +119,6 @@ Sk 93 'acid blast'
 OldSk 1 'acid blast'
 Sk 94 'asphyxiate'
 OldSk 91 'asphyxiate'
-Sk 1 'aura of cthon'
 Sk 100 'bless'
 OldSk 92 'bless'
 Sk 91 'body of stone'
@@ -132,7 +131,6 @@ Sk 88 'cancellation'
 OldSk 1 'cancellation'
 Sk 86 'chain lightning'
 OldSk 86 'chain lightning'
-Sk 99 'confusion'
 Sk 85 'continual light'
 OldSk 85 'continual light'
 Sk 1 'control weather'
@@ -255,12 +253,11 @@ Gr 'element energy'
 Gr 'element fire'
 Gr 'element spirit'
 Gr 'element water'
-Affc 'stone skin'   0  52  50 -40  17          0
-Affc 'flame shield'   0  52   0   0   0          0
-Affc 'bless'   0  47  47  -6  24          0
-Affc 'bless'   0  52  47   6  18          0
-Affc 'body of stone'   0  51  40   4   5          0
-Affc 'water breathing'   0  49  15   0   0          0
+Affc 'water breathing'   0  48  12   0   0          0
+Affc 'body of stone'   0  51  37   4   5          0
+Affc 'bless'   0  52  44   6  18          0
+Affc 'bless'   0  47  44  -6  24          0
+Affc 'stone skin'   0  52  47 -40  17          0
 End
 
 #O
@@ -300,8 +297,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6400
-Affc 'enchant weapon'   0  53  -1  10  18          0
 Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
@@ -314,8 +311,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 5400
-Affc 'enchant weapon'   1  48  -1  10  19          0
 Affc 'enchant weapon'   0  48  -1  10  18          0
+Affc 'enchant weapon'   1  48  -1  10  19          0
 End
 
 #O
@@ -374,9 +371,9 @@ ExtF 1
 Cond 0
 Wear 12
 Cost 0
-Affc 'reserved'   0  32  -1   0   0         40
-Affc 'reserved'   1  32  -1   1   2          0
 Affc 'reserved'   1  32  -1   1   1          0
+Affc 'reserved'   1  32  -1   1   2          0
+Affc 'reserved'   0  32  -1   0   0         40
 End
 
 #O
@@ -545,8 +542,8 @@ ExtF 385
 Cond 0
 Wear 16
 Cost 0
-Affc 'enchant weapon'   1  51  -1   3  19          0
 Affc 'enchant weapon'   0  51  -1   3  18          0
+Affc 'enchant weapon'   1  51  -1   3  19          0
 End
 
 #O
@@ -559,8 +556,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #END

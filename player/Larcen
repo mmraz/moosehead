@@ -3,8 +3,8 @@ Name Larcen~
 SurN Saotome~
 Id   1037275206
 Email (null)~
-LogO 1122230720
-Vers 31
+LogO 1383809810
+Vers 33
 Desc What are you staring at, punk? Do I amuse you?
 Do I look funny to you? Bend over! I'll show
 you funny!!!
@@ -15,15 +15,16 @@ Desc What are you staring at, punk? Do I amuse you?
 ~
 Prom <%hhp %mm %vmv %X %S> ~
 Race faerie~
-Clan outcast~
-Outc 542
-RufT 198
+Clan loner~
+Outc 515
+RufT 171
 MatookT 0
-SkPTimer 0
-SkPTracker 4
+SkPTimer 11
+SkPTracker 12
 LogoutTracker 0
 Kill 0 1 0 1
 Steal 0 0 0
+MSteal 0
 LstK Jaana~
 LstKBy Klop~
 LstAtkedBy no one~
@@ -31,11 +32,17 @@ LstAtkedByTimer 0
 LstCombatDate 1069316524
 LstKillDate 1062127676
 LstDeathDate 1052367989
-LoginsWOKill 51
-LoginsWODeath 106
-LoginsWOCombat 12
+LoginsWOKill 57
+LoginsWODeath 112
+LoginsWOCombat 18
 Bnty 0
-Deity 63891 hermes~
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 63891 mojo~
 DeityT -1479 almighty~
 Sac  300
 Sex  1
@@ -44,23 +51,23 @@ Node 0
 Cap 0
 Created 1037275255
 Glad 0 0 0 0 0 0
-LastHost 65-101-108-173.spkn.qwest.net~
+LastHost 71.80.192.145~
 Cla  4
 ClaO 2
 Levl 38
 DLevl 0
-Plyd 295898
+Plyd 296983
 Not  1075249045 1075249045 1075249045 1075249045 1075249045 1075249045 1075249045 1075249045 1075249045 1075249045
 Scro 22
 Rank 0
-Room 8532
-HMV  417 417 395 397 338 383
-Gold 1120
-Silv 1681
-Exp  521752
+Room 10324
+HMV  417 417 397 397 383 383
+Gold 1146
+Silv 3583
+Exp  521519
 Act  CDGHKMQ
 MHSF RSU
-AfBy CDFJTV
+AfBy CDFJPT
 Comm I
 Disp FIJN
 IcgB 0
@@ -69,7 +76,8 @@ Wizn W
 Pnet ABCDEFGHI
 Pos  8
 Prac 2
-SkiP 23
+Trai 13
+SkiP 31
 Save  -10
 Alig  -1000
 Hit   23
@@ -78,15 +86,15 @@ SecHit   20
 SecDam   29
 ACs -136 -136 -136 -136
 Wimp  20
-Attr 13 25 25 25 13 25 16 19
-AMod 6 0 -2 4 0 0 0 0
+Attr 13 25 25 25 13 17 8 22
+AMod 6 0 -2 0 0 0 0 0
 Pass La1qoNEwAZWo2~
 Titl  Warrior of the North Winds [{BTH{x]~
 Pnts 98
 TSex 1
 LLev 81
 HMVP 387 401 383
-Cnd  0 48 10 48
+Cnd  0 18 33 21
 Sk 1 'aid'
 Sk 87 'armor'
 Sk 1 'bestow holiness'
@@ -174,12 +182,12 @@ Gr 'healing'
 Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
-Affc 'bless'   0  35  35  -4  24          0
-Affc 'bless'   0  32  35   4  18          0
-Affc 'giant strength'   0  26   0   4   1          0
-Affc 'haste'   0  33   1   4   2    2097152
-Affc 'armor'   0  30  17 -20  17          0
-Affc 'shield'   0  32  28 -20  17          0
+Affc 'armor'   0  35  24 -20  17          0
+Affc 'bless'   0  31   8  -4  24          0
+Affc 'bless'   0  28   8   4  18          0
+Affc 'shield'   0  28   1 -20  17          0
+Affc 'giant strength'   0  29  11   4   1          0
+Affc 'sneak'   0  32  20   0   0      32768
 End
 
 #O
@@ -305,7 +313,7 @@ Cond 0
 Wear -1
 Lev  28
 Cost 0
-Val  52 3 3 165 -1
+Val  52 3 3 170 -1
 Spell 3 'restrain'
 End
 
@@ -347,7 +355,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -364,7 +372,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -381,7 +389,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -391,7 +399,7 @@ Enchanted
 Nest 1
 PrevOwner Larcen~
 ExtF 66
-Stolen 3433
+Stolen 3407
 Cond 0
 Wear -1
 Lev  20
@@ -620,7 +628,7 @@ PrevOwner Larcen~
 Cond 0
 Wear -1
 Cost 1500
-Val  28 5 1 96 0
+Val  28 5 1 99 0
 Spell 3 'flamestrike'
 End
 
@@ -755,7 +763,7 @@ Nest 1
 PrevOwner Larcen~
 Cond 0
 Wear -1
-Time 343
+Time 317
 Cost 1170
 Spell 1 'teleport'
 Spell 2 'remove curse'
@@ -888,11 +896,9 @@ End
 Vnum 8500
 Nest 0
 PrevOwner Larcen~
-ExtF 16777344
 Cond 0
 Wear -1
 Cost 3000
-Affc 'fireproof'   1  35   9   0   0   16777216
 End
 
 #O
@@ -1025,7 +1031,7 @@ End
 Vnum 16018
 Nest 0
 PrevOwner Larcen~
-Stolen 461
+Stolen 435
 Cond 0
 Wear -1
 Cost 2200
@@ -1037,7 +1043,7 @@ Enchanted
 Nest 0
 PrevOwner Larcen~
 ExtF 64
-Stolen 27
+Stolen 1
 Cond 0
 Wear 16
 Lev  26

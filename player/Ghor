@@ -2,8 +2,8 @@
 Name Ghor~
 Id   820399317
 Email (null)~
-LogO 1013584244
-Vers 29
+LogO 1306487151
+Vers 31
 LnD  pain in the @$$
 ~
 Desc Before you stands a tall man, completely dressed in black. His face is concealed
@@ -17,7 +17,7 @@ Prom <%hhp %mm %vmv %wlb %Sp\%e> ~
 Race dragon~
 Clan loner~
 Outc 0
-RufT 398
+RufT 397
 MatookT 0
 SkPTimer 0
 SkPTracker 1
@@ -31,9 +31,9 @@ LstAtkedByTimer 0
 LstCombatDate 1013581153
 LstKillDate 1013581153
 LstDeathDate 1013581153
-LoginsWOKill 1
-LoginsWODeath 1
-LoginsWOCombat 1
+LoginsWOKill 2
+LoginsWODeath 2
+LoginsWOCombat 2
 Bnty 0
 Deity 3573938 hermes~
 DeityT -71 hermes~
@@ -48,12 +48,12 @@ Cla  7
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 3687851
-Not  1000069979 970290349 0 1010614349 995299073 1013195909 962094098 970024690 0
+Plyd 3687869
+Not  1000069979 970290349 0 1010614349 995299073 1013195909 962094098 970024690 0 0
 Scro 22
 Rank 0
-Room 16740
-HMV  1272 1272 721 836 516 516
+Room 3001
+HMV  1272 1272 836 836 516 516
 Gold 482
 Silv 20107
 Exp  448800
@@ -67,8 +67,9 @@ Icg 0
 Wizn W
 Pos  8
 Prac 5
+Trai 10
 SkiP 302
-Save  -14
+Save  -9
 Alig  -1000
 Hit   16
 Dam   31
@@ -76,15 +77,15 @@ SecHit   16
 SecDam   31
 ACs 0 0 0 6
 Wimp  120
-Attr 25 25 25 25 25
-AMod 5 5 0 2 0
+Attr 25 25 25 25 25 13 13 13
+AMod 5 5 0 2 0 0 0 0
 Pass GhkyQJtJbyfCk~
 Titl  the Hunter~
 Pnts 100
 TSex 1
 LLev 992
 HMVP 1252 756 481
-Cnd  0 0 5 0
+Cnd  0 0 4 0
 Alias k murder~
 Alias h cast curse~
 Alias q cast 'dispel magic'~
@@ -133,6 +134,7 @@ Sk 78 'chill touch'
 OldSk 1 'chill touch'
 Sk 100 'colour spray'
 OldSk 100 'colour spray'
+Sk 1 'cone of silence'
 Sk 100 'continual light'
 OldSk 100 'continual light'
 Sk 66 'control weather'
@@ -440,8 +442,8 @@ PrevOwner Ghor~
 Cond 0
 Wear 7
 Cost 2000
-Affc 'reserved'   1  39  -1   2  19          0
 Affc 'reserved'   1  39  -1  -2  20          0
+Affc 'reserved'   1  39  -1   2  19          0
 End
 
 #O
@@ -455,8 +457,8 @@ Cond 0
 Wear 9
 Cost 4000
 Val  8 8 8 5 5
-Affc 'reserved'   1  37  -1   2   1          0
 Affc 'reserved'   1  37  -1   2  19          0
+Affc 'reserved'   1  37  -1   2   1          0
 End
 
 #O
@@ -500,10 +502,10 @@ Cond 0
 Wear 11
 Cost 3500
 Val  12 12 12 5 5
-Affc 'enchant armor'   1  45  -1  -5  17          0
-Affc 'reserved'   1  42  -1   2   1          0
-Affc 'reserved'   1  42  -1   2  19          0
 Affc 'reserved'   1  42  -1   1  18          0
+Affc 'reserved'   1  42  -1   2  19          0
+Affc 'reserved'   1  42  -1   2   1          0
+Affc 'enchant armor'   1  45  -1  -5  17          0
 End
 
 #O
@@ -515,9 +517,9 @@ ExtF 64
 Cond 0
 Wear 6
 Cost 0
-Affc 'reserved'   1  40  -1   3   3          0
-Affc 'reserved'   1  40  -1   2  18          0
 Affc 'enchant armor'   1  53  -1  -1  17          0
+Affc 'reserved'   1  40  -1   2  18          0
+Affc 'reserved'   1  40  -1   3   3          0
 End
 
 #O
@@ -628,9 +630,9 @@ Cond 0
 Wear 12
 Cost 1500
 Val  5 5 5 3 5
-Affc 'reserved'   1  45  -1  -3  20          0
-Affc 'reserved'   1  45  -1   2   3          0
 Affc 'reserved'   1  45  -1  50  12          0
+Affc 'reserved'   1  45  -1   2   3          0
+Affc 'reserved'   1  45  -1  -3  20          0
 End
 
 #O

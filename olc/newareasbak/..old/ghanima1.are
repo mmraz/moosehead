@@ -1,0 +1,231 @@
+#AREA
+../newareas/ghanima1.are~
+Ghanima's test~
+{ All }         Ghanima's test~
+22590 22594
+
+#MOBILES
+#22590
+A platypus~
+A platypus is swimming about here.~
+The platypus is swimming in the shade.
+~
+This platypus is a brown and furry wet creature.
+With the bill of a duck, the webbed feet of a duck... this furry creature
+hasn't decided what classification it wants to be yet.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AT 0 0 0
+6 1 2d7+70 0d0+0 1d7+1 scratch
+0 0 0 0
+BEFINU 0 CDEFGKLNQ 0
+stand stand female 98
+AHMV ADGHJ tiny 0
+#22591
+green spotted gecko~
+A green spotted gecko~
+A green spotted gecko is crawling along the forest floor.
+~
+What a cute little creature. The green spotted gecko peers out from under 
+some rotting leaves at you, it's bright yellow eyes staring right through
+your head. Cute on the outside, but the gecko is a very evil creature.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AT MOPbc 0 0
+4 96 2d6+43 0d0+0 1d4+3 bite
+-3 -4 -4 -4
+EFNU EIK 0 0
+stand stand female 5
+AHMV ABCDEF medium 0
+#0
+
+#OBJECTS
+#22590
+flimsy tinfoil cardboard dagger~
+A flimsy tinfoil and cardboard dagger~
+A very flimsy, yet odd weapon lays here.~
+tinfoil cardboard~
+weapon ACGIR AN
+exotic 15 0 wrath C
+52 2 15 G
+A
+1 2
+A
+5 3
+A
+12 100
+A
+13 -2
+F
+A 0 0 H
+E
+aluminum foil !~
+Generic extended description.
+~
+E
+dagger~
+I could put a pretty ascii picture here. However, I don't have any nice
+ones. Well, anyways, the dagger is a cardboard shape, obviously cut from
+a cardboard box. The blade is pathetically covered with aluminum foil.
+~
+E
+dagger flimsy tinfoil cardboard~
+This dagger has obviously been made from a cardboard box. The blade, bent
+and misshapen, has had aluminum foil taped onto it very messily.
+~
+#22591
+rubber spider~
+A scary rubber spider~
+A creepy spider is here, real or rubber?!~
+rubber~
+wand IN AO
+0 0 0 '' 0
+5 1 200 P
+F
+A 0 0 V
+A
+18 1
+A
+19 1
+A
+2 2
+E
+rubber spider~
+A rather large and authentic replication of that wolfspider you saw
+in your bathroom is here, perfect for scaring your little sister to death!
+~
+#22592
+waterfall fountain~
+a waterfall~
+~
+water~
+fountain 0 0
+0 0 'water' 0 0
+1 100 0 P
+E
+waterfall~
+The waterfall rushes down the cliff and spills over the rocks below.
+It is beautiful.
+~
+#22593
+sunflower seed~
+a tasty sunflower seed~
+A tasty, roasted, and salty sunflower seed is here.~
+sunflower~
+pill 0 A
+30 'frenzy' 'cure serious' 'haste' ''
+0 10 0 P
+A
+0 0
+#22594
+purity control~
+Purity Control~
+A bottle of liquid labelled "Purity Control" is here.~
+glass~
+potion 0 A
+25 'bless' 'sanctuary' 'giant strength' ''
+1 0 0 P
+#0
+
+#ROOMS
+#22590
+A hilltop overlooking a forest~
+This beautiful hilltop overlooks a lush rainforest. Mist enshrouds the
+tropical trees, and you can hear the sounds of the wildlife below.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 22591
+S
+#22591
+Under the forest canopy~
+Under this beautiful misty ceiling of leaves, you discover a forest floor
+littered with mosses and decaying leaves, the perfect habitat for many
+small forest creatures...
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 22594
+D1
+Exit ~
+door~
+0 0 22592
+D3
+Exit ~
+door~
+0 0 22590
+S
+#22592
+By an amazon stream~
+This beautiful shady stream is trickling through large rocks and thick
+tree roots. You see metallic flashes out of the corner of your eyes, it
+couldn't be anything other than fish!
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 22593
+D3
+Exit ~
+door~
+0 0 22591
+S
+#22593
+At the end of the amazon stream~
+The trickling stream ends here... but here begins a beautiful waterfall, 
+its gallons of water flowing down what must be 100 feet of nothing but
+water.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 22592
+D3
+Exit ~
+door~
+0 0 22594
+S
+#22594
+A thinking log~
+This weathered old log must be at least as old as the trees towering above 
+you. It seems a wonderful place to just sit and relax.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 22593
+D2
+Exit ~
+door~
+0 0 22591
+S
+#0
+
+#RESETS
+M 0 22591   2 22591  1	* A green spotted gecko
+M 0 22590   1 22591  1	* A platypus is swimming about here.
+O 0 22590 100 22592	* A flimsy tinfoil and cardboard dagger
+O 0 22591 100 22594	* A scary rubber spider
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 22590 spec_executioner    	* A platypus is swimming about here.
+S
+
+#$

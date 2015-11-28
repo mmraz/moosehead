@@ -3,8 +3,8 @@ Name Lucretia~
 SurN Shaola~
 Id   1043968247
 Email (null)~
-LogO 1067980029
-Vers 31
+LogO 1324123949
+Vers 33
 Prom %hhp %mmn %vmv %Xreq %gG %sS %r %c %eq ~
 Race dragon~
 Clan loner~
@@ -16,6 +16,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -23,10 +24,14 @@ LstAtkedByTimer 0
 LstCombatDate 1043968247
 LstKillDate 1043968247
 LstDeathDate 1043968247
-LoginsWOKill 26
-LoginsWODeath 26
-LoginsWOCombat 26
+LoginsWOKill 31
+LoginsWODeath 31
+LoginsWOCombat 31
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -3579 matook~
 Sac  300
@@ -36,46 +41,47 @@ Node 0
 Cap 0
 Created 1043968288
 Glad 0 0 0 0 0 0
-LastHost host81-132-129-133.in-addr.btopenworld.com~
+LastHost 59.164.129.174~
 Cla  8
 ClaO 2
 Levl 28
 DLevl 0
-Plyd 151388
+Plyd 154686
 Not  1045727601 1044826546 0 1045275274 1044422206 1045677541 0 1044650596 0 1045174385
 Scro 22
 Rank 0
-Room 15290
-HMV  595 595 253 253 174 236
-Gold 501
-Silv 36
-Exp  274351
+Room 3054
+HMV  595 595 205 253 266 266
+Gold 530
+Silv 231
+Exp  274185
 Act  CDEFGHKQ
 MHSF R
-AfBy DFJPTV
+AfBy DFJPT
 Comm DGIR
 Disp ABCFGIJN
 IcgB 0
 Icg 0
 Pos  8
 Prac 15
+Trai 18
 SkiP 84
 Alig  -29
 Hit   14
 Dam   27
 SecHit   11
 SecDam   24
-ACs 50 50 50 71
+ACs 52 52 52 69
 Wimp  25
-Attr 19 18 18 20 21 19 24 13
-AMod 6 2 1 5 1 0 0 0
+Attr 19 18 18 20 21 11 14 13
+AMod 4 0 1 1 1 0 0 0
 Pass LuIqCQm9i6kbc~
 Titl ....Back!~
 Pnts 99
 TSex 2
 LLev 40
 HMVP 595 253 266
-Cnd  0 0 33 22
+Cnd  0 0 33 12
 Alias b backstab~
 Alias k kill~
 Alias 1 k eo~
@@ -94,7 +100,7 @@ Sk 75 'farsight'
 Sk 1 'fireproof'
 Sk 1 'fly'
 Sk 1 'gate'
-Sk 77 'identify'
+Sk 80 'identify'
 Sk 1 'knock'
 Sk 75 'know alignment'
 Sk 75 'locate object'
@@ -143,10 +149,9 @@ Gr 'detection'
 Gr 'draconian'
 Gr 'protective'
 Gr 'transportation'
-Affc 'haste'   0  20   9   2   2    2097152
-Affc 'detect hidden'   0  25  24   0   0         32
-Affc 'sneak'   0  28  25   0   0      32768
-Affc 'detect invis'   0  23   7   0   0          8
+Affc 'detect invis'   0  22  10   0   0          8
+Affc 'detect hidden'   0  21  10   0   0         32
+Affc 'sneak'   0  24  17   0   0      32768
 End
 
 #O
@@ -156,33 +161,6 @@ PrevOwner Lucretia~
 Cond 0
 Wear 17
 Cost 1140
-End
-
-#O
-Vnum 4438
-Nest 0
-PrevOwner Lucretia~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 4440
-Nest 0
-PrevOwner Lucretia~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20405
-Nest 0
-PrevOwner Lucretia~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -204,66 +182,11 @@ Cost 550
 End
 
 #O
-Vnum 9576
-Nest 0
-PrevOwner Lucretia~
-Cond 0
-Wear -1
-Cost 120
-Val  150 70 0 0 0
-End
-
-#O
-Vnum 5003
-Nest 0
-PrevOwner Lucretia~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 9201
-Nest 0
-PrevOwner Lucretia~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 5232
-Nest 0
-PrevOwner Lucretia~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 5231
-Nest 0
-PrevOwner Lucretia~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 5230
-Nest 0
-PrevOwner Lucretia~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
 Vnum 3726
 Nest 0
 PrevOwner Lucretia~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 Val  100 1 0 10 85
 End
@@ -385,24 +308,6 @@ Spell 2 'blindness'
 End
 
 #O
-Vnum 9201
-Nest 0
-PrevOwner Karag~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 5003
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
 Vnum 104
 Nest 0
 PrevOwner (null)~
@@ -457,34 +362,12 @@ Cost 1200
 End
 
 #O
-Vnum 9105
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Time 46
-Cost 1330
-Spell 1 'blindness'
-Spell 2 'curse'
-Spell 3 'poison'
-End
-
-#O
 Vnum 20700
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 20
-End
-
-#O
-Vnum 9103
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1140
 End
 
 #O
@@ -582,7 +465,7 @@ Vnum 2602
 Nest 0
 PrevOwner Lucretia~
 Cond 0
-Wear 6
+Wear -1
 Cost 5800
 End
 
@@ -656,7 +539,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
-Spell 3 'giant strength'
+Val  0 0 0 108 0
 End
 
 #O
@@ -718,14 +601,14 @@ Enchanted
 Nest 0
 PrevOwner Lucretia~
 ExtF 65
-Stolen 468
+Stolen 385
 Cond 0
 Wear 16
 Lev  18
 Cost 930
-Affc 'enchant weapon'   0  52  -1   3  18          0
-Affc 'enchant weapon'   1  52  -1   3  19          0
 Affc 'reserved'   1  15  -1   2   1          0
+Affc 'enchant weapon'   1  52  -1   3  19          0
+Affc 'enchant weapon'   0  52  -1   3  18          0
 End
 
 #O
@@ -734,7 +617,7 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 498
+Time 415
 Cost 6000
 Spell 1 'cure critical'
 End
@@ -758,24 +641,6 @@ Cost 22
 End
 
 #O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
 Vnum 3081
 Nest 0
 PrevOwner (null)~
@@ -811,7 +676,7 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 589
+Time 506
 Cost 6000
 Spell 1 'cure critical'
 End

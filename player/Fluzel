@@ -2,7 +2,7 @@
 Name Fluzel~
 Id   876015459
 Email (null)~
-LogO 1044679875
+LogO 1314412487
 Vers 31
 Desc Anger rules the world
 Anger feeds the starving soul.
@@ -30,13 +30,13 @@ Desc Anger rules the world
 One must love or see it decrease.
 
 ~
-Prom <%hhp %mm %vmv %Xxp> ~
+Prom < %h/%Hh %mm/%Mm %v/%Vv %Xl %xx %gg %ss %tt %eZ  ~
 Race human~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Hstm freenet10.carleton.ca~
 Kill 0 0 0 0
@@ -52,6 +52,9 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -7 matook~
 Sac  300
@@ -66,35 +69,35 @@ Cla  1
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 218079
-Not  1004063034 1004063034 1004063034 1043110555 1004063034 1044467195 1004063034 1004063034 1004063034 0
+Plyd 250583
+Not  1314233613 1314377174 1313806755 1313806755 1313859824 1314303809 1313806755 1313806755 1313806755 1313806755
 Scro 22
 Rank 0
-Room 3012
-HMV  716 716 706 706 435 435
-Gold 686
-Silv 3440
+Room 12013
+HMV  113 716 466 706 390 435
+Gold 903
+Silv 13234
 Exp  408000
-Act  CDEFGHM
+Act  DEFGHMS
 MHSF R
-AfBy DEFTW
-Comm BGIOR
-Disp CFJ
+AfBy DFTUWe
+Comm GIORc
+Disp CFGJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 247
-Trai 37
-SkiP 4
-Save  -4
-Alig  208
-Hit   16
-Dam   36
-SecHit   16
-SecDam   36
-ACs -11 -11 -11 40
+Prac 240
+Trai 43
+SkiP 73
+Save  -10
+Alig  -1000
+Hit   20
+Dam   34
+SecHit   20
+SecDam   34
+ACs -91 -91 -91 -40
 Wimp  30
-Attr 18 18 20 18 18 13 13 13
+Attr 18 18 20 18 18 10 10 13
 AMod 5 0 0 3 0 0 0 0
 Pass Fl.dI3KdmwP5U~
 Titl  the deaf/mute poet of Matook. (Founder)~
@@ -102,37 +105,42 @@ Pnts 100
 TSex 1
 LLev 1
 HMVP 716 706 400
-Cnd  0 0 1 0
+Cnd  0 0 2 2
 Alias kk , pulls out a writing tablet.~
 Alias jj , stores away a writing tablet.~
 Alias ll , scribbles on a tablet, ~
 Alias bl pmote lays the Blessing of Matook upon~
 Alias cc cast tele mother~
+Alias or order all rescue fluzel~
+Alias pi pray intervene ~
+Alias cl cast light~
+Alias cb cast blind~
 Sk 1 'aid'
 OldSk 1 'aid'
-Sk 88 'armor'
+Sk 90 'armor'
 OldSk 88 'armor'
 Sk 1 'bestow holiness'
 OldSk 1 'bestow holiness'
 Sk 85 'bless'
 OldSk 85 'bless'
-Sk 1 'blindness'
+Sk 71 'blindness'
 Sk 1 'body weaponry'
 Sk 1 'call lightning'
 Sk 1 'calm'
 OldSk 1 'calm'
-Sk 1 'cancellation'
+Sk 71 'cancellation'
 OldSk 71 'cancellation'
 Sk 1 'cause critical'
 Sk 1 'cause light'
 Sk 1 'cause serious'
 Sk 1 'change sex'
+Sk 1 'cone of silence'
 Sk 1 'continual light'
 OldSk 1 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
 OldSk 63 'create food'
-Sk 1 'create fountain'
+Sk 71 'create fountain'
 OldSk 1 'create fountain'
 Sk 1 'create rose'
 OldSk 1 'create rose'
@@ -158,9 +166,9 @@ Sk 61 'detect evil'
 OldSk 61 'detect evil'
 Sk 1 'detect good'
 OldSk 1 'detect good'
-Sk 57 'detect hidden'
+Sk 60 'detect hidden'
 OldSk 56 'detect hidden'
-Sk 76 'detect invis'
+Sk 77 'detect invis'
 OldSk 76 'detect invis'
 Sk 76 'detect magic'
 OldSk 1 'detect magic'
@@ -168,9 +176,9 @@ Sk 1 'detect poison'
 OldSk 1 'detect poison'
 Sk 1 'dispel evil'
 Sk 1 'dispel good'
-Sk 1 'dispel magic'
+Sk 71 'dispel magic'
 OldSk 71 'dispel magic'
-Sk 1 'earthquake'
+Sk 71 'earthquake'
 Sk 1 'endure cold'
 OldSk 1 'endure cold'
 Sk 1 'endure heat'
@@ -197,31 +205,31 @@ Sk 1 'forget'
 Sk 71 'frenzy'
 OldSk 71 'frenzy'
 Sk 1 'fumble'
-Sk 73 'gate'
+Sk 76 'gate'
 OldSk 73 'gate'
 Sk 1 'harm'
-Sk 86 'heal'
+Sk 87 'heal'
 OldSk 86 'heal'
 Sk 1 'heat metal'
 Sk 1 'hold person'
 Sk 75 'holy word'
 OldSk 1 'holy word'
-Sk 75 'identify'
+Sk 78 'identify'
 OldSk 1 'identify'
 Sk 1 'knock'
 OldSk 1 'knock'
 Sk 1 'know alignment'
 OldSk 1 'know alignment'
 Sk 75 'lay on hands'
-Sk 1 'lightning bolt'
+Sk 84 'lightning bolt'
 Sk 75 'locate object'
 OldSk 75 'locate object'
-Sk 1 'mass healing'
+Sk 36 'mass healing'
 OldSk 1 'mass healing'
 Sk 1 'mirror image'
 Sk 1 'nexus'
 OldSk 1 'nexus'
-Sk 75 'pass door'
+Sk 84 'pass door'
 OldSk 1 'pass door'
 Sk 1 'plague'
 Sk 1 'poison'
@@ -246,13 +254,13 @@ OldSk 78 'sanctuary'
 Sk 75 'shield'
 OldSk 1 'shield'
 Sk 75 'slow'
-Sk 75 'stone skin'
+Sk 77 'stone skin'
 OldSk 1 'stone skin'
 Sk 71 'summon'
 OldSk 71 'summon'
 Sk 1 'teleport'
 OldSk 71 'teleport'
-Sk 75 'tower of iron will'
+Sk 78 'tower of iron will'
 Sk 61 'warp'
 OldSk 61 'warp'
 Sk 75 'weaken'
@@ -260,7 +268,7 @@ Sk 73 'word of recall'
 OldSk 73 'word of recall'
 Sk 1 'animate dead'
 OldSk 74 'animate dead'
-Sk 71 'summon dead'
+Sk 77 'summon dead'
 OldSk 71 'summon dead'
 Sk 1 'cryogenesis'
 OldSk 73 'cryogenesis'
@@ -269,14 +277,14 @@ OldSk 71 'draw life'
 Sk 1 'make bag'
 Sk 1 'turn undead'
 OldSk 1 'turn undead'
-Sk 71 'withstand death'
+Sk 73 'withstand death'
 OldSk 71 'withstand death'
 Sk 1 'wound transfer'
 OldSk 1 'wound transfer'
 Sk 1 'flail'
 Sk 100 'mace'
 OldSk 100 'mace'
-Sk 25 'dodge'
+Sk 28 'dodge'
 OldSk 1 'enhanced damage'
 Sk 57 'kick'
 OldSk 57 'kick'
@@ -310,27 +318,65 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-Affc 'detect invis'   0  45  30   0   0          8
-Affc 'detect magic'   0  44  30   0   0         16
-Affc 'detect hidden'   0  49  30   0   0         32
+Affc 'armor'   0  47  27 -20  17          0
+Affc 'detect invis'   0  49  42   0   0          8
+Affc 'detect hidden'   0  46  42   0   0         32
+Affc 'withstand death'   0  50   6   0   0 1073741824
+Affc 'tower of iron will'   3  49  16   0   0      32768
+Affc 'stone skin'   0  49  42 -40  17          0
+Affc 'shield'   0  49  49 -20  17          0
+Affc 'fly'   0  50  44   0   0     524288
+Affc 'pass door'   0  51   3   0   0    1048576
+Affc 'bless'   0  51  47  -6  24          0
+Affc 'bless'   0  49  47   6  18          0
 End
 
 #O
-Vnum 21
+Vnum 3030
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
-Cost 0
+Wear 0
+Cost 4
+Val  0 0 45 0 0
 End
 
 #O
 Vnum 11145
 Nest 0
-PrevOwner Fluzel~
+PrevOwner Whiskers~
 Cond 0
 Wear 18
 Cost 4500
+End
+
+#O
+Vnum 922
+Nest 0
+PrevOwner Fluzel~
+ExtF 1121
+Cond 0
+Wear -1
+Cost 4900
+End
+
+#O
+Vnum 923
+Nest 0
+PrevOwner Fluzel~
+ExtF 1121
+Cond 0
+Wear -1
+Cost 6800
+End
+
+#O
+Vnum 21
+Nest 0
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -382,15 +428,6 @@ Cond 0
 Wear 7
 Cost 2000
 Val  7 7 7 4 3
-End
-
-#O
-Vnum 16138
-Nest 0
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 1500
 End
 
 #O
@@ -471,7 +508,7 @@ Vnum 10003
 Nest 0
 PrevOwner Fluzel~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 End
 
@@ -593,29 +630,6 @@ Cost 10000
 End
 
 #O
-Vnum 15229
-Nest 1
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Time 306
-Cost 6000
-Spell 1 'cure critical'
-End
-
-#O
-Vnum 1621
-Nest 1
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Time 220
-Cost 320
-Spell 1 'cure blindness'
-Spell 2 'cure critical'
-End
-
-#O
 Vnum 3044
 Nest 1
 PrevOwner Fluzel~
@@ -633,38 +647,10 @@ Cond 0
 Wear -1
 Cost 320
 Spell 3 'magic missile'
-End
-
-#O
-Vnum 3044
-Nest 1
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 320
-Spell 3 'magic missile'
-End
-
-#O
-Vnum 9201
-Nest 1
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 1140
 End
 
 #O
 Vnum 5230
-Nest 1
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 5231
 Nest 1
 PrevOwner Fluzel~
 Cond 0
@@ -760,42 +746,6 @@ PrevOwner Fluzel~
 Cond 0
 Wear -1
 Cost 550
-End
-
-#O
-Vnum 2326
-Nest 1
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 17606
-Nest 1
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
-Vnum 20406
-Nest 1
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 225
-End
-
-#O
-Vnum 20710
-Nest 1
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -817,7 +767,52 @@ Cost 3000
 End
 
 #O
-Vnum 9201
+Vnum 2326
+Nest 1
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 17606
+Nest 1
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 20710
+Nest 1
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20406
+Nest 1
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 225
+End
+
+#O
+Vnum 9103
+Nest 1
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 9103
 Nest 1
 PrevOwner Fluzel~
 Cond 0
@@ -844,7 +839,7 @@ Cost 1140
 End
 
 #O
-Vnum 9103
+Vnum 9201
 Nest 1
 PrevOwner Fluzel~
 Cond 0
@@ -853,12 +848,40 @@ Cost 1140
 End
 
 #O
-Vnum 9103
+Vnum 9201
 Nest 1
 PrevOwner Fluzel~
 Cond 0
 Wear -1
 Cost 1140
+End
+
+#O
+Vnum 5231
+Nest 1
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 16138
+Nest 1
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 7303
+Nest 1
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 18600
+Spell 3 'sanctuary'
 End
 
 #O
@@ -867,6 +890,52 @@ Nest 0
 PrevOwner Fluzel~
 Cond 0
 Wear 2
+Cost 3000
+End
+
+#O
+Vnum 5909
+Nest 0
+PrevOwner Fluzel~
+Damaged 55
+Cond 0
+Wear 1
+Cost 3000
+End
+
+#O
+Vnum 2421
+Nest 0
+PrevOwner Fluzel~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 12010
+Nest 0
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 1400
+Nest 0
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 10700
+End
+
+#O
+Vnum 5912
+Nest 0
+PrevOwner Fluzel~
+Cond 0
+Wear -1
 Cost 3000
 End
 
@@ -880,94 +949,54 @@ ShD  a collection plate~
 Desc A battered silver plate lies here, brimming with money~
 ExtF 67
 Cond 0
-Wear 16
+Wear -1
 Lev  41
 Cost 6300
 End
 
 #O
-Vnum 9224
+Vnum 5920
 Nest 0
 PrevOwner Fluzel~
 Cond 0
 Wear -1
-Cost 200
-Val  150 134 0 0 0
+Cost 4000
 End
 
 #O
-Vnum 3009
+Vnum 10409
 Nest 0
 PrevOwner Fluzel~
 Cond 0
 Wear -1
-Cost 22
+Cost 10000
 End
 
 #O
-Vnum 3009
+Vnum 12008
 Nest 0
 PrevOwner Fluzel~
 Cond 0
 Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 22
-Val  20 40 0 1 0
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 22
-Val  20 40 0 1 0
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner Fluzel~
-Cond 0
-Wear -1
-Cost 22
-Val  20 40 0 1 0
-End
-
-#O
-Vnum 5909
-Nest 0
-PrevOwner Fluzel~
-Cond 0
-Wear 1
-Cost 3000
-End
-
-#O
-Vnum 2421
-Nest 0
-PrevOwner Pacifist~
-Cond 0
-Wear 17
 Cost 0
+End
+
+#O
+Vnum 12007
+Nest 0
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Fluzel~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

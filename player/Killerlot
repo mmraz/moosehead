@@ -2,66 +2,82 @@
 Name Killerlot~
 Id   991201118
 Email (null)~
-LogO 991300881
-Vers 27
+LogO 1325531797
+Vers 33
 Prom <%h/%Hhp %m/%Mm %v/%Vmv|%X|(%g.%s)|%e|) ~
 Race yinn~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 6
+SkPTimer 1
+SkPTracker 1
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1325498931
+LstKillDate 1325498931
+LstDeathDate 1325498931
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 3 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
-Sac  198
+Sac  300
 Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 991201133
 Glad 0 0 0 0 0 0
+LastHost 41.133.166.41~
 Cla  6
 ClaO 3
-Levl 14
+Levl 16
 DLevl 0
-Plyd 10736
-Not  0 0 0 991192425 0 0 0 0 0
+Plyd 13726
+Not  0 0 0 991192425 0 0 0 0 0 0
 Scro 22
 Rank 0
-Room 16501
-HMV  307 307 159 159 260 260
-Gold 95
-Silv 1762
-Exp  41225
+Room 3005
+HMV  340 353 170 170 192 192
+Gold 381
+Silv 4697
+Exp  50182
 Act  CDEFGHKMS
+MHSF R
 AfBy J
 Comm DGIRc
 Disp FGIJ
 IcgB 0
 Icg 0
-Pos  4
-Prac 16
-Trai 1
-SkiP 18
+Pos  8
+Prac 20
+Trai 6
+SkiP 7
 Alig  -1000
-Hit   1
-SecHit   1
-ACs 99 99 99 103
-Attr 23 17 16 20 22
-AMod 1 2 2 0 2
+Hit   6
+Dam   1
+SecHit   6
+SecDam   1
+ACs 62 62 62 65
+Attr 23 18 19 23 22 14 14 13
+AMod 1 5 3 2 2 0 0 0
 Pass KiOTp9Sw.jiuA~
 Titl  Save me {Rdaetok{M!!{x~
 Pnts 61
 TSex 2
-LLev 2
-HMVP 297 159 160
-Cnd  0 0 0 0
+LLev 3
+HMVP 338 170 192
+Cnd  0 20 46 34
 Alias b backstab~
 Sk 1 'fly'
 Sk 1 'gate'
@@ -73,17 +89,17 @@ Sk 1 'summon'
 Sk 1 'teleport'
 Sk 61 'word of recall'
 Sk 89 'dagger'
-Sk 1 'sword'
-Sk 75 'backstab'
-Sk 1 'daetok'
-Sk 67 'dodge'
+Sk 83 'sword'
+Sk 77 'backstab'
+Sk 11 'daetok'
+Sk 72 'dodge'
 Sk 1 'insanity'
 Sk 1 'hand to hand'
 Sk 50 'scan'
 Sk 75 'second attack'
 Sk 75 'third attack'
 Sk 76 'riding'
-Sk 1 'sneak'
+Sk 13 'sneak'
 Sk 1 'steal'
 Sk 1 'scrolls'
 Sk 1 'staves'
@@ -93,15 +109,8 @@ Sk 50 'recall'
 Gr 'rom basics'
 Gr 'berzerker basics'
 Gr 'transportation'
-End
-
-#O
-Vnum 3704
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 11
-Cost 0
+Affc 'armor'   0   7  13 -20  17          0
+Affc 'shield'   0   9  13 -20  17          0
 End
 
 #O
@@ -128,7 +137,7 @@ Vnum 4439
 Nest 0
 PrevOwner Encarta~
 Cond 0
-Wear 18
+Wear -1
 Cost 0
 End
 
@@ -155,7 +164,7 @@ Vnum 5709
 Nest 0
 PrevOwner Skye~
 Cond 0
-Wear 8
+Wear -1
 Cost 0
 End
 
@@ -164,7 +173,7 @@ Vnum 3715
 Nest 0
 PrevOwner Killerlot~
 Cond 0
-Wear 17
+Wear -1
 Cost 1140
 End
 
@@ -173,7 +182,7 @@ Vnum 20404
 Nest 0
 PrevOwner Killerlot~
 Cond 0
-Wear 4
+Wear -1
 Cost 110
 End
 
@@ -193,27 +202,7 @@ PrevOwner Killerlot~
 Cond 0
 Wear -1
 Cost 0
-Val  0 0 78 0 0
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
+Val  0 0 77 0 0
 End
 
 #O
@@ -246,15 +235,6 @@ Cost 730
 End
 
 #O
-Vnum 3703
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 2445
 Nest 0
 PrevOwner Killerlot~
@@ -270,87 +250,6 @@ PrevOwner Killerlot~
 Cond 0
 Wear -1
 Cost 1500
-End
-
-#O
-Vnum 3707
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3712
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3713
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 48
-End
-
-#O
-Vnum 3710
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3709
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3707
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3712
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3711
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3706
-Nest 0
-PrevOwner Killerlot~
-Cond 0
-Wear -1
-Cost 72
 End
 
 #O
@@ -376,7 +275,7 @@ Vnum 104
 Nest 0
 PrevOwner True~
 Cond 0
-Wear -1
+Wear 4
 Cost 550
 End
 
@@ -405,56 +304,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 300
-End
-
-#O
-Vnum 3701
-Enchanted
-Nest 0
-PrevOwner Killerlot~
-ExtF 1048642
-Cond 0
-Wear -1
-Lev  5
-Cost 210
-Affc 'enchant weapon'   1  53  -1   6  18          0
-Affc 'enchant weapon'   1  53  -1   5  19          0
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
 End
 
 #O
@@ -500,6 +349,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 24
+Val  64 0 0 0 0
 End
 
 #O
@@ -520,4 +370,140 @@ Wear -1
 Cost 1300
 End
 
+#O
+Vnum 2416
+Nest 0
+PrevOwner Gabe~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 17606
+Nest 0
+PrevOwner Talen~
+Cond 0
+Wear 6
+Cost 0
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 14
+Cost 550
+End
+
+#O
+Vnum 3727
+Nest 0
+PrevOwner Spiffy~
+Cond 0
+Wear -1
+Time 39
+Cost 0
+End
+
+#O
+Vnum 3727
+Nest 0
+PrevOwner Spiffy~
+Cond 0
+Wear -1
+Time 50
+Cost 0
+End
+
+#O
+Vnum 5706
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 2000
+End
+
+#O
+Vnum 3378
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 1000
+End
+
+#O
+Vnum 11001
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 15
+Cost 2308
+End
+
+#O
+Vnum 11000
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1800
+End
+
+#O
+Vnum 11000
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 16
+Cost 1800
+End
+
+#O
+Vnum 8509
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 8510
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 18
+Cost 200
+End
+
+#PET
+Vnum 3033
+Name war turtle~
+LogO 1325531797
+Desc Big, slow, but kind of cute in it's own way, this big turtle will
+carry stuff forever.
+A neck tag says 'I belong to Killerlot'.
+~
+Sex  2
+HMV  24 24 0 0 100 100
+AfBy S
+Comm VWX
+Pos  8
+ACs  70 70 70 100
+Attr 16 11 12 12 14 12 12 12
+AMod 0 0 0 0 0 0 0 0
+End
 #END

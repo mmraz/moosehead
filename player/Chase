@@ -2,7 +2,7 @@
 Name Chase~
 Id   980616692
 Email (null)~
-LogO 1040342849
+LogO 1318270450
 Vers 31
 Desc The light dims just a little as his form fills the doorway.  You give
 You give a small start when you see him.  Wearing a chain-mail shirt
@@ -23,10 +23,10 @@ Prom %h/%Hhp %m/%Mm %v/%Vmv $%g %X ~
 Race rockbiter~
 Clan loner~
 Outc 0
-RufT 451
+RufT 411
 MatookT 0
-SkPTimer 1
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 1
 Steal 0 0 0
@@ -37,10 +37,13 @@ LstAtkedByTimer 0
 LstCombatDate 1040340557
 LstKillDate 1007420505
 LstDeathDate 1016074200
-LoginsWOKill 5
-LoginsWODeath 3
-LoginsWOCombat 0
+LoginsWOKill 7
+LoginsWODeath 5
+LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -124 xochipili~
 Sac  300
@@ -50,40 +53,40 @@ Node 0
 Cap 0
 Created 980616715
 Glad 0 0 0 0 0 0
-LastHost 157.89.174.92~
+LastHost 69.176.22.224~
 Cla  6
 ClaO 3
 Levl 23
 DLevl 0
-Plyd 97363
+Plyd 98996
 Not  995055408 995055408 995055408 1006655290 995055408 995069778 995055408 995981257 995055408 0
 Scro 22
 Rank 0
-Room 1607
-HMV  596 596 126 181 250 260
-Gold 65
-Silv 190
-Exp  185337
+Room 10324
+HMV  296 596 97 181 154 260
+Gold 121
+Silv 6068
+Exp  189229
 Act  CDEFGHQ
 MHSF R
-AfBy J
+AfBy HJ
 Comm GS
 Disp FIJ
 IcgB 0
 Icg 0
 Wizn W
 Pos  8
-Prac 40
-Trai 11
-SkiP 40
-Alig  -898
+Prac 45
+Trai 16
+SkiP 1
+Alig  -1000
 Hit   13
 Dam   17
 SecHit   12
 SecDam   16
 ACs 51 48 45 76
 Wimp  20
-Attr 24 15 21 14 24 13 13 13
+Attr 24 15 21 14 24 8 15 13
 AMod 1 2 2 5 0 0 0 0
 Pass ChylakiysC9/A~
 Titl  the boundary warden~
@@ -91,7 +94,7 @@ Pnts 85
 TSex 1
 LLev 1
 HMVP 576 181 155
-Cnd  0 0 48 1
+Cnd  0 0 48 7
 Alias x insanity~
 Sk 35 'fly'
 Sk 1 'gate'
@@ -105,7 +108,7 @@ Sk 42 'word of recall'
 Sk 6 'axe'
 Sk 100 'dagger'
 Sk 6 'flail'
-Sk 37 'mace'
+Sk 51 'mace'
 Sk 6 'polearm'
 Sk 8 'spear'
 Sk 10 'sword'
@@ -113,11 +116,11 @@ Sk 6 'whip'
 Sk 57 'bash'
 Sk 75 'berserk'
 Sk 5 'disarm'
-Sk 31 'dodge'
+Sk 34 'dodge'
 Sk 84 'enhanced damage'
 Sk 5 'weave resistance'
 Sk 60 'insanity'
-Sk 30 'parry'
+Sk 32 'parry'
 Sk 1 'rescue'
 Sk 23 'shield block'
 Sk 50 'scan'
@@ -134,15 +137,7 @@ Gr 'berzerker basics'
 Gr 'warriorberzerker default'
 Gr 'weaponsmaster'
 Gr 'transportation'
-End
-
-#O
-Vnum 3000
-Nest 0
-PrevOwner Milam~
-Cond 0
-Wear -1
-Cost 75
+Affc 'sanctuary'   0  57   1   0   0        128
 End
 
 #O
@@ -261,15 +256,6 @@ Cost 2000
 End
 
 #O
-Vnum 17665
-Nest 0
-PrevOwner Chase~
-Cond 0
-Wear 16
-Cost 3200
-End
-
-#O
 Vnum 2911
 Nest 0
 PrevOwner Damys~
@@ -297,9 +283,194 @@ Cost 2400
 End
 
 #O
-Vnum 17648
+Vnum 3050
 Nest 0
 PrevOwner Damys~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Damys~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Damys~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 8510
+Nest 0
+PrevOwner Chase~
+Cond 0
+Wear 18
+Cost 200
+End
+
+#O
+Vnum 5251
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2700
+Spell 3 'call lightning'
+End
+
+#O
+Vnum 1604
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 910
+End
+
+#O
+Vnum 1604
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 910
+End
+
+#O
+Vnum 1602
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 570
+End
+
+#O
+Vnum 1621
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Time 531
+Cost 320
+Spell 1 'cure blindness'
+Spell 2 'cure critical'
+End
+
+#O
+Vnum 1606
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1550
+End
+
+#O
+Vnum 1606
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1550
+End
+
+#O
+Vnum 1615
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1540
+End
+
+#O
+Vnum 1616
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 17648
+Nest 0
+PrevOwner Chase~
 Cond 0
 Wear -1
 Cost 4000
@@ -579,133 +750,129 @@ Val  0 0 248 0 0
 End
 
 #O
-Vnum 3050
-Nest 0
-PrevOwner Damys~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Damys~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Damys~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Damys~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 8510
+Vnum 3000
 Nest 0
 PrevOwner Chase~
 Cond 0
-Wear 18
-Cost 200
+Wear -1
+Cost 75
+Val  300 288 1 0 0
 End
 
 #O
-Vnum 5251
+Vnum 3092
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 2700
-Spell 3 'call lightning'
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 1604
+Vnum 3092
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 910
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 1604
+Vnum 3092
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 910
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 1602
+Vnum 3092
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 570
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 1621
+Vnum 3092
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 571
-Cost 320
-Spell 1 'cure blindness'
-Spell 2 'cure critical'
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 1606
+Vnum 3092
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 1550
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 1606
+Vnum 3092
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 1550
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 1615
+Vnum 3092
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 1540
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 1616
+Vnum 17665
+Nest 0
+PrevOwner Chase~
+Stolen 126
+Cond 0
+Wear 16
+Cost 3200
+End
+
+#O
+Vnum 10344
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 100
+Cost 300
+Spell 1 'frenzy'
 End
 
 #END

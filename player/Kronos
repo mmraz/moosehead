@@ -2,8 +2,8 @@
 Name Kronos~
 Id   998681516
 Email (null)~
-LogO 1118359352
-Vers 31
+LogO 1414622205
+Vers 33
 LnD  A Gladiator~
 Desc Standing before you is a large dog-like creature. His white, thick fur
 covers his whole body, with small patches of grey. His eyes are yellow
@@ -22,22 +22,29 @@ Clan posse~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 15
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 2 9 2 95
 Steal 0 0 0
+MSteal 0
 LstK Flowrethen~
 LstKBy Azorak~
 LstAtkedBy Blankie~
-LstAtkedByTimer 11208
+LstAtkedByTimer 11022
 LstCombatDate 1111462749
 LstKillDate 1060273951
 LstDeathDate 1111461101
-LoginsWOKill 398
-LoginsWODeath 4
-LoginsWOCombat 3
+LoginsWOKill 412
+LoginsWODeath 18
+LoginsWOCombat 17
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 545724 mojo~
 DeityT -32 matook~
 Sac  300
@@ -47,31 +54,31 @@ Node 0
 Cap 0
 Created 998681528
 Glad 0 0 0 0 1 0
-LastHost 69.111.60.26~
+LastHost 198.74.40.134~
 Cla  14
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 1314152
-Not  1115935614 1115935614 1115935614 1115935614 1115935614 1115935614 1115935614 1118119096 1115935614 1115935614
+Plyd 1322758
+Not  1403936863 1310777535 1310777535 1310777535 1310777535 1310777535 1310777535 1310777535 1310777535 1310777535
 Scro 18
 Rank 0
-Room 31603
-HMV  1176 1433 413 434 597 597
+Room 31609
+HMV  1593 1593 434 434 597 597
 Gold 16
-Silv 416
+Silv 404
 Exp  571252
 Act  CDEFGHJKM
 MHSF R
-AfBy JLc
+AfBy Jc
 Comm 0
 Disp FIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFHI
-Pos  4
-Prac 24
-SkiP 55
+Pos  8
+Prac 29
+SkiP 5
 Save  -6
 Alig  -1000
 Hit   31
@@ -79,15 +86,15 @@ Dam   32
 SecHit   20
 SecDam   21
 ACs -29 -31 -29 13
-Attr 24 18 19 22 22 22 22 21
+Attr 24 18 19 22 22 14 14 21
 AMod 2 2 2 0 2 0 0 0
 Pass KrG4s0PIHhLQQ~
 Titl , exile of Gnomeregan, friend to all!~
 Pnts 100
 TSex 1
 LLev 236
-HMVP 1278 349 637
-Cnd  0 8 40 14
+HMVP 1438 349 637
+Cnd  0 0 0 0
 Alias k murder~
 Alias xx shieldbash~
 Alias home c gate sorbus~
@@ -168,7 +175,6 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'morph'   0  50   0   0   0       2048
 End
 
 #O
@@ -395,9 +401,9 @@ Cond 0
 Wear 13
 Lev  45
 Cost 4000
-Affc 'reserved'   1  41  -1  25  12          0
-Affc 'reserved'   1  41  -1   2   1          0
 Affc 'enchant armor'   1  51  -1  -8  17          0
+Affc 'reserved'   1  41  -1   2   1          0
+Affc 'reserved'   1  41  -1  25  12          0
 End
 
 #O
@@ -510,15 +516,14 @@ Cond 0
 Wear 16
 Lev  50
 Cost 1200
-Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
 Vnum 2419
 Nest 0
 PrevOwner (null)~
-Stolen 38
 Cond 0
 Wear -1
 Cost 2100
@@ -528,7 +533,6 @@ End
 Vnum 2415
 Nest 0
 PrevOwner (null)~
-Stolen 42
 Cond 0
 Wear -1
 Cost 1000

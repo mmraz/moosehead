@@ -2,7 +2,7 @@
 Name Moira~
 Id   963008125
 Email (null)~
-LogO 1126338656
+LogO 1309919616
 Vers 31
 LnD  A Gladiator~
 Prom <%h/%Hhp %mm %vmv %n/%Nit %w/%WLbs %Spts> ~
@@ -12,21 +12,22 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 8
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 2
-Steal 228 19921 139
+Steal 232 20591 141
 LstK Daos~
 LstKBy Rippen~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1108522204
+LstCombatDate 1309919289
 LstKillDate 1007852612
 LstDeathDate 1057701284
-LoginsWOKill 86
-LoginsWODeath 20
-LoginsWOCombat 8
+LoginsWOKill 100
+LoginsWODeath 34
+LoginsWOCombat 0
 Bnty 0
+DeityFavor 2 0
 Deity 180180 loki~
 DeityT -2549 loki~
 Sac  300
@@ -36,24 +37,24 @@ Node 0
 Cap 0
 Created 963008139
 Glad 0 0 0 0 0 0
-LastHost 24.16.129.245~
+LastHost 50.98.224.64~
 Cla  13
 Kit ninja~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 723873
-Not  1126338647 1126338647 1126338647 1126338647 1126338647 1126338647 1126338647 1126338647 1126338647 1126338647
+Plyd 740161
+Not  1307687694 1307687694 1307687694 1307687694 1307687694 1307687694 1307687694 1307687694 1307687694 1307687694
 Scro 22
 Rank 0
-Room 3001
-HMV  1047 1047 473 473 434 439
-Gold 745
-Silv 42
+Room 4439
+HMV  983 1047 473 473 439 439
+Gold 253
+Silv 6498
 Exp  91157
 Act  DEFGHQS
 MHSF RSUV
-AfBy JPT
+AfBy JQT
 Comm L
 Disp BFJLM
 IcgB 0
@@ -61,32 +62,32 @@ Icg 0
 Pnet ABCEFGHI
 Pos  8
 Prac 6
-Trai 3
-SkiP 261
+Trai 14
+SkiP 287
 Save  -26
-Alig  339
+Alig  338
 Hit   8
-Dam   9
+Dam   11
 SecHit   3
-SecDam   4
-ACs 18 18 18 37
+SecDam   6
+ACs 13 13 13 38
 Wimp  50
-Attr 17 19 18 22 16 20 13 13
-AMod 4 5 4 3 0 0 0 0
-Pass ModEaYO1lm39g~
+Attr 17 19 18 22 16 11 11 13
+AMod 5 5 4 3 0 0 0 0
+Pass MoYR/4I/w6rPM~
 Titl , spirit of Avarice.~
 Pnts 54
 TSex 1
 LLev 1
 HMVP 1047 408 439
-Cnd  0 0 12 12
+Cnd  0 0 16 9
 Alias / cast word~
 Alias tele c tele self~
 Alias whoclan who clan 35~
 Alias distra pray distraction~
 Alias 0 steal coin~
-Alias 1 steal oracle envec~
-Alias 2 slice cloak con~
+Alias 1 slice quiv quick~
+Alias 2 steal jewel quick~
 Alias grab steal coin~
 Alias h murder~
 Alias 3 slice cloak rie~
@@ -140,7 +141,6 @@ Gr 'rom basics'
 Gr 'thief basics'
 Gr 'protective'
 Gr 'transportation'
-Affc 'sneak'   0  48  17   0   0      32768
 End
 
 #O
@@ -157,7 +157,7 @@ Vnum 23021
 Nest 0
 PrevOwner Moira~
 Cond 0
-Wear 4
+Wear -1
 Cost 710
 End
 
@@ -372,16 +372,6 @@ Spell 1 'identify'
 End
 
 #O
-Vnum 3040
-Nest 1
-PrevOwner Moira~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
 Vnum 8503
 Nest 1
 PrevOwner Moira~
@@ -449,6 +439,72 @@ Wear -1
 Cost 1000
 Val  40 35 34 125 0
 Spell 3 'invisibility'
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Moira~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Moira~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 3081
+Nest 1
+PrevOwner Moira~
+Name vodka~
+ShD  a bottle of russian vodka~
+Desc A bottle of russian vodka lies here~
+Cond 0
+Wear -1
+Cost 880
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 1
+PrevOwner Moira~
+Name vodka~
+ShD  a bottle of russian vodka~
+Desc A bottle of russian vodka lies here~
+Cond 0
+Wear -1
+Cost 880
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 1
+PrevOwner Moira~
+Name vodka~
+ShD  a bottle of russian vodka~
+Desc A bottle of russian vodka lies here~
+Cond 0
+Wear -1
+Cost 880
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 22504
+Nest 1
+PrevOwner Moira~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -603,15 +659,6 @@ Cost 4000
 End
 
 #O
-Vnum 22044
-Nest 1
-PrevOwner Moira~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
 Vnum 8309
 Nest 0
 PrevOwner Alphonse~
@@ -725,8 +772,17 @@ Vnum 23021
 Nest 0
 PrevOwner Moira~
 Cond 0
-Wear -1
+Wear 4
 Cost 710
+End
+
+#O
+Vnum 9302
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 3100
 End
 
 #END

@@ -2,81 +2,87 @@
 Name Alfred~
 Id   963892810
 Email (null)~
-LogO 1085533695
-Vers 31
+LogO 1443430609
+Vers 33
 LnD  A Gladiator~
 Desc He's one big mother fucking rock.
 That means get out of the way.
 ~
-Prom <%hhp %mmana %vmv %W{Glbs{x> ~
+Prom <%h/%HHp %m/%MMana %v/%VMv %w/%W{GLbs{x> ~
 Race rockbiter~
 Clan zealot~
 Outc 0
-RufT 279
+RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 5
+SkPTracker 0
 LogoutTracker 0
-Kill 12 82 0 66
+Kill 12 85 0 69
 Steal 0 0 0
-LstK Costello~
-LstKBy Trinoa~
+MSteal 0
+LstK Ripper~
+LstKBy Anazar~
 LstAtkedBy Accomplice~
-LstAtkedByTimer 12102
-LstCombatDate 1085089309
-LstKillDate 1084239801
-LstDeathDate 1069909720
+LstAtkedByTimer 11204
+LstCombatDate 1311722491
+LstKillDate 1310261022
+LstDeathDate 1310263685
 LoginsWOKill 4
-LoginsWODeath 16
-LoginsWOCombat 2
+LoginsWODeath 4
+LoginsWOCombat 1
 Bnty 0
+DeityFavor 2 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 192364 almighty~
 DeityT -8114 hermes~
-Sac  270
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 963892822
 Glad 2 19 1 3 8 1
-LastHost 69.198.160.254~
+LastHost 192.95.172.58~
 Cla  6
 Kit wyrmslayer~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 1437096
-Not  1085533646 1085533646 1085533646 1085533646 1085533646 1085533646 1085533646 1085533646 1085533646 1085533646
+Plyd 1473958
+Not  1310264566 1310267926 1310264566 1310264566 1310264566 1443430110 1310264566 1443429926 1310264566 1310264566
 Scro 22
-Rank 1
-Room 3001
-HMV  1719 1719 375 375 470 470
-Gold 575
-Silv 927
+Rank 3
+Room 31806
+HMV  1719 1719 375 375 370 370
+Gold 69
+Silv 366
 Exp  636597
 Act  CDEGHJMQ
-MHSF RSUX
+MHSF RUX
 ClnF D
-AfBy CDFGINRVY
-Comm GS
+AfBy PT
+Comm GIS
 Disp BFIJN
 IcgB 0
 Icg 0
-Wizn W
 Pnet ACDF
-Pos  4
-Prac 81
-SkiP 169
-Save  -16
+Pos  8
+Prac 77
+Trai 8
+SkiP 314
+Save  -7
 Alig  1000
-Hit   32
-Dam   40
+Hit   20
+Dam   25
 SecHit   20
-SecDam   27
-ACs 128 128 128 151
-Wimp  25
-Attr 24 16 24 15 25 16 15 13
-AMod -4 6 3 6 2 0 0 0
+SecDam   25
+ACs 29 29 29 47
+Attr 24 16 24 15 25 8 15 13
+AMod 2 3 0 2 2 0 0 0
 Pass AlfWiG8BWUvhE~
 Titl . Brought the {DViolence{x. {RInsignificant{x~
 Pnts 99
@@ -91,16 +97,16 @@ Alias x insanity~
 Alias v berserk~
 Alias pt pray trans~
 Alias z backstab~
-Alias 2 bash yevon~
-Alias 3 bash korn~
+Alias 2 bash ripper~
+Alias 3 bash ash~
 Alias 4 murder xar~
 Alias t ca 'teleport' self~
-Alias 1 bash blood~
+Alias 1 bash octa~
 Alias zz bash~
 Alias 9 wear all~
 Spz 'mace'
 Sk 1 'aid'
-Sk 77 'annointment'
+OldSk 77 'annointment'
 Sk 1 'armor'
 Sk 1 'bestow holiness'
 Sk 100 'bless'
@@ -109,7 +115,7 @@ Sk 100 'cancellation'
 Sk 1 'detect evil'
 Sk 85 'detect good'
 Sk 76 'detect hidden'
-Sk 69 'detect invis'
+Sk 71 'detect invis'
 Sk 44 'detect magic'
 Sk 1 'detect poison'
 Sk 1 'dispel magic'
@@ -134,7 +140,7 @@ Sk 1 'nexus'
 Sk 25 'pass door'
 Sk 1 'portal'
 Sk 100 'protection evil'
-Sk 56 'protection good'
+Sk 58 'protection good'
 Sk 25 'protection neutral'
 Sk 96 'refresh'
 Sk 1 'remove curse'
@@ -167,15 +173,15 @@ Sk 100 'insanity'
 Sk 100 'hand to hand'
 Sk 100 'morph'
 Sk 100 'parry'
-Sk 71 'rescue'
+Sk 72 'rescue'
 Sk 100 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
 Sk 100 'fast healing'
-Sk 89 'hide'
+Sk 91 'hide'
 Sk 100 'sneak'
-Sk 1 'steal'
+Sk 45 'steal'
 Sk 69 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
@@ -191,97 +197,37 @@ Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'faerie fog'   0  56   0   0   0         64
-Affc 'weaken'   0  52  12  -5   1   16777216
-Affc 'faerie fire'   0  53  47 108  17        256
-Affc 'sleep'   0  52   3   0   0     131072
-Affc 'detect hidden'   0  38  25   0   0         32
-Affc 'detect invis'   0  37  26   0   0          8
-Affc 'detect good'   0  36  23   0   0          4
-Affc 'protection evil'   0  34   6  -1  24       8192
-Affc 'haste'   0  39   2   4   2    2097152
+Affc 'sneak'   0  47  31   0   0      32768
 End
 
 #O
-Vnum 17648
+Vnum 11144
 Nest 0
 PrevOwner Alfred~
 Cond 0
-Wear 13
-Cost 4000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Alfred~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Alfred~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Alfred~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 10027
-Nest 1
-PrevOwner Alfred~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 5913
-Nest 0
-PrevOwner Alfred~
-ExtF 134217984
-Wt   220
-Cond 0
-Wear 7
-Cost 2000
-Val  7 7 7 4 6
-Affc 'bless'   1  39  38  -1  20        256
+Wear 18
+Cost 4500
 End
 
 #O
 Vnum 5709
 Nest 0
 PrevOwner Alfred~
-ExtF 134217984
+ExtF 134217728
 Wt   42
 Cond 0
 Wear 8
 Cost 0
 Val  2 2 2 2 6
-Affc 'bless'   1  38  38  -1  20        256
 End
 
 #O
 Vnum 2505
 Nest 0
 PrevOwner Alfred~
-ExtF 258
 Cond 0
 Wear 15
 Cost 1150
-Affc 'bless'   1  38  36  -1  20        256
 End
 
 #O
@@ -297,11 +243,9 @@ End
 Vnum 5922
 Nest 0
 PrevOwner Alfred~
-ExtF 257
 Cond 0
 Wear 4
 Cost 300
-Affc 'bless'   1  36  37  -1  20        256
 End
 
 #O
@@ -326,33 +270,27 @@ End
 Vnum 2505
 Nest 0
 PrevOwner Alfred~
-ExtF 258
 Cond 0
 Wear 14
 Cost 1150
-Affc 'bless'   1  37  35  -1  20        256
 End
 
 #O
 Vnum 5922
 Nest 0
 PrevOwner Alfred~
-ExtF 257
 Cond 0
 Wear 3
 Cost 300
-Affc 'bless'   1  37  37  -1  20        256
 End
 
 #O
 Vnum 20740
 Nest 0
 PrevOwner Alfred~
-ExtF 262400
 Cond 0
 Wear 17
 Cost 4500
-Affc 'bless'   1  40  38  -1  20        256
 End
 
 #O
@@ -369,22 +307,18 @@ End
 Vnum 5909
 Nest 0
 PrevOwner Alfred~
-ExtF 257
 Cond 0
 Wear 2
 Cost 3000
-Affc 'bless'   1  38  35  -1  20        256
 End
 
 #O
 Vnum 22504
 Nest 0
 PrevOwner Alfred~
-ExtF 16777473
 Cond 0
 Wear 0
 Cost 0
-Affc 'bless'   1  38  38  -1  20        256
 End
 
 #O
@@ -401,86 +335,54 @@ End
 Vnum 5909
 Nest 0
 PrevOwner Alfred~
-ExtF 257
 Cond 0
 Wear 1
 Cost 3000
-Affc 'bless'   1  37  35  -1  20        256
 End
 
 #O
 Vnum 5937
 Nest 0
 PrevOwner Alfred~
-ExtF 134217984
+ExtF 134217728
 Wt   52
 Cond 0
 Wear 9
 Cost 4000
 Val  8 8 8 5 6
-Affc 'bless'   1  36  36  -1  20        256
 End
 
 #O
 Vnum 12006
 Nest 0
 PrevOwner Alfred~
-ExtF 2304
 Cond 0
 Wear 10
 Cost 900
-Affc 'bless'   1  39  36  -1  20        256
 End
 
 #O
-Vnum 1966
+Vnum 5913
 Nest 0
 PrevOwner Alfred~
+ExtF 134217728
+Wt   220
 Cond 0
-Wear 11
-Cost 4000
+Wear 7
+Cost 2000
+Val  7 7 7 4 6
 End
 
 #O
 Vnum 5934
 Nest 0
-PrevOwner Ishikoro~
-ExtF 134217985
+PrevOwner Alfred~
+ExtF 134217729
 Wt   120
 Cond 0
 Wear 5
 Cost 4000
 Val  7 7 7 6 6
-Affc 'bless'   1  40  36  -1  20        256
-End
-
-#O
-Vnum 18119
-Nest 0
-PrevOwner Alfred~
-ExtF 225
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 12010
-Nest 0
-PrevOwner Arandarial~
-Cond 0
-Wear 18
-Cost 15000
-End
-
-#O
-Vnum 12060
-Nest 0
-PrevOwner Alfred~
-ExtF 554172417
-Cond 0
-Wear -1
-Cost 5521
 End
 
 #O
@@ -494,99 +396,145 @@ Cost 0
 End
 
 #O
-Vnum 22055
+Vnum 2411
+Nest 0
+PrevOwner Alfred~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Alfred~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Alfred~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3051
+Nest 0
+PrevOwner Alfred~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 3051
+Nest 0
+PrevOwner Alfred~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 12060
+Nest 0
+PrevOwner Alfred~
+ExtF 554172417
+Cond 0
+Wear 16
+Cost 5521
+End
+
+#O
+Vnum 2446
+Enchanted
+Nest 0
+PrevOwner Alfred~
+ExtF 2369
+Stolen 3026
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Val  4 5 8 27 1024
+Affc 'reserved'   1  49  -1   2   1          0
+Affc 'enchant weapon'   1  53  -1   1  19          0
+Affc 'enchant weapon'   0  53  -1   1  18          0
+End
+
+#O
+Vnum 307
 Nest 0
 PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 17648
+Nest 0
+PrevOwner Anazar~
+Cond 0
+Wear 13
+Cost 4000
+End
+
+#O
+Vnum 31922
+Nest 1
+PrevOwner Alfred~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 31923
+Nest 1
+PrevOwner Alfred~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22055
+Nest 1
+PrevOwner Anazar~
 Cond 0
 Wear -1
 Cost 4100
 End
 
 #O
-Vnum 31923
-Nest 0
-PrevOwner (null)~
-ExtF 320
+Vnum 2419
+Nest 1
+PrevOwner Anazar~
 Cond 0
 Wear -1
-Cost 0
-Affc 'bless'   1  39  38  -1  20        256
+Cost 2100
 End
 
 #O
-Vnum 31922
-Nest 0
-PrevOwner (null)~
+Vnum 10027
+Nest 1
+PrevOwner Anazar~
 Cond 0
 Wear -1
-Cost 0
-End
-
-#O
-Vnum 9107
-Enchanted
-Nest 0
-PrevOwner Costello~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-End
-
-#O
-Vnum 10431
-Enchanted
-Nest 0
-PrevOwner Costello~
-ExtF 66
-Stolen 7
-Cond 0
-Wear -1
-Lev  50
-Cost 6500
-Affc 'enchant weapon'   0  47  -1   8  18          0
-Affc 'enchant weapon'   1  49  -1  12  19          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'reserved'   1  49  -1   0   0          0
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 0
-PrevOwner Costello~
-ExtF 99
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1  14  19          0
-End
-
-#O
-Vnum 22552
-Enchanted
-Nest 0
-PrevOwner Costello~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Val  2 10 4 39 10
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
+Cost 1000
 End
 
 #O
 Vnum 22506
 Enchanted
-Nest 0
-PrevOwner Costello~
+Nest 1
+PrevOwner Anazar~
 ExtF 67
 Cond 0
 Wear -1
@@ -599,80 +547,48 @@ Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
-Vnum 10027
+Vnum 10431
 Enchanted
-Nest 0
-PrevOwner Costello~
+Nest 1
+PrevOwner Anazar~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Affc 'enchant weapon'   0  47  -1   8  18          0
+Affc 'enchant weapon'   1  49  -1  12  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
+End
+
+#O
+Vnum 22552
+Enchanted
+Nest 1
+PrevOwner Anazar~
 ExtF 67
 Cond 0
-Wear 16
+Wear -1
+Cost 0
+Val  2 10 4 39 14
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  51  -1  10  18          0
+Affc 'enchant weapon'   1  51  -1  10  19          0
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 1
+PrevOwner Anazar~
+ExtF 99
+Cond 0
+Wear -1
 Lev  50
-Cost 1000
-Affc 'enchant weapon'   1  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  13  19          0
-End
-
-#O
-Vnum 11144
-Nest 0
-PrevOwner Costello~
-Cond 0
-Wear -1
 Cost 4500
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3051
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 900
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1  14  19          0
 End
 
 #END

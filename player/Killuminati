@@ -3,8 +3,8 @@ Name Killuminati~
 SurN Theory~
 Id   1045211425
 Email (null)~
-LogO 1131363363
-Vers 31
+LogO 1323390012
+Vers 33
 Desc A disturbed Goblin no longer moves silently about
 as you feel your legs give out, you gasp in
 astonishing pain. He rips apart your purse as your
@@ -23,13 +23,14 @@ Prom {G>{x%hhp %mmagic %vmv $%g %wcap %Xtnl{G<{x ~
 Race goblin~
 Clan outcast~
 Outc 0
-RufT 147
+RufT 110
 MatookT 0
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 4 7 1 5
 Steal 56 1140 7
+MSteal 0
 LstK Yorath~
 LstKBy Nod~
 LstAtkedBy no one~
@@ -37,11 +38,15 @@ LstAtkedByTimer 0
 LstCombatDate 1084321564
 LstKillDate 1076334101
 LstDeathDate 1111041894
-LoginsWOKill 16
-LoginsWODeath 3
-LoginsWOCombat 9
+LoginsWOKill 19
+LoginsWODeath 6
+LoginsWOCombat 12
 Bnty 0
-Deity 59638 hermes~
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+Deity 59638 huitzilopochtli~
 DeityT -33 huitzilopochtli~
 Sac  196
 Sex  1
@@ -50,24 +55,24 @@ Node 0
 Cap 0
 Created 1045211448
 Glad 0 0 0 0 0 0
-LastHost c-67-170-18-57.hsd1.wa.comcast.net~
+LastHost 75.184.21.184~
 Cla  13
 Kit acrobat~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 231415
-Not  1131363345 1131363345 1131363345 1131363345 1131363345 1131363345 1131363345 1131363345 1131363345 1131363345
+Plyd 232919
+Not  1314147586 1314147586 1314147586 1314147586 1314147586 1314147586 1314147586 1314147586 1314147586 1314147586
 Scro 98
 Rank 0
-Room 3001
-HMV  1340 1340 408 412 592 592
-Gold 46
-Silv 20
+Room 3054
+HMV  1340 1340 412 412 592 592
+Gold 47
+Silv 45
 Exp  477913
-Act  CDFGHKQRSTa
+Act  CDGHKQRSTa
 MHSF RSU
-AfBy DFJPTc
+AfBy DFJPQTc
 Comm IR
 Disp BFIJLN
 IcgB 0
@@ -75,23 +80,24 @@ Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 20
-SkiP 83
+Trai 15
+SkiP 86
 Save  -7
 Alig  792
-Hit   14
-Dam   15
+Hit   15
+Dam   16
 SecHit   14
 SecDam   15
-ACs 16 16 21 52
-Attr 18 18 18 22 17 18 19 11
-AMod 2 6 5 3 2 0 0 0
+ACs -4 -4 1 32
+Attr 18 18 18 22 17 11 11 11
+AMod 6 6 5 3 2 0 0 0
 Pass KiW6KGp4zVY32~
 Titl .~
 Pnts 99
 TSex 1
 LLev 48
 HMVP 930 372 592
-Cnd  0 0 20 12
+Cnd  0 22 35 30
 Alias k murder~
 Alias x backstab~
 Alias stc steal coins~
@@ -132,7 +138,7 @@ Sk 78 'protection good'
 Sk 1 'protection neutral'
 Sk 79 'refresh'
 Sk 1 'sacred guardian'
-Sk 74 'sanctuary'
+Sk 77 'sanctuary'
 Sk 76 'shield'
 Sk 73 'stone skin'
 Sk 71 'summon'
@@ -167,25 +173,12 @@ Gr 'detection'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'fly'   0  40  42   0   0     524288
-Affc 'detect invis'   0  37  27   0   0          8
-Affc 'detect hidden'   0  39  27   0   0         32
-Affc 'sneak'   0  49  37   0   0      32768
-End
-
-#O
-Vnum 11
-Nest 0
-PrevOwner (null)~
-ShD  the corpse of Killuminati~
-Desc The corpse of Killuminati is lying here.~
-ExtF 67125248
-Cond 0
-Wear -1
-Lev  51
-Time 14
-Cost 0
-Val  0 0 0 1 4
+Affc 'armor'   0  37  18 -20  17          0
+Affc 'sneak'   0  41   0   0   0      32768
+Affc 'fly'   0  37   5   0   0     524288
+Affc 'detect invis'   0  39  31   0   0          8
+Affc 'detect hidden'   0  38  31   0   0         32
+Affc 'giant strength'   0  39  31   4   1          0
 End
 
 #O
@@ -507,24 +500,6 @@ Cost 22
 End
 
 #O
-Vnum 3009
-Nest 0
-PrevOwner Killuminati~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner Killuminati~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
 Vnum 3000
 Nest 0
 PrevOwner Killuminati~
@@ -532,6 +507,15 @@ Cond 0
 Wear -1
 Cost 75
 Val  300 0 1 0 0
+End
+
+#O
+Vnum 5252
+Nest 0
+PrevOwner Kotoo~
+Cond 0
+Wear 16
+Cost 0
 End
 
 #END

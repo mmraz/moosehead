@@ -1,0 +1,315 @@
+#AREA
+/mud/moosehead/area/whore.are~
+Whore House~
+{ 5 45} Rusty   The Whore House~
+8800 8807
+
+#MOBILES
+#8800
+oldstyle pimp vito~
+Vito the pimp~
+Vito guards the door against punks with no money.
+~
+Guarding the door against punks gets monotonus, but judging this man's
+chiseled physique, he doesn't sit around too much.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABC DJ -50 0
+37 0 10d10+1800 18d9+100 4d10+12 none
+-12 -12 -12 5
+EFNU 0 0 0
+stand stand male 50
+0 0 medium 0
+#8801
+oldstyle bimbo~
+a bimbo~
+A bimbo is being ditzy and babbling.
+~
+The bimbo is good looking and blond. Why kill her?
+~
+human~
+(null)~
+(null)~
+(null)~
+ACG 0 10 0
+6 0 2d7+71 3d9+100 1d7+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand female 1
+0 0 medium 0
+#8802
+oldstyle vanessa dominatrix~
+Vanessa the Dominatrix~
+Vanessa the house dominatrix strolls through the room, cracking her whip.
+~
+Vanessa oozes control and beauty, and as she stares at you and cracks her whip, 
+you shudder in fear.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABR DHJV 100 0
+40 0 15d10+1700 40d9+100 3d10+12 none
+-13 -13 -13 -1
+FU 0 0 0
+sit sit female 750
+0 0 medium 0
+#8803
+oldstyle leech black~
+A black leech~
+A bloodsucking black leech slithers on the floor.
+~
+It doesn't have much of a body, but it does have sharp claws and large fangs.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABFGHR DJV -25 0
+28 0 5d10+650 28d9+100 2d10+7 none
+-8 -8 -8 1
+FU 0 0 0
+stand stand none 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#8800
+leather lace tattoo~
+a leather and lace tattoo~
+A leather and lace tattoo has been ripped from someone's arm.~
+skin~
+clothing B AM
+0 0 0 0 0
+20 10 1870 P
+A
+1 1
+A
+19 2
+#8801
+stockings fishnet~
+black fishnet stockings~
+A pair of black fishnet stockings lay neatly rolled on th floor.~
+cloth~
+armor 0 AF
+4 4 4 0 0
+22 80 2700 P
+A
+18 2
+A
+20 -2
+#8802
+shirt webbed~
+a webbed shirt~
+A blob of webbing sticks to your feet.~
+cloth~
+armor 0 AD
+8 8 8 2 0
+25 70 5600 P
+A
+2 1
+A
+1 1
+#0
+
+#ROOMS
+#8800
+The Crawl space~
+You are in a big, subterranean room with heavy massive stone walls and no
+windows whatsoever.  A wooden ladder leads upwards.
+~
+0 D 0
+D4
+Exit ~
+~
+16384 -1 8802
+S
+#8801
+Vanessa's study~
+You are in a small study room.  The walls are lined with bookcases filled 
+with dusty volumes of all sizes.  In the fireplace burns a crackling fire 
+that makes the room warm and cozy, and in front of an oak wood reading desk 
+is a large old-fashioned leather chair.
+~
+0 D 0
+D2
+Exit ~
+~
+16384 -1 8804
+E
+bookcase bookcases volume volumes book books~
+Most of the books are heavy, leather-bound and covered in a thin layer of dust.
+There are many titles on necromancy, bowling, and beer brewing;
+but also some on computer science (although these seem to be VERY dusty
+indeed) and a fair collection of horror literature, ranging from Bram Stoker
+and H. P. Lovecraft to Anne Rice and Stephen King.
+~
+E
+fireplace~
+The fireplace isn't particularly big, and hasn't been used in ages.
+~
+E
+desk~
+It is very massive and seems worn from many years of use.
+~
+E
+chair~
+It is big and old-fashioned and tattered, but quite comfortable nevertheless.
+~
+S
+#8802
+Vanessa's Bondage Chamber~
+You are in a room filled with shelves containing all sorts of bondage
+equipment.  The walls are lined with numerous restraints, and an iron 
+maiden hangs in the corner.  The air smells of leather and sweat.
+A wooden ladder leads downwards.
+A cracked sliding glass door opens to the porch east.
+~
+0 D 0
+D0
+Exit ~
+~
+16384 -1 8807
+D1
+Exit ~
+~
+16384 -1 8803
+D3
+Exit ~
+~
+16384 -1 8804
+D5
+Exit ~
+~
+16384 -1 8800
+E
+shelves~
+The shelves contain a mass of bottles, whips, and chains of different shapes and sizes.
+~
+E
+desk~
+On the desk is a peculiar apparatus of glass bottles and globes connected by
+small pipelines.  The green liquid inside the apparatus' globes and pipelines
+is bubbling steadily.
+~
+S
+#8803
+The back porch balcony~
+It turns out to be just an overdramatized iron fire escape.  The bolts are
+rusting off.  The number of people that could be out here is questionable.
+A cracked sliding glass door leads inside to the west.
+~
+0 0 0
+D3
+Exit ~
+~
+16384 -1 8802
+E
+balcony railing~
+Quite rusty, but fairly stable anyway, because of the rust that encrusts
+the entire structure.
+~
+S
+#8804
+Dirty hall~
+You are in sparsely decorated and quite dusty hall.  Old wooden doors lead
+north, east and south. To the west is the front door.
+An old mirror hangs on the wall.
+~
+0 D 0
+D0
+Exit ~
+~
+16384 -1 8801
+D1
+Exit ~
+~
+16384 -1 8802
+D2
+Exit ~
+~
+16384 -1 8805
+D3
+Exit ~
+door~
+16391 8800 8806
+S
+#8805
+Vanessa's scuzzy kitchen~
+You are in an old-fashioned kitchen.  Dirty dishes and rotting food are
+strewn all over.  The slaves haven't cleaned here in a while.
+~
+0 D 0
+D0
+Exit ~
+~
+16384 -1 8804
+S
+#8806
+The front door~
+An old oak door reinforced with wrought iron bars.  There is a small peep
+hole next to the rusty door knocker.  It was truly built to keep you out.
+~
+0 0 1
+D1
+Exit ~
+door~
+16423 8800 8804
+D3
+Exit ~
+~
+16384 -1 3134
+S
+#8807
+Crash room~
+All around you are burnt-out love slaves crashed anywhere they can get  
+comfortable.  A few torn and smelly matresses lie about.  The smell
+of urine permeates the air, and fleas jump into your hair.
+~
+0 D 0
+D2
+Exit ~
+~
+16384 -1 8802
+S
+#0
+
+#RESETS
+M 0 8800   1 8806  1	* Vito the pimp
+E 1 8800  -1   15	*   a leather and lace tattoo
+M 0 8801   2 8803  2	* a bimbo
+M 0 8801   2 8804  2	* a bimbo
+M 0 8802   1 8802  1	* Vanessa the Dominatrix
+E 1 8801  -1    8	*   black fishnet stockings
+M 0 8803   1 8800  1	* A black leech
+E 1 8802  -1    6	*   a webbed shirt
+D 0 8800   4 16384	* The Crawl space up
+D 0 8801   2 16384	* Vanessa's study south
+D 0 8802   0 16384	* Vanessa's Bondage Chamber north
+D 0 8802   1 16384	* Vanessa's Bondage Chamber east
+D 0 8802   3 16384	* Vanessa's Bondage Chamber west
+D 0 8802   5 16384	* Vanessa's Bondage Chamber down
+D 0 8803   3 16384	* The back porch balcony west
+D 0 8804   0 16384	* Dirty hall north
+D 0 8804   1 16384	* Dirty hall east
+D 0 8804   2 16384	* Dirty hall south
+D 0 8804   3 16391	* Dirty hall west
+D 0 8805   0 16384	* Vanessa's scuzzy kitchen north
+D 0 8806   1 16423	* The front door east
+D 0 8806   3 16384	* The front door west
+D 0 8807   2 16384	* Crash room south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 8802 spec_cast_mage      	* Vanessa the Dominatrix
+M 8803 spec_cast_mage      	* A black leech
+S
+
+#$

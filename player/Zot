@@ -3,7 +3,7 @@ Name Zot~
 SurN Biff~
 Id   1042326989
 Email (null)~
-LogO 1083369745
+LogO 1307138469
 Vers 31
 Prom <H:%h M:%m Mv:%v {M(%X) {B%w{X %th | {c%r{x: %e>%c~
 Race ogre~
@@ -11,7 +11,7 @@ Clan loner~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 6
+SkPTimer 1
 SkPTracker 17
 LogoutTracker 0
 Kill 0 0 0 2
@@ -23,9 +23,9 @@ LstAtkedByTimer 0
 LstCombatDate 1042326989
 LstKillDate 1042326989
 LstDeathDate 1083365382
-LoginsWOKill 2
-LoginsWODeath 1
-LoginsWOCombat 2
+LoginsWOKill 3
+LoginsWODeath 2
+LoginsWOCombat 3
 Bnty 0
 Deity 16816 huitzilopochtli~
 DeityT -2590 huitzilopochtli~
@@ -36,18 +36,18 @@ Node 0
 Cap 0
 Created 1042327030
 Glad 0 0 0 0 0 0
-LastHost ndn-ip-nas-1-p473.telkom-ipnet.co.za~
+LastHost 41.213.112.255~
 Cla  0
 Kit wu jen~
 ClaO 0
 Levl 23
 DLevl 0
-Plyd 264157
-Not  1083361335 1083361335 1083361335 1083361335 1083361335 1083361335 1083361335 1083361335 1083361335 1083361335
+Plyd 264338
+Not  1307138308 1307138308 1307138308 1307138308 1307138308 1307138308 1307138308 1307138308 1307138308 1307138308
 Scro 22
 Rank 0
 Room 9648
-HMV  154 357 13 344 121 219
+HMV  357 357 344 344 219 219
 Gold 99
 Silv 6379
 Exp  192165
@@ -77,7 +77,7 @@ Pnts 80
 TSex 1
 LLev 70
 HMVP 329 344 219
-Cnd  0 28 28 46
+Cnd  0 8 23 36
 Alias p flee~
 Alias o c word~
 Alias sf who clan~
@@ -99,6 +99,7 @@ Sk 1 'change sex'
 Sk 65 'charm person'
 Sk 79 'chill touch'
 Sk 97 'colour spray'
+Sk 1 'cone of silence'
 Sk 61 'control weather'
 Sk 98 'curse'
 Sk 61 'detect evil'
@@ -183,10 +184,10 @@ Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'invisibility'   0  24  36   0   0          2
-Affc 'shield'   0  23  28 -20  17          0
-Affc 'giant strength'   0  22  18   2   1          0
-Affc 'armor'   0  21  22 -20  17          0
+Affc 'armor'   0  21  17 -20  17          0
+Affc 'giant strength'   0  22  13   2   1          0
+Affc 'shield'   0  22  23 -20  17          0
+Affc 'invisibility'   0  22  31   0   0          2
 End
 
 #O
@@ -732,8 +733,8 @@ Cond 0
 Wear -1
 Lev  7
 Cost 250
-Affc 'enchant weapon'   1  53  -1   6  19          0
 Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
 End
 
 #O
@@ -862,13 +863,13 @@ Enchanted
 Nest 0
 PrevOwner Zot~
 ExtF 67
-Stolen 38
+Stolen 33
 Cond 0
 Wear 16
 Lev  13
 Cost 0
-Affc 'enchant weapon'   1  50  -1   7  18          0
 Affc 'enchant weapon'   1  50  -1   6  19          0
+Affc 'enchant weapon'   1  50  -1   7  18          0
 End
 
 #O

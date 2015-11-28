@@ -2,35 +2,42 @@
 Name Prowler~
 Id   930148504
 Email (null)~
-LogO 1015524356
-Vers 30
+LogO 1444470469
+Vers 33
 ShD  .~
 LnD  .
 ~
 Desc I{D      {xam
 ~
-Prom %z ~
-Race gargoyle~
+Prom (%R %z %e) ~
+Race lasher~
 Outc 0
 RufT 0
-MatookT 48
+MatookT 61
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
-Hstm underpaid.overworked.sucks~
+Hstm smoother.than.poquah.com~
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Testrip~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1007427571
+LstCombatDate 1312691218
 LstKillDate 1007427571
 LstDeathDate 1007427571
 LoginsWOKill 9
 LoginsWODeath 9
-LoginsWOCombat 9
+LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 xochipili~
 DeityT -337 xochipili~
 Sac  300
@@ -40,64 +47,75 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-Cla  7
+Cla  11
 Kit enchanter~
 ClaO 0
 Levl 52
 DLevl 0
-Plyd 7367623
-Not  1014104446 1014104446 1014175536 1014484846 1014924482 1014104446 1014104446 1014104446 1015084228 0
+Plyd 8824665
+Not  1316762780 1316087787 1318185393 1371977109 1317965495 1316750319 1316607322 1319073862 1322736111 1316472778
 Scro 22
 Rank 5
-Room 1205
-HMV  26 26 107 107 104 104
-Gold 21184
-Silv 112
-Exp  17280
-Act  DEFGHMNPQX
-AfBy DJT
-Comm S
-Disp HJ
+Room 3054
+HMV  6860 6860 25866 25866 284 284
+Gold 22941
+Silv 87
+Exp  1019520
+Act  BDEFGHMNPQ
+MHSF I
+AfBy DHJTVace
+Comm GJS
+Disp BGHJ
 IcgB 0
 Icg 0
+Wizn ACDEFIJLMNOPQRSTUXc
+Pnet BCDEFGHI
 Invi 52
 Pos  8
-Prac 108
-Trai 53
-SkiP 616
-Alig  -267
-ACs 100 100 100 100
-Attr 25 25 25 25 25
-AMod 0 0 0 0 0
+Prac 282
+Trai 21
+SkiP 934
+Save  -50
+Alig  -500
+Hit   75
+Dam   79
+SecDam   4
+ACs -412 -412 -412 -412
+Attr 25 25 15 15 25 10 11 15
+AMod 10 5 0 9 10 0 0 0
 Pass PrtqqJ4/A39gw~
 Bin  Prowler taps you on the shoulder.~
 Bout Prowler steps into your shadow.~
-Titl  is anything but an angel~
+Titl  wishes he was 20 again~
 Pnts 112
+WhoName Ryeday~
 TSex 1
-LLev 1
-HMVP 26 107 104
+LLev 2046
+HMVP 1800 866 284
 Cnd  0 0 26 26
 Edit ABCEH
+ERange 1 999999
 Alias angel title is anything but an angel~
-Alias m music~
-Macro admin gnote to Rusty Poquah Rage Boogums Guerrand ; gnote subject %1~
-Macro cert load obj 1250~
-Macro gift2 at %1 say Congratulations on attaining level %2!;at %1 give kiss %1~
-Macro gift at %1 say Congratulations on attaining level %2!;at %1 give condom %1~
-Macro home goto 1239~
-Macro matook trans %1 16500~
-Macro zealot trans %1 31800~
-Macro avarice trans %1 31700~
-Macro posse trans %1 31600~
-Macro demise trans %1 31400~
-Macro honor trans %1 31500~
-Macro pk who clan~
-Macro olc title is on OLC.~
-Macro nuke lag %1 20;nochan %1; notitle %1; noemote %1; notell %1; nonote %1; fuck %1~
-Macro warlock trans %1 31900~
-Macro bb trans %1 16175~
+Alias com goto 23514~
+Alias gadmin gnote to Alagaster Andaron Rage~
+Alias work title is working in another window~
+Macro diamond load obj 3377~
 Macro condom at %1 give condom %1~
+Macro bb trans %1 16175~
+Macro warlock trans %1 31900~
+Macro nuke lag %1 20;nochan %1; notitle %1; noemote %1; notell %1; nonote %1; fuck %1~
+Macro olc title is on OLC.~
+Macro pk who clan~
+Macro honor trans %1 31500~
+Macro demise trans %1 31400~
+Macro posse trans %1 31600~
+Macro avarice trans %1 31700~
+Macro zealot trans %1 31800~
+Macro matook trans %1 16500~
+Macro home goto 1239~
+Macro gift2 at %1 say Congratulations on attaining level %2!;at %1 give kiss %1~
+Macro cert load obj 1250~
+Macro admin gnote to Rusty Poquah Rage Boogums Guerrand ; gnote subject %1~
 Sk 100 'reserved'
 Sk 100 'opiate'
 Sk 100 'accuracy'
@@ -404,7 +422,6 @@ Sk 100 'swimming'
 Sk 100 'vorpal'
 Sk 100 'trap'
 Sk 100 'recall'
-Sk 100 'research'
 Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
@@ -418,12 +435,1154 @@ Gr 'transportation'
 End
 
 #O
-Vnum 20419
+Vnum 30057
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 16
+Cost 10000
+End
+
+#O
+Vnum 12035
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 20011
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 11
+Cost 150000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Chiun~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 2513
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 710
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 8500
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 12
+Cost 3000
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 3721
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 330
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10431
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 3726
+Nest 0
+PrevOwner Noobs~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3715
+Nest 1
+PrevOwner Noobs~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Noobs~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Noobs~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 20406
+Nest 1
+PrevOwner Noobs~
+Cond 0
+Wear -1
+Cost 225
+End
+
+#O
+Vnum 6601
+Nest 1
+PrevOwner Noobs~
+Cond 0
+Wear -1
+Cost 620
+End
+
+#O
+Vnum 6601
+Nest 1
+PrevOwner Noobs~
+Cond 0
+Wear -1
+Cost 620
+End
+
+#O
+Vnum 6621
+Nest 1
+PrevOwner Noobs~
+Cond 0
+Wear -1
+Cost 780
+End
+
+#O
+Vnum 5234
+Nest 1
+PrevOwner Noobs~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 10
+Nest 0
+PrevOwner (null)~
+ShD  the corpse of The Grimreaper~
+Desc The corpse of The Grimreaper is lying here.~
+Cond 0
+Wear -1
+Lev  1
+Cost 0
+Val  0 0 0 1216 0
+End
+
+#O
+Vnum 17648
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 15
+Nest 0
+PrevOwner (null)~
+ShD  the leg of your ass~
+Desc The sliced-off leg of your ass is lying here.~
+Cond 0
+Wear -1
+Cost 0
+Val  20 20 8512 0 0
+End
+
+#O
+Vnum 9008
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 9006
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 9000
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 8800
+End
+
+#O
+Vnum 16605
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 10000
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Tnesa~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Tnesa~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #END

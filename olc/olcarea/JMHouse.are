@@ -1,0 +1,784 @@
+From rusty@eskimo.com Mon Aug 29 20:49:12 1994
+Return-Path: <ag599@freenet.carleton.ca>
+Received: from freenet3.carleton.ca by eskimo.com (5.65c/1.35)
+	id AA20781; Tue, 23 Aug 1994 13:40:31 -0700
+Received: from localhost (ag599@localhost) by freenet3.carleton.ca (8.6.4/8.6.4) id MAA20441; Tue, 23 Aug 1994 12:03:16 -0400
+Date: Tue, 23 Aug 1994 12:03:16 -0400
+Message-Id: <199408231603.MAA20441@freenet3.carleton.ca>
+From: ag599@FreeNet.Carleton.CA (Jonathan Montgomery)
+To: rusty@eskimo.com
+Subject: house.are
+Reply-To: ag599@freenet.carleton.ca
+
+
+#AREA    {1 40}    Solorena    Solorena's House
+
+#MOBILES
+#10701
+guard house~
+the house guard~
+A House Guard stands proudly here.
+~
+You see a tall, muscular male warrior in shining armor.
+~
+human~
+ABCGTV aa -1000 S
+40 3 1d1+750 1d1+450 10d4+4 2
+-6 -6 -6 -6
+DEKN 0 0 0 
+8 8 1 24566
+0 0 M 0
+
+#10702
+maid~
+a maid~
+A maid runs about.
+~
+A maid is running about this room, dusting, cleaning, polishing this and 
+that.
+~
+human~
+ACG J -1000 S
+1 0 1d1+6 1d1+0 1d3+0
+-1 0 -1 0
+8 8 2 6
+0 0 S 0
+
+#10703
+buttler~
+a buttler~
+A buttler stands here, frowning.
+~
+You see a large man dressed in a tuxedo.  He makes a variety of different 
+frowns, trying to make the perfect emotionless face.
+~
+human~
+BCH R -1000 S
+10 1 1d1+90 1d1+100 1d6+1 17
+-4 -4 -4 0
+DFIK AB 0 D
+8 8 1 24
+0 0 M 0
+
+#10704
+servant~
+a servant~
+A servant of Solorena is here.
+~
+You see a tall woman babbling something to herself.  She is very upset about 
+being underpaid.
+~
+human~
+CH 0 -850 S
+20 0 1d1+300 1d1+200 7d4+5 0
+-2 -2 0 0
+CF 0 0 0
+8 8 2 0
+0 0 M 0
+
+#10705
+guest trilena house~
+Trilena the house guest~
+Trilena the house guest is here, cackling insanely.
+~
+You see a tall, slender female.  Her hair is black and in knots, and
+her finger nails are a foot long.
+~
+elf~
+B 0 1 S 
+30 3 1d1+600 1d1+297 10d4+10 22
+-5 -5 -5 -10
+EI ABCE BCDEFLOP N 
+6 6 2 329
+0 0 M 0
+
+#10706
+chef~
+The Chef~
+The Chef is here, giving orders to the cooks.
+~
+You see a tall man, his face is covered with flower.
+~
+human~
+B 0 -678 S
+15 1 1d1+300 1d1+300 4d7+2 1
+-2 -2 -2 0
+0 0 0 0
+8 8 1 0
+0 0 L 0
+
+#10707
+cook~
+a cook~
+A cook work steadily.
+~
+You see a short little minion, carrying platter of food here and there.
+~
+unique~
+0 0 500 S
+1 1d1+2 1d1+43 1d1+0 22
+0 0 0 0
+0 0 0 CDEFGHIJKLMNOPQRSXYZ
+8 8 1 0
+0 0 S 0
+
+#OBJECTS
+#10701
+key~
+a key~
+A small section of the ground here seems to be somewhat distorted.
+~
+adamantite~
+18 AE A
+0 0 0 0 0 
+1 2 23 P
+E
+key~
+This unusually light key has a strange, evil shine to its metal.  
+~
+#10702
+key~
+a key~
+A small section of the ground here seems to be somewhat distorted.
+~
+adamantite~
+18 AE A
+0 0 0 0 0 
+1 2 23 P
+E
+key~
+This unusually light key has a strange, evil shine to its metal.  
+~
+#10703
+bed~
+a beautiful bed~
+A large, elegant bed with silk linnings sits here.
+~
+cloth~
+12 0 0
+0 0 0 0
+0 2000 0 P
+
+#10704
+night gown~
+a night gown~
+A silk, black night gown has been left upon the floor.
+~
+cloth~
+11 C AK
+0 0 0 0 0
+1 9 25 P
+
+#10705
+blouse white~
+a white blouse~
+A silk, white blouse with buttons has been carelessly tossed on the floor
+here.
+~
+cloth~
+11 C AD
+1 0 1 0 0
+1 7 27 P
+
+#10706
+leather pants black~
+some black leather pants~
+A pair of black leather pants have been folded up and put down here.
+~
+leather~
+11 0 AF 
+0 0 0 0 0
+1 3 30 G
+
+#10707
+jug water~
+a jug of water~
+A jug filled with water is here.
+~
+glass~
+17 0 AO
+200 200 0 0 0 
+1 3 40 P
+
+#10708
+bottle wine~
+a bottle of wine~
+A bottle of fine wine stands here.
+~
+glass~
+17 0 AO
+200 200 2 0 0
+1 3 500 P
+
+#10709
+jug lemonade~
+a jug of lemonade~
+A jug of fresh lemonade stands here.
+~
+glass~
+17 0 AO
+200 200 6 0
+1 3 13 P
+
+#10710
+kettle tea~
+a tea kettle~
+A small kettle filled with tea stands here.
+~
+glass~
+17 0 AO
+100 100 11 0
+1 3 13 P
+
+#10711
+cola bottle
+a bottle of cola~
+A 2L coke bottle is here.
+~
+vellum~
+17 0 AO
+100 100 15 0 0 
+1 6 10 P
+
+#10712
+tall glass~
+a tall glass~
+A tall glass stands here.
+~
+glass~
+17 0 AO
+20 0 0 0 
+1 2 12 P
+
+#10713
+tall glass~
+a tall glass~
+A tall glass stands here.
+~
+glass~
+17 0 AO
+20 0 0 0 
+1 2 12 P
+
+#10714
+tall glass~
+a tall glass~
+A tall glass stands here.
+~
+glass~
+17 0 AO
+20 0 0 0 
+1 2 12 P
+
+#10715
+platter gourmet food~
+a platter of gourmet food~
+A tastey-looking platter of gourmet food sits here.
+~
+vellum~
+19 A A
+50 0 0 0 0 
+1 2 35 P
+
+#10716
+platter gourmet food~
+a platter of gourmet food~
+A tastey-looking platter of gourmet food sits here.
+~
+vellum~
+19 A A
+50 0 0 0 0 
+1 2 35 P
+
+#10717
+platter gourmet food~
+a platter of gourmet food~
+A tastey-looking platter of gourmet food sits here.
+~
+vellum~
+19 A A
+50 0 0 0 0 
+1 2 35 P
+
+#10718
+plate spegetti~
+a plate of speggetti~
+A plate full of spegetti and meat balls sits here.
+~
+vellum~
+19 0 A
+50 0 0 0 0
+1 2 35 P
+
+#10719
+plate spegetti~
+a plate of speggetti~
+A plate full of spegetti and meat balls sits here.
+~
+vellum~
+19 0 A
+50 0 0 0 0
+1 2 35 P
+
+#10720
+plate spegetti~
+a plate of speggetti~
+A plate full of spegetti and meat balls sits here.
+~
+vellum~
+19 0 A
+50 0 0 0 0
+1 2 35 P
+
+#10721
+table~
+a table~
+A long, shiny oak table goes from one end to the other of this room.
+~
+wood~
+12 0 0
+0 0 0 0 0 
+1 20000 0 P
+
+#10722
+counter~
+a counter~
+A long line of counters line the wall in this large kitchen.
+~
+wood~
+15 0 0
+3000 14 0 0 0 
+1 0 0 P
+
+#10723
+coat stand~
+a coat stand~
+A coat stand is here if you should wish to remove your coat.
+~
+metal~
+15 0 0
+200 0 0 0 0 
+1 2000 0 P
+
+#10724
+picture~
+a picture~
+A picture of three young women hangs on the wall.
+~
+paper~
+12 AO AB
+0 0 0 0 
+1 7 20000 P
+E
+picture~
+You see a large picture made from papper and a variety of black, yellow,
+orange and red colors.  The picture shows three women standing together,
+they are all quite nasty-looking.  The one in the middle seems familiar,
+she is: Solerena.
+~
+A
+9 200
+A
+11 200
+A
+16 30000
+A
+24 234
+
+#10725
+couch~
+a couch~
+A couch sits here.  It looks very comfortable.
+~
+leather~
+12 0 0
+0 0 0 0 0
+1 2000 0 P
+
+#10726
+talisman power~
+The Talisman of Power~
+The Talisman of Power is here, shining magnificently.
+~
+adamantite~
+9 ABEJ C
+-1 -1 -1 -20 0
+1 6 30000 P
+E
+power talisman~
+This shining talisman has a glint of evil to its metal.  The chain is made
+from a very pure gold, and its base has several varieties of gems incrested
+in it.
+~
+A
+1 20
+A
+2 10
+A
+3 10
+A
+4 10
+A
+5 10
+A
+8 5
+A
+9 200
+
+#10727
+gown evening~
+a black evening gown~
+A black, silk evening gown is laying on the bed.
+~
+cloth~
+9 ABCGJ D
+-50 -50 -50 -40 0
+1 5 78000 P
+E
+gown evening~
+This pitch black evening gown seems very dark, and mysterious.  It even 
+makes you shiver when you look at it.  It might even have been made by the
+Gods themselves.
+~
+A
+20 50
+A
+21 50
+A
+22 50
+A
+23 50
+A
+24 50
+
+#10728
+ice crown~
+Solorena's Crown of Ice~
+Solorena's Crown of Ice sits on the floor.
+~
+silver~
+9 AB E 
+-1 -1 -1 -1 0
+1 10 35000 P
+E
+ice crown~
+This is the great crown of the cold, and the evil.  It's sides are smooth
+and silky, and cold.  Solorena is the bearer of this crown.
+~
+A
+14 2000
+A
+16 2000
+
+#10729
+black stalkings~
+some black stalkings~
+Some black stalkings are here.
+~
+vellum~
+9 0 F
+-1 -1 -1 -1 0
+1 1 20 P
+
+#10730
+black silk gloves
+some arm-long black silk gloves~
+Some black silk arm-long gloves are here.
+~
+cloth~
+9 B I
+0 0 0 0 0
+1 1 20 P
+E
+black silk gloves~
+Some black silk arm-long gloves are here.
+~
+A
+18 13
+A
+19 30
+
+#10731
+dagger blood~
+Solorena's Dagger of Blood~
+A large dagger of obsidian gleams evilly here.
+~
+admantite
+5 ABCEJL AN
+2 20 10 2 ACD
+1 10 50000 P
+E
+dagger blood~
+This is Solorena's dagger.  It was given to her as a gift from the Devil,
+in exchange for the souls of every member of the Circle Clan.  
+~
+#10732
+slippers leather~
+some leather slippers~
+Some leather slippers are here on the floor.
+~
+leather~
+9 ABC AG
+-2 -2 -2 0 0
+1 4 36 P
+E
+leather slippers~
+Some leather slippers are here.  There doesn't seem to be anything really 
+special about them.
+~
+A
+18 10
+
+#ROOMS
+#10701
+Outside the House~
+   You are outside a large house, which looks rather fancy, and 
+quite expensive.  The sky above you seems to turn black, but only above
+the house.  This seems to be the darker, lower part of the Dwarven Valley.
+The trees around the house seem to have died out, as if some aura from
+the house is killing off the life.
+
+The valley continues off to the south, and a tall, black door is to the 
+north at the front of the house.
+~
+XX 0 2
+D0
+A tall, black door.
+door~
+~
+~
+2 10701 10702
+D2
+BLAH BLAH BLAH BLAH BLAH BLAH
+~
+~
+? ? ? ? ? 
+S
+
+#10702
+Main Entrance~
+   This is the main entrance to the house.  To the north is the Foyer,
+to the south is the large, black door leading out in front of the house,
+and to the west is the living room.
+~
+XX 0 0
+D0
+The Foyer.
+foyer~
+~
+~
+0 0 10703
+D3
+The Living Room.
+living room~
+~
+~
+0 0 10706
+D2
+A tall, black door.
+door black~
+~
+~
+2 10701 10701
+S
+
+#10703
+Foyer~
+   This large Foyer seems to be exquisidly decorated and lavish.  You
+can sit and rest here, and take you coat off and put it on the coat stand.
+A tall, blood-red door is to the north, the Dining Hall is to the east, and
+the Main Entrance is to the south.
+~
+XX 0 0 
+D0
+A tall, blood-red door.
+door~
+~
+~
+2 10702 10704
+D2
+The Main Entrance.
+main entrance~
+~
+~
+0 0 10702
+D3
+The Dining Hall.
+dining hall~
+~
+~
+0 0 10705
+S
+
+#10704
+Equipment Room~
+   The stoney square walls of this room are a pure black.  The only thing 
+that lights this room is a bright yellow orb in the center of the room.  
+The tall, blood-red door is still to the south.
+~
+XX 0 0
+D2
+A tall, blood-red door.
+door~
+~
+~
+2 10702 10703
+S
+
+#10705
+Dining Hall~
+   This long hall-like room is lined with torches along the west wall.  A
+has been nicely set with candle lights on a long oak table.  Three long
+windows are along the north wall, going from floor to sealing.  The ceiling
+is two stories high.  You are beginning to feel like a rich person.
+~
+XX 0 0 
+D1
+The Foyer.
+foyer~
+~
+~
+0 0 10703
+D2
+The Living Room.
+living room~
+~
+~
+0 0 10706
+E
+window~
+These impresive two-story high windows have been cleaned so delecately it
+almost looks like they aren't even there.  The windows are shows the view
+of a small garden in back of the house, along with a small pond so clean
+you can see to the bottom.  Further on it expands into a small field which
+ends at the edge of the forest.
+~
+S
+
+#10706
+Living Room~
+   This spacious 50 by 50 foot room is delecately carpeted and furnished.
+To the north is the Dining Hall, where further on you can see three floor
+to ceiling windows showing a small pond and garden.  To the west is the door
+to the bedroom, to the south is the kitchen, and the main entrance is to the
+east.
+~
+XX 0 0 
+D0
+The Dining Hall.
+dining hall~
+~
+~
+0 0 10705
+D3
+A door.
+door~
+~
+~
+1 0 10708
+D2
+The Kitchen.
+kitchen~
+~
+~
+0 0 10707
+D1
+The Main Entrance.
+main entrance~
+~
+~
+0 0 10702
+S
+
+#10707
+Kitchen~
+   Small little minions wearing cook outfits scurry about here carrying 
+plates and bowls of food and ingredients.  Counters line the walls of the
+kitchen containing food and drinks.
+~
+XX 0 0
+D0
+The Living Room.
+room living~
+~
+~
+0 0 10706
+S
+
+#10708
+Bedroom~
+   This room lit by sun light is wall-pappered and has carpeting on the 
+floors.  This is Solorena's personal area of slumber.  The door is to the
+east.
+~
+XX 0 0
+D0 
+A door.
+door~
+~
+~
+1 0 10706
+E
+carpet~
+It is a light red color and is very comfortable under your feet.
+~
+S
+#0
+
+#RESETS
+M 0 10701 1 10702 House Guard, Main Entrance
+M 0 10702 5 10705 Maid, Dining Hall
+M 0 10703 2 10702 Butler, Main Entrance
+M 0 10704 2 10708 Servant, Bedroom
+M 0 10705 1 10703 Trilena, Foyer
+M 0 10706 1 10707 Chef, Kitchen
+M 0 10707 5 10707 Cook, Kitchen
+M 0 10707 5 10707 Cook, Kitchen
+M 0 10707 5 10707 Cook, Kitchen
+M 0 10707 5 10707 Cook, Kitchen
+M 0 10707 5 10707 Cook, Kitchen
+O 0 10701 3 10701 key, Outside
+O 0 10702 3 10703 key, Foyer
+O 0 10703 -1 10708 bed, Bedroom
+O 0 10704 70 10708 nightgown, Bedroom
+O 0 10705 -1 10708 white blouse, Bedroom
+O 0 10706 -1 10708 black pants, Bedroom
+O 0 10721 -1 10707 table, Kitchen
+O 0 10722 -1 10707 counter, Kitchen
+O 0 10723 -1 10703 coat stand, Foyer
+O 0 10724 -1 10702 picture, Main Entrance
+O 0 10725 -1 10706 couch, Living Room
+O 0 10726 -1 10704 talisman, Equipment Room
+O 0 10727 -1 10704 evening gown, Equipment Room
+O 0 10728 -1 10704 ice crown, Equipment Room
+O 0 10729 -1 10704 stalkings, Equipment Room
+O 0 10730 -1 10704 black gloves, Equipment Room
+O 0 10731 -1 10704 blood dagger, Equipment Room
+O 0 10732 -1 10704 slippers, Equipment Room
+P 1 10707 1 10722 water jug, in counter
+P 1 10708 1 10722 wine bottle, in counter
+P 1 10709 1 10722 lemonade jug, in counter
+P 1 10710 1 10722 tea kettle, in counter
+P 1 10711 1 10722 cola bottle, in counter
+P 1 10712 1 10722 tall glass, in counter
+P 1 10713 1 10722 tall glass, in counter
+P 1 10714 1 10722 tall glass, in counter
+P 1 10715 1 10722 gourmet food, in counter                   
+P 1 10716 1 10722 gourmet food, in counter               
+P 1 10717 1 10722 gourmet food, in counter               
+P 1 10718 1 10722 spegetti, in counter
+P 1 10719 1 10722 spegetti, in counter     
+P 1 10720 1 10722 spegetti, in counter     
+D 0 10701 0 2 door locked, outside
+D 0 10702 2 2 door locked, inside, Main Entrance
+D 0 10703 0 2 door locked, outside, Foyer
+D 0 10706 1 1 door open, outside, Living Room
+D 0 10708 3 1 door open, inside, Bedroom
+S
+
+
+--
+For out of prison he comes to reign; whereas also he that is 
+born in his kingdom becomes poor.
+		-Ecclesiastes 4:14
+

@@ -3,8 +3,8 @@ Name Piston~
 SurN Kamel~
 Id   993485838
 Email (null)~
-LogO 1115057775
-Vers 31
+LogO 1362793241
+Vers 33
 LnD  A Gladiator~
 Desc F U
 ~
@@ -19,6 +19,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 9 8 0 0
 Steal 0 0 0
+MSteal 0
 LstK Felance~
 LstKBy Vasily~
 LstAtkedBy no one~
@@ -26,10 +27,16 @@ LstAtkedByTimer 0
 LstCombatDate 1070327866
 LstKillDate 1070327866
 LstDeathDate 1007425674
-LoginsWOKill 12
-LoginsWODeath 173
-LoginsWOCombat 11
+LoginsWOKill 14
+LoginsWODeath 175
+LoginsWOCombat 13
 Bnty 1100
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 1094217 cthon~
 DeityT -4629 cthon~
 Sac  400
@@ -39,42 +46,41 @@ Node 0
 Cap 0
 Created 993485856
 Glad 0 0 0 0 1 0
-LastHost host-65-6-240-190.clt.bellsouth.net~
 Cla  12
 Kit bishop~
 ClaO 1
 Levl 46
 DLevl 0
-Plyd 1438727
-Not  1065620092 1065620092 1065620092 1085150394 1110312209 1065620092 1065620092 1070418307 1065620092 1065620092
+Plyd 1441748
+Not  1065620092 1065620092 1065620092 1085150394 1110312209 1065620092 1065620092 1359874532 1065620092 1065620092
 Scro 22
 Rank 4
-Room 31614
+Room 31601
 HMV  1036 1036 811 811 428 428
-Gold 578
-Silv 5084
-Exp  404995
+Gold 579
+Silv 5166
+Exp  405068
 Act  CDFGHIKS
 MHSF RST
 ClnF I
-AfBy CDEFJTU
+AfBy CJT
 Comm GRS
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet A
 Pos  8
-Prac 26
-Trai 4
-SkiP 347
+Prac 27
+Trai 12
+SkiP 352
 Save  -8
-Alig  -1000
+Alig  -808
 Hit   28
 Dam   37
 SecHit   19
 SecDam   29
-ACs 15 15 15 34
-Attr 23 25 25 25 25 19 13 17
+ACs 35 35 35 54
+Attr 23 25 25 25 25 11 14 17
 AMod 2 0 0 0 0 0 2 0
 Pass PikI.g3IgL01Y~
 Titl .~
@@ -82,7 +88,7 @@ Pnts 100
 TSex 1
 LLev 399
 HMVP 986 820 428
-Cnd  0 2 6 4
+Cnd  0 0 14 0
 Alias x enter chart~
 Alias 1 cast 'cure serious'~
 Alias 8 cast 'blindness'~
@@ -96,7 +102,6 @@ Sk 75 'call lightning'
 Sk 78 'calm'
 Sk 100 'cancellation'
 Sk 1 'change sex'
-Sk 1 'cone of silence'
 Sk 75 'control weather'
 Sk 89 'cure blindness'
 Sk 75 'cure critical'
@@ -223,11 +228,6 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'pass door'   0  46   2   0   0    1048576
-Affc 'shield'   0  41  32 -20  17          0
-Affc 'detect invis'   0  32   2   0   0          8
-Affc 'detect hidden'   0  33   1   0   0         32
-Affc 'detect magic'   0  36   2   0   0         16
 End
 
 #O
@@ -518,15 +518,6 @@ Cost 3000
 End
 
 #O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 5937
 Nest 0
 PrevOwner Piston~
@@ -691,7 +682,7 @@ Enchanted
 Nest 0
 PrevOwner Piston~
 ExtF 67
-Stolen 97
+Stolen 27
 Cond 0
 Wear 16
 Lev  36

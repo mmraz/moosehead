@@ -1,0 +1,1402 @@
+#AREA
+/mud/moosehead/area/satin.are~
+The Moonstone Inn~
+{ Imm } Satin   The Moonstone Inn~
+3800 3886
+
+#MOBILES
+#3800
+gabriel archangelo innkeeper~
+Gabriel~
+Gabriel Archangelo the Innkeeper waits here to serve you.
+~
+A middle-aged elven gentleman, his dark hair touched by gray at
+the temples, beams a professional smile at you, practiced
+courtesy and affection in his eyes.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABUVe C 0 0
+1 1 1d1+9999 1d1+99 2d2+2 scratch
+-300 -300 -300 -300
+H ABCD 0 0
+stand stand female 50000
+G 0 medium A
+#3801
+charles bartender~
+Charles the bartender~
+Charles the bartender smiles pleasantly and waits for your order.
+~
+A retired human warrior, yet enough to keep the Moonstone Inn
+from needing bouncers.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABV C 666 0
+1 1 1d1+9999 1d1+99 2d2+2 scratch
+-300 -300 -300 -300
+H ABCD 0 0
+stand stand female 50000
+G 0 medium A
+#3802
+Danielle barmaid~
+Danielle the barmaid~
+Danielle the barmaid smiles invitingly at you and waits for your
+dinner order.
+~
+This buxom woman seems to lack for tips not at all.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABUV C 0 0
+1 1 1d1+9999 1d1+99 2d2+2 scratch
+-300 -300 -300 -300
+H ABCD 0 0
+stand stand female 50000
+G 0 medium A
+#0
+
+#OBJECTS
+#3800
+glass wine~
+a glass of wine~
+A glass of wine from the Moonstone Inn sits here.~
+glass~
+drink I AO
+6 6 'red wine' 0 0
+0 10 13 P
+#3801
+pint ale~
+a pint of dark ale~
+A pint of dark ale from the Moonstone Inn sits here.~
+glass~
+drink I AO
+16 16 'dark ale' 0 0
+0 10 7 P
+#3802
+shot slime mold juice~
+a shot of slime mold juice~
+A shot of slime mold juice from the Moonstone Inn sits here.~
+slime~
+drink I AO
+8 8 'slime mold juice' 0 0
+0 10 3 P
+#3803
+glass lemonade~
+a glass of lemonade~
+A glass of lemonade from the Moonstone Inn sits here.~
+glass~
+drink I AO
+12 12 'lemonade' 0 0
+0 10 4 P
+#3804
+mead glass~
+a glass of mead~
+A glass of mead from the Moonstone Inn sits here.~
+glass~
+drink I AO
+16 16 'mead' 0 0
+0 10 3 P
+#3805
+blackberry wine glass~
+a glass of blackberry wine~
+A glass of blackberry wine from the Moonstone Inn sits here.~
+glass~
+drink I AO
+6 6 'red wine' 0 0
+0 10 24 P
+#3806
+elven wine glass~
+a glass of elven wine~
+A glass of elven wine from the Moonstone Inn sits here.~
+glass~
+drink I AO
+6 6 'red wine' 0 0
+0 10 100 P
+#3807
+fish chips~
+a plate of fish and chips~
+A plate of fish and chips from the Moonstone Inn steams here.~
+fish~
+food I A
+8 8 0 0 0
+0 10 10 P
+#3808
+roast beef potatoes~
+a plate of roast beef and potatoes~
+A plate of roast beef and potatoes from the Moonstone Inn steams
+here.~
+beef~
+food I A
+8 8 0 0 0
+0 10 23 P
+#3809
+shepherd's pie~
+a plate of shepherd's pie~
+A plate of shepherd's pie from the Moonstone Inn steams here.~
+potatoe~
+food I A
+8 8 0 0 0
+0 10 14 P
+#3810
+bowl chili~
+a bowl of chili~
+A bowl of chili from the Moonstone Inn steams here.~
+chili~
+food I A
+8 8 0 0 0
+0 10 12 P
+#3811
+meat pie~
+a meat pie~
+A meat pie sits here, looking rather crusty and meaty.~
+meat~
+food I A
+24 24 0 0 0
+0 10 18 P
+#3812
+pallet bed~
+a pallet~
+~
+wood~
+furniture I 0
+12 50 BEHKN 125 125
+0 0 0 P
+E
+pallets beds bedding~
+They look comfortable, if spartan.
+~
+#3813
+chairs table oak~
+a heavy oak table~
+~
+oak~
+furniture I 0
+12 50 BDGN 110 110
+0 0 0 P
+E
+tables round~
+Each table has only two chairs, although you could rearrange
+things such that about a dozen people could seat themselves
+anywhere in the room.  Each table is made of solid oak, is
+polished to a shine, and looks very heavy.
+~
+#3814
+oak stools bar~
+the bar~
+~
+wood~
+furniture I 0
+6 100 BDN 110 110
+0 0 0 P
+E
+bar oak polished~
+A half dozen comfortable stools, topped with black leather
+cushions, stand next to the spotless oak bar.
+~
+#3815
+liquor cabinet~
+a liquor cabinet~
+~
+wood~
+container I 0
+50 AC 0 10 100
+0 0 0 P
+E
+cabinet liquor~
+This cabinet possesses the marvellous magical ability to maintain
+exactly the temperature that the object was when placed inside. 
+Hence the ice is frozen, but the red wine is room temperature.
+~
+#3816
+bottle wine red~
+a bottle of red wine~
+A bottle of a pleasant red wine stands here.~
+glass~
+drink I AO
+100 100 'red wine' 0 0
+0 10 0 P
+#3817
+decanter whisky~
+a decanter of whisky~
+A cut-crystal whisky decanter stands here.~
+silver~
+drink I AO
+100 100 'whisky' 0 0
+0 10 0 P
+#3818
+pot coffee silver~
+a silver coffeepot~
+A sterling silver coffeepot steams here.~
+silver~
+drink I AO
+100 100 'coffee' 0 0
+0 10 0 P
+#3819
+black leather couch~
+a black leather couch~
+~
+leather~
+furniture I 0
+2 100 BELN 110 110
+0 0 0 P
+E
+black leather couch~
+The couch looks extremely comfortable, covered in a buttery soft
+black leather.
+~
+#3820
+black leather chairs oak table~
+a polished oak table~
+~
+oak~
+furniture I 0
+12 100 BEN 50 50
+0 0 0 P
+E
+fine oak table~
+Though the surface reveals nothing, you suspect this table must
+have been present at many late night meeting to determine Thera-
+shaking events.
+~
+E
+dozen large black leather chairs~
+They look perfectly comfortable and don't squeak a bit.
+~
+#3821
+blue white striped couch~
+a blue and white striped couch~
+~
+cloth~
+furniture I 0
+6 100 BELN 110 110
+0 0 0 P
+E
+claw footed blue white striped couch~
+Plump white cushions are strewn carelessly across each couch,
+inviting you to come sit, and even dare to put your feet up on
+the flawless shine of the coffee tables.
+~
+#3822
+rosewood coffee table~
+a rosewood coffee table~
+A rosewood coffee table is here.~
+rosewood~
+furniture I 0
+0 100 BEN 50 50
+0 0 0 P
+E
+rosewood coffee table~
+It is a simply carved block of wood with delicate claw legs that
+seem hardly enough to support its own weight.
+~
+#3823
+some ice~
+some ice~
+Some ice melts here in a puddle.~
+water~
+food I AO
+2 2 0 0 0
+0 10 0 P
+#3824
+bowl ice~
+a bowl of ice~
+A slippery wet bowl of ice sits here.~
+water~
+container I AO
+10 0 0 2 100
+0 10 0 P
+#3825
+desk rosewood~
+a rosewood desk~
+~
+rosewood~
+furniture I 0
+1 100 ADGJN 110 110
+0 0 0 P
+E
+desk rosewood~
+It is a huge and impeccably maintained edifice with no visible
+drawers or other openings.  It may even be a block of solid wood.
+~
+#3826
+wooden bench~
+a wooden bench~
+~
+wood~
+furniture I 0
+4 100 ADGJN 100 100
+0 0 0 P
+E
+benches wooden~
+They are of polished oak and surprisingly comfortable for their
+firmness.
+~
+#3827
+four poster bed~
+a four poster bed~
+~
+wood~
+furniture I 0
+4 50 BEHKN 125 100
+0 0 0 P
+E
+white silk sheets huge fluffy pillows~
+You long to lie down and bury yourself in them.
+~
+E
+four poster bed~
+The wood is polished to a gleam and the ensemble looks very
+comfortable.
+~
+#3828
+claw footed bathtub bath tub~
+a claw-footed bathtub tucked in an alcove~
+~
+porcelain~
+furniture I 0
+0 0 0 0 0
+0 0 0 P
+E
+claw footed bath tub bathtub~
+There is a rack of assorted bath materials on the far side of the
+tub, including bath oil, bubble bath, bath beads, bath salts, a
+loofah sponge, bath powder and a puff, and huge fluffy towels.
+~
+#3829
+ice bucket~
+an ice bucket~
+~
+silver~
+container I 0
+2 0 0 2 100
+0 0 0 P
+E
+ice bucket~
+You surmise that this has been placed into the room recently,
+since the ice has barely melted so far.
+~
+#3830
+bottle elven wine~
+a bottle of elven wine~
+A nicely chilled bottle of elven wine stands here.~
+glass~
+drink I AO
+100 100 'elvish wine' 0 0
+0 10 0 P
+#3831
+bed~
+a large comfortable bed~
+~
+wood~
+furniture I 0
+4 50 BEHKN 100 100
+0 0 0 P
+E
+sumptuously appointed bed~
+The sheets are of a deep green cotton, and the bedspread bears an
+embroidered depiction of a black dragon.
+~
+#3832
+marble topped desk~
+a marble topped desk~
+~
+marble~
+furniture I 0
+1 100 ADGJN 1 200
+0 0 0 P
+E
+marble topped desk~
+This desk looks like it would be eminently suited to studying at,
+if not terribly comfortable.
+~
+#3833
+glass topped coffee table~
+a glass topped coffee table~
+~
+glass~
+furniture I 0
+0 100 BEN 50 50
+0 0 0 P
+E
+glass topped coffee table~
+The glass is delicately tinted blue to match the rest of the
+room, and the legs are a stained black wood of indeterminate
+nature.
+~
+#3834
+bed~
+a large comfortable bed~
+~
+wood~
+furniture I 0
+4 50 BEHKN 125 150
+0 0 0 P
+E
+bed~
+The sheets and comforters are a plain blue silk with the
+bedspread, pillowcases and bolsters trimmed delicately with
+eyelet.  You can barely resist the desire to climb in for a nap
+or some other purpose.
+~
+#3835
+blue velvet couch~
+a blue velvet couch~
+~
+velvet~
+furniture I 0
+6 100 BELN 110 110
+0 0 0 P
+E
+blue velvet couch~
+The claw legs are of a deep reddish wood, polished to a dull
+gleam in the ambient light.  The velvet itself is slightly darker
+than the shade of a robin's egg.
+~
+#3836
+bed~
+a large comfortable bed~
+~
+wood~
+furniture I 0
+4 50 BEHKN 125 150
+0 0 0 P
+E
+bed comforter plum design~
+The design worked onto the bed is a curious double helix, the
+likes of which you've never seen before.
+~
+#3837
+bed~
+a large comfortable bed~
+~
+wood~
+furniture I 0
+4 50 BEHKN 150 150
+0 0 0 P
+E
+large comfortable bed~
+The bedspread bears the same strange pattern as the rug, and is
+equally incomprehensible, but looks extremely comfortable
+nonetheless.
+~
+#3838
+large sunken bath~
+a sunken bath~
+~
+porcelain~
+furniture I 0
+2 0 FI 200 200
+0 0 0 P
+E
+large sunken bath~
+There is a rack of assorted bath materials on the far side of the
+bath, including bath oil, bubble bath, bath beads, bath salts, a
+loofah sponge, bath powder and a puff, and huge fluffy towels.
+~
+#3839
+couch~
+a peacock velvet couch~
+~
+velvet~
+furniture I 0
+6 100 BELN 110 110
+0 0 0 P
+E
+couch~
+The cushioned couch is painted a peacock blue and almost black
+purple.
+~
+#3840
+bed~
+a large satin-covered bed~
+~
+satin~
+furniture I 0
+4 50 BEHKN 150 150
+0 0 0 P
+E
+large satin-covered bed~
+The sheets are of a deep blue satin, with deep purple comforters. 
+The four posts are painted in blue and purple to match the couch.
+~
+#3860
+key private room one~
+a key to private room One~
+A key stamped `PR1` lies here.~
+gold~
+key CI AO
+0 0 0 0 0
+0 0 0 P
+#3861
+key private room two~
+a key to private room Two~
+A key stamped `PR2` lies here.~
+gold~
+key CI AO
+0 0 0 0 0
+0 0 0 P
+#3862
+key chamber one~
+a key to bedchamber One~
+A key stamped `BC1` lies here.~
+gold~
+key CI AO
+0 0 0 0 0
+0 0 0 P
+#3863
+key chamber two~
+a key to bedchamber Two~
+A key stamped `BC2` lies here.~
+gold~
+key CI AO
+0 0 0 0 0
+0 0 0 P
+#3864
+key chamber three~
+a key to bedchamber Three~
+A key stamped `BC3` lies here.~
+gold~
+key CI AO
+0 0 0 0 0
+0 0 0 P
+#3865
+key chamber four~
+a key to bedchamber Four~
+A key stamped `BC4` lies here.~
+gold~
+key CI AO
+0 0 0 0 0
+0 0 0 P
+#3866
+key chamber five~
+a key to bedchamber Five~
+A key stamped `BC5` lies here.~
+gold~
+key CI AO
+0 0 0 0 0
+0 0 0 P
+#3867
+key chamber six~
+a key to bedchamber Six~
+A key stamped `BC6` lies here.~
+gold~
+key CI AO
+0 0 0 0 0
+0 0 0 P
+#3868
+sigil warding~
+a warding sigil~
+A protective rune glows here.~
+stone~
+gem CI AB
+0 0 0 0 0
+0 10 0 P
+#3870
+vanity~
+a rosewood vanity~
+~
+rosewood~
+container I 0
+1000 A 0 1000 100
+0 0 0 P
+#3871
+icebox~
+an icebox~
+~
+steel~
+container I 0
+1000 A 0 100 100
+0 0 0 P
+#3872
+closet~
+a closet~
+~
+wood~
+container I 0
+1000 A 0 1000 100
+0 0 0 P
+#3873
+bath tub bathtub claw footed~
+a claw-footed bathtub~
+A claw-footed bathtub overflows with bubbles here.~
+porcelain~
+furniture I 0
+255 0 BCFGH 100 100
+0 0 0 P
+#3874
+whipped cream~
+some whipped cream~
+A dollop of whipped cream is here.~
+cream~
+food I A
+50 50 0 0 0
+0 10 0 P
+#3875
+massage oil~
+a bottle of massage oil~
+A bottle of Kama Sutra massage oil is here.~
+glass~
+food I A
+50 50 0 0 0
+0 10 0 P
+#3876
+straw berry strawberry~
+a strawberry~
+A strawberry lies here.~
+organic~
+food I A
+50 50 0 0 0
+0 10 0 P
+#3877
+white lace bra~
+a white lace bra~
+A lacy white bra waits to hug some curves.~
+lace~
+clothing I AD
+0 0 0 0 0
+0 10 0 P
+#3878
+white lace panties~
+a pair of white lace panties~
+A pair of teeny white lace panties lie here.~
+lace~
+clothing I AF
+0 0 0 0 0
+0 10 0 P
+#3879
+white lace garter belt~
+a white lace garter belt~
+A white lace garter belt hangs here.~
+lace~
+clothing I AL
+0 0 0 0 0
+0 10 0 P
+#3880
+black linen skirt~
+a black linen skirt~
+A black linen skirt lies here.~
+linen~
+clothing I AF
+0 0 0 0 0
+0 10 0 P
+#3881
+white cotton shirt~
+a white cotton shirt~
+A white cotton shirt waits to hug some curves.~
+cotton~
+clothing I AD
+0 0 0 0 0
+0 10 0 P
+#3882
+black terrycloth bathrobe robe~
+a black terrycloth bathrobe~
+A black terrycloth bathrobe hangs here on a hook.~
+terrycloth~
+clothing I AK
+0 0 0 0 0
+0 10 0 P
+#3883
+cherry~
+a cherry~
+A cherry lies here.~
+organic~
+food I A
+50 50 0 0 0
+0 10 0 P
+#3884
+pitcher lemonade~
+a pitcher~
+~
+crystal~
+fountain 0 0
+0 0 'lemonade' 0 0
+0 0 0 G
+E
+lemonade pitcher~
+This fine crystal pitcher must be magically cooled, because even in this
+warm room, the glass doesn't unfrost.
+~
+#3885
+glass~
+a glass~
+A glass from the Moonstone Inn sits here.~
+glass~
+drink I AO
+12 12 'lemonade' 0 0
+0 10 4 P
+#3886
+white whicker couch~
+a white whicker couch~
+~
+whicker~
+furniture I 0
+2 100 BELN 110 110
+0 0 0 P
+E
+white whicker couch~
+It looks like it would be a bit stiff, but for the rose velvet cushions.
+Looking about you, though, you realize that in a place like this, it's
+going to be comfortable, and you've no choice but to try it out.
+~
+#0
+
+#ROOMS
+#3800
+The Moonstone Inn~
+You have come into a small but comfortably appointed reception
+room; torches flaring on the walls illuminate the polished wooden
+bench on each wall, the ornately carved coatrack, the smoothness
+of the slate that tiles the floor, and the enormous rosewood desk
+just ahead of you.  The smoke from the flames spirals up, caught
+by an air current, along a flight of circular stairs that
+doubtless lead to the private guest rooms.  To the side of the
+manager's desk is a door marked simply 'Common Room' and to the
+east is an entranceway to a smoky, hazy barroom.
+~
+0 DK 1
+D0
+Exit ~
+~
+16384 -1 3802
+D1
+Exit ~
+~
+16384 -1 3801
+D4
+Exit ~
+~
+16384 -1 3808
+E
+ornately coatrack~
+The delicate tendrils that extend out as coathooks seem too
+pretty and too fragile to possibly be put to any such mundane use
+as bearing a cloak or a coat.  However, it must be the case,
+given that a bear pelt of about sixty pounds weight is hanging
+lightly off of one.
+~
+E
+slate tiles floor~
+The floor is impeccably clean and tiled in a dull deep gray
+slate.
+~
+E
+torches~
+They light the entryway, and if you get too close, they blind you
+with first smoke and then flames.
+~
+E
+stairs spiral~
+The stairs are completely free from dirt, even if you scuff your
+dirty boots across them.  Their highly gleaming oaken surface is,
+you suspect, protected by magic -- which imbues in you a suddenly
+greater respect and touch of fear toward Archangelo.
+~
+S
+#3801
+The Moonstone Inn Bar~
+A long walnut bar, shining with years of careful maintenance,
+stands along the eastern wall.  Above it hang racks of glasses of
+all sizes for all drinks imaginable, and behind it stand bottles
+containing the means to formulate such drinks.
+
+Around the room stand about a half dozen small round oak tables,
+all etched with use but kept carefully clean.  The air is heavy
+with smoke both from burning tobacco and from the fireplace, near
+which are a pair of comfortable looking black leather chairs.
+~
+0 DK 1
+D0
+Exit ~
+~
+16384 -1 3803
+D3
+Exit ~
+~
+16384 -1 3800
+E
+tobacco burning~
+It smells expensive, probably a halfling pipeweed blend.
+~
+E
+glasses racks~
+There are glasses of every sort for every kind of drink you could
+possibly imagine hanging there, plus some shapes that don't lend
+themselves to anything you can think of.
+~
+E
+fireplace~
+The fireplace is composed of heavy dark stone -- dark either
+naturally, or through scorching, you are uncertain.
+~
+E
+black leather chairs~
+They look well-worn, well-used, and to be owned by a man and a
+woman of the most singularly frightening countenance you have
+ever experienced.  They chuckle richly to each other at your
+approach, and you back away.
+~
+S
+#3802
+The Moonstone Inn Common Room~
+A dozen cotton-sheeted pallets and their extra blankets stacked
+in a corner largely fill this room.  There are a set of huge
+double doors halfway through the room that could evidently be
+used to cut the chamber in half, though they are solidly propped
+open at present, and beyond them you can see more beds.
+~
+0 DK 1
+D0
+Exit ~
+~
+16384 -1 3805
+D2
+Exit ~
+~
+16384 -1 3800
+E
+doors double~
+They are of a solid oak, and you don't think you alone could budge them
+to close them.
+~
+S
+#3803
+The Moonstone Bar~
+A half dozen or so largish tables populate this room, one bearing
+the remains of someone's dinner on it.  Your own stomach rumbles
+at the thought and you look to the barmaid, wondering what
+foodstuffs might be avaliable.
+~
+0 DK 1
+D0
+Exit ~
+~
+16391 3860 3806
+D1
+Exit ~
+~
+16391 3861 3804
+D2
+Exit ~
+~
+16384 -1 3801
+D3
+Exit ~
+~
+16384 -1 3802
+E
+remains dinner~
+It looks like they had the fish and chips and enjoyed it a great
+deal.
+~
+E
+largish tables~
+You estimate about a dozen people could comfortably seat
+themselves in this room.
+~
+S
+#3804
+Private room Two in the Moonstone Inn~
+A pair of lamps with hand-blown green glass shades light this
+elegantly but simply appointed room.  A table of fine oak stands
+perfectly in the centre, with a dozen large black leather chairs
+placed symmetrically around it.  Off to the side, though, is a
+matched black leather couch, should you prefer a less
+businesslike encounter.  A liquor cabinet stands discreetly in
+the northmost corner.
+~
+0 DJK 1
+D3
+Exit ~
+~
+16391 3861 3803
+E
+lamps hand-blown green glass shades~
+As you examine them, you realize that they aren't blown from
+glass as such, but from some crystal that must have been heated
+to an unimaginable temperature to have achieved such plasticity.
+~
+S
+#3805
+The Moonstone Inn Common Room~
+Beds and blankets fill this section of the common room as well,
+with two closed doors visible on the north wall.  You estimate
+about a dozen people could occupy this section of the common room
+in comparative comfort, and observe that the innkeeper keeps his
+place surprisingly clean.
+~
+0 D 1
+D1
+Exit ~
+~
+16391 3860 3806
+D2
+Exit ~
+~
+16384 -1 3802
+E
+two doors closed north n wall~
+They seem to be changing rooms where you could discreetly remove
+your armor and put on some nightwear.  However, as you approach
+the doors, you hear muffled moaning and giggling sounds, and
+discover that the door is locked.  Perhaps you won't be changing
+in there any time soon.
+~
+S
+#3806
+Private room One in the Moonstone Inn~
+Three claw-footed blue-and-white striped couch stands flush to
+three of the walls, and a burnished rosewood coffee table stands
+before each.  The room is well-lit by an indeterminate source,
+but you have the sense of open air and sunlight coming from the
+northern window.  A liquor cabinet stands discreetly in the
+corner.
+~
+0 DJK 1
+D2
+Exit ~
+~
+16391 3860 3803
+D3
+Exit ~
+~
+16391 3860 3805
+E
+northern window~
+Lacy white curtains billow slightly from the glass, through which
+you glimpse a brilliant yellow sun rising over stark black
+mountains.  As you move to try to open the window to see better,
+you realize it is firmly sealed, and that the 'glass' is perhaps
+not glass at all, but something beyond your means to shatter.
+~
+S
+#3807
+The Moonstone Inn's Room Number One~
+The ceiling of this room is high and vaulted, with the walls
+painted a delicate eggshell and trimmed in white.  A four poster
+bed with white silk sheets and huge fluffy pillows is to your
+left; ahead of you a claw-footed bathtub is tucked into an
+alcove, a covered ice bucket standing next to it.
+~
+0 DJK 0
+D1
+Exit ~
+~
+16391 3862 3808
+E
+ceiling~
+You estimate it to be about a fifteen foot arch.
+~
+S
+#3808
+The Moonstone Inn Second Floor Hallway~
+Green glass globes flicker from the walls, illuminating the dark
+glossy panelling and the smooth slate floor.  To the east, you
+see the door to room Two; to the west the door to room One.
+~
+0 DK 0
+D0
+Exit ~
+~
+16384 -1 3811
+D1
+Exit ~
+~
+16391 3863 3809
+D3
+Exit ~
+~
+16391 3862 3807
+D5
+Exit ~
+~
+16384 -1 3800
+E
+dark glossy panelling~
+You surmise that it is either walnut or a deeply stained oak.
+~
+E
+green glass globes~
+They seem to be of a superheated crystal that has been blown into
+a globe, with a mysterious light source imprisoned inside.  As
+you examine them longer, you notice that the light flitters
+imperceptibly about.
+~
+E
+slate tiles floor~
+The floor is impeccably clean and tiled in a dull deep gray
+slate.
+~
+E
+stairs spiral~
+The stairs are completely free from dirt, even if you scuff your
+dirty boots across them.  Their highly gleaming oaken surface is,
+you suspect, protected by magic -- which imbues in you a suddenly
+greater respect and touch of fear toward Archangelo.
+~
+S
+#3809
+The Moonstone Inn's Room Number Two~
+You step down dark green marble stairs into a sunken living room
+area, noting a luxuriously appointed bed on your right side, and
+a matched marble-topped desk to your right side.  Heavy black
+velvet curtains flank a window which looks down onto the street.
+~
+0 DJK 0
+D3
+Exit ~
+~
+16391 3863 3808
+E
+window street~
+You notice a knight getting his pocket picked.
+~
+E
+heavy black velvet curtains~
+They are of a deep soft richness that makes you want to stroke
+them like they were a cat.
+~
+E
+dark green marble stairs~
+They are veined with black and have recently been buffed to a
+blinding glare.
+~
+S
+#3810
+The Moonstone Inn's Room Number Three~
+You step lightly onto a plush royal blue carpet, your feet
+leaving no marks as you enter the room.  The walls are a pale
+blue with white trim, and the couch to your left is is a slightly
+darker shade of blue velvet.  A small glass-topped coffee table
+stands next to the couch.  Off ahead of you is a bed done up in
+blue silk with white eyelet lace.
+~
+0 DJK 0
+D1
+Exit ~
+~
+16391 3864 3811
+E
+plush royal blue carpet~
+You surmise that the carpet must be magically protected from
+dirtying.
+~
+S
+#3811
+The Moonstone Inn Second Floor Hallway~
+Green glass globes flicker from the walls, illuminating the dark
+glossy panelling and the smooth slate floor.  To the east, you
+see the door to room Four; to the west the door to room Three.
+~
+0 DJ 0
+D0
+Exit ~
+~
+16384 -1 3814
+D1
+Exit ~
+~
+16391 3865 3812
+D2
+Exit ~
+~
+16384 -1 3808
+D3
+Exit ~
+~
+16391 3864 3810
+E
+dark glossy panelling~
+You surmise that it is either walnut or a deeply stained oak.
+~
+E
+green glass globes~
+They seem to be of a superheated crystal that has been blown into
+a globe, with a mysterious light source imprisoned inside.  As
+you examine them longer, you notice that the light flitters
+imperceptibly about.
+~
+E
+slate tiles floor~
+The floor is impeccably clean and tiled in a dull deep gray
+slate.
+~
+S
+#3812
+The Moonstone Inn's Room Number Four~
+The walls are a cream-and-gold pinstripe, and the bed bears a
+cream cotton comforter with a design worked in it in plum silk
+thread.  Cream cotton curtains flutter gently at the two tall
+windows through which sunlight mysteriously ambiently lights the
+whole room.
+~
+0 DJK 0
+D3
+Exit ~
+~
+16391 3865 3811
+E
+windows sunlight~
+As you examine closer, you realize that the windows are actually
+a cleverly-constructed set of crystals designed to trap and
+refocus the light so as to perfectly illuminate the room.
+~
+E
+cotton curtains~
+They blow slightly in the draft from the windows.
+~
+E
+walls cream-and-gold~
+The meticulousness in the ordering of the pinstriping suggests
+that either magic or inordinate skill was employed by the
+painter.
+~
+S
+#3813
+The Moonstone Inn's Room Number Five~
+A thick rug, woven in an abstract pattern of blues and reds,
+covers most of the floor.  Blond wood panelling has been set over
+stone walls, and candles burn at all four corners of the room
+with adequate brilliance to light the area fully.  An enormous
+sunken bath, perhaps as much as seven feet long and four feet
+wide, occupies all that the carpet does not, and a comfortable
+looking bed takes up another quarter of the room.
+~
+0 DJK 0
+D1
+Exit ~
+~
+16391 3866 3814
+E
+candles~
+They are of a sweet-smelling beeswax.
+~
+E
+blond wood panelling~
+Each panel is elegantly decorated, some with carving, others with
+black inlay work.
+~
+E
+thick rug pattern blue red~
+As you examine it, the pattern seems to resolve into something
+intelligible, but just before you manage to determine what, the
+knowledge slips from you again.
+~
+S
+#3814
+The Moonstone Inn Second Floor Hallway~
+Green glass globes flicker from the walls, illuminating the dark
+glossy panelling and the smooth slate floor.  To the east, you
+see the door to room Six; to the west the door to room Five.
+~
+0 DJK 0
+D1
+Exit ~
+~
+16391 3867 3815
+D2
+Exit ~
+~
+16384 -1 3811
+D3
+Exit ~
+~
+16391 3866 3813
+D4
+Exit ~
+~
+16391 3868 3816
+E
+dark glossy panelling~
+You surmise that it is either walnut or a deeply stained oak.
+~
+E
+green glass globes~
+They seem to be of a superheated crystal that has been blown into
+a globe, with a mysterious light source imprisoned inside.  As
+you examine them longer, you notice that the light flitters
+imperceptibly about.
+~
+E
+slate tiles floor~
+The floor is impeccably clean and tiled in a dull deep gray
+slate.
+~
+S
+#3815
+The Moonstone Inn's Room Number Six~
+The walls are decorated with an ornate profusion of peacock
+feathers, some in a crystal vase on the dark mahogany coffee
+table, others displayed in rich fans over the stone walls, still
+others arranged in a canopy over the large, deep, satin-covered
+bed, or merely suggested in the colours of the rugs on the floor
+or the couch by the coffee table.
+~
+0 DJK 0
+D3
+Exit ~
+~
+16391 3867 3814
+E
+floor rugs~
+The floor is covered with rugs woven with peacock patterns.
+~
+S
+#3816
+A room in the Moonstone Inn~
+Satin tells you to fuck off, she's not done this room desc yet,
+and what the hell are you doing in here anyhow? 
+FuckfuckfuckfuckfuckfuckfuckYOU, sir, and put your damn briefs on
+it you don't like seeing it.
+~
+0 DJNP 0
+O immortal~
+D0
+Exit ~
+~
+16384 -1 3817
+D5
+Exit ~
+~
+16391 3848 3815
+S
+#3817
+A bathchamber in the Moonstone Inn~
+The room steams from the heat rising from the bathtub, damping
+everything the air contacts.  Surely the vanity, the humming
+icebox and the closet are protected from this, however, for their
+contents seem quite dry.  An ice-cold pitcher of lemonade sits 
+within easy reach of a white wicker couch.
+~
+0 DJNP 0
+D2
+Exit ~
+~
+16384 -1 3816
+S
+#0
+
+#RESETS
+M 0 3800   1 3800  1	* Gabriel
+M 0 3801   1 3801  1	* Charles the bartender
+G 1 3800  -1     	*   a glass of wine
+G 1 3801  -1     	*   a pint of dark ale
+G 1 3802  -1     	*   a shot of slime mold juice
+G 1 3803  -1     	*   a glass of lemonade
+G 1 3804  -1     	*   a glass of mead
+G 1 3805  -1     	*   a glass of blackberry wine
+G 1 3806  -1     	*   a glass of elven wine
+M 0 3802   1 3803  1	* Danielle the barmaid
+G 1 3807  -1     	*   a plate of fish and chips
+G 1 3808  -1     	*   a plate of roast beef and potatoes
+G 1 3809  -1     	*   a plate of shepherd's pie
+G 1 3810  -1     	*   a bowl of chili
+G 1 3811  -1     	*   a meat pie
+O 0 3812  -1 3802	* a pallet
+O 0 3812  -1 3805	* a pallet
+O 0 3813  -1 3801	* a heavy oak table
+O 0 3813  -1 3803	* a heavy oak table
+O 0 3814  -1 3801	* the bar
+O 0 3815  -1 3804	* a liquor cabinet
+P 1 3816  -1 3815  1	*   a bottle of red wine
+P 1 3817  -1 3815  1	*   a decanter of whisky
+P 1 3818  -1 3815  1	*   a silver coffeepot
+P 1 3824  -1 3815  1	*   a bowl of ice
+P 1 3823  -1 3824 10	*   some ice
+O 0 3815  -1 3806	* a liquor cabinet
+P 1 3816  -1 3815  1	*   a bottle of red wine
+P 1 3817  -1 3815  1	*   a decanter of whisky
+P 1 3818  -1 3815  1	*   a silver coffeepot
+P 1 3824  -1 3815  1	*   a bowl of ice
+P 1 3823  -1 3824 10	*   some ice
+O 0 3819  -1 3804	* a black leather couch
+O 0 3820  -1 3804	* a polished oak table
+O 0 3821  -1 3806	* a blue and white striped couch
+O 0 3822  -1 3806	* a rosewood coffee table
+O 0 3825  -1 3800	* a rosewood desk
+O 0 3826  -1 3800	* a wooden bench
+O 0 3827  -1 3807	* a four poster bed
+O 0 3828  -1 3807	* a claw-footed bathtub tucked in an alcove
+O 0 3829  -1 3807	* an ice bucket
+O 0 3830  -1 3807	* a bottle of elven wine
+O 0 3831  -1 3809	* a large comfortable bed
+O 0 3832  -1 3809	* a marble topped desk
+O 0 3833  -1 3810	* a glass topped coffee table
+O 0 3834  -1 3810	* a large comfortable bed
+O 0 3835  -1 3810	* a blue velvet couch
+O 0 3836  -1 3812	* a large comfortable bed
+O 0 3837  -1 3813	* a large comfortable bed
+O 0 3838  -1 3813	* a sunken bath
+O 0 3839  -1 3815	* a peacock velvet couch
+O 0 3840  -1 3815	* a large satin-covered bed
+O 0 3870  -1 3817	* a rosewood vanity
+O 0 3871  -1 3817	* an icebox
+O 0 3884  -1 3817	* a pitcher
+P 1 3874  -1 3871  1	*   some whipped cream
+P 1 3875  -1 3871  1	*   a bottle of massage oil
+P 1 3876  -1 3871  5	*   a strawberry
+P 1 3883  -1 3871  2	*   a cherry
+O 0 3872  -1 3817	* a closet
+P 1 3877  -1 3872  1	*   a white lace bra
+P 1 3878  -1 3872  1	*   a pair of white lace panties
+P 1 3879  -1 3872  1	*   a white lace garter belt
+P 1 3880  -1 3872  1	*   a black linen skirt
+P 1 3881  -1 3872  1	*   a white cotton shirt
+P 1 3882  -1 3872  1	*   a black terrycloth bathrobe
+P 1 3885  -1 3872  4	*   a glass
+O 0 3873  -1 3817	* a claw-footed bathtub
+O 0 3886  -1 3817	* a white whicker couch
+D 0 3800   0 16384	* The Moonstone Inn north
+D 0 3800   1 16384	* The Moonstone Inn east
+D 0 3800   4 16384	* The Moonstone Inn up
+D 0 3801   0 16384	* The Moonstone Inn Bar north
+D 0 3801   3 16384	* The Moonstone Inn Bar west
+D 0 3802   0 16384	* The Moonstone Inn Common Room north
+D 0 3802   2 16384	* The Moonstone Inn Common Room south
+D 0 3803   0 16391	* The Moonstone Bar north
+D 0 3803   1 16391	* The Moonstone Bar east
+D 0 3803   2 16384	* The Moonstone Bar south
+D 0 3803   3 16384	* The Moonstone Bar west
+D 0 3804   3 16391	* Private room Two in the Moonstone Inn west
+D 0 3805   1 16391	* The Moonstone Inn Common Room east
+D 0 3805   2 16384	* The Moonstone Inn Common Room south
+D 0 3806   2 16391	* Private room One in the Moonstone Inn south
+D 0 3806   3 16391	* Private room One in the Moonstone Inn west
+D 0 3807   1 16391	* The Moonstone Inn's Room Number One east
+D 0 3808   0 16384	* The Moonstone Inn Second Floor Hallway north
+D 0 3808   1 16391	* The Moonstone Inn Second Floor Hallway east
+D 0 3808   3 16391	* The Moonstone Inn Second Floor Hallway west
+D 0 3808   5 16384	* The Moonstone Inn Second Floor Hallway down
+D 0 3809   3 16391	* The Moonstone Inn's Room Number Two west
+D 0 3810   1 16391	* The Moonstone Inn's Room Number Three east
+D 0 3811   0 16384	* The Moonstone Inn Second Floor Hallway north
+D 0 3811   1 16391	* The Moonstone Inn Second Floor Hallway east
+D 0 3811   2 16384	* The Moonstone Inn Second Floor Hallway south
+D 0 3811   3 16391	* The Moonstone Inn Second Floor Hallway west
+D 0 3812   3 16391	* The Moonstone Inn's Room Number Four west
+D 0 3813   1 16391	* The Moonstone Inn's Room Number Five east
+D 0 3814   1 16391	* The Moonstone Inn Second Floor Hallway east
+D 0 3814   2 16384	* The Moonstone Inn Second Floor Hallway south
+D 0 3814   3 16391	* The Moonstone Inn Second Floor Hallway west
+D 0 3814   4 16391	* The Moonstone Inn Second Floor Hallway up
+D 0 3815   3 16391	* The Moonstone Inn's Room Number Six west
+D 0 3816   0 16384	* A room in the Moonstone Inn north
+D 0 3816   5 16391	* A room in the Moonstone Inn down
+D 0 3817   2 16384	* A bathchamber in the Moonstone Inn south
+S
+
+#SHOPS
+3801 17  0  0  0  0 	 150  75 	 0 23 	* Charles the bartender
+3802 19  0  0  0  0 	 150  75 	 0 23 	* Danielle the barmaid
+0
+
+#SPECIALS
+S
+
+#$

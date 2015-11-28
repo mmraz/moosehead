@@ -40,10 +40,10 @@ static char rcsid[] = "$Id: olc.c,v 1.48 2003/09/26 04:07:13 boogums Exp $";
 #endif
 
 /* What may appear to be memory leaks are not necessarily leaks, but safeguards.
-   MOBs/Objects share the same strings as their indexes, so freeing that permanent 
-   string may have drastic results.. hence, the string is just left in memory.  
+   MOBs/Objects share the same strings as their indexes, so freeing that permanent
+   string may have drastic results.. hence, the string is just left in memory.
    - kris   */
-   
+
 #define RANGE_ROOM             1
 #define RANGE_MOB              2
 #define RANGE_OBJ              4
@@ -55,20 +55,20 @@ void do_bflag ( CHAR_DATA *ch, char *argument )
   char arg1[MAX_STRING_LENGTH];
   CHAR_DATA *victim;
   char buf[MAX_STRING_LENGTH];
-  
+
   argument = one_argument (argument,arg1);
   if (arg1[0]) {
   if (!str_prefix (arg1,"stat")) {
     int t;
-    
+
     argument = one_argument (argument,arg1);
     victim = get_char_world (ch,arg1);
-    
+
     if (!victim) {
       send_to_char ("Syntax:  bflag stat <char_name>\n\r",ch);
       return;
     }
-    
+
     if (!victim->pcdata) {
       send_to_char ("BFlag can only be used on PCs.\n\r",ch);
       return;
@@ -84,18 +84,18 @@ void do_bflag ( CHAR_DATA *ch, char *argument )
       sprintf (buf," %2d:  %d-%d\n\r",++t,range->min,range->max);
       send_to_char (buf,ch);
       range = range->next;
-    }    
+    }
     return;
   }
-   if (!str_prefix (arg1,"add")) {    
+   if (!str_prefix (arg1,"add")) {
     int min_vnum,max_vnum;
     argument = one_argument (argument,arg1);
     victim = get_char_world (ch,arg1);
-    
+
     if (!victim) {
   send_to_char ("Syntax: bflag add <char_name> <min_vnum> <max_vnum>\n\r",ch);
   return;
-    }    
+    }
     if (!victim->pcdata) {
   send_to_char ("BFlag can only be used on PCs.\n\r",ch);
   return;
@@ -110,7 +110,7 @@ void do_bflag ( CHAR_DATA *ch, char *argument )
     if (!is_number (arg1)) {
   send_to_char ("Syntax: bflag add <char_name> <min_vnum> <max_vnum>\n\r",ch);
   return;
-    }    
+    }
     max_vnum = atoi (arg1);
     if (min_vnum > max_vnum) {
       int temp;
@@ -125,20 +125,20 @@ void do_bflag ( CHAR_DATA *ch, char *argument )
     victim->pcdata->edit.range = range;
     sprintf (buf,"Range %d-%d added to '%s'.\n\r",
       min_vnum,max_vnum,victim->name);
-    send_to_char (buf,ch);      
+    send_to_char (buf,ch);
     return;
   }
   if (!str_prefix (arg1,"remove")) {
     int t,remove;
-    
+
     argument = one_argument (argument,arg1);
     victim = get_char_world (ch,arg1);
-    
+
     if (!victim) {
       send_to_char ("Syntax: bflag remove <char_name> <stat_number>\n\r",ch);
       return;
     }
-    
+
     if (!victim->pcdata) {
       send_to_char ("BFlag can only be used on PCs.\n\r",ch);
       return;
@@ -147,19 +147,19 @@ void do_bflag ( CHAR_DATA *ch, char *argument )
     if (range == NULL) {
       send_to_char ("No olc ranges set.\n\r",ch);
       return;
-    }    
+    }
     argument = one_argument (argument,arg1);
     if (!is_number (arg1)) {
       send_to_char ("Syntax: bflag remove <char_name> <stat_number>\n\r",ch);
       return;
     }
-    remove = atoi (arg1);        
+    remove = atoi (arg1);
     t = 0;
     prev_range = NULL;
     while (range) {
       if (++t == remove) {
         if (prev_range) {
-          prev_range->next = range->next;          
+          prev_range->next = range->next;
         } else {
           victim->pcdata->edit.range = range->next;
         }
@@ -167,7 +167,7 @@ void do_bflag ( CHAR_DATA *ch, char *argument )
           victim->name);
         send_to_char (buf,ch);
         free_range (range);
-        return;        
+        return;
       }
       prev_range = range;
       range = range->next;
@@ -177,20 +177,20 @@ void do_bflag ( CHAR_DATA *ch, char *argument )
     return;
   }
   }
-  
+
   send_to_char ("Syntax for bflag:\n\r",ch);
   send_to_char ("  bflag add <char_name> <min_vnum> <max_vnum>\n\r",ch);
   send_to_char ("  bflag stat <char_name>\n\r",ch);
-  send_to_char ("  bflag remove <char_name> <stat_number>\n\r",ch);  
+  send_to_char ("  bflag remove <char_name> <stat_number>\n\r",ch);
 }
-   
+
 #define ID_MENU_INIT           0
 
 #define ID_EDIT_SETTINGS       1
 #define ID_EDIT_AREA           2
 #define ID_EDIT_ROOM           3
 #define ID_EDIT_MOB            4
-#define ID_EDIT_OBJECT         5 
+#define ID_EDIT_OBJECT         5
 #define ID_EDIT_RESETS         6
 
 #define ID_SETTINGS_DEF_ROOM   1
@@ -227,8 +227,8 @@ void do_bflag ( CHAR_DATA *ch, char *argument )
 #define ID_EDIT_RESET_DOOR     4
 #define ID_EDIT_RESET_ALL      5
 
-#define ID_ROOM_NAME           1 
-#define ID_ROOM_DESC           2 
+#define ID_ROOM_NAME           1
+#define ID_ROOM_DESC           2
 #define ID_ROOM_EXTRA          3
 #define ID_ROOM_FLAGS          4
 #define ID_ROOM_DOOR           5
@@ -303,7 +303,7 @@ void do_bflag ( CHAR_DATA *ch, char *argument )
 #define ID_OBJ_REM_EXTEND     14
 #define ID_OBJ_AFF_ADD        15
 #define ID_OBJ_AFF_REMOVE     16
-#define ID_OBJ_WEAR_TIMER     17 
+#define ID_OBJ_WEAR_TIMER     17
 
 
 #define ID_EDIT_GOTO_MAIN    100
@@ -324,7 +324,7 @@ void edit_room_modify   ( CHAR_DATA *ch, int num );
 void edit_sector_init   ( CHAR_DATA *ch, int num );
 void edit_sector        ( CHAR_DATA *ch, int num );
 void edit_exit_init     ( CHAR_DATA *ch, int num );
-void edit_room_exits    ( CHAR_DATA *ch, int num ); 
+void edit_room_exits    ( CHAR_DATA *ch, int num );
 void edit_mob_init      ( CHAR_DATA *ch, int num );
 void edit_mob           ( CHAR_DATA *ch, int num );
 void edit_mob_modify    ( CHAR_DATA *ch, int num );
@@ -364,7 +364,7 @@ MENU_DATA settings_menu = {
   {"Personal Settings","",0,NULL},
   {"Toggle [Room]   - Default to current room","room",ID_SETTINGS_DEF_ROOM,edit_settings},
   {"Toggle [Mob]    - Default to first mob in room","mob",ID_SETTINGS_DEF_MOB,edit_settings},
-  {"Toggle [Object] - Default to first object in inv.","object",ID_SETTINGS_DEF_OBJ,edit_settings},  
+  {"Toggle [Object] - Default to first object in inv.","object",ID_SETTINGS_DEF_OBJ,edit_settings},
   {"Toggle [Auto]   - Create rooms when walking","auto",ID_SETTINGS_AUTO,edit_settings},
   {"Toggle [Door]   - Double/Single door mode","door",ID_SETTINGS_DOOR,edit_settings},
   {"[Brief] Menus   - Toggle between brief and full menus","brief",ID_SETTINGS_BRIEF,edit_settings},
@@ -376,14 +376,14 @@ MENU_DATA settings_menu = {
 
 MENU_DATA area_menu = {
   {"Area Menu","",20,edit_area_init},
-  {"[Select] New Area","select",ID_EDIT_AREA_SELECT,edit_area},  
+  {"[Select] New Area","select",ID_EDIT_AREA_SELECT,edit_area},
   {"Area [Info]","info",ID_EDIT_AREA_INFO,edit_area},
   {"[Purge] Area]","purge",ID_EDIT_AREA_PURGE,edit_area},
   {"[Reset] Area","reset",ID_EDIT_AREA_RESET,edit_area},
   {"[New] Area","new",ID_EDIT_AREA_NEW,edit_area},
 /*  {"[Load] Area","load",ID_EDIT_AREA_LOAD,edit_area}, */
   {"[Save] Area","save",ID_EDIT_AREA_SAVE,edit_area},
-  {"[Rename] Area","rename",ID_EDIT_AREA_RENAME,edit_area}, 
+  {"[Rename] Area","rename",ID_EDIT_AREA_RENAME,edit_area},
   {"Toggle [Freeze] Area","freeze",ID_EDIT_AREA_FREEZE,edit_area},
   {"Toggle [Under] Construction","under",ID_EDIT_AREA_UNDER_DEV,edit_area},
   {"Goto [Main]","main",ID_EDIT_GOTO_MAIN,edit_goto_main},
@@ -392,16 +392,16 @@ MENU_DATA area_menu = {
 };
 
 MENU_DATA reset_menu = {
-  {"Reset Menu","",0,edit_reset_init},  
+  {"Reset Menu","",0,edit_reset_init},
   {"Reload [Mob] Resets", "mob", ID_EDIT_RESET_MOB,edit_reset_main},
   {"Reload [Object] Resets","object",ID_EDIT_RESET_OBJECT,edit_reset_main},
   {"Reload [Door] Resets","door",ID_EDIT_RESET_DOOR,edit_reset_main},
   {"Reload [All] Resets","all",ID_EDIT_RESET_ALL,edit_reset_main},
-  {"Add Current [Room] Resets","room",ID_EDIT_RESET_ROOM,edit_reset_main}, 
+  {"Add Current [Room] Resets","room",ID_EDIT_RESET_ROOM,edit_reset_main},
   {"Goto [Main]","main",ID_EDIT_GOTO_MAIN,edit_goto_main},
-  {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},  
-  {NULL,"",0,NULL}  
-}; 
+  {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},
+  {NULL,"",0,NULL}
+};
 
 MENU_DATA room_menu = {
   {"Room Menu","",0,edit_room_init},
@@ -410,18 +410,18 @@ MENU_DATA room_menu = {
   {"Room [Info]","info",ID_EDIT_INFO,edit_room},
   {"[Create] New Room","create",ID_EDIT_CREATE,edit_room},
   {"[Copy] Room","copy",ID_EDIT_CLONE,edit_room},
-  {"[Modify] Room","modify",ID_EDIT_MODIFY,edit_room},  
+  {"[Modify] Room","modify",ID_EDIT_MODIFY,edit_room},
   {"Goto [Main]","main",ID_EDIT_GOTO_MAIN,edit_goto_main},
   {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},
   {NULL,"",0,NULL}
 };
 
 MENU_DATA room_modify_menu = {
-  {" Modify Room Menu","",0,edit_room_init},  
-  {" Modify [Name]","name",ID_ROOM_NAME,edit_room_modify},    
+  {" Modify Room Menu","",0,edit_room_init},
+  {" Modify [Name]","name",ID_ROOM_NAME,edit_room_modify},
   {" Modify [Description]","description",ID_ROOM_DESC,edit_room_modify},
   {" Add [Extended] Descrip","extended",ID_ROOM_EXTENDED,edit_room_modify},
-  {" [Remove] Extended Desrip","remove",ID_ROOM_REM_EXTEND,edit_room_modify},      
+  {" [Remove] Extended Desrip","remove",ID_ROOM_REM_EXTEND,edit_room_modify},   
   {" Modify [Flags]","flags",ID_ROOM_FLAGS,edit_room_modify},
   {" Modify [Door]","door",ID_ROOM_DOOR,edit_room_modify},
   {" Modify [Sector]","sector",ID_ROOM_TERRAIN,edit_room_modify},
@@ -437,12 +437,12 @@ MENU_DATA room_modify_menu = {
 };
 
 MENU_DATA exit_modify_menu = {
-  {"Modify Door Menu","",0,edit_exit_init},   
+  {"Modify Door Menu","",0,edit_exit_init},
   {"Toggle Door [Mode] (Double/Single)","mode",ID_SETTINGS_DOOR,edit_settings},
-  {"[Select] Door","select",ID_DOOR_SELECT,edit_room_exits},  
-  {"Door [Info]","info",ID_DOOR_INFO,edit_room_exits},  
-  {"Modify [Destination]","destination",ID_DOOR_VNUM,edit_room_exits},  
-  {"Modify [Name]","name",ID_DOOR_KEYWORD,edit_room_exits},  
+  {"[Select] Door","select",ID_DOOR_SELECT,edit_room_exits},
+  {"Door [Info]","info",ID_DOOR_INFO,edit_room_exits},
+  {"Modify [Destination]","destination",ID_DOOR_VNUM,edit_room_exits},
+  {"Modify [Name]","name",ID_DOOR_KEYWORD,edit_room_exits},
   {"Modify [Key]","key",ID_DOOR_KEY,edit_room_exits},
   {"Modify [Flags]","flags",ID_DOOR_FLAGS,edit_room_exits},
   {"[Copy] to Other Side","copy",ID_DOOR_COPY,edit_room_exits},
@@ -479,13 +479,13 @@ MENU_DATA sector_menu = {
   {"[Done] Modifying Sector","done",ID_EDIT_PREVIOUS,edit_sector},
   {"[Main] Menu","main",ID_EDIT_GOTO_MAIN,edit_goto_main},
   {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},
-  {NULL,"",0,NULL}  
+  {NULL,"",0,NULL}
 };
 
 
 MENU_DATA mob_menu =  {
   {"Mob Menu","",0,edit_mob_init},
-  {" [Select] Mob Vnum","select",ID_EDIT_VNUM,edit_mob},  
+  {" [Select] Mob Vnum","select",ID_EDIT_VNUM,edit_mob},
   {" [List] Mobs in Area","list",ID_EDIT_LIST,edit_mob},
   {" [Create] New Mob","create",ID_EDIT_CREATE,edit_mob},
   {" [Copy] Mob","copy",ID_EDIT_CLONE,edit_mob},
@@ -504,7 +504,7 @@ MENU_DATA mob_modify_menu = {
   {" Modify [Level]","level",ID_MOB_LEVEL,edit_mob_modify},
   {" Modify [Short] Description","short",ID_MOB_SHORT,edit_mob_modify},
   {" Modify [Long] Description","long",ID_MOB_LONG,edit_mob_modify},
-  {" Modify [Description]","description",ID_MOB_DESC,edit_mob_modify},  
+  {" Modify [Description]","description",ID_MOB_DESC,edit_mob_modify},
   {" Modify [Hp]","hp",ID_MOB_HP,edit_mob_modify},
   {" Modify [Mana]","mana",ID_MOB_MANA,edit_mob_modify},
   {" Modify [Ac]","ac",ID_MOB_AC,edit_mob_modify},
@@ -529,7 +529,7 @@ MENU_DATA mob_modify_menu = {
   {"Modify Spec [Words]","words",ID_MOB_SPEC_WORDS,edit_mob_modify},
   {"[Done] Modifying Mob","done",ID_EDIT_PREVIOUS,edit_mob_modify},
   {"Goto [Main]","main",ID_EDIT_GOTO_MAIN,edit_goto_main},
-  {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},  
+  {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},
   {NULL,"",0,NULL}
 };
 
@@ -557,7 +557,7 @@ MENU_DATA mob_size_menu = {
   {"Set Size to [Giant]","giant",SIZE_GIANT,edit_mob_size},
   {"[Cancel] Operation","cancel",ID_EDIT_CANCEL,edit_mob_size},
   {NULL,"",0,NULL}
-};  
+};
 
 MENU_DATA mob_position_menu = {
   {"Modify Mob Position","",0,edit_mob_pos_init},
@@ -566,10 +566,10 @@ MENU_DATA mob_position_menu = {
   {"Position [Sitting]","sitting",POS_SITTING,edit_mob_position},
   {"Position [Standing]","standing",POS_STANDING,edit_mob_position},
   {"[Cancel] Operation","cancel",ID_EDIT_CANCEL,edit_mob_position},
-  {NULL,"",0,NULL}  
+  {NULL,"",0,NULL}
 };
 
-MENU_DATA *mob_modify_att_menu;   
+MENU_DATA *mob_modify_att_menu;
 
 MENU_DATA object_menu = {
   {"Object Menu","",0,edit_obj_init},
@@ -590,24 +590,24 @@ MENU_DATA obj_modify_menu = {
   {"Object Modify Menu","",30,NULL},
   {" Modify [Name]","name",ID_OBJ_NAME,edit_obj_modify},
   {" Modify [Level]","level",ID_OBJ_LEVEL,edit_obj_modify},
-  {" Modify [Short] Description","short",ID_OBJ_SHORT,edit_obj_modify},  
+  {" Modify [Short] Description","short",ID_OBJ_SHORT,edit_obj_modify},
   {" Modify [Long] Description","long",ID_OBJ_DESCR,edit_obj_modify},
   {" Add [Extended] Descrip","extended",ID_OBJ_EXTENDED,edit_obj_modify},
-  {" [Remove] Extended Desrip","remove",ID_OBJ_REM_EXTEND,edit_obj_modify},  
+  {" [Remove] Extended Desrip","remove",ID_OBJ_REM_EXTEND,edit_obj_modify},
   {" Modify [Material]","material",ID_OBJ_MATERIAL,edit_obj_modify},
   {" Modify Item [Type]","type",ID_OBJ_TYPE,edit_obj_modify},
   {" Modify Extra [Flags]","flags",ID_OBJ_FLAGS,edit_obj_modify},
   {"Modify [Wear] Flags","wear",ID_OBJ_WEAR,edit_obj_modify},
-  {"Modify [Condition]","condition",ID_OBJ_COND,edit_obj_modify},  
+  {"Modify [Condition]","condition",ID_OBJ_COND,edit_obj_modify},
   {"Modify [Weight]","weight",ID_OBJ_WEIGHT,edit_obj_modify},
   {"Modify [Cost]","cost",ID_OBJ_COST,edit_obj_modify},
-  {"Modify [Values]","values",ID_OBJ_VALUE,edit_obj_modify},      
-  {"[Add] Affect","add",ID_OBJ_AFF_ADD,edit_obj_modify},  
-  {"[Delete] Affect","delete",ID_OBJ_AFF_REMOVE,edit_obj_modify},  
-  {"Modify Wear [Timer]","timer",ID_OBJ_WEAR_TIMER,edit_obj_modify},  
+  {"Modify [Values]","values",ID_OBJ_VALUE,edit_obj_modify},
+  {"[Add] Affect","add",ID_OBJ_AFF_ADD,edit_obj_modify},
+  {"[Delete] Affect","delete",ID_OBJ_AFF_REMOVE,edit_obj_modify},
+  {"Modify Wear [Timer]","timer",ID_OBJ_WEAR_TIMER,edit_obj_modify},
   {"[Done] Modifying Object","done",ID_EDIT_PREVIOUS,edit_obj_modify},
   {"Goto [Main]","main",ID_EDIT_GOTO_MAIN,edit_goto_main},
-  {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},  
+  {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},
   {NULL,"",0,NULL}
 };
 
@@ -618,10 +618,10 @@ MENU_DATA obj_affect_menu = {
   {"Apply [Int]","int",APPLY_INT,edit_obj_add_aff},
   {"Apply [Wis]","wis",APPLY_WIS,edit_obj_add_aff},
   {"Apply [Con]","con",APPLY_CON,edit_obj_add_aff},
-  {"Apply [Agt]","con",APPLY_AGT,edit_obj_add_aff},
-  {"Apply [End]","con",APPLY_END,edit_obj_add_aff},
-  {"Apply [Soc]","con",APPLY_SOC,edit_obj_add_aff},
-  {"Apply [Sex]","sex",APPLY_SEX,edit_obj_add_aff},  
+//  {"Apply [Agt]","agt",APPLY_AGT,edit_obj_add_aff},
+//  {"Apply [End]","end",APPLY_END,edit_obj_add_aff},
+  {"Apply [Cha]","cha",APPLY_SOC,edit_obj_add_aff},
+  {"Apply [Sex]","sex",APPLY_SEX,edit_obj_add_aff},
 /*  {"Apply [Class]","class",APPLY_CLASS,edit_obj_add_aff},
   {"Apply [Level]","level",APPLY_LEVEL,edit_obj_add_aff},
   {"Apply [Age]","age",APPLY_AGE,edit_obj_add_aff},
@@ -642,22 +642,22 @@ MENU_DATA obj_affect_menu = {
   {"Apply [Fortitude] Save","fortitude",APPLY_FORTITUDE_SAVE,edit_obj_add_aff},
   {"[Done] Modifying Affects","done",ID_EDIT_PREVIOUS,edit_obj_add_aff},
   {"Goto [Main]","main",ID_EDIT_GOTO_MAIN,edit_goto_main},
-  {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},    
+  {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},
   {NULL,"",0,NULL}
 };
 
-   
+
 /* name
-   level   
+   level
    short
-   long   
+   long
    cost
    weight
-   type 
+   type
    apply
    extra
    extended
-   wear 
+   wear
    - food, liquid, armor, furniture, container, portal, spell, use
    valuesfs
 */
@@ -699,10 +699,11 @@ MENU_DATA obj_type_menu = {
   {"Type [Part]", "part", ITEM_PART, edit_obj_type},
   {"Type [Forge]", "forge", ITEM_FORGE, edit_obj_type},
   {"Type [Herb]", "herb", ITEM_HERB, edit_obj_type},
+  {"Type [Capsule]", "capsule", ITEM_CAPSULE, edit_obj_type},
   {"[Cancel] Setting Object Type","cancel",ID_EDIT_PREVIOUS,edit_obj_type},
   {"Goto [Main]","main",ID_EDIT_GOTO_MAIN,edit_goto_main},
-  {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},  
-  {NULL,"",0,NULL}   
+  {"[Exit] OLC","exit",ID_EDIT_EXIT,edit_exit},
+  {NULL,"",0,NULL}
 };
 
 
@@ -721,8 +722,8 @@ struct val_type val_table[] = {
   {ITEM_POTION,{"Spell level","SN #1","SN #2","SN #3",NULL}},
   {ITEM_FURNITURE,{"Max Users",NULL,"Position Flags","HP Gain [Percentage]","Mana Gain [Percentage]"}},
   {ITEM_CONTAINER,{"Weight Capacity","Flags","Key Vnum","Max Weight that Fits","Weight multiplier"}},
-  {ITEM_DRINK_CON,{"Capacity","Current Quantity","Liquid Number","Poisened [Non zero is poisoned]",NULL}},
-  {ITEM_FOOD,{"Hours of food value","Saturation",NULL,"Poisened [Non zero is poinsoned]",NULL}},
+  {ITEM_DRINK_CON,{"Capacity","Current Quantity","Liquid Number","Poisoned [Non zero is poisoned]",NULL}},
+  {ITEM_FOOD,{"Hours of food value","Saturation","Liquid Number","Poisoned [Non zero is poisoned]","Liquid Amount"}},
   {ITEM_MONEY,{"Silver Value","Gold Value",NULL,NULL,NULL}},
   {ITEM_PILL,{"Spell level","SN #1","SN #2","SN #3",NULL}},
   {ITEM_MIXER,{"Mixer level","Comp #1","Comp #2","Comp #3","Comp #4"}},
@@ -730,8 +731,9 @@ struct val_type val_table[] = {
   {ITEM_SPELL_PAGE,{"Scribe Level","Difficulty","Spell Slot","Uses",""}},
   {ITEM_PART, {"Whole Object Vnum", "Part 1 Vnum","Part 2 Vnum", "Part3 Vnum", "Part 4 Vnum"}},
   {ITEM_FORGE,{"Recipe 1", "Recipe 2", "Recipe 3", "Recipe 4", "Recipe 5"}},
-  {0,{NULL,NULL,NULL,NULL,NULL}} 
-}; 
+  {ITEM_CAPSULE,{"XP Reward", "Silver Reward", "SP Reward", "Item Reward", "Reward Variance %"}},
+  {0,{NULL,NULL,NULL,NULL,NULL}}
+};
 
 static char *sector_table[] = {
   "inside",
@@ -776,35 +778,37 @@ static char *room_exit_flags[] = {
   "nolock",
   "concealed",
   "secret",
-  NULL 
+  NULL
 };
 
 static char *mod_room_flags[] = {
-  "dark",               
-  "NA",      
+  "dark",
+  "NA",
   "no_mob",
-  "indoors",                                 
-  "NA",        
-  "NA",         
-  "NA",          
-  "NA",             
-  "NA",             
-  "private",         
-  "safe",             
-  "solitary",          
-  "pet_shop",           
-  "no_recall",           
-  "IMP_only",             
-  "gods_only",             
-  "heroes_only",            
-  "newbies_only",            
+  "indoors",
+  "NA",
+  "NA",
+  "NA",
+  "NA",
+  "NA",
+  "private",
+  "safe",
+  "solitary",
+  "pet_shop",
+  "no_recall",
+  "IMP_only",
+  "gods_only",
+  "heroes_only",
+  "newbies_only",
   "lawful",
-  "no_where",  
+  "no_where",
   "no_die",
   "no_clan",
   "no_combat",
   "holy_ground",
   "clan_only",
+  "isolated",// New isolated code
+  "no_hall",
   NULL
 };
 
@@ -812,14 +816,14 @@ static char *act_table[] = {
   "npc",
   "sentinel",
   "scavenger",
-  "NA","NA",  
+  "NA","NA",
   "aggressive",
   "stay_area",
   "wimpy",
   "pet",
   "train",
   "practice",
-  "NA","NA","NA",  
+  "NA","NA","NA",
   "undead",
   "weaponsmith",
   "cleric",
@@ -919,6 +923,9 @@ static char *off_table[] = {
   "assist_players",
   "assist_guard",
   "assist_vnum",
+  "off_charge",
+  "assist_element",
+  "bane_touch",
   NULL
 };
 
@@ -945,7 +952,7 @@ static char *irv_table[] = {
   "light",
   NULL
 };
- 
+
 static char *form_table[] = {
   "edible",
   "poison",
@@ -968,7 +975,7 @@ static char *form_table[] = {
   "blob",
   "NA","NA",
   "mammal",
-  "bird",  
+  "bird",
   "reptile",
   "snake",
   "dragon",
@@ -1001,7 +1008,7 @@ static char *part_table[] = {
   "fangs",
   "horns",
   "scales",
-  "tusks",          
+  "tusks",
   NULL
 };
 
@@ -1036,7 +1043,7 @@ static char *aff_table[] = {
   "swim",
   "regeneration",
   "NA",
-  "withstand_death",   
+  "withstand_death",
   NULL
 };
 
@@ -1067,7 +1074,7 @@ static char *obj_extra_flags[] = {
   "wear_timer",
   "burn_proof",
   "nouncurse",
-  "clan_corpse",  
+  "clan_corpse",
   "warped",
   "teleport",
   "noidentify",
@@ -1091,22 +1098,22 @@ static char *obj_wear_flags[] = {
   "wield",
   "hold",
   "no_sac",
-  "float",  
+  "float",
   NULL
 };
 
 char *avg_table[] = {
   "hopelessly lost",
   "pathetic",
-  "terrible",  
-  "poor",  
-  "less than average",  
+  "terrible",
+  "poor",
+  "less than average",
   "average",
   "better than average",
   "good",
   "great",
   "superb",
-  "awesome",  
+  "awesome",
   NULL
 };
 
@@ -1119,14 +1126,14 @@ void olc_log_string (CHAR_DATA *ch,char *str)
     char buf[MAX_STRING_LENGTH];
 
     strtime                    = ctime( &current_time );
-    strtime[strlen(strtime)-1] = '\0';    
+    strtime[strlen(strtime)-1] = '\0';
 
     if ( str[0] == '\0' ) return;
 
-    fclose( fpReserve );
+//    fclose( fpReserve );
     if ( ( fp = fopen( OLC_LOG_FILE, "a" ) ) == NULL )
     {
-  perror( OLC_LOG_FILE );  
+  perror( OLC_LOG_FILE );
     }
     else
     {
@@ -1136,17 +1143,17 @@ void olc_log_string (CHAR_DATA *ch,char *str)
   fclose( fp );
     }
 
-    fpReserve = fopen( NULL_FILE, "r" );
+//    fpReserve = fopen( NULL_FILE, "r" );
     return;
 
 
 }
 
 bool check_range (CHAR_DATA *ch,int range_type,int vnum)
-{   
+{
   VNUM_RANGE_DATA *range;
   char *type = "unknown";
-  
+
   /* if (get_trust(ch) >= CREATOR) {
     return TRUE;
   }  */
@@ -1156,25 +1163,25 @@ bool check_range (CHAR_DATA *ch,int range_type,int vnum)
         if (ch->pcdata->edit.room)
           vnum = ch->pcdata->edit.room->vnum;
         type = "room";
-        break;      
+        break;
       case RANGE_MOB:
         if (ch->pcdata->edit.mob)
-          vnum = ch->pcdata->edit.mob->vnum;      
+          vnum = ch->pcdata->edit.mob->vnum;
         type = "mob";
         break;
       case RANGE_OBJ:
         if (ch->pcdata->edit.obj)
-          vnum = ch->pcdata->edit.obj->vnum;      
+          vnum = ch->pcdata->edit.obj->vnum;
         type = "object";
-        break;      
+        break;
       case RANGE_AREA:
         if (ch->pcdata->edit.area)
-          vnum = get_area_min_vnum (ch->pcdata->edit.area);      
+          vnum = get_area_min_vnum (ch->pcdata->edit.area);
         type = "area";
-        break;      
+        break;
     }
   }
-  
+
   range = ch->pcdata->edit.range;
   while (range) {
     if ((vnum >= range->min) && (vnum <= range->max)) {
@@ -1182,7 +1189,7 @@ bool check_range (CHAR_DATA *ch,int range_type,int vnum)
     }
     range = range->next;
   }
-  
+
   send_to_char ("You do not have permision.\n\r>  ",ch);
   return FALSE;
 }
@@ -1190,33 +1197,33 @@ bool check_range (CHAR_DATA *ch,int range_type,int vnum)
 void build_flag_menu ( char **flag_table, char *title, CHAR_DATA *ch )
 {
   int idx,count;
-  int t;  
+  int t;
   MENU_DATA *flag_menu;
-  
+
   count = 0;
   for (t = 0; t < 50; t++) {          /* count flag items */
     if (!flag_table[t]) break;
     if (strcmp (flag_table[t],"NA") != NULL)
       count++;
   }
-  
-  flag_menu = alloc_mem (sizeof(MENU_ITEM)*(count+3));    
+
+  flag_menu = alloc_mem (sizeof(MENU_ITEM)*(count+3));
   if (title) {
     (*flag_menu)[0].text = str_dup (title);
   } else {
     (*flag_menu)[0].text = str_dup ("Set Flags");
-  }  
+  }
   (*flag_menu)[0].menu_fun = edit_flags_init;
   (*flag_menu)[0].context = "";
   if (count > 8)
     (*flag_menu)[0].id = 30;
   else
-    (*flag_menu)[0].id = 0;  
+    (*flag_menu)[0].id = 0;
   idx = 1;
   for ( t = 0;; t++ )
   {
     char buf[MAX_STRING_LENGTH];
-    
+
     if (!flag_table[t] || (idx > 45)) break;
     if (str_cmp(flag_table[t],"NA")) {
       sprintf (buf,"Toggle Flag [%s]",flag_table[t]);
@@ -1226,34 +1233,34 @@ void build_flag_menu ( char **flag_table, char *title, CHAR_DATA *ch )
       (*flag_menu)[idx].menu_fun = edit_flags;
       idx++;
     }
-  }  
+  }
   (*flag_menu)[idx].text = str_dup ("[Done] Setting Flags");
   (*flag_menu)[idx].context = "done";
   (*flag_menu)[idx].id = ID_EDIT_DONE;
   (*flag_menu)[idx].menu_fun = edit_flags;
   idx++;
-  (*flag_menu)[idx].text = NULL;  
+  (*flag_menu)[idx].text = NULL;
   (*flag_menu)[idx].menu_fun = NULL;
-  
+
   ch->pcdata->edit.prev_menu = ch->pcdata->menu;
   ch->pcdata->menu = flag_menu;
   ch->pcdata->edit.flag_table = flag_table;
-  
+
 }
 
 void destroy_flag_menu ( CHAR_DATA *ch )
 {
   int t,count;
   MENU_DATA *flag_menu;
-    
-  flag_menu = ch->pcdata->menu;  
+
+  flag_menu = ch->pcdata->menu;
   count = 0;
   for ( t = 0; t < 50; t++) {
     count++;
     if (!(*flag_menu)[t].text) break;
-    free_string ( (*flag_menu)[t].text );    
+    free_string ( (*flag_menu)[t].text );
   }
-  
+
   free_mem (flag_menu,sizeof (MENU_ITEM)*(count));
   ch->pcdata->menu = ch->pcdata->edit.prev_menu;
 }
@@ -1261,26 +1268,26 @@ void destroy_flag_menu ( CHAR_DATA *ch )
 void build_spec_menu ( CHAR_DATA *ch )
 {
   int count;
-  int t;  
+  int t;
   static MENU_DATA *spec_menu = NULL;
-  
+
   if (!spec_menu) {
     count = 0;
     while (spec_table[count].name) {
       count++;
-    }    
-    
+    }
+
     spec_menu = alloc_mem (sizeof(MENU_ITEM)*(count+4));
     (*spec_menu)[0].text = "Select Special";
-    
+
     (*spec_menu)[0].menu_fun = edit_mob_spec_init;
-    (*spec_menu)[0].context = "";    
-    (*spec_menu)[0].id = 30;    
-    
+    (*spec_menu)[0].context = "";
+    (*spec_menu)[0].id = 30;
+
     for ( t = 0; t < count; t++ )
     {
       char buf[MAX_STRING_LENGTH];
-      
+
       sprintf (buf,"%sSet [%s]",t < 9 ? " ":"",spec_table[t].name);
       (*spec_menu)[t+1].text = str_dup (buf);
       (*spec_menu)[t+1].context = spec_table[t].name;
@@ -1290,15 +1297,15 @@ void build_spec_menu ( CHAR_DATA *ch )
     (*spec_menu)[count+1].text = "[Cancel] Selection";
     (*spec_menu)[count+1].context = "cancel";
     (*spec_menu)[count+1].id = ID_EDIT_DONE;
-    (*spec_menu)[count+1].menu_fun = edit_mob_spec;    
+    (*spec_menu)[count+1].menu_fun = edit_mob_spec;
     (*spec_menu)[count+2].text = "[Remove] Special";
     (*spec_menu)[count+2].context = "remove";
     (*spec_menu)[count+2].id = ID_SPEC_NONE;
-    (*spec_menu)[count+2].menu_fun = edit_mob_spec;        
-    (*spec_menu)[count+3].text = NULL;  
+    (*spec_menu)[count+2].menu_fun = edit_mob_spec;
+    (*spec_menu)[count+3].text = NULL;
     (*spec_menu)[count+3].menu_fun = NULL;
   }
-  
+
   ch->pcdata->edit.prev_menu = ch->pcdata->menu;
   ch->pcdata->menu = spec_menu;
 }
@@ -1306,26 +1313,26 @@ void build_spec_menu ( CHAR_DATA *ch )
 void build_race_menu ( CHAR_DATA *ch )
 {
   int count;
-  int t;  
+  int t;
   static MENU_DATA *race_menu = NULL;
-  
+
   if (!race_menu) {
     count = 0;
     while (race_table[count].name) {
       count++;
-    }    
-    
-    race_menu = alloc_mem (sizeof(MENU_ITEM)*(count+3));        
+    }
+
+    race_menu = alloc_mem (sizeof(MENU_ITEM)*(count+3));
     (*race_menu)[0].text = "Select a Race";
-    
+
     (*race_menu)[0].menu_fun = edit_mob_race_init;
-    (*race_menu)[0].context = "";    
-    (*race_menu)[0].id = 30;    
-    
+    (*race_menu)[0].context = "";
+    (*race_menu)[0].id = 30;
+
     for ( t = 0; t < count; t++ )
     {
       char buf[MAX_STRING_LENGTH];
-      
+
       sprintf (buf,"%sSet race to [%s]",t < 9 ? " ":"",race_table[t].name);
       (*race_menu)[t+1].text = str_dup (buf);
       (*race_menu)[t+1].context = race_table[t].name;
@@ -1335,30 +1342,30 @@ void build_race_menu ( CHAR_DATA *ch )
     (*race_menu)[count+1].text = "[Cancel] Race Selection";
     (*race_menu)[count+1].context = "cancel";
     (*race_menu)[count+1].id = ID_EDIT_DONE;
-    (*race_menu)[count+1].menu_fun = edit_mob_race;    
-    (*race_menu)[count+2].text = NULL;  
+    (*race_menu)[count+1].menu_fun = edit_mob_race;
+    (*race_menu)[count+2].text = NULL;
     (*race_menu)[count+2].menu_fun = NULL;
   }
-  
+
   ch->pcdata->edit.prev_menu = ch->pcdata->menu;
   ch->pcdata->menu = race_menu;
 }
 
 void build_average_menu ( char *title, CHAR_DATA *ch, MENU_FUN *call_back )
-{   
-  int t;  
+{
+  int t;
   MENU_DATA *avg_menu;
-  
-  avg_menu = alloc_mem (sizeof(MENU_ITEM)*13);    
+
+  avg_menu = alloc_mem (sizeof(MENU_ITEM)*13);
   if (title) {
     (*avg_menu)[0].text = str_dup (title);
   } else {
     (*avg_menu)[0].text = str_dup ("Average Menu");
   }
-  
+
   (*avg_menu)[0].menu_fun = call_back;
   (*avg_menu)[0].context = "";
-  (*avg_menu)[0].id = 0;    
+  (*avg_menu)[0].id = 0;
   for ( t = 1; t <= 10; t++ )
   {
     char buf[MAX_STRING_LENGTH];
@@ -1367,52 +1374,52 @@ void build_average_menu ( char *title, CHAR_DATA *ch, MENU_FUN *call_back )
     (*avg_menu)[t].text = str_dup (buf);
     (*avg_menu)[t].context = avg_table[t];
     (*avg_menu)[t].id = t;
-    (*avg_menu)[t].menu_fun = call_back;    
-  }  
+    (*avg_menu)[t].menu_fun = call_back;
+  }
   (*avg_menu)[11].text = str_dup ("[Cancel]");
   (*avg_menu)[11].context = "cancel";
   (*avg_menu)[11].id = ID_EDIT_CANCEL;
-  (*avg_menu)[11].menu_fun = call_back;  
-  (*avg_menu)[12].text = NULL;  
+  (*avg_menu)[11].menu_fun = call_back;
+  (*avg_menu)[12].text = NULL;
   (*avg_menu)[12].menu_fun = NULL;
-  
+
   ch->pcdata->edit.prev_menu = ch->pcdata->menu;
-  ch->pcdata->menu = avg_menu;  
+  ch->pcdata->menu = avg_menu;
 }
 
 void destroy_avg_menu (CHAR_DATA *ch)
 {
   MENU_DATA *avg_menu;
   int t;
-    
-  avg_menu = ch->pcdata->menu;  
+
+  avg_menu = ch->pcdata->menu;
   for ( t = 0; t <= 12; t++) {
     if (!(*avg_menu)[t].text) break;
-    free_string ( (*avg_menu)[t].text );    
+    free_string ( (*avg_menu)[t].text );
   }
-  
+
   free_mem (avg_menu,sizeof (MENU_ITEM)*13);
   ch->pcdata->menu = ch->pcdata->edit.prev_menu;
 }
 
 void build_attack_menu (CHAR_DATA *ch, MENU_FUN call_back)
 {
-  int t, count;  
-  MENU_DATA *att_menu;  
+  int t, count;
+  MENU_DATA *att_menu;
 
   count = 0;
-  for (t = 0;; t++) {    
+  for (t = 0;; t++) {
     if (!attack_table[t].name) break;
-    count++;    
-  }  
+    count++;
+  }
   count -= 2;
   att_menu = alloc_mem (sizeof(MENU_ITEM)*(count+3));
-  
+
   (*att_menu)[0].text = str_dup ("Attack Type Menu");
-  
+
   (*att_menu)[0].menu_fun = call_back;
   (*att_menu)[0].context = "";
-  (*att_menu)[0].id = 20;    
+  (*att_menu)[0].id = 20;
   for ( t = 1; t <= count; t++ )
   {
     char buf[MAX_STRING_LENGTH];
@@ -1421,37 +1428,37 @@ void build_attack_menu (CHAR_DATA *ch, MENU_FUN call_back)
     (*att_menu)[t].text = str_dup (buf);
     (*att_menu)[t].context = attack_table[t].name;
     (*att_menu)[t].id = t;
-    (*att_menu)[t].menu_fun = call_back;    
-  }    
+    (*att_menu)[t].menu_fun = call_back;
+  }
   (*att_menu)[count+1].text = str_dup ("[Cancel]");
   (*att_menu)[count+1].context = "cancel";
   (*att_menu)[count+1].id = ID_EDIT_CANCEL;
-  (*att_menu)[count+1].menu_fun = call_back;  
-  (*att_menu)[count+2].text = NULL;  
+  (*att_menu)[count+1].menu_fun = call_back;
+  (*att_menu)[count+2].text = NULL;
   (*att_menu)[count+2].menu_fun = NULL;
-  
+
   ch->pcdata->edit.prev_menu = ch->pcdata->menu;
-  ch->pcdata->menu = att_menu;    
+  ch->pcdata->menu = att_menu;
 }
 
 void destroy_attack_menu (CHAR_DATA *ch)
 {
   MENU_DATA *att_menu;
   int t,count;
-    
-  att_menu = ch->pcdata->menu;  
+
+  att_menu = ch->pcdata->menu;
   count = 0;
-  for (t = 0;; t++) {    
+  for (t = 0;; t++) {
     if (!attack_table[t].name) break;
     count++;
-  }  
+  }
   count = 0;
   for ( t = 0; t <= (count+2); t++) {
     count++;
     if (!(*att_menu)[t].text) break;
-    free_string ( (*att_menu)[t].text );    
+    free_string ( (*att_menu)[t].text );
   }
-  
+
   free_mem (att_menu,sizeof (MENU_ITEM)*count);
   ch->pcdata->menu = ch->pcdata->edit.prev_menu;
 }
@@ -1461,7 +1468,7 @@ void show_flags ( int flags, char **flag_table, CHAR_DATA *ch)
   int t;
   int found = FALSE;
   char buf[MAX_STRING_LENGTH];
-  
+
   for (t = 0;; t++) {
     if (!flag_table[t]) break;
     if (flags & (1 << t)) {
@@ -1474,7 +1481,7 @@ void show_flags ( int flags, char **flag_table, CHAR_DATA *ch)
       }
       found = TRUE;
     }
-  }  
+  }
   if (!found) send_to_char ("None",ch);
 }
 
@@ -1490,12 +1497,12 @@ void edit_flags ( CHAR_DATA *ch, int num )
   char buf[MAX_STRING_LENGTH];
   int t;
   MENU_DATA *flag_menu;
-  
+
   flag_menu = ch->pcdata->menu;
-  
+
   if (num != ID_EDIT_DONE) {
     char *flag = "unknown";
-    
+
     TOGGLE_BIT (*ch->pcdata->edit.mod_flags, num);
     for ( t = 1; t < 50; t++ ) {
       if ((*flag_menu)[t].text == NULL) {
@@ -1508,11 +1515,11 @@ void edit_flags ( CHAR_DATA *ch, int num )
     }
     sprintf (buf,"Flag [%s]:  %s\n\r>  ",flag,IS_SET(*ch->pcdata->edit.mod_flags,num) ?
                  "Set":"Unset");
-    send_to_char (buf,ch);        
-  } else {    
+    send_to_char (buf,ch);
+  } else {
     destroy_flag_menu (ch);
     do_menu (ch, NULL);
-  }  
+  }
 }
 
 void edit_main        ( CHAR_DATA *ch, int num )
@@ -1546,25 +1553,25 @@ void edit_settings ( CHAR_DATA *ch, int num )
   switch (num) {
     case ID_SETTINGS_DEF_ROOM:
       TOGGLE_BIT (ch->pcdata->edit.per_flags,EDIT_DEFAULT_ROOM);
-      sprintf (buf,"Default to current room:  %s\n\r",IS_SET 
+      sprintf (buf,"Default to current room:  %s\n\r",IS_SET
               (ch->pcdata->edit.per_flags,EDIT_DEFAULT_ROOM) ? "Yes":"No");
       send_to_char (buf,ch);
       break;
     case ID_SETTINGS_DEF_OBJ:
       TOGGLE_BIT (ch->pcdata->edit.per_flags,EDIT_DEFAULT_OBJ);
-      sprintf (buf,"Default to first object in inventory:  %s\n\r",IS_SET 
+      sprintf (buf,"Default to first object in inventory:  %s\n\r",IS_SET
               (ch->pcdata->edit.per_flags,EDIT_DEFAULT_OBJ) ? "Yes":"No");
       send_to_char (buf,ch);
       break;
     case ID_SETTINGS_DEF_MOB:
       TOGGLE_BIT (ch->pcdata->edit.per_flags,EDIT_DEFAULT_MOB);
-      sprintf (buf,"Default to first mob in room:  %s\n\r",IS_SET 
+      sprintf (buf,"Default to first mob in room:  %s\n\r",IS_SET
               (ch->pcdata->edit.per_flags,EDIT_DEFAULT_MOB) ? "Yes":"No");
       send_to_char (buf,ch);
       break;
     case ID_SETTINGS_AUTO:
       TOGGLE_BIT (ch->pcdata->edit.per_flags,EDIT_AUTO_CREATE);
-      sprintf (buf,"Auto-create rooms when walking:  %s\n\r",IS_SET 
+      sprintf (buf,"Auto-create rooms when walking:  %s\n\r",IS_SET
               (ch->pcdata->edit.per_flags,EDIT_AUTO_CREATE) ? "Yes":"No");
       send_to_char (buf,ch);
       break;
@@ -1572,11 +1579,11 @@ void edit_settings ( CHAR_DATA *ch, int num )
       TOGGLE_BIT (ch->pcdata->edit.per_flags,EDIT_DOUBLE_DOOR);
       send_to_char (IS_SET (ch->pcdata->edit.per_flags,EDIT_DOUBLE_DOOR) ?
                     "Mode:  Double Sided Door\n\r":"Mode:  Single Sided Door\n\r",ch);
-      break;      
+      break;
     case ID_SETTINGS_BRIEF:
       TOGGLE_BIT (ch->comm,COMM_BRIEF_MENUS);
       send_to_char (IS_SET (ch->comm,COMM_BRIEF_MENUS) ?
-                    "Brief menus on.\n\r":"Brief menus off.\n\r",ch);      
+                    "Brief menus on.\n\r":"Brief menus off.\n\r",ch);
       break;
     case ID_SETTINGS_HELP:
       break;
@@ -1599,27 +1606,27 @@ void edit_area_info ( CHAR_DATA *ch )
 {
   char buf[MAX_STRING_LENGTH];
   AREA_DATA *area;
-  
+
   area = ch->pcdata->edit.area;
   if (!area) {
     send_to_char ("Select an area first.\n\r",ch);
     return;
   }
-  
+
   sprintf (buf,"Name:  %s\n\rFilename:  %s\n\r",area->name,area->file_name);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
   sprintf (buf,"Under construction:  %s\n\r",area->under_develop ? "YES":"NO");
   send_to_char (buf,ch);
   sprintf (buf,"%-10s - Min Vnum: %5d     Max Vnum: %5d\n\r","Rooms",
            area->min_vnum_room,area->max_vnum_room);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
   sprintf (buf,"%-10s - Min Vnum: %5d     Max Vnum: %5d\n\r","Mobs",
            area->min_vnum_mob,area->max_vnum_mob);
   send_to_char (buf,ch);
   sprintf (buf,"%-10s - Min Vnum: %5d     Max Vnum: %5d\n\r","Objects",
            area->min_vnum_obj,area->max_vnum_obj);
   send_to_char (buf,ch);
-  return;  
+  return;
 }
 
 
@@ -1631,15 +1638,15 @@ void edit_area_purge ( CHAR_DATA *ch )
   OBJ_DATA  *obj_next;
   ROOM_INDEX_DATA *pRoom;
   sh_int vnum;
-  
+
   if (!ch->pcdata->edit.area) {
     send_to_char ("Select an area first.\n\r>  ",ch);
     return;
   }
-  
-  for (vnum = ch->pcdata->edit.area->min_vnum_room;  
-       vnum <= ch->pcdata->edit.area->max_vnum_room;  vnum++) {  
-       
+
+  for (vnum = ch->pcdata->edit.area->min_vnum_room;
+       vnum <= ch->pcdata->edit.area->max_vnum_room;  vnum++) {
+
     pRoom = get_room_index (vnum);
     if (pRoom) {
       for ( victim = pRoom->people; victim != NULL; victim = vnext )
@@ -1651,38 +1658,38 @@ void edit_area_purge ( CHAR_DATA *ch )
 
       for ( obj = pRoom->contents; obj != NULL; obj = obj_next )
       {
-        obj_next = obj->next_content;      
+        obj_next = obj->next_content;
         extract_obj( obj );
       }
     }
   }
-    
+
   send_to_char( "Area purged.\n\r",ch );
 }
 
 void edit_area_new_vnum (CHAR_DATA *ch, char *arg)
 {
-  int vnum;    
-  AREA_DATA *pArea;  
-  
+  int vnum;
+  AREA_DATA *pArea;
+
   vnum = atoi (arg);
   if (vnum == 0) {
     send_to_char ("Invalid vnum.  Operation canceled.\n\r>  ",ch);
-    /* Area is permanent.. no need to free. Let's just 
+    /* Area is permanent.. no need to free. Let's just
        forget about it */
     ch->pcdata->edit.area = ch->pcdata->edit.room->area;
     ch->pcdata->interp_fun = do_menu;
   }
   pArea = ch->pcdata->edit.area;
-  pArea->min_vnum_room = 
-  pArea->max_vnum_room = 
-  pArea->min_vnum_obj  = 
-  pArea->max_vnum_obj  =     
-  pArea->min_vnum_mob  = 
+  pArea->min_vnum_room =
+  pArea->max_vnum_room =
+  pArea->min_vnum_obj  =
+  pArea->max_vnum_obj  =
+  pArea->min_vnum_mob  =
   pArea->max_vnum_mob  = vnum;
   pArea->age      = 15;
   pArea->nplayer  = 0;
-  pArea->empty    = FALSE;  
+  pArea->empty    = FALSE;
   pArea->freeze   = TRUE;
   pArea->under_develop = TRUE;
   pArea->no_transport = FALSE;
@@ -1692,12 +1699,12 @@ void edit_area_new_vnum (CHAR_DATA *ch, char *arg)
     area_last->next = pArea;
   area_last = pArea;
   pArea->next = NULL;
-  top_area++;  
-  
+  top_area++;
+
   create_room (ch,NULL,0,TRUE);
   update_area_list (ch,pArea->file_name);
   save_area (ch,pArea);
-  send_to_char ("Area created.\n\r>  ",ch);  
+  send_to_char ("Area created.\n\r>  ",ch);
   ch->pcdata->interp_fun = do_menu;
 }
 
@@ -1705,9 +1712,9 @@ void edit_area_new_file (CHAR_DATA *ch, char *arg)
 {
   char buf[MAX_STRING_LENGTH];
   char *ptr;
-  FILE *fp;  
-  int idx;  
-  
+  FILE *fp;
+  int idx;
+
   if (!arg[0]) {
     send_to_char ("Invalid filename.  Operation canceled.\n\r>  ",ch);
     /* no use de-allocing area, it's perm */
@@ -1720,10 +1727,10 @@ void edit_area_new_file (CHAR_DATA *ch, char *arg)
     arg[idx] = tolower (arg[idx]);
     idx++;
   }
-  
+
   if ((ptr = strstr (arg,".are")) != NULL) {
-    *ptr = NULL;    
-  }  
+    *ptr = NULL;
+  }
   if (strlen (arg) > 8) {
     arg[8] = NULL;
   }
@@ -1735,29 +1742,29 @@ void edit_area_new_file (CHAR_DATA *ch, char *arg)
     /* no use de-allocing area, it's perm */
     ch->pcdata->edit.area = ch->pcdata->edit.room->area;
     ch->pcdata->interp_fun = do_menu;
-    return;    
-  }  
-  
+    return;
+  }
+
   ch->pcdata->edit.area->file_name = str_dup (buf);
-  
+
   ch->pcdata->interp_fun = &edit_area_new_vnum;
   sprintf (buf,"Filename is '%s'\n\rEnter starting vnum:  ",
-           ch->pcdata->edit.area->file_name);      
-  send_to_char (buf,ch);    
+           ch->pcdata->edit.area->file_name);
+  send_to_char (buf,ch);
 }
 
 void edit_area_new_name ( CHAR_DATA *ch, char *arg )
 {
   char buf[MAX_STRING_LENGTH];
   AREA_DATA *pArea;
-  
+
   pArea = new_area ();
   ch->pcdata->edit.area  = pArea;
   pArea->file_name       = NULL;
   sprintf (buf,"{ All }         %s",arg);
-  pArea->credits         = str_dup (buf);    
-  pArea->name            = str_dup (arg);  
-  
+  pArea->credits         = str_dup (buf);
+  pArea->name            = str_dup (arg);
+
   send_to_char ("Filename (8 characters):  ",ch);
   ch->pcdata->interp_fun = edit_area_new_file;
 }
@@ -1767,22 +1774,22 @@ void edit_area_rename ( CHAR_DATA *ch, char *arg )
   AREA_DATA *area;
   char buf[MAX_STRING_LENGTH],
        buf2[MAX_STRING_LENGTH];
-                               
-  if (strlen (arg) > 16) { 
-    area = ch->pcdata->edit.area;  
-    strcpy (buf2,area->name);  
+
+  if (strlen (arg) > 16) {
+    area = ch->pcdata->edit.area;
+    strcpy (buf2,area->name);
     ch->pcdata->interp_fun = do_menu;
     free_string (area->credits);
     area->credits = str_dup (arg);
     free_string (area->name);
     area->name    = str_dup (&arg[16]);
-    send_to_char ("Area renamed.\n\r>  ",ch);  
-  
+    send_to_char ("Area renamed.\n\r>  ",ch);
+
     sprintf (buf,"Renamed area %s to %s.",buf2,area->name);
     olc_log_string (ch,buf);
   } else {
-    send_to_char ("String must be at lest 16 characters.\n\r>  ",ch);   
-  }  
+    send_to_char ("String must be at lest 16 characters.\n\r>  ",ch);
+  }
 }
 
 void edit_area_select ( CHAR_DATA *ch, char *arg )
@@ -1790,7 +1797,7 @@ void edit_area_select ( CHAR_DATA *ch, char *arg )
   int vnum,min,max;
   AREA_DATA *area;
   char buf[MAX_STRING_LENGTH];
-  
+
   ch->pcdata->interp_fun = do_menu;
   if (is_number (arg)) {
     vnum = atoi (arg);
@@ -1805,7 +1812,7 @@ void edit_area_select ( CHAR_DATA *ch, char *arg )
         return;
       }
       area = area->next;
-    }    
+    }
   } else {
     send_to_char ("Operation cancelled.\n\r>  ",ch);
     return;
@@ -1814,26 +1821,26 @@ void edit_area_select ( CHAR_DATA *ch, char *arg )
 }
 
 void edit_area ( CHAR_DATA *ch, int num )
-{     
+{
   extern void reset_area( AREA_DATA *pArea );
   char buf[MAX_STRING_LENGTH];
-  
+
   switch (num) {
     case ID_EDIT_AREA_SELECT:
       send_to_char ("Enter vnum within area:  ",ch);
-      ch->pcdata->interp_fun = edit_area_select;      
+      ch->pcdata->interp_fun = edit_area_select;
       return;
       break;
     case ID_EDIT_AREA_INFO:
       edit_area_info (ch);
-      break;      
+      break;
     case ID_EDIT_AREA_NEW:
       if (get_trust (ch) < CREATOR) {
         send_to_char ("You do not have permision to create new areas.\n\r>  ",ch);
         return;
       }
-      send_to_char ("Enter name of area:  ",ch);      
-      ch->pcdata->interp_fun = edit_area_new_name;      
+      send_to_char ("Enter name of area:  ",ch);
+      ch->pcdata->interp_fun = edit_area_new_name;
       return;
       break;
     case ID_EDIT_AREA_LOAD:
@@ -1864,7 +1871,7 @@ void edit_area ( CHAR_DATA *ch, int num )
       if (check_range (ch,RANGE_AREA,-1)) {
         if (ch->pcdata->edit.room) {
           bool temp;
-          
+
           temp = ch->pcdata->edit.area->freeze;
           ch->pcdata->edit.area->freeze = TRUE;
           reset_area (ch->pcdata->edit.area);
@@ -1876,12 +1883,12 @@ void edit_area ( CHAR_DATA *ch, int num )
       } else {
         return;
       }
-      break;          
+      break;
     case ID_EDIT_AREA_PURGE:
       if (check_range (ch,RANGE_AREA,-1)) {
         edit_area_purge (ch);
         sprintf (buf,"Purged area %s.",ch->pcdata->edit.area->name);
-        olc_log_string (ch,buf);        
+        olc_log_string (ch,buf);
       } else {
         return;
       }
@@ -1895,17 +1902,17 @@ void edit_area ( CHAR_DATA *ch, int num )
           if (ch->pcdata->edit.area->freeze) {
             send_to_char ("Area frozen.\n\r",ch);
             sprintf (buf,"Froze area %s.",ch->pcdata->edit.area->name);
-            olc_log_string (ch,buf);                    
+            olc_log_string (ch,buf);
           } else {
             send_to_char ("Area unfrozen.\n\r",ch);
             sprintf (buf,"Unfroze area %s.",ch->pcdata->edit.area->name);
-            olc_log_string (ch,buf);                    
+            olc_log_string (ch,buf);
           }
         } else {
           return;
         }
 
-      }      
+      }
       break;
     case ID_EDIT_AREA_UNDER_DEV:
       if (!ch->pcdata->edit.area)
@@ -1916,18 +1923,18 @@ void edit_area ( CHAR_DATA *ch, int num )
           if (ch->pcdata->edit.area->freeze) {
             send_to_char ("Area marked under contruction.\n\r",ch);
             sprintf (buf,"Construction on for area %s.",ch->pcdata->edit.area->name);
-            olc_log_string (ch,buf);                    
+            olc_log_string (ch,buf);
           } else {
             send_to_char ("Under construction removed.\n\r",ch);
             sprintf (buf,"Construction off for area %s.",ch->pcdata->edit.area->name);
-            olc_log_string (ch,buf);                    
+            olc_log_string (ch,buf);
           }
         } else {
           return;
         }
 
-      }      
-      break;       
+      }
+      break;
   }
   send_to_char (">  ",ch);
 }
@@ -1949,11 +1956,11 @@ void edit_room_vnum ( CHAR_DATA *ch, char *arg )
    ROOM_INDEX_DATA *room;
    int vnum;
    char buf[MAX_STRING_LENGTH];
-   
+
    vnum = atoi (arg);
    room = get_room_index (vnum);
    if (!room) {
-     sprintf (buf,"Invalid room vnum %d.\n\r>  ",vnum);     
+     sprintf (buf,"Invalid room vnum %d.\n\r>  ",vnum);
    } else {
      ch->pcdata->edit.room = room;
      sprintf (buf,"Selected Room:  %s [%d]\n\r>  ",room->name,vnum);
@@ -1967,7 +1974,7 @@ void edit_room_info ( CHAR_DATA *ch )
   ROOM_INDEX_DATA *room;
   char buf[MAX_STRING_LENGTH];
   int t;
-  
+
   room = ch->pcdata->edit.room;
   if (!room) {
     send_to_char ("No room selected.\n\r",ch);
@@ -1980,9 +1987,9 @@ void edit_room_info ( CHAR_DATA *ch )
   send_to_char ("Description:\n\r",ch);
   send_to_char (room->description,ch);
   sprintf (buf,"\n\rLight: %s  Sector: %s  Heal Rate: %d  Mana Rate: %d\n\r",
-           room->light ? "Yes":"No",room->sector_type < SECT_MAX  ? 
+           room->light ? "Yes":"No",room->sector_type < SECT_MAX  ?
            capitalize(sector_table[room->sector_type]):"Unknown",
-           room->heal_rate,room->mana_rate);               
+           room->heal_rate,room->mana_rate);
   send_to_char (buf,ch);
   send_to_char ("Room flags:  ",ch);
   show_flags (room->room_flags,mod_room_flags,ch);
@@ -1992,7 +1999,7 @@ void edit_room_info ( CHAR_DATA *ch )
   send_to_char (buf,ch);
   for (t = 0; t < 6; t++ ) {
     EXIT_DATA *pexit;
-    
+
     pexit = room->exit[t];
     if (pexit != NULL) {
       if (pexit->u1.to_room != NULL) {
@@ -2000,59 +2007,59 @@ void edit_room_info ( CHAR_DATA *ch )
                  pexit->u1.to_room->name,pexit->u1.to_room->vnum);
         send_to_char (buf,ch);
       }
-    }  
+    }
   }
-  
-  /* extra descrip */  
+
+  /* extra descrip */
   send_to_char (">  ",ch);
 }
 
 EXIT_DATA *create_exit ()
 {
   EXIT_DATA *exit;
-  
+
   exit             = new_exit ();
   exit->keyword    = str_dup ("door");
   exit->u1.to_room = NULL;
   exit->exit_info  = 0;
   exit->next       = NULL;
   exit->key        = 0;
-  
+
   return exit;
 }
 
 bool create_room ( CHAR_DATA *ch, ROOM_INDEX_DATA *room, int dir, int move_char )
 {
   int vnum,t;
-  ROOM_INDEX_DATA *pRoomIndex; 
-  static ROOM_INDEX_DATA zero_room; 
+  ROOM_INDEX_DATA *pRoomIndex;
+  static ROOM_INDEX_DATA zero_room;
   int iHash,door;
   char buf[MAX_STRING_LENGTH];
-  
+
   vnum = 0;
   for (t = ch->pcdata->edit.area->min_vnum_room;
        t <= (ch->pcdata->edit.area->max_vnum_room+1); t++) {
     if (!get_room_index (t)) {
       vnum = t;
-      break;      
+      break;
     }
   }
   if (vnum == 0) {
     send_to_char ("Out of room vnums for this area.\n\r",ch);
     return FALSE;
   }
-  
+
   if (!check_range (ch,RANGE_ROOM,vnum)) {
-    send_to_char ("Room could not be created.\n\r",ch);    
+    send_to_char ("Room could not be created.\n\r",ch);
     return FALSE;
   }
-  
-  sprintf (buf,"Created room [%d].",vnum);
-  olc_log_string (ch,buf);        
 
-  
-  if (vnum >  ch->pcdata->edit.area->max_vnum_room)  
-    ch->pcdata->edit.area->max_vnum_room = vnum;  
+  sprintf (buf,"Created room [%d].",vnum);
+  olc_log_string (ch,buf);
+
+
+  if (vnum >  ch->pcdata->edit.area->max_vnum_room)
+    ch->pcdata->edit.area->max_vnum_room = vnum;
   pRoomIndex                      = alloc_perm(sizeof(*pRoomIndex));
   *pRoomIndex                     = zero_room;
   pRoomIndex->owner               = str_dup("");
@@ -2062,57 +2069,57 @@ bool create_room ( CHAR_DATA *ch, ROOM_INDEX_DATA *room, int dir, int move_char 
   pRoomIndex->area                = ch->pcdata->edit.area;
   pRoomIndex->vnum                = vnum;
   pRoomIndex->name                = str_dup_perm ("Generic room name");
-  pRoomIndex->description         = str_dup_perm ("Generic room description.\n\r");  
+  pRoomIndex->description         = str_dup_perm ("Generic room description.\n\r");
   pRoomIndex->room_flags          = 0;
   pRoomIndex->sector_type         = ch->pcdata->edit.room->sector_type;
-  pRoomIndex->light               = 0;  
+  pRoomIndex->light               = 0;
   pRoomIndex->clan                = 0;
   pRoomIndex->heal_rate           = 100;
-  pRoomIndex->mana_rate           = 100;  
+  pRoomIndex->mana_rate           = 100;
 
   for ( door = 0; door < 6; door++ )
-      pRoomIndex->exit[door] = NULL;  
-      
+      pRoomIndex->exit[door] = NULL;
+
   iHash                   = vnum % MAX_KEY_HASH;
   pRoomIndex->next        = room_index_hash[iHash];
   room_index_hash[iHash]  = pRoomIndex;
-  top_room++;      
-  
+  top_room++;
+
   if (room) {
       if (room->exit[dir] != NULL)
         free_exit (room->exit[dir]);
-      room->exit[dir] = create_exit ();            
-      room->exit[dir]->u1.to_room = pRoomIndex;      
-      pRoomIndex->exit[rev_dir[dir]] = create_exit ();        
+      room->exit[dir] = create_exit ();
+      room->exit[dir]->u1.to_room = pRoomIndex;
+      pRoomIndex->exit[rev_dir[dir]] = create_exit ();
       pRoomIndex->exit[rev_dir[dir]]->u1.to_room = room;
       sprintf (buf,"[%d] %s connected to [%d]\n\r[%d] %s connected to [%d]\n\r>  ",
                room->vnum,dir_table[dir], pRoomIndex->vnum,
-               pRoomIndex->vnum,dir_table[rev_dir[dir]],room->vnum);        
+               pRoomIndex->vnum,dir_table[rev_dir[dir]],room->vnum);
       send_to_char (buf,ch);
-  }   
+  }
 
-  if (move_char) {    
+  if (move_char) {
     char_from_room (ch);
-    char_to_room (ch, pRoomIndex); 
-    ch->pcdata->edit.room = pRoomIndex; 
-  } else {  
+    char_to_room (ch, pRoomIndex);
+    ch->pcdata->edit.room = pRoomIndex;
+  } else {
     do_menu (ch,NULL);
   }
-  
+
   return TRUE;
-}                                                                             
- 
+}
+
 void edit_room_create_dir (CHAR_DATA *ch, char *arg)
 {
   int t;
   char buf[MAX_STRING_LENGTH];
-  
+
   for ( t = 0; t < 6; t++ ) {
     if (!str_prefix (arg, dir_table[t])) {
       ch->pcdata->edit.exit = t;
       sprintf (buf,"Selected:  %s\n\r",dir_table[t]);
-      send_to_char (buf,ch);      
-      ch->pcdata->interp_fun = do_menu;      
+      send_to_char (buf,ch);
+      ch->pcdata->interp_fun = do_menu;
       if (create_room (ch, ch->pcdata->edit.room, t, TRUE)) {
         sprintf (buf,"Room [%d] created.\n\r>  ",ch->pcdata->edit.room->vnum);
         send_to_char (buf,ch);
@@ -2120,11 +2127,11 @@ void edit_room_create_dir (CHAR_DATA *ch, char *arg)
         send_to_char ("\n\r>  ",ch);
       }
       return;
-    }    
-  }  
-  
+    }
+  }
+
   if (!str_prefix (arg,"none")) {
-    ch->pcdata->interp_fun = do_menu;      
+    ch->pcdata->interp_fun = do_menu;
     send_to_char ("Selected:  None\n\r",ch);
     if (create_room (ch,NULL,0,TRUE)) {
       sprintf (buf,"Room [%d] created.\n\r>  ",ch->pcdata->edit.room->vnum);
@@ -2132,28 +2139,28 @@ void edit_room_create_dir (CHAR_DATA *ch, char *arg)
     } else {
       send_to_char ("\n\r>  ",ch);
     }
-    
+
     return;
   }
-  
+
   send_to_char ("Invalid choice.\n\rWhich directiont [north,east,south,west,up,down,none]:  ",ch);
 }
 
 void edit_room_create (CHAR_DATA *ch)
 {
   char buf[MAX_STRING_LENGTH];
-  
+
   if (ch->pcdata->edit.room) {
     ch->pcdata->interp_fun = edit_room_create_dir;
     send_to_char ("Which direction [north,east,south,west,up,down,none]:  ",ch);
     return;
-  } else {    
+  } else {
     if (create_room ( ch, NULL, 0, TRUE )) {
       sprintf (buf,"Room [%d] created.\n\r>  ",ch->pcdata->edit.room->vnum);
       send_to_char (buf,ch);
     } else {
       send_to_char ("\n\r>  ",ch);
-    }    
+    }
 
     ch->pcdata->interp_fun = do_menu;
   }
@@ -2163,31 +2170,49 @@ void edit_room_clone ( CHAR_DATA *ch, char *arg )
 {
   int vnum;
   ROOM_INDEX_DATA *src,*pRoomIndex;
-  char buf[MAX_STRING_LENGTH];  
-  
+  char buf[MAX_STRING_LENGTH];
+  EXTRA_DESCR_DATA *ed_copy, *ed_last;
+
   vnum = atoi (arg);
   ch->pcdata->interp_fun = do_menu;
   src = get_room_index (vnum);
   if (!src) {
     sprintf (buf,"Room index %d does not exist.\n\r>  ",vnum);
     send_to_char (buf,ch);
-    return;    
-  }        
-  
+    return;
+  }
+
   pRoomIndex = ch->pcdata->edit.room;
-  
-  pRoomIndex->owner               = str_dup (src->owner);  
-  pRoomIndex->extra_descr         = src->extra_descr;
+
+  pRoomIndex->owner               = str_dup (src->owner);
+  pRoomIndex->extra_descr = NULL;
+  ed_last = NULL;
+  for(ed_copy = src->extra_descr; ed_copy; ed_copy = ed_copy->next)
+  {
+    if(!pRoomIndex->extra_descr)
+    {
+      pRoomIndex->extra_descr = new_extra_descr();
+      ed_last = pRoomIndex->extra_descr; 
+    }
+    else
+    {
+      ed_last->next = new_extra_descr();
+      ed_last = ed_last->next;
+    }
+    ed_last->keyword = str_dup_perm(ed_copy->keyword);
+    ed_last->description = str_dup_perm(ed_copy->description);
+    ed_last->next = NULL;
+  }
   pRoomIndex->name                = str_dup_perm (src->name);
-  pRoomIndex->description         = str_dup_perm (src->description);  
+  pRoomIndex->description         = str_dup_perm (src->description);
   pRoomIndex->room_flags          = src->room_flags;
   pRoomIndex->sector_type         = src->sector_type;
-  pRoomIndex->light               = src->light;  
+  pRoomIndex->light               = src->light;
   pRoomIndex->clan                = src->clan;
   pRoomIndex->heal_rate           = src->heal_rate;
-  pRoomIndex->mana_rate           = src->mana_rate; 
+  pRoomIndex->mana_rate           = src->mana_rate;
   send_to_char ("Ok.\n\r>  ",ch);
-  
+
 }
 
 void edit_room_list (CHAR_DATA *ch)
@@ -2197,8 +2222,8 @@ void edit_room_list (CHAR_DATA *ch)
   char buf[MAX_STRING_LENGTH],bigbuf[4*MAX_STRING_LENGTH];
   int col = FALSE;
 
-  bigbuf[0] = NULL;  
-  for (idx = ch->pcdata->edit.area->min_vnum_room; 
+  bigbuf[0] = NULL;
+  for (idx = ch->pcdata->edit.area->min_vnum_room;
        idx <= ch->pcdata->edit.area->max_vnum_room; idx++) {
     if (strlen (bigbuf) > (4*MAX_STRING_LENGTH - 200)) {
       strcat (bigbuf,"\n\rWarning: Buffer Full\n\r");
@@ -2215,22 +2240,22 @@ void edit_room_list (CHAR_DATA *ch)
         strcat (bigbuf,buf);
       } else {
         col = TRUE;
-        if (strlen (buf) > 38) {          
+        if (strlen (buf) > 38) {
           col = FALSE;
         }
         strcat (bigbuf,"\n\r");
         strcat (bigbuf,buf);
       }
-    }       
+    }
   }
   strcat (bigbuf,"\n\r>  ");
   page_to_char (bigbuf,ch);
 }
 
 void edit_room ( CHAR_DATA *ch, int num )
-{   
+{
   char buf[MAX_STRING_LENGTH];
-  
+
   switch (num) {
     case ID_EDIT_VNUM:
       send_to_char ("Enter new vnum:  ",ch);
@@ -2245,16 +2270,16 @@ void edit_room ( CHAR_DATA *ch, int num )
         send_to_char ("Enter vnum to copy from:  ",ch);
         ch->pcdata->interp_fun = edit_room_clone;
         sprintf (buf,"Copied to room [%d].",ch->pcdata->edit.room->vnum);
-        olc_log_string (ch,buf);                        
+        olc_log_string (ch,buf);
       }
-      break;      
+      break;
     case ID_EDIT_LIST:
       edit_room_list (ch);
-      break;      
+      break;
     case ID_EDIT_MODIFY:
       if (check_range (ch,RANGE_ROOM,-1)) {
         sprintf (buf,"Modify room [%d].",ch->pcdata->edit.room->vnum);
-        olc_log_string (ch,buf);                              
+        olc_log_string (ch,buf);
         ch->pcdata->menu = &room_modify_menu;
         do_menu (ch,NULL);
       }
@@ -2269,7 +2294,7 @@ void edit_room_name ( CHAR_DATA *ch, char *arg )
 {
   ROOM_INDEX_DATA *room;
   char buf[MAX_STRING_LENGTH];
-  
+
   room = ch->pcdata->edit.room;
   ch->pcdata->interp_fun = do_menu;
   if (!room) {
@@ -2280,38 +2305,38 @@ void edit_room_name ( CHAR_DATA *ch, char *arg )
     send_to_char ("Invalid entry.\n\r>  ",ch);
     return;
   }
-  
+
   free_string ( room->name );
   room->name = str_dup_perm (arg);
   sprintf (buf,"Room name set to '%s'\n\r>  ",room->name);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_sector_init ( CHAR_DATA *ch, int num )
 {
   ROOM_INDEX_DATA *room;
   char buf[MAX_STRING_LENGTH];
-  
+
   room = ch->pcdata->edit.room;
   if (!room) {
     send_to_char (" - Invalid room.\n\r>  ",ch);
-    return;  
+    return;
   }
-  
+
   sprintf (buf,"Room: %s [%d] - Sector: %s\n\r",room->name,room->vnum,sector_table[room->sector_type]);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_sector ( CHAR_DATA *ch, int num )
 {
   char buf[MAX_STRING_LENGTH];
 
-  ch->pcdata->menu = &room_modify_menu;  
-  if (num == ID_EDIT_PREVIOUS) {    
+  ch->pcdata->menu = &room_modify_menu;
+  if (num == ID_EDIT_PREVIOUS) {
     do_menu (ch,NULL);
     return;
   }
-    
+
   ch->pcdata->edit.room->sector_type = num;
   sprintf (buf,"Sector set to '%s'.\n\r",
     sector_table[ch->pcdata->edit.room->sector_type]);
@@ -2321,50 +2346,50 @@ void edit_sector ( CHAR_DATA *ch, int num )
 
 void edit_room_flags ( CHAR_DATA *ch )
 {
-  ROOM_INDEX_DATA *room;  
-  
+  ROOM_INDEX_DATA *room;
+
   ch->pcdata->interp_fun = do_menu;
-  
+
   room = ch->pcdata->edit.room;
   if (!room) {
-    send_to_char ("Invalid room selected.\n\r>  ",ch);    
+    send_to_char ("Invalid room selected.\n\r>  ",ch);
     return;
   }
-  
-  ch->pcdata->edit.mod_flags = &room->room_flags;  
+
+  ch->pcdata->edit.mod_flags = &room->room_flags;
   build_flag_menu ( mod_room_flags, "Set Room Flags", ch );
   do_menu (ch,NULL);
 }
 
 
 void edit_exit_init ( CHAR_DATA *ch, int num )
-{              
+{
   char buf[MAX_STRING_LENGTH];
-  
+
   sprintf (buf," - Selected Exit:  %s - Mode:  %s\n\r\n\r",
            capitalize (dir_table[ch->pcdata->edit.exit]),
            IS_SET (ch->pcdata->edit.per_flags,EDIT_DOUBLE_DOOR) ?
            "Double sided door":"Single sided door");
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
-    
+
 void edit_room_door_select ( CHAR_DATA *ch, char *arg )
 {
   int t;
   char buf[MAX_STRING_LENGTH];
-  
+
   for ( t = 0; t < 6; t++ ) {
     if (!str_prefix (arg, dir_table[t])) {
       ch->pcdata->edit.exit = t;
       sprintf (buf,"Selected:  %s\n\r",dir_table[t]);
-      send_to_char (buf,ch);      
+      send_to_char (buf,ch);
       ch->pcdata->interp_fun = do_menu;
       do_menu (ch, NULL);
       return;
-    }     
-  }  
-  
-  send_to_char ("Invalid choice.\n\rWhich exit [north,east,south,west,up,down]:  ",ch);  
+    }
+  }
+
+  send_to_char ("Invalid choice.\n\rWhich exit [north,east,south,west,up,down]:  ",ch);
 }
 
 void edit_room_door_info ( CHAR_DATA *ch )
@@ -2372,28 +2397,28 @@ void edit_room_door_info ( CHAR_DATA *ch )
   char buf[MAX_STRING_LENGTH];
   EXIT_DATA *pexit;
   ROOM_INDEX_DATA *room;
-  
-  room = ch->pcdata->edit.room;            
+
+  room = ch->pcdata->edit.room;
 
   if (!room) {
     send_to_char ("Invalid room selected.\n\r>  ",ch);
     return;
-  }  
-  
-  pexit = room->exit[ch->pcdata->edit.exit];  
-  if (!pexit) {
-    send_to_char ("Exit does not exist.\n\rUse destination to create one.\n\r>  ",ch);    
-    return;    
   }
-  
+
+  pexit = room->exit[ch->pcdata->edit.exit];
+  if (!pexit) {
+    send_to_char ("Exit does not exist.\n\rUse destination to create one.\n\r>  ",ch);
+    return;
+  }
+
   sprintf (buf,"Direction:  %s\n\r",dir_table[ch->pcdata->edit.exit]);
   send_to_char (buf,ch);
   sprintf (buf,"Name:  %s\n\r",pexit->keyword);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
   sprintf (buf,"To room:  %s [%d]\n\r",pexit->u1.to_room->name,pexit->u1.to_room->vnum);
   send_to_char (buf,ch);
   send_to_char ("Exit flags:  ",ch);
-  show_flags (pexit->exit_info,room_exit_flags,ch);   
+  show_flags (pexit->exit_info,room_exit_flags,ch);
   send_to_char ("\n\r>  ",ch);
 }
 
@@ -2401,20 +2426,20 @@ EXIT_DATA *other_side ( CHAR_DATA *ch )
 {
   int room_dir;
   EXIT_DATA *exit;
-  
+
   room_dir = rev_dir[ch->pcdata->edit.exit];
-  if ((exit = ch->pcdata->edit.room->exit[room_dir]) != NULL)    
+  if ((exit = ch->pcdata->edit.room->exit[room_dir]) != NULL)
     return exit;
   else
     return NULL;
-}  
+}
 
 void edit_room_door_connect ( CHAR_DATA *ch, char *arg )
-{   
+{
   ROOM_INDEX_DATA *room, *room2;
   int vnum;
   char buf[MAX_STRING_LENGTH];
-  
+
   vnum = atoi (arg);
   room2 = get_room_index (vnum);
   ch->pcdata->interp_fun = do_menu;
@@ -2424,7 +2449,7 @@ void edit_room_door_connect ( CHAR_DATA *ch, char *arg )
       if (room->exit[ch->pcdata->edit.exit] != NULL)
         free_exit (room->exit[ch->pcdata->edit.exit]);
       room->exit[ch->pcdata->edit.exit] = create_exit ();
-      if (IS_SET(ch->pcdata->edit.per_flags,EDIT_DOUBLE_DOOR) && 
+      if (IS_SET(ch->pcdata->edit.per_flags,EDIT_DOUBLE_DOOR) &&
           !check_range (ch,RANGE_ROOM,room2->vnum)) {
         room->exit[ch->pcdata->edit.exit]->u1.to_room = room2;
         sprintf (buf,"[%d] %s connected to [%d]\n\r",room->vnum,
@@ -2435,100 +2460,100 @@ void edit_room_door_connect ( CHAR_DATA *ch, char *arg )
           room->exit[ch->pcdata->edit.exit]->u1.to_room = room2;
           if (room2->exit[rev_dir[ch->pcdata->edit.exit]] != NULL)
             free_exit (room2->exit[rev_dir[ch->pcdata->edit.exit]]);
-          room2->exit[rev_dir[ch->pcdata->edit.exit]] = create_exit ();  
+          room2->exit[rev_dir[ch->pcdata->edit.exit]] = create_exit ();
           room2->exit[rev_dir[ch->pcdata->edit.exit]]->u1.to_room = room;
           sprintf (buf,"[%d] %s connected to [%d]\n\r[%d] %s connected to [%d]\n\r>  ",
                    room->vnum,dir_table[ch->pcdata->edit.exit], room2->vnum,
                    room2->vnum,dir_table[rev_dir[ch->pcdata->edit.exit]],room->vnum);
-            
+
         } else {
           room->exit[ch->pcdata->edit.exit]->u1.to_room = room2;
           sprintf (buf,"[%d] %s connected to [%d]\n\r>  ",room->vnum,
                    dir_table[ch->pcdata->edit.exit], room2->vnum);
-        }  
+        }
       }
     } else {
-      send_to_char ( "Valid room not selected.\n\r>  ",ch);    
+      send_to_char ( "Valid room not selected.\n\r>  ",ch);
       return;
-    }    
+    }
     send_to_char (buf,ch);
     return;
-  }  
-  sprintf (buf,"Invalid vnum %d.\n\r>  ",vnum);                                        
-  send_to_char (buf,ch);  
+  }
+  sprintf (buf,"Invalid vnum %d.\n\r>  ",vnum);                                 
+  send_to_char (buf,ch);
 }
 
 void edit_room_door_keyword ( CHAR_DATA *ch, char *arg )
 {
   ROOM_INDEX_DATA *room;
   char buf[MAX_STRING_LENGTH];
-  
+
   ch->pcdata->interp_fun = do_menu;
   if (!arg || !arg[0]) {
-    send_to_char ("Invalid keyword.\n\r>  ",ch);    
+    send_to_char ("Invalid keyword.\n\r>  ",ch);
     return;
-  }
-  
-  room = ch->pcdata->edit.room;
-  if (!room) {
-    send_to_char ("Invalid room selected.\n\r>  ",ch);    
-    return;
-  }
-  
-  if (room->exit[ch->pcdata->edit.exit] == NULL) {
-    send_to_char ("Exit does not exist.\n\rUse destination to create one.\n\r>  ",ch);    
-    return;    
   }
 
-  free_string (room->exit[ch->pcdata->edit.exit]->keyword);  
-  room->exit[ch->pcdata->edit.exit]->keyword = str_dup_perm (arg);    
+  room = ch->pcdata->edit.room;
+  if (!room) {
+    send_to_char ("Invalid room selected.\n\r>  ",ch);
+    return;
+  }
+
+  if (room->exit[ch->pcdata->edit.exit] == NULL) {
+    send_to_char ("Exit does not exist.\n\rUse destination to create one.\n\r>  ",ch);
+    return;
+  }
+
+  free_string (room->exit[ch->pcdata->edit.exit]->keyword);
+  room->exit[ch->pcdata->edit.exit]->keyword = str_dup_perm (arg);
   sprintf (buf,"Exit %s keyword set to %s.\n\r>  ",dir_table[ch->pcdata->edit.exit],arg);
   send_to_char (buf,ch);
-} 
+}
 
 void edit_room_door_key ( CHAR_DATA *ch, char *arg )
 {
   int vnum;
   ROOM_INDEX_DATA *room;
-  char buf[MAX_STRING_LENGTH];  
-  
+  char buf[MAX_STRING_LENGTH];
+
   ch->pcdata->interp_fun = do_menu;
-  
+
   room = ch->pcdata->edit.room;
   if (!room) {
-    send_to_char ("Invalid room selected.\n\r>  ",ch);    
+    send_to_char ("Invalid room selected.\n\r>  ",ch);
     return;
   }
-  
+
   if (room->exit[ch->pcdata->edit.exit] == NULL) {
-    send_to_char ("Exit does not exist.\n\rUse destination to create one.\n\r>  ",ch);    
+    send_to_char ("Exit does not exist.\n\rUse destination to create one.\n\r>  ",ch);
     return;
   }
-  
+
   vnum = atoi (arg);
   room->exit[ch->pcdata->edit.exit]->key = vnum;
-  sprintf (buf,"Exit %s key vnum set to %d.\n\r>  ",dir_table[ch->pcdata->edit.exit],vnum);  
+  sprintf (buf,"Exit %s key vnum set to %d.\n\r>  ",dir_table[ch->pcdata->edit.exit],vnum);
   send_to_char (buf,ch);
-} 
+}
 
 void edit_door_flags ( CHAR_DATA *ch )
-{ 
-  ROOM_INDEX_DATA *room;  
-  
+{
+  ROOM_INDEX_DATA *room;
+
   ch->pcdata->interp_fun = do_menu;
-  
+
   room = ch->pcdata->edit.room;
   if (!room) {
-    send_to_char ("Invalid room selected.\n\r>  ",ch);    
+    send_to_char ("Invalid room selected.\n\r>  ",ch);
     return;
   }
-  
+
   if (room->exit[ch->pcdata->edit.exit] == NULL) {
-    send_to_char ("Exit does not exist.\n\rUse destination to create one.\n\r>  ",ch);    
+    send_to_char ("Exit does not exist.\n\rUse destination to create one.\n\r>  ",ch);
     return;
-  }  
-  
-  ch->pcdata->edit.mod_flags = &room->exit[ch->pcdata->edit.exit]->exit_info;  
+  }
+
+  ch->pcdata->edit.mod_flags = &room->exit[ch->pcdata->edit.exit]->exit_info;
   build_flag_menu ( room_exit_flags, "Set Exit Flags", ch );
   do_menu (ch,NULL);
 }
@@ -2544,12 +2569,12 @@ void edit_door_flags ( CHAR_DATA *ch )
     sh_int              key;
     char *              keyword;
     char *              description; */
-    
+
 void copy_other_side (CHAR_DATA *ch)
 {
   int room_dir;
   EXIT_DATA *exit,*other;
-  
+
   room_dir = rev_dir[ch->pcdata->edit.exit];
   if ((exit = ch->pcdata->edit.room->exit[ch->pcdata->edit.exit]) != NULL) {
     if (exit->u1.to_room) {
@@ -2559,17 +2584,17 @@ void copy_other_side (CHAR_DATA *ch)
           other->key       = exit->key;
           other->keyword   = str_dup (exit->keyword);
           send_to_char ("Ok.\n\r>  ",ch);
-        } else {                
-          send_to_char ("Other side does not point to this room.\n\r>  ",ch);          
+        } else {
+          send_to_char ("Other side does not point to this room.\n\r>  ",ch);   
         }
       } else {
-        send_to_char ("No door on the other side.\n\r>  ",ch);    
-      }      
+        send_to_char ("No door on the other side.\n\r>  ",ch);
+      }
     } else {
-      send_to_char ("This exit does not point to valid room.\n\r>  ",ch);      
-    }  
+      send_to_char ("This exit does not point to valid room.\n\r>  ",ch);
+    }
   } else {
-    send_to_char ("Create an exit first.\n\r>  ",ch);    
+    send_to_char ("Create an exit first.\n\r>  ",ch);
   }
 }
 
@@ -2578,7 +2603,7 @@ void edit_door_remove (CHAR_DATA *ch)
   int room_dir;
   EXIT_DATA *exit,*other;
   ROOM_INDEX_DATA *room;
-  
+
   room_dir = rev_dir[ch->pcdata->edit.exit];
   if ((exit = ch->pcdata->edit.room->exit[ch->pcdata->edit.exit]) != NULL) {
     if (exit->u1.to_room) {
@@ -2586,19 +2611,19 @@ void edit_door_remove (CHAR_DATA *ch)
             IS_SET(ch->pcdata->edit.per_flags,EDIT_DOUBLE_DOOR)) {
          room = exit->u1.to_room;
          free_exit (other);
-         room->exit[room_dir] = NULL;         
+         room->exit[room_dir] = NULL;
       }
       ch->pcdata->edit.room->exit[ch->pcdata->edit.exit] = NULL;
-      free_exit (exit);      
+      free_exit (exit);
       send_to_char ("Ok.\n\r>  ",ch);
     } else {
-      send_to_char ("This exit does not point to valid room.\n\r>  ",ch);      
-    }  
+      send_to_char ("This exit does not point to valid room.\n\r>  ",ch);
+    }
   } else {
-    send_to_char ("There is no exit in that direction.\n\r>  ",ch);    
+    send_to_char ("There is no exit in that direction.\n\r>  ",ch);
   }
 }
-    
+
 void edit_room_exits ( CHAR_DATA *ch, int num )
 {
   switch (num) {
@@ -2608,7 +2633,7 @@ void edit_room_exits ( CHAR_DATA *ch, int num )
       break;
     case ID_DOOR_INFO:
       edit_room_door_info (ch);
-      break;  
+      break;
     case ID_DOOR_VNUM:
       send_to_char (IS_SET (ch->pcdata->edit.per_flags,EDIT_DOUBLE_DOOR) ?
                     "Mode:  Double Sided Door\n\r":"Mode:  Single Sided Door\n\r",ch);
@@ -2624,14 +2649,14 @@ void edit_room_exits ( CHAR_DATA *ch, int num )
       ch->pcdata->interp_fun = edit_room_door_key;
       break;
     case ID_DOOR_FLAGS:
-      edit_door_flags (ch);      
+      edit_door_flags (ch);
       break;
     case ID_DOOR_COPY:
       copy_other_side (ch);
       break;
     case ID_DOOR_REMOVE:
       edit_door_remove (ch);
-      break;      
+      break;
     case ID_EDIT_PREVIOUS:
       ch->pcdata->menu = &room_modify_menu;
       do_menu (ch,NULL);
@@ -2640,15 +2665,15 @@ void edit_room_exits ( CHAR_DATA *ch, int num )
 }
 
 void edit_room_desc ( CHAR_DATA *ch, char *buf )
-{   
-  ch->pcdata->edit.room->description = str_dup_perm (buf);  
+{
+  ch->pcdata->edit.room->description = str_dup_perm (buf);
   send_to_char (">  ",ch);
 }
 
 void edit_room_extend_desc ( CHAR_DATA *ch, char *arg )
 {
 
-  
+
   /* no need to free string */
   ch->pcdata->edit.room->extra_descr->description = str_dup (arg);
   send_to_char (">  ",ch);
@@ -2658,24 +2683,24 @@ void edit_room_clan ( CHAR_DATA *ch, char *arg )
 {
   int num;
   char buf[MAX_STRING_LENGTH];
-  
+
   ch->pcdata->interp_fun = do_menu;
   num = ch->pcdata->edit.room->clan = clan_lookup(arg);
   if (num == 0) {
     send_to_char ("Clan not found.  Set to no clan.\n\r>  ",ch);
     return;
   }
-  
+
   sprintf (buf,"Room set to clan '%s'.\n\r>  ",clan_table[num].name);
   send_to_char (buf,ch);
-  
+
 }
 
 void edit_room_extend_add ( CHAR_DATA *ch, char *arg )
 {
   EXTRA_DESCR_DATA *ed,*first_ed,*prev_ed;
   char buf[MAX_STRING_LENGTH];
-    
+
   prev_ed = NULL;
   first_ed = ed = ch->pcdata->edit.room->extra_descr;
   while (ed) {
@@ -2686,22 +2711,22 @@ void edit_room_extend_add ( CHAR_DATA *ch, char *arg )
         ch->pcdata->edit.room->extra_descr = ed;
         sprintf (buf,"Editing extended '%s'.\n\r",ed->keyword);
         send_to_char (buf,ch);
-      }      
+      }
       break;
     }
     prev_ed = ed;
-    ed = ed->next;      
+    ed = ed->next;
   }
-  
-  if (ed == NULL) {  
+
+  if (ed == NULL) {
     ed = new_extra_descr();
     ed->keyword = str_dup (arg);
     ed->description = str_dup_perm ("Generic extended description.\n\r");
     ed->next = first_ed;
-    ch->pcdata->edit.room->extra_descr = ed;    
+    ch->pcdata->edit.room->extra_descr = ed;
     send_to_char ("Creating new extended.\n\r",ch);
   }
-  
+
   do_line_editor (ch,ch->pcdata->edit.room->extra_descr->description,
                   &edit_room_extend_desc);
 }
@@ -2711,52 +2736,52 @@ void edit_room_extend_rem ( CHAR_DATA *ch, char *arg )
   EXTRA_DESCR_DATA *ed,*first_ed,*prev_ed;
   char buf[MAX_STRING_LENGTH];
   bool found = FALSE;
-    
+
   prev_ed = NULL;
   ch->pcdata->interp_fun = do_menu;
   first_ed = ed = ch->pcdata->edit.room->extra_descr;
   while (ed) {
     if (!str_prefix (arg,ed->keyword)) {
-      if (prev_ed) {                
-        prev_ed->next = ed->next;        
+      if (prev_ed) {
+        prev_ed->next = ed->next;
       } else {
-        ch->pcdata->edit.room->extra_descr = ed->next;        
-      }       
-      sprintf (buf,"Extended description '%s' removed.\n\r>  ",ed->keyword);      
+        ch->pcdata->edit.room->extra_descr = ed->next;
+      }
+      sprintf (buf,"Extended description '%s' removed.\n\r>  ",ed->keyword);    
       send_to_char (buf,ch);
       found = TRUE;
-      free_extra_descr (ed);      
+      free_extra_descr (ed);
       break;
     }
     prev_ed = ed;
-    ed = ed->next;      
+    ed = ed->next;
   }
-  
-  if (!found) {  
+
+  if (!found) {
     send_to_char ("Extended description not found.\n\r>  ",ch);
-  }  
+  }
 }
 
 void edit_room_owner ( CHAR_DATA *ch, char *arg )
 {
   char buf[MAX_STRING_LENGTH];
-                              
-  ch->pcdata->interp_fun = do_menu;                              
+
+  ch->pcdata->interp_fun = do_menu;
   if (!strcmp (arg,"clear")) {
     ch->pcdata->edit.room->owner = NULL;
     send_to_char ("Owner cleared.\n\r>  ",ch);
     return;
   }
-  
+
   sprintf (buf,"Owners set to:  %s\n\r>  ",arg);
   send_to_char (buf,ch);
-  ch->pcdata->edit.room->owner = str_dup (arg);  
+  ch->pcdata->edit.room->owner = str_dup (arg);
 }
 
 void edit_room_heal ( CHAR_DATA *ch, char *arg )
 {
   int num;
-  
+
   ch->pcdata->interp_fun = do_menu;
   if (is_number (arg)) {
     num = atoi (arg);
@@ -2764,13 +2789,13 @@ void edit_room_heal ( CHAR_DATA *ch, char *arg )
     send_to_char ("Ok.\n\r>  ",ch);
     return;
   }
-  send_to_char ("Invalid entry.\n\r>  ",ch);  
+  send_to_char ("Invalid entry.\n\r>  ",ch);
 }
 
 void edit_room_mana ( CHAR_DATA *ch, char *arg )
 {
   int num;
-  
+
   ch->pcdata->interp_fun = do_menu;
   if (is_number (arg)) {
     num = atoi (arg);
@@ -2778,13 +2803,13 @@ void edit_room_mana ( CHAR_DATA *ch, char *arg )
     send_to_char ("Ok.\n\r>  ",ch);
     return;
   }
-  send_to_char ("Invalid entry.\n\r>  ",ch);  
+  send_to_char ("Invalid entry.\n\r>  ",ch);
 }
 
 void edit_room_obs ( CHAR_DATA *ch, char *arg )
 {
   int num;
-  
+
   ch->pcdata->interp_fun = do_menu;
   if (is_number (arg)) {
     num = atoi (arg);
@@ -2792,13 +2817,13 @@ void edit_room_obs ( CHAR_DATA *ch, char *arg )
     send_to_char ("Ok.\n\r>  ",ch);
     return;
   }
-  send_to_char ("Invalid entry.\n\r>  ",ch);  
+  send_to_char ("Invalid entry.\n\r>  ",ch);
 }
 
 void edit_room_modify ( CHAR_DATA *ch, int num )
 {
   char buf[MAX_STRING_LENGTH];
-  
+
   switch (num) {
     case ID_ROOM_NAME:
       sprintf (buf,"Current Name:  %s\n\rNew name (Nothing to cancel):  ",
@@ -2810,11 +2835,11 @@ void edit_room_modify ( CHAR_DATA *ch, int num )
       if (!ch->pcdata->edit.room)
         send_to_char ("Select a room first.\n\r>  ",ch);
       else
-        do_line_editor (ch,ch->pcdata->edit.room->description,&edit_room_desc);      
+        do_line_editor (ch,ch->pcdata->edit.room->description,&edit_room_desc); 
       break;
     case ID_ROOM_OWNER:
       send_to_char ("Enter owners of room or [clear]:  ",ch);
-      ch->pcdata->interp_fun = edit_room_owner;  
+      ch->pcdata->interp_fun = edit_room_owner;
       break;
     case ID_ROOM_FLAGS:
       edit_room_flags ( ch );
@@ -2830,7 +2855,7 @@ void edit_room_modify ( CHAR_DATA *ch, int num )
     case ID_ROOM_MANA:
       send_to_char ("Enter mana rate:  ",ch);
       ch->pcdata->interp_fun = edit_room_mana;
-      break;      
+      break;
     case ID_ROOM_DOOR:
       ch->pcdata->menu = &exit_modify_menu;
       send_to_char ("Which exit [north,east,south,west,up,down]:  ",ch);
@@ -2846,17 +2871,17 @@ void edit_room_modify ( CHAR_DATA *ch, int num )
       break;
     case ID_ROOM_EXTENDED:
       send_to_char ("Enter keyword:  ",ch);
-      ch->pcdata->interp_fun = edit_room_extend_add;          
+      ch->pcdata->interp_fun = edit_room_extend_add;
       break;
     case ID_ROOM_REM_EXTEND:
       send_to_char ("Enter keyword to remove:  ",ch);
-      ch->pcdata->interp_fun = edit_room_extend_rem;    
-      break;      
+      ch->pcdata->interp_fun = edit_room_extend_rem;
+      break;
     case ID_EDIT_PREVIOUS:
       ch->pcdata->menu = &room_menu;
       do_menu (ch,NULL);
       break;
-  }  
+  }
 }
 
 void edit_mob_init ( CHAR_DATA *ch, int num )
@@ -2881,7 +2906,7 @@ void edit_mob_vnum ( CHAR_DATA *ch, char *arg )
    vnum = atoi (arg);
    mob = get_mob_index (vnum);
    if (!mob) {
-     sprintf (buf,"Invalid mob vnum %d.\n\r>  ",vnum);     
+     sprintf (buf,"Invalid mob vnum %d.\n\r>  ",vnum);
    } else {
      ch->pcdata->edit.mob = mob;
      sprintf (buf,"Selected Mob:  %s [%d]\n\r>  ",mob->short_descr,vnum);
@@ -2897,8 +2922,8 @@ void edit_mob_list (CHAR_DATA *ch)
   char buf[MAX_STRING_LENGTH],bigbuf[4*MAX_STRING_LENGTH];
   int col = FALSE;
 
-  bigbuf[0] = NULL;  
-  for (idx = ch->pcdata->edit.area->min_vnum_mob; 
+  bigbuf[0] = NULL;
+  for (idx = ch->pcdata->edit.area->min_vnum_mob;
        idx <= ch->pcdata->edit.area->max_vnum_mob; idx++) {
     if (strlen (bigbuf) > (4*MAX_STRING_LENGTH - 200)) {
       strcat (bigbuf,"\n\rWarning: Buffer Full\n\r");
@@ -2915,13 +2940,13 @@ void edit_mob_list (CHAR_DATA *ch)
         strcat (bigbuf,buf);
       } else {
         col = TRUE;
-        if (strlen (buf) > 38) {          
+        if (strlen (buf) > 38) {
           col = FALSE;
         }
         strcat (bigbuf,"\n\r");
         strcat (bigbuf,buf);
       }
-    }       
+    }
   }
   strcat (bigbuf,"\n\r>  ");
   page_to_char (bigbuf,ch);
@@ -2933,31 +2958,31 @@ void edit_mob_create (CHAR_DATA *ch)
   int vnum, iHash, t;
   extern KILL_DATA kill_table[MAX_LEVEL];
   char buf[MAX_STRING_LENGTH];
-  
+
   vnum = 0;
   for (t = ch->pcdata->edit.area->min_vnum_mob;
        t <= (ch->pcdata->edit.area->max_vnum_mob+1); t++) {
     if (!get_mob_index (t)) {
       vnum = t;
-      break;      
+      break;
     }
   }
   if (vnum == 0) {
     send_to_char ("Out of mob vnums for this area.\n\r",ch);
     return;
   }
-  
+
   if (!check_range (ch,RANGE_MOB,vnum)) {
     send_to_char ("Mob could not be created.\n\r",ch);
     return;
-  }  
-  
+  }
+
   sprintf (buf,"Created mob [%d].",vnum);
   olc_log_string (ch,buf);
-  
-  if (vnum >  ch->pcdata->edit.area->max_vnum_mob)  
-    ch->pcdata->edit.area->max_vnum_mob = vnum;  
-  
+
+  if (vnum >  ch->pcdata->edit.area->max_vnum_mob)
+    ch->pcdata->edit.area->max_vnum_mob = vnum;
+
   mob = alloc_perm (sizeof (MOB_INDEX_DATA));
   mob->new_format  = TRUE;
   mob->vnum        = vnum;
@@ -2996,69 +3021,69 @@ void edit_mob_create (CHAR_DATA *ch)
                      PART_BRAINS|PART_GUTS;
   mob->size        = SIZE_MEDIUM;
   mob->material    = str_dup("0");
-  
+
   iHash            = vnum % MAX_KEY_HASH;
   mob->next        = mob_index_hash[iHash];
   mob_index_hash[iHash] = mob;
   top_mob_index++;
-  kill_table[URANGE(0, mob->level, MAX_LEVEL-1)].number++;  
+  kill_table[URANGE(0, mob->level, MAX_LEVEL-1)].number++;
   ch->pcdata->edit.mob = mob;
   send_to_char ("Ok.\n\r",ch);
 }
 
 void edit_mob_name ( CHAR_DATA *ch, char *arg )
-{ 
+{
   MOB_INDEX_DATA *mob;
   char buf[MAX_STRING_LENGTH];
-  
+
   mob = ch->pcdata->edit.mob;
   ch->pcdata->interp_fun = do_menu;
   if (!arg[0]) {
     send_to_char ("Name not changed.\n\r>  ",ch);
     return;
   }
-  
+
   free_string (mob->player_name);
   mob->player_name = str_dup_perm (arg);
   sprintf (buf,"Name set to '%s'.\n\r>",mob->player_name);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_mob_short ( CHAR_DATA *ch, char *arg )
-{ 
+{
   MOB_INDEX_DATA *mob;
   char buf[MAX_STRING_LENGTH];
-  
+
   mob = ch->pcdata->edit.mob;
   ch->pcdata->interp_fun = do_menu;
   if (!arg[0]) {
     send_to_char ("Short description not changed.\n\r>  ",ch);
     return;
   }
-  
+
   free_string (mob->short_descr);
   mob->short_descr = str_dup_perm (arg);
   sprintf (buf,"Short set to '%s'.\n\r> ",mob->short_descr);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_mob_long ( CHAR_DATA *ch, char *arg )
-{ 
+{
   MOB_INDEX_DATA *mob;
   char buf[MAX_STRING_LENGTH];
-  
+
   mob = ch->pcdata->edit.mob;
   ch->pcdata->interp_fun = do_menu;
   if (!arg[0]) {
     send_to_char ("Long description not changed.\n\r>  ",ch);
     return;
   }
-  
+
   strcat (arg,"\n\r");
   free_string (mob->long_descr);
   mob->long_descr = str_dup_perm (arg);
   sprintf (buf,"Long:  %s> ",mob->long_descr);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_mob_spec_words ( CHAR_DATA *ch, char *arg )
@@ -3067,7 +3092,7 @@ void edit_mob_spec_words ( CHAR_DATA *ch, char *arg )
   char buf[MAX_STRING_LENGTH];
   char arg1[MAX_STRING_LENGTH];
   int v;
-  
+
   mob = ch->pcdata->edit.mob;
   ch->pcdata->interp_fun = do_menu;
   if (!arg[0]) {
@@ -3089,11 +3114,11 @@ void edit_mob_spec_words ( CHAR_DATA *ch, char *arg )
 }
 
 void edit_mob_level ( CHAR_DATA *ch, char *arg )
-{ 
+{
   MOB_INDEX_DATA *mob;
   char buf[MAX_STRING_LENGTH];
   int level;
-  
+
   mob = ch->pcdata->edit.mob;
   ch->pcdata->interp_fun = do_menu;
   if (!arg[0]) {
@@ -3105,18 +3130,18 @@ void edit_mob_level ( CHAR_DATA *ch, char *arg )
     send_to_char ("Level must be from 0 to 60.\n\r>  ",ch);
     return;
   }
-  
+
   mob->level = level;
   sprintf (buf,"Level set to %d.\n\r> ",level);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_mob_align ( CHAR_DATA *ch, char *arg )
-{ 
+{
   MOB_INDEX_DATA *mob;
   char buf[MAX_STRING_LENGTH];
   int align;
-  
+
   mob = ch->pcdata->edit.mob;
   ch->pcdata->interp_fun = do_menu;
   if (!arg[0]) {
@@ -3128,28 +3153,28 @@ void edit_mob_align ( CHAR_DATA *ch, char *arg )
     send_to_char ("Alignment must be from -1000 to 1000.\n\r>  ",ch);
     return;
   }
-  
+
   mob->alignment = align;
   sprintf (buf,"Alignment set to %d.\n\r> ",align);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_mob_desc (CHAR_DATA *ch, char *buf)
 {
   /* free_string (ch->pcdata->edit.mob->description); */
   ch->pcdata->edit.mob->description = str_dup_perm (buf);
-  send_to_char (">  ",ch);  
+  send_to_char (">  ",ch);
 }
 
 void edit_mob_ac_magic (CHAR_DATA *ch,char *arg)
-{   
+{
   char buf[100];
   int num;
-  
+
   num = atoi (arg);
   if (num > 500) num = 500;
   if (num < -500) num = -500;
-  
+
   ch->pcdata->edit.mob->ac[AC_EXOTIC] = num;
   sprintf (buf,"Magic AC set to %d.\n\r>  ",num);
   send_to_char (buf,ch);
@@ -3157,14 +3182,14 @@ void edit_mob_ac_magic (CHAR_DATA *ch,char *arg)
 }
 
 void edit_mob_ac_slash (CHAR_DATA *ch,char *arg)
-{   
+{
   char buf[MAX_STRING_LENGTH];
   int num;
-  
+
   num = atoi (arg);
   if (num > 500) num = 500;
   if (num < -500) num = -500;
-  
+
   ch->pcdata->edit.mob->ac[AC_SLASH] = num;
   sprintf (buf,"Slash AC set to %d.\n\rEnter magic AC (-500 - 500):  ",num);
   send_to_char (buf,ch);
@@ -3172,14 +3197,14 @@ void edit_mob_ac_slash (CHAR_DATA *ch,char *arg)
 }
 
 void edit_mob_ac_bash (CHAR_DATA *ch,char *arg)
-{   
+{
   char buf[MAX_STRING_LENGTH];
   int num;
-  
+
   num = atoi (arg);
   if (num > 500) num = 500;
   if (num < -500) num = -500;
-  
+
   ch->pcdata->edit.mob->ac[AC_BASH] = num;
   sprintf (buf,"Bash AC set to %d.\n\rEnter slash AC (-500 - 500):  ",num);
   send_to_char (buf,ch);
@@ -3187,14 +3212,14 @@ void edit_mob_ac_bash (CHAR_DATA *ch,char *arg)
 }
 
 void edit_mob_ac_pierce (CHAR_DATA *ch,char *arg)
-{   
+{
   char buf[MAX_STRING_LENGTH];
   int num;
-  
+
   num = atoi (arg);
   if (num > 500) num = 500;
   if (num < -500) num = -500;
-  
+
   ch->pcdata->edit.mob->ac[AC_PIERCE] = num;
   sprintf (buf,"Pierce AC set to %d.\n\rEnter bash AC (-500 - 500):  ",num);
   send_to_char (buf,ch);
@@ -3202,14 +3227,14 @@ void edit_mob_ac_pierce (CHAR_DATA *ch,char *arg)
 }
 
 void edit_mob_hp (CHAR_DATA *ch,char *arg)
-{ 
+{
   char buf[MAX_STRING_LENGTH];
   MOB_INDEX_DATA *mob;
   int hit0,hit1,hit2;
-  
+
   ch->pcdata->interp_fun = do_menu;
-  
-  mob = ch->pcdata->edit.mob;  
+
+  mob = ch->pcdata->edit.mob;
   if (sscanf (arg,"%dd%d+%d",&hit0,&hit1,&hit2) != 3) {
     send_to_char ("Invalid format.  Format is 'ndn+n'.\n\r>  ",ch);
     return;
@@ -3217,21 +3242,21 @@ void edit_mob_hp (CHAR_DATA *ch,char *arg)
   mob->hit[DICE_NUMBER] = hit0;
   mob->hit[DICE_TYPE]   = hit1;
   mob->hit[DICE_BONUS]  = hit2;
-  
+
   sprintf (buf,"Hit Dice set too %dd%d+%d.\n\r>  ",mob->hit[DICE_NUMBER],
     mob->hit[DICE_TYPE],mob->hit[DICE_BONUS]);
   send_to_char (buf,ch);
 }
 
 void edit_mob_mana (CHAR_DATA *ch,char *arg)
-{ 
+{
   char buf[MAX_STRING_LENGTH];
   MOB_INDEX_DATA *mob;
   int hit0,hit1,hit2;
-  
+
   ch->pcdata->interp_fun = do_menu;
-  
-  mob = ch->pcdata->edit.mob;  
+
+  mob = ch->pcdata->edit.mob;
   if (sscanf (arg,"%dd%d+%d",&hit0,&hit1,&hit2) != 3) {
     send_to_char ("Invalid format.  Format is 'ndn+n'.\n\r>  ",ch);
     return;
@@ -3239,21 +3264,21 @@ void edit_mob_mana (CHAR_DATA *ch,char *arg)
   mob->mana[DICE_NUMBER] = hit0;
   mob->mana[DICE_TYPE]   = hit1;
   mob->mana[DICE_BONUS]  = hit2;
-  
+
   sprintf (buf,"Mana Dice set too %dd%d+%d.\n\r>  ",mob->mana[DICE_NUMBER],
     mob->mana[DICE_TYPE],mob->mana[DICE_BONUS]);
   send_to_char (buf,ch);
 }
 
 void edit_mob_dam (CHAR_DATA *ch,char *arg)
-{ 
+{
   char buf[MAX_STRING_LENGTH];
   MOB_INDEX_DATA *mob;
   int hit0,hit1,hit2;
-  
+
   ch->pcdata->interp_fun = do_menu;
-  
-  mob = ch->pcdata->edit.mob;  
+
+  mob = ch->pcdata->edit.mob;
   if (sscanf (arg,"%dd%d+%d",&hit0,&hit1,&hit2) != 3) {
     send_to_char ("Invalid format.  Format is 'ndn+n'.\n\r>  ",ch);
     return;
@@ -3261,7 +3286,7 @@ void edit_mob_dam (CHAR_DATA *ch,char *arg)
   mob->damage[DICE_NUMBER] = hit0;
   mob->damage[DICE_TYPE]   = hit1;
   mob->damage[DICE_BONUS]  = hit2;
-  
+
   sprintf (buf,"Damage Dice set too %dd%d+%d.\n\r>  ",mob->damage[DICE_NUMBER],
     mob->damage[DICE_TYPE],mob->damage[DICE_BONUS]);
   send_to_char (buf,ch);
@@ -3272,7 +3297,7 @@ void edit_mob_hit (CHAR_DATA *ch, char *arg)
   MOB_INDEX_DATA *mob;
   char buf[MAX_STRING_LENGTH];
   int hit;
-  
+
   mob = ch->pcdata->edit.mob;
   ch->pcdata->interp_fun = do_menu;
   if (!arg[0]) {
@@ -3302,7 +3327,7 @@ void edit_mob_attack (CHAR_DATA *ch, int num)
     count++;
   }
   count -= 1;
-  
+
   mob = ch->pcdata->edit.mob;
   if (num == 0) {
     sprintf (buf," - Selected: [%d] %s - Attack Type: %s\n\r",mob->vnum,
@@ -3310,19 +3335,19 @@ void edit_mob_attack (CHAR_DATA *ch, int num)
     send_to_char (buf,ch);
     return;
   }
-  
+
   if ((num > 0) && (num <= count)) {
     mob->dam_type = num;
     sprintf (buf,"Attack type now %s.\n\r>  ",
       capitalize(attack_table[mob->dam_type].name));
     send_to_char (buf,ch);
     destroy_attack_menu (ch);
-    return;    
+    return;
   }
   send_to_char ("Operation canceled.\n\r>  ",ch);
   destroy_attack_menu (ch);
   do_menu (ch,NULL);
-  return;      
+  return;
 }
 
 void edit_mob_sex ( CHAR_DATA *ch, char *arg )
@@ -3331,32 +3356,32 @@ void edit_mob_sex ( CHAR_DATA *ch, char *arg )
   if (!str_prefix (arg,"male")) {
     send_to_char ("Sex set to male.\n\r>  ",ch);
     ch->pcdata->edit.mob->sex = SEX_MALE;
-    return;    
+    return;
   }
   if (!str_prefix (arg,"female")) {
     send_to_char ("Sex set to female.\n\r>  ",ch);
     ch->pcdata->edit.mob->sex = SEX_FEMALE;
-    return;    
+    return;
   }
   if (!str_prefix (arg,"nosex")) {
     send_to_char ("Sex set to sexless.\n\r>  ",ch);
     ch->pcdata->edit.mob->sex = SEX_NEUTRAL;
-    return;    
+    return;
   }
-  
-  send_to_char ("Invalid choice.  Sex not changed.\n\r>  ",ch);  
+
+  send_to_char ("Invalid choice.  Sex not changed.\n\r>  ",ch);
 }
 
 void edit_mob_wealth ( CHAR_DATA *ch, char *arg )
 {
   int wealth;
   char buf[MAX_STRING_LENGTH];
-  
+
   wealth = atoi (arg);
   ch->pcdata->interp_fun = do_menu;
   sprintf (buf,"Mob wealth set to %d.\n\r>  ",wealth);
   ch->pcdata->edit.mob->wealth = wealth;
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_mob_size_init ( CHAR_DATA *ch, int num )
@@ -3366,10 +3391,10 @@ void edit_mob_size_init ( CHAR_DATA *ch, int num )
   char buf[MAX_STRING_LENGTH];
 
   size = ch->pcdata->edit.mob->size;
-  if (size < 0 || size > 5) 
+  if (size < 0 || size > 5)
     size = ch->pcdata->edit.mob->size = 2;
   sprintf (buf," - Current mob size '%s'\n\r",size_table[size]);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_mob_size ( CHAR_DATA *ch, int num )
@@ -3378,12 +3403,12 @@ void edit_mob_size ( CHAR_DATA *ch, int num )
     send_to_char ("Operation Cancelled.\n\r",ch);
     ch->pcdata->menu = &mob_modify_menu;
     do_menu (ch,NULL);
-    return;    
+    return;
   }
   ch->pcdata->edit.mob->size = num;
   send_to_char ("Ok.\n\r",ch);
   ch->pcdata->menu = &mob_modify_menu;
-  do_menu (ch,NULL);  
+  do_menu (ch,NULL);
 }
 
 void edit_mob_race_init ( CHAR_DATA *ch, int num )
@@ -3391,20 +3416,20 @@ void edit_mob_race_init ( CHAR_DATA *ch, int num )
   char buf[MAX_STRING_LENGTH];
 
   sprintf (buf," - Current Race '%s'\n\r",race_table[ch->pcdata->edit.mob->race].name);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_mob_race      ( CHAR_DATA *ch, int num )
 {
   char buf[MAX_STRING_LENGTH];
-  
+
   if (num == ID_EDIT_CANCEL) {
     ch->pcdata->menu = ch->pcdata->edit.prev_menu;
     send_to_char ("Operation Cancelled.\n\r",ch);
     do_menu (ch,NULL);
     return;
   }
-  
+
   ch->pcdata->edit.mob->race = num;
   sprintf (buf,"Race set to '%s'\n\r",race_table[ch->pcdata->edit.mob->race].name);
   send_to_char (buf,ch);
@@ -3416,36 +3441,36 @@ void edit_mob_spec_init ( CHAR_DATA *ch, int num )
 {
   char buf[MAX_STRING_LENGTH];
   char *spec_str;
-  
+
   spec_str = spec_name (ch->pcdata->edit.mob->spec_fun);
   if (!spec_str) spec_str = "None";
 
   sprintf (buf," - Current Special '%s'\n\r",spec_str);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_mob_spec ( CHAR_DATA *ch, int num )
 {
   char buf[MAX_STRING_LENGTH];
-  
+
   if (num == ID_EDIT_CANCEL) {
     ch->pcdata->menu = ch->pcdata->edit.prev_menu;
     send_to_char ("Operation Cancelled.\n\r",ch);
     do_menu (ch,NULL);
     return;
   }
-  
+
   if (num == ID_SPEC_NONE) {
     ch->pcdata->edit.mob->spec_fun = NULL;
-    sprintf (buf,"Special removed.\n\r");    
-  } else {  
+    sprintf (buf,"Special removed.\n\r");
+  } else {
     ch->pcdata->edit.mob->spec_fun = spec_table[num].function;
     sprintf (buf,"Special set to '%s'\n\r",spec_table[num].name);
   }
-  
+
   send_to_char (buf,ch);
   ch->pcdata->menu = ch->pcdata->edit.prev_menu;
-  do_menu (ch,NULL);  
+  do_menu (ch,NULL);
 }
 
 void edit_mob_pos_init ( CHAR_DATA *ch, int num )
@@ -3454,13 +3479,13 @@ void edit_mob_pos_init ( CHAR_DATA *ch, int num )
 
   sprintf (buf," - Current starting position:  %s.\n\r",
            position_table[ch->pcdata->edit.mob->start_pos].name);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_mob_position ( CHAR_DATA *ch, int num )
 {
   char buf[MAX_STRING_LENGTH];
-  
+
   ch->pcdata->menu = &mob_modify_menu;
   switch (num) {
     case ID_EDIT_CANCEL:
@@ -3470,7 +3495,7 @@ void edit_mob_position ( CHAR_DATA *ch, int num )
     default:
       ch->pcdata->edit.mob->start_pos =
       ch->pcdata->edit.mob->default_pos = num;
-      break;    
+      break;
   }
   sprintf (buf,"Position set to '%s'.\n\r>  ",position_table[num].name);
   send_to_char (buf,ch);
@@ -3506,7 +3531,7 @@ void edit_mob_modify ( CHAR_DATA *ch, int num )
       break;
     case ID_MOB_HP:
       send_to_char ("Enter Hit Dice (ndn+n):  ",ch);
-      ch->pcdata->interp_fun = edit_mob_hp;            
+      ch->pcdata->interp_fun = edit_mob_hp;
       break;
     case ID_MOB_MANA:
       send_to_char ("Enter Mana Dice (ndn+n):  ",ch);
@@ -3514,11 +3539,11 @@ void edit_mob_modify ( CHAR_DATA *ch, int num )
       break;
     case ID_MOB_AC:
       send_to_char ("Enter Pierce AC (-500 - 500):  ",ch);
-      ch->pcdata->interp_fun = edit_mob_ac_pierce;      
+      ch->pcdata->interp_fun = edit_mob_ac_pierce;
       break;
     case ID_MOB_DAMTYPE:
       build_attack_menu (ch,edit_mob_attack);
-      do_menu (ch,NULL); 
+      do_menu (ch,NULL);
       break;
     case ID_MOB_DAMAGE:
       send_to_char ("Enter Damage Dice (ndn+n):  ",ch);
@@ -3526,32 +3551,32 @@ void edit_mob_modify ( CHAR_DATA *ch, int num )
       break;
     case ID_MOB_HITROLL:
       send_to_char ("Enter Hitroll [-20-100]:  ",ch);
-      ch->pcdata->interp_fun = edit_mob_hit;    
+      ch->pcdata->interp_fun = edit_mob_hit;
       break;
-    case ID_MOB_ACT:      
-      ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->act;  
+    case ID_MOB_ACT:
+      ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->act;
       build_flag_menu ( act_table, "Set Act Flags", ch );
-      do_menu (ch,NULL);        
+      do_menu (ch,NULL);
       break;
     case ID_MOB_OFF:
-      ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->off_flags;  
+      ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->off_flags;
       build_flag_menu ( off_table, "Set Offensive Flags", ch );
       do_menu (ch,NULL);
       break;
     case ID_MOB_IMM:
-      ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->imm_flags;  
+      ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->imm_flags;
       build_flag_menu ( irv_table, "Set Immune Flags", ch );
-      do_menu (ch,NULL);    
+      do_menu (ch,NULL);
       break;
     case ID_MOB_RES:
-      ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->res_flags;  
+      ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->res_flags;
       build_flag_menu ( irv_table, "Set Resistant Flags", ch );
-      do_menu (ch,NULL);        
+      do_menu (ch,NULL);
       break;
     case ID_MOB_VULN:
       ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->vuln_flags;
       build_flag_menu ( irv_table, "Set Vulnerable Flags", ch );
-      do_menu (ch,NULL);        
+      do_menu (ch,NULL);
       break;
     case ID_MOB_PARTS:
       ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->parts;
@@ -3577,8 +3602,8 @@ void edit_mob_modify ( CHAR_DATA *ch, int num )
       break;
     case ID_MOB_WEALTH:
       send_to_char ("Enter mob wealth:  ",ch);
-      ch->pcdata->interp_fun = edit_mob_wealth;      
-      break; 
+      ch->pcdata->interp_fun = edit_mob_wealth;
+      break;
     case ID_MOB_SIZE:
       ch->pcdata->menu = &mob_size_menu;
       do_menu (ch,NULL);
@@ -3588,13 +3613,13 @@ void edit_mob_modify ( CHAR_DATA *ch, int num )
       ch->pcdata->interp_fun = edit_mob_align;
       break;
     case ID_MOB_AFF:
-      ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->affected_by;  
+      ch->pcdata->edit.mod_flags = &ch->pcdata->edit.mob->affected_by;
       build_flag_menu ( aff_table, "Set Affect Flags", ch );
-      do_menu (ch,NULL);            
+      do_menu (ch,NULL);
       break;
     case ID_MOB_SPEC:
       build_spec_menu (ch);
-      do_menu (ch,NULL);      
+      do_menu (ch,NULL);
       break;
     case ID_EDIT_PREVIOUS:
       ch->pcdata->menu = &mob_menu;
@@ -3620,29 +3645,29 @@ void edit_mob_copy (CHAR_DATA *ch, char *arg)
   vnum = atoi (arg);
   victim = get_mob_index (vnum);
   if (!victim) {
-    sprintf (buf,"Invalid mob vnum %d.\n\r>  ",vnum);     
-    send_to_char (buf,ch);  
+    sprintf (buf,"Invalid mob vnum %d.\n\r>  ",vnum);
+    send_to_char (buf,ch);
     return;
   }
 
   mob->spec_fun    = victim->spec_fun;
-  if (victim->pShop) {    
+  if (victim->pShop) {
     SHOP_DATA* pShop;
     extern SHOP_DATA *shop_first,*shop_last;
     extern int top_shop;
-    
+
     pShop               = alloc_perm( sizeof(*pShop) );
     *pShop              = *victim->pShop;
     pShop->keeper       = mob->vnum;
-    mob->pShop          = pShop;    
+    mob->pShop          = pShop;
     if ( shop_first == NULL ) shop_first = pShop;
-    if ( shop_last  != NULL ) shop_last->next = pShop;      
+    if ( shop_last  != NULL ) shop_last->next = pShop;
     shop_last = pShop;
     pShop->next = NULL;
-    top_shop++;    
-    
+    top_shop++;
+
   }
-  
+
   mob->count       = 0;
   mob->killed      = 0;
   free_string (mob->player_name);
@@ -3657,7 +3682,7 @@ void edit_mob_copy (CHAR_DATA *ch, char *arg)
   mob->affected_by = victim->affected_by;
   mob->alignment   = victim->alignment;
   mob->level       = victim->level;
-  mob->hitroll     = victim->hitroll;  
+  mob->hitroll     = victim->hitroll;
   /* mob->avg_hp      = victim->avg_hp;
   mob->avg_mana    = victim->avg_mana;
   mob->avg_damage  = victim->avg_damage;
@@ -3681,7 +3706,7 @@ void edit_mob_copy (CHAR_DATA *ch, char *arg)
     mob->mana[t]   = victim->mana[t];
     mob->damage[t] = victim->damage[t];
   }
-  for ( t = 0; t < 4; t++ ) 
+  for ( t = 0; t < 4; t++ )
     mob->ac[t]     = victim->ac[t];
 
 
@@ -3715,31 +3740,31 @@ void edit_mob_info (CHAR_DATA *ch)
   sprintf(buf,"Count: %d - Killed: %d\n\r",
       mob->count,mob->killed);
   send_to_char(buf,ch);
-  
+
   sprintf( buf,
     "Lv: %d  Align: %d  Wealth: %ld  ",
-    mob->level,           
+    mob->level,
     mob->alignment,
     mob->wealth );
   send_to_char( buf, ch );
-  
+
   sprintf( buf, "Hp: %dd%d+%d  Mana: %dd%d+%d\n\r", mob->hit[0],mob->hit[1],
-           mob->hit[2],mob->mana[0],mob->mana[1],mob->mana[2]);    
-  send_to_char( buf, ch ); 
-  
+           mob->hit[2],mob->mana[0],mob->mana[1],mob->mana[2]);
+  send_to_char( buf, ch );
+
 
   sprintf(buf,"Armor: %d %d %d %d   Damage:  %dd%d+%d   Dam_Message: %s\n\r",
     mob->ac[0],mob->ac[1],mob->ac[2],mob->ac[3],mob->damage[0],mob->damage[1],
     mob->damage[2],attack_table[mob->dam_type].name);
-  send_to_char(buf,ch); 
+  send_to_char(buf,ch);
 
   send_to_char ("Act:  ",ch);
-  show_flags (mob->act,act_table,ch);   
+  show_flags (mob->act,act_table,ch);
   send_to_char ("\n\r",ch);
   send_to_char ("Offense:  ",ch);
-  show_flags (mob->off_flags,off_table,ch); 
+  show_flags (mob->off_flags,off_table,ch);
   send_to_char ("\n\r",ch);
-  send_to_char ("Immune:  ",ch);  
+  send_to_char ("Immune:  ",ch);
   show_flags (mob->imm_flags,irv_table,ch);
   send_to_char ("\n\r",ch);
   send_to_char ("Resist:  ",ch);
@@ -3767,7 +3792,7 @@ void edit_mob_info (CHAR_DATA *ch)
   {
     send_to_char( "Mobile has special procedure.\n\r", ch );
     sprintf( buf, "Words[0]: %s\n\rWords[1]: %s\n\rWords[2]: %s\n\r",
-		mob->spec_words[0],mob->spec_words[1],mob->spec_words[2]);
+                mob->spec_words[0],mob->spec_words[1],mob->spec_words[2]);
   }
 }
 
@@ -3780,7 +3805,7 @@ void edit_mob_conf_shop ( CHAR_DATA *ch, char *arg )
     extern SHOP_DATA *shop_first,*shop_last;
     extern int top_shop;
     int iTrade;
-    
+
     mob                 = ch->pcdata->edit.mob;
     pShop               = alloc_perm( sizeof(*pShop) );
     pShop->keeper       = mob->vnum;
@@ -3791,20 +3816,20 @@ void edit_mob_conf_shop ( CHAR_DATA *ch, char *arg )
     pShop->open_hour    = 0;
     pShop->close_hour   = 24;
     mob->pShop          = pShop;
-    
+
     if ( shop_first == NULL )
       shop_first = pShop;
     if ( shop_last  != NULL )
       shop_last->next = pShop;
-      
+
     shop_last = pShop;
     pShop->next = NULL;
     top_shop++;
   } else {
     send_to_char ("Operation Cancelled.\n\r>  ",ch);
-    return;    
+    return;
   }
-  
+
   ch->pcdata->menu = &mob_shop_menu;
   do_menu (ch,NULL);
 }
@@ -3815,7 +3840,7 @@ void edit_shop_clone ( CHAR_DATA *ch, char *arg )
   MOB_INDEX_DATA *mob;
   SHOP_DATA *pShop;
   char buf[MAX_STRING_LENGTH];
-  
+
   pShop = ch->pcdata->edit.mob->pShop;
   ch->pcdata->interp_fun = do_menu;
   vnum = atoi (arg);
@@ -3823,8 +3848,8 @@ void edit_shop_clone ( CHAR_DATA *ch, char *arg )
   if (mob == NULL) {
     sprintf (buf,"%d is an invalid vnum.\n\r>  ",vnum);
     send_to_char (buf,ch);
-    return;    
-  }  
+    return;
+  }
   if (mob->pShop == NULL) {
     send_to_char ("Mob is not a shop keeper.\n\r>  ",ch);
     return;
@@ -3835,20 +3860,20 @@ void edit_shop_clone ( CHAR_DATA *ch, char *arg )
   pShop->profit_sell  = mob->pShop->profit_sell;
   pShop->open_hour    = mob->pShop->open_hour;
   pShop->close_hour   = mob->pShop->close_hour;
-  send_to_char ("Ok.\n\r>  ",ch);  
+  send_to_char ("Ok.\n\r>  ",ch);
 }
 
 void edit_shop_buy_type ( CHAR_DATA *ch, char *arg )
 {
   char buf[MAX_STRING_LENGTH];
   int num,iTrade;
-    
+
   ch->pcdata->interp_fun = do_menu;
   if (strcmp (arg,"clear") == 0) {
     for ( iTrade = 0; iTrade < MAX_TRADE; iTrade++ )
       ch->pcdata->edit.mob->pShop->buy_type[iTrade] = 0;
       send_to_char ("Buy types cleared.\n\r>  ",ch);
-      return;      
+      return;
   }
   num = item_lookup (arg);
   if (num == 0) {
@@ -3864,14 +3889,14 @@ void edit_shop_buy_type ( CHAR_DATA *ch, char *arg )
     }
   }
   sprintf (buf,"Only %d buy types allowed.\n\r>  ",MAX_TRADE);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_shop_sell_profit ( CHAR_DATA *ch, char *arg )
 {
   int profit;
   char buf[MAX_STRING_LENGTH];
-  
+
   profit = atoi (arg);
   ch->pcdata->interp_fun = do_menu;
   ch->pcdata->edit.mob->pShop->profit_sell = profit;
@@ -3883,7 +3908,7 @@ void edit_shop_buy_profit ( CHAR_DATA *ch, char *arg )
 {
   int profit;
   char buf[MAX_STRING_LENGTH];
-  
+
   profit = atoi (arg);
   ch->pcdata->interp_fun = edit_shop_sell_profit;
   ch->pcdata->edit.mob->pShop->profit_buy = profit;
@@ -3895,7 +3920,7 @@ void edit_shop_close ( CHAR_DATA *ch, char *arg )
 {
   int hour;
   char buf[MAX_STRING_LENGTH];
-  
+
   hour = atoi (arg);
   ch->pcdata->interp_fun = do_menu;
   ch->pcdata->edit.mob->pShop->close_hour = hour;
@@ -3907,7 +3932,7 @@ void edit_shop_open ( CHAR_DATA *ch, char *arg )
 {
   int hour;
   char buf[MAX_STRING_LENGTH];
-  
+
   hour = atoi (arg);
   ch->pcdata->interp_fun = edit_shop_close;
   ch->pcdata->edit.mob->pShop->open_hour = hour;
@@ -3920,7 +3945,7 @@ void edit_shop_info ( CHAR_DATA *ch )
   SHOP_DATA *shop;
   char buf[MAX_STRING_LENGTH];
   int iTrade;
-  
+
   shop = ch->pcdata->edit.mob->pShop;
   sprintf (buf,"Shop keeper vnum:  %d\n\r",shop->keeper);
   send_to_char (buf,ch);
@@ -3930,15 +3955,15 @@ void edit_shop_info ( CHAR_DATA *ch )
     send_to_char (buf,ch);
   }
   sprintf (buf,"\n\rProfit Buying: %d - Profit Selling: %d\n\r",
-    shop->profit_buy,shop->profit_sell); 
-  send_to_char (buf,ch);  
+    shop->profit_buy,shop->profit_sell);
+  send_to_char (buf,ch);
   sprintf (buf,"Opens at %d - Closes at %d\n\r>  ",
     shop->open_hour,shop->close_hour);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_shop_remove ( CHAR_DATA *ch )
-{     
+{
   ch->pcdata->edit.mob->pShop = NULL;
   send_to_char ("Shop removed.\n\r",ch);
   ch->pcdata->menu = &mob_menu;
@@ -3949,9 +3974,9 @@ void edit_shop_remove ( CHAR_DATA *ch )
 void edit_mob_shop ( CHAR_DATA *ch, int num )
 {
   switch (num) {
-    case ID_SHOP_CLONE:      
+    case ID_SHOP_CLONE:
       send_to_char ("Enter vnum of mob to copy shop from:  ",ch);
-      ch->pcdata->interp_fun = edit_shop_clone;      
+      ch->pcdata->interp_fun = edit_shop_clone;
       break;
     case ID_SHOP_BUY:
       send_to_char ("Enter item type [ex: weapon] to buy or 'clear':  ",ch);
@@ -3967,70 +3992,70 @@ void edit_mob_shop ( CHAR_DATA *ch, int num )
       break;
     case ID_SHOP_REMOVE:
       edit_shop_remove (ch);
-      break;   
+      break;
     case ID_SHOP_INFO:
       edit_shop_info (ch);
       break;
     case ID_EDIT_PREVIOUS:
       ch->pcdata->menu = &mob_menu;
       do_menu (ch,NULL);
-      break;  
+      break;
   }
 }
 
 void edit_mob_update_instances ( CHAR_DATA *ch )
 {
   CHAR_DATA *mob;
-  
+
   mob = char_list;
   while (mob) {
     if (mob->pIndexData == ch->pcdata->edit.mob) {
-      MobIndexToInstance (mob,mob->pIndexData);      
+      MobIndexToInstance (mob,mob->pIndexData);
     }
     mob = mob->next;
-  }  
+  }
 }
 
 void edit_mob ( CHAR_DATA *ch, int num )
 {
   char buf[MAX_STRING_LENGTH];
-  
+
   switch (num) {
     case ID_EDIT_VNUM:
       send_to_char ("Enter new vnum:  ",ch);
-      ch->pcdata->interp_fun = edit_mob_vnum;      
+      ch->pcdata->interp_fun = edit_mob_vnum;
       break;
     case ID_EDIT_CREATE:
       if (check_range (ch,RANGE_AREA,-1)) {
-        edit_mob_create (ch);  
+        edit_mob_create (ch);
         send_to_char (">  ",ch);
       }
       break;
     case ID_EDIT_CLONE:
       if (!ch->pcdata->edit.mob) {
-        send_to_char ("Select a mob to be copied to first.\n\r>  ",ch); 
+        send_to_char ("Select a mob to be copied to first.\n\r>  ",ch);
       } else
       if (check_range (ch,RANGE_MOB,-1)) {
-        send_to_char ("Enter vnum to copy from:  ",ch);      
-        ch->pcdata->interp_fun = edit_mob_copy;      
+        send_to_char ("Enter vnum to copy from:  ",ch);
+        ch->pcdata->interp_fun = edit_mob_copy;
         sprintf (buf,"Copied to mob [%d].",ch->pcdata->edit.mob->vnum);
-        olc_log_string (ch,buf);        
+        olc_log_string (ch,buf);
       }
       break;
-    case ID_EDIT_MODIFY:       
+    case ID_EDIT_MODIFY:
       if (!ch->pcdata->edit.mob) {
-        send_to_char ("Select a mob to be modified first.\n\r>  ",ch);        
-      } else {      
+        send_to_char ("Select a mob to be modified first.\n\r>  ",ch);
+      } else {
         if (check_range (ch,RANGE_MOB,-1)) {
           sprintf (buf,"Modify mob [%d].",ch->pcdata->edit.mob->vnum);
-          olc_log_string (ch,buf);                
+          olc_log_string (ch,buf);
           ch->pcdata->menu = &mob_modify_menu;
           do_menu (ch,NULL);
         }
-      }      
+      }
       break;
     case ID_EDIT_LIST:
-      edit_mob_list (ch); 
+      edit_mob_list (ch);
       break;
     case ID_EDIT_INFO:
       edit_mob_info (ch);
@@ -4040,10 +4065,10 @@ void edit_mob ( CHAR_DATA *ch, int num )
       if (!ch->pcdata->edit.mob) {
         send_to_char ("Select a mob first.\n\r>  ",ch);
         return;
-      }    
+      }
       if (check_range (ch,RANGE_MOB,-1)) {
         sprintf (buf,"Modify shop on mob [%d].",ch->pcdata->edit.mob->vnum);
-        olc_log_string (ch,buf);              
+        olc_log_string (ch,buf);
         if (!ch->pcdata->edit.mob->pShop) {
           send_to_char ("Mob is not a shopkeeper, make it one (Y/N)?  ",ch);
           ch->pcdata->interp_fun = edit_mob_conf_shop;
@@ -4057,12 +4082,12 @@ void edit_mob ( CHAR_DATA *ch, int num )
       if (!ch->pcdata->edit.mob) {
         send_to_char ("Select a mob to be updated first.\n\r>  ",ch);
         return;
-      }        
+      }
       if (check_range (ch,RANGE_MOB,-1)) {
         edit_mob_update_instances (ch);
         send_to_char ("Ok.\n\r>  ",ch);
       }
-      break;   
+      break;
   }
 }
 
@@ -4266,7 +4291,7 @@ void edit_obj_info  ( CHAR_DATA *ch )
       sprintf( buf,
       "Armor class is %d pierce, %d bash, %d slash, and %d vs. magic\n\rSize is (%d) %s\n\r",
           obj->value[0], obj->value[1], obj->value[2], obj->value[3],
-	  obj->value[4], obj_size_table[obj->value[4]].name );
+          obj->value[4], obj_size_table[obj->value[4]].name );
       send_to_char( buf, ch );
   break;
 
@@ -4368,7 +4393,7 @@ void edit_obj_info  ( CHAR_DATA *ch )
     sh_int              condition;
     sh_int              count;
     sh_int              weight;
-    sh_int		wear_timer;
+    sh_int              wear_timer;
     int                 cost;
     int                 value[5]; */
 
@@ -4399,13 +4424,13 @@ void edit_obj_list (CHAR_DATA *ch)
         strcat (bigbuf,buf);
       } else {
         col = TRUE;
-        if (strlen (buf) > 38) {          
+        if (strlen (buf) > 38) {
           col = FALSE;
         }
         strcat (bigbuf,"\n\r");
         strcat (bigbuf,buf);
       }
-    }       
+    }
   }
   strcat (bigbuf,"\n\r>  ");
   page_to_char (bigbuf,ch);
@@ -4414,33 +4439,33 @@ void edit_obj_list (CHAR_DATA *ch)
 void edit_obj_create (CHAR_DATA *ch)
 {
   OBJ_INDEX_DATA *obj;
-  int vnum, iHash, t;  
+  int vnum, iHash, t;
   char buf[MAX_STRING_LENGTH];
-  
+
   vnum = 0;
   for (t = ch->pcdata->edit.area->min_vnum_obj;
        t <= (ch->pcdata->edit.area->max_vnum_obj+1); t++) {
     if (!get_obj_index (t)) {
       vnum = t;
-      break;      
+      break;
     }
   }
   if (vnum == 0) {
     send_to_char ("Out of object vnums for this area.\n\r",ch);
     return;
   }
-  
+
   if (!check_range (ch,RANGE_OBJ,vnum)) {
     send_to_char ("Object could not be created.\n\r",ch);
     return;
   }
-  
+
   sprintf (buf,"Created object [%d].",vnum);
-  olc_log_string (ch,buf);  
-  
-  if (vnum >  ch->pcdata->edit.area->max_vnum_obj)  
-    ch->pcdata->edit.area->max_vnum_obj = vnum;  
-  
+  olc_log_string (ch,buf);
+
+  if (vnum >  ch->pcdata->edit.area->max_vnum_obj)
+    ch->pcdata->edit.area->max_vnum_obj = vnum;
+
   obj = alloc_perm (sizeof (OBJ_INDEX_DATA));
   obj->new_format  = TRUE;
   obj->vnum        = vnum;
@@ -4463,12 +4488,12 @@ void edit_obj_create (CHAR_DATA *ch)
   obj->wear_timer  = 0;
   obj->cost        = 0;
   for (t = 0; t < 5; t++)
-    obj->value[t] = 0;  
-  
+    obj->value[t] = 0;
+
   iHash            = vnum % MAX_KEY_HASH;
   obj->next        = obj_index_hash[iHash];
   obj_index_hash[iHash] = obj;
-  top_obj_index++;  
+  top_obj_index++;
   ch->pcdata->edit.obj = obj;
   send_to_char ("Ok.\n\r",ch);
 }
@@ -4476,7 +4501,8 @@ void edit_obj_create (CHAR_DATA *ch)
 void edit_obj_copy (CHAR_DATA *ch, char *arg)
 {
   OBJ_INDEX_DATA *obj,*victim;
-
+  EXTRA_DESCR_DATA *ed_copy, *ed_last;
+  AFFECT_DATA *af_copy, *af_last;
   int vnum,t;
   char buf[MAX_STRING_LENGTH];
 
@@ -4489,50 +4515,99 @@ void edit_obj_copy (CHAR_DATA *ch, char *arg)
   vnum = atoi (arg);
   victim = get_obj_index (vnum);
   if (!victim) {
-    sprintf (buf,"Invalid object vnum %d.\n\r>  ",vnum);     
-    send_to_char (buf,ch);  
+    sprintf (buf,"Invalid object vnum %d.\n\r>  ",vnum);
+    send_to_char (buf,ch);
     return;
   }
+
+  obj->extra_descr = NULL;
+  ed_last = NULL;
+  for(ed_copy = victim->extra_descr; ed_copy; ed_copy = ed_copy->next)
+  {
+    if(!obj->extra_descr)
+    {
+      obj->extra_descr = new_extra_descr();
+      ed_last = obj->extra_descr; 
+    }
+    else
+    {
+      ed_last->next = new_extra_descr();
+      ed_last = ed_last->next;
+    }
+    ed_last->keyword = str_dup(ed_copy->keyword);
+    ed_last->description = str_dup(ed_copy->description);
+    ed_last->next = NULL;
+  }
   
-  obj->extra_descr = victim->extra_descr;
-  obj->affected    = victim->affected;
+  obj->affected = NULL;
+  af_last = NULL;
+  for(af_copy = victim->affected; af_copy; af_copy = af_copy->next)
+  {
+    if(!obj->affected)
+    {
+      obj->affected = new_affect();
+      af_last = obj->affected; 
+    }
+    else
+    {
+      af_last->next = new_affect();
+      af_last = af_last->next;
+    }
+    af_last->type = af_copy->type;
+    af_last->where = af_copy->where;
+    af_last->level = af_copy->level;
+    af_last->duration = af_copy->duration;
+    af_last->location = af_copy->location;
+    af_last->modifier = af_copy->modifier;
+    af_last->bitvector = af_copy->bitvector;
+    af_last->next = NULL;
+  }
+
   obj->new_format  = victim->new_format;
-  obj->name        = victim->name;
-  obj->short_descr = victim->short_descr;
-  obj->description = victim->description;  
-  obj->material    = victim->material;
+  obj->name = NULL;
+  if(victim->name)
+    obj->name        = str_dup(victim->name);
+  obj->short_descr = NULL;
+  if(victim->short_descr)
+    obj->short_descr = str_dup(victim->short_descr);
+  obj->description = NULL;
+  if(obj->description)
+    obj->description = str_dup(victim->description);
+  obj->material = NULL;
+  if(obj->material)
+    obj->material    = str_dup(victim->material);
   obj->item_type   = victim->item_type;
   obj->extra_flags = victim->extra_flags;
   obj->wear_flags  = victim->wear_flags;
   obj->level       = victim->level;
-  obj->condition   = victim->condition;  
+  obj->condition   = victim->condition;
   obj->weight      = victim->weight;
   obj->wear_timer  = victim->wear_timer;
   obj->cost        = victim->cost;
   for (t = 0; t < 5; t++)
     obj->value[t] = victim->value[t];
-  
+
   sprintf (buf,"Copied Object %s [%d] to [%d]\n\r>  ",
            victim->short_descr,victim->vnum,obj->vnum);
   send_to_char (buf,ch);
-}     
+}
 
 void edit_obj_name ( CHAR_DATA *ch, char *arg )
-{ 
+{
   OBJ_INDEX_DATA *obj;
   char buf[MAX_STRING_LENGTH];
-  
+
   obj = ch->pcdata->edit.obj;
   ch->pcdata->interp_fun = do_menu;
   if (!arg[0]) {
     send_to_char ("Name not changed.\n\r>  ",ch);
     return;
   }
-  
+
   free_string (obj->name);
   obj->name = str_dup_perm (arg);
   sprintf (buf,"Name set to '%s'.\n\r>",obj->name);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_obj_material ( CHAR_DATA *ch, char *arg )
@@ -4553,24 +4628,24 @@ void edit_obj_material ( CHAR_DATA *ch, char *arg )
 }
 
 void edit_obj_short ( CHAR_DATA *ch, char *arg )
-{ 
+{
   OBJ_INDEX_DATA *obj;
   char buf[MAX_STRING_LENGTH];
-  
+
   obj = ch->pcdata->edit.obj;
   ch->pcdata->interp_fun = do_menu;
   if (!arg[0]) {
     send_to_char ("Short description not changed.\n\r>  ",ch);
     return;
   }
-    
+
   obj->short_descr = str_dup_perm (arg);
   sprintf (buf,"Short set to '%s'.\n\r> ",obj->short_descr);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_obj_long (CHAR_DATA *ch, char *arg)
-{ 
+{
   char buf[MAX_STRING_LENGTH];
 
   ch->pcdata->interp_fun = do_menu;
@@ -4578,18 +4653,18 @@ void edit_obj_long (CHAR_DATA *ch, char *arg)
     send_to_char ("Long description not changed.\n\r>  ",ch);
     return;
   }
-    
+
   ch->pcdata->edit.obj->description = str_dup_perm (arg);
   sprintf (buf,"Long set to '%s'.\n\r>  ",arg);
   send_to_char (buf,ch);
 }
 
 void edit_obj_level ( CHAR_DATA *ch, char *arg )
-{ 
+{
   OBJ_INDEX_DATA *obj;
   char buf[MAX_STRING_LENGTH];
   int level;
-  
+
   obj = ch->pcdata->edit.obj;
   ch->pcdata->interp_fun = do_menu;
   if (!arg[0]) {
@@ -4601,20 +4676,20 @@ void edit_obj_level ( CHAR_DATA *ch, char *arg )
     send_to_char ("Level must be from 0 to 60.\n\r>  ",ch);
     return;
   }
-  
+
   obj->level = level;
   sprintf (buf,"Level set to %d.\n\r> ",obj->level);
-  send_to_char (buf,ch);  
+  send_to_char (buf,ch);
 }
 
 void edit_obj_type ( CHAR_DATA *ch, int num )
 {
   char buf[MAX_STRING_LENGTH];
   int t, found;
-  
+
   if (num != ID_EDIT_PREVIOUS) {
     ch->pcdata->edit.obj->item_type = num;
-    t = 0;  
+    t = 0;
     found = FALSE;
     while (item_table[t].type && !found) {
       if (item_table[t].type == num) {
@@ -4633,33 +4708,33 @@ void edit_obj_type ( CHAR_DATA *ch, int num )
 
   ch->pcdata->menu = &obj_modify_menu;
   do_menu (ch,NULL);
-  return;  
+  return;
 }
 
 char *get_val_string (OBJ_INDEX_DATA *obj,int val_num)
 {
   int num,t = 0;
-  
-  num = obj->item_type;  
+
+  num = obj->item_type;
   while (val_table[t].num) {
     if (val_table[t].num == num) {
       if (val_table[t].val[val_num])
         return val_table[t].val[val_num];
       else
-        return "Not used";      
-    } 
+        return "Not used";
+    }
     t++;
   }
-  
+
   return "Not used";
 }
 
 void obj_value_4 ( CHAR_DATA *ch, char *arg )
 {
   int num;
-  
+
   num = atoi (arg);
-  if (arg[0]) ch->pcdata->edit.obj->value[4] = num;  
+  if (arg[0]) ch->pcdata->edit.obj->value[4] = num;
   send_to_char ("Ok.\n\r>  ",ch);
   ch->pcdata->interp_fun = &do_menu;
 }
@@ -4667,107 +4742,107 @@ void obj_value_3 ( CHAR_DATA *ch, char *arg )
 {
   int num;  char buf[MAX_STRING_LENGTH];
   char *str;
-  
+
   num = atoi (arg);
   str = get_val_string (ch->pcdata->edit.obj,4);
   if (arg[0]) ch->pcdata->edit.obj->value[3] = num;
   sprintf (buf,"Value 4 (%s) [%d]:  ",str,ch->pcdata->edit.obj->value[4]);
   send_to_char (buf,ch);
-  ch->pcdata->interp_fun = obj_value_4;  
+  ch->pcdata->interp_fun = obj_value_4;
 }
 void obj_value_2 ( CHAR_DATA *ch, char *arg )
 {
   int num;  char buf[MAX_STRING_LENGTH];
   char *str;
-  
+
   num = atoi (arg);
   str = get_val_string (ch->pcdata->edit.obj,3);
   if (arg[0]) ch->pcdata->edit.obj->value[2] = num;
   sprintf (buf,"Value 3 (%s) [%d]:  ",str,ch->pcdata->edit.obj->value[3]);
   send_to_char (buf,ch);
-  ch->pcdata->interp_fun = obj_value_3;  
+  ch->pcdata->interp_fun = obj_value_3;
 }
 void obj_value_1 ( CHAR_DATA *ch, char *arg )
 {
   int num;  char buf[MAX_STRING_LENGTH];
   char *str;
-  
+
   num = atoi (arg);
   str = get_val_string (ch->pcdata->edit.obj,2);
-  if (arg[0]) ch->pcdata->edit.obj->value[1] = num;  
+  if (arg[0]) ch->pcdata->edit.obj->value[1] = num;
   sprintf (buf,"Value 2 (%s) [%d]:  ",str,ch->pcdata->edit.obj->value[2]);
   send_to_char (buf,ch);
-  ch->pcdata->interp_fun = &obj_value_2;  
+  ch->pcdata->interp_fun = &obj_value_2;
 }
 void obj_value_0 ( CHAR_DATA *ch, char *arg )
 {
   int num;  char buf[MAX_STRING_LENGTH];
   char *str;
-  
+
   num = atoi (arg);
   str = get_val_string (ch->pcdata->edit.obj,1);
   if (arg[0]) ch->pcdata->edit.obj->value[0] = num;
   sprintf (buf,"Value 1 (%s) [%d]:  ",str,ch->pcdata->edit.obj->value[1]);
   send_to_char (buf,ch);
-  ch->pcdata->interp_fun = &obj_value_1;  
+  ch->pcdata->interp_fun = &obj_value_1;
 }
 
 void edit_obj_cond ( CHAR_DATA *ch, char *arg )
 {
   int num;
   char buf[MAX_STRING_LENGTH];
-    
+
   num = atoi (arg);
   if (num > 0 && num <= 100) {
     ch->pcdata->edit.obj->condition = num;
-    send_to_char ("Ok.\n\r>  ",ch);    
-  } else {    
+    send_to_char ("Ok.\n\r>  ",ch);
+  } else {
     sprintf (buf,"%d is not a valid condition.  Must be 1 to 100.\n\r>  ",num);
-    send_to_char (buf,ch);        
+    send_to_char (buf,ch);
   }
-  ch->pcdata->interp_fun = do_menu;  
+  ch->pcdata->interp_fun = do_menu;
 }
 
 void edit_obj_weight ( CHAR_DATA *ch, char *arg )
 {
   int num;
   char buf[MAX_STRING_LENGTH];
-  
+
   num = atoi (arg);
   sprintf (buf,"Weight is %d.%d pounds.\n\r>  ",num/10,num % 10);
   send_to_char (buf,ch);
   ch->pcdata->edit.obj->weight = num;
-  ch->pcdata->interp_fun = do_menu;  
+  ch->pcdata->interp_fun = do_menu;
 }
 
 void edit_obj_wear_timer ( CHAR_DATA *ch, char *arg )
 {
   int num;
   char buf[MAX_STRING_LENGTH];
-  
+
   num = atoi (arg);
   sprintf (buf,"Wear Timer is %d.\n\r>  ",num);
   send_to_char (buf,ch);
   ch->pcdata->edit.obj->wear_timer = num;
-  ch->pcdata->interp_fun = do_menu;  
+  ch->pcdata->interp_fun = do_menu;
 }
 
 void edit_obj_cost ( CHAR_DATA *ch, char *arg )
 {
   int num;
   char buf[MAX_STRING_LENGTH];
-  
+
   num = atoi (arg);
   sprintf (buf,"Cost set to %d.\n\r>  ",num);
   send_to_char (buf,ch);
-  ch->pcdata->edit.obj->cost = num;  
-  ch->pcdata->interp_fun = do_menu;  
+  ch->pcdata->edit.obj->cost = num;
+  ch->pcdata->interp_fun = do_menu;
 }
 
 void edit_obj_extend_desc ( CHAR_DATA *ch, char *arg )
 {
 
-  
+
   /* no need to free string */
   ch->pcdata->edit.obj->extra_descr->description = str_dup (arg);
   send_to_char (">  ",ch);
@@ -4777,7 +4852,7 @@ void edit_obj_extend_add ( CHAR_DATA *ch, char *arg )
 {
   EXTRA_DESCR_DATA *ed,*first_ed,*prev_ed;
   char buf[MAX_STRING_LENGTH];
-    
+
   prev_ed = NULL;
   first_ed = ed = ch->pcdata->edit.obj->extra_descr;
   while (ed) {
@@ -4788,22 +4863,22 @@ void edit_obj_extend_add ( CHAR_DATA *ch, char *arg )
         ch->pcdata->edit.obj->extra_descr = ed;
         sprintf (buf,"Editing extended '%s'.\n\r",ed->keyword);
         send_to_char (buf,ch);
-      }      
+      }
       break;
     }
     prev_ed = ed;
-    ed = ed->next;      
+    ed = ed->next;
   }
-  
-  if (ed == NULL) {  
+
+  if (ed == NULL) {
     ed = new_extra_descr();
     ed->keyword = str_dup (arg);
     ed->description = str_dup_perm ("Generic extended description.\n\r");
     ed->next = first_ed;
-    ch->pcdata->edit.obj->extra_descr = ed;    
+    ch->pcdata->edit.obj->extra_descr = ed;
     send_to_char ("Creating new extended.\n\r",ch);
   }
-  
+
   do_line_editor (ch,ch->pcdata->edit.obj->extra_descr->description,
                   &edit_obj_extend_desc);
 }
@@ -4813,36 +4888,36 @@ void edit_obj_extend_rem ( CHAR_DATA *ch, char *arg )
   EXTRA_DESCR_DATA *ed,*first_ed,*prev_ed;
   char buf[MAX_STRING_LENGTH];
   bool found = FALSE;
-    
+
   prev_ed = NULL;
   ch->pcdata->interp_fun = do_menu;
   first_ed = ed = ch->pcdata->edit.obj->extra_descr;
   while (ed) {
     if (!str_prefix (arg,ed->keyword)) {
-      if (prev_ed) {                
-        prev_ed->next = ed->next;        
+      if (prev_ed) {
+        prev_ed->next = ed->next;
       } else {
-        ch->pcdata->edit.obj->extra_descr = ed->next;        
-      }       
-      sprintf (buf,"Extended description '%s' removed.\n\r>  ",ed->keyword);      
+        ch->pcdata->edit.obj->extra_descr = ed->next;
+      }
+      sprintf (buf,"Extended description '%s' removed.\n\r>  ",ed->keyword);    
       send_to_char (buf,ch);
       found = TRUE;
-      free_extra_descr (ed);      
+      free_extra_descr (ed);
       break;
     }
     prev_ed = ed;
-    ed = ed->next;      
+    ed = ed->next;
   }
-  
-  if (!found) {  
+
+  if (!found) {
     send_to_char ("Extended description not found.\n\r>  ",ch);
-  }  
+  }
 }
 
 void edit_obj_add_mod ( CHAR_DATA *ch, char *arg )
 {
   int num;
-  
+
   num = atoi (arg);
   ch->pcdata->interp_fun = do_menu;
   if (ch->pcdata->edit.obj->affected)
@@ -4851,20 +4926,20 @@ void edit_obj_add_mod ( CHAR_DATA *ch, char *arg )
     send_to_char ("Error adding modifier.\n\r>  ",ch);
     return;
   }
-  
+
   send_to_char ("Affect added.\n\r>  ",ch);
 }
 
 void edit_obj_add_aff ( CHAR_DATA *ch, int num )
 {
   AFFECT_DATA *paf;
-  
+
   if ( num == ID_EDIT_PREVIOUS ) {
     ch->pcdata->menu = &obj_modify_menu;
     do_menu (ch,NULL);
     return;
   }
-  
+
   if ( num == APPLY_SPELL_AFFECT ) {
     paf = new_affect ();
     paf->type = -1;
@@ -4873,16 +4948,16 @@ void edit_obj_add_aff ( CHAR_DATA *ch, int num )
     paf->duration = -1;
     paf->location = 0;
     paf->modifier = 0;
-    paf->bitvector = 0;  
+    paf->bitvector = 0;
     paf->next = ch->pcdata->edit.obj->affected;
     ch->pcdata->edit.obj->affected = paf;
-        
-    ch->pcdata->edit.mod_flags = &paf->bitvector;  
+
+    ch->pcdata->edit.mod_flags = &paf->bitvector;
     build_flag_menu ( aff_table, "Set Affect Flags", ch );
-    do_menu (ch,NULL);               
+    do_menu (ch,NULL);
     return;
   }
-  
+
   paf = new_affect ();
   paf->type = -1;
   paf->where = 0;
@@ -4890,22 +4965,22 @@ void edit_obj_add_aff ( CHAR_DATA *ch, int num )
   paf->duration = -1;
   paf->location = num;
   paf->modifier = 0;
-  paf->bitvector = 0;  
+  paf->bitvector = 0;
   paf->next = ch->pcdata->edit.obj->affected;
   ch->pcdata->edit.obj->affected = paf;
 
   send_to_char ("Modifies by:  ",ch);
-  ch->pcdata->interp_fun = edit_obj_add_mod;  
-};   
+  ch->pcdata->interp_fun = edit_obj_add_mod;
+};
 
 bool edit_obj_disp_aff ( CHAR_DATA *ch, OBJ_INDEX_DATA *obj )
 {
   AFFECT_DATA *paf;
   char buf[MAX_STRING_LENGTH];
   int idx = 0;
-  
+
   if (!obj->affected) return FALSE;
-    
+
      for ( paf = obj->affected; paf != NULL; paf = paf->next )
     {
     idx++;
@@ -4953,7 +5028,7 @@ bool edit_obj_disp_aff ( CHAR_DATA *ch, OBJ_INDEX_DATA *obj )
       send_to_char(buf,ch);
   }
     }
-    
+
   return TRUE;
 }
 
@@ -4962,14 +5037,14 @@ void edit_obj_rem_aff ( CHAR_DATA *ch, char *arg )
   int idx,num;
   OBJ_INDEX_DATA *obj;
   AFFECT_DATA *paf,*prev_paf;
-  
+
   num = atoi (arg);
   idx = 0;
   obj = ch->pcdata->edit.obj;
   paf = obj->affected;
   prev_paf = NULL;
   ch->pcdata->interp_fun = do_menu;
-  while (paf) {    
+  while (paf) {
     if (num == ++idx) {
       if (prev_paf) {
         prev_paf->next = paf->next;
@@ -4980,38 +5055,38 @@ void edit_obj_rem_aff ( CHAR_DATA *ch, char *arg )
         obj->affected = paf->next;
         free_affect (paf);
         send_to_char ("Affect removed.\n\r>  ",ch);
-        return;              
+        return;
       }
     }
     prev_paf = paf;
-    paf = paf->next;    
+    paf = paf->next;
   }
-  
+
   send_to_char ("Affect not found.\n\r>  ",ch);
-  return;  
+  return;
 }
 
 void edit_obj_modify  ( CHAR_DATA *ch, int num )
 {
   char buf[MAX_STRING_LENGTH];
   char *str;
-  
+
   switch (num) {
     case ID_OBJ_NAME:
       send_to_char ("Enter Name (Keywords separated by spaces):  ",ch);
-      ch->pcdata->interp_fun = edit_obj_name;    
+      ch->pcdata->interp_fun = edit_obj_name;
       break;
     case ID_OBJ_LEVEL:
       send_to_char ("Enter Level:  ",ch);
-      ch->pcdata->interp_fun = edit_obj_level;    
+      ch->pcdata->interp_fun = edit_obj_level;
       break;
     case ID_OBJ_SHORT:
       send_to_char ("Enter Short Description:  ",ch);
-      ch->pcdata->interp_fun = edit_obj_short;    
+      ch->pcdata->interp_fun = edit_obj_short;
       break;
     case ID_OBJ_DESCR:
       send_to_char ("Enter Long Description:  ",ch);
-      ch->pcdata->interp_fun = edit_obj_long;      
+      ch->pcdata->interp_fun = edit_obj_long;
       break;
     case ID_OBJ_MATERIAL:
       send_to_char ("Enter Material Word: ",ch);
@@ -5019,17 +5094,17 @@ void edit_obj_modify  ( CHAR_DATA *ch, int num )
       break;
     case ID_OBJ_TYPE:
       ch->pcdata->menu = &obj_type_menu;
-      do_menu (ch,NULL);      
+      do_menu (ch,NULL);
       break;
     case ID_OBJ_FLAGS:
       ch->pcdata->edit.mod_flags = &ch->pcdata->edit.obj->extra_flags;
       build_flag_menu ( obj_extra_flags, "Set Extra Flags", ch );
-      do_menu (ch,NULL);    
+      do_menu (ch,NULL);
       break;
     case ID_OBJ_WEAR:
       ch->pcdata->edit.mod_flags = &ch->pcdata->edit.obj->wear_flags;
       build_flag_menu ( obj_wear_flags, "Set Wear Flags", ch );
-      do_menu (ch,NULL);        
+      do_menu (ch,NULL);
       break;
     case ID_OBJ_COND:
       send_to_char ("Enter condition percentage [1-100]:  ",ch);
@@ -5045,36 +5120,36 @@ void edit_obj_modify  ( CHAR_DATA *ch, int num )
       break;
     case ID_OBJ_COST:
       send_to_char ("Enter cost:  ",ch);
-      ch->pcdata->interp_fun = edit_obj_cost;    
+      ch->pcdata->interp_fun = edit_obj_cost;
       break;
     case ID_OBJ_VALUE:
-      str = get_val_string (ch->pcdata->edit.obj,0);      
+      str = get_val_string (ch->pcdata->edit.obj,0);
       sprintf (buf,"Value 0 (%s) [%d]:  ",str,ch->pcdata->edit.obj->value[0]);
       send_to_char (buf,ch);
-      ch->pcdata->interp_fun = obj_value_0;      
+      ch->pcdata->interp_fun = obj_value_0;
       break;
     case ID_OBJ_EXTENDED:
       send_to_char ("Enter keyword:  ",ch);
-      ch->pcdata->interp_fun = edit_obj_extend_add;      
+      ch->pcdata->interp_fun = edit_obj_extend_add;
       break;
     case ID_OBJ_REM_EXTEND:
       send_to_char ("Enter keyword to remove:  ",ch);
       ch->pcdata->interp_fun = edit_obj_extend_rem;
-      break;      
+      break;
     case ID_OBJ_AFF_ADD:
       ch->pcdata->menu = &obj_affect_menu;
-      do_menu (ch,NULL);      
+      do_menu (ch,NULL);
       break;
     case ID_OBJ_AFF_REMOVE:
       if (edit_obj_disp_aff (ch,ch->pcdata->edit.obj)) {
         send_to_char ("Choose affect to remove:  ",ch);
         ch->pcdata->interp_fun = edit_obj_rem_aff;
-      } else 
-        send_to_char ("No affects to remove.\n\r>  ",ch);              
+      } else
+        send_to_char ("No affects to remove.\n\r>  ",ch);
       break;
-    case ID_EDIT_PREVIOUS:      
+    case ID_EDIT_PREVIOUS:
       ch->pcdata->menu = &object_menu;
-      do_menu (ch,NULL);      
+      do_menu (ch,NULL);
       break;
   }
 }
@@ -5082,20 +5157,20 @@ void edit_obj_modify  ( CHAR_DATA *ch, int num )
 void edit_obj_update_instances ( CHAR_DATA *ch )
 {
   OBJ_DATA *obj;
-  
+
   obj = object_list;
   while (obj) {
     if (obj->pIndexData == ch->pcdata->edit.obj) {
-      ObjIndexToInstance (obj,obj->pIndexData,obj->level,FALSE);      
+      ObjIndexToInstance (obj,obj->pIndexData,obj->level,FALSE);
     }
     obj = obj->next;
-  }  
+  }
 }
 
 void edit_object ( CHAR_DATA *ch, int num )
 {
   char buf[MAX_STRING_LENGTH];
-  
+
   switch (num) {
     case ID_EDIT_VNUM:
       send_to_char ("Enter new vnum:  ",ch);
@@ -5115,7 +5190,7 @@ void edit_object ( CHAR_DATA *ch, int num )
           send_to_char ("Enter vnum to copy from:  ",ch);
           ch->pcdata->interp_fun = edit_obj_copy;
           sprintf (buf,"Copied to object [%d].",ch->pcdata->edit.obj->vnum);
-          olc_log_string (ch,buf);            
+          olc_log_string (ch,buf);
         }
       }
       break;
@@ -5125,7 +5200,7 @@ void edit_object ( CHAR_DATA *ch, int num )
       } else {
         if (check_range (ch,RANGE_OBJ,-1)) {
           sprintf (buf,"Modify object [%d].",ch->pcdata->edit.obj->vnum);
-          olc_log_string (ch,buf);                    
+          olc_log_string (ch,buf);
           ch->pcdata->menu = &obj_modify_menu;
           do_menu (ch,NULL);
         }
@@ -5148,7 +5223,7 @@ void edit_object ( CHAR_DATA *ch, int num )
         send_to_char ("Ok.\n\r>  ",ch);
       }
       break;
-  }    
+  }
 }
 
 
@@ -5159,7 +5234,7 @@ void edit_reset_init ( CHAR_DATA *ch, int num )
 void remove_resets ( AREA_DATA *area, char c )
 {
   RESET_DATA *reset,*prev_reset,*next_reset;
-  
+
   reset = area->reset_first;
   prev_reset = NULL;
   while (reset) {
@@ -5169,11 +5244,11 @@ void remove_resets ( AREA_DATA *area, char c )
         area->reset_last = prev_reset;
       }
       if (reset == area->reset_first) {
-        area->reset_first = reset->next;        
-        free_reset (reset);      
+        area->reset_first = reset->next;
+        free_reset (reset);
         top_reset--;
       } else {
-        prev_reset->next = reset->next;        
+        prev_reset->next = reset->next;
         free_reset (reset);
         top_reset--;
       }
@@ -5181,42 +5256,42 @@ void remove_resets ( AREA_DATA *area, char c )
       prev_reset = reset;
     }
     reset = next_reset;
-  }      
+  }
 }
 
 void add_reset (AREA_DATA *area,char command,sh_int arg1,sh_int arg2,sh_int arg3,sh_int arg4)
 {
   RESET_DATA *reset;
-  
+
   reset          = new_reset ();
   reset->command = command;
   reset->arg1    = arg1;
   reset->arg2    = arg2;
   reset->arg3    = arg3;
   reset->arg4    = arg4;
-  
+
   if ( area->reset_first == NULL )
       area->reset_first  = reset;
   if ( area->reset_last  != NULL )
-      area->reset_last->next = reset;      
-      
+      area->reset_last->next = reset;
+
   area->reset_last = reset;
   reset->next    = NULL;
-  top_reset++;  
+  top_reset++;
 }
 
 void add_reset_obj_recurse ( AREA_DATA *area, OBJ_DATA *rec_obj)
 {
   OBJ_DATA *obj;
   sh_int count;
-  
+
   obj = rec_obj->contains;
   while (obj) {
     count = count_obj_list(obj->pIndexData,rec_obj->contains);
     add_reset (area,'P',obj->pIndexData->vnum,-1,rec_obj->pIndexData->vnum,count);
     add_reset_obj_recurse (area,obj);
     obj = obj->next_content;
-  } 
+  }
 }
 
 int add_mob_resets_room ( ROOM_INDEX_DATA *pRoom, AREA_DATA *area )
@@ -5226,8 +5301,8 @@ int add_mob_resets_room ( ROOM_INDEX_DATA *pRoom, AREA_DATA *area )
   OBJ_DATA *obj;
 
   victim = pRoom->people;
-  while (victim) {        
-    if ( IS_NPC(victim) ) {           
+  while (victim) {
+    if ( IS_NPC(victim) ) {
       count = 0;
       mob = pRoom->people;
       while (mob) {
@@ -5245,7 +5320,7 @@ int add_mob_resets_room ( ROOM_INDEX_DATA *pRoom, AREA_DATA *area )
         } else {
           add_reset (area,'E',obj->pIndexData->vnum,-1,obj->wear_loc,-1);
           add_reset_obj_recurse (area,obj);
-        }                      
+        }
         obj = obj->next_content;
       }
     }
@@ -5256,23 +5331,23 @@ int add_mob_resets_room ( ROOM_INDEX_DATA *pRoom, AREA_DATA *area )
 
 
 int add_mob_resets ( AREA_DATA *area )
-{   
-  ROOM_INDEX_DATA *pRoom;  
+{
+  ROOM_INDEX_DATA *pRoom;
   sh_int vnum, count;
 
-  count = 0;  
-  for (vnum = area->min_vnum_room;  
-       vnum <= area->max_vnum_room;  vnum++) {                
+  count = 0;
+  for (vnum = area->min_vnum_room;
+       vnum <= area->max_vnum_room;  vnum++) {
     pRoom = get_room_index (vnum);
     if (pRoom) {
-      count += add_mob_resets_room (pRoom,area); 
+      count += add_mob_resets_room (pRoom,area);
     }
   }
   return count;
 }
 
 int add_object_resets_room ( ROOM_INDEX_DATA *pRoom, AREA_DATA *area )
-{ 
+{
   int reset_count = 0;
   OBJ_DATA *obj;
   obj = pRoom->contents;
@@ -5282,16 +5357,16 @@ int add_object_resets_room ( ROOM_INDEX_DATA *pRoom, AREA_DATA *area )
     add_reset_obj_recurse (area,obj);
     obj = obj->next_content;
   }
-  return reset_count;  
+  return reset_count;
 }
 
 int add_object_resets ( AREA_DATA *area )
-{   
+{
   ROOM_INDEX_DATA *pRoom;
   sh_int vnum,count = 0;
-  
-  for (vnum = area->min_vnum_room;  
-       vnum <= area->max_vnum_room;  vnum++) {         
+
+  for (vnum = area->min_vnum_room;
+       vnum <= area->max_vnum_room;  vnum++) {
     pRoom = get_room_index (vnum);
     if (pRoom) {
       count += add_object_resets_room (pRoom,area);
@@ -5305,20 +5380,20 @@ int add_door_resets_room ( ROOM_INDEX_DATA *pRoom, AREA_DATA *area )
   EXIT_DATA *exit;
   sh_int dir;
   int reset_count = 0;
- 
+
     for ( dir =0; dir<=5 ;dir++)
     {
         exit = pRoom->exit[dir];
         if ( exit && exit->u1.to_room )
         {
- 	    if ( exit->exit_info != 0 )
-	    {
-		++reset_count;
-		add_reset( area, 'D', pRoom->vnum,dir, exit->exit_info, -1 );
-		sprintf(log_buf,"door reset: %d %d %ld",pRoom->vnum,dir,exit->exit_info);
-	 	log_string(log_buf);
-	    }
-	}
+            if ( exit->exit_info != 0 )
+            {
+                ++reset_count;
+                add_reset( area, 'D', pRoom->vnum,dir, exit->exit_info, -1 );
+                sprintf(log_buf,"door reset: %d %d %ld",pRoom->vnum,dir,exit->exit_info);
+                log_string(log_buf);
+            }
+        }
     }
     return reset_count;
 }
@@ -5327,33 +5402,33 @@ int add_door_resets_room ( ROOM_INDEX_DATA *pRoom, AREA_DATA *area )
   for (dir = 0; dir <= 5; dir++) {
     exit = pRoom->exit[dir];
     if (exit && exit->u1.to_room) {
-      if (IS_SET(exit->exit_info,EX_LOCKED) || (IS_SET(exit->exit_info,EX_CLOSED))) { 
-	if ( exit->exit_info != 0 ) {
+      if (IS_SET(exit->exit_info,EX_LOCKED) || (IS_SET(exit->exit_info,EX_CLOSED))) {
+        if ( exit->exit_info != 0 ) {
         reset_count++;
         if (IS_SET(exit->exit_info,EX_LOCKED))
           add_reset (area,'D',pRoom->vnum,dir,2,-1);
         else
-          add_reset (area,'D',pRoom->vnum,dir,1,-1);            
-      }          
+          add_reset (area,'D',pRoom->vnum,dir,1,-1);
+      }
     }
   }
   return reset_count;
-}              
+}
  ** OLD DOOR CODE ***/
 
 int add_door_resets ( AREA_DATA *area )
 {
   ROOM_INDEX_DATA *pRoom;
   sh_int vnum,count = 0;
-  
-  for (vnum = area->min_vnum_room;  
-       vnum <= area->max_vnum_room;  vnum++) {         
+
+  for (vnum = area->min_vnum_room;
+       vnum <= area->max_vnum_room;  vnum++) {
     pRoom = get_room_index (vnum);
     if (pRoom) {
       count += add_door_resets_room (pRoom,area);
     }
   }
-  
+
   return count;
 }
 
@@ -5365,9 +5440,9 @@ void edit_reset_room ( CHAR_DATA *ch )
   bool remove,mark;
   int count;
   char buf[MAX_STRING_LENGTH];
-  
-  pRoom = ch->pcdata->edit.room;  
-  area = pRoom->area;  
+
+  pRoom = ch->pcdata->edit.room;
+  area = pRoom->area;
   reset = area->reset_first;
   prev_reset = NULL;
   mark = FALSE;
@@ -5379,40 +5454,40 @@ void edit_reset_room ( CHAR_DATA *ch )
         if (reset->arg3 == pRoom->vnum)
           mark = remove = TRUE;
          else
-          mark = FALSE;        
+          mark = FALSE;
         break;
       case 'G':
       case 'E':
         remove = mark;
         break;
       case 'D':
-        if (reset->arg1 == pRoom->vnum) 
+        if (reset->arg1 == pRoom->vnum)
           remove = TRUE;
-        mark = FALSE;        
+        mark = FALSE;
         break;
       case 'O':
-        if (reset->arg3 == pRoom->vnum) 
+        if (reset->arg3 == pRoom->vnum)
           mark = remove = TRUE;
         else
           mark = FALSE;
         break;
       case 'P':
         remove = mark;
-        break;      
+        break;
       default:
-        mark = FALSE;    
-    }    
-    if (remove) {    
+        mark = FALSE;
+    }
+    if (remove) {
       if (reset == area->reset_last) {
         area->reset_last = prev_reset;
-   
+
       }
       if (reset == area->reset_first) {
-        area->reset_first = reset->next;        
-        free_reset (reset);      
+        area->reset_first = reset->next;
+        free_reset (reset);
         top_reset--;
       } else {
-        prev_reset->next = reset->next;        
+        prev_reset->next = reset->next;
         free_reset (reset);
         top_reset--;
       }
@@ -5420,20 +5495,20 @@ void edit_reset_room ( CHAR_DATA *ch )
       prev_reset = reset;
     }
     reset = next_reset;
-  }        
-  
+  }
+
   count = add_mob_resets_room (pRoom,area);
   sprintf (buf,"Added %d mob resets.\n\r",count);
   send_to_char (buf,ch);
-  
+
   count = add_object_resets_room (pRoom,area);
   sprintf (buf,"Added %d object resets.\n\r",count);
   send_to_char (buf,ch);
-  
+
   count = add_door_resets_room (pRoom,area);
   sprintf (buf,"Added %d door resets.\n\r",count);
-  send_to_char (buf,ch);  
-  
+  send_to_char (buf,ch);
+
 }
 
 void edit_reset_main ( CHAR_DATA *ch, int num )
@@ -5441,8 +5516,8 @@ void edit_reset_main ( CHAR_DATA *ch, int num )
   AREA_DATA *pArea;
   char buf[MAX_STRING_LENGTH];
   int count = 0;
-  
-  pArea = ch->pcdata->edit.area;  
+
+  pArea = ch->pcdata->edit.area;
   if (!pArea) {
     send_to_char ("Select an area first.\n\r>  ",ch);
     return;
@@ -5453,7 +5528,7 @@ void edit_reset_main ( CHAR_DATA *ch, int num )
       edit_reset_room (ch);
       send_to_char ("\n\r>  ",ch);
       sprintf (buf,"Room resets for room [%d].",ch->pcdata->edit.room->vnum);
-      olc_log_string (ch,buf);                  
+      olc_log_string (ch,buf);
       break;
     case ID_EDIT_RESET_MOB:
       if (!check_range (ch,RANGE_AREA,-1)) return;
@@ -5462,28 +5537,28 @@ void edit_reset_main ( CHAR_DATA *ch, int num )
       remove_resets (pArea,'E');
       count = add_mob_resets (pArea);
       sprintf (buf,"Added %d mob resets.\n\r>  ",count);
-      send_to_char (buf,ch);      
+      send_to_char (buf,ch);
       sprintf (buf,"Mob resets for area %s.",ch->pcdata->edit.area->name);
-      olc_log_string (ch,buf);                  
+      olc_log_string (ch,buf);
       break;
     case ID_EDIT_RESET_OBJECT:
       if (!check_range (ch,RANGE_AREA,-1)) return;
       remove_resets (pArea,'P');
       remove_resets (pArea,'O');
-      count = add_object_resets (pArea);      
+      count = add_object_resets (pArea);
       sprintf (buf,"Added %d object resets.\n\r>  ",count);
-      send_to_char (buf,ch);      
+      send_to_char (buf,ch);
       sprintf (buf,"Object resets for area %s.",ch->pcdata->edit.area->name);
-      olc_log_string (ch,buf);                        
+      olc_log_string (ch,buf);
       break;
     case ID_EDIT_RESET_DOOR:
       if (!check_range (ch,RANGE_AREA,-1)) return;
-      remove_resets (pArea,'D');    
+      remove_resets (pArea,'D');
       count = add_door_resets (pArea);
       sprintf (buf,"Added %d door resets.\n\r>  ",count);
-      send_to_char (buf,ch);      
+      send_to_char (buf,ch);
       sprintf (buf,"Door resets for area %s.",ch->pcdata->edit.area->name);
-      olc_log_string (ch,buf);                        
+      olc_log_string (ch,buf);
       break;
     case ID_EDIT_RESET_ALL:
       if (!check_range (ch,RANGE_AREA,-1)) return;
@@ -5491,24 +5566,24 @@ void edit_reset_main ( CHAR_DATA *ch, int num )
       remove_resets (pArea,'G');
       remove_resets (pArea,'E');
       remove_resets (pArea,'P');
-      remove_resets (pArea,'D');    
+      remove_resets (pArea,'D');
       remove_resets (pArea,'O');
-      count = add_mob_resets (pArea);    
+      count = add_mob_resets (pArea);
       sprintf (buf,"Added %d mob resets.\n\r",count);
       send_to_char (buf,ch);
 
-      count = add_object_resets (pArea);            
+      count = add_object_resets (pArea);
       sprintf (buf,"Added %d object resets.\n\r",count);
-      send_to_char (buf,ch);      
-      
+      send_to_char (buf,ch);
+
       count = add_door_resets (pArea);
       sprintf (buf,"Added %d door resets.\n\r>  ",count);
       send_to_char (buf,ch);
-      
+
       sprintf (buf,"All resets for area %s.",ch->pcdata->edit.area->name);
-      olc_log_string (ch,buf);                        
+      olc_log_string (ch,buf);
       break;
-  }  
+  }
 }
 
 
@@ -5529,7 +5604,7 @@ void edit_exit ( CHAR_DATA *ch, int num )
 MOB_INDEX_DATA *get_first_mob (ROOM_INDEX_DATA *room)
 {
   CHAR_DATA *gch,*next_char;
-  
+
   for ( gch = room->people; gch != NULL; gch = next_char ) {
     next_char = gch->next_in_room;
     if (IS_NPC(gch) && gch->pIndexData) {
@@ -5545,23 +5620,23 @@ void do_edit ( CHAR_DATA *ch, char *argument )
     send_to_char ("NPC's can't edit.\n\r",ch);
     return;
   }
-  
-  SET_BIT (ch->comm,COMM_IN_OLC);  
+
+  SET_BIT (ch->comm,COMM_IN_OLC);
   ch->pcdata->menu = &edit_menu;
-  ch->pcdata->interp_fun = do_menu;  
-  if (ch->pcdata->edit.area == NULL) {    
+  ch->pcdata->interp_fun = do_menu;
+  if (ch->pcdata->edit.area == NULL) {
     ch->pcdata->edit.per_flags = EDIT_DEFAULT_ROOM|EDIT_DEFAULT_OBJ|EDIT_DEFAULT_MOB|
-      EDIT_CREATE_MINIMAL|EDIT_DOUBLE_DOOR;  /* kris - take out after saving to char file */    
+      EDIT_CREATE_MINIMAL|EDIT_DOUBLE_DOOR;  /* kris - take out after saving to char file */
   }
   ch->pcdata->edit.area = ch->in_room->area;
-  
-  if (IS_SET(ch->pcdata->edit.per_flags,EDIT_DEFAULT_ROOM) || 
+
+  if (IS_SET(ch->pcdata->edit.per_flags,EDIT_DEFAULT_ROOM) ||
      (ch->pcdata->edit.room == NULL))
     ch->pcdata->edit.room = ch->in_room;
-  if (IS_SET(ch->pcdata->edit.per_flags,EDIT_DEFAULT_OBJ) || 
+  if (IS_SET(ch->pcdata->edit.per_flags,EDIT_DEFAULT_OBJ) ||
      (ch->pcdata->edit.obj == NULL)) {
     OBJ_DATA *obj,*prev_obj;
-    
+
     obj = ch->carrying;
     prev_obj = NULL;
     while (obj && (obj->wear_loc != -1)) {
@@ -5575,7 +5650,7 @@ void do_edit ( CHAR_DATA *ch, char *argument )
     } else
       ch->pcdata->edit.obj = NULL;
   }
-  if (IS_SET(ch->pcdata->edit.per_flags,EDIT_DEFAULT_MOB) || 
+  if (IS_SET(ch->pcdata->edit.per_flags,EDIT_DEFAULT_MOB) ||
      (ch->pcdata->edit.mob == NULL)) {
     MOB_INDEX_DATA *pData;
 
@@ -5585,3 +5660,4 @@ void do_edit ( CHAR_DATA *ch, char *argument )
   }
   do_menu (ch, argument);
 }
+

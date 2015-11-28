@@ -3,29 +3,29 @@ Name Stewart~
 SurN Little~
 Id   1083308523
 Email (null)~
-LogO 1129230358
+LogO 1309003425
 Vers 31
-Prom (%h %m %v) ({R%a %g %s %w %t{x) ({G%r %e %X{x) ~
+Prom %h/%H %m/%M %v ({R%a %g %s %w %t{x) ({G%r %e %X{x) ~
 Race faerie~
 Clan warlock~
 Outc 0
-RufT 236
+RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 1 1 0 4
 Steal 0 0 0
 LstK Moron~
 LstKBy Eikel~
 LstAtkedBy Olly~
-LstAtkedByTimer 13638
+LstAtkedByTimer 13346
 LstCombatDate 1129228204
 LstKillDate 1083747362
 LstDeathDate 1128278876
-LoginsWOKill 33
-LoginsWODeath 2
-LoginsWOCombat 0
+LoginsWOKill 37
+LoginsWODeath 6
+LoginsWOCombat 4
 Bnty 0
 Deity 30856 huitzilopochtli~
 Sac  300
@@ -35,48 +35,49 @@ Node 0
 Cap 0
 Created 1083308536
 Glad 0 0 0 0 0 0
-LastHost ndnn-ip-nas-1-p115.telkom-ipnet.co.za~
+LastHost 41.53.107.71~
 Cla  7
 Kit medium~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 130670
-Not  1129227824 1129227824 1129227824 1129227824 1129227824 1129227824 1129227824 1129227824 1129227824 1129227824
+Plyd 142504
+Not  1309002287 1309002287 1309002287 1309002287 1309002287 1309002287 1309002287 1309002287 1309002287 1309002287
 Scro 22
 Rank 2
-Room 31901
-HMV  1006 1006 1056 1056 583 583
-Gold 143
-Silv 5229
+Room 31918
+HMV  1006 1006 902 1056 583 583
+Gold 420
+Silv 2980
 Exp  73962
 Act  DGHIKMQS
 MHSF R
-AfBy DFHJTc
+AfBy CDEFHJTVc
 Comm T
-Disp BFIJN
+Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 23
-SkiP 89
-Save  -29
+Trai 12
+SkiP 112
+Save  -35
 Alig  -1000
-Hit   12
-Dam   11
-SecHit   12
-SecDam   11
-ACs 29 29 30 37
-Attr 13 25 25 21 13 21 16 22
-AMod 1 1 0 2 2 0 0 3
-Pass StNf8oqwiMugk~
-Titl  - {DBlack Robes{x.~
+Hit   19
+Dam   12
+SecHit   19
+SecDam   12
+ACs -11 -11 -10 -3
+Attr 13 25 25 21 13 17 8 22
+AMod 1 1 0 6 2 0 0 3
+Pass StUXuOls6oE0Q~
+Titl  is hidden by {Dblack robes{x.~
 Pnts 44
 TSex 1
 LLev 14
 HMVP 716 966 583
-Cnd  0 24 24 24
+Cnd  0 14 22 22
 Alias skel c 'summon dead'~
 Alias res order all rescue stewart~
 Alias / order all~
@@ -84,6 +85,10 @@ Alias rock order all hit~
 Alias k c acid~
 Alias ff c famine~
 Alias kk c chain~
+Alias ss c sleep~
+Alias hh c heal~
+Alias cc c charm~
+Alias b bleed~
 Sk 96 'acid blast'
 Sk 84 'acclimate'
 Sk 1 'aid'
@@ -134,11 +139,11 @@ Sk 77 'frenzy'
 Sk 1 'fumble'
 Sk 100 'gate'
 Sk 79 'giant strength'
-Sk 82 'haste'
-Sk 92 'heal'
+Sk 85 'haste'
+Sk 100 'heal'
 Sk 1 'holy word'
 Sk 1 'hydrophilia'
-Sk 78 'identify'
+Sk 81 'identify'
 Sk 1 'infravision'
 Sk 1 'knock'
 Sk 1 'know alignment'
@@ -147,7 +152,7 @@ Sk 1 'lightning bolt'
 Sk 91 'locate object'
 Sk 75 'magic missile'
 Sk 1 'mass healing'
-Sk 87 'mirror image'
+Sk 94 'mirror image'
 Sk 1 'nexus'
 Sk 1 'orb of awakening'
 Sk 100 'orb of surprise'
@@ -173,7 +178,7 @@ Sk 1 'shocking grasp'
 Sk 87 'sleep'
 Sk 78 'slow'
 Sk 1 'sonic blast'
-Sk 77 'stone skin'
+Sk 78 'stone skin'
 Sk 100 'summon'
 Sk 98 'teleport'
 Sk 75 'tower of iron will'
@@ -213,7 +218,14 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'sanctuary'   0  52   3   0   0        128
+Affc 'shield'   0  53  58 -20  17          0
+Affc 'haste'   0  55  19   4   2    2097152
+Affc 'sanctuary'   0  54   1   0   0        128
+Affc 'detect magic'   0  50  28   0   0         16
+Affc 'detect good'   0  48  28   0   0          4
+Affc 'bless'   0  51  33  -6  24          0
+Affc 'bless'   0  48  33   6  18          0
+Affc 'armor'   0  50   6 -20  17          0
 End
 
 #O
@@ -371,13 +383,177 @@ Cost 1000
 End
 
 #O
-Vnum 8517
+Vnum 17648
 Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 13
+Cost 4000
+End
+
+#O
+Vnum 2412
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 3000
+Val  3 4 10 11 8
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 12004
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 12005
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 605
+End
+
+#O
+Vnum 12006
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 12087
+Nest 1
 PrevOwner Stewart~
 Cond 0
 Wear -1
 Cost 0
-Val  0 0 0 0 22089
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 3031
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 75
+Val  0 0 2 0 0
+End
+
+#O
+Vnum 23514
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 3690
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12008
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12087
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Stewart~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8500
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 12086
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12345
+End
+
+#O
+Vnum 12003
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3500
 End
 
 #O
@@ -385,20 +561,10 @@ Vnum 18912
 Nest 0
 PrevOwner Stewart~
 ExtF 1
+Stolen 64
 Cond 0
 Wear 16
 Cost 4800
-End
-
-#O
-Vnum 2412
-Nest 0
-PrevOwner Tome~
-Cond 0
-Wear -1
-Cost 3000
-Val  3 4 10 11 8
-Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #END

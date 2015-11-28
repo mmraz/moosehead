@@ -3,36 +3,42 @@ Name Ripper~
 SurN SoulSlash~
 Id   783488875
 Email (null)~
-LogO 1132191055
-Vers 31
+LogO 1416359366
+Vers 33
 ShD  ripper~
 LnD  A Gladiator~
 Desc http://www.ra-access.com/
 http://housecall.antivirus.com/housecall/start_corp.asp
 ~
-Prom %hH %mM %vV %wWt %n/%NI {Y%g{xG{C%s{xS %rEx:%e %c> ~
+Prom %h.%H %m.%M %v.%V %wWt %n/%NI %gG %sS %rEx:%e%c> ~
 Race elf~
-Clan posse~
 Outc 0
-RufT 0
+RufT 118
 MatookT 0
-SkPTimer 21
-SkPTracker 12
+SkPTimer 1
+SkPTracker 3
 LogoutTracker 0
-Kill 5 45 0 153
+Kill 5 46 0 169
 Steal 0 0 0
-LstK Coranon~
-LstKBy Yorath~
+MSteal 0
+LstK Azorak~
+LstKBy Anazar~
 LstAtkedBy Tebo~
-LstAtkedByTimer 11730
-LstCombatDate 1129911480
-LstKillDate 1128436162
-LstDeathDate 1129721263
-LoginsWOKill 26
-LoginsWODeath 15
-LoginsWOCombat 12
+LstAtkedByTimer 1767
+LstCombatDate 1339694208
+LstKillDate 1310601851
+LstDeathDate 1311981784
+LoginsWOKill 55
+LoginsWODeath 28
+LoginsWOCombat 8
 Bnty 0
-Deity 5416338 cthon~
+DeityFavor 2 0
+PrefStat 0
+OldC 5 1000 3
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 5416338 hermes~
 DeityT -17325 cthon~
 Sac  300
 Sex  1
@@ -40,52 +46,51 @@ Vump  0
 Node 0
 Cap 0
 Created 954195767
-Glad 0 7 1 2 7 1
-LastHost 134.117.137.34~
+Glad 0 9 1 2 14 1
+LastHost 75.119.248.79~
 Cla  9
 Kit bladesinger~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 6934885
-Not  1126328533 1130446298 994633872 1131210186 1121859963 1132178880 1033174273 1129507354 994633872 1129478192
-Scro 18
-Rank 5
-Room 31603
-HMV  930 930 699 875 386 434
-Gold 372
-Silv 19
+Plyd 7342408
+Not  1407255693 1406980220 994633872 1344812444 1332523915 1416073263 1033174273 1407046784 994633872 1343254317
+Scro 38
+Rank 0
+Room 3034
+HMV  995 995 785 860 474 474
+Gold 257
+Silv 31
 Exp  448800
-Act  CDEFGIMRSUd
-MHSF AR
-ClnF I
-AfBy CDEFHJT
+Act  DEGIMQRSUd
+MHSF ARS
+AfBy CDEFHJNTUVe
 Comm LOS
 Disp BFIJN
 IcgB 0
 Icg 0
+Wizn W
 Pnet ABCDEFGHI
 Pos  8
-Prac 11
-Trai 1
-SkiP 5
-Save  -6
-Alig  -1000
-Hit   32
-Dam   41
-SecHit   30
-SecDam   39
-ACs 20 32 20 16
+Prac 55
+SkiP 350
+Save  -29
+Alig  980
+Hit   38
+Dam   40
+SecHit   38
+SecDam   35
+ACs -160 -148 -160 -158
 Wimp  20
-Attr 18 21 18 21 16 18 16 14
-AMod 5 0 0 0 0 0 0 0
+Attr 18 21 18 21 16 11 12 24
+AMod 4 0 0 5 2 0 0 0
 Pass RimX.v2ruFvds~
-Titl  is Flatbread for a reason~
+Titl  is one of the things that go bump at night.~
 Pnts 100
 TSex 1
 LLev 1
-HMVP 885 800 434
-Cnd  0 5 10 10
+HMVP 905 800 434
+Cnd  0 5 5 5
 Alias 1 throw~
 Alias 2 c acid~
 Alias 4 c blind~
@@ -95,12 +100,12 @@ Alias 6 emote utters the words, 'grzzs'.                                        
 Alias ll c 'cure blind'~
 Alias pp c 'cure poison'~
 Alias oo c famine~
-Alias [ c 'summon d'~
 Alias 5 c 'dispel magic'~
 Alias 8 c flamesee~
-Alias 66 emote utters the words, 'grzzs'.                                               Ripper is in excellent condition.~
 Alias k kill~
-Alias 0 c entran azo cast sunburst self~
+Alias c cast~
+Alias 0 c sleep~
+Alias 99 c sleep mizuchi~
 Sk 100 'acid blast'
 OldSk 100 'acid blast'
 Sk 1 'aid'
@@ -119,10 +124,13 @@ Sk 78 'burning hands'
 OldSk 75 'burning hands'
 Sk 77 'call lightning'
 OldSk 75 'call lightning'
-Sk 87 'calm'
+Sk 90 'calm'
 OldSk 80 'calm'
 Sk 100 'cancellation'
 OldSk 95 'cancellation'
+Sk 75 'cause critical'
+Sk 75 'cause light'
+Sk 75 'cause serious'
 Sk 100 'chain lightning'
 OldSk 80 'chain lightning'
 Sk 1 'change sex'
@@ -133,14 +141,13 @@ Sk 89 'chill touch'
 OldSk 80 'chill touch'
 Sk 78 'colour spray'
 OldSk 78 'colour spray'
-Sk 1 'cone of silence'
 Sk 97 'continual light'
 OldSk 82 'continual light'
 Sk 75 'control weather'
 OldSk 75 'control weather'
 Sk 83 'create food'
 OldSk 81 'create food'
-Sk 81 'create fountain'
+Sk 84 'create fountain'
 OldSk 23 'create fountain'
 Sk 83 'create rose'
 OldSk 1 'create rose'
@@ -152,7 +159,7 @@ Sk 100 'cure blindness'
 OldSk 94 'cure blindness'
 Sk 100 'cure critical'
 OldSk 100 'cure critical'
-Sk 98 'cure disease'
+Sk 100 'cure disease'
 OldSk 79 'cure disease'
 Sk 75 'cure light'
 OldSk 13 'cure light'
@@ -176,7 +183,7 @@ Sk 100 'detect magic'
 OldSk 89 'detect magic'
 Sk 56 'detect poison'
 OldSk 1 'detect poison'
-Sk 80 'dispel evil'
+Sk 83 'dispel evil'
 OldSk 75 'dispel evil'
 Sk 78 'dispel good'
 OldSk 75 'dispel good'
@@ -202,7 +209,7 @@ Sk 100 'faerie fog'
 OldSk 75 'faerie fog'
 Sk 100 'famine'
 OldSk 100 'famine'
-Sk 97 'farsight'
+Sk 99 'farsight'
 OldSk 83 'farsight'
 Sk 100 'feast'
 OldSk 89 'feast'
@@ -214,7 +221,7 @@ Sk 100 'fireproof'
 OldSk 89 'fireproof'
 Sk 100 'flamestrike'
 OldSk 92 'flamestrike'
-Sk 83 'flameseek'
+Sk 86 'flameseek'
 Sk 77 'floating disc'
 OldSk 77 'floating disc'
 Sk 100 'fly'
@@ -229,6 +236,7 @@ Sk 100 'gate'
 OldSk 100 'gate'
 Sk 100 'giant strength'
 OldSk 100 'giant strength'
+Sk 75 'harm'
 Sk 100 'haste'
 OldSk 100 'haste'
 Sk 100 'heal'
@@ -274,7 +282,7 @@ Sk 100 'protection evil'
 OldSk 100 'protection evil'
 Sk 100 'protection good'
 OldSk 80 'protection good'
-Sk 81 'protection neutral'
+Sk 84 'protection neutral'
 OldSk 75 'protection neutral'
 Sk 100 'ray of truth'
 OldSk 100 'ray of truth'
@@ -330,7 +338,7 @@ Sk 98 'cryogenesis'
 OldSk 76 'cryogenesis'
 Sk 100 'draw life'
 OldSk 77 'draw life'
-Sk 78 'make bag'
+Sk 80 'make bag'
 Sk 100 'turn undead'
 OldSk 83 'turn undead'
 Sk 100 'withstand death'
@@ -394,7 +402,7 @@ OldSk 100 'third attack'
 Sk 100 'chee'
 OldSk 100 'chee'
 Sk 100 'fast healing'
-Sk 97 'haggle'
+Sk 99 'haggle'
 Sk 100 'hide'
 OldSk 75 'hide'
 OldSk 100 'lore'
@@ -428,6 +436,7 @@ Gr 'curative'
 Gr 'detection'
 Gr 'draconian'
 Gr 'enhancement'
+Gr 'harmful'
 Gr 'healing'
 Gr 'illusion'
 Gr 'maladictions'
@@ -437,529 +446,197 @@ Gr 'pyrotechnics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'sanctuary'   0  48   8   0   0        128
-Affc 'frenzy'   0  45   3  40  17          0
-Affc 'frenzy'   0  46   3   8  19          0
-Affc 'frenzy'   0  46   3   8  18          0
+Affc 'sanctuary'   0  52   8   0   0        128
+Affc 'bless'   0  45  32  -6  24          0
+Affc 'bless'   0  45  32   6  18          0
+Affc 'armor'   0  50  17 -20  17          0
+Affc 'shield'   0  50  42 -20  17          0
+Affc 'detect magic'   0  51  35   0   0         16
 Affc 'detect evil'   0  47  36   0   0          4
-Affc 'detect hidden'   0  47  34   0   0         32
-Affc 'detect invis'   0  46  34   0   0          8
-Affc 'detect magic'   0  43  34   0   0         16
-Affc 'giant strength'   0  48  33   4   1          0
-Affc 'armor'   0  43   6 -20  17          0
+Affc 'protection evil'   0  48   9  -1  24       8192
+Affc 'giant strength'   0  48  43   4   1          0
+Affc 'haste'   0  51  15   4   2    2097152
+Affc 'detect invis'   0  51  47   0   0          8
+Affc 'stone skin'   0  51  45 -40  17          0
+Affc 'pass door'   0  52   7   0   0    1048576
+Affc 'withstand death'   0  52   8   0   0 1073741824
+Affc 'bladesong'   0  49   3   8  18          0
+Affc 'bladesong'   0  50   3   8  19          0
+Affc 'bladesong'   0  49   3 -80  17          0
+Affc 'detect hidden'   0  52  50   0   0         32
 End
 
 #O
-Vnum 11145
+Vnum 2729
 Nest 0
 PrevOwner Ripper~
-Cond 0
-Wear 18
-Cost 4500
-End
-
-#O
-Vnum 10447
-Nest 0
-PrevOwner Ripper~
-ExtF 134217728
-Wt   27
-Cond 0
-Wear 5
-Cost 13700
-Val  6 6 6 12 2
-End
-
-#O
-Vnum 8543
-Nest 0
-PrevOwner Ripper~
-Cond 0
-Wear 10
-Cost 4250
-End
-
-#O
-Vnum 10003
-Nest 0
-PrevOwner Ripper~
-Cond 0
-Wear 0
-Cost 0
-End
-
-#O
-Vnum 5913
-Nest 0
-PrevOwner Ripper~
-ExtF 134217728
-Wt   140
 Cond 0
 Wear 7
-Cost 2000
-Val  7 7 7 4 2
+Cost 3600
+Affc 'bless'   1  49  38  -1  20        256
 End
 
 #O
 Vnum 18110
 Nest 0
 PrevOwner Ripper~
+ExtF 257
 Cond 0
 Wear 8
 Cost 2400
+Affc 'bless'   1  47  38  -1  20        256
 End
 
 #O
-Vnum 20733
+Vnum 8545
+Enchanted
 Nest 0
 PrevOwner Ripper~
+ExtF 135266625
+Wt   27
 Cond 0
-Wear 15
-Cost 3000
-End
-
-#O
-Vnum 15227
-Nest 0
-PrevOwner Ripper~
-ExtF 16777281
-Cond 0
-Wear 12
-Cost 20000
-End
-
-#O
-Vnum 2440
-Nest 0
-PrevOwner Ripper~
-Cond 0
-Wear 14
-Cost 300
-End
-
-#O
-Vnum 5922
-Nest 0
-PrevOwner Ripper~
-Cond 0
-Wear 3
-Cost 300
-End
-
-#O
-Vnum 5922
-Nest 0
-PrevOwner Ripper~
-Cond 0
-Wear 4
-Cost 300
+Wear 9
+Cost 3400
+Val  8 2 8 10 2
+Affc 'reserved'   1  50  -1   3  19          0
+Affc 'reserved'   1  50  -1   2  18          0
+Affc 'enchant armor'   1  53  -1  -7  17          0
+Affc 'bless'   1  49  38  -1  20        256
 End
 
 #O
 Vnum 5909
 Nest 0
 PrevOwner Ripper~
+ExtF 257
 Cond 0
 Wear 2
 Cost 3000
+Affc 'bless'   1  46  37  -1  20        256
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner Ripper~
+ExtF 257
+Cond 0
+Wear 4
+Cost 300
+Affc 'bless'   1  47  38  -1  20        256
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner Ripper~
+ExtF 257
+Cond 0
+Wear 3
+Cost 300
+Affc 'bless'   1  50  38  -1  20        256
 End
 
 #O
 Vnum 12084
 Nest 0
 PrevOwner Ripper~
-ExtF 151781440
+ExtF 151781696
 Wt   45
 Cond 0
 Wear 6
-Cost 7777
+Cost 0
 Val  17 17 17 11 2
+Affc 'bless'   1  47  38  -1  20        256
 End
 
 #O
-Vnum 20740
+Vnum 22504
 Nest 0
 PrevOwner Ripper~
+ExtF 16777473
 Cond 0
-Wear 17
-Cost 4500
+Wear 0
+Cost 0
+Affc 'bless'   1  47  38  -1  20        256
 End
 
 #O
-Vnum 8545
+Vnum 10447
 Nest 0
 PrevOwner Ripper~
-ExtF 135266304
+ExtF 134217984
 Wt   27
 Cond 0
-Wear 9
-Cost 3400
-Val  8 2 8 10 2
+Wear 5
+Cost 13700
+Val  6 6 6 12 2
+Affc 'bless'   1  49  38  -1  20        256
+End
+
+#O
+Vnum 2439
+Nest 0
+PrevOwner Ripper~
+ExtF 321
+Cond 0
+Wear 15
+Cost 300
+Affc 'bless'   1  47  37  -1  20        256
 End
 
 #O
 Vnum 5909
 Nest 0
 PrevOwner Ripper~
+ExtF 257
 Cond 0
 Wear 1
 Cost 3000
+Affc 'bless'   1  51  37  -1  20        256
 End
 
 #O
-Vnum 18119
+Vnum 2439
 Nest 0
 PrevOwner Ripper~
-ExtF 225
+ExtF 321
 Cond 0
-Wear -1
-Cost 4500
+Wear 14
+Cost 300
+Affc 'bless'   1  49  37  -1  20        256
 End
 
 #O
-Vnum 18119
+Vnum 20740
 Nest 0
 PrevOwner Ripper~
-ExtF 225
+ExtF 262400
 Cond 0
-Wear -1
+Wear 17
 Cost 4500
+Affc 'bless'   1  48  37  -1  20        256
+End
+
+#O
+Vnum 15227
+Nest 0
+PrevOwner Ripper~
+Cond 0
+Wear 12
+Cost 20000
+Affc 'bless'   1  48  37  -1  20        256
 End
 
 #O
 Vnum 17648
 Nest 0
 PrevOwner Ripper~
+ExtF 16777472
 Cond 0
 Wear 13
-Cost 4000
-End
-
-#O
-Vnum 23516
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
-Vnum 10069
-Enchanted
-Nest 1
-PrevOwner Ripper~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Val  0 2 19 26 164
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 2925
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 2419
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 2100
-End
-
-#O
-Vnum 1400
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 10700
-End
-
-#O
-Vnum 20745
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5743
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20839
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8526
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 2447
-Enchanted
-Nest 1
-PrevOwner Ripper~
-ExtF 786499
-Cond 0
-Wear -1
-Lev  50
-Cost 150
-Val  2 7 5 2 8
-Affc 'reserved'   1  42  -1  15  12          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 16638
-Nest 1
-PrevOwner Ripper~
-ExtF 1051169
-Cond 0
-Wear -1
-Cost 6372
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 8500
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 22504
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 23505
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 700
-End
-
-#O
-Vnum 22055
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 4100
-End
-
-#O
-Vnum 9602
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 20746
-Nest 1
-PrevOwner Ripper~
-ExtF 0
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 20746
-Nest 1
-PrevOwner Ripper~
-ExtF 0
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 10427
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 11800
-End
-
-#O
-Vnum 8517
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8517
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5902
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 12007
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2433
-Nest 1
-PrevOwner Ripper~
-ExtF 262145
-Cond 0
-Wear -1
-Cost 800
-End
-
-#O
-Vnum 10003
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12007
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1963
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 1832
-End
-
-#O
-Vnum 2432
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 1200
-End
-
-#O
-Vnum 8528
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 2354
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 8500
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22504
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
+Cost 4400
+Affc 'bless'   1  45  36  -1  20        256
 End
 
 #O
@@ -991,57 +668,143 @@ Cost 10000
 End
 
 #O
-Vnum 20813
+Vnum 11023
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
-Cost 4000
+Cost 10000
 End
 
 #O
-Vnum 23515
+Vnum 11023
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
-Cost 7609
+Cost 10000
+End
+
+#O
+Vnum 11023
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8526
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 23516
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 20730
+Nest 1
+PrevOwner Ripper~
+ExtF 262145
+Cond 0
+Wear -1
+Cost 6100
+End
+
+#O
+Vnum 11023
+Nest 1
+PrevOwner Azorak~
+Cond 0
+Wear -1
+Cost 10000
+Val  2 0 4 11053 0
 End
 
 #O
 Vnum 11096
 Nest 1
-PrevOwner Ripper~
+PrevOwner Azorak~
 Cond 0
 Wear -1
 Cost 15000
 End
 
 #O
-Vnum 22009
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
 Vnum 11023
 Nest 1
-PrevOwner Ripper~
+PrevOwner Azorak~
 Cond 0
 Wear -1
 Cost 10000
+Val  2 0 4 11053 0
 End
 
 #O
-Vnum 11023
+Vnum 15234
 Nest 1
-PrevOwner Ripper~
+PrevOwner Azorak~
 Cond 0
 Wear -1
-Cost 10000
+Cost 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 4825
+Nest 1
+PrevOwner Azorak~
+Cond 0
+Wear -1
+Cost 7000
 End
 
 #O
@@ -1054,21 +817,21 @@ Cost 4000
 End
 
 #O
-Vnum 11023
+Vnum 10309
 Nest 1
-PrevOwner Ripper~
+PrevOwner Xar~
 Cond 0
 Wear -1
-Cost 10000
+Cost 6011
 End
 
 #O
-Vnum 4825
+Vnum 10710
 Nest 1
-PrevOwner Ripper~
+PrevOwner Xar~
 Cond 0
 Wear -1
-Cost 7000
+Cost 2000
 End
 
 #O
@@ -1081,39 +844,30 @@ Cost 1000
 End
 
 #O
-Vnum 8546
+Vnum 9602
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
-Cost 10300
+Cost 1000
 End
 
 #O
-Vnum 10727
+Vnum 9602
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
-Cost 500
+Cost 1000
 End
 
 #O
-Vnum 1349
+Vnum 9602
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
-Cost 5000
-End
-
-#O
-Vnum 1349
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 5000
+Cost 1000
 End
 
 #O
@@ -1127,202 +881,23 @@ Cost 1500
 End
 
 #O
-Vnum 5408
+Vnum 20746
 Nest 1
 PrevOwner Ripper~
 ExtF 0
 Cond 0
 Wear -1
-Cost 0
+Cost 1500
 End
 
 #O
-Vnum 5909
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 15234
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'haste'
-End
-
-#O
-Vnum 9008
+Vnum 20746
 Nest 1
 PrevOwner Ripper~
 ExtF 0
 Cond 0
 Wear -1
-Cost 4000
-End
-
-#O
-Vnum 9008
-Nest 1
-PrevOwner Ripper~
-ExtF 0
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 9233
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 9224
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 200
-Val  150 132 13 1 0
-End
-
-#O
-Vnum 23505
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 700
-End
-
-#O
-Vnum 10431
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 10710
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 2447
-Enchanted
-Nest 1
-PrevOwner Ripper~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 37
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-End
-
-#O
-Vnum 10708
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 9602
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10309
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 6011
-End
-
-#O
-Vnum 9233
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 1000
+Cost 1500
 End
 
 #O
@@ -1335,56 +910,97 @@ Cost 5
 End
 
 #O
-Vnum 5408
+Vnum 10449
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
-Cost 0
+Cost 5000
 End
 
 #O
-Vnum 6411
+Vnum 10449
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
-Cost 5600
+Cost 5000
 End
 
 #O
-Vnum 22552
-Enchanted
-Nest 1
-PrevOwner Ripper~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 3007
+Vnum 10449
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
-Cost 500000
+Cost 5000
 End
 
 #O
-Vnum 12007
+Vnum 10449
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
-Cost 0
+Cost 5000
 End
 
 #O
-Vnum 5706
+Vnum 10449
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10708
 Nest 1
 PrevOwner Ripper~
 Cond 0
@@ -1393,25 +1009,7 @@ Cost 2000
 End
 
 #O
-Vnum 17631
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 250
-End
-
-#O
-Vnum 8517
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8517
+Vnum 20839
 Nest 1
 PrevOwner Ripper~
 Cond 0
@@ -1429,32 +1027,480 @@ Cost 0
 End
 
 #O
-Vnum 20730
+Vnum 9008
 Nest 1
 PrevOwner Ripper~
-ExtF 262145
+ExtF 0
 Cond 0
 Wear -1
-Cost 6100
+Cost 4000
 End
 
 #O
-Vnum 17667
+Vnum 9008
+Nest 1
+PrevOwner Ripper~
+ExtF 0
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 10450
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
-Cost 1000
-Spell 3 'cure critical'
+Cost 10000
 End
 
 #O
-Vnum 22514
+Vnum 5032
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 2420
+End
+
+#O
+Vnum 2440
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 300
+End
+
+#O
+Vnum 20745
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 20733
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 2910
+Enchanted
+Nest 1
+PrevOwner Ripper~
+ExtF 67
+Cond 0
+Wear -1
+Lev  14
+Cost 0
+Affc 'enchant weapon'   1  52  -1   7  19          0
+Affc 'enchant weapon'   1  52  -1   8  18          0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2908
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 3000
+Spell 3 'poison'
+End
+
+#O
+Vnum 4831
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 9224
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 200
+Val  150 132 13 1 0
+End
+
+#O
+Vnum 17631
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 20813
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12004
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 12006
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 5408
+Nest 1
+PrevOwner Ripper~
+ExtF 0
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8546
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 10300
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 9215
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 3900
+Spell 3 'fireball'
+End
+
+#O
+Vnum 10427
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 11800
+End
+
+#O
+Vnum 4442
+Nest 1
+PrevOwner Ripper~
+ExtF 536870961
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3141
+Nest 1
+PrevOwner Ripper~
+Name a wand of turn undead~
+ShD  a wand of turn undead~
+Desc A wand of turn undead lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  20
+Cost 0
+Val  53 0 2 241 -1
+Spell 3 'turn undead'
+End
+
+#O
+Vnum 16638
+Nest 1
+PrevOwner Ripper~
+ExtF 1051169
+Cond 0
+Wear -1
+Cost 6372
+End
+
+#O
+Vnum 1937
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 1925
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 1944
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 3850
+End
+
+#O
+Vnum 1975
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 5902
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 3803
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 4
+End
+
+#O
+Vnum 1970
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3803
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 4
+End
+
+#O
+Vnum 1970
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3803
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 4
+End
+
+#O
+Vnum 1970
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 10445
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 6400
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Ripper~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 3250
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 6500
+Val  4 5 8 7 1280
+End
+
+#O
+Vnum 4826
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 4600
+End
+
+#O
+Vnum 11078
+Enchanted
+Nest 1
+PrevOwner Ripper~
+ExtF 134217793
+Wt   22
+Cond 0
+Wear -1
+Lev  49
+Cost 3500
+Val  12 12 12 5 2
+Affc 'reserved'   1  42  -1   1  18          0
+Affc 'reserved'   1  42  -1   2  19          0
+Affc 'reserved'   1  42  -1   2   1          0
+Affc 'enchant armor'   1  53  -1  -7  17          0
 End
 
 #O
@@ -1485,80 +1531,13 @@ Cost 5000
 End
 
 #O
-Vnum 3142
+Vnum 10431
 Nest 1
 PrevOwner Ripper~
 Cond 0
 Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 11078
-Enchanted
-Nest 1
-PrevOwner Ripper~
-ExtF 65
-Cond 0
-Wear -1
-Lev  44
-Cost 3500
-Affc 'reserved'   1  42  -1   1  18          0
-Affc 'reserved'   1  42  -1   2  19          0
-Affc 'reserved'   1  42  -1   2   1          0
-Affc 'enchant armor'   1  53  -1  -3  17          0
-End
-
-#O
-Vnum 10726
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 11078
-Enchanted
-Nest 1
-PrevOwner Ripper~
-ExtF 65
-Cond 0
-Wear -1
-Lev  45
-Cost 3500
-Affc 'reserved'   1  42  -1   1  18          0
-Affc 'reserved'   1  42  -1   2  19          0
-Affc 'reserved'   1  42  -1   2   1          0
-Affc 'enchant armor'   1  53  -1  -3  17          0
-End
-
-#O
-Vnum 22506
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 1200
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
+Cost 6500
+Val  4 5 8 7 768
 End
 
 #O
@@ -1571,67 +1550,199 @@ Cost 100000
 End
 
 #O
-Vnum 18108
+Vnum 11145
+Nest 0
+PrevOwner Ripper~
+ExtF 321
+Cond 0
+Wear 18
+Cost 4500
+Affc 'bless'   1  48  37  -1  20        256
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner (null)~
+ExtF 480
+Cond 0
+Wear -1
+Cost 4500
+Affc 'bless'   1  46  36  -1  20        256
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner (null)~
+ExtF 480
+Cond 0
+Wear -1
+Cost 4500
+Affc 'bless'   1  48  36  -1  20        256
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner (null)~
+ExtF 480
+Cond 0
+Wear -1
+Cost 4500
+Affc 'bless'   1  44  36  -1  20        256
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner (null)~
+ExtF 480
+Cond 0
+Wear -1
+Cost 4500
+Affc 'bless'   1  45  36  -1  20        256
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner (null)~
+ExtF 480
+Cond 0
+Wear -1
+Cost 4500
+Affc 'bless'   1  50  36  -1  20        256
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner (null)~
+ExtF 480
+Cond 0
+Wear 16
+Cost 4500
+Affc 'bless'   1  44  36  -1  20        256
+End
+
+#O
+Vnum 12031
+Nest 0
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12031
+Nest 0
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8500
+Nest 0
+PrevOwner Ripper~
+ExtF 0
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10457
 Nest 1
 PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 23124
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 2400
+End
+
+#O
+Vnum 18114
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23503
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 8528
+Nest 1
+PrevOwner Ripper~
+ExtF 524800
+Cond 0
+Wear -1
+Cost 2354
+End
+
+#O
+Vnum 18912
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 4800
+End
+
+#O
+Vnum 8541
+Nest 1
+PrevOwner Ripper~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6411
+Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5600
 End
 
 #O
-Vnum 18941
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 18423
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 800
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 8309
+Vnum 6415
 Nest 0
-PrevOwner Ripper~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 100
-End
-
-#O
-Vnum 11098
-Nest 0
-PrevOwner Ripper~
-Cond 0
-Wear -1
-Cost 3500
-End
-
-#O
-Vnum 2415
-Nest 0
-PrevOwner Ripper~
-Stolen 31
-Cond 0
-Wear 16
-Cost 1000
+Cost 9000
 End
 
 #END

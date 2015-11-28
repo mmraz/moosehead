@@ -3,8 +3,8 @@ Name Kojen~
 SurN Mystiic~
 Id   1030227906
 Email (null)~
-LogO 1030229422
-Vers 31
+LogO 1323463786
+Vers 33
 Prom <%h Hp %m Mn %v Mv>%c<%XXp %SDp %gg %ss> ~
 Race lasher~
 Outc 0
@@ -15,6 +15,7 @@ SkPTracker 5
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -29 xochipili~
 Sac  169
@@ -35,40 +40,42 @@ Node 0
 Cap 0
 Created 1030227925
 Glad 0 0 0 0 0 0
-LastHost 206.163.176.5~
+LastHost 76.105.134.175~
 Cla  6
 ClaO 2
 Levl 3
 DLevl 0
-Plyd 1280
+Plyd 1286
 Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3054
-HMV  12 52 107 107 50 107
+HMV  52 52 107 107 107 107
 Gold 510
 Silv 67
 Exp  31158
 Act  CDEFGHKQ
+MHSF R
 AfBy T
 Comm DGIR
 Disp BFGJN
 IcgB 0
 Icg 0
 Pos  8
+Trai 1
 SkiP 10
-Save  -6
+Save  -5
 Alig  1000
-Hit   6
+Hit   5
 SecHit   5
-ACs 46 22 22 59
-Attr 13 14 19 13 22 10 12 12
-AMod 6 -1 1 2 1 0 0 0
+ACs 60 60 60 60
+Attr 13 14 19 13 22 10 11 12
+AMod 4 0 0 0 0 0 0 0
 Pass Ko.Tb76bRW9P.~
 Titl , Wandering the Lost path.~
 Pnts 96
 TSex 1
-LLev 0
+LLev 1
 HMVP 52 107 107
 Cnd  0 0 27 6
 Sk 1 'fly'
@@ -108,11 +115,11 @@ Sk 50 'recall'
 Gr 'rom basics'
 Gr 'berzerker basics'
 Gr 'transportation'
-Affc 'giant strength'   0  50  32   4   1          0
-Affc 'shield'   0  50  40 -20  17          0
-Affc 'armor'   0  38  12 -20  17          0
-Affc 'bless'   0  38  24  -5  24          0
 Affc 'bless'   0  36  24   5  18          0
+Affc 'bless'   0  38  24  -5  24          0
+Affc 'armor'   0  38  12 -20  17          0
+Affc 'shield'   0  50  40 -20  17          0
+Affc 'giant strength'   0  50  32   4   1          0
 End
 
 #O
@@ -120,7 +127,7 @@ Vnum 3716
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 Val  0 0 171 0 0
 End
@@ -130,7 +137,7 @@ Vnum 3704
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 11
+Wear -1
 Cost 0
 End
 
@@ -193,7 +200,7 @@ Vnum 3715
 Nest 0
 PrevOwner Kujen~
 Cond 0
-Wear 17
+Wear -1
 Cost 1140
 End
 
@@ -202,7 +209,7 @@ Vnum 3705
 Nest 0
 PrevOwner Kujen~
 Cond 0
-Wear 4
+Wear -1
 Cost 72
 End
 
@@ -211,7 +218,7 @@ Vnum 3705
 Nest 0
 PrevOwner Kujen~
 Cond 0
-Wear 3
+Wear -1
 Cost 72
 End
 
@@ -220,7 +227,7 @@ Vnum 9538
 Nest 0
 PrevOwner Nike~
 Cond 0
-Wear 13
+Wear -1
 Cost 27
 End
 
@@ -238,7 +245,7 @@ Vnum 3066
 Nest 0
 PrevOwner Nike~
 Cond 0
-Wear 5
+Wear -1
 Cost 321
 End
 
@@ -247,7 +254,7 @@ Vnum 3067
 Nest 0
 PrevOwner Nike~
 Cond 0
-Wear 6
+Wear -1
 Cost 147
 End
 
@@ -256,7 +263,7 @@ Vnum 3068
 Nest 0
 PrevOwner Nike~
 Cond 0
-Wear 7
+Wear -1
 Cost 220
 End
 
@@ -265,7 +272,7 @@ Vnum 3069
 Nest 0
 PrevOwner Nike~
 Cond 0
-Wear 8
+Wear -1
 Cost 186
 End
 
@@ -274,7 +281,7 @@ Vnum 3070
 Nest 0
 PrevOwner Nike~
 Cond 0
-Wear 9
+Wear -1
 Cost 153
 End
 
@@ -283,7 +290,7 @@ Vnum 3071
 Nest 0
 PrevOwner Nike~
 Cond 0
-Wear 10
+Wear -1
 Cost 170
 End
 
@@ -292,7 +299,7 @@ Vnum 3052
 Nest 0
 PrevOwner Nike~
 Cond 0
-Wear 15
+Wear -1
 Cost 79
 End
 
@@ -301,7 +308,7 @@ Vnum 3052
 Nest 0
 PrevOwner Nike~
 Cond 0
-Wear 14
+Wear -1
 Cost 71
 End
 
@@ -310,7 +317,7 @@ Vnum 3726
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 End
 
@@ -320,7 +327,7 @@ Nest 0
 PrevOwner Kojen~
 Stolen 32
 Cond 0
-Wear 16
+Wear -1
 Cost 210
 End
 

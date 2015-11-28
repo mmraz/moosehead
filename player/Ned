@@ -2,8 +2,8 @@
 Name Ned~
 Id   948246454
 Email (null)~
-LogO 1078582086
-Vers 31
+LogO 1386536097
+Vers 33
 Prom <%hhp %mm %vmv> ~
 Race dragon~
 Outc 0
@@ -11,9 +11,10 @@ RufT 0
 MatookT 0
 SkPTimer 0
 SkPTracker 0
-LogoutTracker 4
+LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,51 +26,57 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 mojo~
-Sac  0
-Sex  1
+Sac  300
+Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 951448734
 Glad 0 0 0 0 0 0
-LastHost Toronto-HSE-ppp3665635.sympatico.ca~
+LastHost 72.44.111.97~
 Cla  3
 ClaO 3
-Levl 1
+Levl 7
 DLevl -1
-Plyd 2053
-Not  0 0 0 951429813 0 0 0 0 0 0
+Plyd 9599
+Not  1373427528 0 0 1371977109 1367893112 1385033243 0 0 0 1384474516
 Scro 22
 Rank 0
-Room 3770
-HMV  20 20 100 100 100 100
-Gold 32
-Silv 461
-Exp  1400
-Act  CDEFGHQ
+Room 3016
+HMV  149 149 122 122 148 148
+Gold 159
+Silv 428
+Exp  9974
+Act  BCDEFGHQ
 MHSF R
 AfBy JT
 Comm DGIRS
 Disp FJ
 IcgB 0
 Icg 0
-Pos  5
-Prac 5
-Trai 13
-Save  -1
-Alig  750
-Hit   1
-ACs 95 95 95 99
-Attr 24 14 12 14 16 13 13 13
-AMod 0 0 0 0 0 0 0 0
+Pos  8
+Prac 11
+Trai 4
+SkiP 6
+Alig  1000
+ACs 90 90 90 100
+Wimp  20
+Attr 25 20 13 14 25 11 14 13
+AMod 2 0 0 2 0 0 0 0
 Pass NewQXqcocll6U~
 Titl  's Atomic Dustbin~
 Pnts 31
 TSex 1
-LLev 1
-HMVP 20 100 100
-Cnd  0 0 5 0
+LLev 2
+HMVP 149 122 148
+Cnd  0 32 44 40
 Sk 1 'acid breath'
 Sk 1 'fire breath'
 Sk 1 'frost breath'
@@ -81,7 +88,7 @@ OldSk 1 'flail'
 OldSk 1 'mace'
 OldSk 1 'polearm'
 OldSk 1 'spear'
-Sk 40 'sword'
+Sk 44 'sword'
 OldSk 40 'sword'
 OldSk 1 'whip'
 OldSk 1 'bash'
@@ -110,6 +117,7 @@ OldSk 50 'recall'
 Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'draconian'
+Affc 'change sex'   0   5   3   1   6          0
 End
 
 #O
@@ -118,62 +126,8 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 380
-End
-
-#O
-Vnum 3703
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 144
-End
-
-#O
-Vnum 3702
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 360
-End
-
-#O
-Vnum 3704
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 108
-End
-
-#O
-Vnum 2445
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 2444
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 3716
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 0
 Cost 0
-Val  0 0 162 0 0
+Val  0 0 3 0 0
 End
 
 #O
@@ -186,21 +140,368 @@ Cost 0
 End
 
 #O
-Vnum 3702
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 16
-Cost 360
-End
-
-#O
 Vnum 3704
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 11
 Cost 0
+End
+
+#O
+Vnum 3726
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 12
+Cost 0
+Val  100 1 0 10 85
+End
+
+#O
+Vnum 3723
+Nest 1
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3011
+Nest 1
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 9
+End
+
+#O
+Vnum 3011
+Nest 1
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 9
+End
+
+#O
+Vnum 3011
+Nest 1
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 9
+End
+
+#O
+Vnum 3716
+Nest 1
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 380
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 3021
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 16
+Cost 250
+End
+
+#O
+Vnum 3724
+Nest 0
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 100
+Nest 0
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 180
+Spell 3 'change sex'
+End
+
+#O
+Vnum 102
+Nest 0
+PrevOwner Ned~
+Cond 0
+Wear 6
+Cost 310
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner Bengal~
+Cond 0
+Wear 3
+Cost 0
+End
+
+#O
+Vnum 3031
+Nest 0
+PrevOwner Chompers~
+Cond 0
+Wear 0
+Cost 0
+Val  0 0 223 0 0
+End
+
+#O
+Vnum 2330
+Nest 0
+PrevOwner Caliber~
+Cond 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 2919
+Nest 0
+PrevOwner Elrimir~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 0
+PrevOwner Elrimir~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 0
+PrevOwner Elrimir~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 0
+PrevOwner Elrimir~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 0
+PrevOwner Elrimir~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 0
+PrevOwner Elrimir~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 3039
+Nest 0
+PrevOwner Rescue~
+Cond 0
+Wear -1
+Cost 1190
+Spell 1 'cancellation'
+End
+
+#O
+Vnum 29
+Nest 0
+PrevOwner Rescue~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 0
+PrevOwner Chompers~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 0
+PrevOwner Chompers~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 0
+PrevOwner Chompers~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 0
+PrevOwner Chompers~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 0
+PrevOwner Kurosawa~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 0
+PrevOwner Kurosawa~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 0
+PrevOwner Kurosawa~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 0
+PrevOwner Kurosawa~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 2445
+Nest 0
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 2444
+Nest 0
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 101
+Nest 0
+PrevOwner Ned~
+Cond 0
+Wear -1
+Cost 270
 End
 
 #END

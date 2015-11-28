@@ -1,0 +1,385 @@
+#AREA
+../newareas/halo1.are~
+halo1~
+{ All }         halo1~
+28400 28413
+
+#MOBILES
+#28400
+kathy~
+Kathy~
+Kathy is here, busing tables for your meager tips.
+~
+Garbed in the skimpiest and most revealing outfit you've ever seen, a
+beautiful, young woman awaits to serve you.  Your eyes continually 
+stray to a full bosom, as it bustles eagerly from its confines. The black
+leather garter shirt, combined with the skin-tight mini skirt creates a feeling
+of desire and ecstasy. She stands straight back, with her thick, auburn hair
+spilling over corner straight shoulders. Her eyes are an angry emerald.
+ 
+Just one look at her, and you can tell that she hates her job.
+ 
+~
+human~
+Hiya baby...~
+Can i offer you something to drink?~
+Touch my ass one more time and you're gonna lose that hand!~
+AGT CDF 500 0
+30 1 2d10+20 1d1+99 1d4+2 slap
+2 2 2 5
+EFNU AB 0 0
+stand stand female 10
+0 0 medium 0
+F par GHIJK
+#28401
+kevin~
+Kevin~
+Kevin is here tempting your sweet tooth.
+~
+With a spotless white apron draped across his potbellied stomach, a sly, oily 
+man glances at you with a grin full of yellowed teeth.  His black hair and 
+beard seems to have been slicked back with rat grease.  It shinned dully in 
+the light. He stands tall, though you'd never notice because of how he stoops 
+over the oaken counter that displays his various goods.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABGT DF 600 0
+20 4 3d9+333 0d0+0 2d8+5 acbite
+0 0 0 0
+EFNU AB 0 0
+stand stand male 400
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#28400
+cup espresso~
+A Cup of Espresso~
+A hot cup of espresso has been carelessly dropped here.~
+Ceramic~
+potion N A
+8 'frenzy' '' '' ''
+3 1 550 P
+#28401
+cappuccino cup~
+A Grande Cappuccino~
+A cup of cappuccino has been carelessly left on the floor.~
+Ceramic~
+drink N AO
+10 10 'coffee' 0 0
+0 1 50 P
+#28402
+tea earl gray hot~
+A Cup of Earl Gray Tea~
+A hot cup of tea rests here.~
+ceramic~
+drink N AO
+0 0 'tea' 0 0
+0 1 45 P
+A
+32 1
+#28403
+latte coffee~
+A Foamy Latte~
+A delicious looking latte is overflowing with foam.~
+ceramic~
+drink N AO
+5 5 'coffee' 0 0
+0 1 62 P
+#28404
+irish coffee~
+A Cup of Irish Coffee~
+A very strong cup of coffee has been discarded here.~
+ceramic~
+drink N AO
+2 2 'coffee' 0 0
+0 1 65 P
+#28405
+honey cruller~
+A Honey Cruller~
+A honey cruller is lying here looking oh so delicious.~
+food~
+food N A
+4 8 0 0 0
+0 1 85 P
+#28406
+lemon danish~
+A Lemon Danish~
+A delicious lemon danish has been left here.~
+food~
+food N A
+0 0 0 0 0
+0 10 50 P
+#28407
+Canadian Maple Donut~
+A Canadian Maple Donut~
+A donut covered with maple and a delicious cream filling lies here.~
+food~
+food N A
+4 8 0 0 0
+0 1 89 P
+#28408
+strawberry muffin~
+A Strawberry Muffin~
+A delicious muffin fills the air with the sent of strawberries.~
+strawberries~
+food N A
+0 0 0 0 0
+0 1 100 P
+#28409
+stage~
+the stage~
+A large wooden stage has been set up here to hold performances.~
+groovy wood~
+furniture RTY P
+10 0 BEHK 50 50
+0 100 0 P
+#28410
+row chairs~
+a chair~
+A row of chairs has been set up for the audience.~
+wood~
+furniture RTY P
+10 0 BEHK 50 50
+0 100 0 P
+#28411
+table~
+the table~
+A small table looks perfect to rest your drink on.~
+oak~
+container RY P
+10000 0 0 5 100
+0 1 0 P
+#28412
+black leather couch~
+a leather couch~
+A black leather couch looks perfect to rest on.~
+~
+furniture R P
+2 0 BEHK 100 100
+0 100 0 P
+#28413
+comfy couch~
+a big, comfy couch~
+A big comfy couch lies in the middle of the room.~
+Cloth~
+furniture RY 0
+10 0 BEHK 100 100
+0 100 0 P
+#0
+
+#ROOMS
+#28400
+Enterance to the Coffee House~
+As you enter the building, the mingling scents of various pastries and donuts
+capture your attention. Everywhere, Kathy bustles about, carying on small, yet
+elegant looking tray, several caffeinated bevrages.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 28402
+D2
+Exit ~
+door~
+16384 0 28404
+D3
+Exit ~
+door~
+16384 0 28401
+S
+#28401
+A Secluded Corner~
+This room is clearly set apart from the rest of the house. The room has 
+been painted a somber black, with red mixed in the paint to make walls seem 
+to be on fire when the light touches them. to the side of the room, a 
+comfortable black leather couch rests against the wall. The couch seems to 
+curve around a small, eloquent table.
+~
+0 DJ 0
+D1
+Exit ~
+door~
+16384 0 28400
+D2
+Exit ~
+door~
+16384 0 28403
+S
+#28402
+Generic room name~
+Generic room description.
+~
+0 D 0
+D2
+Exit ~
+door~
+16384 0 28405
+D3
+Exit ~
+door~
+16384 0 28400
+S
+#28403
+Within the Coffee House~
+The scent of coffee fills the air and invigorates your spirit.  This place is the 
+perfect place to sit down and enjoy a cup of java while you read a good book.
+Off in the distance you think you can make out what appears to be a stage.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 28401
+D1
+Exit ~
+door~
+16384 0 28404
+D2
+Exit ~
+door~
+16384 0 28406
+S
+#28404
+The Center of the Coffee House~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 28400
+D1
+Exit ~
+door~
+16384 0 28405
+D2
+Exit ~
+door~
+16384 0 28407
+D3
+Exit ~
+door~
+16384 0 28403
+S
+#28405
+The Confectionary~
+Smells of baking bread and delicious pastries fill your nose. Bags of flower 
+seem to be strewn about a wooden counter. The counter itself seems to 
+made of solid wood, and painted black. Its quite plain, and ordinary, and has 
+the stores wares displayed on small trays. Your mouth waters at the scents, 
+despite the shopkeepers appearance.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 28402
+D2
+Exit ~
+door~
+16384 0 28408
+D3
+Exit ~
+door~
+16384 0 28404
+S
+#28406
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 28403
+D1
+Exit ~
+door~
+16384 0 28407
+S
+#28407
+The Stage~
+The most dominant feature of the room, a large oaken stage stands
+gleaming before you.  Its surface had been lovingly polished, to shine and
+dazzle those that will be entertained by its performers.  Stationed around
+the stage are several comfortable looking chairs. 
+ 
+The legs on each chair are carved in some mythical creature, ranging from 
+banshee to dragon.  When you sit in one of these chairs, your thoughts seem 
+to drift, and your mind relaxes as you listen to the poetry.
+~
+0 CD 0
+H 105 M 105
+D0
+Exit ~
+door~
+16384 0 28404
+D1
+Exit ~
+door~
+16384 0 28408
+D3
+Exit ~
+door~
+16384 0 28406
+S
+#28408
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 28405
+D3
+Exit ~
+door~
+16384 0 28407
+S
+#0
+
+#RESETS
+M 0 28400   1 28400  1	* Kathy
+G 1 28404  -1     	*   A Cup of Irish Coffee
+G 1 28403  -1     	*   A Foamy Latte
+G 1 28402  -1     	*   A Cup of Earl Gray Tea
+G 1 28400  -1     	*   A Cup of Espresso
+G 1 28401  -1     	*   A Grande Cappuccino
+M 0 28401   1 28405  1	* Kevin
+G 1 28405  -1     	*   A Honey Cruller
+G 1 28406  -1     	*   A Lemon Danish
+G 1 28407  -1     	*   A Canadian Maple Donut
+G 1 28408  -1     	*   A Strawberry Muffin
+O 0 28412 100 28401	* a leather couch
+O 0 28411 100 28401	* the table
+D 0 28401   1 16384	* A Secluded Corner east
+D 0 28401   2 16384	* A Secluded Corner south
+O 0 28409 100 28407	* the stage
+O 0 28410 100 28407	* a chair
+D 0 28407   0 16384	* The Stage north
+D 0 28407   1 16384	* The Stage east
+D 0 28407   3 16384	* The Stage west
+O 0 28413 100 28404	* a big, comfy couch
+D 0 28404   0 16384	* The Center of the Coffee House north
+D 0 28404   1 16384	* The Center of the Coffee House east
+D 0 28404   2 16384	* The Center of the Coffee House south
+D 0 28404   3 16384	* The Center of the Coffee House west
+S
+
+#SHOPS
+28400  0  0  0  0  0 	 100  10 	 0 24 	* Kathy
+28401  0  0  0  0  0 	 100 100 	 0 24 	* Kevin
+0
+
+#SPECIALS
+M 28400 spec_jabber         	* Kathy
+S
+
+#$

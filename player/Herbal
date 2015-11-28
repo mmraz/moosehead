@@ -3,8 +3,8 @@ Name Herbal~
 SurN Essence~
 Id   1038801522
 Email (null)~
-LogO 1124968540
-Vers 31
+LogO 1408755866
+Vers 33
 LnD  a pair of Nike Pumps~
 Desc {DLikes to Grow {GHerbs {g& {RFruits {Din his {gGarden{x
 ~
@@ -12,12 +12,13 @@ Prom <%h Hp %m Mn %v Mv>%c<%XXp %SDp %gg %ss> ~
 Race elf~
 Outc 0
 RufT 0
-MatookT 0
-SkPTimer 19
-SkPTracker 13
+MatookT 570
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -29,56 +30,72 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 105261 matook~
 DeityT -3399 matook~
 Sac  300
-Sex  1
+Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 1038801537
 Glad 0 0 0 0 0 0
-LastHost pcp02578340pcs.valenc01.az.comcast.net~
+LastHost 98.225.77.39~
 Cla  7
 Kit spirit caller~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 380777
-Not  1067024854 1067024854 1067024854 1067024854 1067024854 1067024854 1067024854 1067024854 1067024854 1067024854
+Plyd 420555
+Not  1406521985 1067024854 1067024854 1067024854 1067024854 1067024854 1067024854 1067024854 1067024854 1067024854
 Scro 22
 Rank 0
-Room 3001
-HMV  442 697 296 1215 524 536
-Gold 52
-Silv 2075
+Room 2416
+HMV  697 697 1086 1215 536 536
+Gold 150
+Silv 6737
 Exp  204014
-Act  CDGHIKMQ
+Act  DGHIKMQ
 MHSF R
-AfBy JTc
+AfBy CEJTc
 Comm S
 Disp BFGIJN
 IcgB 0
 Icg 0
 Pnet ACEFG
 Pos  8
-SkiP 4
-Save  -12
+Prac 2
+SkiP 12
+Save  -14
 Alig  -1000
 Hit   13
 Dam   26
 SecHit   11
 SecDam   22
 ACs 21 21 26 31
-Attr 17 21 19 21 16 11 16 10
-AMod 1 2 2 2 2 0 0 0
-Pass He5zBVO1NLcOc~
+Attr 17 21 19 21 16 11 12 14
+AMod 1 0 0 2 2 0 0 3
+Pass He8.kWFdAInSE~
 Titl  can give you a screaming orgasm.~
 Pnts 80
 TSex 1
 LLev 36
 HMVP 532 1030 436
-Cnd  0 36 36 36
+Cnd  0 25 33 33
+Alias sum c 'sum'~
+Alias arm c 'arm'~
+Alias heal c 'heal'~
+Alias fam c fam~
+Alias gate c gate~
+Alias sanc c sanc~
+Alias shield c 'shield'~
+Alias dm c 'detect magic'~
+Alias gs c 'giant'~
 Sk 75 'acclimate'
 Sk 1 'aid'
 Sk 81 'armor'
@@ -93,8 +110,7 @@ Sk 1 'cause critical'
 Sk 1 'cause light'
 Sk 1 'cause serious'
 Sk 1 'change sex'
-Sk 90 'charm person'
-Sk 1 'cone of silence'
+Sk 97 'charm person'
 Sk 75 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -129,7 +145,7 @@ Sk 97 'faerie fire'
 Sk 75 'faerie fog'
 Sk 100 'famine'
 Sk 1 'farsight'
-Sk 78 'feast'
+Sk 80 'feast'
 Sk 1 'feeblemind'
 Sk 90 'fireproof'
 Sk 77 'flamestrike'
@@ -137,7 +153,7 @@ Sk 1 'flameseek'
 Sk 1 'floating disc'
 Sk 83 'fly'
 Sk 1 'forget'
-Sk 93 'frenzy'
+Sk 94 'frenzy'
 Sk 1 'fumble'
 Sk 100 'gate'
 Sk 90 'giant strength'
@@ -165,7 +181,7 @@ Sk 75 'orb of turning'
 Sk 84 'pass door'
 Sk 1 'plague'
 Sk 71 'poison'
-Sk 1 'portal'
+Sk 36 'portal'
 Sk 75 'protection evil'
 Sk 75 'protection good'
 Sk 1 'protection neutral'
@@ -189,10 +205,10 @@ Sk 80 'spirit of boar'
 Sk 75 'spirit of cat'
 Sk 86 'spirit of owl'
 Sk 75 'spirit of wolf'
-Sk 81 'stone skin'
+Sk 84 'stone skin'
 Sk 100 'summon'
 Sk 86 'teleport'
-Sk 78 'tower of iron will'
+Sk 79 'tower of iron will'
 Sk 75 'warp'
 Sk 88 'weaken'
 Sk 100 'word of recall'
@@ -240,6 +256,7 @@ Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
 Gr 'spiritcaller'
+Affc 'detect magic'   0  50  45   0   0         16
 End
 
 #O
@@ -293,18 +310,9 @@ Enchanted
 Nest 0
 PrevOwner Herbal~
 Cond 0
-Wear 1
+Wear 2
 Cost 5300
 Affc 'reserved'   1  37  -1  30  12          0
-End
-
-#O
-Vnum 10424
-Nest 0
-PrevOwner Herbal~
-Cond 0
-Wear 6
-Cost 5500
 End
 
 #O
@@ -318,8 +326,8 @@ Cond 0
 Wear 7
 Cost 2000
 Val  7 7 7 4 2
-Affc 'reserved'   1  39  -1   2  19          0
 Affc 'reserved'   1  39  -1  -2  20          0
+Affc 'reserved'   1  39  -1   2  19          0
 End
 
 #O
@@ -343,17 +351,8 @@ Cond 0
 Wear 9
 Cost 4000
 Val  8 8 8 5 2
-Affc 'reserved'   1  37  -1   2   1          0
 Affc 'reserved'   1  37  -1   2  19          0
-End
-
-#O
-Vnum 11144
-Nest 0
-PrevOwner Herbal~
-Cond 0
-Wear 18
-Cost 4500
+Affc 'reserved'   1  37  -1   2   1          0
 End
 
 #O
@@ -379,8 +378,8 @@ Cond 0
 Wear 3
 Cost 4000
 Val  8 8 8 6 2
-Affc 'reserved'   1  46  -1  30  12          0
 Affc 'reserved'   1  46  -1   1   2          0
+Affc 'reserved'   1  46  -1  30  12          0
 End
 
 #O
@@ -388,24 +387,14 @@ Vnum 4825
 Nest 0
 PrevOwner Herbal~
 Cond 0
-Wear 2
+Wear 1
 Cost 7000
-End
-
-#O
-Vnum 2405
-Nest 0
-PrevOwner Herbal~
-ExtF 17694977
-Cond 0
-Wear 17
-Cost 1000
 End
 
 #O
 Vnum 15227
 Nest 0
-PrevOwner (null)~
+PrevOwner Herbal~
 Cond 0
 Wear 12
 Cost 20000
@@ -514,98 +503,85 @@ Cost 5000
 End
 
 #O
-Vnum 2505
-Nest 0
-PrevOwner Pixi~
-Name hand~
-ShD  {W(Picked) {DHandCuffs{x~
-Desc Nike has picked the lock on these handcuffs.~
-Cond 0
-Wear 14
-Cost 1150
-End
-
-#O
-Vnum 11091
-Nest 0
+Vnum 9231
+Nest 1
 PrevOwner Herbal~
 Cond 0
 Wear -1
-Cost 4500
-Val  25 8 5 193 0
-Spell 3 'stone skin'
+Cost 250
+Spell 1 'invisibility'
 End
 
 #O
-Vnum 11091
-Nest 0
+Vnum 9231
+Nest 1
 PrevOwner Herbal~
 Cond 0
 Wear -1
-Cost 4500
-Val  25 8 3 193 0
-Spell 3 'stone skin'
+Cost 250
+Spell 1 'invisibility'
 End
 
 #O
-Vnum 22919
-Nest 0
+Vnum 9231
+Nest 1
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 250
+Spell 1 'invisibility'
+End
+
+#O
+Vnum 1260
+Nest 1
 PrevOwner Herbal~
 Cond 0
 Wear -1
 Cost 0
-Val  30 1 0 10 100
+Spell 3 'haste'
 End
 
 #O
-Vnum 22941
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2200
-End
-
-#O
-Vnum 3378
+Vnum 20745
 Nest 1
 PrevOwner Herbal~
 Cond 0
 Wear -1
-Cost 2000
+Cost 0
 End
 
 #O
-Vnum 3377
+Vnum 16753
 Nest 1
 PrevOwner Herbal~
 Cond 0
 Wear -1
-Cost 10000
+Cost 0
 End
 
 #O
-Vnum 3377
+Vnum 931
 Nest 1
 PrevOwner Herbal~
 Cond 0
 Wear -1
-Cost 10000
+Cost 0
 End
 
 #O
-Vnum 3377
+Vnum 23603
 Nest 1
 PrevOwner Herbal~
 Cond 0
 Wear -1
-Cost 10000
+Cost 0
 End
 
 #O
 Vnum 5934
-Nest 0
-PrevOwner Kerbouchard~
+Nest 1
+PrevOwner Herbal~
 ExtF 134217729
 Wt   110
 Cond 0
@@ -615,103 +591,47 @@ Val  7 7 7 6 5
 End
 
 #O
-Vnum 23603
-Nest 0
-PrevOwner Herbal~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 931
-Nest 0
-PrevOwner Herbal~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 16753
-Nest 0
-PrevOwner Herbal~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20745
-Nest 0
-PrevOwner Herbal~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1260
-Nest 0
-PrevOwner Herbal~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'haste'
-End
-
-#O
-Vnum 10326
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
+Vnum 11091
 Nest 1
-PrevOwner (null)~
+PrevOwner Herbal~
 Cond 0
 Wear -1
-Cost 5000
+Cost 4500
+Val  25 8 3 198 0
+Spell 3 'stone skin'
 End
 
 #O
-Vnum 10326
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
+Vnum 11091
 Nest 1
-PrevOwner (null)~
+PrevOwner Herbal~
 Cond 0
 Wear -1
-Cost 5000
+Cost 4500
+Val  25 8 5 198 0
+Spell 3 'stone skin'
 End
 
 #O
-Vnum 10326
+Vnum 2505
 Nest 0
-PrevOwner (null)~
+PrevOwner Herbal~
+Name hand~
+ShD  {W(Picked) {DHandCuffs{x~
+Desc Nike has picked the lock on these handcuffs.~
 Cond 0
-Wear -1
-Cost 500
+Wear 14
+Cost 1150
 End
 
 #O
-Vnum 3375
-Nest 1
-PrevOwner (null)~
+Vnum 2405
+Nest 0
+PrevOwner Herbal~
+ExtF 17694977
 Cond 0
-Wear -1
-Cost 5000
+Wear 17
+Cost 1000
 End
 
 #O
@@ -724,9 +644,192 @@ Cond 0
 Wear 16
 Lev  30
 Cost 1630
-Affc 'enchant weapon'   0  53  -1   2  18          0
-Affc 'enchant weapon'   1  53  -1   4  19          0
 Affc 'reserved'   1  28  -1  -1   1          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
+Affc 'enchant weapon'   0  53  -1   2  18          0
+End
+
+#O
+Vnum 8529
+Nest 0
+PrevOwner Herbal~
+Cond 0
+Wear 6
+Cost 2000
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Herbal~
+Name bag beta Khaleesi~
+ShD  a bag made from Khaleesi's hide~
+Desc A bag of fine Khaleesi hide catches your eye.  ~
+ExtF 16384
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  18
+Cost 2700
+Val  540 1 -1 90 25
+End
+
+#O
+Vnum 11144
+Nest 0
+PrevOwner Herbal~
+Cond 0
+Wear 18
+Cost 4500
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner (null)~
+Name bag beta Herbal~
+ShD  a bag made from Herbal's hide~
+Desc A bag of fine Herbal hide catches your eye.  ~
+ExtF 16384
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  17
+Cost 2650
+Val  530 1 -1 90 25
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3005
+Nest 1
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 5600
+Val  1 4 10 21 560
+End
+
+#O
+Vnum 13207
+Nest 1
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 9602
+Nest 1
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 22919
+Nest 1
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 0
+Val  30 1 0 10 100
+End
+
+#O
+Vnum 22941
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 3378
+Nest 2
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 3377
+Nest 2
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 2
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 2
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 22089
+End
+
+#O
+Vnum 9231
+Nest 1
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 250
+Spell 1 'invisibility'
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 22089
+End
+
+#O
+Vnum 10424
+Nest 1
+PrevOwner Herbal~
+Cond 0
+Wear -1
+Cost 5500
 End
 
 #END

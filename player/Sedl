@@ -3,8 +3,8 @@ Name Sedl~
 SurN Dtan~
 Id   963081080
 Email (null)~
-LogO 1125045724
-Vers 31
+LogO 1389952687
+Vers 33
 LnD  A Gladiator~
 Desc You see absolutely nothing
 ~
@@ -12,12 +12,13 @@ Prom <%w %Sc>%c<%hhp %mm %vmv> ~
 Race lasher~
 Outc 0
 RufT 0
-MatookT 10218
+MatookT 11829
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
 Kill 0 1 0 0
 Steal 0 0 0
+MSteal 0
 LstK Haplo~
 LstKBy Huxley~
 LstAtkedBy no one~
@@ -29,62 +30,75 @@ LoginsWOKill 0
 LoginsWODeath 1
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 1
 Deity 1007675 mojo~
 DeityT -1823 xochipili~
-Sac  225
+Sac  300
 Sex  0
 Vump  0
 Node 0
 Cap 0
 Created 963081116
 Glad 0 1 0 0 1 0
-LastHost e81-197-69-143.elisa-laajakaista.fi~
+LastHost 91.155.177.70~
 Cla  3
 Kit barbarian~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 1106469
-Not  1122887232 1122887232 1122887232 1122887232 1122887232 1122887232 1122887232 1122887232 1122887232 1122887232
+Plyd 1242664
+Not  1362849488 1362849488 1362849488 1362849488 1362849488 1362849488 1362849488 1362849488 1362849488 1362849488
 Scro 22
 Rank 0
-Room 16503
-HMV  1549 1549 432 432 415 415
-Gold 1018
-Silv 1061
+Room 3001
+HMV  1674 1674 421 421 415 415
+Gold 980
+Silv 175
+BankEggs 4
+BankBricks 7
 Exp  352028
-Act  CDGMO
+Act  CDEFGMO
 MHSF RU
-AfBy CTV
+AfBy DFT
 Comm 0
-Disp FIJ
+Disp FGIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  5
-SkiP 445
-Save  -13
+Pos  8
+Prac 1
+ReTrai 1
+SkiP 44
+Save  -2
 Alig  -1000
-Hit   35
-Dam   58
-SecHit   26
-SecDam   49
-ACs 7 13 7 28
-Attr 23 20 20 17 22 13 18 13
-AMod 0 2 -1 4 0 2 0 0
+Hit   27
+Dam   51
+SecHit   18
+SecDam   42
+ACs -8 -2 -8 24
+Attr 23 20 20 17 22 10 11 22
+AMod 9 2 -1 7 6 2 0 0
 Pass SemRtCdov56gw~
 Titl , {GOr am I?{x  [{MLuria{x] ~
 Pnts 90
 TSex 1
 LLev 1
 HMVP 1504 396 380
-Cnd  0 0 2 0
+Cnd  0 0 0 0
 Alias di dirt~
 Alias h murder~
 Alias prax pray~
 Alias b buy~
 Alias 3 Yell OW OW OW! HURTS HURTS! Mom! That evil creature hurt me! mom!!!~
 Alias p hit 2.~
+Alias o hex~
+Alias sb shieldbash~
+Alias ident look~
 Spz 'whip'
 Sk 47 'armor'
 Sk 90 'cancellation'
@@ -97,14 +111,14 @@ Sk 75 'cure serious'
 Sk 1 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
-Sk 77 'famine'
+Sk 78 'famine'
 Sk 96 'feast'
 Sk 75 'fireproof'
 Sk 1 'fly'
 Sk 100 'gate'
-Sk 75 'giant strength'
+Sk 78 'giant strength'
 Sk 79 'harm'
-Sk 89 'haste'
+Sk 90 'haste'
 Sk 80 'heal'
 Sk 75 'infravision'
 Sk 1 'knock'
@@ -113,7 +127,7 @@ Sk 1 'nexus'
 Sk 56 'pass door'
 Sk 1 'portal'
 Sk 82 'protection evil'
-Sk 81 'protection good'
+Sk 83 'protection good'
 Sk 75 'protection neutral'
 Sk 80 'refresh'
 Sk 1 'sacred guardian'
@@ -132,7 +146,7 @@ Sk 55 'spear'
 Sk 100 'sword'
 Sk 100 'whip'
 Sk 100 'barbarian rage'
-Sk 83 'bash'
+Sk 91 'bash'
 Sk 90 'berserk'
 Sk 95 'breathe'
 Sk 100 'cleave'
@@ -147,7 +161,8 @@ Sk 100 'enhanced damage'
 Sk 100 'hand to hand'
 Sk 100 'kick'
 Sk 100 'parry'
-Sk 96 'rescue'
+Sk 100 'rescue'
+Sk 75 'shield bash'
 Sk 100 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
@@ -160,7 +175,7 @@ Sk 83 'scrolls'
 Sk 24 'staves'
 Sk 79 'wands'
 Sk 69 'swimming'
-Sk 57 'recall'
+Sk 100 'recall'
 Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
@@ -171,9 +186,6 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'mummy'
-Affc 'haste'   0  36   3   4   2    2097152
-Affc 'bless'   0  37  26   5  18          0
-Affc 'bless'   0  38  26  -5  24          0
 End
 
 #O
@@ -183,262 +195,6 @@ PrevOwner Sedl~
 Cond 0
 Wear 18
 Cost 4500
-End
-
-#O
-Vnum 1345
-Nest 0
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 11078
-Enchanted
-Nest 1
-PrevOwner Sedl~
-ExtF 65
-Cond 0
-Wear -1
-Lev  49
-Cost 3500
-Affc 'enchant armor'   1  53  -1 -10  17          0
-Affc 'reserved'   1  42  -1   1  18          0
-Affc 'reserved'   1  42  -1   2  19          0
-Affc 'reserved'   1  42  -1   2   1          0
-End
-
-#O
-Vnum 10338
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 4200
-End
-
-#O
-Vnum 2405
-Nest 1
-PrevOwner Sedl~
-ExtF 17694977
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 11097
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 11097
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 0
-Val  1 0 4 10500 0
-End
-
-#O
-Vnum 11097
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 0
-Val  3 0 4 10500 0
-End
-
-#O
-Vnum 20818
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 22055
-Enchanted
-Nest 1
-PrevOwner Sedl~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 2686
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-End
-
-#O
-Vnum 4825
-Nest 1
-PrevOwner Sedl~
-Name golden wedding ring~
-ShD  a plain golden wedding ring~
-Desc A golden wedding ring given by Luria to Sedl has fallen here.~
-Cond 0
-Wear -1
-Cost 7000
-ExDe inscription~ ext To my beloved Sedl: you have always been my edearest love, and always will be.  Just don't think that you can ever make mesleep in the wet spot.  Love, Luria.
-~
-ExDe to~ my beloved Sedl: yYou have always been my dearest love, and always will be.  Justdon't think that you can ever make me sleep in the wet spot.  Love, Luria.
-~
-ExDe ring~ To my beloved Sedl: You have always been my dearest love, and always will be.  Just don't think that you can ever make me sleep in the wet spot.  Love Luria.
-~
-End
-
-#O
-Vnum 4825
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 22504
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 22513
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 22513
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10404
-Enchanted
-Nest 1
-PrevOwner Sedl~
-ExtF 99
-Cond 0
-Wear -1
-Cost 15300
-Affc 'reserved'   1  50  -1  50  13          0
-Affc 'enchant weapon'   1  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 2418
-Enchanted
-Nest 1
-PrevOwner Sedl~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 300
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-End
-
-#O
-Vnum 907
-Enchanted
-Nest 1
-PrevOwner Sedl~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 10300
-Val  0 6 7 11 1056
-Affc 'enchant weapon'   0  52  -1   9  18          0
-Affc 'enchant weapon'   1  52  -1   9  19          0
-End
-
-#O
-Vnum 5919
-Enchanted
-Nest 1
-PrevOwner Sedl~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 4400
-Val  1 4 9 1 1024
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 12019
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10320
-Enchanted
-Nest 1
-PrevOwner Sedl~
-Name sun bleeder~
-ShD  The Sunbleeder~
-Desc deep dark axe catches the light with no reflect ~
-ExtF 67
-Cond 0
-Wear -1
-Cost 10222
-Val  5 5 8 18 1068
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 15225
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Time 2067
-Cost 8500
-Spell 1 'withstand death'
-End
-
-#O
-Vnum 15227
-Nest 0
-PrevOwner Sedl~
-Cond 0
-Wear 12
-Cost 20000
-Val  -1 -1 -1 -1 -1
 End
 
 #O
@@ -475,48 +231,12 @@ Cost 4000
 End
 
 #O
-Vnum 12003
-Nest 0
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 3500
-End
-
-#O
 Vnum 20740
 Nest 0
 PrevOwner Sedl~
 Cond 0
 Wear 17
 Cost 4500
-End
-
-#O
-Vnum 16721
-Nest 0
-PrevOwner Sedl~
-Cond 0
-Wear 4
-Cost 1400
-End
-
-#O
-Vnum 16721
-Nest 0
-PrevOwner Sedl~
-Cond 0
-Wear 3
-Cost 1400
-End
-
-#O
-Vnum 15202
-Nest 0
-PrevOwner Sedl~
-Cond 0
-Wear 6
-Cost 0
 End
 
 #O
@@ -544,7 +264,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 5 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -555,7 +275,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 5 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -566,7 +286,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 5 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -577,7 +297,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 5 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -588,7 +308,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 5 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -599,7 +319,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 5 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -610,7 +330,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 5 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -621,7 +341,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 5 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -632,7 +352,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -643,7 +363,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -654,7 +374,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -665,7 +385,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -676,7 +396,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -687,18 +407,7 @@ PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
-Spell 1 'speed'
-End
-
-#O
-Vnum 27
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -715,37 +424,10 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  45 171 136 131 -1
+Val  45 176 141 136 -1
 Spell 1 'shield'
 Spell 2 'magical rest'
 Spell 3 'learned knowledge'
-End
-
-#O
-Vnum 2602
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 5800
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3098
-Nest 1
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 10000
 End
 
 #O
@@ -761,7 +443,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  45 20 -1 -1 -1
+Val  45 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -778,7 +460,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  45 110 171 108 -1
+Val  45 114 176 111 -1
 Spell 1 'haste'
 Spell 2 'shield'
 Spell 3 'giant strength'
@@ -797,7 +479,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  45 20 -1 -1 -1
+Val  45 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -814,7 +496,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  45 20 -1 -1 -1
+Val  45 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -831,7 +513,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  45 20 -1 -1 -1
+Val  45 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -848,7 +530,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  45 20 -1 -1 -1
+Val  45 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -865,7 +547,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  45 20 -1 -1 -1
+Val  45 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -882,7 +564,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  45 20 -1 -1 -1
+Val  45 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -899,7 +581,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  45 20 -1 -1 -1
+Val  45 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -907,118 +589,306 @@ End
 Vnum 3049
 Nest 1
 PrevOwner Sedl~
-Name a scroll of blur~
-ShD  a scroll of blur~
-Desc A scroll of blur lies here.
+Name a scroll of teleport~
+ShD  a scroll of teleport~
+Desc A scroll of teleport lies here.
 ~
 ExtF 536879105
 Cond 0
 Wear -1
-Lev  20
+Lev  22
 Cost 0
-Val  45 20 -1 -1 -1
-Spell 1 'blur'
+Val  51 206 -1 -1 -1
+Spell 1 'teleport'
 End
 
 #O
-Vnum 26
+Vnum 3049
 Nest 1
 PrevOwner Sedl~
+Name a scroll of teleport~
+ShD  a scroll of teleport~
+Desc A scroll of teleport lies here.
+~
+ExtF 536879105
 Cond 0
 Wear -1
+Lev  22
 Cost 0
-Val  51 2 -1 -1 -1
-Spell 1 'accuracy'
+Val  51 206 -1 -1 -1
+Spell 1 'teleport'
 End
 
 #O
-Vnum 3007
+Vnum 3049
 Nest 1
 PrevOwner Sedl~
+Name a scroll of teleport~
+ShD  a scroll of teleport~
+Desc A scroll of teleport lies here.
+~
+ExtF 536879105
 Cond 0
 Wear -1
-Cost 500000
+Lev  22
+Cost 0
+Val  51 206 -1 -1 -1
+Spell 1 'teleport'
 End
 
 #O
-Vnum 3007
+Vnum 3049
 Nest 1
 PrevOwner Sedl~
+Name a scroll of teleport~
+ShD  a scroll of teleport~
+Desc A scroll of teleport lies here.
+~
+ExtF 536879105
 Cond 0
 Wear -1
-Cost 500000
+Lev  22
+Cost 0
+Val  51 206 -1 -1 -1
+Spell 1 'teleport'
 End
 
 #O
-Vnum 3007
+Vnum 3049
 Nest 1
 PrevOwner Sedl~
+Name a scroll of teleport~
+ShD  a scroll of teleport~
+Desc A scroll of teleport lies here.
+~
+ExtF 536879105
 Cond 0
 Wear -1
-Cost 500000
+Lev  22
+Cost 0
+Val  51 206 -1 -1 -1
+Spell 1 'teleport'
 End
 
 #O
-Vnum 3142
+Vnum 3049
 Nest 1
 PrevOwner Sedl~
+Name a scroll of teleport~
+ShD  a scroll of teleport~
+Desc A scroll of teleport lies here.
+~
+ExtF 536879105
 Cond 0
 Wear -1
-Cost 2500000
+Lev  22
+Cost 0
+Val  51 206 -1 -1 -1
+Spell 1 'teleport'
 End
 
 #O
-Vnum 3142
+Vnum 3049
 Nest 1
 PrevOwner Sedl~
+Name a scroll of teleport~
+ShD  a scroll of teleport~
+Desc A scroll of teleport lies here.
+~
+ExtF 536879105
 Cond 0
 Wear -1
-Cost 2500000
+Lev  22
+Cost 0
+Val  51 206 -1 -1 -1
+Spell 1 'teleport'
 End
 
 #O
-Vnum 3142
+Vnum 3048
 Nest 1
 PrevOwner Sedl~
+Name a scroll of knock~
+ShD  a scroll of knock~
+Desc A scroll of knock lies here.
+~
+ExtF 536879105
 Cond 0
 Wear -1
-Cost 2500000
+Lev  8
+Cost 0
+Val  16 132 -1 -1 -1
+Spell 1 'knock'
 End
 
 #O
-Vnum 3142
+Vnum 3048
 Nest 1
 PrevOwner Sedl~
+Name a scroll of knock~
+ShD  a scroll of knock~
+Desc A scroll of knock lies here.
+~
+ExtF 536879105
 Cond 0
 Wear -1
-Cost 2500000
+Lev  8
+Cost 0
+Val  16 132 -1 -1 -1
+Spell 1 'knock'
 End
 
 #O
-Vnum 3142
+Vnum 3048
 Nest 1
 PrevOwner Sedl~
+Name a scroll of knock~
+ShD  a scroll of knock~
+Desc A scroll of knock lies here.
+~
+ExtF 536879105
 Cond 0
 Wear -1
-Cost 2500000
+Lev  8
+Cost 0
+Val  53 132 -1 -1 -1
+Spell 1 'knock'
 End
 
 #O
-Vnum 3142
+Vnum 3048
 Nest 1
 PrevOwner Sedl~
+Name a scroll of knock~
+ShD  a scroll of knock~
+Desc A scroll of knock lies here.
+~
+ExtF 536879105
 Cond 0
 Wear -1
-Cost 2500000
+Lev  8
+Cost 0
+Val  53 132 -1 -1 -1
+Spell 1 'knock'
 End
 
 #O
-Vnum 3142
+Vnum 3048
 Nest 1
 PrevOwner Sedl~
+Name a scroll of knock~
+ShD  a scroll of knock~
+Desc A scroll of knock lies here.
+~
+ExtF 536879105
 Cond 0
 Wear -1
-Cost 2500000
+Lev  8
+Cost 0
+Val  53 132 -1 -1 -1
+Spell 1 'knock'
+End
+
+#O
+Vnum 3048
+Nest 1
+PrevOwner Sedl~
+Name a scroll of knock~
+ShD  a scroll of knock~
+Desc A scroll of knock lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  8
+Cost 0
+Val  53 132 -1 -1 -1
+Spell 1 'knock'
+End
+
+#O
+Vnum 3048
+Nest 1
+PrevOwner Sedl~
+Name a scroll of knock~
+ShD  a scroll of knock~
+Desc A scroll of knock lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  8
+Cost 0
+Val  53 132 -1 -1 -1
+Spell 1 'knock'
+End
+
+#O
+Vnum 3048
+Nest 1
+PrevOwner Sedl~
+Name a scroll of knock~
+ShD  a scroll of knock~
+Desc A scroll of knock lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  8
+Cost 0
+Val  53 132 -1 -1 -1
+Spell 1 'knock'
+End
+
+#O
+Vnum 3048
+Nest 1
+PrevOwner Sedl~
+Name a scroll of knock~
+ShD  a scroll of knock~
+Desc A scroll of knock lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  8
+Cost 0
+Val  53 132 -1 -1 -1
+Spell 1 'knock'
+End
+
+#O
+Vnum 3048
+Nest 1
+PrevOwner Sedl~
+Name a scroll of knock~
+ShD  a scroll of knock~
+Desc A scroll of knock lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  8
+Cost 0
+Val  53 132 -1 -1 -1
+Spell 1 'knock'
+End
+
+#O
+Vnum 3048
+Nest 1
+PrevOwner Sedl~
+Name a scroll of knock~
+ShD  a scroll of knock~
+Desc A scroll of knock lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  8
+Cost 0
+Val  53 132 -1 -1 -1
+Spell 1 'knock'
 End
 
 #O
@@ -1039,48 +909,12 @@ Affc 'enchant weapon'   1  51  -1   9  18          0
 End
 
 #O
-Vnum 12086
-Nest 0
-PrevOwner Sedl~
-Cond 0
-Wear 11
-Cost 12345
-End
-
-#O
 Vnum 12010
 Nest 0
 PrevOwner Sedl~
 Cond 0
 Wear -1
 Cost 15000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Sythris~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Sedl~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8529
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2000
 End
 
 #O
@@ -1107,7 +941,7 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 2
-Cost 10300
+Cost 11330
 End
 
 #O
@@ -1138,71 +972,334 @@ Cost 9999
 End
 
 #O
+Vnum 22513
+Nest 0
+PrevOwner Sedl~
+Cond 0
+Wear 4
+Cost 5000
+End
+
+#O
+Vnum 22513
+Nest 0
+PrevOwner Sedl~
+Cond 0
+Wear 3
+Cost 5000
+End
+
+#O
+Vnum 15202
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 6
+Cost 0
+End
+
+#O
+Vnum 1345
+Nest 0
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5919
+Enchanted
+Nest 1
+PrevOwner Sedl~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 4400
+Val  1 4 9 1 1024
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 10404
+Enchanted
+Nest 1
+PrevOwner Sedl~
+ExtF 99
+Cond 0
+Wear -1
+Cost 15300
+Affc 'reserved'   1  50  -1  50  13          0
+Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 22055
+Enchanted
+Nest 1
+PrevOwner Sedl~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 2686
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 2418
+Enchanted
+Nest 1
+PrevOwner Sedl~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 300
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 10320
+Enchanted
+Nest 1
+PrevOwner Sedl~
+Name sun bleeder~
+ShD  The Sunbleeder~
+Desc deep dark axe catches the light with no reflect ~
+ExtF 67
+Cond 0
+Wear -1
+Cost 10222
+Val  5 5 8 18 1068
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 11097
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 11097
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 0
+Val  1 0 4 10500 0
+End
+
+#O
+Vnum 11097
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 0
+Val  3 0 4 10500 0
+End
+
+#O
+Vnum 4825
+Nest 1
+PrevOwner Sedl~
+Name golden wedding ring~
+ShD  a plain golden wedding ring~
+Desc A golden wedding ring given by Luria to Sedl has fallen here.~
+Cond 0
+Wear -1
+Cost 7000
+ExDe inscription~ ext To my beloved Sedl: you have always been my edearest love, and always will be.  Just don't think that you can ever make mesleep in the wet spot.  Love, Luria.
+~
+ExDe to~ my beloved Sedl: yYou have always been my dearest love, and always will be.  Justdon't think that you can ever make me sleep in the wet spot.  Love, Luria.
+~
+ExDe ring~ To my beloved Sedl: You have always been my dearest love, and always will be.  Just don't think that you can ever make me sleep in the wet spot.  Love Luria.
+~
+End
+
+#O
+Vnum 23578
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 23567
+End
+
+#O
+Vnum 2405
+Nest 1
+PrevOwner Sedl~
+ExtF 17694977
+Cond 0
+Wear -1
+Cost 1100
+End
+
+#O
+Vnum 16721
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 1400
+End
+
+#O
+Vnum 16721
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 1400
+End
+
+#O
+Vnum 10338
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 4200
+End
+
+#O
+Vnum 2602
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 5800
+End
+
+#O
+Vnum 18105
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 20818
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 4825
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12019
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 907
+Enchanted
+Nest 1
+PrevOwner Sedl~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 10300
+Val  0 6 7 11 1056
+Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   9  19          0
+End
+
+#O
+Vnum 15227
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 20000
+Val  -1 -1 -1 -1 -1
+End
+
+#O
+Vnum 22504
+Nest 1
+PrevOwner Sedl~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 11078
+Enchanted
+Nest 0
+PrevOwner Sedl~
+ExtF 65
+Damaged 42
+Cond 0
+Wear 11
+Lev  49
+Cost 3500
+Affc 'enchant armor'   1  53  -1 -10  17          0
+Affc 'reserved'   1  42  -1   1  18          0
+Affc 'reserved'   1  42  -1   2  19          0
+Affc 'reserved'   1  42  -1   2   1          0
+End
+
+#O
+Vnum 28018
+Nest 0
+PrevOwner Sedl~
+Cond 0
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 3092
+Nest 0
+PrevOwner Bullwart~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
 Vnum 10003
 Nest 0
 PrevOwner Sedl~
 Cond 0
 Wear 0
 Cost 0
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Dvalin~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #END

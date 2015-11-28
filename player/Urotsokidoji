@@ -3,8 +3,8 @@ Name Urotsokidoji~
 SurN Smith~
 Id   832658941
 Email (null)~
-LogO 1132402431
-Vers 31
+LogO 1350259607
+Vers 33
 Desc !     _____________
 !    /             \      A silence decends upon this
 !  _/ Urotsokidoji  \_   small get together as people
@@ -32,10 +32,11 @@ Outc 0
 RufT 0
 MatookT 2040
 SkPTimer 0
-SkPTracker 8
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -47,6 +48,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -816 matook~
 Sac  300
@@ -56,47 +61,47 @@ Node 0
 Cap 0
 Created 951763909
 Glad 0 0 0 0 0 0
-LastHost CPE0050bffe543e-CM00111adeb1e4.cpe.net.cable.rogers.com~
+LastHost 99.248.113.147~
 Cla  14
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 2537593
-Not  1044060376 1041205216 0 1130510192 1093961128 1032096542 0 1031894940 0 1031894942
+Plyd 2541351
+Not  1044060376 1307313668 0 1307292613 1093961128 1307335720 0 1307284241 0 1031894942
 Scro 22
 Rank 0
-Room 3001
-HMV  1156 1156 416 416 295 295
-Gold 553
-Silv 13951
+Room 16503
+HMV  1146 1146 406 406 295 295
+Gold 554
+Silv 1238
 Exp  76500
 Act  DEFGHQ
 MHSF R
 AfBy DF
 Comm IOS
-Disp BFIJN
+Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 5
-SkiP 121
+SkiP 125
 Alig  -1000
-Hit   21
-Dam   33
-SecHit   10
-SecDam   25
+Hit   1
+Dam   17
+SecHit   1
+SecDam   17
 ACs -32 -32 -32 17
 Wimp  10
 Attr 21 18 18 18 18 18 18 13
 AMod 4 2 1 1 -3 0 0 0
-Pass UrruCTEniJ5Vo~
-Titl  is running out of ro(Spam/2)(Retired)(Alyssa)~
+Pass Ur2VJ33EYt01Y~
+Titl ..~
 Pnts 50
 TSex 1
 LLev 1
 HMVP 1136 306 295
-Cnd  0 30 45 33
+Cnd  0 0 7 4
 Alias 0 title says 'If I went insane would {Cyou{x notice?'~
 Alias k kill~
 Alias 2 title wants a really kewl nickname like '{MFrank{x'~
@@ -198,7 +203,7 @@ Sk 84 'scrolls'
 OldSk 83 'scrolls'
 Sk 96 'staves'
 OldSk 96 'staves'
-Sk 62 'wands'
+Sk 64 'wands'
 OldSk 62 'wands'
 Sk 50 'swimming'
 OldSk 50 'swimming'
@@ -218,7 +223,7 @@ Name imitation rebecca bike ching~
 ShD  an imitation of Rebecca's bike~
 Desc An imitation of Rebecca's bike ching-ching's along here.~
 Cond 0
-Wear 18
+Wear -1
 Cost 5000
 End
 
@@ -269,8 +274,8 @@ Desc An Icy Stare freezes the ground around it.~
 Cond 0
 Wear -1
 Cost 11800
-Affc 'enchant weapon'   0  51  -1   4  18          0
 Affc 'enchant weapon'   1  51  -1   4  19          0
+Affc 'enchant weapon'   0  51  -1   4  18          0
 End
 
 #O
@@ -304,9 +309,9 @@ Cond 0
 Wear -1
 Lev  42
 Cost 1300
-Affc 'reserved'   1  33  -1  -1   1          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'reserved'   1  33  -1  -1   1          0
 End
 
 #O
@@ -316,7 +321,7 @@ PrevOwner Urotsokidoji~
 Cond 0
 Wear -1
 Cost 1000
-Val  12 6 4 48 19
+Val  12 6 4 49 19
 Spell 3 'create spring'
 End
 
@@ -437,9 +442,9 @@ Desc Zack's cordouroys zupp-zupp against his thighs here.~
 Cond 0
 Wear -1
 Cost 6500
-Affc 'enchant armor'   1  42  -1  -3  17          0
-Affc 'reserved'   1  30  -1  20  13          0
 Affc 'reserved'   1  30  -1  20  12          0
+Affc 'reserved'   1  30  -1  20  13          0
+Affc 'enchant armor'   1  42  -1  -3  17          0
 End
 
 #O
@@ -453,10 +458,10 @@ Desc Zack's elaborate quilt catches the eye.~
 Cond 0
 Wear -1
 Cost 2000
-Affc 'reserved'   1  35  -1  -1   2          0
-Affc 'reserved'   1  35  -1   1   3          0
-Affc 'reserved'   1  35  -1  20  12          0
 Affc 'enchant armor'   1  51  -1  -2  17          0
+Affc 'reserved'   1  35  -1  20  12          0
+Affc 'reserved'   1  35  -1   1   3          0
+Affc 'reserved'   1  35  -1  -1   2          0
 End
 
 #O
@@ -470,8 +475,8 @@ Desc Zack's belt is laying here wonder and all.~
 Cond 0
 Wear -1
 Cost 3500
-Affc 'enchant armor'   1  51  -1  -9  17          0
 Affc 'reserved'   1  27  -1   2  19          0
+Affc 'enchant armor'   1  51  -1  -9  17          0
 End
 
 #O
@@ -555,18 +560,6 @@ End
 Vnum 3377
 Nest 1
 PrevOwner (null)~
-Name tickle me elmo~
-ShD  a "tickle me" Elmo doll~
-Desc Merry Christmas! have a "tickle me" Elmo doll from BloodMoon :)~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner (null)~
 Name nauseating sickening hallmark valentine card~
 ShD  a sickening Hallmark(tm) V.D. Day card~
 Desc A nauseating Valentine Death Day card made by Hallmark(tm) lies here.  Makes you wanna puke, doesn't it.~
@@ -632,7 +625,7 @@ Desc You see Scorn's personal brew, BBBD Beer here.~
 Cond 0
 Wear -1
 Cost 0
-Val  15 159 111 -1 -1
+Val  15 162 113 -1 -1
 Spell 1 'refresh'
 Spell 2 'heal'
 End
@@ -1084,6 +1077,18 @@ Cost 0
 End
 
 #O
+Vnum 3377
+Nest 1
+PrevOwner Urotsokidoji~
+Name tickle me elmo~
+ShD  a "tickle me" Elmo doll~
+Desc Merry Christmas! have a "tickle me" Elmo doll from BloodMoon :)~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
 Vnum 5025
 Nest 0
 PrevOwner (null)~
@@ -1124,9 +1129,9 @@ PrevOwner (null)~
 Cond 0
 Wear 9
 Cost 5800
-Affc 'enchant armor'   1  51  -1  -4  17          0
-Affc 'reserved'   1  23  -1   2  19          0
 Affc 'reserved'   1  23  -1   2   1          0
+Affc 'reserved'   1  23  -1   2  19          0
+Affc 'enchant armor'   1  51  -1  -4  17          0
 End
 
 #O
@@ -1137,7 +1142,7 @@ Name waterlogged trumpet~
 ShD  a waterlogged trumpet~
 Desc A brass instrument sits in a clump of seaweed.~
 Cond 0
-Wear 17
+Wear -1
 Cost 4500
 End
 
@@ -1149,9 +1154,9 @@ PrevOwner (null)~
 Cond 0
 Wear 7
 Cost 3700
-Affc 'enchant armor'   1  51  -1  -6  17          0
-Affc 'reserved'   1  29  -1  -1   2          0
 Affc 'reserved'   1  29  -1   2  19          0
+Affc 'reserved'   1  29  -1  -1   2          0
+Affc 'enchant armor'   1  51  -1  -6  17          0
 End
 
 #O
@@ -1162,7 +1167,7 @@ Name flicker hope globe~
 ShD  a flicker of hope~
 Desc A bit of hope goes a long way.~
 Cond 0
-Wear 0
+Wear -1
 Cost 6000
 End
 
@@ -1177,8 +1182,8 @@ Desc A black leather jacket lies here.~
 Cond 0
 Wear 5
 Cost 17800
-Affc 'enchant armor'   1  51  -1  -7  17          0
 Affc 'reserved'   1  37  -1   3   2          0
+Affc 'enchant armor'   1  51  -1  -7  17          0
 End
 
 #O
@@ -1192,8 +1197,8 @@ Desc A ball and chain lie on the ground... How did Urotsokidoji get free?~
 Cond 0
 Wear 8
 Cost 3700
-Affc 'reserved'   1  29  -1   2  19          0
 Affc 'reserved'   1  29  -1  -1   2          0
+Affc 'reserved'   1  29  -1   2  19          0
 End
 
 #O
@@ -1207,18 +1212,9 @@ Desc A fine tuxedo with stripped lining lies here.~
 Cond 0
 Wear 12
 Cost 0
-Affc 'reserved'   0  32  -1   0   0         40
-Affc 'reserved'   1  32  -1   1   2          0
 Affc 'reserved'   1  32  -1   1   1          0
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 13700
+Affc 'reserved'   1  32  -1   1   2          0
+Affc 'reserved'   0  32  -1   0   0         40
 End
 
 #O
@@ -1294,33 +1290,6 @@ Cost 1000
 End
 
 #O
-Vnum 10308
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
 Vnum 18119
 Enchanted
 Nest 0
@@ -1328,8 +1297,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 4500
-Affc 'enchant weapon'   0  51  -1   4  18          0
 Affc 'enchant weapon'   1  51  -1   4  19          0
+Affc 'enchant weapon'   0  51  -1   4  18          0
 End
 
 #O
@@ -1341,40 +1310,12 @@ Name staff bunion's flaming unique~
 ShD  Bunion's flaming staff~
 Desc A unique looking staff lies here.~
 ExtF 67
-Stolen 69
-Cond 0
-Wear 16
-Lev  30
-Cost 2200
-Affc 'enchant weapon'   1  59  -1  13  18          0
-Affc 'enchant weapon'   1  59  -1  12  19          0
-End
-
-#O
-Vnum 10440
-Nest 0
-PrevOwner Larthos~
 Cond 0
 Wear -1
-Cost 8500
-Val  52 10 5 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 0
-PrevOwner Urotsokidoji~
-Name scythe overused~
-ShD  an overused scythe~
-Desc This looks like just what every good headhunter needs.~
-ExtF 96
-Cond 0
-Wear 19
-Cost 4500
-Affc 'enchant weapon'   1  51  -1   4  19          0
-Affc 'enchant weapon'   0  51  -1   2  18          0
+Lev  30
+Cost 2200
+Affc 'enchant weapon'   1  59  -1  12  19          0
+Affc 'enchant weapon'   1  59  -1  13  18          0
 End
 
 #O
@@ -1388,8 +1329,8 @@ Desc a scarf drags here threatening to get caught on everything~
 Cond 0
 Wear 4
 Cost 5000
-Affc 'enchant armor'   1 3000  -1  -9  17          0
 Affc 'reserved'   1  40  -1   2  19          0
+Affc 'enchant armor'   1 3000  -1  -9  17          0
 End
 
 #O
@@ -1411,30 +1352,37 @@ Cost 22
 End
 
 #O
-Vnum 3009
+Vnum 3365
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 22
+Cost 640
 End
 
 #O
-Vnum 3009
+Vnum 3364
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 22
+Cost 1280
 End
 
 #O
-Vnum 3009
+Vnum 18119
+Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Urotsokidoji~
+Name scythe overused~
+ShD  an overused scythe~
+Desc This looks like just what every good headhunter needs.~
+ExtF 96
 Cond 0
 Wear -1
-Cost 22
+Cost 4500
+Affc 'enchant weapon'   0  51  -1   2  18          0
+Affc 'enchant weapon'   1  51  -1   4  19          0
 End
 
 #END

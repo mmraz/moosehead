@@ -2,18 +2,18 @@
 Name Seog~
 Id   960251797
 Email (null)~
-LogO 1131425295
+LogO 1308155925
 Vers 31
 LnD  Litlcat~
 Desc Can't we all just get along?
 ~
 Prom > ~
-Race lasher~
+Race dragon~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 8
 Steal 0 0 0
@@ -37,32 +37,33 @@ Node 0
 Cap 0
 Created 960251816
 Glad 0 0 1 6 1 1
-LastHost 205.134.237.73~
+LastHost 69.164.204.229~
 Cla  7
 ClaO 0
 Levl 52
 DLevl 0
-Plyd 2821959
-Not  1117742049 1118278698 1055737161 1131210186 1116017906 1131424290 1116017940 1118338145 1055576247 1131424298
+Plyd 2902583
+Not  1308149517 1308155900 1055737161 1308108788 1116017906 1308145125 1308145325 1308155887 1055576247 1131424298
 Scro 22
 Rank 5
-Room 16726
-HMV  1536 1536 675 750 516 516
-Gold 12778
-Silv 194
+Room 1242
+HMV  1536 1536 750 750 516 516
+Gold 12801
+Silv 952
 Exp  310960
 Act  DGHMNQT
 MHSF R
-AfBy TV
-Comm GS
-Disp AFGHJLN
+AfBy JTV
+Comm GLS
+Disp AFGHIJLN
 IcgB 0
 Icg 0
+Wizn ACFLRS
 Pnet BCDFGH
 Pos  8
 Prac 283
 Trai 68
-SkiP 100
+SkiP 119
 Alig  -1000
 Hit   399
 Dam   400
@@ -74,7 +75,7 @@ AMod 0 0 0 0 0 0 0 2
 Pass SeaTYV1kqoEaw~
 Bin  An ancient memory stirs, and Seog coalesces before you.~
 Bout Seog slips away into memory...~
-Titl  misses everyone.~
+Titl  just bought a rocking-horse~
 Pnts 86
 WhoName Cheeto Guy~
 TSex 1
@@ -187,6 +188,8 @@ Sk 100 'withstand death'
 Sk 75 'wound transfer'
 Sk 100 'dagger'
 Sk 100 'dodge'
+Sk 1 'enhanced damage'
+Sk 1 'hand to hand'
 Sk 100 'parry'
 Sk 100 'scan'
 Sk 100 'second attack'
@@ -1073,12 +1076,123 @@ Cost 100000
 End
 
 #O
-Vnum 16646
+Vnum 3007
 Nest 1
-PrevOwner (null)~
+PrevOwner Hanec~
 Cond 0
 Wear -1
-Cost 10
+Cost 500000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Alloishus~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Alloishus~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Alloishus~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner (null)~
+Name certificate corpse retrieval~
+ShD  a certificate for Seog to perform a corpse-retrieval from a mob~
+Desc This is a certificate won from Seog, which can be redeemed for a corpse retrieval. Mob deaths only.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner (null)~
+Name certificate corpse retrieval~
+ShD  a certificate for Seog to perform a corpse-retrieval from a mob~
+Desc This is a certificate won from Seog, which can be redeemed for a corpse retrieval. Mob deaths only.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner (null)~
+Name certificate corpse retrieval~
+ShD  a certificate for Seog to perform a corpse-retrieval from a mob~
+Desc This is a certificate won from Seog, which can be redeemed for a corpse retrieval. Mob deaths only.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner (null)~
+Name certificate corpse retrieval~
+ShD  a certificate for Seog to perform a corpse-retrieval from a mob~
+Desc This is a certificate won from Seog, which can be redeemed for a corpse retrieval. Mob deaths only.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner Mariah~
+Name certificate corpse retrieval~
+ShD  a certificate for Seog to perform a corpse-retrieval from a mob~
+Desc This is a certificate won from Seog, which can be redeemed for a corpse retrieval. Mob deaths only.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Hannya~
+Name pile~
+ShD  Seog's Chee-To pile~
+Desc Seog's Chee-To pile is here.~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 10456
+Nest 1
+PrevOwner Litldog~
+Name seog cheeto power~
+ShD  The CHEE-TO of Power~
+Desc Seog's CHEE-TO of power floats here.~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -1842,33 +1956,6 @@ Cost 10
 End
 
 #O
-Vnum 3007
-Nest 1
-PrevOwner Hanec~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Alloishus~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Alloishus~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
 Vnum 13
 Nest 1
 PrevOwner (null)~
@@ -1880,114 +1967,12 @@ Cost 0
 End
 
 #O
-Vnum 22044
-Nest 1
-PrevOwner Alloishus~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Alloishus~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Hannya~
-Name pile~
-ShD  Seog's Chee-To pile~
-Desc Seog's Chee-To pile is here.~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 1250
-Nest 1
-PrevOwner (null)~
-Name certificate corpse retrieval~
-ShD  a certificate for Seog to perform a corpse-retrieval from a mob~
-Desc This is a certificate won from Seog, which can be redeemed for a corpse retrieval. Mob deaths only.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 1
-PrevOwner (null)~
-Name certificate corpse retrieval~
-ShD  a certificate for Seog to perform a corpse-retrieval from a mob~
-Desc This is a certificate won from Seog, which can be redeemed for a corpse retrieval. Mob deaths only.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 1
-PrevOwner (null)~
-Name certificate corpse retrieval~
-ShD  a certificate for Seog to perform a corpse-retrieval from a mob~
-Desc This is a certificate won from Seog, which can be redeemed for a corpse retrieval. Mob deaths only.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 1
-PrevOwner (null)~
-Name certificate corpse retrieval~
-ShD  a certificate for Seog to perform a corpse-retrieval from a mob~
-Desc This is a certificate won from Seog, which can be redeemed for a corpse retrieval. Mob deaths only.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 1
-PrevOwner Mariah~
-Name certificate corpse retrieval~
-ShD  a certificate for Seog to perform a corpse-retrieval from a mob~
-Desc This is a certificate won from Seog, which can be redeemed for a corpse retrieval. Mob deaths only.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 16752
+Vnum 16646
 Nest 1
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 850
-End
-
-#O
-Vnum 10456
-Nest 1
-PrevOwner Litldog~
-Name seog cheeto power~
-ShD  The CHEE-TO of Power~
-Desc Seog's CHEE-TO of power floats here.~
-Cond 0
-Wear -1
-Cost 0
+Cost 10
 End
 
 #O
@@ -3586,46 +3571,12 @@ Cost 10
 End
 
 #O
-Vnum 1258
-Nest 0
-PrevOwner (null)~
-Name bag beta Seog~
-ShD  a bag made from Seog's hide~
-Desc A bag of fine Seog hide catches your eye.  ~
-ExtF 16385
-WeaF 16385
-Wt   5
-Cond 0
-Wear -1
-Lev  19
-Cost 2950
-Val  590 1 -1 90 25
-End
-
-#O
 Vnum 9807
 Nest 0
 PrevOwner Roxanne~
 Cond 0
 Wear 17
 Cost 0
-End
-
-#O
-Vnum 1258
-Nest 0
-PrevOwner (null)~
-Name bag beta Seog~
-ShD  a bag made from Seog's hide~
-Desc A bag of fine Seog hide catches your eye.  ~
-ExtF 16385
-WeaF 16385
-Wt   5
-Cond 0
-Wear -1
-Lev  20
-Cost 3000
-Val  600 1 -1 90 25
 End
 
 #END

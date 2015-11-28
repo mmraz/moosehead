@@ -2,8 +2,8 @@
 Name Maugrim~
 Id   829099716
 Email (null)~
-LogO 973641779
-Vers 27
+LogO 1306881067
+Vers 31
 Desc A shimmering black hide blends with the shadows of the night.  Eyes
 like coals from the dying fire glow from the darkness, sending
 shivers down your spine.  Youfeel the anger and rage of a thousand worlds
@@ -29,14 +29,21 @@ RufT 0
 MatookT 0
 SkPTimer 0
 SkPTracker 1
-LogoutTracker 4
+LogoutTracker 1
 Hstm lazy.dragon.net~
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1306879751
+LstKillDate 1306879751
+LstDeathDate 1306879751
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 hermes~
 Sac  149
 Sex  1
@@ -45,47 +52,46 @@ Node 0
 Cap 0
 Created 973359534
 Glad 0 0 0 0 0 0
-LastHost lazy.dragon.net 752210~
+LastHost lazy.dragon.net~
 Cla  7
 ClaO 1
 Levl 26
 DLevl 0
-Plyd 38017
-Not  973641655 973641659 934330779 973641745 969247153 973641654 934330779 973641660 0
+Plyd 39047
+Not  973641655 973641659 934330779 1306795136 969247153 1306688199 934330779 973641660 0 0
 Scro 22
 Rank 0
 Room 16503
-HMV  378 417 405 405 175 175
+HMV  417 417 400 400 166 175
 Gold 241
 Silv 387
 Exp  143092
 Act  CDEFGHQST
-AfBy JNT
+MHSF R
+AfBy HJTV
 Comm DFGIORSY
 Disp FJ
 IcgB 0
 Icg 0
-Pos  4
+Pos  8
 Prac 83
-Trai 16
+Trai 26
 SkiP 251
-Save  -6
+Save  -5
 Alig  672
-Hit   11
-Dam   4
-SecHit   9
-SecDam   1
-ACs 34 30 30 73
+Hit   5
+SecHit   5
+ACs 80 80 80 80
 Wimp  83
-Attr 19 22 20 17 20
-AMod 0 0 1 3 3
+Attr 19 22 20 17 20 13 13 13
+AMod 4 0 5 4 0 0 0 0
 Pass Ma3Xe1i.8gf0I~
 Titl  rumbles moodily... hrmph!~
 Pnts 85
 TSex 1
 LLev 9
 HMVP 417 400 175
-Cnd  0 25 37 38
+Cnd  0 0 12 0
 Alias invis c 'detect invis'~
 Alias det c 'detect hidden'~
 Alias v vis~
@@ -153,9 +159,9 @@ Sk 1 'fireball'
 OldSk 1 'fireball'
 Sk 1 'fireproof'
 OldSk 1 'fireproof'
-Sk 1 'fly'
 Sk 1 'floating disc'
 OldSk 1 'floating disc'
+Sk 1 'fly'
 Sk 75 'gate'
 Sk 75 'giant strength'
 Sk 1 'haste'
@@ -256,10 +262,13 @@ Gr 'enhancement'
 Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
-Affc 'protection evil'   0  24  10  -1  24       8192
-Affc 'bless'   0  39  24   5  18          0
-Affc 'bless'   0  41  24  -5  24          0
-Affc 'armor'   0  41   9 -20  17          0
+Affc 'shield'   0  52  59 -20  17          0
+Affc 'giant strength'   0  52  50   4   1          0
+Affc 'spirit of owl'   0  53  23   5   4          0
+Affc 'haste'   0  52  10   4   2    2097152
+Affc 'sanctuary'   0  53   5   0   0        128
+Affc 'bless'   0  44  27  -5  24          0
+Affc 'bless'   0  43  27   5  18          0
 End
 
 #O
@@ -710,7 +719,7 @@ Vnum 20406
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 225
 End
 
@@ -719,7 +728,7 @@ Vnum 3504
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 15
+Wear -1
 Cost 690
 End
 
@@ -728,7 +737,7 @@ Vnum 3504
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 690
 End
 
@@ -841,7 +850,7 @@ Vnum 5232
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 18
+Wear -1
 Cost 550
 End
 
@@ -859,7 +868,7 @@ Vnum 5206
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 13
+Wear -1
 Cost 5200
 End
 
@@ -868,7 +877,7 @@ Vnum 5205
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 7
+Wear -1
 Cost 3100
 End
 
@@ -877,7 +886,7 @@ Vnum 632
 Nest 0
 PrevOwner Wolfsmoon~
 Cond 0
-Wear 6
+Wear -1
 Cost 2900
 End
 
@@ -886,7 +895,7 @@ Vnum 7209
 Nest 0
 PrevOwner Gesus~
 Cond 0
-Wear 8
+Wear -1
 Cost 900
 End
 
@@ -895,7 +904,7 @@ Vnum 5221
 Nest 0
 PrevOwner Maugrim~
 Cond 0
-Wear 16
+Wear -1
 Cost 3300
 End
 
@@ -904,7 +913,7 @@ Vnum 5202
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 9
+Wear -1
 Cost 2700
 End
 

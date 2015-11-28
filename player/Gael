@@ -2,20 +2,21 @@
 Name Gael~
 Id   958191790
 Email (null)~
-LogO 1124339915
-Vers 31
+LogO 1409174713
+Vers 33
 LnD  A Gladiator~
 Prom <%hhp %mm %vmv %wlb %Xexp> ~
 Race yinn~
 Clan demise~
 Outc 0
-RufT 273
+RufT 266
 MatookT 0
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 45 32 4 1
 Steal 0 0 0
+MSteal 0
 LstK Vorge~
 LstKBy Bodar~
 LstAtkedBy no one~
@@ -23,10 +24,16 @@ LstAtkedByTimer 0
 LstCombatDate 1123193983
 LstKillDate 1123192054
 LstDeathDate 1018564164
-LoginsWOKill 4
-LoginsWODeath 126
-LoginsWOCombat 2
+LoginsWOKill 6
+LoginsWODeath 128
+LoginsWOCombat 4
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 304279 hermes~
 DeityT -6322 hermes~
 Sac  234
@@ -36,25 +43,25 @@ Node 0
 Cap 0
 Created 958191799
 Glad 0 0 0 0 0 0
-LastHost pool-68-239-125-254.res.east.verizon.net~
+LastHost 96.241.181.87~
 Cla  9
 Kit wyrmslayer~
 ClaO 0
 Levl 31
 DLevl 0
-Plyd 1005372
-Not  1124121301 1123939105 1109909153 1123621442 1121859963 1124012214 1109909153 1124128828 1109909153 1111048001
+Plyd 1005676
+Not  1406150092 1123939105 1109909153 1123621442 1121859963 1409172122 1109909153 1407046784 1109909153 1111048001
 Scro 22
 Rank 4
-Room 31422
-HMV  710 710 382 475 363 418
+Room 31403
+HMV  710 710 475 475 418 418
 Gold 1982
 Silv 248
 Exp  307334
 Act  CDFGHOQa
 MHSF RSX
 ClnF I
-AfBy CDFJV
+AfBy CDFJ
 Comm EFIc
 Disp FGIJLN
 IcgB 0
@@ -62,7 +69,8 @@ Icg 0
 Wizn W
 Pnet ABCDEFGHI
 Pos  4
-Prac 13
+Prac 14
+Trai 3
 SkiP 74
 Save  -8
 Alig  -1000
@@ -72,8 +80,8 @@ SecHit   21
 SecDam   23
 ACs 27 27 27 75
 Wimp  20
-Attr 23 19 19 22 22 17 13 19
-AMod 3 4 5 7 2 2 0 0
+Attr 23 19 19 22 22 14 14 19
+AMod 3 4 5 4 2 2 0 0
 Pass Gat2mhduSgM5g~
 Titl  flips you like a tiddlywink.~
 Pnts 99
@@ -109,7 +117,6 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 71 'chill touch'
 Sk 74 'colour spray'
-Sk 1 'cone of silence'
 Sk 1 'control weather'
 Sk 100 'curse'
 Sk 71 'detect evil'
@@ -219,11 +226,10 @@ Gr 'pyrotechnics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'mummy'
-Affc 'daetok'   0  29   8   5  19          0
-Affc 'daetok'   0  30   8   5  18          0
-Affc 'haste'   0  24   2   3   2    2097152
-Affc 'detect invis'   0  24  15   0   0          8
-Affc 'detect hidden'   0  28  15   0   0         32
+Affc 'daetok'   0  27   1   5  19          0
+Affc 'daetok'   0  26   1   5  18          0
+Affc 'detect invis'   0  24   8   0   0          8
+Affc 'detect hidden'   0  27   8   0   0         32
 End
 
 #O
@@ -522,7 +528,7 @@ Cond 0
 Wear -1
 Lev  16
 Cost 0
-Val  53 4 1 72 -1
+Val  53 4 1 75 -1
 Spell 3 'dispel magic'
 End
 
@@ -539,7 +545,7 @@ Cond 0
 Wear -1
 Lev  12
 Cost 0
-Val  53 4 4 19 -1
+Val  53 4 4 22 -1
 Spell 3 'blindness'
 End
 
@@ -556,7 +562,7 @@ Cond 0
 Wear -1
 Lev  12
 Cost 0
-Val  53 6 6 19 -1
+Val  53 6 6 22 -1
 Spell 3 'blindness'
 End
 
@@ -573,7 +579,7 @@ Cond 0
 Wear -1
 Lev  12
 Cost 0
-Val  53 6 6 19 -1
+Val  53 6 6 22 -1
 Spell 3 'blindness'
 End
 
@@ -590,7 +596,7 @@ Cond 0
 Wear -1
 Lev  12
 Cost 0
-Val  53 6 6 19 -1
+Val  53 6 6 22 -1
 Spell 3 'blindness'
 End
 
@@ -607,7 +613,7 @@ Cond 0
 Wear -1
 Lev  19
 Cost 0
-Val  53 3 3 84 -1
+Val  53 3 3 87 -1
 Spell 3 'energy drain'
 End
 
@@ -624,7 +630,7 @@ Cond 0
 Wear -1
 Lev  19
 Cost 0
-Val  53 3 3 84 -1
+Val  53 3 3 87 -1
 Spell 3 'energy drain'
 End
 
@@ -641,7 +647,7 @@ Cond 0
 Wear -1
 Lev  19
 Cost 0
-Val  53 4 4 84 -1
+Val  53 4 4 87 -1
 Spell 3 'energy drain'
 End
 
@@ -658,7 +664,7 @@ Cond 0
 Wear -1
 Lev  19
 Cost 0
-Val  53 5 5 84 -1
+Val  53 5 5 87 -1
 Spell 3 'energy drain'
 End
 
@@ -668,7 +674,7 @@ Enchanted
 Nest 1
 PrevOwner Gael~
 ExtF 2626
-Stolen 11
+Stolen 4
 Cond 0
 Wear -1
 Lev  22
@@ -790,7 +796,7 @@ End
 Vnum 13208
 Nest 0
 PrevOwner Hagbard~
-Stolen 52
+Stolen 45
 Cond 0
 Wear 17
 Cost 1000
@@ -800,7 +806,6 @@ End
 Vnum 8503
 Nest 0
 PrevOwner Hagbard~
-Stolen 3
 Cond 0
 Wear -1
 Cost 5000
@@ -839,7 +844,7 @@ Cond 0
 Wear -1
 Cost 800
 Spell 1 'sanctuary'
-Affc 'fireproof'   1  29   7   0   0   16777216
+Affc 'fireproof'   1  28   0   0   0   16777216
 End
 
 #END

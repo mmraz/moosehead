@@ -2,8 +2,8 @@
 Name Uthalla~
 Id   975457978
 Email (null)~
-LogO 1102175866
-Vers 31
+LogO 1353368525
+Vers 33
 Prom <%hhp %mm %vmv> ~
 Race elf~
 Outc 0
@@ -14,6 +14,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -2 matook~
 Sac  300
@@ -34,12 +39,12 @@ Node 0
 Cap 0
 Created 975457988
 Glad 0 0 0 0 0 0
-LastHost cpc1-oxfd1-6-0-cust121.oxfd.cable.ntl.com~
+LastHost 110.143.45.115~
 Cla  9
 ClaO 3
 Levl 11
 DLevl 0
-Plyd 25959
+Plyd 26239
 Not  0 0 0 0 975367686 0 0 0 0 0
 Scro 22
 Rank 0
@@ -59,21 +64,18 @@ Pos  8
 Prac 24
 Trai 10
 SkiP 12
-Save  -5
 Alig  1000
-Hit   5
-SecHit   5
 ACs 100 100 100 100
 Wimp  20
 Attr 18 18 15 18 16 13 13 13
 AMod 0 0 0 0 0 0 0 0
-Pass UtKW49eYUIqxo~
+Pass UteBc9gEs9eOU~
 Titl  walk silent, hit hard.~
 Pnts 100
 TSex 1
 LLev 1
 HMVP 173 150 153
-Cnd  0 0 6 6
+Cnd  0 0 0 0
 Sk 1 'aid'
 Sk 75 'armor'
 Sk 1 'bestow holiness'
@@ -149,8 +151,6 @@ Gr 'detection'
 Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
-Affc 'bless'   0  33   1  -5  24          0
-Affc 'bless'   0  33   1   5  18          0
 End
 
 #O
@@ -319,7 +319,7 @@ Nest 1
 PrevOwner Uthalla~
 Cond 0
 Wear -1
-Time 56
+Time 49
 Cost 150
 Spell 1 'cure light'
 Spell 2 'armor'

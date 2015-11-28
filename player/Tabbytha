@@ -2,24 +2,38 @@
 Name Tabbytha~
 Id   843329923
 Email (null)~
-LogO 976630629
-Vers 27
+LogO 1368572817
+Vers 33
 Desc .
 ~
-Prom <%r> $%g/%s %c %hhp %mma %vmv %e ~
+Prom <%hhp %mm %vmv> {G*(%wWeight)*{x ->{Y%t:00{x<-'  ~
 Race kender~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
 SkPTracker 0
-LogoutTracker 2
-Kill 0 0 0
-Steal 0 0 0 0
+LogoutTracker 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1310651628
+LstKillDate 1310651628
+LstDeathDate 1310651628
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 Sac  300
 Sex  2
@@ -28,46 +42,47 @@ Node 0
 Cap 0
 Created 952022721
 Glad 0 0 0 0 0 0
-LastHost 216.190.29.118.jedi.infowest.net 752842~
+LastHost 174.115.186.69~
 Cla  13
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 1267990
-Not  976630600 976630600 976630600 976630600 976630600 976630600 976630600 976630600 976630600
+Plyd 1269454
+Not  976630600 976630600 976630600 976630600 976630600 976630600 976630600 976630600 976630600 0
 Scro 22
 Rank 0
-Room 31088
-HMV  523 523 265 265 350 350
-Gold 748
-Silv 1914
+Room 3770
+HMV  483 483 285 285 350 350
+Gold 483
+Silv 23
 Exp  51000
 Act  CDEFGHM
-AfBy CDF
+MHSF R
+AfBy C
 Comm ADEFGORSc
-Disp BFJ
+Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
 Prac 132
-Trai 52
-Save  -4
+Trai 64
+Save  -1
 Alig  967
-Hit   11
+Hit   9
 Dam   24
-SecHit   9
+SecHit   5
 SecDam   20
-ACs 23 23 28 84
+ACs 17 17 17 83
 Wimp  300
-Attr 15 13 15 20 10
-AMod 8 0 0 1 0
-Pass TaXksgIp9/lqA~
+Attr 15 13 15 20 10 15 11 13
+AMod 9 0 0 0 0 0 0 0
+Pass TaUBhWAkFL7o6~
 Titl  is on the loose.~
 Pnts 39
 TSex 2
 LLev 351
 HMVP 483 257 350
-Cnd  0 38 43 43
+Cnd  0 42 45 45
 Alias v c acid~
 Alias x stand~
 Alias ccc cast acid~
@@ -253,18 +268,6 @@ Cost 0
 End
 
 #O
-Vnum 2107
-Nest 1
-PrevOwner (null)~
-Name crystal slipper pair~
-ShD  Crystal Slippers~
-Desc A pair of fine crystal slippers could have only been made by a god.~
-Cond 0
-Wear -1
-Cost 260
-End
-
-#O
 Vnum 3704
 Nest 1
 PrevOwner (null)~
@@ -360,8 +363,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 3000
-Affc 'enchant weapon'   0  51  -1   3  18          0
 Affc 'enchant weapon'   1  51  -1   3  19          0
+Affc 'enchant weapon'   0  51  -1   3  18          0
 End
 
 #O
@@ -417,20 +420,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 590
-Affc 'enchant weapon'   1  24  -1   1  18          0
 Affc 'enchant weapon'   1  24  -1   1  19          0
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner (null)~
-Name tickle me elmo~
-ShD  a "tickle me" Elmo doll~
-Desc Merry Christmas! have a "tickle me" Elmo doll from BloodMoon :)~
-Cond 0
-Wear -1
-Cost 10000
+Affc 'enchant weapon'   1  24  -1   1  18          0
 End
 
 #O
@@ -489,8 +480,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1000
-Affc 'enchant weapon'   1  51  -1   2  18          0
 Affc 'enchant weapon'   1  51  -1   3  19          0
+Affc 'enchant weapon'   1  51  -1   2  18          0
 End
 
 #O
@@ -522,10 +513,10 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 11800
-Affc 'enchant weapon'   0  51  -1   2  18          0
-Affc 'enchant weapon'   1  51  -1   2  19          0
-Affc 'reserved'   1  50  -1   1   2          0
 Affc 'reserved'   1  50  -1   1   3          0
+Affc 'reserved'   1  50  -1   1   2          0
+Affc 'enchant weapon'   1  51  -1   2  19          0
+Affc 'enchant weapon'   0  51  -1   2  18          0
 End
 
 #O
@@ -619,33 +610,12 @@ Cost 13700
 End
 
 #O
-Vnum 10431
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
 Vnum 6001
 Nest 1
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 610
-End
-
-#O
-Vnum 10431
-Enchanted
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6500
-Affc 'enchant weapon'   1  51  -1   3  19          0
-Affc 'enchant weapon'   0  51  -1   3  18          0
 End
 
 #O
@@ -656,8 +626,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 7500
-Affc 'enchant weapon'   1  51  -1   3  19          0
 Affc 'enchant weapon'   0  51  -1   3  18          0
+Affc 'enchant weapon'   1  51  -1   3  19          0
 End
 
 #O
@@ -706,18 +676,6 @@ Cost 6
 End
 
 #O
-Vnum 3378
-Nest 1
-PrevOwner (null)~
-Name Stone Elfstone Blue~
-ShD  Ghanima's blue elfstone~
-Desc A sky blue smooth stone rests on the ground.~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
 Vnum 2325
 Nest 1
 PrevOwner (null)~
@@ -752,21 +710,9 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
-Affc 'reserved'   1  32  -1   1   1          0
-Affc 'reserved'   1  32  -1   1   2          0
 Affc 'reserved'   0  32  -1   0   0         40
-End
-
-#O
-Vnum 1342
-Nest 1
-PrevOwner (null)~
-Name tabbytha black lace catsuit~
-ShD  Tabbytha's black lace catsuit~
-Desc Here you see a midnight lace suit on the gorgeous body of Tabbytha.  Soft and smooth,, it almost compares to the skin of her own.  Only one to-do button on this wonderful invention.~
-Cond 0
-Wear -1
-Cost 3600
+Affc 'reserved'   1  32  -1   1   2          0
+Affc 'reserved'   1  32  -1   1   1          0
 End
 
 #O
@@ -776,47 +722,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1870
-End
-
-#O
-Vnum 8800
-Nest 1
-PrevOwner (null)~
-Name watch gold rolex~
-ShD  a gold Rolex watch~
-Desc A genuine Rolex with Swiss movement and a jewelled face. Looks handsome on you.~
-Cond 0
-Wear -1
-Cost 1870
-End
-
-#O
-Vnum 10403
-Enchanted
-Nest 1
-PrevOwner (null)~
-Name pair lips herpes infested~
-ShD  a pair of herpes-infested lips~
-Desc A pair of herpes-infested lips flop about, trying to give you STDs!             (SLED-Transmitted Disease)~
-Cond 0
-Wear -1
-Cost 6300
-Affc 'enchant weapon'   1  51  -1   2  18          0
-Affc 'reserved'   1  37  -1  20  13          0
-Affc 'reserved'   1  37  -1  40  12          0
-Affc 'enchant weapon'   1  51  -1   1  19          0
-End
-
-#O
-Vnum 10403
-Nest 1
-PrevOwner (null)~
-Name pair lips herpes infested~
-ShD  a pair of herpes-infested lips~
-Desc A pair of herpes-infested lips flop about, trying to give you STDs!             (SLED-Transmitted Disease)~
-Cond 0
-Wear -1
-Cost 6300
 End
 
 #O
@@ -827,8 +732,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9200
-Affc 'enchant weapon'   1  51  -1   4  19          0
 Affc 'enchant weapon'   0  51  -1   4  18          0
+Affc 'enchant weapon'   1  51  -1   4  19          0
 End
 
 #O
@@ -839,22 +744,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10700
-Affc 'enchant weapon'   1  51  -1   4  19          0
 Affc 'enchant weapon'   0  51  -1   4  18          0
-End
-
-#O
-Vnum 23122
-Enchanted
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3458
-Affc 'reserved'   0  38  -1   0   0        512
-Affc 'reserved'   1  38  -1  -1   3          0
 Affc 'enchant weapon'   1  51  -1   4  19          0
-Affc 'enchant weapon'   1  51  -1   4  18          0
 End
 
 #O
@@ -865,20 +756,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 940
-Affc 'enchant weapon'   1  51  -1   4  19          0
 Affc 'enchant weapon'   0  51  -1   4  18          0
-End
-
-#O
-Vnum 18116
-Nest 1
-PrevOwner (null)~
-Name shining wit~
-ShD  a shining wit~
-Desc There is a shining wit here~
-Cond 0
-Wear -1
-Cost 6000
+Affc 'enchant weapon'   1  51  -1   4  19          0
 End
 
 #O
@@ -892,24 +771,11 @@ Desc A jelly baby lies here in the dirt, lost and forlorn.~
 Cond 0
 Wear -1
 Cost 4500
-Affc 'enchant armor'   1  51  -1  -4  17          0
-Affc 'reserved'   1  46  -1  15  12          0
-Affc 'reserved'   1  46  -1  20  13          0
-Affc 'reserved'   1  46  -1   1  18          0
 Affc 'reserved'   1  46  -1   1  19          0
-End
-
-#O
-Vnum 10415
-Enchanted
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5400
-Affc 'reserved'   1  46  -1  25  12          0
-Affc 'enchant weapon'   1  51  -1   3  19          0
-Affc 'enchant weapon'   0  51  -1   3  18          0
+Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1  20  13          0
+Affc 'reserved'   1  46  -1  15  12          0
+Affc 'enchant armor'   1  51  -1  -4  17          0
 End
 
 #O
@@ -930,7 +796,6 @@ Wear -1
 Cost 13700
 End
 
-
 #O
 Vnum 18110
 Nest 1
@@ -950,15 +815,32 @@ Cost 5000
 End
 
 #O
-Vnum 1394
+Vnum 10403
 Enchanted
 Nest 1
-PrevOwner (null)~
+PrevOwner Tabbytha~
+Name pair lips herpes infested~
+ShD  a pair of herpes-infested lips~
+Desc A pair of herpes-infested lips flop about, trying to give you STDs!             (SLED-Transmitted Disease)~
 Cond 0
 Wear -1
-Cost 2100
-Affc 'enchant weapon'   1  51  -1   3  18          0
-Affc 'enchant weapon'   1  51  -1   4  19          0
+Cost 6300
+Affc 'enchant weapon'   1  51  -1   1  19          0
+Affc 'reserved'   1  37  -1  40  12          0
+Affc 'reserved'   1  37  -1  20  13          0
+Affc 'enchant weapon'   1  51  -1   2  18          0
+End
+
+#O
+Vnum 10403
+Nest 1
+PrevOwner Tabbytha~
+Name pair lips herpes infested~
+ShD  a pair of herpes-infested lips~
+Desc A pair of herpes-infested lips flop about, trying to give you STDs!             (SLED-Transmitted Disease)~
+Cond 0
+Wear -1
+Cost 6300
 End
 
 #O
@@ -1020,9 +902,9 @@ PrevOwner (null)~
 Cond 0
 Wear 9
 Cost 5800
-Affc 'reserved'   1  23  -1   2  19          0
-Affc 'reserved'   1  23  -1   2   1          0
 Affc 'enchant armor'   1  51  -1  -5  17          0
+Affc 'reserved'   1  23  -1   2   1          0
+Affc 'reserved'   1  23  -1   2  19          0
 End
 
 #O
@@ -1049,11 +931,11 @@ Enchanted
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 13
+Wear -1
 Cost 5500
-Affc 'enchant armor'   1  51  -1  -3  17          0
-Affc 'reserved'   1  46  -1   2  19          0
 Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1   2  19          0
+Affc 'enchant armor'   1  51  -1  -3  17          0
 End
 
 #O
@@ -1061,7 +943,7 @@ Vnum 15101
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 18
+Wear -1
 Cost 5000
 End
 
@@ -1073,8 +955,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5000
-Affc 'enchant weapon'   1  51  -1   3  19          0
 Affc 'enchant weapon'   1  51  -1   4  18          0
+Affc 'enchant weapon'   1  51  -1   3  19          0
 End
 
 #O
@@ -1085,8 +967,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5780
-Affc 'enchant weapon'   1  51  -1   3  19          0
 Affc 'enchant weapon'   0  51  -1   3  18          0
+Affc 'enchant weapon'   1  51  -1   3  19          0
 End
 
 #O
@@ -1098,12 +980,12 @@ Name jewelled war purse~
 ShD  a jewelled war purse~
 Desc A beautiful jewelled purse lies here. My, it's heavy!~
 Cond 0
-Wear 16
+Wear -1
 Cost 6500
-Affc 'enchant weapon'   0  51  -1   2  18          0
-Affc 'reserved'   1  49  -1   0   0          0
-Affc 'reserved'   1  49  -1  20  13          0
 Affc 'enchant weapon'   1  51  -1   4  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'enchant weapon'   0  51  -1   2  18          0
 End
 
 #O
@@ -1132,13 +1014,13 @@ Enchanted
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 11
+Wear -1
 Cost 4500
-Affc 'enchant armor'   1  51  -1  -3  17          0
-Affc 'reserved'   1  46  -1  15  12          0
-Affc 'reserved'   1  46  -1  20  13          0
-Affc 'reserved'   1  46  -1   1  18          0
 Affc 'reserved'   1  46  -1   1  19          0
+Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1  20  13          0
+Affc 'reserved'   1  46  -1  15  12          0
+Affc 'enchant armor'   1  51  -1  -3  17          0
 End
 
 #O
@@ -1147,11 +1029,11 @@ Enchanted
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
-Affc 'reserved'   1  32  -1   1   1          0
-Affc 'reserved'   1  32  -1   1   2          0
 Affc 'reserved'   0  32  -1   0   0         40
+Affc 'reserved'   1  32  -1   1   2          0
+Affc 'reserved'   1  32  -1   1   1          0
 End
 
 #O
@@ -1159,7 +1041,7 @@ Vnum 17613
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 6
+Wear -1
 Cost 500
 End
 
@@ -1171,9 +1053,9 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5400
-Affc 'enchant weapon'   1  30  -1   1  19          0
-Affc 'reserved'   1  50  -1  -1   4          0
 Affc 'enchant weapon'   1  50  -1   2  18          0
+Affc 'reserved'   1  50  -1  -1   4          0
+Affc 'enchant weapon'   1  30  -1   1  19          0
 End
 
 #O
@@ -1181,7 +1063,7 @@ Vnum 3878
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 7
+Wear -1
 Cost 0
 End
 
@@ -1193,7 +1075,7 @@ Name marquise ring~
 ShD  a lovingly cut marquise ring~
 Desc An amazingly brilliant marquise diamond set in white a white gold band, with, "To my Tabbytha, Love Frosty" enscribed inside it.~
 Cond 0
-Wear 2
+Wear -1
 Cost 6300
 End
 
@@ -1205,7 +1087,7 @@ Name flawless diamond ring~
 ShD  a flawless diamond ring of unusual quality~
 Desc A diamond engagement ring symbolizing Frosty's enduring love for Tabbytha.~
 Cond 0
-Wear 1
+Wear -1
 Cost 1090
 End
 
@@ -1237,7 +1119,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 162 0 0
+Val  0 0 127 0 0
 End
 
 #O
@@ -1255,11 +1137,11 @@ Enchanted
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 11
 Cost 6500
-Affc 'reserved'   1  44  -1   1  18          0
-Affc 'reserved'   1  44  -1   2  19          0
 Affc 'enchant armor'   1  51  -1  -2  17          0
+Affc 'reserved'   1  44  -1   2  19          0
+Affc 'reserved'   1  44  -1   1  18          0
 End
 
 #O
@@ -1276,7 +1158,7 @@ Vnum 8727
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 7
 Cost 0
 End
 
@@ -1288,8 +1170,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5700
-Affc 'enchant weapon'   1  51  -1   2  18          0
 Affc 'enchant weapon'   1  51  -1   5  19          0
+Affc 'enchant weapon'   1  51  -1   2  18          0
 End
 
 #O
@@ -1300,8 +1182,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  51  -1   3  18          0
 Affc 'enchant weapon'   1  51  -1   3  19          0
+Affc 'enchant weapon'   0  51  -1   3  18          0
 End
 
 #O
@@ -1312,8 +1194,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 4400
-Affc 'enchant weapon'   0  51  -1   4  18          0
 Affc 'enchant weapon'   1  51  -1   4  19          0
+Affc 'enchant weapon'   0  51  -1   4  18          0
 End
 
 #O
@@ -1322,11 +1204,11 @@ Enchanted
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 13
 Cost 5500
-Affc 'enchant armor'   1  51  -1  -3  17          0
-Affc 'reserved'   1  46  -1   2  19          0
 Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1   2  19          0
+Affc 'enchant armor'   1  51  -1  -3  17          0
 End
 
 #O
@@ -1337,7 +1219,7 @@ Name gown heavenly light~
 ShD  a gown spun of heavenly light~
 Desc A beautiful gown of heavenly light glows softly here.~
 Cond 0
-Wear -1
+Wear 12
 Cost 1000
 End
 
@@ -1367,8 +1249,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 4850
-Affc 'enchant weapon'   1  51  -1   4  19          0
 Affc 'enchant weapon'   1  51  -1   4  18          0
+Affc 'enchant weapon'   1  51  -1   4  19          0
 End
 
 #O
@@ -1378,6 +1260,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100
+Val  30 1 0 10 100
 End
 
 #O
@@ -1394,7 +1277,7 @@ Vnum 10030
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 6
 Cost 20000
 End
 
@@ -1404,10 +1287,10 @@ Enchanted
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 16
 Cost 4700
-Affc 'enchant weapon'   1  51  -1   4  19          0
 Affc 'enchant weapon'   0  51  -1   4  18          0
+Affc 'enchant weapon'   1  51  -1   4  19          0
 End
 
 #O
@@ -1420,6 +1303,124 @@ Desc A pile of black silk lies here.~
 Cond 0
 Wear 5
 Cost 12400
+End
+
+#O
+Vnum 8800
+Nest 0
+PrevOwner (null)~
+Name watch gold rolex~
+ShD  a gold Rolex watch~
+Desc A genuine Rolex with Swiss movement and a jewelled face. Looks handsome on you.~
+Cond 0
+Wear -1
+Cost 1870
+End
+
+#O
+Vnum 3378
+Nest 0
+PrevOwner (null)~
+Name Stone Elfstone Blue~
+ShD  Ghanima's blue elfstone~
+Desc A sky blue smooth stone rests on the ground.~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 18116
+Nest 0
+PrevOwner (null)~
+Name shining wit~
+ShD  a shining wit~
+Desc There is a shining wit here~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 1394
+Enchanted
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2100
+Affc 'enchant weapon'   1  51  -1   4  19          0
+Affc 'enchant weapon'   1  51  -1   3  18          0
+End
+
+#O
+Vnum 10415
+Enchanted
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5400
+Affc 'enchant weapon'   0  51  -1   3  18          0
+Affc 'enchant weapon'   1  51  -1   3  19          0
+Affc 'reserved'   1  46  -1  25  12          0
+End
+
+#O
+Vnum 23122
+Enchanted
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3458
+Affc 'enchant weapon'   1  51  -1   4  18          0
+Affc 'enchant weapon'   1  51  -1   4  19          0
+Affc 'reserved'   1  38  -1  -1   3          0
+Affc 'reserved'   0  38  -1   0   0        512
+End
+
+#O
+Vnum 3377
+Nest 0
+PrevOwner (null)~
+Name tickle me elmo~
+ShD  a "tickle me" Elmo doll~
+Desc Merry Christmas! have a "tickle me" Elmo doll from BloodMoon :)~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+Affc 'enchant weapon'   0  51  -1   3  18          0
+Affc 'enchant weapon'   1  51  -1   3  19          0
+End
+
+#O
+Vnum 10431
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
 End
 
 #END

@@ -3,18 +3,19 @@ Name Navarone~
 SurN Fuzzy~
 Id   1033977807
 Email (null)~
-LogO 1108685150
-Vers 31
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+LogO 1445727606
+Vers 33
+Prom %e %t %g:GP %s:SP %w%c%h/%H:HP %m/%M:MP %v/%V:MV % ~
 Race yinn~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,57 +27,64 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 xochipili~
 DeityT -8 xochipili~
-Sac  16
+Sac  161
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1033977818
 Glad 0 0 0 0 0 0
-LastHost 65.31.195.196~
+LastHost 173.215.8.171~
 Cla  10
 ClaO 10
-Levl 1
+Levl 3
 DLevl 0
-Plyd 622
+Plyd 1842
 Not  0 0 0 0 0 0 0 1108333307 0 0
 Scro 22
 Rank 0
-Room 3001
-HMV  20 20 100 100 100 100
+Room 3768
+HMV  59 59 120 120 115 115
 Gold 90
-Silv 1161
-Exp  10722
+Silv 1089
+Exp  26061
 Act  CDEFGHKQ
 MHSF R
 AfBy J
-Comm DGIR
+Comm DGIRS
 Disp FIJN
 IcgB 0
 Icg 0
-Pos  8
-Prac 3
-SkiP 2
+Pos  4
+Prac 6
+SkiP 8
 Save  -4
 Alig  -750
-Hit   4
-SecHit   3
-ACs 90 88 88 99
-Attr 17 15 15 17 22 17 17 15
-AMod 2 -1 1 2 1 0 0 0
+Hit   5
+SecHit   4
+ACs 70 68 68 79
+Attr 20 20 15 17 22 14 14 15
+AMod 3 -1 1 2 3 0 0 0
 Pass NaMVnomVpGby.~
 Titl ! haha!~
 Pnts 99
 TSex 1
-LLev 1
-HMVP 20 100 100
-Cnd  17 9 38 28
+LLev 0
+HMVP 49 120 115
+Cnd  0 32 44 38
+Alias kk enter chart~
 Sk 1 'acid blast'
 Sk 1 'asphyxiate'
 Sk 1 'bless'
-Sk 1 'body of stone'
+Sk 75 'body of stone'
 Sk 1 'burning hands'
 Sk 1 'call lightning'
 Sk 1 'cancellation'
@@ -145,8 +153,9 @@ Gr 'element energy'
 Gr 'element fire'
 Gr 'element spirit'
 Gr 'element water'
-Affc 'bless'   0  27  30  -3  24          0
-Affc 'bless'   0  30  30   3  18          0
+Affc 'armor'   0  40   6 -20  17          0
+Affc 'bless'   0  38  28  -3  24          0
+Affc 'bless'   0  37  28   3  18          0
 End
 
 #O
@@ -156,7 +165,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 187 0 0
+Val  0 0 155 0 0
 End
 
 #O
@@ -164,7 +173,7 @@ Vnum 3703
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 5
+Wear -1
 Cost 0
 End
 
@@ -193,6 +202,7 @@ PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 0
+Val  100 1 0 10 85
 End
 
 #O
@@ -265,6 +275,124 @@ PrevOwner (null)~
 Cond 0
 Wear 17
 Cost 1140
+End
+
+#O
+Vnum 3715
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 4438
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 5
+Cost 0
+End
+
+#O
+Vnum 4439
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 4440
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 2417
+Nest 0
+PrevOwner Duhamel~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1271
+Nest 0
+PrevOwner Orcen~
+Cond 0
+Wear 13
+Cost 8000
+Val  10 1 0 5 50
 End
 
 #END

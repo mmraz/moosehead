@@ -36,7 +36,7 @@ DECLARE_DO_FUN(do_gstatus);
 /*
  * External functions.
  */
-int	clan_lookup	args( (const char *name) );
+int	nonclan_lookup	args( (const char *name) );
 void    append_note     args( (NOTE_DATA *glad_qnote)); 
 
 /*
@@ -93,7 +93,7 @@ void do_startgladiator(CHAR_DATA *ch, char *argument)
 
    if ( i1 < 1 || i1 > 3 || i2 <= 0 || i2 > 51 
 	|| i3 <= 0 || i3 > 60 || i4 < 3 
-	|| (strcmp(arg5,"blind") && strcmp(arg5,"noblind")))
+	|| arg5[0] == '\0' || (str_prefix(arg5,"blind") && str_prefix(arg5,"noblind") && str_prefix(arg5,"experimental") && str_prefix(arg5,"WNR")))
    {
       send_to_char("The type either has to be one of the following:\n\r",ch);
       send_to_char("1 - Singles Event\n\r",ch);
@@ -158,26 +158,45 @@ void do_startgladiator(CHAR_DATA *ch, char *argument)
   gladiator_info.total_wins = 0;
   gladiator_info.num_of_glads = 0;
 
-   if (!strcmp(arg5,"blind"))
+   log_string(arg5);
+   if (!str_prefix(arg5,"blind"))
    {
       gladiator_info.blind = TRUE;
-      log_string(arg5);
+      gladiator_info.exper = FALSE;
+      gladiator_info.WNR = FALSE;
+      strcpy(arg5, "blind");
+   }
+   else if(!str_prefix(arg5, "experimental"))
+   {
+      gladiator_info.exper = TRUE;
+      gladiator_info.blind = TRUE;
+      gladiator_info.WNR = FALSE;
+      strcpy(arg5, "{REXPERIMENTAL{x");
+   }
+   else if(!str_prefix(arg5, "wnr"))
+   {
+      gladiator_info.exper = FALSE;
+      gladiator_info.blind = FALSE;
+      gladiator_info.WNR = TRUE;
+      strcpy(arg5, "{WWednesday Night Rumble!{x");
    }
    else
    {
       gladiator_info.blind = FALSE;
-      log_string(arg5);
+      gladiator_info.exper = FALSE;
+      gladiator_info.WNR = FALSE;
+      strcpy(arg5, "not blind");
    }
 
    sprintf(buf, "Gladiator started for levels %d to %d, %s %s combat.\n\rType 'GLADIATOR' to join. Read 'help gladiator' for more info.",
    gladiator_info.min_level, gladiator_info.max_level,
    (gladiator_info.type/2?"team":"single"),
-   (gladiator_info.blind?"blind":"not blind"));
+   arg5);
    do_echo(ch,buf);
    log_string(buf);
    for (d = descriptor_list; d != NULL; d = d->next)
    {
-      if (d->character != NULL)
+      if (d->character != NULL && !IS_NPC(d->character))
       {
          if (IS_SET(d->character->mhs, MHS_GLADIATOR))
             REMOVE_BIT(d->character->mhs, MHS_GLADIATOR);
@@ -208,9 +227,17 @@ void remove_gladiator(CHAR_DATA *victim)
 {
     char buf[MAX_STRING_LENGTH];
 
+    if(!IS_SET(victim->mhs, MHS_GLADIATOR))
+    {
+      return;
+    }
+
     REMOVE_BIT(victim->mhs, MHS_GLADIATOR);
     char_from_room(victim);
-    char_to_room(victim,get_room_index(clan_table[victim->clan].hall));
+    if(victim->pcdata && victim->pcdata->clan_info && victim->pcdata->clan_info->clan->hall)
+      char_to_room(victim, (ROOM_INDEX_DATA*)victim->pcdata->clan_info->clan->hall->to_place);
+    else
+      char_to_room(victim,get_room_index(clan_table[victim->clan].hall));
     victim->clan = victim->pcdata->save_clan;
     victim->pcdata->save_clan = 0;
     victim->hit  = victim->max_hit;
@@ -233,7 +260,7 @@ void remove_gladiator(CHAR_DATA *victim)
           if (IS_SET(d->character->mhs, MHS_GLADIATOR))
           {
              sprintf(buf, "%s is victorious in the arena!", d->character->name);
-             gladiator_talk(buf); 
+             gladiator_talk_ooc(buf); 
 
 #ifdef CODETEST
              gladbuffer = new_buf();
@@ -270,7 +297,7 @@ void do_removegladiator( CHAR_DATA *ch, char *argument )
 
     if ( ( victim = get_char_world( ch, arg1 ) ) == NULL )
     {
-        send_to_char( "They aren't playing.\n\r", ch );
+        send_to_char( "There is no gladiator with that name to remove.\n\r", ch );
         return;
     }
 
@@ -279,12 +306,12 @@ void do_removegladiator( CHAR_DATA *ch, char *argument )
 
     if (!IS_SET(victim->mhs,MHS_GLADIATOR))
     {
-       send_to_char( "They are not a Gladiator.\n\r",ch);
+       send_to_char( "There is no gladiator with that name to remove.\n\r",ch);
        return;
     }
 
     sprintf(buf, "The Immortals have removed %s from the Event, oh the shame!",victim->name);
-    gladiator_talk(buf);
+    gladiator_talk_ooc(buf);
 
 #ifdef CODETEST
     gladbuffer = new_buf();
@@ -319,14 +346,30 @@ void do_endgladiator( CHAR_DATA *ch, char *argument )
 
     if (strcmp (arg1,"none")) 
     {
-       if ( ( victim = get_char_world( ch, arg1 ) ) == NULL )
-       {
+      DESCRIPTOR_DATA *d;
+      victim = NULL;
+      for ( d = descriptor_list; d != NULL; d = d->next )
+      {
+        victim = d->original ? d->original : d->character;
+        
+        if ( (d->connected == CON_PLAYING) && !str_cmp(victim->name, arg1) )
+          break;
+        victim = NULL;
+      }
+      if(victim == NULL || !IS_SET(victim->mhs, MHS_GLADIATOR))
+      {
+        send_to_char("They aren't playing. Use a full name for the desired player.\n\r", ch);
+        return;
+      }
+
+       /*if ( ( victim = get_char_world( ch, arg1 ) ) == NULL )
+       {// UNSAFE - can return a mob
            send_to_char( "They aren't playing.\n\r", ch );
            return;
-       }
+       }*/
 
        sprintf(buf, "The Immortals have declared %s to be victorious!",victim->name);
-       gladiator_talk(buf);
+       gladiator_talk_ooc(buf);
 
 #ifdef CODETEST
        gladbuffer = new_buf();
@@ -342,7 +385,7 @@ void do_endgladiator( CHAR_DATA *ch, char *argument )
     else
     {
        sprintf(buf, "The Immortals have declared combat over with no one the victor!");
-       gladiator_talk(buf);
+       gladiator_talk_ooc(buf);
 
 #ifdef CODETEST
        gladbuffer = new_buf();
@@ -386,7 +429,7 @@ void do_endgladiator( CHAR_DATA *ch, char *argument )
                 do_look(d->character, "auto");
 		d->character->position = POS_SLEEPING;
 		/* Tell the Glad its over incase they have channel off */
-		send_to_char(buf,ch);
+	//	send_to_char(buf,d->character);// Not needed currently
              }
           }
 	  }
@@ -406,7 +449,7 @@ void do_skipbet ( CHAR_DATA *ch , char *argument )
    }
 
    sprintf(buf, "The Immortals have decided to skip the betting!");
-   gladiator_talk(buf);
+   gladiator_talk_ooc(buf);
    gladiator_info.bet_counter = 0;
    begin_gladiator(); 
    return;
@@ -428,12 +471,15 @@ void gladiator_winner( CHAR_DATA *ch )
 
    for(d = descriptor_list; d != NULL; d = d->next)
    {
-      if (d->character != NULL)
+      if (d->character != NULL && !IS_NPC(d->character))
       {
          if (IS_SET(d->character->mhs, MHS_GLADIATOR))
          {
             char_from_room(d->character);
-            char_to_room(d->character,get_room_index(clan_table[d->character->clan].hall));
+            if(d->character->pcdata && d->character->pcdata->clan_info && d->character->pcdata->clan_info->clan->hall)
+              char_to_room(d->character, (ROOM_INDEX_DATA*)d->character->pcdata->clan_info->clan->hall->to_place);
+            else
+              char_to_room(d->character,get_room_index(clan_table[d->character->clan].hall));
             REMOVE_BIT(d->character->mhs, MHS_GLADIATOR);
 	    d->character->clan = d->character->pcdata->save_clan;
             d->character->pcdata->save_clan = 0;
@@ -514,9 +560,10 @@ void do_gladiator( CHAR_DATA *ch, char *argument)
    {
       ch->pcdata->start_time = 0;
    }
-   if (ch->pcdata && ch->pcdata->quit_time > 0 && !IS_IMMORTAL (ch)) 
+   if (ch->pcdata && ch->pcdata->quit_time > 0 && !IS_IMMORTAL (ch) && ch->in_room->clan != ch->clan) 
    {
-      send_to_char ("Not while your timer exists... wait a few ticks.\n\r",ch);
+      sprintf(buf, "Not while your timer exists... wait %d ticks.\n\r", ch->pcdata->quit_time);
+      send_to_char (buf,ch);
       return;
    }
 
@@ -546,7 +593,11 @@ void do_gladiator( CHAR_DATA *ch, char *argument)
 
 
       location = get_room_index(ROOM_VNUM_SINGLE_GLADIATOR);  
-      act("$n goes to spill some blood in Gladiator Combat!", ch, NULL, NULL, TO_ROOM,FALSE); 
+      act("$n goes to spill some blood in Gladiator Combat!", ch, NULL, NULL, TO_ROOM,FALSE);
+      ch->mana = ch->max_mana;// Not hp so you can't jump here to heal, then quit 
+      while(ch->damaged)
+  	damage_remove(ch, ch->damaged);
+
       char_from_room(ch);
       char_to_room(ch, location);
       SET_BIT(ch->mhs, MHS_GLADIATOR);
@@ -556,13 +607,15 @@ void do_gladiator( CHAR_DATA *ch, char *argument)
       ch->pcdata->save_clan = ch->clan; 
       ch->pcdata->gladiator_team = 0;
       if (!is_clan(ch))
-	 ch->clan = clan_lookup("temp");
+	 ch->clan = nonclan_lookup("temp");
       sprintf(buf, "%s (Level %d %s) joins the Gladiators!", ch->name, ch->level, class_table[ch->class].name);
-      gladiator_talk(buf);
+      gladiator_talk_ooc(buf);
       if (gladiator_info.blind)
       {
         free_string( ch->long_descr );                                        
-        ch->long_descr = str_dup( "A Gladiator" ); 
+        /* NEVER go past this length */
+        ch->long_descr = str_dup( "An extra long Gladiator string is here, taking up space." );
+        set_glad_name(ch);
         act("$l arrives to prove his worth!", ch, NULL, NULL, TO_ROOM,FALSE);
       }
       else
@@ -572,7 +625,15 @@ void do_gladiator( CHAR_DATA *ch, char *argument)
       gladiator_info.playing++;
       gladiator_info.num_of_glads++;
       die_follower(ch);
-      affect_strip(ch,gsn_sneak);
+      if(gladiator_info.exper == TRUE || gladiator_info.WNR == TRUE)
+      {
+        while ( ch->flash_affected )
+          flash_affect_remove( ch, ch->flash_affected,APPLY_BOTH );
+        while ( ch->affected )
+          affect_remove( ch, ch->affected,APPLY_BOTH );
+      }
+      else
+        affect_strip(ch,gsn_sneak);
       do_look(ch, "auto");
       return;
 }
@@ -760,6 +821,47 @@ void gladiator_bet_resolve( CHAR_DATA *winner, CHAR_DATA *bettor )
  return;
 }
 
+/* Do not go over the length of: "An extra long Gladiator string is here, taking up space." */
+void set_glad_name(CHAR_DATA *ch)
+{// Mirrors condition values
+    if(gladiator_info.started != TRUE || gladiator_info.blind != TRUE ||
+      !IS_SET(ch->mhs, MHS_GLADIATOR) || IS_NPC(ch))
+      return;
+    char team[15];
+    int percent = ch->hit * 100 / (ch->max_hit > 0 ? ch->max_hit : 1);
+    if (gladiator_info.type == 2 && ch->pcdata->gladiator_team == 2)
+      strcpy(team, "Barbarian");
+    else
+      strcpy(team, "Gladiator");
+    if(gladiator_info.exper == TRUE)
+    {
+      if (percent >= 100)
+        sprintf(ch->long_descr, "A healthy %s", team);
+      else if (percent >= 75)
+        sprintf(ch->long_descr, "A bruised %s", team);
+      else if (percent >= 30)
+        sprintf(ch->long_descr, "A wounded %s", team);
+      else
+        sprintf(ch->long_descr, "A dying %s", team);
+    }
+    else
+      sprintf(ch->long_descr, "A %s", team);
+}
+
+void gladiator_rename_all(void)
+{
+  DESCRIPTOR_DATA *d;
+  if(gladiator_info.started != TRUE || gladiator_info.blind != TRUE)
+    return;/* Nothing to do if it's not running or isn't blind */
+  for ( d = descriptor_list; d; d = d->next )
+  {
+    if ( d->character != NULL && IS_SET(d->character->mhs, MHS_GLADIATOR) && !IS_NPC(d->character))
+    {
+      set_glad_name(d->character);
+    }
+  }
+}
+
 void gladiator_update(void)
 {
    if (gladiator_info.started == TRUE)
@@ -799,7 +901,7 @@ void gladiator_start_countdown(void)
       }
 
       sprintf(buf, "%d %s %s signed up to fight in the Arena so far.", gladiator_info.playing, gladiator_info.playing == 1 ? "Gladiator" : "Gladiators", gladiator_info.playing == 1 ? "is" : "are");
-      gladiator_talk(buf);
+      gladiator_talk_ooc(buf);
 
       if(gladiator_info.blind)
       {
@@ -831,14 +933,14 @@ void gladiator_start_countdown(void)
          sprintf(buf, "Type of Event: Levels %d - %d, Assigned Teams Combat.", gladiator_info.min_level, gladiator_info.max_level);
       }
       }
-      gladiator_talk(buf);
+      gladiator_talk_ooc(buf);
    }
    else
    {  
       if (gladiator_info.playing < 2)
       {
          sprintf(buf, "Not enough people for the Event.  Gladiator Combat ended.");
-         gladiator_talk(buf);
+         gladiator_talk_ooc(buf);
 #ifdef CODETEST
        gladbuffer = new_buf();
        add_buf(gladbuffer,glad_qnote->text);
@@ -858,7 +960,7 @@ void gladiator_start_countdown(void)
 	 else
 	 {
 	    sprintf(buf,"%d Ticks of Betting until the event starts.",gladiator_info.bet_counter);
-            gladiator_talk(buf);
+            gladiator_talk_ooc(buf);
 	 }
       }
    }
@@ -873,7 +975,7 @@ void begin_gladiator (void)
    char buf[MAX_INPUT_LENGTH];
 
    sprintf(buf, "The battle begins! %d Gladiators are fighting!", gladiator_info.playing);
-   gladiator_talk(buf);
+   gladiator_talk_ooc(buf);
 
    team_select = 1;
    for(d = descriptor_list; d != NULL; d = d->next)
@@ -908,7 +1010,9 @@ void begin_gladiator (void)
                   if (gladiator_info.blind == TRUE)
                   {
                      free_string( d->character->long_descr );                
-                     d->character->long_descr = str_dup( "A Gladiator" ); 
+	             /* NEVER go past this length */
+	             d->character->long_descr = str_dup( "An extra long Gladiator string is here, taking up space." );
+	             set_glad_name(d->character);
                   }
                else
 	       {
@@ -916,7 +1020,9 @@ void begin_gladiator (void)
                   if (gladiator_info.blind == TRUE)
                   {
                      free_string( d->character->long_descr );           
-                     d->character->long_descr = str_dup( "A Barbarian" ); 
+	             /* NEVER go past this length */
+	             d->character->long_descr = str_dup( "An extra long Barbarian string is here, taking up space." );
+	             set_glad_name(d->character);
                   }
 	       }
             }
@@ -976,7 +1082,7 @@ void single_update(void)
    char buf[MAX_INPUT_LENGTH];
 
    sprintf(buf, "The battle rages on with %d Gladiators still remaining.", gladiator_info.playing);
-   gladiator_talk(buf);
+   gladiator_talk_ooc(buf);
 
    for(d = descriptor_list; d != NULL; d = d->next)
    {
@@ -995,7 +1101,7 @@ void single_update(void)
                else
                {
                   sprintf(buf, "%s slips into a pit full of tigers, next time %s will be more active.", d->character->name,d->character->name);
-                  gladiator_talk(buf);
+                  gladiator_talk_ooc(buf);
 #ifdef CODETEST
        gladbuffer = new_buf();
        add_buf(gladbuffer,glad_qnote->text);
@@ -1021,7 +1127,7 @@ void team_update(void)
    char buf[MAX_INPUT_LENGTH];
 
    sprintf(buf, "The current score is: Gladiators %d - Barbarians %d.\n\r",gladiator_info.gladiator_score,gladiator_info.barbarian_score);  
-   gladiator_talk(buf);
+   gladiator_talk_ooc(buf);
 
    gladiator_info.team_counter--;
 
@@ -1031,7 +1137,7 @@ void team_update(void)
       {
 	 gladiator_info.team_counter = 2;
          sprintf(buf," The Teams are Tied, they continue to fight!\n\r");
-         gladiator_talk(buf);
+         gladiator_talk_ooc(buf);
 	 return;
       }
 
@@ -1045,7 +1151,7 @@ void team_update(void)
          sprintf(buf, "The Barbarians are victorious!\n\r");  
          team_select = 2;
       }
-      gladiator_talk(buf);
+      gladiator_talk_ooc(buf);
 
       for(d = descriptor_list; d != NULL; d = d->next)
       {
@@ -1107,14 +1213,26 @@ void gladiator_left_arena( CHAR_DATA *ch, bool DidQuit )
    ch->clan = ch->pcdata->save_clan;
    ch->pcdata->save_clan = 0;
 
-   if(DidQuit)
+   if(ch->pcdata->clan_info && ch->pcdata->clan_info->clan->hall)
    {
-      char_from_room(ch);
-      char_to_room(ch, get_room_index(clan_table[ch->clan].hall));
+     if(DidQuit)
+     {
+       char_from_room(ch);
+       char_to_room(ch, ch->pcdata->clan_info->clan->hall->to_place);
+     }
+     else
+       ch->was_in_room = ch->pcdata->clan_info->clan->hall->to_place;
    }
    else
-      ch->was_in_room = get_room_index(clan_table[ch->clan].hall);
- 
+   {
+     if(DidQuit)
+     {
+        char_from_room(ch);
+        char_to_room(ch, get_room_index(clan_table[ch->clan].hall));
+     }
+     else
+        ch->was_in_room = get_room_index(clan_table[ch->clan].hall);
+   }
    /* Check if the gladiator has started and if so if the 
       removal of this player leaves only 1 person */
    if(gladiator_info.playing == 2 && gladiator_info.time_left == 0
@@ -1129,7 +1247,7 @@ void gladiator_left_arena( CHAR_DATA *ch, bool DidQuit )
             if (IS_SET(d->character->mhs, MHS_GLADIATOR))
             {
                sprintf(buf, "%s is victorious in the arena!", d->character->name);
-               gladiator_talk(buf); 
+               gladiator_talk_ooc(buf); 
 #ifdef CODETEST
        gladbuffer = new_buf();
        add_buf(gladbuffer,glad_qnote->text);
@@ -1152,7 +1270,106 @@ void gladiator_kill( CHAR_DATA *victim, CHAR_DATA *ch )
    char buf[MAX_STRING_LENGTH];
 
    sprintf(buf, "%s lands the killing blow on %s!", ch->name,victim->name);
-   gladiator_talk(buf); 
+   gladiator_talk_ooc(buf); 
+
+   if(gladiator_info.exper == TRUE)
+   {// Restore for percent damages dealt to this player. Sanc/withstand on the killer.
+    AFFECT_DATA af;
+    DAMAGE_DATA *damages;
+    int percent;
+   	int total = 0;
+   	DESCRIPTOR_DATA *d;
+    AFFECT_DATA *afp = NULL;
+    if(!IS_NPC(ch))
+    {
+      if(IS_SET(ch->affected_by,AFF_SANCTUARY))
+      {// Find their sanctuary, boost its duration
+        afp = ch->affected;
+        while(afp != NULL && afp->type != gsn_sanctuary)
+          afp = afp->next;
+        if(afp != NULL)
+        {
+          if(afp->duration < 10)
+          {
+            send_to_char("Your sanctuary has been extended.\n\r", ch);
+            afp->duration = 10;// Reset the timer
+          }
+        }
+      }
+      if(afp == NULL)
+      {// Give them a long sanctuary at their level, couldn't find an existing one
+  			act( "$n is surrounded by a white aura.", ch, NULL, NULL, TO_ROOM ,FALSE);
+  			send_to_char( "You are surrounded by a white aura.\n\r", ch );
+  			af.where     = TO_AFFECTS;
+  			af.type      = gsn_sanctuary;
+  			af.level     = ch->level;
+  			af.duration  = 9;
+  			af.location  = APPLY_NONE;
+  			af.modifier  = 0;
+  			af.bitvector = AFF_SANCTUARY;
+  			affect_to_char( ch, &af );
+      }
+      afp = NULL;
+      if(IS_SET(ch->affected_by,AFF_WITHSTAND_DEATH))
+      {// Find their withstand, boost its duration
+        afp = ch->affected;
+        while(afp != NULL && afp->type != gsn_withstand_death)
+          afp = afp->next;
+        if(afp != NULL)
+        {
+          if(afp->duration < 12)
+          {
+            send_to_char("Your withstand death has been extended.\n\r", ch);
+            afp->duration = 12;// Reset the timer
+          }
+        }
+      }
+      if(afp == NULL)
+      {
+        af.where     = TO_AFFECTS;
+        af.type      = gsn_withstand_death;
+        af.level     = ch->level;
+        af.duration  = 12;
+        af.location  = APPLY_NONE;
+        af.modifier  = 0;
+        af.bitvector = AFF_WITHSTAND_DEATH;
+        affect_to_char( ch, &af );
+        send_to_char( "You feel like you can withstand death itself.\n\r", ch );
+        act( "$n looks more powerful than death.", ch, NULL, NULL, TO_ROOM ,FALSE);
+      }
+    }
+     for(damages = victim->damaged; damages != NULL; damages = damages->next)
+       total += damages->damage;
+     if(total > 0)
+     {/* Now find each person and give them a reward based on % damage dealt */
+       for(damages = victim->damaged; damages != NULL; damages = damages->next)
+       {
+         if(damages->source != NULL)
+         {/* Find the gladiator with this name */
+           percent = damages->damage * 100 / total;
+	  if(percent <= 0)
+	    continue;// Too little to heal
+          for(d = descriptor_list; d != NULL; d = d->next)
+           {
+            if (d->character != NULL)
+             {
+               if (IS_SET(d->character->mhs, MHS_GLADIATOR) && !str_cmp(d->character->name, damages->source))
+               {
+		if(percent > 30)
+		   percent = 30;
+                 d->character->hit = UMIN(d->character->hit + d->character->max_hit * percent / 100, d->character->max_hit);
+                 d->character->mana = UMIN(d->character->mana + d->character->max_mana * percent / 100, d->character->max_mana);
+                 d->character->move = UMIN(d->character->move + d->character->max_move * percent / 100, d->character->max_move);
+                 sprintf(buf, "The gods {Wrestore{x your strength for your damage to %s!\n\r",victim->name);
+                 send_to_char(buf, d->character);
+               }
+             }
+           }
+         }
+       }
+    }
+   }
+
 #ifdef CODETEST
        gladbuffer = new_buf();
        add_buf(gladbuffer,glad_qnote->text);
@@ -1195,7 +1412,7 @@ void gladiator_kill( CHAR_DATA *victim, CHAR_DATA *ch )
                if (IS_SET(d->character->mhs, MHS_GLADIATOR))
                {
                   sprintf(buf, "%s is victorious in the arena!", d->character->name);
-                  gladiator_talk(buf); 
+                  gladiator_talk_ooc(buf); 
 #ifdef CODETEST
        gladbuffer = new_buf();
        add_buf(gladbuffer,glad_qnote->text);
@@ -1304,15 +1521,25 @@ void do_gstatus( CHAR_DATA *ch, char *argument)
    DESCRIPTOR_DATA *d;
    sh_int percent;
 
-   if (IS_SET(ch->mhs,MHS_GLADIATOR))
-   {
-      send_to_char("Looking for every advantage you can get?.\n\r",ch);
-      return;
-   }
-
    if(gladiator_info.started != TRUE )
    {
       send_to_char("There is no event running currently.\n\r", ch);
+      return;
+   }
+
+
+   if(gladiator_info.time_left > 0)
+     sprintf(buf, "%d ticks remain until the betting begins.\n\r", gladiator_info.time_left);
+   else if(gladiator_info.bet_counter > 0)
+     sprintf(buf, "%d ticks of betting remain.\n\r", gladiator_info.bet_counter);
+   else if(gladiator_info.team_counter > 0)
+     sprintf(buf, "%d ticks remain in this combat.\n\r", gladiator_info.team_counter);
+   else
+     sprintf(buf, "The battle rages on with %d Gladiators still remaining.\n\r", gladiator_info.playing);
+   send_to_char(buf, ch);
+   if (IS_SET(ch->mhs,MHS_GLADIATOR))
+   {
+//      send_to_char("Looking for every advantage you can get?.\n\r",ch);
       return;
    }
 

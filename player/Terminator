@@ -3,32 +3,39 @@ Name Terminator~
 SurN Gbleh~
 Id   1010997366
 Email (null)~
-LogO 1110604905
-Vers 31
+LogO 1445387462
+Vers 33
 Desc Cyberdyne systems model 101.
 ~
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+Prom %e %t %g:GP %s:SP %w%c%h/%H:HP %m/%M:MP %v:MV %X:x ~
 Race goblin~
 Clan honor~
 Outc 0
-RufT 500
+RufT 429
 MatookT 0
-SkPTimer 8
-SkPTracker 12
+SkPTimer 2
+SkPTracker 3
 LogoutTracker 0
-Kill 1 4 0 14
+Kill 1 4 0 15
 Steal 0 0 0
+MSteal 0
 LstK Mort~
-LstKBy Sensamilla~
+LstKBy Mitch~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1110604880
+LstCombatDate 1310697851
 LstKillDate 1053696664
-LstDeathDate 1075955040
-LoginsWOKill 24
-LoginsWODeath 9
-LoginsWOCombat 0
+LstDeathDate 1308862465
+LoginsWOKill 29
+LoginsWODeath 3
+LoginsWOCombat 1
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 98881 huitzilopochtli~
 DeityT -1488 huitzilopochtli~
 Sac  300
@@ -38,49 +45,49 @@ Node 0
 Cap 0
 Created 1010997390
 Glad 0 0 0 0 0 0
-LastHost CPE-65-28-180-108.neb.rr.com~
+LastHost 173.215.8.171~
 Cla  11
 Kit wand maker~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 214748
-Not  1103487454 1103487454 1103487454 1103487454 1103487454 1103487454 1103487454 1103487454 1103487454 1103487454
+Plyd 223064
+Not  1310696151 1310696151 1310696151 1310696151 1310696151 1310696151 1310696151 1310696151 1310696151 1310696151
 Scro 22
 Rank 2
-Room 31520
-HMV  353 802 637 973 396 414
-Gold 391
-Silv 57
+Room 31501
+HMV  561 842 274 973 406 414
+Gold 2174
+Silv 63
 Exp  153060
 Act  DGHIKMQS
 MHSF RS
-AfBy CDFHJOTVb
+AfBy CEHJTb
 Comm 0
-Disp FIJN
+Disp FIJLN
 IcgB 0
 Icg 0
 Wizn W
 Pnet ABCDEFGHI
 Pos  8
-Prac 21
-SkiP 55
-Save  -25
+Prac 22
+SkiP 24
+Save  -13
 Alig  -1000
-Hit   16
+Hit   10
 Dam   10
-SecHit   16
+SecHit   10
 SecDam   10
 ACs 22 22 27 21
-Attr 18 21 18 19 17 13 13 16
-AMod 4 5 3 4 0 0 0 3
+Attr 18 21 18 19 17 11 11 16
+AMod 4 4 2 0 0 0 0 3
 Pass TeTNam2J0Z.Zo~
 Titl  says "buy wands!" [{gGobsSuck{x /5]~
 Pnts 70
 TSex 1
 LLev 32
-HMVP 777 768 414
-Cnd  0 14 18 18
+HMVP 817 768 414
+Cnd  0 20 21 21
 Alias 1 put all back~
 Alias qq scan~
 Alias ss o all rescue term~
@@ -92,10 +99,11 @@ Alias b bleed~
 Alias light c 'lightning breath'~
 Alias acid c 'acid breath'~
 Alias die o all kill~
+Alias kk c sleep coron~
 Sk 99 'acid blast'
 Sk 78 'armor'
-Sk 88 'blindness'
-Sk 98 'blur'
+Sk 89 'blindness'
+Sk 100 'blur'
 Sk 1 'burning hands'
 Sk 75 'call lightning'
 Sk 75 'calm'
@@ -105,7 +113,6 @@ Sk 1 'change sex'
 Sk 88 'charm person'
 Sk 1 'chill touch'
 Sk 75 'colour spray'
-Sk 1 'cone of silence'
 Sk 75 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -117,16 +124,16 @@ Sk 95 'curse'
 Sk 1 'detect evil'
 Sk 1 'detect good'
 Sk 87 'detect hidden'
-Sk 86 'detect invis'
-Sk 71 'detect magic'
+Sk 88 'detect invis'
+Sk 74 'detect magic'
 Sk 1 'detect poison'
-Sk 1 'diamond skin'
+Sk 75 'diamond skin'
 Sk 90 'dispel magic'
 Sk 75 'enchant armor'
-Sk 75 'enchant weapon'
+Sk 77 'enchant weapon'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
-Sk 88 'energy drain'
+Sk 93 'energy drain'
 Sk 77 'enervation'
 Sk 81 'entrance'
 Sk 78 'faerie fire'
@@ -151,7 +158,7 @@ Sk 86 'invisibility'
 Sk 75 'knock'
 Sk 1 'know alignment'
 Sk 75 'lightning bolt'
-Sk 80 'locate object'
+Sk 84 'locate object'
 Sk 92 'magic missile'
 Sk 75 'mass invis'
 Sk 1 'nexus'
@@ -168,7 +175,7 @@ Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
 Sk 75 'shield'
 Sk 1 'shocking grasp'
-Sk 79 'sleep'
+Sk 80 'sleep'
 Sk 88 'slow'
 Sk 1 'steel skin'
 Sk 75 'stone skin'
@@ -177,31 +184,31 @@ Sk 94 'teleport'
 Sk 75 'ventriloquate'
 Sk 75 'warp'
 Sk 80 'weaken'
-Sk 87 'word of recall'
+Sk 90 'word of recall'
 Sk 77 'acid breath'
 Sk 75 'fire breath'
-Sk 79 'frost breath'
+Sk 80 'frost breath'
 Sk 75 'gas breath'
 Sk 78 'lightning breath'
 Sk 75 'animate dead'
-Sk 97 'summon dead'
-Sk 75 'cryogenesis'
+Sk 99 'summon dead'
+Sk 78 'cryogenesis'
 Sk 85 'draw life'
 Sk 75 'make bag'
 Sk 81 'turn undead'
-Sk 86 'withstand death'
+Sk 87 'withstand death'
 Sk 75 'wound transfer'
 Sk 100 'dagger'
 Sk 100 'bleed'
 Sk 100 'dodge'
-Sk 26 'shield block'
+Sk 75 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
-Sk 98 'haggle'
+Sk 100 'haggle'
 Sk 96 'infuse'
 Sk 100 'spellcraft'
 Sk 75 'scrolls'
-Sk 1 'staves'
+Sk 75 'staves'
 Sk 75 'wands'
 Sk 52 'swimming'
 Sk 50 'recall'
@@ -221,23 +228,9 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'blur'   0  51   9 -20  17          0
-Affc 'sanctuary'   0  50   0   0   0        128
-Affc 'detect hidden'   0  50  35   0   0         32
-Affc 'protection good'   0  47   6  -1  24      16384
-Affc 'haste'   0  50   4   4   2    2097152
-Affc 'bless'   0  45  32  -6  24          0
-Affc 'bless'   0  41  32   6  18          0
-Affc 'detect invis'   0  45   5   0   0          8
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner Terminator~
-Cond 0
-Wear 4
-Cost 2000
+Affc 'detect magic'   0  52  47   0   0         16
+Affc 'blur'   0  50   4 -20  17          0
+Affc 'sanctuary'   0  51   2   0   0        128
 End
 
 #O
@@ -332,7 +325,7 @@ Vnum 23513
 Nest 0
 PrevOwner Terminator~
 Cond 0
-Wear 3
+Wear 4
 Cost 6410
 End
 
@@ -385,7 +378,7 @@ Cond 0
 Wear -1
 Lev  16
 Cost 0
-Val  52 0 3 72 -1
+Val  52 0 3 75 -1
 Spell 3 'dispel magic'
 End
 
@@ -402,7 +395,7 @@ Cond 0
 Wear -1
 Lev  16
 Cost 0
-Val  52 0 3 72 -1
+Val  52 0 3 75 -1
 Spell 3 'dispel magic'
 End
 
@@ -419,7 +412,7 @@ Cond 0
 Wear -1
 Lev  16
 Cost 0
-Val  52 0 1 72 -1
+Val  52 0 1 75 -1
 Spell 3 'dispel magic'
 End
 
@@ -436,7 +429,7 @@ Cond 0
 Wear -1
 Lev  33
 Cost 0
-Val  52 0 2 32 -1
+Val  52 0 2 35 -1
 Spell 3 'chain lightning'
 End
 
@@ -453,24 +446,7 @@ Cond 0
 Wear -1
 Lev  33
 Cost 0
-Val  52 0 3 32 -1
-Spell 3 'chain lightning'
-End
-
-#O
-Vnum 3128
-Nest 1
-PrevOwner Terminator~
-Name a wand of chain lightning~
-ShD  a wand of chain lightning~
-Desc A wand of chain lightning lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  33
-Cost 0
-Val  52 0 2 32 -1
+Val  52 0 3 35 -1
 Spell 3 'chain lightning'
 End
 
@@ -478,91 +454,6 @@ End
 Vnum 3141
 Nest 1
 PrevOwner Terminator~
-Name a wand of rasefseers~
-ShD  a wand of rasefseers~
-Desc A wand of rasefseers lies here.
-~
-ExtF 536879106
-Cond 0
-Wear -1
-Lev  10
-Cost 0
-Val  52 3 3 165 -1
-Spell 3 'restrain'
-End
-
-#O
-Vnum 3141
-Nest 1
-PrevOwner Terminator~
-Name a wand of rasefseers~
-ShD  a wand of rasefseers~
-Desc A wand of rasefseers lies here.
-~
-ExtF 536879106
-Cond 0
-Wear -1
-Lev  10
-Cost 0
-Val  52 4 4 165 -1
-Spell 3 'restrain'
-End
-
-#O
-Vnum 3128
-Nest 1
-PrevOwner Terminator~
-Name a wand of rasefseers~
-ShD  a wand of rasefseers~
-Desc A wand of rasefseers lies here.
-~
-ExtF 536879106
-Cond 0
-Wear -1
-Lev  10
-Cost 0
-Val  52 2 2 165 -1
-Spell 3 'restrain'
-End
-
-#O
-Vnum 3141
-Nest 1
-PrevOwner Terminator~
-Name a wand of rasefseers~
-ShD  a wand of rasefseers~
-Desc A wand of rasefseers lies here.
-~
-ExtF 536879106
-Cond 0
-Wear -1
-Lev  1
-Cost 0
-Val  52 3 3 165 -1
-Spell 3 'restrain'
-End
-
-#O
-Vnum 3141
-Nest 1
-PrevOwner Terminator~
-Name a wand of rasefseers~
-ShD  a wand of rasefseers~
-Desc A wand of rasefseers lies here.
-~
-ExtF 536879106
-Cond 0
-Wear -1
-Lev  7
-Cost 0
-Val  52 2 2 165 -1
-Spell 3 'restrain'
-End
-
-#O
-Vnum 3141
-Nest 1
-PrevOwner Terminator~
 Name a wand of sleep~
 ShD  a wand of sleep~
 Desc A wand of sleep lies here.
@@ -572,7 +463,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  52 0 2 178 -1
+Val  52 0 2 183 -1
 Spell 3 'sleep'
 End
 
@@ -589,7 +480,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  52 0 3 178 -1
+Val  52 0 3 183 -1
 Spell 3 'sleep'
 End
 
@@ -606,7 +497,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  52 0 4 178 -1
+Val  52 0 4 183 -1
 Spell 3 'sleep'
 End
 
@@ -623,7 +514,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  52 0 2 178 -1
+Val  52 0 2 183 -1
 Spell 3 'sleep'
 End
 
@@ -640,7 +531,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  52 0 2 178 -1
+Val  52 0 2 183 -1
 Spell 3 'sleep'
 End
 
@@ -657,7 +548,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  52 0 3 178 -1
+Val  52 0 3 183 -1
 Spell 3 'sleep'
 End
 
@@ -674,7 +565,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  52 0 4 178 -1
+Val  52 0 4 183 -1
 Spell 3 'sleep'
 End
 
@@ -691,7 +582,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  52 0 3 178 -1
+Val  52 0 3 183 -1
 Spell 3 'sleep'
 End
 
@@ -708,7 +599,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  52 0 2 178 -1
+Val  52 0 2 183 -1
 Spell 3 'sleep'
 End
 
@@ -725,7 +616,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  52 0 2 178 -1
+Val  52 0 2 183 -1
 Spell 3 'sleep'
 End
 
@@ -742,76 +633,229 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  52 0 1 178 -1
+Val  52 0 1 183 -1
 Spell 3 'sleep'
+End
+
+#O
+Vnum 7827
+Nest 1
+PrevOwner Terminator~
+Name a wand of turn undead~
+ShD  a wand of turn undead~
+Desc A wand of turn undead lies here.
+~
+ExtF 536870913
+Cond 0
+Wear -1
+Lev  20
+Cost 0
+Val  52 0 5 241 -1
+Spell 3 'turn undead'
+End
+
+#O
+Vnum 3141
+Nest 1
+PrevOwner Terminator~
+Name a wand of dispel magic~
+ShD  a wand of dispel magic~
+Desc A wand of dispel magic lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  16
+Cost 0
+Val  52 0 4 75 -1
+Spell 3 'dispel magic'
+End
+
+#O
+Vnum 3141
+Nest 1
+PrevOwner Terminator~
+Name a wand of dispel magic~
+ShD  a wand of dispel magic~
+Desc A wand of dispel magic lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  16
+Cost 0
+Val  52 0 4 75 -1
+Spell 3 'dispel magic'
+End
+
+#O
+Vnum 3141
+Nest 1
+PrevOwner Terminator~
+Name a wand of turn undead~
+ShD  a wand of turn undead~
+Desc A wand of turn undead lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  20
+Cost 0
+Val  52 0 3 241 -1
+Spell 3 'turn undead'
+End
+
+#O
+Vnum 3141
+Nest 1
+PrevOwner Terminator~
+Name a wand of turn undead~
+ShD  a wand of turn undead~
+Desc A wand of turn undead lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  20
+Cost 0
+Val  52 0 2 241 -1
+Spell 3 'turn undead'
+End
+
+#O
+Vnum 3141
+Nest 1
+PrevOwner Terminator~
+Name a wand of turn undead~
+ShD  a wand of turn undead~
+Desc A wand of turn undead lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  20
+Cost 0
+Val  52 0 2 241 -1
+Spell 3 'turn undead'
+End
+
+#O
+Vnum 3141
+Nest 1
+PrevOwner Terminator~
+Name a wand of haste~
+ShD  a wand of haste~
+Desc A wand of haste lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  21
+Cost 0
+Val  52 0 2 114 -1
+Spell 3 'haste'
+End
+
+#O
+Vnum 3141
+Nest 1
+PrevOwner Terminator~
+Name a wand of dispel magic~
+ShD  a wand of dispel magic~
+Desc A wand of dispel magic lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  16
+Cost 0
+Val  52 0 3 75 -1
+Spell 3 'dispel magic'
 End
 
 #O
 Vnum 3128
 Nest 1
 PrevOwner Terminator~
-Name a wand of sleep~
-ShD  a wand of sleep~
-Desc A wand of sleep lies here.
+Name a wand of sanctuary~
+ShD  a wand of sanctuary~
+Desc A wand of sanctuary lies here.
 ~
 ExtF 536879105
 Cond 0
 Wear -1
-Lev  10
+Lev  36
 Cost 0
-Val  52 0 1 178 -1
-Spell 3 'sleep'
+Val  52 0 3 174 -1
+Spell 3 'sanctuary'
 End
 
 #O
-Vnum 3128
+Vnum 3141
 Nest 1
 PrevOwner Terminator~
-Name a wand of sleep~
-ShD  a wand of sleep~
-Desc A wand of sleep lies here.
+Name a wand of energy drain~
+ShD  a wand of energy drain~
+Desc A wand of energy drain lies here.
 ~
 ExtF 536879105
 Cond 0
 Wear -1
-Lev  10
+Lev  19
 Cost 0
-Val  52 0 2 178 -1
-Spell 3 'sleep'
+Val  52 0 2 87 -1
+Spell 3 'energy drain'
 End
 
 #O
-Vnum 3128
+Vnum 3141
 Nest 1
 PrevOwner Terminator~
-Name a wand of sleep~
-ShD  a wand of sleep~
-Desc A wand of sleep lies here.
+Name a wand of energy drain~
+ShD  a wand of energy drain~
+Desc A wand of energy drain lies here.
 ~
 ExtF 536879105
 Cond 0
 Wear -1
-Lev  10
+Lev  19
 Cost 0
-Val  52 0 3 178 -1
-Spell 3 'sleep'
+Val  52 0 3 87 -1
+Spell 3 'energy drain'
 End
 
 #O
-Vnum 3128
+Vnum 3141
 Nest 1
 PrevOwner Terminator~
-Name a wand of sleep~
-ShD  a wand of sleep~
-Desc A wand of sleep lies here.
+Name a wand of energy drain~
+ShD  a wand of energy drain~
+Desc A wand of energy drain lies here.
 ~
 ExtF 536879105
 Cond 0
 Wear -1
-Lev  10
+Lev  19
 Cost 0
-Val  52 0 1 178 -1
-Spell 3 'sleep'
+Val  52 0 3 87 -1
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 7827
+Nest 1
+PrevOwner Terminator~
+Name a wand of acid blast~
+ShD  a wand of acid blast~
+Desc A wand of acid blast lies here.
+~
+ExtF 536870913
+Cond 0
+Wear -1
+Lev  28
+Cost 0
+Val  52 0 7 6 -1
+Spell 3 'acid blast'
 End
 
 #O
@@ -903,16 +947,6 @@ PrevOwner Terminator~
 Cond 0
 Wear -1
 Cost 2000
-End
-
-#O
-Vnum 17667
-Nest 1
-PrevOwner Terminator~
-Cond 0
-Wear -1
-Cost 1000
-Spell 3 'cure critical'
 End
 
 #O
@@ -1055,15 +1089,6 @@ Cost 15000
 End
 
 #O
-Vnum 6425
-Nest 1
-PrevOwner Terminator~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 12010
 Nest 1
 PrevOwner Terminator~
@@ -1079,126 +1104,8 @@ PrevOwner Terminator~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 9 161 0
+Val  52 10 9 166 0
 Spell 3 'remove curse'
-End
-
-#O
-Vnum 3141
-Nest 1
-PrevOwner Terminator~
-Name a wand of dispel magic~
-ShD  a wand of dispel magic~
-Desc A wand of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  52 0 4 72 -1
-Spell 3 'dispel magic'
-End
-
-#O
-Vnum 3141
-Nest 1
-PrevOwner Terminator~
-Name a wand of dispel magic~
-ShD  a wand of dispel magic~
-Desc A wand of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  52 0 4 72 -1
-Spell 3 'dispel magic'
-End
-
-#O
-Vnum 3141
-Nest 1
-PrevOwner Terminator~
-Name a wand of dispel magic~
-ShD  a wand of dispel magic~
-Desc A wand of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  52 0 3 72 -1
-Spell 3 'dispel magic'
-End
-
-#O
-Vnum 3141
-Nest 1
-PrevOwner Terminator~
-Name a wand of turn undead~
-ShD  a wand of turn undead~
-Desc A wand of turn undead lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  20
-Cost 0
-Val  52 0 3 236 -1
-Spell 3 'turn undead'
-End
-
-#O
-Vnum 3141
-Nest 1
-PrevOwner Terminator~
-Name a wand of turn undead~
-ShD  a wand of turn undead~
-Desc A wand of turn undead lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  20
-Cost 0
-Val  52 0 2 236 -1
-Spell 3 'turn undead'
-End
-
-#O
-Vnum 3141
-Nest 1
-PrevOwner Terminator~
-Name a wand of turn undead~
-ShD  a wand of turn undead~
-Desc A wand of turn undead lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  20
-Cost 0
-Val  52 0 2 236 -1
-Spell 3 'turn undead'
-End
-
-#O
-Vnum 3128
-Nest 1
-PrevOwner Terminator~
-Name a wand of magic missile~
-ShD  a wand of magic missile~
-Desc A wand of magic missile lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Cost 0
-Val  52 0 1 134 -1
-Spell 3 'magic missile'
 End
 
 #O
@@ -1229,12 +1136,66 @@ Cost 6000
 End
 
 #O
+Vnum 6425
+Nest 1
+PrevOwner Terminator~
+Cond 0
+Wear -1
+Cost 0
+Val  50 1 0 5 100
+End
+
+#O
 Vnum 8503
 Nest 1
 PrevOwner Terminator~
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 7827
+Nest 1
+PrevOwner Terminator~
+Name a wand of dispel magic~
+ShD  a wand of dispel magic~
+Desc A wand of dispel magic lies here.
+~
+ExtF 536870913
+Cond 0
+Wear -1
+Lev  16
+Cost 0
+Val  52 0 6 75 -1
+Spell 3 'dispel magic'
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Terminator~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 22552
+Nest 0
+PrevOwner Terminator~
+Cond 0
+Wear 16
+Cost 0
+End
+
+#O
+Vnum 307
+Nest 0
+PrevOwner Terminator~
+Cond 0
+Wear 3
+Cost 1
 End
 
 #O
@@ -1253,25 +1214,6 @@ PrevOwner Terminator~
 Cond 0
 Wear 17
 Cost 0
-End
-
-#O
-Vnum 22552
-Nest 0
-PrevOwner Terminator~
-Stolen 119
-Cond 0
-Wear 16
-Cost 0
-End
-
-#O
-Vnum 307
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
 End
 
 #END

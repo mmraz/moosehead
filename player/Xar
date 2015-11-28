@@ -2,8 +2,8 @@
 Name Xar~
 Id   968875441
 Email (null)~
-LogO 1102564721
-Vers 31
+LogO 1446269338
+Vers 33
 LnD  A Gladiator~
 Desc Standing before you is the withered and wrinkled husk of a man known as Xar.
 You caution yourself before approaching too near that although old and seemingly
@@ -15,7 +15,7 @@ Desc Standing before you is the withered and wrinkled husk of a man known as Xar
 The choice is simple.
 run..
 ~
-Prom <%hhp %mmana %vmv %W{Glbs{x> ~
+Prom <%h/%Hhp %m/%Mmana %v/%Vmv %wweight> ~
 Race faerie~
 Clan demise~
 Outc 0
@@ -24,44 +24,51 @@ MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 55 246 0 16
+Kill 60 251 0 16
 Steal 0 0 0
-LstK Ekiin~
+MSteal 0
+LstK Draakar~
 LstKBy Slammer~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1091067009
-LstKillDate 1091066344
+LstCombatDate 1318027027
+LstKillDate 1314284758
 LstDeathDate 1084460066
-LoginsWOKill 34
-LoginsWODeath 209
-LoginsWOCombat 33
-Bnty 0
+LoginsWOKill 51
+LoginsWODeath 431
+LoginsWOCombat 34
+Bnty 5500
+DeityFavor 2 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 339483 matook~
 DeityT -44343 matook~
 Sac  300
 Sex  1
-Vump  11
+Vump  20
 Node 0
 Cap 0
 Created 968875483
-Glad 2 14 0 0 8 0
-LastHost dialup-4.242.248.5.Dial1.Seattle1.Level3.net~
+Glad 4 18 0 0 11 0
+LastHost 192.95.172.58~
 Cla  11
 Kit warlock~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 4224943
-Not  1093524741 1093677480 1080069566 1102104209 1098850206 1093544728 1080069566 1102404977 1080069566 1089638213
+Plyd 4597623
+Not  1351756075 1349285368 1080069566 1349834978 1326004267 1444167391 1080069566 1407046784 1080069566 1384474516
 Scro 22
-Rank 4
+Rank 5
 Room 31422
 HMV  1023 1023 1279 1279 435 435
-Gold 68
-Silv 47
+Gold 151
+Silv 97
 Exp  269438
-Act  BCDEGHMOQRSWa
+Act  BCDEGHMOQRSa
 MHSF RSX
 AfBy DFJT
 Comm GS
@@ -70,17 +77,18 @@ IcgB 0
 Icg 0
 Pnet ACDEFH
 Pos  8
-Prac 19
-SkiP 128
+Prac 20
+Trai 9
+SkiP 671
 Save  -7
 Alig  -1000
-Hit   23
-Dam   26
+Hit   25
+Dam   27
 SecHit   14
 SecDam   16
-ACs -8 -8 -8 -13
+ACs -49 -49 -49 -54
 Wimp  25
-Attr 13 25 24 23 13 18 16 15
+Attr 13 25 24 23 13 17 8 15
 AMod 5 4 1 6 2 0 0 0
 Pass XaaJQ4217ZPuM~
 Titl . General of {rCthon{x'{rs{x {DArmies{x.~
@@ -88,7 +96,7 @@ Pnts 82
 TSex 1
 LLev 1
 HMVP 793 949 400
-Cnd  0 0 10 10
+Cnd  0 0 5 5
 Alias z ca 'acid blast'~
 Alias p ca 'dispel magic'~
 Alias / ca 'word'~
@@ -100,10 +108,10 @@ Alias aa ca 'arcantic al'~
 Alias x ca 'sonic'~
 Alias 0 order all rescue xar~
 Alias 9 order all trip~
-Alias 1 ca curse abel~
-Alias 2 ca blind abel~
-Alias 3 ca plag abel~
-Alias 4 ca 'energy' abel~
+Alias 1 ca 'locate' ~
+Alias 2 ca blind yager~
+Alias 3 ca curse eikel~
+Alias 4 ca 'energy' eikel~
 Sk 100 'acid blast'
 Sk 100 'adamantite skin'
 Sk 100 'arcantic alacrity'
@@ -121,7 +129,6 @@ Sk 100 'charm person'
 Sk 100 'chill touch'
 Sk 100 'clarity'
 Sk 100 'colour spray'
-Sk 1 'cone of silence'
 Sk 100 'continual light'
 Sk 100 'control weather'
 Sk 100 'create food'
@@ -201,7 +208,7 @@ Sk 100 'word of recall'
 Sk 88 'acid breath'
 Sk 82 'fire breath'
 Sk 88 'frost breath'
-Sk 94 'gas breath'
+Sk 95 'gas breath'
 Sk 78 'lightning breath'
 Sk 77 'animate dead'
 Sk 100 'summon dead'
@@ -228,7 +235,7 @@ Sk 100 'parry'
 Sk 100 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
-Sk 87 'fast healing'
+Sk 99 'fast healing'
 Sk 100 'haggle'
 Sk 100 'lore'
 Sk 100 'meditation'
@@ -236,7 +243,7 @@ Sk 100 'peek'
 Sk 100 'spellcraft'
 Sk 84 'scrolls'
 Sk 43 'staves'
-Sk 88 'wands'
+Sk 91 'wands'
 Sk 100 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
@@ -259,16 +266,6 @@ Gr 'mummy'
 End
 
 #O
-Vnum 8309
-Nest 0
-PrevOwner Xar~
-ExtF 50331777
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
 Vnum 22504
 Nest 0
 PrevOwner Xar~
@@ -279,6 +276,7 @@ End
 
 #O
 Vnum 23129
+Enchanted
 Nest 0
 PrevOwner Xar~
 Name rune intelligence xar~
@@ -287,6 +285,9 @@ Desc Xar's Rune of Intelligence is here.~
 Cond 0
 Wear 6
 Cost 10000
+Affc 'reserved'   1  50  -1  -3   5          0
+Affc 'reserved'   1  50  -1  75  12          0
+Affc 'enchant armor'   1  53  -1  -5  17          0
 End
 
 #O
@@ -303,31 +304,408 @@ Cost 4384
 End
 
 #O
-Vnum 18105
+Vnum 22044
 Nest 1
 PrevOwner Xar~
-ExtF 3
 Cond 0
 Wear -1
-Cost 4500
+Cost 100000
 End
 
 #O
-Vnum 11080
+Vnum 22044
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 10445
 Enchanted
 Nest 1
 PrevOwner Xar~
-Name DEATH WHIP~
-ShD  THE DEATH WHIP~
-Desc THE DEATH WHIP lies here.~
 ExtF 67
 Cond 0
 Wear -1
 Lev  50
 Cost 3200
-Val  7 4 7 26 1028
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 10038
+Nest 1
+PrevOwner Xar~
+ExtF 0
+Cond 0
+Wear -1
+Cost 1000
+Val  40 35 16 130 0
+Spell 3 'invisibility'
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 4826
+Enchanted
+Nest 1
+PrevOwner Xar~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 1150
 Affc 'enchant weapon'   0  52  -1  11  18          0
 Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 28057
+Enchanted
+Nest 1
+PrevOwner Xar~
+ExtF 64
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  53  -1   3  18          0
+Affc 'enchant weapon'   1  53  -1   3  19          0
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 22559
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 22570
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 1329
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 1640
+Val  20 10 9 20 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Xar~
+Damaged 37
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Xar~
+Damaged 41
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 0 2 166 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 18105
+Enchanted
+Nest 1
+PrevOwner Xar~
+ExtF 323
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant armor'   1  53  -1  -8  17          0
+Affc 'reserved'   1  46  -1   1  19          0
+Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1  20  13          0
+Affc 'reserved'   1  46  -1  15  12          0
+End
+
+#O
+Vnum 10401
+Enchanted
+Nest 1
+PrevOwner Xar~
+ExtF 579
+Cond 0
+Wear -1
+Lev  50
+Cost 3100
+Val  3 4 10 2 1056
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   1  53  -1  11  18          0
+Affc 'reserved'   1  45  -1   1   2          0
 End
 
 #O
@@ -341,87 +719,6 @@ ExtF 262208
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 10038
-Nest 1
-PrevOwner Xar~
-ExtF 0
-Cond 0
-Wear -1
-Cost 1000
-Val  40 35 16 125 0
-Spell 3 'invisibility'
-End
-
-#O
-Vnum 23505
-Enchanted
-Nest 1
-PrevOwner Xar~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-End
-
-#O
-Vnum 23504
-Enchanted
-Nest 1
-PrevOwner Xar~
-ExtF 537395523
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-End
-
-#O
-Vnum 22559
-Nest 1
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 8022
-Enchanted
-Nest 1
-PrevOwner Xar~
-Name zip tie~
-ShD  {WNike's {DLegendary {WZip tie{x~
-Desc Nike's 39th Ziptie lies here.~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1250
-Affc 'enchant weapon'   0  52  -1   8  18          0
-Affc 'enchant weapon'   1  52  -1   8  19          0
-End
-
-#O
-Vnum 17627
-Enchanted
-Nest 1
-PrevOwner Xar~
-ExtF 262211
-Cond 0
-Wear -1
-Lev  39
-Cost 5700
-Val  6 5 5 18 1024
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   1  53  -1  11  18          0
 End
 
 #O
@@ -443,172 +740,34 @@ Affc 'enchant weapon'   0  53  -1   6  18          0
 End
 
 #O
-Vnum 28
-Nest 1
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 0
-Val  51 135 -1 -1 -1
-Spell 1 'magic resistance'
-End
-
-#O
-Vnum 28
-Nest 1
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 0
-Val  31 135 -1 -1 -1
-Spell 1 'magic resistance'
-End
-
-#O
-Vnum 5903
+Vnum 8022
 Enchanted
 Nest 1
 PrevOwner Xar~
-Name fire amulet~
-ShD  a Fire Amulet~
-Desc Fire Amulet, not an Amulet of Fire~
-ExtF 134218257
-Wt   40
-Cond 0
-Wear -1
-Cost 4000
-Val  8 8 8 6 1
-Affc 'reserved'   1  46  -1   1   2          0
-Affc 'reserved'   1  46  -1  30  12          0
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner Xar~
-Name Soul Xar~
-ShD  The Eternal Soul of Xar~
-Desc The Eternal Soul of Xar lays here collecting dust.~
-ExtF 524289
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 29
-Nest 1
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 0
-Val  51 164 -1 -1 -1
-Spell 1 'restore mana'
-End
-
-#O
-Vnum 29
-Nest 1
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 0
-Val  51 164 -1 -1 -1
-Spell 1 'restore mana'
-End
-
-#O
-Vnum 29
-Nest 1
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 0
-Val  51 164 -1 -1 -1
-Spell 1 'restore mana'
-End
-
-#O
-Vnum 29
-Nest 1
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 0
-Val  51 164 -1 -1 -1
-Spell 1 'restore mana'
-End
-
-#O
-Vnum 29
-Nest 1
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 0
-Val  51 164 -1 -1 -1
-Spell 1 'restore mana'
-End
-
-#O
-Vnum 10401
-Enchanted
-Nest 1
-PrevOwner Xar~
-ExtF 579
+Name zip tie~
+ShD  {WNike's {DLegendary {WZip tie{x~
+Desc Nike's 39th Ziptie lies here.~
+ExtF 67
 Cond 0
 Wear -1
 Lev  50
-Cost 3100
-Val  3 4 10 2 1056
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   1  53  -1  11  18          0
-Affc 'reserved'   1  45  -1   1   2          0
+Cost 1250
+Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
 End
 
 #O
-Vnum 22570
-Nest 1
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 0 7 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22507
+Vnum 8533
 Enchanted
-Nest 0
+Nest 1
 PrevOwner Xar~
-Name mysterious sigil rune~
-ShD  a {DMysterious {YGlowing {RRune{x~
-Desc A mysterious sigil lies on the ground.~
+ExtF 66
 Cond 0
-Wear 12
-Cost 0
-Affc 'reserved'   1  50  -1  75  12          0
-Affc 'reserved'   1  50  -1   3   2          0
-Affc 'reserved'   1  50  -1   2   3          0
+Wear -1
+Lev  50
+Cost 293
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -632,29 +791,22 @@ End
 
 #O
 Vnum 5937
+Enchanted
 Nest 0
 PrevOwner Xar~
 Name rune strength~
 ShD  {RFlaring Runes{x of {rStrength{x~
 Desc Xar's {RRunes{x of {rStrength{x lie here.~
-ExtF 134217729
+ExtF 134217793
 Wt   32
 Cond 0
 Wear 9
+Lev  42
 Cost 4000
 Val  8 8 8 5 1
-End
-
-#O
-Vnum 22513
-Nest 0
-PrevOwner Xar~
-Name life endless rune~
-ShD  a {RRune{x of {gEndless Life{x~
-Desc Xar's lifeforce is splattered on the ground.~
-Cond 0
-Wear 4
-Cost 5000
+Affc 'reserved'   1  37  -1   2   1          0
+Affc 'reserved'   1  37  -1   2  19          0
+Affc 'enchant armor'   1  53  -1  -6  17          0
 End
 
 #O
@@ -678,48 +830,69 @@ End
 
 #O
 Vnum 12001
+Enchanted
 Nest 0
 PrevOwner Bloodscream~
 Name xar rune speed~
 ShD  {RRunes{x of {BSpeed{x~
 Desc Xar's {RRunes{x of {BSpeed{x blur in your vision~
-ExtF 17448961
+ExtF 17449025
 Cond 0
 Wear 8
+Lev  49
 Cost 0
+Affc 'reserved'   1  44  -1   2  18          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1  35  14          0
+Affc 'enchant armor'   1  53  -1  -6  17          0
 End
 
 #O
 Vnum 15223
+Enchanted
 Nest 0
 PrevOwner Bloodscream~
 Name xar rune travel~
 ShD  {RRunes{x of {YTravelling{x~
 Desc Xar's Runes of travelling lie here.~
-ExtF 134217729
+ExtF 134217793
 Wt   24
 Cond 0
 Wear 7
+Lev  35
 Cost 6500
 Val  8 8 8 4 1
+Affc 'reserved'   1  30  -1  20  13          0
+Affc 'reserved'   1  30  -1  20  12          0
+Affc 'enchant armor'   1  53  -1  -6  17          0
 End
 
 #O
 Vnum 8544
+Enchanted
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 14
+Lev  50
 Cost 9999
+Affc 'enchant armor'   1  53  -1  -6  17          0
+Affc 'reserved'   1  48  -1   3  19          0
+Affc 'reserved'   1  48  -1   2  18          0
 End
 
 #O
 Vnum 8544
+Enchanted
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 15
+Lev  50
 Cost 9999
+Affc 'enchant armor'   1  53  -1  -6  17          0
+Affc 'reserved'   1  48  -1   3  19          0
+Affc 'reserved'   1  48  -1   2  18          0
 End
 
 #O
@@ -727,6 +900,7 @@ Vnum 8500
 Nest 0
 PrevOwner (null)~
 ExtF 129
+Damaged 53
 Cond 0
 Wear -1
 Cost 3288
@@ -758,6 +932,34 @@ Cost 5000
 End
 
 #O
+Vnum 5021
+Enchanted
+Nest 1
+PrevOwner Xar~
+Cond 0
+Wear -1
+Lev  27
+Cost 2600
+Val  0 4 5 6 16
+Affc 'enchant weapon'   0  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
+End
+
+#O
+Vnum 12087
+Enchanted
+Nest 1
+PrevOwner Xar~
+ExtF 524354
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
 Vnum 10447
 Enchanted
 Nest 0
@@ -765,12 +967,14 @@ PrevOwner Xar~
 Name xar heart rune~
 ShD  The {RHeart{x {DRune{x~
 Desc Xar's {RHeart{x {DRune{x gleams with power~
-ExtF 1
+ExtF 65
 Cond 0
 Wear 5
+Lev  49
 Cost 13700
 Affc 'reserved'   1  45  -1  30  12          0
 Affc 'reserved'   1  45  -1  -4  20          0
+Affc 'enchant armor'   1  53  -1  -6  17          0
 End
 
 #O
@@ -797,17 +1001,6 @@ Cost 0
 End
 
 #O
-Vnum 12060
-Nest 0
-PrevOwner Xar~
-ExtF 554172545
-Cond 0
-Wear -1
-Cost 5637
-Val  5 6 7 38 8196
-End
-
-#O
 Vnum 2205
 Enchanted
 Nest 0
@@ -822,13 +1015,37 @@ Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
+Vnum 22507
+Nest 0
+PrevOwner Xar~
+Name mysterious sigil rune~
+ShD  a {DMysterious {YGlowing {RRune{x~
+Desc A mysterious sigil lies on the ground~
+Cond 0
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 22513
+Nest 0
+PrevOwner Kerbouchard~
+Name life endless rune~
+ShD  a {RRune{x of {gEndless Life{x~
+Desc Xar's lifeforce is splattered on the ground.~
+Cond 0
+Wear 4
+Cost 5000
+End
+
+#O
 Vnum 12014
 Enchanted
 Nest 0
 PrevOwner Xar~
 ExtF 451
 Cond 0
-Wear -1
+Wear 16
 Cost 0
 Val  6 2 20 7 301
 Affc 'sharpen'   5  51  -1   0   0          8
@@ -837,31 +1054,30 @@ Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
-Vnum 8309
+Vnum 3142
 Nest 0
-PrevOwner Ekiin~
-ExtF 50331777
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 100
+Cost 2500000
 End
 
 #O
-Vnum 10069
-Enchanted
+Vnum 3142
 Nest 0
-PrevOwner Xar~
-Name harbinger sword~
-ShD  {Do{Bxxxxxx{W[{D>{G--{gH{G-{gA{G-{gR{G-{gB{G-{gI{G-{gN{G-{gG{G-{gE{G-{gR{G--{D>{x~
-Desc {Do{Bxxxxxx{W[{D>{G--{gH{G-{gA{G-{gR{G-{gB{G-{gI{G-{gN{G-{gG{G-{gE{G-{gR{G--{D>{x is lying here~
-ExtF 67
+PrevOwner (null)~
 Cond 0
-Wear 16
-Lev  50
-Cost 1000
-Val  0 2 19 26 1184
-Affc 'enchant weapon'   1  52  -1  10  19          0
-Affc 'enchant weapon'   1  52  -1   9  18          0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 22513
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

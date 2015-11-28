@@ -1,0 +1,3338 @@
+#AREA
+../olc/olcarea/matook.are~
+Church of Matook~
+{ All } Fluzel  Church of Matook~
+16500 16591
+
+#MOBILES
+#16500
+Matook Peacekeeper~
+a Matook Peacekeeper~
+A Matook Peacekeeper is here to protect the innocent.
+~
+A big, strong, helpful, trustworthy follower of Matook stands here to help
+protect the church against thieves and killers.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABTVc DF 1000 0
+15 3 15d15+160 1d1+149 2d4+4 punch
+0 0 0 8
+CDEKLTU ABQR C 0
+stand stand female 0
+0 0 medium 0
+F aff J
+F vul Z
+#16501
+healer~
+the healer~
+A healer is here, selling spells.
+~
+Although retired from adventuring, the healer still lends a hand.
+Type 'heal' to see a listing of spells.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQVa DFH 1000 0
+40 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand female 0
+0 0 medium 0
+#16502
+catacomb rat~
+a rat~
+A rat scurries around.
+~
+The rat is a little evil creature that deserves death.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AC 0 -200 0
+5 0 2d6+60 1d9+100 1d6+1 bite
+8 8 8 10
+EFNU 0 Q L
+stand stand male 0
+AGHV ACDEFHKQ medium 0
+#16503
+corpse priest~
+a corpse of a priest~
+A corpse of a priest is on the ground in front of the altar.
+~
+You see the bones of a priest. His robe is in perfect condition however.
+His hands are reaching toward the altar. His skull looks like he was hit
+with a very powerful blow.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABGTc 0 0 0
+0 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU ABCD 0 0
+rest rest none 0
+M ABC medium 0
+#16504
+a snoring drunk Matook priest~
+a snoring drunk {YMatook{x priest~
+A snoring drunk {YMatook{x priest is sleeping here.
+~
+This priest is a little too much into his wine. An empty wine bottle lays on
+the ground beside him. He is fast asleep and you can't wake him. He will just
+have to sleep it off. He is fat and short. You have no clue how he could have 
+managed to climb clear up here on his own.
+~
+dwarf~
+Zzzzzzzzzzzzzzzzz~
+Snore... gag... moan~
+Bwaaaaaaaaaaap!  The room is suddenly filled with a putrid aroma.~
+ABGTace 0 1000 0
+20 1 50d10+7500 50d10+7500 10d4+24 divine
+-2 -2 -2 -2
+EFNU ABCD 0 0
+rest rest none 0
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+F par GHIJK
+#16505
+A sleeping bat~
+A sleeping bat~
+A sleeping bat is in the belfy.
+~
+We have bats in the belfry!  Don't wake them!
+~
+bat~
+(null)~
+(null)~
+(null)~
+ABCGTc 0 0 0
+10 -20 2d7+121 2d7+121 2d7+1 bite
+0 0 0 0
+DRU 0 0 0
+sleep sleep none 0
+HW BU tiny 0
+F aff JT
+F par HJ
+#16506
+ghostly priest~
+a ghostly priest~
+A ghostly priest is haunting the area.
+~
+This ghost is of a priest. He doesn't seem to be harmful. In fact he seems
+quite peaceful. You can see the robes of {YMatook{x on him. He has a long 
+beard and hair.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AGHOTc CDEFTU 450 0
+15 1 3d9+208 3d9+208 2d6+3 drain
+0 0 0 0
+EFGNU AB ER N
+stand stand none 500
+HKLMV ABCDE medium 0
+#16507
+ghostly spirit~
+a ghostly spirit~
+A spirit floats around the room.
+~
+This spirit looks lost like it doesn't know where it is at. Maybe it doesn't
+even know that it is dead yet.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AHc CDEFJTU -450 0
+15 0 3d9+208 0d9+100 1d6+1 frbite
+9 9 9 10
+EFNRU A Q N
+stand stand none 2000
+KLMV ACEFG medium 0
+#16508
+blacksmith ghost~
+a blacksmith ghost~
+A ghost of a blacksmith is working with the forge.
+~
+This ghost is big and burly from many years working with metal. He doesn't
+even see you. He is hammering and heating a long sword.
+~
+giant~
+(null)~
+(null)~
+(null)~
+ABGPTc CDEFTU 0 0
+20 1 3d9+333 0d0+0 4d4+5 pound
+0 0 0 0
+DEFJNU A E P
+stand stand male 500
+KL 0 large 0
+F res I
+F vul J
+F par GHIJK
+#16509
+catacomb skeleton~
+a skeleton~
+A complete skeleton lies here in perfect shape.
+~
+You found a perfect skeleton in the tomb. Most have crumbled away into parts.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABGOTc 0 0 0
+7 7 2d6+85 0d9+100 1d4+0 claw
+0 0 0 0
+BEFNU A IR EH
+rest rest none 5000
+ADHIMV ABCEGHI medium 0
+#0
+
+#OBJECTS
+#16500
+robe matook~
+a robe of Matook~
+You see a long flowing robe of Matook.~
+wool~
+clothing G AD
+1 1 1 0 0
+52 50 144 P
+A
+20 -100
+A
+12 500
+A
+13 500
+#16501
+amulet matook~
+an amulet of Matook~
+You see an amulet of Matook glowing softly here.~
+leather~
+clothing A AC
+1 1 1 0 0
+52 50 144 P
+A
+20 -100
+A
+12 500
+A
+13 500
+#16502
+golden plaque sign~
+a golden plaque~
+A Golden Plaque is hanging here.~
+~
+trash R P
+0 0 0 0 0
+0 100 0 P
+E
+golden plaque sign~
+============================================
+In Memory of Fluzel (Founder of Matook):
+ 
+Anger rules the world
+Anger feeds the starving soul.
+Run and hide when anger hits
+for anger rules the world.
+ 
+Love life when all is calm
+run and hide when not
+for fear resides in those that think
+that anger is not hot.
+ 
+Love is blind to those you see
+who wish to live in harmony.
+One cannot love with anger and hate
+for fear will always rule one's fate.
+ 
+Fear is a word best described
+as a disease one has caught up inside.
+Run young child run born free
+for fear is not your destiny.
+ 
+Health and happiness are your sword
+for love and laughter are your goal.
+To live a life full of peace
+One must love or see it decrease.
+============================================
+The Church of Matook was built with help
+from too many to name, yet they deserve
+great credit for their faithful service
+on the path to Matook.  Many thanks to
+all the believers in Matook.
+ 
+May Matook Protect you.
+============================================
+~
+#16503
+confessional~
+a doorway in the corner~
+~
+wood~
+portal ORY 0
+0 0 0 16509 0
+0 100 0 P
+#16504
+prayer candle Matook~
+a prayer candle of Matook~
+A Prayer Candle of Matook lies here waiting to be lit.~
+wax~
+key IT AO
+0 0 0 0 0
+0 20 0 P
+#16505
+painting~
+a portrait on the wall~
+~
+wood~
+furniture OR 0
+0 0 0 0 0
+0 100 0 P
+E
+west~
+Behind the Portrait the dark stairs leading to the Dungeon of Matook
+are blocked by an "Under Construction" sign.
+~
+E
+portrait~
+A grand battle between horrid evil creatures brandishing gruesome weapons
+and glowing white priests wearing only the robes and amulets of Matook and
+carrying a single candle. The two bands clash at the top of a rolling hill
+covered in blood, bodies and debris. The vigilant priests are able to keep
+the evil at bay saving the lands from impending doom.
+~
+E
+painter~
+This magnificent painting and the entire second floor was crafted by Poquah.
+May he always remain at the Heart of Matook.
+(look portrait to see the painting)
+~
+#16506
+whirlpool hot tub~
+a whirlpool in the floor~
+a whirlpool embedded in the floor.~
+ivory~
+furniture OR 0
+5 0 CFIL 100 200
+0 100 0 P
+E
+pipe~
+The swirling water is kept mystically hot by pipes that lead deep under the
+church. They are making strange rhythmic moans, all is not well beneath the 
+church you believe.
+~
+E
+whirlpool~
+Hot water is being pushed from pipes into a deep pool. The edge of the pool 
+is encircled with ivory carvings of mighty warriors and beautiful women.
+~
+E
+hot~
+Hot water is being pushed from pipes into a deep pool. The edge of the pool
+is encircled with ivory carvings of mighty warriors and beautiful women.
+~
+#16507
+front pew~
+the front pew~
+Front Pew~
+wood~
+furniture MR 0
+10 0 BEHK 100 100
+0 100 0 P
+#16508
+middle pew~
+the middle pew~
+Middle Pew~
+wood~
+furniture MR 0
+10 0 BEHK 100 100
+0 100 0 P
+#16509
+back pew~
+the back pew~
+Back Pew~
+wood~
+furniture MR 0
+10 0 BEHK 100 100
+0 100 0 P
+#16510
+aura great lover~
+the aura of a great lover~
+The aura of a great lover lingers near to you.~
+energy~
+key CGTY AQ
+0 0 0 0 0
+57 100 0 P
+#16511
+desk~
+Kuno's messy desk~
+A small, very modest desk is littered with writing materials.~
+wood~
+furniture ORY 0
+1 0 ADGJ 100 100
+0 100 0 P
+E
+desk~
+This small wooden desk is covered with all sorts of writing materials and 
+many scrolls, taking a closer look you are only able to make out the words 
+"Summon Wombat spell components" on a scroll.
+~
+#16512
+straw mat~
+a straw mat~
+A small mat woven out of straw lies here.~
+straw~
+furniture ORY 0
+2 0 BEHK 100 100
+0 100 0 P
+E
+straw~
+A small woven mat made of straw sits upon the group in the middle of
+Kuno's Dojo.
+~
+E
+mat~
+A small woven mat made of straw sits upon the group in the middle of
+Kuno's Dojo.
+~
+#16513
+glass dom perignon champagne~
+a glass of champagne~
+A glass of Dom Perignon from Poquah's wine cellar is here.~
+glass~
+potion ACGRY AO
+60 'giant strength' 'protection evil' 'stone skin' ''
+2 1 0 P
+#16514
+fireplace~
+a fireplace~
+A fireplace made from stone is set against the east wall.~
+stone~
+container OY 0
+200 0 0 200 100
+0 0 0 P
+E
+fireplace~
+It is fashioned from stones of various sizes that have been stacked on top of
+each other and fastened with mortar.  Its chimney is constructed likewise and 
+leads the smoke out through the library's ceiling.
+~
+#16515
+comfy chair~
+a nice relaxing comfy chair~
+~
+wood~
+furniture OR 0
+1 0 CFIL 100 100
+0 100 0 P
+#16516
+comfy chair~
+a nice relaxing comfy chair~
+A nice relaxing comfy chair is here.~
+wood~
+furniture MR 0
+1 0 CFIL 100 100
+0 100 0 P
+#16517
+twister mat~
+a twister mat~
+a brightly coloured twister mat with signatures on the back.~
+plastic~
+furniture CRS AP
+2 0 EHK 150 150
+51 20 7500 P
+E
+colour~
+Red, Blue, Green and Yellow Dots!
+ 
+Oh the Colours!
+ 
+Red, Blue, Green and Yellow Dots!
+~
+E
+signature~
+Amanda   Bowie   Chuska    Crimson     Earendil   Electra
+Geran    Ghanima Guerrand  Joshi       Khira      MacDuff
+Marina   Modak   Mythorn   Nightdagger Omnus      Pavlik
+Phreak   Poquah  Riverhead Rod         Rusty      Ryoga
+Shalott  Sompie  Yuki
+~
+#16518
+matook towel~
+a {YMatook{x towel~
+A {YMatook{x {Wtowel{x has been dropped here.~
+plush cotton~
+clothing NRSW AL
+0 0 0 0 0
+5 50 500 P
+A
+20 -1
+E
+towel matook~
+A large, white, {YMatook{x {Wtowel{x if fluffy and soft. It is big enough
+to wrap it around your body several times.
+~
+#16519
+bmw z8 chocolate~
+a chocolate BMW-Z8~
+An expensive chocolate leveling gift shaped like a BMW-Z8 melts slowly.~
+chocolate~
+pill C A
+60 'frenzy' 'sanctuary' 'shield' ''
+1 10 0 P
+#16520
+Matook Fountain~
+Matook fountain~
+A fountain is in the center of the room.~
+marble~
+fountain MY 0
+0 0 'water' 0 0
+0 10000 0 P
+E
+donation box~
+A very large donation box has been placed here for the needy. If you have 
+something you don't want any longer please donate it. If there is something
+here you need please take it.
+~
+E
+fountain~
+The fountain is carved out of the finest marble in exquiste detail. A statue of
+Matook with flowing water from each arm. In the chest of the statue is an gigantic
+brilliant ruby in the shape of a heart that seems to throb in the light.
+~
+#16521
+Donation Box~
+a donation box~
+A donation box is by the wall.~
+wood~
+container M 0
+10000 0 0 1000 100
+0 0 0 P
+#16522
+golden plaque~
+a large golden plaque~
+A golden plaque is bolted to a marble base that stands against the wall.~
+brass~
+furniture M 0
+0 0 0 0 0
+0 10000 0 P
+E
+plaque~
+Implementors, Immortals and other Noteworthy People of Boinga
+ 
+Andaron
+Karag
+Alagaster
+Mindweaver
+Uniball
+Braxen
+~
+#16523
+golden plaque past~
+a golden plaque of the past~
+A golden plaque is bolted to a marble base that stands against the wall.~
+brass~
+furniture M 0
+0 0 0 0 0
+0 100 0 P
+E
+plaque~
+A list of Implementors, Immortals of Boinga Past
+ 
+Rusty the dragon Implementor
+Mythorn the famous Jester
+Kranstone the novelist
+Rage with his eternal cup of coffee
+Daisy and Delstar the happy couple
+Soviet
+Bunion
+Ramona
+Saska
+Wilf
+Blackstaff
+Mandrake
+Culain
+Aonso
+Maggie
+BloodMoon
+Palibar
+Adjanti
+Randell
+Sneakers
+Quicksilver
+Guido
+Quickster
+Saska
+Valnor
+Tony
+Rebecca
+Ayden and Mariah
+Slodhian
+Johnwa
+Scintilla
+Boogums
+~
+#16524
+classroom healing~
+a classroom healing~
+You see a classroom working on the wounded in a corner of the room.~
+people~
+potion 0 0
+0 '' '' '' ''
+50 100 0 P
+E
+classroom heal~
+A group of about seven are gathered around their teacher and a man that has 
+been wounded on the floor.  One of the neophytes is kneeling and trying to
+resucitate the wouned man as the teacher watches.
+~
+#16525
+corpse dead man~
+a corpse~
+An incapacitated man has waited too long for rescue and expired.~
+flesh bone~
+npc_corpse M 0
+0 0 0 0 0
+1 1500 0 P
+E
+corpse man~
+The man was not rescued in time and expired. The neophytes have carefully stacked
+his armor and money in a pile next to him for his next of kin to pick up.
+~
+#16526
+group spellup~
+a group doing spellups~
+A small group are practicing spell-ups on someone who looks exhausted.~
+people~
+furniture M 0
+0 0 0 0 0
+1 100 0 P
+E
+group matookers~
+Four or five Matook neophytes are practicing spell-up on a poor soul who looks
+worse for the wear. It is almost funny to watch as his muscles bulge and deflate.
+One minute he is flying and the next he is falling to the ground.
+~
+#16527
+huge wall map of Boinga~
+huge wall map of Boinga~
+A huge map of Boinga takes up almost a whole wall in here.~
+paper~
+trash M 0
+0 0 0 0 0
+0 100 0 P
+E
+map~
+A huge map of Boinga is on the wall. A teacher is pointing to areas and talking
+to a large class about how to get around. The fastest way to get somewhere might
+save someone's life.
+~
+#16528
+loose stone~
+a loose stone~
+A odd shaped stone is here.~
+sone~
+container FM 0
+200 AC 0 200 50
+0 500 0 P
+A
+0 0
+E
+stone~
+It looks loose.
+~
+#16529
+rope~
+a coil of rope~
+You found a rope! It could be useful.~
+hemp~
+portal X AO
+0 0 0 0 0
+0 120 20 P
+A
+0 0
+E
+rope~
+A rope won't do you much good if you only have it in your inventory. Maybe if
+you use it will it help you.
+~
+#16530
+Matook Ring~
+a {YMatook{x ring~
+A small {Yring{x is here.~
+gold~
+portal AGHTY AB
+1 0 C 16500 0
+1 5 0 P
+F
+A 0 0 C
+A
+20 -5
+E
+ring~
+You have found an extremely rare treasure! An ancient {YMatook{x ring. This 
+might be the only one in existance left.
+~
+#16531
+blood-soaked bandage~
+a {rblood-soaked{x bandage~
+A {rblood-soaked{x bandage is lying in a pool of {rblood{x.~
+cloth~
+armor NPTW AE
+0 -2 -2 0 0
+7 10 500 P
+A
+5 4
+A
+20 -2
+#16532
+oak table leather chairs~
+a polished oak table~
+In the center of the room sits a very large oval table and chairs.~
+oak~
+furniture I 0
+20 0 ADGJ 0 0
+0 5000 0 P
+E
+table chairs~
+A large oval oak table has a brilliant sheen from constant polishing. Large
+soft leather chairs surround the table.  Perfect setup for those long meetings.
+~
+#16533
+used couch~
+a used couch~
+A very used and extremely comfortable couch is here.~
+leather~
+furniture 0 0
+40 0 BEHK 100 100
+0 3000 0 P
+E
+couch~
+This leather couch is very well worn but extremely comfortable.
+~
+#16534
+wooden bar~
+a wooden bar~
+A wooden bar is next to one wall.~
+wood~
+container M 0
+10000 AC 0 500 50
+0 5000 0 P
+E
+bar~
+This bar was hand-made of wood. It holds some wines and cheeses the Matookers
+made in the back room.
+~
+#16535
+glass of Matook wine~
+a glass of Matook red wine~
+A glass of deep red wine is here.~
+wine~
+drink I AO
+6 6 'red wine' 0 0
+0 10 500 P
+E
+wine~
+This wine was made by the Matook priests. It has a full rich flavor even though
+it is quite strong in alcoholic content.
+~
+#16536
+grapes~
+a bunch of grapes~
+A bunch of grapes freshly picked and still glistening with dew is here.~
+grapes~
+food 0 A
+24 24 0 0 0
+0 10 100 P
+#16537
+thick slice of Matook cheese~
+a thick slice of Matook cheese~
+A thick slice of cheese has been left here.~
+cheese~
+food NW A
+25 40 0 0 0
+0 20 500 P
+E
+cheese~
+Yummy thick and creamy cheese made by the priests of Matook is here.
+~
+#16538
+Matook wine room key~
+a large ornate key~
+A large ornate key is hanging on a hook on the wall.~
+iron~
+key Y A
+0 0 0 0 0
+0 10 0 P
+E
+key ornate~
+The key is quite large and looks like it opens a pretty sturdy lock.
+~
+#16539
+Bottle of Matook Wine~
+a bottle of Matook wine~
+A bottle of wine is here.~
+wine~
+drink INTW AO
+20 20 'red wine' 0 0
+0 10 1000 P
+E
+wine~
+This wine was made by the Matook priests. It has a full rich flavor even though
+it is quite strong in alcoholic content.
+~
+E
+wine bottle~
+This wine was made by the Matook priests.  It has a high alcoholic content.
+~
+#16540
+a wood box~
+a wood box~
+A wooden box with a rusted lock is in the corner of the cell.~
+wood~
+container M 0
+250 ACD 16542 100 100
+0 500 30 W
+#16541
+thick leather bag~
+a thick leather bag~
+A thick leather bag with a strong cord tie has been dropped here.~
+leather~
+weapon ETYd AN
+garotte 1 6 drain 0
+35 50 5000 P
+#16542
+small rusted key~
+a small rusted key~
+A small rusted key is here. It looks like it will crumble in your hands.~
+rusted iron~
+key X A
+0 0 0 0 0
+0 1 0 P
+#16543
+rows of bunkbeds~
+a bunk bed~
+A row of bunk beds line up against one wall.~
+pine~
+furniture 0 0
+2 0 BEHK 100 100
+0 0 0 P
+E
+bunk beds~
+The bunk beds are made of pine wood and very simplistic. They are made for
+sleep and not decoration.
+~
+#16544
+Community Bath~
+a community bath~
+A community bath filled with heated water is here.~
+stone~
+furniture OR 0
+20 0 CFIL 100 200
+0 100 0 P
+E
+bath~
+The bath looks like a small swimming pool. The pool is made from marble and
+has a pleasing pattern to it. The water is kept at a comfortable warm 
+temperature. It looks very inviting.
+~
+E
+pipe~
+The swirling water is kept mystically hot by pipes that lead deep under the
+church. They are making strange rhythmic moans, all is not well beneath the 
+church you believe.
+~
+E
+whirlpool~
+Hot water is being pushed from pipes into a deep pool. The edge of the pool 
+is encircled with ivory carvings of mighty warriors and beautiful women.
+~
+E
+hot~
+Hot water is being pushed from pipes into a deep pool. The edge of the pool
+is encircled with ivory carvings of mighty warriors and beautiful women.
+~
+#16545
+round circular wood bench~
+a round circular wood bench~
+A round wood bench encircles a stack of hot stones.~
+wood~
+furniture ORTY 0
+10 10 BEHK 110 110
+0 5000 0 P
+E
+stones~
+The stones are kept very hot from a hidden heat source. If you throw water
+on them they would create a lot of steam.
+~
+#16546
+bathroom sink~
+a bathroom sink~
+~
+stone~
+fountain MY 0
+0 0 'water' 0 0
+0 500 0 P
+E
+sink bathroom~
+The sink is clean but doesn't look like it has been used much.  While your
+looking at the sink, you decide to wash your hands and maybe get a drink.
+~
+#16547
+Ancient Giant Forge~
+an ancient giant forge~
+An ancient enormous forge sits in the middle of this room~
+iron~
+forge BMRTY 0
+34 0 0 0 0
+0 -15536 0 P
+E
+forge~
+The biggest forge you have seen in your life sits here.  The heavy thick walls
+of it are at least five inches thick. It is black from use from centuries past.
+~
+#16548
+Sword of Justice~
+the Sword of Justice~
+An ancient sword lies in the dirt.~
+silver~
+weapon ABHITYd AN
+sword 2 7 divine ABC
+10 100 0 P
+A
+20 -1
+A
+19 2
+A
+18 2
+E
+sword justice~
+This sword was created by priest centuries ago to fight the injustice of the 
+world. This sword can only be made in the Matook Forge of centuries past.
+It's secrets have been lost over the ages.
+ 
+~
+#16549
+parchment recipe for injustice~
+a recipe for injustice~
+A ancient parchment has fallen from a shelf.~
+parchment~
+trash GTU A
+0 0 0 0 0
+0 100 0 P
+A
+0 0
+E
+parchment scroll~
+This ancient parchment is so old it needs to be in a museum. It looks as if it
+will crumble to dust at any moment. You examine it further and discover it has
+a recipe on it.  The words are so faded many are unreadable.
+ 
+~
+E
+recipe~
+The recipe reads in faded script :
+ 
+To Fight Against Injustice you will need  the fo owing ingredi nts.
+ 
+One robe of Ma ook
+One am let of Matook
+A praye  candle of  atook
+A bar of silver for Just ce
+A ruby r d for the blood of Matoo
+ 
+Take the it ms to t   great  fo ge. T e  f  ge is loc   d
+ 
+The rest of the script is so faded you cannot make out the words.
+~
+#16550
+corpse of a priest~
+a corpse of a priest~
+A corpse of a priest is in front of the altar.~
+bones~
+container MTY 0
+500 0 0 250 100
+0 500 0 P
+E
+corpse priest~
+In front of the altar on the ground, is the bones of a priest. They are white 
+and very old. Strangely his robe is still in perfect condition though covered
+in dust. His hands are reaching for the altar. The back of his skull looks like
+he was hit with a very powerful blow.
+~
+#16551
+dehydrated figs~
+dehydrated figs~
+A sack of dehydrated figs is here.~
+figs~
+food NW A
+40 40 0 0 0
+0 50 0 P
+#16552
+A priest and deformed creature bones~
+a priest and deformed creature bones~
+You see the bones of a priest and a strange deformed creature locked in battle to the death.~
+bones~
+npc_corpse MTY 0
+0 0 0 0 0
+0 500 0 P
+E
+bones priest creature~
+The bones of the priest and a strange deformed creature are locked in battle
+for all eternity. Apparently they died together fighting to their last breath.
+~
+#16553
+pile of human bones~
+a pile of human bones~
+A pile of human bones is stacked precariously here.~
+bone~
+container Md 0
+2000 0 0 250 100
+0 5000 0 P
+E
+bones pile~
+You see skulls, femurs, finger bones, bones of all sizes. Some are bones of
+children and some are of adults. All are white and brittle with age. It wouldn't
+take much to break them.
+ 
+~
+#16554
+bony finger~
+a bony finger~
+A bony finger has been broken off a skeleton.~
+bone~
+weapon HNSTWY AN
+dagger 2 6 claw BCH
+1 10 5000 P
+A
+18 1
+A
+19 1
+A
+2 2
+#16555
+cluttered desk~
+a cluttered desk~
+A cluttered desk is in the middle of the room.~
+wood~
+container MR 0
+1000 AC 0 100 100
+0 2000 0 P
+E
+desk~
+The desk is cluttered with papers but looks organized. There are receipts of
+donations, supply lists, ledgers, student class assignments. All your basic
+bookkeeping things.
+~
+#16556
+administration office key~
+an office key~
+You see an office key with a tag on it.~
+brass~
+none N A
+0 0 0 0 0
+0 100 0 P
+E
+tag~
+Matook Administration Office
+~
+#16557
+hammock~
+a hammock~
+A hammock is swinging in the breeze.~
+canvas~
+furniture MST 0
+2 0 CFIL 110 110
+0 10000 500000 P
+E
+hammock~
+A hammock has been positioned between two trees. It sways gently in the breeze.
+~
+#16558
+matook red portal~
+a {Rred portal{x~
+A {RRed Portal{x.~
+magic~
+portal BMTY 0
+0 0 0 0 0
+0 100 0 P
+#16559
+Matook Blue Portal~
+a {BBlue Portal{x~
+A {BBlue Portal{x.~
+magic~
+portal BMRT 0
+0 0 0 0 0
+0 100 0 P
+#16560
+Matook Green Portal~
+a {GGreen Portal{x~
+A {GGreen Portal{x.~
+magic~
+portal BMRTY 0
+0 0 0 0 0
+0 100 0 P
+#16561
+Matook Pink Portal~
+a {MPink Portal{x~
+A {MPink Portal{x.~
+magic~
+portal BMRTWY 0
+0 0 0 0 0
+0 100 0 P
+#16562
+Matook Yellow Portal~
+a {YYellow Portal{x~
+A {YYellow Portal{x.~
+magic~
+portal BMTY 0
+0 0 0 0 0
+0 100 0 P
+#16563
+Matook White Portal~
+a {WWhite Portal{x~
+A {WWhite Portal{x.~
+magic~
+portal BMRSY 0
+0 0 0 0 0
+0 100 0 P
+#16564
+casket of the helm~
+a Casket of the Helm~
+A Casket of the Helm~
+stone~
+furniture MTY 0
+20 0 BEHK 100 100
+0 10000 0 P
+E
+casket~
+Which casket? Sword, Gauntlet, or Helm?
+~
+E
+helm~
+You slide back the heavy stone lid and see the skeletal remains of a soldier.
+On his skull is a beautiful helm of the most intricate metal work you have
+ever seen. It is best to let him rest in peace. With great effort yu slide
+the stone lid back in place.
+~
+#16565
+Casket of the Gauntlet~
+a Casket of the Gauntlet~
+A Casket of the Gauntlet~
+stone~
+furniture MTY 0
+10 0 BEHK 100 100
+0 10000 0 P
+E
+casket~
+Which casket? Sword, Gauntlet, or Helm.
+~
+E
+gauntlet~
+With great effort you push back the stone lid and see skeletal remains of
+a warrior. His arms are crossed in peace and a pair of gold gauntlets adorn
+his hands. It is best to leave him rest in peace. You close the heavy stone
+lid.
+~
+#16566
+warrior skeleton~
+a warrior's skeleton~
+A warrior's skeletal remains is lying here.~
+bones~
+trash TY A
+0 0 0 0 0
+0 10 0 P
+E
+skeleton~
+The dusty bones are almost brown.  It must have been buried for a very long
+time.
+A dusty skeleton is in an excellent condition.
+~
+#16567
+collapsed buried casket~
+a collapsed casket~
+A casket has partially fallen into a hole.~
+stone~
+trash MTYd 0
+0 0 0 0 0
+0 100 0 P
+E
+sword~
+The Casket of the Sword has partially fallen into a hole. Half of it has 
+fallen while the other half still is inside the crypt. You might be able to
+still open it.
+~
+E
+casket~
+Which casket? Look Sword, Helm, or Gauntlet.
+~
+#16568
+open grave~
+an open grave~
+A freshly dug grave is here.~
+dirt~
+furniture MY 0
+1 0 CFIL 100 100
+0 100 0 P
+E
+grave~
+A freshly dug grave is waiting for a body. The dirt is piled to one side and 
+covered with a tarp.
+~
+#16569
+wooden benches~
+a wooden bench~
+Several wooden benches line the walkway.~
+~
+furniture M 0
+5 0 BEHK 100 100
+0 1000 0 P
+E
+benches~
+Several wooden benches line the walkways to rest and contemplate. Trees cast
+cooling shadows from the hot sun on some of them. Flowers surround you and the
+smell is intoxicating.
+~
+#16570
+Matook Fountain~
+a beautiful stone fountain~
+A beautiful stone fountain sits here on the grass.~
+stone~
+fountain MY 0
+0 0 'water' 0 0
+0 1000 0 P
+E
+fountain~
+The fountain is carved out of the finest marble in exquiste detail. A statue of
+Matook with water flowing from each arm into a pool below. In the center of the
+statue is a brilliant ruby in the shape of a heart that sees to throb in the light.
+~
+#16571
+wood table and chairs~
+a chair by a wooden table~
+A sturdy wood table and chairs sit here.~
+wood~
+furniture M 0
+20 0 BEHK 100 100
+0 1000 0 P
+E
+table chair~
+This is a sturdy hand-carved table and chair set. It has seen years of use.
+It is scrubbed and polished to a nice shine from years of wax.
+~
+#16572
+a teapot~
+a teapot~
+A teapot is here simmering.~
+china~
+drink M 0
+5000 5000 'tea' 0 0
+0 50 0 P
+E
+teapot~
+A teapot is here simmering. The aroma of honey and mint rise in the steam.
+~
+#16573
+ring of keys~
+a ring of assorted keys~
+A ring of assorted keys of all sizes and shapes is here.~
+brass~
+key NT AO
+0 0 0 0 0
+0 50 0 P
+A
+14 25
+E
+key~
+This is a large ring of many keys. The Matook Administrators keys. It should
+open everything that is locked in the church.
+~
+#16574
+mahogany desk~
+A large mahogany desk~
+A large mahogany desk is here.~
+mahogany~
+container 0 0
+10000 ACD 16575 1000 100
+52 100 0 P
+E
+desk~
+This desk is a massive mahogany masterpiece.  It is very old but polished to a
+brilliant sheen. Quill pens are in a holder on the desk, also a bottle of ink.
+~
+#16575
+desk key~
+a desk key~
+It is a plain brass key. There are no noticable markings on it.~
+brass~
+key N A
+0 0 0 0 0
+0 100 0 P
+E
+key~
+This is just your basic key.
+~
+#16576
+sack of sunflower seeds~
+sack of sunflower seeds~
+A sack of raw sunflower seeds is spilling over.~
+sunflower seeds~
+food NW A
+15 20 0 0 0
+0 50 24 P
+#16577
+beef jerky~
+{rbeef jerky{x~
+A sack has been chewed open to reveal dried beef jerky.~
+beef~
+food N A
+20 40 0 0 0
+0 100 30 P
+A
+14 1
+E
+beef jerky~
+This jerky looks like it has been laying around in the sun a long time.
+It looks very dry but it might still be nutritious. A good snack for the road.
+~
+#16578
+cask of benedictine~
+a cask of benedictine~
+A cask has fallen from the top of a stack of barrels.~
+wood~
+drink NTW A
+150 150 'benedictine wine' 0 0
+0 1000 5000 P
+E
+keg barrel cask~
+A large cask is laying on it's side. When you roll it around you hear liquid
+splashing around inside. A cork is attached to the botton of the cask.
+~
+#16579
+pile of dirt~
+a small pile of dirt~
+~
+dirt~
+container M 0
+250 0 0 200 100
+0 75 0 P
+E
+dirt~
+Small piles of dirt are scattered all over the floor. It looks like rats have
+been digging here, probably looking for grains to eat. The room reeks of animal
+excretement.
+~
+#16580
+fossilized pea~
+a fossilized {gpea{x~
+A small fossilized {gpea{x is here.~
+pea~
+warp_stone HTY AO
+0 0 0 0 0
+0 1 0 P
+E
+pea~
+The small pea is fossilized, wrinkled, and hard as stone.
+~
+#16581
+crystal opal~
+a crystal opal~
+A beautiful crystal opal is on the ground.~
+mineral~
+warp_stone T AO
+0 0 0 0 0
+0 10 5000 P
+E
+crystal opal gem~
+A beautiful assortment of light and colors are glittering throught this gorgeous
+gemstone. It is very rare.
+~
+#16582
+second pile of dirt~
+a small pile of dirt~
+~
+dirt~
+container M 0
+250 0 0 200 100
+0 75 0 P
+E
+dirt~
+Small piles of dirt are scattered all over the floor. It looks like rats have
+been digging here, probably looking for grains to eat. The room reeks of animal
+excretement.
+~
+#16583
+third pile of dirt~
+a small pile of dirt~
+~
+dirt~
+container HMTY 0
+250 0 0 150 100
+0 1 0 P
+E
+pea~
+The small pea is fossilized, wrinkled, and hard as stone.
+~
+#16584
+fouth pile of dirt~
+a small pile of dirt~
+~
+dirt~
+container M 0
+250 0 0 150 100
+0 100 0 P
+#16585
+fith pile of dirt~
+a small pile of dirt~
+~
+dirt~
+container M 0
+250 0 0 150 100
+0 100 0 P
+#16586
+sixth pile of dirt~
+a small pile of dirt~
+~
+dirt~
+container M 0
+250 0 0 150 100
+0 100 0 P
+E
+dirt~
+These small piles of dirt are all over the floor. They have been dug up
+from the many rats. Maybe they buried food stores in here.
+~
+#16587
+mummy body wrappings~
+mummy body wrapping~
+A large roll of linen wrap is on the floor.~
+linen~
+armor HNTW AD
+-1 -1 0 0 0
+10 200 500 P
+A
+20 -1
+A
+13 2
+A
+14 -2
+A
+5 1
+A
+1 1
+A
+2 -1
+E
+linen wrappings mummy~
+A large roll of linen wrappings is on the floor. This is what they used to wrap
+dead bodies in after annointing them with oils.
+~
+#16588
+Matook Bell~
+the {YMatook{x {DBell{x~
+A huge {Dbell{x sits in the bell tower.~
+brass~
+trash MY 0
+0 0 0 0 0
+0 10000 0 P
+E
+bell matook~
+The {YMatook{x {DBell{x is HUGE making it very crowded up here in the tower.
+The bell is taller than you are. A long rope hangs down from the bell into the
+room below. You try to push the bell but you can't make it budge.
+Besides, if you rang it up here you would become deaf from the noise.
+~
+#16589
+Tower Key~
+the bell tower key~
+A large key is here.~
+steel~
+key TYd A
+0 0 0 0 0
+0 10 0 P
+E
+key~
+A large key is half hidden in the robes of a sleeping priest.
+~
+#16590
+empty bottle of Matook wine~
+a bottle of Matook wine~
+A bottle of {YMatook {rwine{x is here.~
+wine~
+drink INTW AO
+20 0 'red wine' 0 0
+0 10 1000 P
+E
+wine bottle~
+This wine was made by the Matook priests.  It has a high alcoholic content.
+This particular one is empty.
+~
+E
+wine~
+This wine was made by the Matook priests. It has a full rich flavor even though
+it is quite strong in alcoholic content.
+~
+#16591
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#0
+
+#ROOMS
+#16500
+Entrance to the First Church of Matook~
+You are at the entrance to the First Church of Matook. You can go into the church
+to the north. No extra gold adorn the walls. Practical is the key word of this
+church. It is painted in bright colors and is very welcoming to anyone who wishes
+to enter.
+~
+0 DK 0
+D0
+Exit ~
+door~
+16384 0 16502
+D2
+Exit ~
+door~
+16384 0 3261
+S
+#16501
+First Aid Station~
+You have entered the first aid station. Here wounds seem to heal up more
+quickly and time seems to heal wounds very rapidly in this peaceful room.
+Beds line the walls but they are all filled with people. The ground is 
+filled with comfortable pillows and looks very inviting to your weary head.
+~
+0 DK 0
+H 200
+D3
+Exit ~
+door~
+16384 0 16502
+S
+#16502
+Matook Foyer~
+You have entered the foyer of Matook. Donations are accepted here for the
+needy. North continues deeper into the church to the Altar Room and other
+areas of Matook. 
+~
+0 DKS 15
+D0
+Exit ~
+door~
+16384 0 16539
+D1
+Exit ~
+door~
+16384 0 16501
+D2
+Exit ~
+door~
+16384 0 16500
+D3
+Exit ~
+door~
+16384 0 16503
+S
+#16503
+The Meditation Room~
+You have entered the room of meditation. Many cushions line the floor and
+many people are seen sitting in the lotus position quietly resting. Men with
+pointy hats seem to fill this room with chants of different languages. A
+tranquility fills your mind as you sit to relax with thoughts of battles
+leaving your mind for the time being.
+~
+0 DK 0
+M 200
+D1
+Exit ~
+door~
+16384 0 16502
+S
+#16504
+The Tomb of Matook~
+The tombs of faithful priests long past rest peacefully here. Even in 
+death they hold vigilance over the Church and you feel quite safe within 
+these walls. It looks as though you could wiggle out a hole in the ceiling 
+and get back into the Temple of Matook.
+~
+0 CDJKSTUW 0
+H 150 M 150
+D4
+Exit ~
+door~
+16384 0 1213
+S
+#16505
+Long Hallway~
+The thick carpet muffles your footsteps. North leads to the Matook Council Meeting
+Room. South is the Prayer Room for Matook priests and neophytes. The hallway
+continues east and west.
+~
+0 DK 0
+D0
+Exit ~
+door~
+16387 0 16540
+D1
+Exit ~
+door~
+16384 0 16517
+D2
+Exit ~
+door~
+16387 0 16506
+D3
+Exit ~
+door~
+16384 0 16519
+S
+#16506
+The Prayer Room~
+You have entered a small, quiet room. A soft glow from candles lights the front
+with pews lined to the back of the room. Matook priests and neophytes come here
+to pray in privacy or in small groups away from the rest of the world. If you
+listen quietly you can almost hear the sounds of the Heart of Matook deep inside
+the church.
+~
+0 DK 0
+D0
+Exit ~
+door~
+16387 0 16505
+E
+mosaic~
+A fantastic battle of good and evil, the Armageddon, is retold in pictures
+around the ceiling. From the looks of the devastation you can only pray
+that you are not around when the cataclysm comes.
+~
+S
+#16507
+The Rooftop Patio~
+Stepping out onto the rooftop patio you are engulfed by the steam rising
+from the whirlpool. Relaxing in a steaming hot pool of water clears your 
+mind helping you concentrate on the tasks ahead.  Plants and trees have been
+planted pleasingly around the area with a small rock pathway winding around
+them. You see a ladder against the wall.
+~
+0 CK 0
+D1
+Exit ~
+door~
+16385 0 16590
+D4
+Exit ~
+door~
+16384 0 16581
+E
+ladder~
+You can't really tell how high the ladder goes as it is partially hidden in
+the trees.
+~
+S
+#16508
+Fluzel's Library~
+The prophet Fluzel often sits here engrossing himself in poems and legends.
+A fireplace warms your body as the serenity warms your heart. Many books
+line the walls and wait for you to pull up a comfy chair and enjoy them.
+~
+0 DK 0
+M 200
+D3
+Exit ~
+door~
+16384 0 16526
+E
+books~
+Hundreds of book of poems and legends are on the shelves. All of Fluzel's 
+favorites.
+~
+S
+#16509
+The Confessional~
+Seeking council with a priest you hope to enlighten your soul and open your
+heart. You may repent for your sins and pray to Matook to guide you through
+the evils in the land.
+~
+0 DJK 0
+D3
+Exit ~
+door~
+16385 0 16539
+S
+#16510
+The Heart of Matook~
+The silence is enchanting, you begin to hear a heartbeat. Your mind becomes
+enlightened, your heart full of love, you realize you have traversed the 
+path to the Heart of Matook. You finally understand what life is all about.
+~
+0 CDKNT 0
+S
+#16511
+Kuno's Study and Dojo~
+When you first enter the room you are shocked by the rows and rows of
+spell books, scrolls, artifacts, and other miscellaneous magical items
+lining the walls. You look with wondrous awe at all the legendary items
+that are strewn about the room. A small wooden desk catches your eye. A
+small inkwell rests on it, and various parchments are spread across the
+desk's surface. Looking away from the desk you notice a large padded area
+in the corner where Kuno spends his spare time meditating and practicing
+his kendo.
+~
+0 CDKST 0
+D1
+Exit ~
+door~
+16384 0 16526
+E
+poster~
+Tacked over the pictures of the Pig-tailed Girl and Akane Tendo is a 
+poster of a strikingly beautiful angel who you realize can be none other 
+then Kuno's wife, Petal. Just looking at this visage of beauty soothes your 
+heart and puts your mind at ease.
+~
+S
+#16512
+Behind the Portrait~
+Brushing off the cobwebs you step through the ancient doorway.
+Behind the portrait are very old and decaying stairs leading down.
+Although it looks unused for many centuries torches still adorn the
+walls and remain forever lit.
+~
+0 D 0
+D1
+Exit ~
+door~
+16481 0 16519
+D5
+Exit ~
+door~
+16384 0 16513
+S
+#16513
+Descent to the Dungeon~
+The stairs are warped and cracked and look very unsafe. Years of neglect have
+taken it's toll. The stairs lead down and around into the darkness or back up
+toward the light. Torches only light your way a few feet in front of you.
+~
+0 D 0
+D4
+Exit ~
+door~
+16384 0 16512
+D5
+Exit ~
+door~
+16384 0 16516
+S
+#16514
+Sliding Down The Rope~
+You are on a long rope. You can now go up or down. The choice is yours.
+~
+0 CD 0
+D4
+Exit ~
+stone~
+16387 0 16516
+D5
+Exit ~
+door~
+16384 0 16518
+S
+#16515
+Stairs to the Dungeon~
+Generic room description.
+~
+0 DO 0
+D4
+Exit ~
+door~
+16384 0 16514
+S
+#16516
+Break In The Stairs~
+You step out and discover there is no stair and almost fall headlong into the 
+darkness below. Your eyes strain into the darkness and torches cast off enough
+light for you to see the stairs continue down below. However, it is a big
+drop from here to there. You notice a loose stone on the wall.
+~
+0 D 0
+D4
+Exit ~
+door~
+16384 0 16513
+D5
+Exit ~
+stone~
+16387 0 16514
+S
+#16517
+Long Hallway~
+You are in a long hallway that leads to other areas of Matook. The thick 
+carpet muffles all sound making it very quiet. The hallway continues west
+and another hallway is north. East is back to the Altar Room.
+~
+0 DX 0
+D0
+Exit ~
+door~
+16384 0 16520
+D1
+Exit ~
+door~
+16384 0 16539
+D3
+Exit ~
+door~
+16384 0 16505
+S
+#16518
+Entrance to the Dungeon~
+You are on the bottom of the broken stairs. Before you is a large cavernous 
+room. You see rows of cages or cells. A single torch is between each cell
+giving a minimum of light. Welcome to the Dungeon.
+~
+0 CDNT 0
+D0
+Exit ~
+door~
+16384 0 16531
+D1
+Exit ~
+door~
+16384 0 16533
+D3
+Exit ~
+door~
+16384 0 16534
+D4
+Exit ~
+door~
+16384 0 16514
+S
+#16519
+Hallway North~
+A huge painting of a dramatic battle hangs on the west wall of the hallway. It is
+almost ceiling to floor and the width of a door in size. The frame is extremely
+heavy and intricately carved. It looks very old. The hallway continues east and
+a grand staircase leads up.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 16505
+D3
+Exit ~
+painting picture~
+20480 0 16512
+D4
+Exit ~
+door~
+16384 0 16521
+E
+painting picture battle~
+A grand battle between horrid evil creatures brandishing gruesome weapons and
+glowing white priests carrying a single candle and wearing only the robes and
+amulets of Matook. The two bands clash at the top of a rolling hill covered in
+blood, bodies, and debris. The vigilant priests are able to keep the evil at
+bay and saving the lands from impending doom. The picture wavers for a moment
+and you can see an opening. It must be strong magic protecting an entrance.
+~
+S
+#16520
+Hall of History~
+You are in the Hall of History. There are statues of past immortals, famous
+heroes, and other famous people from the past. Areas off this hallway include
+a study and training area for neophytes of Matook to show their worth, a library
+that is open to the public is here with great books of our heritage and history.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16522
+D2
+Exit ~
+door~
+16384 0 16517
+D3
+Exit ~
+door~
+16384 0 16523
+S
+#16521
+Grand Staircase~
+A grand staircase leads up to the second floor. Paintings of past Matook Priests
+line the walls on both sides. A long wood railing is on the sides of the stairs 
+for safetly of the older priests.
+~
+0 D 0
+D4
+Exit ~
+door~
+16384 0 16525
+D5
+Exit ~
+door~
+16384 0 16519
+S
+#16522
+Hall of History~
+You are in the Hall of History. Statues, plaques, and pictures line the walls.
+The thick carpet muffles your footsteps. You hear murmurs very faintly as if
+from deep within a room in the distance.
+~
+0 D 0
+D2
+Exit ~
+door~
+16384 0 16520
+D3
+Exit ~
+door~
+16384 0 16524
+S
+#16523
+Matook Library~
+You have entered the Matook Library. Thousands of books, parchments, scrolls,
+and other items fill it. All of Boinga's history is stored in the library.
+You see busts of famous people on tall stands scattered throughout. Large
+lounging sofa's and chairs are everywhere for comfort. Tables and chairs are
+in one area for study and reference work. The carpet is thick here to keep
+noise to a minimum.
+~
+0 DK 0
+D1
+Exit ~
+door~
+16384 0 16520
+E
+parchment scrolls~
+Most of the parchments and scrolls are behind locked glass. You need special
+permission from the librarian to get them out. Most are very old and fragile.
+~
+E
+books~
+You are in the library so of course there are hundereds of books on the 
+shelves. They cover every subject you could think of. There is a special
+row of books on the History of Boinga and Midgaard itself.
+ 
+~
+S
+#16524
+Matook Neophyte Training Area~
+If you are here you probably are training to be a Matook. You will be given
+some tests and trials to see how well you know Boinga, where items are, how
+to help the people of Boinga in need.  Part of the floor here is covered with
+thick mats.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 16522
+S
+#16525
+Second Floor Landing~
+You are on the second floor landing. You can continue up the stairs to the third
+floor or go back down.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16555
+D4
+Exit ~
+door~
+16384 0 16526
+D5
+Exit ~
+door~
+16384 0 16521
+S
+#16526
+Third Floor Landing~
+You are on the third floor landing. This area is very quiet. No sounds can be
+heard from below or from above. 
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16590
+D1
+Exit ~
+door~
+16384 0 16508
+D3
+Exit ~
+door~
+16384 0 16511
+D4
+Exit ~
+trap~
+16387 0 16562
+D5
+Exit ~
+door~
+16384 0 16525
+S
+#16527
+Bathing and Purifying Area~
+You have entered the bathing and purifying area. The walls are all made from
+oak. There is a bench that circles very hot stones on the east side of the room.
+On the west side a large community bath. Large towels hang on hooks next to
+both the bath and steam area.
+~
+0 D 0
+D2
+Exit ~
+door~
+16387 0 16590
+E
+towels~
+They are large, clean, and white towels placed neatly on hooks within easy reach.
+~
+E
+stones rocks~
+The stones are very hot. If you throw water on them they would create a lot of
+steam.
+~
+S
+#16528
+Entrance to the Catacombs~
+You have found the way into the Catacombs. The air is stagnant and dusty here.
+No one has been here for centuries. You see rows and rows of bones stacked in
+cubby holes in the walls. Rats and mice have scattered bones across the floor.
+~
+0 ACD 0
+S
+#16529
+Recreation Room~
+This is the recreational room for the priests of Matook to relax in. You see
+a billiard table, a dartboard on the wall, a small bar with home-made wines
+and cheeses.
+~
+0 CD 0
+H 120 M 120
+D1
+Exit ~
+door~
+16487 16538 16530
+D3
+Exit ~
+door~
+16384 0 16590
+E
+billiard table~
+Billiards anyone? The billiard table is polished to a high sheen.
+~
+E
+dartboard~
+The dartboard is just your basic dartboard. Some darts have been stuck in it.
+~
+S
+#16530
+Matook Wine Room~
+You are in the Matook Wine Room. The priests make their cheeses and wines here.
+A big still sits in one corner of the room. Bottles line the shelves. Cheeses of
+all kinds and flavors are wrapped in cloth or hanging on hooks to age. It all
+smells delicious.
+~
+0 CD 0
+D3
+Exit ~
+door~
+16487 16538 16529
+S
+#16531
+Dungeon Walkway~
+You are now in the middle of the large cavernous room. It is cold down here
+and the light from the torches lights very little in this dark space.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16532
+D1
+Exit ~
+door~
+16384 0 16535
+D2
+Exit ~
+door~
+16384 0 16518
+D3
+Exit ~
+door~
+16384 0 16536
+S
+#16532
+End of the Dungeon Walkway~
+You are at the back of the large cavernous room. The light is very poor here.
+You feel a slight breeze from somewhere you can't see. It is definately coming
+from the back of the room here.
+~
+0 D 5
+D0
+Exit ~
+crack~
+16387 0 16549
+D1
+Exit ~
+door~
+16384 0 16538
+D2
+Exit ~
+door~
+16384 0 16531
+D3
+Exit ~
+door~
+16384 0 16537
+S
+#16533
+Cell One~
+You open the rusty cell door and enter the cell. You can smell excretement
+from the rodents in the straw scattered around the cell floor.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 16518
+S
+#16534
+Cell Two~
+Straw is scattered all over the dirt floor of this cell. You hear scurrying
+noises within it.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 16518
+S
+#16535
+Cell Three~
+This cell seems a little cleaner than the others.  The dirt floor is free of
+smelly straw. You can see scratch marks in the dirt.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 16531
+E
+scratch marks~
+It looks like someone scratched some words in the dirt but you don't understand
+the language it was written in. Seems very unlikely that they are centuries old.
+~
+S
+#16536
+Cell Four~
+This cell is just as filthy as the last one. The smell is terrible. Small bones
+crunch beneath your feet.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 16531
+S
+#16537
+Cell Five~
+This cell is dark and smelly but surprisingly clean. The dirt floor is clear
+of debri. Shackles can be seen hanging from the wall.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 16532
+S
+#16538
+Cell Six~
+There is a breeze blowing softly from somewhere. It is very cold and musty
+smelling. This cell looks just like all the other cells.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 16532
+S
+#16539
+Matook Altar Room~
+A gigantic statue of the God Matook rises high above the altar.
+The room is large to accomodate many people. A perfect place to have a wedding.
+Rows of pews go from front to back. A confessional box is to the east, and a
+hallway to the west.
+~
+0 D 0
+H 110 M 110
+D1
+Exit ~
+door~
+16387 0 16509
+D2
+Exit ~
+door~
+16384 0 16502
+D3
+Exit ~
+door~
+16384 0 16517
+E
+altar~
+The altar is large but simple. The scuplturer made it with love just like the
+statue.
+~
+E
+statue matook~
+The many arms of Matook, each with a special meaning, rise high above the altar.
+Each arm of Matook respresents the idea of Matook. Keepers of the Soul, Feeding
+the Hungry, Clothing the Needy, Resurrection, Protector, Healer, Love, Compassion.
+~
+S
+#16540
+Matook Council Meeting Room~
+This room is for the Matook Council to hold meetings in. The room is simply
+decorated but comfortable. A large fireplace warms the room when needed. A few
+couches, chairs, and pillows are placed pleasingly against the walls.
+~
+0 DKWX 0
+D2
+Exit ~
+door~
+16387 0 16505
+S
+#16541
+Entrance to the Catacombs~
+You have entered a maze of tunnels deep beneath Matook. Each tunnel has holes 
+carved in the walls for tombs that are filled with bones of people who died
+centuries ago. Some of the tombs are sealed but many are not. The air is thick
+with dust and decay. Torches, forever lit, line the walls giving off freaky
+shadows and flashes of grinning skulls.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16550
+D1
+Exit ~
+door~
+16384 0 16553
+D2
+Exit ~
+door~
+16384 0 16549
+D3
+Exit ~
+door~
+16384 0 16542
+S
+#16542
+The Catacombs~
+You are in the hidden catacombs deep beneath the church of Matook. This place
+has long been forgotten. Maybe there is a reference to this place somewhere in
+the library. The thick dust on the ground show that no one has walked here for
+many many years.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 16541
+D3
+Exit ~
+door~
+16384 0 16543
+S
+#16543
+Matook Ancient Forge Room~
+This tunnel opens up into a round room. Tombs line the walls but in the center
+of the room is one of the biggest forges you have ever seen. It is ancient and
+made of a thick metal at least 5 inches thick. It is a masterpiece.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 16542
+D3
+Exit ~
+door~
+16384 0 16544
+S
+#16544
+Catacomb Tunnel~
+Bones and more bones on the floor and in the walls. The air here is very dank
+and heavy. It is hard to breath down here.
+~
+0 N 0
+D1
+Exit ~
+door~
+16384 0 16543
+D3
+Exit ~
+door~
+16384 0 16545
+S
+#16545
+Catacomb Prayer Room~
+This tunnel opens up into another round room. There is an altar in the
+center. Candles are lit on the altar which is very strange considering no
+one has been down here for centuries.
+~
+0 D 5
+M 120
+D0
+Exit ~
+door~
+16384 0 16547
+D1
+Exit ~
+door~
+16384 0 16544
+D2
+Exit ~
+door~
+16384 0 16546
+S
+#16546
+Unknown Tomb~
+Why you want to go into a tomb is strange but here you are. It is dark, musty
+and the dust makes you sneeze. You are top of a mound of human remains.
+~
+0 ADT 0
+D0
+Exit ~
+door~
+16384 0 16545
+S
+#16547
+Deep Hole in the Ground~
+When you enter this area, you almost fall into a very large, deep hole. You
+shine your light down it but cannot see the bottom. The only way you can go
+is back where you came from. To go down means certain death.
+~
+0 ADT 0
+D2
+Exit ~
+door~
+16384 0 16545
+D5
+Exit ~
+hole~
+16384 0 16548
+S
+#16548
+Blackness~
+You are either very brave or very stupid. Either way you're stuck in this 
+big black hole halfway to oblivion. Roots have luckily saved your life by
+breaking your fall. Struggling further could be very dangerous.
+~
+0 ACL 0
+S
+#16549
+Crack in the Wall~
+You found a crack in crumbling wall. It doesn't take much for you to break it 
+open further so you can crawl through.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16541
+D2
+Exit ~
+crack~
+16387 0 16532
+S
+#16550
+Catacombs~
+The catacombs go on forever. The air smells moldy and feels heavy in your 
+lungs. Moaning can be heard in the distance but from what direction you
+can't tell.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16578
+D1
+Exit ~
+door~
+16384 0 16551
+D2
+Exit ~
+door~
+16384 0 16541
+S
+#16551
+Catacombs~
+This tunnel looks much like the rest of them. You wonder who all these bones
+belong to. Thousands of them from past centuries turning to dust. What killed 
+them all? Was it a time of mass destruction from wars? Disease? A violent time
+in our past? So many bones.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16576
+D1
+Exit ~
+door~
+16384 0 16552
+D2
+Exit ~
+door~
+16384 0 16577
+D3
+Exit ~
+door~
+16384 0 16550
+S
+#16552
+Secret Cache~
+You have come upon a secret cache. This room is filled with ancient grains,
+seeds, dried fruit and other foodstuffs. There is only the exit west.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 16551
+S
+#16553
+Catacombs East~
+You have entered the eastern tunnel in the catacombs. The tombs in the walls
+seem emptier here.  There are still many bones but not near as much as in the
+other tunnels. You have a feeling this area was added much later in time.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16554
+D3
+Exit ~
+door~
+16384 0 16541
+S
+#16554
+Catacombs~
+The ceiling has collapsed here into a large mound of dirt. The rest of the
+tunnel has been blocked off stopping all further exploration. It looks too deep
+to be able to dig through it. You could try and climb up it to see what is on
+the other side.
+~
+0 D 0
+D2
+Exit ~
+door~
+16384 0 16553
+D4
+Exit ~
+door~
+16384 0 16572
+S
+#16555
+Administration Offices Hallway~
+The is the Matook Administration Offices hallway. This is where all the
+business end of running Matook takes place.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16558
+D1
+Exit ~
+door~
+16387 0 16557
+D2
+Exit ~
+door~
+16384 0 16525
+D3
+Exit ~
+door~
+16384 0 16556
+S
+#16556
+Matook Offices Coffee Break Room~
+You are in the lunch room for the Matook Office personnel. It is kept 
+spotless.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 16555
+S
+#16557
+Supply Closet~
+You are in a supply closet. All the office supplies and cleaning supplies are
+stored here.
+~
+0 DLT 0
+D3
+Exit ~
+door~
+16387 0 16555
+S
+#16558
+Second Floor Hallway~
+You are in the second floor hallway of the Matook Administration.
+~
+0 D 0
+D0
+Exit ~
+door~
+16423 16556 16561
+D1
+Exit ~
+door~
+16387 0 16559
+D2
+Exit ~
+door~
+16384 0 16555
+D3
+Exit ~
+door~
+16387 0 16560
+D4
+Exit ~
+trap door~
+16387 0 16563
+S
+#16559
+Matook Restoration Room~
+This room is filled with scribes working hard at their desks. They are working
+hard and fast to copy and save crumbling parchments, scrolls, and ancient books
+before they are impossible to read anymore. Their concentration is intense and they
+don't notice you entering the room.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 16558
+S
+#16560
+Matook Accounting Room~
+Every wall in this room is filled with shelves stacked with paperwork. It has
+been kept fairly neat but you wouldn't want to be the one to find a particular
+piece of paper in the hundreds of stacks on the shelves.
+~
+0 D 0
+D1
+Exit ~
+door~
+16387 0 16558
+S
+#16561
+Matook Administrator Office~
+This is the office of the Matook Administrator. He oversees all things related
+to Matook and has the last say in all decisions.
+~
+0 D 0
+D2
+Exit ~
+door~
+16423 16556 16558
+S
+#16562
+Attic~
+This is the Matook Attic. Things are stored here that have not seen the light
+of day for centuries. There is probably some very valuable artifacts here. It
+really needs to be cleaned, sorted, and cataloged.
+~
+0 D 0
+D4
+Exit ~
+holy~
+16487 0 16564
+D5
+Exit ~
+trap~
+16387 0 16526
+S
+#16563
+Matook Portal Room~
+You are in the Matook Portal Room. The portals are here to help collect bodies
+weapons, and equipement for others.
+~
+0 D 0
+D5
+Exit ~
+trap door~
+16387 0 16558
+S
+#16564
+Heart of Matook~
+You must have exceptional powers or special gifts to enter this room. The air
+is crackling with magic which seems to be radiating from the blinding source in
+the middle of the room. The light is so bright you cannot see what it is. The
+sound of a beating heart pounds in your ears like a thousand drums. The heat is
+almost unbearable. You are filled with holy rapture as tears fill your eyes and
+you drop to your knees.
+~
+0 DJPTWX 0
+D5
+Exit ~
+holy~
+16487 0 16562
+S
+#16565
+Cemetary Pathway~
+A beautiful pathway lined with trees and flowers wanders around the outside
+of the {YMatook{x Church. The lawn here is kept immacualte. You can see
+ivy growing on the side of the church walls.
+~
+0 CWX 1
+D0
+Exit ~
+door~
+16384 0 16566
+D2
+Exit ~
+gate~
+16387 0 3260
+S
+#16566
+Cemetary Pathway~
+The pathway continues and finally turns toward the back of the church.
+It opens up into a beautiful cemetary. Trees and flowers are everywhere.
+~
+0 WX 1
+D1
+Exit ~
+door~
+16384 0 16567
+D2
+Exit ~
+door~
+16384 0 16565
+S
+#16567
+{YMatook{x Cemetary~
+The trees give cooling shade from the hot sun here. A few large crypts can
+be seen in the distance. Headstones of all shapes and sizes are decorated with
+flowers and other adornments.
+~
+0 WX 1
+D0
+Exit ~
+door~
+16384 0 16569
+D1
+Exit ~
+door~
+16384 0 16568
+D2
+Exit ~
+door~
+16384 0 16575
+D3
+Exit ~
+door~
+16384 0 16566
+S
+#16568
+Matook Cemetary Newest Area~
+This is the newest part of the cemetary. The headstones are still easy to read
+and are standing tall and straight.
+~
+0 WX 1
+D3
+Exit ~
+door~
+16384 0 16567
+S
+#16569
+Matook Cemetary~
+This area of the cemetary has been around hundreds of years. The heroes and
+the pioneers who fought bravely to clear the land and made Midgaard habitable
+for us all.
+~
+0 WX 1
+D0
+Exit ~
+door~
+16384 0 16570
+D2
+Exit ~
+door~
+16384 0 16567
+E
+heroes pioneers~
+The heroes and pioneers of the past are in this section. The people who made
+Midgaard a safe place to live. They helped clear the land and fought the 
+wars. This is a place of honor for their remains.
+~
+S
+#16570
+Matook Cemetary~
+Huge trees keep this part of the cemetary in deep shadow. There are many
+more large crypts with exquisite metal ironwork on their gates here. Statues
+and stone flowerpots adorn the crypts. Weeds and ivy have overtaken many of
+them. This is the oldest part of the whole cemetary. Brush is slowly
+overtaking the area and the stone walkways have disappeared here.
+~
+0 WX 1
+D0
+Exit ~
+crypt gate~
+16387 0 16571
+D1
+Exit ~
+crypt~
+16387 0 16573
+D2
+Exit ~
+door~
+16384 0 16569
+D3
+Exit ~
+crypt~
+16387 0 16574
+S
+#16571
+Crypt of the Sword~
+This crypt holds three stone caskets. Each casket has a piece of armor or
+weapon sculpted out of the stone on the caskets lid. There is a name plate on
+each of the caskets.  You can read the Casket of the Helm and Casket of the
+Gauntlet but the third one is unreadable due to the fact it is partially
+buried. You wonder who they might have been and what the scupltures signify.
+~
+0 DWX 0
+D2
+Exit ~
+crypt gate~
+16387 0 16570
+D5
+Exit ~
+sword~
+16387 0 16572
+E
+casket~
+Which casket? Sword, Gauntlet, or Helm?
+~
+S
+#16572
+Collapsed Ceiling~
+The ceiling of the tunnel has collapsed. You can climb up or down into darkness.
+~
+0 D 0
+D4
+Exit ~
+crypt sword~
+16387 0 16571
+D5
+Exit ~
+door~
+16384 0 16554
+S
+#16573
+Stone Crypt~
+You have entered a stone crypt. All the caskets have been sealed inside the
+stone walls. Plaques of the names of the deceased are bolted to the walls.
+A small altar is against the wall with candles waiting to be lit. A stone
+bench to sit and contemplate or pray is next to the altar.
+~
+0 DJTWX 0
+D3
+Exit ~
+crypt~
+16387 0 16570
+E
+stone bench~
+A sturdy stone bench is here to comtemplate or pray. It is filled at the 
+moment with other people praying. You probably should not disturb them.
+~
+E
+plaques~
+Many plaques are here all with individual names on them with date of birth and
+death. You slowly read them and don't recognize any of the people.
+~
+S
+#16574
+Thornbush Family Crypt~
+Surprisingly when you walk in the crypt all the walls have been painted with
+forest scenes. Pictures hang on the walls of a family of half-elves. You are
+not sure how many are sealed in here as there are no individual plaques with
+names on the walls.
+~
+0 DWX 0
+D1
+Exit ~
+crypt~
+16387 0 16570
+E
+pictures~
+The pictures show many generations of half-elves. Whether they are just family
+photos or all the generations that are buried here, you are not sure.
+~
+S
+#16575
+Matook Burial Area~
+This area of the cemetary is reserved for the people of {YMatook{x. The
+priests, healers, and others that have devoted their lives to {YMatook{x.
+To be buried here is a great honor.
+~
+0 WX 1
+D0
+Exit ~
+door~
+16384 0 16567
+S
+#16576
+Catacomb Wine Celler~
+There are barrels and barrels stacked here, long forgotten. Some of the casks
+have rotted and whatever they held is long gone. Others seem to be intact.
+~
+0 D 0
+D2
+Exit ~
+door~
+16384 0 16551
+S
+#16577
+Catacomb Storage Room~
+This room is completely bare. Whatever used to be in here is gone now.
+All that remains is the dirt walls and floor. Some mounds of dirt that
+look like rats have dug up or buried food stores are all around the
+room. The room reeks of animal excretement.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16551
+S
+#16578
+Catacomb Passage~
+You found a passageway. There are no tombs or bones in the tunnel.
+~
+0 DT 0
+D0
+Exit ~
+door~
+16384 0 16579
+D2
+Exit ~
+door~
+16384 0 16550
+S
+#16579
+Catacomb Passage~
+The tunnel makes twists and turns and you walk though it. It seems like you
+have walked miles. To the east you see a large room open up. To the south is
+more passageway.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 16580
+D2
+Exit ~
+door~
+16384 0 16578
+S
+#16580
+Catacomb Preperation Room~
+You enter a large room with two heavy stone slabs in the middle of the floor.
+Bottles of oils and cloth are in stacks onmakeshift shelves. The smell in
+this room is different from all the others. You smell the aroma of rich oils,
+and candle wax. You study the room carefully and suddenly realize that it is
+the place they prepared bodies for burial.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 16579
+E
+stone slab~
+Two large stone slabs are in the middle of the room. Bodies were readied here
+for burial.
+~
+S
+#16581
+Going Up The Ladder~
+You are climbing a long ladder. Trees are blocking your view above.
+~
+0 D 1
+D4
+Exit ~
+door~
+16384 0 16582
+D5
+Exit ~
+door~
+16384 0 16507
+S
+#16582
+Rooftop of Matook~
+You have reached the rooftop of Matook. You look down over three stories
+and have a feeling of vertigo. The rooftop has a walkway with railings for
+safety.
+~
+0 D 1
+D0
+Exit ~
+door~
+16384 0 16583
+D5
+Exit ~
+door~
+16384 0 16581
+S
+#16583
+{YMatook{x {DBell{x Tower~
+You have found your way into the {YMatok {DBellPx Tower. There are windows
+carved out of the stone in all directions. The view is spectacular of the
+town of Midgaard below you.
+~
+0 CW 1
+D0
+Exit ~
+door~
+16384 0 16584
+D2
+Exit ~
+door~
+16384 0 16582
+S
+#16584
+Climbing On The {YMatook{x {DBell{x Rope~
+With a little struggle and a couple close calls of falling, you finally grab
+the rope of the {Dbell{x. You pray the {Dbell{x won't start ringing when you 
+climb it.
+~
+0 D 0
+D2
+Exit ~
+door~
+16384 0 16583
+D5
+Exit ~
+door~
+16384 0 16585
+S
+#16585
+{YMatook{x {DBell{x Room~
+You have successfully climbed down the rope without killing yourself. The end
+of the thick hemp rope is secured firmly on a huge iron ring on the wall. There
+are an assortment of things in the room for the upkeep of the bell. Polishing wax
+and cleaning cloths are littered around the room.
+~
+0 D 0
+D4
+Exit ~
+door~
+16384 0 16584
+D5
+Exit ~
+trap~
+16385 16589 16586
+E
+cleaning cloths~
+The cleaning clothes are ripped pieces of used linen. 
+~
+E
+polishing wax~
+Thick wax in a can is for polishing the {Dbell{x and help protect it from
+the elements.
+~
+S
+#16586
+Tower Stairwell~
+You are in a stairwell. Dust flies in the air as you disturb it.
+~
+0 ADLTU 0
+D4
+Exit ~
+trap~
+16391 16589 16585
+D5
+Exit ~
+trap~
+16384 0 16587
+S
+#16587
+Stairs To Tower~
+You are in a winding stairwell. This area hasn't been cleaned for awhile by
+the looks of it. Dust floats in the air when you move. Cobwebs catch on your
+clothes and stick to your face.
+~
+0 D 0
+D4
+Exit ~
+trap~
+16387 0 16586
+D5
+Exit ~
+trap~
+16387 0 16590
+S
+#16588
+Generic room name~
+Generic room description.
+~
+0 CDP 0
+S
+#16589
+Generic room name~
+Generic room description.
+~
+0 CDP 0
+S
+#16590
+Matook Dormatory~
+You are in the dormatory. This is where the priests of Matook relax and sleep.
+A large stone fireplace is against one wall to warm the cold winter nights.
+~
+0 D 0
+D0
+Exit ~
+door~
+16387 0 16527
+D1
+Exit ~
+door~
+16384 0 16529
+D2
+Exit ~
+door~
+16384 0 16526
+D3
+Exit ~
+door~
+16384 0 16507
+D4
+Exit ~
+trap~
+16387 0 16587
+E
+fireplace~
+This is a very large stone fireplace. Cut wood is piled in the corner of the
+fireplace ledge. Fireplace tools are on the other end of the ledge. The 
+mantle holds some certificates of honor, group pictures of {YMatook{x priests,
+and a few medals.
+~
+S
+#16591
+Ruiner's Cathedral Condominium~
+You relax in the cathedral style dwelling of deep leather furnishings.
+The black steel gates tower high into the air before you, barring your exit.
+Through the huge spiked bars you can see a Gothic Cathedral style dwelling.
+Large black-tarnished chains hang from the ceiling, supporting torches that
+serve as lighting to the main hall.  The floor is a highly polished white and
+grey marble that flawlessly spans the expanse of space.  Plush deep black
+leather furniture placed sparsely around invites you to sit down and relax.
+The walls are tastefully decorated with weapons and armour. The ceilings 
+are over one hundred feet high, and are covered in scenes of dragon battle. 
+~
+0 CDKNT 1
+H 200 M 200
+O ruiner~
+S
+#0
+
+#RESETS
+D 0 16501   3 16384	* First Aid Station west
+D 0 16504   4 16384	* The Tomb of Matook up
+D 0 16515   0 16384	* Stairs to the Dungeon north
+D 0 16515   4 16384	* Stairs to the Dungeon up
+O 0 16502 100 16500	* a golden plaque
+D 0 16500   0 16384	* Entrance to the First Church of Matook north
+D 0 16500   2 16384	* Entrance to the First Church of Matook south
+D 0 16509   3 16385	* The Confessional west
+D 0 16503   1 16384	* The Meditation Room east
+O 0 16503 100 16506	* a doorway in the corner
+O 0 16507 100 16506	* the front pew
+O 0 16508 100 16506	* the middle pew
+O 0 16509 100 16506	* the back pew
+D 0 16506   0 16387	* The Prayer Room north
+O 0 16505 100 16505	* a portrait on the wall
+D 0 16505   0 16387	* Long Hallway north
+D 0 16505   2 16387	* Long Hallway south
+D 0 16519   1 16384	* Hallway North east
+D 0 16519   2 16384	* Hallway North south
+D 0 16519   3 20480	* Hallway North west
+D 0 16521   5 16384	* Grand Staircase down
+O 0 16522 100 16522	* a large golden plaque
+D 0 16522   0 16384	* Hall of History north
+D 0 16512   1 16481	* Behind the Portrait east
+O 0 16531 100 16524	* a {rblood-soaked{x bandage
+O 0 16524 100 16524	* a classroom healing
+O 0 16525 100 16524	* a corpse
+O 0 16526 100 16524	* a group doing spellups
+O 0 16527 100 16524	* huge wall map of Boinga
+D 0 16524   1 16384	* Matook Neophyte Training Area east
+D 0 16513   3 16384	* Descent to the Dungeon west
+D 0 16513   4 16384	* Descent to the Dungeon up
+O 0 16532 100 16540	* a polished oak table
+D 0 16540   2 16387	* Matook Council Meeting Room south
+O 0 16511 100 16511	* Kuno's messy desk
+O 0 16512 100 16511	* a straw mat
+O 0 16523 100 16520	* a golden plaque of the past
+D 0 16520   0 16384	* Hall of History north
+D 0 16520   2 16384	* Hall of History south
+D 0 16520   3 16384	* Hall of History west
+O 0 16520 100 16502	* Matook fountain
+O 0 16521 100 16502	* a donation box
+D 0 16502   0 16384	* Matook Foyer north
+D 0 16502   1 16384	* Matook Foyer east
+D 0 16502   2 16384	* Matook Foyer south
+D 0 16502   3 16384	* Matook Foyer west
+D 0 16517   0 16384	* Long Hallway north
+D 0 16517   1 16384	* Long Hallway east
+D 0 16517   3 16384	* Long Hallway west
+D 0 16516   5 16387	* Break In The Stairs down
+O 0 16539 100 16530	* a bottle of Matook wine
+O 0 16539 100 16530	* a bottle of Matook wine
+O 0 16537 100 16530	* a thick slice of Matook cheese
+O 0 16536 100 16530	* a bunch of grapes
+D 0 16530   3 16487	* Matook Wine Room west
+D 0 16514   4 16387	* Sliding Down The Rope up
+D 0 16514   5 16384	* Sliding Down The Rope down
+D 0 16518   4 16384	* Entrance to the Dungeon up
+D 0 16533   1 16384	* Cell One east
+O 0 16540 100 16535	* a wood box
+P 1 16541  -1 16540  1	*   a thick leather bag
+O 0 16543 100 16590	* a bunk bed
+O 0 16533 100 16590	* a used couch
+D 0 16590   0 16387	* Matook Dormatory north
+D 0 16590   1 16384	* Matook Dormatory east
+D 0 16590   2 16384	* Matook Dormatory south
+D 0 16590   3 16384	* Matook Dormatory west
+D 0 16532   0 16387	* End of the Dungeon Walkway north
+D 0 16539   1 16387	* Matook Altar Room east
+D 0 16539   2 16384	* Matook Altar Room south
+D 0 16539   3 16384	* Matook Altar Room west
+D 0 16550   1 16384	* Catacombs east
+D 0 16551   1 16384	* Catacombs east
+D 0 16551   3 16384	* Catacombs west
+O 0 16552 100 16553	* a priest and deformed creature bones
+D 0 16553   0 16384	* Catacombs East north
+D 0 16559   1 16387	* Matook Restoration Room east
+D 0 16559   3 16384	* Matook Restoration Room west
+D 0 16559   4 16384	* Matook Restoration Room up
+D 0 16526   0 16384	* Third Floor Landing north
+D 0 16526   1 16384	* Third Floor Landing east
+D 0 16526   3 16384	* Third Floor Landing west
+D 0 16526   4 16387	* Third Floor Landing up
+D 0 16526   5 16384	* Third Floor Landing down
+O 0 13332 100 16523	* plush couch
+D 0 16523   1 16384	* Matook Library east
+D 0 16558   0 16423	* Second Floor Hallway north
+D 0 16558   1 16387	* Second Floor Hallway east
+D 0 16558   3 16387	* Second Floor Hallway west
+D 0 16558   4 16387	* Second Floor Hallway up
+D 0 16555   0 16384	* Administration Offices Hallway north
+D 0 16555   1 16387	* Administration Offices Hallway east
+O 0 16549 100 16562	* a recipe for injustice
+D 0 16562   5 16387	* Attic down
+O 0 16563 100 16563	* a {WWhite Portal{x
+O 0 16562 100 16563	* a {YYellow Portal{x
+O 0 16561 100 16563	* a {MPink Portal{x
+O 0 16560 100 16563	* a {GGreen Portal{x
+O 0 16559 100 16563	* a {BBlue Portal{x
+O 0 16558 100 16563	* a {Rred portal{x
+D 0 16563   5 16387	* Matook Portal Room down
+D 0 16564   5 16487	* Heart of Matook down
+D 0 16572   4 16387	* Collapsed Ceiling up
+D 0 16573   3 16387	* Stone Crypt west
+D 0 16574   1 16387	* Thornbush Family Crypt east
+O 0 16569 100 16567	* a wooden bench
+O 0 16569 100 16568	* a wooden bench
+O 0 16568 100 16568	* an open grave
+O 0 16569 100 16565	* a wooden bench
+D 0 16565   2 16387	* Cemetary Pathway south
+O 0 16569 100 16569	* a wooden bench
+O 0 16555 100 16560	* a cluttered desk
+P 1 16575  -1 16555  1	*   a desk key
+D 0 16560   1 16387	* Matook Accounting Room east
+O 0 16574 100 16561	* A large mahogany desk
+P 1 16573  -1 16574  1	*   a ring of assorted keys
+D 0 16561   2 16423	* Matook Administrator Office south
+O 0 1867 100 16556	* a {Cc{Mo{Yl{Wo{Cr{Mf{Yu{Cl{x {Gpresent{x from Mindweaver
+P 1 1852  -1 1867  1	*   a {Gfaerie treat{x
+P 1 1876  -1 1867  1	*   a piece of fudge
+P 1 3377  -1 1867  1	*   a {Wdiamond{x
+P 1 8134  -1 1867  1	*   a batch of tough cookies
+P 1 16647  -1 1867  1	*   Scintilla's tush protection pill
+O 0 1867 100 16556	* a {Cc{Mo{Yl{Wo{Cr{Mf{Yu{Cl{x {Gpresent{x from Mindweaver
+P 1 1852  -1 1867  1	*   a {Gfaerie treat{x
+P 1 1876  -1 1867  1	*   a piece of fudge
+P 1 3377  -1 1867  1	*   a {Wdiamond{x
+P 1 8134  -1 1867  1	*   a batch of tough cookies
+P 1 16647  -1 1867  1	*   Scintilla's tush protection pill
+O 0 16572 100 16556	* a teapot
+O 0 16571 100 16556	* a chair by a wooden table
+O 0 16577 100 16552	* {rbeef jerky{x
+O 0 16576 100 16552	* sack of sunflower seeds
+O 0 16551 100 16552	* dehydrated figs
+D 0 16552   3 16384	* Secret Cache west
+O 0 16578 100 16576	* a cask of benedictine
+O 0 16587 100 16580	* mummy body wrapping
+O 0 16506 100 16507	* a whirlpool in the floor
+O 0 16557 100 16507	* a hammock
+D 0 16507   1 16385	* The Rooftop Patio east
+O 0 16556 100 16557	* an office key
+D 0 16557   3 16387	* Supply Closet west
+O 0 16538 100 16529	* a large ornate key
+O 0 16534 100 16529	* a wooden bar
+D 0 16529   1 16487	* Recreation Room east
+D 0 16529   3 16384	* Recreation Room west
+O 0 16516 100 16508	* a nice relaxing comfy chair
+O 0 16514 100 16508	* a fireplace
+O 0 16515 100 16508	* a nice relaxing comfy chair
+D 0 16508   3 16384	* Fluzel's Library west
+O 0 16518 100 16527	* a {YMatook{x towel
+O 0 16544 100 16527	* a community bath
+O 0 16545 100 16527	* a round circular wood bench
+D 0 16527   2 16387	* Bathing and Purifying Area south
+O 0 16547 100 16543	* an ancient giant forge
+D 0 16543   1 16384	* Matook Ancient Forge Room east
+D 0 16543   3 16384	* Matook Ancient Forge Room west
+O 0 16550 100 16545	* a corpse of a priest
+P 1 16500  -1 16550  1	*   a robe of Matook
+P 1 16501  -1 16550  1	*   an amulet of Matook
+O 0 16504 100 16545	* a prayer candle of Matook
+D 0 16545   1 16384	* Catacomb Prayer Room east
+D 0 16545   2 16384	* Catacomb Prayer Room south
+O 0 16553 100 16546	* a pile of human bones
+P 1 16554  -1 16553  1	*   a bony finger
+D 0 16546   0 16384	* Unknown Tomb north
+O 0 16567 100 16571	* a collapsed casket
+O 0 16565 100 16571	* a Casket of the Gauntlet
+O 0 16564 100 16571	* a Casket of the Helm
+D 0 16571   2 16387	* Crypt of the Sword south
+D 0 16571   5 16387	* Crypt of the Sword down
+D 0 16542   1 16384	* The Catacombs east
+D 0 16542   3 16384	* The Catacombs west
+D 0 16544   1 16384	* Catacomb Tunnel east
+D 0 16544   3 16384	* Catacomb Tunnel west
+D 0 16541   3 16384	* Entrance to the Catacombs west
+O 0 16586 100 16577	* a small pile of dirt
+P 1 16581  -1 16586  1	*   a crystal opal
+O 0 16585 100 16577	* a small pile of dirt
+P 1 16530  -1 16585  1	*   a {YMatook{x ring
+O 0 16584 100 16577	* a small pile of dirt
+P 1 16580  -1 16584  1	*   a fossilized {gpea{x
+O 0 16583 100 16577	* a small pile of dirt
+O 0 16582 100 16577	* a small pile of dirt
+P 1    1  -1 16582  1	*   a silver coin
+O 0 16579 100 16577	* a small pile of dirt
+P 1 16537  -1 16579  1	*   a thick slice of Matook cheese
+D 0 16554   2 16384	* Catacombs south
+O 0 16570 100 16570	* a beautiful stone fountain
+D 0 16570   0 16387	* Matook Cemetary north
+D 0 16570   1 16387	* Matook Cemetary east
+D 0 16570   3 16387	* Matook Cemetary west
+O 0 16569 100 16566	* a wooden bench
+O 0 16569 100 16575	* a wooden bench
+D 0 16586   4 16391	* Tower Stairwell up
+O 0 16588 100 16583	* the {YMatook{x {DBell{x
+D 0 16583   0 16384	* {YMatook{x {DBell{x Tower north
+D 0 16583   2 16384	* {YMatook{x {DBell{x Tower south
+D 0 16587   4 16387	* Stairs To Tower up
+D 0 16587   5 16387	* Stairs To Tower down
+M 0 16500   2 16500  2	* a Matook Peacekeeper
+E 1 16500  -1    5	*   a robe of Matook
+E 1 16501  -1    3	*   an amulet of Matook
+M 0 16500   2 16500  2	* a Matook Peacekeeper
+E 1 16501  -1    3	*   an amulet of Matook
+E 1 16500  -1    5	*   a robe of Matook
+M 0 16501   1 16502  1	* the healer
+E 1 16501  -1    3	*   an amulet of Matook
+M 0 16502  20 16532  1	* a rat
+M 0 16502  20 16535  2	* a rat
+M 0 16502  20 16535  2	* a rat
+M 0 16502  20 16536  2	* a rat
+M 0 16502  20 16536  2	* a rat
+M 0 16502  20 16537  3	* a rat
+M 0 16502  20 16537  3	* a rat
+M 0 16502  20 16537  3	* a rat
+G 1 16542  -1     	*   a small rusted key
+M 0 16502  20 16538  3	* a rat
+M 0 16502  20 16538  3	* a rat
+M 0 16502  20 16538  3	* a rat
+M 0 16507   8 16541  1	* a ghostly spirit
+M 0 16507   8 16542  1	* a ghostly spirit
+M 0 16508   1 16543  1	* a blacksmith ghost
+M 0 16506   7 16544  1	* a ghostly priest
+M 0 16507   8 16546  1	* a ghostly spirit
+M 0 16509   1 16546  1	* a skeleton
+G 1 16554  -1     	*   a bony finger
+M 0 16506   7 16547  1	* a ghostly priest
+M 0 16502  20 16547  1	* a rat
+M 0 16502  20 16551  2	* a rat
+M 0 16502  20 16551  2	* a rat
+M 0 16502  20 16552  1	* a rat
+M 0 16502  20 16553  1	* a rat
+M 0 16507   8 16553  1	* a ghostly spirit
+M 0 16506   7 16566  1	* a ghostly priest
+M 0 16507   8 16567  1	* a ghostly spirit
+M 0 16506   7 16567  1	* a ghostly priest
+M 0 16507   8 16568  1	* a ghostly spirit
+M 0 16506   7 16570  1	* a ghostly priest
+M 0 16502  20 16576  2	* a rat
+M 0 16502  20 16576  2	* a rat
+M 0 16507   8 16579  1	* a ghostly spirit
+M 0 16507   8 16580  1	* a ghostly spirit
+M 0 16502  20 16580  2	* a rat
+M 0 16502  20 16580  2	* a rat
+M 0 16505   2 16583  2	* A sleeping bat
+M 0 16505   2 16583  2	* A sleeping bat
+M 0 16506   7 16587  2	* a ghostly priest
+M 0 16506   7 16587  2	* a ghostly priest
+M 0 16504   1 16585  1	* a snoring drunk {YMatook{x priest
+O 0 16590 100 16585	* a bottle of Matook wine
+O 0 16589 100 16585	* the bell tower key
+D 0 16585   4 16384	* {YMatook{x {DBell{x Room up
+D 0 16585   5 16385	* {YMatook{x {DBell{x Room down
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 16500 spec_guard_l        	* a Matook Peacekeeper
+M 16501 spec_cast_adept     	* the healer
+M 16502 spec_poison         	* a rat
+M 16504 spec_jabber         	* a snoring drunk {YMatook{x priest
+M 16506 spec_cast_cleric    	* a ghostly priest
+M 16509 spec_cast_undead    	* a skeleton
+S
+
+#$

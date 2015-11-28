@@ -24,6 +24,8 @@ struct  gladiator_info_data
     int 	total_plays;
     int		num_of_glads;
     bool	blind;
+    bool        exper;
+    bool        WNR;
 };
 
 /*
@@ -32,9 +34,12 @@ struct  gladiator_info_data
 extern          GLADIATOR_INFO_DATA     gladiator_info;
 
 
+void set_glad_name args((CHAR_DATA *ch));
+void gladiator_rename_all args((void));
 void  gladiator_update args( ( void ) );
 void  remove_gladiator args ((CHAR_DATA *ch));   
 void  gladiator_left_arena args ((CHAR_DATA *ch, bool DidQuit));   
 void  gladiator_talk	args( ( char *txt) );
+void  gladiator_talk_ooc  args( ( char *txt) );
 void  gladiator_winner  args( (CHAR_DATA *ch) );
 void  gladiator_kill args( ( CHAR_DATA *victim, CHAR_DATA *ch ) );

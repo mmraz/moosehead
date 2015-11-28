@@ -2,18 +2,20 @@
 Name Igthorn~
 Id   1019026884
 Email (null)~
-LogO 1127482604
-Vers 31
+LogO 1383943792
+Vers 33
+LnD  A Gladiator~
 Prom (%hhp %mm %vmv)(%Xtnl)(%a)(%gg|%ss)(%n|%w)(%r)(%e) ~
 Race ogre~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 0
+SkPTimer 3
+SkPTracker 12
 LogoutTracker 0
 Kill 0 2 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +27,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 116134 xochipili~
 DeityT -1985 xochipili~
 Sac  300
@@ -33,49 +41,49 @@ Vump  0
 Node 0
 Cap 0
 Created 1019026938
-Glad 0 0 0 0 0 0
-LastHost 66.8.18.2~
+Glad 0 0 0 0 1 0
+LastHost 41.48.191.237~
 Cla  3
 Kit cavalier~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 533412
+Plyd 549609
 Not  1127482051 1127482051 1127482051 1127482051 1127482051 1127482051 1127482051 1127482051 1127482051 1127482051
 Scro 22
 Rank 0
-Room 10358
+Room 16503
 HMV  1558 1558 495 495 623 623
-Gold 3234
-Silv 49
+Gold 3091
+Silv 1282
 Exp  91111
-Act  CDFGHJKM
+Act  CDGHJKM
 MHSF R
-AfBy CTc
+AfBy T
 Comm 0
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  8
-Prac 73
-SkiP 692
+Pos  4
+Prac 72
+SkiP 728
 Save  -11
 Alig  -1000
-Hit   27
-Dam   42
-SecHit   15
-SecDam   30
-ACs -103 -103 -103 -65
+Hit   24
+Dam   39
+SecHit   12
+SecDam   27
+ACs -98 -98 -98 -60
 Attr 23 16 18 17 21 17 24 17
 AMod 2 2 -1 6 1 0 0 2
-Pass YouAjx.SIBdP2~
-Titl  the confused~
+Pass IgRoLxcwANO5.~
+Titl  the confused? Yes still confused~
 Pnts 54
 TSex 1
 LLev 45
 HMVP 1348 384 558
-Cnd  0 0 0 0
+Cnd  0 28 43 38
 Alias di dirt~
 Alias k murder~
 Alias remove k~
@@ -86,7 +94,7 @@ Sk 1 'cure light'
 Sk 1 'cure serious'
 Sk 1 'famine'
 Sk 98 'feast'
-Sk 1 'fly'
+Sk 22 'fly'
 Sk 93 'gate'
 Sk 82 'heal'
 Sk 1 'knock'
@@ -105,7 +113,7 @@ Sk 95 'bash'
 Sk 78 'berserk'
 Sk 13 'bite'
 Sk 100 'bludgeon'
-Sk 62 'dirt kicking'
+Sk 63 'dirt kicking'
 Sk 100 'dodge'
 Sk 100 'enhanced critical'
 Sk 100 'enhanced damage'
@@ -126,7 +134,7 @@ Gr 'warrior basics'
 Gr 'healing'
 Gr 'transportation'
 Gr 'garou'
-Affc 'stone skin'   0  34  25 -40  17          0
+Affc 'stone skin'   0  32   7 -40  17          0
 End
 
 #O
@@ -144,15 +152,6 @@ Nest 0
 PrevOwner Igthorn~
 Cond 0
 Wear 0
-Cost 0
-End
-
-#O
-Vnum 15202
-Nest 0
-PrevOwner Igthorn~
-Cond 0
-Wear 6
 Cost 0
 End
 
@@ -235,9 +234,9 @@ Wear -1
 Lev  49
 Cost 5234
 Val  5 6 7 38 8200
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  52  -1   1  19          0
 Affc 'enchant weapon'   0  52  -1   1  18          0
+Affc 'enchant weapon'   1  52  -1   1  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
@@ -285,6 +284,154 @@ Val  520 1 -1 90 25
 End
 
 #O
+Vnum 15222
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Time 1036
+Cost 3000
+Spell 1 'cryogenesis'
+End
+
+#O
+Vnum 8060
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'sleep'
+End
+
+#O
+Vnum 8060
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'sleep'
+End
+
+#O
+Vnum 8060
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'sleep'
+End
+
+#O
+Vnum 8060
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'sleep'
+End
+
+#O
+Vnum 8060
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'sleep'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 15215
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 9000
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 16138
+Nest 1
+PrevOwner Igthorn~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
 Vnum 12001
 Enchanted
 Nest 0
@@ -294,10 +441,10 @@ Cond 0
 Wear 8
 Lev  50
 Cost 0
-Affc 'reserved'   1  44  -1  35  14          0
-Affc 'reserved'   1  44  -1   3  19          0
-Affc 'reserved'   1  44  -1   2  18          0
 Affc 'enchant armor'   1  52  -1  -7  17          0
+Affc 'reserved'   1  44  -1   2  18          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1  35  14          0
 End
 
 #O
@@ -363,8 +510,8 @@ Cond 0
 Wear -1
 Lev  14
 Cost 940
-Affc 'enchant weapon'   1  53  -1   3  19          0
 Affc 'enchant weapon'   0  53  -1   3  18          0
+Affc 'enchant weapon'   1  53  -1   3  19          0
 End
 
 #O
@@ -429,18 +576,6 @@ Cost 150
 End
 
 #O
-Vnum 17631
-Nest 1
-PrevOwner Igthorn~
-Name demise warlord bloody torch~
-ShD  {W({rglowing{W){x A {DDemise{r W{Ra{rR{Rl{ro{Rr{rD{Rs{x {rbloody {Rtorch{x~
-Desc A {DDemise {rW{Ra{rr{Rl{ro{Rr{rd{Rs{x {rbloody {Rtorch{x lies here.~
-Cond 0
-Wear -1
-Cost 250
-End
-
-#O
 Vnum 1972
 Nest 1
 PrevOwner Igthorn~
@@ -469,8 +604,8 @@ Cond 0
 Wear -1
 Lev  13
 Cost 940
-Affc 'enchant weapon'   1  52  -1   3  19          0
 Affc 'enchant weapon'   0  52  -1   3  18          0
+Affc 'enchant weapon'   1  52  -1   3  19          0
 End
 
 #O
@@ -551,6 +686,32 @@ Cost 3500
 End
 
 #O
+Vnum 17631
+Nest 1
+PrevOwner Igthorn~
+Name demise warlord bloody torch~
+ShD  {W({rglowing{W){x A {DDemise{r W{Ra{rR{Rl{ro{Rr{rD{Rs{x {rbloody {Rtorch{x~
+Desc A {DDemise {rW{Ra{rr{Rl{ro{Rr{rd{Rs{x {rbloody {Rtorch{x lies here.~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 18108
+Enchanted
+Nest 1
+PrevOwner Igthorn~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 5600
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
 Vnum 5925
 Enchanted
 Nest 0
@@ -561,8 +722,8 @@ Wear -1
 Lev  48
 Cost 4000
 Val  3 5 6 11 520
-Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
@@ -575,8 +736,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   0  52  -1   8  18          0
 Affc 'enchant weapon'   1  52  -1  13  19          0
+Affc 'enchant weapon'   0  52  -1   8  18          0
 End
 
 #O
@@ -678,9 +839,9 @@ ExtF 538443875
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'reserved'   1  50  -1  -3  32          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -701,8 +862,8 @@ ExtF 67
 Cond 0
 Wear -1
 Cost 2000
-Affc 'enchant weapon'   0  52  -1  12  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
@@ -834,8 +995,8 @@ ExtF 322
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  52  -1  12  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
@@ -876,8 +1037,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 2425
-Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
@@ -907,9 +1068,9 @@ ExtF 98
 Cond 0
 Wear -1
 Cost 5500
-Affc 'reserved'   1  50  -1  -2   4          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
 Affc 'enchant weapon'   1  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'reserved'   1  50  -1  -2   4          0
 End
 
 #O
@@ -922,9 +1083,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1700
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'reserved'   1  44  -1   2   2          0
 Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'reserved'   1  44  -1   2   2          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O
@@ -937,24 +1098,6 @@ Cost 4500
 End
 
 #O
-Vnum 8504
-Nest 0
-PrevOwner Igthorn~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner SpiderMonkey~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 2205
 Enchanted
 Nest 0
@@ -963,8 +1106,8 @@ ExtF 450
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -974,25 +1117,19 @@ Nest 0
 PrevOwner Igthorn~
 ExtF 450
 Cond 0
-Wear -1
+Wear 16
 Cost 0
-Affc 'enchant weapon'   0  52  -1  12  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
-Vnum 18108
-Enchanted
+Vnum 8503
 Nest 0
 PrevOwner Igthorn~
-ExtF 67
-Stolen 67
 Cond 0
-Wear 16
-Lev  50
-Cost 5600
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
+Wear -1
+Cost 5000
 End
 
 #END

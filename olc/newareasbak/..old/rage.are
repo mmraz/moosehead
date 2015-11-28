@@ -1,0 +1,1426 @@
+#AREA
+../newareas/rage.are~
+The Crystal Palace~
+{ U/C } Rage   The Crystal Palace~
+400 450
+
+#MOBILES
+#400
+Aristotle dead~
+Aristotle~
+Aristotle, the dead looking squirrel
+~
+Aristotle was once a free squirrel, but since his capture by the
+evil coffee-holic Rage, he has taken up residence in Rage's 
+ashtray.  Covered in burns, he looks long dead, but still has a
+spark of life left in him.
+~
+unique~
+ABCG Ace 1000 0
+1 60 1d2+1 0d0+0 2d2+0 bite
+-50 -50 -50 -50
+BEFHJNU ABDHIJKLMNOPQRS 0 0
+stand stand none 0
+AGV ABCDEF small 0
+#401
+green gemstone golem~
+the green gemstone golem~
+A golem constructed of solid emerald stands guard here.
+~
+This golem is constructed from a single piece of flawless emerald.
+Powered by the forces of the Earth elements, it carries in its grasp
+a smaller version of the gigantic gemstone within which it stands.
+~
+unique~
+ABTU DFHZc 0 0
+52 16 50d10+4750 0d0+1000 6d6+16 smash
+-18 -18 -18 -16
+CEIKNO ABEFGHIKLMNOPQRS 0 I
+stand stand none 0
+CJM ABCDEF huge 0
+#402
+yellow gemstone golem~
+the yellow gemstone golem~
+A golem constructed of solid topaz stands guard here.
+~
+This golem is constructed from a single piece of flawless topaz.
+Powered by the forces of Elemental Air, it carries within its grasp
+a smaller version of the gigantic topaz gemstone within which it stands
+~
+unique~
+ABTU DFHZc 0 0
+53 16 50d10+5000 0d0+1000 7d8+33 pound
+-22 -22 -22 -18
+CEIKNO ABEFGHIJLMNOPQRS 0 0
+stand stand none 0
+CJM ABCDEF huge 0
+#403
+red gemstone golem~
+the red gemstone golem~
+A golem constructed of solid ruby stands guard here.
+~
+This golem is constructed from a single piece of flawless ruby.
+Powered by heat from the plane of Fire, it carries in its grasp
+a smaller version of the gigantic gemstone withing which it stands.
+~
+unique~
+ABTU DFHZc 0 0
+55 16 50d10+5500 0d0+1000 7d8+30 blast
+-26 -26 -26 -22
+CEIKNO ABEFGHJKLMNOPQRS 0 0
+stand stand none 0
+CJM ABCDEF huge 0
+#404
+blue gemstone golem~
+the blue gemstone golem~
+A golem constructed of solid sapphire stands guard here.
+~
+This golem is constructed from a single piece of flawless sapphire.
+Powered by the swift currents of the elements of Water, it carries within
+its grasp a smaller version of the gigantic gemstone within which it stands.
+~
+unique~
+ABTU DFHZc 0 0
+54 22 50d10+5000 0d0+1000 6d8+31 punch
+-30 -30 -30 -26
+CEIKNO ABEFGIJKLMNOPQRS 0 0
+stand stand none 1300
+CJM ABC medium 0
+#0
+
+#OBJECTS
+#400
+fountain~
+a crystal fountain~
+A large crystal fountain gurgles merrily here.~
+~
+fountain GR P
+0 0 'water' 0 0
+0 100 0 P
+E
+fountain stream~
+As you stare into the surface of the pure, clear water of the fountain,
+a strange thing occurs.  Words begin to appear on the glassy surface of 
+the water
+ 
+" Brave adventurers,
+ 
+Your arrival here is most fortuitious, and not entirely an accident.  I have
+brought you here in hopes that you will help me as I have little time remaining
+ 
+Once I was accounted among the great mages of this land, but, sadly,
+that is no longer the case.  My time has long since past.
+Yet, in an effort to regain the power and glory of years past, I created
+this palace.  A thing ot great beauty and power, but also the cuase of 
+my current misfortune.  The powers of the elements were once mine.  Air,
+Earth, Fire, Water, Spirit and Void.  All six great elements, all at my 
+beck and call.  But this time I went too far.  I called forth power I never
+imagined existed, could never hope to control.  The magic overwhelmed me
+and the spirits I sought to control took me, broke my body and mind, nearly 
+shattered my soul.
+ 
+It takes all the magical energy I can muster to send even this simple message
+Please, brave hearts, I implore you, find and release me from these torments.
+Seek the keys to the rainbow path and look for me below, in the realm of the
+Void.  The dark forces I have released hold me there and seek to learn the
+secrets of the great crystal palace.
+ 
+Please, please, help me, I have no hope of salvation without your aid.
+-Taeriad "
+~
+#401
+green gemstone key~
+an emerald gemstone~
+An enormous chunk of emerald sits here.  It's shape is strange somehow, but you are not sure why.~
+emerald~
+key AGQSY AO
+0 0 0 0 0
+0 10 5000 P
+#402
+hard iron bar~
+a cold iron bar~
+A long bar of cold-forged iron lies here.~
+iron~
+weapon EJY AN
+mace 4 11 chill 0
+51 60 1300 P
+#403
+portal vampire lounge~
+a portal to the Vampire Lounge~
+Portal to the coffee shop~
+air~
+portal PV A
+0 BDEF 0 410 0
+1 10 0 P
+F
+A 0 0 M
+A
+20 0
+#404
+glob goo~
+a big glob of green goo~
+A large glob of slimy green goo lies here in a puddle.~
+slime~
+weapon STY AN
+mace 4 11 slime 0
+51 10 1300 P
+#0
+
+#ROOMS
+#400
+The Crystal Garden~
+As the blinding light clears, you find yourself standing in a vast domed
+structure, apprently made entirely of glass.  You are in teh centre of a 
+huge garden of crystal.  Trees, shrubs, even the grass beneath your feet. all
+made of brittle-looking glass.  A small stream flows away from the elegant
+crystal fountain next to you.  As you LOOK at the FOUNTAIN, your eyes are
+drawn to the beautiful atristry of its sculpture, your ears drink in the 
+soft sounds of water on thin glass.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 401
+D1
+Exit ~
+door~
+0 0 407
+D2
+Exit ~
+door~
+0 0 410
+D3
+Exit ~
+door~
+0 0 403
+S
+#401
+The Crystal Garden~
+Walking through the garden you are awestruck by the strange beauty of this
+place.  You can see each blade of grass, each leaf on every tree, is made of 
+some form and color fo crystal.  Although everything you see is translucent,
+it all retains some hint of the colour it would be outside this very strange
+enviornment.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 404
+D1
+Exit ~
+door~
+0 0 414
+D2
+Exit ~
+door~
+0 0 400
+D3
+Exit ~
+door~
+0 0 415
+S
+#402
+Green Hallway~
+This short hallway connects the garden to a giant sphere of green crystal.
+The walls are smooth and sheer and slowly fade from the almost colorless
+glass of the garden to the deep, deep green of the immense sphere.
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 404
+E
+east west walls heallway~
+The walls are smooth and featureless.  The color fades so slowly from crystal
+clear to darkest green, that you cannot tell where it stops being one and
+becomes the other.
+~
+S
+#403
+The Base of the Staircase~
+You are standing at the base of a winding staircase that leads up
+to the top the giant sphere of crystal that surrounds the garden.  Each
+of the steps is a different color, and colors rise sequentially.  The first
+step is green, the second yellow, then blue, red, white and finally black.
+This pattern is repeated over and over as far as your eyes can reach.  The
+top of the staircase is not visible from where you stand.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 415
+D1
+Exit ~
+door~
+0 0 400
+D2
+Exit ~
+door~
+0 0 416
+D3
+Exit ~
+door~
+0 0 405
+D4
+Exit ~
+door~
+0 0 413
+S
+#404
+Amid the Crystal Trees~
+You wander through the garden, listening to the chirping of the birds,
+at peace with yourself and everything around you.  If not for the myriad
+reflections and images in the surfaces of the glass trees, you would
+be all alone.  As it is, your only companions are the silent images that
+surround you.  To the north, a pale green glow appears.  An illusion 
+brought about by the multitude of images around you, or something worth
+investigating?
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 402
+D1
+Exit ~
+door~
+0 0 419
+D2
+Exit ~
+door~
+0 0 401
+D3
+Exit ~
+door~
+0 0 418
+S
+#405
+The Crystal Garden~
+The glass trees and bushes around you sway gently in a soft breeze.  Birds
+fly by, chirping and singing as if they were alive and not made of crystal.
+To the east, a grans staircase spirals up to the roof of the garden, slowly
+pulsating, as if in time to some unheard music.  Westward, the garden 
+continues toward what appears to be a short hallway.  A soft red glow comes
+from that direction.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 420
+D1
+Exit ~
+door~
+0 0 403
+D2
+Exit ~
+door~
+0 0 421
+D3
+Exit ~
+door~
+0 0 406
+S
+#406
+Red Hallway~
+This short passageway connects the crystal garden to a huge sphere
+of red crystal.  A slight breeze flows from behind you into the red globe.
+The walls are smooth and sheer and their color fades slowly from the
+the almost transparent glass of the garden to a brilliant scarlet as you
+approach the entrance to the red crystal sphere.
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 405
+D3
+Exit ~
+door~
+0 0 430
+S
+#407
+The Crystal Garden~
+Walking through the garden you are awestruck by the strange beauty of this
+place.  You can see each blade of grass, each leaf on every tree, is made of 
+some form and color fo crystal.  Although everything you see is translucent,
+it all retains some hint of the colour it would be outside this very strange
+enviornment.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 414
+D1
+Exit ~
+door~
+0 0 408
+D2
+Exit ~
+door~
+0 0 417
+D3
+Exit ~
+door~
+0 0 400
+S
+#408
+The Crystal Garden~
+The trees here do not provide the shade they would normally.  Light from 
+an unknown source slants down through the branches, but in transit is
+reflected and refracted millions of times by the crystal trees.  The effect
+is almost blindingly brilliant, yet at the same time, stunningly beautiful.
+To the east, the garden ends at a glowing yellow corridor.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 422
+D1
+Exit ~
+door~
+0 0 409
+D2
+Exit ~
+door~
+0 0 423
+D3
+Exit ~
+door~
+0 0 407
+S
+#409
+Yellow Hallway~
+This small hallway leads from the crystal garden into a giant sphere 
+of yellow crystal.  The walls of the passage are smooth and featureless.
+The color of the crystal slowly changes from colorless glass, like that 
+in the garden, to a blinding yellow glow.
+~
+0 CD 0
+D1
+Exit ~
+door~
+0 0 439
+D3
+Exit ~
+door~
+0 0 408
+E
+~
+Generic extended description.
+~
+S
+#410
+Near the Stream~
+A small stream winds its way through the garden here.  The water starts
+its journey from the fountain near where you arrived.  Looking into the
+water you see what would be a sandy bottom, but the sand is as clear as
+the pure water that flows above it.  Small fish also made of crystal are
+visible only when they make a sudden movement.  When lying still in 
+the slow current, the fish are all but invisible.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 400
+D1
+Exit ~
+door~
+0 0 417
+D2
+Exit ~
+door~
+0 0 411
+D3
+Exit ~
+door~
+0 0 416
+D5
+Exit ~
+door~
+0 0 426
+S
+#411
+Amid the Crystal Trees~
+You wander through the garden, listening to the chirping of the birds,
+at peace with yourself and everything around you.  If not for the myriad
+reflections and images in the surfaces of the glass trees, you would
+be all alone.  As it is, your only companions are the silent images that
+surround you.  Southward, a faint blue glow reaches your eyes.  Perhaps 
+a strange effect of the light, perhaps not.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 410
+D1
+Exit ~
+door~
+0 0 425
+D2
+Exit ~
+door~
+0 0 412
+D3
+Exit ~
+door~
+0 0 424
+S
+#412
+Blue Hallway~
+This short passageway connects the garden to a sphere of blue crystal.  
+The walls are completely devoid of any form of decoration, save their slow
+change in color from that of pale, clear blue, to the dark , almost black
+blue of the deep ocean.
+~
+0 D 2
+D0
+Exit ~
+door~
+0 0 411
+S
+#413
+Upon the Staircase~
+Climbing up the strange glowing staircase is an experience you could do
+without.  The stairs beaneath your feet fade slowly in and out, pulsating
+with light.  You can never be sure if the next stair is there until
+you can feel it under your boots, reassuring you of its reality.  The colour
+scheme you saw from the base of the staircase continues from here. 
+Much higher than where you now stand, you think there might be a
+door of some sort, but it is still much too far away to be certain.
+~
+0 0 2
+D5
+Exit ~
+door~
+0 0 403
+S
+#414
+The Crystal Garden~
+The semi-wild forest around you gives way to a small, formal rose
+garden.   Long lines of crystal rose bushes outline a small grassy 
+area, perfect for a picnic.  Here again, even the grass is made of the
+same glass as everything else you've seen so far.  Everything you seen so
+far is so real-looking, yet transcends reality with it's other-worldly
+beauty.
+~
+0 D 0
+H 150 M 150
+D0
+Exit ~
+door~
+0 0 419
+D1
+Exit ~
+Spy
+[27 Dragon Ma] Shalomar - Dragoness of the Deep {Apprentice of Matook
+[19 Dragon Th] [Riders /0] Xiola...rides with FAMINE of the Apocalypse.
+[25  Human Th] [Balance/0] Dazzle is about 1/2 way there! [Recruiter]{Mordrid}
+[42  Human Cl] [ Loner ] Rade Holy Knight
+[51 Dragon Cl] [ Posse /4] Gato the hopeless romantic newbie gunslinger
+
+Players found: 39
+~
+0 0 422
+D2
+Exit ~
+door~
+0 0 407
+D3
+Exit ~
+door~
+0 0 415
+S
+#415
+The Crystal Garden~
+Walking through the garden you are awestruck by the strange beauty of this
+place.  You can see each blade of grass, each leaf on every tree, is made of 
+some form and color fo crystal.  Although everything you see is translucent,
+it all retains some hint of the colour it would be outside this very strange
+enviornment.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 418
+D1
+Exit ~
+door~
+0 0 401
+D2
+Exit ~
+door~
+0 0 403
+D3
+Exit ~
+door~
+0 0 420
+S
+#416
+The Crystal Garden~
+The woods nearby give way to an area filled with ornamental shrubberies.
+Densely packed bushes made of the same life-like crystal are shaped into
+animals, humans, or just into forms that are very pleasing to the eye.  You
+wander around astounded by the skills of the gardener.  He is surely both 
+artist and crasftsman.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 403
+D1
+Exit ~
+door~
+0 0 410
+D2
+Exit ~
+door~
+0 0 424
+D3
+Exit ~
+door~
+0 0 421
+E
+bushes shrubberies~
+Like the work of a master sculptor, the ornamental shrubberies are works 
+of art.  Each is crafted with patience and an eye for beauty.
+~
+S
+#417
+The Crystal Garden~
+The woods nearby give way to an area filled with ornamental shrubberies.
+Densely packed bushes made of the same life-like crystal are shaped into
+animals, humans, or just into forms that are very pleasing to the eye.  You
+wander around astounded by the skills of the gardener.  He is surely both 
+artist and crasftsman.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 407
+D1
+Exit ~
+door~
+0 0 423
+D2
+Exit ~
+door~
+0 0 425
+D3
+Exit ~
+door~
+0 0 410
+E
+bushes shrubberies~
+Like the work of a master sculptor, the ornamental shrubberies are works 
+of art.  Each is crafted with patience and an eye for beauty.
+~
+S
+#418
+In the Crystal Garden~
+The trees, shrubs and wildflowers around you are so real looking it is
+hard to believe that are actually made of glass.  If not for their lack
+of true color, you would believe them real, not created by magic.
+The ever present light glints off the hard edges of the crystals around
+you, sometimes flashing in your eyes, sometimes illuminating a dark
+shadow for an instant.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 404
+D2
+Exit ~
+door~
+0 0 415
+S
+#419
+The Crystal Garden~
+Now matter how far you wander in this strange place, you cannot get over
+simple beauty that surrounds you in shining crystal.  The realism of each
+and every thing you see is astounding.  Everything retains some hint of the
+colour it would normally have outside this strange place, yet is still
+translucent enough for you to see right through it.  You reach up to break
+a twig off the branch of a tree, yet it does not come off with the soft
+sound of breaking wood, but instead comes away from the branch with a sharp 
+snap, like that of breaking glass.
+~
+0 D 2
+D2
+Exit ~
+door~
+0 0 414
+D3
+Exit ~
+door~
+0 0 404
+E
+tree break twig~
+You look at the branch where you snapped off a twig and notice clear sap
+running out of the break and hardening almost immediately into solid glass.
+~
+S
+#420
+In the Crystal Garden~
+The trees, shrubs and wildflowers around you are so real looking it is
+hard to believe that are actually made of glass.  If not for their lack
+of true color, you would believe them real, not created by magic.
+The ever present light glints off the hard edges of the crystals around
+you, sometimes flashing in your eyes, sometimes illuminating a dark
+shadow for an instant.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 415
+D2
+Exit ~
+door~
+0 0 405
+S
+#421
+Amid the Crystal Trees~
+You wander through the garden, listening to the chirping of the birds,
+at peace with yourself and everything around you.  If not for the myriad
+reflections and images in the surfaces of the glass trees, you would
+be all alone.  As it is, your only companions are the silent images that
+surround you.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 405
+D1
+Exit ~
+door~
+0 0 416
+S
+#422
+The Crystal Garden~
+Here, flowers of all shapes and sizes abound.  Small flowering shrubs
+wave gently in the breeze, creating a shimmering display of rainbow color
+as the light is refracted through them.  Crystal roses give off a heavenly
+scent that sets your mind reeling with delight.  Each and every flower is
+perfect in detail, making you wonder yet again, if this place was once a
+real garden, transformed by magic into this wonderous crystal.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 408
+D3
+Exit ~
+door~
+0 0 414
+S
+#423
+The Crystal Garden~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 408
+D3
+Exit ~
+door~
+0 0 417
+S
+#424
+The Crystal Garden~
+Walking through the garden you are awestruck by the strange beauty of this
+place.  You can see each blade of grass, each leaf on every tree, is made of 
+some form and color fo crystal.  Although everything you see is translucent,
+it all retains some hint of the colour it would be outside this very strange
+enviornment.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 416
+D1
+Exit ~
+door~
+0 0 411
+S
+#425
+The Crystal Garden~
+Walking through the garden you are awestruck by the strange beauty of this
+place.  You can see each blade of grass, each leaf on every tree, is made of 
+some form and color fo crystal.  Although everything you see is translucent,
+it all retains some hint of the colour it would be outside this very strange
+enviornment.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 417
+D3
+Exit ~
+door~
+0 0 411
+S
+#426
+In the Stream~
+You jump down into the stream with a tiny splash.  All the little fish
+you saw from the bank are frightened away in a flurry of almost
+invisible activity.  The water itself is extremely cold causing your feet 
+and lower legs to go numb almost immediately.  You can continue 
+downstream or clamber back up onto the bank.
+~
+0 CD 6
+D1
+Exit ~
+door~
+0 0 427
+D4
+Exit ~
+door~
+0 0 410
+S
+#427
+Further down the Stream~
+The water has begun to get deeper, immersing you up to your waist
+in the bitingly cold water.  The sound of a waterfall echoes faintly in the 
+distance.  The numbness in your legs causes you to stumble periodically.
+The small glass fish you saw earlier seem to have disappeared.  Perhaps
+you should return to the bank where you climbed down.  Then again, 
+you'll never know what's downstream until you go look for yourself.
+~
+0 D 6
+D2
+Exit ~
+door~
+0 0 428
+D3
+Exit ~
+door~
+0 0 426
+S
+#428
+Even Farther down the Stream~
+The fact that you can see the bottom is the only thing that reassures
+you that it is still there.  Your legs and feet are so numb from the cold
+of the water that you are very glad you can see them too.  The water
+has risen to the point where your head and shoulders are about the 
+only thing not yet immersed in the freezing water.  The distant sound of 
+the waterfall has gained in volume to the point where it is impossible
+to hear anything else.
+~
+0 D 6
+D0
+Exit ~
+door~
+0 0 427
+D5
+Exit ~
+door~
+0 0 429
+E
+n~
+Generic extended description.
+~
+S
+#429
+The Edge of the Waterfall~
+The water rushing over the cliff sweeps your feet out from under you.
+You make a heroic grab for a rock jutting out from the cliff face and
+barely manage to grab hold.  Of course, with the water being so cold,
+you rapidly lose feeling in your fingers and hands.  Your grip slips 
+ever so slowly away and you fall freely through the chilling mist.
+Looks as though death awaits you on the sharp rocks below.
+~
+0 CN 6
+E
+3~
+Generic extended description.
+~
+S
+#430
+Inside the Red Sphere~
+You feel strangely disoriented as you realise that you are now standing on
+the inside surface of great red crystal you saw from the short hallway.  In
+every direction fires burn.  The ground beneath your feet is burning hot, as
+though it were molten rock the moment before you set foot upon it.  Flows
+of liquid rock glow dimly in the distance.  Hanging high above you, in a soot
+clouded sky, is a gigantic scarlet gemstone.
+~
+0 D 5
+D0
+Exit ~
+door~
+0 0 431
+D1
+Exit ~
+door~
+0 0 406
+D2
+Exit ~
+door~
+0 0 432
+D3
+Exit ~
+door~
+0 0 433
+S
+#431
+Inside the Red Crystal~
+Here, seething pools of lava await an unwary step.  You must walk with
+extreme caution to avoid burning your legs into cinders.  Jets of fire shoot
+up from the ground without warning, incinerating anything nearby.  The 
+air is thick, hot and difficult to breathe.  Each burning breath tastes of
+sulphur and brimstone.
+~
+0 D 5
+D1
+Exit ~
+door~
+0 0 434
+D2
+Exit ~
+door~
+0 0 430
+D3
+Exit ~
+door~
+0 0 432
+S
+#432
+Inside the Red Crystal~
+Here, seething pools of lava await an unwary step.  You must walk with
+extreme caution to avoid burning your legs into cinders.  Jets of fire shoot
+up from the ground without warning, incinerating anything nearby.  The 
+air is thick, hot and difficult to breathe.  Each burning breath tastes of
+sulphur and brimstone.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 430
+D2
+Exit ~
+door~
+0 0 432
+D3
+Exit ~
+door~
+0 0 434
+S
+#433
+Inside the Red Crystal~
+Suddenly the ground beneath your feet belches forth a huge cloud of
+noxious gas.  Coughing and sputtering, barely able to remain concious,
+you stumble forward, well aware the your next step could bring you out
+of the cloud, or into a pool of molten rock that would burn you to ash
+instantly.
+~
+0 D 5
+D0
+Exit ~
+door~
+0 0 431
+D1
+Exit ~
+door~
+0 0 430
+D2
+Exit ~
+door~
+0 0 433
+D3
+Exit ~
+door~
+0 0 435
+S
+#434
+Inside the Red Crystal~
+You are standing on the brink of an enormous pit of boiling magma.  Across
+the pit, you can barely make out what appears to be an island of
+solid rock.  The heat waves that rise from the pool make it difficult to
+see, but something soars up from the island into the sky.  Whatever 
+it is, it looks to be the only way to reach the great ruby gemstone
+that hangs motionless in the sky above you.
+~
+0 D 5
+D0
+Exit ~
+door~
+0 0 433
+D1
+Exit ~
+door~
+0 0 432
+D2
+Exit ~
+door~
+0 0 436
+D3
+Exit ~
+door~
+0 0 435
+S
+#435
+Inside the Red Crystal~
+Smoke hangs thickly in the air, obscuring your vision.  You feel carefully
+with your feet as you walk, knowing this place is filled with hidden danger.
+The huge ruby that sits in the air fills the soot laden sky.  You begin to
+wonder if finding out what it contains is worth the stress you are putting 
+on yourself.  But thoughts of the vast riches and powerful magics this
+place must contain spur you onwards.
+~
+0 D 5
+D0
+Exit ~
+door~
+0 0 434
+D1
+Exit ~
+door~
+0 0 433
+D2
+Exit ~
+door~
+0 0 431
+D3
+Exit ~
+door~
+0 0 432
+S
+#436
+Inside the Red Crystal~
+Surrounded by the molten rock of the pool, you stand upon the only
+solid ground you can see.  The mainland you arrived from is lost 
+in the haze of heat waves and smoke that hangs above the sea of lava.
+You can now clearly see what is was rising upward to the great red 
+gemstone above you.  It is a towering pillar of flame, spewing skyward
+from a great crater in the earth.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 434
+D1
+Exit ~
+door~
+0 0 434
+D2
+Exit ~
+door~
+0 0 434
+D3
+Exit ~
+door~
+0 0 434
+D4
+Exit ~
+door~
+0 0 437
+S
+#437
+Within the Fiery Column~
+You stand within the raging flame of the pillar.  The flame that 
+surrounds you feels no warmer than the sun on a summer's day.  All
+you can feel is the gentle push of the fire as it moves you toward an
+opening in the great ruby gemstone above you. 
+~
+0 D 0
+D4
+Exit ~
+door~
+0 0 438
+D5
+Exit ~
+door~
+0 0 436
+S
+#438
+Inside the Ruby Gemstone~
+The fire light from outside, when refracted and reflected through the
+walls of this great crystal, has created an awe-inspiring effect.  The light 
+is reflected again and again off the inner s facets of the crystal.  When it
+finally escapes, it crosses this chamber as finger-thin of intense red 
+light.  You tentatively interrupt one of the beams with your hand, and
+several of the red beams wink out.  You remove your hand and the beams
+immediately return to their former state.
+~
+0 D 0
+D5
+Exit ~
+door~
+0 0 437
+S
+#439
+Inside the Yellow Sphere~
+You feel strangely disoriented as you realise you are now standing on the
+inner surface of the giant yellow crystal sphere you saw from the hallway.
+A brilliant blue sky fills the sphere, bounded on all sides by the
+topaz crystal.  The first thing you notice is a gigantic yellow gemstone
+floating in the air at the center of the sphere.  The second thing you 
+notice, after the gemstone, is that your feet are no longer touching the
+floor.  You're flying!!  You take a few cautious steps and quickly realise
+you are complete unfettered by gravity.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 440
+D1
+Exit ~
+door~
+0 0 442
+D2
+Exit ~
+door~
+0 0 441
+D3
+Exit ~
+door~
+0 0 409
+S
+#440
+Inside the Yellow Crystal~
+Soaring through the clouds gives you a feeling of freedom like you have
+never before experienced.  Unlike flying by force of spell, which requires
+concentration on your part, here in this sphere, a mere thought sends
+you wherever you wish.  Unfortunately, whenever you attempt to change
+direction and steer yourself toward the huge topaz in the sky, a fierce
+gust of wind springs up and blows you off course.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 444
+D1
+Exit ~
+door~
+0 0 441
+D2
+Exit ~
+door~
+0 0 439
+D3
+Exit ~
+door~
+0 0 444
+D4
+Exit ~
+door~
+0 0 440
+D5
+Exit ~
+door~
+0 0 440
+S
+#441
+Inside the Yellow Crystal~
+Here luminous clouds hang in the air.  As you fly through them, the mist
+clings to your cloting and skin.  The thickness of the clouds prevents 
+you from seeing much farther than eight or ten feet.  Fortunately,
+you have near perfect control of your motion, making an up-close
+and personal encounter with a mountainside unlikely.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 439
+D1
+Exit ~
+door~
+0 0 443
+D2
+Exit ~
+door~
+0 0 444
+D3
+Exit ~
+door~
+0 0 440
+D4
+Exit ~
+door~
+0 0 441
+D5
+Exit ~
+door~
+0 0 441
+S
+#442
+Inside the Yellow Crystal~
+The clouds here have become dark and ominous.  Lightning flashes at
+irregular intervals, illuminating the interior of the cloudbank.  Thunder
+rolls across you, almost deafening in its loudness.  You've been in
+thuderstorms before, but never this close.  Never before have you
+seen such raw power.  Nature's fury unchecked, blasting away at everything.
+Luckily, no lightning seems to flash near you, and the thunder is not so 
+strong that it deafens you completely.  You thank the makers of this
+place for providing at least that much protection.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 441
+D1
+Exit ~
+door~
+0 0 440
+D3
+Exit ~
+door~
+0 0 439
+D4
+Exit ~
+door~
+0 0 442
+D5
+Exit ~
+door~
+0 0 442
+S
+#443
+Inside the Yellow Crystal~
+Soft wind blows gently at your face.  The freedom of flight here in
+this giagantic yellow sphere, makes you feel like a kid again.  You swoop
+and dive, laughing giddily.  The rush of the wind feels good against your
+face and you wish you could stay forever.
+~
+0 CD 0
+D0
+Exit ~
+door~
+0 0 442
+D1
+Exit ~
+door~
+0 0 444
+D2
+Exit ~
+door~
+0 0 440
+D3
+Exit ~
+door~
+0 0 441
+D4
+Exit ~
+door~
+0 0 443
+D5
+Exit ~
+door~
+0 0 443
+S
+#444
+Inside the Yellow Crystal~
+The clouds here have become dark and ominous.  Lightning flashes at
+irregular intervals, illuminating the interior of the cloudbank.  Thunder
+rolls across you, almost deafening in its loudness.  You've been in
+thuderstorms before, but never this close.  Never before have you
+seen such raw power.  Nature's fury unchecked, blasting away at everything.
+Luckily, no lightning seems to flash near you, and the thunder is not so 
+strong that it deafens you completely.  You thank the makers of this
+place for providing at least that much protection.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 442
+D1
+Exit ~
+door~
+0 0 441
+D2
+Exit ~
+door~
+0 0 440
+D3
+Exit ~
+door~
+0 0 445
+D4
+Exit ~
+door~
+0 0 444
+D5
+Exit ~
+door~
+0 0 444
+S
+#445
+Inside the Yellow Crystal~
+The clouds here have become dark and ominous.  Lightning flashes at
+irregular intervals, illuminating the interior of the cloudbank.  Thunder
+rolls across you, almost deafening in its loudness.  You've been in
+thuderstorms before, but never this close.  Never before have you
+seen such raw power.  Nature's fury unchecked, blasting away at everything.
+Luckily, no lightning seems to flash near you, and the thunder is not so 
+strong that it deafens you completely.  You thank the makers of this
+place for providing at least that much protection.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 443
+D1
+Exit ~
+door~
+0 0 442
+D2
+Exit ~
+door~
+0 0 441
+D3
+Exit ~
+door~
+0 0 446
+D4
+Exit ~
+door~
+0 0 445
+D5
+Exit ~
+door~
+0 0 445
+S
+#446
+Inside the Yellow Crystal~
+The blowing wind that has thus far prevented you from approaching
+the topaz gemstone, suddenly sweeps you up like a leaf and hurls
+you toward it.  The power of the great gust is such that you've 
+lost all control over you movement.  It is all you can do to maintain
+yourself in a somewhat upright position and hope for the best.
+~
+0 D 0
+D4
+Exit ~
+door~
+0 0 447
+S
+#447
+Inside the Topaz Gemstone~
+The fierce wind blows you inside the giant gemstone and you now 
+stand within it.  You are standing in the middle of a raging hurricane.
+The wind howls and shrieks around you, yet not a breath of air moves
+in the space in which you stand.  The yellow crystal of the walls shine
+through the maelstrom, giving you more than enough light to see.
+Flashes of lightning occasionnally provide a spectacular display
+of electric light.
+~
+0 D 0
+D5
+Exit ~
+door~
+0 0 446
+S
+#448
+Rage's Favourite Coffee Shop.~
+The bright flourescent lights bathe the many booths and tables in a harsh 
+white light.  The smells of fresh-brewed coffee and stale cigarette smoke
+thickly in the air.  As you walk toward the long counter, your shoes stick
+slightly to the gaudy yellow and green linoleum floor.  Behind the counter
+lie racks and racks of donuts, muffins, and other wonderful treats.
+In front of the counter are several stools, all occupied by the regular
+patrons of the shop.  Each of them has a large cup of steaming, black
+coffee and an over-flowing ashtray in front of them.
+ 
+The largest booth lies in the only dark corner.  The red vinyl covering is 
+almost completely gone.  The seats seem to be composed almost entirely of
+silver duct tape.  The biggest cup of coffee you've ever seen sits atop the
+wobbly table.  Right beside it is a old hubcap filled with cigarette butts,
+a few pieces of heavily chewed gum, and, if you are not mistaken, a dead 
+squirrel.
+ 
+~
+0 CDN 0
+D3
+Exit ~
+door~
+4 0 10168
+E
+donut muffin treat~
+These racks contain every imaginable type of donut, as well as some you'd
+have thought of yourself.  However, upon closer inspection, you realize that
+all the treats displayed here are grossly stale.  The mere thought of actually
+eating one is enough to make you sick to your stomach.  The only donuts that
+seem even remotely fresh are the jelly-filled ones.  Perhaps someone
+occasionally buys and, if they are really brave, actually eats one.
+~
+E
+squirrel~
+Yep.. it is definately a squirrel.  However, upos closer inspection, you 
+realize it is not dead.  Its fur is singed in a few places from having 
+cigarettes butted out on it, but, otherewize, it is in remarkably good
+shape.  The real question, though, is how it got there, and what reason
+could it possibly have for taking up resisdence in an ashtray?
+~
+E
+stool patron booth~
+All the booths and stools are covered with torn red vinyl.  Some of the 
+larger tears are repaired with sticky, silver duct tape.  The patrons
+seated on the stools are almost impossible to tell apart.  Each is clothed
+in faded blue jeans, a T-shirt, and a ratty old leather jacket.  The sheer
+volume of smoke that rises from this small crowd is absolutely astonishing.
+If you didn't know better, you'd swear that each was smoking at least four
+or five cigarettes at any given time.
+~
+E
+stool~
+~
+S
+#449
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#450
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#0
+
+#RESETS
+O 0  400 100  400	* a crystal fountain
+M 0  400   1  448  1	* Aristotle
+M 0  402   1  447  1	* the yellow gemstone golem
+M 0  403   1  438  1	* the red gemstone golem
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 401 spec_breath_gas     	* the green gemstone golem
+M 402 spec_breath_lightning	* the yellow gemstone golem
+M 403 spec_breath_fire    	* the red gemstone golem
+M 404 spec_breath_frost   	* the blue gemstone golem
+S
+
+#$

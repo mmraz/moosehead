@@ -1,0 +1,531 @@
+#AREA
+../newareas/prehisto.are~
+Prehistorica~
+{ All }         Prehistorica~
+17300 17317
+
+#MOBILES
+#17300
+Colorful Exotic Bird~
+A {Cc{Mo{Yl{Wo{Cr{Mf{Yu{Cl{x {cbird{x~
+A {Cc{Mo{Yl{Wo{Cr{Mf{Yu{Cl{x {dbird{x watches you with interest.
+~
+A {Cc{Mo{Yl{Wo{Cr{Mf{Yu{Cl{x {dbird{x is standing here watching you intently.
+It is quite large, almost six feet in height. Is it hungry or just curious?
+~
+song bird~
+(null)~
+(null)~
+(null)~
+ABCGZce FH 0 0
+42 1 25d10+2250 0d0+0 3d12+20 peck
+-1 -1 -1 -1
+EJNU A Q 0
+stand stand female 5000
+EH T huge 0
+F par AHK
+#17301
+prehistoric stone guardian~
+a prehistoric stone guardian~
+A stone guardian is here.
+~
+A large stone guardian is guarding this insignificant path. It looks very
+ancient and has crumbled in places. A carving is on the front of the stone.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABGTc DEFWe 0 0
+60 1 50d10+9500 50d10+9500 8d6+30 pound
+-3 -3 -3 -3
+EFNU ABCD 0 0
+stand stand none 0
+CEHM ABCDEF giant 0
+#17302
+huge cockroach~
+a huge cockroach~
+A huge cockroach the length of your arm is here.
+~
+This cockroach is HUGE!  It is the length of your arm and it is looking at you!
+~
+centipede~
+(null)~
+(null)~
+(null)~
+ACGTZce FPQUe 0 0
+29 1 6d12+778 0d0+0 2d12+10 bite
+-1 -1 -1 -1
+CEFHNU A HLQR S
+stand stand none 5000
+H DEFP large 0
+F aff J
+F res F
+F vul E
+F for BG
+F par K
+#17303
+raptor~
+a raptor~
+A raptor is looking at you through the tall grass.
+~
+A small raptor is staring at you through the tall grass. How can this be possible?
+They have been extinct for thousands of years!
+~
+dragon~
+(null)~
+(null)~
+(null)~
+ACFGTZce DFVa 0 0
+45 1 25d10+3500 0d0+0 8d4+23 slash
+-1 -1 -1 -1
+CDEFHIMNU AB LQ R
+stand stand none 1500
+MV BT small 0
+F aff T
+F res BEH
+F vul FI
+F for Z
+F par GHIJKPQUVX
+#17304
+Coelacanth fish~
+A coelacanth~
+A coelacanth swims by.
+~
+A coelacanth are large predators, up to 2 meters long (6'6"). They feed on smaller
+fish and sharks and found in deep, dark waters.
+~
+dragon~
+(null)~
+(null)~
+(null)~
+ACGTce DFVab 0 0
+50 1 50d10+4500 0d0+0 5d8+12 bite
+-2 -2 -2 -2
+CDEFMU ABR I H
+stand stand none 1500
+bc O huge 0
+F aff JT
+F res BH
+F vul FI
+F for Z
+F par CGHIJKPQUVX
+#17305
+Alligator Gar~
+an alligator gar~
+An alligator gar swims very close to you scratching your skin.
+~
+Aligator Gar's are voracious ambush predators. The largest you have ever heard
+about were up to 200 kgs (440lbs) and 4 meters (13') long. This one is much
+much bigger than that!
+~
+lizard~
+(null)~
+(null)~
+(null)~
+ABCFGTc JVac 0 0
+52 1 50d10+5500 0d0+0 6d7+24 slash
+-2 -2 -2 -2
+CDEFHMNU AB R 0
+stand stand none 1800
+Ha 0 huge 0
+F res L
+F vul I
+F for Gc
+F par HKV
+#0
+
+#OBJECTS
+#17300
+strange fruit~
+a strange {Bf{gr{Bu{gi{Bt{x~
+A strange {Bf{gr{Bu{gi{Bt{x has dropped from a nearby bush.~
+fruit~
+food Ud A
+30 30 26 0 3
+1 20 0 P
+E
+fruit~
+The {Bf{gr{Bu{gi{Bt{x is {Bblue{x and {ggreen{x in color. It is large, plump and
+over-ripe. Juices are dripping everywhere filling the air with a sweet
+delicious aroma.
+ 
+~
+#17301
+large bone~
+a large bone~
+A large white bone is on the ground~
+bone~
+weapon N AN
+mace 4 6 beating FI
+30 100 0 P
+A
+19 6
+E
+large bone~
+The bone is extremely heavy. You have no idea what mammal it came from. It's
+weight and thickness would make a good club. The bone has been bleached white
+from years in the sun.
+~
+#17302
+huge nest~
+a huge nest~
+A huge nest is hidden in the grass.~
+leaves sticks~
+furniture MS 0
+10 0 CFIL 115 115
+0 500 0 P
+E
+emote builds a small nest and goes to sleep. ~
+You found a huge nest hidden in the tall grass.  It is much to big for a bird.
+Several people could easily sleep inside it comfortably. Though the thought of 
+what kind of animal could make this gigantic nest makes you very uncomfortable.
+~
+#17303
+dinosaur egg~
+a dinosaur egg~
+A giant egg is here.~
+egg~
+food NSTd AO
+50 40 0 0 0
+0 300 0 P
+A
+14 -20
+E
+egg~
+This egg is HUGE! There is no animal that you know of could have made an egg
+this size.
+~
+#17304
+fast flowing river~
+A fast flowing river~
+A fast flowing river is nearby.~
+water~
+fountain 0 0
+0 0 'water' 0 0
+0 -31072 0 P
+#0
+
+#ROOMS
+#17300
+Small Mountain Pass~
+A hidden, ancient trail can be seen through the overgrown brush. The trail
+looks as though it hasn't been used in hundreds of years. Patches have 
+completely overgrown with brush and grasses on most of the trail. You can
+barely make out where it leads.
+~
+0 C 5
+D4
+Exit ~
+door~
+16384 0 17301
+E
+carving~
+The faded carving depicts a great battle between a mammoth and a
+saber-toothed tiger. On top of a hill watching the battle is a prehistoric
+man dressed in furs and carrying a large club. 
+~
+E
+guardian~
+~
+S
+#17301
+Small Mountain Pass~
+You climb a little higher on this pass. It is strangely quiet here. There seems
+to be no birds or animals around. The air is empty of insects buzzing. The 
+plants are strangely twisted as if searching for water. This whole area feels
+ancient and abandoned.
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 17302
+D5
+Exit ~
+door~
+16384 0 17300
+S
+#17302
+Small Mountain Pass~
+You have climbed higher and higher and the air has become noticeably thinner. 
+Your close to the top of the mountain pass and can see fog all around the area.
+The path continues north or west.
+~
+0 C 5
+D0
+Exit ~
+door~
+16384 0 17305
+D3
+Exit ~
+door~
+16384 0 17301
+S
+#17303
+Small Mountain Pass~
+The pass is sloping down into the thick fog. You need to pay attention to
+your footing. You can only see about arms length ahead of you.
+~
+0 C 5
+D4
+Exit ~
+door~
+16384 0 17307
+D5
+Exit ~
+door~
+16384 0 17304
+S
+#17304
+Small Mountain Pass~
+The way down seems a lot farther than what you climbed up. The fog is thinning
+somewhat and you can see a little farther down the path. You notice that there
+is now some tall green grass, strange plants and fruit on the bushes. It all 
+appears to be strangely exotic.
+~
+0 C 3
+D4
+Exit ~
+door~
+16384 0 17303
+D5
+Exit ~
+door~
+16384 0 17308
+S
+#17305
+A Small Cave~
+A path ends at the entrance to a small cave. You can go south following the
+path or north into the dark cave.
+~
+0 CT 5
+D0
+Exit ~
+door~
+16384 0 17306
+D2
+Exit ~
+door~
+16384 0 17302
+S
+#17306
+Inside A Small Cave~
+You enter the small cave. It is very dark but in the distance you can see a
+small pinprick of light on the other side.
+~
+0 ACT 0
+D0
+Exit ~
+door~
+16384 0 17307
+D2
+Exit ~
+door~
+16384 0 17305
+S
+#17307
+Inside A Small Cave~
+You walked to the end of this narrow cave that is nothing more than a passageway.
+You look around and see only fog. The path continues down into the mist or back
+into the cave.
+~
+0 CT 0
+D2
+Exit ~
+door~
+16384 0 17306
+D5
+Exit ~
+door~
+16384 0 17303
+S
+#17308
+Entrance to a Beautiful Valley~
+A beautiful valley opens up before you. You see waterfalls of dizzying heights.
+Huge trees and plants of varieties you have never seen before are everywhere.
+Grasses as high as your chest sway in the breeze. Bushes filled with strange
+fuit abound. You see a very large volcano in the distance expelling smoke.
+The whole area looks like a tropical paradise but a little overwhelming.
+~
+0 CT 3
+D4
+Exit ~
+door~
+16384 0 17304
+D5
+Exit ~
+door~
+16384 0 17309
+S
+#17309
+On The Valley Floor~
+You are on the valley floor. Everything around you looks gigantic. You can barely
+see through the tall grasses. The air is fresh but heavy and moist. You hear
+in the distance roaring sounds that seem to shake the trees around you.
+~
+0 C 3
+H 110 M 110
+D0
+Exit ~
+door~
+16384 0 17310
+D1
+Exit ~
+door~
+16384 0 17312
+D2
+Exit ~
+door~
+16384 0 17311
+D3
+Exit ~
+door~
+16384 0 17313
+D4
+Exit ~
+door~
+16384 0 17308
+S
+#17310
+The Valley Floor~
+The path has disappeared here. Your own sense of direction is all you have now.
+Tall trees hundreds of feet high cast shadows from the sunlight. At times you
+feel the ground shake from something large moving around.
+~
+0 N 3
+D2
+Exit ~
+door~
+16384 0 17309
+S
+#17311
+The Valley Floor~
+Giant trees thousands of years old are all around you casting deep shadows.
+The trunks of the trees are so big it would take ten people to encircle one.
+You cannot see the tops of the trees they are so high and in shadow.
+~
+0 NT 3
+D0
+Exit ~
+door~
+16384 0 17309
+S
+#17312
+The Valley Floor~
+The grass is almost to the middle of your chest. It sways gently in the breeze.
+You trip over some bones hidden in the grass.
+~
+0 CNT 3
+D1
+Exit ~
+door~
+16384 0 17314
+D3
+Exit ~
+door~
+16384 0 17309
+S
+#17313
+The Valley Floor~
+You have lost the pathway and are now left to your own sense of direction.
+The fruit on the bushes look inviting. Juice drips from the fruit forming small
+puddles on the ground.
+~
+0 NT 3
+D1
+Exit ~
+door~
+16384 0 17309
+S
+#17314
+Deep River~
+You have come upon a river. It is murky and you can't tell if it is deep or 
+not. The tall grass around it has been trampled on. You see pieces of bone and
+fur scattered around. You can enter the river east.
+~
+0 NT 3
+D1
+Exit ~
+door~
+16384 0 17315
+D3
+Exit ~
+door~
+16384 0 17312
+S
+#17315
+In The River~
+The water is cold and surprisingly swift. The bottom dropped out beneath your
+feet and you realize this river is very deep indeed.
+~
+0 NT 6
+D1
+Exit ~
+door~
+16384 0 17316
+D3
+Exit ~
+door~
+16384 0 17314
+S
+#17316
+Deep In The River~
+You are deep into the center of the river. The current is tiring you out,
+making it very hard to swim without being pulled under. You see a mossy sandbank
+to the north.
+~
+0 NT 6
+D0
+Exit ~
+door~
+16384 0 17317
+D3
+Exit ~
+door~
+16384 0 17315
+S
+#17317
+On A Mossy Sandbank~
+You made it to the bank! Relief from that terrible current and relative safety from
+what lies beyond this bank. To the north is a thick forest that looks almost
+impossible to enter, west is blocked by large boulders, east you can see a beach 
+after you cross a small inlet of water, and south leads you back into the fast
+flowing river. Now is the time to take a good rest before trying to travel further.
+~
+0 CNT 10
+D2
+Exit ~
+door~
+16384 0 17316
+S
+#0
+
+#RESETS
+M 0 17300   1 17304  1	* A {Cc{Mo{Yl{Wo{Cr{Mf{Yu{Cl{x {cbird{x
+O 0 17301 100 17312	* a large bone
+M 0 17302   1 17308  1	* a huge cockroach
+M 0 17303   4 17310  2	* a raptor
+M 0 17303   4 17310  2	* a raptor
+O 0 17303 100 17311	* a dinosaur egg
+O 0 17302 100 17311	* a huge nest
+O 0 17304 100 17317	* A fast flowing river
+O 0 17304 100 17314	* A fast flowing river
+M 0 17304   1 17315  1	* A coelacanth
+M 0 17305   1 17316  1	* an alligator gar
+O 0 17300 100 17313	* a strange {Bf{gr{Bu{gi{Bt{x
+M 0 17301   1 17300  1	* a prehistoric stone guardian
+D 0 17300   4 16384	* Small Mountain Pass up
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 17300 spec_poison_eater   	* A {Cc{Mo{Yl{Wo{Cr{Mf{Yu{Cl{x {cbird{x
+M 17302 spec_fido           	* a huge cockroach
+M 17303 spec_nasty          	* a raptor
+M 17305 spec_nasty          	* an alligator gar
+S
+
+#$

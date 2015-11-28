@@ -8,7 +8,7 @@
 #	 c++ interface to gc.a
 # cord/de - builds dumb editor based on cords.
 ABI_FLAG= 
-CC=cc $(ABI_FLAG)
+CC=gcc-3.3 $(ABI_FLAG)
 HOSTCC=$(CC)
 CXX=g++ $(ABI_FLAG)
 AS=as $(ABI_FLAG)
@@ -17,7 +17,7 @@ AS=as $(ABI_FLAG)
 #  Under Irix 6, you will have to specify the ABI (-o32, -n32, or -64)
 #  if you use something other than the default ABI on your machine.
 
-CFLAGS= -O -DATOMIC_UNCOLLECTABLE -DNO_SIGNALS -DNO_EXECUTE_PERMISSION -DALL_INTERIOR_POINTERS -DSILENT
+CFLAGS= -O -DATOMIC_UNCOLLECTABLE -DNO_SIGNALS -DNO_EXECUTE_PERMISSION -DALL_INTERIOR_POINTERS -DSILENT -Dlinux -DLINUX_THREADS   -D_REENTRANT
 
 # For dynamic library builds, it may be necessary to add flags to generate
 # PIC code, e.g. -fPIC on Linux.

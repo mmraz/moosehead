@@ -2,8 +2,8 @@
 Name Eidolon~
 Id   914879324
 Email (null)~
-LogO 1089762020
-Vers 31
+LogO 1394273256
+Vers 33
 LnD  A Gladiator~
 Desc Eidolon the garou elf is in awful condition.
 Eidolon the mummy elf has big and nasty wounds.
@@ -12,13 +12,14 @@ Prom <%hhp %mm %vmv %wlb %e> ~
 Race elf~
 Clan demise~
 Outc 0
-RufT 326
+RufT 307
 MatookT 0
-SkPTimer 0
-SkPTracker 0
+SkPTimer 1
+SkPTracker 4
 LogoutTracker 0
 Kill 0 1 0 0
 Steal 0 0 0
+MSteal 0
 LstK Alloishus~
 LstKBy Eidolon~
 LstAtkedBy no one~
@@ -26,10 +27,16 @@ LstAtkedByTimer 0
 LstCombatDate 1020561794
 LstKillDate 1020559432
 LstDeathDate 1019434868
-LoginsWOKill 4
-LoginsWODeath 6
-LoginsWOCombat 3
+LoginsWOKill 6
+LoginsWODeath 8
+LoginsWOCombat 5
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 1930682 huitzilopochtli~
 DeityT -129 huitzilopochtli~
 Sac  300
@@ -39,24 +46,24 @@ Node 0
 Cap 0
 Created 951447250
 Glad 0 0 0 0 0 0
-LastHost pool-151-200-115-61.res.east.verizon.net~
+LastHost 118.186.156.163~
 Cla  11
 Kit bladesinger~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 2026795
+Plyd 2027537
 Not  1020562187 996440780 978107394 1006533436 1005795289 996441324 978107394 1052185367 978107394 0
 Scro 22
 Rank 4
 Room 31422
-HMV  983 983 795 884 521 529
-Gold 75
-Silv 33
+HMV  193 983 55 884 502 529
+Gold 114
+Silv 451
 Exp  408000
 Act  CDGHIQad
 MHSF NRS
-AfBy CHJT
+AfBy CDFHJOTV
 Comm FGJS
 Disp FGIJL
 IcgB 0
@@ -65,24 +72,24 @@ Wizn W
 Pnet ABCDEFGHI
 Pos  8
 Prac 39
-Trai 10
-SkiP 26
-Save  -6
-Alig  -1000
-Hit   12
-Dam   27
-SecHit   4
-SecDam   19
-ACs 60 60 60 68
-Attr 17 21 18 19 14 13 13 13
-AMod 0 4 4 -1 0 0 0 0
+Trai 13
+SkiP 37
+Save  -7
+Alig  -917
+Hit   16
+Dam   33
+SecHit   8
+SecDam   25
+ACs -3 -3 -3 11
+Attr 17 21 18 19 14 11 12 13
+AMod 1 4 4 3 0 0 0 0
 Pass Ei01ZvrBnH0Ao~
 Titl  sings dirges in the dark.~
 Pnts 100
 TSex 1
 LLev 1
 HMVP 933 821 494
-Cnd  0 0 0 0
+Cnd  0 26 26 26
 Alias ] adkgldkglh~
 Alias z c charm allo~
 Alias p c blind allo~
@@ -332,9 +339,15 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'blur'   0  53   8 -20  17          0
-Affc 'clarity'   0  53  51   0   0          0
-Affc 'sanctuary'   0  53   6   0   0        128
+Affc 'shield'   0  53  58 -20  17          0
+Affc 'armor'   0  53  34 -20  17          0
+Affc 'protection good'   0  51  21  -1  24      16384
+Affc 'blur'   0  52   3 -20  17          0
+Affc 'sanctuary'   0  52   1   0   0        128
+Affc 'detect invis'   0  50  42   0   0          8
+Affc 'detect hidden'   0  51  41   0   0         32
+Affc 'clarity'   0  50  32   0   0          0
+Affc 'haste'   0  47   7   4   2    2097152
 End
 
 #O
@@ -446,7 +459,7 @@ PrevOwner Eidolon~
 Cond 0
 Wear -1
 Cost 0
-Val  26 182 -1 -1 -1
+Val  26 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -457,7 +470,7 @@ PrevOwner Eidolon~
 Cond 0
 Wear -1
 Cost 7000
-Val  39 207 -1 -1 -1
+Val  39 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -529,7 +542,7 @@ PrevOwner Eidolon~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 207 -1 -1 -1
+Val  51 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -573,7 +586,7 @@ PrevOwner Eidolon~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 2 160 0
+Val  52 10 2 166 0
 Spell 3 'remove curse'
 End
 
@@ -611,7 +624,7 @@ PrevOwner Eidolon~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 207 -1 -1 -1
+Val  51 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -770,15 +783,6 @@ Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
-Vnum 12054
-Nest 1
-PrevOwner Eidolon~
-Cond 0
-Wear -1
-Cost 34156
-End
-
-#O
 Vnum 6517
 Nest 1
 PrevOwner Eidolon~
@@ -788,6 +792,15 @@ Desc Poquah's Link lies here in peices~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 12054
+Nest 1
+PrevOwner Eidolon~
+Cond 0
+Wear -1
+Cost 34156
 End
 
 #O
@@ -861,7 +874,7 @@ ExtF 0
 Cond 0
 Wear 17
 Cost 1000
-Val  40 35 26 124 0
+Val  40 35 26 130 0
 Spell 3 'invisibility'
 End
 
@@ -897,6 +910,45 @@ Val  1 9 4 3 1029
 Affc 'reserved'   1  45  -1  50  13          0
 Affc 'enchant weapon'   1  53  -1   8  18          0
 Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 15
+Cost 1150
+End
+
+#O
+Vnum 18105
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 5936
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 3000
+End
+
+#O
+Vnum 5924
+Nest 0
+PrevOwner Eidolon~
+ExtF 134217728
+Wt   36
+Cond 0
+Wear 6
+Cost 4000
+Val  8 8 8 5 2
 End
 
 #END

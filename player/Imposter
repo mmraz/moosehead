@@ -3,20 +3,21 @@ Name Imposter~
 SurN Stealth~
 Id   1018224319
 Email (null)~
-LogO 1104208894
-Vers 31
+LogO 1408637637
+Vers 33
 LnD  A Gladiator~
 Prom [%e %hHp %mMana %n/%N %v(%S)$%g.%s %a %wLbs %X]  ~
 Race dragon~
 Clan zealot~
 Outc 0
-RufT 100
+RufT 40
 MatookT 0
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 1 6 0 18
 Steal 51 24409 0
+MSteal 0
 LstK Hexx~
 LstKBy Munkey~
 LstAtkedBy no one~
@@ -24,10 +25,16 @@ LstAtkedByTimer 0
 LstCombatDate 1086234612
 LstKillDate 1080775655
 LstDeathDate 1086234652
-LoginsWOKill 29
-LoginsWODeath 8
-LoginsWOCombat 7
+LoginsWOKill 34
+LoginsWODeath 13
+LoginsWOCombat 12
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 almighty~
 DeityT -101 almighty~
 Sac  300
@@ -37,48 +44,49 @@ Node 0
 Cap 0
 Created 1018224531
 Glad 0 1 0 0 1 1
-LastHost 209.120.156.200~
+LastHost 209.169.196.58~
 Cla  8
 Kit acrobat~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 566477
-Not  1103490136 1103428914 1086063020 1102104209 1098850206 1104145413 1086063020 1086418635 1086063020 1103409714
+Plyd 568850
+Not  1403761956 1406980220 1361681580 1361681580 1361681580 1361681580 1361681580 1361681580 1361681580 1361681580
 Scro 22
 Rank 1
-Room 31816
-HMV  1031 1031 316 450 337 459
+Room 31806
+HMV  1241 1241 450 450 459 459
 Gold 82
-Silv 1215
+Silv 701
 Exp  484695
-Act  BDEFGHKQZ
+Act  BDEFGHKQRZ
 MHSF RST
-AfBy CHJPT
+AfBy CJPT
 Comm ILS
 Disp FIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  8
-Prac 9
-SkiP 186
-Save  -13
+Pos  4
+Prac 28
+StatsTrained 210 0 0
+SkiP 1
+Save  -8
 Alig  -1000
-Hit   39
+Hit   34
 Dam   47
-SecHit   28
+SecHit   23
 SecDam   36
-ACs 13 19 13 37
-Attr 23 23 24 24 24 24 22 18
-AMod 6 4 2 0 0 0 0 0
+ACs 33 39 33 57
+Attr 23 23 24 24 24 11 14 18
+AMod 2 4 2 0 0 0 0 0
 Pass ImOCDwSwyIOgQ~
 Titl  says some day you'll see things my way!~
 Pnts 98
 TSex 1
 LLev 92
-HMVP 996 414 459
-Cnd  0 0 13 0
+HMVP 1206 414 459
+Cnd  0 4 37 26
 Alias k murder~
 Alias ki murder~
 Alias kil murder~
@@ -92,7 +100,7 @@ Sk 1 'detect poison'
 Sk 1 'farsight'
 Sk 1 'fly'
 Sk 100 'gate'
-Sk 92 'identify'
+Sk 94 'identify'
 Sk 1 'knock'
 Sk 1 'know alignment'
 Sk 85 'locate object'
@@ -116,7 +124,7 @@ Sk 100 'backstab'
 Sk 97 'dirt kicking'
 Sk 100 'dodge'
 Sk 100 'enhanced damage'
-Sk 68 'tumbling'
+Sk 70 'tumbling'
 Sk 94 'garotte'
 Sk 61 'hamstring'
 Sk 47 'hand to hand'
@@ -142,12 +150,7 @@ Gr 'detection'
 Gr 'draconian'
 Gr 'pyrotechnics'
 Gr 'transportation'
-Affc 'sanctuary'   0  46   0   0   0        128
-Affc 'sneak'   0  50  41   0   0      32768
-Affc 'bless'   0  48  42  -5  24          0
-Affc 'bless'   0  46  42   5  18          0
-Affc 'giant strength'   0  44  34   4   1          0
-Affc 'shield'   0  39  18 -20  17          0
+Affc 'sneak'   0  43   5   0   0      32768
 End
 
 #O
@@ -322,12 +325,81 @@ Cost 10300
 End
 
 #O
-Vnum 17648
+Vnum 4830
+Nest 0
+PrevOwner Imposter~
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 15202
 Nest 0
 PrevOwner (null)~
 Cond 0
+Wear 6
+Cost 0
+End
+
+#O
+Vnum 16721
+Nest 0
+PrevOwner Imposter~
+Cond 0
+Wear 4
+Cost 1400
+End
+
+#O
+Vnum 16721
+Nest 0
+PrevOwner Imposter~
+Cond 0
+Wear 3
+Cost 1400
+End
+
+#O
+Vnum 4822
+Nest 0
+PrevOwner Galstaff~
+Cond 0
+Wear 17
+Cost 200
+End
+
+#O
+Vnum 22552
+Enchanted
+Nest 0
+PrevOwner Imposter~
+ExtF 67
+Stolen 67
+Cond 0
+Wear 16
+Cost 0
+Val  2 10 4 39 6
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 17648
+Nest 0
+PrevOwner Imposter~
+Cond 0
 Wear 13
 Cost 4000
+End
+
+#O
+Vnum 17647
+Nest 1
+PrevOwner Imposter~
+Cond 0
+Wear -1
+Cost 6200
 End
 
 #O
@@ -337,16 +409,6 @@ PrevOwner Imposter~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 16715
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 1500
-Spell 3 'flamestrike'
 End
 
 #O
@@ -370,37 +432,6 @@ Cost 0
 End
 
 #O
-Vnum 3365
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 640
-End
-
-#O
-Vnum 3081
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 3082
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 1800
-Spell 1 'sanctuary'
-Spell 2 'stone skin'
-Spell 3 'armor'
-End
-
-#O
 Vnum 3378
 Nest 1
 PrevOwner Imposter~
@@ -419,57 +450,12 @@ Cost 2000
 End
 
 #O
-Vnum 3500
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1502
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 730
-End
-
-#O
-Vnum 1502
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 730
-End
-
-#O
-Vnum 23144
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 4200
-End
-
-#O
 Vnum 2604
 Nest 1
 PrevOwner Imposter~
 Cond 0
 Wear -1
 Cost 200
-End
-
-#O
-Vnum 8021
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 1500
 End
 
 #O
@@ -509,15 +495,6 @@ Cost 10
 End
 
 #O
-Vnum 23144
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 4200
-End
-
-#O
 Vnum 16122
 Nest 1
 PrevOwner Imposter~
@@ -543,24 +520,6 @@ PrevOwner Imposter~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 9205
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 5200
-End
-
-#O
-Vnum 2605
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 670
 End
 
 #O
@@ -620,15 +579,6 @@ Cost 2000
 End
 
 #O
-Vnum 3365
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 640
-End
-
-#O
 Vnum 3009
 Nest 1
 PrevOwner Imposter~
@@ -752,42 +702,6 @@ PrevOwner Imposter~
 Cond 0
 Wear -1
 Cost 21
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 21
-End
-
-#O
-Vnum 3365
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 640
-End
-
-#O
-Vnum 3350
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 1280
-End
-
-#O
-Vnum 3350
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 1280
 End
 
 #O
@@ -899,15 +813,6 @@ Cost 52
 End
 
 #O
-Vnum 18941
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 5710
 Nest 1
 PrevOwner Imposter~
@@ -941,15 +846,6 @@ PrevOwner Imposter~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 17647
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 6200
 End
 
 #O
@@ -971,21 +867,12 @@ Cost 1280
 End
 
 #O
-Vnum 3365
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 640
-End
-
-#O
 Vnum 20736
 Nest 1
 PrevOwner Imposter~
 Cond 0
 Wear -1
-Time 805
+Time 745
 Cost 1800
 Spell 1 'bless'
 Spell 2 'create food'
@@ -1035,15 +922,6 @@ PrevOwner Imposter~
 Cond 0
 Wear -1
 Cost 2900
-End
-
-#O
-Vnum 17658
-Nest 1
-PrevOwner Imposter~
-Cond 0
-Wear -1
-Cost 4000
 End
 
 #O
@@ -1115,14 +993,13 @@ Enchanted
 Nest 1
 PrevOwner Imposter~
 ExtF 17301586
-Stolen 4
 Cond 0
 Wear -1
 Lev  43
 Cost 5000
-Affc 'reserved'   1  35  -1  -1   2          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
 Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'reserved'   1  35  -1  -1   2          0
 End
 
 #O
@@ -1219,73 +1096,57 @@ Cost 9000
 End
 
 #O
-Vnum 4830
-Nest 0
+Vnum 18941
+Nest 1
 PrevOwner Imposter~
 Cond 0
 Wear -1
-Cost 5500
-End
-
-#O
-Vnum 15202
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 6
 Cost 0
 End
 
 #O
-Vnum 16721
-Nest 0
+Vnum 17658
+Nest 1
 PrevOwner Imposter~
-Cond 0
-Wear 4
-Cost 1400
-End
-
-#O
-Vnum 16721
-Nest 0
-PrevOwner Imposter~
-Cond 0
-Wear 3
-Cost 1400
-End
-
-#O
-Vnum 4822
-Nest 0
-PrevOwner Galstaff~
-Cond 0
-Wear 17
-Cost 200
-End
-
-#O
-Vnum 22552
-Enchanted
-Nest 0
-PrevOwner Imposter~
-ExtF 67
-Stolen 127
-Cond 0
-Wear 16
-Cost 0
-Val  2 10 4 39 6
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 8063
-Nest 0
-PrevOwner Galstaff~
 Cond 0
 Wear -1
-Cost 2200
-Spell 3 'energy drain'
+Cost 4000
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Imposter~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12008
+Nest 1
+PrevOwner Imposter~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22504
+Nest 1
+PrevOwner Imposter~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22504
+Nest 1
+PrevOwner Imposter~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

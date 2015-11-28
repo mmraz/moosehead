@@ -3,18 +3,19 @@ Name Tyrion~
 SurN Lannister~
 Id   1043908981
 Email (null)~
-LogO 1043912896
-Vers 31
+LogO 1330457293
+Vers 33
 Prom %h %m %v%c> ~
 Race yinn~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 10
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 mojo~
 DeityT -86 mojo~
 Sac  300
@@ -35,49 +40,49 @@ Node 0
 Cap 0
 Created 1043909003
 Glad 0 0 0 0 0 0
-LastHost 68.71.34.25~
+LastHost 204.209.44.14~
 Cla  14
 ClaO 3
 Levl 5
 DLevl 0
-Plyd 3563
+Plyd 4532
 Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
-Room 3001
-HMV  65 88 117 117 62 124
+Room 3712
+HMV  88 88 117 117 124 124
 Gold 13
 Silv 40
-Exp  46063
-Act  CDEFGHKQ
+Exp  47907
+Act  CDEGHKQ
 MHSF R
-AfBy J
-Comm DGIR
+AfBy JT
+Comm DGR
 Disp FJN
 IcgB 0
 Icg 0
 Pos  8
 Save  -6
 Alig  1000
-Hit   9
-SecHit   8
-ACs 62 62 62 71
+Hit   7
+SecHit   6
+ACs 82 82 82 91
 Wimp  15
 Attr 20 16 19 19 17 14 14 12
-AMod 2 1 2 3 1 0 0 0
+AMod 2 1 2 3 3 0 0 0
 Pass TyUPyJd5ewn3s~
 Titl  the confused~
 Pnts 91
 TSex 1
-LLev 0
+LLev 1
 HMVP 88 117 124
-Cnd  0 24 0 24
+Cnd  0 32 41 34
 Alias bb buy bread~
 Alias k kill~
 Sk 1 'axe'
 Sk 1 'dagger'
 Sk 1 'flail'
-Sk 82 'mace'
+Sk 84 'mace'
 Sk 1 'polearm'
 Sk 1 'spear'
 Sk 1 'sword'
@@ -103,9 +108,9 @@ Sk 50 'recall'
 Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'weaponsmaster'
-Affc 'bless'   0  34  25  -5  24          0
-Affc 'bless'   0  35  25   5  18          0
-Affc 'armor'   0  36  13 -20  17          0
+Affc 'fly'   0   4   3   0   0     524288
+Affc 'bless'   0  33   2   5  18          0
+Affc 'bless'   0  31   2  -5  24          0
 End
 
 #O
@@ -115,7 +120,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 114 0 0
+Val  0 0 91 0 0
 End
 
 #O
@@ -197,7 +202,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 24
-Val  64 32 0 0 0
+Val  64 0 0 0 0
 End
 
 #O
@@ -234,24 +239,6 @@ PrevOwner (null)~
 Cond 0
 Wear 4
 Cost 550
-End
-
-#O
-Vnum 8112
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 15
-Cost 200
-End
-
-#O
-Vnum 8112
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 14
-Cost 200
 End
 
 #O
@@ -349,7 +336,7 @@ Vnum 4433
 Nest 0
 PrevOwner Raliak~
 Cond 0
-Wear -1
+Wear 15
 Cost 0
 End
 
@@ -358,7 +345,7 @@ Vnum 4433
 Nest 0
 PrevOwner Raliak~
 Cond 0
-Wear -1
+Wear 14
 Cost 0
 End
 
@@ -399,21 +386,57 @@ Cost 9
 End
 
 #O
-Vnum 3011
+Vnum 8112
 Nest 0
-PrevOwner (null)~
+PrevOwner Tyrion~
 Cond 0
 Wear -1
-Cost 9
+Cost 200
 End
 
 #O
-Vnum 3011
+Vnum 8112
+Nest 0
+PrevOwner Tyrion~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 3705
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 9
+Cost 72
+End
+
+#O
+Vnum 3705
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3708
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3713
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 48
 End
 
 #END

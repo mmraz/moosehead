@@ -1,0 +1,1165 @@
+#AREA
+../newareas/ramona2.are~
+Stone Bridge~
+{ U/C } Ramona  Stone Bridge~
+10600 10663
+
+#MOBILES
+#10600
+small child~
+a small child~
+A small child plays in the park.
+~
+This child is small, innocent, and unarmed. You wouldn't want to kill it...
+would you??
+~
+human~
+ABC J 0 0
+2 0 0d0+12 2d7+2 1d3+0 beating
+8 8 8 -1
+QR BMNPQ HIK C
+stand stand male 0
+0 X medium 0
+F for AMV
+F par DEFI
+#10601
+citizen stone bridge~
+a citizen~
+A citizen of Stone Bridge nods at you as you pass.
+~
+This man looks well dressed and content. He walks leisurely but somewhat
+purposefully down the wide road, as if he knows where he's going. Now and
+then, he casts an unreadable glance upwards to the mountain towering above.
+He looks like he would be friendly enough.
+~
+pig~
+AU 0 -200 0
+5 1 2d6+60 1d1+99 1d6+1 punch
+7 5 5 10
+BJNQ 0 C CF
+stand stand male 0
+HM BGI medium 0
+F for G
+#0
+
+#OBJECTS
+#10600
+muslin tunic~
+a muslin tunic~
+A well-made tunic has been left here.~
+muslin~
+clothing A AD
+2 2 2 2 0
+2 5 320 P
+#10601
+beautiful ornate gown ivory satin wedding dress~
+an ivory satin wedding dress~
+Someone has left a beautiful, ornate gown here.~
+satin~
+clothing IY AK
+1 1 1 0 0
+0 10 500 P
+E
+gown ivory satin wedding dress~
+This dress looks like it has been made for someone very important. Surely,
+no expense has been spared in its creation. It is made of fine off-white
+satin, and what would appear to be real pearls dot the fabric at regular
+intervals. A truly stunning garment.
+~
+E
+cape~
+You see a cape of great but cheap craftsmanship.  Imprinted on the side is:
+Merc Industries
+~
+#10602
+canteen~
+a canteen~
+A well-stitched and mostly watertight canteen lies here.~
+canvas~
+drink 0 AL
+100 100 'root beer' 0 0
+0 100 65 P
+#0
+
+#ROOMS
+#10600
+A path in the mountains~
+You walk on a very small but well maintained path in the mountains. You
+must be careful not to slip -- it could mean a long fall. To the west you
+can see a small village. It looks radiant, almost glowing with life,
+despite being nestled in the shadow of the mountain towering over it.
+You can follow the path back east, or approach the village to the west.
+~
+0 C 0
+D3
+Exit ~
+door~
+0 0 10601
+S
+#10601
+At the Gate~
+You see to your west a small village. No wall protects the village, yet
+it seems to be beautifully kept and thriving. The main street, which starts
+just to your west, is paved with slabs of marble in every color. It looks
+like quite a safe, inviting place to explore.
+The mountain lies back to your east.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10600
+D3
+Exit ~
+door~
+0 0 10602
+S
+#10602
+Chalk Circle at Marble Causeway~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10627
+D1
+Exit ~
+door~
+0 0 10601
+D2
+Exit ~
+door~
+0 0 10603
+D3
+Exit ~
+door~
+0 0 10637
+S
+#10603
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10602
+D2
+Exit ~
+door~
+0 0 10604
+S
+#10604
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10603
+D3
+Exit ~
+door~
+0 0 10605
+S
+#10605
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10657
+D1
+Exit ~
+door~
+0 0 10604
+D3
+Exit ~
+door~
+0 0 10606
+S
+#10606
+Chalk Circle at Sandstone Lane~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10646
+D1
+Exit ~
+door~
+0 0 10605
+D3
+Exit ~
+door~
+0 0 10607
+S
+#10607
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10656
+D1
+Exit ~
+door~
+0 0 10606
+D3
+Exit ~
+door~
+0 0 10608
+S
+#10608
+Chalk Circle at Granite Avenue~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10607
+D3
+Exit ~
+door~
+0 0 10609
+S
+#10609
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10655
+D1
+Exit ~
+door~
+0 0 10608
+D3
+Exit ~
+door~
+0 0 10610
+S
+#10610
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10611
+D1
+Exit ~
+door~
+0 0 10609
+S
+#10611
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10612
+D2
+Exit ~
+door~
+0 0 10610
+S
+#10612
+Chalk Circle at Clay Alley~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10613
+D1
+Exit ~
+door~
+0 0 10641
+D2
+Exit ~
+door~
+0 0 10611
+S
+#10613
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10614
+D2
+Exit ~
+door~
+0 0 10612
+S
+#10614
+Chalk Circle at Marble Causeway~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10615
+D1
+Exit ~
+door~
+0 0 10633
+D2
+Exit ~
+door~
+0 0 10613
+S
+#10615
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10616
+D2
+Exit ~
+door~
+0 0 10614
+S
+#10616
+Chalk Circle at Slate Street~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10617
+D1
+Exit ~
+door~
+0 0 10632
+D2
+Exit ~
+door~
+0 0 10615
+S
+#10617
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10618
+D2
+Exit ~
+door~
+0 0 10616
+S
+#10618
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10619
+D2
+Exit ~
+door~
+0 0 10617
+S
+#10619
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10620
+D3
+Exit ~
+door~
+0 0 10618
+S
+#10620
+Chalk Circle at Granite Avenue~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10621
+D2
+Exit ~
+door~
+0 0 10642
+D3
+Exit ~
+door~
+0 0 10619
+S
+#10621
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10622
+D3
+Exit ~
+door~
+0 0 10620
+S
+#10622
+Chalk Circle at Sandstone Lane~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10623
+D2
+Exit ~
+door~
+0 0 10644
+D3
+Exit ~
+door~
+0 0 10621
+S
+#10623
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10624
+D3
+Exit ~
+door~
+0 0 10622
+S
+#10624
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 10625
+D3
+Exit ~
+door~
+0 0 10623
+S
+#10625
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10624
+D2
+Exit ~
+door~
+0 0 10626
+S
+#10626
+Chalk Circle at Slate Street~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10625
+D2
+Exit ~
+door~
+0 0 10627
+D3
+Exit ~
+door~
+0 0 10628
+S
+#10627
+Chalk Circle~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10626
+D2
+Exit ~
+door~
+0 0 10602
+S
+#10628
+Slate Street~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10640
+D1
+Exit ~
+door~
+0 0 10626
+D3
+Exit ~
+door~
+0 0 10629
+S
+#10629
+Sandstone Lane at Slate Street~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10644
+D1
+Exit ~
+door~
+0 0 10628
+D2
+Exit ~
+door~
+0 0 10645
+D3
+Exit ~
+door~
+0 0 10630
+S
+#10630
+Slate Street~
+You stand on Slate Street, just north of the stone bridge which gives
+this peaceful village its name. The bridge, quite obviously very ancient,
+arches over a small pond. To your north, a small, unassuming building
+proclaims itself to be the Stone Bridge Village Hall. To your east and
+west, Slate Street intersects with other roads.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10647
+D1
+Exit ~
+door~
+0 0 10629
+D2
+Exit ~
+door~
+0 0 10648
+D3
+Exit ~
+door~
+0 0 10631
+S
+#10631
+Granite Avenue at Slate Street~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10642
+D1
+Exit ~
+door~
+0 0 10630
+D2
+Exit ~
+door~
+0 0 10643
+D3
+Exit ~
+door~
+0 0 10632
+S
+#10632
+Slate Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10631
+D3
+Exit ~
+door~
+0 0 10616
+S
+#10633
+Marble Causeway~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10651
+D1
+Exit ~
+door~
+0 0 10634
+D2
+Exit ~
+door~
+0 0 10652
+D3
+Exit ~
+door~
+0 0 10614
+S
+#10634
+Marble Causeway at Granite Avenue~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10643
+D1
+Exit ~
+door~
+0 0 10635
+D2
+Exit ~
+door~
+0 0 10638
+D3
+Exit ~
+door~
+0 0 10633
+S
+#10635
+Marble Causeway~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10649
+D1
+Exit ~
+door~
+0 0 10636
+D2
+Exit ~
+door~
+0 0 10650
+D3
+Exit ~
+door~
+0 0 10634
+S
+#10636
+Marble Causeway at Sandstone Lane~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10645
+D1
+Exit ~
+door~
+0 0 10637
+D2
+Exit ~
+door~
+0 0 10646
+D3
+Exit ~
+door~
+0 0 10635
+S
+#10637
+Marble Causeway~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10658
+D1
+Exit ~
+door~
+0 0 10602
+D3
+Exit ~
+door~
+0 0 10636
+S
+#10638
+Granite Avenue~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10634
+D2
+Exit ~
+door~
+0 0 10639
+S
+#10639
+Granite Avenue at Clay Alley~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10638
+D2
+Exit ~
+door~
+0 0 10640
+D3
+Exit ~
+door~
+0 0 10641
+S
+#10640
+Granite Avenue~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10639
+D2
+Exit ~
+door~
+0 0 10628
+S
+#10641
+Clay Alley~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10653
+D1
+Exit ~
+door~
+0 0 10639
+D2
+Exit ~
+door~
+0 0 10654
+D3
+Exit ~
+door~
+0 0 10612
+S
+#10642
+Granite Avenue~
+Generic room description.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 10620
+D2
+Exit ~
+door~
+0 0 10631
+S
+#10643
+Granite Avenue~
+Generic room description.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 10631
+D2
+Exit ~
+door~
+0 0 10634
+S
+#10644
+Sandstone Lane~
+Generic room description.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 10622
+D2
+Exit ~
+door~
+0 0 10629
+S
+#10645
+Sandstone Lane~
+Generic room description.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 10629
+D2
+Exit ~
+door~
+0 0 10636
+S
+#10646
+Sandstone Lane~
+Generic room description.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 10636
+D2
+Exit ~
+door~
+0 0 10606
+S
+#10647
+Stone Bridge Village Hall~
+This village hall is the place where the residents gather to plan the
+future of the village; to debate, discuss and decide. A podium stands in
+one corner of the room, and chairs sit haphazardly around the rest of 
+the room. It looks like it would be a lively place when the whole village
+is here, but for now, a lone custodian wanders the room, tidying the
+chairs and whistling tunelessly.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 10630
+S
+#10648
+Stone Bridge~
+This beautiful old stone bridge is the pride of the village. Although it
+isn't vital for transportation, its tremendous age, intricacy and beauty
+draws travellers from miles around. It arches steeply over a small pond
+which seems to almost glow with life. Benches line the edges of the bridge
+and you decide it might be nice to stop a while here.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10630
+D2
+Exit ~
+door~
+0 0 10649
+S
+#10649
+Stone Bridge~
+This beautiful old stone bridge is the pride of the village. Although it
+isn't vital for transportation, its tremendous age, intricacy and beauty
+draws travellers from miles around. It arches steeply over a small pond
+which seems to almost glow with life. Benches line the edges of the bridge
+and you decide it might be nice to stop a while here.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10648
+D2
+Exit ~
+door~
+0 0 10635
+S
+#10650
+The Chapel~
+Although it belongs to a very tiny village, Stone Bridge's chapel
+is quite beautiful and lovingly cared for. It is almost never empty,
+and the altar is always laden with gifts from the villagers to their
+gods. The citizens of this village seem very content and prosperous,
+and you wonder if that is their reward for their devotion. Icons and
+stained glass decorate much of the walls, and on the floor is a huge
+mosaic, seemingly crafted from precious gems.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10635
+S
+#10651
+The Clothes Horse~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 10633
+S
+#10652
+The Village Shop~
+This busy shop offers a variety of goods for sale at very reasonable
+prices. The owner smiles at you as you walk in; although he is wearing
+some of the finest clothes you have ever seen, he isn't getting rich by
+running this shop. You decide to have a look around and see what kind of
+treasures you can find here.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10633
+S
+#10653
+The Olympian~
+You've entered Stone Bridge's only pub, a surprisingly clean place with
+several tables and chairs and a small oak bar. It isn't terribly busy,
+and could prove a peaceful place to enjoy a quiet drink or two, if you
+choose.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 10641
+S
+#10654
+A dark, windowless room~
+You wonder what goes on in this small, stuffy building with no windows
+and very little light. It must be something that someone wants to keep
+quiet; something the citizens of this peaceful town might not approve of.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10641
+S
+#10655
+A villager's house~
+This is the home of one of the residents of Stone Bridge. Despite the
+fact that it's relatively small, it seems to be carefully taken care of
+and meticulously decorated with beautiful, exotic ornaments and tapes-
+tries.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 10609
+S
+#10656
+A villager's house~
+This is the home of one of the residents of Stone Bridge. Despite the
+fact that it's relatively small, it seems to be carefully taken care of
+and meticulously decorated with beautiful, exotic ornaments and tapes-
+tries.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 10607
+S
+#10657
+A villager's house~
+This is the home of one of the residents of Stone Bridge. Despite the
+fact that it's relatively small, it seems to be carefully taken care of
+and meticulously decorated with beautiful, exotic ornaments and tapes-
+tries.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 10605
+S
+#10658
+The park~
+Bordered by a picket fence, this is the public park that the residents
+of Stone Bridge frequent. Violets and buttercups dot the thick, healthy
+green grass. Children play on rope swings and adults stroll quietly. It
+all seems to be in keeping with the quiet prosperity of the rest of the
+town.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10661
+D1
+Exit ~
+door~
+0 0 10659
+D2
+Exit ~
+door~
+0 0 10637
+D3
+Exit ~
+door~
+0 0 10663
+S
+#10659
+The park~
+Bordered by a picket fence, this is the public park that the residents
+of Stone Bridge frequent. Violets and buttercups dot the thick, healthy
+green grass. Children play on rope swings and adults stroll quietly. It
+all seems to be in keeping with the quiet prosperity of the rest of the
+town.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10660
+D3
+Exit ~
+door~
+0 0 10658
+S
+#10660
+The park~
+Bordered by a picket fence, this is the public park that the residents
+of Stone Bridge frequent. Violets and buttercups dot the thick, healthy
+green grass. Children play on rope swings and adults stroll quietly. It
+all seems to be in keeping with the quiet prosperity of the rest of the
+town.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 10659
+D3
+Exit ~
+door~
+0 0 10661
+S
+#10661
+The park~
+Bordered by a picket fence, this is the public park that the residents
+of Stone Bridge frequent. Violets and buttercups dot the thick, healthy
+green grass. Children play on rope swings and adults stroll quietly. It
+all seems to be in keeping with the quiet prosperity of the rest of the
+town.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10660
+D2
+Exit ~
+door~
+0 0 10658
+D3
+Exit ~
+door~
+0 0 10662
+S
+#10662
+The park~
+Bordered by a picket fence, this is the public park that the residents
+of Stone Bridge frequent. Violets and buttercups dot the thick, healthy
+green grass. Children play on rope swings and adults stroll quietly. It
+all seems to be in keeping with the quiet prosperity of the rest of the
+town.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10661
+D2
+Exit ~
+door~
+0 0 10663
+S
+#10663
+The park~
+Bordered by a picket fence, this is the public park that the residents
+of Stone Bridge frequent. Violets and buttercups dot the thick, healthy
+green grass. Children play on rope swings and adults stroll quietly. It
+all seems to be in keeping with the quiet prosperity of the rest of the
+town.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10662
+D1
+Exit ~
+door~
+0 0 10658
+S
+#0
+
+#RESETS
+M 0 10600   4 10658  1	* a small child
+M 0 10600   4 10659  1	* a small child
+M 0 10600   4 10660  1	* a small child
+M 0 10600   4 10662  1	* a small child
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

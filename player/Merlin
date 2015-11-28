@@ -2,19 +2,19 @@
 Name Merlin~
 Id   908741141
 Email (null)~
-LogO 1105178425
-Vers 31
+LogO 1350951888
+Vers 33
 Prom <%hhp %mm %vmv %Xexp %gg %e> ~
 Race faerie~
-Clan zealot~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 3
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -22,10 +22,14 @@ LstAtkedByTimer 0
 LstCombatDate 1014457213
 LstKillDate 1014457213
 LstDeathDate 1014457213
-LoginsWOKill 40
-LoginsWODeath 40
-LoginsWOCombat 40
+LoginsWOKill 49
+LoginsWODeath 49
+LoginsWOCombat 49
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 7 69 3
+QuestWins 0 0
 Deity 193860 almighty~
 DeityT -18 almighty~
 Sac  300
@@ -35,55 +39,55 @@ Node 0
 Cap 0
 Created 951847538
 Glad 0 0 0 0 0 0
-LastHost 80.3.240.121~
+LastHost 99.248.113.147~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 247566
-Not  1104591704 1104704259 0 1104439299 1098850206 1105178226 952030120 1102624746 0 0
+Plyd 250649
+Not  1344567641 1344567641 1344567641 1344567641 1344567641 1344567641 1344567641 1344567641 1344567641 1344567641
 Scro 22
-Rank 3
-Room 31816
-HMV  785 785 1178 1178 508 508
+Rank 0
+Room 8594
+HMV  755 755 1170 1178 508 508
 Gold 247
 Silv 1050
 Exp  134655
 Act  CDEFGHIQd
 MHSF R
-AfBy CDFHJTUV
+AfBy CDFJT
 Comm GLR
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 150
-Trai 6
-SkiP 22
+Prac 151
+Trai 14
+SkiP 24
 Save  -2
 Alig  857
-Hit   13
-Dam   25
-SecHit   13
-SecDam   25
+Hit   12
+Dam   23
+SecHit   12
+SecDam   23
 ACs 24 24 24 52
 Wimp  5
-Attr 13 25 23 20 13 15 16 13
-AMod 7 0 2 7 0 0 0 0
-Pass MeIzc.C3UMpg2~
+Attr 13 25 23 20 13 17 8 13
+AMod 7 0 2 3 0 0 0 0
+Pass MegBHZHY/uoG2~
 Titl .~
 Pnts 62
 TSex 1
 LLev 67
 HMVP 480 1133 508
-Cnd  0 22 26 26
+Cnd  0 0 0 0
 Sk 100 'acid blast'
 OldSk 1 'acid blast'
-Sk 1 'annointment'
+OldSk 1 'annointment'
 Sk 79 'armor'
 OldSk 75 'armor'
-Sk 83 'blindness'
+Sk 85 'blindness'
 OldSk 1 'blindness'
 Sk 87 'blur'
 Sk 1 'burning hands'
@@ -103,7 +107,6 @@ Sk 1 'chill touch'
 OldSk 1 'chill touch'
 Sk 1 'colour spray'
 OldSk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 75 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -166,7 +169,7 @@ Sk 75 'giant strength'
 OldSk 1 'giant strength'
 Sk 84 'haste'
 OldSk 1 'haste'
-Sk 82 'identify'
+Sk 88 'identify'
 OldSk 1 'identify'
 Sk 75 'infravision'
 OldSk 75 'infravision'
@@ -254,7 +257,7 @@ OldSk 15 'shield block'
 Sk 75 'scan'
 OldSk 50 'scan'
 OldSk 1 'second attack'
-Sk 89 'meditation'
+Sk 92 'meditation'
 OldSk 69 'meditation'
 Sk 100 'spellcraft'
 OldSk 75 'spellcraft'
@@ -283,11 +286,8 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'giant strength'   0  49  34   4   1          0
-Affc 'haste'   0  49   2   4   2    2097152
-Affc 'detect good'   0  43  12   0   0          4
-Affc 'pass door'   0  53   5   0   0    1048576
-Affc 'sanctuary'   0  52   2   0   0        128
+Affc 'giant strength'   0  43  25   4   1          0
+Affc 'detect good'   0  47  25   0   0          4
 End
 
 #O
@@ -381,8 +381,8 @@ Cond 0
 Wear -1
 Lev  25
 Cost 3200
-Affc 'enchant weapon'   1  53  -1   8  18          0
 Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
 End
 
 #O
@@ -392,7 +392,7 @@ PrevOwner Merlin~
 Cond 0
 Wear -1
 Cost 1640
-Val  20 10 4 17 0
+Val  20 10 4 18 0
 Spell 3 'bless'
 End
 
@@ -418,8 +418,8 @@ Cond 0
 Wear -1
 Lev  25
 Cost 3200
-Affc 'enchant weapon'   1  53  -1   8  18          0
 Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
 End
 
 #O
@@ -432,8 +432,8 @@ Cond 0
 Wear -1
 Lev  30
 Cost 1000
-Affc 'enchant weapon'   1  32  -1   4  19          0
 Affc 'enchant weapon'   0  32  -1   4  18          0
+Affc 'enchant weapon'   1  32  -1   4  19          0
 End
 
 #O
@@ -452,23 +452,6 @@ PrevOwner Merlin~
 Cond 0
 Wear -1
 Cost 2600
-End
-
-#O
-Vnum 8007
-Enchanted
-Nest 1
-PrevOwner Merlin~
-ExtF 99
-Stolen 73
-Cond 0
-Wear -1
-Lev  22
-Cost 2800
-Affc 'enchant weapon'   1  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'reserved'   1  18  -1   1   5          0
-Affc 'reserved'   1  18  -1   1   2          0
 End
 
 #O
@@ -708,15 +691,6 @@ Cost 4000
 End
 
 #O
-Vnum 9323
-Nest 1
-PrevOwner Merlin~
-Cond 0
-Wear -1
-Cost 4200
-End
-
-#O
 Vnum 17624
 Nest 1
 PrevOwner Merlin~
@@ -759,20 +733,6 @@ PrevOwner Merlin~
 Cond 0
 Wear -1
 Cost 4000
-End
-
-#O
-Vnum 22929
-Enchanted
-Nest 1
-PrevOwner Merlin~
-ExtF 64
-Cond 0
-Wear -1
-Lev  32
-Cost 1650
-Affc 'enchant weapon'   1  43  -1   1  19          0
-Affc 'enchant weapon'   0  43  -1   1  18          0
 End
 
 #O
@@ -831,15 +791,6 @@ End
 
 #O
 Vnum 9802
-Nest 1
-PrevOwner Merlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10701
 Nest 1
 PrevOwner Merlin~
 Cond 0
@@ -938,21 +889,35 @@ Cost 4850
 End
 
 #O
+Vnum 9323
+Nest 1
+PrevOwner Merlin~
+Cond 0
+Wear -1
+Cost 4200
+End
+
+#O
+Vnum 22929
+Enchanted
+Nest 1
+PrevOwner Merlin~
+ExtF 64
+Cond 0
+Wear -1
+Lev  32
+Cost 1650
+Affc 'enchant weapon'   0  43  -1   1  18          0
+Affc 'enchant weapon'   1  43  -1   1  19          0
+End
+
+#O
 Vnum 9302
 Nest 0
 PrevOwner Merlin~
 Cond 0
 Wear 10
 Cost 3100
-End
-
-#O
-Vnum 3051
-Nest 0
-PrevOwner Merlin~
-Cond 0
-Wear -1
-Cost 900
 End
 
 #O
@@ -1013,21 +978,6 @@ Val  8 8 8 5 1
 End
 
 #O
-Vnum 10444
-Enchanted
-Nest 0
-PrevOwner Merlin~
-ExtF 67
-Stolen 877
-Cond 0
-Wear -1
-Lev  36
-Cost 2900
-Affc 'enchant weapon'   0  39  -1   5  18          0
-Affc 'enchant weapon'   1  39  -1   8  19          0
-End
-
-#O
 Vnum 2433
 Nest 0
 PrevOwner Aihue~
@@ -1068,7 +1018,7 @@ Vnum 23514
 Nest 0
 PrevOwner Merlin~
 Cond 0
-Wear 3
+Wear -1
 Cost 3690
 End
 
@@ -1083,8 +1033,8 @@ Cond 0
 Wear 5
 Cost 4000
 Val  7 7 7 6 1
-Affc 'reserved'   1  38  -1   2  19          0
 Affc 'reserved'   1  38  -1  20  13          0
+Affc 'reserved'   1  38  -1   2  19          0
 End
 
 #O
@@ -1118,9 +1068,9 @@ End
 Vnum 22552
 Nest 0
 PrevOwner Merlin~
-Stolen 99
+Stolen 23
 Cond 0
-Wear 16
+Wear -1
 Cost 0
 End
 
@@ -1131,6 +1081,40 @@ PrevOwner (null)~
 Cond 0
 Wear 17
 Cost 4000
+End
+
+#O
+Vnum 10701
+Nest 0
+PrevOwner Merlin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8007
+Enchanted
+Nest 0
+PrevOwner Merlin~
+ExtF 99
+Cond 0
+Wear -1
+Lev  22
+Cost 2800
+Affc 'reserved'   1  18  -1   1   2          0
+Affc 'reserved'   1  18  -1   1   5          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
+End
+
+#O
+Vnum 12088
+Nest 0
+PrevOwner Tnesa~
+Cond 0
+Wear -1
+Cost 1
 End
 
 #END

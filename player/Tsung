@@ -3,8 +3,8 @@ Name Tsung~
 SurN Sung~
 Id   1043058876
 Email (null)~
-LogO 1132593024
-Vers 31
+LogO 1406408407
+Vers 33
 LnD  A Gladiator~
 Desc An elder Dragon, robed in lambent {Rflame{x, utters something in an ancient      
 voice. An incandescent aura of Darkness surrounds him, a shield of {RFire{x      
@@ -18,28 +18,35 @@ Desc An elder Dragon, robed in lambent {Rflame{x, utters something in an ancient
 to fear from this {YDruid{x. Be you an {Benemy{x, then prepare yourself to meet      
 the wrath of a Dragon that will very soon be {Bjudge{x of your spirit.           
 ~
-Prom (%h %m %v)[{W%g.%s %n/%N %w{x][%a][%t]%c[%r][%e] ~
+Prom [%h%b%m%B%v]%c[{W%g.%s %n/%N %w/%W{x][%a][%r][%e] ~
 Race dragon~
 Clan warlock~
 Outc 0
-RufT 0
+RufT 235
 MatookT 0
-SkPTimer 29
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 3 14 1 18
 Steal 0 0 0
+MSteal 0
 LstK Yevon~
 LstKBy Roeman~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1109590650
+LstCombatDate 1358783766
 LstKillDate 1082648372
 LstDeathDate 1092238281
-LoginsWOKill 68
-LoginsWODeath 19
-LoginsWOCombat 2
+LoginsWOKill 87
+LoginsWODeath 38
+LoginsWOCombat 4
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 142443 hermes~
 DeityT -3615 almighty~
 Sac  300
@@ -49,48 +56,50 @@ Node 0
 Cap 0
 Created 1043058884
 Glad 0 0 0 2 1 1
-LastHost mtngprs5.mtn.co.za~
+LastHost 105.236.251.5~
 Cla  7
 Kit medium~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 910793
-Not  1132591471 1132591471 1132591471 1132591471 1132591471 1132591471 1132591471 1132591471 1132591471 1132591471
+Plyd 935586
+Not  1362516831 1348036505 1348036505 1356558789 1363927919 1364348393 1348036505 1348036505 1348036505 1364635451
 Scro 98
 Rank 1
-Room 31918
-HMV  1432 1432 986 1066 485 490
-Gold 1656
-Silv 22503
+Room 31900
+HMV  1432 1432 930 1066 490 490
+Gold 1433
+Silv 59
 Exp  415218
 Act  CDEFGHIKMQRS
 MHSF RSUV
-AfBy CDEFHJTVZc
+AfBy DFJTc
 Comm G
 Disp FGIJN
 IcgB 0
 Icg 0
-Pnet ABCDEFGHI
+Wizn W
+Pnet ABCDEFGHIJ
 Pos  4
-SkiP 356
-Save  -42
+Prac 1
+SkiP 452
+Save  -21
 Alig  -1000
-Hit   24
-Dam   19
-SecHit   16
+Hit   21
+Dam   17
+SecHit   10
 SecDam   6
-ACs -122 -122 -118 -107
-Wimp  10
+ACs -82 -82 -78 -67
+Wimp  20
 Attr 21 21 23 21 24 11 14 11
-AMod 5 5 2 6 1 0 0 0
-Pass Tsng6upZNVLpI~
-Titl  [{DBR{x]~
+AMod 5 5 2 2 1 0 0 0
+Pass Tsnz1nLerhHhU~
+Titl  Guess what I have under my [{DBlack Robe{x]? it's not candy!!~
 Pnts 97
 TSex 1
 LLev 84
 HMVP 1157 806 490
-Cnd  0 48 48 48
+Cnd  0 12 39 30
 Alias kk who clan~
 Alias z c 'acid blast'~
 Alias bl c bless~
@@ -100,7 +109,6 @@ Alias res order all rescue tsung~
 Alias sk order all h~
 Alias or order all~
 Alias hea c heal~
-Alias as c 'energy drain'~
 Alias ch c 'charm person'~
 Alias x c sunburst~
 Alias q c mirr~
@@ -127,7 +135,6 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 78 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 80 'control weather'
 Sk 95 'cure blindness'
 Sk 87 'cure critical'
@@ -138,7 +145,7 @@ Sk 1 'cure serious'
 Sk 100 'curse'
 Sk 100 'demonfire'
 Sk 1 'detect evil'
-Sk 75 'detect good'
+Sk 76 'detect good'
 Sk 100 'detect hidden'
 Sk 100 'detect invis'
 Sk 100 'detect magic'
@@ -153,7 +160,7 @@ Sk 100 'energy drain'
 Sk 1 'enervation'
 Sk 99 'entrance'
 Sk 85 'faerie fire'
-Sk 95 'faerie fog'
+Sk 100 'faerie fog'
 Sk 100 'famine'
 Sk 75 'farsight'
 Sk 100 'feast'
@@ -193,7 +200,7 @@ Sk 100 'orb of surprise'
 Sk 100 'orb of touch'
 Sk 100 'orb of turning'
 Sk 100 'pass door'
-Sk 92 'plague'
+Sk 94 'plague'
 Sk 94 'poison'
 Sk 78 'portal'
 Sk 89 'protection evil'
@@ -277,65 +284,46 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'sanctuary'   0  53   5   0   0        128
-Affc 'haste'   0  52  21   4   2    2097152
-Affc 'body weaponry'   0  53   7   0   0   33554432
-Affc 'tower of iron will'   3  51  10   0   0      32768
-Affc 'orb of turning'   0  49   9   0   0          0
-Affc 'detect hidden'   0  49  36   0   0         32
-Affc 'detect magic'   0  51  36   0   0         16
-Affc 'detect invis'   0  52  38   0   0          8
-Affc 'detect good'   0  53  37   0   0          4
-Affc 'bless'   0  55  43  -6  24          0
-Affc 'bless'   0  53  43   6  18          0
-Affc 'giant strength'   0  52  37   4   1          0
-Affc 'stone skin'   0  52  37 -40  17          0
-Affc 'shield'   0  53  45 -20  17          0
-Affc 'armor'   0  52  19 -20  17          0
+Affc 'detect invis'   0  49  16   0   0          8
+Affc 'detect hidden'   0  42  15   0   0         32
+Affc 'stone skin'   0  45  16 -40  17          0
+Affc 'giant strength'   0  53  45   4   1          0
 End
 
 #O
 Vnum 23515
 Nest 0
 PrevOwner Tsung~
-ExtF 17301824
 Cond 0
 Wear 2
 Cost 7609
-Affc 'bless'   1  47  32  -1  20        256
 End
 
 #O
 Vnum 23512
 Nest 0
 PrevOwner Tsung~
-ExtF 17301824
 Cond 0
 Wear 1
 Cost 6740
-Affc 'bless'   1  52  32  -1  20        256
 End
 
 #O
 Vnum 22507
 Nest 0
 PrevOwner Tsung~
-ExtF 262401
 Cond 0
 Wear 12
 Cost 0
-Affc 'bless'   1  48  31  -1  20        256
 End
 
 #O
 Vnum 22504
 Nest 0
 PrevOwner Tsung~
-ExtF 16777473
 Cond 0
 Wear 0
 Cost 0
-Affc 'bless'   1  51  39  -1  20        256
 End
 
 #O
@@ -343,12 +331,11 @@ Vnum 17641
 Enchanted
 Nest 0
 PrevOwner Tsung~
-ExtF 262465
+ExtF 262209
 Cond 0
 Wear 8
 Lev  36
 Cost 5500
-Affc 'bless'   1  51  34  -1  20        256
 Affc 'reserved'   1  30  -1  -3  20          0
 Affc 'enchant armor'   1  53  -1 -13  17          0
 End
@@ -374,11 +361,10 @@ End
 Vnum 2513
 Nest 0
 PrevOwner Tsung~
-ExtF 16780032
+Link Tsung
 Cond 0
 Wear 4
 Cost 710
-Affc 'bless'   1  48  31  -1  20        256
 End
 
 #O
@@ -396,180 +382,6 @@ Affc 'enchant armor'   1  53  -1  -8  17          0
 End
 
 #O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 10069
-Enchanted
-Nest 1
-PrevOwner Tsung~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 1000
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   1  52  -1  10  18          0
-End
-
-#O
-Vnum 18150
-Enchanted
-Nest 1
-PrevOwner Tsung~
-ExtF 524354
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 9007
-Enchanted
-Nest 1
-PrevOwner Tsung~
-ExtF 339
-Cond 0
-Wear -1
-Lev  50
-Cost 5000
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'reserved'   1  49  -1  -5  17          0
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 10431
-Enchanted
-Nest 1
-PrevOwner Tsung~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1625
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
 Vnum 8528
 Enchanted
 Nest 1
@@ -581,70 +393,6 @@ Lev  50
 Cost 588
 Affc 'enchant weapon'   1  52  -1  12  19          0
 Affc 'enchant weapon'   0  52  -1  12  18          0
-End
-
-#O
-Vnum 10420
-Enchanted
-Nest 1
-PrevOwner Tsung~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 2400
-Affc 'enchant weapon'   0  52  -1  10  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-End
-
-#O
-Vnum 23504
-Enchanted
-Nest 1
-PrevOwner Tsung~
-ExtF 537395523
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 10038
-Nest 1
-PrevOwner Tsung~
-ExtF 0
-Cond 0
-Wear -1
-Cost 1000
-Val  40 35 34 125 0
-Spell 3 'invisibility'
-End
-
-#O
-Vnum 10032
-Enchanted
-Nest 1
-PrevOwner Tsung~
-ExtF 323
-Cond 0
-Wear -1
-Lev  50
-Cost 1700
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'reserved'   1  44  -1   2   2          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
@@ -662,43 +410,12 @@ Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
-Vnum 28057
-Enchanted
-Nest 1
-PrevOwner Tsung~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-End
-
-#O
-Vnum 20808
-Enchanted
+Vnum 8544
 Nest 1
 PrevOwner Tsung~
 Cond 0
 Wear -1
-Cost 62
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-End
-
-#O
-Vnum 18433
-Enchanted
-Nest 1
-PrevOwner Tsung~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
+Cost 9999
 End
 
 #O
@@ -709,15 +426,6 @@ ExtF 1196065
 Cond 0
 Wear -1
 Cost 15000
-End
-
-#O
-Vnum 8544
-Nest 1
-PrevOwner Tsung~
-Cond 0
-Wear -1
-Cost 9999
 End
 
 #O
@@ -739,33 +447,6 @@ Cost 9999
 End
 
 #O
-Vnum 4100
-Enchanted
-Nest 1
-PrevOwner Tsung~
-ExtF 2626
-Cond 0
-Wear -1
-Lev  18
-Cost 940
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1   7  19          0
-End
-
-#O
-Vnum 20839
-Enchanted
-Nest 1
-PrevOwner Tsung~
-ExtF 524355
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-End
-
-#O
 Vnum 9107
 Enchanted
 Nest 1
@@ -780,7 +461,107 @@ Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
-Vnum 8503
+Vnum 10424
+Nest 1
+PrevOwner Tsung~
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 20808
+Enchanted
+Nest 1
+PrevOwner Tsung~
+Cond 0
+Wear -1
+Cost 62
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 10038
+Nest 1
+PrevOwner Tsung~
+ExtF 0
+Cond 0
+Wear -1
+Cost 1000
+Val  40 35 34 130 0
+Spell 3 'invisibility'
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Tsung~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 9007
+Enchanted
+Nest 1
+PrevOwner Tsung~
+ExtF 339
+Cond 0
+Wear -1
+Lev  50
+Cost 5000
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'reserved'   1  49  -1  -5  17          0
+End
+
+#O
+Vnum 10027
+Enchanted
+Nest 1
+PrevOwner Tsung~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 500
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Tsung~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1625
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 28057
+Enchanted
+Nest 1
+PrevOwner Tsung~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Val  3 2 20 20 36
+Affc 'enchant weapon'   1  53  -1  14  19          0
+Affc 'enchant weapon'   0  53  -1  14  18          0
+End
+
+#O
+Vnum 3375
 Nest 1
 PrevOwner Tsung~
 Cond 0
@@ -789,18 +570,154 @@ Cost 5000
 End
 
 #O
-Vnum 10027
+Vnum 10032
 Enchanted
 Nest 1
 PrevOwner Tsung~
-ExtF 322
+ExtF 323
 Cond 0
 Wear -1
 Lev  50
-Cost 500
-Affc 'bless'   1  55  48  -1  20        256
-Affc 'enchant weapon'   1  52  -1  10  19          0
+Cost 1700
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'reserved'   1  44  -1   2   2          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Tsung~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Tsung~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Tsung~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3298
+Nest 1
+PrevOwner Tsung~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 18433
+Enchanted
+Nest 1
+PrevOwner Tsung~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 18150
+Enchanted
+Nest 1
+PrevOwner Tsung~
+ExtF 524354
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 10420
+Enchanted
+Nest 1
+PrevOwner Tsung~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 2400
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+End
+
+#O
+Vnum 10069
+Enchanted
+Nest 1
+PrevOwner Tsung~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 1000
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   1  52  -1  10  18          0
+End
+
+#O
+Vnum 23505
+Enchanted
+Nest 1
+PrevOwner Tsung~
+ExtF 538443842
+Cond 0
+Wear -1
+Lev  50
+Cost 700
+Val  2 9 4 40 2050
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 1
+PrevOwner Tsung~
+ExtF 537395523
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Val  2 2 20 38 5
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 4100
+Enchanted
+Nest 1
+PrevOwner Tsung~
+ExtF 2626
+Cond 0
+Wear -1
+Lev  18
+Cost 940
+Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
 End
 
 #O
@@ -817,29 +734,14 @@ Affc 'enchant weapon'   0  52  -1  10  18          0
 End
 
 #O
-Vnum 18119
-Enchanted
-Nest 0
-PrevOwner Tsung~
-ExtF 483
-Cond 0
-Wear 16
-Lev  50
-Cost 4500
-Affc 'bless'   1  49  40  -1  20        256
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1  13  19          0
-End
-
-#O
 Vnum 22563
 Nest 0
 PrevOwner Tsung~
-ExtF 257
+Link Tsung
+ExtF 1
 Cond 0
 Wear 18
 Cost 0
-Affc 'bless'   1  50  31  -1  20        256
 End
 
 #O
@@ -847,12 +749,11 @@ Vnum 6419
 Enchanted
 Nest 0
 PrevOwner Tsung~
-ExtF 321
+ExtF 65
 Cond 0
 Wear 6
 Lev  50
 Cost 8400
-Affc 'bless'   1  49  31  -1  20        256
 Affc 'enchant armor'   1  53  -1  -7  17          0
 Affc 'reserved'   1  45  -1   2  18          0
 Affc 'reserved'   1  45  -1  -4  20          0
@@ -863,59 +764,41 @@ Vnum 10447
 Enchanted
 Nest 0
 PrevOwner Tsung~
-ExtF 321
+ExtF 65
 Cond 0
 Wear 5
 Lev  50
 Cost 13700
-Affc 'bless'   1  50  34  -1  20        256
 Affc 'enchant armor'   1  53  -1  -7  17          0
 Affc 'reserved'   1  45  -1  -4  20          0
 Affc 'reserved'   1  45  -1  30  12          0
 End
 
 #O
-Vnum 2405
-Nest 0
-PrevOwner Tsung~
-ExtF 17694977
-Cond 0
-Wear 17
-Cost 1000
-Val  48 0 0 0 0
-End
-
-#O
 Vnum 20733
 Nest 0
 PrevOwner (null)~
-ExtF 262400
 Cond 0
 Wear 15
 Cost 3000
-Affc 'bless'   1  48  31  -1  20        256
 End
 
 #O
 Vnum 20733
 Nest 0
 PrevOwner (null)~
-ExtF 262400
 Cond 0
 Wear 14
 Cost 3000
-Affc 'bless'   1  48  31  -1  20        256
 End
 
 #O
 Vnum 2713
 Nest 0
 PrevOwner (null)~
-ExtF 17039680
 Cond 0
 Wear 3
 Cost 3600
-Affc 'bless'   1  47  31  -1  20        256
 End
 
 #O
@@ -931,11 +814,9 @@ End
 Vnum 4805
 Nest 0
 PrevOwner (null)~
-ExtF 2306
 Cond 0
 Wear 9
 Cost 5500
-Affc 'bless'   1  52  31  -1  20        256
 End
 
 #O
@@ -943,15 +824,29 @@ Vnum 5913
 Enchanted
 Nest 0
 PrevOwner Tsung~
-ExtF 321
+ExtF 65
 Cond 0
 Wear 7
 Lev  45
 Cost 2000
-Affc 'bless'   1  45  31  -1  20        256
 Affc 'enchant armor'   1  53  -1  -8  17          0
 Affc 'reserved'   1  39  -1   2  19          0
 Affc 'reserved'   1  39  -1  -2  20          0
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 0
+PrevOwner Tsung~
+Link Tsung
+ExtF 227
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O
@@ -961,6 +856,75 @@ PrevOwner (null)~
 Cond 0
 Wear 11
 Cost 4500
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 2405
+Nest 0
+PrevOwner Tsung~
+ExtF 17694977
+Cond 0
+Wear 17
+Cost 1000
+Val  48 0 0 0 0
+End
+
+#O
+Vnum 20839
+Enchanted
+Nest 0
+PrevOwner Tsung~
+ExtF 524355
+Cond 0
+Wear 16
+Cost 0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Tsung~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Tsung~
+Cond 0
+Wear -1
+Cost 400
 End
 
 #END

@@ -2,9 +2,10 @@
 Name Eriq~
 Id   950463461
 Email (null)~
-LogO 1033439795
-Vers 31
-Desc Hello, how may I help you?
+LogO 1415739431
+Vers 33
+LnD  A Gladiator~
+Desc green saliva dripps from his lips, a tuff of black hair atop his head, he stands, breathing heavily as if youve asked him to do something beoynd his power.
 ~
 Prom <%hhp %mm %vmv> (%gg/%ss) ~
 Race goblin~
@@ -16,6 +17,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +29,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 156881 matook~
 DeityT -150 matook~
 Sac  300
@@ -35,79 +43,83 @@ Vump  0
 Node 0
 Cap 0
 Created 951872276
-Glad 0 0 0 0 0 0
-LastHost 141.151.231.210~
+Glad 0 0 0 0 1 0
+LastHost 65.129.213.118~
 Cla  7
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 361650
-Not  1002685488 1002685488 1002685488 1002685488 1015946959 1002685488 1002685488 1002685488 1002685488 0
+Plyd 592586
+Not  1407255693 1406980220 1403646222 1403646222 1403646222 1409172122 1403646222 1407046784 1403646222 1403646222
 Scro 22
 Rank 0
-Room 3054
-HMV  737 737 349 919 228 345
-Gold 1384
-Silv 19681
+Room 3059
+HMV  872 872 999 999 372 375
+Gold 80
+Silv 47
 Exp  81696
-Act  CDEFGHIMSU
+Act  CDEFGHIMQU
 MHSF R
-AfBy EFJNTZ
-Comm AL
+AfBy JTb
+Comm L
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 20
-SkiP 136
-Save  -13
+SkiP 127
+Save  -10
 Alig  -1000
-Hit   30
-Dam   32
-SecHit   19
-SecDam   21
-ACs -40 -40 -40 7
-Wimp  147
+Hit   20
+Dam   42
+SecHit   13
+SecDam   35
+ACs -29 -29 -29 3
 Attr 18 19 19 19 17 19 17 13
-AMod 9 5 5 2 3 0 0 0
-Pass EroqrLlJUfw3c~
-Titl .~
+AMod 7 1 2 0 0 0 0 2
+Pass EryYV5RmpbErk~
+Titl  {RGlick{x anyone{R?{x~
 Pnts 52
 TSex 1
 LLev 1
 HMVP 737 899 345
-Cnd  0 0 11 11
+Cnd  0 3 31 31
 Alias / cast word~
-Alias m c 'acid blast'~
-Alias dm c 'dispel magic'~
-Alias z order all kill tax~
-Alias rr get all tax~
-Alias rrr drop tax~
-Alias rrrr sac tax~
-Alias ea c 'enchant armor'~
-Alias ew c 'enchant weapon'~
 Alias k kill~
+Alias 2 c 'bless~
+Alias 3 c 'giant~
+Alias 5 c 'detect hidd~
+Alias 6 c 'haste~
+Alias 7 c 'stone~
+Alias 8 c 'tower~
+Alias 9 c 'body~
+Alias 0 c 'fren~
+Alias 4 c 'orb of turn~
+Alias ew c 'enchant weapon'~
+Alias ea c 'enchant armor'~
+Alias p order all rescu eriq~
 Sk 100 'acid blast'
 Sk 1 'aid'
 OldSk 1 'aid'
-Sk 84 'armor'
+Sk 89 'armor'
 OldSk 1 'armor'
 Sk 1 'bestow holiness'
 OldSk 1 'bestow holiness'
-Sk 83 'bless'
+Sk 94 'bless'
 OldSk 1 'bless'
+Sk 94 'blindness'
 OldSk 1 'blindness'
-Sk 87 'body weaponry'
+Sk 92 'body weaponry'
 Sk 1 'burning hands'
-Sk 75 'calm'
+Sk 82 'calm'
 OldSk 1 'calm'
-Sk 84 'cancellation'
+Sk 87 'cancellation'
 OldSk 1 'cancellation'
-Sk 1 'chain lightning'
+Sk 79 'chain lightning'
+Sk 1 'change sex'
 OldSk 1 'change sex'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 86 'continual light'
+Sk 91 'continual light'
 Sk 1 'create food'
 Sk 80 'create fountain'
 Sk 1 'create rose'
@@ -119,23 +131,25 @@ Sk 1 'cure light'
 OldSk 1 'cure light'
 Sk 1 'cure serious'
 OldSk 1 'cure serious'
+Sk 86 'curse'
 OldSk 1 'curse'
 Sk 1 'detect evil'
 Sk 76 'detect good'
-Sk 79 'detect hidden'
+Sk 83 'detect hidden'
 Sk 88 'detect invis'
-Sk 80 'detect magic'
+Sk 85 'detect magic'
 Sk 1 'detect poison'
-Sk 84 'dispel magic'
+Sk 85 'dispel magic'
 OldSk 1 'dispel magic'
-Sk 79 'enchant armor'
+Sk 98 'enchant armor'
 OldSk 1 'enchant armor'
-Sk 86 'enchant weapon'
+Sk 97 'enchant weapon'
 OldSk 1 'enchant weapon'
 Sk 1 'endure cold'
 OldSk 1 'endure cold'
 Sk 1 'endure heat'
 OldSk 1 'endure heat'
+Sk 90 'energy drain'
 OldSk 1 'energy drain'
 Sk 1 'enervation'
 Sk 84 'entrance'
@@ -144,57 +158,62 @@ OldSk 1 'famine'
 Sk 75 'farsight'
 Sk 77 'feast'
 OldSk 1 'feast'
+Sk 1 'feeblemind'
 OldSk 1 'feeblemind'
 Sk 1 'fireball'
 Sk 75 'fireproof'
 OldSk 1 'fireproof'
-Sk 1 'floating disc'
-Sk 84 'fly'
+Sk 75 'floating disc'
+Sk 86 'fly'
 OldSk 1 'fly'
+Sk 1 'forget'
 OldSk 1 'forget'
-Sk 95 'frenzy'
+Sk 98 'frenzy'
 OldSk 1 'frenzy'
+Sk 1 'fumble'
 OldSk 1 'fumble'
-Sk 99 'gate'
+Sk 100 'gate'
 OldSk 1 'gate'
-Sk 93 'giant strength'
+Sk 98 'giant strength'
 OldSk 1 'giant strength'
-Sk 91 'haste'
+Sk 97 'haste'
 OldSk 1 'haste'
 Sk 100 'heal'
 OldSk 1 'heal'
 Sk 75 'holy word'
 OldSk 1 'holy word'
-Sk 97 'identify'
+Sk 100 'identify'
 Sk 75 'infravision'
 OldSk 1 'infravision'
 Sk 1 'knock'
 OldSk 1 'knock'
-Sk 1 'know alignment'
+Sk 75 'know alignment'
 Sk 1 'lay on hands'
 Sk 75 'lightning bolt'
-Sk 85 'locate object'
+Sk 94 'locate object'
 Sk 89 'magic missile'
-Sk 1 'mass healing'
+Sk 75 'mass healing'
 OldSk 1 'mass healing'
 Sk 75 'mirror image'
 Sk 75 'nexus'
 OldSk 1 'nexus'
-Sk 80 'orb of awakening'
+Sk 83 'orb of awakening'
 OldSk 1 'orb of awakening'
 Sk 78 'orb of surprise'
 OldSk 1 'orb of surprise'
-Sk 75 'orb of touch'
+Sk 78 'orb of touch'
 OldSk 1 'orb of touch'
-Sk 75 'orb of turning'
+Sk 78 'orb of turning'
 OldSk 1 'orb of turning'
-Sk 78 'pass door'
+Sk 80 'pass door'
 OldSk 1 'pass door'
+Sk 79 'plague'
 OldSk 1 'plague'
+Sk 95 'poison'
 OldSk 1 'poison'
 Sk 75 'portal'
 OldSk 1 'portal'
-Sk 82 'protection evil'
+Sk 83 'protection evil'
 OldSk 1 'protection evil'
 Sk 75 'protection good'
 OldSk 1 'protection good'
@@ -211,33 +230,36 @@ Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
 Sk 100 'sanctuary'
 OldSk 1 'sanctuary'
-Sk 83 'shield'
+Sk 89 'shield'
 OldSk 1 'shield'
 Sk 1 'shocking grasp'
+Sk 100 'slow'
 OldSk 1 'slow'
-Sk 75 'stone skin'
+Sk 83 'stone skin'
 OldSk 1 'stone skin'
-Sk 92 'summon'
+Sk 100 'summon'
 OldSk 1 'summon'
 Sk 75 'teleport'
 OldSk 1 'teleport'
-Sk 79 'tower of iron will'
+Sk 84 'tower of iron will'
 Sk 75 'warp'
 OldSk 1 'warp'
+Sk 99 'weaken'
 OldSk 1 'weaken'
-Sk 88 'word of recall'
+Sk 99 'word of recall'
 OldSk 1 'word of recall'
-Sk 83 'animate dead'
-Sk 87 'summon dead'
+Sk 91 'animate dead'
+Sk 98 'summon dead'
 Sk 78 'cryogenesis'
 Sk 1 'draw life'
-Sk 1 'make bag'
-Sk 77 'turn undead'
+Sk 75 'make bag'
+Sk 80 'turn undead'
 Sk 83 'withstand death'
-Sk 1 'wound transfer'
+Sk 77 'wound transfer'
 Sk 100 'dagger'
 OldSk 1 'dagger'
-Sk 95 'mace'
+Sk 97 'flail'
+Sk 100 'mace'
 OldSk 1 'mace'
 Sk 100 'bleed'
 Sk 100 'dodge'
@@ -248,13 +270,13 @@ Sk 94 'scan'
 OldSk 50 'scan'
 OldSk 1 'hide'
 OldSk 1 'sneak'
-Sk 1 'scrolls'
+Sk 75 'scrolls'
 OldSk 1 'scrolls'
-Sk 1 'staves'
+Sk 75 'staves'
 OldSk 1 'staves'
-Sk 1 'wands'
+Sk 75 'wands'
 OldSk 1 'wands'
-Sk 53 'swimming'
+Sk 60 'swimming'
 OldSk 50 'swimming'
 Sk 50 'recall'
 OldSk 50 'recall'
@@ -267,132 +289,116 @@ Gr 'detection'
 Gr 'enchantment'
 Gr 'enhancement'
 Gr 'healing'
+Gr 'maladictions'
 Gr 'necromancy'
 Gr 'orbs'
 Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'orb of touch'   0  56  20   0   0          0
-Affc 'orb of turning'   0  52  20   0   0          0
-Affc 'orb of awakening'   0  53  19   0   0          0
-Affc 'giant strength'   0  53  45   4   1          0
-Affc 'fly'   0  49  45   0   0     524288
-Affc 'frenzy'   0  49   4  40  17          0
-Affc 'frenzy'   0  50   4   8  19          0
-Affc 'frenzy'   0  50   4   8  18          0
-Affc 'tower of iron will'   3  53  13   0   0      32768
-Affc 'body weaponry'   0  50  11   0   0   33554432
-Affc 'protection evil'   0  51  11  -1  24       8192
-Affc 'stone skin'   0  50  43 -40  17          0
-Affc 'shield'   0  48  48 -20  17          0
-Affc 'bless'   0  51  46  -6  24          0
-Affc 'bless'   0  52  46   6  18          0
-Affc 'armor'   0  50  24 -20  17          0
-Affc 'detect magic'   0  50  26   0   0         16
-End
-
-#O
-Vnum 2332
-Nest 0
-PrevOwner Eriq~
-ExtF 65
-Cond 0
-Wear 13
-Cost 7600
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner Eriq~
-ExtF 3
-Cond 0
-Wear 14
-Cost 1150
-End
-
-#O
-Vnum 5922
-Nest 0
-PrevOwner Eriq~
-Cond 0
-Wear 3
-Cost 300
-End
-
-#O
-Vnum 5914
-Nest 0
-PrevOwner Eriq~
-ExtF 134217793
-Wt   40
-Cond 0
-Wear 6
-Cost 4000
-Val  7 7 7 4 3
-End
-
-#O
-Vnum 5913
-Nest 0
-PrevOwner Eriq~
-ExtF 134217729
-Wt   160
-Cond 0
-Wear 7
-Cost 2000
-Val  7 7 7 4 3
 End
 
 #O
 Vnum 11078
+Enchanted
 Nest 0
 PrevOwner Eriq~
-ExtF 1
+ExtF 65
+Damaged 35
 Cond 0
 Wear 11
+Lev  46
 Cost 3500
+Affc 'reserved'   1  42  -1   1  18          0
+Affc 'reserved'   1  42  -1   2  19          0
+Affc 'reserved'   1  42  -1   2   1          0
+Affc 'enchant armor'   1  53  -1  -6  17          0
 End
 
 #O
-Vnum 20729
+Vnum 8544
 Nest 0
 PrevOwner Eriq~
-ExtF 262145
+Cond 0
+Wear 14
+Cost 9999
+End
+
+#O
+Vnum 8544
+Nest 0
+PrevOwner Eriq~
+Cond 0
+Wear 15
+Cost 9999
+End
+
+#O
+Vnum 15227
+Nest 0
+PrevOwner Eriq~
+Cond 0
+Wear 12
+Cost 20000
+End
+
+#O
+Vnum 10339
+Nest 0
+PrevOwner Eriq~
+ExtF 17301505
+Cond 0
+Wear 8
+Cost 20000
+End
+
+#O
+Vnum 10447
+Enchanted
+Nest 0
+PrevOwner Eriq~
+ExtF 65
 Cond 0
 Wear 5
-Cost 9800
+Lev  50
+Cost 13700
+Affc 'reserved'   1  45  -1  -4  20          0
+Affc 'reserved'   1  45  -1  30  12          0
+Affc 'enchant armor'   1  52  -1  -8  17          0
 End
 
 #O
-Vnum 20819
+Vnum 5937
+Enchanted
 Nest 0
 PrevOwner Eriq~
-ExtF 259
-Cond 0
-Wear 17
-Cost 4000
-End
-
-#O
-Vnum 2427
-Nest 0
-PrevOwner Eriq~
-ExtF 262147
+ExtF 65
 Cond 0
 Wear 9
-Cost 2300
+Lev  39
+Cost 4000
+Affc 'reserved'   1  37  -1   2   1          0
+Affc 'reserved'   1  37  -1   2  19          0
+Affc 'enchant armor'   1  53  -1  -4  17          0
 End
 
 #O
-Vnum 1345
+Vnum 10003
 Nest 0
 PrevOwner Eriq~
-ExtF 16777281
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 17648
+Nest 0
+PrevOwner Merrell~
+ExtF 16777217
 Cond 0
 Wear -1
-Cost 0
+Cost 4176
 End
 
 #O
@@ -405,12 +411,448 @@ Cost 100000
 End
 
 #O
-Vnum 9227
+Vnum 22044
 Nest 1
 PrevOwner Eriq~
 Cond 0
 Wear -1
-Cost 1630
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 11145
+Nest 0
+PrevOwner Merrell~
+Cond 0
+Wear 18
+Cost 4500
+End
+
+#O
+Vnum 8500
+Nest 0
+PrevOwner Kirdorb~
+ExtF 1
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 12079
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12084
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 7777
+End
+
+#O
+Vnum 5901
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 10447
+Nest 1
+PrevOwner Eriq~
+ExtF 1
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 5924
+Enchanted
+Nest 1
+PrevOwner Eriq~
+ExtF 65
+Cond 0
+Wear -1
+Lev  42
+Cost 4000
+Affc 'reserved'   1  40  -1   3  18          0
+Affc 'reserved'   1  40  -1   1  19          0
+Affc 'enchant armor'   1  53  -1  -3  17          0
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 6646
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 150
+Spell 1 'cure light'
+Spell 2 'armor'
+End
+
+#O
+Vnum 10446
+Enchanted
+Nest 0
+PrevOwner Eriq~
+ExtF 64
+Cond 0
+Wear 6
+Lev  47
+Cost 6100
+Affc 'enchant armor'   1  53  -1  -4  17          0
+Affc 'reserved'   1  43  -1  -1   3          0
+Affc 'reserved'   1  43  -1   2  19          0
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner (null)~
+Name bag beta Snaromba~
+ShD  a bag made from Snaromba's hide~
+Desc A bag of fine Snaromba hide catches your eye.  ~
+ExtF 1
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  17
+Cost 2650
+Val  530 1 -1 90 25
+End
+
+#O
+Vnum 15233
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10454
+Nest 1
+PrevOwner Eriq~
+ExtF 262208
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10454
+Nest 1
+PrevOwner Eriq~
+ExtF 262208
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10457
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3099
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3104
+Nest 1
+PrevOwner Eriq~
+ExtF 262145
+Cond 0
+Wear -1
+Cost 25000
+End
+
+#O
+Vnum 3107
+Nest 1
+PrevOwner Eriq~
+ExtF 262145
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 6305
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6305
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6305
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 15233
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20819
+Nest 0
+PrevOwner Eriq~
+ExtF 259
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 10415
+Enchanted
+Nest 0
+PrevOwner Eriq~
+ExtF 67
+Cond 0
+Wear 16
+Lev  50
+Cost 5400
+Affc 'enchant weapon'   0  54  -1   7  18          0
+Affc 'enchant weapon'   1  54  -1   7  19          0
+Affc 'reserved'   1  46  -1  25  12          0
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner (null)~
+Name bag beta Pooh the were-bear~
+ShD  a bag made from Pooh the were-bear's hide~
+Desc A bag of fine Pooh the were-bear hide catches your eye.  ~
+ExtF 1
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  17
+Cost 2650
+Val  530 1 -1 90 25
+End
+
+#O
+Vnum 5902
+Enchanted
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 4000
+Affc 'enchant weapon'   0  49  -1   7  18          0
+Affc 'enchant weapon'   1  50  -1  10  19          0
+End
+
+#O
+Vnum 23505
+Enchanted
+Nest 1
+PrevOwner Eriq~
+ExtF 538443843
+Cond 0
+Wear -1
+Lev  50
+Cost 700
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 1
+PrevOwner Eriq~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 10032
+Enchanted
+Nest 1
+PrevOwner Eriq~
+ExtF 323
+Cond 0
+Wear -1
+Lev  50
+Cost 1700
+Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'reserved'   1  44  -1   2   2          0
+End
+
+#O
+Vnum 17665
+Enchanted
+Nest 1
+PrevOwner Eriq~
+ExtF 262211
+Cond 0
+Wear -1
+Lev  24
+Cost 3200
+Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+End
+
+#O
+Vnum 5902
+Nest 1
+PrevOwner Eriq~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Eriq~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Affc 'enchant weapon'   0  44  -1   9  18          0
+Affc 'enchant weapon'   1  44  -1   9  19          0
+End
+
+#O
+Vnum 5939
+Enchanted
+Nest 1
+PrevOwner Eriq~
+ExtF 67
+Cond 0
+Wear -1
+Cost 4000
+Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   9  19          0
 End
 
 #O
@@ -426,36 +868,78 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   1  52  -1   9  19          0
 Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   9  19          0
 End
 
 #O
-Vnum 22044
+Vnum 10027
+Enchanted
+Nest 1
+PrevOwner Eriq~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1000
+Affc 'enchant weapon'   1  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 10427
+Enchanted
+Nest 1
+PrevOwner Eriq~
+ExtF 66
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+End
+
+#O
+Vnum 4829
 Nest 1
 PrevOwner Eriq~
 Cond 0
 Wear -1
-Cost 100000
+Cost 900
+Val  2 5 6 11 520
 End
 
 #O
-Vnum 8503
-Nest 1
+Vnum 5913
+Nest 0
 PrevOwner Eriq~
-Name sofa~
-ShD  {Ba large comfy sofa{x~
-Desc {Ba large comfy sofa sits here, waiting to be occupied.{x~
-ExtF 16777217
+ExtF 134217729
+Wt   160
 Cond 0
-Wear -1
-Cost 5000
+Wear 7
+Cost 2000
+Val  7 7 7 4 3
+End
+
+#O
+Vnum 12083
+Enchanted
+Nest 0
+PrevOwner Eriq~
+ExtF 553648193
+Cond 0
+Wear 13
+Cost 32142
+Affc 'enchant armor'   1  53  -1  -2  17          0
+Affc 'reserved'   1  51  -1   2   1          0
+Affc 'reserved'   1  51  -1   2  32          0
+Affc 'reserved'   1  51  -1  30  14          0
 End
 
 #O
 Vnum 5936
 Nest 0
-PrevOwner Eriq~
+PrevOwner Gimm~
 ExtF 1
 Cond 0
 Wear 10
@@ -463,250 +947,139 @@ Cost 3000
 End
 
 #O
-Vnum 11023
+Vnum 23514
 Nest 0
-PrevOwner Eriq~
-ExtF 17301505
+PrevOwner Gimm~
+ExtF 17301569
+Cond 0
+Wear 3
+Cost 3690
+End
+
+#O
+Vnum 23515
+Nest 0
+PrevOwner Gimm~
+ExtF 17301569
+Cond 0
+Wear 2
+Cost 7609
+End
+
+#O
+Vnum 23515
+Nest 0
+PrevOwner Gimm~
+ExtF 17301569
 Cond 0
 Wear 1
-Cost 10000
-Val  2 0 4 11053 0
+Cost 7609
 End
 
 #O
-Vnum 21
+Vnum 23514
 Nest 0
-PrevOwner Eriq~
-Cond 0
-Wear 0
-Cost 0
-End
-
-#O
-Vnum 10454
-Nest 0
-PrevOwner Eriq~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 23144
-Nest 0
-PrevOwner Eriq~
-Cond 0
-Wear -1
-Cost 4200
-End
-
-#O
-Vnum 3351
-Nest 0
-PrevOwner Eriq~
-Cond 0
-Wear -1
-Cost 590
-End
-
-#O
-Vnum 2504
-Enchanted
-Nest 0
-PrevOwner Eriq~
-Cond 0
-Wear -1
-Cost 1160
-Affc 'reserved'   1  14  -1 -10  13          0
-Affc 'reserved'   1  14  -1   1  18          0
-End
-
-#O
-Vnum 12010
-Nest 0
-PrevOwner Eriq~
-ExtF 1196065
-Cond 0
-Wear 18
-Cost 15000
-End
-
-#O
-Vnum 23144
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4200
-End
-
-#O
-Vnum 20411
-Nest 0
-PrevOwner (null)~
+PrevOwner Gimm~
+ExtF 17301569
 Cond 0
 Wear 4
-Cost 150
+Cost 3690
 End
 
 #O
-Vnum 20412
+Vnum 1345
 Nest 0
-PrevOwner (null)~
+PrevOwner Eriq~
+ExtF 16777281
 Cond 0
 Wear -1
-Cost 150
-Spell 3 'weaken'
+Cost 0
 End
 
 #O
-Vnum 20413
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 85
-End
-
-#O
-Vnum 2328
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 2329
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1470
-End
-
-#O
-Vnum 23144
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4200
-End
-
-#O
-Vnum 2328
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 2329
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1470
-End
-
-#O
-Vnum 17654
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 17655
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 12
-Cost 4000
-End
-
-#O
-Vnum 17656
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 8
-Cost 4000
-End
-
-#O
-Vnum 17658
-Nest 0
+Vnum 2803
+Nest 1
 PrevOwner Eriq~
 Cond 0
 Wear -1
-Cost 4000
+Cost 0
 End
 
 #O
-Vnum 17659
-Nest 0
+Vnum 2803
+Nest 1
 PrevOwner Eriq~
 Cond 0
 Wear -1
-Cost 4000
+Cost 1150
 End
 
 #O
-Vnum 6600
-Nest 0
-PrevOwner (null)~
+Vnum 8509
+Nest 1
+PrevOwner Eriq~
 Cond 0
 Wear -1
-Cost 250
+Cost 0
 End
 
 #O
-Vnum 20411
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 150
-End
-
-#O
-Vnum 20412
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 150
-Spell 3 'weaken'
-End
-
-#O
-Vnum 18119
+Vnum 23111
 Enchanted
-Nest 0
+Nest 1
 PrevOwner Eriq~
-ExtF 67
+ExtF 65
 Cond 0
-Wear 16
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
+Wear -1
+Lev  24
+Cost 1500
+Affc 'reserved'   1  20  -1   1  19          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'enchant armor'   1  53  -1  -5  17          0
 End
 
 #O
-Vnum 23144
-Nest 0
-PrevOwner (null)~
+Vnum 23112
+Enchanted
+Nest 1
+PrevOwner Eriq~
+ExtF 65
 Cond 0
 Wear -1
-Cost 4200
+Lev  23
+Cost 1500
+Affc 'reserved'   1  20  -1   1  19          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'enchant armor'   1  53  -1  -5  17          0
+End
+
+#O
+Vnum 1206
+Nest 1
+PrevOwner Eriq~
+Name feather blue phoenix~
+ShD  a feather of the {BBlue Phoenix{W{x~
+Desc An azure blue feather lies here.~
+ExtF 16778753
+Cond 0
+Wear -1
+Lev  20
+Cost 10
+End
+
+#O
+Vnum 2602
+Enchanted
+Nest 1
+PrevOwner Eriq~
+ExtF 65
+Cond 0
+Wear -1
+Lev  25
+Cost 5800
+Affc 'enchant armor'   1  53  -1  -2  17          0
+Affc 'reserved'   1  24  -1 -30  14          0
+Affc 'reserved'   1  24  -1   3   3          0
 End
 
 #END

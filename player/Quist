@@ -3,8 +3,8 @@ Name Quist~
 SurN Null~
 Id   1012621269
 Email (null)~
-LogO 1131809839
-Vers 31
+LogO 1367786673
+Vers 33
 LnD  A Gladiator~
 Prom <%hhp %mm %vmv> {G*(%wWeight)*{x ->{Y%t:00{x<- ~
 Race dragon~
@@ -12,10 +12,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +28,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 2219846 matook~
 DeityT -85199 matook~
 Sac  300
@@ -36,47 +43,49 @@ Node 0
 Cap 0
 Created 1012621285
 Glad 0 0 0 4 3 1
-LastHost CPE00e018abc276-CM014270110987.cpe.net.cable.rogers.com~
+LastHost 174.115.186.69~
 Cla  11
 Kit necromancer~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 4340484
+Plyd 4375487
 Not  1121879730 1128463381 0 1131210186 1121859963 1131346367 0 1123314755 0 1129478192
 Scro 22
 Rank 0
-Room 16503
-HMV  979 979 1116 1116 562 562
-Gold 78
-Silv 1789
+Room 23645
+HMV  979 979 966 1116 562 562
+Gold 27
+Silv 51
 Exp  448871
-Act  BDGHIKQRS
+Act  BDGHIKS
 MHSF R
-AfBy CFJT
+AfBy JTU
 Comm 0
 Disp FIJN
 IcgB 0
 Icg 0
-Pnet ABCEFGHI
+Pnet ABCDEFGHI
 Pos  8
-SkiP 504
+Prac 1
+Trai 25
+SkiP 583
 Save  -2
-Alig  -946
-Hit   25
-Dam   39
-SecHit   15
-SecDam   24
+Alig  -1000
+Hit   10
+Dam   22
+SecHit   10
+SecDam   22
 ACs -93 -93 -93 -57
-Attr 25 25 25 25 25 25 25 18
-AMod 0 2 -1 5 -1 0 0 0
-Pass QuD7I/1OS0pq.~
+Attr 25 25 25 25 25 11 14 18
+AMod 4 2 -1 5 -2 0 0 0
+Pass QuCHmp0xqTcMA~
 Titl  [{CKFA{x] ({RK{x) *Retired from being a {DVamp{x*~
 Pnts 100
 TSex 1
 LLev 625
 HMVP 844 796 527
-Cnd  0 14 47 30
+Cnd  0 0 34 24
 Alias k kill~
 Alias / c word~
 Alias slepe sleep~
@@ -93,7 +102,6 @@ Sk 1 'change sex'
 Sk 87 'charm person'
 Sk 75 'chill touch'
 Sk 75 'colour spray'
-Sk 1 'cone of silence'
 Sk 86 'continual light'
 Sk 75 'control weather'
 Sk 75 'create food'
@@ -108,7 +116,7 @@ Sk 100 'detect hidden'
 Sk 100 'detect invis'
 Sk 100 'detect magic'
 Sk 75 'detect poison'
-Sk 85 'diamond skin'
+Sk 87 'diamond skin'
 Sk 86 'dispel magic'
 Sk 75 'enchant armor'
 Sk 78 'enchant weapon'
@@ -116,7 +124,7 @@ Sk 1 'endure cold'
 Sk 1 'endure heat'
 Sk 100 'energy drain'
 Sk 76 'enervation'
-Sk 93 'entrance'
+Sk 94 'entrance'
 Sk 82 'faerie fire'
 Sk 100 'faerie fog'
 Sk 100 'famine'
@@ -144,11 +152,11 @@ Sk 100 'locate object'
 Sk 77 'magic missile'
 Sk 75 'mass invis'
 Sk 75 'nexus'
-Sk 95 'pass door'
+Sk 97 'pass door'
 Sk 75 'plague'
 Sk 86 'poison'
 Sk 78 'portal'
-Sk 75 'protection evil'
+Sk 76 'protection evil'
 Sk 81 'protection good'
 Sk 81 'protection neutral'
 Sk 75 'recharge'
@@ -178,7 +186,7 @@ Sk 100 'summon dead'
 Sk 100 'cryogenesis'
 Sk 75 'draw life'
 Sk 80 'make bag'
-Sk 91 'wraithform'
+Sk 94 'wraithform'
 Sk 89 'turn undead'
 Sk 78 'withstand death'
 Sk 43 'wound transfer'
@@ -200,7 +208,7 @@ Sk 90 'scan'
 Sk 100 'second attack'
 Sk 100 'fast healing'
 Sk 100 'haggle'
-Sk 71 'lore'
+Sk 73 'lore'
 Sk 100 'meditation'
 Sk 93 'peek'
 Sk 100 'spellcraft'
@@ -226,8 +234,8 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect hidden'   0  50  34   0   0         32
-Affc 'detect good'   0  49  35   0   0          4
+Affc 'pass door'   0  51   6   0   0    1048576
+Affc 'giant strength'   0  49  21   4   1          0
 End
 
 #O
@@ -241,8 +249,8 @@ Cond 0
 Wear 5
 Cost 4000
 Val  7 7 7 6 5
-Affc 'reserved'   1  38  -1  20  13          0
 Affc 'reserved'   1  38  -1   2  19          0
+Affc 'reserved'   1  38  -1  20  13          0
 End
 
 #O
@@ -256,8 +264,8 @@ Cond 0
 Wear 3
 Cost 4000
 Val  8 8 8 6 5
-Affc 'reserved'   1  46  -1  30  12          0
 Affc 'reserved'   1  46  -1   1   2          0
+Affc 'reserved'   1  46  -1  30  12          0
 End
 
 #O
@@ -271,8 +279,8 @@ Cond 0
 Wear 4
 Cost 4000
 Val  8 8 8 6 5
-Affc 'reserved'   1  46  -1  30  12          0
 Affc 'reserved'   1  46  -1   1   2          0
+Affc 'reserved'   1  46  -1  30  12          0
 End
 
 #O
@@ -293,8 +301,8 @@ ExtF 1
 Cond 0
 Wear 13
 Cost 0
-Affc 'reserved'   1  45  -1   3  18          0
 Affc 'reserved'   1  45  -1   3  19          0
+Affc 'reserved'   1  45  -1   3  18          0
 End
 
 #O
@@ -305,251 +313,6 @@ ExtF 17448961
 Cond 0
 Wear 8
 Cost 0
-End
-
-#O
-Vnum 23577
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 13
-Nest 1
-PrevOwner Quist~
-ShD  the heart of {GFriar Tuck{x~
-Desc The torn-out heart of {GFriar Tuck{x is lying here.~
-Ityp 13
-Cond 0
-Wear -1
-Cost 0
-Val  16 16 10330 0 0
-End
-
-#O
-Vnum 13
-Nest 1
-PrevOwner Quist~
-ShD  the heart of Quist~
-Desc The torn-out heart of Quist is lying here.~
-Cond 0
-Wear -1
-Cost 0
-Val  16 16 0 1 0
-End
-
-#O
-Vnum 13
-Nest 1
-PrevOwner Quist~
-ShD  the heart of Quist~
-Desc The torn-out heart of Quist is lying here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10304
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-Val  31 10 9 17 0
-Spell 3 'bless'
-End
-
-#O
-Vnum 20011
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 150000
-End
-
-#O
-Vnum 20010
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 9 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 4003
-Enchanted
-Nest 1
-PrevOwner Quist~
-ExtF 65
-Cond 0
-Wear -1
-Lev  1
-Cost 165
-Val  2 1 5 2 12
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  52  -1   2  19          0
-Affc 'enchant weapon'   1  52  -1   1  18          0
-End
-
-#O
-Vnum 4003
-Enchanted
-Nest 1
-PrevOwner Quist~
-ExtF 65
-Cond 0
-Wear -1
-Lev  1
-Cost 165
-Val  2 1 5 2 12
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  53  -1   1  18          0
-Affc 'enchant weapon'   1  53  -1   2  19          0
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 5 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 4823
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 4500
 End
 
 #O
@@ -709,6 +472,125 @@ Cost 0
 End
 
 #O
+Vnum 2410
+Enchanted
+Nest 1
+PrevOwner Quist~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 2000
+Val  1 6 7 1 518
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 16618
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 2346
+Val  6 5 7 37 772
+End
+
+#O
+Vnum 2406
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 3400
+Val  1 9 4 3 544
+End
+
+#O
+Vnum 3005
+Nest 1
+PrevOwner Quist~
+ExtF 2
+Cond 0
+Wear -1
+Cost 5600
+Val  1 4 10 21 564
+End
+
+#O
+Vnum 20803
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 16200
+Val  1 6 6 1 520
+Affc 'sharpen'   5  50  -1   0   0          8
+End
+
+#O
+Vnum 16729
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 13
+Nest 1
+PrevOwner Quist~
+ShD  the heart of {GFriar Tuck{x~
+Desc The torn-out heart of {GFriar Tuck{x is lying here.~
+Ityp 13
+Cond 0
+Wear -1
+Cost 0
+Val  16 16 10330 0 0
+End
+
+#O
+Vnum 13
+Nest 1
+PrevOwner Quist~
+ShD  the heart of Quist~
+Desc The torn-out heart of Quist is lying here.~
+Cond 0
+Wear -1
+Cost 0
+Val  16 16 0 1 0
+End
+
+#O
+Vnum 13
+Nest 1
+PrevOwner Quist~
+ShD  the heart of Quist~
+Desc The torn-out heart of Quist is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Quist~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Val  4 5 8 7 772
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
 Vnum 4805
 Enchanted
 Nest 0
@@ -718,9 +600,9 @@ Cond 0
 Wear 9
 Lev  50
 Cost 5500
-Affc 'reserved'   1  41  -1  -1   5          0
-Affc 'reserved'   1  41  -1  25  12          0
 Affc 'reserved'   1  41  -1  20  13          0
+Affc 'reserved'   1  41  -1  25  12          0
+Affc 'reserved'   1  41  -1  -1   5          0
 End
 
 #O
@@ -732,10 +614,10 @@ ExtF 262209
 Cond 0
 Wear 12
 Cost 0
-Affc 'reserved'   1  50  -1   2   3          0
-Affc 'reserved'   1  50  -1   3   2          0
-Affc 'reserved'   1  50  -1  75  12          0
 Affc 'enchant armor'   1  53  -1  -9  17          0
+Affc 'reserved'   1  50  -1  75  12          0
+Affc 'reserved'   1  50  -1   3   2          0
+Affc 'reserved'   1  50  -1   2   3          0
 End
 
 #O
@@ -748,21 +630,8 @@ Cond 0
 Wear 7
 Lev  49
 Cost 2000
-Affc 'reserved'   1  39  -1  -2  20          0
 Affc 'reserved'   1  39  -1   2  19          0
-End
-
-#O
-Vnum 6434
-Enchanted
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear 1
-Lev  45
-Cost 5300
-Affc 'reserved'   1  37  -1  30  12          0
-Affc 'enchant armor'   1  53  -1 -12  17          0
+Affc 'reserved'   1  39  -1  -2  20          0
 End
 
 #O
@@ -772,6 +641,19 @@ Nest 0
 PrevOwner Quist~
 Cond 0
 Wear 2
+Lev  45
+Cost 5300
+Affc 'enchant armor'   1  53  -1 -12  17          0
+Affc 'reserved'   1  37  -1  30  12          0
+End
+
+#O
+Vnum 6434
+Enchanted
+Nest 0
+PrevOwner Quist~
+Cond 0
+Wear 1
 Lev  44
 Cost 5300
 Affc 'reserved'   1  37  -1  30  12          0
@@ -785,9 +667,9 @@ PrevOwner Quist~
 Cond 0
 Wear 6
 Cost 10000
-Affc 'reserved'   1  50  -1  75  12          0
-Affc 'reserved'   1  50  -1  -3   5          0
 Affc 'enchant armor'   1  52  -1 -12  17          0
+Affc 'reserved'   1  50  -1  -3   5          0
+Affc 'reserved'   1  50  -1  75  12          0
 End
 
 #O
@@ -812,8 +694,234 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  53 5 5 236 -1
+Val  53 5 5 241 -1
 Spell 3 'turn undead'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Quist~
+Name a scroll of tower of iron will~
+ShD  a scroll of tower of iron will~
+Desc A scroll of tower of iron will lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  14
+Cost 0
+Val  51 208 -1 -1 -1
+Spell 1 'tower of iron will'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Quist~
+Name a scroll of tower of iron will~
+ShD  a scroll of tower of iron will~
+Desc A scroll of tower of iron will lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  14
+Cost 0
+Val  51 208 -1 -1 -1
+Spell 1 'tower of iron will'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Quist~
+Name a scroll of tower of iron will~
+ShD  a scroll of tower of iron will~
+Desc A scroll of tower of iron will lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  14
+Cost 0
+Val  51 208 -1 -1 -1
+Spell 1 'tower of iron will'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Quist~
+Name a scroll of tower of iron will~
+ShD  a scroll of tower of iron will~
+Desc A scroll of tower of iron will lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  14
+Cost 0
+Val  51 208 -1 -1 -1
+Spell 1 'tower of iron will'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Quist~
+Name a scroll of tower of iron will~
+ShD  a scroll of tower of iron will~
+Desc A scroll of tower of iron will lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  14
+Cost 0
+Val  51 208 -1 -1 -1
+Spell 1 'tower of iron will'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Quist~
+Name a scroll of tower of iron will~
+ShD  a scroll of tower of iron will~
+Desc A scroll of tower of iron will lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  14
+Cost 0
+Val  51 208 -1 -1 -1
+Spell 1 'tower of iron will'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Quist~
+Name a scroll of tower of iron will~
+ShD  a scroll of tower of iron will~
+Desc A scroll of tower of iron will lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  14
+Cost 0
+Val  51 208 -1 -1 -1
+Spell 1 'tower of iron will'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Quist~
+Name a scroll of tower of iron will~
+ShD  a scroll of tower of iron will~
+Desc A scroll of tower of iron will lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  14
+Cost 0
+Val  51 208 -1 -1 -1
+Spell 1 'tower of iron will'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Quist~
+Name a scroll of tower of iron will~
+ShD  a scroll of tower of iron will~
+Desc A scroll of tower of iron will lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  14
+Cost 0
+Val  51 208 -1 -1 -1
+Spell 1 'tower of iron will'
+End
+
+#O
+Vnum 23516
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 1 166 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 7000
+Val  51 213 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 7000
+Val  51 213 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 7000
+Val  51 213 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 7000
+Val  51 213 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 3107
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 53550
 End
 
 #O
@@ -829,228 +937,299 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  53 6 6 236 -1
+Val  53 6 6 241 -1
 Spell 3 'turn undead'
 End
 
 #O
-Vnum 3099
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3096
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3103
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Quist~
-Name a scroll of tower of iron will~
-ShD  a scroll of tower of iron will~
-Desc A scroll of tower of iron will lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  14
-Cost 0
-Val  51 203 -1 -1 -1
-Spell 1 'tower of iron will'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Quist~
-Name a scroll of tower of iron will~
-ShD  a scroll of tower of iron will~
-Desc A scroll of tower of iron will lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  14
-Cost 0
-Val  51 203 -1 -1 -1
-Spell 1 'tower of iron will'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Quist~
-Name a scroll of tower of iron will~
-ShD  a scroll of tower of iron will~
-Desc A scroll of tower of iron will lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  14
-Cost 0
-Val  51 203 -1 -1 -1
-Spell 1 'tower of iron will'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Quist~
-Name a scroll of tower of iron will~
-ShD  a scroll of tower of iron will~
-Desc A scroll of tower of iron will lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  14
-Cost 0
-Val  51 203 -1 -1 -1
-Spell 1 'tower of iron will'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Quist~
-Name a scroll of tower of iron will~
-ShD  a scroll of tower of iron will~
-Desc A scroll of tower of iron will lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  14
-Cost 0
-Val  51 203 -1 -1 -1
-Spell 1 'tower of iron will'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Quist~
-Name a scroll of tower of iron will~
-ShD  a scroll of tower of iron will~
-Desc A scroll of tower of iron will lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  14
-Cost 0
-Val  51 203 -1 -1 -1
-Spell 1 'tower of iron will'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Quist~
-Name a scroll of tower of iron will~
-ShD  a scroll of tower of iron will~
-Desc A scroll of tower of iron will lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  14
-Cost 0
-Val  51 203 -1 -1 -1
-Spell 1 'tower of iron will'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Quist~
-Name a scroll of tower of iron will~
-ShD  a scroll of tower of iron will~
-Desc A scroll of tower of iron will lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  14
-Cost 0
-Val  51 203 -1 -1 -1
-Spell 1 'tower of iron will'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Quist~
-Name a scroll of tower of iron will~
-ShD  a scroll of tower of iron will~
-Desc A scroll of tower of iron will lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  14
-Cost 0
-Val  51 203 -1 -1 -1
-Spell 1 'tower of iron will'
-End
-
-#O
-Vnum 8146
-Nest 1
-PrevOwner Quist~
-Name candy cane~
-ShD  {RC{Wa{Rn{Wd{Ry {WC{Ra{Wn{Re{x~
-Desc {R*{W/{R*{W/{R*{W/{R*{W/{R*{W/{x~
-Cond 0
-Wear -1
-Cost 1000
-Spell 3 'cure light'
-End
-
-#O
-Vnum 23516
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
-Vnum 11080
+Vnum 22506
 Enchanted
 Nest 1
 PrevOwner Quist~
-Name DEATH WHIP~
-ShD  THE DEATH WHIP~
-Desc THE DEATH WHIP lies here.~
+ExtF 536870979
+Cond 0
+Wear -1
+Lev  50
+Cost 1200
+Val  1 10 4 38 524
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'bestow holiness'   5  51  -1   0   0        512
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 22055
+Enchanted
+Nest 1
+PrevOwner Quist~
 ExtF 67
 Cond 0
 Wear -1
 Lev  50
+Cost 1220
+Val  8 3 13 33 44
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  52  -1  13  18          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
+End
+
+#O
+Vnum 22552
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 0
+Val  2 10 4 39 14
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 2412
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 3000
+Val  3 4 10 11 28
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 10069
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 1000
+Val  0 2 19 26 164
+End
+
+#O
+Vnum 2413
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 2700
+Val  4 6 6 8 7
+End
+
+#O
+Vnum 20731
+Enchanted
+Nest 1
+PrevOwner Quist~
+ExtF 4163
+Cond 0
+Wear -1
+Cost 6200
+Val  7 7 6 3 4
+Affc 'enchant weapon'   1  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 1
+PrevOwner Quist~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
 Cost 3200
-Val  7 4 7 26 1028
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
+Val  4 5 8 38 4
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
+End
+
+#O
+Vnum 20011
+Nest 0
+PrevOwner Quist~
+ExtF 1
+Cond 0
+Wear 11
+Cost 150000
+End
+
+#O
+Vnum 16638
+Nest 0
+PrevOwner Quist~
+ExtF 1051169
+Cond 0
+Wear 10
+Cost 6372
+End
+
+#O
+Vnum 12082
+Enchanted
+Nest 0
+PrevOwner Quist~
+ExtF 17301569
+Cond 0
+Wear 15
+Cost 21888
+Affc 'enchant armor'   1  53  -1  -8  17          0
+Affc 'reserved'   1  51  -1   2  19          0
+End
+
+#O
+Vnum 12082
+Enchanted
+Nest 0
+PrevOwner Quist~
+ExtF 17301568
+Cond 0
+Wear 14
+Cost 18873
+Affc 'enchant armor'   1  53  -1  -8  17          0
+Affc 'reserved'   1  51  -1   2  19          0
+End
+
+#O
+Vnum 10404
+Enchanted
+Nest 0
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 16386
+Val  1 9 4 11 36
+Affc 'reserved'   1  50  -1  50  13          0
+Affc 'enchant weapon'   1  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  16  19          0
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 4500
+Val  2 2 19 2 8711
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 0
+PrevOwner Quist~
+ExtF 227
+Cond 0
+Wear -1
+Lev  50
+Cost 4819
+Val  2 2 19 2 15
+Affc 'enchant weapon'   1  53  -1  15  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 2413
+Nest 0
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 2700
+End
+
+#O
+Vnum 23577
+Nest 0
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10304
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 0
+Val  31 10 9 20 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 500000
 End
 
 #O
@@ -1090,36 +1269,34 @@ Cost 50000
 End
 
 #O
-Vnum 16729
+Vnum 8146
 Nest 1
 PrevOwner Quist~
+Name candy cane~
+ShD  {RC{Wa{Rn{Wd{Ry {WC{Ra{Wn{Re{x~
+Desc {R*{W/{R*{W/{R*{W/{R*{W/{R*{W/{x~
 Cond 0
 Wear -1
-Cost 10
+Cost 1000
+Spell 3 'cure light'
 End
 
 #O
-Vnum 1206
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
-Vnum 10445
+Vnum 11080
 Enchanted
 Nest 1
 PrevOwner Quist~
-ExtF 66
+Name DEATH WHIP~
+ShD  THE DEATH WHIP~
+Desc THE DEATH WHIP lies here.~
+ExtF 67
 Cond 0
 Wear -1
 Lev  50
 Cost 3200
-Val  4 5 8 38 4
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
+Val  7 4 7 26 1028
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
@@ -1132,23 +1309,30 @@ Cost 50000
 End
 
 #O
-Vnum 3007
+Vnum 3099
 Nest 1
 PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 500000
+Cost 10000
 End
 
 #O
-Vnum 10440
+Vnum 3096
 Nest 1
 PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 8500
-Val  52 10 1 161 0
-Spell 3 'remove curse'
+Cost 10000
+End
+
+#O
+Vnum 3103
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 10000
 End
 
 #O
@@ -1161,67 +1345,21 @@ Cost 0
 End
 
 #O
-Vnum 3034
+Vnum 1206
 Nest 1
 PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
+Cost 10
 End
 
 #O
-Vnum 3034
+Vnum 22044
 Nest 1
 PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3107
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 22552
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-Val  2 10 4 39 14
-Affc 'sharpen'   5  51  -1   0   0          8
+Cost 100000
 End
 
 #O
@@ -1234,118 +1372,12 @@ Cost 500000
 End
 
 #O
-Vnum 20731
-Enchanted
-Nest 1
-PrevOwner Quist~
-ExtF 4163
-Cond 0
-Wear -1
-Cost 6200
-Val  7 7 6 3 4
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   1  53  -1  12  18          0
-End
-
-#O
-Vnum 22055
-Enchanted
-Nest 1
-PrevOwner Quist~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1220
-Val  8 3 13 33 44
-Affc 'enchant weapon'   1  52  -1  13  19          0
-Affc 'enchant weapon'   0  52  -1  13  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 22506
-Enchanted
-Nest 1
-PrevOwner Quist~
-ExtF 536870979
-Cond 0
-Wear -1
-Lev  50
-Cost 1200
-Val  1 10 4 38 524
-Affc 'bestow holiness'   5  51  -1   0   0        512
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 2410
-Enchanted
-Nest 1
-PrevOwner Quist~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 2000
-Val  1 6 7 1 518
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Quist~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 3200
-Val  4 5 8 38 4
-Affc 'enchant weapon'   1  52  -1  14  19          0
-Affc 'enchant weapon'   0  52  -1  14  18          0
-End
-
-#O
-Vnum 2412
+Vnum 3007
 Nest 1
 PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 3000
-Val  3 4 10 11 28
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 20410
-Nest 1
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 100
-Val  0 2 2 2 20
-End
-
-#O
-Vnum 10431
-Enchanted
-Nest 1
-PrevOwner Quist~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6500
-Val  4 5 8 7 772
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'reserved'   1  49  -1   0   0          0
+Cost 500000
 End
 
 #O
@@ -1361,13 +1393,47 @@ Spell 3 'slow'
 End
 
 #O
-Vnum 16618
+Vnum 10445
 Nest 1
 PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 2346
-Val  6 5 7 37 772
+Cost 6400
+Val  4 5 8 38 1024
+End
+
+#O
+Vnum 20011
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 150000
+End
+
+#O
+Vnum 4003
+Enchanted
+Nest 1
+PrevOwner Quist~
+ExtF 65
+Cond 0
+Wear -1
+Lev  1
+Cost 165
+Val  2 1 5 2 12
+Affc 'enchant weapon'   1  52  -1   1  18          0
+Affc 'enchant weapon'   1  52  -1   2  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 20010
+Nest 1
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #O
@@ -1381,287 +1447,286 @@ Val  2 3 5 2 1024
 End
 
 #O
-Vnum 10445
+Vnum 4003
+Enchanted
 Nest 1
 PrevOwner Quist~
+ExtF 65
 Cond 0
 Wear -1
-Cost 6400
-Val  4 5 8 38 1024
-End
-
-#O
-Vnum 20011
-Nest 0
-PrevOwner Quist~
-ExtF 1
-Cond 0
-Wear 11
-Cost 150000
-End
-
-#O
-Vnum 16638
-Nest 0
-PrevOwner Quist~
-ExtF 1051169
-Cond 0
-Wear 10
-Cost 6372
-End
-
-#O
-Vnum 23138
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear 18
-Cost 0
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 0
-PrevOwner Quist~
-ExtF 227
-Cond 0
-Wear 16
-Lev  50
-Cost 4819
-Val  2 2 19 2 15
+Lev  1
+Cost 165
+Val  2 1 5 2 12
+Affc 'enchant weapon'   1  53  -1   2  19          0
+Affc 'enchant weapon'   1  53  -1   1  18          0
 Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  15  19          0
 End
 
 #O
-Vnum 12082
-Enchanted
-Nest 0
-PrevOwner Quist~
-ExtF 17301569
-Cond 0
-Wear 15
-Cost 21888
-Affc 'reserved'   1  51  -1   2  19          0
-Affc 'enchant armor'   1  53  -1  -8  17          0
-End
-
-#O
-Vnum 12082
-Enchanted
-Nest 0
-PrevOwner Quist~
-ExtF 17301568
-Cond 0
-Wear 14
-Cost 18873
-Affc 'reserved'   1  51  -1   2  19          0
-Affc 'enchant armor'   1  53  -1  -8  17          0
-End
-
-#O
-Vnum 10404
-Enchanted
+Vnum 10440
 Nest 0
 PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 16386
-Val  1 9 4 11 36
-Affc 'enchant weapon'   1  53  -1  16  19          0
-Affc 'enchant weapon'   1  53  -1  13  18          0
-Affc 'reserved'   1  50  -1  50  13          0
+Cost 8500
+Val  52 10 8 166 0
+Spell 3 'remove curse'
 End
 
 #O
-Vnum 3005
+Vnum 2405
 Nest 0
 PrevOwner Quist~
-ExtF 2
-Cond 0
-Wear -1
-Cost 5600
-Val  1 4 10 21 564
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10304
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-Val  31 10 4 17 0
-Spell 3 'bless'
-End
-
-#O
-Vnum 18119
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4500
-Val  2 2 19 2 8711
-End
-
-#O
-Vnum 20803
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 16200
-Val  1 6 6 1 520
-Affc 'sharpen'   5  50  -1   0   0          8
-End
-
-#O
-Vnum 3007
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10069
-Nest 0
-PrevOwner (null)~
+ExtF 17694977
 Cond 0
 Wear -1
 Cost 1000
 End
 
 #O
-Vnum 16721
+Vnum 10440
 Nest 0
-PrevOwner Rippa~
+PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 1400
-End
-
-#O
-Vnum 3007
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 500000
+Cost 8500
+Val  52 10 5 166 0
+Spell 3 'remove curse'
 End
 
 #O
 Vnum 10440
 Nest 0
-PrevOwner (null)~
+PrevOwner Quist~
 Cond 0
-Wear 17
+Wear -1
 Cost 8500
-Val  52 10 8 161 0
+Val  52 10 9 166 0
 Spell 3 'remove curse'
 End
 
 #O
-Vnum 3007
+Vnum 12088
 Nest 0
-PrevOwner (null)~
+PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 500000
+Cost 1
+Val  4 4 8 8 8484
 End
 
 #O
-Vnum 3377
+Vnum 31732
+Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 10000
+Lev  25
+Cost 250
+Val  2 3 3 1 28
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   1  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #O
-Vnum 3377
+Vnum 8136
 Nest 0
-PrevOwner (null)~
+PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 10000
+Cost 3350
 End
 
 #O
-Vnum 22044
+Vnum 1320
 Nest 0
-PrevOwner (null)~
+PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 100000
+Cost 0
 End
 
 #O
-Vnum 10449
+Vnum 6432
 Nest 0
-PrevOwner (null)~
+PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 5000
+Cost 0
 End
 
 #O
-Vnum 22044
+Vnum 6406
 Nest 0
-PrevOwner (null)~
+PrevOwner Quist~
 Cond 0
 Wear -1
-Cost 100000
+Cost 19700
 End
 
 #O
 Vnum 8503
 Nest 0
-PrevOwner Quist~
+PrevOwner Tickle~
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 12031
+Nest 0
+PrevOwner Quist~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 22552
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear 16
+Cost 0
+Val  2 2 22 39 514
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 23503
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 1600
 End
 
 #END

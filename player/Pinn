@@ -2,18 +2,19 @@
 Name Pinn~
 Id   973947723
 Email (null)~
-LogO 1102231425
-Vers 31
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+LogO 1445726424
+Vers 33
+Prom %e %t %g:GP %s:SP %w%c%h/%H:HP %m/%M:MP %v:MV %X:x ~
 Race faerie~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 3
-SkPTracker 12
+SkPTimer 1
+SkPTracker 2
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 xochipili~
 DeityT -764 xochipili~
 Sac  300
@@ -33,48 +40,48 @@ Vump  0
 Node 0
 Cap 0
 Created 973947731
-Glad 0 0 0 0 0 0
-LastHost 65.31.195.196~
+Glad 1 1 0 0 1 0
+LastHost 173.215.8.171~
 Cla  13
 ClaO 2
 Levl 25
 DLevl 0
-Plyd 99045
-Not  1086155487 1086156949 1086155487 1086155487 1086155487 1086155487 1086155487 1086156128 1086155487 1086155487
+Plyd 100494
+Not  1444489282 1086156949 1086155487 1086155487 1086155487 1086155487 1086155487 1086156128 1086155487 1086155487
 Scro 22
 Rank 0
-Room 3005
-HMV  318 318 171 303 286 286
-Gold 627
-Silv 90
-Exp  484865
+Room 3014
+HMV  284 378 303 303 278 286
+Gold 857
+Silv 6899
+Exp  489225
 Act  BDGHS
 MHSF R
-AfBy DFJPTV
+AfBy DFJNPT
 Comm S
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 10
-SkiP 7
-Save  -5
-Alig  -780
+Prac 12
+SkiP 3
+Save  -6
+Alig  -1000
 Hit   18
 Dam   20
 SecHit   18
 SecDam   20
-ACs 47 47 47 63
-Attr 13 24 24 24 13 14 14 21
-AMod 6 -1 0 11 1 0 0 0
+ACs 27 27 27 43
+Attr 13 24 24 24 13 17 8 21
+AMod 6 -1 0 6 1 0 0 0
 Pass PireMnSvPtbkY~
-Titl  the croth render. Defeater of the Rangers!~
+Titl  the crotch render. Defeater of Rangers!~
 Pnts 100
 TSex 1
 LLev 27
-HMVP 298 303 286
-Cnd  0 0 10 10
+HMVP 358 303 286
+Cnd  0 4 10 26
 Alias qq scan~
 Alias buzz emote flies around the room giving you the bird!~
 Alias 1 put all sat~
@@ -110,7 +117,7 @@ Sk 100 'backstab'
 Sk 86 'dirt kicking'
 Sk 100 'dodge'
 Sk 75 'infiltrate'
-Sk 75 'enhanced damage'
+Sk 77 'enhanced damage'
 Sk 77 'kick'
 Sk 100 'parry'
 Sk 94 'trip'
@@ -134,11 +141,12 @@ Gr 'thief basics'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'sneak'   0  24  17   0   0      32768
-Affc 'haste'   0   0  18   5   2    2097152
-Affc 'giant strength'   0  18   5   2   1          0
-Affc 'bless'   0  42  26  -5  24          0
-Affc 'bless'   0  37  26   5  18          0
+Affc 'sneak'   0  23  20   0   0      32768
+Affc 'giant strength'   0  19  14   2   1          0
+Affc 'shield'   0  18  15 -20  17          0
+Affc 'bless'   0  29  16   5  18          0
+Affc 'bless'   0  30  16  -5  24          0
+Affc 'protection evil'   0  16   4  -1  24       8192
 End
 
 #O
@@ -323,8 +331,8 @@ Cond 0
 Wear -1
 Lev  6
 Cost 210
-Affc 'enchant weapon'   1  53  -1   6  19          0
 Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
 End
 
 #O
@@ -337,8 +345,8 @@ Cond 0
 Wear -1
 Lev  5
 Cost 210
-Affc 'enchant weapon'   1  53  -1   6  19          0
 Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
 End
 
 #O
@@ -397,24 +405,6 @@ Cost 22
 End
 
 #O
-Vnum 3009
-Nest 1
-PrevOwner Pinn~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Pinn~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
 Vnum 5706
 Nest 1
 PrevOwner Pinn~
@@ -436,10 +426,50 @@ End
 Vnum 1376
 Nest 1
 PrevOwner Pinn~
-Stolen 537
+Stolen 503
 Cond 0
 Wear -1
 Cost 2100
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Pinn~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Pinn~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Pinn~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Pinn~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
 End
 
 #O
@@ -775,66 +805,17 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 9573
-Nest 0
-PrevOwner Pinn~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner Pinn~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner Pinn~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner Pinn~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 1928
-Nest 0
-PrevOwner Pinn~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 20703
 Enchanted
 Nest 0
 PrevOwner Pinn~
-Stolen 3092
+Stolen 3058
 Cond 0
 Wear -1
 Lev  16
 Cost 268
-Affc 'enchant weapon'   1  52  -1   2  18          0
 Affc 'enchant weapon'   1  52  -1   3  19          0
+Affc 'enchant weapon'   1  52  -1   2  18          0
 End
 
 #O

@@ -2,82 +2,91 @@
 Name Draiocht~
 Id   1014377153
 Email (null)~
-LogO 1132326760
-Vers 31
+LogO 1387913211
+Vers 33
+LnD  A Gladiator~
 Prom %h hp  %m m  %v mv  %Xtnl| $%g|%r|%e|   ~
 Race faerie~
 Clan demise~
 Outc 0
-RufT 204
+RufT 149
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 10 55 0 14
 Steal 0 0 0
+MSteal 0
 LstK Threedee~
 LstKBy Feich~
 LstAtkedBy Borjoyzee~
-LstAtkedByTimer 6333
-LstCombatDate 1115041974
+LstAtkedByTimer 6256
+LstCombatDate 1306525766
 LstKillDate 1098197242
 LstDeathDate 1115038381
-LoginsWOKill 9
-LoginsWODeath 5
-LoginsWOCombat 4
+LoginsWOKill 11
+LoginsWODeath 7
+LoginsWOCombat 1
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 88373 huitzilopochtli~
 DeityT -1676 matook~
-Sac  225
+Sac  300
 Sex  2
 Vump  1
 Node 0
 Cap 0
 Created 1014377166
-Glad 0 0 0 0 0 0
-LastHost ndn-165-152-174.telkomadsl.co.za~
+Glad 1 1 0 0 1 0
+LastHost 105.225.171.16~
 Cla  11
 Kit witch~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 574509
+Plyd 577563
 Not  1094049798 1095094487 0 1131210186 1110312209 1131346367 1019748026 1094926450 0 1129478192
 Scro 22
 Rank 1
-Room 31422
+Room 31403
 HMV  1113 1113 1492 1492 535 535
 Gold 498
 Silv 0
 Exp  85896
 Act  DGHIKMQS
 MHSF RSU
-AfBy DFJTc
+AfBy DFHJTc
 Comm I
 Disp CFGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 18
-SkiP 7
+Prac 19
+Trai 16
+SkiP 9
 Save  -14
 Alig  -1000
 Hit   26
 Dam   26
 SecHit   13
 SecDam   13
-ACs -115 -109 -107 -25
+ACs -155 -149 -147 -65
 Wimp  10
-Attr 13 25 25 25 13 25 16 22
-AMod 2 2 0 9 3 0 0 2
+Attr 13 25 25 25 13 17 8 22
+AMod 6 2 0 9 3 0 0 2
 Pass DrAH8sjERXQSA~
 Titl  {DBansidhe{X from {RHELL!!{X~
 Pnts 48
 TSex 2
 LLev 15
 HMVP 783 1352 505
-Cnd  0 12 31 31
+Cnd  0 26 35 35
 Alias dead c 'summon dead'~
 Alias resc o all rescue draiocht~
 Alias ala c 'arcantic alacrity'~
@@ -106,7 +115,6 @@ Sk 100 'charm person'
 Sk 1 'chill touch'
 Sk 93 'clarity'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 75 'control weather'
 Sk 100 'curse'
 Sk 75 'detect evil'
@@ -207,6 +215,11 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
+Affc 'clarity'   0  47  14   0   0          0
+Affc 'shield'   0  40  17 -20  17          0
+Affc 'giant strength'   0  40   9   4   1          0
+Affc 'sanctuary'   0  52   0   0   0        128
+Affc 'armor'   0  53  31 -20  17          0
 End
 
 #O
@@ -229,8 +242,8 @@ Cond 0
 Wear 5
 Cost 19800
 Val  12 10 11 2 1
-Affc 'reserved'   1  47  -1  -4  20          0
 Affc 'reserved'   1  47  -1   2   5          0
+Affc 'reserved'   1  47  -1  -4  20          0
 End
 
 #O
@@ -315,15 +328,6 @@ Cost 3690
 End
 
 #O
-Vnum 12083
-Nest 0
-PrevOwner Draiocht~
-Cond 0
-Wear -1
-Cost 32142
-End
-
-#O
 Vnum 12082
 Nest 0
 PrevOwner Draiocht~
@@ -359,8 +363,8 @@ ExtF 450
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  52  -1  12  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
@@ -374,21 +378,6 @@ Cost 0
 End
 
 #O
-Vnum 23505
-Enchanted
-Nest 1
-PrevOwner Porgys~
-ExtF 538443843
-Cond 0
-Wear -1
-Lev  50
-Cost 700
-Val  2 9 4 40 6
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
-End
-
-#O
 Vnum 16724
 Enchanted
 Nest 1
@@ -397,8 +386,8 @@ ExtF 66
 Cond 0
 Wear -1
 Cost 1000
-Affc 'enchant weapon'   0  52  -1  13  18          0
 Affc 'enchant weapon'   1  52  -1  13  19          0
+Affc 'enchant weapon'   0  52  -1  13  18          0
 End
 
 #O
@@ -409,8 +398,17 @@ PrevOwner Draiocht~
 Cond 0
 Wear -1
 Cost 4000
-Affc 'enchant weapon'   1  52  -1  13  19          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
+End
+
+#O
+Vnum 4831
+Nest 1
+PrevOwner Draiocht~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -422,8 +420,23 @@ ExtF 67
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   1  52  -1  12  19          0
 Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+End
+
+#O
+Vnum 23505
+Enchanted
+Nest 1
+PrevOwner Draiocht~
+ExtF 538443843
+Cond 0
+Wear -1
+Lev  50
+Cost 700
+Val  2 9 4 40 6
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -436,8 +449,26 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   0  53  -1  10  18          0
 Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 20819
+Nest 1
+PrevOwner Draiocht~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 12083
+Nest 1
+PrevOwner Draiocht~
+Cond 0
+Wear -1
+Cost 32142
 End
 
 #O
@@ -580,15 +611,6 @@ PrevOwner Draiocht~
 Cond 0
 Wear -1
 Cost 600
-End
-
-#O
-Vnum 4831
-Nest 1
-PrevOwner Draiocht~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -942,8 +964,8 @@ PrevOwner Draiocht~
 Cond 0
 Wear -1
 Cost 8400
-Affc 'reserved'   1  45  -1  -4  20          0
 Affc 'reserved'   1  45  -1   2  18          0
+Affc 'reserved'   1  45  -1  -4  20          0
 End
 
 #O
@@ -1038,8 +1060,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 800
-Affc 'enchant weapon'   0  52  -1  11  18          0
 Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
@@ -1107,8 +1129,8 @@ Cond 0
 Wear -1
 Cost 0
 Val  6 2 20 7 293
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -1212,8 +1234,8 @@ Cond 0
 Wear -1
 Cost 0
 Val  2 10 4 39 6
-Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -1226,8 +1248,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   0  50  -1  12  18          0
 Affc 'enchant weapon'   1  50  -1  12  19          0
+Affc 'enchant weapon'   0  50  -1  12  18          0
 End
 
 #O
@@ -1246,22 +1268,12 @@ Enchanted
 Nest 0
 PrevOwner Draiocht~
 ExtF 67
-Stolen 13
 Cond 0
 Wear 16
 Lev  50
 Cost 0
-Affc 'enchant weapon'   0  53  -1  13  18          0
 Affc 'enchant weapon'   1  53  -1  13  19          0
-End
-
-#O
-Vnum 20819
-Nest 0
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 4000
+Affc 'enchant weapon'   0  53  -1  13  18          0
 End
 
 #O

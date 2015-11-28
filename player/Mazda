@@ -3,18 +3,19 @@ Name Mazda~
 SurN ZoomZoom~
 Id   1039578325
 Email (null)~
-LogO 1129192748
-Vers 31
+LogO 1334874317
+Vers 33
 Prom %hH %mM %vV %wWt %nI {Y%gG{C%sS{x %XXP %r Ex:%e%c> ~
 Race half-elf~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 25
+SkPTimer 9
 SkPTracker 12
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -2083 xochipili~
 Sac  300
@@ -35,17 +40,17 @@ Node 0
 Cap 0
 Created 1039578341
 Glad 0 0 0 0 0 0
-LastHost sys254.nat.tay.hp.com~
+LastHost 99.246.164.127~
 Cla  13
 ClaO 2
 Levl 13
 DLevl 0
-Plyd 126721
-Not  1125784539 1125959914 1123459803 1129145608 1123459803 1128905660 1123459803 1123459803 1123459803 1125952714
-Scro 18
+Plyd 127343
+Not  1125784539 1333918499 1123459803 1326946454 1332523915 1333636700 1123459803 1123459803 1123459803 1125952714
+Scro 37
 Rank 0
-Room 3011
-HMV  161 161 129 173 151 153
+Room 3054
+HMV  161 161 143 173 153 153
 Gold 794
 Silv 192
 Exp  117305
@@ -56,7 +61,8 @@ Comm GIL
 Disp BFIJN
 IcgB 0
 Icg 0
-Pos  8
+Pos  4
+Trai 6
 SkiP 18
 Save  -3
 Alig  1000
@@ -64,9 +70,9 @@ Hit   10
 Dam   3
 SecHit   9
 SecDam   2
-ACs 59 54 53 83
+ACs 79 74 73 103
 Wimp  20
-Attr 16 19 18 17 17 14 14 14
+Attr 16 19 18 17 17 11 11 14
 AMod 7 0 2 6 1 0 0 0
 Pass MavLhxYisbilc~
 Titl  likes {Yhot{x cars, and {Rfast{x women.~
@@ -74,7 +80,7 @@ Pnts 100
 TSex 1
 LLev 32
 HMVP 153 173 153
-Cnd  0 4 26 26
+Cnd  0 0 10 10
 Alias k kill~
 Alias 0 enter star~
 Sk 80 'armor'
@@ -142,13 +148,12 @@ Gr 'rogue default'
 Gr 'detection'
 Gr 'protective'
 Gr 'transportation'
-Affc 'detect invis'   0   9  10   0   0          8
-Affc 'detect hidden'   0   9   9   0   0         32
-Affc 'armor'   0  10  15 -20  17          0
-Affc 'detect magic'   0  11   0   0   0         16
-Affc 'detect evil'   0   8   0   0   0          4
-Affc 'bless'   0  41  40   5  18          0
-Affc 'bless'   0  42  40  -5  24          0
+Affc 'detect evil'   0  10   5   0   0          4
+Affc 'detect magic'   0  10   6   0   0         16
+Affc 'detect invis'   0  10   5   0   0          8
+Affc 'detect hidden'   0  10   6   0   0         32
+Affc 'bless'   0  41  24  -5  24          0
+Affc 'bless'   0  36  24   5  18          0
 End
 
 #O
@@ -317,15 +322,6 @@ Cost 5
 End
 
 #O
-Vnum 2901
-Nest 1
-PrevOwner Mazda~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
 Vnum 15233
 Nest 1
 PrevOwner Mazda~
@@ -434,9 +430,9 @@ Cond 0
 Wear -1
 Lev  10
 Cost 360
-Affc 'enchant weapon'   1  38  -1   6  19          0
-Affc 'enchant weapon'   1  38  -1   5  18          0
 Affc 'reserved'   1   4  -1  -1   4          0
+Affc 'enchant weapon'   1  38  -1   5  18          0
+Affc 'enchant weapon'   1  38  -1   6  19          0
 End
 
 #O
@@ -459,25 +455,6 @@ PrevOwner Mazda~
 Cond 0
 Wear -1
 Cost 1000
-End
-
-#O
-Vnum 1261
-Nest 1
-PrevOwner Mazda~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'haste'
-End
-
-#O
-Vnum 4438
-Nest 1
-PrevOwner Mazda~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -568,6 +545,34 @@ PrevOwner Mazda~
 Cond 0
 Wear -1
 Cost 14
+End
+
+#O
+Vnum 1261
+Nest 1
+PrevOwner Mazda~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 2901
+Nest 1
+PrevOwner Mazda~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 4438
+Nest 1
+PrevOwner Mazda~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -721,7 +726,7 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 342
+Time 326
 Cost 10
 Spell 1 'haste'
 Spell 2 'cure serious'
@@ -883,7 +888,7 @@ End
 #O
 Vnum 5101
 Nest 0
-PrevOwner (null)~
+PrevOwner Mazda~
 Cond 0
 Wear -1
 Cost 1510
@@ -893,7 +898,7 @@ End
 #O
 Vnum 5101
 Nest 0
-PrevOwner (null)~
+PrevOwner Mazda~
 Cond 0
 Wear -1
 Cost 1510

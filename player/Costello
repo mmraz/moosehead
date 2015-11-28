@@ -2,8 +2,8 @@
 Name Costello~
 Id   903023417
 Email (null)~
-LogO 1132445901
-Vers 31
+LogO 1410321137
+Vers 33
 LnD  A Gladiator~
 Desc This is one pretty {bangel{x
 ~
@@ -18,52 +18,60 @@ SkPTracker 0
 LogoutTracker 0
 Kill 8 25 0 58
 Steal 0 0 0
+MSteal 0
 LstK Dismay~
 LstKBy Xipetotec~
 LstAtkedBy Rockee~
-LstAtkedByTimer 2206
+LstAtkedByTimer 1606
 LstCombatDate 1123868804
 LstKillDate 1108222891
 LstDeathDate 1123869120
-LoginsWOKill 89
-LoginsWODeath 6
-LoginsWOCombat 5
+LoginsWOKill 100
+LoginsWODeath 17
+LoginsWOCombat 16
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 1775055 hermes~
 DeityT -1559 almighty~
-Sac  225
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 961699870
 Glad 1 10 1 1 11 2
-LastHost user-12lc93o.cable.mindspring.com~
+LastHost 107.16.11.245~
 Cla  7
 Kit wyrmslayer~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 3492006
+Plyd 3516570
 Not  1132445896 1132445896 1132445896 1132445896 1132445896 1132445896 1132445896 1132445896 1132445896 1132445896
 Scro 22
 Rank 1
-Room 31918
-HMV  964 964 1453 1496 418 418
-Gold 341
-Silv 7072
+Room 31900
+HMV  964 964 1496 1496 418 418
+Gold 1230
+Silv 9827
 Exp  377459
-Act  CDEFGHI
+Act  DEFGHI
 MHSF RUX
-AfBy BDFHJTe
-Comm O
+AfBy JT
+Comm OS
 Disp FIJ
 IcgB 0
 Icg 0
 Pnet A
 Pos  8
-Trai 1
-SkiP 19
+Prac 8
+Trai 16
+SkiP 124
 Save  -10
 Alig  -1000
 Hit   18
@@ -72,7 +80,7 @@ SecHit   14
 SecDam   16
 ACs -4 -4 1 -14
 Wimp  20
-Attr 16 20 21 18 18 18 18 13
+Attr 16 20 21 18 18 10 11 13
 AMod 2 7 4 3 0 0 2 0
 Pass CoTLWZ78L31/w~
 Titl  {RRED{x~
@@ -80,7 +88,7 @@ Pnts 97
 TSex 1
 LLev 480
 HMVP 894 1181 318
-Cnd  0 0 24 24
+Cnd  0 19 30 30
 Sk 100 'acid blast'
 OldSk 1 'acid blast'
 Sk 84 'acclimate'
@@ -112,7 +120,6 @@ Sk 1 'chill touch'
 OldSk 1 'chill touch'
 Sk 1 'colour spray'
 OldSk 1 'colour spray'
-Sk 51 'cone of silence'
 Sk 89 'continual light'
 Sk 87 'control weather'
 OldSk 1 'control weather'
@@ -192,7 +199,7 @@ OldSk 79 'giant strength'
 Sk 100 'haste'
 OldSk 77 'haste'
 Sk 100 'heal'
-Sk 86 'heat metal'
+Sk 88 'heat metal'
 Sk 1 'hold person'
 Sk 75 'holy word'
 Sk 100 'identify'
@@ -216,7 +223,7 @@ Sk 53 'mass healing'
 Sk 83 'mass invis'
 OldSk 1 'mass invis'
 Sk 100 'mirror image'
-Sk 48 'nexus'
+Sk 54 'nexus'
 OldSk 1 'nexus'
 Sk 100 'orb of awakening'
 Sk 100 'orb of surprise'
@@ -280,7 +287,7 @@ Sk 94 'fire breath'
 Sk 86 'frost breath'
 Sk 84 'gas breath'
 Sk 86 'lightning breath'
-Sk 84 'animate dead'
+Sk 85 'animate dead'
 OldSk 1 'animate dead'
 Sk 100 'summon dead'
 OldSk 76 'summon dead'
@@ -357,13 +364,6 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'withstand death'   0  53   9   0   0 1073741824
-Affc 'orb of turning'   0  53  20   0   0          0
-Affc 'orb of touch'   0  57  20   0   0          0
-Affc 'detect hidden'   0  52  48   0   0         32
-Affc 'detect invis'   0  55  48   0   0          8
-Affc 'sanctuary'   0  54   1   0   0        128
-Affc 'invisibility'   0  47  29   0   0          2
 End
 
 #O
@@ -392,6 +392,7 @@ Nest 0
 PrevOwner Costello~
 ExtF 134217728
 Wt   160
+Damaged 40
 Cond 0
 Wear 7
 Cost 2000
@@ -405,6 +406,7 @@ Vnum 22507
 Enchanted
 Nest 0
 PrevOwner Costello~
+Damaged 50
 Cond 0
 Wear 12
 Cost 0
@@ -517,18 +519,10 @@ End
 Vnum 23518
 Nest 0
 PrevOwner Costello~
+Damaged 43
 Cond 0
 Wear 6
 Cost 4500
-End
-
-#O
-Vnum 8309
-Nest 0
-PrevOwner Costello~
-Cond 0
-Wear -1
-Cost 100
 End
 
 #O
@@ -616,15 +610,6 @@ PrevOwner Marle~
 Cond 0
 Wear -1
 Cost 500
-End
-
-#O
-Vnum 8517
-Nest 1
-PrevOwner Marle~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -790,7 +775,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  53 5 5 179 -1
+Val  53 5 5 184 -1
 Spell 3 'slow'
 End
 
@@ -807,7 +792,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  53 6 6 149 -1
+Val  53 6 6 154 -1
 Spell 3 'plague'
 End
 
@@ -824,7 +809,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  53 6 4 179 -1
+Val  53 6 4 184 -1
 Spell 3 'slow'
 End
 
@@ -841,7 +826,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  53 6 6 149 -1
+Val  53 6 6 154 -1
 Spell 3 'plague'
 End
 
@@ -889,15 +874,6 @@ Spell 3 'charm person'
 End
 
 #O
-Vnum 11023
-Nest 1
-PrevOwner Costello~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
 Vnum 1001
 Nest 1
 PrevOwner Costello~
@@ -913,6 +889,26 @@ PrevOwner Costello~
 Cond 0
 Wear -1
 Cost 10300
+End
+
+#O
+Vnum 11023
+Nest 1
+PrevOwner Costello~
+Cond 0
+Wear -1
+Cost 10000
+Val  2 0 4 11053 0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Costello~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 22089
 End
 
 #O
@@ -934,15 +930,6 @@ Cost 4500
 End
 
 #O
-Vnum 3050
-Nest 0
-PrevOwner Costello~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
 Vnum 8509
 Nest 0
 PrevOwner Marle~
@@ -958,6 +945,239 @@ PrevOwner (null)~
 Cond 0
 Wear 15
 Cost 1150
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Costello~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 22010
+Nest 0
+PrevOwner Costello~
+Damaged 45
+Cond 0
+Wear -1
+Cost 9800
+Spell 3 'animate dead'
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner (null)~
+ExtF 258
+Damaged 51
+Cond 0
+Wear -1
+Cost 1150
+Affc 'bless'   1  39   7  -1  20        256
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 22089
+End
+
+#O
+Vnum 13204
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 13205
+Nest 0
+PrevOwner (null)~
+Damaged 100
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 10449
+Nest 0
+PrevOwner Hrungnor~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 2919
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 21014
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1949
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2300
+End
+
+#O
+Vnum 1974
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner Ketsueke~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 2205
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Costello~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 2280
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1590
+End
+
+#O
+Vnum 10447
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 1973
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 900
+Spell 3 'heat metal'
+End
+
+#O
+Vnum 763
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 475
+End
+
+#O
+Vnum 1961
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 1961
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 1958
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 850
+End
+
+#O
+Vnum 1959
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 8
+End
+
+#O
+Vnum 1961
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 1960
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 8
 End
 
 #END

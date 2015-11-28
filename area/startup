@@ -1,11 +1,14 @@
-#! /bin/csh -f
+#!/bin/csh -f
 
 # Change to area directory.
 cd /mud/moosehead/area
 
 # Set limits.
 # limit stack 8192k
-unlimit coredumpsize
+# unlimit coredumpsize
+
+#ulimit -c unlimited
+limit coredumpsize unlimited
 umask 007
 if ( -e shutdown.txt ) rm -f shutdown.txt
 gzip -f /mud/moosehead/log/*.log
@@ -28,7 +31,7 @@ while ( 1 )
     echo ''
     date
     if ( -e /mud/moosehead/src/moose.core ) then
-    gdb -batch -x bt /mud/moosehead/src/moose /mud/moosehead/src/moose.core
+    gdb -batch -x bt /mud/moosehead/src/moose /mud/moosehead/src/core
     rm /mud/moosehead/src/moose.core
     else
 	echo 'No core.'
@@ -36,7 +39,7 @@ while ( 1 )
 
     # Restart, giving old connections a chance to die.
     if ( -e /mud/moosehead/area/shutdown.txt ) then
-	rm -f /mud/moosehad/area/shutdown.txt
+	rm -f /mud/moosehead/area/shutdown.txt
 	exit 0
     endif
     sleep 10

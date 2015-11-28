@@ -3,8 +3,8 @@ Name Audric~
 SurN Takeii~
 Id   1042115906
 Email (null)~
-LogO 1113694821
-Vers 31
+LogO 1387663943
+Vers 33
 Desc Born of the {YAnointed{x
 Son of the {YOne...{x
 ~
@@ -12,24 +12,31 @@ Prom {g>{x%hhps %mmana %vmv $%g %wcap{g<{x ~
 Race human~
 Clan zealot~
 Outc 0
-RufT 386
+RufT 365
 MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
 Kill 5 4 6 5
 Steal 0 148 0
+MSteal 0
 LstK Costello~
 LstKBy Shiva~
 LstAtkedBy Vasily~
-LstAtkedByTimer 14064
+LstAtkedByTimer 14043
 LstCombatDate 1113533711
 LstKillDate 1084846900
 LstDeathDate 1089328109
-LoginsWOKill 14
-LoginsWODeath 7
-LoginsWOCombat 1
+LoginsWOKill 19
+LoginsWODeath 12
+LoginsWOCombat 6
 Bnty 0
+DeityFavor 2 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 186733 almighty~
 DeityT -458 almighty~
 Sac  300
@@ -39,24 +46,24 @@ Node 0
 Cap 0
 Created 1042115930
 Glad 0 0 0 0 0 0
-LastHost 24.22.236.97~
+LastHost 50.181.73.1~
 Cla  6
 Kit barbarian~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 303902
-Not  1112053997 1112053997 1112053997 1112053997 1112053997 1112053997 1112053997 1112053997 1112053997 1112053997
+Plyd 304752
+Not  1320724007 1320724007 1320724007 1320724007 1320724007 1320724007 1320724007 1320724007 1320724007 1320724007
 Scro 98
 Rank 3
 Room 31816
-HMV  1625 1625 441 441 564 564
+HMV  1625 1625 431 441 564 564
 Gold 38
 Silv 4495
 Exp  408280
 Act  CDEGHJMQSa
 MHSF RSU
-Comm GZ
+Comm G
 Disp FIJLN
 IcgB 0
 Icg 0
@@ -64,15 +71,16 @@ Wizn W
 Pnet ABCDEFGHI
 Pos  8
 Prac 9
+Trai 15
 SkiP 137
 Save  -6
 Alig  -1000
-Hit   30
-Dam   33
+Hit   19
+Dam   22
 SecHit   19
 SecDam   22
 ACs 7 13 12 42
-Attr 20 18 18 19 18 17 18 12
+Attr 20 18 18 19 18 10 10 12
 AMod 0 3 2 3 5 0 0 0
 Pass AuwXX5My0NnUo~
 Titl  : Born of the {YAnointed{x~
@@ -80,7 +88,7 @@ Pnts 100
 TSex 1
 LLev 71
 HMVP 1240 396 564
-Cnd  0 0 0 0
+Cnd  0 20 20 20
 Alias k murder~
 Alias x backstab~
 Alias stc steal coins~
@@ -387,30 +395,12 @@ Cost 100000
 End
 
 #O
-Vnum 18108
-Nest 1
-PrevOwner Audric~
-Cond 0
-Wear -1
-Cost 5600
-End
-
-#O
 Vnum 18109
 Nest 1
 PrevOwner Audric~
 Cond 0
 Wear -1
 Cost 2500
-End
-
-#O
-Vnum 18108
-Nest 1
-PrevOwner Audric~
-Cond 0
-Wear -1
-Cost 5600
 End
 
 #O
@@ -423,8 +413,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -447,9 +437,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6400
-Affc 'reserved'   1  47  -1  -5  17          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'reserved'   1  47  -1  -5  17          0
 End
 
 #O
@@ -527,9 +517,9 @@ Cond 0
 Wear -1
 Lev  33
 Cost 0
-Affc 'enchant weapon'   1  52  -1   4  18          0
-Affc 'enchant weapon'   1  52  -1   4  19          0
 Affc 'reserved'   1  30  -1 -10  13          0
+Affc 'enchant weapon'   1  52  -1   4  19          0
+Affc 'enchant weapon'   1  52  -1   4  18          0
 End
 
 #O
@@ -574,14 +564,14 @@ Enchanted
 Nest 0
 PrevOwner Audric~
 ExtF 67
-Stolen 326
+Stolen 305
 Cond 0
-Wear 16
+Wear -1
 Cost 0
 Val  2 10 4 39 10
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -590,13 +580,13 @@ Enchanted
 Nest 0
 PrevOwner Audric~
 ExtF 524355
-Stolen 94
+Stolen 73
 Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   0  53  -1  10  18          0
 Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
@@ -609,8 +599,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -629,6 +619,24 @@ PrevOwner Audric~
 Cond 0
 Wear 12
 Cost 20000
+End
+
+#O
+Vnum 18108
+Nest 0
+PrevOwner Audric~
+Cond 0
+Wear -1
+Cost 5600
+End
+
+#O
+Vnum 18108
+Nest 0
+PrevOwner Audric~
+Cond 0
+Wear 16
+Cost 5600
 End
 
 #END

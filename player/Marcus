@@ -3,33 +3,40 @@ Name Marcus~
 SurN Aurelius~
 Id   1004432391
 Email (null)~
-LogO 1120984578
-Vers 31
+LogO 1445701019
+Vers 33
 LnD  A Gladiator~
 Desc He sees nothing special about you.
 ~
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+Prom %e %t %g:GP %s:SP %w%c%h/%H:HP %m/%M:MP %v/%V:MV % ~
 Race elf~
 Clan honor~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 6
-SkPTracker 12
+SkPTimer 1
+SkPTracker 5
 LogoutTracker 0
 Kill 3 21 0 10
 Steal 0 0 0
+MSteal 0
 LstK Corrupt~
 LstKBy Corleone~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1101260235
+LstCombatDate 1311094753
 LstKillDate 1088450465
 LstDeathDate 1089407230
-LoginsWOKill 102
-LoginsWODeath 84
-LoginsWOCombat 16
+LoginsWOKill 112
+LoginsWODeath 94
+LoginsWOCombat 3
 Bnty 200
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 190800 matook~
 DeityT -422 hermes~
 Sac  300
@@ -39,48 +46,48 @@ Node 0
 Cap 0
 Created 1004432396
 Glad 0 0 1 43 0 2
-LastHost 65.28.180.108~
+LastHost 173.215.8.171~
 Cla  12
 Kit prophet~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 372494
-Not  1120690868 1120700979 1114043587 1120459143 1120661033 1120666812 1114043587 1120932777 1114043587 1114043587
+Plyd 387372
+Not  1445700277 1445700277 1445700277 1445700277 1445700277 1445700277 1445700277 1445700277 1445700277 1445700277
 Scro 22
 Rank 2
 Room 31520
-HMV  1102 1102 814 814 481 481
-Gold 390
-Silv 176
+HMV  1203 1224 722 814 479 481
+Gold 1093
+Silv 91
 Exp  484671
-Act  DGHIKS
+Act  CDGHIKS
 MHSF RSUV
-AfBy EFJTc
+AfBy DEFHJTVZc
 Comm S
 Disp FIJLN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 21
-SkiP 48
-Save  -9
-Alig  644
-Hit   11
-Dam   21
-SecHit   11
-SecDam   21
-ACs 23 23 28 59
-Attr 17 20 20 21 16 13 13 20
-AMod 5 3 3 2 5 0 0 0
+Prac 34
+SkiP 12
+Save  -15
+Alig  1000
+Hit   25
+Dam   29
+SecHit   25
+SecDam   29
+ACs 63 63 68 99
+Attr 17 20 20 21 16 11 12 23
+AMod 5 3 3 6 5 0 0 0
 Pass MakbqS9wUUD3I~
 Titl  the honorable elf!~
 Pnts 98
 TSex 1
 LLev 66
 HMVP 792 794 481
-Cnd  0 12 24 24
+Cnd  0 46 46 46
 Alias 1 put all back~
 Alias qq scan~
 Alias ss order all rescue marcus~
@@ -91,12 +98,14 @@ Alias f c famine~
 Alias b bleed~
 Alias sof c 'shield of faith'~
 Alias die order all kill~
+Alias kk c hold orcus~
+Alias ll c hold anaz~
 Sk 83 'aid'
 Sk 75 'armor'
 Sk 97 'bestow holiness'
 Sk 95 'bless'
-Sk 93 'blindness'
-Sk 84 'body weaponry'
+Sk 99 'blindness'
+Sk 86 'body weaponry'
 Sk 78 'call lightning'
 Sk 75 'calm'
 Sk 77 'cancellation'
@@ -104,10 +113,9 @@ Sk 1 'cause critical'
 Sk 1 'cause light'
 Sk 1 'cause serious'
 Sk 1 'change sex'
-Sk 1 'cone of silence'
 Sk 1 'control weather'
-Sk 83 'cure blindness'
-Sk 79 'cure critical'
+Sk 85 'cure blindness'
+Sk 81 'cure critical'
 Sk 75 'cure disease'
 Sk 72 'cure light'
 Sk 80 'cure poison'
@@ -117,16 +125,16 @@ Sk 78 'demonfire'
 Sk 1 'detect evil'
 Sk 81 'detect good'
 Sk 88 'detect hidden'
-Sk 90 'detect invis'
-Sk 77 'detect magic'
+Sk 93 'detect invis'
+Sk 79 'detect magic'
 Sk 1 'detect poison'
 Sk 75 'dispel evil'
 Sk 1 'dispel good'
-Sk 94 'dispel magic'
+Sk 96 'dispel magic'
 Sk 83 'earthquake'
 Sk 75 'endure cold'
 Sk 75 'endure heat'
-Sk 90 'energy drain'
+Sk 93 'energy drain'
 Sk 1 'enervation'
 Sk 88 'entrance'
 Sk 84 'faerie fire'
@@ -140,17 +148,17 @@ Sk 81 'flamestrike'
 Sk 82 'flameseek'
 Sk 82 'fly'
 Sk 1 'forget'
-Sk 94 'frenzy'
+Sk 97 'frenzy'
 Sk 1 'fumble'
 Sk 99 'gate'
 Sk 83 'harm'
 Sk 100 'heal'
 Sk 89 'heat metal'
-Sk 92 'hold person'
+Sk 96 'hold person'
 Sk 1 'holy word'
-Sk 78 'hydrophilia'
-Sk 82 'identify'
-Sk 84 'imbue'
+Sk 81 'hydrophilia'
+Sk 85 'identify'
+Sk 86 'imbue'
 Sk 1 'knock'
 Sk 1 'know alignment'
 Sk 77 'lay on hands'
@@ -167,16 +175,16 @@ Sk 90 'protection evil'
 Sk 75 'protection good'
 Sk 77 'protection neutral'
 Sk 79 'psionic blast'
-Sk 98 'ray of truth'
+Sk 100 'ray of truth'
 Sk 84 'refresh'
 Sk 75 'regeneration'
 Sk 90 'remove curse'
-Sk 75 'sacred guardian'
+Sk 78 'sacred guardian'
 Sk 100 'sanctuary'
 Sk 75 'shield'
 Sk 77 'shield of faith'
 Sk 96 'slow'
-Sk 77 'stone skin'
+Sk 79 'stone skin'
 Sk 88 'summon'
 Sk 75 'symbol i'
 Sk 75 'symbol ii'
@@ -192,7 +200,7 @@ Sk 77 'cryogenesis'
 Sk 75 'draw life'
 Sk 75 'make bag'
 Sk 89 'turn undead'
-Sk 80 'withstand death'
+Sk 83 'withstand death'
 Sk 75 'wound transfer'
 Sk 100 'dagger'
 Sk 100 'flail'
@@ -201,7 +209,7 @@ Sk 100 'bleed'
 Sk 100 'dodge'
 Sk 100 'enhanced damage'
 Sk 100 'parry'
-Sk 93 'shield block'
+Sk 95 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
 Sk 77 'communion'
@@ -210,7 +218,7 @@ Sk 95 'sneak'
 Sk 77 'scrolls'
 Sk 75 'staves'
 Sk 75 'wands'
-Sk 50 'swimming'
+Sk 53 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'cleric basics'
@@ -227,9 +235,20 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect hidden'   0  46  30   0   0         32
-Affc 'detect magic'   0  45  20   0   0         16
-Affc 'fly'   0  39   6   0   0     524288
+Affc 'body weaponry'   0  53  22   0   0   33554432
+Affc 'frenzy'   0  52  15  40  17          0
+Affc 'frenzy'   0  51  15   8  19          0
+Affc 'frenzy'   0  52  15   8  18          0
+Affc 'haste'   0  34  12   4   2    2097152
+Affc 'fly'   0  51  50   0   0     524288
+Affc 'sanctuary'   0  53   2   0   0        128
+Affc 'aid'   0  52   4 122  13          0
+Affc 'bless'   0  44  22  -6  24          0
+Affc 'bless'   0  44  22   6  18          0
+Affc 'detect magic'   0  45   6   0   0         16
+Affc 'imbue'   0  49  10   0   0          0
+Affc 'detect hidden'   0  46  29   0   0         32
+Affc 'detect invis'   0  48  32   0   0          8
 End
 
 #O
@@ -370,15 +389,6 @@ PrevOwner Marcus~
 Cond 0
 Wear 12
 Cost 0
-End
-
-#O
-Vnum 12010
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 15000
 End
 
 #O
@@ -685,8 +695,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  53  -1  13  18          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   1  53  -1  13  18          0
 End
 
 #O
@@ -744,15 +754,6 @@ Cost 2000
 End
 
 #O
-Vnum 8503
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 9107
 Nest 1
 PrevOwner Marcus~
@@ -780,20 +781,6 @@ Cost 1150
 End
 
 #O
-Vnum 20738
-Enchanted
-Nest 1
-PrevOwner Marcus~
-ExtF 17039426
-Cond 0
-Wear -1
-Lev  50
-Cost 4850
-Affc 'enchant weapon'   1  52  -1  12  19          0
-Affc 'enchant weapon'   1  52  -1  12  18          0
-End
-
-#O
 Vnum 18119
 Nest 1
 PrevOwner Marcus~
@@ -811,116 +798,6 @@ ExtF 0
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
 End
 
 #O
@@ -942,8 +819,22 @@ ExtF 323
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  53  -1  10  18          0
 Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 20738
+Enchanted
+Nest 1
+PrevOwner Marcus~
+ExtF 17039426
+Cond 0
+Wear -1
+Lev  50
+Cost 4850
+Affc 'enchant weapon'   1  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #O
@@ -954,6 +845,72 @@ ExtF 0
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Marcus~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Marcus~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Marcus~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 6425
+Nest 1
+PrevOwner Marcus~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9602
+Nest 1
+PrevOwner Marcus~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Marcus~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Marcus~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #O
@@ -998,20 +955,10 @@ End
 Vnum 22552
 Nest 0
 PrevOwner Marcus~
-Stolen 539
+Stolen 990
 Cond 0
 Wear 16
 Cost 0
-End
-
-#O
-Vnum 6425
-Nest 0
-PrevOwner Marcus~
-Cond 0
-Wear -1
-Cost 0
-Val  50 1 0 5 100
 End
 
 #END

@@ -77,6 +77,12 @@ void do_remort( CHAR_DATA *ch, char *argument)
 	    char buf  [MAX_STRING_LENGTH];
 	 */
 
+  if(IS_NPC(ch))
+  {
+    send_to_char("Mobs can not remort.\n\r", ch);
+    return;
+  }
+
   if (ch->position != POS_STANDING)
   {
       send_to_char("I don't think so, you're too preoccupied to remort.\n\r",ch);
@@ -115,16 +121,26 @@ void do_remort( CHAR_DATA *ch, char *argument)
     || !str_cmp(arg,"mummy"))
   {
     /* strip them down and prepare to be remorted */
+    while ( ch->flash_affected )
+	flash_affect_remove( ch, ch->flash_affected,APPLY_BOTH);
     while ( ch->affected )
 	affect_remove( ch, ch->affected,APPLY_BOTH);
     ch->affected_by = 0;
 
 
-    if ( ch->train >= 1 )
+/*    if ( ch->train >= 1 )
 	{
 	ch->pcdata->perm_hit += 10 * ch->train;
 	ch->train = 0;
-	}
+	}*/
+  /* Halve trains instead of putting them into hp */
+  ch->pcdata->half_train = ch->train;
+  ch->train = 0;
+  ch->pcdata->half_retrain = ch->pcdata->retrain;
+  ch->pcdata->retrain = 0;
+  ch->pcdata->trained_hit /= 2;
+  ch->pcdata->trained_mana /= 2;
+  ch->pcdata->trained_move /= 2;
 
 		/* Remove buffy kit  and special groups*/
 			if ( ch->kit== kit_lookup("buffy") 

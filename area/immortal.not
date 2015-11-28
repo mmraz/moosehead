@@ -1,1035 +1,2402 @@
-Sender  Slodhian~
-Date    Sun Aug  7 07:33:12 2005~
-Stamp   1123425192
-To      adminz~
-Subject Kerbouchard~
-Text
-Kerbouchard Character pfile fucked
-
-While trying to pload kerbouchard, Dvalin is loaded
-~
-Sender  Rusty~
-Date    Mon Aug  8 08:26:42 2005~
-Stamp   1123514802
-To      adminz~
-Subject Kerbouchard restored from 2005-07-05 backup~
-Text
-It's a month old, but better than nothing, right?
-Taking a fresh backup now...
--Rusty
-~
-Sender  Slodhian~
-Date    Tue Aug  9 14:10:44 2005~
-Stamp   1123621844
-To      adminz~
-Subject Incinerate and Adamantite skin (magelab 3000)~
-Text
-I'm not 100% sure if there is actually anything wrong in them
-as I have been able to make them myself at some point (this was long time ago t
-though)
-however, many have reported that they cant make these two spells anymore
-with any of their chars. so I'm starting to think there has been
-some change that made the requirements a bit high or something like that
-
-And I just realized what it may be. The forge recipies require 
-research skill most likely that was taken away from the game.
-The forges are BUSTED.
-Recipies are 12 and 13. may be others there too that require the same
-but those two are the ones required for incinerate and addy skin
-~
-Sender  Slodhian~
-Date    Thu Aug 11 12:59:31 2005~
-Stamp   1123790371
+Sender  Andaron~
+Date    Fri Dec 28 13:38:10 2012~
+Stamp   1356730690
 To      immortal~
-Subject olympus door fixed~
+Subject recall and no-recall~
 Text
-~
-Sender  Alagaster~
-Date    Fri Aug 12 15:21:26 2005~
-Stamp   1123885286
-To      adminZ~
-Subject My not being here~
+The original intent was because new players were getting repeatedly stuck in
+voids, so this gave them a (Long) way out.  1212 was a bit of an oversight that
+I can correct, but before I did that wanted to see what people thought: Should
+all no_recall (Not altirin type, which is different) be inescapable?  This
+means voids, etc.  Or should 1212 just be a special extra-hard case that just
+blocks everything?
+~
+Sender  Andaron~
+Date    Fri Dec 28 13:55:05 2012~
+Stamp   1356731705
+To      immortal~
+Subject Added clarification~
 Text
-I'm back to work for the year and I have a
-new principal.  I'm not going to be around for
-for the next couple of months.  Sorry to leave
-an already crippled IMMstaff.
+As an added note, if I made it so 1212 was a special no_recall case, it would
+be triggered based on having no valid exits.  So any other prison rooms (Be
+they for quests or whatever was needed) would also block recalling completely,
+while voids people might teleport into (Which was the original issue) would be
+escapable back to recall.
+
+Andaron
 ~
 Sender  Slodhian~
-Date    Sun Aug 14 06:19:12 2005~
-Stamp   1124025552
-To      rusty~
-Subject Kerb~
+Date    Fri Dec 28 14:15:34 2012~
+Stamp   1356732934
+To      immortal~
+Subject re: recall and no-recall~
 Text
-I gave the killer flag back to him yesterday as that 
-could be easily enough checked from pkill logs.
-At the same time I told him that we dont give items
-as there is no way to verify if he really had any of them.
-(he begged for full set and ergun was the one to verify that he had it)
+In my opinion, since there are no places that you cant get out by walking,
+recalling or gating.
+No-recall should be just that, you cant recall from there.
+There are both hard and easy voids, and they should stay no-recall voids
+if creator so thought. There are voids that you can recall anyways.
 
-the two items he asked now wont hurt much. as feather, even though its
-rare doesnt help much in pkilling and small cloud of steam can be found from
-Planes of water as a regular repop
+no-recall is one main component on building effective void and stripping
+that from builders toolbox means there really is no worthy
+voids anymore, just recall and try again.
+
+
+There are really few "deadly" voids in the boinga, and thus
+getting stuck for few moments wont hurt gameplay
+Also, To most places there is already portals out there
+from where you can avoid voids.
+~
+Sender  Slodhian~
+Date    Fri Dec 28 16:18:15 2012~
+Stamp   1356740295
+To      immortal~
+Subject norecall~
+Text
+in addition to last note
+All imms have immroom they use along with 1212
+these rooms can be in 1200+ vnums or in areas they created.
+to get all these separately added into code everytime someone creates their own
+area is quite stupid.
+
+so No_Recall should be just that, not allow recall to be used.
+
+There is no "prisons" in boinga, you can get out from anywhere but imm rooms
+somehow
+Either by walking around, or gate/summon
+Death traps were not allowed and I do not think there is any even now with the
+few changes.
+
+So since there is always a way to get out, no_recall is needed to keep
+voids intact
+~
+Sender  Uniball~
+Date    Tue Jan  1 13:34:10 2013~
+Stamp   1357076050
+To      immortal~
+Subject RE:Norecall~
+Text
+Only exception to this that I can really think of would be norecall rooms that
+are only accessable by timed keys that disinigrate after a short time, leaving
+you stuck in a locked room with no way out. Short of something like that
+happening to you, getting out of voids and such really did become almost too
+easy with recall change. Just throwing my 2 cents worth into the mix.
+
+Uniball
+~
+Sender  Slodhian~
+Date    Tue Jan  1 15:30:21 2013~
+Stamp   1357083021
+To      immortal~
+Subject rot_death~
+Text
+Change it to not work if itemholder is mob. only player. This fixes uniballs
+problem and 200+ other items in game
+~
+Sender  Slodhian~
+Date    Tue Jan  1 18:30:34 2013~
+Stamp   1357093834
+To      immortal admin~
+Subject Uniball~
+Text
+Uniballs level has been raised to 58
+He is now responsible of everyday stuff that needs small fixes
+One including today clan fountain that was fubered.
+
+He is active player that sees things that we do not
+and thus he has best ability to see them firsthand
+
+Treat him accordingly. (slay, what ever, noobie he is anyways)
+
+subject Advancement in immortal life
+~
+Sender  Slodhian~
+Date    Tue Jan  1 18:42:12 2013~
+Stamp   1357094532
+To      uniball admin~
+Subject Uniball~
+Text
+In order to hold admin ranks up
+I am proposing Uniball to administration
+
+He plays alot, more than rage, alagaster, karag and I
+and thus has lots of information about gameplay
+that is vital for admins.
+
+He is now part of everyday work and needs to hold
+his part in fixing things that appear in game.
+and doing so, he shows that is is working for MHS
+
+
+He should be advanced to admin state in field of
+everyday small things.  (mouses etc)
+and kept responsible if anyone of us see those damn rodents in our houses.
+
+Up for Admin chat
+
+with respect, Slodhian
+~
+Sender  Slodhian~
+Date    Tue Jan  1 19:51:54 2013~
+Stamp   1357098714
+To      admin~
+Subject Uniball~
+Text
+Reason why I announced it so
+is that he is our only player who takes responsibility
+over his actions. And what I have seen, he keeps his imm and mortals apart
+
+Due this, I feel he should be given atleast admin commands at 58
+if note full status of 59 admin
+
+
+we are short of imms. basically it's just me, uniball and mindweaver
+when she gets well. this is not enough
+
+Also uniball sit basicly 24/7 in here with his alts so
+he has ALOT of game knowledge.
+
+None of us in current admin have same knowledge from new system
+~
+Sender  Andaron~
+Date    Wed Jan  2 11:26:11 2013~
+Stamp   1357154771
+To      admin~
+Subject Re: Uniball~
+Text
+I have no objections to him becoming admin, though I've been sadly absent more
+than I like myself so am not as in touch with things as I might be.  Take my
+vote with that grain of sand :)
+~
+Sender  Slodhian~
+Date    Fri Jan  4 10:07:27 2013~
+Stamp   1357322847
+To      immortal~
+Subject Giltorian/Abram/Drakan~
+Text
+Handled
+~
+Sender  Slodhian~
+Date    Fri Jan  4 12:23:49 2013~
+Stamp   1357331029
+To      admin~
+Subject Uniball~
+Text
+ok, if no one objects before 15th of jan I will icg uniball
+
+with group admin. This will allow him to access all commands that
+help him with his duty of "everything junior admin" and help things
+he sees while playing and gives us one more powerful imm that
+can help things done.
+As he is junior member of admin team, and doesn't know all
+ropes, switches and stuff, he can stay at 58. as that is starting
+level for Admins.
 
 Slodhian
 ~
-Sender  BriarRose~
-Date    Mon Aug 15 15:24:45 2005~
-Stamp   1124144685
-To      admins~
-Subject I'll be around a little more...~
+Sender  Braxen~
+Date    Fri Jan  4 14:14:59 2013~
+Stamp   1357337699
+To      Immortal~
+Subject Uniball 58~
 Text
-I've been put on light duty/bedrest due to placenta prevea and bleeding.
-so I'll have more time to check in.  Not sure what I'd be needed for
-but thought I'd let you know.
+Congrats to Uniball for the promotion (hope it came with a raise)
+I know that Uniball will do good things for the game and address small issues
+and larger issues as they arise.
+
+Congrats, I look forward to seeing what the next couple of months will bring!
+
+Braxen.
 ~
 Sender  Slodhian~
-Date    Tue Aug 16 10:25:20 2005~
-Stamp   1124213120
-To      admins~
-Subject Help hero~
+Date    Fri Jan  4 17:41:55 2013~
+Stamp   1357350115
+To      immortal admin Uniball~
+Subject First task for Uniball~
 Text
-Missing atleast strife currently, and seog is mentioned twice.
-~
-Sender  Slodhian~
-Date    Tue Aug 16 13:50:51 2005~
-Stamp   1124225451
-To      briarrose~
-Subject Good to hear~
-Text
-you were asking what you had to give here, personally
-I think that those huge throbbing cock and such should be finished :)
-especially if that little thing that is going to make almost unbearable
-pain and while considering it kicking your stomach, while inside
-gives you any inspiration for painful pleasures for the people playing :)
-I'm all up to having to finish that area :)
-~
-Sender  BriarRose~
-Date    Tue Aug 16 15:11:41 2005~
-Stamp   1124230301
-To      admin~
-Subject well....~
-Text
-I'll have to get zmud on this laptop as I'm on telnet now
-and I'd have to get the address to get on old again...
-and I'd have to get a funnie, I think I have one
-on the other computer...
-and I'd need a week or so to figure out where aI was there
-not bad for telnet with no echo, huh?
-:)
-~
-Sender  Slodhian~
-Date    Fri Aug 19 08:14:13 2005~
-Stamp   1124457253
-To      immortal~
-Subject Abram's house~
-Text
-abram paid 305 eggs from house.
-(4room house with advanced magelab and one pit)
-owners will be abram and chewik
+In first few minutes due interaction with other of her(mindweaver) areas, in
+matook there is few "weird" rooms. If there is crash or boot, Uniball has now
+chance to show his ability to overcome these small problems within the game
+instead of modi
+modifying the code or areas. He can add portals for mortals to get out etc.
+This is awesome time for him to take few seconds to fix deathtraps that get
+overlooked like in this case, check if mobs are truly immune everything (and
+no, they are not
+if there is even one weapon to kill them)
 
-place for house is down from 31023
-
-I'll build the house once olc is back up again.
-~
-Sender  Slodhian~
-Date    Sun Aug 21 15:02:44 2005~
-Stamp   1124654564
-To      boogums immortal~
-Subject nalo-blackrainbow~
-Text
-thank you, I've tried to keep eye on those two for weeks
-yet couldnt find anything they were doing together directly. 
-Good catch!.
-also, Really good lesson for nalo who "knows" stuff better than imms :D
-~
-Sender  BriarRose~
-Date    Sun Aug 21 15:53:25 2005~
-Stamp   1124657605
-To      rusty~
-Subject Kd's birthday...~
-Text
-Kd turned 13 today.  Her email address kdbugbug@gmail.com
-if you'd like to drop her a note :)
-*hugs*
-T
-~
-Sender  Slodhian~
-Date    Sun Aug 21 16:41:40 2005~
-Stamp   1124660500
-To      adminz~
-Subject slight change to code~
-Text
-I think we need slight change to immune code
-
-if opponent is immune to damage you deal, and vise versea (infinite battle)
-then the immune would change to resist meaning in the end, the battle will end
-
-having something like this:
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-[22511] a magman is here, fighting a magman.
-
-Is just pointless, dont you agreE?
+But now, it's Uniballs work to fix every bug in Mindweavers Matook area
+in live port. to keep gameplay intact
 
 slodhian
 ~
-Sender  Rusty~
-Date    Mon Aug 22 10:07:48 2005~
-Stamp   1124723268
-To      immortal~
-Subject OLC restarted~
-Text
-OLC should be back up.
-~
 Sender  Slodhian~
-Date    Tue Aug 23 04:11:49 2005~
-Stamp   1124788309
-To      adminz~
-Subject Immunities again..~
+Date    Fri Jan  4 18:51:31 2013~
+Stamp   1357354291
+To      andaron~
+Subject Uniball~
 Text
-the ruling....yeah..
-{x
-well, first I thought I should change the damagetypes
-those magman and alike use, so the fights would end.
-however, it was a bigger problem than I thought.
-{x
-As those mobs have coded specialities, they summon
-more mobs when they get to certain health point. 
-If player has corpse from the mob he is fighting
-in the same room sitting, the mobs summoned by
-the fmob (fighting mob) wont do anything (tries
-to rescue the corpse which aint fighting). same
-could be used to start infinite fight. 
-for example: kill flame salamander, take the corpse
-animate it, attack new salamander, once the salamander
-gets to the health where he starts summoning mobs,
-the magman it summons rescues the corpse and fights
-the salamander instead. if you at this point, put on
-weapon that deals really small amounts of damage the
-salamander starts summoning help continously and it
-ends up to the point where in few minutes there is
-shitload of magman fighting salamander in endless
-battle. this is not so bad ofcourse, as it requires
-work from player to start it and make it worse.
-but in last few days, there were shitload of these
-fights in pof at the same time. 
-{x
-you can use this tactic to every mob in pof and pow
-as those two have the progs that summon help.
-{x
-only ways to fix something like this would be to change
-every damagemessage in there to something that those
-mobs are not immune to, but that would lead into
-point where the toughest mobs (kings and giants) would
-die really fast. and that makes it too easy. 
-Or change the animated corpse to not have keywords from
-mob instead having something like "animated corpse".
-short and long could be still the same as they are now.
-and, making socials help against aggies a bit more random
-or level dependant as morts suggested in ideas. so that
-for example 55+ level mobs if aggy would be that always
-but less than that would be affected by social and even
-then, there would never be "24 social means you will
-never get attacked by aggy mobs" but some radomness even
-there....
-{x
-a bit long I know....
-{x
-Slod
-~
-Sender  Rusty~
-Date    Tue Aug 23 22:06:23 2005~
-Stamp   1124852783
-To      adminz~
-Subject Immune MOBs~
-Text
-The solution is to change the damage type of the MOB.  Should be
-able to write a quick macro that takes a vnum and a new damage
-type as arguments and whips through the menus.  Not too time
-intensive.  Who is up for the task?
--Rusty
-~
-Sender  BriarRose~
-Date    Wed Aug 24 09:57:19 2005~
-Stamp   1124895439
-To      adminz~
-Subject Well...~
-Text
-since I have no idea what a macro like that takes....
-and there's only two of us working here.. (me and slod)
-I am guessing this would fall on Sloddie to do...
-I's just a little barefoot, preggers southern girl...
-I don't know nothing bout birthin no macros
-:) :) :) (written with humor)
-~
-Sender  Slodhian~
-Date    Thu Aug 25 02:51:36 2005~
-Stamp   1124956296
-To      adminz~
-Subject pof/pow~
-Text
+Had a talk with Uniball
 
-damagemessage on mobs changed, only guardians and kings remained 
-flame/splash damage.
-~
-Sender  Slodhian~
-Date    Thu Aug 25 08:30:10 2005~
-Stamp   1124976610
-To      adminz~
-Subject I know I know..~
-Text
+Talked about having to take responsibility on problems in live port
+on matook, added log on him will be removed on 15th
 
-I guilded downy loner, he was still level 21 and had not collected exp to level
-I know we dont do these alot and I made it clear for him too.
-he had played almost 30 hours and was about 18k/level so it would be
-just a waste to lose player on something like that. we dont have enough of em.
-~
-Sender  Rusty~
-Date    Thu Aug 25 14:31:30 2005~
-Stamp   1124998290
-To      adminz~
-Subject Lonering Downy~
-Text
-I'm all good with it as it was a judgement call.
--Rusty
-~
-Sender  Boogums~
-Date    Tue Aug 30 21:02:49 2005~
-Stamp   1125453769
-To      rustily~
-Subject Me in Chicago~
-Text
-I may be coming to Chicago for some training Sept 19-21
-the hotel's the Hampton Inn Chicago - Carol Stream
-the classes are in Bloomingdale
-i'm planning on flying on on the 18th and plan on being in at 3pmish
-and would leave first thing thursday morning on an 8:15am flight out
-so, what's the area like? :)
-I should know by the end of the week if it's a go
-Slod, I tried to get some traning in Helsinki, but they woudln't buy it
-Boogums
+shows what happens when he knows if he has responsibility
+in game
 ~
 Sender  Slodhian~
-Date    Wed Aug 31 14:18:21 2005~
-Stamp   1125515901
-To      adminz~
-Subject clan changes~
+Date    Fri Jan  4 21:56:11 2013~
+Stamp   1357365371
+To      andaron~
+Subject format for helpfiles~
 Text
-Just wondering,
-.
-Would it be impossible to drop one clan from the list 
-for time being? 
-We really dont have players for every clan and as everyone
-is against everyone, there is no realy pkilling happening
-unless it's just one from two clans online alone...
-.
-I dont really mind which clan goes, preferably the idle one
-(posse/honor), or the only specialized clan warlock...
-although, they have members to keep the clan running.
-.
-But for time being, we shouldnt have 5 clans, maximum of 4
-clans. and with that, there should be slight changes on 
-clan interactions, like instead of being enemy of everyone, 
-being enemy of one different clan (honor vs demise, zealot
-vs honor, warlock vs zealot, and demise vs all). that way
-2 clans can unite against one but 3 cant....and demise
-would be the biggest bullies of boinga like they have been
-always.  (posse left out only because they are against flaggers,
-that could be changed on behalf of zealot and allowed to
-group with ruffians and thugs to kill flaggers. slightly 
-easier charter with flags, (allowed flag, but killers must
-be killed on sight)
-.
-these are all mostly just charter changes, and/or clan
-removals. but in my opinion considering the playerbase, 
-needed to liven up the static life here.
-.
-Slod
-~
-Sender  Boogums~
-Date    Wed Aug 31 18:39:01 2005~
-Stamp   1125531541
-To      adminz~
-Subject Remove a clan?~
-Text
-hehehehehhehehehehehehehehehehehehehehehe
-hhehehehehehehehehehehehehehehehe
-hehehehehhehehehehehehehehehehehehehehehe
-hhehehehehehehehehehehehehehehehe
-hehehehehhehehehehehehehehehehehehehehehe
-hhehehehehehehehehehehehehehehehe
-hehehehehhehehehehehehehehehehehehehehehe
-hhehehehehehehehehehehehehehehehe
-hehehehehhehehehehehehehehehehehehehehehe
-hhehehehehehehehehehehehehehehehe
-I can hear the whine now :)
-Boogums
-~
-Sender  Rusty~
-Date    Wed Aug 31 22:19:07 2005~
-Stamp   1125544747
-To      Boogums~
-Subject In my neck of the woods~
-Text
-Carol Stream and Bloomingdale are boring suburbs, nothing real special
-about them.  How about I pick you up at the airport and we go have
-a dinner, hang out and talk?  Then I can drop you off at your hotel.
-Betty is all good with me going out that evening (I asked permission :)
--Rusty
+{G-----------------------------------------{x
+BASH
+{G-----------------------------------------{x
+The bash skill is a warrior talent, a brute-force attack designed to knockyour
+foe to his knees.  Its success depends on many factors, including thebash
+rating, your weight, and the size of your opponent.  Bashing a dragois not
+generally a wise i
+{G-----------------------------------------{x
+{CWeight Size Dragon{x
 ~
 Sender  Slodhian~
-Date    Thu Sep  1 02:32:03 2005~
-Stamp   1125559923
-To      adminz~
-Subject I know, I know...~
+Date    Sat Jan  5 17:02:17 2013~
+Stamp   1357434137
+To      andaron~
+Subject Matook~
 Text
-Yes, there will be whining.
-.
-But what have you coded that didnt cause it? :)
-what have we done that havent caused it?
-.
-Maybe it should be more gentle way to remove it,
-for example, not allow them to recruit more
-people. eventually they fade away. some occasional
-people may log in in future but they will be 
-targeted by everyone...
-.
-I dunno, all I know is that boring is not good.
-.
+Please return original matook into live port, Mindweavers area has way too many
+problems to have online
+it has not been reviewed properly as I thought so there is way too
+many problems to be even fixed.
+
+~
+Sender  Andaron~
+Date    Sat Jan  5 20:02:48 2013~
+Stamp   1357444968
+To      Slodhian~
+Subject Re: Matook~
+Text
+It should be rolled back, since someone was levelling at the time I didn't
+reboot the game.  I have added a note to my list of things to do to add a way
+for you to access the backup files.
+
+Andaron
+~
+Sender  Slodhian~
+Date    Sun Jan  6 14:48:26 2013~
+Stamp   1357512506
+To      andaron~
+Subject Matook~
+Text
+I think you brought back changed matook instead of original
+Mindweavers area is not anywhere near the requirements for new areas.
+but haste potions at lvl 1 and avg 7 weapons
+are no where near the "area is good" as karag said when checking.
+
+removing area will remove all the items from game also so it should
+fix items in game already.
+~
+Sender  Uniball~
+Date    Sun Jan  6 15:13:18 2013~
+Stamp   1357513998
+To      admin~
+Subject Church of Matook~
+Text
+Regen in room 16508 is 100/200
+Regen in room 16545 is 100/120
+16502 is a lvl 5 mob, Hit: 0  Dam: 1 1d6 damage, 65 hp
+16505 is a lvl 10 mob, Hit: -20  Dam: 2 2d7 damage,131 hp
+16506 is a lvl 15 mob, Hit: 3  Dam: 6 2d6 damage, 223 hp
+16507 is a lvl 15 mob, Hit: 0  Dam: 2 1d6 damage, 223 hp
+16508 is a lvl 20 mob, Hit: 4  Dam: 10 4d4 damage, 341 hp
+16509 is a lvl 7 mob, Hit: 8  Dam: 1, 1d4 damage, 88 hp
+obj 16506 100/200 regen whirlpool
+obj 16530 Matook Ring, lvl 1, nodrop, portal to 16500, saves -5, adds
+detect_align, nodrop, no_locate, wear on finger
+obj 16531 a blood-soaked bandage, lvl 7, weight is 1.0, value is 500,
+rot_death, wear head, Armor class is 0 pierce, -2 bash, -2 slash, and 0 vs.
+magic, 4 con, -2 saves
+obj 16544 is 100/200 regen, community bath
+obj 16554 is a bony finger, dagger, lvl 1, 2d6 (avg 7) frost vampiric poison
+flags, +2 dex, 1 dam, 1 hit, nodrop, no_locate, cost 5000, made of bone, claw
+damage
+~
+Sender  Slodhian~
+Date    Sun Jan  6 16:37:00 2013~
+Stamp   1357519020
+To      uniball admin immortal~
+Subject Uniball~
+Text
+Uniball has been rewarded from his huge work for MHS
+Admin status. His word is now a ruling.
+~
+Sender  Mindweaver~
+Date    Wed Jan  9 23:17:44 2013~
+Stamp   1357802264
+To      Slodhian Uniball Immortal~
+Subject Mindweaver areas and matook~
+Text
+I would have liked to have had the chance to fix the problems
+though I know I have not been around due to illness.
+That will be changing soon and I would like the opportunity
+to fix it OR at least be told what is going to be fixed.
+I feel violated ROFL
+I have been on and could have been told of this ahead of time.
+
+
+My other areas are not to be touched yet I hope.
+
+
+Mindweaver
+~
+Sender  Slodhian~
+Date    Thu Jan 10 13:08:29 2013~
+Stamp   1357852109
+To      mindweaver immortal~
+Subject {CRE:{x Mindweaver areas and matook~
+Text
+This was my fault completely.
+as you remember you told the area was ready for inspection and karag and you
+took alot of time to fix it. I thought it actually was closer for
+ready than it was.
+
+I truly wish you finish the area, and _I_ will take a bit more closer look
+on things I ask andaron to put in game.
+
+Now we know few things that you might need to fix and we can get your
+area online fast. Uniball has even reviewed it for you for starters.
+
+It was all my fault, not yours.
+
 slod
 ~
-Sender  Rusty~
-Date    Thu Sep  1 10:42:27 2005~
-Stamp   1125589347
-To      adminz~
-Subject A Clan going *POOF*~
+Sender  Slodhian~
+Date    Mon Jan 14 14:55:59 2013~
+Stamp   1358204159
+To      admin Uniball~
+Subject Help files~
 Text
-It would be fairly simple to change all players in a certain clan
-to Loners.  I could have it done in about 10 minutes by running an
-update script against the full set of pfiles.  But, I would seriously
-consider discussing this with the affected player group first.
--Rusty
+First new file ever created : Size
+First live file edited: Dragon
+
+found bugs: at text mode if you type just /delete it doesn't allow
+you to remove yourself from edit. relog fixed.
+
+now all we need is a way to bring these things on live :)
+ps. Uniball edited, I created.
 ~
-Sender  Boogums~
-Date    Thu Sep  1 22:25:43 2005~
-Stamp   1125631543
-To      rusty~
-Subject 18th-22nd~
+Sender  Andaron~
+Date    Tue Jan 15 23:32:09 2013~
+Stamp   1358321529
+To      admin Uniball~
+Subject synchelps~
 Text
-Here's my itenerary:
-18th Alaska Airlines 20 leave Seattle 8:45am arrive O'Hare 2:41pm
-22nd Alaska Airlines 21 leave O'Hare 8:15am arrive Seattle 10:45am
-The 19th, 20th, 21st, I'm in class all day from 8 to 5
-And with that early flight out, no partying hardy for me on Wednesday
-night :).
-I am getting a car at the airport but I would love to get together
-how ever often we can, drink a beer and yak.
-corey
+Currently a level 59 command, synchelps will bring over the currently saved
+helps from OLC (Any not draft)  They'll be immediately here, without a need for
+a reboot.
+
+Since each time it's done it creates a backup I'd ask that you not spam sync
+them, but the file isn't huge so feel free to sync after you're done working
+for a given time period.
+
+Andaron
+~
+Sender  Andaron~
+Date    Tue Jan 15 23:34:20 2013~
+Stamp   1358321660
+To      immortal~
+Subject edithelp on OLC~
+Text
+There's a new edithelp command over on OLC that you can use to update help
+files, so if you see typos, missing related words, missing helpfiles entirely,
+or whatever you can now do something about it.  After editing let an admin
+know (Or write a note here) that they've been updated and we'll get the changes
+live.
+
+Andaron
 ~
 Sender  Slodhian~
-Date    Fri Sep  2 16:19:53 2005~
-Stamp   1125695993
-To      adminz~
-Subject Clans~
+Date    Wed Jan 16 10:16:28 2013~
+Stamp   1358360188
+To      uniball admin~
+Subject what I was talking about in immchat~
 Text
-I know we need to get the feedback from players,
-that was next phaze of it. however...
+{G----------------------------------------{x
+DRAGON DRAGONS
+{G----------------------------------------{x
+Dragons are those big scaley creatures. They may become very powerful as
+they grow.  They have {Cinfrared vision{x and {Cfly{x naturally.  They receive
+{Cenhanced damage{x, and {Chand to hand{x combat skills for free, and naturally
+their breath is dangerous.  They are very costly to play in both time
+spent and experience needed as a trade off to their power.
 
-To be honest, I have only one clan to remove.
-rest I've been considering but found that they
-have way too good "charter" to follow.
+{G----------------------------------------{x
+{CRACE SIZE XP DBITE{x
+~
+Sender  Braxen~
+Date    Wed Jan 16 13:58:11 2013~
+Stamp   1358373491
+To      Immortal~
+Subject Help Class~
+Text
+Help experience
+related help files, race class
+Help class, no help file.
+Also, how do I do this?  Guess I should do something.
 
-I know only one should go as 5 clans is too widely
-spread considering our pbase.
+Maybe when you type 'help class' it could come back and say
+"You have no class." or "Class? School's out for the summer!"
 
-First I thought of Posse, because of it's 
-so specific target. however, they have best
-way of "balancing" the pfights as no one knows
-who they attack really. so they shouldn't really
-be considered to be removed. and they dont have
-specific classes who can join
+Braxen
+~
+Sender  Slodhian~
+Date    Wed Jan 16 14:20:07 2013~
+Stamp   1358374807
+To      Braxen immortal~
+Subject {CRE{x: Hel Class~
+Text
+help ehelp in olc
 
-Demise is running too much around kerbouchard, 
-which is good reason for them to be removed. Can't
-really have clan that only recruits his friends.
-however, Evil can be put against absolutely anything
-in new clans, thus, it has a good chance of surviving...
-and considering that they follow Cthon, it has good
-base for religious war against zealot if it stays.
+related: these will change continuously as it's only one day old
 
-Zealot, Personally I've never liked this clan, but then 
-again, It does have very good memberbase and it could
-be changed into honors place to fight against demise.
-why?...Religion. almighty against cthon. which is which,
-that wouldnt be said. but it makes more sense nowadays 
-than good and evil. (which is against honor...) also
-zealot does have rplayish thingies in it. so it also is
-+ for it.
+there are typos etc out there that will be weeded out
+For example for help class it could just include classes available as it does
+in _certain_ part of creation
 
-Warlock Does have good pbase and ability to rplay, how
-ever, currently our pbase cannot hold the 3 positions 
-in it's leadership and recruiter requirements, so
-it might be a worth to remove this one. but considering
-the interest towards it by players who create magic users,
-I would want to see more reasons in why it would be the one.
-more: 
-however, the restriction on who can join, makes it almost
-impossible to make clan work as non casters are easier to 
-work with, and they manage to get kills easier. and with that
-players choose them instead of casters.
+we are discussing further on how to format helpfiles among admins
+but feel free to fix what you think should be done, BUT
+leave them in Draft stage in olc and let us know what you fixed.
 
-Honor. Now this is tough. I have never, in my life seen
-anything done in this clan really. it's always been under
-mutiny or something. And, it is something that will never
-become anything because of it's name. "Honor" makes it too
-obvious reason to whine. "you were not honorable" "you looted
-me, it wasnt honorable" and currently they do not have good
-memberbase. And the "newbie help" clan is really no longer
-necessary as there is atleast 1 matook online /day (which
-is more than any honor logs in) right now, including leader.
+slodhian
+~
+Sender  Slodhian~
+Date    Wed Jan 16 14:48:00 2013~
+Stamp   1358376480
+To      braxen immortal~
+Subject Ehelp ~
+Text
+Actually make that review instead of draft. that way files will be in game, but
+the review is required to check that is fits new regime
+~
+Sender  Slodhian~
+Date    Wed Jan 16 17:18:29 2013~
+Stamp   1358385509
+To      andaron~
+Subject Wizlist~
+Text
+wizlist has reverted to years back, there is no andaron etc
+might want to fix..
+~
+Sender  Slodhian~
+Date    Wed Jan 16 18:45:00 2013~
+Stamp   1358390700
+To      immortal~
+Subject Colors in wizlist~
+Text
+{x        {D__________{x     {Y==============================={x     {D__________{x
+{x       {D/+_+_+_+_+_\{x    {Y|    {WThe Gods of Moosehead{x    |{x    {D/+_+_+_+_+_\{x
+{x       {D\__________/{x    {Y==============================={x    {D\__________/{x
+{x         {D|{W::{yXXXX{D|{x                                           {D|{yXXXX{W::{D|{x
+{x         {D|{yX{W::{yXXX{D|{x              Creator / IMP                {D|{W:{yXXXX{W:{D|{x
+{x         {D|{yXX{W::{yXX{D|{x               {Y-----------{x                 {D|{W::{yXXXX{D|{x
+{x         {D|{yXXX{W::{yX{D|{x        Rusty, The Oxidizing Dragon        {D|{yX{W::{yXXX{D|{x
+{x         {D|{yXXXX{W::{D|{x                                           {D|{yXXX{W::{yX{D|{x
+{x         {D|{yX{W::{yXXX{D|{x            Benefactor / Coder             {D|{W:{yXXXX{W:{D|{x
+{x         {D|{yXXXX{W::{D|{x               {Y-----------{x                 {D|{yXXX{W::{yX{D|{x
+{x         {D|{yX{W::{yXXX{D|{x       Boogums "BooglyDude" McDugal        {D|{W::{yXXXX{D|{x
+{x         {D|{yXXXX{W::{D|{x                                           {D|{yXXX{W::{yX{D|{x
+{x         {D|{W:{yXXXX{W:{D|{x                                           {D|{yXXXX{W::{D|{x
+{x {D/<<>>\/<<>>\/<<>>\/<<>>\{x                           {D/<<>>\/<<>>\/<<>>\/<<>>\{x
+{x {D\<<>>/\<<>>/\<<>>/\<<>>/{x       Immortals           {D\<<>>/\<<>>/\<<>>/\<<>>/{x
+{x        {D|{c.  /\ . {D|{x              {Y-----------{x                {D|{c.  /\ . {D|{x
+{x        {D|{c . /\  .{D|{x               Alagaster                 {D|{c .//\ . {D|{x
+{x        {D|{c .//\.  {D|{x               BriarRose  - ADMIN        {D|{c.  /\ . {D|{x
+{x        {D|{c.  /\.  {D|{x               KallaLilly                {D|{c.  /\ . {D|{x
+{x        {D|{c . /\  .{D|{x               Karag                     {D|{c . /\  .{D|{x
+{x        {D|{c . /\  .{D|{x               Kuno - ADMIN              {D|{c . /\  .{D|{x
+{x        {D|{c .//\.  {D|{x               Slodhian - ADMIN          {D|{c .//\  .{D|{x
+{x        {D|{c . /\.  {D|{x                                         {D|{c . /\.  {D|{x
+{x        {D|{c.  /\ . {D|{x                                         {D|{c.  /\ . {D|{x
+{x        {D|{c . /\  .{D|{x                                         {D|{c .//\ . {D|{x
+{x        {D|{c .//\.  {D|{x                                         {D|{c.  /\ . {D|{x
+{x        {D|{c.  /\.  {D|{x                                         {D|{c.  /\ . {D|{x
+{x        {D|{c . /\  .{D|{x                                         {D|{c . /\  .{D|{x
+{x        {D|{c . /\  .{D|{x                                         {D|{c . /\  .{D|{x
+{x        {D|{c.  /\  .{D|{x                                         {D|{c.  /\  .{D|{x
+{x        {D|{c . /\.  {D|{x                                         {D|{c . /\.  {D|{x
+{x        {D|{c.  /\ . {D|{x                                         {D|{c.  /\ . {D|{x
+{x        {D|{c .//\  .{D|{x     Long live the memory of Mandrake    {D|{c .//\  .{D|{x
+{x         {D\{c. /\  {D/{x         who left before his time.         {D\{c. /\  {D/{x
+{x          {D\{c /\ {D/{x    [ IMMORTAL ] Grey Kellam : Mandrake      {D\{c /\ {D/{x
+{x           {D\/{c\{D/{x                                               {D\{c/\{D/{x
+{x            {D\/{x                                                 {D\/{x
 
-Personally I wouldnt remove any of them, as I've seen them 
-all work in some point. however. I know also that we do have
-too many clans to work with, and not everyone of them can
-hold the leaders and members on at the same time with the 
-pbase and by that, there is no real chance for people to 
-completely upgrade the clanhalls anymore. with one clan
-removed, there is higher chance of clans upgrading 
-as more people might join the existing clans and donate
-the money they collect. and with that, we might get the
-open halls to work a bit better.
+anyone think it would be worth trying?
+~
+Sender  Andaron~
+Date    Wed Jan 16 23:34:49 2013~
+Stamp   1358408089
+To      immortal Slodhian~
+Subject Re: Coloring wizlist~
+Text
+First, thanks for catching that I'd used OLC's outdated helpfiles as the basis.
+ I've fixed that issue so all the newest helpfiles are back, and I caught the
+ones we'd updated already. Since not many had been changed yet it was easy,
+I'm glad it didn't go further before it was noticed.
 
-BUT,
+As far as coloring goes, that's awesome and I have modified it and put it live.
+ If you want to tweak it slightly feel free to, but I agree with your design.
 
-What's your thoughts? other than
-"they will whine" ;)
+Andaron
+~
+Sender  Slodhian~
+Date    Thu Jan 17 05:59:26 2013~
+Stamp   1358431166
+To      andaron~
+Subject ehelp details~
+Text
+Ehelp details shows file as "not modified" even if other places show (modified)
+~
+Sender  Slodhian~
+Date    Thu Jan 17 06:35:41 2013~
+Stamp   1358433341
+To      andaron immortal~
+Subject Synchelp~
+Text
+After editing couple helpfiles, synchelp in live crashed the game
+~
+Sender  Slodhian~
+Date    Thu Jan 17 06:41:18 2013~
+Stamp   1358433678
+To      Braxen immortal~
+Subject Help class~
+Text
+Help class created for Braxen to view :)
+~
+Sender  Uniball~
+Date    Thu Jan 17 07:05:12 2013~
+Stamp   1358435112
+To      Andaron Slodhian Immortal~
+Subject Bug with help file editing~
+Text
+ehelp status 'xxxxxxxxx'
+If you happen to use this comman with something other than legacy, review, or
+final it deletes everything in your the text part of the help file your
+editing. Just a heads up to everyone, happened to me 3 times before I figured
+it out lol.
+~
+Sender  Andaron~
+Date    Thu Jan 17 11:10:10 2013~
+Stamp   1358449810
+To      Uniball Slodhian Immortal~
+Subject Re: Bug with help file editing~
+Text
+Fixed the ehelp status thing.  Fixed the other issues that we know about too,
+it should be stable now (If not, I'll fix that too!)
+
+Andaron
+~
+Sender  Slodhian~
+Date    Thu Jan 17 12:13:45 2013~
+Stamp   1358453625
+To      admin Uniball~
+Subject ehelp status final~
+Text
+Make this command lvl 58+
+and in that, make all helpfiles that are modified in olc
+automatically review if not draft.
+will be easier to catch files that are changed and
+without reason.
+
+Just to play safe in future.
+~
+Sender  Slodhian~
+Date    Thu Jan 17 13:22:26 2013~
+Stamp   1358457746
+To      immortal~
+Subject Olc~
+Text
+BOOM
+Ehelp new channel
+ehelp keyword channel
+ehelp save
+
+Olc is down for good. KABOOM
+~
+Sender  Uniball~
+Date    Thu Jan 17 13:24:08 2013~
+Stamp   1358457848
+To      immortal~
+Subject RE:OLC~
+Text
+Had created Channel Channels help file 3 different times and it wasn't saving
+anywhere even though I know I saved, and Slod Watched me. Think its really
+buggy there...
+~
+Sender  Slodhian~
+Date    Thu Jan 17 19:19:00 2013~
+Stamp   1358479140
+To      admin~
+Subject Uniball~
+Text
+Uniball has been advanced to 59
+~
+Sender  Slodhian~
+Date    Thu Jan 17 19:33:33 2013~
+Stamp   1358480013
+To      andaron~
+Subject what comes around, goes around~
+Text
+You asked why to advance level.
+
+I say these things
+1. Because you do not have time to keep track on all of us
+2. You need someone trusted to hold rules you place
+3. Every rule you make will have opposition, you need someone
+to keep eye on that faction.
+4. If you ever get into trouble, you need help. we 59's can help
+but however, we cant work against each other. at lvl 60, You have
+that ability against non-coder.
+5. Considering last year, you have nothing but good to say
+about me. and with that, and server access, only thing you lose
+is *******
+
+these are my 5 reasons to allow one non-coder to up to 60
+and to point where you can still easily demote but they
+have access to all there is for imms.
+~
+Sender  Uniball~
+Date    Fri Jan 18 01:37:00 2013~
+Stamp   1358501820
+To      Slodhian~
+Subject necromancy~
+Text
+I slightly edited the helpfile necromancy, the old one is necromancyold and the
+new one is under necromancy and in review. Wanted to write a note to remind
+myself and let you know what I did. Check it and make sure I didn't mess it up.
+~
+Sender  Slodhian~
+Date    Fri Jan 18 06:05:48 2013~
+Stamp   1358517948
+To      uniball~
+Subject Necro~
+Text
+looks fine, just remove old :)
+~
+Sender  Slodhian~
+Date    Fri Jan 18 10:58:10 2013~
+Stamp   1358535490
+To      admin~
+Subject Spiritcaller~
+Text
+cost of spirit spells are way too low, 5mana is less than any other spell
+in game
+including armor
+
+I think 50, or even 100 should be right amount
+~
+Sender  Slodhian~
+Date    Fri Jan 18 19:56:51 2013~
+Stamp   1358567811
+To      admin~
+Subject Addition to helpfiles~
+Text
+reading help sonic blast I had an idea
+
+Add Damage: dam_type into every spellhelpfile
+
+Anyone can check these from code, so it would make things
+more fair as people could know what damage exactly spell does
+~
+Sender  Uniball~
+Date    Sat Jan 19 02:09:00 2013~
+Stamp   1358590140
+To      Andaron~
+Subject OLC Crash~
+Text
+Was editing weapons flag help file, and when I tried to save it told me that I
+couldn't because Holy was already in use. So I had to have Slod go in and edit
+Holy Silence keyword and as soon as he saved it crashed.
+~
+Sender  Andaron~
+Date    Sat Jan 19 20:21:10 2013~
+Stamp   1358655670
+To      admin~
+Subject More builder~
+Text
+Dakky has some area ideas and would like to be a builder, if you guys would
+like more going on -- maybe he could get set up like Morbius if nothing else?
+
+Anyway, passing this on.  I think more builders is fine if they'll actually
+build stuff.
+
+Andaron
+~
+Sender  Andaron~
+Date    Sat Jan 19 21:20:01 2013~
+Stamp   1358659201
+To      admin~
+Subject ehelp updates~
+Text
+Both the disconnect in text edit lock-bug and ehelp delete crashing should be
+fixed.
+
+Andaron
+~
+Sender  Uniball~
+Date    Sun Jan 20 04:44:38 2013~
+Stamp   1358685878
+To      admin~
+Subject Funie Help Files~
+Text
+I got bored and remembered a conversation between me and Slod about Funie and
+how much easier it would be to make help files for them, to be able to access
+which parts you want and not have to have the whole thing open. Soooooo I
+create Help Weapon Values, its basically a rough draft, but has all the
+information from the funie on it, could be shortened down or split between
+values, just looking for some feedback as a future project to keep busy.
+~
+Sender  Slodhian~
+Date    Sun Jan 20 12:32:14 2013~
+Stamp   1358713934
+To      immortal~
+Subject Colors in helpfiles~
+Text
+Edited help help to explain mortals the usage of certain colors in helpfiles
+And now that we have few files already in, and with {{c indicating keywords here
+and there
+Let's all use that in files to let them know something can be found somewhere
+else.
+
+Ofcourse, do not make christmas tree out of helpfile, but those most
+keywords that are useful to read. And ofcourse, you can always use
+related list for it too without need to add colors.
+~
+Sender  Slodhian~
+Date    Sun Jan 20 12:50:58 2013~
+Stamp   1358715058
+To      admin~
+Subject re: Funie help files~
+Text
+modified help funie, added help funie contents, added help funie history which
+will show modifications to funie files for now
+~
+Sender  Andaron~
+Date    Sun Jan 20 20:11:46 2013~
+Stamp   1358741506
+To      admin~
+Subject Changes~
+Text
+Coming live next reboot I've got:
+help topics doesn't work if you insert random letters and shows colors.
+Gladiators can't use wands/scrolls/staves/pills once it starts.
+Gladiator DOT affects don't tick down pre-start.
+Endglad can't be a wizi-check.
+Gnotes last 3 months, other notes (ono ino idea) last 1.
+
+And on OLC: edit help now takes level 56, setting status to final takes 58
+ehelp save now echoes the status and level to help minimize accidents.
+
+Hopefully I didn't screw anything up in the gladiator code, but please watch
+out for it after we reboot and let me know if anything is weird.
+
+Let me know if a change for the glad things seems appropriate and I'll put one
+up :)
+
+Andaron
+~
+Sender  Slodhian~
+Date    Mon Jan 21 09:42:30 2013~
+Stamp   1358790150
+To      admin~
+Subject immortallevel~
+Text
+New helpfile, Feel free to change until it feels right
+~
+Sender  Slodhian~
+Date    Mon Jan 21 19:38:07 2013~
+Stamp   1358825887
+To      uniball~
+Subject glad~
+Text
+Please do no start them without being online yourself. At doublexp days
+it's ok but otherwise it's just spam :)
+~
+Sender  Slodhian~
+Date    Mon Jan 21 19:40:17 2013~
+Stamp   1358826017
+To      admin~
+Subject Endglad~
+Text
+Endglad should be allowed to be used on yourself even if you dont
+participated. just to make sure there is way to end glad without
+giving any "bonus" wins to mortals
+~
+Sender  Slodhian~
+Date    Mon Jan 21 21:03:41 2013~
+Stamp   1358831021
+To      immortal~
+Subject Changes for immortal~
+Text
+Andaron has been busy again
+so here is changes for immortals:
+Endglad cannot be used on wizi imm anymore
+Gnotes last 3 months
+Olc: ehelp is now level 56 command to prevent misuse
+(You can become level 56 by completing your area (old imms do no apply)
+ehelp save now echoes level you are saving file into, and it's status
+Help topics now indicate with color the status of helpfile
+so we can go check what is in review and what is legacy etc.
+ehelp status now requires level 58. setting status to review will show in
+live once synced, so it doesnt affect much.
+~
+Sender  Slodhian~
+Date    Tue Jan 22 23:11:36 2013~
+Stamp   1358925096
+To      admin~
+Subject Flail of wonders~
+Text
+wonders was chosen to be changed because it had smallest changes required
+it already was silver, had avg that was common to level range and
+it was the noun was not hitting anything at the moment.
+thus, ->
+Noun was changed to pound to give small boost against garou faerie monk
+that eats any char alive in glads. it's not pretty if 1k hp faerie can slay 2
+2k yinns :P
+
+Weight was raised a bit to prevent it being as secondary weapon
+with kaethan. This was to reduce the effectiveness a bit.
+
+Also, remember that dragons are resist blunt, so it also reduces
+the effecitveness of that weapon in mob fighting etc.
+
+slod
+ps. we voted about that between admins online and decision
+was made on 2 for, none against the change ;)
+~
+Sender  Slodhian~
+Date    Wed Jan 23 05:48:28 2013~
+Stamp   1358948908
+To      admin~
+Subject Maligin~
+Text
+Removed log from him, was an ass back in the day but
+8 years should have changed man a bit.
+~
+Sender  Andaron~
+Date    Wed Jan 23 11:26:49 2013~
+Stamp   1358969209
+To      admin~
+Subject Flail of Wonders~
+Text
+It was actually the loss of a high level, non-pounding, naturally vampiric
+flail for fighting mobs that I was concerned about.  However the norman scourge
+with vampiric applied should be a decent replacement, though not nearly as
+convenient to grab.
+
+Andaron
+~
+Sender  Andaron~
+Date    Wed Jan 23 12:15:07 2013~
+Stamp   1358972107
+To      admin~
+Subject Stylee~
+Text
+Apparently Stylee was an imm before we went down, but is not now.  He didn't
+say if he wanted it restored or not but I decided to pass it on for your
+consideration :)
+
+Obviously we'd want to actually make him the offer so he can refuse it if he's
+not interested, if we do want to add him back to the ranks where he had been.
+
+Andaron
+~
+Sender  Slodhian~
+Date    Wed Jan 23 12:44:42 2013~
+Stamp   1358973882
+To      admin~
+Subject re: Stylee~
+Text
+Well, He has been with us only few days
+and Maligin is stylee. so I would rather take couple weeks to
+see how he starts to play and then offer him position
+
 
 Slod
-
-Ps. If you check the mhshelp site forum, you notice that in 
-ideas there is already talk about it. however, they all think that 
-most of the clans that mhs could hold with the pbase we have, is 3
-I'm not personally fond to go that far. 4 should work well enough
-and spread the players hopefully a bit more to different clans
 ~
-Sender  Rusty~
-Date    Mon Sep  5 00:07:42 2005~
-Stamp   1125896862
+Sender  Slodhian~
+Date    Wed Jan 23 12:58:48 2013~
+Stamp   1358974728
+To      admin~
+Subject re: flail of wonders~
+Text
+Lawyers teeth, talon, and alot more :)
+Vampiric is quite common :)
+~
+Sender  Andaron~
+Date    Wed Jan 23 13:04:32 2013~
+Stamp   1358975072
+To      admin~
+Subject re: flail of wonders~
+Text
+Not flails :P
+~
+Sender  Slodhian~
+Date    Sun Jan 27 16:41:58 2013~
+Stamp   1359333718
+To      admin~
+Subject Crash~
+Text
+players known were fighting fire king (most plausable explanation)
+and in trinity.
+and I was afk, so cant blame me
+~
+Sender  Uniball~
+Date    Sun Feb  3 18:54:37 2013~
+Stamp   1359946477
 To      immortal~
-Subject Malfoy re-imbursed 22 debit levels~
+Subject sell multiple~
 Text
-I went through the logs and he did level to 23 before a big crash
-fried his pfile.  I gave him nothing else, just the debit levels.
--Rusty
-~
-Sender  Rusty~
-Date    Mon Sep  5 00:09:36 2005~
-Stamp   1125896976
-To      Boogums~
-Subject Your trip~
-Text
-OK, I'll email you my home, work and cell phone numbers.  Definitely
-Sunday night.  Not sure about the others just yet...
--Rusty
-~
-Sender  Boogums~
-Date    Mon Sep  5 10:59:48 2005~
-Stamp   1125935988
-To      rusty~
-Subject That sounds great~
-Text
-Send it to coreygibbs@gmail.com
-My cell is 253-905-3414
-The hotel has CAT5 in the rooms and wifi in the lobby, and
-my new spiffy laptop has all of my MP3s and will have some games
-and such for my trip, so i'll be ready for a 5.5 hr flight :).
-Corey
+Was the ability to sell multiple items ever finished or is it already live now.
+Don't remember hearing anything else about it?
 ~
 Sender  Slodhian~
-Date    Wed Sep  7 13:30:11 2005~
-Stamp   1126117811
-To      adminz~
-Subject pen: Log removed from Nox~
+Date    Mon Feb  4 07:24:35 2013~
+Stamp   1359991475
+To      admin ~
+Subject sorry Andaron~
 Text
-
-cant see any reason why to keep watchin him, cant
-even see the reason we are watching him
-
-Doing same to xipetotech when I see him
-
-Slodhian
-ps. also, like anyone ever checks them anyways.
-the logs that is.
+Had to modify the help for timestamp, it was just bulk of text with nothing in
+it.
+so I modified it to look like every other helpfile out there.
 ~
 Sender  Slodhian~
-Date    Wed Sep  7 14:25:51 2005~
-Stamp   1126121151
-To      adminz~
-Subject me myself and I with the changes!~
+Date    Mon Feb  4 07:34:37 2013~
+Stamp   1359992077
+To      uniball~
+Subject original~
 Text
-ok, I know there is mistakes in that note.
-but to be honest, I feel like there is nothing
-I could do withough someone mocking. I understand
-it from mortals but in the end, I dont undestand
-it from immortals.
+Timestamps let you keep track of when someone said something on a channel by
+recording the time with the message.
 
-I dont want to see "the whine" note this time,
-I wish to see constructive notes why they whine
-as those are something we can work further upon.
-
-I know clan removal is big step, It was for me
-as a mortal. but...why let mortals have shitload
-of clans and pretty much have clan online always
-that have nothing to fear..= less clans, less
-problems= more pkilling.
-~
-Sender  Boogums~
-Date    Thu Sep  8 22:43:02 2005~
-Stamp   1126237382
-To      adminz~
-Subject Asking Morts Their Opinions~
-Text
-For what it's worth, I feel that asking morts their opinions is
-an invitation for disaster.  If we're going to make a change
-we make a change.  We don't ask "can we make a change".
-Asking the other imms is one thing, but asking the players
-is another.  Here's why:
-Those who don't agree with what is done after asking the players
-will harbor more resentment because "they went with player X's 
-idea and not mine!!! Those bastards!"
-My Two Cents
-Boogums
+Syntax: timestamps <option> <value>
+Option may be one of the following:
+show: Enable the display of timestamps.
+hide: Disable the display of timestamps.
+gnote +  set <#>: Value adds from 0 to 23 hours to the current time.
+This allows you to line up your timestamps with your local time.
+type <all|global|tells>: all attaches timestamps to global channels and to
+personal tells. global only shows timestamps on global channels. tells
+only shows timestamps on personal tells (tell, reply, and gtell)
+color <code>: Sets the timestamp's color pattern.  This is a three letter
+color code -- without the { -- that goes to three different parts of
+the timestamp. The first letter goes to the [ ] around it, the second
+to the ## in it, and the third to the : between the ##.  So if you enter
+'timestamp color GcW' you'll see [##:##]
+Use 'timestamp color none' to reset to the default coloring.
 ~
 Sender  Slodhian~
-Date    Sat Sep 10 08:35:35 2005~
-Stamp   1126359335
-To      Adminz~
-Subject Blah..blah and once more blah.~
+Date    Mon Feb  4 18:11:43 2013~
+Stamp   1360030303
+To      admin~
+Subject timestamp~
 Text
-I agree,
-
-We dont ask can we do them. however, we should ask their
-thoughts. Even now, I'm seeing more input from mortals
-than I see from imms. And the notes are GOOD. not 
-"they whine", but actual thoughts from their side of
-clan life. We can see only so much, but best experience
-is down there, in mortal land. 
-
-Already I'm surprised that they all like Honor, even though
-no one plays in it. but still they see it as one that has
-best chance of surviving. 
-
-And as you saw from my news, I aint answering to anyones
-notes, or go against whining. I just read the notes to
-see how they feel that clans should be arranged. There will
-never be a mortal in situation that his/her's idea is only
-one that is taken into account. I read them all and compile
-it into my own thoughts and see what comes up from that.
-
-you all can read the notes in there, read them with thought
-and when 1st of october comes, I'll ask your thoughts again.
-maybe you will that time give a comment on it instead of
-something that has nothing to do with it.
-
-Slodhian
-ps. "you" in last means you all, every admin. As even though
-I'm the only one here, I still wish to hear from you all what you think of it.
+ctalk shows timestamp in wrong place
+<Prodigy>:[04:10] You clan 'and just say when you are ready and I  demote you'
 ~
-Sender  BriarRose~
-Date    Sat Sep 10 11:35:39 2005~
-Stamp   1126370139
-To      adminz~
-Subject I have no opinion~
+Sender  Andaron~
+Date    Tue Feb  5 00:46:58 2013~
+Stamp   1360054018
+To      admin~
+Subject Re: timestamp~
 Text
-If I say anything that remotely resembles what Boogums says
-I am accused of "taking sides" and  bad form.
-If I post anything in a joking manner, I'm accused of
-being out of line and derogatory to other imms.
-If I post anything that roughly looks like I agree with Slod
-then I'm just ass-kissing.
+That actually is the clan channel's timestamp, I didn't add it to ctalk
+otherwise you'd end up with two.
 
-I learned a while ago, my opinions mean nothing here.
-So, I have no opinion.
+Fixing it would be somewhat annoying since I'd need to add an exception to clan
+talk to see if it's an imm ctalking then not do it if so.
 
-Not meant to upset anyone here, just want you to see the position
-I'm in.  
-
-Briar
+Andaron
 ~
-Sender  Slodhian~
-Date    Sat Sep 10 12:21:24 2005~
-Stamp   1126372884
-To      briarrose adminz~
-Subject yay!~
+Sender  Uniball~
+Date    Tue Feb  5 09:11:07 2013~
+Stamp   1360084267
+To      admin~
+Subject Vindicator~
 Text
-I wanna hear what you think of it.
-I wanna see what you write about it
-as you are the one most qualified for
-expressing your thoughts in literal form.
-
-I dont give a damn if you take sides as
-long as it's your thoughts.
-
-I expected lots of complaining from admins
-in this issue. but the thing that I got...
-total silence, was something that I didnt
-expect. as there has been atleast one thought
-in everything even if I dont see them.
-
-In this issue I asked adminz opinion first,
-but as only thing that I got was from rusty
-and it said that we need to ask from mortals
-in that clan first..I decided to ask from
-every mortal first and see what they come up.
-
-I dont expect miracles. anything we do is wrong.
-but I want to make this game better and I'll do
-anything I cant as long as I can to fulfill that.
-
-I cant code,
-I cant write helps,
-I cant fix pfiles,
-I cant do anything but affect mortals attitudes
-and things that "I" can do ingame.
-Removing clan, is something thtat I can do ingame.
-I have "guild someone loner" command. I can do it.
-I cant do shell scripts that just places certain clan
-with loner etc. I cant code some clan change name that
-can be fitting to new clanset. so I ask what could be
-done without coding. 
-
-The clanhall change was failure, I'm trying to fix
-it at the same time. I love the idea behind it. it
-just got left hanging and left behind eventually.
-we shouldnt be fixing old shit, we should do something
-well at the first time and find a way to do that 
-with our lives. we dont have manpower to do coding or
-supervising etc. but we need to make this game alive.
-changes, even if it's just mobchanges as I've hopefully
-show to you, is a way to show that we are alive and
-not dying...sorry Rusty, we are that. dying mud...
-mud aint a game unless there is players to play.
-currently we are relying on old players.
-what we need, is something that makes old players
-to invite new players here. something that makes
-old players think it's worth playing again.
-we dont need ways to help newbies, we need
-ways to show old players there is a place to 
-new players aswell.
-
-my rant is over.
-
-Slod
+Seems like this used to have a helpfile but doesn't anymore. I don't know
+enough about the kit to make a helpfile if either of yuns remember or can find
+out about it.
 ~
-Sender  BriarRose~
-Date    Sat Sep 10 14:44:47 2005~
-Stamp   1126381487
-To      adminz~
-Subject again, I have no opinion...~
+Sender  Andaron~
+Date    Tue Feb  5 09:14:54 2013~
+Stamp   1360084494
+To      admin~
+Subject Vindicator~
 Text
-I don't think we can do anything here to "bring in new players"
-but that argument has been around forever.  There are no new players
-to be had.  When my 6 year old can put a new game in the PS2, and
-within 5 minutes be addicted and having fun, what does
-that do to text based games?  Those of us who were addicted here
-are adults now, hell, I'll be 40 in a few months...
-
-The few over 18 you have playing here (or any mud) usually don't
-have much of a real life.
-So, mudding, in general, is dead...
-
-you can try to patch it here and there, but you aren't gonna get
-us back to the glory days of over 6 years ago.
-
-That being said, my opinion is to abolish all clans and clan charters.
-leave the halls open.  Let them make gangs.
-Free them of charters and permanent alliance.  
-
-Demise was founded on Chaos initially...Chaos has no order...
-Yet a clan of Chaotics has a leader, a structure, and rules?
-Demise should have no charter, Anarchy and Chaos rule them.
-
-Honor?  Honor what...they live to wipe out evil? I thought that
-was Zealot...no wait, zealot is Honor on Religion?!?
-Posse?  Yeah, right...How is posse different from Honor and Zealot..
-They don't bathe as often, have no god, and do weird things in the
-bunk house?
-Then there's Warlock, who wants to be honor and posse and Zealot, only
-with magic spells and forget the whole religion thing...
-Oh wait, Warlocks are all Wiccans? which mean they have lots of gods?
-
-So, in closing, get rid of all clans...let them make gangs...
-let them kill who they want.  Open up everyone for killing.
-
-Make looting Toggle-able.
-
-those who are secure, can turn looting on and be looted.  Those who are
-chickenshit, and I think that should be the flag in their title when
-noloot is toggled, so it would read :
-16 Human Mag 0 ChickenShit BriarRose McDugal
-and then everyone will know they can't loot them and wont even bother pk
-or they could have non-imm assisted duals that way.
-
-there..happy?
+I think it's kit info vindicator, and help wrath
 ~
-Sender  BriarRose~
-Date    Sat Sep 10 14:50:27 2005~
-Stamp   1126381827
-To      adminz~
-Subject So I'm Boog's secretary~
+Sender  Andaron~
+Date    Tue Feb  5 10:37:36 2013~
+Stamp   1360089456
+To      admin~
+Subject Vindicator help file~
 Text
-Boogums says:
-Quote: I like the Chickenshit flag.  Make it work only if they don't
-have a pk/kill timer currently.  And they cannot initiate if they have the 
-chickenshit flag on, unless the attackee has the chickenshit flag too
-That way, chickenshits can only attack other chickenshits.
-I also agree on yanking all clans and charters and letting them
-form informal gangs on their own.
-end quote.
+Something about the help file isn't loading properly (It does exist on-disk) so
+please don't create a new one (That might overwrite it), I want to debug this.
 ~
-Sender  Rusty~
-Date    Tue Sep 13 12:27:33 2005~
-Stamp   1126632453
-To      Boogums~
-Subject Phone number~
+Sender  Uniball~
+Date    Thu Feb  7 15:06:16 2013~
+Stamp   1360278376
+To      admin~
+Subject Help Gain~
 Text
-Sorry this is so long in coming...
-My cell phone (Work) is 312-338-7104.  Call me about an hour before
-you want to meet up on Sunday and I'll head north.
--Rusty
+I added Gain apply all, and fixed the gain retrain line, said turn 20 skill
+points into a retain, when it should have been 20 practices.
 ~
 Sender  Slodhian~
-Date    Fri Sep 16 11:19:30 2005~
-Stamp   1126887570
+Date    Fri Feb  8 20:18:33 2013~
+Stamp   1360383513
+To      admin~
+Subject created mwind3.are for moonwind~
+Text
+someone had given him those vnums to work with, but there was no area for such
+vnums
+~
+Sender  Slodhian~
+Date    Fri Feb  8 23:27:42 2013~
+Stamp   1360394862
+To      admin Moonwind~
+Subject Moonwind vnums for olc~
+Text
+removed 200 rooms from vnums for moonwind
+99 room area is hard enough to finish so I would love to
+see that first. if it's finished you can have 300 room area
+We dont have enough vnums yet to keep way excessive vnums
+for unpublished builders.
+if you check, most of then are less than 50 rooms in size
+~
+Sender  Slodhian~
+Date    Fri Feb  8 23:29:02 2013~
+Stamp   1360394942
+To      admin moonwind~
+Subject Oh right: 17700-17799 is now the range~
+Text
+forgot that from last note
+~
+Sender  Uniball~
+Date    Sat Feb  9 00:48:40 2013~
+Stamp   1360399720
+To      admin~
+Subject Bug Information~
+Text
+[02:56] --> Yuma (50 Lvl, 2 favor): Trial 3: Kill evil. Trial activated.
+
+<AFK - 0>
+[02:56] Abram OOC's 'Good advice, but i was talkin bout my link:P'
+
+<AFK - 0>
+[02:56] (Wizi@59) Slodhian OOC's 'to the ugly girls? dont make them!'
+
+<AFK - 0>
+[02:57] --> <{GScrewy Message From Bug Note{x>
+
+Just wanted to add all the information from what I could see, was AFK at the
+time of the message, but there was another trial activated right after the
+message...
+~
+Sender  Andaron~
+Date    Sun Feb 10 14:48:39 2013~
+Stamp   1360536519
+To      admin~
+Subject vnums~
+Text
+I need a set of vnums to put a single room into (Eventually maybe an area),
+what range should I use?  Just a standard sized area, nothing huge.
+~
+Sender  Andaron~
+Date    Tue Feb 12 15:44:37 2013~
+Stamp   1360712677
+To      admin~
+Subject Room for review~
+Text
+Room 8808 and its contents need a text review.  The door is not intended to go
+anywhere yet, so it shouldn't be normally unlockable (I know an imm can do it)
+~
+Sender  Andaron~
+Date    Wed Feb 13 17:30:31 2013~
+Stamp   1360805431
+To      admin~
+Subject location for new room~
+Text
+I'm looking at 22902, down, to attach that new room of mine.  Any objections?
+~
+Sender  Uniball~
+Date    Sat Feb 16 13:14:33 2013~
+Stamp   1361049273
+To      admin~
+Subject Dakky's Area Idea~
+Text
+new brilliant high idea
+New VNUM-area etc.
+There's an archival monk/wizard/hermit guy.
+In his hovel, he has a few books all open on his table. Each displaying a
+certain
+part of a magical map. These 'books' are portals you have to enter.
+Each book has a chapter you can read. It'll give hints to what lays gnote +
+inside the book you 'enter'.
+In these books... one book talks about warring named Giants.
+one book talks about a castle that hoards various treasures. (put the gnote +
+chessboard mini area in here)
+and a few other things....
+All the areas are connected and are various levels.
+
+"Copied straight from fb message from Dakky"
+~
+Sender  Uniball~
+Date    Sat Feb 16 13:21:42 2013~
+Stamp   1361049702
+To      admin~
+Subject Rest of Message~
+Text
+The Old Mans hovel
+The area is in complete disarray! Over the long years, the archival hermit has
+gathered many an item.
+Ancient telescopes that were first used to discover the heavens are now covered
+in dust. Sextons and compasses lay with a menagerie of globes of worlds and
+lost lands. An aged table is topped with half burnt candles and open books.
+
+
+MOB: The archival hermit
+Shopkeeper
+Stationary
+Mob Speech: I believe I have found it! Look! At the table!
+Mob Speech: If you so desire, I can sell you the weapon that once smite many
+giants long ago.
+Mob Speech: It seems, that in my studies all of these fabled worlds are
+connected!
+
+
+Weapon: the Drann Ranseur
+Short: Drann Ranseur polearm
+Long: the fabled ranseur of the greatest giant-slayer, Drann, hums and waits to
+be used.
+Ext: Lined with gold runes, the handle perfectly forms to your hands. The point
+of the blade is sharpen than a shard of obsidian fractured in the bowels of the
+earth itself.
+Flags: (magical) (humming) stun
+Bonuses: -2saves + 1int +1wis
+Material: lightning
+Dice: 3d4
+Damage: pierce
+Level: 14
+
+
+Object: table
+There is very little clutter unless you take into account the books and
+candles. The hermit has spent much of his time thumbing through and
+scrutinizing the words within their covers and bindings. The covers read as In
+the land of Giants, The tre
+~
+Sender  Uniball~
+Date    Sat Feb 16 22:21:25 2013~
+Stamp   1361082085
+To      admin~
+Subject Master Legging and Reflex~
+Text
+Does this really add anythign to the game, or was Karag just hoping that it
+would, they are the only item I've seen that has reflex on them?
+~
+Sender  Andaron~
+Date    Sat Feb 16 23:18:56 2013~
+Stamp   1361085536
+To      admin~
+Subject Reflex saves~
+Text
+The saves they do nothing.
+~
+Sender  Slodhian~
+Date    Tue Feb 19 10:19:26 2013~
+Stamp   1361297966
+To      admin~
+Subject ban~
+Text
+Removed all bans that was left from old age
+sgic.fi etc
+(these were all permbans)
+
+Time to move on :)
+~
+Sender  Uniball~
+Date    Tue Feb 19 23:08:33 2013~
+Stamp   1361344113
+To      admin~
+Subject hedit~
+Text
+I've been looking at the help file for hedit, and really think it could use
+some updating but not sure if I should do it since I don't really understand
+everything that is in the help file. Any suggestions or comments on what to do
+is welcomed.
+
+I've noticed that the newest clan has had a lot of questions about it, and
+either aren't reading the helpfile at all, or can't figure it out to save
+themselves. Just a suggestion on how to make the clan world a little better.
+~
+Sender  Slodhian~
+Date    Wed Feb 20 09:32:45 2013~
+Stamp   1361381565
 To      immortal~
-Subject Double leader~
+Subject help thunderclap~
 Text
-
-I took ergun to 1212 and told him that there really cant be
-double leaders here. he was all good with it
-so I gave him couple days time to think over which one he wishes
-to lead, honor or demise. 
-I'll take him up again in sunday and hear what he has to say
-until that, he is leader of both.
+no idea if it's lightning damage or sound but help element air suggest latter
+change if needed. but atleast there is help for it now
 ~
 Sender  Slodhian~
-Date    Sun Sep 18 11:14:53 2005~
-Stamp   1127060093
+Date    Thu Feb 21 10:18:37 2013~
+Stamp   1361470717
 To      immortal~
-Subject Ergun/roxanne~
+Subject dual leader validate for new rooms~
 Text
-
-He decided to step down from demise leadership
-Ergun ranked /4.
-~
-Sender  BriarRose~
-Date    Tue Sep 20 14:55:41 2005~
-Stamp   1127246141
-To      rusty~
-Subject dude? you still alive?~
-Text
-I'm concerned, since Boog hasn't heard from you
-and the train wreck in South Chicago...
-you okay? Lemme know you weren't on that train, k?
-~
-Sender  Rusty~
-Date    Wed Sep 21 11:51:27 2005~
-Stamp   1127321487
-To      BriarRose~
-Subject Been sick~
-Text
-Check your gmail, more details there.
--Rusty
+Valixian never validated room. Reboot happened and I think it was
+validated in that.
+(unless some admin forgot to mention it)
+clan room: Moord -1702
 ~
 Sender  Slodhian~
-Date    Thu Oct  6 14:58:33 2005~
-Stamp   1128628713
-To      adminz~
-Subject olc~
+Date    Thu Feb 21 10:20:07 2013~
+Stamp   1361470807
+To      admin~
+Subject Skillpoints~
 Text
+Skill points:
 
-Olc yet again down :)
+Current system doesnt encourage people to gather them.
+You gain aroudn 5-10sp from what you were able to gain
+earlier from rabid dogs (fast gain, nothing in 25 next minutes)
+
+We are however now in world that requires quite different
+perspective. we play 10 minutes, we play 20 minutes.
+in this time, we need to max our gameplay and give interest
+to do it again. It is easy to say that yeah, 24/7 is possible.
+
+it is not.
+
+There are not many people that can play that much. And if
+those who cannot manage to take 10 minutes from their
+day to log into game it should be worth more than 5-10sp.
+
+it doesn't discourage only new players from playing,
+vit removes interest to gain sp's even from old players
+and even from most active mortals. it's just not interesting
+anymore.
+
+Something that must be dealt with...
 ~
 Sender  Slodhian~
-Date    Thu Oct  6 14:59:53 2005~
-Stamp   1128628793
+Date    Fri Feb 22 06:26:51 2013~
+Stamp   1361543211
+To      admin~
+Subject bounty~
+Text
+instead of saying item bounty that "known" you could say last seen with
+now it's just too vague..
+current says that item could be on anyone in area
+second one says mobs that carry that item.
+
+first fail I've seen btw :)
+~
+Sender  Mindweaver~
+Date    Fri Feb 22 14:18:35 2013~
+Stamp   1361571515
+To      immortal~
+Subject Hello Again!~
+Text
+Well at last (besides dialysis 3x a week) things have calmed down!
+As soon as I get my schedule arranged I will be
+back on more regularly.
+
+Uniball :  I want to get together with you to talk
+about things.
+
+Thanks all for being extremely patient with me while
+I have been through 6 months of medical emergency after
+medical emergency.  4 surgeries, congestive heart failure
+heart attack, started dialysis, lungs filling up with
+fluid... etc. etc. etc.
+It has been an exhaustive 6 months.  Besides medical
+appointments here and there.. basically I am down to
+dialysis 3 times a week (5 hours each time incl. drive time)
+So things are looking up!!
+A lot has been going on here too I see!!
+
+Miss you all and talk to you very soon!!
+
+Mindweaver
+~
+Sender  Andaron~
+Date    Fri Feb 22 14:36:18 2013~
+Stamp   1361572578
+To      immortal Mindweaver~
+Subject Re: Hello Again!~
+Text
+Awesome to hear that you're pulling through, looking forward to you being back
+around as you can :)
+
+Andaron
+~
+Sender  Andaron~
+Date    Fri Feb 22 15:11:24 2013~
+Stamp   1361574684
+To      admin~
+Subject Bounty merit?~
+Text
+I was thinking of adding double the merit earned by killing a level 50 enemy as
+a reward to any clanner killing a bounty mob (To encourage clanners to
+participate) My concern is if there is no merit they'll feel like it's a waste
+of time compared to just killing higher level mobs.
+
+It would be awarded on kill, so that the clanners have to be out gathering the
+kills -- even if they get nonclan help, they'll have to expose themselves to do
+that (Ears they could just transfer then turn in)
+
+You guys think that sounds good?
+
+Andaron
+~
+Sender  Slodhian~
+Date    Sat Feb 23 01:22:43 2013~
+Stamp   1361611363
+To      admin~
+Subject Re: Bounty merit?~
+Text
+Merit is big part of clanners life now, so I would see fit that
+if they put their neck out to sit on open without ability to hide
+they should be getting benefit from that
+Merit has no meaning for nonclanners, they get it easy
+anyways. so boost on clanner rewards is indeed needed.
+I'm all for it!
+~
+Sender  Slodhian~
+Date    Sun Feb 24 06:50:47 2013~
+Stamp   1361717447
+To      admin~
+Subject shadebnty~
+Text
+If immortal sits in room, do not let it start bountyhunt
+imms can hear about bounties, but not start one
+
+second, if person sits in either bountyroom, they start bounty
+that people can join. due the fact that nonclanners can just idle
+there, there should be timer that sets off after
+10 ticks that removes you from bounty hunter clan
+if you have not moved from either room
+~
+Sender  Uniball~
+Date    Mon Feb 25 08:52:00 2013~
+Stamp   1361811120
+To      admin~
+Subject Stormy missing from OLC~
+Text
+Went to check on an item that is made of (blank) in the evil part of stormy and
+the whole area is completely gone from OLC. Not sure what is going on but
+figured it was some kind of bug and you should know about it.
+~
+Sender  Uniball~
+Date    Mon Feb 25 12:28:15 2013~
+Stamp   1361824095
+To      admin~
+Subject New items~
+Text
+Just wanted to let you know that I added a lvl 42 silver flamer into the game.
+I placed it on father time, and to go with a rpish tone I added a scythe to
+father time that disappears when he dies using the inventory flag, its no 
+uncurse, no remove, melt drop, and every other thing I could think of to  keep
+it out of the game. It has crap stats, and it just there for a rp kind of
+thing.
+~
+Sender  Uniball~
+Date    Mon Feb 25 12:38:20 2013~
+Stamp   1361824700
+To      admin~
+Subject Items~
+Text
+15235 is the vnum for the silver flaming item added to game.
+15236 is the vnum for the item that disappears and not intended to be in the
+game.
+~
+Sender  Slodhian~
+Date    Tue Feb 26 05:29:57 2013~
+Stamp   1361885397
+To      admin~
+Subject Idling with morts~
+Text
+Please do log off from your morts if you are idling.
+since morts are not allowed to do it, neither can you with mort
+just removes the Abusing part and morts finding it out.
+
+Jfyi
+~
+Sender  Slodhian~
+Date    Tue Feb 26 12:58:14 2013~
+Stamp   1361912294
+To      admin~
+Subject Xenophobe~
+Text
+change password for his chars
+easy cake, all had same ip
+~
+Sender  Slodhian~
+Date    Tue Feb 26 13:14:47 2013~
+Stamp   1361913287
+To      admin~
+Subject disconnect with amount of letters from game~
+Text
+Help topics was first one to show this problem
+now I notice as immortal practice does the same if you have
+set your all skills to something
+
+at the same time, I can see over 300 lines of information with color
+with weird chars with same exact configuration in other mud
+something in mhs is not right.
+~
+Sender  Uniball~
+Date    Fri Mar  1 11:20:18 2013~
+Stamp   1362165618
+To      admin~
+Subject Deathblow~
+Text
+So far I've added Deathblow to Father Time, he's immune to charm and summon,
+and resists negative, holy and mental. I also added it to Master Assassin and
+took sanc off him, as well as withstand death and regeneration.
+I didn't sync the areas up yet, but I did change the material type for Shifting
+Shadow to Shadow
+~
+Sender  Slodhian~
+Date    Fri Mar  1 17:23:57 2013~
+Stamp   1362187437
+To      immortal~
+Subject Karag~
+Text
+For Time being, I have demoted Karag to Retired bunch of 52's
+I will not add him yet to heroes in hope that he returns
+
+This is only to prevent any chance that someone else
+might log into his char and start causing trouble.
+He is always welcome back to admin team due his vast
+knowledge.
+~
+Sender  Uniball~
+Date    Sat Mar  2 00:26:07 2013~
+Stamp   1362212767
+To      admin~
+Subject Abram~
+Text
+Just wanted to give everyone a heads up, Something crawled up Abram's Ass, Not
+sure what happened other than all the lag I was getting, unsure about anyone
+else.
+~
+Sender  Uniball~
+Date    Sat Mar  2 01:02:20 2013~
+Stamp   1362214940
+To      admin~
+Subject Indulgence~
+Text
+Was a loner in old system, and instead of typing loner to go into new system he
+outcasted, so I went ahead and guilder him a loner.
+~
+Sender  Slodhian~
+Date    Mon Mar  4 13:03:31 2013~
+Stamp   1362431011
+To      admin~
+Subject Test port~
+Text
+guess there is no rules there (real rules)
+Zengar just announced that he goes there to pkill people and test things that
+way. however, this diminishes the interest to test new things that it's
+supposed to be for.
+two person testing pkill is ok, but not someone roaming out there pkilling
+people that is trying to test hard to get/hard to kill mobs etc
+
+it's not pkill free zone
+
+And this must come from Andaron
+How can you check merit rates if someone is attacking you at awful and killing
+you?
+...just for fun
+no testing, no nothing, just for fun
+~
+Sender  Andaron~
+Date    Mon Mar  4 22:01:09 2013~
+Stamp   1362463269
+To      admin~
+Subject pk on test~
+Text
+Test's special MOTD message now specifically warns people that attacking others
+who are testing is a bannable offense on test (Temporary, as the damage is
+minimal but it is still annoying.)
+
+Any imm here with banning power can load there and will have it as well, if
+needed feel free to issue temp bans on test (Temp being multiple days if
+someone was being a real pest.)
+
+I'm in a bit of desperate times for my classes so while I'll be setting aside a
+little time each day to make sure there's no issues and update a couple code
+things, I'm going to be around less for a while. I'm counting on you guys to
+handle things like this (I'll update rules etc. as needed to make sure it's
+"officially" approved so you can do what you need to.)
+
+Andaron
+~
+Sender  Andaron~
+Date    Mon Mar  4 22:06:21 2013~
+Stamp   1362463581
+To      admin~
+Subject test penalties~
+Text
+I removed "temporarily" so now it just warns you may be banned. I do recommend
+that it be temporary for early offenders but you may use your judgment for how
+temporary it ends up being.
+
+It is banning only on test, to be clear.  Unless they bring their belligerence
+over here about a punishment on test, then you'll have to handle it like anyone
+mouthing off here would be handled.
+
+Andaron
+~
+Sender  Uniball~
+Date    Mon Mar  4 23:12:23 2013~
+Stamp   1362467543
+To      admin~
+Subject Multiplaying~
+Text
+Eriq and Garcia were both online, and both from the same IP address, didn't
+realize it til they logged out. Just want to give a heads up incase it happens
+again. Also not sure what to do exactly what to do.
+~
+Sender  Andaron~
+Date    Wed Mar  6 19:30:38 2013~
+Stamp   1362627038
+To      slodhian admin~
+Subject Re: Breakable items~
+Text
+Would item type "capsule" or something similar be better, then we can utilize
+all the values for having it do things (As well as players being able to figure
+out which items they can break)
+~
+Sender  Slodhian~
+Date    Wed Mar  6 23:15:03 2013~
+Stamp   1362640503
+To      Admin~
+Subject re:RE: Breakable items~
+Text
+ofcourse. it would give indication that somethin is inside the capsule. and
+you would need to break it to get it. it also would be better in long term
+as it could be used in areas if someone builds one.
+~
+Sender  Uniball~
+Date    Fri Mar  8 00:22:50 2013~
+Stamp   1362730970
+To      admin~
+Subject Dropping link constantly~
+Text
+It seems as if everyone is dropping link almost more frequently. Not sure what
+is going on, but is it possible to contact the guy hosting the server and check
+with him, or do something else?
+~
+Sender  Andaron~
+Date    Fri Mar  8 11:31:48 2013~
+Stamp   1362771108
+To      admin~
+Subject Dropping link~
+Text
+I'll send an email and see what's going on.
+~
+Sender  Andaron~
+Date    Fri Mar  8 14:46:07 2013~
+Stamp   1362782767
+To      admin~
+Subject Connection issues~
+Text
+Got word from Zinc, it's a known issue that they just discovered and should be
+fixed shortly.
+~
+Sender  Andaron~
+Date    Fri Mar  8 16:18:26 2013~
+Stamp   1362788306
+To      admin~
+Subject First-login bonuses~
+Text
+Any opinion on how long between the first bonuses?  I can see anywhere from 4
+hours to 24 hours (24 hours would be more like "Resets every server-midnight"
+or something)
+~
+Sender  Andaron~
+Date    Fri Mar  8 16:24:07 2013~
+Stamp   1362788647
+To      admin~
+Subject skill point sinks~
+Text
+Here's what I've got for spending skill points on currently:
+* Buying permanent infravision, pass door, fly?, for your character.
+* Setting your who name (Only available for level 51's)
+* Custom social (Yourself only. Limit 1. Subject to imm review)
+
+I need more!  What more can we have?  I'd like to add the daily bonuses as
+discussed with a decent supply of sp available from them but we'll want things
+for people to use those sp on!
+
+Andaron
+~
+Sender  Uniball~
+Date    Sat Mar  9 04:15:09 2013~
+Stamp   1362831309
+To      admin~
+Subject master legg~
+Text
+removed the Reflex saves off master leggings and synced area here, should be
+fixed next reboot.
+~
+Sender  Slodhian~
+Date    Sat Mar  9 16:12:20 2013~
+Stamp   1362874340
+To      admin~
+Subject re: Skill point sinks~
+Text
+for 20sp, you become skilled enough to add keep flag on your container
+This wont affect stealing etc. it only affects drop all
+and alike that you use yourself (give all etc)
+
+(annoying when you have several bags and you go collecting stuff)
+and you can just drop all the crap that comes with it
+without losing your containers also
+~
+Sender  Slodhian~
+Date    Sat Mar  9 17:08:46 2013~
+Stamp   1362877726
+To      andaron~
+Subject timestamp bug~
+Text
+it counts the hours as if we were in us and daylight must be used for it.
+and it should only count from system time.
+not major thing. but it will happen atleast twice a year :)
+~
+Sender  Slodhian~
+Date    Sun Mar 10 09:13:00 2013~
+Stamp   1362931980
 To      slodhian~
-Subject joecephus house~
+Subject 5531 to notrans. generic room name~
 Text
-paid 3 plats for 2 room house
-down from 31029
-second room down. closed door, nowhere
-
-damn newbies :)
+~
+Sender  Uniball~
+Date    Sun Mar 10 21:38:03 2013~
+Stamp   1362976683
+To      admin~
+Subject Faulty exit found on bounty~
+Text
+Looking for human man in campground, found it but can't get to it cause there
+was no exit east from 1902 to 1903. Fixed it on OLC and synced the area here,
+should be ready to go on next reboot.
 ~
-Sender  Rusty~
-Date    Mon Oct 10 08:13:38 2005~
-Stamp   1128950018
+Sender  Slodhian~
+Date    Mon Mar 11 14:45:24 2013~
+Stamp   1363038324
+To      admin~
+Subject sp sinks~
+Text
+2000sp will buy you 50% more length for your spellup spells
+500sp for Run command that allows you to do ingame
+run 2s3e etc
+1000sp for coloring on consider mob...
+coloring green, blue, etc for lower than level, yellow red and black for death
+beyond your level
+
+1500sp for one less item to loot by enemy.
+one additional item for 1500sp to hold when you die
+
+here, few more sinks.
+~
+Sender  Slodhian~
+Date    Mon Mar 11 15:08:23 2013~
+Stamp   1363039703
+To      admin~
+Subject townhome~
+Text
+with 50sp you are allowed to reserve one slot from mainstreets of townhomes to
+yourself
+if it's in home of other player, your sp will be removed and you can try again,
+but
+if you choose new slot from either townhomes that are on streets (imms will
+check this out) you have reserved that slot for future build
+
+With this. I would allow new area for players to build their houses
+Mountain
+This would be all north,up, up, from north gate of midgaard
+three housing areas. and with it, we could create one in south if it ever gets
+overpopulated
+also, both could be used if free slots could be found
+~
+Sender  Uniball~
+Date    Tue Mar 12 09:44:43 2013~
+Stamp   1363106683
+To      admin~
+Subject Sickness and absence~
+Text
+Found out today that I might be sicker than I thought, might even end up in the
+hospital tonight, not sure what is going to happen but I will try to check in
+and let you both know what is going on as soon as I know something. Hopefully
+lab work will be back today and I will know something soon. Then I will know
+where it goes from here.
+~
+Sender  Slodhian~
+Date    Wed Mar 13 09:47:45 2013~
+Stamp   1363193265
+To      admin~
+Subject Shadebounty~
+Text
+Capitalized SIGN and colored it bright cyan
+in 22911
+this should draw attention to the sign from those who run around the area
+searching it.
+Not permanent solution, just a way to make it show up
+as the say is totally new way to get transferred :)
+
+will be in in next beroot
+~
+Sender  Andaron~
+Date    Wed Mar 13 17:29:36 2013~
+Stamp   1363220976
+To      admin Uniball~
+Subject Re: Sickness and absence~
+Text
+Take as much time as you need, getting better is higher priority than helping
+here -- though we'll certainly miss your assistance.
+
+Let us know how things go.
+
+Andaron
+~
+Sender  Slodhian~
+Date    Wed Mar 13 23:14:55 2013~
+Stamp   1363241695
+To      andaron~
+Subject Shade~
+Text
+if you say so currently, it whispers just "very funny"
+how about something like "so? So what? Are you here to serve or not?
+
+Just a little bigger hint on what to do :)
+~
+Sender  Andaron~
+Date    Fri Mar 15 14:28:27 2013~
+Stamp   1363382907
+To      admin~
+Subject Removed log on Vesagus~
+Text
+I assume the logging on Versagus was old, so I removed it.  Feel free to
+re-impose it if it's not.
+~
+Sender  Slodhian~
+Date    Sun Mar 17 16:35:06 2013~
+Stamp   1363563306
 To      immortal~
-Subject OLC up~
+Subject Caliber asking chars~
 Text
-The box rebooted itself.  It seems I got the auto-start on boot
-for the main game working, but not OLC.  Anyhow, it's up now.
--Rusty
+Just a good reminder for everyone who does resets to keep eye on ip's etc.
+Aragorn was from south korea, rest was from WA
+
+Easy catch. with simple question about from where they used to play back in the
+day.
 ~
 Sender  Slodhian~
-Date    Sat Oct 15 15:35:35 2005~
-Stamp   1129408535
+Date    Sun Mar 17 19:03:32 2013~
+Stamp   1363572212
+To      Admind ANDARON~
+Subject time~
+Text
+someone has done purge:save isntead of purge reset save
+we need to reset last working area backup for time
+once done, Valixian needs reward for that
+~
+Sender  Slodhian~
+Date    Sun Mar 17 19:05:35 2013~
+Stamp   1363572335
+To      admin ~
+Subject re: time~
+Text
+ps. olc is same. so cant fix it without full restoration of backupfile
+~
+Sender  Andaron~
+Date    Tue Mar 19 11:02:07 2013~
+Stamp   1363716127
+To      admin~
+Subject Time is fixed~
+Text
+Restored time on both  locations, rebooted it to live.
+
+You can reward Val or let me know what you think a suitable one is and I'll do
+it.
+
+Andaron
+~
+Sender  Mindweaver~
+Date    Tue Mar 19 18:03:48 2013~
+Stamp   1363741428
+To      Uniball, immortal~
+Subject Congratulations Uniball!~
+Text
+Dang I get sick for a few months and come back and
+you have gone from new imm to admin!  Woot! Congrats!
+Each time I come on though I never get to see you
+so drop me a note what hours you are usually on so
+I can try to talk to you about some things.
+Again - congrats!!!
+
+Mindweaver
+~
+Sender  Slodhian~
+Date    Wed Mar 20 08:23:47 2013~
+Stamp   1363793027
 To      immortal~
-Subject Joecephus' house addition note~
+Subject idling~
 Text
+Removed the news, and instead just announce it here for imms who watch over
+things.
 
-No one take money from joecephus. at any situation
+Don't bother with idlers. with current players even one idling is
+more than helpful attracting people in.
+It has been rather just unwritten rule to not idle so it doesn't
+change any written rules
 
-I talked to him about the "home approvements" note and what he
-actually wanted. when I said that I can put in default items like pit
-and something like sofa and said that he would have to write note
-to immortals with description if he wanted anything but those in the house
-(furniture and pit). 
-the answer I got was "why bother writing descriptions to them"
-and when I told him the reason, answer was: "this game is entertaining but it
-is not worth the trouble" ....and it's for his own freaking house that 
-only he can enter. I will not put items in that are there but have no descripti
-or anything. 
+so I've removed "red flashing lights"-news and just
+make it known to all imms instead :)
 
-If he wishes to put additions to his house he better do them right.
+Slod
+~
+Sender  Andaron~
+Date    Wed Mar 20 20:58:12 2013~
+Stamp   1363838292
+To      Slodhian~
+Subject Capsules on OLC~
+Text
+Hey,
 
-So dont bother with him. I'm handling him as I see fit for the moment.
+I've added a new item type on OLC, called "capsule".  It's not on live yet
+pending tests to see how opening it works or if I need to change something in
+the values you can set.  help capsule and help vcapsule are both set up as
+well, and the command you use to pop one open is 'open'.
 
-Slodhian
+I ran into an issue with 'break' where it conflicted heavily with 'breathe', so
+if 'open' isn't a good command we can look for another that doesn't clash quite
+so much.
+
+Let me know what you think and I'll update it to live.  I'm thinking there
+needs to be some color added to the reward message but it feels pretty good
+otherwise.
+
+Andaron
 ~
 Sender  Slodhian~
-Date    Sun Oct 23 12:23:08 2005~
-Stamp   1130088188
-To      adminz~
-Subject Manfred~
+Date    Wed Mar 20 22:09:23 2013~
+Stamp   1363842563
+To      andaron~
+Subject capsule~
 Text
+in ident/stat/lore item type is unknown, it however works correctly
 
-As boogums havent answered to manfreds pleads I advanced him to 51.
-it aint too much as I think he wouldnt lie about it and
-wait months for answer at level 25..
+I've created dummy quest capsule for immortals to use in game once it's
+once it's transferred into live.
 
-Boogums should know why.
+[ 1272] a Quest Capsule
+
+Other than that type fault. I've not noticed anything wrong in it :)
 ~
-Sender  Boogums~
-Date    Sun Oct 23 13:16:22 2005~
-Stamp   1130091382
-To      adminz~
-Subject manfred~
+Sender  Uniball~
+Date    Thu Mar 21 11:42:27 2013~
+Stamp   1363891347
+To      Mindweaver~
+Subject Hey~
 Text
-I do know why
-he had a corrupt pfile and had to recreate
-he said he wanted ot remort and didn't want the advance
-at the time
-so it's ok
-Boogums
+Hey there darlin, glad to hear that you are doing better. Thank you greatly,
+I'm recovering from surgery and now the flu or pneumonia again, so not really
+on much right now, but will be checking in from time to time. Trying to rest
+and heal up so I can come back full strength, if my time here becomes more set
+I will drop you a note and let you know when you can get ahold of me.
 ~
-Sender  Alagaster~
-Date    Fri Nov  4 19:14:38 2005~
-Stamp   1131153278
-To      adminz~
-Subject Merlyn password falcon~
+Sender  Mindweaver~
+Date    Thu Mar 21 18:49:49 2013~
+Stamp   1363916989
+To      uniball~
+Subject Get Well Soon!~
 Text
-Downy has asked that this character be undenied.  I don't know
-why they were denied in the first place so I didn't undeny
+I just wante to know if you could drop me a line and tell me
+what items in Matook you found overpowered, or any areas that need
+a fix that you found.  Any other items or rooms that you found
+something wrong in them so I can fix them.  It would shorten my
+editing time if you already knew what they were :)
 
-If there are no objections I will probably go ahead and undeny them, since it
-was probably a temp thing that someone lost
-track of
-
-Al
+GET WELL SOON and come back to us!
+Mindweaver
 ~
 Sender  Slodhian~
-Date    Sat Nov  5 09:40:26 2005~
-Stamp   1131205226
-To      adminz~
-Subject Corrupt pfile~
-Text
-Samo - Crunk
-
-When ploading Samo I get crunk up
-~
-Sender  Rusty~
-Date    Fri Nov 11 09:17:31 2005~
-Stamp   1131722251
+Date    Thu Mar 21 20:45:35 2013~
+Stamp   1363923935
 To      immortal~
-Subject Samo reimbursed~
+Subject yet again, new helpfiles: guild~
 Text
-His pfile was screwed up, I got him back to where he should be.
--Rusty
+just a notification that help guild is out there.
 ~
 Sender  Slodhian~
-Date    Wed Nov 16 13:10:50 2005~
-Stamp   1132168250
-To      adminz~
-Subject Yakko ~
+Date    Sun Mar 24 16:41:05 2013~
+Stamp   1364168465
+To      immortal~
+Subject Capsule is in~
 Text
-Pfile fucked up, crashes the game upon connect
-urgently needs a repair.
+there is dummy capsule 1272
+use help vcapsule to modify it into what you want
+Remember to keep it within reason
+
 ~
-Sender  Rusty~
-Date    Fri Nov 18 13:07:12 2005~
-Stamp   1132340832
-To      adminz~
-Subject Yakko repaired~
+Sender  Slodhian~
+Date    Sun Mar 24 17:19:02 2013~
+Stamp   1364170742
+To      admin~
+Subject capsule~
 Text
-Truncated file with no #END statement.  I fixed.  He may be missing
-some EQ.
--Rusty
+clanner gave an idea of changing xp from capsule
+automatically into merit if level 51 and clanner.
+This would increase the interest inside clanlife towards capsules
+even if we do not even add xp in them
+
+I just liked the idea.
 ~
-Sender  Rusty~
-Date    Fri Nov 18 13:11:21 2005~
-Stamp   1132341081
-To      adminz~
-Subject Ergun Denied~
+Sender  Andaron~
+Date    Tue Mar 26 20:35:53 2013~
+Stamp   1364355353
+To      immortal~
+Subject liquid in food~
 Text
-Left his client up and on auto-login.  Denied...
+On OLC, value 2 and 4 for ITEM_FOOD now are liquid type and amount
+(Respectively).  Both follow the same rules as setting a drink's liquid type
+(Both amount and type of liquid).  Give it a whirl on OLC and if it looks good
+I'll bring it here.
+~
+Sender  Mindweaver~
+Date    Tue Mar 26 23:02:32 2013~
+Stamp   1364364152
+To      Andaron immortal~
+Subject liquid in food~
+Text
+I tested it on my fermented fruit and it works!
+Now when you eat the fermented fruit you feel the effects!
+
+Thanks Andaron!!
+
+Mindweaver
+~
+Sender  Mindweaver~
+Date    Wed Mar 27 00:11:50 2013~
+Stamp   1364368310
+To      Andaron immortal~
+Subject liquid in food part 2~
+Text
+I meant to tell you.. values 2 and 4
+I set the value 2 to type of alcohol and the value
+4 I set to 3 (amount of liquid) because when they ate the
+fruit I wanted it equal to 3 drinks of the booze.  Otherwise
+they would have to eat 3 fruit to get drunk instead of one
+and it worked.  I ate the fruit and became drunk!
+Don't know if that is what you planned but that worked
+for me.  I thought it would just change the drunk toggle
+but this works good :)
+~
+Sender  Andaron~
+Date    Wed Mar 27 18:25:29 2013~
+Stamp   1364433929
+To      Mindweaver immortal~
+Subject Liquid in food~
+Text
+It's set up for liquid type/amount to function exactly like it would for a
+drink container.  So as much liquid as you can get in a single drink from a
+container, you can get from food.
+
+I'll put it live in a bit :)
+~
+Sender  Slodhian~
+Date    Thu Mar 28 07:19:32 2013~
+Stamp   1364480372
+To      admin~
+Subject Beroot~
+Text
+Please do not beroot game until tuesday, lets have easter egg hunts
+and double running until that
+~
+Sender  Mindweaver~
+Date    Thu Mar 28 19:05:46 2013~
+Stamp   1364522746
+To      immortal~
+Subject I forgot or it is a bug :P~
+Text
+Well don't kill me Slod but all your eggs are gone *POOF*
+I managed to crash the game and poofed them all and all my
+Easter Bunnies too!
+Sooooo if you switch into a mob and recall...
+you crash the game!  Thought that was fixed!
+My bad :(
+
+Mindweaver
+~
+Sender  Mindweaver~
+Date    Thu Mar 28 19:09:57 2013~
+Stamp   1364522997
+To      Andaron immortal~
+Subject Liquid in food~
+Text
+Well when I set the value 4 as 1 I don't get drunk.
+When I set the value 4 to 3 I do get drunk.
+So I assumed that value 4 amount of liquid..
+when you eat the food you imbibe 3 drinks at once.
+Isn't that what it does?
+
+Your note confused me lol
+
+Mindweaver
+~
+Sender  Mindweaver~
+Date    Thu Mar 28 19:32:30 2013~
+Stamp   1364524350
+To      Slodhiam immortal~
+Subject Double exp~
+Text
+I set double experience on for a day.
+I don't know how long you had it set for so you
+might want to reset it.  Also I can't write
+notes on the MHS facebook page till I am
+approved to join the group.  Sorry someone will
+have to approve me.
+
+
+Mindweaver
+~
+Sender  Uniball~
+Date    Sat Apr 27 16:06:21 2013~
+Stamp   1367103981
+To      immortal~
+Subject Double xp, or other things to get people back...~
+Text
+As many have noticed I myself as well as others have taken a slight break from
+the moose, and now it seems most everyone is gone. Does anyone have any ideas
+how to get people back that we had, or at least get some active players back? 
+I know its summer time, and its going to be hard to find people that will be
+active, but there has to be something to get out numbers back up where they
+was. Any suggestions will be thought over and appreciated
+
+
+Good day to all,
+Uniball, the laziest of the gods
+~
+Sender  Braxen~
+Date    Mon Apr 29 09:11:59 2013~
+Stamp   1367251919
+To      Immortal~
+Subject Players~
+Text
+Uniball is on to something - we need to get some players in here
+
+If we wait until everything is perfect to do any kind of relaunch we will never
+have a relaunch.
+
+In my opinion, here are some things we could do to get players more active.
+
+1. Reach out to people on the Facebook page.  There are 130+ and I would guess
+that less than 5% log on reguarly.
+We could set up a week where if somoene logs on (based on I.P., not char)
+They could recieve a specially made weapon from the Immortal Group.
+Something that does not vuln but would be cool Moosehead Memorabilia, and
+it would be favoured.  I'd say a 4d7 Made of Awesome hits with Moosecall
+favoured vamp sharp.
+
+2. Get Borb's website back online.  Maybe reaching out to him
+through facebook would work, but it was hosted at Freehostingcloud
+not sure why it went down anyways.  That is an excellent player resource.
+
+3. Increase player resources.  There is a ton to remember and on top
+of that a ton to learn.  I would like to see lists for basic recipies
+and tips for how to learn spells, ect.
+
+After the initial relaunch week, allow people to pass in/out of the clan
+system.  I'd say there are a bunch of people who joined clans early on
+and those clans aren't active any more but they would want to put that
+char in an active clan.  Lets let that happen.
+
+
+That could be a start.
+
+I was wrong, 182 people on MHS facebook.  Maybe a document could be posted
+Under Add File that people could read to get back into the Moose.
+Stuff like 'type score' to see your player statistics.  Basics that we
+take for granted.
+
+Braxen, still plays.  Mostly mortal.
+
+When I have time I'm going to build a Forest south of Nottingham, that
+leads to a cave system where they have dug for all the Mithril and Silver.
+Should be sweet, I'll need vnums eventually (after finals)
+~
+Sender  Andaron~
+Date    Mon Apr 29 14:40:23 2013~
+Stamp   1367271623
+To      immortal~
+Subject Clan passing~
+Text
+Pretty sure you can outcast back to loner for free at the moment, but if not I
+can re-allow that.  Trapping people into clans that were going to die was never
+the intention.
+
+Regarding the other options, bringing back old players is fine -- it's just
+retaining new ones that is really rough with things the way they stand. The
+question as usual is what will keep people interested if they play?  We've had
+a few surges in activity, and people always get bored fairly soon because
+there's nothing really new to do or work for. (And even with the old clan
+system, we didn't have any activity -- it was player requested to move towards
+the new one.)
+
+I'm open to ideas, but this is going to take effort to actually provide people
+stuff to do and reasons to play.  There's no silver bullet here.
+
+Andaron
+~
+Sender  Andaron~
+Date    Mon Apr 29 14:48:34 2013~
+Stamp   1367272114
+To      immortal~
+Subject Armor sets~
+Text
+Similar to how Diablo 2/3 did them, I'm thinking of bringing armor sets to
+Moosehead.  So you'd get a set of say, six items and if you wear up to five of
+them you'll receive an increasing bonus per item.  For example:
+
+One item: No bonus.
+Two items: +1 cha.
+Three items: +1 cha, +20 health.
+Four items: +1 cha, +20 health, +20 mana.
+Five items: +2 cha, +20 health, +20 mana.
+
+The exact bonuses will need deciding, as will the names of the sets.  With six
+possible item slots per set and only five required, people have some room to
+mix and match -- but could only assemble three full sets, and then a little
+bit of another.
+
+The listed bonuses would be on top of all normal ones, and the sets would
+assign to any item -- so you could have one sweaty wristband from X set, and a
+different one from Y set.
+
+The reason I want to add this is because it will allow an enhanced reward
+system to be put into place, and we can start building ways for people to earn
+these.  In general set items would require a special quest or other thing to
+obtain, rather than just being an item on a mob (Exceptions could be made for
+extremely challenging mobs or for mobs that are very hard to get to)
+
+If anyone has any objections, I'm allowing a week from now to voice them.
+Otherwise I will begin planning/work on this, and it will be much harder to
+convince me to not do it.
+
+Andaron
+~
+Sender  Mindweaver~
+Date    Sat May  4 15:24:34 2013~
+Stamp   1367706274
+To      Andaron immortal~
+Subject Armor Sets~
+Text
+Wow! I think that is a fabulous idea!
+I can see people collecting sets already!
+Three cheers for Andaron!
+
+Mindweaver
+~
+Sender  Uniball~
+Date    Sun May  5 18:27:59 2013~
+Stamp   1367803679
+To      Admin~
+Subject New bug with buying~
+Text
+If your buying something like a Platinum brick it doesn't subtract the weight
+of gold when trying to give you the item, so therefore you can't buy a brick
+and hard to buy an egg with a faerie.
+~
+Sender  Uniball~
+Date    Mon May  6 23:15:27 2013~
+Stamp   1367907327
+To      admin~
+Subject Corpses with new Skill~
+Text
+Corpses with the new skill vs. mobs work when using them against other mobs,
+not sure if a bug or was intended
+~
+Sender  Uniball~
+Date    Tue May  7 15:35:01 2013~
+Stamp   1367966101
+To      admin~
+Subject Per Flameseek/Hydro Bug~
+Text
+Not sure what kind of effect it would have but it landed 3 times on a pet,
+after logging out and back in after each cast.
+
+
+Spell: flameseek      : modifies none by 0 for 7 hours
+{x                      : modifies none by 0 for 5 hours
+{x                      : modifies none by 0 for 6 hours
+~
+Sender  Mindweaver~
+Date    Thu May  9 18:16:55 2013~
+Stamp   1368148615
+To      Uniball~
+Subject Nice to see you back!~
+Text
+Saw you posting notes again so I assume....
+your back from the hospital and all :)
+~
+Sender  MoonWind~
+Date    Thu May  9 21:23:57 2013~
+Stamp   1368159837
+To      admin~
+Subject vnums~
+Text
+only need about 75-100 tops for the area I am planning.
+On that note... Trying to find the range again.
+~
+Sender  Mindweaver~
+Date    Sat May 11 13:09:41 2013~
+Stamp   1368302981
+To      Uniball~
+Subject Thanks!~
+Text
+Thanks for the list.  It works great!
+
+Mindweaver
+~
+Sender  Nightdagger~
+Date    Sun Jun 23 03:23:51 2013~
+Stamp   1371983031
+To      immortal~
+Subject Goodbye, and good luck~
+Text
+So, out of a random fit of nostalgia, I decided to google the ol' Moose
+yesterday, and imagine my surprise when I found this place alive again.
+
+But...let's face it, I've moved on, and the things that made this place
+special for me are long gone.
+
+Good luck, folks.  Glad to see this place lives on once more.
+
+Nightdagger out.
+~
+Sender  Mindweaver~
+Date    Sun Jun 23 18:21:45 2013~
+Stamp   1372036905
+To      Andaron immortal~
+Subject We appreaciate all your hard work.~
+Text
+Andaron we really appreciate all your coding skills and
+the time you spend "fixing" all that is wrong and constantly
+seeking ways to improve things here.
+Just wanted to let you know we DO appreciate all you do!
+I know it is nice to hear once in awhile. :)
+
+Mindweaver
+~
+Sender  Slodhian~
+Date    Mon Jun 24 01:23:18 2013~
+Stamp   1372062198
+To      immortal~
+Subject Stepping down~
+Text
+Just a reminder...
+Please do not delete your imms, just leave a note and we demote you to 52
+(retired level)
+and you can continue visit us and sit and chat with people.
+With you deleting, we must make sure that no one
+tries to steal your identity and ruin game for you, and others
+
+There is nothing we require from you at level 52. You can just sit around
+just remember not to involve yourself with spelling up etc.
+~
+Sender  Slodhian~
+Date    Mon Jun 24 01:25:19 2013~
+Stamp   1372062319
+To      admin~
+Subject Imm-pfile-restore~
+Text
+restore Nightdagger pfile
+demote him to 52 and deny if necessary (no use)
+
+we cant have someone playing and claiming to be nightdagger
+~
+Sender  Slodhian~
+Date    Tue Aug 27 05:18:51 2013~
+Stamp   1377605931
+To      karag~
+Subject Nice to see you Dude~
+Text
+sadly you lose connection every time I say hi to you (you've been idling I
+guess)
+
+Slod
+~
+Sender  Slodhian~
+Date    Thu Nov 21 03:28:11 2013~
+Stamp   1385033291
+To      immortal~
+Subject Ned/Grik~
+Text
+Ned/grik Handled, password changed
+~
+Sender  Mindweaver~
+Date    Fri Dec 20 13:55:05 2013~
+Stamp   1387576505
+To      immortal~
+Subject Happy Holidays~
+Text
+I hope everyone has a very Merry Christmas
+and a Happy New Year!!!!
+
+Mindweaver
+~
+Sender  Braxen~
+Date    Thu Mar 20 20:14:27 2014~
+Stamp   1395371667
+To      immortal~
+Subject I'm still here~
+Text
+I'm here, on and off, 1 - 4 hours / week.
+
+Braxen, Bastard of Valhalla.
+~
+Sender  Uniball~
+Date    Sun Aug  3 18:35:21 2014~
+Stamp   1407116121
+To      immortal~
+Subject Slod's Website~
+Text
+Curious if Slod ever checks in or if anyone else happens to remember the link
+to his website with the eqlist and all that on it...
+Would be a huge help to most I'm sure...
+~
+Sender  Slodhian~
+Date    Sun Aug 17 05:24:23 2014~
+Stamp   1408278263
+To      immortal~
+Subject website~
+Text
+help www shows all sites
+~
+Sender  Mindweaver~
+Date    Thu Sep 25 15:13:51 2014~
+Stamp   1411683231
+To      immortal~
+Subject Website~
+Text
+Just what I was going to say LOL
+Actually I do have it somewhere I will find it.
 ~

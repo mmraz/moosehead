@@ -2,21 +2,22 @@
 Name Griswald~
 Id   867335402
 Email (null)~
-LogO 1102174940
-Vers 31
+LogO 1355456262
+Vers 33
 Desc s
 ~
 Prom (%hhp %mmp %vmv %X %wlbs %ggold %ssilver) ~
 Race yinn~
 Clan warlock~
-Outc 370
-RufT 416
+Outc 364
+RufT 410
 MatookT 0
-SkPTimer 0
-SkPTracker 7
+SkPTimer 1
+SkPTracker 4
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy Rodeo~
 LstAtkedBy no one~
@@ -24,10 +25,14 @@ LstAtkedByTimer 0
 LstCombatDate 1102174588
 LstKillDate 1059251216
 LstDeathDate 1059251216
-LoginsWOKill 5
-LoginsWODeath 5
-LoginsWOCombat 0
+LoginsWOKill 8
+LoginsWODeath 8
+LoginsWOCombat 3
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 599595 mojo~
 Sac  300
 Sex  1
@@ -36,24 +41,24 @@ Node 0
 Cap 0
 Created 964740642
 Glad 0 0 0 0 0 0
-LastHost adsl-68-20-181-206.dsl.chcgil.ameritech.net~
+LastHost 98.193.65.211~
 Cla  0
 Kit alchemist~
 ClaO 0
 Levl 29
 DLevl 0
-Plyd 622598
+Plyd 622799
 Not  1102054632 1102069857 1102054632 1102104209 1102054632 1102094797 1102054632 1102054632 1102054632 1102104367
 Scro 22
 Rank 1
 Room 31901
-HMV  339 377 455 489 214 214
+HMV  377 377 489 489 214 214
 Gold 80
 Silv 863
 Exp  119946
 Act  CDEFGHQRS
 MHSF R
-AfBy FJNV
+AfBy FJN
 Comm GLOS
 Disp FGIJ
 IcgB 0
@@ -61,6 +66,8 @@ Icg 0
 Wizn W
 Pnet ABCDEFGHI
 Pos  8
+Prac 1
+Trai 4
 SkiP 4
 Save  -4
 Alig  -1000
@@ -70,15 +77,15 @@ SecHit   14
 SecDam   20
 ACs -62 -62 -62 -48
 Wimp  15
-Attr 22 20 19 22 22 18 14 13
-AMod 3 4 6 5 3 0 0 0
+Attr 22 20 19 22 22 14 14 13
+AMod 3 4 6 2 3 0 0 0
 Pass Gr5OtbgXRdf42~
 Titl  the Shrubber[{rRR{x]{cAlchemy!{x{YRisen Anew!~
 Pnts 77
 TSex 1
 LLev 172
 HMVP 377 464 214
-Cnd  0 44 47 46
+Cnd  0 20 41 34
 Alias k murder~
 Alias sh cast 'shield'~
 Alias li cast 'lightning bolt'~
@@ -104,7 +111,6 @@ Sk 1 'change sex'
 Sk 94 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 1 'control weather'
 Sk 88 'curse'
 Sk 1 'detect evil'
@@ -192,14 +198,13 @@ Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'daetok'   0  29   6   3  19          0
-Affc 'daetok'   0  29   6   3  18          0
-Affc 'detect hidden'   0  30  25   0   0         32
-Affc 'haste'   0  26   0   3   2    2097152
-Affc 'giant strength'   0  26  14   3   1          0
-Affc 'protection evil'   0  29   8  -1  24       8192
-Affc 'armor'   0  25  15 -20  17          0
-Affc 'stone skin'   0  29  14 -40  17          0
+Affc 'stone skin'   0  28   8 -40  17          0
+Affc 'armor'   0  23   9 -20  17          0
+Affc 'protection evil'   0  28   2  -1  24       8192
+Affc 'giant strength'   0  26   8   3   1          0
+Affc 'detect hidden'   0  28  19   0   0         32
+Affc 'daetok'   0  28   0   3  18          0
+Affc 'daetok'   0  29   0   3  19          0
 End
 
 #O
@@ -212,9 +217,9 @@ Cond 0
 Wear 5
 Lev  26
 Cost 1500
-Affc 'enchant armor'   1  28  -1  -8  17          0
-Affc 'reserved'   1  20  -1   1  18          0
 Affc 'reserved'   1  20  -1   1  19          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'enchant armor'   1  28  -1  -8  17          0
 End
 
 #O
@@ -247,8 +252,8 @@ Wear 11
 Lev  26
 Cost 4200
 Val  7 7 7 2 4
-Affc 'enchant armor'   1  27  -1  -4  17          0
 Affc 'reserved'   1  25  -1   5  12          0
+Affc 'enchant armor'   1  27  -1  -4  17          0
 End
 
 #O
@@ -306,9 +311,9 @@ Cond 0
 Wear 10
 Lev  23
 Cost 1500
-Affc 'enchant armor'   1  28  -1  -3  17          0
-Affc 'reserved'   1  20  -1   1  18          0
 Affc 'reserved'   1  20  -1   1  19          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'enchant armor'   1  28  -1  -3  17          0
 End
 
 #O
@@ -321,9 +326,9 @@ Cond 0
 Wear 13
 Lev  23
 Cost 1500
-Affc 'enchant armor'   1  28  -1  -3  17          0
-Affc 'reserved'   1  20  -1   1  18          0
 Affc 'reserved'   1  20  -1   1  19          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'enchant armor'   1  28  -1  -3  17          0
 End
 
 #O
@@ -354,9 +359,9 @@ Cond 0
 Wear 7
 Lev  25
 Cost 1500
-Affc 'enchant armor'   1  28  -1  -8  17          0
-Affc 'reserved'   1  20  -1   1  18          0
 Affc 'reserved'   1  20  -1   1  19          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'enchant armor'   1  28  -1  -8  17          0
 End
 
 #O
@@ -369,9 +374,9 @@ Cond 0
 Wear 8
 Lev  26
 Cost 1500
-Affc 'enchant armor'   1  28  -1  -6  17          0
-Affc 'reserved'   1  20  -1   1  19          0
 Affc 'reserved'   1  20  -1   1  18          0
+Affc 'reserved'   1  20  -1   1  19          0
+Affc 'enchant armor'   1  28  -1  -6  17          0
 End
 
 #O
@@ -384,9 +389,9 @@ Cond 0
 Wear 9
 Lev  27
 Cost 1500
-Affc 'enchant armor'   1  28  -1  -9  17          0
-Affc 'reserved'   1  20  -1   1  18          0
 Affc 'reserved'   1  20  -1   1  19          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'enchant armor'   1  28  -1  -9  17          0
 End
 
 #O
@@ -443,7 +448,7 @@ ExtF 144
 Cond 0
 Wear -1
 Cost 3000
-Affc 'curse'   1  22  18   1  20         16
+Affc 'curse'   1  22  12   1  20         16
 End
 
 #O
@@ -708,13 +713,13 @@ Enchanted
 Nest 0
 PrevOwner Griswald~
 ExtF 66
-Stolen 27
+Stolen 21
 Cond 0
 Wear 16
 Lev  26
 Cost 4200
-Affc 'enchant weapon'   1  28  -1   6  18          0
 Affc 'enchant weapon'   1  28  -1   6  19          0
+Affc 'enchant weapon'   1  28  -1   6  18          0
 End
 
 #O
@@ -769,12 +774,10 @@ PrevOwner (null)~
 Name molotov cocktail red~
 ShD  a red molotov cocktail~
 Desc A small bottle filled with red liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-ExtF 17825792
 Cond 0
 Wear -1
 Cost 0
 Val  12 29 0 0 6
-Affc 'fireproof'   1  30   4   0   0   16777216
 End
 
 #O
@@ -784,12 +787,10 @@ PrevOwner (null)~
 Name molotov cocktail transparent~
 ShD  a transparent molotov cocktail~
 Desc A small bottle filled with transparent liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-ExtF 17825792
 Cond 0
 Wear -1
 Cost 0
 Val  12 29 0 0 41
-Affc 'fireproof'   1  28   5   0   0   16777216
 End
 
 #O

@@ -2,7 +2,7 @@
 Name Lichon~
 Id   993860552
 Email (null)~
-LogO 1032514202
+LogO 1307167038
 Vers 31
 Prom <%h/%Hhp %mm %vmv %w# %Xxp %Spts> ~
 Race rockbiter~
@@ -11,7 +11,7 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 0
+SkPTracker 2
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -19,12 +19,12 @@ LstK Halo~
 LstKBy Halo~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1032513723
+LstCombatDate 1307165730
 LstKillDate 1032513723
 LstDeathDate 1032513723
-LoginsWOKill 1
-LoginsWODeath 1
-LoginsWOCombat 1
+LoginsWOKill 2
+LoginsWODeath 2
+LoginsWOCombat 0
 Bnty 0
 Deity 270708 paladine~
 DeityT -11 paladine~
@@ -35,39 +35,38 @@ Node 0
 Cap 0
 Created 993860570
 Glad 0 0 0 0 0 0
-LastHost 12-230-152-29.client.attbi.com~
+LastHost 50.98.224.64~
 Cla  3
 Kit knight~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 314176
-Not  1032514198 1032514198 1032514198 1032514198 1032514198 1032514198 1032514198 1032514198 1032514198 1032514198
+Plyd 316213
+Not  1307166890 1307166890 1307166890 1307166890 1307166890 1307166890 1307166890 1307166890 1307166890 1307166890
 Scro 22
 Rank 2
 Room 31603
-HMV  1629 1629 358 358 207 207
-Gold 31
-Silv 65
+HMV  1629 1629 266 358 187 207
+Gold 29
+Silv 58
 Exp  212271
-Act  DFGHJKQS
-MHSF S
-AfBy CDFT
+Act  DFGHJKQRS
+MHSF RS
+AfBy CDFPT
 Comm G
 Disp BFJL
 IcgB 0
 Icg 0
-Pos  5
+Pos  8
 Trai 10
-SkiP 51
+SkiP 55
 Save  -5
-Alig  644
+Alig  645
 Hit   15
-Dam   48
+Dam   42
 SecHit   6
 SecDam   33
 ACs 8 8 8 51
-Wimp  400
 Attr 25 15 25 13 25 13 13 13
 AMod 5 5 4 1 0 0 0 0
 Pass Li9tq4e2VtvbU~
@@ -76,7 +75,7 @@ Pnts 66
 TSex 1
 LLev 1
 HMVP 1609 345 202
-Cnd  0 0 48 0
+Cnd  0 0 48 16
 Alias whoclan who clan 35 51~
 Alias / cast word~
 Alias h murder~
@@ -84,11 +83,11 @@ Alias leve ; not yet~
 Alias lev ; not yet~
 Alias le ; not yet~
 Alias whothief who monk assa thi rog ber~
+Alias 1 bash sly~
 Spz 'polearm'
 Sk 1 'armor'
 Sk 80 'call mount'
 Sk 68 'cancellation'
-Sk 1 'cuffs of justice'
 Sk 1 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
@@ -141,6 +140,7 @@ Gr 'warrior basics'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
+Affc 'sneak'   0  50  50   0   0      32768
 End
 
 #O
@@ -385,8 +385,8 @@ Cond 0
 Wear -1
 Lev  49
 Cost 4950
-Affc 'enchant weapon'   1  53  -1   9  19          0
 Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
@@ -435,8 +435,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4100
-Affc 'enchant weapon'   1  53  -1  10  19          0
 Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O
@@ -449,8 +449,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4950
-Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -481,8 +481,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4100
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -495,28 +495,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 3900
-Affc 'enchant weapon'   1  53  -1   9  19          0
 Affc 'enchant weapon'   0  53  -1   9  18          0
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Lichon~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Lichon~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
+Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
@@ -739,13 +719,13 @@ Cond 0
 Wear -1
 Lev  39
 Cost 6000
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'reserved'   1  30  -1 -10  13          0
 Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'reserved'   1  30  -1 -10  13          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
-Vnum 2419
+Vnum 12029
 Enchanted
 Nest 1
 PrevOwner Lichon~
@@ -753,9 +733,9 @@ ExtF 67
 Cond 0
 Wear -1
 Lev  50
-Cost 2100
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
+Cost 5400
+Affc 'enchant weapon'   1  53  -1  15  19          0
+Affc 'enchant weapon'   1  53  -1   9  18          0
 End
 
 #O
@@ -831,7 +811,7 @@ Cost 400
 End
 
 #O
-Vnum 12029
+Vnum 2419
 Enchanted
 Nest 0
 PrevOwner Lichon~
@@ -839,24 +819,24 @@ ExtF 67
 Cond 0
 Wear 16
 Lev  50
-Cost 5400
-Affc 'enchant weapon'   1  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1  15  19          0
+Cost 2100
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #PET
 Vnum 11
 Name magestic warhorse war horse~
-LogO 1032514202
+LogO 1307167038
 Sex  2
-Levl 28
-HMV  494 494 100 100 342 342
+Levl 30
+HMV  520 520 100 100 355 360
 AfBy S
 Comm VWX
 Pos  8
-Hit  16
-Dam  16
-ACs  -37 -37 -37 -43
+Hit  18
+Dam  18
+ACs  -43 -43 -43 -46
 Attr 19 12 13 13 16 13 13 13
 AMod 0 0 0 0 0 0 0 0
 End

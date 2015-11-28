@@ -3,7 +3,7 @@ Name Vashe~
 SurN Bastige~
 Id   1065642412
 Email (null)~
-LogO 1115061017
+LogO 1311176931
 Vers 31
 LnD  A Gladiator~
 Desc Foulbreath Callak Lrugrewolf Hugh Myagi Anubis Errbold Arathorn Elias Hellguard
@@ -12,7 +12,7 @@ Prom %h %m %v%c> ~
 Race dragon~
 Clan loner~
 Outc 0
-RufT 387
+RufT 386
 MatookT 0
 SkPTimer 0
 SkPTracker 0
@@ -26,10 +26,13 @@ LstAtkedByTimer 0
 LstCombatDate 1112199709
 LstKillDate 1112199717
 LstDeathDate 1093441879
-LoginsWOKill 3
-LoginsWODeath 17
-LoginsWOCombat 2
+LoginsWOKill 4
+LoginsWODeath 18
+LoginsWOCombat 3
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 269329 huitzilopochtli~
 Sac  300
 Sex  1
@@ -38,18 +41,18 @@ Node 0
 Cap 0
 Created 1065642518
 Glad 0 0 0 0 1 0
-LastHost host-65-6-240-190.clt.bellsouth.net~
+LastHost 74.251.225.253~
 Cla  6
 Kit barbarian~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 462334
+Plyd 462416
 Not  1095625399 1093587145 1090426081 1095365355 1094178263 1094745965 1090426081 1090426081 1090426081 1090426081
 Scro 22
 Rank 0
-Room 6406
-HMV  1453 1453 46 446 572 869
+Room 6405
+HMV  1453 1453 446 446 864 869
 Gold 1056
 Silv 93
 Exp  571357
@@ -63,6 +66,7 @@ Icg 0
 Wizn W
 Pnet ADEF
 Pos  8
+Trai 23
 SkiP 133
 Save  -15
 Alig  -1000
@@ -71,7 +75,7 @@ Dam   38
 SecHit   20
 SecDam   27
 ACs -101 -99 -101 -44
-Attr 25 22 22 22 23 25 23 13
+Attr 25 22 22 22 23 11 14 13
 AMod 4 4 2 1 2 0 0 0
 Pass VaRdGaLyh1R2A~
 Titl  the {Rstampede{x~
@@ -79,7 +83,7 @@ Pnts 100
 TSex 1
 LLev 94
 HMVP 1378 416 834
-Cnd  0 8 45 14
+Cnd  0 4 44 12
 Sk 1 'aid'
 Sk 82 'armor'
 Sk 1 'bestow holiness'
@@ -164,15 +168,15 @@ Gr 'draconian'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'morph'   0  51   2   0   0       2048
-Affc 'sanctuary'   0  39   4   0   0        128
-Affc 'pass door'   0  38   2   0   0    1048576
-Affc 'sneak'   0  50  43   0   0      32768
-Affc 'detect invis'   0  37  30   0   0          8
-Affc 'armor'   0  38  23 -20  17          0
-Affc 'bless'   0  35  32  -5  24          0
-Affc 'bless'   0  39  32   5  18          0
-Affc 'shield'   0  30   4 -20  17          0
+Affc 'shield'   0  29   3 -20  17          0
+Affc 'bless'   0  39  31   5  18          0
+Affc 'bless'   0  35  31  -5  24          0
+Affc 'armor'   0  37  22 -20  17          0
+Affc 'detect invis'   0  37  29   0   0          8
+Affc 'sneak'   0  49  42   0   0      32768
+Affc 'pass door'   0  38   1   0   0    1048576
+Affc 'sanctuary'   0  39   3   0   0        128
+Affc 'morph'   0  51   1   0   0       2048
 End
 
 #O
@@ -515,8 +519,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1200
-Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -538,8 +542,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -645,8 +649,8 @@ ExtF 524354
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -730,8 +734,8 @@ Wear -1
 Lev  50
 Cost 600
 Val  1 10 4 38 4
-Affc 'enchant weapon'   0  53  -1  12  18          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
@@ -745,10 +749,10 @@ Wear -1
 Lev  50
 Cost 2200
 Val  6 5 8 26 1032
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   1  53  -1  10  18          0
 Affc 'reserved'   1  49  -1  10  12          0
+Affc 'enchant weapon'   1  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
@@ -801,8 +805,8 @@ Cond 0
 Wear -1
 Cost 0
 Val  6 2 20 7 292
-Affc 'enchant weapon'   0  52  -1  10  18          0
 Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
 End
 
 #O
@@ -942,13 +946,13 @@ Enchanted
 Nest 1
 PrevOwner Vashe~
 ExtF 66
-Stolen 905
+Stolen 904
 Cond 0
 Wear -1
 Lev  36
 Cost 2200
-Affc 'enchant weapon'   1  52  -1   9  18          0
 Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   1  52  -1   9  18          0
 End
 
 #O
@@ -970,8 +974,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4850
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   1  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -1084,9 +1088,9 @@ Cond 0
 Wear 16
 Cost 0
 Val  6 2 20 7 45
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -1139,7 +1143,7 @@ End
 Vnum 8517
 Nest 0
 PrevOwner (null)~
-Stolen 20
+Stolen 19
 Cond 0
 Wear 17
 Cost 0

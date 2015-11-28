@@ -47,7 +47,259 @@ void  add_prev_owner args( ( OBJ_DATA *obj, CHAR_DATA *ch) );
 /*
  * External functions.
  */
-int	clan_lookup	args( (const char *name) );
+int	nonclan_lookup	args( (const char *name) );
+
+
+void prompt_pulse_command(CHAR_DATA *ch)
+{
+  char buf[256];
+  if(IS_NPC(ch))
+    return;
+  switch(ch->pcdata->pulse_type)
+  {
+    case PULSE_RECALL:
+      if(ch->pcdata->clan_info && ch->pcdata->clan_info->clan->hall)
+        sprintf(buf, "<Recalling to hall in %d combat rounds>\n\r", (ch->pcdata->pulse_timer + 11) / 12);
+      else
+        sprintf(buf, "<Recalling in %d combat rounds>\n\r", (ch->pcdata->pulse_timer + 11) / 12);
+      send_to_char(buf, ch);
+      break;
+    default: send_to_char("<Unknown timer>\n\r", ch); break; 
+  } 
+}
+
+bool tick_pulse_command(CHAR_DATA *ch)
+{
+  if(IS_NPC(ch) || ch->pcdata->pulse_timer <= 0)
+    return FALSE;
+  switch(ch->pcdata->pulse_type)
+  {
+    case PULSE_RECALL:
+      ch->pcdata->pulse_timer--;
+      if(ch->pcdata->pulse_timer && !(ch->pcdata->pulse_timer % 12))
+      {
+        if(number_percent() <= get_skill(ch, gsn_recall) + number_percent() / 4)
+          send_to_char("Your vision of your destination grows clearer.\n\r", ch);
+        else
+        {
+          send_to_char("You fail to focus on your destination.\n\r", ch);
+          ch->pcdata->pulse_timer += 12;
+        }
+      }
+      break;
+    default: ch->pcdata->pulse_timer--; break;
+  }
+  if(!ch->pcdata->pulse_timer)
+  {
+    end_pulse_command(ch, TRUE, FALSE);/* Success */
+    return TRUE;
+  }
+  return FALSE;
+}
+
+void end_pulse_command(CHAR_DATA *ch, bool success, bool violent)
+{
+  int i;
+  if(IS_NPC(ch))
+    return;
+  switch(ch->pcdata->pulse_type)
+  {
+    case PULSE_RECALL: if(success)
+      {
+        ROOM_INDEX_DATA *loc;
+        check_improve(ch, gsn_recall, TRUE, 2);
+        ch->move /= 2;
+        if(ch->pcdata->clan_info && ch->pcdata->clan_info->clan->hall)
+        {
+          for(i = 0; i < 6; i++)
+          {
+            if(ch->pcdata->clan_info->clan->hall->exits[i].outside)
+            {
+              act("$n disappears.", ch, NULL, NULL, TO_ROOM, FALSE);
+              send_to_char("You return to your hall!  You take a moment to orient yourself.\n\r", ch);
+              char_from_room(ch);
+              clear_mount(ch);
+              char_to_room(ch, ch->pcdata->clan_info->clan->hall->exits[i].outside);
+              act("$n appears in the room, $e looks briefly disoriented.", ch, NULL, NULL, TO_ROOM, FALSE);
+              do_look(ch, "auto");
+              WAIT_STATE(ch, PULSE_VIOLENCE);/* Slight delay on arrival */
+              return;
+            }
+          }
+        }
+        loc = get_room_index(ROOM_VNUM_TEMPLE);
+        if(loc == NULL)
+        {
+          send_to_char("You are completely lost.\n\r", ch);
+          return;
+        }
+        act("$n disappears.",ch,NULL,NULL,TO_ROOM,FALSE);
+        char_from_room(ch);
+        clear_mount(ch);
+        char_to_room(ch, loc);
+        act("$n appears in the room.",ch,NULL,NULL,TO_ROOM,FALSE);
+        do_look(ch, "auto");
+        WAIT_STATE(ch, PULSE_VIOLENCE);/* Slight delay on arrival */
+        return;
+      }
+      else
+      {
+        ch->pcdata->pulse_timer = 0;
+        if(violent)
+        {
+          DAZE_STATE(ch,PULSE_VIOLENCE);
+          act("You feel dazed as your focus is suddenly interrupted!",ch,NULL,NULL,TO_CHAR,FALSE);
+          act("$n has been interrupted, $s eyes briefly lose focus.",ch,NULL,NULL,TO_ROOM,FALSE);
+        }
+        else
+        {
+          act("You stop focusing on recalling.",ch,NULL,NULL,TO_CHAR,FALSE);
+          act("$n stops focusing so intently.",ch,NULL,NULL,TO_ROOM,FALSE);
+        }
+      }
+      break;
+    case PULSE_STEALMERIT: if(success)
+      {
+        if(!ch->pcdata->pulse_target)
+        {
+          send_to_char("They aren't here.", ch);
+          return;
+        }
+        steal(ch, "merit", ch->pcdata->pulse_target);
+      }
+      else
+        send_to_char("Your attempt to steal merit has been interrupted!", ch);
+      return;
+    default: return;
+  }
+}
+
+bool damage_pulse_command(CHAR_DATA *ch)
+{
+  if(IS_NPC(ch))
+    return TRUE;
+  switch(ch->pcdata->pulse_type)
+  {
+    case PULSE_RECALL: return TRUE;
+      break;
+    default: return TRUE;
+  }
+}
+
+
+/* Yes, this adds differently - it is simpler than an affect */
+void damage_add(CHAR_DATA *ch, CHAR_DATA *victim, int amount, int duration)
+{
+  DAMAGE_DATA *dam_new;
+  if(ch == victim)
+    return;// No damage credit on yourself
+  if(victim->damaged)
+  {/* Check for an add rather than new allocation */
+    dam_new = damage_find(victim, ch ? (ch->master ? ch->master->name : ch->name) : "");
+    if(dam_new != NULL)
+    {// Update the appropriate stats
+      dam_new->duration = UMAX(dam_new->duration, duration);
+      dam_new->damage += amount;
+      return;
+    }
+  }
+  dam_new = new_damage();
+  dam_new->damage = amount;
+  dam_new->duration = duration;
+  dam_new->type = 0;
+  if(ch)
+    dam_new->source = str_dup(ch->master ? ch->master->name : ch->name);
+  else
+    dam_new->source = str_dup("~");
+  VALIDATE(dam_new);
+  dam_new->next = victim->damaged;
+  victim->damaged = dam_new;
+}
+
+void damage_remove(CHAR_DATA *ch, DAMAGE_DATA *dam)
+{
+    if ( ch->damaged == NULL )
+    {
+   bug( "damage_remove: no damages.",0);
+   return;
+    }
+  if(dam == ch->damaged)
+  {
+    ch->damaged = ch->damaged->next;
+  }
+  else
+  {
+    DAMAGE_DATA *prev = ch->damaged;
+    while(prev->next && prev->next != dam)
+      prev = prev->next;
+    if(prev->next == NULL)
+    {
+      bug("damage_remove couldn't find damage.", 0);
+      return;
+    }
+    prev->next = dam->next;
+  }
+  if(dam->source != NULL)
+  {
+    free_string(dam->source);
+    dam->source = NULL;
+  }
+  free_damage(dam);
+}
+
+DAMAGE_DATA *damage_find(CHAR_DATA *victim, char *source)
+{
+  DAMAGE_DATA *dam;
+  char *comp = source;
+  if(comp == NULL)
+    comp = "";
+  if(victim->damaged == NULL)
+    return NULL;
+  dam = victim->damaged;
+  for(dam = victim->damaged; dam != NULL; dam = dam->next)
+  {
+    if(dam->source == NULL)
+    {
+      if(comp[0] == '\0')
+        return dam;
+      continue;
+    }
+    if(!str_cmp(dam->source, source))
+      return dam;
+  }
+  return NULL;
+}
+
+void damage_decrement(CHAR_DATA *ch)
+{
+  DAMAGE_DATA *prev = NULL;
+  DAMAGE_DATA *cur = ch->damaged;
+  while(cur != NULL)
+  {
+    cur->duration--;
+    if(cur->duration == 0)
+    {
+      if(prev == NULL)
+        ch->damaged = cur->next;
+      else
+        prev->next = cur->next;
+      if(cur->source != NULL)
+      {
+        free_string(cur->source);
+        cur->source = NULL;
+      }
+      free_damage(cur);
+      if(prev == NULL)
+        cur = ch->damaged;
+      else
+        cur = prev->next;
+      continue;
+    }
+    prev = cur;
+    cur = cur->next;
+  }
+}
+
 
 void clear_mount( CHAR_DATA *ch )
 {
@@ -375,6 +627,33 @@ int class_lookup (const char *name)
    return -1;
 }
 
+int get_dam_bit(int dam)
+{
+  int bit;
+    switch (dam)
+    {
+  case(DAM_BASH):   bit = IMM_BASH;   break;
+  case(DAM_PIERCE): bit = IMM_PIERCE; break;
+  case(DAM_SLASH):  bit = IMM_SLASH;  break;
+  case(DAM_FIRE):   bit = IMM_FIRE;   break;
+  case(DAM_COLD):   bit = IMM_COLD;   break;
+  case(DAM_LIGHTNING):  bit = IMM_LIGHTNING;  break;
+  case(DAM_ACID):   bit = IMM_ACID;   break;
+  case(DAM_POISON): bit = IMM_POISON; break;
+  case(DAM_NEGATIVE): bit = IMM_NEGATIVE; break;
+  case(DAM_HOLY):   bit = IMM_HOLY;   break;
+  case(DAM_ENERGY): bit = IMM_ENERGY; break;
+  case(DAM_MENTAL): bit = IMM_MENTAL; break;
+  case(DAM_DISEASE):  bit = IMM_DISEASE;  break;
+  case(DAM_DROWNING): bit = IMM_DROWNING; break;
+  case(DAM_LIGHT):  bit = IMM_LIGHT;  break;
+  case(DAM_CHARM):  bit = IMM_CHARM;  break;
+  case(DAM_SOUND):  bit = IMM_SOUND;  break;
+  default:    return -1;
+    }
+  return bit;
+}
+
 /* for immunity, vulnerabiltiy, and resistant
    the 'globals' (magic and weapons) may be overriden
    three other cases -- wood, silver, and iron -- are checked in fight.c */
@@ -387,8 +666,45 @@ int check_immune(CHAR_DATA *ch, int dam_type)
     immune = -1;
     def = IS_NORMAL;
 
+    if(dam_type == DAM_NEUTRAL)
+      return def;
+
     if (dam_type == DAM_NONE)
   return immune;
+
+    if(dam_type == DAM_VULN)
+    {/* Special case! Return the highest vuln */
+    /* Currently does NOT handle global weapon immunity, sorry gargoyles.  On the flipside, doesn't do global weapon vulns */
+    /* Intended for attacks only, used for blind gladiators.  Use elsewhere at your own risk */
+      int i;
+      immune = IS_IMMUNE;/* Worst case */
+      /* This would be so much easier if the vuln flags were set up in some sensible order */
+      for(i = DAM_VULN - 1; i > DAM_NONE; i--)
+      {
+        bit = get_dam_bit(i);
+        if(bit == -1)
+          continue;// Bad damage type
+        switch(immune)
+        {
+          case IS_IMMUNE: if (IS_SET(ch->res_flags,bit))
+                            immune = IS_RESISTANT;
+                          else if(IS_SET(ch->vuln_flags,bit))
+                            return IS_VULNERABLE;/* Highest level reached. */
+                          else
+                            immune = IS_NORMAL;
+                          break;
+          case IS_RESISTANT:if(IS_SET(ch->vuln_flags,bit))
+                            return IS_VULNERABLE;/* Highest level reached. */
+                          else
+                            immune = IS_NORMAL;
+                          break;
+          case IS_NORMAL: if(IS_SET(ch->vuln_flags,bit))
+                            return IS_VULNERABLE;/* Highest level reached. */
+                          break;
+        }
+      }
+      return immune;
+    }
 
     if (dam_type <= 3)
     {
@@ -410,27 +726,8 @@ int check_immune(CHAR_DATA *ch, int dam_type)
     }
 
     /* set bits to check -- VULN etc. must ALL be the same or this will fail */
-    switch (dam_type)
-    {
-  case(DAM_BASH):   bit = IMM_BASH;   break;
-  case(DAM_PIERCE): bit = IMM_PIERCE; break;
-  case(DAM_SLASH):  bit = IMM_SLASH;  break;
-  case(DAM_FIRE):   bit = IMM_FIRE;   break;
-  case(DAM_COLD):   bit = IMM_COLD;   break;
-  case(DAM_LIGHTNING):  bit = IMM_LIGHTNING;  break;
-  case(DAM_ACID):   bit = IMM_ACID;   break;
-  case(DAM_POISON): bit = IMM_POISON; break;
-  case(DAM_NEGATIVE): bit = IMM_NEGATIVE; break;
-  case(DAM_HOLY):   bit = IMM_HOLY;   break;
-  case(DAM_ENERGY): bit = IMM_ENERGY; break;
-  case(DAM_MENTAL): bit = IMM_MENTAL; break;
-  case(DAM_DISEASE):  bit = IMM_DISEASE;  break;
-  case(DAM_DROWNING): bit = IMM_DROWNING; break;
-  case(DAM_LIGHT):  bit = IMM_LIGHT;  break;
-  case(DAM_CHARM):  bit = IMM_CHARM;  break;
-  case(DAM_SOUND):  bit = IMM_SOUND;  break;
-  default:    return def;
-    }
+    if((bit = get_dam_bit(dam_type)) == -1)
+      return def;
 
     if (IS_SET(ch->imm_flags,bit))
   immune = IS_IMMUNE;
@@ -454,11 +751,28 @@ int check_immune(CHAR_DATA *ch, int dam_type)
 
 bool is_clan(CHAR_DATA *ch)
 {
-    return ( clan_table[ch->clan].true_clan );
+  if(IS_NPC(ch))
+    return FALSE;
+  if(ch->pcdata->clan_info)
+    return TRUE;
+  return ( clan_table[ch->clan].true_clan );
 }
 
 bool is_same_clan(CHAR_DATA *ch, CHAR_DATA *victim)
 {
+  if(IS_NPC(ch) || IS_NPC(victim))
+    return FALSE;
+  if(ch->pcdata->clan_info)
+  {
+    if(ch->pcdata->clan_info->clan->default_clan)
+      return FALSE;
+    if(victim->pcdata->clan_info)
+      return ch->pcdata->clan_info->clan == victim->pcdata->clan_info->clan;
+    return FALSE;
+  }
+  else if(victim->pcdata->clan_info)
+    return FALSE;
+
     if (clan_table[ch->clan].independent && clan_table[ch->clan].true_clan)
   return FALSE;
     else 
@@ -496,7 +810,11 @@ int get_skill(CHAR_DATA *ch, int sn)
   if (ch->level < skill_level(ch,sn) )
       skill = 0;
   else
+  {
       skill = ch->pcdata->learned[sn];
+	if(ch->pcdata->deity_trial_timer > 0 && ch->pcdata->deity_trial == 8)
+	  skill /= 2;// Trial 8: Barely remember how to use your skills
+  }
     }
 
     else /* mobiles */
@@ -570,7 +888,7 @@ int get_skill(CHAR_DATA *ch, int sn)
     if (ch->daze > 0)
     {
   if (skill_table[sn].spell_fun != spell_null)
-      if (ch->clan == clan_lookup("warlock"))
+      if (ch->clan == nonclan_lookup("warlock"))
 	 skill = (skill/2) + (skill/10); 
       else
          skill /= 2;
@@ -664,8 +982,8 @@ void reset_char(CHAR_DATA *ch)
 
     if (ch->pcdata->perm_hit == 0 
     ||  ch->pcdata->perm_mana == 0
-    ||  ch->pcdata->perm_move == 0
-    ||  ch->pcdata->last_level == 0)
+    ||  ch->pcdata->perm_move == 0)
+//    ||  ch->pcdata->last_level == 0)
     {
     /* do a FULL reset */
   for (loc = 0; loc < MAX_WEAR; loc++)
@@ -1197,6 +1515,9 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd, int AppType)
     {
   switch (paf->where)
   {
+  case TO_AFFECTS_EXT:
+      SET_BIT(ch->affected_by_ext, paf->bitvector);
+      break;
   case TO_AFFECTS:
       SET_BIT(ch->affected_by, paf->bitvector);
       break;
@@ -1215,6 +1536,9 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd, int AppType)
     {
         switch (paf->where)
         {
+        case TO_AFFECTS_EXT:
+            REMOVE_BIT(ch->affected_by_ext, paf->bitvector);
+            break;
         case TO_AFFECTS:
             REMOVE_BIT(ch->affected_by, paf->bitvector);
             break;
@@ -1290,12 +1614,12 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd, int AppType)
      * Check for weapon wielding.
      * Guard against recursion (for weapons with affects).
      */
-    if ( !IS_NPC(ch) && ( wield = get_eq_char( ch, WEAR_WIELD ) ) != NULL
+/*    if ( !IS_NPC(ch) && ( wield = get_eq_char( ch, WEAR_WIELD ) ) != NULL
     &&   get_obj_weight(wield) > (str_app[get_curr_stat(ch,STAT_STR)].wield*10))
     {
   static int depth;
 
-  if ( depth == 0 )
+  if ( depth == 0 && ch->in_room != NULL && ch->in_room->vnum != ROOM_VNUM_LIMBO)
   {
       depth++;
       act( "You drop $p.", ch, wield, NULL, TO_CHAR ,FALSE);
@@ -1304,7 +1628,32 @@ void affect_modify( CHAR_DATA *ch, AFFECT_DATA *paf, bool fAdd, int AppType)
       obj_to_room( wield, ch->in_room );
       depth--;
   }
+    }*/
+    if ( !IS_NPC(ch) && ( wield = get_eq_char( ch, WEAR_WIELD ) ) != NULL)
+    {
+      if(get_obj_weight(wield) > (str_app[get_curr_stat(ch,STAT_STR)].wield*10))
+      {
+        static int depth;
+
+        if (!ch->pcdata->weapon_too_heavy && depth == 0 && ch->in_room != NULL && ch->in_room->vnum != ROOM_VNUM_LIMBO)
+        {
+            depth++;
+            ch->pcdata->weapon_too_heavy = TRUE;
+            act("$p is too heavy for you to wield effectively.", ch, wield, NULL, TO_CHAR, FALSE);
+            /*act( "You drop $p.", ch, wield, NULL, TO_CHAR ,FALSE);
+            act( "$n drops $p.", ch, wield, NULL, TO_ROOM ,FALSE);
+            obj_from_char( wield );
+            obj_to_room( wield, ch->in_room );*/
+            depth--;
+        }
+      }
+      else if(ch->pcdata->weapon_too_heavy)
+      {
+        ch->pcdata->weapon_too_heavy = FALSE;
+        act("You have the strength to wield $p again.", ch, wield, NULL, TO_CHAR, FALSE);
+      }
     }
+
 
     return;
 }
@@ -1338,6 +1687,9 @@ void affect_check(CHAR_DATA *ch,int where,int vector)
   {
       switch (where)
       {
+          case TO_AFFECTS_EXT:
+        SET_BIT(ch->affected_by_ext,vector);
+        break;
           case TO_AFFECTS:
         SET_BIT(ch->affected_by,vector);
         break;
@@ -1364,6 +1716,9 @@ void affect_check(CHAR_DATA *ch,int where,int vector)
             {
                 switch (where)
                 {
+                    case TO_AFFECTS_EXT:
+                        SET_BIT(ch->affected_by_ext,vector);
+                        break;
                     case TO_AFFECTS:
                         SET_BIT(ch->affected_by,vector);
                         break;
@@ -1388,6 +1743,9 @@ void affect_check(CHAR_DATA *ch,int where,int vector)
             {
                 switch (where)
                 {
+                    case TO_AFFECTS_EXT:
+                        SET_BIT(ch->affected_by_ext,vector);
+                        break;
                     case TO_AFFECTS:
                         SET_BIT(ch->affected_by,vector);
                         break;
@@ -1419,6 +1777,7 @@ void affect_to_room( ROOM_INDEX_DATA *room, AFFECT_DATA *paf )
     VALIDATE(paf_new);
     paf_new->next = room->affected;
     room->affected = paf_new;
+    room->room_affects |= paf->bitvector;
 
     /* This may not be needed, depending on how this is handled **
     raffect_modify( room, paf_new, TRUE );  **/
@@ -1437,6 +1796,24 @@ bool check_trap( ROOM_INDEX_DATA *room, int trap )
 		return TRUE;
 
     return FALSE;
+}
+
+/*
+ * Give a flash affect to a char.
+ */
+void flash_affect_to_char( CHAR_DATA *ch, AFFECT_DATA *paf )
+{
+    AFFECT_DATA *paf_new;
+
+    paf_new = new_affect();
+
+    *paf_new    = *paf;
+    VALIDATE(paf_new);
+    paf_new->next = ch->flash_affected;
+    ch->flash_affected  = paf_new;
+
+    affect_modify( ch, paf_new, TRUE, APPLY_BOTH);
+    return;
 }
 
 /*
@@ -1488,6 +1865,7 @@ void affect_to_obj(OBJ_DATA *obj, AFFECT_DATA *paf)
 
 void raffect_remove( ROOM_INDEX_DATA *room, AFFECT_DATA *paf )
 {
+    AFFECT_DATA *prev;
     if ( room->affected == NULL )
     {
    bug( "RAffect_remove: no affect.",0);
@@ -1500,7 +1878,6 @@ void raffect_remove( ROOM_INDEX_DATA *room, AFFECT_DATA *paf )
     }
     else
     {
-    AFFECT_DATA *prev;
 
     for ( prev = room->affected ; prev != NULL ; prev = prev->next )
     {
@@ -1517,8 +1894,70 @@ void raffect_remove( ROOM_INDEX_DATA *room, AFFECT_DATA *paf )
     return;
     }
     }
+    if(paf->bitvector && IS_SET(room->room_affects, paf->bitvector))
+    {// Check that it's not applied by a second affect
+      for ( prev = room->affected ; prev != NULL ; prev = prev->next )
+      {
+        if(prev != paf && prev->bitvector == paf->bitvector)
+          break;
+      }
+      if(!prev)
+        REMOVE_BIT(room->room_affects, paf->bitvector);
+    }
+
     free_affect(paf);
 
+    return;
+}
+
+/*
+ * Remove a flash affect from a char.
+ */
+void flash_affect_remove( CHAR_DATA *ch, AFFECT_DATA *paf, int AppType)
+{
+    int where;
+    int vector;
+
+    if ( ch->flash_affected == NULL )
+    {
+  bug( "Affect_remove: no affect.", 0 );
+  return;
+    }
+
+    affect_modify( ch, paf, FALSE, AppType);
+    where = paf->where;
+    vector = paf->bitvector;
+
+    if ( paf == ch->flash_affected )
+    {
+  ch->flash_affected  = paf->next;
+    }
+    else
+    {
+  AFFECT_DATA *prev;
+
+  for ( prev = ch->flash_affected; prev != NULL; prev = prev->next )
+  {
+      if ( prev->next == paf )
+      {
+    prev->next = paf->next;
+    break;
+      }
+  }
+
+  if ( prev == NULL )
+  {
+      bug( "Affect_remove: cannot find paf.", 0 );
+      return;
+  }
+    }
+
+    if ( !IS_NPC(ch)  &&  paf->type == gsn_barbarian_rage )
+	ch->pcdata->barbarian = -10;
+
+    free_affect(paf);
+
+    affect_check(ch,where,vector);
     return;
 }
 
@@ -1653,6 +2092,22 @@ void affect_strip( CHAR_DATA *ch, int sn )
 }
 
 
+/*
+ * Return true if a char is affected by a spell.
+ */
+bool is_flash_affected( CHAR_DATA *ch, int sn )
+{
+    AFFECT_DATA *paf;
+
+    for ( paf = ch->flash_affected; paf != NULL; paf = paf->next )
+    {
+  if ( paf->type == sn )
+      return TRUE;
+    }
+
+    return FALSE;
+}
+
 
 /*
  * Return true if a char is affected by a spell.
@@ -1715,6 +2170,8 @@ void affect_join( CHAR_DATA *ch, AFFECT_DATA *paf )
 void char_from_room( CHAR_DATA *ch )
 {
     OBJ_DATA *obj;
+
+    ch->last_move = 0;
 
     if ( ch->in_room == NULL )
     {
@@ -1792,7 +2249,7 @@ void char_to_room( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
     ch->next_in_room  = pRoomIndex->people;
     pRoomIndex->people  = ch;
 
-    if ( !IS_NPC(ch) )
+    if ( !IS_NPC(ch))
     {
   if (ch->in_room->area->empty)
   {
@@ -1901,6 +2358,16 @@ void obj_to_char( OBJ_DATA *obj, CHAR_DATA *ch )
 }
 
 
+// Clear all original flags on objects when removed from a room
+void clear_obj_original(OBJ_DATA *obj)
+{
+  OBJ_DATA *in;
+  if(!obj->original)
+    return;
+  obj->original = FALSE;
+  for(in = obj->contains; in; in = in->next_content)
+    clear_obj_original(in);
+}
 
 /*
  * Take an obj from its character.
@@ -1914,6 +2381,8 @@ void obj_from_char( OBJ_DATA *obj )
   bug( "Obj_from_char: null ch.", 0 );
   return;
     }
+
+    clear_obj_original(obj);
 
     if ( obj->wear_loc != WEAR_NONE )
   unequip_char( ch, obj );
@@ -1946,6 +2415,9 @@ void obj_from_char( OBJ_DATA *obj )
     obj->next_content  = NULL;
     ch->carry_number  -= get_obj_number( obj );
     ch->carry_weight  -= get_obj_weight( obj );
+    if (IS_SET(obj->extra_flags, ITEM_NODROP)
+      && IS_SET(obj->extra_flags2, ITEM2_TEMP_UNCURSED))
+      REMOVE_BIT(obj->extra_flags2, ITEM2_TEMP_UNCURSED);
     return;
 }
 
@@ -2100,16 +2572,21 @@ void equip_char( CHAR_DATA *ch, OBJ_DATA *obj, int iWear )
   /*
    * Thanks to Morgenes for the bug fix here!
    */
-  act( "You are zapped by $p and drop it.", ch, obj, NULL, TO_CHAR ,FALSE);
-  act( "$n is zapped by $p and drops it.",  ch, obj, NULL, TO_ROOM ,FALSE);
+  act( "You are zapped by $p and quickly remove it.", ch, obj, NULL, TO_CHAR ,FALSE);
+  act( "$n is zapped by $p and quickly remove it.",  ch, obj, NULL, TO_ROOM ,FALSE);
   obj_from_char( obj );
-  obj_to_room( obj, ch->in_room );
+  obj_to_char(obj, ch);
+//  obj_to_room( obj, ch->in_room );
   return;
     }
 
+    obj->wear_loc  = iWear;
+
+	if(obj->damaged >= 100)
+		return;// Don't add bonuses from damaged gear
+
     for (i = 0; i < 4; i++)
       ch->armor[i]        -= apply_ac( obj, iWear,i );
-    obj->wear_loc  = iWear;
 
     if (!obj->enchanted)
   for ( paf = obj->pIndexData->affected; paf != NULL; paf = paf->next )
@@ -2195,9 +2672,20 @@ void unequip_char( CHAR_DATA *ch, OBJ_DATA *obj )
   return;
     }
 
+  if(IS_SET(obj->extra_flags, ITEM_NOREMOVE)
+    && IS_SET(obj->extra_flags2, ITEM2_TEMP_UNCURSED))
+    REMOVE_BIT(obj->extra_flags2, ITEM2_TEMP_UNCURSED);
+
+	if(obj->damaged >= 100)
+	{
+		obj->wear_loc = -1;
+		return;// Don't remove bonuses from damaged gear (Already taken off)
+	}
+
     for (i = 0; i < 4; i++)
       ch->armor[i]  += apply_ac( obj, obj->wear_loc,i );
     obj->wear_loc  = -1;
+
 
     if (!obj->enchanted)
     {
@@ -2308,6 +2796,8 @@ void obj_from_room( OBJ_DATA *obj )
   return;
     }
 
+    clear_obj_original(obj);
+
     for (ch = in_room->people; ch != NULL; ch = ch->next_in_room)
   if (ch->on == obj)
       ch->on = NULL;
@@ -2399,6 +2889,8 @@ void obj_from_obj( OBJ_DATA *obj )
   return;
     }
 
+    clear_obj_original(obj);
+
     if ( obj == obj_from->contains )
     {
   obj_from->contains = obj->next_content;
@@ -2449,10 +2941,19 @@ void extract_obj( OBJ_DATA *obj )
     OBJ_DATA *obj_content;
     OBJ_DATA *obj_next;
 
+    if(obj->link_name)
+    {
+      CHAR_DATA *owner = check_is_online(obj->link_name);
+      if(owner)
+        unlink_item(owner, obj);
+      else
+        clear_string(&obj->link_name, NULL);
+    }
+
     if ( obj->in_room != NULL )
   obj_from_room( obj );
     else if ( obj->carried_by != NULL )
-  obj_from_char( obj );
+      obj_from_char( obj );
     else if ( obj->in_obj != NULL )
   obj_from_obj( obj );
 
@@ -2498,6 +2999,7 @@ void extract_obj( OBJ_DATA *obj )
  */
 void extract_char( CHAR_DATA *ch, bool fPull )
 {
+    DESCRIPTOR_DATA *d;
     CHAR_DATA *wch;
     OBJ_DATA *obj;
     OBJ_DATA *obj_next;
@@ -2507,9 +3009,32 @@ void extract_char( CHAR_DATA *ch, bool fPull )
   bug( "Extract_char: NULL.", 0 );
   return;
     }
-    
+   
+    if(IS_NPC(ch))
+    {
+      if(IS_SET(ch->affected_by_ext, AFF_EXT_SHADED))
+      {
+        remove_shaded_room(ch);// Will only remove its shadow
+        if(ch->pIndexData->vnum == MOB_VNUM_BOUNTY_ADMIN)
+        {
+          char buf[255];
+          sprintf(buf, "The bounty administrator has been slain in room %d",
+            ch->in_room->vnum);
+          log_quest_detail(buf, QUEST_UNKNOWN);
+        }
+      }
+      if(ch->pIndexData->vnum == MOB_VNUM_INSANE_MIME ||
+        ch->pIndexData->vnum == MOB_VNUM_CLAN_GUARDIAN)
+      {/* Consider adding a quest mob variable if we get a bunch of these */
+        quest_handler(ch, NULL, NULL, QUEST_UNKNOWN, QSTEP_NPC_DEAD);
+      }
+    }
+ 
     nuke_pets(ch);
     ch->pet = NULL; /* just in case */
+
+  while(ch->damaged)
+    damage_remove(ch, ch->damaged);
 
     if ( fPull )
 
@@ -2518,7 +3043,7 @@ void extract_char( CHAR_DATA *ch, bool fPull )
     
     stop_fighting( ch, TRUE );
 
-  if(IS_NPC(ch) || (!IS_NPC(ch) && ch->pcdata->sac <= 0))
+  if(IS_NPC(ch))// || (!IS_NPC(ch) && ch->pcdata->sac <= 0))
   {
     for ( obj = ch->carrying; obj != NULL; obj = obj_next )
     {
@@ -2536,9 +3061,31 @@ void extract_char( CHAR_DATA *ch, bool fPull )
         if (IS_SET(ch->act, PLR_DWEEB))
            char_to_room(ch,get_room_index(ROOM_VNUM_ALTAR));
         else
-           char_to_room(ch,get_room_index(clan_table[ch->clan].hall));
+        {
+           if(!ch->pcdata || !ch->pcdata->clan_info)
+             char_to_room(ch,get_room_index(clan_table[ch->clan].hall));
+           else if(!ch->pcdata->clan_info->clan->hall || !ch->pcdata->clan_info->clan->hall->to_place)
+             char_to_room(ch,get_room_index(ROOM_VNUM_MATOOK));
+           else
+             char_to_room(ch, (ROOM_INDEX_DATA*)ch->pcdata->clan_info->clan->hall->to_place);
+        }
   return;
     }
+
+    if(ch->pcdata && ch->pcdata->quest_count)
+    {
+      quest_handler(NULL, ch, NULL, QUEST_UNKNOWN, QSTEP_QUIT);
+    }
+   for ( d = descriptor_list; d != NULL; d = d->next )
+   {
+      CHAR_DATA *victm;
+
+      victm = d->original ? d->original : d->character;
+
+      if ( d->connected == CON_PLAYING && victm && victm->pcdata &&
+           victm->pcdata->pulse_target == ch)
+        victm->pcdata->pulse_target = NULL;
+   }
 
     if ( IS_NPC(ch) )
   --ch->pIndexData->count;
@@ -2634,9 +3181,9 @@ CHAR_DATA *get_char_room( CHAR_DATA *ch, char *argument )
 	}
 
 	if(IS_SET(rch->mhs,MHS_GLADIATOR) && gladiator_info.blind == TRUE
-	       && rch != ch)
-	{
-	  if(!IS_NPC(ch) && !IS_SET(ch->act, PLR_HOLYLIGHT))
+	       && rch != ch && !IS_NPC(ch) && !IS_SET(ch->act, PLR_HOLYLIGHT))
+	{//Moved the HOLYLIGHT check out to fix imm problems seeing blind glads
+//	  if(!IS_NPC(ch) && !IS_SET(ch->act, PLR_HOLYLIGHT))
 	  {
 	    if(!is_name( arg, rch->long_descr ) )
 	      continue;
@@ -2673,6 +3220,32 @@ CHAR_DATA *get_char_by_id( long id )
     for ( ch = char_list ; ch != NULL ; ch = ch->next )
 	if ( ch->id == id )
 		return ch;
+
+    return NULL;
+}
+
+/*
+ * Find a char that's online, respecting wizi/incog status
+ * Does not care about room except that they need to be in one
+ */
+CHAR_DATA *get_char_online( CHAR_DATA *ch, char *argument )
+{
+    char arg[MAX_INPUT_LENGTH];
+    CHAR_DATA *wch;
+    int number;
+    int count;
+
+
+    number = number_argument( argument, arg );
+    count  = 0;
+    for ( wch = char_list; wch != NULL ; wch = wch->next )
+    {
+  if ( wch->in_room == NULL || !can_see( ch, wch, TRUE ) 
+  ||   !is_name( arg, wch->name ) )
+      continue;
+  if ( ++count == number )
+      return wch;
+    }
 
     return NULL;
 }
@@ -2840,7 +3413,7 @@ OBJ_DATA *get_obj_wear( CHAR_DATA *ch, char *argument )
     count  = 0;
     for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
     {
-  if ( obj->wear_loc != WEAR_NONE
+  if ( obj->wear_loc > WEAR_NONE
   &&   can_see_obj( ch, obj )
   &&   is_name( arg, obj->name ) )
   {
@@ -2860,20 +3433,49 @@ OBJ_DATA *get_obj_wear( CHAR_DATA *ch, char *argument )
 OBJ_DATA *get_obj_here( CHAR_DATA *ch, char *argument )
 {
     OBJ_DATA *obj;
+    int number;
+    int count;
+    char arg[256];
 
-    obj = get_obj_list( ch, argument, ch->in_room->contents );
-    if ( obj != NULL )
-  return obj;
+    number = number_argument( argument, arg );
+    count  = 0;
 
-    if ( ( obj = get_obj_carry( ch, argument ) ) != NULL )
-  return obj;
+  if(ch->in_room)
+  {
+    for ( obj = ch->in_room->contents; obj != NULL; obj = obj->next_content )
+    {
+  if ( can_see_obj( ch, obj ) && is_name( arg, obj->name ) )
+  {
+      if ( ++count == number )
+    return obj;
+  }
+    }
+  }
 
-    if ( ( obj = get_obj_wear( ch, argument ) ) != NULL )
-  return obj;
+  for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
+    {
+  if ( obj->wear_loc == WEAR_NONE
+  &&   (can_see_obj( ch, obj ) ) 
+  &&   is_name( arg, obj->name ) )
+  {
+      if ( ++count == number )
+    return obj;
+  }
+    }
+
+    for ( obj = ch->carrying; obj != NULL; obj = obj->next_content )
+    {
+  if ( obj->wear_loc != WEAR_NONE
+  &&   can_see_obj( ch, obj )
+  &&   is_name( arg, obj->name ) )
+  {
+      if ( ++count == number )
+    return obj;
+  }
+    }
 
     return NULL;
 }
-
 
 
 /*
@@ -3120,13 +3722,33 @@ bool room_is_private( CHAR_DATA *ch,ROOM_INDEX_DATA *pRoomIndex )
 /* true if the char can go into the room w/ clan considerations */
 bool is_room_clan( CHAR_DATA *ch, ROOM_INDEX_DATA *pRoomIndex )
 {
+    if ( IS_IMMORTAL(ch) )
+	return TRUE;
+
+    if(pRoomIndex->vnum < 0)
+    {
+      CHAR_DATA *owner = NULL;
+      if(!ch->pcdata)
+      {
+        if(ch->master && !IS_NPC(ch->master) &&
+          (ch->master->pet == ch || ch->pIndexData->vnum == MOB_VNUM_CLAN_GUARDIAN))
+          owner = ch->master;
+        else
+          return FALSE;
+      }
+      else
+        owner = ch;
+      if(!owner->pcdata->clan_info || 
+        owner->pcdata->clan_info->clan->vnum_min > abs(pRoomIndex->vnum) ||
+        owner->pcdata->clan_info->clan->vnum_max < abs(pRoomIndex->vnum))
+          return FALSE;
+      return TRUE; 
+    }
+
     if ( !pRoomIndex->clan )
 	return TRUE;
 
     if ( pRoomIndex->clan == ch->clan )
-	return TRUE;
-
-    if ( IS_IMMORTAL(ch) )
 	return TRUE;
 
     return FALSE;
@@ -3176,7 +3798,7 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim, bool ooc )
     if ( ch == victim )
        return TRUE;
 
-    if ( ooc && victim->level < 52 && !IS_NPC(victim) )
+    if ( ooc && victim->level < 52 && (!IS_NPC(victim) || is_same_group(ch, victim)))
 	return TRUE;
 
     if ( get_trust(ch) < victim->invis_level)
@@ -3189,8 +3811,26 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim, bool ooc )
           ||(IS_NPC(ch) && IS_IMMORTAL(ch)))
        return TRUE;
 
-    if ( IS_AFFECTED(ch, AFF_BLIND) )
+    if(victim->in_room && ch->in_room)
+    {
+      if((IS_SET(victim->in_room->room_affects, RAFF_SHADED) ||
+        IS_SET(ch->in_room->room_affects, RAFF_SHADED)) &&
+        !IS_SET(ch->affected_by_ext, AFF_EXT_SHADED))// && !IS_SET(ch->act, PLR_HOLYLIGHT))
+        return FALSE;
+    }
+
+    if ( IS_AFFECTED(ch, AFF_BLIND) || (room_is_dark( ch->in_room ) && (!IS_AFFECTED(ch, AFF_INFRARED) )))
+    {
+      if(!IS_NPC(ch) && !IS_NPC(victim) && ch->pcdata->bypass_blind)
+      {/* Special exception - you can kill a player while blind */
+        if(victim->fighting == NULL && // If they're fighting you can "see" them
+         (IS_AFFECTED(victim, AFF_HIDE) || IS_SET(victim->mhs,MHS_FADE)
+         || IS_AFFECTED(victim, AFF_SNEAK) || IS_AFFECTED(victim, AFF_INVISIBLE)))
+           return FALSE;
+        return TRUE;
+      }
        return FALSE;
+    }
 
     if ( IS_NPC(ch) && IS_SET(ch->act, ACT_IS_CHANGER))
 	return TRUE;
@@ -3198,7 +3838,7 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim, bool ooc )
     if ( !IS_SET(ch->mhs, MHS_GLADIATOR) && IS_SET(victim->mhs, MHS_GLADIATOR))
         return TRUE;
 
-    if(!IS_NPC(ch) && ch->clan == clan_lookup("smurf"))
+    if(!IS_NPC(ch) && ch->clan == nonclan_lookup("smurf"))
     {
         if (victim->level <= ch->level)
            return TRUE;
@@ -3227,8 +3867,8 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim, bool ooc )
        
     }
 
-    if ( room_is_dark( ch->in_room ) && (!IS_AFFECTED(ch, AFF_INFRARED) ) )
-       return FALSE;
+//    if ( room_is_dark( ch->in_room ) && (!IS_AFFECTED(ch, AFF_INFRARED) ) )
+//       return FALSE;
 
     if ( IS_AFFECTED(victim, AFF_INVISIBLE)
          && !IS_AFFECTED(ch, AFF_DETECT_INVIS) )
@@ -3242,7 +3882,7 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim, bool ooc )
 	  
        chance = get_skill(victim,gsn_sneak) * 2 / 3;
        chance += get_curr_stat(victim,STAT_DEX);
-       chance -= get_curr_stat(ch,STAT_INT) * 2;
+       chance -= 50;//get_curr_stat(ch,STAT_INT) * 2; /* Maxed until rework */
        chance -= (ch->level - victim->level) * 3/2;
        chance += get_skill(victim, gsn_ninjitsu)/5;
 
@@ -3260,7 +3900,7 @@ bool can_see( CHAR_DATA *ch, CHAR_DATA *victim, bool ooc )
 	  return FALSE;
 
        chance = get_skill(victim,gsn_hide);
-       chance -= get_curr_stat(ch,STAT_INT);
+       chance -= 25;//get_curr_stat(ch,STAT_INT);/* Maxed until rework */
        chance += get_curr_stat(victim,STAT_DEX);
        chance -= (ch->level - victim->level) * 2;
 
@@ -3287,6 +3927,15 @@ bool can_see_obj( CHAR_DATA *ch, OBJ_DATA *obj )
     int cure_blindSN = 0;
     int i= 0;
     bool  foundSN = FALSE; 
+
+    if(IS_SET(ch->in_room->room_affects, RAFF_SHADED) &&
+      !IS_SET(ch->affected_by_ext, AFF_EXT_SHADED) &&
+      !IS_SET(ch->act, PLR_HOLYLIGHT))
+    {
+      if(is_name("shadow",obj->material))
+        return TRUE;// You can see shadow things here! WHAT A TWIST!
+      return FALSE;// Not even vision will let you see them directly
+    }
 
     if(obj->carried_by != NULL)
     {
@@ -3387,7 +4036,11 @@ bool can_wear_obj( CHAR_DATA *ch, OBJ_DATA *obj )
  */
 bool can_drop_obj( CHAR_DATA *ch, OBJ_DATA *obj )
 {
-    if ( !IS_SET(obj->extra_flags, ITEM_NODROP) )
+  if(obj->link_name)
+    return FALSE;
+
+    if ( !IS_SET(obj->extra_flags, ITEM_NODROP) ||
+      IS_SET(obj->extra_flags2, ITEM2_TEMP_UNCURSED))
   return TRUE;
 
     if ( !IS_NPC(ch) && ch->level >= LEVEL_IMMORTAL )
@@ -3442,6 +4095,7 @@ char *item_type_name_num (int num)
     case ITEM_SPELL_PAGE: return "spell page";
     case ITEM_PART: return "item part";
     case ITEM_FORGE: return "forge";
+    case ITEM_CAPSULE: return "capsule";
     case 0: return "not used";
     }
 
@@ -3470,7 +4124,7 @@ char *affect_loc_name( int location )
     case APPLY_CON:   return "constitution";
     case APPLY_AGT:   return "agility";
     case APPLY_END:   return "endurance";
-    case APPLY_SOC:   return "social";
+    case APPLY_SOC:   return "charisma";
     case APPLY_SEX:   return "sex";
     case APPLY_CLASS:   return "class";
     case APPLY_LEVEL:   return "level";
@@ -3574,6 +4228,15 @@ char *extra_bit_name( int extra_flags )
     if ( extra_flags & ITEM_TELEPORT  ) strcat( buf, " teleport" );
     if ( extra_flags & ITEM_NOIDENTIFY  ) strcat( buf, " noidentify" );
     if ( extra_flags & ITEM_IMM_LOAD    ) strcat( buf, " immload"     );
+    return ( buf[0] != '\0' ) ? buf+1 : "none";
+}
+
+char *extra2_bit_name( int extra_flags2 )
+{
+    static char buf[512];
+
+    buf[0] = '\0';
+    if ( extra_flags2 & ITEM2_TEMP_UNCURSED  ) strcat( buf, " temp-uncursed");
     return ( buf[0] != '\0' ) ? buf+1 : "none";
 }
 
@@ -3873,7 +4536,7 @@ char *weapon_bit_name(int weapon_flags)
     if (weapon_flags & WEAPON_POISON  ) strcat(buf, " poison");
     if (weapon_flags & WEAPON_STUN  ) strcat(buf, " stun");
     if (weapon_flags & WEAPON_HOLY ) strcat(buf, " holy");
-    if (weapon_flags & WEAPON_FAVORED ) strcat(buf, " favored");
+    if (weapon_flags & WEAPON_FAVORED ) strcat(buf, " legendary");
     if (weapon_flags & WEAPON_NETHER ) strcat(buf, " nether" );
     if (weapon_flags & WEAPON_SCION ) strcat(buf, " scionic" );
     return ( buf[0] != '\0' ) ? buf+1 : "none";
@@ -3921,6 +4584,9 @@ char *off_bit_name(int off_flags)
     if (off_flags & ASSIST_PLAYERS  ) strcat(buf, " assist_players");
     if (off_flags & ASSIST_GUARD  ) strcat(buf, " assist_guard");
     if (off_flags & ASSIST_VNUM   ) strcat(buf, " assist_vnum");
+    if (off_flags & OFF_CHARGE   ) strcat(buf, " charge");
+    if (off_flags & ASSIST_ELEMENT   ) strcat(buf, " assist_element");
+    if (off_flags & OFF_BANE_TOUCH   ) strcat(buf, " bane_touch");
     return ( buf[0] != '\0' ) ? buf+1 : "none";
 }
 
@@ -4029,7 +4695,7 @@ int smurf_group_count (CHAR_DATA *ch )
     return count;
 }
 
-bool room_has_medium( CHAR_DATA *ch )
+int room_has_medium( CHAR_DATA *ch )
 {
     CHAR_DATA *vch;
 

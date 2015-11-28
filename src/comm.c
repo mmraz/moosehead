@@ -79,8 +79,21 @@ DECLARE_DO_FUN(do_skills        );
 DECLARE_DO_FUN(do_outfit        );
 DECLARE_DO_FUN(do_count		);
 DECLARE_DO_FUN(do_unread        );
+DECLARE_DO_FUN(do_gossip);
+DECLARE_DO_FUN(do_ooc);
+DECLARE_DO_FUN(do_question);
+DECLARE_DO_FUN(do_answer);
+DECLARE_DO_FUN(do_clantalk);
+DECLARE_DO_FUN(do_auction);
+DECLARE_DO_FUN(do_music);
+DECLARE_DO_FUN(do_quest);
+DECLARE_DO_FUN(do_reply);
+DECLARE_DO_FUN(do_tell);
+DECLARE_DO_FUN(do_grats);
+DECLARE_DO_FUN(do_gtell);
+
 /* External Functions */
-int	clan_lookup	args( (const char *name) );
+int	nonclan_lookup	args( (const char *name) );
 
 /*
  * Malloc debugging stuff.
@@ -94,7 +107,7 @@ int	clan_lookup	args( (const char *name) );
 extern  int     malloc_debug    args( ( int  ) );
 extern  int     malloc_verify   args( ( void ) );
 #endif
-
+int clanner_count = 0;
 
 
 /*
@@ -179,7 +192,7 @@ int     socket          args( ( int domain, int type, int protocol ) );
 #include <sys/fnctl.h>
 #endif
 
-#if     defined(linux)
+#if     defined(linuxXYZZY)
 int     accept          args( ( int s, struct sockaddr *addr, int *addrlen ) );
 int     bind            args( ( int s, struct sockaddr *name, int namelen ) );
 int     close           args( ( int fd ) );
@@ -308,7 +321,7 @@ int     write           args( ( int fd, char *buf, int nbyte ) );
  */
 DESCRIPTOR_DATA *   descriptor_list;    /* All open descriptors         */
 DESCRIPTOR_DATA *   d_next;             /* Next descriptor in loop      */
-FILE *              fpReserve;          /* Reserved file handle         */
+//FILE *              fpReserve;          /* Reserved file handle         */
 bool                god;                /* All new chars are gods!      */
 bool                merc_down;          /* Shutdown                     */
 bool                wizlock;            /* Game is wizlocked            */
@@ -371,6 +384,11 @@ void    read_from_buffer        args( ( DESCRIPTOR_DATA *d ) );
 void    stop_idling             args( ( CHAR_DATA *ch ) );
 void    bust_a_prompt           args( ( CHAR_DATA *ch ) );
 bool    check_mob_name          args( ( char *name, bool old_char ) );
+void creation_input(DESCRIPTOR_DATA *d, char *argument);
+void creation_finalize(DESCRIPTOR_DATA *d, bool def);
+void creation_message(DESCRIPTOR_DATA *d, bool forward);
+int creation_step(DESCRIPTOR_DATA *d, bool forward, bool accept);
+bool is_creation(DESCRIPTOR_DATA *d);
 
 int main( int argc, char **argv )
 {
@@ -411,11 +429,11 @@ int main( int argc, char **argv )
     /*
      * Reserve one channel for our use.
      */
-    if ( ( fpReserve = fopen( NULL_FILE, "r" ) ) == NULL )
+/*    if ( ( fpReserve = fopen( NULL_FILE, "r" ) ) == NULL )
     {
   perror( NULL_FILE );
   exit( 1 );
-    }
+    } */
 
     /*
      * Get the port number.
@@ -460,7 +478,8 @@ int main( int argc, char **argv )
     boot_db( );
 /****
 #ifdef IMC_GAME_VERSION
-    imc_startup("/mud/moosehead/imc/");  
+    imc_startup("/home/chris/moosehead/imc");
+    #imc_startup("/mud/moosehead/imc/");  
     icec_init();          
 #endif
  ****/
@@ -524,7 +543,7 @@ int init_socket( int port )
 
 
   ld.l_onoff  = 1;
-  ld.l_linger = 1000;
+  ld.l_linger = 0;
 
   if ( setsockopt( fd, SOL_SOCKET, SO_LINGER,
   (char *) &ld, sizeof(ld) ) < 0 )
@@ -641,6 +660,7 @@ void game_loop_mac_msdos( void )
       }
 
       read_from_buffer( d );
+
       if ( d->incomm[0] != '\0' )
       {
     d->fcommand     = TRUE;
@@ -962,26 +982,34 @@ void game_loop_unix( int control[] )
     }
       }
 
+      /* Now some commands can act through daze */
+      read_from_buffer( d );
 	/* Here we handle pulse-delayed actions like wraith form */
-    if ( d->character != NULL &&  d->character->pcdata != NULL && d->character->pcdata->wraith_timer > 0 )
+	if(d->character != NULL)
+	{
+    if (d->character->pcdata != NULL)
     {
-	    if ( --d->character->pcdata->wraith_timer <= 0 )
-		action_wraithform(d->character,"");
-	    else
-	    if ( d->character->pcdata->wraith_timer % 12 == 0 )
-		act("Your form shimmers and fades...",d->character,NULL,NULL,TO_CHAR,FALSE);
+      if(d->character->pcdata->wraith_timer > 0 )
+      {
+  	    if ( --d->character->pcdata->wraith_timer <= 0 )
+  		action_wraithform(d->character,"");
+  	    else
+  	    if ( d->character->pcdata->wraith_timer % 12 == 0 )
+  		act("Your form shimmers and fades...",d->character,NULL,NULL,TO_CHAR,FALSE);
+      }
     }
-
-      if (d->character != NULL && d->character->daze > 0)
+    tick_pulse_command(d->character);
+    
+      if (d->character->daze > 0)
     --d->character->daze;
 
-      if ( d->character != NULL && d->character->wait > 0 )
+      if (d->character->wait > 0 )
       {
     --d->character->wait;
     continue;
       }
+    }
 
-      read_from_buffer( d );
       if ( d->incomm[0] != '\0' )
       {
     d->fcommand     = TRUE;
@@ -1108,7 +1136,18 @@ void game_loop_unix( int control[] )
 }
 #endif
 
+void count_clanners(void)
+{
+  clanner_count = 0;
+  DESCRIPTOR_DATA *d;
+  for ( d = descriptor_list; d != NULL; d = d->next )
+    if ( d->connected == CON_PLAYING && !IS_IMMORTAL(d->character) )
+  {
+    if(is_clan(d->character))
+      clanner_count++;
+  }
 
+}
 
 #if defined(unix)
 void init_descriptor( int control )
@@ -1173,15 +1212,23 @@ void init_descriptor( int control )
       ( addr >> 24 ) & 0xFF, ( addr >> 16 ) & 0xFF,
       ( addr >>  8 ) & 0xFF, ( addr       ) & 0xFF
       );
+log_string("checkpoint a");
   sprintf( log_buf, "Sock.sinaddr:  %s", buf );
+log_string("checkpoint b");
   log_string( log_buf );
 
-  if ( !no_dns ) {
+log_string("checkpoint c");
+  if ( 0) { // !no_dns ) {
   alarm(30);
   strcpy(dns_buf,buf);
+	log_string("GOOBER 2");
   if(!check_dns(buf))
+{
+	log_string("GOOBER 1 ");
   from = gethostbyaddr( (char *) &sock.sin_addr,
       sizeof(sock.sin_addr), AF_INET );
+	log_string("GOOBER 2");
+}
   alarm(0);
   strcpy(dns_buf,"");
   }
@@ -1315,10 +1362,10 @@ void close_socket( DESCRIPTOR_DATA *dclose )
 bool read_from_descriptor( DESCRIPTOR_DATA *d )
 {
     int iStart;
-
+    d->input_received = TRUE;
     /* Hold horses if pending command already. */
-    if ( d->incomm[0] != '\0' )
-  return TRUE;
+//    if ( d->incomm[0] != '\0' )
+//  return TRUE;
 
     /* Check for overflow. */
     iStart = strlen(d->inbuf);
@@ -1382,7 +1429,257 @@ bool read_from_descriptor( DESCRIPTOR_DATA *d )
     return TRUE;
 }
 
+/* Function for my need - a specialized str_prefix */
+bool check_word_match(char *base, char *word, char *word2, int needed)
+{
+  int i = 0;
+  while(base[i] != '\0' && (base[i] == word[i] || base[i] == word2[i]))
+  {
+    i++;
+  }
+  if(i >= needed && (base[i] == word[i] || base[i] == word2[i] || base[i] == ' ' || base[i] == '\n' || base[i] == '\r'))
+  {
+    return TRUE;
+  }
+  // base == '\0' is a failure, they haven't hit enter yet
+  return FALSE;
+}
 
+/* Move out the current line, leave the rest alone - drop the first word */
+bool move_line_from_buffer(char *base, char *transfer)
+{
+  int i = 0, j = 0;
+  /* Eat the first word */
+  while(base[i] == ' ')
+    i++;// Go past any spaces
+  if(base[i] != ':' && base[i] != ';' && base[i] != ']' && base[i] != '.' && base[i] != '?')
+  {
+    while(base[i] != ' ' && base[i] != '\n' && base[i] != '\r' && base[i] != '\0')
+      i++;// Eat the word itself
+  }
+  else
+    i++;
+  while(base[i] == ' ')
+    i++;// Past any more spaces
+  /* Now start copying */
+  while(base[i] != '\n' && base[i] != '\r' && base[i] != '\0')
+  {
+    transfer[j] = base[i];
+    i++;
+    j++;
+  }
+  transfer[j] = '\0';// Close off transfer
+  while(base[i] == '\n' || base[i] == '\r')
+    i++;// Past the CR
+  while(base[i] != '\0')
+  {//Overwrite this line
+    *base = base[i];
+    base++;
+  }
+  *base = '\0';
+  return i;// How many were yanked
+}
+
+/* Transfer one ooc command out of buffer to input line */
+bool read_ooc_from_buffer( DESCRIPTOR_DATA *d )
+{
+  int i, j, k;
+//  bool newline = TRUE;
+  bool check_tilde = TRUE;
+  char buf[MAX_INPUT_LENGTH];
+
+  if(!d->input_received)
+	return FALSE;
+
+
+  // Replaced NULL with '\0', if there's a problem with input ending that may be it
+  while(check_tilde)
+  {
+   check_tilde = FALSE;
+   for ( i = 0; d->inbuf[i] != '\0'; i++ ) {
+    if (d->inbuf[i] == '~' ) {
+/*        d->inbuf[0] = '\r';
+      for (t = 1; d->inbuf[t] != NULL; t++)
+        d->inbuf[t] = d->inbuf[t+i];  
+      d->inbuf[1] = NULL;
+      d->incomm[0] = NULL;*/
+      /* Change of plan, now we only eat up to the ~ */
+      check_tilde = TRUE;// Need to circle again, otherwise a second tilde could sneak in from one input blast
+      j = 0;
+      i++;
+      for(; d->inbuf[i] != '\0'; i++)
+      {
+        d->inbuf[j] = d->inbuf[i];// Automatically ends itself
+        j++;
+      }
+      d->inbuf[j] = '\0';
+      d->incomm[0] = '\n';// Clear the input command as well - To restore input command, yank this
+      d->incomm[1] = '\0';
+      /* Still kill the macro */
+      if (d->character && d->character->pcdata) {
+        d->character->pcdata->macro_count = 0;
+        clear_macro_marks (d->character);          
+      }
+      if(d->inbuf[0] == '\0')
+        return FALSE;// Don't return after unless it's done, more responsivei
+      break;// Done with the for this round
+    }      
+   }
+  }
+/* Input needs cleanup, not ready for live yet */
+  if(1 || !d->character || !d->character->in_room)
+    return FALSE;// Nothing to be done, no need to check
+
+  /* Current commands parsed for: (Unfortunately very hard coded)
+   * answer
+   * clan
+   * cgossip                              
+   * gtell / ;
+   * grats   
+   * gossip / .
+   * music
+   * ooc / ]
+   * quest
+   * question / ?
+   * reply
+   * tell 
+   * immtalk :*/
+
+  i = 0;
+  while(d->inbuf[i] != '\0')
+  {
+    j = i;
+    while(d->inbuf[j] == ' ')
+      j++;
+    k = j;
+    while(d->inbuf[k] != '\n' && d->inbuf[k] != '\r' && d->inbuf[k] != '\0')
+      k++;
+    if(d->inbuf[k] == '\0')
+      return FALSE;// Nothing to do here
+    switch(d->inbuf[j])
+    {
+      case ':': if(IS_IMMORTAL(d->character))
+		{
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_immtalk(d->character, buf);
+                  return TRUE;
+		}
+                break;
+      case ';': move_line_from_buffer(d->inbuf + i, buf);
+                do_gtell(d->character, buf);
+                return TRUE;
+      case '.': move_line_from_buffer(d->inbuf + i, buf);
+                do_gossip(d->character, buf);
+                return TRUE;
+      case ']': move_line_from_buffer(d->inbuf + i, buf);
+                do_ooc(d->character, buf);
+                return TRUE;
+      case '?': move_line_from_buffer(d->inbuf + i, buf);
+                do_question(d->character, buf);
+                return TRUE;
+      case 'a':
+      case 'A': if(check_word_match(d->inbuf + j + 1, "nswer", "NSWER", 1))
+                {//answer
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_answer(d->character, buf);
+                  return TRUE;
+                }
+                break;
+      case 'c':
+      case 'C':  if(check_word_match(d->inbuf + j + 1, "lan", "LAN", 1))
+                {//clan
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_clantalk(d->character, buf);
+                  return TRUE;
+                }
+                if(check_word_match(d->inbuf + j + 1, "gossip", "GOSSIP", 1))
+                {//cgossip
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_auction(d->character, buf);
+                  return TRUE;
+                }
+                break;
+      case 'g':
+      case 'G':  if(check_word_match(d->inbuf + j + 1, "rats", "RATS", 2))
+                {//grats
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_grats(d->character, buf);
+                  return TRUE;
+                }
+                if(check_word_match(d->inbuf + j + 1, "tell", "TELL", 0))
+                {//gtell
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_gtell(d->character, buf);
+                  return TRUE;
+                }
+                if(check_word_match(d->inbuf + j + 1, "ossip", "OSSIP", 2))
+                {//gossip
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_gossip(d->character, buf);
+                  return TRUE;
+                }
+                break;
+      case 'i':
+      case 'I': if(IS_IMMORTAL(d->character))
+		{
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_immtalk(d->character, buf);
+                  return TRUE;
+                }
+                break;
+      case 'm':
+      case 'M': if(check_word_match(d->inbuf + j + 1, "usic", "USIC", 1))
+                {//music
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_music(d->character, buf);
+                  return TRUE;
+                }
+                break;
+      case 'o':
+      case 'O': if(check_word_match(d->inbuf + j + 1, "oc", "OC", 1))
+                {//ooc
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_ooc(d->character, buf);
+                  return TRUE;
+                }
+                break;
+      case 'q':
+      case 'Q':  if(check_word_match(d->inbuf + j + 1, "uest", "UEST", 0))
+                {//quest
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_quest(d->character, buf);
+                  return TRUE;
+                }
+                if(check_word_match(d->inbuf + j + 1, "uestion", "UESTION", 5))
+                {//question
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_question(d->character, buf);
+                  return TRUE;
+                }
+                break;
+      case 'r':
+      case 'R': if(check_word_match(d->inbuf + j + 1, "eply", "EPLY", 3))
+                {//reply
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_reply(d->character, buf);
+                  return TRUE;
+                }
+                break;
+      case 't':
+      case 'T': if(check_word_match(d->inbuf + j + 1, "ell", "ELL", 3))
+                {//tell
+                  move_line_from_buffer(d->inbuf + i, buf);
+                  do_tell(d->character, buf);
+                  return TRUE;
+                }
+                break;
+    }
+    i = k;// Advance to the newline
+    while(d->inbuf[i] == '\n' || d->inbuf[i] == '\r')
+      i++;
+  }
+  return FALSE;// No new command found
+}
 
 /*
  * Transfer one line from input buffer to input line.
@@ -1394,23 +1691,12 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
     /*
      * Hold horses if pending command already.
      */
+    if((d->input_received = read_ooc_from_buffer(d)) == TRUE)
+	return;
+
     if ( d->incomm[0] != '\0' )
   return;
   
-    for ( i = 0; d->inbuf[i] != NULL; i++ ) {
-      if (d->inbuf[i] == '~' ) {        
-        d->inbuf[0] = '\r';
-        for (t = 1; d->inbuf[t] != NULL; t++)
-          d->inbuf[t] = d->inbuf[t+i];  
-        d->inbuf[1] = NULL;
-        d->incomm[0] = NULL;
-        if (d->character && d->character->pcdata) {
-          d->character->pcdata->macro_count = 0;
-          clear_macro_marks (d->character);          
-        }
-        return;
-      }      
-    }  
 
     /*
      * Look for at least one new line.
@@ -1418,7 +1704,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
     for ( i = 0; d->inbuf[i] != '\n' && d->inbuf[i] != '\r'; i++ )
     {
       if (d->inbuf[i] == 1) {                  /* signals end of macro */        
-        for (t = i; d->inbuf[t] != NULL; t++)  /* shift over inbuff */
+        for (t = i; d->inbuf[t] != '\0'; t++)  /* shift over inbuff */
           d->inbuf[t] = d->inbuf[t+1];
         if (d->character && d->character->pcdata) {
           d->character->pcdata->macro_count--;
@@ -1447,7 +1733,7 @@ void read_from_buffer( DESCRIPTOR_DATA *d )
     {
   if ( k >= MAX_INPUT_LENGTH - 2 )
   {
-      write_to_descriptor( d->descriptor, "Line too long.\n\r", 0, d );
+      write_to_descriptor( d->descriptor, "Input too long.\n\r", 0, d );
 
       /* skip the rest of the line */
       for ( ; d->inbuf[i] != '\0'; i++ )
@@ -1660,14 +1946,34 @@ void bust_a_prompt( CHAR_DATA *ch )
     register int door;
  
     point = buf;
-    str = ch->prompt;
-    if (str == NULL || str[0] == '\0')
+  if(!IS_NPC(ch))
+  {
+    if(ch->pcdata->pulse_timer > 0)
+      prompt_pulse_command(ch);
+
+    if(IS_SET(ch->pcdata->edit_flags, (EDITMODE_HALL | EDITMODE_PERSONAL)))
     {
-	sprintf( buf, "{x<%dhp %dm %dmv> ",
-	    ch->hit,ch->mana,ch->move);
-	send_to_char(buf,ch);
-	return;
+      if(ch->pcdata->edit_obj)
+      {
+        switch(ch->pcdata->edit_obj->type & PLAN_MASK_TYPE)
+        {
+          case PLAN_ROOM: sprintf(buf, "<Editing room {W%s{x>\n\r", ch->pcdata->edit_obj->label); break;
+          case PLAN_ITEM: sprintf(buf, "<Editing item {Y%s{x>\n\r", ch->pcdata->edit_obj->label); break;
+          case PLAN_MOB: sprintf(buf, "<Editing mob {B%s{x>\n\r", ch->pcdata->edit_obj->label); break;
+          case PLAN_EXIT: sprintf(buf, "<Editing exit {G%s{x>\n\r", ch->pcdata->edit_obj->label); break;
+        }
+        send_to_char(buf, ch);   
+      }
+      else if(IS_SET(ch->pcdata->edit_flags, EDITMODE_RULES))
+        send_to_char("<Editing clan rules>\n\r", ch);
+      else if(IS_SET(ch->pcdata->edit_flags, EDITMODE_CHARTER))
+        send_to_char("<Editing clan charter>\n\r", ch);
+      else if(IS_SET(ch->pcdata->edit_flags, EDITMODE_HALL))
+        send_to_char("<Editing clan hall>\n\r", ch);
+      else
+        send_to_char("<Editing personal rooms>\n\r", ch);
     }
+  }
 
    if (IS_SET(ch->comm,COMM_AFK))
    {
@@ -1688,6 +1994,82 @@ void bust_a_prompt( CHAR_DATA *ch )
 	send_to_char(" < .. Fading to Wraithform .. > ",ch );
 	return;
    }
+
+   if(!IS_NPC(ch) && !IS_SET(ch->pcdata->new_opt_flags, OPT_NOGPROMPT)
+    && (ch->leader || ch->follower))
+   {/* They've got a group.  List up to 8 other members of it */
+       CHAR_DATA *group;
+      if(ch->leader)
+        group = ch->leader;
+      else
+        group = ch;
+      if(group->follower)
+      {// This check is just paranoia
+	char transfer[50];
+        int hit_perc;
+        char hit_color;
+	int count = 0;
+        bool first = TRUE;
+        buf[0] = '>';
+        buf[1] = '\0';
+        while(group)
+        {
+          count++;
+          if(count > 9)
+            break;// Only a row across, for now at least.
+          if(group != ch)
+          {// Everyone except this player
+            hit_perc = group->hit * 100 / (group->max_hit == 0 ? 1 : group->max_hit);
+            if(hit_perc > 75)
+              hit_color = 'W';
+            else if(hit_perc > 50)
+              hit_color = 'Y';
+            else if(hit_perc > 25)
+              hit_color = 'R';
+            else
+              hit_color = 'r';
+            /* First four of their name, then their % hp */
+            if(IS_NPC(group))
+            {
+              int offset = 0;
+              if(group->short_descr[0] == 'a')
+              {
+                if(group->short_descr[1] == ' ')
+                  offset = 2;
+                else if(group->short_descr[1] == 'n' && group->short_descr[2] == ' ')
+                  offset = 3;
+              }
+              else if(group->short_descr[0] == 't' && group->short_descr[1] == 'h'
+                && group->short_descr[2] == 'e' && group->short_descr[3] == ' ')
+                offset = 4;
+              sprintf(transfer, "%.4s:{%c%3d%%{x ", PERS(group,ch,TRUE) + offset, hit_color, hit_perc);
+            }
+            else// Only apply capitalization to player names
+              sprintf(transfer, "%.4s:{%c%3d%%{x ", capitalize( PERS(group,ch,TRUE)), hit_color, hit_perc);
+            strcat(buf, transfer);
+          }
+          if(first)
+          {
+            group = group->follower;
+            first = FALSE;
+          }
+          else
+          group = group->next_groupmate;
+        }
+	buf[strlen(buf) - 1] = '\0';// Chop off the last space
+	strcat(buf, "\n\r");
+        send_to_char(buf, ch);
+      }
+   }
+
+    str = ch->prompt;
+    if (str == NULL || str[0] == '\0')
+    {
+	sprintf( buf, "{x<%dhp %dm %dmv> ",
+	    ch->hit,ch->mana,ch->move);
+	send_to_char(buf,ch);
+	return;
+    }
 
    while( *str != '\0' )
    {
@@ -1726,10 +2108,19 @@ void bust_a_prompt( CHAR_DATA *ch )
 	    i = buf2; break;
     	case 'b' :
 	    if ( is_affected(ch,gsn_rage) )
+            {
                sprintf( buf2, "???" );
+               i = buf2;
+               break;
+            }
 	    else
 	    {
 	    sprintf(buf2,"[HP:");
+	    if (ch->max_hit <= 0)
+            {
+                i = buf2;
+		break;// Don't even try
+            }
 	    if ( ch->hit * 100 / ch->max_hit > 75 )
 		strcat(buf2,"{W");
 	    else
@@ -1750,6 +2141,8 @@ void bust_a_prompt( CHAR_DATA *ch )
 	    i = buf2; break;
 	 case 'B' :
             sprintf(buf2,"[M:");
+	    if (ch->max_mana <= 0)
+		break;// Don't even try
 	    if ( ch->mana * 100 / ch->max_mana > 75 )
 		strcat(buf2,"{W");
 	    else
@@ -1770,50 +2163,114 @@ void bust_a_prompt( CHAR_DATA *ch )
 	 case 'c' :
 	    sprintf(buf2,"%s","\n\r");
 	    i = buf2; break;
-	 case 'h' :
+	 case 'p' :
 	    if ( is_affected(ch,gsn_rage) )
+            {
                sprintf( buf2, "???" );
+               i = buf2;
+               break;
+            }
 	    else
-	       sprintf( buf2, "{%s%d%%{x", 
+		if(ch->max_hit <= 0)
+                {
+                    sprintf(buf2, "{R%d%%{x", ch->max_hit);
+                    i = buf2;
+		    break;
+                }
+           sprintf( buf2, "{%s%d%%{x", 
 	          ch->hit < ch->max_hit /2 ? "R" :
 		  ch->hit < ch->max_hit * 3 / 4 ? "Y" : "W", (ch->hit*100)/ch->max_hit );
 	    i = buf2; break;
-	 /*
+	 case 'h' :
+	    if ( is_affected(ch,gsn_rage) )
+	       sprintf( buf2, "???" );
+	    else
+	    {
+              if(ch->max_hit > 0)
+              {
+	    	if ( ch->hit * 100 / ch->max_hit > 75 )
+		    strcpy(buf2,"{W");
+		else
+		if ( ch->hit * 100 / ch->max_hit > 50 )
+		    strcpy(buf2,"{Y");
+		else
+		if ( ch->hit * 100 / ch->max_hit > 25 )
+		    strcpy(buf2,"{R");
+		else
+		    strcpy(buf2,"{r");
+	         sprintf( buf2 + 2, "%d{x", ch->hit );
+               }
+               else
+	         sprintf( buf2, "%d{x", ch->hit );
+	    }
+	    i = buf2; break;
 	 case 'H' :
 	    if ( is_affected(ch,gsn_rage) )
-               sprintf( buf2, "???" );
+               sprintf( buf2, "???{x" );
 	    else
 	       sprintf( buf2, "{W%d{x", ch->max_hit );
 	    i = buf2; break;
-	    */
-	 case 'm' :
+	 case 'P' :
+		if(ch->max_mana <= 0)
+		    break;
 	    sprintf( buf2, "{%s%d%%{x",
 		ch->mana < ch->max_mana / 2 ? "R" : 
 		ch->mana < ch->max_mana * 3 / 4 ? "Y" : "W", (ch->mana*100)/ch->max_mana );
 	    i = buf2; break;
-	    /*
+	case 'm' :
+		if(ch->max_mana <= 0)
+                {
+                    sprintf(buf2, "%d", ch->mana);
+                    i = buf2;
+		    break;
+                }
+	    	if ( ch->mana * 100 / ch->max_mana > 75 )
+		    strcpy(buf2,"{W");
+		else
+		if ( ch->mana * 100 / ch->max_mana > 50 )
+		    strcpy(buf2,"{Y");
+		else
+		if ( ch->mana * 100 / ch->max_mana > 25 )
+		    strcpy(buf2,"{R");
+		else
+		    strcpy(buf2,"{r");
+	    sprintf( buf2 + 2, "%d{x", ch->mana );
+	    i = buf2; break;
 	 case 'M' :
 	    sprintf( buf2, "{W%d{x", ch->max_mana );
 	    i = buf2; break;
-	    */
 	 case 'v' :
 	    if ( ch->max_move < 1 )
 	    {
               bug("bad max_move",0);
 	    }
             else
-            {
-	      sprintf( buf2, "{%s%d%%{x",
-		  ch->move < ch->max_move / 2 ? "R" :
-		  ch->move < ch->max_move *3/4 ? "Y" : "W", (ch->move*100)/ch->max_move );
-	      i = buf2; break;
-            }
-         case 'w' :
+	    	if ( ch->move * 100 / ch->max_move > 75 )
+		    strcpy(buf2,"{W");
+		else
+		if ( ch->move * 100 / ch->max_move > 50 )
+		    strcpy(buf2,"{Y");
+		else
+		if ( ch->move * 100 / ch->max_move > 25 )
+		    strcpy(buf2,"{R");
+		else
+		    strcpy(buf2,"{r");
+	    sprintf( buf2 + 2, "%d{x", ch->move );
+	     i = buf2; break;
+ 	 case 'w' :
+	    sprintf( buf2, "{W%d{x", get_carry_weight(ch) / 10);
+//           sprintf( buf2, "%ld%%", (get_carry_weight(ch)*100)/can_carry_w(ch) );
+	   i = buf2; break;
  	 case 'W' :
-           sprintf( buf2, "%ld%%", (get_carry_weight(ch)*100)/can_carry_w(ch) );
+	    sprintf( buf2, "{W%d{x", can_carry_w(ch) / 10);
+//           sprintf( buf2, "%ld%%", (get_carry_weight(ch)*100)/can_carry_w(ch) );
 	   i = buf2; break;
 	 case 'V' :
-            sprintf(buf2,"[MV:");
+		if(ch->max_move <= 0)
+			break;
+	    sprintf( buf2, "{W%d{x", ch->max_move );
+	    i = buf2; break;
+/*            sprintf(buf2,"[MV:");// Remove % mv
 	    if ( ch->move * 100 / ch->max_move > 75 )
 		strcat(buf2,"{W");
 	    else
@@ -1830,7 +2287,7 @@ void bust_a_prompt( CHAR_DATA *ch )
 	for( j = 0; j < 5 - (ch->move*100/ch->max_move)/20 ; j++ )
 		strcat(buf2,"-");
 	strcat(buf2,"]");
-	i = buf2; break;
+	i = buf2; break;*/
 	 case 'n' :
 	    sprintf( buf2, "%d.%d", ch->carry_number/10,ch->carry_number%10 );
 		i = buf2; break;
@@ -1840,6 +2297,26 @@ void bust_a_prompt( CHAR_DATA *ch )
 	 case 't' :
 	 	sprintf( buf2, "%d", time_info.hour );
 		i = buf2; break;
+          case 'T' :
+            if(ch->pcdata && ch->pcdata->clan_info)
+            {
+              if(ch->pcdata->clan_info->delay_merit)
+              {
+                int second_merit = 0;
+                MERIT_TRACKER *mtrack = ch->pcdata->clan_info->delay_merit;
+                while(mtrack)
+                {
+                  second_merit += mtrack->amount;
+                  mtrack = mtrack->next;
+                }
+                sprintf(buf2, "%d(%d)", ch->pcdata->clan_info->merit, second_merit);
+              }
+              else
+                sprintf(buf2, "%d", ch->pcdata->clan_info->merit);
+            }
+            else
+              strcpy(buf2, "NA");
+            i = buf2; break;
 	/*
 	 case 'V' :
 	    sprintf( buf2, "{W%d{x", ch->max_move );
@@ -1884,7 +2361,8 @@ void bust_a_prompt( CHAR_DATA *ch )
 	       sprintf( buf2, " " );
 	    i = buf2; break;
          case 'S' :
-	   sprintf(buf2,"%d%%",IS_NPC(ch)?0:(ch->pcdata->sac*100)/MAX_SAC_PNTS);
+	   sprintf(buf2,"{W%d{x",IS_NPC(ch)?0:ch->pcdata->sac);
+//	   sprintf(buf2,"%d%%",IS_NPC(ch)?0:(ch->pcdata->sac*100)/MAX_SAC_PNTS);
            i = buf2; break;
 	 case 'y' :
 	    if( IS_IMMORTAL( ch ) && ch->invis_level > 0)
@@ -1942,7 +2420,6 @@ void write_to_buffer( DESCRIPTOR_DATA *d, const char *txt, int length )
      */
     if ( length <= 0 )
   length = strlen(txt);
-
     /*
      * Initial \n\r if needed.
      */
@@ -2085,6 +2562,12 @@ bool write_to_descriptor( int desc, char *str, int length, DESCRIPTOR_DATA *d )
 		  add_buf(txt, buf2);
 		  continue;
 	       }
+  	       else if(*point == '\n' || *point == '{')
+	       {
+	          sprintf(buf2, "%c", *point);
+	       	  add_buf(txt, buf2);
+	       }
+
 	     continue;
 	  }
 	buf[0] = *point;
@@ -2147,6 +2630,973 @@ bool write_to_descriptor( int desc, char *txt, int length, DESCRIPTOR_DATA *d )
 }
 #endif
 
+/* Let's do this here - character creation management */
+/* To add a new step: Add it to is_creation, add it to which steps lead to it
+	 in creation_step and which it leads back to, add its message to creation_message
+	 and add its processing to creation_input */
+bool is_creation(DESCRIPTOR_DATA *d)
+{
+	switch(d->connected)
+	{
+		case CON_GET_SURNAME:
+		case CON_GET_NEW_RACE:
+		case CON_GET_NEW_SEX:
+		case CON_GET_NEW_CLASS:
+		case CON_DEFAULT_CHOICE:
+		case CON_GET_OLD_CLASS:
+		case CON_GET_ALIGNMENT:
+		case CON_GEN_GROUPS:
+		case CON_PICK_WEAPON:
+		case CON_PICK_STATS:
+		case CON_PICK_DEITY:
+		case CON_PICK_STATS_DEFAULT: return TRUE;
+	}
+	return FALSE;
+}
+
+int creation_step(DESCRIPTOR_DATA *d, bool forward, bool accept)
+{// accept is optional - only relevant for certain steps
+	CHAR_DATA *ch = d->character;
+  if(forward)
+	{
+		switch(d->connected)
+		{
+			case CON_GET_SURNAME: return CON_GET_NEW_RACE;
+			case CON_GET_NEW_RACE: if(IS_SET(ch->mhs,MHS_PREFRESHED))
+					return CON_GET_NEW_CLASS;
+				return CON_GET_NEW_SEX;
+			case CON_GET_NEW_SEX:	return CON_GET_NEW_CLASS;
+			case CON_GET_NEW_CLASS: return CON_DEFAULT_CHOICE;
+			case CON_DEFAULT_CHOICE: if(accept)
+				{// Accept means you want to customize
+				  int count = 0;// This is just for information - The oldclass must be set elsewhere
+				  int i = 0;
+          for ( i = 0 ; i < MAX_CLASS ; i++ )
+          {
+             if ( class_table[i].reclass )
+                continue;
+    
+             if (class_table[ch->class].allowed[0] == i ||
+                 class_table[ch->class].allowed[1] == i )
+                count++;
+          }
+
+					if(count > 1 && !IS_SET(ch->act,PLR_RECLASS))
+						return CON_GET_OLD_CLASS;
+					else
+						return CON_GET_ALIGNMENT;
+				}
+				else
+					return CON_PICK_STATS_DEFAULT; // Skip everything else.
+			case CON_GET_OLD_CLASS: return CON_GET_ALIGNMENT;
+			case CON_GET_ALIGNMENT: return CON_GEN_GROUPS;
+			case CON_GEN_GROUPS: return CON_PICK_WEAPON;
+			case CON_PICK_WEAPON: return CON_PICK_STATS;
+			case CON_PICK_STATS: if(IS_SET(ch->mhs,MHS_PREFRESHED))
+				{
+					creation_finalize(d, FALSE);
+					return CON_READ_MOTD;// Done!
+				}
+				return CON_PICK_DEITY;
+			case CON_PICK_DEITY: creation_finalize(d, FALSE);
+				return CON_READ_MOTD;// Done!
+			case CON_PICK_STATS_DEFAULT: creation_finalize(d, TRUE);
+				return CON_READ_MOTD;// Done!
+			default: return CON_GET_SURNAME;// Something went wrong, restart - safer than ending it
+		}
+	}
+	else
+	{// Unfortunately, no great way to avoid having a separate list -- at least it adds flexibility
+		switch(d->connected)
+		{
+			case CON_GET_NEW_RACE: return CON_GET_SURNAME;
+			case CON_GET_NEW_CLASS: if(IS_SET(ch->mhs, MHS_PREFRESHED))
+					return CON_GET_NEW_RACE;
+				return CON_GET_NEW_SEX;
+			case CON_GET_NEW_SEX:	return CON_GET_NEW_RACE;
+			case CON_DEFAULT_CHOICE: if(IS_SET(ch->act,PLR_RECLASS))
+					return d->connected;// Can't back up past here
+				else
+					return CON_GET_NEW_CLASS;
+			case CON_GET_ALIGNMENT:	if(class_table[ch->class].reclass && !IS_SET(ch->act,PLR_RECLASS))
+			      	{
+				  int count = 0;// This is just for information - The oldclass must be set elsewhere
+				  int i = 0;
+			          for ( i = 0 ; i < MAX_CLASS ; i++ )
+			          {
+			             if ( class_table[i].reclass )
+			                continue;
+    
+			             if (class_table[ch->class].allowed[0] == i ||
+			                 class_table[ch->class].allowed[1] == i )
+			                count++;
+			          }
+
+				  if(count > 1)
+				  	return CON_GET_OLD_CLASS;
+				}
+				return CON_DEFAULT_CHOICE;
+			case CON_GET_OLD_CLASS: return CON_DEFAULT_CHOICE;
+			case CON_GEN_GROUPS: return CON_GET_ALIGNMENT;
+			case CON_PICK_WEAPON: return CON_GEN_GROUPS;
+			case CON_PICK_STATS: return CON_PICK_WEAPON;
+			case CON_PICK_DEITY: return CON_PICK_STATS;
+			case CON_PICK_STATS_DEFAULT: return CON_DEFAULT_CHOICE;
+			default: return d->connected;// Don't go anywhere back if it's not a handled step - can't back all the way out
+		}
+	}
+} 
+
+void creation_message(DESCRIPTOR_DATA *d, bool forward)
+{// Forward will sometimes show more details than backwards, reduces spam
+	char buf[256];
+	CHAR_DATA *ch = d->character;
+	int i = 0;
+  switch(d->connected)
+	{
+  case CON_GET_SURNAME:
+    if(forward)
+      sprintf( buf, "\n\rNew character. Enter back to redo a previous step during creation.\n\rChoose a surname for %s (Leave blank for none): ", ch->name);
+    else
+      sprintf(buf, "\n\rChoose a surname for %s (Leave blank for none): ", ch->name);
+    write_to_buffer( d, buf, 0 );
+    break;
+	case CON_GET_NEW_RACE:
+  write_to_buffer(d,"\n\rThe following races are available:\n\r  ",0);
+  for ( i = 1; race_table[i].name != NULL; i++ )
+  {
+   if (!race_table[i].pc_race)
+    break;
+   write_to_buffer(d," * ",0);
+   write_to_buffer(d,race_table[i].name,0);
+   write_to_buffer(d,"\n\r",0);
+   write_to_buffer(d," ",1);
+  }
+
+  write_to_buffer(d,"\n\r",0);
+  write_to_buffer(d,"What is your race (help for more information)? ",0);
+   break;
+  case CON_GET_NEW_SEX:
+    write_to_buffer( d, "\n\rWhat is your sex (M/F)? ", 0 );
+    break;
+  case CON_GET_NEW_CLASS:
+  strcpy( buf, "\n\rSelect a class (Help <class> for more information)\n\r [" );
+  for ( i = 0; i < MAX_CLASS; i++ )
+  {
+    if (i > 0)
+      strcat( buf, " " );
+    strcat( buf, class_table[i].name );
+  }
+  strcat( buf, "]: " );
+  write_to_buffer( d, buf, 0 );
+  break;
+	case CON_DEFAULT_CHOICE:
+    write_to_buffer(d,"\n\rDo you wish to customize this character?\n\r",0);
+    write_to_buffer(d,"Customization takes time, but allows a wider range of skills and abilities.\n\r",0);
+    write_to_buffer(d,"\n\rIf you are new to the game, it is suggested you do not customize now.\n\r\n\r",0);
+    write_to_buffer(d,"Customize (Y/N)? ",0);
+    break;
+	case CON_GET_OLD_CLASS:
+     strcpy( buf, "\n\rSelect an old class [" );
+     for ( i = 0 ; i < MAX_CLASS ; i++ )
+     {
+        if (i > 0)
+           strcat( buf, " " );
+
+        if ( class_table[i].reclass )
+           continue;
+
+        if (class_table[ch->class].allowed[0] == i ||
+            class_table[ch->class].allowed[1] == i )
+           strcat( buf, class_table[i].name );
+     }
+     strcat( buf, "]: " );
+     write_to_buffer( d, buf, 0 );
+     break;
+	case CON_GET_ALIGNMENT:
+    write_to_buffer( d, "\n\rYou may be good, neutral, or evil.\n\r",0);
+    write_to_buffer( d, "Which alignment (G/N/E)? ",0);
+    break;
+	case CON_GEN_GROUPS:
+	  write_to_buffer(d, "\n\r", 0);
+    do_help(ch,"group header");
+    list_group_costs(ch);
+    write_to_buffer(d,"You already have the following skills:\n\r",0);
+    do_skills(ch,"");
+    send_to_char("\n\r", ch);
+    do_help(ch,"menu choice");
+    break;
+	case CON_PICK_WEAPON:
+      write_to_buffer(d,
+    "\n\rPlease pick a weapon from the following choices:\n\r",0);
+      buf[0] = '\0';
+      for ( i = 0; weapon_table[i].name != NULL; i++)
+    if (ch->pcdata->learned[*weapon_table[i].gsn] > 0)
+    {
+        strcat(buf,weapon_table[i].name);
+        strcat(buf," ");
+    }
+    strcat(buf,"\n\rYour choice? ");
+    write_to_buffer(d,buf,0);
+    break;
+	case CON_PICK_DEITY:
+	 write_to_buffer(d, "\n\r", 0);
+   write_to_buffer(d,
+    "Please pick a Deity (help deity for more information)\n\r",0);
+   write_to_buffer(d,"Your choice? ",0);
+   break;
+	case CON_PICK_STATS:
+	case CON_PICK_STATS_DEFAULT:
+	 write_to_buffer(d, "\n\rHow do you identify yourself? (help for more information)\n\r",0);
+	 write_to_buffer(d, "Strength (Str) - I am strong in combat.\n\r",0);
+	 write_to_buffer(d, "Dexterity (Dex) - I am good with precise actions.\n\r", 0);
+	 write_to_buffer(d, "Intelligence (Int) - I am a quick learner.\n\r", 0);
+	 write_to_buffer(d, "Wisdom (Wis) - I have many insights into the world.\n\r", 0);
+	 write_to_buffer(d, "Constitution (Con) - I am tough and fit.\n\r", 0);
+   write_to_buffer(d, "Charisma (Cha) - I can convince people to do what I want.\n\r", 0);
+   break; 
+  default:
+      write_to_buffer( d, "Please answer (Y/N)? ", 0 );
+      return;
+  }
+}
+
+void clear_picked_groups(DESCRIPTOR_DATA *d)
+{
+	int i;
+	CHAR_DATA *ch = d->character;
+  if(ch->gen_data == NULL)
+  {
+    ch->gen_data = new_gen_data();// Do this once here
+    ch->gen_data->bonus_points = 50;
+    bug("Bad gen data - None present.", 0);
+  }
+  /* Default, drop everything in case they customized then backed out */
+  for (i = 0; i < MAX_GROUP; i++)
+  {
+    if (group_table[i].name == NULL)
+      break;
+    ch->gen_data->group_chosen[i] = FALSE;
+    gn_remove(ch,i);
+  }
+  for (i = 0; i < MAX_SKILL; i++)
+	{
+    if (skill_table[i].name == NULL)
+        break;
+
+    ch->gen_data->skill_chosen[i] = FALSE;
+    ch->pcdata->learned[i] = 0;
+  }
+  
+  for (i = 0; i < 5; i++)
+  {
+      if (pc_race_table[ch->race].skills[i] == NULL)
+    break;
+      group_add(ch,pc_race_table[ch->race].skills[i],FALSE);
+  }
+  /* add cost */
+  ch->pcdata->points = pc_race_table[ch->race].points;
+
+  group_add(ch,"rom basics",FALSE);
+  group_add(ch,class_table[ch->class].base_group,FALSE);
+  ch->pcdata->learned[gsn_recall] = 50;
+  ch->pcdata->learned[gsn_scan] = 50;
+  ch->pcdata->learned[gsn_swim] = 50;
+
+  ch->gen_data->points_chosen = ch->pcdata->points;
+}
+
+void creation_finalize(DESCRIPTOR_DATA *d, bool def)
+{// Fill in everything else
+  int i;
+  CHAR_DATA *ch = d->character;
+  int count = 0;
+  int oldClass = 0;
+  if (!IS_SET(ch->mhs,MHS_PREFRESHED) && !IS_SET(ch->act,PLR_RECLASS))
+  {
+     sprintf( log_buf, "%s@%s new player.", ch->name, d->host );
+     log_string( log_buf );
+     wiznet("Newbie alert!  $N sighted.",ch,NULL,WIZ_NEWBIE,0,0);
+     wiznet(log_buf,NULL,NULL,WIZ_SITES,0,get_trust(ch));
+
+    SET_BIT(ch->comm,COMM_NOBITCH);
+    SET_BIT(ch->comm,COMM_NOAUCTION);
+    SET_BIT(ch->comm,COMM_NOMUSIC);
+//    SET_BIT(ch->comm,COMM_NOQUOTE);
+//    SET_BIT(ch->comm,COMM_NOGRATS);
+    SET_BIT(ch->act,PLR_NOOUTOFRANGE);
+
+    /* Stamp Time of Creation */
+    ch->pcdata->created_date = current_time;
+  
+    /* Set all new characters as Newbies */
+    ch->clan = nonclan_lookup("newbie");
+  }
+  else
+  {
+     int newLevel;
+     sprintf( log_buf, "%s@%s pfresh player.", ch->name, d->host );
+     log_string( log_buf );
+     wiznet("Pfresh alert!  $N sighted.",ch,NULL,WIZ_NEWBIE,0,0);
+     wiznet(log_buf,NULL,NULL,WIZ_SITES,0,get_trust(ch));
+      /* calculate number of debit levels to give refresh chars */
+  	newLevel = ch->exp / exp_per_level(ch,ch->pcdata->points);
+  	/* remove the free level "1" */
+  	newLevel -= 1;
+  	if( ( ch->level < 11 ) && (newLevel > ch->level ) )
+  	{
+  	  newLevel = ch->level ;
+  	}
+  	if(   IS_SET(ch->act,PLR_VAMP) ||
+  	      IS_SET(ch->act,PLR_WERE) ||
+  	      IS_SET(ch->act,PLR_MUMMY) 
+            )
+  	{
+  	  if ( newLevel > 76 )
+  	  {
+  	    newLevel = 76;
+  	  }
+  	  ch->pcdata->debit_level = newLevel;
+  	}
+  	else
+  	{
+  	 /* not a remort, max it at 50 */
+  	 if(newLevel > 50 )
+  	 {
+  	   newLevel =50;
+           }
+  	 ch->pcdata->debit_level = newLevel;
+
+  	ch->exp = exp_per_level(ch,ch->pcdata->points) ;
+  	 /* Remove Remort Status */
+  	 if (IS_SET(ch->act,PLR_VAMP))
+  	    REMOVE_BIT(ch->act,PLR_VAMP);
+  	 if (IS_SET(ch->act,PLR_WERE))
+  	    REMOVE_BIT(ch->act,PLR_WERE);
+  	 if (IS_SET(ch->act,PLR_MUMMY))
+  	    REMOVE_BIT(ch->act,PLR_MUMMY);
+        }
+  }
+  if(IS_SET(ch->act,PLR_RECLASS))
+	REMOVE_BIT(ch->act,PLR_RECLASS);
+  if(def)
+  {
+    if(ch->pcdata->old_class == 0)
+    {// Hasn't been set yet, set now
+    /* Safety check - check auto-set if it got missed somehow */
+      if (!class_table[ch->class].reclass )
+        ch->pcdata->old_class = ch->class; 
+      else
+      {
+        for ( i = 0 ; i < MAX_CLASS ; i++ )
+        {
+           if ( class_table[i].reclass )
+              continue;
+    
+           if (class_table[ch->class].allowed[0] == i ||
+               class_table[ch->class].allowed[1] == i )
+               {
+                oldClass = i;
+                count++;
+               }
+        }
+        if(count == 1)
+          ch->pcdata->old_class = oldClass;
+        else
+        {// Needs setting based on attribute
+          int stat = ch->pcdata->pref_stat;// Saving code space
+          if(ch->class == class_lookup("monk"))
+          {
+            if(stat == STAT_STR || stat == STAT_DEX || stat == STAT_CON)
+              ch->pcdata->old_class = class_lookup("thief");
+            else// int, wis, cha -> cleric
+              ch->pcdata->old_class = class_lookup("cleric");
+          }
+          else if(ch->class == class_lookup("paladin"))
+          {
+            if(stat == STAT_STR || stat == STAT_DEX || stat == STAT_CON)
+              ch->pcdata->old_class = class_lookup("warrior");
+            else// int, wis, cha -> cleric
+              ch->pcdata->old_class = class_lookup("cleric");
+          }
+          else if(ch->class == class_lookup("berzerker"))
+          {
+            if(stat == STAT_STR || stat == STAT_WIS || stat == STAT_CON)
+              ch->pcdata->old_class = class_lookup("warrior");
+            else// dex, int, cha -> thief
+              ch->pcdata->old_class = class_lookup("thief");
+          }
+          else if(ch->class == class_lookup("druid"))
+          {
+            if(stat == STAT_STR || stat == STAT_WIS || stat == STAT_CON)
+              ch->pcdata->old_class = class_lookup("cleric");
+            else// dex, int, cha -> mage
+              ch->pcdata->old_class = class_lookup("mage");
+          }
+          else if(ch->class == class_lookup("assassin"))
+          {
+            if(stat == STAT_STR || stat == STAT_DEX || stat == STAT_CON)
+              ch->pcdata->old_class = class_lookup("thief");
+            else// int, wis, cha -> mage
+              ch->pcdata->old_class = class_lookup("mage");
+          }
+          else if(ch->class == class_lookup("samurai"))
+          {
+            if(stat == STAT_STR || stat == STAT_DEX || stat == STAT_CON)
+              ch->pcdata->old_class = class_lookup("warrior");
+            else// int, wis, cha -> mage
+              ch->pcdata->old_class = class_lookup("mage");
+          }
+          else
+            ch->pcdata->old_class = ch->class;
+        }
+      }
+    }
+      /* Give them some skills, clear in case they backed out after customizing */
+      clear_picked_groups(d);
+	    group_add(ch,class_table[ch->class].default_group,TRUE);
+      
+	    /* With an oldclass and skills set, let's give them a weapon */
+	    count = 0;
+	    
+	    for ( i = 0; weapon_table[i].name != NULL; i++)
+	      if (ch->pcdata->learned[*weapon_table[i].gsn] > 0)
+	      {
+	      	ch->pcdata->learned[*weapon_table[i].gsn] = 1; // Reset this in case it got set up somehow
+	        count++;
+	      }
+	    if(!count)
+	    {// This is bad, no weapon available - just bug it, it shouldn't happen but can be corrected by an imm after
+	      bug("No weapon found after creation.", 0);
+	    }
+	    else
+	    {
+	      count = number_range(1, count);
+	      for ( i = 0; weapon_table[i].name != NULL; i++)
+	        if (ch->pcdata->learned[*weapon_table[i].gsn] > 0)
+	        {
+	          count--;
+	          if(!count)
+	          {
+	            ch->pcdata->learned[*weapon_table[i].gsn] = 80;
+	            break;
+	          }
+	        }
+	    }
+	    ch->alignment = 0;// Set in case they set it then backed out
+	  }
+
+    /* initialize stats */
+    for (i = 0; i < MAX_STATS; i++)
+    {
+	if(i == STAT_AGT || i == STAT_END)
+	{
+		ch->perm_stat[i] = pc_race_table[ch->race].stats[i];
+		continue;// Removed
+	}
+        ch->perm_stat[i] = pc_race_table[ch->race].stats[i] + 3;// Simulate even distribution
+    }
+    ch->perm_stat[class_table[ch->pcdata->old_class].attr_prime] += 3;
+    ch->perm_stat[class_table[ch->pcdata->old_class].attr_second] += 2;
+    ch->perm_stat[ch->pcdata->pref_stat]++;// How you view your character sets your first train spent
+    
+    ch->affected_by = ch->affected_by|race_table[ch->race].aff;
+    ch->imm_flags   = ch->imm_flags|race_table[ch->race].imm;
+    ch->res_flags   = ch->res_flags|race_table[ch->race].res;
+    ch->vuln_flags  = ch->vuln_flags|race_table[ch->race].vuln;
+    ch->form        = race_table[ch->race].form;
+    ch->parts       = race_table[ch->race].parts;
+    ch->hit     = 20;
+    ch->max_hit = 20;
+    ch->pcdata->perm_hit = 20;
+    ch->mana    = 100;
+    ch->max_mana = 100;
+    ch->pcdata->perm_mana = 100;
+    ch->move    = 100;
+    ch->max_move = 100;
+    ch->pcdata->perm_move = 100;
+    SET_BIT(ch->mhs,MHS_KAETH_CLEAN);// No old kaethan gear
+
+    /* add racial skills back on incase they got dropped in customizing*/
+    for (i = 0; i < MAX_SKILL; i++)
+    {
+        if (pc_race_table[ch->race].skills[i] == NULL)
+           break;
+        group_add(ch,pc_race_table[ch->race].skills[i],FALSE);
+    }
+
+
+    ch->level = 0;    
+    ch->train = 1;// Four trains initially, 3 are added later
+}
+
+void creation_input(DESCRIPTOR_DATA *d, char *argument)
+{
+	char arg[256];
+	  int i = 0, race = 0;
+	char buf[256];
+  CHAR_DATA *ch = d->character;
+  one_argument(argument,arg);
+  if(d->connected != CON_GET_SURNAME && !strcmp(arg,"back")
+    && !IS_SET(d->character->mhs,MHS_PREFRESHED) )// Prefresh chars can't go back atm
+  {// Accept the surname Back, they can go back if it was unintended
+    d->connected = creation_step(d, FALSE, FALSE);
+    creation_message(d, FALSE);
+    return;
+  }
+  switch(d->connected)
+  {
+	case CON_GET_SURNAME:
+	  if(strlen(arg) > 0)// They entered a surname
+		  do_surname(ch,argument);
+    break;//End CON_GET_SURNAME
+	case CON_GET_NEW_RACE:
+    one_argument(argument,arg);
+
+    if (!strcmp(arg,"help"))
+    {
+        argument = one_argument(argument,arg);
+        if (argument[0] == '\0')
+      do_help(ch,"race help");
+        else
+      do_help(ch,argument);
+        write_to_buffer(d,
+      "What is your race (help for more information)? ",0);
+        return;
+    }
+  
+    race = race_lookup(argument);
+  
+    if (race == 0 || !race_table[race].pc_race || race == race_lookup("mutant") || race == race_lookup("smurf"))
+    {
+        if (race == race_lookup("mutant"))
+        {
+  	 write_to_buffer(d,"Sorry Mutants are Out of Order, Pick Again.\n\r",0);
+  	 write_to_buffer(d,"\n\r",0);
+        }
+  
+        if (race == race_lookup("smurf"))
+        {
+           write_to_buffer(d,"Blue and two apples tall?  You wouldn't last two minutes.  Pick again please.\n\r",0);
+           write_to_buffer(d,"\n\r",0);
+        }
+  
+  
+        write_to_buffer(d,"That is not a valid race.\n\r",0);
+      creation_message(d, FALSE);
+      return;// Error message sent, ask them to choose a race
+    }
+  
+  /*  if (race == race_lookup("smurf"))
+    {
+        write_to_buffer(d,"This is a Beta Test Race right now. You must have the password.\n\r",0);
+        write_to_buffer(d, "What is the password? ",0); 
+        ch->race = race;
+        d->connected = CON_TEMP_SMURF_PASSWORD;
+        break;
+  
+    }
+  */
+    ch->race = race;
+  
+    if ( race == race_lookup("mutant") )
+    {
+  	SET_BIT(ch->mhs,MHS_MUTANT);
+  	ch->pcdata->mutant_timer = 500;
+    }
+  
+    /* add skills */
+    for (i = 0; i < 5; i++)
+    {
+        if (pc_race_table[race].skills[i] == NULL)
+      break;
+        group_add(ch,pc_race_table[race].skills[i],FALSE);
+    }
+    /* add cost */
+    ch->pcdata->points = pc_race_table[race].points;
+    ch->size = pc_race_table[race].size;
+
+      break;// End CON_GET_NEW_RACE
+  case CON_GET_NEW_SEX:
+  switch ( argument[0] )
+  {
+  case 'm': case 'M': ch->sex = SEX_MALE;    
+          ch->pcdata->true_sex = SEX_MALE;
+          break;
+  case 'f': case 'F': ch->sex = SEX_FEMALE; 
+          ch->pcdata->true_sex = SEX_FEMALE;
+          break;
+  default:
+      write_to_buffer( d, "That's not a sex.\n\rWhat IS your sex (M/F)? ", 0 );
+      return;
+  }
+  break;
+  case CON_GET_NEW_CLASS:
+  one_argument(argument,arg);
+
+  if (!strcmp(arg,"help"))
+  {
+      argument = one_argument(argument,arg);
+    if (argument[0] == '\0')
+      do_help(ch,"class help");
+    else
+      do_help(ch,argument);
+    creation_message(d, FALSE);
+    return;
+  }
+
+  i = class_lookup(argument);
+
+  if ( i == -1 )
+  {
+      write_to_buffer( d,
+    "That's not a class.\n\rWhat IS your class? ", 0 );
+      return;
+  }
+
+  ch->class = i;
+
+  if (!class_table[i].reclass )
+    ch->pcdata->old_class = i; 
+  else
+  {
+	  int count = 0;// Set oldclass now if they have no options
+	  int oldClass = 0;
+    for ( i = 0 ; i < MAX_CLASS ; i++ )
+    {
+       if ( class_table[i].reclass )
+          continue;
+
+       if (class_table[ch->class].allowed[0] == i ||
+           class_table[ch->class].allowed[1] == i )
+           {
+             oldClass = i;
+             count++;
+           }
+    }
+    if(count == 1)
+      ch->pcdata->old_class = oldClass;
+    else
+      ch->pcdata->old_class = 0;// Set later
+  }
+  break;
+	case CON_DEFAULT_CHOICE:
+  switch ( argument[0] )
+  {
+  case 'y': case 'Y': 
+    clear_picked_groups(d);
+    d->connected = creation_step(d, TRUE, TRUE);
+    creation_message(d, TRUE);
+    break;
+  case 'n': case 'N': 
+    d->connected = creation_step(d, TRUE, FALSE);
+    creation_message(d, TRUE);
+    break;
+  default:
+    write_to_buffer( d, "Please answer (Y/N)? ", 0 );
+    break;
+  }
+  /* Special cases - clarifies if accept is TRUE or FALSE */
+    return; // end CON_DEFAULT_CHOICE
+	case CON_GET_OLD_CLASS:
+    i = class_lookup(argument);
+  
+    if ( i == -1 || class_table[i].reclass 
+         || (class_table[ch->class].allowed[0] != i &&
+  	   class_table[ch->class].allowed[1] != i))
+    {
+        write_to_buffer( d,
+      "That's not a valid old class.\n\rWhat IS your old class? ", 0 );
+        return;
+    }
+  
+    ch->pcdata->old_class = i;
+     break;
+	case CON_GET_ALIGNMENT:
+  switch( argument[0])
+  {
+      case 'g' : case 'G' : ch->alignment = 750;  break;
+      case 'n' : case 'N' : ch->alignment = 0;    break;
+      case 'e' : case 'E' : ch->alignment = -750; break;
+      default:
+    write_to_buffer(d,"That's not a valid alignment.\n\r",0);
+    write_to_buffer(d,"Which alignment (G/N/E)? ",0);
+    return;
+  }
+    break;
+	case CON_GEN_GROUPS:
+  if (!str_cmp(argument,"done"))
+  {
+      char buf[256];
+      /* Check for no weapons on finishing, else they get stuck */
+      bool weapon_found = FALSE;
+      for ( i = 0; weapon_table[i].name != NULL; i++)
+      {
+         if (ch->pcdata->learned[*weapon_table[i].gsn] > 0)
+            weapon_found = TRUE;
+      }
+      if(!weapon_found)
+      {
+         strcat(buf,"\n\rYou have no weapons to choose from. Please add one. ");
+         write_to_buffer(d,buf,0);
+         return;
+      }
+
+      sprintf(buf,"Creation points: %d\n\r",ch->pcdata->points);
+      send_to_char(buf,ch);
+      sprintf(buf,"Experience per level: %d\n\r",
+        exp_per_level(ch,ch->gen_data->points_chosen));
+      send_to_char(buf,ch);
+     
+      /* Pfresh Chars dont pick a new deity */
+      if (IS_SET(ch->mhs,MHS_PREFRESHED))
+      {// Notify them of how many debit levels they have at this point
+	 int newLevel = ch->exp / exp_per_level(ch,ch->pcdata->points);
+	 /* remove the free level "1" */
+	 newLevel -= 1;
+	 if( ( ch->level < 11 ) && (newLevel > ch->level ) )
+	   newLevel = ch->level ;
+	 if(   IS_SET(ch->act,PLR_VAMP) ||
+	       IS_SET(ch->act,PLR_WERE) ||
+	      IS_SET(ch->act,PLR_MUMMY) 
+           )
+    	 {
+    	  if ( newLevel > 76 )
+    	    newLevel = 76;
+    	 }
+    	 else
+    	 {
+        if(newLevel > 50 )
+    	   newLevel =50;
+    	 }
+         sprintf(buf,"Debit levels: %d\n\r",newLevel);
+         send_to_char(buf,ch);
+      }
+      break;
+  }
+
+    if (!parse_gen_groups(ch,argument))
+    send_to_char(
+    "Choices are: list,learned,premise,add,drop,info,help, and done.\n\r",ch);
+  
+    send_to_char("\n\r", ch);
+    do_help(ch,"menu choice");
+    return;
+	case CON_PICK_WEAPON:
+   {
+   int weapon = weapon_lookup(argument);
+   if (weapon == -1 || ch->pcdata->learned[*weapon_table[weapon].gsn] <= 0)
+   {
+      write_to_buffer(d,
+    "That's not a valid selection. Choices are:\n\r",0);
+      buf[0] = '\0';
+      for ( i = 0; weapon_table[i].name != NULL; i++)
+    if (ch->pcdata->learned[*weapon_table[i].gsn] > 0)
+    {
+        strcat(buf,weapon_table[i].name);
+        strcat(buf," ");
+    }
+      strcat(buf,"\n\rYour choice? ");
+      write_to_buffer(d,buf,0);
+      return;
+   }
+    for ( i = 0; weapon_table[i].name != NULL; i++)
+    {// Reset all weapons to 1 so you can't get multiple at 80 by going back
+       if (ch->pcdata->learned[*weapon_table[i].gsn] > 0)
+       {
+          ch->pcdata->learned[*weapon_table[i].gsn] = 1;
+       }
+    }
+    ch->pcdata->learned[*weapon_table[weapon].gsn] = 80;
+   }
+	 break;
+	case CON_PICK_DEITY:
+     {
+      int deity = 0;
+      one_argument(argument,arg);
+      write_to_buffer( d, "\n\r", 2 );
+      if (!strcmp(arg,"help"))
+      {
+         argument = one_argument(argument,arg);
+         if (argument[0] == '\0')
+            do_help(ch,"deity");
+         else
+            do_help(ch,argument);
+         write_to_buffer(d,
+            "Please pick a Deity (help deity for more information)\n\r",0);
+         write_to_buffer(d,"Your choice? ",0);
+         return;
+      }
+
+      deity = deity_lookup(argument);
+
+      if ( deity == -1)                  
+      {                                                         
+         write_to_buffer(d,"Not an existing Deity.\n\r",0);
+         write_to_buffer(d,
+            "Please pick a Deity (help deity for more information)\n\r",0);
+         write_to_buffer(d,"Your choice? ",0);
+         return;
+      }
+
+      /* smurfs can pick clanned deitied at creation */
+      if (ch->race != race_lookup("smurf"))
+      {
+         if (deity_table[deity].clan && !is_clan(ch))
+         {
+            write_to_buffer(d,"Don't get ahead of yourself, you arent Clanned yet.\n\r",0);
+            write_to_buffer(d,
+               "Please pick a Non-Clan-Deity (help deity for more information):\n\r",0);
+            write_to_buffer(d,"Your choice?\n\r",0);
+            return;
+         }
+      }
+      
+      ch->pcdata->deity = deity;
+      ch->pcdata->new_deity = deity; 
+      ch->pcdata->sac = 0;
+   }
+   break;
+	case CON_PICK_STATS:
+	case CON_PICK_STATS_DEFAULT:
+    one_argument(argument,arg);
+    write_to_buffer( d, "\n\r", 2 );
+    if (!strcmp(arg,"help"))
+    {
+    	do_help(ch,"pickstats");
+	creation_message(d, FALSE);
+    	write_to_buffer(d,"Your choice -> ",0);
+    }
+    if ( !str_cmp(argument,"str") ) {
+      ch->pcdata->pref_stat = STAT_STR; break;
+    }
+    if ( !str_cmp(argument,"dex") ) {
+      ch->pcdata->pref_stat = STAT_DEX; break;      
+    }
+    if ( !str_cmp(argument,"int") ) {
+      ch->pcdata->pref_stat = STAT_INT; break;      
+    }
+    if ( !str_cmp(argument,"wis") ) {
+      ch->pcdata->pref_stat = STAT_WIS; break;
+    }
+    if ( !str_cmp(argument,"con") ) {
+      ch->pcdata->pref_stat = STAT_CON; break;
+    }
+    if ( !str_cmp(argument,"cha") ) {
+      ch->pcdata->pref_stat = STAT_SOC; break;
+    }
+    write_to_buffer(d, "That is not an attribute. How do you identify yourself?\n\r", 0);
+    return;
+  }// END SWITCH
+  /* Generic next step - return from switch instead of break if this isn't appropriate */
+  d->connected = creation_step(d, TRUE, FALSE);
+  if(is_creation(d))
+    creation_message(d, TRUE);
+}
+
+void refund_skill(CHAR_DATA *ch, char *skill)
+{
+  char buf[256];
+  int sn = skill_lookup(skill);
+  if(sn < 0)
+  {
+    sprintf(buf, "Skill not found to refund: %s", skill);
+    bug(skill, 0);
+    return;
+  }
+
+  if(ch->pcdata->learned[sn] > 0)
+  {
+    int refund = 0, prac_amount;
+    if(ch->pcdata->learned[sn] > 75)
+    {/* 1 practice per 10% */
+      refund += (ch->pcdata->learned[sn] - 65) / 10;
+      ch->pcdata->learned[sn] = 75;
+    }
+    prac_amount = UMAX(1, abs(skill_table[sn].rating[ch->class]));
+    prac_amount = UMAX(1, int_app[get_max_train(ch,STAT_INT)].learn / prac_amount);
+    refund += (ch->pcdata->learned[sn] + prac_amount - 1) / prac_amount;
+    sprintf(buf, "You are refunded %d pracs for the removal of %s.\n\r", refund, skill);
+    send_to_char(buf, ch);
+    ch->practice += refund;
+    ch->pcdata->learned[sn] = 0;
+  }
+}
+
+void do_version_up(CHAR_DATA *ch)
+{
+  char buf[256];
+  int i;
+  if(ch->version < 32)
+  {
+    if(ch->perm_stat[STAT_END] != pc_race_table[ch->race].stats[STAT_END])
+    {
+  	int refund = ch->perm_stat[STAT_END] - pc_race_table[ch->race].stats[STAT_END];
+  	if(refund > 0)
+  	{
+	  sprintf(buf, "$N is removing endurance. Old value: %d, refund: %d", ch->perm_stat[STAT_END], refund);
+	  wiznet(buf,ch,NULL,WIZ_NOTES,WIZ_SECURE,get_trust(ch));
+  	  ch->train += refund;
+  	  sprintf(buf, "\n\r{W*** Endurance has been removed. You are refunded %d train%s. ***{x", refund, refund == 1 ? "" : "s");
+	  if(ch->perm_stat[STAT_AGT] == pc_race_table[ch->race].stats[STAT_AGT])
+	     strcat(buf, "\n\r");// Get nice spacing
+  	  send_to_char(buf, ch);
+  	}
+  	ch->perm_stat[STAT_END] = pc_race_table[ch->race].stats[STAT_END];
+    }
+
+    if(ch->perm_stat[STAT_AGT] != pc_race_table[ch->race].stats[STAT_AGT])
+    {
+  	int refund = ch->perm_stat[STAT_AGT] - pc_race_table[ch->race].stats[STAT_AGT];
+  	if(refund > 0)
+  	{
+	  sprintf(buf, "$N is removing agility. Old value: %d, refund: %d", ch->perm_stat[STAT_AGT], refund);
+	  wiznet(buf,ch,NULL,WIZ_NOTES,WIZ_SECURE,get_trust(ch));
+  	  ch->train += refund;
+  	  sprintf(buf, "\n\r{W*** Agility has been removed. You are refunded %d train%s. ***{x\n\r\n\r", refund, refund == 1 ? "" : "s");
+  	  send_to_char(buf, ch);
+  	}
+        ch->perm_stat[STAT_AGT] = pc_race_table[ch->race].stats[STAT_AGT];
+    }
+  }/* End version 32 */
+  if(ch->version < 33)
+  {
+    /* Remove cone of silence and snatch, and swap slice for bump on thieves */
+    if(ch->class == class_lookup("thief"))
+    {
+      int sn = skill_lookup("slice");
+      i = skill_lookup("bump");
+      if(sn >= 0 && i >= 0 && ch->pcdata->learned[sn] > 0)
+      {
+        send_to_char("Slice has been replaced with Bump.\n\r", ch);
+        ch->pcdata->learned[i] = ch->pcdata->learned[sn];
+        ch->pcdata->learned[sn] = 0;
+      }
+    }
+    refund_skill(ch, "snatch");
+    refund_skill(ch, "cone of silence");
+    if(ch->pcdata->clan_info && ch->pcdata->clan_info->award_merit > 0)
+    {
+      int previous = ch->pcdata->clan_info->award_merit;
+      ch->pcdata->clan_info->award_merit = calculate_bonus_merit(ch, FALSE);
+      if(ch->pcdata->clan_info->award_merit > previous &&
+        ch->pcdata->clan_info->award_merit > 100)
+      {
+        sprintf(buf, "Your starter tribute has been increased to %d from %d.\n\r", ch->pcdata->clan_info->award_merit / 100, previous / 100);
+        send_to_char(buf, ch);
+      }
+      if(!ch->pcdata->clan_info->clan->default_clan)
+        calculate_award_tribute(ch->pcdata->clan_info->clan);
+    }
+    if(IS_SET(ch->act, PLR_DENY))
+    {
+      sprintf(buf, "Removing deny on %s", ch->name);
+      log_string(buf);
+      REMOVE_BIT(ch->act, PLR_DENY);
+    }
+    REMOVE_BIT(ch->act, PLR_FREEZE);
+  }
+}
 /*
  * Deal with sockets that haven't logged in yet.
  */
@@ -2158,21 +3608,24 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
     CHAR_DATA *ch;
     char *pwdnew;
     char *p;
-    int iClass,deity,race,i,weapon,iOldClass, newLevel;
+    int race, i;
     bool fOld;
-    int wStat;
-    int statCost; /* cost to increase a customized stat by 1 */
-    char *stat_str;
     OBJ_DATA *obj;
     OBJ_DATA *obj2;
     OBJ_DATA *obj_next;
     OBJ_DATA *obj_next2;
-    bool weapon_found;
 
     while ( isspace(*argument) )
   argument++;
 
     ch = d->character;
+
+    if(is_creation(d))
+    {// Intercept, the creation steps don't go in the main loop any more
+        creation_input(d, argument);
+	if(is_creation(d))
+	        return;// Catch the end of creation and go back
+    }
 
     switch ( d->connected )
     {
@@ -2216,7 +3669,7 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
 
   ch   = d->character;
 */
-  if (IS_SET(ch->act, PLR_DENY))
+  if (IS_SET(ch->act, PLR_DENY) && (ch->version > 32 || IS_IMMORTAL(ch)))
   {
       sprintf( log_buf, "Denying access to %s@%s.", argument, d->host );
       log_string( log_buf );
@@ -2356,11 +3809,11 @@ void nanny( DESCRIPTOR_DATA *d, char *argument )
   }
 
 /* BEGIN THE REMOVAL OF CLAN AVARICE */
-if (ch->clan == clan_lookup("avarice") )
+/*if (ch->clan == clan_lookup("avarice") )
 { 
   ch->clan = clan_lookup("loner");;
   ch->pcdata->rank = 0;
-}
+}*/
 /*remove shapeshifterkit*/
 if ( ch->kit == kit_lookup("shapeshifter") )
 {
@@ -2383,7 +3836,7 @@ if ( ch->pcdata->learned[skill_lookup("research")]  == 1 )
 
 
 /*BEGIN THE REMOVAL OF CLAN SKILLS */
-if (ch->clan == clan_lookup("honor")
+/*if (ch->clan == clan_lookup("honor")
 &&  ch->pcdata->learned[skill_lookup("honor guard")] > 0 )
 {
   ch->pcdata->learned[skill_lookup("honor guard")] = 0;
@@ -2404,7 +3857,7 @@ if (ch->clan == clan_lookup("posse")
 && ch->pcdata->learned[skill_lookup("cuffs of justice")] > 0)
 {
   ch->pcdata->learned[skill_lookup("cuffs of justice")] = 0;
-}
+}*/
 
 /*END THE REMOVAL OF CLAN SKILLS*/
 
@@ -2413,7 +3866,7 @@ if (ch->clan == clan_lookup("posse")
 if( !IS_SET(ch->mhs,MHS_KAETH_CLEAN) && !IS_IMMORTAL(ch) )
 { /*BEGIN KAETH CHECK*/
   /* Remove all EQ Worn just for good measure */
-  remove_all_objs(ch);
+  remove_all_objs(ch, TRUE);
 
   /* Remove all ITEM_IMM_LOAD and empty out the container
   if its a container */
@@ -2489,10 +3942,10 @@ if( !IS_SET(ch->mhs,MHS_KAETH_CLEAN) && !IS_IMMORTAL(ch) )
 /*#endif*/
 /* Poquah temp remove come back to this later */
 
- if (is_clan(ch) )
- {
-    ch->pcdata->start_time = 2;
- }
+                        if (is_clan(ch) && !IS_IMMORTAL(ch) )
+                        {
+                                ch->pcdata->start_time = 3;
+                        }
 
 
 /*COREY COREY COREY put the remove matook stuff here */
@@ -2524,15 +3977,21 @@ if( !IS_SET(ch->mhs,MHS_KAETH_CLEAN) && !IS_IMMORTAL(ch) )
 
       if( IS_SET(ch->act,PLR_RECLASS) )
       {
-	REMOVE_BIT(ch->act,PLR_RECLASS);
+/*	REMOVE_BIT(ch->act,PLR_RECLASS);
 	write_to_buffer( d, "\n\r", 2 );
 	write_to_buffer( d, "You may be good, neutral, or evil.\n\r",0);
-	write_to_buffer( d, "Which alignment (G/N/E)? ",0);
+	write_to_buffer( d, "Which alignment (G/N/E)? ",0);*/
 	/* perm stat based on old class */
-	ch->perm_stat[class_table[ch->pcdata->old_class].attr_prime] += 3;
+/*	ch->perm_stat[class_table[ch->pcdata->old_class].attr_prime] += 3;
   	ch->perm_stat[class_table[ch->pcdata->old_class].attr_second] += 2;
 
-	d->connected = CON_GET_ALIGNMENT;
+	d->connected = CON_GET_ALIGNMENT;*/
+	ch->gen_data = new_gen_data();
+	ch->gen_data->bonus_points = 50;
+
+	write_to_buffer(d, "Beginning reclass.\n\r", 0);
+	d->connected = CON_DEFAULT_CHOICE;
+	creation_message(d, TRUE);
 	break;
       }
 
@@ -2598,9 +4057,9 @@ if( !IS_SET(ch->mhs,MHS_KAETH_CLEAN) && !IS_IMMORTAL(ch) )
   switch ( *argument )
   {
   case 'y': case 'Y':
-      sprintf( buf, "New character.\n\rChoose a surname for %s: ", ch->name);
+      sprintf( buf, "Please choose a password: %s", echo_off_str );
       write_to_buffer( d, buf, 0 );
-      d->connected = CON_GET_SURNAME;
+      d->connected = CON_GET_NEW_PASSWORD;
       break;
 
   case 'n': case 'N':
@@ -2615,23 +4074,6 @@ if( !IS_SET(ch->mhs,MHS_KAETH_CLEAN) && !IS_IMMORTAL(ch) )
       break;
   }
   break;
-
-    case CON_GET_SURNAME:
-	do_surname(ch,argument);
- 	if( ch->pcdata->surname == NULL )
- 	{
-	  write_to_buffer( d, "Please choose a surname: ", 0);
-	  break;
-	}
-	else
-	{
-	  sprintf( buf, "Please choose a password: %s", echo_off_str );
-	  write_to_buffer( d, buf, 0 );
-	  d->connected = CON_GET_NEW_PASSWORD;
-	  break;
-	}
-
-	
 
     case CON_PREFRESH_CHAR:
   one_argument(argument,arg);
@@ -2719,6 +4161,8 @@ if( !IS_SET(ch->mhs,MHS_KAETH_CLEAN) && !IS_IMMORTAL(ch) )
         REMOVE_BIT(ch->mhs,MHS_MUTANT);
 
      /* Remove Affects and Resists/Vulns/Imms */
+     while ( ch->flash_affected )
+        flash_affect_remove( ch, ch->flash_affected,APPLY_BOTH );
      while ( ch->affected )
         affect_remove( ch, ch->affected,APPLY_BOTH );
      ch->affected_by = 0;
@@ -2731,7 +4175,7 @@ if( !IS_SET(ch->mhs,MHS_KAETH_CLEAN) && !IS_IMMORTAL(ch) )
        ch->vuln_flags = 0;
 
     /* Remove all EQ Worn just for good measure */
-    remove_all_objs(ch);
+    remove_all_objs(ch, TRUE);
 
     /* Remove all ITEM_IMM_LOAD and empty out the container
        if its a container */
@@ -2850,149 +4294,15 @@ if( !IS_SET(ch->mhs,MHS_KAETH_CLEAN) && !IS_IMMORTAL(ch) )
       return;
   }
 
+  ch->gen_data = new_gen_data();// Do this once here
+  ch->gen_data->bonus_points = 50;
+
   write_to_buffer( d, echo_on_str, 0 );
-  write_to_buffer(d,"The following races are available:\n\r  ",0);
-  for ( race = 1; race_table[race].name != NULL; race++ )
-  {
-      if (!race_table[race].pc_race)
-    break;
-      write_to_buffer(d," * ",0);
-      write_to_buffer(d,race_table[race].name,0);
-      write_to_buffer(d,"\n\r",0);
-      write_to_buffer(d," ",1);
-  }
-
-  write_to_buffer(d,"\n\r",0);
-  write_to_buffer(d,"What is your race (help for more information)? ",0);
-  d->connected = CON_GET_NEW_RACE;
+  d->connected = CON_GET_SURNAME;
+  creation_message(d, TRUE);
   break;
 
-    case CON_GET_NEW_RACE:
-  one_argument(argument,arg);
-
-  if (!strcmp(arg,"help"))
-  {
-      argument = one_argument(argument,arg);
-      if (argument[0] == '\0')
-    do_help(ch,"race help");
-      else
-    do_help(ch,argument);
-      write_to_buffer(d,
-    "What is your race (help for more information)? ",0);
-      break;
-  }
-
-  race = race_lookup(argument);
-
-  if (race == 0 || !race_table[race].pc_race || race == race_lookup("mutant") || race == race_lookup("smurf"))
-  {
-      if (race == race_lookup("mutant"))
-      {
-	 write_to_buffer(d,"Sorry Mutants are Out of Order, Pick Again.\n\r",0);
-	 write_to_buffer(d,"\n\r",0);
-      }
-
-      if (race == race_lookup("smurf"))
-      {
-         write_to_buffer(d,"Blue and two apples tall?  You wouldn't last two minutes.  Pick again please.\n\r",0);
-         write_to_buffer(d,"\n\r",0);
-      }
-
-
-      write_to_buffer(d,"That is not a valid race.\n\r",0);
-      write_to_buffer(d,"The following races are available:\n\r  ",0);
-
-      for ( race = 1; race_table[race].name != NULL; race++ )
-      {
-         if (!race_table[race].pc_race)
-            break;
-         write_to_buffer(d,race_table[race].name,0);
-         write_to_buffer(d," ",1);
-      }
-
-      write_to_buffer(d,"\n\r",0);
-      write_to_buffer(d,
-         "What is your race? (help for more information) ",0);
-      break;
-  }
-
-/*  if (race == race_lookup("smurf"))
-  {
-      write_to_buffer(d,"This is a Beta Test Race right now. You must have the password.\n\r",0);
-      write_to_buffer(d, "What is the password? ",0); 
-      ch->race = race;
-      d->connected = CON_TEMP_SMURF_PASSWORD;
-      break;
-
-  }
-*/
-  ch->race = race;
-  /* initialize stats */
-  for (i = 0; i < MAX_STATS; i++)
-      ch->perm_stat[i] = pc_race_table[race].stats[i];
-  ch->affected_by = ch->affected_by|race_table[race].aff;
-  ch->imm_flags   = ch->imm_flags|race_table[race].imm;
-  ch->res_flags   = ch->res_flags|race_table[race].res;
-  ch->vuln_flags  = ch->vuln_flags|race_table[race].vuln;
-  ch->form        = race_table[race].form;
-  ch->parts       = race_table[race].parts;
-  ch->hit     = 20;
-  ch->max_hit = 20;
-  ch->pcdata->perm_hit = 20;
-  ch->mana    = 100;
-  ch->max_mana = 100;
-  ch->pcdata->perm_mana = 100;
-  ch->move    = 100;
-  ch->max_move = 100;
-  ch->pcdata->perm_move = 100;
-//COREY COREY COREY PUT THE KAETH BIT SET HERE
-SET_BIT(ch->mhs,MHS_KAETH_CLEAN);
-
-  if ( race == race_lookup("mutant") )
-  {
-	SET_BIT(ch->mhs,MHS_MUTANT);
-	ch->pcdata->mutant_timer = 500;
-  }
-
-  /* add skills */
-  for (i = 0; i < 5; i++)
-  {
-      if (pc_race_table[race].skills[i] == NULL)
-    break;
-      group_add(ch,pc_race_table[race].skills[i],FALSE);
-  }
-  /* add cost */
-  ch->pcdata->points = pc_race_table[race].points;
-  ch->size = pc_race_table[race].size;
-
-
-  /* Stamp Time of Creation */
-  ch->pcdata->created_date = current_time;
-
-  /* Set all new characters as Newbies */
-  ch->clan = clan_lookup("newbie");
-
-  if (IS_SET(ch->mhs,MHS_PREFRESHED))
-  {
-     strcpy( buf, "Select a class (Help <class> for more information)\n\r [" );
-     for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
-     {
-        if (iClass > 0)
-           strcat( buf, " " );
-        strcat( buf, class_table[iClass].name );
-     }
-     strcat( buf, "]: " );
-     write_to_buffer( d, buf, 0 );
-     d->connected = CON_GET_NEW_CLASS;
-  }
-  else
-  {
-     write_to_buffer( d, "What is your sex (M/F)? ", 0 );
-     d->connected = CON_GET_NEW_SEX;
-  } 
-  break;
-  
-    case CON_TEMP_SMURF_PASSWORD:
+/*    case CON_TEMP_SMURF_PASSWORD:
   one_argument(argument,arg);
 
   if (!strcmp(arg,"simpy"))
@@ -3039,556 +4349,7 @@ SET_BIT(ch->mhs,MHS_KAETH_CLEAN);
      write_to_buffer(d,"What is your race (help for more information)? ",0);
      d->connected = CON_GET_NEW_RACE;
   }
-  break;
-
-    case CON_GET_NEW_SEX:
-  switch ( argument[0] )
-  {
-  case 'm': case 'M': ch->sex = SEX_MALE;    
-          ch->pcdata->true_sex = SEX_MALE;
-          break;
-  case 'f': case 'F': ch->sex = SEX_FEMALE; 
-          ch->pcdata->true_sex = SEX_FEMALE;
-          break;
-  default:
-      write_to_buffer( d, "That's not a sex.\n\rWhat IS your sex? ", 0 );
-      return;
-  }
-
-  strcpy( buf, "Select a class (Help <class> for more information)\n\r [" );
-  for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
-  {
-  /*
-      if ( iClass > 0 && !class_table[iClass].reclass )
-      */
-      if (iClass > 0)
-    strcat( buf, " " );
-    /*
-	if( !class_table[iClass].reclass )
-	*/
-      strcat( buf, class_table[iClass].name );
-  }
-  strcat( buf, "]: " );
-  write_to_buffer( d, buf, 0 );
-  d->connected = CON_GET_NEW_CLASS;
-  break;
-
-    case CON_GET_NEW_CLASS:
-  one_argument(argument,arg);
-
-  if (!strcmp(arg,"help"))
-  {
-      argument = one_argument(argument,arg);
-      if (argument[0] == '\0')
-    do_help(ch,"class help");
-      else
-    do_help(ch,argument);
-  strcpy( buf, "Select a class (Help <class> for more information)\n\r [" );
-  for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
-  {
-      if (iClass > 0)
-    strcat( buf, " " );
-      strcat( buf, class_table[iClass].name );
-  }
-  strcat( buf, "]: " );
-  write_to_buffer( d, buf, 0 );
-      break;
-  }
-
-  iClass = class_lookup(argument);
-
-/*
-  if ( iClass == -1 || class_table[iClass].reclass )
-  */
-  if ( iClass == -1 )
-  {
-      write_to_buffer( d,
-    "That's not a class.\n\rWhat IS your class? ", 0 );
-      return;
-  }
-
-  ch->class = iClass;
-
-  if (!IS_SET(ch->mhs,MHS_PREFRESHED))
-  {
-     sprintf( log_buf, "%s@%s new player.", ch->name, d->host );
-     log_string( log_buf );
-     wiznet("Newbie alert!  $N sighted.",ch,NULL,WIZ_NEWBIE,0,0);
-     wiznet(log_buf,NULL,NULL,WIZ_SITES,0,get_trust(ch));
-  }
-  else
-  {
-     sprintf( log_buf, "%s@%s pfresh player.", ch->name, d->host );
-     log_string( log_buf );
-     wiznet("Pfresh alert!  $N sighted.",ch,NULL,WIZ_NEWBIE,0,0);
-     wiznet(log_buf,NULL,NULL,WIZ_SITES,0,get_trust(ch));
-  }
-
-  if (!class_table[iClass].reclass ) 
-  {
-     ch->pcdata->old_class = iClass;
-     /* primary and secondary based on oldclass setting */
-     ch->perm_stat[class_table[ch->pcdata->old_class].attr_prime] += 3;
-     ch->perm_stat[class_table[ch->pcdata->old_class].attr_second] += 2;
-
-     if (IS_SET(ch->mhs,MHS_PREFRESHED))
-     {
-        group_add(ch,"rom basics",FALSE);
-        group_add(ch,class_table[ch->class].base_group,FALSE);
-        /** Prime the pump -> these are nice to have at low levels **/
-        ch->pcdata->learned[gsn_recall] = 50;
-        ch->pcdata->learned[gsn_scan] = 50;
-        ch->pcdata->learned[gsn_swim] = 50;
-        write_to_buffer(d,"Do you wish to customize this character?\n\r",0);
-        write_to_buffer(d,"Customization takes time, but allows a wider range of skills and abilities.\n\r",0);
-        write_to_buffer(d,"Customize (Y/N)? ",0);
-        d->connected = CON_DEFAULT_CHOICE;
-     }
-     else
-     {
-        write_to_buffer( d, "\n\r", 2 );
-        write_to_buffer( d, "You may be good, neutral, or evil.\n\r",0);
-        write_to_buffer( d, "Which alignment (G/N/E)? ",0);
-        d->connected = CON_GET_ALIGNMENT;
-     }
-  }
-  else
-  {
-     strcpy( buf, "Select an old class [" );
-     for ( iOldClass = 0 ; iOldClass < MAX_CLASS ; iOldClass++ )
-     {
-        if (iOldClass > 0)
-           strcat( buf, " " );
-
-        if ( class_table[iOldClass].reclass )
-           continue;
-
-        if (class_table[ch->class].allowed[0] == iOldClass ||
-            class_table[ch->class].allowed[1] == iOldClass )
-           strcat( buf, class_table[iOldClass].name );
-     }
-     strcat( buf, "]: " );
-     write_to_buffer( d, buf, 0 );
-     d->connected = CON_GET_OLD_CLASS;
-  }
-  break;
-
-
-case CON_GET_OLD_CLASS:
-  iOldClass = class_lookup(argument);
-
-  if ( iOldClass == -1 || class_table[iOldClass].reclass 
-       || (class_table[ch->class].allowed[0] != iOldClass &&
-	   class_table[ch->class].allowed[1] != iOldClass))
-  {
-      write_to_buffer( d,
-    "That's not a valid old class.\n\rWhat IS your old class? ", 0 );
-      return;
-  }
-
-  ch->pcdata->old_class = iOldClass;
-  /* primary and secondary based on oldclass setting */
-  ch->perm_stat[class_table[ch->pcdata->old_class].attr_prime] += 3;
-  ch->perm_stat[class_table[ch->pcdata->old_class].attr_second] += 2;
-
-  if (IS_SET(ch->mhs,MHS_PREFRESHED))
-  {
-     group_add(ch,"rom basics",FALSE);
-     group_add(ch,class_table[ch->class].base_group,FALSE);
-     /** Prime the pump -> these are nice to have at low levels **/
-     ch->pcdata->learned[gsn_recall] = 50;
-     ch->pcdata->learned[gsn_scan] = 50;
-     ch->pcdata->learned[gsn_swim] = 50;
-     write_to_buffer(d,"Do you wish to customize this character?\n\r",0);
-     write_to_buffer(d,"Customization takes time, but allows a wider range of skills and abilities.\n\r",0);
-     write_to_buffer(d,"Customize (Y/N)? ",0);
-     d->connected = CON_DEFAULT_CHOICE;
-  }
-  else
-  {
-     write_to_buffer( d, "\n\r", 2 );
-     write_to_buffer( d, "You may be good, neutral, or evil.\n\r",0);
-     write_to_buffer( d, "Which alignment (G/N/E)? ",0);
-     d->connected = CON_GET_ALIGNMENT;
-  }
-  break;
-
-case CON_GET_ALIGNMENT:
-  switch( argument[0])
-  {
-      case 'g' : case 'G' : ch->alignment = 750;  break;
-      case 'n' : case 'N' : ch->alignment = 0;    break;
-      case 'e' : case 'E' : ch->alignment = -750; break;
-      default:
-    write_to_buffer(d,"That's not a valid alignment.\n\r",0);
-    write_to_buffer(d,"Which alignment (G/N/E)? ",0);
-    return;
-  }
-
-  write_to_buffer(d,"\n\r",0);
-
-  group_add(ch,"rom basics",FALSE);
-  group_add(ch,class_table[ch->class].base_group,FALSE);
-  /** Prime the pump -> these are nice to have at low levels **/
-  ch->pcdata->learned[gsn_recall] = 50;
-  ch->pcdata->learned[gsn_scan] = 50;
-  ch->pcdata->learned[gsn_swim] = 50;
-  /* Turn off some channels they can't use */
-  SET_BIT(ch->comm,COMM_NOBITCH);
-  SET_BIT(ch->comm,COMM_NOAUCTION);
-  SET_BIT(ch->comm,COMM_NOMUSIC);
-  SET_BIT(ch->comm,COMM_NOQUOTE);
-  SET_BIT(ch->comm,COMM_NOGRATS);
-  SET_BIT(ch->act,PLR_NOOUTOFRANGE);
-  write_to_buffer(d,"Do you wish to customize this character?\n\r",0);
-  write_to_buffer(d,"Customization takes time, but allows a wider range of skills and abilities.\n\r",0);
-  write_to_buffer(d,"Customize (Y/N)? ",0);
-  d->connected = CON_DEFAULT_CHOICE;
-  break;
-
-case CON_DEFAULT_CHOICE:
-  write_to_buffer(d,"\n\r",2);
-  ch->gen_data = new_gen_data();
-  ch->gen_data->bonus_points = 50;
-  switch ( argument[0] )
-  {
-  case 'y': case 'Y': 
-      ch->gen_data->points_chosen = ch->pcdata->points;
-      do_help(ch,"group header");
-      list_group_costs(ch);
-      write_to_buffer(d,"You already have the following skills:\n\r",0);
-      do_skills(ch,"");
-      do_help(ch,"menu choice");
-      d->connected = CON_GEN_GROUPS;
-      break;
-  case 'n': case 'N': 
-      group_add(ch,class_table[ch->class].default_group,TRUE);
-      write_to_buffer( d, "\n\r", 2 );
-      write_to_buffer(d,
-    "Please pick a weapon from the following choices:\n\r",0);
-      buf[0] = '\0';
-      for ( i = 0; weapon_table[i].name != NULL; i++)
-    if (ch->pcdata->learned[*weapon_table[i].gsn] > 0)
-    {
-        strcat(buf,weapon_table[i].name);
-        strcat(buf," ");
-    }
-      strcat(buf,"\n\rYour choice? ");
-      write_to_buffer(d,buf,0);
-      d->connected = CON_PICK_WEAPON;
-      break;
-  default:
-      write_to_buffer( d, "Please answer (Y/N)? ", 0 );
-      return;
-  }
-  break;
-
-    case CON_PICK_DEITY:
-      one_argument(argument,arg);
-      write_to_buffer( d, "\n\r", 2 );
-      if (!strcmp(arg,"help"))
-      {
-         argument = one_argument(argument,arg);
-         if (argument[0] == '\0')
-            do_help(ch,"deity");
-         else
-            do_help(ch,argument);
-         write_to_buffer(d,
-            "Please pick a Deity (help deity for more information)\n\r",0);
-         write_to_buffer(d,"Your choice? ",0);
-         break;
-      }
-
-      deity = deity_lookup(argument);
-
-      if ( deity == -1)                  
-      {                                                         
-         write_to_buffer(d,"Not an existing Deity.\n\r",0);
-         write_to_buffer(d,
-            "Please pick a Deity (help deity for more information)\n\r",0);
-         write_to_buffer(d,"Your choice? ",0);
-         break;
-      }
-
-      /* smurfs can pick clanned deitied at creation */
-      if (ch->race != race_lookup("smurf"))
-      {
-         if (deity_table[deity].clan && !is_clan(ch))
-         {
-            write_to_buffer(d,"Don't get ahead of yourself, you arent Clanned yet.\n\r",0);
-            write_to_buffer(d,
-               "Please pick a Non-Clan-Deity (help deity for more information):\n\r",0);
-            write_to_buffer(d,"Your choice?\n\r",0);
-            break;
-         }
-      }
-      
-      ch->pcdata->deity = deity;
-      ch->pcdata->new_deity = deity; 
-      ch->pcdata->sac = 0;
-
-      write_to_buffer( d, "\n\r", 2 );
-      write_to_buffer(d,
-         "Please pick a weapon from the following choices:\n\r",0);
-      buf[0] = '\0';
-      for ( i = 0; weapon_table[i].name != NULL; i++)
-      {
-         if (ch->pcdata->learned[*weapon_table[i].gsn] > 0)
-         {
-            strcat(buf,weapon_table[i].name);
-            strcat(buf," ");
-         }
-      }
-      strcat(buf,"\n\rYour choice? ");
-      write_to_buffer(d,buf,0);
-      d->connected = CON_PICK_WEAPON;
-      break;
-
-    case CON_PICK_WEAPON:
-  write_to_buffer(d,"\n\r",2);
-  weapon = weapon_lookup(argument);
-  if (weapon == -1 || ch->pcdata->learned[*weapon_table[weapon].gsn] <= 0)
-  {
-      write_to_buffer(d,
-    "That's not a valid selection. Choices are:\n\r",0);
-      buf[0] = '\0';
-      for ( i = 0; weapon_table[i].name != NULL; i++)
-    if (ch->pcdata->learned[*weapon_table[i].gsn] > 0)
-    {
-        strcat(buf,weapon_table[i].name);
-        strcat(buf," ");
-    }
-      strcat(buf,"\n\rYour choice? ");
-      write_to_buffer(d,buf,0);
-      return;
-  }
-      /* calculate number of debit levels to give refresh chars */
-      if (IS_SET(ch->mhs,MHS_PREFRESHED))
-      {
-	newLevel = ch->exp / exp_per_level(ch,ch->pcdata->points);
-	/* remove the free level "1" */
-	newLevel -= 1;
-	if( ( ch->level < 11 ) && (newLevel > ch->level ) )
-	{
-	  newLevel = ch->level ;
-	}
-	if(   IS_SET(ch->act,PLR_VAMP) ||
-	      IS_SET(ch->act,PLR_WERE) ||
-	      IS_SET(ch->act,PLR_MUMMY) 
-          )
-	{
-	  if ( newLevel > 76 )
-	  {
-	    newLevel = 76;
-	  }
-	  ch->pcdata->debit_level = newLevel;
-	}
-	else
-	{
-	 /* not a remort, max it at 50 */
-	 if(newLevel > 50 )
-	 {
-	   newLevel =50;
-         }
-	 ch->pcdata->debit_level = newLevel;
-	}
-
-	ch->level=0;
-	ch->exp = exp_per_level(ch,ch->pcdata->points) ;
-	 /* Remove Remort Status */
-	 if (IS_SET(ch->act,PLR_VAMP))
-	    REMOVE_BIT(ch->act,PLR_VAMP);
-	 if (IS_SET(ch->act,PLR_WERE))
-	    REMOVE_BIT(ch->act,PLR_WERE);
-	 if (IS_SET(ch->act,PLR_MUMMY))
-	    REMOVE_BIT(ch->act,PLR_MUMMY);
-      }
-	  
-  ch->pcdata->learned[*weapon_table[weapon].gsn] = 80;
-  write_to_buffer(d,"\n\r",2);
-
-  /* add racial skills back on incase they got dropped in customizing*/
-  for (i = 0; i < MAX_SKILL; i++)
-  {
-      if (pc_race_table[ch->race].skills[i] == NULL)
-         break;
-      group_add(ch,pc_race_table[ch->race].skills[i],FALSE);
-  }
-
-  show_stats( d );
-  d->connected = CON_PICK_STATS;
-  break;
-
-    case CON_PICK_STATS:
-    if ( argument[0] == '\0' )
-    {
-	write_to_buffer(d,"Invalid selection, type 'help' for help.\n\r",0);
-	show_stats( d );
-	return;
-    }
-
-    if ( !str_cmp(argument,"help") )
-    {
-	do_help(ch,"pickstats");
-	write_to_buffer(d,"Your choice -> ",0);
-	return;
-    }
-
-    /* str, dex, int, wis, con, etc */
-    if ( !str_cmp(argument,"str") ) {
-       wStat = STAT_STR; stat_str = "STR"; }
-    else
-    if ( !str_cmp(argument,"dex") ) {
-       wStat = STAT_DEX; stat_str = "DEX"; }
-    else
-    if ( !str_cmp(argument,"con") ) {
-	wStat = STAT_CON; stat_str = "CON"; }
-    else
-    if ( !str_cmp(argument,"int") ) {
-	wStat = STAT_INT; stat_str ="INT"; }
-    else
-    if ( !str_cmp(argument,"wis") ) {
-	wStat = STAT_WIS; stat_str = "WIS"; }
-    else
-    if ( !str_cmp(argument,"agt") ) {
-	wStat = STAT_AGT; stat_str = "AGT"; }
-    else
-    if ( !str_cmp(argument,"end") ) {
-	wStat = STAT_END; stat_str = "END"; }
-    else
-    if ( !str_cmp(argument,"soc") ) {
-	wStat = STAT_SOC; stat_str = "SOC"; }
-    else
-    {
-	send_to_char("Invalid selection.  Type help for help.   Pick again -> ",ch); return;
-    }
-
-    if ( ch->perm_stat[wStat] +1 > get_max_train(ch, wStat) )
-    {
-	send_to_char("That would exceed your racial max.\n\r",ch);
-	send_to_char("Pick again -> ",ch);
-	return;
-    }
-    /* go calculate the stat cost to increase the selected stat */ 
-    statCost = calc_stat_cost( ch, wStat);
-
-    /* check to see if you have enough bonus points left */
-    if (statCost > ch->gen_data->bonus_points )
-    {
-	sprintf(buf,"That requires %d points.  You only have %d.\n\r",
-		statCost,
-		ch->gen_data->bonus_points );
-	send_to_char(buf,ch);
-	send_to_char("Pick again -> ",ch);
-	return;
-    }
-
-    /* decrease bonus points by the stat cost and increase stat by one */ 
-    ch->gen_data->bonus_points -= statCost;
-    ch->perm_stat[wStat]++;
-    sprintf(buf,"Improved %s to %d.\n\r",stat_str,ch->perm_stat[wStat]);
-    send_to_char(buf,ch);
-
-    if (ch->gen_data->bonus_points <= 0 || !can_use_points(ch,ch->gen_data->bonus_points) )
-    {
-  ch->gen_data->bonus_points = UMAX(0,ch->gen_data->bonus_points);
-  do_help(ch,"motd");
-  d->connected = CON_READ_MOTD;
-  ch->train += ch->gen_data->bonus_points;
-  free_gen_data(ch->gen_data);
-  ch->gen_data = NULL;
-    }
-    else
-       show_stats( d );
-
-    
-    break;
-
-    case CON_GEN_GROUPS:
-  send_to_char("\n\r",ch);
-  if (!str_cmp(argument,"done"))
-  {
-      /* Check for no weapons on finishing, else they get stuck */
-      weapon_found = FALSE;
-      for ( i = 0; weapon_table[i].name != NULL; i++)
-      {
-         if (ch->pcdata->learned[*weapon_table[i].gsn] > 0)
-            weapon_found = TRUE;
-      }
-      if(!weapon_found)
-      {
-         strcat(buf,"\n\rYou have no weapons to choose from. Please add one. ");
-         write_to_buffer(d,buf,0);
-         break;
-      }
-
-      sprintf(buf,"Creation points: %d\n\r",ch->pcdata->points);
-      send_to_char(buf,ch);
-      sprintf(buf,"Experience per level: %d\n\r",
-        exp_per_level(ch,ch->gen_data->points_chosen));
-	/*
-      if (ch->pcdata->points < 40)
-    ch->train = (40 - ch->pcdata->points + 1) / 2;
-    */
-      send_to_char(buf,ch);
-     
-      /* Pfresh Chars dont pick a new deity */
-      if (IS_SET(ch->mhs,MHS_PREFRESHED))
-      {
-	 newLevel = ch->exp / exp_per_level(ch,ch->pcdata->points);
-	 /* remove the free level "1" */
-	 newLevel -= 1;
-	 if( ( ch->level < 11 ) && (newLevel > ch->level ) )
-	   newLevel = ch->level ;
-	 if(   IS_SET(ch->act,PLR_VAMP) ||
-	       IS_SET(ch->act,PLR_WERE) ||
-	      IS_SET(ch->act,PLR_MUMMY) 
-           )
-	 {
-	    if ( newLevel > 76 )
-	       newLevel = 76;
-	 }
-	 else
-	 {
-            if(newLevel > 50 )
-	       newLevel =50;
-	 }
-         sprintf(buf,"Debit levels: %d\n\r",newLevel);
-         send_to_char(buf,ch);
-
-         write_to_buffer( d, "\n\r", 2 );
-         write_to_buffer(d,
-       "Please pick a weapon from the following choices:\n\r",0);
-         buf[0] = '\0';
-         for ( i = 0; weapon_table[i].name != NULL; i++)
-            if (ch->pcdata->learned[*weapon_table[i].gsn] > 0)
-            {
-               strcat(buf,weapon_table[i].name);
-               strcat(buf," ");
-            }
-         strcat(buf,"\n\rYour choice? ");
-         write_to_buffer(d,buf,0);
-         d->connected = CON_PICK_WEAPON;
-      }
-      else
-      {
-         write_to_buffer( d, "\n\r", 2 );
-         write_to_buffer(d,
-       "Please pick a Deity (help deity for more information)\n\r",0);
-         write_to_buffer(d,"Your choice? ",0);
-         d->connected = CON_PICK_DEITY;
-      }
-
-      break;
-  }
-
-  if (!parse_gen_groups(ch,argument))
-  send_to_char(
-  "Choices are: list,learned,premise,add,drop,info,help, and done.\n\r"
-  ,ch);
-
-  do_help(ch,"menu choice");
-  break;
+  break;*/
 
     case CON_READ_IMOTD:
   write_to_buffer(d,"\n\r",2);
@@ -3612,6 +4373,21 @@ case CON_DEFAULT_CHOICE:
   char_list       = ch;
   d->connected    = CON_PLAYING;
   reset_char(ch);
+  ch->pcdata->clan_info = find_char_clan(ch->name);
+  if (is_clan(ch) && !IS_IMMORTAL(ch) )
+  {
+     ch->pcdata->start_time = 3;
+     if(ch->pcdata->clan_info && ch->pcdata->clan_info->clan->type == CLAN_TYPE_FAITH
+       && ch->pcdata->deity != ch->pcdata->clan_info->clan->enemy)
+     {
+       ch->pcdata->deity = ch->pcdata->clan_info->clan->enemy;
+       ch->pcdata->deity_timer = 0;
+       sprintf(buf,"To follow your clan's declared faith, you are now a follower of %s.\n\r",deity_table[ch->pcdata->deity].pname);
+       send_to_char(buf,ch);
+     }
+    set_clan_skills(ch);
+  }
+
   if (ch->pcdata->last_level == 0 || ch->pcdata->last_level == NULL)
      ch->pcdata->last_level = 1; /* Fixes symbol bugs */
   if ( ch->level == 0 )
@@ -3678,8 +4454,19 @@ case CON_DEFAULT_CHOICE:
   {
       char_to_room( ch, get_room_index( ROOM_VNUM_TEMPLE ) );
   }
+  if(ch->in_room->vnum < 0 && ch->pcdata->clan_info && !ch->pcdata->clan_info->clan->default_clan &&
+    (ch->pcdata->clan_info->clan->vnum_min < abs(ch->in_room->vnum) ||
+    ch->pcdata->clan_info->clan->vnum_max > abs(ch->in_room->vnum)))
+    {/* Send them elsewhere, this is not their hall */
+      char_from_room(ch);
+      if(!ch->pcdata->clan_info->clan->hall || !ch->pcdata->clan_info->clan->hall->to_place)
+        char_to_room(ch,get_room_index(ROOM_VNUM_MATOOK));
+      else
+        char_to_room(ch, (ROOM_INDEX_DATA*)ch->pcdata->clan_info->clan->hall->to_place);
+    }
 
   act( "$n has entered the game.", ch, NULL, NULL, TO_ROOM ,FALSE);
+
   do_look( ch, "auto" );
 
   wiznet("$N has left real life behind.",ch,NULL,
@@ -3687,8 +4474,11 @@ case CON_DEFAULT_CHOICE:
     if( (!IS_IMMORTAL(ch) || (ch->incog_level == 0 && ch->invis_level == 0))
 	&& ch->desc != NULL )
       {
-  pnet("$N has entered Boinga.",ch,NULL,PNET_LOGINS,NULL,get_trust(ch));
+  //pnet("$N has entered Boinga.",ch,NULL,PNET_LOGINS,NULL,get_trust(ch));
+  pnet("$N has entered Boinga.",ch,NULL,PNET_LOGINS,NULL,IS_IMMORTAL(ch) ? get_trust(ch) : 1);
       }
+  do_version_up(ch);
+
 
 /* All Highlanders(with certain kills) feel a Highlander enter */
 if (IS_SET(ch->mhs,MHS_HIGHLANDER))
@@ -3709,6 +4499,8 @@ if (IS_SET(ch->mhs,MHS_HIGHLANDER))
    }
 }
 
+  count_clanners();
+
   ch->logon	= current_time;
 
   if (ch->pet != NULL)
@@ -3720,12 +4512,17 @@ if (IS_SET(ch->mhs,MHS_HIGHLANDER))
   do_unread(ch,"");
   do_count(ch,"");
 #endif
+  if(!IS_NPC(ch) && ch->pcdata->start_time > 0)
+  {
+    sprintf(buf, "\n\r{WYou may not attack other players for %d ticks.{x\n\r", ch->pcdata->start_time);
+    send_to_char(buf, ch);
+  }
+
   break;
     }
 
     return;
 }
-
 
 bool check_parse_surname( char *name )
 {
@@ -4026,6 +4823,8 @@ bool check_reconnect( DESCRIPTOR_DATA *d, char *name, bool fConn )
     wiznet("$N groks the fullness of $S link.",
         ch,NULL,WIZ_LINKS,0,get_trust(ch));
    //pnet("$N groks the fullness of $S link.",ch,NULL,PNET_LINKS,0,get_trust(ch));
+   if(!IS_IMMORTAL(ch))
+     pnet("$N groks the fullness of $S link.",ch,NULL,PNET_LINKS,0,1);
     d->connected = CON_PLAYING;
 
       }
@@ -4055,7 +4854,7 @@ bool check_playing( DESCRIPTOR_DATA *d, char *name )
      ? dold->original->name : dold->character->name ) )
   {
       write_to_buffer( d, "That character is already playing.\n\r",0);
-	strcpy( d->incomm, "" );
+	strcpy( d->incomm, "\n" );
       /*write_to_buffer( d, "Do you wish to connect anyway (Y/N)?",0);*/
 	     for ( dold = descriptor_list; dold != NULL; dold = d_next )
       {
@@ -4110,11 +4909,14 @@ bool can_use_points( CHAR_DATA *ch, int points )
 
     if ( points <= 0 ) return FALSE;
     for ( i = 0 ; i < MAX_STATS ; i++ )
+    {
+	if(i == STAT_END || i == STAT_AGT)
+	  continue;
        /* if ( improve_table[ch->perm_stat[i]].cost <= points */
         if ( calc_stat_cost(ch,i) <= points 
 	  && get_max_train(ch,i) > ch->perm_stat[i] )
 		return TRUE;
-
+    }
     return FALSE;
 }
 
@@ -4158,7 +4960,7 @@ void show_stats( DESCRIPTOR_DATA *d )
     int i,statCost;
     char buf[MAX_STRING_LENGTH];
     static char *attrib_name[] = {
-	"Str", "Int", "Wis", "Dex", "Con", "Agt", "End", "Soc" };
+	"Str", "Int", "Wis", "Dex", "Con", "Agt", "End", "Cha" };
 
     if ( ( ch = d->character ) == NULL )
     {
@@ -4169,6 +4971,8 @@ void show_stats( DESCRIPTOR_DATA *d )
     send_to_char("\n\r",ch);
     for ( i = 0 ; i < MAX_STATS ; i++ )
     {
+    if(i == STAT_AGT || i == STAT_END)
+	continue;
     statCost = calc_stat_cost(ch,i);
     sprintf(buf,"%s: Current: %2d, spend %d point%s to raise to %2d.\n\r",
         attrib_name[i],
@@ -4485,14 +5289,13 @@ void act_new( const char *format, CHAR_DATA *ch, const void *arg1,
  
   *point++ = '\n';
   *point++ = '\r';
+  *point = '\0';
   buf[0]   = UPPER(buf[0]);
-  write_to_buffer( to->desc, buf, point - buf );
+  write_to_buffer( to->desc, buf, point - buf);
     }
  
     return;
 }
-
-
 
 /*
  * Macintosh support functions.

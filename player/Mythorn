@@ -2,7 +2,7 @@
 Name Mythorn~
 Id   808720055
 Email (null)~
-LogO 1111103420
+LogO 1309540472
 Vers 31
 LnD  none
 ~
@@ -29,6 +29,7 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
 Deity 0 mojo~
 Sac  52
 Sex  1
@@ -37,31 +38,28 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost CPE005018049455-CM001225dfe472.cpe.net.cable.rogers.com~
 Cla  3
 ClaO 3
-Levl 53
+Levl 52
 DLevl 0
-Plyd 9346010
+Plyd 9346028
 Not  1111102158 1111102228 1110969733 1110408641 1111102150 1111021118 1111102202 1111102225 1111102210 1111048001
 Scro 28
 Rank 5
 Room 22500
-HMV  1170 1170 304 409 356 356
+HMV  10 1011 100 370 100 672
 Gold 550
 Silv 0
-Exp  74200
-Act  DFHKNQ
+Exp  72800
+Act  DFHKQ
 AfBy J
 Comm GORS
 Disp BFGHIJ
-IcgB V
+IcgB 0
 Icg 0
-Wizn ABCEFLRSX
-Invi 52
 Pos  5
-Prac 712
-Trai 186
+Prac 916
+Trai 238
 SkiP 31
 Alig  1000
 ACs 79 79 79 100
@@ -73,44 +71,44 @@ Bout Mythorn speaks into a small device, and is suddenly engulfed in a shimmerin
 Titl  SLED noogie maker.~
 Pnts 48
 TSex 1
-LLev 2587
-HMVP 1170 409 356
+LLev 2596
+HMVP 1011 370 672
 Cnd  0 0 -1 -1
 Edit ABCEH
 ERange 1 50000
-Macro pos trans %1 31600~
-Macro home2 goto 1202~
-Macro leg trans %1 4900~
-Macro cam trans %1 4600~
-Macro nuke nochan %1;noemote %1;notell %1;noshout %1;freeze %1;trans %1 1212~
-Macro bwhome goto 30175~
-Macro sd edit;4;7;9;6;5;6;2;4;11~
-Macro nomob edit;room;mod;flags;2;done;exit~
-Macro thome edit;room;mod;flags;2;5;done;exit~
-Macro cir trans %1 4400~
-Macro matook trans %1 16500~
-Macro delete quit~
-Macro leave gecho The giggling fades away as Mythorn takes his leave; wizi 52~
-Macro appear wizi; gecho A maniacal giggling in your ear indicates that Mythorn has arrived.~
-Macro home goto 22500~
-Macro lvl load obj 30041; at %1 give gas %1; at %1 shake %1; grats Congrats to %1 on Level %2!!!; grats~
-Macro roomname edit room;mod;name;$1;exit~
-Macro bal trans %1 4500~
-Macro rid trans %1 6900~
-Macro asave edit;2;6;11~
-Macro own edit room;mod;owner;$1;exit~
-Macro desc edit room;mod;description~
-Macro extroom edit;room;mod;extended~
-Macro clanroom edit;room;mod;flag;indoor;safe;done;clan;%1;exit~
-Macro mstat stat mob %1~
-Macro ostat stat obj %1~
-Macro rstat stat room %1~
-Macro improom goto 17041~
-Macro note inote~
-Macro bm goto 10091~
-Macro dem trans %1 31400~
-Macro hon trans %1 31500~
 Macro zea trans %1 31801~
+Macro hon trans %1 31500~
+Macro dem trans %1 31400~
+Macro bm goto 10091~
+Macro note inote~
+Macro improom goto 17041~
+Macro rstat stat room %1~
+Macro ostat stat obj %1~
+Macro mstat stat mob %1~
+Macro clanroom edit;room;mod;flag;indoor;safe;done;clan;%1;exit~
+Macro extroom edit;room;mod;extended~
+Macro desc edit room;mod;description~
+Macro own edit room;mod;owner;$1;exit~
+Macro asave edit;2;6;11~
+Macro rid trans %1 6900~
+Macro bal trans %1 4500~
+Macro roomname edit room;mod;name;$1;exit~
+Macro lvl load obj 30041; at %1 give gas %1; at %1 shake %1; grats Congrats to %1 on Level %2!!!; grats~
+Macro home goto 22500~
+Macro appear wizi; gecho A maniacal giggling in your ear indicates that Mythorn has arrived.~
+Macro leave gecho The giggling fades away as Mythorn takes his leave; wizi 52~
+Macro delete quit~
+Macro matook trans %1 16500~
+Macro cir trans %1 4400~
+Macro thome edit;room;mod;flags;2;5;done;exit~
+Macro nomob edit;room;mod;flags;2;done;exit~
+Macro sd edit;4;7;9;6;5;6;2;4;11~
+Macro bwhome goto 30175~
+Macro nuke nochan %1;noemote %1;notell %1;noshout %1;freeze %1;trans %1 1212~
+Macro cam trans %1 4600~
+Macro leg trans %1 4900~
+Macro home2 goto 1202~
+Macro pos trans %1 31600~
 Sk 100 'reserved'
 Sk 100 'opiate'
 Sk 100 'acid blast'

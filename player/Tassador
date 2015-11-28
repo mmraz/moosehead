@@ -2,8 +2,8 @@
 Name Tassador~
 Id   1001058013
 Email (null)~
-LogO 1132565282
-Vers 31
+LogO 1362820408
+Vers 33
 LnD  A Gladiator~
 Desc What the fuck are you looking at?
 
@@ -59,24 +59,31 @@ Prom <%h %m %v> [%e] <%w> <%g %s> [%a] ~
 Race dragon~
 Clan demise~
 Outc 0
-RufT 462
+RufT 369
 MatookT 0
-SkPTimer 23
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 36 209 0 29
 Steal 0 0 0
+MSteal 0
 LstK Coranon~
 LstKBy Korlak~
 LstAtkedBy Conal~
-LstAtkedByTimer 13087
-LstCombatDate 1132564258
+LstAtkedByTimer 12984
+LstCombatDate 1309083166
 LstKillDate 1132317394
 LstDeathDate 1097479527
-LoginsWOKill 2
-LoginsWODeath 59
-LoginsWOCombat 0
+LoginsWOKill 5
+LoginsWODeath 62
+LoginsWOCombat 1
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 224420 matook~
 DeityT -19599 huitzilopochtli~
 Sac  300
@@ -86,24 +93,24 @@ Node 0
 Cap 0
 Created 1001058109
 Glad 0 9 0 4 9 1
-LastHost pc141.sh9.nu.ac.za~
+LastHost 109.133.222.231~
 Cla  7
 Kit lycanthrope hunter~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 2233037
-Not  1125784539 1125959914 1122985962 1125945691 1122985962 1122985962 1122985962 1126023369 1122985962 1125952714
+Plyd 2237188
+Not  1125784539 1125959914 1122985962 1125945691 1122985962 1122985962 1122985962 1359874532 1122985962 1125952714
 Scro 22
 Rank 1
 Room 31422
-HMV  1559 1559 979 1044 480 480
-Gold 872
-Silv 10373
+HMV  1559 1559 667 1044 480 480
+Gold 874
+Silv 10383
 Exp  359322
 Act  DGHIKMQSa
 MHSF RSX
-AfBy DFHJNTVZe
+AfBy DFHJNTVe
 Comm GL
 Disp FIJN
 IcgB 0
@@ -111,16 +118,17 @@ Icg 0
 Wizn W
 Pnet ABCDEFGHI
 Pos  8
-Prac 6
-SkiP 29
-Save  -42
-Alig  -237
-Hit   40
-Dam   37
+Prac 7
+Trai 11
+SkiP 33
+Save  -25
+Alig  -379
+Hit   41
+Dam   38
 SecHit   30
 SecDam   27
 ACs -19 -19 -14 -12
-Attr 21 25 25 21 25 20 16 13
+Attr 21 25 25 21 25 11 14 13
 AMod 4 2 0 6 2 0 0 0
 Pass Tax8WdfImYUJc~
 Titl .~
@@ -128,7 +136,7 @@ Pnts 92
 TSex 1
 LLev 1
 HMVP 1169 889 480
-Cnd  0 19 31 27
+Cnd  0 10 45 42
 Alias qq c sleep~
 Alias ee c entrance~
 Alias ff c famine~
@@ -165,7 +173,6 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 75 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -326,102 +333,88 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'orb of surprise'   0  54  22   0   0          0
-Affc 'withstand death'   0  51   7   0   0 1073741824
-Affc 'sanctuary'   0  51   1   0   0        128
-Affc 'protection evil'   0  54  16  -1  24       8192
-Affc 'orb of turning'   0  54  19   0   0          0
-Affc 'orb of touch'   0  59  19   0   0          0
-Affc 'body weaponry'   0  54  16   0   0   33554432
-Affc 'tower of iron will'   3  54  19   0   0      32768
-Affc 'detect invis'   0  53  48   0   0          8
-Affc 'detect hidden'   0  52  47   0   0         32
-Affc 'frenzy'   0  53   9  40  17          0
-Affc 'frenzy'   0  53   9   9  19          0
-Affc 'frenzy'   0  51   9   9  18          0
-Affc 'bless'   0  52  52  -6  24          0
-Affc 'bless'   0  54  52   6  18          0
+Affc 'protection evil'   0  53  21  -1  24       8192
+Affc 'withstand death'   0  54  11   0   0 1073741824
+Affc 'orb of turning'   0  52  23   0   0          0
+Affc 'orb of touch'   0  61  20   0   0          0
+Affc 'orb of surprise'   0  54  20   0   0          0
+Affc 'frenzy'   0  54   9  40  17          0
+Affc 'frenzy'   0  55   9   9  19          0
+Affc 'frenzy'   0  52   9   9  18          0
 Affc 'haste'   0  55  18   4   2    2097152
-Affc 'stone skin'   0  55  46 -40  17          0
-Affc 'shield'   0  55  54 -20  17          0
-Affc 'armor'   0  53  28 -20  17          0
-Affc 'giant strength'   0  51  44   4   1          0
+Affc 'sanctuary'   0  53   0   0   0        128
+Affc 'armor'   0  54  28 -20  17          0
+Affc 'tower of iron will'   3  54  18   0   0      32768
+Affc 'detect invis'   0  46   3   0   0          8
+Affc 'shield'   0  48  33 -20  17          0
+Affc 'stone skin'   0  41   4 -40  17          0
+Affc 'bless'   0  48  31   6  18          0
+Affc 'bless'   0  50  31  -6  24          0
+Affc 'giant strength'   0  45   3   4   1          0
 End
 
 #O
 Vnum 22563
 Nest 0
 PrevOwner Tassador~
-ExtF 256
 Cond 0
 Wear 18
 Cost 0
-Affc 'bless'   1  55  59  -1  20        256
 End
 
 #O
 Vnum 23514
 Nest 0
 PrevOwner Tassador~
-ExtF 17301824
 Cond 0
 Wear 4
 Cost 3690
-Affc 'bless'   1  55  59  -1  20        256
 End
 
 #O
 Vnum 23514
 Nest 0
 PrevOwner Tassador~
-ExtF 17301824
 Cond 0
 Wear 3
 Cost 3690
-Affc 'bless'   1  54  59  -1  20        256
 End
 
 #O
 Vnum 23515
 Nest 0
 PrevOwner Tassador~
-ExtF 17301824
 Cond 0
 Wear 2
 Cost 7609
-Affc 'bless'   1  55  59  -1  20        256
 End
 
 #O
 Vnum 23515
 Nest 0
 PrevOwner Tassador~
-ExtF 17301824
 Cond 0
 Wear 1
 Cost 7609
-Affc 'bless'   1  54  59  -1  20        256
 End
 
 #O
 Vnum 22504
 Nest 0
 PrevOwner Tassador~
-ExtF 16777473
 Cond 0
 Wear 0
 Cost 0
-Affc 'bless'   1  54  59  -1  20        256
 End
 
 #O
 Vnum 18105
 Nest 0
 PrevOwner Tassador~
+ExtF 3
 Cond 0
 Wear 11
 Cost 4500
-Affc 'bless'   1  55  60  -1  20        256
 End
 
 #O
@@ -433,18 +426,18 @@ ExtF 451
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  52  -1  13  18          0
 Affc 'enchant weapon'   1  52  -1  13  19          0
+Affc 'enchant weapon'   0  52  -1  13  18          0
 End
 
 #O
 Vnum 15227
 Nest 0
 PrevOwner Tassador~
+ExtF 16777281
 Cond 0
 Wear 12
 Cost 20000
-Affc 'bless'   1  53  59  -1  20        256
 End
 
 #O
@@ -454,17 +447,15 @@ PrevOwner Tassador~
 Name crap~
 ShD  {CD{Gi{Cd{Gi{C'{Gs {Cb{Ba{Cg {Co{Mf {Cw{Ra{Cn{Rd{Cs {Ca{Yn{Cd {Cc{Wr{Ca{Wp{x~
 Desc {CD{Gi{Cd{Gi{C'{Gs {Cb{Ba{Cg {Co{Mf {Cw{Ra{Cn{Rd{Cs {Ca{Yn{Cd {Cc{Wr{Ca{Wp{x is here.~
-ExtF 16777472
 Cond 0
 Wear 13
 Cost 4000
-Affc 'bless'   1  55  59  -1  20        256
 End
 
 #O
 Vnum 8517
 Nest 1
-PrevOwner Didi~
+PrevOwner Tassador~
 Cond 0
 Wear -1
 Cost 0
@@ -473,7 +464,7 @@ End
 #O
 Vnum 8517
 Nest 1
-PrevOwner Didi~
+PrevOwner Tassador~
 Cond 0
 Wear -1
 Cost 0
@@ -489,8 +480,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 665
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -504,9 +495,9 @@ Wear -1
 Lev  50
 Cost 0
 Val  3 2 20 20 40
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  53  -1  10  19          0
 Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
@@ -572,35 +563,8 @@ PrevOwner Tassador~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 9 161 0
+Val  52 10 9 166 0
 Spell 3 'remove curse'
-End
-
-#O
-Vnum 22552
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
 End
 
 #O
@@ -640,96 +604,6 @@ Cost 1000
 End
 
 #O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
 Vnum 18106
 Enchanted
 Nest 1
@@ -739,8 +613,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 281
-Affc 'enchant weapon'   0  50  -1  13  18          0
 Affc 'enchant weapon'   1  50  -1  13  19          0
+Affc 'enchant weapon'   0  50  -1  13  18          0
 End
 
 #O
@@ -753,10 +627,10 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'enchant weapon'   0  51  -1   8  18          0
-Affc 'enchant weapon'   1  51  -1  12  19          0
-Affc 'reserved'   1  49  -1  20  13          0
 Affc 'reserved'   1  49  -1   0   0          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'enchant weapon'   1  51  -1  12  19          0
+Affc 'enchant weapon'   0  51  -1   8  18          0
 End
 
 #O
@@ -769,52 +643,76 @@ Cond 0
 Wear -1
 Lev  44
 Cost 0
-Affc 'enchant weapon'   1  44  -1  12  19          0
 Affc 'enchant weapon'   0  44  -1  12  18          0
+Affc 'enchant weapon'   1  44  -1  12  19          0
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Tassador~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 22552
+Nest 1
+PrevOwner Tassador~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9107
+Enchanted
+Nest 1
+PrevOwner Tassador~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
 Vnum 2427
 Nest 0
 PrevOwner Tassador~
-ExtF 262402
 Cond 0
 Wear 9
 Cost 2300
-Affc 'bless'   1  54  60  -1  20        256
 End
 
 #O
 Vnum 10447
 Nest 0
 PrevOwner Tassador~
-ExtF 256
 Cond 0
 Wear 5
 Cost 13700
-Affc 'bless'   1  55  59  -1  20        256
 End
 
 #O
 Vnum 5914
 Nest 0
 PrevOwner Tassador~
-ExtF 320
 Cond 0
 Wear 6
 Cost 4000
-Affc 'bless'   1  55  59  -1  20        256
 End
 
 #O
 Vnum 20733
 Nest 0
 PrevOwner Tassador~
-ExtF 262400
 Cond 0
 Wear 15
 Cost 3000
-Affc 'bless'   1  54  60  -1  20        256
 End
 
 #O
@@ -822,12 +720,11 @@ Vnum 12079
 Enchanted
 Nest 0
 PrevOwner Tassador~
-ExtF 321
+ExtF 65
 Cond 0
 Wear 10
 Lev  50
 Cost 0
-Affc 'bless'   1  54  59  -1  20        256
 Affc 'enchant armor'   1  52  -1  -7  17          0
 End
 
@@ -835,22 +732,18 @@ End
 Vnum 5913
 Nest 0
 PrevOwner Tassador~
-ExtF 256
 Cond 0
 Wear 7
 Cost 2000
-Affc 'bless'   1  55  59  -1  20        256
 End
 
 #O
 Vnum 12063
 Nest 0
 PrevOwner Tassador~
-ExtF 555483456
 Cond 0
 Wear 17
 Cost 50000
-Affc 'bless'   1  55  59  -1  20        256
 End
 
 #O
@@ -860,74 +753,49 @@ Nest 0
 PrevOwner Tassador~
 ExtF 323
 Cond 0
-Wear -1
+Wear 16
 Cost 0
 Val  6 2 20 7 293
-Affc 'enchant weapon'   1  54  -1  11  19          0
 Affc 'enchant weapon'   0  54  -1  11  18          0
+Affc 'enchant weapon'   1  54  -1  11  19          0
 End
 
 #O
 Vnum 20733
 Nest 0
 PrevOwner Tassador~
-ExtF 262400
 Cond 0
 Wear 14
 Cost 3000
-Affc 'bless'   1  55  60  -1  20        256
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Tassador~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Tassador~
+Cond 0
+Wear -1
+Cost 400
 End
 
 #O
 Vnum 20012
 Nest 0
-PrevOwner Tassador~
+PrevOwner Kerbouchard~
 ExtF 320
 Cond 0
 Wear 8
 Cost 175000
-Affc 'bless'   1  47  25  -1  20        256
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 9107
-Enchanted
-Nest 0
-PrevOwner Tassador~
-ExtF 524355
-Cond 0
-Wear 16
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Tassador~
-Cond 0
-Wear -1
-Cost 5000
+Affc 'bless'   1  43   7  -1  20        256
 End
 
 #END

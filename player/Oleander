@@ -3,15 +3,15 @@ Name Oleander~
 SurN Lyr~
 Id   1038887219
 Email (null)~
-LogO 1119317622
+LogO 1308860413
 Vers 31
-Prom %h %m %v%c> ~
+Prom <%h/%H | %m/%M> ~
 Race volare~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 24
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -28,31 +28,31 @@ LoginsWOCombat 0
 Bnty 0
 Deity 265852 matook~
 DeityT -6351 matook~
-Sac  400
+Sac  500
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1038887285
 Glad 0 0 0 0 0 0
-LastHost madcab3-4.crestviewcable.com~
+LastHost 67.59.80.211~
 Cla  12
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 554944
+Plyd 558890
 Not  1074988344 1074322251 0 1074354563 1072034563 1074808925 0 1072503324 0 1074052683
 Scro 22
 Rank 0
-Room 3001
+Room 3054
 HMV  639 639 902 902 351 351
-Gold 343
-Silv 34
+Gold 371
+Silv 141
 Exp  408215
 Act  CDEFGHIKMR
 MHSF R
-AfBy CT
+AfBy DT
 Comm DGISc
 Disp FGIJN
 IcgB 0
@@ -60,23 +60,24 @@ Icg 0
 Pnet ACEFGHI
 Pos  4
 Prac 14
-SkiP 21
+Trai 16
+SkiP 23
 Save  -4
-Alig  514
+Alig  517
 Hit   25
 Dam   50
 SecHit   17
 SecDam   41
-ACs -43 -43 -43 -14
-Attr 17 19 22 18 18 18 19 22
+ACs 17 17 17 46
+Attr 17 19 22 18 18 10 11 22
 AMod 3 0 2 -1 0 0 0 0
 Pass OlIRxRzYROsLY~
-Titl  The Combat Medic...  Sometimes!~
+Titl  will work for {Ybeer{x!~
 Pnts 100
 TSex 1
 LLev 64
 HMVP 604 842 351
-Cnd  0 40 44 44
+Cnd  0 12 35 35
 Sk 1 'acid blast'
 Sk 85 'aid'
 Sk 84 'armor'
@@ -227,9 +228,7 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'shield'   0  47  37 -20  17          0
-Affc 'detect evil'   0  44  29   0   0          4
-Affc 'stone skin'   0  43   0 -40  17          0
+Affc 'detect invis'   0  50  43   0   0          8
 End
 
 #O
@@ -333,74 +332,6 @@ Cond 0
 Wear -1
 Cost 0
 Val  0 0 0 0 23567
-End
-
-#O
-Vnum 10309
-Nest 1
-PrevOwner Oleander~
-Cond 0
-Wear -1
-Cost 6011
-End
-
-#O
-Vnum 22044
-Nest 2
-PrevOwner Oleander~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 2
-PrevOwner Oleander~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 18935
-Nest 2
-PrevOwner Oleander~
-Cond 0
-Wear -1
-Cost 2000
-Spell 3 'flamestrike'
-End
-
-#O
-Vnum 16603
-Nest 2
-PrevOwner Oleander~
-ExtF 33
-Cond 0
-Wear -1
-Cost 200
-Spell 3 'demonfire'
-End
-
-#O
-Vnum 8055
-Nest 2
-PrevOwner Oleander~
-ExtF 537133121
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'bless'
-End
-
-#O
-Vnum 3823
-Nest 2
-PrevOwner Oleander~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -685,7 +616,6 @@ Enchanted
 Nest 0
 PrevOwner Oleander~
 ExtF 1091
-Stolen 54
 Cond 0
 Wear 16
 Lev  50
@@ -693,6 +623,92 @@ Cost 3500
 Affc 'enchant weapon'   0  53  -1   8  18          0
 Affc 'reserved'   1  47  -1  -1   1          0
 Affc 'enchant weapon'   1  53  -1   9  19          0
+End
+
+#O
+Vnum 11323
+Nest 0
+PrevOwner Jaana~
+Cond 0
+Wear -1
+Cost 18
+End
+
+#O
+Vnum 10309
+Nest 0
+PrevOwner Oleander~
+Cond 0
+Wear -1
+Cost 6011
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Oleander~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Oleander~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 18935
+Nest 1
+PrevOwner Oleander~
+Cond 0
+Wear -1
+Cost 2000
+Spell 3 'flamestrike'
+End
+
+#O
+Vnum 16603
+Nest 1
+PrevOwner Oleander~
+ExtF 33
+Cond 0
+Wear -1
+Cost 200
+Spell 3 'demonfire'
+End
+
+#O
+Vnum 8055
+Nest 1
+PrevOwner Oleander~
+ExtF 537133121
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'bless'
+End
+
+#O
+Vnum 3823
+Nest 1
+PrevOwner Oleander~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4154
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100
 End
 
 #END

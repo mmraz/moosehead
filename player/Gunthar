@@ -2,7 +2,7 @@
 Name Gunthar~
 Id   1012612600
 Email (null)~
-LogO 1108701964
+LogO 1310961790
 Vers 31
 LnD  A Gladiator~
 Desc Those <{DEnforced{x>
@@ -21,7 +21,7 @@ Prom <%hhp %mm %vmv %w/%W $%g %X> ~
 Race giant~
 Clan posse~
 Outc 0
-RufT 274
+RufT 262
 MatookT 0
 SkPTimer 0
 SkPTracker 0
@@ -35,10 +35,13 @@ LstAtkedByTimer 0
 LstCombatDate 1108700180
 LstKillDate 1034994528
 LstDeathDate 1034993394
-LoginsWOKill 15
-LoginsWODeath 15
-LoginsWOCombat 0
+LoginsWOKill 19
+LoginsWODeath 19
+LoginsWOCombat 4
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 70993 hermes~
 DeityT -728 hermes~
 Sac  300
@@ -48,23 +51,24 @@ Node 0
 Cap 0
 Created 1012612605
 Glad 0 3 0 0 1 0
+LastHost 108.90.122.126~
 Cla  14
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 108686
+Plyd 109090
 Not  1059012638 1059012638 1059012638 1059012638 1059012638 1059012638 1059012638 1059012638 1059012638 1059012638
 Scro 22
 Rank 2
-Room 31614
-HMV  712 1613 47 354 334 334
+Room 31603
+HMV  424 1613 17 354 138 334
 Gold 10
 Silv 42
 Exp  171419
 Act  CDEFGHMQS
 MHSF RST
 ClnF DFH
-AfBy CDFMTc
+AfBy CDFTc
 Comm S
 Disp FIJLN
 IcgB 0
@@ -73,17 +77,18 @@ Wizn W
 Pnet ABCDEFGHI
 Pos  8
 Prac 99
+Trai 4
 SkiP 291
 Save  -7
-Alig  -821
+Alig  -823
 Hit   18
 Dam   33
 SecHit   17
 SecDam   29
 ACs -19 -13 -14 24
 Wimp  20
-Attr 25 15 18 16 22 13 13 13
-AMod 2 1 5 4 2 0 0 0
+Attr 25 15 18 16 22 9 13 13
+AMod 3 1 5 4 2 0 0 0
 Pass GunZ9hYXd0S/Y~
 Titl  uth Wistan.          <{DEnforcer{x>~
 Pnts 72
@@ -158,7 +163,6 @@ Gr 'warrior basics'
 Gr 'benedictions'
 Gr 'protective'
 Gr 'transportation'
-Affc 'poison'   0  47  11  -1   1       4096
 End
 
 #O
@@ -587,15 +591,6 @@ Cost 460
 End
 
 #O
-Vnum 2446
-Nest 1
-PrevOwner Gunthar~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
 Vnum 5902
 Enchanted
 Nest 1
@@ -779,20 +774,6 @@ Cost 20000
 End
 
 #O
-Vnum 2446
-Enchanted
-Nest 1
-PrevOwner Gunthar~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 2250
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-End
-
-#O
 Vnum 8042
 Nest 1
 PrevOwner Gunthar~
@@ -810,6 +791,29 @@ ExtF 64
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 2446
+Nest 1
+PrevOwner Gunthar~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 2446
+Enchanted
+Nest 1
+PrevOwner Gunthar~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 2250
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O

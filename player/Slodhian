@@ -2,13 +2,13 @@
 Name Slodhian~
 Id   845739277
 Email (null)~
-LogO 1132611265
-Vers 31
+LogO 1444770874
+Vers 33
 ShD  I'm too old to get slain!~
 LnD  A Gladiator~
 Desc You see absolutely nothing.
 ~
-Prom <(%R)/%r>%c<%z%i%y %gg %ss> ~
+Prom <%R/%r>%c<%z%i%y %gg %ss>  ~
 Race lasher~
 Outc 0
 RufT 0
@@ -19,17 +19,24 @@ LogoutTracker 0
 Hstm I.Did.Not.Do.it~
 Kill 3 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Ravenclaw~
 LstKBy Dios~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1108162881
+LstCombatDate 1368869075
 LstKillDate 1009657877
 LstDeathDate 1007416775
 LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 8259246 mojo~
 DeityT -3104 mojo~
 Sac  300
@@ -38,55 +45,50 @@ Vump  0
 Node 0
 Cap 0
 Created 951606504
-Glad 5 1 0 2 3 1
+Glad 9 3 0 2 7 1
 LastHost I.Did.Not.Do.it~
 Cla  7
 Kit acrobat~
 ClaO 2
-Levl 59
+Levl 57
 DLevl 0
-Plyd 36615909
-Not  1129396836 1130446298 1131434586 1126122115 1124783478 1132578672 1125183416 1132606535 1132341081 1129478192
-Scro 22
-Rank 5
+Plyd 99588227
+Not  1444654276 1406980220 1344346931 1371977109 1367893112 1444750340 1368318568 1407046784 1411683231 1384474516
+Scro 38
+Rank 0
 Room 23740
-HMV  2163 2163 30105 30105 940 940
+HMV  30091 30091 30085 30085 30080 30080
 Gold 0
 Silv 0
-Exp  542800
-Act  BDGKMNQSUd
+Exp  524400
+Act  BDGIKMNQRSUd
 MHSF AIX
-AfBy TV
-Comm OSY
-Disp CDEFHIJLN
+AfBy T
+Comm KOSY
+Disp CEFHIJN
 IcgB 0
 Icg 4
-Wizn ACDEFIJLMNOPQRSTUVXab
-Pnet DI
-Invi 59
+Wizn ACDEFIJLMNOPQRSTUVXabcd
+Pnet AJ
+Invi 52
 Pos  8
-Prac 575
-Trai 132
-SkiP 2331
-Save  -11
-Alig  -1000
-Hit   408
-Dam   407
-SecHit   408
-SecDam   407
-ACs -445 -445 -445 -429
-Attr 25 25 25 25 25 25 25 25
-AMod 0 0 0 2 0 0 0 0
-Pass SlQcHJmKYLIb6~
+Prac 975
+Trai 174
+SkiP 4202
+Alig  -1
+ACs 100 100 100 100
+Attr 25 25 25 25 25 10 11 25
+AMod 0 0 0 0 0 0 0 0
+Pass Slmyonr.NQZmU~
 Bin  The crowd howls in ecstasy as Slodhian runs in from behind the corner.~
 Bout As Slodhian runs past and away, the howling of the crowd fades away.~
 Titl  the Re-Re-Re-Re-Re-Re-Reborn Pet Thief~
 Pnts 100
-WhoName Hidden One~
+WhoName Hidden one~
 TSex 1
-LLev 7383
-HMVP 1078 30000 940
-Cnd  0 0 12 0
+LLev 27603
+HMVP 30091 30085 30080
+Cnd  0 48 48 48
 Edit ABCEH
 ERange 1 32000
 Alias oldtitle title the Re-Re-Re-Re-Re-Re-Reborn Pet Thief~
@@ -96,15 +98,14 @@ Alias sock sockets~
 Alias ho who~
 Alias mhome goto 23740~
 Alias mplay gecho {CMULTIPLAYING{x is illegal, for more information read '{CHELP RULES{x'~
-Alias www Ooc MHSHELP: www.mooseheadsled.com. Lots of help for newbies(maps, directions, helpfiles) Forum for oldies!~
+Alias karagtitle is much older and wiser... Hah!~
+Alias clan imm~
+Alias note unread~
+Macro oma1 wizi;gecho You cringe in terror.~
+Macro nogift pecho %1 Someone whispers in the shadows 'Now where did I put my gift...someone must have stolen it. oh well, congratulations anyways'~
+Macro gift load obj 1261;at %1 give brain %1;pecho %1 Someone whispers from the shadows '{RCongratulations on your level! {wBut eat the brains in secret and you gain new powers{x!~
 Macro level51 load obj 22015;at %1 give cuban %1;pecho %1 Congratulationz my little Fiend for archieving the masterful level 51!!!~
 Macro oma wizi;gecho You feel a cold shiver run down your spine.~
-Macro gift load obj 1261;at %1 give brain %1;pecho %1 Someone whispers from the shadows '{RCongratulations on your level! {wBut eat the brains in secret and you gain new powers{x!~
-Macro nogift pecho %1 Someone whispers in the shadows 'Now where did I put my gift...someone must have stolen it. oh well, congratulations anyways'~
-Macro aloner transfer %1 3001;guild %1 loner;load obj 3007;at %1 give egg %1~
-Macro fu at %1 slay %!~
-Macro 2 remove one;wizi~
-Macro 1 emote Slays you cold blooded!!! ;pecho chewik You are {RDEAD{x!!!~
 Sk 100 'reserved'
 Sk 100 'opiate'
 Sk 100 'accuracy'
@@ -113,12 +114,14 @@ Sk 100 'acclimate'
 Sk 100 'adamantite skin'
 Sk 100 'aid'
 OldSk 1 'aid'
+OldSk 100 'annointment'
 Sk 100 'aura of valor'
 Sk 100 'arcantic alacrity'
 Sk 100 'arcantic lethargy'
 Sk 100 'armor'
 OldSk 94 'armor'
 Sk 100 'asphyxiate'
+Sk 100 'aura of cthon'
 Sk 100 'bestow holiness'
 OldSk 1 'bestow holiness'
 Sk 100 'betray'
@@ -154,7 +157,7 @@ Sk 100 'charm animal'
 Sk 100 'chill touch'
 Sk 100 'clarity'
 Sk 100 'colour spray'
-Sk 100 'cone of silence'
+Sk 100 'confusion'
 Sk 100 'contagion'
 Sk 100 'continual light'
 OldSk 71 'continual light'
@@ -174,6 +177,7 @@ OldSk 1 'create water'
 Sk 100 'creeping doom'
 Sk 100 'crusade'
 Sk 100 'crushing grip'
+Sk 100 'cuffs of justice'
 Sk 100 'cure blindness'
 OldSk 70 'cure blindness'
 Sk 100 'cure critical'
@@ -186,6 +190,7 @@ Sk 100 'cure poison'
 OldSk 85 'cure poison'
 Sk 100 'cure serious'
 OldSk 1 'cure serious'
+Sk 100 'cure vision'
 Sk 100 'curse'
 OldSk 100 'curse'
 Sk 100 'demonfire'
@@ -277,6 +282,7 @@ OldSk 1 'hold person'
 Sk 100 'holy silence'
 Sk 100 'holy word'
 OldSk 1 'holy word'
+Sk 100 'honor guard'
 Sk 100 'hydrophilia'
 Sk 100 'ice storm'
 Sk 100 'identify'
@@ -547,7 +553,6 @@ Sk 100 'sneak'
 OldSk 56 'sneak'
 Sk 100 'spellcraft'
 Sk 100 'endow'
-Sk 100 'snatch'
 Sk 100 'steal'
 OldSk 100 'steal'
 Sk 100 'scribe'
@@ -576,116 +581,6 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'pyrotechnics'
 Gr 'transportation'
-End
-
-#O
-Vnum 2224
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 2
-Cost 6800
-End
-
-#O
-Vnum 3015
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 1
-Cost 6800
-End
-
-#O
-Vnum 1229
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 11
-Cost 0
-End
-
-#O
-Vnum 1233
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 7
-Cost 0
-End
-
-#O
-Vnum 22564
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 18
-Cost 0
-End
-
-#O
-Vnum 1396
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 4
-Cost 10800
-End
-
-#O
-Vnum 22045
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 17
-Cost 0
-Spell 3 'enchant weapon'
-End
-
-#O
-Vnum 1210
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 3
-Cost 0
-End
-
-#O
-Vnum 1216
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 16
-Cost 5600
-End
-
-#O
-Vnum 1217
-Nest 0
-PrevOwner (null)~
-Wt   0
-Cond 0
-Wear 19
-Cost 5600
-End
-
-#O
-Vnum 12052
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 0
-Cost 20000
-End
-
-#O
-Vnum 16722
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 13
-Cost 100000
 End
 
 #END

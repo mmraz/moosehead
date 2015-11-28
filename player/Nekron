@@ -3,17 +3,17 @@ Name Nekron~
 SurN Stoan~
 Id   1049276122
 Email (null)~
-LogO 1110971793
+LogO 1309025146
 Vers 31
 LnD  A Gladiator~
 Prom (%h %m %v)[%X][{W%g.%s %n/%N %w{x][%a]%c[%r][%e] ~
 Race rockbiter~
 Clan honor~
 Outc 0
-RufT 303
+RufT 283
 MatookT 0
 SkPTimer 0
-SkPTracker 4
+SkPTracker 0
 LogoutTracker 0
 Kill 4 9 0 15
 Steal 0 0 0
@@ -21,12 +21,12 @@ LstK Vent~
 LstKBy Rigel~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1107177932
+LstCombatDate 1308242420
 LstKillDate 1107178728
 LstDeathDate 1107172499
-LoginsWOKill 3
-LoginsWODeath 3
-LoginsWOCombat 2
+LoginsWOKill 5
+LoginsWODeath 5
+LoginsWOCombat 1
 Bnty 0
 Deity 196822 hermes~
 DeityT -630 xochipili~
@@ -37,18 +37,18 @@ Node 0
 Cap 0
 Created 1049276142
 Glad 0 1 0 0 1 0
-LastHost 146.230.192.68~
+LastHost 197.173.227.97~
 Cla  3
 Kit wyrmslayer~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 469229
+Plyd 470403
 Not  1085676407 1107270494 1075068739 1107331041 1082605357 1107056929 1075068739 1107214411 1075068739 1106603232
 Scro 98
 Rank 0
 Room 31520
-HMV  1721 1721 354 354 443 547
+HMV  1624 1721 326 354 547 547
 Gold 28
 Silv 11
 Exp  554989
@@ -62,16 +62,17 @@ Icg 0
 Pnet ABCDEFGHI
 Pos  4
 Prac 37
-SkiP 160
-Save  -21
+Trai 14
+SkiP 167
+Save  -7
 Alig  -604
-Hit   33
-Dam   39
-SecHit   23
-SecDam   29
-ACs -42 -42 -42 -1
+Hit   39
+Dam   45
+SecHit   29
+SecDam   35
+ACs -12 -12 -12 29
 Wimp  2
-Attr 23 16 20 14 23 16 21 12
+Attr 23 16 20 14 23 8 15 12
 AMod 6 3 5 4 2 2 0 0
 Pass NeASdkckyDI3s~
 Titl  {D-={x {RJudgement Day{x {D=-{x~
@@ -79,7 +80,7 @@ Pnts 94
 TSex 1
 LLev 110
 HMVP 1571 361 547
-Cnd  0 0 48 4
+Cnd  0 0 48 0
 Alias zx dirt ~
 Alias kk who clan~
 Alias zc bash~
@@ -164,28 +165,27 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
+Affc 'frenzy'   0  39  11  30  17          0
+Affc 'frenzy'   0  39  11   6  19          0
+Affc 'frenzy'   0  39  11   6  18          0
 End
 
 #O
 Vnum 2505
 Nest 0
 PrevOwner Nekron~
-ExtF 258
 Cond 0
 Wear 15
 Cost 1150
-Affc 'bless'   1  31  20  -1  20        256
 End
 
 #O
 Vnum 2505
 Nest 0
 PrevOwner Nekron~
-ExtF 258
 Cond 0
 Wear 14
 Cost 1150
-Affc 'bless'   1  36  20  -1  20        256
 End
 
 #O
@@ -333,7 +333,7 @@ End
 Vnum 20839
 Nest 1
 PrevOwner Nekron~
-Stolen 41
+Stolen 12
 Cond 0
 Wear -1
 Cost 0
@@ -457,7 +457,6 @@ Enchanted
 Nest 1
 PrevOwner Nekron~
 ExtF 537395523
-Stolen 19
 Cond 0
 Wear -1
 Lev  50
@@ -507,16 +506,6 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 9573
-Nest 1
-PrevOwner Nekron~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 8060
 Nest 1
 PrevOwner Nekron~
@@ -584,36 +573,6 @@ Cond 0
 Wear -1
 Cost 2200
 Spell 3 'sleep'
-End
-
-#O
-Vnum 8060
-Nest 1
-PrevOwner Nekron~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'sleep'
-End
-
-#O
-Vnum 8060
-Nest 1
-PrevOwner Nekron~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'sleep'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Nekron~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
 End
 
 #O
@@ -678,11 +637,9 @@ End
 Vnum 22504
 Nest 0
 PrevOwner Nekron~
-ExtF 16777473
 Cond 0
 Wear 0
 Cost 0
-Affc 'bless'   1  35  17  -1  20        256
 End
 
 #O
@@ -700,7 +657,7 @@ Vnum 18017
 Enchanted
 Nest 0
 PrevOwner Nekron~
-ExtF 16777537
+ExtF 16777281
 Cond 0
 Wear 5
 Lev  33
@@ -709,7 +666,6 @@ Affc 'enchant armor'   1  53  -1  -9  17          0
 Affc 'reserved'   1  25  -1   1   4          0
 Affc 'reserved'   1  25  -1   2  18          0
 Affc 'reserved'   1  25  -1   1  19          0
-Affc 'bless'   1  35  18  -1  20        256
 End
 
 #O
@@ -732,7 +688,7 @@ Vnum 5937
 Enchanted
 Nest 0
 PrevOwner Nekron~
-ExtF 134218049
+ExtF 134217793
 Wt   52
 Cond 0
 Wear 9
@@ -742,7 +698,6 @@ Val  8 8 8 5 6
 Affc 'enchant armor'   1  53  -1  -8  17          0
 Affc 'reserved'   1  37  -1   2   1          0
 Affc 'reserved'   1  37  -1   2  19          0
-Affc 'bless'   1  33  18  -1  20        256
 End
 
 #O
@@ -750,14 +705,13 @@ Vnum 12080
 Enchanted
 Nest 0
 PrevOwner Nekron~
-ExtF 17563969
+ExtF 17563713
 Cond 0
 Wear 8
 Cost 4500
 Affc 'enchant armor'   1  53  -1  -8  17          0
 Affc 'reserved'   1  51  -1   3   2          0
 Affc 'reserved'   1  51  -1   2  18          0
-Affc 'bless'   1  36  18  -1  20        256
 End
 
 #O
@@ -772,10 +726,10 @@ Wear 7
 Lev  46
 Cost 2000
 Val  7 7 7 4 6
-Affc 'bless'   1  31   2  -1  20        256
 Affc 'enchant armor'   1  53  -1  -7  17          0
 Affc 'reserved'   1  39  -1   2  19          0
 Affc 'reserved'   1  39  -1  -2  20          0
+Affc 'bless'   1  35  20  -1  20        256
 End
 
 #O
@@ -792,66 +746,54 @@ End
 Vnum 20813
 Nest 0
 PrevOwner Nekron~
-ExtF 2881
 Cond 0
 Wear 2
 Cost 0
-Affc 'bless'   1  34  17  -1  20        256
 End
 
 #O
 Vnum 20813
 Nest 0
 PrevOwner Nekron~
-ExtF 2881
 Cond 0
 Wear 1
 Cost 0
-Affc 'bless'   1  32  17  -1  20        256
 End
 
 #O
 Vnum 8531
 Nest 0
 PrevOwner Nekron~
-ExtF 320
 Cond 0
 Wear 13
 Cost 600
-Affc 'bless'   1  34  19  -1  20        256
 End
 
 #O
 Vnum 23514
 Nest 0
 PrevOwner Nekron~
-ExtF 17301824
 Cond 0
 Wear 3
 Cost 3690
-Affc 'bless'   1  35  17  -1  20        256
 End
 
 #O
 Vnum 23138
 Nest 0
 PrevOwner Nekron~
-ExtF 18088193
 Cond 0
 Wear 18
 Cost 0
-Affc 'bless'   1  37  21  -1  20        256
 End
 
 #O
 Vnum 5936
 Nest 0
 PrevOwner Nekron~
-ExtF 256
 Cond 0
 Wear 10
 Cost 0
-Affc 'bless'   1  34  18  -1  20        256
 End
 
 #O
@@ -859,7 +801,7 @@ Vnum 11078
 Enchanted
 Nest 0
 PrevOwner Nekron~
-ExtF 321
+ExtF 65
 Cond 0
 Wear 11
 Lev  46
@@ -868,7 +810,6 @@ Affc 'enchant armor'   1  53  -1  -7  17          0
 Affc 'reserved'   1  42  -1   1  18          0
 Affc 'reserved'   1  42  -1   2  19          0
 Affc 'reserved'   1  42  -1   2   1          0
-Affc 'bless'   1  32  19  -1  20        256
 End
 
 #O
@@ -893,22 +834,18 @@ End
 Vnum 16721
 Nest 0
 PrevOwner Nekron~
-ExtF 257
 Cond 0
 Wear 4
 Cost 1400
-Affc 'bless'   1  33  17  -1  20        256
 End
 
 #O
 Vnum 11107
 Nest 0
 PrevOwner Nekron~
-ExtF 256
 Cond 0
 Wear -1
 Cost 1500
-Affc 'bless'   1  34  19  -1  20        256
 End
 
 #O
@@ -917,7 +854,6 @@ Enchanted
 Nest 0
 PrevOwner Nekron~
 ExtF 524355
-Stolen 10
 Cond 0
 Wear -1
 Lev  50
@@ -1011,56 +947,6 @@ PrevOwner Jonas~
 Cond 0
 Wear -1
 Cost 1250
-End
-
-#O
-Vnum 3040
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 3040
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 3040
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 3040
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 3040
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
 End
 
 #END

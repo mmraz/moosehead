@@ -2,8 +2,8 @@
 Name Robotnik~
 Id   862978907
 Email (null)~
-LogO 960520017
-Vers 23
+LogO 1389611031
+Vers 33
 Desc you see a crazy fat man singing "meow meow meow meow meow meow meow meow.."
 Born on the planet of Mobius, his race is naturally evil, but is very
 kind in its own way.  He is an intellectual genius, and so studies the magic
@@ -17,13 +17,28 @@ Outc 0
 RufT 0
 MatookT 830
 SkPTimer 0
-SkPTracker 34
+SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK Daig~
 LstKBy no one~
 LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1389217740
+LstKillDate 1389217740
+LstDeathDate 1389217740
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 481714 matook~
 Sac  300
 Sex  1
@@ -31,31 +46,34 @@ Vump  0
 Node 0
 Cap 0
 Created 951566015
-Glad 0 0 0 0 0
-LastHost foot.zipcon.net 1065~
+Glad 0 0 0 0 0 0
+LastHost 50.135.108.136~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 305471
-Not  952596198 952593657 0 955768596 952593663 952593651 952593652 952593660 0
+Plyd 308929
+Not  952596198 952593657 0 955768596 952593663 1389192110 952593652 952593660 0 0
 Scro 22
 Rank 0
-Room 3001
-HMV  320 320 527 1269 270 439
-Gold 29
-Silv 22
+Room 3054
+HMV  320 320 1269 1269 438 439
+Gold 28
+Silv 26
 Exp  140760
 Act  CDEFGHMd
+MHSF R
 AfBy CDFJT
-Comm DO
+Comm ADO
 Disp FGIJ
 IcgB 0
 Icg 0
 Pos  8
 Prac 13
+Trai 15
 SkiP 34
+Save  -6
 Alig  -1000
 Hit   22
 Dam   52
@@ -63,15 +81,15 @@ SecHit   13
 SecDam   40
 ACs 22 22 27 80
 Wimp  160
-Attr 13 25 25 25 13
-AMod 3 0 -2 0 0
+Attr 13 25 25 25 13 17 8 13
+AMod 3 0 -2 0 0 0 0 0
 Pass Rokon/jumUbJ2~
 Titl  fine fine~
 Pnts 63
 TSex 1
 LLev 62
 HMVP 255 1223 439
-Cnd  0 4 27 27
+Cnd  0 0 6 0
 Alias ] or all resc robotnik~
 Alias [ ent 1.~
 Alias \ ent 3.~
@@ -128,6 +146,7 @@ Sk 1 'endure cold'
 OldSk 1 'endure cold'
 Sk 1 'endure heat'
 OldSk 1 'endure heat'
+OldSk 78 'enhance'
 Sk 78 'energy drain'
 OldSk 61 'energy drain'
 Sk 75 'enervation'
@@ -141,9 +160,9 @@ Sk 83 'fireball'
 OldSk 83 'fireball'
 Sk 1 'fireproof'
 OldSk 1 'fireproof'
+Sk 1 'floating disc'
 Sk 88 'fly'
 OldSk 88 'fly'
-Sk 1 'floating disc'
 Sk 75 'forget'
 OldSk 1 'forget'
 OldSk 1 'frenzy'
@@ -219,10 +238,10 @@ Sk 75 'animate dead'
 Sk 82 'summon dead'
 Sk 75 'cryogenesis'
 Sk 75 'draw life'
+Sk 1 'make bag'
 Sk 75 'turn undead'
 Sk 75 'withstand death'
 Sk 75 'wound transfer'
-OldSk 78 'enhance'
 Sk 100 'dagger'
 OldSk 100 'dagger'
 OldSk 100 'sword'
@@ -269,6 +288,7 @@ End
 #O
 Vnum 2505
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 15
 Cost 1150
@@ -277,6 +297,7 @@ End
 #O
 Vnum 2505
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 14
 Cost 1150
@@ -285,6 +306,7 @@ End
 #O
 Vnum 2390
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 9
 Cost 5800
@@ -293,6 +315,7 @@ End
 #O
 Vnum 1345
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1000
@@ -301,6 +324,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -309,48 +333,16 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
 End
 
 #O
-Vnum 9320
-Nest 1
-Cond 0
-Wear -1
-Cost 4200
-End
-
-#O
-Vnum 20833
-Enchanted
-Nest 1
-Cond 0
-Wear -1
-Cost 0
-Affc 'reserved'   1  48  -1  75  12          0
-End
-
-#O
-Vnum 8509
-Nest 1
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2803
-Nest 1
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
 Vnum 15227
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 20000
@@ -358,8 +350,101 @@ Val  -1 -1 -1 -1 -1
 End
 
 #O
+Vnum 9320
+Nest 1
+PrevOwner Robotnik~
+Cond 0
+Wear -1
+Cost 4200
+End
+
+#O
+Vnum 2803
+Nest 1
+PrevOwner Robotnik~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 8509
+Nest 1
+PrevOwner Robotnik~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20833
+Enchanted
+Nest 1
+PrevOwner Robotnik~
+Cond 0
+Wear -1
+Cost 0
+Affc 'reserved'   1  48  -1  75  12          0
+End
+
+#O
+Vnum 10450
+Nest 1
+PrevOwner Robotnik~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 10426
+Nest 1
+PrevOwner Robotnik~
+Cond 0
+Wear -1
+Cost 18300
+End
+
+#O
+Vnum 10451
+Nest 1
+PrevOwner Robotnik~
+Cond 0
+Wear -1
+Cost 12500
+End
+
+#O
+Vnum 20830
+Nest 1
+PrevOwner Robotnik~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 17631
+Nest 1
+PrevOwner Robotnik~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 18126
+Nest 1
+PrevOwner Robotnik~
+Cond 0
+Wear -1
+Cost 9000
+End
+
+#O
 Vnum 2301
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 5
 Cost 4200
@@ -368,6 +453,7 @@ End
 #O
 Vnum 23110
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 8
 Cost 1500
@@ -376,6 +462,7 @@ End
 #O
 Vnum 16721
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 4
 Cost 1400
@@ -384,6 +471,7 @@ End
 #O
 Vnum 15223
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 7
 Cost 6500
@@ -392,6 +480,7 @@ End
 #O
 Vnum 16721
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 3
 Cost 1400
@@ -400,6 +489,7 @@ End
 #O
 Vnum 10429
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 2
 Cost 2700
@@ -408,30 +498,16 @@ End
 #O
 Vnum 18105
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 11
 Cost 4500
 End
 
 #O
-Vnum 18126
-Nest 0
-Cond 0
-Wear -1
-Cost 9000
-End
-
-#O
-Vnum 17631
-Nest 0
-Cond 0
-Wear -1
-Cost 250
-End
-
-#O
 Vnum 5936
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 10
 Cost 3000
@@ -440,6 +516,7 @@ End
 #O
 Vnum 28025
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 17
 Cost 5000
@@ -448,22 +525,16 @@ End
 #O
 Vnum 10429
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 1
 Cost 2700
 End
 
 #O
-Vnum 20830
-Nest 0
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 10003
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
@@ -472,6 +543,7 @@ End
 #O
 Vnum 5914
 Nest 0
+PrevOwner (null)~
 ExtF 134217792
 Wt   30
 Cond 0
@@ -483,6 +555,7 @@ End
 #O
 Vnum 20727
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 13
 Cost 5500
@@ -491,6 +564,7 @@ End
 #O
 Vnum 15227
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 20000
@@ -500,6 +574,7 @@ End
 #O
 Vnum 11145
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 18
 Cost 4500
@@ -509,6 +584,7 @@ End
 Vnum 18119
 Enchanted
 Nest 0
+PrevOwner (null)~
 ExtF 99
 Cond 0
 Wear 16
@@ -519,35 +595,39 @@ Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
-Vnum 10451
-Nest 0
-Cond 0
-Wear -1
-Cost 12500
-End
-
-#O
-Vnum 10426
-Nest 0
-Cond 0
-Wear -1
-Cost 18300
-End
-
-#O
-Vnum 10450
-Nest 0
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
 Vnum 1915
 Nest 0
+PrevOwner Robotnik~
 Cond 0
 Wear -1
 Cost 4500
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
 End
 
 #END

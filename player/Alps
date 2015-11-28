@@ -2,7 +2,7 @@
 Name Alps~
 Id   1001422024
 Email (null)~
-LogO 1125755281
+LogO 1306445239
 Vers 31
 Prom %hhp %mm %vmv | $%g|%r|%e|   ~
 Race rockbiter~
@@ -10,7 +10,7 @@ Clan posse~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 25
+SkPTimer 16
 SkPTracker 12
 LogoutTracker 0
 Kill 0 8 0 4
@@ -22,9 +22,9 @@ LstAtkedByTimer 0
 LstCombatDate 1115029682
 LstKillDate 1115029812
 LstDeathDate 1077873426
-LoginsWOKill 3
-LoginsWODeath 7
-LoginsWOCombat 2
+LoginsWOKill 4
+LoginsWODeath 8
+LoginsWOCombat 3
 Bnty 0
 Deity 52048 hermes~
 DeityT -122 hermes~
@@ -35,24 +35,24 @@ Node 0
 Cap 0
 Created 1001422035
 Glad 0 0 0 0 0 0
-LastHost ndn-165-128-159.telkomadsl.co.za~
+LastHost 41.185.143.48~
 Cla  14
 Kit myrmidon~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 114916
+Plyd 115231
 Not  0 1004002291 0 1001511087 1080807612 0 0 1019540138 0 0
 Scro 22
 Rank 0
-Room 31614
-HMV  1736 1871 409 419 77 202
+Room 31601
+HMV  1871 1871 419 419 202 202
 Gold 308
 Silv 1186
 Exp  122730
 Act  CDGHJQS
 MHSF RST
-AfBy LTVb
+AfBy Tb
 Comm GIR
 Disp FGIJ
 IcgB 0
@@ -68,7 +68,7 @@ SecHit   41
 SecDam   44
 ACs 20 20 20 46
 Attr 25 16 25 14 25 16 13 13
-AMod 2 1 0 3 0 0 0 0
+AMod 2 1 0 -1 0 0 0 0
 Pass AlIDXEnaBbTM6~
 Titl , {CSnowy{x.   Thats Mr. Alps to you.~
 Pnts 50
@@ -112,10 +112,8 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'healing'
 Gr 'garou'
-Affc 'morph'   0  50   3   0   0       2048
-Affc 'haste'   0  39   6   4   2    2097152
-Affc 'bless'   0  34  10  -5  24          0
-Affc 'bless'   0  34  10   5  18          0
+Affc 'bless'   0  32   1   5  18          0
+Affc 'bless'   0  28   1  -5  24          0
 End
 
 #O
@@ -283,8 +281,8 @@ ExtF 451
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  52  -1  11  18          0
 Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
@@ -302,17 +300,6 @@ Wear -1
 Lev  16
 Cost 2400
 Val  480 1 -1 90 25
-End
-
-#O
-Vnum 8065
-Nest 1
-PrevOwner Alps~
-ExtF 537133121
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'word of recall'
 End
 
 #O
@@ -414,8 +401,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
 End
 
 #O
@@ -510,14 +497,14 @@ Enchanted
 Nest 1
 PrevOwner Alps~
 ExtF 66
-Stolen 1435
+Stolen 1428
 Cond 0
 Wear -1
 Lev  39
 Cost 6000
-Affc 'enchant weapon'   1  42  -1  11  18          0
-Affc 'reserved'   1  30  -1  -1   3          0
 Affc 'enchant weapon'   1  42  -1   9  19          0
+Affc 'reserved'   1  30  -1  -1   3          0
+Affc 'enchant weapon'   1  42  -1  11  18          0
 End
 
 #O
@@ -677,7 +664,7 @@ End
 Vnum 1929
 Nest 1
 PrevOwner Alps~
-Stolen 175
+Stolen 168
 Cond 0
 Wear -1
 Cost 60
@@ -750,9 +737,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'reserved'   1  49  -1   2   1          0
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'reserved'   1  49  -1   2   1          0
 End
 
 #O
@@ -781,8 +768,8 @@ PrevOwner Alps~
 Cond 0
 Wear -1
 Cost 4000
-Affc 'enchant weapon'   1  50  -1  13  19          0
 Affc 'enchant weapon'   0  39  -1  10  18          0
+Affc 'enchant weapon'   1  50  -1  13  19          0
 End
 
 #O
@@ -795,10 +782,10 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'reserved'   1  49  -1   0   0          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
 Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
 End
 
 #O
@@ -874,9 +861,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
 Affc 'reserved'   1  49  -1   2   1          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
@@ -888,8 +875,8 @@ ExtF 323
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -902,8 +889,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
@@ -916,10 +903,10 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'reserved'   1  49  -1  20  13          0
 Affc 'reserved'   1  49  -1   0   0          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
@@ -932,8 +919,8 @@ Cond 0
 Wear -1
 Lev  16
 Cost 1500
-Affc 'enchant weapon'   1  47  -1  11  18          0
 Affc 'enchant weapon'   1  47  -1  10  19          0
+Affc 'enchant weapon'   1  47  -1  11  18          0
 End
 
 #O
@@ -964,8 +951,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
 End
 
 #O
@@ -987,8 +974,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1200
-Affc 'enchant weapon'   0  53  -1   9  18          0
 Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
@@ -1001,8 +988,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   0  53  -1  13  18          0
 Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   0  53  -1  13  18          0
 End
 
 #O
@@ -1012,26 +999,6 @@ PrevOwner Alps~
 Cond 0
 Wear -1
 Cost 6000
-End
-
-#O
-Vnum 8059
-Nest 1
-PrevOwner Alps~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'infravision'
-End
-
-#O
-Vnum 8060
-Nest 1
-PrevOwner Alps~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'sleep'
 End
 
 #O
@@ -1067,13 +1034,13 @@ Enchanted
 Nest 0
 PrevOwner Alps~
 ExtF 66
-Stolen 73
+Stolen 66
 Cond 0
 Wear 19
 Lev  50
 Cost 2250
-Affc 'enchant weapon'   0  52  -1  11  18          0
 Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
@@ -1086,8 +1053,39 @@ Cond 0
 Wear 16
 Cost 0
 Val  6 2 20 7 293
-Affc 'enchant weapon'   1  52  -1   9  19          0
 Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   9  19          0
+End
+
+#O
+Vnum 8065
+Nest 0
+PrevOwner Alps~
+ExtF 537133121
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'word of recall'
+End
+
+#O
+Vnum 8059
+Nest 0
+PrevOwner Alps~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'infravision'
+End
+
+#O
+Vnum 8060
+Nest 0
+PrevOwner Alps~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'sleep'
 End
 
 #END

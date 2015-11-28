@@ -3,17 +3,17 @@ Name Jaraxle~
 SurN D'aerthe~
 Id   1060355575
 Email (null)~
-LogO 1090196180
+LogO 1311174759
 Vers 31
 LnD  A Gladiator~
 Prom %h %m %v%c> ~
 Race elf~
 Clan warlock~
 Outc 0
-RufT 195
+RufT 175
 MatookT 0
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
 Kill 1 4 0 3
 Steal 0 0 0
@@ -24,36 +24,39 @@ LstAtkedByTimer 0
 LstCombatDate 1083338826
 LstKillDate 1074778757
 LstDeathDate 1083335928
-LoginsWOKill 20
-LoginsWODeath 2
-LoginsWOCombat 1
+LoginsWOKill 21
+LoginsWODeath 3
+LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 196102 matook~
-Sac  300
+Sac  225
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1060355628
 Glad 0 1 0 0 1 0
-LastHost host-65-6-250-181.clt.bellsouth.net~
+LastHost 74.251.225.253~
 Cla  11
 Kit warlock~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 550044
+Plyd 550930
 Not  1076656780 1075899147 1070663775 1076367623 1076291926 1076200570 1070663775 1089904284 1070663775 1075759453
 Scro 22
 Rank 0
-Room 12048
-HMV  171 919 887 1168 798 806
+Room 109
+HMV  569 919 827 1168 791 806
 Gold 351
 Silv 9018
 Exp  408222
 Act  CDGHIKQS
 MHSF R
-AfBy HJc
+AfBy DFHJTc
 Comm F
 Disp FIJN
 IcgB 0
@@ -61,6 +64,7 @@ Icg 0
 Pnet ACEFI
 Pos  8
 Prac 30
+Trai 21
 SkiP 217
 Save  -12
 Alig  -1000
@@ -68,17 +72,17 @@ Hit   20
 Dam   9
 SecHit   18
 SecDam   7
-ACs -92 -90 -92 -12
+ACs -132 -130 -132 -52
 Wimp  20
-Attr 17 22 18 21 16 21 23 24
-AMod 2 1 0 8 3 0 0 2
+Attr 17 22 18 21 16 11 12 24
+AMod 6 1 0 8 3 0 0 2
 Pass JaRj7FC7PeHTc~
 Titl  the {RRed{x Bregan.~
 Pnts 100
 TSex 1
 LLev 107
 HMVP 654 993 776
-Cnd  0 23 42 42
+Cnd  0 15 38 38
 Sk 100 'acid blast'
 Sk 100 'arcantic alacrity'
 Sk 85 'arcantic lethargy'
@@ -95,6 +99,7 @@ Sk 100 'charm person'
 Sk 82 'chill touch'
 Sk 100 'clarity'
 Sk 86 'colour spray'
+Sk 1 'cone of silence'
 Sk 81 'control weather'
 Sk 100 'curse'
 Sk 1 'detect evil'
@@ -162,7 +167,7 @@ Sk 85 'teleport'
 Sk 75 'ventriloquate'
 Sk 75 'warp'
 Sk 94 'weaken'
-Sk 79 'word of recall'
+Sk 81 'word of recall'
 Sk 75 'animate dead'
 Sk 100 'summon dead'
 Sk 75 'cryogenesis'
@@ -202,8 +207,14 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'sanctuary'   0  53   7   0   0        128
-Affc 'clarity'   0  48  37   0   0          0
+Affc 'fly'   0  53  55   0   0     524288
+Affc 'detect hidden'   0  53  51   0   0         32
+Affc 'detect invis'   0  52  50   0   0          8
+Affc 'blur'   0  52   3 -20  17          0
+Affc 'giant strength'   0  52  46   4   1          0
+Affc 'sanctuary'   0  53   1   0   0        128
+Affc 'armor'   0  52  30 -20  17          0
+Affc 'clarity'   0  47  31   0   0          0
 End
 
 #O
@@ -227,9 +238,9 @@ Wear 9
 Lev  29
 Cost 2900
 Val  7 7 7 2 2
-Affc 'enchant armor'   1  37  -1  -6  17          0
-Affc 'reserved'   1  25  -1   5  12          0
 Affc 'reserved'   1  25  -1   1   5          0
+Affc 'reserved'   1  25  -1   5  12          0
+Affc 'enchant armor'   1  37  -1  -6  17          0
 End
 
 #O
@@ -253,9 +264,9 @@ Wear 5
 Lev  40
 Cost 4000
 Val  7 7 7 6 2
-Affc 'enchant armor'   1  42  -1  -2  17          0
-Affc 'reserved'   1  38  -1  20  13          0
 Affc 'reserved'   1  38  -1   2  19          0
+Affc 'reserved'   1  38  -1  20  13          0
+Affc 'enchant armor'   1  42  -1  -2  17          0
 End
 
 #O
@@ -459,7 +470,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  53 229 -1 -1 -1
+Val  53 230 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -476,7 +487,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  53 229 -1 -1 -1
+Val  53 230 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -493,7 +504,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  53 229 -1 -1 -1
+Val  53 230 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -510,7 +521,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  53 229 -1 -1 -1
+Val  53 230 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -527,7 +538,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  53 229 -1 -1 -1
+Val  53 230 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -544,7 +555,7 @@ Cond 0
 Wear -1
 Lev  6
 Cost 0
-Val  52 126 -1 -1 -1
+Val  52 127 -1 -1 -1
 Spell 1 'knock'
 End
 
@@ -695,8 +706,8 @@ Cond 0
 Wear -1
 Lev  42
 Cost 5300
-Affc 'reserved'   1  37  -1  30  12          0
 Affc 'enchant armor'   1  53  -1  -7  17          0
+Affc 'reserved'   1  37  -1  30  12          0
 End
 
 #O
@@ -840,7 +851,7 @@ End
 Vnum 20738
 Nest 0
 PrevOwner Jaraxle~
-Stolen 34
+Stolen 64
 Cond 0
 Wear 16
 Cost 4850

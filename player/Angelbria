@@ -2,7 +2,7 @@
 Name Angelbria~
 Id   973385108
 Email (null)~
-LogO 1074921171
+LogO 1316890156
 Vers 31
 LnD  A Gladiator~
 Prom <%hhp %mm %vmv> ~
@@ -10,8 +10,8 @@ Race yinn~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 0
+SkPTimer 1
+SkPTracker 5
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -26,57 +26,60 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -68 matook~
-Sac  225
+Sac  300
 Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 973385213
 Glad 0 0 0 0 1 0
-LastHost 157.160.184.195~
+LastHost 71.199.125.21~
 Cla  14
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 340522
+Plyd 346716
 Not  1042244415 1042244415 1042244415 1042244415 1042244415 1042244415 1042244415 1042244415 1042244415 1042244415
 Scro 22
 Rank 0
-Room 3001
-HMV  1219 1219 58 466 149 480
-Gold 146
-Silv 1362
+Room 3054
+HMV  1043 1194 366 466 240 480
+Gold 25
+Silv 22
 Exp  357050
-Act  CDEFGHMRS
+Act  CDGHMS
 MHSF R
-AfBy JU
+AfBy JUV
 Comm DGRS
 Disp FIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  4
-Prac 3
-Trai 1
-SkiP 5
+Prac 1
+StatsTrained 10 0 0
+SkiP 27
 Save  -6
 Alig  -1000
-Hit   26
-Dam   44
-SecHit   21
-SecDam   39
-ACs 7 7 7 28
-Attr 24 18 19 22 22 13 13 13
-AMod 2 4 -1 5 0 0 0 0
+Hit   27
+Dam   47
+SecHit   33
+SecDam   53
+ACs -23 -23 -23 -6
+Attr 24 18 19 22 22 14 14 13
+AMod 6 4 -1 9 0 0 0 0
 Pass AnIC4ML35v8QA~
 Titl .~
 Pnts 85
 TSex 2
 LLev 65
-HMVP 1154 361 445
-Cnd  0 0 0 0
+HMVP 1164 361 445
+Cnd  0 4 26 32
 Sk 61 'armor'
 Sk 76 'cancellation'
 Sk 23 'cure critical'
@@ -102,7 +105,7 @@ Sk 1 'nexus'
 Sk 78 'pass door'
 Sk 1 'portal'
 Sk 75 'protection evil'
-Sk 1 'protection good'
+Sk 61 'protection good'
 Sk 1 'protection neutral'
 Sk 1 'ray of truth'
 Sk 75 'refresh'
@@ -119,9 +122,9 @@ Sk 27 'cleave'
 Sk 100 'daetok'
 Sk 100 'dodge'
 Sk 100 'dual wield'
-Sk 31 'enhanced critical'
+Sk 33 'enhanced critical'
 Sk 100 'enhanced damage'
-Sk 75 'hand to hand'
+Sk 78 'hand to hand'
 Sk 100 'parry'
 Sk 89 'shield block'
 Sk 86 'scan'
@@ -139,6 +142,9 @@ Gr 'attack'
 Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
+Affc 'haste'   0  46   5   4   2    2097152
+Affc 'armor'   0  39   2 -20  17          0
+Affc 'giant strength'   0  37  12   4   1          0
 End
 
 #O
@@ -147,7 +153,7 @@ Nest 0
 PrevOwner Angelbria~
 Cond 0
 Wear -1
-Cost 260
+Cost 271
 End
 
 #O
@@ -209,10 +215,10 @@ Cond 0
 Wear -1
 Cost 10000
 Val  10 10 10 10 4
-Affc 'reserved'   1  47  -1   2  19          0
-Affc 'reserved'   1  47  -1  -1   2          0
-Affc 'reserved'   1  47  -1   2   1          0
 Affc 'reserved'   1  47  -1  -2  20          0
+Affc 'reserved'   1  47  -1   2   1          0
+Affc 'reserved'   1  47  -1  -1   2          0
+Affc 'reserved'   1  47  -1   2  19          0
 End
 
 #O
@@ -278,7 +284,7 @@ Nest 0
 PrevOwner Pfluger~
 ExtF 1051169
 Cond 0
-Wear -1
+Wear 10
 Cost 6372
 End
 
@@ -287,7 +293,7 @@ Vnum 12004
 Nest 0
 PrevOwner Oobe~
 Cond 0
-Wear 7
+Wear -1
 Cost 40
 End
 
@@ -319,295 +325,12 @@ Cost 0
 End
 
 #O
-Vnum 8503
-Nest 1
-PrevOwner Angelbria~
-ExtF 16777217
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 12006
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 900
-End
-
-#O
-Vnum 17667
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 1000
-Val  20 5 2 54 0
-Spell 3 'cure critical'
-End
-
-#O
-Vnum 17667
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 1000
-Val  20 5 3 54 0
-Spell 3 'cure critical'
-End
-
-#O
-Vnum 10304
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 0
-Val  31 10 7 17 0
-Spell 3 'bless'
-End
-
-#O
-Vnum 10304
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'bless'
-End
-
-#O
-Vnum 12004
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 40
-End
-
-#O
-Vnum 10304
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'bless'
-End
-
-#O
-Vnum 1001
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1001
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3092
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3040
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 3040
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 3040
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 3040
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 3040
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 10427
-Enchanted
-Nest 1
-PrevOwner Angelbria~
-ExtF 67
-Cond 0
-Wear -1
-Cost 11800
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 2505
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 10429
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 2700
-End
-
-#O
-Vnum 10429
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 2700
-End
-
-#O
-Vnum 20727
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 5500
-End
-
-#O
-Vnum 16721
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 1400
-End
-
-#O
-Vnum 16721
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 1400
-End
-
-#O
-Vnum 20801
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 7305
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 3700
-End
-
-#O
-Vnum 2505
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 23124
-Nest 1
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 2400
-End
-
-#O
 Vnum 17609
 Nest 0
 PrevOwner Angelbria~
 Cond 0
 Wear -1
 Cost 500
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner Angelbria~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
 End
 
 #O
@@ -823,23 +546,6 @@ Cost 4500
 End
 
 #O
-Vnum 1236
-Nest 0
-PrevOwner Angelbria~
-Name shadow grim reaper~
-ShD  The Shadow of the Grim Reaper~
-Desc The Grim Reaper glares at you here with hunger in his eyes.~
-ExtF 66
-Cond 0
-Wear 12
-Lev  50
-Cost 5400
-Val  2 4 10 5 2052
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'enchant weapon'   0  53  -1   7  18          0
-End
-
-#O
 Vnum 18912
 Enchanted
 Nest 0
@@ -849,24 +555,10 @@ Cond 0
 Wear -1
 Lev  48
 Cost 4800
-Affc 'reserved'   1  40  -1  -1  20          0
-Affc 'reserved'   1  40  -1   0   0          0
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
-End
-
-#O
-Vnum 18120
-Enchanted
-Nest 0
-PrevOwner Angelbria~
-ExtF 323
-Cond 0
-Wear -1
-Lev  42
-Cost 1250
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'reserved'   1  40  -1   0   0          0
+Affc 'reserved'   1  40  -1  -1  20          0
 End
 
 #O
@@ -899,7 +591,7 @@ Nest 0
 PrevOwner Angelbria~
 ExtF 1051169
 Cond 0
-Wear 10
+Wear -1
 Cost 6372
 End
 
@@ -919,20 +611,6 @@ PrevOwner Angelbria~
 Cond 0
 Wear -1
 Cost 20000
-End
-
-#O
-Vnum 6702
-Enchanted
-Nest 0
-PrevOwner Angelbria~
-ExtF 66
-Cond 0
-Wear 16
-Lev  49
-Cost 20000
-Affc 'enchant weapon'   1  27  -1   5  19          0
-Affc 'enchant weapon'   0  27  -1   5  18          0
 End
 
 #O
@@ -1032,6 +710,381 @@ PrevOwner (null)~
 Cond 0
 Wear 14
 Cost 3000
+End
+
+#O
+Vnum 15227
+Nest 0
+PrevOwner Bewilder~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12006
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 23124
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 2400
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 7305
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 3700
+End
+
+#O
+Vnum 20801
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 16721
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 1400
+End
+
+#O
+Vnum 16721
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 1400
+End
+
+#O
+Vnum 20727
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 10429
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 2700
+End
+
+#O
+Vnum 10429
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 2700
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear 15
+Cost 1150
+End
+
+#O
+Vnum 10427
+Enchanted
+Nest 0
+PrevOwner Angelbria~
+ExtF 67
+Cond 0
+Wear -1
+Cost 11800
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3092
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 1001
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10304
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 10304
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 10304
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 0
+Val  31 10 7 17 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 17667
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 1000
+Val  20 5 3 55 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 17667
+Nest 0
+PrevOwner Angelbria~
+Cond 0
+Wear -1
+Cost 1000
+Val  20 5 2 55 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 1236
+Nest 0
+PrevOwner Chorbok~
+Name shadow grim reaper~
+ShD  The Shadow of the Grim Reaper~
+Desc The Grim Reaper glares at you here with hunger in his eyes.~
+ExtF 66
+Cond 0
+Wear 12
+Lev  50
+Cost 5400
+Val  2 4 10 5 2052
+Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Angelbria~
+ExtF 16777217
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 2370
+Nest 0
+PrevOwner Jemma~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12085
+Nest 0
+PrevOwner Tickle~
+Cond 0
+Wear 7
+Cost 8765
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner Zyria~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 18120
+Enchanted
+Nest 0
+PrevOwner Angelbria~
+ExtF 323
+Stolen 36
+Cond 0
+Wear 19
+Lev  42
+Cost 1250
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 6702
+Enchanted
+Nest 0
+PrevOwner Angelbria~
+ExtF 66
+Stolen 210
+Cond 0
+Wear 16
+Lev  49
+Cost 20000
+Affc 'enchant weapon'   0  27  -1   5  18          0
+Affc 'enchant weapon'   1  27  -1   5  19          0
 End
 
 #END

@@ -3,8 +3,8 @@ Name Yevon~
 SurN Djose~
 Id   1123004978
 Email (null)~
-LogO 1132521580
-Vers 31
+LogO 1444259792
+Vers 33
 LnD  A Gladiator~
 Desc invis glow hum not cursed = 15 sp
 Evil Glow hum no curse = Wrath of pen
@@ -27,6 +27,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 4 0 8
 Steal 0 0 0
+MSteal 0
 LstK Faewis~
 LstKBy Ergun~
 LstAtkedBy no one~
@@ -34,32 +35,38 @@ LstAtkedByTimer 0
 LstCombatDate 1128456956
 LstKillDate 1127359466
 LstDeathDate 1125930077
-LoginsWOKill 60
-LoginsWODeath 112
-LoginsWOCombat 43
+LoginsWOKill 86
+LoginsWODeath 138
+LoginsWOCombat 69
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 516783 huitzilopochtli~
-Sac  0
+Sac  300
 Sex  0
 Vump  0
 Node 0
 Cap 0
 Created 1123004995
 Glad 0 0 0 0 2 0
-LastHost c-67-165-88-187.hsd1.pa.comcast.net~
+LastHost 70.198.203.231~
 Cla  11
 Kit scribe~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 871960
-Not  1126328533 1129472941 0 1131210186 1121859963 1132178880 0 1132229752 0 1129478192
+Plyd 892529
+Not  1306541900 1406980220 0 1306795136 1121859963 1444230567 0 1306874349 0 1129478192
 Scro 22
 Rank 4
-Room 31900
-HMV  882 882 1054 1054 644 644
-Gold 683
-Silv 9312
+Room 16704
+HMV  844 882 81 1054 644 644
+Gold 641
+Silv 654
 Exp  140855
 Act  DEGHIKQRS
 MHSF RU
@@ -70,17 +77,18 @@ IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 5
-SkiP 244
+Prac 6
+Trai 16
+SkiP 254
 Save  -3
 Alig  -1000
 Hit   11
 Dam   21
 SecHit   11
 SecDam   21
-ACs -70 -64 -70 -25
-Wimp  10
-Attr 13 25 25 25 13 25 16 22
+ACs -110 -104 -110 -65
+Wimp  20
+Attr 13 25 25 25 13 17 8 22
 AMod 6 1 2 2 2 0 0 5
 Pass YeTd19iJoGBQc~
 Titl  white robes black heart.~
@@ -88,7 +96,7 @@ Pnts 63
 TSex 1
 LLev 171
 HMVP 702 959 614
-Cnd  0 0 0 0
+Cnd  0 0 6 6
 Alias 1 ord all rescue yevon~
 Alias / pray recall~
 Alias 4 c 'faerie fog'~
@@ -117,7 +125,6 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 75 'chill touch'
 Sk 75 'colour spray'
-Sk 1 'cone of silence'
 Sk 78 'control weather'
 Sk 75 'curse'
 Sk 1 'detect evil'
@@ -149,11 +156,11 @@ Sk 78 'forget'
 Sk 91 'fumble'
 Sk 100 'gate'
 Sk 84 'giant strength'
-Sk 95 'haste'
+Sk 97 'haste'
 Sk 75 'hydrophilia'
 Sk 100 'identify'
 Sk 1 'infravision'
-Sk 76 'invisibility'
+Sk 81 'invisibility'
 Sk 89 'knock'
 Sk 1 'know alignment'
 Sk 86 'lightning bolt'
@@ -207,7 +214,7 @@ Sk 100 'scribe'
 Sk 98 'scrolls'
 Sk 47 'staves'
 Sk 81 'wands'
-Sk 76 'swimming'
+Sk 79 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
@@ -224,6 +231,7 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
+Affc 'stone skin'   0  46  18 -40  17          0
 End
 
 #O
@@ -456,15 +464,6 @@ Affc 'reserved'   0  30  -1   0   0        512
 End
 
 #O
-Vnum 23505
-Nest 0
-PrevOwner Haggarth~
-Cond 0
-Wear 16
-Cost 700
-End
-
-#O
 Vnum 8542
 Nest 0
 PrevOwner (null)~
@@ -490,7 +489,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1000
-Val  20 5 3 55 0
+Val  20 5 3 58 0
 Spell 3 'cure critical'
 End
 
@@ -588,7 +587,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -605,7 +604,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -622,7 +621,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -639,7 +638,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -656,7 +655,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -673,7 +672,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -690,7 +689,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -707,7 +706,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -724,7 +723,7 @@ Cond 0
 Wear -1
 Lev  5
 Cost 0
-Val  53 125 -1 -1 -1
+Val  53 130 -1 -1 -1
 Spell 1 'invisibility'
 End
 
@@ -741,7 +740,7 @@ Cond 0
 Wear -1
 Lev  5
 Cost 0
-Val  53 125 -1 -1 -1
+Val  53 130 -1 -1 -1
 Spell 1 'invisibility'
 End
 
@@ -758,7 +757,7 @@ Cond 0
 Wear -1
 Lev  5
 Cost 0
-Val  53 125 -1 -1 -1
+Val  53 130 -1 -1 -1
 Spell 1 'invisibility'
 End
 
@@ -775,7 +774,7 @@ Cond 0
 Wear -1
 Lev  5
 Cost 0
-Val  53 125 -1 -1 -1
+Val  53 130 -1 -1 -1
 Spell 1 'invisibility'
 End
 
@@ -792,7 +791,7 @@ Cond 0
 Wear -1
 Lev  5
 Cost 0
-Val  53 125 -1 -1 -1
+Val  53 130 -1 -1 -1
 Spell 1 'invisibility'
 End
 
@@ -809,7 +808,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  53 34 -1 -1 -1
+Val  53 37 -1 -1 -1
 Spell 1 'charm person'
 End
 
@@ -826,7 +825,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  53 34 -1 -1 -1
+Val  53 37 -1 -1 -1
 Spell 1 'charm person'
 End
 
@@ -843,7 +842,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  53 34 -1 -1 -1
+Val  53 37 -1 -1 -1
 Spell 1 'charm person'
 End
 
@@ -915,7 +914,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -932,7 +931,7 @@ Cond 0
 Wear -1
 Lev  10
 Cost 0
-Val  53 178 -1 -1 -1
+Val  53 183 -1 -1 -1
 Spell 1 'sleep'
 End
 
@@ -1603,8 +1602,65 @@ Cost 10000
 End
 
 #O
+Vnum 20813
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 4000
+End
+
+#O
+Vnum 9806
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 23505
+Nest 0
+PrevOwner Yevon~
+Cond 0
+Wear 16
+Cost 700
+End
+
+#O
 Vnum 22044
-Nest 1
+Nest 0
 PrevOwner Yevon~
 Name large fragment imagination~
 ShD  Fragment of Imagination~
@@ -1612,15 +1668,6 @@ Desc There is large sized fragment of your own imagination on the ground. How co
 Cond 0
 Wear -1
 Cost 10000
-End
-
-#O
-Vnum 20813
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 1
-Cost 4000
 End
 
 #END

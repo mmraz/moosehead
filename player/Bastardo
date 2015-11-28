@@ -3,8 +3,8 @@ Name Bastardo~
 SurN SmartBastard~
 Id   1040644453
 Email (null)~
-LogO 1040646113
-Vers 31
+LogO 1325781987
+Vers 33
 Prom %hhp %mm %vmv|{M%X{x|({Y%g.%s{x)|{C%e{x|%w) ~
 Race human~
 Clan newbie~
@@ -16,6 +16,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +28,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -15 xochipili~
 Sac  300
@@ -36,17 +41,17 @@ Node 0
 Cap 0
 Created 1040644474
 Glad 0 0 0 0 0 0
-LastHost 146.230.40.207~
+LastHost 41.133.231.226~
 Cla  0
 ClaO 0
 Levl 1
 DLevl 0
-Plyd 650
+Plyd 800
 Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
-Room 16502
-HMV  20 20 100 100 65 100
+Room 3770
+HMV  20 20 100 100 52 100
 Gold 26
 Silv 422
 Exp  8107
@@ -59,12 +64,13 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 5
+Trai 6
 Save  -4
 Alig  -750
 Hit   4
 SecHit   3
 ACs 75 75 75 79
-Attr 13 16 15 13 18 13 13 13
+Attr 13 16 15 13 18 10 10 13
 AMod 2 0 2 2 1 0 0 0
 Pass BalhIs5pg8cDg~
 Titl  the confused~
@@ -72,7 +78,7 @@ Pnts 79
 TSex 1
 LLev 1
 HMVP 20 100 100
-Cnd  0 42 33 45
+Cnd  0 42 45 45
 Sk 1 'acid blast'
 Sk 1 'armor'
 Sk 1 'blindness'
@@ -162,7 +168,6 @@ Sk 1 'staves'
 Sk 1 'wands'
 Sk 50 'swimming'
 Sk 50 'recall'
-Sk 1 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
@@ -176,9 +181,9 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'bless'   0  30  32  -3  24          0
-Affc 'bless'   0  30  32   3  18          0
-Affc 'armor'   0  39  28 -20  17          0
+Affc 'armor'   0  39  24 -20  17          0
+Affc 'bless'   0  34  35   3  18          0
+Affc 'bless'   0  35  35  -3  24          0
 End
 
 #O
@@ -188,7 +193,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 185 0 0
+Val  0 0 181 0 0
 End
 
 #O
@@ -335,6 +340,7 @@ PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 0
+Val  100 1 0 10 85
 End
 
 #O

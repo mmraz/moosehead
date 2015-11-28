@@ -2,8 +2,8 @@
 Name Denlor~
 Id   925789661
 Email (null)~
-LogO 1111918235
-Vers 31
+LogO 1390895604
+Vers 33
 LnD  A Gladiator~
 Desc Denlor is a witch!  Burn him!
 "zax pakth arinos morthor"
@@ -13,11 +13,12 @@ Race elf~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 0
+SkPTimer 2
+SkPTracker 2
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy Kuno~
 LstAtkedBy no one~
@@ -29,59 +30,67 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
-Deity 1652909 matook~
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 1652909 huitzilopochtli~
 DeityT -32530 matook~
-Sac  300
+Sac  225
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 952338128
 Glad 0 1 0 0 1 0
-LastHost evrtwa1-ar16-4-40-000-157.evrtwa1.dsl-verizon.net~
+LastHost 50.135.108.136~
 Cla  14
 Kit bladesinger~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 5669483
-Not  1111550888 1111549675 0 1111901610 1110312209 1111458366 957418706 1110846765 0 1111048001
+Plyd 5728914
+Not  1111550888 1111549675 0 1111901610 1110312209 1390255126 957418706 1385305178 0 1384474516
 Scro 22
 Rank 0
-Room 3037
-HMV  1237 1237 460 460 530 530
-Gold 213
-Silv 5859
+Room 3054
+HMV  1083 1237 138 460 219 530
+Gold 397
+Silv 880
 Exp  489618
-Act  CDGHI
+Act  CDEGHI
 MHSF R
-AfBy JT
+AfBy CEHJTUV
 Comm S
 Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Trai 10
-SkiP 11
-Save  -3
-Alig  -719
-Hit   17
-Dam   46
-SecHit   14
-SecDam   45
-ACs 56 56 56 67
+Prac 15
+Trai 3
+ReTrai 10
+SkiP 30
+Save  -8
+Alig  -979
+Hit   23
+Dam   53
+SecHit   23
+SecDam   56
+ACs -2 6 6 46
 Wimp  20
-Attr 19 17 18 21 16 13 13 13
-AMod 0 -1 1 0 0 0 0 0
+Attr 19 17 18 21 16 11 12 13
+AMod 3 -1 2 6 0 0 0 0
 Pass De6a2Oc.hqpNs~
 Titl  meeeow?~
 Pnts 100
 TSex 1
 LLev 1
 HMVP 1212 417 495
-Cnd  0 0 0 0
-Alias [ ble 2.~
+Cnd  0 38 38 38
+Alias [ bl 2.~
 Alias \ c tel self~
 Alias = kil tax~
 Alias / ca 'dispel m' 2.~
@@ -100,17 +109,19 @@ Sk 1 'bestow holiness'
 OldSk 1 'bestow holiness'
 Sk 89 'bless'
 OldSk 83 'bless'
+Sk 75 'blindness'
 Sk 61 'calm'
 OldSk 61 'calm'
 Sk 79 'cancellation'
 OldSk 61 'cancellation'
+Sk 1 'change sex'
 Sk 75 'continual light'
 Sk 75 'create food'
 Sk 86 'create fountain'
 Sk 75 'create rose'
 Sk 75 'create spring'
 Sk 75 'create water'
-Sk 75 'cure blindness'
+Sk 80 'cure blindness'
 Sk 75 'cure critical'
 OldSk 75 'cure critical'
 Sk 77 'cure disease'
@@ -119,6 +130,7 @@ OldSk 1 'cure light'
 Sk 77 'cure poison'
 Sk 62 'cure serious'
 OldSk 61 'cure serious'
+Sk 1 'curse'
 Sk 100 'demonfire'
 OldSk 92 'demonfire'
 Sk 75 'dispel evil'
@@ -133,21 +145,25 @@ Sk 1 'endure cold'
 OldSk 1 'endure cold'
 Sk 1 'endure heat'
 OldSk 1 'endure heat'
+Sk 75 'energy drain'
 Sk 84 'entrance'
 OldSk 81 'entrance'
 Sk 100 'famine'
 OldSk 100 'famine'
 Sk 77 'feast'
 OldSk 1 'feast'
+Sk 1 'feeblemind'
 Sk 75 'fireproof'
 OldSk 1 'fireproof'
-Sk 77 'flamestrike'
+Sk 79 'flamestrike'
 OldSk 77 'flamestrike'
 Sk 75 'floating disc'
 Sk 94 'fly'
 OldSk 86 'fly'
+Sk 1 'forget'
 Sk 90 'frenzy'
 OldSk 82 'frenzy'
+Sk 1 'fumble'
 Sk 100 'gate'
 OldSk 100 'gate'
 Sk 94 'giant strength'
@@ -162,7 +178,7 @@ Sk 1 'hold person'
 OldSk 1 'hold person'
 Sk 61 'holy word'
 OldSk 61 'holy word'
-Sk 63 'infravision'
+Sk 66 'infravision'
 OldSk 61 'infravision'
 Sk 1 'knock'
 OldSk 1 'knock'
@@ -172,6 +188,8 @@ Sk 75 'nexus'
 OldSk 75 'nexus'
 Sk 100 'pass door'
 OldSk 71 'pass door'
+Sk 75 'plague'
+Sk 78 'poison'
 Sk 75 'portal'
 OldSk 1 'portal'
 Sk 95 'protection evil'
@@ -182,16 +200,17 @@ Sk 64 'protection neutral'
 OldSk 61 'protection neutral'
 Sk 79 'ray of truth'
 OldSk 75 'ray of truth'
-Sk 88 'refresh'
+Sk 91 'refresh'
 OldSk 81 'refresh'
-Sk 81 'remove curse'
+Sk 83 'remove curse'
 OldSk 61 'remove curse'
 Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
 Sk 100 'sanctuary'
 OldSk 97 'sanctuary'
-Sk 96 'shield'
+Sk 98 'shield'
 OldSk 82 'shield'
+Sk 76 'slow'
 Sk 93 'stone skin'
 OldSk 79 'stone skin'
 Sk 94 'summon'
@@ -199,6 +218,7 @@ OldSk 94 'summon'
 Sk 100 'teleport'
 OldSk 100 'teleport'
 Sk 75 'warp'
+Sk 75 'weaken'
 Sk 100 'word of recall'
 OldSk 99 'word of recall'
 Sk 100 'axe'
@@ -218,8 +238,8 @@ OldSk 91 'berserk'
 Sk 100 'bladesong'
 Sk 100 'bleed'
 OldSk 100 'bleed'
-Sk 1 'bludgeon'
-Sk 94 'cleave'
+Sk 75 'bludgeon'
+Sk 100 'cleave'
 OldSk 100 'daetok'
 Sk 100 'dirt kicking'
 OldSk 93 'dirt kicking'
@@ -252,7 +272,7 @@ OldSk 100 'fast healing'
 Sk 86 'hide'
 Sk 100 'lore'
 Sk 100 'peek'
-Sk 72 'pick lock'
+Sk 74 'pick lock'
 Sk 100 'riding'
 OldSk 100 'riding'
 Sk 100 'sneak'
@@ -274,9 +294,17 @@ Gr 'creation'
 Gr 'curative'
 Gr 'enhancement'
 Gr 'healing'
+Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
 Gr 'nosferatu'
+Affc 'sanctuary'   0  39   0   0   0        128
+Affc 'pass door'   0  40   0   0   0    1048576
+Affc 'detect magic'   0   9   0   0   0         16
+Affc 'haste'   0  39   1   4   2    2097152
+Affc 'bless'   0  35   5  -5  24          0
+Affc 'bless'   0  35   5   5  18          0
+Affc 'shield'   0  32   6 -20  17          0
 End
 
 #O
@@ -299,8 +327,8 @@ Cond 0
 Wear 7
 Cost 2000
 Val  7 7 7 4 2
-Affc 'reserved'   1  39  -1  -2  20          0
 Affc 'reserved'   1  39  -1   2  19          0
+Affc 'reserved'   1  39  -1  -2  20          0
 End
 
 #O
@@ -310,61 +338,6 @@ PrevOwner Denlor~
 Cond 0
 Wear 13
 Cost 4000
-End
-
-#O
-Vnum 3040
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 3040
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 3040
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
-Vnum 10043
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 0
-Val  0 0 0 37 512
-End
-
-#O
-Vnum 10043
-Enchanted
-Nest 1
-PrevOwner Denlor~
-ExtF 67
-Cond 0
-Wear -1
-Lev  15
-Cost 0
-Val  0 0 0 37 1024
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
@@ -378,42 +351,6 @@ Val  4 0 0 4 1024
 End
 
 #O
-Vnum 12007
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2602
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 5800
-End
-
-#O
-Vnum 12010
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 17631
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 250
-End
-
-#O
 Vnum 3377
 Nest 1
 PrevOwner Denlor~
@@ -450,22 +387,13 @@ Cost 10000
 End
 
 #O
-Vnum 8517
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 23534
 Nest 1
 PrevOwner Denlor~
 Cond 0
 Wear -1
 Cost 3000
-Val  25 22 -1 -1 -1
+Val  25 25 -1 -1 -1
 Spell 1 'body weaponry'
 End
 
@@ -476,7 +404,7 @@ PrevOwner Denlor~
 Cond 0
 Wear -1
 Cost 3000
-Val  25 22 -1 -1 -1
+Val  25 25 -1 -1 -1
 Spell 1 'body weaponry'
 End
 
@@ -487,7 +415,7 @@ PrevOwner Denlor~
 Cond 0
 Wear -1
 Cost 3000
-Val  25 22 -1 -1 -1
+Val  25 25 -1 -1 -1
 Spell 1 'body weaponry'
 End
 
@@ -498,7 +426,7 @@ PrevOwner Denlor~
 Cond 0
 Wear -1
 Cost 3000
-Val  25 22 -1 -1 -1
+Val  25 25 -1 -1 -1
 Spell 1 'body weaponry'
 End
 
@@ -509,7 +437,7 @@ PrevOwner Denlor~
 Cond 0
 Wear -1
 Cost 3000
-Val  25 22 -1 -1 -1
+Val  25 25 -1 -1 -1
 Spell 1 'body weaponry'
 End
 
@@ -520,7 +448,7 @@ PrevOwner Denlor~
 Cond 0
 Wear -1
 Cost 3000
-Val  25 22 -1 -1 -1
+Val  25 25 -1 -1 -1
 Spell 1 'body weaponry'
 End
 
@@ -531,7 +459,7 @@ PrevOwner Denlor~
 Cond 0
 Wear -1
 Cost 3000
-Val  25 22 -1 -1 -1
+Val  25 25 -1 -1 -1
 Spell 1 'body weaponry'
 End
 
@@ -542,18 +470,7 @@ PrevOwner Denlor~
 Cond 0
 Wear -1
 Cost 3000
-Val  25 22 -1 -1 -1
-Spell 1 'body weaponry'
-End
-
-#O
-Vnum 23534
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 3000
-Val  25 22 -1 -1 -1
+Val  25 25 -1 -1 -1
 Spell 1 'body weaponry'
 End
 
@@ -570,16 +487,6 @@ Cost 0
 End
 
 #O
-Vnum 3040
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 890
-Spell 1 'identify'
-End
-
-#O
 Vnum 6433
 Nest 1
 PrevOwner Denlor~
@@ -587,54 +494,6 @@ Cond 0
 Wear -1
 Cost 4900
 Val  1 4 9 5 1024
-End
-
-#O
-Vnum 2422
-Enchanted
-Nest 1
-PrevOwner Denlor~
-Name green tail~
-ShD  {DTail of the Dracolitch{x~
-Desc A strange green tail lays here.~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 700
-Val  7 5 8 37 1028
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-End
-
-#O
-Vnum 2437
-Enchanted
-Nest 1
-PrevOwner Denlor~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 2000
-Val  0 10 3 1 1032
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   1  53  -1   7  18          0
-End
-
-#O
-Vnum 18912
-Enchanted
-Nest 1
-PrevOwner Denlor~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 4800
-Val  2 2 17 11 1030
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
@@ -648,90 +507,10 @@ Wear -1
 Lev  50
 Cost 7150
 Val  4 5 8 7 1284
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'reserved'   1  49  -1   0   0          0
 Affc 'enchant weapon'   0  53  -1   8  18          0
-End
-
-#O
-Vnum 10427
-Enchanted
-Nest 1
-PrevOwner Denlor~
-ExtF 67
-Cond 0
-Wear -1
-Cost 12980
-Val  0 12 3 10 1028
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-End
-
-#O
-Vnum 22506
-Enchanted
-Nest 1
-PrevOwner Denlor~
-ExtF 536870979
-Cond 0
-Wear -1
-Lev  50
-Cost 1320
-Val  1 10 4 38 4
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1   7  19          0
-End
-
-#O
-Vnum 23504
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 22552
-Enchanted
-Nest 1
-PrevOwner Denlor~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   0  52  -1  12  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 1
-PrevOwner Denlor~
-ExtF 99
-Cond 0
-Wear -1
-Lev  50
-Cost 0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'reserved'   1  49  -1  20  13          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 1
-PrevOwner Denlor~
-ExtF 99
-Cond 0
-Wear -1
-Lev  50
-Cost 4950
-Val  2 2 19 2 7
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1   7  18          0
 End
 
 #O
@@ -744,24 +523,6 @@ Cost 0
 End
 
 #O
-Vnum 22504
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 22564
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 3007
 Nest 1
 PrevOwner Denlor~
@@ -903,17 +664,6 @@ PrevOwner Denlor~
 Cond 0
 Wear -1
 Cost 100000
-End
-
-#O
-Vnum 1110
-Nest 1
-PrevOwner Denlor~
-ShD  The {REgg{x of {RDoom{x!!!~
-Cond 0
-Wear -1
-Cost 2
-Val  12 12 0 1 0
 End
 
 #O
@@ -983,25 +733,6 @@ Cost 100000
 End
 
 #O
-Vnum 20003
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20002
-Nest 1
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 0
-Val  0 0 0 0 20006
-End
-
-#O
 Vnum 20001
 Nest 1
 PrevOwner Denlor~
@@ -1022,6 +753,33 @@ Val  0 0 0 0 20002
 End
 
 #O
+Vnum 22044
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
 Vnum 3147
 Nest 1
 PrevOwner Denlor~
@@ -1032,12 +790,347 @@ Val  0 0 0 0 20000
 End
 
 #O
+Vnum 1110
+Nest 1
+PrevOwner Denlor~
+ShD  The {REgg{x of {RDoom{x!!!~
+Cond 0
+Wear -1
+Cost 2
+Val  12 12 0 1 0
+End
+
+#O
+Vnum 20003
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2422
+Enchanted
+Nest 1
+PrevOwner Denlor~
+Name green tail~
+ShD  {DTail of the Dracolitch{x~
+Desc A strange green tail lays here.~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 700
+Val  7 5 8 37 1028
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 2437
+Enchanted
+Nest 1
+PrevOwner Denlor~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 2000
+Val  0 10 3 1 1032
+Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 22504
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10427
+Enchanted
+Nest 1
+PrevOwner Denlor~
+ExtF 67
+Cond 0
+Wear -1
+Cost 12980
+Val  0 12 3 10 1028
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
+End
+
+#O
 Vnum 22044
 Nest 1
 PrevOwner Denlor~
 Cond 0
 Wear -1
 Cost 100000
+End
+
+#O
+Vnum 3041
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 220
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 3041
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 220
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 3041
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 220
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 3041
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 220
+Spell 1 'detect invis'
+End
+
+#O
+Vnum 18912
+Enchanted
+Nest 1
+PrevOwner Denlor~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 4800
+Val  2 2 17 11 1030
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 1
+PrevOwner Denlor~
+ExtF 99
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 22506
+Enchanted
+Nest 1
+PrevOwner Denlor~
+ExtF 536870979
+Cond 0
+Wear -1
+Lev  50
+Cost 1320
+Val  1 10 4 38 4
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
+End
+
+#O
+Vnum 23504
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 4825
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 7000
+End
+
+#O
+Vnum 20002
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 20006
+End
+
+#O
+Vnum 10043
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 37 512
+End
+
+#O
+Vnum 10043
+Enchanted
+Nest 1
+PrevOwner Denlor~
+ExtF 67
+Cond 0
+Wear -1
+Lev  15
+Cost 0
+Val  0 0 0 37 1024
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+End
+
+#O
+Vnum 1269
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22552
+Enchanted
+Nest 1
+PrevOwner Denlor~
+ExtF 67
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
+End
+
+#O
+Vnum 22564
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 17631
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 2602
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 5800
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20730
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 6100
+End
+
+#O
+Vnum 11144
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 11096
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 11097
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 22089
 End
 
 #O
@@ -1056,6 +1149,15 @@ PrevOwner Denlor~
 Cond 0
 Wear -1
 Cost 100000
+End
+
+#O
+Vnum 6601
+Nest 1
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 620
 End
 
 #O
@@ -1068,35 +1170,12 @@ Cost 5500
 End
 
 #O
-Vnum 923
-Enchanted
-Nest 0
-PrevOwner Denlor~
-ExtF 1122
-Cond 0
-Wear -1
-Cost 7323
-Val  1 4 11 3 1024
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-End
-
-#O
 Vnum 5922
 Nest 0
 PrevOwner Denlor~
 Cond 0
 Wear 4
 Cost 300
-End
-
-#O
-Vnum 11145
-Nest 0
-PrevOwner Denlor~
-Cond 0
-Wear 18
-Cost 4950
 End
 
 #O
@@ -1111,33 +1190,10 @@ End
 #O
 Vnum 16721
 Nest 0
-PrevOwner (null)~
+PrevOwner Denlor~
 Cond 0
 Wear 3
 Cost 1400
-End
-
-#O
-Vnum 15231
-Nest 0
-PrevOwner Denlor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5939
-Enchanted
-Nest 0
-PrevOwner Denlor~
-ExtF 323
-Cond 0
-Wear 19
-Cost 4400
-Val  1 5 8 3 1088
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
@@ -1148,12 +1204,86 @@ PrevOwner Denlor~
 ShD  {GA GREEN Kenyon Blade{x~
 ExtF 67
 Cond 0
-Wear 16
+Wear -1
 Lev  50
 Cost 21900
 Val  1 6 6 1 1028
-Affc 'enchant weapon'   1  53  -1  10  19          0
 Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 2301
+Enchanted
+Nest 0
+PrevOwner Denlor~
+ExtF 64
+Cond 0
+Wear 5
+Lev  23
+Cost 4200
+Affc 'reserved'   1  22  -1   2  19          0
+Affc 'enchant armor'   1  51  -1  -1  17          0
+End
+
+#O
+Vnum 2390
+Nest 0
+PrevOwner Denlor~
+Cond 0
+Wear 9
+Cost 5800
+End
+
+#O
+Vnum 23517
+Nest 0
+PrevOwner Denlor~
+Cond 0
+Wear 6
+Cost 4829
+End
+
+#O
+Vnum 23518
+Enchanted
+Nest 0
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 4500
+Affc 'enchant armor'   1  51  -1  -1  17          0
+Affc 'reserved'   1  51  -1   2  31          0
+Affc 'reserved'   0  51  -1   0   0        512
+Affc 'reserved'   0  51  -1   0   0          2
+Affc 'reserved'   1  51  -1   2  19          0
+End
+
+#O
+Vnum 5929
+Nest 0
+PrevOwner Denlor~
+Cond 0
+Wear 15
+Cost 0
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner Denlor~
+Cond 0
+Wear 14
+Cost 1150
+End
+
+#O
+Vnum 4823
+Nest 0
+PrevOwner Denlor~
+Cond 0
+Wear 0
+Cost 4950
 End
 
 #O
@@ -1162,15 +1292,6 @@ Nest 0
 PrevOwner Denlor~
 Cond 0
 Wear 2
-Cost 7000
-End
-
-#O
-Vnum 4825
-Nest 0
-PrevOwner Denlor~
-Cond 0
-Wear 1
 Cost 7000
 End
 
@@ -1185,21 +1306,64 @@ Cost 6372
 End
 
 #O
-Vnum 4823
+Vnum 20813
 Nest 0
 PrevOwner Denlor~
 Cond 0
-Wear 0
-Cost 4500
+Wear 1
+Cost 4000
 End
 
 #O
-Vnum 17636
+Vnum 11145
 Nest 0
-PrevOwner Takar~
+PrevOwner Denlor~
 Cond 0
-Wear 9
+Wear 18
+Cost 4950
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 0
+PrevOwner Denlor~
+ExtF 99
+Cond 0
+Wear 19
+Lev  50
+Cost 4950
+Val  2 2 19 2 7
+Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 5939
+Enchanted
+Nest 0
+PrevOwner Denlor~
+ExtF 323
+Cond 0
+Wear 16
+Cost 4400
+Val  1 5 8 3 1088
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
+End
+
+#O
+Vnum 923
+Enchanted
+Nest 0
+PrevOwner Denlor~
+ExtF 1122
+Cond 0
+Wear -1
 Cost 0
+Val  1 4 11 3 1024
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #END

@@ -212,6 +212,58 @@ ABITZ 0 0 0
 EFNU AB 0 0
 stand stand female 0
 AHMV ABCDEF giant 0
+#12
+insane mime~
+An insane {Wm{xi{Wm{xe~
+An insane {Wm{xi{Wm{xe is here, acting out a scene.
+~
+The mime's eyes dart around, filled with insanity. A powerful aura
+of magic radiates off of him.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABc 0 0 0
+26 5 1d1+9999 1d1+99 2d2+1 slap
+-300 -300 -300 -300
+ABCDEFHIJKMNc AB CD 0
+stand stand male 0
+DH 0 medium 0
+#13
+rainbow end~
+A {rr{Ra{Yi{Gn{Cb{Bo{Mw{x's end~
+A {rr{Ra{Yi{Gn{Cb{Bo{Mw{x's end has touched down in this room.
+~
+The {rr{Ra{Yi{Gn{Cb{Bo{Mw{x is amazingly beautiful to behold.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABc 0 0 0
+1 5 1d1+9999 1d1+99 2d2+1 slap
+-300 -300 -300 -300
+ABCDEFHIJKMNc AB CD 0
+stand stand male 0
+DH 0 medium 0
+#14
+clan guardian~
+A Clan Guardian~
+A Guardian for one of the clans is here, watching for foes.
+~
+The Guardian keeps looking around the room, ever watchful for enemies.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABc 0 0 0
+26 5 1d1+9999 1d1+99 2d2+1 slash
+-300 -300 -300 -300
+ABCDEFHIJKMNc AB CD 0
+stand stand male 0
+DH 0 medium 0
 #0
 
 #OBJECTS
@@ -471,6 +523,24 @@ ice~
 none 0 0
 0 0 0 0 0
 0 100 0 P
+#33
+crumpled scroll~
+a crumpled scroll~
+A crumpled scroll from an insane mime. You can almost hear the quiet around it.
+
+This may not be useful now, but it will be in the future.~
+paper~
+spell_page 0 AO
+30 120 'cone of silence' 1 0
+30 100 0 P
+#34
+blood trail~
+a blood trail~
+~
+blood~
+trash OR 0
+10 0 BEHK 100 100
+0 100 0 P
 #0
 
 #ROOMS
@@ -496,6 +566,7 @@ S
 #0
 
 #RESETS
+M 0 12      1    1  1   * an insane mime
 M 0 12012   2    1  1	* the blue phoenix
 E 1 12063  -1   17	*   a feather of the Phoenix
 S
@@ -511,6 +582,9 @@ M 7 spec_breath_frost   	* a water elemental
 M 8 spec_breath_acid    	* an earth elemental
 M 9 spec_cast_undead    	* a spirit elemental
 M 10 spec_cast_judge     	* an energy elemental
+M 12 spec_insane_mime		* an insane mime
+M 13 spec_rainbow		* a rainbow's end
+M 14 spec_clan_guardian		* a clan guardian
 S
 
 #$

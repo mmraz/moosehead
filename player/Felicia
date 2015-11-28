@@ -3,18 +3,19 @@ Name Felicia~
 SurN Phalangie~
 Id   1014746970
 Email (null)~
-LogO 1109704611
-Vers 31
+LogO 1408215896
+Vers 33
 Prom <%hhp %mm %vmv> ~
 Race dragon~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 4
+SkPTimer 2
+SkPTracker 3
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 DeityT -10074 matook~
 Sac  100
@@ -35,44 +42,49 @@ Node 0
 Cap 0
 Created 1014746981
 Glad 0 0 0 0 0 0
-LastHost 137.122.145.206~
+LastHost 99.241.33.67~
 Cla  12
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 422172
+Plyd 426330
 Not  1020986772 1020986776 0 1020986767 1108772426 1020986787 0 1020986774 0 1020986780
 Scro 22
 Rank 0
-Room 3054
-HMV  941 941 759 759 427 427
-Gold 592
-Silv 10233
+Room 16503
+HMV  1031 1031 872 872 427 427
+Gold 626
+Silv 2766
 Exp  449631
 Act  CDEGHK
 MHSF R
-AfBy JT
+AfBy CJTb
 Comm 0
 Disp BFIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 107
-Trai 41
-SkiP 141
+Prac 108
+Trai 43
+SkiP 160
+Save  -3
 Alig  -1000
-ACs 100 100 100 100
+Hit   27
+Dam   32
+SecHit   17
+SecDam   22
+ACs 18 16 23 60
 Wimp  20
-Attr 20 20 20 20 22 13 13 13
-AMod 0 0 0 0 0 0 0 0
+Attr 20 20 20 20 22 11 14 13
+AMod 3 0 -1 0 3 0 0 0
 Pass FeVurXUWHVcK.~
 Titl  Air~
 Pnts 100
 TSex 2
 LLev 104
 HMVP 941 759 427
-Cnd  0 0 0 0
+Cnd  0 0 6 2
 Alias k kill~
 Alias ff cast faerie~
 Alias cc cast heal~
@@ -92,7 +104,6 @@ Sk 1 'call lightning'
 Sk 75 'calm'
 Sk 87 'cancellation'
 Sk 1 'change sex'
-Sk 1 'cone of silence'
 Sk 1 'control weather'
 Sk 77 'cure blindness'
 Sk 91 'cure critical'
@@ -157,11 +168,11 @@ Sk 75 'regeneration'
 Sk 85 'remove curse'
 Sk 75 'sacred guardian'
 Sk 100 'sanctuary'
-Sk 84 'shield'
+Sk 87 'shield'
 Sk 75 'shield of faith'
 Sk 80 'slow'
 Sk 77 'stone skin'
-Sk 82 'summon'
+Sk 84 'summon'
 Sk 1 'symbol iii'
 Sk 75 'teleport'
 Sk 83 'tower of iron will'
@@ -344,15 +355,6 @@ Cost 1140
 End
 
 #O
-Vnum 4433
-Nest 1
-PrevOwner Felicia~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
 Vnum 2803
 Nest 1
 PrevOwner Felicia~
@@ -389,15 +391,6 @@ Cost 1500
 End
 
 #O
-Vnum 18011
-Nest 1
-PrevOwner Felicia~
-Cond 0
-Wear -1
-Cost 650
-End
-
-#O
 Vnum 16721
 Nest 1
 PrevOwner Felicia~
@@ -431,15 +424,6 @@ PrevOwner Felicia~
 Cond 0
 Wear -1
 Cost 6900
-End
-
-#O
-Vnum 16721
-Nest 1
-PrevOwner Felicia~
-Cond 0
-Wear -1
-Cost 1400
 End
 
 #O
@@ -525,15 +509,6 @@ Cost 0
 End
 
 #O
-Vnum 2332
-Nest 1
-PrevOwner Felicia~
-Cond 0
-Wear -1
-Cost 7600
-End
-
-#O
 Vnum 5706
 Nest 1
 PrevOwner Felicia~
@@ -585,15 +560,6 @@ PrevOwner Felicia~
 Cond 0
 Wear -1
 Cost 6500
-End
-
-#O
-Vnum 23124
-Nest 1
-PrevOwner Felicia~
-Cond 0
-Wear -1
-Cost 2400
 End
 
 #O
@@ -660,15 +626,6 @@ Cost 1150
 End
 
 #O
-Vnum 20727
-Nest 1
-PrevOwner Felicia~
-Cond 0
-Wear -1
-Cost 5500
-End
-
-#O
 Vnum 3377
 Nest 1
 PrevOwner Felicia~
@@ -678,13 +635,58 @@ Cost 10000
 End
 
 #O
+Vnum 22044
+Nest 1
+PrevOwner Felicia~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Felicia~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 20727
+Nest 1
+PrevOwner Felicia~
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 2332
+Nest 1
+PrevOwner Felicia~
+Cond 0
+Wear -1
+Cost 7600
+End
+
+#O
+Vnum 23124
+Nest 1
+PrevOwner Felicia~
+Cond 0
+Wear -1
+Cost 2400
+End
+
+#O
 Vnum 5937
 Nest 0
 PrevOwner Souzo~
 ExtF 134217728
 Wt   48
 Cond 0
-Wear -1
+Wear 9
 Cost 4000
 Val  8 8 8 5 5
 End
@@ -703,7 +705,7 @@ Vnum 5909
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 2
 Cost 3000
 End
 
@@ -739,7 +741,7 @@ Vnum 8800
 Nest 0
 PrevOwner Felicia~
 Cond 0
-Wear -1
+Wear 15
 Cost 1870
 End
 
@@ -762,24 +764,6 @@ Cost 4500
 End
 
 #O
-Vnum 1514
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 15231
-Nest 0
-PrevOwner Felicia~
-Cond 0
-Wear -1
-Cost 8000
-End
-
-#O
 Vnum 18108
 Nest 0
 PrevOwner Felicia~
@@ -793,7 +777,7 @@ Vnum 18105
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 11
 Cost 4500
 End
 
@@ -802,7 +786,7 @@ Vnum 10339
 Nest 0
 PrevOwner Felicia~
 Cond 0
-Wear -1
+Wear 8
 Cost 20000
 End
 
@@ -811,7 +795,7 @@ Vnum 22504
 Nest 0
 PrevOwner Tikko~
 Cond 0
-Wear -1
+Wear 0
 Cost 0
 End
 
@@ -830,7 +814,7 @@ Vnum 15227
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 12
 Cost 20000
 End
 
@@ -844,48 +828,12 @@ Cost 900
 End
 
 #O
-Vnum 8504
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
 Vnum 16638
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 10
 Cost 6372
-End
-
-#O
-Vnum 8504
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8504
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8504
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6000
 End
 
 #O
@@ -895,7 +843,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 200
-Val  150 70 0 0 0
+Val  150 22 0 0 0
 End
 
 #O
@@ -1029,7 +977,7 @@ Vnum 5234
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 18
 Cost 550
 End
 
@@ -1058,7 +1006,7 @@ Nest 0
 PrevOwner Felicia~
 ExtF 83
 Cond 0
-Wear -1
+Wear 16
 Lev  50
 Cost 5400
 Affc 'reserved'   1  46  -1  25  12          0
@@ -1080,7 +1028,7 @@ Vnum 6716
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 7
 Cost 3750
 End
 
@@ -1092,7 +1040,7 @@ Name emerald dress~
 ShD  a {DFormfitting {GGreen {gEmerald {DDress{x~
 Desc This elegant gown is enstrewn in brilliant {GGreen {GEmeralds{x that sparkle.~
 Cond 0
-Wear -1
+Wear 5
 Cost 13700
 End
 
@@ -1104,7 +1052,7 @@ Name emerald tennis bracelet~
 ShD  a {gDeep {GGreen {gEmerald {WTennis Bracelet{x~
 Desc These high quality jewels {WSparkle{x with {WDiamonds{x as well as the brilliant {gEmeralds.{x~
 Cond 0
-Wear -1
+Wear 14
 Cost 1150
 End
 
@@ -1119,23 +1067,6 @@ Val  50 38 10 0 0
 End
 
 #O
-Vnum 1258
-Nest 0
-PrevOwner Nike~
-Name bag beta Nike~
-ShD  a bag made from Nike's hide~
-Desc A bag of fine Nike hide catches your eye.  ~
-ExtF 67125248
-WeaF 16385
-Wt   5
-Cond 0
-Wear -1
-Lev  15
-Cost 2250
-Val  450 1 -1 90 25
-End
-
-#O
 Vnum 6434
 Enchanted
 Nest 0
@@ -1144,7 +1075,7 @@ Name Nike Pimpin Swoosh Ring~
 ShD  Nike's Pimpin Swoosh Ring~
 Desc this is the goudiest ring you have ever seen, But its worth a bundle!~
 Cond 0
-Wear -1
+Wear 1
 Lev  38
 Cost 5300
 Affc 'reserved'   1  37  -1  30  12          0
@@ -1156,7 +1087,7 @@ Vnum 1507
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 4
 Cost 480
 End
 
@@ -1167,24 +1098,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
-End
-
-#O
-Vnum 8106
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
-Vnum 8141
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
 End
 
 #O
@@ -1233,21 +1146,164 @@ Cost 320
 End
 
 #O
-Vnum 22044
+Vnum 18011
 Nest 0
-PrevOwner (null)~
+PrevOwner Felicia~
 Cond 0
-Wear -1
-Cost 100000
+Wear 6
+Cost 650
 End
 
 #O
-Vnum 22044
+Vnum 16721
+Nest 0
+PrevOwner Felicia~
+Cond 0
+Wear 3
+Cost 1400
+End
+
+#O
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 100000
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 8510
+Nest 0
+PrevOwner Rukh~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Felicia~
+Name bag beta Nike~
+ShD  a bag made from Nike's hide~
+Desc A bag of fine Nike hide catches your eye.  ~
+ExtF 67125248
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  15
+Cost 2250
+Val  450 1 -1 90 25
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner Felicia~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 2422
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 700
+End
+
+#O
+Vnum 2428
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3400
+End
+
+#O
+Vnum 2434
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2400
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner Felicia~
+Cond 0
+Wear -1
+Cost 6000
 End
 
 #END

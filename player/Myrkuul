@@ -2,22 +2,22 @@
 Name Myrkuul~
 Id   958976114
 Email (null)~
-LogO 1099878059
-Vers 31
+LogO 1353278163
+Vers 33
 LnD  A Gladiator~
 Desc Death becomes you...
 ~
 Prom <%hhp %mm %vmv %Xxp> ~
 Race yinn~
-Clan demise~
 Outc 0
-RufT 305
+RufT 246
 MatookT 0
-SkPTimer 0
-SkPTracker 10
+SkPTimer 2
+SkPTracker 2
 LogoutTracker 0
 Kill 2 1 0 1
 Steal 0 0 0
+MSteal 0
 LstK Wikerus~
 LstKBy Vashe~
 LstAtkedBy no one~
@@ -25,11 +25,15 @@ LstAtkedByTimer 0
 LstCombatDate 1097983133
 LstKillDate 1097983133
 LstDeathDate 1093912148
-LoginsWOKill 5
-LoginsWODeath 16
-LoginsWOCombat 4
+LoginsWOKill 12
+LoginsWODeath 23
+LoginsWOCombat 11
 Bnty 0
-Deity 250114 hermes~
+DeityFavor 0 0
+PrefStat 0
+OldC 3 76 1
+QuestWins 0 0
+Deity 250114 cthon~
 Sac  194
 Sex  1
 Vump  4
@@ -37,24 +41,24 @@ Node 0
 Cap 0
 Created 958976132
 Glad 0 0 0 0 1 0
-LastHost 66.168.138.246~
+LastHost 68.226.55.148~
 Cla  14
 Kit ranger~
 ClaO 3
 Levl 27
 DLevl 0
-Plyd 273139
-Not  1099877720 1099877720 1099877720 1099877720 1099877720 1099877720 1099877720 1099877720 1099877720 1099877720
+Plyd 275514
+Not  1310781741 1310781741 1310781741 1310781741 1310781741 1310781741 1310781741 1310781741 1310781741 1310781741
 Scro 22
-Rank 1
+Rank 0
 Room 31422
-HMV  721 764 158 222 292 304
+HMV  764 764 222 222 304 304
 Gold 19
 Silv 89
-Exp  295108
+Exp  295112
 Act  CDFGHJQSa
 MHSF R
-AfBy HJV
+AfBy JP
 Comm I
 Disp FIJN
 IcgB 0
@@ -62,24 +66,25 @@ Icg 0
 Wizn W
 Pos  8
 Prac 54
+Trai 9
 SkiP 47
-Save  -12
+Save  -6
 Alig  -758
-Hit   28
-Dam   31
-SecHit   27
-SecDam   30
-ACs 6 6 6 39
+Hit   14
+Dam   23
+SecHit   13
+SecDam   22
+ACs 61 61 61 93
 Wimp  50
-Attr 22 18 19 22 21 18 19 13
-AMod 3 1 0 4 1 0 0 0
+Attr 22 18 19 22 21 14 14 13
+AMod 3 2 1 2 1 0 0 0
 Pass MyFxF3clY0O0w~
 Titl , {rHand{x of {DCthon{x.~
 Pnts 99
 TSex 1
 LLev 73
 HMVP 744 236 304
-Cnd  0 0 45 4
+Cnd  0 4 44 12
 Alias k kill~
 Alias b bash~
 Alias di disarm~
@@ -94,7 +99,7 @@ Sk 1 'bestow holiness'
 Sk 70 'bless'
 Sk 1 'calm'
 Sk 1 'famine'
-Sk 62 'feast'
+Sk 64 'feast'
 Sk 36 'fly'
 Sk 75 'frenzy'
 Sk 75 'gate'
@@ -144,17 +149,7 @@ Gr 'weaponsmaster'
 Gr 'benedictions'
 Gr 'transportation'
 Gr 'garou'
-Affc 'frenzy'   0  20   5  10  17          0
-Affc 'frenzy'   0  21   5   3  19          0
-Affc 'frenzy'   0  20   5   3  18          0
-Affc 'sanctuary'   0  44   4   0   0        128
-Affc 'armor'   0  43  32 -20  17          0
-Affc 'haste'   0  21   7   2   2    2097152
-Affc 'stone skin'   0  10   7 -40  17          0
-Affc 'daetok'   0  27   7   4  19          0
-Affc 'daetok'   0  26   7   4  18          0
-Affc 'bless'   0  50  51  -6  24          0
-Affc 'bless'   0  51  51   6  18          0
+Affc 'sneak'   0  22   4   0   0      32768
 End
 
 #O
@@ -162,7 +157,7 @@ Vnum 23112
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 13
+Wear -1
 Cost 1500
 End
 
@@ -311,8 +306,8 @@ Cond 0
 Wear 16
 Lev  25
 Cost 1160
-Affc 'enchant weapon'   1  54  -1   2  19          0
 Affc 'enchant weapon'   0  54  -1   2  18          0
+Affc 'enchant weapon'   1  54  -1   2  19          0
 End
 
 #O
@@ -438,7 +433,7 @@ Vnum 4440
 Nest 0
 PrevOwner Myrkuul~
 Cond 0
-Wear -1
+Wear 13
 Cost 0
 End
 

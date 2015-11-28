@@ -2,19 +2,20 @@
 Name Qanaris~
 Id   994437822
 Email (null)~
-LogO 1121725243
-Vers 31
+LogO 1408598594
+Vers 33
 Prom <%hhp %mm %vmv *%gGOLD*  #%wLBS#> ~
 Race dwarf~
 Clan loner~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 5
-SkPTracker 12
+SkPTimer 1
+SkPTracker 2
 LogoutTracker 0
 Kill 2 2 0 3
 Steal 0 0 0
+MSteal 0
 LstK Bugsybrown~
 LstKBy Bugsybrown~
 LstAtkedBy no one~
@@ -22,60 +23,68 @@ LstAtkedByTimer 0
 LstCombatDate 1120475779
 LstKillDate 1120424250
 LstDeathDate 1120356250
-LoginsWOKill 26
-LoginsWODeath 35
-LoginsWOCombat 21
+LoginsWOKill 31
+LoginsWODeath 40
+LoginsWOCombat 26
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 68453 xochipili~
 DeityT -32 xochipili~
-Sac  300
+Sac  208
 Sex  1
 Vump  1
 Node 0
 Cap 0
 Created 994437828
 Glad 0 0 0 0 0 0
+LastHost 24.239.104.118~
 Cla  3
 Kit battlerager~
 ClaO 3
 Levl 35
 DLevl 0
-Plyd 153671
-Not  1120690868 1120700979 1119872765 1120459143 1120825390 1120852912 1119872765 1120834762 1119872765 1119872765
+Plyd 156498
+Not  1326920354 1326920354 1326920354 1326920354 1326920354 1326920354 1326920354 1326920354 1326920354 1326920354
 Scro 22
 Rank 0
-Room 2935
-HMV  969 969 286 286 527 527
-Gold 774
-Silv 17804
-Exp  75430
+Room 4800
+HMV  1373 1373 276 276 527 527
+Gold 2528
+Silv 14724
+Exp  76432
 Act  CDGHJKQ
 MHSF RSU
-AfBy DFJT
-Comm EGIR
+AfBy DFJTa
+Comm GIR
 Disp FIJ
 IcgB 0
 Icg 0
 Pnet AF
 Pos  8
 Prac 11
-SkiP 21
-Save  1
+StatsTrained 130 0 0
+SkiP 50
+Save  -3
 Alig  -1000
-Hit   31
-Dam   30
-SecHit   22
-SecDam   19
-ACs 21 21 23 67
-Attr 22 16 19 16 21 13 22 13
-AMod 1 2 2 2 0 0 0 0
-Pass QaFbMc4.VGndg~
+Hit   48
+Dam   51
+SecHit   39
+SecDam   40
+ACs 126 126 128 172
+Attr 22 16 19 16 21 9 13 13
+AMod 1 0 0 -2 0 0 0 0
+Pass QacYD/c8EFR6s~
 Titl  : The Quasher~
 Pnts 61
 TSex 1
 LLev 25
-HMVP 929 256 427
-Cnd  0 14 29 29
+HMVP 1059 256 427
+Cnd  0 8 11 11
 Alias k kill~
 Alias f flee~
 Alias i kick~
@@ -92,8 +101,8 @@ Sk 75 'feast'
 Sk 100 'axe'
 Sk 1 'sword'
 Sk 79 'berserk'
-Sk 77 'bite'
-Sk 86 'cleave'
+Sk 78 'bite'
+Sk 88 'cleave'
 Sk 77 'dirt kicking'
 Sk 78 'disarm'
 Sk 100 'dodge'
@@ -105,7 +114,7 @@ Sk 75 'morph'
 Sk 96 'parry'
 Sk 77 'shield block'
 Sk 100 'scan'
-Sk 96 'second attack'
+Sk 98 'second attack'
 Sk 89 'third attack'
 Sk 75 'sharpen'
 Sk 73 'sneak'
@@ -117,6 +126,16 @@ Sk 50 'recall'
 Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'garou'
+Affc 'killing rage'   0  35   4   7  18          0
+Affc 'killing rage'   0  35   4  14  19          0
+Affc 'killing rage'   0  34   4  35  17          0
+Affc 'killing rage'   0  33   4  -4   2          0
+Affc 'killing rage'   0  35   4 264  13          0
+Affc 'killing rage'   0  35   4  -4  20          0
+Affc 'killing rage'   2  35   4  -4   0          2
+Affc 'berserk'   0  35   2   7  18   67108864
+Affc 'berserk'   0  35   2   7  19   67108864
+Affc 'berserk'   0  34   2  70  17   67108864
 End
 
 #O
@@ -133,7 +152,7 @@ Vnum 17631
 Nest 0
 PrevOwner Qanaris~
 Cond 0
-Wear 0
+Wear -1
 Cost 250
 End
 
@@ -246,7 +265,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  52 230 -1 -1 -1
+Val  52 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -263,7 +282,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  52 230 -1 -1 -1
+Val  52 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -280,7 +299,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  52 230 -1 -1 -1
+Val  52 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -297,7 +316,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  52 230 -1 -1 -1
+Val  52 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -314,17 +333,8 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  52 230 -1 -1 -1
+Val  52 235 -1 -1 -1
 Spell 1 'summon dead'
-End
-
-#O
-Vnum 1344
-Nest 0
-PrevOwner Qanaris~
-Cond 0
-Wear -1
-Cost 1000
 End
 
 #O
@@ -493,22 +503,6 @@ Cost 0
 End
 
 #O
-Vnum 8020
-Enchanted
-Nest 0
-PrevOwner Lips~
-ExtF 524355
-Cond 0
-Wear 16
-Lev  30
-Cost 13500
-Affc 'reserved'   1  22  -1  -1  20          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'reserved'   1  22  -1  -1   1          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
-End
-
-#O
 Vnum 2912
 Nest 0
 PrevOwner Therman~
@@ -518,20 +512,122 @@ Cost 0
 End
 
 #O
-Vnum 2919
+Vnum 3092
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 0
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
 End
 
 #O
-Vnum 2919
+Vnum 9573
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 8020
+Enchanted
+Nest 0
+PrevOwner Qanaris~
+ExtF 524355
+Stolen 6
+Cond 0
+Wear 16
+Lev  30
+Cost 13500
+Val  5 5 4 25 10
+Affc 'sharpen'   5  34  33   0   0          8
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'reserved'   1  22  -1  -1   1          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'reserved'   1  22  -1  -1  20          0
+End
+
+#O
+Vnum 18116
+Nest 0
+PrevOwner Bewilder~
+Cond 0
+Wear 0
 Cost 0
 End
 

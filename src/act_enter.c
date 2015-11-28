@@ -222,6 +222,22 @@ void do_enter( CHAR_DATA *ch, char *argument)
 		portal->value[0] = -1;
 	}
 
+ 	if (portal != NULL && portal->value[0] == -1)
+	{
+	    act("$p fades out of existence.",ch,portal,NULL,TO_CHAR,FALSE);
+	    if (ch->in_room == old_room)
+		act("$p fades out of existence.",ch,portal,NULL,TO_ROOM,FALSE);
+	    else if (old_room->people != NULL)
+	    {
+		act("$p fades out of existence.", 
+		    old_room->people,portal,NULL,TO_CHAR,FALSE);
+		act("$p fades out of existence.",
+		    old_room->people,portal,NULL,TO_ROOM,FALSE);
+	    }
+	    extract_obj(portal);
+            portal = NULL;
+	}
+
 	/* protect against circular follows */
 	if (old_room == location)
 	    return;
@@ -255,21 +271,6 @@ void do_enter( CHAR_DATA *ch, char *argument)
 		do_enter(fch,argument);
             }
     	}
-
- 	if (portal != NULL && portal->value[0] == -1)
-	{
-	    act("$p fades out of existence.",ch,portal,NULL,TO_CHAR,FALSE);
-	    if (ch->in_room == old_room)
-		act("$p fades out of existence.",ch,portal,NULL,TO_ROOM,FALSE);
-	    else if (old_room->people != NULL)
-	    {
-		act("$p fades out of existence.", 
-		    old_room->people,portal,NULL,TO_CHAR,FALSE);
-		act("$p fades out of existence.",
-		    old_room->people,portal,NULL,TO_ROOM,FALSE);
-	    }
-	    extract_obj(portal);
-	}
 	return;
     }
 

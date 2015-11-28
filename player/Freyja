@@ -3,9 +3,9 @@ Name Freyja~
 SurN McBudLight~
 Id   857180101
 Email (null)~
-LogO 1110908432
-Vers 31
-Desc Freyja
+LogO 1353298942
+Vers 33
+Desc Freyja has grown up a bit since you last saw her. 
 ~
 Prom <%hhp %mm %vmv> ~
 Race dwarf~
@@ -17,6 +17,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -28,56 +29,63 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -3874 matook~
-Sac  225
+Sac  300
 Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 961461313
 Glad 0 0 0 0 0 0
-LastHost l-dt2212-06.cavern.carleton.ca~
+LastHost 71.127.246.141~
 Cla  1
 ClaO 1
-Levl 28
+Levl 47
 DLevl 0
-Plyd 2694321
-Not  1023717293 1018977131 0 895875786 893707802 1023697049 0 0 0 1019331141
+Plyd 2960588
+Not  1348166352 1018977131 0 895875786 893707802 1348191796 0 0 0 1019331141
 Scro 22
 Rank 0
-Room 31180
-HMV  310 310 302 302 151 151
-Gold 82
-Silv 906
-Exp  201965
-Act  BCDEGHM
+Room 16502
+HMV  586 586 665 665 344 344
+Gold 720
+Silv 6853
+Exp  331716
+Act  BCDGHM
 MHSF R
 AfBy J
-Comm DGLOS
+Comm DGOS
 Disp BCFIJ
 IcgB 0
 Icg 0
-Pos  5
-Prac 24
-SkiP 304
-Alig  1000
-Hit   2
-Dam   4
-SecHit   2
-SecDam   2
-ACs 83 75 75 110
-Wimp  40
+Pos  4
+Prac 27
+Trai 1
+ReTrai 5
+StatsTrained 0 130 0
+SkiP 66
+Alig  -1000
+Hit   12
+Dam   15
+SecHit   10
+SecDam   15
+ACs -42 -58 -52 35
+Wimp  20
 Attr 20 16 21 16 21 17 17 20
-AMod 0 3 0 0 0 0 0 0
-Pass FrKli9amE8.zQ~
-Titl .~
+AMod 6 0 0 3 1 0 0 0
+Pass FrE9xcEvKIcSA~
+Titl  has changed and yet remains the same~
 Pnts 95
 TSex 2
-LLev 713
-HMVP 310 302 181
+LLev 821
+HMVP 541 625 344
 Cnd  0 0 0 0
-Alias 1 c create foo~
+Alias 1 order all rescue freyja~
 Alias 2 c 'heal' freyja~
 Alias 3 c 'word of recall'~
 Alias 4 c 'create fountain' root beer~
@@ -92,7 +100,7 @@ Sk 88 'bless'
 OldSk 88 'bless'
 Sk 91 'blindness'
 OldSk 91 'blindness'
-Sk 45 'calm'
+Sk 75 'calm'
 OldSk 45 'calm'
 Sk 49 'cancellation'
 OldSk 49 'cancellation'
@@ -109,7 +117,7 @@ Sk 62 'continual light'
 OldSk 62 'continual light'
 Sk 98 'create food'
 OldSk 98 'create food'
-Sk 1 'create fountain'
+Sk 76 'create fountain'
 OldSk 75 'create fountain'
 Sk 59 'create rose'
 OldSk 59 'create rose'
@@ -131,7 +139,7 @@ Sk 93 'cure serious'
 OldSk 93 'cure serious'
 Sk 63 'curse'
 OldSk 63 'curse'
-Sk 1 'demonfire'
+Sk 81 'demonfire'
 OldSk 1 'demonfire'
 Sk 35 'detect evil'
 OldSk 35 'detect evil'
@@ -139,9 +147,9 @@ Sk 1 'detect good'
 OldSk 1 'detect good'
 Sk 1 'detect hidden'
 OldSk 37 'detect hidden'
-Sk 73 'detect invis'
+Sk 77 'detect invis'
 OldSk 73 'detect invis'
-Sk 1 'detect magic'
+Sk 32 'detect magic'
 OldSk 32 'detect magic'
 Sk 1 'detect poison'
 OldSk 1 'detect poison'
@@ -151,7 +159,7 @@ Sk 1 'dispel good'
 OldSk 1 'dispel good'
 Sk 1 'dispel magic'
 OldSk 78 'dispel magic'
-Sk 34 'earthquake'
+Sk 68 'earthquake'
 OldSk 34 'earthquake'
 Sk 1 'endure cold'
 OldSk 1 'endure cold'
@@ -159,12 +167,13 @@ Sk 1 'endure heat'
 OldSk 1 'endure heat'
 Sk 50 'energy drain'
 OldSk 50 'energy drain'
+Sk 1 'enervation'
 OldSk 1 'enervation'
-Sk 1 'famine'
+Sk 41 'famine'
 OldSk 1 'famine'
 Sk 49 'farsight'
 OldSk 49 'farsight'
-Sk 1 'feast'
+Sk 41 'feast'
 OldSk 1 'feast'
 Sk 1 'feeblemind'
 OldSk 1 'feeblemind'
@@ -188,81 +197,91 @@ Sk 96 'harm'
 OldSk 96 'harm'
 Sk 100 'heal'
 OldSk 100 'heal'
-Sk 1 'heat metal'
+Sk 45 'heat metal'
 OldSk 45 'heat metal'
 Sk 1 'hold person'
 OldSk 1 'hold person'
-Sk 1 'holy word'
+Sk 69 'holy word'
 OldSk 69 'holy word'
 Sk 90 'identify'
 OldSk 90 'identify'
 Sk 1 'knock'
 OldSk 1 'knock'
-Sk 1 'know alignment'
+Sk 32 'know alignment'
 OldSk 32 'know alignment'
 Sk 91 'locate object'
 OldSk 89 'locate object'
-Sk 1 'mass healing'
+Sk 72 'mass healing'
 OldSk 72 'mass healing'
-Sk 1 'nexus'
+Sk 55 'nexus'
 OldSk 1 'nexus'
-Sk 1 'pass door'
+Sk 74 'pass door'
 OldSk 74 'pass door'
-Sk 50 'plague'
+Sk 75 'plague'
 OldSk 50 'plague'
 Sk 93 'poison'
 OldSk 93 'poison'
-Sk 1 'portal'
+Sk 70 'portal'
 OldSk 19 'portal'
-Sk 1 'protection evil'
+Sk 75 'protection evil'
 OldSk 75 'protection evil'
-Sk 1 'protection good'
+Sk 75 'protection good'
 OldSk 1 'protection good'
 Sk 1 'protection neutral'
 OldSk 1 'protection neutral'
-Sk 1 'ray of truth'
+Sk 69 'ray of truth'
 OldSk 69 'ray of truth'
 Sk 78 'refresh'
 OldSk 75 'refresh'
-Sk 50 'remove curse'
+Sk 75 'remove curse'
 OldSk 50 'remove curse'
 Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
 Sk 94 'sanctuary'
 OldSk 94 'sanctuary'
-Sk 1 'shield'
+Sk 81 'shield'
 OldSk 81 'shield'
-Sk 1 'slow'
+Sk 74 'slow'
 OldSk 73 'slow'
-Sk 1 'stone skin'
+Sk 74 'stone skin'
 OldSk 74 'stone skin'
 Sk 88 'summon'
 OldSk 88 'summon'
 Sk 55 'teleport'
 OldSk 52 'teleport'
-Sk 1 'warp'
+Sk 75 'warp'
 OldSk 57 'warp'
 Sk 86 'weaken'
 OldSk 86 'weaken'
 Sk 100 'word of recall'
 OldSk 100 'word of recall'
+Sk 75 'animate dead'
 OldSk 75 'animate dead'
+Sk 75 'summon dead'
 OldSk 75 'summon dead'
+Sk 77 'cryogenesis'
 OldSk 77 'cryogenesis'
+Sk 75 'draw life'
 OldSk 75 'draw life'
+Sk 1 'make bag'
+Sk 45 'turn undead'
 OldSk 45 'turn undead'
+Sk 38 'withstand death'
 OldSk 38 'withstand death'
+Sk 18 'wound transfer'
 OldSk 1 'wound transfer'
+Sk 100 'dagger'
 OldSk 100 'dagger'
 OldSk 1 'flail'
 Sk 100 'mace'
 OldSk 100 'mace'
-Sk 1 'berserk'
+Sk 7 'berserk'
 OldSk 1 'berserk'
 Sk 100 'dodge'
 OldSk 100 'dodge'
-Sk 1 'enhanced damage'
+Sk 100 'enhanced damage'
 OldSk 89 'hand to hand'
+Sk 100 'kick'
 OldSk 100 'kick'
 Sk 100 'parry'
 OldSk 100 'parry'
@@ -272,11 +291,11 @@ Sk 75 'scan'
 OldSk 50 'scan'
 Sk 100 'second attack'
 OldSk 100 'second attack'
-Sk 1 'fast healing'
+Sk 28 'fast healing'
 Sk 100 'meditation'
 OldSk 100 'meditation'
-Sk 1 'sharpen'
-Sk 68 'scrolls'
+Sk 21 'sharpen'
+Sk 69 'scrolls'
 OldSk 68 'scrolls'
 Sk 25 'staves'
 OldSk 25 'staves'
@@ -284,7 +303,7 @@ Sk 46 'wands'
 OldSk 46 'wands'
 Sk 50 'swimming'
 OldSk 51 'swimming'
-Sk 50 'recall'
+Sk 58 'recall'
 OldSk 72 'recall'
 Gr 'rom basics'
 Gr 'cleric basics'
@@ -296,8 +315,10 @@ Gr 'detection'
 Gr 'harmful'
 Gr 'healing'
 Gr 'maladictions'
+Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
+Affc 'giant strength'   0  39  30   4   1          0
 End
 
 #O
@@ -317,6 +338,7 @@ Nest 0
 PrevOwner Freyja~
 Name red marks~
 ShD  red marks from hand cuffs~
+Damaged 47
 Cond 0
 Wear 14
 Cost 112
@@ -329,8 +351,9 @@ PrevOwner Freyja~
 Name tossled blond hair~
 ShD  tossled blond hair~
 Desc Freyja's tossled blond hair.~
+Damaged 49
 Cond 0
-Wear 6
+Wear -1
 Cost 5800
 End
 
@@ -341,15 +364,6 @@ PrevOwner Freyja~
 Cond 0
 Wear -1
 Cost 710
-End
-
-#O
-Vnum 3880
-Nest 1
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -380,21 +394,12 @@ Cost 550
 End
 
 #O
-Vnum 3377
+Vnum 22044
 Nest 1
 PrevOwner Freyja~
 Cond 0
 Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 10000
+Cost 100000
 End
 
 #O
@@ -407,36 +412,6 @@ Cost 100000
 End
 
 #O
-Vnum 6517
-Nest 1
-PrevOwner Freyja~
-Name spell up~
-ShD  a spell up~
-Desc It's a highly sought after spell up!~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 11128
-Nest 1
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 23109
-Nest 1
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
 Vnum 22044
 Nest 1
 PrevOwner Freyja~
@@ -446,21 +421,12 @@ Cost 100000
 End
 
 #O
-Vnum 3377
+Vnum 22044
 Nest 1
 PrevOwner Freyja~
 Cond 0
 Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 10000
+Cost 100000
 End
 
 #O
@@ -473,44 +439,35 @@ Cost 1000
 End
 
 #O
-Vnum 1395
-Nest 0
+Vnum 11128
+Nest 1
 PrevOwner Freyja~
 Cond 0
 Wear -1
-Cost 1970
+Cost 1000
 End
 
 #O
-Vnum 9312
-Nest 0
+Vnum 2338
+Nest 1
 PrevOwner Freyja~
 Cond 0
 Wear -1
-Cost 3900
+Cost 1450
 End
 
 #O
-Vnum 9321
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear 0
-Cost 2400
-End
-
-#O
-Vnum 2505
-Nest 0
+Vnum 17609
+Nest 1
 PrevOwner Freyja~
 Cond 0
 Wear -1
-Cost 1150
+Cost 500
 End
 
 #O
-Vnum 23112
-Nest 0
+Vnum 2444
+Nest 1
 PrevOwner Freyja~
 Cond 0
 Wear -1
@@ -518,53 +475,17 @@ Cost 1500
 End
 
 #O
-Vnum 2301
-Nest 0
+Vnum 3163
+Nest 1
 PrevOwner Freyja~
 Cond 0
 Wear -1
-Cost 4200
+Cost 1500
 End
 
 #O
-Vnum 2803
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 2803
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 1395
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 1970
-End
-
-#O
-Vnum 1972
-Nest 0
+Vnum 8503
+Nest 1
 PrevOwner Freyja~
 Cond 0
 Wear -1
@@ -572,217 +493,47 @@ Cost 0
 End
 
 #O
-Vnum 18011
-Nest 0
+Vnum 4438
+Nest 1
 PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 650
-End
-
-#O
-Vnum 9317
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 23110
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 1350
-End
-
-#O
-Vnum 17630
-Nest 0
-PrevOwner Freyja~
-ExtF 262177
-Cond 0
-Wear -1
-Cost 4100
-End
-
-#O
-Vnum 9302
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 3100
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 2338
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear 7
-Cost 1450
-End
-
-#O
-Vnum 16118
-Nest 0
-PrevOwner Abslom~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 3375
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3375
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 11133
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear 5
-Cost 0
-End
-
-#O
-Vnum 17607
-Nest 0
-PrevOwner Puchiko~
-Cond 0
-Wear -1
-Cost 50
-End
-
-#O
-Vnum 11134
-Nest 0
-PrevOwner Puchiko~
-Cond 0
-Wear 9
-Cost 0
-End
-
-#O
-Vnum 11136
-Nest 0
-PrevOwner Puchiko~
-Cond 0
-Wear 13
-Cost 0
-End
-
-#O
-Vnum 18014
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
-Vnum 8011
-Nest 0
-PrevOwner Freyja~
-Cond 0
-Wear 16
-Cost 1050
-End
-
-#O
-Vnum 6644
-Nest 0
-PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 3373
-Nest 0
-PrevOwner (null)~
+Vnum 4440
+Nest 1
+PrevOwner Freyja~
 Cond 0
 Wear -1
-Cost 1000
+Cost 0
 End
 
 #O
-Vnum 3374
-Nest 0
-PrevOwner (null)~
+Vnum 9103
+Nest 1
+PrevOwner Freyja~
+ExtF 33
 Cond 0
 Wear -1
-Cost 500
+Cost 1140
 End
 
 #O
-Vnum 3378
-Nest 0
-PrevOwner (null)~
+Vnum 9103
+Nest 1
+PrevOwner Freyja~
+ExtF 33
 Cond 0
 Wear -1
-Cost 2000
-End
-
-#O
-Vnum 3375
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3375
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3003
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 25
+Cost 1140
 End
 
 #O
 Vnum 3019
-Nest 0
-PrevOwner Walgreen~
+Nest 1
+PrevOwner Freyja~
 Name molotov cocktail blue~
 ShD  a blue molotov cocktail~
 Desc A small bottle filled with blue liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
@@ -793,27 +544,135 @@ Val  9 25 0 0 20
 End
 
 #O
-Vnum 21
-Nest 0
-PrevOwner (null)~
+Vnum 3003
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 25
+End
+
+#O
+Vnum 17607
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 50
+End
+
+#O
+Vnum 11133
+Nest 1
+PrevOwner Freyja~
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 8301
-Nest 0
-PrevOwner (null)~
+Vnum 16118
+Nest 1
+PrevOwner Freyja~
 Cond 0
 Wear -1
-Cost 1330
+Cost 1000
+End
+
+#O
+Vnum 18011
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 650
+End
+
+#O
+Vnum 1395
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 1970
+End
+
+#O
+Vnum 11136
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 11134
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #O
 Vnum 8504
-Nest 0
-PrevOwner Cresent~
+Nest 1
+PrevOwner Freyja~
 Cond 0
 Wear -1
 Cost 0
@@ -821,11 +680,632 @@ End
 
 #O
 Vnum 8503
+Nest 1
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 2803
 Nest 0
-PrevOwner Cresent~
+PrevOwner Freyja~
+Cond 0
+Wear 2
+Cost 1150
+End
+
+#O
+Vnum 2803
+Nest 0
+PrevOwner Freyja~
+Cond 0
+Wear 1
+Cost 1150
+End
+
+#O
+Vnum 17630
+Nest 0
+PrevOwner Freyja~
+ExtF 262177
+Cond 0
+Wear 12
+Cost 4100
+End
+
+#O
+Vnum 21
+Nest 0
+PrevOwner Freyja~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 16721
+Nest 0
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 1400
+End
+
+#O
+Vnum 16721
+Nest 0
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 1400
+End
+
+#O
+Vnum 18418
+Nest 0
+PrevOwner Freyja~
+Cond 0
+Wear 8
+Cost 400
+End
+
+#O
+Vnum 3880
+Nest 0
+PrevOwner Freyja~
+Damaged 46
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 0
+PrevOwner Freyja~
+Name spell up~
+ShD  a spell up~
+Desc It's a highly sought after spell up!~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2390
+Nest 0
+PrevOwner Figo~
+Cond 0
+Wear 9
+Cost 5800
+End
+
+#O
+Vnum 8044
+Nest 0
+PrevOwner Figo~
+Cond 0
+Wear 3
+Cost 2000
+End
+
+#O
+Vnum 6716
+Nest 0
+PrevOwner Figo~
+Cond 0
+Wear 7
+Cost 3750
+End
+
+#O
+Vnum 1401
+Nest 0
+PrevOwner Figo~
+Cond 0
+Wear 5
+Cost 17800
+End
+
+#O
+Vnum 15202
+Nest 0
+PrevOwner Figo~
+Cond 0
+Wear 6
+Cost 0
+End
+
+#O
+Vnum 15215
+Nest 0
+PrevOwner Figo~
+Cond 0
+Wear 13
+Cost 9000
+End
+
+#O
+Vnum 6422
+Nest 0
+PrevOwner Figo~
+Damaged 100
+Cond 0
+Wear 11
+Cost 5900
+End
+
+#O
+Vnum 6420
+Nest 0
+PrevOwner Figo~
+Cond 0
+Wear -1
+Cost 3500
+End
+
+#O
+Vnum 8048
+Nest 0
+PrevOwner Figo~
+Cond 0
+Wear 0
+Cost 2000
+End
+
+#O
+Vnum 7310
+Nest 0
+PrevOwner Figo~
+Cond 0
+Wear 10
+Cost 3700
+End
+
+#O
+Vnum 10403
+Nest 0
+PrevOwner Figo~
+Cond 0
+Wear 16
+Cost 6300
+End
+
+#O
+Vnum 8044
+Nest 0
+PrevOwner Figo~
+Cond 0
+Wear 4
+Cost 2000
+End
+
+#O
+Vnum 1920
+Nest 0
+PrevOwner Guido~
+Cond 0
+Wear -1
+Cost 100
+Val  200 190 17 0 0
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 18414
+Nest 0
+PrevOwner Freyja~
+Cond 0
+Wear -1
+Cost 100
+Val  2 0 23 0 0
+End
+
+#O
+Vnum 10323
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 4822
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 11325
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13
+End
+
+#O
+Vnum 11322
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 20
+Val  50 50 0 0 0
+End
+
+#O
+Vnum 5552
+Nest 0
+PrevOwner Guido~
+Cond 0
+Wear 17
+Cost 90
+End
+
+#O
+Vnum 10307
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 30
+End
+
+#O
+Vnum 11325
+Nest 0
+PrevOwner Guido~
+Cond 0
+Wear -1
+Cost 13
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10307
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 30
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

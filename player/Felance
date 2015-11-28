@@ -2,8 +2,8 @@
 Name Felance~
 Id   960343238
 Email (null)~
-LogO 1128900869
-Vers 31
+LogO 1362991953
+Vers 33
 LnD  A Gladiator~
 Desc Felance the nosferatu yinn is in excellent condition.
 ~
@@ -13,11 +13,12 @@ Clan honor~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 9
-SkPTracker 12
+SkPTimer 2
+SkPTracker 6
 LogoutTracker 0
 Kill 2 10 0 13
 Steal 0 0 0
+MSteal 0
 LstK Bacchanal~
 LstKBy Daksian~
 LstAtkedBy no one~
@@ -25,10 +26,16 @@ LstAtkedByTimer 0
 LstCombatDate 1089062141
 LstKillDate 1089061762
 LstDeathDate 1088790138
-LoginsWOKill 18
-LoginsWODeath 35
-LoginsWOCombat 17
-Bnty 0
+LoginsWOKill 19
+LoginsWODeath 36
+LoginsWOCombat 18
+Bnty 420
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 209405 mojo~
 DeityT -851 mojo~
 Sac  75
@@ -38,40 +45,40 @@ Node 0
 Cap 0
 Created 960343252
 Glad 1 1 0 0 1 0
-LastHost d235-189-109.home1.cgocable.net~
+LastHost 202.7.216.20~
 Cla  7
 ClaO 10
 Levl 44
 DLevl 0
-Plyd 255087
-Not  1088846856 1113619891 0 1115818884 1110312209 1088969678 0 1113632017 0 1068388275
+Plyd 255866
+Not  1362516831 1113619891 0 1357516052 1110312209 1088969678 0 1113632017 0 1068388275
 Scro 22
 Rank 2
-Room 31501
-HMV  976 976 626 626 722 722
-Gold 101
-Silv 148
+Room 22986
+HMV  976 976 364 641 722 722
+Gold 108
+Silv 199
 Exp  390472
 Act  CDEGHJKQ
 MHSF RS
-AfBy CDFJ
+AfBy CDFHJ
 Comm 0
 Disp AFGIJN
 IcgB 0
 Icg 0
 Pos  8
-Prac 18
-Trai 1
+Prac 19
+Trai 17
 SkiP 47
 Save  -12
 Alig  -1000
-Hit   41
-Dam   46
-SecHit   34
-SecDam   39
-ACs 33 33 33 67
+Hit   30
+Dam   35
+SecHit   22
+SecDam   27
+ACs 43 43 43 77
 Wimp  5
-Attr 21 19 20 21 22 22 22 18
+Attr 21 19 20 21 22 14 14 18
 AMod 2 2 2 0 0 0 0 0
 Pass Sh4o.aLsapbaM~
 Titl .~
@@ -79,7 +86,7 @@ Pnts 100
 TSex 1
 LLev 69
 HMVP 951 635 722
-Cnd  0 0 1 0
+Cnd  0 7 19 15
 Alias cc Emote goes to sleep.~
 Alias dd c 'wall of wind' kulsar~
 Alias ff murder demno~
@@ -98,7 +105,6 @@ Sk 1 'calm'
 Sk 82 'cancellation'
 Sk 1 'change sex'
 Sk 75 'charm person'
-Sk 1 'cone of silence'
 Sk 71 'control weather'
 Sk 71 'cure blindness'
 Sk 75 'cure critical'
@@ -220,17 +226,11 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'garou'
-Affc 'shield'   0  39   6 -20  17          0
-Affc 'armor'   0  43   8 -20  17          0
-Affc 'detect invis'   0  41  29   0   0          8
-Affc 'detect hidden'   0  40  29   0   0         32
-Affc 'bless'   0  50  44   6  18          0
-Affc 'bless'   0  50  44  -6  24          0
-Affc 'frenzy'   0  44   6   7  18          0
-Affc 'frenzy'   0  44   6   7  19          0
-Affc 'frenzy'   0  42   6  30  17          0
-Affc 'daetok'   0  42   3   5  18          0
-Affc 'daetok'   0  44   3   5  19          0
+Affc 'sanctuary'   0  44   4   0   0        128
+Affc 'bless'   0  45  25  -6  24          0
+Affc 'bless'   0  45  25   6  18          0
+Affc 'detect hidden'   0  38  10   0   0         32
+Affc 'detect invis'   0  38  10   0   0          8
 End
 
 #O
@@ -311,13 +311,13 @@ Enchanted
 Nest 1
 PrevOwner Felance~
 ExtF 66
-Stolen 1130
+Stolen 1111
 Cond 0
 Wear -1
 Lev  37
 Cost 30
-Affc 'enchant weapon'   0  53  -1   8  18          0
 Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
@@ -515,13 +515,12 @@ Enchanted
 Nest 0
 PrevOwner Felance~
 ExtF 323
-Stolen 13
 Cond 0
-Wear -1
+Wear 16
 Lev  40
 Cost 1250
-Affc 'enchant weapon'   0  53  -1   8  18          0
 Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
@@ -530,14 +529,14 @@ Enchanted
 Nest 0
 PrevOwner Felance~
 ExtF 2115
-Stolen 74
+Stolen 55
 Cond 0
-Wear 16
+Wear -1
 Lev  41
 Cost 23500
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1   7  19          0
 Affc 'reserved'   1  35  -1 -15  12          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
 End
 
 #O
@@ -574,6 +573,15 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 13700
+End
+
+#O
+Vnum 22930
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1530
 End
 
 #END

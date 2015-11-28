@@ -2,23 +2,24 @@
 Name Hulkster~
 Id   995424936
 Email (null)~
-LogO 1120853906
-Vers 31
+LogO 1444777895
+Vers 33
 Desc Here you stand in awe of the amazingly large creature
 that is Hulkster. He lives only to better the church of the
 {YAlmighty{x, and to decimate all heathens who fail to convert.
 ~
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+Prom %e %t %g:GP %s:SP %w%c%h/%H:HP %m/%M:MP %v:MV %X:x ~
 Race rockbiter~
 Clan zealot~
 Outc 0
-RufT 116
+RufT 0
 MatookT 0
-SkPTimer 21
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 1 1 0 3
 Steal 1 750 0
+MSteal 0
 LstK Hagbard~
 LstKBy Kalamity~
 LstAtkedBy no one~
@@ -26,10 +27,16 @@ LstAtkedByTimer 0
 LstCombatDate 1108709130
 LstKillDate 1108708860
 LstDeathDate 1101455207
-LoginsWOKill 2
-LoginsWODeath 12
-LoginsWOCombat 1
+LoginsWOKill 13
+LoginsWODeath 23
+LoginsWOCombat 12
 Bnty 0
+DeityFavor 0 9
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 97785 almighty~
 DeityT -16 xochipili~
 Sac  300
@@ -38,49 +45,50 @@ Vump  1
 Node 0
 Cap 0
 Created 995424942
-Glad 0 0 0 0 0 0
-LastHost 65.28.180.108~
+Glad 0 2 0 0 2 0
+LastHost 173.215.8.171~
 Cla  13
 ClaO 2
-Levl 33
+Levl 38
 DLevl 0
-Plyd 114427
-Not  1120853665 1120853665 1120853665 1120853665 1120853665 1120853665 1120853665 1120853665 1120853665 1120853665
+Plyd 125458
+Not  1309390364 1309390364 1309390364 1309390364 1309390364 1309390364 1309390364 1309390364 1309390364 1309390364
 Scro 22
 Rank 1
-Room 31816
-HMV  846 846 201 270 502 502
-Gold 278
-Silv 54
-Exp  280149
-Act  BDGHJKQSZ
+Room 31806
+HMV  1035 1035 296 296 552 552
+Gold 57
+Silv 1740
+Exp  317039
+Act  BDEFGHJKQSZ
 MHSF R
-AfBy JP
-Comm IS
+AfBy DFJO
+Comm S
 Disp FIJN
 IcgB 0
 Icg 0
-Wizn W
 Pnet ABCDEFGHI
 Pos  4
-Prac 6
-SkiP 17
-Alig  1000
-Hit   12
-Dam   24
+Prac 21
+StatsTrained 20 0 0
+SkiP 16
+Save  -1
+Alig  972
+Hit   14
+Dam   22
 SecHit   12
-SecDam   20
-ACs 45 43 43 68
-Wimp  5
-Attr 23 16 21 16 25 16 22 13
-AMod 0 1 1 4 1 0 0 0
+SecDam   22
+ACs 44 42 42 67
+Wimp  50
+Attr 25 16 24 16 25 8 15 19
+AMod 0 0 0 4 1 0 0 0
 Pass HufpyQRMQtrGw~
 Titl  the combat rogue.~
 Pnts 86
 TSex 1
-LLev 31
-HMVP 826 270 402
-Cnd  0 6 48 9
+LLev 34
+HMVP 1015 296 452
+Cnd  0 0 48 3
 Alias 1 put all back~
 Alias qq scan~
 Alias hi murder~
@@ -89,29 +97,29 @@ Alias die order all kill~
 Sk 73 'armor'
 Sk 73 'cancellation'
 Sk 1 'detect evil'
-Sk 73 'detect good'
+Sk 76 'detect good'
 Sk 72 'detect hidden'
 Sk 75 'detect invis'
-Sk 49 'detect magic'
+Sk 52 'detect magic'
 Sk 1 'detect poison'
 Sk 1 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
 Sk 1 'famine'
 Sk 1 'farsight'
-Sk 73 'feast'
+Sk 74 'feast'
 Sk 49 'fireproof'
 Sk 49 'fly'
 Sk 75 'gate'
-Sk 74 'giant strength'
+Sk 76 'giant strength'
 Sk 78 'haste'
-Sk 69 'identify'
+Sk 73 'identify'
 Sk 67 'infravision'
 Sk 1 'knock'
 Sk 1 'know alignment'
 Sk 72 'locate object'
 Sk 1 'nexus'
-Sk 49 'pass door'
+Sk 51 'pass door'
 Sk 1 'portal'
 Sk 69 'protection evil'
 Sk 67 'protection good'
@@ -124,20 +132,20 @@ Sk 1 'stone skin'
 Sk 73 'summon'
 Sk 75 'teleport'
 Sk 75 'word of recall'
-Sk 99 'dagger'
-Sk 17 'flail'
-Sk 80 'backstab'
-Sk 1 'bite'
-Sk 84 'cutpurse'
-Sk 77 'dodge'
+Sk 100 'dagger'
+Sk 98 'flail'
+Sk 86 'backstab'
+Sk 75 'bite'
+Sk 95 'cutpurse'
+Sk 85 'dodge'
 Sk 75 'infiltrate'
-Sk 98 'enhanced damage'
+Sk 100 'enhanced damage'
 Sk 75 'morph'
-Sk 75 'parry'
-Sk 77 'trip'
+Sk 93 'parry'
+Sk 87 'trip'
 Sk 78 'shield block'
-Sk 81 'scan'
-Sk 75 'second attack'
+Sk 84 'scan'
+Sk 86 'second attack'
 Sk 78 'hide'
 Sk 75 'peek'
 Sk 75 'slice'
@@ -155,7 +163,18 @@ Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'sneak'   0  32  26   0   0      32768
+Affc 'detect invis'   0  28  20   0   0          8
+Affc 'detect hidden'   0  29  21   0   0         32
+Affc 'protection good'   0  27  13  -1  24      16384
+End
+
+#O
+Vnum 5418
+Nest 0
+PrevOwner Hulkster~
+Cond 0
+Wear 18
+Cost 0
 End
 
 #O
@@ -243,12 +262,21 @@ Cost 0
 End
 
 #O
-Vnum 8504
+Vnum 3294
 Nest 1
 PrevOwner Hulkster~
 Cond 0
 Wear -1
-Cost 6000
+Cost 9900
+End
+
+#O
+Vnum 3294
+Nest 1
+PrevOwner Hulkster~
+Cond 0
+Wear -1
+Cost 9900
 End
 
 #O
@@ -269,76 +297,6 @@ Cost 250
 End
 
 #O
-Vnum 8063
-Nest 1
-PrevOwner Hulkster~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Hulkster~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Hulkster~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Hulkster~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Hulkster~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Hulkster~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Hulkster~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
 Vnum 3723
 Nest 1
 PrevOwner Hulkster~
@@ -349,48 +307,12 @@ Spell 1 'fly'
 End
 
 #O
-Vnum 5740
-Nest 1
-PrevOwner Hulkster~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
 Vnum 5932
 Nest 1
 PrevOwner Hulkster~
 Cond 0
 Wear -1
 Cost 4000
-End
-
-#O
-Vnum 4438
-Nest 1
-PrevOwner Hulkster~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2912
-Nest 1
-PrevOwner Hulkster~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3375
-Nest 1
-PrevOwner Hulkster~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -436,7 +358,7 @@ Affc 'enchant weapon'   1  18  -1   5  19          0
 End
 
 #O
-Vnum 4440
+Vnum 9802
 Nest 1
 PrevOwner Hulkster~
 Cond 0
@@ -445,33 +367,34 @@ Cost 0
 End
 
 #O
-Vnum 753
-Nest 1
-PrevOwner Hulkster~
-Wear -1
-Cost 250
-End
-
-#O
-Vnum 8015
+Vnum 5740
 Nest 1
 PrevOwner Hulkster~
 Cond 0
 Wear -1
-Cost 750
+Cost 1000
 End
 
 #O
-Vnum 1929
+Vnum 2912
 Nest 1
 PrevOwner Hulkster~
 Cond 0
 Wear -1
-Cost 60
+Cost 0
 End
 
 #O
-Vnum 9802
+Vnum 4438
+Nest 1
+PrevOwner Hulkster~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4440
 Nest 1
 PrevOwner Hulkster~
 Cond 0
@@ -489,6 +412,33 @@ Cost 2500
 End
 
 #O
+Vnum 1001
+Nest 1
+PrevOwner Hulkster~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Hulkster~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Hulkster~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
 Vnum 5710
 Nest 1
 PrevOwner Hulkster~
@@ -498,39 +448,58 @@ Cost 1000
 End
 
 #O
-Vnum 5706
+Vnum 5710
 Nest 1
 PrevOwner Hulkster~
 Cond 0
 Wear -1
-Cost 2000
+Cost 1000
 End
 
 #O
-Vnum 5706
+Vnum 3375
 Nest 1
 PrevOwner Hulkster~
 Cond 0
 Wear -1
-Cost 2000
+Cost 5000
 End
 
 #O
-Vnum 2727
+Vnum 5114
+Nest 1
+PrevOwner Hulkster~
+ExtF 0
+Cond 0
+Wear -1
+Cost 1180
+End
+
+#O
+Vnum 1929
 Nest 1
 PrevOwner Hulkster~
 Cond 0
 Wear -1
-Cost 3600
+Cost 60
 End
 
 #O
-Vnum 5418
-Nest 0
+Vnum 753
+Nest 1
+PrevOwner Hulkster~
+Stolen 37
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 9203
+Nest 1
 PrevOwner Hulkster~
 Cond 0
-Wear 18
-Cost 0
+Wear -1
+Cost 2800
 End
 
 #O
@@ -545,7 +514,7 @@ End
 #O
 Vnum 8045
 Nest 0
-PrevOwner (null)~
+PrevOwner Hulkster~
 Cond 0
 Wear 11
 Cost 2000
@@ -553,17 +522,23 @@ End
 
 #O
 Vnum 23108
+Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Hulkster~
+ExtF 64
 Cond 0
 Wear 5
+Lev  21
 Cost 1500
+Affc 'enchant armor'   1  36  -1  -1  17          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'reserved'   1  20  -1   1  19          0
 End
 
 #O
 Vnum 23109
 Nest 0
-PrevOwner (null)~
+PrevOwner Hulkster~
 Cond 0
 Wear 7
 Cost 1500
@@ -579,20 +554,11 @@ Cost 3500
 End
 
 #O
-Vnum 5710
-Nest 0
-PrevOwner Hulkster~
-Cond 0
-Wear 2
-Cost 1000
-End
-
-#O
 Vnum 2803
 Nest 0
 PrevOwner Hulkster~
 Cond 0
-Wear 1
+Wear 2
 Cost 1150
 End
 
@@ -615,13 +581,67 @@ Cost 1970
 End
 
 #O
-Vnum 9203
+Vnum 2803
 Nest 0
 PrevOwner Hulkster~
-Stolen 25
+Cond 0
+Wear 1
+Cost 1150
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Hulkster~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Hulkster~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Hulkster~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 2727
+Nest 0
+PrevOwner Hulkster~
+Stolen 782
 Cond 0
 Wear 16
-Cost 2800
+Cost 3600
+End
+
+#O
+Vnum 5919
+Nest 0
+PrevOwner Hulkster~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 8015
+Nest 0
+PrevOwner Hulkster~
+Cond 0
+Wear -1
+Cost 750
 End
 
 #END

@@ -2,8 +2,8 @@
 Name Santas~
 Id   956055287
 Email (null)~
-LogO 1122076485
-Vers 31
+LogO 1387912952
+Vers 33
 LnD  A Gladiator~
 Prom %hhp %mm %vmv $%g|%r|%e|   ~
 Race faerie~
@@ -11,11 +11,12 @@ Clan loner~
 Outc 0
 RufT 0
 MatookT 12001
-SkPTimer 0
-SkPTracker 3
+SkPTimer 2
+SkPTracker 1
 LogoutTracker 0
 Kill 0 1 0 0
 Steal 0 0 0
+MSteal 0
 LstK Rorvic~
 LstKBy Sedl~
 LstAtkedBy no one~
@@ -23,60 +24,68 @@ LstAtkedByTimer 0
 LstCombatDate 1122044884
 LstKillDate 1122076257
 LstDeathDate 1010753100
-LoginsWOKill 1
-LoginsWODeath 4
-LoginsWOCombat 2
+LoginsWOKill 2
+LoginsWODeath 5
+LoginsWOCombat 3
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 227357 mojo~
 DeityT -1148 matook~
-Sac  300
+Sac  234
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 956055386
 Glad 0 0 0 0 0 0
-LastHost ndn-165-129-36.telkomadsl.co.za~
+LastHost 105.225.171.16~
 Cla  12
 Kit prophet~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 896585
+Plyd 899705
 Not  1001699040 985156515 0 1121745865 1121859963 975099089 0 1015576701 0 0
 Scro 22
 Rank 0
-Room 3302
-HMV  519 1397 97 1108 483 483
-Gold 311
-Silv 716
+Room 9669
+HMV  1271 1281 1108 1108 483 483
+Gold 404
+Silv 3307
 Exp  165648
 Act  BDFGHIMQS
 MHSF RV
-AfBy DFJNTVZce
+AfBy DFJTc
 Comm G
 Disp BFGIJ
 IcgB 0
 Icg 0
 Pos  8
-SkiP 53
-Save  -22
-Alig  -769
-Hit   29
-Dam   20
-SecHit   29
-SecDam   20
-ACs -90 -90 -90 -57
+Prac 1
+Trai 5
+SkiP 64
+Save  -21
+Alig  -1000
+Hit   21
+Dam   12
+SecHit   21
+SecDam   12
+ACs -130 -130 -130 -97
 Wimp  5
-Attr 12 25 25 22 12 13 13 22
-AMod 4 2 0 11 1 0 0 0
+Attr 12 25 25 22 12 17 8 22
+AMod 4 2 0 9 1 0 0 0
 Pass SaphNrhU1GhUU~
 Titl  is {BChallenged{R *Special person aura*{x~
 Pnts 67
 TSex 1
 LLev 1
 HMVP 876 928 483
-Cnd  0 28 34 34
+Cnd  0 40 40 40
 Alias dead c 'summon dead'~
 Alias resc o all rescue santas~
 Alias fog c 'faerie fog'~
@@ -94,7 +103,7 @@ Alias 1 c mirror~
 Alias 2 c word santas~
 Sk 77 'aid'
 Sk 92 'armor'
-Sk 99 'bestow holiness'
+Sk 100 'bestow holiness'
 Sk 100 'bless'
 Sk 100 'blindness'
 Sk 96 'body weaponry'
@@ -105,7 +114,6 @@ Sk 1 'cause critical'
 Sk 1 'cause light'
 Sk 1 'cause serious'
 Sk 1 'change sex'
-Sk 1 'cone of silence'
 Sk 87 'continual light'
 Sk 77 'control weather'
 Sk 71 'create food'
@@ -233,22 +241,11 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'withstand death'   0  51   7   0   0 1073741824
-Affc 'imbue'   0  52   6   0   0          0
-Affc 'endure heat'   3  50   3   0   0        128
-Affc 'haste'   0  20   1   2   2    2097152
-Affc 'tower of iron will'   3  50  16   0   0      32768
-Affc 'body weaponry'   0  50  14   0   0   33554432
-Affc 'frenzy'   0  51   7  40  17          0
-Affc 'frenzy'   0  49   7   8  19          0
-Affc 'frenzy'   0  49   7   8  18          0
-Affc 'bless'   0  50  48  -6  24          0
-Affc 'bless'   0  52  48   6  18          0
-Affc 'protection evil'   0  51  14  -1  24       8192
-Affc 'stone skin'   0  51  42 -40  17          0
-Affc 'shield'   0  52  50 -20  17          0
-Affc 'armor'   0  50  27 -20  17          0
-Affc 'aid'   0  48   4 116  13          0
+Affc 'armor'   0  48  13 -20  17          0
+Affc 'shield'   0  44  36 -20  17          0
+Affc 'stone skin'   0  49  28 -40  17          0
+Affc 'bless'   0  50  37   6  18          0
+Affc 'bless'   0  49  37  -6  24          0
 End
 
 #O
@@ -427,51 +424,6 @@ Cost 0
 End
 
 #O
-Vnum 2447
-Nest 1
-PrevOwner Deceased~
-Cond 0
-Wear -1
-Cost 150
-End
-
-#O
-Vnum 10419
-Enchanted
-Nest 1
-PrevOwner Deceased~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 1330
-Affc 'enchant weapon'   1  54  -1   8  19          0
-Affc 'enchant weapon'   0  54  -1   8  18          0
-End
-
-#O
-Vnum 23505
-Nest 1
-PrevOwner Deceased~
-Cond 0
-Wear -1
-Cost 700
-End
-
-#O
-Vnum 10337
-Enchanted
-Nest 1
-PrevOwner StarBlaze~
-ExtF 536871266
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
 Vnum 9573
 Nest 1
 PrevOwner Santas~
@@ -531,6 +483,39 @@ Val  50 1 0 5 100
 End
 
 #O
+Vnum 23505
+Nest 1
+PrevOwner Santas~
+Stolen 4
+Cond 0
+Wear -1
+Cost 700
+End
+
+#O
+Vnum 2447
+Nest 1
+PrevOwner Santas~
+Cond 0
+Wear -1
+Cost 150
+End
+
+#O
+Vnum 10419
+Enchanted
+Nest 1
+PrevOwner Santas~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 1330
+Affc 'enchant weapon'   1  54  -1   8  19          0
+Affc 'enchant weapon'   0  54  -1   8  18          0
+End
+
+#O
 Vnum 10431
 Nest 1
 PrevOwner Santas~
@@ -558,10 +543,23 @@ Cost 4500
 End
 
 #O
+Vnum 10337
+Enchanted
+Nest 1
+PrevOwner Santas~
+ExtF 536871266
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
 Vnum 18912
 Nest 0
 PrevOwner Santas~
-Stolen 94
+Stolen 266
 Cond 0
 Wear 16
 Cost 4800

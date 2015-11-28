@@ -1,0 +1,1829 @@
+#AREA
+../newareas/rage11.are~
+Elemental Plane of Water~
+{  51+ } Rage   Elemental Plane of Water~
+22552 22600
+
+#MOBILES
+#22552
+elemental guardian water~
+Elemental Guardian~
+Here stands the Guardian to the Elemental Plane of Water, glaring at you with undisguised hatred.
+~
+The Guaridan to the Elemental Plane of Water is an impressive figure.  Standing
+nearly 15 feet in height, he dwarfs all the but the largest elementals.  His
+baleful gaze is unblinking and no one who does not have the King's blessing has
+ever passed the threshold he guards.
+~
+unique~
+None shall pass this threshold.~
+I will not give way.~
+Go back whence you came, none are permitted entrance to the Plane of Water.~
+ABFT DFV 0 0
+57 80 0d0+15000 0d0+10000 10d12+60 splash
+-40 -40 -40 -40
+AEFKN ABILOPQR MN H
+stand stand none 0
+AHMV ABCDEFK giant 0
+#22553
+giant water elemental~
+a giant water elemental~
+A giant water elemental floats here, reaching for you.
+~
+A giant water elemental floats here.  Strong currents flow toward and from it
+as the elemental commands the surrounding water to do it's bidding.  The
+raw elemental power this being represents dwarfs your puny mortal comprehension.
+~
+human~
+Feel the wrath of the sea foolish mortal!~
+Come, drown in my embrace, violator of the covenant!~
+I will fill your lungs with watery death.~
+AFTU JV 0 0
+58 45 0d0+10000 0d0+6000 5d20+40 splash
+-41 -41 -41 -41
+EFKLNU ABILQR MNOP H
+stand stand none 0
+0 0 medium 0
+F for V
+F par GHIJ
+#22554
+large water elemental~
+a large water elemental~
+A large water elemental stands here, swirling and waving in the currents.
+~
+A large water elemental floats here gently.  While barely visible in the water
+that surrounds him, the elementals presence can be felt through the currents and
+waves that tug at you with great force.
+~
+human~
+~
+(null)~
+(null)~
+AFTU JV 0 0
+55 40 0d0+7500 0d0+5000 4d30+30 splash
+-36 -36 -36 -36
+EFKNU ABILQR MNOP H
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#22555
+small water elemental~
+a small water elemental~
+A small wter elemental floats quietly here.
+~
+This elemental is quite small compared to others you might have seen.  It floats
+quickly around, moving constantly.  Ripples and waves in the water that surround
+it reveal its presence.
+~
+unique~
+Can't catch me, little mortal!~
+Splish Splash!~
+Come and play in the water, its fun! Really!~
+AFT JV 0 0
+52 35 0d0+6000 0d0+8000 12d8+35 splash
+-35 -35 -35 -35
+EFKNU ABILQR MNOP H
+stand stand none 0
+AHMV ABCDEFK medium 0
+#22556
+ice drake humanoid lizard~
+an ice drake~
+A long humanoid/lizard cross swims quickly by you, leaving a trail of ice crystals in its wake.
+~
+An ice drake is a long lizardish looking humanoid.  It swims through the water
+at an incredible rate, leaving a trail of ice crystals behind it.  The water
+around it drops in temperature quickly, making you shiver with the cold.
+~
+unique~
+I will freeze the blood in your veins.~
+I will spill your blood, and watch it diffuse to nothing in the endless water of my home.~
+Water is my servent, you shall drown here and now.~
+AFT HJV 0 0
+50 20 100d50+5000 0d0+6000 12d8+20 frbite
+0 0 0 0
+EFKNU ABILQR MNOP H
+stand stand none 0
+AHMV ABCDEF medium 0
+#22557
+water wierd snake~
+a water wierd~
+A long snake-like being, made of water, slithers quickly by you.
+~
+Generic description.~
+human~
+~
+~
+~
+AFTU JV 0 0
+49 30 75d75+4000 0d0+6000 5d9+70 splash
+0 0 0 0
+EFKNU ABILQR MNOP H
+stand stand none 0
+Y 0 medium 0
+F for V
+F par GHIJK
+#22558
+ice sculpture~
+an ice sculpture~
+A large sculpture of a swan, carved of ice stand here.
+~
+A large sculpture of a swan stands here, carved of solid ice.  Light bends
+and refracts through it's body to play upon the watery walls of the small
+vestibule in which it stands.  The base of the statue appears to be hollow.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABU DFJ 0 0
+52 40 50d10+5000 25d9+100 5d8+20 chill
+-21 -21 -21 3
+EFNU IR 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK large 0
+#0
+
+#OBJECTS
+#22552
+ice shard~
+a shard of ice~
+A long sliver of ice lies here, with a quickly growing circle of frost around it.~
+ice~
+weapon A AN
+dagger 10 4 chill B
+50 100 0 P
+#22553
+pottery shard~
+a shard of pottery~
+A small shard of pottery lies here.  It is inscribed with a small symbol.~
+pottery~
+item_part 0 AO
+22557 22556 22555 22554 22553
+0 100 0 P
+E
+symbol pottery~
+The symbol appears to be a stylized flame or small fire.
+~
+#22554
+pottery shard~
+a shard of pottery~
+A small shard of pottery lies here.  It is inscribed with a small symbol.~
+pottery~
+item_part 0 AO
+22557 22556 22555 22554 22553
+0 100 0 P
+E
+symbol pottery~
+The symbol appears to be a stylized flame or small fire.
+~
+#22555
+pottery shard~
+a shard of pottery~
+A small shard of pottery lies here.  It is inscribed with a small symbol.~
+pottery~
+item_part 0 AO
+22557 22556 22555 22554 22553
+0 100 0 P
+E
+symbol pottery~
+The symbol appears to be a stylized flame or small fire.
+~
+#22556
+pottery shard~
+a shard of pottery~
+A small shard of pottery lies here.  It is inscribed with a small symbol.~
+pottery~
+item_part 0 AO
+22557 22556 22555 22554 22553
+0 100 0 P
+E
+symbol pottery~
+The symbol appears to be a stylized flame or small fire.
+~
+#22557
+pottery urn~
+a pottery urn~
+A large pottery urn is here.  Its sides are covered with motifs of water, air, fire and earth.~
+pottery~
+forge A AO
+0 0 0 0 0
+50 100 0 P
+E
+glow~
+Generic extended description.
+~
+#22558
+water segment~
+the Water Segment~
+A small wedge-shaped segment of gold lies here.  It bears a symbol of a drop of water.~
+gold~
+jewelry d AO
+0 0 0 0 0
+50 100 50000 P
+#22559
+wave ring~
+a wavy ring~
+A small blue ring, carved with waves lies here.~
+lapis lazuli~
+item_part 0 AB
+0 0 0 0 0
+48 100 3000 P
+A
+3 2
+A
+12 40
+F
+A 0 0 b
+#22560
+snowflake~
+a single, perfect, snowflake~
+A single, perfectly formed snowflake shimmers here.  You wonder why it hasn't melted.~
+snow~
+trash AG AO
+0 0 0 0 0
+0 100 0 P
+#22561
+base statue~
+the base of the statue~
+~
+~
+container 0 0
+1000 0 0 1000 0
+0 100 0 P
+#22562
+drop water~
+a perfect drop of water~
+A drop of water hangs from nothing.  It's perfect teardrop shape is suspended from the water around it.~
+snow~
+trash AG AO
+0 0 0 0 0
+0 100 0 P
+#22563
+cloud steam~
+a small cloud of steam~
+A small cloud of hot steam floats here.~
+steam~
+trash 0 AQ
+0 0 0 0 0
+49 1 0 P
+A
+20 -3
+A
+12 25
+A
+13 30
+#22564
+cloud steam large~
+a large cloud of steam~
+A large cloud of hot steam floats here.~
+steam~
+trash 0 AQ
+0 0 0 0 0
+49 100 0 P
+A
+20 -6
+A
+12 50
+A
+13 50
+#22565
+snowball~
+a snowball~
+A small ball of snow, perfect for throwing at someone's head sits here.~
+snow~
+grenade AG AO
+10 8 0 0 39
+20 5 0 P
+#22566
+seaweed belt~
+a belt of woven seaweed~
+A wide belt, woven of seaweed sits here.~
+seaweed~
+armor 0 AL
+-12 -12 -12 -18 0
+45 4 0 P
+A
+5 4
+A
+13 5
+A
+19 3
+#22567
+sheet ice~
+a sheet of ice~
+A small sheet of ice starts to melt here.  It has runes carved into it's surface.~
+ice~
+spell_page 0 AO
+40 180 'wall of ice' 1 0
+40 100 0 P
+A
+3 -5
+#22568
+small blue scroll~
+a small blue scroll~
+A small scroll, written on wet, blue paper sits here.~
+paper~
+spell_page 0 AO
+25 100 'hydrophilia' 1 0
+0 100 0 P
+#0
+
+#ROOMS
+#22552
+Entry to the Elemental Plane of Water~
+You stand at the entry to the Elemental Plane of Water.  A large archway made
+apparently of rivers of water and ice stands before you.  Stretching away as
+far as your eyes can see, a wall of rushing, impenetrable water prevents you
+from going any further without passing through the arch.
+~
+0 CD 20
+D2
+Exit ~
+door~
+16384 0 22553
+S
+#22553
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22555
+D1
+Exit ~
+door~
+16384 0 22554
+D2
+Exit ~
+door~
+16384 0 22552
+D3
+Exit ~
+door~
+16384 0 22557
+D4
+Exit ~
+door~
+16384 0 22563
+D5
+Exit ~
+door~
+16384 0 22572
+S
+#22554
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22561
+D1
+Exit ~
+door~
+16384 0 22558
+D2
+Exit ~
+door~
+16384 0 22573
+D3
+Exit ~
+door~
+16384 0 22553
+D4
+Exit ~
+door~
+16384 0 22555
+D5
+Exit ~
+door~
+16384 0 22564
+S
+#22555
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22559
+D1
+Exit ~
+door~
+16384 0 22554
+D2
+Exit ~
+door~
+16384 0 22571
+D3
+Exit ~
+door~
+16384 0 22562
+D4
+Exit ~
+door~
+16384 0 22553
+D5
+Exit ~
+door~
+16384 0 22556
+S
+#22556
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22555
+D1
+Exit ~
+door~
+16384 0 22558
+D2
+Exit ~
+door~
+16384 0 22565
+D3
+Exit ~
+door~
+16384 0 22557
+D4
+Exit ~
+door~
+16384 0 22559
+D5
+Exit ~
+door~
+16384 0 22574
+S
+#22557
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22558
+D1
+Exit ~
+door~
+16384 0 22560
+D2
+Exit ~
+door~
+16384 0 22556
+D3
+Exit ~
+door~
+16384 0 22575
+D4
+Exit ~
+door~
+16384 0 22566
+D5
+Exit ~
+door~
+16384 0 22553
+S
+#22558
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22556
+D1
+Exit ~
+door~
+16384 0 22561
+D2
+Exit ~
+door~
+16384 0 22567
+D3
+Exit ~
+door~
+16384 0 22557
+D4
+Exit ~
+door~
+16384 0 22554
+D5
+Exit ~
+door~
+16384 0 22576
+S
+#22559
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22555
+D1
+Exit ~
+door~
+16384 0 22560
+D2
+Exit ~
+door~
+16384 0 22561
+D3
+Exit ~
+door~
+16384 0 22577
+D4
+Exit ~
+door~
+16384 0 22556
+D5
+Exit ~
+door~
+16384 0 22568
+S
+#22560
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22559
+D1
+Exit ~
+door~
+16384 0 22561
+D2
+Exit ~
+door~
+16384 0 22553
+D3
+Exit ~
+door~
+16384 0 22557
+D4
+Exit ~
+door~
+16384 0 22578
+D5
+Exit ~
+door~
+16384 0 22569
+S
+#22561
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22570
+D1
+Exit ~
+door~
+16384 0 22560
+D2
+Exit ~
+door~
+16384 0 22558
+D3
+Exit ~
+door~
+16384 0 22559
+D4
+Exit ~
+door~
+16384 0 22554
+D5
+Exit ~
+door~
+16384 0 22579
+S
+#22562
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22565
+D1
+Exit ~
+door~
+16384 0 22568
+D2
+Exit ~
+door~
+16384 0 22563
+D3
+Exit ~
+door~
+16384 0 22555
+D4
+Exit ~
+door~
+16384 0 22571
+D5
+Exit ~
+door~
+16384 0 22564
+S
+#22563
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22566
+D1
+Exit ~
+door~
+16384 0 22562
+D2
+Exit ~
+door~
+16384 0 22569
+D3
+Exit ~
+door~
+16384 0 22553
+D4
+Exit ~
+door~
+16384 0 22572
+D5
+Exit ~
+door~
+16384 0 22564
+S
+#22564
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22567
+D1
+Exit ~
+door~
+16384 0 22554
+D2
+Exit ~
+door~
+16384 0 22563
+D3
+Exit ~
+door~
+16384 0 22573
+D4
+Exit ~
+door~
+16384 0 22570
+D5
+Exit ~
+door~
+16384 0 22562
+S
+#22565
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22556
+D1
+Exit ~
+door~
+16384 0 22567
+D2
+Exit ~
+door~
+16384 0 22566
+D3
+Exit ~
+door~
+16384 0 22562
+D4
+Exit ~
+door~
+16384 0 22574
+D5
+Exit ~
+door~
+16384 0 22568
+S
+#22566
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22569
+D1
+Exit ~
+door~
+16384 0 22557
+D2
+Exit ~
+door~
+16384 0 22575
+D3
+Exit ~
+door~
+16384 0 22565
+D4
+Exit ~
+door~
+16384 0 22580
+D5
+Exit ~
+door~
+16384 0 22563
+S
+#22567
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22566
+D1
+Exit ~
+door~
+16384 0 22558
+D2
+Exit ~
+door~
+16384 0 22570
+D3
+Exit ~
+door~
+16384 0 22576
+D4
+Exit ~
+door~
+16384 0 22565
+D5
+Exit ~
+door~
+16384 0 22564
+S
+#22568
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22565
+D1
+Exit ~
+door~
+16384 0 22562
+D2
+Exit ~
+door~
+16384 0 22569
+D3
+Exit ~
+door~
+16384 0 22577
+D4
+Exit ~
+door~
+16384 0 22570
+D5
+Exit ~
+door~
+16384 0 22559
+S
+#22569
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22563
+D1
+Exit ~
+door~
+16384 0 22560
+D2
+Exit ~
+door~
+16384 0 22578
+D3
+Exit ~
+door~
+16384 0 22570
+D4
+Exit ~
+door~
+16384 0 22566
+D5
+Exit ~
+door~
+16384 0 22568
+S
+#22570
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22568
+D1
+Exit ~
+door~
+16384 0 22579
+D2
+Exit ~
+door~
+16384 0 22569
+D3
+Exit ~
+door~
+16384 0 22567
+D4
+Exit ~
+door~
+16384 0 22561
+D5
+Exit ~
+door~
+16384 0 22564
+S
+#22571
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22555
+D1
+Exit ~
+door~
+16384 0 22574
+D2
+Exit ~
+door~
+16384 0 22577
+D3
+Exit ~
+door~
+16384 0 22573
+D4
+Exit ~
+door~
+16384 0 22562
+D5
+Exit ~
+door~
+16384 0 22572
+S
+#22572
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22578
+D1
+Exit ~
+door~
+16384 0 22553
+D2
+Exit ~
+door~
+16384 0 22575
+D3
+Exit ~
+door~
+16384 0 22573
+D4
+Exit ~
+door~
+16384 0 22571
+D5
+Exit ~
+door~
+16384 0 22563
+S
+#22573
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22579
+D1
+Exit ~
+door~
+16384 0 22564
+D2
+Exit ~
+door~
+16384 0 22571
+D3
+Exit ~
+door~
+16384 0 22554
+D4
+Exit ~
+door~
+16384 0 22576
+D5
+Exit ~
+door~
+16384 0 22572
+S
+#22574
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22576
+D1
+Exit ~
+door~
+16384 0 22565
+D2
+Exit ~
+door~
+16384 0 22575
+D3
+Exit ~
+door~
+16384 0 22571
+D4
+Exit ~
+door~
+16384 0 22556
+D5
+Exit ~
+door~
+16384 0 22577
+S
+#22575
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22572
+D1
+Exit ~
+door~
+16384 0 22566
+D2
+Exit ~
+door~
+16384 0 22576
+D3
+Exit ~
+door~
+16384 0 22557
+D4
+Exit ~
+door~
+16384 0 22574
+D5
+Exit ~
+door~
+16384 0 22578
+S
+#22576
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22575
+D1
+Exit ~
+door~
+16384 0 22558
+D2
+Exit ~
+door~
+16384 0 22579
+D3
+Exit ~
+door~
+16384 0 22574
+D4
+Exit ~
+door~
+16384 0 22567
+D5
+Exit ~
+door~
+16384 0 22573
+S
+#22577
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22578
+D1
+Exit ~
+door~
+16384 0 22559
+D2
+Exit ~
+door~
+16384 0 22571
+D3
+Exit ~
+door~
+16384 0 22568
+D4
+Exit ~
+door~
+16384 0 22574
+D5
+Exit ~
+door~
+16384 0 22579
+S
+#22578
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22560
+D1
+Exit ~
+door~
+16384 0 22575
+D2
+Exit ~
+door~
+16384 0 22569
+D3
+Exit ~
+door~
+16384 0 22577
+D4
+Exit ~
+door~
+16384 0 22572
+D5
+Exit ~
+door~
+16384 0 22579
+S
+#22579
+The Elemental Plane of Water~
+Every direction looks completely the same.  No matter which way you turn, all
+you can see is the ripples and wavering of the opressive water around you.
+The temperature changes suddenly from boiling hot, causing huge bubbles of
+steam to form, to freezing cold, creating huge chunks of ice and back again
+without any notice.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22573
+D1
+Exit ~
+door~
+16384 0 22570
+D2
+Exit ~
+door~
+16384 0 22576
+D3
+Exit ~
+door~
+16384 0 22577
+D4
+Exit ~
+door~
+16384 0 22578
+D5
+Exit ~
+door~
+16384 0 22561
+S
+#22580
+Outside the Watery Castle~
+You stand outside what appears to be a large castle constructed completely from
+ice and water.  The walls rise high above you, waving and shimmering in the slight
+currents.  A large gate stands before you, but the dark water prevents you from
+seeing inside.
+~
+0 D 20
+D3
+Exit ~
+door~
+16384 0 22581
+D4
+Exit ~
+door~
+16384 0 22566
+S
+#22581
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22582
+D1
+Exit ~
+door~
+16384 0 22580
+D2
+Exit ~
+door~
+16384 0 22583
+S
+#22582
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D2
+Exit ~
+door~
+16384 0 22581
+D3
+Exit ~
+door~
+16384 0 22584
+S
+#22583
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22581
+D3
+Exit ~
+door~
+16384 0 22591
+S
+#22584
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D1
+Exit ~
+door~
+16384 0 22582
+D3
+Exit ~
+door~
+16384 0 22585
+S
+#22585
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22586
+D1
+Exit ~
+door~
+16384 0 22584
+D2
+Exit ~
+door~
+16384 0 22587
+D3
+Exit ~
+door~
+16384 0 22588
+S
+#22586
+A Small Vestibule~
+You stand in a small vestibule.  It is extrememly non-descript.
+~
+0 D 20
+D2
+Exit ~
+door~
+16384 0 22585
+S
+#22587
+A Small Vestibule~
+You stand in a small vestibule.  It is extrememly non-descript.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22585
+S
+#22588
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D1
+Exit ~
+door~
+16384 0 22585
+D3
+Exit ~
+door~
+16384 0 22589
+S
+#22589
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D1
+Exit ~
+door~
+16384 0 22588
+D2
+Exit ~
+door~
+16384 0 22590
+S
+#22590
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22589
+D2
+Exit ~
+door~
+16384 0 22596
+D3
+Exit ~
+door~
+16384 0 22597
+S
+#22591
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D1
+Exit ~
+door~
+16384 0 22583
+D3
+Exit ~
+door~
+16384 0 22592
+S
+#22592
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22594
+D1
+Exit ~
+door~
+16384 0 22591
+D2
+Exit ~
+door~
+16384 0 22595
+D3
+Exit ~
+door~
+16384 0 22593
+S
+#22593
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D1
+Exit ~
+door~
+16384 0 22592
+D3
+Exit ~
+door~
+16384 0 22596
+S
+#22594
+A Small Vestibule~
+You stand in a small vestibule.  It is extrememly non-descript.
+~
+0 D 20
+D2
+Exit ~
+door~
+16384 0 22592
+S
+#22595
+A Small Vestibule~
+You stand in a small vestibule.  It is extrememly non-descript.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22592
+S
+#22596
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D0
+Exit ~
+door~
+16384 0 22590
+D1
+Exit ~
+door~
+16384 0 22593
+S
+#22597
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D1
+Exit ~
+door~
+16384 0 22590
+D3
+Exit ~
+door~
+16384 0 22598
+S
+#22598
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D1
+Exit ~
+door~
+16384 0 22597
+D3
+Exit ~
+door~
+16384 0 22599
+S
+#22599
+Inside the Watery Castle~
+You stand inside a large castle, who's walls appear to be constructed of water
+and ice.  While it might seem easy to pass through the walls, whenever you
+approach one, the current pushes you back into the middle of the passage.  The
+passage itself is, of course, relatively easy to navigate.
+~
+0 D 20
+D1
+Exit ~
+door~
+16384 0 22598
+D3
+Exit ~
+door~
+16384 0 22600
+S
+#22600
+Throne Room of the King of Water Elementals~
+Generic room description.
+~
+0 D 20
+D1
+Exit ~
+door~
+16384 0 22599
+S
+#0
+
+#RESETS
+R 0 22553   6     	* The Elemental Plane of Water
+R 0 22554   6     	* The Elemental Plane of Water
+R 0 22555   6     	* The Elemental Plane of Water
+R 0 22556   6     	* The Elemental Plane of Water
+R 0 22557   6     	* The Elemental Plane of Water
+R 0 22558   6     	* The Elemental Plane of Water
+R 0 22559   6     	* The Elemental Plane of Water
+R 0 22560   6     	* The Elemental Plane of Water
+R 0 22561   6     	* The Elemental Plane of Water
+R 0 22562   6     	* The Elemental Plane of Water
+R 0 22563   6     	* The Elemental Plane of Water
+R 0 22564   6     	* The Elemental Plane of Water
+R 0 22565   6     	* The Elemental Plane of Water
+R 0 22566   6     	* The Elemental Plane of Water
+R 0 22567   6     	* The Elemental Plane of Water
+R 0 22568   6     	* The Elemental Plane of Water
+R 0 22569   6     	* The Elemental Plane of Water
+R 0 22570   6     	* The Elemental Plane of Water
+R 0 22571   6     	* The Elemental Plane of Water
+R 0 22572   6     	* The Elemental Plane of Water
+R 0 22573   6     	* The Elemental Plane of Water
+R 0 22574   6     	* The Elemental Plane of Water
+R 0 22575   6     	* The Elemental Plane of Water
+R 0 22576   6     	* The Elemental Plane of Water
+R 0 22577   6     	* The Elemental Plane of Water
+R 0 22578   6     	* The Elemental Plane of Water
+R 0 22579   6     	* The Elemental Plane of Water
+M 0 22553   1 22599  1	* a giant water elemental
+M 0 22555   1 22597  1	* a small water elemental
+M 0 22557   1 22590  1	* a water wierd
+M 0 22556   3 22583  3	* an ice drake
+M 0 22556   3 22583  3	* an ice drake
+M 0 22556   3 22583  3	* an ice drake
+M 0 22557   3 22582  2	* a water wierd
+M 0 22557   3 22582  2	* a water wierd
+M 0 22554   3 22573  2	* a large water elemental
+M 0 22554   3 22573  2	* a large water elemental
+D 0 22573   0 16384	* The Elemental Plane of Water north
+D 0 22573   1 16384	* The Elemental Plane of Water east
+D 0 22573   2 16384	* The Elemental Plane of Water south
+D 0 22573   3 16384	* The Elemental Plane of Water west
+D 0 22573   4 16384	* The Elemental Plane of Water up
+D 0 22573   5 16384	* The Elemental Plane of Water down
+M 0 22557   4 22554  1	* a water wierd
+D 0 22554   0 16384	* The Elemental Plane of Water north
+D 0 22554   1 16384	* The Elemental Plane of Water east
+D 0 22554   2 16384	* The Elemental Plane of Water south
+D 0 22554   3 16384	* The Elemental Plane of Water west
+D 0 22554   4 16384	* The Elemental Plane of Water up
+D 0 22554   5 16384	* The Elemental Plane of Water down
+M 0 22556  13 22556  6	* an ice drake
+M 0 22556  13 22556  6	* an ice drake
+M 0 22556  13 22556  6	* an ice drake
+M 0 22556  13 22556  6	* an ice drake
+M 0 22556  13 22556  6	* an ice drake
+M 0 22556  13 22556  6	* an ice drake
+D 0 22556   0 16384	* The Elemental Plane of Water north
+D 0 22556   1 16384	* The Elemental Plane of Water east
+D 0 22556   2 16384	* The Elemental Plane of Water south
+D 0 22556   3 16384	* The Elemental Plane of Water west
+D 0 22556   4 16384	* The Elemental Plane of Water up
+D 0 22556   5 16384	* The Elemental Plane of Water down
+M 0 22555   7 22559  2	* a small water elemental
+M 0 22555   7 22559  2	* a small water elemental
+D 0 22559   0 16384	* The Elemental Plane of Water north
+D 0 22559   1 16384	* The Elemental Plane of Water east
+D 0 22559   2 16384	* The Elemental Plane of Water south
+D 0 22559   3 16384	* The Elemental Plane of Water west
+D 0 22559   4 16384	* The Elemental Plane of Water up
+D 0 22559   5 16384	* The Elemental Plane of Water down
+M 0 22554   3 22570  1	* a large water elemental
+M 0 22553   3 22570  1	* a giant water elemental
+G 1 22553  -1     	*   a shard of pottery
+D 0 22570   0 16384	* The Elemental Plane of Water north
+D 0 22570   1 16384	* The Elemental Plane of Water east
+D 0 22570   2 16384	* The Elemental Plane of Water south
+D 0 22570   3 16384	* The Elemental Plane of Water west
+D 0 22570   4 16384	* The Elemental Plane of Water up
+D 0 22570   5 16384	* The Elemental Plane of Water down
+M 0 22556  13 22567  1	* an ice drake
+G 1 22552  -1     	*   a shard of ice
+D 0 22567   0 16384	* The Elemental Plane of Water north
+D 0 22567   1 16384	* The Elemental Plane of Water east
+D 0 22567   2 16384	* The Elemental Plane of Water south
+D 0 22567   3 16384	* The Elemental Plane of Water west
+D 0 22567   4 16384	* The Elemental Plane of Water up
+D 0 22567   5 16384	* The Elemental Plane of Water down
+M 0 22554   3 22566  1	* a large water elemental
+E 1 22559  -1    1	*   a wavy ring
+D 0 22566   0 16384	* The Elemental Plane of Water north
+D 0 22566   1 16384	* The Elemental Plane of Water east
+D 0 22566   2 16384	* The Elemental Plane of Water south
+D 0 22566   3 16384	* The Elemental Plane of Water west
+D 0 22566   4 16384	* The Elemental Plane of Water up
+D 0 22566   5 16384	* The Elemental Plane of Water down
+M 0 22558   4 22587  1	* an ice sculpture
+O 0 22561 100 22587	* the base of the statue
+P 1 22560  -1 22561  1	*   a single, perfect, snowflake
+D 0 22587   0 16384	* A Small Vestibule north
+M 0 22558   4 22586  1	* an ice sculpture
+O 0 22561 100 22586	* the base of the statue
+P 1 22562  -1 22561  1	*   a perfect drop of water
+D 0 22586   2 16384	* A Small Vestibule south
+M 0 22556  13 22594  1	* an ice drake
+M 0 22558   4 22594  1	* an ice sculpture
+O 0 22561 100 22594	* the base of the statue
+P 1 22565  -1 22561  1	*   a snowball
+D 0 22594   2 16384	* A Small Vestibule south
+M 0 22554   4 22562  1	* a large water elemental
+E 1 22566  -1   13	*   a belt of woven seaweed
+D 0 22562   0 16384	* The Elemental Plane of Water north
+D 0 22562   1 16384	* The Elemental Plane of Water east
+D 0 22562   2 16384	* The Elemental Plane of Water south
+D 0 22562   3 16384	* The Elemental Plane of Water west
+D 0 22562   4 16384	* The Elemental Plane of Water up
+D 0 22562   5 16384	* The Elemental Plane of Water down
+M 0 22558   4 22595  1	* an ice sculpture
+O 0 22561 100 22595	* the base of the statue
+D 0 22595   0 16384	* A Small Vestibule north
+M 0 22501   1 22600  1	* King of the Water Elementals
+D 0 22600   1 16384	* Throne Room of the King of Water Elementals east
+M 0 22556  16 22572  5	* an ice drake
+M 0 22556  16 22572  5	* an ice drake
+M 0 22556  16 22572  5	* an ice drake
+M 0 22556  16 22572  5	* an ice drake
+M 0 22556  16 22572  5	* an ice drake
+D 0 22572   0 16384	* The Elemental Plane of Water north
+D 0 22572   1 16384	* The Elemental Plane of Water east
+D 0 22572   2 16384	* The Elemental Plane of Water south
+D 0 22572   3 16384	* The Elemental Plane of Water west
+D 0 22572   4 16384	* The Elemental Plane of Water up
+D 0 22572   5 16384	* The Elemental Plane of Water down
+M 0 22557   9 22557  5	* a water wierd
+M 0 22557   9 22557  5	* a water wierd
+M 0 22557   9 22557  5	* a water wierd
+M 0 22557   9 22557  5	* a water wierd
+M 0 22557   9 22557  5	* a water wierd
+M 0 22556  16 22557  1	* an ice drake
+D 0 22557   0 16384	* The Elemental Plane of Water north
+D 0 22557   1 16384	* The Elemental Plane of Water east
+D 0 22557   2 16384	* The Elemental Plane of Water south
+D 0 22557   3 16384	* The Elemental Plane of Water west
+D 0 22557   4 16384	* The Elemental Plane of Water up
+D 0 22557   5 16384	* The Elemental Plane of Water down
+M 0 22554   5 22553  1	* a large water elemental
+D 0 22553   0 16384	* The Elemental Plane of Water north
+D 0 22553   1 16384	* The Elemental Plane of Water east
+D 0 22553   2 16384	* The Elemental Plane of Water south
+D 0 22553   3 16384	* The Elemental Plane of Water west
+D 0 22553   4 16384	* The Elemental Plane of Water up
+D 0 22553   5 16384	* The Elemental Plane of Water down
+M 0 22554   6 22598  1	* a large water elemental
+D 0 22598   1 16384	* Inside the Watery Castle east
+D 0 22598   3 16384	* Inside the Watery Castle west
+M 0 22554   7 22558  1	* a large water elemental
+D 0 22558   0 16384	* The Elemental Plane of Water north
+D 0 22558   1 16384	* The Elemental Plane of Water east
+D 0 22558   2 16384	* The Elemental Plane of Water south
+D 0 22558   3 16384	* The Elemental Plane of Water west
+D 0 22558   4 16384	* The Elemental Plane of Water up
+D 0 22558   5 16384	* The Elemental Plane of Water down
+M 0 22555   8 22574  4	* a small water elemental
+M 0 22555   8 22574  4	* a small water elemental
+M 0 22555   8 22574  4	* a small water elemental
+M 0 22555   8 22574  4	* a small water elemental
+D 0 22574   0 16384	* The Elemental Plane of Water north
+D 0 22574   1 16384	* The Elemental Plane of Water east
+D 0 22574   2 16384	* The Elemental Plane of Water south
+D 0 22574   3 16384	* The Elemental Plane of Water west
+D 0 22574   4 16384	* The Elemental Plane of Water up
+D 0 22574   5 16384	* The Elemental Plane of Water down
+M 0 22554   9 22563  2	* a large water elemental
+M 0 22554   9 22563  2	* a large water elemental
+D 0 22563   0 16384	* The Elemental Plane of Water north
+D 0 22563   1 16384	* The Elemental Plane of Water east
+D 0 22563   2 16384	* The Elemental Plane of Water south
+D 0 22563   3 16384	* The Elemental Plane of Water west
+D 0 22563   4 16384	* The Elemental Plane of Water up
+D 0 22563   5 16384	* The Elemental Plane of Water down
+M 0 22557  10 22569  1	* a water wierd
+D 0 22569   0 16384	* The Elemental Plane of Water north
+D 0 22569   1 16384	* The Elemental Plane of Water east
+D 0 22569   2 16384	* The Elemental Plane of Water south
+D 0 22569   3 16384	* The Elemental Plane of Water west
+D 0 22569   4 16384	* The Elemental Plane of Water up
+D 0 22569   5 16384	* The Elemental Plane of Water down
+M 0 22554   9 22555  1	* a large water elemental
+G 1 22556  -1     	*   a shard of pottery
+M 0 22556  16 22555  1	* an ice drake
+D 0 22555   0 16384	* The Elemental Plane of Water north
+D 0 22555   1 16384	* The Elemental Plane of Water east
+D 0 22555   2 16384	* The Elemental Plane of Water south
+D 0 22555   3 16384	* The Elemental Plane of Water west
+D 0 22555   4 16384	* The Elemental Plane of Water up
+D 0 22555   5 16384	* The Elemental Plane of Water down
+M 0 22557  10 22580  1	* a water wierd
+G 1 22555  -1     	*   a shard of pottery
+D 0 22580   3 16384	* Outside the Watery Castle west
+D 0 22580   4 16384	* Outside the Watery Castle up
+M 0 22552   1 22552  1	* Elemental Guardian
+G 1 22568  -1     	*   a small blue scroll
+E 1 22552  -1   16	*   a shard of ice
+D 0 22552   2 16384	* Entry to the Elemental Plane of Water south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 22552 spec_breath_frost   	* Elemental Guardian
+M 22553 spec_elemental_water	* a giant water elemental
+M 22554 spec_elemental_water	* a large water elemental
+M 22555 spec_elemental_water	* a small water elemental
+M 22556 spec_breath_frost   	* an ice drake
+M 22557 spec_elemental_water	* a water wierd
+S
+
+#$

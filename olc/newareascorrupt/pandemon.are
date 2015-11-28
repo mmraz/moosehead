@@ -1,0 +1,465 @@
+#AREA
+../newareas/pandemon.are~
+Pandemonium~
+{ All }         Pandemonium~
+20000 20012
+
+#MOBILES
+#20000
+Cleric, level 20~
+Mistress of Pain~
+A tall, dark goddess is standing above you, ready to inflict PAIN...
+~
+~
+human~
+AQ 0 -800 0
+55 2 2d30+230 2d30+150 2d7+7 pound
+-3 -3 -3 3
+KU 0 0 0
+stand stand male 1200
+0 0 medium 0
+F par GIJK
+#20001
+mistress pain~
+Mistress of Pain~
+You just stumbled at a Goddess. Are you ready to receive PAIN???
+~
+You see a 8 foot tall goddess, with long dark curly hair and orange eyes
+shaped like cat's pupils. She's dressed in tight leather, made of some
+magical creature's hide. She extends her arm at you, and yells 'You there!
+You're next!'.
+~
+human~
+AFQ DFHJ 0 0
+55 15 3d500+4000 2d20+250 4d6+20 whip
+-35 -27 -32 -8
+FINU AB 0 0
+stand stand female 10
+0 0 medium 0
+F par GHIJK
+#20002
+woman blond pamela~
+A Blond Woman called Pamela~
+A very beautiful woman clad in bikini is here, ready to wipe Foun's behind clean as a whistle.
+~
+You see a totally stunning woman, 5'8 tall, with a body of a GODDESS.
+Her blond long hair smells of early spring strawberries, her blue eyes are
+like the colour of sea in lagoon. She stands besides Foun, clad in bikini
+exposing the wonderous size of her bust.
+   She says "Hi! I'm Pamela. I belong to Foun.".
+~
+elf~
+A DF 1000 0
+1 -15 1d1+1 3d30+200 1d1+1 thrust
+30 30 30 30
+FKU ABCD A 0
+stand stand female 0
+0 0 medium 0
+F aff J
+F vul Z
+F for A
+F par DIJK
+#20003
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#20004
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#20005
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#20006
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#20000
+lashing whip~
+Lashing whip~
+A whip knit of dragon skin is here, glowing and humming....~
+leather~
+weapon AB A
+whip 6 7 none 0
+46 250 12300 P
+A
+18 3
+A
+19 2
+#0
+
+#ROOMS
+#20000
+Into the Pandemonium~
+As you decend down into a black pierced well of large circlular stone in
+the Astral Plane, you feel the gravity pull away, making your body feel
+lighter. In a moment you notice that you're walking vertically down into 
+darkness coated by moisture and eerie coldness. The radiating darkness 
+closes all around you, making your lightsources flicker. Cold piercing wind
+blows downwards, draining your strenght and courage. In the distance you
+can hear the scattering voices wailing for escape....
+   There are words painted in blood at the rock surface.
+~
+0 D 9
+D5
+Exit ~
+door~
+0 0 20001
+E
+words blood~
+The Pandemonium of Lower Planes. Created by Foun Fire-eye
+   You have been WARNED.
+~
+E
+~
+Generic extended description.
+~
+S
+#20001
+Pandesmos~
+The vertical fall slopes steeply into a massive plane of darkness, pierced
+by millions of small tunnels screaming the pain of wounded matter. Thunderous
+wailing is carried by blasting wind, driving the mind-shattering high pitched
+noise throughout all the planes of Pandemonium. Rocky wastes and huge caverns
+corroded out of black brimstone circle this area, surrounding you with cross-
+winds and eerie howling. You can see blur lights glowing deep in the caverns
+, indicating secret cities and lurking creatures hiding there. There is a 
+huge black well laying below, leading into darkness with stronger pull of
+gravity and intense cries.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 20012
+D2
+Exit ~
+door~
+0 0 20007
+D4
+Exit ~
+door~
+0 0 20000
+D5
+Exit ~
+door~
+0 0 20002
+E
+caverns caves~
+The caverns seem to be made by natural corrosion caused by the continious
+wind and rain from the river Styx. The lights seem to be moving deep in the
+caverns.
+~
+S
+#20002
+Cocytus~
+Ascending into the dark feeling of gravity, the surrounding caverns shrink
+in size to small holes. Gusts of wind whistle through the thin holes,
+merging with the noise from upper layers, creating a lamenting chorus of
+insane cacophonia. Rain drops bite like nails in the aggressive fast winds,
+beating the ground in merciless fashion. There are stone walls every
+direction, with numerous tunnels carved into the stone with markings of tools
+and chisels throughout their lenght. Whoever created these tunnels are not
+even known by gods.
+~
+0 D 0
+D4
+Exit ~
+door~
+0 0 20001
+E
+caverns tunnels caves~
+It seems like the caverns were created by unnatural means. You can hear
+the screams of long lost souls echoing deep in the darkess of caves.
+~
+S
+#20003
+Deep Chasms~
+The deep tremors open up the black rocky ground of Pandesmos, making the
+passage impossible to walk through. The fall into them would mean certain
+death, as the tremors seem to be endless in lenght. You can hear the cries
+of fallen mortal souls trapped in the chasm, paying their price for falling
+in.
+   There seems to be an eerie magical force drawing you down....
+~
+0 D 9
+D0
+Exit ~
+door~
+0 0 20004
+D2
+Exit ~
+door~
+0 0 20001
+S
+#20004
+Large Caverns~
+Impassable darkness encloses behind you as you enter the endless caves
+of Pandemonium. They seem to be eons in their age, once corroded by acid
+and lava cast down by the wrath of Gods. These barren lairs seem to be
+filled with despair and cacophony of echoing cries and screams. There are
+glowing small lights moving around you, indicating the presence of evil
+tracking your every move...
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 20005
+D2
+Exit ~
+door~
+0 0 20003
+S
+#20005
+Caverns~
+As you enter the caverns, you're met by swift opposing wind, making your
+movement harder. The moisture seems to be thickening, making breathing 
+heavy. The rock seems to be partly alive, shifting to create dead ends to
+your path. Mind-shattering screams echo from the tunnels ahead and behind
+suggesting the ill fate of travellers lost here.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 20006
+D2
+Exit ~
+door~
+0 0 20004
+S
+#20006
+Caverns~
+As you enter the caverns, you're met by swift opposing wind, making your
+movement harder. The moisture seems to be thickening, making breathing 
+heavy. The rock seems to be partly alive, shifting to create dead ends to
+your path. Mind-shattering screams echo from the tunnels ahead and behind
+suggesting the ill fate of travellers lost here.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 20005
+S
+#20007
+Caverns~
+As you enter the caverns, you're met by swift opposing wind, making your
+movement harder. The moisture seems to be thickening, making breathing 
+heavy. The rock seems to be partly alive, shifting to create dead ends to
+your path. Mind-shattering screams echo from the tunnels ahead and behind
+suggesting the ill fate of travellers lost here.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 20001
+S
+#20008
+Foun's Corporate Headquaters~
+As you exit the busy Wall Street subway station, a concrete square opens
+before your eyes. In the north you see a tall skyscraper reaching anxiously
+to heights of heaven, armored with thousend tons of steel, concrete and
+glass. It's the stronghold of Foun, and the Corporate Headquaters of Foun's
+Conglomerated Syndicates Inc.
+   You feel uneasy as the sunlight is reflected from the mirrored windows of
+Foun's skyscraper at you.
+~
+0 C 0
+D0
+Exit ~
+door~
+0 0 20009
+S
+#20009
+Foun's Personal Hell~
+As you enter a large rectangular hall, a sudden feeling of control and
+secrecy makes your spine to shiver. This is the command centre of Foun,
+filled with computerized maps of numerous battlefields fought in different
+times and worlds. The walls are surrounded by plate glass windows, with a
+different view on each wall. The planes of Hell, Pandemonium, Tarterus and
+Hades surround Foun's tower of Glass and Iron, giving him a view of his
+realms. There are glass cabinets on the corners, with memorabilia from wars
+long fought by Foun. Diffrent flags hang over them, from Roman legion Eagles
+to SS Panzers. There are weapons from each era of war, starting from 16th
+century flintlocks to M-16's. Uniforms of many diffrent armies are folded
+neatly behind a long row of Armani suits.
+   Behind the cabinets lie a row of monitors, flashing information about
+various stockmarkets and strengths of divisions. There are also few screens
+running in Doom Deathmatch, abling Foun to play with his fellow Immortals.
+Piles of books and magazines are piled on tables, all ranging from Playboy
+to Sun Tsu's "the Art of War". The whole room seems to be in orderly chaos
+like the world in itself.
+   A statue of Nimrondil is here, waiting to drive his knife to your back.
+~
+0 C 0
+H 300 M 300
+D2
+Exit ~
+door~
+0 0 20008
+D4
+Exit ~
+door~
+0 0 20011
+D5
+Exit ~
+door~
+0 0 20010
+E
+computer screen games doom~
+There are around dozen monitors in the room, all showing diffrent screens
+from diffrent games. The main display is running on Doom deathmatch, where
+Foun and his teammate Palin are getting wasted by Blackstaff & Mythorn.
+Ouch. Panzer General seems to be on too, where Foun plays his decisive
+campaign against the Allied Delstar & Barg. TIE Fighter seems to be running
+on the corner, and Foun's score is there only topped by the Dark Lord Valnor
+. The rest of the screens show stock valuations and balance sheets of liqu-
+dations of companies nationalized by Daisy and Krantzstone.
+~
+E
+uniforms suits closet~
+There are diffrent uniforms and armor orderly placed in the transparent
+glass closet. You notice an armor of Roman Centurion, a plate mail of Saxon
+Knight, a British Navy uniform, a French uniform of Captain in Imperial
+Guard, a red Leftenants jacket of British Colonial Infantry, a black SS 
+uniform of "Das Reich" and the uniform of Lt.Col.101st Airborne in U.S.Army.
+~
+E
+weapons cabinet~
+The glass cabinet seems to be full of weapons from diffrent eras of warfare
+. You can see a Roman broadword and shield, Hunnish War Mattock, Crusaders
+long sword and crested shield, English pirate's rapier, Flintlock of French
+Musketteer, British Colonial rifle from 19th Century, M41 German SMG and
+M16A2 Assault Rifle. All these weapons look used, but well maintenanced.
+~
+E
+statue nimrondil~
+Nimrondil's statue is made of mimeotic polyalloys, a substance known as
+liquid metal. You can feel Nimrondil's eyes scanning you as target,
+calculating the figures for your death. It has been rumoured that his
+success in the realm of murder was because of his talent as cold blooded
+killing machine. No wonder why he has been honoured to be part of Foun's
+"furniture".
+~
+S
+#20010
+Foun's Toilet~
+As you enter into large marble room filled with electronic equipment you
+feel sudden uplifting of spirit. The walls are covered with monitors that
+show diffrent programs and movies, ranging from porno to violence. No dramas
+to been shown here, no!
+   In the centre of room a PINK toilet stands proud like a statue. It looks
+very comfy, cushioned with silk and specially engineered to heat itself. This
+truly is a throne fit for the mightiest!
+   Despite Foun's tendencies to violence, you notice that everything is very
+hygienic and the only scent in the air is one of Christian Dior's Fahrenheit.
+   A beautiful woman clad in bikini stands in the corner, ready to wipe Foun
+behind clean as a whistle.
+~
+0 CD 0
+D4
+Exit ~
+door~
+0 0 20009
+E
+toalet~
+The pot seems to be made of pink marble. It's surrounded by cushions made
+of silk. It has a central heating device, keeping it body warm 24 hrs a day.
+~
+S
+#20011
+Foun's Office~
+This is the Operations Centre of Foun's Conglomerated Syndicate. Computer
+screen are situated in left wall, flashing with information about the daily
+transactions traded in numerous stock exchanges. You can see a snooker table
+on the left corner, paintings of the Dark Lord himself and cryogenied heads
+of Foun's past female 'associates'. Three of the heads, each with a shade of
+red in their hair, have been pierced by several large calibre bulletholes.
+Hunting trophies perhaps? Only Foun and the victims know, and you feel that
+asking questions in here is definetly lethal for your general health.
+   On the middle of the office lies a table made of polymetric metal, with
+laptop computer on the other side and a tray containing the finest of Scotch
+Whisky on the other. You can see the cigar smoke floating behind the massive
+chair, shaping at the form of skulls and daggers before being broken by the
+airconditioning. Stand in attention and state your business before the Man.
+~
+0 0 0
+O Foun~
+D5
+Exit ~
+door~
+0 0 20009
+S
+#20012
+Caverns~
+As you enter the caverns, you're met by swift opposing wind, making your
+movement harder. The moisture seems to be thickening, making breathing 
+heavy. The rock seems to be partly alive, shifting to create dead ends to
+your path. Mind-shattering screams echo from the tunnels ahead and behind
+suggesting the ill fate of travellers lost here.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 20001
+S
+#0
+
+#RESETS
+M 0 20002   1 20010  1	* A Blond Woman called Pamela
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 20000 spec_cast_cleric    	* Mistress of Pain
+M 20001 spec_poison         	* Mistress of Pain
+M 20002 spec_thief          	* A Blond Woman called Pamela
+S
+
+#$

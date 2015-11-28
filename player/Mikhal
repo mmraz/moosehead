@@ -2,8 +2,8 @@
 Name Mikhal~
 Id   929085175
 Email (null)~
-LogO 1108365709
-Vers 31
+LogO 1444234822
+Vers 33
 LnD  A Gladiator~
 Desc Once a faithful warrior of Paladine, Mikhal stood for all that was
 good and true in the realm... But as he grew in power, he noted how
@@ -25,14 +25,15 @@ Desc Once a faithful warrior of Paladine, Mikhal stood for all that was
 Prom <%hhp %mm %vmv %X %S> ~
 Race dragon~
 Clan honor~
-Outc 585
+Outc 546
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 0
+SkPTimer 16
+SkPTracker 12
 LogoutTracker 0
 Kill 1 2 0 1
 Steal 0 0 0
+MSteal 0
 LstK Gitol~
 LstKBy DoomHammer~
 LstAtkedBy no one~
@@ -40,10 +41,16 @@ LstAtkedByTimer 0
 LstCombatDate 1064629085
 LstKillDate 1062337462
 LstDeathDate 1065162102
-LoginsWOKill 72
-LoginsWODeath 40
-LoginsWOCombat 49
+LoginsWOKill 78
+LoginsWODeath 46
+LoginsWOCombat 55
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 1362370 mojo~
 DeityT -52 almighty~
 Sac  300
@@ -52,40 +59,42 @@ Vump  2
 Node 0
 Cap 0
 Created 951478059
-Glad 0 0 0 0 1 1
+Glad 0 0 0 0 2 1
+LastHost 58.85.103.174~
 Cla  6
 Kit barbarian~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 1594933
-Not  1108092640 1070012970 1070012970 1070012970 1107940318 1070012970 1070012970 1108333307 1070012970 1070012970
+Plyd 1598609
+Not  1108092640 1070012970 1070012970 1070012970 1313555121 1070012970 1070012970 1108333307 1070012970 1070012970
 Scro 22
 Rank 0
-Room 9646
-HMV  1394 1394 440 440 454 454
-Gold 676
-Silv 3584
+Room 31502
+HMV  1394 1394 440 440 446 454
+Gold 735
+Silv 5987
 Exp  556999
-Act  CDEGHJMQd
+Act  CDGHJMQd
 MHSF RS
-AfBy JT
+AfBy JPQT
 Comm 0
 Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-SkiP 3
+Trai 2
+SkiP 15
 Save  -5
-Alig  -773
+Alig  -832
 Hit   31
 Dam   35
 SecHit   19
 SecDam   23
-ACs -169 -169 -169 -118
+ACs -129 -129 -129 -78
 Wimp  20
-Attr 25 20 23 25 21 13 13 13
+Attr 25 20 23 25 21 11 14 13
 AMod 8 3 0 5 2 0 0 0
 Pass CuDMXLHz1Bvuw~
 Titl , Lord of the {MIzumo{x [ {BValor{x  /5]~
@@ -93,7 +102,7 @@ Pnts 99
 TSex 1
 LLev 386
 HMVP 1319 410 454
-Cnd  0 0 31 0
+Cnd  0 0 12 0
 Sk 78 'acid blast'
 OldSk 86 'acid blast'
 Sk 84 'armor'
@@ -248,10 +257,10 @@ Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'armor'   0  33   1 -20  17          0
-Affc 'giant strength'   0  31   7   4   1          0
-Affc 'shield'   0  32  15 -20  17          0
-Affc 'stone skin'   0  32   7 -40  17          0
+Affc 'sneak'   0  50  48   0   0      32768
+Affc 'armor'   0  38  14 -20  17          0
+Affc 'giant strength'   0  35  20   4   1          0
+Affc 'shield'   0  37  32 -20  17          0
 End
 
 #O
@@ -375,8 +384,8 @@ Cond 0
 Wear -1
 Lev  45
 Cost 8000
-Affc 'enchant weapon'   1  53  -1   2  19          0
 Affc 'enchant weapon'   0  53  -1   2  18          0
+Affc 'enchant weapon'   1  53  -1   2  19          0
 End
 
 #O
@@ -488,8 +497,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   0  51  -1  11  18          0
 Affc 'enchant weapon'   1  51  -1  11  19          0
+Affc 'enchant weapon'   0  51  -1  11  18          0
 End
 
 #O
@@ -503,9 +512,9 @@ Wear -1
 Lev  50
 Cost 6400
 Val  4 5 8 38 1024
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'reserved'   1  47  -1  -5  17          0
 Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
 End
 
 #O
@@ -518,8 +527,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  38  -1  11  19          0
 Affc 'enchant weapon'   0  38  -1  11  18          0
+Affc 'enchant weapon'   1  38  -1  11  19          0
 End
 
 #O
@@ -626,7 +635,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 4 4 236 -1
+Val  52 4 4 241 -1
 Spell 3 'turn undead'
 End
 
@@ -643,7 +652,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 2 2 236 -1
+Val  52 2 2 241 -1
 Spell 3 'turn undead'
 End
 
@@ -660,7 +669,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 2 2 236 -1
+Val  52 2 2 241 -1
 Spell 3 'turn undead'
 End
 
@@ -734,8 +743,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1000
-Affc 'enchant weapon'   1  45  -1  12  18          0
 Affc 'enchant weapon'   1  45  -1  13  19          0
+Affc 'enchant weapon'   1  45  -1  12  18          0
 End
 
 #O
@@ -754,7 +763,7 @@ PrevOwner Mikhal~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 4 161 0
+Val  52 10 4 166 0
 Spell 3 'remove curse'
 End
 
@@ -934,7 +943,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 2 2 236 -1
+Val  52 2 2 241 -1
 Spell 3 'turn undead'
 End
 
@@ -951,7 +960,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 3 3 236 -1
+Val  52 3 3 241 -1
 Spell 3 'turn undead'
 End
 
@@ -968,7 +977,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 2 2 236 -1
+Val  52 2 2 241 -1
 Spell 3 'turn undead'
 End
 
@@ -995,7 +1004,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  52 4 4 165 -1
+Val  52 4 4 170 -1
 Spell 3 'restrain'
 End
 
@@ -1015,7 +1024,7 @@ PrevOwner Mikhal~
 Cond 0
 Wear -1
 Cost 0
-Val  31 10 5 17 0
+Val  31 10 5 20 0
 Spell 3 'bless'
 End
 
@@ -1039,8 +1048,8 @@ Wear -1
 Lev  40
 Cost 4400
 Val  1 4 7 21 1064
-Affc 'enchant weapon'   1  53  -1   8  18          0
 Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
 End
 
 #O
@@ -1061,9 +1070,9 @@ ExtF 98
 Cond 0
 Wear -1
 Cost 15300
-Affc 'reserved'   1  50  -1  50  13          0
-Affc 'enchant weapon'   1  51  -1   8  18          0
 Affc 'enchant weapon'   1  51  -1  11  19          0
+Affc 'enchant weapon'   1  51  -1   8  18          0
+Affc 'reserved'   1  50  -1  50  13          0
 End
 
 #O
@@ -1084,8 +1093,8 @@ ExtF 323
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   1  53  -1  10  19          0
 Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O
@@ -1135,8 +1144,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 3250
-Affc 'enchant weapon'   0  53  -1   7  18          0
 Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
 End
 
 #O
@@ -1314,8 +1323,8 @@ Cond 0
 Wear 16
 Lev  50
 Cost 5000
-Affc 'enchant weapon'   1  51  -1  12  19          0
 Affc 'enchant weapon'   0  51  -1  12  18          0
+Affc 'enchant weapon'   1  51  -1  12  19          0
 End
 
 #O
@@ -1325,6 +1334,24 @@ PrevOwner Mikhal~
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 31509
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1
 End
 
 #END

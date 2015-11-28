@@ -1,0 +1,284 @@
+#AREA
+../newareas/rages.are~
+The Crystal Palace~
+{  Uc } Rage    The Crystal Palace~
+18080 18085
+
+#MOBILES
+#18080
+Aristotle dead~
+Aristotle~
+Aristotle, the dead looking squirrel
+~
+Aristotle was once a free squirrel, but since his capture by the
+evil coffee-holic Rage, he has taken up residence in Rage's 
+ashtray.  Covered in burns, he looks long dead, but still has a
+spark of life left in him.
+~
+unique~
+ABCG Ace 1000 0
+1 60 1d2+1 0d0+0 2d2+0 bite
+-50 -50 -50 50
+BEFHJNU ABDHIJKLMNPQRS 0 0
+stand stand none 0
+AGV ABCDEF small 0
+#18081
+waitress donna ~
+Donna, the waitress~
+~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#18080
+fountain~
+a crystal fountain~
+A large crystal fountain gurgles merrily here.~
+~
+fountain GR P
+0 0 'water' 0 0
+0 100 0 P
+E
+fountain stream~
+As you stare into the surface of the pure, clear water of the fountain,
+a strange thing occurs.  Words begin to appear on the glassy surface of 
+the water
+ 
+" Brave adventurers,
+ 
+Your arrival here is most fortuitious, and not entirely an accident.  I have
+brought you here in hopes that you will help me as I have little time remaining
+ 
+Once I was accounted among the great mages of this land, but, sadly,
+that is no longer the case.  My time has long since past.
+Yet, in an effort to regain the power and glory of years past, I created
+this palace.  A thing ot great beauty and power, but also the cuase of 
+my current misfortune.  The powers of the elements were once mine.  Air,
+Earth, Fire, Water, Spirit and Void.  All six great elements, all at my 
+beck and call.  But this time I went too far.  I called forth power I never
+imagined existed, could never hope to control.  The magic overwhelmed me
+and the spirits I sought to control took me, broke my body and mind, nearly 
+shattered my soul.
+ 
+It takes all the magical energy I can muster to send even this simple message
+Please, brave hearts, I implore you, find and release me from these torments.
+Seek the keys to the rainbow path and look for me below, in the realm of the
+Void.  The dark forces I have released hold me there and seek to learn the
+secrets of the great crystal palace.
+ 
+Please, please, help me, I have no hope of salvation without your aid.
+-Taeriad "
+~
+#18081
+mandrake shadowcat memory~
+a memory~
+Rage's memories of Shadowcat/Mandrake float here, never to be forgotten.~
+~
+gem T APQ
+13 13 13 13 13
+0 9999 1000000 P
+E
+~
+Generic extended description.
+~
+E
+shadowcat~
+You were the first real friend I had here at MHS. I'll never ever forget the many adventures we had
+together, or the times we spent just sitting around shooting the breeze.  I will always remeber you
+as a true and steadfast companion that could see the way out of the darkness, even when I could not.
+~
+#18082
+tap vodka~
+a vodka tap~
+An ornately carved tap hangs motionless in the air.~
+~
+fountain T APQ
+0 0 'vodka' 0 0
+0 9999 0 P
+#18083
+tap mead~
+a mead tap~
+An ornately carved tap hangs motionless in the air.~
+~
+fountain T APQ
+0 0 'mead' 0 0
+0 9999 0 P
+#18084
+tap amontillado~
+an amontillado tap~
+An ornately carved tap hangs motionless in the air.~
+~
+fountain T APQ
+0 0 'amontillado' 0 0
+0 9999 0 P
+#18085
+tap rum~
+a rum tap~
+An ornately carved tap hangs motionless in the air.~
+~
+fountain T APQ
+0 0 'rum' 0 0
+0 9999 0 P
+#0
+
+#ROOMS
+#18080
+Rage's Favourite Coffee Shop.~
+The bright flourescent lights bathe the many booths and tables in a harsh 
+white light.  The smells of fresh-brewed coffee and stale cigarette smoke
+thickly in the air.  As you walk toward the long counter, your shoes stick
+slightly to the gaudy yellow and green linoleum floor.  Behind the counter
+lie racks and racks of donuts, muffins, and other wonderful treats.
+In front of the counter are several stools, all occupied by the regular
+patrons of the shop.  Each of them has a large cup of steaming, black
+coffee and an over-flowing ashtray in front of them.
+ 
+The largest booth lies in the only dark corner.  The red vinyl covering is 
+almost completely gone.  The seats seem to be composed almost entirely of
+silver duct tape.  The biggest cup of coffee you've ever seen sits atop the
+wobbly table.  Right beside it is a old hubcap filled with cigarette butts,
+a few pieces of heavily chewed gum, and, if you are not mistaken, a dead 
+squirrel.
+ 
+~
+0 CDN 0
+D3
+Exit ~
+door~
+1 0 10168
+E
+stool~
+~
+E
+stool patron booth~
+All the booths and stools are covered with torn red vinyl.  Some of the 
+larger tears are repaired with sticky, silver duct tape.  The patrons
+seated on the stools are almost impossible to tell apart.  Each is clothed
+in faded blue jeans, a T-shirt, and a ratty old leather jacket.  The sheer
+volume of smoke that rises from this small crowd is absolutely astonishing.
+If you didn't know better, you'd swear that each was smoking at least four
+or five cigarettes at any given time.
+~
+E
+squirrel~
+Yep.. it is definately a squirrel.  However, upos closer inspection, you 
+realize it is not dead.  Its fur is singed in a few places from having 
+cigarettes butted out on it, but, otherewize, it is in remarkably good
+shape.  The real question, though, is how it got there, and what reason
+could it possibly have for taking up resisdence in an ashtray?
+~
+E
+donut muffin treat~
+These racks contain every imaginable type of donut, as well as some you'd
+have thought of yourself.  However, upon closer inspection, you realize that
+all the treats displayed here are grossly stale.  The mere thought of actually
+eating one is enough to make you sick to your stomach.  The only donuts that
+seem even remotely fresh are the jelly-filled ones.  Perhaps someone
+occasionally buys and, if they are really brave, actually eats one.
+~
+S
+#18081
+The Crystal Garden~
+As the blinding light clears, you find yourself standing in a vast domed
+structure, apprently made entirely of glass.  You are in teh centre of a 
+huge garden of crystal.  Trees, shrubs, even the grass beneath your feet. all
+made of brittle-looking glass.  A small stream flows away from the elegant
+crystal fountain next to you.  As you LOOK at the FOUNTAIN, your eyes are
+drawn to the beautiful atristry of its sculpture, your ears drink in the 
+soft sounds of water on thin glass.
+~
+0 D 2
+D0
+Exit ~
+door~
+0 0 18082
+S
+#18082
+The Crystal Garden~
+Walking through the garden you are awestruck by the strange beauty of this
+place.  You can see each blade of grass, each leaf on every tree, is made of 
+some form and color fo crystal.  Although everything you see is translucent,
+it all retains some hint of the colour it would be outside this very strange
+enviornment.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 18083
+D2
+Exit ~
+door~
+0 0 18081
+S
+#18083
+Green Hallway~
+This short hallway connects the garden to a giant sphere of green crystal.
+The walls are smooth and sheer and slowly fade from the almost colorless
+glass of the garden to the deep, deep green of the immense sphere.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 18084
+D2
+Exit ~
+door~
+0 0 18082
+E
+east west walls heallway~
+The walls are smooth and featureless.  The color fades so slowly from crystal
+clear to darkest green, that you cannot tell where it stops being one and
+becomes the other.
+~
+S
+#18084
+Palibar's Room~
+You have entered the room of the clan Lt. Palibar 'the torque' McHaggis,
+explaining why the room is about 5' high in total, so watch your head.
+A strange smell assaults your nostrils, drawing you toward the fire in
+the corner of the room.  When you look inside the fire, you see Pal's
+favorite dish roasting to perfection, a nice scoff of haggis.  Adorning
+the walls are various worn-out weapons and tarnished armors, nearly
+useless from years of use.  Over the fireplace hangs a large oil painting
+of Crusher, Miskahal, and Palibar.  Aside from the large rug, a roaring
+fire, and a nice worn-out couch in front of the fire, the rest is
+pretty well dwarvish in nature.
+~
+0 CDKNU 0
+C honor~
+D2
+Exit ~
+door~
+0 0 18083
+E
+picture painting oilpainting~
+This painting holds the likeness of Crusher, Miskahal, and Palibar posing
+together. It must mean something great to Pal considering he placed the
+picture above his beloved Haggis.
+~
+S
+#0
+
+#RESETS
+O 0 18080 100 18081	* a crystal fountain
+D 0 18080   3    1	* Rage's Favourite Coffee Shop. west
+S
+
+#SHOPS
+18081  0  0  0  0  0 	  50  50 	 0 24 	* Donna, the waitress
+0
+
+#SPECIALS
+S
+
+#$

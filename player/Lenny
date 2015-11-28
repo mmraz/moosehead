@@ -2,7 +2,7 @@
 Name Lenny~
 Id   916888880
 Email (null)~
-LogO 1079654576
+LogO 1313599012
 Vers 31
 Desc Lenny's restrings are all done thanks to Guido.
 Send all compliments and such to him and him only.
@@ -31,6 +31,9 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 1040779 matook~
 DeityT -46 matook~
 Sac  300
@@ -40,18 +43,18 @@ Node 0
 Cap 0
 Created 951448845
 Glad 0 0 0 0 0 0
-LastHost CPE0004e292b121-CM00e06f1f63b8.cpe.net.cable.rogers.com~
+LastHost 76.25.229.70~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 1243732
+Plyd 1243734
 Not  1022218697 1022218697 1022218697 1078715324 1076291926 1022218697 1022218697 1022218697 1022218697 1022218697
 Scro 22
 Rank 0
 Room 16503
-HMV  787 787 1361 1361 395 399
+HMV  787 787 1361 1361 399 399
 Gold 70
 Silv 263
 Exp  148028
@@ -123,6 +126,7 @@ Sk 1 'chill touch'
 OldSk 71 'chill touch'
 Sk 1 'colour spray'
 OldSk 75 'colour spray'
+Sk 1 'cone of silence'
 Sk 81 'continual light'
 OldSk 99 'continual light'
 Sk 1 'control weather'
@@ -317,8 +321,8 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect hidden'   0  49  34   0   0         32
 Affc 'detect invis'   0  50  32   0   0          8
+Affc 'detect hidden'   0  49  34   0   0         32
 End
 
 #O
@@ -332,9 +336,9 @@ Desc Somebody's hand covered with {WVaseline{x bleeds on the ground.~
 Cond 0
 Wear 9
 Cost 5800
-Affc 'enchant armor'   1  48  -1  -5  17          0
-Affc 'reserved'   1  23  -1   2   1          0
 Affc 'reserved'   1  23  -1   2  19          0
+Affc 'reserved'   1  23  -1   2   1          0
+Affc 'enchant armor'   1  48  -1  -5  17          0
 End
 
 #O
@@ -491,7 +495,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 8 160 0
+Val  52 10 8 161 0
 Spell 3 'remove curse'
 End
 
@@ -538,9 +542,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1700
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'reserved'   1  44  -1   2   2          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'reserved'   1  44  -1   2   2          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
@@ -553,8 +557,8 @@ Cond 0
 Wear -1
 Lev  25
 Cost 3200
-Affc 'enchant weapon'   1  53  -1   9  19          0
 Affc 'enchant weapon'   1  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
@@ -836,9 +840,9 @@ Desc Somebodies broken {Rheart{x lies on the ground here, shattered.~
 Cond 0
 Wear 12
 Cost 1500
-Affc 'reserved'   1  45  -1  50  12          0
-Affc 'reserved'   1  45  -1   2   3          0
 Affc 'reserved'   1  45  -1  -3  20          0
+Affc 'reserved'   1  45  -1   2   3          0
+Affc 'reserved'   1  45  -1  50  12          0
 End
 
 #O
@@ -852,8 +856,8 @@ Desc A {Bblue{x jumpsuit with a {BLenny{x-warning symbol.~
 Cond 0
 Wear 5
 Cost 13700
-Affc 'reserved'   1  45  -1  -4  20          0
 Affc 'reserved'   1  45  -1  30  12          0
+Affc 'reserved'   1  45  -1  -4  20          0
 End
 
 #O
@@ -949,10 +953,10 @@ Desc A set of sharp, Matookish-looking teeth lie here. Probably Lenny's.~
 Cond 0
 Wear 16
 Cost 11800
-Affc 'enchant weapon'   0 3000  -1   5  18          0
-Affc 'enchant weapon'   1 3000  -1   5  19          0
-Affc 'reserved'   1  50  -1   1   3          0
 Affc 'reserved'   1  50  -1   1   2          0
+Affc 'reserved'   1  50  -1   1   3          0
+Affc 'enchant weapon'   1 3000  -1   5  19          0
+Affc 'enchant weapon'   0 3000  -1   5  18          0
 End
 
 #O

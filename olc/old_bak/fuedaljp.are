@@ -1,0 +1,950 @@
+#AREA
+../newareas/fuedaljp.are~
+The Emperor's Realm~
+{ U/C } Johnwa  The Emperor's Realm~
+30600 30646
+
+#MOBILES
+#30600
+stent sprite~
+a stent sprite~
+A small sprite stands, eyeing yourself, and your purse.
+~
+A small creature, barely standing a foot tall, flies inanely over your
+head, buzzing emitting from it's wings.  He looks so cute, until you notice
+his eyes are centered on your purse, not the flowers.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABHS DF -1000 0
+1 0 2d4+2 0d9+100 1d2+0 none
+10 10 10 10
+BEFJNU 0 0 0
+stand stand male 0
+0 P small 0
+#30601
+terrifying banshee~
+A terrifying banshee~
+A terrifying banshee wails in front of you!
+~
+~
+human~
+(null)~
+(null)~
+(null)~
+AT 0 0 0
+1 -20 100d10+300 10d10+10 0d0+1 beating
+0 0 0 0
+H ABDFKQ 0 0
+sleep sleep male 0
+0 0 medium 0
+F par GHIJK
+#30602
+boatmaster old man~
+The Boatmaster~
+An old man leans easily against a dockpost, seemingly asleep.
+~
+You gaze upon the features of an old, year-worn man.  His clothes are
+tattered, and he seems a bit dirty, but there is nothing terribly unusual
+about him.  He holds in his hand, a keyring with a few keys upon it.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABTV DFJV 0 0
+60 10 1000d10+1000 100d100+100 30d5+10 beating
+-40 -40 -40 -40
+EFNU AB 0 0
+rest rest male 30000
+D 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#30600
+sign tree portal circle~
+A small sign~
+A small sign hovers over a portal, bearing message.~
+wood~
+furniture AGORS 0
+0 0 0 0 0
+1 100 0 P
+E
+sign tree portal circle~
+This small sign reads:
+ 
+By decree of Emperor Fung Sai'uk, this portal has been placed for his 
+servants and militia for their exclusive use.  If you are not under the
+reign of the Emperor, do not use this portal.
+All servants of the Emperor must be of the 15th level of experience to
+enter here, or they enter under their own penalty.  Thank You.
+-Master Ki'do, First Militia
+ 
+(Other words follow, but you cannot make them out.)
+~
+#0
+
+#ROOMS
+#30600
+The Grand Entry~
+Before you stands a great arch of stone, made of pure white marble, set
+high into the air above you.  On either side, at the base of the arch, 
+stand two signs, with writing you cannot comprehend written upon them.
+The smell of flowers rolls faintly from inside the archway, almost drawing
+you in.
+~
+0 C 0
+D0
+Exit ~
+door~
+0 0 30601
+S
+#30601
+Inside The Arch~
+You stand inside a great arch.  Before you, spread flocks of many
+hundreds of different flowers.  The mixed aroma of each flower dances 
+lightly around you, inviting you to enter futher into the unknown ahead.
+At one point, you hear an almost metallic sound...but it can't be, you're
+in a field of flowers.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 30602
+D2
+Exit ~
+door~
+0 0 30600
+S
+#30602
+Within The Flowers~
+You stand amid many hundreds of flowers.  Some you recognize, and others
+you have never before seen.  The smell around you invites you to enter and
+gives you a relaxed feeling.  Off in the distance, you hear the toll of
+a small bell.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 30601
+D3
+Exit ~
+door~
+0 0 30603
+S
+#30603
+A Small Path in the Flowers~
+You stand on a small, cobblestone path, structured within this botanical
+beauty.  Flower line the path on either side, a mescla of color tickling
+your senses.  The light toll of a bell sounds, as you wander along on your
+way.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 30604
+D1
+Exit ~
+door~
+0 0 30602
+S
+#30604
+Along the Path~
+The cobblestone you walk along seems to follow the rise and fall of the
+land, catching each contour with a certain elegance.  Off in the distance,
+you can see a dense wall of rising mist.  The toll of a small bell seems
+to ring slightly from here.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 30605
+D2
+Exit ~
+door~
+0 0 30603
+S
+#30605
+The End of the Path~
+You have come to the end of the cobblestone path.  The muddy ground catches
+you feet, and pulls on them.  The flowers, once lining your surroundings, 
+have vanished all together.  A wall of mist creeps up on you with the slow
+tinge of death on it's forefront.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 30606
+D2
+Exit ~
+door~
+0 0 30604
+S
+#30606
+In the Mud~
+As you walk along in the mud, it becomes increasingly difficult to lift
+your feet from the dense, suctioning land.  Just a the ground seems to
+level off a bit, and your feet come free a bit easier, a large tree blocks
+your path suddenly from out of the mist.  You now face a choice:
+"Should I head east, west, or back the way I came...?"
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 30607
+D2
+Exit ~
+door~
+0 0 30605
+D3
+Exit ~
+door~
+0 0 30608
+E
+north tree~
+A large tree seemingly jumps from the mist, and blocks your path.
+~
+S
+#30607
+Muddy Woods~
+You find yourself in the middle of a small, wooded area, standing in
+mud, which is knee-deep in places.  The trees around you seem to bend in
+to you, omniscient of your presence.  You hear sounds of life, or what 
+could be life, coming from everywhere around you.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 30609
+D3
+Exit ~
+door~
+0 0 30606
+S
+#30608
+Muddy Woods~
+You find yourself in the middle of a small, wooded area, standing in
+mud, which is knee-deep in places.  The trees around you seem to bend in
+to you, omniscient of your presence.  You hear sounds of life, or what 
+could be life, coming from everywhere around you.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 30619
+D1
+Exit ~
+door~
+0 0 30606
+S
+#30609
+Muddy Woods~
+You find yourself in the middle of a small, wooded area, standing in
+mud, which is knee-deep in places.  The trees around you seem to bend in
+to you, omniscient of your presence.  You hear sounds of life, or what 
+could be life, coming from everywhere around you.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 30610
+D3
+Exit ~
+door~
+0 0 30607
+S
+#30610
+Muddy Woods~
+You find yourself in the middle of a small, wooded area, standing in
+mud, which is knee-deep in places.  The trees around you seem to bend in
+to you, omniscient of your presence.  You hear sounds of life, or what 
+could be life, coming from everywhere around you.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 30611
+D2
+Exit ~
+door~
+0 0 30609
+S
+#30611
+Muddy Woods~
+You find yourself in the middle of a small, wooded area, standing in
+mud, which is knee-deep in places.  The trees around you seem to bend in
+to you, omniscient of your presence.  You hear sounds of life, or what 
+could be life, coming from everywhere around you.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 30612
+D3
+Exit ~
+door~
+0 0 30610
+S
+#30612
+Muddy Woods~
+You find yourself in the middle of a small, wooded area, standing in
+mud, which is knee-deep in places.  The trees around you seem to bend in
+to you, omniscient of your presence.  You hear sounds of life, or what 
+could be life, coming from everywhere around you.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 30613
+D3
+Exit ~
+door~
+0 0 30611
+S
+#30613
+Muddy Woods~
+You find yourself in the middle of a small, wooded area, standing in
+mud, which is knee-deep in places.  The trees around you seem to bend in
+to you, omniscient of your presence.  You hear sounds of life, or what 
+could be life, coming from everywhere around you.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 30612
+D3
+Exit ~
+door~
+0 0 30614
+S
+#30614
+Muddy Woods~
+You find yourself in the middle of a small, wooded area, standing in
+mud, which is knee-deep in places.  The trees around you seem to bend in
+to you, omniscient of your presence.  You hear sounds of life, or what 
+could be life, coming from everywhere around you.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 30615
+D1
+Exit ~
+door~
+0 0 30613
+S
+#30615
+Muddy Woods~
+You find yourself in the middle of a small, wooded area, standing in
+mud, which is knee-deep in places.  The trees around you seem to bend in
+to you, omniscient of your presence.  You hear sounds of life, or what 
+could be life, coming from everywhere around you.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 30616
+D2
+Exit ~
+door~
+0 0 30614
+S
+#30616
+Muddy Woods~
+You find yourself in the middle of a small, wooded area, standing in
+mud, which is knee-deep in places.  The trees around you seem to bend in
+to you, omniscient of your presence.  You hear sounds of life, or what 
+could be life, coming from everywhere around you.
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 30617
+S
+#30617
+Muddy Woods~
+You find yourself in the middle of a small, wooded area, standing in
+mud, which is knee-deep in places.  The trees around you seem to bend in
+to you, omniscient of your presence.  You hear sounds of life, or what 
+could be life, coming from everywhere around you.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 30618
+D1
+Exit ~
+door~
+0 0 30616
+S
+#30618
+Dead End~
+You've come to a spot in the woods where the trees have crowded in and
+shut your travel off in every direction but that in which you came.  
+But wait!!
+There is a tree, directly in front of you, with what looks like a glowing
+circle etched into it.  Upon closer examination, you can see a small sign,
+suspended in mid-air, hovering over the shimmering circle.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 30617
+S
+#30619
+Past the Mist~
+Pushing past the mist, you break into a small clearing of mud and grass.
+Just off to the north, not too far away, you can see a small dock with
+a boat tied up.  A vast body of water expands far into the distance from
+there.  You now can understand why this area is so muddy.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 30620
+D2
+Exit ~
+door~
+0 0 30608
+S
+#30620
+In the Marsh~
+You are wading through a marshland, among the tall grass and overturned
+trees.  Still, there is a persistant toll of a small bell off in the
+distance.  In certain areas, mud comes up to your waste, and in others,
+you can stride easily across the land.  To the north, there is a large
+pool of water, in which you can see many carcasses of dead animals.
+It may be best to stay away from that area...
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 30621
+D2
+Exit ~
+door~
+0 0 30619
+D3
+Exit ~
+door~
+0 0 30623
+S
+#30621
+Higher Ground~
+In this direction, there is higher ground.  A bit further to the east, you
+spot a few trees, leading into what looks like a small forest.  This way
+seems much easier than the way you just came.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 30622
+D3
+Exit ~
+door~
+0 0 30620
+S
+#30622
+Among the Trees~
+You stand in a small cove of trees.  To the north, there seems to be many
+more trees, almost the size of a small forest.  The only other way is
+back the way you came, as trees cut you off in all other directions.
+It almost makes one wonder...
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 30615
+D3
+Exit ~
+door~
+0 0 30621
+S
+#30623
+Softening Land~
+The marshland you are walking through is becoming increasingly softer, and
+each step you take land your foot futher into the dank darkness of the
+mud below.  Just as you think of giving up, the toll of that small bell
+in the distance seems to drive you onward.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 30624
+D1
+Exit ~
+door~
+0 0 30620
+S
+#30624
+Deep Bog~
+You've come to a section of water that is clearly impassable by walking.
+The plaicd surface of the muddy water does not tell the tale of depth
+this water holds, but as your foot hits the surface, it does not connect
+with ground, even after you've fallen into a sitting position.  You will
+need another way to cross this deep water.
+~
+0 0 7
+D0
+Exit ~
+door~
+0 0 30625
+D2
+Exit ~
+door~
+0 0 30623
+S
+#30625
+A Rise in the Land~
+As you look below you, you notice a large spread of small rocks underfoot.
+The surface looks solid enough to walk on, and hold your weight.  It is
+strange that these rocks have not been swallowed up by the marshland water
+over time.  A large fallen tree cuts off your way northward, but this
+'trail of rocks' leads to the west, making easy passage.
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 30624
+D3
+Exit ~
+door~
+0 0 30626
+S
+#30626
+On the Trail~
+You stand along a trail of rocks leading out in a wide arch to the north
+and west.  Though you here the tolling of a bell in the distance from the
+north, the west seems like such easier travel.  There is a sign here that
+might give you some clue as to what you're looking for...
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30628
+D1
+Exit ~
+door~
+0 0 30625
+D3
+Exit ~
+door~
+0 0 30627
+E
+sign~
+The wooden sign reads:
+ 
+If you've made it this far, you may want to continue west. 
+The travel north becomes perilous for young adventurers.
+The Emperor welcomes you into his kingdom, and you will find it to the
+north.  The boatman there will take you across The Deep Water.
+-Tokai, Emperor's scribe
+ 
+There is some writing below of which you cannot make out.
+~
+S
+#30627
+Along the Gravel Road~
+The land here is much drier than that of the marshland before it.  It seems
+as though the ground has tapered off onto a level plain.  To the west, you
+can make out the clear definition of a grove of trees, and to the east you
+can still see the peek of the wooden sign standing there waiting to be 
+read by any intellegent travellers.  Small sounds of creatures come from
+the west, while the toll of the bell once hear now dims.
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 30626
+S
+#30628
+Along the Gravel Road~
+The ground you stand on seems to be sinking, once again, into a slimy
+marshland as the gravel gives way to more mud.  The path is a drudgery in
+itself just in its rites of passage.  Off in the distance, the small bell
+can still be heard tolling intermitantly, while your feet begin to stick
+into the soft ground once again.  To the south, the peek of a wooden sign
+stands firm.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30629
+D2
+Exit ~
+door~
+0 0 30626
+S
+#30629
+Further in the Mud-Rock Mess~
+Your travel is no longer a light one as the mud around you gets to be
+almost knee deep in places.  The consitant tone of a bell being stricken
+begins to pound itself into your head.  Who knows what lurks ahead...
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30630
+D2
+Exit ~
+door~
+0 0 30628
+S
+#30630
+Wading Through Water~
+You find yourself wading through a waist-high pool of murky water.
+The surface of this pool is a dank brown, keeping you from noticing what,
+or who, might lie beneath it.  For some distance, in fact, all you can see
+is this dark, watery abyss.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30631
+D2
+Exit ~
+door~
+0 0 30629
+S
+#30631
+Wading Through Water~
+This path seems to be getting more tedious as you progress.  The dark
+water you are wading through has risen to chest level, and it seems to be
+clinging to your body with a strange heaviness.  What is even worse is that
+it almost seems to be trying to drag you under its surface completely.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30632
+D2
+Exit ~
+door~
+0 0 30630
+S
+#30632
+Wading Through Water~
+The dank brown water surrounding your kness makes travel interesting, if
+nothing else.  Your feet suction into the bottom of this pool of water,
+making it hard enough to stand, let alone navigate.  To the south, the
+water continues, while to the north, it seems to taper off onto a rocky
+shore area.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30635
+D2
+Exit ~
+door~
+0 0 30631
+S
+#30633
+A room you'll never find...~
+You'll never find this room.  Trust me.
+It's very private, very safe, and very well hidden.
+~
+0 CDKT 2
+O Johnwa~
+S
+#30634
+A quiet library~
+~
+0 ACDJ 2
+H 400 M 400
+S
+#30635
+Tapering Water~
+The dismal water has gently given rise to a strange collage of dirt, mud,
+rocks, and assorted other unpleasantries.  You can hear the strong tolling
+of a bell off in the near distance, almost calling to you.  Your feet, no
+longer entrapped within the murk of the water, make easier progress over
+the more rocky and solid terrain as you progress futher along.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30636
+D2
+Exit ~
+door~
+0 0 30632
+S
+#30636
+Rocky Shore~
+The shore which you stand upon has been created over many years, through
+storms, floods, and other such natural phenomena, which have built up large
+mounds of rock and dirt for you to stand upon.  Although going is nothing
+close to easy, it is far more agreeable than what lies to the south.
+A large tree has been rooting in the ground for what seems to be ages,
+its fallen mass blocking your path.  You can't tell from here, but there
+might just be something in those branches...
+ 
+Still in the distance, a small bell tolls monotonously.
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 30635
+D3
+Exit ~
+door~
+0 0 30638
+D4
+Exit ~
+branches~
+1 0 30637
+S
+#30637
+A Secret Brush Passage~
+You've climbed into a small passage between the branches of the great 
+fallen tree that once stood before you.  There is a small sign embeded
+within the great tree, and the writing is not too faded to still read.
+~
+0 0 2
+D5
+Exit ~
+branches~
+1 0 30636
+S
+#30638
+Around The Treefall~
+The only way to pass this giant fallen tree seems to be a roundabout
+path.  You can almost feel the small eyes of creatures watching from here
+and there, but when you look, there is nothing.  Your imagination, maybe?
+Possibly...
+ 
+The small bell tolls in the distance, getting steadily louder.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30639
+D1
+Exit ~
+door~
+0 0 30636
+S
+#30639
+Around The Treefall~
+The only way to pass this giant fallen tree seems to be a roundabout
+path.  You can almost feel the small eyes of creatures watching from here
+and there, but when you look, there is nothing.  Your imagination, maybe?
+Possibly...
+ 
+The small bell tolls in the distance, getting steadily louder.
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 30640
+D2
+Exit ~
+door~
+0 0 30638
+S
+#30640
+Along A Small Path~
+You stand on a small path, just out of reach of some giant treefall
+behind you.  To the north, the small path leads on, what seems to be, a
+bit of a winding course.  Back to the west stands the only way around the
+massive treefall blocking your way.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30641
+D3
+Exit ~
+door~
+0 0 30639
+S
+#30641
+Along A Small Path~
+You stand along a small, seemingly unused path.  It winds a bit to the
+east and west, but it stays, in general, on a northerly keel.  As you
+walk, the tolling of that incessant bell still rings through your head.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30642
+D2
+Exit ~
+door~
+0 0 30640
+S
+#30642
+Along A Small Path~
+You stand along a small path that seems to have worn out its use.  One
+would assume that entering an empire, there must be a well travelled road.
+Maybe you just haven't found it yet.  The path veers slightly to the west,
+and from there, seems quite straight to the north...right into a large
+patch of water.  How are you going to cross something like that?
+I suppose you'll cross that bridge when you come to it...
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 30641
+D3
+Exit ~
+door~
+0 0 30643
+S
+#30643
+The Path's End~
+The path which you've been walking on, and that you saw to lead out to
+the north, has withered away.  Your general direction still leads north,
+but the once used path has now erroded into weed-laiden waste.  It seems
+you'll have to continue through this mess if you wish to continue.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30644
+D1
+Exit ~
+door~
+0 0 30642
+S
+#30644
+Through The Undergrowth~
+You stand along the remains of the small path behind you, now covered in
+undergrowth of weeds and small bushes.  Here and there, your foot snags,
+and your armor catches, but the travel is relatively swift and easy.
+Directly to your north, upon a high lofty pole, stands a large bell, 
+swaying gently in the wind.  It seems as though this was what had been m
+tolling at you from such a distance.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30645
+D2
+Exit ~
+door~
+0 0 30643
+S
+#30645
+Along A Small Dock~
+Standing on a small dock, a small path stands directly behind you.  To
+your north, in front of you, stands the large pole, upon which a large
+bell tolls monotonously.  Just past the pole, a man is reclined against 
+the dock, and looks like he is asleep.  Directly past him floats a medium
+size junk, laying lazily on the water.  Beyond the junk, you can see 
+nothing, save a heavy, hazy mist.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 30646
+D2
+Exit ~
+door~
+0 0 30644
+S
+#30646
+On The Dock~
+You stand along a small dock, resting shiftlessly in the water below.
+A small man reclines against a dock post in front of you, seemingly asleep.
+All around you, save to the south, reaches thick, dark water, impenitrable
+by your own eye.  Directly behind the man on the dock stands a junk,
+floating listlessly on the water.  It seems to be the only means of
+transportation around these parts.
+The old man stirs a bit, and looks at you with weary eyes.
+"We do not have many travellers pass through these parts.  If you wish to
+secure passage acrros the Deep Water, it will cost you a pretty penny."
+With that, he reclines once again in wait of your response.
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 30645
+S
+#0
+
+#RESETS
+O 0 30600 100 30618	* A small sign
+O 0   22 100 30633	* a magical spring
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 3152 100 30633	* a bucket of hot Buffalo chicken wings
+O 0 22034 100 30633	* a bed, dressed in black silk
+M 0 30601   1 30634  1	* A terrifying banshee
+D 0 30636   4    1	* Rocky Shore up
+D 0 30637   5    1	* A Secret Brush Passage down
+M 0 30602   1 30646  1	* The Boatmaster
+S
+
+#SHOPS
+30602  0  0  0  0  0 	 100   0 	 5 23 	* The Boatmaster
+0
+
+#SPECIALS
+M 30600 spec_thief          	* a stent sprite
+S
+
+#$

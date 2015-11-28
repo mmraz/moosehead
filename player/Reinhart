@@ -2,8 +2,8 @@
 Name Reinhart~
 Id   940385243
 Email (null)~
-LogO 1108468348
-Vers 31
+LogO 1406952579
+Vers 33
 Desc All warfare is based on deception.
 Hence,
 * when able to attack, we must seem unable.
@@ -25,14 +25,15 @@ Desc All warfare is based on deception.
 Prom <%hhp %mm %vmv %X %S> ~
 Race dragon~
 Clan honor~
-Outc 135
+Outc 123
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Anazar~
 LstKBy Nayr~
 LstAtkedBy no one~
@@ -40,10 +41,16 @@ LstAtkedByTimer 0
 LstCombatDate 1036667706
 LstKillDate 1024305557
 LstDeathDate 1024305557
-LoginsWOKill 13
-LoginsWODeath 13
-LoginsWOCombat 11
+LoginsWOKill 17
+LoginsWODeath 17
+LoginsWOCombat 15
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 710758 mojo~
 DeityT -234 almighty~
 Sac  300
@@ -53,32 +60,33 @@ Node 0
 Cap 0
 Created 951638226
 Glad 0 0 0 0 0 0
-LastHost 64.146.147.32~
+LastHost 68.186.103.129~
 Cla  11
 Kit nethermancer~
 ClaO 0
 Levl 48
 DLevl 0
-Plyd 827813
+Plyd 828352
 Not  1070349928 984829551 958195181 980044737 979952880 1070056360 958195181 1070052701 958195181 1036666379
 Scro 22
 Rank 0
 Room 31520
-HMV  880 880 771 1008 287 294
+HMV  880 880 1008 1008 294 294
 Gold 493
-Silv 33
-Exp  350639
+Silv 23
+Exp  350641
 Act  CDGMQS
 MHSF HR
-AfBy EJTUe
+AfBy BEJTU
 Comm 0
 Disp FIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 10
-SkiP 32
+Prac 11
+Trai 2
+SkiP 33
 Alig  -1000
 Hit   16
 Dam   26
@@ -86,7 +94,7 @@ SecHit   11
 SecDam   21
 ACs 92 92 92 92
 Wimp  20
-Attr 17 25 25 15 25 13 13 13
+Attr 17 25 25 15 25 11 14 13
 AMod 0 5 0 2 0 0 0 0
 Pass RecjAXRkBYiRg~
 Titl  utters the words 'Get bent'~
@@ -94,7 +102,7 @@ Pnts 93
 TSex 1
 LLev 223
 HMVP 810 858 294
-Cnd  0 0 32 0
+Cnd  0 36 45 36
 Sk 100 'acid blast'
 OldSk 100 'acid blast'
 Sk 95 'armor'
@@ -119,7 +127,6 @@ Sk 77 'chill touch'
 OldSk 77 'chill touch'
 Sk 100 'colour spray'
 OldSk 76 'colour spray'
-Sk 1 'cone of silence'
 Sk 90 'curse'
 OldSk 82 'curse'
 Sk 77 'detect evil'
@@ -210,7 +217,7 @@ Sk 81 'refresh'
 OldSk 77 'refresh'
 Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
-Sk 98 'sanctuary'
+Sk 100 'sanctuary'
 OldSk 1 'sanctuary'
 Sk 95 'shield'
 OldSk 79 'shield'
@@ -297,8 +304,8 @@ Gr 'maladictions'
 Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
-Affc 'withstand death'   0  48   6   0   0 1073741824
-Affc 'detect magic'   0  41  20   0   0         16
+Affc 'detect magic'   0  36   8   0   0         16
+Affc 'invisibility'   0  49  59   0   0          2
 End
 
 #O
@@ -827,7 +834,7 @@ PrevOwner Reinhart~
 Cond 0
 Wear -1
 Cost 0
-Val  31 10 8 17 0
+Val  31 10 8 20 0
 Spell 3 'bless'
 End
 
@@ -1131,6 +1138,15 @@ End
 Vnum 3375
 Nest 1
 PrevOwner Reinhart~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5000

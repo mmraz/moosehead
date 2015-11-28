@@ -3,8 +3,8 @@ Name Helios~
 SurN Soileh~
 Id   972800828
 Email (null)~
-LogO 1131485543
-Vers 31
+LogO 1404088426
+Vers 33
 LnD  A Gladiator~
 Desc This evily-angelic creature appears to be quite calm by nature, however
 he does look quite worried about spilling his {rcognac{x.
@@ -23,23 +23,30 @@ Clan matook~
 Outc 0
 RufT 0
 MatookT 12001
-SkPTimer 8
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 3 0 0
 Steal 0 0 0
+MSteal 0
 LstK DreamCatcher~
 LstKBy Kuno~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1071433822
+LstCombatDate 1306953560
 LstKillDate 1071433801
 LstDeathDate 1007565518
 LoginsWOKill 0
 LoginsWODeath 3
 LoginsWOCombat 0
 Bnty 0
-Deity 1726610 matook~
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 1726610 huitzilopochtli~
 DeityT -7469 huitzilopochtli~
 Sac  400
 Sex  1
@@ -48,61 +55,68 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost 89.sub-70-197-167.myvzw.com~
+LastHost 24.5.1.36~
 Cla  1
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 2488706
-Not  1126328533 1127109902 1113235929 1121188512 1121859963 1128611474 1113235929 1126315041 1113235929 1125952714
+Plyd 2626135
+Not  1403887108 1315170670 1314840715 1316666711 1316486992 1333636700 1314840715 1357919674 1314840715 1314840715
 Scro 98
 Rank 0
-Room 8527
-HMV  814 1105 1054 1245 356 356
-Gold 3757
-Silv 410
+Room 30227
+HMV  1125 1125 1245 1245 361 361
+Gold 291
+Silv 41
+BankEggs 14
+BankBricks 16
 Exp  286087
 Act  DEGHIMQS
 MHSF R
-AfBy CDEFTVWb
-Comm ILS
+AfBy TWb
+Comm GIL
 Disp BFGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFHI
-Pos  8
-Prac 30
-SkiP 9
-Save  -10
+NewOpts B
+Pos  5
+Prac 56
+Trai 1
+StatsTrained 40 0 0
+SkiP 8
+Save  -6
 Alig  -1000
-Hit   16
-Dam   21
+Hit   18
+Dam   20
 SecHit   9
-SecDam   10
-ACs -44 -44 -44 -31
-Attr 17 19 22 18 18 14 14 18
-AMod 4 9 3 10 4 0 0 2
-Pass HeXTpFpokoGKw~
-Titl  who comes and goes at the same time.~
+SecDam   9
+ACs -15 -15 -15 -4
+Attr 17 19 22 18 18 10 11 20
+AMod 0 9 3 6 1 0 0 0
+Pass HeqmNhcMOwwYI~
+Titl  is ok with being so lonley.~
 Pnts 88
 TSex 1
 LLev 1
-HMVP 845 905 326
-Cnd  0 21 27 27
+HMVP 885 905 326
+Cnd  0 48 48 48
 Alias skel chant 'summon dead'~
 Alias dis chant 'dispel magic'~
 Alias en chant entrance~
 Alias faith chant 'shield of faith' helios~
-Alias 1 order all rescue Helios~
+Alias 1 chant 'cure light' sara~
 Alias del chant 'summon' dealer~
 Alias c chant~
 Alias k murder~
 Alias x bleed~
 Alias tt chant teleport self~
 Alias cc chant demonfire~
-Alias 2 chant famine~
-Alias xx k ph~
+Alias z chant flameseek~
+Alias fog chant 'faerie fog'~
+Alias pp whe puff~
+Alias 2 chant 'cure light' isc~
 Sk 1 'acid blast'
 Sk 1 'aid'
 Sk 99 'armor'
@@ -121,7 +135,6 @@ Sk 1 'chain lightning'
 Sk 1 'change sex'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 100 'continual light'
 Sk 75 'control weather'
 Sk 75 'create food'
@@ -132,12 +145,12 @@ Sk 75 'create water'
 Sk 87 'cure blindness'
 Sk 100 'cure critical'
 Sk 86 'cure disease'
-Sk 75 'cure light'
+Sk 81 'cure light'
 Sk 95 'cure poison'
 Sk 79 'cure serious'
 Sk 100 'curse'
 Sk 100 'demonfire'
-Sk 83 'detect evil'
+Sk 85 'detect evil'
 Sk 90 'detect good'
 Sk 99 'detect hidden'
 Sk 100 'detect invis'
@@ -153,7 +166,7 @@ Sk 98 'energy drain'
 Sk 1 'enervation'
 Sk 100 'entrance'
 Sk 98 'faerie fire'
-Sk 96 'faerie fog'
+Sk 97 'faerie fog'
 Sk 100 'famine'
 Sk 93 'farsight'
 Sk 95 'feast'
@@ -182,13 +195,13 @@ Sk 84 'lightning bolt'
 Sk 100 'locate object'
 Sk 1 'magic missile'
 Sk 100 'mass healing'
-Sk 97 'mirror image'
+Sk 100 'mirror image'
 Sk 1 'nexus'
 Sk 94 'pass door'
 Sk 100 'plague'
 Sk 92 'poison'
 Sk 75 'portal'
-Sk 88 'protection evil'
+Sk 90 'protection evil'
 Sk 91 'protection good'
 Sk 80 'protection neutral'
 Sk 82 'psionic blast'
@@ -239,11 +252,11 @@ Sk 100 'communion'
 Sk 100 'fast healing'
 Sk 100 'haggle'
 Sk 100 'holy chant'
-Sk 40 'lore'
+Sk 61 'lore'
 Sk 100 'meditation'
 Sk 79 'pick lock'
 Sk 75 'scrolls'
-Sk 84 'staves'
+Sk 86 'staves'
 Sk 75 'wands'
 Sk 91 'swimming'
 Sk 50 'recall'
@@ -265,11 +278,6 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'haste'   0  30   5   3   2    2097152
-Affc 'detect magic'   0  47  40   0   0         16
-Affc 'detect invis'   0  45  24   0   0          8
-Affc 'detect hidden'   0  47  23   0   0         32
-Affc 'detect good'   0  47  27   0   0          4
 End
 
 #O
@@ -305,19 +313,6 @@ ExtF 1
 Cond 0
 Wear 2
 Cost 3000
-End
-
-#O
-Vnum 12083
-Nest 0
-PrevOwner Helios~
-Name white gator belt~
-ShD  a {Wwhite{x {Gg{Da{Gt{Do{Gr{x belt~
-Desc a {Wwhite{x {Gg{Da{Gt{Do{Gr{x belt lies here.~
-ExtF 553648129
-Cond 0
-Wear 13
-Cost 32142
 End
 
 #O
@@ -369,110 +364,11 @@ End
 #O
 Vnum 4805
 Nest 0
-PrevOwner (null)~
+PrevOwner Helios~
 ExtF 2051
 Cond 0
 Wear 9
 Cost 5500
-End
-
-#O
-Vnum 1258
-Nest 0
-PrevOwner Corleone~
-Name bag beta Grishnaak~
-ShD  a bag made from Grishnaak's hide~
-Desc A bag of fine Grishnaak hide catches your eye.  ~
-ExtF 67125248
-WeaF 16385
-Wt   5
-Cond 0
-Wear -1
-Lev  10
-Cost 1550
-Val  310 1 -1 90 25
-End
-
-#O
-Vnum 1258
-Nest 0
-PrevOwner Helios~
-Name bag beta Patat~
-ShD  a bag made from Patat's hide~
-Desc A bag of fine Patat hide catches your eye.  ~
-ExtF 16384
-WeaF 16385
-Wt   5
-Cond 0
-Wear -1
-Lev  15
-Cost 2350
-Val  470 1 -1 90 25
-End
-
-#O
-Vnum 1347
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1377
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 50
-End
-
-#O
-Vnum 1332
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1333
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20010
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 23513
-Nest 1
-PrevOwner Helios~
-ExtF 17301569
-Cond 0
-Wear -1
-Cost 6410
-End
-
-#O
-Vnum 20011
-Nest 0
-PrevOwner Helios~
-ExtF 1
-Cond 0
-Wear 11
-Cost 150000
 End
 
 #O
@@ -487,7 +383,7 @@ End
 #O
 Vnum 10447
 Nest 0
-PrevOwner Nike~
+PrevOwner Helios~
 ExtF 1
 Cond 0
 Wear 5
@@ -495,28 +391,510 @@ Cost 12125
 End
 
 #O
-Vnum 5903
+Vnum 1206
+Nest 0
+PrevOwner Helios~
+Name eternally burning joint ganja~
+ShD  an eternally burning joint~
+Desc This joint never goes out. Don't drop the {Gg{Da{Gn{Dj{Ga{x!~
+ExtF 1572871
+Cond 0
+Wear 17
+Cost 10
+End
+
+#O
+Vnum 12001
+Nest 0
+PrevOwner Helios~
+Name white gator shoes~
+ShD  a pair of {Wwhite{x {Gg{Da{Gt{Do{Gr{x shoes~
+Desc a pair of {Wwhite{x {Gg{Da{Gt{Do{Gr{x shoes lie here.~
+ExtF 17448961
+Cond 0
+Wear 8
+Cost 0
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Helios~
+Name bag beta Helios~
+ShD  a bag made from Helios's hide~
+Desc A bag of fine Helios hide catches your eye.  ~
+ExtF 16385
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  17
+Cost 2550
+Val  510 1 -1 90 25
+End
+
+#O
+Vnum 20011
+Nest 0
+PrevOwner Helios~
+ExtF 1
+Cond 0
+Wear 11
+Cost 150000
+End
+
+#O
+Vnum 8305
+Nest 0
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8305
+Nest 0
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8309
+Nest 0
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 10445
 Enchanted
 Nest 0
 PrevOwner Helios~
-Name platinum chain shiny helios~
-ShD  a shiny {Wplatinum{x chain~
-Desc BLING BLING! Nice chain, you'd steal it, but it's got "Helios" inscribed on it.~
-ExtF 513
+Name fiery cue stick helios~
+ShD  a fiery cue stick~
+Desc A fine cue stick leans against the wall here, it has the name "Helios Soileh" engraved on the shaft.~
+ExtF 67
 Cond 0
-Wear 4
-Cost 4000
-Affc 'reserved'   1  46  -1  30  12          0
-Affc 'reserved'   1  46  -1   1   2          0
+Wear 16
+Lev  50
+Cost 6515
+Val  4 5 8 38 1024
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'reserved'   1  47  -1  -5  17          0
 End
 
 #O
 Vnum 1396
 Nest 0
-PrevOwner Fanar~
+PrevOwner Helios~
 Cond 0
-Wear 3
+Wear -1
 Cost 10800
+End
+
+#O
+Vnum 12010
+Nest 0
+PrevOwner Helios~
+Name newbie flag float~
+ShD  a ({cnewbie{x) flag~
+Desc A ({cnewbie{x) flag floats lazily behind it's owner.~
+ExtF 1196065
+Cond 0
+Wear 18
+Cost 15000
+End
+
+#O
+Vnum 23577
+Nest 0
+PrevOwner Helios~
+ExtF 17301569
+Cond 0
+Wear 13
+Cost 0
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 1262
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'armor'
+Spell 2 'haste'
+Spell 3 'bless'
+End
+
+#O
+Vnum 10043
+Nest 1
+PrevOwner Helios~
+ExtF 1
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 37 1024
+End
+
+#O
+Vnum 1347
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 20010
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22568
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8506
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 10000
+Spell 3 'haste'
+End
+
+#O
+Vnum 8506
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 10000
+Spell 3 'haste'
+End
+
+#O
+Vnum 8506
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 10000
+Spell 3 'haste'
+End
+
+#O
+Vnum 8506
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 10000
+Val  30 5 4 114 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 8506
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 10000
+Val  30 5 2 114 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 8063
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 8063
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 2112
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 8063
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 8063
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 8063
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 1826
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 8506
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 10000
+Val  30 5 4 114 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #O
@@ -530,22 +908,13 @@ Cost 10
 End
 
 #O
-Vnum 18106
-Enchanted
+Vnum 1206
 Nest 1
 PrevOwner Helios~
-Name silver flail light~
-ShD  a {WSilver{x flail of {YLight{x~
-Desc A{WSilver{x flail of {YLight{x lies here.~
-ExtF 67
+ExtF 1048583
 Cond 0
 Wear -1
-Lev  50
-Cost 2250
-Val  6 4 10 3 524
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'sharpen'   5  51  -1   0   0          8
+Cost 10
 End
 
 #O
@@ -559,107 +928,13 @@ Cost 10
 End
 
 #O
-Vnum 11096
+Vnum 23513
 Nest 1
 PrevOwner Helios~
+ExtF 17301569
 Cond 0
 Wear -1
-Cost 15000
-Val  1 0 -1 1931 0
-End
-
-#O
-Vnum 5903
-Enchanted
-Nest 1
-PrevOwner Helios~
-Name platinum chain shiny helios~
-ShD  a shiny {Wplatinum{x chain~
-Desc BLING BLING! Nice chain, you'd steal it, but it's got "Helios" inscribed on it.~
-ExtF 513
-Cond 0
-Wear -1
-Cost 4000
-Affc 'reserved'   1  46  -1   1   2          0
-Affc 'reserved'   1  46  -1  30  12          0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Helios~
-Name dutch dancing clogs~
-ShD  {GDutch{X Dancing clogs~
-Desc A pair of dancing clogs lie here.~
-ExtF 17448961
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Helios~
-Name frozen earth~
-ShD  Frozen Prints~
-Desc Fanar's bare feet leave chilled paw prints in the earth where he treads.~
-ExtF 17448961
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10300
-Enchanted
-Nest 1
-PrevOwner Helios~
-ExtF 322
-Cond 0
-Wear -1
-Lev  50
-Cost 6500
-Affc 'reserved'   0  48  -1   0   0     524288
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-End
-
-#O
-Vnum 20410
-Nest 1
-PrevOwner Helios~
-Name used condom~
-ShD  a {Yused condom{x~
-Desc a a {Yused condom{x lies here.~
-ExtF 1
-Cond 0
-Wear -1
-Cost 100
-Val  0 2 2 2 20
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Helios~
-Name white gator shoes~
-ShD  a pair of {Wwhite{x {Gg{Da{Gt{Do{Gr{x shoes~
-Desc a pair of {Wwhite{x {Gg{Da{Gt{Do{Gr{x shoes lie here.~
-ExtF 17448961
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1206
-Nest 1
-PrevOwner Helios~
-ExtF 1048583
-Cond 0
-Wear -1
-Cost 10
+Cost 6410
 End
 
 #O
@@ -681,348 +956,21 @@ Affc 'enchant weapon'   1  52  -1   8  19          0
 End
 
 #O
-Vnum 8506
+Vnum 12001
 Nest 1
 PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 10000
-Val  30 5 2 110 0
-Spell 3 'haste'
-End
-
-#O
-Vnum 22513
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Helios~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 2415
-Enchanted
-Nest 1
-PrevOwner Helios~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1000
-Val  1 9 4 25 1288
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
-End
-
-#O
-Vnum 10069
-Enchanted
-Nest 1
-PrevOwner Helios~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1000
-Val  0 2 19 26 1184
-Affc 'enchant weapon'   1  52  -1   9  18          0
-Affc 'enchant weapon'   1  52  -1  10  19          0
-End
-
-#O
-Vnum 11080
-Enchanted
-Nest 1
-PrevOwner Helios~
-Name favored whip~
-ShD  a favored whip~
-Desc one of Nike's favored whips is here~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 3200
-Val  7 4 7 26 1028
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-End
-
-#O
-Vnum 10043
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Helios~
-Name fiery cue stick helios~
-ShD  a fiery cue stick~
-Desc A fine cue stick leans against the wall here, it has the name "Helios Soileh" engraved on the shaft.~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6515
-Val  4 5 8 38 1024
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'reserved'   1  47  -1  -5  17          0
-End
-
-#O
-Vnum 5408
-Nest 1
-PrevOwner Helios~
-ExtF 1
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10339
-Nest 0
-PrevOwner Helios~
-Name corleone slippers~
-ShD  a pair of satin slippers~
-Desc Corleones most comfortable pair of black satin slippers lie here.~
+Name frozen earth~
+ShD  Frozen Prints~
+Desc Fanar's bare feet leave chilled paw prints in the earth where he treads.~
 ExtF 17448961
 Cond 0
-Wear 8
-Cost 20000
+Wear -1
+Cost 0
 End
 
 #O
 Vnum 12063
-Nest 0
+Nest 1
 PrevOwner Helios~
 ExtF 555483201
 Cond 0
@@ -1031,214 +979,89 @@ Cost 50000
 End
 
 #O
-Vnum 2513
-Nest 0
+Vnum 12063
+Nest 1
 PrevOwner Helios~
-Name crown royal bag helios~
-ShD  A {MCrown{x {YRoyal{x Bag~
-Desc A {MCrown{x {YRoyal{x Bag belonging to Helios lies here.~
-ExtF 16779777
+ExtF 555483201
 Cond 0
 Wear -1
-Cost 710
+Cost 50000
 End
 
 #O
-Vnum 30039
+Vnum 12063
 Nest 1
 PrevOwner Helios~
+ExtF 555483201
 Cond 0
 Wear -1
-Cost 1700
-Spell 1 'bless'
-Spell 2 'giant strength'
-Spell 3 'frenzy'
+Cost 50000
 End
 
 #O
-Vnum 1262
+Vnum 12063
 Nest 1
 PrevOwner Helios~
+ExtF 555483201
 Cond 0
 Wear -1
-Cost 0
-Spell 1 'armor'
-Spell 2 'haste'
-Spell 3 'bless'
+Cost 50000
 End
 
 #O
-Vnum 10061
+Vnum 12063
 Nest 1
 PrevOwner Helios~
-ExtF 5
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Helios~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 1206
+Nest 1
+PrevOwner Helios~
 Cond 0
 Wear -1
 Cost 10
-Spell 3 'cure critical'
 End
 
 #O
-Vnum 1251
-Nest 1
-PrevOwner Helios~
-ShD  a {GRobinhood's{x chocolate arrow~
-Desc Looks like one of {GRobinhoods{x magic chocolate arrows~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'shield'
-End
-
-#O
-Vnum 10043
-Nest 1
-PrevOwner Helios~
-ExtF 1
-Cond 0
-Wear -1
-Cost 0
-Val  0 0 0 37 1024
-End
-
-#O
-Vnum 6602
-Enchanted
-Nest 1
-PrevOwner Helios~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Val  5 2 20 16 12
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   0  52  -1  10  18          0
-Affc 'enchant weapon'   1  52  -1  10  19          0
-End
-
-#O
-Vnum 12
-Nest 1
-PrevOwner Helios~
-ShD  the head of Puff~
-Desc The severed head of Puff is lying here.~
-ExtF 1
-Cond 0
-Wear -1
-Cost 0
-Val  0 0 1 0 0
-End
-
-#O
-Vnum 20808
-Enchanted
-Nest 1
-PrevOwner Helios~
-ExtF 67
-Cond 0
-Wear -1
-Cost 1000
-Val  5 5 8 30 14
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  52  -1  10  19          0
-Affc 'enchant weapon'   0  52  -1  10  18          0
-End
-
-#O
-Vnum 10338
-Nest 1
-PrevOwner Helios~
-Name shadow corleone~
-ShD  a {Dshadow{x of {Ddarkness{x~
-Desc A dark shadowy object lies here.~
-ExtF 537657441
-Cond 0
-Wear -1
-Cost 4200
-End
-
-#O
-Vnum 8503
+Vnum 1206
 Nest 1
 PrevOwner Helios~
 Cond 0
 Wear -1
-Cost 5000
+Cost 10
 End
 
 #O
-Vnum 27
+Vnum 22044
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 12008
 Nest 1
 PrevOwner Helios~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
-Spell 1 'speed'
-End
-
-#O
-Vnum 27
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 0
-Val  51 183 -1 -1 -1
-Spell 1 'speed'
-End
-
-#O
-Vnum 27
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 0
-Val  51 183 -1 -1 -1
-Spell 1 'speed'
-End
-
-#O
-Vnum 27
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 0
-Val  51 183 -1 -1 -1
-Spell 1 'speed'
-End
-
-#O
-Vnum 8506
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 10000
-Spell 3 'haste'
-End
-
-#O
-Vnum 8506
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 10000
-Spell 3 'haste'
-End
-
-#O
-Vnum 8506
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 10000
-Spell 3 'haste'
 End
 
 #O
@@ -1257,18 +1080,215 @@ Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
-Vnum 12014
-Enchanted
+Vnum 1258
+Nest 0
+PrevOwner (null)~
+Name bag beta Helios~
+ShD  a bag made from Helios's hide~
+Desc A bag of fine Helios hide catches your eye.  ~
+ExtF 16384
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  17
+Cost 2550
+Val  510 1 -1 90 25
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Helios~
+Name bag beta Grishnaak~
+ShD  a bag made from Grishnaak's hide~
+Desc A bag of fine Grishnaak hide catches your eye.  ~
+ExtF 67125249
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  10
+Cost 1550
+Val  310 1 -1 90 25
+End
+
+#O
+Vnum 1251
 Nest 1
 PrevOwner Helios~
-ExtF 67
+ShD  a {GRobinhood's{x chocolate arrow~
+Desc Looks like one of {GRobinhoods{x magic chocolate arrows~
 Cond 0
 Wear -1
 Cost 0
-Val  6 2 20 7 1321
-Affc 'enchant weapon'   1  52  -1  13  19          0
-Affc 'enchant weapon'   0  52  -1  13  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
+Spell 3 'shield'
+End
+
+#O
+Vnum 12
+Nest 1
+PrevOwner Helios~
+ShD  the head of Helios~
+Desc The severed head of Helios is lying here.~
+ExtF 1
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10061
+Nest 1
+PrevOwner Helios~
+ExtF 5
+Cond 0
+Wear -1
+Cost 10
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 30039
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 1700
+Spell 1 'bless'
+Spell 2 'giant strength'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 22015
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Lev  1
+Cost 0
+Val  60 110 110 115 -1
+Spell 3 'heal'
+End
+
+#O
+Vnum 12
+Nest 1
+PrevOwner Helios~
+ShD  the head of Puff~
+Desc The severed head of Puff is lying here.~
+ExtF 1
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 1 0 0
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 12088
+Nest 1
+PrevOwner Helios~
+ExtF 587730945
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 5903
+Enchanted
+Nest 0
+PrevOwner Helios~
+Name platinum chain shiny helios~
+ShD  a shiny {Wplatinum{x chain~
+Desc BLING BLING! Nice chain, you'd steal it, but it's got "Helios" inscribed on it.~
+ExtF 513
+Cond 0
+Wear 4
+Cost 4000
+Affc 'reserved'   1  46  -1  30  12          0
+Affc 'reserved'   1  46  -1   1   2          0
+End
+
+#O
+Vnum 2513
+Nest 0
+PrevOwner Helios~
+Name crown royal bag helios~
+ShD  A {MCrown{x {YRoyal{x Bag~
+Desc A {MCrown{x {YRoyal{x Bag belonging to Helios lies here.~
+ExtF 16779777
+Cond 0
+Wear 3
+Cost 710
+End
+
+#O
+Vnum 2441
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 12079
+Nest 1
+PrevOwner Helios~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12083
+Nest 1
+PrevOwner Helios~
+Name white gator belt~
+ShD  a {Wwhite{x {Gg{Da{Gt{Do{Gr{x belt~
+Desc a {Wwhite{x {Gg{Da{Gt{Do{Gr{x belt lies here.~
+ExtF 553648129
+Cond 0
+Wear -1
+Cost 32142
+End
+
+#O
+Vnum 5903
+Enchanted
+Nest 1
+PrevOwner Helios~
+Name platinum chain shiny helios~
+ShD  a shiny {Wplatinum{x chain~
+Desc BLING BLING! Nice chain, you'd steal it, but it's got "Helios" inscribed on it.~
+ExtF 513
+Cond 0
+Wear -1
+Cost 4000
+Affc 'reserved'   1  46  -1   1   2          0
+Affc 'reserved'   1  46  -1  30  12          0
 End
 
 #O
@@ -1282,169 +1302,23 @@ Cost 2000
 End
 
 #O
-Vnum 8506
+Vnum 5408
 Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 10000
-Val  30 5 4 110 0
-Spell 3 'haste'
-End
-
-#O
-Vnum 1258
-Nest 0
-PrevOwner Patat~
-Name bag beta Patat~
-ShD  a bag made from Patat's hide~
-Desc A bag of fine Patat hide catches your eye.  ~
-ExtF 16384
-WeaF 16385
-Wt   5
-Cond 0
-Wear -1
-Lev  15
-Cost 2350
-Val  470 1 -1 90 25
-End
-
-#O
-Vnum 6422
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 5900
-End
-
-#O
-Vnum 6415
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 9000
-End
-
-#O
-Vnum 12010
-Nest 0
-PrevOwner Helios~
-Name newbie flag float~
-ShD  a ({cnewbie{x) flag~
-Desc A ({cnewbie{x) flag floats lazily behind it's owner.~
-ExtF 1196065
-Cond 0
-Wear 18
-Cost 15000
-End
-
-#O
-Vnum 22505
-Nest 0
 PrevOwner Helios~
 ExtF 1
 Cond 0
-Wear 6
-Cost 4000
+Wear -1
+Cost 0
 End
 
 #O
-Vnum 10431
-Enchanted
-Nest 0
+Vnum 23514
+Nest 1
 PrevOwner Helios~
-ExtF 67
-Cond 0
-Wear 16
-Lev  50
-Cost 7052
-Val  4 5 8 7 1284
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'reserved'   1  49  -1   0   0          0
-Affc 'enchant weapon'   0  53  -1   7  18          0
-End
-
-#O
-Vnum 23144
-Nest 0
-PrevOwner (null)~
+ExtF 17301569
 Cond 0
 Wear -1
-Cost 4200
-End
-
-#O
-Vnum 20412
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 150
-Spell 3 'weaken'
-End
-
-#O
-Vnum 20413
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 85
-End
-
-#O
-Vnum 5932
-Nest 0
-PrevOwner Haggarth~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 8047
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 1206
-Nest 0
-PrevOwner Helios~
-Name eternally burning joint ganja~
-ShD  an eternally burning joint~
-Desc This joint never goes out. Don't drop the {Gg{Da{Gn{Dj{Ga{x!~
-ExtF 1572871
-Cond 0
-Wear 17
-Cost 10
-End
-
-#O
-Vnum 8506
-Nest 0
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 10000
-Val  30 5 3 110 0
-Spell 3 'haste'
-End
-
-#O
-Vnum 12063
-Nest 0
-PrevOwner Pora~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
+Cost 3690
 End
 
 #END

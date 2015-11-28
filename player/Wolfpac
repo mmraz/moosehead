@@ -3,19 +3,20 @@ Name Wolfpac~
 SurN TroopMage~
 Id   1097934952
 Email (null)~
-LogO 1127492078
-Vers 31
+LogO 1387913413
+Vers 33
 Prom %hhp %mm %vmv %Xtnl | $%g|%r|%e|   ~
 Race faerie~
 Clan warlock~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 17
-SkPTracker 13
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 3
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy Zenlaar~
 LstAtkedBy no one~
@@ -23,10 +24,16 @@ LstAtkedByTimer 0
 LstCombatDate 1098888926
 LstKillDate 1097934952
 LstDeathDate 1098890689
-LoginsWOKill 23
-LoginsWODeath 11
-LoginsWOCombat 11
+LoginsWOKill 28
+LoginsWODeath 16
+LoginsWOCombat 16
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 30551 hermes~
 Sac  300
 Sex  1
@@ -35,20 +42,20 @@ Node 0
 Cap 0
 Created 1097934990
 Glad 0 0 0 0 0 0
-LastHost ndn-165-145-158.telkomadsl.co.za~
+LastHost 105.225.171.16~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 94933
+Plyd 103602
 Not  0 1098697260 0 0 1098850206 0 0 1098797803 0 0
 Scro 22
 Rank 1
-Room 31918
-HMV  286 345 1170 2042 430 430
-Gold 277
-Silv 2407
+Room 31901
+HMV  345 345 2042 2042 430 430
+Gold 69
+Silv 87
 Exp  68765
 Act  DEFGHIKMQS
 MHSF R
@@ -60,24 +67,25 @@ Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 20
+Trai 5
 SkiP 56
 Save  -8
 Alig  -1000
-Hit   5
-Dam   7
+Hit   17
+Dam   19
 SecHit   5
 SecDam   7
-ACs -105 -105 -105 -108
+ACs -25 -25 -25 -28
 Wimp  40
-Attr 7 25 25 20 8 19 11 13
-AMod 5 7 -1 3 -4 0 1 0
+Attr 7 25 25 20 8 17 8 13
+AMod 5 7 -1 5 -4 2 1 0
 Pass Wokbwgh80IND2~
 Titl  {RAvenger{X {B/|{DRe{dW{Dc{dR{Dce{B|\{x~
 Pnts 42
 TSex 1
 LLev 17
 HMVP 275 1467 430
-Cnd  0 19 27 27
+Cnd  0 28 39 39
 Alias dead c 'summon dead'~
 Alias resc o all rescue wolfpac~
 Alias fog c 'faerie fog'~
@@ -121,7 +129,7 @@ Sk 75 'fireproof'
 Sk 1 'flameseek'
 Sk 1 'fly'
 Sk 88 'gate'
-Sk 79 'giant strength'
+Sk 82 'giant strength'
 Sk 75 'haste'
 Sk 1 'hydrophilia'
 Sk 97 'identify'
@@ -147,7 +155,7 @@ Sk 81 'shield'
 Sk 1 'shocking grasp'
 Sk 75 'sleep'
 Sk 75 'stone skin'
-Sk 80 'summon'
+Sk 81 'summon'
 Sk 75 'teleport'
 Sk 1 'ventriloquate'
 Sk 75 'warp'
@@ -164,7 +172,7 @@ Sk 92 'dagger'
 Sk 97 'bleed'
 Sk 100 'dodge'
 Sk 69 'scan'
-Sk 86 'spellcraft'
+Sk 89 'spellcraft'
 Sk 1 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
@@ -183,9 +191,6 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'stone skin'   0  46  18 -40  17          0
-Affc 'shield'   0  46  26 -20  17          0
-Affc 'armor'   0  45   3 -20  17          0
 End
 
 #O
@@ -203,6 +208,47 @@ Wear -1
 Lev  17
 Cost 2650
 Val  530 1 -1 90 25
+End
+
+#O
+Vnum 22055
+Enchanted
+Nest 1
+PrevOwner Wolfpac~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 4100
+Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+End
+
+#O
+Vnum 22054
+Enchanted
+Nest 1
+PrevOwner Wolfpac~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 2475
+Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+End
+
+#O
+Vnum 22056
+Enchanted
+Nest 1
+PrevOwner Wolfpac~
+ExtF 66
+Cond 0
+Wear -1
+Cost 2890
+Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #O
@@ -378,15 +424,6 @@ PrevOwner Wolfpac~
 Cond 0
 Wear -1
 Cost 22
-End
-
-#O
-Vnum 13208
-Nest 1
-PrevOwner Wolfpac~
-Cond 0
-Wear -1
-Cost 1000
 End
 
 #O
@@ -650,6 +687,83 @@ Cost 0
 End
 
 #O
+Vnum 13206
+Nest 1
+PrevOwner Wolfpac~
+Cond 0
+Wear -1
+Cost 5
+End
+
+#O
+Vnum 13206
+Nest 1
+PrevOwner Wolfpac~
+Cond 0
+Wear -1
+Cost 5
+End
+
+#O
+Vnum 13208
+Nest 1
+PrevOwner Wolfpac~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 10740
+Nest 1
+PrevOwner Wolfpac~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 10419
+Nest 1
+PrevOwner Wolfpac~
+Cond 0
+Wear -1
+Cost 1330
+End
+
+#O
+Vnum 2323
+Nest 1
+PrevOwner Wolfpac~
+Cond 0
+Wear -1
+Cost 1960
+Val  4 5 4 8 16
+End
+
+#O
+Vnum 18150
+Nest 1
+PrevOwner Wolfpac~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9204
+Enchanted
+Nest 1
+PrevOwner Wolfpac~
+ExtF 65
+Cond 0
+Wear -1
+Lev  45
+Cost 1550
+Affc 'enchant armor'   1  52  -1 -13  17          0
+End
+
+#O
 Vnum 5409
 Enchanted
 Nest 1
@@ -668,30 +782,17 @@ Affc 'enchant weapon'   0  52  -1   3  18          0
 End
 
 #O
-Vnum 13206
+Vnum 9203
+Enchanted
 Nest 1
 PrevOwner Wolfpac~
+ExtF 67
 Cond 0
 Wear -1
-Cost 5
-End
-
-#O
-Vnum 13206
-Nest 1
-PrevOwner Wolfpac~
-Cond 0
-Wear -1
-Cost 5
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
+Lev  38
+Cost 2800
+Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
 End
 
 #O
@@ -721,15 +822,6 @@ PrevOwner Banger~
 Cond 0
 Wear -1
 Cost 6000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Banger~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -770,76 +862,27 @@ Cost 0
 End
 
 #O
-Vnum 9203
-Enchanted
-Nest 0
-PrevOwner Wolfpac~
-ExtF 67
-Cond 0
-Wear -1
-Lev  38
-Cost 2800
-Affc 'enchant weapon'   0  52  -1   9  18          0
-Affc 'enchant weapon'   1  52  -1  13  19          0
-End
-
-#O
-Vnum 9204
-Enchanted
-Nest 0
-PrevOwner Wolfpac~
-ExtF 65
-Cond 0
-Wear -1
-Lev  45
-Cost 1550
-Affc 'enchant armor'   1  52  -1 -13  17          0
-End
-
-#O
-Vnum 18150
-Nest 0
-PrevOwner Deceased~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2323
-Nest 0
-PrevOwner Deceased~
-Cond 0
-Wear -1
-Cost 1960
-Val  4 5 4 8 16
-End
-
-#O
-Vnum 10419
-Nest 0
-PrevOwner Deceased~
-Cond 0
-Wear -1
-Cost 1330
-End
-
-#O
 Vnum 10710
+Enchanted
 Nest 0
 PrevOwner Deceased~
+ExtF 322
 Cond 0
-Wear -1
+Wear 16
 Cost 2000
+Affc 'reserved'   1  50  -1   2  30          0
+Affc 'reserved'   1  50  -1   2   2          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
-Vnum 10740
+Vnum 8503
 Nest 0
-PrevOwner Deceased~
+PrevOwner Wolfpac~
 Cond 0
 Wear -1
-Cost 1000
+Cost 5000
 End
 
 #END

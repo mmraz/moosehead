@@ -3,8 +3,8 @@ Name Zorkoth~
 SurN Heurdor~
 Id   1032582213
 Email (null)~
-LogO 1098914060
-Vers 31
+LogO 1354923499
+Vers 33
 LnD  A Gladiator~
 Prom <%hhp %mm %vmv> {G*(%wWeight)*{x ->{Y%t:00{x<-(%X) ~
 Race yinn~
@@ -12,10 +12,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
 Kill 1 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +28,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 111995 matook~
 DeityT -5896 matook~
 Sac  300
@@ -36,18 +41,18 @@ Node 0
 Cap 0
 Created 1032582284
 Glad 0 0 0 0 1 0
-LastHost 24.157.72.71~
+LastHost 99.241.52.126~
 Cla  9
 Kit cavalier~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 248658
+Plyd 249900
 Not  1033852496 1033948807 0 1033791284 1033846712 1033866611 0 1033600725 0 1033709022
 Scro 22
 Rank 0
-Room 16503
-HMV  1117 1117 647 647 524 531
+Room 3054
+HMV  1157 1157 604 647 481 481
 Gold 587
 Silv 17823
 Exp  510130
@@ -60,25 +65,26 @@ IcgB 0
 Icg 0
 Pnet ABCEFGHI
 Pos  8
-Prac 12
+Prac 13
+Trai 16
 SkiP 22
-Save  -2
+Save  3
 Alig  -606
-Hit   25
-Dam   52
+Hit   12
+Dam   42
 SecHit   12
-SecDam   39
-ACs 16 16 16 59
+SecDam   42
+ACs 17 17 17 60
 Wimp  2
-Attr 23 19 19 22 22 22 22 21
+Attr 23 19 19 22 22 14 14 21
 AMod 2 -1 2 0 0 0 0 0
-Pass Zo/ntv0MSI7as~
+Pass ZoHrngLcJK2Kg~
 Titl ....~
 Pnts 100
 TSex 1
 LLev 54
 HMVP 1092 622 496
-Cnd  0 0 12 2
+Cnd  0 0 0 0
 Alias k kill~
 Alias / c word~
 Spz 'dagger'
@@ -96,7 +102,6 @@ Sk 1 'change sex'
 Sk 48 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 1 'control weather'
 Sk 84 'cure critical'
 Sk 75 'cure light'
@@ -196,9 +201,8 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'garou'
-Affc 'fly'   0  42  30   0   0     524288
-Affc 'detect invis'   0  42  29   0   0          8
-Affc 'detect hidden'   0  44  29   0   0         32
+Affc 'detect invis'   0  44  44   0   0          8
+Affc 'detect hidden'   0  45  44   0   0         32
 End
 
 #O
@@ -216,13 +220,13 @@ Enchanted
 Nest 0
 PrevOwner Zorkoth~
 ExtF 67
-Stolen 39
+Stolen 8
 Cond 0
-Wear 16
+Wear -1
 Lev  50
 Cost 2250
-Affc 'enchant weapon'   1  53  -1  13  19          0
 Affc 'enchant weapon'   0  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O
@@ -236,15 +240,6 @@ End
 
 #O
 Vnum 1972
-Nest 1
-PrevOwner Zorkoth~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12022
 Nest 1
 PrevOwner Zorkoth~
 Cond 0
@@ -270,20 +265,6 @@ Cond 0
 Wear -1
 Cost 0
 Val  0 0 0 108 0
-End
-
-#O
-Vnum 3428
-Enchanted
-Nest 1
-PrevOwner Zorkoth~
-ExtF 66
-Cond 0
-Wear -1
-Lev  34
-Cost 2200
-Affc 'enchant weapon'   1  53  -1   6  19          0
-Affc 'enchant weapon'   1  53  -1   7  18          0
 End
 
 #O
@@ -324,16 +305,6 @@ Cost 0
 End
 
 #O
-Vnum 1266
-Nest 1
-PrevOwner Zorkoth~
-Cond 0
-Wear -1
-Cost 0
-Val  0 0 0 108 0
-End
-
-#O
 Vnum 22015
 Nest 1
 PrevOwner Zorkoth~
@@ -350,41 +321,6 @@ PrevOwner Zorkoth~
 Cond 0
 Wear -1
 Cost 1140
-End
-
-#O
-Vnum 12010
-Nest 1
-PrevOwner Zorkoth~
-ExtF 1196065
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 2413
-Enchanted
-Nest 1
-PrevOwner Zorkoth~
-ExtF 2115
-Cond 0
-Wear -1
-Lev  50
-Cost 2700
-Val  4 6 6 8 7
-Affc 'enchant weapon'   1  52  -1  14  19          0
-Affc 'reserved'   1  47  -1  -1   2          0
-Affc 'enchant weapon'   0  52  -1  12  18          0
-End
-
-#O
-Vnum 5902
-Nest 1
-PrevOwner Zorkoth~
-Cond 0
-Wear -1
-Cost 4000
 End
 
 #O
@@ -516,6 +452,41 @@ Cost 40
 End
 
 #O
+Vnum 2413
+Enchanted
+Nest 1
+PrevOwner Zorkoth~
+ExtF 2115
+Cond 0
+Wear -1
+Lev  50
+Cost 2700
+Val  4 6 6 8 7
+Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'reserved'   1  47  -1  -1   2          0
+Affc 'enchant weapon'   1  52  -1  14  19          0
+End
+
+#O
+Vnum 1266
+Nest 1
+PrevOwner Zorkoth~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 108 0
+End
+
+#O
+Vnum 12022
+Nest 1
+PrevOwner Zorkoth~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
 Vnum 2505
 Nest 0
 PrevOwner Zorkoth~
@@ -584,7 +555,7 @@ Nest 0
 PrevOwner Zorkoth~
 ExtF 5242880
 Cond 0
-Wear -1
+Wear 17
 Cost 100000
 End
 
@@ -632,8 +603,8 @@ PrevOwner Zorkoth~
 Cond 0
 Wear 13
 Cost 5500
-Affc 'reserved'   1  46  -1   1  18          0
 Affc 'reserved'   1  46  -1   2  19          0
+Affc 'reserved'   1  46  -1   1  18          0
 End
 
 #O
@@ -714,8 +685,8 @@ ExtF 323
 Cond 0
 Wear -1
 Cost 4000
-Affc 'enchant weapon'   0  53  -1  12  18          0
 Affc 'enchant weapon'   1  53  -1  14  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
@@ -727,8 +698,8 @@ Cond 0
 Wear -1
 Lev  30
 Cost 2200
-Affc 'enchant weapon'   1  52  -1   3  18          0
 Affc 'enchant weapon'   1  52  -1   2  19          0
+Affc 'enchant weapon'   1  52  -1   3  18          0
 End
 
 #O
@@ -744,7 +715,6 @@ End
 Vnum 23144
 Nest 0
 PrevOwner Zorkoth~
-Stolen 7
 Cond 0
 Wear -1
 Cost 4200
@@ -863,7 +833,7 @@ Vnum 3375
 Nest 0
 PrevOwner Zorkoth~
 Cond 0
-Wear 17
+Wear -1
 Cost 5000
 End
 
@@ -877,12 +847,26 @@ Cost 5000
 End
 
 #O
-Vnum 3365
+Vnum 5902
 Nest 0
-PrevOwner (null)~
+PrevOwner Zorkoth~
 Cond 0
 Wear -1
-Cost 640
+Cost 4000
+End
+
+#O
+Vnum 3428
+Enchanted
+Nest 0
+PrevOwner Zorkoth~
+ExtF 66
+Cond 0
+Wear -1
+Lev  34
+Cost 2200
+Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
 End
 
 #END

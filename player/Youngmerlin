@@ -2,18 +2,19 @@
 Name Youngmerlin~
 Id   947653578
 Email (null)~
-LogO 1104737389
-Vers 31
+LogO 1351258948
+Vers 33
 Prom %hhp %mm %vmv {G*(%WWeight)*{x ->{Y%t:00{x<-(%X) ~
 Race dragon~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,10 @@ LoginsWOKill 1
 LoginsWODeath 1
 LoginsWOCombat 1
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 mojo~
 DeityT -993 mojo~
 Sac  300
@@ -34,47 +39,47 @@ Node 0
 Cap 0
 Created 983594759
 Glad 0 0 0 0 0 0
-LastHost 209.98.98.8~
+LastHost 99.248.113.147~
 Cla  7
 ClaO 0
-Levl 22
+Levl 24
 DLevl -1
-Plyd 96297
-Not  1022351739 1022351757 0 1022351732 1022351772 1022351745 0 1022351748 0 1022351751
+Plyd 106978
+Not  1306541900 1022351757 0 1022351732 1022351772 1306620661 0 1022351748 0 1022351751
 Scro 22
 Rank 0
-Room 30312
-HMV  333 333 358 358 243 243
-Gold 0
-Silv 0
-Exp  199076
+Room 3001
+HMV  455 455 349 391 261 261
+Gold 784
+Silv 30058
+Exp  211421
 Act  CDGH
 MHSF R
-AfBy DJT
-Comm DGILR
+AfBy DEFJT
+Comm DGILRc
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 80
-Trai 1
-SkiP 37
-Alig  -584
-Hit   12
-Dam   22
+Prac 14
+Trai 12
+SkiP 56
+Alig  -1000
+Hit   24
+Dam   34
 SecHit   11
 SecDam   22
 ACs 55 55 55 80
 Wimp  4
-Attr 22 21 19 21 21 18 18 18
+Attr 22 21 20 21 22 11 14 18
 AMod 3 1 0 7 2 0 0 0
 Pass Yoo9kj.4lnndU~
 Titl  the confused~
 Pnts 100
 TSex 1
-LLev 21
-HMVP 328 358 243
-Cnd  0 28 43 38
+LLev 29
+HMVP 350 391 261
+Cnd  0 0 17 22
 Alias k kill~
 Alias / c word~
 Sk 1 'acid blast'
@@ -84,9 +89,9 @@ Sk 77 'armor'
 OldSk 1 'armor'
 Sk 1 'bestow holiness'
 OldSk 1 'bestow holiness'
-Sk 61 'bless'
+Sk 63 'bless'
 OldSk 1 'bless'
-Sk 75 'blindness'
+Sk 77 'blindness'
 OldSk 1 'blindness'
 Sk 1 'blur'
 Sk 1 'body weaponry'
@@ -106,7 +111,6 @@ OldSk 1 'change sex'
 Sk 1 'charm person'
 Sk 84 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 OldSk 1 'continual light'
 Sk 50 'control weather'
 OldSk 1 'control weather'
@@ -116,7 +120,7 @@ OldSk 1 'create rose'
 OldSk 1 'create spring'
 OldSk 1 'create water'
 OldSk 1 'cure blindness'
-Sk 75 'cure critical'
+Sk 78 'cure critical'
 OldSk 1 'cure critical'
 OldSk 1 'cure disease'
 Sk 87 'cure light'
@@ -135,7 +139,7 @@ Sk 66 'detect hidden'
 OldSk 1 'detect hidden'
 Sk 75 'detect invis'
 OldSk 1 'detect invis'
-Sk 75 'detect magic'
+Sk 78 'detect magic'
 OldSk 1 'detect magic'
 Sk 1 'detect poison'
 OldSk 1 'detect poison'
@@ -186,7 +190,7 @@ OldSk 1 'heat metal'
 OldSk 1 'hold person'
 Sk 1 'holy word'
 OldSk 1 'holy word'
-Sk 77 'identify'
+Sk 83 'identify'
 OldSk 1 'identify'
 Sk 1 'infravision'
 Sk 81 'invisibility'
@@ -197,7 +201,7 @@ OldSk 1 'know alignment'
 Sk 1 'lay on hands'
 Sk 1 'lightning bolt'
 OldSk 1 'lightning bolt'
-Sk 1 'locate object'
+Sk 79 'locate object'
 OldSk 1 'locate object'
 Sk 83 'magic missile'
 Sk 1 'mass healing'
@@ -262,13 +266,14 @@ Sk 91 'dagger'
 OldSk 1 'flail'
 Sk 81 'mace'
 OldSk 40 'mace'
-Sk 17 'dodge'
+Sk 62 'dodge'
 Sk 1 'enhanced damage'
 Sk 1 'hand to hand'
 OldSk 1 'shield block'
 Sk 52 'scan'
 OldSk 50 'scan'
-Sk 30 'meditation'
+Sk 25 'fast healing'
+Sk 32 'meditation'
 Sk 1 'scrolls'
 OldSk 1 'scrolls'
 Sk 1 'staves'
@@ -297,7 +302,10 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-Affc 'detect invis'   0  21  18   0   0          8
+Affc 'detect invis'   0  25  22   0   0          8
+Affc 'symbol ii'   0 135  75 100  13          0
+Affc 'detect hidden'   0  17   1   0   0         32
+Affc 'detect magic'   0  20   1   0   0         16
 End
 
 #O
@@ -392,20 +400,11 @@ Cost 200
 End
 
 #O
-Vnum 2910
-Nest 0
-PrevOwner Youngmerlin~
-Cond 0
-Wear 16
-Cost 0
-End
-
-#O
 Vnum 2803
 Nest 0
 PrevOwner Youngmerlin~
 Cond 0
-Wear 2
+Wear -1
 Cost 1150
 End
 
@@ -414,44 +413,8 @@ Vnum 2803
 Nest 0
 PrevOwner Youngmerlin~
 Cond 0
-Wear 1
+Wear -1
 Cost 1150
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner Youngmerlin~
-Cond 0
-Wear 14
-Cost 1150
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner Youngmerlin~
-Cond 0
-Wear 15
-Cost 1150
-End
-
-#O
-Vnum 1395
-Nest 0
-PrevOwner Youngmerlin~
-Cond 0
-Wear 4
-Cost 1970
-End
-
-#O
-Vnum 1395
-Nest 0
-PrevOwner Youngmerlin~
-Cond 0
-Wear 3
-Cost 1970
 End
 
 #O
@@ -473,285 +436,6 @@ PrevOwner Youngmerlin~
 Cond 0
 Wear 17
 Cost 0
-End
-
-#O
-Vnum 23021
-Nest 0
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 710
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 9602
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 9602
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 1000
 End
 
 #O
@@ -788,16 +472,6 @@ PrevOwner Youngmerlin~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 4436
-Nest 1
-PrevOwner Youngmerlin~
-ExtF 33
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -855,15 +529,6 @@ Cost 1500
 End
 
 #O
-Vnum 8503
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 1335
 Nest 1
 PrevOwner Youngmerlin~
@@ -882,17 +547,8 @@ Cond 0
 Wear -1
 Lev  18
 Cost 1500
-Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   1  52  -1  12  18          0
-End
-
-#O
-Vnum 10424
-Nest 1
-PrevOwner Youngmerlin~
-Cond 0
-Wear -1
-Cost 5500
+Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
@@ -902,20 +558,6 @@ PrevOwner Youngmerlin~
 Cond 0
 Wear -1
 Cost 5000
-End
-
-#O
-Vnum 13207
-Enchanted
-Nest 1
-PrevOwner Youngmerlin~
-ExtF 67
-Cond 0
-Wear -1
-Lev  18
-Cost 1500
-Affc 'enchant weapon'   1  52  -1  13  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #O
@@ -929,8 +571,118 @@ Wear -1
 Lev  1
 Cost 210
 Val  2 1 4 11 4
-Affc 'enchant weapon'   1  52  -1   1  19          0
 Affc 'enchant weapon'   1  52  -1   2  18          0
+Affc 'enchant weapon'   1  52  -1   1  19          0
+End
+
+#O
+Vnum 4436
+Nest 1
+PrevOwner Youngmerlin~
+ExtF 33
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 4442
+Nest 1
+PrevOwner Youngmerlin~
+ExtF 536870961
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10424
+Nest 1
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 9103
+Nest 1
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 9103
+Nest 1
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 9201
+Nest 1
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 9201
+Nest 1
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 1342
+Nest 1
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8045
+Nest 1
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 17636
+Nest 1
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 4400
+End
+
+#O
+Vnum 2910
+Nest 1
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #O
@@ -943,49 +695,11 @@ Cost 0
 End
 
 #O
-Vnum 1395
-Nest 0
-PrevOwner Friend~
-Cond 0
-Wear -1
-Cost 1970
-End
-
-#O
-Vnum 1395
-Nest 0
-PrevOwner Friend~
-Cond 0
-Wear -1
-Cost 1970
-End
-
-#O
-Vnum 1395
-Nest 0
-PrevOwner Friend~
-ExtF 134217792
-Wt   63
-Cond 0
-Wear -1
-Cost 1970
-End
-
-#O
-Vnum 8048
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
 Vnum 2505
 Nest 0
 PrevOwner Vampboodrum~
 Cond 0
-Wear -1
+Wear 15
 Cost 1150
 End
 
@@ -994,52 +708,16 @@ Vnum 2505
 Nest 0
 PrevOwner Vampboodrum~
 Cond 0
-Wear -1
+Wear 14
 Cost 1150
 End
 
 #O
-Vnum 1342
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8045
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 17636
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 4400
-End
-
-#O
 Vnum 1395
 Nest 0
 PrevOwner Vampboodrum~
 Cond 0
-Wear -1
-Cost 1970
-End
-
-#O
-Vnum 1395
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
+Wear 4
 Cost 1970
 End
 
@@ -1048,7 +726,7 @@ Vnum 2803
 Nest 0
 PrevOwner Vampboodrum~
 Cond 0
-Wear -1
+Wear 2
 Cost 1150
 End
 
@@ -1057,27 +735,8 @@ Vnum 2803
 Nest 0
 PrevOwner Vampboodrum~
 Cond 0
-Wear -1
+Wear 1
 Cost 1150
-End
-
-#O
-Vnum 4442
-Nest 0
-PrevOwner Vampboodrum~
-ExtF 536870961
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10424
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 5500
 End
 
 #O
@@ -1100,24 +759,6 @@ End
 
 #O
 Vnum 4440
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5413
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5413
 Nest 0
 PrevOwner Vampboodrum~
 Cond 0
@@ -1150,6 +791,156 @@ PrevOwner Vampboodrum~
 Cond 0
 Wear -1
 Cost 5
+End
+
+#O
+Vnum 10424
+Nest 0
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 5413
+Nest 0
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5413
+Nest 0
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1395
+Nest 0
+PrevOwner Youngmerlin~
+Cond 0
+Wear 3
+Cost 1970
+End
+
+#O
+Vnum 13207
+Enchanted
+Nest 0
+PrevOwner Youngmerlin~
+ExtF 67
+Stolen 191
+Cond 0
+Wear 16
+Lev  18
+Cost 1500
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   1  52  -1  13  18          0
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 23021
+Nest 0
+PrevOwner Youngmerlin~
+Cond 0
+Wear -1
+Cost 710
 End
 
 #END

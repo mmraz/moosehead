@@ -1,11 +1,12 @@
 #PLAYER
 Name MoonWind~
+SurN ~
 Id   922565959
-LogO 943204452
-Vers 15
+Email (null)~
+LogO 1410236119
+Vers 33
 ShD  {x~
-LnD  {x
-~
+LnD  A Gladiator~
 Desc This Imm has taken over 9900.
 709
 nolocate = 524288
@@ -28,88 +29,133 @@ Desc This Imm has taken over 9900.
 Burnproof  16777216
 17301504 nolocate/burnproof
 5d8
+peace gmote restore guild switch
 ~
-Prom %y%i%m.%M %v.%VM %gG %sS [%R] %r Ar:%z Exits:%e%c> ~
+Prom %y%i%m.%MM %v.%VV %gG %sS [%R]%r Ar:%z Exits:%e%c> ~
 Race dragon~
-Outc 1616
+Outc 0
 RufT 0
-MatookT 1
-Kill 0 0 194
+MatookT 24
+SkPTimer 0
+SkPTracker 0
+LogoutTracker 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
-Deity 3600 hermes~
+LstKBy no one~
+LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1309442561
+LstKillDate 1306613205
+LstDeathDate 1306613205
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 3600 mojo~
 Sac  300
-Sex  0
+Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 0
+Glad 0 0 0 0 0 0
+LastHost 69.165.128.185~
 Cla  7
-Kit shapeshifter~
 ClaO 0
 Levl 52
 DLevl 0
-Plyd 991803
-Rdid 0
-Not  943166112 943159231 943178655 943158167 943141664 943139676 943184678 943172792
-Scro 33
+Plyd 1941313
+Not  1367425331 1367900232 1312240637 1367820823 1367893112 1368121231 1367939043 1367007481 1408278263 1368001970
+Scro 36
 Rank 5
-Room 1205
-HMV  15000 15000 32000 32000 757 757
-Gold 11096
-Silv 185
-Exp  205200
-Act  DEGHMNQSX
-MHSF I
-AfBy HJNTVace
+Room 2
+HMV  875 875 832 832 1280 1280
+Gold 14853
+Silv 12399
+Exp  181500
+Act  DHKMNQST
+AfBy HJNTVae
 Comm S
-Disp BCFHIJ
-IcgB AIJNPTXY
-Icg 2
-Wizn ACDEFIJLRSTU
+Disp BFHIJN
+IcgB 0
+Icg 0
+Wizn ACEFJLRSTUc
+Pnet FG
 Pos  8
-Prac 530
-Trai 85
-Save  -170
-Alig  491
-Hit   75
-Dam   75
-ACs -700 -700 -700 -700
-Attr 25 25 25 25 25
-AMod 20 5 0 20 20
-Pass MoAE07WEoVdxy~
-Bin  MoonWind drops in on you like a load of bricks.~
-Bout MoonWind leaves for something else.~
-Titl , public relations engineer.~
+Prac 1492
+Trai 267
+SkiP 235
+Save  -120
+Alig  53
+ACs -200 -200 -200 -200
+Attr 25 25 25 25 25 11 14 13
+AMod 10 0 0 10 10 0 0 0
+Pass Moad6h/h4HAsQ~
+Bin  MoonWind arrives on a breeze.~
+Bout MoonWind gets blown away.~
+Titl  [] is a {Rc{Br{Ge{Ye{Cp{My{x feature.~
 Pnts 70
-WhoName Spin  Doctor~
-TSex 0
-LLev 219
-HMVP 10000 7000 457
+WhoName {x{x{x{x{x{x ~
+TSex 1
+LLev 356
+HMVP 875 832 980
 Cnd  0 48 -1 -1
 Edit ABCEH
 ERange 9900 9999
+ERange 21300 21319
+ERange 17700 17799
 Alias tiag gossip {RP{ME{BN{GI{YS{x!!!~
-Alias boo smote MoonWind's masterfull backstab does {RUNSPEAKABLE{x things to you.                  MoonWind is in excelent condition.~
+Alias boo smote MoonWind's masterful backstab does {RUNSPEAKABLE{x things to you.                   You have been killed!~
 Alias teabag {{RP{{ME{{BN{{GI{{YS{{x!!!~
 Alias 0 c  vent  Poquah Don, could  I borrow you for 30 secs~
-Macro eee c tel self; drop diamond~
+Alias diamond load obj 3377~
+Alias opal load obj 3378~
+Alias k kill~
+Alias coal load obj 6517~
+Macro warlock trans %1 31918~
+Macro honor trans %1 31500~
+Macro demise trans %1 31400~
+Macro posse trans %1 31600~
+Macro zealot trans %1 31800~
+Macro matook trans %1 16500~
+Macro fff c tel self; drop diamond~
+Macro eee c tel self; load obj 3377; drop diamond~
 Macro flags string obj coal short flag #%1;string obj coal long MoonWind's flag #%1;string obj coal name flag #%1# %1~
 Macro / goto 3001~
+Macro goglad trans %1 10820~
 Sk 100 'reserved'
 Sk 100 'opiate'
 Sk 100 'accuracy'
 Sk 100 'acid blast'
+Sk 100 'acclimate'
+Sk 100 'adamantite skin'
 Sk 100 'aid'
+Sk 100 'aura of valor'
+Sk 100 'arcantic alacrity'
+Sk 100 'arcantic lethargy'
 Sk 100 'armor'
 Sk 100 'asphyxiate'
 Sk 100 'bestow holiness'
+Sk 100 'betray'
+Sk 100 'blade barrier'
 Sk 100 'bless'
+Sk 100 'blight'
 Sk 100 'blindness'
 Sk 100 'blur'
 Sk 100 'body of stone'
 Sk 100 'body weaponry'
+Sk 100 'boiling blood'
 Sk 100 'burning hands'
 Sk 100 'call lightning'
+Sk 100 'call mount'
 Sk 100 'calm'
 Sk 100 'cancellation'
 Sk 100 'cause critical'
@@ -118,15 +164,22 @@ Sk 100 'cause serious'
 Sk 100 'chain lightning'
 Sk 100 'change sex'
 Sk 100 'charm person'
+Sk 100 'charm animal'
 Sk 100 'chill touch'
+Sk 100 'clarity'
 Sk 100 'colour spray'
+Sk 100 'contagion'
 Sk 100 'continual light'
 Sk 100 'control weather'
 Sk 100 'create food'
 Sk 100 'create fountain'
+Sk 100 'create node'
 Sk 100 'create rose'
 Sk 100 'create spring'
 Sk 100 'create water'
+Sk 100 'creeping doom'
+Sk 100 'crusade'
+Sk 100 'crushing grip'
 Sk 100 'cure blindness'
 Sk 100 'cure critical'
 Sk 100 'cure disease'
@@ -134,7 +187,6 @@ Sk 100 'cure light'
 Sk 100 'cure poison'
 Sk 100 'cure serious'
 Sk 100 'curse'
-Sk 100 'create node'
 Sk 100 'demonfire'
 Sk 100 'detect evil'
 Sk 100 'detect good'
@@ -142,9 +194,11 @@ Sk 100 'detect hidden'
 Sk 100 'detect invis'
 Sk 100 'detect magic'
 Sk 100 'detect poison'
+Sk 100 'diamond skin'
 Sk 100 'dispel evil'
 Sk 100 'dispel good'
 Sk 100 'dispel magic'
+Sk 100 'dispel wall'
 Sk 100 'dust storm'
 Sk 100 'earthbind'
 Sk 100 'earthquake'
@@ -154,6 +208,7 @@ Sk 100 'enchant armor'
 Sk 100 'enchant weapon'
 Sk 100 'endure cold'
 Sk 100 'endure heat'
+Sk 100 'enhance'
 Sk 100 'energy drain'
 Sk 100 'enervation'
 Sk 100 'entrance'
@@ -161,6 +216,7 @@ Sk 100 'faerie fire'
 Sk 100 'faerie fog'
 Sk 100 'famine'
 Sk 100 'farsight'
+Sk 100 'farsee'
 Sk 100 'feast'
 Sk 100 'feeblemind'
 Sk 100 'fireball'
@@ -168,8 +224,9 @@ Sk 100 'fireproof'
 Sk 100 'flamestrike'
 Sk 100 'flamesword'
 Sk 100 'flame shield'
-Sk 100 'fly'
+Sk 100 'flameseek'
 Sk 100 'floating disc'
+Sk 100 'fly'
 Sk 100 'forget'
 Sk 100 'frenzy'
 Sk 100 'frostsword'
@@ -182,29 +239,44 @@ Sk 100 'haste'
 Sk 100 'heal'
 Sk 100 'heat metal'
 Sk 100 'hold person'
+Sk 100 'holy silence'
 Sk 100 'holy word'
+Sk 100 'hydrophilia'
 Sk 100 'ice storm'
 Sk 100 'identify'
 Sk 100 'imbue'
+Sk 100 'immolate'
+Sk 100 'incinerate'
+Sk 100 'indulgence'
 Sk 100 'infravision'
 Sk 100 'invisibility'
 Sk 100 'irradiate'
 Sk 100 'knock'
 Sk 100 'know alignment'
+Sk 100 'lacerate'
 Sk 100 'lay on hands'
+Sk 100 'learned knowledge'
 Sk 100 'lightning bolt'
 Sk 100 'locate object'
 Sk 100 'magic missile'
 Sk 100 'magic resistance'
+Sk 100 'magical rest'
 Sk 100 'mass healing'
 Sk 100 'mass invis'
+Sk 100 'midnight cloak'
 Sk 100 'mirror image'
 Sk 100 'mistform'
+Sk 100 'nether shield'
 Sk 100 'nexus'
+Sk 100 'orb of awakening'
+Sk 100 'orb of surprise'
+Sk 100 'orb of touch'
+Sk 100 'orb of turning'
 Sk 100 'pass door'
 Sk 100 'plague'
 Sk 100 'poison'
 Sk 100 'portal'
+Sk 100 'pox'
 Sk 100 'protection evil'
 Sk 100 'protection good'
 Sk 100 'protection neutral'
@@ -212,33 +284,65 @@ Sk 100 'psionic blast'
 Sk 100 'ray of truth'
 Sk 100 'recharge'
 Sk 100 'refresh'
+Sk 100 'regeneration'
 Sk 100 'remove curse'
+Sk 100 'remove disease'
+Sk 100 'remove poison'
 Sk 100 'restore mana'
+Sk 100 'restrain'
 Sk 100 'rust armor'
 Sk 100 'rust weapon'
 Sk 100 'sacred guardian'
 Sk 100 'sanctuary'
+Sk 100 'scourge'
 Sk 100 'shield'
+Sk 100 'shield of blades'
+Sk 100 'shield of brambles'
+Sk 100 'shield of faith'
+Sk 100 'shield of spikes'
+Sk 100 'shield of thorns'
 Sk 100 'shocking grasp'
 Sk 100 'sleep'
 Sk 100 'slow'
+Sk 100 'smoke screen'
+Sk 100 'see soul'
+Sk 100 'sonic blast'
 Sk 100 'speed'
+Sk 100 'spirit of bear'
+Sk 100 'spirit of boar'
+Sk 100 'spirit of cat'
+Sk 100 'spirit of owl'
+Sk 100 'spirit of phoenix'
+Sk 100 'spirit of wolf'
+Sk 100 'stalk'
+Sk 100 'steel skin'
 Sk 100 'stonefist'
 Sk 100 'stone skin'
 Sk 100 'summon'
+Sk 100 'sunburst'
+Sk 100 'swarm'
+Sk 100 'symbol i'
+Sk 100 'symbol ii'
+Sk 100 'symbol iii'
+Sk 100 'symbol iv'
 Sk 100 'teleport'
+Sk 100 'thunderclap'
 Sk 100 'tower of iron will'
 Sk 100 'traveler fog'
 Sk 100 'tsunami'
+Sk 100 'venom of vhan'
 Sk 100 'ventriloquate'
 Sk 100 'vision'
 Sk 100 'visit node'
+Sk 100 'wall of ice'
+Sk 100 'wall of fire'
 Sk 100 'wall of wind'
 Sk 100 'warp'
 Sk 100 'water breathing'
 Sk 100 'weaken'
 Sk 100 'word of recall'
 Sk 100 'wrath'
+Sk 100 'wrath of the pen'
 Sk 100 'acid breath'
 Sk 100 'fire breath'
 Sk 100 'frost breath'
@@ -246,25 +350,19 @@ Sk 100 'gas breath'
 Sk 100 'lightning breath'
 Sk 100 'small bomb'
 Sk 100 'high explosive'
+Sk 100 'frostbite'
+Sk 100 'blistering skin'
+Sk 100 'electrocution'
 Sk 100 'animate dead'
 Sk 100 'summon dead'
+Sk 100 'summon elemental'
 Sk 100 'cryogenesis'
 Sk 100 'draw life'
-Sk 100 'feign death'
+Sk 100 'make bag'
+Sk 100 'wraithform'
 Sk 100 'turn undead'
 Sk 100 'withstand death'
 Sk 100 'wound transfer'
-Sk 100 'smoke screen'
-Sk 100 'orb of awakening'
-Sk 100 'orb of surprise'
-Sk 100 'orb of touch'
-Sk 100 'orb of turning'
-Sk 100 'crusade'
-Sk 100 'holy silence'
-Sk 100 'see soul'
-Sk 100 'farsee'
-Sk 100 'enhance'
-Sk 100 'summon elemental'
 Sk 100 'axe'
 Sk 100 'dagger'
 Sk 100 'flail'
@@ -281,6 +379,10 @@ Sk 100 'berserk'
 Sk 100 'bite'
 Sk 100 'bladesong'
 Sk 100 'bleed'
+Sk 100 'bludgeon'
+Sk 100 'breathe'
+Sk 100 'cleave'
+Sk 100 'connive'
 Sk 100 'cutpurse'
 Sk 100 'daetok'
 Sk 100 'dirt kicking'
@@ -288,8 +390,15 @@ Sk 100 'disarm'
 Sk 100 'dodge'
 Sk 100 'dual wield'
 Sk 100 'endurance'
+Sk 100 'eye gouge'
+Sk 100 'fear'
+Sk 100 'grab'
+Sk 100 'hai-ruki'
+Sk 100 'hex'
+Sk 100 'infiltrate'
 Sk 100 'kailindo'
 Sk 100 'killing rage'
+Sk 100 'enhanced critical'
 Sk 100 'enhanced damage'
 Sk 100 'espionage'
 Sk 100 'tumbling'
@@ -297,8 +406,10 @@ Sk 100 'weave resistance'
 Sk 100 'insanity'
 Sk 100 'envenom'
 Sk 100 'garotte'
-Sk 100 'Guerrands Incredibly Overpowered Skill of Divine Asskicking'
+Sk 100 'hamstring'
 Sk 100 'hand to hand'
+Sk 100 'herbalism'
+Sk 100 'kcharge'
 Sk 100 'kick'
 Sk 100 'kurijitsu'
 Sk 100 'morph'
@@ -306,27 +417,35 @@ Sk 100 'ninjitsu'
 Sk 100 'parry'
 Sk 100 'rescue'
 Sk 100 'trip'
+Sk 100 'shield bash'
 Sk 100 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
+Sk 100 'fourth attack'
 Sk 100 'alchemy'
 Sk 100 'chee'
 Sk 100 'communion'
 Sk 100 'fade'
 Sk 100 'fast healing'
 Sk 100 'focus'
+Sk 100 'haggle'
 Sk 100 'hide'
 Sk 100 'holy chant'
+Sk 100 'infuse'
+Sk 100 'lore'
 Sk 100 'meditation'
 Sk 100 'nethermancy'
 Sk 100 'peek'
 Sk 100 'pick lock'
 Sk 100 'riding'
+Sk 100 'sharpen'
 Sk 100 'slice'
 Sk 100 'sneak'
 Sk 100 'spellcraft'
+Sk 100 'endow'
 Sk 100 'steal'
+Sk 100 'scribe'
 Sk 100 'scrolls'
 Sk 100 'staves'
 Sk 100 'wands'
@@ -350,16 +469,26 @@ Gr 'weather'
 End
 
 #O
-Vnum 727
+Vnum 1258
 Nest 0
+PrevOwner (null)~
+Name bag beta Reznar~
+ShD  a bag made from Reznar's hide~
+Desc A bag of fine Reznar hide catches your eye.  ~
+ExtF 0
+WeaF 16385
+Wt   5
 Cond 0
-Wear 18
-Cost 1
+Wear -1
+Lev  18
+Cost 2750
+Val  550 1 -1 90 25
 End
 
 #O
 Vnum 20720
 Nest 0
+PrevOwner (null)~
 ExtF 17449216
 Cond 0
 Wear 17
@@ -369,6 +498,7 @@ End
 #O
 Vnum 6401
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 500
@@ -377,6 +507,7 @@ End
 #O
 Vnum 2803
 Nest 1
+PrevOwner (null)~
 Name gold band Rivienne~
 ShD  a gold band~
 Desc A gold band with a silver aura representing Rivienne's soul.~
@@ -388,6 +519,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -399,6 +531,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -410,6 +543,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -421,6 +555,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -432,6 +567,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -443,6 +579,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -454,6 +591,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -465,6 +603,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -476,6 +615,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -487,6 +627,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -498,6 +639,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -509,6 +651,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -520,6 +663,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -531,6 +675,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -542,6 +687,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -553,6 +699,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -564,6 +711,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -575,6 +723,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -586,17 +735,7 @@ End
 #O
 Vnum 6517
 Nest 1
-Name tell~
-ShD  a tell~
-Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 6517
-Nest 1
+PrevOwner (null)~
 Name tell~
 ShD  a tell~
 Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
@@ -608,6 +747,7 @@ End
 #O
 Vnum 10443
 Nest 1
+PrevOwner (null)~
 Name pill leveling~
 ShD  A leveling pill~
 Desc A leveling pill given to those who level.~
@@ -616,28 +756,14 @@ Cond 0
 Wear -1
 Lev  1
 Cost 1520
-Val  54 20 156 79 -1
-Spell 3 'fumble'
-End
-
-#O
-Vnum 10443
-Nest 1
-Name pill leveling~
-ShD  A leveling pill~
-Desc A leveling pill given to those who level.~
-ExtF 536870912
-Cond 0
-Wear -1
-Lev  1
-Cost 1520
-Val  54 20 156 79 -1
+Val  54 20 156 109 -1
 Spell 3 'fumble'
 End
 
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name Lottery licence~
 ShD  Lottery Licence~
 Desc Lottery Licence #344291263~
@@ -649,6 +775,7 @@ End
 #O
 Vnum 10403
 Nest 1
+PrevOwner (null)~
 Name pair lips herpes infested~
 ShD  a pair of herpes-infested lips~
 Desc A pair of herpes-infested lips flop about, trying to give you STDs!             (SLED-Transmitted Disease)~
@@ -663,6 +790,7 @@ End
 #O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name Poquah LInk~
 ShD  Poquah's Link~
 Desc Poquah's Link lies here in peices~
@@ -672,18 +800,9 @@ Cost 0
 End
 
 #O
-Vnum 1110
-Nest 1
-ShD  The {REgg{x of {RDoom{x!!!~
-Cond 0
-Wear -1
-Cost 2
-Val  12 12 0 1 0
-End
-
-#O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name restring certificate~
 ShD  a restring certificate~
 Desc This certificate entitles the bearer to one free restring.~
@@ -693,22 +812,9 @@ Cost 0
 End
 
 #O
-Vnum 647
-Enchanted
-Nest 1
-ExtF 1090
-Cond 0
-Wear -1
-Lev  33
-Cost 5700
-Val  1 4 6 1 1536
-Affc 'enchant weapon'   1  52  -1   7  19          0
-Affc 'enchant weapon'   1  52  -1   2  18          0
-End
-
-#O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name brownie points~
 ShD  Brownie points~
 Desc Bladesman's Brownie Points for bug finding.~
@@ -720,17 +826,7 @@ End
 #O
 Vnum 6517
 Nest 1
-Name dweeb~
-ShD  a dweeb~
-Desc A dweeb sulks here in the corner.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 6517
-Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -739,6 +835,7 @@ End
 #O
 Vnum 8146
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1000
@@ -748,6 +845,7 @@ End
 #O
 Vnum 22044
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
@@ -756,6 +854,7 @@ End
 #O
 Vnum 22044
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
@@ -764,6 +863,7 @@ End
 #O
 Vnum 22044
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
@@ -772,6 +872,7 @@ End
 #O
 Vnum 22044
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
@@ -780,6 +881,7 @@ End
 #O
 Vnum 22044
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
@@ -788,6 +890,7 @@ End
 #O
 Vnum 22044
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
@@ -796,6 +899,7 @@ End
 #O
 Vnum 22044
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
@@ -804,54 +908,16 @@ End
 #O
 Vnum 22044
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 3007
-Nest 1
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-Cond 0
-Wear -1
-Cost 500000
 End
 
 #O
 Vnum 13
 Nest 1
+PrevOwner (null)~
 ShD  the heart of Dallas~
 Desc The torn-out heart of Dallas is lying here.~
 Ityp 13
@@ -863,6 +929,7 @@ End
 #O
 Vnum 16
 Nest 1
+PrevOwner (null)~
 ShD  the guts of Morgoth~
 Desc A steaming pile of Morgoth's entrails is lying here.~
 Cond 0
@@ -873,131 +940,31 @@ End
 #O
 Vnum 21
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 0
-End
-
-#O
-Vnum 11
-Nest 1
-ShD  the corpse of MoonWind~
-Desc The corpse of MoonWind is lying here.~
-Cond 0
-Wear -1
-Lev  57
 Cost 0
 End
 
 #O
 Vnum 105
 Nest 1
+PrevOwner (null)~
 Name Frostbreath breath potion~
 ShD  Frostbreath~
 Desc Frostbreath~
 Cond 0
 Wear -1
 Cost 160
-Val  6 146 32 -1 -1
+Val  6 226 57 -1 -1
 Spell 1 'frost breath'
 Spell 2 'cure blindness'
 End
 
 #O
-Vnum 12014
-Nest 1
-Name BB flail prize~
-ShD  BB flail prize~
-Desc BB flail prize~
-Cond 0
-Wear -1
-Cost 0
-Val  6 17 5 7 301
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
 Vnum 6517
 Nest 1
+PrevOwner (null)~
 Name wings nimthas~
 ShD  Nimthas's wings~
 Desc MeanieFaerie Nimthas has his wings plucked.  These are the results.~
@@ -1009,6 +976,7 @@ End
 #O
 Vnum 3135
 Nest 1
+PrevOwner (null)~
 Name butt cheeks Muggerud~
 ShD  imprints of Muggerud's butt cheeks~
 Desc Once again, after the rain, The shallow impression worn out in the road by Muggerud's ever-present butt cheeks fills with water.~
@@ -1021,6 +989,7 @@ End
 #O
 Vnum 769
 Nest 1
+PrevOwner (null)~
 Name prozac pill~
 ShD  Prozac~
 Desc A dose of Prozac is here.~
@@ -1033,6 +1002,7 @@ End
 #O
 Vnum 2602
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5800
@@ -1041,25 +1011,16 @@ End
 #O
 Vnum 6703
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 45000
 End
 
 #O
-Vnum 6517
-Nest 1
-Name MoonWind manhood~
-ShD  MoonWind's Manhood~
-Desc MoonWind's Manhood, cut off premeturley by HannaH!  I think ?he> might still need it...~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 8521
 Nest 1
+PrevOwner (null)~
 Name A Cigar~
 ShD  An It's a Boy Cigar~
 Desc A nice cigar to celebrate Connor Micheal Mraz's Birth~
@@ -1070,15 +1031,732 @@ Spell 3 'cure critical'
 End
 
 #O
+Vnum 6517
+Nest 1
+PrevOwner (null)~
+Name tell~
+ShD  a tell~
+Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner (null)~
+Name tell~
+ShD  a tell~
+Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 15
+Nest 1
+PrevOwner (null)~
+ShD  the leg of a Huge mutated dragon~
+Desc The sliced-off leg of a Huge mutated dragon is lying here.~
+Cond 0
+Wear -1
+Cost 0
+Val  20 20 20002 0 0
+End
+
+#O
+Vnum 20001
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 20003
+End
+
+#O
+Vnum 4911
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 4913
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 4910
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 769
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 10443
+Nest 1
+PrevOwner (null)~
+Name pill leveling~
+ShD  A leveling pill~
+Desc A leveling pill given to those who level.~
+ExtF 536870912
+Cond 0
+Wear -1
+Lev  1
+Cost 1520
+Val  54 20 156 109 -1
+Spell 3 'fumble'
+End
+
+#O
+Vnum 12014
+Nest 1
+PrevOwner (null)~
+Name BB flail prize~
+ShD  BB flail prize~
+Desc BB flail prize~
+Cond 0
+Wear -1
+Cost 0
+Val  6 17 5 7 301
+End
+
+#O
+Vnum 10443
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1520
+End
+
+#O
+Vnum 10001
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner (null)~
+Name moonwind enchant voucher~
+ShD  moonwind enchant voucher~
+Desc Enchant voucher, from Moonwind for a weapon that has a maximum +5 already~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner (null)~
+Name moonwind enchant voucher~
+ShD  moonwind enchant voucher~
+Desc Enchant voucher, from Moonwind for a weapon that has a maximum +5 already~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 16730
+Nest 1
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 10001
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 10001
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 10001
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 8134
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+Spell 3 'protection neutral'
+End
+
+#O
+Vnum 5735
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 14
+Val  25 25 0 1 0
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner (null)~
+Name moonwind enchant voucher~
+ShD  moonwind enchant voucher~
+Desc Enchant voucher, from Moonwind for a weapon that has a maximum +5 already~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 13006
+Nest 1
+PrevOwner Caffeine~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 727
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner Alexis~
+Name moonwind enchant voucher~
+ShD  moonwind enchant voucher~
+Desc Enchant voucher, from Moonwind for a weapon that has a maximum +5 already~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner (null)~
+Name tell~
+ShD  a tell~
+Desc A most-wanted tell.  Why you're asking for one, I don't know tho.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner (null)~
+Name restore~
+ShD  a restore~
+Desc A restore sits here.  What IS a restore?~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner Essay~
+Name moonwind voucher spellup trivia~
+ShD  Moonwind sanc/haste/giantstr voucher~
+Desc This is a Moonwind sanc/haste/giantstr voucher (trivia prize)~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner Patat~
+Name moonwind enchant voucher~
+ShD  moonwind enchant voucher~
+Desc Enchant voucher, from Moonwind for a weapon that has a maximum +5 already~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner Patat~
+Name moonwind voucher spellup trivia~
+ShD  Moonwind sanc/haste/giantstr voucher~
+Desc This is a Moonwind sanc/haste/giantstr voucher (trivia prize)~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Borb~
+Name dweeb~
+ShD  a dweeb~
+Desc This is a (probably) well-deserved dweeb for some nefarious transgression.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 647
+Enchanted
+Nest 1
+PrevOwner (null)~
+ExtF 1090
+Cond 0
+Wear -1
+Lev  33
+Cost 5700
+Val  1 4 6 1 1536
+Affc 'enchant weapon'   1  52  -1   7  19          0
+Affc 'enchant weapon'   1  52  -1   2  18          0
+End
+
+#O
+Vnum 1110
+Nest 1
+PrevOwner (null)~
+ShD  The {REgg{x of {RDoom{x!!!~
+Cond 0
+Wear -1
+Cost 2
+Val  12 12 0 1 0
+End
+
+#O
+Vnum 1110
+Nest 1
+PrevOwner (null)~
+ShD  The {REgg{x of {RDoom{x!!!~
+Cond 0
+Wear -1
+Cost 2
+Val  12 12 0 1 0
+End
+
+#O
+Vnum 18914
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner (null)~
+Name MoonWind manhood~
+ShD  MoonWind's Manhood~
+Desc MoonWind's Manhood, cut off premeturley by HannaH!  I think ?he? might still need it....~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner Xadrixna~
+Name moonwind voucher spellup trivia~
+ShD  Moonwind sanc/haste/giantstr voucher~
+Desc This is a Moonwind sanc/haste/giantstr voucher (trivia prize)~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 17
+Nest 1
+PrevOwner Nhi~
+ShD  the brains of Nhi~
+Desc The splattered brains of Nhi are lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
 Vnum 30057
-Nest 0
+Nest 1
+PrevOwner (null)~
 Name fisu~
 ShD  fisu~
 Desc Heita Mulle Fisu~
 Cond 0
-Wear 16
+Wear -1
 Cost 10000
 Val  2 30 25 35 287
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner (null)~
+Name moonwind diamond voucher~
+ShD  2 diamond voucher~
+Desc 2 diamond voucher~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner (null)~
+Name diamond voucher moonwind~
+ShD  1 diamond voucher~
+Desc 1 diamond voucher from MoonWind~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner (null)~
+Name platinum brick {Dwhitegold{x~
+ShD  (1000) a beautiful {dplatinum{x brick~
+Desc A beautiful brick of pure {Wplatinum{x lies here gleaming in the light.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Rex~
+Name bag beta Rex~
+ShD  a bag made from Rex's hide~
+Desc A bag of fine Rex hide catches your eye.  ~
+ExtF 16384
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  18
+Cost 2800
+Val  560 1 -1 90 25
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Darkwing~
+Name bag beta DarkWing~
+ShD  a bag made from DarkWing's hide~
+Desc A bag of fine DarkWing hide catches your eye.  ~
+ExtF 16384
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  25
+Cost 3750
+Val  750 1 -1 90 25
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Vorge~
+Name bag beta Vorge~
+ShD  a bag made from Vorge's hide~
+Desc A bag of fine Vorge hide catches your eye.  ~
+ExtF 16384
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  25
+Cost 3750
+Val  750 1 -1 90 25
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner (null)~
+Name bag beta Karag~
+ShD  a bag made from Karag's hide~
+Desc A bag of fine Karag hide catches your eye.  ~
+ExtF 0
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  19
+Cost 2850
+Val  570 1 -1 90 25
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner (null)~
+Name bag beta MoonWind~
+ShD  a bag made from MoonWind's hide~
+Desc A bag of fine MoonWind hide catches your eye.  ~
+ExtF 16384
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  19
+Cost 2900
+Val  580 1 -1 90 25
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Anazar~
+Name bag beta Anazar~
+ShD  a bag made from Anazar's hide~
+Desc A bag of fine Anazar hide catches your eye.  ~
+ExtF 67125248
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  17
+Cost 2600
+Val  520 1 -1 90 25
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner (null)~
+Name bag beta Nhi~
+ShD  a bag made from Nhi's hide~
+Desc A bag of fine Nhi hide catches your eye.  ~
+ExtF 67125248
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  19
+Cost 2950
+Val  590 1 -1 90 25
+End
+
+#O
+Vnum 10
+Nest 0
+PrevOwner (null)~
+ShD  the corpse of Kerbouchard~
+Desc The corpse of Kerbouchard is lying here.~
+Cond 0
+Wear -1
+Lev  2
+Cost 0
+Val  0 0 0 3713 0
+End
+
+#O
+Vnum 20006
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 9
+End
+
+#O
+Vnum 5
+Nest 0
+PrevOwner (null)~
+ShD  638 silver coins and 51 gold coins~
+Wt   41
+Cond 0
+Wear -1
+Cost 5738
+Val  638 51 0 0 0
+End
+
+#O
+Vnum 1001
+Nest 0
+PrevOwner Scribblin~
+Cond 0
+Wear 6
+Cost 0
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner (null)~
+Name corpse~
+ShD  a corpse~
+Desc A halfway decayed corpse of a cartographer.~
+ExtF 0
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  19
+Cost 2950
+Val  590 1 -1 90 25
+End
+
+#O
+Vnum 4154
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 8520
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 16
+Cost 30000
+End
+
+#O
+Vnum 8146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+Spell 3 'cure light'
+End
+
+#O
+Vnum 8146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+Spell 3 'cure light'
+End
+
+#O
+Vnum 8146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+Spell 3 'cure light'
+End
+
+#O
+Vnum 8146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+Spell 3 'cure light'
+End
+
+#O
+Vnum 8146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+Spell 3 'cure light'
 End
 
 #END

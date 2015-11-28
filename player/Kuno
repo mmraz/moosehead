@@ -3,7 +3,7 @@ Name Kuno~
 SurN McDugal~
 Id   866569551
 Email (null)~
-LogO 1122063881
+LogO 1310312498
 Vers 31
 LnD  A Gladiator~
 Desc Before you stand the Blue Thunder of MHS! He is very well built and looks
@@ -19,9 +19,9 @@ Prom <%R %z %y> ~
 Race volare~
 Outc 0
 RufT 0
-MatookT 2532
+MatookT 2534
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Hstm blue.wombat.com~
 Kill 0 0 0 0
@@ -37,6 +37,8 @@ LoginsWOKill 1
 LoginsWODeath 1
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
 Deity 16443621 mojo~
 DeityT -87600 matook~
 Sac  300
@@ -46,13 +48,14 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 1 0
+LastHost blue.wombat.com~
 Cla  7
 Kit necromancer~
 ClaO 2
-Levl 59
+Levl 52
 DLevl 0
-Plyd 26382740
-Not  1117399202 1117522808 1100917538 1117512247 1098850206 1117459562 1115073997 1117501565 1117405999 1100986389
+Plyd 26403766
+Not  1309539547 1309546476 1309539577 1309539545 1098850206 1309561678 1309561682 1309561684 1309545761 1308936986
 Scro 22
 Rank 5
 Room 16511
@@ -69,10 +72,9 @@ IcgB AEGHJNPQSTUVYZ
 Icg 2
 Wizn ACDEFIJLMNOPQRSTUVXab
 Pnet BCDEI
-Invi 52
 Pos  8
 Prac 95
-Trai 151
+Trai 180
 SkiP 2465
 Save  -52
 Alig  871
@@ -82,12 +84,12 @@ SecHit   5
 SecDam   9
 ACs -466 -466 -466 -446
 Wimp  20
-Attr 25 25 25 25 25 25 25 25
+Attr 25 25 25 25 25 10 11 25
 AMod 12 5 0 12 10 0 0 0
 Pass KuzgYB4Re62Nw~
 Bin  A streak of bright blue lightning shoots across the sky and strikes the ground before you. Out from the dust cloud steps a rather frazzled looking Blue Wombat. Kuno is definitely going to have a bad hair day if he keeps this up!~
 Bout As Kuno utters some incomprehensible words his outline becomes fuzzy and faint. Faster than you can say "Blue Wombat Charmie Army", a bolt of lightning arcs across the sky and Kuno disappears.~
-Titl  believes! Go Sox!~
+Titl  actually still exists.~
 Pnts 60
 WhoName {BWombat{x~
 TSex 1
@@ -109,30 +111,31 @@ Alias whios whois~
 Alias gwibble emote gwibbles contentedly.~
 Alias gotoluriahome goto 31220~
 Alias socket sockets~
-Macro timeout nochan %1;notell %1;noemote %1;noshout %1;nonote %1;set char %1 title .;notitle %1;trans %1 1212;~
-Macro buggeroff nochan %1; notell %1; string char %1 title .; notitle %1; noemote %1; trans %1 1212;~
-Macro makecracker cracker penguin; cracker seal; cracker kitty; cracker lemur; cracker gecko; cracker wombat; cracker giraffe; cracker duck; cracker rabbit; cracker fox; cracker camel; cracker snake; cracker chicken; cracker squirrel; cracker sheep~
-Macro cracker string obj coal short %1 animal cracker; string obj coal long A yummy-looking %1 animal cracker; string obj coal name %1 animal cracker~
-Macro shutup nochan %1; set char %1 title .; notitle %1; notell %1; trans %1 1212~
-Macro avarice trans %1 31702~
-Macro card string obj coal short a %1 of %2; string obj coal long A %1 of %2 playing card is here.;string obj coal name %1 %2 playing card~
-Macro init3 pmote binks %1 on the head.;say and Kuno, rise, %2 %1, newest %3 in the Blue Wombats Charming Army.~
-Macro wombat string obj coal short a BWCA badge reading, "%1 %2"; string obj coal long This badge shows %2's rank of %1 in the Blue Wombats Charming Army.; String obj coal name BWCA badge~
-Macro warlock trans %1 31902~
-Macro prize load obj 3377; at %1 give diamond %1~
-Macro dropit c 'teleport' kuno ; drop fur~
-Macro honor trans %1 31501~
-Macro demise trans %1 31403~
-Macro gift load obj 2917;at %1 say Light seeking light doth light beguile, the damndest of creatures are you not?; at %1 give dust %1~
-Macro posse trans %1 31600~
-Macro fur string obj coal short a patch of wombat fur #%1; string obj coal long This is a patch of blue wombat fur with the number %1 written on it.; string obj coal name fur wombat %1~
-Macro init1 pmote binks %1 on the left shoulder.; Say In the name of Saint Harry~
-Macro init2 pmote binks %1 on the right shoulder.; say and Saint Boogums, Saint Petal,~
-Macro brain c cryo brain;put brain cloak;give 25 gold %1~
-Macro zealot trans %1 31806~
-Macro matook trans %1 3001~
-Macro tile string obj coal short a letter "%1" tile; string obj coal long This letter "%1" scrabble tile is worth %2 points.; string obj coal name letter %1 scrabble tile; clone %3*tile; put all.tile bag ~
 Macro rerank guild kuno %2;rank %1 %3;guild kuno none;~
+Macro tile string obj coal short a letter "%1" tile; string obj coal long This letter "%1" scrabble tile is worth %2 points.; string obj coal name letter %1 scrabble tile; clone %3*tile; put all.tile bag ~
+Macro matook trans %1 3001~
+Macro zealot trans %1 31806~
+Macro brain c cryo brain;put brain cloak;give 25 gold %1~
+Macro init2 pmote binks %1 on the right shoulder.; say and Saint Boogums, Saint Petal,~
+Macro init1 pmote binks %1 on the left shoulder.; Say In the name of Saint Harry~
+Macro fur string obj coal short a patch of wombat fur #%1; string obj coal long This is a patch of blue wombat fur with the number %1 written on it.; string obj coal name fur wombat %1~
+Macro posse trans %1 31600~
+Macro gift load obj 2917;at %1 say Light seeking light doth light beguile, the damndest of creatures are you not?; at %1 give dust %1~
+Macro demise trans %1 31403~
+Macro honor trans %1 31501~
+Macro dropit c 'teleport' kuno ; drop fur~
+Macro prize load obj 3377; at %1 give diamond %1~
+Macro warlock trans %1 31902~
+Macro wombat string obj coal short a BWCA badge reading, "%1 %2"; string obj coal long This badge shows %2's rank of %1 in the Blue Wombats Charming Army.; String obj coal name BWCA badge~
+Macro init3 pmote binks %1 on the head.;say and Kuno, rise, %2 %1, newest %3 in the Blue Wombats Charming Army.~
+Macro card string obj coal short a %1 of %2; string obj coal long A %1 of %2 playing card is here.;string obj coal name %1 %2 playing card~
+Macro avarice trans %1 31702~
+Macro shutup nochan %1; set char %1 title .; notitle %1; notell %1; trans %1 1212~
+Macro cracker string obj coal short %1 animal cracker; string obj coal long A yummy-looking %1 animal cracker; string obj coal name %1 animal cracker~
+Macro makecracker cracker penguin; cracker seal; cracker kitty; cracker lemur; cracker gecko; cracker wombat; cracker giraffe; cracker duck; cracker rabbit; cracker fox; cracker camel; cracker snake; cracker chicken; cracker squirrel; cracker sheep~
+Macro buggeroff nochan %1; notell %1; string char %1 title .; notitle %1; noemote %1; trans %1 1212;~
+Macro timeout nochan %1;notell %1;noemote %1;noshout %1;nonote %1;set char %1 title .;notitle %1;trans %1 1212;~
+Macro gohome goto 16511~
 Sk 100 'reserved'
 Sk 100 'opiate'
 Sk 100 'accuracy'
@@ -853,18 +856,6 @@ Cost 300
 End
 
 #O
-Vnum 20801
-Nest 1
-PrevOwner (null)~
-Name black lace bodice velvet~
-ShD  a black lace-up bodice~
-Desc Here lies a black lace-up bodice of crushed velvet.~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
 Vnum 28018
 Nest 1
 PrevOwner (null)~
@@ -940,61 +931,12 @@ End
 Vnum 12004
 Nest 1
 PrevOwner (null)~
-Name long black skirt roses~
-ShD  a long {Dblack{x skirt with {Rscarlet{x roses~
-Desc A long black skirt lies here, patterned with scarlet roses.~
-ExtF 2049
-Cond 0
-Wear -1
-Cost 40
-End
-
-#O
-Vnum 12004
-Nest 1
-PrevOwner (null)~
 Name white stockings~
 ShD  a pair of white stockings~
 Desc A pair of sheer white stockings lay here, neatly folded.~
 Cond 0
 Wear -1
 Cost 40
-End
-
-#O
-Vnum 12004
-Nest 1
-PrevOwner (null)~
-Name black stocking~
-ShD  a pair of black stockings~
-Desc This pair of black stockings has a straight seam running up the back, very sexy.~
-Cond 0
-Wear -1
-Cost 40
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner (null)~
-Name black pumps~
-ShD  a pair of tall black pumps~
-Desc This pair of pumps will make you really tall!~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5922
-Nest 1
-PrevOwner (null)~
-Name black velvet choker~
-ShD  a black velvet choker~
-Desc A black velvet choker with a silver clasp in the back.~
-Cond 0
-Wear -1
-Cost 300
 End
 
 #O
@@ -1013,6 +955,54 @@ End
 Vnum 20801
 Nest 1
 PrevOwner (null)~
+Name sexy indigo corset~
+ShD  a sexy indigo corset~
+Desc A sexy indigo corset lies here, its long string trailing.~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 20801
+Nest 1
+PrevOwner (null)~
+Name simple white corset~
+ShD  a simple white corset~
+Desc This simple white corset is meant to be worn discreetly beneath one's clothes.~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 12004
+Nest 1
+PrevOwner (null)~
+Name red plaid skirt safety pins~
+ShD  a red plaid skirt with safety pins~
+Desc A red plaid skirt lies here, all ripped up. No worries, though-- it's put back together with safety pins!~
+Cond 0
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 12004
+Nest 1
+PrevOwner (null)~
+Name black stocking~
+ShD  a pair of black stockings~
+Desc This pair of black stockings has a straight seam running up the back, very sexy.~
+Cond 0
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 20801
+Nest 1
+PrevOwner (null)~
 Name vampy black dress shirt~
 ShD  a vampy black dress shirt~
 Desc This stretchy black dress shirt has extra-long sleeves.~
@@ -1022,15 +1012,15 @@ Cost 11000
 End
 
 #O
-Vnum 20801
+Vnum 12001
 Nest 1
 PrevOwner (null)~
-Name sexy indigo corset~
-ShD  a sexy indigo corset~
-Desc A sexy indigo corset lies here, its long string trailing.~
+Name mary jane black shoes~
+ShD  a pair of Mary Janes~
+Desc A pair of cute black shoes with a single strap sit here in a pair. ~
 Cond 0
 Wear -1
-Cost 10000
+Cost 0
 End
 
 #O
@@ -1123,11 +1113,11 @@ Cond 0
 Wear -1
 Lev  32
 Cost 3600
-Affc 'enchant armor'   1  51  -1  -5  17          0
-Affc 'reserved'   1  30  -1  -1  19          0
-Affc 'reserved'   1  30  -1  -1  18          0
-Affc 'reserved'   1  30  -1  30  12          0
 Affc 'reserved'   1  30  -1   1   3          0
+Affc 'reserved'   1  30  -1  30  12          0
+Affc 'reserved'   1  30  -1  -1  18          0
+Affc 'reserved'   1  30  -1  -1  19          0
+Affc 'enchant armor'   1  51  -1  -5  17          0
 End
 
 #O
@@ -1519,30 +1509,6 @@ Cost 6
 End
 
 #O
-Vnum 12001
-Nest 0
-PrevOwner (null)~
-Name mary jane black shoes~
-ShD  a pair of Mary Janes~
-Desc A pair of cute black shoes with a single strap sit here in a pair. ~
-Cond 0
-Wear 8
-Cost 0
-End
-
-#O
-Vnum 12004
-Nest 0
-PrevOwner (null)~
-Name red plaid skirt safety pins~
-ShD  a red plaid skirt with safety pins~
-Desc A red plaid skirt lies here, all ripped up. No worries, though-- it's put back together with safety pins!~
-Cond 0
-Wear 7
-Cost 40
-End
-
-#O
 Vnum 5922
 Nest 0
 PrevOwner (null)~
@@ -1550,20 +1516,69 @@ Name small diamond choker~
 ShD  a small diamond choker~
 Desc A small, but tasteful choker lies here, encrusted with diamonds.~
 Cond 0
-Wear 4
+Wear -1
 Cost 300
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner (null)~
+Name long black skirt roses~
+ShD  a long {Dblack{x skirt with {Rscarlet{x roses~
+Desc A long black skirt lies here, patterned with scarlet roses.~
+ExtF 2049
+Cond 0
+Wear 7
+Cost 40
 End
 
 #O
 Vnum 20801
 Nest 0
 PrevOwner (null)~
-Name simple white corset~
-ShD  a simple white corset~
-Desc This simple white corset is meant to be worn discreetly beneath one's clothes.~
+Name black lace bodice velvet~
+ShD  a black lace-up bodice~
+Desc Here lies a black lace-up bodice of crushed velvet.~
 Cond 0
 Wear 5
 Cost 10000
+End
+
+#O
+Vnum 12001
+Nest 0
+PrevOwner (null)~
+Name black pumps~
+ShD  a pair of tall black pumps~
+Desc This pair of pumps will make you really tall!~
+Cond 0
+Wear 8
+Cost 0
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner (null)~
+Name black velvet choker~
+ShD  a black velvet choker~
+Desc A black velvet choker with a silver clasp in the back.~
+Cond 0
+Wear 3
+Cost 300
+End
+
+#O
+Vnum 6517
+Nest 0
+PrevOwner Willy~
+Name restring certificate~
+ShD  a restring certificate~
+Desc This is a restring certificate, to be presented to an IMM, courtesy of your friendly neighbourhood mage, Kuno.~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

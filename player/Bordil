@@ -2,8 +2,8 @@
 Name Bordil~
 Id   857843313
 Email (null)~
-LogO 1120360699
-Vers 31
+LogO 1362011296
+Vers 33
 LnD  A Gladiator~
 Desc You see something special about him.
 ~
@@ -12,11 +12,12 @@ Race dragon~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 0
+SkPTimer 2
+SkPTracker 2
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -28,6 +29,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 161311 huitzilopochtli~
 DeityT -447 huitzilopochtli~
 Sac  300
@@ -37,66 +44,68 @@ Node 0
 Cap 0
 Created 973216043
 Glad 0 0 0 0 0 0
-LastHost 24.16.129.245~
+LastHost 66.183.25.161~
 Cla  14
 Kit myrmidon~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 899789
-Not  1120360697 1120360697 1120360697 1120360697 1120360697 1120360697 1120360697 1120360697 1120360697 1120360697
+Plyd 977718
+Not  1359140925 1359151200 1359140925 1359140925 1359140925 1359140925 1359140925 1359140925 1359140925 1359140925
 Scro 22
 Rank 0
 Room 16503
-HMV  1586 1586 412 412 396 396
-Gold 166
-Silv 5550
+HMV  1682 1696 414 444 128 396
+Gold 105
+Silv 284
 Exp  207166
-Act  DGOSd
+Act  DGOd
 MHSF R
-AfBy CDFJOT
+AfBy CJTa
 Comm O
-Disp BFJ
+Disp BFIJ
 IcgB 0
 Icg 0
 Pnet ABCEFGHI
 Pos  8
-SkiP 571
-Save  -9
+Prac 9
+StatsTrained 10 0 0
+SkiP 217
+Save  -5
 Alig  -1000
-Hit   32
-Dam   43
-SecHit   25
-SecDam   36
-ACs -40 -34 -40 4
-Attr 21 18 18 21 25 23 13 13
-AMod 5 0 1 3 0 2 0 0
-Pass BoKWeV1Qw3sAc~
+Hit   52
+Dam   60
+SecHit   55
+SecDam   61
+ACs 90 96 90 124
+Attr 25 25 18 21 25 11 14 13
+AMod 0 0 1 0 2 0 0 0
+Pass Bogb7xOpzkyuA~
 Titl .~
 Pnts 69
 TSex 1
 LLev 1
-HMVP 1586 401 361
-Cnd  0 32 46 36
+HMVP 1596 401 361
+Cnd  0 48 48 48
 Alias cc cast 'cure critical'~
-Alias 2 quaff off~
+Alias 2 dirt~
 Alias tel pray transport~
 Alias ch cast heal~
 Alias / cast word~
 Alias res rescue gbleh~
-Alias 1 glance priest~
-Alias 3 get cyan hole~
+Alias 1 hex~
+Alias 3 fear~
 Alias 4 quaff cyan~
 Alias whoclan who clan 35 51~
 Alias wholevel who nonclan 43 50~
 Spz 'sword'
 OldSk 1 'aid'
-Sk 83 'armor'
+Sk 85 'armor'
 OldSk 71 'armor'
 OldSk 1 'bestow holiness'
 OldSk 71 'bless'
 OldSk 1 'calm'
-Sk 94 'cancellation'
+Sk 97 'cancellation'
 OldSk 1 'cancellation'
 Sk 1 'dispel magic'
 OldSk 1 'dispel magic'
@@ -104,7 +113,7 @@ Sk 1 'endure cold'
 OldSk 1 'endure cold'
 Sk 1 'endure heat'
 OldSk 1 'endure heat'
-Sk 79 'famine'
+Sk 81 'famine'
 Sk 100 'feast'
 OldSk 1 'feast'
 Sk 44 'fireproof'
@@ -112,11 +121,11 @@ OldSk 1 'fireproof'
 Sk 45 'fly'
 OldSk 1 'fly'
 OldSk 1 'frenzy'
-Sk 90 'gate'
+Sk 95 'gate'
 OldSk 1 'gate'
-Sk 59 'giant strength'
+Sk 62 'giant strength'
 OldSk 1 'giant strength'
-Sk 96 'haste'
+Sk 99 'haste'
 OldSk 1 'haste'
 OldSk 1 'holy word'
 Sk 43 'infravision'
@@ -131,7 +140,7 @@ Sk 1 'portal'
 OldSk 1 'portal'
 Sk 55 'protection evil'
 OldSk 1 'protection evil'
-Sk 62 'protection good'
+Sk 63 'protection good'
 OldSk 1 'protection good'
 Sk 44 'protection neutral'
 OldSk 1 'protection neutral'
@@ -144,7 +153,7 @@ Sk 88 'sanctuary'
 OldSk 1 'sanctuary'
 Sk 58 'shield'
 OldSk 1 'shield'
-Sk 56 'stone skin'
+Sk 58 'stone skin'
 OldSk 1 'stone skin'
 Sk 84 'summon'
 OldSk 1 'summon'
@@ -170,10 +179,11 @@ Sk 100 'sword'
 OldSk 76 'sword'
 OldSk 1 'whip'
 OldSk 83 'bash'
-Sk 89 'berserk'
+Sk 94 'berserk'
 OldSk 1 'berserk'
-Sk 75 'breathe'
-Sk 85 'dirt kicking'
+Sk 77 'breathe'
+Sk 21 'cleave'
+Sk 90 'dirt kicking'
 OldSk 73 'dirt kicking'
 Sk 100 'disarm'
 OldSk 1 'disarm'
@@ -186,7 +196,7 @@ Sk 100 'hex'
 Sk 100 'enhanced critical'
 Sk 100 'enhanced damage'
 OldSk 80 'enhanced damage'
-Sk 92 'hand to hand'
+Sk 100 'hand to hand'
 Sk 100 'parry'
 OldSk 79 'parry'
 Sk 100 'rescue'
@@ -211,7 +221,7 @@ Sk 1 'staves'
 OldSk 1 'staves'
 Sk 1 'wands'
 OldSk 1 'wands'
-Sk 58 'swimming'
+Sk 61 'swimming'
 OldSk 50 'swimming'
 Sk 50 'recall'
 OldSk 50 'recall'
@@ -222,9 +232,9 @@ Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
 Gr 'mummy'
-Affc 'shield'   0  32   7 -20  17          0
-Affc 'giant strength'   0  34   0   4   1          0
-Affc 'protection good'   0  35   9  -1  24      16384
+Affc 'berserk'   0  49   1  10  18   67108864
+Affc 'berserk'   0  50   1  10  19   67108864
+Affc 'berserk'   0  51   1 100  17   67108864
 End
 
 #O
@@ -266,17 +276,8 @@ Wear 5
 Lev  50
 Cost 13700
 Val  12 12 12 8 5
-Affc 'enchant armor'   1  52  -1 -10  17          0
 Affc 'reserved'   1  45  -1   2  18          0
-End
-
-#O
-Vnum 12014
-Nest 0
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 0
+Affc 'enchant armor'   1  52  -1 -10  17          0
 End
 
 #O
@@ -295,42 +296,6 @@ PrevOwner Bordil~
 Cond 0
 Wear 2
 Cost 3000
-End
-
-#O
-Vnum 16721
-Nest 0
-PrevOwner Bordil~
-Cond 0
-Wear 4
-Cost 1400
-End
-
-#O
-Vnum 12014
-Nest 0
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 15202
-Nest 0
-PrevOwner Bordil~
-Cond 0
-Wear 6
-Cost 0
-End
-
-#O
-Vnum 16721
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 3
-Cost 1400
 End
 
 #O
@@ -388,33 +353,6 @@ Cost 100000
 End
 
 #O
-Vnum 22044
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 2408
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
 Vnum 10448
 Nest 1
 PrevOwner Bordil~
@@ -432,8 +370,8 @@ ExtF 67
 Cond 0
 Wear -1
 Cost 9500
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
 End
 
 #O
@@ -461,15 +399,6 @@ PrevOwner Bordil~
 Cond 0
 Wear -1
 Cost 1000
-End
-
-#O
-Vnum 17631
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 250
 End
 
 #O
@@ -503,19 +432,6 @@ Val  8 8 8 5 2
 End
 
 #O
-Vnum 5914
-Enchanted
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 4000
-Affc 'reserved'   1  47  -1  -2  20          0
-Affc 'reserved'   1  47  -1   2  18          0
-Affc 'reserved'   1  47  -1   2  19          0
-End
-
-#O
 Vnum 12010
 Nest 1
 PrevOwner Bordil~
@@ -534,15 +450,6 @@ Cost 0
 End
 
 #O
-Vnum 20819
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
 Vnum 9227
 Enchanted
 Nest 1
@@ -552,9 +459,9 @@ Cond 0
 Wear -1
 Lev  34
 Cost 1630
-Affc 'enchant weapon'   0  53  -1   6  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
 Affc 'reserved'   1  28  -1  -1   1          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   6  18          0
 End
 
 #O
@@ -623,8 +530,8 @@ Cond 0
 Wear -1
 Cost 4000
 Val  8 8 8 5 5
-Affc 'reserved'   1  37  -1   2  19          0
 Affc 'reserved'   1  37  -1   2   1          0
+Affc 'reserved'   1  37  -1   2  19          0
 End
 
 #O
@@ -700,39 +607,12 @@ Cost 6000
 End
 
 #O
-Vnum 10708
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
 Vnum 5212
 Nest 1
 PrevOwner Bordil~
 Cond 0
 Wear -1
 Cost 550
-End
-
-#O
-Vnum 1349
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 1349
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -763,15 +643,6 @@ Cost 0
 End
 
 #O
-Vnum 20802
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
 Vnum 10445
 Enchanted
 Nest 1
@@ -781,40 +652,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6400
-Affc 'enchant weapon'   0  53  -1   9  18          0
 Affc 'enchant weapon'   1  53  -1   9  19          0
-End
-
-#O
-Vnum 10427
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 11800
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 18106
-Enchanted
-Nest 1
-PrevOwner Bordil~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   1  53  -1  11  18          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
@@ -827,6 +666,207 @@ Cost 4000
 End
 
 #O
+Vnum 8517
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10711
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9231
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 250
+Spell 1 'invisibility'
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3700
+Enchanted
+Nest 1
+PrevOwner Bordil~
+ExtF 1048643
+Cond 0
+Wear -1
+Lev  4
+Cost 250
+Affc 'enchant weapon'   1  51  -1   5  18          0
+Affc 'enchant weapon'   1  51  -1   4  19          0
+End
+
+#O
+Vnum 20802
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 10710
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 2408
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 1
+PrevOwner Bordil~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   1  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 10708
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 20819
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 17631
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 2602
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 5800
+End
+
+#O
+Vnum 11078
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 3500
+End
+
+#O
+Vnum 5939
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 4000
+Val  1 5 8 3 68
+End
+
+#O
+Vnum 1349
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 1349
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 20813
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
 Vnum 20740
 Nest 0
 PrevOwner Bordil~
@@ -836,36 +876,13 @@ Cost 4500
 End
 
 #O
-Vnum 12014
-Enchanted
-Nest 0
-PrevOwner Bordil~
-ExtF 451
-Cond 0
-Wear -1
-Cost 0
-Val  6 2 20 7 293
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
 Vnum 15227
 Nest 0
 PrevOwner Bordil~
 Cond 0
-Wear -1
+Wear 12
 Cost 20000
 Val  -1 -1 -1 -1 -1
-End
-
-#O
-Vnum 11078
-Nest 0
-PrevOwner Bordil~
-Cond 0
-Wear -1
-Cost 3500
 End
 
 #O
@@ -896,39 +913,99 @@ Cost 3400
 End
 
 #O
-Vnum 12060
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5234
-End
-
-#O
-Vnum 12060
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5234
-End
-
-#O
 Vnum 22504
 Nest 0
-PrevOwner Gurt~
+PrevOwner Bordil~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 15202
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 6
+Cost 0
+End
+
+#O
+Vnum 23514
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 3690
+End
+
+#O
+Vnum 23514
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear 4
+Cost 3690
+End
+
+#O
+Vnum 23577
+Nest 0
+PrevOwner Private~
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 12060
+Vnum 28018
 Nest 0
-PrevOwner (null)~
+PrevOwner Bordil~
 Cond 0
 Wear -1
-Cost 5234
+Cost 0
+End
+
+#O
+Vnum 16721
+Nest 0
+PrevOwner Bordil~
+Cond 0
+Wear 3
+Cost 1400
+End
+
+#O
+Vnum 10701
+Nest 0
+PrevOwner Smax~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner Bordil~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 22506
+Enchanted
+Nest 0
+PrevOwner Bordil~
+ExtF 536870979
+Cond 0
+Wear -1
+Lev  50
+Cost 1200
+Val  1 10 4 38 4
+Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
 End
 
 #O
@@ -946,101 +1023,17 @@ Vnum 20813
 Nest 0
 PrevOwner Bordil~
 Cond 0
-Wear 1
+Wear -1
 Cost 4000
 End
 
 #O
-Vnum 28018
-Nest 0
-PrevOwner Bordil~
-Cond 0
-Wear 12
-Cost 0
-End
-
-#O
-Vnum 8517
+Vnum 20813
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10710
-Nest 0
-PrevOwner Bordil~
-Cond 0
-Wear 19
-Cost 2000
-End
-
-#O
-Vnum 22506
-Enchanted
-Nest 0
-PrevOwner Bordil~
-ExtF 536870979
-Stolen 8
-Cond 0
-Wear 16
-Lev  50
-Cost 1200
-Val  1 10 4 38 4
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'enchant weapon'   0  53  -1   7  18          0
-End
-
-#O
-Vnum 10711
-Nest 0
-PrevOwner Gurt~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3700
-Enchanted
-Nest 0
-PrevOwner Gurt~
-ExtF 1048643
-Cond 0
-Wear -1
-Lev  4
-Cost 250
-Affc 'enchant weapon'   1  51  -1   5  18          0
-Affc 'enchant weapon'   1  51  -1   4  19          0
-End
-
-#O
-Vnum 12060
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5234
-End
-
-#O
-Vnum 8517
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8517
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
+Wear 1
+Cost 4000
 End
 
 #O
@@ -1053,12 +1046,41 @@ Cost 5000
 End
 
 #O
-Vnum 12060
+Vnum 2410
+Enchanted
 Nest 0
-PrevOwner Gurt~
+PrevOwner Bordil~
+ExtF 67
+Cond 0
+Wear 19
+Lev  50
+Cost 1810
+Val  1 6 7 1 6
+Affc 'enchant weapon'   0  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 5939
+Enchanted
+Nest 0
+PrevOwner Bordil~
+ExtF 323
+Cond 0
+Wear 16
+Cost 4000
+Val  1 5 8 3 68
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 10427
+Nest 0
+PrevOwner Bordil~
 Cond 0
 Wear -1
-Cost 5234
+Cost 11800
 End
 
 #END

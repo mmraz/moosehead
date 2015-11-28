@@ -2,8 +2,8 @@
 Name Erian~
 Id   973398454
 Email (null)~
-LogO 1130008025
-Vers 31
+LogO 1360710278
+Vers 33
 LnD  A Gladiator~
 Prom <%h/%Hhp %mm %vmv %wLbs %Spts>  ~
 Race elf~
@@ -12,73 +12,78 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 1 41 0 16
 Steal 0 0 0
+MSteal 0
 LstK Khaine~
 LstKBy Aragorn~
 LstAtkedBy TheRock~
-LstAtkedByTimer 3854
-LstCombatDate 1126556409
+LstAtkedByTimer 3181
+LstCombatDate 1310967495
 LstKillDate 1126554938
 LstDeathDate 1086591694
-LoginsWOKill 89
-LoginsWODeath 138
-LoginsWOCombat 88
+LoginsWOKill 98
+LoginsWODeath 147
+LoginsWOCombat 6
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 2569647 paladine~
 DeityT -5751 paladine~
 Sac  300
-Sex  0
+Sex  1
 Vump  4
 Node 0
 Cap 0
 Created 973398460
 Glad 0 4 1 8 1 3
-LastHost 24.16.129.245~
+LastHost 66.183.25.161~
 Cla  14
 Kit bladesinger~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 3049465
-Not  1126328533 1128463381 1126157640 1129145608 1126157640 1129940860 1126157640 1126777774 1126157640 1129478192
+Plyd 3077245
+Not  1360371029 1360680456 1360369949 1360369949 1360369949 1360369949 1360369949 1360369949 1360369949 1360369949
 Scro 22
 Rank 3
-Room 31520
-HMV  1366 1366 416 416 478 478
-Gold 8
-Silv 33
+Room 31501
+HMV  1496 1496 321 416 456 478
+Gold 196
+Silv 3201
 Exp  489655
-Act  DGHJMQSUa
+Act  DEGHJMQSUa
 MHSF RSX
-AfBy CDFJQT
+AfBy CDFHJLPT
 Comm 0
-Disp BFJLMN
+Disp BFIJLMN
 IcgB 0
 Icg 0
 Pnet ABCEFGHI
 Pos  8
 Prac 130
-Trai 2
-SkiP 549
-Save  -8
-Alig  350
-Hit   25
-Dam   46
-SecHit   15
-SecDam   36
-ACs 29 29 29 51
-Attr 19 20 18 21 16 21 13 13
-AMod 4 3 4 3 2 4 0 0
-Pass ErDPscSREL3qY~
-Titl .  The unseen blade is the deadliest.~
+StatsTrained 130 0 0
+SkiP 647
+Save  -5
+Alig  199
+Hit   21
+Dam   50
+SecHit   24
+SecDam   48
+ACs 20 19 20 48
+Attr 19 20 18 21 16 11 12 13
+AMod 6 4 2 1 2 0 0 0
+Pass ErDnJEcG8vDxQ~
+Titl .  Hear the song of the blades.~
 Pnts 100
 TSex 1
 LLev 1
-HMVP 1291 418 478
-Cnd  0 0 5 5
+HMVP 1421 418 478
+Cnd  0 0 17 17
 Alias / cast word~
 Alias whoclan who clan 35 51~
 Alias res rescue angelio~
@@ -91,7 +96,7 @@ Alias 3 disarm~
 Alias 4 get all~
 Alias cc cast 'cure critical'~
 Alias ch cast heal~
-Alias 1 enemy korn~
+Alias 1 c 'cure disease'~
 Alias 0 bash split~
 Alias hit murder~
 Spz 'dagger'
@@ -103,7 +108,7 @@ Sk 1 'calm'
 Sk 100 'cancellation'
 Sk 89 'cure blindness'
 Sk 81 'cure critical'
-Sk 79 'cure disease'
+Sk 87 'cure disease'
 Sk 1 'cure light'
 Sk 89 'cure poison'
 Sk 1 'cure serious'
@@ -149,11 +154,11 @@ Sk 100 'word of recall'
 Sk 100 'axe'
 Sk 100 'dagger'
 Sk 96 'flail'
-Sk 97 'mace'
+Sk 100 'mace'
 Sk 86 'polearm'
-Sk 77 'spear'
+Sk 87 'spear'
 Sk 100 'sword'
-Sk 92 'whip'
+Sk 100 'whip'
 Sk 74 'bash'
 Sk 100 'berserk'
 Sk 100 'bite'
@@ -173,11 +178,11 @@ Sk 100 'trip'
 Sk 100 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
-Sk 62 'fast healing'
+Sk 72 'fast healing'
 Sk 100 'hide'
 Sk 100 'riding'
 Sk 100 'sneak'
-Sk 86 'scrolls'
+Sk 89 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
 Sk 74 'swimming'
@@ -193,6 +198,9 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
+Affc 'sanctuary'   0  41   6   0   0        128
+Affc 'sneak'   0  51  51   0   0      32768
+Affc 'morph'   0  51   4   0   0       2048
 End
 
 #O
@@ -214,35 +222,12 @@ Cost 3000
 End
 
 #O
-Vnum 9203
-Enchanted
-Nest 1
-PrevOwner Erian~
-ExtF 67
-Cond 0
-Wear -1
-Lev  37
-Cost 2800
-Affc 'enchant weapon'   1  52  -1  13  19          0
-Affc 'enchant weapon'   0  52  -1   9  18          0
-End
-
-#O
 Vnum 5231
 Nest 1
 PrevOwner Erian~
 Cond 0
 Wear -1
 Cost 550
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Erian~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -264,12 +249,49 @@ Cost 6900
 End
 
 #O
-Vnum 1963
+Vnum 8531
 Nest 1
 PrevOwner Erian~
 Cond 0
 Wear -1
-Cost 1832
+Cost 600
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Erian~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10726
+Nest 1
+PrevOwner Erian~
+Cond 0
+Wear -1
+Cost 2500
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Erian~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 20731
+Nest 1
+PrevOwner Erian~
+ExtF 2
+Cond 0
+Wear -1
+Cost 6200
 End
 
 #O
@@ -280,6 +302,90 @@ Cond 0
 Wear -1
 Cost 890
 Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 1
+PrevOwner Erian~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 9203
+Enchanted
+Nest 1
+PrevOwner Erian~
+ExtF 67
+Cond 0
+Wear -1
+Lev  37
+Cost 2800
+Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
+End
+
+#O
+Vnum 10710
+Nest 1
+PrevOwner Erian~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 4826
+Enchanted
+Nest 1
+PrevOwner Erian~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1150
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 3298
+Nest 1
+PrevOwner Erian~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 906
+Nest 1
+PrevOwner Erian~
+Cond 0
+Wear -1
+Cost 5700
+End
+
+#O
+Vnum 15227
+Nest 1
+PrevOwner Erian~
+Cond 0
+Wear -1
+Cost 20000
+End
+
+#O
+Vnum 15234
+Nest 1
+PrevOwner Erian~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'haste'
 End
 
 #O
@@ -332,31 +438,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 2400
-Affc 'enchant weapon'   1  51  -1  14  19          0
 Affc 'enchant weapon'   0  51  -1  14  18          0
-End
-
-#O
-Vnum 4813
-Nest 1
-PrevOwner Erian~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 23503
-Enchanted
-Nest 1
-PrevOwner Erian~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 200
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  51  -1  14  19          0
 End
 
 #O
@@ -369,37 +452,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 5400
+Affc 'enchant weapon'   0  51  -1  11  18          0
+Affc 'enchant weapon'   1  51  -1  11  19          0
 Affc 'reserved'   1  46  -1  25  12          0
-Affc 'enchant weapon'   1  51  -1  11  19          0
-Affc 'enchant weapon'   0  51  -1  11  18          0
-End
-
-#O
-Vnum 6410
-Enchanted
-Nest 1
-PrevOwner Erian~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 2150
-Affc 'enchant weapon'   1  51  -1  11  19          0
-Affc 'enchant weapon'   0  51  -1  11  18          0
-End
-
-#O
-Vnum 23504
-Enchanted
-Nest 1
-PrevOwner Erian~
-ExtF 537395523
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   1  51  -1  11  19          0
-Affc 'enchant weapon'   0  51  -1  11  18          0
 End
 
 #O
@@ -506,17 +561,8 @@ Vnum 8546
 Nest 0
 PrevOwner Erian~
 Cond 0
-Wear 1
+Wear 2
 Cost 10300
-End
-
-#O
-Vnum 10726
-Nest 0
-PrevOwner Erian~
-Cond 0
-Wear 17
-Cost 2500
 End
 
 #O
@@ -529,18 +575,9 @@ Cond 0
 Wear -1
 Cost 5000
 Val  2 5 8 11 10
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  52  -1  12  18          0
 Affc 'enchant weapon'   1  52  -1  10  19          0
-End
-
-#O
-Vnum 8531
-Nest 0
-PrevOwner Erian~
-Cond 0
-Wear 13
-Cost 600
+Affc 'enchant weapon'   1  52  -1  12  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
@@ -562,35 +599,97 @@ Cost 1400
 End
 
 #O
-Vnum 4826
-Enchanted
-Nest 0
-PrevOwner Erian~
-ExtF 67
-Cond 0
-Wear 16
-Lev  50
-Cost 1150
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 10710
-Nest 0
-PrevOwner Erian~
-Cond 0
-Wear 19
-Cost 2000
-End
-
-#O
 Vnum 911
 Nest 0
 PrevOwner Erian~
 Cond 0
-Wear 2
+Wear 1
 Cost 6900
+End
+
+#O
+Vnum 4813
+Nest 0
+PrevOwner Erian~
+Cond 0
+Wear 13
+Cost 6500
+End
+
+#O
+Vnum 1963
+Nest 0
+PrevOwner Erian~
+Cond 0
+Wear 17
+Cost 1832
+End
+
+#O
+Vnum 901
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5400
+End
+
+#O
+Vnum 12001
+Nest 0
+PrevOwner Erian~
+Link Erian
+ExtF 151666688
+Wt   91
+Cond 0
+Wear -1
+Cost 0
+Val  9 9 9 5 6
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 0
+PrevOwner Erian~
+Link Erian
+ExtF 537395523
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   0  51  -1  11  18          0
+Affc 'enchant weapon'   1  51  -1  11  19          0
+End
+
+#O
+Vnum 23503
+Enchanted
+Nest 0
+PrevOwner Erian~
+Link Erian
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 200
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 6410
+Enchanted
+Nest 0
+PrevOwner Erian~
+Link Erian
+ExtF 67
+Cond 0
+Wear 19
+Lev  50
+Cost 2150
+Affc 'enchant weapon'   0  51  -1  11  18          0
+Affc 'enchant weapon'   1  51  -1  11  19          0
 End
 
 #O
@@ -598,13 +697,14 @@ Vnum 18119
 Enchanted
 Nest 0
 PrevOwner Erian~
+Link Erian
 ExtF 227
 Cond 0
-Wear -1
+Wear 16
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   1  52  -1  13  19          0
 Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
 End
 
 #END

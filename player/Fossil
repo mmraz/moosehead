@@ -2,67 +2,83 @@
 Name Fossil~
 Id   977008752
 Email (null)~
-LogO 977010745
-Vers 27
+LogO 1321882412
+Vers 33
 Prom %h/%Hh %m/%Mm %vv (%Xx) %g.%s %e %c~
 Race goblin~
 Outc 0
 RufT 0
-MatookT 0
+MatookT 1
 SkPTimer 0
-SkPTracker 5
+SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1307539191
+LstKillDate 1307539191
+LstDeathDate 1307539191
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 46
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
-Sac  161
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 977008772
 Glad 0 0 0 0 0 0
-LastHost nh-merrimack2a-252.bur.adelphia.net 757646~
+LastHost 76.237.92.68~
 Cla  14
 ClaO 3
-Levl 3
+Levl 5
 DLevl 0
-Plyd 1731
-Not  977009179 977009017 977009017 977009017 977009017 977009017 977009017 977009017 977009017
-Scro 22
+Plyd 5916
+Not  1321882370 1321882370 1321882370 1321882370 1321882370 1321882370 1321882370 1321882370 1321882370 1321882370
+Scro 78
 Rank 0
-Room 3054
-HMV  61 61 106 106 46 106
-Gold 31
-Silv 474
-Exp  24975
+Room 3757
+HMV  115 115 122 122 128 128
+Gold 113
+Silv 732
+Exp  48612
 Act  CDEFGHQ
+MHSF R
 AfBy J
 Comm DGIR
 Disp FIJ
 IcgB 0
 Icg 0
-Pos  4
-Prac 10
-SkiP 5
-Save  -4
+Pos  8
+Prac 16
+StatsTrained 30 0 0
+SkiP 13
+Save  -9
 Alig  1000
-Hit   4
-SecHit   3
-ACs 68 66 66 79
-Attr 16 13 16 14 17
-AMod 4 2 2 2 2
-Pass FofyT33bzIz0w~
+Hit   18
+Dam   9
+SecHit   16
+SecDam   8
+ACs 103 104 103 117
+Attr 18 18 18 18 17 11 11 13
+AMod 4 0 1 1 1 0 0 0
+Pass FoPPVSd9YmYp6~
 Titl .~
 Pnts 87
 TSex 1
-LLev 0
-HMVP 47 106 106
-Cnd  0 14 36 41
+LLev 1
+HMVP 110 117 128
+Cnd  0 10 39 39
 Sk 1 'armor'
 Sk 1 'cancellation'
 Sk 1 'dispel magic'
@@ -85,7 +101,7 @@ Sk 1 'stone skin'
 Sk 1 'summon'
 Sk 1 'teleport'
 Sk 1 'word of recall'
-Sk 80 'axe'
+Sk 83 'axe'
 Sk 1 'dagger'
 Sk 1 'flail'
 Sk 1 'mace'
@@ -116,9 +132,13 @@ Gr 'blademaster default'
 Gr 'weaponsmaster'
 Gr 'protective'
 Gr 'transportation'
-Affc 'armor'   0  41  12 -20  17          0
-Affc 'bless'   0  27   9  -3  24          0
-Affc 'bless'   0  20   9   3  18          0
+Affc 'giant strength'   0   0  12   4   1          0
+Affc 'bless'   0  30  37   8  18          0
+Affc 'bless'   0  24  37  -8  24          0
+Affc 'frenzy'   0   0   2   8  18          0
+Affc 'frenzy'   0   2   2   8  19          0
+Affc 'frenzy'   0   2   2  40  17          0
+Affc 'armor'   0  42  31 -20  17          0
 End
 
 #O
@@ -128,16 +148,21 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 169 0 0
+Val  0 0 72 0 0
 End
 
 #O
 Vnum 3719
+Enchanted
 Nest 0
 PrevOwner (null)~
+ExtF 1048640
 Cond 0
 Wear 16
+Lev  2
 Cost 350
+Affc 'enchant weapon'   1   5  -1   2  18          0
+Affc 'enchant weapon'   1   5  -1   1  19          0
 End
 
 #O
@@ -147,70 +172,6 @@ PrevOwner (null)~
 Cond 0
 Wear 11
 Cost 0
-End
-
-#O
-Vnum 2445
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 2444
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 3726
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 12
-Cost 0
-Val  100 1 0 10 85
-End
-
-#O
-Vnum 3715
-Nest 1
-PrevOwner Fossil~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 3715
-Nest 1
-PrevOwner Fossil~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 3713
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 14
-Cost 48
-End
-
-#O
-Vnum 3708
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 8
-Cost 72
 End
 
 #O
@@ -232,33 +193,6 @@ Cost 72
 End
 
 #O
-Vnum 3713
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 15
-Cost 48
-End
-
-#O
-Vnum 3710
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 10
-Cost 72
-End
-
-#O
-Vnum 3709
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 9
-Cost 72
-End
-
-#O
 Vnum 3715
 Nest 0
 PrevOwner (null)~
@@ -268,164 +202,11 @@ Cost 1140
 End
 
 #O
-Vnum 4438
-Nest 0
-PrevOwner Itwas~
-Cond 0
-Wear 5
-Cost 0
-End
-
-#O
-Vnum 4440
-Nest 0
-PrevOwner Itwas~
-Cond 0
-Wear 13
-Cost 0
-End
-
-#O
-Vnum 4439
-Nest 0
-PrevOwner Itwas~
-Cond 0
-Wear 18
-Cost 0
-End
-
-#O
-Vnum 20419
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20419
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20419
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20419
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20419
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20419
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20419
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20403
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20419
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20419
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20419
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20419
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20404
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 3
-Cost 110
-End
-
-#O
-Vnum 20410
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
 Vnum 20409
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 9
 Cost 250
 End
 
@@ -434,35 +215,17 @@ Vnum 20408
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 8
 Cost 180
 End
 
 #O
-Vnum 20407
+Vnum 8130
 Nest 0
-PrevOwner (null)~
+PrevOwner Private~
 Cond 0
-Wear -1
-Cost 160
-End
-
-#O
-Vnum 20404
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 4
-Cost 110
-End
-
-#O
-Vnum 6601
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 1
-Cost 620
+Wear 10
+Cost 350
 End
 
 #END

@@ -1,0 +1,4555 @@
+#AREA
+../newareas/newbie_w.are~
+Warrior School~
+01-35   Syn     Warrior School~
+13750 13885
+
+#MOBILES
+#13750
+friendly warrior~
+a friendly warrior~
+A friendly warrior stands here, casually leaning on his sword.
+~
+This man does not appear to be one to mess with.  Bulging muscles flex easily
+on his arms, and he is clearly skilled in his craft. Luckily, he appears to be
+in good spirits, so you shouldn't have to worry.
+~
+human~
+(null)~
+~
+(null)~
+ABJT 0 0 0
+15 10 50d10+4500 0d0+0 5d5+5 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#13751
+gruff shopkeeper~
+a gruff shopkeeper~
+A gruff shopkeeper stands here looking impatient and annoyed.
+~
+The shopkeeper is a short man who appears to have overcompensated for his lack
+of height by developing muscles far too large for his frame.  Barely able to
+place his arms by his side, or place his feet together, he totters slightly
+and occasionally appears as though he might topple into the merchandise on the
+walls.  He notices you and blows one of the last hairs on his head out of his
+sweaty face.  His tiny hands flail wildly on his robust arms as he grumbles at
+you, "Come on, come on then.  Whattya want?"
+ 
+~
+human~
+~
+(null)~
+(null)~
+ABPT 0 0 0
+51 1 10d10+10 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand male 0
+0 0 large 0
+F for H
+F par GHIJK
+#13752
+calm warrior~
+a calm warrior~
+A calm warrior stands here, looking quite zen.
+~
+This warrior appears to have seen some serious battles, but his scars are oddly
+offset by a very calm demeanor.  He is quite tall, and looms quite large, but
+is dressed in soft, white clothing, with a demeanor more like a healer than
+a warrior.  He nods slowly, "I know, it looks strange.  Please, come in and
+tell me what you wish to practice, I can help."
+~
+human~
+(null)~
+(null)~
+(null)~
+ABKTb 0 0 0
+51 1 50d50+50 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#13753
+confident gladiator~
+a confident gladiator~
+A confident gladiator waves to the crowd, calm before his fight.
+~
+This warrior seems to be pretty sure about his chances, easily and calmly
+walking around the arena, waving to the ladies and winking at the children
+in the grandstands. He swings his sword in an exaggerated arc, much to the
+pleasure of the children watching and dreaming of a day when they will be
+big, strong gladiators, too.
+~
+human~
+(null)~
+(null)~
+(null)~
+AGT HVa 1000 0
+25 0 5d10+550 10d10+100 2d10+7 slice
+-7 -7 -7 -1
+CDFJKN M 0 0
+stand stand male 150
+b 0 large 0
+F par GHIJK
+#13754
+hellhound hell hound~
+a grotesque hellhound~
+A grotesque hellhound stares you down like he can already taste you.
+~
+You can smell him before you see him - an odor combining sulfur and decay,
+blood and ashes. A large mass of pitch black fur huddles in the corner,
+shivering in his rage. His fur is darkened by large swaths of drying blood,
+left here by warriors that have come before you. He snarls, a full set of
+sharp, yellowed teeth bared at you. His eyes peel open, flames dancing
+behind them, as he sees you and marks you as his prey.
+~
+dog~
+(null)~
+(null)~
+(null)~
+AB Va -500 0
+25 0 5d10+550 14d9+100 2d12+8 bite
+0 0 0 0
+CDEFKU AH 0 0
+stand stand male 100
+HM BGI medium 0
+F for G
+F par UV
+#13755
+concession stand~
+a concession stand~
+A concession stand is here full of snacks for sale.
+~
+The smell of popcorn and cider fills the air around the concession stand. Mobs
+of spectators hurry to grab a snack before the show begins.
+~
+human~
+(null)~
+(null)~
+(null)~
+AT 0 0 0
+55 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#13756
+half-dead warrior~
+a half-dead warrior~
+A half-dead warrior lies in a heap here, moaning and wailing.
+~
+Oh, what a sad sight this is.  This warrior will not live to see another day or
+to ever feel warm sunlight streaming across his skin.  Alas, the battle has done
+him in.  He is torn nearly to shreds and are those...those are guts.  Yes, his
+guts are on the outside, leaking from a deep slice across his abdomen.  He looks
+at you with pleading eyes, yelling, "Please!  For the love of the Gods, help me!"
+ 
+Of course, you could always be a good person and put him out of his misery.  A
+few quick slices of your blade is all it will take.
+~
+human~
+~
+(null)~
+(null)~
+ABC 0 0 0
+4 0 2d7+46 2d9+100 1d5+1 none
+6 6 6 9
+EFNU 0 0 0
+sit sit none 15
+0 0 medium 0
+#13757
+spider web~
+a sticky spider web~
+A sticky spider web attacks your face!
+~
+A stick spider web leaps out and smothers your face!
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABFT 0 0 0
+3 2 2d6+35 0d0+0 1d6+0 slice
+0 0 0 0
+EFHKNU 0 0 0
+stand stand none 0
+S 0 small 0
+#13758
+worms~
+a nasty mess of worms~
+A nasty mess of worms feasts on a cold corpse.
+~
+A large pile of worms writhes about and slurps on a corpse.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AGU 0 0 0
+2 0 1d1+0 1d1+99 1d1+0 digestion
+10 10 10 10
+0 0 0 0
+stand stand none 0
+AGQc F tiny 0
+#13759
+hissing snake~
+a hissing snake~
+A large red snake is coiled here, hissing at you threateningly.
+~
+A large red snake glares menacingly at you, it's forked tongue wisping in and
+out of its mouth.  It hisses and lunges towards you.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AG T 0 0
+9 0 2d6+110 4d9+100 1d8+2 bite
+2 2 2 8
+EFNU 0 0 0
+stand stand none 0
+AHV F medium 0
+#13760
+dutchess tolk~
+the Dutchess of Druidia~
+The Dutchess of Druidia lounges here, sipping wine.
+~
+The Dutchess of Druidia is a fine looking lady - prim and proper, to be sure.
+She sits delicately in her chair, chastely sipping red wine. Occasionally, she
+steals a glance around her, her loving but secretive gaze falling often on the
+handsome man sitting next to her.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT DFHV -500 0
+30 0 6d12+800 6d12+85 4d6+8 beating
+-9 -9 -9 -9
+FHIKU 0 JP 0
+sit sit female 5000
+GW PT medium 0
+F for MV
+F par BCGHIJK
+#13761
+stench death decay~
+the stench of death and decay~
+The stench of death and decay hangs heavy in the air.
+~
+The stench in the air is palpable. Many, many corpses in various stages of decay
+are scattered from wall to wall, floor to ceiling, piled up as though merely
+an afterthought. You can almost see the waves of nauseating odor rising from
+the bodies and piles of misplaced guts and appendages. You have to fight your
+way through it as your eyes water and bile rises up in your throat.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AFGH D -700 0
+6 0 2d7+71 3d9+100 1d7+1 sting
+4 4 4 9
+EFNR 0 0 C
+stand stand male 0
+0 0 giant 0
+#13762
+female warrior~
+a female warrior~
+A female warrior stands here, disarmed.
+~
+A young, female warrior stands here, looking around as though in a daze.  Her
+arms are outstretched as her eyes frantically scan the area looking for her
+lost weapon.  Should you act on it?
+~
+human~
+(null)~
+(null)~
+(null)~
+AB D 900 0
+15 0 2d10+190 7d9+100 1d12+3 punch
+-1 -1 -1 8
+EFIN L Q 0
+stand stand male 0
+0 0 small 0
+#13763
+cleric~
+a lost cleric~
+A cleric stands here, looking utterly lost.
+~
+The old man spots you and immediately starts over towards you.  He is dressed in
+fine, silken robes of ivory and gold, a heavy looking book tucked under one arm.
+His forehead wrinkles in confusion and he speaks to you quietly, as though he
+doesn't wish to be seen or heard, "Where am I?  I must have taken a wrong turn
+and I definitely don't think this is the Temple of Serenity."  He tsks as he
+looks around warily, "No, no, this is definitely not the right place.  Would
+you be so kind as to escort me to safety?"
+ 
+Well, would you?
+~
+human~
+(null)~
+(null)~
+(null)~
+AH J -450 0
+15 0 3d9+208 0d9+100 1d6+1 blast
+9 9 9 10
+EFNRU A Q HJP
+stand stand male 0
+O 0 small 0
+F par BDEGHIK
+#13764
+training dummy~
+a training dummy~
+A dirty, beaten up training dummy is fixed to a post here.
+~
+A large canvas sack filled with sand is fixed to a post to serve as a training
+dummy.  It looks like it probably only has one good fight left in it.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABG DF 950 0
+20 4 3d9+333 3d9+28 2d7+1 thrust
+-3 -3 -3 -3
+CFNU 0 M G
+stand stand female 0
+H 0 large 0
+#13765
+slave~
+a sad little slave~
+A slave scuttles about, moving corpses into piles.
+~
+This slave is busy at work and has no time to notice your presence.  He hurries
+this way and that, grabbing at heavy corpses and throwing them into piles, loud
+swarms of flies taking flight each time a new body lands on the pile.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABG DFH 2 0
+12 0 2d10+150 6d9+100 1d10+3 slice
+0 0 0 8
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#13766
+man ticket~
+a man selling tickets~
+A man selling tickets is here.
+~
+A portly man dressed in light brown leather armor stands here, a roll of
+tickets wrapped around his hand.  He looks a little perturbed, and he taps
+his foot impatiently.  He notices you staring and says, "Supposed to be in
+there fighting, lost a bet.  What's it to you?"
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+51 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#13767
+florist~
+a florist~
+A florist stands here, surrounded by flowers of every shape, color and size.
+~
+This man is clearly excited about flowers. He nearly hops up and down as he
+beckons you over, yelling gleefully, "You'll never see a more beautiful rose
+in your life! Did you know that some flowers have healing properties?"  He nods
+his head emphatically as if he suspected you were cynical, "It's true, really
+true, come find out for yourself!"
+~
+human~
+(null)~
+(null)~
+(null)~
+ABPT 0 0 0
+51 1 10d10+100 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#13768
+butcher~
+a butcher~
+A butcher stands here selling various meats, his apron covered in blood.
+~
+This guy doesn't seem to care much if you notice him or his wares, and in fact,
+he almost seems to be a bit bored.  Flies buzz around piles of different meats
+that are piled on a table by type, the meat browning around the edges as it
+oxidizes.  Large slabs of meat slung up on ropes are also swarmed by the bugs,
+and the smell from the booth is not the most appetizing.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT 0 0 0
+51 1 10d10+10 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#13769
+souvenir salesman~
+a souvenir salesman~
+A souvenir salesman stands here, animatedly showing off his toys.
+~
+This salesman catches the attention of all who pass, decked out in bright gowns
+striped in red and yellow.  He is surrounded by shelves full of what appear to
+be toys geared towards the little ones who might be attending today's arena
+games.  He catches you looking and immediately begins to wave his hands around
+the shelves piled high with noise makers, hobby-horses and pretend weaponry and
+armor, yelling to you to come take a look, promising you that you'll like what
+you see.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABPT 0 0 0
+51 1 10d10+10 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#13770
+a female spectator~
+a female spectator~
+A female spectator sits here, fanning herself with today's program.
+~
+A female spectator sits here in the stands, fanning herself with a program,
+trying to keep cool.  She's dressed in her finest clothing, though her dress is
+slightly stained by time, and her hair and makeup isn't as fine as some of the
+wealthier women you've seen today.  She cranes her neck for a better view of
+the arena.
+~
+human~
+(null)~
+(null)~
+(null)~
+AGT DF 0 0
+20 -1 3d9+200 5d10+40 2d8+5 punch
+-4 -4 -4 -4
+EFINU P 0 E
+sit sit female 150
+0 0 medium 0
+F par GHIJK
+#13771
+female warrior~
+a female warrior~
+A female warrior rests here, stretching out her legs.
+~
+A female warrior rests on the ground, her legs outstretched. The woman doesn't
+fit the description of what most people might imagine when they think of a female
+warrior.  Her arms and legs are long, lean and well-muscled, her skin tanned to
+a golden brown. She wears only what she requires, a mere few scraps of soft,
+brown leather covering the parts you'd expect - but, little more. She notices
+you staring and smirks, offering in a deep, soothing voice, "Stretching is very
+important for strength and agility. You should join me."
+~
+human~
+(null)~
+(null)~
+(null)~
+AG DF 950 0
+20 10 3d9+333 3d9+28 2d7+1 punch
+-3 -3 -3 -3
+CFKNU 0 0 BE
+rest rest female 500
+0 0 medium 0
+F par GHIJK
+#13772
+sad porter~
+a sad porter~
+A sad porter is here, sweeping up trash and looking pathetic.
+~
+Aw, this guy is a sad sight. Slumped over as he sweeps up the trash, he gazes
+at the spectators with envy, looking like he has probably never known a fun day
+in his life.  Sad little porter.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABGHT 0 0 0
+22 -1 5d10+300 5d10+40 4d4+4 smash
+-5 -5 -5 -5
+EFI 0 EHI O
+stand stand male 5
+G T medium 0
+F for M
+F par BGHIJK
+#13773
+relaxed warrior~
+a relaxed warrior~
+A relaxed warrior stands here, stretching out his tired muscles.
+~
+A large, heavily muscled warrior stands here, arms over his head, stretching out
+his tired back. Several large welts mar his tanned skin, and the blooms of
+the bruises he'll feel tomorrow are beginning to fill in.
+~
+human~
+(null)~
+(null)~
+(null)~
+AGT DFV -450 0
+35 20 10d10+1100 17d9+100 6d4+10 stab
+-11 -11 -11 6
+CEFU 0 G C
+stand stand male 1000
+0 0 large 0
+F par I
+#13774
+red spider~
+a huge, red spider~
+A huge red spider drops down on you from above, ready to attack.
+~
+This isn't your average spider. This is a massive spider, the size of a small
+cat, but nowhere near as cute. It begins spinning a web around you immediately.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABG DFHMQV 0 0
+35 1 15d10+1850 15d10+1850 4d8+13 bite
+-13 -13 -13 -13
+DFKU CL F GHO
+stand stand male 300
+AHMV ACDF huge 0
+#13775
+a male spectator~
+a male spectator~
+A male spectator is here, checking out the ladies.
+~
+A male spectator is here, and he seems to be more interested in the females
+around him than he does the action on the ground. He coughs nervously before
+leering out of the corner of his eye, the target of his stare the robust and
+ample cleavage of the lady sitting next to him.
+~
+human~
+(null)~
+(null)~
+(null)~
+AGT DFVa 500 0
+22 -1 5d10+400 5d10+40 4d4+6 pound
+-5 -5 -5 -5
+CEFN 0 0 G
+stand stand male 250
+0 0 large 0
+F par GHIJK
+#13776
+annoying child~
+an annoying child~
+An annoying child runs through the aisles, packed to the gills with sugar, screaming loudly.
+~
+And, this is why we can't have nice things.  This kid is really threatening to
+ruin your nice day. Someone gave him way too many sweets, and his parents don't
+seem to be watching him very closely today. He squeals loudly as he runs around,
+pulling on your sleeve before running away again, screaming.
+~
+human~
+(null)~
+(null)~
+(null)~
+AG DFV 900 0
+15 0 2d10+190 7d9+100 1d12+3 scratch
+-1 -1 -1 8
+DFHKN L Q 0
+stand stand male 0
+0 0 small 0
+#13777
+amateur gladiator~
+an amateur gladiator~
+An amateur gladiator waits here, looking very nervous.
+~
+This guy looks nervous. Very, very nervous.  He's pale and sweating, and his
+eyes scan the area, full of fear. He looks the part - tall, heavily muscled,
+and carrying a huge sword. But, his legs wobble and his hands shake, and he
+appears that he wishes to be anywhere in the world except for here.
+~
+human~
+(null)~
+(null)~
+(null)~
+AGHT DFJV 900 0
+30 0 6d12+778 15d9+100 2d12+8 slash
+-9 -9 -9 4
+EFJKN AB 0 0
+stand stand male 50
+0 0 large 0
+#13778
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+(null)~
+(null)~
+(null)~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#13779
+lord vega~
+the Lord of Vega~
+The Lord of Vega sits here, watching the show and looking snooty.
+~
+My, what a dapper man. Dressed from head to toe in crimson velvet and decorated
+with myriad gold and silver chains and shiny gems, he is more dapper than most
+men you've ever seen. He carries himself quite primly, his pinky finger held out
+as he sips his wine. He seems to be completely oblivious to the hungry looks he
+receives from the Dutchess...go figure.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABT DFHV -500 0
+29 -1 6d12+778 6d12+77 0d0+0 punch
+-9 -9 -9 -8
+CFHIKU 0 JP 0
+sit sit male 2000
+GW PT large 0
+F for MV
+F par BCGHIJK
+#0
+
+#OBJECTS
+#13750
+crude torch~
+a crude torch~
+A crude torch lies on the ground.~
+wood~
+light A A
+0 0 -1 0 15
+1 6 5 P
+A
+18 1
+A
+19 1
+#13751
+soft leather pants~
+soft leather pants~
+A pair of soft leather pants lie here.~
+leather~
+armor 0 AF
+2 2 2 2 0
+1 25 100 P
+A
+4 1
+A
+5 1
+#13752
+shiny silver ring~
+a shiny silver ring~
+A shiny silver ring lies on the ground.~
+silver~
+jewelry G AB
+0 0 0 0 0
+1 2 100 P
+A
+2 1
+#13753
+comfortable leather boots~
+comfortable leather boots~
+A pair of comfortable leather boots lie here, not being worn.~
+leather~
+clothing 0 A
+2 2 2 2 0
+1 100 0 P
+A
+14 100
+A
+1 1
+#13754
+leather skull cap~
+a leather skull cap~
+A leather skull cap lies here in a heap.~
+leather~
+clothing 0 AE
+2 2 2 2 0
+0 2 100 P
+A
+3 1
+A
+12 0
+A
+0 0
+A
+27 0
+#13755
+black leather strap~
+a black leather strap~
+A black leather strap lies in a pile here.~
+leather~
+armor 0 AM
+2 2 2 2 0
+1 3 100 P
+A
+13 15
+A
+19 1
+#13756
+pelt hell hound hellhound~
+the pelt of a hellhound~
+The pelt of a hellhound lies here in a bloody heap.~
+fur~
+armor E AK
+-5 -5 -5 -5 0
+25 100 1250 P
+A
+18 2
+A
+19 2
+A
+3 -1
+A
+1 1
+A
+2 1
+#13757
+sturdy wooden bench~
+a sturdy wooden bench~
+A sturdy wooden bench is set under a blooming cherry blossom tree.~
+wood~
+furniture 0 0
+2 0 H 150 150
+0 5000 0 P
+#13758
+slick little dagger~
+a slick little dagger~
+A slick little dagger lies on the ground.~
+metal~
+weapon 0 AN
+dagger 0 0 none 0
+1 10 1100 P
+#13759
+dirty safe~
+a dirty silver safe~
+A dirty silver safe rests under a thick pile of dust and dirt.~
+silver~
+container 0 0
+50 ACD 13776 50 50
+10 100 0 P
+#13760
+arena ticket~
+an arena ticket~
+An arena ticket lies on the ground.~
+paper~
+key U A
+0 0 0 0 0
+1 100 5 P
+#13761
+a beautiful rose~
+a beautiful rose~
+A beautiful rose lies on the ground, wilting.~
+organic~
+pill 0 A
+35 'heal' 'heal' '' ''
+10 100 50 P
+#13762
+peony~
+a bright pink peony~
+A bright pink peony lies on the ground, wilting.~
+organic~
+pill 0 A
+35 'cancellation' 'refresh' '' ''
+10 100 50 P
+#13763
+marigold~
+a golden marigold~
+A dazzlingly bright, golden marigold lies on the ground, wilting.~
+organic~
+pill 0 A
+30 'giant strength' 'haste' '' ''
+10 100 50 P
+#13764
+lily~
+a beautiful lily~
+A beautiful lily lies on the ground, wilting.~
+organic~
+pill 0 A
+35 'bless' 'tower of iron will' '' ''
+10 100 50 P
+A
+0 0
+#13765
+iris~
+a purple iris~
+A beautiful, purple iris lies here, wilting.~
+organic~
+pill 0 A
+35 'stone skin' 'sanctuary' '' ''
+10 100 50 P
+#13766
+rabbit~
+a skinned rabbit~
+A skinned rabbit is on the ground, covered in flies.~
+meat~
+food 0 A
+25 25 0 0 0
+1 3 50 P
+#13767
+slab beef~
+a slab of beef~
+A raw slab of beef lies here, covered in flies.~
+meat~
+food 0 A
+25 25 0 0 0
+1 5 50 P
+#13768
+chunk wild boar~
+a raw chunk of wild boar~
+A large, raw chunk of wild boar lies here, rotting.~
+meat~
+food 0 A
+25 25 0 0 0
+1 5 50 P
+#13769
+goose~
+a defeathered goose~
+A plump, defeathered goose carcass lies here, rotting.~
+meat~
+food 0 A
+35 35 0 0 0
+1 5 75 P
+#13770
+toy shield~
+a toy shield~
+A toy shield lies here.~
+wood~
+armor 0 AJ
+5 5 5 5 0
+5 30 100 P
+A
+18 2
+A
+19 1
+A
+0 0
+A
+13 25
+A
+17 -3
+A
+20 -3
+#13771
+bearskin rug~
+a bearskin rug~
+A large, beautiful bearskin rug rests on the floor in front of the fire.~
+bearskin~
+furniture 0 0
+5 0 BEHK 200 200
+0 100 0 P
+#13772
+toy crown~
+a toy crown~
+A toy crown lies here, not being worn.~
+metal~
+clothing A AE
+0 0 0 0 0
+5 1 200 P
+A
+3 2
+A
+4 1
+#13773
+bright balloons bunch~
+a bunch of {mco{clo{grf{rul{x balloons~
+A bunch of {mco{clo{grf{rul{x balloons floats away in the breeze.~
+balloon~
+clothing X AQ
+0 0 0 0 0
+5 1 200 P
+A
+32 2
+A
+2 1
+A
+19 2
+#13774
+hobby horse~
+a hobby horse~
+A hobby horse lies on the ground, not being played with.~
+wood~
+armor 0 AF
+5 5 5 5 0
+5 50 200 P
+A
+1 1
+A
+2 1
+A
+18 1
+#13775
+big chunk gold~
+a big chunk of gold~
+A big chunk of gold lies here, looking valuable.~
+gold~
+gem 0 A
+0 0 0 0 0
+1 100 50000 P
+#13776
+dirty key~
+a dirty key~
+A dirty key lies here, getting dirtier.~
+metal~
+key 0 A
+0 0 0 0 0
+1 2 0 P
+#13777
+swath gossamer spider web~
+a swath of gossamer spider web~
+A swath of shimmery spider webbing lies on the ground.~
+webbing~
+clothing AI AD
+0 0 0 0 0
+30 0 200 P
+F
+A 0 0 BT
+A
+17 -7
+#13778
+stick incense~
+a stick of incense~
+(null)~
+(null)~
+light AS A
+0 0 -1 0 0
+25 2 250 P
+A
+12 20
+A
+4 2
+A
+3 2
+#13779
+lollipop~
+a lollipop~
+A stick lollipop lies on the ground.~
+candy~
+food 0 A
+15 15 0 0 0
+5 1 50 P
+A
+0 0
+#13780
+green sleeping bag~
+a green sleeping bag~
+(null)~
+(null)~
+furniture Y A
+1 0 EHK 100 150
+15 20 5000 P
+#13781
+strange gold coin~
+a strange gold coin~
+A strange gold coin lies on the ground, catching the light.~
+gold~
+gem ANSTWY A
+0 0 0 0 0
+1 5 100000 P
+#0
+
+#ROOMS
+#13750
+Entrance to Fighter School~
+You have entered a dark, cold room.   Candles burn within sconces on the grey stone
+walls, casting shadows all about the place.  The room is small and mostly unadorned,
+save for a sign held to the wall with a silver dagger.   It looks important.  There
+are exits to your east and west.
+~
+0 CD 0
+D1
+Exit ~
+door~
+16384 0 13778
+D3
+Exit ~
+door~
+16384 0 13751
+E
+sign~
+Welcome, Fighters!
+ 
+West - Fighter School
+ 
+Here you will learn basic commands and fighting tricks.  You can train
+and practice, as well as browse the shop.  New characters and anyone
+new to mudding should spend some time within the school.  Relax, take
+your time, and take in all there is to learn.  When you feel ready,
+head to the east to try out your fighting skills.
+ 
+East - Battle Training
+ 
+There are monsters to the east, so be on watch.  Be careful to read signs
+and stick to areas designed for your level.
+~
+S
+#13751
+A Stone Chamber~
+You have entered a cavernous stone chamber.  The air is still and chilly,
+a slightly stale odor permeating the space.  An archway leads to the west,
+where you can see a fireplace burning brightly.  To the north lies a long
+hallway.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 13753
+D1
+Exit ~
+door~
+16384 0 13750
+D3
+Exit ~
+door~
+16384 0 13752
+S
+#13752
+The Library~
+You enter a cozy room that is in stark contrast to the pale, cold chamber
+just outside.  A large fireplace roars against the far wall, the burning
+wood crackling and popping as the fire warms and brightens the room. The
+other walls are lined with books and scrolls, all of them well-worn. Soft,
+plush rugs have been placed near the fire for those who wish to rest while
+they read.
+ 
+Look at the bookshelf to see which books are available.  Players new to Muds
+or new to this mud are encouraged to read them.
+~
+0 D 0
+H 200 M 200
+D1
+Exit ~
+door~
+16384 0 13751
+E
+descriptions descrip~
+Roleplay is not enforced here on MHS, so descriptions are not mandatory.
+ 
+That having been said, every truly great character should have one.
+ 
+A few tips:
+ 
+*  Try not to tell other people how they're feeling in your description.
+   While you might think you are a big, scary dragon, you can't assume
+   everyone else will think that you are.
+ 
+*  Try to get a mental image of your character.  What might someone notice
+   about you if they were to look at you?  What does your face look like?
+   How tall are you?  Any scars showing?  Try to think of unique details
+   to make your character stand out.
+ 
+*  Try to be realistic.  Everyone wants to imagine that their character is
+   the baddest in the land, the biggest, the strongest.  The most interesting
+   characters are those with both flaws and merits.
+ 
+*  A description should tell someone nothing more than they would know
+   just by looking at you.  Try not to include background on your character,
+   or any other facts or trivia I wouldn't know just from looking at you.
+ 
+ 
+Overall, have fun with it.  It's not required, but everyone loves a good
+description.  Feel free to ask any immortal for help if you need it.
+ 
+Also see:  help description
+~
+E
+Trains and Practices~
+Each level, regardless of race and class, characters receive 1 train.
+Trains can be used to increase any of your stats one point (until they 
+are at maximum) or can be used to add 10 points to your total hp, mana, 
+or movement.  They can also be converted into 10 practices.  Trains may
+be bought back after being converted to trains, but at a hefty price.
+It costs 20 practices to gain back a train.
+ 
+Each level you will gain a number of practices.  The number of 
+practices that you earn will depend on your Wisdom stat.  The higher it
+is, the more practices you receive upon level.  You can use practices
+to practice your skills and spells.  Type "prac" to see all your 
+available spells and skills, and what level your currently have them
+practiced to.  You can only practice a skill or spell to 75%.  The rest
+must be earned through use.
+ 
+You can also use practices to purchase new skills and spell groups.  At
+your trainer, type "gain list" to see what you can gain and how much 
+everything costs.  You can also use practices to take kits.  Please 
+read the Kit scroll to learn more about kits.
+~
+E
+bookshelf~
+The following books line the shelves:  (look keyword)
+ 
+Score Sheet
+Getting Around
+Trains and Practices
+Descriptions
+Kits
+Remorting
+Tips For Leveling
+~
+E
+tips for leveling~
+The most important thing, when leveling, is to raise your stats as closely
+to max as is possible.  You can do this by using trains to raise your stats
+naturally, or by using equipment that is enhanced to raise your stats while
+you wear it.  Your strength stat will affect how many hit points you gain when
+you level.  You Constitution also affects your hit point gains.  Your Wisdom
+controls how many practices you earn each level and also affects your mana
+gains.  Intelligence heavily affects your mana gains.  Dexterity determines
+how many movement points you earn each level - and, movement can be more
+important than you'd think.
+ 
+Each race has their own specific maximums for each stat.  Make sure to max
+yours out when you level!
+~
+E
+score sheet~
+Your score sheet is all of the technical information about your character,
+wrapped up in one neat little package.  You'll notice your name and age
+at the top of the score sheet. Your age is based on the number of real
+life hours you've spent playing, which you can see next to your age. The
+next line is pretty obvious - your hit points, mana and movement. Hit
+points are your life force - when they're gone, you're dead. Mana is your
+resource for casting spells. Movement determines how long you can walk
+around without needing to rest, and is also used for many warrior skills.
+ 
+Below that, you see your race, sex, class, and kit, if you have one (type
+'look kit' for more info).  On the next line you can see how many trains
+and practices you have available to you, as well as how many skill points
+you have accrued.  Just after that is your bounty, if you have one, which is
+the amount of gold that has been placed on your head.
+ 
+Below that are your stats: Strength, Intelligence, Wisdom, Dexterity,
+Constitution and Charisma.   Then, you see your total experience gained
+and amount of gold and silver on hand.  Below that is what you have 'wimpy'
+set for.  The wimpy command sets the percentage of hit points that you
+want to automatically flee at.  If you set it to 20, you will flee when you 
+only have 20 percent of your hit points remaining.
+ 
+Then, your score sheet will show your current position (sleeping, standing,
+resting), and below that is your saving throw. You want this number to be
+negative, and the lower it is, the better.  This number determines how well
+you resist spells cast on you.
+ 
+Then you see how well armored you are, and this is a number you want to
+keep as low and negative as possible.  After you reach a certain level, you
+will see your hit and dam rolls at the bottom of your score sheet. These 
+numbers tell you how often you hit, and how hard.  Finally, at the bottom of
+your score sheet, you will see your current alignment, and the total "sac"
+points you have.  Sac points (or sacrifice points) are gained whenever you
+sacrifice a mob or object.  Depending on the diety you chose to worship
+(help deity), sac points can be used to "pray" (help pray) for certain 
+special abilities.
+ 
+~
+S
+#13753
+A cold hallway.~
+You continue down a cold, stone hallway.  Crude iron candle holders line the
+walls, the flames casting dancing shadows.  You can continue north or south.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 13754
+D2
+Exit ~
+door~
+16384 0 13751
+S
+#13754
+A cold hallway.~
+You continue down the hallway.  Doors lie to the east and west of you, each of
+doors set with an engraved sign.  The door to the west reads "Training" and the
+door to the east reads "Practice".
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 13759
+D1
+Exit ~
+door~
+16384 0 13756
+D2
+Exit ~
+door~
+16384 0 13753
+D3
+Exit ~
+door~
+16384 0 13757
+S
+#13755
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 13754
+S
+#13756
+Practice Room~
+This is quite a zen room, and has been decorated to show just that.  It's a
+small room, but much has been made of the space.  A large sculpture of ivy is
+hung on one wall, water trickling down the metal decoration, the sound quite
+soothing and pleasing.  A box of sand takes up most of the floor space, a rake
+leaning against the wall beside it.  Fragrant incense burns on a corner table,
+and a comfortable chair is available to relax in.
+ 
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 13754
+S
+#13757
+Training Room~
+This room is pretty small and only made smaller by the piles of weapons hung
+on the wall.  It's almost claustrophobic, like the walls are going to cave in
+on you.  The air reeks of metal and sweat.
+ 
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 13754
+S
+#13758
+Generic room name~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 13757
+S
+#13759
+A Stone Hallway.~
+You continue down the cold hallway.  A wrought iron candelabra is bolted to the
+wall, the flames of the burning candles hissing and casting meager light.  A
+portrait is hung on the wall of a regal looking warrior riding a horse, his
+sword raised in the air in triumph.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 13760
+D2
+Exit ~
+door~
+16384 0 13754
+E
+sign~
+~
+E
+portrait~
+An impressively painted portrait is displayed on the wall, depicting a
+battle scene between two men, one of them bloodied and broken down, the other
+man towering triumphantly over him, his crimson tinted sword held high in the
+air, his mouth pulled open wide with a cry of victory.  Below the portrait, a
+small plaque reads:
+ 
+                             Lord Tristan Hawley
+~
+S
+#13760
+A Stone Hallway.~
+You continue down the cold hallway.  A wrought iron candelabra is bolted to the
+wall, the flames of the burning candles hissing and casting meager light.  The
+hallway continues to the north and south.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 13761
+D2
+Exit ~
+door~
+16384 0 13759
+E
+sign~
+~
+E
+portrait~
+An impressively painted portrait is displayed on the wall, depicting a
+battle scene between two men, one of them bloodied and broken down, the other
+man towering triumphantly over him, his crimson tinted sword held high in the
+air, his mouth pulled open wide with a cry of victory.  Below the portrait, a
+small plaque reads:
+ 
+                             Lord Tristan Hawley
+~
+S
+#13761
+A Stone Hallway.~
+You continue down the cold hallway.  A wrought iron candelabra is bolted to the
+wall, the flames of the burning candles hissing and casting meager light.
+ 
+A doorway is open to the west.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 13763
+D2
+Exit ~
+door~
+16384 0 13760
+D3
+Exit ~
+door~
+16384 0 13762
+E
+sign~
+~
+E
+portrait~
+An impressively painted portrait is displayed on the wall, depicting a
+battle scene between two men, one of them bloodied and broken down, the other
+man towering triumphantly over him, his crimson tinted sword held high in the
+air, his mouth pulled open wide with a cry of victory.  Below the portrait, a
+small plaque reads:
+ 
+                             Lord Tristan Hawley
+~
+S
+#13762
+The Warriors' Shoppe~
+A quaint little shop, to be sure.  There isn't much to see here.  The room is
+small, and made to appear even smaller once one factors in the myriad of armor
+and weaponry that clings to the wall via all sorts of hooks and rope.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 13761
+S
+#13763
+A Stone Hallway.~
+You continue down the cold hallway.  A wrought iron candelabra is bolted to the
+wall, the flames of the burning candles hissing and casting meager light.  The
+hallway continues to the south and you can see an outdoor courtyard to your north.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 13764
+D2
+Exit ~
+door~
+16384 0 13761
+E
+sign~
+~
+E
+portrait~
+An impressively painted portrait is displayed on the wall, depicting a
+battle scene between two men, one of them bloodied and broken down, the other
+man towering triumphantly over him, his crimson tinted sword held high in the
+air, his mouth pulled open wide with a cry of victory.  Below the portrait, a
+small plaque reads:
+ 
+                             Lord Tristan Hawley
+~
+S
+#13764
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13770
+D1
+Exit ~
+door~
+16384 0 13772
+D2
+Exit ~
+door~
+16384 0 13763
+D3
+Exit ~
+door~
+16384 0 13765
+S
+#13765
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13768
+D1
+Exit ~
+door~
+16384 0 13764
+D3
+Exit ~
+door~
+16384 0 13766
+S
+#13766
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13767
+D1
+Exit ~
+door~
+16384 0 13765
+S
+#13767
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13771
+D1
+Exit ~
+door~
+16384 0 13768
+D2
+Exit ~
+door~
+16384 0 13766
+S
+#13768
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13769
+D1
+Exit ~
+door~
+16384 0 13770
+D2
+Exit ~
+door~
+16384 0 13765
+D3
+Exit ~
+door~
+16384 0 13767
+S
+#13769
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 13768
+D3
+Exit ~
+door~
+16384 0 13771
+S
+#13770
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 13823
+D1
+Exit ~
+door~
+16384 0 13773
+D2
+Exit ~
+door~
+16384 0 13764
+D3
+Exit ~
+door~
+16384 0 13768
+S
+#13771
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 13769
+D2
+Exit ~
+door~
+16384 0 13767
+S
+#13772
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13773
+D1
+Exit ~
+door~
+16384 0 13775
+D3
+Exit ~
+door~
+16384 0 13764
+S
+#13773
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13776
+D1
+Exit ~
+door~
+16384 0 13774
+D2
+Exit ~
+door~
+16384 0 13772
+D3
+Exit ~
+door~
+16384 0 13770
+S
+#13774
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13777
+D2
+Exit ~
+door~
+16384 0 13775
+D3
+Exit ~
+door~
+16384 0 13773
+S
+#13775
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13774
+D3
+Exit ~
+door~
+16384 0 13772
+S
+#13776
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 13777
+D2
+Exit ~
+door~
+16384 0 13773
+S
+#13777
+The Courtyard Before the Arena~
+You're in a beautiful, outdoor courtyard. The breeze is brisk and blows the
+sweet scent of jasmine through the air. Several large cherry blossom trees stand
+tall, in bloom, their flowers big puffs of cream. The courtyard is laid out in
+smooth cobblestone, the stones arranged in intricate patterns along the winding
+walkways.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 13774
+D3
+Exit ~
+door~
+16384 0 13776
+S
+#13778
+The entrance to Battle Training~
+You stand at the top of a dark, winding stone stairwell.  The space is tight,
+and the walls and floor are rough and unfinished.  The stairs below are lit, but
+just barely, by an occasional candle on the wall.  There's a dense odor coming
+from below; the smell of sweat and blood, fear and death.  Shouts of pain and
+effort can be heard, faintly, along with the sporadic shout of victory.
+ 
+~
+0 AD 0
+D3
+Exit ~
+door~
+16384 0 13750
+D5
+Exit ~
+door~
+16384 0 13779
+S
+#13779
+A dark stairwell.~
+It's quite dark in the stairwell, despite the meager flickering of a few candles
+on the wall.  Cobwebs stretch across the ceiling and walls, making the already
+cramped space that much tighter.
+ 
+~
+0 AD 0
+D4
+Exit ~
+door~
+16384 0 13778
+D5
+Exit ~
+door~
+16384 0 13780
+S
+#13780
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 ACD 0
+D1
+Exit ~
+door~
+16384 0 13781
+D4
+Exit ~
+door~
+16384 0 13779
+S
+#13781
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13785
+D1
+Exit ~
+door~
+16384 0 13782
+D3
+Exit ~
+door~
+16384 0 13780
+S
+#13782
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13786
+D1
+Exit ~
+door~
+16384 0 13783
+D3
+Exit ~
+door~
+16384 0 13781
+S
+#13783
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13787
+D1
+Exit ~
+door~
+16384 0 13784
+D3
+Exit ~
+door~
+16384 0 13782
+S
+#13784
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13788
+D3
+Exit ~
+door~
+16384 0 13783
+S
+#13785
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13789
+D1
+Exit ~
+door~
+16384 0 13786
+D2
+Exit ~
+door~
+16384 0 13781
+S
+#13786
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13790
+D1
+Exit ~
+door~
+16384 0 13787
+D2
+Exit ~
+door~
+16384 0 13782
+D3
+Exit ~
+door~
+16384 0 13785
+S
+#13787
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13791
+D1
+Exit ~
+door~
+16384 0 13788
+D2
+Exit ~
+door~
+16384 0 13783
+D3
+Exit ~
+door~
+16384 0 13786
+S
+#13788
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13792
+D2
+Exit ~
+door~
+16384 0 13784
+D3
+Exit ~
+door~
+16384 0 13787
+S
+#13789
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13793
+D1
+Exit ~
+door~
+16384 0 13790
+D2
+Exit ~
+door~
+16384 0 13785
+S
+#13790
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13794
+D1
+Exit ~
+door~
+16384 0 13791
+D2
+Exit ~
+door~
+16384 0 13786
+D3
+Exit ~
+door~
+16384 0 13789
+S
+#13791
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13795
+D1
+Exit ~
+door~
+16384 0 13792
+D2
+Exit ~
+door~
+16384 0 13787
+D3
+Exit ~
+door~
+16384 0 13790
+S
+#13792
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13796
+D2
+Exit ~
+door~
+16384 0 13788
+D3
+Exit ~
+door~
+16384 0 13791
+S
+#13793
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13797
+D1
+Exit ~
+door~
+16384 0 13794
+D2
+Exit ~
+door~
+16384 0 13789
+S
+#13794
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13798
+D1
+Exit ~
+door~
+16384 0 13795
+D2
+Exit ~
+door~
+16384 0 13790
+D3
+Exit ~
+door~
+16384 0 13793
+S
+#13795
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13799
+D1
+Exit ~
+door~
+16384 0 13796
+D2
+Exit ~
+door~
+16384 0 13791
+D3
+Exit ~
+door~
+16384 0 13794
+S
+#13796
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13800
+D2
+Exit ~
+door~
+16384 0 13792
+D3
+Exit ~
+door~
+16384 0 13795
+S
+#13797
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13798
+D2
+Exit ~
+door~
+16384 0 13793
+S
+#13798
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13799
+D2
+Exit ~
+door~
+16384 0 13794
+D3
+Exit ~
+door~
+16384 0 13797
+S
+#13799
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13800
+D2
+Exit ~
+door~
+16384 0 13795
+D3
+Exit ~
+door~
+16384 0 13798
+S
+#13800
+{DDark Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+There's a sign here.  You should probably read it.
+ 
+~
+0 ACD 0
+D2
+Exit ~
+door~
+16384 0 13796
+D3
+Exit ~
+door~
+16384 0 13799
+D4
+Exit ~
+door~
+16384 0 13801
+E
+sign~
+Fighters Beware!  The challenges that lie above are suitable for those
+over level 10.  Of course, you can try them anytime you want.
+ 
+Don't say you weren't warned.
+~
+S
+#13801
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13808
+D3
+Exit ~
+door~
+16384 0 13802
+D5
+Exit ~
+door~
+16384 0 13800
+S
+#13802
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13807
+D1
+Exit ~
+door~
+16384 0 13801
+D3
+Exit ~
+door~
+16384 0 13803
+S
+#13803
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13806
+D1
+Exit ~
+door~
+16384 0 13802
+D3
+Exit ~
+door~
+16384 0 13804
+S
+#13804
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13805
+D1
+Exit ~
+door~
+16384 0 13803
+S
+#13805
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13812
+D1
+Exit ~
+door~
+16384 0 13806
+D2
+Exit ~
+door~
+16384 0 13804
+S
+#13806
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13811
+D1
+Exit ~
+door~
+16384 0 13807
+D2
+Exit ~
+door~
+16384 0 13803
+D3
+Exit ~
+door~
+16384 0 13805
+S
+#13807
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13810
+D1
+Exit ~
+door~
+16384 0 13808
+D2
+Exit ~
+door~
+16384 0 13802
+D3
+Exit ~
+door~
+16384 0 13806
+S
+#13808
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13809
+D2
+Exit ~
+door~
+16384 0 13801
+D3
+Exit ~
+door~
+16384 0 13807
+S
+#13809
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D2
+Exit ~
+door~
+16384 0 13808
+D3
+Exit ~
+door~
+16384 0 13810
+S
+#13810
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13815
+D1
+Exit ~
+door~
+16384 0 13809
+D2
+Exit ~
+door~
+16384 0 13807
+D3
+Exit ~
+door~
+16384 0 13811
+S
+#13811
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13814
+D1
+Exit ~
+door~
+16384 0 13810
+D2
+Exit ~
+door~
+16384 0 13806
+D3
+Exit ~
+door~
+16384 0 13812
+S
+#13812
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13813
+D1
+Exit ~
+door~
+16384 0 13811
+D2
+Exit ~
+door~
+16384 0 13805
+S
+#13813
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13820
+D1
+Exit ~
+door~
+16384 0 13814
+D2
+Exit ~
+door~
+16384 0 13812
+S
+#13814
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13819
+D1
+Exit ~
+door~
+16384 0 13815
+D2
+Exit ~
+door~
+16384 0 13811
+D3
+Exit ~
+door~
+16384 0 13813
+S
+#13815
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13818
+D1
+Exit ~
+door~
+16384 0 13816
+D2
+Exit ~
+door~
+16384 0 13810
+D3
+Exit ~
+door~
+16384 0 13814
+S
+#13816
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 13817
+D3
+Exit ~
+door~
+16384 0 13815
+S
+#13817
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D2
+Exit ~
+door~
+16384 0 13816
+D3
+Exit ~
+door~
+16384 0 13818
+S
+#13818
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13817
+D2
+Exit ~
+door~
+16384 0 13815
+D3
+Exit ~
+door~
+16384 0 13819
+S
+#13819
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 13818
+D2
+Exit ~
+door~
+16384 0 13814
+D3
+Exit ~
+door~
+16384 0 13820
+S
+#13820
+{DDarker Tunnels{x~
+It's quite cold down here.  The walls of stone are rough and jagged, not as
+carefully carved as the room upstairs.  Every tiny noise echoes like a lion's
+roar.  The air is stale and musty, tinged with the scent of blood and decayed
+flesh. Bones lie scattered throughout the room, forgotten.  The clashing of
+swords can be heard in the distance, as well as the terrified screams of other
+fighters.
+ 
+From above comes the sound of ferocious snarling and teeth gnashing.
+ 
+~
+0 ACD 0
+D1
+Exit ~
+door~
+16384 0 13819
+D2
+Exit ~
+door~
+16384 0 13813
+D4
+Exit ~
+door~
+16384 0 13821
+E
+sign~
+Those snarls you hear from above?  That dog isn't all bark and no bite.
+ 
+Good luck.
+~
+S
+#13821
+{DA {rBloody {DCave{x~
+This is a disgusting room.  Every inch of the place is covered with blood in
+varying shades from fresh crimson to drying carmine.  Body parts lie in piles
+around you, all of them chewed and mutilated to some degree.  A deep growling
+permeates the small space.  It seems to be coming from the corner...
+ 
+~
+0 AD 0
+D5
+Exit ~
+door~
+16384 0 13820
+S
+#13822
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#13823
+Road to the Arena~
+A gravel path leads north towards the arena.  Vendors line the streets, peddling
+their wares, calling out to all passing by to stop and take a look.   A large
+arena looms to the north, and there are exits to the north and south.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13824
+D2
+Exit ~
+door~
+16384 0 13770
+S
+#13824
+Road to the Arena~
+A gravel path leads north towards the arena.  Vendors line the streets, peddling
+their wares, calling out to all passing by to stop and take a look.   A large
+arena looms to the north, and there are exits to the north and south.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13825
+D2
+Exit ~
+door~
+16384 0 13823
+S
+#13825
+Road to the Arena~
+A gravel path leads north towards the arena.  Vendors line the streets, peddling
+their wares, calling out to all passing by to stop and take a look.   A large
+arena looms to the north, and there are exits to the north and south.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13826
+D2
+Exit ~
+door~
+16384 0 13824
+S
+#13826
+-=The Arena Entrance=-~
+You stand at the gates to a great arena, bustling with activity. Cheers of
+excitement rise up from behind the gates. The sounds of merchants peddling their
+wares mix with the sounds of children playing and carrying on. The scent of fresh
+bread and roasted meats fills the air, tempting you.
+~
+0 0 0
+D0
+Exit ~
+Arena Gates~
+16390 13760 13827
+D2
+Exit ~
+door~
+16384 0 13825
+S
+#13827
+Inside the Arena~
+You stand just inside the main arena gates.  There's an excitement in the air,
+and the sounds of everything from swords clanging together as the gladiators
+practice in anticipation of their battles - to the sounds of children squealing
+in nervous delight.  The smells of roasted meats and incense surround you as the
+hustle and bustle of people looking for seats creates a harried atmosphere.
+A walkway continues north into the arena and towards the grandstands.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13828
+D2
+Exit ~
+Arena Gates~
+16384 13760 13826
+S
+#13828
+Inside the Arena~
+From here, you can see into the center of the arena. A bronze gate leads to the
+arena, but it does not appear to be guarded. The grandstands can be found to
+your east and west.
+~
+0 0 0
+D0
+Exit ~
+door~
+16386 0 13829
+D1
+Exit ~
+door~
+16384 0 13849
+D2
+Exit ~
+door~
+16384 0 13827
+D3
+Exit ~
+door~
+16384 0 13830
+S
+#13829
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 13869
+D2
+Exit ~
+door~
+16386 0 13828
+S
+#13830
+To the Grandstands~
+People bustle about here, shoving gently in their excitement.  Children squeal
+with delight, stuffed with perhaps a bit too much sugar.  The entrance to the
+grandstands lies to your west.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 13828
+D3
+Exit ~
+door~
+16384 0 13831
+S
+#13831
+Stairwell to the Arena Grandstands~
+It's rather quiet down here by the arena entrance, but you can hear a muffled
+din coming from above you.  The stairs lead to the arena grandstands, where you
+can look for a seat to watch the afternoon's bloody festivities.
+~
+0 0 0
+D0
+Exit ~
+secret closet door~
+24580 0 13834
+D1
+Exit ~
+door~
+16384 0 13830
+D4
+Exit ~
+door~
+16384 0 13832
+S
+#13832
+The Arena Grandstand~
+To your north, the arena stands are busy with men, women and children wandering
+the stands for the best seat.  There is a definite excitement in the air, and a
+buzz runs through the crowd as strangers and friends alike discuss the chances
+of their favorite gladiator winning their bout.  Bets have been placed, and the
+anticipation could be cut with a knife.
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 13833
+D5
+Exit ~
+door~
+16384 0 13831
+S
+#13833
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13835
+D2
+Exit ~
+door~
+16384 0 13832
+D3
+Exit ~
+door~
+16384 0 13839
+S
+#13834
+A Dark Closet~
+Clearly hidden to the general public, this secret closet doesn't seem to be very
+special or unique.  A few worn, dirty brooms rest against one wall, a shovel
+lying at the ground at your feet.  It's nearly too dark to see in here, but a
+shimmer of silver beneath a pile of dust catches your eye.
+~
+0 ACDK 0
+H 0 M 0
+D2
+Exit ~
+secret closet door~
+24580 0 13831
+S
+#13835
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13836
+D2
+Exit ~
+door~
+16384 0 13833
+D3
+Exit ~
+door~
+16384 0 13840
+S
+#13836
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13837
+D2
+Exit ~
+door~
+16384 0 13835
+D3
+Exit ~
+door~
+16384 0 13841
+S
+#13837
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13838
+D2
+Exit ~
+door~
+16384 0 13836
+D3
+Exit ~
+door~
+16384 0 13842
+S
+#13838
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 13837
+D3
+Exit ~
+door~
+16384 0 13843
+S
+#13839
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13840
+D1
+Exit ~
+door~
+16384 0 13833
+D3
+Exit ~
+door~
+16384 0 13844
+S
+#13840
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13841
+D1
+Exit ~
+door~
+16384 0 13835
+D2
+Exit ~
+door~
+16384 0 13839
+D3
+Exit ~
+door~
+16384 0 13845
+S
+#13841
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13842
+D1
+Exit ~
+door~
+16384 0 13836
+D2
+Exit ~
+door~
+16384 0 13840
+D3
+Exit ~
+door~
+16384 0 13846
+S
+#13842
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13843
+D1
+Exit ~
+door~
+16384 0 13837
+D2
+Exit ~
+door~
+16384 0 13841
+D3
+Exit ~
+door~
+16384 0 13847
+S
+#13843
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 13838
+D2
+Exit ~
+door~
+16384 0 13842
+D3
+Exit ~
+door~
+16384 0 13848
+S
+#13844
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13845
+D1
+Exit ~
+door~
+16384 0 13839
+S
+#13845
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13846
+D1
+Exit ~
+door~
+16384 0 13840
+D2
+Exit ~
+door~
+16384 0 13844
+S
+#13846
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13847
+D1
+Exit ~
+door~
+16384 0 13841
+D2
+Exit ~
+door~
+16384 0 13845
+S
+#13847
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13848
+D1
+Exit ~
+door~
+16384 0 13842
+D2
+Exit ~
+door~
+16384 0 13846
+S
+#13848
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 13843
+D2
+Exit ~
+door~
+16384 0 13847
+S
+#13849
+To the Grandstands~
+People bustle about here, shoving gently in their excitement.  Children squeal
+with delight, stuffed with perhaps a bit too much sugar.  The entrance to the
+grandstands lies to your west.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 13850
+D3
+Exit ~
+door~
+16384 0 13828
+S
+#13850
+Stairwell to the Arena Grandstands~
+It's rather quiet down here by the arena entrance, but you can hear a muffled
+din coming from above you.  The stairs lead to the arena grandstands, where you
+can look for a seat to watch the afternoon's bloody festivities.
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 13849
+D4
+Exit ~
+door~
+16384 0 13851
+S
+#13851
+The Arena Grandstand~
+To your north, the arena stands are busy with men, women and children wandering
+the stands for the best seat.  There is a definite excitement in the air, and a
+buzz runs through the crowd as strangers and friends alike discuss the chances
+of their favorite gladiator winning their bout.  Bets have been placed, and the
+anticipation could be cut with a knife.
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 13852
+D5
+Exit ~
+door~
+16384 0 13850
+S
+#13852
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13853
+D1
+Exit ~
+door~
+16384 0 13858
+D2
+Exit ~
+door~
+16384 0 13851
+S
+#13853
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13854
+D1
+Exit ~
+door~
+16384 0 13859
+D2
+Exit ~
+door~
+16384 0 13852
+S
+#13854
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13855
+D1
+Exit ~
+door~
+16384 0 13860
+D2
+Exit ~
+door~
+16384 0 13853
+S
+#13855
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13856
+D1
+Exit ~
+door~
+16384 0 13861
+D2
+Exit ~
+door~
+16384 0 13854
+S
+#13856
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 13862
+D2
+Exit ~
+door~
+16384 0 13855
+S
+#13857
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13858
+D1
+Exit ~
+door~
+16384 0 13863
+D3
+Exit ~
+door~
+16384 0 13852
+S
+#13858
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13859
+D1
+Exit ~
+door~
+16384 0 13864
+D2
+Exit ~
+door~
+16384 0 13857
+D3
+Exit ~
+door~
+16384 0 13852
+S
+#13859
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13860
+D1
+Exit ~
+door~
+16384 0 13865
+D2
+Exit ~
+door~
+16384 0 13858
+D3
+Exit ~
+door~
+16384 0 13853
+S
+#13860
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13861
+D1
+Exit ~
+door~
+16384 0 13866
+D2
+Exit ~
+door~
+16384 0 13859
+D3
+Exit ~
+door~
+16384 0 13854
+S
+#13861
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13862
+D1
+Exit ~
+door~
+16384 0 13867
+D2
+Exit ~
+door~
+16384 0 13860
+D3
+Exit ~
+door~
+16384 0 13855
+S
+#13862
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 13868
+D2
+Exit ~
+door~
+16384 0 13861
+D3
+Exit ~
+door~
+16384 0 13856
+S
+#13863
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13864
+D3
+Exit ~
+door~
+16384 0 13857
+S
+#13864
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13865
+D2
+Exit ~
+door~
+16384 0 13863
+D3
+Exit ~
+door~
+16384 0 13858
+S
+#13865
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13866
+D2
+Exit ~
+door~
+16384 0 13864
+D3
+Exit ~
+door~
+16384 0 13859
+S
+#13866
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13867
+D2
+Exit ~
+door~
+16384 0 13865
+D3
+Exit ~
+door~
+16384 0 13860
+S
+#13867
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13868
+D2
+Exit ~
+door~
+16384 0 13866
+D3
+Exit ~
+door~
+16384 0 13861
+S
+#13868
+The Arena Grandstand~
+The seating here in the stands offers a great view of the gladiator battles
+going on below. Spectators of every age mill about, looking for the best seat.
+The seating is crude, mere benches made of rough stone, but the stands are
+covered by a bright red canopy, which provides fantastic shade from the bright
+sunshine.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 13867
+D3
+Exit ~
+door~
+16384 0 13862
+S
+#13869
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13874
+D1
+Exit ~
+door~
+16384 0 13879
+D2
+Exit ~
+door~
+16384 0 13829
+D3
+Exit ~
+door~
+16384 0 13870
+S
+#13870
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13871
+D1
+Exit ~
+door~
+16384 0 13869
+S
+#13871
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13872
+D1
+Exit ~
+door~
+16384 0 13874
+D2
+Exit ~
+door~
+16384 0 13870
+S
+#13872
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13873
+D1
+Exit ~
+door~
+16384 0 13875
+D2
+Exit ~
+door~
+16384 0 13871
+S
+#13873
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13878
+D1
+Exit ~
+door~
+16384 0 13876
+D2
+Exit ~
+door~
+16384 0 13872
+S
+#13874
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13875
+D1
+Exit ~
+door~
+16384 0 13880
+D2
+Exit ~
+door~
+16384 0 13869
+D3
+Exit ~
+door~
+16384 0 13871
+S
+#13875
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13876
+D1
+Exit ~
+door~
+16384 0 13881
+D2
+Exit ~
+door~
+16384 0 13874
+D3
+Exit ~
+door~
+16384 0 13872
+S
+#13876
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13877
+D1
+Exit ~
+door~
+16384 0 13882
+D2
+Exit ~
+door~
+16384 0 13875
+D3
+Exit ~
+door~
+16384 0 13873
+S
+#13877
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+24579 0 13884
+D1
+Exit ~
+door~
+16384 0 13883
+D2
+Exit ~
+door~
+16384 0 13876
+D3
+Exit ~
+door~
+16384 0 13878
+S
+#13878
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 13877
+D2
+Exit ~
+door~
+16384 0 13873
+S
+#13879
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13880
+D3
+Exit ~
+door~
+16384 0 13869
+S
+#13880
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13881
+D2
+Exit ~
+door~
+16384 0 13879
+D3
+Exit ~
+door~
+16384 0 13874
+S
+#13881
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13882
+D2
+Exit ~
+door~
+16384 0 13880
+D3
+Exit ~
+door~
+16384 0 13875
+S
+#13882
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13883
+D2
+Exit ~
+door~
+16384 0 13881
+D3
+Exit ~
+door~
+16384 0 13876
+S
+#13883
+The Arena Floor~
+Stepping out onto the arena floor, the loud hum of the crowd all around you,
+the excitement of battle and competition is heavy in the air. Beneath your feet
+is a mixture of packed dirt and hay. Gladiators of all sizes wander the arena
+floor before the big event, waving to the crowds, the more confident and calm
+gladiators joking with the children in the grandstands on either side of the
+grounds. Many men have died in this arena, but for every man who failed, there
+was a man who was victorious. Which will you be?
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 13882
+D3
+Exit ~
+door~
+16384 0 13877
+S
+#13884
+Under The Platform~
+You stand in a cramped space below a wooden platform. Spiders of sizes and colors
+that might further haunt your nightmares hang in wait on gossamer webs. Footfalls
+hammer loudly above you, and the cheers from the crowd echo around you. A very
+narrow, precariously hobbled together stairwell leads up.
+~
+0 AD 0
+H 0 M 0
+D2
+Exit ~
+door~
+16384 0 13877
+D4
+Exit ~
+door~
+16384 0 13885
+S
+#13885
+The Royal Platform~
+This platform was designed for any royals or dignitaries who might be attending
+the gladiator events. People of this rank and stature simply don't sit with the
+riff raff. Velvet-lined chairs rest along the platform next to fine wooden tables
+on which the select few might place their cold drinks. An intricately carved wooden
+beam stretches across the front of the platform, protecting those watching from
+the brutal action below.
+~
+0 0 0
+D5
+Exit ~
+door~
+16384 0 13884
+S
+#0
+
+#RESETS
+O 0 13757 100 13768	* a sturdy wooden bench
+D 0 13750   1 16384	* Entrance to Fighter School east
+D 0 13750   3 16384	* Entrance to Fighter School west
+D 0 13751   0 16384	* A Stone Chamber north
+D 0 13751   1 16384	* A Stone Chamber east
+D 0 13751   3 16384	* A Stone Chamber west
+D 0 13753   0 16384	* A cold hallway. north
+D 0 13753   2 16384	* A cold hallway. south
+D 0 13754   0 16384	* A cold hallway. north
+D 0 13754   1 16384	* A cold hallway. east
+D 0 13754   2 16384	* A cold hallway. south
+D 0 13754   3 16384	* A cold hallway. west
+D 0 13755   1 16384	* Generic room name east
+D 0 13756   3 16384	* Practice Room west
+D 0 13757   1 16384	* Training Room east
+D 0 13758   3 16384	* Generic room name west
+D 0 13759   0 16384	* A Stone Hallway. north
+D 0 13759   2 16384	* A Stone Hallway. south
+D 0 13760   0 16384	* A Stone Hallway. north
+D 0 13760   2 16384	* A Stone Hallway. south
+D 0 13761   0 16384	* A Stone Hallway. north
+D 0 13761   2 16384	* A Stone Hallway. south
+D 0 13761   3 16384	* A Stone Hallway. west
+D 0 13762   1 16384	* The Warriors' Shoppe east
+D 0 13763   0 16384	* A Stone Hallway. north
+D 0 13763   2 16384	* A Stone Hallway. south
+D 0 13764   0 16384	* The Courtyard Before the Arena north
+D 0 13764   1 16384	* The Courtyard Before the Arena east
+D 0 13764   2 16384	* The Courtyard Before the Arena south
+D 0 13764   3 16384	* The Courtyard Before the Arena west
+D 0 13768   0 16384	* The Courtyard Before the Arena north
+D 0 13768   1 16384	* The Courtyard Before the Arena east
+D 0 13768   2 16384	* The Courtyard Before the Arena south
+D 0 13768   3 16384	* The Courtyard Before the Arena west
+D 0 13771   1 16384	* The Courtyard Before the Arena east
+D 0 13771   2 16384	* The Courtyard Before the Arena south
+D 0 13778   3 16384	* The entrance to Battle Training west
+D 0 13778   5 16384	* The entrance to Battle Training down
+D 0 13779   4 16384	* A dark stairwell. up
+D 0 13779   5 16384	* A dark stairwell. down
+D 0 13780   1 16384	* {DDark Tunnels{x east
+D 0 13780   4 16384	* {DDark Tunnels{x up
+D 0 13781   0 16384	* {DDark Tunnels{x north
+D 0 13781   1 16384	* {DDark Tunnels{x east
+D 0 13781   3 16384	* {DDark Tunnels{x west
+D 0 13782   0 16384	* {DDark Tunnels{x north
+D 0 13782   1 16384	* {DDark Tunnels{x east
+D 0 13782   3 16384	* {DDark Tunnels{x west
+D 0 13783   0 16384	* {DDark Tunnels{x north
+D 0 13783   1 16384	* {DDark Tunnels{x east
+D 0 13783   3 16384	* {DDark Tunnels{x west
+D 0 13784   0 16384	* {DDark Tunnels{x north
+D 0 13784   3 16384	* {DDark Tunnels{x west
+D 0 13785   0 16384	* {DDark Tunnels{x north
+D 0 13785   1 16384	* {DDark Tunnels{x east
+D 0 13785   2 16384	* {DDark Tunnels{x south
+D 0 13786   0 16384	* {DDark Tunnels{x north
+D 0 13786   1 16384	* {DDark Tunnels{x east
+D 0 13786   2 16384	* {DDark Tunnels{x south
+D 0 13786   3 16384	* {DDark Tunnels{x west
+D 0 13787   0 16384	* {DDark Tunnels{x north
+D 0 13787   1 16384	* {DDark Tunnels{x east
+D 0 13787   2 16384	* {DDark Tunnels{x south
+D 0 13787   3 16384	* {DDark Tunnels{x west
+D 0 13788   0 16384	* {DDark Tunnels{x north
+D 0 13788   2 16384	* {DDark Tunnels{x south
+D 0 13788   3 16384	* {DDark Tunnels{x west
+D 0 13789   0 16384	* {DDark Tunnels{x north
+D 0 13789   1 16384	* {DDark Tunnels{x east
+D 0 13789   2 16384	* {DDark Tunnels{x south
+D 0 13790   0 16384	* {DDark Tunnels{x north
+D 0 13790   1 16384	* {DDark Tunnels{x east
+D 0 13790   2 16384	* {DDark Tunnels{x south
+D 0 13790   3 16384	* {DDark Tunnels{x west
+D 0 13791   0 16384	* {DDark Tunnels{x north
+D 0 13791   1 16384	* {DDark Tunnels{x east
+D 0 13791   2 16384	* {DDark Tunnels{x south
+D 0 13791   3 16384	* {DDark Tunnels{x west
+D 0 13792   0 16384	* {DDark Tunnels{x north
+D 0 13792   2 16384	* {DDark Tunnels{x south
+D 0 13792   3 16384	* {DDark Tunnels{x west
+D 0 13793   0 16384	* {DDark Tunnels{x north
+D 0 13793   1 16384	* {DDark Tunnels{x east
+D 0 13793   2 16384	* {DDark Tunnels{x south
+D 0 13794   0 16384	* {DDark Tunnels{x north
+D 0 13794   1 16384	* {DDark Tunnels{x east
+D 0 13794   2 16384	* {DDark Tunnels{x south
+D 0 13794   3 16384	* {DDark Tunnels{x west
+D 0 13795   0 16384	* {DDark Tunnels{x north
+D 0 13795   1 16384	* {DDark Tunnels{x east
+D 0 13795   2 16384	* {DDark Tunnels{x south
+D 0 13795   3 16384	* {DDark Tunnels{x west
+D 0 13796   0 16384	* {DDark Tunnels{x north
+D 0 13796   2 16384	* {DDark Tunnels{x south
+D 0 13796   3 16384	* {DDark Tunnels{x west
+D 0 13797   1 16384	* {DDark Tunnels{x east
+D 0 13797   2 16384	* {DDark Tunnels{x south
+D 0 13798   1 16384	* {DDark Tunnels{x east
+D 0 13798   2 16384	* {DDark Tunnels{x south
+D 0 13798   3 16384	* {DDark Tunnels{x west
+D 0 13799   1 16384	* {DDark Tunnels{x east
+D 0 13799   2 16384	* {DDark Tunnels{x south
+D 0 13799   3 16384	* {DDark Tunnels{x west
+D 0 13800   2 16384	* {DDark Tunnels{x south
+D 0 13800   3 16384	* {DDark Tunnels{x west
+D 0 13800   4 16384	* {DDark Tunnels{x up
+D 0 13801   0 16384	* {DDarker Tunnels{x north
+D 0 13801   3 16384	* {DDarker Tunnels{x west
+D 0 13801   5 16384	* {DDarker Tunnels{x down
+D 0 13802   0 16384	* {DDarker Tunnels{x north
+D 0 13802   1 16384	* {DDarker Tunnels{x east
+D 0 13802   3 16384	* {DDarker Tunnels{x west
+D 0 13803   0 16384	* {DDarker Tunnels{x north
+D 0 13803   1 16384	* {DDarker Tunnels{x east
+D 0 13803   3 16384	* {DDarker Tunnels{x west
+D 0 13804   0 16384	* {DDarker Tunnels{x north
+D 0 13804   1 16384	* {DDarker Tunnels{x east
+D 0 13805   0 16384	* {DDarker Tunnels{x north
+D 0 13805   1 16384	* {DDarker Tunnels{x east
+D 0 13805   2 16384	* {DDarker Tunnels{x south
+D 0 13806   0 16384	* {DDarker Tunnels{x north
+D 0 13806   1 16384	* {DDarker Tunnels{x east
+D 0 13806   2 16384	* {DDarker Tunnels{x south
+D 0 13806   3 16384	* {DDarker Tunnels{x west
+D 0 13807   0 16384	* {DDarker Tunnels{x north
+D 0 13807   1 16384	* {DDarker Tunnels{x east
+D 0 13807   2 16384	* {DDarker Tunnels{x south
+D 0 13807   3 16384	* {DDarker Tunnels{x west
+D 0 13808   0 16384	* {DDarker Tunnels{x north
+D 0 13808   2 16384	* {DDarker Tunnels{x south
+D 0 13808   3 16384	* {DDarker Tunnels{x west
+D 0 13809   2 16384	* {DDarker Tunnels{x south
+D 0 13809   3 16384	* {DDarker Tunnels{x west
+D 0 13810   0 16384	* {DDarker Tunnels{x north
+D 0 13810   1 16384	* {DDarker Tunnels{x east
+D 0 13810   2 16384	* {DDarker Tunnels{x south
+D 0 13810   3 16384	* {DDarker Tunnels{x west
+D 0 13811   0 16384	* {DDarker Tunnels{x north
+D 0 13811   1 16384	* {DDarker Tunnels{x east
+D 0 13811   2 16384	* {DDarker Tunnels{x south
+D 0 13811   3 16384	* {DDarker Tunnels{x west
+D 0 13812   0 16384	* {DDarker Tunnels{x north
+D 0 13812   1 16384	* {DDarker Tunnels{x east
+D 0 13812   2 16384	* {DDarker Tunnels{x south
+D 0 13813   0 16384	* {DDarker Tunnels{x north
+D 0 13813   1 16384	* {DDarker Tunnels{x east
+D 0 13813   2 16384	* {DDarker Tunnels{x south
+D 0 13814   0 16384	* {DDarker Tunnels{x north
+D 0 13814   1 16384	* {DDarker Tunnels{x east
+D 0 13814   2 16384	* {DDarker Tunnels{x south
+D 0 13814   3 16384	* {DDarker Tunnels{x west
+D 0 13815   0 16384	* {DDarker Tunnels{x north
+D 0 13815   1 16384	* {DDarker Tunnels{x east
+D 0 13815   2 16384	* {DDarker Tunnels{x south
+D 0 13815   3 16384	* {DDarker Tunnels{x west
+D 0 13816   0 16384	* {DDarker Tunnels{x north
+D 0 13816   3 16384	* {DDarker Tunnels{x west
+D 0 13817   2 16384	* {DDarker Tunnels{x south
+D 0 13817   3 16384	* {DDarker Tunnels{x west
+D 0 13818   1 16384	* {DDarker Tunnels{x east
+D 0 13818   2 16384	* {DDarker Tunnels{x south
+D 0 13818   3 16384	* {DDarker Tunnels{x west
+D 0 13819   1 16384	* {DDarker Tunnels{x east
+D 0 13819   2 16384	* {DDarker Tunnels{x south
+D 0 13819   3 16384	* {DDarker Tunnels{x west
+D 0 13820   1 16384	* {DDarker Tunnels{x east
+D 0 13820   2 16384	* {DDarker Tunnels{x south
+D 0 13820   4 16384	* {DDarker Tunnels{x up
+D 0 13821   5 16384	* {DA {rBloody {DCave{x down
+D 0 13824   0 16384	* Road to the Arena north
+D 0 13824   2 16384	* Road to the Arena south
+D 0 13826   0 16390	* -=The Arena Entrance=- north
+D 0 13826   2 16384	* -=The Arena Entrance=- south
+D 0 13827   2 16384	* Inside the Arena south
+O 0 13771 100 13752	* a bearskin rug
+D 0 13752   1 16384	* The Library east
+D 0 13825   0 16384	* Road to the Arena north
+D 0 13825   2 16384	* Road to the Arena south
+M 0 13752   1 13756  1	* a calm warrior
+M 0 13750   1 13757  1	* a friendly warrior
+M 0 13751   1 13762  1	* a gruff shopkeeper
+G 1 13753  -1     	*   comfortable leather boots
+G 1 13753  -1     	*   comfortable leather boots
+G 1 13753  -1     	*   comfortable leather boots
+G 1 13752  -1     	*   a shiny silver ring
+G 1 13750  -1     	*   a crude torch
+G 1 13755  -1     	*   a black leather strap
+G 1 13753  -1     	*   comfortable leather boots
+G 1 13751  -1     	*   soft leather pants
+G 1 13754  -1     	*   a leather skull cap
+G 1 13753  -1     	*   comfortable leather boots
+M 0 13757   1 13779  1	* a sticky spider web
+M 0 13758   9 13781  2	* a nasty mess of worms
+M 0 13758   9 13781  2	* a nasty mess of worms
+M 0 13756   5 13781  1	* a half-dead warrior
+M 0 13761  12 13783  2	* the stench of death and decay
+M 0 13758   9 13783  1	* a nasty mess of worms
+M 0 13761  12 13783  2	* the stench of death and decay
+M 0 13756   5 13784  1	* a half-dead warrior
+M 0 13759  11 13785  2	* a hissing snake
+M 0 13759  11 13785  2	* a hissing snake
+M 0 13756   5 13785  1	* a half-dead warrior
+M 0 13761  12 13786  3	* the stench of death and decay
+M 0 13761  12 13786  3	* the stench of death and decay
+M 0 13761  12 13786  3	* the stench of death and decay
+M 0 13756   5 13786  1	* a half-dead warrior
+M 0 13756   5 13787  1	* a half-dead warrior
+M 0 13758   9 13788  2	* a nasty mess of worms
+M 0 13758   9 13788  2	* a nasty mess of worms
+M 0 13761  12 13789  2	* the stench of death and decay
+M 0 13761  12 13789  2	* the stench of death and decay
+M 0 13759  11 13789  1	* a hissing snake
+M 0 13761  12 13790  1	* the stench of death and decay
+M 0 13761  12 13791  1	* the stench of death and decay
+M 0 13758   9 13792  1	* a nasty mess of worms
+M 0 13759  11 13793  1	* a hissing snake
+M 0 13758   9 13793  1	* a nasty mess of worms
+M 0 13759  11 13795  1	* a hissing snake
+M 0 13758   9 13795  1	* a nasty mess of worms
+M 0 13759  11 13796  2	* a hissing snake
+M 0 13758   9 13796  1	* a nasty mess of worms
+M 0 13761  12 13796  1	* the stench of death and decay
+M 0 13759  11 13796  2	* a hissing snake
+M 0 13761  12 13797  2	* the stench of death and decay
+M 0 13759  11 13797  3	* a hissing snake
+M 0 13759  11 13797  3	* a hissing snake
+M 0 13761  12 13797  2	* the stench of death and decay
+M 0 13759  11 13797  3	* a hissing snake
+M 0 13759  11 13798  1	* a hissing snake
+M 0 13764  25 13801  1	* a training dummy
+M 0 13765   8 13802  1	* a sad little slave
+M 0 13764  25 13802  1	* a training dummy
+M 0 13764  25 13803  1	* a training dummy
+M 0 13762   5 13804  1	* a female warrior
+M 0 13763   7 13804  1	* a lost cleric
+M 0 13764  25 13804  1	* a training dummy
+M 0 13765   8 13805  2	* a sad little slave
+M 0 13765   8 13805  2	* a sad little slave
+M 0 13764  25 13805  1	* a training dummy
+M 0 13764  25 13806  1	* a training dummy
+M 0 13763   7 13807  2	* a lost cleric
+M 0 13763   7 13807  2	* a lost cleric
+M 0 13764  25 13807  1	* a training dummy
+M 0 13764  25 13808  1	* a training dummy
+M 0 13763   7 13809  2	* a lost cleric
+M 0 13763   7 13809  2	* a lost cleric
+M 0 13764  25 13809  1	* a training dummy
+M 0 13764  25 13810  2	* a training dummy
+M 0 13764  25 13810  2	* a training dummy
+M 0 13762   5 13811  1	* a female warrior
+M 0 13765   8 13811  1	* a sad little slave
+M 0 13764  25 13811  1	* a training dummy
+M 0 13763   7 13812  1	* a lost cleric
+M 0 13762   5 13812  1	* a female warrior
+M 0 13764  25 13812  1	* a training dummy
+M 0 13765   8 13813  2	* a sad little slave
+M 0 13765   8 13813  2	* a sad little slave
+M 0 13764  25 13813  1	* a training dummy
+M 0 13762   5 13814  1	* a female warrior
+M 0 13764  25 13814  1	* a training dummy
+M 0 13764  25 13815  2	* a training dummy
+M 0 13764  25 13815  2	* a training dummy
+M 0 13765   8 13816  1	* a sad little slave
+M 0 13764  25 13816  1	* a training dummy
+M 0 13762   5 13817  1	* a female warrior
+M 0 13764  25 13817  1	* a training dummy
+M 0 13764  25 13818  2	* a training dummy
+M 0 13764  25 13818  2	* a training dummy
+M 0 13765   8 13819  1	* a sad little slave
+M 0 13763   7 13819  1	* a lost cleric
+M 0 13764  25 13819  1	* a training dummy
+M 0 13764  25 13820  3	* a training dummy
+M 0 13764  25 13820  3	* a training dummy
+M 0 13764  25 13820  3	* a training dummy
+M 0 13754   1 13821  1	* a grotesque hellhound
+M 0 13768   1 13824  1	* a butcher
+G 1 13766  -1     	*   a skinned rabbit
+G 1 13767  -1     	*   a slab of beef
+G 1 13768  -1     	*   a raw chunk of wild boar
+G 1 13769  -1     	*   a defeathered goose
+M 0 13769   1 13825  1	* a souvenir salesman
+G 1 13774  -1     	*   a hobby horse
+G 1 13773  -1     	*   a bunch of {mco{clo{grf{rul{x balloons
+G 1 13772  -1     	*   a toy crown
+G 1 13770  -1     	*   a toy shield
+M 0 13766   1 13826  1	* a man selling tickets
+G 1 13760  -1     	*   an arena ticket
+M 0 13767   1 13823  1	* a florist
+G 1 13762  -1     	*   a bright pink peony
+G 1 13763  -1     	*   a golden marigold
+G 1 13764  -1     	*   a beautiful lily
+G 1 13765  -1     	*   a purple iris
+G 1 13761  -1     	*   a beautiful rose
+D 0 13823   0 16384	* Road to the Arena north
+D 0 13823   2 16384	* Road to the Arena south
+O 0 13759 100 13834	* a dirty silver safe
+P 1 13775  -1 13759  1	*   a big chunk of gold
+D 0 13834   2 24580	* A Dark Closet south
+M 0 13771   5 13769  1	* a female warrior
+D 0 13769   2 16384	* The Courtyard Before the Arena south
+D 0 13769   3 16384	* The Courtyard Before the Arena west
+M 0 13771   5 13767  1	* a female warrior
+D 0 13767   0 16384	* The Courtyard Before the Arena north
+D 0 13767   1 16384	* The Courtyard Before the Arena east
+D 0 13767   2 16384	* The Courtyard Before the Arena south
+M 0 13771   5 13772  1	* a female warrior
+D 0 13772   0 16384	* The Courtyard Before the Arena north
+D 0 13772   1 16384	* The Courtyard Before the Arena east
+D 0 13772   3 16384	* The Courtyard Before the Arena west
+M 0 13771   5 13774  1	* a female warrior
+D 0 13774   0 16384	* The Courtyard Before the Arena north
+D 0 13774   2 16384	* The Courtyard Before the Arena south
+D 0 13774   3 16384	* The Courtyard Before the Arena west
+M 0 13773   2 13766  1	* a relaxed warrior
+D 0 13766   0 16384	* The Courtyard Before the Arena north
+D 0 13766   1 16384	* The Courtyard Before the Arena east
+M 0 13773   3 13765  1	* a relaxed warrior
+M 0 13771   0 13765  1	* a female warrior
+D 0 13765   0 16384	* The Courtyard Before the Arena north
+D 0 13765   1 16384	* The Courtyard Before the Arena east
+D 0 13765   3 16384	* The Courtyard Before the Arena west
+M 0 13773   4 13775  1	* a relaxed warrior
+D 0 13775   0 16384	* The Courtyard Before the Arena north
+D 0 13775   3 16384	* The Courtyard Before the Arena west
+M 0 13773   5 13777  1	* a relaxed warrior
+D 0 13777   2 16384	* The Courtyard Before the Arena south
+D 0 13777   3 16384	* The Courtyard Before the Arena west
+M 0 13773   6 13776  1	* a relaxed warrior
+D 0 13776   1 16384	* The Courtyard Before the Arena east
+D 0 13776   2 16384	* The Courtyard Before the Arena south
+D 0 13770   0 16384	* The Courtyard Before the Arena north
+D 0 13770   2 16384	* The Courtyard Before the Arena south
+D 0 13770   3 16384	* The Courtyard Before the Arena west
+M 0 13773   6 13773  1	* a relaxed warrior
+O 0 13757 100 13773	* a sturdy wooden bench
+D 0 13773   0 16384	* The Courtyard Before the Arena north
+D 0 13773   1 16384	* The Courtyard Before the Arena east
+D 0 13773   2 16384	* The Courtyard Before the Arena south
+M 0 13774   1 13884  1	* a huge, red spider
+E 1 13777  -1    5	*   a swath of gossamer spider web
+M 0 13770   5 13840  1	* a female spectator
+M 0 13770   8 13865  1	* a female spectator
+M 0 13776   1 13833  1	* an annoying child
+M 0 13770  15 13833  1	* a female spectator
+M 0 13776   2 13839  1	* an annoying child
+M 0 13776   3 13845  1	* an annoying child
+M 0 13770  15 13845  1	* a female spectator
+M 0 13775  10 13845  1	* a male spectator
+M 0 13776   4 13847  1	* an annoying child
+M 0 13775  10 13847  1	* a male spectator
+M 0 13776   5 13843  1	* an annoying child
+M 0 13770  15 13843  1	* a female spectator
+M 0 13776   6 13841  1	* an annoying child
+M 0 13770  15 13841  1	* a female spectator
+M 0 13776   7 13836  1	* an annoying child
+M 0 13770  15 13836  1	* a female spectator
+M 0 13776   8 13838  1	* an annoying child
+M 0 13770  15 13838  1	* a female spectator
+M 0 13775  10 13838  1	* a male spectator
+M 0 13775  12 13853  1	* a male spectator
+M 0 13776  15 13853  1	* an annoying child
+M 0 13770  15 13853  1	* a female spectator
+M 0 13775  13 13855  1	* a male spectator
+M 0 13770  15 13855  1	* a female spectator
+M 0 13775  15 13861  1	* a male spectator
+M 0 13776  15 13861  2	* an annoying child
+M 0 13776  15 13861  2	* an annoying child
+M 0 13770  15 13861  1	* a female spectator
+M 0 13775  16 13859  1	* a male spectator
+M 0 13770  15 13859  1	* a female spectator
+M 0 13775  17 13858  1	* a male spectator
+M 0 13770  15 13858  1	* a female spectator
+M 0 13775  18 13863  1	* a male spectator
+M 0 13776  15 13863  1	* an annoying child
+M 0 13775  20 13866  1	* a male spectator
+M 0 13776  15 13866  1	* an annoying child
+M 0 13775  21 13868  1	* a male spectator
+M 0 13776  15 13868  1	* an annoying child
+M 0 13770  15 13852  1	* a female spectator
+M 0 13776  15 13852  1	* an annoying child
+G 1 13779  -1     	*   a lollipop
+M 0 13775  18 13852  1	* a male spectator
+M 0 13777   2 13871  1	* an amateur gladiator
+M 0 13777   4 13878  1	* an amateur gladiator
+M 0 13777   5 13876  1	* an amateur gladiator
+M 0 13777   6 13869  1	* an amateur gladiator
+M 0 13777   7 13880  1	* an amateur gladiator
+M 0 13777   8 13882  1	* an amateur gladiator
+M 0 13772   1 13862  1	* a sad porter
+G 1 13776  -1     	*   a dirty key
+M 0 13770  15 13862  1	* a female spectator
+M 0 13772   2 13867  1	* a sad porter
+M 0 13770  15 13867  1	* a female spectator
+M 0 13772   3 13864  1	* a sad porter
+M 0 13775  17 13864  1	* a male spectator
+M 0 13772   4 13835  1	* a sad porter
+M 0 13772   5 13842  1	* a sad porter
+M 0 13775  17 13842  1	* a male spectator
+M 0 13772   6 13848  1	* a sad porter
+M 0 13770  15 13848  1	* a female spectator
+M 0 13775  17 13848  1	* a male spectator
+M 0 13772   7 13846  1	* a sad porter
+M 0 13775  17 13846  1	* a male spectator
+M 0 13753   1 13870  1	* a confident gladiator
+M 0 13753   2 13872  1	* a confident gladiator
+M 0 13777   8 13872  1	* an amateur gladiator
+M 0 13753   3 13873  1	* a confident gladiator
+M 0 13753   4 13877  1	* a confident gladiator
+D 0 13877   0 24579	* The Arena Floor north
+M 0 13753   5 13875  1	* a confident gladiator
+M 0 13753   6 13874  1	* a confident gladiator
+M 0 13753   7 13879  1	* a confident gladiator
+M 0 13753   8 13881  1	* a confident gladiator
+M 0 13753   9 13883  1	* a confident gladiator
+M 0 13777   8 13883  1	* an amateur gladiator
+M 0 13779   1 13885  1	* the Lord of Vega
+G 1 13781  -1     	*   a strange gold coin
+M 0 13760   1 13885  1	* the Dutchess of Druidia
+S
+
+#SHOPS
+13751  0  0  0  0  0 	  60  60 	 0 24 	* a gruff shopkeeper
+13766  0  0  0  0  0 	  50  50 	 0 24 	* a man selling tickets
+13767  0  0  0  0  0 	  50  50 	 0 24 	* a florist
+13768  0  0  0  0  0 	  50  50 	 0 24 	* a butcher
+13769  0  0  0  0  0 	  50  50 	 0 24 	* a souvenir salesman
+0
+
+#SPECIALS
+M 13774 spec_fido           	* a huge, red spider
+S
+
+#$

@@ -3,8 +3,8 @@ Name Watake~
 SurN Watak~
 Id   946492206
 Email (null)~
-LogO 1086412381
-Vers 31
+LogO 1408908512
+Vers 33
 Prom [%e %hHp %mMana %n/%N %v(%S)$%g.%s %a %wLbs %X]  ~
 Race human~
 Clan warlock~
@@ -12,10 +12,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Kill 0 1 0 6
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy Luthien~
 LstAtkedBy no one~
@@ -23,10 +24,16 @@ LstAtkedByTimer 0
 LstCombatDate 1046268786
 LstKillDate 1009062328
 LstDeathDate 1086227004
-LoginsWOKill 53
-LoginsWODeath 4
-LoginsWOCombat 13
+LoginsWOKill 62
+LoginsWODeath 13
+LoginsWOCombat 22
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 330130 mojo~
 DeityT -2728 almighty~
 Sac  300
@@ -36,48 +43,47 @@ Node 0
 Cap 0
 Created 956373280
 Glad 0 0 0 0 0 0
-LastHost 209.120.156.200~
+LastHost 209.169.196.58~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 562999
-Not  1086412342 1086412342 1086412342 1086412342 1086412342 1086412342 1086412342 1086412342 1086412342 1086412342
+Plyd 571106
+Not  1403936863 1362934238 1362934238 1362934238 1362934238 1362934238 1362934238 1362934238 1362934238 1362934238
 Scro 22
 Rank 3
-Room 31918
-HMV  581 581 823 1487 248 250
+Room 31905
+HMV  581 581 1439 1487 250 250
 Gold 199
 Silv 852
 Exp  51000
 Act  CDEFGHQ
 MHSF RU
-AfBy DF
 Comm S
 Disp FIJ
 IcgB 0
 Icg 0
 Pnet AEF
 Pos  4
-Trai 8
+Trai 14
 SkiP 16
 Save  -3
-Alig  1000
-Hit   6
-Dam   3
+Alig  998
+Hit   3
+Dam   1
 SecHit   3
 SecDam   1
 ACs 20 20 20 52
-Attr 12 20 18 13 16 13 13 13
-AMod 0 7 6 0 -4 0 0 0
+Attr 12 20 18 13 16 10 10 13
+AMod 4 7 6 0 -4 0 0 0
 Pass WaWXU1Cu7IlE6~
 Titl  [Enchanter] of the former Watak pack.~
 Pnts 40
 TSex 1
 LLev 1
 HMVP 531 1187 250
-Cnd  0 0 23 23
+Cnd  0 0 3 3
 Alias m cas 'enchant weapon'~
 Alias b cas 'enchant armor'~
 Alias t cas "warp"~
@@ -183,42 +189,7 @@ Gr 'enhancement'
 Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
-Affc 'detect hidden'   0  46  21   0   0         32
-Affc 'detect invis'   0  44  22   0   0          8
-End
-
-#O
-Vnum 2345
-Enchanted
-Nest 0
-PrevOwner Watake~
-ExtF 0
-Cond 0
-Wear -1
-Lev  40
-Cost 3400
-End
-
-#O
-Vnum 2409
-Nest 0
-PrevOwner Watake~
-Cond 0
-Wear -1
-Cost 3500
-End
-
-#O
-Vnum 669
-Enchanted
-Nest 0
-PrevOwner Watake~
-ExtF 0
-Cond 0
-Wear -1
-Lev  38
-Cost 2050
-Val  0 3 8 5 512
+Affc 'giant strength'   0  49  40   4   1          0
 End
 
 #O
@@ -228,15 +199,6 @@ PrevOwner Watake~
 Cond 0
 Wear 2
 Cost 5300
-End
-
-#O
-Vnum 10428
-Nest 0
-PrevOwner Watake~
-Cond 0
-Wear -1
-Cost 2900
 End
 
 #O
@@ -337,9 +299,9 @@ PrevOwner Watake~
 Cond 0
 Wear 6
 Cost 10000
-Affc 'reserved'   1  50  -1  -3   5          0
-Affc 'reserved'   1  50  -1  75  12          0
 Affc 'enchant armor'   1  52  -1  -8  17          0
+Affc 'reserved'   1  50  -1  75  12          0
+Affc 'reserved'   1  50  -1  -3   5          0
 End
 
 #O
@@ -348,15 +310,6 @@ Nest 0
 PrevOwner Watake~
 Cond 0
 Wear 11
-Cost 4000
-End
-
-#O
-Vnum 20819
-Nest 0
-PrevOwner Watake~
-Cond 0
-Wear -1
 Cost 4000
 End
 
@@ -398,42 +351,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 2200
-Affc 'enchant weapon'   0  52  -1  10  18          0
 Affc 'enchant weapon'   1  52  -1  10  19          0
-End
-
-#O
-Vnum 16715
-Nest 1
-PrevOwner Watake~
-Cond 0
-Wear -1
-Cost 1500
-Spell 3 'flamestrike'
-End
-
-#O
-Vnum 8011
-Enchanted
-Nest 1
-PrevOwner Watake~
-ExtF 64
-Cond 0
-Wear -1
-Lev  19
-Cost 1050
-Affc 'enchant weapon'   0  39  -1   2  18          0
-Affc 'enchant weapon'   1  39  -1   4  19          0
-End
-
-#O
-Vnum 16715
-Nest 1
-PrevOwner Watake~
-Cond 0
-Wear -1
-Cost 1500
-Spell 3 'flamestrike'
+Affc 'enchant weapon'   0  52  -1  10  18          0
 End
 
 #O
@@ -446,29 +365,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 2346
-Affc 'enchant weapon'   1  52  -1   9  19          0
 Affc 'enchant weapon'   0  52  -1   9  18          0
-End
-
-#O
-Vnum 22514
-Enchanted
-Nest 1
-PrevOwner Watake~
-ExtF 0
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-End
-
-#O
-Vnum 22514
-Nest 1
-PrevOwner Watake~
-Cond 0
-Wear -1
-Cost 0
+Affc 'enchant weapon'   1  52  -1   9  19          0
 End
 
 #O
@@ -481,11 +379,11 @@ Cond 0
 Wear -1
 Lev  41
 Cost 2346
-Affc 'enchant weapon'   1  52  -1   3  19          0
-Affc 'reserved'   1  40  -1  -3  17          0
-Affc 'reserved'   1  40  -1  10  13          0
-Affc 'reserved'   1  40  -1 -20  14          0
 Affc 'enchant weapon'   0  52  -1   1  18          0
+Affc 'reserved'   1  40  -1 -20  14          0
+Affc 'reserved'   1  40  -1  10  13          0
+Affc 'reserved'   1  40  -1  -3  17          0
+Affc 'enchant weapon'   1  52  -1   3  19          0
 End
 
 #O
@@ -507,15 +405,6 @@ PrevOwner Watake~
 Cond 0
 Wear -1
 Cost 800
-End
-
-#O
-Vnum 2422
-Nest 1
-PrevOwner Watake~
-Cond 0
-Wear -1
-Cost 700
 End
 
 #O
@@ -564,6 +453,24 @@ Cost 1100
 End
 
 #O
+Vnum 2408
+Nest 1
+PrevOwner Watake~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 31923
+Nest 1
+PrevOwner Watake~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
 Vnum 2439
 Nest 1
 PrevOwner Watake~
@@ -573,24 +480,72 @@ Cost 300
 End
 
 #O
-Vnum 11073
+Vnum 23144
 Enchanted
 Nest 1
 PrevOwner Watake~
 ExtF 0
 Cond 0
 Wear -1
-Lev  48
-Cost 2500
+Lev  26
+Cost 2100
 End
 
 #O
-Vnum 2408
+Vnum 3500
+Enchanted
 Nest 1
 PrevOwner Watake~
 Cond 0
 Wear -1
-Cost 5000
+Lev  17
+Cost 230
+End
+
+#O
+Vnum 1269
+Enchanted
+Nest 1
+PrevOwner Watake~
+ExtF 66
+Cond 0
+Wear -1
+Lev  18
+Cost 0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 22514
+Enchanted
+Nest 1
+PrevOwner Watake~
+ExtF 0
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+End
+
+#O
+Vnum 16715
+Nest 1
+PrevOwner Watake~
+Cond 0
+Wear -1
+Cost 1500
+Spell 3 'flamestrike'
+End
+
+#O
+Vnum 16715
+Nest 1
+PrevOwner Watake~
+Cond 0
+Wear -1
+Cost 1500
+Spell 3 'flamestrike'
 End
 
 #O
@@ -606,21 +561,61 @@ Cost 2200
 End
 
 #O
-Vnum 23144
+Vnum 2413
+Enchanted
 Nest 1
 PrevOwner Watake~
+ExtF 0
 Cond 0
 Wear -1
-Cost 4200
+Lev  50
+Cost 337
 End
 
 #O
-Vnum 31923
+Vnum 8500
+Nest 0
+PrevOwner Nod~
+ExtF 0
+Cond 0
+Wear 12
+Cost 3000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 20819
 Nest 1
 PrevOwner Watake~
 Cond 0
 Wear -1
-Cost 0
+Cost 4000
+End
+
+#O
+Vnum 10428
+Nest 1
+PrevOwner Watake~
+Cond 0
+Wear -1
+Cost 2900
+End
+
+#O
+Vnum 2409
+Nest 1
+PrevOwner Watake~
+Cond 0
+Wear -1
+Cost 3500
 End
 
 #O
@@ -644,44 +639,33 @@ Cost 1500
 End
 
 #O
-Vnum 3500
-Enchanted
+Vnum 13207
 Nest 1
 PrevOwner Watake~
 Cond 0
 Wear -1
-Lev  17
-Cost 230
+Cost 1500
 End
 
 #O
-Vnum 2413
+Vnum 13207
+Nest 1
+PrevOwner Watake~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 11073
 Enchanted
 Nest 1
 PrevOwner Watake~
 ExtF 0
 Cond 0
 Wear -1
-Lev  50
-Cost 675
-End
-
-#O
-Vnum 13207
-Nest 1
-PrevOwner Watake~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 13207
-Nest 1
-PrevOwner Watake~
-Cond 0
-Wear -1
-Cost 1500
+Lev  48
+Cost 2500
 End
 
 #O
@@ -694,31 +678,17 @@ Cost 157
 End
 
 #O
-Vnum 22514
+Vnum 8011
+Enchanted
 Nest 1
 PrevOwner Watake~
+ExtF 64
 Cond 0
 Wear -1
-Cost 0
-End
-
-#O
-Vnum 8500
-Nest 0
-PrevOwner Nod~
-ExtF 0
-Cond 0
-Wear 12
-Cost 3000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
+Lev  19
+Cost 1050
+Affc 'enchant weapon'   1  39  -1   4  19          0
+Affc 'enchant weapon'   0  39  -1   2  18          0
 End
 
 #O
@@ -731,18 +701,6 @@ Cost 5300
 End
 
 #O
-Vnum 18106
-Enchanted
-Nest 0
-PrevOwner (null)~
-ExtF 0
-Cond 0
-Wear -1
-Lev  50
-Cost 2250
-End
-
-#O
 Vnum 9602
 Nest 0
 PrevOwner (null)~
@@ -752,13 +710,25 @@ Cost 1000
 End
 
 #O
-Vnum 17627
+Vnum 9600
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1240
+End
+
+#O
+Vnum 669
+Enchanted
 Nest 0
 PrevOwner Watake~
-Stolen 28
+ExtF 0
 Cond 0
-Wear 16
-Cost 5700
+Wear -1
+Lev  38
+Cost 2050
+Val  0 3 8 5 512
 End
 
 #END

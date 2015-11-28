@@ -2,8 +2,8 @@
 Name Rael~
 Id   864503171
 Email (null)~
-LogO 1012542121
-Vers 29
+LogO 1387052803
+Vers 33
 Desc and out of the subway rael imperial aerosol kid
 ~
 Prom <%hhp %mm %vmv> ~
@@ -17,6 +17,7 @@ SkPTracker 1
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -24,10 +25,16 @@ LstAtkedByTimer 0
 LstCombatDate 1009484641
 LstKillDate 1009484641
 LstDeathDate 1009484641
-LoginsWOKill 5
-LoginsWODeath 5
-LoginsWOCombat 5
+LoginsWOKill 8
+LoginsWODeath 8
+LoginsWOCombat 8
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 239736 hermes~
 DeityT -32 hermes~
 Sac  300
@@ -37,48 +44,48 @@ Node 0
 Cap 0
 Created 1009484650
 Glad 0 0 0 0 0 0
-LastHost bgp509804bgs.verona01.nj.comcast.net~
+LastHost 68.39.199.72~
 Cla  14
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 1126926
-Not  1010021212 1009805379 0 1012078652 1008904782 1010015064 922553033 1010021153 0
+Plyd 1129234
+Not  1010021212 1009805379 0 1012078652 1367013430 1010015064 922553033 1010021153 0 0
 Scro 22
 Rank 0
-Room 31603
-HMV  1302 1302 447 447 302 302
-Gold 1417
+Room 31614
+HMV  1327 1327 447 447 302 302
+Gold 1422
 Silv 23379
 Exp  528360
 Act  BCDEFGHMQSd
-MHSF A
-AfBy JT
+MHSF AR
+AfBy HJT
 Comm GOS
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  4
 Prac 2
-Trai 9
+Trai 21
 SkiP 503
-Save  -2
+Save  -7
 Alig  898
-Hit   11
+Hit   14
 Dam   24
-SecHit   9
-SecDam   21
-ACs -57 -59 -59 -18
+SecHit   17
+SecDam   28
+ACs -65 -67 -67 -26
 Wimp  100
-Attr 20 20 21 19 20
-AMod 3 5 4 0 0
+Attr 20 20 21 19 20 11 14 13
+AMod 5 0 -2 2 2 0 0 0
 Pass RaG9IvVEqrF9Q~
 Titl  is his own worst enemy~
 Pnts 97
 TSex 1
 LLev 311
 HMVP 1282 442 302
-Cnd  0 0 13 2
+Cnd  0 0 42 36
 Alias dh cast 'Detect hidden'~
 Alias di cast 'detect invis'~
 Alias ed cast 'energy drain'~
@@ -285,9 +292,12 @@ Gr 'benedictions'
 Gr 'draconian'
 Gr 'protective'
 Gr 'transportation'
-Affc 'stone skin'   0  35  31 -40  17          0
-Affc 'shield'   0  38  38 -20  17          0
-Affc 'armor'   0  36  25 -20  17          0
+Affc 'armor'   0  35  14 -20  17          0
+Affc 'bless'   0  33   0  -5  24          0
+Affc 'bless'   0  30   0   5  18          0
+Affc 'shield'   0  40  44 -20  17          0
+Affc 'sanctuary'   0  40   3   0   0        128
+Affc 'stone skin'   0  40  37 -40  17          0
 End
 
 #O
@@ -348,6 +358,279 @@ Cost 5000
 End
 
 #O
+Vnum 3239
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 3239
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 3239
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 3239
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 3239
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 3239
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5920
+Enchanted
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 4000
+Affc 'enchant weapon'   1  52  -1   3  19          0
+Affc 'enchant weapon'   0  52  -1   2  18          0
+End
+
+#O
+Vnum 18905
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 3900
+End
+
+#O
+Vnum 6414
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 9200
+End
+
+#O
+Vnum 6434
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 5300
+End
+
+#O
+Vnum 5031
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 2600
+End
+
+#O
+Vnum 5032
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 6410
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 4300
+End
+
+#O
+Vnum 10443
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 1520
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 6423
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 19800
+End
+
+#O
+Vnum 6434
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 5300
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 5252
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 590
+End
+
+#O
+Vnum 20740
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 5932
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 11145
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 20701
+Nest 1
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
 Vnum 18913
 Nest 0
 PrevOwner (null)~
@@ -364,15 +647,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 4500
-End
-
-#O
-Vnum 20701
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear 0
-Cost 200
 End
 
 #O
@@ -396,20 +670,11 @@ Cost 3100
 End
 
 #O
-Vnum 11145
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear 18
-Cost 4500
-End
-
-#O
 Vnum 5922
 Nest 0
 PrevOwner Rael~
 Cond 0
-Wear -1
+Wear 3
 Cost 300
 End
 
@@ -427,17 +692,8 @@ Vnum 5234
 Nest 0
 PrevOwner Rael~
 Cond 0
-Wear -1
+Wear 18
 Cost 550
-End
-
-#O
-Vnum 5932
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 4000
 End
 
 #O
@@ -456,24 +712,6 @@ PrevOwner Rael~
 Cond 0
 Wear 14
 Cost 1150
-End
-
-#O
-Vnum 20740
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear 17
-Cost 4500
-End
-
-#O
-Vnum 5252
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 590
 End
 
 #O
@@ -512,7 +750,7 @@ Vnum 5922
 Nest 0
 PrevOwner Rael~
 Cond 0
-Wear -1
+Wear 4
 Cost 300
 End
 
@@ -521,7 +759,7 @@ Vnum 10429
 Nest 0
 PrevOwner Rael~
 Cond 0
-Wear -1
+Wear 2
 Cost 2700
 End
 
@@ -530,7 +768,7 @@ Vnum 10429
 Nest 0
 PrevOwner Rael~
 Cond 0
-Wear -1
+Wear 1
 Cost 2700
 End
 
@@ -539,152 +777,8 @@ Vnum 3414
 Nest 0
 PrevOwner Rael~
 Cond 0
-Wear -1
+Wear 16
 Cost 3500
-End
-
-#O
-Vnum 10431
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 10431
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 10431
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 6434
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 5300
-End
-
-#O
-Vnum 6423
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 19800
-End
-
-#O
-Vnum 10431
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 10443
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 1520
-End
-
-#O
-Vnum 6410
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 4300
-End
-
-#O
-Vnum 5933
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear 19
-Cost 0
-End
-
-#O
-Vnum 5032
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 5031
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 2600
-End
-
-#O
-Vnum 6434
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 5300
-End
-
-#O
-Vnum 6414
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 9200
-End
-
-#O
-Vnum 6406
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 19700
-End
-
-#O
-Vnum 18905
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 3900
 End
 
 #O
@@ -692,128 +786,8 @@ Vnum 20406
 Nest 0
 PrevOwner Rael~
 Cond 0
-Wear -1
+Wear 0
 Cost 225
-End
-
-#O
-Vnum 5920
-Enchanted
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear 16
-Cost 4000
-Affc 'enchant weapon'   1  52  -1   3  19          0
-Affc 'enchant weapon'   0  52  -1   2  18          0
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear 3
-Cost 2000
-End
-
-#O
-Vnum 5710
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear 2
-Cost 1000
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear 4
-Cost 2000
-End
-
-#O
-Vnum 5710
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear 1
-Cost 1000
-End
-
-#O
-Vnum 5700
-Nest 0
-PrevOwner Rael~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
 End
 
 #O
@@ -821,9 +795,27 @@ Vnum 6409
 Nest 0
 PrevOwner Rael~
 Cond 0
-Wear -1
+Wear 17
 Cost 11800
 Spell 3 'energy drain'
+End
+
+#O
+Vnum 5933
+Nest 0
+PrevOwner Rael~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6406
+Nest 0
+PrevOwner Rael~
+Cond 0
+Wear 19
+Cost 19700
 End
 
 #END

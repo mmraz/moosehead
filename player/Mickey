@@ -2,8 +2,8 @@
 Name Mickey~
 Id   991127217
 Email (null)~
-LogO 1127034409
-Vers 31
+LogO 1355805346
+Vers 33
 LnD  A Gladiator~
 Desc Always faded.
 ~
@@ -13,22 +13,27 @@ Clan zealot~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 5
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
-Kill 4 29 0 44
+Kill 4 30 0 44
 Steal 0 0 0
-LstK Grube~
+MSteal 0
+LstK Quickfeet~
 LstKBy Nhi~
 LstAtkedBy Trog~
-LstAtkedByTimer 14658
-LstCombatDate 1092892873
-LstKillDate 1074514183
+LstAtkedByTimer 12613
+LstCombatDate 1333601675
+LstKillDate 1307321121
 LstDeathDate 1117222693
-LoginsWOKill 19
-LoginsWODeath 6
-LoginsWOCombat 13
+LoginsWOKill 36
+LoginsWODeath 72
+LoginsWOCombat 20
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 400165 almighty~
 DeityT -12403 almighty~
 Sac  300
@@ -37,49 +42,50 @@ Vump  0
 Node 0
 Cap 0
 Created 991127222
-Glad 0 1 0 0 3 0
-LastHost adsl-69-232-210-120.dsl.pltn13.pacbell.net~
+Glad 1 1 0 0 4 0
+LastHost 166.137.214.142~
 Cla  11
 Kit nethermancer~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 2999454
-Not  1073823547 1073823547 1073823547 1074354563 1073823547 1073823547 1073823547 1073823547 1073823547 1073823547
+Plyd 3082334
+Not  1306541900 1073823547 1073823547 1343075803 1073823547 1073823547 1073823547 1308091898 1073823547 1073823547
 Scro 22
 Rank 3
 Room 31806
-HMV  1107 1107 985 985 389 488
-Gold 361
-Silv 7072
+HMV  1107 1107 916 985 508 508
+Gold 582
+Silv 6066
 Exp  448883
 Act  BDEFGHIQS
 MHSF RSU
-AfBy CDEFJTUb
-Comm S
+AfBy JT
+Comm ES
 Disp FGIJMN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 35
-SkiP 81
+Prac 36
+Trai 6
+SkiP 441
 Save  -6
 Alig  -1000
-Hit   25
-Dam   36
+Hit   17
+Dam   21
 SecHit   17
-SecDam   23
-ACs 22 22 22 22
-Attr 25 25 25 25 25 17 13 18
-AMod 0 10 0 -1 0 0 0 0
-Pass MiAkX.iR9.bcQ~
+SecDam   18
+ACs 72 72 72 72
+Attr 25 25 25 25 25 11 14 18
+AMod 0 10 0 0 0 0 0 0
+Pass Miqp0L6rWXW4M~
 Titl  the {Y"Iron Man"{x~
 Pnts 100
 TSex 1
 LLev 1
 HMVP 1087 892 488
-Cnd  0 3 12 9
+Cnd  0 0 17 0
 Alias k murder~
 Alias ma cast mag~
 Alias / cast word~
@@ -97,7 +103,7 @@ Alias xx c 'faerie fire'~
 Alias charm c charm~
 Sk 100 'acid blast'
 Sk 90 'adamantite skin'
-Sk 100 'annointment'
+OldSk 100 'annointment'
 Sk 100 'armor'
 Sk 100 'blindness'
 Sk 100 'blur'
@@ -110,7 +116,6 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 100 'chill touch'
 Sk 75 'colour spray'
-Sk 1 'cone of silence'
 Sk 75 'continual light'
 Sk 78 'control weather'
 Sk 75 'create food'
@@ -188,7 +193,7 @@ Sk 87 'warp'
 Sk 96 'weaken'
 Sk 100 'word of recall'
 Sk 90 'acid breath'
-Sk 87 'fire breath'
+Sk 93 'fire breath'
 Sk 100 'frost breath'
 Sk 100 'gas breath'
 Sk 80 'lightning breath'
@@ -215,7 +220,7 @@ Sk 100 'parry'
 Sk 100 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
-Sk 94 'fade'
+Sk 96 'fade'
 Sk 100 'haggle'
 Sk 100 'meditation'
 Sk 100 'nethermancy'
@@ -244,11 +249,6 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'stone skin'   0  45  13 -40  17          0
-Affc 'shield'   0  42  21 -20  17          0
-Affc 'detect magic'   0  41  12   0   0         16
-Affc 'detect invis'   0  42  12   0   0          8
-Affc 'detect hidden'   0  45  14   0   0         32
 End
 
 #O
@@ -256,7 +256,7 @@ Vnum 11145
 Nest 0
 PrevOwner Mickey~
 Cond 0
-Wear 18
+Wear -1
 Cost 4500
 End
 
@@ -276,7 +276,7 @@ PrevOwner Mickey~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 3 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -287,7 +287,7 @@ PrevOwner Mickey~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 3 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -298,7 +298,7 @@ PrevOwner Mickey~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 3 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -318,440 +318,6 @@ PrevOwner Mickey~
 Cond 0
 Wear -1
 Cost 500000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 3 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 17631
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12010
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -764,12 +330,222 @@ Cost 1200
 End
 
 #O
+Vnum 12010
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 17631
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 102
+Nest 1
+PrevOwner Mickey~
+Name flag~
+ShD  (Dweeb) flag~
+Desc A (Dweeb) flag~
+Cond 0
+Wear -1
+Cost 310
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
 Vnum 10320
 Nest 1
 PrevOwner Mickey~
 Cond 0
 Wear -1
 Cost 9500
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Mickey~
+Cond 0
+Wear -1
+Cost 500000
 End
 
 #O
@@ -808,165 +584,80 @@ Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O
-Vnum 10326
+Vnum 18119
+Enchanted
+Nest 1
+PrevOwner Mickey~
+Name drain flame~
+ShD  {WF{Wr{Wo{Ws{Wt{x {RF{Rl{Ra{Rm{Re{x {DD{Dr{Da{Di{Dn{x~
+Desc {WF{Wr{Wo{Ws{Wt{x {RF{Rl{Ra{Rm{Re{x {DD{Dr{Da{Di{Dn{x combined... is CAPTAIN ROHON!!~
+ExtF 98
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Val  2 2 19 2 7
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Mickey~
+Damaged 48
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 9 164 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 3007
 Nest 1
 PrevOwner Mickey~
 Cond 0
 Wear -1
-Cost 500
+Cost 500000
 End
 
 #O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
+Vnum 22044
 Nest 1
 PrevOwner Mickey~
 Cond 0
 Wear -1
-Cost 500
+Cost 100000
 End
 
 #O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
+Vnum 22044
 Nest 1
 PrevOwner Mickey~
 Cond 0
 Wear -1
-Cost 500
+Cost 100000
 End
 
 #O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
+Vnum 2407
 Nest 1
 PrevOwner Mickey~
 Cond 0
 Wear -1
-Cost 500
+Cost 1500
 End
 
 #O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
+Vnum 10440
 Nest 1
 PrevOwner Mickey~
 Cond 0
 Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Mickey~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
+Cost 8500
+Val  52 10 9 164 0
+Spell 3 'remove curse'
 End
 
 #O
@@ -997,15 +688,6 @@ Cost 3000
 End
 
 #O
-Vnum 2505
-Nest 0
-PrevOwner Mickey~
-Cond 0
-Wear 14
-Cost 1150
-End
-
-#O
 Vnum 5909
 Nest 0
 PrevOwner Mickey~
@@ -1021,15 +703,6 @@ PrevOwner Mickey~
 Cond 0
 Wear 3
 Cost 1400
-End
-
-#O
-Vnum 20740
-Nest 0
-PrevOwner Mickey~
-Cond 0
-Wear 17
-Cost 4500
 End
 
 #O
@@ -1087,25 +760,6 @@ Cost 4000
 End
 
 #O
-Vnum 18119
-Enchanted
-Nest 0
-PrevOwner Mickey~
-Name drain flame~
-ShD  {WF{Wr{Wo{Ws{Wt{x {RF{Rl{Ra{Rm{Re{x {DD{Dr{Da{Di{Dn{x~
-Desc {WF{Wr{Wo{Ws{Wt{x {RF{Rl{Ra{Rm{Re{x {DD{Dr{Da{Di{Dn{x combined... is CAPTAIN ROHON!!~
-ExtF 98
-Stolen 246
-Cond 0
-Wear 16
-Lev  50
-Cost 4500
-Val  2 2 19 2 7
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-End
-
-#O
 Vnum 1236
 Nest 0
 PrevOwner (null)~
@@ -1121,6 +775,179 @@ PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 0
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 14
+Cost 1150
+End
+
+#O
+Vnum 2436
+Nest 0
+PrevOwner Mickey~
+Cond 0
+Wear 13
+Cost 200
+End
+
+#O
+Vnum 2419
+Nest 0
+PrevOwner Mickey~
+Stolen 2956
+Cond 0
+Wear 16
+Cost 2100
+Val  8 3 13 6 1280
+End
+
+#O
+Vnum 20740
+Nest 0
+PrevOwner Mickey~
+Cond 0
+Wear 17
+Cost 4500
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
 End
 
 #END

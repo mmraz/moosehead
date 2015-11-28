@@ -3,8 +3,9 @@ Name Kritter~
 SurN Koon~
 Id   1020726017
 Email (null)~
-LogO 1114855690
-Vers 31
+LogO 1373609895
+Vers 33
+LnD  A dying Gladiator~
 Desc This ugly little goblin will brew you a nice potion.
 ~
 Prom <%h Hp %m Mn %v Mv>%c<%XXp %SDp %gg %ss> ~
@@ -13,10 +14,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -28,78 +30,92 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 xochipili~
 DeityT -2016 xochipili~
-Sac  250
-Sex  1
+Sac  300
+Sex  0
 Vump  0
 Node 0
 Cap 0
 Created 1020726114
-Glad 0 0 0 0 0 0
-LastHost c-24-20-206-252.hsd1.or.comcast.net~
+Glad 1 1 0 0 1 0
+LastHost 98.232.225.18~
 Cla  0
 Kit alchemist~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 115120
-Not  1087173850 1087173850 1087173850 1087173850 1087173850 1087173850 1087173850 1087173850 1087173850 1087173850
+Plyd 141118
+Not  1353853328 1353670862 1353670862 1353670862 1353670862 1353692901 1353670862 1353670862 1353670862 1354420953
 Scro 22
 Rank 0
-Room 3059
-HMV  435 435 727 727 382 393
-Gold 14
-Silv 90
+Room 22225
+HMV  435 435 869 947 198 388
+Gold 3826
+Silv 85
 Exp  81703
-Act  DGK
+Act  CDEGK
 MHSF R
-AfBy DFJ
+AfBy J
 Comm G
 Disp BFGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGH
 Pos  8
-Prac 44
-SkiP 8
-Alig  -1000
-Hit   7
-Dam   8
-SecHit   7
-SecDam   8
-ACs 57 57 57 65
-Attr 18 21 18 19 17 16 11 8
-AMod 2 0 1 3 0 0 0 0
+Prac 33
+ReTrai 4
+SkiP 34
+Save  -11
+Alig  -969
+Hit   32
+Dam   25
+SecHit   25
+SecDam   18
+ACs 5 25 5 11
+Wimp  20
+Attr 18 21 18 19 17 11 11 9
+AMod 6 1 2 3 0 2 0 0
 Pass KrYpHzaIfhGgM~
-Titl  {cBubble Bubble Toil&Trouble. {g(Alchemist){x~
+Titl , {cBubble Bubble {mToil&Trouble{x. {g(Alchemist){x~
 Pnts 52
 TSex 1
 LLev 21
 HMVP 435 702 388
-Cnd  0 0 0 10
+Cnd  0 0 0 0
 Alias spamb {brew molotov;brew mana;brew molotov;brew mana;brew molotov;brew mana;}~
 Alias gate c 'gate'~
 Alias sum c 'summon'~
 Alias ab c 'acid'~
 Alias gac get all cor~
 Alias loc c 'locate'~
-Sk 97 'acid blast'
+Sk 100 'acid blast'
 Sk 76 'armor'
 Sk 75 'blindness'
 Sk 75 'burning hands'
 Sk 75 'calm'
-Sk 75 'cancellation'
+Sk 77 'cancellation'
 Sk 75 'chain lightning'
 Sk 1 'change sex'
 Sk 76 'charm person'
 Sk 75 'chill touch'
 Sk 75 'colour spray'
-Sk 1 'cone of silence'
+Sk 75 'continual light'
+Sk 75 'create food'
+Sk 78 'create fountain'
+Sk 75 'create rose'
+Sk 75 'create spring'
+Sk 75 'create water'
 Sk 77 'curse'
 Sk 75 'detect evil'
 Sk 75 'detect good'
-Sk 78 'detect hidden'
+Sk 81 'detect hidden'
 Sk 77 'detect invis'
 Sk 75 'detect magic'
 Sk 75 'detect poison'
@@ -107,27 +123,28 @@ Sk 75 'diamond skin'
 Sk 78 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
-Sk 75 'energy drain'
+Sk 76 'energy drain'
 Sk 1 'enervation'
 Sk 75 'famine'
 Sk 75 'farsight'
 Sk 1 'feeblemind'
-Sk 82 'fireball'
+Sk 84 'fireball'
 Sk 75 'fireproof'
 Sk 78 'flameseek'
+Sk 75 'floating disc'
 Sk 78 'fly'
 Sk 1 'forget'
 Sk 1 'fumble'
-Sk 85 'gate'
-Sk 78 'giant strength'
-Sk 80 'haste'
+Sk 95 'gate'
+Sk 86 'giant strength'
+Sk 84 'haste'
 Sk 75 'hydrophilia'
-Sk 77 'identify'
+Sk 79 'identify'
 Sk 75 'infravision'
 Sk 1 'knock'
 Sk 75 'know alignment'
 Sk 83 'lightning bolt'
-Sk 75 'locate object'
+Sk 78 'locate object'
 Sk 96 'magic missile'
 Sk 75 'nexus'
 Sk 75 'pass door'
@@ -139,8 +156,8 @@ Sk 75 'protection good'
 Sk 75 'protection neutral'
 Sk 79 'refresh'
 Sk 1 'sacred guardian'
-Sk 83 'sanctuary'
-Sk 75 'shield'
+Sk 86 'sanctuary'
+Sk 78 'shield'
 Sk 75 'shocking grasp'
 Sk 75 'sleep'
 Sk 75 'slow'
@@ -148,8 +165,9 @@ Sk 75 'steel skin'
 Sk 75 'stone skin'
 Sk 80 'summon'
 Sk 75 'teleport'
+Sk 75 'warp'
 Sk 75 'weaken'
-Sk 98 'word of recall'
+Sk 100 'word of recall'
 Sk 75 'animate dead'
 Sk 83 'summon dead'
 Sk 75 'cryogenesis'
@@ -163,251 +181,26 @@ Sk 89 'dodge'
 Sk 87 'parry'
 Sk 55 'scan'
 Sk 100 'alchemy'
-Sk 80 'haggle'
-Sk 93 'meditation'
+Sk 88 'haggle'
+Sk 96 'meditation'
 Sk 100 'spellcraft'
 Sk 75 'scrolls'
 Sk 75 'staves'
-Sk 81 'wands'
+Sk 82 'wands'
 Sk 50 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'beguiling'
 Gr 'combat'
+Gr 'creation'
 Gr 'detection'
 Gr 'enhancement'
 Gr 'maladictions'
 Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
-Affc 'speed'   0  51   3   0   0          0
-Affc 'detect hidden'   0  44  27   0   0         32
-Affc 'detect invis'   0  50  28   0   0          8
-End
-
-#O
-Vnum 23109
-Nest 0
-PrevOwner Kritter~
-Cond 0
-Wear 7
-Cost 1500
-End
-
-#O
-Vnum 23108
-Nest 0
-PrevOwner Kritter~
-Cond 0
-Wear 5
-Cost 1500
-End
-
-#O
-Vnum 23107
-Nest 0
-PrevOwner Kritter~
-Cond 0
-Wear 10
-Cost 1313
-End
-
-#O
-Vnum 23106
-Nest 0
-PrevOwner Kritter~
-Cond 0
-Wear 6
-Cost 1245
-End
-
-#O
-Vnum 23111
-Nest 0
-PrevOwner Kritter~
-Cond 0
-Wear 9
-Cost 1350
-End
-
-#O
-Vnum 23110
-Nest 0
-PrevOwner Kritter~
-Cond 0
-Wear 8
-Cost 1328
-End
-
-#O
-Vnum 8500
-Nest 0
-PrevOwner Kritter~
-ExtF 0
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 23135
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 39
-Val  150 78 36 0 0
-End
-
-#O
-Vnum 3044
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 320
-Val  4 10 9 134 0
-Spell 3 'magic missile'
-End
-
-#O
-Vnum 3044
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 223
-Spell 3 'magic missile'
-End
-
-#O
-Vnum 3034
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 28
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 0
-Val  51 135 -1 -1 -1
-Spell 1 'magic resistance'
-End
-
-#O
-Vnum 28
-Nest 1
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 0
-Val  51 135 -1 -1 -1
-Spell 1 'magic resistance'
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner Kritter~
-Cond 0
-Wear 3
-Cost 2000
-End
-
-#O
-Vnum 2803
-Nest 0
-PrevOwner Kritter~
-Cond 0
-Wear 1
-Cost 1150
-End
-
-#O
-Vnum 2911
-Nest 0
-PrevOwner Kritter~
-Cond 0
-Wear 0
-Cost 0
+Affc 'giant strength'   0  50  39   4   1          0
 End
 
 #O
@@ -420,28 +213,10 @@ Cost 4200
 End
 
 #O
-Vnum 2907
-Nest 0
-PrevOwner Om~
-Cond 0
-Wear 14
-Cost 10
-End
-
-#O
-Vnum 2908
-Nest 0
-PrevOwner Om~
-Cond 0
-Wear 17
-Cost 3000
-Spell 3 'poison'
-End
-
-#O
 Vnum 3726
 Nest 0
 PrevOwner Kritter~
+Damaged 38
 Cond 0
 Wear 12
 Cost 0
@@ -449,12 +224,231 @@ Val  100 1 0 10 85
 End
 
 #O
-Vnum 9534
-Nest 0
+Vnum 3034
+Nest 1
 PrevOwner Kritter~
 Cond 0
 Wear -1
-Cost 12
+Cost 7000
+Val  51 213 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 28
+Nest 1
+PrevOwner Kritter~
+Cond 0
+Wear -1
+Cost 0
+Val  51 140 -1 -1 -1
+Spell 1 'magic resistance'
+End
+
+#O
+Vnum 28
+Nest 1
+PrevOwner Kritter~
+Cond 0
+Wear -1
+Cost 0
+Val  51 140 -1 -1 -1
+Spell 1 'magic resistance'
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Kritter~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Kritter~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 10447
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 5
+Cost 13700
+End
+
+#O
+Vnum 20819
+Nest 0
+PrevOwner Zest~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 2438
+Nest 0
+PrevOwner Zest~
+Cond 0
+Wear 8
+Cost 0
+End
+
+#O
+Vnum 23512
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 2
+Cost 6740
+End
+
+#O
+Vnum 23512
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 6740
+End
+
+#O
+Vnum 23513
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 4
+Cost 6410
+End
+
+#O
+Vnum 23513
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 6410
+End
+
+#O
+Vnum 18912
+Enchanted
+Nest 0
+PrevOwner Zest~
+ExtF 83
+Cond 0
+Wear 16
+Lev  47
+Cost 4800
+Val  2 2 17 11 14
+Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'reserved'   1  40  -1   0   0          0
+Affc 'reserved'   1  40  -1  -1  20          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 21
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 8544
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 15
+Cost 9999
+End
+
+#O
+Vnum 8544
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 14
+Cost 9999
+End
+
+#O
+Vnum 8543
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 4250
+End
+
+#O
+Vnum 8545
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 9
+Cost 3400
+End
+
+#O
+Vnum 5914
+Nest 0
+PrevOwner Kritter~
+ExtF 134217792
+Wt   25
+Cond 0
+Wear 6
+Cost 4000
+Val  7 7 7 4 0
+End
+
+#O
+Vnum 5944
+Enchanted
+Nest 0
+PrevOwner Zest~
+ExtF 688390977
+Wt   3
+Cond 0
+Wear 7
+Cost 500
+Affc 'reserved'   1  50  -1   1   2          0
+Affc 'reserved'   1  50  -1   3  18          0
+Affc 'reserved'   1  50  -1   4  27          0
+Affc 'enchant armor'   1  53  -1  -7  17          0
+End
+
+#O
+Vnum 15101
+Nest 0
+PrevOwner Nether~
+ExtF 97
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 8531
+Nest 0
+PrevOwner Friend~
+Cond 0
+Wear 13
+Cost 0
 End
 
 #END

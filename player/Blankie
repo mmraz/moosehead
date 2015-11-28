@@ -2,16 +2,16 @@
 Name Blankie~
 Id   993442908
 Email (null)~
-LogO 1126273684
+LogO 1312946535
 Vers 31
 LnD  A Gladiator~
 Desc He looks just like his uncle... well one of them.
 ~
-Prom <%hhp %mmp %vmv %Ssac %gg %ss %Xexp %e> ~
+Prom %php %Pmp %vmv %Ssac %gg %ss %Xexp %r> ~
 Race kender~
 Clan zealot~
 Outc 0
-RufT 0
+RufT 424
 MatookT 0
 SkPTimer 0
 SkPTracker 0
@@ -22,13 +22,16 @@ LstK Circa~
 LstKBy Statik~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1064170950
+LstCombatDate 1309919289
 LstKillDate 1064096007
 LstDeathDate 1063929566
-LoginsWOKill 20
-LoginsWODeath 28
-LoginsWOCombat 18
-Bnty 0
+LoginsWOKill 26
+LoginsWODeath 34
+LoginsWOCombat 3
+Bnty 700
+DeityFavor 2 0
+PrefStat 0
+QuestWins 0 0
 Deity 16056 almighty~
 DeityT -30 almighty~
 Sac  300
@@ -37,54 +40,57 @@ Vump  3
 Node 0
 Cap 0
 Created 993442916
-Glad 1 1 0 0 1 0
-LastHost CPE000f3d4a523d-CM00137185267a.cpe.net.cable.rogers.com~
+Glad 1 1 0 0 4 0
+LastHost 75.119.226.125~
 Cla  4
 ClaO 2
 Levl 48
 DLevl 0
-Plyd 194262
+Plyd 200719
 Not  1126147792 1126245693 1125718675 1126122115 1125718675 1126243427 1125718675 1125718675 1125718675 1125952714
 Scro 22
 Rank 2
-Room 31802
-HMV  868 868 357 357 519 519
+Room 31816
+HMV  988 988 293 357 519 519
 Gold 0
-Silv 20
-Exp  395740
+Silv 13
+Exp  398392
 Act  BDFGHQSZa
 MHSF RSV
-AfBy CDF
-Comm SZ
+AfBy HPV
+Comm S
 Disp FIJLN
 IcgB 0
 Icg 0
+Wizn W
 Pnet ABCDEFGHI
 Pos  8
 Prac 15
-Trai 2
-SkiP 3
+SkiP 28
 Save  -9
 Alig  -1000
-Hit   18
-Dam   31
-SecHit   16
-SecDam   29
-ACs -123 -123 -123 -123
-Wimp  5
-Attr 18 17 18 24 17 23 19 19
-AMod 5 7 4 1 4 0 0 0
+Hit   17
+Dam   29
+SecHit   15
+SecDam   27
+ACs -102 -102 -102 -102
+Attr 18 17 18 24 17 15 11 25
+AMod 3 7 4 5 4 0 0 0
 Pass BlfF.w62Vn7P.~
 Titl  is your favorite nephew~
 Pnts 99
 TSex 1
 LLev 52
-HMVP 808 346 549
-Cnd  0 19 20 20
+HMVP 928 346 549
+Cnd  0 0 7 7
 Alias / c word~
 Alias m murder~
 Alias aa put all sat~
 Alias hh c gate sorbus~
+Alias se ba 2.~
+Alias sw kick~
+Alias nw back~
+Alias ne flee~
 Sk 1 'aid'
 Sk 75 'armor'
 Sk 1 'bestow holiness'
@@ -97,7 +103,7 @@ Sk 1 'endure heat'
 Sk 56 'feast'
 Sk 59 'fireproof'
 Sk 60 'fly'
-Sk 72 'frenzy'
+Sk 74 'frenzy'
 Sk 86 'gate'
 Sk 85 'giant strength'
 Sk 95 'haste'
@@ -107,15 +113,15 @@ Sk 1 'knock'
 Sk 1 'nexus'
 Sk 84 'pass door'
 Sk 1 'portal'
-Sk 81 'protection evil'
+Sk 84 'protection evil'
 Sk 78 'protection good'
 Sk 1 'protection neutral'
 Sk 86 'refresh'
 Sk 59 'remove curse'
 Sk 1 'sacred guardian'
 Sk 75 'sanctuary'
-Sk 75 'shield'
-Sk 61 'stone skin'
+Sk 76 'shield'
+Sk 64 'stone skin'
 Sk 75 'summon'
 Sk 78 'teleport'
 Sk 80 'word of recall'
@@ -149,7 +155,9 @@ Gr 'benedictions'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'shield'   0  30   6 -20  17          0
+Affc 'haste'   0  43  15   4   2    2097152
+Affc 'sneak'   0  48  42   0   0      32768
+Affc 'sanctuary'   0  41   0   0   0        128
 End
 
 #O
@@ -381,19 +389,10 @@ End
 Vnum 18108
 Nest 0
 PrevOwner Blankie~
-Stolen 793
+Stolen 634
 Cond 0
 Wear -1
 Cost 5600
-End
-
-#O
-Vnum 11078
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 11
-Cost 3500
 End
 
 #O
@@ -496,15 +495,6 @@ Cost 100000
 End
 
 #O
-Vnum 11098
-Nest 0
-PrevOwner Blankie~
-Cond 0
-Wear 16
-Cost 3500
-End
-
-#O
 Vnum 8544
 Nest 0
 PrevOwner (null)~
@@ -529,6 +519,15 @@ PrevOwner (null)~
 Cond 0
 Wear 10
 Cost 4250
+End
+
+#O
+Vnum 11098
+Nest 0
+PrevOwner Blankie~
+Cond 0
+Wear 16
+Cost 3500
 End
 
 #END

@@ -2,18 +2,19 @@
 Name Dace~
 Id   981902902
 Email (null)~
-LogO 1104681071
-Vers 31
+LogO 1353544659
+Vers 33
 Prom <%hhp %mm %vmv> ~
 Race human~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 16
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,54 +26,59 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
-Sac  300
+Sac  225
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 981902913
 Glad 0 0 0 0 0 0
-LastHost 80.3.240.121~
+LastHost 110.143.45.115~
 Cla  4
 ClaO 1
-Levl 14
+Levl 15
 DLevl 0
-Plyd 27940
-Not  0 0 0 0 0 992729126 0 0 0 0
+Plyd 32465
+Not  1349738811 0 0 1343075803 0 992729126 0 0 0 0
 Scro 22
 Rank 0
-Room 3770
-HMV  199 199 251 251 148 157
-Gold 402
-Silv 7192
-Exp  116491
+Room 3001
+HMV  210 210 260 260 168 168
+Gold 421
+Silv 8686
+Exp  130668
 Act  CDEFGH
 MHSF R
-AfBy CJ
-Comm GILR
+AfBy J
+Comm GLR
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 24
-SkiP 36
-Save  -5
+Prac 28
+Trai 1
+SkiP 42
+Save  -6
 Alig  -1000
-Hit   16
+Hit   17
 Dam   11
-SecHit   5
-ACs 4 4 4 4
+SecHit   6
+ACs 24 24 24 24
 Wimp  20
 Attr 18 17 19 16 18 18 18 13
 AMod 7 3 4 2 5 0 0 0
-Pass DabLWbrCa5fyE~
+Pass DawGpFzwxs88k~
 Titl  better of two halves.~
 Pnts 100
 TSex 1
-LLev 7
-HMVP 189 231 157
-Cnd  0 0 35 13
+LLev 8
+HMVP 200 240 168
+Cnd  0 0 0 0
 Sk 1 'aid'
 Sk 71 'armor'
 Sk 1 'bestow holiness'
@@ -210,12 +216,10 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-Affc 'detect good'   0   9   0   0   0          4
-Affc 'giant strength'   0  48  32   4   1          0
-Affc 'shield'   0  46  31 -20  17          0
-Affc 'armor'   0  39   4 -20  17          0
-Affc 'bless'   0  37  19  -5  24          0
-Affc 'bless'   0  41  19   5  18          0
+Affc 'giant strength'   0  40  12   4   1          0
+Affc 'bless'   0  46  15  -6  24          0
+Affc 'bless'   0  42  15   6  18          0
+Affc 'shield'   0  41  17 -20  17          0
 End
 
 #O
@@ -276,7 +280,6 @@ PrevOwner Dace~
 Cond 0
 Wear -1
 Cost 24
-Val  64 0 0 0 0
 End
 
 #O
@@ -566,15 +569,6 @@ Cost 550
 End
 
 #O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
 Vnum 4433
 Nest 0
 PrevOwner (null)~
@@ -773,21 +767,6 @@ Cost 910
 End
 
 #O
-Vnum 3020
-Enchanted
-Nest 0
-PrevOwner Vampboodrum~
-ExtF 66
-Cond 0
-Wear 16
-Lev  11
-Cost 151
-Val  2 1 4 2 4
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-End
-
-#O
 Vnum 3072
 Nest 0
 PrevOwner (null)~
@@ -812,6 +791,81 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 490
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Lemac~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 3020
+Enchanted
+Nest 0
+PrevOwner Cresent~
+ExtF 66
+Cond 0
+Wear 16
+Lev  11
+Cost 151
+Val  2 1 4 2 12
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+End
+
+#O
+Vnum 3723
+Nest 0
+PrevOwner Mechanical~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3723
+Nest 0
+PrevOwner Mechanical~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3723
+Nest 0
+PrevOwner Mechanical~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3723
+Nest 0
+PrevOwner Mechanical~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 3723
+Nest 0
+PrevOwner Mechanical~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'fly'
 End
 
 #END

@@ -2,7 +2,7 @@
 Name KingStephen~
 Id   951084180
 Email (null)~
-LogO 1075825005
+LogO 1314312432
 Vers 31
 LnD  A Gladiator~
 Desc Thats right THE KingStephen (Not to be confused with Stephen King)
@@ -15,13 +15,13 @@ Desc Thats right THE KingStephen (Not to be confused with Stephen King)
 It is rumoured that his are the finest dwarven crafted weapons, and
 though they may be costly, you know you are getting quality.
 ~
-Prom <%hhp %mnana %vmv %W{GWeight{x> ~
+Prom <%h/%HHp %m/%MMana %v/%VMv %w{GLbs{x> ~
 Race faerie~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -36,6 +36,9 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 243017 matook~
 DeityT -478 matook~
 Sac  300
@@ -45,20 +48,20 @@ Node 0
 Cap 0
 Created 951446502
 Glad 0 0 0 0 0 0
-LastHost 67.60.23.27~
+LastHost 142.46.160.233~
 Cla  11
 Kit alchemist~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 604320
-Not  1075824663 1075824663 1075824663 1075824663 1075824663 1075824663 1075824663 1075824663 1075824663 1075824663
+Plyd 631823
+Not  1313722380 1313722380 1313722380 1313722380 1313722380 1313722380 1313722380 1313722380 1313722380 1313722380
 Scro 22
 Rank 0
-Room 3263
-HMV  773 789 1118 1118 481 481
-Gold 269
-Silv 7485
+Room 3059
+HMV  779 779 1118 1118 481 481
+Gold 101
+Silv 36
 Exp  119479
 Act  CDEFGHIMS
 MHSF R
@@ -70,24 +73,25 @@ Icg 0
 Pnet ACEFH
 Pos  8
 Prac 3
-SkiP 77
+Trai 5
+SkiP 222
 Save  -4
-Alig  -985
+Alig  -1000
 Hit   10
 Dam   17
 SecHit   5
 SecDam   7
-ACs 67 67 67 57
+ACs 69 69 69 59
 Wimp  20
-Attr 13 25 25 25 13 15 13 13
-AMod 0 0 0 2 0 0 0 0
+Attr 13 25 25 25 13 17 8 13
+AMod 4 0 0 2 0 0 0 0
 Pass Ki54LsOg9NTeU~
 Titl  can now brew stuff~
 Pnts 59
 TSex 1
 LLev 1
 HMVP 639 1048 481
-Cnd  0 0 5 5
+Cnd  0 0 0 0
 Alias / ca word~
 Alias 9 o all rescue skel~
 Alias bl bleed~
@@ -98,7 +102,7 @@ Alias en ca 'energy drain'~
 Alias f ca 'faerie fog'~
 Alias t ca 'teleport' self~
 Alias 3 order all enter chest~
-Alias 1 ca fumble tax~
+Alias 1 ca summon goyf~
 Alias 2 get all~
 Sk 100 'acid blast'
 Sk 87 'armor'
@@ -115,6 +119,7 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 77 'chill touch'
 Sk 75 'colour spray'
+Sk 1 'cone of silence'
 Sk 83 'continual light'
 Sk 78 'control weather'
 Sk 75 'create food'
@@ -127,10 +132,10 @@ OldSk 1 'cure light'
 OldSk 1 'cure serious'
 Sk 100 'curse'
 Sk 75 'detect evil'
-Sk 79 'detect good'
+Sk 82 'detect good'
 Sk 75 'detect hidden'
 Sk 75 'detect invis'
-Sk 86 'detect magic'
+Sk 89 'detect magic'
 Sk 75 'detect poison'
 Sk 75 'diamond skin'
 Sk 100 'dispel magic'
@@ -141,7 +146,7 @@ Sk 1 'endure cold'
 OldSk 1 'endure cold'
 Sk 1 'endure heat'
 OldSk 1 'endure heat'
-Sk 90 'energy drain'
+Sk 93 'energy drain'
 Sk 79 'enervation'
 Sk 85 'entrance'
 Sk 91 'faerie fire'
@@ -173,7 +178,7 @@ Sk 85 'knock'
 OldSk 1 'knock'
 Sk 75 'know alignment'
 Sk 75 'lightning bolt'
-Sk 95 'locate object'
+Sk 98 'locate object'
 Sk 80 'magic missile'
 OldSk 1 'mass healing'
 Sk 75 'mass invis'
@@ -192,7 +197,7 @@ OldSk 1 'protection good'
 Sk 75 'protection neutral'
 OldSk 1 'protection neutral'
 Sk 79 'recharge'
-Sk 82 'refresh'
+Sk 87 'refresh'
 OldSk 1 'refresh'
 Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
@@ -219,7 +224,7 @@ Sk 100 'summon dead'
 Sk 75 'cryogenesis'
 Sk 83 'draw life'
 Sk 80 'make bag'
-Sk 88 'turn undead'
+Sk 93 'turn undead'
 Sk 86 'withstand death'
 Sk 77 'wound transfer'
 OldSk 1 'axe'
@@ -249,9 +254,9 @@ Sk 100 'scan'
 OldSk 50 'scan'
 OldSk 65 'second attack'
 OldSk 9 'third attack'
-Sk 80 'alchemy'
+Sk 82 'alchemy'
 OldSk 1 'fast healing'
-Sk 87 'haggle'
+Sk 89 'haggle'
 OldSk 1 'sneak'
 Sk 100 'spellcraft'
 Sk 75 'scrolls'
@@ -279,6 +284,7 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
+Affc 'giant strength'   0  51  25   4   1          0
 End
 
 #O
@@ -306,27 +312,6 @@ PrevOwner KingStephen~
 Cond 0
 Wear 17
 Cost 4500
-End
-
-#O
-Vnum 11145
-Nest 0
-PrevOwner KingStephen~
-Name soul gathering device~
-ShD  ({DHumming{x) A S{yo{xu{yl{x G{ya{xt{yh{xe{yr{xi{yn{xg {yD{xe{yv{xi{yc{xe~
-Desc A wicked looking device violently rips the soul out of your body.~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 20730
-Nest 0
-PrevOwner KingStephen~
-Cond 0
-Wear 18
-Cost 6100
 End
 
 #O
@@ -375,12 +360,213 @@ Cost 4000
 End
 
 #O
-Vnum 21
-Nest 0
-PrevOwner (null)~
+Vnum 11145
+Nest 1
+PrevOwner KingStephen~
+Name soul gathering device~
+ShD  ({DHumming{x) A S{yo{xu{yl{x G{ya{xt{yh{xe{yr{xi{yn{xg {yD{xe{yv{xi{yc{xe~
+Desc A wicked looking device violently rips the soul out of your body.~
 Cond 0
-Wear 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 6 161 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
 Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 0
+Val  51 164 -1 -1 -1
+Spell 1 'restore mana'
 End
 
 #O
@@ -393,186 +579,39 @@ Cost 3000
 End
 
 #O
-Vnum 8500
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 12
-Cost 3000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail magenta~
-ShD  a magenta molotov cocktail~
-Desc A small bottle filled with magenta liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 40
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail black~
-ShD  a black molotov cocktail~
-Desc A small bottle filled with black liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 12
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail bronze~
-ShD  a bronze molotov cocktail~
-Desc A small bottle filled with bronze liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 39
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail blue~
-ShD  a blue molotov cocktail~
-Desc A small bottle filled with blue liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 20
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail red~
-ShD  a red molotov cocktail~
-Desc A small bottle filled with red liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 6
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail magenta~
-ShD  a magenta molotov cocktail~
-Desc A small bottle filled with magenta liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 40
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail bronze~
-ShD  a bronze molotov cocktail~
-Desc A small bottle filled with bronze liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 39
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail black~
-ShD  a black molotov cocktail~
-Desc A small bottle filled with black liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 12
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail yellow~
-ShD  a yellow molotov cocktail~
-Desc A small bottle filled with yellow liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 36
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail silver~
-ShD  a silver molotov cocktail~
-Desc A small bottle filled with silver liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 19
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail transparent~
-ShD  a transparent molotov cocktail~
-Desc A small bottle filled with transparent liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 41
-End
-
-#O
-Vnum 3019
-Nest 1
-PrevOwner KingStephen~
-Name molotov cocktail gold~
-ShD  a gold molotov cocktail~
-Desc A small bottle filled with gold liquid, and a rag stuffed in the mouth sits here, looking dangerous.~
-Cond 0
-Wear -1
-Cost 0
-Val  6 51 0 0 18
-End
-
-#O
 Vnum 8502
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 3100
+End
+
+#O
+Vnum 20730
+Nest 0
+PrevOwner KingStephen~
+Cond 0
+Wear 18
+Cost 6100
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner KingStephen~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 21
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 0
+Cost 0
 End
 
 #O

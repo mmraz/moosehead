@@ -2,8 +2,8 @@
 Name WildStar~
 Id   947132661
 Email (null)~
-LogO 969928009
-Vers 27
+LogO 1307540988
+Vers 31
 Prom %h/%Hh %m/%Mm %vv (%Xx) %g.%s %e %c~
 Race dragon~
 Outc 0
@@ -12,11 +12,19 @@ MatookT 0
 SkPTimer 0
 SkPTracker 11
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1307540888
+LstKillDate 1307540888
+LstDeathDate 1307540888
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 mojo~
 Sac  300
 Sex  1
@@ -25,29 +33,30 @@ Node 0
 Cap 0
 Created 952728278
 Glad 0 0 0 0 0 0
-LastHost 24.49.149.183 744057~
+LastHost 76.237.92.68~
 Cla  7
 ClaO 0
 Levl 9
 DLevl 0
-Plyd 21059
-Not  969924409 969924409 969924409 969924409 969924409 969924409 969924409 969924409 969924409
+Plyd 21152
+Not  969924409 969924409 969924409 969924409 969924409 969924409 969924409 969924409 969924409 0
 Scro 33
 Rank 0
-Room 3054
-HMV  140 140 105 200 125 125
+Room 3006
+HMV  137 140 200 200 125 125
 Gold 352
 Silv 26
 Exp  79554
 Act  CDEFGHQ
+MHSF R
 AfBy JT
 Comm DGIR
 Disp FIJ
 IcgB 0
 Icg 0
-Pos  4
+Pos  8
 Prac 26
-Trai 4
+Trai 14
 SkiP 37
 Save  -5
 Alig  1000
@@ -55,15 +64,15 @@ Hit   6
 SecHit   5
 ACs 67 68 67 78
 Wimp  15
-Attr 15 20 20 14 20
-AMod 4 4 6 2 5
-Pass WiQm12y7WHQQE~
+Attr 15 20 20 14 20 13 13 13
+AMod 2 5 6 0 5 0 0 0
+Pass WiuNN9GXDV66o~
 Titl ,~
 Pnts 100
 TSex 1
 LLev 5
 HMVP 131 195 125
-Cnd  0 16 40 32
+Cnd  0 8 38 28
 Sk 1 'acid blast'
 OldSk 1 'acid blast'
 Sk 1 'aid'
@@ -87,6 +96,7 @@ Sk 1 'chill touch'
 OldSk 1 'chill touch'
 Sk 1 'colour spray'
 OldSk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 75 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -142,9 +152,9 @@ OldSk 1 'fireball'
 Sk 1 'fireproof'
 OldSk 1 'fireproof'
 Sk 1 'flamestrike'
+Sk 1 'floating disc'
 Sk 1 'fly'
 OldSk 1 'fly'
-Sk 1 'floating disc'
 Sk 1 'forget'
 OldSk 1 'forget'
 Sk 1 'frenzy'
@@ -174,6 +184,10 @@ OldSk 84 'magic missile'
 Sk 1 'mass healing'
 Sk 1 'nexus'
 OldSk 1 'nexus'
+Sk 1 'orb of awakening'
+Sk 1 'orb of surprise'
+Sk 1 'orb of touch'
+Sk 1 'orb of turning'
 Sk 1 'pass door'
 OldSk 1 'pass door'
 Sk 1 'plague'
@@ -224,10 +238,6 @@ Sk 1 'gas breath'
 OldSk 1 'gas breath'
 Sk 1 'lightning breath'
 OldSk 1 'lightning breath'
-Sk 1 'orb of awakening'
-Sk 1 'orb of surprise'
-Sk 1 'orb of touch'
-Sk 1 'orb of turning'
 Sk 71 'dagger'
 OldSk 71 'dagger'
 Sk 18 'flail'
@@ -268,9 +278,9 @@ Gr 'orbs'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'bless'   0  44  48  -5  24          0
-Affc 'bless'   0  44  48   5  18          0
-Affc 'armor'   0  39  11 -20  17          0
+Affc 'armor'   0  43  30 -20  17          0
+Affc 'bless'   0  44  46   5  18          0
+Affc 'bless'   0  44  46  -5  24          0
 End
 
 #O
@@ -278,7 +288,7 @@ Vnum 3726
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 Val  100 1 0 10 85
 End
@@ -369,7 +379,7 @@ Vnum 6601
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 1
+Wear 2
 Cost 620
 End
 
@@ -396,7 +406,7 @@ Vnum 1345
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 12
 Cost 1000
 End
 
@@ -734,7 +744,7 @@ Vnum 9201
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 2
+Wear 1
 Cost 1140
 End
 

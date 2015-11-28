@@ -2,8 +2,8 @@
 Name Toquar~
 Id   982958525
 Email (null)~
-LogO 1091295179
-Vers 31
+LogO 1331180212
+Vers 33
 LnD  A Gladiator~
 Desc you see something special about him.
 ~
@@ -14,11 +14,12 @@ Outc 0
 RufT 0
 MatookT 0
 Abol -1
-SkPTimer 20
-SkPTracker 12
+SkPTimer 2
+SkPTracker 2
 LogoutTracker 0
 Kill 1 1 0 0
 Steal 0 0 0
+MSteal 0
 LstK Vasagi~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,61 +27,64 @@ LstAtkedByTimer 0
 LstCombatDate 1038027634
 LstKillDate 1008907212
 LstDeathDate 1007752049
-LoginsWOKill 29
-LoginsWODeath 41
-LoginsWOCombat 8
+LoginsWOKill 37
+LoginsWODeath 49
+LoginsWOCombat 16
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 97220 huitzilopochtli~
 DeityT -850 almighty~
-Sac  525
+Sac  600
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 982958538
-Glad 0 0 0 0 1 0
-LastHost 68-69-39-35.ironoh.adelphia.net~
+Glad 0 0 0 0 2 0
+LastHost 76.177.53.144~
 Cla  5
 Kit cavalier~
 ClaO 3
 Levl 42
 DLevl 0
-Plyd 242035
-Not  1091295044 1091295044 1091295044 1091295044 1091295044 1091295044 1091295044 1091295044 1091295044 1091295044
+Plyd 254329
+Not  1311214158 1311214158 1311214158 1311214158 1311214158 1311214158 1311214158 1311214158 1311214158 1311214158
 Scro 22
 Rank 1
-Room 31614
-HMV  1198 1198 314 314 156 156
-Gold 13
-Silv 130
-Exp  344061
+Room 31603
+HMV  1218 1218 319 319 186 186
+Gold 178
+Silv 638
+Exp  345775
 Act  CDEGHQS
 MHSF RST
-AfBy O
 Comm S
 Disp FIJL
 IcgB 0
 Icg 0
 Pnet ABDEFH
-Pos  8
-Prac 23
-SkiP 57
-Save  -1
+Pos  5
+Prac 38
+Trai 10
+SkiP 27
 Alig  -1000
-Hit   14
+Hit   16
 Dam   14
-SecHit   9
+SecHit   11
 SecDam   10
-ACs 17 15 15 44
-Attr 25 15 23 13 24 16 17 16
-AMod 0 5 2 0 4 0 0 0
+ACs 5 3 3 38
+Attr 25 15 23 13 24 8 15 16
+AMod 0 2 2 1 4 0 0 0
 Pass TofZllNSQYDOk~
 Titl  Crash Test Dummy!!~
 Pnts 85
 TSex 1
 LLev 55
 HMVP 1188 299 186
-Cnd  0 23 48 46
+Cnd  0 11 48 31
 Alias 1 grat HE SHOOTS. . . . HE SCORES!!!!!   GGGGOOOOOAAALLL!!!!  GGOOAALL!!~
 Alias / c word~
 Alias ready R U {RE{x~
@@ -94,8 +98,8 @@ Alias x bash~
 Alias q rescue kronk~
 Alias level whap self~
 Spz 'sword'
-Sk 52 'armor'
-Sk 44 'bless'
+Sk 53 'armor'
+Sk 46 'bless'
 Sk 64 'call mount'
 Sk 45 'cancellation'
 Sk 1 'crusade'
@@ -109,7 +113,7 @@ Sk 1 'endure heat'
 Sk 45 'fireproof'
 Sk 41 'fly'
 Sk 49 'gate'
-Sk 83 'heal'
+Sk 88 'heal'
 Sk 1 'holy silence'
 Sk 1 'indulgence'
 Sk 1 'knock'
@@ -146,8 +150,8 @@ Sk 81 'rescue'
 Sk 75 'shield block'
 Sk 77 'scan'
 Sk 100 'second attack'
-Sk 87 'third attack'
-Sk 89 'riding'
+Sk 92 'third attack'
+Sk 100 'riding'
 Sk 1 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
@@ -161,9 +165,8 @@ Gr 'healing'
 Gr 'piety'
 Gr 'protective'
 Gr 'transportation'
-Affc 'armor'   0  32  14 -20  17          0
-Affc 'protection good'   0  35  16  -1  24      16384
-Affc 'shield'   0  35  38 -20  17          0
+Affc 'armor'   0  33  16 -20  17          0
+Affc 'shield'   0  34  27 -20  17          0
 End
 
 #O
@@ -296,7 +299,7 @@ Vnum 8509
 Nest 0
 PrevOwner Toquar~
 Cond 0
-Wear -1
+Wear 17
 Cost 0
 End
 
@@ -377,7 +380,7 @@ PrevOwner Nemo~
 ExtF 134217792
 Wt   65
 Cond 0
-Wear -1
+Wear 6
 Cost 2900
 Val  7 7 7 2 6
 End
@@ -387,7 +390,7 @@ Vnum 2602
 Nest 0
 PrevOwner Toquar~
 Cond 0
-Wear 6
+Wear -1
 Cost 5800
 End
 
@@ -464,172 +467,12 @@ Cost 2400
 End
 
 #O
-Vnum 3375
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3375
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3375
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3375
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10326
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 17
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 10326
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 16018
 Enchanted
 Nest 0
 PrevOwner Toquar~
 ExtF 66
-Stolen 384
+Stolen 84
 Cond 0
 Wear 16
 Lev  32
@@ -637,6 +480,92 @@ Cost 0
 Val  1 2 12 3 517
 Affc 'enchant weapon'   1  52  -1   5  18          0
 Affc 'enchant weapon'   1  52  -1   4  19          0
+End
+
+#O
+Vnum 6433
+Nest 0
+PrevOwner Borb~
+Cond 0
+Wear -1
+Cost 4900
+Val  1 4 9 5 512
+End
+
+#O
+Vnum 10307
+Nest 0
+PrevOwner (null)~
+Damaged 88
+Cond 0
+Wear -1
+Cost 30
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner Willy~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 10707
+Nest 0
+PrevOwner (null)~
+Damaged 40
+Cond 0
+Wear -1
+Cost 20
+End
+
+#O
+Vnum 10306
+Nest 0
+PrevOwner (null)~
+Damaged 51
+Cond 0
+Wear -1
+Cost 11000
+Spell 3 'faerie fog'
 End
 
 #END

@@ -1,0 +1,267 @@
+#AREA
+../newareas/palin.are~
+Palin's Place~
+{ ;>  } Palin   Palin's Place~
+17700 17702
+
+#MOBILES
+#17700
+apprentice~
+Palin's beautiful apprentice~
+The beautiful creature that is Palin's apprentice
+~
+Long nightblack tresses surround the pearl white face of this perfect goddess
+You are so captivated by her azure gaze that you almost miss the long expanse
+of leg revealed by her high cut robe which drapes so well over her luxurious
+frame.
+She raises an eyebrow and smiles a mocking smile at your expression.
+~
+elf~
+ACGRc DFHTV 400 0
+40 2 10d10+1600 50d10+100 3d12+14 scratch
+-15 -15 -15 -20
+FH 0 ACM 0
+stand stand female 300
+0 0 medium 0
+F aff J
+F vul Z
+F par FGHJK
+#17701
+landmine mine~
+The live mine~
+A shallow depression in the sand
+~
+A circular khaki boxlike creature with U.S. Army Surplus written on the
+top.  The maniac who created this twisted piece of magic and tech obviously
+meant business
+~
+unique~
+ABFGTUc JQY -800 0
+10 -3 2d7+121 0d0+0 2d10+1 blast
+2 2 2 -2
+EFNU 0 BELNPQR HK
+stand stand none 0
+HJ DEF small 0
+#17702
+timid frog~
+A timid frog~
+A timid little green frog wearing a puce bowtie
+~
+This former visitor to Palin's tower obviously made some grave error to
+be left in this condition.  You briefly wonder why the bowtie doesn't come
+off this slimy thing while it swims, but soon discount it as just more
+evidence of the bizarre nature of this unnatural place.
+~
+unique~
+ABCGc Q -529 0
+2 -3 2d7+21 2d7+21 1d5+0 slime
+8 20 0 30
+EFNU 0 0 DR
+rest rest male 10
+ABHMa ACDEFL tiny 0
+#0
+
+#OBJECTS
+#17700
+robe archmagi~
+Robe of Archmagi~
+A luxurous loose robe of dark, rough silk.~
+~
+armor GIS AK
+5 5 5 8 0
+39 10 100 P
+A
+18 1
+A
+12 25
+#17701
+wand stars~
+The wand of stars~
+An ashwood wand covered in glittering diamond dust.~
+~
+wand ABGS AO
+35 5 2 'turn undead' 0
+39 5 1500 D
+A
+0 0
+#17702
+Palin gaze~
+Palin's withering gaze~
+A wicked stare.~
+~
+weapon AHIMPRSTUY AN
+exotic 2 10000 none I
+55 1 0 P
+A
+17 -100
+A
+18 100
+A
+19 300
+A
+20 -20
+#0
+
+#ROOMS
+#17700
+Stoney pathway~
+A rough path littered with occasional stones winds its way up the side of
+this grassy hillock.  From further up the hill you catch a glimpse of a
+battered sandstone tower which seems to be leaning quite alarmingly.  A
+strange semi-circular object is perched precariously atop the tower pointing
+up into the sky.  Faintly blaring music reaches your ears.
+ 
+A blackened wooden sign appears out of nothing and begins to glow faintly.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 17701
+E
+path~
+The rough path seems to receive barely enough traffic to keep it clear of
+the grass and weeds that grow everywhere on this hill.  However there is a
+surprising abundance of small pieces of shredded cloth strewn around near the
+path.
+~
+E
+sign~
+Clearing the soot off the sign, you reveal the faded message painted there -
+"Rumours of landmines and falling napalm on this path are almost totally
+ false.  Thank you for your caution."
+~
+S
+#17701
+Outside the tower~
+The small hill levels off here with the tower leaning over a greenish pond.
+From the light flaring through the upper tower window and the blaring music -
+and of course the satellite dish, you guess whoever lives here has M-tv.
+The large oaken tower door has a tarnished plaque attatched to it just below
+the circular brass knocker.
+ 
+This place has an eerie feel to it, but you are sure it would be fairly
+tranquil if the music wasn't wrecking the general effect.
+~
+0 0 0
+D0
+Exit ~
+door~
+1 0 17702
+D5
+Exit ~
+door~
+0 0 17700
+E
+knocker~
+The circular knocker has a bluish sheen to it, and is curiously untarnished
+unlike the plaque beneath it.
+~
+E
+music~
+MAN, but that is some thick music you're used to!
+~
+E
+window~
+Sillouettes of people moshing crazily around in the upstairs tower room can
+be seen through this open casement.
+~
+E
+dish~
+The dish points towards the stars, slowly tracing the fate of man told there.
+Well...erm... actually it's just a satellite dish type thingy.
+~
+E
+plaque~
+This thing really needs a polish - nevertheless you can make out the words -
+"The leaning tower of Palin"
+~
+E
+pond~
+It's definitely time for another month-mate.  The pond is overgrown with pond
+scum and hyacinth.  *croak* <<ribbetribbet>> *croak*
+ 
+Words form fleetingly in a clear patch of water - "Previous Visitors"
+~
+S
+#17702
+Palin's Study~
+The music ceases as you enter this modest tower room.  The musty scent of
+parchment assaults your nose, along with the more pleasant odor of bacon
+frying somwhere nearby.  Looking around you see that although the books in
+the many bookcases lining the walls all seem in good order; there is a mess
+of opened books, scrolls, documents and other wizardly items littering most
+of the floor and almost totally hiding a depressed looking desk.
+Motes of gentle light float at various positions around the room illuminating
+a book here, a picture there - evan the unmade bed near the dangerously
+uneven looking stone stairs leading up to a blank wall.
+~
+0 DJP 0
+H 10000 M 10000
+O palin~
+D2
+Exit ~
+door~
+1 0 17701
+D4
+Exit ~
+door~
+0 0 23500
+E
+~
+The bookcase is a work of art in dark mahogony. Faces of imps and other
+immortals line every inch of its surface.  The books it holds run from
+aardvark info to tomes on zen jokes.
+~
+E
+stairs~
+Many feet have managed to wear into the stone making the stairway dangerous
+~
+E
+scroll~
+Hey - it's better than lag :).
+~
+E
+picture~
+It's a portrait of Palin wearing Elvis sideburns from his famous quest.
+~
+E
+bed~
+Palin's mom obviously hasn't got around to making this yet.
+~
+E
+wall~
+You make out a few pencil scratchings on the wall - "Room closed for Party"
+~
+E
+mote~
+The motes of light float around gently, at your will.
+~
+E
+desk~
+The desk is sulking
+~
+E
+document~
+"To do today 1) Attack Demon Lord of the Abyss, 2) Win, 3) Have a nice day...
+~
+E
+bookbook~
+_Magic_and_Party_Tricks_for_Dummies_
+~
+S
+#0
+
+#RESETS
+D 0 17701   0    1	* Outside the tower north
+D 0 17702   2    1	* Palin's Study south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 17700 spec_breath_any     	* Palin's beautiful apprentice
+S
+
+#$

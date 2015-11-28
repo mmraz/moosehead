@@ -31,23 +31,27 @@ static char rcsid[] = "$Id: tables.c,v 1.49 2003/10/08 00:49:28 ndagger Exp $";
 const struct clan_type clan_table[] =
 {
     {   "",             "",             ROOM_VNUM_ALTAR,  FALSE, TRUE, FALSE  },
-    {   "loner",   "[ {WLoner {x", ROOM_VNUM_MATOOK, FALSE, TRUE, TRUE },
-    {	"outcast", "[Outcast",  	ROOM_VNUM_MATOOK, FALSE, TRUE, TRUE   },
-    {   "demise",  "[{RDemise {x",    ROOM_VNUM_DEMISE,   FALSE, FALSE,TRUE   },
-    {   "honor",   "[ {CHonor {x",    ROOM_VNUM_HONOR,    FALSE, FALSE,TRUE   },
-    {   "posse",   "[ {MPosse {x",    ROOM_VNUM_POSSE,    FALSE, FALSE,TRUE   },
-    {   "avarice", "[{GAvarice{x",   ROOM_VNUM_AVARICE,  FALSE, FALSE, TRUE  },
-    {   "zealot",  "[{YZealot {x",   ROOM_VNUM_ZEALOT,   FALSE, FALSE, TRUE  },
-    {   "warlock", "[{gWarlock{x",   ROOM_VNUM_WARLOCK,  FALSE, FALSE, TRUE },
-    {   "valor",   "[{B Valor {x",   ROOM_VNUM_VALOR,   FALSE, FALSE, TRUE },
-    {   "phoenix", "[{rPhoenix{x",    ROOM_VNUM_PHOENIX,  FALSE, FALSE, TRUE },
-    {   "riders",  "[{yRiders {x",   ROOM_VNUM_RIDERS,	  FALSE, FALSE, TRUE },
-    {   "mcdugal", "[{YMcDugal{x",   ROOM_VNUM_RIDERS,    FALSE, FALSE, TRUE },
-    {   "hunter",  "[{yHunter {x",   ROOM_VNUM_HUNTER,    FALSE, FALSE, TRUE },
-    {   "temp",    "[{yTemp   {x",     ROOM_VNUM_ALTAR,	  FALSE, FALSE, TRUE },
-    {   "smurf",   "[ {BSmurf {x",   ROOM_VNUM_MATOOK,  FALSE, FALSE, TRUE },
+    {   "loner",   "[ {DLoner {x", ROOM_VNUM_MATOOK, FALSE, TRUE, TRUE },
+    {	"outcast", "[{DOutcast{x",  	ROOM_VNUM_MATOOK, FALSE, TRUE, TRUE   },
+    {   "demise",  "[{DDemise {x",    ROOM_VNUM_DEMISE,   FALSE, FALSE,TRUE   },
+    {   "honor",   "[ {DHonor {x",    ROOM_VNUM_HONOR,    FALSE, FALSE,TRUE   },
+    {   "posse",   "[ {DPosse {x",    ROOM_VNUM_POSSE,    FALSE, FALSE,TRUE   },
+    {   "avarice", "[{DAvarice{x",   ROOM_VNUM_AVARICE,  FALSE, FALSE, TRUE  },
+    {   "zealot",  "[{DZealot {x",   ROOM_VNUM_ZEALOT,   FALSE, FALSE, TRUE  },
+    {   "warlock", "[{DWarlock{x",   ROOM_VNUM_WARLOCK,  FALSE, FALSE, TRUE },
+    {   "valor",   "[{D Valor {x",   ROOM_VNUM_VALOR,   FALSE, FALSE, TRUE },
+    {   "phoenix", "[{DPhoenix{x",    ROOM_VNUM_PHOENIX,  FALSE, FALSE, TRUE },
+    {   "riders",  "[{DRiders {x",   ROOM_VNUM_RIDERS,	  FALSE, FALSE, TRUE },
+    {   "mcdugal", "[{DMcDugal{x",   ROOM_VNUM_RIDERS,    FALSE, FALSE, TRUE },
+    {   "hunter",  "[{DHunter {x",   ROOM_VNUM_HUNTER,    FALSE, FALSE, TRUE },
+    {   "temp",    "[{DTemp   {x",     ROOM_VNUM_ALTAR,	  FALSE, FALSE, TRUE },
+    {   "smurf",   "[ {DSmurf {x",   ROOM_VNUM_MATOOK,  FALSE, FALSE, TRUE },
     {   "matook",  "({BMatook{x)",    ROOM_VNUM_MATOOK,  FALSE, TRUE,FALSE   },
-    {   "newbie",  "({cNewbie{x)",    ROOM_VNUM_ALTAR,  FALSE, TRUE,FALSE   }
+    {   "newbie",  "({cNewbie{x)",    ROOM_VNUM_ALTAR,  FALSE, TRUE,FALSE   },
+    {   "circle",  "({DCircle{x)",    ROOM_VNUM_ALTAR,  FALSE, TRUE,FALSE   },
+    {   "camorra",  "({DCamorra{x)",    ROOM_VNUM_ALTAR,  FALSE, TRUE,FALSE   },
+    {   "legion",  "({DLegion{x)",    ROOM_VNUM_ALTAR,  FALSE, TRUE,FALSE   },
+    {   "macleod",  "({DMacLeod{x)",    ROOM_VNUM_ALTAR,  FALSE, TRUE,FALSE   }
 };
 
 /* for assigning IMM commands */

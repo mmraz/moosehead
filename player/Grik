@@ -2,8 +2,8 @@
 Name Grik~
 Id   930348899
 Email (null)~
-LogO 1078580122
-Vers 31
+LogO 1394132063
+Vers 33
 LnD  A Gladiator~
 Desc The mother in you brings out the motherfucker in me.
 
@@ -13,13 +13,14 @@ Prom <%h/%Hhp %m/%Mm %v/%Vmv>%c<%gg %ss %w/%Wwt %e> ~
 Race elf~
 Clan zealot~
 Outc 0
-RufT 444
+RufT 170
 MatookT 0
 SkPTimer 0
-SkPTracker 4
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Mushtaq~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,36 +28,42 @@ LstAtkedByTimer 0
 LstCombatDate 1078579596
 LstKillDate 1078579215
 LstDeathDate 1078579215
-LoginsWOKill 1
-LoginsWODeath 1
-LoginsWOCombat 0
+LoginsWOKill 20
+LoginsWODeath 20
+LoginsWOCombat 19
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 1370901 almighty~
-Sac  294
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 951450937
 Glad 0 0 0 0 0 0
-LastHost Toronto-HSE-ppp3665635.sympatico.ca~
+LastHost 68.166.114.154~
 Cla  14
 Kit bladesinger~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 1382667
-Not  960416956 962896679 960416956 1073771631 993518650 965266941 960416956 993190982 960416956 0
+Plyd 1393875
+Not  1373427528 1381924072 960416956 1073771631 993518650 1390255126 960416956 1375318137 960416956 0
 Scro 22
 Rank 2
-Room 31816
-HMV  1238 1238 443 447 532 532
-Gold 173
-Silv 197
+Room 31806
+HMV  1238 1238 447 447 532 532
+Gold 60
+Silv 1809
 Exp  244800
-Act  CDFGHJQSd
+Act  CDEFGHJQSd
 MHSF RS
-AfBy DFJ
+AfBy DFJLTVa
 Comm GJRS
 Disp FJ
 IcgB 0
@@ -65,28 +72,28 @@ Wizn W
 Pos  8
 Prac 34
 Trai 10
-SkiP 62
-Save  -26
-Alig  815
-Hit   21
-Dam   39
-SecHit   10
-SecDam   28
-ACs 0 6 3 59
-Wimp  247
+SkiP 81
+Save  -23
+Alig  822
+Hit   31
+Dam   49
+SecHit   24
+SecDam   44
+ACs 20 26 23 79
+Wimp  20
 Attr 19 20 18 21 16 13 13 13
-AMod 4 5 6 3 2 0 0 0
-Pass Gr1RYncNgScnE~
+AMod 8 5 6 7 2 0 0 0
+Pass GrXQ60btWOCVA~
 Titl  the Prik [!]~
 Pnts 80
 TSex 1
 LLev 353
 HMVP 1238 427 497
-Cnd  0 0 15 20
+Cnd  0 0 6 6
 Spz 'sword'
 Sk 1 'aid'
 OldSk 1 'aid'
-Sk 1 'annointment'
+OldSk 1 'annointment'
 Sk 91 'armor'
 OldSk 88 'armor'
 Sk 1 'bestow holiness'
@@ -167,7 +174,7 @@ OldSk 92 'dagger'
 Sk 100 'sword'
 OldSk 100 'sword'
 OldSk 100 'bash'
-Sk 90 'berserk'
+Sk 93 'berserk'
 OldSk 89 'berserk'
 Sk 100 'bite'
 OldSk 100 'bite'
@@ -197,7 +204,7 @@ Sk 100 'third attack'
 OldSk 100 'third attack'
 Sk 1 'hide'
 OldSk 1 'hide'
-Sk 81 'sneak'
+Sk 83 'sneak'
 OldSk 81 'sneak'
 Sk 21 'scrolls'
 OldSk 21 'scrolls'
@@ -217,6 +224,16 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
+Affc 'morph'   0  51   1   0   0       2048
+Affc 'armor'   0  40  30 -20  17          0
+Affc 'berserk'   0  50   3 100  17   67108864
+Affc 'berserk'   0  51   3  10  19   67108864
+Affc 'berserk'   0  50   3  10  18   67108864
+Affc 'haste'   0  37   9   4   2    2097152
+Affc 'fly'   0  39  28   0   0     524288
+Affc 'shield'   0  37  24 -20  17          0
+Affc 'giant strength'   0  32   9   4   1          0
+Affc 'stone skin'   0  35   8 -40  17          0
 End
 
 #O
@@ -227,18 +244,16 @@ ExtF 1345
 Cond 0
 Wear 10
 Cost 3100
-Affc 'bless'   1  33   4  -1  20        256
+Affc 'bless'   1  34  15  -1  20        256
 End
 
 #O
 Vnum 2505
 Nest 0
 PrevOwner (null)~
-ExtF 258
 Cond 0
 Wear 15
 Cost 1150
-Affc 'bless'   1  36   5  -1  20        256
 End
 
 #O
@@ -249,7 +264,7 @@ ExtF 258
 Cond 0
 Wear 14
 Cost 1150
-Affc 'bless'   1  30   4  -1  20        256
+Affc 'bless'   1  37  15  -1  20        256
 End
 
 #O
@@ -257,14 +272,12 @@ Vnum 28018
 Enchanted
 Nest 0
 PrevOwner (null)~
-ExtF 256
 Cond 0
 Wear 12
 Cost 0
-Affc 'bless'   1  32   4  -1  20        256
-Affc 'reserved'   1  32  -1   1   1          0
-Affc 'reserved'   1  32  -1   1   2          0
 Affc 'reserved'   0  32  -1   0   0         40
+Affc 'reserved'   1  32  -1   1   2          0
+Affc 'reserved'   1  32  -1   1   1          0
 End
 
 #O
@@ -275,7 +288,7 @@ ExtF 17449216
 Cond 0
 Wear 8
 Cost 0
-Affc 'bless'   1  34   4  -1  20        256
+Affc 'bless'   1  35  17  -1  20        256
 End
 
 #O
@@ -286,7 +299,7 @@ ExtF 256
 Cond 0
 Wear 18
 Cost 3000
-Affc 'bless'   1  35   4  -1  20        256
+Affc 'bless'   1  34  16  -1  20        256
 End
 
 #O
@@ -328,65 +341,25 @@ ExtF 257
 Cond 0
 Wear 4
 Cost 300
-Affc 'bless'   1  29   4  -1  20        256
+Affc 'bless'   1  33  18  -1  20        256
 End
 
 #O
 Vnum 20740
 Nest 0
 PrevOwner (null)~
-ExtF 262400
 Cond 0
 Wear 17
 Cost 4500
-Affc 'bless'   1  26   5  -1  20        256
-End
-
-#O
-Vnum 3362
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 450
-End
-
-#O
-Vnum 3353
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 900
-End
-
-#O
-Vnum 3355
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 510
-End
-
-#O
-Vnum 3350
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1280
 End
 
 #O
 Vnum 911
 Nest 0
 PrevOwner Grik~
-ExtF 1376
 Cond 0
 Wear 2
 Cost 6900
-Affc 'bless'   1  32   4  -1  20        256
 End
 
 #O
@@ -397,20 +370,7 @@ ExtF 256
 Cond 0
 Wear 3
 Cost 4300
-Affc 'bless'   1  26   5  -1  20        256
-End
-
-#O
-Vnum 4813
-Enchanted
-Nest 0
-PrevOwner Grik~
-Cond 0
-Wear -1
-Cost 6500
-Affc 'reserved'   1  40  -1   2   1          0
-Affc 'reserved'   1  40  -1   3  19          0
-Affc 'enchant armor'   1  56  -1  -6  17          0
+Affc 'bless'   1  37  17  -1  20        256
 End
 
 #O
@@ -421,7 +381,7 @@ ExtF 262401
 Cond 0
 Wear 0
 Cost 250
-Affc 'bless'   1  28   4  -1  20        256
+Affc 'bless'   1  33  16  -1  20        256
 End
 
 #O
@@ -432,7 +392,7 @@ ExtF 1376
 Cond 0
 Wear 1
 Cost 6900
-Affc 'bless'   1  34   4  -1  20        256
+Affc 'bless'   1  33  13  -1  20        256
 End
 
 #O
@@ -445,7 +405,7 @@ Cond 0
 Wear 7
 Cost 2000
 Val  7 7 7 4 2
-Affc 'bless'   1  33   4  -1  20        256
+Affc 'bless'   1  38  17  -1  20        256
 End
 
 #O
@@ -458,7 +418,7 @@ Cond 0
 Wear 5
 Cost 19800
 Val  12 10 11 2 2
-Affc 'bless'   1  36   7  -1  20        256
+Affc 'bless'   1  33  17  -1  20        256
 End
 
 #O
@@ -469,7 +429,7 @@ ExtF 16777472
 Cond 0
 Wear 13
 Cost 4000
-Affc 'bless'   1  37   5  -1  20        256
+Affc 'bless'   1  38  16  -1  20        256
 End
 
 #O
@@ -490,8 +450,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1330
-Affc 'enchant weapon'   1  51  -1   4  19          0
 Affc 'enchant weapon'   0  51  -1   4  18          0
+Affc 'enchant weapon'   1  51  -1   4  19          0
 End
 
 #O
@@ -565,28 +525,6 @@ Spell 2 'sanctuary'
 End
 
 #O
-Vnum 11086
-Nest 1
-PrevOwner Grik~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'cure blindness'
-Spell 2 'sanctuary'
-End
-
-#O
-Vnum 11086
-Nest 1
-PrevOwner Grik~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'cure blindness'
-Spell 2 'sanctuary'
-End
-
-#O
 Vnum 16721
 Nest 1
 PrevOwner Grik~
@@ -596,84 +534,30 @@ Cost 1400
 End
 
 #O
-Vnum 10404
+Vnum 4813
+Nest 1
+PrevOwner Grik~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 4813
 Enchanted
-Nest 0
-PrevOwner Grik~
-ExtF 67
-Cond 0
-Wear 16
-Cost 15300
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 3050
-Nest 0
+Nest 1
 PrevOwner Grik~
 Cond 0
 Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Grik~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Grik~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Grik~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 20736
-Nest 0
-PrevOwner Grik~
-Cond 0
-Wear -1
-Time 482
-Cost 1800
-Spell 1 'bless'
-Spell 2 'create food'
-Spell 3 'create spring'
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 0
-PrevOwner Grik~
-ExtF 352
-Cond 0
-Wear -1
-Cost 4500
-Affc 'bless'   1  32   5  -1  20        256
-Affc 'enchant weapon'   1  53  -1   6  19          0
-Affc 'enchant weapon'   0  53  -1   4  18          0
+Cost 6500
+Affc 'enchant armor'   1  56  -1  -6  17          0
+Affc 'reserved'   1  40  -1   3  19          0
+Affc 'reserved'   1  40  -1   2   1          0
 End
 
 #O
 Vnum 20734
-Nest 0
+Nest 1
 PrevOwner Grik~
 Cond 0
 Wear -1
@@ -681,12 +565,116 @@ Cost 6100
 End
 
 #O
-Vnum 4813
+Vnum 20736
+Nest 1
+PrevOwner Grik~
+Cond 0
+Wear -1
+Time 204
+Cost 1800
+Spell 1 'bless'
+Spell 2 'create food'
+Spell 3 'create spring'
+End
+
+#O
+Vnum 911
+Nest 1
+PrevOwner Grik~
+Cond 0
+Wear -1
+Cost 6900
+End
+
+#O
+Vnum 10404
+Enchanted
+Nest 0
+PrevOwner Grik~
+ExtF 323
+Cond 0
+Wear 16
+Cost 15300
+Affc 'bless'   1  31  15  -1  20        256
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 3050
 Nest 0
 PrevOwner Grik~
 Cond 0
 Wear -1
-Cost 6500
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Grik~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Grik~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Grik~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 2444
+Nest 0
+PrevOwner Rukh~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 0
+PrevOwner Grik~
+ExtF 96
+Cond 0
+Wear 19
+Cost 4500
+Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
+End
+
+#O
+Vnum 18905
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3900
+End
+
+#O
+Vnum 18905
+Nest 0
+PrevOwner (null)~
+Stolen 43
+Cond 0
+Wear -1
+Cost 3900
 End
 
 #END

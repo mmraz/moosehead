@@ -1,72 +1,77 @@
 #PLAYER
 Name Ickypo~
+SurN Snott~
 Id   1006495650
 Email (null)~
-LogO 1094356051
-Vers 31
+LogO 1354961769
+Vers 33
 Desc Big, Burly, and Ugly.
 ~
 Prom <%h Hp %m Mn %v Mv>%c<%XXp %SDp %gg %ss> ~
 Race ogre~
-Clan honor~
 Outc 0
-RufT 433
+RufT 408
 MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 2 0 3
+Kill 0 2 0 4
 Steal 0 0 0
+MSteal 0
 LstK BillyJean~
-LstKBy Akna~
+LstKBy Epitaph~
 LstAtkedBy no one~
 LstAtkedByTimer 0
 LstCombatDate 1020477001
 LstKillDate 1020476675
-LstDeathDate 1094355772
-LoginsWOKill 5
-LoginsWODeath 1
-LoginsWOCombat 4
+LstDeathDate 1351982700
+LoginsWOKill 22
+LoginsWODeath 3
+LoginsWOCombat 21
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 4 13 1
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -147 xochipili~
-Sac  224
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1006495658
 Glad 0 0 0 0 0 0
-LastHost c-67-170-152-250.client.comcast.net~
+LastHost 98.232.225.18~
 Cla  14
 ClaO 3
 Levl 25
 DLevl 0
-Plyd 48584
-Not  1093749676 1093749676 1093749676 1093749676 1093749676 1093749676 1093749676 1093749676 1093749676 1093749676
+Plyd 49717
+Not  1346133495 1346133495 1346133495 1346133495 1346133495 1346133495 1346133495 1346133495 1346133495 1346133495
 Scro 22
-Rank 1
-Room 31520
-HMV  344 518 75 204 69 186
-Gold 0
-Silv 71
-Exp  81680
+Rank 0
+Room 3005
+HMV  518 518 204 204 186 186
+Gold 756
+Silv 3773
+Exp  81470
 Act  CDEFGHKQRS
 MHSF R
 Comm GI
-Disp BFGJN
+Disp BFGIJN
 IcgB 0
 Icg 0
 Pos  8
 Prac 16
-Trai 1
+Trai 8
 SkiP 35
 Alig  -1000
 Hit   1
 Dam   1
-ACs 100 100 100 100
+ACs 98 94 94 100
 Wimp  15
-Attr 23 16 18 17 21 16 16 17
+Attr 23 16 18 17 21 11 14 17
 AMod 1 0 0 0 0 0 0 0
 Pass Icq6M8F4SSLvY~
 Titl .~
@@ -74,7 +79,7 @@ Pnts 71
 TSex 1
 LLev 13
 HMVP 518 204 186
-Cnd  0 28 35 45
+Cnd  0 0 6 0
 Alias k kill~
 Alias gac get all cor~
 Sk 100 'axe'
@@ -118,20 +123,11 @@ Cost 3100
 End
 
 #O
-Vnum 3050
-Nest 0
-PrevOwner Ickypo~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
 Vnum 5705
 Nest 0
 PrevOwner Ickypo~
 Cond 0
-Wear -1
+Wear 13
 Cost 0
 End
 
@@ -200,26 +196,43 @@ Cost 750
 End
 
 #O
-Vnum 8024
+Vnum 10026
 Nest 0
 PrevOwner Ickypo~
 Cond 0
-Wear -1
-Cost 11000
+Wear 15
+Cost 390
 End
 
 #O
-Vnum 3021
-Enchanted
+Vnum 10026
 Nest 0
 PrevOwner Ickypo~
-ExtF 67
+Cond 0
+Wear 14
+Cost 390
+End
+
+#O
+Vnum 9571
+Nest 0
+PrevOwner Ickypo~
 Cond 0
 Wear -1
-Lev  10
-Cost 235
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
+Cost 950
+Spell 1 'stone skin'
+Spell 2 'blindness'
+End
+
+#O
+Vnum 9571
+Nest 0
+PrevOwner Ickypo~
+Cond 0
+Wear 17
+Cost 950
+Spell 1 'stone skin'
+Spell 2 'blindness'
 End
 
 #END

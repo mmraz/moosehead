@@ -2,8 +2,8 @@
 Name Ravenclaw~
 Id   977438570
 Email (null)~
-LogO 1132603005
-Vers 31
+LogO 1392539031
+Vers 33
 LnD  A Gladiator~
 Desc Shrouded in stolen identities
 and clandestine secrets,
@@ -19,26 +19,32 @@ Desc Shrouded in stolen identities
 ~
 Prom <%hhp %mm %vmv> <%n/%N %w lbs> <%e> ~
 Race dragon~
-Clan outcast~
-Outc 2451
+Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 5 27 0 8
-Steal 979 145238 0
+Steal 998 151014 0
+MSteal 0
 LstK Munkey~
 LstKBy Manfred~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1111621100
+LstCombatDate 1336194916
 LstKillDate 1086147538
 LstDeathDate 1132523049
-LoginsWOKill 630
-LoginsWODeath 6
-LoginsWOCombat 181
-Bnty 0
+LoginsWOKill 862
+LoginsWODeath 238
+LoginsWOCombat 35
+Bnty 966
+DeityFavor 2 0
+PrefStat 0
+OldC 1 1000 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 1238699 mojo~
 DeityT -91458 huitzilopochtli~
 Sac  300
@@ -47,67 +53,71 @@ Vump  17
 Node 0
 Cap 0
 Created 977438579
-Glad 0 3 2 3 3 2
-LastHost blacksburg-bsr1-68-170-65-132.chvlva.adelphia.net~
+Glad 0 3 2 3 4 2
+LastHost 67.160.216.139~
 Cla  4
 Kit acrobat~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 8709385
-Not  1126328533 1130446298 1110270371 1131210186 1121859963 1132578672 1110270371 1132597977 1110270371 1129478192
+Plyd 9124102
+Not  1340391770 1340130578 1339308211 1339308211 1357157405 1390255126 1339308211 1385305178 1339308211 1384474516
 Scro 22
 Rank 0
-Room 3001
-HMV  1168 1168 391 391 359 359
-Gold 236
-Silv 3396
+Room 31729
+HMV  1468 1468 466 466 394 394
+Gold 738
+Silv 610
+BankEggs 9
+BankBricks 1
 Exp  511105
-Act  DEFGHMQSa
+Act  CDEFGHQRSZa
 MHSF RSUVX
-AfBy JT
+AfBy JPQTc
 Comm JS
 Disp BCFIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 21
-SkiP 123
-Save  -2
+Prac 19
+StatsTrained 120 0 0
+SkiP 646
+Save  -5
 Alig  -1000
-Hit   4
-Dam   7
-SecHit   3
-SecDam   6
-ACs -2 -2 -2 -2
+Hit   38
+Dam   37
+SecHit   27
+SecDam   26
+ACs -131 -131 -131 -131
 Wimp  50
-Attr 25 25 21 25 20 23 13 13
-AMod 0 0 0 0 0 0 0 0
-Pass Rayv.f9AmfcrI~
-Titl . Betrayed Knight of the {YAlmighty{x [{r4{x]~
+Attr 25 25 21 25 20 11 14 13
+AMod 0 2 0 4 2 0 0 0
+Pass Rah3RwB93BPTs~
+Titl  [{RCzar{x of {GCookies{x] Rock the Casbah~
 Pnts 100
 TSex 1
 LLev 1
-HMVP 1178 391 359
-Cnd  0 2 17 12
+HMVP 1298 391 359
+Cnd  0 14 20 18
 Alias k kill~
 Alias range who clan 43 51~
 Alias st steal gold~
 Alias gate cast 'gate'~
-Alias stg steal gold  erg~
+Alias stg steal gold  burde~
 Alias see cast 'cure vision'~
 Alias al alias stg steal gold ~
 Alias sty steal~
-Alias x steal erg~
+Alias x steal merit burde~
 Alias str alias x steal~
-Alias unc c 'remove curse'  erg~
+Alias unc c 'remove curse'  cor~
 Alias stf alias unc c 'remove curse' ~
 Alias bb backstab~
-Alias delete quit~
 Alias y tail~
+Alias z c 'sleep'~
+Sk 86 'convert'
 Sk 1 'aid'
-Sk 88 'armor'
+Sk 91 'armor'
 Sk 1 'bestow holiness'
 Sk 100 'bless'
 Sk 100 'blindness'
@@ -115,7 +125,7 @@ Sk 100 'body weaponry'
 Sk 75 'calm'
 Sk 100 'cancellation'
 Sk 1 'change sex'
-Sk 1 'cone of silence'
+Sk 1 'charm person'
 Sk 75 'cure blindness'
 Sk 75 'cure critical'
 Sk 75 'cure disease'
@@ -129,7 +139,7 @@ Sk 100 'detect hidden'
 Sk 100 'detect invis'
 Sk 100 'detect magic'
 Sk 1 'detect poison'
-Sk 1 'dispel magic'
+Sk 75 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
 Sk 1 'energy drain'
@@ -156,29 +166,30 @@ Sk 75 'mirror image'
 Sk 79 'nexus'
 Sk 100 'pass door'
 Sk 84 'plague'
-Sk 75 'poison'
+Sk 85 'poison'
 Sk 1 'portal'
 Sk 1 'protection evil'
 Sk 1 'protection good'
 Sk 1 'protection neutral'
 Sk 100 'psionic blast'
-Sk 93 'refresh'
+Sk 97 'refresh'
 Sk 100 'remove curse'
 Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
 Sk 100 'shield'
-Sk 81 'slow'
+Sk 100 'sleep'
+Sk 100 'slow'
 Sk 75 'smoke screen'
 Sk 100 'stone skin'
 Sk 100 'summon'
 Sk 95 'teleport'
 Sk 100 'tower of iron will'
-Sk 1 'weaken'
-Sk 78 'word of recall'
+Sk 77 'weaken'
+Sk 79 'word of recall'
 Sk 1 'acid breath'
 Sk 75 'fire breath'
 Sk 77 'frost breath'
-Sk 76 'gas breath'
+Sk 79 'gas breath'
 Sk 1 'lightning breath'
 Sk 100 'small bomb'
 Sk 100 'high explosive'
@@ -219,10 +230,11 @@ Sk 92 'scrolls'
 Sk 1 'staves'
 Sk 100 'wands'
 Sk 100 'swimming'
-Sk 50 'recall'
+Sk 61 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
 Gr 'thiefmonk default'
+Gr 'beguiling'
 Gr 'benedictions'
 Gr 'curative'
 Gr 'detection'
@@ -234,97 +246,1012 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'pyrotechnics'
 Gr 'transportation'
+Affc 'sneak'   0  50  44   0   0      32768
 End
 
 #O
-Vnum 2503
+Vnum 8500
+Nest 0
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 12085
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 8765
+End
+
+#O
+Vnum 12085
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 8765
+End
+
+#O
+Vnum 12079
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12080
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2205
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 66
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   0  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 23503
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 1600
+Val  2 9 4 36 2112
+End
+
+#O
+Vnum 23503
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 400
+Val  2 9 4 36 68
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
+End
+
+#O
+Vnum 5909
+Nest 0
+PrevOwner Ravenclaw~
+Cond 0
+Wear 1
+Cost 3000
+End
+
+#O
+Vnum 8545
 Nest 0
 PrevOwner (null)~
+Cond 0
+Wear 9
+Cost 3400
+End
+
+#O
+Vnum 5909
+Nest 0
+PrevOwner Marcus~
+Cond 0
+Wear 2
+Cost 3000
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 300
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 4
+Cost 300
+End
+
+#O
+Vnum 5934
+Nest 0
+PrevOwner Uniball~
+ExtF 134217729
+Wt   110
+Cond 0
+Wear 5
+Cost 4000
+Val  7 7 7 6 5
+End
+
+#O
+Vnum 12079
+Nest 0
+PrevOwner Therman~
+Cond 0
+Wear 10
+Cost 0
+End
+
+#O
+Vnum 23138
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 12001
+Enchanted
+Nest 0
+PrevOwner Reznar~
+ExtF 17449025
+Cond 0
+Wear 8
+Lev  47
+Cost 0
+Affc 'enchant armor'   1  51  -1  -5  17          0
+Affc 'reserved'   1  44  -1   2  18          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1  35  14          0
+End
+
+#O
+Vnum 5705
+Nest 0
+PrevOwner Ravenclaw~
 Cond 0
 Wear 13
-Cost 168
+Cost 0
 End
 
 #O
-Vnum 2504
-Nest 0
-PrevOwner (null)~
+Vnum 5923
+Nest 1
+PrevOwner Ravenclaw~
 Cond 0
-Wear 7
-Cost 1160
+Wear -1
+Cost 0
+Spell 1 'frenzy'
+Spell 2 'haste'
+End
+
+#O
+Vnum 12006
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+Affc 'reserved'   1  40  -1   2   2          0
+Affc 'reserved'   1  40  -1  20  13          0
+End
+
+#O
+Vnum 12084
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 7777
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 5916
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 300
+Spell 1 'teleport'
+Spell 2 'remove curse'
+End
+
+#O
+Vnum 12081
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5916
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 300
+Spell 1 'teleport'
+Spell 2 'remove curse'
+End
+
+#O
+Vnum 5923
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'frenzy'
+Spell 2 'haste'
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 12084
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 7777
+End
+
+#O
+Vnum 22504
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 15227
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 20000
+End
+
+#O
+Vnum 12006
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 5939
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 323
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   1  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 10027
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1000
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   1  53  -1  10  18          0
+End
+
+#O
+Vnum 22563
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 18110
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 2400
+End
+
+#O
+Vnum 18110
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 2400
+End
+
+#O
+Vnum 2414
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 1650
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
+End
+
+#O
+Vnum 2727
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 17039426
+Cond 0
+Wear -1
+Lev  36
+Cost 3600
+Affc 'enchant weapon'   1  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
+End
+
+#O
+Vnum 31723
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2413
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 2115
+Cond 0
+Wear -1
+Lev  50
+Cost 2700
+Affc 'reserved'   1  47  -1  -1   2          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 12004
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 44
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 309
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
+Vnum 10733
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 9107
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Val  6 2 19 39 12
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 23505
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 700
+End
+
+#O
+Vnum 9227
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 67
+Cond 0
+Wear -1
+Lev  35
+Cost 0
+Val  2 7 3 11 6
+Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'reserved'   1  28  -1  -1   1          0
+End
+
+#O
+Vnum 10069
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1000
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   1  53  -1   9  18          0
+End
+
+#O
+Vnum 20738
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1212
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 1991
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 2415
+Enchanted
+Nest 1
+PrevOwner Ravenclaw~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 1100
+Val  1 9 4 25 260
+Affc 'enchant weapon'   1  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'reserved'   1  47  -1 -20  13          0
+End
+
+#O
+Vnum 23144
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 4200
+End
+
+#O
+Vnum 2438
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 2432
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 26
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+Val  51 188 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 2405
+Nest 0
+PrevOwner Crunk~
+Name ritual grail~
+ShD  the ritual grail of {GAvarice{x~
+Desc The ritual grail of {GAvarice{x lies here, shining brighter than gold.~
+ExtF 17694977
+Cond 0
+Wear 17
+Cost 1000
+ExDe avarice's~ magic grail
+~
 End
 
 #O
 Vnum 2505
 Nest 0
-PrevOwner (null)~
+PrevOwner Crunk~
+Name scratched ritual bracer~
+ShD  a scratched ritual bracer~
+Desc A scratched ritual bracer lies here, it has seen better days~
+Cond 0
+Wear 15
+Cost 1150
+End
+
+#O
+Vnum 5914
+Nest 0
+PrevOwner Crunk~
+Name ritual cap~
+ShD  a weathered ritual cap~
+Desc A weathered ritual cap lies here, it has seen better days.~
+Cond 0
+Wear 6
+Cost 4400
+End
+
+#O
+Vnum 22507
+Nest 0
+PrevOwner Crunk~
+Name deteriorated ritual cape~
+ShD  a deteriorated ritual cape~
+Desc A deteriorated ritual cape lies here, it has seen better days.~
+Cond 0
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 22504
+Nest 0
+PrevOwner Khomeini~
+Name Tarnished Ritual Lamp~
+ShD  a tarnished ritual lamp~
+Desc A tarnished ritual lamp lies here, its seen better days.~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner Khomeini~
+Name dented ritual bracer~
+ShD  a dented ritual bracer~
+Desc A dented ritual bracer lies here, it has seen better days.~
 Cond 0
 Wear 14
 Cost 1150
 End
 
 #O
-Vnum 3358
+Vnum 5944
 Nest 0
-PrevOwner (null)~
+PrevOwner Nike~
+ExtF 554173185
 Cond 0
-Wear 8
-Cost 450
+Wear 7
+Cost 500
 End
 
 #O
-Vnum 3360
+Vnum 23021
 Nest 0
-PrevOwner (null)~
+PrevOwner Ravenclaw~
 Cond 0
-Wear 10
-Cost 450
+Wear -1
+Cost 710
 End
 
 #O
-Vnum 3364
+Vnum 12003
 Nest 0
-PrevOwner (null)~
+PrevOwner Ravenclaw~
+ExtF 2048
 Cond 0
-Wear 1
-Cost 1280
+Wear -1
+Cost 3500
 End
 
 #O
-Vnum 3365
+Vnum 3726
 Nest 0
-PrevOwner (null)~
+PrevOwner Ravenclaw~
 Cond 0
-Wear 0
-Cost 640
-Val  0 0 374 0 0
+Wear -1
+Cost 0
+Val  100 1 0 10 85
 End
 
 #O
-Vnum 3350
+Vnum 1258
 Nest 0
-PrevOwner (null)~
+PrevOwner Ravenclaw~
+Name bag beta Reznar~
+ShD  a bag made from Reznar's hide~
+Desc A bag of fine Reznar hide catches your eye.  ~
+ExtF 16384
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  15
+Cost 2250
+Val  450 1 -1 90 25
+End
+
+#O
+Vnum 17648
+Nest 0
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 0
+PrevOwner Ravenclaw~
+Name outcast pride~
+ShD  {Y--== {DOutcast's {WPride {Y==--{x~
+Desc The Pride of the Outcast's lies here collecting dust.~
+ExtF 67
 Cond 0
 Wear 16
-Cost 1280
+Lev  50
+Cost 2250
+Val  2 2 19 2 15
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
-Vnum 2504
+Vnum 2411
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 1160
+Cost 2200
 End
 
 #O
-Vnum 2505
+Vnum 26
+Nest 0
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 10320
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 15
-Cost 1150
+Wear -1
+Cost 9500
+End
+
+#O
+Vnum 10320
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 9500
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner Harmony~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner Harmony~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4822
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 8058
+Nest 0
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 2035
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 31723
+Nest 0
+PrevOwner Ravenclaw~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

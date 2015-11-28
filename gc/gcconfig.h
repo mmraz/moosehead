@@ -29,8 +29,8 @@
 
 /* Determine the machine type: */
 # if defined(sun) && defined(mc68000)
-#    define M68K
-#    define SUNOS4
+// #    define M68K
+// #    define SUNOS4
 #    define mach_type_known
 # endif
 # if defined(hp9000s300)
@@ -299,7 +299,7 @@
 # endif
 
 #define I386
-#define OPENBSD
+//#define OPENBSD
 #define mach_type_known
 /* Feel free to add more clauses here */
 
@@ -864,7 +864,7 @@
 #   ifdef BSDI
 #	define OS_TYPE "BSDI"
 #   endif
-#   if defined(OPENBSD) || defined(FREEBSD) || defined(NETBSD) \
+#   if defined(PENBSD) || defined(FREEBSD) || defined(NETBSD) \
         || defined(THREE86BSD) || defined(BSDI)
 #	define HEURISTIC2
 	extern char etext;
@@ -1328,3 +1328,4 @@
 # endif
 
 # endif /* GCCONFIG_H */
+

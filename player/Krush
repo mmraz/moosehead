@@ -3,19 +3,20 @@ Name Krush~
 SurN Krebain~
 Id   1071927269
 Email (null)~
-LogO 1132582227
-Vers 31
+LogO 1445176065
+Vers 33
 Prom [%hHp %mMa %vMv][%g.%s][%w][%S][%t]%c[%r][%e] ~
 Race dragon~
 Clan honor~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 10
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 4 6 0 3
 Steal 0 0 0
+MSteal 0
 LstK Draakar~
 LstKBy Gaf~
 LstAtkedBy no one~
@@ -23,10 +24,16 @@ LstAtkedByTimer 0
 LstCombatDate 1129487777
 LstKillDate 1099260734
 LstDeathDate 1086081442
-LoginsWOKill 15
-LoginsWODeath 66
-LoginsWOCombat 1
+LoginsWOKill 19
+LoginsWODeath 70
+LoginsWOCombat 5
 Bnty 400
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 129099 hermes~
 Sac  150
 Sex  1
@@ -35,50 +42,50 @@ Node 0
 Cap 0
 Created 1071927324
 Glad 0 0 0 0 0 0
-LastHost 196-207-45-254.gprs.vodacom.co.za~
+LastHost 197.83.194.142~
 Cla  0
 Kit wu jen~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 344968
+Plyd 347834
 Not  1100492461 1125959914 0 1129145608 1098850206 1132178880 0 1127782281 0 1100986389
 Scro 22
 Rank 1
-Room 31520
-HMV  1374 1403 875 1004 892 892
-Gold 988
-Silv 15521
+Room 31501
+HMV  1403 1403 907 1004 892 892
+Gold 39
+Silv 13
 Exp  449359
 Act  CDGHIKQa
 MHSF RSUV
-AfBy DFHJTc
+AfBy HJTVc
 Comm RT
 Disp BFIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  4
-Prac 6
-Trai 5
-SkiP 288
+Pos  8
+Prac 11
+Trai 17
+SkiP 289
 Save  -13
 Alig  -1000
 Hit   17
 Dam   18
 SecHit   17
 SecDam   18
-ACs -30 -18 -22 12
+ACs -50 -38 -42 -8
 Wimp  15
-Attr 21 23 25 20 24 17 20 15
-AMod 2 2 0 2 1 0 0 0
+Attr 21 23 25 20 24 11 14 15
+AMod 7 2 0 6 1 0 0 0
 Pass KrShHDcliDr8w~
 Titl .~
 Pnts 100
 TSex 1
 LLev 50
 HMVP 1083 809 892
-Cnd  0 0 8 0
+Cnd  0 24 42 36
 Alias 1 c 'dispel magic'~
 Alias 3 c curse~
 Alias 4 c blind~
@@ -107,7 +114,6 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 75 'cone of silence'
 Sk 78 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -126,7 +132,7 @@ Sk 89 'diamond skin'
 Sk 100 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
-Sk 78 'enhance'
+Sk 80 'enhance'
 Sk 100 'energy drain'
 Sk 1 'enervation'
 Sk 1 'entrance'
@@ -225,9 +231,11 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect hidden'   0  53  51   0   0         32
-Affc 'detect invis'   0  54  50   0   0          8
-Affc 'sanctuary'   0  52   0   0   0        128
+Affc 'sanctuary'   0  52   3   0   0        128
+Affc 'enhance'   0  48  10   1   1          0
+Affc 'haste'   0  48   4   4   2    2097152
+Affc 'giant strength'   0  42   5   4   1          0
+Affc 'shield'   0  44  13 -20  17          0
 End
 
 #O
@@ -585,7 +593,7 @@ Vnum 22514
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 16
 Cost 0
 End
 
@@ -596,6 +604,15 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #END

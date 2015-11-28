@@ -1,0 +1,117 @@
+#AREA
+../newareas/soviet.are~
+Boinga Tax Office~
+{20 40} Soviet  Boinga Tax Office~
+200 204
+
+#MOBILES
+#0
+
+#OBJECTS
+#200
+desk~
+a desk~
+An imposing desk is here, blocking the way in.~
+adamantite~
+furniture ERS 0
+1 0 BEH 50 200
+1 100 0 P
+#0
+
+#ROOMS
+#200
+The Entrance to a Dark Building~
+You stand before an immense, dismal structure. Horrid cries and deep,
+unearthly laughter come from within. You cannot begin to imagine the
+malevolence dwelling within its polished black walls. A huge door beckons
+to the unwary traveller.
+~
+0 AC 4
+D3
+Exit ~
+door~
+1 0 201
+S
+#201
+The Dismal Hallway~
+As you enter the building, the door creaks shut behind you, finally
+closing with a deafening slam. Around you is a dark hall, leading off
+into the distance. A black sludge seems to be coating the walls in places.
+You try desperately to ignore the screams of terror coming from further
+inside.
+~
+0 AD 0
+D1
+Exit ~
+door~
+1 0 200
+D3
+Exit ~
+door~
+0 0 202
+S
+#202
+The Dismal Hallway~
+As you enter the building, the door creaks shut behind you, finally
+closing with a deafening slam. Around you is a dark hall, leading off
+into the distance. A black sludge seems to be coating the walls in places.
+You try desperately to ignore the screams of terror coming from further
+inside.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 201
+D3
+Exit ~
+door~
+0 0 203
+S
+#203
+The Dismal Hallway~
+As you enter the building, the door creaks shut behind you, finally
+closing with a deafening slam. Around you is a dark hall, leading off
+into the distance. A black sludge seems to be coating the walls in places.
+You try desperately to ignore the screams of terror coming from further
+inside.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 202
+D3
+Exit ~
+door~
+0 0 204
+S
+#204
+The Point of No Return~
+Beyond this point lie the Tax Offices of the realm of Boinga. It is from
+within the interior that the true horror you have sensed since entering the
+area seem to eminate. A large, brutal man sits behind a desk here. His job
+is to make sure not just anyone can gain entry. He allows only workers and
+deadbeat tax evader punks inside. He's allowed to rough up the punks a bit.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 203
+S
+#0
+
+#RESETS
+D 0  201   1    1	* The Dismal Hallway east
+D 0  200   3    1	* The Entrance to a Dark Building west
+O 0  200 100  204	* a desk
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

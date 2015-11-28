@@ -2,8 +2,8 @@
 Name Valcor~
 Id   973003183
 Email (null)~
-LogO 1132582636
-Vers 31
+LogO 1444852267
+Vers 33
 LnD  A Gladiator~
 Prom <%hHp %mMa %vMv>[%g.%s][%S][%w]%c[%e][%r] ~
 Race dragon~
@@ -12,10 +12,11 @@ Outc 0
 RufT 0
 MatookT 12001
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +28,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 458349 matook~
 DeityT -3872 matook~
 Sac  225
@@ -36,49 +43,50 @@ Node 0
 Cap 0
 Created 973003212
 Glad 1 4 0 1 3 1
-LastHost 196-207-45-254.gprs.vodacom.co.za~
+LastHost 197.83.194.142~
 Cla  3
 Kit barbarian~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 1028743
+Plyd 1029855
 Not  1048113527 0 0 1030378117 0 1035165488 0 1048408206 0 0
 Scro 22
 Rank 0
-Room 3014
+Room 16502
 HMV  1372 1372 747 747 514 514
 Gold 36
 Silv 15189
 Exp  385615
 Act  CDGHIM
 MHSF R
-AfBy CDFJTV
+AfBy CDFJT
 Comm GLR
 Disp FGIJ
 IcgB 0
 Icg 0
 Pnet ACF
-Pos  4
-Prac 2
+Pos  8
+Prac 3
+Trai 9
 SkiP 175
-Save  -13
+Save  -8
 Alig  -1000
-Hit   41
+Hit   36
 Dam   32
-SecHit   33
+SecHit   28
 SecDam   24
-ACs -45 -47 -47 -2
+ACs 15 13 13 58
 Wimp  15
-Attr 22 24 18 22 24 16 18 15
-AMod 7 0 1 5 2 0 0 0
+Attr 22 24 18 22 24 11 14 15
+AMod 3 0 1 1 2 0 0 0
 Pass VaUInQW0Fa9/E~
 Titl  {C[{r^{b_{x^{C]{x~
 Pnts 87
 TSex 1
 LLev 1
 HMVP 1252 701 479
-Cnd  0 0 2 0
+Cnd  0 0 0 0
 Alias fam c fam~
 Alias 2 c heal~
 Alias 1 c 'dispel magic'~
@@ -108,7 +116,6 @@ Sk 1 'chain lightning'
 Sk 1 'change sex'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 91 'cure blindness'
 Sk 1 'cure critical'
 Sk 79 'cure disease'
@@ -202,12 +209,6 @@ Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'haste'   0  39  14   4   2    2097152
-Affc 'shield'   0  30  10 -20  17          0
-Affc 'giant strength'   0  31   2   4   1          0
-Affc 'bless'   0  33   8   5  18          0
-Affc 'bless'   0  30   8  -5  24          0
-Affc 'stone skin'   0  37   2 -40  17          0
 End
 
 #O
@@ -232,8 +233,8 @@ Cond 0
 Wear 7
 Lev  43
 Cost 2000
-Affc 'reserved'   1  39  -1  -2  20          0
 Affc 'reserved'   1  39  -1   2  19          0
+Affc 'reserved'   1  39  -1  -2  20          0
 End
 
 #O
@@ -249,7 +250,7 @@ End
 Vnum 5942
 Nest 0
 PrevOwner Sluane~
-Stolen 29
+Stolen 1
 Cond 0
 Wear -1
 Cost 4000
@@ -262,7 +263,7 @@ PrevOwner Sluane~
 Name blazing reefer~
 ShD  a {RBlazing{x hot {gReefer{x~
 Desc A smoking pile of reefer sits here.~
-Stolen 39
+Stolen 11
 Cond 0
 Wear 0
 Cost 0
@@ -272,10 +273,10 @@ End
 Vnum 3040
 Nest 0
 PrevOwner Sluane~
-Stolen 29
+Stolen 1
 Cond 0
 Wear -1
-Time 1592
+Time 1564
 Cost 890
 Spell 1 'identify'
 End
@@ -301,8 +302,8 @@ Wear 6
 Lev  45
 Cost 4000
 Val  8 8 8 5 5
-Affc 'reserved'   1  40  -1   1  19          0
 Affc 'reserved'   1  40  -1   3  18          0
+Affc 'reserved'   1  40  -1   1  19          0
 End
 
 #O
@@ -456,95 +457,14 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6400
-Affc 'enchant weapon'   0  53  -1  12  18          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
 Vnum 1345
 Nest 0
 PrevOwner Sluane~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Valcor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Valcor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Valcor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Valcor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Valcor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Valcor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Valcor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Valcor~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Valcor~
 Cond 0
 Wear -1
 Cost 0
@@ -650,9 +570,9 @@ Cond 0
 Wear 16
 Lev  50
 Cost 3500
-Affc 'reserved'   1  45  -1  50  13          0
-Affc 'enchant weapon'   1  53  -1   8  18          0
 Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
+Affc 'reserved'   1  45  -1  50  13          0
 End
 
 #O
@@ -712,10 +632,20 @@ End
 Vnum 10448
 Nest 0
 PrevOwner Valcor~
-Stolen 65
+Stolen 37
 Cond 0
 Wear -1
 Cost 6400
+End
+
+#O
+Vnum 5944
+Nest 0
+PrevOwner Alexis~
+ExtF 554173185
+Cond 0
+Wear -1
+Cost 500
 End
 
 #END

@@ -2,20 +2,19 @@
 Name Giles~
 Id   908867437
 Email (null)~
-LogO 1130024120
-Vers 31
+LogO 1383351109
+Vers 33
 Prom %h/%Hh %m/%Mm %vv (%Xx) (%w/%W)(%n/%N) %g.%s %e %c~
 Race dragon~
-Clan honor~
 Outc 0
 RufT 0
-MatookT 0
-Abol -1
+MatookT 467
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -23,10 +22,16 @@ LstAtkedByTimer 0
 LstCombatDate 1038082381
 LstKillDate 1038082381
 LstDeathDate 1038082381
-LoginsWOKill 5
-LoginsWODeath 5
-LoginsWOCombat 5
+LoginsWOKill 47
+LoginsWODeath 47
+LoginsWOCombat 47
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 4 94 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 163800 hermes~
 DeityT -8 hermes~
 Sac  700
@@ -36,48 +41,49 @@ Node 0
 Cap 0
 Created 981767361
 Glad 0 0 0 0 0 0
-LastHost 80.157.171.66.subscriber.vzavenue.net~
+LastHost 76.237.92.68~
 Cla  5
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 13
-Plyd 325213
-Not  1050272072 1050272072 1050272072 1129145608 1050272072 1129940860 1050272072 1050272072 1050272072 1050272072
+Plyd 375530
+Not  1373427528 1381924072 1370991440 1371977109 1370991440 1380254889 1370991440 1375318137 1370991440 1370991440
 Scro 33
 Rank 0
-Room 31501
-HMV  1249 1249 889 889 420 420
-Gold 82
-Silv 135
+Room 16505
+HMV  1349 1349 849 909 420 420
+Gold 646
+Silv 15045
 Exp  510000
 Act  CDEFGHQSd
 MHSF R
-AfBy DFJT
+AfBy HJTV
 Comm IRS
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-Trai 10
-SkiP 17
-Save  -8
-Alig  0
-Hit   18
+Prac 17
+StatsTrained 100 20 0
+SkiP 99
+Save  -14
+Alig  147
+Hit   24
 Dam   38
-SecHit   10
+SecHit   16
 SecDam   31
-ACs 8 8 13 42
-Wimp  100
-Attr 20 20 20 20 20 13 13 13
-AMod 5 4 8 1 0 0 0 0
-Pass GiLP8ewH/srjw~
+ACs -72 -72 -67 -38
+Wimp  10
+Attr 20 20 20 20 20 11 14 13
+AMod 5 4 8 5 0 0 0 0
+Pass GiOk.G1IilA3A~
 Titl ..~
 Pnts 100
 TSex 1
 LLev 79
-HMVP 1209 854 385
-Cnd  0 7 44 15
+HMVP 1309 874 385
+Cnd  0 5 43 15
 Alias cc chant 'cure crit'~
 Alias c chant~
 Alias pg chant 'protection g'~
@@ -85,7 +91,11 @@ Alias m murder~
 Alias dm chant 'dispel magic'~
 Alias hs chant 'holy sil'~
 Alias wd chant 'withstand death'~
-Sk 86 'acid blast'
+Alias dh chant 'detect h~
+Alias di chant 'detect i~
+Alias o order all~
+Alias sd chant 'summon d~
+Sk 98 'acid blast'
 OldSk 81 'acid blast'
 Sk 1 'aid'
 OldSk 1 'aid'
@@ -95,7 +105,7 @@ Sk 1 'bestow holiness'
 OldSk 1 'bestow holiness'
 Sk 100 'bless'
 OldSk 100 'bless'
-Sk 76 'blindness'
+Sk 86 'blindness'
 OldSk 76 'blindness'
 OldSk 90 'body weaponry'
 Sk 1 'burning hands'
@@ -104,9 +114,9 @@ Sk 1 'call lightning'
 OldSk 71 'call lightning'
 Sk 1 'calm'
 OldSk 75 'calm'
-Sk 79 'cancellation'
+Sk 87 'cancellation'
 OldSk 79 'cancellation'
-Sk 73 'chain lightning'
+Sk 79 'chain lightning'
 OldSk 73 'chain lightning'
 Sk 1 'change sex'
 OldSk 1 'change sex'
@@ -114,7 +124,6 @@ Sk 1 'chill touch'
 OldSk 1 'chill touch'
 Sk 1 'colour spray'
 OldSk 75 'colour spray'
-Sk 1 'cone of silence'
 Sk 75 'continual light'
 OldSk 75 'continual light'
 Sk 1 'control weather'
@@ -151,11 +160,11 @@ Sk 1 'detect evil'
 OldSk 81 'detect evil'
 Sk 1 'detect good'
 OldSk 1 'detect good'
-Sk 95 'detect hidden'
+Sk 98 'detect hidden'
 OldSk 92 'detect hidden'
-Sk 81 'detect invis'
+Sk 82 'detect invis'
 OldSk 80 'detect invis'
-Sk 1 'detect magic'
+Sk 75 'detect magic'
 OldSk 71 'detect magic'
 Sk 1 'detect poison'
 OldSk 1 'detect poison'
@@ -163,7 +172,7 @@ Sk 1 'dispel evil'
 OldSk 75 'dispel evil'
 Sk 1 'dispel good'
 OldSk 71 'dispel good'
-Sk 86 'dispel magic'
+Sk 89 'dispel magic'
 OldSk 75 'dispel magic'
 Sk 1 'earthquake'
 OldSk 74 'earthquake'
@@ -171,11 +180,11 @@ Sk 1 'endure cold'
 OldSk 1 'endure cold'
 Sk 1 'endure heat'
 OldSk 1 'endure heat'
-Sk 71 'energy drain'
+Sk 88 'energy drain'
 OldSk 71 'energy drain'
 Sk 1 'enervation'
 OldSk 1 'enervation'
-Sk 91 'faerie fire'
+Sk 94 'faerie fire'
 OldSk 91 'faerie fire'
 Sk 77 'faerie fog'
 OldSk 77 'faerie fog'
@@ -183,11 +192,11 @@ Sk 1 'famine'
 OldSk 1 'famine'
 Sk 1 'farsight'
 OldSk 1 'farsight'
-Sk 91 'feast'
+Sk 98 'feast'
 OldSk 79 'feast'
 Sk 1 'feeblemind'
 OldSk 1 'feeblemind'
-Sk 78 'fireball'
+Sk 81 'fireball'
 OldSk 78 'fireball'
 Sk 75 'fireproof'
 OldSk 75 'fireproof'
@@ -199,19 +208,19 @@ Sk 1 'fly'
 OldSk 71 'fly'
 Sk 1 'forget'
 OldSk 1 'forget'
-Sk 89 'frenzy'
+Sk 92 'frenzy'
 OldSk 89 'frenzy'
 Sk 1 'fumble'
 OldSk 1 'fumble'
-Sk 88 'gate'
+Sk 94 'gate'
 OldSk 82 'gate'
 Sk 75 'giant strength'
 OldSk 75 'giant strength'
-Sk 80 'haste'
+Sk 83 'haste'
 OldSk 80 'haste'
 Sk 87 'heal'
 OldSk 87 'heal'
-Sk 77 'heat metal'
+Sk 79 'heat metal'
 OldSk 75 'heat metal'
 Sk 1 'hold person'
 OldSk 1 'hold person'
@@ -232,7 +241,7 @@ OldSk 1 'know alignment'
 OldSk 71 'lay on hands'
 Sk 1 'lightning bolt'
 OldSk 71 'lightning bolt'
-Sk 76 'locate object'
+Sk 81 'locate object'
 OldSk 76 'locate object'
 Sk 1 'magic missile'
 OldSk 79 'magic missile'
@@ -243,9 +252,9 @@ Sk 1 'nexus'
 OldSk 1 'nexus'
 Sk 77 'pass door'
 OldSk 77 'pass door'
-Sk 75 'plague'
+Sk 78 'plague'
 OldSk 75 'plague'
-Sk 75 'poison'
+Sk 78 'poison'
 OldSk 75 'poison'
 Sk 1 'portal'
 OldSk 1 'portal'
@@ -253,39 +262,39 @@ Sk 77 'protection evil'
 OldSk 77 'protection evil'
 Sk 75 'protection good'
 OldSk 75 'protection good'
-Sk 1 'protection neutral'
+Sk 80 'protection neutral'
 OldSk 80 'protection neutral'
 OldSk 71 'psionic blast'
-Sk 77 'ray of truth'
+Sk 81 'ray of truth'
 OldSk 77 'ray of truth'
-Sk 78 'refresh'
+Sk 81 'refresh'
 OldSk 78 'refresh'
 Sk 75 'remove curse'
 OldSk 75 'remove curse'
 Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
-Sk 89 'sanctuary'
+Sk 90 'sanctuary'
 OldSk 89 'sanctuary'
-Sk 81 'shield'
+Sk 84 'shield'
 OldSk 81 'shield'
 Sk 1 'shocking grasp'
 OldSk 1 'shocking grasp'
-Sk 79 'slow'
+Sk 84 'slow'
 OldSk 76 'slow'
 Sk 75 'see soul'
 OldSk 75 'see soul'
-Sk 77 'stone skin'
+Sk 79 'stone skin'
 OldSk 77 'stone skin'
-Sk 83 'summon'
+Sk 86 'summon'
 OldSk 75 'summon'
-Sk 1 'teleport'
+Sk 75 'teleport'
 OldSk 71 'teleport'
 OldSk 78 'tower of iron will'
 Sk 80 'warp'
 OldSk 76 'warp'
-Sk 1 'weaken'
+Sk 75 'weaken'
 OldSk 75 'weaken'
-Sk 86 'word of recall'
+Sk 92 'word of recall'
 OldSk 86 'word of recall'
 Sk 1 'acid breath'
 Sk 1 'fire breath'
@@ -294,22 +303,22 @@ Sk 1 'gas breath'
 Sk 1 'lightning breath'
 Sk 1 'animate dead'
 OldSk 71 'animate dead'
-Sk 84 'summon dead'
+Sk 91 'summon dead'
 OldSk 84 'summon dead'
 Sk 1 'cryogenesis'
 OldSk 71 'cryogenesis'
 Sk 1 'draw life'
 OldSk 1 'draw life'
 Sk 1 'make bag'
-Sk 88 'turn undead'
+Sk 90 'turn undead'
 OldSk 88 'turn undead'
-Sk 75 'withstand death'
+Sk 79 'withstand death'
 OldSk 74 'withstand death'
 Sk 1 'wound transfer'
 OldSk 71 'wound transfer'
 OldSk 15 'axe'
 OldSk 75 'dagger'
-Sk 95 'flail'
+Sk 100 'flail'
 OldSk 75 'flail'
 Sk 88 'mace'
 OldSk 75 'mace'
@@ -327,16 +336,16 @@ OldSk 71 'fear'
 OldSk 76 'hex'
 Sk 100 'enhanced damage'
 OldSk 100 'enhanced damage'
-Sk 18 'hand to hand'
+Sk 82 'hand to hand'
 OldSk 100 'parry'
 OldSk 1 'rescue'
-Sk 77 'shield block'
+Sk 85 'shield block'
 OldSk 77 'shield block'
-Sk 63 'scan'
+Sk 95 'scan'
 OldSk 100 'scan'
 Sk 100 'second attack'
 OldSk 100 'second attack'
-Sk 87 'third attack'
+Sk 96 'third attack'
 OldSk 85 'third attack'
 Sk 100 'holy chant'
 OldSk 100 'holy chant'
@@ -348,9 +357,9 @@ Sk 1 'staves'
 OldSk 45 'staves'
 Sk 1 'wands'
 OldSk 45 'wands'
-Sk 50 'swimming'
+Sk 51 'swimming'
 OldSk 58 'swimming'
-Sk 50 'recall'
+Sk 55 'recall'
 OldSk 50 'recall'
 Gr 'rom basics'
 Gr 'paladin basics'
@@ -370,8 +379,14 @@ Gr 'piety'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'detect invis'   0  48  41   0   0          8
-Affc 'detect hidden'   0  49  41   0   0         32
+Affc 'sanctuary'   0  51   8   0   0        128
+Affc 'bless'   0  49  33   6  18          0
+Affc 'bless'   0  45  33  -6  24          0
+Affc 'armor'   0  45  12 -20  17          0
+Affc 'stone skin'   0  46  27 -40  17          0
+Affc 'shield'   0  48  36 -20  17          0
+Affc 'haste'   0  48   4   4   2    2097152
+Affc 'indulgence'   0  47  36   0   0          0
 End
 
 #O
@@ -384,24 +399,6 @@ Cost 4000
 End
 
 #O
-Vnum 8800
-Nest 1
-PrevOwner Giles~
-Cond 0
-Wear -1
-Cost 1870
-End
-
-#O
-Vnum 8800
-Nest 1
-PrevOwner Giles~
-Cond 0
-Wear -1
-Cost 1870
-End
-
-#O
 Vnum 3007
 Nest 1
 PrevOwner Giles~
@@ -417,6 +414,33 @@ PrevOwner Giles~
 Cond 0
 Wear -1
 Cost 500000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Giles~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Giles~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Giles~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #O
@@ -489,35 +513,6 @@ PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 4100
-End
-
-#O
-Vnum 9302
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 10
-Cost 3100
-End
-
-#O
-Vnum 911
-Nest 0
-PrevOwner (null)~
-ExtF 1121
-Cond 0
-Wear 2
-Cost 6900
-End
-
-#O
-Vnum 911
-Nest 0
-PrevOwner (null)~
-ExtF 1121
-Cond 0
-Wear 1
-Cost 6900
 End
 
 #O
@@ -602,21 +597,6 @@ Cost 4500
 End
 
 #O
-Vnum 18106
-Enchanted
-Nest 0
-PrevOwner Giles~
-ExtF 323
-Cond 0
-Wear 16
-Lev  50
-Cost 4500
-Val  6 4 10 3 516
-Affc 'enchant weapon'   1  52  -1   7  19          0
-Affc 'enchant weapon'   1  52  -1   8  18          0
-End
-
-#O
 Vnum 20801
 Nest 0
 PrevOwner Giles~
@@ -638,6 +618,59 @@ Cond 0
 Wear 8
 Cost 0
 Val  9 9 9 5 5
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 0
+PrevOwner Giles~
+ExtF 323
+Cond 0
+Wear 16
+Lev  50
+Cost 4500
+Val  6 4 10 3 516
+Affc 'enchant weapon'   1  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
+End
+
+#O
+Vnum 9302
+Nest 0
+PrevOwner Giles~
+Cond 0
+Wear 10
+Cost 3100
+End
+
+#O
+Vnum 911
+Nest 0
+PrevOwner Giles~
+ExtF 1121
+Cond 0
+Wear 2
+Cost 6900
+End
+
+#O
+Vnum 911
+Nest 0
+PrevOwner Giles~
+ExtF 1121
+Cond 0
+Wear 1
+Cost 6900
+End
+
+#O
+Vnum 10427
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 11800
 End
 
 #END

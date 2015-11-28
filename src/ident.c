@@ -95,6 +95,7 @@ void do_ident( CHAR_DATA *ch, char *argument )
     if (isdigit(host[0]))
       addr.sin_addr.s_addr = inet_addr(host);
     else {
+	printf("GOOBER 1");
       if((hp = gethostbyname(host)) == NULL) {
   /*      sprintf(stder, "Host not found (%s)\n\r", host);
 	send_to_char( stder, ch);*/

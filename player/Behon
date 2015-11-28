@@ -2,8 +2,8 @@
 Name Behon~
 Id   902791315
 Email (null)~
-LogO 1115380634
-Vers 31
+LogO 1328573853
+Vers 33
 Prom %h hp | %m Mana | %v Mov | %Xtnl ~
 Race dragon~
 Clan matook~
@@ -15,6 +15,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 1085701 matook~
 Sac  300
 Sex  1
@@ -34,50 +39,51 @@ Node 0
 Cap 0
 Created 951742109
 Glad 0 0 0 0 0 0
-LastHost 68.113.187.149~
+LastHost 75.135.60.22~
 Cla  6
 Kit barbarian~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 1826556
-Not  1115151441 1101550224 1069828896 1115324225 1110312209 1115064035 1069828896 1115068176 1069828896 1100986389
+Plyd 1838952
+Not  1328142966 1328536756 1069828896 1326946454 1327169094 1327640615 1069828896 1323112705 1069828896 1327266249
 Scro 22
 Rank 0
 Room 16501
 HMV  1555 1555 499 499 428 428
-Gold 556
-Silv 4386
+Gold 685
+Silv 9805
 Bank 1
 Exp  571293
 Act  CDEFGHO
 MHSF AR
 AfBy EJT
-Comm DGOSc
+Comm DGOS
 Disp FIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 33
-SkiP 28
-Save  -2
+Trai 11
+SkiP 49
+Save  -7
 Alig  -1000
-Hit   23
+Hit   28
 Dam   34
-SecHit   16
+SecHit   21
 SecDam   27
-ACs -90 -90 -90 -9
-Wimp  20
-Attr 25 22 21 25 25 22 13 13
-AMod 4 1 0 4 0 0 0 0
+ACs -110 -110 -110 -29
+Wimp  10
+Attr 25 22 21 25 25 11 14 13
+AMod 8 1 0 4 0 0 0 0
 Pass Be2CSi2rDh2fQ~
 Titl  {BSky{rBlaze{x.~
 Pnts 100
 TSex 1
 LLev 382
 HMVP 1490 394 393
-Cnd  0 8 39 14
+Cnd  0 0 26 4
 Spz 'sword'
 Sk 1 'aid'
 Sk 94 'armor'
@@ -140,7 +146,7 @@ Sk 92 'shield'
 OldSk 86 'shield'
 Sk 91 'stone skin'
 OldSk 85 'stone skin'
-Sk 91 'summon'
+Sk 97 'summon'
 OldSk 87 'summon'
 Sk 75 'teleport'
 OldSk 75 'teleport'
@@ -175,14 +181,14 @@ Sk 100 'dodge'
 OldSk 100 'dodge'
 Sk 100 'endurance'
 OldSk 100 'endurance'
-Sk 87 'fear'
+Sk 89 'fear'
 Sk 100 'hex'
 Sk 100 'enhanced critical'
 Sk 100 'enhanced damage'
 OldSk 100 'enhanced damage'
 Sk 100 'weave resistance'
 OldSk 100 'weave resistance'
-Sk 98 'insanity'
+Sk 100 'insanity'
 OldSk 100 'insanity'
 Sk 100 'hand to hand'
 OldSk 100 'hand to hand'
@@ -202,7 +208,7 @@ Sk 100 'haggle'
 OldSk 100 'haggle'
 Sk 77 'hide'
 Sk 82 'sneak'
-Sk 83 'steal'
+Sk 86 'steal'
 OldSk 82 'steal'
 Sk 75 'scrolls'
 OldSk 94 'scrolls'
@@ -223,7 +229,11 @@ Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
 Gr 'mummy'
-Affc 'detect magic'   0  40  38   0   0         16
+Affc 'armor'   0  37  11 -20  17          0
+Affc 'bless'   0  37  24   5  18          0
+Affc 'bless'   0  35  24  -5  24          0
+Affc 'detect magic'   0  34  19   0   0         16
+Affc 'giant strength'   0  39  18   4   1          0
 End
 
 #O
@@ -237,8 +247,8 @@ Cond 0
 Wear 9
 Cost 4000
 Val  8 8 8 5 5
-Affc 'reserved'   1  37  -1   2   1          0
 Affc 'reserved'   1  37  -1   2  19          0
+Affc 'reserved'   1  37  -1   2   1          0
 End
 
 #O
@@ -258,8 +268,8 @@ PrevOwner Behon~
 Cond 0
 Wear 13
 Cost 5500
-Affc 'reserved'   1  46  -1   2  19          0
 Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1   2  19          0
 End
 
 #O
@@ -436,6 +446,27 @@ Cost 0
 End
 
 #O
+Vnum 10440
+Nest 1
+PrevOwner Behon~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 2 164 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Behon~
+Cond 0
+Wear -1
+Cost 8500
+Spell 3 'remove curse'
+End
+
+#O
 Vnum 11096
 Nest 1
 PrevOwner Behon~
@@ -443,202 +474,6 @@ Cond 0
 Wear -1
 Cost 15000
 Val  3 0 -1 4119 0
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Behon~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 2 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Behon~
-Cond 0
-Wear -1
-Cost 8500
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 3032
-Nest 1
-PrevOwner Behon~
-Cond 0
-Wear -1
-Cost 9
-End
-
-#O
-Vnum 6517
-Nest 2
-PrevOwner (null)~
-Name hat balanced~
-ShD  the Balanced hat of Rigger~
-Desc A big Balanced hat sits on a peg here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8721
-Nest 2
-PrevOwner (null)~
-Name ramona bug juice~
-ShD  Ramona's bug juice~
-Desc A little glass bottle of dark liquid sits on the ground.~
-Cond 0
-Wear -1
-Cost 1820
-Spell 1 'giant strength'
-Spell 2 'stone skin'
-Spell 3 'sanctuary'
-End
-
-#O
-Vnum 1251
-Nest 2
-PrevOwner (null)~
-ShD  a {GRobinhood's{x chocolate arrow~
-Desc Looks like one of {GRobinhoods{x magic chocolate arrows~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'shield'
-End
-
-#O
-Vnum 30041
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 20
-Spell 1 'cure critical'
-Spell 2 'fly'
-Spell 3 'refresh'
-End
-
-#O
-Vnum 769
-Nest 2
-PrevOwner (null)~
-Name vial paladin~
-ShD  the Paladin's vial~
-Desc The Paladin's vial is here.~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'cure critical'
-End
-
-#O
-Vnum 8721
-Nest 2
-PrevOwner (null)~
-Name diet peanut chocolate fudge cola~
-ShD  a can of Diet Peanut Chocolate Fudge Cola~
-Desc A cold and refreshing beverage fizzles here.~
-Cond 0
-Wear -1
-Cost 1820
-Spell 1 'giant strength'
-Spell 2 'stone skin'
-Spell 3 'sanctuary'
-End
-
-#O
-Vnum 30184
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'create rose'
-End
-
-#O
-Vnum 30109
-Nest 2
-PrevOwner (null)~
-Name bmw poquah gift leveling chocolate~
-ShD  a chocolate BMW-Z3~
-Desc An expensive chocolate leveling gift shaped like a BMW-Z3 melts slowly.~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'cure critical'
-End
-
-#O
-Vnum 3032
-Nest 2
-PrevOwner (null)~
-Name bag jellybeans~
-ShD  a bag of jellybeans~
-Desc You see a small bag of jellybeans here.~
-Cond 0
-Wear -1
-Cost 9
-End
-
-#O
-Vnum 8918
-Nest 3
-PrevOwner (null)~
-Name orange jellybean~
-ShD  an orange jellybean~
-Desc One lonely orange jellybean has been dropped here.~
-Cond 0
-Wear -1
-Cost 150
-Spell 3 'cure light'
-End
-
-#O
-Vnum 8917
-Nest 3
-PrevOwner (null)~
-Name red jellybean~
-ShD  a red jellybean~
-Desc One lonely red jellybean has been dropped here.~
-Cond 0
-Wear -1
-Cost 250
-Spell 3 'detect magic'
-End
-
-#O
-Vnum 8914
-Nest 3
-PrevOwner (null)~
-Name purple jellybean~
-ShD  a purple jellybean~
-Desc One lonely purple jellybean has been dropped here.~
-Cond 0
-Wear -1
-Cost 250
-Spell 3 'change sex'
-End
-
-#O
-Vnum 8913
-Nest 3
-PrevOwner (null)~
-Name blue jellybean~
-ShD  a blue jellybean~
-Desc One lonely blue jellybean has been dropped here.~
-Cond 0
-Wear -1
-Cost 270
-Spell 3 'bless'
 End
 
 #O
@@ -658,26 +493,183 @@ PrevOwner Behon~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 5 161 0
+Val  52 10 5 164 0
 Spell 3 'remove curse'
 End
 
 #O
-Vnum 8504
+Vnum 3032
 Nest 1
 PrevOwner Behon~
 Cond 0
 Wear -1
-Cost 6000
+Cost 9
 End
 
 #O
-Vnum 8503
+Vnum 3032
 Nest 1
+PrevOwner Behon~
+Name bag jellybeans~
+ShD  a bag of jellybeans~
+Desc You see a small bag of jellybeans here.~
+Cond 0
+Wear -1
+Cost 9
+End
+
+#O
+Vnum 8918
+Nest 2
+PrevOwner (null)~
+Name orange jellybean~
+ShD  an orange jellybean~
+Desc One lonely orange jellybean has been dropped here.~
+Cond 0
+Wear -1
+Cost 150
+Spell 3 'cure light'
+End
+
+#O
+Vnum 8917
+Nest 2
+PrevOwner (null)~
+Name red jellybean~
+ShD  a red jellybean~
+Desc One lonely red jellybean has been dropped here.~
+Cond 0
+Wear -1
+Cost 250
+Spell 3 'detect magic'
+End
+
+#O
+Vnum 8913
+Nest 2
+PrevOwner (null)~
+Name blue jellybean~
+ShD  a blue jellybean~
+Desc One lonely blue jellybean has been dropped here.~
+Cond 0
+Wear -1
+Cost 270
+Spell 3 'bless'
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner Behon~
+ShD  a {GRobinhood's{x chocolate arrow~
+Desc Looks like one of {GRobinhoods{x magic chocolate arrows~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 6517
+Nest 2
+PrevOwner Behon~
+Name hat balanced~
+ShD  the Balanced hat of Rigger~
+Desc A big Balanced hat sits on a peg here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8721
+Nest 2
+PrevOwner Behon~
+Name ramona bug juice~
+ShD  Ramona's bug juice~
+Desc A little glass bottle of dark liquid sits on the ground.~
+Cond 0
+Wear -1
+Cost 1820
+Spell 1 'giant strength'
+Spell 2 'stone skin'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 30041
+Nest 2
 PrevOwner Behon~
 Cond 0
 Wear -1
-Cost 5000
+Cost 20
+Spell 1 'cure critical'
+Spell 2 'fly'
+Spell 3 'refresh'
+End
+
+#O
+Vnum 769
+Nest 2
+PrevOwner Behon~
+Name vial paladin~
+ShD  the Paladin's vial~
+Desc The Paladin's vial is here.~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 8721
+Nest 2
+PrevOwner Behon~
+Name diet peanut chocolate fudge cola~
+ShD  a can of Diet Peanut Chocolate Fudge Cola~
+Desc A cold and refreshing beverage fizzles here.~
+Cond 0
+Wear -1
+Cost 1820
+Spell 1 'giant strength'
+Spell 2 'stone skin'
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 30184
+Nest 2
+PrevOwner Behon~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'create rose'
+End
+
+#O
+Vnum 30109
+Nest 2
+PrevOwner Behon~
+Name bmw poquah gift leveling chocolate~
+ShD  a chocolate BMW-Z3~
+Desc An expensive chocolate leveling gift shaped like a BMW-Z3 melts slowly.~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 8914
+Nest 2
+PrevOwner Behon~
+Name purple jellybean~
+ShD  a purple jellybean~
+Desc One lonely purple jellybean has been dropped here.~
+Cond 0
+Wear -1
+Cost 250
+Spell 3 'change sex'
 End
 
 #O
@@ -690,21 +682,30 @@ Cost 500
 End
 
 #O
-Vnum 3007
+Vnum 22044
 Nest 2
 PrevOwner Behon~
 Cond 0
 Wear -1
-Cost 500000
+Cost 100000
 End
 
 #O
-Vnum 3007
+Vnum 22044
 Nest 2
 PrevOwner Behon~
 Cond 0
 Wear -1
-Cost 500000
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 2
+PrevOwner Behon~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #O
@@ -717,30 +718,39 @@ Cost 2500000
 End
 
 #O
-Vnum 22044
+Vnum 3007
 Nest 2
 PrevOwner Behon~
 Cond 0
 Wear -1
-Cost 100000
+Cost 500000
 End
 
 #O
-Vnum 22044
+Vnum 3007
 Nest 2
 PrevOwner Behon~
 Cond 0
 Wear -1
-Cost 100000
+Cost 500000
 End
 
 #O
-Vnum 22044
-Nest 2
+Vnum 8503
+Nest 1
 PrevOwner Behon~
 Cond 0
 Wear -1
-Cost 100000
+Cost 5000
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Behon~
+Cond 0
+Wear -1
+Cost 6000
 End
 
 #O
@@ -767,14 +777,42 @@ Enchanted
 Nest 0
 PrevOwner Behon~
 ExtF 66
-Stolen 2492
+Stolen 2189
 Cond 0
 Wear 16
 Cost 0
-Affc 'enchant weapon'   0  52  -1   7  18          0
-Affc 'enchant weapon'   1  52  -1   7  19          0
-Affc 'reserved'   1  50  -1   1   2          0
 Affc 'reserved'   1  50  -1   1   3          0
+Affc 'reserved'   1  50  -1   1   2          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
+Affc 'enchant weapon'   0  52  -1   7  18          0
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 15229
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6000
+Spell 1 'cure critical'
+End
+
+#O
+Vnum 15233
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

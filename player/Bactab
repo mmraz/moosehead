@@ -2,8 +2,8 @@
 Name Bactab~
 Id   1042911324
 Email (null)~
-LogO 1097585071
-Vers 31
+LogO 1360459705
+Vers 33
 Prom <%hhp %mm %vmv> {G*(%WWeight)*{x ->{Y%t:00{x<-(%X) ~
 Race human~
 Outc 0
@@ -14,6 +14,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -2258 matook~
 Sac  300
@@ -34,21 +39,21 @@ Node 0
 Cap 0
 Created 1042911351
 Glad 0 0 0 0 0 0
-LastHost 24.157.72.71~
+LastHost 99.241.52.126~
 Cla  13
 Kit fence~
 ClaO 2
 Levl 44
 DLevl 0
-Plyd 96197
+Plyd 104437
 Not  1047854959 1047672771 0 1047699570 1047441816 1047802218 0 1047814442 0 1046992995
 Scro 22
 Rank 0
-Room 30312
-HMV  663 663 342 342 417 418
-Gold 509
-Silv 309
-Exp  238253
+Room 3054
+HMV  663 663 342 342 197 418
+Gold 467
+Silv 83
+Exp  240768
 Act  CDGHK
 MHSF R
 Comm DG
@@ -57,8 +62,8 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 43
-Trai 5
-SkiP 111
+Trai 17
+SkiP 112
 Save  -2
 Alig  1000
 Hit   23
@@ -67,15 +72,15 @@ SecHit   23
 SecDam   31
 ACs 15 11 15 52
 Wimp  10
-Attr 18 18 18 21 18 16 16 23
-AMod 8 0 0 0 0 0 0 0
-Pass BaxCIOH0OCkBc~
+Attr 18 18 18 21 18 10 10 23
+AMod 4 0 0 0 0 0 0 0
+Pass Bae7OqAzFnXq2~
 Titl ..~
 Pnts 87
 TSex 1
 LLev 23
 HMVP 653 337 418
-Cnd  0 0 0 0
+Cnd  0 20 34 32
 Alias k kill~
 Alias / c word~
 Sk 21 'armor'
@@ -108,7 +113,7 @@ Sk 92 'connive'
 Sk 100 'cutpurse'
 Sk 23 'disarm'
 Sk 85 'dodge'
-Sk 42 'infiltrate'
+Sk 74 'infiltrate'
 Sk 100 'enhanced damage'
 Sk 47 'parry'
 Sk 97 'trip'
@@ -132,7 +137,6 @@ Gr 'thief basics'
 Gr 'rogue default'
 Gr 'protective'
 Gr 'transportation'
-Affc 'giant strength'   0  50  46   4   1          0
 End
 
 #O
@@ -320,19 +324,6 @@ Cost 1500
 End
 
 #O
-Vnum 5700
-Nest 0
-PrevOwner Bactab~
-ExtF 134217728
-Wt   29
-Wrp 1
-Cond 0
-Wear -1
-Cost 1000
-Val  0 0 0 0 3
-End
-
-#O
 Vnum 2390
 Nest 0
 PrevOwner Bactab~
@@ -491,41 +482,12 @@ Spell 3 'burning hands'
 End
 
 #O
-Vnum 8058
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2013
-Spell 3 'burning hands'
-End
-
-#O
-Vnum 8058
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2013
-Spell 3 'burning hands'
-End
-
-#O
 Vnum 15202
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 6
 Cost 0
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Bactab~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -634,7 +596,7 @@ PrevOwner Trage~
 Cond 0
 Wear -1
 Cost 3960
-Val  25 8 6 193 0
+Val  25 8 6 196 0
 Spell 3 'stone skin'
 End
 
@@ -713,6 +675,148 @@ PrevOwner Bactab~
 Cond 0
 Wear -1
 Cost 1000
+End
+
+#O
+Vnum 1345
+Nest 0
+PrevOwner Zest~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1344
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5931
+Enchanted
+Nest 1
+PrevOwner Zest~
+ExtF 65
+Cond 0
+Wear -1
+Lev  42
+Cost 3000
+Affc 'enchant armor'   1  53  -1  -9  17          0
+Affc 'reserved'   1  35  -1  15  13          0
+Affc 'reserved'   1  35  -1   2  19          0
+Affc 'reserved'   1  35  -1  -1   2          0
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 306
+End
+
+#O
+Vnum 3152
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12
+End
+
+#O
+Vnum 3152
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12
+End
+
+#O
+Vnum 3152
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12
+End
+
+#O
+Vnum 3152
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12
+End
+
+#O
+Vnum 3152
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12
+End
+
+#O
+Vnum 3152
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12
+End
+
+#O
+Vnum 3152
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12
+End
+
+#O
+Vnum 3152
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12
+End
+
+#O
+Vnum 3152
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Bactab~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Zest~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

@@ -2,7 +2,7 @@
 Name Jel~
 Id   976907641
 Email (null)~
-LogO 1132414907
+LogO 1306446488
 Vers 31
 LnD  A Gladiator~
 Desc -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -27,9 +27,9 @@ Race dragon~
 Clan matook~
 Outc 0
 RufT 0
-MatookT 1251
+MatookT 1285
 SkPTimer 0
-SkPTracker 0
+SkPTracker 6
 LogoutTracker 0
 Kill 0 1 0 0
 Steal 0 0 0
@@ -53,24 +53,24 @@ Node 0
 Cap 0
 Created 976907903
 Glad 0 0 0 0 1 0
-LastHost ndn-165-159-253.telkomadsl.co.za~
+LastHost 41.146.26.33~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 2495255
+Plyd 2496560
 Not  1126328533 1126270132 1126270132 1127943235 1126270132 1127932893 1126270132 1126315041 1126270132 1126270132
 Scro 22
 Rank 0
-Room 31258
-HMV  817 1011 1144 1768 336 494
+Room 10356
+HMV  999 1011 1754 1793 494 494
 Gold 423
-Silv 565
+Silv 715
 Exp  168359
 Act  DGIMQRS
 MHSF R
-AfBy CJTW
+AfBy CDEFHJNTVW
 Comm S
 Disp FIJN
 IcgB 0
@@ -78,23 +78,23 @@ Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 100
-SkiP 126
-Save  -18
+SkiP 132
+Save  -19
 Alig  -1000
 Hit   17
 Dam   18
 SecHit   7
 SecDam   8
-ACs -60 -60 -60 -60
+ACs -140 -140 -140 -140
 Attr 21 23 23 21 25 13 13 18
-AMod 5 6 -1 6 -4 0 0 0
+AMod 5 6 -1 10 -4 0 0 0
 Pass JekmvXTGLYQ2s~
 Titl . -=Enchanter of old!=-~
 Pnts 70
 TSex 2
 LLev 1
 HMVP 901 1150 494
-Cnd  0 48 48 48
+Cnd  0 37 37 37
 Alias id c ident~
 Alias ew c 'enchant weapon'~
 Alias ea c 'enchant armor'~
@@ -247,7 +247,16 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'giant strength'   0  49  41   4   1          0
+Affc 'sanctuary'   0  51   3   0   0        128
+Affc 'haste'   0  47  16   4   2    2097152
+Affc 'detect magic'   0  51  42   0   0         16
+Affc 'detect hidden'   0  50  41   0   0         32
+Affc 'detect invis'   0  52  41   0   0          8
+Affc 'protection evil'   0  50  10  -1  24       8192
+Affc 'stone skin'   0  51  38 -40  17          0
+Affc 'shield'   0  50  45 -20  17          0
+Affc 'armor'   0  49  22 -20  17          0
+Affc 'giant strength'   0  44  22   4   1          0
 End
 
 #O
@@ -615,24 +624,6 @@ PrevOwner Jel~
 Cond 0
 Wear -1
 Cost 4000
-End
-
-#O
-Vnum 10415
-Enchanted
-Nest 1
-PrevOwner Jel~
-Name septic toe~
-ShD  a {RS{ye{Rp{yt{Ri{yc {GT{yo{Ge{x~
-Desc A toe lies here, making your bowels turn.~
-ExtF 83
-Cond 0
-Wear -1
-Lev  50
-Cost 5400
-Affc 'reserved'   1  46  -1  25  12          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
@@ -1689,7 +1680,7 @@ Nest 0
 PrevOwner Jel~
 ExtF 538443843
 Cond 0
-Wear 16
+Wear -1
 Lev  50
 Cost 700
 Val  2 9 4 40 6
@@ -2274,6 +2265,33 @@ Cond 0
 Wear -1
 Cost 10000
 Val  500 1 20720 20 25
+End
+
+#O
+Vnum 10415
+Enchanted
+Nest 0
+PrevOwner Jel~
+Name septic toe~
+ShD  a {RS{ye{Rp{yt{Ri{yc {GT{yo{Ge{x~
+Desc A toe lies here, making your bowels turn.~
+ExtF 83
+Cond 0
+Wear 16
+Lev  50
+Cost 5400
+Affc 'reserved'   1  46  -1  25  12          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
 End
 
 #END

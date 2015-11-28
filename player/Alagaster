@@ -2,95 +2,103 @@
 Name Alagaster~
 Id   1030498485
 Email (null)~
-LogO 1132540846
-Vers 31
+LogO 1444965072
+Vers 33
 Prom %R %r (%z) %i %y %gg %ss %ttime ~
 Race elf~
-Outc 2613
+Outc 0
 RufT 0
-MatookT 0
+MatookT 3815
 Abol -1
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0 0
+Hstm the.matrix.has.you~
+Kill 1 0 0 0
 Steal 0 0 0
-LstK no one~
+MSteal 0
+LstK Hood~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1132528358
-LstKillDate 1030498485
+LstCombatDate 1330120867
+LstKillDate 1313726705
 LstDeathDate 1030498485
 LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 mojo~
 DeityT -30909 mojo~
-Sac  0
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 946440949
 Glad 0 0 0 0 0 0
-LastHost berea-motorola1--70-35-220-157.ironoh.adelphia.net~
+LastHost the.matrix.has.you~
 Cla  7
 ClaO 0
-Levl 59
+Levl 52
 DLevl 0
-Plyd 4679587
-Not  1129396836 1130446298 1131434586 1131210186 1121859963 1132466012 1125183416 1132527692 1132341081 1129478192
+Plyd 8016504
+Not  1352327254 1353016866 1331937580 1349834978 1332523915 1444270444 1351530906 1352226681 1352664881 1352146418
 Scro 22
 Rank 5
-Room 1260
-HMV  6446 6446 5672 5672 340 340
-Gold 4130
-Silv 4657
-Exp  184080
-Act  BCDEFGHKMNQ
+Room 10700
+HMV  10733 10733 30886 30886 856 856
+Gold 1904
+Silv 26844
+Exp  136800
+Act  BCDEFGHKMR
 MHSF I
-AfBy HJTUVace
+AfBy JTUVac
 Comm S
 Disp FGHIJN
-IcgB APTV
+IcgB 0
 Icg 0
-Wizn ACDEFIJLPRSTUX
-Invi 52
+Pnet A
 Pos  8
-Prac 242
-Trai 122
-SkiP 553
-Save  -50
-Alig  -464
-Hit   479
-Dam   487
-SecHit   404
-SecDam   412
-ACs -962 -962 -962 -942
-Attr 12 17 15 16 11 14 15 13
-AMod 12 5 0 13 13 0 0 0
-Pass AlreOeDjUklF2~
+Prac 362
+Trai 185
+SkiP 1088
+Save  -109
+Alig  1000
+Hit   84
+Dam   87
+SecHit   84
+SecDam   87
+ACs -984 -984 -984 -964
+Attr 12 17 15 16 11 11 12 13
+AMod 22 10 0 23 25 0 0 0
+Pass AlTzCmuON4DI6~
 Bin  Alagaster arrives through a gate.~
 Bout Alagaster steps through a gate and vanishes.~
-Titl  GOAL GOAL GOAL *BYUP!!!*~
+Titl  is probably in OLC beep me! *BYUP!*~
 Pnts 64
 WhoName Cabin Boy!~
 TSex 1
-LLev 769
-HMVP 346 672 340
-Cnd  0 46 47 47
+LLev 2226
+HMVP 538 836 856
+Cnd  0 48 48 48
 Edit ABCEH
 ERange 1 64000
 Alias 3 goto 1260~
-Alias 4 goto 20716~
+Alias 4 goto 10700~
 Alias 5 goto 20717~
 Alias q quest Categories are  Characters, Weapons and Vehicles, History, Geography, Droids, Creatures & Aliens, and Wild Card~
 Alias xx grat GOAL GOAL GOAL *BYUP!!*~
 Alias 10 goto 10714~
-Macro posse trans %1 31600~
+Alias blood goto 960~
 Macro gift at %1 give opal %1~
+Macro posse trans %1 31600~
 Sk 100 'reserved'
 Sk 100 'opiate'
 Sk 100 'accuracy'
@@ -127,7 +135,6 @@ Sk 100 'charm animal'
 Sk 100 'chill touch'
 Sk 100 'clarity'
 Sk 100 'colour spray'
-Sk 1 'cone of silence'
 Sk 100 'contagion'
 Sk 100 'continual light'
 Sk 100 'control weather'
@@ -410,25 +417,26 @@ Sk 100 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'wizard default'
+Gr 'attack'
 Gr 'beguiling'
+Gr 'benedictions'
 Gr 'combat'
+Gr 'creation'
+Gr 'curative'
 Gr 'detection'
+Gr 'draconian'
+Gr 'enchantment'
 Gr 'enhancement'
+Gr 'harmful'
+Gr 'healing'
 Gr 'illusion'
 Gr 'maladictions'
 Gr 'necromancy'
+Gr 'orbs'
 Gr 'protective'
+Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-End
-
-#O
-Vnum 18914
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 16
-Cost 10000
 End
 
 #O
@@ -441,15 +449,101 @@ Cost 0
 End
 
 #O
-Vnum 1263
-Nest 0
-PrevOwner (null)~
-Name green lantern ring~
-ShD  {GGreen{x Lantern's Ring~
-Desc A ring of the {GLantern{x corps lies here emitting a {Ggreen{x glow.~
+Vnum 3013
+Nest 1
+PrevOwner Reznar~
+Name birthday cake~
+ShD  a piece of Nike's birthday cake~
+Desc A piece of Nike's Birthday Cake is here.~
 Cond 0
-Wear 1
+Wear -1
+Cost 11
+End
+
+#O
+Vnum 10712
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
 Cost 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 10713
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 10714
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 10715
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 10716
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 15000
+Spell 1 'sanctuary'
+Spell 2 'armor'
+Spell 3 'stone skin'
+End
+
+#O
+Vnum 10717
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 719
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10720
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'teleport'
+End
+
+#O
+Vnum 8515
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
 End
 
 #O
@@ -508,7 +602,7 @@ Name superman super man cape~
 ShD  {BS{Ru{Yp{Re{Br {BM{Ya{Rn{x's Cape~
 Desc {BS{Ru{Yp{Re{Br {BM{Ya{Rn{x's Cape is here billowing in the wind.~
 Cond 0
-Wear 4
+Wear 3
 Cost 5000
 End
 
@@ -517,23 +611,15 @@ Vnum 1396
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 4
 Cost 10800
-End
-
-#O
-Vnum 8515
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 500000
 End
 
 #O
 Vnum 10707
 Nest 0
 PrevOwner (null)~
+Damaged 54
 Cond 0
 Wear -1
 Cost 20
@@ -749,18 +835,6 @@ Nest 1
 PrevOwner Flowergurl~
 Name shard matook power~
 ShD  A Shard of Matook.~
-Desc A Shard of Power lies here.  Only a fragment of what could be.~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Flowergurl~
-Name shard power bolardari~
-ShD  A Shard of Bolardari.~
 Desc A Shard of Power lies here.  Only a fragment of what could be.~
 Cond 0
 Wear -1
@@ -1400,18 +1474,6 @@ Cost 500000
 End
 
 #O
-Vnum 16722
-Nest 0
-PrevOwner (null)~
-Name batman utility belt~
-ShD  {DBatman{x's {YUtility{x Belt~
-Desc {DBatman{x's {YUtility{x Belt is here, full of gadgets.~
-Cond 0
-Wear 13
-Cost 100000
-End
-
-#O
 Vnum 17648
 Nest 0
 PrevOwner Ravenclaw~
@@ -1862,46 +1924,700 @@ Cost 500000
 End
 
 #O
-Vnum 3007
-Nest 1
-PrevOwner Ravenclaw~
+Vnum 1263
+Nest 0
+PrevOwner Cliodhna~
+Name green lantern ring~
+ShD  {GGreen{x Lantern's Ring~
+Desc A ring of the {GLantern{x corps lies here emitting a {Ggreen{x glow.~
 Cond 0
-Wear -1
-Cost 500000
+Wear 1
+Cost 0
 End
 
 #O
 Vnum 22504
-Nest 1
+Nest 0
 PrevOwner (null)~
 Name bat signal~
 ShD  The {YBat {DSignal{x~
 Desc The {YBat {DSignal{x is here summoning forth a super hero.~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 0
+PrevOwner Patat~
+Name restring voucher~
+ShD  A Free Restring Voucher from Mindweaver~
+Desc A Free Restring Voucher from Mindweaver lies here.~
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 10739
+Vnum 1229
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 50000
+Cost 0
 End
 
 #O
-Vnum 10738
+Vnum 3032
+Nest 0
+PrevOwner Spontaneous~
+Damaged 83
+Cond 0
+Wear -1
+Cost 9
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Spontaneous~
+Name a piece of Hobkin's Birthday Cake~
+ShD  a piece of Hobkin's Birthday Cake~
+Desc A Piece of Hobkin's Birthday Cake is here.~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Spontaneous~
+Name a piece of Hobkin's Birthday Cake~
+ShD  a piece of Hobkin's Birthday Cake~
+Desc A Piece of Hobkin's Birthday Cake is here.~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Spontaneous~
+Name a piece of Hobkin's Birthday Cake~
+ShD  a piece of Hobkin's Birthday Cake~
+Desc A Piece of Hobkin's Birthday Cake is here.~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Spontaneous~
+Name a piece of Hobkin's Birthday Cake~
+ShD  a piece of Hobkin's Birthday Cake~
+Desc A Piece of Hobkin's Birthday Cake is here.~
+Cond 0
+Wear -1
+Cost 22
+Val  20 40 0 1 0
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Spontaneous~
+Name a piece of Hobkin's Birthday Cake~
+ShD  a piece of Hobkin's Birthday Cake~
+Desc A Piece of Hobkin's Birthday Cake is here.~
+Cond 0
+Wear -1
+Cost 22
+Val  20 40 0 1 0
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Spontaneous~
+Name a piece of Hobkin's Birthday Cake~
+ShD  a piece of Hobkin's Birthday Cake~
+Desc A Piece of Hobkin's Birthday Cake is here.~
+Cond 0
+Wear -1
+Cost 22
+Val  20 40 0 1 0
+End
+
+#O
+Vnum 16729
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 1264
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 22015
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 2917
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 10
+Spell 3 'armor'
+End
+
+#O
+Vnum 2917
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 10
+Spell 3 'armor'
+End
+
+#O
+Vnum 2917
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 10
+Spell 3 'armor'
+End
+
+#O
+Vnum 30039
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 1700
+Spell 1 'bless'
+Spell 2 'giant strength'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 22000
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22015
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 2441
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Spontaneous~
+Name rose bloodred ruby diamond City of Magic~
+ShD  A beautiful white callalily~
+Desc A Beautiful red rose, Crafted by Dwarves in the caverns under the Mountain lies on the ground.~
+Cond 0
+Wear -1
+Cost 100000
+ExDe rose~ Inside the rose you can see the mystical City of Magic located in other unknown plain. Rose  on itself is One of a kind Ruby crafted by Ancient dwarves before the ancients.
+~
+ExDe city~ You can see people walking in the streets which have glowing veins of red blue and green. Beautiful park can be seen in the northwest corner of city, And one single huge tower guards the city.
+~
+ExDe tower~ On the top of the tower you notice golden dragon glaring directly at you
+~
+End
+
+#O
+Vnum 1256
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1256
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1256
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 10061
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 10
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner Spontaneous~
+ShD  a {GRobinhood's{x chocolate arrow~
+Desc Looks like one of {GRobinhoods{x magic chocolate arrows~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1261
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 22015
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 22015
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 7723
+Nest 1
+PrevOwner Spontaneous~
+Name penthouse letters~
+ShD  penthouse letters~
+Desc Some penthouse letters have been left here.~
+Cond 0
+Wear -1
+Cost 990
+End
+
+#O
+Vnum 7723
+Nest 1
+PrevOwner Spontaneous~
+Name vampire pill~
+ShD  vampire pill~
+Desc vampire pill is here~
+Cond 0
+Wear -1
+Cost 990
+End
+
+#O
+Vnum 1261
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 30184
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'create rose'
+End
+
+#O
+Vnum 30184
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'create rose'
+End
+
+#O
+Vnum 30039
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 1700
+Spell 1 'bless'
+Spell 2 'giant strength'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 30039
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 1700
+Spell 1 'bless'
+Spell 2 'giant strength'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 30039
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 1700
+Spell 1 'bless'
+Spell 2 'giant strength'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 30039
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 1700
+Spell 1 'bless'
+Spell 2 'giant strength'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 7723
+Nest 1
+PrevOwner Spontaneous~
+Name Haryld lost marble vial~
+ShD  Haryld's lost marble~
+Desc A marble vial has been left here.~
+Cond 0
+Wear -1
+Cost 990
+End
+
+#O
+Vnum 16513
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'giant strength'
+Spell 2 'protection evil'
+Spell 3 'stone skin'
+End
+
+#O
+Vnum 16513
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'giant strength'
+Spell 2 'protection evil'
+Spell 3 'stone skin'
+End
+
+#O
+Vnum 1260
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 1260
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 198 0
+Spell 3 'stone skin'
+End
+
+#O
+Vnum 31087
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'change sex'
+End
+
+#O
+Vnum 7723
+Nest 1
+PrevOwner Spontaneous~
+Name tube anal ease~
+ShD  tube of anal ease~
+Desc a tube of anal ease is here~
+Cond 0
+Wear -1
+Cost 1089
+End
+
+#O
+Vnum 2917
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 10
+Spell 3 'armor'
+End
+
+#O
+Vnum 7723
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 990
+End
+
+#O
+Vnum 7723
+Nest 1
+PrevOwner Spontaneous~
+Name BBBD beer~
+ShD  bbbd beer~
+Desc BBBD beer is here.~
+Cond 0
+Wear -1
+Cost 990
+End
+
+#O
+Vnum 7723
+Nest 1
+PrevOwner Spontaneous~
+Name big ass rubber chicken~
+ShD  a big ass rubber chicken~
+Desc a big ass rubber chicken is here~
+Cond 0
+Wear -1
+Cost 990
+End
+
+#O
+Vnum 1256
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1303
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 3
+End
+
+#O
+Vnum 1260
+Nest 1
+PrevOwner Spontaneous~
+Name slave girl action figure~
+ShD  a Slave Girl Action Figure~
+Desc An action figure lies here, depicting a slave girl.~
+Cond 0
+Wear -1
+Cost 0
+Val  20 104 99 114 -1
+Spell 3 'haste'
+End
+
+#O
+Vnum 7723
+Nest 1
+PrevOwner Spontaneous~
+Name can diet peanut chocolate fudge cola~
+ShD  a can of diet peanut chocolate fudge cola~
+Desc a can of diet peanut chocolate fudge cola is here~
+Cond 0
+Wear -1
+Cost 990
+End
+
+#O
+Vnum 9106
+Nest 1
+PrevOwner Spontaneous~
+ExtF 537526272
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1256
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1266
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 107 0
+End
+
+#O
+Vnum 1266
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 107 0
+End
+
+#O
+Vnum 1260
+Nest 1
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 3148
+Nest 0
+PrevOwner (null)~
+ShD  a hollowed out {Dstone dragon{x skull~
+Desc a hollowed out {Dstone dragon{x skull~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 0
+PrevOwner Dakky~
+Name diamond voucher moonwind~
+ShD  1 diamond voucher~
+Desc 1 diamond voucher from MoonWind~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10744
+Nest 0
+PrevOwner (null)~
+Name captain america shield~
+ShD  {RC{Wa{Bp{Rt{Wa{Bi{Rn {WA{Bm{Re{Wr{Bi{Rc{Wa{x's Shield~
+Desc Here lies {RC{Wa{Bp{Rt{Wa{Bi{Rn {WA{Bm{Re{Wr{Bi{Rc{Wa{x's Shield the symbol of defending freedom!~
+Cond 0
+Wear 11
+Cost 0
+End
+
+#O
+Vnum 20715
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 30250
+Cost 0
 End
 
 #O
-Vnum 3377
+Vnum 10733
 Nest 0
 PrevOwner (null)~
 Cond 0
@@ -1910,715 +2626,514 @@ Cost 10000
 End
 
 #O
-Vnum 22044
+Vnum 8047
+Enchanted
 Nest 0
-PrevOwner Memnarch~
+PrevOwner Nike~
+ExtF 262465
 Cond 0
 Wear -1
-Cost 100000
+Lev  26
+Cost 2000
+Affc 'enchant armor'   1  45  -1  -1  17          0
+Affc 'reserved'   0  25  -1   0   0       4096
+Affc 'reserved'   1  25  -1  15  13          0
 End
 
 #O
-Vnum 10720
+Vnum 3377
+Nest 0
+PrevOwner Nike~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 0
+PrevOwner Nike~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 18914
+Nest 0
+PrevOwner (null)~
+Wt   2
+Cond 0
+Wear 16
+Cost 10000
+End
+
+#O
+Vnum 18043
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 30057
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 19
+Cost 10000
+End
+
+#O
+Vnum 1868
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
-Spell 1 'teleport'
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
 End
 
 #O
-Vnum 10731
+Vnum 10710
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 1868
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
 End
 
 #O
-Vnum 20006
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 9
-End
-
-#O
-Vnum 10701
+Vnum 1868
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
 End
 
 #O
-Vnum 719
+Vnum 1868
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
 End
 
 #O
-Vnum 23021
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 710
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Abram~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Chewik~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Chewik~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Chewik~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Chewik~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Chewik~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Chewik~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Chewik~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Chewik~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 10701
+Vnum 1868
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
 End
 
 #O
-Vnum 10738
+Vnum 1868
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 50000
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 3007
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 1868
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'sanctuary'
+Spell 2 'haste'
+Spell 3 'frenzy'
+End
+
+#O
+Vnum 12048
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4500
 End
 
 #END

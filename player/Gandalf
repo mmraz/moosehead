@@ -2,8 +2,8 @@
 Name Gandalf~
 Id   893700358
 Email (null)~
-LogO 1050271414
-Vers 31
+LogO 1324315460
+Vers 33
 LnD  A Gladiator~
 Prom %h %m %v %X %a %S %e><%g %s %w> ~
 Race human~
@@ -16,6 +16,7 @@ SkPTracker 8
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Ecko~
 LstKBy Khaine~
 LstAtkedBy no one~
@@ -27,6 +28,10 @@ LoginsWOKill 28
 LoginsWODeath 28
 LoginsWOCombat 16
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 136483848 cthon~
 DeityT -339 cthon~
 Sac  300
@@ -36,18 +41,18 @@ Node 0
 Cap 0
 Created 951632414
 Glad 0 0 0 0 0 0
-LastHost 157.89.134.68~
+LastHost 41.51.188.192~
 Cla  11
 Kit necromancer~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 136660371
+Plyd 136660379
 Not  1050270937 1050270941 966710621 1050270933 1050270936 1050270939 966710621 1050189403 966710621 1050270943
 Scro 22
 Rank 3
 Room 31901
-HMV  837 861 534 937 387 392
+HMV  861 861 937 937 392 392
 Gold 345
 Silv 4654
 Exp  198980
@@ -120,6 +125,7 @@ Sk 72 'chill touch'
 OldSk 58 'chill touch'
 Sk 75 'colour spray'
 OldSk 100 'colour spray'
+Sk 1 'cone of silence'
 Sk 79 'control weather'
 OldSk 75 'control weather'
 Sk 75 'curse'
@@ -308,21 +314,21 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'invisibility'   0  52  63   0   0          2
-Affc 'haste'   0  51  19   4   2    2097152
-Affc 'fly'   0  49  48   0   0     524288
-Affc 'bless'   0  49  49  -6  24          0
-Affc 'bless'   0  51  49   6  18          0
-Affc 'sanctuary'   0  49   0   0   0        128
-Affc 'giant strength'   0  49  44   4   1          0
-Affc 'withstand death'   0  52   8   0   0 1073741824
-Affc 'blur'   0  52   2 -20  17          0
-Affc 'protection good'   0  50  16  -1  24      16384
-Affc 'shield'   0  48  51 -20  17          0
-Affc 'armor'   0  49  28 -20  17          0
-Affc 'detect hidden'   0  50  44   0   0         32
-Affc 'detect invis'   0  53  43   0   0          8
 Affc 'detect magic'   0  50  44   0   0         16
+Affc 'detect invis'   0  53  43   0   0          8
+Affc 'detect hidden'   0  50  44   0   0         32
+Affc 'armor'   0  49  28 -20  17          0
+Affc 'shield'   0  48  51 -20  17          0
+Affc 'protection good'   0  50  16  -1  24      16384
+Affc 'blur'   0  52   2 -20  17          0
+Affc 'withstand death'   0  52   8   0   0 1073741824
+Affc 'giant strength'   0  49  44   4   1          0
+Affc 'sanctuary'   0  49   0   0   0        128
+Affc 'bless'   0  51  49   6  18          0
+Affc 'bless'   0  49  49  -6  24          0
+Affc 'fly'   0  49  48   0   0     524288
+Affc 'haste'   0  51  19   4   2    2097152
+Affc 'invisibility'   0  52  63   0   0          2
 End
 
 #O
@@ -564,8 +570,8 @@ Cond 0
 Wear -1
 Lev  23
 Cost 3200
-Affc 'enchant weapon'   1  48  -1   6  19          0
 Affc 'enchant weapon'   1  48  -1   6  18          0
+Affc 'enchant weapon'   1  48  -1   6  19          0
 End
 
 #O
@@ -893,8 +899,8 @@ Cond 0
 Wear -1
 Lev  37
 Cost 2200
-Affc 'enchant weapon'   1  53  -1   9  19          0
 Affc 'enchant weapon'   1  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O

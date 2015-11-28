@@ -3,18 +3,19 @@ Name Thumb~
 SurN Nale~
 Id   1036873632
 Email (null)~
-LogO 1038964385
-Vers 31
+LogO 1389236039
+Vers 33
 Prom %hhp %mm %vmv %w %e %X ~
 Race dwarf~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 6
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 DeityT -71 matook~
 Sac  300
@@ -35,45 +42,43 @@ Node 0
 Cap 0
 Created 1036873644
 Glad 0 0 0 0 0 0
-LastHost AC8009A2.ipt.aol.com~
+LastHost 68.102.68.53~
 Cla  6
 ClaO 3
-Levl 5
+Levl 6
 DLevl 0
-Plyd 2994
-Not  0 0 0 0 0 0 0 0 0 0
+Plyd 5395
+Not  0 0 0 0 0 0 0 1385305178 0 0
 Scro 22
 Rank 0
-Room 3258
-HMV  103 103 114 114 68 112
-Gold 34
-Silv 100
-Exp  43850
+Room 3302
+HMV  121 121 118 118 106 120
+Gold 355
+Silv 186
+Exp  54226
 Act  CDEFGHKQ
 MHSF R
 AfBy J
 Comm GILR
-Disp FIJ
+Disp FIJN
 IcgB 0
 Icg 0
 Pnet ACFGI
 Pos  8
-Prac 18
-SkiP 6
-Save  -6
+SkiP 8
+Save  -1
 Alig  1000
-Hit   6
-SecHit   5
-ACs 66 62 62 79
-Attr 18 12 19 13 19 12 15 19
+Hit   1
+ACs 46 42 42 59
+Attr 21 12 19 16 19 9 13 19
 AMod 9 1 3 2 2 0 0 0
 Pass ThVG1ZeKICK5E~
 Titl  {x~
 Pnts 99
 TSex 1
 LLev 1
-HMVP 85 114 112
-Cnd  0 44 46 46
+HMVP 103 118 120
+Cnd  0 0 0 0
 Sk 1 'aid'
 Sk 1 'armor'
 Sk 1 'bestow holiness'
@@ -122,18 +127,18 @@ Sk 1 'polearm'
 Sk 1 'spear'
 Sk 1 'sword'
 Sk 1 'whip'
-Sk 1 'bash'
+Sk 25 'bash'
 Sk 1 'berserk'
 Sk 1 'disarm'
 Sk 1 'dodge'
-Sk 1 'enhanced damage'
+Sk 25 'enhanced damage'
 Sk 1 'weave resistance'
 Sk 1 'insanity'
-Sk 1 'parry'
+Sk 21 'parry'
 Sk 1 'rescue'
-Sk 1 'shield block'
+Sk 19 'shield block'
 Sk 50 'scan'
-Sk 1 'second attack'
+Sk 37 'second attack'
 Sk 1 'third attack'
 Sk 1 'sharpen'
 Sk 1 'sneak'
@@ -141,7 +146,7 @@ Sk 1 'steal'
 Sk 1 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
-Sk 50 'swimming'
+Sk 58 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'berzerker basics'
@@ -151,10 +156,10 @@ Gr 'benedictions'
 Gr 'detection'
 Gr 'protective'
 Gr 'transportation'
-Affc 'bless'   0  39  37  -5  24          0
-Affc 'bless'   0  38  37   5  18          0
-Affc 'armor'   0  39  21 -20  17          0
-Affc 'giant strength'   0  32  21   4   1          0
+Affc 'giant strength'   0  50  33   4   1          0
+Affc 'shield'   0  51  41 -20  17          0
+Affc 'armor'   0  50  17 -20  17          0
+Affc 'clarity'   0  50  33   0   0          0
 End
 
 #O
@@ -164,7 +169,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 129 0 0
+Val  0 0 70 0 0
 End
 
 #O
@@ -400,6 +405,182 @@ PrevOwner (null)~
 Cond 0
 Wear 2
 Cost 620
+End
+
+#O
+Vnum 3052
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 112
+End
+
+#O
+Vnum 3066
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 430
+End
+
+#O
+Vnum 3021
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 2101
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 970
+End
+
+#O
+Vnum 2101
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 970
+End
+
+#O
+Vnum 100
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 180
+Spell 3 'change sex'
+End
+
+#O
+Vnum 103
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 370
+End
+
+#O
+Vnum 102
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 310
+End
+
+#O
+Vnum 103
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 370
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 8103
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 300
+End
+
+#O
+Vnum 8103
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 300
+End
+
+#O
+Vnum 8108
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 8108
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 8108
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 8109
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 980
+End
+
+#O
+Vnum 8128
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 29
+Nest 0
+PrevOwner Denlor~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 26
+Nest 0
+PrevOwner Rescue~
+Cond 0
+Wear -1
+Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
 End
 
 #END

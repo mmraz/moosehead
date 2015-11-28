@@ -30,6 +30,8 @@ static char rcsid[] = "$Id: effects.c,v 1.40 2004/03/27 15:51:41 boogums Exp $";
 
 void acid_effect(void *vo, int level, int dam, int target)
 {
+  bool permanent = TRUE;
+
     if (target == TARGET_ROOM) /* nail objects on the floor */
      {
 	ROOM_INDEX_DATA *room = (ROOM_INDEX_DATA *) vo;
@@ -70,6 +72,8 @@ void acid_effect(void *vo, int level, int dam, int target)
 	 */
 	int chance;
 	char *msg;
+  	if(obj->damaged >= 100)
+	    return;// Can't destroy an already destroyed object
 
 	if (IS_OBJ_STAT(obj,ITEM_BURN_PROOF)
 	||  IS_OBJ_STAT(obj,ITEM_NOPURGE)
@@ -89,114 +93,111 @@ void acid_effect(void *vo, int level, int dam, int target)
 	chance -= obj->level * 2;
 
 	switch (obj->item_type)
-	{
+	{// Chance modifiers based on type
 	    default:
 		return;
 	    case ITEM_CONTAINER:
 	    case ITEM_CORPSE_PC:
 	    case ITEM_CORPSE_NPC:
-		msg = "$p fumes and dissolves.";
-		break;
 	    case ITEM_ARMOR:
-		msg = "$p is pitted and etched.";
-		break;
 	    case ITEM_CLOTHING:
-		msg = "$p is corroded into scrap.";
 	 	break;
 	    case ITEM_STAFF:
 	    case ITEM_WAND:
 		chance -= 10;
-		msg = "$p corrodes and breaks.";
 		break;
 	    case ITEM_SCROLL:
 	    case ITEM_SPELL_PAGE:
 		chance += 10;
-		msg = "$p is burned into waste.";
 		break; 
 	}
 
 	chance = URANGE(5,chance,95);
-/*
-if (!IS_IMMORTAL(victim))
- */
+
 	if (number_percent() > chance)
 	    return;
+
+	obj->damaged = UMIN(obj->damaged + number_range(34, 55), 100);
+
+	switch (obj->item_type)
+	{
+	    default:
+		return;
+	    case ITEM_CONTAINER: permanent = FALSE;// Containers are not destroyed
+	    case ITEM_CORPSE_PC:
+	    case ITEM_CORPSE_NPC:
+	  if(obj->damaged >= 100)
+			msg = "$p fumes and dissolves.";
+		else
+			msg = "$p fumes and sizzles.";// Not destroyed
+		break;
+	    case ITEM_ARMOR:
+	    case ITEM_CLOTHING: permanent = FALSE;// Gear is not destroyed
+		if(obj->damaged >= 100)
+			msg = "$p is corroded into scrap!";
+		else
+			msg = "$p is pitted and etched.";
+	 	break;
+	    case ITEM_STAFF:
+	    case ITEM_WAND:
+	  if(obj->damaged >= 100)
+			msg = "$p corrodes and breaks!";
+		else
+			msg = "$p corrodes slightly.";
+		break;
+	    case ITEM_SCROLL:
+	    case ITEM_SPELL_PAGE:
+		if(obj->damaged >= 100)
+			msg = "$p is burned into waste!";
+		else
+			msg = "$p dissolves around its edges.";
+		break; 
+	}
 
 	if (obj->carried_by != NULL)
 	    act(msg,obj->carried_by,obj,NULL,TO_ALL,FALSE);
 	else if (obj->in_room != NULL && obj->in_room->people != NULL)
 	    act(msg,obj->in_room->people,obj,NULL,TO_ALL,FALSE);
-
-	if (obj->item_type == ITEM_ARMOR)  /* etch it */
+	
+	if(obj->damaged >= 100)
 	{
-	    AFFECT_DATA *paf;
-	    bool af_found = FALSE;
-	    int i;
-
- 	    affect_enchant(obj);
-
-	    for ( paf = obj->affected; paf != NULL; paf = paf->next)
-            {
-                if ( paf->location == APPLY_AC)
-                {
-                    af_found = TRUE;
-                    paf->type = -1;
-                    paf->modifier += 1;
-                    paf->level = UMAX(paf->level,level);
-		    break;
-                }
-            }
- 
-            if (!af_found)
-            /* needs a new affect */
-            {
-		paf = new_affect();
- 
-                paf->type       = -1;
-                paf->level      = level;
-                paf->duration   = -1;
-                paf->location   = APPLY_AC;
-                paf->modifier   =  1;
-                paf->bitvector  = 0;
-                paf->next       = obj->affected;
-                obj->affected   = paf;
-            }
- 
-            if (obj->carried_by != NULL && obj->wear_loc != WEAR_NONE)
-                for (i = 0; i < 4; i++)
-                    obj->carried_by->armor[i] += 1;
-            return;
-	}
-
-	/* get rid of the object */
-	if (obj->contains)  /* dump contents */
-	{
-	    for (t_obj = obj->contains; t_obj != NULL; t_obj = n_obj)
-	    {
-		n_obj = t_obj->next_content;
-		obj_from_obj(t_obj);
-		if (obj->in_room != NULL)
-		    obj_to_room(t_obj,obj->in_room);
-		else if (obj->carried_by != NULL)
-		    obj_to_room(t_obj,obj->carried_by->in_room);
-		else
+		if(permanent)
 		{
-		    extract_obj(t_obj);
-		    continue;
+			/* get rid of the object */
+			if (obj->contains)  /* dump contents */
+			{
+			    for (t_obj = obj->contains; t_obj != NULL; t_obj = n_obj)
+			    {
+				n_obj = t_obj->next_content;
+				obj_from_obj(t_obj);
+				if (obj->in_room != NULL)
+				    obj_to_room(t_obj,obj->in_room);
+				else if (obj->carried_by != NULL)
+				    obj_to_room(t_obj,obj->carried_by->in_room);
+				else
+				{
+				    extract_obj(t_obj);
+				    continue;
+				}
+		
+				acid_effect(t_obj,level/2,dam/2,TARGET_OBJ);
+			    }
+		 	}
+		
+			extract_obj(obj);
 		}
-
-		acid_effect(t_obj,level/2,dam/2,TARGET_OBJ);
-	    }
- 	}
-
-	extract_obj(obj);
+		else
+			remove_bonuses(obj->carried_by, obj);
+	}
 	return;
-    }
-}
+  }// End if object
 
+}
 
 void cold_effect(void *vo, int level, int dam, int target)
 {
+    bool permanent = TRUE;
+
     if (target == TARGET_ROOM) /* nail objects on the floor */
     {
         ROOM_INDEX_DATA *room = (ROOM_INDEX_DATA *) vo;
@@ -263,6 +264,9 @@ void cold_effect(void *vo, int level, int dam, int target)
 	int chance;
 	char *msg;
 
+	if(obj->damaged >= 100)
+	    return;// Can't destroy an already destroyed object
+
 	if (IS_OBJ_STAT(obj,ITEM_BURN_PROOF)
 	||  IS_OBJ_STAT(obj,ITEM_NOPURGE)
 	||  number_range(0,4) == 0)
@@ -285,11 +289,9 @@ void cold_effect(void *vo, int level, int dam, int target)
 	    default:
 		return;
 	    case ITEM_POTION:
-		msg = "$p freezes and shatters!";
 		chance += 25;
 		break;
 	    case ITEM_DRINK_CON:
-		msg = "$p freezes and shatters!";
 		chance += 5;
 		break;
 	}
@@ -299,14 +301,41 @@ void cold_effect(void *vo, int level, int dam, int target)
 	if (number_percent() > chance)
 	    return;
 
+	obj->damaged = UMIN(obj->damaged + number_range(34, 55), 100);
+
+	switch(obj->item_type)
+	{
+	    default:
+		return;
+	    case ITEM_POTION:
+		if(obj->damaged >= 100)
+			msg = "$p freezes and shatters!";
+		else
+			msg = "$p is surrounded by ice.";
+		break;
+	    case ITEM_DRINK_CON: permanent = FALSE;
+		if(obj->damaged >= 100)
+			msg = "$p freezes solid!";
+		else
+			msg = "$p is surrounded by ice.";
+		break;
+	}
+
 	if (obj->carried_by != NULL)
 	    act(msg,obj->carried_by,obj,NULL,TO_ALL,FALSE);
 	else if (obj->in_room != NULL && obj->in_room->people != NULL)
 	    act(msg,obj->in_room->people,obj,NULL,TO_ALL,FALSE);
 
-	extract_obj(obj);
+	if(obj->damaged >= 100)
+	{
+		if(permanent)
+			extract_obj(obj);
+		else
+			remove_bonuses(obj->carried_by, obj);
+	}
 	return;
     }
+
 }
   
 void trap_effect( CHAR_DATA *ch,     AFFECT_DATA *paf )
@@ -436,6 +465,8 @@ void holy_effect( CHAR_DATA *victim, int level, int align, CHAR_DATA *ch )
 	af.location		= APPLY_HITROLL; 
 	af.modifier		= -4;
 	af.bitvector		= AFF_BLIND;
+        if (IS_SET(victim->mhs,MHS_GLADIATOR) && !IS_NPC(victim))
+           af.duration  = 1;
 
 	affect_to_char(victim,&af); 
     }
@@ -447,6 +478,8 @@ void holy_effect( CHAR_DATA *victim, int level, int align, CHAR_DATA *ch )
 
 void fire_effect(void *vo, int level, int dam, int target)
 {
+    bool permanent = TRUE;
+
     if (target == TARGET_ROOM)  /* nail objects on the floor */
     {
 	ROOM_INDEX_DATA *room = (ROOM_INDEX_DATA *) vo;
@@ -520,6 +553,8 @@ void fire_effect(void *vo, int level, int dam, int target)
 	int chance;
 	char *msg;
 
+	if(obj->damaged >= 100)
+	    return;// Can't destroy an already destroyed object
     	if (IS_OBJ_STAT(obj,ITEM_BURN_PROOF)
         ||  IS_OBJ_STAT(obj,ITEM_NOPURGE)
 	||  number_range(0,4) == 0)
@@ -541,29 +576,20 @@ void fire_effect(void *vo, int level, int dam, int target)
         default:             
 	    return;
         case ITEM_CONTAINER:
-            msg = "$p ignites and burns!";
             break;
         case ITEM_POTION:
             chance += 25;
-            msg = "$p bubbles and boils!";
             break;
         case ITEM_SCROLL:
-	case ITEM_SPELL_PAGE:
+        case ITEM_SPELL_PAGE:
             chance += 50;
-            msg = "$p crackles and burns!";
             break;
         case ITEM_STAFF:
             chance += 10;
-            msg = "$p smokes and chars!";
             break;
         case ITEM_WAND:
-            msg = "$p sparks and sputters!";
-            break;
         case ITEM_FOOD:
-            msg = "$p blackens and crisps!";
-            break;
         case ITEM_PILL:
-            msg = "$p melts and drips!";
             break;
         }
 
@@ -571,12 +597,67 @@ void fire_effect(void *vo, int level, int dam, int target)
 
         if (number_percent() > chance)
             return;
- 
-	if (obj->carried_by != NULL)
-            act( msg, obj->carried_by, obj, NULL, TO_ALL ,FALSE);
-	else if (obj->in_room != NULL && obj->in_room->people != NULL)
-	    act(msg,obj->in_room->people,obj,NULL,TO_ALL,FALSE);
 
+				obj->damaged = UMIN(obj->damaged + number_range(34, 55), 100);
+ 
+        switch ( obj->item_type )
+        {
+        default:             
+	    return;
+        case ITEM_CONTAINER: permanent = FALSE;
+        	if(obj->damaged >= 100)
+            msg = "$p ignites and burns!";
+        	else
+            msg = "$p is singed by the fire.";
+            break;
+        case ITEM_POTION:
+        	if(obj->damaged >= 100)
+            msg = "$p bubbles and boils!";
+          else
+          	msg = "$p bubbles a little.";
+            break;
+        case ITEM_SCROLL:
+        case ITEM_SPELL_PAGE:
+        	if(obj->damaged >= 100)
+            msg = "$p crackles and burns!";
+          else
+          	msg = "$p blackens around the edges.";
+            break;
+        case ITEM_STAFF:
+        	if(obj->damaged >= 100)
+            msg = "$p smokes and chars!";
+          else
+          	msg = "$p smokes a bit.";
+            break;
+        case ITEM_WAND:
+        	if(obj->damaged >= 100)
+            msg = "$p sparks and blows in half!";
+          else
+          	msg = "$p sparks and smokes.";
+            break;
+        case ITEM_FOOD:
+        	if(obj->damaged >= 100)
+            msg = "$p blackens and crisps!";
+          else
+          	msg = "$p is slightly crisped.";
+            break;
+        case ITEM_PILL:
+        	if(obj->damaged >= 100)
+            msg = "$p melts and drips!";
+          else
+          	msg = "$p melts around the edges.";
+            break;
+        }
+
+	if (obj->carried_by != NULL)
+		act( msg, obj->carried_by, obj, NULL, TO_ALL ,FALSE);
+	else if (obj->in_room != NULL && obj->in_room->people != NULL)
+		act(msg,obj->in_room->people,obj,NULL,TO_ALL,FALSE);
+		
+		if(obj->damaged >= 100)
+		{
+			if(permanent)
+			{
         if (obj->contains)
         {
             /* dump the contents */
@@ -586,7 +667,7 @@ void fire_effect(void *vo, int level, int dam, int target)
                 n_obj = t_obj->next_content;
                 obj_from_obj(t_obj);
 		if (obj->in_room != NULL)
-                    obj_to_room(t_obj,obj->in_room);
+      obj_to_room(t_obj,obj->in_room);
 		else if (obj->carried_by != NULL)
 		    obj_to_room(t_obj,obj->carried_by->in_room);
 		else
@@ -597,10 +678,16 @@ void fire_effect(void *vo, int level, int dam, int target)
 		fire_effect(t_obj,level/2,dam/2,TARGET_OBJ);
             }
         }
- 
+
         extract_obj( obj );
-	return;
+      }
+      else
+      	remove_bonuses(obj->carried_by, obj);
     }
+
+	return;
+    }// End if object
+
 }
 
 void poison_effect(void *vo,int level, int dam, int target)
@@ -695,6 +782,8 @@ void poison_effect(void *vo,int level, int dam, int target)
 
 void shock_effect(void *vo,int level, int dam, int target)
 {
+    bool permanent = TRUE;
+
     if (target == TARGET_ROOM)
     {
 	ROOM_INDEX_DATA *room = (ROOM_INDEX_DATA *) vo;
@@ -741,6 +830,8 @@ void shock_effect(void *vo,int level, int dam, int target)
 	OBJ_DATA *obj = (OBJ_DATA *) vo;
 	int chance;
 	char *msg;
+	if(obj->damaged >= 100)
+	    return;// Can't destroy an already destroyed object
 
 	if (IS_OBJ_STAT(obj,ITEM_BURN_PROOF)
 	||  IS_OBJ_STAT(obj,ITEM_NOPURGE)
@@ -766,11 +857,10 @@ void shock_effect(void *vo,int level, int dam, int target)
 	   case ITEM_WAND:
 	   case ITEM_STAFF:
 		chance += 10;
-		msg = "$p overloads and explodes!";
 		break;
 	   case ITEM_JEWELRY:
 		chance -= 10;
-		msg = "$p is fused into a worthless lump.";
+		break;
 	}
 	
 	chance = URANGE(5,chance,95);
@@ -778,13 +868,42 @@ void shock_effect(void *vo,int level, int dam, int target)
 	if (number_percent() > chance)
 	    return;
 
+	obj->damaged = UMIN(obj->damaged + number_range(34, 55), 100);
+
+	switch(obj->item_type)
+	{
+	    default:
+		return;
+	   case ITEM_WAND:
+	   case ITEM_STAFF:
+	  if(obj->damaged >= 100)
+			msg = "$p overloads and explodes!";
+		else
+			msg = "Electricity crackles over $p.";
+		break;
+	   case ITEM_JEWELRY:permanent = FALSE;
+	  if(obj->damaged >= 100)
+			msg = "$p is fused into a worthless lump.";
+		else
+			msg = "$p melts slightly.";
+		break;
+	}
+
 	if (obj->carried_by != NULL)
 	    act(msg,obj->carried_by,obj,NULL,TO_ALL,FALSE);
 	else if (obj->in_room != NULL && obj->in_room->people != NULL)
 	    act(msg,obj->in_room->people,obj,NULL,TO_ALL,FALSE);
 
-	extract_obj(obj);
+	if(obj->damaged >= 100)
+	{
+		if(permanent)
+			extract_obj(obj);
+		else
+			remove_bonuses(obj->carried_by, obj);
+	}
+
 	return;
     }
+
 }
 

@@ -2,8 +2,8 @@
 Name Robinhood~
 Id   951171018
 Email (null)~
-LogO 988001192
-Vers 27
+LogO 1309540442
+Vers 31
 ShD  '{Gone of the Merry Men{x'~
 LnD  '{Gone of Robinhoods Merry Men is here{x'
 ~
@@ -18,12 +18,20 @@ MatookT 24
 SkPTimer 0
 SkPTracker 2
 LogoutTracker 0
-Kill 2 0 49
-Steal 5 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK Zunsu~
 LstKBy Crono~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1309540433
+LstKillDate 1309540433
+LstDeathDate 1309540433
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
 Deity 0 xochipili~
 Sac  300
 Sex  1
@@ -32,14 +40,13 @@ Node 0
 Cap 0
 Created 951171036
 Glad 0 0 0 0 0 0
-LastHost c145933-a.potlnd1.or.home.com~
 Cla  11
 Kit alchemist~
 ClaO 0
 Levl 52
 DLevl 0
-Plyd 1441122
-Not  988000883 988000883 988000883 988000883 988000883 988000908 988000883 988000883 988000883
+Plyd 1441131
+Not  988000883 988000883 988000883 988000883 988000883 988000908 988000883 988000883 988000883 0
 Scro 22
 Rank 0
 Room 1275
@@ -57,7 +64,7 @@ Icg 2
 Wizn ACDEFIJLRSTUX
 Pos  8
 Prac 28
-Trai 32
+Trai 42
 SkiP 40
 Save  -172
 Alig  -1000
@@ -66,8 +73,8 @@ Dam   77
 SecHit   1
 SecDam   2
 ACs -738 -738 -738 -732
-Attr 25 25 25 25 25
-AMod 21 5 0 20 17
+Attr 25 25 25 25 25 13 13 13
+AMod 21 5 0 20 17 0 0 0
 Pass RolTh4l95rjwu~
 Bin  {GRobinhood Rides in with his mighty bow in hand!{x~
 Bout {GRobinhood rides off to go stick up a Tax collector!{x~
@@ -78,8 +85,8 @@ LLev 232
 HMVP 839 322 340
 Cnd  0 24 36 36
 Edit ABCEH
-ERange 23300 23399
 ERange 10300 10399
+ERange 23300 23399
 Alias arrow load obj 1251~
 Alias shard load obj 22044~
 Alias voucher load obj 1250~
@@ -91,27 +98,27 @@ Alias gladall startglad 2 1 51 5 noblind~
 Alias teamglad startglad 4 1 51 8 noblind 15~
 Alias blindglad startglad 2 1 51 5 blind~
 Alias diamond load obj 3377~
-Macro sherwood goto 23300~
-Macro marrian string mob %1 short {GMaid Marrian{x;String mob %1 long {GMaid Marrian{x is here looking {RHOT!{x;string mob %1 name Marrian~
-Macro bag take pouch quiv;clone pouch; put pouch quiv;give pouch %1;say %1 put them in here and pass them over~
-Macro arw at %1 echo {G>>-----------> {R0{x {COUCH!{x an arrow hit your bottom!~
-Macro soap at %1 echo '{GRobinhood{x calls your mother and POOF!, she enters the room with a bar of soap!';at %1 echo 'Your mother says "You have a potty mouth %1 EAT THIS SOAP!"'~
-Macro arr take arrow quiv;clone arrow;at %1 give arrow %1~
-Macro mt c 'teleport' self;trans %1.merry~
-Macro pj string mob %1 short '{RPrince John{x';String mob %1 long '{RPrince John{x is here to DESTROY YOU!';string mob %1 name 'prince john'~
-Macro home goto 1275~
-Macro bloodbath goto 730~
-Macro sprize at %1 spreward %1 %2~
-Macro so string obj %1 short %2;string obj %1 long %3; string obj %1 name %4~
-Macro mm string mob %1 short '{Gone of the Merry Men{x';string mob %1 long '{Gone of Robinhoods Merry Men is here{x';String mob %1 name 'merry men man'~
-Macro lep string mob %1 short '{Ga Leprauchan{x';string mob %1 long '{Ga Leprauchan is hiding an emerald{x';string mob %1 name Leprauchan;load obj 3375;give emer lep~
-Macro sn string mob %1 short {yThe Sheriff of Nottingham{x;string mob %1 long {yThe Sheriff of Nottingham is here for YOU{x;string mob %1 name Sheriff Nottingham~
-Macro gift take arrow quiver;clone arrow;at %1 give arrow %1;grats {G>{R>{G>-Whoo Hoo %1 is bigger!--->{x;put arrow quiv~
-Macro greeting gecho {G>{R>{G>------------>{x {ROUCH!{x an Arrow hit your bottom! {GROBINHOOD IS HERE!!{x~
-Macro goodbye gech {G>{R>{G>-Ahhhhhh, The arrow hole in your right cheek heals as Robinhood waves bye bye-->{x~
-Macro goglad goto 10820~
-Macro qprize load obj 3377;at %1 give diamond %1;at %1 smi~
 Macro groin at %1 echo {GRobinhood's{x masterful groinpunt does {RUNSPEAKABLE{x stuff to your privates!~
+Macro qprize load obj 3377;at %1 give diamond %1;at %1 smi~
+Macro goglad goto 10820~
+Macro goodbye gech {G>{R>{G>-Ahhhhhh, The arrow hole in your right cheek heals as Robinhood waves bye bye-->{x~
+Macro greeting gecho {G>{R>{G>------------>{x {ROUCH!{x an Arrow hit your bottom! {GROBINHOOD IS HERE!!{x~
+Macro gift take arrow quiver;clone arrow;at %1 give arrow %1;grats {G>{R>{G>-Whoo Hoo %1 is bigger!--->{x;put arrow quiv~
+Macro sn string mob %1 short {yThe Sheriff of Nottingham{x;string mob %1 long {yThe Sheriff of Nottingham is here for YOU{x;string mob %1 name Sheriff Nottingham~
+Macro lep string mob %1 short '{Ga Leprauchan{x';string mob %1 long '{Ga Leprauchan is hiding an emerald{x';string mob %1 name Leprauchan;load obj 3375;give emer lep~
+Macro mm string mob %1 short '{Gone of the Merry Men{x';string mob %1 long '{Gone of Robinhoods Merry Men is here{x';String mob %1 name 'merry men man'~
+Macro so string obj %1 short %2;string obj %1 long %3; string obj %1 name %4~
+Macro sprize at %1 spreward %1 %2~
+Macro bloodbath goto 730~
+Macro home goto 1275~
+Macro pj string mob %1 short '{RPrince John{x';String mob %1 long '{RPrince John{x is here to DESTROY YOU!';string mob %1 name 'prince john'~
+Macro mt c 'teleport' self;trans %1.merry~
+Macro arr take arrow quiv;clone arrow;at %1 give arrow %1~
+Macro soap at %1 echo '{GRobinhood{x calls your mother and POOF!, she enters the room with a bar of soap!';at %1 echo 'Your mother says "You have a potty mouth %1 EAT THIS SOAP!"'~
+Macro arw at %1 echo {G>>-----------> {R0{x {COUCH!{x an arrow hit your bottom!~
+Macro bag take pouch quiv;clone pouch; put pouch quiv;give pouch %1;say %1 put them in here and pass them over~
+Macro marrian string mob %1 short {GMaid Marrian{x;String mob %1 long {GMaid Marrian{x is here looking {RHOT!{x;string mob %1 name Marrian~
+Macro sherwood goto 23300~
 Sk 100 'reserved'
 Sk 100 'opiate'
 Sk 100 'accuracy'
@@ -141,9 +148,11 @@ Sk 100 'continual light'
 Sk 100 'control weather'
 Sk 100 'create food'
 Sk 100 'create fountain'
+Sk 100 'create node'
 Sk 100 'create rose'
 Sk 100 'create spring'
 Sk 100 'create water'
+Sk 100 'crusade'
 Sk 100 'cure blindness'
 Sk 100 'cure critical'
 Sk 100 'cure disease'
@@ -151,7 +160,6 @@ Sk 100 'cure light'
 Sk 100 'cure poison'
 Sk 100 'cure serious'
 Sk 100 'curse'
-Sk 100 'create node'
 Sk 100 'demonfire'
 Sk 100 'detect evil'
 Sk 100 'detect good'
@@ -171,6 +179,7 @@ Sk 100 'enchant armor'
 Sk 100 'enchant weapon'
 Sk 100 'endure cold'
 Sk 100 'endure heat'
+Sk 100 'enhance'
 Sk 100 'energy drain'
 Sk 100 'enervation'
 Sk 100 'entrance'
@@ -178,6 +187,7 @@ Sk 100 'faerie fire'
 Sk 100 'faerie fog'
 Sk 100 'famine'
 Sk 100 'farsight'
+Sk 100 'farsee'
 Sk 100 'feast'
 Sk 100 'feeblemind'
 Sk 100 'fireball'
@@ -185,8 +195,8 @@ Sk 100 'fireproof'
 Sk 100 'flamestrike'
 Sk 100 'flamesword'
 Sk 100 'flame shield'
-Sk 100 'fly'
 Sk 100 'floating disc'
+Sk 100 'fly'
 Sk 100 'forget'
 Sk 100 'frenzy'
 Sk 100 'frostsword'
@@ -199,6 +209,7 @@ Sk 100 'haste'
 Sk 100 'heal'
 Sk 100 'heat metal'
 Sk 100 'hold person'
+Sk 100 'holy silence'
 Sk 100 'holy word'
 Sk 100 'ice storm'
 Sk 100 'identify'
@@ -218,6 +229,10 @@ Sk 100 'mass invis'
 Sk 100 'mirror image'
 Sk 100 'mistform'
 Sk 100 'nexus'
+Sk 100 'orb of awakening'
+Sk 100 'orb of surprise'
+Sk 100 'orb of touch'
+Sk 100 'orb of turning'
 Sk 100 'pass door'
 Sk 100 'plague'
 Sk 100 'poison'
@@ -239,6 +254,8 @@ Sk 100 'shield'
 Sk 100 'shocking grasp'
 Sk 100 'sleep'
 Sk 100 'slow'
+Sk 100 'smoke screen'
+Sk 100 'see soul'
 Sk 100 'speed'
 Sk 100 'stonefist'
 Sk 100 'stone skin'
@@ -265,22 +282,12 @@ Sk 100 'small bomb'
 Sk 100 'high explosive'
 Sk 100 'animate dead'
 Sk 100 'summon dead'
+Sk 100 'summon elemental'
 Sk 100 'cryogenesis'
 Sk 100 'draw life'
 Sk 100 'turn undead'
 Sk 100 'withstand death'
 Sk 100 'wound transfer'
-Sk 100 'smoke screen'
-Sk 100 'orb of awakening'
-Sk 100 'orb of surprise'
-Sk 100 'orb of touch'
-Sk 100 'orb of turning'
-Sk 100 'crusade'
-Sk 100 'holy silence'
-Sk 100 'see soul'
-Sk 100 'farsee'
-Sk 100 'enhance'
-Sk 100 'summon elemental'
 Sk 100 'axe'
 Sk 100 'dagger'
 Sk 100 'flail'
@@ -694,9 +701,9 @@ Wear 7
 Lev  45
 Cost 2000
 Val  7 7 7 4 3
-Affc 'reserved'   1  39  -1   2  19          0
-Affc 'reserved'   1  39  -1  -2  20          0
 Affc 'enchant armor'   1  56  -1  -7  17          0
+Affc 'reserved'   1  39  -1  -2  20          0
+Affc 'reserved'   1  39  -1   2  19          0
 End
 
 #O

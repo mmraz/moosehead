@@ -2,21 +2,22 @@
 Name Sorius~
 Id   993813666
 Email (null)~
-LogO 1131722205
-Vers 31
+LogO 1387913041
+Vers 33
 LnD  A Gladiator~
 Prom %hhp %mm %vmv|%Xtnl| $%g|%r|%e|   ~
 Race yinn~
 Clan honor~
+SaveClan honor~
 Outc 0
-RufT 177
+RufT 134
 MatookT 0
-Abol -1
-SkPTimer 0
-SkPTracker 2
+SkPTimer 1
+SkPTracker 12
 LogoutTracker 0
 Kill 1 5 0 11
 Steal 0 0 0
+MSteal 0
 LstK Coranon~
 LstKBy Thewhiner~
 LstAtkedBy no one~
@@ -24,37 +25,43 @@ LstAtkedByTimer 0
 LstCombatDate 1127525187
 LstKillDate 1127482257
 LstDeathDate 1082713147
-LoginsWOKill 6
-LoginsWODeath 33
-LoginsWOCombat 4
+LoginsWOKill 10
+LoginsWODeath 37
+LoginsWOCombat 8
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 183357 hermes~
 DeityT -394 almighty~
-Sac  600
+Sac  448
 Sex  1
 Vump  1
 Node 0
 Cap 0
 Created 993813676
-Glad 0 1 0 0 3 0
-LastHost ndn-165-134-63.telkomadsl.co.za~
+Glad 0 1 0 0 4 0
+LastHost 105.225.171.16~
 Cla  5
 Kit wyrmslayer~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 382974
+Plyd 384939
 Not  997004294 0 0 1081466501 1082949129 0 0 1126777774 0 0
 Scro 22
 Rank 1
-Room 31500
+Room 10820
 HMV  1515 1515 490 490 655 655
-Gold 1246
-Silv 11155
+Gold 1204
+Silv 25
 Exp  497330
 Act  CDFGIKQS
 MHSF RSV
-AfBy JT
+AfBy JZ
 Comm 0
 Disp FGIJ
 IcgB 0
@@ -63,15 +70,16 @@ Wizn W
 Pnet ABCDEFGHI
 Pos  8
 Prac 21
-SkiP 130
-Save  -18
+Trai 13
+SkiP 140
+Save  -23
 Alig  1000
-Hit   32
-Dam   33
-SecHit   20
+Hit   25
+Dam   21
+SecHit   25
 SecDam   21
-ACs -128 -122 -128 -91
-Attr 23 18 20 22 22 22 19 13
+ACs -208 -202 -208 -171
+Attr 23 18 20 22 22 14 14 13
 AMod 2 6 4 1 2 0 0 0
 Pass SovVS16juYiYQ~
 Titl  {YSun{DShadow{x!~
@@ -79,14 +87,14 @@ Pnts 99
 TSex 1
 LLev 65
 HMVP 1390 375 695
-Cnd  0 16 40 32
+Cnd  0 0 18 0
 Alias di dirt~
 Alias dead c 'summon dead'~
 Alias resc o all rescue sorius~
 Alias h murder~
 Sk 76 'armor'
 Sk 97 'bless'
-Sk 72 'body weaponry'
+Sk 74 'body weaponry'
 Sk 73 'cancellation'
 Sk 61 'crusade'
 Sk 74 'cure blindness'
@@ -135,7 +143,7 @@ Sk 1 'sacred guardian'
 Sk 93 'sanctuary'
 Sk 75 'shield'
 Sk 1 'see soul'
-Sk 77 'stone skin'
+Sk 80 'stone skin'
 Sk 68 'summon'
 Sk 61 'teleport'
 Sk 84 'tower of iron will'
@@ -184,7 +192,13 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'indulgence'   0  43  28   0   0          0
+Affc 'bless'   0  38  31  -5  24          0
+Affc 'bless'   0  44  31   5  18          0
+Affc 'tower of iron will'   3  41   2   0   0      32768
+Affc 'body weaponry'   0  42   4   0   0   33554432
+Affc 'stone skin'   0  43  25 -40  17          0
+Affc 'shield'   0  41  33 -20  17          0
+Affc 'armor'   0  45  15 -20  17          0
 End
 
 #O
@@ -197,9 +211,9 @@ Cond 0
 Wear 10
 Lev  50
 Cost 0
-Affc 'enchant armor'   1  52  -1 -12  17          0
-Affc 'reserved'   1  49  -1  -2  20          0
 Affc 'reserved'   1  49  -1  30  13          0
+Affc 'reserved'   1  49  -1  -2  20          0
+Affc 'enchant armor'   1  52  -1 -12  17          0
 End
 
 #O
@@ -211,8 +225,8 @@ ExtF 17563713
 Cond 0
 Wear 6
 Cost 7777
-Affc 'enchant armor'   1  52  -1  -9  17          0
 Affc 'reserved'   1  51  -1   3  18          0
+Affc 'enchant armor'   1  52  -1  -9  17          0
 End
 
 #O
@@ -225,9 +239,9 @@ Cond 0
 Wear 7
 Lev  50
 Cost 2000
-Affc 'enchant armor'   1  52  -1 -10  17          0
-Affc 'reserved'   1  47  -1   2  18          0
 Affc 'reserved'   1  47  -1  15  12          0
+Affc 'reserved'   1  47  -1   2  18          0
+Affc 'enchant armor'   1  52  -1 -10  17          0
 End
 
 #O
@@ -240,9 +254,9 @@ Cond 0
 Wear 13
 Lev  50
 Cost 5500
-Affc 'enchant armor'   1  52  -1  -8  17          0
-Affc 'reserved'   1  46  -1   1  18          0
 Affc 'reserved'   1  46  -1   2  19          0
+Affc 'reserved'   1  46  -1   1  18          0
+Affc 'enchant armor'   1  52  -1  -8  17          0
 End
 
 #O
@@ -264,10 +278,10 @@ Cond 0
 Wear 12
 Lev  50
 Cost 1500
-Affc 'enchant armor'   1  52  -1  -9  17          0
-Affc 'reserved'   1  45  -1  -3  20          0
-Affc 'reserved'   1  45  -1   2   3          0
 Affc 'reserved'   1  45  -1  50  12          0
+Affc 'reserved'   1  45  -1   2   3          0
+Affc 'reserved'   1  45  -1  -3  20          0
+Affc 'enchant armor'   1  52  -1  -9  17          0
 End
 
 #O
@@ -289,12 +303,12 @@ Cond 0
 Wear 4
 Lev  50
 Cost 900
-Affc 'enchant armor'   1  52  -1  -7  17          0
-Affc 'reserved'   1  48  -1   1   3          0
-Affc 'reserved'   1  48  -1   1   4          0
-Affc 'reserved'   1  48  -1   2  19          0
-Affc 'reserved'   1  48  -1  -1   2          0
 Affc 'reserved'   1  48  -1 -20  14          0
+Affc 'reserved'   1  48  -1  -1   2          0
+Affc 'reserved'   1  48  -1   2  19          0
+Affc 'reserved'   1  48  -1   1   4          0
+Affc 'reserved'   1  48  -1   1   3          0
+Affc 'enchant armor'   1  52  -1  -7  17          0
 End
 
 #O
@@ -343,10 +357,10 @@ Cond 0
 Wear 11
 Lev  50
 Cost 3500
-Affc 'enchant armor'   1  52  -1  -9  17          0
-Affc 'reserved'   1  42  -1   1  18          0
-Affc 'reserved'   1  42  -1   2  19          0
 Affc 'reserved'   1  42  -1   2   1          0
+Affc 'reserved'   1  42  -1   2  19          0
+Affc 'reserved'   1  42  -1   1  18          0
+Affc 'enchant armor'   1  52  -1  -9  17          0
 End
 
 #O
@@ -386,12 +400,12 @@ Cond 0
 Wear 3
 Lev  50
 Cost 900
-Affc 'enchant armor'   1  52  -1  -8  17          0
-Affc 'reserved'   1  48  -1   1   3          0
-Affc 'reserved'   1  48  -1   1   4          0
-Affc 'reserved'   1  48  -1   2  19          0
-Affc 'reserved'   1  48  -1  -1   2          0
 Affc 'reserved'   1  48  -1 -20  14          0
+Affc 'reserved'   1  48  -1  -1   2          0
+Affc 'reserved'   1  48  -1   2  19          0
+Affc 'reserved'   1  48  -1   1   4          0
+Affc 'reserved'   1  48  -1   1   3          0
+Affc 'enchant armor'   1  52  -1  -8  17          0
 End
 
 #O
@@ -431,9 +445,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1700
-Affc 'enchant weapon'   0  51  -1  10  18          0
-Affc 'reserved'   1  44  -1   2   2          0
 Affc 'enchant weapon'   1  51  -1  12  19          0
+Affc 'reserved'   1  44  -1   2   2          0
+Affc 'enchant weapon'   0  51  -1  10  18          0
 End
 
 #O
@@ -446,33 +460,10 @@ Cond 0
 Wear -1
 Lev  50
 Cost 2300
-Affc 'enchant armor'   1  52  -1  -7  17          0
-Affc 'reserved'   0  45  -1   0   0         32
-Affc 'reserved'   1  45  -1  -2  20          0
 Affc 'reserved'   1  45  -1   2   2          0
-End
-
-#O
-Vnum 9321
-Nest 1
-PrevOwner Sorius~
-Cond 0
-Wear -1
-Cost 2400
-End
-
-#O
-Vnum 18150
-Enchanted
-Nest 1
-PrevOwner Sorius~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'reserved'   1  45  -1  -2  20          0
+Affc 'reserved'   0  45  -1   0   0         32
+Affc 'enchant armor'   1  52  -1  -7  17          0
 End
 
 #O
@@ -578,22 +569,6 @@ Cost 0
 End
 
 #O
-Vnum 23504
-Enchanted
-Nest 1
-PrevOwner Sorius~
-ExtF 537395523
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Val  2 2 20 38 9
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
 Vnum 10445
 Enchanted
 Nest 1
@@ -604,9 +579,9 @@ Wear -1
 Lev  50
 Cost 6400
 Val  4 5 8 38 512
-Affc 'reserved'   1  47  -1  -5  17          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'reserved'   1  47  -1  -5  17          0
 End
 
 #O
@@ -655,9 +630,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 13700
-Affc 'enchant armor'   1  52  -1 -11  17          0
-Affc 'reserved'   1  45  -1  -4  20          0
 Affc 'reserved'   1  45  -1  30  12          0
+Affc 'reserved'   1  45  -1  -4  20          0
+Affc 'enchant armor'   1  52  -1 -11  17          0
 End
 
 #O
@@ -671,10 +646,10 @@ Wear -1
 Lev  50
 Cost 0
 Val  6 2 19 39 524
-Affc 'bestow holiness'   5  51  -1   0   0        512
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'bestow holiness'   5  51  -1   0   0        512
 End
 
 #O
@@ -685,6 +660,105 @@ Cond 0
 Wear -1
 Cost 11800
 Val  0 12 3 10 516
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Sorius~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Sorius~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Sorius~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Sorius~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Sorius~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Sorius~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Sorius~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Sorius~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Sorius~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9321
+Nest 1
+PrevOwner Sorius~
+Cond 0
+Wear -1
+Cost 2400
 End
 
 #O
@@ -706,16 +780,56 @@ Cost 13700
 End
 
 #O
+Vnum 23504
+Enchanted
+Nest 0
+PrevOwner Sorius~
+ExtF 537395523
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Val  2 2 20 38 9
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 18150
+Enchanted
+Nest 0
+PrevOwner Sorius~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner Sorius~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
 Vnum 12014
 Enchanted
 Nest 0
 PrevOwner Sorius~
 ExtF 451
 Cond 0
-Wear 16
+Wear -1
 Cost 0
-Affc 'enchant weapon'   1  52  -1  12  19          0
 Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #END

@@ -2,7 +2,7 @@
 Name Goldark~
 Id   948723532
 Email (null)~
-LogO 1073825591
+LogO 1306512872
 Vers 31
 Prom <%hhp %mm %vmv %X %S> ~
 Race dragon~
@@ -12,7 +12,7 @@ RufT 0
 MatookT 0
 Abol -1
 SkPTimer 0
-SkPTracker 0
+SkPTracker 11
 LogoutTracker 0
 Kill 0 1 0 0
 Steal 0 0 0
@@ -23,9 +23,9 @@ LstAtkedByTimer 0
 LstCombatDate 1071483689
 LstKillDate 1033717652
 LstDeathDate 1033717022
-LoginsWOKill 14
-LoginsWODeath 14
-LoginsWOCombat 1
+LoginsWOKill 15
+LoginsWODeath 15
+LoginsWOCombat 2
 Bnty 0
 Deity 35923 almighty~
 DeityT -336 almighty~
@@ -36,49 +36,50 @@ Node 0
 Cap 0
 Created 969608922
 Glad 0 0 0 0 0 0
-LastHost 65-103-155-99.spkn.qwest.net~
+LastHost 74.82.229.79~
 Cla  5
 Kit knight~
 ClaO 3
 Levl 39
 DLevl -1
-Plyd 167248
+Plyd 169831
 Not  1061619126 1061619126 1061619126 1061619234 1061619126 1061619126 1061619126 1073813368 1061619126 1061619126
 Scro 22
 Rank 2
 Room 31816
-HMV  1024 1024 315 315 288 288
-Gold 3
-Silv 12
-Exp  395627
-Act  DEFGHMQS
+HMV  1024 1024 195 315 272 288
+Gold 352
+Silv 13476
+Exp  395621
+Act  DGHMQS
 MHSF R
-AfBy DFJTVZ
+AfBy DFJT
 Comm IR
-Disp FIJ
+Disp FGIJ
 IcgB 0
 Icg 0
+Pnet A
 Pos  8
 Prac 5
 Trai 1
-SkiP 70
+SkiP 81
 Save  -7
 Alig  -1000
 Hit   26
 Dam   32
 SecHit   17
 SecDam   24
-ACs 18 20 16 72
+ACs 38 40 36 92
 Wimp  20
 Attr 21 23 22 16 23 13 13 13
-AMod 4 -1 -2 7 0 0 0 0
+AMod 4 -1 -2 5 0 0 0 0
 Pass GoKmzIQRMpoZc~
 Titl  the golden hand of the Almighty~
 Pnts 100
 TSex 1
 LLev 45
 HMVP 994 315 283
-Cnd  0 0 0 0
+Cnd  0 0 35 22
 OldSk 1 'aid'
 Sk 75 'annointment'
 Sk 80 'armor'
@@ -120,7 +121,7 @@ OldSk 1 'famine'
 Sk 1 'farsight'
 OldSk 1 'feast'
 OldSk 1 'feeblemind'
-Sk 75 'fireproof'
+Sk 79 'fireproof'
 OldSk 1 'flamestrike'
 Sk 1 'fly'
 OldSk 1 'fly'
@@ -238,14 +239,10 @@ Gr 'piety'
 Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
-Affc 'bless'   0  42  32   5  18          0
-Affc 'bless'   0  43  32  -5  24          0
-Affc 'armor'   0  33  22 -20  17          0
-Affc 'tower of iron will'   3  35   8   0   0      32768
-Affc 'body weaponry'   0  34  15   0   0   33554432
-Affc 'haste'   0  21   2   2   2    2097152
-Affc 'detect hidden'   0  30  28   0   0         32
-Affc 'detect invis'   0  35  28   0   0          8
+Affc 'detect invis'   0  30  20   0   0          8
+Affc 'detect hidden'   0  31  20   0   0         32
+Affc 'bless'   0  40  22  -5  24          0
+Affc 'bless'   0  39  22   5  18          0
 End
 
 #O
@@ -301,9 +298,9 @@ Wear 9
 Lev  26
 Cost 5800
 Val  7 7 7 0 5
-Affc 'enchant armor'   1  44  -1  -4  17          0
-Affc 'reserved'   1  23  -1   2   1          0
 Affc 'reserved'   1  23  -1   2  19          0
+Affc 'reserved'   1  23  -1   2   1          0
+Affc 'enchant armor'   1  44  -1  -4  17          0
 End
 
 #O
@@ -355,9 +352,11 @@ End
 Vnum 8500
 Nest 0
 PrevOwner (null)~
+ExtF 16777344
 Cond 0
 Wear -1
 Cost 3000
+Affc 'fireproof'   1  34   5   0   0   16777216
 End
 
 #O
@@ -370,9 +369,9 @@ Cond 0
 Wear -1
 Lev  14
 Cost 9800
-Affc 'enchant weapon'   0  52  -1   5  18          0
-Affc 'reserved'   1  10  -1   1   4          0
 Affc 'enchant weapon'   1  52  -1   4  19          0
+Affc 'reserved'   1  10  -1   1   4          0
+Affc 'enchant weapon'   0  52  -1   5  18          0
 End
 
 #O
@@ -634,7 +633,7 @@ End
 Vnum 1929
 Nest 1
 PrevOwner Goldark~
-Stolen 91
+Stolen 29
 Cond 0
 Wear -1
 Cost 60
@@ -672,10 +671,10 @@ Wear -1
 Lev  20
 Cost 3100
 Val  5 3 5 25 1036
-Affc 'enchant weapon'   1  52  -1   7  19          0
-Affc 'enchant weapon'   1  52  -1   8  18          0
-Affc 'reserved'   1  15  -1  -1   3          0
 Affc 'reserved'   1  15  -1   1   1          0
+Affc 'reserved'   1  15  -1  -1   3          0
+Affc 'enchant weapon'   1  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
 End
 
 #O
@@ -718,8 +717,8 @@ Cond 0
 Wear -1
 Lev  36
 Cost 5700
-Affc 'enchant weapon'   1  53  -1   7  19          0
 Affc 'enchant weapon'   1  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
 End
 
 #O
@@ -788,25 +787,6 @@ Cond 0
 Wear -1
 Cost 820
 Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Goldark~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Goldark~
-Cond 0
-Wear -1
-Cost 6000
 End
 
 #O
@@ -883,7 +863,7 @@ ExtF 16777344
 Cond 0
 Wear -1
 Cost 3000
-Affc 'fireproof'   1  32   4   0   0   16777216
+Affc 'fireproof'   1  35   6   0   0   16777216
 End
 
 #O
@@ -893,15 +873,6 @@ PrevOwner Goldark~
 Cond 0
 Wear -1
 Cost 500
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -1002,14 +973,14 @@ Name goldark blade family~
 ShD  Goldark's {YGleaming{x Blade~
 Desc The Family Blade of Goldark shines before you.~
 ExtF 67
-Stolen 557
+Stolen 495
 Cond 0
 Wear 16
 Lev  36
 Cost 2200
 Val  1 2 12 3 517
-Affc 'enchant weapon'   1  53  -1   9  18          0
 Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   1  53  -1   9  18          0
 End
 
 #O
@@ -1027,25 +998,37 @@ Nest 0
 PrevOwner Regulator~
 Cond 0
 Wear -1
-Time 669
+Time 607
 Cost 800
 Spell 1 'sanctuary'
 End
 
-#PET
-Vnum 11
-Name magestic warhorse war horse~
-LogO 1073825591
-Sex  2
-Levl 26
-HMV  455 455 100 100 315 315
-AfBy S
-Comm VWX
-Pos  8
-Hit  15
-Dam  15
-ACs  -31 -31 -31 -40
-Attr 19 12 13 13 16 13 13 13
-AMod 0 0 0 0 0 0 0 0
+#O
+Vnum 9573
+Nest 0
+PrevOwner Goldark~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
 End
+
+#O
+Vnum 9202
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 20405
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 125
+End
+
 #END

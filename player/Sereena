@@ -3,7 +3,7 @@ Name Sereena~
 SurN Pulverizer~
 Id   1000066311
 Email (null)~
-LogO 1100061281
+LogO 1311214060
 Vers 31
 Desc You lean against what you think is a rock, when suddenly you feel it move!  You look to see what looks like a beautiful woman made purely out of rock.  She looks at you and then curtseys gracefully. 
 ~
@@ -12,8 +12,8 @@ Race rockbiter~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 13
-SkPTracker 12
+SkPTimer 2
+SkPTracker 4
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -28,6 +28,9 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 23
+PrefStat 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -135 matook~
 Sac  300
@@ -36,48 +39,47 @@ Vump  0
 Node 0
 Cap 0
 Created 1000066328
-Glad 0 0 0 0 0 0
-LastHost 157.160.46.2~
+Glad 0 1 0 0 2 0
+LastHost 71.199.125.21~
 Cla  6
 Kit barbarian~
 ClaO 3
-Levl 40
+Levl 41
 DLevl 0
-Plyd 159967
+Plyd 165246
 Not  1067376010 1067376010 1067376010 1067376010 1067376010 1067376010 1067376010 1067376010 1067376010 1067376010
 Scro 22
 Rank 0
 Room 3054
-HMV  1194 1194 283 283 196 196
-Gold 42
-Silv 1053
-Exp  491091
-Act  CDGHKM
+HMV  1265 1265 288 288 205 205
+Gold 7
+Silv 27
+Exp  498961
+Act  CDGHKMQ
 MHSF R
-AfBy J
 Comm RS
 Disp FIJN
 IcgB 0
 Icg 0
-Pos  8
-Prac 22
-SkiP 14
-Save  -5
-Alig  -1000
-Hit   24
+Pos  4
+Prac 28
+Trai 1
+SkiP 47
+Alig  -160
+Hit   19
 Dam   21
-SecHit   17
+SecHit   12
 SecDam   14
 ACs 51 50 50 65
-Attr 25 16 25 15 25 13 14 13
+Attr 25 16 25 15 25 8 15 13
 AMod 1 0 0 2 0 0 0 0
 Pass SeHZaA5RLo2no~
 Titl .~
 Pnts 98
 TSex 2
-LLev 43
-HMVP 1164 283 196
-Cnd  0 2 48 16
+LLev 45
+HMVP 1235 288 205
+Cnd  0 0 48 5
 Sk 67 'fly'
 Sk 67 'gate'
 Sk 1 'knock'
@@ -89,8 +91,8 @@ Sk 1 'teleport'
 Sk 80 'word of recall'
 Sk 100 'dagger'
 Sk 100 'sword'
-Sk 90 'backstab'
-Sk 73 'barbarian rage'
+Sk 91 'backstab'
+Sk 78 'barbarian rage'
 Sk 72 'berserk'
 Sk 94 'cleave'
 Sk 100 'dodge'
@@ -113,8 +115,6 @@ Sk 50 'recall'
 Gr 'rom basics'
 Gr 'berzerker basics'
 Gr 'transportation'
-Affc 'bless'   0  37   5   5  18          0
-Affc 'bless'   0  31   5  -5  24          0
 End
 
 #O
@@ -414,16 +414,6 @@ Cost 0
 End
 
 #O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 21
 Nest 0
 PrevOwner Burber~
@@ -433,79 +423,12 @@ Cost 0
 End
 
 #O
-Vnum 3092
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
 Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3091
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 250
-Spell 1 'fly'
 End
 
 #O
@@ -536,6 +459,46 @@ Cost 1000
 End
 
 #O
+Vnum 16018
+Nest 0
+PrevOwner Sereena~
+Stolen 148
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
 Vnum 8504
 Nest 0
 PrevOwner Sereena~
@@ -554,22 +517,12 @@ Cost 5000
 End
 
 #O
-Vnum 16018
-Nest 0
-PrevOwner Sereena~
-Stolen 281
-Cond 0
-Wear -1
-Cost 2200
-End
-
-#O
 Vnum 18012
 Enchanted
 Nest 0
 PrevOwner Sereena~
 ExtF 83
-Stolen 61
+Stolen 228
 Cond 0
 Wear 16
 Lev  23

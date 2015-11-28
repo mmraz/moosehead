@@ -2,84 +2,87 @@
 Name Bane~
 Id   940989212
 Email (null)~
-LogO 1092161732
+LogO 1314313363
 Vers 31
-LnD  A Gladiator~
-Prom <%hhp %mmana %vmv %W{Glbs {Y%g{xgold> ~
+LnD  A dying Gladiator~
+Prom <%h/%HHp %m/%MMana %v/%VMv %g{YGold{x %w{GLbs{x> ~
 Race volare~
 Clan demise~
 Outc 0
-RufT 205
+RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 5
+SkPTimer 1
+SkPTracker 4
 LogoutTracker 0
-Kill 2 2 0 1
+Kill 2 3 0 1
 Steal 0 0 0
-LstK Zex~
+LstK Ripper~
 LstKBy Nod~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1085520966
-LstKillDate 1036199098
+LstCombatDate 1313636212
+LstKillDate 1310870797
 LstDeathDate 1036196893
-LoginsWOKill 11
-LoginsWODeath 11
-LoginsWOCombat 1
+LoginsWOKill 21
+LoginsWODeath 34
+LoginsWOCombat 5
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 371945 cthon~
 DeityT -896 cthon~
 Sac  300
 Sex  1
-Vump  1
+Vump  2
 Node 0
 Cap 0
 Created 951508552
-Glad 0 0 0 0 0 0
-LastHost kcnetmax01-77-098.kcnet.org~
+Glad 0 0 0 0 1 0
+LastHost 142.46.160.233~
 Cla  4
 Kit acrobat~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 814056
-Not  1085608309 1085605972 1085519087 1085519087 1085519087 1085519087 1085519087 1085519087 1085519087 1085519087
+Plyd 865534
+Not  1314233613 1314150167 1312920636 1313633825 1313859824 1314303809 1312920636 1314147181 1312920636 1313633735
 Scro 22
 Rank 2
 Room 31422
-HMV  1131 1131 806 806 348 348
-Gold 317
-Silv 2973
+HMV  1196 1231 485 806 308 348
+Gold 131
+Silv 51
 Exp  229590
 Act  CDEFGHIKQSZd
 MHSF RSU
-AfBy CEPT
-Comm FGLS
+AfBy CDEFTV
+Comm GS
 Disp BFIJN
 IcgB 0
 Icg 0
-Wizn W
 Pnet ACDFH
 Pos  8
 Prac 14
-SkiP 105
-Save  -2
-Alig  -1000
-Hit   17
+StatsTrained 100 0 0
+SkiP 299
+Save  -8
+Alig  -931
+Hit   23
 Dam   30
-SecHit   17
+SecHit   23
 SecDam   28
-ACs -129 -129 -129 -129
+ACs -189 -189 -189 -189
 Wimp  20
-Attr 17 19 21 19 18 18 17 14
-AMod 2 3 0 7 0 0 0 0
+Attr 17 19 21 19 18 10 11 18
+AMod 2 3 0 9 0 0 0 0
 Pass Ba5iXfsGcWZHs~
 Titl  of {Dyou{x~
 Pnts 76
 TSex 1
 LLev 1
-HMVP 971 751 348
-Cnd  0 32 40 40
+HMVP 1071 751 348
+Cnd  0 42 45 45
 Alias / ca word~
 Alias zz ca heal~
 Alias pr pray recall~
@@ -90,15 +93,16 @@ Alias m ca 'mirror'~
 Alias f ca 'faerie fog'~
 Alias z ca 'demon'~
 Alias bl bleed~
-Alias 1 ca heal gaf~
-Alias 2 ca summon hamburger~
+Alias 1 ca summon whiskers~
+Alias 2 ca blind aki~
 Alias 0 order all rescue bane~
-Alias 9 order all trip~
+Alias 3 ca plag aki~
+Alias 4 ca 'energy' aki~
 Sk 88 'acid blast'
 OldSk 1 'acid blast'
 Sk 1 'aid'
 OldSk 1 'aid'
-Sk 95 'armor'
+Sk 98 'armor'
 OldSk 1 'armor'
 Sk 1 'bestow holiness'
 OldSk 1 'bestow holiness'
@@ -125,6 +129,7 @@ Sk 1 'chill touch'
 OldSk 1 'chill touch'
 Sk 1 'colour spray'
 OldSk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 63 'continual light'
 OldSk 1 'continual light'
 Sk 1 'control weather'
@@ -143,7 +148,7 @@ Sk 94 'cure blindness'
 OldSk 46 'cure blindness'
 Sk 1 'cure critical'
 OldSk 1 'cure critical'
-Sk 79 'cure disease'
+Sk 80 'cure disease'
 OldSk 41 'cure disease'
 Sk 1 'cure light'
 OldSk 1 'cure light'
@@ -153,7 +158,7 @@ Sk 1 'cure serious'
 OldSk 1 'cure serious'
 Sk 100 'curse'
 OldSk 75 'curse'
-Sk 99 'demonfire'
+Sk 100 'demonfire'
 OldSk 1 'demonfire'
 Sk 99 'detect evil'
 OldSk 1 'detect evil'
@@ -161,7 +166,7 @@ Sk 1 'detect good'
 OldSk 1 'detect good'
 Sk 99 'detect hidden'
 OldSk 1 'detect hidden'
-Sk 95 'detect invis'
+Sk 96 'detect invis'
 OldSk 1 'detect invis'
 Sk 100 'detect magic'
 OldSk 1 'detect magic'
@@ -173,7 +178,7 @@ Sk 1 'dispel good'
 OldSk 1 'dispel good'
 Sk 100 'dispel magic'
 OldSk 43 'dispel magic'
-Sk 72 'earthquake'
+Sk 83 'earthquake'
 OldSk 1 'earthquake'
 Sk 1 'endure cold'
 OldSk 1 'endure cold'
@@ -240,9 +245,9 @@ OldSk 1 'mass healing'
 Sk 98 'mirror image'
 Sk 1 'nexus'
 OldSk 1 'nexus'
-Sk 79 'pass door'
+Sk 80 'pass door'
 OldSk 1 'pass door'
-Sk 85 'plague'
+Sk 86 'plague'
 OldSk 75 'plague'
 Sk 77 'poison'
 OldSk 75 'poison'
@@ -276,7 +281,7 @@ OldSk 75 'sleep'
 Sk 94 'slow'
 OldSk 1 'slow'
 OldSk 1 'smoke screen'
-Sk 95 'stone skin'
+Sk 98 'stone skin'
 OldSk 1 'stone skin'
 Sk 100 'summon'
 OldSk 61 'summon'
@@ -285,7 +290,7 @@ OldSk 1 'teleport'
 Sk 100 'tower of iron will'
 Sk 79 'warp'
 OldSk 41 'warp'
-Sk 80 'weaken'
+Sk 83 'weaken'
 OldSk 72 'weaken'
 Sk 93 'word of recall'
 OldSk 83 'word of recall'
@@ -320,21 +325,21 @@ Sk 100 'dodge'
 OldSk 29 'dodge'
 Sk 100 'kailindo'
 OldSk 44 'kailindo'
-Sk 91 'tumbling'
+Sk 94 'tumbling'
 OldSk 88 'kick'
 Sk 100 'parry'
 OldSk 1 'trip'
-Sk 92 'shield block'
+Sk 94 'shield block'
 OldSk 1 'shield block'
 Sk 100 'scan'
 OldSk 90 'scan'
 Sk 100 'second attack'
 OldSk 22 'second attack'
-Sk 60 'third attack'
+Sk 78 'third attack'
 OldSk 1 'hide'
 OldSk 1 'peek'
 OldSk 1 'pick lock'
-Sk 99 'sneak'
+Sk 100 'sneak'
 OldSk 1 'sneak'
 Sk 37 'steal'
 OldSk 1 'steal'
@@ -366,9 +371,15 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect magic'   0  42  23   0   0         16
-Affc 'detect evil'   0  43  33   0   0          4
-Affc 'sneak'   0  49  43   0   0      32768
+Affc 'haste'   0  21   4   2   2    2097152
+Affc 'detect invis'   0  41  11   0   0          8
+Affc 'detect hidden'   0  38  10   0   0         32
+Affc 'detect evil'   0  41  10   0   0          4
+Affc 'detect magic'   0  43   9   0   0         16
+Affc 'bless'   0  43  16  -6  24          0
+Affc 'bless'   0  47  16   6  18          0
+Affc 'stone skin'   0  41  10 -40  17          0
+Affc 'shield'   0  46  18 -20  17          0
 End
 
 #O
@@ -427,15 +438,6 @@ Cost 1150
 End
 
 #O
-Vnum 10003
-Nest 0
-PrevOwner Bane~
-Cond 0
-Wear 0
-Cost 0
-End
-
-#O
 Vnum 20740
 Nest 0
 PrevOwner Bane~
@@ -469,7 +471,7 @@ Vnum 9322
 Nest 0
 PrevOwner Bane~
 Cond 0
-Wear 2
+Wear 1
 Cost 1690
 End
 
@@ -508,7 +510,7 @@ Vnum 5909
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 1
+Wear 2
 Cost 3000
 End
 
@@ -524,7 +526,7 @@ End
 #O
 Vnum 10028
 Nest 1
-PrevOwner Ripper~
+PrevOwner Bane~
 ExtF 0
 Cond 0
 Wear -1
@@ -533,91 +535,12 @@ Spell 3 'giant strength'
 End
 
 #O
-Vnum 10069
+Vnum 9321
 Nest 1
 PrevOwner Bane~
 Cond 0
 Wear -1
-Cost 1000
-End
-
-#O
-Vnum 11084
-Nest 1
-PrevOwner Bane~
-Cond 0
-Wear -1
-Cost 1200
-Spell 1 'haste'
-End
-
-#O
-Vnum 11084
-Nest 1
-PrevOwner Bane~
-Cond 0
-Wear -1
-Cost 1200
-Spell 1 'haste'
-End
-
-#O
-Vnum 11084
-Nest 1
-PrevOwner Bane~
-Cond 0
-Wear -1
-Cost 1200
-Spell 1 'haste'
-End
-
-#O
-Vnum 11084
-Nest 1
-PrevOwner Bane~
-Cond 0
-Wear -1
-Cost 1200
-Spell 1 'haste'
-End
-
-#O
-Vnum 11084
-Nest 1
-PrevOwner Bane~
-Cond 0
-Wear -1
-Cost 1200
-Spell 1 'haste'
-End
-
-#O
-Vnum 11084
-Nest 1
-PrevOwner Bane~
-Cond 0
-Wear -1
-Cost 1200
-Spell 1 'haste'
-End
-
-#O
-Vnum 11084
-Nest 1
-PrevOwner Bane~
-Cond 0
-Wear -1
-Cost 1200
-Spell 1 'haste'
-End
-
-#O
-Vnum 18106
-Nest 1
-PrevOwner Bane~
-Cond 0
-Wear -1
-Cost 4500
+Cost 2400
 End
 
 #O
@@ -630,9 +553,164 @@ Cost 1700
 End
 
 #O
+Vnum 18106
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 10069
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
 Vnum 8500
 Nest 0
 PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 17663
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 4000
+Val  4 2 10 7 16
+End
+
+#O
+Vnum 6404
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 11600
+End
+
+#O
+Vnum 22559
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 22559
+Nest 1
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 22559
+Nest 1
+PrevOwner Bane~
 Cond 0
 Wear -1
 Cost 3000
@@ -648,31 +726,21 @@ Cost 5000
 End
 
 #O
-Vnum 8503
+Vnum 22558
 Nest 1
 PrevOwner Bane~
 Cond 0
 Wear -1
-Cost 5000
+Cost 50000
 End
 
 #O
-Vnum 17663
+Vnum 9600
 Nest 1
 PrevOwner Bane~
 Cond 0
 Wear -1
-Cost 4000
-Val  4 2 10 7 16
-End
-
-#O
-Vnum 18105
-Nest 0
-PrevOwner Bane~
-Cond 0
-Wear 11
-Cost 4500
+Cost 1240
 End
 
 #O
@@ -694,13 +762,41 @@ Cost 900
 End
 
 #O
+Vnum 10003
+Nest 0
+PrevOwner Bane~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 18105
+Nest 0
+PrevOwner Bane~
+Cond 0
+Wear 11
+Cost 4500
+End
+
+#O
 Vnum 10445
 Nest 0
 PrevOwner Bane~
-Stolen 130
+Stolen 291
 Cond 0
 Wear 16
-Cost 6400
+Cost 0
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner Bane~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
 End
 
 #END

@@ -1,0 +1,264 @@
+#AREA
+../newareas/newbie_c.are~
+Newbie School Tutorial Area~
+Newbie School Tutorial Area~
+14650 14658
+
+#MOBILES
+#0
+
+#OBJECTS
+#14650
+Mountain Shrub~
+a low lying mountain shrub~
+Some low lying mountain shrubs cling here to the mountains edge~
+shrub~
+trash RT 0
+0 0 0 0 0
+0 100 0 P
+#14651
+Red Mountain Berry~
+a red mountain berry~
+A {rred{x mountain berry lies here, recently fallen from the mountain shrub~
+(null)~
+food I A
+50 50 0 0 0
+0 10 0 P
+#14652
+Small Water Spout~
+a small water spout~
+A small water spout juts out of the wall here, carved delicately into a strange looking face~
+(null)~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+fountain~
+It is very nice.  Made from fine white marble.
+~
+#0
+
+#ROOMS
+#14650
+The Peak before the Cathedral~
+You are standing in the crisp air atop a high mountainous peak. Dominating 
+the view in front of you is a majestic cathedral, balancing on the edge of 
+the peaks pinnacle. A bird of prey cries out from somewhere high above you. 
+There is a small winding path ahead of you, leading down to the cathedral 
+doors. You cannot remember how you got here!
+ 
+{WA sign here reads{x
+-----------------------------------------------
+Follow the path down to the cathedral  
+by typing {Ynorth{x then hit {Y<enter>{x
+-----------------------------------------------
+~
+0 CDK 5
+H 300 M 300
+D0
+Exit ~
+door~
+16384 0 14651
+S
+#14651
+Winding Path to the Cathedral~
+You begin the walk down to the cathedral. The great spires loom closer and 
+you begin to make out grotesque shapes, faces and creatures glaring and 
+perching around the cathedral walls. The path continues north, coming 
+extremely close to the peak edge. You peer over and a vertical cliff face 
+greets you with a sudden updraft of warm wind. The path continues north to 
+the cathedral.
+~
+0 0 5
+H 300 M 300
+D0
+Exit ~
+door~
+16384 0 14652
+D2
+Exit ~
+door~
+16384 0 14650
+S
+#14652
+At the Cathedral Doors~
+You have reached the cathedral doors. The plain dark wooden doors were 
+obviously built for their purpose, to let people in and out, not for 
+grandeur. You can now make out the ominous carvings, one of which is 
+directly above you, a menacing gargoyle, partnered with a shrieking harpy,
+you suddenly do not feel welcome here. 
+ 
+{WAn engraving along the wall reads{x
+------------------------------------------
+Open the door at your own risk by typing 
+{Yopen north{x then hit {Y<enter>{x    
+------------------------------------------
+~
+0 0 5
+H 300 M 300
+D0
+Exit ~
+door~
+16385 0 14653
+D2
+Exit ~
+door~
+16384 0 14651
+S
+#14653
+The Cathedral of Life or Death~
+The door creaks closed behind you, shutting out the light. It takes a
+second for your eyes to adjust to the dim candlelight glowing around the 
+room. Once they adjust you are amazed by the sheer size of this place, the 
+cathedral looked big on the outside, but not this big! A huge open space, 
+with a single red carpet lines the cathedral space from east to west, the 
+east ending at a dark window from floor to ceiling and the west at a plain 
+stone alter. Great pillars of stone rise at intervals along the cathedral 
+floor, stretching far into the ceiling, but disappearing in a shroud of 
+shifting darkness.
+ 
+                  {R,{x                     
+                  {R.7{x                    
+                   {RMo{x                   
+~
+0 0 0
+H 300 M 300
+D0
+Exit ~
+door~
+16384 0 14654
+D2
+Exit ~
+door~
+16384 0 14652
+S
+#14654
+The Cathedral of Life or Death~
+You step onto the red carpeted walkway, the length of the cathedral runs 
+east to west on either side of you. You are now closer to the centre of the 
+cathedral. You can see flaming braziers attached to the pillars along the 
+stretch of the cathedral. The same grotesque figures appear above you. They 
+are just as vile and threatening, but steeped in shadows of moving flame 
+light, they seem almost alive.
+~
+0 D 0
+H 300 M 300
+D1
+Exit ~
+door~
+16384 0 14655
+D2
+Exit ~
+door~
+16384 0 14653
+D3
+Exit ~
+door~
+16384 0 14657
+S
+#14655
+The Cathedral of Life or Death~
+You are standing upon the carpeted walkway of the cathedral. The length of 
+the cathedral runs east to west on either side of you. You are now closer 
+to the east of the cathedral. You can see flaming braziers attached to the
+pillars along the stretch of the cathedral. The same grotesque figures 
+appear above you. They are just as vile and threatening, but steeped in 
+shadows of moving flame light, they seem almost alive.
+~
+0 D 0
+H 300 M 300
+D1
+Exit ~
+door~
+16384 0 14656
+D3
+Exit ~
+door~
+16384 0 14654
+S
+#14656
+Before the Black Window~
+A massive black window seems to rise here out of the very mist from floor 
+to ceiling. Through it you can make out an outline of a jagged peak, 
+shrouded in mist. A full moon, resting above the pinnacle of the peak 
+struggles to penetrate its light through the dark window.
+~
+0 D 0
+H 300 M 300
+D3
+Exit ~
+door~
+16384 0 14655
+E
+window~
+{DYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY{x
+~
+S
+#14657
+The Cathedral of Life or Death~
+You are standing upon the carpeted walkway of the cathedral. The length of 
+the cathedral runs east to west on either side of you. You are now closer 
+to the west of the cathedral. You can see flaming braziers attached to the 
+pillars along the stretch of the cathedral. The same grotesque figures 
+appear above you. They are just as vile and threatening, but steeped in
+shadows of moving flame light, they seem almost alive. Further along to the 
+west is the plain stone altar.
+~
+0 DK 0
+H 300 M 300
+D1
+Exit ~
+door~
+16384 0 14654
+D3
+Exit ~
+door~
+16384 0 14658
+S
+#14658
+Before the Altar~
+You continue west along the carpeted walkway beneath the towering darkness 
+above you. The braziers light extends only so far, shrouding this area in a
+muted light. The altar itself is made from a grey, black-veined stone, 
+seamless in its construction. A small candle rests, newly lit, atop the 
+altar. The flame from the small candle light casts a flickering glow across 
+an ancient looking book. Beyond the altar, through a small door, you can 
+see a stairway spiralling down.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 14657
+S
+#0
+
+#RESETS
+O 0 14650 100 14651	* a low lying mountain shrub
+O 0 14651 100 14651	* a red mountain berry
+O 0 14652 100 14652	* a small water spout
+D 0 14650   0 16384	* The Peak before the Cathedral north
+D 0 14651   0 16384	* Winding Path to the Cathedral north
+D 0 14651   2 16384	* Winding Path to the Cathedral south
+D 0 14652   0 16387	* At the Cathedral Doors north
+D 0 14652   2 16384	* At the Cathedral Doors south
+D 0 14653   0 16384	* The Cathedral of Life or Death north
+D 0 14653   2 16384	* The Cathedral of Life or Death south
+D 0 14654   1 16384	* The Cathedral of Life or Death east
+D 0 14654   2 16384	* The Cathedral of Life or Death south
+D 0 14654   3 16384	* The Cathedral of Life or Death west
+D 0 14655   1 16384	* The Cathedral of Life or Death east
+D 0 14655   3 16384	* The Cathedral of Life or Death west
+D 0 14656   3 16384	* Before the Black Window west
+D 0 14657   1 16384	* The Cathedral of Life or Death east
+D 0 14657   3 16384	* The Cathedral of Life or Death west
+D 0 14658   1 16384	* Before the Altar east
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

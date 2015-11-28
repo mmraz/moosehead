@@ -2,8 +2,8 @@
 Name Konrad~
 Id   1014906249
 Email (null)~
-LogO 1113296555
-Vers 31
+LogO 1383479169
+Vers 33
 LnD  A Gladiator~
 Prom (%h %m %v)[{W%g.%s %n/%N %w{x][%a]%c[%r][%e] ~
 Race dragon~
@@ -11,10 +11,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 174707 xochipili~
 DeityT -7667 xochipili~
 Sac  300
@@ -35,41 +42,41 @@ Node 0
 Cap 0
 Created 1014906305
 Glad 0 0 0 0 6 1
-LastHost 146.230.192.91~
+LastHost 41.48.191.225~
 Cla  14
 Kit myrmidon~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 377804
-Not  1061453539 1057564947 1057564947 1057564947 1057564947 1057564947 1057564947 1100778574 1057564947 1100986389
+Plyd 386605
+Not  1061453539 1057564947 1057564947 1057564947 1057564947 1307063022 1057564947 1100778574 1057564947 1100986389
 Scro 22
 Rank 0
 Room 3054
-HMV  1033 1033 329 329 416 416
-Gold 0
-Silv 23
+HMV  1039 1053 324 344 413 416
+Gold 31
+Silv 96
 Exp  207107
 Act  CDGHKOP
 MHSF R
 AfBy CJT
 Comm G
-Disp FIJN
+Disp FGIJN
 IcgB 0
 Icg 0
 Pos  4
-Prac 23
-Trai 8
-SkiP 20
+Prac 21
+Trai 23
+SkiP 38
 Save  -8
 Alig  -1000
-Hit   24
-Dam   46
-SecHit   32
-SecDam   51
-ACs -3 -3 -3 37
+Hit   25
+Dam   47
+SecHit   33
+SecDam   52
+ACs 13 13 18 58
 Wimp  10
-Attr 23 25 21 18 23 20 20 18
+Attr 23 25 21 18 23 11 14 18
 AMod 2 0 0 0 0 0 0 0
 Pass KoPxlEU7JvZoA~
 Titl  {D:-{x {rThe Ancient{x {D-:{x~
@@ -143,7 +150,7 @@ Sk 60 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
 Sk 100 'fourth attack'
-Sk 61 'scrolls'
+Sk 77 'scrolls'
 Sk 25 'staves'
 Sk 73 'wands'
 Sk 57 'swimming'
@@ -157,7 +164,6 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'mummy'
-Affc 'shield'   0  32  11 -20  17          0
 End
 
 #O
@@ -167,56 +173,6 @@ PrevOwner Konrad~
 Cond 0
 Wear 4
 Cost 1400
-End
-
-#O
-Vnum 1345
-Nest 0
-PrevOwner Cyrax~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 17636
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 4400
-End
-
-#O
-Vnum 12004
-Enchanted
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 40
-Affc 'reserved'   1  44  -1  35  13          0
-Affc 'reserved'   1  44  -1   3   2          0
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10306
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 11000
-Val  50 20 17 88 0
-Spell 3 'faerie fog'
 End
 
 #O
@@ -331,15 +287,6 @@ Val  8 8 8 5 5
 End
 
 #O
-Vnum 2410
-Nest 0
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
 Vnum 1345
 Nest 0
 PrevOwner Theodoric~
@@ -349,103 +296,141 @@ Cost 0
 End
 
 #O
-Vnum 4829
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 900
-End
-
-#O
-Vnum 6434
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 5300
-End
-
-#O
-Vnum 23513
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 6410
-End
-
-#O
-Vnum 2418
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 300
-End
-
-#O
-Vnum 12010
-Nest 1
-PrevOwner Theodoric~
-ExtF 1196065
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 1929
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 67
-Cond 0
-Wear -1
-Lev  32
-Cost 60
-Val  2 3 6 41 520
-Affc 'reserved'   1  24  -1  10  12          0
-Affc 'reserved'   1  24  -1  -1   2          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-End
-
-#O
-Vnum 10320
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 9500
-Val  5 5 8 18 548
-End
-
-#O
-Vnum 22516
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 3715
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
 Vnum 12085
 Nest 1
 PrevOwner Konrad~
 Cond 0
 Wear -1
 Cost 8765
+End
+
+#O
+Vnum 12083
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 32142
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12004
+Enchanted
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 40
+Affc 'reserved'   1  44  -1  35  13          0
+Affc 'reserved'   1  44  -1   3   2          0
+End
+
+#O
+Vnum 22506
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 22506
+Nest 1
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 1200
 End
 
 #O
@@ -459,21 +444,13 @@ Val  1 10 4 38 16
 End
 
 #O
-Vnum 22506
+Vnum 12010
 Nest 1
 PrevOwner Konrad~
+ExtF 1196065
 Cond 0
 Wear -1
-Cost 1200
-End
-
-#O
-Vnum 22506
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 1200
+Cost 15000
 End
 
 #O
@@ -487,242 +464,12 @@ Val  6 2 19 19 12
 End
 
 #O
-Vnum 16753
+Vnum 23513
 Nest 1
 PrevOwner Konrad~
 Cond 0
 Wear -1
-Cost 0
-End
-
-#O
-Vnum 4435
-Enchanted
-Nest 1
-PrevOwner Konrad~
-ExtF 67
-Cond 0
-Wear -1
-Lev  31
-Cost 2800
-Val  6 3 7 8 768
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-End
-
-#O
-Vnum 9227
-Enchanted
-Nest 1
-PrevOwner Konrad~
-ExtF 67
-Cond 0
-Wear -1
-Lev  32
-Cost 1630
-Val  2 7 3 11 514
-Affc 'reserved'   1  28  -1  -1   1          0
-Affc 'enchant weapon'   1  53  -1   6  19          0
-Affc 'enchant weapon'   0  53  -1   4  18          0
-End
-
-#O
-Vnum 9227
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 1630
-Val  2 7 3 11 514
-End
-
-#O
-Vnum 1929
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 60
-Val  2 3 6 41 520
-End
-
-#O
-Vnum 2419
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 2100
-Val  8 3 13 6 768
-End
-
-#O
-Vnum 6430
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 3900
-End
-
-#O
-Vnum 9227
-Enchanted
-Nest 1
-PrevOwner Konrad~
-ExtF 67
-Cond 0
-Wear -1
-Lev  31
-Cost 1630
-Val  2 7 3 11 514
-Affc 'enchant weapon'   0  53  -1   4  18          0
-Affc 'reserved'   1  28  -1  -1   1          0
-Affc 'enchant weapon'   1  53  -1   6  19          0
-End
-
-#O
-Vnum 18912
-Enchanted
-Nest 1
-PrevOwner Konrad~
-ExtF 67
-Cond 0
-Wear -1
-Lev  46
-Cost 5265
-Val  2 2 17 11 518
-Affc 'reserved'   1  40  -1  -1  20          0
-Affc 'reserved'   1  40  -1   0   0          0
-Affc 'enchant weapon'   1  52  -1   6  19          0
-Affc 'enchant weapon'   0  52  -1   6  18          0
-End
-
-#O
-Vnum 20410
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 100
-Val  0 2 2 2 512
-End
-
-#O
-Vnum 12083
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 32142
-End
-
-#O
-Vnum 12083
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 32142
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 22334
+Cost 6410
 End
 
 #O
@@ -735,12 +482,12 @@ Cost 8765
 End
 
 #O
-Vnum 12082
+Vnum 12083
 Nest 1
 PrevOwner Konrad~
 Cond 0
 Wear -1
-Cost 22334
+Cost 32142
 End
 
 #O
@@ -752,22 +499,6 @@ Cond 0
 Wear 16
 Cost 15300
 Val  1 9 4 11 40
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 11098
-Enchanted
-Nest 0
-PrevOwner Konrad~
-ExtF 67
-Cond 0
-Wear 19
-Lev  50
-Cost 437
-Val  1 9 4 3 9
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
 Affc 'sharpen'   5  51  -1   0   0          8
 End
 
@@ -809,141 +540,6 @@ Cost 710
 End
 
 #O
-Vnum 2409
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 3500
-End
-
-#O
-Vnum 2415
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 2414
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 3300
-End
-
-#O
-Vnum 2414
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 3300
-End
-
-#O
-Vnum 2419
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 2100
-End
-
-#O
-Vnum 10431
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 10431
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 10427
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 11800
-End
-
-#O
-Vnum 2412
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 2412
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 2415
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 2414
-Nest 1
-PrevOwner Bracus~
-Cond 0
-Wear -1
-Cost 3300
-End
-
-#O
-Vnum 2446
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 10441
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 6700
-End
-
-#O
-Vnum 2419
-Nest 1
-PrevOwner Konrad~
-Cond 0
-Wear -1
-Cost 2100
-End
-
-#O
 Vnum 10003
 Nest 0
 PrevOwner Konrad~
@@ -953,15 +549,76 @@ Cost 0
 End
 
 #O
-Vnum 3092
+Vnum 8503
+Nest 0
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 18105
+Nest 0
+PrevOwner Therman~
+Cond 0
+Wear 11
+Cost 4500
+End
+
+#O
+Vnum 11098
+Enchanted
+Nest 0
+PrevOwner Konrad~
+ExtF 67
+Cond 0
+Wear 19
+Lev  50
+Cost 437
+Val  1 9 4 3 9
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Konrad~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3040
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
 End
 
 #O
@@ -980,12 +637,61 @@ Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
-Vnum 8503
+Vnum 20410
 Nest 0
 PrevOwner Konrad~
 Cond 0
 Wear -1
-Cost 5000
+Cost 100
+Val  0 2 2 2 512
+End
+
+#O
+Vnum 4435
+Enchanted
+Nest 0
+PrevOwner Konrad~
+ExtF 67
+Cond 0
+Wear -1
+Lev  31
+Cost 2800
+Val  6 3 7 8 768
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
+Vnum 9227
+Enchanted
+Nest 0
+PrevOwner Konrad~
+ExtF 67
+Cond 0
+Wear -1
+Lev  31
+Cost 1630
+Val  2 7 3 11 514
+Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'reserved'   1  28  -1  -1   1          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
+End
+
+#O
+Vnum 1929
+Enchanted
+Nest 0
+PrevOwner Konrad~
+ExtF 67
+Cond 0
+Wear -1
+Lev  32
+Cost 60
+Val  2 3 6 41 520
+Affc 'reserved'   1  24  -1  10  12          0
+Affc 'reserved'   1  24  -1  -1   2          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #END

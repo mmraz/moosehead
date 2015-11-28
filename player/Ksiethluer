@@ -2,7 +2,7 @@
 Name Ksiethluer~
 Id   972446068
 Email (null)~
-LogO 1076601464
+LogO 1308454902
 Vers 31
 LnD  A Gladiator~
 Desc I AM SPECIAL, YES I AM!!!
@@ -36,12 +36,12 @@ Node 0
 Cap 0
 Created 972446246
 Glad 0 0 0 0 0 0
-LastHost c-67-161-223-235.client.comcast.net~
+LastHost 97.126.59.81~
 Cla  12
 ClaO 1
 Levl 35
 DLevl 0
-Plyd 97803
+Plyd 98073
 Not  976718844 976770144 972571379 1076367623 992145390 976788633 972571379 974052264 972571379 0
 Scro 22
 Rank 0
@@ -58,7 +58,7 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 56
-Trai 10
+Trai 16
 SkiP 9
 Save  -2
 Alig  -1000
@@ -68,7 +68,7 @@ SecHit   7
 SecDam   6
 ACs 53 51 51 64
 Wimp  47
-Attr 18 18 21 18 18 13 13 13
+Attr 18 18 21 18 18 10 10 13
 AMod 1 2 3 1 2 0 0 0
 Pass KsdmSCypeEgo.~
 Titl  is confused~
@@ -76,7 +76,7 @@ Pnts 76
 TSex 1
 LLev 26
 HMVP 406 619 239
-Cnd  0 44 46 0
+Cnd  0 46 40 39
 Alias dis c 'dispel good'~
 Alias or order skele rescue ksiethluer~
 Alias turn c 'turn undead'~
@@ -97,6 +97,7 @@ Sk 78 'cause critical'
 Sk 75 'cause light'
 Sk 78 'cause serious'
 Sk 1 'change sex'
+Sk 1 'cone of silence'
 Sk 75 'continual light'
 Sk 1 'control weather'
 Sk 75 'create food'
@@ -534,7 +535,7 @@ PrevOwner Ksiethluer~
 Cond 0
 Wear 17
 Cost 1000
-Val  20 5 3 54 0
+Val  20 5 3 55 0
 Spell 3 'cure critical'
 End
 
@@ -593,7 +594,7 @@ PrevOwner Bogus~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 156 0 0
+Val  0 0 150 0 0
 End
 
 #O
@@ -641,17 +642,8 @@ Cond 0
 Wear -1
 Lev  35
 Cost 0
-Affc 'enchant weapon'   1  51  -1   7  19          0
 Affc 'enchant weapon'   1  51  -1   8  18          0
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
+Affc 'enchant weapon'   1  51  -1   7  19          0
 End
 
 #O

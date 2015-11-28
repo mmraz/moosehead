@@ -2,8 +2,8 @@
 Name Rant~
 Id   942130370
 Email (null)~
-LogO 953479172
-Vers 21
+LogO 1307754937
+Vers 31
 Desc List of things that piss me off:
 
 Typing in this list AGAIN
@@ -109,56 +109,63 @@ MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1307754585
+LstKillDate 1307754585
+LstDeathDate 1307754585
+LoginsWOKill 1
+LoginsWODeath 1
+LoginsWOCombat 1
+Bnty 0
 Deity 0 xochipili~
-Sac  223
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 951452106
+Glad 0 0 0 0 0 0
+LastHost 24.36.196.193~
 Cla  4
 Kit acrobat~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 84794
-Not  953476453 943440636 942727704 953476424 953476448 953476444 944508846 953476471 0
+Plyd 85138
+Not  953476453 943440636 942727704 953476424 953476448 953476444 944508846 953476471 0 0
 Scro 22
 Rank 0
 Room 31603
-HMV  1037 1037 710 710 463 463
+HMV  1007 1007 665 665 333 333
 Gold 1242
 Silv 17859
 Exp  204000
 Act  CDEFGHd
-AfBy J
+MHSF R
 Comm DFGRSc
 Disp BFIJ
 IcgB 0
 Icg 0
 Pos  4
 Prac 24
-Save  -1
+Trai 10
 Alig  -893
-Hit   9
-Dam   16
-SecHit   9
-SecDam   16
-ACs 2 2 2 2
+ACs 100 100 100 100
 Wimp  50
-Attr 18 18 19 19 16
-AMod 4 1 2 4 0
-Pass Ra4pBcunEoFV2~
+Attr 18 18 19 19 16 13 13 13
+AMod 0 0 0 0 0 0 0 0
+Pass Sn0IedAlChx7k~
 Titl  with the thunder of God's own fury!~
 Pnts 80
 TSex 1
 LLev 21
 HMVP 1007 665 333
-Cnd  0 0 4 0
+Cnd  0 0 0 0
 Alias cc cast curse~
 Alias bb c bli~
 Alias cb c 'cure blind'~
@@ -190,6 +197,7 @@ Sk 71 'cancellation'
 OldSk 1 'cancellation'
 Sk 1 'change sex'
 OldSk 1 'change sex'
+Sk 1 'cone of silence'
 Sk 1 'continual light'
 OldSk 1 'continual light'
 Sk 1 'control weather'
@@ -263,10 +271,10 @@ Sk 1 'fireproof'
 OldSk 1 'fireproof'
 Sk 71 'flamestrike'
 OldSk 1 'flamestrike'
-Sk 71 'fly'
-OldSk 1 'fly'
 Sk 1 'floating disc'
 OldSk 1 'floating disc'
+Sk 71 'fly'
+OldSk 1 'fly'
 Sk 1 'forget'
 OldSk 1 'forget'
 Sk 71 'frenzy'
@@ -325,6 +333,7 @@ Sk 71 'shield'
 OldSk 1 'shield'
 Sk 71 'slow'
 OldSk 1 'slow'
+Sk 71 'smoke screen'
 Sk 71 'stone skin'
 OldSk 1 'stone skin'
 Sk 71 'summon'
@@ -343,10 +352,10 @@ Sk 1 'animate dead'
 Sk 71 'summon dead'
 Sk 1 'cryogenesis'
 Sk 1 'draw life'
+Sk 1 'make bag'
 Sk 71 'turn undead'
 Sk 71 'withstand death'
 Sk 1 'wound transfer'
-Sk 71 'smoke screen'
 Sk 99 'dagger'
 OldSk 99 'dagger'
 Sk 49 'flail'
@@ -399,6 +408,7 @@ End
 #O
 Vnum 4436
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5000
@@ -407,6 +417,7 @@ End
 #O
 Vnum 4436
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5000
@@ -415,8 +426,9 @@ End
 #O
 Vnum 3726
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 Val  100 1 0 10 85
 End
@@ -424,6 +436,7 @@ End
 #O
 Vnum 2731
 Nest 1
+PrevOwner (null)~
 ExtF 151257153
 Cond 0
 Wear -1
@@ -434,6 +447,7 @@ End
 #O
 Vnum 9224
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 200
@@ -443,10 +457,11 @@ End
 #O
 Vnum 5709
 Nest 0
+PrevOwner (null)~
 ExtF 134217728
 Wt   33
 Cond 0
-Wear 8
+Wear -1
 Cost 0
 Val  2 2 2 2 3
 End
@@ -454,6 +469,7 @@ End
 #O
 Vnum 9573
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 820
@@ -463,6 +479,7 @@ End
 #O
 Vnum 9573
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 820
@@ -472,22 +489,25 @@ End
 #O
 Vnum 8509
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 0
 End
 
 #O
 Vnum 8510
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 18
+Wear -1
 Cost 200
 End
 
 #O
 Vnum 17611
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10
@@ -496,6 +516,7 @@ End
 #O
 Vnum 17611
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10
@@ -504,6 +525,7 @@ End
 #O
 Vnum 17611
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10
@@ -512,6 +534,7 @@ End
 #O
 Vnum 17611
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10
@@ -520,6 +543,7 @@ End
 #O
 Vnum 8503
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5000
@@ -528,6 +552,7 @@ End
 #O
 Vnum 8504
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 6000
@@ -536,60 +561,67 @@ End
 #O
 Vnum 5937
 Nest 0
+PrevOwner (null)~
 ExtF 134217728
 Wt   38
 Wrp 1
 Cond 0
-Wear 9
+Wear -1
 Cost 4000
 End
 
 #O
 Vnum 1395
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 3
+Wear -1
 Cost 1970
 End
 
 #O
 Vnum 1395
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 4
+Wear -1
 Cost 1970
 End
 
 #O
 Vnum 2505
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 1150
 End
 
 #O
 Vnum 2505
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 15
+Wear -1
 Cost 1150
 End
 
 #O
 Vnum 17631
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 250
 End
 
 #O
 Vnum 8722
 Nest 0
+PrevOwner (null)~
 ExtF 134217792
 Cond 0
-Wear 6
+Wear -1
 Cost 5500
 Val  8 8 8 3 3
 End
@@ -597,9 +629,10 @@ End
 #O
 Vnum 6716
 Nest 0
+PrevOwner (null)~
 ExtF 150994944
 Cond 0
-Wear 7
+Wear -1
 Cost 3750
 Val  9 10 9 3 3
 End
@@ -607,8 +640,9 @@ End
 #O
 Vnum 2301
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 5
+Wear -1
 Cost 4200
 End
 
@@ -616,11 +650,12 @@ End
 Vnum 2727
 Enchanted
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 16
+Wear -1
 Cost 3600
-Affc 'enchant weapon'   1  52  -1   3  18          0
 Affc 'enchant weapon'   1  52  -1   2  19          0
+Affc 'enchant weapon'   1  52  -1   3  18          0
 End
 
 #END

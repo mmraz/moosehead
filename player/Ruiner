@@ -2,8 +2,8 @@
 Name Ruiner~
 Id   922425558
 Email (null)~
-LogO 1100244165
-Vers 31
+LogO 1444272719
+Vers 33
 ShD  .~
 LnD  .
 ~
@@ -25,6 +25,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Randal~
 LstKBy no one~
 LstAtkedBy no one~
@@ -36,6 +37,12 @@ LoginsWOKill 6
 LoginsWODeath 6
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 mojo~
 DeityT -2736 mojo~
 Sac  300
@@ -45,55 +52,55 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost pcp04908509pcs.benslm01.pa.comcast.net~
+LastHost 71.188.107.225~
 Cla  0
 ClaO 0
-Levl 58
+Levl 52
 DLevl 0
-Plyd 3347367
-Not  1044566217 1044566217 1044566217 1044566217 1044566217 1044567346 1044566217 1044566217 1069127085 1044566217
+Plyd 3370864
+Not  1311262664 1311254840 1312241617 1311002417 1311055724 1314303809 1311221328 1311197398 1314375757 1311216437
 Scro 18
 Rank 3
 Room 16591
-HMV  25020 25020 5681 5681 748 748
+HMV  5827 5827 5683 5683 1124 1124
 Gold 8630
 Silv 10825
-Exp  63800
-Act  CDEFGHNe
+Exp  55000
+Act  CDEFGHe
 MHSF I
 AfBy DFHJNTVace
-Comm S
+Comm JS
 Disp FHIJM
-IcgB NPTVY
-Icg 3
-Wizn ACDEFIJLNOQRSTUXb
-Invi 58
+IcgB 0
+Icg 0
 Pos  8
-Prac 232
-Trai 129
-SkiP 161
+Prac 398
+Trai 301
+SkiP 166
 Save  -174
 Alig  -467
 Hit   75
 Dam   79
 SecDam   4
 ACs -717 -717 -717 -706
-Attr 13 16 15 13 13 13 13 13
+Attr 13 16 15 13 13 11 11 13
 AMod 21 5 -2 20 20 0 0 0
 Pass Ru0Z82a4E5YpQ~
 Bin  The temperature in the room drops, the hairs on the back of your neck rise.  Ruiner has come for you.~
 Bout The Temerature in the room returns to normal, the hairs on the back of your neck settle.  Ruiner has left you in peace.~
-Titl .~
+Titl  is lost in this old new world.~
 Pnts 40
 WhoName >>>>>|<<<<<<~
 TSex 1
-LLev 1
-HMVP 20000 661 448
+LLev 934
+HMVP 607 663 824
 Cnd  0 42 45 45
 Edit ABCEH
 ERange 16591 16591
 ERange 25000 25099
 Alias cl ca 'cure light'~
+Alias test emote line 1 ; emote line 2~
+Alias {test} {emote line 1~
 Macro recall goto 3001~
 Macro hom goto 16591~
 Macro home goto 16591~
@@ -134,7 +141,6 @@ Sk 100 'change sex'
 Sk 100 'charm person'
 Sk 100 'chill touch'
 Sk 100 'colour spray'
-Sk 1 'cone of silence'
 Sk 100 'continual light'
 Sk 100 'control weather'
 Sk 100 'create food'
@@ -345,6 +351,7 @@ Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
+Affc 'symbol iii'   0 154  38 200  13          0
 End
 
 #O
@@ -835,15 +842,6 @@ Spell 3 'shield'
 End
 
 #O
-Vnum 8504
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
 Vnum 22015
 Nest 1
 PrevOwner (null)~
@@ -854,33 +852,12 @@ Spell 3 'cure critical'
 End
 
 #O
-Vnum 4312
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 50
-End
-
-#O
 Vnum 22044
 Nest 1
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
-End
-
-#O
-Vnum 15
-Nest 1
-PrevOwner (null)~
-ShD  the leg of Hannah~
-Desc The sliced-off leg of Hannah is lying here.~
-Ityp 13
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -932,15 +909,6 @@ Spell 3 'faerie fog'
 End
 
 #O
-Vnum 4438
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 15223
 Nest 1
 PrevOwner (null)~
@@ -963,33 +931,12 @@ Spell 3 'shield'
 End
 
 #O
-Vnum 3033
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 30
-End
-
-#O
 Vnum 5028
 Nest 1
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2000
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner (null)~
-Name badge merrit~
-ShD  A Kickass Wingman Merrit Badge~
-Desc A Kickass Wingman Merrit Badge certified by Prowler has been left here.~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -1167,6 +1114,73 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2000
+End
+
+#O
+Vnum 15
+Nest 1
+PrevOwner (null)~
+ShD  the leg of Hannah~
+Desc The sliced-off leg of Hannah is lying here.~
+Ityp 13
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner (null)~
+Name Throbbing Cock Nob~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 3033
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 30
+End
+
+#O
+Vnum 4312
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 50
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 6517
+Nest 0
+PrevOwner (null)~
+Name badge merrit~
+ShD  A Kickass Wingman Merrit Badge~
+Desc A Kickass Wingman Merrit Badge certified by Prowler has been left here.~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

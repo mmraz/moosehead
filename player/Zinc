@@ -2,20 +2,21 @@
 Name Zinc~
 Id   953673547
 Email (null)~
-LogO 1132244762
-Vers 31
+LogO 1443386031
+Vers 33
 Desc . 
 ~
-Prom <%hhp %mmn %vMV %e %r> ~
+Prom < %R - %r - %z > ~
 Race half-elf~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,40 +28,49 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 136086535 matook~
 DeityT -1123 matook~
-Sac  270
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 953673566
 Glad 0 0 0 0 0 0
-LastHost ets6.newqc.com~
+LastHost 192.168.1.1~
 Cla  14
 ClaO 3
-Levl 51
+Levl 59
 DLevl 0
-Plyd 136135341
-Not  1117399202 1117522808 1019512451 1117512247 1110312209 1117459562 1019512451 1116222987 1019512451 1089575364
+Plyd 136232316
+Not  1309189810 1308705798 1308381766 1309976277 1110312209 1309052495 1309196264 1308742348 1309395218 1308936986
 Scro 22
 Rank 0
-Room 3054
-HMV  1026 1026 435 435 400 400
-Gold 469
-Silv 11990
-Exp  111593
+Room 10392
+HMV  1167 1167 480 480 472 472
+Gold 432
+Silv 13671
+Exp  131100
 Act  CDEFGHIM
 MHSF R
 AfBy JT
-Comm DFGJSTc
-Disp FGIJ
+Comm FGIJSTZ
+Disp FGIJN
 IcgB 0
 Icg 0
-Pnet FG
-Pos  8
-Prac 74
-SkiP 10
+Wizn A
+Pnet AFG
+Invi 59
+Pos  4
+Prac 110
+Trai 27
+SkiP 68
 Save  -7
 Alig  1000
 Hit   30
@@ -69,15 +79,15 @@ SecHit   29
 SecDam   53
 ACs -4 -6 -4 27
 Wimp  15
-Attr 20 19 18 19 17 20 20 16
+Attr 20 19 18 19 17 11 11 16
 AMod 4 -1 4 1 0 0 0 0
-Pass ZiRAUNMCfb7XQ~
-Titl  {x~
+Pass Zi56o/gVZTRU2~
+Titl .~
 Pnts 58
 TSex 1
-LLev 37809
-HMVP 991 375 400
-Cnd  0 16 18 18
+LLev 37817
+HMVP 1132 420 472
+Cnd  0 0 21 21
 Alias k kill~
 Sk 1 'aid'
 Sk 51 'armor'
@@ -100,6 +110,7 @@ Sk 77 'frenzy'
 Sk 78 'gate'
 Sk 91 'heal'
 Sk 1 'holy word'
+Sk 100 'identify'
 Sk 1 'knock'
 Sk 41 'mass healing'
 Sk 75 'nexus'
@@ -217,17 +228,8 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  53 34 -1 -1 -1
+Val  53 37 -1 -1 -1
 Spell 1 'charm person'
-End
-
-#O
-Vnum 1395
-Nest 1
-PrevOwner Zinc~
-Cond 0
-Wear -1
-Cost 1970
 End
 
 #O
@@ -237,7 +239,7 @@ PrevOwner Zinc~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 5 161 0
+Val  52 10 5 166 0
 Spell 3 'remove curse'
 End
 
@@ -387,24 +389,6 @@ Cost 5300
 End
 
 #O
-Vnum 22044
-Nest 1
-PrevOwner Zinc~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Zinc~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
 Vnum 22015
 Nest 1
 PrevOwner Zinc~
@@ -415,12 +399,94 @@ Spell 3 'cure critical'
 End
 
 #O
-Vnum 22044
+Vnum 4440
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4439
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4438
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2505
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 2504
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1160
+End
+
+#O
+Vnum 23144
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4200
+End
+
+#O
+Vnum 23144
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4200
+End
+
+#O
+Vnum 3030
 Nest 1
 PrevOwner Zinc~
 Cond 0
 Wear -1
-Cost 100000
+Cost 4
+Val  0 0 33 0 0
+End
+
+#O
+Vnum 10423
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3400
+End
+
+#O
+Vnum 10423
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3400
 End
 
 #O
@@ -618,7 +684,6 @@ Name Vanquisher sun blade~
 ShD  Vanquisher~
 Desc A brutally sharp sword, Vanquisher is forged from the hardest metal.  Runes cover the glowing blade, protecting it from damage and providing a terrible power to the wielder.~
 ExtF 67
-Stolen 15
 Cond 0
 Wear 16
 Cost 6800
@@ -636,40 +701,30 @@ Cost 0
 End
 
 #O
-Vnum 10423
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3400
-End
-
-#O
-Vnum 10423
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3400
-End
-
-#O
-Vnum 3030
+Vnum 1395
 Nest 0
 PrevOwner Zinc~
 Cond 0
 Wear -1
-Cost 4
-Val  0 0 33 0 0
+Cost 1970
 End
 
 #O
-Vnum 23144
+Vnum 3377
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 4200
+Cost 10000
+End
+
+#O
+Vnum 1206
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 10
 End
 
 #END

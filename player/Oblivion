@@ -2,23 +2,35 @@
 Name Oblivion~
 Id   842080720
 Email (null)~
-LogO 981845433
-Vers 27
+LogO 1352094961
+Vers 33
 Prom %hhp %mmana %vmv %Xexp %ggold %Ssac %eexit ~
 Race human~
 Clan demise~
 Outc 0
-RufT 300
+RufT 291
 MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 3 5 139
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK Selan~
 LstKBy Canaris~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1350628630
+LstKillDate 1350628630
+LstDeathDate 1350628630
+LoginsWOKill 4
+LoginsWODeath 4
+LoginsWOCombat 4
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 76294 hermes~
 Sac  225
 Sex  1
@@ -27,49 +39,49 @@ Node 0
 Cap 0
 Created 952905461
 Glad 0 0 0 0 0 0
-LastHost m8-mp1-cvx1b.swi.ntl.com 759762~
+LastHost 121.219.51.212~
 Cla  14
-Kit buffy~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 152288
-Not  951071127 951290394 0 951285705 953156742 951330508 946721528 978228501 0
+Plyd 152681
+Not  951071127 951290394 0 951285705 953156742 951330508 946721528 978228501 0 0
 Scro 22
 Rank 2
 Room 31403
-HMV  1245 1245 340 380 419 419
+HMV  1245 1245 360 360 419 419
 Gold 360
 Silv 4
 Exp  408000
 Act  CDEFGHQRSd
-MHSF SU
-AfBy CDFHT
+MHSF RS
+AfBy CDFT
 Comm FGOR
 Disp FIJ
 IcgB 0
 Icg 0
 Wizn W
 Pos  8
-Prac 9
+Prac 109
+Trai 10
 SkiP 28
-Save  -15
+Save  -13
 Alig  -38
-Hit   24
-Dam   44
-SecHit   22
-SecDam   44
-ACs -72 -72 -72 -37
+Hit   20
+Dam   40
+SecHit   18
+SecDam   40
+ACs -58 -58 -58 -29
 Wimp  50
-Attr 21 18 18 18 18
-AMod 6 2 6 2 0
-Pass ObELsQKdWErF2~
-Titl  "Those who are about to die salute you!"~
+Attr 21 18 18 18 18 13 13 13
+AMod 6 2 6 2 0 0 0 0
+Pass Oby55cQDKEJys~
+Titl .~
 Pnts 100
 TSex 1
 LLev 17
 HMVP 1245 367 384
-Cnd  0 0 19 26
+Cnd  0 0 10 17
 Alias r recall~
 Alias f flee~
 Alias wo c word~
@@ -142,9 +154,9 @@ OldSk 1 'fireball'
 Sk 36 'fireproof'
 OldSk 1 'fireproof'
 OldSk 1 'flamestrike'
+OldSk 1 'floating disc'
 Sk 36 'fly'
 OldSk 1 'fly'
-OldSk 1 'floating disc'
 OldSk 1 'forget'
 Sk 42 'frenzy'
 OldSk 1 'frenzy'
@@ -281,12 +293,11 @@ Gr 'benedictions'
 Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
-Affc 'sanctuary'   0  37   3   0   0        128
-Affc 'armor'   0  49  18 -20  17          0
-Affc 'shield'   0  35  29 -20  17          0
-Affc 'stone skin'   0  36  22 -40  17          0
-Affc 'bless'   0  46  41   6  18          0
-Affc 'bless'   0  50  41  -6  24          0
+Affc 'armor'   0  48   9 -20  17          0
+Affc 'shield'   0  33  20 -20  17          0
+Affc 'stone skin'   0  32  13 -40  17          0
+Affc 'bless'   0  43  32   6  18          0
+Affc 'bless'   0  50  32  -6  24          0
 End
 
 #O
@@ -296,15 +307,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 4823
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4500
 End
 
 #O
@@ -449,7 +451,7 @@ Nest 1
 PrevOwner Oblivion~
 Cond 0
 Wear -1
-Time 640
+Time 631
 Cost 0
 Spell 1 'frenzy'
 Spell 2 'haste'
@@ -615,7 +617,7 @@ Nest 0
 PrevOwner (null)~
 ExtF 1121
 Cond 0
-Wear 2
+Wear 1
 Cost 6900
 End
 
@@ -700,7 +702,7 @@ Vnum 911
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 1
+Wear 2
 Cost 6900
 End
 
@@ -765,7 +767,7 @@ PrevOwner Oblivion~
 ExtF 134217792
 Wt   40
 Cond 0
-Wear 6
+Wear -1
 Cost 4000
 Val  7 7 7 4 3
 End
@@ -775,7 +777,7 @@ Vnum 20740
 Nest 0
 PrevOwner Oblivion~
 Cond 0
-Wear 17
+Wear -1
 Cost 4500
 End
 
@@ -784,7 +786,7 @@ Vnum 17631
 Nest 0
 PrevOwner Oblivion~
 Cond 0
-Wear 0
+Wear -1
 Cost 250
 End
 
@@ -793,17 +795,8 @@ Vnum 10424
 Nest 0
 PrevOwner Oblivion~
 Cond 0
-Wear -1
+Wear 6
 Cost 5500
-End
-
-#O
-Vnum 12004
-Nest 0
-PrevOwner Oblivion~
-Cond 0
-Wear -1
-Cost 40
 End
 
 #O
@@ -831,20 +824,11 @@ Affc 'enchant weapon'   0  53  -1   7  18          0
 End
 
 #O
-Vnum 20818
-Nest 0
-PrevOwner Oblivion~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
 Vnum 3040
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 17
 Cost 890
 Spell 1 'identify'
 End
@@ -862,6 +846,33 @@ Cost 1700
 Affc 'enchant weapon'   0  53  -1   5  18          0
 Affc 'reserved'   1  44  -1   2   2          0
 Affc 'enchant weapon'   1  53  -1   7  19          0
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner Oblivion~
+Cond 0
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 20818
+Nest 0
+PrevOwner Oblivion~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 4823
+Nest 0
+PrevOwner Oblivion~
+Cond 0
+Wear -1
+Cost 4500
 End
 
 #END

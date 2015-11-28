@@ -2,8 +2,8 @@
 Name Toni~
 Id   969602694
 Email (null)~
-LogO 1083757887
-Vers 31
+LogO 1325780193
+Vers 33
 LnD  A Gladiator~
 Desc Mummies Rock!
 ~
@@ -12,12 +12,13 @@ Race faerie~
 Clan matook~
 Outc 0
 RufT 0
-MatookT 8128
+MatookT 8398
 SkPTimer 0
-SkPTracker 8
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -29,57 +30,62 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 460611 matook~
 DeityT -2970 matook~
-Sac  300
+Sac  298
 Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 969602703
 Glad 0 0 0 1 0 1
-LastHost 146.230.45.166~
+LastHost 41.133.231.226~
 Cla  11
 Kit alchemist~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 876679
-Not  1059632720 996258665 980839928 1014253276 1048445018 1047766994 980839928 1047814442 980839928 1045174385
+Plyd 887773
+Not  1323282766 1323524488 980839928 1014253276 1048445018 1323670385 980839928 1323112705 980839928 1323871325
 Scro 22
 Rank 0
-Room 12049
-HMV  303 830 284 1318 360 379
-Gold 90
-Silv 48
+Room 12047
+HMV  283 830 970 1318 379 379
+Gold 393
+Silv 82
 Exp  171495
-Act  BDGMO
+Act  BCDGMO
 MHSF R
-AfBy CDFJT
-Comm DEGIL
+AfBy CDFJTW
+Comm GL
 Disp FGIJ
 IcgB 0
 Icg 0
+Pnet ABCDEFGHI
 Pos  8
 Prac 19
-Trai 1
-SkiP 56
+Trai 6
+SkiP 64
 Save  -6
 Alig  -1000
-Hit   20
-Dam   14
+Hit   15
+Dam   9
 SecHit   15
 SecDam   9
-ACs 16 16 21 38
-Attr 13 25 22 25 13 13 13 22
-AMod 0 0 0 2 2 0 0 3
+ACs 56 56 61 64
+Attr 13 25 22 25 13 17 8 22
+AMod 0 2 0 5 2 0 0 3
 Pass ToE8.lENbLJx2~
-Titl ....~
+Titl  just woke up.~
 Pnts 68
 TSex 2
 LLev 1
 HMVP 600 1133 379
-Cnd  0 32 45 45
+Cnd  0 24 36 47
 Alias o order all~
 Alias m c acid~
 Alias k c charm ~
@@ -217,8 +223,6 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'mummy'
-Affc 'shield'   0  49  37 -20  17          0
-Affc 'armor'   0  47  13 -20  17          0
 End
 
 #O
@@ -226,19 +230,20 @@ Vnum 23506
 Enchanted
 Nest 0
 PrevOwner Toni~
-ExtF 537399378
+ExtF 537395282
 Cond 0
-Wear 16
+Wear -1
 Lev  48
 Cost 170
-Affc 'enchant weapon'   0  53  -1   5  18          0
 Affc 'enchant weapon'   1  53  -1   5  19          0
+Affc 'enchant weapon'   0  53  -1   5  18          0
 End
 
 #O
 Vnum 20733
 Nest 0
 PrevOwner Toni~
+Damaged 47
 Cond 0
 Wear 15
 Cost 3000
@@ -317,15 +322,6 @@ Cost 2000
 End
 
 #O
-Vnum 18119
-Nest 0
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
 Vnum 20730
 Nest 0
 PrevOwner Toni~
@@ -335,29 +331,11 @@ Cost 6100
 End
 
 #O
-Vnum 2410
-Nest 0
-PrevOwner Byter~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
 Vnum 17648
 Nest 0
 PrevOwner Toni~
 Cond 0
 Wear 13
-Cost 4000
-End
-
-#O
-Vnum 5914
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
 Cost 4000
 End
 
@@ -398,15 +376,6 @@ Cost 6000
 End
 
 #O
-Vnum 6420
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 3500
-End
-
-#O
 Vnum 1329
 Nest 1
 PrevOwner Toni~
@@ -414,25 +383,6 @@ Cond 0
 Wear -1
 Cost 1640
 Spell 3 'bless'
-End
-
-#O
-Vnum 1374
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
-Vnum 1375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3800
-Spell 3 'fireball'
 End
 
 #O
@@ -469,7 +419,7 @@ PrevOwner Toni~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 207 -1 -1 -1
+Val  51 211 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -480,7 +430,7 @@ PrevOwner Toni~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 207 -1 -1 -1
+Val  51 211 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -491,7 +441,7 @@ PrevOwner Toni~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 207 -1 -1 -1
+Val  51 211 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -502,51 +452,6 @@ PrevOwner Toni~
 Cond 0
 Wear -1
 Cost 5700
-End
-
-#O
-Vnum 6411
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 5600
-End
-
-#O
-Vnum 6411
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 5600
-End
-
-#O
-Vnum 6415
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 9000
-End
-
-#O
-Vnum 6420
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 3500
-End
-
-#O
-Vnum 6419
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 8400
 End
 
 #O
@@ -587,15 +492,6 @@ Val  64 32 0 0 0
 End
 
 #O
-Vnum 2320
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 1950
-End
-
-#O
 Vnum 922
 Nest 1
 PrevOwner Toni~
@@ -625,15 +521,6 @@ Cost 1700
 End
 
 #O
-Vnum 18105
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
 Vnum 8504
 Nest 1
 PrevOwner Toni~
@@ -643,40 +530,12 @@ Cost 6000
 End
 
 #O
-Vnum 6415
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 9000
-End
-
-#O
-Vnum 20738
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 4850
-End
-
-#O
 Vnum 9322
 Nest 1
 PrevOwner Toni~
 Cond 0
 Wear -1
 Cost 1690
-End
-
-#O
-Vnum 3402
-Nest 1
-PrevOwner Toni~
-ExtF 0
-Cond 0
-Wear -1
-Cost 540
 End
 
 #O
@@ -851,15 +710,6 @@ Cost 0
 End
 
 #O
-Vnum 2421
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 20403
 Nest 1
 PrevOwner Toni~
@@ -890,10 +740,10 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1100
-Affc 'reserved'   1  47  -1  -2   5          0
-Affc 'reserved'   1  47  -1   1   3          0
-Affc 'reserved'   1  47  -1   3  18          0
 Affc 'enchant armor'   1  53  -1  -7  17          0
+Affc 'reserved'   1  47  -1   3  18          0
+Affc 'reserved'   1  47  -1   1   3          0
+Affc 'reserved'   1  47  -1  -2   5          0
 End
 
 #O
@@ -904,7 +754,7 @@ ExtF 353
 Cond 0
 Wear -1
 Cost 6500
-Val  51 3 2 148 0
+Val  51 3 2 152 0
 Spell 3 'plague'
 End
 
@@ -946,30 +796,12 @@ Cost 1520
 End
 
 #O
-Vnum 18106
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
 Vnum 10027
 Nest 1
 PrevOwner Toni~
 Cond 0
 Wear -1
 Cost 1000
-End
-
-#O
-Vnum 10423
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 3400
 End
 
 #O
@@ -989,15 +821,6 @@ PrevOwner Toni~
 Cond 0
 Wear -1
 Cost 6400
-End
-
-#O
-Vnum 10032
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 1700
 End
 
 #O
@@ -1026,15 +849,6 @@ PrevOwner Toni~
 Cond 0
 Wear -1
 Cost 6740
-End
-
-#O
-Vnum 20734
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 6100
 End
 
 #O
@@ -1084,7 +898,7 @@ Nest 1
 PrevOwner Toni~
 Cond 0
 Wear -1
-Time 274
+Time 3
 Cost 800
 Spell 1 'cure light'
 Spell 2 'cure light'
@@ -1110,30 +924,23 @@ Cost 1200
 End
 
 #O
-Vnum 22506
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 1200
-End
-
-#O
-Vnum 22507
-Nest 1
-PrevOwner Toni~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 16753
 Nest 1
 PrevOwner Toni~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Toni~
+Cond 0
+Wear -1
+Cost 7000
+Val  51 211 -1 -1 -1
+Spell 1 'vision'
 End
 
 #O
@@ -1150,7 +957,7 @@ Vnum 10426
 Nest 0
 PrevOwner Toni~
 Cond 0
-Wear 12
+Wear -1
 Cost 18300
 End
 
@@ -1170,6 +977,70 @@ PrevOwner Toni~
 Cond 0
 Wear -1
 Cost 10000
+End
+
+#O
+Vnum 22507
+Nest 0
+PrevOwner Toni~
+Cond 0
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 2421
+Nest 0
+PrevOwner Toni~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 663
+Nest 0
+PrevOwner Toni~
+Cond 0
+Wear -1
+Cost 9000
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 13003
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6011
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8541
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner Estimated~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

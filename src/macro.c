@@ -140,6 +140,16 @@ bool check_macro ( CHAR_DATA *ch, char *argument )
       buf2[len]   = '\n';       
       buf2[len+1] = 1;                /* signals end of macro */      
       buf2[len+2] = NULL;
+
+      if(len + 4 + strlen(ch->desc->inbuf) > MAX_STRING_LENGTH)
+      {// Protection from far too long input buffers
+			  sprintf( log_buf, "%s input overflow!", ch->desc->host );
+			  log_string( log_buf );
+			  write_to_descriptor( ch->desc->descriptor,
+			      "\n\r*** PUT A LID ON IT!!! ***\n\r", 0, ch->desc );
+      	return FALSE;
+      }
+
       strcat (buf2,ch->desc->inbuf);  /* make sure extra commands are after macro */
       strcpy (ch->desc->inbuf,buf2);  /* also needed for macros inside of macros */
      /* for (cnt = 0; cnt < 100; cnt++)

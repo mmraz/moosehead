@@ -1,10 +1,9 @@
 #PLAYER
 Name Galstaff~
-SurN Sorcerer~
 Id   1079587026
 Email (null)~
-LogO 1110513456
-Vers 31
+LogO 1444489636
+Vers 33
 LnD  A Gladiator~
 Desc Here stands Galstaff, Sorcerer of light, swinging a very unmagical
 sword, which a blacksmith whom he is going to kill, sold him.
@@ -13,78 +12,86 @@ Desc Here stands Galstaff, Sorcerer of light, swinging a very unmagical
 "He was lying!" I say "He said he never tells a lie!" you say "He
 was lying when he said that!" I say "Dude!!!"
 ~
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+Prom %e %t %g:GP %s:SP %w%c%h/%H:HP %m/%M:MP %v/%V:MV % ~
 Race human~
 Clan zealot~
 Outc 0
-RufT 0
+RufT 323
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
-Kill 1 0 3 3
+Kill 2 2 3 5
 Steal 0 0 0
-LstK Envec~
-LstKBy Marle~
+MSteal 0
+LstK Pinkninja~
+LstKBy Noran~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1110501076
-LstKillDate 1104438831
-LstDeathDate 1108614771
-LoginsWOKill 66
+LstCombatDate 1312265081
+LstKillDate 1310194246
+LstDeathDate 1310455944
+LoginsWOKill 10
 LoginsWODeath 4
-LoginsWOCombat 1
+LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 1
+QuestWins 2 0
 Deity 149339 almighty~
 Sac  300
 Sex  0
-Vump  0
+Vump  1
 Node 0
 Cap 0
 Created 1079587201
 Glad 0 0 0 0 2 0
-LastHost CPE-65-28-180-108.neb.rr.com~
+LastHost 173.215.8.171~
 Cla  12
 Kit vindicator~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 224230
-Not  1110500561 1110500561 1110500561 1110500561 1110500561 1110500561 1110500561 1110500561 1110500561 1110500561
+Plyd 262305
+Not  1444489282 1365212221 1365212221 1365212221 1365212221 1444346353 1365212221 1365212221 1365212221 1365212221
 Scro 22
 Rank 1
-Room 31816
-HMV  1124 1152 398 821 604 618
-Gold 1370
-Silv 908
+Room 31804
+HMV  1257 1257 727 881 618 618
+Gold 1306
+Silv 3945
 Exp  653095
-Act  CDGHIKQS
-MHSF RU
-AfBy CDEFZ
+Act  DGHIKQ
+MHSF RSU
+AfBy CDEFc
 Comm ST
-Disp FIJN
+Disp FIJLN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-SkiP 68
-Save  -18
-Alig  956
-Hit   37
-Dam   34
-SecHit   25
-SecDam   22
-ACs 78 84 86 126
+Prac 26
+SkiP 17
+Save  -20
+Alig  828
+Hit   24
+Dam   26
+SecHit   24
+SecDam   24
+ACs -16 -10 -13 27
 Wimp  5
-Attr 18 18 21 18 18 18 18 24
-AMod 5 2 2 0 5 0 0 3
+Attr 18 18 21 18 18 10 10 25
+AMod 5 4 2 3 5 0 0 3
 Pass GaqYQiVUBSOno~
-Titl  of Light, "He said it was a magical sword!"~
+Titl , Sorcerer of light!~
 Pnts 112
 TSex 1
 LLev 54
-HMVP 902 711 618
-Cnd  0 12 20 20
+HMVP 1052 711 618
+Cnd  0 43 43 43
 Alias qq scan~
 Alias 1 put all back~
 Alias 12 a ring of charm which adds a +10 to all convincing rolls!~
@@ -94,12 +101,15 @@ Alias roar emote tries to roar.... but fails.~
 Alias fog c 'faerie fog'~
 Alias hi murder~
 Alias f c 'famine'~
-Sk 81 'aid'
+Alias b bleed~
+Alias kk c hold kerb~
+Alias fearless fool east south 3.gnoll~
+Sk 95 'aid'
 Sk 76 'armor'
 Sk 71 'bestow holiness'
-Sk 85 'bless'
-Sk 84 'blindness'
-Sk 73 'body weaponry'
+Sk 87 'bless'
+Sk 87 'blindness'
+Sk 76 'body weaponry'
 Sk 71 'call lightning'
 Sk 1 'calm'
 Sk 85 'cancellation'
@@ -107,7 +117,6 @@ Sk 1 'cause critical'
 Sk 1 'cause light'
 Sk 1 'cause serious'
 Sk 1 'change sex'
-Sk 1 'cone of silence'
 Sk 75 'continual light'
 Sk 1 'control weather'
 Sk 71 'create food'
@@ -116,29 +125,29 @@ Sk 1 'create rose'
 Sk 71 'create spring'
 Sk 1 'create water'
 Sk 82 'cure blindness'
-Sk 75 'cure critical'
+Sk 82 'cure critical'
 Sk 74 'cure disease'
 Sk 75 'cure light'
 Sk 78 'cure poison'
 Sk 1 'cure serious'
-Sk 93 'curse'
+Sk 95 'curse'
 Sk 89 'demonfire'
 Sk 1 'detect evil'
-Sk 81 'detect good'
+Sk 84 'detect good'
 Sk 77 'detect hidden'
-Sk 76 'detect invis'
-Sk 71 'detect magic'
+Sk 79 'detect invis'
+Sk 73 'detect magic'
 Sk 1 'detect poison'
 Sk 71 'dispel evil'
 Sk 1 'dispel good'
-Sk 80 'dispel magic'
+Sk 85 'dispel magic'
 Sk 75 'earthquake'
 Sk 71 'endure cold'
 Sk 71 'endure heat'
-Sk 79 'energy drain'
+Sk 81 'energy drain'
 Sk 1 'enervation'
-Sk 82 'entrance'
-Sk 75 'faerie fire'
+Sk 85 'entrance'
+Sk 77 'faerie fire'
 Sk 74 'faerie fog'
 Sk 100 'famine'
 Sk 1 'farsight'
@@ -152,61 +161,61 @@ Sk 81 'fly'
 Sk 1 'forget'
 Sk 83 'frenzy'
 Sk 1 'fumble'
-Sk 99 'gate'
+Sk 100 'gate'
 Sk 77 'harm'
-Sk 98 'heal'
+Sk 100 'heal'
 Sk 75 'heat metal'
-Sk 85 'hold person'
+Sk 90 'hold person'
 Sk 1 'holy word'
 Sk 71 'hydrophilia'
-Sk 79 'identify'
+Sk 86 'identify'
 Sk 1 'knock'
 Sk 1 'know alignment'
 Sk 74 'lay on hands'
 Sk 71 'lightning bolt'
 Sk 80 'locate object'
 Sk 75 'mass healing'
-Sk 80 'mirror image'
+Sk 85 'mirror image'
 Sk 1 'nexus'
-Sk 74 'pass door'
-Sk 76 'plague'
-Sk 71 'poison'
+Sk 78 'pass door'
+Sk 79 'plague'
+Sk 72 'poison'
 Sk 75 'portal'
-Sk 84 'protection evil'
-Sk 77 'protection good'
+Sk 85 'protection evil'
+Sk 78 'protection good'
 Sk 71 'protection neutral'
-Sk 76 'psionic blast'
+Sk 78 'psionic blast'
 Sk 100 'ray of truth'
-Sk 75 'refresh'
+Sk 78 'refresh'
 Sk 1 'regeneration'
 Sk 86 'remove curse'
 Sk 71 'sacred guardian'
-Sk 88 'sanctuary'
+Sk 92 'sanctuary'
 Sk 71 'shield'
-Sk 1 'shield of faith'
+Sk 75 'shield of faith'
 Sk 80 'slow'
 Sk 71 'stone skin'
-Sk 82 'summon'
+Sk 84 'summon'
 Sk 71 'symbol i'
 Sk 71 'symbol ii'
 Sk 71 'symbol iii'
 Sk 75 'symbol iv'
-Sk 76 'teleport'
+Sk 90 'teleport'
 Sk 77 'tower of iron will'
 Sk 63 'warp'
-Sk 75 'weaken'
+Sk 77 'weaken'
 Sk 77 'word of recall'
-Sk 75 'wrath'
-Sk 71 'animate dead'
-Sk 88 'summon dead'
+Sk 87 'wrath'
+Sk 75 'animate dead'
+Sk 92 'summon dead'
 Sk 71 'cryogenesis'
 Sk 1 'draw life'
 Sk 71 'make bag'
 Sk 79 'turn undead'
 Sk 76 'withstand death'
 Sk 71 'wound transfer'
-Sk 75 'axe'
-Sk 96 'dagger'
+Sk 91 'axe'
+Sk 98 'dagger'
 Sk 100 'flail'
 Sk 100 'mace'
 Sk 100 'spear'
@@ -215,16 +224,16 @@ Sk 100 'whip'
 Sk 100 'bleed'
 Sk 100 'dodge'
 Sk 100 'enhanced damage'
-Sk 79 'hand to hand'
-Sk 89 'kick'
+Sk 81 'hand to hand'
+Sk 91 'kick'
 Sk 100 'parry'
-Sk 83 'shield block'
-Sk 99 'scan'
+Sk 92 'shield block'
+Sk 100 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
 Sk 70 'scrolls'
 Sk 70 'staves'
-Sk 70 'wands'
+Sk 75 'wands'
 Sk 50 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
@@ -244,32 +253,24 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'frenzy'   0  51  16  40  17          0
-Affc 'frenzy'   0  51  16   8  19          0
-Affc 'frenzy'   0  50  16   8  18          0
-Affc 'tower of iron will'   3  49  22   0   0      32768
-Affc 'body weaponry'   0  50  21   0   0   33554432
-Affc 'bless'   0  51  54  -6  24          0
-Affc 'bless'   0  51  54   6  18          0
-Affc 'detect hidden'   0  49  47   0   0         32
-Affc 'detect good'   0  50  47   0   0          4
-Affc 'detect invis'   0  51  48   0   0          8
-Affc 'detect magic'   0  52  46   0   0         16
-End
-
-#O
-Vnum 2390
-Nest 0
-PrevOwner Galstaff~
-Cond 0
-Wear 9
-Cost 5800
+Affc 'detect good'   0  48  43   0   0          4
+Affc 'frenzy'   0  47   3  40  17          0
+Affc 'frenzy'   0  49   3   8  19          0
+Affc 'frenzy'   0  46   3   8  18          0
+Affc 'detect invis'   0  43  17   0   0          8
+Affc 'detect magic'   0  44  16   0   0         16
+Affc 'detect hidden'   0  44  16   0   0         32
+Affc 'stone skin'   0  45   0 -40  17          0
+Affc 'shield'   0  45   8 -20  17          0
+Affc 'bless'   0  43   6  -6  24          0
+Affc 'bless'   0  37   6   6  18          0
 End
 
 #O
 Vnum 1900
 Nest 0
 PrevOwner Galstaff~
+ExtF 0
 Cond 0
 Wear 10
 Cost 100
@@ -289,21 +290,12 @@ Vnum 1345
 Nest 0
 PrevOwner Galstaff~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 End
 
 #O
-Vnum 2414
-Nest 1
-PrevOwner Galstaff~
-Cond 0
-Wear -1
-Cost 3300
-End
-
-#O
-Vnum 6602
+Vnum 22514
 Nest 1
 PrevOwner Galstaff~
 Cond 0
@@ -312,14 +304,12 @@ Cost 0
 End
 
 #O
-Vnum 8506
+Vnum 18912
 Nest 1
 PrevOwner Galstaff~
 Cond 0
 Wear -1
-Cost 10000
-Val  30 5 3 110 0
-Spell 3 'haste'
+Cost 4800
 End
 
 #O
@@ -350,57 +340,12 @@ Cost 1832
 End
 
 #O
-Vnum 18912
-Nest 1
-PrevOwner Galstaff~
-Cond 0
-Wear -1
-Cost 4800
-End
-
-#O
-Vnum 10014
-Nest 1
-PrevOwner Galstaff~
-Cond 0
-Wear -1
-Cost 4400
-End
-
-#O
-Vnum 10445
-Nest 1
-PrevOwner Galstaff~
-Cond 0
-Wear -1
-Cost 6400
-End
-
-#O
-Vnum 18106
-Nest 1
-PrevOwner Galstaff~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
 Vnum 2422
 Nest 1
 PrevOwner Galstaff~
 Cond 0
 Wear -1
 Cost 700
-End
-
-#O
-Vnum 2415
-Nest 1
-PrevOwner Galstaff~
-Cond 0
-Wear -1
-Cost 1000
 End
 
 #O
@@ -476,55 +421,182 @@ Cost 10000
 End
 
 #O
-Vnum 22514
-Nest 1
-PrevOwner Galstaff~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 22507
-Nest 1
-PrevOwner Galstaff~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Galstaff~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Galstaff~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Galstaff~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 9107
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 18106
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 647
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 5700
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 2406
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 3400
+End
+
+#O
+Vnum 22504
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6602
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3005
+Nest 1
+PrevOwner Galstaff~
+ExtF 536871170
+Cond 0
+Wear -1
+Cost 5600
+Val  1 4 10 21 560
+Affc 'bestow holiness'   5  51  -1   0   0        512
+End
+
+#O
+Vnum 22563
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3051
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 10014
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 4400
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 2415
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 2414
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 3300
+End
+
+#O
+Vnum 28024
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 28018
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10445
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 6400
+End
+
+#O
+Vnum 12008
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12007
 Nest 1
 PrevOwner Galstaff~
 Cond 0
@@ -543,6 +615,77 @@ Wear -1
 Cost 0
 Affc 'enchant weapon'   0  53  -1  13  18          0
 Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 22506
+Enchanted
+Nest 1
+PrevOwner Galstaff~
+ExtF 536870979
+Cond 0
+Wear -1
+Lev  50
+Cost 1200
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 23017
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 901
+Nest 1
+PrevOwner Galstaff~
+ExtF 1120
+Cond 0
+Wear -1
+Cost 5400
+End
+
+#O
+Vnum 28057
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2205
+Nest 1
+PrevOwner Galstaff~
+ExtF 256
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 18105
+Nest 1
+PrevOwner Galstaff~
+ExtF 3
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 12087
+Nest 1
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -603,40 +746,12 @@ Cost 6740
 End
 
 #O
-Vnum 23512
-Nest 0
-PrevOwner Galstaff~
-Cond 0
-Wear 1
-Cost 6740
-End
-
-#O
-Vnum 12063
-Nest 0
-PrevOwner Galstaff~
-ExtF 555483201
-Cond 0
-Wear 17
-Cost 50000
-End
-
-#O
 Vnum 20733
 Nest 0
 PrevOwner Galstaff~
 Cond 0
 Wear 15
 Cost 3000
-End
-
-#O
-Vnum 6423
-Nest 0
-PrevOwner Galstaff~
-Cond 0
-Wear 5
-Cost 19800
 End
 
 #O
@@ -658,38 +773,105 @@ Cost 3000
 End
 
 #O
-Vnum 18105
+Vnum 22507
 Nest 0
 PrevOwner Galstaff~
 Cond 0
-Wear 11
-Cost 4500
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 23512
+Nest 0
+PrevOwner Galstaff~
+Name ring charm~
+ShD  a ring of charm which adds a +10 to all convincing rolls!~
+Desc A ring is here, looking very convincing.~
+Cond 0
+Wear 1
+Cost 6740
+End
+
+#O
+Vnum 6423
+Nest 0
+PrevOwner Galstaff~
+Cond 0
+Wear 5
+Cost 19800
+End
+
+#O
+Vnum 2390
+Nest 0
+PrevOwner Galstaff~
+Cond 0
+Wear 9
+Cost 5800
 End
 
 #O
 Vnum 2428
 Nest 0
-PrevOwner Galstaff~
+PrevOwner (null)~
 Cond 0
 Wear 18
 Cost 3400
 End
 
 #O
-Vnum 22506
-Enchanted
+Vnum 2405
+Nest 0
+PrevOwner (null)~
+ExtF 17694721
+Cond 0
+Wear 17
+Cost 1000
+End
+
+#O
+Vnum 5939
 Nest 0
 PrevOwner Galstaff~
-ExtF 536870979
-Stolen 49
+Name sword unmagical~
+ShD  A very unmagical sword~
+Desc A sword lies here looking very unmagical.~
 Cond 0
 Wear 16
-Lev  50
-Cost 1200
-Val  1 2 22 38 9
-Affc 'sharpen'   5  47  28   0   0          8
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
+Cost 4000
+Val  1 5 8 3 68
+Affc 'bless'   1  42   7  -1  20        256
+End
+
+#O
+Vnum 12086
+Nest 0
+PrevOwner Galstaff~
+Cond 0
+Wear 11
+Cost 12345
+End
+
+#O
+Vnum 1271
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 8000
+Val  10 1 0 5 50
+End
+
+#O
+Vnum 1269
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Val  2 1 9 18 711
+Affc 'bestow holiness'   5  50   7   0   0        512
 End
 
 #END

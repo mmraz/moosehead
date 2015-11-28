@@ -2,8 +2,8 @@
 Name Palibar~
 Id   802887747
 Email (null)~
-LogO 994085276
-Vers 27
+LogO 1310498977
+Vers 31
 LnD  If your reading this your too close...
 ~
 Desc "...You are in a maze of twisty little passages, all alike..."
@@ -17,12 +17,21 @@ MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 0 2
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1310482160
+LstKillDate 1310482160
+LstDeathDate 1310482160
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
 Deity 0 mojo~
 Sac  22
 Sex  1
@@ -31,13 +40,13 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost cr3864-b.slnt1.on.wave.home.com~
+LastHost 175.176.245.32~
 Cla  3
 ClaO 3
 Levl 52
 DLevl 0
-Plyd 11252256
-Not  878335957 873177786 875067664 925279994 902259135 878019570 0 0 0
+Plyd 11260261
+Not  878335957 873177786 875067664 925279994 902259135 878019570 0 0 0 1308936986
 Scro 58
 Rank 0
 Room 4307
@@ -52,18 +61,18 @@ Disp BFHIJ
 IcgB 0
 Icg 0
 Wizn A
-Inco 52
 Pos  5
 Prac 9
+Trai 14
 Save  -121
 Alig  621
-ACs -259 -262 -261 -210
-Attr 21 16 18 14 23
-AMod 10 0 0 10 10
-Pass PaxuoJ83myF4C~
+ACs -278 -281 -280 -214
+Attr 21 16 18 14 23 9 13 13
+AMod 10 0 0 10 10 0 0 0
+Pass Pa8MKiYcDdEoY~
 Bin  Palibar arrives from a puff of smoke.~
 Bout Palibar disappears in a mushroom cloud.~
-Titl , hurray for default!~
+Titl .~
 Pnts 52
 TSex 1
 LLev 2624
@@ -153,8 +162,8 @@ Sk 100 'farsight'
 Sk 100 'fireball'
 Sk 100 'fireproof'
 Sk 100 'flamestrike'
-Sk 100 'fly'
 Sk 100 'floating disc'
+Sk 100 'fly'
 Sk 100 'frenzy'
 Sk 100 'gate'
 Sk 100 'giant strength'
@@ -245,6 +254,7 @@ Sk 100 'lore'
 Sk 100 'meditation'
 Sk 100 'peek'
 Sk 100 'pick lock'
+Sk 1 'sharpen'
 Sk 100 'sneak'
 Sk 100 'steal'
 Sk 100 'scrolls'
@@ -613,7 +623,7 @@ ExtF 16777216
 Cond 0
 Wear -1
 Cost 200
-Val  50 130 130 130 -1
+Val  50 159 159 159 -1
 Spell 1 'refresh'
 Spell 2 'refresh'
 Spell 3 'refresh'
@@ -1555,7 +1565,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1700
-Val  0 88 93 10 -1
+Val  0 103 108 17 -1
 Spell 1 'frenzy'
 Spell 2 'giant strength'
 Spell 3 'bless'
@@ -1737,7 +1747,7 @@ ExtF 1
 Cond 0
 Wear -1
 Cost 0
-Val  15 130 96 -1 -1
+Val  15 159 111 -1 -1
 Spell 1 'refresh'
 Spell 2 'heal'
 End
@@ -1777,7 +1787,7 @@ Wt   0
 Cond 0
 Wear -1
 Cost 200
-Val  10 96 -1 88 -1
+Val  10 111 -1 103 -1
 Spell 1 'heal'
 Spell 3 'frenzy'
 End
@@ -1805,7 +1815,7 @@ Cond 0
 Wear -1
 Lev  0
 Cost 1820
-Val  15 93 150 139 3
+Val  15 108 193 169 3
 Spell 1 'giant strength'
 Spell 2 'stone skin'
 Spell 3 'sanctuary'

@@ -1,0 +1,164 @@
+#AREA
+../newareas/tiag2.are~
+tiag2~
+{ All }         tiag2~
+9800 9807
+
+#MOBILES
+#9800
+Puff~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+You see a fantastic, vaguely draconian-shaped mathematical pattern.  
+Even as you watch, though, the form reiterates itself in finer detail--
+with each passing moment, the shape becomes more complex and interesting.
+Almost, almost, you can discern the pattern...
+
+For all her fabulous appearance, though, Puff seems quite... addled.  As 
+the definition of her eyes increases, you realize that the Fractal Dragon 
+is obviously not paying much attention to the mortal world; she seems lost 
+in strange contemplations.
+
+~
+unique~
+(null)~
+(null)~
+(null)~
+A 0 1000 0
+26 5 5d10+550 26d5+100 4d6+3 chomp
+-15 -15 -15 -10
+ABCDEFHIJKMNc AB CDFGHIJKLMNOPR 0
+stand stand female 0
+DHZ ACDEFHJKPQUVX medium 0
+#0
+
+#OBJECTS
+#0
+
+#ROOMS
+#9800
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 9801
+S
+#9801
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9800
+D2
+Exit ~
+door~
+16384 0 9802
+S
+#9802
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9801
+D2
+Exit ~
+door~
+16384 0 9803
+S
+#9803
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9802
+D2
+Exit ~
+door~
+16384 0 9807
+D3
+Exit ~
+door~
+16384 0 9804
+S
+#9804
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 9803
+D2
+Exit ~
+door~
+16384 0 9805
+S
+#9805
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9804
+D1
+Exit ~
+door~
+16384 0 9806
+S
+#9806
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9807
+D3
+Exit ~
+door~
+16384 0 9805
+S
+#9807
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 9803
+D2
+Exit ~
+door~
+16384 0 9806
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 9800 spec_puff           	* Puff
+S
+
+#$

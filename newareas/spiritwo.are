@@ -1,0 +1,196 @@
+#AREA
+../newareas/spiritwo.are~
+Spirit World~
+{ All }         Spirit World~
+16200 16205
+
+#MOBILES
+#16200
+spirit guardian~
+spirit guardian~
+A spirit guardian stands here.
+~
+Before you stands a Spirit Guardian to the Spirit World.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABGTc CDEFHTU 0 0
+60 1 50d10+9500 50d10+9500 8d6+28 divine
+0 0 0 0
+EFNU ABCD 0 0
+stand stand none 0
+HKLM ABCDEF giant 0
+#16201
+banshee~
+a {Dbanshee{x~
+A {Dbanshee{x wails nearby.
+~
+Banshee's wail nearby if someone is about to die. That someone right now is 
+you!
+~
+unique~
+(null)~
+(null)~
+(null)~
+ACGRTce DEFJTUZe 0 0
+54 3 50d10+6500 50d10+6500 7d6+22 wrath
+-2 -2 -2 -2
+ABEFHNU AB HILMQ NS
+stand stand female 10000
+DHKLM ABCDEF medium 0
+#16202
+Poltergeist~
+poltergeist~
+A poltergeist makes its presence known.
+~
+The elite Order of Kaethan monks are the elite combatants among the Yinn,
+having studied all aspects of fighting, from the clandestine to the occult
+and back.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ACFTce DFHJTUVZe 0 0
+57 100 50d10+8000 0d0+0 6d8+500 claw
+-2 -2 -2 -2
+ABDEFHIKN ABR IJ N
+stand stand none 10000
+HKLM ABCDEF large 0
+#16203
+demonic spirit~
+{rdemonic {Dspirit{x~
+A {rdemonic {Dspirit{x appears before you.
+~
+A black shape stands before you. It's eyes are glowing like fire. Evil radiates
+from it and seems to suck what little air there is away from you.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AFGTc DEFJTUVZae -1000 0
+58 1 50d10+8500 50d10+8500 5d10+35 wrath
+-3 -3 -3 -3
+ABDEFHNU AB EHM N
+stand stand none 10000
+HKLM ABCDEF medium 0
+#0
+
+#OBJECTS
+#0
+
+#ROOMS
+#16200
+Gateway to the Spirit World~
+You are in the one safe spot in the Spirit World. This gateway connects the human
+world and the Spirit World. The only place where you are able to leave this place
+and go home. From here on out your completely on your own. No help will be
+available. You will not be able to recall in this area except in this room only.
+Are you brave enough to enter this place?
+{Y**This is for level 51's or higher level groups only. You will need flying.{x
+~
+0 CTW 0
+H 110 M 110
+D0
+Exit ~
+door~
+16384 0 16201
+D1
+Exit ~
+door~
+16384 0 16203
+D2
+Exit ~
+door~
+16384 0 16202
+D3
+Exit ~
+door~
+16384 0 16204
+S
+#16201
+In The Mists~
+The thick fog swirls around you as a wind seems to be blowing constantly.
+You can't see anything through the mist.  Your disoriented and unable to tell
+which way is up and which is down.
+~
+0 ANT 9
+D0
+Exit ~
+door~
+16384 0 16205
+D2
+Exit ~
+door~
+16384 0 16200
+S
+#16202
+In The Mists~
+You hear moans of despair, maniacal laughter, howling echos in your ears but
+you can't tell if it is human or animal. The mist is so thick you really can't
+see your hand in front of your face.
+~
+0 ANT 9
+D0
+Exit ~
+door~
+16384 0 16200
+S
+#16203
+In The Mists~
+You are in a thick mist. You hear sounds all around you but can't see who
+or what is making them. Insane laughter rings out, then wailing. You can't 
+tell which way is up and which is down. It is quite disorienting.
+~
+0 ANT 9
+D3
+Exit ~
+door~
+16384 0 16200
+S
+#16204
+In The Mists~
+Vague shapes, really more like shadows that appear and disappear slide through
+the fog. You can't tell if they are mortal or not. The wind constantly blows
+chilling you to the bone. The air is heavy and damp.
+~
+0 ANT 9
+D1
+Exit ~
+door~
+16384 0 16200
+S
+#16205
+In The Mists~
+Gray and white are the only shades of color you see. There are no trees, no
+buildings nothing but heavy fog and mist. The wind blows incessantly and cuts
+through to your bones with cold. Whispers can be heard through the mist.
+A dark shadow passes by you and disappears into the thick fog.
+~
+0 NT 9
+D2
+Exit ~
+door~
+16384 0 16201
+S
+#0
+
+#RESETS
+M 0 16200   1 16200  1	* spirit guardian
+M 0 16202   1 16204  1	* poltergeist
+M 0 16203   1 16205  1	* {rdemonic {Dspirit{x
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 16201 spec_cast_mage      	* a {Dbanshee{x
+M 16202 spec_nasty          	* poltergeist
+M 16203 spec_breath_fire    	* {rdemonic {Dspirit{x
+S
+
+#$

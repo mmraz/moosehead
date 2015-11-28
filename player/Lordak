@@ -3,19 +3,20 @@ Name Lordak~
 SurN Majere~
 Id   1014055320
 Email (null)~
-LogO 1019150825
-Vers 31
+LogO 1408215796
+Vers 33
 Prom <%hhp %mm %vmv> ~
 Race human~
 Clan zealot~
 Outc 0
-RufT 145
+RufT 97
 MatookT 0
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 6 1 3
 Steal 0 0 0
+MSteal 0
 LstK Nemo~
 LstKBy Nike~
 LstAtkedBy no one~
@@ -23,10 +24,16 @@ LstAtkedByTimer 0
 LstCombatDate 1019101921
 LstKillDate 1018715154
 LstDeathDate 1019098064
-LoginsWOKill 4
-LoginsWODeath 2
-LoginsWOCombat 2
+LoginsWOKill 7
+LoginsWODeath 5
+LoginsWOCombat 5
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 9342 almighty~
 DeityT -5621 almighty~
 Sac  300
@@ -36,48 +43,49 @@ Node 0
 Cap 0
 Created 1014055341
 Glad 0 2 0 0 2 0
-LastHost Ottawa-ppp-200157.sympatico.ca~
+LastHost 99.241.33.67~
 Cla  1
 Kit prophet~
 ClaO 1
 Levl 42
 DLevl 0
-Plyd 247271
+Plyd 249257
 Not  1019096820 1019101277 0 1019150662 1019096828 1019144826 0 1019145447 0 1019096839
 Scro 22
 Rank 2
 Room 31806
-HMV  768 768 582 582 236 236
+HMV  748 748 582 582 236 236
 Gold 3
 Silv 66
 Exp  278414
 Act  CDEFGHQS
-MHSF SU
+MHSF RSU
+AfBy CDF
 Comm Gc
 Disp BFIJN
 IcgB 0
 Icg 0
 Pnet ACEF
-Pos  4
+Pos  8
 Prac 40
-Trai 14
+Trai 20
 SkiP 154
-Save  -22
+Save  -9
 Alig  579
-Hit   12
-Dam   28
-SecHit   12
-SecDam   28
-ACs 100 100 100 100
-Attr 18 18 20 18 18 13 13 13
-AMod 5 3 4 2 3 0 0 0
+Hit   6
+Dam   27
+SecHit   6
+SecDam   27
+ACs 45 45 45 84
+Attr 18 18 20 18 18 10 10 13
+AMod 5 3 4 2 0 0 0 0
 Pass Lo9zEGlNuXI92~
 Titl , Lord of the Ak.~
 Pnts 93
 TSex 1
 LLev 61
 HMVP 738 591 266
-Cnd  0 8 27 43
+Cnd  0 6 26 42
 Alias k kill~
 Alias bb cast blind~
 Alias ff cast faerie~
@@ -89,7 +97,7 @@ Alias dd c 'dispel magic'~
 Alias vv c energy~
 Alias ww cast heat~
 Sk 1 'aid'
-Sk 83 'annointment'
+OldSk 83 'annointment'
 Sk 87 'armor'
 Sk 1 'bestow holiness'
 Sk 83 'bless'
@@ -219,61 +227,53 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
+Affc 'detect hidden'   0  41  40   0   0         32
+Affc 'detect invis'   0  41  42   0   0          8
 End
 
 #O
 Vnum 2301
 Nest 0
 PrevOwner Lordak~
-ExtF 256
 Cond 0
 Wear 5
 Cost 4200
-Affc 'bless'   1  33   5  -1  20        256
 End
 
 #O
 Vnum 16721
 Nest 0
 PrevOwner Lordak~
-ExtF 257
 Cond 0
 Wear 4
 Cost 1400
-Affc 'bless'   1  33   5  -1  20        256
 End
 
 #O
 Vnum 8800
 Nest 0
 PrevOwner Lordak~
-ExtF 258
 Cond 0
 Wear 15
 Cost 1870
-Affc 'bless'   1  33   6  -1  20        256
 End
 
 #O
 Vnum 8800
 Nest 0
 PrevOwner Lordak~
-ExtF 258
 Cond 0
 Wear 14
 Cost 1870
-Affc 'bless'   1  34   6  -1  20        256
 End
 
 #O
 Vnum 16721
 Nest 0
 PrevOwner Lordak~
-ExtF 257
 Cond 0
 Wear 3
 Cost 1400
-Affc 'bless'   1  39   5  -1  20        256
 End
 
 #O
@@ -289,22 +289,18 @@ End
 Vnum 2332
 Nest 0
 PrevOwner Lordak~
-ExtF 320
 Cond 0
-Wear 13
+Wear -1
 Cost 7600
-Affc 'bless'   1  40  32  -1  20        256
 End
 
 #O
 Vnum 17648
 Nest 0
 PrevOwner Lordak~
-ExtF 16777472
 Cond 0
-Wear -1
+Wear 13
 Cost 4000
-Affc 'bless'   1  33   7  -1  20        256
 End
 
 #O
@@ -658,24 +654,21 @@ End
 Vnum 5936
 Nest 0
 PrevOwner Lordak~
-ExtF 256
 Cond 0
 Wear 10
 Cost 3000
-Affc 'bless'   1  40  33  -1  20        256
 End
 
 #O
 Vnum 5913
 Nest 0
 PrevOwner Lordak~
-ExtF 134217984
+ExtF 134217728
 Wt   160
 Cond 0
 Wear 7
 Cost 2000
 Val  7 7 7 4 3
-Affc 'bless'   1  33   6  -1  20        256
 End
 
 #O
@@ -683,7 +676,7 @@ Vnum 8509
 Nest 0
 PrevOwner Lordak~
 Cond 0
-Wear 17
+Wear -1
 Cost 0
 End
 
@@ -697,72 +690,53 @@ Cond 0
 Wear -1
 Lev  33
 Cost 3600
-Affc 'enchant weapon'   1  52  -1   3  19          0
 Affc 'enchant weapon'   1  52  -1   5  18          0
-End
-
-#O
-Vnum 23138
-Nest 0
-PrevOwner Lordak~
-Cond 0
-Wear 18
-Cost 0
+Affc 'enchant weapon'   1  52  -1   3  19          0
 End
 
 #O
 Vnum 911
 Nest 0
 PrevOwner Lordak~
-ExtF 1376
 Cond 0
 Wear 2
 Cost 6900
-Affc 'bless'   1  32   5  -1  20        256
 End
 
 #O
 Vnum 911
 Nest 0
 PrevOwner Lordak~
-ExtF 1376
 Cond 0
 Wear 1
 Cost 6900
-Affc 'bless'   1  30   5  -1  20        256
 End
 
 #O
 Vnum 5937
 Nest 0
 PrevOwner (null)~
-ExtF 256
 Cond 0
 Wear 9
 Cost 4000
-Affc 'bless'   1  31   6  -1  20        256
 End
 
 #O
 Vnum 2602
 Nest 0
 PrevOwner (null)~
-ExtF 256
 Cond 0
 Wear 6
 Cost 5800
-Affc 'bless'   1  37   6  -1  20        256
 End
 
 #O
 Vnum 18110
 Nest 0
 PrevOwner (null)~
-ExtF 257
 Cond 0
 Wear 8
 Cost 2400
-Affc 'bless'   1  34  33  -1  20        256
 End
 
 #O

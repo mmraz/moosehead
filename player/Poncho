@@ -2,19 +2,20 @@
 Name Poncho~
 Id   972189407
 Email (null)~
-LogO 1104536147
-Vers 31
+LogO 1360620443
+Vers 33
 Prom <%hhp %mmp %vmv %Xtnl %wlbs> ~
 Race dwarf~
 Clan posse~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 28
-SkPTracker 12
+SkPTimer 1
+SkPTracker 1
 LogoutTracker 0
 Kill 0 1 0 3
 Steal 0 0 0
+MSteal 0
 LstK Yogen~
 LstKBy Galstaff~
 LstAtkedBy no one~
@@ -22,60 +23,65 @@ LstAtkedByTimer 0
 LstCombatDate 1102709782
 LstKillDate 1102194146
 LstDeathDate 1102383961
-LoginsWOKill 45
-LoginsWODeath 37
-LoginsWOCombat 12
+LoginsWOKill 85
+LoginsWODeath 77
+LoginsWOCombat 52
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 252503 matook~
-Sac  296
-Sex  2
+Sac  300
+Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 972189642
 Glad 0 0 0 0 0 0
-LastHost adsl-66-73-4-23.dsl.chcgil.ameritech.net~
+LastHost 173.165.37.81~
 Cla  14
 Kit myrmidon~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 351317
-Not  1104524072 1104524072 1104524072 1104524072 1104524072 1104524072 1104524072 1104524072 1104524072 1104524072
+Plyd 370149
+Not  1360617868 1360617868 1360617868 1360617868 1360617868 1360617868 1360617868 1360617868 1360617868 1360617868
 Scro 98
 Rank 1
-Room 3001
-HMV  1151 1546 16 375 589 603
-Gold 575
-Silv 412
+Room 16502
+HMV  1726 1726 410 410 603 603
+Gold 183
+Silv 40
 Exp  408699
-Act  CDEFHJQS
+Act  CDGHJQS
 MHSF RS
-AfBy DFJ
+AfBy CDFJO
 Comm GS
 Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 12
-SkiP 105
-Save  -4
+Prac 24
+StatsTrained 160 0 0
+SkiP 25
+Save  -5
 Alig  -1000
-Hit   25
-Dam   31
-SecHit   13
-SecDam   19
-ACs 8 8 8 59
-Attr 22 16 19 16 21 17 21 13
-AMod 3 5 2 4 3 0 0 0
+Hit   21
+Dam   38
+SecHit   11
+SecDam   28
+ACs -55 -55 -55 7
+Attr 22 16 19 16 21 9 13 13
+AMod 3 4 3 4 3 0 0 0
 Pass PoMCxssJUTLrY~
 Titl  keeps the rain off.~
 Pnts 100
 TSex 1
 LLev 97
-HMVP 1391 360 603
-Cnd  0 14 36 36
+HMVP 1551 360 603
+Cnd  0 0 14 14
 Alias k murder~
 Alias t c tele self~
 Alias r dirt arak~
@@ -90,10 +96,10 @@ Sk 1 'cure critical'
 Sk 73 'cure light'
 Sk 1 'cure serious'
 Sk 1 'famine'
-Sk 75 'feast'
+Sk 76 'feast'
 Sk 49 'fly'
 Sk 78 'frenzy'
-Sk 75 'gate'
+Sk 79 'gate'
 Sk 73 'heal'
 Sk 1 'holy word'
 Sk 1 'knock'
@@ -115,27 +121,27 @@ Sk 17 'spear'
 Sk 100 'sword'
 Sk 97 'whip'
 Sk 100 'bash'
-Sk 83 'berserk'
+Sk 85 'berserk'
 Sk 6 'bite'
-Sk 85 'dirt kicking'
-Sk 77 'disarm'
+Sk 89 'dirt kicking'
+Sk 79 'disarm'
 Sk 100 'dodge'
 Sk 100 'dual wield'
-Sk 38 'enhanced critical'
+Sk 76 'enhanced critical'
 Sk 100 'enhanced damage'
 Sk 58 'hand to hand'
 Sk 78 'morph'
 Sk 94 'parry'
 Sk 13 'rescue'
 Sk 92 'shield block'
-Sk 95 'scan'
+Sk 96 'scan'
 Sk 100 'second attack'
 Sk 97 'third attack'
-Sk 94 'fourth attack'
-Sk 90 'fast healing'
-Sk 21 'lore'
+Sk 96 'fourth attack'
+Sk 93 'fast healing'
+Sk 26 'lore'
 Sk 76 'riding'
-Sk 76 'sharpen'
+Sk 80 'sharpen'
 Sk 1 'scrolls'
 Sk 1 'staves'
 Sk 49 'wands'
@@ -149,7 +155,9 @@ Gr 'benedictions'
 Gr 'healing'
 Gr 'transportation'
 Gr 'garou'
-Affc 'change sex'   0  44  71   1   6          0
+Affc 'stone skin'   0  10   3 -40  17          0
+Affc 'detect good'   0  32  16   0   0          4
+Affc 'protection good'   0  30   5  -1  24      16384
 End
 
 #O
@@ -168,15 +176,6 @@ PrevOwner Poncho~
 Cond 0
 Wear 14
 Cost 1150
-End
-
-#O
-Vnum 23107
-Nest 0
-PrevOwner Poncho~
-Cond 0
-Wear 10
-Cost 1500
 End
 
 #O
@@ -207,303 +206,13 @@ Cost 710
 End
 
 #O
-Vnum 23504
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 3032
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 9
-End
-
-#O
-Vnum 3049
-Nest 2
-PrevOwner Atlas~
-Name a scroll of frenzy~
-ShD  a scroll of frenzy~
-Desc A scroll of frenzy lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  24
-Cost 0
-Val  51 103 -1 -1 -1
-Spell 1 'frenzy'
-End
-
-#O
-Vnum 3049
-Nest 2
-PrevOwner Atlas~
-Name a scroll of frenzy~
-ShD  a scroll of frenzy~
-Desc A scroll of frenzy lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  24
-Cost 0
-Val  51 103 -1 -1 -1
-Spell 1 'frenzy'
-End
-
-#O
-Vnum 3049
-Nest 2
-PrevOwner Atlas~
-Name a scroll of frenzy~
-ShD  a scroll of frenzy~
-Desc A scroll of frenzy lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  24
-Cost 0
-Val  51 103 -1 -1 -1
-Spell 1 'frenzy'
-End
-
-#O
-Vnum 3049
-Nest 2
-PrevOwner Atlas~
-Name a scroll of frenzy~
-ShD  a scroll of frenzy~
-Desc A scroll of frenzy lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  24
-Cost 0
-Val  51 103 -1 -1 -1
-Spell 1 'frenzy'
-End
-
-#O
-Vnum 3049
-Nest 2
-PrevOwner Atlas~
-Name a scroll of frenzy~
-ShD  a scroll of frenzy~
-Desc A scroll of frenzy lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  24
-Cost 0
-Val  51 103 -1 -1 -1
-Spell 1 'frenzy'
-End
-
-#O
-Vnum 3049
-Nest 2
-PrevOwner Atlas~
-Name a scroll of frenzy~
-ShD  a scroll of frenzy~
-Desc A scroll of frenzy lies here.
-~
-ExtF 537927683
-Cond 0
-Wear -1
-Lev  24
-Cost 0
-Val  51 27 103 136 -1
-Spell 1 'calm'
-Spell 2 'frenzy'
-Spell 3 'magical rest'
-End
-
-#O
-Vnum 3049
-Nest 2
-PrevOwner Atlas~
-Name a scroll of frenzy~
-ShD  a scroll of frenzy~
-Desc A scroll of frenzy lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  24
-Cost 0
-Val  51 103 -1 -1 -1
-Spell 1 'frenzy'
-End
-
-#O
-Vnum 3049
-Nest 2
-PrevOwner Atlas~
-Name a scroll of frenzy~
-ShD  a scroll of frenzy~
-Desc A scroll of frenzy lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  24
-Cost 0
-Val  51 103 -1 -1 -1
-Spell 1 'frenzy'
-End
-
-#O
-Vnum 3049
-Nest 2
-PrevOwner Atlas~
-Name a scroll of frenzy~
-ShD  a scroll of frenzy~
-Desc A scroll of frenzy lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  24
-Cost 0
-Val  51 103 -1 -1 -1
-Spell 1 'frenzy'
-End
-
-#O
-Vnum 3049
-Nest 2
-PrevOwner Atlas~
-Name a scroll of frenzy~
-ShD  a scroll of frenzy~
-Desc A scroll of frenzy lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  24
-Cost 0
-Val  51 103 -1 -1 -1
-Spell 1 'frenzy'
-End
-
-#O
-Vnum 3049
-Nest 2
-PrevOwner Atlas~
-Name a scroll of frenzy~
-ShD  a scroll of frenzy~
-Desc A scroll of frenzy lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  24
-Cost 0
-Val  51 103 -1 -1 -1
-Spell 1 'frenzy'
-End
-
-#O
-Vnum 3034
-Nest 2
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 2
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 2
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 2
-PrevOwner Kritter~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 5409
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 8502
-Nest 1
-PrevOwner Poncho~
-ExtF 257
-Cond 0
-Wear -1
-Cost 3100
-End
-
-#O
 Vnum 26
 Nest 1
 PrevOwner Poncho~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 3 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -514,7 +223,7 @@ PrevOwner Poncho~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 3 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -525,17 +234,8 @@ PrevOwner Poncho~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 3 -1 -1 -1
 Spell 1 'accuracy'
-End
-
-#O
-Vnum 18912
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 4800
 End
 
 #O
@@ -570,27 +270,6 @@ Spell 2 'blindness'
 End
 
 #O
-Vnum 9571
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 950
-Spell 1 'stone skin'
-Spell 2 'blindness'
-End
-
-#O
-Vnum 16608
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 4000
-Spell 3 'detect good'
-End
-
-#O
 Vnum 16608
 Nest 1
 PrevOwner Poncho~
@@ -607,58 +286,6 @@ PrevOwner Poncho~
 Cond 0
 Wear -1
 Cost 1500
-End
-
-#O
-Vnum 23514
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 3690
-End
-
-#O
-Vnum 16608
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 4000
-Spell 3 'detect good'
-End
-
-#O
-Vnum 9571
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 950
-Spell 1 'stone skin'
-Spell 2 'blindness'
-End
-
-#O
-Vnum 9571
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 950
-Spell 1 'stone skin'
-Spell 2 'blindness'
-End
-
-#O
-Vnum 9571
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 950
-Spell 1 'stone skin'
-Spell 2 'blindness'
 End
 
 #O
@@ -682,49 +309,6 @@ Val  0 0 0 0 22089
 End
 
 #O
-Vnum 2446
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 16018
-Enchanted
-Nest 1
-PrevOwner Poncho~
-ExtF 66
-Cond 0
-Wear -1
-Lev  39
-Cost 2200
-Val  1 2 12 3 13
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   1  52  -1  12  18          0
-Affc 'sharpen'   5  47  -1   0   0          8
-End
-
-#O
-Vnum 13208
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 17631
-Nest 1
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 250
-End
-
-#O
 Vnum 6420
 Nest 1
 PrevOwner Poncho~
@@ -740,6 +324,385 @@ PrevOwner Poncho~
 Cond 0
 Wear -1
 Cost 1400
+End
+
+#O
+Vnum 2446
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 5901
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 5902
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Poncho~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Damaged 36
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 104 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Poncho~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 104 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Poncho~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 104 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Poncho~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 104 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Poncho~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 104 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Poncho~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 537927683
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 28 104 139 -1
+Spell 1 'calm'
+Spell 2 'frenzy'
+Spell 3 'magical rest'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Poncho~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 104 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Poncho~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Damaged 38
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 104 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Poncho~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 104 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Poncho~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Damaged 50
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 104 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Poncho~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 104 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 7000
+Val  51 211 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 7000
+Val  51 211 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Poncho~
+Damaged 39
+Cond 0
+Wear -1
+Cost 7000
+Val  51 211 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Poncho~
+Damaged 34
+Cond 0
+Wear -1
+Cost 7000
+Val  51 211 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 15234
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 0
+Val  25 5 1 112 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 8724
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'harm'
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 1949
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 2300
+End
+
+#O
+Vnum 18116
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 6419
+Enchanted
+Nest 1
+PrevOwner Poncho~
+ExtF 65
+Cond 0
+Wear -1
+Lev  50
+Cost 8400
+Affc 'enchant armor'   1  53  -1  -8  17          0
+Affc 'reserved'   1  45  -1   2  18          0
+Affc 'reserved'   1  45  -1  -4  20          0
+End
+
+#O
+Vnum 8529
+Nest 1
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 2000
 End
 
 #O
@@ -761,41 +724,12 @@ Cost 0
 End
 
 #O
-Vnum 3050
-Nest 0
-PrevOwner Poncho~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 12004
-Nest 0
-PrevOwner Poncho~
-ExtF 134219776
-Cond 0
-Wear 7
-Cost 40
-Val  12 12 12 4 3
-End
-
-#O
 Vnum 8500
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 3000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -820,8 +754,9 @@ End
 Vnum 20728
 Nest 0
 PrevOwner Poncho~
+Damaged 44
 Cond 0
-Wear -1
+Wear 11
 Cost 6500
 End
 
@@ -874,29 +809,11 @@ Cost 2200
 End
 
 #O
-Vnum 18116
-Nest 0
-PrevOwner Poncho~
-Cond 0
-Wear 0
-Cost 6000
-End
-
-#O
-Vnum 1949
-Nest 0
-PrevOwner Poncho~
-Cond 0
-Wear 4
-Cost 2300
-End
-
-#O
 Vnum 23514
 Nest 0
 PrevOwner Poncho~
 Cond 0
-Wear 3
+Wear 4
 Cost 3690
 End
 
@@ -910,14 +827,70 @@ Cost 7600
 End
 
 #O
+Vnum 8305
+Nest 0
+PrevOwner Whet~
+Damaged 37
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23514
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear 3
+Cost 3690
+End
+
+#O
+Vnum 17631
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear 0
+Cost 250
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner Poncho~
+ExtF 134219776
+Cond 0
+Wear 7
+Cost 40
+Val  12 12 12 4 3
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 16638
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 6372
+End
+
+#O
 Vnum 22506
 Enchanted
 Nest 0
-PrevOwner Callak~
+PrevOwner Poncho~
 ExtF 536870979
-Stolen 35
 Cond 0
-Wear -1
+Wear 16
 Lev  50
 Cost 1200
 Val  1 10 4 38 4
@@ -926,17 +899,176 @@ Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O
-Vnum 28057
-Enchanted
+Vnum 3082
 Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1800
+Spell 1 'sanctuary'
+Spell 2 'stone skin'
+Spell 3 'armor'
+End
+
+#O
+Vnum 3082
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1800
+Spell 1 'sanctuary'
+Spell 2 'stone skin'
+Spell 3 'armor'
+End
+
+#O
+Vnum 2919
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 10309
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 6011
+End
+
+#O
+Vnum 10320
+Enchanted
+Nest 1
 PrevOwner Poncho~
 ExtF 67
 Cond 0
-Wear 16
-Lev  50
-Cost 0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-Affc 'enchant weapon'   0  52  -1  12  18          0
+Wear -1
+Cost 4750
+Val  5 5 8 18 60
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'sharpen'   5  42   3   0   0          8
+End
+
+#O
+Vnum 8058
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 5409
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 2500
+Val  2 3 5 2 8
+Affc 'sharpen'   5  45  24   0   0          8
+End
+
+#O
+Vnum 8502
+Nest 0
+PrevOwner Poncho~
+ExtF 257
+Cond 0
+Wear -1
+Cost 3100
+End
+
+#O
+Vnum 16018
+Enchanted
+Nest 0
+PrevOwner Poncho~
+ExtF 66
+Cond 0
+Wear -1
+Lev  39
+Cost 2200
+Val  1 2 12 3 13
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   1  52  -1  12  18          0
+Affc 'sharpen'   5  47  -1   0   0          8
+End
+
+#O
+Vnum 23504
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 4500
+Val  2 2 20 38 9
+Affc 'sharpen'   5  46  24   0   0          8
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 18912
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 4800
+Val  2 2 17 11 14
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 23134
+Nest 0
+PrevOwner Poncho~
+Cond 0
+Wear -1
+Cost 95
 End
 
 #END

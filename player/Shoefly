@@ -2,10 +2,10 @@
 Name Shoefly~
 Id   971576535
 Email (null)~
-LogO 1004734730
-Vers 28
+LogO 1407096676
+Vers 33
 LnD  A Gladiator~
-Prom [%hhp %mm %vmv %Ss %e] ~
+Prom %hh %mm %vmv %Ss %Xx %w/%Ww %gg %e ~
 Race faerie~
 Outc 0
 RufT 0
@@ -13,13 +13,26 @@ MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1310482935
+LstKillDate 1310482935
+LstDeathDate 1310482935
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 Sac  300
 Sex  1
@@ -27,50 +40,60 @@ Vump  0
 Node 0
 Cap 0
 Created 971576543
-Glad 0 0 0 0 2 0
-LastHost d150-5-59.home.cgocable.net~
+Glad 1 1 0 0 1 0
+LastHost 70.52.139.65~
 Cla  4
 ClaO 2
 Levl 1
 DLevl 0
-Plyd 1623
-Not  971576734 971576734 971576734 971576734 971576734 971576734 971576734 971576734 971576734
+Plyd 5415
+Not  1310482946 1310482946 1310482946 1310482946 1310482946 1310482946 1310482946 1310482946 1310482946 1310482946
 Scro 22
 Rank 0
 Room 3054
-HMV  60 60 90 100 100 100
-Gold 4
-Silv 66
-Exp  3092
+HMV  141 141 100 100 100 100
+Gold 35
+Silv 220
+Exp  3749
 Act  CDEFGHQ
+MHSF R
 AfBy DFJT
 Comm DGR
 Disp BFIJ
 IcgB 0
 Icg 0
-Pos  8
-Prac 5
-Save  -1
+Pos  5
+Prac 2
+SkiP 1
+Save  -5
 Alig  0
-Hit   1
-ACs -54 -54 -54 -54
-Attr 9 22 20 23 8
-AMod 2 -1 0 2 0
+Hit   5
+Dam   2
+SecHit   5
+SecDam   2
+ACs -86 -86 -86 -86
+Wimp  20
+Attr 12 22 22 23 11 17 8 13
+AMod 2 0 0 2 0 0 2 0
 Pass Sh8SUD5okjg6c~
-Titl  the once mighty kender!~
+Titl  don't bother me~
 Pnts 29
 TSex 1
 LLev 1
-HMVP 60 100 100
-Cnd  0 44 46 46
+HMVP 130 100 100
+Cnd  0 0 29 29
 Alias pk who clan~
 Alias we where~
+Alias f flee~
+Alias h murder~
+Alias b backstab~
+Alias tr trip~
 Sk 80 'dagger'
 Sk 1 'mace'
-Sk 1 'backstab'
-Sk 1 'dodge'
+Sk 13 'backstab'
+Sk 11 'dodge'
 Sk 1 'parry'
-Sk 1 'trip'
+Sk 16 'trip'
 Sk 50 'scan'
 Sk 1 'steal'
 Sk 1 'scrolls'
@@ -80,44 +103,9 @@ Sk 50 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
-Affc 'armor'   0  42  30 -20  17          0
-End
-
-#O
-Vnum 3716
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 0
-Cost 0
-Val  0 0 168 0 0
-End
-
-#O
-Vnum 3703
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 5
-Cost 0
-End
-
-#O
-Vnum 3701
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 16
-Cost 210
-End
-
-#O
-Vnum 3704
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 11
-Cost 0
+Affc 'bless'   0  34  15   5  18          0
+Affc 'bless'   0  31  15  -5  24          0
+Affc 'armor'   0  44  34 -20  17          0
 End
 
 #O
@@ -131,66 +119,21 @@ Val  100 1 0 10 85
 End
 
 #O
-Vnum 3712
-Nest 0
-PrevOwner (null)~
+Vnum 3701
+Nest 1
+PrevOwner Shoefly~
 Cond 0
-Wear 13
-Cost 72
+Wear -1
+Cost 210
 End
 
 #O
-Vnum 3706
-Nest 0
-PrevOwner (null)~
+Vnum 3701
+Nest 1
+PrevOwner Shoefly~
 Cond 0
-Wear 6
-Cost 72
-End
-
-#O
-Vnum 3713
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 14
-Cost 48
-End
-
-#O
-Vnum 3713
-Nest 0
-PrevOwner Mordrid~
-Cond 0
-Wear 15
-Cost 48
-End
-
-#O
-Vnum 3708
-Nest 0
-PrevOwner Mordrid~
-Cond 0
-Wear 8
-Cost 72
-End
-
-#O
-Vnum 3707
-Nest 0
-PrevOwner Mordrid~
-Cond 0
-Wear 7
-Cost 72
-End
-
-#O
-Vnum 3705
-Nest 0
-PrevOwner Mordrid~
-Cond 0
-Wear 3
-Cost 72
+Wear -1
+Cost 210
 End
 
 #O
@@ -200,6 +143,159 @@ PrevOwner Mordrid~
 Cond 0
 Wear 4
 Cost 72
+End
+
+#O
+Vnum 4439
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 1972
+Nest 0
+PrevOwner Rumor~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 13206
+Nest 0
+PrevOwner Rumor~
+Cond 0
+Wear 2
+Cost 0
+End
+
+#O
+Vnum 13206
+Nest 0
+PrevOwner Rumor~
+Cond 0
+Wear 1
+Cost 0
+End
+
+#O
+Vnum 5740
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 0
+Cost 1000
+End
+
+#O
+Vnum 1601
+Nest 0
+PrevOwner Glimpse~
+Cond 0
+Wear 16
+Cost 0
+End
+
+#O
+Vnum 3070
+Nest 0
+PrevOwner Glimpse~
+Cond 0
+Wear 9
+Cost 201
+End
+
+#O
+Vnum 3707
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 7
+Cost 72
+End
+
+#O
+Vnum 3705
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 72
+End
+
+#O
+Vnum 3065
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 136
+End
+
+#O
+Vnum 3053
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 13
+Cost 136
+End
+
+#O
+Vnum 3052
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 15
+Cost 112
+End
+
+#O
+Vnum 3052
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 14
+Cost 112
+End
+
+#O
+Vnum 3060
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 5
+Cost 270
+End
+
+#O
+Vnum 3063
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 8
+Cost 136
+End
+
+#O
+Vnum 3067
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 6
+Cost 220
+End
+
+#O
+Vnum 9520
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 11
+Cost 250
 End
 
 #END

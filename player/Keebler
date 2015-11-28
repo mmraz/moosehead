@@ -3,18 +3,19 @@ Name Keebler~
 SurN Munchems~
 Id   1044772634
 Email (null)~
-LogO 1084577330
-Vers 31
+LogO 1347686115
+Vers 33
 Prom %hhp %mmn %vmv %xtnl ~
 Race elf~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -212 matook~
 Sac  300
@@ -35,44 +40,42 @@ Node 0
 Cap 0
 Created 1044772654
 Glad 0 0 0 0 0 0
-LastHost c-67-164-103-175.client.comcast.net~
+LastHost 67.5.189.114~
 Cla  11
 ClaO 0
-Levl 5
+Levl 6
 DLevl 0
-Plyd 13147
-Not  1084304432 1079997666 0 1078715324 1080604534 1084353648 0 1080030392 0 1077048677
+Plyd 18598
+Not  1307642737 1079997666 0 1307594643 1080604534 1307335720 0 1307284241 0 1077048677
 Scro 22
 Rank 0
-Room 3054
-HMV  53 53 143 143 114 114
+Room 3001
+HMV  69 69 154 154 117 117
 Gold 2
 Silv 62
-Exp  32022
+Exp  39218
 Act  CDEFGHKQ
 MHSF R
 AfBy J
-Comm DGIRc
+Comm GIRc
 Disp FGIJN
 IcgB 0
 Icg 0
 Pos  4
-Prac 16
-SkiP 1
-Save  -5
+Prac 11
+Trai 9
+SkiP 3
 Alig  1000
-Hit   5
-SecHit   5
-ACs 67 65 65 80
-Attr 16 17 16 15 13 15 16 12
-AMod 0 0 1 0 1 0 0 0
+ACs 87 86 86 100
+Attr 16 17 16 15 13 11 12 12
+AMod 2 0 1 0 2 0 0 0
 Pass KeVvbMwnp1qv6~
 Titl  The Snack Specialist {Y<Yummie>{x aura~
 Pnts 92
 TSex 1
-LLev 1
-HMVP 43 143 114
-Cnd  0 46 47 47
+LLev 4
+HMVP 51 154 117
+Cnd  0 0 0 0
 Sk 1 'acid blast'
 Sk 1 'armor'
 Sk 1 'blindness'
@@ -86,7 +89,7 @@ Sk 1 'change sex'
 Sk 1 'charm person'
 Sk 75 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'continual light'
+Sk 75 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
 Sk 1 'create fountain'
@@ -97,7 +100,7 @@ Sk 1 'curse'
 Sk 1 'detect evil'
 Sk 1 'detect good'
 Sk 1 'detect hidden'
-Sk 1 'detect invis'
+Sk 75 'detect invis'
 Sk 1 'detect magic'
 Sk 1 'detect poison'
 Sk 1 'dispel magic'
@@ -128,7 +131,7 @@ Sk 1 'knock'
 Sk 1 'know alignment'
 Sk 1 'lightning bolt'
 Sk 1 'locate object'
-Sk 75 'magic missile'
+Sk 78 'magic missile'
 Sk 1 'mass invis'
 Sk 1 'nexus'
 Sk 1 'pass door'
@@ -170,12 +173,12 @@ Sk 1 'dagger'
 Sk 80 'sword'
 Sk 50 'scan'
 Sk 1 'hide'
-Sk 1 'meditation'
+Sk 22 'meditation'
 Sk 1 'sneak'
 Sk 1 'spellcraft'
 Sk 1 'scrolls'
 Sk 1 'staves'
-Sk 1 'wands'
+Sk 19 'wands'
 Sk 50 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
@@ -194,9 +197,6 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'armor'   0  43  30 -20  17          0
-Affc 'bless'   0  42  45  -5  24          0
-Affc 'bless'   0  42  45   5  18          0
 End
 
 #O
@@ -231,7 +231,7 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 48
 End
 
@@ -340,7 +340,7 @@ Vnum 4439
 Nest 0
 PrevOwner Trimbel~
 Cond 0
-Wear 18
+Wear -1
 Cost 0
 End
 
@@ -358,18 +358,188 @@ Vnum 4439
 Nest 0
 PrevOwner Dwurck~
 Cond 0
-Wear -1
+Wear 18
 Cost 0
 End
 
 #O
-Vnum 3030
+Vnum 6601
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear 1
+Cost 620
+End
+
+#O
+Vnum 6601
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear 2
+Cost 0
+End
+
+#O
+Vnum 2326
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 3500
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
-Cost 4
-Val  0 0 33 0 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 3502
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 490
+End
+
+#O
+Vnum 3075
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 420
+End
+
+#O
+Vnum 3500
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 3072
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 850
+End
+
+#O
+Vnum 3500
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 3045
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 850
+End
+
+#O
+Vnum 2326
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5209
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5231
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5233
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5235
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 11
+End
+
+#O
+Vnum 5230
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5209
+Nest 0
+PrevOwner Iceman~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner AngelicIce~
+Cond 0
+Wear 14
+Cost 550
+End
+
+#O
+Vnum 11310
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #END

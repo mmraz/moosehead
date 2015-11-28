@@ -38,6 +38,15 @@ static char rcsid[] = "$Id: db.c,v 1.186 2004/08/26 01:30:26 boogums Exp $";
 #include "lookup.h"
 #include "gladiator.h"
 
+extern int bounty_available[];
+extern int bounty_vnum;
+extern int bounty_type;
+extern int bounty_desc;
+extern int bounty_item;
+extern int bounty_room;
+extern int bounty_timer;
+extern bool bounty_downgrade;
+
 /* a test to see if this acually works */
 #define calloc(m,n) GC_MALLOC((m)*(n))
 
@@ -57,6 +66,9 @@ int getpid();
 time_t time(time_t *tloc);
 #endif
 
+bool new_helps = FALSE;// New help code
+void load_new_helps(HELP_DATA **first, HELP_DATA **last, int *counter);
+void create_help_tracks(void);
 
 /* externals for counting purposes */
 extern  OBJ_DATA  *obj_free;
@@ -77,6 +89,9 @@ CSTAT_DATA *  cstat_last;
 HELP_DATA *   help_first;
 HELP_DATA *   help_last;
 
+HELP_TRACKER * help_track_first = NULL;// New help code
+HELP_TRACKER *  help_tracks[28]; // A-Z and #
+
 SHOP_DATA *   shop_first;
 SHOP_DATA *   shop_last;
 
@@ -94,6 +109,10 @@ TIME_INFO_DATA    time_info;
 WEATHER_DATA    weather_info;
 int	weapons_popped = 0;
 GLADIATOR_INFO_DATA    gladiator_info;
+
+sh_int          gsn_light_blast;
+sh_int          gsn_shaded_room;
+sh_int          gsn_sunburst;
 sh_int		gsn_arcantic_lethargy;
 sh_int		gsn_arcantic_alacrity;
 sh_int		gsn_clarity;
@@ -125,8 +144,11 @@ sh_int		gsn_diamond_skin;
 sh_int		gsn_adamantite_skin;
 sh_int		gsn_shield_of_faith;
 sh_int		gsn_alchemy;
+sh_int		gsn_convert;
 sh_int		gsn_annointment;
 sh_int          gsn_aura_of_valor;
+sh_int          gsn_guardian;
+sh_int          gsn_hemorrhage;
 sh_int		gsn_riding;
 sh_int		gsn_bladesong;
 sh_int		gsn_rage;
@@ -173,6 +195,7 @@ sh_int      gsn_charm_animal;
 sh_int      gsn_sharpen;
 sh_int      gsn_swarm;
 sh_int      gsn_steal;
+sh_int      gsn_bump;
 sh_int      gsn_snatch;
 sh_int	    gsn_trap;
 
@@ -194,7 +217,7 @@ sh_int      gsn_poison;
 sh_int      gsn_plague;
 sh_int      gsn_sleep;
 sh_int      gsn_sanctuary;
-sh_int      gsn_fly;
+sh_int      gsn_withstand_death;
 /* new gsns */
 
 sh_int      gsn_axe;
@@ -255,7 +278,6 @@ sh_int      gsn_blade_barrier;
 sh_int	    gsn_wall_fire;
 sh_int      gsn_wall_ice;
 sh_int      gsn_hydrophilia;
-sh_int      gsn_stalk;
 
 
 /*
@@ -363,6 +385,188 @@ void maxfilelimit()
 
 AREA_NAME_DATA *area_name_first,*area_name_last;
 
+// New help code
+void delete_helps(HELP_DATA **list_file)
+{
+  HELP_DATA *pHelp_next;
+  HELP_DATA *pHelp = *list_file;
+  for(pHelp = help_first; pHelp; pHelp = pHelp_next)
+  {
+    pHelp_next = pHelp->next;
+    clear_string(&pHelp->keyword, NULL);
+    clear_string(&pHelp->text, NULL);
+    clear_string(&pHelp->related, NULL);
+    clear_string(&pHelp->editor, NULL);
+    GC_FREE(pHelp);
+  }
+}
+
+void do_synchelps( CHAR_DATA *ch, char *argument )
+{
+#ifdef OLC_VERSION
+  send_to_char("synchelps pulls from OLC to where you are, you can't use it here.\n\r", ch);
+  return;
+#else
+  int i;
+  FILE *oldfp, *newfp;
+  char bak_name[255];
+  char *old_greeting;
+  HELP_TRACKER *pTracker, *pTracker_next;
+  HELP_DATA *first_new = NULL, *last_new = NULL;
+  int top_new = 0;
+  oldfp = fopen(HELP_FILE_OLC, "r");
+  if(!oldfp)
+  {
+    send_to_char("There is no new helpfile saved on OLC to sync with.\n\r", ch);
+    return; 
+  }
+
+  newfp = fopen(HELP_FILE, "r");
+  if(newfp)
+  {/* Check its current existance -- okay if it's not there, just no backup */
+    while(!feof(oldfp) && !feof(newfp) && fgetc(newfp) == fgetc(oldfp))
+      continue; 
+    if(feof(oldfp) || feof(newfp))
+    {
+      fclose(oldfp);
+      fclose(newfp);
+      send_to_char("The two files are identical, there is no need to sync.\n\r", ch);
+      return;
+    }
+    fclose(newfp);// Done with current file
+    sprintf(bak_name, "../area/livebak/new_helps_%ld.bak", current_time);
+    rename(HELP_FILE, bak_name);
+    fseek(oldfp, 0, SEEK_SET);// Reset the OLC file to beginning
+  }
+  newfp = fopen(HELP_FILE, "w");
+  if(newfp)
+  {
+    char transfer = fgetc(oldfp);
+    while(!feof(oldfp))
+    {
+      fputc(transfer, newfp);
+      transfer = fgetc(oldfp);/* trigger eof without a duplicate last-char write */
+    }
+    fclose(oldfp);
+    fclose(newfp);
+  }
+  else
+  {
+    send_to_char("Failed to open new file for writing.  Sync did not occur.\n\r", ch);
+    fclose(oldfp);
+    return;
+  }
+  // Live reload now
+  old_greeting = help_greeting;
+  help_greeting = NULL;// Ensures it's available in the new helps
+  load_new_helps(&first_new, &last_new, &top_new);
+  if(!help_greeting) // BIG PROBLEM IF THIS HAPPENS - game can't start
+  {// Little has been added to memory at this point
+    delete_helps(&first_new);
+    help_greeting = old_greeting;
+    unlink(HELP_FILE);
+    rename(bak_name, HELP_FILE);// Restore the old one
+    send_to_char("help greeting not found, sync {RABORTED{x.\n\r", ch);
+    return;
+  }
+  // Clear out the old help trackers then the help files
+  for(i = 0; i < 27; i++)
+  {
+    help_tracks[i] = NULL;
+  }
+  for(pTracker = help_track_first; pTracker; pTracker = pTracker_next)
+  {
+    pTracker_next = pTracker->next;
+    clear_string(&pTracker->keyword, NULL);
+    GC_FREE(pTracker);
+  }
+  help_track_first = NULL;
+
+  delete_helps(&help_first);
+
+  // All memory has been cleared from the old ones, point to the new ones
+  help_first = first_new;
+  help_last = last_new;
+  top_help = top_new;
+  create_help_tracks();// Link the tracks for the new ones
+
+  send_to_char("Helps have been updated and reloaded, no reboot is needed.\n\r", ch);
+  sprintf(bak_name, "Backup file name is new_helps_%ld.bak\n\r", current_time);
+  send_to_char(bak_name, ch);
+#endif
+}
+
+void do_syncarea( CHAR_DATA *ch, char *argument )
+{
+#ifdef OLC_VERSION
+  send_to_char("syncarea pulls from OLC to where you are, you can't use it here.\n\r", ch);
+  return;
+#else
+  FILE *oldfp, *newfp;
+  char new_name[255], bak_name[255], olc_name[255];
+
+  sprintf(new_name, "../area/%s.are", argument);
+  newfp = fopen(new_name, "r");
+  if(!newfp)
+  {/* Check its current existance */
+    send_to_char("File does not exist in current files.\n\r", ch);
+    return;
+  }
+  /* Good to copy */
+  sprintf(bak_name, "../area/livebak/%s_%ld.bak", argument, current_time);
+  sprintf(olc_name, "/mud/moosehead/olc/olcarea/%s.are", argument);
+  oldfp = fopen(olc_name, "r");
+  if(!oldfp)
+  {
+    sprintf(olc_name, "/mud/moosehead/newareas/%s.are", argument);
+    oldfp = fopen(olc_name, "r");
+  }
+  if(oldfp)
+  {
+    // newfp is still holding open the original file at this point
+    while(!feof(oldfp) && !feof(newfp) && fgetc(newfp) == fgetc(oldfp))
+      continue; 
+    if(feof(oldfp) || feof(newfp))
+    {
+      fclose(oldfp);
+      fclose(newfp);
+      send_to_char("The two files are identical, there is no need to sync.\n\r", ch);
+      return;
+    }
+    fseek(oldfp, 0, SEEK_SET);// Reset the OLC file to beginning
+    fclose(newfp);// Done with current file
+    rename(new_name, bak_name);
+    newfp = fopen(new_name, "w");
+    if(newfp)
+    {
+      char transfer = fgetc(oldfp);
+      while(!feof(oldfp))
+      {
+        fputc(transfer, newfp);
+        transfer = fgetc(oldfp);/* trigger eof without a duplicate last-char write */
+      }
+      fclose(oldfp);
+      fclose(newfp);
+    }
+    else
+    {
+      send_to_char("Failed to open new file for writing.  This may result in a failed reboot.\n\r", ch);
+      fclose(oldfp);
+      return;
+    }
+  }
+  else
+  {
+    fclose(newfp);
+    send_to_char("Failed to locate area file in olc's directory.\n\r", ch);
+    return;
+  }
+  send_to_char("Area has been updated, you must reboot to bring the changes live.\n\r", ch);
+  sprintf(bak_name, "Backup file name is %s_%ld.bak\n\r", argument, current_time);
+  send_to_char(bak_name, ch);
+#endif
+}
+
 void rename_area (char *strArea)
 {
   char buf2[MAX_STRING_LENGTH],
@@ -426,7 +630,7 @@ void rename_area (char *strArea)
   strtime       = ctime( &current_time );
   strtime[strlen(strtime)-1]  = '\0';  
   
-  if (fpReserve) fclose(fpReserve);
+//  if (fpReserve) fclose(fpReserve);
   if ( ( fp = fopen( NOTE_FILE, "a" ) ) == NULL ) {
     perror (NOTE_FILE);
   } else {  
@@ -442,10 +646,260 @@ void rename_area (char *strArea)
     fclose ( fp );
   }  
   
-  fpReserve = fopen( NULL_FILE, "r" );
+//  fpReserve = fopen( NULL_FILE, "r" );
   
   
 
+}
+
+// 1-2 qualifier gain for finding a bounty, -1 for missing
+// At 15+ can start getting rank 5's and the stones after which it resets
+void select_bounty(int qualifier)
+{
+  CHAR_DATA *mob;
+  MOB_INDEX_DATA *pMobIndex;
+  CHAR_DATA *mob_found = NULL;
+  int i, j;
+  int level = 1;
+  bounty_downgrade = FALSE;
+  bounty_timer = 0;
+  bounty_desc = number_range(4, 102);// Below 4 gets too many of the same type
+  if(qualifier > 0)
+  {// If qualifier is 0 just go with the minimum level of 0
+    int selection_mod = 0;
+    int type_mod = number_range(0, UMIN(number_range(5, 10), qualifier));
+    // 0-1: mob name. 2,4: room name. 3,5: item name.
+    // 6,7: room desc. 8,9: mob desc. 9: item desc
+    switch(type_mod)
+    {
+      default:
+      case 1: bounty_type = BOUNTY_MOB_NAME; break;
+      case 2:
+      case 4: bounty_type = BOUNTY_ITEM_NAME; break;
+      case 3:
+      case 5: bounty_type = BOUNTY_ROOM_NAME; break;
+      case 6:
+      case 7: bounty_type = BOUNTY_ROOM_DESC; break;
+      case 8:
+      case 9: bounty_type = BOUNTY_MOB_DESC; break;
+      case 10: bounty_type = BOUNTY_ITEM_DESC; break;
+    }
+    qualifier /= number_range(3, 7);
+    selection_mod = number_percent();
+    if(qualifier > 0 && selection_mod < 90)
+    {
+      if(selection_mod < 70)
+        qualifier = 0;
+      else
+        qualifier = number_range(1, UMIN(MAX_BOUNTY_LEVEL - 1, qualifier));
+    }
+    level = UMIN(MAX_BOUNTY_LEVEL, qualifier + 1);
+  }
+  else// Easiest
+    bounty_type = BOUNTY_MOB_NAME;
+
+  j = number_range(1, bounty_available[level - 1]);
+  i = 0;
+  do
+  {
+    pMobIndex = mob_index_hash[i];
+    if(!pMobIndex)
+      i++;
+  } while(!pMobIndex && i < MAX_KEY_HASH);
+  if(i == MAX_KEY_HASH)
+  {
+    bounty_vnum = bounty_type = bounty_desc = -2;
+    bug("Error: Can't find a first mob to select a bounty from.", 0);
+    return;
+  }
+  for(; pMobIndex; )
+  {
+    if(pMobIndex->bounty_level == level)
+    {
+      j--;
+      if(j <= 0)
+        break;
+    }
+    pMobIndex = pMobIndex->next;
+    while(!pMobIndex)
+    {
+      i++;
+      if(i >= MAX_KEY_HASH)
+      {
+        bounty_vnum = bounty_type = bounty_desc = -2;
+        bug("Error: Failed to find an expected mob index for a bounty.", 0);
+        return;
+      }
+      pMobIndex = mob_index_hash[i];
+    }
+  }
+  // Found a mob from the appropriate level, see if it's a valid target. If not
+  // continue on from it. If that fails, panic. No, don't panic.  Use a hard
+  // coded standby then -- MOB_VNUM_HASSAN should do as a default
+  bounty_vnum = -1;
+  while(bounty_vnum < 0 && i < MAX_KEY_HASH)
+  {
+    for ( mob = char_list; mob != NULL; mob = mob->next )
+    {
+      if(IS_NPC(mob) && mob->pIndexData == pMobIndex)
+      {
+        if (mob->in_room == NULL || mob->zone != mob->in_room->area)
+          continue;
+        if(!mob_found)
+          mob_found = mob;
+        if(bounty_type == BOUNTY_ITEM_NAME || bounty_type == BOUNTY_ITEM_DESC)
+        {// See if they've got any original items on them
+          OBJ_DATA *obj;
+          for ( obj = mob->carrying; obj != NULL; obj = obj->next_content )
+          {
+            if(obj->original && !IS_SET(obj->extra_flags,ITEM_VIS_DEATH))
+            {
+              int num_objects = 0;
+              bounty_item = obj->pIndexData->vnum;
+              bounty_vnum = pMobIndex->vnum;
+              bounty_room = mob->in_room->vnum;
+              for(obj = mob->carrying; obj != NULL; obj = obj->next_content)
+              {
+                if(obj->original && !IS_SET(obj->extra_flags,ITEM_VIS_DEATH))
+                  num_objects++;
+              }
+              num_objects = number_range(1, num_objects);
+              for(obj = mob->carrying; obj != NULL; obj = obj->next_content)
+              {
+                if(obj->original && !IS_SET(obj->extra_flags,ITEM_VIS_DEATH))
+                {
+                  num_objects--;
+                  if(num_objects <= 0)
+                  {// This is the bounty item
+                    bounty_item = obj->pIndexData->vnum;
+                  }
+                }
+              }
+              return;
+            }
+          }
+        }
+        else
+        {// Good to go, everything has a name or a room
+          bounty_vnum = pMobIndex->vnum;
+          bounty_room = mob->in_room->vnum;
+          return;
+        }
+      }
+    }
+    if(mob_found)
+    {// Mob was found but item didn't match
+      bounty_vnum = pMobIndex->vnum;
+      bounty_room = mob_found->in_room->vnum;
+      bounty_type -= number_range(1, 2);// Fall back to a different type
+      return;
+    }
+    if(bounty_vnum < 0)
+    {// Next in the list and try again
+      for(; pMobIndex; )
+      {
+        if(pMobIndex->bounty_level == level)
+          break;
+        pMobIndex = pMobIndex->next;
+        while(!pMobIndex)
+        {
+          i++;
+          if(i >= MAX_KEY_HASH)
+            break;
+          pMobIndex = mob_index_hash[i];
+        }
+      }
+    }
+  }
+  // It's Hassan time
+  bounty_vnum = MOB_VNUM_HASSAN;
+}
+
+void mark_mob_bounties(void)
+{
+  int i, j;
+  CHAR_DATA *mob;
+  MOB_INDEX_DATA *pMobIndex;
+  
+  for(i = 0; i < MAX_KEY_HASH; i++)
+  {
+    pMobIndex = mob_index_hash[i];
+    for(; pMobIndex; pMobIndex = pMobIndex->next)
+    {
+      pMobIndex->bounty_level = 0;
+      if(!pMobIndex->area || pMobIndex->area->under_develop)
+        continue;
+      if(pMobIndex->pShop)
+        continue;
+      if (IS_SET(pMobIndex->act,ACT_TRAIN)
+         ||  IS_SET(pMobIndex->act,ACT_PRACTICE)
+         ||  IS_SET(pMobIndex->act,ACT_IS_HEALER)
+         ||  IS_SET(pMobIndex->act,ACT_IS_CHANGER)
+         ||  IS_SET(pMobIndex->act, ACT_IS_ARMOURER)
+         ||  IS_SET(pMobIndex->act, ACT_IS_WEAPONSMITH))
+         continue;
+      if(pMobIndex->vnum >= VNUM_SINS_START && pMobIndex->vnum <= VNUM_SINS_END)
+        continue;
+      for ( mob = char_list; mob != NULL; mob = mob->next )
+      {
+        if(IS_NPC(mob) && mob->pIndexData == pMobIndex)
+        {
+          int iClass, iGuild;
+          if (mob->in_room == NULL || mob->zone != mob->in_room->area)
+            continue;
+          if(room_is_private(mob, mob->in_room))
+            continue;
+          if(IS_SET(mob->in_room->room_flags,(ROOM_GODS_ONLY|ROOM_HEROES_ONLY|
+                                             ROOM_IMP_ONLY|ROOM_NEWBIES_ONLY|
+                                             ROOM_NOCLAN|ROOM_CLANONLY|ROOM_SAFE
+                                             |ROOM_NODIE|ROOM_NOCOMBAT
+                                             )))
+            continue;// No mobs in rooms with special flags
+          for ( iClass = 0; iClass < MAX_CLASS; iClass++ )
+          {
+              for ( iGuild = 0; iGuild < MAX_GUILD; iGuild ++)
+              {
+                if(mob->in_room->vnum == class_table[iClass].guild[iGuild])
+                  break;
+              }
+              if(iGuild != MAX_GUILD)
+                break;
+          }
+          if(iClass != MAX_CLASS)
+            continue;// No good, in a guild room
+          break;// Mob is good
+        }
+      }
+      if(!mob)// Make sure it's got a spawn point
+        continue;
+      if(pMobIndex->spec_fun)
+      {
+         for ( j = 0; spec_table[j].name != NULL; j++)
+         {
+            if (spec_table[j].function == pMobIndex->spec_fun)
+            {
+              if(spec_table[j].bounty_difficulty > 0)
+                pMobIndex->bounty_level = spec_table[j].bounty_difficulty;
+              break;
+            }
+         }
+         if(!pMobIndex->bounty_level)
+          continue;// Not a suitable spec_fun for a bounty
+      }
+      else
+        pMobIndex->bounty_level = 1;//Base level is 1
+      if(pMobIndex->level >= 50)
+        pMobIndex->bounty_level++;
+      if(pMobIndex->level > 55)
+        pMobIndex->bounty_level++;
+      if(IS_SET(pMobIndex->off_flags, OFF_BANE_TOUCH))
+        pMobIndex->bounty_level++; 
+      pMobIndex->bounty_level = UMIN(pMobIndex->bounty_level, MAX_BOUNTY_LEVEL);
+      bounty_available[pMobIndex->bounty_level - 1]++;
+    }
+  }
+  // Now select the first bounty
+  select_bounty(0);
 }
 
 void boot_db( void )
@@ -552,6 +1006,8 @@ void boot_db( void )
     {
   FILE *fpList;
 
+  load_new_helps(&help_first, &help_last, &top_help);//New help code
+
   if ( ( fpList = fopen( AREA_LIST, "r" ) ) == NULL )
   {
       perror( AREA_LIST );
@@ -565,6 +1021,7 @@ void boot_db( void )
     int min_vnum;
     
       strcpy( strArea, fread_word( fpList ) );
+log_string(strArea);
       if ( strArea[0] == '$' )
     break;
 
@@ -616,7 +1073,13 @@ void boot_db( void )
          if ( word[0] == '$'               )                 break;
     else if ( !str_cmp( word, "AREA"     ) ) load_area    (fpArea,strArea);
     else if ( !str_cmp( word, "CSTAT"    ) ) load_cstat   (fpArea);
-    else if ( !str_cmp( word, "HELPS"    ) ) load_helps   (fpArea);
+    else if ( !str_cmp( word, "HELPS"    ) )
+    {// New help code
+      if(!new_helps)
+        load_helps   (fpArea);
+      else
+        break;
+    }
     else if ( !str_cmp( word, "MOBOLD"   ) ) load_old_mob (fpArea);
     else if ( !str_cmp( word, "MOBILES"  ) ) load_mobiles (fpArea);
     else if ( !str_cmp( word, "OBJOLD"   ) ) load_old_obj (fpArea);
@@ -668,7 +1131,13 @@ void boot_db( void )
   load_notes( );
   load_bans();
   load_dns();
+  load_clans();
+  load_pits();
+  verify_price_table();
   /* load_songs(); */
+  // Link the help files regardless of load method
+  create_help_tracks();
+  mark_mob_bounties();
     }
 
     return;
@@ -742,7 +1211,7 @@ void load_cstat( FILE *fp )
        word = fread_word(fp);
        if ( word[0] == '$' )
           break;
-       cstat->clan = clan_lookup(word);
+       cstat->clan = nonclan_lookup(word);
        cstat->kills = fread_number ( fp );
 
  sprintf(buf,"Cstat: %d kills %d",cstat->clan,cstat->kills);
@@ -804,12 +1273,169 @@ void load_recipes( FILE *fp)
 	}
 	return;
 }
+
+// New help code
+//Note: mishandles high # symbols "{|}~" but these shouldn't be showing up 
+bool alphabet_before(char *first, char *second)
+{// Returns TRUE if first is before second alphabetically. Numbers are early.
+  int i = 0;
+  while(first[i] && second[i])
+  {
+    if(UPPER(first[i]) == UPPER(second[i]))
+      i++;
+    else
+    {
+      if(UPPER(first[i]) < UPPER(second[i]))
+        return TRUE;
+      else
+        return FALSE;
+    }
+  }
+  if(!first[i])// Ran out of first one first, so it should go in front
+    return TRUE;
+  return FALSE;
+}
+
+void create_help_tracks(void)
+{
+  int i;
+  HELP_DATA *pHelp;
+  HELP_TRACKER *phTracker, *phWalker;
+  char *base, part[255];
+
+  for(pHelp = help_first; pHelp; pHelp = pHelp->next)
+  {
+    base = one_argument(pHelp->keyword, part);
+    
+    while(part[0] != '\0')
+    {// Break it down into the various keywords
+    //#ifdef OLC_VERSION
+    //  phTracker   = alloc_perm( sizeof(*phTracker) );
+    //#else /*game version*/
+      phTracker   = GC_MALLOC( sizeof(*phTracker) );
+    //#endif
+      phTracker->help = pHelp;
+      clear_string(&phTracker->keyword, part);
+      if(!help_track_first ||
+        !alphabet_before(help_track_first->keyword, phTracker->keyword))
+      {// First in the list
+        if(!help_track_first)
+          help_track_first = phTracker;
+        else
+        {
+          phTracker->next = help_track_first;
+          help_track_first->prev = phTracker;
+          help_track_first = phTracker;
+        }
+      }
+      else
+      {// Find where in the list it goes
+        phWalker = help_track_first;
+        while(phWalker->next && 
+          alphabet_before(phWalker->next->keyword, phTracker->keyword))
+          phWalker = phWalker->next;
+        if(phWalker->next)
+          phWalker->next->prev = phTracker;
+        phTracker->next = phWalker->next;
+        phTracker->prev = phWalker;
+        phWalker->next = phTracker;
+      }
+      base = one_argument(base, part);
+    }
+  }
+  // Go through and assign the shortcuts for each of the trackers
+  i = 0;
+  for(i = 0; i < 27; i++)
+  {
+    help_tracks[i] = NULL;
+  }
+  for(phWalker = help_track_first; phWalker; phWalker = phWalker->next)
+  {
+    if(UPPER(phWalker->keyword[0]) >= 'A' && UPPER(phWalker->keyword[0]) <= 'Z')
+    {
+      if(!help_tracks[UPPER(phWalker->keyword[0]) - 'A' + 1])
+        help_tracks[UPPER(phWalker->keyword[0]) - 'A' + 1] = phWalker;
+    }
+    else if(!help_tracks[0])// Anything not A-Z goes into 0
+      help_tracks[0] = phWalker;
+  }
+}
+
+void load_new_helps(HELP_DATA **first, HELP_DATA **last, int *counter)
+{
+  HELP_DATA *pHelp;
+  char buf[255];
+  FILE *fp = fopen(HELP_FILE, "r");
+  if(!fp)
+  {// Load the old help files
+    bug("Unable to open new help file.\n\r", 0);
+    return;
+  }
+  new_helps = TRUE;
+  for ( ; ; )
+  {
+  //#ifdef OLC_VERSION
+  //  pHelp   = alloc_perm( sizeof(*pHelp) );
+  //#else /*game version*/
+    pHelp   = GC_MALLOC( sizeof(*pHelp) );
+  //#endif
+    pHelp->level  = fread_number( fp );
+    pHelp->keyword  = fread_string( fp );
+    if ( pHelp->keyword[0] == '$' )
+        break;
+    
+    pHelp->related = fread_string( fp );
+    if(pHelp->related)
+    {
+      int i;
+      pHelp->related[0] = UPPER(pHelp->related[0]);
+      for(i = 1; i < strlen(pHelp->related); i++)
+      {
+        if(pHelp->related[i - 1] == ' ' || pHelp->related[i - 1] == 39)
+          pHelp->related[i] = UPPER(pHelp->related[i]);
+        else
+          pHelp->related[i] = LOWER(pHelp->related[i]);
+      }
+    }
+    
+    fscanf(fp, "%ld %d %s",  &pHelp->modified, &pHelp->status, buf);
+
+    if(!pHelp->status)
+      pHelp->status = HELP_STAT_LEGACY;
+
+    if(str_cmp(buf, "none"))
+      pHelp->editor = str_dup(buf);
+    else
+      pHelp->editor = NULL;
+
+    pHelp->text = fread_string( fp );
+
+    if ( !str_cmp( pHelp->keyword, "greeting" ) )
+        help_greeting = pHelp->text;
+  
+    if ( *first == NULL )
+        *first = pHelp;
+    if ( *last  != NULL )
+        (*last)->next = pHelp;
+  
+    *last = pHelp;
+    pHelp->next = NULL;
+    *counter++;
+  }
+  fclose(fp);
+}
+
 /*
  * Snarf a help section.
  */
 void load_helps( FILE *fp )
 {
     HELP_DATA *pHelp;
+
+  if(new_helps)// New help code
+  {
+    return;// If it's already loaded the new help file, don't load any oldstyle
+  }
 
     for ( ; ; )
     {
@@ -1376,7 +2002,7 @@ void load_rooms( FILE *fp )
       {
         bug("Load_rooms: duplicate clan fields.",0);        
       }
-    pRoomIndex->clan = clan_lookup(fread_string(fp));
+    pRoomIndex->clan = nonclan_lookup(fread_string(fp));
       }
   
 
@@ -2017,17 +2643,19 @@ void MobIndexToInstance ( CHAR_DATA *mob, MOB_INDEX_DATA *pMobIndex )
   int i;
   AFFECT_DATA af;
   
+  while ( mob->flash_affected )
+    flash_affect_remove( mob, mob->flash_affected, APPLY_PRIMARY);
   while ( mob->affected )
     affect_remove( mob, mob->affected, APPLY_PRIMARY);
 
 
     mob->pIndexData = pMobIndex;
 
-    mob->name   = pMobIndex->player_name;
+    mob->name   = str_dup(pMobIndex->player_name);
     mob->id   = get_mob_id();
-    mob->short_descr  = pMobIndex->short_descr;
-    mob->long_descr = pMobIndex->long_descr;
-    mob->description  = pMobIndex->description;
+    mob->short_descr  = str_dup(pMobIndex->short_descr);
+    mob->long_descr = str_dup(pMobIndex->long_descr);
+    mob->description  = str_dup(pMobIndex->description);
     mob->spec_fun = pMobIndex->spec_fun;
     mob->prompt   = NULL;
 
@@ -2337,15 +2965,16 @@ void ObjIndexToInstance ( OBJ_DATA *obj, OBJ_INDEX_DATA *pObjIndex, int level, b
   
     obj->enchanted  = FALSE;
     obj->warps 	    = 0;
+    obj->damaged = 0;
     if (pObjIndex->new_format)
   obj->level = pObjIndex->level;
     else
   obj->level    = UMAX(0,level);
     obj->wear_loc = -1;
 
-    obj->name   = pObjIndex->name;
-    obj->short_descr  = pObjIndex->short_descr;
-    obj->description  = pObjIndex->description;
+    obj->name   = str_dup(pObjIndex->name);
+    obj->short_descr  = str_dup(pObjIndex->short_descr);
+    obj->description  = str_dup(pObjIndex->description);
     obj->material = str_dup(pObjIndex->material);
     obj->item_type  = pObjIndex->item_type;
     obj->extra_flags  = pObjIndex->extra_flags;
@@ -2516,10 +3145,14 @@ OBJ_DATA *create_object( OBJ_INDEX_DATA *pObjIndex, int level, bool favored )
     obj->in_room  = NULL;    
     obj->stolen_timer  = 0;    
     ObjIndexToInstance (obj,pObjIndex,level,favored);
-  
+ 
+    obj->original = TRUE;
+ 
     obj->next   = object_list;
     object_list   = obj;
     pObjIndex->count++;
+
+    set_rarity(obj);
 
     return obj;
 }
@@ -2697,7 +3330,30 @@ ROOM_INDEX_DATA *get_room_index( int vnum )
 {
     ROOM_INDEX_DATA *pRoomIndex;
 
-    if (vnum <= 0) return NULL;
+    if (vnum <= 0)
+    {
+      CLAN_DATA *clan = clan_first;
+      PLAN_DATA *obj;
+      vnum = abs(vnum);
+      for(; clan != NULL; clan = clan->next)
+      {
+        if(vnum >= clan->vnum_min && vnum <= clan->vnum_max)
+          break;
+      }
+      if(clan)
+      {
+        for(obj = clan->planned; obj != NULL; obj = obj->next)
+        {
+          if(IS_SET(obj->type, PLAN_ROOM) && obj->plan_index == vnum)
+          {
+            if(IS_SET(obj->type, (PLAN_PLACED | PLAN_PREVIEWED)) && obj->to_place)
+              return (ROOM_INDEX_DATA*)obj->to_place;
+            return NULL;
+          }
+        }
+      }
+      return NULL;
+    }
 
     for ( pRoomIndex  = room_index_hash[vnum % MAX_KEY_HASH];
     pRoomIndex != NULL;
@@ -3568,7 +4224,7 @@ void do_eqlist( CHAR_DATA *ch, char *argument )
       return;
    }
 
-   fclose(fpReserve);
+//   fclose(fpReserve);
 
    strcpy(fname, "eqlist.eql");
 
@@ -3769,7 +4425,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
     int vnum,nMatch = 0;
 
     /* open file */
-    fclose(fpReserve);
+//    fclose(fpReserve);
     fp = fopen("mem.dmp","w");
 
     /* report use of data structures */
@@ -3893,7 +4549,7 @@ void do_dump( CHAR_DATA *ch, char *argument )
 
     /* close file */
     fclose(fp);
-    fpReserve = fopen( NULL_FILE, "r" );
+//    fpReserve = fopen( NULL_FILE, "r" );
 }
 
 
@@ -3951,11 +4607,12 @@ int number_percent( void )
     return 1 + percent;
      */
 
-  int foo=50;
+//  int foo=50;
 
-  foo = remainder((random()>>6),100) + 50;
+//  foo = remainder((random()>>6),100) + 50;
  
- return foo;
+// return foo;
+  return number_range(0, 99);
 }
 
 
@@ -4102,13 +4759,19 @@ bool str_cmp( const char *astr, const char *bstr )
 {
     if ( astr == NULL )
     {
-  bug( "Str_cmp: null astr.", 0 );
+  char buf[256];
+  sprintf(buf, "Str_cmp: null astr. bstr: ");
+  if(bstr != NULL)
+    strcat(buf, bstr);
+  bug( buf, 0 );
   return TRUE;
     }
 
     if ( bstr == NULL )
     {
-  bug( "Str_cmp: null bstr.", 0 );
+  char buf[256];
+  sprintf(buf, "Str_cmp: null bstr. astr: %s", astr);
+  bug( buf, 0 );
   return TRUE;
     }
 
@@ -4138,7 +4801,10 @@ bool str_prefix( const char *astr, const char *bstr )
 
     if ( bstr == NULL )
     {
-  bug( "Strn_cmp: null bstr.", 0 );
+  char buf[256];
+  sprintf(buf, "Strn_cmp: null bstr. astr: %s", astr);
+  bug(buf, 0);
+//  bug( "Strn_cmp: null bstr.", 0 );
   return TRUE;
     }
 
@@ -4228,7 +4894,7 @@ void append_file( CHAR_DATA *ch, char *file, char *str )
     if ( IS_NPC(ch) || str[0] == '\0' )
   return;
 
-    fclose( fpReserve );
+//    fclose( fpReserve );
     if ( ( fp = fopen( file, "a" ) ) == NULL )
     {
   perror( file );
@@ -4241,7 +4907,7 @@ void append_file( CHAR_DATA *ch, char *file, char *str )
   fclose( fp );
     }
 
-    fpReserve = fopen( NULL_FILE, "r" );
+//    fpReserve = fopen( NULL_FILE, "r" );
     return;
 }
 
@@ -4290,13 +4956,13 @@ void bug( const char *str, int param )
     sprintf( buf + strlen(buf), str, param );
     log_string( buf );
 /* RT removed due to bug-file spamming 
-    fclose( fpReserve );
+//    fclose( fpReserve );
     if ( ( fp = fopen( BUG_FILE, "a" ) ) != NULL )
     {
   fprintf( fp, "%s\n", buf );
   fclose( fp );
     }
-    fpReserve = fopen( NULL_FILE, "r" );
+//    fpReserve = fopen( NULL_FILE, "r" );
 */
 
     return;

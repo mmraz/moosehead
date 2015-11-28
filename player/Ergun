@@ -2,8 +2,8 @@
 Name Ergun~
 Id   983386906
 Email (null)~
-LogO 1132341040
-Vers 31
+LogO 1444695585
+Vers 33
 LnD  A Gladiator~
 Desc Finding yourself being pursued by cityguards, you decide to head to the woods
 west of Midgaard in hopes that the cityguards wouldn't catch you there.
@@ -51,27 +51,34 @@ Desc Finding yourself being pursued by cityguards, you decide to head to the woo
 ~
 Prom <%hhp %mm %vmv %gg %ss %w %e> ~
 Race yinn~
-Clan outcast~
-Outc 262
-RufT 0
+Clan posse~
+Outc 0
+RufT 241
 MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 42 213 0 37
+Kill 42 213 0 38
 Steal 0 0 0
+MSteal 0
 LstK Morphious~
-LstKBy Coranon~
+LstKBy Shoelace~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1131382393
+LstCombatDate 1352483039
 LstKillDate 1130533321
-LstDeathDate 1131716001
-LoginsWOKill 36
-LoginsWODeath 19
-LoginsWOCombat 24
+LstDeathDate 1352483044
+LoginsWOKill 91
+LoginsWODeath 28
+LoginsWOCombat 27
 Bnty 0
-Deity 5255559 huitzilopochtli~
+DeityFavor 2 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 5255559 mojo~
 DeityT -20854 hermes~
 Sac  300
 Sex  1
@@ -79,50 +86,51 @@ Vump  0
 Node 0
 Cap 0
 Created 983386914
-Glad 2 25 0 0 16 2
+Glad 2 26 0 0 17 2
+LastHost 88.193.246.131~
 Cla  9
 Kit wyrmslayer~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 7322525
-Not  1129986219 1130446298 1129986219 1131210186 1129986219 1132178880 1129986219 1130366710 1129986219 1129986219
+Plyd 7359220
+Not  1444489282 1406980220 1129986219 1371977109 1368046667 1444495618 1129986219 1407046784 1129986219 1384474516
 Scro 22
 Rank 0
-Room 1205
-HMV  1826 1826 323 402 318 318
-Gold 5629
-Silv 179
+Room 31603
+HMV  1796 1796 402 402 318 318
+Gold 347
+Silv 2792
 Exp  433758
-Act  BCDEFGIKQSX
+Act  BCDEFGIKQS
 MHSF RSV
 ClnF D
-AfBy CDFJNPTVc
-Comm S
+AfBy DFJPVc
+Comm IS
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ACEFGI
-Pos  5
-Prac 415
+Pos  8
+Prac 413
 Trai 9
-SkiP 4946
-Save  -20
-Alig  1000
-Hit   35
-Dam   45
-SecHit   22
-SecDam   32
-ACs -105 -105 -105 -57
-Attr 18 17 16 20 17 13 13 13
+SkiP 5015
+Save  -14
+Alig  530
+Hit   31
+Dam   40
+SecHit   21
+SecDam   30
+ACs -65 -65 -65 -17
+Attr 18 17 16 20 17 14 14 13
 AMod 8 0 0 3 2 0 0 0
 Pass Er8G0X6MIvCOI~
-Titl ! {YHappy times!{x ({Rin wuv{x)~
+Titl  {x~
 Pnts 94
 TSex 1
 LLev 1
 HMVP 1556 372 318
-Cnd  0 6 42 26
+Cnd  0 4 37 26
 Alias cd cast 'dispel magic'~
 Alias warp cast 'warp'~
 Alias t ca tel self~
@@ -208,7 +216,7 @@ Sk 71 'protection neutral'
 Sk 100 'ray of truth'
 Sk 1 'recharge'
 Sk 97 'refresh'
-Sk 1 'remove curse'
+Sk 75 'remove curse'
 Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
 Sk 100 'shield'
@@ -280,19 +288,14 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'armor'   0  43  15 -20  17          0
-Affc 'protection evil'   0  41   4  -1  24       8192
-Affc 'shield'   0  41  33 -20  17          0
-Affc 'bless'   0  41  31   5  18          0
-Affc 'bless'   0  39  31  -5  24          0
-Affc 'giant strength'   0  38  25   4   1          0
-Affc 'stone skin'   0  37  25 -40  17          0
-Affc 'detect hidden'   0  39  25   0   0         32
-Affc 'detect invis'   0  39  24   0   0          8
-Affc 'detect evil'   0  40  24   0   0          4
-Affc 'haste'   0  44   2   4   2    2097152
-Affc 'fly'   0  43  29   0   0     524288
-Affc 'sneak'   0  49  46   0   0      32768
+Affc 'stone skin'   0  35   1 -40  17          0
+Affc 'bless'   0  44  11  -5  24          0
+Affc 'bless'   0  39  11   5  18          0
+Affc 'giant strength'   0  35   1   4   1          0
+Affc 'detect invis'   0  34   1   0   0          8
+Affc 'detect hidden'   0  37   1   0   0         32
+Affc 'haste'   0  42   4   4   2    2097152
+Affc 'sneak'   0  49  35   0   0      32768
 End
 
 #O
@@ -436,7 +439,7 @@ Vnum 23514
 Nest 0
 PrevOwner Ergun~
 Cond 0
-Wear 4
+Wear -1
 Cost 3690
 End
 
@@ -445,7 +448,7 @@ Vnum 23514
 Nest 0
 PrevOwner Ergun~
 Cond 0
-Wear 3
+Wear 4
 Cost 3690
 End
 
@@ -533,16 +536,6 @@ Cost 0
 End
 
 #O
-Vnum 12063
-Nest 1
-PrevOwner Ergun~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
 Vnum 3049
 Nest 1
 PrevOwner Ergun~
@@ -555,7 +548,7 @@ Cond 0
 Wear -1
 Lev  12
 Cost 0
-Val  53 20 -1 -1 -1
+Val  53 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -572,7 +565,7 @@ Cond 0
 Wear -1
 Lev  12
 Cost 0
-Val  53 20 -1 -1 -1
+Val  53 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -589,7 +582,7 @@ Cond 0
 Wear -1
 Lev  12
 Cost 0
-Val  53 20 -1 -1 -1
+Val  53 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -606,7 +599,7 @@ Cond 0
 Wear -1
 Lev  12
 Cost 0
-Val  53 20 -1 -1 -1
+Val  53 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -617,30 +610,6 @@ PrevOwner Ergun~
 Cond 0
 Wear -1
 Cost 2500000
-End
-
-#O
-Vnum 12
-Nest 1
-PrevOwner Ergun~
-ShD  the head of George W. Bush~
-Desc The severed head of George W. Bush is lying here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20808
-Enchanted
-Nest 1
-PrevOwner Ergun~
-ExtF 67
-Cond 0
-Wear -1
-Cost 1000
-Affc 'enchant weapon'   1  52  -1  13  19          0
-Affc 'enchant weapon'   0  52  -1  13  18          0
 End
 
 #O
@@ -655,21 +624,6 @@ Lev  50
 Cost 1330
 Affc 'enchant weapon'   0  52  -1  13  18          0
 Affc 'enchant weapon'   1  52  -1  13  19          0
-End
-
-#O
-Vnum 2447
-Enchanted
-Nest 1
-PrevOwner Ergun~
-ExtF 786499
-Cond 0
-Wear -1
-Lev  50
-Cost 150
-Affc 'reserved'   1  42  -1  15  12          0
-Affc 'enchant weapon'   1  52  -1   8  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
@@ -698,35 +652,6 @@ Affc 'enchant weapon'   0  52  -1  10  18          0
 End
 
 #O
-Vnum 18150
-Enchanted
-Nest 1
-PrevOwner Ergun~
-ExtF 524352
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  45  -1   2  18          0
-Affc 'enchant weapon'   1  45  -1   2  19          0
-End
-
-#O
-Vnum 10415
-Enchanted
-Nest 1
-PrevOwner Ergun~
-ExtF 83
-Cond 0
-Wear -1
-Lev  50
-Cost 5400
-Affc 'reserved'   1  46  -1  25  12          0
-Affc 'enchant weapon'   1  53  -1  14  19          0
-Affc 'enchant weapon'   0  53  -1  14  18          0
-End
-
-#O
 Vnum 23504
 Enchanted
 Nest 1
@@ -738,21 +663,6 @@ Lev  50
 Cost 2250
 Affc 'enchant weapon'   0  52  -1  11  18          0
 Affc 'enchant weapon'   1  52  -1  11  19          0
-End
-
-#O
-Vnum 12014
-Enchanted
-Nest 1
-PrevOwner Ergun~
-ExtF 323
-Cond 0
-Wear -1
-Cost 0
-Val  6 2 20 7 41
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
@@ -801,30 +711,12 @@ Cost 5000
 End
 
 #O
-Vnum 8504
-Nest 1
-PrevOwner Ergun~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
 Vnum 8517
 Nest 1
 PrevOwner Ergun~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 23504
-Nest 1
-PrevOwner Ergun~
-Cond 0
-Wear -1
-Cost 4500
 End
 
 #O
@@ -843,24 +735,80 @@ Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
-Vnum 22515
-Nest 1
-PrevOwner Ergun~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
 Vnum 10440
 Nest 1
 PrevOwner Ergun~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 7 161 0
+Val  52 10 7 166 0
 Spell 3 'remove curse'
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Ergun~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Ergun~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 18150
+Enchanted
+Nest 1
+PrevOwner Ergun~
+ExtF 524352
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  45  -1   2  18          0
+Affc 'enchant weapon'   1  45  -1   2  19          0
+End
+
+#O
+Vnum 23504
+Nest 1
+PrevOwner Ergun~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 2447
+Enchanted
+Nest 1
+PrevOwner Ergun~
+ExtF 786499
+Cond 0
+Wear -1
+Lev  50
+Cost 150
+Affc 'reserved'   1  42  -1  15  12          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Ergun~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #O
@@ -875,6 +823,65 @@ Lev  50
 Cost 0
 Affc 'enchant weapon'   1  52  -1   8  19          0
 Affc 'enchant weapon'   0  52  -1   8  18          0
+End
+
+#O
+Vnum 10415
+Enchanted
+Nest 1
+PrevOwner Ergun~
+ExtF 83
+Cond 0
+Wear -1
+Lev  50
+Cost 5400
+Affc 'reserved'   1  46  -1  25  12          0
+Affc 'enchant weapon'   1  53  -1  14  19          0
+Affc 'enchant weapon'   0  53  -1  14  18          0
+End
+
+#O
+Vnum 20808
+Enchanted
+Nest 1
+PrevOwner Ergun~
+ExtF 67
+Cond 0
+Wear -1
+Cost 1000
+Affc 'enchant weapon'   1  52  -1  13  19          0
+Affc 'enchant weapon'   0  52  -1  13  18          0
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Ergun~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 12
+Nest 1
+PrevOwner Ergun~
+ShD  the head of George W. Bush~
+Desc The severed head of George W. Bush is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12
+Nest 1
+PrevOwner Ergun~
+ShD  the head of Shoelace~
+Desc The severed head of Shoelace is lying here.~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -900,7 +907,7 @@ End
 Vnum 12086
 Enchanted
 Nest 0
-PrevOwner Coranon~
+PrevOwner Ergun~
 ExtF 17301569
 Cond 0
 Wear 11
@@ -910,17 +917,62 @@ Affc 'enchant armor'   1  53  -1 -10  17          0
 End
 
 #O
-Vnum 18119
+Vnum 307
+Nest 0
+PrevOwner Ergun~
+Cond 0
+Wear 3
+Cost 1
+End
+
+#O
+Vnum 12014
 Enchanted
 Nest 0
 PrevOwner Ergun~
-ExtF 67
+ExtF 323
 Cond 0
 Wear 16
-Lev  50
-Cost 2250
-Affc 'enchant weapon'   0  53  -1  13  18          0
-Affc 'enchant weapon'   1  53  -1  13  19          0
+Cost 0
+Val  6 2 20 7 41
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Shoelace~
+Name bag beta Ergun~
+ShD  a bag made from Ergun's hide~
+Desc A bag of fine Ergun hide catches your eye.  ~
+ExtF 16384
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  18
+Cost 2800
+Val  560 1 -1 90 25
+End
+
+#O
+Vnum 2503
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 168
+End
+
+#O
+Vnum 2503
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 168
 End
 
 #END

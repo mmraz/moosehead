@@ -3,8 +3,8 @@ Name Randal~
 SurN Flagg~
 Id   917478326
 Email (null)~
-LogO 1121550689
-Vers 31
+LogO 1320337043
+Vers 32
 ShD  I kick ass~
 LnD  A Gladiator~
 Desc I wish you could hear my thoughts
@@ -17,16 +17,17 @@ Desc I wish you could hear my thoughts
 And never being able to do a thing.
 
 ~
-Prom %R %z %i %y ~
+Prom %R  %z  %i %y ~
 Race dragon~
 Outc 0
 RufT 0
-MatookT 0
+MatookT 20
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
 Kill 1 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Karag~
 LstKBy Canaris~
 LstAtkedBy no one~
@@ -38,7 +39,11 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
-Deity 3346985 matook~
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+Deity 3346985 mojo~
 DeityT -14639 matook~
 Sac  300
 Sex  1
@@ -47,56 +52,57 @@ Node 0
 Cap 0
 Created 951447543
 Glad 0 0 0 0 0 0
-LastHost 24-51-13-197.ironoh.adelphia.net~
-Cla  7
+LastHost 74.142.211.95~
+Cla  6
 Kit barbarian~
 ClaO 3
 Levl 52
 DLevl 0
-Plyd 4865876
-Not  1100492461 1121151923 1071116463 1121400895 1121330344 1121413182 1121446844 1121450029 1071116463 1111048001
+Plyd 5511797
+Not  1320144904 1318348543 1318185393 1320298146 1320292547 1319990487 1320132860 1320292417 1320279625 1318785693
 Scro 22
 Rank 5
-Room 31816
-HMV  6111 6111 5430 5430 1232 1232
+Room 1250
+HMV  6230 6230 5476 5476 1312 1312
 Gold 50643
-Silv 597575
-Exp  366080
-Act  BCDEGHMNQRSd
+Silv 597566
+Exp  401280
+Act  BCDEGHMNQSd
 MHSF I
 AfBy HJNTVace
-Comm IJL
+Comm JS
 Disp HIJN
-IcgB 0
+IcgB A
 Icg 0
-Wizn ACFL
+Wizn ACEFJLRTUXc
 Pnet A
+Invi 57
 Pos  8
-Prac 1070
-Trai 171
-SkiP 213
+Prac 1915
+Trai 368
+SkiP 308
 Save  -170
-Alig  -998
+Alig  -1000
 Hit   77
 Dam   78
 SecHit   2
 SecDam   3
-ACs -720 -720 -718 -704
-Attr 25 25 25 25 25 25 25 25
+ACs -729 -729 -724 -704
+Attr 25 25 25 25 25 11 14 25
 AMod 20 5 0 22 20 0 0 0
-Pass RaU.ugO0vrLhI~
+Pass Ra9m5aVlyLLiE~
 Bin  A fire within you burns as Randal steps through you, and into reality.~
 Bout Randal explodes into flame as he is turned into nothing more than ashes.~
-Titl  is a super human devil man that cannot die~
+Titl  will return at 9 for the Rumble~
 Pnts 92
 WhoName Satan~
 TSex 1
-LLev 1326
-HMVP 1111 430 932
+LLev 1420
+HMVP 1230 476 1012
 Cnd  0 0 0 0
 Edit ABCEH
-ERange 10100 10199
 ERange 10200 10299
+ERange 10100 10199
 Alias k kill~
 Alias gp grat PPPPPpppppOOOOOOOooooWWWWWWwwwwEEEeeeeRRRRRrrrrr *writhe*~
 Alias cw c word~
@@ -112,10 +118,11 @@ Alias 7 loot Eilt cor~
 Alias 8 gren mol~
 Alias 9 flee~
 Alias purr say HA!~
-Macro 100 wizi 57; goto 1250; quit~
-Macro duel goto 16174;trans %1;trans %2~
-Macro lgrat grats Randal rips a strand from the nether realm and hands it to %1 ...Grats!~
 Macro lg grats Randal rips a strand from the nether realm and hands it to %1 ...Grats!;get strand bag; at %1 give strand %1~
+Macro lgrat grats Randal rips a strand from the nether realm and hands it to %1 ...Grats!~
+Macro duel goto 16174;trans %1;trans %2~
+Macro 100 wizi 57; goto 1250; quit~
+Macro 123 emo Slays You!;echo You are {RDEAD{x!~
 Spz 'mace'
 Sk 100 'reserved'
 Sk 100 'opiate'
@@ -513,27 +520,6 @@ Cost 0
 End
 
 #O
-Vnum 1250
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1254
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'haste'
-Spell 2 'frenzy'
-Spell 3 'bless'
-End
-
-#O
 Vnum 1251
 Nest 1
 PrevOwner (null)~
@@ -672,31 +658,6 @@ Cost 500000
 End
 
 #O
-Vnum 3378
-Nest 1
-PrevOwner Delerium~
-Name happy thought~
-ShD  a happy thought~
-Desc This jewel fills your mind with happy thoughts knowing that YOU helped a brainless kid in Boinga.~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 8518
-Nest 1
-PrevOwner Tabor~
-Name jar olive testicles rat~
-ShD  a jar of rat's testicles~
-Desc A strange looking jar of olives has been left behind.  Hmm, wonder if they have pits.~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'sanctuary'
-End
-
-#O
 Vnum 16501
 Nest 1
 PrevOwner (null)~
@@ -742,18 +703,6 @@ Cost 0
 End
 
 #O
-Vnum 1250
-Nest 1
-PrevOwner (null)~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 14
 Nest 1
 PrevOwner Alexia~
@@ -762,15 +711,6 @@ Desc The sliced-off arm of a blackjack dealer is lying here.~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Helios~
-Cond 0
-Wear -1
-Cost 100000
 End
 
 #O
@@ -807,1176 +747,6 @@ Val  0 0 0 1 4
 End
 
 #O
-Vnum 1111
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 11
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Kerbouchard~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 2
-PrevOwner Xar~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 1111
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 11
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1250
-Nest 2
-PrevOwner Therman~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 1250
 Nest 1
 PrevOwner (null)~
@@ -1998,44 +768,6 @@ Desc A broken piece of Randal's Katana lies here sizzling with energy!~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 1250
-Nest 1
-PrevOwner Reznar~
-Name Piece katana randal~
-ShD  A broken piece of Randal's Katana!~
-Desc A broken piece of Randal's Katana lies here sizzling with energy!~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1251
-Nest 1
-PrevOwner (null)~
-Name strand nether~
-ShD  {Ba Strand of the nether realm{x~
-Desc {Ba Strand of the nether realm flickers from here to reality{x~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'shield'
-End
-
-#O
-Vnum 1251
-Nest 1
-PrevOwner (null)~
-Name strand nether~
-ShD  {Ba Strand of the nether realm{x~
-Desc {Ba Strand of the nether realm flickers from here to reality{x~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'shield'
 End
 
 #O
@@ -2055,17 +787,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 3800
-End
-
-#O
-Vnum 8064
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3800
-Val  35 155 84 203 -1
-Spell 3 'tower of iron will'
 End
 
 #O
@@ -2151,34 +872,2457 @@ Spell 3 'cure blindness'
 End
 
 #O
-Vnum 11098
-Enchanted
+Vnum 20740
 Nest 1
-PrevOwner Jacen~
-Name Scythe~
-ShD  the {DGrim Thirst {RScythe{x~
-Desc You see a {RScythe{x radiating extreme energy here.~
-ExtF 67
+PrevOwner Nike~
+Name skynyrd castrated ball~
+ShD  Skynyrd's castrated balls~
+Desc Skynyrd's castrated balls lay in a pool of {rblood{x~
 Cond 0
 Wear -1
-Lev  50
-Cost 3500
-Affc 'enchant weapon'   1  52  -1  10  19          0
-Affc 'enchant weapon'   0  52  -1  10  18          0
+Cost 4500
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12
+Nest 1
+PrevOwner Kerbouchard~
+ShD  the head of Nod~
+Desc The severed head of Nod is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 16729
+Nest 1
+PrevOwner (null)~
+Name pair bunny ears~
+ShD  a pair of {Wbunny ears{x~
+Desc A pair of bunny ears lies here!~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 12
+Nest 1
+PrevOwner (null)~
+ShD  the head of Karag~
+Desc The severed head of Karag is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Majutsushi~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Majutsushi~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Majutsushi~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Majutsushi~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Majutsushi~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 23106
+Nest 1
+PrevOwner (null)~
+Name kitty ears~
+ShD  some cute kitty ears~
+Desc Some kitty ears lie here.~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 16500
+Nest 1
+PrevOwner (null)~
+Name Dark robe matook~
+ShD  A {DDark{x robe of Matook~
+Desc A dark robe of Matook lays here.~
+Cond 0
+Wear -1
+Cost 144
+End
+
+#O
+Vnum 1254
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'haste'
+Spell 2 'frenzy'
+Spell 3 'bless'
 End
 
 #O
 Vnum 22044
 Nest 1
-PrevOwner Mindweaver~
+PrevOwner Helios~
 Cond 0
 Wear -1
 Cost 100000
 End
 
 #O
+Vnum 3378
+Nest 1
+PrevOwner Delerium~
+Name happy thought~
+ShD  a happy thought~
+Desc This jewel fills your mind with happy thoughts knowing that YOU helped a brainless kid in Boinga.~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
 Vnum 1250
 Nest 1
+PrevOwner Rex~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner Rex~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner Rex~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner Rex~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner (null)~
+Name Voucher Randal Restring~
+ShD  A restring voucher from Randal ~
+Desc This voucher grants a restring from Randal for when he is not at work~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1111
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 11
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner (null)~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Kerbouchard~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Xar~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 2
+PrevOwner Therman~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1251
+Nest 2
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1250
+Nest 2
 PrevOwner Corleone~
 Name Piece katana randal~
 ShD  A broken piece of Randal's Katana!~
@@ -2189,15 +3333,88 @@ Cost 0
 End
 
 #O
-Vnum 11
-Nest 1
-PrevOwner (null)~
-ShD  the corpse of Abaddon~
-Desc The corpse of Abaddon is lying here.~
-ExtF 67125248
+Vnum 8518
+Nest 2
+PrevOwner Tabor~
+Name jar olive testicles rat~
+ShD  a jar of rat's testicles~
+Desc A strange looking jar of olives has been left behind.  Hmm, wonder if they have pits.~
 Cond 0
 Wear -1
-Lev  51
+Cost 0
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 11098
+Enchanted
+Nest 2
+PrevOwner Jacen~
+Name Scythe~
+ShD  the {DGrim Thirst {RScythe{x~
+Desc You see a {RScythe{x radiating extreme energy here.~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 3500
+Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner Rex~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8064
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3800
+Val  35 155 84 203 -1
+Spell 3 'tower of iron will'
+End
+
+#O
+Vnum 12040
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner Nhi~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner Nhi~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
 Cost 0
 End
 
@@ -2210,6 +3427,68 @@ ShD  Mindweaver's Eternal Soul~
 Desc Mindweaver's Eternal Soul lays here collecting dust.~
 Cond 0
 Wear -1
+Cost 0
+End
+
+#O
+Vnum 10061
+Nest 1
+PrevOwner (null)~
+Name Patat Soul~
+ShD  The soul of Patat~
+Desc The soul of Patat lies here screaming for release.~
+Cond 0
+Wear -1
+Cost 10
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16140
+Nest 1
+PrevOwner (null)~
+Name Nhi Soul~
+ShD  Nhi's Eternal Soul~
+Desc The Eternal Soul of Nhi lays here~
+Cond 0
+Wear -1
+Cost 300
+End
+
+#O
+Vnum 30050
+Nest 1
+PrevOwner (null)~
+Name Soul Justo~
+ShD  Justo's Eternal Soul~
+Desc Justo's Eternal Soul lies here collecting dust~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5550
+Nest 1
+PrevOwner (null)~
+Name anazar soul~
+ShD  Anazar's Eternal Soul~
+Desc Anazar's Eternal Soul sits here collecting dust.~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 11
+Nest 1
+PrevOwner (null)~
+ShD  the corpse of Abaddon~
+Desc The corpse of Abaddon is lying here.~
+ExtF 67125248
+Cond 0
+Wear -1
+Lev  51
 Cost 0
 End
 
@@ -2829,6 +4108,15 @@ Cost 10000
 End
 
 #O
+Vnum 1111
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 11
+End
+
+#O
 Vnum 16501
 Nest 0
 PrevOwner (null)~
@@ -2882,7 +4170,7 @@ Name gi shirt~
 ShD  a {Dblack{x Gi top~
 Desc Folded neatly in the corner a gi top catches your eye.~
 Cond 0
-Wear -1
+Wear 5
 Cost 900
 End
 
@@ -2894,18 +4182,6 @@ Name kstring~
 Cond 0
 Wear 8
 Cost 5200
-End
-
-#O
-Vnum 20740
-Nest 0
-PrevOwner Nike~
-Name skynyrd castrated ball~
-ShD  Skynyrd's castrated balls~
-Desc Skynyrd's castrated balls lay in a pool of {rblood{x~
-Cond 0
-Wear -1
-Cost 4500
 End
 
 #O
@@ -2921,41 +4197,17 @@ Cost 45000
 End
 
 #O
-Vnum 16500
-Nest 0
-PrevOwner (null)~
-Name Dark robe matook~
-ShD  A {DDark{x robe of Matook~
-Desc A dark robe of Matook lays here.~
-Cond 0
-Wear 5
-Cost 144
-End
-
-#O
-Vnum 12040
+Vnum 1111
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 0
-End
-
-#O
-Vnum 23106
-Nest 0
-PrevOwner (null)~
-Name kitty ears~
-ShD  some cute kitty ears~
-Desc Some kitty ears lie here.~
-Cond 0
-Wear -1
-Cost 1500
+Cost 11
 End
 
 #O
 Vnum 1251
-Nest 0
+Nest 1
 PrevOwner (null)~
 Name strand nether~
 ShD  {Ba Strand of the nether realm{x~
@@ -2968,7 +4220,7 @@ End
 
 #O
 Vnum 1251
-Nest 0
+Nest 1
 PrevOwner (null)~
 Name strand nether~
 ShD  {Ba Strand of the nether realm{x~
@@ -2980,79 +4232,239 @@ Spell 3 'shield'
 End
 
 #O
-Vnum 3377
-Nest 0
-PrevOwner Majutsushi~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Majutsushi~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Majutsushi~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Majutsushi~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Majutsushi~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 12
-Nest 0
+Vnum 1251
+Nest 1
 PrevOwner (null)~
-ShD  the head of Karag~
-Desc The severed head of Karag is lying here.~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
 Cond 0
 Wear -1
 Cost 0
+Spell 3 'shield'
 End
 
 #O
-Vnum 16729
-Nest 0
+Vnum 1251
+Nest 1
 PrevOwner (null)~
-Name pair bunny ears~
-ShD  a pair of {Wbunny ears{x~
-Desc A pair of bunny ears lies here!~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
 Cond 0
 Wear -1
-Cost 10
+Cost 0
+Spell 3 'shield'
 End
 
 #O
-Vnum 12
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 1251
+Nest 1
+PrevOwner (null)~
+Name strand nether~
+ShD  {Ba Strand of the nether realm{x~
+Desc {Ba Strand of the nether realm flickers from here to reality{x~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'shield'
+End
+
+#O
+Vnum 31723
 Nest 0
-PrevOwner Kerbouchard~
-ShD  the head of Nod~
-Desc The severed head of Nod is lying here.~
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3874
+Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -3061,7 +4473,7 @@ End
 #O
 Vnum 6517
 Nest 0
-PrevOwner Mindweaver~
+PrevOwner (null)~
 Name bliss unending~
 ShD  {WUnending{x {CB{cl{Ci{cs{Cs{x~
 Desc A fountain of {WUnending{x {CB{cl{Ci{cs{Cs{x gushes here.~
@@ -3071,12 +4483,552 @@ Cost 0
 End
 
 #O
-Vnum 5550
+Vnum 22044
+Nest 0
+PrevOwner Mindweaver~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 16751
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 10000
+Cost 1000
+End
+
+#O
+Vnum 4909
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 4908
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 4912
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1800
+End
+
+#O
+Vnum 4911
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 4910
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 4913
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 16748
+Nest 0
+PrevOwner (null)~
+Name gruff spikey hug~
+ShD  {RKarag's{x {Dgruff{x, spikey {YHUG{x!!~
+Desc Something is moving along the ground... it's... a {YHUG{x.. run.. it's {rKarag{x!!~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 3811
+Nest 0
+PrevOwner PieMaster~
+Cond 0
+Wear -1
+Cost 18
 End
 
 #END

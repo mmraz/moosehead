@@ -1,0 +1,369 @@
+#AREA
+../newareas/scott.are~
+Scottland~
+{ All }         Scottland~
+25000 25014
+
+#MOBILES
+#25000
+Louis Armstrong~
+Louis Armstrong~
+Louis Armstrong is here to sing for you.
+~
+Fido is a small dog that has a foul smell and pieces of rotted meat hanging
+around its teeth.
+~
+fido~
+ABFGHU 0 -200 0
+0 0 1d6+4 1d1+99 1d4+0 bite
+10 10 10 10
+0 0 0 0
+stand stand either 0
+0 0 small 0
+#25001
+Lumiere~
+Lumiere~
+Lumiere is here ready to serve you.
+~
+Lumiere is a French servant who was turned into an animated candlestick
+by a wicked witch.  His only goal in life is to pamper you to the fullest.
+~
+fido~
+ABFGHU 0 -200 0
+0 0 1d6+4 1d1+99 1d4+0 bite
+10 10 10 10
+0 0 0 0
+stand stand either 0
+0 0 small 0
+#0
+
+#OBJECTS
+#25000
+table dinning~
+a large dinning room table~
+a large dinning room table stands before you.~
+~
+furniture I 0
+12 50 BDGN 110 110
+0 0 0 P
+E
+tables round~
+Each table has only two chairs, although you could rearrange
+things such that about a dozen people could seat themselves
+anywhere in the room.  Each table is made of solid oak, is
+polished to a shine, and looks very heavy.
+~
+#25001
+menu dinner~
+a restaurant menu~
+A restaurant menu lies before you.~
+oldstyle~
+furniture 0 A
+0 0 0 0 0
+0 0 0 P
+E
+menu~
+--- Menu du Jour  ---
+ 
+-= Entrees =-
+ 
+Quiche aux Crabe
+Diced Radicchio in light dressing
+Escargots Beurre
+ 
+-= Main Courses =-
+ 
+Chicken Cachiatore
+Glazed Black Forest Ham with garden vegetables
+Fettuchine Niagara with fresh peaches
+ 
+-= Deserts =-
+ 
+Baked Alaska
+Fresh Fruit Salad
+Chocolate Souffle
+ 
+--- Please be out Guest! ----
+ 
+~
+#25002
+chair dinning room~
+a dinning room chair~
+A luxurious dinning room chair invites you to sit down.~
+~
+furniture O 0
+2 100 BE 100 100
+0 0 0 P
+E
+chair~
+Your basic wooden chair. You expected a Queen Anne maybe?
+~
+#25003
+quiche crabe~
+une quiche au crabe~
+a quiche au crabe is before you.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+E
+quiche crabe~
+La quiche au crabe is a delicacy made of baked eggs in a pie fashion.
+fresh vegetables and flakes of ham enhance the flavor of this French dish.
+~
+E
+wings~
+These are Wilf's special wings, guaranteed to burn the skin off the roof 
+of your mouth.  Care for a bite? ~
+#25004
+Diced Radicchio~
+a bowl of diced radicchio~
+a bowl of diced radicchio is in front of you.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+E
+diced radicchio~
+Diced radicchio is an Italian delicacy which can be compared to Roman
+salad, but a bit crunchier.  Light dressing usualy accompany this dish.
+~
+E
+wings~
+These are Wilf's special wings, guaranteed to burn the skin off the roof 
+of your mouth.  Care for a bite? ~
+#25005
+escargots beurre~
+a platter of escargots au beurre~
+A platter of escargots au beurre is in front of you.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+E
+escargots beurre~
+Escargots au beurre are snail gently roasted in blackened butter.
+Although the thought of eating snails may be repulsive, the taste will
+quickly change your mind.
+~
+E
+wings~
+These are Wilf's special wings, guaranteed to burn the skin off the roof 
+of your mouth.  Care for a bite? ~
+#25006
+chicken cachiatore~
+a dish of chicken cachiatore~
+a dish of chicken cachiatore is before you.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+E
+chicken cachiatore~
+Chicken cachiatore is an Italian dish with pieces of chicken simmered
+for 6 hours in a tomato and red wine mixture.  The tender meat melts
+in your mouth as you eat it.
+~
+E
+wings~
+These are Wilf's special wings, guaranteed to burn the skin off the roof 
+of your mouth.  Care for a bite? ~
+#25007
+ham glazed black forest~
+glazed black forest ham~
+a plate of glazed black forest ham is before you.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+E
+ham glazed black forest~
+Black forest ham is a typical North American dish.  This ham was baked
+for 90 minutes in it's own juices to offer the best taste possible.
+~
+E
+wings~
+These are Wilf's special wings, guaranteed to burn the skin off the roof 
+of your mouth.  Care for a bite? ~
+#25008
+fettuchine niagara~
+fettuchine niagara~
+fettuchine niagara is in front of you.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+E
+fettuchine niagara~
+Fettuchine Niagara is a delicious combination of aldente pasta
+with fresh apples and peaches, covered in a bechamel sauce.
+~
+E
+wings~
+These are Wilf's special wings, guaranteed to burn the skin off the roof 
+of your mouth.  Care for a bite? ~
+#25009
+baked alaska~
+baked alaska ~
+a baked alaska melts before your eyes~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+E
+baked alaska~
+A baked alaska is an ice cream ball that has been deep fried in a sweet
+batter. The combination of hot and cold excites your taste buds.
+~
+E
+wings~
+These are Wilf's special wings, guaranteed to burn the skin off the roof 
+of your mouth.  Care for a bite? ~
+#25010
+fruit salad~
+a bowl of fresh fruit salad~
+a bowl of fresh fruit salad is before you~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+E
+fruit salad fresh~
+The fruit salad is made out of fresh kiwis, apples, oranges, mangos
+strawberries and bananas, all in their natural juices.
+~
+E
+wings~
+These are Wilf's special wings, guaranteed to burn the skin off the roof 
+of your mouth.  Care for a bite? ~
+#25011
+chocolate souffle~
+a chocolate souffle~
+a chocolate souffle oozes its smell at you~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+E
+chocolate souffle~
+a souffle is an egg based bread-like desert which requires very
+meticulous technique to correctly bake.  If you undercook or overcook
+your souffle, you end up with a pancake which never rises.
+~
+E
+wings~
+These are Wilf's special wings, guaranteed to burn the skin off the roof 
+of your mouth.  Care for a bite? ~
+#25012
+a black leather couch~
+a black leather couch~
+a black leather couch is here~
+~
+furniture 0 0
+5 100 CEFIKMNO 0 0
+0 1 0 P
+#25013
+asti spumante Martini Rossi~
+a bottle of Asti Spumante~
+a bottle of Asti Spumante is in front of you.~
+~
+drink I AO
+100 100 'red wine' 0 0
+0 10 0 P
+E
+asti spumante bottle~
+Asti Spumante is an Italian sparkling wine.  Not as bubbly as Champagne
+asti is softer to the palate with a sweeter taste.
+~
+#25014
+asti glass glasses~
+a glass of Asti Spumante~
+a glass of Asti Spumante is before you.~
+oldstyle~
+drink 0 A
+6 6 'red wine' 0 0
+0 10 13 P
+E
+/back~
+Asti Spumante is an Italian sparkling wine.  Not as bubbly as Champagne
+asti is softer to the palate with a sweeter taste.
+~
+#0
+
+#ROOMS
+#25000
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 25001
+D3
+Exit ~
+door~
+0 0 25003
+S
+#25001
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 25002
+D2
+Exit ~
+door~
+0 0 25000
+S
+#25002
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 25004
+D3
+Exit ~
+door~
+0 0 25001
+S
+#25003
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 25000
+S
+#25004
+Generic room name~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 25002
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 25000 spec_fido           	* Louis Armstrong
+M 25001 spec_fido           	* Lumiere
+S
+
+#$

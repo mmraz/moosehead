@@ -1,9 +1,9 @@
 #PLAYER
-Name Shadarharan~
+Name ShadarHaran~
 Id   978135477
 Email (null)~
-LogO 978135891
-Vers 27
+LogO 1308244236
+Vers 31
 Prom <%hhp %mm %vmv> ~
 Race kender~
 Outc 0
@@ -12,55 +12,65 @@ MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1307222598
+LstKillDate 1307222598
+LstDeathDate 1307222598
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 mojo~
-Sac  28
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 978135489
 Glad 0 0 0 0 0 0
-LastHost host62-7-81-252.btinternet.com 757970~
+LastHost 99.110.87.86~
 Cla  14
 ClaO 3
-Levl 2
+Levl 4
 DLevl 0
-Plyd 376
-Not  0 0 0 0 0 0 0 0 0
+Plyd 22565
+Not  1308149517 1308155755 1308002469 1308196889 1308002469 1308188861 1308002469 1308091898 1308002469 1308002469
 Scro 22
 Rank 0
-Room 3001
-HMV  15 32 103 103 70 104
+Room 4418
+HMV  65 65 110 110 114 114
 Gold 30
-Silv 541
-Exp  5868
+Silv 349
+Exp  11683
 Act  CDEFGHQ
-Comm DGIR
+MHSF R
+AfBy HTV
+Comm DR
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 6
-Trai 5
-Save  -1
-Alig  750
-Hit   1
-ACs 75 75 75 79
-Attr 16 13 13 18 14
-AMod 0 0 0 0 0
-Pass ShFh0G5Xc3lz.~
-Titl  the confused~
+SkiP 5
+Save  -2
+Alig  1000
+Hit   7
+Dam   5
+SecHit   2
+ACs 27 25 25 40
+Attr 20 17 17 20 17 13 13 13
+AMod 7 1 2 6 2 0 0 0
+Pass SnCMpAoukvrZE~
+Titl  : LFM for 40 man Hogger~
 Pnts 56
 TSex 1
-LLev 0
-HMVP 32 103 104
-Cnd  0 32 40 40
+LLev 1
+HMVP 55 110 114
+Cnd  0 26 44 7
 Sk 1 'axe'
 Sk 1 'dagger'
 Sk 1 'flail'
@@ -69,11 +79,11 @@ Sk 1 'polearm'
 Sk 1 'spear'
 Sk 80 'sword'
 Sk 1 'whip'
-Sk 1 'bash'
+Sk 75 'bash'
 Sk 1 'disarm'
 Sk 1 'dodge'
 Sk 1 'dual wield'
-Sk 1 'enhanced damage'
+Sk 66 'enhanced damage'
 Sk 1 'parry'
 Sk 1 'rescue'
 Sk 1 'shield block'
@@ -89,7 +99,15 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'blademaster default'
 Gr 'weaponsmaster'
-Affc 'armor'   0  29  29 -20  17          0
+Affc 'armor'   0  52  29 -20  17          0
+Affc 'shield'   0  49  53 -20  17          0
+Affc 'haste'   0  51   5   4   2    2097152
+Affc 'sanctuary'   0  50   0   0   0        128
+Affc 'fly'   0  51  48   0   0     524288
+Affc 'giant strength'   0  51  45   4   1          0
+Affc 'blur'   0  53   3 -20  17          0
+Affc 'bless'   0  16  19   2  18          0
+Affc 'bless'   0  18  19  -2  24          0
 End
 
 #O
@@ -97,27 +115,9 @@ Vnum 3716
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
-Val  0 0 192 0 0
-End
-
-#O
-Vnum 3703
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 5
-Cost 0
-End
-
-#O
-Vnum 3702
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 16
-Cost 360
+Val  0 0 85 0 0
 End
 
 #O
@@ -130,48 +130,12 @@ Cost 0
 End
 
 #O
-Vnum 2445
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 2444
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
 Vnum 3707
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 7
 Cost 72
-End
-
-#O
-Vnum 3712
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3713
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 48
 End
 
 #O
@@ -179,7 +143,7 @@ Vnum 3708
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 8
 Cost 72
 End
 
@@ -188,7 +152,7 @@ Vnum 3705
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 4
 Cost 72
 End
 
@@ -197,7 +161,7 @@ Vnum 3705
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 3
 Cost 72
 End
 
@@ -206,25 +170,16 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 15
 Cost 48
 End
 
 #O
-Vnum 3708
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
 Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 14
 Cost 48
 End
 
@@ -233,7 +188,7 @@ Vnum 3710
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 10
 Cost 72
 End
 
@@ -242,7 +197,7 @@ Vnum 3709
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 9
 Cost 72
 End
 
@@ -253,6 +208,173 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
+End
+
+#O
+Vnum 4440
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear 13
+Cost 0
+End
+
+#O
+Vnum 4438
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear 5
+Cost 0
+End
+
+#O
+Vnum 4439
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4434
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4434
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5740
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear 0
+Cost 1000
+End
+
+#O
+Vnum 5234
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5233
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5232
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 3715
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 20405
+Nest 0
+PrevOwner Volbeat~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2416
+Nest 0
+PrevOwner Darkley~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3726
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 3724
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3706
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 6
+Cost 72
+End
+
+#O
+Vnum 3021
+Enchanted
+Nest 0
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear 16
+Lev  4
+Cost 250
+Affc 'enchant weapon'   1  53  -1   5  19          0
+Affc 'enchant weapon'   0  53  -1   5  18          0
 End
 
 #END

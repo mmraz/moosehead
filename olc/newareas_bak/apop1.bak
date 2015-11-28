@@ -1,0 +1,397 @@
+#AREA
+../newareas/apop1.are~
+Realm Of Despair  ~
+ 35-51  Prowler Realm Of Despair  ~
+5600 5622
+
+#MOBILES
+#5600
+Lestat~
+Vampire Lestat is waiting for some new blood~
+Hee is a evil looking master of all vampires.
+~
+Generic description.
+b w b w b w b w
+rook knight bishop king queen bishop knight rook
+~
+human~
+AT 0 0 0
+40 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 FHS
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#5601
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#5602
+servant critdova~
+the servant~
+The servant of this castle is here ready the serve you.
+~
+The servant seems to be very old. His hair or whats left of it is all grey
+and his skin looks very wrinkled. He is wearing very fine clothes and looks
+like a real gentleman.
+~
+human~
+AT JP -1000 0
+30 20 6d12+853 1d100+0 4d6+8 bite
+-8 -8 -8 -5
+DEFINU BP 0 FHN
+stand stand male 5
+Ic 0 medium 0
+F for A
+F par GHIJK
+#0
+
+#OBJECTS
+#5600
+Diamond Helmet~
+diamond helmet~
+A diamond studded helmet is here collecting dust.~
+diamonds~
+armor AGLPS AE
+12 8 10 9 0
+39 80 40000 P
+A
+19 3
+A
+18 2
+A
+4 1
+#5601
+diamond sword~
+a diamond sword~
+A sword worth ten times its weight in gold lies here.~
+metal~
+weapon ALMPS AN
+sword 3 12 wrath DG
+39 120 12000 P
+A
+2 -2
+A
+19 1
+A
+18 2
+#5602
+gauntlets diamond~
+diamond gauntlets~
+Diamond studded gauntlets seem to have been left behind.~
+diamonds~
+armor ALPS AH
+12 8 10 8 0
+39 40 8000 P
+A
+19 2
+A
+13 25
+A
+1 2
+#5603
+breastplate diamond~
+a diamond breastplate~
+A diamond studded breastplate lies here.~
+diamonds~
+armor ALPS AD
+12 8 10 8 0
+39 100 10000 P
+A
+13 25
+A
+19 2
+A
+18 2
+A
+1 2
+#5604
+diamond key~
+an oddly shaped diamond~
+A funny looking diamond lies here.~
+diamonds~
+key AHPTV A
+0 0 0 0 0
+0 10 0 P
+#5605
+onyx dagger~
+an onyx dagger~
+An onyx dagger lies here.~
+Onyx~
+weapon CHT AN
+dagger 4 7 pierce AC
+35 20 4500 P
+A
+19 1
+A
+18 4
+A
+2 1
+#5606
+onyx armplates~
+a set of onyx armplates~
+a set of onyx armplates lie here.~
+Onyx~
+armor CGT AI
+10 10 10 2 0
+35 30 9000 P
+A
+12 20
+A
+4 2
+A
+3 2
+#5607
+onyx braclet~
+an onyx bracer~
+An onyx bracer lies here.~
+Onyx~
+gem BCGTU AM
+0 0 0 0 0
+35 20 12000 P
+A
+18 2
+A
+13 15
+A
+12 15
+A
+19 2
+#5608
+onyx dust~
+a cloud of black dust~
+Dust of a crushed Onyx is scattered across the floor.~
+Onyx~
+gem CTY AQ
+0 0 0 0 0
+35 5 11000 P
+F
+A 0 0 B
+A
+20 -3
+A
+19 2
+#5609
+key onyx~
+an onyx key~
+an onyx key lies here.~
+Onyx~
+key CT AO
+0 0 0 0 0
+0 5 0 P
+#5610
+sapphire mace~
+a sapphire mace~
+a sapphire studded mace lies here.~
+Sapphires~
+weapon ABI AN
+mace 4 10 chill BI
+44 120 13000 P
+A
+19 2
+A
+18 3
+A
+13 20
+#5611
+sapphire belt~
+a sapphire studded belt~
+a sapphire studded belt lies here.~
+Sapphires~
+armor ABI AL
+11 10 12 8 0
+44 30 9000 P
+F
+A 0 0 DF
+A
+19 1
+A
+18 2
+A
+12 20
+#5612
+shield sapphire~
+a sapphire shield~
+A sapphire shield lies here.~
+Sapphires~
+armor ABI AJ
+12 10 9 4 0
+44 120 11000 P
+A
+19 2
+A
+18 2
+#5613
+eye sapphire~
+an eye of the sapphire dragon~
+An eye of the sapphire dragon rolls across the floor.~
+flesh~
+light ABI AO
+0 0 -1 0 0
+44 20 5000 P
+A
+19 2
+A
+4 3
+#5614
+sapphire key~
+a sapphire key~
+A small key with Sapphires embedded in it lies here.~
+iron~
+key ABHVZ AO
+0 0 0 0 0
+0 5 0 P
+#5615
+chest~
+a sapphire chest~
+The Sapphire Dragon's treasure chest sits in the middle of the room.~
+iron~
+container A 0
+200 ACD 0 200 100
+0 0 0 P
+#5616
+key~
+a small key~
+a small key lies here.~
+iron~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#5617
+key~
+a large key~
+a large key lies here.~
+iron~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#5618
+key~
+a glowing key~
+A glowing key lies here.~
+iron~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#5619
+key~
+a bent key~
+A bent key lies here.~
+iron~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#5620
+chest~
+a diamond chest~
+A large chest sparkling with diamonds is tucked away in the corner.~
+iron~
+container A 0
+200 ACD 0 200 100
+0 0 0 P
+#5621
+chest~
+an onyx chest~
+An ebony colored chest is hidden in the shadows.~
+iron~
+container A 0
+200 ACD 0 200 100
+0 0 0 P
+#5622
+chest~
+an emerald chest~
+A brilliant green chest glows softly.~
+iron~
+container A 0
+200 ACD 0 200 100
+0 0 0 P
+#0
+
+#ROOMS
+#5600
+swamp~
+Begining.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 5601
+E
+castle~
+You see a castle on a top of a big mountain. It seems to be just as 
+old as the road you're walking in. You feel strange when you look at it...
+Something tells you not to go there. You feel that everything isn't right
+there....and suddenly all those feelings are gone.
+~
+E
+mirror~
+You see your head in the mirror, and your head tells you, 'Jack Ass!'
+~
+E
+door~
+The door leading into the Disco2000 is a big wooden door. You can see
+the evil doorman looking behind the door, waiting to get your money.
+~
+S
+#5601
+swamp~
+Third room
+~
+0 C 0
+D1
+Exit ~
+door~
+0 0 5602
+D3
+Exit ~
+door~
+0 0 5600
+S
+#5602
+Entrance to the Castle of Critdova.~
+You have entered the Castle of Critdova. It's very dark and silent here,
+no one seems to be home. Walls of this castle are covered with spider's web.
+Under the dust there seems to be a painting of some sort. You are feeling 
+strange like someone was watching you, but you cant see anyone...until 
+suddenly a man dressed in tailcoat approaches you...
+~
+0 D 2
+D3
+Exit ~
+door~
+0 0 5601
+E
+painting~
+You are looking at a portrait of a serious looking old gentleman, 
+dressed in black. His skin is pale and he has no hair. He looks as
+if he was in terrible pain.
+~
+S
+#5603
+Generic room name~
+Generic room description.
+~
+0 C 2
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

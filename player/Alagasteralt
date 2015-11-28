@@ -2,8 +2,8 @@
 Name Alagasteralt~
 Id   1006487667
 Email (null)~
-LogO 1032315087
-Vers 31
+LogO 1329959770
+Vers 33
 LnD  A Gladiator~
 Prom <%hhp %mm %vmv> ~
 Race faerie~
@@ -11,10 +11,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,52 +27,59 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
-Deity 0 mojo~
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+Deity 0 xochipili~
 DeityT -39 mojo~
-Sac  300
+Sac  148
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1006487678
-Glad 0 0 0 0 1 0
-LastHost 157.89.174.92~
+Glad 0 1 0 0 3 0
+LastHost 76.177.53.144~
 Cla  3
 ClaO 3
 Levl 1
 DLevl 0
-Plyd 2238
-Not  1032313908 1032313908 1032313908 1032313908 1032313908 1032313908 1032313908 1032313908 1032313908 1032313908
+Plyd 21927
+Not  1329188224 1329188224 1329188224 1329188224 1329188224 1329188224 1329188224 1329188224 1329188224 1329188224
 Scro 22
 Rank 0
-Room 3054
-HMV  150 150 100 100 100 100
+Room 16009
+HMV  62 200 100 100 100 100
 Gold 0
-Silv 4
-Exp  3360
+Silv 24
+Exp  12039
 Act  CDEFGHKQ
+MHSF R
 AfBy DFJT
-Comm GIR
+Comm GI
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-SkiP 3
-Save  -6
-Alig  -750
+Prac 2
+SkiP 12
+Save  -5
+Alig  -1000
 Hit   6
 SecHit   5
-ACs 80 80 80 80
-Attr 11 20 18 23 8 13 13 13
-AMod 0 0 0 0 0 0 0 0
+ACs 86 84 84 100
+Wimp  10
+Attr 11 20 18 23 8 17 8 13
+AMod 2 -1 1 2 1 0 0 0
 Pass AlTzCmuON4DI6~
 Titl  the confused~
 Pnts 48
 TSex 1
 LLev 1
-HMVP 150 100 100
-Cnd  0 32 40 40
-Sk 80 'axe'
+HMVP 200 100 100
+Cnd  0 0 8 8
+Sk 85 'axe'
 Sk 1 'dagger'
 Sk 1 'flail'
 Sk 1 'mace'
@@ -79,13 +87,13 @@ Sk 1 'polearm'
 Sk 1 'spear'
 Sk 1 'sword'
 Sk 1 'whip'
-Sk 1 'bash'
+Sk 12 'bash'
 Sk 1 'disarm'
 Sk 1 'dodge'
-Sk 1 'enhanced damage'
+Sk 28 'enhanced damage'
 Sk 25 'parry'
 Sk 1 'rescue'
-Sk 73 'shield block'
+Sk 80 'shield block'
 Sk 50 'scan'
 Sk 1 'second attack'
 Sk 1 'third attack'
@@ -98,25 +106,14 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'weaponsmaster'
-Affc 'armor'   0  43  31 -20  17          0
-Affc 'bless'   0  43  44  -5  24          0
-Affc 'bless'   0  43  44   5  18          0
-End
-
-#O
-Vnum 3716
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 0
-Cost 0
-Val  0 0 148 0 0
+Affc 'bless'   0  32   9  -5  24          0
+Affc 'bless'   0  34   9   5  18          0
 End
 
 #O
 Vnum 3703
 Nest 0
-PrevOwner (null)~
+PrevOwner Alagasteralt~
 Cond 0
 Wear 5
 Cost 0
@@ -125,7 +122,7 @@ End
 #O
 Vnum 3719
 Nest 0
-PrevOwner (null)~
+PrevOwner Alagasteralt~
 Cond 0
 Wear 16
 Cost 350
@@ -134,7 +131,7 @@ End
 #O
 Vnum 3704
 Nest 0
-PrevOwner (null)~
+PrevOwner Alagasteralt~
 Cond 0
 Wear 11
 Cost 0
@@ -143,7 +140,7 @@ End
 #O
 Vnum 2445
 Nest 0
-PrevOwner (null)~
+PrevOwner Alagasteralt~
 Cond 0
 Wear -1
 Cost 1500
@@ -152,19 +149,224 @@ End
 #O
 Vnum 2444
 Nest 0
-PrevOwner (null)~
+PrevOwner Alagasteralt~
 Cond 0
 Wear -1
 Cost 1500
 End
 
 #O
-Vnum 3050
+Vnum 3709
+Nest 0
+PrevOwner Alagasteralt~
+Cond 0
+Wear 9
+Cost 72
+End
+
+#O
+Vnum 3710
+Nest 0
+PrevOwner Alagasteralt~
+Cond 0
+Wear 10
+Cost 72
+End
+
+#O
+Vnum 3713
+Nest 0
+PrevOwner Alagasteralt~
+Cond 0
+Wear 14
+Cost 48
+End
+
+#O
+Vnum 3715
+Nest 0
+PrevOwner Alagasteralt~
+Cond 0
+Wear 17
+Cost 1140
+End
+
+#O
+Vnum 3020
+Nest 0
+PrevOwner Alagasteralt~
+Cond 0
+Wear -1
+Cost 157
+End
+
+#O
+Vnum 3726
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 26
+Nest 0
+PrevOwner Nike~
+Cond 0
+Wear -1
+Cost 0
+Val  51 3 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 27
+Nest 0
+PrevOwner Nike~
+Cond 0
+Wear -1
+Cost 0
+Val  51 186 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 27
+Nest 0
+PrevOwner Nike~
+Cond 0
+Wear -1
+Cost 0
+Val  51 186 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 3708
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 8
+Cost 72
+End
+
+#O
+Vnum 3713
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 15
+Cost 48
+End
+
+#O
+Vnum 3712
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 13
+Cost 72
+End
+
+#O
+Vnum 3707
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 7
+Cost 72
+End
+
+#O
+Vnum 3706
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 6
+Cost 72
+End
+
+#O
+Vnum 3705
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 4
+Cost 72
+End
+
+#O
+Vnum 3705
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 72
+End
+
+#O
+Vnum 3715
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 400
+Cost 1140
+End
+
+#O
+Vnum 3031
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 0
+Cost 75
+Val  0 0 140 0 0
+End
+
+#O
+Vnum 8128
+Nest 0
+PrevOwner Dodge~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8128
+Nest 0
+PrevOwner Dodge~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8137
+Nest 0
+PrevOwner Dodge~
+Cond 0
+Wear -1
+Cost 480
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Alagasteralt~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 8137
+Nest 0
+PrevOwner Alagasteralt~
+Cond 0
+Wear -1
+Cost 480
 End
 
 #END

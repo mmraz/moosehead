@@ -1,0 +1,829 @@
+#AREA
+../newareas/dazrin.are~
+Forest of Sadness~
+{ U/C } Dazrin   Forest of Sadness~
+20200 20224
+
+#MOBILES
+#20200
+crying maiden~
+a crying maiden~
+A young maiden sits her crying for her lost lover.
+~
+You look sadly at the young maiden and remember all the times you have been
+in the same situation: crying over someone who left you for no reason. She
+is very pretty and does not seem to notice your presence. She just keeps
+saying, "Why did he leave me?"
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABGTc TVZ 0 0
+35 15 10d10+1300 10d10+300 4d7+11 slap
+-11 -11 -11 -8
+ABDFU AB GHP I
+stand stand male 0
+AWXc ACDEFKPT huge 0
+#0
+
+#OBJECTS
+#20200
+bush~
+A huge bush.~
+A huge bush is growing here.~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#20201
+beak dagger Pteranodon~
+a Pteranodon's beak~
+A four-foot long beak is here. It looks sharp.~
+~
+weapon S AN
+dagger 7 6 peck 0
+50 50 5000 P
+A
+19 3
+E
+beak dagger pteranodon~
+Lying here on the floor you see a hard, dark coloured and extremely pointy
+beak. It looks like it has been ripped off some bird. Shame, poor birdie.
+Well, that's what you would think if you have never met the bird ...
+~
+#20202
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#20203
+black shimmering chest depression~
+a chest of pure depression~
+A black shimmering chest made from pure depression lies here.~
+~
+container AGRST 0
+100 AC 0 100 25
+0 0 0 P
+E
+pit~
+This is where you put money and items to help Bigfoot expand this shrine and
+convert more people to the belief of Mojo, lord of the gods.
+~
+E
+black shimmering chest depression~
+This chest has been crafted from pure depression using the materials of
+saddness, the tears of the depressed, and the hearts of the lonely. It
+wavers and shimmers as if it is caught between two dimensions; it looks
+like the solid, living and breathing blackness of depression.
+~
+#20204
+lonely heart~
+Dazrin's lonely heart~
+A heart made from depression and saddness lies here.~
+~
+food RST AO
+0 0 0 0 0
+0 1 0 P
+E
+heart depression saddness~
+This heart seems unnatural. It does not seem to be made from flesh nor
+blood, but the essence of depression and saddness. It fills your eyes with
+tears as you gaze upon it. All the pain and hurt, loneliness and depression
+you have ever felt comes back to you in an overwhelming wave of grief. You
+also have flashes of someone else's pain, of being alone, of crying, and
+you just know that they originate from the heart.
+~
+#0
+
+#ROOMS
+#20200
+The Lonely Path~
+The small pathway leads you deeper into the forest. It is fairly peaceful
+here, although it does seem a bit gloomy. Soft light filters in through
+the treetops, creating small, lonely patches of light upon the ground. You
+don't know why, but you suddenly feel very lonely and sad.
+  A warm black field has closed in behind you blocking your path back to
+where you came. You notice a niche in the field however that could be a
+some sort of keyhole.
+  You can see something inscribed onto one of the trees.
+~
+0 0 3
+D0
+Exit ~
+~
+1 0 20201
+D3
+Exit ~
+door~
+0 0 20201
+E
+field~
+The field writhes and moves as if it has a life of its own. It pulsates a
+warmth that seems to inspire sadness and lonliness. Strangely enough, it
+seems quite comforting and you like its presence and the fact that it has
+enveloped you.
+~
+E
+pathway path~
+The pathway is fairly small and leads you further into the forest. Up ahead
+the path winds deeper into the forest. The pathway itself is fairly well
+traveled, but one thing you notice is that most footprints go in, but few
+seem to leave.
+~
+E
+light patches~
+The small patches of light filter down through the treetops creating a very
+quiet, peaceful, but lonely atmosphere.
+~
+E
+tree inscription~
+Someone has enscribed something onto one of the trees. It reads:
+ 
+        The hearts of the lonely and the tears of the sad
+        These are the things that make this land.
+        The Forest of Saddness is either friend or foe
+        and could mean either the begining or the end.
+        Fear not what lies here, lest you fear the pain in your heart;
+        If you thought you knew hurt, real pain is about to start.
+                                      Dazrin, God of Depression.
+ 
+You also notice a strange little symbol engraved at the end. It's in the
+shape of a teardrop, and has a small heart in the middle of it.
+~
+S
+#20201
+Into the Forest~
+You continue to follow the path deeper into the Forest of Saddness. You
+certainly can see how the name came about: the trees seem to droop as if
+they themselves are crying, and the songs of birds seem to be sad rather
+than cheerful. Not only that, you notice that no matter what time of day it
+is, the forest seems to be in perpetual twilight, dusk, or dawn. Something
+else you notice is that when the wind blows you are sure you can hear the
+sounds of someone crying.
+  The pathway continues up ahead towards the north. You think you can see
+some movement up ahead, as well as the sounds of someone sniffing.
+~
+0 D 9
+D0
+Exit ~
+door~
+0 0 20202
+D1
+Exit ~
+door~
+0 0 20200
+D2
+Exit ~
+bush~
+1 0 20200
+E
+fern moss~
+These ferns and mosses look at home here in the damp soil of the cave
+floor. Taking out your "Book on Plants 101" you realise that these plants
+have been extinct for millions of years!
+~
+E
+bits pieces animal~
+Looking at the pieces of the animal, you are sure that it is some type of
+fish, but ,it is definitly the wierdest fish you have ever seen. It looks
+as if it was the mother of all fish from the beginning of time.
+~
+E
+trees forest~
+The trees don't appear to be sick or have some disease, yet all the branches
+droop towards the ground. You get the distinct impression that they are
+crying, or are sad about something. You almost expect tears to come out the
+bark; in fact, you swear that the bark is a bit damper than it should be.
+~
+S
+#20202
+The Clearing~
+You emerge into a small clearing with a young lady sitting on a log in the
+middle crying. Your heart seems to slow down it's beating as you hear her
+say words that you've said before: How could he leave me? She has obviously
+lost her boyfriend recently.
+  Two paths break off from the clearing to the east and west, and both
+disappear into the Forest of Sadness. To the west you cannot see nor hear
+anything special, but to the west you can hear the faint sounds of water
+running.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 20206
+D2
+Exit ~
+door~
+0 0 20201
+D3
+Exit ~
+door~
+0 0 20203
+E
+clearing~
+The clearing is fairly empty except for the young lady sitting in the middle.
+The forest is thick in all directions making travel anywhere but along the
+path impossible.
+~
+S
+#20203
+Stepping Out~
+You step out from the overhang and fly towards the jungle. Being closer
+to the jungle than before, you are again overwhelmed by its dark and
+sinister appearance, and you shiver involuntarily. The fine silver mist
+begins to reach out its silver tendrils, and seems to try to draw you
+into the jungle with its cold fingers.
+ 
+  Below you runs a small beaten path from the base of the overhang into
+the jungle. It seems as if someone has been here before you ...
+ ... or something.
+~
+0 0 9
+D0
+Exit ~
+door~
+0 0 20218
+D1
+Exit ~
+door~
+0 0 20202
+D3
+Exit ~
+door~
+0 0 20204
+D5
+Exit ~
+door~
+0 0 20217
+E
+path~
+The pathway is partially overgrown, but you can see from this distance that
+it is still used by something. Exactly what that something is you don't know,
+and you're not sure if you want to.
+~
+S
+#20204
+Above the Jungle~
+You fly out into the air towards the dense jungle. The view is ever better
+from up here than on the ledge. The misty valley looks eerie, and the muffled
+sounds from strange creatures doesn't help your nerves one little bit.
+ 
+  You try and decide where to go next. Up is definitely out, because you
+would never be able to navigate the strong winds that would blow around up
+there. That leaves only the way you came, or towards the jungle.
+~
+0 C 9
+D0
+Exit ~
+door~
+0 0 20222
+D1
+Exit ~
+door~
+0 0 20203
+D2
+Exit ~
+door~
+0 0 20205
+D5
+Exit ~
+door~
+0 0 20220
+E
+ledge~
+The ledge is covered in offal and stinks. You can see at a glance that
+you will be unable to continue to the west as the ledge gets narrower
+up ahead.
+~
+S
+#20205
+The Nest~
+You have carefully made your way along the ledge to what you can now
+see is definitly a nest. It is made of large twigs, branches and leaves,
+and is HUGE! The nest is taller than you, and you wonder if anything
+could be inside. You hope not, because whatever made this is not your
+usual bird that goes 'tweet tweet'.
+ 
+  The ledge itself is no different from where you have just come from,
+and is also covered in offal. The noise from the birds is no better here
+either. You are starting to get a headache from the stench and the noise.
+~
+0 C 9
+D0
+Exit ~
+door~
+0 0 20204
+D1
+Exit ~
+door~
+0 0 20202
+E
+nest~
+The nest is massive standing about 8 feet high. Large branches and twigs
+are the main building materials, and also *gulp* bones!
+ 
+You think you can climb into the nest safely, but you are unsure if you
+want to. What if mommy or daddy bird come home?
+~
+E
+ledge~
+The ledge is covered in offal and stinks. You can see at a glance that
+you will be unable to continue to the west as the ledge gets narrower
+up ahead.
+~
+S
+#20206
+Walking along the Ledge~
+Careful, careful. You don't want to fall. It is a LONG way down.
+Looking around you notice nothing of interest. The ledge is still covered in
+offal, and the screaming is definitly starting to get on your nerves. The
+view from here is not as good as from the overlook, but it still takes your
+breath away.
+ 
+  You realise you cannot go any further along this ledge. It's simply too
+dangerous.
+~
+0 C 9
+D0
+Exit ~
+door~
+0 0 20207
+D3
+Exit ~
+door~
+0 0 20202
+S
+#20207
+Above the Jungle~
+You fly out into the air towards the dense jungle. The view is ever better
+from up here than on the ledge. The misty valley looks eerie, and the muffled
+sounds from strange creatures doesn't help your nerves one little bit.
+ 
+  You try and decide where to go next. Up is definitely out, because you
+would never be able to navigate the strong winds that would blow around up
+there. That leaves only the way you came, or towards the jungle.
+~
+0 C 9
+D0
+Exit ~
+door~
+0 0 20221
+D2
+Exit ~
+door~
+0 0 20206
+D3
+Exit ~
+door~
+0 0 20203
+D5
+Exit ~
+door~
+0 0 20219
+E
+ledge~
+The ledge is covered in offal and stinks. You can see at a glance that
+you will be unable to continue to the west as the ledge gets narrower
+up ahead.
+~
+S
+#20208
+The Descent~
+You carefully clamber down the rockface. You take your time knowing that
+one false move and you're history like the dinosaurs should be.
+ 
+  On your way down you make out an overgrown path leading into the jungle.
+Although it is overgrown, you have a sneaky suspicion that it is still used
+on a regular basis by something. You'll only be able to tell once you get
+down there though.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 20217
+D5
+Exit ~
+door~
+0 0 20209
+S
+#20209
+Base of the Overhang~
+You've finally reached the bottom, and you can see the jungle to the north.
+It looks forboding even from this distance, and you can only imagine what
+it's like inside. Looking up you see the relative safety of the overhang
+and the way back. Prehaps it's not too late to leave?
+ 
+  A quick glance reveals that once you have gone northwards you'll probably
+be able to move along the cliff walls.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 20216
+D4
+Exit ~
+door~
+0 0 20208
+E
+jungle~
+The jungle is a dense tangle of ancient trees, ferns and other plants.
+Movement through it is going to be extremely difficult, but the pathway
+should help a bit.
+~
+E
+pathway path~
+The pathway looks to have been created by someone or something that has
+hacked its way through with a sharp tool, like a sword. This must have been
+ages ago because the path is pretty overgrown. It seems that it is still
+being used by some smaller creatures if the footprints are anything to go by.
+~
+S
+#20210
+Dazrin's private room.~
+This room is dimly lit and sparsely furnished. Candles line the walls and
+the window sill giving the room a soft glow. In the corner of the room is
+a soft bed lying on the floor. A hi-fi is at the foot of the bed and there
+are four speakers, one in each corner. A stack of CD's are next to the
+hi-fi and you can make out several names such as The The, Pearl Jam, and
+other alternative/grunge bands. The soft sounds of The The fill the room
+creating a feeling of loneliness and sadness. You feel strangely at peace
+here for some reason.
+~
+0 CDJT 9
+H 10000 M 10000
+O dazrin eiram~
+S
+#20211
+Going East Along the Wall~
+You decide the jungle looks to scary for your liking, so you follow the
+base of the volcano wall. Bad news for you though, because the jungle is
+growing really close to the wall. Pretty soon you're going to have to enter
+it or go back the way you came.
+ 
+  The ground here is littered with bones and decaying flesh. You think it's
+fallen from the ledge above where those prehistoric birds feed. You could be
+wrong since the cries of some wild animal seem to be really close. Prehaps
+too close.
+~
+0 0 5
+D3
+Exit ~
+door~
+0 0 20216
+E
+bones skeleton~
+Some bones have been bleached by the sun, while some of them still have
+rotting flesh hanging off them. One thing is certain though: they have all
+been gnawed by something with powerful jaws.
+~
+S
+#20212
+Through the Canopy~
+You begin to descend through the canopy into the jungle itself, and you
+feel like you've entered a room where someone cast darkness. You can barely
+see where you are going, and this is not good considering how dense the
+foliage is. You just know that there are going to be very few places where
+you can enter the jungle through the canopy.
+ 
+  The sounds of life echo through the jungle, and strange smells assault
+your senses. You just hope those animals are not hungry, or nearby.
+ 
+  The canopy around is so thick that the only place you can go is down to
+the ground, or out into the open air.
+~
+0 0 9
+D1
+Exit ~
+door~
+0 0 20224
+D2
+Exit ~
+door~
+0 0 20217
+D3
+Exit ~
+door~
+0 0 20223
+D4
+Exit ~
+door~
+0 0 20218
+D5
+Exit ~
+door~
+0 0 20213
+E
+foliage~
+The plant life here is truly amazing. Not only is it ancient, it is very
+annoying. And scratchy. It makes you itch. Also, it doesn't enhance your
+vision much either.
+~
+S
+#20213
+Along the Overgrown Path~
+You've overcome your fears, and headed into the jungle along the path.
+You begin to wonder if that was such a good idea. You are assaulted by
+hundreds of smells and sounds, and you recognise none of them. You are
+begin to sweat and your heart is pounding. Maybe you should go back?
+ 
+  Your heart beats faster as you notice freshly made animal tracks. BIG
+freshly made animal tracks. Some primeval roar shatters the air, and it
+sounds quite close. This is NOT a good idea.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 20216
+D4
+Exit ~
+door~
+0 0 20212
+E
+path~
+The path seems to be both man made and animal made. Really strange. Close
+inspection reveals that something has used this recently. How can you tell?
+The steaming pile of dung measuring about 6ft diameter is a dead give-away.
+~
+E
+tracks~
+The tracks are quite large, and were made by something about 3-4ft long
+with a very large claw protruding from it. It does not look very nice. It
+would look even wors if you were on the receiving end.
+~
+S
+#20214
+Generic room name~
+Generic room description.
+~
+0 C 5
+S
+#20215
+The Padded Cell~
+You are standing in the middle of a room that has been completely covered
+with thick white padding. During your stay, this is here to protect you from
+harming yourself. The heliotrope light emanating from all around is mentally
+soothing. As your mind drifts into oblivion, you hear the insanity induced
+screams of the other inmates of this hell.
+~
+0 CD 5
+H 10000 M 10000
+S
+#20216
+Before the Jungle~
+You are standing before the jungle and you thank the gods you have dark
+coloured trousers because you have just wet yourself. It is scary to say
+the least, but what makes it worse is the fact that you know SOMETHING
+nasty lives in there.
+ 
+  Going northwards into the jungle is a beaten out path. It is old but
+overgrown, although something seems to have used it recently. Something
+big if those tracks are anything to judge by.
+ 
+  East and west will take you along the cliff face.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 20213
+D1
+Exit ~
+door~
+0 0 20211
+D2
+Exit ~
+door~
+0 0 20209
+D4
+Exit ~
+door~
+0 0 20217
+E
+tracks path~
+The pathway is overgrown, but fresh, large tracks can be seen on the floor.
+Freshly broken branches also hang from trees, swaying in a cool breeze.
+The tracks lead nothwards into the jungle along the path.
+ 
+  While looking at the tracks you notics some old branches that have been
+cut with some sort of sharp blade. These cuts are very old, but you begin
+to suspect that prehaps you are not the first person to see this place.
+~
+S
+#20217
+Flying Before the Jungle~
+You fly before the jungle, contemplating if entering is such a good idea.
+You're about level with the treetops and it looks daunting to say the
+least. Does the glory of being the first person to successfully navigate
+the Land Before Time outweigh the prospect of almost certain death?
+ 
+  Below you you see a path winding ahead into the jungle. You wonder what
+made the path. More importantly, you wonder if it's nasty and hungry. You
+hope not.
+~
+0 0 9
+D0
+Exit ~
+door~
+0 0 20212
+D1
+Exit ~
+door~
+0 0 20219
+D2
+Exit ~
+door~
+0 0 20208
+D3
+Exit ~
+door~
+0 0 20220
+D4
+Exit ~
+door~
+0 0 20203
+D5
+Exit ~
+door~
+0 0 20216
+E
+path~
+The path is man-made you think, but it's been changed through use by
+other creatures over time. You can't really tell from this distance, so
+you'd have to inspect the path closer. Logical isn't it?
+~
+S
+#20218
+Above the Jungle~
+You continue flying forward, and are suprised that your bravery has lasted
+this long. The mist surrounds you as you fly out over the dense jungle. You
+shiver - whether this is from fear or the cold mist you cannot tell.
+ 
+  Being directly above the jungle you can see that this is probably one of
+the few places that you will be able to penetrate the canopy from above.
+~
+0 0 9
+D1
+Exit ~
+door~
+0 0 20221
+D2
+Exit ~
+door~
+0 0 20203
+D3
+Exit ~
+door~
+0 0 20222
+D5
+Exit ~
+door~
+0 0 20212
+S
+#20219
+Flying Down the Volcano Wall~
+You fly down next to the steep cavern wall towards the jungle floor. Since
+you are now eye level with the jungle, you are daunted by its sinister
+appearance. The jungle grows close to the volcano wall here, closer than
+where the overhang is apparently.
+ 
+  You can continue your descent to the volcano floor, or you can head into
+the jungle proper.
+~
+0 0 9
+D0
+Exit ~
+door~
+0 0 20224
+D3
+Exit ~
+door~
+0 0 20217
+D4
+Exit ~
+door~
+0 0 20207
+S
+#20220
+Flying Down the Volcano Wall~
+You fly down next to the steep cavern wall towards the jungle floor. Since
+you are now eye level with the jungle, you are daunted by its sinister
+appearance. The jungle grows close to the volcano wall here, closer than
+where the overhang is apparently.
+ 
+  You can continue your descent to the volcano floor, or you can head into
+the jungle proper.
+~
+0 0 9
+D0
+Exit ~
+door~
+0 0 20223
+D1
+Exit ~
+door~
+0 0 20217
+D4
+Exit ~
+door~
+0 0 20204
+S
+#20221
+Generic room name~
+Generic room description.
+~
+0 0 9
+D2
+Exit ~
+door~
+0 0 20207
+D3
+Exit ~
+door~
+0 0 20218
+D5
+Exit ~
+door~
+0 0 20224
+S
+#20222
+Generic room name~
+Generic room description.
+~
+0 0 9
+D1
+Exit ~
+door~
+0 0 20218
+D2
+Exit ~
+door~
+0 0 20204
+D5
+Exit ~
+door~
+0 0 20223
+S
+#20223
+Generic room name~
+Generic room description.
+~
+0 0 9
+D1
+Exit ~
+door~
+0 0 20212
+D2
+Exit ~
+door~
+0 0 20220
+D4
+Exit ~
+door~
+0 0 20222
+S
+#20224
+Generic room name~
+Generic room description.
+~
+0 0 9
+D2
+Exit ~
+door~
+0 0 20219
+D3
+Exit ~
+door~
+0 0 20212
+D4
+Exit ~
+door~
+0 0 20221
+S
+#0
+
+#RESETS
+O 0 30004 100 20210	* a black leather couch
+O 0 20203 100 20210	* a chest of pure depression
+P 1 10429  -1 20203  1	*   an engagement ring
+P 1 20204  -1 20203  1	*   Dazrin's lonely heart
+P 1 1001  -1 20203  1	*   a red rose
+D 0 20200   0    1	* The Lonely Path north
+D 0 20201   2    1	* Into the Forest south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 20200 spec_fido           	* a crying maiden
+S
+
+#$

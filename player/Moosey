@@ -2,18 +2,19 @@
 Name Moosey~
 Id   1015494454
 Email (null)~
-LogO 1111395330
-Vers 31
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+LogO 1446237353
+Vers 33
+Prom %e %t %g:GP %s:SP %w%c%h/%H:HP %m/%M:MP %v:MV %X:x ~
 Race faerie~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 6
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 xochipili~
 DeityT -1 xochipili~
 Sac  300
@@ -34,20 +41,20 @@ Node 0
 Cap 0
 Created 1015494480
 Glad 0 0 0 0 0 0
-LastHost 65.28.180.108~
+LastHost 173.215.8.171~
 Cla  10
 ClaO 10
 Levl 5
 DLevl 0
-Plyd 4962
-Not  1111395322 1111395322 1111395322 1111395322 1111395322 1111395322 1111395322 1111395322 1111395322 1111395322
+Plyd 6022
+Not  1443822417 1443822417 1443822417 1443822417 1443822417 1446076569 1443822417 1443822417 1443822417 1443822417
 Scro 22
 Rank 0
-Room 3054
-HMV  55 55 171 171 134 134
+Room 9406
+HMV  85 105 25 171 134 134
 Gold 31
 Silv 34
-Exp  46552
+Exp  49514
 Act  CDEFGHKQ
 MHSF R
 AfBy DFJT
@@ -56,24 +63,24 @@ Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  4
-Prac 19
-SkiP 9
-Save  -6
-Alig  -1000
-Hit   6
-SecHit   5
+Pos  8
+Prac 20
+StatsTrained 50 0 0
+SkiP 5
+Save  -1
+Alig  -843
+Hit   1
 ACs 53 53 53 59
 Wimp  15
-Attr 13 25 25 20 13 13 16 14
-AMod 7 0 1 2 3 0 2 0
+Attr 13 25 25 23 13 17 8 14
+AMod 7 0 2 2 4 0 2 0
 Pass MoZzQ0QafqORk~
 Titl  : help me I suck!~
 Pnts 98
 TSex 1
 LLev 1
-HMVP 45 171 134
-Cnd  0 46 47 47
+HMVP 95 171 134
+Cnd  0 0 20 20
 Alias 1 put all sat~
 Alias qq scan~
 Sk 1 'acid blast'
@@ -148,11 +155,9 @@ Gr 'element energy'
 Gr 'element fire'
 Gr 'element spirit'
 Gr 'element water'
-Affc 'shield'   0  42  36 -20  17          0
-Affc 'giant strength'   0  42  28   4   1          0
-Affc 'armor'   0  41  22 -20  17          0
-Affc 'bless'   0  36  18  -5  24          0
-Affc 'bless'   0  36  18   5  18          0
+Affc 'shield'   0  36   9 -20  17          0
+Affc 'giant strength'   0  35   1   4   1          0
+Affc 'armor'   0  37   3 -20  17          0
 End
 
 #O
@@ -162,7 +167,7 @@ PrevOwner Moosey~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 87 0 0
+Val  0 0 60 0 0
 End
 
 #O
@@ -225,7 +230,7 @@ Vnum 3715
 Nest 0
 PrevOwner Moosey~
 Cond 0
-Wear -1
+Wear 17
 Cost 1140
 End
 
@@ -323,7 +328,6 @@ End
 Vnum 3700
 Nest 0
 PrevOwner Moosey~
-Stolen 21
 Cond 0
 Wear 16
 Cost 250
@@ -336,17 +340,6 @@ PrevOwner Moosey~
 Cond 0
 Wear 18
 Cost 0
-End
-
-#O
-Vnum 3044
-Nest 0
-PrevOwner Moosey~
-Cond 0
-Wear 17
-Cost 0
-Val  4 10 2 134 0
-Spell 3 'magic missile'
 End
 
 #END

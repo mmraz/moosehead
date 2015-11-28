@@ -1,0 +1,151 @@
+Label entrance
+Type 33
+Name The Beginning of the End~
+Desc The lights are dim. You suddenly feel engulfed in Malicious thoughts. At long
+last, you feel right at home.
+~
+Index 201
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label magelab
+Type 33
+Name The Chamber of {RProdigal{x {WInception{x~
+Desc You step into the fountain of blood and begin floating down into a dark and
+moist cavern below the renewal chamber. You are within the belly of Mount
+Olympus. The walls are lined with shelves of various labeled vials and potions.
+Your mind buzzes with magical excitement and you begin envisioning yourself
+creating something epic, but before you can picture it clearly...A bubbling
+noise draws your attention to the center of the room where a pit of molten {Rlava{x
+swirls. You think you can see wisps of fiery hands leap out of the pit,
+beckoning you to come closer. You back away and feel frightened.
+
+Suddenly you bump into a previously invisible contraption in the corner, it
+flashes with a {WBLINDING{x aura and radiates electricity. Something tell you that
+you've found what you were looking for.
+
+~
+Index 204
+Cost 8000
+Flags 18
+Opt 3 0
+Loc 0
+#End
+Label regen
+Type 33
+Name The {CRenewal{x Chamber~
+Desc A magical force fills you body as you step into this large, dimly-lit room.
+Your veins enlarge as the powerful healing spells that have been cast upon this
+chamber take hold of your body. In a trance-like state, you make your way to
+the center of the chamber where fresh sleeping bags surround an ornately
+engraved marble fountain. The soothing sound of blood flowing from the
+fountain cause you to surrender to slumber.
+~
+Index 203
+Cost 7000
+Flags 1
+Opt 4 9
+Loc 0
+#End
+Label hallway
+Type 33
+Name A {rCrimson{x Corridor~
+Desc As you make your way down the sloped marble corridor, a landing appears. A
+Clerical Altar lies to the west and the Supply Shop to the east.
+
+Pausing for a moment, you absorb the energy of your surroundings studying a
+newly placed piece of the rare artwork and gazing at the mystical {Wsilver{x
+engravings that line the marble ceiling of the massive arched hallway.
+
+~
+Index 202
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label portals
+Type 33
+Name {DA Mystical Vortex{x~
+Desc A {Ddark{x swirling mist of wind and darkness encapsulates you. You struggle to
+focus your energy and reluctantly choose your destination. Travel by {DVortex{x is
+not for the faint of heart.
+~
+Index 205
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label healer
+Type 34
+Name gloria~
+Short A beautiful maiden~
+Long A beautiful bare-chested maiden eagerly awaits your return.~
+Desc Flawlessly beautiful and bare-chested, her fertility and symmetry represent the
+greatest creation of the gods. She begs you not to leave and prays that you
+will return safely. One day you will profess your love to her..
+
+~
+Index 201
+Cost 3000
+Flags 42
+Opt 0 12
+Loc 201
+#End
+Label milk
+Type 36
+Name sacred cow milk~
+Short A sacred {Wwhite{x milk cow~
+Long A sacred {Wwhite{x milk cow is resting here.~
+Index 201
+Cost 2000
+Flags 16
+Opt 10 0
+Loc 203
+#End
+Label mainpit
+Type 36
+Name pit magical wooden box~
+Short A magical {ywooden{x box~
+Long A magical {ywooden{x box lies here.~
+Index 202
+Cost 2000
+Flags 32
+Opt 0 0
+Loc 202
+#End
+Label nt
+Type 36
+Name nt new thalos nottingham~
+Short New Thalos~
+Long A {DVortex{x leading to {cNew Thalos{x~
+Index 203
+Cost 2000
+Flags 1
+Opt 9606 0
+Loc 205
+#End
+Label camelot
+Type 36
+Name camelot~
+Short Camelot~
+Long A {DVortex{x leading to {cCamelot{x~
+Index 204
+Cost 2000
+Flags 1
+Opt 17676 0
+Loc 205
+#End
+Exit 2 201 -1 -1 901
+Exit 5 201 202 -1 -1
+Exit 4 204 203 -1 -1
+Exit 4 203 202 -1 -1
+Exit 5 203 204 -1 -1
+Exit 1 202 205 -1 -1
+Exit 4 202 201 -1 -1
+Exit 5 202 203 -1 -1
+Exit 3 205 202 -1 -1
+#End

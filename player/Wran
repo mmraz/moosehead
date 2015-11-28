@@ -2,7 +2,7 @@
 Name Wran~
 Id   1000843805
 Email (null)~
-LogO 1074123736
+LogO 1312702421
 Vers 31
 Desc You see a small kender cleaning a rusty old dagger.  He has dark circles under his eyes and misshapened fangs sticking out from his mouth.  He almost certainly appears to have seen better days.  As you approach he says, "Greetings, stranger...names 
 Wran."  As your eyes stray to the blade he exclaims, "Elf blood.  Don't know why I bother...you can't ever get the stench out."  "Oh I'm sorry...you have friends who are elves?  My bad here take this as compensation!!"  As you slowly start piecing
@@ -12,10 +12,10 @@ Prom <%hhp %mm %vmv> ~
 Race kender~
 Clan demise~
 Outc 0
-RufT 488
+RufT 386
 MatookT 0
 SkPTimer 2
-SkPTracker 12
+SkPTracker 3
 LogoutTracker 0
 Kill 5 6 0 1
 Steal 30 6249 0
@@ -26,10 +26,13 @@ LstAtkedByTimer 0
 LstCombatDate 1074123009
 LstKillDate 1074123009
 LstDeathDate 1011205857
-LoginsWOKill 1
-LoginsWODeath 38
-LoginsWOCombat 0
+LoginsWOKill 4
+LoginsWODeath 41
+LoginsWOCombat 3
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 119428 cthon~
 DeityT -805 cthon~
 Sac  300
@@ -39,51 +42,52 @@ Node 0
 Cap 0
 Created 1000843882
 Glad 0 0 0 0 0 0
-LastHost host-216-78-25-174.clt.bellsouth.net~
+LastHost 184.39.65.47~
 Cla  13
 ClaO 2
-Levl 39
+Levl 40
 DLevl 0
-Plyd 243906
+Plyd 248155
 Not  1062755550 1062755550 1062755550 1062755550 1062755550 1062755550 1062755550 1069196664 1062755550 1062755550
 Scro 22
 Rank 0
 Room 31422
-HMV  699 699 61 287 517 517
-Gold 1329
-Silv 583
-Exp  300209
+HMV  467 819 247 293 430 430
+Gold 1002
+Silv 479
+Exp  305518
 Act  CDFGHKQZa
 MHSF RSTUV
-AfBy CDFHPUV
+AfBy CV
 Comm FGIR
 Disp FIJ
 IcgB 0
 Icg 0
 Wizn W
-Pos  4
-Prac 26
-SkiP 332
-Save  -12
+Pos  8
+Prac 23
+StatsTrained 120 0 0
+SkiP 359
+Save  -6
 Alig  -1000
-Hit   31
-Dam   26
-SecHit   31
-SecDam   26
-ACs 13 13 13 28
+Hit   35
+Dam   35
+SecHit   27
+SecDam   28
+ACs -37 -37 -37 -19
 Wimp  30
-Attr 18 17 17 25 17 18 19 13
-AMod 3 0 0 2 0 0 0 0
+Attr 18 17 17 25 17 15 11 13
+AMod 3 0 1 2 0 0 0 0
 Pass WrOOvKz9Wl6u.~
 Titl  Killglance.~
 Pnts 98
 TSex 1
-LLev 66
-HMVP 669 291 417
-Cnd  0 0 5 21
+LLev 68
+HMVP 799 297 430
+Cnd  0 6 27 27
 Sk 78 'armor'
 Sk 1 'calm'
-Sk 1 'cancellation'
+Sk 75 'cancellation'
 Sk 75 'charm person'
 Sk 1 'detect evil'
 Sk 1 'detect good'
@@ -98,7 +102,7 @@ Sk 1 'farsight'
 Sk 1 'fireproof'
 Sk 81 'fly'
 Sk 87 'gate'
-Sk 79 'identify'
+Sk 80 'identify'
 Sk 1 'knock'
 Sk 1 'know alignment'
 Sk 1 'locate object'
@@ -112,7 +116,7 @@ Sk 1 'sacred guardian'
 Sk 1 'sanctuary'
 Sk 77 'shield'
 Sk 78 'sleep'
-Sk 1 'stone skin'
+Sk 75 'stone skin'
 Sk 77 'summon'
 Sk 1 'teleport'
 Sk 75 'word of recall'
@@ -148,16 +152,10 @@ Gr 'beguiling'
 Gr 'detection'
 Gr 'protective'
 Gr 'transportation'
-Affc 'pass door'   0  31   5   0   0    1048576
-Affc 'haste'   0  21   4   2   2    2097152
-Affc 'detect invis'   0  30  26   0   0          8
-Affc 'detect hidden'   0  31  25   0   0         32
-Affc 'sanctuary'   0  51   1   0   0        128
-Affc 'shield'   0  29  30 -20  17          0
-Affc 'armor'   0  29  22 -20  17          0
-Affc 'sneak'   0  38  30   0   0      32768
-Affc 'bless'   0  47  25  -6  24          0
-Affc 'bless'   0  48  25   6  18          0
+Affc 'haste'   0  20   2   2   2    2097152
+Affc 'stone skin'   0  30  21 -40  17          0
+Affc 'armor'   0  27  21 -20  17          0
+Affc 'shield'   0  25  12 -20  17          0
 End
 
 #O
@@ -224,40 +222,12 @@ Cost 1150
 End
 
 #O
-Vnum 2309
-Enchanted
-Nest 1
-PrevOwner Wran~
-ExtF 2626
-Cond 0
-Wear -1
-Lev  31
-Cost 3500
-Affc 'enchant weapon'   1  50  -1   7  18          0
-Affc 'enchant weapon'   1  50  -1   7  19          0
-End
-
-#O
 Vnum 3239
 Nest 1
 PrevOwner Wran~
 Cond 0
 Wear -1
 Cost 1
-End
-
-#O
-Vnum 1357
-Enchanted
-Nest 1
-PrevOwner Wran~
-ExtF 67
-Cond 0
-Wear -1
-Lev  21
-Cost 910
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'enchant weapon'   1  53  -1   8  18          0
 End
 
 #O
@@ -299,26 +269,6 @@ Spell 1 'sanctuary'
 End
 
 #O
-Vnum 3281
-Nest 1
-PrevOwner Wran~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 3281
-Nest 1
-PrevOwner Wran~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
 Vnum 4440
 Nest 1
 PrevOwner Wran~
@@ -328,42 +278,21 @@ Cost 0
 End
 
 #O
-Vnum 9573
-Nest 1
-PrevOwner Wran~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Wran~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Wran~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 5710
 Nest 1
 PrevOwner Wran~
 Cond 0
 Wear -1
 Cost 1000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #O
@@ -439,8 +368,82 @@ Cost 0
 End
 
 #O
-Vnum 8049
-Nest 0
+Vnum 8027
+Nest 1
+PrevOwner Wran~
+Stolen 149
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 3167
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 2500
+End
+
+#O
+Vnum 9203
+Enchanted
+Nest 1
+PrevOwner Wran~
+ExtF 67
+Cond 0
+Wear -1
+Lev  32
+Cost 2800
+Affc 'enchant weapon'   1  52  -1   7  19          0
+Affc 'enchant weapon'   0  52  -1   3  18          0
+End
+
+#O
+Vnum 6422
+Enchanted
+Nest 1
+PrevOwner Wran~
+ExtF 134217792
+Wt   40
+Cond 0
+Wear -1
+Lev  35
+Cost 5900
+Val  9 10 9 0 1
+Affc 'enchant armor'   1  53  -1  -4  17          0
+Affc 'reserved'   1  31  -1   1  18          0
+Affc 'reserved'   1  31  -1   2  19          0
+End
+
+#O
+Vnum 8014
+Enchanted
+Nest 1
+PrevOwner Wran~
+ExtF 66
+Cond 0
+Wear -1
+Lev  32
+Cost 1700
+Affc 'enchant weapon'   0  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 3138
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 24
+Val  64 0 10 0 0
+End
+
+#O
+Vnum 3378
+Nest 1
 PrevOwner Wran~
 Cond 0
 Wear -1
@@ -449,11 +452,188 @@ End
 
 #O
 Vnum 5709
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2309
+Enchanted
+Nest 1
+PrevOwner Wran~
+ExtF 2626
+Cond 0
+Wear -1
+Lev  31
+Cost 3500
+Affc 'enchant weapon'   1  50  -1   7  19          0
+Affc 'enchant weapon'   1  50  -1   7  18          0
+End
+
+#O
+Vnum 1357
+Enchanted
+Nest 1
+PrevOwner Wran~
+ExtF 67
+Cond 0
+Wear -1
+Lev  21
+Cost 910
+Affc 'enchant weapon'   1  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 8049
 Nest 0
 PrevOwner Wran~
 Cond 0
-Wear 8
-Cost 0
+Wear 12
+Cost 2000
 End
 
 #O
@@ -490,15 +670,6 @@ PrevOwner Calacto~
 Cond 0
 Wear 2
 Cost 5900
-End
-
-#O
-Vnum 3378
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2000
 End
 
 #O
@@ -547,17 +718,6 @@ Cost 1500
 End
 
 #O
-Vnum 6713
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 250
-Spell 1 'armor'
-Spell 2 'bless'
-End
-
-#O
 Vnum 16107
 Nest 0
 PrevOwner MojoJojo~
@@ -567,27 +727,21 @@ Cost 6000
 End
 
 #O
-Vnum 3138
+Vnum 8500
 Nest 0
-PrevOwner Wran~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 24
-Val  64 0 10 0 0
+Cost 3000
 End
 
 #O
-Vnum 16018
-Enchanted
+Vnum 23110
 Nest 0
 PrevOwner Wran~
-ExtF 67
 Cond 0
-Wear -1
-Lev  33
-Cost 2200
-Affc 'enchant weapon'   1  52  -1   7  19          0
-Affc 'enchant weapon'   1  52  -1   8  18          0
+Wear 8
+Cost 1500
 End
 
 #O
@@ -608,6 +762,41 @@ Val  510 1 -1 90 25
 End
 
 #O
+Vnum 3281
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3281
+Nest 1
+PrevOwner Wran~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 16018
+Enchanted
+Nest 0
+PrevOwner Wran~
+ExtF 67
+Stolen 87
+Cond 0
+Wear 16
+Lev  33
+Cost 2200
+Affc 'enchant weapon'   1  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
+End
+
+#O
 Vnum 1947
 Enchanted
 Nest 0
@@ -617,100 +806,29 @@ Cond 0
 Wear -1
 Lev  29
 Cost 400
-Affc 'enchant weapon'   0  51  -1   5  18          0
 Affc 'enchant weapon'   1  51  -1   5  19          0
+Affc 'enchant weapon'   0  51  -1   5  18          0
 End
 
 #O
-Vnum 8014
-Enchanted
+Vnum 6713
 Nest 0
 PrevOwner Wran~
-ExtF 66
 Cond 0
 Wear -1
-Lev  32
-Cost 1700
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   0  53  -1   6  18          0
+Cost 250
+Spell 1 'armor'
+Spell 2 'bless'
 End
 
 #O
-Vnum 8500
+Vnum 9573
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
-Cost 3000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
 Wear -1
-Cost 5000
-End
-
-#O
-Vnum 6422
-Enchanted
-Nest 0
-PrevOwner Wran~
-ExtF 134217792
-Wt   40
-Cond 0
-Wear -1
-Lev  35
-Cost 5900
-Val  9 10 9 0 1
-Affc 'reserved'   1  31  -1   2  19          0
-Affc 'reserved'   1  31  -1   1  18          0
-Affc 'enchant armor'   1  53  -1  -4  17          0
-End
-
-#O
-Vnum 9203
-Enchanted
-Nest 0
-PrevOwner Wran~
-ExtF 67
-Cond 0
-Wear -1
-Lev  32
-Cost 2800
-Affc 'enchant weapon'   0  52  -1   3  18          0
-Affc 'enchant weapon'   1  52  -1   7  19          0
-End
-
-#O
-Vnum 23110
-Nest 0
-PrevOwner Wran~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 3281
-Nest 0
-PrevOwner Wran~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 8027
-Nest 0
-PrevOwner Wran~
-Stolen 191
-Cond 0
-Wear 16
-Cost 3000
+Cost 820
+Spell 1 'haste'
 End
 
 #END

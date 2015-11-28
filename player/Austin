@@ -2,18 +2,19 @@
 Name Austin~
 Id   929062330
 Email (null)~
-LogO 1088309521
-Vers 31
+LogO 1404535378
+Vers 33
 Prom [%e %hHp %mMana %n/%N %v(%S)$%g.%s %a %wLbs %X]  ~
 Race dwarf~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 2
-SkPTracker 12
+SkPTimer 1
+SkPTracker 6
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 mojo~
 Sac  300
 Sex  1
@@ -33,30 +40,30 @@ Node 0
 Cap 0
 Created 963893512
 Glad 0 0 0 0 0 0
-LastHost 209.120.156.200~
+LastHost 24.54.128.152~
 Cla  6
 ClaO 3
-Levl 9
+Levl 10
 DLevl 0
-Plyd 18545
-Not  1088305922 1088305922 1088305922 1088305922 1088305922 1088305922 1088305922 1088305922 1088305922 1088305922
+Plyd 19053
+Not  1360282689 1360282689 1360282689 1360282689 1360282689 1360282689 1360282689 1360282689 1360282689 1360282689
 Scro 22
 Rank 0
-Room 3001
-HMV  55 173 91 156 17 124
+Room 3054
+HMV  179 183 160 160 130 130
 Gold 184
 Silv 6371
 Exp  63374
 Act  CDEFGH
 MHSF R
-AfBy HJV
+AfBy J
 Comm GIS
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 10
-Trai 1
+Prac 13
+Trai 16
 SkiP 68
 Save  -6
 Alig  1000
@@ -64,16 +71,16 @@ Hit   20
 Dam   13
 SecHit   14
 SecDam   8
-ACs 128 128 128 140
-Attr 16 16 17 13 21 14 22 13
-AMod 7 0 1 6 5 0 0 0
+ACs 108 108 108 120
+Attr 16 16 17 13 21 9 13 13
+AMod 7 1 1 2 5 0 0 0
 Pass AuQne7Ru9ljx2~
 Titl  Danger Powers.~
 Pnts 88
 TSex 1
-LLev 4
-HMVP 163 136 124
-Cnd  0 12 30 30
+LLev 5
+HMVP 183 140 130
+Cnd  0 48 48 48
 Sk 1 'armor'
 Sk 1 'cancellation'
 Sk 1 'dispel magic'
@@ -143,14 +150,13 @@ Gr 'weaponsmaster'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'giant strength'   0  50  50   4   1          0
-Affc 'haste'   0  53  10   4   2    2097152
-Affc 'frenzy'   0  52  14  40  17          0
-Affc 'frenzy'   0  51  14   8  19          0
-Affc 'frenzy'   0  51  14   8  18          0
-Affc 'sanctuary'   0  53   5   0   0        128
-Affc 'bless'   0  45  38  -6  24          0
-Affc 'bless'   0  46  38   6  18          0
+Affc 'giant strength'   0  48  37   4   1          0
+Affc 'frenzy'   0  51   1  40  17          0
+Affc 'frenzy'   0  47   1   8  19          0
+Affc 'frenzy'   0  51   1   8  18          0
+Affc 'bless'   0  42  42  -6  24          0
+Affc 'bless'   0  41  42   6  18          0
+Affc 'armor'   0  42  25 -20  17          0
 End
 
 #O
@@ -213,15 +219,6 @@ Nest 0
 PrevOwner Denlor~
 Cond 0
 Wear 13
-Cost 0
-End
-
-#O
-Vnum 4439
-Nest 0
-PrevOwner Denlor~
-Cond 0
-Wear 18
 Cost 0
 End
 
@@ -702,7 +699,7 @@ Enchanted
 Nest 0
 PrevOwner Austin~
 ExtF 1048643
-Stolen 204
+Stolen 191
 Cond 0
 Wear 16
 Lev  5
@@ -718,6 +715,15 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
+End
+
+#O
+Vnum 5231
+Nest 0
+PrevOwner Torik~
+Cond 0
+Wear 18
+Cost 0
 End
 
 #END

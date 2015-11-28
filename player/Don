@@ -2,32 +2,35 @@
 Name Don~
 Id   872440825
 Email (null)~
-LogO 1100027388
+LogO 1313806474
 Vers 31
 LnD  A Gladiator~
 Prom <%hhp %mm %vmv %w> ~
 Race kender~
-Clan avarice~
+Clan loner~
 Outc 0
-RufT 372
+RufT 248
 MatookT 1
-SkPTimer 25
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Hstm 215.199.100.213~
 Kill 0 0 0 0
-Steal 0 0 0
+Steal 0 87 0
 LstK Kulsar~
 LstKBy Saar~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1100027386
+LstCombatDate 1313459219
 LstKillDate 1100027386
 LstDeathDate 1100027386
-LoginsWOKill 0
-LoginsWODeath 0
-LoginsWOCombat 0
+LoginsWOKill 4
+LoginsWODeath 4
+LoginsWOCombat 1
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 230945 loki~
 Sac  300
 Sex  1
@@ -42,18 +45,18 @@ Kit ninja~
 ClaO 2
 Levl 51
 DLevl 26
-Plyd 299155
-Not  1006670297 1006670297 1006670297 1006670297 1006670297 1006670297 1006670297 1006670297 1006670297 0
+Plyd 304768
+Not  1313770760 1313790817 1313289683 1313633825 1313728801 1313494046 1313289683 1313491536 1313289683 1313633735
 Scro 22
-Rank 2
-Room 31702
-HMV  1023 1023 407 407 535 535
-Gold 1085
-Silv 2255
+Rank 0
+Room 16051
+HMV  978 978 427 427 535 535
+Gold 178
+Silv 3671
 Exp  408000
-Act  CDEFGHSZ
-MHSF U
-AfBy DFHNPT
+Act  CDEFGHRSZ
+MHSF RU
+AfBy DFT
 Comm GILORS
 Disp FJ
 IcgB 0
@@ -61,25 +64,25 @@ Icg 0
 Wizn W
 Pos  8
 Prac 1
-Trai 10
-SkiP 45
-Save  -8
-Alig  977
-Hit   16
-Dam   33
-SecHit   16
+Trai 12
+SkiP 46
+Save  -3
+Alig  927
+Hit   20
+Dam   34
+SecHit   17
 SecDam   31
-ACs -76 -76 -76 6
-Wimp  500
-Attr 18 17 17 25 17 13 13 13
-AMod 8 2 2 4 0 0 0 0
+ACs -64 -64 -64 14
+Wimp  40
+Attr 18 17 17 25 17 15 11 13
+AMod 4 4 4 2 0 0 0 0
 Pass SipNfRiqQ2dCo~
 Titl  says You can kiss my ring~
 Pnts 100
 TSex 1
 LLev 1
 HMVP 943 362 500
-Cnd  0 6 38 22
+Cnd  0 0 24 0
 Alias sc steal coin ~
 Alias st steal ~
 Alias wc who clan 43 51~
@@ -90,7 +93,8 @@ Alias ww wear compass~
 Alias g cast gate smurf~
 Alias p peek~
 Alias di pray distraction~
-Alias h steal raft alfred~
+Alias h steal coin akin~
+Alias we where~
 OldSk 75 'acid blast'
 Sk 78 'armor'
 OldSk 75 'armor'
@@ -134,7 +138,7 @@ OldSk 1 'feeblemind'
 OldSk 75 'fireball'
 Sk 1 'fireproof'
 OldSk 75 'fireproof'
-Sk 79 'fly'
+Sk 82 'fly'
 OldSk 75 'fly'
 OldSk 1 'forget'
 OldSk 1 'fumble'
@@ -158,7 +162,7 @@ OldSk 1 'locate object'
 OldSk 20 'magic missile'
 Sk 1 'nexus'
 OldSk 1 'nexus'
-Sk 77 'pass door'
+Sk 79 'pass door'
 OldSk 75 'pass door'
 OldSk 75 'plague'
 OldSk 75 'poison'
@@ -211,7 +215,7 @@ OldSk 75 'hand to hand'
 OldSk 75 'kick'
 Sk 81 'kurijitsu'
 Sk 97 'ninjitsu'
-Sk 82 'parry'
+Sk 84 'parry'
 OldSk 75 'parry'
 Sk 75 'trip'
 OldSk 75 'trip'
@@ -253,14 +257,10 @@ Gr 'detection'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'detect hidden'   0  26   9   0   0         32
-Affc 'detect invis'   0  32   9   0   0          8
-Affc 'sneak'   0  44  27   0   0      32768
-Affc 'shield'   0  32  25 -20  17          0
-Affc 'stone skin'   0  31  17 -40  17          0
-Affc 'giant strength'   0  33  17   4   1          0
-Affc 'protection evil'   0  38  24  -1  24       8192
-Affc 'sanctuary'   0  38   6   0   0        128
+Affc 'detect invis'   0  35  13   0   0          8
+Affc 'detect hidden'   0  34  13   0   0         32
+Affc 'armor'   0  35   8 -20  17          0
+Affc 'stone skin'   0  34  16 -40  17          0
 End
 
 #O
@@ -331,7 +331,7 @@ Vnum 12004
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 7
+Wear -1
 Cost 40
 End
 
@@ -474,7 +474,7 @@ Nest 1
 PrevOwner Don~
 Cond 0
 Wear -1
-Time 328
+Time 190
 Cost 800
 Spell 1 'sanctuary'
 End
@@ -538,17 +538,8 @@ Vnum 28024
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 3000
-End
-
-#O
-Vnum 2413
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 16
-Cost 2700
 End
 
 #O
@@ -596,7 +587,7 @@ Vnum 20819
 Nest 0
 PrevOwner Tommy~
 Cond 0
-Wear -1
+Wear 17
 Cost 4000
 End
 
@@ -650,47 +641,11 @@ Cost 1
 End
 
 #O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
 Vnum 2504
 Nest 0
 PrevOwner Slurpee~
 Cond 0
-Wear -1
+Wear 7
 Cost 1160
 End
 
@@ -701,13 +656,31 @@ Nest 0
 PrevOwner Coroner~
 ExtF 81
 Cond 0
-Wear -1
+Wear 16
 Lev  43
 Cost 4800
 Affc 'reserved'   1  40  -1   0   0          0
 Affc 'reserved'   1  40  -1  -1  20          0
 Affc 'enchant weapon'   1  53  -1   3  19          0
 Affc 'enchant weapon'   0  53  -1   3  18          0
+End
+
+#O
+Vnum 2440
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 300
+End
+
+#O
+Vnum 2725
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear -1
+Cost 3600
 End
 
 #END

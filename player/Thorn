@@ -2,8 +2,8 @@
 Name Thorn~
 Id   939225960
 Email (null)~
-LogO 982273735
-Vers 27
+LogO 1310923963
+Vers 31
 Prom <%h/%Hhp %m/%Mm %v/%Vmv %Xxp> ~
 Race elf~
 Outc 0
@@ -12,12 +12,22 @@ MatookT 0
 SkPTimer 0
 SkPTracker 4
 LogoutTracker 4
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1310923960
+LstKillDate 1310923960
+LstDeathDate 1310923960
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 xochipili~
 Sac  300
 Sex  1
@@ -26,13 +36,13 @@ Node 0
 Cap 0
 Created 954033148
 Glad 0 0 0 0 0 0
-LastHost 209.146.94.134 760274~
+LastHost 41.52.6.136~
 Cla  7
 ClaO 1
 Levl 6
 DLevl 0
-Plyd 5114
-Not  954033254 954033254 954033254 954033254 954033254 954033254 954033254 954033254 954033254
+Plyd 5117
+Not  954033254 954033254 954033254 954033254 954033254 954033254 954033254 954033254 954033254 0
 Scro 22
 Rank 0
 Room 3054
@@ -48,7 +58,7 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 20
-Trai 1
+Trai 11
 SkiP 35
 Save  -6
 Alig  1000
@@ -57,8 +67,8 @@ Dam   4
 SecHit   9
 SecDam   4
 ACs 49 49 49 59
-Attr 15 15 19 14 15
-AMod 3 0 2 5 5
+Attr 15 15 19 14 15 13 13 13
+AMod 3 0 2 5 5 0 0 0
 Pass ThqN91cAvdyCc~
 Titl .~
 Pnts 80
@@ -93,6 +103,7 @@ Sk 1 'change sex'
 OldSk 1 'change sex'
 OldSk 1 'chill touch'
 OldSk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 1 'continual light'
 OldSk 1 'continual light'
 Sk 1 'control weather'
@@ -170,10 +181,10 @@ Sk 1 'fireproof'
 OldSk 1 'fireproof'
 Sk 1 'flamestrike'
 OldSk 1 'flamestrike'
-Sk 1 'fly'
-OldSk 1 'fly'
 Sk 1 'floating disc'
 OldSk 1 'floating disc'
+Sk 1 'fly'
+OldSk 1 'fly'
 Sk 1 'forget'
 OldSk 1 'forget'
 Sk 1 'frenzy'
@@ -215,6 +226,14 @@ Sk 1 'mirror image'
 OldSk 1 'mirror image'
 Sk 1 'nexus'
 OldSk 1 'nexus'
+Sk 1 'orb of awakening'
+OldSk 1 'orb of awakening'
+Sk 1 'orb of surprise'
+OldSk 1 'orb of surprise'
+Sk 1 'orb of touch'
+OldSk 1 'orb of touch'
+Sk 1 'orb of turning'
+OldSk 1 'orb of turning'
 Sk 1 'pass door'
 OldSk 1 'pass door'
 Sk 1 'plague'
@@ -269,20 +288,13 @@ Sk 1 'cryogenesis'
 OldSk 1 'cryogenesis'
 Sk 1 'draw life'
 OldSk 1 'draw life'
+Sk 1 'make bag'
 Sk 1 'turn undead'
 OldSk 1 'turn undead'
 Sk 1 'withstand death'
 OldSk 1 'withstand death'
 Sk 1 'wound transfer'
 OldSk 1 'wound transfer'
-Sk 1 'orb of awakening'
-OldSk 1 'orb of awakening'
-Sk 1 'orb of surprise'
-OldSk 1 'orb of surprise'
-Sk 1 'orb of touch'
-OldSk 1 'orb of touch'
-Sk 1 'orb of turning'
-OldSk 1 'orb of turning'
 Sk 1 'dagger'
 OldSk 1 'dagger'
 Sk 1 'flail'
@@ -324,17 +336,17 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-Affc 'armor'   0  40  15 -20  17          0
-Affc 'bless'   0  38  30  -5  24          0
-Affc 'bless'   0  43  30   5  18          0
-Affc 'giant strength'   0  25  19   3   1          0
-Affc 'frenzy'   0  23   2   4  18          0
-Affc 'frenzy'   0  25   2   4  19          0
-Affc 'frenzy'   0  24   2  20  17          0
-Affc 'haste'   0  51   8   4   2    2097152
-Affc 'sanctuary'   0  52   3   0   0        128
-Affc 'blur'   0  52   5 -20  17          0
 Affc 'shield'   0  51  56 -20  17          0
+Affc 'blur'   0  52   5 -20  17          0
+Affc 'sanctuary'   0  52   3   0   0        128
+Affc 'haste'   0  51   8   4   2    2097152
+Affc 'frenzy'   0  24   2  20  17          0
+Affc 'frenzy'   0  25   2   4  19          0
+Affc 'frenzy'   0  23   2   4  18          0
+Affc 'giant strength'   0  25  19   3   1          0
+Affc 'bless'   0  43  30   5  18          0
+Affc 'bless'   0  38  30  -5  24          0
+Affc 'armor'   0  40  15 -20  17          0
 End
 
 #O

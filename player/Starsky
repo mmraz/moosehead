@@ -2,8 +2,8 @@
 Name Starsky~
 Id   972778914
 Email (null)~
-LogO 1095700421
-Vers 31
+LogO 1354400897
+Vers 33
 LnD  A Gladiator~
 Prom %hhp %mm %vmv %gG %Ssac  Exits: %e ~
 Race dragon~
@@ -16,6 +16,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Varro~
 LstKBy Galadriel~
 LstAtkedBy no one~
@@ -23,10 +24,14 @@ LstAtkedByTimer 0
 LstCombatDate 1011122813
 LstKillDate 1011122813
 LstDeathDate 1011122813
-LoginsWOKill 19
-LoginsWODeath 19
-LoginsWOCombat 19
+LoginsWOKill 36
+LoginsWODeath 36
+LoginsWOCombat 36
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 311101 hermes~
 DeityT -90 hermes~
 Sac  300
@@ -36,18 +41,18 @@ Node 0
 Cap 0
 Created 972778927
 Glad 0 0 0 0 0 0
-LastHost ACB9D4DA.ipt.aol.com~
+LastHost 86.163.215.3~
 Cla  6
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 893821
-Not  1067713285 1067713285 1067713285 1067713285 1067713285 1067713285 1067713285 1067713285 1067713285 1067713285
+Plyd 896985
+Not  1353853328 1353465487 1067713285 1349834978 1067713285 1353692901 1067713285 1352226681 1067713285 1353190027
 Scro 22
 Rank 4
-Room 3001
+Room 31601
 HMV  1280 1280 404 404 466 466
-Gold 169
+Gold 121
 Silv 86
 Exp  571225
 Act  CDEFGHQS
@@ -71,13 +76,13 @@ ACs -63 -63 -58 -15
 Wimp  50
 Attr 25 25 25 25 25 13 23 13
 AMod 6 0 4 0 0 0 0 0
-Pass StalVUsoMfT0k~
+Pass StA.C.ezkXuZk~
 Titl  - bad cop~
 Pnts 100
 TSex 1
 LLev 1
 HMVP 1260 389 431
-Cnd  0 0 37 18
+Cnd  0 4 37 26
 Alias f flee~
 Alias r cast 'word of recal'~
 Alias em emote utters the words 'grzzz'.~
@@ -202,9 +207,9 @@ Wear 13
 Lev  50
 Cost 5500
 Val  10 10 10 0 5
-Affc 'enchant armor'   1  52  -1  -7  17          0
-Affc 'reserved'   1  46  -1   2  19          0
 Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1   2  19          0
+Affc 'enchant armor'   1  52  -1  -7  17          0
 End
 
 #O
@@ -228,8 +233,8 @@ Wear 4
 Lev  43
 Cost 5000
 Val  5 5 5 3 5
-Affc 'reserved'   1  40  -1   2  19          0
 Affc 'enchant armor'   1  52  -1  -8  17          0
+Affc 'reserved'   1  40  -1   2  19          0
 End
 
 #O
@@ -245,9 +250,9 @@ Wear 9
 Lev  42
 Cost 4000
 Val  8 8 8 5 5
-Affc 'reserved'   1  37  -1   2  19          0
-Affc 'reserved'   1  37  -1   2   1          0
 Affc 'enchant armor'   1  52  -1  -7  17          0
+Affc 'reserved'   1  37  -1   2   1          0
+Affc 'reserved'   1  37  -1   2  19          0
 End
 
 #O
@@ -260,10 +265,10 @@ Cond 0
 Wear 6
 Lev  50
 Cost 4000
-Affc 'enchant armor'   1  52  -1  -7  17          0
-Affc 'reserved'   1  47  -1  -2  20          0
-Affc 'reserved'   1  47  -1   2  18          0
 Affc 'reserved'   1  47  -1   2  19          0
+Affc 'reserved'   1  47  -1   2  18          0
+Affc 'reserved'   1  47  -1  -2  20          0
+Affc 'enchant armor'   1  52  -1  -7  17          0
 End
 
 #O
@@ -314,8 +319,8 @@ Wear 3
 Lev  42
 Cost 5000
 Val  5 5 5 3 5
-Affc 'reserved'   1  40  -1   2  19          0
 Affc 'enchant armor'   1  52  -1  -7  17          0
+Affc 'reserved'   1  40  -1   2  19          0
 End
 
 #O
@@ -339,9 +344,9 @@ Wear 12
 Lev  38
 Cost 0
 Val  7 7 7 2 5
-Affc 'reserved'   1  32  -1   1   1          0
-Affc 'reserved'   1  32  -1   1   2          0
 Affc 'reserved'   0  32  -1   0   0         40
+Affc 'reserved'   1  32  -1   1   2          0
+Affc 'reserved'   1  32  -1   1   1          0
 End
 
 #O
@@ -356,11 +361,11 @@ Cond 0
 Wear 5
 Lev  50
 Cost 10000
-Affc 'enchant armor'   1  52  -1  -5  17          0
-Affc 'reserved'   1  47  -1  -2  20          0
-Affc 'reserved'   1  47  -1   2   1          0
-Affc 'reserved'   1  47  -1  -1   2          0
 Affc 'reserved'   1  47  -1   2  19          0
+Affc 'reserved'   1  47  -1  -1   2          0
+Affc 'reserved'   1  47  -1   2   1          0
+Affc 'reserved'   1  47  -1  -2  20          0
+Affc 'enchant armor'   1  52  -1  -5  17          0
 End
 
 #O
@@ -403,11 +408,9 @@ End
 Vnum 8500
 Nest 0
 PrevOwner Starsky~
-ExtF 16777344
 Cond 0
 Wear -1
 Cost 3000
-Affc 'fireproof'   1  40   5   0   0   16777216
 End
 
 #O
@@ -436,7 +439,7 @@ PrevOwner Starsky~
 Cond 0
 Wear -1
 Cost 18900
-Val  54 50 47 201 0
+Val  54 50 47 204 0
 Spell 3 'teleport'
 End
 
@@ -459,8 +462,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 5600
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
 End
 
 #O
@@ -473,8 +476,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   1  52  -1   9  19          0
 Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   9  19          0
 End
 
 #O
@@ -523,8 +526,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1000
-Affc 'enchant weapon'   1  52  -1   8  19          0
 Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
 End
 
 #O
@@ -601,7 +604,7 @@ PrevOwner Starsky~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 9 161 0
+Val  52 10 9 164 0
 Spell 3 'remove curse'
 End
 
@@ -615,8 +618,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 3300
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -678,8 +681,8 @@ ExtF 67
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  53  -1   8  18          0
 Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
@@ -693,9 +696,9 @@ Wear -1
 Lev  49
 Cost 1000
 Val  1 9 4 25 1280
-Affc 'enchant weapon'   1  56  -1   4  18          0
-Affc 'enchant weapon'   1  56  -1   4  19          0
 Affc 'reserved'   1  47  -1 -20  13          0
+Affc 'enchant weapon'   1  56  -1   4  19          0
+Affc 'enchant weapon'   1  56  -1   4  18          0
 End
 
 #O
@@ -868,8 +871,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 10300
-Affc 'enchant weapon'   1  52  -1   8  19          0
 Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
 End
 
 #O
@@ -892,8 +895,8 @@ Cond 0
 Wear -1
 Lev  49
 Cost 6400
-Affc 'enchant weapon'   1  51  -1  10  19          0
 Affc 'enchant weapon'   1  51  -1   9  18          0
+Affc 'enchant weapon'   1  51  -1  10  19          0
 End
 
 #O
@@ -961,7 +964,7 @@ PrevOwner Starsky~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 6 161 0
+Val  52 10 6 164 0
 Spell 3 'remove curse'
 End
 
@@ -984,8 +987,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4100
-Affc 'enchant weapon'   0  52  -1  12  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
@@ -998,9 +1001,9 @@ Cond 0
 Wear -1
 Lev  49
 Cost 6400
-Affc 'enchant weapon'   1  54  -1   5  19          0
-Affc 'reserved'   1  47  -1  -5  17          0
 Affc 'enchant weapon'   0  54  -1   3  18          0
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   1  54  -1   5  19          0
 End
 
 #O
@@ -1013,9 +1016,9 @@ Cond 0
 Wear -1
 Lev  42
 Cost 4500
-Affc 'reserved'   1  35  -1   5  17          0
-Affc 'enchant weapon'   1  52  -1   7  19          0
 Affc 'enchant weapon'   0  52  -1   7  18          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
+Affc 'reserved'   1  35  -1   5  17          0
 End
 
 #O
@@ -1039,9 +1042,9 @@ Wear -1
 Lev  37
 Cost 3500
 Val  7 7 7 2 5
-Affc 'enchant armor'   1  52  -1  -7  17          0
-Affc 'reserved'   1  32  -1   2  19          0
 Affc 'reserved'   1  32  -1  -1   3          0
+Affc 'reserved'   1  32  -1   2  19          0
+Affc 'enchant armor'   1  52  -1  -7  17          0
 End
 
 #O
@@ -1358,9 +1361,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6400
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'reserved'   1  47  -1  -5  17          0
 Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
@@ -1372,8 +1375,8 @@ ExtF 67
 Cond 0
 Wear -1
 Cost 1000
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -1472,8 +1475,8 @@ Cond 0
 Wear 16
 Lev  50
 Cost 1700
-Affc 'enchant weapon'   1  52  -1   9  19          0
 Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   9  19          0
 End
 
 #O
@@ -1488,10 +1491,10 @@ Wear 8
 Lev  48
 Cost 0
 Val  9 9 9 5 5
-Affc 'enchant armor'   1  53  -1  -5  17          0
-Affc 'reserved'   1  44  -1  35  14          0
-Affc 'reserved'   1  44  -1   3  19          0
 Affc 'reserved'   1  44  -1   2  18          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1  35  14          0
+Affc 'enchant armor'   1  53  -1  -5  17          0
 End
 
 #O
@@ -1546,6 +1549,16 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 500000
+End
+
+#O
+Vnum 3281
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
 End
 
 #END

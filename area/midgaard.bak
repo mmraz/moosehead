@@ -1,5 +1,5 @@
 #AREA
-/mud/moosehead/area/midgaard.are~
+../olc/olcarea/midgaard.are~
 Midgaard~
 { All } Diku    Midgaard~
 3000 3378
@@ -915,6 +915,45 @@ AT 0 0 0
 EFNU 0 0 0
 stand stand none 0
 0 0 medium 0
+F par GHIJK
+#3049
+old priest mojo~
+Old Priest of Mojo~
+The Old Priest of Mojo stands here, leaning on a solid oak cane.
+~
+An old priest stands here, dressed in a pure white hooded robe, tied at the 
+waist with a golden rope. He stands hunched over, relying on a solid oak 
+cane to remain upright. He is whispering what sounds to be a prayer.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABRVXYZ 0 0 0
+32 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+stand stand male 0
+0 0 tiny 0
+F par GHIJK
+#3050
+Jeweller Apprentice Boy~
+The Jewellers Apprentice~
+A young boy sits at the table, all his focus on a small jewel in front of him.
+~
+A plain looking young boy sits here, a look of concentration on his face. He has extremely 
+steady hands as he works; perhaps all jewellers are also thieves!
+~
+human~
+Please, don't tell my master that i'm selling his tools.~
+All he's interested in is a profit, well, this will show him!~
+He pays me a pittance, what else am I supposed to do?~
+ABRVXYZ 0 0 0
+13 0 6d12+853 15d9+100 4d6+8 none
+-9 -9 -9 6
+EFNU 0 0 0
+sit sit male 0
+0 0 tiny 0
 F par GHIJK
 #3060
 cityguard guard~
@@ -2958,17 +2997,13 @@ Dark magic placed on the {Yhead{x, is the blessing of Almighty, And is
 there only to remind you of your dark past.
 ~
 #3146
-USE THIS ITEM FIRST~
-USE THIS ITEM FIRST~
-There is some greenish goo on the ground, Better stay away.~
-unknown~
-trash GHMNPRd 0
-0 0 0 0 0
-0 50 10 P
-A
-17 -1
-F
-A 0 0 W
+Communion Bread~
+communion bread~
+A perfectly round and flat piece communion bread lies here~
+Bread~
+pill AG AO
+21 'haste' '' '' ''
+1 10 800 P
 #3147
 Sin gets you killed~
 A Sin~
@@ -3070,6 +3105,58 @@ coal~
 trash T AO
 0 0 0 0 0
 0 100 10 P
+#3156
+Holy Water~
+holy water~
+A simple flask of blessed holy water lies here~
+container~
+potion AG AO
+35 'giant strength' '' '' ''
+1 10 800 P
+#3157
+Remembrance Candle~
+a remembrance candle~
+A newly lit candle glows here, in remembrance of that special someone.~
+Wax~
+light 0 A
+0 0 250 0 0
+1 1 1000 P
+A
+4 1
+#3158
+REUSE~
+***REUSE THIS OBJ VNUM***~
+A plain solid metal crucifix lies here, blessed by the gods.~
+Iron~
+trash AI AO
+0 0 250 0 0
+1 3 1500 P
+A
+4 1
+#3159
+Plain Iron Crucifix~
+a plain iron crucifix~
+A plain solid iron crucifix lies here, blessed by the gods~
+iron~
+gem AI AO
+0 0 0 0 0
+1 3 1200 P
+A
+3 1
+#3160
+Plain Wooden Chest~
+a plain wooden chest~
+A plain wooden chests sits here within the small alcove.~
+wood~
+forge RTYd P
+0 0 0 0 0
+1 10 0 P
+E
+wooden~
+This small chests rests inside the smaller alcove within the temple 
+blessings. The wood looks age worn and the fabric inside is tearing
+slightly. You cant see anything special about it.
+~
 #3161
 key white~
 a white key~
@@ -3612,6 +3699,46 @@ glass~
 potion G A
 10 'word of recall' '' '' ''
 10 40 609 P
+#3294
+crystal gods gaze~
+a crystal of the gods' gaze~
+A crystal that can draw the gaze of the gods lies here.~
+crystal~
+gem TW AQ
+0 0 0 0 0
+1 10 9900 P
+#3295
+diamond tipped cutting tool~
+a diamond tipped cutting tool~
+A cutting tool tipped with a sharp diamond lies here.~
+diamond~
+gem TW AO
+0 0 0 0 0
+5 10 100000 P
+#3296
+diamond edged cutting tool~
+a diamond edged cutting tool~
+A cutting tool with a sharp diamond edge lies here.~
+diamond~
+gem TW AO
+0 0 0 0 0
+30 10 300000 P
+#3297
+solid diamond cutting tool~
+a solid diamond cutting tool~
+A cutting tool cut from a single diamond lies here.~
+diamond~
+gem TW AO
+0 0 0 0 0
+40 10 1000000 P
+#3298
+spirit focus gem~
+a spirit focus~
+A gem that can focus your efforts at spirit linking lies here.~
+gem~
+gem W AO
+0 0 0 0 0
+0 1 100000 P
 #3349
 long sword~
 a glowing long sword~
@@ -4235,7 +4362,6 @@ A large, peculiar looking statue is standing in the middle of the square.
 Roads lead in every direction, north to the temple square, south to the
 common square, east and westbound is the main street.  A bulletin board
 is here holding bulletins.
-You see a flask here.
 ~
 0 S 1
 D0
@@ -4688,6 +4814,10 @@ D0
 Exit ~
 ~
 16384 -1 3015
+D4
+Exit ~
+door~
+16384 0 3060
 E
 oil lamps~
 They are made from polished gold and looks as if they are securely fastened
@@ -4877,10 +5007,6 @@ D4
 Exit ~
 door~
 16384 0 3038
-D5
-Exit ~
-door~
-16384 0 3055
 S
 #3040
 Inside the West Gate of Midgaard~
@@ -5276,7 +5402,7 @@ You are by the temple altar in the northern end of the Temple of Mojo.
 A huge altar made from white polished marble is standing in front of you and
 behind it is a ten foot tall sitting statue of Odin, the King of the Gods.
 The back of the altar opens into a a beautiful atrium, above which can be
-seen a rainbow.
+seen a rainbow. To the west you see a small alcove.
 ~
 0 CDKSX 0
 H 110 M 110
@@ -5288,6 +5414,10 @@ D2
 Exit ~
 ~
 16384 -1 3001
+D3
+Exit ~
+door~
+16384 0 3055
 D4
 Exit ~
 ~
@@ -5305,34 +5435,21 @@ cube, the 6 faces of which represent the 6 aspects of his power.
 ~
 S
 #3055
-***REUSE THIS ROOM FIRST***~
-You are on the first floor of the tower of observation.  Rooms all around you
-lead to observation posts into various area.  Remember that your presence
-has been announced to all clans people.  Are you sure you being here is wise?
+Temple Blessings~
+You have walked into a small alcove beside the main temple altar. There is 
+a small chest resting on a further, smaller alcove, carved delicately into 
+the main alcove wall. A projected rainbow of colours from further in the 
+temple creates an array of light inside. You feel at peace here.
 ~
-0 CDNST 0
-H 0 M 0
-O immortal~
-D0
-Exit ~
-door~
-16384 0 1158
+0 CDKSX 0
 D1
 Exit ~
 door~
-16384 0 5151
-D2
-Exit ~
-door~
-16384 0 3504
-D3
-Exit ~
-door~
-16384 0 18138
-D4
-Exit ~
-door~
-16384 0 3039
+16384 0 3054
+E
+~
+Generic extended description.
+~
 S
 #3056
 The Fountain of Youth Apothecary~
@@ -5383,6 +5500,20 @@ D2
 Exit ~
 door~
 16384 0 3263
+S
+#3060
+A Small Platform Above the Jeweller's Shop~
+You have climbed a rickety ladder, leading into a low ceilinged platform above the 
+jewellers shop. A table rests in the centre of the platform with a couple chairs placed 
+behind it. A single candle and a magnifying glass rest atop the table, providing a focussed 
+light for the jewellers work. A number of odd looking tools can also be seen on the table, 
+placed carefully upon a sheet of cloth. 
+~
+0 CDS 0
+D5
+Exit ~
+door~
+16384 0 3034
 S
 #3100
 Northwest end of Concourse~
@@ -5836,10 +5967,6 @@ D3
 Exit ~
 ~
 16384 -1 3135
-D4
-Exit ~
-~
-16384 -1 7914
 E
 sign~
 The sign points in all directions:
@@ -6957,7 +7084,7 @@ east and west.
 D0
 Exit ~
 door~
-16384 0 31500
+16384 0 31520
 D1
 Exit ~
 ~
@@ -6991,7 +7118,7 @@ circle carved into it.
 D0
 Exit ~
 door~
-16384 0 31900
+16384 0 31918
 D1
 Exit ~
 ~
@@ -7030,7 +7157,7 @@ Exit ~
 D2
 Exit ~
 door~
-16384 0 31600
+16384 0 31614
 D3
 Exit ~
 ~
@@ -7240,261 +7367,6 @@ S
 #0
 
 #RESETS
-M 0 3011   1 3001  1	* Hassan
-E 1 3005  -1   16	*   Hassan's scimitar
-M 0 3021   1 3002  1	* the guildmaster
-M 0 3043   1 3003  1	* the waiter
-G 1 3002  -1     	*   a bottle of ale
-G 1 3004  -1     	*   a bottle of local specialty
-E 1 3022  -1   16	*   a long sword
-M 0 3061   4 3004  1	* the janitor
-G 1 3000  -1     	*   a barrel of beer
-M 0 3025   1 3004  1	* the knight templar
-M 0 3060  15 3004  1	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3355  -1    4	*   a standard issue cloak
-M 0 3061   4 3005  1	* the janitor
-M 0 3064   3 3006  2	* the drunk
-M 0 3064   3 3006  2	* the drunk
-M 0 3061   4 3006  1	* the janitor
-M 0 3040   1 3007  1	* the bartender
-G 1 3000  -1     	*   a barrel of beer
-G 1 3001  -1     	*   a bottle of beer
-E 1 3022  -1   16	*   a long sword
-M 0 3061   4 3007  1	* the janitor
-M 0 3060  15 3008  2	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3355  -1    4	*   a standard issue cloak
-M 0 3060  15 3008  2	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3355  -1    4	*   a standard issue cloak
-M 0 3064   3 3008  1	* the drunk
-M 0 3001   1 3009  1	* the baker
-G 1 3009  -1     	*   a big pot pie
-G 1 3011  -1     	*   a bread
-G 1 3012  -1     	*   a cinnamon roll
-G 1 3013  -1     	*   a batch of Sara's cookies
-G 1 3014  -1     	*   a blueberry danish
-E 1 3022  -1   16	*   a long sword
-M 0 3003   1 3011  1	* the weaponsmith
-G 1 3022  -1     	*   a long sword
-G 1 3021  -1     	*   a small sword
-G 1 3020  -1     	*   a dagger
-G 1 3023  -1     	*   a club
-G 1 3024  -1     	*   a mace
-G 1 3027  -1     	*   a spear
-G 1 3028  -1     	*   a wooden staff
-G 1 3029  -1     	*   a flail
-E 1 3022  -1   16	*   a long sword
-G 1 3026  -1     	*   a battle axe
-G 1 3025  -1     	*   a hand axe
-M 0 3024   1 3017  1	* the sorcerer
-M 0 3042   1 3018  1	* the waiter
-G 1 3002  -1     	*   a bottle of ale
-G 1 3003  -1     	*   a bottle of firebreather
-E 1 3022  -1   16	*   a long sword
-M 0 3027   1 3021  1	* the knight
-E 1 3349  -1   16	*   a glowing long sword
-M 0 3045   1 3022  1	* the waiter
-G 1 3002  -1     	*   a bottle of ale
-G 1 3003  -1     	*   a bottle of firebreather
-G 1 3004  -1     	*   a bottle of local specialty
-E 1 3022  -1   16	*   a long sword
-M 0 3023   1 3023  1	* the guildmaster
-M 0 3062  10 3025  2	* the beastly fido
-M 0 3062  10 3025  2	* the beastly fido
-M 0 3062  10 3027  1	* the beastly fido
-M 0 3026   1 3027  1	* the assassin
-E 1 3349  -1   16	*   a glowing long sword
-M 0 3044   1 3028  1	* the waiter
-G 1 3003  -1     	*   a bottle of firebreather
-G 1 3004  -1     	*   a bottle of local specialty
-E 1 3022  -1   16	*   a long sword
-M 0 3022   1 3029  1	* the guildmaster
-M 0 3010   1 3035  1	* the leather worker
-G 1 3054  -1     	*   a leather girdle
-G 1 3053  -1     	*   a leather belt
-G 1 3052  -1     	*   a leather bracer
-G 1 3071  -1     	*   a pair of hard leather sleeves
-G 1 3070  -1     	*   a pair of hard leather gloves
-G 1 3069  -1     	*   a pair of hard leather boots
-G 1 3068  -1     	*   a pair of hard leather pants
-G 1 3067  -1     	*   a hard leather cap
-G 1 3066  -1     	*   a hard leather jerkin
-G 1 3065  -1     	*   a pair of leather sleeves
-G 1 3064  -1     	*   a pair of leather gloves
-G 1 3063  -1     	*   a pair of leather boots
-G 1 3062  -1     	*   a pair of leather pants
-G 1 3061  -1     	*   a leather cap
-G 1 3060  -1     	*   a leather jerkin
-M 0 3062  10 3035  1	* the beastly fido
-M 0 3068   4 3040  2	* the cityguard
-E 1 3357  -1    7	*   a pair of standard issue leggings
-E 1 3355  -1    3	*   a standard issue cloak
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3365  -1    0	*   a war banner
-M 0 3068   4 3040  2	* the cityguard
-E 1 3362  -1   13	*   a standard issue belt
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3365  -1    0	*   a war banner
-M 0 3060  15 3040  1	* the cityguard
-E 1 3357  -1    7	*   a pair of standard issue leggings
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3365  -1    0	*   a war banner
-G 1 3364  -1     	*   a city guard signet ring
-M 0 3068   4 3041  2	* the cityguard
-E 1 3358  -1    8	*   a pair of standard issue boots
-E 1 3360  -1   10	*   a pair of standard issue sleeves
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3365  -1    0	*   a war banner
-E 1 3350  -1   16	*   a standard issue sword
-M 0 3068   4 3041  2	* the cityguard
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3365  -1    0	*   a war banner
-E 1 3359  -1    9	*   a pair of standard issue gloves
-E 1 3361  -1   12	*   a standard issue cape
-E 1 3364  -1    1	*   a city guard signet ring
-M 0 3063   2 3043  2	* the vagabond
-G 1 2101  -1     	*   a Troll gang jacket
-E 1 3021  -1   16	*   a small sword
-E 1 3066  -1    5	*   a hard leather jerkin
-E 1 3052  -1   15	*   a leather bracer
-M 0 3063   2 3043  2	* the vagabond
-G 1 2101  -1     	*   a Troll gang jacket
-G 1 2101  -1     	*   a Troll gang jacket
-E 1 3021  -1   16	*   a small sword
-E 1 3066  -1    5	*   a hard leather jerkin
-E 1 3052  -1   15	*   a leather bracer
-M 0 3062  10 3043  1	* the beastly fido
-M 0 3065   2 3044  1	* the beggar
-M 0 3060  15 3045  1	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3359  -1    9	*   a pair of standard issue gloves
-M 0 3005   3 3045  1	* the thief
-E 1 3351  -1   16	*   a standard issue dagger
-M 0 3006   1 3049  1	* the captain
-G 1 3050  -1     	*   a raft
-G 1 3051  -1     	*   a canoe
-M 0 3062  10 3049  1	* the beastly fido
-M 0 3007   1 3050  1	* the sailor
-M 0 3066   1 3058  1	* an alley cat
-M 0 3005   3 3058  1	* the thief
-E 1 3351  -1   16	*   a standard issue dagger
-M 0 3018   1 3058  1	* the assassin
-G 1 3017  -1     	*   a coiled snare rope
-G 1 3018  -1     	*   a looped steel wire
-M 0 3060  15 3101  1	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-G 1 3120  -1     	*   a key
-M 0 3062  10 3103  1	* the beastly fido
-M 0 3060  15 3104  1	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-M 0 3060  15 3107  1	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3363  -1   15	*   a standard issue bracer
-M 0 3060  15 3109  1	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3363  -1   15	*   a standard issue bracer
-M 0 3124   2 3109  1	* the duck
-M 0 3060  15 3118  3	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3363  -1   15	*   a standard issue bracer
-M 0 3060  15 3118  3	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-G 1 3120  -1     	*   a key
-M 0 3060  15 3118  3	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3363  -1   15	*   a standard issue bracer
-M 0 3060  15 3119  1	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-M 0 3144   1 3120  1	* the town crier
-M 0 3142   1 3137  1	* the secretary
-M 0 3143   1 3138  1	* The Mayor of Midgaard
-M 0 3069   4 3138  4	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-M 0 3069   4 3138  4	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-M 0 3069   4 3138  4	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-M 0 3069   4 3138  4	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-M 0 3140   1 3142  1	* the captain
-E 1 3350  -1   16	*   a standard issue sword
-G 1 3122  -1     	*   a key
-G 1 3137  -1     	*   a steel key
-M 0 3141   4 3142  4	* the cityguard
-E 1 3350  -1   16	*   a standard issue sword
-M 0 3141   4 3142  4	* the cityguard
-E 1 3350  -1   16	*   a standard issue sword
-M 0 3141   4 3142  4	* the cityguard
-E 1 3350  -1   16	*   a standard issue sword
-M 0 3141   4 3142  4	* the cityguard
-E 1 3350  -1   16	*   a standard issue sword
-M 0 3150   1 3150  1	* Wilf
-G 1 3154  -1     	*   a bottle of Kanokee
-G 1 3152  -1     	*   a bucket of hot Buffalo chicken wings
-G 1 3153  -1     	*   a biscuit
-G 1 3151  -1     	*   a bowl of chicken noodle soup
-G 1 1103  -1     	*   a pipeweed bread
-G 1 3150  -1     	*   a cup of cinnamon coffee
-G 1 3100  -1     	*   a cup of tea
-M 0 3005   3 3252  1	* the thief
-E 1 3351  -1   16	*   a standard issue dagger
-M 0 3060  15 3271  1	* the cityguard
-E 1 3365  -1    0	*   a war banner
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3353  -1    5	*   a standard issue vest
-M 0 3162   1 3334  1	* Otho the Changer
 O 0 3135 100 3005	* a foutain
 O 0 3139 100 3008	* the receptionist's letter of resignation
 O 0 3140 100 3008	* the bank's notice of liquidation
@@ -7507,70 +7379,8 @@ O 0 3130 100 3142	* the desk
 P 1 3123  -1 3130  1	*   a key
 O 0 3131 100 3142	* the safe
 P 1 3132  -1 3131  1	*   the silver coins
-M 0 3008   1 3031  1	* the pet shop boy
-M 0 3031   1 3032  1	* a pack mare
-M 0 3032   1 3032  1	* a pack wyrm
-M 0 3033   1 3032  1	* a vicious war turtle
-M 0 3092   2 3032  1	* the beagle
-M 0 3093   2 3032  1	* the rottweiler
-M 0 3091   2 3032  1	* the puppy
-M 0 3094   2 3032  1	* the wolf
-M 0 3090   2 3032  1	* the kitten
-M 0 3100   1 3106  1	* the maid
-G 1 3100  -1     	*   a cup of tea
-G 1 3101  -1     	*   a cup of coffee
-G 1 3102  -1     	*   a cup of water
-M 0 3120   1 3106  1	* the sexton
-G 1 3121  -1     	*   a key
-M 0 3004   1 3020  1	* the armourer
-E 1 3022  -1   16	*   a long sword
-G 1 3097  -1     	*   a small metal shield
-G 1 3117  -1     	*   a small wooden shield
-G 1 3110  -1     	*   a chain mail shirt
-G 1 3111  -1     	*   a chain mail coif
-G 1 3112  -1     	*   a long chain mail skirt
-G 1 3114  -1     	*   a pair of chain mail gauntlets
-G 1 3115  -1     	*   a pair of chain mail sleeves
-G 1 3075  -1     	*   a pair of reinforced boots
-G 1 3113  -1     	*   a pair of iron-bound boots
-G 1 3072  -1     	*   a scale mail jerkin
-G 1 3073  -1     	*   a scale mail coif
-G 1 3074  -1     	*   a long scale mail skirt
-G 1 3077  -1     	*   a pair of scale mail sleeves
-G 1 3076  -1     	*   a pair of reinforced gloves
-G 1 3116  -1     	*   a large metal shield
 O 0 3079 100 3020	* a small magical forge
-M 0 3020   1 3019  1	* the guildmaster
 O 0 3108 100 3019	* MageLab
-M 0 3161   1 3160  1	* Lister
-E 1 3036  -1   16	*   Lister's fang
-M 0 3160   1 3160  1	* St. Bob
-G 1 3119  -1     	*   a scroll of thorns
-G 1 3125  -1     	*   a scroll of brambles
-G 1 3126  -1     	*   a scroll of spikes
-G 1 3127  -1     	*   a scroll of blades
-G 1 10341  -1     	*   a map of Nottingham
-G 1 3162  -1     	*   an Old Map of the city of Midgaard
-G 1 3163  -1     	*   an Old Map of Boinga
-G 1 3164  -1     	*   a map of southern Midgaard
-G 1 3165  -1     	*   a map of the Dwarven Kingdom
-G 1 3166  -1     	*   a map of the first level of Moria
-G 1 3167  -1     	*   a map of New Thalos 
-G 1 3168  -1     	*   a map of Olympus
-G 1 2444  -1     	*   a Map of Boinga
-G 1 2445  -1     	*   a Map of Midgaard
-G 1 3093  -1     	*   a blank scroll
-G 1 3049  -1     	*   a kozo scroll
-G 1 3048  -1     	*   a scroll of papyrus
-G 1 3038  -1     	*   a scroll of fine rice paper
-G 1 3055  -1     	*   a scroll of fine vellum
-M 0 3015   1 3048  1	* the yltsaeb odif
-M 0 3065   2 3048  1	* the beggar
-G 1 3056  -1     	*   a scroll of fine parchment
-M 0 3046   1 3048  1	* Filthy
-E 1 3022  -1   16	*   a long sword
-G 1 3004  -1     	*   a bottle of local specialty
-G 1 3003  -1     	*   a bottle of firebreather
 D 0 3001   0 16384	* The Temple Of Mojo north
 D 0 3001   2 16384	* The Temple Of Mojo south
 D 0 3001   4 16384	* The Temple Of Mojo up
@@ -7691,12 +7501,6 @@ D 0 3052   3 16384	* Outside the West Gate of Midgaard west
 D 0 3053   0 16384	* Outside the East Gate of Midgaard north
 D 0 3053   1 16384	* Outside the East Gate of Midgaard east
 D 0 3053   3 16385	* Outside the East Gate of Midgaard west
-D 0 3055   0 16384	* ***REUSE THIS ROOM FIRST*** north
-D 0 3055   1 16384	* ***REUSE THIS ROOM FIRST*** east
-D 0 3055   2 16384	* ***REUSE THIS ROOM FIRST*** south
-D 0 3055   3 16384	* ***REUSE THIS ROOM FIRST*** west
-D 0 3055   4 16384	* ***REUSE THIS ROOM FIRST*** up
-D 0 3055   5 16384	* ***REUSE THIS ROOM FIRST*** down
 D 0 3057   4 16384	* In the air... up
 D 0 3057   5 16384	* In the air... down
 D 0 3058   0 16384	* The Assassin's Haven north
@@ -7913,20 +7717,433 @@ D 0 3014   1 16384	* Market Square east
 D 0 3014   2 16384	* Market Square south
 D 0 3014   3 16384	* Market Square west
 D 0 3037   3 16387	* {CA Holy Shrine{x west
-M 0 3012   1 3054  1	* the healer
 O 0 3010 100 3054	* the donation pit
 D 0 3054   1 16387	* By the Temple Altar east
 D 0 3054   2 16384	* By the Temple Altar south
 D 0 3054   4 16384	* By the Temple Altar up
-M 0 3036   1 3134  1	* The deadhauler
-M 0 3060  15 3134  1	* the cityguard
+D 0 3134   0 16384	* Emerald Avenue north
+D 0 3134   1 16384	* Emerald Avenue east
+D 0 3134   3 16384	* Emerald Avenue west
+D 0 3033   2 16384	* The Magic Shop south
+D 0 3010   2 16384	* The General Store south
+D 0 3114   1 16384	* The Pond east
+D 0 3114   3 16384	* The Pond west
+D 0 3303   0 16384	* Clan Road north
+D 0 3303   1 16384	* Clan Road east
+D 0 3303   2 16384	* Clan Road south
+D 0 3303   3 16384	* Clan Road west
+D 0 3026   0 16384	* The Dark Alley north
+D 0 3026   1 16384	* The Dark Alley east
+D 0 3026   2 16384	* The Dark Alley south
+D 0 3026   3 16384	* The Dark Alley west
+D 0 3352   2 16384	* Grebe's Tavern south
+D 0 3262   0 16385	* Inside the North Gate of Midgaard north
+D 0 3262   1 16384	* Inside the North Gate of Midgaard east
+D 0 3262   3 16384	* Inside the North Gate of Midgaard west
+D 0 3255   1 16384	* Inside the South Gate of Midgaard east
+D 0 3255   2 16385	* Inside the South Gate of Midgaard south
+D 0 3255   3 16384	* Inside the South Gate of Midgaard west
+D 0 3170   0 16384	* Entrance to the Midgaard Town Hall north
+D 0 3170   2 16483	* Entrance to the Midgaard Town Hall south
+D 0 3170   4 16384	* Entrance to the Midgaard Town Hall up
+D 0 3056   2 16384	* The Fountain of Youth Apothecary south
+M 0 3011   1 3001  1	* Hassan
+E 1 3005  -1   16	*   Hassan's scimitar
+M 0 3021   1 3002  1	* the guildmaster
+M 0 3043   1 3003  1	* the waiter
+E 1 3022  -1   16	*   a long sword
+G 1 3004  -1     	*   a bottle of local specialty
+G 1 3002  -1     	*   a bottle of ale
+M 0 3060  15 3004  1	* the cityguard
+E 1 3355  -1    4	*   a standard issue cloak
 E 1 3353  -1    5	*   a standard issue vest
 E 1 3350  -1   16	*   a standard issue sword
 E 1 3364  -1    1	*   a city guard signet ring
 E 1 3365  -1    0	*   a war banner
-D 0 3134   0 16384	* Emerald Avenue north
-D 0 3134   1 16384	* Emerald Avenue east
-D 0 3134   3 16384	* Emerald Avenue west
+M 0 3025   1 3004  1	* the knight templar
+M 0 3061   4 3004  1	* the janitor
+G 1 3000  -1     	*   a barrel of beer
+M 0 3064   3 3005  1	* the drunk
+M 0 3061   4 3006  2	* the janitor
+M 0 3061   4 3006  2	* the janitor
+M 0 3064   3 3006  1	* the drunk
+M 0 3061   4 3007  1	* the janitor
+M 0 3040   1 3007  1	* the bartender
+E 1 3022  -1   16	*   a long sword
+G 1 3001  -1     	*   a bottle of beer
+G 1 3000  -1     	*   a barrel of beer
+M 0 3064   3 3008  1	* the drunk
+M 0 3060  15 3008  2	* the cityguard
+E 1 3355  -1    4	*   a standard issue cloak
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3060  15 3008  2	* the cityguard
+E 1 3355  -1    4	*   a standard issue cloak
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3001   1 3009  1	* the baker
+E 1 3022  -1   16	*   a long sword
+G 1 3014  -1     	*   a blueberry danish
+G 1 3013  -1     	*   a batch of Sara's cookies
+G 1 3012  -1     	*   a cinnamon roll
+G 1 3011  -1     	*   a bread
+G 1 3009  -1     	*   a big pot pie
+M 0 3002   1 3010  1	* the grocer
+G 1 3017  -1     	*   a coiled snare rope
+G 1 3031  -1     	*   a hooded brass lantern
+G 1 3030  -1     	*   a torch
+G 1 3138  -1     	*   a buffalo water skin
+G 1 3032  -1     	*   a bag
+G 1 3033  -1     	*   a box
+G 1 1215  -1     	*   an iron ring
+E 1 3022  -1   16	*   a long sword
+G 1 3147  -1     	*   A Sin
+M 0 3003   1 3011  1	* the weaponsmith
+G 1 3025  -1     	*   a hand axe
+G 1 3026  -1     	*   a battle axe
+E 1 3022  -1   16	*   a long sword
+G 1 3029  -1     	*   a flail
+G 1 3028  -1     	*   a wooden staff
+G 1 3027  -1     	*   a spear
+G 1 3024  -1     	*   a mace
+G 1 3023  -1     	*   a club
+G 1 3020  -1     	*   a dagger
+G 1 3021  -1     	*   a small sword
+G 1 3022  -1     	*   a long sword
+M 0 3024   1 3017  1	* the sorcerer
+M 0 3042   1 3018  1	* the waiter
+E 1 3022  -1   16	*   a long sword
+G 1 3003  -1     	*   a bottle of firebreather
+G 1 3002  -1     	*   a bottle of ale
+M 0 3020   1 3019  1	* the guildmaster
+M 0 3004   1 3020  1	* the armourer
+G 1 3116  -1     	*   a large metal shield
+G 1 3076  -1     	*   a pair of reinforced gloves
+G 1 3077  -1     	*   a pair of scale mail sleeves
+G 1 3074  -1     	*   a long scale mail skirt
+G 1 3073  -1     	*   a scale mail coif
+G 1 3072  -1     	*   a scale mail jerkin
+G 1 3113  -1     	*   a pair of iron-bound boots
+G 1 3075  -1     	*   a pair of reinforced boots
+G 1 3115  -1     	*   a pair of chain mail sleeves
+G 1 3114  -1     	*   a pair of chain mail gauntlets
+G 1 3112  -1     	*   a long chain mail skirt
+G 1 3111  -1     	*   a chain mail coif
+G 1 3110  -1     	*   a chain mail shirt
+G 1 3117  -1     	*   a small wooden shield
+G 1 3097  -1     	*   a small metal shield
+E 1 3022  -1   16	*   a long sword
+M 0 3027   1 3021  1	* the knight
+E 1 3349  -1   16	*   a glowing long sword
+M 0 3045   1 3022  1	* the waiter
+E 1 3022  -1   16	*   a long sword
+G 1 3004  -1     	*   a bottle of local specialty
+G 1 3003  -1     	*   a bottle of firebreather
+G 1 3002  -1     	*   a bottle of ale
+M 0 3023   1 3023  1	* the guildmaster
+M 0 3015   1 3024  1	* the yltsaeb odif
+M 0 3062   9 3025  2	* the beastly fido
+M 0 3062   9 3025  2	* the beastly fido
+M 0 3163   1 3026  1	* the thief
+E 1 3149  -1   17	*   a ball gag
+M 0 3062   9 3026  1	* the beastly fido
+M 0 3026   1 3027  1	* the assassin
+E 1 3349  -1   16	*   a glowing long sword
+M 0 3062   9 3027  1	* the beastly fido
+M 0 3044   1 3028  1	* the waiter
+E 1 3022  -1   16	*   a long sword
+G 1 3004  -1     	*   a bottle of local specialty
+G 1 3003  -1     	*   a bottle of firebreather
+M 0 3022   1 3029  1	* the guildmaster
+M 0 3008   1 3031  1	* the pet shop boy
+M 0 3090   2 3032  1	* the kitten
+M 0 3094   2 3032  1	* the wolf
+M 0 3091   2 3032  1	* the puppy
+M 0 3093   2 3032  1	* the rottweiler
+M 0 3092   2 3032  1	* the beagle
+M 0 3033   1 3032  1	* a vicious war turtle
+M 0 3032   1 3032  1	* a pack wyrm
+M 0 3031   1 3032  1	* a pack mare
+M 0 3000   1 3033  1	* the wizard
+G 1 3078  -1     	*   a vial of dragonsblood
+G 1 3058  -1     	*   a vial of bistre
+G 1 3057  -1     	*   a vial of indigo
+G 1 3059  -1     	*   a vial of sepia ink
+G 1 3043  -1     	*   a ring of protection
+G 1 3042  -1     	*   a scroll of recall
+G 1 3039  -1     	*   a scroll of cancellation
+G 1 3041  -1     	*   a yellow potion of see invisible
+G 1 3040  -1     	*   a scroll of identify
+G 1 3044  -1     	*   a wand of magic missiles
+G 1 3128  -1     	*   a wand of pine
+G 1 3141  -1     	*   a wand of apple wood
+G 1 3294  -1     	*   a crystal of the gods' gaze
+G 1 3298  -1     	*   a spirit focus
+M 0 3062   9 3035  1	* the beastly fido
+M 0 3010   1 3035  1	* the leather worker
+G 1 3060  -1     	*   a leather jerkin
+G 1 3061  -1     	*   a leather cap
+G 1 3062  -1     	*   a pair of leather pants
+G 1 3063  -1     	*   a pair of leather boots
+G 1 3064  -1     	*   a pair of leather gloves
+G 1 3065  -1     	*   a pair of leather sleeves
+G 1 3066  -1     	*   a hard leather jerkin
+G 1 3067  -1     	*   a hard leather cap
+G 1 3068  -1     	*   a pair of hard leather pants
+G 1 3069  -1     	*   a pair of hard leather boots
+G 1 3070  -1     	*   a pair of hard leather gloves
+G 1 3071  -1     	*   a pair of hard leather sleeves
+G 1 3052  -1     	*   a leather bracer
+G 1 3053  -1     	*   a leather belt
+G 1 3054  -1     	*   a leather girdle
+M 0 3060  15 3040  1	* the cityguard
+G 1 3364  -1     	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3357  -1    7	*   a pair of standard issue leggings
+M 0 3068   4 3040  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3362  -1   13	*   a standard issue belt
+M 0 3068   4 3040  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3355  -1    3	*   a standard issue cloak
+E 1 3357  -1    7	*   a pair of standard issue leggings
+M 0 3068   4 3041  2	* the cityguard
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3361  -1   12	*   a standard issue cape
+E 1 3359  -1    9	*   a pair of standard issue gloves
+E 1 3365  -1    0	*   a war banner
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3068   4 3041  2	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3360  -1   10	*   a pair of standard issue sleeves
+E 1 3358  -1    8	*   a pair of standard issue boots
+M 0 3063   2 3043  1	* the vagabond
+E 1 3052  -1   15	*   a leather bracer
+E 1 3066  -1    5	*   a hard leather jerkin
+E 1 3021  -1   16	*   a small sword
+G 1 2101  -1     	*   a Troll gang jacket
+G 1 2101  -1     	*   a Troll gang jacket
+M 0 3063   2 3044  1	* the vagabond
+E 1 3052  -1   15	*   a leather bracer
+E 1 3066  -1    5	*   a hard leather jerkin
+E 1 3021  -1   16	*   a small sword
+G 1 2101  -1     	*   a Troll gang jacket
+M 0 3062   9 3044  1	* the beastly fido
+M 0 3065   2 3044  1	* the beggar
+M 0 3005   3 3045  1	* the thief
+E 1 3351  -1   16	*   a standard issue dagger
+M 0 3046   1 3048  1	* Filthy
+G 1 3003  -1     	*   a bottle of firebreather
+G 1 3004  -1     	*   a bottle of local specialty
+E 1 3022  -1   16	*   a long sword
+M 0 3065   2 3048  1	* the beggar
+G 1 3056  -1     	*   a scroll of fine parchment
+M 0 3060  15 3049  1	* the cityguard
+E 1 3359  -1    9	*   a pair of standard issue gloves
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3062   9 3049  1	* the beastly fido
+M 0 3006   1 3049  1	* the captain
+G 1 3051  -1     	*   a canoe
+G 1 3050  -1     	*   a raft
+M 0 3007   1 3050  1	* the sailor
+M 0 3012   1 3054  1	* the healer
+M 0 3070   1 3056  1	* the ancient potion-brewer
+G 1 3293  -1     	*   a potion of recall
+G 1 3092  -1     	*   a potion of true sight
+G 1 3091  -1     	*   a potion of flying
+G 1 3090  -1     	*   a potion of negation
+G 1 3089  -1     	*   a potion of armor
+G 1 3088  -1     	*   a vial of holy water
+G 1 3087  -1     	*   a potion of cure blindness
+G 1 3086  -1     	*   a bottle of antidote
+G 1 3084  -1     	*   a potion of cure serious wounds
+G 1 3083  -1     	*   a potion of cure light wounds
+G 1 3082  -1     	*   a potion of divine protection
+G 1 3081  -1     	*   a potion of sanctuary
+M 0 3018   1 3058  1	* the assassin
+G 1 3018  -1     	*   a looped steel wire
+G 1 3017  -1     	*   a coiled snare rope
+M 0 3005   3 3058  1	* the thief
+E 1 3351  -1   16	*   a standard issue dagger
+M 0 3066   1 3058  1	* an alley cat
+M 0 3060  15 3102  1	* the cityguard
+G 1 3120  -1     	*   a key
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3062   9 3103  1	* the beastly fido
+M 0 3060  15 3104  1	* the cityguard
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3120   1 3106  1	* the sexton
+G 1 3121  -1     	*   a key
+M 0 3100   1 3106  1	* the maid
+G 1 3102  -1     	*   a cup of water
+G 1 3101  -1     	*   a cup of coffee
+G 1 3100  -1     	*   a cup of tea
+M 0 3060  15 3107  1	* the cityguard
+E 1 3363  -1   15	*   a standard issue bracer
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3060  15 3109  1	* the cityguard
+E 1 3363  -1   15	*   a standard issue bracer
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3124   2 3109  1	* the duck
+M 0 3038   1 3114  1	* A small kid
+E 1 3148  -1    6	*   A small newspaper boat
+M 0 3060  15 3118  2	* the cityguard
+E 1 3363  -1   15	*   a standard issue bracer
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3060  15 3118  2	* the cityguard
+E 1 3363  -1   15	*   a standard issue bracer
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3060  15 3119  1	* the cityguard
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3060  15 3134  1	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+M 0 3036   1 3134  1	* The deadhauler
+M 0 3060  15 3135  1	* the cityguard
+G 1 3120  -1     	*   a key
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3144   1 3135  1	* the town crier
+M 0 3142   1 3137  1	* the secretary
+M 0 3069   4 3138  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3069   4 3138  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3069   4 3138  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3069   4 3138  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3141   4 3142  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3141   4 3142  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3141   4 3142  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3141   4 3142  4	* the cityguard
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3140   1 3142  1	* the captain
+G 1 3137  -1     	*   a steel key
+G 1 3122  -1     	*   a key
+E 1 3350  -1   16	*   a standard issue sword
+M 0 3150   1 3150  1	* Wilf
+G 1 3100  -1     	*   a cup of tea
+G 1 3150  -1     	*   a cup of cinnamon coffee
+G 1 1103  -1     	*   a pipeweed bread
+G 1 3151  -1     	*   a bowl of chicken noodle soup
+G 1 3153  -1     	*   a biscuit
+G 1 3152  -1     	*   a bucket of hot Buffalo chicken wings
+G 1 3154  -1     	*   a bottle of Kanokee
+M 0 3160   1 3160  1	* St. Bob
+G 1 3055  -1     	*   a scroll of fine vellum
+G 1 3038  -1     	*   a scroll of fine rice paper
+G 1 3048  -1     	*   a scroll of papyrus
+G 1 3049  -1     	*   a kozo scroll
+G 1 3093  -1     	*   a blank scroll
+G 1 2445  -1     	*   a Map of Midgaard
+G 1 2444  -1     	*   a Map of Boinga
+G 1 3168  -1     	*   a map of Olympus
+G 1 3167  -1     	*   a map of New Thalos 
+G 1 3166  -1     	*   a map of the first level of Moria
+G 1 3165  -1     	*   a map of the Dwarven Kingdom
+G 1 3164  -1     	*   a map of southern Midgaard
+G 1 3163  -1     	*   an Old Map of Boinga
+G 1 3162  -1     	*   an Old Map of the city of Midgaard
+G 1 10341  -1     	*   a map of Nottingham
+G 1 3127  -1     	*   a scroll of blades
+G 1 3126  -1     	*   a scroll of spikes
+G 1 3125  -1     	*   a scroll of brambles
+G 1 3119  -1     	*   a scroll of thorns
+M 0 3161   1 3160  1	* Lister
+E 1 3036  -1   16	*   Lister's fang
+M 0 3005   3 3252  1	* the thief
+E 1 3351  -1   16	*   a standard issue dagger
+M 0 3035   1 3255  1	* the cityguard
+M 0 3071   2 3255  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3361  -1   12	*   a standard issue cape
+M 0 3071   2 3255  2	* the cityguard
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3354  -1   11	*   a standard issue shield
+M 0 3072   1 3262  1	* the cityguard
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3363  -1   14	*   a standard issue bracer
+E 1 3359  -1    9	*   a pair of standard issue gloves
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3365  -1    0	*   a war banner
+E 1 3364  -1    1	*   a city guard signet ring
+M 0 3060  15 3271  1	* the cityguard
+E 1 3353  -1    5	*   a standard issue vest
+E 1 3350  -1   16	*   a standard issue sword
+E 1 3364  -1    1	*   a city guard signet ring
+E 1 3365  -1    0	*   a war banner
+M 0 3162   1 3334  1	* Otho the Changer
+M 0 3062   9 3352  1	* the beastly fido
+M 0 3049   1 3055  1	* Old Priest of Mojo
+G 1 3159  -1     	*   a plain iron crucifix
+G 1 3156  -1     	*   holy water
+G 1 3146  -1     	*   communion bread
+G 1 3157  -1     	*   a remembrance candle
+D 0 3055   1 16384	* Temple Blessings east
+M 0 3050   1 3060  1	* The Jewellers Apprentice
+G 1 3297  -1     	*   a solid diamond cutting tool
+G 1 3296  -1     	*   a diamond edged cutting tool
+G 1 3295  -1     	*   a diamond tipped cutting tool
 M 0 3009   1 3034  1	* the jeweller
 G 1 3104  -1     	*   a jeweler's crucible
 G 1 3377  -1     	*   a {Wdiamond{x
@@ -7939,96 +8156,6 @@ G 1 3007  -1     	*   a beautiful jeweled egg
 G 1 3107  -1     	*   the Novice's Guide to Jewelcraft
 G 1 3142  -1     	*   a beautiful {Wplatinum{x brick
 D 0 3034   0 16384	* The Jeweller's Shop north
-M 0 3000   1 3033  1	* the wizard
-G 1 3141  -1     	*   a wand of apple wood
-G 1 3128  -1     	*   a wand of pine
-G 1 3044  -1     	*   a wand of magic missiles
-G 1 3040  -1     	*   a scroll of identify
-G 1 3041  -1     	*   a yellow potion of see invisible
-G 1 3039  -1     	*   a scroll of cancellation
-G 1 3042  -1     	*   a scroll of recall
-G 1 3043  -1     	*   a ring of protection
-G 1 3059  -1     	*   a vial of sepia ink
-G 1 3057  -1     	*   a vial of indigo
-G 1 3058  -1     	*   a vial of bistre
-G 1 3078  -1     	*   a vial of dragonsblood
-D 0 3033   2 16384	* The Magic Shop south
-M 0 3070   1 3056  1	* the ancient potion-brewer
-G 1 3081  -1     	*   a potion of sanctuary
-G 1 3082  -1     	*   a potion of divine protection
-G 1 3083  -1     	*   a potion of cure light wounds
-G 1 3084  -1     	*   a potion of cure serious wounds
-G 1 3086  -1     	*   a bottle of antidote
-G 1 3087  -1     	*   a potion of cure blindness
-G 1 3088  -1     	*   a vial of holy water
-G 1 3089  -1     	*   a potion of armor
-G 1 3090  -1     	*   a potion of negation
-G 1 3091  -1     	*   a potion of flying
-G 1 3092  -1     	*   a potion of true sight
-G 1 3293  -1     	*   a potion of recall
-D 0 3056   2 16384	* The Fountain of Youth Apothecary south
-M 0 3002   1 3010  1	* the grocer
-G 1 3147  -1     	*   A Sin
-E 1 3022  -1   16	*   a long sword
-G 1 1215  -1     	*   an iron ring
-G 1 3033  -1     	*   a box
-G 1 3032  -1     	*   a bag
-G 1 3138  -1     	*   a buffalo water skin
-G 1 3030  -1     	*   a torch
-G 1 3031  -1     	*   a hooded brass lantern
-G 1 3017  -1     	*   a coiled snare rope
-D 0 3010   2 16384	* The General Store south
-M 0 3038   1 3114  1	* A small kid
-E 1 3148  -1    6	*   A small newspaper boat
-D 0 3114   1 16384	* The Pond east
-D 0 3114   3 16384	* The Pond west
-D 0 3303   0 16384	* Clan Road north
-D 0 3303   1 16384	* Clan Road east
-D 0 3303   2 16384	* Clan Road south
-D 0 3303   3 16384	* Clan Road west
-M 0 3062   9 3026  1	* the beastly fido
-M 0 3163   1 3026  1	* the thief
-E 1 3149  -1   17	*   a ball gag
-D 0 3026   0 16384	* The Dark Alley north
-D 0 3026   1 16384	* The Dark Alley east
-D 0 3026   2 16384	* The Dark Alley south
-D 0 3026   3 16384	* The Dark Alley west
-M 0 3163   1 3352  1	* the thief
-E 1 3149  -1   17	*   a ball gag
-M 0 3062   9 3352  1	* the beastly fido
-D 0 3352   2 16384	* Grebe's Tavern south
-M 0 3039   1 3262  1	* The city executioner
-M 0 3072   1 3262  1	* the cityguard
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3365  -1    0	*   a war banner
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3359  -1    9	*   a pair of standard issue gloves
-E 1 3363  -1   14	*   a standard issue bracer
-E 1 3353  -1    5	*   a standard issue vest
-D 0 3262   0 16385	* Inside the North Gate of Midgaard north
-D 0 3262   1 16384	* Inside the North Gate of Midgaard east
-D 0 3262   3 16384	* Inside the North Gate of Midgaard west
-M 0 3039   2 3255  1	* The city executioner
-M 0 3071   2 3255  2	* the cityguard
-E 1 3354  -1   11	*   a standard issue shield
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3365  -1    0	*   a war banner
-M 0 3071   2 3255  2	* the cityguard
-E 1 3361  -1   12	*   a standard issue cape
-E 1 3353  -1    5	*   a standard issue vest
-E 1 3350  -1   16	*   a standard issue sword
-E 1 3364  -1    1	*   a city guard signet ring
-E 1 3365  -1    0	*   a war banner
-M 0 3035   1 3255  1	* the cityguard
-D 0 3255   1 16384	* Inside the South Gate of Midgaard east
-D 0 3255   2 16385	* Inside the South Gate of Midgaard south
-D 0 3255   3 16384	* Inside the South Gate of Midgaard west
-M 0 3039   3 3170  1	* The city executioner
-D 0 3170   0 16384	* Entrance to the Midgaard Town Hall north
-D 0 3170   2 16483	* Entrance to the Midgaard Town Hall south
-D 0 3170   4 16384	* Entrance to the Midgaard Town Hall up
 S
 
 #SHOPS
@@ -8050,6 +8177,8 @@ S
 3044  0  0  0  0  0 	 170 100 	 0 23 	* the waiter
 3045  0  0  0  0  0 	 150 100 	 0 23 	* the waiter
 3046  0  0  0  0  0 	 100  90 	 0 23 	* Filthy
+3049  0  0  0  0  0 	 100 100 	 0 23 	* Old Priest of Mojo
+3050  0  0  0  0  0 	 100 100 	 0 23 	* The Jewellers Apprentice
 3070 10  0  0  0  0 	1000 100 	 0 23 	* the ancient potion-brewer
 3100  0  0  0  0  0 	 110  90 	 6 23 	* the maid
 3150  0  0  0  0  0 	 100 100 	 0 23 	* Wilf
@@ -8079,6 +8208,7 @@ M 3039 spec_guard_l        	* The city executioner
 M 3042 spec_cast_mage      	* the waiter
 M 3043 spec_cast_cleric    	* the waiter
 M 3047 spec_executioner    	* Hassan
+M 3050 spec_jabber         	* The Jewellers Apprentice
 M 3060 spec_guard_l        	* the cityguard
 M 3061 spec_janitor        	* the janitor
 M 3062 spec_fido           	* the beastly fido

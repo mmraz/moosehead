@@ -2,8 +2,8 @@
 Name Trinity~
 Id   960780364
 Email (null)~
-LogO 984495545
-Vers 27
+LogO 1407036990
+Vers 33
 Desc Trinity notices you looking her over almost immediately, rushing over to
 you to glare waringly into your eyes.  "This is not reality," she utters,
 "only what they've convinced you is reality."  Realizing you don't follow
@@ -26,14 +26,28 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 8
+SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1322987412
+LstKillDate 1322987412
+LstDeathDate 1322987412
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 xochipili~
 Sac  300
 Sex  2
@@ -42,44 +56,42 @@ Node 0
 Cap 0
 Created 960780370
 Glad 0 0 0 0 0 0
-LastHost AC8071F9.ipt.aol.com~
+LastHost 172.56.20.182~
 Cla  9
 ClaO 0
 Levl 7
 DLevl 0
-Plyd 11614
-Not  960935600 960795884 960795884 960795884 960795884 960862144 960795884 960795884 960795884
+Plyd 13328
+Not  960935600 960795884 960795884 960795884 960795884 960862144 960795884 960795884 960795884 0
 Scro 0
 Rank 0
-Room 9422
-HMV  57 92 172 172 119 119
+Room 3054
+HMV  84 84 162 162 78 119
 Gold 165
 Silv 1938
-Exp  49441
+Exp  49399
 Act  CDEFGHQ
-Comm DGIRc
+MHSF R
+Comm DGIR
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
 Prac 11
+Trai 16
 SkiP 8
-Save  -2
 Alig  -1000
-Hit   9
-Dam   5
-SecHit   3
-ACs 68 52 52 80
+ACs 100 100 100 100
 Wimp  5
-Attr 14 18 18 12 18
-AMod 9 3 2 2 5
-Pass TrwQLuO9XAUyk~
+Attr 14 18 18 12 18 10 10 13
+AMod 0 0 0 0 0 0 0 0
+Pass Tr0hsRzN/N.Cs~
 Titl  says, "This is not reality."~
 Pnts 95
 TSex 2
 LLev 3
 HMVP 84 162 119
-Cnd  0 4 6 26
+Cnd  0 0 0 0
 Sk 1 'acid blast'
 Sk 1 'armor'
 Sk 1 'blindness'
@@ -192,10 +204,6 @@ Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'shield'   0  32  12 -20  17          0
-Affc 'giant strength'   0  30   5   4   1          0
-Affc 'bless'   0  16   8   2  18          0
-Affc 'bless'   0  15   8  -2  24          0
 End
 
 #O
@@ -203,34 +211,7 @@ Vnum 3704
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 11
-Cost 0
-End
-
-#O
-Vnum 4440
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 13
-Cost 0
-End
-
-#O
-Vnum 4434
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 3
-Cost 550
-End
-
-#O
-Vnum 4438
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 5
+Wear -1
 Cost 0
 End
 
@@ -239,7 +220,7 @@ Vnum 4433
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 15
+Wear -1
 Cost 550
 End
 
@@ -248,7 +229,7 @@ Vnum 17606
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 6
+Wear -1
 Cost 100
 End
 
@@ -257,7 +238,7 @@ Vnum 3068
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 7
+Wear -1
 Cost 220
 End
 
@@ -266,7 +247,7 @@ Vnum 3069
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 8
+Wear -1
 Cost 220
 End
 
@@ -275,7 +256,7 @@ Vnum 3070
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 9
+Wear -1
 Cost 220
 End
 
@@ -284,7 +265,7 @@ Vnum 3071
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 10
+Wear -1
 Cost 220
 End
 
@@ -293,7 +274,7 @@ Vnum 4433
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 550
 End
 
@@ -302,36 +283,8 @@ Vnum 3715
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 1140
-End
-
-#O
-Vnum 6601
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 1
-Cost 620
-End
-
-#O
-Vnum 6601
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 2
-Cost 620
-End
-
-#O
-Vnum 3726
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 12
-Cost 0
-Val  100 1 0 10 85
 End
 
 #O
@@ -351,11 +304,11 @@ Nest 0
 PrevOwner (null)~
 ExtF 1048643
 Cond 0
-Wear 16
+Wear -1
 Lev  5
 Cost 360
-Affc 'enchant weapon'   1  53  -1   5  19          0
 Affc 'enchant weapon'   1  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   5  19          0
 End
 
 #O
@@ -363,7 +316,7 @@ Vnum 5231
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 18
+Wear -1
 Cost 550
 End
 
@@ -372,7 +325,7 @@ Vnum 17009
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 End
 
@@ -395,15 +348,6 @@ Cost 0
 End
 
 #O
-Vnum 104
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 4
-Cost 550
-End
-
-#O
 Vnum 3377
 Nest 0
 PrevOwner (null)~
@@ -518,16 +462,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
-End
-
-#O
-Vnum 3000
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 75
-Val  300 300 0 0 0
 End
 
 #O

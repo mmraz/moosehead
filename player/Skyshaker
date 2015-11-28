@@ -2,8 +2,8 @@
 Name Skyshaker~
 Id   972352999
 Email (null)~
-LogO 1010869881
-Vers 29
+LogO 1379204652
+Vers 33
 LnD  A Gladiator~
 Desc Once an angel cursed with vampirism. Skyshaker has transended all mortality and has become a living god. He now protects the young and brave with all the powers of a god.
 ~
@@ -12,12 +12,13 @@ Race volare~
 Clan matook~
 Outc 0
 RufT 0
-MatookT 10915
-SkPTimer 5
+MatookT 10916
+SkPTimer 4
 SkPTracker 13
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -29,6 +30,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 241712 matook~
 Sac  300
 Sex  1
@@ -37,39 +44,41 @@ Node 0
 Cap 0
 Created 972353085
 Glad 0 0 0 0 0 0
-LastHost cx911336-b.elkhn1.ne.home.com~
+LastHost 24.22.241.159~
 Cla  7
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 610808
-Not  972671308 0 0 982362990 0 0 0 0 0
+Plyd 610840
+Not  972671308 0 0 982362990 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 16507
-HMV  571 656 1069 1069 433 433
+HMV  561 621 981 1069 313 313
 Gold 240
 Silv 214
 Exp  71559
 Act  CDEGHIMQS
-AfBy CDFJT
+MHSF R
+AfBy CT
 Comm GILRc
 Disp FGIJ
 IcgB 0
 Icg 0
 Pos  8
 Prac 1
+Trai 15
 SkiP 14
 Save  -6
 Alig  -1000
-Hit   15
-Dam   23
-SecHit   15
-SecDam   21
-ACs -75 -75 -75 -30
+Hit   8
+Dam   25
+SecHit   8
+SecDam   23
+ACs 15 15 15 24
 Wimp  49
-Attr 17 20 21 18 18
-AMod 10 0 0 5 6
+Attr 17 20 21 18 18 10 11 13
+AMod 6 0 0 -2 0 0 0 0
 Pass SkEFurfxyFGBQ~
 Titl  spelleruppertypeguy~
 Pnts 48
@@ -234,11 +243,11 @@ Cond 0
 Wear 5
 Lev  50
 Cost 10000
-Affc 'reserved'   1  47  -1   2  19          0
-Affc 'reserved'   1  47  -1  -1   2          0
-Affc 'reserved'   1  47  -1   2   1          0
-Affc 'reserved'   1  47  -1  -2  20          0
 Affc 'enchant armor'   1  53  -1  -7  17          0
+Affc 'reserved'   1  47  -1  -2  20          0
+Affc 'reserved'   1  47  -1   2   1          0
+Affc 'reserved'   1  47  -1  -1   2          0
+Affc 'reserved'   1  47  -1   2  19          0
 End
 
 #O
@@ -434,123 +443,6 @@ Cost 3000
 End
 
 #O
-Vnum 23021
-Nest 0
-PrevOwner Skyshaker~
-Cond 0
-Wear -1
-Cost 710
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Skyshaker~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5936
-Nest 1
-PrevOwner Skyshaker~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner Skyshaker~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 6518
-Nest 1
-PrevOwner Skyshaker~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3364
-Nest 1
-PrevOwner Skyshaker~
-Cond 0
-Wear -1
-Cost 1280
-End
-
-#O
-Vnum 3365
-Nest 1
-PrevOwner Skyshaker~
-Cond 0
-Wear -1
-Cost 640
-End
-
-#O
-Vnum 2106
-Nest 1
-PrevOwner Skyshaker~
-Cond 0
-Wear -1
-Cost 1090
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Skyshaker~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 12050
-Nest 0
-PrevOwner Trage~
-Cond 0
-Wear 6
-Cost 7777
-End
-
-#O
-Vnum 12048
-Nest 0
-PrevOwner Trage~
-Cond 0
-Wear 8
-Cost 4500
-End
-
-#O
-Vnum 12051
-Nest 0
-PrevOwner Trage~
-Cond 0
-Wear 7
-Cost 8765
-End
-
-#O
-Vnum 12057
-Nest 0
-PrevOwner Trage~
-Cond 0
-Wear 13
-Cost 32142
-End
-
-#O
 Vnum 12006
 Enchanted
 Nest 0
@@ -560,9 +452,9 @@ Cond 0
 Wear 10
 Lev  48
 Cost 900
-Affc 'reserved'   1  40  -1  20  13          0
-Affc 'reserved'   1  40  -1   2   2          0
 Affc 'enchant armor'   1  51  -1  -9  17          0
+Affc 'reserved'   1  40  -1   2   2          0
+Affc 'reserved'   1  40  -1  20  13          0
 End
 
 #O
@@ -590,7 +482,7 @@ Vnum 2319
 Nest 0
 PrevOwner Skyshaker~
 Cond 0
-Wear -1
+Wear 13
 Cost 1000
 End
 
@@ -678,6 +570,7 @@ PrevOwner Skyshaker~
 Cond 0
 Wear -1
 Cost 3800
+Val  35 164 91 208 -1
 Spell 3 'tower of iron will'
 End
 
@@ -688,6 +581,7 @@ PrevOwner Skyshaker~
 Cond 0
 Wear -1
 Cost 3800
+Val  35 164 91 208 -1
 Spell 3 'tower of iron will'
 End
 
@@ -765,6 +659,7 @@ PrevOwner Skyshaker~
 Cond 0
 Wear -1
 Cost 3800
+Val  35 111 36 96 -1
 Spell 3 'feeblemind'
 End
 
@@ -815,6 +710,7 @@ PrevOwner Skyshaker~
 Cond 0
 Wear -1
 Cost 3800
+Val  25 114 106 161 -1
 Spell 3 'psionic blast'
 End
 
@@ -825,6 +721,7 @@ PrevOwner Skyshaker~
 Cond 0
 Wear -1
 Cost 3800
+Val  25 114 106 161 -1
 Spell 3 'psionic blast'
 End
 
@@ -835,6 +732,7 @@ PrevOwner Skyshaker~
 Cond 0
 Wear -1
 Cost 3800
+Val  25 114 106 161 -1
 Spell 3 'psionic blast'
 End
 
@@ -1022,8 +920,8 @@ Cond 0
 Wear -1
 Lev  12
 Cost 0
-Affc 'enchant weapon'   1  54  -1   4  19          0
 Affc 'enchant weapon'   1  54  -1   5  18          0
+Affc 'enchant weapon'   1  54  -1   4  19          0
 End
 
 #O
@@ -1045,9 +943,9 @@ Cond 0
 Wear -1
 Lev  47
 Cost 40
-Affc 'reserved'   1  44  -1  35  13          0
-Affc 'reserved'   1  44  -1   3   2          0
 Affc 'enchant armor'   1  51  -1  -5  17          0
+Affc 'reserved'   1  44  -1   3   2          0
+Affc 'reserved'   1  44  -1  35  13          0
 End
 
 #O
@@ -1070,9 +968,9 @@ Cond 0
 Wear -1
 Cost 4000
 Val  7 7 7 4 3
-Affc 'reserved'   1  47  -1  -2  20          0
-Affc 'reserved'   1  47  -1   2  18          0
 Affc 'reserved'   1  47  -1   2  19          0
+Affc 'reserved'   1  47  -1   2  18          0
+Affc 'reserved'   1  47  -1  -2  20          0
 End
 
 #O
@@ -1119,8 +1017,161 @@ Vnum 5931
 Nest 0
 PrevOwner Rukh~
 Cond 0
+Wear 8
+Cost 3000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 23021
+Nest 0
+PrevOwner Skyshaker~
+Cond 0
+Wear -1
+Cost 710
+End
+
+#O
+Vnum 12001
+Nest 1
+PrevOwner Skyshaker~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5936
+Nest 1
+PrevOwner Skyshaker~
+Cond 0
 Wear -1
 Cost 3000
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Skyshaker~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6518
+Nest 1
+PrevOwner Skyshaker~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3364
+Nest 1
+PrevOwner Skyshaker~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 1
+PrevOwner Skyshaker~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 2106
+Nest 1
+PrevOwner Skyshaker~
+Cond 0
+Wear -1
+Cost 1090
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Skyshaker~
+Cond 0
+Wear -1
+Cost 6000
 End
 
 #END

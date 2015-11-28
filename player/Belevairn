@@ -3,7 +3,7 @@ Name Belevairn~
 SurN HerbMan~
 Id   831162642
 Email (null)~
-LogO 1041130820
+LogO 1314860185
 Vers 31
 LnD  A Gladiator~
 Desc evil dog! woof
@@ -15,7 +15,7 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 5
+SkPTracker 0
 LogoutTracker 0
 Kill 6 46 0 18
 Steal 0 0 0
@@ -23,13 +23,16 @@ LstK Galacticon~
 LstKBy Ax~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1041047253
+LstCombatDate 1307759630
 LstKillDate 1039584280
 LstDeathDate 1038971250
-LoginsWOKill 61
-LoginsWODeath 95
-LoginsWOCombat 4
+LoginsWOKill 95
+LoginsWODeath 129
+LoginsWOCombat 15
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 2442884 hermes~
 DeityT -10964 hermes~
 Sac  300
@@ -39,24 +42,24 @@ Node 0
 Cap 0
 Created 952121036
 Glad 0 0 0 0 0 1
-LastHost 207.6.189.141~
+LastHost 70.74.94.173~
 Cla  14
 Kit wyrmslayer~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 3016967
-Not  1040406937 1039058853 1021143876 1041054706 1041012403 1039298617 1021143876 1041043562 1021143876 1040740437
+Plyd 3052459
+Not  1308020020 1307997088 1021143876 1314850209 1313859824 1307801176 1021143876 1314147181 1021143876 1040740437
 Scro 22
 Rank 3
 Room 31403
-HMV  1659 1659 480 490 478 478
-Gold 593
-Silv 22
+HMV  1659 1659 500 500 478 478
+Gold 318
+Silv 45
 Exp  571200
-Act  BCDEFGHJMQSTd
+Act  BCDGHJMQTd
 MHSF ARS
-AfBy DEFJT
+AfBy JT
 Comm GLO
 Disp BFIJN
 IcgB 0
@@ -64,24 +67,23 @@ Icg 0
 Pnet BFH
 Pos  8
 Trai 8
-SkiP 54
+SkiP 249
 Save  -10
-Alig  884
-Hit   19
-Dam   34
-SecHit   19
-SecDam   34
-ACs 22 22 27 28
-Wimp  25
-Attr 20 18 18 18 20 13 13 13
-AMod 3 3 2 1 2 0 0 0
-Pass Bep108xbP3vEs~
-Titl  got hurt by beer.~
+Alig  -514
+Hit   30
+Dam   42
+SecHit   27
+SecDam   39
+ACs 20 20 25 34
+Attr 20 18 18 18 20 14 14 13
+AMod 6 2 2 0 2 0 0 0
+Pass Be/A1gwxvPMr2~
+Titl  the tong master of the west!~
 Pnts 100
 TSex 1
 LLev 1
 HMVP 1544 400 443
-Cnd  0 20 48 20
+Cnd  0 0 41 8
 Alias / ca word~
 Alias 1 disarm~
 Alias z c cancel~
@@ -99,7 +101,6 @@ Sk 1 'aid'
 OldSk 1 'aid'
 Sk 98 'armor'
 OldSk 93 'armor'
-Sk 80 'aura of cthon'
 Sk 1 'bestow holiness'
 OldSk 1 'bestow holiness'
 Sk 100 'bless'
@@ -112,7 +113,6 @@ OldSk 94 'cancellation'
 OldSk 40 'chain lightning'
 OldSk 1 'chill touch'
 OldSk 75 'colour spray'
-Sk 85 'confusion'
 Sk 61 'cure critical'
 Sk 1 'cure light'
 Sk 1 'cure serious'
@@ -150,7 +150,7 @@ Sk 78 'heal'
 Sk 1 'holy word'
 OldSk 1 'holy word'
 OldSk 100 'identify'
-Sk 75 'infravision'
+Sk 77 'infravision'
 OldSk 49 'infravision'
 Sk 1 'knock'
 OldSk 1 'knock'
@@ -212,7 +212,7 @@ OldSk 76 'berserk'
 Sk 85 'bite'
 OldSk 53 'bite'
 Sk 100 'daetok'
-Sk 99 'dirt kicking'
+Sk 100 'dirt kicking'
 OldSk 82 'dirt kicking'
 Sk 100 'disarm'
 OldSk 86 'disarm'
@@ -231,7 +231,7 @@ Sk 86 'morph'
 OldSk 56 'morph'
 Sk 100 'parry'
 OldSk 100 'parry'
-Sk 84 'rescue'
+Sk 87 'rescue'
 Sk 41 'shield bash'
 Sk 100 'shield block'
 OldSk 93 'shield block'
@@ -266,9 +266,7 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'detect invis'   0   9   1   0   0          8
-Affc 'detect magic'   0   7   1   0   0         16
-Affc 'detect hidden'   0   8   3   0   0         32
+Affc 'giant strength'   0  32   8   4   1          0
 End
 
 #O
@@ -278,15 +276,6 @@ PrevOwner Belevairn~
 Cond 0
 Wear 0
 Cost 0
-End
-
-#O
-Vnum 5922
-Nest 0
-PrevOwner Belevairn~
-Cond 0
-Wear 4
-Cost 300
 End
 
 #O
@@ -304,15 +293,6 @@ Nest 0
 PrevOwner Belevairn~
 Cond 0
 Wear 15
-Cost 1150
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner Belevairn~
-Cond 0
-Wear 14
 Cost 1150
 End
 
@@ -335,15 +315,6 @@ Cost 20000
 End
 
 #O
-Vnum 5936
-Nest 0
-PrevOwner Belevairn~
-Cond 0
-Wear 10
-Cost 3000
-End
-
-#O
 Vnum 5937
 Enchanted
 Nest 0
@@ -354,8 +325,8 @@ Cond 0
 Wear 9
 Cost 4000
 Val  8 8 8 5 4
-Affc 'reserved'   1  37  -1   2  19          0
 Affc 'reserved'   1  37  -1   2   1          0
+Affc 'reserved'   1  37  -1   2  19          0
 End
 
 #O
@@ -378,8 +349,8 @@ PrevOwner Belevairn~
 Cond 0
 Wear 5
 Cost 13700
-Affc 'reserved'   1  45  -1  -4  20          0
 Affc 'reserved'   1  45  -1  30  12          0
+Affc 'reserved'   1  45  -1  -4  20          0
 End
 
 #O
@@ -402,93 +373,12 @@ Cost 4000
 End
 
 #O
-Vnum 3281
-Nest 1
-PrevOwner Belevairn~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 3281
-Nest 1
-PrevOwner Belevairn~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 10445
-Nest 1
-PrevOwner Belevairn~
-Cond 0
-Wear -1
-Cost 6400
-End
-
-#O
-Vnum 3281
-Nest 1
-PrevOwner Belevairn~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 10431
-Nest 1
-PrevOwner Belevairn~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
 Vnum 5934
 Nest 1
 PrevOwner Belevairn~
 Cond 0
 Wear -1
 Cost 4000
-End
-
-#O
-Vnum 3281
-Nest 1
-PrevOwner Belevairn~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Belevairn~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10419
-Enchanted
-Nest 1
-PrevOwner Belevairn~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 1330
-Affc 'enchant weapon'   1  47  -1  11  19          0
-Affc 'enchant weapon'   0  47  -1  11  18          0
 End
 
 #O
@@ -507,15 +397,6 @@ PrevOwner Belevairn~
 Cond 0
 Wear -1
 Cost 4500
-End
-
-#O
-Vnum 23505
-Nest 1
-PrevOwner Belevairn~
-Cond 0
-Wear -1
-Cost 700
 End
 
 #O
@@ -545,43 +426,8 @@ PrevOwner Belevairn~
 Cond 0
 Wear -1
 Cost 18900
-Val  54 50 18 198 0
+Val  54 50 18 201 0
 Spell 3 'teleport'
-End
-
-#O
-Vnum 20819
-Nest 1
-PrevOwner Belevairn~
-Name everlasting dubee~
-ShD  The everlasting Dubee~
-Desc This Dubee seems that it will never go out.~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 20808
-Enchanted
-Nest 1
-PrevOwner Belevairn~
-ExtF 67
-Cond 0
-Wear -1
-Cost 1000
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 12060
-Nest 1
-PrevOwner Belevairn~
-ExtF 554172416
-Cond 0
-Wear -1
-Cost 5234
 End
 
 #O
@@ -619,16 +465,6 @@ Cond 0
 Wear -1
 Cost 0
 Spell 1 'fly'
-End
-
-#O
-Vnum 1260
-Nest 1
-PrevOwner Belevairn~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'haste'
 End
 
 #O
@@ -677,15 +513,219 @@ Cost 0
 End
 
 #O
-Vnum 3292
+Vnum 9573
 Nest 1
 PrevOwner Belevairn~
 Cond 0
 Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 1260
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 10419
+Enchanted
+Nest 1
+PrevOwner Belevairn~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 1330
+Affc 'enchant weapon'   0  47  -1  11  18          0
+Affc 'enchant weapon'   1  47  -1  11  19          0
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 10454
+Nest 1
+PrevOwner Belevairn~
+ExtF 262208
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20808
+Enchanted
+Nest 1
+PrevOwner Belevairn~
+ExtF 67
+Cond 0
+Wear -1
+Cost 1000
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner Belevairn~
+Name Piece katana randal~
+ShD  A broken piece of Randal's Katana!~
+Desc A broken piece of Randal's Katana lies here sizzling with energy!~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23505
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 700
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 23504
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 10427
+Enchanted
+Nest 1
+PrevOwner Belevairn~
+ExtF 67
+Cond 0
+Wear -1
+Cost 5900
+Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   9  19          0
+End
+
+#O
+Vnum 22552
+Enchanted
+Nest 1
+PrevOwner Belevairn~
+ExtF 67
+Cond 0
+Wear -1
+Cost 0
+Val  2 10 4 39 6
+Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+End
+
+#O
+Vnum 15218
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Time 321
+Cost 5000
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 5914
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 15208
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 2727
+Enchanted
+Nest 1
+PrevOwner Belevairn~
+ExtF 17039426
+Cond 0
+Wear -1
+Lev  35
+Cost 3600
+Affc 'enchant weapon'   1  53  -1   5  19          0
+Affc 'enchant weapon'   1  53  -1   7  18          0
 End
 
 #O
@@ -758,6 +798,51 @@ Cost 290
 Spell 1 'detect invis'
 Spell 2 'detect magic'
 Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Belevairn~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 20819
+Nest 1
+PrevOwner Belevairn~
+Name everlasting dubee~
+ShD  The everlasting Dubee~
+Desc This Dubee seems that it will never go out.~
+Cond 0
+Wear -1
+Cost 4000
 End
 
 #O
@@ -791,6 +876,15 @@ Cost 3000
 End
 
 #O
+Vnum 11145
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 18
+Cost 4500
+End
+
+#O
 Vnum 20819
 Nest 0
 PrevOwner Belevairn~
@@ -804,26 +898,49 @@ Cost 4000
 End
 
 #O
-Vnum 11145
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 18
-Cost 4500
-End
-
-#O
 Vnum 5925
 Enchanted
 Nest 0
-PrevOwner Belevairn~
+PrevOwner Xar~
 ExtF 67
 Cond 0
 Wear -1
 Lev  50
 Cost 4000
-Affc 'enchant weapon'   1  47  -1  14  19          0
 Affc 'enchant weapon'   0  47  -1  11  18          0
+Affc 'enchant weapon'   1  47  -1  14  19          0
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 14
+Cost 1150
+End
+
+#O
+Vnum 15207
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 5000
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 0
+PrevOwner Belevairn~
+ExtF 66
+Cond 0
+Wear 19
+Lev  50
+Cost 1125
+Affc 'enchant weapon'   0  54  -1   7  18          0
+Affc 'enchant weapon'   1  54  -1   7  19          0
 End
 
 #O
@@ -831,42 +948,57 @@ Vnum 2205
 Enchanted
 Nest 0
 PrevOwner Belevairn~
-ExtF 0
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 22552
-Enchanted
-Nest 0
-PrevOwner Belevairn~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Val  2 10 4 39 6
-Affc 'enchant weapon'   1  52  -1  10  19          0
-Affc 'enchant weapon'   0  52  -1  10  18          0
-End
-
-#O
-Vnum 10427
-Nest 0
-PrevOwner Belevairn~
-Cond 0
-Wear 19
-Cost 11800
-End
-
-#O
-Vnum 23504
-Nest 0
-PrevOwner Belevairn~
+ExtF 66
 Cond 0
 Wear 16
-Cost 4500
+Cost 0
+Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+End
+
+#O
+Vnum 5939
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 4
+Cost 300
+End
+
+#O
+Vnum 22565
+Nest 0
+PrevOwner Mao~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner Whiskers~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Mytaru~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

@@ -2,7 +2,7 @@
 Name Nikkoli~
 Id   899500758
 Email (null)~
-LogO 1111324813
+LogO 1306823708
 Vers 31
 Desc you see a dragon he's big he is scaly go fig.
 ~
@@ -11,7 +11,7 @@ Race dragon~
 Clan matook~
 Outc 0
 RufT 0
-MatookT -27742
+MatookT -27603
 SkPTimer 0
 SkPTracker 9
 LogoutTracker 0
@@ -37,19 +37,19 @@ Node 0
 Cap 0
 Created 953060138
 Glad 0 0 0 0 0 0
-LastHost CPE000f3dec2f35-CM014490002495.cpe.net.cable.rogers.com~
+LastHost 97.92.132.4~
 Cla  4
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 2713258
-Not  1035546380 1014832651 918704656 1107331041 1033014348 1022965466 954793510 1022840603 0 0
+Plyd 2718915
+Not  1306541900 1306806587 918704656 1306795136 1033014348 1306688199 954793510 1022840603 0 0
 Scro 22
 Rank 3
-Room 31165
-HMV  1241 1241 430 430 298 298
+Room 3001
+HMV  1241 1241 284 430 298 298
 Gold 501
-Silv 12997
+Silv 13006
 Exp  484500
 Act  BCDEFGHMd
 MHSF AR
@@ -59,25 +59,26 @@ Disp FGIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 188
+Prac 187
 Trai 10
-SkiP 47
-Alig  298
-Hit   14
-Dam   32
-SecHit   14
+SkiP 49
+Save  -5
+Alig  282
+Hit   24
+Dam   37
+SecHit   19
 SecDam   32
-ACs -261 -261 -261 -261
+ACs -282 -282 -282 -282
 Wimp  20
 Attr 20 20 20 21 20 13 13 13
-AMod 4 2 2 0 0 0 0 0
+AMod 8 2 2 0 0 0 0 0
 Pass NiaXKwAqtcD7A~
 Titl  the BigDragon that Could {BLegacy{x(TM)~
 Pnts 98
 TSex 1
 LLev 1
 HMVP 1231 405 298
-Cnd  0 0 0 0
+Cnd  0 2 43 12
 Alias cc c 'cause crit' ~
 Alias / c word~
 Alias bb backstab~
@@ -210,7 +211,7 @@ OldSk 1 'protection good'
 Sk 1 'protection neutral'
 OldSk 1 'protection neutral'
 OldSk 77 'ray of truth'
-Sk 1 'refresh'
+Sk 96 'refresh'
 OldSk 96 'refresh'
 Sk 80 'remove curse'
 OldSk 77 'remove curse'
@@ -262,7 +263,7 @@ OldSk 100 'enhanced damage'
 OldSk 78 'tumbling'
 Sk 100 'hand to hand'
 OldSk 100 'hand to hand'
-Sk 24 'parry'
+Sk 29 'parry'
 OldSk 99 'trip'
 OldSk 77 'shield block'
 Sk 57 'scan'
@@ -295,6 +296,10 @@ Gr 'draconian'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
+Affc 'shield'   0  41  11 -20  17          0
+Affc 'bless'   0  39   9   5  18          0
+Affc 'bless'   0  35   9  -5  24          0
+Affc 'giant strength'   0  42   2   4   1          0
 End
 
 #O
@@ -344,9 +349,9 @@ PrevOwner Nikkoli~
 Cond 0
 Wear 6
 Cost 650
-Affc 'enchant armor'   1  52  -1  -4  17          0
-Affc 'reserved'   1  18  -1   2  19          0
 Affc 'reserved'   1  18  -1   1  18          0
+Affc 'reserved'   1  18  -1   2  19          0
+Affc 'enchant armor'   1  52  -1  -4  17          0
 End
 
 #O
@@ -368,9 +373,9 @@ PrevOwner Nikkoli~
 Cond 0
 Wear 5
 Cost 1500
-Affc 'enchant armor'   1  42  -1  -5  17          0
-Affc 'reserved'   1  20  -1   1  18          0
 Affc 'reserved'   1  20  -1   1  19          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'enchant armor'   1  42  -1  -5  17          0
 End
 
 #O
@@ -435,69 +440,6 @@ Cost 225
 End
 
 #O
-Vnum 2326
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 2326
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 5932
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 5932
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 5932
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 2417
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 2417
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
 Vnum 5700
 Nest 1
 PrevOwner (null)~
@@ -516,45 +458,6 @@ Desc Some beautiful red and white roses entwined together to make a small crown.
 Cond 0
 Wear -1
 Cost 1500
-End
-
-#O
-Vnum 4433
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 4433
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 4433
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 3351
-Enchanted
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 590
-Affc 'enchant weapon'   1  53  -1   3  19          0
-Affc 'enchant weapon'   0  53  -1   3  18          0
 End
 
 #O
@@ -585,24 +488,6 @@ Cost 1320
 End
 
 #O
-Vnum 12001
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 18126
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 9000
-End
-
-#O
 Vnum 20802
 Enchanted
 Nest 1
@@ -610,20 +495,8 @@ PrevOwner Nikkoli~
 Cond 0
 Wear -1
 Cost 6000
-Affc 'enchant weapon'   0  59  -1   2  18          0
 Affc 'enchant weapon'   1  59  -1   2  19          0
-End
-
-#O
-Vnum 5707
-Nest 1
-PrevOwner Nikkoli~
-ExtF 134217728
-Wt   39
-Cond 0
-Wear -1
-Cost 500
-Val  2 2 2 2 5
+Affc 'enchant weapon'   0  59  -1   2  18          0
 End
 
 #O
@@ -643,20 +516,8 @@ PrevOwner Nikkoli~
 Cond 0
 Wear -1
 Cost 6500
-Affc 'enchant weapon'   1  52  -1   5  19          0
 Affc 'enchant weapon'   0  52  -1   5  18          0
-End
-
-#O
-Vnum 15207
-Nest 1
-PrevOwner Nikkoli~
-Name button mayor~
-ShD  a "Harry for Mayor!" button~
-Desc This button makes public the fact that you support Harry for Mayor of Midgaard.~
-Cond 0
-Wear -1
-Cost 5000
+Affc 'enchant weapon'   1  52  -1   5  19          0
 End
 
 #O
@@ -683,6 +544,147 @@ Cond 0
 Wear -1
 Cost 17800
 Affc 'reserved'   1  37  -1   3   2          0
+End
+
+#O
+Vnum 15207
+Nest 1
+PrevOwner Nikkoli~
+Name button mayor~
+ShD  a "Harry for Mayor!" button~
+Desc This button makes public the fact that you support Harry for Mayor of Midgaard.~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 28025
+Nest 1
+PrevOwner Nikkoli~
+Name 101 ways elf cook book~
+ShD  101 ways to cook an elf cook book~
+Desc This cook book holds 101 ways to cook elves with different spices and sauces.~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10428
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 2900
+End
+
+#O
+Vnum 10428
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 2900
+End
+
+#O
+Vnum 17626
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 6300
+End
+
+#O
+Vnum 9321
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 2400
+End
+
+#O
+Vnum 5932
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 5932
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 5932
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 2417
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 2417
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Nikkoli~
+Cond 0
+Wear -1
+Cost 550
 End
 
 #O
@@ -731,15 +733,6 @@ Cost 2400
 End
 
 #O
-Vnum 9321
-Nest 0
-PrevOwner Nikkoli~
-Cond 0
-Wear -1
-Cost 2400
-End
-
-#O
 Vnum 5937
 Nest 0
 PrevOwner Nikkoli~
@@ -759,9 +752,9 @@ PrevOwner Nikkoli~
 Cond 0
 Wear -1
 Cost 5400
-Affc 'reserved'   1  46  -1  25  12          0
-Affc 'enchant weapon'   1  52  -1   5  19          0
 Affc 'enchant weapon'   0  52  -1   5  18          0
+Affc 'enchant weapon'   1  52  -1   5  19          0
+Affc 'reserved'   1  46  -1  25  12          0
 End
 
 #O
@@ -773,10 +766,10 @@ Name stick hockey~
 ShD  a hockey stick~
 Desc A hockey stick appears to be searching for something. Oh no! It found a puck! DUCK!~
 Cond 0
-Wear -1
+Wear 16
 Cost 1250
-Affc 'enchant weapon'   1  51  -1   5  19          0
 Affc 'enchant weapon'   0  51  -1   5  18          0
+Affc 'enchant weapon'   1  51  -1   5  19          0
 End
 
 #O
@@ -799,27 +792,6 @@ Cost 250
 End
 
 #O
-Vnum 28025
-Nest 0
-PrevOwner Nikkoli~
-Name 101 ways elf cook book~
-ShD  101 ways to cook an elf cook book~
-Desc This cook book holds 101 ways to cook elves with different spices and sauces.~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 17626
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6300
-End
-
-#O
 Vnum 17624
 Nest 0
 PrevOwner (null)~
@@ -829,30 +801,96 @@ Cost 5900
 End
 
 #O
-Vnum 10428
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2900
-End
-
-#O
-Vnum 10428
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2900
-End
-
-#O
 Vnum 1344
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1000
+End
+
+#O
+Vnum 12001
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5707
+Nest 0
+PrevOwner Nikkoli~
+ExtF 134217728
+Wt   39
+Cond 0
+Wear -1
+Cost 500
+Val  2 2 2 2 5
+End
+
+#O
+Vnum 18126
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 9000
+End
+
+#O
+Vnum 4434
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4434
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4434
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 8800
+Nest 0
+PrevOwner Grimm~
+Cond 0
+Wear -1
+Cost 1870
+End
+
+#O
+Vnum 1344
+Nest 0
+PrevOwner Nyaxis~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 1345
+Nest 0
+PrevOwner Nyaxis~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

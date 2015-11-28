@@ -2,8 +2,8 @@
 Name Mussa~
 Id   1006375096
 Email (null)~
-LogO 1007481312
-Vers 28
+LogO 1388753179
+Vers 33
 Prom <%hhp %mm %vmv> ~
 Race human~
 Outc 0
@@ -12,8 +12,9 @@ MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,12 @@ LoginsWOKill 2
 LoginsWODeath 2
 LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 mojo~
 Sac  300
 Sex  1
@@ -33,55 +40,53 @@ Node 0
 Cap 0
 Created 1006375123
 Glad 0 0 0 0 0 0
-LastHost 209-87-234-170.ottawa.storm.ca~
+LastHost 75.84.194.131~
 Cla  3
 ClaO 3
-Levl 11
+Levl 13
 DLevl 0
-Plyd 29342
-Not  0 0 0 0 1002155081 0 0 0 0
+Plyd 43613
+Not  0 0 0 0 1002155081 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3054
-HMV  176 176 116 116 69 130
-Gold 54
-Silv 657
-Exp  11923
+HMV  84 203 122 122 102 144
+Gold 29
+Silv 86
+Exp  13032
 Act  CDEFGHKQ
-AfBy V
-Comm DGIR
+MHSF R
+Comm DFGIR
 Disp CEFIJ
 IcgB 0
 Icg 0
 Pos  4
-SkiP 39
-Alig  -130
-Hit   3
-Dam   3
-SecHit   3
-SecDam   3
-ACs 72 72 67 121
+Prac 4
+Trai 18
+SkiP 45
+Alig  -375
+ACs 61 62 57 110
 Wimp  28
-Attr 21 12 17 14 16
-AMod 2 0 1 2 1
+Attr 21 12 17 14 16 10 10 13
+AMod 2 0 0 0 0 0 0 0
 Pass MuHkIFEH2Kdeg~
 Titl  The Distant Traveler~
 Pnts 40
 TSex 1
-LLev 1
-HMVP 172 126 130
-Cnd  0 29 45 33
+LLev 12
+HMVP 199 132 144
+Cnd  0 36 42 30
 Sk 1 'axe'
 Sk 1 'dagger'
 Sk 1 'flail'
 Sk 1 'mace'
 Sk 6 'polearm'
 Sk 1 'spear'
-Sk 87 'sword'
+Sk 90 'sword'
 Sk 1 'whip'
 Sk 21 'bash'
 Sk 1 'disarm'
-Sk 31 'enhanced damage'
+Sk 36 'enhanced damage'
 Sk 1 'parry'
 Sk 1 'rescue'
 Sk 1 'shield block'
@@ -97,19 +102,6 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'weaponsmaster'
-Affc 'haste'   0  21   6   2   2    2097152
-Affc 'frenzy'   0  22   2   3  18          0
-Affc 'frenzy'   0  21   2   3  19          0
-Affc 'frenzy'   0  21   2  10  17          0
-End
-
-#O
-Vnum 3713
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 14
-Cost 48
 End
 
 #O
@@ -126,45 +118,99 @@ Vnum 3052
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 15
+Wear 14
 Cost 112
 End
 
 #O
-Vnum 1514
+Vnum 3113
+Nest 0
+PrevOwner Gaspar~
+Cond 0
+Wear 8
+Cost 660
+End
+
+#O
+Vnum 3115
+Nest 0
+PrevOwner Gaspar~
+Cond 0
+Wear 10
+Cost 660
+End
+
+#O
+Vnum 3111
+Nest 0
+PrevOwner Gaspar~
+Cond 0
+Wear 6
+Cost 660
+End
+
+#O
+Vnum 3116
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 11
+Cost 1190
+End
+
+#O
+Vnum 3114
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 9
+Cost 660
+End
+
+#O
+Vnum 6601
+Nest 0
+PrevOwner Spore~
+Cond 0
+Wear 1
+Cost 620
+End
+
+#O
+Vnum 9519
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 5
+Cost 1280
+End
+
+#O
+Vnum 2103
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 0
+Cost 960
+End
+
+#O
+Vnum 2108
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 17
+Cost 1910
+Spell 3 'blindness'
 End
 
 #O
 Vnum 9536
 Nest 0
-PrevOwner (null)~
+PrevOwner Mussa~
 Cond 0
-Wear 12
+Wear -1
 Cost 50
-Val  100 5 0 10 100
-End
-
-#O
-Vnum 2444
-Nest 1
-PrevOwner Mussa~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 2445
-Nest 1
-PrevOwner Mussa~
-Cond 0
-Wear -1
-Cost 1500
 End
 
 #O
@@ -205,103 +251,37 @@ Cost 10000
 End
 
 #O
+Vnum 3000
+Nest 0
+PrevOwner Mussa~
+Cond 0
+Wear -1
+Cost 75
+Val  300 264 1 0 0
+End
+
+#O
+Vnum 1514
+Nest 0
+PrevOwner Mussa~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
 Vnum 5230
 Nest 0
-PrevOwner Sargeras~
+PrevOwner Mussa~
 Cond 0
 Wear 18
 Cost 550
 End
 
 #O
-Vnum 3715
-Nest 0
-PrevOwner Phyg~
-Cond 0
-Wear 17
-Cost 0
-End
-
-#O
-Vnum 3113
-Nest 0
-PrevOwner Gaspar~
-Cond 0
-Wear 8
-Cost 660
-End
-
-#O
-Vnum 3115
-Nest 0
-PrevOwner Gaspar~
-Cond 0
-Wear 10
-Cost 660
-End
-
-#O
-Vnum 3111
-Nest 0
-PrevOwner Gaspar~
-Cond 0
-Wear 6
-Cost 660
-End
-
-#O
-Vnum 3031
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 0
-Cost 75
-Val  0 0 27 0 0
-End
-
-#O
-Vnum 3116
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 11
-Cost 1190
-End
-
-#O
-Vnum 3114
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 9
-Cost 660
-End
-
-#O
-Vnum 6601
-Nest 0
-PrevOwner Spore~
-Cond 0
-Wear 1
-Cost 620
-End
-
-#O
-Vnum 3086
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-Spell 1 'cure poison'
-Spell 2 'cure light'
-Spell 3 'cure disease'
-End
-
-#O
 Vnum 3087
 Nest 0
-PrevOwner (null)~
+PrevOwner Mussa~
 Cond 0
 Wear -1
 Cost 230
@@ -309,50 +289,104 @@ Spell 1 'cure blindness'
 End
 
 #O
-Vnum 3152
+Vnum 3291
 Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 14
-End
-
-#O
-Vnum 3716
-Nest 0
-PrevOwner Yasmin~
+PrevOwner Mussa~
 Cond 0
 Wear -1
 Cost 0
-Val  0 0 149 0 0
+Spell 1 'fly'
 End
 
 #O
-Vnum 9519
+Vnum 3000
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 5
-Cost 1280
+Wear -1
+Cost 75
+End
+
+#O
+Vnum 2101
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 970
+End
+
+#O
+Vnum 3000
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 75
+Val  300 288 1 0 0
+End
+
+#O
+Vnum 2444
+Nest 0
+PrevOwner Mussa~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 2445
+Nest 0
+PrevOwner Mussa~
+Cond 0
+Wear -1
+Cost 1500
 End
 
 #O
 Vnum 3022
 Nest 0
-PrevOwner Mussa~
+PrevOwner (null)~
 Cond 0
 Wear 16
 Cost 610
 End
 
 #O
-Vnum 3291
+Vnum 1103
 Nest 0
-PrevOwner Blaen~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 0
-Spell 1 'fly'
+Cost 15
+End
+
+#O
+Vnum 1103
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 15
+End
+
+#O
+Vnum 1103
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 15
+End
+
+#O
+Vnum 3000
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 75
 End
 
 #END

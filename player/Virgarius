@@ -3,8 +3,8 @@ Name Virgarius~
 SurN Lottacock~
 Id   1009906582
 Email (null)~
-LogO 1058988226
-Vers 31
+LogO 1394830521
+Vers 33
 Desc {Y____{Xa doodle doo, {Y____{Xer spaniel, {Y____{Xatoo, 
 {Y____{Xeyed, {Y____{Xfight, {Y____{Xpit, 
 {Y____{Xroach, {Y____{Xtail, Bang{Y____{X, 
@@ -18,12 +18,13 @@ Race elf~
 Clan matook~
 Outc 0
 RufT 0
-MatookT 7384
-SkPTimer 27
-SkPTracker 13
+MatookT 7666
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -35,6 +36,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 101772 matook~
 DeityT -6580 matook~
 Sac  300
@@ -44,39 +51,41 @@ Node 0
 Cap 0
 Created 1009906591
 Glad 0 0 0 0 0 1
-LastHost Net19H239.itsd.state.ms.us~
+LastHost 172.15.132.207~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 464956
-Not  1058980542 1058980549 0 1058536507 1058385562 1058980544 0 1058676529 0 1058980552
+Plyd 476343
+Not  1373427528 1381924072 0 1371977109 1367893112 1380254889 0 1375318137 0 1384474516
 Scro 22
 Rank 0
-Room 3001
-HMV  373 861 841 1032 248 500
-Gold 725
-Silv 4358
+Room 16502
+HMV  861 861 1032 1032 500 500
+Gold 742
+Silv 5831
 Exp  74102
-Act  CDEFGHIKR
+Act  CDEFGHIK
 MHSF R
-AfBy DFJTc
+AfBy DFJc
 Comm GIS
 Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-SkiP 70
+Prac 10
+Trai 13
+SkiP 72
 Save  -3
 Alig  -1000
 Hit   33
 Dam   29
 SecHit   24
 SecDam   20
-ACs -75 -69 -75 -6
-Attr 17 22 18 21 16 13 23 13
+ACs -55 -49 -55 14
+Attr 17 22 18 21 16 11 12 13
 AMod 3 3 3 4 5 0 0 0
 Pass ViXGZorBjOrQ6~
 Titl  Weapons and Armor Augmentation Specialist~
@@ -84,7 +93,7 @@ Pnts 49
 TSex 1
 LLev 42
 HMVP 676 1007 465
-Cnd  0 48 48 48
+Cnd  0 0 14 14
 Alias ew cast 'enchant weapon'~
 Alias bd bleed~
 Alias sd cast 'summon dead'~
@@ -156,7 +165,7 @@ Sk 100 'bleed'
 Sk 100 'dodge'
 Sk 100 'parry'
 Sk 86 'shield block'
-Sk 63 'scan'
+Sk 66 'scan'
 Sk 1 'hide'
 Sk 75 'sneak'
 Sk 77 'scrolls'
@@ -164,7 +173,6 @@ Sk 75 'staves'
 Sk 94 'wands'
 Sk 59 'swimming'
 Sk 50 'recall'
-Sk 75 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'beguiling'
@@ -175,8 +183,6 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'shield'   0  42  20 -20  17          0
-Affc 'fly'   0  42   7   0   0     524288
 End
 
 #O
@@ -419,7 +425,7 @@ PrevOwner Virgarius~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 6 160 0
+Val  52 10 6 166 0
 Spell 3 'remove curse'
 End
 
@@ -439,7 +445,7 @@ PrevOwner Virgarius~
 Cond 0
 Wear -1
 Cost 930
-Val  30 8 3 56 0
+Val  30 8 3 60 0
 Spell 3 'cure light'
 End
 
@@ -517,7 +523,7 @@ PrevOwner Virgarius~
 Cond 0
 Wear -1
 Cost 18600
-Val  13 10 8 168 0
+Val  13 10 8 174 0
 Spell 3 'sanctuary'
 End
 
@@ -548,15 +554,6 @@ PrevOwner Virgarius~
 Cond 0
 Wear -1
 Cost 25000
-End
-
-#O
-Vnum 3107
-Nest 1
-PrevOwner Virgarius~
-Cond 0
-Wear -1
-Cost 50000
 End
 
 #O
@@ -715,6 +712,15 @@ Cost 15000
 End
 
 #O
+Vnum 2333
+Nest 1
+PrevOwner Virgarius~
+Cond 0
+Wear -1
+Cost 580
+End
+
+#O
 Vnum 8544
 Nest 0
 PrevOwner (null)~
@@ -819,7 +825,6 @@ Name gubment cheese~
 ShD  {YSliver of Gubment Cheese{x~
 Desc Sum Gubment Cheese looks pretty tough~
 ExtF 82
-Stolen 21
 Cond 0
 Wear 16
 Lev  50
@@ -836,8 +841,17 @@ PrevOwner Virgarius~
 Cond 0
 Wear -1
 Cost 0
-Val  31 10 3 17 0
+Val  31 0 9 20 0
 Spell 3 'bless'
+End
+
+#O
+Vnum 3107
+Nest 0
+PrevOwner Virgarius~
+Cond 0
+Wear -1
+Cost 50000
 End
 
 #END

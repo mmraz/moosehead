@@ -2,8 +2,8 @@
 Name Teris~
 Id   946871590
 Email (null)~
-LogO 1131742038
-Vers 31
+LogO 1362011102
+Vers 33
 LnD  A Gladiator~
 Desc You see something special about him.
 ~
@@ -13,11 +13,12 @@ Clan matook~
 Outc 0
 RufT 0
 MatookT 12001
-SkPTimer 9
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -29,6 +30,12 @@ LoginsWOKill 2
 LoginsWODeath 2
 LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 6
+QuestWins 2 6
 Deity 131621 matook~
 DeityT -2957 matook~
 Sac  300
@@ -37,52 +44,52 @@ Vump  0
 Node 0
 Cap 0
 Created 951549104
-Glad 0 0 0 0 0 0
-LastHost 24.16.129.245~
+Glad 0 0 0 3 0 1
+LastHost 66.183.25.161~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 2847995
-Not  1128543858 1130446298 1128543858 1131210186 1128543858 1131346367 1128543858 1128543858 1128543858 1129478192
+Plyd 2925818
+Not  1362010667 1362010667 1362010667 1362010667 1362010667 1362010667 1362010667 1362010667 1362010667 1362010667
 Scro 22
 Rank 0
-Room 3001
-HMV  395 395 2100 2100 499 499
-Gold 458
-Silv 5253
+Room 18007
+HMV  395 395 1788 2100 499 499
+Gold 368
+Silv 7524
 Exp  61323
 Act  DGHIKMSU
 MHSF R
-AfBy CDFJTW
+AfBy DFHJTW
 Comm 0
-Disp BFJN
+Disp BFIJN
 IcgB 0
 Icg 0
-Pnet ABCEFGI
+Pnet ABCEFGHIJ
 Pos  8
-Prac 124
-Trai 10
-SkiP 602
+Prac 125
+Trai 15
+SkiP 680
 Save  -7
 Alig  1000
 Hit   8
 SecHit   6
-ACs -89 -89 -89 -72
-Attr 13 25 25 25 13 13 13 13
-AMod 3 3 0 0 -4 0 0 0
-Pass Te/VexCzBQOZs~
+ACs -120 -120 -120 -103
+Attr 13 25 25 25 13 17 8 13
+AMod 7 3 0 0 -4 0 0 0
+Pass Te7LvfdYhHqSs~
 Titl .~
 Pnts 40
 TSex 1
 LLev 1
 HMVP 335 1400 499
-Cnd  0 12 19 19
+Cnd  0 7 15 15
 Alias res order all rescue teris~
 Alias / c word~
 Alias enchant c 'enchant weapon'~
-Alias 1 where dragon~
+Alias 1 c acid luth~
 Alias css cast 'summon dead'~
 Alias cd cast 'dispel magic'~
 Alias ct cast 'turn undead'~
@@ -116,7 +123,6 @@ Sk 1 'chill touch'
 OldSk 75 'chill touch'
 Sk 1 'colour spray'
 OldSk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 100 'continual light'
 Sk 1 'control weather'
 Sk 78 'create food'
@@ -131,7 +137,7 @@ Sk 1 'detect hidden'
 Sk 1 'detect invis'
 Sk 100 'detect magic'
 Sk 75 'detect poison'
-Sk 91 'diamond skin'
+Sk 95 'diamond skin'
 Sk 100 'dispel magic'
 OldSk 1 'dispel magic'
 Sk 100 'enchant armor'
@@ -190,9 +196,9 @@ Sk 86 'protection evil'
 OldSk 1 'protection evil'
 Sk 80 'protection good'
 OldSk 1 'protection good'
-Sk 81 'protection neutral'
+Sk 83 'protection neutral'
 OldSk 1 'protection neutral'
-Sk 89 'recharge'
+Sk 92 'recharge'
 Sk 100 'refresh'
 OldSk 75 'refresh'
 Sk 1 'sacred guardian'
@@ -203,7 +209,7 @@ Sk 100 'shield'
 OldSk 1 'shield'
 Sk 1 'shocking grasp'
 OldSk 75 'shocking grasp'
-Sk 80 'sleep'
+Sk 84 'sleep'
 OldSk 75 'sleep'
 Sk 100 'slow'
 Sk 1 'steel skin'
@@ -242,7 +248,7 @@ Sk 91 'staves'
 OldSk 1 'staves'
 Sk 91 'wands'
 OldSk 1 'wands'
-Sk 80 'swimming'
+Sk 87 'swimming'
 OldSk 50 'swimming'
 Sk 50 'recall'
 OldSk 50 'recall'
@@ -261,7 +267,9 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect good'   0  45  21   0   0          4
+Affc 'diamond skin'   0  51  14 -27  17          0
+Affc 'sanctuary'   0  53   5   0   0        128
+Affc 'giant strength'   0  51  50   4   1          0
 End
 
 #O
@@ -447,17 +455,6 @@ Cost 0
 End
 
 #O
-Vnum 12
-Nest 1
-PrevOwner Teris~
-ShD  the head of Puff~
-Desc The severed head of Puff is lying here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 13
 Nest 1
 PrevOwner Teris~
@@ -530,25 +527,6 @@ PrevOwner Teris~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 22512
-Nest 1
-PrevOwner Teris~
-Cond 0
-Wear -1
-Cost 2200
-End
-
-#O
-Vnum 10427
-Nest 1
-PrevOwner Teris~
-Cond 0
-Wear -1
-Cost 11800
-Val  0 12 3 10 516
 End
 
 #O
@@ -654,17 +632,6 @@ Cost 0
 End
 
 #O
-Vnum 10440
-Nest 1
-PrevOwner Teris~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 3 161 0
-Spell 3 'remove curse'
-End
-
-#O
 Vnum 2432
 Nest 1
 PrevOwner Teris~
@@ -674,15 +641,6 @@ Cost 1200
 End
 
 #O
-Vnum 1001
-Nest 1
-PrevOwner Teris~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 22044
 Nest 1
 PrevOwner Teris~
@@ -725,7 +683,7 @@ PrevOwner Teris~
 Cond 0
 Wear -1
 Cost 1000
-Val  20 5 4 55 0
+Val  20 5 4 58 0
 Spell 3 'cure critical'
 End
 
@@ -736,17 +694,7 @@ PrevOwner Teris~
 Cond 0
 Wear -1
 Cost 1000
-Val  20 0 1 55 0
-Spell 3 'cure critical'
-End
-
-#O
-Vnum 17667
-Nest 1
-PrevOwner Teris~
-Cond 0
-Wear -1
-Cost 1000
+Val  20 0 1 58 0
 Spell 3 'cure critical'
 End
 
@@ -756,15 +704,6 @@ Nest 1
 PrevOwner Teris~
 ShD  the guts of Lips~
 Desc A steaming pile of Lips's entrails is lying here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2421
-Nest 1
-PrevOwner Teris~
 Cond 0
 Wear -1
 Cost 0
@@ -837,31 +776,12 @@ Val  20 20 4 0 0
 End
 
 #O
-Vnum 10440
-Nest 1
-PrevOwner Teris~
-Cond 0
-Wear -1
-Cost 8500
-Spell 3 'remove curse'
-End
-
-#O
 Vnum 304
 Nest 1
 PrevOwner Teris~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 17609
-Nest 1
-PrevOwner Teris~
-Cond 0
-Wear -1
-Cost 500
 End
 
 #O
@@ -884,12 +804,74 @@ Spell 3 'ray of truth'
 End
 
 #O
-Vnum 2513
-Nest 0
+Vnum 5406
+Enchanted
+Nest 1
+PrevOwner Teris~
+Name wicked blaring electric guitar~
+ShD  A {Rblaring{x electric {Dguitar{x~
+Desc You see a wicked looking guitar here, still reverberating Metallica tunes.~
+ExtF 67
+Cond 0
+Wear -1
+Lev  39
+Cost 0
+Val  4 7 4 33 1028
+Affc 'reserved'   1  30  -1 -10  13          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   1  53  -1  10  18          0
+End
+
+#O
+Vnum 18901
+Nest 1
 PrevOwner Teris~
 Cond 0
 Wear -1
-Cost 710
+Cost 6500
+Spell 3 'bless'
+End
+
+#O
+Vnum 18901
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 6500
+Val  30 5 2 20 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 17667
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 1000
+Val  20 5 2 58 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 18120
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 1250
+Val  0 5 6 11 516
+End
+
+#O
+Vnum 10427
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 11800
+Val  0 12 3 10 516
 End
 
 #O
@@ -900,6 +882,137 @@ ExtF 33
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 2 166 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 12
+Nest 1
+PrevOwner Teris~
+ShD  the head of Puff~
+Desc The severed head of Puff is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Teris~
+Name dweeb~
+ShD  a dweeb~
+Desc A dweeb sulks here in the corner.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23503
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 22512
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 2421
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1001
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 17609
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 0 1 166 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 8500
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 13208
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 8812
+Nest 1
+PrevOwner Teris~
+Name ear Sachmet's Mummy~
+ShD  the ear of Sachmet's Mummy~
+Desc The ear of Sachmet's Mummy is here.~
+Cond 0
+Wear -1
+Cost 0
+Val  2 18119 3 0 0
+End
+
+#O
+Vnum 2513
+Nest 0
+PrevOwner Teris~
+Cond 0
+Wear -1
+Cost 710
 End
 
 #O
@@ -938,34 +1051,6 @@ Affc 'enchant weapon'   1  53  -1   5  19          0
 End
 
 #O
-Vnum 2005
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 3139
-Cond 0
-Wear -1
-Lev  30
-Cost 3400
-Affc 'enchant weapon'   1  53  -1  11  18          0
-Affc 'reserved'   1  24  -1   1   1          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
-Vnum 10404
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 67
-Cond 0
-Wear -1
-Cost 15300
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
 Vnum 3350
 Enchanted
 Nest 1
@@ -980,21 +1065,6 @@ Affc 'enchant weapon'   1  53  -1   8  19          0
 End
 
 #O
-Vnum 7708
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 67
-Cond 0
-Wear -1
-Lev  21
-Cost 2300
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   1  53  -1   7  18          0
-Affc 'reserved'   1  16  -1   1   2          0
-End
-
-#O
 Vnum 7802
 Enchanted
 Nest 1
@@ -1006,20 +1076,6 @@ Lev  14
 Cost 670
 Affc 'enchant weapon'   1  53  -1  10  18          0
 Affc 'enchant weapon'   1  53  -1   9  19          0
-End
-
-#O
-Vnum 7707
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 67
-Cond 0
-Wear -1
-Lev  22
-Cost 980
-Affc 'enchant weapon'   1  53  -1  13  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -1051,33 +1107,6 @@ Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
-Vnum 3351
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 67
-Cond 0
-Wear -1
-Lev  15
-Cost 590
-Affc 'enchant weapon'   1  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-End
-
-#O
-Vnum 20703
-Enchanted
-Nest 1
-PrevOwner Teris~
-Cond 0
-Wear -1
-Lev  21
-Cost 250
-Affc 'enchant weapon'   1  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
 Vnum 18115
 Enchanted
 Nest 1
@@ -1091,64 +1120,6 @@ Affc 'enchant weapon'   0  53  -1   7  18          0
 Affc 'enchant weapon'   1  53  -1   7  19          0
 Affc 'reserved'   1  39  -1  -6  20          0
 Affc 'reserved'   1  39  -1  10  13          0
-End
-
-#O
-Vnum 8006
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 67
-Cond 0
-Wear -1
-Lev  20
-Cost 435
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
-Vnum 8015
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 67
-Cond 0
-Wear -1
-Lev  25
-Cost 750
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 8016
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 67
-Cond 0
-Wear -1
-Lev  31
-Cost 1160
-Affc 'enchant weapon'   0  52  -1   9  18          0
-Affc 'enchant weapon'   1  52  -1   9  19          0
-End
-
-#O
-Vnum 8020
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  25
-Cost 13500
-Affc 'enchant weapon'   0  53  -1   5  18          0
-Affc 'reserved'   1  22  -1  -1   1          0
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'reserved'   1  22  -1  -1  20          0
 End
 
 #O
@@ -1209,22 +1180,6 @@ Affc 'enchant weapon'   1  53  -1   8  19          0
 End
 
 #O
-Vnum 1905
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 528707
-Cond 0
-Wear -1
-Lev  39
-Cost 2000
-Affc 'reserved'   1  32  -1  -4  17          0
-Affc 'reserved'   1  32  -1  -2  20          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-End
-
-#O
 Vnum 5221
 Enchanted
 Nest 1
@@ -1236,35 +1191,6 @@ Lev  32
 Cost 3300
 Affc 'enchant weapon'   1  53  -1   9  18          0
 Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 8021
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 262227
-Cond 0
-Wear -1
-Lev  43
-Cost 1500
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'reserved'   1  35  -1   1   5          0
-Affc 'enchant weapon'   1  53  -1   6  18          0
-End
-
-#O
-Vnum 3020
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 67
-Cond 0
-Wear -1
-Lev  2
-Cost 157
-Affc 'enchant weapon'   0  53  -1   5  18          0
-Affc 'enchant weapon'   1  53  -1   5  19          0
 End
 
 #O
@@ -1282,6 +1208,191 @@ Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
+Vnum 2422
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 17039443
+Cond 0
+Wear -1
+Lev  50
+Cost 700
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 2422
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 17039443
+Cond 0
+Wear -1
+Lev  50
+Cost 700
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 18108
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
+End
+
+#O
+Vnum 2380
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear -1
+Lev  32
+Cost 2300
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   1  53  -1   7  18          0
+End
+
+#O
+Vnum 8017
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 16777283
+Cond 0
+Wear -1
+Lev  43
+Cost 4500
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'reserved'   1  35  -1   5  17          0
+End
+
+#O
+Vnum 8006
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear -1
+Lev  20
+Cost 435
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 1905
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 528707
+Cond 0
+Wear -1
+Lev  39
+Cost 2000
+Affc 'reserved'   1  32  -1  -4  17          0
+Affc 'reserved'   1  32  -1  -2  20          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
+Vnum 10404
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear -1
+Cost 15300
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 2005
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 3139
+Cond 0
+Wear -1
+Lev  30
+Cost 3400
+Affc 'enchant weapon'   1  53  -1  11  18          0
+Affc 'reserved'   1  24  -1   1   1          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 18120
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 323
+Cond 0
+Wear -1
+Lev  34
+Cost 1250
+Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
+End
+
+#O
+Vnum 18120
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 323
+Cond 0
+Wear -1
+Lev  42
+Cost 1250
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 18120
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 323
+Cond 0
+Wear -1
+Lev  40
+Cost 1250
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+End
+
+#O
+Vnum 8016
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear -1
+Lev  31
+Cost 1160
+Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   9  19          0
+End
+
+#O
 Vnum 17645
 Nest 1
 PrevOwner Teris~
@@ -1289,6 +1400,118 @@ Cond 0
 Wear -1
 Cost 5000
 Val  5 3 8 25 1024
+End
+
+#O
+Vnum 8015
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear -1
+Lev  25
+Cost 750
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 8015
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear -1
+Lev  20
+Cost 750
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
+End
+
+#O
+Vnum 3021
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear -1
+Lev  4
+Cost 250
+Affc 'enchant weapon'   1  53  -1   5  19          0
+Affc 'enchant weapon'   0  53  -1   5  18          0
+End
+
+#O
+Vnum 3021
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear -1
+Lev  8
+Cost 250
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 13207
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear -1
+Lev  12
+Cost 0
+Val  2 1 10 12 21
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
+End
+
+#O
+Vnum 20703
+Enchanted
+Nest 1
+PrevOwner Teris~
+Cond 0
+Wear -1
+Lev  21
+Cost 250
+Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 3020
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 67
+Cond 0
+Wear -1
+Lev  2
+Cost 157
+Affc 'enchant weapon'   0  53  -1   5  18          0
+Affc 'enchant weapon'   1  53  -1   5  19          0
+End
+
+#O
+Vnum 16151
+Enchanted
+Nest 1
+PrevOwner Teris~
+ExtF 262211
+Cond 0
+Wear -1
+Lev  24
+Cost 3200
+Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   1  52  -1   8  18          0
 End
 
 #O
@@ -1320,97 +1543,17 @@ Affc 'enchant weapon'   1  52  -1   8  18          0
 End
 
 #O
-Vnum 2422
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 17039443
-Cond 0
-Wear -1
-Lev  50
-Cost 700
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 2422
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 17039443
-Cond 0
-Wear -1
-Lev  50
-Cost 700
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 16151
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 262211
-Cond 0
-Wear -1
-Lev  24
-Cost 3200
-Affc 'enchant weapon'   1  52  -1   8  19          0
-Affc 'enchant weapon'   1  52  -1   8  18          0
-End
-
-#O
-Vnum 18108
+Vnum 11000
 Enchanted
 Nest 1
 PrevOwner Teris~
 ExtF 67
 Cond 0
 Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
-End
-
-#O
-Vnum 1929
-Nest 1
-PrevOwner Teris~
-Cond 0
-Wear -1
-Cost 60
-End
-
-#O
-Vnum 18120
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 323
-Cond 0
-Wear -1
-Lev  36
-Cost 1250
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'enchant weapon'   0  53  -1   7  18          0
-End
-
-#O
-Vnum 13207
-Enchanted
-Nest 1
-PrevOwner Teris~
-ExtF 67
-Cond 0
-Wear -1
-Lev  12
-Cost 0
-Val  2 1 10 12 21
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'enchant weapon'   1  53  -1   8  18          0
+Lev  21
+Cost 1800
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
@@ -1448,41 +1591,6 @@ Val  460 1 -1 90 25
 End
 
 #O
-Vnum 1258
-Nest 0
-PrevOwner Teris~
-Name bag beta Cesario~
-ShD  a bag made from Cesario's hide~
-Desc A bag of fine Cesario hide catches your eye.  ~
-ExtF 67125248
-WeaF 16385
-Wt   5
-Cond 0
-Wear -1
-Lev  17
-Cost 2650
-Val  530 1 -1 90 25
-End
-
-#O
-Vnum 4913
-Nest 0
-PrevOwner Teris~
-Cond 0
-Wear -1
-Cost 2200
-End
-
-#O
-Vnum 4912
-Nest 0
-PrevOwner Teris~
-Cond 0
-Wear -1
-Cost 1800
-End
-
-#O
 Vnum 18119
 Enchanted
 Nest 0
@@ -1497,23 +1605,6 @@ Lev  50
 Cost 4500
 Affc 'enchant weapon'   1  53  -1  13  19          0
 Affc 'enchant weapon'   0  53  -1   8  18          0
-End
-
-#O
-Vnum 1258
-Nest 0
-PrevOwner Teris~
-Name bag beta Teris~
-ShD  a bag made from Teris's hide~
-Desc A bag of fine Teris hide catches your eye.  ~
-ExtF 16384
-WeaF 16385
-Wt   5
-Cond 0
-Wear -1
-Lev  20
-Cost 3000
-Val  600 1 -1 90 25
 End
 
 #O
@@ -1681,23 +1772,6 @@ Cost 4900
 End
 
 #O
-Vnum 15223
-Enchanted
-Nest 0
-PrevOwner Teris~
-ExtF 134217793
-Wt   24
-Cond 0
-Wear 7
-Lev  35
-Cost 6500
-Val  8 8 8 4 1
-Affc 'reserved'   1  30  -1  20  13          0
-Affc 'reserved'   1  30  -1  20  12          0
-Affc 'enchant armor'   1  53  -1  -7  17          0
-End
-
-#O
 Vnum 922
 Nest 0
 PrevOwner Teris~
@@ -1714,15 +1788,6 @@ ExtF 17039457
 Cond 0
 Wear 18
 Cost 4850
-End
-
-#O
-Vnum 1342
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -1760,22 +1825,102 @@ Affc 'reserved'   1  48  -1  75  12          0
 End
 
 #O
-Vnum 20818
-Nest 0
-PrevOwner Teris~
-Cond 0
-Wear 11
-Cost 4000
-End
-
-#O
 Vnum 10403
 Nest 0
 PrevOwner Teris~
-Stolen 32
 Cond 0
 Wear 16
 Cost 6300
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Teris~
+Name bag beta Cesario~
+ShD  a bag made from Cesario's hide~
+Desc A bag of fine Cesario hide catches your eye.  ~
+ExtF 67125248
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  17
+Cost 2650
+Val  530 1 -1 90 25
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Teris~
+Name bag beta Teris~
+ShD  a bag made from Teris's hide~
+Desc A bag of fine Teris hide catches your eye.  ~
+ExtF 16384
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  20
+Cost 3000
+Val  600 1 -1 90 25
+End
+
+#O
+Vnum 15223
+Enchanted
+Nest 0
+PrevOwner Teris~
+ExtF 134217793
+Wt   24
+Cond 0
+Wear 7
+Lev  37
+Cost 6500
+Val  8 8 8 4 1
+Affc 'enchant armor'   1  53  -1 -10  17          0
+Affc 'reserved'   1  30  -1  20  12          0
+Affc 'reserved'   1  30  -1  20  13          0
+End
+
+#O
+Vnum 20818
+Nest 0
+PrevOwner Teris~
+ExtF 134219841
+Wt   80
+Cond 0
+Wear 11
+Cost 4000
+Val  7 7 7 7 1
+End
+
+#O
+Vnum 1395
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1970
+End
+
+#O
+Vnum 18106
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4500
 End
 
 #END

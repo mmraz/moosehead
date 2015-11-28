@@ -2,8 +2,8 @@
 Name Spiderman~
 Id   821612390
 Email (null)~
-LogO 1000159179
-Vers 28
+LogO 1385695093
+Vers 33
 Desc Peter Parker
 Laboratory
 Radiation
@@ -15,43 +15,57 @@ Prom <%h/%Hhp %m/%Mm %v/%Vmv>%c<%gg %ss %X-lvl %e> ~
 Race kender~
 Clan avarice~
 Outc 0
-RufT 351
+RufT 290
 MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 2 101
-Steal 32 179 1844 3
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK Renfield~
 LstKBy Sencyth~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1383920511
+LstKillDate 1383920511
+LstDeathDate 1383920511
+LoginsWOKill 4
+LoginsWODeath 4
+LoginsWOCombat 4
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 145964 hermes~
-Sac  51
+Sac  163
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 951464204
 Glad 0 0 0 0 0 0
-LastHost HSE-Toronto-ppp183923.sympatico.ca~
+LastHost 72.44.111.97~
 Cla  13
 Kit ninja~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 474297
-Not  953178990 952791494 952229140 952727099 953156742 999756735 952696265 975301616 952229140
+Plyd 476867
+Not  953178990 952791494 952229140 952727099 953156742 999756735 952696265 975301616 952229140 0
 Scro 22
 Rank 3
-Room 31701
+Room 31704
 HMV  1028 1028 395 395 500 500
-Gold 540
-Silv 4
+Gold 397
+Silv 57
 Exp  336600
-Act  CDEFGHRSZd
-AfBy DF
+Act  CDGHRSZd
+MHSF R
+AfBy DHPT
 Comm GJORSc
 Disp FJ
 IcgB 0
@@ -59,24 +73,25 @@ Icg 0
 Wizn W
 Pos  8
 Prac 23
-SkiP 20
-Save  -9
-Alig  215
-Hit   14
+Trai 12
+SkiP 21
+Save  -3
+Alig  216
+Hit   8
 Dam   23
-SecHit   8
+SecHit   2
 SecDam   12
-ACs 64 64 69 98
+ACs -16 -16 -11 18
 Wimp  130
-Attr 18 17 17 25 17
-AMod 2 4 11 -1 4
+Attr 18 17 17 25 17 15 11 13
+AMod 2 4 11 -1 4 0 0 0
 Pass SpPauYoQ9UcQY~
 Titl  Pyjamas~
 Pnts 93
 TSex 1
 LLev 116
 HMVP 1008 350 500
-Cnd  0 0 29 0
+Cnd  0 20 34 25
 Alias 1 dirt~
 Alias 2 backstab~
 Alias 9 flee~
@@ -96,6 +111,7 @@ OldSk 75 'cancellation'
 OldSk 75 'chain lightning'
 OldSk 1 'chill touch'
 OldSk 1 'colour spray'
+Sk 75 'cure vision'
 Sk 75 'detect evil'
 OldSk 75 'detect evil'
 Sk 1 'detect good'
@@ -123,14 +139,14 @@ Sk 75 'fly'
 OldSk 75 'fly'
 Sk 80 'gate'
 OldSk 75 'gate'
-Sk 77 'identify'
+Sk 79 'identify'
 OldSk 75 'identify'
 Sk 1 'knock'
 OldSk 1 'knock'
 Sk 1 'know alignment'
 OldSk 1 'know alignment'
 OldSk 1 'lightning bolt'
-Sk 80 'locate object'
+Sk 81 'locate object'
 OldSk 75 'locate object'
 OldSk 1 'magic missile'
 Sk 1 'nexus'
@@ -160,7 +176,6 @@ Sk 76 'teleport'
 OldSk 75 'teleport'
 Sk 75 'word of recall'
 OldSk 75 'word of recall'
-Sk 75 'cure vision'
 Sk 100 'dagger'
 OldSk 100 'dagger'
 Sk 77 'mace'
@@ -219,10 +234,13 @@ Gr 'rogue default'
 Gr 'detection'
 Gr 'protective'
 Gr 'transportation'
-Affc 'bless'   0  50  50  -6  24          0
-Affc 'bless'   0  50  50   6  18          0
-Affc 'detect hidden'   0  35  20   0   0         32
-Affc 'detect invis'   0  35  20   0   0          8
+Affc 'armor'   0  38  29 -20  17          0
+Affc 'sneak'   0  50  39   0   0      32768
+Affc 'stone skin'   0  31   2 -40  17          0
+Affc 'shield'   0  34  26 -20  17          0
+Affc 'fly'   0  29   4   0   0     524288
+Affc 'detect invis'   0  32  17   0   0          8
+Affc 'sanctuary'   0  39   2   0   0        128
 End
 
 #O
@@ -257,7 +275,7 @@ Vnum 4434
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 3
+Wear 4
 Cost 550
 End
 
@@ -295,15 +313,6 @@ PrevOwner (null)~
 Cond 0
 Wear 5
 Cost 4200
-End
-
-#O
-Vnum 5932
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4000
 End
 
 #O
@@ -352,7 +361,7 @@ Vnum 23021
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 4
+Wear 3
 Cost 710
 End
 
@@ -454,20 +463,6 @@ Affc 'enchant weapon'   0  53  -1   5  18          0
 End
 
 #O
-Vnum 10431
-Enchanted
-Nest 1
-PrevOwner Spiderman~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6500
-Affc 'enchant weapon'   1  55  -1   6  19          0
-Affc 'enchant weapon'   0  55  -1   6  18          0
-End
-
-#O
 Vnum 12019
 Nest 1
 PrevOwner Spiderman~
@@ -483,6 +478,29 @@ PrevOwner Spiderman~
 Cond 0
 Wear -1
 Cost 6500
+End
+
+#O
+Vnum 5932
+Nest 1
+PrevOwner Spiderman~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Spiderman~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Affc 'enchant weapon'   1  55  -1   6  19          0
+Affc 'enchant weapon'   0  55  -1   6  18          0
 End
 
 #O
@@ -513,30 +531,39 @@ Cost 1
 End
 
 #O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 3239
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
 Vnum 18105
 Nest 0
 PrevOwner Kedri~
 Cond 0
 Wear 11
 Cost 4500
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner Windwalker~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Windwalker~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
 End
 
 #END

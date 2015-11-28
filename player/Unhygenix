@@ -3,16 +3,16 @@ Name Unhygenix~
 SurN Leprosure~
 Id   1018858223
 Email (null)~
-LogO 1129872217
+LogO 1306501737
 Vers 31
 Prom %hhp %mm %vmv [%Xtnl] [%gg,%ss] [%n,%w] %r [%e] ~
 Race dragon~
 Clan honor~
 Outc 0
-RufT 429
+RufT 413
 MatookT 0
-SkPTimer 0
-SkPTracker 3
+SkPTimer 20
+SkPTracker 12
 LogoutTracker 0
 Kill 0 1 1 7
 Steal 0 0 0
@@ -23,9 +23,9 @@ LstAtkedByTimer 0
 LstCombatDate 1123298017
 LstKillDate 1123296108
 LstDeathDate 1123297022
-LoginsWOKill 2
-LoginsWODeath 2
-LoginsWOCombat 1
+LoginsWOKill 3
+LoginsWODeath 3
+LoginsWOCombat 2
 Bnty 0
 Deity 368100 hermes~
 DeityT -2744 almighty~
@@ -36,24 +36,24 @@ Node 0
 Cap 0
 Created 1018858248
 Glad 0 0 0 0 0 0
-LastHost 66.8.18.2~
+LastHost 41.134.46.218~
 Cla  14
 Kit myrmidon~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 439190
+Plyd 439857
 Not  1099934575 1099764334 1099764334 1129145608 1099764334 1128905660 1099764334 1099764334 1099764334 1129478192
 Scro 22
 Rank 1
 Room 31501
-HMV  1636 1636 474 474 714 714
-Gold 152
-Silv 28
+HMV  1636 1636 148 474 378 714
+Gold 169
+Silv 1181
 Exp  428466
-Act  CDFGHJKMQS
+Act  CDGHJKMQS
 MHSF RSU
-AfBy JTc
+AfBy JTVc
 Comm 0
 Disp FGIJN
 IcgB 0
@@ -61,24 +61,24 @@ Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 2
-SkiP 34
+SkiP 43
 Save  -9
-Alig  -809
+Alig  -1000
 Hit   31
 Dam   32
 SecHit   20
 SecDam   22
-ACs 5 11 10 29
+ACs -35 -29 -30 -11
 Wimp  5
 Attr 25 25 25 25 25 25 25 13
-AMod 0 0 0 6 1 0 0 0
+AMod 4 0 0 10 1 0 0 0
 Pass UnCHY40c9znAg~
 Titl  Carrier of the Plague~
 Pnts 90
 TSex 1
 LLev 119
 HMVP 1311 404 714
-Cnd  0 0 35 22
+Cnd  0 36 48 38
 Alias shit pray trans~
 Spz 'flail'
 Sk 1 'aid'
@@ -137,7 +137,7 @@ Sk 100 'enhanced damage'
 Sk 77 'hand to hand'
 Sk 44 'morph'
 Sk 100 'parry'
-Sk 75 'shield block'
+Sk 78 'shield block'
 Sk 81 'scan'
 Sk 100 'second attack'
 Sk 93 'third attack'
@@ -156,6 +156,9 @@ Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
+Affc 'stone skin'   0  34  28 -40  17          0
+Affc 'giant strength'   0  37  26   4   1          0
+Affc 'haste'   0  38   6   4   2    2097152
 End
 
 #O
@@ -745,10 +748,10 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'reserved'   1  49  -1  20  13          0
 Affc 'reserved'   1  49  -1   0   0          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
@@ -761,8 +764,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   0  52  -1  10  18          0
 Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
 End
 
 #O
@@ -775,8 +778,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 150
-Affc 'enchant weapon'   0  52  -1  12  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
@@ -790,9 +793,9 @@ Wear 16
 Lev  50
 Cost 4500
 Val  6 4 10 3 12
-Affc 'enchant weapon'   1  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   1  52  -1  11  18          0
 End
 
 #O
@@ -805,8 +808,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1250
-Affc 'enchant weapon'   0  52  -1  11  18          0
 Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
@@ -818,8 +821,8 @@ ExtF 67
 Cond 0
 Wear -1
 Cost 250
-Affc 'enchant weapon'   0  52  -1  11  18          0
 Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
@@ -952,22 +955,31 @@ Spell 3 'sleep'
 End
 
 #O
-Vnum 8060
-Nest 0
-PrevOwner Unhygenix~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'sleep'
-End
-
-#O
 Vnum 8510
 Nest 0
 PrevOwner Unhygenix~
 Cond 0
 Wear 18
 Cost 200
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10306
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 11000
+Spell 3 'faerie fog'
 End
 
 #END

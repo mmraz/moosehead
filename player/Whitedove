@@ -2,8 +2,8 @@
 Name Whitedove~
 Id   958788926
 Email (null)~
-LogO 1075131738
-Vers 31
+LogO 1409025183
+Vers 33
 Prom <%hhp %mm %vmv %Xtnl> ~
 Race faerie~
 Clan warlock~
@@ -15,6 +15,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy Horatio~
 LstAtkedBy no one~
@@ -22,10 +23,16 @@ LstAtkedByTimer 0
 LstCombatDate 1075131728
 LstKillDate 1075131728
 LstDeathDate 1075131728
-LoginsWOKill 1
-LoginsWODeath 1
-LoginsWOCombat 1
+LoginsWOKill 4
+LoginsWODeath 4
+LoginsWOCombat 4
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 mojo~
 Sac  300
 Sex  2
@@ -34,43 +41,46 @@ Node 0
 Cap 0
 Created 958788969
 Glad 0 0 0 0 0 0
-LastHost 63.168.194.187~
+LastHost 24.239.104.118~
 Cla  11
 ClaO 0
 Levl 18
 DLevl 0
-Plyd 96947
+Plyd 97134
 Not  962309133 962309133 962309133 962309133 962309133 962309133 962309133 962309133 962309133 0
 Scro 22
 Rank 1
 Room 31901
-HMV  146 146 402 402 215 215
+HMV  151 151 412 412 215 215
 Gold 17
 Silv 881
-Exp  62828
+Exp  62756
 Act  CDEFGHQ
 MHSF R
-AfBy BDFHJTV
+AfBy BDFJTV
 Comm DEFIRc
-Disp FJ
+Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
 Prac 55
-Trai 10
+Trai 15
 SkiP 69
+Save  -1
 Alig  -1000
-ACs 100 100 100 100
+Hit   1
+SecHit   1
+ACs 78 75 77 96
 Wimp  35
-Attr 10 25 25 25 13 13 13 13
-AMod 0 0 0 4 0 0 0 0
-Pass Wh/P/5.cp5RI6~
+Attr 10 25 25 25 13 17 8 13
+AMod 1 2 1 4 3 0 0 0
+Pass Sn0IedAlChx7k~
 Titl  flutters by in snow white robes~
 Pnts 68
 TSex 2
 LLev 21
 HMVP 146 402 215
-Cnd  0 18 39 0
+Cnd  0 10 35 0
 Alias k kill~
 Alias g get tooth~
 Alias f flee~
@@ -146,9 +156,8 @@ Gr 'enhancement'
 Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
-Affc 'invisibility'   0  51  57   0   0          2
-Affc 'sanctuary'   0  48   1   0   0        128
-Affc 'haste'   0  51   6   4   2    2097152
+Affc 'haste'   0  50   2   4   2    2097152
+Affc 'invisibility'   0  50  53   0   0          2
 End
 
 #O
@@ -156,7 +165,7 @@ Vnum 3052
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 15
 Cost 112
 End
 
@@ -165,7 +174,7 @@ Vnum 3117
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 11
 Cost 510
 End
 
@@ -174,7 +183,7 @@ Vnum 2737
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 13
 Cost 1000
 End
 
@@ -183,7 +192,7 @@ Vnum 3360
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 10
 Cost 0
 End
 
@@ -192,7 +201,7 @@ Vnum 3052
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 14
 Cost 112
 End
 
@@ -210,7 +219,7 @@ Vnum 5325
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 9
 Cost 730
 End
 
@@ -268,7 +277,7 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 2387
+Time 2383
 Cost 1500
 Spell 1 'frenzy'
 End
@@ -469,7 +478,7 @@ Vnum 17669
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 12
 Cost 1800
 End
 
@@ -514,7 +523,7 @@ Vnum 20405
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 6
 Cost 125
 End
 
@@ -559,7 +568,7 @@ Vnum 2441
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 17
 Cost 0
 Spell 3 'cure critical'
 End
@@ -569,7 +578,7 @@ Vnum 4434
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 4
 Cost 550
 End
 
@@ -623,7 +632,7 @@ Vnum 104
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 3
 Cost 550
 End
 
@@ -632,7 +641,7 @@ Vnum 3723
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 18
 Cost 0
 Spell 1 'fly'
 End
@@ -642,7 +651,7 @@ Vnum 4438
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 5
 Cost 0
 End
 
@@ -651,7 +660,7 @@ Vnum 5933
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 16
 Cost 0
 End
 
@@ -660,8 +669,9 @@ Vnum 3365
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 0
 Cost 640
+Val  0 0 498 0 0
 End
 
 #O

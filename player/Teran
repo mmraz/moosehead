@@ -2,8 +2,8 @@
 Name Teran~
 Id   866721110
 Email (null)~
-LogO 995261549
-Vers 27
+LogO 1306823436
+Vers 31
 Desc You see a man standing about 6 feet tall or so, wearing a black cloak.
 At first glance, he appears elven, but you cannot be sure.
 You can't make out any facial features under his cowl, save for a pair
@@ -26,12 +26,19 @@ MatookT 16
 SkPTimer 0
 SkPTracker 8
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1306822879
+LstKillDate 1306822879
+LstDeathDate 1306822879
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 298243 matook~
 Sac  154
 Sex  1
@@ -40,46 +47,43 @@ Node 0
 Cap 0
 Created 954450336
 Glad 0 0 0 0 0 0
+LastHost 97.92.132.4~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 27
 DLevl 0
-Plyd 320976
-Not  959408181 935270266 927380073 979327412 976654937 981130128 935270261 935082632 0
+Plyd 321527
+Not  959408181 935270266 927380073 979327412 976654937 981130128 935270261 935082632 0 0
 Scro 22
 Rank 0
-Room 16507
-HMV  264 264 680 680 190 190
+Room 3054
+HMV  239 239 610 610 190 190
 Gold 1041
 Silv 1004
 Exp  140507
 Act  CDGHIRd
-AfBy J
+MHSF R
+AfBy DFJ
 Comm DOS
 Disp FGIJ
 IcgB 0
 Icg 0
 Pos  8
-Trai 2
+Trai 12
 SkiP 13
-Save  -1
 Alig  -1000
-Hit   18
-Dam   24
-SecHit   13
-SecDam   17
-ACs 35 36 35 48
-Wimp  50
-Attr 17 22 18 20 16
-AMod 2 1 2 4 0
+ACs 100 100 100 100
+Wimp  20
+Attr 17 22 18 20 16 13 13 13
+AMod 0 0 0 0 0 0 0 0
 Pass TeH5QT5urp8VU~
 Titl .~
 Pnts 86
 TSex 1
 LLev 87
 HMVP 239 610 190
-Cnd  0 0 17 17
+Cnd  0 14 39 39
 Alias ff cast 'fae'~
 Alias ew c 'enchant weapon'~
 Alias ea c 'enchant armor'~
@@ -122,6 +126,7 @@ Sk 1 'chill touch'
 OldSk 75 'chill touch'
 Sk 1 'colour spray'
 OldSk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 49 'continual light'
 OldSk 41 'continual light'
 Sk 1 'control weather'
@@ -192,10 +197,10 @@ OldSk 1 'fireball'
 Sk 1 'fireproof'
 OldSk 75 'fireproof'
 OldSk 1 'flamestrike'
-Sk 75 'fly'
-OldSk 75 'fly'
 Sk 1 'floating disc'
 OldSk 75 'floating disc'
+Sk 75 'fly'
+OldSk 75 'fly'
 Sk 75 'forget'
 OldSk 1 'forget'
 OldSk 1 'frenzy'
@@ -232,6 +237,10 @@ OldSk 75 'mass invis'
 OldSk 1 'mirror image'
 Sk 1 'nexus'
 OldSk 1 'nexus'
+OldSk 77 'orb of awakening'
+OldSk 75 'orb of surprise'
+OldSk 77 'orb of touch'
+OldSk 76 'orb of turning'
 Sk 1 'pass door'
 OldSk 75 'pass door'
 Sk 75 'plague'
@@ -294,10 +303,6 @@ Sk 1 'withstand death'
 OldSk 75 'withstand death'
 Sk 43 'wound transfer'
 OldSk 1 'wound transfer'
-OldSk 77 'orb of awakening'
-OldSk 75 'orb of surprise'
-OldSk 77 'orb of touch'
-OldSk 76 'orb of turning'
 Sk 88 'dagger'
 OldSk 100 'dagger'
 OldSk 1 'flail'
@@ -327,7 +332,6 @@ Sk 50 'swimming'
 OldSk 50 'swimming'
 Sk 50 'recall'
 OldSk 50 'recall'
-Sk 1 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'beguiling'
@@ -342,6 +346,8 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
+Affc 'detect invis'   0  25  19   0   0          8
+Affc 'detect hidden'   0  26  20   0   0         32
 End
 
 #O
@@ -349,7 +355,7 @@ Vnum 2261
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 4
+Wear -1
 Cost 980
 End
 
@@ -358,7 +364,7 @@ Vnum 2261
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 3
+Wear -1
 Cost 980
 End
 
@@ -367,7 +373,7 @@ Vnum 17631
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 250
 End
 
@@ -385,7 +391,7 @@ Vnum 8509
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 0
 End
 
@@ -394,7 +400,7 @@ Vnum 3726
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 Val  100 1 0 10 85
 End
@@ -460,7 +466,7 @@ Vnum 2505
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 1150
 End
 
@@ -469,7 +475,7 @@ Vnum 2505
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 15
+Wear -1
 Cost 1150
 End
 
@@ -478,7 +484,7 @@ Vnum 8510
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 18
+Wear -1
 Cost 200
 End
 
@@ -487,7 +493,7 @@ Vnum 2803
 Nest 0
 PrevOwner Jarinard~
 Cond 0
-Wear 2
+Wear -1
 Cost 1150
 End
 
@@ -496,7 +502,7 @@ Vnum 2803
 Nest 0
 PrevOwner Jarinard~
 Cond 0
-Wear 1
+Wear -1
 Cost 1150
 End
 
@@ -507,12 +513,12 @@ Nest 0
 PrevOwner Teran~
 ExtF 66
 Cond 0
-Wear 16
+Wear -1
 Lev  27
 Cost 1600
-Affc 'reserved'   1  22  -1  -4  17          0
-Affc 'enchant weapon'   1  39  -1   7  19          0
 Affc 'enchant weapon'   0  39  -1   5  18          0
+Affc 'enchant weapon'   1  39  -1   7  19          0
+Affc 'reserved'   1  22  -1  -4  17          0
 End
 
 #O
@@ -567,7 +573,7 @@ PrevOwner Teran~
 ExtF 134217728
 Wt   18
 Cond 0
-Wear 10
+Wear -1
 Cost 1500
 Val  5 5 5 4 2
 End
@@ -579,7 +585,7 @@ PrevOwner Teran~
 ExtF 134217728
 Wt   18
 Cond 0
-Wear 5
+Wear -1
 Cost 1500
 Val  5 5 5 4 2
 End
@@ -591,7 +597,7 @@ PrevOwner Teran~
 ExtF 134217728
 Wt   4
 Cond 0
-Wear 6
+Wear -1
 Cost 1500
 Val  5 5 5 4 2
 End
@@ -603,7 +609,7 @@ PrevOwner Teran~
 ExtF 134217728
 Wt   18
 Cond 0
-Wear 7
+Wear -1
 Cost 1500
 Val  5 5 5 5 2
 End
@@ -615,7 +621,7 @@ PrevOwner Teran~
 ExtF 134217728
 Wt   18
 Cond 0
-Wear 8
+Wear -1
 Cost 1500
 Val  5 5 5 4 2
 End
@@ -627,7 +633,7 @@ PrevOwner Teran~
 ExtF 134217728
 Wt   18
 Cond 0
-Wear 9
+Wear -1
 Cost 1500
 Val  5 5 5 4 2
 End
@@ -639,7 +645,7 @@ PrevOwner Teran~
 ExtF 134217792
 Wt   90
 Cond 0
-Wear 11
+Wear -1
 Cost 1850
 Val  6 5 6 2 2
 End
@@ -651,7 +657,7 @@ PrevOwner Teran~
 ExtF 134217728
 Wt   18
 Cond 0
-Wear 13
+Wear -1
 Cost 1500
 Val  5 5 5 4 2
 End

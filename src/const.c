@@ -108,6 +108,7 @@ const struct item_type    item_table  []  =
     { ITEM_PART,        "item_part" },
     { ITEM_FORGE,       "forge"     },
     { ITEM_HERB,	"herb"	},
+    { ITEM_CAPSULE,        "capsule"  },
     {   0,    NULL    }
 };
 
@@ -140,6 +141,7 @@ const   struct pnet_type      pnet_table    []              =
    {  "links",       PNET_LINKS,     1 },
    {  "notes", PNET_NOTES, 1 },
    {  "matook", PNET_MATOOK, 1 },
+   {  "shadebnty", PNET_SHADEBOUNTY, 1 },
    {  NULL,   0,    0  }
 };
  
@@ -171,6 +173,8 @@ const   struct wiznet_type      wiznet_table    []              =
    {  "debug", WIZ_DEBUG, L1 },
    {  "allnotes", WIZ_ALLNOTES, L2 },
    { "olc", WIZ_OLC, L2 },
+   { "quests", WIZ_DEITYFAVOR, L5 },
+   { "shadowbounty", WIZ_SHADEBOUNTY, L5 },
    /*
    {    "imc",          WIZ_IMC,        L4 },
    {    "imc-debug",    WIZ_IMCDEBUG,   L1 },
@@ -223,6 +227,9 @@ const   struct attack_type  attack_table  []    =
     {   "chill",  "chill",  DAM_COLD  },
     {   "splash", "splash", DAM_DROWNING}, /* 40 */
     {   "mblast", "mental blast", DAM_MENTAL},
+    {   "light", "light burst", DAM_LIGHT},
+    {   "essence", "essence drain", DAM_NEUTRAL},
+    {   "shatter", "shatter", DAM_VULN}, // This one should ALWAYS be last - used for blind gladiators
     {   NULL,   NULL,   0   }
 };
 
@@ -873,7 +880,7 @@ const struct	kit_type	kit_table	[] =
    { "knight", 9,
    { 18, -1, -1, -1, 16, 16, 16, 18 },
    { 0,1,0,1,0,1,0,0,0,0,0,0,0,0,1 },
-   { 1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1 },
+   { 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1 },
    { 1, 1, 1  },
    1, { "kcharge","call mount"  }
    },
@@ -881,7 +888,7 @@ const struct	kit_type	kit_table	[] =
    { "myrmidon", 8,
    { 18, -1, -1, -1 , 18, -1, 18, -1 },
    { 0,0,0,1,0,0,0,0,0,0,0,0,0,0,1 },
-   { 1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,1 },
+   { 1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1 },
    { 1, 1, 1 },
    1, { "fourth attack" }
    },
@@ -1680,6 +1687,7 @@ const struct	material_type	material_table	[] =
 /*
  * Liquid properties.
  * Used in world.obj.
+ * Remember to increase MAX_LIQUIDS if you ever add any
  */
 const struct  liq_type  liq_table []  =
 {
@@ -2110,7 +2118,7 @@ const   struct  group_type      group_table     [MAX_GROUP]     =
   "maladictions", { 5, 5, 9, 9, 7, 7, 9, 5, 7, 7, -1,5,5,9,9 },
   { "blindness", "change sex", "curse", "energy drain", "plague", 
     "poison", "slow", "weaken", "famine", "fumble", "forget",
-    "feeblemind", "cone of silence" }
+    "feeblemind" }
     },
     
     {
@@ -2233,23 +2241,55 @@ const struct  skill_type  skill_table [MAX_SKILL] =
     G  E  I  R  N  L  R  U  S  M  E  Z  U  G  A
 */
   /* what level each class gets the spell */
-  {99,99,99,99,99,99,99,99,99,99,99,99,99,99,99}, 
+  {52,52,52,52,52,52,52,52,52,52,52,52,52,52,52},
   /* creation points per class */
-  {99,99,99,99,99,99,99,99,99,99,99,99,99,99,99},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
 /*fun name what it does  what pos they have to be in to the targ */
-  0,      TAR_IGNORE,   POS_STANDING,
+  spell_null,      TAR_IGNORE,   POS_STANDING,
   NULL,     SLOT( 0),  0,  0,
 /*dam msg, wear off msg    wear off obj message, ss_bitvectors */
   "",     "",   "", 0 
     },
 
     {
+  "convert",
+  { 5 , 5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5},
+  { 1 , 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1 },
+  spell_convert, TAR_IGNORE, POS_STANDING,
+  &gsn_convert,    SLOT(0), 5, 6,
+  "convert", "!Convert!", "", 0
+    },
+
+    {
   "opiate",
-  {99,99,99,99,99,99,99,99,99,99,99,99,99,99,99},
-  {99,99,99,99,99,99,99,99,99,99,99,99,99,99,99}, 
-  0,    TAR_IGNORE,     POS_STANDING,
+  {52,52,52,52,52,52,52,52,52,52,52,52,52,52,52},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+//  {99,99,99,99,99,99,99,99,99,99,99,99,99,99,99}, 
+  spell_null,    TAR_IGNORE,     POS_STANDING,
   NULL, SLOT( 0),       0,      0,
   "",   "You feel less enlightened.", "", 0
+    },
+
+    {
+  "light blast",
+  {52,52,52,52,52,52,52,52,52,52,52,52,52,52,52},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+//  {99,99,99,99,99,99,99,99,99,99,99,99,99,99,99},
+  spell_null,    TAR_IGNORE,     POS_STANDING,
+  &gsn_light_blast, SLOT( 0),       0,      0,
+  "",   "You regain your shadowy form.", "", 0,
+  0
+    },
+
+    {
+  "shaded room",
+  {52,52,52,52,52,52,52,52,52,52,52,52,52,52,52},
+  {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
+//  {99,99,99,99,99,99,99,99,99,99,99,99,99,99,99},
+  spell_null,    TAR_IGNORE,     POS_STANDING,
+  &gsn_shaded_room, SLOT( 0),       0,      0,
+  "",   "The darkness shrouding the room lifts.", "", 0,
+  0
     },
 
     {
@@ -2298,11 +2338,11 @@ const struct  skill_type  skill_table [MAX_SKILL] =
     },
     {
   "annointment",
-  { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20},
+  { 5 , 5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5},
   { 1 , 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1 },
   spell_annointment, TAR_CHAR_SELF, POS_STANDING,
   &gsn_annointment,    SLOT(551), 50, 12,
-  "annointment", "The annointment of The Almighty dissapates.", "", 0
+  "annointment", "Your holy annointment fades.", "", 0
     },
 
     { 
@@ -2600,8 +2640,8 @@ const struct  skill_type  skill_table [MAX_SKILL] =
 
     {
   "cone of silence",
-    {20, 20, 53, 53, 53, 40, 53, 30, 20, 53, 53, 53, 53, 53, 53},
-    { 5 , 5,  0,  0,  7,  7,  0,  7,  10,  0,  0,  0,  6,  0, 0 }, 
+    {20, 20, 53, 53, 53, 53, 53, 20, 53, 53, 53, 20, 20, 53, 53},
+    { 5 , 5,  0,  0,  7,  7,  0,  7, 10,  0,  0,  5,  6,  0, 0 }, 
     spell_cone_of_silence, TAR_CHAR_OFFENSIVE, POS_STANDING,
     &gsn_cone_of_silence, SLOT(553),100,16,
     "cone of silence", "You can hear again.","",0
@@ -3171,7 +3211,7 @@ const struct  skill_type  skill_table [MAX_SKILL] =
   {53,53,53,53,53,53,53,53,53,53,53,32,53,53,53 },
   { 1, 1, 2, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 2 },
   spell_forget,	TAR_CHAR_OFFENSIVE,	POS_FIGHTING,
-  NULL,	SLOT(952), 35, 12,
+  &gsn_forget,	SLOT(952), 35, 12,
   "",	"Your knowledge of your skills returns to you.", "", SS_SCRIBE
     },
 
@@ -3228,6 +3268,14 @@ const struct  skill_type  skill_table [MAX_SKILL] =
   NULL,     SLOT(39), 20, 12,
   "",     "You feel weaker.", "", SS_SCRIBE|SS_STAFF
     },
+    {
+  "guardian",
+  { 5 , 5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5},
+  { 1 , 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1 },
+  spell_guardian, TAR_IGNORE, POS_STANDING,
+  &gsn_guardian,    SLOT(0), 5, 12,
+  "guardian", "!Guardian!", "", 0
+    },
 
     {
   "harm", 
@@ -3262,7 +3310,16 @@ const struct  skill_type  skill_table [MAX_SKILL] =
   {  1, 1, 2, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 2 },
   spell_heat_metal, TAR_CHAR_OFFENSIVE, POS_FIGHTING,
   NULL,     SLOT(516),  25, 18,
-  "spell",    "!Heat Metal!",   "", SS_SCRIBE|SS_WAND
+  "spell",    "Your skin cools from the burns.",   "", SS_SCRIBE|SS_WAND
+    },
+
+    {
+  "hemorrhage",
+  { 5 , 5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5,  5},
+  { 1 , 1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1,  1 },
+  spell_hemorrhage, TAR_CHAR_OFFENSIVE, POS_FIGHTING,
+  &gsn_hemorrhage,    SLOT(0), 30, 24,
+  "hemorrhage", "Your blood thickens to normal.", "", 0
     },
 
     {
@@ -3467,7 +3524,7 @@ const struct  skill_type  skill_table [MAX_SKILL] =
   {53,53,53,53,53,53,53,53,53,53,53,53,53,53,53},
   { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
   spell_magic_resistance, TAR_CHAR_DEFENSIVE, POS_STANDING,
-  NULL,	SLOT(1028), 40, 24,
+  &gsn_magic_resistance,	SLOT(1028), 40, 24,
   "", "The magic resistance leaves you.", "", 0
      },
     {
@@ -4015,7 +4072,7 @@ const struct  skill_type  skill_table [MAX_SKILL] =
   { 44,53,44,44,53,53,53,49,53,53,49,44,53,53,53 },
   { 2, 2, 4, 4, 2, 2, 4, 2, 2, 2, 2, 2, 2, 4, 4 },
   spell_sunburst,	TAR_CHAR_OFFENSIVE, 	POS_FIGHTING,
-  NULL,	SLOT(1243), 65, 12,
+  &gsn_sunburst,	SLOT(1243), 65, 12,
   "sunburst", "Your vision returns.", "", 0
     },
 
@@ -4413,7 +4470,7 @@ const struct  skill_type  skill_table [MAX_SKILL] =
   { 29,22,53,53,37,37,53,26,40,40,53,29,22,53,53 }, 
   {  1, 1, 2, 2, 1, 1, 2, 1, 1, 1, 1, 1, 1, 2, 2 },
   spell_withstand_death,      TAR_CHAR_SELF,    POS_STANDING,
-  NULL,                   SLOT(405),      50,      12,
+  &gsn_withstand_death,       SLOT(405),      50,      12,
   "",             "You no longer feel more powerful than death.", "", 0
     },
 
@@ -4651,7 +4708,7 @@ const struct  skill_type  skill_table [MAX_SKILL] =
   {  0, 0, 6, 4, 6, 4, 5, 0, 6, 4, 0, 0, 0, 6, 4 },
 	spell_null,             TAR_IGNORE,             POS_FIGHTING,
 	&gsn_disarm,            SLOT( 0),        0,     24,
-	"",                     "!Disarm!",   "", 0
+	"",                     "You regain strength in your hand.",   "", 0
     },
  
     {
@@ -5135,8 +5192,8 @@ const struct  skill_type  skill_table [MAX_SKILL] =
     },
     {
   "slice",
-  { 53,53,10,53,53,53,53,53,53,53,53,53,53,10,53 },
-  {  0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0 },
+  { 53,53,53,53,53,53,53,53,53,53,53,53,53,10,53 },
+  {  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0 },
   spell_null,	TAR_IGNORE,	POS_STANDING,
   &gsn_slice,	SLOT( 0 ),	0, 12,
   "",	"",	"", 0
@@ -5168,11 +5225,19 @@ const struct  skill_type  skill_table [MAX_SKILL] =
     },
     {
   "snatch",
-    { 53,53,5,53,53,53,53,53,53,53,53,53,53,5,53 },
-    {  -4, -4,6,-4, -4, -4, -4, -4, -4, -4, -4, -4, -4,5,-4 },
+    { 53,53,53,53,53,53,53,53,53,53,53,53,53,53,53 },
+    {  -4, -4,-4,-4, -4, -4, -4, -4, -4, -4, -4, -4, -4,-4,-4 },
     spell_null,   TAR_IGNORE,   POS_STANDING,
     &gsn_snatch,   SLOT( 0),  0, 24,
     "",     "!Steal!",    "", 0
+    },
+    {
+  "bump", 
+  { 53,53,5,53,53,53,53,53,53,53,53,53,53,53,53 }, 
+  {  0, 0,4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0 },
+  spell_null,   TAR_IGNORE,   POS_STANDING,
+  &gsn_bump,   SLOT( 0),  0, 18, 
+  "",     "!Bump!",    "", 0
     },
     {
   "steal", 
@@ -5248,7 +5313,7 @@ const struct  skill_type  skill_table [MAX_SKILL] =
     {
   "recall", 
   { 1,1,1,1,1,1,1,1,1,1,1,1,1,1 }, 
-  { 2,2,2,2,2,2,2,2,2,2,2,2,2,2 },
+  { 1,1,1,1,1,1,1,1,1,1,1,1,1,1 },
   spell_null,   TAR_IGNORE,   POS_STANDING,
   &gsn_recall,    SLOT( 0), 0,  12,
   "",     "!Recall!",   "", 0
@@ -5290,4 +5355,76 @@ const struct herb_type	herb_table [] =
 };
 #endif
 
+/* Index must line up with the #defines, be careful when adding more */
+/* Data is verified to ensure continuous values and the proper number */
+const struct hall_pricing price_table[] =
+{/* Point cost (Halls), egg cost (In shards) (Personal rooms), value */
+  {1000, 1, PRICE_ROOM},
+  {750, 1, PRICE_R_REGEN},
+  {750, 1, PRICE_R_REGEN + 1},
+  {750, 1, PRICE_R_REGEN + 2},
+  {750, 1, PRICE_R_REGEN + 3},
+  {1250, 1, PRICE_R_REGEN + 4},
+  {1250, 1, PRICE_R_REGEN + 5},
+  {1250, 1, PRICE_R_REGEN + 6},
+  {1250, 1, PRICE_R_REGEN + 7},
+  {1250, 1, PRICE_R_REGEN + 8},
+  {1250, 1, PRICE_R_REGEN + 9},
+  {1250, 1, PRICE_R_REGEN + 10},
+  {1250, 1, PRICE_R_REGEN + 11},
+  {1250, 1, PRICE_R_REGEN + 12},
+  {1250, 1, PRICE_R_REGEN_END},
+  {1000, 1, PRICE_LAB},
+  {2000, 1, PRICE_LAB + 1},
+  {4000, 1, PRICE_LAB + 2},
+  {16000, 1, PRICE_LAB + 3},
+  {32000, 1, PRICE_LAB_END},
+  {1000, 1, PRICE_ALTAR},
+  {2000, 1, PRICE_ALTAR + 1},
+  {4000, 1, PRICE_ALTAR + 2},
+  {16000, 1, PRICE_ALTAR + 3},
+  {32000, 1, PRICE_ALTAR_END},
+  {0, 1, PRICE_ITEM},
+  {2000, 1, PRICE_FURNITURE},
+  {500, 1, PRICE_F_REGEN},
+  {500, 1, PRICE_F_REGEN + 1},
+  {500, 1, PRICE_F_REGEN + 2},
+  {500, 1, PRICE_F_REGEN_END},
+  {2000, 1, PRICE_FOUNTAIN},
+  {2000, 1, PRICE_PIT},
+  {2000, 1, PRICE_PORTAL},
+  {500, 1, PRICE_DOODAD},
+  {1000, 1, PRICE_DRINK},
+  {0, 1, PRICE_MOB},
+  {3000, 1, PRICE_HEALER},
+  {2000, 1, PRICE_H_LEVEL},
+  {2000, 1, PRICE_H_LEVEL + 1},
+  {2000, 1, PRICE_H_LEVEL + 2},
+  {2000, 1, PRICE_H_LEVEL + 3},
+  {2000, 1, PRICE_H_LEVEL + 4},
+  {5000, 1, PRICE_H_LEVEL + 5},
+  {5000, 1, PRICE_H_LEVEL + 6},
+  {5000, 1, PRICE_H_LEVEL + 7},
+  {5000, 1, PRICE_H_LEVEL + 8},
+  {5000, 1, PRICE_H_LEVEL + 9},
+  {10000, 1, PRICE_H_LEVEL + 10},
+  {10000, 1, PRICE_H_LEVEL + 11},
+  {10000, 1, PRICE_H_LEVEL + 12},
+  {10000, 1, PRICE_H_LEVEL + 13},
+  {10000, 1, PRICE_H_LEVEL_END},
+  {3000, 1, PRICE_MERCHANT},
+  {3000, 1, PRICE_M_ITEM},
+  {3000, 1, PRICE_M_DISCOUNT},
+  {3000, 1, PRICE_M_DISCOUNT + 1},
+  {3000, 1, PRICE_M_DISCOUNT + 2},
+  {3000, 1, PRICE_M_DISCOUNT + 3},
+  {3000, 1, PRICE_M_DISCOUNT_END},
+  {0, 1, PRICE_EXIT},
+  {0, 1, PRICE_E_CLOSABLE},
+  {0, 1, PRICE_E_LOCKABLE},
+  {0, 1, PRICE_E_NO_PICK},
+  {0, 1, PRICE_E_HIDDEN},
+  {100, 1, PRICE_LINK},
+  {-3, -3, PRICE_TOTAL} /*-1 and -2 are errors returned from bad _STR index calls */
+};
 

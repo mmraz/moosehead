@@ -3,16 +3,16 @@ Name Ratash~
 SurN MacHrezz~
 Id   991739131
 Email (null)~
-LogO 1101457668
+LogO 1315515682
 Vers 31
 LnD  A Gladiator~
-Prom %h HP %m M %v MV {Y%g {W%s {x%w %X%c:%e: ~
+Prom %hhp %mm %vmv {Y%g {W%s {x%n/%Ni %w/%W%c%e ~
 Race dragon~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 23
-SkPTracker 12
+SkPTimer 2
+SkPTracker 1
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -27,31 +27,34 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 211876 mojo~
 DeityT -2264 mojo~
 Sac  300
-Sex  0
+Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 991739140
 Glad 0 0 0 0 0 0
-LastHost MMDLXVI.dsl.saunalahti.fi~
+LastHost 84.231.179.199~
 Cla  14
 Kit myrmidon~
 ClaO 3
-Levl 49
+Levl 51
 DLevl 0
-Plyd 316819
-Not  1101155606 1101442798 1101155606 1101393589 1101155606 1101344994 1101155606 1101155606 1101155606 1101155606
+Plyd 352098
+Not  1315514703 1315514703 1315514703 1315514703 1315514703 1315514703 1315514703 1315514703 1315514703 1315514703
 Scro 22
 Rank 0
-Room 3054
-HMV  550 1124 240 404 286 422
-Gold 152
-Silv 242
-Exp  552935
-Act  CDGHKMOQ
+Room 3001
+HMV  1412 1412 411 411 468 468
+Gold 366
+Silv 1035
+Exp  571360
+Act  DGHKMOQ
 MHSF R
 AfBy JT
 Comm 0
@@ -59,33 +62,33 @@ Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  8
-SkiP 54
-Save  -4
-Alig  -940
-Hit   24
-Dam   36
-SecHit   24
-SecDam   34
-ACs -33 -35 -28 15
+Pos  5
+Prac 30
+SkiP 16
+Alig  -1000
+Hit   22
+Dam   27
+SecHit   22
+SecDam   25
+ACs -147 -149 -142 -51
 Wimp  10
-Attr 25 25 25 25 25 25 25 18
-AMod 2 0 0 2 2 2 0 0
+Attr 25 25 25 25 25 11 14 18
+AMod 2 0 0 6 0 0 0 2
 Pass Ra4O9SRzzjVxE~
-Titl  "{YHAPPY HAPPY, {GJOY JOY{x"~
+Titl .~
 Pnts 100
 TSex 1
-LLev 86
-HMVP 1049 404 422
-Cnd  0 19 40 19
-Alias r cast 'word of recall'~
+LLev 90
+HMVP 1362 416 438
+Cnd  0 0 24 5
 Alias 1 bash~
 Alias 2 dbite~
 Alias 3 kick~
 Alias 0 get all corpse~
 Alias 9 wield flail~
+Alias recall cast 'word of recall'~
 Spz 'axe'
-Sk 75 'armor'
+Sk 76 'armor'
 Sk 43 'cancellation'
 Sk 75 'cure critical'
 Sk 75 'cure light'
@@ -97,7 +100,7 @@ Sk 75 'famine'
 Sk 77 'feast'
 Sk 43 'fireproof'
 Sk 75 'fly'
-Sk 78 'gate'
+Sk 80 'gate'
 Sk 79 'heal'
 Sk 1 'knock'
 Sk 22 'mass healing'
@@ -109,9 +112,9 @@ Sk 43 'protection good'
 Sk 43 'protection neutral'
 Sk 79 'refresh'
 Sk 1 'sacred guardian'
-Sk 78 'sanctuary'
+Sk 79 'sanctuary'
 Sk 80 'shield'
-Sk 75 'stone skin'
+Sk 80 'stone skin'
 Sk 75 'summon'
 Sk 43 'teleport'
 Sk 85 'word of recall'
@@ -130,30 +133,30 @@ Sk 100 'sword'
 Sk 100 'whip'
 Sk 100 'bash'
 Sk 73 'berserk'
-Sk 76 'breathe'
-Sk 88 'disarm'
+Sk 85 'breathe'
+Sk 91 'disarm'
 Sk 100 'dodge'
 Sk 100 'dual wield'
-Sk 81 'fear'
+Sk 89 'fear'
 Sk 64 'hex'
 Sk 100 'enhanced critical'
 Sk 100 'enhanced damage'
-Sk 84 'hand to hand'
+Sk 91 'hand to hand'
 Sk 100 'kick'
 Sk 100 'parry'
 Sk 67 'rescue'
-Sk 82 'shield block'
+Sk 85 'shield block'
 Sk 57 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
-Sk 95 'fourth attack'
+Sk 97 'fourth attack'
 Sk 91 'fast healing'
-Sk 71 'lore'
+Sk 76 'lore'
 Sk 75 'riding'
 Sk 75 'scrolls'
 Sk 51 'staves'
 Sk 71 'wands'
-Sk 53 'swimming'
+Sk 62 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'warrior basics'
@@ -164,633 +167,86 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'mummy'
-Affc 'stone skin'   0  35  22 -40  17          0
-Affc 'armor'   0  35  12 -20  17          0
+Affc 'armor'   0  34  15 -20  17          0
+Affc 'stone skin'   0  34  18 -40  17          0
 End
 
 #O
-Vnum 2505
+Vnum 12083
 Nest 0
 PrevOwner (null)~
-Cond 0
-Wear 15
-Cost 1150
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 14
-Cost 1150
-End
-
-#O
-Vnum 8502
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3100
-End
-
-#O
-Vnum 8048
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 8510
-Nest 0
-PrevOwner Ratash~
-Cond 0
-Wear 18
-Cost 200
-End
-
-#O
-Vnum 8502
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3100
-End
-
-#O
-Vnum 1395
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1970
-End
-
-#O
-Vnum 1395
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 4
-Cost 1970
-End
-
-#O
-Vnum 8500
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 10341
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 2444
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 2445
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 3092
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 5114
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1180
-End
-
-#O
-Vnum 17648
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 5925
-Nest 0
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 8048
-Nest 0
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 3724
-Nest 0
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5921
-Nest 0
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 18109
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 18110
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2400
-End
-
-#O
-Vnum 10033
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'flamestrike'
-End
-
-#O
-Vnum 10043
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 17636
-Nest 0
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 4400
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 16101
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 5
-Cost 9200
-End
-
-#O
-Vnum 23514
-Nest 0
-PrevOwner Sweetbria~
-Cond 0
-Wear 3
-Cost 3690
-End
-
-#O
-Vnum 5909
-Nest 0
-PrevOwner Sweetbria~
-Cond 0
-Wear 1
-Cost 3000
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10441
-Nest 0
-PrevOwner Friend~
-Cond 0
-Wear 19
-Cost 6700
-End
-
-#O
-Vnum 3375
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3375
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 2390
-Nest 0
-PrevOwner Callak~
-Cond 0
-Wear 9
-Cost 5800
-End
-
-#O
-Vnum 8531
-Nest 0
-PrevOwner Callak~
 Cond 0
 Wear 13
-Cost 600
+Cost 32142
 End
 
 #O
-Vnum 8543
+Vnum 12060
 Nest 0
-PrevOwner Callak~
+PrevOwner (null)~
 Cond 0
-Wear 10
-Cost 4250
+Wear -1
+Cost 5234
+End
+
+#O
+Vnum 18105
+Nest 0
+PrevOwner Bordil~
+Cond 0
+Wear 11
+Cost 4500
 End
 
 #O
 Vnum 10003
 Nest 0
-PrevOwner Callak~
+PrevOwner Bordil~
 Cond 0
 Wear 0
 Cost 0
 End
 
 #O
-Vnum 17627
+Vnum 23514
 Nest 0
-PrevOwner Callak~
+PrevOwner Bordil~
 Cond 0
-Wear -1
-Cost 5700
+Wear 4
+Cost 3690
 End
 
 #O
-Vnum 20740
+Vnum 17648
 Nest 0
-PrevOwner Callak~
-Cond 0
-Wear 17
-Cost 4500
-End
-
-#O
-Vnum 11083
-Nest 0
-PrevOwner Callak~
-Cond 0
-Wear 12
-Cost 5700
-End
-
-#O
-Vnum 5934
-Nest 0
-PrevOwner Callak~
+PrevOwner Bordil~
 Cond 0
 Wear -1
 Cost 4000
 End
 
 #O
-Vnum 5914
-Nest 0
-PrevOwner Callak~
+Vnum 10320
+Nest 1
+PrevOwner Ratash~
 Cond 0
-Wear 6
-Cost 4000
+Wear -1
+Cost 9500
 End
 
 #O
-Vnum 5913
-Nest 0
-PrevOwner Callak~
+Vnum 10320
+Nest 1
+PrevOwner Ratash~
 Cond 0
-Wear 7
-Cost 2000
-End
-
-#O
-Vnum 18110
-Nest 0
-PrevOwner Callak~
-Cond 0
-Wear 8
-Cost 2400
+Wear -1
+Cost 9500
 End
 
 #O
 Vnum 2513
 Nest 0
-PrevOwner Callak~
+PrevOwner Ratash~
 Cond 0
 Wear -1
 Cost 710
@@ -806,115 +262,845 @@ Cost 5000
 End
 
 #O
-Vnum 8502
-Nest 0
+Vnum 18108
+Nest 1
 PrevOwner Ratash~
 Cond 0
 Wear -1
-Cost 3100
-End
-
-#O
-Vnum 20833
-Nest 0
-PrevOwner Druidus~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 17646
-Nest 0
-PrevOwner Ratash~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 2440
-Nest 0
-PrevOwner Maligin~
-Cond 0
-Wear -1
-Cost 300
-End
-
-#O
-Vnum 18106
-Nest 0
-PrevOwner Ratash~
-Stolen 267
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 5912
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 16
-Cost 3000
-End
-
-#O
-Vnum 18106
-Nest 0
-PrevOwner (null)~
-Stolen 37
-Cond 0
-Wear -1
-Cost 4500
+Cost 5997
 End
 
 #O
 Vnum 18108
-Nest 0
-PrevOwner (null)~
-Stolen 38
+Nest 1
+PrevOwner Ratash~
 Cond 0
 Wear -1
 Cost 5600
 End
 
 #O
+Vnum 18106
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 8048
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
 Vnum 18110
-Nest 0
-PrevOwner (null)~
+Nest 1
+PrevOwner Ratash~
 Cond 0
 Wear -1
 Cost 2400
 End
 
 #O
-Vnum 18105
-Nest 0
-PrevOwner (null)~
+Vnum 10320
+Nest 1
+PrevOwner Ratash~
 Cond 0
-Wear 11
+Wear -1
+Cost 9500
+End
+
+#O
+Vnum 12079
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12004
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23505
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 700
+End
+
+#O
+Vnum 23503
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 1600
+End
+
+#O
+Vnum 10069
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 22552
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5914
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 5913
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 18106
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
 Cost 4500
 End
 
 #O
-Vnum 18108
-Nest 0
-PrevOwner Callak~
+Vnum 2505
+Nest 1
+PrevOwner Ratash~
 Cond 0
 Wear -1
-Cost 5600
+Cost 1150
 End
 
 #O
-Vnum 18114
-Nest 0
-PrevOwner (null)~
-Stolen 43
+Vnum 2505
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 12081
+Nest 1
+PrevOwner Ratash~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 12003
+Nest 1
+PrevOwner Ratash~
+ExtF 2048
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8531
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 600
+End
+
+#O
+Vnum 23506
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 170
+End
+
+#O
+Vnum 1395
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 3
+Cost 1970
+End
+
+#O
+Vnum 17636
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 9
+Cost 4400
+End
+
+#O
+Vnum 12084
+Nest 0
+PrevOwner Alexis~
+Cond 0
+Wear 6
+Cost 0
+End
+
+#O
+Vnum 12003
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3500
+End
+
+#O
+Vnum 12002
+Nest 0
+PrevOwner Alexis~
+ExtF 5242880
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 8500
+Nest 0
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 12080
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 8
+Cost 0
+End
+
+#O
+Vnum 12014
+Enchanted
+Nest 0
+PrevOwner Ratash~
+ExtF 451
+Cond 0
+Wear -1
+Cost 0
+Val  6 2 20 7 293
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 12085
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 7
+Cost 8765
+End
+
+#O
+Vnum 12082
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 15
+Cost 22334
+End
+
+#O
+Vnum 12082
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 14
+Cost 22334
+End
+
+#O
+Vnum 8510
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 18
+Cost 200
+End
+
+#O
+Vnum 20740
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 17
+Cost 4500
+End
+
+#O
+Vnum 5909
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 2
+Cost 3000
+End
+
+#O
+Vnum 8543
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 10
+Cost 4250
+End
+
+#O
+Vnum 12005
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 5
+Cost 0
+End
+
+#O
+Vnum 20833
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 11083
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 12
+Cost 5700
+End
+
+#O
+Vnum 10441
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 19
+Cost 6700
+End
+
+#O
+Vnum 5912
+Nest 0
+PrevOwner Ratash~
+Cond 0
+Wear 16
+Cost 3000
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4822
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
 End
 
 #END

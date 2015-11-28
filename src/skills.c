@@ -111,6 +111,18 @@ void do_gain(CHAR_DATA *ch, char *argument)
         if (col % 3 != 0)
             send_to_char("\n\r",ch);
 
+        if(ch->pcdata->retrain > 0 || ch->pcdata->half_retrain > 0)
+        {// They have at least 1 train of some type to regain
+          send_to_char("\n\r",ch);
+          sprintf(buf,"%-18s %-5s\n\r", "extra", "cost"); 
+          send_to_char(buf,ch);
+          sprintf(buf,"%-18s %-5d ",
+                    "Retrain", 20);
+          send_to_char(buf,ch);
+          send_to_char("\n\r",ch);
+        }
+
+
         sprintf( buf, "\n\rYou have %d practice sessions left.\n\r",
            ch->practice );
         send_to_char(buf, ch);
@@ -137,6 +149,37 @@ void do_gain(CHAR_DATA *ch, char *argument)
 	   ch->practice += 1;
         }
 	return;
+    }
+
+    if(!str_prefix(arg, "retrain"))
+    {/* Convert pracs to trains if they have any stored. Check half_trains first */
+      if(ch->pcdata->half_retrain <= 0 && ch->pcdata->retrain <= 0)
+      {
+        send_to_char("You don't have any retrains available.\n\r", ch);
+        return;
+      }
+      if(ch->practice < 20)
+      {
+        send_to_char("You need 20 practices to retrain.\n\r", ch);
+        return;
+      } 
+      if(ch->pcdata->half_retrain > 0)
+      {// half trains were gained pre-remort, so half retrains come back first
+        ch->pcdata->half_retrain--;
+        ch->pcdata->half_train++;
+	ch->practice -= 20;
+        act("$N helps you retrain.  You gain one half train.",
+          ch,NULL,trainer,TO_CHAR,FALSE);
+      }
+      else
+      {// Trains, the earlier check will have blocked it if neither is > 0
+        ch->pcdata->retrain--;
+        ch->train++;
+	ch->practice -= 20;
+        act("$N helps you retrain.  You gain one train.",
+          ch,NULL,trainer,TO_CHAR,FALSE);
+      }
+      return;
     }
 
 /* No more converting pracs to trains 
@@ -291,6 +334,7 @@ int apply_chi(CHAR_DATA *ch, int num)
 
 void do_spells(CHAR_DATA *ch, char *argument)
 {
+//return;	
     char spell_list[LEVEL_HERO][MAX_STRING_LENGTH];
     char spell_columns[LEVEL_HERO];
     int sn,lev,mana,lev0=0,levN=LEVEL_HERO;
@@ -374,6 +418,7 @@ void do_spells(CHAR_DATA *ch, char *argument)
 
 void do_skills(CHAR_DATA *ch, char *argument)
 {
+//return;
     char skill_list[LEVEL_HERO][MAX_STRING_LENGTH];
     char skill_columns[LEVEL_HERO];
     int sn,lev,lev0=0,levN=LEVEL_HERO;
@@ -699,7 +744,7 @@ bool parse_gen_groups(CHAR_DATA *ch,char *argument)
 	if (gn != -1)
 	{
 //101 was the old cap
-	  if(ch->gen_data->points_chosen + group_table[gn].rating[ch->class] < 151)
+//	  if(ch->gen_data->points_chosen + group_table[gn].rating[ch->class] < 151)
 	  {
 	    if (ch->gen_data->group_chosen[gn]
 	    ||  ch->pcdata->group_known[gn])
@@ -722,12 +767,12 @@ bool parse_gen_groups(CHAR_DATA *ch,char *argument)
 	    ch->pcdata->points += group_table[gn].rating[ch->class];
 	    return TRUE;
 	  }
-	  else
+/*	  else
 	  {
 	    sprintf(buf,"That group costs %d and you only have %dCP's left under the CP cap.\n\r",group_table[gn].rating[ch->class],(150 - ch->gen_data->points_chosen));
 	    send_to_char(buf,ch);
 	    return TRUE;
-	  }
+	  }*/
 	}
 
 	sn = skill_lookup(argument);
@@ -785,8 +830,8 @@ bool parse_gen_groups(CHAR_DATA *ch,char *argument)
 	    gn_remove(ch,gn);
 	    for (i = 0; i < MAX_GROUP; i++)
 	    {
-		if (ch->gen_data->group_chosen[gn])
-		    gn_add(ch,gn);
+		if (ch->gen_data->group_chosen[i])
+		    gn_add(ch,i);
 	    }
 	    ch->pcdata->points -= group_table[gn].rating[ch->class];
 	    return TRUE;
@@ -984,7 +1029,7 @@ void check_improve( CHAR_DATA *ch, int sn, bool success, int multiplier )
     /* Only gain skill points if your skill % is at 100 */
     if (ch->pcdata->learned[sn] >= 80 && 
 	ch->position == POS_FIGHTING &&
-	ch->pcdata->skill_point_tracker < 12)
+	ch->pcdata->skill_point_tracker < 5)
     {
        blahy = number_percent();
        /*
@@ -1000,16 +1045,16 @@ void check_improve( CHAR_DATA *ch, int sn, bool success, int multiplier )
 	  else
 	     skillpoints = 1;
 
-	  sprintf(buf,"Your use of {G%s{x has gained you some skill!\n\r",
+	  sprintf(buf,"Your use of {G%s{x has gained you some {Wskill{x!\n\r",
                   skill_table[sn].name
                   );
 	    send_to_char(buf,ch);
-          ch->skill_points += skillpoints;
-	  ch->pcdata->skill_point_tracker += skillpoints;
+            ch->skill_points += skillpoints;
+	    ch->pcdata->skill_point_tracker += skillpoints;
 
-	  if (ch->pcdata->skill_point_tracker >= 12)
-	     ch->pcdata->skill_point_timer = 30;
-
+	    // Kick off the timer.
+	    if(ch->pcdata->skill_point_timer <= 0)
+		    ch->pcdata->skill_point_timer = 2;
        }
     }
 

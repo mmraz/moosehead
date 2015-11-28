@@ -100,7 +100,7 @@ void save_area ( CHAR_DATA *ch, AREA_DATA *pArea )
   int vnum,door,flags;
 
   sprintf(buf,"%s",pArea->file_name);
-  fclose(fpReserve);
+//  fclose(fpReserve);
   
   fp = fopen(buf,"r");
   if (fp != NULL) {    /* if the file exists, rename it */
@@ -128,7 +128,7 @@ void save_area ( CHAR_DATA *ch, AREA_DATA *pArea )
   if (fp == NULL)
   {
       send_to_char("Failed to open area file.\n\r",ch);
-      fpReserve = fopen( NULL_FILE, "r" );
+//      fpReserve = fopen( NULL_FILE, "r" );
       return;
   }
 
@@ -533,7 +533,7 @@ void save_area ( CHAR_DATA *ch, AREA_DATA *pArea )
 
   fprintf(fp,"#$\n");
   fclose(fp);
-  fpReserve = fopen(NULL_FILE, "r");      
+//  fpReserve = fopen(NULL_FILE, "r");      
 }
 
 void update_area_list ( CHAR_DATA *ch, char *strArea )
@@ -555,7 +555,7 @@ void update_area_list ( CHAR_DATA *ch, char *strArea )
     area_name_last  = area_name;
   }      
 
-  fclose (fpReserve);
+//  fclose (fpReserve);
   if ( ( fpList = fopen( AREA_LIST, "w" ) ) == NULL )
   {
       send_to_char ("Could not write to '",ch);
@@ -570,5 +570,5 @@ void update_area_list ( CHAR_DATA *ch, char *strArea )
   }    
   fprintf (fpList,"$\n");
   fclose (fpList);
-  fpReserve = fopen(NULL_FILE, "r");
+//  fpReserve = fopen(NULL_FILE, "r");
 }

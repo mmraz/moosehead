@@ -3,15 +3,15 @@ Name Zyrea~
 SurN Diablerie~
 Id   1015178371
 Email (null)~
-LogO 1075205306
+LogO 1317417363
 Vers 31
 Prom %hhp %mmana %vmv %Xxp %ggold %ssil ~
 Race faerie~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 11
+SkPTimer 2
+SkPTracker 10
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -26,6 +26,9 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -1392 matook~
 Sac  50
@@ -35,18 +38,18 @@ Node 0
 Cap 0
 Created 1015178402
 Glad 0 0 0 0 0 0
-LastHost 157.160.187.189~
+LastHost 174.55.226.165~
 Cla  11
 Kit necromancer~
 ClaO 0
 Levl 49
 DLevl 0
-Plyd 61668
+Plyd 61754
 Not  1051374364 1051374364 1051374364 1051374364 1051374364 1051374364 1051374364 1051374364 1051374364 1051374364
 Scro 22
 Rank 0
 Room 3001
-HMV  202 279 477 1138 254 478
+HMV  279 279 1138 1138 478 478
 Gold 412
 Silv 11952
 Exp  117778
@@ -58,8 +61,9 @@ Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  5
+Pos  8
 Prac 15
+Trai 5
 SkiP 1
 Alig  -1000
 Hit   26
@@ -68,7 +72,7 @@ SecHit   16
 SecDam   11
 ACs 54 54 54 70
 Wimp  25
-Attr 13 25 25 25 13 13 13 21
+Attr 13 25 25 25 13 17 8 21
 AMod 0 0 0 8 1 0 0 0
 Pass Zy1jwSw/p1GZo~
 Titl  Has a {D[{x{RVampiric Touch/0{x{D]{x~
@@ -76,7 +80,7 @@ Pnts 60
 TSex 2
 LLev 16
 HMVP 249 1128 478
-Cnd  0 0 9 0
+Cnd  0 18 7 39
 Sk 85 'acid blast'
 Sk 75 'armor'
 Sk 75 'blindness'
@@ -89,6 +93,7 @@ Sk 1 'change sex'
 Sk 75 'charm person'
 Sk 75 'chill touch'
 Sk 93 'colour spray'
+Sk 1 'cone of silence'
 Sk 75 'continual light'
 Sk 1 'create food'
 Sk 75 'create fountain'
@@ -185,7 +190,7 @@ Gr 'maladictions'
 Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
-Affc 'haste'   0  49  20   4   2    2097152
+Affc 'haste'   0  49  18   4   2    2097152
 End
 
 #O
@@ -196,15 +201,6 @@ Cond 0
 Wear -1
 Cost 0
 Val  100 1 0 10 85
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Zyrea~
-Cond 0
-Wear -1
-Cost 100000
 End
 
 #O
@@ -470,21 +466,12 @@ Cost 22
 End
 
 #O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
 Vnum 3020
 Enchanted
 Nest 0
 PrevOwner Zyrea~
 ExtF 66
-Stolen 266
+Stolen 264
 Cond 0
 Wear 16
 Lev  10
@@ -526,7 +513,7 @@ Enchanted
 Nest 0
 PrevOwner Zyrea~
 ExtF 1048643
-Stolen 95
+Stolen 93
 Cond 0
 Wear -1
 Lev  5

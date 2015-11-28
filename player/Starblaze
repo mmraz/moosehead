@@ -2,7 +2,7 @@
 Name StarBlaze~
 Id   993126736
 Email (null)~
-LogO 1132326327
+LogO 1307137501
 Vers 31
 LnD  A Gladiator~
 Desc A {YBLINDING{x {BBLAZE{x of {Ylight{x descends upon you.
@@ -18,7 +18,7 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 1
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -42,20 +42,20 @@ Node 0
 Cap 0
 Created 993126785
 Glad 0 0 0 0 3 0
-LastHost ndn-165-152-174.telkomadsl.co.za~
+LastHost 41.185.65.57~
 Cla  7
 Kit nature friend~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 469196
+Plyd 482637
 Not  1098801117 0 0 1098980854 1121859963 1121061632 0 1121017879 0 1098571284
 Scro 22
 Rank 0
-Room 339
-HMV  693 693 1374 1540 508 508
-Gold 690
-Silv 1602
+Room 3001
+HMV  812 828 1539 1545 362 508
+Gold 832
+Silv 3793
 Exp  122492
 Act  DGHIM
 MHSF R
@@ -66,24 +66,24 @@ IcgB 0
 Icg 0
 Pnet ABCDEHI
 Pos  8
-Prac 8
-SkiP 158
-Save  -15
-Alig  -1000
-Hit   15
-Dam   17
-SecHit   15
-SecDam   13
-ACs -19 -19 -14 -13
+Prac 20
+SkiP 16
+Save  -14
+Alig  -691
+Hit   14
+Dam   19
+SecHit   14
+SecDam   15
+ACs -46 -46 -41 -14
 Attr 13 25 25 25 13 13 13 22
-AMod 4 2 0 2 1 0 0 2
+AMod 4 2 0 5 1 0 0 0
 Pass St3YFT9tZBqII~
 Titl  {Rshares{x {Ylight{x and {Bknowledge{x!~
 Pnts 60
 TSex 2
 LLev 1
 HMVP 368 1375 508
-Cnd  0 25 33 33
+Cnd  0 30 30 30
 Alias chp c 'charm person'~
 Alias cha c 'charm animal'~
 Alias dm c 'dispel magic'~
@@ -100,7 +100,7 @@ Alias disp c 'dispel magic'~
 Sk 100 'acid blast'
 Sk 88 'acclimate'
 Sk 1 'aid'
-Sk 91 'armor'
+Sk 92 'armor'
 Sk 1 'bestow holiness'
 Sk 100 'bless'
 Sk 100 'blindness'
@@ -116,7 +116,7 @@ Sk 100 'charm person'
 Sk 91 'charm animal'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
+Sk 73 'cone of silence'
 Sk 75 'control weather'
 Sk 75 'cure blindness'
 Sk 1 'cure critical'
@@ -124,7 +124,7 @@ Sk 77 'cure disease'
 Sk 1 'cure light'
 Sk 75 'cure poison'
 Sk 1 'cure serious'
-Sk 93 'curse'
+Sk 95 'curse'
 Sk 81 'demonfire'
 Sk 1 'detect evil'
 Sk 75 'detect good'
@@ -163,14 +163,14 @@ Sk 78 'heat metal'
 Sk 1 'hold person'
 Sk 1 'holy word'
 Sk 75 'hydrophilia'
-Sk 97 'identify'
+Sk 98 'identify'
 Sk 1 'infravision'
 Sk 82 'invisibility'
 Sk 1 'knock'
 Sk 1 'know alignment'
 Sk 1 'lay on hands'
 Sk 1 'lightning bolt'
-Sk 96 'locate object'
+Sk 99 'locate object'
 Sk 75 'magic missile'
 Sk 45 'mass healing'
 Sk 77 'mass invis'
@@ -180,7 +180,7 @@ Sk 1 'orb of awakening'
 Sk 98 'orb of surprise'
 Sk 76 'orb of touch'
 Sk 81 'orb of turning'
-Sk 78 'pass door'
+Sk 79 'pass door'
 Sk 95 'plague'
 Sk 96 'poison'
 Sk 84 'portal'
@@ -193,10 +193,10 @@ Sk 99 'refresh'
 Sk 87 'remove curse'
 Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
-Sk 86 'shield'
+Sk 87 'shield'
 Sk 89 'shield of faith'
 Sk 1 'shocking grasp'
-Sk 77 'sleep'
+Sk 79 'sleep'
 Sk 100 'slow'
 Sk 78 'stone skin'
 Sk 100 'summon'
@@ -204,7 +204,7 @@ Sk 100 'swarm'
 Sk 95 'teleport'
 Sk 90 'tower of iron will'
 Sk 75 'ventriloquate'
-Sk 90 'weaken'
+Sk 93 'weaken'
 Sk 96 'word of recall'
 Sk 1 'acid breath'
 Sk 75 'fire breath'
@@ -249,10 +249,7 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'giant strength'   0  56  53   4   1          0
-Affc 'stone skin'   0  47   5 -40  17          0
-Affc 'bless'   0  45  22   6  18          0
-Affc 'bless'   0  48  22  -6  24          0
+Affc 'giant strength'   0  49  31   4   1          0
 End
 
 #O
@@ -328,15 +325,6 @@ Cost 4500
 End
 
 #O
-Vnum 15223
-Nest 0
-PrevOwner StarBlaze~
-Cond 0
-Wear 7
-Cost 6500
-End
-
-#O
 Vnum 5931
 Nest 0
 PrevOwner StarBlaze~
@@ -382,12 +370,82 @@ Cost 0
 End
 
 #O
-Vnum 22570
+Vnum 2405
+Nest 0
+PrevOwner Blodscel~
+ExtF 17694977
+Cond 0
+Wear 17
+Cost 1000
+End
+
+#O
+Vnum 12070
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 25000
+End
+
+#O
+Vnum 12079
+Enchanted
+Nest 0
+PrevOwner StarBlaze~
+ExtF 17301569
+Cond 0
+Wear 10
+Lev  50
+Cost 0
+Affc 'reserved'   1  49  -1  30  13          0
+Affc 'reserved'   1  49  -1  -2  20          0
+Affc 'enchant armor'   1  52  -1 -11  17          0
+End
+
+#O
+Vnum 12084
 Nest 0
 PrevOwner StarBlaze~
 Cond 0
 Wear 6
+Cost 7777
+End
+
+#O
+Vnum 20733
+Nest 0
+PrevOwner StarBlaze~
+Cond 0
+Wear 14
+Cost 3000
+End
+
+#O
+Vnum 20733
+Nest 0
+PrevOwner StarBlaze~
+Cond 0
+Wear 15
+Cost 3000
+End
+
+#O
+Vnum 22563
+Nest 0
+PrevOwner StarBlaze~
+Cond 0
+Wear 18
 Cost 0
+End
+
+#O
+Vnum 10431
+Nest 0
+PrevOwner StarBlaze~
+Cond 0
+Wear 16
+Cost 6500
 End
 
 #O
@@ -474,15 +532,6 @@ Cost 2475
 End
 
 #O
-Vnum 22558
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
 Vnum 23546
 Nest 1
 PrevOwner StarBlaze~
@@ -500,15 +549,6 @@ ExtF 555221088
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 23521
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 100
 End
 
 #O
@@ -550,24 +590,6 @@ Spell 3 'lightning bolt'
 End
 
 #O
-Vnum 18105
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 12088
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
 Vnum 2919
 Nest 1
 PrevOwner StarBlaze~
@@ -586,55 +608,7 @@ Cost 650
 End
 
 #O
-Vnum 23507
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 4200
-End
-
-#O
-Vnum 23516
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
 Vnum 22504
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3038
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 1608
-End
-
-#O
-Vnum 23561
-Nest 1
-PrevOwner StarBlaze~
-ExtF 538443808
-Cond 0
-Wear -1
-Time 63
-Cost 100
-Spell 1 'animate dead'
-End
-
-#O
-Vnum 22563
 Nest 1
 PrevOwner StarBlaze~
 Cond 0
@@ -658,7 +632,6 @@ PrevOwner StarBlaze~
 Cond 0
 Wear -1
 Cost 0
-Val  50 1 0 5 100
 End
 
 #O
@@ -671,76 +644,12 @@ Cost 13700
 End
 
 #O
-Vnum 10326
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3375
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 22558
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 20733
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
 Vnum 5938
 Nest 1
 PrevOwner StarBlaze~
 Cond 0
 Wear -1
 Cost 4000
-End
-
-#O
-Vnum 12072
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 6411
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 5600
-Val  1 3 13 8 512
-End
-
-#O
-Vnum 12084
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 7777
 End
 
 #O
@@ -753,45 +662,12 @@ Cost 3690
 End
 
 #O
-Vnum 12079
-Enchanted
-Nest 1
-PrevOwner StarBlaze~
-ExtF 17301569
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'reserved'   1  49  -1  30  13          0
-Affc 'reserved'   1  49  -1  -2  20          0
-Affc 'enchant armor'   1  52  -1 -11  17          0
-End
-
-#O
 Vnum 22504
 Nest 1
 PrevOwner StarBlaze~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 12006
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 900
-End
-
-#O
-Vnum 12006
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 900
 End
 
 #O
@@ -810,7 +686,7 @@ Nest 1
 PrevOwner StarBlaze~
 Cond 0
 Wear -1
-Time 478
+Time 143
 Cost 0
 Spell 1 'frenzy'
 Spell 2 'haste'
@@ -835,21 +711,166 @@ Cost 0
 End
 
 #O
-Vnum 607
-Nest 1
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 150
-End
-
-#O
 Vnum 13204
 Nest 1
 PrevOwner StarBlaze~
 Cond 0
 Wear -1
 Cost 2000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10737
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 10727
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 8531
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 600
+End
+
+#O
+Vnum 23603
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23516
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 10736
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 12006
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 12006
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 22570
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 15223
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10733
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 5408
+Nest 1
+PrevOwner StarBlaze~
+ExtF 16
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 12072
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2925
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 10000
 End
 
 #O
@@ -862,59 +883,103 @@ Cost 0
 End
 
 #O
-Vnum 9233
+Vnum 10734
 Nest 1
 PrevOwner StarBlaze~
 Cond 0
 Wear -1
-Cost 1000
+Cost 15000
 End
 
 #O
-Vnum 12004
+Vnum 3038
 Nest 1
 PrevOwner StarBlaze~
 Cond 0
 Wear -1
-Cost 40
+Cost 1608
 End
 
 #O
-Vnum 5408
-Nest 0
+Vnum 22558
+Nest 1
 PrevOwner StarBlaze~
-ExtF 16
-Cond 0
-Wear 18
-Cost 0
-End
-
-#O
-Vnum 2405
-Nest 0
-PrevOwner Blodscel~
-ExtF 17694977
-Cond 0
-Wear 17
-Cost 1000
-End
-
-#O
-Vnum 12070
-Nest 0
-PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 25000
+Cost 50000
+End
+
+#O
+Vnum 22558
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 22516
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 12088
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 23507
+Nest 1
+PrevOwner StarBlaze~
+Cond 0
+Wear -1
+Cost 4200
 End
 
 #O
 Vnum 12014
+Nest 1
+PrevOwner StarBlaze~
+ExtF 256
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 11147
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 11122
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner StarBlaze~
+Cond 0
+Wear 7
+Cost 40
 End
 
 #O
@@ -924,97 +989,6 @@ PrevOwner StarBlaze~
 Cond 0
 Wear 9
 Cost 5500
-End
-
-#O
-Vnum 23603
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2925
-Nest 0
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 8531
-Nest 0
-PrevOwner StarBlaze~
-Cond 0
-Wear -1
-Cost 600
-End
-
-#O
-Vnum 10431
-Nest 0
-PrevOwner StarBlaze~
-Stolen 184
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 10736
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 10727
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 10733
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 10734
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 10737
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 10431
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 16
-Cost 6500
 End
 
 #END

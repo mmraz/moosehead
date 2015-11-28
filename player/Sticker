@@ -3,8 +3,8 @@ Name Sticker~
 SurN Stabber~
 Id   1016846473
 Email (null)~
-LogO 1129182477
-Vers 31
+LogO 1364946302
+Vers 33
 LnD  A Gladiator~
 Prom <%hhp %mm %vmv> {G*(%wWeight)*{x ->{Y%t:00{x<-' ~
 Race dragon~
@@ -12,11 +12,12 @@ Clan matook~
 Outc 0
 RufT 0
 MatookT 12001
-SkPTimer 16
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -28,6 +29,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 356349 matook~
 DeityT -27459 matook~
 Sac  300
@@ -37,48 +44,50 @@ Node 0
 Cap 0
 Created 1016846605
 Glad 1 1 0 0 4 0
-LastHost 208.42.95.246~
+LastHost 99.241.52.126~
 Cla  7
 Kit medium~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 1257712
-Not  1103490136 1034509957 1034509957 1104439299 1034509957 1034509957 1034509957 1034509957 1034509957 1034509957
+Plyd 1262051
+Not  1360941521 1360941521 1360941521 1360941521 1360941521 1360941521 1360941521 1360941521 1360941521 1360941521
 Scro 22
 Rank 0
-Room 16503
-HMV  997 1145 1225 1233 276 497
-Gold 1481
-Silv 7224
+Room 3037
+HMV  1130 1145 1221 1233 497 497
+Gold 1559
+Silv 8616
 Exp  448843
 Act  BCDGHIK
 MHSF RX
-AfBy CDEFHJOTUVZ
+AfBy CDEFJTc
 Comm DGILSc
-Disp FGIJN
+Disp FIJN
 IcgB 0
 Icg 0
 Pnet AE
 Pos  8
-SkiP 374
-Save  -7
+Prac 1
+Trai 15
+SkiP 380
+Save  -6
 Alig  -1000
 Hit   30
 Dam   34
 SecHit   20
 SecDam   24
-ACs -68 -68 -68 -36
+ACs 12 12 12 44
 Wimp  35
-Attr 21 25 25 25 25 20 20 18
-AMod 4 2 -1 6 1 0 0 0
-Pass StNBGTw5pbprM~
+Attr 21 25 25 25 25 11 14 18
+AMod 4 2 -1 2 1 0 0 0
+Pass StuzsDQbKX8gQ~
 Titl  is just here - period -~
 Pnts 100
 TSex 1
 LLev 155
 HMVP 975 1028 497
-Cnd  0 43 43 43
+Cnd  0 0 31 20
 Sk 100 'acid blast'
 Sk 100 'acclimate'
 Sk 100 'aid'
@@ -100,7 +109,6 @@ Sk 100 'change sex'
 Sk 100 'charm person'
 Sk 100 'chill touch'
 Sk 100 'colour spray'
-Sk 1 'cone of silence'
 Sk 100 'continual light'
 Sk 100 'control weather'
 Sk 100 'create food'
@@ -238,7 +246,7 @@ Sk 100 'scan'
 Sk 100 'second attack'
 Sk 100 'fast healing'
 Sk 100 'haggle'
-Sk 75 'lore'
+Sk 78 'lore'
 Sk 100 'meditation'
 Sk 100 'peek'
 Sk 100 'pick lock'
@@ -272,22 +280,11 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect magic'   0  54  48   0   0         16
-Affc 'sanctuary'   0  52   1   0   0        128
-Affc 'protection good'   0  52  16  -1  24      16384
-Affc 'orb of turning'   0  51  18   0   0          0
-Affc 'pass door'   0  53   4   0   0    1048576
-Affc 'body weaponry'   0  52  15   0   0   33554432
-Affc 'detect good'   0  54  44   0   0          4
-Affc 'detect hidden'   0  52  45   0   0         32
-Affc 'detect invis'   0  54  45   0   0          8
-Affc 'armor'   0  53  28 -20  17          0
-Affc 'orb of awakening'   0  51  18   0   0          0
-Affc 'stone skin'   0  50  45 -40  17          0
-Affc 'giant strength'   0  53  45   4   1          0
-Affc 'tower of iron will'   3  54  17   0   0      32768
-Affc 'haste'   0  51   7   4   2    2097152
-Affc 'shield'   0  46  25 -20  17          0
+Affc 'giant strength'   0  52  46   4   1          0
+Affc 'detect good'   0  44  12   0   0          4
+Affc 'detect magic'   0  45  11   0   0         16
+Affc 'detect hidden'   0  43  13   0   0         32
+Affc 'detect invis'   0  42  13   0   0          8
 End
 
 #O
@@ -319,8 +316,8 @@ Cond 0
 Wear 4
 Cost 4000
 Val  8 8 8 6 5
-Affc 'reserved'   1  46  -1  30  12          0
 Affc 'reserved'   1  46  -1   1   2          0
+Affc 'reserved'   1  46  -1  30  12          0
 End
 
 #O
@@ -354,8 +351,8 @@ Wear 3
 Lev  50
 Cost 4000
 Val  8 8 8 6 5
-Affc 'reserved'   1  46  -1   1   2          0
 Affc 'reserved'   1  46  -1  30  12          0
+Affc 'reserved'   1  46  -1   1   2          0
 End
 
 #O
@@ -576,492 +573,492 @@ Cost 2400
 End
 
 #O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
 Vnum 22508
 Nest 1
 PrevOwner Sticker~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
 End
 
 #O
@@ -1122,7 +1119,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  45 27 230 136 -1
+Val  45 30 235 141 -1
 Spell 1 'calm'
 Spell 2 'summon dead'
 Spell 3 'magical rest'
@@ -1141,7 +1138,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  45 230 108 218 -1
+Val  45 235 111 223 -1
 Spell 1 'summon dead'
 Spell 2 'giant strength'
 Spell 3 'wrath of the pen'
@@ -1181,22 +1178,8 @@ PrevOwner Quist~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 8 161 0
+Val  52 10 8 166 0
 Spell 3 'remove curse'
-End
-
-#O
-Vnum 18108
-Enchanted
-Nest 1
-PrevOwner Sticker~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 5600
-Affc 'enchant weapon'   0  52  -1  10  18          0
-Affc 'enchant weapon'   1  52  -1  10  19          0
 End
 
 #O
@@ -1212,7 +1195,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  45 161 169 131 -1
+Val  45 166 174 136 -1
 Spell 1 'remove curse'
 Spell 2 'sanctuary'
 Spell 3 'learned knowledge'
@@ -1255,25 +1238,6 @@ Cost 0
 End
 
 #O
-Vnum 5408
-Nest 1
-PrevOwner Sticker~
-ExtF 16
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8529
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
 Vnum 2505
 Nest 1
 PrevOwner Sticker~
@@ -1283,12 +1247,27 @@ Cost 1150
 End
 
 #O
-Vnum 10726
+Vnum 10402
+Enchanted
+Nest 1
+PrevOwner Sticker~
+ExtF 595
+Cond 0
+Wear -1
+Lev  45
+Cost 2100
+Val  7 5 6 4 4
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   1  52  -1  14  18          0
+End
+
+#O
+Vnum 10710
 Nest 1
 PrevOwner Sticker~
 Cond 0
 Wear -1
-Cost 2500
+Cost 2000
 End
 
 #O
@@ -1301,18 +1280,24 @@ Cost 1
 End
 
 #O
-Vnum 20745
-Enchanted
+Vnum 2918
 Nest 1
 PrevOwner Sticker~
-ExtF 524355
 Cond 0
 Wear -1
-Lev  50
-Cost 0
-Val  8 3 13 11 140
-Affc 'enchant weapon'   1  52  -1  13  19          0
-Affc 'enchant weapon'   0  52  -1  13  18          0
+Cost 1800
+Val  2 2 7 2 24
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 2918
+Nest 1
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 1800
+Val  2 2 7 2 24
 Affc 'sharpen'   5  51  -1   0   0          8
 End
 
@@ -1327,128 +1312,9 @@ Wear -1
 Lev  50
 Cost 0
 Val  6 2 19 39 12
-Affc 'enchant weapon'   1  52  -1  13  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
 Affc 'enchant weapon'   0  52  -1  13  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 10402
-Enchanted
-Nest 1
-PrevOwner Sticker~
-ExtF 595
-Cond 0
-Wear -1
-Lev  45
-Cost 2100
-Val  7 5 6 4 4
-Affc 'enchant weapon'   1  52  -1  14  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-End
-
-#O
-Vnum 10710
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 10740
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 2918
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 1800
-Val  2 2 7 2 24
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 2918
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 1800
-Val  2 2 7 2 24
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 10451
-Nest 1
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 12500
-End
-
-#O
-Vnum 18150
-Enchanted
-Nest 1
-PrevOwner Sticker~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Val  3 3 14 36 12
 Affc 'enchant weapon'   1  52  -1  13  19          0
-Affc 'enchant weapon'   0  52  -1  13  18          0
-End
-
-#O
-Vnum 2447
-Enchanted
-Nest 1
-PrevOwner Sticker~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 75
-Val  2 7 5 2 524
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-End
-
-#O
-Vnum 12019
-Nest 0
-PrevOwner Sticker~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 0
-PrevOwner Oracle~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 6400
-Val  4 5 8 38 4
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'enchant weapon'   0  53  -1  13  18          0
 End
 
 #O
@@ -1480,19 +1346,123 @@ Cost 5000
 End
 
 #O
-Vnum 18119
+Vnum 18108
 Enchanted
 Nest 0
 PrevOwner Sticker~
 ExtF 67
-Stolen 176
+Cond 0
+Wear -1
+Lev  50
+Cost 5600
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 0
+PrevOwner Kerbouchard~
+ExtF 67
+Stolen 69
 Cond 0
 Wear 16
 Lev  50
 Cost 562
 Val  2 2 19 2 1027
-Affc 'enchant weapon'   1  53  -1  10  19          0
 Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 2447
+Enchanted
+Nest 0
+PrevOwner Sticker~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 75
+Val  2 7 5 2 524
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 2333
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 580
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 0
+PrevOwner Bullwart~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 6400
+Val  4 5 8 38 4
+Affc 'enchant weapon'   0  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 20745
+Enchanted
+Nest 0
+PrevOwner Sticker~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Val  8 3 13 11 140
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  52  -1  13  18          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
+End
+
+#O
+Vnum 18150
+Enchanted
+Nest 0
+PrevOwner Sticker~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Val  3 3 14 36 12
+Affc 'enchant weapon'   0  52  -1  13  18          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
+End
+
+#O
+Vnum 8529
+Nest 0
+PrevOwner Sticker~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5408
+Nest 0
+PrevOwner Sticker~
+ExtF 16
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

@@ -35,6 +35,10 @@ static char rcsid[] = "$Id: magic.c,v 1.484 2005/04/18 02:58:27 rusty Exp $";
 DECLARE_DO_FUN(do_look    );
 DECLARE_DO_FUN(do_order    );
 
+extern int bounty_item;
+extern int bounty_type;
+extern int bounty_timer;
+
 /*
  * Local functions.
  */
@@ -46,7 +50,46 @@ void write_spell( CHAR_DATA *ch, int sn );
 bool    remove_obj      args( ( CHAR_DATA *ch, int iWear, bool fReplace ) );
 void  wear_obj  args( ( CHAR_DATA *ch, OBJ_DATA *obj, bool fReplace ) );
 void  set_fighting  args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );
-int	clan_lookup	args( (const char *name) );
+int	nonclan_lookup	args( (const char *name) );
+
+bool check_annointment(CHAR_DATA *victim, CHAR_DATA *ch)
+{
+  if(!IS_NPC(victim) && IS_SET(victim->affected_by_ext, AFF_EXT_ANNOINTMENT) &&
+    victim != ch && number_percent() > 50 && !is_same_clan(victim, ch))
+    {
+      AFFECT_DATA *paf;
+      char buf[256];
+      sprintf(buf, "%s rebukes your attacker.\n\r", deity_table[victim->pcdata->deity].pname);
+      send_to_char(buf, victim);
+      sprintf(buf, "%s rebukes you for harming %s.\n\r",
+        deity_table[victim->pcdata->deity].pname, victim->name);
+      send_to_char(buf, ch);
+      for(paf = victim->affected; paf; paf = paf->next)
+      {
+        if(paf->where == TO_AFFECTS_EXT && paf->bitvector == AFF_EXT_ANNOINTMENT)
+        {/* Stronger levels of annointment last longer */
+          paf->modifier--;
+          break;
+        } 
+      }
+      if(!paf)
+      {/* Bug, clean it up. */
+        send_to_char("Your holy annointment fades.\n\r", victim);
+        REMOVE_BIT(victim->affected_by_ext, AFF_EXT_ANNOINTMENT);
+      }
+      else if(paf->modifier <= 0)
+      {/* Fired off as many times as it's allowed to */
+        affect_strip(victim, gsn_annointment);
+      }
+      return TRUE;
+    }
+  return FALSE;
+}
+
+void apply_mala_damage(CHAR_DATA *ch, CHAR_DATA *victim, int amount)
+{/* Apply damage of amount % of victim's max health */
+  damage_add(ch, victim, (victim->max_hit * amount) / 100, 5);
+}
 
 /*
  * Process a damage over time spell
@@ -350,7 +393,6 @@ bool saves_spell( int level, CHAR_DATA *victim, int dam_type )
     {
     saving_throw = ( saving_throw + 24 ) / 3 - 24;
     }
-
     if( victim->race == race_lookup("elf") ) saving_throw -= 5;
 
     save = 80 + ( level / 6 ) +  saving_throw  ;
@@ -515,9 +557,12 @@ int compute_casting_level( CHAR_DATA *ch, int sn )
         level += 1;
     }
     switch( class_table[ch->class].fMana )
-    {
+    {// Hybrids cast at full level for now
     case 0: level = ( 8 * level / 10 ); break;  /* 60% casting level */
-    case 1: level = ( 9 * level / 10 ); break; /* 90% casting level */
+    case 1:if(class_table[ch->pcdata->old_class].fMana != 2)
+	   {
+		 level = ( 9 * level / 10 ); break; /* 90% casting level */
+	   }
     case 2: level = ch->level;break;
     }
     if ( ch->class == class_lookup("druid") )
@@ -618,6 +663,9 @@ int compute_casting_level( CHAR_DATA *ch, int sn )
               extract_obj(segment);
            }  
          } 
+   if(!IS_NPC(ch) && ch->pcdata->deity_trial_timer > 0 && ch->pcdata->deity_trial == 6)
+	level /= 2;// Damage and casting levels are greatly reduced
+
    return level;
 
 }     
@@ -884,6 +932,7 @@ bool cast_spell( CHAR_DATA *ch, char *argument, bool fChant, bool fFocus )
     return FALSE;
       }
   }
+
         if ( ch == victim && IS_SET(ch->mhs,MHS_GLADIATOR))
         {
             send_to_char( "Suicide is not in the Gladiator Code. Kill someone besides yourself!\n\r", ch );
@@ -910,11 +959,6 @@ bool cast_spell( CHAR_DATA *ch, char *argument, bool fChant, bool fFocus )
     return FALSE;
   }
 
-  if (is_clan(ch) && !IS_NPC(victim) && ch->pcdata->start_time > 0)
-  {
-    send_to_char("Easy there sparky.  You just got here.  Read some notes and such.\n\r",ch);
-    return FALSE;
-  }
 
   if( victim->fighting != NULL &&
   !is_same_group(ch,victim->fighting)  && ch != victim 
@@ -976,6 +1020,14 @@ bool cast_spell( CHAR_DATA *ch, char *argument, bool fChant, bool fFocus )
     send_to_char( "They aren't here.\n\r", ch );
     return FALSE;
       }
+    if(is_clan(ch) && is_clan(victim) && ch->pcdata->start_time > 0)
+    {
+      if(victim->pcdata->quit_time)
+      {
+        send_to_char("You can't pk yet and they have fought another player too recently.\n\r", ch);
+        return FALSE;
+      }
+    }
   }
 
   vo = (void *) victim;
@@ -1217,7 +1269,9 @@ if (!IS_IMMORTAL(ch))
 
     if (fConcentrate)
     {
-       send_to_char( "You lost your concentration.\n\r", ch );
+       sprintf(buf, "You lost your concentration trying to cast %s.\n\r", skill_table[sn].name);
+       send_to_char(buf, ch);
+       //send_to_char( "You lost your concentration.\n\r", ch );
        check_improve(ch,sn,FALSE,1);
        if ( number_percent() < get_skill(ch,gsn_spellcraft) )
        {
@@ -1253,11 +1307,16 @@ if (!IS_IMMORTAL(ch))
           level += dam;
 
           /* Curve it */
-          if ( level > 53 )
+         /* if ( level > 53 )
              level = ( level - 53 ) / 2 + 53;
 
           if ( level > 56 )
-             level = ( level - 56 ) / 2 + 56;
+             level = ( level - 56 ) / 2 + 56;*/
+	  if(level > 53)// Capped for now
+	  {
+		dam /= 2;
+		level = 53;
+	  }
 
           dam += mana * dam;
           dam = UMAX(dam,0);
@@ -1373,11 +1432,6 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DA
       send_to_char("Something isn't right...\n\r",ch);
       return;
   }
-  if (is_clan(ch) && !IS_NPC(victim) && ch->pcdata->start_time > 0)
-  {
-    send_to_char("Easy there sparky.  You just got here.  Read some notes and such.\n\r",ch);
-    return;
-  }
 
         check_killer(ch,victim);
   vo = (void *) victim;
@@ -1420,12 +1474,6 @@ void obj_cast_spell( int sn, int level, CHAR_DATA *ch, CHAR_DATA *victim, OBJ_DA
     {
         send_to_char("Somehting isn't right...\n\r",ch);
         return;
-    }
-
-    if (is_clan(ch) && !IS_NPC(victim) && ch->pcdata->start_time > 0)
-    {
-      send_to_char("Easy there sparky.  You just got here.  Read some notes and such.\n\r",ch);
-      return;
     }
 
     vo = (void *) victim;
@@ -1531,7 +1579,7 @@ bool reup_affect(CHAR_DATA *ch, int sn, int duration, int level)
   {
       paf_next  = paf->next;
 
-      if ( paf->type == sn && paf->duration > 0)
+      if ( paf->type == sn && paf->duration >= 0)
       {
 	    paf->duration = (paf->duration + duration)/2;
 	    paf->level = (paf->level + level)/2;
@@ -1698,10 +1746,6 @@ void spell_blindness( int sn, int level, CHAR_DATA *ch, void *vo, int target)
     af.location  = APPLY_HITROLL;
     af.modifier  = -4;
     af.duration  = 1+level/4;
-    if (IS_SET(victim->mhs,MHS_GLADIATOR) && !IS_NPC(victim))
-       af.duration  = 3;
-    else
-       af.duration  = 1+level/4;
     if ( !IS_NPC(ch) )
     {
         switch( class_table[ch->class].fMana )
@@ -1712,18 +1756,19 @@ void spell_blindness( int sn, int level, CHAR_DATA *ch, void *vo, int target)
         default:af.duration = 1+level/4;break;
         }
     }
+    if (IS_SET(victim->mhs,MHS_GLADIATOR) && !IS_NPC(victim))
+       af.duration  = 1;
     af.bitvector = AFF_BLIND;
     affect_to_char( victim, &af );
     send_to_char( "You are {Gblinded{x!\n\r", victim );
     act("$n appears to be {Gblinded{x.",victim,NULL,NULL,TO_ROOM,FALSE);
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch && ch->clan != victim->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_blindness(sn,level+2,victim,ch,target);
     }   
+
+    apply_mala_damage(ch, victim, MALA_NORMAL_DAMAGE);
 
     return;
 }
@@ -1918,10 +1963,12 @@ void spell_cancellation( int sn, int level, CHAR_DATA *ch, void *vo,int target )
 	if( level < ch->level)
       level = UMIN(ch->level+2, level + ch->level/5);
 
-    if ((!IS_NPC(ch) && IS_NPC(victim) && 
+    if (((!IS_NPC(ch) && IS_NPC(victim) && 
    !(IS_AFFECTED(ch, AFF_CHARM) && ch->master == victim) ) ||
         (IS_NPC(ch) && !IS_NPC(victim)) ||
         (!IS_NPC(victim) && IS_SET (victim->act,PLR_NOCANCEL) && (ch != victim)))
+    && (!IS_NPC(ch) || !IS_SET(ch->act, ACT_IS_HEALER))
+    )
     {
   send_to_char("You failed, try dispel magic.\n\r",ch);
   return;
@@ -2327,11 +2374,8 @@ void spell_change_sex( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     send_to_char( "You feel different.\n\r", victim );
     act("$n doesn't look like $mself anymore...",victim,NULL,NULL,TO_ROOM,FALSE);
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch  && ch->clan != victim->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_change_sex(sn,level+2,victim,ch,target);
     }   
     return;
@@ -2369,6 +2413,11 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     {
        send_to_char(" Gladiators can not charm person.\n\r",ch);
        return;
+    }
+    if(IS_NPC(victim) && victim->pIndexData->vnum == MOB_VNUM_CLAN_GUARDIAN)
+    {
+      send_to_char("Guardians may not be mentally manipulated.\n\r", ch);
+      return;
     }
 
     if ( !IS_NPC(ch) && ( ch->pcdata->old_class != class_lookup("mage")) )
@@ -2447,7 +2496,8 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     if ( victim->master )
       stop_follower( victim );
     add_follower( victim, ch );
-    victim->leader = ch;
+    //victim->leader = ch;
+    add_to_group(victim, ch);
     af.where     = TO_AFFECTS;
     af.type      = sn;
     af.level   = level;
@@ -2470,13 +2520,12 @@ void spell_charm_person( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     if ( ch != victim )
   act("$N looks at you with adoring eyes.",ch,NULL,victim,TO_CHAR,FALSE);
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch  && victim->clan != ch->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_charm_person(sn,level+2,victim,ch,target);
     }   
+
+    apply_mala_damage(ch, victim, MALA_NORMAL_DAMAGE);
 
     return;
 }
@@ -2541,6 +2590,12 @@ void spell_colour_spray( int sn, int level, CHAR_DATA *ch, void *vo,int target )
   73, 73, 74, 75, 76, 76, 77, 78, 79, 79
     };
     int dam;
+
+    if(IS_SET(ch->in_room->room_affects, RAFF_SHADED))
+    {
+      send_to_char("The darkness swallows up your burst of light.\n\r", ch);
+      return;
+    }
 
     level = UMIN(level, sizeof(dam_each)/sizeof(dam_each[0]) - 1);
     level = UMAX(0, level);
@@ -2640,6 +2695,9 @@ void spell_create_fountain(int sn,int level,CHAR_DATA *ch,void *vo,int target)
     fount = create_object( get_obj_index( OBJ_VNUM_FOUNTAIN ), 0, FALSE );
     fount->timer = level;
     fount->value[2] = liq_lookup( target_name );
+
+    if(fount->value[2] < 0)
+      fount->value[2] = 0;
 
     obj_to_room( fount, ch->in_room );
     act( "$p materializes before you.",ch,fount,NULL,TO_CHAR,FALSE);
@@ -2980,13 +3038,12 @@ void spell_curse( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     if ( ch != victim )
   act("$N looks very uncomfortable.",ch,NULL,victim,TO_CHAR,FALSE);
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch && ch->clan != victim->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_curse(sn,level+2,victim,ch,target);
     }   
+
+    apply_mala_damage(ch, victim, MALA_NORMAL_DAMAGE);
 
     return;
 }
@@ -3607,11 +3664,8 @@ void spell_dispel_magic( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     {
         send_to_char("Ok.\n\r",ch);
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch  && ch->clan != victim->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_dispel_magic(sn,level+2,victim,ch,target);
     }   
 
@@ -3660,7 +3714,11 @@ void spell_earthquake( int sn, int level, CHAR_DATA *ch, void *vo,int target )
       continue;
   }
 
-  if ( vch->in_room->area == ch->in_room->area )
+  if(IS_SET(ch->in_room->room_flags, ROOM_ISOLATED))// New isolated code
+    continue;
+
+  if ( vch->in_room->area == ch->in_room->area &&
+    !IS_SET(vch->in_room->room_flags,ROOM_ISOLATED))// New isolated code
       send_to_char( "The earth trembles and shivers.\n\r", vch );
     }
 
@@ -3674,10 +3732,18 @@ void spell_warp( int sn, int level, CHAR_DATA *ch, void *vo, int target)
     char blah[MAX_INPUT_LENGTH];
     int old_size,factor;
 
+    int perc;
+
     if (obj->item_type != ITEM_ARMOR)
     {
 	send_to_char("That isn't an armor.\n\r",ch);
 	return;
+    }
+
+    if(obj->link_name && ch->pcdata && !IS_SET(ch->pcdata->new_opt_flags, OPT_NOSAFELINK))
+    {
+      send_to_char("Turn off safelink if you want to risk destroying your linked armor.\n\r", ch);
+      return;
     }
 
     if (obj->wear_loc != -1)
@@ -3693,8 +3759,10 @@ void spell_warp( int sn, int level, CHAR_DATA *ch, void *vo, int target)
 	level -= ( ++obj->warps * 10 );
     }
 
-    if (number_percent() < (obj->level - level))
-    {
+    perc = number_percent();
+
+    if (perc < (obj->level - level) && perc < 95)
+    {/* 5% success even at worst case */
 	act("$p wavers... and crumbles to dust!",ch,obj,NULL,TO_CHAR,FALSE);
 	act("$p wavers... and crumbles to dust!",ch,obj,NULL,TO_ROOM,FALSE);
 	extract_obj(obj);
@@ -3774,6 +3842,12 @@ void spell_enchant_armor( int sn, int level, CHAR_DATA *ch, void *vo,int target)
   return;
     }
 
+    if(obj->link_name && ch->pcdata && !IS_SET(ch->pcdata->new_opt_flags, OPT_NOSAFELINK))
+    {
+      send_to_char("Turn off safelink if you want to risk destroying your linked armor.\n\r", ch);
+      return;
+    }
+
     if (obj->wear_loc != -1)
     {
   send_to_char("The item must be carried to be enchanted.\n\r",ch);
@@ -3837,7 +3911,10 @@ void spell_enchant_armor( int sn, int level, CHAR_DATA *ch, void *vo,int target)
        {
        case SECT_MAGELAB_SIMPLE: factor = 20; break;
        case SECT_MAGELAB_INTERMEDIATE: factor = 40; break;
-       case SECT_MAGELAB_ADVANCED: factor = 70; break;
+       case SECT_MAGELAB_ADVANCED:
+       case SECT_MAGELAB_SUPERIOR:
+       case SECT_MAGELAB_INCREDIBLE:
+         factor = 70; break;
        default: break;
        }
        if ( HAS_KIT(ch,"enchanter") ) factor *= 2;
@@ -3969,7 +4046,7 @@ void spell_enchant_armor( int sn, int level, CHAR_DATA *ch, void *vo,int target)
       paf->next = obj->affected;
       obj->affected = paf;
     }
-
+  set_rarity(obj);
 }
 
 
@@ -3982,11 +4059,18 @@ void spell_enchant_weapon(int sn,int level,CHAR_DATA *ch, void *vo,int target)
     int result, fail;
     int hit_bonus, dam_bonus, added=0;
     bool hit_found = FALSE, dam_found = FALSE;
+    bool enchanter = HAS_KIT(ch, "enchanter");
 
     if (obj->item_type != ITEM_WEAPON)
     {
   send_to_char("That isn't a weapon.\n\r",ch);
   return;
+    }
+
+    if(obj->link_name && ch->pcdata && !IS_SET(ch->pcdata->new_opt_flags, OPT_NOSAFELINK))
+    {
+      send_to_char("Turn off safelink if you want to risk destroying your linked weapon.\n\r", ch);
+      return;
     }
 
     if (obj->wear_loc != -1)
@@ -4068,15 +4152,21 @@ void spell_enchant_weapon(int sn,int level,CHAR_DATA *ch, void *vo,int target)
                     ch->class == class_lookup("wizard") ) )
   {
 	int factor = 0;
-
      switch( ch->in_room->sector_type )
     {
    case SECT_MAGELAB_SIMPLE: factor = 15; break;
    case SECT_MAGELAB_INTERMEDIATE: factor = 30; break;
-   case SECT_MAGELAB_ADVANCED: factor = 60; break;
+   case SECT_MAGELAB_ADVANCED: 
+   case SECT_MAGELAB_SUPERIOR:
+   case SECT_MAGELAB_INCREDIBLE:
+      if(enchanter)
+	factor = 60;
+      else
+	factor = 30;// Non-enchanters can't use this to its best
+      break;
    default: break;
     }
-    if ( HAS_KIT(ch,"enchanter") ) factor *= 2;
+    if (enchanter) factor *= 2;
     fail -= factor;
   }
 
@@ -4086,16 +4176,23 @@ void spell_enchant_weapon(int sn,int level,CHAR_DATA *ch, void *vo,int target)
 
     fail = URANGE(5,fail,HAS_KIT(ch,"enchanter") ? 85 : 95);
    
-    if( IS_IMMORTAL(ch)) fail = 0;
-
     result = number_percent();
+
+//    if( IS_IMMORTAL(ch))// Debug code
+/*    {
+	char buf[256];
+        sprintf(buf, "Fail: %d result: %d hit: %d dam: %d Resist: %d\n\r", fail, result, hit_bonus, dam_bonus, IS_SET(obj->value[4],WEAPON_RESIST_ENCHANT));
+    send_to_char(buf, ch);
+    }// TEST TEST TEST
+*/
+    if( IS_IMMORTAL(ch)) fail = 0;
 
     /* the moment of truth */
     if (result < (fail / 5) 
 	|| (hit_found && hit_bonus > 15)
 	|| (dam_found && dam_bonus > 15) 
  	|| ( IS_SET(obj->value[4],WEAPON_RESIST_ENCHANT) &&
-	     number_percent() > level ) )  /* item destroyed */
+	     number_percent() > level && !IS_IMMORTAL(ch) ) )  /* item destroyed */
     {
   act("$p shivers violently and explodes!",ch,obj,NULL,TO_CHAR,FALSE);
   act("$p shivers violently and explodes!",ch,obj,NULL,TO_ROOM,FALSE);
@@ -4125,7 +4222,6 @@ void spell_enchant_weapon(int sn,int level,CHAR_DATA *ch, void *vo,int target)
   obj->extra_flags = 0;
   return;
     }
-
     if ( result <= fail )  /* failed, no bad result */
     {
   send_to_char("Nothing seemed to happen.\n\r",ch);
@@ -4154,8 +4250,12 @@ void spell_enchant_weapon(int sn,int level,CHAR_DATA *ch, void *vo,int target)
       af_new->bitvector = paf->bitvector;
   }
     }
-
-    if (result > (level/(HAS_KIT(ch,"enchanter")?5:7)) 
+/*{
+char buf[256];
+sprintf(buf, "%d resist %d chance, %d random %d second chance\n\r", result,  (level/(enchanter?5:7)), fail, (enchanter?8:5));
+send_to_char(buf, ch);// TEST TEST TEST
+}*/
+    if ((result > (level/(enchanter?5:7)) && number_percent() > (enchanter?4:3))
 	|| IS_IMMORTAL(ch))  /* success! */
     {
   act("$p glows blue.",ch,obj,NULL,TO_CHAR,FALSE);
@@ -4165,8 +4265,8 @@ void spell_enchant_weapon(int sn,int level,CHAR_DATA *ch, void *vo,int target)
     }
     else
     {
-     if (number_percent() < level / 5 
-	&& (HAS_KIT(ch,"enchanter") && number_percent() < 40) )
+     if (number_percent() < level / 2 
+	&& (enchanter && number_percent() < 40) )
      {
   act("$p glows with a {BBLINDING blue{x aura!!",ch,obj,NULL,TO_CHAR,FALSE);
   act("$p glows with a {BBLINDING blue{x aura!!",ch,obj,NULL,TO_ROOM,FALSE);
@@ -4246,6 +4346,7 @@ void spell_enchant_weapon(int sn,int level,CHAR_DATA *ch, void *vo,int target)
         obj->affected   = paf;
     }
 
+  set_rarity(obj);
 }
 
 
@@ -4301,13 +4402,12 @@ void spell_energy_drain( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     send_to_char("Wow....what a rush!\n\r",ch);
     damage( ch, victim, dam, sn, DAM_NEGATIVE ,TRUE,TRUE);
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch  && victim->clan != ch->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_energy_drain(sn,level+2,victim,ch,target);
     }   
+
+    apply_mala_damage(ch, victim, MALA_LESSER_DAMAGE);
 
     return;
 }
@@ -4406,13 +4506,13 @@ void spell_faerie_fire( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     send_to_char( "You are surrounded by a pink outline.\n\r", victim );
     act( "$n is surrounded by a pink outline.", victim, NULL, NULL, TO_ROOM ,FALSE);
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch && victim->clan != ch->clan)
+    if(check_annointment(victim, ch))
     {
-	send_to_char( "The Almighty rebukes your attacker.\n\r", victim );
-	act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-	    TO_CHAR,FALSE);
 	spell_faerie_fire(sn,level+2,victim,ch,target);
     }
+
+    apply_mala_damage(ch, victim, MALA_NORMAL_DAMAGE);
+
     return;
 }
 
@@ -4465,8 +4565,10 @@ void spell_faerie_fog( int sn, int level, CHAR_DATA *ch, void *vo,int target )
          af.modifier  = 0;
          af.bitvector = AFF_FAERIE_FOG;
          affect_to_char( ich, &af );
+    apply_mala_damage(ch, ich, MALA_LESSER_DAMAGE);
       } 
     }
+
     return;
 }
 
@@ -4483,7 +4585,7 @@ void spell_famine( int sn,int level,CHAR_DATA *ch,void *vo,int target)
     }
     */
 
-    if(IS_SET(ch->mhs,MHS_GLADIATOR))
+    if(IS_SET(ch->mhs,MHS_GLADIATOR) && gladiator_info.bet_counter <= 0 && gladiator_info.exper != TRUE)
     {
        send_to_char(" Gladiators can not famine.\n\r",ch);
        return;
@@ -4518,11 +4620,8 @@ void spell_famine( int sn,int level,CHAR_DATA *ch,void *vo,int target)
     if ( victim != ch )
     act("$N appears to be famished!",ch,NULL,victim,TO_CHAR,FALSE);
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch  && victim->clan != ch->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_famine(sn,level+2,victim,ch,target);
     }   
 
@@ -4542,7 +4641,7 @@ void spell_feast(int sn,int level,CHAR_DATA *ch,void *vo,int target)
     }
     */
 
-    if(IS_SET(ch->mhs,MHS_GLADIATOR))
+    if(IS_SET(ch->mhs,MHS_GLADIATOR) && gladiator_info.bet_counter <= 0 && gladiator_info.exper != TRUE)
     {
        send_to_char(" Gladiators can not feast.\n\r",ch);
        return;
@@ -4572,16 +4671,16 @@ void spell_feast(int sn,int level,CHAR_DATA *ch,void *vo,int target)
     gain_condition(victim,COND_FULL, level / 2 );
     gain_condition(victim,COND_THIRST, level / 2 );
 
-    send_to_char("You feel nourished.\n\r",victim);
+    if(!IS_NPC(victim) && victim->pcdata->condition[COND_FULL] > 40)
+      send_to_char("You feel full.\n\r", victim);
+    else
+      send_to_char("You feel nourished.\n\r",victim);
 
     if ( victim != ch )
     act("$N appears to be nourished.",ch,NULL,victim,TO_CHAR,FALSE);
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch && victim->clan != ch->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_feast(sn,level+2,victim,ch,target);
     }   
 
@@ -4672,10 +4771,10 @@ void spell_frenzy(int sn, int level, CHAR_DATA *ch, void *vo,int target)
   return;
     }
 
-    if ((IS_GOOD(ch) && !IS_GOOD(victim)) ||
-  (IS_NEUTRAL(ch) && !IS_NEUTRAL(victim)) ||
-  (IS_EVIL(ch) && !IS_EVIL(victim))
-       )
+    if (((IS_GOOD(ch) && !IS_GOOD(victim)) ||
+     (IS_NEUTRAL(ch) && !IS_NEUTRAL(victim)) ||
+     (IS_EVIL(ch) && !IS_EVIL(victim))) && 
+     victim->level > 5 && (!IS_NPC(ch) || !IS_SET(ch->act, ACT_IS_HEALER)))
     {
   act("Your god doesn't seem to like $N",ch,NULL,victim,TO_CHAR,FALSE);
   return;
@@ -4728,6 +4827,7 @@ void spell_gate( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     if ( ( victim = get_char_world( ch, target_name ) ) == NULL
     ||   victim == ch
     ||   victim->in_room == NULL
+    ||   victim->in_room->vnum < 0
     ||   !can_see_room(ch,victim->in_room)
     ||	 !is_room_clan(ch,victim->in_room)
     ||   IS_SET(victim->in_room->room_flags, ROOM_SAFE)
@@ -4746,7 +4846,8 @@ void spell_gate( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     ||   (!is_room_owner(ch,victim->in_room) && room_is_private(ch,victim->in_room) ) 
     ||  victim->in_room->area->under_develop 
     ||  victim->in_room->area->no_transport 
-    ||  ch->in_room->area->no_transport )
+    ||  ch->in_room->area->no_transport
+    ||  is_bounty_target(victim, FALSE) )
     {
         send_to_char( "You failed.\n\r", ch );
         return;
@@ -4760,6 +4861,12 @@ void spell_gate( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     {
        send_to_char(" Gladiators can not gate.\n\r",ch);
        return;
+    }
+
+    if(is_clan(ch) && is_clan(victim) && ch->pcdata->start_time > 0)
+    {
+      send_to_char("You just got here, you must wait before gating to them.\n\r", ch);
+      return;
     }
 
     act("$n steps through a gate and vanishes.",ch,NULL,NULL,TO_ROOM,FALSE);
@@ -4986,7 +5093,7 @@ void spell_heal( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     CHAR_DATA *victim = (CHAR_DATA *) vo;
 
     healed = 100;
-    if ( ch->race == race_lookup("volare") )
+    if (!IS_NPC(ch) && ch->race == race_lookup("volare") )
 	healed = 3 * healed / 2;
 
     if ( !IS_NPC(ch) && ( ch->pcdata->old_class != class_lookup("cleric") &&
@@ -5006,14 +5113,11 @@ void spell_heat_metal( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     CHAR_DATA *victim = (CHAR_DATA *) vo;
     OBJ_DATA *obj_lose, *obj_next;
     int dam = 0;
+    AFFECT_DATA *paf;
     bool fail = TRUE;
 
-    if (IS_SET(victim->mhs,MHS_HIGHLANDER) && !IS_NPC(victim))
-    {
-       send_to_char("Highlanders are immune to that.\n\r",ch);
-       return;
-    }
- 
+  if(IS_NPC(victim))
+  {
    if (!saves_spell(level + 2,victim,DAM_FIRE) 
    &&  !IS_SET(victim->imm_flags,IMM_FIRE))
    {
@@ -5156,16 +5260,101 @@ void spell_heat_metal( int sn, int level, CHAR_DATA *ch, void *vo,int target )
   if (saves_spell(level,victim,DAM_FIRE))
       dam = 2 * dam / 3;
   damage(ch,victim,dam,sn,DAM_FIRE,TRUE,TRUE);
+
+    apply_mala_damage(ch, victim, MALA_NORMAL_DAMAGE);
+
     }
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch && ch->clan != victim->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_heat_metal(sn,level+2,victim,ch,target);
     }   
+  }
+  else
+  {
+  int dam = 0;
+  int count = 0;
 
+  if (IS_SET(victim->mhs,MHS_HIGHLANDER) && !IS_NPC(victim))
+  {
+     send_to_char("Highlanders are immune to that.\n\r",ch);
+     return;
+  }
+
+ if (!saves_spell(level + 2,victim,DAM_FIRE) 
+ &&  !IS_SET(victim->imm_flags,IMM_FIRE))
+ {
+    for ( obj_lose = victim->carrying;
+    obj_lose != NULL; 
+    obj_lose = obj_lose->next_content)
+    {
+      if ( !IS_OBJ_STAT(obj_lose,ITEM_NONMETAL) &&
+         !IS_OBJ_STAT(obj_lose,ITEM_BURN_PROOF) &&
+         number_range(1,2 * level) > obj_lose->level && 
+         !saves_spell(level,victim,DAM_FIRE))
+      {
+        act("$n yelps as $e is seared by $p!",
+          victim,obj_lose,NULL,TO_ROOM,FALSE);
+        act("You are seared as $p glows red hot.",
+          victim,obj_lose,NULL,TO_CHAR,FALSE);
+          dam += (number_range(2,level) / 2);
+          count++;
+      }
+    }
+  }
+  if (!count)
+  {
+    send_to_char("Your spell had no effect.\n\r", ch);
+    send_to_char("You feel momentarily warmer.\n\r",victim);
+  }
+  else /* damage! */
+  {
+    if(ch->level >= 25)
+      count *= 2; /* 2 hit per item */
+    if (saves_spell(level,victim,DAM_FIRE))
+      dam = 2 * dam / 3;
+    damage(ch,victim,dam,sn,DAM_FIRE,TRUE,TRUE);
+
+    for ( paf = victim->affected; paf != NULL; paf = paf->next )
+    {
+      if(paf->type == sn)
+      {
+  	    paf->duration = UMIN(2, paf->duration + 1);
+  	    if(abs(paf->modifier) < count)
+  	    {/* Update the hitroll penalty if this hits them harder */
+  	      victim->max_hit -= (count - paf->modifier);
+  	      paf->modifier = count * -1;
+  	    }
+  	    break;
+      }
+    }
+
+    if(!paf)
+    {/* Not already present */
+      AFFECT_DATA af;
+      af.where     = TO_AFFECTS;
+      af.type      = sn;
+      af.level     = level;
+      af.location  = APPLY_HITROLL;
+      af.modifier  = count * -1;
+      af.duration  = 0;
+      af.bitvector = 0;
+      affect_to_char( victim, &af );
+    }
+
+    if(!IS_NPC(victim) && is_affected(victim, gsn_annointment)
+      && victim != ch && number_percent() > 50)
+    {
+      send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
+      act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
+        TO_CHAR,FALSE);
+      spell_heat_metal(sn,level+2,victim,ch,target);
+      affect_strip(victim, gsn_annointment);
+      send_to_char("You feel your annointing fade.\n\r", victim);
+    }
+  }
+
+  }
     return;
 }
 
@@ -5263,6 +5452,8 @@ void spell_identify( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     {
        sprintf( buf, "Extra Flags %s.\n\r", extra_bit_name(obj->extra_flags));
        send_to_char( buf, ch);
+       if(IS_SET(obj->extra_flags2, ITEM2_TEMP_UNCURSED))
+        send_to_char("The curse on this object is weakened currently.\n\r", ch);
     }
      
 
@@ -5602,6 +5793,17 @@ break;
     }
     }
 
+		if(obj->damaged < 0)
+			send_to_char("Condition: {GPerfect!{x\n\r", ch);
+		else if(!obj->damaged)
+			send_to_char("Condition: {WUndamaged.{x\n\r", ch);
+		else if(obj->damaged < 60)
+			send_to_char("Condition: {YLightly damaged.{x\n\r", ch);
+		else if(obj->damaged < 100)
+			send_to_char("Condition: {rHeavily damaged.{x\n\r", ch);
+		else
+			send_to_char("Condition: {RBroken.{x\n\r", ch);
+
     if( IS_OBJ_STAT(obj,ITEM_NOIDENTIFY))
        send_to_char("Your scrying is unable to attain more information.\n\r",ch);
     return;
@@ -5775,6 +5977,18 @@ void spell_lightning_bolt(int sn,int level,CHAR_DATA *ch,void *vo,int target)
 }
 
 
+bool is_bounty_obj(OBJ_DATA *obj)
+{
+  if(bounty_timer <= 0)
+    return FALSE;// Nobody knows it's the object, it's fine to locate
+  if(bounty_type == BOUNTY_ITEM_NAME || bounty_type == BOUNTY_ITEM_DESC)
+  {
+    if(obj->pIndexData->vnum == bounty_item)
+      return TRUE;
+  }
+  return FALSE;
+}
+
 
 void spell_locate_object( int sn, int level, CHAR_DATA *ch, void *vo,int target)
 {
@@ -5795,11 +6009,8 @@ void spell_locate_object( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     {
   if ( !can_see_obj( ch, obj ) || !is_name( target_name, obj->name ) 
       ||   IS_OBJ_STAT(obj,ITEM_NOLOCATE) || number_percent() > 2 * level
-  ||   ch->level < obj->level)
+  ||   ch->level < obj->level || is_bounty_obj(obj))
       continue;
-
-  found = TRUE;
-        number++;
 
   for ( in_obj = obj; in_obj->in_obj != NULL; in_obj = in_obj->in_obj )
       ;
@@ -5814,14 +6025,21 @@ void spell_locate_object( int sn, int level, CHAR_DATA *ch, void *vo,int target)
       if (IS_IMMORTAL(ch) && in_obj->in_room != NULL)
     sprintf( buf, "one is in %s [Room %d]\n\r",
         in_obj->in_room->name, in_obj->in_room->vnum);
-      else 
+      else
+      {
+	if(in_obj->carried_by != NULL && !can_see(ch,in_obj->carried_by,TRUE))
+  		continue;// No locating objects on immortals you can't see 
         sprintf( buf, "one is in %s\n\r",
         in_obj->in_room == NULL
           ? "somewhere" : in_obj->in_room->name );
+      }
   }
 
   buf[0] = UPPER(buf[0]);
   add_buf(buffer,buf);
+
+  found = TRUE;
+        number++;
 
       if (number >= max_found)
       break;
@@ -5995,11 +6213,13 @@ void spell_plague( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     {
         switch( class_table[ch->class].fMana )
         {
-        case 0:af.duration = level/4;break;
-        case 1:af.duration = level/2;break;
-        case 2:af.duration = level;break;
+        case 0:af.duration = level/7;break;
+        case 1:af.duration = level/6;break;
+        case 2:af.duration = level/5;break;
         default:af.duration = level;break;
         }
+	if(af.duration < 5)
+		af.duration = 5;
     }
     af.location  = APPLY_STR;
     af.modifier  = -3; 
@@ -6012,13 +6232,12 @@ void spell_plague( int sn, int level, CHAR_DATA *ch, void *vo, int target )
   victim,NULL,NULL,TO_ROOM,FALSE);
     }
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch  && victim->clan != ch->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_plague(sn,level+2,victim,ch,target);
     }   
+
+    apply_mala_damage(ch, victim, MALA_NORMAL_DAMAGE);
 
     return;
 }
@@ -6111,7 +6330,7 @@ void spell_poison( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     af.where     = TO_AFFECTS;
     af.type      = sn;
     af.level     = level;
-    af.duration  = level;
+    af.duration  = UMAX(6, level / 5);
     af.location  = APPLY_STR;
     af.modifier  = -1;
     af.bitvector = AFF_POISON;
@@ -6120,13 +6339,12 @@ void spell_poison( int sn, int level, CHAR_DATA *ch, void *vo, int target )
     act("$n looks very ill.",victim,NULL,NULL,TO_ROOM,FALSE);
     }
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch && ch->clan != victim->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_poison(sn,level+2,victim,ch,target);
     }   
+
+    apply_mala_damage(ch, victim, MALA_NORMAL_DAMAGE);
 
     return;
 }
@@ -6254,6 +6472,12 @@ void spell_ray_of_truth (int sn, int level, CHAR_DATA *ch, void *vo,int target)
         send_to_char("The energy explodes inside you!\n\r",ch);
     }
  
+    if((victim != ch || !IS_EVIL(ch)) && IS_SET(ch->in_room->room_affects, RAFF_SHADED))
+    {
+      send_to_char("The darkness swallows up your burst of light.\n\r", ch);
+      return;
+    }
+
     if (victim != ch)
     {
         act("$n raises $s hand, and a blinding ray of light shoots forth!",
@@ -6261,6 +6485,26 @@ void spell_ray_of_truth (int sn, int level, CHAR_DATA *ch, void *vo,int target)
         send_to_char(
      "You raise your hand and a blinding ray of light shoots forth!\n\r",
      ch);
+    }
+
+    if(IS_SET(victim->affected_by_ext, AFF_EXT_SHADED))
+    {// Light damage component of this spell always works on shadows
+      AFFECT_DATA *light = affect_find(ch->affected,gsn_light_blast);
+      if(light)
+        light->duration = UMAX(1, light->duration);
+      else
+      {
+        AFFECT_DATA af;
+        af.where  = TO_AFFECTS;
+        af.type   = gsn_light_blast;
+        af.level  = ch->level;
+        af.duration = 1;
+        af.location = APPLY_NONE;
+        af.modifier = 0;
+        af.bitvector  = 0;
+        af.caster_id = ch->id;
+        affect_to_char(victim, &af);
+      }
     }
 
     if (IS_GOOD(victim))
@@ -6403,15 +6647,29 @@ void spell_remove_curse( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     {
   obj = (OBJ_DATA *) vo;
 
-  if (IS_OBJ_STAT(obj,ITEM_NODROP) || IS_OBJ_STAT(obj,ITEM_NOREMOVE))
+  if ((IS_OBJ_STAT(obj,ITEM_NODROP) || IS_OBJ_STAT(obj,ITEM_NOREMOVE))
+    && !IS_SET(obj->extra_flags2, ITEM2_TEMP_UNCURSED))
   {
-      if (!IS_OBJ_STAT(obj,ITEM_NOUNCURSE)
-      &&  !saves_dispel(level + 2,obj->level,0))
+      if (!IS_OBJ_STAT(obj,ITEM_NOUNCURSE))
       {
-    REMOVE_BIT(obj->extra_flags,ITEM_NODROP);
-    REMOVE_BIT(obj->extra_flags,ITEM_NOREMOVE);
-    act("$p glows blue.",ch,obj,NULL,TO_ALL,FALSE);
-    return;
+        if(!saves_dispel(level + 2,obj->level,0))
+        {
+      REMOVE_BIT(obj->extra_flags,ITEM_NODROP);
+      REMOVE_BIT(obj->extra_flags,ITEM_NOREMOVE);
+      act("$p glows blue.",ch,obj,NULL,TO_ALL,FALSE);
+      return;
+        }
+      }
+      else
+      {
+        int min = UMIN(obj->level - 5 + level / 10, level - 5);
+        if(!IS_SET(obj->extra_flags2, ITEM2_TEMP_UNCURSED) &&
+          !saves_dispel(min,obj->level,0))
+        {
+          SET_BIT(obj->extra_flags2, ITEM2_TEMP_UNCURSED);
+          act("$p glows a faint blue.",ch,obj,NULL,TO_ALL,FALSE);
+          return;
+        }
       }
 
       act("The curse on $p is beyond your power.",ch,obj,NULL,TO_CHAR,FALSE);
@@ -6424,7 +6682,7 @@ void spell_remove_curse( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     victim = (CHAR_DATA *) vo;
 
 /* Adding in so people just dont remove curse others without worry */
-    if( (is_safe(ch,victim) && !is_same_group(ch,victim) 
+/*    if( (is_safe(ch,victim) && !is_same_group(ch,victim) 
         && !is_same_clan(ch,victim) && !IS_NPC(ch) )
         || (!is_clan(ch) && IS_SET(victim->act,PLR_NOCANCEL)))
     {
@@ -6441,20 +6699,49 @@ void spell_remove_curse( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     {
 	send_to_char("You failed.\n\r",ch);
 	return;
-    }
+    }*/
 
+  if(is_affected( victim, gsn_curse))
+  {
     if (check_dispel(level,victim,gsn_curse))
     {
   send_to_char("You feel better.\n\r",victim);
   act("$n looks more relaxed.",victim,NULL,NULL,TO_ROOM,FALSE);
   return;
     }
+    act("You failed to lift the curse from $N.",ch,NULL,victim,TO_CHAR,FALSE);
+    return;
+  }
+
+    if (((!IS_NPC(ch) && IS_NPC(victim) &&
+   !(IS_AFFECTED(ch, AFF_CHARM) && ch->master == victim) ) ||
+        (IS_NPC(ch) && !IS_NPC(victim)) ||
+        (!IS_NPC(victim) && IS_SET (victim->act,PLR_NOCANCEL) && (ch != victim)))
+    && (!IS_NPC(ch) || !IS_SET(ch->act, ACT_IS_HEALER))
+    )
+    {
+  send_to_char("You failed, target must be cancellable to uncurse an item.\n\r",ch);
+  return;
+    }
 
    for (obj = victim->carrying; (obj != NULL && !found); obj = obj->next_content)
    {
-        if ((IS_OBJ_STAT(obj,ITEM_NODROP) || IS_OBJ_STAT(obj,ITEM_NOREMOVE))
-  &&  !IS_OBJ_STAT(obj,ITEM_NOUNCURSE))
+        if ((IS_OBJ_STAT(obj,ITEM_NODROP) || IS_OBJ_STAT(obj,ITEM_NOREMOVE)))
         {   /* attempt to remove curse */
+          if(IS_OBJ_STAT(obj,ITEM_NOUNCURSE) &&
+            !IS_SET(obj->extra_flags2, ITEM2_TEMP_UNCURSED))
+          {// Harder than uncursing it directly
+            int min = UMIN(obj->level - 8 + level / 10, level - 8);
+            if(!IS_SET(obj->extra_flags2, ITEM2_TEMP_UNCURSED) &&
+              !saves_dispel(min,obj->level,0))
+            {
+              SET_BIT(obj->extra_flags2, ITEM2_TEMP_UNCURSED);
+              act("$p glows a faint blue.",ch,obj,NULL,TO_ALL,FALSE);
+              return;
+            }
+          }
+          else
+          {
             if (!saves_dispel(level,obj->level,0))
             {
                 found = TRUE;
@@ -6464,6 +6751,7 @@ void spell_remove_curse( int sn, int level, CHAR_DATA *ch, void *vo,int target)
                 act("$n's $p glows blue.",victim,obj,NULL,TO_ROOM,FALSE);
             }
          }
+        }
     }
 }
 
@@ -6571,6 +6859,11 @@ void spell_entrance( int sn, int level, CHAR_DATA *ch, void *vo,int target)
        send_to_char("Highlanders can not entrance.\n\r",ch);
        return;
     }
+    if(IS_NPC(victim) && victim->pIndexData->vnum == MOB_VNUM_CLAN_GUARDIAN)
+    {
+      send_to_char("Guardians may not be mentally manipulated.\n\r", ch);
+      return;
+    }
 
     if (ch->level < victim->level)
     {
@@ -6609,6 +6902,11 @@ void spell_sleep( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     {
        send_to_char("Highlanders are immune to that.\n\r",ch);
        return;
+    }
+    if(IS_NPC(victim) && victim->pIndexData->vnum == MOB_VNUM_CLAN_GUARDIAN)
+    {
+      send_to_char("Guardians may not be mentally manipulated.\n\r", ch);
+      return;
     }
 
     level = UMIN(level,ch->level);
@@ -6653,13 +6951,12 @@ void spell_sleep( int sn, int level, CHAR_DATA *ch, void *vo,int target)
   victim->position = POS_SLEEPING;
     }
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch && ch->clan != victim->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_sleep(sn,level+2,victim,ch,target);
     }   
+
+    apply_mala_damage(ch, victim, MALA_NORMAL_DAMAGE);
 
     return;
 }
@@ -6741,13 +7038,12 @@ void spell_slow( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     send_to_char( "You feel yourself slowing d o w n...\n\r", victim );
     act("$n starts to move in slow motion.",victim,NULL,NULL,TO_ROOM,FALSE);
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch && ch->clan != victim->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_slow(sn,level+2,victim,ch,target);
     }   
+
+    apply_mala_damage(ch, victim, MALA_NORMAL_DAMAGE);
 
     return;
 }
@@ -6815,6 +7111,8 @@ void spell_summon( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     if ( ( victim = get_char_world( ch, target_name ) ) == NULL
     ||   victim == ch
     ||   victim->in_room == NULL
+    ||   victim->in_room->vnum < 0
+    ||   ch->in_room->vnum < 0
     ||   IS_SET(ch->in_room->room_flags, ROOM_SAFE)
     ||   IS_SET(victim->in_room->room_flags, ROOM_SAFE)
     ||   IS_SET(victim->in_room->room_flags, ROOM_PRIVATE)
@@ -6834,7 +7132,8 @@ void spell_summon( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     ||  victim->in_room->area->no_transport
     ||   (IS_SET(ch->in_room->room_flags,ROOM_NOCLAN) && 
 	  (is_clan(victim) || IS_SET(ch->mhs,MHS_HIGHLANDER)))
-    ||  ch->in_room->area->no_transport )
+    ||  ch->in_room->area->no_transport 
+    ||  is_bounty_target(victim, FALSE))
 
     {
   send_to_char( "You failed.\n\r", ch );
@@ -6848,6 +7147,11 @@ void spell_summon( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     }
 
 /* NIGHTDAGGER added code to prevent summoning mobs in with slept etc. people*/
+    if(is_clan(ch) && is_clan(victim) && ch->pcdata->start_time > 0)
+    {
+      send_to_char("You just got here, you must wait before summoning them.\n\r", ch);
+      return;
+    }
 
     legal = TRUE;
     for ( ich = ch->in_room->people; ich != NULL; ich = ich->next_in_room)
@@ -6925,15 +7229,12 @@ void spell_teleport( int sn, int level, CHAR_DATA *ch, void *vo,int target )
     if (victim->fighting != NULL) stop_fighting(victim,FALSE);
     char_from_room( victim );
     char_to_room( victim, pRoomIndex );
-    clear_mount(ch);
+    clear_mount(victim);
     act( "$n slowly fades into existence.", victim, NULL, NULL, TO_ROOM ,FALSE);
     do_look( victim, "auto" );
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch && victim->clan != ch->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_teleport(sn,level+2,victim,ch,target);
     }   
     return;
@@ -7005,13 +7306,12 @@ void spell_weaken( int sn, int level, CHAR_DATA *ch, void *vo,int target)
     send_to_char( "You feel your strength slip away.\n\r", victim );
     act("$n looks tired and weak.",victim,NULL,NULL,TO_ROOM,FALSE);
 
-    if(is_affected(victim,skill_lookup("annointment")) && victim != ch && ch->clan != victim->clan)
+    if(check_annointment(victim, ch))
     {
-        send_to_char( "The Almighty rebukes your attacker.\n\r", victim ); 
-        act( "The Almighty rebukes you for harming $N.",ch,NULL,victim,
-            TO_CHAR,FALSE);
         spell_weaken(sn,level+2,victim,ch,target);
     }   
+
+    apply_mala_damage(ch, victim, MALA_NORMAL_DAMAGE);
 
     return;
 }
@@ -7444,7 +7744,8 @@ void spell_animate_dead ( int sn, int level, CHAR_DATA *ch, void *vo, int targ)
   act( "$N raises from the dead and bows before you.", ch, NULL, victim, TO_CHAR ,FALSE);
 
   add_follower( victim, ch );
-  victim->leader = ch;
+  //victim->leader = ch;
+  add_to_group(victim, ch);
   SET_BIT(victim->affected_by,AFF_CHARM); /* quick-charm */
   victim->life_timer = obj->timer*2;
   if (victim->life_timer == 0) {
@@ -7540,7 +7841,8 @@ void spell_summon_dead (  int sn, int level, CHAR_DATA *ch, void *vo,int target)
   act( "A dark hole opens to reveal a skeletal warrior.",ch, NULL, victim,TO_CHAR,FALSE);
 
   add_follower( victim, ch );
-  victim->leader = ch;
+  //victim->leader = ch;
+  add_to_group(victim, ch);
   SET_BIT(victim->form,FORM_INSTANT_DECAY);
   SET_BIT(victim->affected_by,AFF_CHARM); /* quick-charm */
   if ( ch->kit == kit_lookup("necromancer") )
@@ -7661,7 +7963,8 @@ void spell_turn_undead ( int sn, int level, CHAR_DATA *ch, void *vo,int target)
         if (gch->leader == ch) 
 	{
        	   REMOVE_BIT(gch->affected_by,AFF_CHARM);
-           gch->leader = NULL;
+           //gch->leader = NULL;
+           remove_from_group(gch);
            gch->master = NULL;
     	}
   	multi_hit(gch,ch,TYPE_UNDEFINED);

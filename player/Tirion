@@ -3,8 +3,8 @@ Name Tirion~
 SurN Aman~
 Id   1056243294
 Email (null)~
-LogO 1129336489
-Vers 31
+LogO 1320972307
+Vers 32
 Desc As you stare at a strange tall figure within the deep dark forest...
 You see a pair of two glowing eyes...but not any pair of eyes...these
 eyes make you feel very uncomfortable and uneasy.
@@ -43,12 +43,13 @@ Prom <%hhp %mm %vmv {W%w{xlbs> ({W%g{x gold) ~
 Race lasher~
 Outc 0
 RufT 0
-MatookT 0
-SkPTimer 28
-SkPTracker 12
+MatookT 53
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -60,6 +61,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 30000 huitzilopochtli~
 Sac  300
 Sex  1
@@ -68,22 +73,22 @@ Node 0
 Cap 0
 Created 1056243304
 Glad 0 0 0 0 0 0
-LastHost w160152.wireless.fsr.net~
+LastHost 14.45.217.30~
 Cla  11
 Kit necromancer~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 119664
-Not  1129257479 1129257479 1129257479 1129257479 1129257479 1129257479 1129257479 1129257479 1129257479 1129257479
+Plyd 135029
+Not  1320196285 1320196285 1320196285 1320196285 1320196285 1320196285 1320196285 1320196285 1320196285 1320196285
 Scro 22
 Rank 0
-Room 3001
-HMV  319 696 504 1188 175 413
-Gold 740
-Silv 25341
+Room 16502
+HMV  721 721 1363 1363 396 413
+Gold 977
+Silv 4085
 Exp  108511
-Act  CDGHIKMQS
+Act  DGHIKMQS
 MHSF RX
 AfBy T
 Comm S
@@ -92,25 +97,27 @@ IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 4
-SkiP 171
-Save  -6
+Prac 7
+ReTrai 5
+StatsTrained 30 40 0
+SkiP 28
+Save  -10
 Alig  -1000
-Hit   26
-Dam   25
-SecHit   26
-SecDam   25
-ACs -56 -50 -51 -52
+Hit   34
+Dam   24
+SecHit   22
+SecDam   12
+ACs 14 14 19 31
 Wimp  20
-Attr 19 22 20 15 21 16 20 18
-AMod 6 3 3 0 2 0 0 0
+Attr 19 22 20 17 22 10 11 18
+AMod 6 3 3 0 1 0 0 0
 Pass TiVk1m0QBJlVE~
 Titl , {WLord{x {DDracon{x [Vamp/17]~
 Pnts 57
 TSex 1
 LLev 14
-HMVP 586 1038 413
-Cnd  0 15 15 15
+HMVP 616 1078 413
+Cnd  0 0 5 0
 Sk 100 'acid blast'
 Sk 79 'armor'
 Sk 91 'blindness'
@@ -135,8 +142,10 @@ Sk 77 'detect hidden'
 Sk 83 'detect invis'
 Sk 75 'detect magic'
 Sk 75 'detect poison'
-Sk 77 'diamond skin'
+Sk 79 'diamond skin'
 Sk 86 'dispel magic'
+Sk 89 'enchant armor'
+Sk 75 'enchant weapon'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
 Sk 100 'energy drain'
@@ -148,17 +157,17 @@ Sk 75 'feast'
 Sk 87 'feeblemind'
 Sk 75 'fireball'
 Sk 75 'fireproof'
-Sk 75 'flameseek'
+Sk 78 'flameseek'
 Sk 75 'floating disc'
 Sk 75 'fly'
 Sk 78 'forget'
 Sk 95 'fumble'
 Sk 93 'gate'
-Sk 81 'giant strength'
+Sk 83 'giant strength'
 Sk 84 'haste'
-Sk 87 'identify'
+Sk 89 'identify'
 Sk 75 'infravision'
-Sk 76 'invisibility'
+Sk 79 'invisibility'
 Sk 75 'knock'
 Sk 75 'know alignment'
 Sk 75 'lightning bolt'
@@ -173,26 +182,27 @@ Sk 75 'portal'
 Sk 75 'protection evil'
 Sk 81 'protection good'
 Sk 75 'protection neutral'
+Sk 1 'recharge'
 Sk 79 'refresh'
 Sk 1 'sacred guardian'
 Sk 89 'sanctuary'
 Sk 78 'shield'
 Sk 75 'shocking grasp'
 Sk 96 'slow'
-Sk 76 'stone skin'
-Sk 94 'summon'
+Sk 79 'stone skin'
+Sk 98 'summon'
 Sk 94 'teleport'
 Sk 75 'ventriloquate'
 Sk 75 'warp'
 Sk 92 'weaken'
 Sk 81 'word of recall'
-Sk 75 'animate dead'
+Sk 78 'animate dead'
 Sk 94 'summon dead'
-Sk 75 'cryogenesis'
+Sk 78 'cryogenesis'
 Sk 85 'draw life'
 Sk 75 'make bag'
-Sk 75 'wraithform'
-Sk 84 'turn undead'
+Sk 78 'wraithform'
+Sk 85 'turn undead'
 Sk 75 'withstand death'
 Sk 75 'wound transfer'
 Sk 100 'dagger'
@@ -212,6 +222,7 @@ Gr 'mage basics'
 Gr 'combat'
 Gr 'creation'
 Gr 'detection'
+Gr 'enchantment'
 Gr 'enhancement'
 Gr 'illusion'
 Gr 'maladictions'
@@ -219,9 +230,7 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'stone skin'   0  50  25 -40  17          0
-Affc 'armor'   0  48  10 -20  17          0
-Affc 'giant strength'   0  44  24   4   1          0
+Affc 'giant strength'   0  51  51   4   1          0
 End
 
 #O
@@ -229,7 +238,7 @@ Vnum 1345
 Nest 0
 PrevOwner Tirion~
 Cond 0
-Wear -1
+Wear 12
 Cost 0
 End
 
@@ -280,15 +289,6 @@ Wear -1
 Cost 300
 Spell 1 'teleport'
 Spell 2 'remove curse'
-End
-
-#O
-Vnum 5902
-Nest 1
-PrevOwner Tirion~
-Cond 0
-Wear -1
-Cost 4000
 End
 
 #O
@@ -352,39 +352,12 @@ Cost 1000
 End
 
 #O
-Vnum 10710
-Nest 1
-PrevOwner Tirion~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 6430
-Nest 1
-PrevOwner Tirion~
-Cond 0
-Wear -1
-Cost 3900
-End
-
-#O
 Vnum 10419
 Nest 1
 PrevOwner Tirion~
 Cond 0
 Wear -1
 Cost 1330
-End
-
-#O
-Vnum 10726
-Nest 1
-PrevOwner Tirion~
-Cond 0
-Wear -1
-Cost 2500
 End
 
 #O
@@ -486,20 +459,6 @@ Val  1 10 4 38 516
 End
 
 #O
-Vnum 10337
-Enchanted
-Nest 1
-PrevOwner Tirion~
-ExtF 536871267
-Cond 0
-Wear -1
-Cost 0
-Val  7 2 20 38 5
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
 Vnum 18104
 Nest 1
 PrevOwner Tirion~
@@ -509,22 +468,30 @@ Cost 4000
 End
 
 #O
-Vnum 4830
-Nest 1
-PrevOwner Tirion~
-ExtF 97
-Cond 0
-Wear -1
-Cost 5500
-End
-
-#O
 Vnum 5912
 Nest 1
 PrevOwner Tirion~
 Cond 0
 Wear -1
 Cost 3000
+End
+
+#O
+Vnum 6430
+Nest 1
+PrevOwner Tirion~
+Cond 0
+Wear -1
+Cost 3900
+End
+
+#O
+Vnum 15227
+Nest 1
+PrevOwner Tirion~
+Cond 0
+Wear -1
+Cost 20000
 End
 
 #O
@@ -582,21 +549,69 @@ Cost 100000
 End
 
 #O
+Vnum 22044
+Nest 2
+PrevOwner Tirion~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 913
+Enchanted
+Nest 1
+PrevOwner Tirion~
+ExtF 1123
+Cond 0
+Wear -1
+Lev  42
+Cost 3600
+Val  5 3 11 1 512
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
+End
+
+#O
+Vnum 10726
+Nest 1
+PrevOwner Tirion~
+Cond 0
+Wear -1
+Cost 2500
+End
+
+#O
+Vnum 4830
+Nest 1
+PrevOwner Tirion~
+ExtF 97
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 10337
+Enchanted
+Nest 1
+PrevOwner Tirion~
+ExtF 536871267
+Cond 0
+Wear -1
+Cost 0
+Val  7 2 20 38 5
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
 Vnum 22504
 Nest 0
 PrevOwner Tirion~
 Cond 0
 Wear 0
 Cost 0
-End
-
-#O
-Vnum 5922
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear 4
-Cost 300
 End
 
 #O
@@ -609,15 +624,6 @@ Cost 13700
 End
 
 #O
-Vnum 5922
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear 3
-Cost 300
-End
-
-#O
 Vnum 5914
 Nest 0
 PrevOwner Tirion~
@@ -627,15 +633,6 @@ Cond 0
 Wear 6
 Cost 4000
 Val  7 7 7 4 4
-End
-
-#O
-Vnum 2435
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear 7
-Cost 2000
 End
 
 #O
@@ -657,39 +654,12 @@ Cost 4500
 End
 
 #O
-Vnum 15227
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear 12
-Cost 20000
-End
-
-#O
-Vnum 5909
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear 2
-Cost 3000
-End
-
-#O
 Vnum 5938
 Nest 0
 PrevOwner Tirion~
 Cond 0
 Wear 13
 Cost 4000
-End
-
-#O
-Vnum 5909
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear 1
-Cost 3000
 End
 
 #O
@@ -722,15 +692,6 @@ Cost 4250
 End
 
 #O
-Vnum 8545
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 9
-Cost 3400
-End
-
-#O
 Vnum 8544
 Nest 0
 PrevOwner (null)~
@@ -749,15 +710,6 @@ Cost 9999
 End
 
 #O
-Vnum 5907
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 17
-Cost 4000
-End
-
-#O
 Vnum 28005
 Nest 0
 PrevOwner Tirion~
@@ -766,69 +718,6 @@ Wear -1
 Cost 5000
 Val  2 5 8 11 14
 Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Tirion~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -841,35 +730,108 @@ Cost 6000
 End
 
 #O
-Vnum 8503
+Vnum 23513
 Nest 0
-PrevOwner Tirion~
+PrevOwner (null)~
 Cond 0
-Wear -1
-Cost 5000
+Wear 4
+Cost 6410
 End
 
 #O
-Vnum 22552
-Enchanted
+Vnum 23513
 Nest 0
-PrevOwner Kerbouchard~
-ExtF 67
-Stolen 412
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 6410
+End
+
+#O
+Vnum 23512
+Nest 0
+PrevOwner Tirion~
+Cond 0
+Wear 2
+Cost 0
+End
+
+#O
+Vnum 23512
+Nest 0
+PrevOwner Tirion~
+Cond 0
+Wear 1
+Cost 0
+End
+
+#O
+Vnum 15223
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 7
+Cost 6500
+End
+
+#O
+Vnum 4805
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear 9
+Cost 5500
+End
+
+#O
+Vnum 5909
+Nest 0
+PrevOwner Tirion~
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  52  -1  12  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #O
-Vnum 22044
+Vnum 5909
 Nest 0
 PrevOwner Tirion~
 Cond 0
 Wear -1
-Cost 100000
+Cost 0
+End
+
+#O
+Vnum 5909
+Nest 0
+PrevOwner Bewilder~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10710
+Nest 0
+PrevOwner Tirion~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 12003
+Enchanted
+Nest 0
+PrevOwner Orcus~
+ExtF 2114
+Cond 0
+Wear -1
+Lev  43
+Cost 3500
+Affc 'enchant weapon'   1  52  -1  -1  18          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
+Affc 'reserved'   1  40  -1  -5  17          0
 End
 
 #O
@@ -890,18 +852,125 @@ Affc 'reserved'   0  38  -1   0   0        512
 End
 
 #O
-Vnum 913
+Vnum 3005
+Nest 0
+PrevOwner Tirion~
+Cond 0
+Wear -1
+Cost 5600
+End
+
+#O
+Vnum 3005
+Nest 0
+PrevOwner Tirion~
+Cond 0
+Wear -1
+Cost 5600
+End
+
+#O
+Vnum 3072
+Enchanted
+Nest 0
+PrevOwner Freaky~
+ExtF 65
+Cond 0
+Wear -1
+Lev  8
+Cost 0
+Affc 'enchant armor'   1  52  -1  -4  17          0
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner Bewilder~
+ExtF 257
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner Bewilder~
+ExtF 257
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner Bewilder~
+ExtF 257
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner Bewilder~
+ExtF 257
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner Bewilder~
+ExtF 257
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22552
 Enchanted
 Nest 0
 PrevOwner Tirion~
-ExtF 1123
+ExtF 67
+Stolen 38
+Cond 0
+Wear 16
+Cost 0
+Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Tirion~
 Cond 0
 Wear -1
-Lev  42
-Cost 3600
-Val  5 3 11 1 512
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'enchant weapon'   0  53  -1   7  18          0
+Cost 5000
+End
+
+#O
+Vnum 5902
+Nest 0
+PrevOwner Tirion~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 5907
+Nest 0
+PrevOwner Orald~
+Cond 0
+Wear -1
+Cost 4000
 End
 
 #END

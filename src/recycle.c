@@ -266,6 +266,300 @@ void free_extra_descr(EXTRA_DESCR_DATA *ed)
     extra_descr_free = ed;
 }
 
+/* stuff for recycling clan data */
+CLAN_DATA *clan_free = NULL;
+
+CLAN_DATA *new_clan(void)
+{
+    static CLAN_DATA clan_zero;
+    CLAN_DATA *clan;
+
+    if (clan_free == NULL)
+    {
+#ifdef OLC_VERSION
+   clan = alloc_perm(sizeof(*clan));
+#else
+  clan = GC_MALLOC(sizeof(*clan));
+#endif
+    }
+    else
+    {
+  clan = clan_free;
+  clan_free = clan_free->next;
+    }
+
+    *clan = clan_zero;
+
+    VALIDATE(clan);
+
+    return clan;
+}
+
+void free_clan(CLAN_DATA *clan)
+{
+    if (!IS_VALID(clan))
+  return;
+
+ clear_string(&clan->name, NULL);
+ clear_string(&clan->charter, NULL);
+ clear_string(&clan->rules, NULL);
+    INVALIDATE(clan);
+    clan->next = clan_free;
+    clan_free = clan;
+  while(clan->to_match)
+  {
+    MERIT_TRACKER *temp = clan->to_match->next;
+    free_merit(clan->to_match);
+    clan->to_match = temp;
+  }
+}
+
+/* stuff for recycling damage tracking */
+CLAN_CHAR *clan_char_free = NULL;
+
+CLAN_CHAR *new_clan_char(void)
+{
+    static CLAN_CHAR cc_zero;
+    CLAN_CHAR *cchar;
+
+    if (clan_char_free == NULL)
+#ifdef OLC_VERSION
+   cchar = alloc_perm(sizeof(*cchar));
+#else
+  cchar = GC_MALLOC(sizeof(*cchar));
+#endif
+    else
+    {
+  cchar = clan_char_free;
+  clan_char_free = clan_char_free->next;
+    }
+
+    *cchar = cc_zero;
+
+
+    VALIDATE(cchar);
+
+    return cchar;
+}
+
+void free_clan_char(CLAN_CHAR *cchar)
+{
+    if (!IS_VALID(cchar))
+  return;
+
+    INVALIDATE(cchar);
+    cchar->next = clan_char_free;
+    clan_char_free = cchar;
+  clear_string(&cchar->messages, NULL);
+  while(cchar->delay_merit)
+  {
+    MERIT_TRACKER *temp = cchar->delay_merit->next;
+    free_merit(cchar->delay_merit);
+    cchar->delay_merit = temp;
+  }
+}
+
+/* stuff for recycling damage tracking */
+ALLIANCE_DATA *ally_free = NULL;
+
+ALLIANCE_DATA *new_ally(void)
+{
+    static ALLIANCE_DATA ad_zero;
+    ALLIANCE_DATA *ally;
+
+    if (ally_free == NULL)
+#ifdef OLC_VERSION
+   ally = alloc_perm(sizeof(*ally));
+#else
+  ally = GC_MALLOC(sizeof(*ally));
+#endif
+    else
+    {
+  ally = ally_free;
+  ally_free = ally_free->next;
+    }
+
+    *ally = ad_zero;
+
+
+    VALIDATE(ally);
+
+    return ally;
+}
+
+void free_ally(ALLIANCE_DATA *ally)
+{
+    if (!IS_VALID(ally))
+  return;
+
+    INVALIDATE(ally);
+    ally->next = ally_free;
+    ally_free = ally;
+}
+
+/* stuff for recycling damage tracking */
+MERIT_TRACKER *merit_free = NULL;
+
+MERIT_TRACKER *new_merit(void)
+{
+    static MERIT_TRACKER mt_zero;
+    MERIT_TRACKER *merit;
+
+    if (merit_free == NULL)
+#ifdef OLC_VERSION
+  merit = alloc_perm(sizeof(*merit));
+#else
+  merit = GC_MALLOC(sizeof(*merit));
+#endif
+    else
+    {
+  merit = merit_free;
+  merit_free = merit_free->next;
+    }
+
+    *merit = mt_zero;
+
+
+    VALIDATE(merit);
+
+    return merit;
+}
+
+void free_merit(MERIT_TRACKER *merit)
+{
+  if (!IS_VALID(merit))
+    return;
+
+  INVALIDATE(merit);
+  merit->next = merit_free;
+  merit_free = merit;
+}
+
+
+/* stuff for recycling plan data */
+PLAN_DATA *plan_free = NULL;
+
+PLAN_DATA *new_plan(void)
+{
+    static PLAN_DATA plan_zero;
+    PLAN_DATA *plan;
+
+    if (plan_free == NULL)
+#ifdef OLC_VERSION
+   plan = alloc_perm(sizeof(*plan));
+#else
+  plan = GC_MALLOC(sizeof(*plan));
+#endif
+    else
+    {
+  plan = plan_free;
+  plan_free = plan_free->next;
+    }
+
+    *plan = plan_zero;
+
+    VALIDATE(plan);
+    plan->label = NULL;
+    return plan;
+}
+
+void free_plan(PLAN_DATA *plan)
+{
+    if (!IS_VALID(plan))
+  return;
+  
+  clear_string(&plan->label, NULL);
+  clear_string(&plan->name, NULL);
+  clear_string(&plan->short_d, NULL);
+  clear_string(&plan->long_d, NULL);
+  clear_string(&plan->desc, NULL);
+  clear_string(&plan->previewer, NULL);
+
+  if(plan->exits != NULL)
+  {
+    free_p_exit(plan->exits);
+    plan->exits = NULL;
+  }
+  
+  INVALIDATE(plan);
+  plan->next = plan_free;
+  plan_free = plan;
+}
+
+/* stuff for recycling plan exit data */
+PLAN_EXIT_DATA *p_exit_free = NULL;
+
+PLAN_EXIT_DATA *new_p_exit(void)
+{
+    int i;
+    static PLAN_EXIT_DATA p_exit_zero;
+    PLAN_EXIT_DATA *p_exit;
+
+    if (p_exit_free == NULL)
+#ifdef OLC_VERSION
+   p_exit = alloc_perm(sizeof(*p_exit) * 6);
+#else
+  p_exit = GC_MALLOC(sizeof(*p_exit) * 6);
+#endif
+    else
+    {
+  p_exit = p_exit_free;
+  p_exit_free = p_exit_free->next;
+    }
+    for(i = 0; i < 6; i++)
+      p_exit[i] = p_exit_zero;
+
+    VALIDATE(p_exit);
+    return p_exit;
+}
+
+void free_p_exit(PLAN_EXIT_DATA *p_exit)
+{
+    if (!IS_VALID(p_exit))
+  return;
+  
+  INVALIDATE(p_exit);
+  p_exit->next = p_exit_free;
+  p_exit_free = p_exit;
+}
+
+/* stuff for recycling damage tracking */
+DAMAGE_DATA *damage_free = NULL;
+
+DAMAGE_DATA *new_damage(void)
+{
+    static DAMAGE_DATA da_zero;
+    DAMAGE_DATA *da;
+
+    if (damage_free == NULL)
+#ifdef OLC_VERSION
+   da = alloc_perm(sizeof(*da));
+#else
+  da = GC_MALLOC(sizeof(*da));
+#endif
+    else
+    {
+  da = damage_free;
+  damage_free = damage_free->next;
+    }
+
+    *da = da_zero;
+
+
+    VALIDATE(da);
+    return da;
+}
+
+void free_damage(DAMAGE_DATA *da)
+{
+    if (!IS_VALID(da))
+  return;
+
+    INVALIDATE(da);
+    clear_string(&da->source, NULL);
+    da->next = damage_free;
+    damage_free = da;
+}
 
 /* stuff for recycling affects */
 AFFECT_DATA *affect_free = NULL;
@@ -368,6 +662,7 @@ void free_obj(OBJ_DATA *obj)
 {
     AFFECT_DATA *paf, *paf_next;
     EXTRA_DESCR_DATA *ed, *ed_next;
+    DAMAGE_DATA *ddata;
 
     if (!IS_VALID(obj))
   return;
@@ -385,11 +680,24 @@ void free_obj(OBJ_DATA *obj)
   free_extra_descr(ed);
      }
      obj->extra_descr = NULL;
-   
-    free_string( obj->name        );
-    free_string( obj->description );
-    free_string( obj->short_descr );
-    free_string( obj->owner     );
+
+    for(ddata = obj->loot_track; ddata; ddata = obj->loot_track)
+    {
+      obj->loot_track = obj->loot_track->next;
+      free_damage(ddata);
+    }
+    obj->loot_track = NULL;   
+
+    clear_string( &obj->name, NULL);
+    clear_string( &obj->description, NULL );
+    clear_string( &obj->short_descr, NULL );
+    clear_string( &obj->owner, NULL);
+    clear_string( &obj->material, NULL);
+    if(obj->link_name)
+    {
+      free_string(obj->link_name);
+      obj->link_name = NULL;
+    }
     INVALIDATE(obj);
 
     obj->next   = obj_free;
@@ -420,11 +728,11 @@ CHAR_DATA *new_char (void)
 
     *ch       = ch_zero;
     VALIDATE(ch);
-    ch->name                    = &str_empty[0];
-    ch->short_descr             = &str_empty[0];
-    ch->long_descr              = &str_empty[0];
-    ch->description             = &str_empty[0];
-    ch->prompt                  = &str_empty[0];
+    ch->name                    = str_dup("");//&str_empty[0];
+    ch->short_descr             = str_dup("");//&str_empty[0];
+    ch->long_descr              = str_dup("");//&str_empty[0];
+    ch->description             = str_dup("");//&str_empty[0];
+    ch->prompt                  = NULL;//str_dup("");//&str_empty[0];
     ch->logon                   = current_time;
     ch->lines                   = PAGELEN;
     for (i = 0; i < 4; i++)
@@ -464,6 +772,9 @@ void free_char (CHAR_DATA *ch)
   obj_next = obj->next_content;
   extract_obj(obj);
     }
+
+    while(ch->flash_affected)
+      flash_affect_remove(ch, ch->flash_affected, APPLY_BOTH);
 
     for (paf = ch->affected; paf != NULL; paf = paf_next)
     {

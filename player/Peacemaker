@@ -2,7 +2,7 @@
 Name Peacemaker~
 Id   976910668
 Email (null)~
-LogO 1123299642
+LogO 1307138520
 Vers 31
 LnD  A Gladiator~
 Prom %hhp %mm %vmv $%g|%r|%e|    ~
@@ -11,8 +11,8 @@ Clan loner~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 5
+SkPTimer 27
+SkPTracker 12
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -23,37 +23,37 @@ LstAtkedByTimer 0
 LstCombatDate 1020335319
 LstKillDate 1020335319
 LstDeathDate 1020335319
-LoginsWOKill 9
-LoginsWODeath 9
-LoginsWOCombat 9
+LoginsWOKill 12
+LoginsWODeath 12
+LoginsWOCombat 12
 Bnty 0
 Deity 131595 mojo~
 DeityT -167 matook~
-Sac  298
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 976910683
 Glad 0 0 0 0 0 0
-LastHost ndn-165-130-187.telkomadsl.co.za~
+LastHost 41.185.65.57~
 Cla  14
 Kit bladesinger~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 153660
+Plyd 156041
 Not  1099070378 1099070378 1099070378 1099070378 1099070378 1099070378 1099070378 1099070378 1099070378 1099070378
 Scro 22
 Rank 0
 Room 3001
-HMV  79 1621 401 447 221 487
-Gold 27
-Silv 23
+HMV  1617 1621 40 447 487 487
+Gold 67
+Silv 1246
 Exp  159222
 Act  CDGHJQS
 MHSF R
-AfBy JKPc
+AfBy JVc
 Comm GHS
 Disp BFGIJ
 IcgB 0
@@ -61,16 +61,16 @@ Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 57
-SkiP 103
-Save  -1
-Alig  -938
-Hit   30
-Dam   29
-SecHit   20
-SecDam   19
-ACs -77 -71 -77 -17
+SkiP 110
+Save  -7
+Alig  -797
+Hit   45
+Dam   38
+SecHit   47
+SecDam   40
+ACs -117 -111 -117 -57
 Attr 19 20 18 21 16 18 13 13
-AMod 0 0 0 6 2 0 0 0
+AMod 4 0 0 10 2 0 0 0
 Pass PecsVzef2tP2w~
 Titl  {BSEES{x {RALL{x{Y!{x~
 Pnts 66
@@ -105,7 +105,7 @@ Sk 1 'mass healing'
 Sk 1 'nexus'
 Sk 41 'pass door'
 Sk 1 'portal'
-Sk 42 'refresh'
+Sk 43 'refresh'
 Sk 1 'shocking grasp'
 Sk 1 'summon'
 Sk 1 'teleport'
@@ -141,12 +141,11 @@ Gr 'combat'
 Gr 'healing'
 Gr 'transportation'
 Gr 'garou'
-Affc 'sneak'   0  50  44   0   0      32768
-Affc 'curse'   0  51   9   3  24       1024
-Affc 'curse'   0  51   9  -3  18       1024
-Affc 'curse'   0  51   8   3  24       1024
-Affc 'curse'   0  48   8  -3  18       1024
-Affc 'stone skin'   0  31  21 -40  17          0
+Affc 'bladesong'   0  51   5 -80  17          0
+Affc 'bladesong'   0  51   5   8  19          0
+Affc 'bladesong'   0  51   5   8  18          0
+Affc 'haste'   0  53   9   4   2    2097152
+Affc 'giant strength'   0  45  28   4   1          0
 End
 
 #O
@@ -304,20 +303,6 @@ Cost 5500
 End
 
 #O
-Vnum 22506
-Enchanted
-Nest 0
-PrevOwner Jel~
-ExtF 536870979
-Cond 0
-Wear 16
-Lev  50
-Cost 1200
-Affc 'enchant weapon'   0  52  -1  10  18          0
-Affc 'enchant weapon'   1  52  -1  10  19          0
-End
-
-#O
 Vnum 10404
 Enchanted
 Nest 0
@@ -326,37 +311,9 @@ ExtF 4323
 Cond 0
 Wear -1
 Cost 15300
-Affc 'reserved'   1  50  -1  50  13          0
-Affc 'enchant weapon'   1  52  -1  10  18          0
 Affc 'enchant weapon'   1  52  -1  13  19          0
-End
-
-#O
-Vnum 23504
-Enchanted
-Nest 0
-PrevOwner Peacemaker~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 2250
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-End
-
-#O
-Vnum 18912
-Enchanted
-Nest 0
-PrevOwner Peacemaker~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 4800
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'enchant weapon'   0  53  -1  13  18          0
+Affc 'enchant weapon'   1  52  -1  10  18          0
+Affc 'reserved'   1  50  -1  50  13          0
 End
 
 #O
@@ -486,6 +443,89 @@ Cond 0
 Wear -1
 Cost 2200
 Spell 3 'burning hands'
+End
+
+#O
+Vnum 8601
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20803
+Enchanted
+Nest 0
+PrevOwner Deceased~
+ExtF 0
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 2410
+Enchanted
+Nest 0
+PrevOwner Deceased~
+ExtF 0
+Cond 0
+Wear -1
+Lev  50
+Cost 2000
+End
+
+#O
+Vnum 18912
+Enchanted
+Nest 0
+PrevOwner Peacemaker~
+ExtF 67
+Cond 0
+Wear 19
+Lev  50
+Cost 4800
+Affc 'enchant weapon'   0  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 0
+PrevOwner Deceased~
+ExtF 67
+Cond 0
+Wear 16
+Lev  50
+Cost 2250
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+End
+
+#O
+Vnum 22506
+Enchanted
+Nest 0
+PrevOwner Deceased~
+ExtF 536870979
+Cond 0
+Wear -1
+Lev  50
+Cost 1200
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
+End
+
+#O
+Vnum 10427
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 11800
 End
 
 #END

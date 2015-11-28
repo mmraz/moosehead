@@ -34,8 +34,8 @@ DECLARE_DO_FUN(do_look    );
 DECLARE_DO_FUN(do_recall  );
 DECLARE_DO_FUN(do_stand   );
 
-int clan_lookup   args( ( const char *name ) );
-void recall args( (CHAR_DATA *ch, char *argument, bool fPray ) );
+CLAN_DATA *clan_lookup   args( ( const char *name ) );
+bool recall args( (CHAR_DATA *ch, char *argument, bool fPray ) );
 bool  has_boat args( ( CHAR_DATA *ch ) );
 char	kludge_string[MAX_STRING_LENGTH];
 
@@ -218,6 +218,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     int cost = 0;
     bool fHighlander = FALSE;
     bool slipsafe = TRUE;
+    int move_time = 1;
 
     if ( is_affected(ch,gsn_trap) )
     {
@@ -238,7 +239,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     if ( slipsafe == FALSE && number_range(1,100) < 10 
        &&  weather_info.sky == SKY_RAINING )
     {
-	if ( number_range(1,55) > get_curr_stat(ch,STAT_AGT) + get_curr_stat(ch,STAT_DEX) )
+	if ( number_range(1,30) > get_curr_stat(ch,STAT_DEX) )
         {
 	send_to_char("You slip and fall.  Damn Weather!",ch);
 	return;
@@ -248,7 +249,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     if ( slipsafe == FALSE && number_range(1,100) < 15 
        &&  weather_info.sky == SKY_LIGHTNING )
     {
-        if ( number_range(1,65) > get_curr_stat(ch,STAT_AGT) + get_curr_stat(ch,STAT_DEX) )
+        if ( number_range(1,35) > get_curr_stat(ch,STAT_DEX) )
         {
         send_to_char("You slip and fall.  Damn Weather!",ch);
         return;
@@ -362,7 +363,32 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 	   send_to_char("Alas, you cannot go that way.\n\r",ch);
 	   return;
    }
-
+   if(to_room->vnum < 0)
+   {
+     CHAR_DATA *attempt = NULL;
+     if(IS_NPC(ch))
+     {
+       if(ch->master)
+       {
+         if(ch->master->pet == ch || ch->pIndexData->vnum == MOB_VNUM_CLAN_GUARDIAN)
+           attempt = ch->master;
+       }
+       if(!attempt || IS_NPC(attempt))
+       {
+         send_to_char("Alas, you cannot go that way.\n\r", ch);
+         return;
+       }
+     }
+     else
+       attempt = ch;
+     if(!IS_IMMORTAL(attempt) && (!attempt || !attempt->pcdata->clan_info ||
+       attempt->pcdata->clan_info->clan->vnum_min > abs(to_room->vnum) ||
+       attempt->pcdata->clan_info->clan->vnum_max < abs(to_room->vnum)))
+       {
+         send_to_char("Alas, you cannot go that way.\n\r", ch);
+         return;
+       }
+   }
     /* Banishment gift from almighty */
      if ( ch->clan && IS_SET(ch->mhs, MHS_BANISH) &&
 	 to_room->clan == ch->clan )
@@ -595,8 +621,69 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
 	    check_improve(ch,gsn_swim,TRUE,7);
 	 }
      }
-
-  WAIT_STATE( ch, IS_AFFECTED(ch,AFF_SLOW) ? 2 : 1 );
+  if(!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15)
+    move_time++;
+  if(IS_AFFECTED(ch, AFF_SLOW))
+    move_time *= 2;
+  if(IS_SET(ch->affected_by_ext, AFF_EXT_BLOODY))
+  {
+    AFFECT_DATA *paf;
+    move_time *= 2;
+    for(paf = ch->affected; paf; paf = paf->next)
+    {
+      if(paf->where == TO_AFFECTS_EXT && paf->bitvector == AFF_EXT_BLOODY)
+      {
+        break;
+      } 
+    }
+    if(paf && paf->modifier > 0 && paf->modifier <= 3)
+    {
+      if(ch->hit >= ch->max_hit || paf->level <= 0)
+      {
+        affect_strip(ch, gsn_hemorrhage);
+        if ( skill_table[gsn_hemorrhage].msg_off )
+        {
+          send_to_char( skill_table[gsn_hemorrhage].msg_off, ch );
+          send_to_char( "\n\r", ch );
+        }
+      }
+      else
+      {
+        OBJ_DATA *blood_trail;
+        OBJ_INDEX_DATA *blood_base;
+        if ((blood_base = get_obj_index(OBJ_VNUM_BLOOD)) != NULL )
+        {
+          char buf[256];
+          char *dirstr;
+          send_to_char("Your blood leaves a trail behind you as you move.\n\r", ch);
+          blood_trail = create_object(blood_base, 1, FALSE );
+          clear_string(&blood_trail->name, "blood");
+          clear_string(&blood_trail->short_descr, "a trail of blood");
+          switch(door)
+          {
+            case DIR_NORTH: dirstr = "north"; break;
+            case DIR_SOUTH: dirstr = "south"; break;
+            case DIR_EAST: dirstr = "east"; break;
+            case DIR_WEST: dirstr = "west"; break;
+            case DIR_UP: dirstr = "up"; break;
+            case DIR_DOWN: dirstr = "down"; break;
+            default: dirstr = "nowhere"; break;
+          }
+          sprintf(buf, "A trail of blood leads %s.", dirstr);
+          clear_string(&blood_trail->description, buf);
+          if(paf->modifier > 1)
+            blood_trail->timer = 2;
+          else
+            blood_trail->timer = 1;
+          obj_to_room(blood_trail, ch->in_room);
+        }
+        move_time += paf->modifier;/* Prevent bad modifier values */
+        paf->level -= 2;/* Limited duration */
+      }
+    }
+  }
+  WAIT_STATE(ch, move_time);
+//  WAIT_STATE( ch, IS_AFFECTED(ch,AFF_SLOW) ? 2 : 1 );
   if ( mount )
       mount->move -= apply_chi(mount,move);
   else
@@ -619,25 +706,33 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     if ( !IS_AFFECTED(ch, AFF_SNEAK)
     &&   ch->invis_level < LEVEL_HERO)
     {
-      if( swim == 0 )
+      if(IS_SET(ch->in_room->room_affects, RAFF_SHADED) &&
+      !IS_SET(ch->affected_by_ext, AFF_EXT_SHADED))
       {
-	 if ( is_mounted(ch) )
-	 {
-  act("$n leaves $t riding $N.",ch,dir_name[door],mount,TO_NOTVICT,FALSE);
-	 }
-	 else
-	 if(IS_SET(ch->mhs,MHS_SHAPEMORPHED) || (IS_SET(ch->mhs,MHS_GLADIATOR)
-	       && gladiator_info.blind == TRUE))
-            act( "$l leaves $T.", ch, NULL, dir_name[door], TO_ROOM ,FALSE);
-	 else
-            act( "$n leaves $T.", ch, NULL, dir_name[door], TO_ROOM ,FALSE);
+        act("$n leaves the room.",ch,NULL,NULL,TO_ROOM,FALSE);
       }
-         else
-	 if(IS_SET(ch->mhs,MHS_SHAPEMORPHED) || (IS_SET(ch->mhs,MHS_GLADIATOR)
-	       && gladiator_info.blind == TRUE))
-            act( "$l swims $T.", ch, NULL, dir_name[door], TO_ROOM ,FALSE);
-	 else
-            act( "$n swims $T.", ch, NULL, dir_name[door], TO_ROOM ,FALSE);
+      else
+      {
+        if( swim == 0 )
+        {
+  	 if ( is_mounted(ch) )
+  	 {
+    act("$n leaves $t riding $N.",ch,dir_name[door],mount,TO_NOTVICT,FALSE);
+  	 }
+  	 else
+  	 if(IS_SET(ch->mhs,MHS_SHAPEMORPHED) || (IS_SET(ch->mhs,MHS_GLADIATOR)
+  	       && gladiator_info.blind == TRUE))
+              act( "$l leaves $T.", ch, NULL, dir_name[door], TO_ROOM ,FALSE);
+  	 else
+              act( "$n leaves $T.", ch, NULL, dir_name[door], TO_ROOM ,FALSE);
+        }
+           else
+  	 if(IS_SET(ch->mhs,MHS_SHAPEMORPHED) || (IS_SET(ch->mhs,MHS_GLADIATOR)
+  	       && gladiator_info.blind == TRUE))
+              act( "$l swims $T.", ch, NULL, dir_name[door], TO_ROOM ,FALSE);
+  	 else
+              act( "$n swims $T.", ch, NULL, dir_name[door], TO_ROOM ,FALSE);
+      }
     }
 
     if( IS_AFFECTED(ch, AFF_SNEAK) )
@@ -645,6 +740,8 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
       for ( fch = ch->in_room->people; fch != NULL; fch = fch_next )
       {
 	fch_next = fch->next_in_room;
+  while(fch_next != NULL && fch_next == mount)
+    fch_next = fch_next->next_in_room;// Do not ever select the mount
 
 	if(IS_IMMORTAL(fch) && IS_SET(fch->act,PLR_HOLYLIGHT)
 	   && can_see(fch,ch,FALSE))
@@ -693,6 +790,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     {
     char_from_room( mount );
     char_to_room( mount, to_room );
+    mount->last_move = door + 1;
     do_look( mount, "auto" );
     }
 
@@ -713,6 +811,7 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     }
     char_from_room( ch );
     char_to_room( ch, to_room );
+    ch->last_move = door + 1;
 
     if ( !IS_AFFECTED(ch, AFF_SNEAK)
     &&   ch->invis_level < LEVEL_HERO)
@@ -806,6 +905,8 @@ void move_char( CHAR_DATA *ch, int door, bool follow )
     for ( fch = in_room->people; fch != NULL; fch = fch_next )
     {
   fch_next = fch->next_in_room;
+  if(fch->riding && fch->riding == fch_next)
+    fch_next = fch_next->next_in_room;/* Don't lock on to the mount next */
 
   if ( fch->master == ch && IS_AFFECTED(fch,AFF_CHARM) 
   &&   fch->position < POS_STANDING)
@@ -927,7 +1028,7 @@ void do_trap( CHAR_DATA *ch, char *argument )
 
 void do_north( CHAR_DATA *ch, char *argument )
 {
-   if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
+/*   if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
    {
    switch (number_range(0,9))
     {
@@ -950,7 +1051,7 @@ void do_north( CHAR_DATA *ch, char *argument )
     move_char( ch, DIR_NORTH, FALSE );
     }
   }
-   else
+   else*/
     move_char( ch, DIR_NORTH, FALSE );
     
    return;
@@ -961,7 +1062,7 @@ void do_north( CHAR_DATA *ch, char *argument )
 void do_east( CHAR_DATA *ch, char *argument )
 {
     
-  if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
+/*  if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
    {
       switch (number_range(0,9))
       {
@@ -984,7 +1085,7 @@ void do_east( CHAR_DATA *ch, char *argument )
       move_char( ch, DIR_EAST, FALSE );
       }
    }
-  else
+  else*/
     move_char( ch, DIR_EAST, FALSE );
     return;
 }
@@ -993,7 +1094,7 @@ void do_east( CHAR_DATA *ch, char *argument )
 
 void do_south( CHAR_DATA *ch, char *argument )
 {
-     if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
+/*     if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
 	{
 	 switch (number_range(0,9))
 	 {
@@ -1016,7 +1117,7 @@ void do_south( CHAR_DATA *ch, char *argument )
 	  move_char( ch, DIR_SOUTH, FALSE );
 	 }
         }
-     else
+     else*/
 
         move_char( ch, DIR_SOUTH, FALSE );
         return;
@@ -1026,7 +1127,7 @@ void do_south( CHAR_DATA *ch, char *argument )
 
 void do_west( CHAR_DATA *ch, char *argument )
 {
-    if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
+/*    if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
     {
      switch (number_range(0,9))
       {
@@ -1049,7 +1150,7 @@ void do_west( CHAR_DATA *ch, char *argument )
 	move_char( ch, DIR_WEST, FALSE );
        }
        }
-    else
+    else*/
       move_char( ch, DIR_WEST, FALSE );
     
     return;
@@ -1059,7 +1160,7 @@ void do_west( CHAR_DATA *ch, char *argument )
 
 void do_up( CHAR_DATA *ch, char *argument )
 {
-    if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
+/*    if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
        {
 	 switch (number_range(0,9))
 	 {
@@ -1082,7 +1183,7 @@ void do_up( CHAR_DATA *ch, char *argument )
 	  move_char( ch, DIR_UP, FALSE );
 	  }
 	  }
-   else
+   else*/
     move_char( ch, DIR_UP, FALSE );
     
     return;
@@ -1092,7 +1193,7 @@ void do_up( CHAR_DATA *ch, char *argument )
 
 void do_down( CHAR_DATA *ch, char *argument )
 {
-    if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
+ /*   if (is_affected(ch, gsn_confusion) || (!IS_NPC(ch) && ch->pcdata->condition[COND_DRUNK] > 15) )
      {
       switch (number_range(0,9))
        {
@@ -1115,7 +1216,7 @@ void do_down( CHAR_DATA *ch, char *argument )
           move_char( ch, DIR_DOWN, FALSE );
        }
        }
-     else
+     else*/
        move_char( ch, DIR_DOWN, FALSE );
     
     return;
@@ -1235,6 +1336,204 @@ void do_open( CHAR_DATA *ch, char *argument )
       act("You open $p.",ch,obj,NULL,TO_CHAR,FALSE);
       act("$n opens $p.",ch,obj,NULL,TO_ROOM,FALSE);
       return;
+  }
+
+  if(obj->item_type == ITEM_CAPSULE)
+  {
+    char logbuf[255], buf[255];
+    int variance = 0, xp_reward = 0, coin_gold = 0, coin_silver = 0, sp = 0;
+    int reward_count = 0;
+    OBJ_DATA *awarded = NULL;
+    bool award_msg = FALSE;
+    if(IS_NPC(ch))
+    {
+      send_to_char("Mobs can't open capsules!", ch);
+      return;
+    }
+    act("You split open $p and claim its contents!",ch,obj,NULL,TO_CHAR,FALSE);
+    act("$n splits open $p and claims its contents.",ch,obj,NULL,TO_ROOM,FALSE);
+    if(obj->value[4] && obj->value[4] > 0 && obj->value[4] <= 100)
+    {
+      variance = obj->value[4] * 100;// * 100 gives better precision
+    }
+    if(obj->value[0] > 0 && obj->value[0] <= 1000)
+    {
+      xp_reward = obj->value[0];
+      reward_count--;
+      if(variance)
+        xp_reward = xp_reward * number_range(10000 - variance, 10000 + variance) / 10000;
+      if(xp_reward)
+      {
+        gain_exp(ch, xp_reward);
+        if(ch->pcdata->clan_info)
+        {
+          int tribute = 0;
+          if(ch->level > 40)
+          	tribute = ch->level * ch->level / 20 * (ch->level - 1) / 40 * xp_reward / 133;
+          else
+          	tribute = ch->level * ch->level / 20 * xp_reward / 133;
+          tribute = UMAX(1, tribute);
+          tribute = (tribute * number_range(95, 105)) / 100; /* A little variance */
+          sprintf(buf, "You receive {W%d{x merit!\n\r", tribute);
+          send_to_char(buf, ch);
+          if(ch->pcdata->clan_info->clan->initiation > 0)
+          {
+            ch->pcdata->clan_info->clan->initiation -= tribute;
+            if(ch->pcdata->clan_info->clan->initiation <= 0)
+            {
+              ch->pcdata->clan_info->clan->initiation = 0;
+              /* Done initiation, announce it to everyone on from the clan */
+              notify_clan("Your clan has completed its initiation successfully!\n\r", ch->pcdata->clan_info->clan);
+              save_clan(ch, TRUE, FALSE, TRUE);
+            }
+          }
+          else
+          {
+            ch->pcdata->clan_info->merit += tribute;
+          }
+        }
+      }
+    }
+    if(obj->value[1] > 0 && obj->value[1] <= 110000)
+    {
+      coin_silver = obj->value[1];// This should be in silver
+      if(variance)
+        coin_silver = coin_silver * number_range(10000 - variance, 10000 + variance) / 10000;
+      if(coin_silver)
+      {// Gold reward -- convert it into gold and silver
+        coin_gold = coin_silver / 100;
+        coin_silver = coin_silver - coin_gold * 100;
+        ch->gold += coin_gold;
+        ch->silver += coin_silver;
+        if(coin_silver)
+          reward_count--;
+        if(coin_gold)
+          reward_count--;
+      }
+    }
+    if(obj->value[2] > 0 && obj->value[2] <= 5)// Capping at 5 for now
+    {
+      sp = obj->value[2];
+      ch->skill_points += sp;
+      reward_count--;
+    }
+    // Wiznet the whole thing as a quest reward
+    // buf is used to build the wiznet msg here - don't use it for other things
+    sprintf(buf, "%s popped %s(%d)", ch->name,
+      obj->short_descr, obj->pIndexData->vnum);
+    if(xp_reward)
+    {
+      award_msg = TRUE;
+      if(reward_count < 0)
+      {
+        reward_count *= -1;
+        sprintf(logbuf, "You receive %d xp", xp_reward);
+      }
+      reward_count--;
+      send_to_char(logbuf, ch);
+      sprintf(logbuf, ", %d xp", xp_reward);
+      strcat(buf, logbuf);
+    }
+    if(coin_gold)
+    {
+      award_msg = TRUE;
+      if(reward_count < 0)
+      {
+        reward_count *= -1;
+        sprintf(logbuf, "You receive %d gold", coin_gold);
+      }
+      else
+      {
+        if(reward_count <= 1)
+          sprintf(logbuf, " and %d gold", coin_gold);
+        else
+          sprintf(logbuf, ", %d gold", coin_gold);
+      }
+      reward_count--;
+      send_to_char(logbuf, ch);
+      sprintf(logbuf, ", %d gold", coin_gold);
+      strcat(buf, logbuf);
+    }
+    if(coin_silver)
+    {
+      award_msg = TRUE;
+      if(reward_count < 0)
+      {
+        reward_count *= -1;
+        sprintf(logbuf, "You receive %d silver", coin_silver);
+      }
+      else
+      {
+        if(reward_count <= 1)
+          sprintf(logbuf, " and %d silver", coin_silver);
+        else
+          sprintf(logbuf, ", %d silver", coin_silver);
+      }
+      reward_count--;
+      send_to_char(logbuf, ch);
+      if(coin_gold)
+        sprintf(logbuf, "/%d silver", coin_silver);
+      else
+        sprintf(logbuf, ", %d silver", coin_silver);
+      strcat(buf, logbuf);
+    }
+    if(sp)
+    {
+      award_msg = TRUE;
+      if(reward_count < 0)
+      {
+        reward_count *= -1;
+        sprintf(logbuf, "You receive %d skill point%s", sp, sp==1?"":"s");
+      }
+      else
+      {
+        if(reward_count <= 1)
+          sprintf(logbuf, " and %d skill point%s", sp, sp==1?"":"s");
+        else
+          sprintf(logbuf, ", %d skill point%s", sp, sp==1?"":"s");
+      }
+      reward_count--;
+      send_to_char(logbuf, ch);
+      sprintf(logbuf, ", %d skill", sp);
+      strcat(buf, logbuf);
+    }
+    if(award_msg)
+      send_to_char("!\n\r", ch);
+    if(obj->value[3] > 0)
+    {// Item to receive
+      OBJ_INDEX_DATA *award_base;
+      award_base = get_obj_index(obj->value[3]);
+      if(award_base)
+      {
+        if(award_base->item_type != ITEM_CAPSULE)
+        {
+        	awarded = create_object(award_base,0,FALSE);
+          obj_to_char(awarded,ch);
+          act("You pull $p out!", ch, awarded, NULL, TO_CHAR, FALSE);
+          act("$n pulls $p out!", ch, awarded, NULL, TO_ROOM, FALSE);
+        }
+      }
+      else
+      {
+        sprintf(logbuf, "Error: Bad award vnum %d in capsule %d.",
+          obj->value[3], obj->pIndexData->vnum);
+        log_string(logbuf);
+      }
+    }
+    if(awarded)
+    {
+      sprintf(logbuf, ", %s(%d) received", awarded->short_descr,
+        awarded->pIndexData->vnum);
+      strcat(buf, logbuf);
+    }
+    else if(!award_msg)
+    {
+      send_to_char("How disappointing. You find nothing inside.\n\r", ch);
+      strcat(buf, " but found nothing inside it.");
+    }
+    wiznet(buf, NULL, NULL, WIZ_DEITYFAVOR, 0, 0);
+    extract_obj(obj);
+    return;
   }
 
   /* 'open object' */
@@ -2401,11 +2700,52 @@ void do_visible( CHAR_DATA *ch, char *argument )
 
 void do_recall( CHAR_DATA *ch, char *argument )
 {
-    recall ( ch, argument, FALSE );
+  int timer = 5;
+  if(IS_SET(ch->mhs, MHS_GLADIATOR))
+  {
+    send_to_char("Gladiators don't recall.\n\r", ch);
     return;
+  }
+  if(IS_NPC(ch) || ((ch->pcdata->clan_info == NULL || ch->pcdata->clan_info->clan->hall == NULL) && ch->level <= 10))
+  {
+    if(recall ( ch, argument, FALSE ) || ch->fighting != NULL)
+      return;
+    if(IS_NPC(ch))
+      return;
+/* Fall back to the new recall if the old one fails */
+  }
+  if ( is_affected(ch,gsn_trap) )
+  {
+    send_to_char("You are held fast by a snare trap.\n\r",ch);
+    return;
+  }
+  if( IS_AFFECTED(ch, AFF_CHARM) && ch->master != NULL)
+  {
+    send_to_char("Your master didn't tell you to do that.\n\r",ch);
+    return;
+  }
+  if(IS_SET(ch->in_room->room_flags, ROOM_NO_RECALL))
+  {
+    send_to_char("A powerful force blocks your ability to recall here.\n\r", ch);
+    return;
+    //timer += 10;
+  }
+  else if(ch->in_room->area->no_transport)
+    timer += 10;
+  if(IS_AFFECTED(ch, AFF_CURSE) || is_affected(ch, gsn_morph))
+    timer += 5;
+  if(ch->pcdata->quit_time > 0)
+    timer += 10;
+  if(ch->pcdata->clan_info && ch->pcdata->clan_info->clan->hall)
+    send_to_char("You focus on recalling to your hall.\n\r", ch);
+  else
+    send_to_char("You focus on recalling.\n\r", ch);
+  ch->pcdata->pulse_type = PULSE_RECALL;
+  ch->pcdata->pulse_timer = timer * 12;
+  return;
 }
 
-void recall( CHAR_DATA *ch, char *argument, bool fPray )
+bool recall( CHAR_DATA *ch, char *argument, bool fPray )
 {
     char buf[MAX_STRING_LENGTH];
     CHAR_DATA *victim;
@@ -2415,14 +2755,14 @@ void recall( CHAR_DATA *ch, char *argument, bool fPray )
     if (IS_NPC(ch) && !IS_SET(ch->act,ACT_PET))
     {
   send_to_char("Only players can recall.\n\r",ch);
-  return;
+  return FALSE;
     }
 
     if (( ch->in_room->area->no_transport ) || ( ch->in_room->clan && ch->in_room->clan != ch->clan))
 
     {
 	send_to_char("Your deity cannot hear your plea from here.\n\r",ch);
-	return;
+	return FALSE;
     }
 
     if( !IS_NPC(ch) 
@@ -2431,7 +2771,7 @@ void recall( CHAR_DATA *ch, char *argument, bool fPray )
 	&& !IS_IMMORTAL(ch))
     {
 	send_to_char("Sorry, no free recalls anymore.\n\r",ch);
-	return;
+	return FALSE;
     }
 
     act( "$n prays for transportation!", ch, 0, 0, TO_ROOM ,FALSE);
@@ -2449,11 +2789,11 @@ void recall( CHAR_DATA *ch, char *argument, bool fPray )
     if ( location  == NULL )
     {
   send_to_char( "You are completely lost.\n\r", ch );
-  return;
+  return FALSE;
     }
 
     if ( ch->in_room == location )
-  return;
+  return TRUE;
 
     if ( IS_SET(ch->in_room->room_flags, ROOM_NO_RECALL)
     ||   IS_AFFECTED(ch, AFF_CURSE) 
@@ -2466,7 +2806,7 @@ void recall( CHAR_DATA *ch, char *argument, bool fPray )
 	deity_table[ch->pcdata->deity].pname);
     send_to_char(buf,ch);
   }
-  return;
+  return FALSE;
     }
 
     if ( ( victim = ch->fighting ) != NULL )
@@ -2481,7 +2821,7 @@ void recall( CHAR_DATA *ch, char *argument, bool fPray )
       WAIT_STATE( ch, 4 );
       sprintf( buf, "You failed!.\n\r");
       send_to_char( buf, ch );
-      return;
+      return FALSE;
   }
 
   lose = (ch->desc != NULL) ? 25 : 50;
@@ -2506,7 +2846,7 @@ void recall( CHAR_DATA *ch, char *argument, bool fPray )
     if (ch->pet != NULL)
   do_recall(ch->pet,"");
 
-    return;
+    return TRUE;
 }
 
 
@@ -2515,6 +2855,7 @@ void do_train( CHAR_DATA *ch, char *argument )
 {
     char buf[MAX_STRING_LENGTH];
     CHAR_DATA *mob;
+    bool htrain = FALSE;
     sh_int stat = - 1;
     char *pOutput = NULL;
     int cost;
@@ -2548,6 +2889,12 @@ void do_train( CHAR_DATA *ch, char *argument )
     {
   sprintf( buf, "You have %d training sessions.\n\r", ch->train );
   send_to_char( buf, ch );
+  if(ch->pcdata->half_train > 0)
+  {
+    sprintf( buf, "You have %d half training sessions. These will be used first.\n\r", ch->pcdata->half_train );
+    send_to_char( buf, ch );
+  }
+
   argument = "foo";
     }
 
@@ -2599,7 +2946,7 @@ void do_train( CHAR_DATA *ch, char *argument )
   stat      = STAT_CON;
   pOutput     = "constitution";
     }
-        else if ( !str_cmp( argument, "agt" ) )
+/*        else if ( !str_cmp( argument, "agt" ) )
     {
   if ( class_table[ch->class].attr_prime == STAT_AGT )
       cost    = 1;
@@ -2613,14 +2960,14 @@ void do_train( CHAR_DATA *ch, char *argument )
       cost    = 1;
   stat        = STAT_END;
   pOutput     = "endurance";
-    }
+    }*/
 
-    else if ( !str_cmp( argument, "soc" ) )
+    else if ( !str_cmp( argument, "cha" ) )
     {
   if ( class_table[ch->class].attr_prime == STAT_SOC )
       cost    = 1;
   stat        = STAT_SOC;
-  pOutput     = "social";
+  pOutput     = "charisma";
     }
     else if ( !str_cmp(argument, "practice" ) )
   cost = 1;
@@ -2645,12 +2992,12 @@ void do_train( CHAR_DATA *ch, char *argument )
       strcat( buf, " dex" );
   if ( ch->perm_stat[STAT_CON] < get_max_train(ch,STAT_CON))  
       strcat( buf, " con" );
-  if ( ch->perm_stat[STAT_AGT] < get_max_train(ch,STAT_AGT)) 
-      strcat( buf, " agt" );
-  if ( ch->perm_stat[STAT_END] < get_max_train(ch,STAT_END)) 
-      strcat( buf, " end" );
+//  if ( ch->perm_stat[STAT_AGT] < get_max_train(ch,STAT_AGT)) 
+//      strcat( buf, " agt" );
+//  if ( ch->perm_stat[STAT_END] < get_max_train(ch,STAT_END)) 
+//      strcat( buf, " end" );
   if ( ch->perm_stat[STAT_SOC] < get_max_train(ch,STAT_SOC)) 
-      strcat( buf, " soc" );
+      strcat( buf, " cha" );
   strcat( buf, " practice");
   strcat( buf, " hp mana moves");
 
@@ -2675,68 +3022,100 @@ void do_train( CHAR_DATA *ch, char *argument )
   return;
     }
 
+    if(ch->pcdata->half_train && cost <= ch->pcdata->half_train)
+	htrain = TRUE;// They'll use a half train
+    else if(cost > ch->train)// Can't afford the other way
+    {
+        send_to_char( "You don't have enough training sessions.\n\r", ch );
+        return;
+    }
+
     if (!str_cmp("hp",argument))
     {
-      if ( cost > ch->train )
-      {
-            send_to_char( "You don't have enough training sessions.\n\r", ch );
-            return;
-        }
- 
-  ch->train -= cost;
-        ch->pcdata->perm_hit += 10;
-        ch->max_hit += 10;
-        ch->hit +=10;
-        act( "Your durability increases!",ch,NULL,NULL,TO_CHAR,FALSE);
-        act( "$n's durability increases!",ch,NULL,NULL,TO_ROOM,FALSE);
+	int amount = 10;
+	if(!htrain)
+	{
+	  ch->train -= cost;
+          act( "Your durability increases!",ch,NULL,NULL,TO_CHAR,FALSE);
+          act( "$n's durability increases!",ch,NULL,NULL,TO_ROOM,FALSE);
+	}
+	else
+	{
+	  ch->pcdata->half_train -= cost;
+	  amount = 5;// half as much
+          act( "Your durability increases slightly!",ch,NULL,NULL,TO_CHAR,FALSE);
+          act( "$n's durability increases slightly!",ch,NULL,NULL,TO_ROOM,FALSE);
+	}
+        ch->pcdata->perm_hit += amount;
+        ch->max_hit += amount;
+        ch->hit +=amount;
+        ch->pcdata->trained_hit += amount;
         return;
     }
  
     if (!str_cmp("mana",argument))
     {
-        if ( cost > ch->train )
-        {
-            send_to_char( "You don't have enough training sessions.\n\r", ch );
-            return;
-        }
+	int amount = 10;
+	if(!htrain)
+	{
+	  ch->train -= cost;
+          act( "Your power increases!",ch,NULL,NULL,TO_CHAR,FALSE);
+          act( "$n's power increases!",ch,NULL,NULL,TO_ROOM,FALSE);
+	}
+	else
+	{
+	  ch->pcdata->half_train -= cost;
+	  amount = 5;// half as much
+          act( "Your power increases slightly!",ch,NULL,NULL,TO_CHAR,FALSE);
+          act( "$n's power increases slightly!",ch,NULL,NULL,TO_ROOM,FALSE);
+	}
 
-  ch->train -= cost;
-        ch->pcdata->perm_mana += 10;
-        ch->max_mana += 10;
-        ch->mana += 10;
-        act( "Your power increases!",ch,NULL,NULL,TO_CHAR,FALSE);
-        act( "$n's power increases!",ch,NULL,NULL,TO_ROOM,FALSE);
+        ch->pcdata->perm_mana += amount;
+        ch->max_mana += amount;
+        ch->mana += amount;
+        ch->pcdata->trained_mana += amount;
         return;
     }
 
     if (!str_cmp("moves",argument))
     {
-        if ( cost > ch->train )
-        {
-            send_to_char( "You don't have enough training sessions.\n\r", ch );
-            return;
-        }
+	int amount = 10;
+	if(!htrain)
+	{
+	  ch->train -= cost;
+          act( "Your feet shuffle about!",ch,NULL,NULL,TO_CHAR,FALSE);
+          act( "$n's feet shuffle about!",ch,NULL,NULL,TO_ROOM,FALSE);
+	}
+	else
+	{
+	  ch->pcdata->half_train -= cost;
+	  amount = 5;// half as much
+          act( "Your feet shuffle about!",ch,NULL,NULL,TO_CHAR,FALSE);
+          act( "$n's feet shuffle about!",ch,NULL,NULL,TO_ROOM,FALSE);
+	}
 
-  ch->train -= cost;
-        ch->pcdata->perm_move += 10;
-        ch->max_move += 10;
-        ch->move += 10;
-        act( "Your feet shuffle about!",ch,NULL,NULL,TO_CHAR,FALSE);
-        act( "$n's feet shuffle about!",ch,NULL,NULL,TO_ROOM,FALSE);
+        ch->pcdata->perm_move += amount;
+        ch->max_move += amount;
+        ch->move += amount;
+        ch->pcdata->trained_move += amount;
         return;
     }
 
     if (!str_cmp("practice",argument))
     {
-        if ( cost > ch->train )
-        {
-            send_to_char( "You don't have enough training sessions.\n\r", ch );
-            return;
-        }
-
-	ch->train -= cost;
+	if(!htrain)
+	{
+		ch->train -= cost;
+	        ch->pcdata->retrain += cost;
+        	act( "You convert 1 train to 10 practices.",ch,NULL,NULL,TO_CHAR,FALSE);
+	}
+	else
+	{
+		ch->pcdata->half_train -= cost;
+		ch->pcdata->half_retrain += cost;
+        	act( "You convert 1 half train to 10 practices.",ch,NULL,NULL,TO_CHAR,FALSE);
+	}
         ch->practice += 10;
-        act( "You convert 1 train to 10 practices.",ch,NULL,NULL,TO_CHAR,FALSE);
         act( "$n converts trains to practices.",ch,NULL,NULL,TO_ROOM,FALSE);
 	return;
     }
@@ -2747,13 +3126,10 @@ void do_train( CHAR_DATA *ch, char *argument )
   return;
     }
 
-    if ( cost > ch->train )
-    {
-  send_to_char( "You don't have enough training sessions.\n\r", ch );
-  return;
-    }
-
-    ch->train   -= cost;
+    if(!htrain)
+	ch->train   -= cost;
+    else
+	ch->pcdata->half_train -= cost;
   
     ch->perm_stat[stat]   += 1;
     act( "Your $T increases!", ch, NULL, pOutput, TO_CHAR ,FALSE);
@@ -2865,8 +3241,9 @@ void do_drag( CHAR_DATA * ch, char * argument )
 
       if (!IS_NPC(victim))
       {
-	 if(ch->clan != victim->clan ||
-	    ch->clan == clan_lookup("loner"))
+//	 if(ch->clan != victim->clan ||
+//	    ch->clan == clan_lookup("loner"))
+         if(!is_clan_friendly(ch, victim))
 	 {
 	    if((is_same_group(ch,victim) &&
                 IS_AFFECTED(victim, AFF_CHARM)) ||
@@ -2929,6 +3306,14 @@ void do_drag( CHAR_DATA * ch, char * argument )
       char_from_room(victim);
       char_to_room(victim,ch->in_room);
 
+      if(!IS_NPC(victim) && (victim->pcdata->fast_h || victim->pcdata->fast_m))
+      {
+        if(ch->pcdata->fast_h >= 10 || ch->pcdata->fast_m >= 10)
+          send_to_char("Your rapid regeneration has ended.\n\r", ch);
+        ch->pcdata->fast_h = 0;
+        ch->pcdata->fast_m = 0;
+      }
+
       ch->move -= apply_chi(ch,(victim->carry_weight/5));  
 
       act( "You dragged $N with you.", ch, NULL,victim,TO_CHAR,FALSE );
@@ -2982,9 +3367,9 @@ void do_drag( CHAR_DATA * ch, char * argument )
 
          if(found && victim != ch) 
 	 {
-            if (!is_same_group( victim, ch ))
+            if (!is_same_group( victim, ch ) && !is_clan_friendly(ch, victim))
 	    {
-	       if(ch->clan != victim->clan || ch->clan == clan_lookup("loner"))
+	       //if(ch->clan != victim->clan || ch->clan == non_clan_lookup("loner"))
 	       {
 	      send_to_char("You are not allowed to drag the corpse.\n\r",ch);
 	          return;

@@ -2,8 +2,8 @@
 Name Barbie~
 Id   958087425
 Email (null)~
-LogO 958089642
-Vers 22
+LogO 1407115656
+Vers 33
 Desc {m:|:{M:{m:|:{M:{W:{M:{m:|:{M:{m:|:{m:|:{M:{m:|:{M:{W:{M:{m:|:{M:{m:|:{m:|:{M:{m:|:{M:{W:{M:{m:|:{M:{m:|:{m:|:{M:{m:|:{M:{W:{M:{m:|:{M:{m:|:{x
 Before you stands a walking, talking Barbie doll!
 Made completely of plastic, she looks as though she belongs in a cardboard
@@ -21,19 +21,34 @@ Desc {m:|:{M:{m:|:{M:{W:{M:{m:|:{M:{m:|:{m:|:{M:{m:|:{M:{W:{M:{m:|:{M:{m:|:{m:|:
 {RFREAK!{x
 {m:|:{M:{m:|:{M:{W:{M:{m:|:{M:{m:|:{m:|:{M:{m:|:{M:{W:{M:{m:|:{M:{m:|:{m:|:{M:{m:|:{M:{W:{M:{m:|:{M:{m:|:{m:|:{M:{m:|:{M:{W:{M:{m:|:{M:{m:|:{x
 ~
-Prom <%hhp %mm %vmv> ~
+Prom %h/%H  %m/%M  %v/%V  {r%X{x ~
 Race human~
 Outc 0
 RufT 0
-MatookT 0
-SkPTimer 0
-SkPTracker 2
+MatookT 2
+SkPTimer 1
+SkPTracker 1
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1306797731
+LstKillDate 1306797731
+LstDeathDate 1306797731
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 58
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 huitzilopochtli~
 Sac  300
 Sex  2
@@ -41,47 +56,51 @@ Vump  0
 Node 0
 Cap 0
 Created 958087446
-LastHost AC892133.ipt.aol.com 1305~
+Glad 0 0 0 0 0 0
+LastHost 172.56.20.248~
 Cla  14
 ClaO 3
-Levl 2
+Levl 21
 DLevl 0
-Plyd 2034
-Not  0 0 0 0 0 0 0 0 0
+Plyd 19876
+Not  1319173079 1319173079 1319173079 1319173079 1319173079 1319173079 1319173079 1319173079 1319173079 1319173079
 Scro 0
 Rank 0
 Room 3001
-HMV  25 45 103 103 100 103
-Gold 51
-Silv 38
-Exp  17069
-Act  CDEFGHQ
-Comm DFGIR
+HMV  580 580 130 194 31 319
+Gold 382
+Silv 12270
+Exp  174156
+Act  CDFGHQ
+MHSF R
+Comm DFI
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 8
-Trai 1
-SkiP 2
-Save  -4
-Alig  876
-Hit   4
-SecHit   3
-ACs 68 66 66 79
-Attr 16 13 17 12 16
-AMod 3 0 2 2 2
-Pass BaNF13fDhgQ7c~
-Titl  Doll. Smells like plastic.[Smooth Boobs Aura]~
+Prac 35
+StatsTrained 100 0 0
+SkiP 9
+Save  -11
+Alig  -1000
+Hit   13
+Dam   3
+SecHit   12
+SecDam   2
+ACs 7 0 2 28
+Attr 19 16 18 18 18 10 10 13
+AMod 7 1 4 3 5 0 0 0
+Pass BaJ5UHUpJwZek~
+Titl .  {m({MSmooth Boob Aura{m){x~
 Pnts 100
 TSex 2
-LLev 0
-HMVP 35 103 103
-Cnd  0 0 20 20
+LLev 5
+HMVP 570 184 314
+Cnd  0 0 0 20
 Sk 1 'aid'
 Sk 1 'armor'
 Sk 1 'bestow holiness'
-Sk 1 'bless'
+Sk 75 'bless'
 Sk 1 'calm'
 Sk 1 'cancellation'
 Sk 1 'cure critical'
@@ -116,20 +135,20 @@ Sk 1 'shield'
 Sk 1 'stone skin'
 Sk 1 'summon'
 Sk 1 'teleport'
-Sk 1 'word of recall'
+Sk 68 'word of recall'
 Sk 1 'mace'
-Sk 80 'sword'
-Sk 1 'berserk'
-Sk 1 'disarm'
-Sk 1 'dodge'
+Sk 95 'sword'
+Sk 34 'berserk'
+Sk 21 'disarm'
+Sk 75 'dodge'
 Sk 1 'dual wield'
-Sk 1 'enhanced damage'
-Sk 1 'kick'
-Sk 1 'parry'
+Sk 73 'enhanced damage'
+Sk 75 'kick'
+Sk 75 'parry'
 Sk 50 'scan'
-Sk 1 'second attack'
-Sk 1 'third attack'
-Sk 1 'fast healing'
+Sk 75 'second attack'
+Sk 75 'third attack'
+Sk 18 'fast healing'
 Sk 1 'hide'
 Sk 1 'sneak'
 Sk 1 'scrolls'
@@ -144,71 +163,18 @@ Gr 'enhancement'
 Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
-Affc 'armor'   0  39  11 -20  17          0
-Affc 'bless'   0  26   9  -3  24          0
-Affc 'bless'   0  26   9   3  18          0
-End
-
-#O
-Vnum 3716
-Nest 0
-Cond 0
-Wear 0
-Cost 0
-Val  0 0 160 0 0
-End
-
-#O
-Vnum 3702
-Nest 0
-Cond 0
-Wear 16
-Cost 360
-End
-
-#O
-Vnum 3704
-Nest 0
-Cond 0
-Wear 11
-Cost 0
-End
-
-#O
-Vnum 3706
-Nest 0
-Cond 0
-Wear 6
-Cost 72
-End
-
-#O
-Vnum 3713
-Nest 0
-Cond 0
-Wear 14
-Cost 48
-End
-
-#O
-Vnum 3708
-Nest 0
-Cond 0
-Wear 8
-Cost 72
-End
-
-#O
-Vnum 4439
-Nest 0
-Cond 0
-Wear 18
-Cost 0
+Affc 'stone skin'   0  34   9 -40  17          0
+Affc 'bless'   0  14  25  -8  24          0
+Affc 'bless'   0  15  25   8  18          0
+Affc 'shield'   0  16  23 -20  17          0
+Affc 'armor'   0  11  23 -20  17          0
+Affc 'giant strength'   0  12   9   4   1          0
 End
 
 #O
 Vnum 4438
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 5
 Cost 0
@@ -217,73 +183,386 @@ End
 #O
 Vnum 4440
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 13
 Cost 0
 End
 
 #O
-Vnum 3707
-Nest 0
-Cond 0
-Wear 7
-Cost 72
-End
-
-#O
-Vnum 3713
-Nest 0
-Cond 0
-Wear 15
-Cost 48
-End
-
-#O
-Vnum 3710
-Nest 0
-Cond 0
-Wear 10
-Cost 72
-End
-
-#O
 Vnum 3709
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 9
 Cost 72
 End
 
 #O
-Vnum 3715
+Vnum 3726
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 17
+Wear 12
+Cost 0
+Val  100 1 0 10 85
+End
+
+#O
+Vnum 3294
+Nest 1
+PrevOwner Barbie~
+Cond 0
+Wear -1
+Cost 9900
+End
+
+#O
+Vnum 3715
+Nest 1
+PrevOwner Barbie~
+Cond 0
+Wear -1
 Cost 1140
 End
 
 #O
-Vnum 6601
-Nest 0
+Vnum 22044
+Nest 1
+PrevOwner Barbie~
 Cond 0
 Wear -1
-Cost 620
+Cost 100000
 End
 
 #O
-Vnum 6645
+Vnum 3009
 Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3138
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 24
+Val  64 0 10 0 0
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner Kotoo~
+Cond 0
+Wear 15
+Cost 0
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner Kotoo~
+Cond 0
+Wear 14
+Cost 0
+End
+
+#O
+Vnum 4434
+Nest 0
+PrevOwner Kotoo~
+Cond 0
+Wear 4
+Cost 0
+End
+
+#O
+Vnum 23126
+Nest 0
+PrevOwner Rumor~
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 3726
+Vnum 2913
+Enchanted
 Nest 0
+PrevOwner Rumor~
+ExtF 64
 Cond 0
-Wear 12
+Wear 10
+Lev  9
 Cost 0
+Affc 'enchant armor'   1  21  -1  -1  17          0
+Affc 'reserved'   1   8  -1   1  18          0
+End
+
+#O
+Vnum 3502
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 6
+Cost 490
+End
+
+#O
+Vnum 3075
+Enchanted
+Nest 0
+PrevOwner (null)~
+ExtF 64
+Cond 0
+Wear 8
+Lev  6
+Cost 420
+Affc 'enchant armor'   1  16  -1  -1  17          0
+End
+
+#O
+Vnum 5932
+Nest 0
+PrevOwner HeMan~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5706
+Nest 0
+PrevOwner Meltwater~
+Cond 0
+Wear 3
+Cost 2000
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Meltwater~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 6511
+Nest 0
+PrevOwner Kotoo~
+Cond 0
+Wear 2
+Cost 0
+End
+
+#O
+Vnum 3074
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 7
+Cost 420
+End
+
+#O
+Vnum 6511
+Nest 0
+PrevOwner Morbius~
+Cond 0
+Wear 1
+Cost 460
+End
+
+#O
+Vnum 2911
+Nest 0
+PrevOwner Freaky~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 9512
+Enchanted
+Nest 0
+PrevOwner Freaky~
+ExtF 64
+Cond 0
+Wear 16
+Lev  14
+Cost 1190
+Affc 'enchant weapon'   1  17  -1   1  19          0
+Affc 'enchant weapon'   0  17  -1   1  18          0
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Freaky~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 8508
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1300
+End
+
+#O
+Vnum 8508
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 17
+Cost 1300
+End
+
+#O
+Vnum 4439
+Nest 0
+PrevOwner Freaky~
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 17666
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Wazit~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3294
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 9900
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
 End
 
 #END

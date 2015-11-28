@@ -2,7 +2,7 @@
 Name Malachias~
 Id   875212671
 Email (null)~
-LogO 1039379126
+LogO 1306473133
 Vers 31
 LnD  A Gladiator~
 Desc Malachias Emmerit is tall, with long blond hair and dark blue eyes that
@@ -24,7 +24,7 @@ Prom <%h/%HHp %m/%MMa %v/%VMv %gG %e %SSac %wlb I=%n>  ~
 Race human~
 Clan honor~
 Outc 0
-RufT 151
+RufT 147
 MatookT 0
 SkPTimer 0
 SkPTracker 0
@@ -38,9 +38,9 @@ LstAtkedByTimer 0
 LstCombatDate 1039379014
 LstKillDate 1039379014
 LstDeathDate 1039379014
-LoginsWOKill 2
-LoginsWODeath 2
-LoginsWOCombat 2
+LoginsWOKill 3
+LoginsWODeath 3
+LoginsWOCombat 3
 Bnty 0
 Deity 370262 hermes~
 DeityT -2 hermes~
@@ -51,13 +51,13 @@ Node 0
 Cap 0
 Created 953700187
 Glad 0 0 0 0 0 0
-LastHost lnk-24-27-136-14.neb.rr.com~
+LastHost 68.224.161.143~
 Cla  11
 Kit nethermancer~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 419296
+Plyd 419451
 Not  972861414 972861414 972861414 972861414 972861414 972861414 972861414 979320296 972861414 0
 Scro 22
 Rank 2
@@ -74,7 +74,7 @@ Disp FGIJL
 IcgB 0
 Icg 0
 Wizn W
-Pos  8
+Pos  5
 Prac 43
 Trai 10
 SkiP 50
@@ -93,7 +93,7 @@ Pnts 80
 TSex 1
 LLev 109
 HMVP 925 745 368
-Cnd  0 28 38 38
+Cnd  0 20 34 34
 Alias sly emote smiles slyly.~
 Alias / cast 'word of recall'~
 Alias mgest emote makes an elaborate gesture, tapping his throat three times.~
@@ -131,6 +131,7 @@ Sk 1 'chill touch'
 OldSk 78 'chill touch'
 Sk 1 'colour spray'
 OldSk 96 'colour spray'
+Sk 1 'cone of silence'
 OldSk 75 'continual light'
 OldSk 1 'control weather'
 OldSk 75 'create food'
@@ -189,7 +190,6 @@ Sk 94 'giant strength'
 OldSk 78 'giant strength'
 Sk 100 'haste'
 OldSk 88 'haste'
-Sk 1 'honor guard'
 Sk 100 'identify'
 OldSk 90 'identify'
 Sk 92 'infravision'
@@ -298,7 +298,6 @@ Sk 53 'swimming'
 OldSk 50 'swimming'
 Sk 50 'recall'
 OldSk 53 'recall'
-Sk 1 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'beguiling'
@@ -310,8 +309,8 @@ Gr 'maladictions'
 Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
-Affc 'detect hidden'   0  44  40   0   0         32
-Affc 'detect invis'   0  49  40   0   0          8
+Affc 'detect invis'   0  49  36   0   0          8
+Affc 'detect hidden'   0  43  36   0   0         32
 End
 
 #O
@@ -433,7 +432,7 @@ PrevOwner Malachias~
 Cond 0
 Wear -1
 Cost 11000
-Val  50 20 8 86 0
+Val  50 20 8 88 0
 Spell 3 'faerie fog'
 End
 
@@ -484,7 +483,7 @@ PrevOwner Malachias~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 7 159 0
+Val  52 10 7 161 0
 Spell 3 'remove curse'
 End
 
@@ -558,7 +557,7 @@ PrevOwner Malachias~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 2 159 0
+Val  52 10 2 161 0
 Spell 3 'remove curse'
 End
 
@@ -619,8 +618,8 @@ Wear -1
 Lev  50
 Cost 4800
 Val  2 2 17 11 2054
-Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
@@ -666,7 +665,7 @@ PrevOwner Malachias~
 Cond 0
 Wear -1
 Cost 1640
-Val  20 10 7 16 0
+Val  20 10 7 17 0
 Spell 3 'bless'
 End
 
@@ -736,8 +735,8 @@ Cond 0
 Wear -1
 Lev  48
 Cost 4500
-Affc 'enchant weapon'   1  52  -1   7  19          0
 Affc 'enchant weapon'   0  52  -1   7  18          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
 End
 
 #O
@@ -887,8 +886,8 @@ Cond 0
 Wear 16
 Cost 5000
 Val  2 5 8 11 2050
-Affc 'enchant weapon'   0  53  -1   7  18          0
 Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
 End
 
 #O
@@ -898,7 +897,7 @@ PrevOwner Malachias~
 Cond 0
 Wear 17
 Cost 11000
-Val  50 20 14 86 0
+Val  50 20 14 88 0
 Spell 3 'faerie fog'
 End
 

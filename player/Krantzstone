@@ -2,7 +2,7 @@
 Name Krantzstone~
 Id   809555697
 Email (null)~
-LogO 1080451874
+LogO 1309540525
 Vers 31
 ShD  Sotaro~
 LnD  Creep, Gail, Prozac, Strongbow, Breavman, Agamemnon, Nightingail, Hector, Sentiago
@@ -20,7 +20,7 @@ RufT 0
 MatookT 0
 SkPTimer 0
 SkPTracker 0
-LogoutTracker 4
+LogoutTracker 3
 Kill 0 0 0 0
 Steal 0 0 0
 LstK no one~
@@ -34,6 +34,7 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
 Deity 0 mojo~
 Sac  300
 Sex  1
@@ -42,12 +43,11 @@ Node 0
 Cap 0
 Created 990812333
 Glad 0 0 0 0 0 0
-LastHost ottawa-hs-64-26-170-39.d-ip.magma.ca~
 Cla  1
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 11599073
+Plyd 11599085
 Not  924163111 924163126 912038436 946133302 924163109 945983444 921557192 0 0 0
 Scro 0
 Rank 5
@@ -87,22 +87,22 @@ LLev 3220
 HMVP 540 897 282
 Cnd  0 0 7 0
 Edit ABCEH
-ERange 16800 16899
-ERange 3700 3799
 ERange 20000 20200
+ERange 3700 3799
+ERange 16800 16899
 Alias delete quit~
-Macro al freeze alexander~
-Macro delete quit~
-Macro alias sleep~
-Macro unmacro sleep~
-Macro bless clone bless; at 1% give bless 1%~
-Macro unmacr sleep~
-Macro unmac sleep~
-Macro unma sleep~
-Macro unm sleep~
-Macro flee clone flee; at %1 give flee %1~
-Macro exit gecho You stop using a krantzstone.~
 Macro update exit;edit;area;save;exit~
+Macro exit gecho You stop using a krantzstone.~
+Macro flee clone flee; at %1 give flee %1~
+Macro unm sleep~
+Macro unma sleep~
+Macro unmac sleep~
+Macro unmacr sleep~
+Macro bless clone bless; at 1% give bless 1%~
+Macro unmacro sleep~
+Macro alias sleep~
+Macro delete quit~
+Macro al freeze alexander~
 Sk 1 'aid'
 OldSk 1 'aid'
 Sk 71 'armor'
@@ -122,6 +122,7 @@ Sk 71 'cancellation'
 OldSk 71 'cancellation'
 Sk 1 'change sex'
 OldSk 1 'change sex'
+Sk 1 'cone of silence'
 Sk 1 'continual light'
 OldSk 75 'continual light'
 Sk 1 'control weather'
@@ -383,9 +384,9 @@ Desc A wedding certificate printed on cream-coloured card paper lies here.~
 Cond 0
 Wear -1
 Cost 0
-ExDe certificate~ On this Day of Thunder, 24th the Month of the Grand Struggle, Elaith and Abby of Riders were joined in holy matrimony in Riders clan hall.  Ghanima and Pirotess were witnesses, and Krantzstone performed the ceremony.
-~
 ExDe certificate~ On this Day of Thunder, 24th the Month of the Grand Struggle, Elaith and Abby were joined in matrimony in Riders hall.  Ghanima and Pirotess witnessed, and Krantzstone performed the ceremony. [On this Day of Thunder, 24th 
+~
+ExDe certificate~ On this Day of Thunder, 24th the Month of the Grand Struggle, Elaith and Abby of Riders were joined in holy matrimony in Riders clan hall.  Ghanima and Pirotess were witnesses, and Krantzstone performed the ceremony.
 ~
 End
 
@@ -613,7 +614,7 @@ Desc A refreshing bottle of Lemon Berry Intuition Iced Tea made by the Fruitopia
 Cond 0
 Wear -1
 Cost 200
-Val  10 158 158 158 -1
+Val  10 159 159 159 -1
 Spell 1 'refresh'
 Spell 2 'refresh'
 Spell 3 'refresh'
@@ -629,7 +630,7 @@ Desc A refreshing bottle of Pink Euphoria Lemonade made by Fruitopia sits here, 
 Cond 0
 Wear -1
 Cost 200
-Val  10 158 158 158 -1
+Val  10 159 159 159 -1
 Spell 1 'refresh'
 Spell 2 'refresh'
 Spell 3 'refresh'
@@ -663,7 +664,7 @@ Desc A refreshing bottle of Pink Euphoria Lemonade made by Fruitopia sits here, 
 Cond 0
 Wear -1
 Cost 200
-Val  10 158 158 158 -1
+Val  10 159 159 159 -1
 Spell 1 'refresh'
 Spell 2 'refresh'
 Spell 3 'refresh'
@@ -818,7 +819,7 @@ Desc A refreshing bottle of Pink Euphoria Lemonade made by Fruitopia sits here, 
 Cond 0
 Wear -1
 Cost 200
-Val  10 158 158 158 -1
+Val  10 159 159 159 -1
 Spell 1 'refresh'
 Spell 2 'refresh'
 Spell 3 'refresh'

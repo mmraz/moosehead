@@ -1,0 +1,2248 @@
+#AREA
+../newareas/soggies.are~
+The Lich King's den~
+{45-51} Seog    The Lich King's den~
+18600 18680
+
+#MOBILES
+#18600
+mad cow~
+a MAD cow~
+A mad cow is here running amok!
+~
+The cow looks like it hasn't been milked in quite some time.  Although she
+is past her prime, you see that she still has a lot of years left, and that
+if provoked, her rear kick can be quite deadly.
+~
+human~
+AG 0 0 0
+4 0 2d7+46 2d9+100 1d5+1 none
+6 6 6 9
+EFNU 0 0 0
+rest rest none 0
+0 0 medium 0
+#18601
+a bug~
+a bug~
+A bug scurries here.
+~
+The bug looks kind of sinister.
+~
+fido~
+ACT D 0 0
+1 100 6d1+0 0d0+0 1d1+0 bite
+-50 50 -50 0
+LNU ABK JR 0
+stand stand none 0
+HO B small 0
+F vul C
+F for GV
+F par DHJQV
+#18602
+fly~
+an annoying fly~
+An annoying housefly buzzes here.
+~
+The fly looks kind of sinister.
+~
+fido~
+AT D 0 0
+1 100 6d1+0 0d0+0 1d1+0 bite
+-50 50 -50 0
+LNU ABK JR 0
+stand stand none 0
+DHO B small 0
+F vul C
+F for GV
+F par DHJQV
+#18603
+undead soldier~
+an undead soldier~
+An undead soldier stands here, rotting in place.
+~
+This was once a proud soldier of some ancient kingdom.  Now he's falling
+apart and couldn't care less!  You can see his ribs through his rotten
+leather armor.....gross!
+~
+human~
+ABGT DFJ -500 0
+41 0 15d10+1850 20d9+100 4d8+13 claw
+-13 -13 -13 5
+CEKNU PR 0 N
+stand stand male 2500
+BI 0 medium 0
+F for V
+#18604
+undead sergeant~
+an undead sergeant~
+An undead sergeant stands here, rotting in place.
+~
+This was once a proud soldier of some ancient kingdom.  Now he's falling
+apart and couldn't care less!  You can see his ribs through his rotten
+leather armor.....gross!
+~
+human~
+ABFGT DFJ -500 0
+42 0 15d10+1850 20d9+100 4d8+13 claw
+-13 -13 -13 5
+CEKNU ABR 0 N
+stand stand male 0
+BI 0 medium 0
+F for V
+#18605
+bug~
+a bug~
+A bug scurries here.
+~
+The bug looks kind of sinister.
+~
+fido~
+ABCT D 0 0
+1 100 6d1+0 0d0+0 1d1+0 bite
+-50 50 -50 0
+LNU ABK JR 0
+stand stand none 0
+HO B small 0
+F vul C
+F for GV
+F par DHJQV
+#18606
+rotting skeleton~
+a rotting skeleton~
+A rotting skeleton stands here, still moving.
+~
+This was once a person.  Now it is a creeping skeleton that refuses to rest in
+the grave.  It hungers for flesh...
+~
+human~
+ABCHO 0 -1000 0
+44 0 25d10+2750 22d9+100 8d4+15 drain
+-15 -15 -15 4
+EKNU R 0 N
+stand stand none 5000
+BI 0 medium 0
+F for V
+#18607
+demi-lich demi lich~
+The demi-lich~
+The demi-lich is sleeping in the coffin here.
+~
+It looks almost completely decomposed, except for the skull.  It's teeth
+have all been replaced with various gems.  
+~
+unique~
+ABFR DFHJVe -1000 0
+49 25 5d20+1800 5d10+400 5d8+5 magic
+-15 -15 -15 0
+AEF ABFL G INS
+sleep sleep none 6000
+CH A large B
+#18608
+tentamort~
+a tentamort~
+A tentamort is slithering around here.
+~
+This creature looks somewhat like an octopus, but has long claws at the ends
+of its two main tentacles.  It has six shorter appendages like tentacles with
+suction cups all over them, which it uses to grab onto you...
+~
+unique~
+ABH JVb 0 0
+44 0 25d10+2500 44d9+100 4d8+14 pierce
+-15 -15 -15 -2
+FKNU R 0 H
+stand stand none 3000
+Aa ADEFKN large 0
+#18609
+giant cave turtle~
+a giant cave turtle~
+A giant cave turtle is here, upset by your intrusion!
+~
+It looks very much like a giant turtle, but is has a much longer tail, and 
+horns on its head.  It looks quite nasty.
+~
+dragon~
+ABC DFb 0 0
+52 0 50d10+5500 26d9+100 6d7+20 bite
+-22 -22 -22 2
+CK A 0 L
+stand stand male 5000
+MV B giant 0
+F aff T
+F res BEH
+F vul FI
+F for Z
+F par PQUVX
+#18610
+undead slave~
+an undead slave~
+An undead slave is here, serving for eternity.
+~
+This poor soul was a slave in life, and has not escaped this fate in death
+either.  Maybe you should put it out of its misery.
+~
+human~
+ABGT DFJ -500 0
+41 0 15d10+1850 20d9+100 4d8+13 claw
+-13 -13 -13 5
+CEKNU PR 0 N
+stand stand male 0
+BI 0 medium 0
+F for V
+#18611
+bony shopkeeper~
+the bony shopkeeper~
+A shopkeeper who is nothing but skin and bones sits here.
+~
+This former merchant is nothing but a skeleton now.  What remains of his
+skin hangs off of him in long shreds.  Ew!
+~
+human~
+AB 0 0 0
+52 10 10d10+10 0d0+0 10d10+10 claw
+-40 -40 -40 -40
+EFNU ABCDKN 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#18612
+tyrg~
+the giant Tyrg~
+The giant Tyrg is here, drooling and growling.
+~
+This large animal looks like a cross between a wolf and a tiger.  It's sleek
+stance is reminiscent of a cat, but its powerful jaws demonstrate its
+relation to canines.
+~
+dog~
+ABFT CDFJZ -500 0
+45 30 1d1+3999 1d1+499 5d4+40 bite
+-25 -25 -25 -15
+ACDEFIKNO AB 0 C
+stand stand male 2000
+0 BGI huge 0
+F for G
+F par UV
+#18613
+bone drake~
+a bone drake~
+A skeletal bone drake is here, standing guard for eternity.
+~
+This was once a small dragon-like beast, but now has been perverted in death
+to a gruesome creature of bones.  It makes a strange attempt to roar at you
+that sounds like a screeching of birds.
+~
+unique~
+ABG DFHJ -700 0
+50 0 50d10+4000 50d9+100 6d6+17 bite
+-19 -19 -19 -4
+F AB F E
+stand stand none 4000
+C ABCGH large 0
+#18614
+heucuva~
+the heucuva~
+The heucuva is here, considering you with lifeless eyes.
+~
+He looks like a large humanoid skeleton, with red points of light in its eye
+sockets.  It reaches towards you with bony hands...
+~
+human~
+AB DFJV -1000 0
+51 0 50d10+5000 25d9+100 5d8+20 claw
+-21 -21 -21 3
+DEF ABLQ 0 0
+stand stand male 4500
+0 0 large 0
+F for AV
+F par DEFJK
+#18615
+osquip~
+the osquip~
+The osquip crawls about slowly here.
+~
+The osquip is an odd creature.  It looks like the skeleten of a giant rat
+with the skull of a bull.  It looks dreadful.
+~
+human~
+AB DFJV -800 0
+51 0 50d10+5000 25d9+100 5d8+20 bite
+-21 -21 -21 3
+CEF ABLQ F 0
+stand stand none 4000
+CG 0 huge 0
+F for AHMV
+F par DEFJK
+#18616
+necrophidius~
+the horrible necrophidius~
+The horrible necrophidius is here, slithering unnaturally.
+~
+The necrophidius resembles a bleached-white skeleton of a giant snake, topped
+by a fanged human skull with milk-white eyes.  It makes no sound as it 
+slithers toward you.
+~
+unique~
+ABCFR DFHJT -1000 0
+52 1 5d10+5500 1d1+1999 6d7+20 drain
+-22 -22 -22 -22
+ACEFK ABLQ 0 0
+stand stand none 0
+CH AQU huge 0
+#18617
+undead sage~
+an undead sage~
+An undead sage is here, guarding its master.
+~
+This robed skeleton looks like its in better shape than the other undead
+you've seen.  Its eye sockets emit a faint golden glow, and it hisses at you
+in a possible attempt to communicate.
+~
+human~
+ABF DFJZ -1000 0
+50 -3 25d10+3750 24d9+100 6d6+18 magic
+-18 -18 -18 5
+FKU ABLQR CF 0
+stand stand male 5000
+C 0 medium 0
+F for AV
+F par DEFIJK
+#18618
+guardian statue~
+a guardian statue~
+A guardian statue stands here.
+~
+This statue of a warrior looks incredibly life-like.  Maybe it's more than 
+just a statue?
+~
+wyvern~
+ABT JZ 0 0
+46 -1 25d10+2750 1d1+1999 8d4+15 smash
+-1 -1 -1 -1
+AEIKNRTU AB 0 0
+stand stand female 3000
+HMV B medium 0
+F imm L
+F vul S
+F for ABGZ
+F par HJKQVX
+#18619
+lich king~
+the lich king~
+The lich king sits here on his throne.
+~
+The lich king is completely unconcerned with you, as he has little to fear
+from any mortal creature.  He radiates power and evil with his undead gaze.
+Light shines from the eye sockets of his skull.
+~
+wyvern~
+AB N -1000 0
+60 0 50d10+9500 30d9+100 8d6+28 magic
+-30 -30 -30 0
+AEK AB 0 0
+sit sit male 6000
+HM BGI medium 0
+F aff F
+F imm L
+F vul S
+F for ABGZ
+F par DEFJQVX
+#18620
+keeper crystal~
+the keeper of the crystal~
+The keeper of the crystal hangs here in mid-air humming.
+~
+The keeper looks like a large floating glass sphere.  It crackles with
+electricity.
+~
+unique~
+ABC DFHNT 1000 0
+60 0 50d10+7000 60d9+100 5d10+28 shock
+-30 -30 -30 -3
+F ABJ 0 0
+stand stand none 0
+CH DEF large 0
+#0
+
+#OBJECTS
+#18600
+arbalest~
+an arbalest~
+Something that looks like a crossbow is here.~
+iron~
+weapon 0 AN
+exotic 7 5 pierce F
+41 200 2000 P
+A
+19 3
+#18601
+sergeant's sword~
+a sergeant's sword~
+A long razor-sharp blade is here.~
+steel~
+weapon 0 AN
+sword 6 6 slice D
+42 100 2000 P
+A
+2 1
+#18602
+ruby gem~
+a ruby~
+A beautiful, if small, ruby is here.~
+gem~
+gem W AO
+0 0 0 0 0
+0 1 6000 P
+#18603
+opal~
+an opal~
+A lustrous opal reminds you of far-off places.~
+gem~
+gem W AO
+0 0 0 0 0
+0 1 2000 P
+#18604
+emerald gem~
+an emerald~
+A deep green emerald winks at you.~
+gem~
+gem W AO
+0 0 0 0 0
+0 1 5000 P
+#18605
+sapphire~
+a sapphire~
+A pretty blue sapphire is here.~
+sapphire~
+gem G AO
+22 0 0 0 0
+0 1 2000 P
+#18606
+skull~
+a glittering skull~
+A glittering skull is here.~
+bone~
+container A AE
+20 0 0 10 100
+0 100 100 G
+A
+14 -150
+#18607
+shell cave turtle~
+the shell of a giant cave turtle~
+The giant shell of an unfortunate cave turtle is here.~
+bone~
+armor S AJ
+9 11 12 2 0
+43 250 3000 P
+A
+1 2
+A
+17 -6
+#18608
+cabinet~
+a cabinet~
+An old dusty cabinet is here.~
+wood~
+container 0 0
+5000 AC 0 5000 100
+0 0 0 P
+#18609
+pile dust~
+a pile of dust~
+A pile of dust is here.~
+dust~
+pill HY AO
+30 'cure disease' 'cure serious' 'poison' ''
+10 2 100 P
+A
+20 1
+#18610
+scroll guide~
+a guide to travelling in the shadow plane~
+An ancient looking scroll is here.~
+paper~
+trash HU AO
+0 0 0 0 0
+0 10 8000 P
+A
+20 5
+A
+14 -100
+E
+scroll guide ancient~
+My advice to you is not to go to the shadow plane, as it is the most 
+horrifying maze this universe has ever known...but since you have obtained
+this copy of my guide, I will assume that you have already stubbornly
+decided to do so.
+  Having journeyed through the shadow plane myself, I can offer these few
+bits of information about it:  1) You will get lost 2) You will find it
+very difficult to return to this the prime material plane once you have 
+crossed into the shadow plane 3) There are dangerous beings of shadow
+existing there 4)  There is an artifact of great power...a crystal...hidden
+somewhere within the plane 5)  Only mages of great power can create the
+proper pentagram portal needed to cross over 6)  You will get lost
+  Let me once again reiterate that you should not attempt to enter the
+shadow plane if you value your soul!
+             --Necron IV, sorceror of the great kingdom
+~
+#18611
+scroll revealing~
+a scroll of revealing~
+A scroll of revealing is here.~
+paper~
+scroll 0 AO
+40 'faerie fog' '' '' ''
+30 10 2000 P
+#18612
+scroll nexus~
+a scroll of nexus~
+A scroll of nexus is here.~
+paper~
+scroll 0 AO
+30 'nexus' '' '' ''
+30 10 5000 P
+#18613
+scroll burden~
+a scroll of burden~
+A scroll of burden is here.~
+paper~
+scroll 0 AO
+30 'floating disc' '' '' ''
+10 10 1000 P
+#18614
+scroll knowledge~
+a scroll of knowledge~
+A scroll of knowledge is here.~
+paper~
+scroll S AO
+40 'know alignment' '' '' ''
+30 10 3000 P
+#18615
+old chest~
+an old dusty chest~
+An old dusty chest is here.~
+wood~
+container 0 0
+200 AC 0 200 100
+0 0 0 P
+#18616
+old dusty key~
+an old dusty key~
+An old dusty key is here.~
+iron~
+key P AO
+0 0 0 0 0
+0 1 0 P
+#18617
+key pewter~
+a pewter key~
+A pewter key is here.~
+iron~
+key P AO
+0 0 0 0 0
+0 1 0 P
+#18618
+green orb~
+a green orb~
+A humming green orb is here.~
+crystal~
+key BP AO
+0 0 0 0 0
+10 100 100 P
+#18619
+red orb~
+a red orb~
+A humming red orb is here.~
+crystal~
+key BP AO
+0 0 0 0 0
+10 100 100 P
+#18620
+blue orb~
+a blue orb~
+A humming blue orb is here.~
+crystal~
+key BP AO
+0 0 0 0 0
+10 100 100 P
+#18621
+black orb~
+a black orb~
+A humming black orb is here.~
+crystal~
+key BP AO
+0 0 0 0 0
+10 100 100 P
+#18622
+key crystal~
+a crystal key~
+A crystal key glints as you look at it.~
+crystal~
+key APY AC
+0 0 0 0 0
+10 100 100 P
+#18623
+scepter undead~
+the scepter of the undead~
+The scepter of the undead is here.~
+bone~
+wand ABSY AO
+55 5 5 'dispel good' 0
+50 100 4000 P
+A
+20 1
+A
+17 -7
+#18624
+sash golden~
+a golden sash~
+A golden decorative sash.~
+gold~
+clothing H AD
+0 0 0 0 0
+50 10 2000 P
+F
+A 0 0 B
+A
+20 5
+#18625
+hoard lich~
+the hoard of the lich~
+The hoard of the lich is strewn here in a shining pile.~
+gold~
+money 0 A
+2500 100 0 0 0
+0 100 0 P
+#18626
+crown diamond~
+a diamond crown~
+A beautiful diamond crown twinkles here.~
+diamond~
+jewelry A AE
+0 0 0 0 0
+51 20 100 P
+A
+14 50
+A
+12 50
+#18627
+crystal shadows~
+the crystal of shadows~
+A crystal that oddly casts many shadows is here.~
+crystal~
+gem ABS AQ
+0 0 0 0 0
+51 10 8000 P
+A
+12 30
+A
+13 30
+A
+14 30
+A
+1 1
+A
+2 1
+A
+19 2
+#0
+
+#ROOMS
+#18600
+The mouth of a vast cave~
+You stand inside the mouth of a vast cave.  You sense evil all around you,
+and you can hear eery moans from the south.  There is an unpleasant smell,
+like that of decay.  Your light casts odd shadows on the scattered bones of
+many creatures lying on the floor of the cave.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18678
+D2
+Exit ~
+door~
+0 0 18602
+S
+#18601
+The Messy Apartment~
+As you enter the room, a faint odor reaches your nose....old pizza?
+Looking around, you see clothes strewn about and draped over the furniture.
+Dirty dishes decorate a small coffee table, and a few of them appear to be
+growing penicillin.  Against one wall a television displays reruns of 
+"The Simpsons."  In the kitchen you see a pile of garbage that is probably
+home to a variety of little vermin.  The sticky countertops are
+cluttered with empty liquor bottles, and one cabinet standing open seems to
+contain bottles that are not empty.
+    Near the door to the bedroom is a large fish tank.  It appears to be
+the only attractive object in eyeshot.
+~
+0 CDKNP 0
+H 300 M 999
+E
+bottles cabinet~
+You recognize few of the bottles, but you can make out the words "Jack
+Daniels" on a couple.
+~
+E
+pile garbage~
+EW! Was that a roach?
+~
+E
+tv television simpsons~
+It looks like Homer is drunk at Moe's again.
+~
+E
+fish tank fishtank~
+The fish tank sits upon an imitation pine stand.  It glows with
+fluorescent lights, and hums slightly.  Inside the tank you see many plants
+of different shapes and sizes, and fish swimming among them.  Of special
+interest is a brightly colored fish which you recognize as an Apistogramma
+Ramirezi of the family Cichlidae.  Hmmm....  You must be well educated.
+~
+S
+#18602
+A tunnel within the cave~
+As you enter this tunnel, dread overwhelms you.  Something sinister lurks
+here.  The eery moans grow louder, and are accompanied by strange scraping
+sounds.  It's not too late to turn back...
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18600
+D2
+Exit ~
+door~
+0 0 18603
+S
+#18603
+A guarded door~
+You have come to an iron-bound oaken door.  Torches flicker in sconces to
+either side of the door, but do little to dispel the darkness.  There are
+more bones here.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18602
+D2
+Exit ~
+door~
+1 18617 18604
+S
+#18604
+A junction of tunnels~
+There are tunnels heading in four directions here.  Moans and strange
+noises surround you.  To the east you smell the sweet scent of decay. To the
+south you sense great evil.
+~
+0 AD 0
+D0
+Exit ~
+door~
+1 0 18603
+D1
+Exit ~
+door~
+0 0 18616
+D2
+Exit ~
+door~
+0 0 18622
+D3
+Exit ~
+door~
+0 0 18605
+S
+#18605
+A bend in the tunnel~
+The tunnel turns north here.  You see more bones on the ground, and are
+beginning to grow tired of tripping over the larger ones.  Where do they all
+come from?
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18606
+D1
+Exit ~
+door~
+0 0 18604
+S
+#18606
+A north-south tunnel~
+As usual, there are bones littering the ground.  What is unusual is that you
+can see a little light coming from the north...what could it be?  As you get
+a closer look, bugs scurry here and there, attracted to the light just as
+you are.  The tunnel also branches to the west.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18607
+D2
+Exit ~
+door~
+0 0 18605
+D3
+Exit ~
+door~
+0 0 18608
+S
+#18607
+Inside the guard station~
+You are standing in an ancient guard station.  It looks like it hasn't been
+used in a long time though, as it is quite empty.  The light was coming from
+outside...you can see through an arrow-slit that an archer would be able to
+cover the cave entrance well.
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 18606
+S
+#18608
+An east-west tunnel~
+You are in a tunnel that runs east and west.  To the east the tunnel splits
+and to the west the tunnel turns south.  You can hear the sound of trickling
+water coming from the west.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 18606
+D3
+Exit ~
+door~
+0 0 18609
+S
+#18609
+A bend in the tunnel~
+Here the tunnel you are in turns south.  From that direction you hear running
+water.  There are still plenty of bones on the ground, crunching as you walk
+along.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 18608
+D2
+Exit ~
+door~
+0 0 18610
+S
+#18610
+A north-south tunnel~
+This tunnel opens out onto the beach of an underground lake to the south.
+The air is moist and cool, but not refreshing.  Instead you feel chilled and
+uncomfortable.  You see bones along the shore as well as in the tunnel.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18609
+D2
+Exit ~
+door~
+0 0 18611
+S
+#18611
+On an underground lake~
+You can't see the bottom of the lake because it is deep and dark.  
+Occasionally some of the water splashes onto your skin and it's COLD!  Odd
+water creatures can be seen flipping here and there...they don't look 
+friendly.  
+~
+0 AD 7
+D0
+Exit ~
+door~
+0 0 18610
+D1
+Exit ~
+door~
+0 0 18614
+D2
+Exit ~
+door~
+0 0 18612
+S
+#18612
+On an underground lake~
+You can't see the bottom of the lake because it is deep and dark.  
+Occasionally some of the water splashes onto your skin and it's COLD!  Odd
+water creatures can be seen flipping here and there...they don't look 
+friendly.  
+~
+0 AD 7
+D0
+Exit ~
+door~
+0 0 18611
+D1
+Exit ~
+door~
+0 0 18613
+D3
+Exit ~
+door~
+0 0 18652
+S
+#18613
+On an underground lake~
+You can't see the bottom of the lake because it is deep and dark.  
+Occasionally some of the water splashes onto your skin and it's COLD!  Odd
+water creatures can be seen flipping here and there...they don't look 
+friendly.  To the south there is enough beach to stand on.
+~
+0 AD 7
+D0
+Exit ~
+door~
+0 0 18614
+D2
+Exit ~
+door~
+0 0 18615
+D3
+Exit ~
+door~
+0 0 18612
+S
+#18614
+On an underground lake~
+You can't see the bottom of the lake because it is deep and dark.  
+Occasionally some of the water splashes onto your skin and it's COLD!  Odd
+water creatures can be seen flipping here and there...they don't look 
+friendly.  
+~
+0 AD 7
+D1
+Exit ~
+door~
+0 0 18653
+D2
+Exit ~
+door~
+0 0 18613
+D3
+Exit ~
+door~
+0 0 18611
+S
+#18615
+The shore of the underground lake~
+It's good to be on nice semi-dry land again...until you realize that 
+something lives here.  What creature's home have you disturbed?  You may be
+about to find out!
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18613
+S
+#18616
+A junction of tunnels~
+Here the tunnel is divided.  You can continue east, where the smell of decay
+grows stronger, or head north, where there is actually a little light.  Why
+don't you head north...it must be a lot safer...
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18654
+D1
+Exit ~
+door~
+0 0 18617
+D3
+Exit ~
+door~
+0 0 18604
+S
+#18617
+A widening of the tunnel~
+The tunnel broadens here and opens into a large cavern to the east, which is
+the source of the smell of death.  The ceiling becomes so high that you can
+no longer see it in the darkness.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 18618
+D3
+Exit ~
+door~
+0 0 18616
+S
+#18618
+A mass of gravestones~
+Rows of gravestones fill this huge cavern in every diretion.  They look very
+old, and yet the smell is of the recently dead.  You wonder how a graveyard
+came to be underground.  Perhaps this system of caves was once an ancient
+fortress for some warlord or great mage of the past...
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18620
+D1
+Exit ~
+door~
+0 0 18650
+D2
+Exit ~
+door~
+0 0 18619
+D3
+Exit ~
+door~
+0 0 18617
+S
+#18619
+A mass of gravestones~
+Rows of gravestones fill this huge cavern in every diretion.  They look very
+old, and yet the smell is of the recently dead.  You wonder how a graveyard
+came to be underground.  Perhaps this system of caves was once an ancient
+fortress for some warlord or great mage of the past...
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18618
+D1
+Exit ~
+door~
+0 0 18651
+S
+#18620
+A mass of gravestones~
+Rows of gravestones fill this huge cavern in every diretion.  They look very
+old, and yet the smell is of the recently dead.  You wonder how a graveyard
+came to be underground.  Perhaps this system of caves was once an ancient
+fortress for some warlord or great mage of the past...
+To the north is an ornate marble door.
+~
+0 AD 0
+D0
+Exit ~
+door~
+1 0 18621
+D1
+Exit ~
+door~
+0 0 18649
+D2
+Exit ~
+door~
+0 0 18618
+S
+#18621
+The mausoleum~
+Long expired torches line the marble walls of this chamber.  In the center of
+the room a large coffin rests, with no lid.  Jewels adorn the coffin, which
+is covered in gold and silver.
+~
+0 AD 0
+D2
+Exit ~
+door~
+1 0 18620
+S
+#18622
+A dark tunnel~
+You are in a roughly hewn tunnel heading south.  Yet more bones litter the
+ground.  Some of the bones have bits of rotted clothing and equipment on
+them.  You think you see a torn and shredded mud school diploma near the
+skull of an elf.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18604
+D2
+Exit ~
+door~
+0 0 18623
+S
+#18623
+Another tunnel junction~
+To south is an iron gate hanging from rusted hinges.  To the east is a flimsy
+looking wooden door.  To your surprise there are no bones here.  Through the
+gate the evil you sensed is greater.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18622
+D1
+Exit ~
+door~
+1 0 18644
+D2
+Exit ~
+gate~
+1 0 18624
+S
+#18624
+Before the gates of the Hall of the Undead~
+To the south is a massive iron gate.  It doesn't look like it's been used
+for quite awhile...not many people come by this way.  There is a great pile
+of bones here, probably created by the beast that guards the gate!
+~
+0 AD 0
+D0
+Exit ~
+gate~
+1 0 18623
+D2
+Exit ~
+gate~
+4 18616 18625
+S
+#18625
+At the top of a dark stairway~
+On this side of the gate things are much gloomier.  The darkness is thick
+and you feel like the walls are closing in on you.  As you peer down the 
+stairs, you see only impenetrable blackness.
+~
+0 AD 0
+D0
+Exit ~
+gate~
+4 18616 18624
+D5
+Exit ~
+door~
+0 0 18626
+E
+down~
+Darkness...
+~
+S
+#18626
+The beginning of the Hall of the Undead~
+The ceiling of this hallway is so high that you cannot tell exactly where it
+meets the walls somewhere above you.  The hallway is very wide, as though
+something very large might pass along it.  Ornate pillars adorn the walls,
+along with unlit torches.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18627
+D4
+Exit ~
+door~
+0 0 18625
+S
+#18627
+The Hall of the Undead~
+As you walk along this huge hallway, you are overcome by an eerie feeling.
+There is great evil all around you.  The carvings on the pillars cast strange
+shadows in your light, and you notice the familiar smell of decay.
+~
+0 AD 0
+D0
+Exit ~
+door~
+4 18619 18628
+D2
+Exit ~
+door~
+0 0 18626
+S
+#18628
+The Hall of the Undead~
+As you walk along this huge hallway, you are overcome by an eerie feeling.
+There is great evil all around you.  The carvings on the pillars cast strange
+shadows in your light, and you notice the familiar smell of decay.
+~
+0 AD 0
+D0
+Exit ~
+door~
+4 18618 18629
+D2
+Exit ~
+door~
+4 18619 18627
+S
+#18629
+The Hall of the Undead~
+As you walk along this huge hallway, you are overcome by an eerie feeling.
+There is great evil all around you.  The carvings on the pillars cast strange
+shadows in your light, and you notice the familiar smell of decay.
+~
+0 AD 0
+D0
+Exit ~
+door~
+4 18620 18630
+D2
+Exit ~
+door~
+4 18618 18628
+S
+#18630
+The Hall of the Undead~
+As you walk along this huge hallway, you are overcome by an eerie feeling.
+There is great evil all around you.  The carvings on the pillars cast strange
+shadows in your light, and you notice the familiar smell of decay.
+~
+0 AD 0
+D0
+Exit ~
+door~
+4 18621 18631
+D2
+Exit ~
+door~
+4 18620 18629
+S
+#18631
+The end of the hallway~
+You have reached the end of the hallway.  From here there are stairs going
+down into darkness once again.  The presence of evil can be felt very 
+strongly from below.  If you are afraid of the dark, now would be a good time
+to turn back.
+~
+0 AD 0
+D2
+Exit ~
+door~
+4 18621 18630
+D5
+Exit ~
+door~
+0 0 18632
+E
+down~
+Darkness...
+~
+S
+#18632
+Darkness...~
+You can't see a thing!
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18632
+D1
+Exit ~
+door~
+0 0 18632
+D2
+Exit ~
+door~
+0 0 18633
+D3
+Exit ~
+door~
+0 0 18632
+D4
+Exit ~
+door~
+0 0 18632
+D5
+Exit ~
+door~
+0 0 18632
+S
+#18633
+A vast hall~
+You have come out of the thick darkness into a vast hall.  The hallway above
+was large, but this is gigantic.  There are pillars everywhere, stretchig
+out of sight.  There are also all manner of old decorations...rotting
+tapestries, ornate carvings, and even some stained glass windows.  They are
+obviously remnants of a more decadent time.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18632
+D1
+Exit ~
+door~
+0 0 18640
+D2
+Exit ~
+door~
+0 0 18638
+D3
+Exit ~
+door~
+0 0 18634
+S
+#18634
+Among the pillars~
+Further away from the stairs it is easy to become lost, as the distance
+between the pillars, walls, and ceiling is so great.  It is eerily quiet...
+but you sense that SOMETHING is aware of your presence.  The evil in this
+hall is nearly overwhelming.
+~
+0 AD 0
+D1
+Exit ~
+door~
+0 0 18633
+D2
+Exit ~
+door~
+0 0 18635
+S
+#18635
+Among the pillars~
+Further away from the stairs it is easy to become lost, as the distance
+between the pillars, walls, and ceiling is so great.  It is eerily quiet...
+but you sense that SOMETHING is aware of your presence.  The evil in this
+hall is nearly overwhelming.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18634
+D1
+Exit ~
+door~
+0 0 18638
+D2
+Exit ~
+door~
+0 0 18636
+S
+#18636
+Among the pillars~
+Further away from the stairs it is easy to become lost, as the distance
+between the pillars, walls, and ceiling is so great.  It is eerily quiet...
+but you sense that SOMETHING is aware of your presence.  The evil in this
+hall is nearly overwhelming.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18635
+D1
+Exit ~
+door~
+0 0 18637
+S
+#18637
+Among the pillars~
+Further away from the stairs it is easy to become lost, as the distance
+between the pillars, walls, and ceiling is so great.  It is eerily quiet...
+but you sense that SOMETHING is aware of your presence.  The evil in this
+hall is nearly overwhelming.  To the south you can make out pale flames
+flickering.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18638
+D1
+Exit ~
+door~
+0 0 18641
+D2
+Exit ~
+door~
+0 0 18642
+D3
+Exit ~
+door~
+0 0 18636
+S
+#18638
+Among the pillars~
+Further away from the stairs it is easy to become lost, as the distance
+between the pillars, walls, and ceiling is so great.  It is eerily quiet...
+but you sense that SOMETHING is aware of your presence.  The evil in this
+hall is nearly overwhelming.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18633
+D1
+Exit ~
+door~
+0 0 18639
+D2
+Exit ~
+door~
+0 0 18637
+D3
+Exit ~
+door~
+0 0 18635
+S
+#18639
+Among the pillars~
+Further away from the stairs it is easy to become lost, as the distance
+between the pillars, walls, and ceiling is so great.  It is eerily quiet...
+but you sense that SOMETHING is aware of your presence.  The evil in this
+hall is nearly overwhelming.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18640
+D2
+Exit ~
+door~
+0 0 18641
+D3
+Exit ~
+door~
+0 0 18638
+S
+#18640
+Among the pillars~
+Further away from the stairs it is easy to become lost, as the distance
+between the pillars, walls, and ceiling is so great.  It is eerily quiet...
+but you sense that SOMETHING is aware of your presence.  The evil in this
+hall is nearly overwhelming.
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 18639
+D3
+Exit ~
+door~
+0 0 18633
+S
+#18641
+Among the pillars~
+Further away from the stairs it is easy to become lost, as the distance
+between the pillars, walls, and ceiling is so great.  It is eerily quiet...
+but you sense that SOMETHING is aware of your presence.  The evil in this
+hall is nearly overwhelming.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18639
+D3
+Exit ~
+door~
+0 0 18637
+S
+#18642
+Before the throne~
+You stand before the throne of the great lich king.  Huge pyres burn with a
+pale unnatural fire to either side of it.  Giant-sized steps of marble lead up
+to the throne, upon which stand some very life-like statues of armored men.
+To the west there is a large marble door, and to the east a doorway carved
+with runes.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18637
+D1
+Exit ~
+door~
+0 0 18656
+D3
+Exit ~
+door~
+4 18622 18643
+S
+#18643
+The treasure room~
+This room is rather plain...four stone walls and not much else, but its 
+contents make up for its lack of luster!
+~
+0 AD 0
+D1
+Exit ~
+door~
+4 18622 18642
+S
+#18644
+The slave quarters~
+You have entered a room that must have once been a slave quarters, though
+nothing living has been here for many years.  The bones of the long dead
+slaves still lie in their cots...and some of them are restless!
+There is a door to the east, or you can go back west.
+~
+0 AD 0
+D1
+Exit ~
+door~
+1 0 18645
+D3
+Exit ~
+door~
+1 0 18623
+S
+#18645
+The mess hall~
+This was once the room where the slaves ate.  There are rotting tables
+with empty food trays still sitting on them.  Maybe if you look around you
+can find some old silverware?
+There is a kitchen to the north, and some sort of counter to the east.
+~
+0 AD 0
+D0
+Exit ~
+door~
+1 0 18646
+D1
+Exit ~
+door~
+0 0 18647
+D3
+Exit ~
+door~
+1 0 18644
+S
+#18646
+The kitchen~
+In this old kitchen are rusty cooking utensils, an old rotting apron, and
+some piles of dust that were probably once food of some kind.  Not really
+much of interest here, but maybe there's something to be found in an old
+cabinet?
+~
+0 AD 0
+D2
+Exit ~
+door~
+1 0 18645
+S
+#18647
+The general store~
+This was once where the slaves and servants came to buy what little luxuries
+they could afford.  Now it is a decrepit rotting mess, but the shopkeeper
+seems to have been affected by the same magic that has raised so many other
+of this place's former occupants.  Perhaps he even has something for sale?
+You also notice a heavy stone door at the southern end of the room.
+~
+0 0 0
+D2
+Exit ~
+door~
+1 0 18648
+D3
+Exit ~
+door~
+0 0 18645
+S
+#18648
+The store room~
+In this former store room are shelves and shelves of dust and cobwebs.  There
+are also some rotting empty barrels, and in one corner...a chest!  
+~
+0 AD 0
+D0
+Exit ~
+door~
+1 0 18647
+S
+#18649
+A mass of gravestones~
+Rows of gravestones fill this huge cavern in every diretion.  They look very
+old, and yet the smell is of the recently dead.  You wonder how a graveyard
+came to be underground.  Perhaps this system of caves was once an ancient
+fortress for some warlord or great mage of the past...
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 18650
+D3
+Exit ~
+door~
+0 0 18620
+S
+#18650
+A mass of gravestones~
+Rows of gravestones fill this huge cavern in every diretion.  They look very
+old, and yet the smell is of the recently dead.  You wonder how a graveyard
+came to be underground.  Perhaps this system of caves was once an ancient
+fortress for some warlord or great mage of the past...
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18649
+D2
+Exit ~
+door~
+0 0 18651
+D3
+Exit ~
+door~
+0 0 18618
+S
+#18651
+A mass of gravestones~
+Rows of gravestones fill this huge cavern in every diretion.  They look very
+old, and yet the smell is of the recently dead.  You wonder how a graveyard
+came to be underground.  Perhaps this system of caves was once an ancient
+fortress for some warlord or great mage of the past...
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18650
+D3
+Exit ~
+door~
+0 0 18619
+S
+#18652
+On an underground lake~
+You can't see the bottom of the lake because it is deep and dark.  
+Occasionally some of the water splashes onto your skin and it's COLD!  Odd
+water creatures can be seen flipping here and there...they don't look 
+friendly.  
+~
+0 AD 7
+D1
+Exit ~
+door~
+0 0 18612
+S
+#18653
+On an underground lake~
+You can't see the bottom of the lake because it is deep and dark.  
+Occasionally some of the water splashes onto your skin and it's COLD!  Odd
+water creatures can be seen flipping here and there...they don't look 
+friendly.  
+~
+0 AD 7
+D3
+Exit ~
+door~
+0 0 18614
+S
+#18654
+A north-south tunnel~
+As usual, there are bones littering the ground.  What is unusual is that you
+can see a little light coming from the north...what could it be?  As you get
+a closer look, bugs scurry here and there, attracted to the light just as
+you are.
+~
+0 AD 0
+D0
+Exit ~
+door~
+0 0 18655
+D2
+Exit ~
+door~
+0 0 18616
+S
+#18655
+Inside the guard station~
+You are standing in an ancient guard station.  It looks like it hasn't been
+used in a long time though, as it is quite empty.  The light was coming from
+outside...you can see through an arrow-slit that an archer would be able to
+cover the cave entrance well.
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 18654
+S
+#18656
+The portal room~
+It is in this room that the lich practiced its darkest magics.  Strange
+devices clutter tables, and the air has an acrid odor.  On the floor is a
+huge shimmering black energy field in the shape of a pentagram...you surmise
+that it must be the legendary portal to the plane of shadows.
+~
+0 AD 0
+D3
+Exit ~
+door~
+0 0 18642
+D5
+Exit ~
+door~
+0 0 18657
+E
+down portal pentagram black field energy~
+You see a shimmering black energy field.
+~
+S
+#18657
+The shadow plane~
+On this side of the portal the world around you is....different.  Everywhere
+you look things are insubstantial or shimmery.  Alien sounds echo from all
+directions.  There is light, but it is strange...creating shadows at 
+impossible angles.  There is little color other than shades of grey.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18662
+D1
+Exit ~
+door~
+0 0 18660
+D2
+Exit ~
+door~
+0 0 18658
+D3
+Exit ~
+door~
+0 0 18661
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18658
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18657
+D1
+Exit ~
+door~
+0 0 18659
+D2
+Exit ~
+door~
+0 0 18657
+D3
+Exit ~
+door~
+0 0 18657
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18659
+The heart of a shadow~
+Your head begins to spin suddenly as you wander into the depths of a giant
+shadow.  All you can see is blackness that no light can pierce.  You can't
+escape!
+~
+0 C 0
+S
+#18660
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18657
+D1
+Exit ~
+door~
+0 0 18657
+D2
+Exit ~
+door~
+0 0 18657
+D3
+Exit ~
+door~
+0 0 18657
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18661
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18657
+D1
+Exit ~
+door~
+0 0 18657
+D2
+Exit ~
+door~
+0 0 18657
+D3
+Exit ~
+door~
+0 0 18657
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18662
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18672
+D1
+Exit ~
+door~
+0 0 18657
+D2
+Exit ~
+door~
+0 0 18657
+D3
+Exit ~
+door~
+0 0 18663
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18663
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18664
+D1
+Exit ~
+door~
+0 0 18657
+D2
+Exit ~
+door~
+0 0 18657
+D3
+Exit ~
+door~
+0 0 18657
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18664
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18657
+D1
+Exit ~
+door~
+0 0 18657
+D2
+Exit ~
+door~
+0 0 18657
+D3
+Exit ~
+door~
+0 0 18665
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18665
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18657
+D1
+Exit ~
+door~
+0 0 18657
+D2
+Exit ~
+door~
+0 0 18666
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18666
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18657
+D2
+Exit ~
+door~
+0 0 18667
+D3
+Exit ~
+door~
+0 0 18657
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18667
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18666
+D2
+Exit ~
+door~
+0 0 18668
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18668
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18667
+D1
+Exit ~
+door~
+0 0 18669
+D2
+Exit ~
+door~
+0 0 18657
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18669
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D1
+Exit ~
+door~
+0 0 18657
+D2
+Exit ~
+door~
+0 0 18670
+D3
+Exit ~
+door~
+0 0 18668
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18670
+The shadow plane~
+In the unnatural shadow light of this place it is difficult to tell which
+direction you are heading, and you soon find yourself lost.  The dark shapes
+of shadows dance all around you against a grey background.
+~
+0 N 0
+D0
+Exit ~
+door~
+0 0 18669
+D2
+Exit ~
+door~
+0 0 18657
+D3
+Exit ~
+door~
+0 0 18671
+E
+north south east west~
+You see flickering shadows.
+~
+S
+#18671
+The heart of the light~
+You have wandered into a great source of light.  For the moment the shadows
+seem to have been dispelled.  All around you you see white light!
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 18670
+S
+#18672
+The heart of a shadow~
+Your head begins to spin suddenly as you wander into the depths of a giant
+shadow.  All you can see is blackness that no light can pierce.  You can't
+escape!
+~
+0 C 0
+S
+#18673
+A shark cage~
+You are here to kill sharks in the "shark toss" quest, so KILL!
+  
+  
+  
+~
+0 CNP 0
+S
+#18674
+not in use~
+~
+0 P 0
+D3
+Exit ~
+door~
+0 0 18670
+S
+#18675
+not in use~
+~
+0 P 0
+D0
+Exit ~
+door~
+0 0 18670
+S
+#18676
+not in use~
+~
+0 CP 0
+S
+#18677
+not in use~
+~
+0 CP 0
+S
+#18678
+to be connected somewhere 8>~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 18600
+S
+#18679
+not in use~
+~
+0 CP 0
+S
+#18680
+not in use~
+~
+0 P 0
+D3
+Exit ~
+door~
+0 0 18669
+S
+#0
+
+#RESETS
+M 0 18602   1 18601  1	* an annoying fly
+M 0 18601   1 18601  1	* a bug
+M 0 18600   1 18601  1	* a MAD cow
+D 0 18625   0    2	* At the top of a dark stairway north
+M 0 18603  11 18654  1	* an undead soldier
+M 0 18603  11 18617  1	* an undead soldier
+E 1 18600  -1   16	*   an arbalest
+M 0 18603  11 18606  1	* an undead soldier
+E 1 18600  -1   16	*   an arbalest
+M 0 18604   5 18604  1	* an undead sergeant
+E 1 18601  -1   16	*   a sergeant's sword
+D 0 18604   0    2	* A junction of tunnels north
+M 0 18604   5 18623  1	* an undead sergeant
+E 1 18601  -1   16	*   a sergeant's sword
+D 0 18623   1    1	* Another tunnel junction east
+D 0 18623   2    1	* Another tunnel junction south
+M 0 18604   5 18609  1	* an undead sergeant
+E 1 18601  -1   16	*   a sergeant's sword
+M 0 18605   1 18655  1	* a bug
+M 0 18605   2 18607  1	* a bug
+M 0 18605   3 18610  1	* a bug
+M 0 18606   1 18619  1	* a rotting skeleton
+M 0 18606   1 18620  1	* a rotting skeleton
+D 0 18620   0    1	* A mass of gravestones north
+M 0 18607   1 18621  1	* The demi-lich
+E 1 18606  -1    6	*   a glittering skull
+P 1 18603  -1 18606  1	*   an opal
+P 1 18605  -1 18606  1	*   a sapphire
+P 1 18604  -1 18606  1	*   an emerald
+P 1 18602  -1 18606  1	*   a ruby
+D 0 18621   2    1	* The mausoleum south
+M 0 18606   2 18649  1	* a rotting skeleton
+M 0 18606   3 18650  1	* a rotting skeleton
+M 0 18608   1 18612  1	* a tentamort
+M 0 18608   2 18613  1	* a tentamort
+M 0 18608   3 18653  1	* a tentamort
+M 0 18609   1 18615  1	* a giant cave turtle
+E 1 18607  -1   11	*   the shell of a giant cave turtle
+M 0 18610   1 18644  1	* an undead slave
+D 0 18644   1    1	* The slave quarters east
+D 0 18644   3    1	* The slave quarters west
+M 0 18610   2 18645  1	* an undead slave
+D 0 18645   0    1	* The mess hall north
+D 0 18645   3    1	* The mess hall west
+O 0 18608 100 18646	* a cabinet
+P 1 18609  -1 18608  1	*   a pile of dust
+D 0 18646   2    1	* The kitchen south
+M 0 18611   1 18647  1	* the bony shopkeeper
+G 1 18611  -1     	*   a scroll of revealing
+G 1 18612  -1     	*   a scroll of nexus
+G 1 18613  -1     	*   a scroll of burden
+G 1 18614  -1     	*   a scroll of knowledge
+G 1 18610  -1     	*   a guide to travelling in the shadow plane
+D 0 18647   2    1	* The general store south
+O 0 18615 100 18648	* an old dusty chest
+P 1 18616  -1 18615  1	*   an old dusty key
+D 0 18648   0    1	* The store room north
+M 0 18603   5 18603  2	* an undead soldier
+E 1 18617  -1   17	*   a pewter key
+E 1 18600  -1   16	*   an arbalest
+M 0 18603   5 18603  2	* an undead soldier
+E 1 18600  -1   16	*   an arbalest
+D 0 18603   2    2	* A guarded door south
+M 0 18612   1 18624  1	* the giant Tyrg
+D 0 18624   0    1	* Before the gates of the Hall of the Undead north
+D 0 18624   2    2	* Before the gates of the Hall of the Undead south
+D 0 18631   2    2	* The end of the hallway south
+M 0 18613   1 18627  1	* a bone drake
+E 1 18619  -1   17	*   a red orb
+D 0 18627   0    2	* The Hall of the Undead north
+M 0 18614   1 18628  1	* the heucuva
+E 1 18618  -1   17	*   a green orb
+D 0 18628   0    2	* The Hall of the Undead north
+D 0 18628   2    2	* The Hall of the Undead south
+M 0 18615   1 18629  1	* the osquip
+E 1 18620  -1   17	*   a blue orb
+D 0 18629   0    2	* The Hall of the Undead north
+D 0 18629   2    2	* The Hall of the Undead south
+M 0 18616   1 18630  1	* the horrible necrophidius
+E 1 18621  -1   17	*   a black orb
+D 0 18630   0    2	* The Hall of the Undead north
+D 0 18630   2    2	* The Hall of the Undead south
+M 0 18617   2 18635  1	* an undead sage
+O 0 18626 100 18643	* a diamond crown
+O 0 18625 100 18643	* the hoard of the lich
+D 0 18643   1    2	* The treasure room east
+M 0 18617   3 18638  1	* an undead sage
+E 1 18624  -1    5	*   a golden sash
+M 0 18617   3 18639  1	* an undead sage
+M 0 18620   1 18671  1	* the keeper of the crystal
+E 1 18627  -1   18	*   the crystal of shadows
+M 0 18618   2 18642  2	* a guardian statue
+M 0 18618   2 18642  2	* a guardian statue
+M 0 18619   1 18642  1	* the lich king
+E 1 18622  -1    3	*   a crystal key
+E 1 18623  -1   17	*   the scepter of the undead
+D 0 18642   3    2	* Before the throne west
+S
+
+#SHOPS
+18611  0  0  0  0  0 	 150  10 	 0 23 	* the bony shopkeeper
+0
+
+#SPECIALS
+M 18602 spec_rabbit         	* an annoying fly
+M 18606 spec_cast_undead    	* a rotting skeleton
+M 18607 spec_cast_mage      	* The demi-lich
+M 18609 spec_cast_undead    	* a giant cave turtle
+M 18611 spec_breath_any     	* the bony shopkeeper
+M 18613 spec_cast_undead    	* a bone drake
+M 18616 spec_breath_lightning	* the horrible necrophidius
+M 18619 spec_breath_any     	* the lich king
+M 18620 spec_breath_lightning	* the keeper of the crystal
+S
+
+#$

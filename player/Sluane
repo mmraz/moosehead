@@ -2,8 +2,8 @@
 Name Sluane~
 Id   1000573140
 Email (null)~
-LogO 1128699806
-Vers 31
+LogO 1383943684
+Vers 33
 Desc steak
 ~
 Prom [%hHp %mMa %vMv][%g.%s][%n/%N][%w][%S]%c[%e][%r] ~
@@ -11,11 +11,12 @@ Race faerie~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 12
-SkPTracker 13
+SkPTimer 20
+SkPTracker 12
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +28,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 78499 xochipili~
 DeityT -4007 xochipili~
 Sac  300
@@ -36,24 +43,24 @@ Node 0
 Cap 0
 Created 1000573152
 Glad 0 0 0 0 0 0
-LastHost 196.31.58.5~
+LastHost 41.48.191.237~
 Cla  7
 Kit spirit caller~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 634784
+Plyd 636402
 Not  1124776094 1124692353 1124692353 1124817532 1124692353 1124692353 1124692353 1124775873 1124692353 1124692353
 Scro 22
 Rank 0
-Room 3054
-HMV  864 864 862 1422 260 521
-Gold 309
-Silv 570
+Room 3001
+HMV  864 864 1422 1422 521 521
+Gold 386
+Silv 3941
 Exp  177491
 Act  DEGHIK
 MHSF R
-AfBy CDFJTUVc
+AfBy CDEFJTVc
 Comm 0
 Disp FGIJMN
 IcgB 0
@@ -61,14 +68,14 @@ Icg 0
 Pnet ABCDEFGHI
 Pos  4
 Trai 8
-SkiP 267
-Save  -13
+SkiP 279
+Save  -7
 Alig  -1000
-Hit   16
+Hit   10
 Dam   5
-SecHit   16
+SecHit   10
 SecDam   5
-ACs 8 8 13 16
+ACs -72 -72 -67 -64
 Wimp  30
 Attr 10 23 21 18 13 13 13 15
 AMod 6 2 2 8 1 0 0 10
@@ -78,7 +85,7 @@ Pnts 69
 TSex 1
 LLev 35
 HMVP 594 1202 491
-Cnd  0 31 33 33
+Cnd  0 25 48 25
 Alias skel c 'summon dead'~
 Alias sk order skel h~
 Alias ors o skel rescue sluane~
@@ -140,7 +147,7 @@ Sk 77 'energy drain'
 Sk 1 'enervation'
 Sk 78 'entrance'
 Sk 88 'faerie fire'
-Sk 88 'faerie fog'
+Sk 89 'faerie fog'
 Sk 100 'famine'
 Sk 1 'farsight'
 Sk 87 'feast'
@@ -245,11 +252,14 @@ Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
 Gr 'spiritcaller'
-Affc 'pass door'   0  55  10   0   0    1048576
-Affc 'haste'   0  54  19   4   2    2097152
-Affc 'bless'   0  49  30  -6  24          0
-Affc 'bless'   0  47  30   6  18          0
-Affc 'giant strength'   0  45   1   4   1          0
+Affc 'giant strength'   0  50  36   4   1          0
+Affc 'armor'   0  50   2 -20  17          0
+Affc 'shield'   0  52  28 -20  17          0
+Affc 'stone skin'   0  50  20 -40  17          0
+Affc 'orb of turning'   0  51   9   0   0          0
+Affc 'orb of touch'   0  56   9   0   0          0
+Affc 'haste'   0  52  13   4   2    2097152
+Affc 'detect magic'   0  53  53   0   0         16
 End
 
 #O
@@ -449,7 +459,7 @@ PrevOwner Sluane~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 6 161 0
+Val  52 10 6 166 0
 Spell 3 'remove curse'
 End
 
@@ -815,7 +825,7 @@ PrevOwner Sluane~
 Cond 0
 Wear -1
 Cost 10000
-Val  25 5 3 193 0
+Val  25 5 3 198 0
 Spell 3 'stone skin'
 End
 
@@ -1002,7 +1012,7 @@ Nest 1
 PrevOwner Sluane~
 Cond 0
 Wear -1
-Time 6851
+Time 6810
 Cost 0
 Spell 3 'dispel good'
 End
@@ -1050,7 +1060,7 @@ Nest 1
 PrevOwner Sluane~
 Cond 0
 Wear -1
-Time 343
+Time 302
 Cost 1800
 Spell 1 'bless'
 Spell 2 'create food'
@@ -1275,6 +1285,51 @@ PrevOwner Sluane~
 Cond 0
 Wear 16
 Cost 5600
+End
+
+#O
+Vnum 6701
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 22506
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 22508
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10431
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10431
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
 End
 
 #END

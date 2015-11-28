@@ -3,32 +3,37 @@ Name Callak~
 SurN Silvarus~
 Id   1051275433
 Email (null)~
-LogO 1129785419
-Vers 31
+LogO 1346994375
+Vers 33
 LnD  A Gladiator~
 Prom <%hhp %mm %vmv %Xtnl> [{Y$%g {x%w] ~
 Race yinn~
-Clan outcast~
-Outc 124
-RufT 130
+Clan loner~
+Outc 82
+RufT 88
 MatookT 0
-SkPTimer 0
-SkPTracker 5
+SkPTimer 11
+SkPTracker 13
 LogoutTracker 0
 Kill 7 87 2 63
 Steal 13 5381 0
+MSteal 0
 LstK Nhi~
 LstKBy Anazar~
 LstAtkedBy Nuke~
-LstAtkedByTimer 1208
+LstAtkedByTimer 1166
 LstCombatDate 1123871410
 LstKillDate 1112029553
 LstDeathDate 1123869202
-LoginsWOKill 44
-LoginsWODeath 7
-LoginsWOCombat 5
+LoginsWOKill 48
+LoginsWODeath 11
+LoginsWOCombat 9
 Bnty 0
-Deity 378463 matook~
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+Deity 378463 mojo~
 Sac  300
 Sex  0
 Vump  0
@@ -36,39 +41,41 @@ Node 0
 Cap 0
 Created 1051275497
 Glad 3 10 0 0 7 0
-LastHost toronto-HSE-ppp4319007.sympatico.ca~
+LastHost 72.38.139.43~
 Cla  4
 Kit wu jen~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 1795016
-Not  1125021606 1125006634 1091857509 1129145608 1121859963 1129683041 1091857509 1124775873 1091857509 1129478192
+Plyd 1796648
+Not  1125021606 1125006634 1091857509 1306792684 1121859963 1129683041 1091857509 1124775873 1091857509 1129478192
 Scro 22
 Rank 0
-Room 3001
+Room 320
 HMV  1255 1255 702 702 483 483
-Gold 189
-Silv 1844
+Gold 246
+Silv 3167
 Exp  510020
 Act  CDFGHIKMQS
 MHSF RSV
-AfBy CFHJNVZc
+AfBy CDFJNTVZc
 Comm JS
 Disp CFIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-SkiP 625
+Prac 1
+Trai 16
+SkiP 633
 Save  -23
 Alig  -1000
-Hit   32
-Dam   37
-SecHit   21
-SecDam   26
-ACs -239 -239 -239 -239
-Attr 22 18 20 23 22 22 22 14
+Hit   47
+Dam   52
+SecHit   33
+SecDam   38
+ACs -189 -189 -189 -189
+Attr 22 18 20 23 22 14 14 14
 AMod 6 0 0 5 0 2 0 0
 Pass CaN/38Ay/KsDE~
 Titl  {RB{x.{RA{x.{RM{x.{RF{x.~
@@ -76,11 +83,11 @@ Pnts 100
 TSex 1
 LLev 130
 HMVP 1085 684 483
-Cnd  0 0 21 0
+Cnd  0 44 47 46
 Alias z c heal~
 Alias x focus 'dispel ma'~
 Alias p order all resc cal~
-Alias q c psi~
+Alias q c dem~
 Alias fog c 'faerie fog'~
 Alias b bleed~
 Alias hm focus 'heat metal'~
@@ -102,7 +109,6 @@ Sk 1 'cause light'
 Sk 1 'cause serious'
 Sk 1 'change sex'
 Sk 87 'charm person'
-Sk 1 'cone of silence'
 Sk 91 'continual light'
 Sk 83 'control weather'
 Sk 1 'create food'
@@ -247,17 +253,22 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'sanctuary'   0  46   0   0   0        128
-Affc 'shield'   0  45  40 -20  17          0
-Affc 'bless'   0  46  38  -5  24          0
-Affc 'bless'   0  45  38   5  18          0
-Affc 'tower of iron will'   3  46   7   0   0      32768
-Affc 'body weaponry'   0  45   8   0   0   33554432
-Affc 'stone skin'   0  43  31 -40  17          0
-Affc 'armor'   0  44  19 -20  17          0
-Affc 'giant strength'   0  45  31   4   1          0
-Affc 'haste'   0  42   7   4   2    2097152
-Affc 'protection evil'   0  44   8  -1  24       8192
+Affc 'bless'   0  39  11  -5  24          0
+Affc 'bless'   0  40  11   5  18          0
+Affc 'haste'   0  45  13   4   2    2097152
+Affc 'armor'   0  47  25 -20  17          0
+Affc 'frenzy'   0  47   5   7  18          0
+Affc 'frenzy'   0  47   5   7  19          0
+Affc 'frenzy'   0  46   5  30  17          0
+Affc 'daetok'   0  49   2   5  18          0
+Affc 'daetok'   0  50   2   5  19          0
+Affc 'stone skin'   0  47  38 -40  17          0
+Affc 'giant strength'   0  46  38   4   1          0
+Affc 'tower of iron will'   3  46  14   0   0      32768
+Affc 'protection evil'   0  45  15  -1  24       8192
+Affc 'body weaponry'   0  45  16   0   0   33554432
+Affc 'detect invis'   0  47  38   0   0          8
+Affc 'fly'   0  45  42   0   0     524288
 End
 
 #O
@@ -411,7 +422,7 @@ Nest 0
 PrevOwner Callak~
 ExtF 524355
 Cond 0
-Wear 16
+Wear -1
 Lev  50
 Cost 0
 Val  7 2 19 41 132
@@ -426,6 +437,21 @@ PrevOwner Callak~
 Cond 0
 Wear 3
 Cost 1400
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 0
+PrevOwner Eikel~
+ExtF 67
+Cond 0
+Wear 16
+Lev  50
+Cost 4500
+Val  2 2 19 2 7
+Affc 'enchant weapon'   0  52  -1  14  18          0
+Affc 'enchant weapon'   1  52  -1  14  19          0
 End
 
 #END

@@ -3,8 +3,8 @@ Name Bloodscream~
 SurN Null~
 Id   1052489469
 Email (null)~
-LogO 1101192727
-Vers 31
+LogO 1445438176
+Vers 33
 LnD  A Gladiator~
 Desc {                               {W-=%%$$$$ $$$=-_{x
 {                            {W-$$$$$$$$$$$ `$$$$$=-{x
@@ -53,21 +53,28 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 9
+SkPTracker 0
 LogoutTracker 0
 Kill 6 36 1 6
 Steal 0 0 0
+MSteal 0
 LstK Banger~
 LstKBy Zenlaar~
 LstAtkedBy Threedee~
-LstAtkedByTimer 3430
+LstAtkedByTimer 3319
 LstCombatDate 1101104791
 LstKillDate 1099910833
 LstDeathDate 1101104991
-LoginsWOKill 6
-LoginsWODeath 1
-LoginsWOCombat 0
+LoginsWOKill 9
+LoginsWODeath 4
+LoginsWOCombat 3
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 110164 huitzilopochtli~
 Sac  300
 Sex  2
@@ -76,41 +83,41 @@ Node 0
 Cap 0
 Created 1052489487
 Glad 0 4 0 0 2 0
-LastHost 146.230.193.249~
+LastHost 197.89.108.59~
 Cla  7
 Kit lycanthrope hunter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 779228
-Not  1100492461 1100782631 1099908691 1099908691 1099908691 1100802588 1099908691 1100793411 1099908691 1100986389
+Plyd 783717
+Not  1100492461 1100782631 1099908691 1099908691 1099908691 1100802588 1099908691 1307689822 1099908691 1100986389
 Scro 98
 Rank 1
-Room 31918
-HMV  1349 1349 954 954 764 764
-Gold 4
-Silv 298
+Room 31901
+HMV  1349 1349 934 954 764 764
+Gold 33
+Silv 2122
 Exp  449130
 Act  CDEFGHIKMQS
 MHSF RSUVX
-AfBy CJT
+AfBy CDEFJT
 Comm S
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  4
-Prac 39
-Trai 1
-SkiP 33
-Save  -22
+Prac 46
+Trai 15
+SkiP 36
+Save  -21
 Alig  85
 Hit   43
 Dam   26
 SecHit   30
 SecDam   17
-ACs -67 -61 -67 -58
-Attr 19 21 25 16 23 18 21 15
+ACs -129 -123 -129 -120
+Attr 19 21 25 16 23 11 14 15
 AMod 8 4 0 6 2 0 0 5
 Pass BlEZWSztzhBIg~
 Titl  Fear is Contagious, Spread the word [{RRR{x]~
@@ -118,7 +125,7 @@ Pnts 100
 TSex 1
 LLev 62
 HMVP 1174 756 734
-Cnd  0 40 46 44
+Cnd  0 0 6 0
 Alias ors order all rescue blood~
 Alias z c sleep~
 Alias orss o 3.skel rescue bloodscream~
@@ -147,7 +154,6 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 73 'cone of silence'
 Sk 75 'control weather'
 Sk 86 'cure blindness'
 Sk 75 'cure critical'
@@ -291,9 +297,14 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'bless'   0  42  25   6  18          0
-Affc 'bless'   0  47  25  -6  24          0
-Affc 'giant strength'   0  48  34   4   1          0
+Affc 'stone skin'   0  40   4 -40  17          0
+Affc 'shield'   0  44  12 -20  17          0
+Affc 'bless'   0  45  10  -6  24          0
+Affc 'bless'   0  41  10   6  18          0
+Affc 'giant strength'   0  47  28   4   1          0
+Affc 'detect magic'   0  43   4   0   0         16
+Affc 'detect hidden'   0  34   4   0   0         32
+Affc 'detect invis'   0  44   4   0   0          8
 End
 
 #O
@@ -315,9 +326,9 @@ Cond 0
 Wear 7
 Lev  46
 Cost 2000
-Affc 'reserved'   1  39  -1  -2  20          0
-Affc 'reserved'   1  39  -1   2  19          0
 Affc 'enchant armor'   1  53  -1 -11  17          0
+Affc 'reserved'   1  39  -1   2  19          0
+Affc 'reserved'   1  39  -1  -2  20          0
 End
 
 #O
@@ -325,7 +336,6 @@ Vnum 23512
 Nest 0
 PrevOwner Bloodscream~
 ExtF 17301569
-Stolen 9
 Cond 0
 Wear 1
 Cost 6740
@@ -341,9 +351,9 @@ Cond 0
 Wear 10
 Lev  50
 Cost 0
-Affc 'reserved'   1  49  -1  -2  20          0
-Affc 'reserved'   1  49  -1  30  13          0
 Affc 'enchant armor'   1  53  -1  -8  17          0
+Affc 'reserved'   1  49  -1  30  13          0
+Affc 'reserved'   1  49  -1  -2  20          0
 End
 
 #O
@@ -365,9 +375,9 @@ Cond 0
 Wear 5
 Lev  50
 Cost 13700
-Affc 'enchant armor'   1  53  -1  -9  17          0
-Affc 'reserved'   1  45  -1  30  12          0
 Affc 'reserved'   1  45  -1  -4  20          0
+Affc 'reserved'   1  45  -1  30  12          0
+Affc 'enchant armor'   1  53  -1  -9  17          0
 End
 
 #O
@@ -389,9 +399,9 @@ ExtF 17563713
 Cond 0
 Wear 8
 Cost 4500
-Affc 'reserved'   1  51  -1   2  18          0
-Affc 'reserved'   1  51  -1   3   2          0
 Affc 'enchant armor'   1  53  -1  -7  17          0
+Affc 'reserved'   1  51  -1   3   2          0
+Affc 'reserved'   1  51  -1   2  18          0
 End
 
 #O
@@ -404,17 +414,16 @@ Cond 0
 Wear 11
 Lev  49
 Cost 3500
-Affc 'reserved'   1  42  -1   2   1          0
-Affc 'reserved'   1  42  -1   2  19          0
-Affc 'reserved'   1  42  -1   1  18          0
 Affc 'enchant armor'   1  51  -1  -7  17          0
+Affc 'reserved'   1  42  -1   1  18          0
+Affc 'reserved'   1  42  -1   2  19          0
+Affc 'reserved'   1  42  -1   2   1          0
 End
 
 #O
 Vnum 12083
 Nest 0
 PrevOwner Bloodscream~
-Stolen 9
 Cond 0
 Wear 13
 Cost 32142
@@ -424,11 +433,10 @@ End
 Vnum 8529
 Nest 0
 PrevOwner Bloodscream~
-ExtF 524544
+ExtF 524288
 Cond 0
 Wear 6
 Cost 2000
-Affc 'bless'   1  50  30  -1  20        256
 End
 
 #O
@@ -436,7 +444,6 @@ Vnum 12060
 Nest 0
 PrevOwner Zenlaar~
 ExtF 554172545
-Stolen 8
 Cond 0
 Wear -1
 Cost 5427
@@ -463,9 +470,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 8400
-Affc 'reserved'   1  45  -1  -4  20          0
-Affc 'reserved'   1  45  -1   2  18          0
 Affc 'enchant armor'   1  53  -1  -7  17          0
+Affc 'reserved'   1  45  -1   2  18          0
+Affc 'reserved'   1  45  -1  -4  20          0
 End
 
 #O
@@ -478,9 +485,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 5000
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'reserved'   1  42  -1   2   2          0
 Affc 'enchant weapon'   1  53  -1  12  18          0
+Affc 'reserved'   1  42  -1   2   2          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O
@@ -493,23 +500,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
-End
-
-#O
-Vnum 9007
-Enchanted
-Nest 1
-PrevOwner Zenlaar~
-ExtF 339
-Cond 0
-Wear -1
-Lev  50
-Cost 5000
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'reserved'   1  49  -1  -5  17          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -580,21 +572,6 @@ Cost 6500
 End
 
 #O
-Vnum 8533
-Enchanted
-Nest 1
-PrevOwner Zenlaar~
-ExtF 8514
-Cond 0
-Wear -1
-Lev  50
-Cost 9400
-Affc 'enchant weapon'   0  53  -1  13  18          0
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'reserved'   1  47  -1  30  14          0
-End
-
-#O
 Vnum 10440
 Nest 1
 PrevOwner Zenlaar~
@@ -615,25 +592,9 @@ Wear -1
 Lev  50
 Cost 7300
 Val  5 6 6 1 512
-Affc 'enchant weapon'   1  52  -1   8  19          0
-Affc 'enchant weapon'   1  52  -1  12  18          0
 Affc 'reserved'   1  43  -1  -2  17          0
-End
-
-#O
-Vnum 10431
-Enchanted
-Nest 1
-PrevOwner Zenlaar~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 6500
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'reserved'   1  49  -1   0   0          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   1  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
 End
 
 #O
@@ -646,8 +607,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 700
-Affc 'enchant weapon'   0  48  -1  12  18          0
 Affc 'enchant weapon'   1  48  -1  12  19          0
+Affc 'enchant weapon'   0  48  -1  12  18          0
 End
 
 #O
@@ -663,7 +624,7 @@ Cond 0
 Wear -1
 Lev  22
 Cost 0
-Val  51 106 -1 -1 -1
+Val  51 109 -1 -1 -1
 Spell 1 'fumble'
 End
 
@@ -680,7 +641,7 @@ Cond 0
 Wear -1
 Lev  22
 Cost 0
-Val  51 106 -1 -1 -1
+Val  51 109 -1 -1 -1
 Spell 1 'fumble'
 End
 
@@ -697,7 +658,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 102 -1 -1 -1
+Val  51 105 -1 -1 -1
 Spell 1 'forget'
 End
 
@@ -714,7 +675,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 102 -1 -1 -1
+Val  51 105 -1 -1 -1
 Spell 1 'forget'
 End
 
@@ -728,8 +689,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  47  -1  10  19          0
 Affc 'enchant weapon'   0  47  -1  10  18          0
+Affc 'enchant weapon'   1  47  -1  10  19          0
 End
 
 #O
@@ -833,31 +794,72 @@ Cond 0
 Wear -1
 Cost 9500
 Val  5 5 8 18 548
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'enchant weapon'   1  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Bloodscream~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8533
+Enchanted
+Nest 1
+PrevOwner Bloodscream~
+ExtF 8514
+Cond 0
+Wear -1
+Lev  50
+Cost 9400
+Affc 'reserved'   1  47  -1  30  14          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   0  53  -1  13  18          0
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Bloodscream~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
+End
+
+#O
+Vnum 9007
+Enchanted
+Nest 1
+PrevOwner Bloodscream~
+ExtF 339
+Cond 0
+Wear -1
+Lev  50
+Cost 5000
+Affc 'reserved'   1  49  -1  -5  17          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
 Vnum 12063
 Nest 0
 PrevOwner Zenlaar~
-Stolen 6
 Cond 0
 Wear 17
 Cost 50000
-End
-
-#O
-Vnum 10337
-Enchanted
-Nest 0
-PrevOwner Zenlaar~
-ExtF 536871266
-Cond 0
-Wear 16
-Cost 0
-Affc 'enchant weapon'   0  53  -1  13  18          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
@@ -868,9 +870,9 @@ PrevOwner Zenlaar~
 Cond 0
 Wear 12
 Cost 0
-Affc 'reserved'   1  50  -1   2   3          0
-Affc 'reserved'   1  50  -1   3   2          0
 Affc 'reserved'   1  50  -1  75  12          0
+Affc 'reserved'   1  50  -1   3   2          0
+Affc 'reserved'   1  50  -1   2   3          0
 End
 
 #O
@@ -916,6 +918,19 @@ PrevOwner (null)~
 Cond 0
 Wear 2
 Cost 4200
+End
+
+#O
+Vnum 10337
+Enchanted
+Nest 0
+PrevOwner Bloodscream~
+ExtF 536871266
+Cond 0
+Wear 16
+Cost 0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1  13  18          0
 End
 
 #END

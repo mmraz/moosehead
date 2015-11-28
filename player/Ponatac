@@ -2,21 +2,30 @@
 Name Ponatac~
 Id   925620559
 Email (null)~
-LogO 967161937
-Vers 27
+LogO 1309190850
+Vers 31
 Prom <%h/%Hh %mm %vv %X tnl %eex > %c~
 Race dragon~
 Outc 0
 RufT 0
 MatookT 0
+Abol -1
 SkPTimer 0
 SkPTracker 0
-LogoutTracker 2
-Kill 0 0 0
-Steal 0 0 0 0
+LogoutTracker 1
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1309190746
+LstKillDate 1309190746
+LstDeathDate 1309190746
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 mojo~
 Sac  144
 Sex  1
@@ -25,21 +34,22 @@ Node 0
 Cap 0
 Created 952617925
 Glad 0 0 0 0 0 0
-LastHost 3comC1-19.nque.com 737973~
+LastHost 75.135.235.117~
 Cla  5
 ClaO 1
 Levl 3
 DLevl -1
-Plyd 5280
-Not  0 0 0 0 0 0 0 0 0
+Plyd 5380
+Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3054
-HMV  59 59 116 116 108 108
+HMV  49 49 116 116 108 108
 Gold 24
 Silv 56
 Exp  24229
 Act  CDEFGHQ
+MHSF R
 AfBy JT
 Comm DEGIRc
 Disp FIJ
@@ -47,21 +57,22 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 9
-Save  -1
+Trai 12
+Save  -5
 Alig  750
-Hit   4
-Dam   4
-ACs 87 61 61 99
+Hit   5
+SecHit   5
+ACs 80 80 80 80
 Wimp  6
-Attr 17 15 19 16 23
-AMod 2 -1 1 2 1
-Pass Po/.sxZ04QW8o~
+Attr 17 15 19 16 23 11 14 13
+AMod 0 0 0 0 0 0 0 0
+Pass PoUByvZCeBIaM~
 Titl  show me the {Bway{x!~
 Pnts 92
 TSex 1
 LLev 1
 HMVP 49 116 108
-Cnd  0 34 48 48
+Cnd  0 22 45 42
 Sk 1 'aid'
 Sk 1 'armor'
 Sk 1 'bestow holiness'
@@ -74,6 +85,7 @@ Sk 1 'create fountain'
 Sk 1 'create rose'
 Sk 1 'create spring'
 Sk 1 'create water'
+Sk 1 'crusade'
 Sk 1 'cure critical'
 OldSk 1 'cure critical'
 Sk 1 'cure light'
@@ -93,16 +105,18 @@ Sk 1 'endure heat'
 Sk 1 'farsight'
 Sk 1 'feast'
 Sk 1 'fireproof'
+Sk 1 'floating disc'
 Sk 1 'fly'
 OldSk 1 'fly'
-Sk 1 'floating disc'
 Sk 1 'frenzy'
 Sk 1 'gate'
 OldSk 1 'gate'
 Sk 1 'heal'
 OldSk 1 'heal'
+Sk 1 'holy silence'
 Sk 1 'holy word'
 Sk 1 'identify'
+Sk 1 'indulgence'
 Sk 1 'knock'
 OldSk 1 'knock'
 Sk 1 'know alignment'
@@ -124,6 +138,7 @@ Sk 1 'remove curse'
 Sk 1 'sacred guardian'
 Sk 1 'sanctuary'
 Sk 1 'shield'
+Sk 1 'see soul'
 Sk 1 'stone skin'
 Sk 1 'summon'
 OldSk 1 'summon'
@@ -142,10 +157,6 @@ Sk 1 'gas breath'
 OldSk 1 'gas breath'
 Sk 1 'lightning breath'
 OldSk 1 'lightning breath'
-Sk 1 'crusade'
-Sk 1 'holy silence'
-Sk 1 'see soul'
-Sk 1 'indulgence'
 Sk 1 'mace'
 Sk 54 'sword'
 OldSk 40 'sword'
@@ -186,13 +197,17 @@ Gr 'healing'
 Gr 'piety'
 Gr 'protective'
 Gr 'transportation'
+Affc 'armor'   0  44  34 -20  17          0
+Affc 'bless'   0  44  48  -5  24          0
+Affc 'bless'   0  42  48   5  18          0
 End
 
 #O
 Vnum 3716
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 Val  0 0 122 0 0
 End
@@ -200,16 +215,18 @@ End
 #O
 Vnum 3704
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 11
+Wear -1
 Cost 0
 End
 
 #O
 Vnum 3726
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 Val  100 1 0 10 85
 End
@@ -217,6 +234,7 @@ End
 #O
 Vnum 4434
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -225,6 +243,7 @@ End
 #O
 Vnum 4433
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -233,6 +252,7 @@ End
 #O
 Vnum 1254
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -244,14 +264,16 @@ End
 #O
 Vnum 3715
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 1140
 End
 
 #O
 Vnum 3009
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -260,6 +282,7 @@ End
 #O
 Vnum 3009
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -268,6 +291,7 @@ End
 #O
 Vnum 3009
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -276,78 +300,88 @@ End
 #O
 Vnum 3068
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 7
+Wear -1
 Cost 220
 End
 
 #O
 Vnum 3069
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 8
+Wear -1
 Cost 220
 End
 
 #O
 Vnum 3070
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 9
+Wear -1
 Cost 220
 End
 
 #O
 Vnum 3071
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 10
+Wear -1
 Cost 220
 End
 
 #O
 Vnum 3067
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 6
+Wear -1
 Cost 220
 End
 
 #O
 Vnum 3066
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 5
+Wear -1
 Cost 430
 End
 
 #O
 Vnum 3052
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 15
+Wear -1
 Cost 112
 End
 
 #O
 Vnum 3052
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 112
 End
 
 #O
 Vnum 3054
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 13
+Wear -1
 Cost 220
 End
 
 #O
 Vnum 3707
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -356,6 +390,7 @@ End
 #O
 Vnum 3712
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -364,6 +399,7 @@ End
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 48
@@ -372,6 +408,7 @@ End
 #O
 Vnum 3708
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -380,6 +417,7 @@ End
 #O
 Vnum 3711
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -388,6 +426,7 @@ End
 #O
 Vnum 3706
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -396,6 +435,7 @@ End
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -404,6 +444,7 @@ End
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -413,26 +454,29 @@ End
 Vnum 3021
 Enchanted
 Nest 0
+PrevOwner (null)~
 ExtF 65
 Cond 0
-Wear 16
+Wear -1
 Lev  2
 Cost 250
-Affc 'enchant weapon'   1  52  -1   4  19          0
 Affc 'enchant weapon'   0  52  -1   4  18          0
+Affc 'enchant weapon'   1  52  -1   4  19          0
 End
 
 #O
 Vnum 4439
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 18
+Wear -1
 Cost 0
 End
 
 #O
 Vnum 5932
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0

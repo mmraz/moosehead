@@ -3,18 +3,19 @@ Name Stilgar~
 SurN Methane~
 Id   1099958552
 Email (null)~
-LogO 1099959742
-Vers 31
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+LogO 1443404460
+Vers 33
+Prom %e %t %g:GP %s:SP %w%c%h/%H:HP %m/%M:MP %v:MV %X:x ~
 Race ogre~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 5
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 Sac  300
 Sex  1
@@ -34,46 +41,45 @@ Node 0
 Cap 0
 Created 1099958559
 Glad 0 0 0 0 0 0
-LastHost CPE-65-31-195-196.neb.rr.com~
+LastHost 173.215.8.171~
 Cla  3
 ClaO 3
-Levl 3
+Levl 6
 DLevl 0
-Plyd 1067
-Not  0 1098833359 0 0 0 0 0 0 0 0
+Plyd 3888
+Not  1307568638 1307568638 1307568638 1307568638 1307568638 1307568638 1307568638 1307568638 1307568638 1307568638
 Scro 22
 Rank 0
-Room 3054
-HMV  28 52 103 106 40 112
+Room 1215
+HMV  115 115 126 126 130 137
 Gold 21
-Silv 143
-Exp  46851
+Silv 42
+Exp  93343
 Act  CDEFGHKQ
 MHSF R
-AfBy VZ
 Comm GIT
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet AFHI
 Pos  8
-Prac 5
-SkiP 5
-Save  -6
-Alig  66
-Hit   5
-Dam   1
-SecHit   5
-ACs 73 72 72 79
-Attr 20 13 14 12 21 12 19 11
-AMod 7 0 2 6 2 0 2 0
+Prac 7
+SkiP 14
+Save  -7
+Alig  1000
+Hit   11
+Dam   6
+SecHit   6
+ACs 73 73 73 79
+Attr 22 16 18 12 21 11 14 11
+AMod 7 2 1 2 4 0 0 0
 Pass St.Phy7UGEU.A~
 Titl  the mortally wounded. Always~
 Pnts 117
 TSex 1
-LLev 0
-HMVP 52 106 112
-Cnd  0 44 47 46
+LLev 1
+HMVP 110 116 137
+Cnd  0 12 39 30
 Alias qq scan~
 Alias 1 put all sat~
 Sk 1 'aid'
@@ -112,7 +118,7 @@ Sk 1 'teleport'
 Sk 1 'word of recall'
 Sk 1 'axe'
 Sk 1 'dagger'
-Sk 82 'flail'
+Sk 85 'flail'
 Sk 1 'mace'
 Sk 1 'polearm'
 Sk 1 'spear'
@@ -129,7 +135,7 @@ Sk 8 'parry'
 Sk 1 'rescue'
 Sk 15 'shield block'
 Sk 50 'scan'
-Sk 1 'second attack'
+Sk 75 'second attack'
 Sk 1 'third attack'
 Sk 1 'fast healing'
 Sk 1 'hide'
@@ -147,67 +153,28 @@ Gr 'benedictions'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'haste'   0  39   4   4   2    2097152
-Affc 'body weaponry'   0  44  17   0   0   33554432
-Affc 'tower of iron will'   3  45  15   0   0      32768
-Affc 'giant strength'   0  37  20   4   1          0
-Affc 'bless'   0  42  43  -5  24          0
-Affc 'bless'   0  43  43   5  18          0
-Affc 'armor'   0  43  26 -20  17          0
+Affc 'armor'   0  41   9 -20  17          0
+Affc 'bless'   0  42  40   6  18          0
+Affc 'bless'   0  42  40  -6  24          0
+Affc 'giant strength'   0  44  19   4   1          0
 End
 
 #O
 Vnum 3716
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 175 0 0
-End
-
-#O
-Vnum 3703
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3720
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 16
-Cost 310
+Val  0 0 108 0 0
 End
 
 #O
 Vnum 3704
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear 11
-Cost 0
-End
-
-#O
-Vnum 13206
-Nest 0
-PrevOwner Stilgar~
-Cond 0
-Wear 2
-Cost 0
-End
-
-#O
-Vnum 13206
-Nest 0
-PrevOwner Stilgar~
-Cond 0
-Wear 1
 Cost 0
 End
 
@@ -234,14 +201,14 @@ Vnum 3715
 Nest 0
 PrevOwner Stilgar~
 Cond 0
-Wear 17
+Wear -1
 Cost 0
 End
 
 #O
 Vnum 3009
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear -1
 Cost 22
@@ -250,7 +217,7 @@ End
 #O
 Vnum 3009
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear -1
 Cost 22
@@ -259,7 +226,7 @@ End
 #O
 Vnum 3009
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear -1
 Cost 22
@@ -268,7 +235,7 @@ End
 #O
 Vnum 3009
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear -1
 Cost 22
@@ -277,7 +244,7 @@ End
 #O
 Vnum 3009
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear -1
 Cost 22
@@ -286,7 +253,7 @@ End
 #O
 Vnum 3009
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear -1
 Cost 22
@@ -295,7 +262,7 @@ End
 #O
 Vnum 3009
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear -1
 Cost 22
@@ -313,16 +280,17 @@ End
 #O
 Vnum 3726
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
+Val  100 1 0 10 85
 End
 
 #O
 Vnum 3709
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear 9
 Cost 72
@@ -331,7 +299,7 @@ End
 #O
 Vnum 3710
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear 10
 Cost 72
@@ -340,19 +308,185 @@ End
 #O
 Vnum 3713
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
-Wear 14
+Wear -1
 Cost 48
 End
 
 #O
 Vnum 3715
 Nest 0
-PrevOwner (null)~
+PrevOwner Stilgar~
 Cond 0
 Wear -1
 Cost 1140
+End
+
+#O
+Vnum 3726
+Nest 0
+PrevOwner Gnash~
+Cond 0
+Wear 12
+Cost 0
+Val  100 1 0 10 85
+End
+
+#O
+Vnum 3000
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 75
+Val  300 0 1 0 0
+End
+
+#O
+Vnum 5252
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 590
+End
+
+#O
+Vnum 5237
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 150
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner Kotoo~
+Cond 0
+Wear 15
+Cost 0
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner Kotoo~
+Cond 0
+Wear 14
+Cost 0
+End
+
+#O
+Vnum 12007
+Nest 0
+PrevOwner Caffeine~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 3720
+Enchanted
+Nest 0
+PrevOwner Caffeine~
+ExtF 1048642
+Cond 0
+Wear 16
+Lev  6
+Cost 310
+Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'enchant weapon'   0  53  -1   5  18          0
+End
+
+#O
+Vnum 6511
+Nest 0
+PrevOwner Caffeine~
+Cond 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 6511
+Nest 0
+PrevOwner Caffeine~
+Cond 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 5932
+Nest 0
+PrevOwner Justo~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 4434
+Nest 0
+PrevOwner Kotoo~
+Cond 0
+Wear 3
+Cost 0
+End
+
+#O
+Vnum 8128
+Enchanted
+Nest 0
+PrevOwner Stilgar~
+ExtF 577
+Cond 0
+Wear -1
+Lev  6
+Cost 0
+Affc 'reserved'   0   3  -1   0   0       1024
+Affc 'enchant weapon'   1  53  -1   4  19          0
+Affc 'enchant weapon'   0  53  -1   4  18          0
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner Caffeine~
+Cond 0
+Wear -1
+Cost 550
 End
 
 #END

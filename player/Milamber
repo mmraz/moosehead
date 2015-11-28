@@ -2,8 +2,8 @@
 Name Milamber~
 Id   994574795
 Email (null)~
-LogO 1131158556
-Vers 31
+LogO 1410249285
+Vers 33
 LnD  A Gladiator~
 Desc Before you you see a faerie, tall for his particular race and rather pale skinned.
 He would seem harmless being a faerie, but your senses tell you that this faerie is
@@ -17,10 +17,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 10
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -32,6 +33,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 410403 huitzilopochtli~
 DeityT -22733 matook~
 Sac  300
@@ -40,74 +47,73 @@ Vump  0
 Node 0
 Cap 0
 Created 0
-Glad 0 1 0 0 4 0
-LastHost richmond-bsr1-70-35-234-232.ironoh.adelphia.net~
+Glad 0 2 0 0 6 0
+LastHost 76.177.17.168~
 Cla  11
-Kit necromancer~
+Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 1746886
-Not  1079450093 1079290216 1079243986 1119238620 1108772426 1079504716 1079243986 1079474762 1079243986 1079243986
+Plyd 2046300
+Not  1407255693 1406980220 1312051625 1349834978 1332523915 1407001533 1312051625 1407046784 1312051625 1343254317
 Scro 22
 Rank 0
-Room 3005
-HMV  382 382 1258 1508 364 530
-Gold 131
-Silv 5730
+Room 3001
+HMV  382 382 1508 1508 530 530
+Gold 311
+Silv 4381
 Exp  208225
-Act  DEGHIKQRS
+Act  DGHIKRS
 MHSF RX
-AfBy DEFJT
+AfBy DFJT
 Comm GS
-Disp FIJN
+Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 13
-SkiP 108
+Prac 32
+Trai 5
+SkiP 81
 Save  -3
-Alig  -996
-Hit   33
-Dam   44
-SecHit   23
-SecDam   29
-ACs -31 -31 -31 -8
+Alig  -1000
+Hit   35
+Dam   43
+SecHit   25
+SecDam   28
+ACs -26 -26 -26 -3
 Wimp  20
-Attr 13 25 25 25 13 13 13 13
-AMod 4 0 -1 -2 2 0 0 2
+Attr 13 25 25 25 13 17 8 13
+AMod 8 0 -1 -2 2 0 0 2
 Pass MiObxMdEhIIW2~
-Titl  creator of Snaazy Bags.~
+Titl .~
 Pnts 74
 TSex 1
 LLev 132
 HMVP 312 1428 465
-Cnd  0 33 41 41
+Cnd  0 25 44 44
 Alias q quaff~
 Alias re oa rescue milamber~
 Alias oa order all~
 Alias kill bleed~
 Alias dummy c 'ventriloquate'~
-Alias beavis emote pulls his shirt over his head and yells, "I am the Great Cornholio! Do you have TP for my bunghole?"~
-Alias res order all rescue reznar~
 Alias lol emote laughs heartily.~
 Alias fae c 'faerie fire'~
 Alias fog c 'faerie fog~
+Alias armor cast 'enchant armor'~
 Sk 100 'acid blast'
-Sk 97 'armor'
+Sk 100 'armor'
 Sk 92 'blindness'
 Sk 100 'blur'
 Sk 1 'burning hands'
 Sk 1 'call lightning'
 Sk 81 'calm'
 Sk 82 'cancellation'
-Sk 84 'chain lightning'
+Sk 97 'chain lightning'
 Sk 1 'change sex'
-Sk 87 'charm person'
-Sk 78 'chill touch'
+Sk 99 'charm person'
+Sk 79 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 100 'continual light'
 Sk 1 'control weather'
 Sk 94 'create food'
@@ -117,14 +123,14 @@ Sk 75 'create spring'
 Sk 75 'create water'
 Sk 85 'curse'
 Sk 1 'detect evil'
-Sk 1 'detect good'
+Sk 75 'detect good'
 Sk 1 'detect hidden'
 Sk 75 'detect invis'
-Sk 96 'detect magic'
+Sk 98 'detect magic'
 Sk 1 'detect poison'
 Sk 88 'diamond skin'
-Sk 89 'dispel magic'
-Sk 90 'enchant armor'
+Sk 93 'dispel magic'
+Sk 100 'enchant armor'
 Sk 100 'enchant weapon'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
@@ -141,8 +147,8 @@ Sk 86 'fireball'
 Sk 75 'fireproof'
 Sk 87 'flameseek'
 Sk 75 'floating disc'
-Sk 95 'fly'
-Sk 86 'forget'
+Sk 96 'fly'
+Sk 88 'forget'
 Sk 95 'fumble'
 Sk 100 'gate'
 Sk 99 'giant strength'
@@ -152,17 +158,17 @@ Sk 100 'identify'
 Sk 94 'incinerate'
 Sk 86 'infravision'
 Sk 100 'invisibility'
-Sk 87 'knock'
+Sk 93 'knock'
 Sk 1 'know alignment'
 Sk 1 'lightning bolt'
 Sk 100 'locate object'
 Sk 1 'magic missile'
 Sk 75 'mass invis'
 Sk 76 'nexus'
-Sk 95 'pass door'
-Sk 95 'plague'
-Sk 91 'poison'
-Sk 1 'portal'
+Sk 97 'pass door'
+Sk 97 'plague'
+Sk 94 'poison'
+Sk 75 'portal'
 Sk 78 'protection evil'
 Sk 75 'protection good'
 Sk 75 'protection neutral'
@@ -170,11 +176,11 @@ Sk 75 'recharge'
 Sk 81 'refresh'
 Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
-Sk 99 'shield'
+Sk 100 'shield'
 Sk 1 'shocking grasp'
-Sk 94 'sleep'
-Sk 99 'slow'
-Sk 81 'sonic blast'
+Sk 95 'sleep'
+Sk 100 'slow'
+Sk 85 'sonic blast'
 Sk 75 'steel skin'
 Sk 78 'stone skin'
 Sk 100 'summon'
@@ -190,28 +196,27 @@ Sk 75 'gas breath'
 Sk 75 'lightning breath'
 Sk 85 'animate dead'
 Sk 100 'summon dead'
-Sk 78 'cryogenesis'
+Sk 83 'cryogenesis'
 Sk 80 'draw life'
 Sk 87 'make bag'
-Sk 82 'wraithform'
 Sk 99 'turn undead'
-Sk 94 'withstand death'
+Sk 98 'withstand death'
 Sk 75 'wound transfer'
-Sk 98 'axe'
+Sk 100 'axe'
 Sk 100 'dagger'
 Sk 100 'spear'
 Sk 100 'sword'
 Sk 100 'bleed'
 Sk 100 'dodge'
 Sk 100 'enhanced damage'
-Sk 82 'scan'
+Sk 85 'scan'
 Sk 100 'second attack'
 Sk 100 'meditation'
 Sk 100 'spellcraft'
 Sk 75 'scrolls'
 Sk 80 'staves'
 Sk 82 'wands'
-Sk 88 'swimming'
+Sk 95 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
@@ -230,376 +235,48 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect magic'   0  52  48   0   0         16
+Affc 'giant strength'   0  48  36   4   1          0
 End
 
 #O
-Vnum 2513
+Vnum 23138
 Nest 0
 PrevOwner Milamber~
-Name necklace vampire teeth~
-ShD  a necklace of vampire's teeth~
-Desc a necklace made from strung together vampire's teeth is here~
-ExtF 16779777
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 23109
+Enchanted
+Nest 0
+PrevOwner Milamber~
+ExtF 1
+Cond 0
+Wear 7
+Cost 1500
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'reserved'   1  20  -1   1  19          0
+End
+
+#O
+Vnum 16638
+Nest 0
+PrevOwner Milamber~
+ExtF 1051169
+Cond 0
+Wear 10
+Cost 6372
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner Milamber~
 Cond 0
 Wear 3
-Cost 710
-End
-
-#O
-Vnum 28024
-Nest 1
-PrevOwner Milamber~
-Name kitten~
-ShD  {WSwoosh{x, {WNike's {Dkitten and partner in crime.{x~
-Desc Swoosh the kitten, Nike's Partner in Crime is here purring.~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 10443
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 1520
-End
-
-#O
-Vnum 3107
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 3104
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 25000
-End
-
-#O
-Vnum 3155
-Nest 1
-PrevOwner Milamber~
-Name quest token~
-ShD  a Boogums Quest Token<tm>~
-Desc a Boogums Quest Token<tm> lies here waiting for you to pick it up.~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
-Vnum 3155
-Nest 1
-PrevOwner Milamber~
-Name quest token~
-ShD  a Boogums Quest Token<tm>~
-Desc a Boogums Quest Token<tm> lies here waiting for you to pick it up.~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 9 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 1347
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 11098
-Enchanted
-Nest 1
-PrevOwner Milamber~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 3500
-Val  1 9 4 3 5
-Affc 'reserved'   1  45  -1  50  13          0
-Affc 'enchant weapon'   1  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-End
-
-#O
-Vnum 28005
-Enchanted
-Nest 1
-PrevOwner Milamber~
-ExtF 99
-Cond 0
-Wear -1
-Cost 5000
-Val  2 5 8 11 6
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   1  53  -1  10  18          0
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 8528
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 2354
-Val  2 3 12 11 140
-End
-
-#O
-Vnum 2405
-Nest 1
-PrevOwner Milamber~
-ExtF 17694977
-Cond 0
-Wear -1
-Cost 1000
-Val  48 0 13 0 0
-End
-
-#O
-Vnum 28005
-Enchanted
-Nest 1
-PrevOwner Milamber~
-Name bloody condom~
-ShD  a {RBloody condom{x~
-Desc A bloody condom lies on the floor, ewww.~
-ExtF 99
-Cond 0
-Wear -1
-Cost 5415
-Affc 'enchant weapon'   1  50  -1   7  19          0
-Affc 'enchant weapon'   1  50  -1   9  18          0
-End
-
-#O
-Vnum 20740
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 20813
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 23578
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 11096
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 23564
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 4 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 23535
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Time 390
-Cost 2500
-Spell 1 'sleep'
-End
-
-#O
-Vnum 20808
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 1000
-Val  5 5 8 30 518
+Cost 300
 End
 
 #O
@@ -633,42 +310,6 @@ Cost 32142
 End
 
 #O
-Vnum 5922
-Nest 0
-PrevOwner Milamber~
-Cond 0
-Wear 4
-Cost 300
-End
-
-#O
-Vnum 20801
-Nest 0
-PrevOwner Milamber~
-Cond 0
-Wear 5
-Cost 10000
-End
-
-#O
-Vnum 22504
-Nest 0
-PrevOwner Milamber~
-Cond 0
-Wear 0
-Cost 0
-End
-
-#O
-Vnum 15227
-Nest 0
-PrevOwner Milamber~
-Cond 0
-Wear 12
-Cost 20000
-End
-
-#O
 Vnum 12001
 Nest 0
 PrevOwner Milamber~
@@ -679,36 +320,603 @@ Cost 0
 End
 
 #O
-Vnum 23111
+Vnum 1258
 Nest 0
 PrevOwner Milamber~
-ExtF 1
+Name bag beta the yinnish kaethan monk~
+ShD  a bag made from the yinnish kaethan monk's hide~
+Desc A bag of fine the yinnish kaethan monk hide catches your eye.  ~
+ExtF 0
+WeaF 16385
+Wt   5
 Cond 0
-Wear 9
-Cost 1500
+Wear -1
+Lev  18
+Cost 2800
+Val  560 1 -1 90 25
 End
 
 #O
-Vnum 23109
+Vnum 23124
+Nest 0
+PrevOwner Milamber~
+Cond 0
+Wear 17
+Cost 2400
+End
+
+#O
+Vnum 2513
+Nest 0
+PrevOwner Milamber~
+Name necklace vampire teeth~
+ShD  a necklace of vampire's teeth~
+Desc a necklace made from strung together vampire's teeth is here~
+ExtF 16779777
+Cond 0
+Wear 4
+Cost 710
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner Milamber~
+Name quest token~
+ShD  a Boogums Quest Token<tm>~
+Desc a Boogums Quest Token<tm> lies here waiting for you to pick it up.~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 102
+Nest 1
+PrevOwner Milamber~
+Name token~
+ShD  Token for a free restring~
+Desc Token for a free restring~
+Cond 0
+Wear -1
+Cost 310
+End
+
+#O
+Vnum 11096
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 10443
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 1520
+End
+
+#O
+Vnum 28005
 Enchanted
-Nest 0
+Nest 1
 PrevOwner Milamber~
-ExtF 1
+ExtF 99
 Cond 0
-Wear 7
-Cost 1500
-Affc 'reserved'   1  20  -1   1  19          0
-Affc 'reserved'   1  20  -1   1  18          0
+Wear -1
+Cost 5000
+Val  2 5 8 11 6
+Affc 'enchant weapon'   1  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
 End
 
 #O
-Vnum 15202
-Nest 0
+Vnum 2405
+Nest 1
 PrevOwner Milamber~
-ExtF 65
+ExtF 17694977
 Cond 0
-Wear 6
+Wear -1
+Cost 1000
+Val  48 0 13 0 0
+End
+
+#O
+Vnum 3104
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 25000
+End
+
+#O
+Vnum 1347
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
 Cost 0
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 20808
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 1000
+Val  5 5 8 30 518
+End
+
+#O
+Vnum 1326
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 5600
+Val  20 3 1 58 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 1326
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 5600
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 1373
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 3400
+Spell 3 'cure serious'
+End
+
+#O
+Vnum 1373
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 3400
+Spell 3 'cure serious'
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 8 166 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 1373
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 3400
+Spell 3 'cure serious'
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 7 166 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 8500
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 2333
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 580
+End
+
+#O
+Vnum 2333
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12086
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 6 166 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 20740
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 23564
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 31086
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'armor'
+Spell 2 'shield'
+Spell 3 'stone skin'
+End
+
+#O
+Vnum 9001
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8528
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 2354
+Val  2 3 12 11 140
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 23578
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 23567
+End
+
+#O
+Vnum 3107
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 2333
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 580
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+Val  52 10 5 166 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 18909
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner Milamber~
+Name quest token~
+ShD  a Boogums Quest Token<tm>~
+Desc a Boogums Quest Token<tm> lies here waiting for you to pick it up.~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 30109
+Nest 1
+PrevOwner Milamber~
+Name bmw poquah gift leveling chocolate~
+ShD  a chocolate BMW-Z8~
+Desc An expensive chocolate leveling gift shaped like a BMW-Z8 melts slowly.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 77 125 174 -1
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 28024
+Nest 1
+PrevOwner Milamber~
+Name kitten~
+ShD  {WSwoosh{x, {WNike's {Dkitten and partner in crime.{x~
+Desc Swoosh the kitten, Nike's Partner in Crime is here purring.~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 11098
+Enchanted
+Nest 1
+PrevOwner Milamber~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 3500
+Val  1 9 4 3 5
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   1  53  -1  12  18          0
+Affc 'reserved'   1  45  -1  50  13          0
+End
+
+#O
+Vnum 17663
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 4000
+Val  4 2 10 7 1024
+End
+
+#O
+Vnum 10326
+Nest 1
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3142
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 22044
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 2
+PrevOwner Milamber~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #O
@@ -730,22 +938,36 @@ Cost 3000
 End
 
 #O
-Vnum 23124
+Vnum 18119
+Enchanted
 Nest 0
 PrevOwner Milamber~
+ExtF 227
 Cond 0
-Wear 17
-Cost 2400
+Wear 16
+Lev  50
+Cost 4500
+Val  2 2 19 2 7
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  15  19          0
 End
 
 #O
-Vnum 16638
+Vnum 20801
 Nest 0
 PrevOwner Milamber~
-ExtF 1051169
 Cond 0
-Wear 10
-Cost 6372
+Wear 5
+Cost 10000
+End
+
+#O
+Vnum 22504
+Nest 0
+PrevOwner Milamber~
+Cond 0
+Wear 0
+Cost 0
 End
 
 #O
@@ -760,105 +982,47 @@ Cond 0
 Wear 11
 Lev  50
 Cost 4000
-Affc 'enchant armor'   1  53  -1  -6  17          0
-Affc 'reserved'   1  49  -1   2  18          0
-Affc 'reserved'   1  49  -1  -1  20          0
-Affc 'reserved'   1  49  -1   1  19          0
 Affc 'reserved'   1  49  -1  30  12          0
+Affc 'reserved'   1  49  -1   1  19          0
+Affc 'reserved'   1  49  -1  -1  20          0
+Affc 'reserved'   1  49  -1   2  18          0
+Affc 'enchant armor'   1  53  -1  -6  17          0
 End
 
 #O
-Vnum 23577
+Vnum 15227
 Nest 0
 PrevOwner Milamber~
 Cond 0
-Wear -1
-Cost 0
+Wear 12
+Cost 20000
 End
 
 #O
-Vnum 103
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 370
-Val  5 1 7 3 12
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 6600
-Enchanted
-Nest 1
-PrevOwner Milamber~
-ExtF 64
-Cond 0
-Wear -1
-Lev  8
-Cost 62
-Val  5 1 5 25 12
-Affc 'enchant weapon'   0  56  -1   4  18          0
-Affc 'enchant weapon'   1  56  -1   4  19          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 103
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 370
-Val  5 1 7 3 12
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 5252
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 590
-Val  2 2 5 11 8
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 5252
-Nest 1
-PrevOwner Milamber~
-Cond 0
-Wear -1
-Cost 590
-Val  2 2 5 11 8
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 12060
+Vnum 23111
 Nest 0
 PrevOwner Milamber~
+ExtF 1
 Cond 0
-Wear -1
-Cost 5234
-Val  5 6 7 38 8196
+Wear 9
+Cost 1500
 End
 
 #O
-Vnum 18119
-Enchanted
+Vnum 1258
 Nest 0
 PrevOwner Milamber~
-ExtF 227
+Name bag beta Vanessa the Dominatrix~
+ShD  a bag made from Vanessa the Dominatrix's hide~
+Desc A bag of fine Vanessa the Dominatrix hide catches your eye.  ~
+ExtF 0
+WeaF 16385
+Wt   5
 Cond 0
-Wear 16
-Lev  50
-Cost 4500
-Val  2 2 19 2 7
-Affc 'enchant weapon'   1  53  -1  15  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
+Wear -1
+Lev  18
+Cost 2800
+Val  560 1 -1 90 25
 End
 
 #END

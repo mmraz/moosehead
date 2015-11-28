@@ -2,8 +2,8 @@
 Name Frest~
 Id   949360181
 Email (null)~
-LogO 1116851111
-Vers 31
+LogO 1444234879
+Vers 33
 Desc He sees nothing special about you, either. :P
 ~
 Prom <%hhp %mm %vmv %X %S %w> ~
@@ -12,11 +12,12 @@ Clan warlock~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 18
+SkPTimer 1
 SkPTracker 12
 LogoutTracker 0
 Kill 4 1 0 1
 Steal 0 0 0
+MSteal 0
 LstK Coranon~
 LstKBy Marle~
 LstAtkedBy no one~
@@ -24,68 +25,75 @@ LstAtkedByTimer 0
 LstCombatDate 1079684487
 LstKillDate 1075712329
 LstDeathDate 1062419414
-LoginsWOKill 50
-LoginsWODeath 180
-LoginsWOCombat 20
+LoginsWOKill 60
+LoginsWODeath 190
+LoginsWOCombat 30
 Bnty 200
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 422015 cthon~
 DeityT -477 xochipili~
-Sac  225
+Sac  300
 Sex  1
 Vump  4
 Node 0
 Cap 0
 Created 956984910
 Glad 0 1 0 0 1 0
-LastHost 65-101-108-173.spkn.qwest.net~
+LastHost 58.85.103.174~
 Cla  7
 Kit staff crafter~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 654619
-Not  1091857719 1091606064 1091606064 1091606064 1091606064 1100268599 1091606064 1091606064 1091606064 1091606064
+Plyd 657889
+Not  1091857719 1091606064 1091606064 1091606064 1091606064 1100268599 1091606064 1314556796 1091606064 1091606064
 Scro 22
 Rank 3
-Room 31918
-HMV  1189 1254 995 995 397 718
-Gold 238
-Silv 6352
+Room 31900
+HMV  1254 1254 995 995 718 718
+Gold 533
+Silv 14465
 Exp  426603
-Act  DGHIMQSa
+Act  CDGHIMQRSa
 MHSF R
-AfBy DEJT
+AfBy BDFJTe
 Comm F
-Disp FIJN
+Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 16
-SkiP 45
-Save  -8
+Prac 17
+Trai 16
+SkiP 62
+Save  -14
 Alig  -1000
-Hit   40
+Hit   46
 Dam   32
-SecHit   28
+SecHit   34
 SecDam   20
-ACs -92 -86 -92 -44
+ACs -152 -146 -152 -104
 Wimp  20
-Attr 21 24 24 19 22 18 23 18
-AMod 2 2 0 5 2 0 0 0
+Attr 21 24 24 19 22 11 14 18
+AMod 6 2 0 5 2 0 0 0
 Pass FriiE0L02m30Q~
 Titl  Dark Sage of Legendra~
 Pnts 98
 TSex 1
 LLev 146
 HMVP 1144 770 683
-Cnd  0 44 47 46
+Cnd  0 0 18 11
 Sk 78 'acid blast'
 Sk 75 'acclimate'
 Sk 1 'aid'
-Sk 78 'armor'
+Sk 81 'armor'
 Sk 1 'bestow holiness'
-Sk 93 'bless'
+Sk 96 'bless'
 Sk 91 'blindness'
 OldSk 1 'blindness'
 Sk 1 'blur'
@@ -107,7 +115,6 @@ Sk 79 'charm person'
 OldSk 1 'charm person'
 Sk 75 'chill touch'
 Sk 75 'colour spray'
-Sk 1 'cone of silence'
 Sk 75 'cure critical'
 OldSk 1 'cure critical'
 Sk 75 'cure light'
@@ -173,7 +180,7 @@ Sk 75 'hydrophilia'
 Sk 93 'identify'
 Sk 75 'infravision'
 OldSk 1 'infravision'
-Sk 84 'invisibility'
+Sk 87 'invisibility'
 Sk 1 'knock'
 OldSk 1 'knock'
 Sk 75 'know alignment'
@@ -230,7 +237,7 @@ Sk 88 'tower of iron will'
 Sk 75 'ventriloquate'
 Sk 77 'warp'
 OldSk 1 'warp'
-Sk 89 'weaken'
+Sk 92 'weaken'
 OldSk 1 'weaken'
 Sk 85 'word of recall'
 OldSk 1 'word of recall'
@@ -309,8 +316,15 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'detect invis'   0  50  37   0   0          8
-Affc 'detect magic'   0  45  17   0   0         16
+Affc 'detect hidden'   0  47  13   0   0         32
+Affc 'shield'   0  44   6 -20  17          0
+Affc 'bless'   0  45   7   6  18          0
+Affc 'bless'   0  38   7  -6  24          0
+Affc 'stone skin'   0  44  14 -40  17          0
+Affc 'detect invis'   0  46  28   0   0          8
+Affc 'invisibility'   0  53  60   0   0          2
+Affc 'withstand death'   0  54  13   0   0 1073741824
+Affc 'giant strength'   0  54  53   4   1          0
 End
 
 #O
@@ -1177,7 +1191,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  45 20 -1 -1 -1
+Val  45 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -1194,7 +1208,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  52 230 -1 -1 -1
+Val  52 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1211,7 +1225,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  52 230 -1 -1 -1
+Val  52 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1228,7 +1242,7 @@ Cond 0
 Wear -1
 Lev  23
 Cost 0
-Val  52 110 230 152 -1
+Val  52 114 235 157 -1
 Spell 1 'haste'
 Spell 2 'summon dead'
 Spell 3 'pox'
@@ -1538,7 +1552,7 @@ Name Frest Limp Dick Nine Inches~
 ShD  Frest's Nine Inches of Limp Dick~
 Desc Frest's Limp Dick lies here. You really wanna pick it up?~
 ExtF 66
-Stolen 269
+Stolen 188
 Cond 0
 Wear 16
 Lev  50
@@ -1558,21 +1572,21 @@ Spell 3 'faerie fog'
 End
 
 #O
-Vnum 10308
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
 Vnum 13206
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5
+End
+
+#O
+Vnum 18432
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1500
 End
 
 #END

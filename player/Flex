@@ -2,8 +2,8 @@
 Name Flex~
 Id   965138555
 Email (null)~
-LogO 1003946205
-Vers 28
+LogO 1312477188
+Vers 31
 Prom (%h/%Hhp %m/%Mm %v/%Vmv) (%X) (%e)(%r) ~
 Race dragon~
 Outc 0
@@ -12,13 +12,22 @@ MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1312477112
+LstKillDate 1312477112
+LstDeathDate 1312477112
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 xochipili~
 Sac  300
 Sex  1
@@ -27,20 +36,19 @@ Node 0
 Cap 0
 Created 965138583
 Glad 0 0 0 0 0 0
-LastHost 62.46.150.248~
 Cla  14
 ClaO 3
 Levl 12
 DLevl 0
-Plyd 79331
-Not  0 0 0 0 0 0 0 0 0
+Plyd 79407
+Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3516
 HMV  252 252 152 152 282 282
 Gold 776
 Silv 17003
-Exp  138808
+Exp  138784
 Act  CDEFGHQ
 AfBy JT
 Comm DEGILRc
@@ -48,7 +56,7 @@ Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-Trai 1
+Trai 11
 SkiP 5
 Save  5
 Alig  -957
@@ -58,8 +66,8 @@ SecHit   3
 SecDam   1
 ACs 78 72 73 102
 Wimp  125
-Attr 22 18 16 22 18
-AMod 9 -1 0 5 1
+Attr 22 18 16 22 18 13 13 13
+AMod 9 -1 0 5 1 0 0 0
 Pass FlwFx5wGchWRY~
 Titl  is the {rBlade{x from the {bDarkness{x~
 Pnts 100
@@ -76,6 +84,7 @@ Sk 75 'armor'
 Sk 1 'blindness'
 Sk 1 'cancellation'
 Sk 1 'change sex'
+Sk 1 'cone of silence'
 Sk 75 'cure blindness'
 Sk 1 'cure disease'
 Sk 1 'cure poison'
@@ -751,8 +760,8 @@ Cond 0
 Wear 16
 Lev  10
 Cost 650
-Affc 'enchant weapon'   0  53  -1   5  18          0
 Affc 'enchant weapon'   1  53  -1   5  19          0
+Affc 'enchant weapon'   0  53  -1   5  18          0
 End
 
 #O

@@ -2,10 +2,10 @@
 Name Firestorm~
 Id   928913349
 Email (null)~
-LogO 1100554519
-Vers 31
-ShD  I'm Buff, I'm Tough, I'm the Stuff...~
-LnD  and all the girls, can't get enough
+LogO 1445304764
+Vers 33
+ShD  none~
+LnD  none
 ~
 Desc {Y    `-._     `-.     `.   \      :      /   .'     .-'     _.-'{x
 {Y ._     `-._    `-.    `.  `.    :    .'  .'    .-'    _.-'     _{x
@@ -26,7 +26,7 @@ Desc {Y    `-._     `-.     `.   \      :      /   .'     .-'     _.-'{x
 
 ~
 Prom [%z %R %y %i %e] ~
-Race dragon~
+Race gargoyle~
 Outc 0
 RufT 0
 MatookT 79
@@ -36,6 +36,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Eminem~
 LstKBy no one~
 LstAtkedBy no one~
@@ -47,7 +48,13 @@ LoginsWOKill 4
 LoginsWODeath 4
 LoginsWOCombat 4
 Bnty 0
-Deity 0 matook~
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 0 mojo~
 DeityT -1812 matook~
 Sac  300
 Sex  1
@@ -56,67 +63,64 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost d150-6-69.home.cgocable.net~
+LastHost 174.118.243.103~
 Cla  11
 Kit necromancer~
-ClaO 3
-Levl 53
+ClaO 10
+Levl 52
 DLevl 0
-Plyd 3506026
-Not  1024415788 1024415788 1098524284 1099686075 1098850206 1100266202 1024415788 1024415788 1097547037 1024415788
+Plyd 4638901
+Not  1444654276 1407270311 1318185393 1348278811 1332523915 1444750340 1318935613 1407046784 1407116121 1318785693
 Scro 22
 Rank 5
-Room 2456
-HMV  5815 5815 5432 5432 824 824
-Gold 0
-Silv 436
-Exp  58300
-Act  BCDGHMNQRST
+Room 1241
+HMV  6670 6670 5512 5512 888 888
+Gold 468
+Silv 6701
+Exp  62700
+Act  BCDEFGHMNQRST
 MHSF I
-AfBy DFHJNTUVace
-Comm FG
-Disp BEHIJN
-IcgB 0
-Icg 0
-Wizn ABCEFLRSX
-Pnet C
+AfBy DFHJNTVace
+Comm G
+Disp BEHIJ
+IcgB A
+Icg 2
+Wizn ABCDEFIJKLRSTUXc
+Pnet BCDEFGHI
 Pos  8
-Prac 279
-Trai 79
-SkiP 49
-Save  -170
-Alig  -1000
-Dam   2
-SecHit   75
-SecDam   77
+Prac 83
+Trai 19
+SkiP 21
+Save  -179
+Alig  -561
+Hit   75
+Dam   80
+SecDam   5
 ACs -714 -716 -716 -712
-Attr 25 25 25 25 25 13 13 13
-AMod 18 5 0 20 20 0 0 0
-Pass Fiay9Yi7Lu6kM~
+Attr 25 25 25 25 25 11 11 25
+AMod 18 7 0 20 20 0 0 0
+Pass FiVG7wYMmbw1E~
 Bin  {RFirestorm rises from the ground, blazing into existence before your very eyes!{x~
 Bout {RFirestorm streaks away, searing the sky in his wake! A tiny pile of{x {Dashes{x {Ris all that remains.{x~
-Titl , Tongue-tied and twisted, just a {rfirebound{x {Bm{x{Gi{x{Ys{x{Cf{x{Mi{x{Rt{x...~
+Titl , {WA{xl{Wb{xi{Wn{xo {RP{rh{Ro{re{Rn{ri{Rx{x of the Great {WWhite{x North.~
 Pnts 40
 WhoName Phoenix~
 TSex 1
-LLev 973
-HMVP 815 432 524
+LLev 1025
+HMVP 1620 462 588
 Cnd  0 44 -1 -1
 Edit ABCEH
 ERange 1 50000
 Alias pk who clan~
-Alias dd desc +~
 Alias j stat obj~
 Alias we where~
-Alias b backstab~
 Alias bs bounty show~
 Alias lo cast 'locate object'~
+Macro wizgift at %1 say Congrats on reaching level %2!; at %1 give condom %1; at %1 cheer %1~
+Macro gift at %1 say Congrats on reaching level %2!; at %1 give feather %1; at %1 cheer %1~
 Macro title3 string mob firestorm title , {WA{xl{Wb{xi{Wn{xo {RP{rh{Ro{re{Rn{ri{Rx{x of the Great {WWhite{x North.~
-Macro crash gecho Grab hold of your crash helmets, we're in for a bumpy ride!~
 Macro ttomb trans %1 16504~
 Macro title string mob firestorm title , Tongue-tied and twisted, just a {rfirebound{x {Bm{x{Gi{x{Ys{x{Cf{x{Mi{x{Rt{x...~
-Macro gift at %1 say Way to go %1!; at %1 give feather %1; at %1 cheer %1~
-Macro wizgift at %1 say Way to go %1!; at %1 give condom %1; at %1 cheer %1~
 Macro alter goto 3054~
 Macro duel goto 16175~
 Macro camelot goto 2456~
@@ -139,6 +143,8 @@ Macro laggy emote is moving  V e  r  y    S  l   o     w     l        y.....~
 Macro olc inc 52; string mob firestorm title is on OLC and is {Rafw{x. Expect to be ignored.~
 Macro title2 string mob firestorm title , the Unforgetable {RF{x{ri{x{Rr{x{re{x.~
 Macro spamm at %1 whap %1; at %1 say dude, knock off the spam already!~
+Macro tglad goto 10820~
+Macro tpfresh goto 3700~
 Spz 'dagger'
 Sk 100 'reserved'
 Sk 100 'opiate'
@@ -165,7 +171,6 @@ Sk 100 'change sex'
 Sk 100 'charm person'
 Sk 100 'chill touch'
 Sk 100 'colour spray'
-Sk 1 'cone of silence'
 Sk 100 'continual light'
 Sk 100 'control weather'
 Sk 100 'create food'
@@ -309,7 +314,7 @@ Sk 100 'summon dead'
 Sk 100 'summon elemental'
 Sk 100 'cryogenesis'
 Sk 100 'draw life'
-Sk 75 'wraithform'
+Sk 1 'wraithform'
 Sk 100 'turn undead'
 Sk 100 'withstand death'
 Sk 100 'wound transfer'
@@ -336,6 +341,7 @@ Sk 100 'dodge'
 Sk 100 'dual wield'
 Sk 100 'endurance'
 Sk 100 'fear'
+Sk 1 'grab'
 Sk 100 'hex'
 Sk 100 'infiltrate'
 Sk 100 'kailindo'
@@ -363,7 +369,6 @@ Sk 100 'fourth attack'
 Sk 100 'alchemy'
 Sk 100 'chee'
 Sk 100 'communion'
-Sk 100 'fade'
 Sk 100 'fast healing'
 Sk 100 'focus'
 Sk 100 'haggle'
@@ -371,7 +376,6 @@ Sk 100 'hide'
 Sk 100 'holy chant'
 Sk 100 'lore'
 Sk 100 'meditation'
-Sk 100 'nethermancy'
 Sk 100 'peek'
 Sk 100 'pick lock'
 Sk 100 'riding'
@@ -413,16 +417,6 @@ Cost 0
 End
 
 #O
-Vnum 2443
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1000
-Spell 3 'withstand death'
-End
-
-#O
 Vnum 17
 Nest 1
 PrevOwner (null)~
@@ -445,13 +439,115 @@ Cost 0
 End
 
 #O
-Vnum 2441
+Vnum 4822
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 30184
 Nest 1
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
-Spell 3 'cure critical'
+Spell 3 'create rose'
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner (null)~
+Name voucher slay~
+ShD  A voucher for a free slaying by Firestorm~
+Desc A voucher for a free slaying by Firestorm~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner (null)~
+Name voucher slay~
+ShD  A voucher for a free slaying by Firestorm~
+Desc A voucher for a free slaying by Firestorm~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner (null)~
+Name voucher slay~
+ShD  A voucher for a free slaying by Firestorm~
+Desc A voucher for a free slaying by Firestorm~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner (null)~
+Name voucher slay~
+ShD  A voucher for a free slaying by Firestorm~
+Desc A voucher for a free slaying by Firestorm~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner (null)~
+Name voucher slay~
+ShD  A voucher for a free slaying by Firestorm~
+Desc A voucher for a free slaying by Firestorm~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner (null)~
+Name voucher slay~
+ShD  A voucher for a free slaying by Firestorm~
+Desc A voucher for a free slaying by Firestorm~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 3155
+Nest 1
+PrevOwner (null)~
+Name voucher slay~
+ShD  A voucher for a free slaying by Firestorm~
+Desc A voucher for a free slaying by Firestorm~
+Cond 0
+Wear -1
+Cost 10
 End
 
 #O
@@ -487,7 +583,7 @@ ShD  a silver Zippo inscribed with the symbol of a Phoenix~
 Desc a small silver lighter, bearing a phoenix engraved on its side, lies here.~
 ExtF 0
 Cond 0
-Wear 19
+Wear 16
 Cost 10000
 Val  4 30 25 38 287
 End
@@ -513,6 +609,83 @@ Spell 3 'cure critical'
 End
 
 #O
+Vnum 16501
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 144
+End
+
+#O
+Vnum 30184
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'create rose'
+End
+
+#O
+Vnum 2441
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 5516
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 15000
+End
+
+#O
+Vnum 22564
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 30184
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'create rose'
+End
+
+#O
+Vnum 30184
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'create rose'
+End
+
+#O
+Vnum 2441
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
 Vnum 2441
 Nest 0
 PrevOwner (null)~
@@ -540,6 +713,15 @@ Cond 0
 Wear -1
 Cost 0
 Spell 3 'cure critical'
+End
+
+#O
+Vnum 1206
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 10
 End
 
 #END

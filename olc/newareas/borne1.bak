@@ -1,0 +1,1649 @@
+#AREA
+../newareas/borne1.are~
+New Area Baby!~
+15-30   Borne    New Area Baby!~
+6800 6899
+
+#MOBILES
+#6800
+dreadknight knight~
+a dreadknight~
+A dreadknight turns toward you with a flourish of his cloak.
+~
+A vicious looking demon stands before you. He seems more importantly than
+the lowly demons that abound and he appears rather daunting. His black cloak
+billows about him and makes him appear much larger than he is. His eyes
+shine with a cool silver glimmer and his fangs flash from the reflection of
+some unseen light. The dreadknights are a most disturbing league of evil
+beast indeed.
+~
+lasher~
+ABT D -1000 0
+30 2 6d12+820 2d2+100 4d4+6 claw
+-10 -10 -10 -10
+FIKU B MP JN
+stand stand none 500
+I TU medium 0
+F aff T
+F res HJ
+F vul P
+F for V
+F par DGHIJK
+#6801
+scavenging imp~
+a scavenging imp~
+An imp is scampering about here, in search of something to pocket.
+~
+A purple creature lazily flies through here. He seems to be closely examining
+the ground and he stops every once and awhile to take a closer look. He pays
+you no attention as you approach.
+~
+hobgoblin~
+ACS DT -900 0
+25 1 5d10+530 10d10+100 2d10+6 slice
+-7 -2 -7 -12
+FKNU 0 C 0
+stand stand male 200
+Cc PT small 0
+F aff J
+F res LQ
+F for V
+F par GHIJKY
+#6802
+converted angel~
+a converted angel~
+A crestfallen angel converted to the dark side wallows about here.
+~
+An angel gazes in your direction with blank eyes, seeming to look right past
+you. You give a shiver as this once utmost holy creature prepares to fight
+you in the name of evil.
+~
+volare~
+AT DF -650 0
+20 0 3d9+333 10d9+100 2d8+5 pound
+-4 -4 -4 0
+FN 0 0 0
+stand stand none 0
+0 P medium 0
+F res BN
+F vul M
+#6803
+pac~
+Pac~
+Pac is sitting here, head in hands.
+~
+Pac is a man in quiet reflection and he appears as if he'd prefer if you
+refrained from bothering him.
+~
+human~
+AB H 0 0
+35 -3 10d10+1500 19d9+100 3d10+12 pound
+-12 -12 -12 6
+EFK 0 0 G
+sit sit male 0
+J P medium 0
+F par I
+#0
+
+#OBJECTS
+#6800
+milk paradise~
+the milk of Paradise~
+A handful of milk is here. Legend says it goes great with honey-dew.~
+milk~
+potion AGISY AO
+50 'cancellation' 'cure critical' 'calm' ''
+1 1 0 P
+#6801
+rubyfish fish~
+a rubyfish~
+An incredibly intricate rubyfish glistens here.~
+rubyfish~
+jewelry AG AI
+0 0 0 0 0
+30 2 5000 P
+A
+12 30
+A
+18 2
+A
+19 1
+#6802
+bad moon~
+a bad moon~
+A bad moon is on the rise here.~
+moonrock~
+light B AO
+0 0 -1 0 0
+25 5 0 P
+A
+12 20
+A
+20 -2
+A
+2 -1
+#6803
+holy medallion~
+a holy medallion~
+A medallion designed with meticulous craftsmanship lies here.~
+gold~
+jewelry K AC
+0 0 0 0 0
+33 5 3000 P
+A
+18 3
+A
+19 1
+A
+20 2
+#6804
+spear white~
+the Spear of White~
+The Spear of White lies here.~
+ivory~
+weapon HIKST AN
+staff 5 8 pierce BFI
+48 50 2000 P
+A
+19 -2
+A
+18 -2
+A
+17 10
+#6805
+rushing darkness~
+Rushing Darkness~
+You are overwhelmed by darkness.~
+darkness~
+weapon F AN
+exotic 4 5 crush GI
+28 30 0 P
+A
+5 -2
+A
+2 1
+A
+18 -1
+#6806
+thug life tattoo~
+a 'Thug Life' tattoo~
+'Thug Life' is written out in ink across your stomach.~
+ink~
+scroll HLMS AD
+25 'frenzy' 'create rose' 'calm' ''
+35 1 5000 P
+A
+19 1
+A
+18 3
+A
+3 2
+A
+5 -2
+#6807
+driver 1 wood~
+a driver~
+A long stick with a bulbous head lies here.~
+wood~
+weapon 0 AN
+mace 1 30 pound FI
+33 50 7000 P
+E
+driver~
+A brand new, 45-inch, graphite shafted driver is gleaming in the sun here.
+~
+#0
+
+#ROOMS
+#6800
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6801
+S
+#6801
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6802
+D3
+Exit ~
+door~
+0 0 6800
+S
+#6802
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6803
+D1
+Exit ~
+door~
+0 0 6805
+D2
+Exit ~
+door~
+0 0 6804
+D3
+Exit ~
+door~
+0 0 6801
+S
+#6803
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6802
+S
+#6804
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6802
+S
+#6805
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6806
+D1
+Exit ~
+door~
+0 0 6869
+D2
+Exit ~
+door~
+0 0 6829
+D3
+Exit ~
+door~
+0 0 6802
+S
+#6806
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6807
+D2
+Exit ~
+door~
+0 0 6805
+S
+#6807
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6808
+D2
+Exit ~
+door~
+0 0 6806
+S
+#6808
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6809
+D2
+Exit ~
+door~
+0 0 6807
+S
+#6809
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6810
+D2
+Exit ~
+door~
+0 0 6808
+S
+#6810
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6811
+D3
+Exit ~
+door~
+0 0 6809
+S
+#6811
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6812
+D3
+Exit ~
+door~
+0 0 6810
+S
+#6812
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6813
+D3
+Exit ~
+door~
+0 0 6811
+S
+#6813
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6814
+D3
+Exit ~
+door~
+0 0 6812
+S
+#6814
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6815
+D3
+Exit ~
+door~
+0 0 6813
+S
+#6815
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6814
+D2
+Exit ~
+door~
+0 0 6816
+S
+#6816
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6815
+D2
+Exit ~
+door~
+0 0 6817
+S
+#6817
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6816
+D2
+Exit ~
+door~
+0 0 6818
+S
+#6818
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6817
+D1
+Exit ~
+door~
+0 0 6830
+D2
+Exit ~
+door~
+0 0 6819
+S
+#6819
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6818
+D2
+Exit ~
+door~
+0 0 6820
+S
+#6820
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6819
+D2
+Exit ~
+door~
+0 0 6821
+S
+#6821
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6820
+D2
+Exit ~
+door~
+0 0 6822
+S
+#6822
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6821
+D3
+Exit ~
+door~
+0 0 6823
+S
+#6823
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6822
+D3
+Exit ~
+door~
+0 0 6824
+S
+#6824
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6823
+D3
+Exit ~
+door~
+0 0 6825
+S
+#6825
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6824
+D3
+Exit ~
+door~
+0 0 6826
+S
+#6826
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6825
+D3
+Exit ~
+door~
+0 0 6827
+S
+#6827
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6828
+D1
+Exit ~
+door~
+0 0 6826
+S
+#6828
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6829
+D2
+Exit ~
+door~
+0 0 6827
+S
+#6829
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6805
+D2
+Exit ~
+door~
+0 0 6828
+S
+#6830
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6834
+D1
+Exit ~
+door~
+0 0 6831
+D2
+Exit ~
+door~
+0 0 6835
+D3
+Exit ~
+door~
+0 0 6818
+S
+#6831
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6832
+D3
+Exit ~
+door~
+0 0 6830
+S
+#6832
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6836
+D3
+Exit ~
+door~
+0 0 6831
+S
+#6833
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6834
+S
+#6834
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6833
+D2
+Exit ~
+door~
+0 0 6830
+S
+#6835
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6830
+S
+#6836
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6856
+D1
+Exit ~
+door~
+0 0 6859
+D2
+Exit ~
+door~
+0 0 6837
+D3
+Exit ~
+door~
+0 0 6832
+S
+#6837
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6836
+D2
+Exit ~
+door~
+0 0 6838
+S
+#6838
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6837
+D2
+Exit ~
+door~
+0 0 6839
+S
+#6839
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6838
+D1
+Exit ~
+door~
+0 0 6840
+S
+#6840
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6861
+D1
+Exit ~
+door~
+0 0 6841
+D3
+Exit ~
+door~
+0 0 6839
+S
+#6841
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6867
+D1
+Exit ~
+door~
+0 0 6842
+D3
+Exit ~
+door~
+0 0 6840
+S
+#6842
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6843
+D3
+Exit ~
+door~
+0 0 6841
+S
+#6843
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6842
+D2
+Exit ~
+door~
+0 0 6844
+S
+#6844
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6843
+D2
+Exit ~
+door~
+0 0 6845
+S
+#6845
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6844
+D2
+Exit ~
+door~
+0 0 6846
+S
+#6846
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6845
+D2
+Exit ~
+door~
+0 0 6847
+S
+#6847
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6846
+D2
+Exit ~
+door~
+0 0 6848
+S
+#6848
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6847
+D3
+Exit ~
+door~
+0 0 6849
+S
+#6849
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6848
+D3
+Exit ~
+door~
+0 0 6850
+S
+#6850
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6849
+D2
+Exit ~
+door~
+0 0 6865
+D3
+Exit ~
+door~
+0 0 6851
+S
+#6851
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6852
+D1
+Exit ~
+door~
+0 0 6850
+D2
+Exit ~
+door~
+0 0 6855
+S
+#6852
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6853
+D2
+Exit ~
+door~
+0 0 6851
+S
+#6853
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6854
+D2
+Exit ~
+door~
+0 0 6852
+S
+#6854
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6853
+S
+#6855
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6851
+D2
+Exit ~
+door~
+0 0 6857
+S
+#6856
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6858
+D2
+Exit ~
+door~
+0 0 6836
+S
+#6857
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6855
+D2
+Exit ~
+door~
+0 0 6858
+S
+#6858
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6857
+D2
+Exit ~
+door~
+0 0 6856
+S
+#6859
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6862
+D1
+Exit ~
+door~
+0 0 6866
+D2
+Exit ~
+door~
+0 0 6860
+D3
+Exit ~
+door~
+0 0 6836
+S
+#6860
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6859
+D2
+Exit ~
+door~
+0 0 6861
+S
+#6861
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6860
+D2
+Exit ~
+door~
+0 0 6840
+S
+#6862
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6863
+D2
+Exit ~
+door~
+0 0 6859
+S
+#6863
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6864
+D2
+Exit ~
+door~
+0 0 6862
+S
+#6864
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6865
+D2
+Exit ~
+door~
+0 0 6863
+S
+#6865
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6850
+D2
+Exit ~
+door~
+0 0 6864
+S
+#6866
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6868
+D3
+Exit ~
+door~
+0 0 6859
+S
+#6867
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6868
+D2
+Exit ~
+door~
+0 0 6841
+S
+#6868
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6866
+D2
+Exit ~
+door~
+0 0 6867
+S
+#6869
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6884
+D2
+Exit ~
+door~
+0 0 6870
+D3
+Exit ~
+door~
+0 0 6805
+S
+#6870
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6869
+D2
+Exit ~
+door~
+0 0 6871
+S
+#6871
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6870
+D2
+Exit ~
+door~
+0 0 6872
+S
+#6872
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6871
+D1
+Exit ~
+door~
+0 0 6873
+S
+#6873
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6874
+D3
+Exit ~
+door~
+0 0 6872
+S
+#6874
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6875
+D3
+Exit ~
+door~
+0 0 6873
+S
+#6875
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6876
+D2
+Exit ~
+door~
+0 0 6874
+S
+#6876
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6877
+D2
+Exit ~
+door~
+0 0 6875
+S
+#6877
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6878
+D2
+Exit ~
+door~
+0 0 6876
+D4
+Exit ~
+door~
+0 0 6885
+D5
+Exit ~
+door~
+0 0 6886
+S
+#6878
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6879
+D2
+Exit ~
+door~
+0 0 6877
+S
+#6879
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6880
+D2
+Exit ~
+door~
+0 0 6878
+S
+#6880
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6879
+D3
+Exit ~
+door~
+0 0 6881
+S
+#6881
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6880
+D3
+Exit ~
+door~
+0 0 6882
+S
+#6882
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6881
+D2
+Exit ~
+door~
+0 0 6883
+S
+#6883
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6882
+D2
+Exit ~
+door~
+0 0 6884
+S
+#6884
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6883
+D2
+Exit ~
+door~
+0 0 6869
+S
+#6885
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6891
+D1
+Exit ~
+door~
+0 0 6893
+D2
+Exit ~
+door~
+0 0 6895
+D5
+Exit ~
+door~
+0 0 6877
+S
+#6886
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6890
+D1
+Exit ~
+door~
+0 0 6887
+D2
+Exit ~
+door~
+0 0 6889
+D3
+Exit ~
+door~
+0 0 6888
+D4
+Exit ~
+door~
+0 0 6877
+S
+#6887
+Generic room name~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 6886
+S
+#6888
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6886
+S
+#6889
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6886
+S
+#6890
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6886
+S
+#6891
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6892
+D2
+Exit ~
+door~
+0 0 6885
+S
+#6892
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6891
+S
+#6893
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6894
+D3
+Exit ~
+door~
+0 0 6885
+S
+#6894
+Generic room name~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 6893
+S
+#6895
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6885
+D2
+Exit ~
+door~
+0 0 6896
+S
+#6896
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6895
+D3
+Exit ~
+door~
+0 0 6897
+S
+#6897
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6898
+D1
+Exit ~
+door~
+0 0 6896
+S
+#6898
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6897
+D3
+Exit ~
+door~
+0 0 6899
+S
+#6899
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6898
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

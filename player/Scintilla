@@ -3,8 +3,8 @@ Name Scintilla~
 SurN Garith~
 Id   813729460
 Email (null)~
-LogO 1013530885
-Vers 29
+LogO 1309540109
+Vers 31
 Desc A beautiful Goddess appears within the cloud of mist which forms before you.
 A warm gust of wind gently tosses the tassels of her dark brown hair. Its' wavy
 locks glimmer in deep hues of red. Dark, intense eyes gaze out from within
@@ -35,6 +35,7 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
 Deity 7509890 megena~
 Sac  300
 Sex  2
@@ -47,8 +48,8 @@ Cla  0
 ClaO 0
 Levl 52
 DLevl 0
-Plyd 10069525
-Not  996000433 994133015 995656481 995905362 995941016 996387324 996296649 993759564 996339343
+Plyd 10069534
+Not  996000433 994133015 995656481 995905362 995941016 996387324 996296649 993759564 996339343 0
 Scro 22
 Rank 0
 Room 4899
@@ -65,16 +66,16 @@ Icg 2
 Wizn ACEFIJLRSTUX
 Pos  8
 Prac 691
-Trai 174
+Trai 184
 SkiP 53
 Alig  822
-Hit   77
-Dam   77
+Hit   2
+Dam   2
 SecHit   2
 SecDam   2
-ACs -448 -448 -448 -427
-Attr 25 25 25 25 25
-AMod 1 0 0 3 1
+ACs 52 52 52 73
+Attr 25 25 25 25 25 13 13 13
+AMod 1 0 0 3 1 0 0 0
 Pass SccBxHB2kUPFS~
 Bin  A cool mist rises slowly from the ground, causing your skin to tingle. Scintilla materializes from within it.~
 Bout Scintilla steps back into the mist and fades away. Wisps of it spiral downward, softly caressing your skin, then vanish into the ground.~
@@ -86,51 +87,51 @@ LLev 2721
 HMVP 10000 817 436
 Cnd  0 6 6 33
 Edit ABCEH
-ERange 4800 4899
 ERange 12500 12599
+ERange 4800 4899
 Alias gb cast 'gas breath'~
-Macro leg transfer %1 4900~
-Macro fk1 transfer %1 1212;nochan %1;noshout %1;notell %1;freeze %1~
-Macro doof at doofie restore~
-Macro dl goto 16174~
-Macro circ transfer %1 4416~
-Macro tush at %1 give tush %1;at %1 cheer %1~
-Macro nt notell %1; transfer %1 1212~
-Macro sw transfer %1 1212;nochan %1;notell %1;noshout %1~
-Macro he cast heal %1~
-Macro rc2 edit;room;mod;7;~
-Macro chl cast 'chain lightening'~
-Macro sea goto 1208~
-Macro ken goto %1;bonk %1; goto 22100~
-Macro hehe goto %1;french %1;goto 22100~
-Macro uncard force %1 rem %2;force %1 drop %2~
-Macro card give %1 %2;force %2 hold %1~
-Macro chap goto 23047~
-Macro unqite force %1 rem %2;force %1 drop %2;get %2~
-Macro po emote pokes her typing ability.~
-Macro fb cast 'fire breath'~
-Macro asave edit 2;6;11~
-Macro msave edit 6;5;7~
-Macro unsafe edit;room;mod;5;safe;done;exit~
-Macro rc edit;room;mod;5~
-Macro pe peace~
-Macro nc nochannel %1~
-Macro rid trans %1 6900~
-Macro pos trans %1 4700~
-Macro bal trans %1 4500~
-Macro hon trans %1 4300~
-Macro dem trans %1 4200~
-Macro cir trans %1 4400~
-Macro cam trans %1 4600~
-Macro mat transfer %1 16500~
-Macro legi transfer %1 4901~
-Macro ench cast 'enchant weapon' %1~
-Macro note tell scintill Use onote or inote stupid!~
-Macro dom transfer %1 4500~
-Macro bane transfer %1 4200~
-Macro ennob transfer %1 4300~
-Macro bruj transfer %1 4400~
 Macro sw1 transfer %1 1212;notell %1;noemote %1;nochannel %1;noshout %1~
+Macro bruj transfer %1 4400~
+Macro ennob transfer %1 4300~
+Macro bane transfer %1 4200~
+Macro dom transfer %1 4500~
+Macro note tell scintill Use onote or inote stupid!~
+Macro ench cast 'enchant weapon' %1~
+Macro legi transfer %1 4901~
+Macro mat transfer %1 16500~
+Macro cam trans %1 4600~
+Macro cir trans %1 4400~
+Macro dem trans %1 4200~
+Macro hon trans %1 4300~
+Macro bal trans %1 4500~
+Macro pos trans %1 4700~
+Macro rid trans %1 6900~
+Macro nc nochannel %1~
+Macro pe peace~
+Macro rc edit;room;mod;5~
+Macro unsafe edit;room;mod;5;safe;done;exit~
+Macro msave edit 6;5;7~
+Macro asave edit 2;6;11~
+Macro fb cast 'fire breath'~
+Macro po emote pokes her typing ability.~
+Macro unqite force %1 rem %2;force %1 drop %2;get %2~
+Macro chap goto 23047~
+Macro card give %1 %2;force %2 hold %1~
+Macro uncard force %1 rem %2;force %1 drop %2~
+Macro hehe goto %1;french %1;goto 22100~
+Macro ken goto %1;bonk %1; goto 22100~
+Macro sea goto 1208~
+Macro chl cast 'chain lightening'~
+Macro rc2 edit;room;mod;7;~
+Macro he cast heal %1~
+Macro sw transfer %1 1212;nochan %1;notell %1;noshout %1~
+Macro nt notell %1; transfer %1 1212~
+Macro tush at %1 give tush %1;at %1 cheer %1~
+Macro circ transfer %1 4416~
+Macro dl goto 16174~
+Macro doof at doofie restore~
+Macro fk1 transfer %1 1212;nochan %1;noshout %1;notell %1;freeze %1~
+Macro leg transfer %1 4900~
 Sk 100 'reserved'
 Sk 100 'acid blast'
 Sk 100 'armor'
@@ -563,7 +564,7 @@ ExtF 1
 Cond 0
 Wear -1
 Cost 0
-Val  15 154 106 -1 -1
+Val  15 159 111 -1 -1
 Spell 1 'refresh'
 Spell 2 'heal'
 End

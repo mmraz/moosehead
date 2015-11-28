@@ -3,15 +3,15 @@ Name Grinkle~
 SurN Wrinkle~
 Id   1062394315
 Email (null)~
-LogO 1087581090
+LogO 1308367307
 Vers 31
 Prom %h %m %v %X %e%c? ~
 Race goblin~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 0
+SkPTimer 2
+SkPTracker 3
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -27,40 +27,43 @@ LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
 Deity 0 bolardari~
-Sac  12
+Sac  30
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1062394382
 Glad 0 0 0 0 0 0
-LastHost 208-33-83-201.iprev.actcom.net~
+LastHost 71.50.18.64~
 Cla  0
 ClaO 0
-Levl 1
+Levl 2
 DLevl 0
-Plyd 1335
+Plyd 1773
 Not  1062395601 0 0 1062395595 1062395591 0 0 0 0 0
 Scro 22
 Rank 0
-Room 3020
-HMV  20 20 110 110 100 100
-Gold 48
+Room 3054
+HMV  25 25 119 119 103 103
+Gold 148
 Silv 1050
-Exp  4754
+Exp  8889
 Act  CDEFGHKQ
 MHSF R
-AfBy J
+AfBy JT
 Comm DEFGIR
 Disp FJN
 IcgB 0
 Icg 0
 Pos  8
+Prac 2
+Trai 1
+SkiP 4
 Save  -6
 Alig  750
 Hit   6
 SecHit   5
-ACs 70 69 69 79
+ACs 65 63 63 79
 Wimp  20
 Attr 12 21 16 14 13 12 12 9
 AMod 0 0 0 0 0 0 0 0
@@ -69,9 +72,10 @@ Titl  the confused~
 Pnts 70
 TSex 1
 LLev 1
-HMVP 20 110 100
-Cnd  0 28 41 41
+HMVP 25 119 103
+Cnd  0 26 30 41
 Alias 5 c magic~
+Alias 3 flee~
 Sk 1 'acid blast'
 Sk 1 'armor'
 Sk 1 'blindness'
@@ -85,6 +89,7 @@ Sk 1 'change sex'
 Sk 1 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 1 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -189,9 +194,10 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'bless'   0  44  43  -5  24          0
-Affc 'bless'   0  42  43   5  18          0
-Affc 'armor'   0  43  25 -20  17          0
+Affc 'fly'   0   5   5   0   0     524288
+Affc 'armor'   0  42  14 -20  17          0
+Affc 'bless'   0  41  32   5  18          0
+Affc 'bless'   0  43  32  -5  24          0
 End
 
 #O
@@ -201,7 +207,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 168 0 0
+Val  0 0 157 0 0
 End
 
 #O
@@ -283,6 +289,105 @@ PrevOwner (null)~
 Cond 0
 Wear 14
 Cost 48
+End
+
+#O
+Vnum 3708
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3713
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 15
+Cost 48
+End
+
+#O
+Vnum 3705
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 4
+Cost 72
+End
+
+#O
+Vnum 3705
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 72
+End
+
+#O
+Vnum 3706
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3711
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3712
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 13
+Cost 72
+End
+
+#O
+Vnum 3707
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 7
+Cost 72
+End
+
+#O
+Vnum 3708
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3713
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 48
+End
+
+#O
+Vnum 3726
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

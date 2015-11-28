@@ -2,8 +2,8 @@
 Name Homicide~
 Id   981954477
 Email (null)~
-LogO 1068971565
-Vers 31
+LogO 1410115326
+Vers 33
 Prom [%e %hHp %mMana %n/%N %v(%S)$%g.%s %a %wLbs %X]  ~
 Race rockbiter~
 Clan zealot~
@@ -11,10 +11,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Cauth~
 LstKBy Coroner~
 LstAtkedBy no one~
@@ -22,10 +23,16 @@ LstAtkedByTimer 0
 LstCombatDate 1008894687
 LstKillDate 1008894687
 LstDeathDate 1008894687
-LoginsWOKill 2
-LoginsWODeath 2
-LoginsWOCombat 2
+LoginsWOKill 8
+LoginsWODeath 8
+LoginsWOCombat 8
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 almighty~
 Sac  225
 Sex  1
@@ -34,51 +41,51 @@ Node 0
 Cap 0
 Created 981954489
 Glad 0 0 0 0 0 0
-LastHost cowisp200.customer.frii.net~
+LastHost 209.169.196.58~
 Cla  9
 ClaO 3
 Levl 17
 DLevl 0
-Plyd 71424
-Not  1001896741 1001869872 1001227273 1001681544 1002155081 1001807727 1001227273 1001834999 1001227273 0
+Plyd 71856
+Not  1358891698 1358891698 1358891698 1358891698 1358891698 1358891698 1358891698 1358891698 1358891698 1358891698
 Scro 22
 Rank 1
 Room 3700
-HMV  385 394 161 176 78 234
+HMV  394 394 176 176 234 234
 Gold 134
 Silv 2508
 Exp  207525
 Act  CDFGHQ
 MHSF R
-AfBy TV
+AfBy T
 Comm GIRS
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
 Prac 57
-Trai 10
+Trai 15
 SkiP 11
 Alig  120
-Hit   17
-Dam   11
-SecHit   14
-SecDam   9
-ACs 106 102 103 119
-Attr 25 16 21 13 23 13 13 13
-AMod 11 2 3 10 3 0 0 0
+Hit   11
+Dam   5
+SecHit   8
+SecDam   3
+ACs 76 72 73 89
+Attr 25 16 21 13 23 8 15 13
+AMod 11 2 3 6 3 0 0 0
 Pass Hozk2gULwMj0Y~
 Titl , code ten, murder in progress!! [Death]~
 Pnts 98
 TSex 1
 LLev 1
 HMVP 394 176 134
-Cnd  0 0 48 21
+Cnd  0 0 48 9
 Alias kill murder~
 Alias ki murder~
 Alias k murder~
 Alias kil murder~
-Sk 1 'annointment'
+OldSk 1 'annointment'
 Sk 1 'armor'
 Sk 1 'cancellation'
 Sk 1 'dispel magic'
@@ -138,13 +145,9 @@ Gr 'weaponsmaster'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'haste'   0  36   1   4   2    2097152
-Affc 'frenzy'   0  36   4  30  17          0
-Affc 'frenzy'   0  36   4   6  19          0
-Affc 'frenzy'   0  33   4   6  18          0
-Affc 'bless'   0  36  35  -4  24          0
-Affc 'bless'   0  35  35   4  18          0
-Affc 'giant strength'   0  35  29   4   1          0
+Affc 'bless'   0  32  23  -4  24          0
+Affc 'bless'   0  33  23   4  18          0
+Affc 'giant strength'   0  32  17   4   1          0
 End
 
 #O
@@ -379,7 +382,7 @@ Nest 1
 PrevOwner Homicide~
 Cond 0
 Wear -1
-Time 203
+Time 190
 Cost 690
 Spell 1 'cure critical'
 End
@@ -390,7 +393,7 @@ Nest 1
 PrevOwner Homicide~
 Cond 0
 Wear -1
-Time 451
+Time 438
 Cost 690
 Spell 1 'cure critical'
 End

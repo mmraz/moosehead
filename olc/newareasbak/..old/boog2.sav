@@ -1,0 +1,1177 @@
+#AREA
+../newareas/boog2.are~
+Nottingham~
+{25-51} RobinHd Nottingham~
+10300 10358
+
+#MOBILES
+#10300
+Allen~
+Allen the Baker~
+Allen is Here to Serve you
+~
+A fat, nice looking baker. But you can see that he has many scars on his
+body.
+~
+human~
+ABV 0 900 0
+23 0 1d1+999 1d1+99 1d8+20 beating
+-15 -15 -15 -15
+CDF ABCD 0 0
+stand stand male 20000
+0 0 medium 0
+#10301
+friar tuck healer~
+Friar Tuck~
+{CFriar Tuck{x is here to heal you.
+~
+Although retired from adventuring, the healer still lends a hand.
+Type 'heal' to see a listing of spells.
+~
+human~
+ABQVa DFH 1000 0
+45 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#10302
+jacob guildmaster trainer~
+Jacob~
+Jacob the Guildmaster & Trainer is here to teach you.
+~
+~
+human~
+ABJKTVb 0 0 0
+50 1 1d1+1 1d1+1 1d1+1 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#10303
+Christopher Pet shop~
+Christopher~
+Christopher is here to sell you a horse or a pet
+~
+He is young and close-cropped and looks quite happy.
+~
+human~
+ABV 0 900 0
+23 0 1d1+999 1d1+99 1d8+20 punch
+-15 -15 -15 -15
+0 ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#10304
+jeweller~
+the jeweller~
+The jeweller is standing behind the desk.
+~
+He is fat and has a content although watchful look on his face.
+~
+human~
+ABV 0 900 0
+23 0 1d1+999 1d1+99 1d8+22 slap
+-15 -15 -15 -15
+AF ABCD 0 0
+stand stand male 1100000
+0 0 medium 0
+#10305
+merl shop magic~
+Merlin~
+Merlin is here to serve you.
+~
+The wizard looks old and senile, and yet he looks like a very powerful
+wizard. He is equipped with fine clothing, and is wearing many fine
+rings and bracelets.
+~
+human~
+ABV D 900 0
+23 0 1d1+999 1d1+999 1d8+32 magic
+-15 -15 -15 -15
+AF ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#10306
+Pete shop~
+Pete~
+Pete wishes to sell you some of his fine potions
+~
+He looks very dangerous.  I wouldn't try to rob him.
+~
+human~
+ABQRV DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand male 20000
+0 0 medium 0
+#0
+
+#OBJECTS
+#10300
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#10301
+Fountain King Richard Water~
+a fountain~
+a Fountain is here with a Statue of King Richard in the center.~
+~
+fountain O 0
+0 0 'water' 0 0
+0 0 0 G
+E
+fountain~
+It is very nice.  Made from fine white marble.
+~
+#10302
+Large Circular bench~
+a Large circular bench surrounds the fountain~
+a Large circular bench surrounds the fountain, a nice place to relax.~
+Wood~
+furniture ORTY 0
+10 10 BEHK 200 200
+0 5000 0 P
+E
+bed~
+It is a huge, comfortable four-poster bed.  Veils hang down the sides.
+There are silk-covered feather pillows and satin sheets.  On the pillow
+is a fresh rose.
+~
+#10303
+chocolate eclair~
+a Scrumptious Chocolate Eclair~
+a Super Delicious Scruptious Cholate Eclair is here, yum yum!~
+Food~
+food 0 A
+25 40 0 0 0
+0 20 50 P
+#10304
+blessed wand~
+blessed wand~
+a Blessed wand lies here on the ground eminating holyness.~
+wood~
+wand 0 AO
+31 10 10 'bless' 0
+30 40 14000 P
+A
+2 1
+A
+18 2
+A
+19 3
+F
+R 0 0 K
+F
+R 0 0 D
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+X 20 -1 I
+F
+A 0 0 H
+A
+1 4
+F
+A 2 4 V
+A
+17 -20
+A
+18 5
+A
+24 -5
+F
+A 0 0 P
+#10305
+wand light~
+wand of light~
+a wand of light is here~
+wood~
+wand 0 AO
+31 10 10 'continual light' 0
+15 40 6500 P
+#10306
+staff purple fog~
+staff of the purple fog~
+a purple staff lies here~
+silver~
+staff 0 AO
+55 20 20 'faerie fog' 0
+29 40 11000 P
+#10307
+Cowards Quaff~
+Cowards Quaff~
+a potion called Cowards Quaff lies here.~
+glass~
+potion GY AO
+40 'cure blindness' 'teleport' '' ''
+42 10 2000 P
+#0
+
+#ROOMS
+#10300
+a dirt road leading to Nottingham~
+Generic room description.
+~
+0 C 0
+D1
+Exit ~
+door~
+0 0 10301
+S
+#10301
+Outside the West Gate of Nottingham~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+1 0 10302
+D1
+Exit ~
+door~
+0 0 10304
+D2
+Exit ~
+door~
+1 0 10303
+D3
+Exit ~
+door~
+0 0 10300
+S
+#10302
+a Peasants home~
+Generic room description.
+~
+0 D 0
+D2
+Exit ~
+door~
+1 0 10301
+S
+#10303
+a Peasants home~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+1 0 10301
+S
+#10304
+West Gate Of Nottingham~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10311
+D1
+Exit ~
+door~
+0 0 10317
+D2
+Exit ~
+door~
+0 0 10305
+D3
+Exit ~
+door~
+0 0 10301
+S
+#10305
+Western Circle Street~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10304
+D2
+Exit ~
+door~
+0 0 10306
+S
+#10306
+Southwest corner of Circle Street~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10305
+D1
+Exit ~
+door~
+0 0 10308
+D4
+Exit ~
+door~
+0 0 10307
+S
+#10307
+Southwest Guard Tower~
+Generic room description.
+~
+0 0 0
+D5
+Exit ~
+door~
+0 0 10306
+S
+#10308
+Southern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10309
+D3
+Exit ~
+door~
+0 0 10306
+S
+#10309
+Southern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10310
+D3
+Exit ~
+door~
+0 0 10308
+S
+#10310
+Southern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10347
+D3
+Exit ~
+door~
+0 0 10309
+S
+#10311
+Western Circle Street~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10312
+D2
+Exit ~
+door~
+0 0 10304
+S
+#10312
+Nortwest corner of Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10314
+D2
+Exit ~
+door~
+0 0 10311
+D4
+Exit ~
+door~
+0 0 10313
+S
+#10313
+Northwest~
+Generic room description.
+~
+0 0 0
+D5
+Exit ~
+door~
+0 0 10312
+S
+#10314
+Northern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10315
+D3
+Exit ~
+door~
+0 0 10312
+S
+#10315
+Northern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10316
+D3
+Exit ~
+door~
+0 0 10314
+S
+#10316
+Northern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10342
+D3
+Exit ~
+door~
+0 0 10315
+S
+#10317
+West King Richard Ave~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10319
+D1
+Exit ~
+door~
+0 0 10320
+D2
+Exit ~
+door~
+0 0 10318
+D3
+Exit ~
+door~
+0 0 10304
+S
+#10318
+a Guardpost~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10317
+S
+#10319
+Nottingham Fine Gems and Jewelry~
+Generic room description.
+~
+0 D 1
+D2
+Exit ~
+door~
+0 0 10317
+S
+#10320
+West King Richard Ave~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10321
+D1
+Exit ~
+door~
+0 0 10323
+D2
+Exit ~
+door~
+0 0 10322
+D3
+Exit ~
+door~
+0 0 10317
+S
+#10321
+Nottingham Equestrian and Pet Center~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 10320
+S
+#10322
+Merlin's Magical Wares~
+Generic room description.
+~
+0 D 1
+D0
+Exit ~
+door~
+0 0 10320
+S
+#10323
+West King Richard Ave~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10325
+D1
+Exit ~
+door~
+0 0 10326
+D2
+Exit ~
+door~
+0 0 10324
+D3
+Exit ~
+door~
+0 0 10320
+S
+#10324
+Nottingham Training Center~
+Generic room description.
+~
+0 D 1
+D0
+Exit ~
+door~
+0 0 10323
+S
+#10325
+The Supply Shack~
+Generic room description.
+~
+0 D 1
+D2
+Exit ~
+door~
+0 0 10323
+S
+#10326
+Nottingham Town Square~
+You are in the town square of Nottingham, folks gather here from miles around
+to discuss with others ideas, religion and politics (However if you discuss
+politics you best keep it at a whisper Prince John Doesn't take kindly to critics.)
+~
+0 0 0
+H 200 M 200
+D0
+Exit ~
+door~
+0 0 10328
+D1
+Exit ~
+door~
+0 0 10329
+D2
+Exit ~
+door~
+0 0 10327
+D3
+Exit ~
+door~
+0 0 10323
+S
+#10327
+South Nottingham Blvd~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10326
+D2
+Exit ~
+door~
+0 0 10347
+S
+#10328
+North Nottingham Blvd~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10342
+D2
+Exit ~
+door~
+0 0 10326
+S
+#10329
+East King Richard Ave~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10330
+D1
+Exit ~
+door~
+0 0 10332
+D2
+Exit ~
+door~
+0 0 10331
+D3
+Exit ~
+door~
+0 0 10326
+S
+#10330
+The Raging Falcon Pub~
+Generic room description.
+~
+0 D 1
+D2
+Exit ~
+door~
+0 0 10329
+S
+#10331
+Friar Tuck's Healing Shop~
+Generic room description.
+~
+0 D 1
+D0
+Exit ~
+door~
+0 0 10329
+S
+#10332
+East King Richard Ave~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10333
+D1
+Exit ~
+door~
+0 0 10335
+D2
+Exit ~
+door~
+0 0 10334
+D3
+Exit ~
+door~
+0 0 10329
+S
+#10333
+Pete's Fine Potions~
+Generic room description.
+~
+0 D 1
+D2
+Exit ~
+door~
+0 0 10332
+S
+#10334
+Merry Men Archery Supplies~
+Generic room description.
+~
+0 D 1
+D0
+Exit ~
+door~
+0 0 10332
+D2
+Exit ~
+door~
+0 0 10339
+S
+#10335
+East King Richard Ave~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10336
+D1
+Exit ~
+door~
+0 0 10337
+D2
+Exit ~
+door~
+0 0 10340
+D3
+Exit ~
+door~
+0 0 10332
+S
+#10336
+Allen's Bakery~
+Oh the smell! its incredible that such a basic town could have such an amazing bakery.
+You are compelled to buy a bunch of his eclairs and eat them until you are sick.
+~
+0 DS 1
+D2
+Exit ~
+door~
+0 0 10335
+E
+sign~
+Free instructions provided by the store:
+
+   Buy  - Will buy you some bread or pastry.
+   List - The baker will kindly tell you the price and sort of the bread in
+          his bakery.
+~
+E
+danish pastry~
+You see that this is truly delicious pastry.  Must be made by a Dane from
+Denmark (which surely is not the capital of Sweden!).  Former ruler of
+Scandinavia, England, Northern Germany, Northern France, Russia, Greenland,
+Iceland, Estonia etc. etc.
+   The sight of those large, wholesome chokoladeboller makes your mouth water
+and your soul sing.
+
+~
+S
+#10337
+East Gate Of Nottingham~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10356
+D1
+Exit ~
+door~
+0 0 10352
+D2
+Exit ~
+door~
+0 0 10353
+D3
+Exit ~
+door~
+0 0 10335
+S
+#10338
+The Secret Back Room~
+Generic room description.
+~
+0 A 1
+D4
+Exit ~
+door~
+1 0 10339
+S
+#10339
+The Stock Room~
+Generic room description.
+~
+0 D 1
+D0
+Exit ~
+door~
+0 0 10334
+D5
+Exit ~
+door~
+1 0 10338
+S
+#10340
+a Guard Post~
+Generic room description.
+~
+0 D 1
+D0
+Exit ~
+door~
+0 0 10335
+S
+#10341
+Pet Shop Storage~
+This is the small dark room in which the Pet Shop Boy keeps his pets.
+It is vital that this room be immediately after the pet shop.
+~
+0 CDKS 0
+S
+#10342
+North gate of Nottingham~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10343
+D1
+Exit ~
+door~
+0 0 10344
+D2
+Exit ~
+door~
+0 0 10328
+D3
+Exit ~
+door~
+0 0 10316
+S
+#10343
+Outside the north gate~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 10342
+S
+#10344
+Northern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10345
+D3
+Exit ~
+door~
+0 0 10342
+S
+#10345
+Northern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10346
+D3
+Exit ~
+door~
+0 0 10344
+S
+#10346
+Northern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10357
+D3
+Exit ~
+door~
+0 0 10345
+S
+#10347
+South Gate of Nottingham~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10327
+D1
+Exit ~
+door~
+0 0 10349
+D2
+Exit ~
+door~
+0 0 10348
+D3
+Exit ~
+door~
+0 0 10310
+S
+#10348
+Outside the South Gate~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10347
+S
+#10349
+Southern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10350
+D3
+Exit ~
+door~
+0 0 10347
+S
+#10350
+Southern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10351
+D3
+Exit ~
+door~
+0 0 10349
+S
+#10351
+Southern Circle Street~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 10354
+D3
+Exit ~
+door~
+0 0 10350
+S
+#10352
+Outside the East Gate~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 10337
+S
+#10353
+Eastern Circle Street~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10337
+D2
+Exit ~
+door~
+0 0 10354
+S
+#10354
+Southeast corner of Circle Street~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10353
+D3
+Exit ~
+door~
+0 0 10351
+D4
+Exit ~
+door~
+0 0 10355
+S
+#10355
+Southeast Guard Tower~
+Generic room description.
+~
+0 0 0
+D5
+Exit ~
+door~
+0 0 10354
+S
+#10356
+Eastern Circle Street~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 10357
+D2
+Exit ~
+door~
+0 0 10337
+S
+#10357
+Northeast corner of Circle Street~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 10356
+D3
+Exit ~
+door~
+0 0 10346
+D4
+Exit ~
+door~
+0 0 10358
+S
+#10358
+Northeast Guard Tower~
+Generic room description.
+~
+0 0 0
+D5
+Exit ~
+door~
+0 0 10357
+S
+#0
+
+#RESETS
+O 0 10301 100 10326	* a fountain
+O 0 10302 100 10326	* a Large circular bench surrounds the fountain
+D 0 10338   4    1	* The Secret Back Room up
+D 0 10339   5    1	* The Stock Room down
+O 0 10303 100 10336	* a Scrumptious Chocolate Eclair
+M 0 10300   1 10336  1	* Allen the Baker
+G 1 10303  -1     	*   a Scrumptious Chocolate Eclair
+G 1 1933  -1     	*   a strawberry pie
+G 1 17611  -1     	*   a loaf of bread
+G 1 5722  -1     	*   a blueberry danish
+M 0 10301   1 10331  1	* Friar Tuck
+M 0 10302   1 10324  1	* Jacob
+M 0 3090   2 10341  1	* the kitten
+M 0 3094   2 10341  1	* the wolf
+M 0 3091   2 10341  1	* the puppy
+M 0 3093   2 10341  1	* the rottweiler
+M 0 3092   2 10341  1	* the beagle
+M 0 3031   4 10321  2	* a pack mare
+M 0 3031   4 10321  2	* a pack mare
+M 0 10304   1 10319  1	* the jeweller
+G 1 3007  -1     	*   a beautiful jeweled egg
+G 1 22044  -1     	*   a jewelled shard
+G 1 3377  -1     	*   a diamond
+G 1 3376  -1     	*   a ruby
+G 1 3375  -1     	*   an emerald
+G 1 3378  -1     	*   an opal
+G 1 3373  -1     	*   a small pearl
+G 1 3374  -1     	*   a garnet
+M 0 10305   1 10322  1	* Merlin
+G 1 10306  -1     	*   staff of the purple fog
+G 1 3042  -1     	*   a scroll of recall
+G 1 3039  -1     	*   a scroll of cancellation
+G 1 10304  -1     	*   blessed wand
+G 1 3043  -1     	*   a ring of protection
+G 1 3041  -1     	*   a yellow potion of see invisible
+G 1 3040  -1     	*   a scroll of identify
+G 1 3044  -1     	*   a wand of magic missiles
+G 1 10305  -1     	*   wand of light
+M 0 10306   1 10333  1	* Pete
+G 1 3086  -1     	*   a bottle of antidote
+G 1 3034  -1     	*   a potion of vision
+G 1 3293  -1     	*   a potion of recall
+G 1 3092  -1     	*   a potion of true sight
+G 1 3091  -1     	*   a potion of flying
+G 1 3088  -1     	*   a vial of holy water
+G 1 3084  -1     	*   a potion of cure serious wounds
+G 1 3082  -1     	*   a potion of divine protection
+G 1 3081  -1     	*   a potion of sanctuary
+G 1 9573  -1     	*   an off white potion
+G 1 10307  -1     	*   Cowards Quaff
+D 0 10302   2    1	* a Peasants home south
+D 0 10303   0    1	* a Peasants home north
+S
+
+#SHOPS
+10300 19  0  0  0  0 	 110 100 	 0 23 	* Allen the Baker
+10303  0  0  0  0  0 	 100 100 	 0 23 	* Christopher
+10304  8 30 32 33 -1 	 110 100 	 0 23 	* the jeweller
+10305  2  3  4 10  0 	 105  15 	 0 23 	* Merlin
+10306 10  0  0  0  0 	 950 100 	 0 23 	* Pete
+0
+
+#SPECIALS
+M 10301 spec_cast_adept     	* Friar Tuck
+M 10305 spec_cast_mage      	* Merlin
+S
+
+#$

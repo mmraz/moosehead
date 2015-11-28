@@ -2,8 +2,8 @@
 Name Diamondback~
 Id   954630814
 Email (null)~
-LogO 999512476
-Vers 28
+LogO 1358734523
+Vers 33
 Desc {C*.*{x
 ~
 Prom {Y%g{C%s{x %r %e %S%c<%h/%Hhp %m/%Mm %vmv %X> ~
@@ -12,67 +12,81 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1308028668
+LstKillDate 1308028668
+LstDeathDate 1308028668
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
 Bnty 0
-Deity 40145 megena~
-Sac  30
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+Deity 40145 mojo~
+Sac  225
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 954630835
 Glad 0 0 0 0 0 0
-LastHost ACA78D8A.ipt.aol.com~
+LastHost 24.16.37.75~
 Cla  6
 ClaO 2
 Levl 18
 DLevl 0
-Plyd 40487
-Not  957027437 956812053 956812053 957330265 960944978 957407175 956812053 957399288 956812053
+Plyd 47461
+Not  957027437 956812053 956812053 957330265 960944978 957407175 956812053 957399288 956812053 0
 Scro 0
 Rank 0
-Room 9129
-HMV  373 373 197 197 195 198
-Gold 374
-Silv 4412
-Exp  206181
+Room 3005
+HMV  373 373 197 197 198 198
+Gold 600
+Silv 93
+Exp  210901
 Act  CDEFGHQR
-AfBy JPQT
+MHSF R
+AfBy JT
 Comm DGIR
 Disp BFIJ
 IcgB 0
 Icg 0
 Pos  8
 Prac 27
-SkiP 25
+Trai 12
+SkiP 40
 Save  -3
-Alig  -3
+Alig  -1
 Hit   12
 Dam   7
 SecHit   5
-ACs 42 44 38 87
+ACs 62 64 58 107
 Wimp  36
-Attr 20 21 21 21 21
-AMod 6 3 1 4 1
+Attr 20 21 21 21 21 11 14 13
+AMod 6 2 1 5 1 0 0 0
 Pass DihGHrq6zFKfs~
 Titl .~
 Pnts 100
 TSex 1
 LLev 9
 HMVP 330 197 198
-Cnd  0 15 0 15
+Cnd  0 0 33 7
 Alias k kill ~
-Alias b bash~
+Alias b backstab~
 Alias j dirt~
 Alias / pray recall~
 Alias m kick ~
+Alias f bash~
 Sk 1 'acid breath'
 Sk 1 'fire breath'
 Sk 1 'frost breath'
@@ -81,7 +95,7 @@ Sk 1 'lightning breath'
 Sk 100 'dagger'
 Sk 1 'spear'
 Sk 1 'sword'
-Sk 84 'backstab'
+Sk 88 'backstab'
 Sk 75 'bash'
 Sk 71 'dirt kicking'
 Sk 81 'dodge'
@@ -96,7 +110,7 @@ Sk 75 'shield block'
 Sk 75 'scan'
 Sk 75 'second attack'
 Sk 1 'third attack'
-Sk 77 'fast healing'
+Sk 80 'fast healing'
 Sk 75 'hide'
 Sk 75 'sneak'
 Sk 1 'steal'
@@ -108,35 +122,6 @@ Sk 50 'recall'
 Gr 'rom basics'
 Gr 'berzerker basics'
 Gr 'draconian'
-Affc 'sneak'   0  18  18   0   0      32768
-Affc 'shield'   0  14  13 -20  17          0
-End
-
-#O
-Vnum 3715
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 20403
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20404
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 110
 End
 
 #O
@@ -155,24 +140,6 @@ PrevOwner (null)~
 Cond 0
 Wear 2
 Cost 620
-End
-
-#O
-Vnum 20404
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 110
-End
-
-#O
-Vnum 5740
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1000
 End
 
 #O
@@ -221,24 +188,6 @@ Cost 1010
 End
 
 #O
-Vnum 20405
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 125
-End
-
-#O
-Vnum 5932
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
 Vnum 3726
 Nest 0
 PrevOwner (null)~
@@ -249,48 +198,183 @@ Val  100 1 0 10 85
 End
 
 #O
+Vnum 3152
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 14
+End
+
+#O
+Vnum 9562
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 20
+End
+
+#O
+Vnum 9562
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 20
+End
+
+#O
+Vnum 9562
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 20
+End
+
+#O
+Vnum 2911
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 5230
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5232
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5234
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4434
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4434
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
 Vnum 5231
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 18
-Cost 550
-End
-
-#O
-Vnum 4433
-Nest 0
-PrevOwner (null)~
+Nest 1
+PrevOwner Diamondback~
 Cond 0
 Wear -1
 Cost 550
 End
 
 #O
-Vnum 4433
-Nest 0
-PrevOwner (null)~
+Vnum 5932
+Nest 1
+PrevOwner Diamondback~
 Cond 0
 Wear -1
-Cost 550
+Cost 4000
 End
 
 #O
-Vnum 4434
-Nest 0
-PrevOwner (null)~
+Vnum 20405
+Nest 1
+PrevOwner Diamondback~
 Cond 0
 Wear -1
-Cost 550
+Cost 125
 End
 
 #O
-Vnum 4434
-Nest 0
-PrevOwner (null)~
+Vnum 5740
+Nest 1
+PrevOwner Diamondback~
 Cond 0
 Wear -1
-Cost 550
+Cost 1000
+End
+
+#O
+Vnum 20404
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 110
+End
+
+#O
+Vnum 20404
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 110
+End
+
+#O
+Vnum 3715
+Nest 1
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 1140
 End
 
 #O
@@ -321,15 +405,6 @@ Cost 900
 End
 
 #O
-Vnum 22932
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 950
-End
-
-#O
 Vnum 3115
 Nest 0
 PrevOwner (null)~
@@ -348,261 +423,12 @@ Cost 3300
 End
 
 #O
-Vnum 3087
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 230
-Spell 1 'cure blindness'
-End
-
-#O
-Vnum 3087
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 230
-Spell 1 'cure blindness'
-End
-
-#O
-Vnum 3087
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 230
-Spell 1 'cure blindness'
-End
-
-#O
-Vnum 5234
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 5232
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
 Vnum 5233
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 18
 Cost 550
-End
-
-#O
-Vnum 5230
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 22044
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 3092
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 3092
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 3092
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 3084
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 220
-Spell 1 'cure serious'
-End
-
-#O
-Vnum 3084
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 220
-Spell 1 'cure serious'
-End
-
-#O
-Vnum 3084
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 220
-Spell 1 'cure serious'
-End
-
-#O
-Vnum 3084
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 220
-Spell 1 'cure serious'
-End
-
-#O
-Vnum 3084
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 220
-Spell 1 'cure serious'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 5252
-Enchanted
-Nest 0
-PrevOwner (null)~
-ExtF 67
-Cond 0
-Wear 16
-Lev  13
-Cost 590
-Affc 'enchant weapon'   1  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1   7  19          0
 End
 
 #O
@@ -612,166 +438,6 @@ PrevOwner (null)~
 Cond 0
 Wear 17
 Cost 0
-End
-
-#O
-Vnum 2911
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 9231
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 250
-Spell 1 'invisibility'
-End
-
-#O
-Vnum 31086
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'armor'
-Spell 2 'shield'
-Spell 3 'stone skin'
-End
-
-#O
-Vnum 9562
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 20
-End
-
-#O
-Vnum 9562
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 20
-End
-
-#O
-Vnum 9562
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 20
-End
-
-#O
-Vnum 9562
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 20
-End
-
-#O
-Vnum 9562
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 20
-End
-
-#O
-Vnum 9562
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 20
-End
-
-#O
-Vnum 9562
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 20
-End
-
-#O
-Vnum 3081
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 3081
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 3081
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 3152
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 14
-End
-
-#O
-Vnum 3152
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 14
-End
-
-#O
-Vnum 3152
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 14
-End
-
-#O
-Vnum 3152
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 14
 End
 
 #O
@@ -799,6 +465,200 @@ PrevOwner (null)~
 Cond 0
 Wear 8
 Cost 1280
+End
+
+#O
+Vnum 6013
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3087
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 230
+Spell 1 'cure blindness'
+End
+
+#O
+Vnum 3087
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 230
+Spell 1 'cure blindness'
+End
+
+#O
+Vnum 3087
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 230
+Spell 1 'cure blindness'
+End
+
+#O
+Vnum 3092
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3084
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 220
+Spell 1 'cure serious'
+End
+
+#O
+Vnum 3084
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 220
+Spell 1 'cure serious'
+End
+
+#O
+Vnum 3084
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 220
+Spell 1 'cure serious'
+End
+
+#O
+Vnum 9231
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 250
+Spell 1 'invisibility'
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Diamondback~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 5252
+Enchanted
+Nest 0
+PrevOwner Diamondback~
+ExtF 67
+Cond 0
+Wear 16
+Lev  13
+Cost 590
+Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Heude~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 5706
+Nest 0
+PrevOwner Estimated~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Estimated~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
 End
 
 #END

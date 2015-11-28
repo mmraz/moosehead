@@ -2,8 +2,8 @@
 Name Khira~
 Id   919630896
 Email (null)~
-LogO 987455621
-Vers 27
+LogO 1311135622
+Vers 31
 Desc You see nothing.
 ~
 Prom <%r %R %z %e> ~
@@ -14,12 +14,22 @@ MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1306891889
+LstKillDate 1306891889
+LstDeathDate 1306891889
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 mojo~
 Sac  300
 Sex  2
@@ -28,43 +38,46 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost silver.dragon.net~
+LastHost 70.55.37.155~
 Cla  2
 ClaO 2
 Levl 52
 DLevl 0
-Plyd 8640750
-Not  949118522 947221451 947711344 950239480 952025760 947221451 947221451 947221451 950589205
+Plyd 8659459
+Not  1311009474 947221451 947711344 1308108788 1311055724 1310622474 947221451 1311085437 950589205 1308936986
 Scro 22
 Rank 0
 Room 30273
-HMV  1094 1094 430 430 472 472
+HMV  6060 6060 5445 5445 1280 1280
 Gold 0
 Silv 0
-Exp  611240
+Exp  569800
 Act  CDEFGHNQT
-AfBy JT
-Comm DEFGIRSYc
-Disp EFJ
-IcgB JPTZ
-Icg 3
-Wizn AIJLNOPQSTXab
+AfBy HJNTVace
+Comm GISY
+Disp EFIJ
+IcgB 0
+Icg 0
 Invi 52
 Pos  5
-Prac 468
-Trai 116
-SkiP 1
+Prac 738
+Trai 183
+SkiP 8
+Save  -170
 Alig  704
-ACs 100 100 100 100
+Hit   75
+Dam   75
+ACs -700 -700 -700 -700
 Wimp  4
-Attr 25 25 25 25 25
-AMod 0 0 0 0 0
-Pass Khv/aiCaQqLEy~
+Attr 25 25 25 25 25 11 14 13
+AMod 20 5 0 20 20 0 0 0
+Pass KholbLeT65bZs~
 Titl ...the darkness falls like night behind my eyes~
 Pnts 97
+WhoName Pure Evil~
 TSex 2
-LLev 2381
-HMVP 1094 430 472
+LLev 2403
+HMVP 1060 445 980
 Cnd  0 0 -1 -1
 Edit ABCEH
 ERange 1 40000
@@ -98,13 +111,16 @@ Sk 100 'change sex'
 Sk 100 'charm person'
 Sk 100 'chill touch'
 Sk 100 'colour spray'
+Sk 1 'cone of silence'
 Sk 100 'continual light'
 Sk 100 'control weather'
 Sk 100 'create food'
 Sk 100 'create fountain'
+Sk 100 'create node'
 Sk 100 'create rose'
 Sk 100 'create spring'
 Sk 100 'create water'
+Sk 100 'crusade'
 Sk 100 'cure blindness'
 Sk 100 'cure critical'
 Sk 100 'cure disease'
@@ -112,7 +128,6 @@ Sk 100 'cure light'
 Sk 100 'cure poison'
 Sk 100 'cure serious'
 Sk 100 'curse'
-Sk 100 'create node'
 Sk 100 'demonfire'
 Sk 100 'detect evil'
 Sk 100 'detect good'
@@ -130,6 +145,7 @@ Sk 100 'enchant armor'
 Sk 100 'enchant weapon'
 Sk 100 'endure cold'
 Sk 100 'endure heat'
+Sk 100 'enhance'
 Sk 100 'energy drain'
 Sk 100 'enervation'
 Sk 100 'entrance'
@@ -137,14 +153,15 @@ Sk 100 'faerie fire'
 Sk 100 'faerie fog'
 Sk 100 'famine'
 Sk 100 'farsight'
+Sk 100 'farsee'
 Sk 100 'feast'
 Sk 100 'feeblemind'
 Sk 100 'fireball'
 Sk 100 'fireproof'
 Sk 100 'flamestrike'
 Sk 100 'flamesword'
-Sk 100 'fly'
 Sk 100 'floating disc'
+Sk 100 'fly'
 Sk 100 'forget'
 Sk 100 'frenzy'
 Sk 100 'fumble'
@@ -155,6 +172,7 @@ Sk 100 'haste'
 Sk 100 'heal'
 Sk 100 'heat metal'
 Sk 100 'hold person'
+Sk 100 'holy silence'
 Sk 100 'holy word'
 Sk 100 'ice storm'
 Sk 100 'identify'
@@ -173,6 +191,10 @@ Sk 100 'mass invis'
 Sk 100 'mirror image'
 Sk 100 'mistform'
 Sk 100 'nexus'
+Sk 100 'orb of awakening'
+Sk 100 'orb of surprise'
+Sk 100 'orb of touch'
+Sk 100 'orb of turning'
 Sk 100 'pass door'
 Sk 100 'plague'
 Sk 100 'poison'
@@ -193,6 +215,8 @@ Sk 100 'shield'
 Sk 100 'shocking grasp'
 Sk 100 'sleep'
 Sk 100 'slow'
+Sk 100 'smoke screen'
+Sk 100 'see soul'
 Sk 100 'stonefist'
 Sk 100 'stone skin'
 Sk 100 'summon'
@@ -222,16 +246,6 @@ Sk 1 'make bag'
 Sk 100 'turn undead'
 Sk 100 'withstand death'
 Sk 100 'wound transfer'
-Sk 100 'smoke screen'
-Sk 100 'orb of awakening'
-Sk 100 'orb of surprise'
-Sk 100 'orb of touch'
-Sk 100 'orb of turning'
-Sk 100 'crusade'
-Sk 100 'holy silence'
-Sk 100 'see soul'
-Sk 100 'farsee'
-Sk 100 'enhance'
 Sk 100 'axe'
 Sk 100 'dagger'
 Sk 100 'flail'
@@ -310,6 +324,58 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
+End
+
+#O
+Vnum 20720
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner (null)~
+Name bliss unending~
+ShD  {WUnending{x {CB{cl{Ci{cs{Cs{x~
+Desc A fountain of {WUnending{x {CB{cl{Ci{cs{Cs{x gushes here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner (null)~
+Name badge merrit~
+ShD  A Kickass Wingman Merrit Badge~
+Desc A Kickass Wingman Merrit Badge certified by Prowler has been left here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 18914
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 16
+Cost 10000
+End
+
+#O
+Vnum 16117
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 18
+Lev  55
+Cost 0
 End
 
 #END

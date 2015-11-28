@@ -2,8 +2,8 @@
 Name Grent~
 Id   988659498
 Email (null)~
-LogO 988661942
-Vers 27
+LogO 1307519863
+Vers 31
 Prom <%hhp %mm %vmv> ~
 Race giant~
 Outc 0
@@ -12,12 +12,19 @@ MatookT 0
 SkPTimer 0
 SkPTracker 3
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1306630070
+LstKillDate 1306630070
+LstDeathDate 1306630070
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 megena~
 Sac  95
 Sex  1
@@ -26,43 +33,44 @@ Node 0
 Cap 0
 Created 988659549
 Glad 0 0 0 0 0 0
-LastHost dps53-04-p236.kn.saix.net~
+LastHost 58.145.143.61~
 Cla  6
 ClaO 3
 Levl 2
 DLevl 0
-Plyd 1989
-Not  0 0 0 0 0 0 0 0 0
+Plyd 3814
+Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
-Room 3054
-HMV  40 88 103 103 62 103
+Room 3004
+HMV  88 88 103 103 103 103
 Gold 30
 Silv 774
 Exp  20707
 Act  CDEFGHKQ
+MHSF R
 Comm DGIR
 Disp BCFIJ
 IcgB 0
 Icg 0
-Pos  4
+Pos  8
 Prac 6
-SkiP 3
-Save  -4
+Trai 10
+SkiP 6
+Save  -1
 Alig  1000
-Hit   4
-SecHit   3
-ACs 83 77 77 99
+Hit   1
+ACs 63 57 57 79
 Wimp  15
-Attr 19 10 13 13 18
-AMod 0 0 1 0 1
+Attr 19 10 13 13 18 13 13 13
+AMod 0 0 1 0 1 0 0 0
 Pass Grw6xZ/A2tHEw~
-Titl  the uh..  the uhhh....hmmm~
+Titl .~
 Pnts 96
 TSex 1
-LLev 0
+LLev 1
 HMVP 88 103 103
-Cnd  0 0 16 28
+Cnd  0 0 3 34
 Sk 1 'armor'
 Sk 1 'cancellation'
 Sk 1 'detect evil'
@@ -108,6 +116,7 @@ Sk 1 'bash'
 Sk 1 'dirt kicking'
 Sk 1 'disarm'
 Sk 1 'dodge'
+Sk 1 'grab'
 Sk 1 'enhanced damage'
 Sk 1 'weave resistance'
 Sk 1 'insanity'
@@ -132,8 +141,7 @@ Gr 'weaponsmaster'
 Gr 'detection'
 Gr 'protective'
 Gr 'transportation'
-Affc 'bless'   0  24   6  -3  24          0
-Affc 'bless'   0  27   6   3  18          0
+Affc 'shield'   0  39  10 -20  17          0
 End
 
 #O
@@ -143,7 +151,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 151 0 0
+Val  0 0 107 0 0
 End
 
 #O
@@ -277,7 +285,7 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 14
+Wear 15
 Cost 48
 End
 
@@ -286,7 +294,7 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 15
+Wear 14
 Cost 48
 End
 
@@ -304,7 +312,7 @@ Vnum 3715
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 1140
 End
 
@@ -313,7 +321,7 @@ Vnum 3715
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 17
 Cost 1140
 End
 
@@ -324,15 +332,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 75
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
+Val  300 288 1 0 0
 End
 
 #O

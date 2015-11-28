@@ -1,0 +1,170 @@
+#AREA
+../newareas/avarice.are~
+Avarice Clan Hall~
+{ All }         Avarice Clan Hall~
+31700 31704
+
+#MOBILES
+#31700
+healer~
+the healer~
+The Healer stands here.
+~
+The old man smiles curtly and returns your gaze as he stands guard at
+the gate.  Those passing by Clan Road may wonder how an old man like him
+was hired to guard the gate to the great hall of Honor, but among the
+members of Honor it is common knowledge that he was one of the first
+adventurers who slew the diamond dragon that threatened the inhabitants
+of Midgaard long ago.  He received a handsome reward for his feat, but
+rumour has it that he gambled it all away at the casino of Atlantis. In
+any case he now spends his days as the gate guard and also sells some
+spells on the side.  Through your trained senses you get the feeling that
+his magic is still as potent as ever.  Maybe you should buy a spell or two.
+Type 'heal' to see a listing of spells.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABQVa DFH 1000 0
+40 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#31701
+shopkeeper~
+the shopkeeper~
+A shopkeeper stands here.
+~
+He looks very dangerous.  I wouldn't try to rob him.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABV DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#31700
+pit~
+a pit~
+A donation pit~
+~
+container 0 0
+10000 0 0 1000 100
+0 0 0 P
+#0
+
+#ROOMS
+#31700
+Avarice Clan Hall~
+Avarice Clan Hall
+~
+0 D 0
+C avarice~
+D0
+Exit ~
+door~
+0 0 31701
+D1
+Exit ~
+door~
+1 0 7399
+S
+#31701
+Generic room name~
+Generic room description.
+~
+0 D 0
+C avarice~
+D0
+Exit ~
+door~
+0 0 31702
+D1
+Exit ~
+door~
+0 0 31704
+D2
+Exit ~
+door~
+0 0 31700
+D3
+Exit ~
+door~
+0 0 31703
+S
+#31702
+Generic room name~
+Generic room description.
+~
+0 D 0
+C avarice~
+D2
+Exit ~
+door~
+0 0 31701
+S
+#31703
+Generic room name~
+Generic room description.
+~
+0 D 0
+C avarice~
+D1
+Exit ~
+door~
+0 0 31701
+S
+#31704
+Generic room name~
+Generic room description.
+~
+0 D 0
+C avarice~
+D3
+Exit ~
+door~
+0 0 31701
+S
+#0
+
+#RESETS
+M 0 31700   1 31701  1	* the healer
+O 0 31700 100 31701	* a pit
+M 0 31701   1 31703  1	* the shopkeeper
+G 1 3092  -1     	*   a potion of true sight
+G 1 3091  -1     	*   a potion of flying
+G 1 3089  -1     	*   a potion of armor
+G 1 3087  -1     	*   a potion of cure blindness
+G 1 3086  -1     	*   a bottle of antidote
+G 1 3083  -1     	*   a potion of cure light wounds
+G 1 3083  -1     	*   a potion of cure light wounds
+G 1 3082  -1     	*   a potion of divine protection
+G 1 3081  -1     	*   a potion of sanctuary
+G 1 4413  -1     	*   a yellow potion of see invisible
+G 1 3090  -1     	*   a potion of negation
+G 1 3042  -1     	*   a scroll of recall
+G 1 3040  -1     	*   a scroll of identify
+G 1 3138  -1     	*   a buffalo water skin
+G 1 3032  -1     	*   a bag
+G 1 3088  -1     	*   a vial of holy water
+G 1 31509  -1     	*   a barbequed dragonwing
+S
+
+#SHOPS
+31701 10  0  0  0  0 	 600 100 	 0 23 	* the shopkeeper
+0
+
+#SPECIALS
+M 31700 spec_cast_adept     	* the healer
+S
+
+#$

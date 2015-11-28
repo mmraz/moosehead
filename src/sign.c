@@ -8,8 +8,8 @@
 #include <netinet/in.h>
 static char rcsid[] = "$Id: sign.c,v 1.2 1999/07/14 18:14:09 mud Exp $";
 
-#define PORT 4040
-#define MESSAGE "\n\nMooseHead SLED has moved to a more stable site.\nThis site is now a test site and not accessable by players.\n\nThe new site address is:\n\nsled.moosehead.com 4000\nor\n204.148.144.69 4000\n-Rusty the Oxidizing Dragon\n\n"
+#define PORT 4000
+#define MESSAGE "\n\n\n Go to thesled.us 4000 - we'll try a second migration tonight \n\n\n"
 
 int main(int argc, char **argv)
 {

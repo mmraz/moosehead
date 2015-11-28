@@ -15,7 +15,7 @@
  *  around, comes around.                                                  *
  ***************************************************************************/
 
-/* @(#)$Id: gamble.c,v 1.1 1998/09/12 01:27:33 mud Exp $ */
+static char rcsid[] = "$Id: gamble.c,v 1.2 1999/07/14 18:13:39 mud Exp $";
 #if defined(macintosh)
 #include <types.h>
 #else

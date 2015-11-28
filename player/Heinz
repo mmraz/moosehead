@@ -2,19 +2,20 @@
 Name Heinz~
 Id   995703751
 Email (null)~
-LogO 1120604596
-Vers 31
-Prom <%h/%Hhp %m/%Mmana %v/%Vmv %Ssac %Xtnl %t> ~
+LogO 1414622110
+Vers 33
+Prom <%hhp %mm %vmv %Xtnl %t> ~
 Race dragon~
 Clan honor~
 Outc 0
-RufT 217
+RufT 188
 MatookT 0
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 1
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy Hiryu~
 LstAtkedBy no one~
@@ -22,10 +23,16 @@ LstAtkedByTimer 0
 LstCombatDate 1053906438
 LstKillDate 1020411181
 LstDeathDate 1053904608
-LoginsWOKill 15
-LoginsWODeath 15
-LoginsWOCombat 11
+LoginsWOKill 22
+LoginsWODeath 22
+LoginsWOCombat 18
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 DeityT -443 matook~
 Sac  300
@@ -35,46 +42,47 @@ Node 0
 Cap 0
 Created 995703759
 Glad 0 0 0 0 0 0
-LastHost 69.111.60.26~
+LastHost 198.74.40.134~
 Cla  7
 ClaO 0
 Levl 17
 DLevl 0
-Plyd 101719
-Not  1120604565 1120604565 1120604565 1120604565 1120604565 1120604565 1120604565 1120604565 1120604565 1120604565
+Plyd 102902
+Not  1307133248 1307133248 1307133248 1307133248 1307133248 1307133248 1307133248 1307133248 1307133248 1307133248
 Scro 22
 Rank 0
-Room 31520
+Room 31501
 HMV  286 286 282 282 184 184
-Gold 43
-Silv 2377
-Exp  151325
+Gold 50
+Silv 2878
+Exp  151270
 Act  CDEFGHKQ
 MHSF RS
-AfBy JT
+AfBy JOT
 Comm S
 Disp FIJ
 IcgB 0
 Icg 0
-Pos  5
-Prac 35
+Pos  8
+Prac 36
+Trai 2
 SkiP 22
-Save  4
-Alig  -819
-Hit   3
+Save  1
+Alig  -998
+Hit   5
 Dam   3
-SecHit   4
+SecHit   6
 SecDam   3
-ACs 76 76 76 101
-Attr 20 19 25 23 25 13 13 13
-AMod 6 4 2 4 2 0 0 0
+ACs 56 56 56 81
+Attr 20 19 25 23 25 11 14 13
+AMod 8 4 2 4 2 0 0 0
 Pass He4GPs20VdiD2~
 Titl  {RTomato{x {RKetchup{x, {G57{x Varieties.~
 Pnts 100
 TSex 1
 LLev 23
 HMVP 266 282 179
-Cnd  0 0 8 0
+Cnd  0 12 42 0
 Alias bb cast 'burning hands'~
 Alias k kill~
 Alias col c 'col~
@@ -94,7 +102,6 @@ Sk 1 'change sex'
 Sk 1 'charm person'
 Sk 75 'chill touch'
 Sk 83 'colour spray'
-Sk 1 'cone of silence'
 Sk 1 'cure critical'
 Sk 78 'cure light'
 Sk 1 'cure serious'
@@ -205,6 +212,11 @@ Gr 'orbs'
 Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
+Affc 'bless'   0  18  16   2  18          0
+Affc 'bless'   0  18  16  -2  24          0
+Affc 'armor'   0  17  20 -20  17          0
+Affc 'giant strength'   0  15  11   2   1          0
+Affc 'protection good'   0  14  17  -1  24      16384
 End
 
 #O
@@ -434,8 +446,8 @@ Cond 0
 Wear -1
 Lev  17
 Cost 1510
-Affc 'enchant weapon'   1  52  -1   4  19          0
 Affc 'enchant weapon'   1  52  -1   4  18          0
+Affc 'enchant weapon'   1  52  -1   4  19          0
 End
 
 #O
@@ -445,15 +457,6 @@ PrevOwner Heinz~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 3014
-Nest 1
-PrevOwner Heinz~
-Cond 0
-Wear -1
-Cost 5
 End
 
 #O
@@ -671,9 +674,9 @@ Nest 1
 PrevOwner Heinz~
 Cond 0
 Wear -1
-Time 686
+Time 657
 Cost 0
-Val  51 164 -1 -1 -1
+Val  51 169 -1 -1 -1
 Spell 1 'restore mana'
 End
 
@@ -683,9 +686,9 @@ Nest 1
 PrevOwner Heinz~
 Cond 0
 Wear -1
-Time 592
+Time 563
 Cost 0
-Val  51 164 -1 -1 -1
+Val  51 169 -1 -1 -1
 Spell 1 'restore mana'
 End
 

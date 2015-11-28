@@ -1,0 +1,875 @@
+#AREA
+../newareas/ryoga.are~
+ryoga's area~
+{ All }         ryoga's area~
+17700 17749
+
+#MOBILES
+#17700
+ice waif~
+an ice waif~
+A small ice waif is trying to sell drinks to passengers as they board.
+~
+   A young girl with elven features sits here holding a pitcher and a bowl
+of ice to sell. Her skin is a pale blue, covered with thousands of motes
+of frozen water.
+~
+elf~
+ABe DF 0 0
+10 1 10d10+400 10d1+90 0d0+0 slice
+0 0 0 0
+0 ABI 0 0
+rest rest female 100
+c 0 small 0
+F aff J
+F res B
+F vul Z
+#17701
+ticket agent~
+a ticket agent~
+An agent of the Berg Travel Agency stands here.
+~
+   A sad looking dwarf in a tuxedo stands here, telling you all about
+the wonderful cruise departing for Antarctica. When you inquire about
+buying a ticket, he tells you how quickly they sold. He thinks that he may
+have one cabin left, but he isn't sure.
+~
+water fowl~
+ABe DF 0 0
+10 1 10d10+400 10d1+90 0d0+0 slice
+0 0 0 0
+0 ABI 0 0
+rest rest male 10000
+HMc BG medium 0
+F aff Tb
+F res R
+F for G
+#0
+
+#OBJECTS
+#17700
+ice wedge~
+an ice wedge~
+A piece of ice about the size of an orange wedge melts here.~
+water~
+food ITU AO
+1 20 0 0 0
+0 10 10 P
+#17701
+glass icewine tall~
+a glass of icewine~
+A tall glass sculpted to hold icewine stands here.~
+glass~
+drink 0 AO
+50 50 'icewine' 0 0
+2 10 1000 P
+A
+12 10
+A
+19 2
+A
+1 1
+A
+2 1
+A
+18 1
+A
+19 5
+A
+18 7
+A
+13 20
+A
+12 40
+A
+20 -1
+A
+0 0
+A
+19 7
+A
+18 7
+A
+19 6
+A
+18 7
+A
+19 6
+A
+18 6
+A
+19 5
+A
+18 5
+A
+13 50
+A
+18 7
+A
+19 6
+A
+12 40
+A
+13 20
+A
+18 3
+A
+19 1
+#17702
+frozen iced tea glass~
+an iced tea glass~
+A tea glass formed of ice is frozen here.~
+ice~
+drink Y AO
+50 50 'tea' 0 0
+2 10 300 P
+#17703
+small bucket ice trash~
+an ice bucket~
+A small bucket of ice sits in a corner filled with trash.~
+ice~
+container OT P
+500 AC 0 100 70
+0 100 0 P
+#17704
+ice cabin key 13~
+Cabin Key #13~
+A key made of ice is here, with a number engraved into it.~
+ice~
+key TU AO
+0 0 0 0 0
+0 10 2000 P
+#0
+
+#ROOMS
+#17700
+Ice tunnel~
+Generic room description.
+~
+0 D 5
+H 20 M 20
+D1
+Exit ~
+door~
+0 0 17701
+S
+#17701
+Iced T-intersection~
+Generic room description.
+~
+0 D 5
+D1
+Exit ~
+door~
+0 0 17702
+D2
+Exit ~
+door~
+0 0 17704
+D3
+Exit ~
+door~
+0 0 17700
+S
+#17702
+Ice tunnel~
+Generic room description.
+~
+0 D 5
+H 20 M 20
+D1
+Exit ~
+door~
+0 0 17703
+D3
+Exit ~
+door~
+0 0 17701
+S
+#17703
+Berg Travel Agency~
+Generic room description.
+~
+0 D 5
+H 50 M 50
+D3
+Exit ~
+door~
+0 0 17702
+S
+#17704
+Ice tunnel~
+Generic room description.
+~
+0 0 5
+H 25 M 25
+D0
+Exit ~
+door~
+0 0 17701
+D2
+Exit ~
+door~
+0 0 17705
+S
+#17705
+The ice plank~
+Generic room description.
+~
+0 C 5
+H 25 M 25
+D0
+Exit ~
+door~
+0 0 17704
+D2
+Exit ~
+rail~
+1 17704 17706
+S
+#17706
+Top of the plank~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+rail~
+1 17704 17705
+D1
+Exit ~
+door~
+0 0 17707
+D3
+Exit ~
+door~
+0 0 17721
+S
+#17707
+Along the rail~
+Generic room description.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 17708
+D3
+Exit ~
+door~
+0 0 17706
+S
+#17708
+Along the rail~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17707
+D1
+Exit ~
+door~
+0 0 17709
+S
+#17709
+Along the rail~
+Generic room description.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 17710
+D3
+Exit ~
+door~
+0 0 17708
+S
+#17710
+Along the rail~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17709
+D2
+Exit ~
+door~
+0 0 17711
+D3
+Exit ~
+door~
+0 0 17738
+S
+#17711
+Along the rail~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17710
+D3
+Exit ~
+door~
+0 0 17712
+S
+#17712
+Along the rail~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 17711
+D2
+Exit ~
+door~
+0 0 17713
+S
+#17713
+Along the rail~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17712
+D3
+Exit ~
+door~
+0 0 17714
+S
+#17714
+Along the rail~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 17713
+D3
+Exit ~
+door~
+0 0 17715
+S
+#17715
+Along the rail~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17716
+D1
+Exit ~
+door~
+0 0 17714
+S
+#17716
+Along the rail~
+Generic room description.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 17715
+D3
+Exit ~
+door~
+0 0 17717
+S
+#17717
+Along the rail~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17718
+D1
+Exit ~
+door~
+0 0 17716
+S
+#17718
+Along the rail~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17719
+D1
+Exit ~
+door~
+0 0 17722
+D2
+Exit ~
+door~
+0 0 17717
+S
+#17719
+Along the rail~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 17720
+D2
+Exit ~
+door~
+0 0 17718
+S
+#17720
+Along the rail~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17721
+D3
+Exit ~
+door~
+0 0 17719
+S
+#17721
+Along the rail~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 17706
+D2
+Exit ~
+door~
+0 0 17720
+S
+#17722
+An interior hallway~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17723
+D1
+Exit ~
+door~
+0 0 17725
+D2
+Exit ~
+door~
+0 0 17724
+S
+#17723
+Passenger Cabin #1~
+Generic room description.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 17722
+S
+#17724
+Passenger Cabin #2~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17722
+S
+#17725
+An interior hallway~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17726
+D1
+Exit ~
+door~
+0 0 17728
+D2
+Exit ~
+door~
+0 0 17727
+D3
+Exit ~
+door~
+0 0 17722
+S
+#17726
+Passenger Cabin #3~
+Generic room description.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 17725
+S
+#17727
+Passenger Cabin #4~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17725
+S
+#17728
+An interior hallway~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17729
+D1
+Exit ~
+door~
+0 0 17731
+D2
+Exit ~
+door~
+0 0 17730
+D3
+Exit ~
+door~
+0 0 17725
+S
+#17729
+Passenger Cabin #5~
+Generic room description.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 17728
+S
+#17730
+Passenger Cabin #6~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17728
+S
+#17731
+An interior intersection~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17741
+D1
+Exit ~
+door~
+0 0 17732
+D3
+Exit ~
+door~
+0 0 17728
+S
+#17732
+An interior hallway~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17733
+D1
+Exit ~
+door~
+0 0 17735
+D2
+Exit ~
+door~
+0 0 17734
+D3
+Exit ~
+door~
+0 0 17731
+S
+#17733
+Passenger Cabin #7~
+Generic room description.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 17732
+S
+#17734
+Passenger Cabin #8~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17732
+S
+#17735
+An interior hallway~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17736
+D1
+Exit ~
+door~
+0 0 17738
+D2
+Exit ~
+door~
+0 0 17737
+D3
+Exit ~
+door~
+0 0 17732
+S
+#17736
+Passenger Cabin #9~
+Generic room description.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 17735
+S
+#17737
+Passenger Cabin #10~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17735
+S
+#17738
+An interior hallway~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17739
+D2
+Exit ~
+door~
+0 0 17740
+D3
+Exit ~
+door~
+0 0 17735
+S
+#17739
+Passenger Cabin #11~
+Generic room description.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 17738
+S
+#17740
+Passenger Cabin #12~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17738
+S
+#17741
+An interior hallway~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17744
+D1
+Exit ~
+door~
+0 0 17743
+D2
+Exit ~
+door~
+0 0 17731
+D3
+Exit ~
+door~
+0 0 17742
+S
+#17742
+Passenger Cabin #13~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 17741
+S
+#17743
+Passenger Cabin #14~
+Generic room description.
+~
+0 0 5
+D3
+Exit ~
+door~
+0 0 17741
+S
+#17744
+An interior hallway~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 17747
+D1
+Exit ~
+door~
+0 0 17746
+D2
+Exit ~
+door~
+0 0 17741
+D3
+Exit ~
+door~
+0 0 17745
+S
+#17745
+Passenger Cabin #15~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 17744
+S
+#17746
+Passenger Cabin #16~
+Generic room description.
+~
+0 0 5
+D3
+Exit ~
+door~
+0 0 17744
+S
+#17747
+An interior hallway~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 17749
+D2
+Exit ~
+door~
+0 0 17744
+D3
+Exit ~
+door~
+0 0 17748
+S
+#17748
+Passenger Cabin #17~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 17747
+S
+#17749
+Passenger Cabin #18~
+Generic room description.
+~
+0 0 5
+D3
+Exit ~
+door~
+0 0 17747
+S
+#0
+
+#RESETS
+M 0 9216   7 17700  2	* a small snowflake
+M 0 9216   7 17700  2	* a small snowflake
+M 0 9216   7 17701  2	* a small snowflake
+M 0 9216   7 17701  2	* a small snowflake
+M 0 17700   1 17701  1	* an ice waif
+G 1 17702  -1     	*   an iced tea glass
+G 1 17700  -1     	*   an ice wedge
+G 1 17701  -1     	*   a glass of icewine
+M 0 17701   1 17703  1	* a ticket agent
+O 0 17703 100 17703	* an ice bucket
+P 1 17704  -1 17703  1	*   Cabin Key #13
+D 0 17705   2    2	* The ice plank south
+S
+
+#SHOPS
+17700  0  0  0  0  0 	  50  50 	 0 24 	* an ice waif
+17701 18  0  0  0  0 	  20 100 	 0 24 	* a ticket agent
+0
+
+#SPECIALS
+S
+
+#$

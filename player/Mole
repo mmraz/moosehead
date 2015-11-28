@@ -1,34 +1,40 @@
 #PLAYER
 Name Mole~
-SurN Homan~
 Id   979888609
 Email (null)~
-LogO 1103588433
-Vers 31
+LogO 1444698849
+Vers 33
 Desc Moley moley moley moooooooooooooooolllllllllllle.
 ~
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+Prom %e %t %g:GP %s:SP %w%c%h/%H:HP %m/%M:MP %v/%V:MV % ~
 Race elf~
 Clan zealot~
 Outc 0
-RufT 65
+RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 2
+SkPTimer 1
+SkPTracker 3
 LogoutTracker 0
 Kill 6 4 1 9
-Steal 61 12961 36
+Steal 79 13300 42
+MSteal 0
 LstK Stryg~
 LstKBy Deford~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1092369586
+LstCombatDate 1310105118
 LstKillDate 1050658011
 LstDeathDate 1092369809
-LoginsWOKill 47
-LoginsWODeath 7
-LoginsWOCombat 6
+LoginsWOKill 53
+LoginsWODeath 13
+LoginsWOCombat 3
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 almighty~
 DeityT -1827 xochipili~
 Sac  300
@@ -38,52 +44,53 @@ Node 0
 Cap 0
 Created 979888650
 Glad 0 0 0 0 0 0
-LastHost 65.31.195.196~
+LastHost 173.215.8.171~
 Cla  13
 Kit shadowstalker~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 186497
-Not  1089511130 1089511130 1089511130 1091239452 1089511130 1089511130 1089511130 1092194895 1089511130 1089511130
+Plyd 199295
+Not  1311386679 1311386679 1311386679 1311386679 1311386679 1311386679 1311386679 1311386679 1311386679 1311386679
 Scro 22
 Rank 1
 Room 31806
-HMV  1019 1019 510 510 486 486
-Gold 308
-Silv 0
+HMV  804 1019 510 510 468 486
+Gold 4381
+Silv 1
 Exp  397864
 Act  BDGHQRS
 MHSF RSTUV
-AfBy FJT
+AfBy CDFJNPTV
 Comm 0
 Disp FIJLN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 25
-SkiP 10
-Save  -37
-Alig  140
-Hit   16
+Prac 30
+SkiP 19
+Save  -54
+Alig  -116
+Hit   21
 Dam   26
-SecHit   4
+SecHit   9
 SecDam   14
-ACs 22 24 21 40
-Attr 17 20 18 23 16 18 13 16
-AMod 0 3 2 0 3 0 0 0
+ACs 23 25 22 41
+Attr 17 20 18 23 16 11 12 24
+AMod 5 3 2 4 3 0 0 0
 Pass MoZzQ0QafqORk~
 Titl  the bastard. [{rMole  {x/5]~
 Pnts 99
 TSex 1
 LLev 41
 HMVP 909 405 456
-Cnd  0 48 48 48
+Cnd  0 0 4 8
 Alias 1 put all ranger~
 Alias qq scan~
 Alias ss order all rescue mole~
 Alias hi murder~
+Alias kk slice cowl nhi~
 Sk 75 'armor'
 Sk 75 'cancellation'
 Sk 75 'detect evil'
@@ -99,9 +106,9 @@ Sk 75 'farsight'
 Sk 79 'fireproof'
 Sk 63 'fly'
 Sk 87 'gate'
-Sk 86 'giant strength'
+Sk 87 'giant strength'
 Sk 88 'haste'
-Sk 80 'identify'
+Sk 81 'identify'
 Sk 41 'infravision'
 Sk 1 'knock'
 Sk 1 'know alignment'
@@ -123,20 +130,20 @@ Sk 78 'teleport'
 Sk 84 'word of recall'
 Sk 100 'dagger'
 Sk 100 'sword'
-Sk 94 'backstab'
+Sk 96 'backstab'
 Sk 100 'cutpurse'
-Sk 91 'dirt kicking'
+Sk 92 'dirt kicking'
 Sk 100 'dodge'
 Sk 86 'infiltrate'
 Sk 100 'enhanced damage'
 Sk 77 'hamstring'
 Sk 100 'parry'
-Sk 98 'trip'
+Sk 99 'trip'
 Sk 88 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
-Sk 95 'hide'
-Sk 84 'peek'
+Sk 97 'hide'
+Sk 86 'peek'
 Sk 75 'pick lock'
 Sk 86 'slice'
 Sk 100 'sneak'
@@ -152,33 +159,36 @@ Gr 'detection'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
+Affc 'giant strength'   0  30   1   4   1          0
+Affc 'detect invis'   0  32   0   0   0          8
+Affc 'detect evil'   0  36   4   0   0          4
+Affc 'bless'   0  36  14   5  18          0
+Affc 'bless'   0  38  14  -5  24          0
+Affc 'protection evil'   0  40  14  -1  24       8192
+Affc 'haste'   0  39  11   4   2    2097152
+Affc 'sneak'   0  48  46   0   0      32768
 End
 
 #O
 Vnum 17631
 Nest 0
 PrevOwner Mole~
+ExtF 262401
 Cond 0
 Wear 0
 Cost 250
+Affc 'bless'   1  42  44  -1  20        256
 End
 
 #O
 Vnum 23514
 Nest 0
 PrevOwner Mole~
+ExtF 17301824
 Cond 0
 Wear 4
 Cost 3690
-End
-
-#O
-Vnum 23514
-Nest 0
-PrevOwner Mole~
-Cond 0
-Wear 3
-Cost 3690
+Affc 'bless'   1  42  46  -1  20        256
 End
 
 #O
@@ -203,9 +213,11 @@ End
 Vnum 10447
 Nest 0
 PrevOwner Mole~
+ExtF 256
 Cond 0
 Wear 5
 Cost 13700
+Affc 'bless'   1  42  46  -1  20        256
 End
 
 #O
@@ -221,9 +233,11 @@ End
 Vnum 6419
 Nest 0
 PrevOwner Mole~
+ExtF 256
 Cond 0
 Wear 6
 Cost 8400
+Affc 'bless'   1  41  46  -1  20        256
 End
 
 #O
@@ -278,36 +292,119 @@ End
 Vnum 23515
 Nest 0
 PrevOwner Mole~
+ExtF 17301824
 Cond 0
 Wear 2
 Cost 7609
+Affc 'bless'   1  42  45  -1  20        256
 End
 
 #O
 Vnum 23515
 Nest 0
 PrevOwner Mole~
+ExtF 17301824
 Cond 0
 Wear 1
 Cost 7609
+Affc 'bless'   1  42  45  -1  20        256
 End
 
 #O
 Vnum 28024
 Nest 0
 PrevOwner Mole~
+ExtF 256
 Cond 0
 Wear 17
 Cost 3000
+Affc 'bless'   1  41  44  -1  20        256
 End
 
 #O
 Vnum 11144
 Nest 0
 PrevOwner Mole~
+ExtF 321
 Cond 0
 Wear 18
 Cost 4500
+Affc 'bless'   1  41  45  -1  20        256
+End
+
+#O
+Vnum 23021
+Nest 0
+PrevOwner Koryn~
+Cond 0
+Wear -1
+Cost 710
+End
+
+#O
+Vnum 9007
+Nest 1
+PrevOwner Mole~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 2411
+Nest 1
+PrevOwner Mole~
+ExtF 1027
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 6409
+Nest 1
+PrevOwner Mole~
+Cond 0
+Wear -1
+Cost 11800
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 6410
+Nest 1
+PrevOwner Mole~
+Cond 0
+Wear -1
+Cost 4300
+Val  2 4 10 6 16
+End
+
+#O
+Vnum 23504
+Nest 1
+PrevOwner Mole~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 23567
+Nest 1
+PrevOwner Mole~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1900
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 100
 End
 
 #O
@@ -319,13 +416,45 @@ Name hands cold cool ice~
 ShD  {WCold Hands{x~
 Desc Hands as Cool as ice lie here.~
 ExtF 67
-Stolen 28
 Cond 0
 Wear 16
 Cost 0
 Val  2 10 4 39 6
 Affc 'enchant weapon'   0  52  -1  12  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+End
+
+#O
+Vnum 23514
+Nest 0
+PrevOwner Mole~
+ExtF 17301824
+Cond 0
+Wear 3
+Cost 3690
+Affc 'bless'   1  42  45  -1  20        256
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Froyo~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 2427
+Enchanted
+Nest 0
+PrevOwner Kremit~
+Cond 0
+Wear -1
+Cost 2300
+Affc 'reserved'   0  45  -1   0   0         32
+Affc 'reserved'   1  45  -1  -2  20          0
+Affc 'reserved'   1  45  -1   2   2          0
 End
 
 #END

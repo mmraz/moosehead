@@ -3,20 +3,21 @@ Name SpiderMonkey~
 SurN MacTree~
 Id   1048351185
 Email (null)~
-LogO 1131719635
-Vers 31
+LogO 1388216865
+Vers 33
 LnD  A Gladiator~
 Prom %hhp %mm %vmv |%Xtnl| $%g|%r|%e|  ~
 Race lasher~
 Clan loner~
 Outc 0
-RufT 500
+RufT 493
 MatookT 0
-SkPTimer 24
+SkPTimer 17
 SkPTracker 12
 LogoutTracker 0
 Kill 0 5 0 4
 Steal 2 686 0
+MSteal 0
 LstK Coranon~
 LstKBy Eikel~
 LstAtkedBy no one~
@@ -24,10 +25,16 @@ LstAtkedByTimer 0
 LstCombatDate 1131719489
 LstKillDate 1131719496
 LstDeathDate 1130544843
-LoginsWOKill 1
-LoginsWODeath 2
-LoginsWOCombat 0
+LoginsWOKill 2
+LoginsWODeath 3
+LoginsWOCombat 1
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 150457 huitzilopochtli~
 DeityT -187 xochipili~
 Sac  100
@@ -37,40 +44,41 @@ Node 0
 Cap 0
 Created 1048351674
 Glad 0 0 0 0 1 0
-LastHost ndn-165-134-63.telkomadsl.co.za~
+LastHost 105.224.22.61~
 Cla  4
 Kit acrobat~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 235835
+Plyd 236174
 Not  1097942202 1097942202 1097942202 1097942202 1121330344 1097942202 1097942202 1097942202 1097942202 1111048001
 Scro 22
 Rank 0
-Room 16501
-HMV  225 1471 14 462 319 713
+Room 5028
+HMV  1465 1471 346 462 693 713
 Gold 1227
 Silv 95
 Exp  387204
 Act  DGHJKQS
 MHSF RSV
-AfBy NTVZ
+AfBy HLNTVZ
 Comm G
 Disp FIJN
 IcgB 0
 Icg 0
 Wizn W
 Pnet ABCDEFGHI
-Pos  4
+Pos  8
+Trai 23
 SkiP 151
 Save  -21
-Alig  -781
+Alig  -783
 Hit   47
 Dam   40
 SecHit   34
 SecDam   27
 ACs -316 -316 -316 -316
-Attr 22 20 21 18 22 21 23 14
+Attr 22 20 21 18 22 10 11 14
 AMod 4 1 -1 7 3 0 0 0
 Pass SplnxxEm9yeFA~
 Titl  the foncused!~
@@ -78,7 +86,7 @@ Pnts 93
 TSex 1
 LLev 52
 HMVP 1231 412 713
-Cnd  0 0 15 0
+Cnd  0 0 8 0
 Sk 1 'aid'
 Sk 75 'armor'
 Sk 1 'bestow holiness'
@@ -158,15 +166,17 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'garou'
-Affc 'haste'   0  43  11   4   2    2097152
-Affc 'bless'   0  42  35  -5  24          0
-Affc 'bless'   0  39  35   5  18          0
-Affc 'tower of iron will'   3  43   6   0   0      32768
-Affc 'body weaponry'   0  41   8   0   0   33554432
-Affc 'protection evil'   0  38   8  -1  24       8192
-Affc 'stone skin'   0  43  29 -40  17          0
-Affc 'shield'   0  44  37 -20  17          0
-Affc 'armor'   0  42  19 -20  17          0
+Affc 'tower of iron will'   3  45  22   0   0      32768
+Affc 'morph'   0  51   1   0   0       2048
+Affc 'sanctuary'   0  45   3   0   0        128
+Affc 'armor'   0  42  12 -20  17          0
+Affc 'shield'   0  42  30 -20  17          0
+Affc 'stone skin'   0  42  22 -40  17          0
+Affc 'protection evil'   0  34   1  -1  24       8192
+Affc 'body weaponry'   0  39   1   0   0   33554432
+Affc 'bless'   0  37  28   5  18          0
+Affc 'bless'   0  41  28  -5  24          0
+Affc 'haste'   0  42   4   4   2    2097152
 End
 
 #O
@@ -195,7 +205,7 @@ ExtF 16777472
 Cond 0
 Wear 7
 Cost 800
-Affc 'bless'   1  41  37  -1  20        256
+Affc 'bless'   1  41  30  -1  20        256
 End
 
 #O
@@ -206,7 +216,7 @@ ExtF 257
 Cond 0
 Wear 5
 Cost 13700
-Affc 'bless'   1  43  37  -1  20        256
+Affc 'bless'   1  39  30  -1  20        256
 End
 
 #O
@@ -232,7 +242,7 @@ Vnum 2513
 Nest 0
 PrevOwner Crunk~
 ExtF 16779777
-Stolen 14
+Stolen 7
 Cond 0
 Wear -1
 Cost 710
@@ -294,10 +304,10 @@ Cond 0
 Wear -1
 Lev  50
 Cost 20000
-Affc 'enchant weapon'   1  52  -1  10  18          0
-Affc 'enchant weapon'   1  52  -1  10  19          0
-Affc 'reserved'   1  44  -1  -1   2          0
 Affc 'reserved'   1  44  -1  -1   3          0
+Affc 'reserved'   1  44  -1  -1   2          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   1  52  -1  10  18          0
 End
 
 #O
@@ -821,13 +831,13 @@ Enchanted
 Nest 1
 PrevOwner SpiderMonkey~
 ExtF 66
-Stolen 144
+Stolen 137
 Cond 0
 Wear -1
 Lev  35
 Cost 2200
-Affc 'enchant weapon'   1  52  -1   7  19          0
 Affc 'enchant weapon'   1  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
 End
 
 #O
@@ -868,8 +878,8 @@ Wear -1
 Lev  39
 Cost 5000
 Val  0 3 8 26 1028
-Affc 'enchant weapon'   1  53  -1   8  19          0
 Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
 End
 
 #O
@@ -883,8 +893,8 @@ Wear -1
 Lev  27
 Cost 4200
 Val  0 4 4 11 1152
-Affc 'enchant weapon'   1  53  -1   9  19          0
 Affc 'enchant weapon'   1  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
@@ -1049,15 +1059,14 @@ ExtF 536871267
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  53  -1  13  18          0
 Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1  13  18          0
 End
 
 #O
 Vnum 5705
 Nest 0
 PrevOwner Crunk~
-Stolen 4
 Cond 0
 Wear -1
 Cost 0
@@ -1100,7 +1109,7 @@ ExtF 16777473
 Cond 0
 Wear 0
 Cost 0
-Affc 'bless'   1  42  36  -1  20        256
+Affc 'bless'   1  40  29  -1  20        256
 End
 
 #O
@@ -1111,7 +1120,7 @@ ExtF 17301824
 Cond 0
 Wear 4
 Cost 3690
-Affc 'bless'   1  43  36  -1  20        256
+Affc 'bless'   1  42  29  -1  20        256
 End
 
 #O
@@ -1122,7 +1131,7 @@ ExtF 17301824
 Cond 0
 Wear 3
 Cost 3690
-Affc 'bless'   1  43  36  -1  20        256
+Affc 'bless'   1  42  29  -1  20        256
 End
 
 #O
@@ -1133,7 +1142,7 @@ ExtF 17301824
 Cond 0
 Wear 2
 Cost 7609
-Affc 'bless'   1  42  36  -1  20        256
+Affc 'bless'   1  40  29  -1  20        256
 End
 
 #O
@@ -1144,7 +1153,7 @@ ExtF 17301824
 Cond 0
 Wear 1
 Cost 7609
-Affc 'bless'   1  40  36  -1  20        256
+Affc 'bless'   1  39  29  -1  20        256
 End
 
 #O
@@ -1155,7 +1164,7 @@ ExtF 17563904
 Cond 0
 Wear 8
 Cost 4500
-Affc 'bless'   1  43  37  -1  20        256
+Affc 'bless'   1  42  30  -1  20        256
 End
 
 #O
@@ -1166,7 +1175,7 @@ ExtF 262401
 Cond 0
 Wear 9
 Cost 1100
-Affc 'bless'   1  44  37  -1  20        256
+Affc 'bless'   1  41  30  -1  20        256
 End
 
 #O
@@ -1177,7 +1186,7 @@ ExtF 1051425
 Cond 0
 Wear 10
 Cost 6372
-Affc 'bless'   1  43  38  -1  20        256
+Affc 'bless'   1  41  31  -1  20        256
 End
 
 #O
@@ -1215,7 +1224,7 @@ ExtF 257
 Cond 0
 Wear 6
 Cost 4000
-Affc 'bless'   1  43  37  -1  20        256
+Affc 'bless'   1  41  30  -1  20        256
 End
 
 #O
@@ -1233,13 +1242,13 @@ Enchanted
 Nest 0
 PrevOwner SpiderMonkey~
 ExtF 524355
-Stolen 29
+Stolen 22
 Cond 0
 Wear 16
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  52  -1  13  19          0
 Affc 'enchant weapon'   0  52  -1  13  18          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
 End
 
 #O

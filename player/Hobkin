@@ -3,8 +3,8 @@ Name Hobkin~
 SurN Humperdink~
 Id   928604407
 Email (null)~
-LogO 1073928645
-Vers 31
+LogO 1324684177
+Vers 33
 LnD  A Gladiator~
 Desc You're not entirely sure what you're looking at... it looks like a faerie, but
 what's that wierd thing he's carrying? It looks like it's almost 3 times his
@@ -30,6 +30,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Shiva~
 LstKBy Ergun~
 LstAtkedBy no one~
@@ -41,6 +42,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 141294317 mojo~
 DeityT -10239 matook~
 Sac  300
@@ -50,22 +55,22 @@ Node 31603
 Cap 0
 Created 951446513
 Glad 0 0 0 0 0 0
-LastHost d142-179-142-249.abhsia.telus.net~
+LastHost 142.59.143.93~
 Cla  10
 Kit summoner~
 ClaO 10
 Levl 52
 DLevl 0
-Plyd 142562769
-Not  1073866240 1073775791 1061705703 1073771631 1073599016 1073923492 1073688526 1073912665 1061701404 1072496202
+Plyd 142677340
+Not  1323994869 1324522232 1323994869 1324362533 1324536113 1324669410 1324304615 1324227543 1324548413 1324372000
 Scro 22
 Rank 5
 Room 1255
-HMV  5282 5282 5935 5935 816 816
+HMV  5293 5293 5954 5954 832 832
 Gold 2978
 Silv 783
-Exp  336960
-Act  DEFGHJMNQSX
+Exp  343440
+Act  DEFGHJMNQS
 MHSF I
 AfBy DFHJNTVace
 Comm S
@@ -73,44 +78,45 @@ Disp CFHIJN
 IcgB 0
 Icg 0
 Wizn ACFLRS
-Pnet A
+Pnet ABCDGHI
+Inco 52
 Pos  8
-Prac 690
-Trai 109
-SkiP 148
+Prac 695
+Trai 115
+SkiP 157
 Save  -174
 Alig  -45
 Hit   75
 Dam   75
 ACs -712 -712 -712 -712
 Wimp  10
-Attr 18 25 25 25 25 13 13 22
+Attr 18 25 25 25 25 17 8 22
 AMod 20 5 0 20 20 0 0 0
-Pass Ho1Gjt/Gox70I~
+Pass Hop6dZijk72qg~
 Bin  Very suddenly a portal opens before you revealling what could only be described as the biggest knob you've ever seen, you realize of course, this must be Hobkin!~
 Bout Hobkin wiggles his bottom towards you then re-enters the portal, it closes behind him.~
 Titl  is hung like a rockbiter.~
 Pnts 87
 WhoName I'm a Pony!!~
 TSex 1
-LLev 39534
-HMVP 282 935 516
+LLev 39621
+HMVP 293 954 532
 Cnd  0 0 6 6
 Edit ABCEH
 ERange 17800 17899
 Alias trip ord all trip~
 Alias charmy ord all kill~
-Macro recall Transfer %1 3001~
-Macro nt Transfer %1 9506~
-Macro duel goto 16174;transfer %1;transfer %2~
-Macro level at %1 give knob %1; at %1 say That's some nice levellin' there.~
-Macro demise transfer %1 31403~
-Macro honor transfer %1 31501~
-Macro posse transfer %1 31601~
-Macro avarice transfer %1 31702~
-Macro zealot transfer %1 31806~
-Macro warlock transfer %1 31901~
 Macro matook transfer %1 16502~
+Macro warlock transfer %1 31901~
+Macro zealot transfer %1 31806~
+Macro avarice transfer %1 31702~
+Macro posse transfer %1 31601~
+Macro honor transfer %1 31501~
+Macro demise transfer %1 31403~
+Macro level at %1 give knob %1; at %1 say That's some nice levellin' there.~
+Macro duel goto 16174;transfer %1;transfer %2~
+Macro nt Transfer %1 9506~
+Macro recall Transfer %1 3001~
 Sk 100 'reserved'
 Sk 100 'opiate'
 Sk 100 'accuracy'
@@ -343,7 +349,7 @@ Sk 100 'blistering skin'
 Sk 100 'electrocution'
 Sk 100 'animate dead'
 Sk 100 'summon dead'
-Sk 80 'summon elemental'
+Sk 82 'summon elemental'
 OldSk 80 'summon elemental'
 Sk 100 'cryogenesis'
 Sk 100 'draw life'
@@ -495,9 +501,9 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
-ExDe pony~ You'd think this would look something like a horse or something, but instead it appears to be a very well-hung faerie.
-~
 ExDe hobkin~ You'd think this would look something like a horse or something, but instead it appears to be a very well-hung faerie.
+~
+ExDe pony~ You'd think this would look something like a horse or something, but instead it appears to be a very well-hung faerie.
 ~
 End
 
@@ -600,116 +606,6 @@ Cond 0
 Wear -1
 Cost 0
 Spell 3 'haste'
-End
-
-#O
-Vnum 1260
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'haste'
-End
-
-#O
-Vnum 1260
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'haste'
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Tarloc~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Tarloc~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Tarloc~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Tarloc~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Tarloc~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Tarloc~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Tarloc~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Tarloc~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Tarloc~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Tarloc~
-Cond 0
-Wear -1
-Cost 10000
 End
 
 #END

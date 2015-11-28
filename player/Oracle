@@ -3,18 +3,19 @@ Name Oracle~
 SurN Dawn~
 Id   1121199277
 Email (null)~
-LogO 1130284683
-Vers 31
+LogO 1392656946
+Vers 33
 Prom %h %m %v%c> ~
 Race gargoyle~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 Sac  300
 Sex  1
@@ -34,20 +41,20 @@ Node 0
 Cap 0
 Created 1121199296
 Glad 0 0 0 0 0 0
-LastHost nepmu6-fs2.nepmu6.med.navy.mil~
+LastHost 64.71.111.250~
 Cla  4
 ClaO 1
 Levl 19
 DLevl 0
-Plyd 67909
-Not  1123632285 1123619573 0 1121745865 1121859963 1123935818 0 1123630825 0 0
+Plyd 72890
+Not  1348166352 1123619573 0 1121745865 1121859963 1348191796 0 1123630825 0 0
 Scro 22
 Rank 0
-Room 3005
-HMV  216 216 326 326 128 128
-Gold 1301
-Silv 7611
-Exp  208739
+Room 9407
+HMV  216 216 316 316 128 128
+Gold 1317
+Silv 3537
+Exp  209161
 Act  CDEFGHK
 MHSF R
 AfBy DJT
@@ -56,23 +63,24 @@ Disp BFJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 56
-SkiP 13
+Prac 55
+Trai 3
+SkiP 17
 Save  -1
 Alig  -1000
-Hit   5
-Dam   4
-ACs 6 6 6 6
+Hit   6
+Dam   5
+ACs 39 39 39 39
 Wimp  10
-Attr 19 19 20 15 19 13 19 12
-AMod 1 5 4 0 4 0 2 0
+Attr 19 19 20 20 19 11 11 14
+AMod 1 6 5 0 3 0 2 0
 Pass OrV2QN7PuaZTQ~
 Titl .Orcale.Oracle.Oracle.Oracle.Oracle.Oracle.~
 Pnts 100
 TSex 1
 LLev 17
 HMVP 201 311 128
-Cnd  0 0 6 6
+Cnd  0 0 13 5
 Alias / cast 'word of recall'~
 Sk 1 'aid'
 Sk 1 'armor'
@@ -83,7 +91,6 @@ Sk 1 'call lightning'
 Sk 1 'calm'
 Sk 1 'cancellation'
 Sk 1 'change sex'
-Sk 1 'cone of silence'
 Sk 61 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -112,7 +119,7 @@ Sk 1 'earthquake'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
 Sk 1 'energy drain'
-Sk 1 'faerie fire'
+Sk 71 'faerie fire'
 Sk 1 'faerie fog'
 Sk 1 'famine'
 Sk 1 'farsight'
@@ -125,7 +132,7 @@ Sk 1 'fly'
 Sk 1 'forget'
 Sk 1 'frenzy'
 Sk 1 'fumble'
-Sk 1 'gate'
+Sk 71 'gate'
 Sk 1 'giant strength'
 Sk 1 'haste'
 Sk 1 'heal'
@@ -194,15 +201,6 @@ Gr 'weather'
 End
 
 #O
-Vnum 3704
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 11
-Cost 0
-End
-
-#O
 Vnum 2445
 Nest 0
 PrevOwner (null)~
@@ -230,38 +228,11 @@ Cost 1140
 End
 
 #O
-Vnum 3707
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 7
-Cost 72
-End
-
-#O
 Vnum 3708
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 8
-Cost 72
-End
-
-#O
-Vnum 3709
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 9
-Cost 72
-End
-
-#O
-Vnum 3710
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 10
 Cost 72
 End
 
@@ -417,7 +388,7 @@ Nest 0
 PrevOwner Dvalin~
 ExtF 33
 Cond 0
-Wear -1
+Wear 3
 Cost 1140
 End
 
@@ -444,7 +415,7 @@ Vnum 4434
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 3
+Wear -1
 Cost 550
 End
 
@@ -455,11 +426,11 @@ Nest 0
 PrevOwner Oracle~
 ExtF 66
 Cond 0
-Wear -1
+Wear 16
 Lev  12
 Cost 1500
-Affc 'enchant weapon'   1  55  -1   6  18          0
 Affc 'enchant weapon'   1  55  -1   5  19          0
+Affc 'enchant weapon'   1  55  -1   6  18          0
 End
 
 #O
@@ -478,34 +449,7 @@ PrevOwner Nalo~
 Cond 0
 Wear 0
 Cost 640
-Val  0 0 173 0 0
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
+Val  0 0 49 0 0
 End
 
 #O
@@ -666,11 +610,83 @@ Nest 0
 PrevOwner Oracle~
 ExtF 66
 Cond 0
-Wear 16
+Wear -1
 Lev  11
 Cost 1500
-Affc 'enchant weapon'   1  55  -1   5  18          0
 Affc 'enchant weapon'   1  55  -1   4  19          0
+Affc 'enchant weapon'   1  55  -1   5  18          0
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 3110
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1320
+End
+
+#O
+Vnum 3111
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 660
+End
+
+#O
+Vnum 3112
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 7
+Cost 660
+End
+
+#O
+Vnum 3114
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 9
+Cost 660
+End
+
+#O
+Vnum 3115
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 660
+End
+
+#O
+Vnum 3116
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 11
+Cost 1190
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Oracle~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

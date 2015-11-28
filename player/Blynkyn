@@ -2,8 +2,8 @@
 Name Blynkyn~
 Id   929383755
 Email (null)~
-LogO 996525005
-Vers 27
+LogO 1309190290
+Vers 31
 Prom ( %hh %mm %vv %eex %Xtnl )%c~
 Race dwarf~
 Outc 0
@@ -12,13 +12,20 @@ MatookT 0
 Mutant 408
 SkPTimer 0
 SkPTracker 0
-LogoutTracker 2
-Kill 0 0 0
-Steal 0 0 0 0
+LogoutTracker 1
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1309190080
+LstKillDate 1309190080
+LstDeathDate 1309190080
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 mojo~
 Sac  2
 Sex  1
@@ -27,21 +34,22 @@ Node 0
 Cap 0
 Created 952435554
 Glad 0 0 0 0 0 0
-LastHost lclab1.unl.edu~
+LastHost 75.135.235.117~
 Cla  12
 ClaO 1
 Levl 6
 DLevl 0
-Plyd 20558
-Not  0 0 0 0 0 0 0 0 0
+Plyd 20764
+Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3054
-HMV  93 93 154 154 115 115
+HMV  94 94 154 154 115 115
 Gold 75
 Silv 83
 Exp  33771
 Act  CDEFGHQ
+MHSF R
 AfBy J
 Comm DEGIRS
 Disp FIJ
@@ -55,17 +63,17 @@ Alig  1000
 Hit   5
 Dam   1
 SecHit   5
-ACs 49 33 34 76
+ACs 60 41 42 96
 Wimp  18
-Attr 17 12 21 10 21
-AMod 5 -1 1 2 4
-Pass BlmAAUaQAqS2g~
+Attr 20 16 21 16 21 9 13 14
+AMod 5 -1 1 2 4 0 0 0
+Pass BlN/hjfe2c4EY~
 Titl  : I can SEE!~
 Pnts 87
 TSex 1
 LLev 5
 HMVP 85 134 115
-Cnd  0 18 34 22
+Cnd  0 44 46 46
 Sk 20 'aid'
 Sk 20 'armor'
 Sk 1 'bestow holiness'
@@ -75,6 +83,7 @@ Sk 1 'call lightning'
 Sk 1 'calm'
 Sk 1 'cancellation'
 Sk 1 'change sex'
+Sk 1 'cone of silence'
 Sk 20 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -111,9 +120,9 @@ Sk 1 'feast'
 Sk 1 'feeblemind'
 Sk 1 'fireproof'
 Sk 1 'flamestrike'
+Sk 1 'floating disc'
 Sk 1 'fly'
 OldSk 1 'fly'
-Sk 1 'floating disc'
 Sk 1 'forget'
 Sk 1 'frenzy'
 Sk 1 'fumble'
@@ -180,6 +189,7 @@ OldSk 1 'third attack'
 Sk 4 'communion'
 OldSk 8 'fast healing'
 Sk 1 'meditation'
+Sk 1 'sharpen'
 Sk 1 'scrolls'
 OldSk 1 'scrolls'
 Sk 1 'staves'
@@ -201,9 +211,8 @@ Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'armor'   0  37   1 -20  17          0
-Affc 'bless'   0  35  14   5  18          0
-Affc 'bless'   0  35  14  -5  24          0
+Affc 'bless'   0  37  26  -5  24          0
+Affc 'bless'   0  39  26   5  18          0
 End
 
 #O
@@ -375,7 +384,7 @@ Vnum 3074
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 7
 Cost 420
 End
 
@@ -431,7 +440,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 164 0 0
+Val  0 0 159 0 0
 End
 
 #O
@@ -484,7 +493,7 @@ Vnum 5235
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 18
 Cost 11
 End
 

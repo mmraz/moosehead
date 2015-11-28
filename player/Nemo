@@ -3,8 +3,8 @@ Name Nemo~
 SurN Ariath~
 Id   984088099
 Email (null)~
-LogO 1090255007
-Vers 31
+LogO 1325178165
+Vers 33
 LnD  A Gladiator~
 Desc He looks to be about 6 feet tall, maybe a little more... you can't
 see his face due to the dark cloak he wears, the cloak almost seems
@@ -24,75 +24,81 @@ Prom %h %m %v [{W%SS %t:00 {C%g/%s %WW{x]{{%r {C%e{x} ~
 Race elf~
 Clan honor~
 Outc 0
-RufT 67
+RufT 85
 MatookT 0
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
-Kill 19 119 0 107
+Kill 19 120 0 109
 Steal 61 42730 0
-LstK Polg~
-LstKBy Costello~
+MSteal 0
+LstK Maxi~
+LstKBy Borb~
 LstAtkedBy Jacob~
-LstAtkedByTimer 9462
-LstCombatDate 1090253196
-LstKillDate 1085280913
-LstDeathDate 1085329686
-LoginsWOKill 19
-LoginsWODeath 18
-LoginsWOCombat 0
+LstAtkedByTimer 8442
+LstCombatDate 1310074839
+LstKillDate 1308005423
+LstDeathDate 1310074843
+LoginsWOKill 7
+LoginsWODeath 3
+LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 486229 huitzilopochtli~
 DeityT -40530 huitzilopochtli~
 Sac  300
 Sex  1
-Vump  2
+Vump  0
 Node 0
 Cap 0
 Created 984088106
 Glad 3 14 0 0 13 0
-LastHost 209.89.13.197~
+LastHost 41.55.44.206~
 Cla  4
 Kit prophet~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 3703565
-Not  1090251817 1090251817 1090251817 1090251817 1090251817 1090251817 1090251817 1090251817 1090251817 1090251817
+Plyd 3744835
+Not  1310600095 1310600095 1310600095 1310600095 1310600095 1310600316 1310600095 1310600095 1310600095 1310600095
 Scro 22
 Rank 3
-Room 31520
-HMV  1099 1099 835 867 393 393
-Gold 351
-Silv 9310
+Room 31501
+HMV  1244 1244 867 867 393 393
+Gold 1070
+Silv 11366
 Exp  457111
 Act  CDEFGHIMQS
 MHSF RST
-AfBy CHJV
+AfBy CDEFHJNTVZe
 Comm IS
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-SkiP 166
-Save  -17
+Prac 21
+SkiP 86
+Save  -16
 Alig  -1000
-Hit   36
-Dam   37
+Hit   45
+Dam   53
 SecHit   36
-SecDam   37
-ACs -79 -79 -79 -79
+SecDam   40
+ACs -139 -139 -139 -139
 Wimp  20
-Attr 15 20 19 17 16 16 16 17
-AMod 2 3 2 6 2 0 0 0
-Pass Neo2DeDyTeehI~
+Attr 15 20 19 17 16 11 12 17
+AMod 6 0 -1 9 2 0 0 0
+Pass NeHtNlIKh205g~
 Titl  - Favored of Huitzilopochtli~
 Pnts 100
 TSex 1
 LLev 1
-HMVP 1009 779 393
-Cnd  0 31 33 33
+HMVP 1099 779 393
+Cnd  0 1 10 10
 Alias dd c 'dispel magic'~
 Alias tt c teleport self~
 Alias cc c 'cure crit~
@@ -115,6 +121,7 @@ Sk 1 'change sex'
 Sk 97 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 88 'continual light'
 Sk 77 'control weather'
 Sk 1 'create food'
@@ -148,7 +155,7 @@ Sk 100 'entrance'
 Sk 95 'faerie fire'
 Sk 100 'faerie fog'
 Sk 100 'famine'
-Sk 75 'farsight'
+Sk 81 'farsight'
 Sk 100 'feast'
 Sk 1 'feeblemind'
 Sk 88 'fireball'
@@ -273,16 +280,24 @@ Gr 'pyrotechnics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'sanctuary'   0  49   1   0   0        128
-Affc 'frenzy'   0  51   1  40  17          0
-Affc 'frenzy'   0  51   1   8  19          0
-Affc 'frenzy'   0  48   1   8  18          0
-Affc 'imbue'   0  48   9   0   0          0
-Affc 'orb of awakening'   0  45   2   0   0          0
-Affc 'haste'   0  45   0   4   2    2097152
-Affc 'shield'   0  39   2 -20  17          0
-Affc 'bless'   0  41   1  -6  24          0
-Affc 'bless'   0  37   1   6  18          0
+Affc 'withstand death'   0  51   4   0   0 1073741824
+Affc 'haste'   0  46   3   4   2    2097152
+Affc 'giant strength'   0  45  25   4   1          0
+Affc 'stone skin'   0  49  25 -40  17          0
+Affc 'shield'   0  52  33 -20  17          0
+Affc 'armor'   0  48   9 -20  17          0
+Affc 'bless'   0  49  31  -6  24          0
+Affc 'bless'   0  47  31   6  18          0
+Affc 'detect hidden'   0  45  25   0   0         32
+Affc 'detect magic'   0  44  26   0   0         16
+Affc 'detect invis'   0  40   8   0   0          8
+Affc 'sanctuary'   0  53   0   0   0        128
+Affc 'frenzy'   0  50   9   8  18          0
+Affc 'frenzy'   0  49   9   8  19          0
+Affc 'frenzy'   0  51   9  40  17          0
+Affc 'imbue'   0  52  13   0   0          0
+Affc 'protection evil'   0  51  22  -1  24       8192
+Affc 'body weaponry'   0  53  22   0   0   33554432
 End
 
 #O
@@ -304,39 +319,6 @@ Cond 0
 Wear 6
 Cost 4000
 Val  7 7 7 4 0
-End
-
-#O
-Vnum 5913
-Enchanted
-Nest 0
-PrevOwner Nemo~
-ExtF 134217728
-Wt   100
-Cond 0
-Wear 7
-Cost 2000
-Val  7 7 7 4 0
-Affc 'reserved'   1  39  -1  -2  20          0
-Affc 'reserved'   1  39  -1   2  19          0
-End
-
-#O
-Vnum 12080
-Nest 0
-PrevOwner Nemo~
-Cond 0
-Wear 8
-Cost 4500
-End
-
-#O
-Vnum 22504
-Nest 0
-PrevOwner Nemo~
-Cond 0
-Wear 0
-Cost 0
 End
 
 #O
@@ -421,7 +403,7 @@ End
 #O
 Vnum 15227
 Nest 0
-PrevOwner Costello~
+PrevOwner Nemo~
 ExtF 16777281
 Cond 0
 Wear 12
@@ -429,21 +411,30 @@ Cost 20000
 End
 
 #O
-Vnum 2513
+Vnum 20727
 Nest 0
-PrevOwner (null)~
+PrevOwner Nemo~
 Cond 0
-Wear 4
-Cost 710
+Wear 13
+Cost 5500
 End
 
 #O
 Vnum 18105
-Nest 1
+Nest 0
 PrevOwner Nemo~
 Cond 0
-Wear -1
+Wear 11
 Cost 4500
+End
+
+#O
+Vnum 2513
+Nest 0
+PrevOwner Borb~
+Cond 0
+Wear 4
+Cost 710
 End
 
 #O
@@ -465,7 +456,7 @@ Cost 0
 End
 
 #O
-Vnum 11146
+Vnum 31922
 Nest 1
 PrevOwner Nemo~
 Cond 0
@@ -474,85 +465,169 @@ Cost 0
 End
 
 #O
-Vnum 18150
+Vnum 8503
 Nest 1
 PrevOwner Nemo~
 Cond 0
 Wear -1
-Cost 0
+Cost 5000
 End
 
 #O
-Vnum 11145
+Vnum 5913
+Enchanted
+Nest 1
+PrevOwner Nemo~
+ExtF 134217728
+Wt   100
+Cond 0
+Wear -1
+Cost 2000
+Val  7 7 7 4 0
+Affc 'reserved'   1  39  -1  -2  20          0
+Affc 'reserved'   1  39  -1   2  19          0
+End
+
+#O
+Vnum 3377
 Nest 1
 PrevOwner Nemo~
 Cond 0
 Wear -1
-Cost 4500
+Cost 10000
 End
 
 #O
-Vnum 18106
+Vnum 2444
 Nest 1
 PrevOwner Nemo~
 Cond 0
 Wear -1
-Cost 4500
+Cost 968
 End
 
 #O
-Vnum 18105
-Nest 0
-PrevOwner Tholin~
+Vnum 10320
+Nest 1
+PrevOwner Nemo~
 Cond 0
-Wear 11
-Cost 4500
-End
-
-#O
-Vnum 20727
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 13
-Cost 5500
-End
-
-#O
-Vnum 12010
-Nest 0
-PrevOwner (null)~
-ExtF 1196065
-Cond 0
-Wear 18
-Cost 15000
+Wear -1
+Cost 9500
 End
 
 #O
 Vnum 20808
-Nest 0
-PrevOwner Nemo~
+Nest 1
+PrevOwner Borb~
 Cond 0
-Wear 16
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 10027
+Nest 1
+PrevOwner Borb~
+Cond 0
+Wear -1
 Cost 1000
 End
 
 #O
 Vnum 31923
-Nest 0
-PrevOwner (null)~
+Nest 1
+PrevOwner Borb~
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 31922
-Nest 0
-PrevOwner (null)~
+Vnum 3351
+Nest 1
+PrevOwner Borb~
+Cond 0
+Wear -1
+Cost 590
+End
+
+#O
+Vnum 18150
+Nest 1
+PrevOwner Borb~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 11146
+Nest 1
+PrevOwner Borb~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Nemo~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner Borb~
+Cond 0
+Wear 7
+Cost 0
+End
+
+#O
+Vnum 12080
+Nest 0
+PrevOwner Mitch~
+Cond 0
+Wear 8
+Cost 4500
+End
+
+#O
+Vnum 11145
+Nest 0
+PrevOwner Borb~
+Cond 0
+Wear 18
+Cost 4500
+End
+
+#O
+Vnum 22504
+Nest 0
+PrevOwner Gbleh~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 0
+PrevOwner Nemo~
+ExtF 67
+Cond 0
+Wear 16
+Lev  50
+Cost 6500
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
+Affc 'enchant weapon'   0  52  -1   9  18          0
 End
 
 #END

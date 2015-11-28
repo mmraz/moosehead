@@ -3,8 +3,8 @@ Name Keail~
 SurN Stormrider~
 Id   1024748564
 Email (null)~
-LogO 1030047380
-Vers 31
+LogO 1328882770
+Vers 33
 Prom <{Y%e{x> %c<{W%h{x HP {W%m{x M {W%v {xMV {G%X {xXP ~
 Race gargoyle~
 Outc 0
@@ -15,6 +15,7 @@ SkPTracker 3
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -60 matook~
 Sac  600
@@ -35,21 +40,22 @@ Node 0
 Cap 0
 Created 1024748584
 Glad 0 0 0 0 0 0
-LastHost host213-122-190-237.in-addr.btopenworld.com~
+LastHost 94.9.147.199~
 Cla  5
 ClaO 3
 Levl 3
 DLevl 0
-Plyd 2451
+Plyd 2456
 Not  0 0 0 1023152822 1024084610 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3054
-HMV  48 64 104 108 157 204
+HMV  64 54 108 108 204 104
 Gold 21
 Silv 46
 Exp  31899
 Act  CDFGHKQ
+MHSF R
 AfBy DHJTV
 Comm DGIR
 Disp FIJN
@@ -60,18 +66,16 @@ Prac 9
 SkiP 4
 Save  -6
 Alig  0
-Hit   7
-Dam   1
+Hit   6
 SecHit   6
-SecDam   1
-ACs 49 47 47 58
+ACs 60 60 60 60
 Attr 20 19 13 12 19 11 11 10
-AMod 7 1 4 6 2 0 0 0
+AMod 4 0 0 4 0 0 0 0
 Pass Kekj2f80mT.Js~
 Titl  the confused~
 Pnts 99
 TSex 1
-LLev 0
+LLev 1
 HMVP 54 108 104
 Cnd  0 48 48 48
 Alias k kill~
@@ -146,13 +150,13 @@ Gr 'healing'
 Gr 'piety'
 Gr 'protective'
 Gr 'transportation'
-Affc 'haste'   0  53   9   4   2    2097152
-Affc 'sanctuary'   0  55   1   0   0        128
-Affc 'giant strength'   0  51  35   4   1          0
-Affc 'shield'   0  49  44 -20  17          0
-Affc 'bless'   0  50  42  -6  24          0
-Affc 'bless'   0  49  42   6  18          0
 Affc 'armor'   0  51  18 -20  17          0
+Affc 'bless'   0  49  42   6  18          0
+Affc 'bless'   0  50  42  -6  24          0
+Affc 'shield'   0  49  44 -20  17          0
+Affc 'giant strength'   0  51  35   4   1          0
+Affc 'sanctuary'   0  55   1   0   0        128
+Affc 'haste'   0  53   9   4   2    2097152
 End
 
 #O
@@ -179,7 +183,7 @@ Vnum 3704
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 11
+Wear -1
 Cost 0
 End
 
@@ -198,7 +202,7 @@ Vnum 3707
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 7
+Wear -1
 Cost 72
 End
 
@@ -207,7 +211,7 @@ Vnum 3705
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 4
+Wear -1
 Cost 72
 End
 
@@ -225,7 +229,7 @@ Vnum 3726
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 End
 
@@ -234,7 +238,7 @@ Vnum 3709
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 9
+Wear -1
 Cost 72
 End
 
@@ -243,7 +247,7 @@ Vnum 3710
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 10
+Wear -1
 Cost 72
 End
 
@@ -252,7 +256,7 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 15
+Wear -1
 Cost 48
 End
 
@@ -261,7 +265,7 @@ Vnum 4440
 Nest 0
 PrevOwner Om~
 Cond 0
-Wear 13
+Wear -1
 Cost 0
 End
 
@@ -270,7 +274,7 @@ Vnum 4439
 Nest 0
 PrevOwner Om~
 Cond 0
-Wear 18
+Wear -1
 Cost 0
 End
 
@@ -306,7 +310,7 @@ Vnum 5740
 Nest 0
 PrevOwner Om~
 Cond 0
-Wear 0
+Wear -1
 Cost 980
 End
 
@@ -326,7 +330,7 @@ PrevOwner Om~
 ExtF 134217728
 Wt   33
 Cond 0
-Wear 8
+Wear -1
 Cost 0
 Val  2 2 2 2 3
 End
@@ -336,7 +340,7 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 48
 End
 
@@ -345,7 +349,7 @@ Vnum 3715
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 1140
 End
 
@@ -435,7 +439,7 @@ Vnum 3702
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 16
+Wear -1
 Cost 360
 End
 
@@ -453,7 +457,7 @@ Vnum 4438
 Nest 0
 PrevOwner Keail~
 Cond 0
-Wear 5
+Wear -1
 Cost 0
 End
 
@@ -480,7 +484,7 @@ Vnum 20405
 Nest 0
 PrevOwner Keail~
 Cond 0
-Wear 6
+Wear -1
 Cost 125
 End
 
@@ -489,7 +493,7 @@ Vnum 8309
 Nest 0
 PrevOwner Om~
 Cond 0
-Wear 3
+Wear -1
 Cost 100
 End
 

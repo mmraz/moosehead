@@ -3,19 +3,20 @@ Name Hassam~
 SurN Akeem~
 Id   1087405700
 Email (null)~
-LogO 1088967085
-Vers 31
-Prom (%hhp %mmp %vmv %X) ~
+LogO 1355893781
+Vers 33
+Prom (%hhp %mmp %vmv %g{Ygold{x %s{Bsilver{x %wlbs %X) ~
 Race kender~
 Clan loner~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 1
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy Rockee~
 LstAtkedBy no one~
@@ -23,63 +24,67 @@ LstAtkedByTimer 0
 LstCombatDate 1087758806
 LstKillDate 1087405700
 LstDeathDate 1087854001
-LoginsWOKill 5
-LoginsWODeath 3
-LoginsWOCombat 4
+LoginsWOKill 6
+LoginsWODeath 4
+LoginsWOCombat 5
 Bnty 0
-Deity 0 hermes~
-Sac  300
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+Deity 0 matook~
+Sac  182
 Sex  0
 Vump  0
 Node 0
 Cap 0
 Created 1087405730
 Glad 0 0 0 0 0 0
-LastHost 68-20-177-114.dsl.chcgil.ameritech.net~
+LastHost 98.193.65.211~
 Cla  13
 ClaO 2
 Levl 26
 DLevl 0
-Plyd 33541
+Plyd 34699
 Not  1088965066 1088965066 1088965066 1088965066 1088965066 1088965066 1088965066 1088965066 1088965066 1088965066
 Scro 22
 Rank 0
-Room 8531
-HMV  254 318 240 240 328 328
-Gold 177
-Silv 7445
-Exp  120647
+Room 3029
+HMV  235 508 240 240 328 328
+Gold 275
+Silv 0
+Exp  121159
 Act  CDEFGHKQ
 MHSF R
-AfBy DEFP
+AfBy Q
 Comm GIRST
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet BCDEFGHI
-Pos  4
-Prac 65
-Trai 1
-SkiP 16
-Save  -5
+Pos  8
+Prac 62
+StatsTrained 190 0 0
+SkiP 23
 Alig  -1000
-Hit   18
-Dam   11
-SecHit   13
-SecDam   6
-ACs 17 17 17 34
+Hit   15
+Dam   17
+SecHit   10
+SecDam   12
+ACs -3 -3 -3 14
 Wimp  10
-Attr 18 17 17 21 17 25 19 18
-AMod 0 4 5 4 4 0 2 0
+Attr 18 17 17 21 17 15 11 18
+AMod 0 4 5 4 2 0 2 0
 Pass HaAiAMh1wT1DU~
 Titl  Abdul Jafaar Ali.~
 Pnts 83
 TSex 1
 LLev 9
-HMVP 303 220 328
-Cnd  0 28 6 36
+HMVP 493 220 328
+Cnd  0 0 13 8
 Alias k murder~
 Alias maxstat say My max stats are Int: 17/21, Wis, 17/21~
+Alias bs backstab~
 Sk 1 'detect evil'
 Sk 1 'detect good'
 Sk 1 'detect hidden'
@@ -108,10 +113,10 @@ Sk 1 'dirt kicking'
 Sk 1 'disarm'
 Sk 31 'dodge'
 Sk 1 'infiltrate'
-Sk 1 'parry'
-Sk 1 'trip'
+Sk 10 'parry'
+Sk 14 'trip'
 Sk 55 'scan'
-Sk 1 'second attack'
+Sk 12 'second attack'
 Sk 1 'haggle'
 Sk 83 'hide'
 Sk 1 'peek'
@@ -129,14 +134,8 @@ Gr 'thief basics'
 Gr 'rogue default'
 Gr 'detection'
 Gr 'transportation'
-Affc 'detect hidden'   0   9   2   0   0         32
-Affc 'detect magic'   0   8   2   0   0         16
-Affc 'detect invis'   0   8   2   0   0          8
-Affc 'sneak'   0  22  11   0   0      32768
-Affc 'armor'   0  36   1 -20  17          0
-Affc 'bless'   0  35  16  -5  24          0
-Affc 'bless'   0  41  16   5  18          0
-Affc 'change sex'   0  25  30  -1   6          0
+Affc 'stone skin'   0  31  19 -40  17          0
+Affc 'change sex'   0  21   4  -1   6          0
 End
 
 #O
@@ -212,15 +211,6 @@ Cost 1500
 End
 
 #O
-Vnum 8048
-Nest 0
-PrevOwner Hassam~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
 Vnum 8046
 Nest 0
 PrevOwner Hassam~
@@ -236,24 +226,6 @@ PrevOwner Hassam~
 Cond 0
 Wear 11
 Cost 2000
-End
-
-#O
-Vnum 4433
-Nest 0
-PrevOwner Hassam~
-Cond 0
-Wear 15
-Cost 550
-End
-
-#O
-Vnum 4433
-Nest 0
-PrevOwner Hassam~
-Cond 0
-Wear 14
-Cost 550
 End
 
 #O
@@ -285,8 +257,8 @@ Cond 0
 Wear 16
 Lev  16
 Cost 590
-Affc 'enchant weapon'   1  50  -1   5  18          0
 Affc 'enchant weapon'   1  50  -1   5  19          0
+Affc 'enchant weapon'   1  50  -1   5  18          0
 End
 
 #O
@@ -296,15 +268,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 3000
-End
-
-#O
-Vnum 8509
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -473,15 +436,6 @@ Cost 0
 End
 
 #O
-Vnum 17606
-Nest 1
-PrevOwner Hassam~
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
 Vnum 12007
 Nest 1
 PrevOwner Hassam~
@@ -506,24 +460,6 @@ PrevOwner Hassam~
 Cond 0
 Wear -1
 Cost 750
-End
-
-#O
-Vnum 2505
-Nest 1
-PrevOwner Hassam~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 2505
-Nest 1
-PrevOwner Hassam~
-Cond 0
-Wear -1
-Cost 1150
 End
 
 #O
@@ -630,6 +566,151 @@ Cost 1500
 End
 
 #O
+Vnum 8509
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 20405
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 125
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8508
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 1300
+End
+
+#O
+Vnum 8522
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 8509
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8048
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 17606
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 1
+PrevOwner Hassam~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
 Vnum 13206
 Nest 0
 PrevOwner Hassam~
@@ -675,99 +756,12 @@ Cost 2000
 End
 
 #O
-Vnum 3000
-Nest 0
-PrevOwner Hassam~
-Cond 0
-Wear -1
-Cost 75
-Val  300 236 0 0 0
-End
-
-#O
-Vnum 8060
-Nest 0
-PrevOwner Hassam~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'sleep'
-End
-
-#O
-Vnum 3292
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 8504
-Nest 0
-PrevOwner Hassam~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8522
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 8508
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1300
-End
-
-#O
 Vnum 17631
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 250
-End
-
-#O
-Vnum 8058
-Nest 0
-PrevOwner Hassam~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'burning hands'
-End
-
-#O
-Vnum 20405
-Nest 0
-PrevOwner Hassam~
-Cond 0
-Wear -1
-Cost 125
-End
-
-#O
-Vnum 4433
-Nest 0
-PrevOwner Hassam~
-Cond 0
-Wear -1
-Cost 550
 End
 
 #O
@@ -780,12 +774,31 @@ Cost 1140
 End
 
 #O
-Vnum 3009
+Vnum 2505
+Nest 0
+PrevOwner Hassam~
+Cond 0
+Wear 15
+Cost 1150
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner Hassam~
+Cond 0
+Wear 14
+Cost 1150
+End
+
+#O
+Vnum 3000
 Nest 0
 PrevOwner Hassam~
 Cond 0
 Wear -1
-Cost 22
+Cost 75
+Val  300 204 0 0 0
 End
 
 #END

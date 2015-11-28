@@ -3,22 +3,23 @@ Name Vanguard~
 SurN ElTanko~
 Id   1011424082
 Email (null)~
-LogO 1120804219
-Vers 31
+LogO 1403907953
+Vers 33
 LnD  A Gladiator~
 Desc He sees nothing special about you.
 ~
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+Prom %e %t %g:GP %s:SP %w%c%h/%H:HP %m/%M:MP %v/%V:MV % ~
 Race giant~
 Clan matook~
 Outc 0
 RufT 0
-MatookT 485
+MatookT 888
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -30,6 +31,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 53795 matook~
 DeityT -3289 matook~
 Sac  300
@@ -39,53 +46,56 @@ Node 0
 Cap 0
 Created 1011424087
 Glad 1 3 0 1 4 1
-LastHost 65.28.180.108~
+LastHost 50.65.43.6~
 Cla  3
 Kit ranger~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 255495
-Not  1113445820 1113445820 1113445820 1113445820 1113445820 1113445820 1113445820 1113445820 1113445820 1113445820
+Plyd 271935
+Not  1312227931 1312227931 1312227931 1312227931 1312227931 1312227931 1312227931 1312227931 1312227931 1312227931
 Scro 22
 Rank 0
-Room 16503
-HMV  1645 1645 223 460 150 430
-Gold 9355
-Silv 4461
+Room 1221
+HMV  1645 1645 460 460 430 430
+Gold 4296
+Silv 554
 Exp  278495
-Act  CDGIK
+Act  CDEGIK
 MHSF R
-AfBy DFV
+AfBy DFT
 Comm G
-Disp FIJN
+Disp BFIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  5
-Prac 52
-SkiP 10
+Pos  8
+Prac 58
+SkiP 20
 Save  -12
 Alig  -1000
-Hit   35
-Dam   48
-SecHit   37
-SecDam   51
-ACs 52 58 52 73
+Hit   26
+Dam   38
+SecHit   31
+SecDam   45
+ACs -38 -32 -38 -17
 Wimp  10
-Attr 25 15 18 16 22 13 13 13
-AMod 5 0 -1 5 2 0 0 0
-Pass Vah.aE.cK6vJ6~
+Attr 25 15 18 16 22 9 13 17
+AMod 5 0 -1 1 2 0 0 0
+Pass VaCzPYm2/uSMQ~
 Titl  ask politely and ye shall receive!~
 Pnts 86
 TSex 1
 LLev 23
 HMVP 1365 385 430
-Cnd  0 24 42 36
+Cnd  0 0 14 0
 Alias 1 put all back~
 Alias qq scan~
 Alias f c famine~
 Alias hi murder~
+Alias b bleed~
+Alias z bleed~
+Alias k murder~
 SpecEn 2
 Spz 'flail'
 Sk 1 'aid'
@@ -100,10 +110,10 @@ Sk 67 'cure disease'
 Sk 68 'cure light'
 Sk 69 'cure poison'
 Sk 70 'cure serious'
-Sk 1 'dispel magic'
+Sk 75 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
-Sk 74 'entrance'
+Sk 75 'entrance'
 Sk 100 'famine'
 Sk 77 'feast'
 Sk 67 'fireproof'
@@ -121,17 +131,17 @@ Sk 1 'nexus'
 Sk 69 'pass door'
 Sk 1 'portal'
 Sk 72 'protection evil'
-Sk 72 'protection good'
+Sk 74 'protection good'
 Sk 61 'protection neutral'
-Sk 72 'refresh'
+Sk 74 'refresh'
 Sk 79 'remove curse'
 Sk 1 'sacred guardian'
 Sk 99 'sanctuary'
 Sk 67 'shield'
 Sk 67 'stone skin'
-Sk 76 'summon'
+Sk 78 'summon'
 Sk 81 'teleport'
-Sk 78 'word of recall'
+Sk 79 'word of recall'
 Sk 92 'axe'
 Sk 75 'dagger'
 Sk 100 'flail'
@@ -156,7 +166,7 @@ Sk 98 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
 Sk 100 'fast healing'
-Sk 96 'riding'
+Sk 98 'riding'
 Sk 78 'scrolls'
 Sk 1 'staves'
 Sk 31 'wands'
@@ -173,13 +183,11 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'frenzy'   0  39   3  30  17          0
-Affc 'frenzy'   0  38   3   6  19          0
-Affc 'frenzy'   0  38   3   6  18          0
-Affc 'haste'   0  36   0   4   2    2097152
-Affc 'giant strength'   0  30   3   4   1          0
-Affc 'bless'   0  29   8  -5  24          0
-Affc 'bless'   0  33   8   5  18          0
+Affc 'stone skin'   0  33   8 -40  17          0
+Affc 'shield'   0  37  16 -20  17          0
+Affc 'bless'   0  35  13  -5  24          0
+Affc 'bless'   0  32  13   5  18          0
+Affc 'giant strength'   0  35   3   4   1          0
 End
 
 #O
@@ -236,15 +244,6 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 15
-Cost 9999
-End
-
-#O
-Vnum 8544
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 14
 Cost 9999
 End
 
@@ -372,7 +371,7 @@ PrevOwner Vanguard~
 Cond 0
 Wear -1
 Cost 1000
-Val  5 3 2 76 0
+Val  5 3 2 79 0
 Spell 3 'earthquake'
 End
 
@@ -458,16 +457,6 @@ Cost 500000
 End
 
 #O
-Vnum 3005
-Nest 1
-PrevOwner Vanguard~
-ExtF 536871170
-Cond 0
-Wear -1
-Cost 5600
-End
-
-#O
 Vnum 15227
 Nest 1
 PrevOwner Vanguard~
@@ -486,15 +475,6 @@ Cost 100000
 End
 
 #O
-Vnum 10710
-Nest 1
-PrevOwner Vanguard~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
 Vnum 2419
 Nest 1
 PrevOwner Vanguard~
@@ -505,12 +485,30 @@ Val  8 3 13 6 768
 End
 
 #O
-Vnum 18106
+Vnum 10710
+Nest 1
+PrevOwner Vanguard~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 18105
 Nest 1
 PrevOwner Vanguard~
 Cond 0
 Wear -1
 Cost 4500
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Vanguard~
+Cond 0
+Wear -1
+Cost 500000
 End
 
 #O
@@ -524,16 +522,6 @@ Val  50 1 0 5 100
 End
 
 #O
-Vnum 18410
-Nest 1
-PrevOwner Vanguard~
-Cond 0
-Wear -1
-Cost 0
-Val  1 1 0 0 0
-End
-
-#O
 Vnum 2405
 Nest 0
 PrevOwner (null)~
@@ -541,15 +529,6 @@ ExtF 17694977
 Cond 0
 Wear 17
 Cost 1000
-End
-
-#O
-Vnum 18105
-Nest 0
-PrevOwner Vanguard~
-Cond 0
-Wear -1
-Cost 4500
 End
 
 #O
@@ -580,21 +559,61 @@ Cost 0
 End
 
 #O
-Vnum 12014
-Enchanted
+Vnum 18410
 Nest 0
 PrevOwner Vanguard~
-Name vanguard jiunt barshing stick~
-ShD  A Jiunt Barshing Stick~
-Desc Vanguard's Jiunt barshing stick is here, waiting to barsh some heads.~
-ExtF 322
-Stolen 478
 Cond 0
-Wear 16
+Wear -1
 Cost 0
-Val  6 2 20 7 1313
-Affc 'enchant weapon'   0  52  -1   7  18          0
-Affc 'enchant weapon'   1  52  -1   7  19          0
+Val  1 0 13 0 0
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 16700
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8544
+Nest 0
+PrevOwner Groag~
+Cond 0
+Wear 14
+Cost 9999
 End
 
 #O
@@ -610,10 +629,117 @@ Cond 0
 Wear 19
 Lev  50
 Cost 6500
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'reserved'   1  49  -1   0   0          0
 Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 10402
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2100
+End
+
+#O
+Vnum 10403
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6300
+End
+
+#O
+Vnum 18106
+Nest 0
+PrevOwner Vanguard~
+Cond 0
+Wear 16
+Cost 4500
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
 End
 
 #END

@@ -1,0 +1,594 @@
+#AREA
+../newareas/mythorn.are~
+Ancient University~
+{ U/C } Mythorn Ancient University~
+22500 22525
+
+#MOBILES
+#22500
+huge killer tomato~
+A huge killer tomato~
+A gigantic red vegetable growls at you menacingly
+~
+A massive tomato stands here, with evil-looking eyes, and yellowed teeth
+Wait, there's red on those teeth, and it's not tomato juice!
+~
+unique~
+AT 0 -600 0
+8 3 5d5+500 4d20+10 10d10+0 thwack
+2 2 2 8
+F 0 0 G
+stand stand none 0
+AHMc ABCDEF medium 0
+#0
+
+#OBJECTS
+#22500
+canister gas~
+Mythorn's laughing gas~
+A canister of NO2 is lying in the corner~
+crystal~
+potion Y A
+18 'cure critical' 'fly' 'refresh' ''
+0 20 20 P
+E
+gas~
+Quaff this for a jolt of levity
+~
+#22501
+card birthday mythorn~
+a birthday card for Mythorn~
+a Card with a prize on it~
+~
+trash RT AO
+0 0 0 0 0
+0 0 1 P
+#22502
+rubber chicken stretch~
+a rubber chicken named 'Stretch'~
+You see a pile of deformed plastic on the ground~
+~
+weapon H AN
+whip 30 15 peck ABCDEFGHI
+54 100 50 P
+A
+19 75
+A
+18 75
+#22503
+smoke ring~
+a smoke ring~
+A smoke ring floats above you.~
+~
+armor S AE
+300 300 300 300 15
+54 100 50 P
+A
+20 -50
+A
+17 -50
+E
+~
+me
+~
+#22504
+portal university~
+Portal to the University~
+A portal to the University is glimmering here.~
+~
+portal DO 0
+0 0 0 22503 0
+0 50 0 P
+#22505
+bed~
+a large satin-covered bed~
+~
+~
+furniture I 0
+2 0 ABHK 200 200
+0 0 0 P
+E
+large satin-covered bed~
+The sheets are of a deep blue satin, with deep purple comforters. 
+The four posts are painted in blue and purple to match the couch.
+~
+#22506
+stream pool waterfall~
+a pool at the base of the waterfall~
+A small pool burbles merrily at the base of the waterfall.~
+water~
+fountain OTY 0
+0 0 'water' 0 0
+0 1 10 P
+#22507
+test basket~
+A test basket~
+A test basket lies here.~
+7~
+container 0 A
+400 AC 0 100 25
+55 100 0 P
+#22508
+fur rug shaggy~
+a shaggy fur rug~
+A shaggy fur rug lies on the floor, in front of the fire.~
+fur~
+furniture OTY 0
+2 0 BEHK 500 500
+0 100 0 P
+E
+rug~
+It looks very comfortable.
+~
+E
+large shaggy brown rug mat~
+A large, brown rug made of some large beast is stretched out here,
+giving the room a finishing touch of coziness.  Despite being constantly
+underfoot from all who walk in here, it looks clean!  Could it be that
+Palibar actually tidies up his room now and then??
+~
+E
+large shaggy mat rug~
+A large, brown rug made of some large beast is stretched out here,
+give the room a finishing touch of coziness.  Despite being constantly
+underfoot from all who walk in, it looks clean!  Could it be that Palibar
+actually tidies up his room now and then??
+~
+#22509
+test basket~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#22510
+liquor cabinet~
+a liquor cabinet~
+A liquor cabinet is here, brimming with alcohol~
+wood~
+container I A
+50 AC 0 10 100
+0 0 0 P
+E
+cabinet liquor~
+This cabinet possesses the marvellous magical ability to maintain
+exactly the temperature that the object was when placed inside. 
+Hence the ice is frozen, but the red wine is room temperature.
+~
+#0
+
+#ROOMS
+#22500
+Mythorn's Command Centre~
+You stand in the Central Command Station of Mythorn's domain. With
+you in the room are several dozen aides and advisors. They all seem
+to be running back and forth between various stations and a desk situated
+in the corner of the room in such a way that everything in the room can
+be taken in at a glance.
+The desk itself is a marvel of magic and technology, with more features
+than anyone can possibly use in one lifetime. Fortunately, the owner is
+immortal so his money was not wasted.
+~
+0 CKNS 0
+H 500 M 500
+E
+desk~
+The desk is made of a curious combination of mahogany, oak and finely
+tempered steel. Imbedded within it are numerous screens and readouts,
+detailing what is going on in the world. There are so many buttons you
+could never hope to press them all. Within the drawers are files on
+every person in the SLED, and what Mythorn knows about them.
+~
+S
+#22501
+A gorgeous waterfall~
+A lovely waterfall is here, sparkling drops glistening in the sunlight.
+Between the trees, you can see a small mountain lake, and the glint of
+snow from the peaks of the mountains are all around you.  You spy a quick
+glimpse of a deer drinking in a small pool downstream.
+~
+0 CJPTU 0
+O mythorn~
+S
+#22502
+South Campus Gate~
+This is the southern entrance to the old University. Scattered amongst
+the vegetation you can see bones and the odd piece of rusted metal, form
+and function now forgotten. Through the trees you can see buildings
+crumbling into themselves, covered in vegetation. The remains of a road
+lead northward, past a gate, and you can leave to the south.
+~
+0 C 3
+D0
+Exit ~
+gate~
+0 0 22503
+E
+bones~
+The bones have been bleached white by several decades in the sun. You
+notice tooth marks on many of them.
+~
+E
+gate~
+The gate is just a plain iron gate that has been rusting for the last
+century or so.
+~
+S
+#22503
+South Campus~
+This is the southern end of the Campus. To the south you can see the gate
+leading out. West and east you see nothing but vegetation. Just ahead of 
+to the north you see a medium-sized building that seems to be reasonably
+intact. Stairs lead up to its archway.
+~
+0 P 3
+D0
+Exit ~
+door~
+0 0 22504
+D1
+Exit ~
+door~
+0 0 22519
+D2
+Exit ~
+gate~
+0 0 22502
+D3
+Exit ~
+door~
+0 0 22505
+E
+stairs~
+Although covered with vegetation, you think you can make your way up
+them.
+~
+E
+gate~
+The gate is just a plain iron gate, rather rusted.
+~
+S
+#22504
+South Campus Hall~
+This building is a meeting hall located at the southern end of the campus.
+The remains of what seems to be a store are to the east and there is a 
+tunnel to the west. To the north lies the main part of the Campus.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 22520
+D1
+Exit ~
+door~
+0 0 22524
+D2
+Exit ~
+door~
+0 0 22503
+S
+#22505
+Ring Road~
+Ring Road traverses the outside of the main campus. To the north you can
+see a small building, but no way to get there due to the vegetation at
+ground level.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 22503
+D3
+Exit ~
+door~
+0 0 22506
+S
+#22506
+South-West corner of Ring Road.~
+This is the Southwestern end of the Ring Road and of the campus.
+A 3-story building rises to the Northeast, and seems to brood over you.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 22507
+D1
+Exit ~
+door~
+0 0 22505
+S
+#22507
+Ring Road~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 22521
+D2
+Exit ~
+door~
+0 0 22506
+S
+#22508
+Ring Road~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 22509
+D2
+Exit ~
+door~
+0 0 22522
+S
+#22509
+Ring Road~
+Generic room description.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 22510
+D2
+Exit ~
+door~
+0 0 22508
+S
+#22510
+Ring Road~
+Generic room description.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 22511
+D3
+Exit ~
+door~
+0 0 22509
+S
+#22511
+North end of Campus~
+This is the northern end of the Campus. To the north, you can see the gate
+leading out. West and east you see a road choked with vegetation. Just ahead
+to the south, you see a small, two story building in some small disrepair.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 22523
+D1
+Exit ~
+door~
+0 0 22512
+D3
+Exit ~
+door~
+0 0 22510
+E
+stairs~
+Although covered with vegetation, you think you can make your way up
+them.
+~
+E
+gate~
+The gate is just a plain iron gate, rather rusted.
+~
+S
+#22512
+Ring Road~
+Generic room description.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 22513
+D3
+Exit ~
+door~
+0 0 22511
+S
+#22513
+Ring Road~
+Generic room description.
+~
+0 0 3
+D2
+Exit ~
+door~
+0 0 22514
+D3
+Exit ~
+door~
+0 0 22512
+S
+#22514
+Ring Road~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 22513
+D2
+Exit ~
+door~
+0 0 22515
+S
+#22515
+Ring Road~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 22514
+D2
+Exit ~
+door~
+0 0 22516
+S
+#22516
+Ring Road~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 22515
+D2
+Exit ~
+door~
+0 0 22517
+S
+#22517
+Ring Road~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 22516
+D2
+Exit ~
+door~
+0 0 22518
+S
+#22518
+Ring Road~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 22517
+D3
+Exit ~
+door~
+0 0 22519
+S
+#22519
+Ring Road~
+Generic room description.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 22518
+D3
+Exit ~
+door~
+0 0 22503
+S
+#22520
+Ring Road~
+Generic room description.
+~
+0 0 3
+D2
+Exit ~
+door~
+0 0 22504
+S
+#22521
+Ring Road~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 22522
+D2
+Exit ~
+door~
+0 0 22507
+S
+#22522
+Ring Road~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 22508
+D2
+Exit ~
+door~
+0 0 22521
+S
+#22523
+Generic room name~
+Generic room description.
+~
+0 0 3
+D2
+Exit ~
+door~
+0 0 22511
+S
+#22524
+Ruined store~
+You recognize this as having once been a store because of all the
+shelves and display cases.  Unfortunately, the entire place has been
+stripped of anything even remotely valuable.  Prying back a fallen shelf,
+you spy a door.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 22504
+D5
+Exit ~
+door~
+1 0 22525
+S
+#22525
+Storeroom~
+You haven entered what appears to have once been a storeroom.  Empty
+packing crates and discarded wrapping lie all about.  Within the gloom,
+you can see something moving.  The stairs lead up behind you.
+~
+0 0 0
+D4
+Exit ~
+door~
+1 0 22524
+S
+#0
+
+#RESETS
+D 0 22524   5    1	* Ruined store down
+D 0 22503   2    1	* South Campus south
+O 0 22508 100 22500	* a shaggy fur rug
+O 0 1801 100 22500	* a beautiful marble fountain
+O 0 22506 100 22501	* a pool at the base of the waterfall
+O 0 30040 100 22501	* a natural hot spring
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

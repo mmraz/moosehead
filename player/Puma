@@ -2,16 +2,34 @@
 Name Puma~
 Id   933044571
 Email (null)~
-LogO 947393041
-Vers 18
+LogO 1352110151
+Vers 33
 Prom <%hhp %mm %vmv %X> ~
 Race faerie~
 Outc 0
 RufT 0
 MatookT 0
-Kill 0 0 0
+SkPTimer 0
+SkPTracker 0
+LogoutTracker 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
-LstAtkedBy (null)~
+LstKBy no one~
+LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1352109981
+LstKillDate 1352109981
+LstDeathDate 1352109981
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 mojo~
 Sac  18
 Sex  1
@@ -19,13 +37,13 @@ Vump  0
 Node 0
 Cap 0
 Created 0
-LastHost dfr9000.interaccess.com 1773~
+Glad 0 0 0 0 0 0
 Cla  10
 ClaO 10
 Levl 1
 DLevl 0
-Plyd 994
-Not  0 0 0 942782025 0 0 0 0 0
+Plyd 1164
+Not  0 0 0 942782025 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3712
@@ -34,37 +52,42 @@ Gold 34
 Silv 419
 Exp  9646
 Act  CDEFGHQ
+MHSF M
 AfBy DFJT
 Comm DGIR
 Disp FJ
 IcgB 0
 Icg 0
 Pos  8
+Trai 10
 Save  -4
 Alig  0
 Hit   4
+SecHit   3
 ACs 67 66 66 79
-Attr 8 22 22 19 10
-AMod 2 -1 0 2 0
-Pass PuaK14Jt0nmm.~
+Attr 8 22 22 19 10 13 13 13
+AMod 2 -1 0 2 0 0 0 0
+Pass PuCF7lSTiMEus~
 Titl  the confused~
 Pnts 88
 TSex 1
 LLev 0
 HMVP 20 100 100
-Cnd  0 42 47 47
+Cnd  0 34 43 43
+Sk 1 'acid blast'
 Sk 1 'asphyxiate'
 Sk 1 'bless'
 Sk 1 'body of stone'
 Sk 1 'burning hands'
 Sk 1 'call lightning'
+Sk 1 'cancellation'
 Sk 1 'chain lightning'
 Sk 1 'continual light'
 Sk 1 'control weather'
+Sk 1 'create node'
 Sk 1 'create spring'
 Sk 1 'create water'
 Sk 1 'curse'
-Sk 1 'create node'
 Sk 1 'dust storm'
 Sk 1 'earthbind'
 Sk 1 'earthquake'
@@ -94,6 +117,7 @@ Sk 1 'sanctuary'
 Sk 1 'shocking grasp'
 Sk 1 'stonefist'
 Sk 1 'stone skin'
+Sk 1 'thunderclap'
 Sk 1 'traveler fog'
 Sk 1 'tsunami'
 Sk 1 'visit node'
@@ -119,23 +143,25 @@ Gr 'element energy'
 Gr 'element fire'
 Gr 'element spirit'
 Gr 'element water'
-Affc 'armor'   0  29  28 -20  17          0
-Affc 'bless'   0  30  28   3  18          0
-Affc 'bless'   0  28  28  -3  24          0
+Affc 'bless'   0  28  24  -3  24          0
+Affc 'bless'   0  27  24   3  18          0
+Affc 'armor'   0  28  24 -20  17          0
 End
 
 #O
 Vnum 3716
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 182 0 0
+Val  0 0 178 0 0
 End
 
 #O
 Vnum 3703
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 5
 Cost 0
@@ -144,6 +170,7 @@ End
 #O
 Vnum 3702
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 16
 Cost 360
@@ -152,6 +179,7 @@ End
 #O
 Vnum 3704
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 11
 Cost 0
@@ -160,6 +188,7 @@ End
 #O
 Vnum 3162
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 500
@@ -168,6 +197,7 @@ End
 #O
 Vnum 3726
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 0
@@ -177,6 +207,7 @@ End
 #O
 Vnum 3707
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 7
 Cost 72
@@ -185,6 +216,7 @@ End
 #O
 Vnum 3712
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 13
 Cost 72
@@ -193,6 +225,7 @@ End
 #O
 Vnum 3707
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -201,6 +234,7 @@ End
 #O
 Vnum 3712
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -209,6 +243,7 @@ End
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 14
 Cost 48
@@ -217,6 +252,7 @@ End
 #O
 Vnum 3708
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 8
 Cost 72
@@ -225,6 +261,7 @@ End
 #O
 Vnum 3711
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -233,6 +270,7 @@ End
 #O
 Vnum 3706
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 6
 Cost 72
@@ -241,6 +279,7 @@ End
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 4
 Cost 72
@@ -249,6 +288,7 @@ End
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 3
 Cost 72

@@ -3,19 +3,18 @@ Name Chatter~
 SurN Chitter~
 Id   998875420
 Email (null)~
-LogO 1110241590
+LogO 1312002654
 Vers 31
 LnD  A Gladiator~
 Desc It's Chatter, not to be confused with Chitter.
 ~
 Prom <%hhp %mmp %vmv %Ssac %gg %ss %r %t %e> ~
 Race faerie~
-Clan honor~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 6
+SkPTracker 0
 LogoutTracker 0
 Kill 1 6 0 6
 Steal 0 0 0
@@ -26,10 +25,13 @@ LstAtkedByTimer 0
 LstCombatDate 1065753481
 LstKillDate 1065752707
 LstDeathDate 1050721815
-LoginsWOKill 16
-LoginsWODeath 28
-LoginsWOCombat 15
+LoginsWOKill 20
+LoginsWODeath 32
+LoginsWOCombat 19
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 377619 huitzilopochtli~
 DeityT -2957 huitzilopochtli~
 Sac  300
@@ -39,24 +41,24 @@ Node 0
 Cap 0
 Created 998875427
 Glad 3 9 1 2 5 1
-LastHost 24.112.115.181~
+LastHost 76.10.136.95~
 Cla  7
 Kit medium~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 549418
+Plyd 553073
 Not  1108324758 1108324758 1108324758 1108324758 1108324758 1108324758 1108324758 1108324758 1108324758 1108324758
 Scro 27
 Rank 3
-Room 31520
-HMV  477 477 1551 1672 362 403
-Gold 399
-Silv 82
+Room 16503
+HMV  314 477 1623 1722 306 403
+Gold 535
+Silv 4425
 Exp  61250
 Act  DEGHKOQRS
 MHSF RSTU
-AfBy CDEFJTUZ
+AfBy CDEFJT
 Comm S
 Disp FIJN
 IcgB 0
@@ -64,23 +66,24 @@ Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 23
-SkiP 55
+StatsTrained 0 50 0
+SkiP 60
 Save  -6
-Alig  -960
+Alig  -988
 Hit   8
 Dam   11
 SecHit   8
 SecDam   6
-ACs -18 -18 -18 7
-Attr 13 25 25 25 13 13 13 13
-AMod 8 3 4 0 -1 0 0 0
+ACs 22 22 22 47
+Attr 13 25 25 25 13 17 8 13
+AMod 4 3 4 0 -1 0 0 0
 Pass ChgalVFHwyWJ6~
-Titl  is like a Clanner Matook, only better~
+Titl  is now outdated~
 Pnts 40
 TSex 1
 LLev 1
-HMVP 402 1367 403
-Cnd  0 18 23 23
+HMVP 402 1417 403
+Cnd  0 0 9 9
 Alias / c word~
 Alias cure c 'cure crit'~
 Alias aa put all rang~
@@ -141,7 +144,7 @@ Sk 77 'lay on hands'
 Sk 75 'lightning bolt'
 Sk 84 'magic missile'
 Sk 84 'mass healing'
-Sk 98 'mirror image'
+Sk 99 'mirror image'
 Sk 75 'nexus'
 Sk 75 'orb of awakening'
 Sk 100 'orb of surprise'
@@ -211,11 +214,6 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'mummy'
-Affc 'pass door'   0  56  10   0   0    1048576
-Affc 'giant strength'   0  50  15   4   1          0
-Affc 'armor'   0  54  16 -20  17          0
-Affc 'shield'   0  54  42 -20  17          0
-Affc 'body weaponry'   0  53   2   0   0   33554432
 End
 
 #O
@@ -262,8 +260,8 @@ PrevOwner Chatter~
 Cond 0
 Wear 4
 Cost 4000
-Affc 'reserved'   0  22  -1   0   0         20
 Affc 'reserved'   1  22  -1   2   1          0
+Affc 'reserved'   0  22  -1   0   0         20
 End
 
 #O
@@ -274,8 +272,8 @@ PrevOwner Chatter~
 Cond 0
 Wear 14
 Cost 3500
-Affc 'reserved'   1  35  -1  -1  20          0
 Affc 'reserved'   1  35  -1  15  12          0
+Affc 'reserved'   1  35  -1  -1  20          0
 End
 
 #O
@@ -451,15 +449,6 @@ Cost 4200
 End
 
 #O
-Vnum 18119
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 16
-Cost 4500
-End
-
-#O
 Vnum 712
 Nest 0
 PrevOwner Chatter~
@@ -511,6 +500,70 @@ PrevOwner Bordil~
 Cond 0
 Wear -1
 Cost 2500
+End
+
+#O
+Vnum 20405
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 125
+End
+
+#O
+Vnum 20411
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 150
+End
+
+#O
+Vnum 20412
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 150
+Spell 3 'weaken'
+End
+
+#O
+Vnum 20413
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 85
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner Chatter~
+Cond 0
+Wear 16
+Cost 4500
+End
+
+#O
+Vnum 8500
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Chatter~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

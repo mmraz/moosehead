@@ -3,16 +3,16 @@ Name Mors~
 SurN Reaper~
 Id   1022444644
 Email (null)~
-LogO 1078792673
+LogO 1310782903
 Vers 31
 Prom %hhp %mmana %vmv %Xxp %ggold %ssil ~
 Race rockbiter~
 Clan loner~
 Outc 0
-RufT 459
+RufT 438
 MatookT 0
-SkPTimer 0
-SkPTracker 8
+SkPTimer 2
+SkPTracker 2
 LogoutTracker 0
 Kill 0 1 0 1
 Steal 0 0 0
@@ -23,61 +23,63 @@ LstAtkedByTimer 0
 LstCombatDate 1078790752
 LstKillDate 1078790643
 LstDeathDate 1078790768
-LoginsWOKill 1
-LoginsWODeath 1
-LoginsWOCombat 0
+LoginsWOKill 3
+LoginsWODeath 3
+LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
 Deity 0 huitzilopochtli~
 DeityT -857 huitzilopochtli~
-Sac  290
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1022444791
 Glad 0 0 0 0 0 0
-LastHost 141.151.229.53~
+LastHost 71.199.125.21~
 Cla  14
 ClaO 3
 Levl 21
 DLevl 0
-Plyd 43216
+Plyd 44070
 Not  1078092824 1078092824 1078092824 1078092824 1078092824 1078092824 1078092824 1078092824 1078092824 1078092824
 Scro 22
 Rank 0
 Room 4417
-HMV  379 472 136 198 98 145
-Gold 469
-Silv 5
-Exp  269066
+HMV  192 492 198 198 145 145
+Gold 273
+Silv 2998
+Exp  271892
 Act  CDEFGHKQRS
 MHSF RV
-AfBy PV
+AfBy DEFJ
 Comm G
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEGHI
-Pos  4
+Pos  8
 Prac 32
-SkiP 10
+SkiP 15
 Save  -5
-Alig  -376
-Hit   14
+Alig  -1000
+Hit   16
 Dam   11
-SecHit   12
+SecHit   14
 SecDam   9
-ACs 56 56 56 65
+ACs 36 36 36 45
 Wimp  10
-Attr 23 16 21 14 25 8 17 11
-AMod 0 0 2 2 0 0 0 0
-Pass MoLimlzMB2I8g~
+Attr 24 16 22 14 25 8 15 11
+AMod 0 0 2 0 0 0 0 0
+Pass Mo5GlECDUjQak~
 Titl .~
 Pnts 100
 TSex 1
 LLev 11
 HMVP 472 198 145
-Cnd  0 0 48 7
+Cnd  0 0 48 8
 Alias k kill toki~
 Sk 1 'armor'
 Sk 1 'cancellation'
@@ -108,7 +110,7 @@ Sk 80 'dirt kicking'
 Sk 73 'disarm'
 Sk 68 'dodge'
 Sk 1 'dual wield'
-Sk 68 'enhanced critical'
+Sk 70 'enhanced critical'
 Sk 98 'enhanced damage'
 Sk 81 'parry'
 Sk 79 'shield block'
@@ -126,10 +128,12 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'protective'
 Gr 'transportation'
-Affc 'sneak'   0  21  19   0   0      32768
-Affc 'haste'   0  20   0   2   2    2097152
-Affc 'bless'   0  36   6  -5  24          0
-Affc 'bless'   0  36   6   5  18          0
+Affc 'detect hidden'   0  10   0   0   0         32
+Affc 'detect magic'   0   7   0   0   0         16
+Affc 'detect invis'   0  10   0   0   0          8
+Affc 'armor'   0  42  21 -20  17          0
+Affc 'bless'   0  40  36  -5  24          0
+Affc 'bless'   0  42  36   5  18          0
 End
 
 #O
@@ -139,7 +143,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 75
-Val  0 0 209 0 0
+Val  0 0 188 0 0
 End
 
 #O
@@ -176,15 +180,6 @@ PrevOwner Mors~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner Mors~
-Cond 0
-Wear -1
-Cost 22
 End
 
 #O
@@ -237,10 +232,10 @@ End
 Vnum 9573
 Nest 0
 PrevOwner Mors~
-Stolen 58
+Stolen 37
 Cond 0
 Wear -1
-Time 673
+Time 652
 Cost 820
 Spell 1 'haste'
 End
@@ -251,7 +246,7 @@ Nest 0
 PrevOwner Mors~
 Cond 0
 Wear -1
-Time 516
+Time 495
 Cost 820
 Spell 1 'haste'
 End
@@ -262,7 +257,7 @@ Nest 0
 PrevOwner Mors~
 Cond 0
 Wear -1
-Time 719
+Time 698
 Cost 820
 Spell 1 'haste'
 End
@@ -272,8 +267,8 @@ Vnum 9573
 Nest 0
 PrevOwner Mors~
 Cond 0
-Wear 17
-Time 635
+Wear -1
+Time 614
 Cost 820
 Spell 1 'haste'
 End
@@ -342,10 +337,127 @@ Wear 16
 Cost 2100
 End
 
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8500
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8509
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 17
+Cost 0
+End
+
 #PET
 Vnum 3090
 Name kitten cat pet~
-LogO 1078792673
+LogO 1310782903
 Desc The kitten looks like a cute, little, fierce fighter.
 A neck tag says 'I belong to Mors'.
 ~

@@ -2,21 +2,32 @@
 Name Allyssa~
 Id   958708268
 Email (null)~
-LogO 966058306
-Vers 27
+LogO 1311773462
+Vers 31
 Prom <%hhp %mm %vmv> ~
 Race faerie~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 19
+SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1311171759
+LstKillDate 1311171759
+LstDeathDate 1311171759
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 matook~
 Sac  300
 Sex  2
@@ -25,21 +36,23 @@ Node 0
 Cap 0
 Created 958708286
 Glad 0 0 0 0 0 0
+LastHost 74.251.225.253~
 Cla  11
 Kit alchemist~
 ClaO 0
 Levl 24
 DLevl 0
-Plyd 105530
-Not  0 0 0 0 0 0 0 0 0
+Plyd 108456
+Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
-Room 3262
-HMV  190 190 515 515 255 255
-Gold 1269
-Silv 9
-Exp  99473
+Room 3054
+HMV  210 210 407 515 252 255
+Gold 342
+Silv 81
+Exp  99475
 Act  CDEFGH
+MHSF R
 AfBy DFJT
 Comm DGIRc
 Disp FJ
@@ -47,23 +60,24 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 15
+Trai 15
 SkiP 24
 Alig  -1000
-Hit   13
-Dam   22
-SecHit   9
-SecDam   18
-ACs 56 54 55 67
+Hit   12
+Dam   17
+SecHit   12
+SecDam   17
+ACs 33 31 32 46
 Wimp  40
-Attr 13 25 25 25 13
-AMod 1 0 0 0 1
+Attr 13 25 25 25 13 17 8 13
+AMod 1 0 0 2 1 0 0 0
 Pass AlVncKT0WaBi2~
-Titl  the potion-brewing bitch.~
+Titl  aack.~
 Pnts 74
 TSex 2
 LLev 25
 HMVP 180 515 255
-Cnd  0 0 0 0
+Cnd  0 4 28 20
 Sk 1 'acid blast'
 Sk 77 'armor'
 Sk 77 'blindness'
@@ -77,6 +91,7 @@ Sk 1 'change sex'
 Sk 75 'charm person'
 Sk 81 'chill touch'
 Sk 86 'colour spray'
+Sk 1 'cone of silence'
 Sk 1 'control weather'
 Sk 75 'curse'
 Sk 1 'detect evil'
@@ -105,7 +120,7 @@ Sk 1 'fumble'
 Sk 1 'gate'
 Sk 88 'giant strength'
 Sk 77 'haste'
-Sk 80 'identify'
+Sk 82 'identify'
 Sk 75 'infravision'
 Sk 75 'invisibility'
 Sk 76 'knock'
@@ -141,6 +156,7 @@ Sk 1 'animate dead'
 Sk 75 'summon dead'
 Sk 1 'cryogenesis'
 Sk 1 'draw life'
+Sk 1 'make bag'
 Sk 1 'turn undead'
 Sk 1 'withstand death'
 Sk 1 'wound transfer'
@@ -169,19 +185,13 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-End
-
-#O
-Vnum 3704
-Nest 0
-Cond 0
-Wear 11
-Cost 0
+Affc 'shield'   0  44  18 -20  17          0
 End
 
 #O
 Vnum 3726
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -191,6 +201,7 @@ End
 #O
 Vnum 5706
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2000
@@ -199,6 +210,7 @@ End
 #O
 Vnum 5710
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1000
@@ -207,9 +219,10 @@ End
 #O
 Vnum 3723
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
-Time 722
+Time 652
 Cost 0
 Spell 1 'fly'
 End
@@ -217,6 +230,7 @@ End
 #O
 Vnum 31088
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -225,6 +239,7 @@ End
 #O
 Vnum 3000
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 75
@@ -234,6 +249,7 @@ End
 #O
 Vnum 3355
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 4
 Cost 510
@@ -242,9 +258,10 @@ End
 #O
 Vnum 9573
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
-Time 609
+Time 539
 Cost 820
 Spell 1 'haste'
 End
@@ -252,6 +269,7 @@ End
 #O
 Vnum 3044
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 320
@@ -261,6 +279,7 @@ End
 #O
 Vnum 3044
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 320
@@ -270,16 +289,18 @@ End
 #O
 Vnum 3044
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 320
-Val  4 10 6 100 0
+Val  4 10 6 134 0
 Spell 3 'magic missile'
 End
 
 #O
 Vnum 17666
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 3
 Cost 1000
@@ -288,9 +309,10 @@ End
 #O
 Vnum 31086
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
-Time 809
+Time 739
 Cost 0
 Spell 1 'armor'
 Spell 2 'shield'
@@ -300,6 +322,7 @@ End
 #O
 Vnum 3715
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
@@ -308,6 +331,7 @@ End
 #O
 Vnum 20406
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 225
@@ -316,6 +340,7 @@ End
 #O
 Vnum 23106
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 6
 Cost 1500
@@ -324,6 +349,7 @@ End
 #O
 Vnum 23107
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 10
 Cost 1500
@@ -332,6 +358,7 @@ End
 #O
 Vnum 23108
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 5
 Cost 1500
@@ -340,6 +367,7 @@ End
 #O
 Vnum 23109
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 7
 Cost 1500
@@ -348,6 +376,7 @@ End
 #O
 Vnum 23110
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 8
 Cost 1500
@@ -356,6 +385,7 @@ End
 #O
 Vnum 23111
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 9
 Cost 1500
@@ -364,6 +394,7 @@ End
 #O
 Vnum 23112
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1500
@@ -372,6 +403,7 @@ End
 #O
 Vnum 2803
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 2
 Cost 1150
@@ -380,6 +412,7 @@ End
 #O
 Vnum 2803
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 1
 Cost 1150
@@ -388,6 +421,7 @@ End
 #O
 Vnum 2505
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 15
 Cost 1150
@@ -396,6 +430,7 @@ End
 #O
 Vnum 2505
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 14
 Cost 1150
@@ -404,9 +439,10 @@ End
 #O
 Vnum 9573
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
-Time 619
+Time 549
 Cost 820
 Spell 1 'haste'
 End
@@ -414,14 +450,16 @@ End
 #O
 Vnum 8509
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 17
 Cost 0
 End
 
 #O
 Vnum 5705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 13
 Cost 0
@@ -430,6 +468,7 @@ End
 #O
 Vnum 4440
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -438,6 +477,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -446,6 +486,7 @@ End
 #O
 Vnum 5234
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -454,6 +495,7 @@ End
 #O
 Vnum 22044
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
@@ -462,6 +504,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -470,6 +513,7 @@ End
 #O
 Vnum 4433
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -478,6 +522,7 @@ End
 #O
 Vnum 4433
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -486,6 +531,7 @@ End
 #O
 Vnum 4434
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -494,9 +540,10 @@ End
 #O
 Vnum 9573
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
-Time 693
+Time 623
 Cost 820
 Spell 1 'haste'
 End
@@ -504,6 +551,7 @@ End
 #O
 Vnum 30160
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -514,9 +562,10 @@ End
 Vnum 17634
 Enchanted
 Nest 0
+PrevOwner (null)~
 ExtF 66
 Cond 0
-Wear 16
+Wear -1
 Lev  24
 Cost 4200
 Affc 'enchant weapon'   1  25  -1   4  18          0
@@ -526,6 +575,7 @@ End
 #O
 Vnum 8517
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -534,9 +584,10 @@ End
 #O
 Vnum 3092
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
-Time 473
+Time 403
 Cost 290
 Spell 1 'detect invis'
 Spell 2 'detect magic'
@@ -546,9 +597,10 @@ End
 #O
 Vnum 3092
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
-Time 571
+Time 501
 Cost 290
 Spell 1 'detect invis'
 Spell 2 'detect magic'
@@ -558,9 +610,10 @@ End
 #O
 Vnum 3092
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 17
-Time 608
+Wear -1
+Time 538
 Cost 290
 Spell 1 'detect invis'
 Spell 2 'detect magic'
@@ -570,6 +623,7 @@ End
 #O
 Vnum 8500
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 3000
@@ -578,6 +632,7 @@ End
 #O
 Vnum 8503
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5000
@@ -586,22 +641,16 @@ End
 #O
 Vnum 16118
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 18
+Wear -1
 Cost 1000
 End
 
 #O
-Vnum 8503
-Nest 0
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 3009
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -610,6 +659,7 @@ End
 #O
 Vnum 3009
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -618,6 +668,7 @@ End
 #O
 Vnum 3009
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -626,6 +677,7 @@ End
 #O
 Vnum 3009
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -634,6 +686,7 @@ End
 #O
 Vnum 3009
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -642,25 +695,64 @@ End
 #O
 Vnum 3097
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 11
 Cost 750
-End
-
-#O
-Vnum 3007
-Nest 0
-Cond 0
-Wear -1
-Cost 500000
 End
 
 #O
 Vnum 8510
 Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 18
+Cost 200
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 200
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3021
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 16
+Cost 250
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Allyssa~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 2445
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1500
 End
 
 #END

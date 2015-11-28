@@ -3,20 +3,20 @@ Name Thoon~
 SurN Guzrak~
 Id   1039622557
 Email (null)~
-LogO 1045683379
-Vers 31
+LogO 1327911421
+Vers 33
 Prom [{Y%e{x] [%g]  %c <%h %m %v {G%X{x> ~
 Race ogre~
-Clan zealot~
 Outc 0
 RufT 0
 MatookT 0
 Abol -1
-SkPTimer 0
-SkPTracker 0
+SkPTimer 1
+SkPTracker 3
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -24,66 +24,71 @@ LstAtkedByTimer 0
 LstCombatDate 1039622557
 LstKillDate 1039622557
 LstDeathDate 1039622557
-LoginsWOKill 4
-LoginsWODeath 4
-LoginsWOCombat 4
+LoginsWOKill 11
+LoginsWODeath 11
+LoginsWOCombat 11
 Bnty 0
-Deity 34400 almighty~
+DeityFavor 0 0
+PrefStat 0
+OldC 7 12 2
+QuestWins 0 0
+Deity 34400 matook~
 DeityT -56 almighty~
-Sac  550
+Sac  700
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1039622631
 Glad 0 0 0 0 0 0
-LastHost pc1-watf4-4-cust197.wtfd.cable.ntl.com~
+LastHost 90.201.141.181~
 Cla  5
 Kit bishop~
 ClaO 3
-Levl 23
+Levl 25
 DLevl 0
-Plyd 43691
-Not  1041087839 1041087839 1041087839 1041087839 1041087839 1041087839 1041087839 1043649003 1041087839 1041087839
+Plyd 52093
+Not  1327873707 1327873707 1327873707 1327873707 1327873707 1327873707 1327873707 1327873707 1327873707 1327873707
 Scro 22
-Rank 2
-Room 31806
-HMV  443 496 211 211 79 188
-Gold 1271
-Silv 41
-Exp  242765
+Rank 0
+Room 16501
+HMV  240 514 221 221 132 212
+Gold 453
+Silv 42
+Exp  262772
 Act  CDEFGHKMQS
 MHSF R
-AfBy DEFHJ
+AfBy DEFV
 Comm I
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ACEFG
 Pos  4
-SkiP 5
-Save  -5
+Trai 6
+SkiP 14
+Save  -1
 Alig  -1000
-Hit   28
-Dam   28
-SecHit   20
+Hit   15
+Dam   22
+SecHit   13
 SecDam   20
 ACs 33 33 33 45
 Wimp  10
-Attr 22 16 19 17 21 13 16 17
-AMod 5 0 0 3 1 0 0 0
+Attr 22 16 19 17 21 11 14 17
+AMod 5 0 0 5 1 0 0 0
 Pass ThMzQYsLSebMM~
 Titl  [{DSkull {GSquadron{x].~
 Pnts 100
 TSex 1
-LLev 10
-HMVP 476 211 188
-Cnd  0 28 15 42
+LLev 14
+HMVP 514 221 212
+Cnd  0 44 47 46
 Alias k kill~
 Alias ts emote scratches where da sun dount shine.~
 Alias c chant~
 Sk 1 'aid'
-Sk 1 'annointment'
+OldSk 1 'annointment'
 Sk 1 'armor'
 Sk 1 'bestow holiness'
 Sk 1 'bless'
@@ -126,14 +131,14 @@ Sk 1 'summon'
 Sk 1 'teleport'
 Sk 75 'word of recall'
 Sk 98 'mace'
-Sk 68 'sword'
+Sk 71 'sword'
 Sk 1 'bash'
 Sk 1 'berserk'
 Sk 1 'dirt kicking'
-Sk 29 'dodge'
+Sk 59 'dodge'
 Sk 1 'enhanced damage'
 Sk 1 'hand to hand'
-Sk 1 'parry'
+Sk 33 'parry'
 Sk 1 'shield block'
 Sk 57 'scan'
 Sk 1 'second attack'
@@ -155,14 +160,12 @@ Gr 'enhancement'
 Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
-Affc 'detect hidden'   0   9   8   0   0         32
-Affc 'detect magic'   0  10   6   0   0         16
-Affc 'detect invis'   0   9   7   0   0          8
-Affc 'sanctuary'   0  44   3   0   0        128
-Affc 'shield'   0  38  16 -20  17          0
-Affc 'giant strength'   0  37   8   4   1          0
-Affc 'bless'   0  38  14  -5  24          0
-Affc 'bless'   0  39  14   5  18          0
+Affc 'haste'   0  20   6   2   2    2097152
+Affc 'detect hidden'   0  10   2   0   0         32
+Affc 'detect magic'   0   9   2   0   0         16
+Affc 'detect invis'   0   8   2   0   0          8
+Affc 'shield'   0  43   1 -20  17          0
+Affc 'giant strength'   0  31  11   4   1          0
 End
 
 #O
@@ -190,15 +193,6 @@ PrevOwner Thoon~
 Cond 0
 Wear -1
 Cost 100
-End
-
-#O
-Vnum 23127
-Nest 0
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 800
 End
 
 #O
@@ -265,294 +259,12 @@ Cost 3000
 End
 
 #O
-Vnum 8517
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 8503
 Nest 1
-PrevOwner Thoon~
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5000
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 16008
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 3100
-End
-
-#O
-Vnum 16007
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 3100
-End
-
-#O
-Vnum 16006
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 2700
-End
-
-#O
-Vnum 16005
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 2700
-End
-
-#O
-Vnum 3092
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 3092
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 8023
-Enchanted
-Nest 1
-PrevOwner Thoon~
-ExtF 323
-Cond 0
-Wear -1
-Lev  15
-Cost 9800
-Affc 'reserved'   1  10  -1   1   4          0
-Affc 'enchant weapon'   1  52  -1   5  19          0
-Affc 'enchant weapon'   0  52  -1   6  18          0
-End
-
-#O
-Vnum 8006
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 870
-End
-
-#O
-Vnum 3715
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 3024
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 390
-End
-
-#O
-Vnum 4439
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3050
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 5740
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 5933
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20405
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 125
-End
-
-#O
-Vnum 5234
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 12007
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 4440
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 4438
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 4433
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 4433
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Thoon~
-Cond 0
-Wear -1
-Cost 22
 End
 
 #O
@@ -587,7 +299,7 @@ Vnum 17666
 Nest 0
 PrevOwner Thoon~
 Cond 0
-Wear 4
+Wear 3
 Cost 1000
 End
 
@@ -596,7 +308,7 @@ Vnum 1395
 Nest 0
 PrevOwner Thoon~
 Cond 0
-Wear 3
+Wear 4
 Cost 1970
 End
 
@@ -614,23 +326,8 @@ Vnum 8509
 Nest 0
 PrevOwner Thoon~
 Cond 0
-Wear 17
+Wear -1
 Cost 0
-End
-
-#O
-Vnum 5317
-Enchanted
-Nest 0
-PrevOwner Thoon~
-ExtF 66
-Cond 0
-Wear 16
-Lev  20
-Cost 1420
-Val  1 3 4 3 512
-Affc 'enchant weapon'   1  52  -1   8  18          0
-Affc 'enchant weapon'   1  52  -1   8  19          0
 End
 
 #O
@@ -661,6 +358,383 @@ Cost 2000
 End
 
 #O
+Vnum 8502
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3100
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3092
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3081
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 3715
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 5706
+Nest 0
+PrevOwner Foul~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Foul~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Foul~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5706
+Nest 0
+PrevOwner Foul~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 16005
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 2700
+End
+
+#O
+Vnum 16006
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 2700
+End
+
+#O
+Vnum 16007
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 3100
+End
+
+#O
+Vnum 16008
+Nest 0
+PrevOwner Foul~
+Cond 0
+Wear -1
+Cost 3100
+End
+
+#O
+Vnum 5933
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
 Vnum 3092
 Nest 0
 PrevOwner (null)~
@@ -682,6 +756,37 @@ Cost 290
 Spell 1 'detect invis'
 Spell 2 'detect magic'
 Spell 3 'detect hidden'
+End
+
+#O
+Vnum 2005
+Enchanted
+Nest 0
+PrevOwner Thoon~
+Cond 0
+Wear -1
+Lev  25
+Cost 3400
+Affc 'enchant weapon'   1  53  -1   4  18          0
+Affc 'reserved'   1  24  -1   1   1          0
+Affc 'enchant weapon'   1  53  -1   1  19          0
+End
+
+#O
+Vnum 8016
+Enchanted
+Nest 0
+PrevOwner Private~
+Link Thoon
+ExtF 321
+Cond 0
+Wear 16
+Lev  25
+Cost 1160
+Val  4 2 11 7 836
+Affc 'enchant weapon'   0  53  -1   2  18          0
+Affc 'enchant weapon'   1  53  -1   2  19          0
+Affc 'bless'   1  28  21  -1  20        256
 End
 
 #O
@@ -694,75 +799,12 @@ Cost 3100
 End
 
 #O
-Vnum 3092
+Vnum 3298
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 3092
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 3092
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
+Wear 17
+Cost 100000
 End
 
 #END

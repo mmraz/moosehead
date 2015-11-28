@@ -2,7 +2,7 @@
 Name Poquah~
 Id   794343947
 Email (null)~
-LogO 1042357313
+LogO 1314143773
 Vers 31
 ShD  .~
 LnD  A Gladiator~
@@ -29,13 +29,13 @@ Desc *****
 :::                                             ;'
 :::                                            ' 
 ~
-Prom <%z %i %y> ~
+Prom <%R - %r>  ~
 Race elf~
 Outc 0
 RufT 0
 MatookT 6
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
 Hstm smooth.stoner.com~
 Kill 0 0 0 0
@@ -51,6 +51,9 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -7664 matook~
 Sac  300
@@ -60,40 +63,41 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
+LastHost smooth.stoner.com~
 Cla  3
-Kit shapeshifter~
 ClaO 3
-Levl 55
+Levl 52
 DLevl 0
-Plyd 19038566
-Not  1039114047 1039114096 1037298655 1039070741 1039105512 1039113371 1039092011 1039114103 1039067488 1038761327
-Scro 23
+Plyd 19139357
+Not  1313878083 1314123812 1313878083 1313878083 1313878083 1313962073 1313878083 1313907088 1313878083 1313878083
+Scro 0
 Rank 0
-Room 16050
-HMV  5946 5946 5495 5495 595 595
-Gold 3361
+Room 3040
+HMV  5888 5888 5445 5481 1176 1176
+Gold 3261
 Silv 12410
 Exp  1003200
-Act  BCDEGHNWd
-AfBy DFHJTVace
-Comm GILO
+Act  BCDEGHNd
+AfBy DFHJNTVace
+Comm GLO
 Disp CFHIJN
-IcgB P
-Icg 2
+IcgB 0
+Icg 0
+Wizn ACEFIJLRTX
 Pnet BCDEFGHI
-Pos  5
-Prac 351
-Trai 122
-SkiP 368
-Save  -50
+Pos  8
+Prac 623
+Trai 192
+SkiP 403
+Save  -170
 Alig  -1000
 Hit   80
 Dam   77
 SecHit   5
 SecDam   2
-ACs -471 -475 -473 -418
-Attr 18 21 20 18 18 13 25 13
-AMod 10 5 0 12 10 0 0 0
+ACs -771 -775 -773 -718
+Attr 18 21 20 18 18 11 12 13
+AMod 20 5 0 21 20 0 0 0
 Pass Po/Z0sOmNwV0g~
 Bin  On a dark new year's night
 On the west coast of Clare   
@@ -108,12 +112,12 @@ Bout As he turned to go you heard him call your name.
 'The old ways are lost' he sang as he flew  
 And you wondered why?
 ~
-Titl  bring me your toughts~
+Titl  and so flows the sands of time...~
 Pnts 118
-WhoName Poser~
+WhoName 50  Elf  War~
 TSex 1
-LLev 5287
-HMVP 886 465 595
+LLev 5289
+HMVP 828 451 876
 Cnd  0 0 -1 -1
 Edit ABCE
 ERange 1 50000
@@ -127,6 +131,7 @@ Alias 3 cast sanc vali~
 Alias 4 cast haste vali~
 Alias 5 restore navy~
 Alias 6 restore ana~
+Alias km kill mayor~
 Macro t3 gecho BOOM;gecho CRASH;spreward all 5;gecho SCREECH~
 Macro entrance2 gecho Of thundering hooves and beating wings, In the clouds above.~
 Macro immset edit obj;select %1;mod;flag;immload;done;exit;~
@@ -181,6 +186,7 @@ Sk 100 'charm animal'
 Sk 100 'chill touch'
 Sk 100 'clarity'
 Sk 100 'colour spray'
+Sk 1 'cone of silence'
 Sk 100 'contagion'
 Sk 100 'continual light'
 Sk 100 'control weather'
@@ -458,7 +464,6 @@ Sk 100 'swimming'
 Sk 100 'vorpal'
 Sk 100 'trap'
 Sk 100 'recall'
-Sk 100 'research'
 Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'paladin basics'
@@ -542,18 +547,6 @@ Desc A luscious white and snowy rose gives off its fragrance here.~
 Cond 0
 Wear 6
 Cost 0
-End
-
-#O
-Vnum 5030
-Nest 0
-PrevOwner (null)~
-Name lover heaven~
-ShD  Heaven lover~
-Desc this piece of heart from Taysha belongs to Polka. She loves heaven, she loves him.~
-Cond 0
-Wear 17
-Cost 550
 End
 
 #O
@@ -656,7 +649,7 @@ ShD  a copy of the Wall Street Journal~
 Desc Here lies Poquah's personal copy of the Wall Street Journal.~
 ExtF 17449216
 Cond 0
-Wear -1
+Wear 17
 Cost 0
 End
 
@@ -935,7 +928,7 @@ Desc An expensive chocolate leveling gift shaped like a BMW-Z8 melts slowly.~
 Cond 0
 Wear -1
 Cost 0
-Val  50 77 125 166 -1
+Val  50 77 125 169 -1
 Spell 3 'sanctuary'
 End
 
@@ -1192,6 +1185,99 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 90
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Cliodhna~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Cliodhna~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Cliodhna~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Cliodhna~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Cliodhna~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Cliodhna~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Cliodhna~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Dakky~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Dakky~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 5030
+Nest 1
+PrevOwner (null)~
+Name lover heaven~
+ShD  Heaven lover~
+Desc this piece of heart from Taysha belongs to Polka. She loves heaven, she loves him.~
+Cond 0
+Wear -1
+Cost 550
 End
 
 #END

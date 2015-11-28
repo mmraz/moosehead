@@ -3,15 +3,15 @@ Name Zirla~
 SurN Diablerie~
 Id   1023830964
 Email (null)~
-LogO 1023833033
+LogO 1317420387
 Vers 31
 Prom %hhp %mmana %vmv %Xxp %ggold %ssil ~
 Race faerie~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 3
+SkPTimer 2
+SkPTracker 2
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -26,6 +26,9 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -42 matook~
 Sac  175
@@ -35,44 +38,45 @@ Node 0
 Cap 0
 Created 1023830998
 Glad 0 0 0 0 0 0
-LastHost 141.151.231.126~
+LastHost 174.55.226.165~
 Cla  0
 ClaO 0
 Levl 5
 DLevl 0
-Plyd 1822
+Plyd 1862
 Not  1023831215 1023831215 1023831215 1023831215 1023831215 1023831215 1023831215 1023831215 1023831215 1023831215
 Scro 22
 Rank 0
 Room 3054
-HMV  38 38 43 162 108 128
+HMV  38 38 162 162 128 128
 Gold 36
 Silv 24
 Exp  12644
 Act  CDEFGHKQ
+MHSF R
 AfBy DFJT
 Comm GR
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  4
+Pos  8
 Prac 20
 SkiP 3
-Save  -4
+Save  -3
 Alig  -750
-Hit   4
+Hit   3
 SecHit   3
-ACs 74 73 73 79
+ACs 80 80 80 80
 Attr 9 25 25 24 8 17 8 11
-AMod 2 -1 0 2 0 0 0 0
+AMod 0 0 0 0 0 0 0 0
 Pass ZiHAhaaCXGuZA~
 Titl  {WBeautious{x {MMagic{x~
 Pnts 59
 TSex 2
-LLev 0
+LLev 1
 HMVP 38 162 128
-Cnd  0 10 32 32
+Cnd  0 8 31 31
 Sk 1 'acid blast'
 Sk 1 'armor'
 Sk 1 'blur'
@@ -141,7 +145,6 @@ Sk 1 'staves'
 Sk 75 'wands'
 Sk 50 'swimming'
 Sk 50 'recall'
-Sk 1 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'combat'
@@ -151,9 +154,9 @@ Gr 'illusion'
 Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
-Affc 'armor'   0  34   5 -20  17          0
-Affc 'bless'   0  38  31  -3  24          0
-Affc 'bless'   0  38  31   3  18          0
+Affc 'bless'   0  38  30   3  18          0
+Affc 'bless'   0  38  30  -3  24          0
+Affc 'armor'   0  38  19 -20  17          0
 End
 
 #O
@@ -161,7 +164,7 @@ Vnum 3716
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 Val  0 0 158 0 0
 End
@@ -171,7 +174,7 @@ Vnum 3703
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 5
+Wear -1
 Cost 0
 End
 
@@ -180,7 +183,7 @@ Vnum 3701
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 16
+Wear -1
 Cost 210
 End
 
@@ -189,7 +192,7 @@ Vnum 3704
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 11
+Wear -1
 Cost 0
 End
 
@@ -198,8 +201,9 @@ Vnum 3726
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
+Val  100 1 0 10 85
 End
 
 #O
@@ -207,7 +211,7 @@ Vnum 3708
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 8
+Wear -1
 Cost 72
 End
 
@@ -216,7 +220,7 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 48
 End
 
@@ -255,9 +259,9 @@ Vnum 3044
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 320
-Val  4 10 1 130 0
+Val  4 10 1 134 0
 Spell 3 'magic missile'
 End
 

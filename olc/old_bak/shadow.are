@@ -1,0 +1,1929 @@
+#AREA
+../newareas/shadow.are~
+Denton~
+{ N/A } Alucard Denton~
+800 887
+
+#MOBILES
+#800
+Priest~
+Priest~
+A priest is here, standing in holy, ornate clothing.
+~
+A priest is here dressed all in white, with a large purple scarf hanging 
+from his shoulders.  Large holy sysmbols are hanging from his neck.
+For other info on what a priest can do, type 'heal' for further into.
+~
+human~
+ABQVa DFH 1000 0
+41 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCDLMNQ 0 0
+stand stand male 10000
+0 0 medium 0
+#801
+tailor~
+Tailor~
+A small tailor is here mending clothing.
+~
+An old but very strong armourer, he has made more armours in his
+lifetime than you have ever seen.
+~
+human~
+ABV 0 900 0
+23 10 1d1+999 1d1+99 1d8+32 punch
+-15 -15 -15 -15
+CEFJKN ABCD 0 0
+stand stand male 30000
+0 0 medium 0
+#802
+tailor~
+Tailor~
+A small tailor is here mending clothing.
+~
+An old but very strong armourer, he has made more armours in his
+lifetime than you have ever seen.
+~
+human~
+ABV 0 900 0
+23 10 1d1+999 1d1+99 1d8+32 punch
+-15 -15 -15 -15
+CEFJKN ABCD 0 0
+stand stand male 30000
+0 0 medium 0
+#0
+
+#OBJECTS
+#800
+a white flowing wedding gown~
+white wedding gown~
+a perfect white wedding gown is here folded ever so nicely~
+lace~
+clothing 0 AK
+0 0 0 0 0
+1 100 3000 P
+#801
+white veil~
+a white veil~
+a white veil has been discared here~
+lace~
+clothing 0 AE
+0 0 0 0 0
+1 100 3000 P
+#802
+bouqet flowers~
+bouqet of flowers~
+a bouqet of flowers is here~
+flowers~
+container 0 AK
+60 0 0 6 100
+1 20 100 P
+#803
+pale blue rose~
+pale blue rose~
+a nice little pale blue rose is here~
+organic~
+clothing 0 AO
+0 0 0 0 0
+1 0 90 P
+#804
+a pure white rose~
+a pure white rose~
+a pure white rose is here~
+organic~
+clothing 0 AO
+0 0 0 0 0
+1 0 90 P
+#805
+a soft red rose~
+a soft red rose~
+a soft red rose is here~
+organic~
+clothing 0 AO
+0 0 0 0 0
+1 1 90 P
+#806
+black wedding dress~
+a black lace wedding dress~
+a black laced wedding dress~
+lace~
+clothing 0 AK
+0 0 0 0 0
+1 100 3000 P
+#807
+black veil~
+a black lace veil~
+A black lace veil has been discarded here~
+lace~
+clothing 0 AE
+0 0 0 0 0
+1 100 3000 P
+#808
+white lace undergamets~
+white lace undergarmets~
+A white lace undergarmet~
+lace~
+clothing 0 AF
+0 0 0 0 0
+0 100 3000 P
+#809
+black lace undergarmets~
+black lace undergramets~
+A pair of black lace undergramets~
+lace~
+clothing 0 AF
+0 0 0 0 0
+0 100 3000 P
+#810
+throwing rice~
+wedding rice~
+wedding rice~
+cloth~
+food G AO
+5 100 0 0 0
+1 5 10 P
+#811
+White Carnation~
+a white carnation~
+a white carnetion~
+~
+clothing 0 AM
+0 0 0 0 0
+1 100 0 P
+#812
+pew seat~
+pew~
+~
+~
+container 0 0
+100 0 0 50 50
+0 100 0 P
+#0
+
+#ROOMS
+#800
+.~
+~
+0 CDPT 9
+S
+#801
+Dead-end of the street~
+Dark and stormy night out, rain pours down on your head and fails to
+stop even if the sun is out.  A 'sign' is found on a tree laying 
+in the way of the west direction.  A faint rumbling sound can 
+be heard from behind the sign, as if something was moving towards
+you.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 802
+E
+sign~
+DEAD END
+~
+E
+dead end west dead-end~
+DEAD END
+~
+S
+#802
+A street in Denton~
+Trees leaning over the road give a almost tunnel effect to the steet
+adding a rather eriee look to the place.  Perhaps the castle that is
+to the east may have a way to contact someone for help.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 803
+D3
+Exit ~
+door~
+0 0 801
+S
+#803
+A street in Denton~
+Trees leaning over the road give a almost tunnel effect to the steet
+adding a rather eriee look to the place.  Perhaps the castle that is
+to the east may have a way to contact someone for help.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 804
+D3
+Exit ~
+door~
+0 0 802
+S
+#804
+A street in Denton~
+Trees leaning over the road give a almost tunnel effect to the steet
+adding a rather eriee look to the place.  Perhaps the castle that is
+to the east may have a way to contact someone for help.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 805
+D3
+Exit ~
+door~
+0 0 803
+S
+#805
+Castle gate~
+A old black iron gate is here swing slowly open and closed, creeking
+ever time the wind blows it in either direction.  A 'sign' can be
+found hanging lop-sided on the fence.  A rather large castle is to
+the north, wich admits a rather strange glow from it's roof top.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 812
+D1
+Exit ~
+door~
+0 0 806
+D3
+Exit ~
+door~
+0 0 804
+E
+sign north~
+.............................................................................
+.                                ENTER                                      .
+.                               AT YOUR                                     .
+.                                 OWN                                       .
+.                                RISK!                                      .
+.............................................................................
+~
+S
+#806
+A street in Denton~
+A long strech of gravel road.  To the west you can see the faint signs
+of a castle, and a murky looking forest.  To the east you can see a 
+a little white chuch.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 807
+D3
+Exit ~
+door~
+0 0 805
+S
+#807
+A street in Denton~
+A long strech of gravel road.  To the west you can see the faint signs
+of a castle, and a murky looking forest.  To the east you can see a 
+a little white chuch.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 808
+D3
+Exit ~
+door~
+0 0 806
+S
+#808
+A street in Denton~
+A long strech of gravel road.  To the west you can see the faint signs
+of a castle, and a murky looking forest.  To the east you can see a 
+a little white chuch.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 809
+D3
+Exit ~
+door~
+0 0 807
+S
+#809
+Open field~
+A large open gravel field.  To the north is a path leading to the church
+where a wedding was just performed.  The rice has reached all the way from
+the church entrance to here.  East is the grave yard inwitch people are
+barried in a proper fashion.  West is a dark forest.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 813
+D1
+Exit ~
+door~
+0 0 810
+D3
+Exit ~
+door~
+0 0 808
+S
+#810
+Grave yard~
+Miles of head stones can be found all around you.  Large ones, small ones
+and little stone markers.  To the far north you can see a large bulletin
+board reading 'Denton- The home of happiness' The sign has a small amount
+of garfitti on it.
+~
+0 0 3
+D3
+Exit ~
+door~
+0 0 809
+E
+sign denton~
+A large bulleten boar reading.  'DENTON- The home of Happiness'
+~
+E
+tomb stone~
+Large tomb stones can be seen for miles on end.  Millions of people must
+of died in the town, to fill to many grave sites.
+~
+S
+#811
+Pathway beside the Castle~
+A small row of daisys are lined against the castle wall, in large oval
+shapes.  Creeping vines are about halfway up the grey stone side. 
+A gravel pathway leads to the east and west of here.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 821
+D2
+Exit ~
+door~
+0 0 812
+D3
+Exit ~
+door~
+0 0 819
+S
+#812
+Pathway to the Castle~
+A gravel fill rock pathway, leading to the castle in Denton.  Grass
+grows wild on each side of the path.  Weeds are all around growing
+taller then the grass itself.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 811
+D2
+Exit ~
+door~
+0 0 805
+S
+#813
+Church Steps~
+A little white church.  Large oak doors, fire lanturns spread all around
+to light up the entire area.   A warm glow can be felt from inside of
+the church.  To the side of the entrance is a 'sign' with meaningful 
+words etched into it.
+~
+0 0 3
+D2
+Exit ~
+door~
+0 0 809
+D3
+Exit ~
+door~
+0 0 814
+E
+sign~
+Be Just and Fear Not
+~
+S
+#814
+Chruch Ile~
+Along the chuch ile, rows of pews are found on either side of you.
+White flowers can be found on each of the pews, wich can be picked
+and given to your loved ones.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 813
+D2
+Exit ~
+door~
+0 0 818
+D3
+Exit ~
+door~
+0 0 815
+S
+#815
+Chruch Ile~
+Along the chuch ile, rows of pews are found on either side of you.
+White flowers can be found on each of the pews, wich can be picked
+and given to your loved ones.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 814
+D2
+Exit ~
+door~
+0 0 817
+D3
+Exit ~
+door~
+0 0 816
+S
+#816
+Chruch Altar~
+Before the Chruch Altar.  A large stained glass window is above the  
+Altar, with the picture of a man standing in a hanging formation.  The
+symbol of a cross can be seen in each corner of the window frame.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 815
+S
+#817
+Brides Changing room~
+Room filled with white, and pink flowers.  Lace hanging off the windows
+and small little red pettles are all around the room.  A small little
+tailor is here perfecting every little nitch and knot in your wedding 
+cloths
+~
+0 DJT 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 815
+S
+#818
+Groom's changing room~
+A small little man is here tailoring your cloths to a perfection.  Every
+nitch and knot must be perfect.  Small little exotic perfumes and drinks
+may also be purchased here.
+~
+0 JT 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 814
+S
+#819
+Before the Castle Staircase~
+Infront of the castle entrance.  To the north is a large old oak door
+with a old dull grey looking knocker.  Vines slowly crawl up the small
+pillars that are one each side of the entraceway.  Two large white 
+marble lions are on each side of you.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 827
+D1
+Exit ~
+door~
+0 0 811
+D3
+Exit ~
+door~
+0 0 820
+E
+left lion~
+A large white marble lion is here, sleeping...  To creep past this little
+spelling lion should be a breeze.
+~
+E
+right lion~
+A large white lion, with a large main is here.  Mouth wide open, looking
+to bite onto anyone who dares to enter the castle.
+~
+S
+#820
+Holding area for trasportation~
+This is the room where everyone places there source of transportation
+into.  There are tracks leading to the east.  A castle window can be
+seen up from here.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 819
+E
+up window castle~
+A man is here singing to the window inhopes that someone will hear him.
+~
+E
+up~
+Generic extended description.
+~
+S
+#821
+Dog kennel entrance~
+A large black iron gate is to the east protecting strangers from 
+entering the kennel inwich they would die, and become dog food.  The 
+trees loom over head, cuaseing the room to be rather dark and eriee.
+~
+0 0 0
+D1
+Exit ~
+door~
+1 0 822
+D3
+Exit ~
+door~
+0 0 811
+S
+#822
+Dog kennel entrance~
+A large black iron gate is here protecting people from leaving the 
+kennel inwich they will sure die, and become dog food.  The trees 
+loom over head, causeing the room to be rather dark and eriee.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 824
+D2
+Exit ~
+door~
+0 0 823
+D3
+Exit ~
+door~
+1 0 821
+S
+#823
+Dog kennel~
+Large concrete walls are here, coverd in blood and scratchs.  Small
+piced of dehidrated fecies are scattered all around.  Trees loom 
+over head creating a perfect shelter from the weather.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 822
+E
+west east~
+Concrete walls, covered in blood and scratchs
+~
+S
+#824
+Dog kennel~
+Large concrete walls are here, coverd in blood and scratchs.  Small
+piced of dehidrated fecies are scattered all around.  Trees loom 
+over head creating a perfect shelter from the weather.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 825
+D2
+Exit ~
+door~
+0 0 822
+E
+west east~
+Concrete walls, covered in blood and scratchs
+~
+S
+#825
+Dog kennel~
+Large concrete walls are here, coverd in blood and scratchs.  Small
+piced of dehidrated fecies are scattered all around.  Trees loom 
+over head creating a perfect shelter from the weather.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 826
+D2
+Exit ~
+door~
+0 0 824
+E
+west east~
+Concrete walls, covered in blood and scratchs
+~
+S
+#826
+Dog kennel~
+Large concrete walls are here, coverd in blood and scratchs.  Small
+piced of dehidrated fecies are scattered all around.  Trees loom 
+over head creating a perfect shelter from the weather.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 825
+E
+west east~
+Concrete walls, covered in blood and scratchs
+~
+S
+#827
+Castle Staircase~
+You are on the staircase, faceing the large wooden door to the castle.
+On each side of you there are gargoyles holding shield with the letters
+on them.  A large wooden knocker is on the door, waiting for someone like
+you to use it.
+~
+0 0 0
+D0
+Exit ~
+door~
+1 0 828
+D2
+Exit ~
+door~
+0 0 819
+E
+door knocker~
+A large iron knocker is here, hanging on the door.
+~
+E
+gargoyle shield letters~
+A gargoyle is here holding a shield with a 'T and S' engraved on it.
+~
+S
+#828
+Castle entrance~
+You are standing inside the castle entrace where you can see a little
+red spot on the staircase.  To the north is two large wooden doors, and 
+to the west you can smell a very strange oder.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 829
+D1
+Exit ~
+door~
+0 0 832
+D2
+Exit ~
+wooden castle door~
+1 0 827
+D3
+Exit ~
+door~
+0 0 830
+S
+#829
+Main hall~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 838
+D2
+Exit ~
+door~
+0 0 828
+S
+#830
+Grandfathers room~
+Your standing beside a old wooden clock that has a skeleton inside of
+it.  The clocks face is enernally faceing midnight, and is all covered
+in cobwebs.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 831
+D1
+Exit ~
+door~
+0 0 828
+S
+#831
+Zen Room~
+You are standing in a smoke filled room where the smells are filling
+your nostrils will all sorts of exotic smells.  A smoking bong is seen
+in the center of the room, and a ashtray beside it.  The only exit from
+this great room is to the south.
+~
+0 D 0
+H 200 M 200
+D2
+Exit ~
+door~
+0 0 830
+S
+#832
+Staircase~
+Along the old fragil staircase.  Bannaster coved in cobwebs and small
+crawling spiders.  A dirty old red carpet covers the main pathway of
+the stairs.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 833
+D3
+Exit ~
+door~
+0 0 828
+S
+#833
+Staircase~
+Along the old fragil staircase.  Bannaster coved in cobwebs and small
+crawling spiders.  A dirty old red carpet covers the main pathway of
+the stairs.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 832
+D4
+Exit ~
+door~
+0 0 834
+S
+#834
+Staircase~
+Along the old fragil staircase.  Bannaster coved in cobwebs and small
+crawling spiders.  A dirty old red carpet covers the main pathway of
+the stairs.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 835
+D5
+Exit ~
+door~
+0 0 833
+S
+#835
+Staircase~
+Along the old fragil staircase.  Bannaster coved in cobwebs and small
+crawling spiders.  A dirty old red carpet covers the main pathway of
+the stairs.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 834
+D4
+Exit ~
+door~
+0 0 836
+S
+#836
+Top of the staircase~
+You are standing on the top of the staircase.  The walls are coverd
+in a flower design with shades of brown and purple.  There is a dinning
+room to the north, and a bedroom to the east.  The staircase is to the
+south leading down to the entrance of the castle.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 837
+D1
+Exit ~
+door~
+0 0 847
+D5
+Exit ~
+door~
+0 0 835
+S
+#837
+Top of the staircase~
+You are standing on the top of the staircase.  The walls are coverd
+in a flower design with shades of brown and purple.  There is a dinning
+room to the north, and a bedroom to the east.  The staircase is to the
+south leading down to the entrance of the castle.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 885
+D2
+Exit ~
+door~
+0 0 836
+D3
+Exit ~
+door~
+0 0 883
+S
+#838
+Dance floor~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 845
+D1
+Exit ~
+door~
+0 0 842
+D2
+Exit ~
+door~
+1 0 829
+D3
+Exit ~
+door~
+0 0 839
+S
+#839
+Dance floor~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 840
+D1
+Exit ~
+door~
+0 0 838
+S
+#840
+Dance floor~
+This is a huge room with large windows on both the northern and western
+sides of the room covered in huge, flowing white curtains that all but hide
+the dark of night.  Dancers prance across a large, shiny cheqered dance floor
+matching that of the glizty, silver deocrations decorating the walls.  A large
+punch bowl sits on a long table on the eastern wall.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 841
+D1
+Exit ~
+door~
+0 0 845
+D2
+Exit ~
+door~
+0 0 839
+S
+#841
+Dance floor~
+This is a huge room with large windows on both the northern and western
+sides of the room covered in huge, flowing white curtains that all but hide
+the dark of night.  Dancers prance across a large, shiny cheqered dance floor
+matching that of the glizty, silver deocrations decorating the walls.  A large
+punch bowl sits on a long table on the eastern wall.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 846
+D2
+Exit ~
+door~
+0 0 840
+S
+#842
+The lift~
+You are on a lift, that goes up and down.  Bringing people to other 
+levels of the castle, where other activites, and things are going on.
+The lift is pained a nice shade of red, with small specks of black.
+The life goes up, down, and the exit is north and west.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 843
+D3
+Exit ~
+door~
+0 0 838
+D4
+Exit ~
+door~
+0 0 850
+D5
+Exit ~
+door~
+0 0 851
+S
+#843
+Dance floor~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 844
+D2
+Exit ~
+door~
+0 0 842
+D3
+Exit ~
+door~
+0 0 845
+S
+#844
+Dance floor~
+Generic room description.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 843
+D3
+Exit ~
+door~
+0 0 846
+S
+#845
+Dance floor~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 846
+D1
+Exit ~
+door~
+0 0 843
+D2
+Exit ~
+door~
+0 0 838
+D3
+Exit ~
+door~
+0 0 840
+S
+#846
+Dance floor~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 848
+D1
+Exit ~
+door~
+0 0 844
+D2
+Exit ~
+door~
+0 0 845
+D3
+Exit ~
+door~
+0 0 841
+S
+#847
+Columbia and Magneta's Room~
+The walls are filled with painings of a man, dressed in a black jacket
+black shirt, and strange writings on his fingers.  Two beds can be
+found on either side of the room.  One is stripped and the other is a 
+silky velvet red.
+~
+0 DT 0
+H 200 M 200
+D3
+Exit ~
+door~
+0 0 836
+S
+#848
+A small stage~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 846
+S
+#849
+Podium~
+You are standing on the podium where the scientest annouce that he has
+discovered another scientific bio-cemical audio vibro research breakthrough.
+Two large cones are on either side of the podium to amplify the professor
+when speaking.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 863
+S
+#850
+The lift~
+You are on the top floor of the lift, and are faceing the labratory
+of the professor.  The lift that your standing in is a apple red, with
+specks of black all over.  The lift continues downwards.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 864
+D1
+Exit ~
+door~
+0 0 852
+D3
+Exit ~
+door~
+0 0 853
+D5
+Exit ~
+door~
+0 0 842
+S
+#851
+The lift~
+You are on a lift, that goes up and down.  Bringing people to other 
+levels of the castle, where other activites, and things are going on.
+The lift is pained a nice shade of red, with small specks of black.
+The lift goes up, and the exit is to the norht.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 868
+D4
+Exit ~
+door~
+0 0 842
+S
+#852
+Room in the Lab~
+You are in a room, inside the labratory where science experments are
+always going on.  There is a large dome of glass on the room, allowing
+the sunlight to come on into the labratory.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 854
+D1
+Exit ~
+door~
+0 0 857
+D3
+Exit ~
+door~
+0 0 850
+E
+up roof dome~
+A large glass dome is above you, with a strange red machine hanging from
+it.
+~
+S
+#853
+Room in the Lab~
+You are in a room, inside the labratory where science experments are
+always going on.  There is a large dome of glass on the room, allowing
+the sunlight to come on into the labratory.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 862
+D1
+Exit ~
+door~
+0 0 850
+E
+up roof dome~
+A large glass dome is above you, with a strange red machine hanging from
+it.
+~
+S
+#854
+Room in the Lab~
+You are in a room, inside the labratory where science experments are
+always going on.  There is a large dome of glass on the room, allowing
+the sunlight to come on into the labratory.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 855
+D2
+Exit ~
+door~
+0 0 852
+E
+up roof dome~
+A large glass dome is above you, with a strange red machine hanging from
+it.
+~
+S
+#855
+Room in the Lab~
+You are in a room, inside the labratory where science experments are
+always going on.  There is a large dome of glass on the room, allowing
+the sunlight to come on into the labratory.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 856
+D1
+Exit ~
+door~
+1 0 861
+D2
+Exit ~
+door~
+0 0 854
+D3
+Exit ~
+door~
+0 0 865
+E
+up roof dome~
+A large glass dome is above you, with a strange red machine hanging from
+it.
+~
+S
+#856
+Room in the Lab~
+You are in a room, inside the labratory where science experments are
+always going on.  There is a large dome of glass on the room, allowing
+the sunlight to come on into the labratory.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 860
+D2
+Exit ~
+door~
+0 0 855
+D3
+Exit ~
+door~
+0 0 867
+E
+up roof dome~
+A large glass dome is above you, with a strange red machine hanging from
+it.
+~
+S
+#857
+The ramp~
+A long ramp leading around the east side of the lab.  White plaster
+statues are found along the walls.  A long white iron banaster is
+tracing the west wall.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 858
+D3
+Exit ~
+door~
+0 0 852
+E
+up roof cieling~
+There are water stains all along the cieling.
+~
+E
+east staute white~
+A large naked, plaster white statue is here.  Point upwards towards
+the sky.
+~
+E
+bannaster west~
+A white iron banaster is tracing the west side of the ramp.
+~
+S
+#858
+The ramp~
+Along the ramp leading around the east side of the lab.  A large 
+crack can be seen in the east side the wall.  A long white iron
+banaster is tracking the west wall.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 859
+D1
+Exit ~
+door~
+1 0 887
+D2
+Exit ~
+door~
+0 0 857
+E
+up roof cieling~
+There are water stains all along the cieling.
+~
+E
+east staute white~
+A large naked, plaster white statue is here.  Point upwards towards
+the sky.
+~
+E
+bannaster west~
+A white iron banaster is tracing the west side of the ramp.
+~
+S
+#859
+The ramp~
+A long ramp leading around the east side of the lab.  White plaster
+statues are found along the walls.  A long white iron banaster is
+tracing the west wall.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 860
+D2
+Exit ~
+door~
+0 0 858
+E
+up roof cieling~
+There are water stains all along the cieling.
+~
+E
+east staute white~
+A large naked, plaster white statue is here.  Point upwards towards
+the sky.
+~
+E
+bannaster west~
+A white iron banaster is tracing the west side of the ramp.
+~
+S
+#860
+The ramp~
+A long ramp leading around the east side of the lab.  White plaster
+statues are found along the walls.  A long white iron banaster is
+tracing the west wall.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 859
+D3
+Exit ~
+door~
+0 0 856
+E
+up roof cieling~
+There are water stains all along the cieling.
+~
+E
+east staute white~
+A large naked, plaster white statue is here.  Point upwards towards
+the sky.
+~
+E
+bannaster west~
+A white iron banaster is tracing the west side of the ramp.
+~
+S
+#861
+Freezer~
+You are inside the freezer where the professor keeps his research projects
+forzen till he needs them again.  The walls are covered in a small layer
+of blood, and ice.
+~
+0 DNT 0
+H 300 M 300
+D3
+Exit ~
+door~
+1 0 855
+S
+#862
+Room in the Lab~
+You are in a room, inside the labratory where science experments are
+always going on.  There is a large dome of glass on the room, allowing
+the sunlight to come on into the labratory.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 863
+D2
+Exit ~
+door~
+0 0 853
+E
+up roof dome~
+A large glass dome is above you, with a strange red machine hanging from
+it.
+~
+S
+#863
+Room in the Lab~
+You are in a room, inside the labratory where science experments are
+always going on.  There is a large dome of glass on the room, allowing
+the sunlight to come on into the labratory.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 866
+D1
+Exit ~
+door~
+0 0 865
+D2
+Exit ~
+door~
+0 0 862
+D3
+Exit ~
+door~
+0 0 849
+E
+up roof dome~
+A large glass dome is above you, with a strange red machine hanging from
+it.
+~
+S
+#864
+Room in the Lab~
+You are in a room, inside the labratory where science experments are
+always going on.  There is a large dome of glass on the room, allowing
+the sunlight to come on into the labratory.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 865
+D2
+Exit ~
+door~
+0 0 850
+E
+up roof dome~
+A large glass dome is above you, with a strange red machine hanging from
+it.
+~
+S
+#865
+Room in the Lab~
+You are in a room, inside the labratory where science experments are
+always going on.  There is a large dome of glass on the room, allowing
+the sunlight to come on into the labratory.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 867
+D1
+Exit ~
+door~
+0 0 855
+D2
+Exit ~
+door~
+0 0 864
+D3
+Exit ~
+door~
+0 0 863
+E
+up roof dome~
+A large glass dome is above you, with a strange red machine hanging from
+it.
+~
+S
+#866
+Room in the Lab~
+You are in a room, inside the labratory where science experments are
+always going on.  There is a large dome of glass on the room, allowing
+the sunlight to come on into the labratory.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 867
+D2
+Exit ~
+door~
+0 0 863
+E
+up roof dome~
+A large glass dome is above you, with a strange red machine hanging from
+it.
+~
+S
+#867
+Room in the Lab~
+You are in a room, inside the labratory where science experments are
+always going on.  There is a large dome of glass on the room, allowing
+the sunlight to come on into the labratory.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 856
+D2
+Exit ~
+door~
+0 0 865
+D3
+Exit ~
+door~
+0 0 866
+E
+up roof dome~
+A large glass dome is above you, with a strange red machine hanging from
+it.
+~
+S
+#868
+The audence seats~
+These seats are all faceing the stage floor to the north, just over
+looking the top of the stage.  There are more seats to the east and west
+of here.  Looking around, you may never know who you may see.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 871
+D1
+Exit ~
+door~
+0 0 870
+D2
+Exit ~
+door~
+0 0 851
+D3
+Exit ~
+door~
+0 0 869
+S
+#869
+The audence seats~
+These seats are all faceing the stage floor to the north, just over
+looking the top of the stage.  There are more seats to the east of here.
+Looking around, you may never know who you may see.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 876
+D1
+Exit ~
+door~
+0 0 868
+S
+#870
+The audence seats~
+These seats are all faceing the stage floor to the north, just over
+looking the top of the stage.  There are more seats to the east of here.
+Looking around, you may never know who you may see.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 875
+D3
+Exit ~
+door~
+0 0 868
+S
+#871
+The pool~
+You are flying above the pool inside the stage area.  Looking down into
+the pool you can see a paining of a man, reaching out to touch the finger
+of a angellic being.
+~
+0 D 6
+D0
+Exit ~
+door~
+0 0 874
+D1
+Exit ~
+door~
+0 0 873
+D2
+Exit ~
+door~
+0 0 868
+D3
+Exit ~
+door~
+0 0 872
+E
+up roof ceiling~
+Generic extended description.
+~
+E
+water pool down~
+The water is a clean clear blue.
+~
+S
+#872
+The pool~
+You are flying above the pool inside the stage area.  Looking down into
+the pool you can see a paining of a man, reaching out to touch the finger
+of a angellic being.
+~
+0 D 6
+D1
+Exit ~
+door~
+0 0 871
+E
+up roof ceiling~
+Generic extended description.
+~
+E
+water pool down~
+The water is a clean clear blue.
+~
+S
+#873
+The pool~
+You are flying above the pool inside the stage area.  Looking down into
+the pool you can see a paining of a man, reaching out to touch the finger
+of a angellic being.
+~
+0 D 6
+D3
+Exit ~
+door~
+0 0 871
+E
+up roof ceiling~
+Generic extended description.
+~
+E
+water pool down~
+The water is a clean clear blue.
+~
+S
+#874
+The diving board~
+Standing on a diving board to the pool to the south.  Extending just over
+the ledge.  The water is crisp and clear from this point, above the water.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 871
+E
+north west east up~
+A pink tile wall.
+~
+E
+down water pool~
+The pool is a clean blue water.
+~
+S
+#875
+The stage~
+You are standing on the famous stage, where the great Dr.Frank'n'Furter
+does all of his plays.  The stages seems to be fairly worn as there are
+shows every night here.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 882
+D2
+Exit ~
+door~
+0 0 870
+D3
+Exit ~
+door~
+0 0 876
+S
+#876
+The stage~
+You are standing on the famous stage, where the great Dr.Frank'n'Furter
+does all of his plays.  The stages seems to be fairly worn as there are
+shows every night here.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 875
+D2
+Exit ~
+door~
+0 0 871
+D3
+Exit ~
+door~
+0 0 877
+S
+#877
+Stage Right~
+You are on the side of the stage, where all the actors get ready to go
+on stage, and preform there magic.  Small wooden beams are all hanging
+around, holding up props and other sets from previous plays.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 878
+D1
+Exit ~
+door~
+0 0 876
+E
+beams props sets~
+A background pannel is here, with a window painted onto it.
+~
+S
+#878
+Backstage~
+This room is covered in background droppings and set props from other
+plays that have been used in the other plays in the past.  The backstage
+continues to the east.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 879
+D2
+Exit ~
+door~
+0 0 877
+E
+propt set~
+A background drop of a wall, will a candle painted onto it.
+~
+S
+#879
+Backstage~
+This room is covered in background droppings and set props from other
+plays that have been used in the other plays in the past.  The backstage
+continues to the east and west.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 880
+D3
+Exit ~
+door~
+0 0 878
+E
+propt set~
+A background drop of a wall, will a candle painted onto it.
+~
+S
+#880
+Backstage~
+This room is covered in background droppings and set props from other
+plays that have been used in the other plays in the past.  The backstage
+continues to the east and west.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 881
+D3
+Exit ~
+door~
+0 0 879
+E
+propt set~
+A background drop of a wall, will a candle painted onto it.
+~
+S
+#881
+Backstage~
+This room is covered in background droppings and set props from other
+plays that have been used in the other plays in the past.  The backstage
+continues to the west.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 882
+D3
+Exit ~
+door~
+0 0 880
+E
+propt set~
+A background drop of a wall, will a candle painted onto it.
+~
+S
+#882
+Stage left~
+You are on the side of the stage, where all the actors get ready to go
+on stage, and preform there magic.  Small wooden beams are all hanging
+around, holding up props and other sets from previous plays.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 881
+D3
+Exit ~
+door~
+0 0 875
+E
+beams props sets~
+A background pannel is here, with a window painted onto it.
+~
+S
+#883
+Staircase~
+Along the old fragil staircase.  Bannaster coved in cobwebs and small
+crawling spiders.  A dirty old red carpet covers the main pathway of
+the stairs.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 837
+D5
+Exit ~
+door~
+0 0 884
+S
+#884
+Staircase~
+Along the old fragil staircase.  Bannaster coved in cobwebs and small
+crawling spiders.  A dirty old red carpet covers the main pathway of
+the stairs.
+~
+0 D 0
+D3
+Exit ~
+door~
+1 0 887
+D4
+Exit ~
+door~
+0 0 883
+S
+#885
+The dinning lounge~
+You are standing inside the dinning room of the castle, where a table is
+set up, with all asorted glasses, and utenciles.  The walls are a solid
+black and the roof has a old pool table light.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 886
+D2
+Exit ~
+door~
+0 0 837
+S
+#886
+The dinning lounge~
+You are standing inside the dinning room of the castle, where a table is
+set up, with all asorted glasses, and utenciles.  The walls are a solid
+black and the roof has a old pool table light.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 885
+S
+#887
+Secret room in the Castle.~
+You are in the secret room in the Castle.  A small crack can be founded
+on either side of the walls.
+~
+0 D 0
+H -200 M 400
+D1
+Exit ~
+door~
+1 0 884
+D3
+Exit ~
+door~
+1 0 858
+S
+#0
+
+#RESETS
+M 0  800   1  816  1	* Priest
+M 0  801   1  817  1	* Tailor
+G 1  802  -1     	*   bouqet of flowers
+G 1  804  -1     	*   a pure white rose
+G 1  803  -1     	*   pale blue rose
+G 1  805  -1     	*   a soft red rose
+G 1  806  -1     	*   a black lace wedding dress
+G 1  807  -1     	*   a black lace veil
+G 1  809  -1     	*   black lace undergramets
+G 1  800  -1     	*   white wedding gown
+G 1  801  -1     	*   a white veil
+G 1  808  -1     	*   white lace undergarmets
+G 1  810  -1     	*   wedding rice
+M 0  802   1  818  1	* Tailor
+O 0  812 100  814	* pew
+P 1  811  -1  812  1	*   a white carnation
+O 0  812 100  815	* pew
+P 1  811  -1  812  1	*   a white carnation
+O 0 3200 100  844	* the juke
+D 0  887   1    1	* Secret room in the Castle. east
+D 0  887   3    1	* Secret room in the Castle. west
+D 0  821   1    1	* Dog kennel entrance east
+D 0  822   3    1	* Dog kennel entrance west
+S
+
+#SHOPS
+ 801  9 13  0  0  0 	 100  50 	 0 23 	* Tailor
+ 802  9 13  0  0  0 	 100  50 	 0 23 	* Tailor
+0
+
+#SPECIALS
+M 800 spec_cast_adept     	* Priest
+S
+
+#$

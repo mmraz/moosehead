@@ -3,8 +3,8 @@ Name BlackWidow~
 SurN HourGlass~
 Id   1040343331
 Email (null)~
-LogO 1056249727
-Vers 31
+LogO 1343153113
+Vers 33
 Desc Cold black eyes look back at you. It would be best if you
 didn't attract attention to yourself. She smells fear.
 Bloodthirsty and deadly she will kill you without remorse.
@@ -21,6 +21,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -28,10 +29,14 @@ LstAtkedByTimer 0
 LstCombatDate 1040343331
 LstKillDate 1040343331
 LstDeathDate 1040343331
-LoginsWOKill 0
-LoginsWODeath 0
-LoginsWOCombat 0
+LoginsWOKill 11
+LoginsWODeath 11
+LoginsWOCombat 11
 Bnty 0
+DeityFavor 1 0
+PrefStat 0
+OldC 0 22 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -1553 xochipili~
 Sac  300
@@ -41,82 +46,176 @@ Node 0
 Cap 0
 Created 1040343348
 Glad 0 0 0 0 0 0
+LastHost 71.56.157.200~
 Cla  8
 Kit ninja~
 ClaO 2
-Levl 16
+Levl 33
 DLevl 0
-Plyd 65191
-Not  1042766327 1042766346 0 1042766319 1041824304 1042766334 0 1042766340 0 1042645050
+Plyd 131065
+Not  1342832870 1341851822 0 1343075803 1332523915 1342856721 0 1342825778 0 1342565119
 Scro 22
 Rank 0
-Room 30175
-HMV  303 303 144 144 203 203
-Gold 315
-Silv 9905
-Exp  96336
-Act  BCDEFGHK
+Room -801
+HMV  575 575 252 252 458 458
+Gold 246
+Silv 77
+BankEggs 1
+Exp  201217
+Act  BCDEFGHKQ
 MHSF R
-AfBy J
-Comm GILRSc
+AfBy CJ
+Comm GILRS
 Disp FGIJ
 IcgB 0
 Icg 0
 Pnet BCHI
-Pos  4
-SkiP 109
+Pos  8
+Prac 30
+Trai 3
+StatsTrained 20 0 0
+SkiP 269
+Save  -6
 Alig  1000
-Hit   21
-Dam   8
-SecHit   17
-SecDam   4
-ACs 62 58 57 67
+Hit   25
+Dam   23
+SecHit   21
+SecDam   19
+ACs 60 60 60 66
 Wimp  20
-Attr 18 13 13 20 21 18 18 12
-AMod 2 0 0 3 0 0 0 0
-Pass Bl0LvlQFM6WXQ~
+Attr 22 19 19 23 22 14 14 12
+AMod 0 0 0 2 0 0 0 0
+Pass BlhXgTUaaJPdg~
 Titl  {Dweaves her web of {rdeath{x.~
 Pnts 84
 TSex 2
-LLev 17
-HMVP 278 144 187
-Cnd  0 0 0 24
-Sk 1 'fly'
-Sk 1 'gate'
+LLev 30
+HMVP 555 236 447
+Cnd  0 0 35 22
+Alias gate c gate~
+Sk 40 'convert'
+Sk 44 'fly'
+Sk 75 'gate'
 Sk 1 'knock'
 Sk 1 'nexus'
-Sk 1 'pass door'
+Sk 50 'pass door'
 Sk 1 'portal'
-Sk 1 'summon'
-Sk 1 'teleport'
-Sk 75 'word of recall'
-Sk 96 'dagger'
-Sk 19 'backstab'
-Sk 31 'daetok'
-Sk 18 'dirt kicking'
-Sk 9 'dodge'
-Sk 1 'enhanced damage'
-Sk 19 'garotte'
-Sk 17 'hand to hand'
-Sk 19 'kurijitsu'
-Sk 39 'ninjitsu'
-Sk 16 'parry'
+Sk 61 'summon'
+Sk 41 'teleport'
+Sk 78 'word of recall'
+Sk 100 'dagger'
+Sk 40 'backstab'
+Sk 85 'daetok'
+Sk 30 'dirt kicking'
+Sk 50 'dodge'
+Sk 52 'enhanced damage'
+Sk 75 'garotte'
+Sk 59 'hand to hand'
+Sk 35 'kurijitsu'
+Sk 44 'ninjitsu'
+Sk 28 'parry'
 Sk 51 'scan'
-Sk 16 'second attack'
-Sk 1 'third attack'
-Sk 16 'hide'
+Sk 35 'second attack'
+Sk 23 'third attack'
+Sk 25 'hide'
 Sk 22 'peek'
-Sk 24 'sneak'
-Sk 18 'steal'
-Sk 1 'scrolls'
-Sk 1 'staves'
-Sk 9 'wands'
+Sk 37 'sneak'
+Sk 35 'steal'
+Sk 10 'scrolls'
+Sk 10 'staves'
+Sk 24 'wands'
 Sk 50 'swimming'
-Sk 63 'vorpal'
-Sk 50 'recall'
+Sk 67 'vorpal'
+Sk 62 'recall'
 Gr 'rom basics'
 Gr 'assassin basics'
 Gr 'transportation'
+End
+
+#O
+Vnum 8032
+Nest 0
+PrevOwner BlackWidow~
+Cond 0
+Wear 11
+Cost 2000
+End
+
+#O
+Vnum 3504
+Enchanted
+Nest 0
+PrevOwner BlackWidow~
+ExtF 65
+Cond 0
+Wear -1
+Lev  8
+Cost 690
+Affc 'enchant armor'   1  32  -1  -2  17          0
+Affc 'reserved'   1   7  -1   1  18          0
+End
+
+#O
+Vnum 8035
+Nest 0
+PrevOwner BlackWidow~
+Cond 0
+Wear 5
+Cost 2000
+End
+
+#O
+Vnum 8509
+Nest 0
+PrevOwner BlackWidow~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 6511
+Nest 0
+PrevOwner BlackWidow~
+Cond 0
+Wear 2
+Cost 460
+End
+
+#O
+Vnum 16721
+Nest 0
+PrevOwner Bullwart~
+Cond 0
+Wear 3
+Cost 0
+End
+
+#O
+Vnum 9321
+Nest 0
+PrevOwner BlackWidow~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 16721
+Nest 0
+PrevOwner Bullwart~
+Cond 0
+Wear 4
+Cost 0
+End
+
+#O
+Vnum 8510
+Nest 0
+PrevOwner BlackWidow~
+Cond 0
+Wear 18
+Cost 200
 End
 
 #O
@@ -129,40 +228,40 @@ Cost 0
 End
 
 #O
-Vnum 4436
-Nest 1
-PrevOwner Mindweaver~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8902
+Vnum 5706
 Nest 1
 PrevOwner BlackWidow~
 Cond 0
 Wear -1
-Cost 0
-Val  5 1 0 5 100
+Cost 2000
 End
 
 #O
-Vnum 8904
-Nest 2
-PrevOwner (null)~
+Vnum 5710
+Nest 1
+PrevOwner BlackWidow~
 Cond 0
 Wear -1
-Cost 0
+Cost 1000
 End
 
 #O
-Vnum 8903
-Nest 2
-PrevOwner (null)~
+Vnum 5710
+Nest 1
+PrevOwner BlackWidow~
 Cond 0
 Wear -1
-Cost 0
+Cost 1000
+End
+
+#O
+Vnum 8120
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 600
+Spell 3 'create water'
 End
 
 #O
@@ -172,6 +271,37 @@ PrevOwner BlackWidow~
 Cond 0
 Wear -1
 Cost 20
+End
+
+#O
+Vnum 20703
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 8002
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 1000
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 961
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 1700
+Spell 1 'protection evil'
+Spell 2 'frenzy'
+Spell 3 'bless'
 End
 
 #O
@@ -182,99 +312,6 @@ Cond 0
 Wear -1
 Cost 20
 Val  2 0 13 0 0
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 3377
-Nest 2
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 2
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 22044
-Nest 2
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 2
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 3377
-Nest 2
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 2
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 2
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 2
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 6646
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Time 339
-Cost 150
-Spell 1 'cure light'
-Spell 2 'armor'
 End
 
 #O
@@ -292,92 +329,22 @@ Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
-Vnum 2901
+Vnum 8136
 Nest 1
 PrevOwner BlackWidow~
 Cond 0
 Wear -1
-Cost 400
+Cost 3350
 End
 
 #O
-Vnum 3163
+Vnum 3138
 Nest 1
 PrevOwner BlackWidow~
 Cond 0
 Wear -1
-Cost 1500
-End
-
-#O
-Vnum 8120
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 600
-Spell 3 'create water'
-End
-
-#O
-Vnum 6646
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Time 368
-Cost 150
-Spell 1 'cure light'
-Spell 2 'armor'
-End
-
-#O
-Vnum 20
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 0
-Val  27 54 0 0 0
-End
-
-#O
-Vnum 20
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 0
-Val  27 54 0 0 0
-End
-
-#O
-Vnum 20
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 0
-Val  27 54 0 0 0
-End
-
-#O
-Vnum 3018
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 1310
-End
-
-#O
-Vnum 9224
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 200
-Val  150 38 0 0 0
+Cost 24
+Val  64 16 0 0 0
 End
 
 #O
@@ -390,56 +357,381 @@ Cost 6000
 End
 
 #O
-Vnum 8033
-Nest 0
+Vnum 10309
+Nest 1
 PrevOwner BlackWidow~
 Cond 0
-Wear 10
-Cost 2000
+Wear -1
+Cost 6011
 End
 
 #O
-Vnum 8032
-Nest 0
+Vnum 22044
+Nest 2
 PrevOwner BlackWidow~
 Cond 0
-Wear 11
-Cost 2000
+Wear -1
+Cost 100000
 End
 
 #O
-Vnum 8031
-Nest 0
+Vnum 22044
+Nest 2
 PrevOwner BlackWidow~
 Cond 0
-Wear 9
-Cost 2000
+Wear -1
+Cost 100000
 End
 
 #O
-Vnum 8030
-Nest 0
+Vnum 22044
+Nest 2
 PrevOwner BlackWidow~
 Cond 0
-Wear 8
-Cost 2000
+Wear -1
+Cost 100000
 End
 
 #O
-Vnum 8036
-Nest 0
-PrevOwner Diva~
+Vnum 22044
+Nest 2
+PrevOwner BlackWidow~
 Cond 0
-Wear 7
-Cost 2000
+Wear -1
+Cost 100000
 End
 
 #O
-Vnum 2911
+Vnum 31723
+Nest 1
+PrevOwner BlackWidow~
+ExtF 1581089
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 6520
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 6513
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 31731
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 1250
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 2013
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'colour spray'
+End
+
+#O
+Vnum 3156
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 10326
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3092
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3092
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3293
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 609
+Spell 1 'word of recall'
+End
+
+#O
+Vnum 3084
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 220
+Spell 1 'cure serious'
+End
+
+#O
+Vnum 22212
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 270
+Spell 1 'armor'
+End
+
+#O
+Vnum 3084
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 220
+Spell 1 'cure serious'
+End
+
+#O
+Vnum 3084
+Nest 2
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 220
+Spell 1 'cure serious'
+End
+
+#O
+Vnum 9224
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 200
+Val  150 0 0 0 0
+End
+
+#O
+Vnum 8049
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10424
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 2604
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 961
+Nest 1
+PrevOwner BlackWidow~
+Cond 0
+Wear -1
+Cost 1700
+Spell 1 'protection evil'
+Spell 2 'frenzy'
+Spell 3 'bless'
+End
+
+#O
+Vnum 3050
 Nest 0
 PrevOwner BlackWidow~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 End
 
@@ -449,7 +741,6 @@ Enchanted
 Nest 0
 PrevOwner BlackWidow~
 ExtF 321
-Stolen 39
 Cond 0
 Wear 16
 Lev  16
@@ -461,249 +752,102 @@ Affc 'reserved'   1  12  -1  11  14          0
 End
 
 #O
-Vnum 8510
+Vnum 2505
 Nest 0
-PrevOwner BlackWidow~
-Cond 0
-Wear 18
-Cost 200
-End
-
-#O
-Vnum 3504
-Nest 0
-PrevOwner BlackWidow~
-Cond 0
-Wear 15
-Cost 690
-End
-
-#O
-Vnum 3504
-Nest 0
-PrevOwner BlackWidow~
+PrevOwner (null)~
 Cond 0
 Wear 14
-Cost 690
+Cost 1150
 End
 
 #O
-Vnum 8029
+Vnum 10428
 Nest 0
-PrevOwner BlackWidow~
-Cond 0
-Wear 6
-Cost 2000
-End
-
-#O
-Vnum 8035
-Nest 0
-PrevOwner BlackWidow~
-Cond 0
-Wear 5
-Cost 2000
-End
-
-#O
-Vnum 17666
-Nest 0
-PrevOwner BlackWidow~
-Cond 0
-Wear 4
-Cost 1000
-End
-
-#O
-Vnum 17666
-Nest 0
-PrevOwner BlackWidow~
-Cond 0
-Wear 3
-Cost 1000
-End
-
-#O
-Vnum 2737
-Nest 0
-PrevOwner BlackWidow~
-Cond 0
-Wear 13
-Cost 1000
-End
-
-#O
-Vnum 6511
-Nest 0
-PrevOwner BlackWidow~
-Cond 0
-Wear 2
-Cost 460
-End
-
-#O
-Vnum 6511
-Nest 0
-PrevOwner BlackWidow~
+PrevOwner Ocerg~
 Cond 0
 Wear 1
-Cost 460
+Cost 0
 End
 
 #O
-Vnum 8509
+Vnum 23106
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 6
+Cost 1500
+End
+
+#O
+Vnum 23107
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 1500
+End
+
+#O
+Vnum 23111
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 9
+Cost 1500
+End
+
+#O
+Vnum 23112
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 13
+Cost 1500
+End
+
+#O
+Vnum 23109
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 7
+Cost 1500
+End
+
+#O
+Vnum 23110
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 8
+Cost 1500
+End
+
+#O
+Vnum 3018
 Nest 0
 PrevOwner BlackWidow~
 Cond 0
-Wear 17
-Cost 0
+Wear -1
+Cost 1310
 End
 
 #O
-Vnum 10309
+Vnum 2504
 Nest 0
-PrevOwner BlackWidow~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 6011
+Cost 1160
 End
 
 #O
-Vnum 4433
-Nest 1
-PrevOwner BlackWidow~
+Vnum 2505
+Nest 0
+PrevOwner (null)~
 Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 4433
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 5710
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 5710
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 5706
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 5706
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 4438
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 5933
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 4440
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 6621
-Nest 1
-PrevOwner BlackWidow~
-ExtF 134217792
-Wt   65
-Cond 0
-Wear -1
-Cost 780
-Val  1 2 1 1 4
-End
-
-#O
-Vnum 5740
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 8508
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 1300
-End
-
-#O
-Vnum 5231
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 1335
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 10424
-Nest 1
-PrevOwner BlackWidow~
-Cond 0
-Wear -1
-Cost 5500
+Wear 15
+Cost 1150
 End
 
 #END

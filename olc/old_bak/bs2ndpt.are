@@ -1,0 +1,603 @@
+#AREA
+../newareas/bs2ndpt.are~
+The Citadel of Kunji~
+{45 51} BS & GW The Citadel of Kunji~
+19600 19633
+
+#MOBILES
+#0
+
+#OBJECTS
+#19600
+shimmering stone altar~
+a shimmering stone altar~
+An immense, shimmering altar of solid, enchanted stone is here.~
+stone~
+container A 0
+500 ACD 0 100 100
+60 0 0 P
+E
+shimmering stone altar~
+This altar is crafted from a single piece of the enchanted rock taken
+from the depths of the mystical range of mountains.  It changes colors
+at regular intervals, a sight truly wondrous to behold.
+~
+#0
+
+#ROOMS
+#19600
+Entrance Hall of the Citadel of Kunji~
+As you cross the threshold into the mighty citadel, the softly glowing
+gates close behind you.  This entrance hall is lined with colossal
+columns, crafted of the color-shifting rock that the monks favour.
+Beautiful stained-glass windows, depicting various ancient legends and
+forgotten tales, allow the bright sunlight of the valley to illuminate
+the chamber.  Strangely, the windows are not visible when viewed from
+outside.  The Citadel of Kunji is not without its tricks and traps.
+~
+0 CD 0
+D0
+Exit ~
+door~
+0 0 19601
+D2
+Exit ~
+door~
+4 1848 1899
+S
+#19601
+Intersection of Pathways~
+You have come to an intersection of pathways.  To the east and west,
+hallways lead onwards into the gargatuan structure.  Your way to
+the north is blocked by a set of immense gilded ironwood doors, 
+which stretch all the way to the ceiling.  Upon the doors is
+inscribed the words "Jarreth Akn'e Aarn", which means nothing to you.
+Surrounding the inscription are symbols representing the quartet of
+Kunji: the gryphon, the dragon, the manticore and the phoenix.
+~
+0 D 0
+D0
+Exit ~
+door~
+1 0 19602
+D1
+Exit ~
+door~
+0 0 19607
+D2
+Exit ~
+door~
+0 0 19600
+D3
+Exit ~
+door~
+0 0 19605
+S
+#19602
+Chamber of Dedication~
+This vast, cavernous room is the focal point of the monks' humble
+subordinance to their deity.  Lines of pews, crafted of dark ebonwood
+and surfaced with beaten gold, await the arrival of worshipping
+acolytes.  At the far end of the room, you can barely make out a sort
+of floating platform, adorned with a lavish altar and positioned
+high enough in the air to be visible from all corners of the chamber.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 19603
+D2
+Exit ~
+door~
+1 0 19601
+S
+#19603
+In the Shadow of the Altar~
+This entire area of the chamber is shrouded in the shadow of the platform
+floating high overhead.  A multitude of sweet-smelling candles provide
+light in the darkness, allowing you to view the painted murals adorning
+the walls.  There seems to be no apparent way to reach the floating
+altar above you.  Perhaps you are not meant to violate its sacred
+peace. 
+~
+0 AD 0
+D2
+Exit ~
+door~
+0 0 19602
+D4
+Exit ~
+door~
+0 0 19604
+S
+#19604
+The Floating Altar~
+The opulent splendour of the worship hall of the monks is spread
+out below you.  It is only from this vantage point that you can
+understand the brilliant pattern of candles arrayed below.  The lights
+form a dazzling depiction of the Symbol of Kunji: a four-pointed star
+with a smaller one within it.  The candles must be imbued with a
+magical energy, for they never diminish in size or brightness.  It
+is from here that the High Chanter, syl'Kronias leads the monks in
+their fervent prayers and meditation.
+~
+0 D 9
+D5
+Exit ~
+door~
+0 0 19603
+S
+#19605
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 19601
+D3
+Exit ~
+door~
+0 0 19606
+S
+#19606
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19615
+D1
+Exit ~
+door~
+0 0 19605
+D2
+Exit ~
+door~
+0 0 19616
+S
+#19607
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 19630
+D3
+Exit ~
+door~
+0 0 19601
+S
+#19608
+Generic room name~
+Generic room description.
+~
+0 0 0
+S
+#19609
+The Weaponsmithy~
+  Rack upon rack of exquisitely forged weapons welcome you to the
+weaponsmith's forge.  Swords and axes, pole arms and flails, all 
+crafted with skill and experience wait expectantly for an owner.  A
+hissing fills the room with steam, as another sword is cooled by the
+smith.  Sweat pours down your temples, and you long for the peace and
+tranquility of gentle silence.
+  To the north, the rhythmic pounding of steel upon steel can be heard.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19610
+S
+#19610
+A Store Room~
+  This immense room is almost completely filled with crates, boxes, and
+barrels of every size and description.  Every single article is 
+meticulously labelled and arranged in a confusing system of organization.
+Shelves of bottles, vials, and bags line the walls along with racks of
+tools, implements and weapons.  While the room appears to be nearing
+capacity, a powerful enchantment laid upon the chamber will prevent
+it from ever becoming completely filled.
+  The clamour of a mastersmith's hammer upon the anvil can be heard from
+both the north and the south.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19611
+D1
+Exit ~
+door~
+0 0 19615
+D2
+Exit ~
+door~
+0 0 19609
+S
+#19611
+The Armoury~
+  The smell of molten iron greets you as you enter the monastery's 
+armoury.  From the rear of the steaming chamber, the monotonous tone
+of a dwarven hammer striking steel pounds into your skull.  Scattered
+about the room are the remnants of shields and armour obviously not up
+to the smith's ridiculously high standards.  Various suits of mail also
+lie here, polished to a pristine shine, and waiting to be worn into 
+battle.
+  The hammering here is echoed by the sound of another forger plying his
+trade to the south.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 19610
+S
+#19612
+Generic room name~
+Generic room description.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 19613
+S
+#19613
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 19614
+D5
+Exit ~
+door~
+0 0 19612
+S
+#19614
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19613
+D1
+Exit ~
+door~
+0 0 19625
+D2
+Exit ~
+door~
+0 0 19615
+S
+#19615
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19614
+D2
+Exit ~
+door~
+0 0 19606
+D3
+Exit ~
+door~
+0 0 19610
+S
+#19616
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19606
+D5
+Exit ~
+door~
+0 0 19617
+S
+#19617
+Generic room name~
+Generic room description.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 19616
+S
+#19618
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 19619
+S
+#19619
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 19620
+D2
+Exit ~
+door~
+0 0 19624
+D3
+Exit ~
+door~
+0 0 19618
+S
+#19620
+Generic room name~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 19619
+S
+#19621
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 19622
+D5
+Exit ~
+door~
+0 0 19633
+S
+#19622
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19621
+D1
+Exit ~
+door~
+0 0 19626
+D2
+Exit ~
+door~
+0 0 19629
+D3
+Exit ~
+door~
+0 0 19623
+S
+#19623
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 19622
+D3
+Exit ~
+door~
+0 0 19624
+S
+#19624
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19619
+D1
+Exit ~
+door~
+0 0 19623
+D3
+Exit ~
+door~
+0 0 19625
+S
+#19625
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 19624
+D3
+Exit ~
+door~
+0 0 19614
+S
+#19626
+Northern Dining Hall~
+  This luxuriously appointed dining hall is restricted to those of
+significant power in the priesthood.  A massive chandelier, formed of
+thousands of softly glowing crystals, provides breath-taking 
+illumination.  Large oaken tables, immaculately polished to a pristine
+shine, are situated throughout the room, surrounded by elegantly carved,
+velvet backed chairs.
+  The smells and noises of wondrous food being prepared issue from the
+swinging doors to the south.
+~
+0 0 0
+D2
+Exit ~
+door~
+1 0 19627
+D3
+Exit ~
+door~
+0 0 19622
+S
+#19627
+The Kitchen~
+  As you walk into the room, you are immediately immersed in the loud,
+odour-rich environment that is the citadel's kitchen.  You are 
+overwhelmed by the multitude of exotic, succulent dishes being 
+expertly prepared by Kunji's finest chefs.  However, in addition to the
+mouth-watering culinary delights being sped into the northern dining
+room, a large vat of pasty grey gruel is being slowly stirred: a 
+nourishing but unsatisfying meal for those of lesser standing.
+  A large, framed sign is posted on the wall, attracting your attention.
+  Swinging doors lead to the north and to the south.
+~
+0 0 0
+D0
+Exit ~
+door~
+1 0 19626
+D2
+Exit ~
+door~
+1 0 19628
+E
+large sign framed~
+The sign reads:
+     "This is a self-cleaning kitchen: clean up after yourself!"
+~
+S
+#19628
+Southern Dining Hall~
+  This austere room is the mess-hall of the acolytes and common priests
+in the citadel.  Long wooden benches and tables, well-made and practical,
+occupy most of the room.  Bowls of steaming gruel and mugs of bitter tea
+are being served by culinary servants rushing in through swinging doors
+to the north.  The gruel, while hardly delicious, is highly nutritious,
+and is being lapped up by the lowly monks with obvious fervor.
+~
+0 0 0
+D0
+Exit ~
+door~
+1 0 19627
+D3
+Exit ~
+door~
+0 0 19630
+S
+#19629
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19622
+D2
+Exit ~
+door~
+0 0 19630
+S
+#19630
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19629
+D1
+Exit ~
+door~
+0 0 19628
+D2
+Exit ~
+door~
+0 0 19631
+D3
+Exit ~
+door~
+0 0 19607
+S
+#19631
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 19630
+D5
+Exit ~
+door~
+0 0 19632
+S
+#19632
+Generic room name~
+Generic room description.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 19631
+S
+#19633
+Generic room name~
+Generic room description.
+~
+0 0 0
+D4
+Exit ~
+door~
+0 0 19621
+S
+#0
+
+#RESETS
+D 0 19600   2    2	* Entrance Hall of the Citadel of Kunji south
+O 0 19600 100 19604	* a shimmering stone altar
+D 0 19602   2    1	* Chamber of Dedication south
+D 0 19601   0    1	* Intersection of Pathways north
+D 0 19628   0    1	* Southern Dining Hall north
+D 0 19627   0    1	* The Kitchen north
+D 0 19627   2    1	* The Kitchen south
+D 0 19626   2    1	* Northern Dining Hall south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

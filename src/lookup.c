@@ -41,7 +41,7 @@ int flag_lookup (const char *name, const struct flag_type *flag_table)
     return 0;
 }
 
-int clan_lookup(const char *name)
+int nonclan_lookup(const char *name)
 {
     int clan;
 
@@ -53,6 +53,19 @@ int clan_lookup(const char *name)
     }
 
     return 0;
+}
+
+
+CLAN_DATA *clan_lookup(const char *name)
+{
+  CLAN_DATA *temp = clan_first;
+  while(temp)
+  {
+    if(!str_cmp(temp->name, name))
+      return temp;
+    temp = temp->next;
+  }
+  return NULL;
 }
 
 int gift_lookup(const char *name)

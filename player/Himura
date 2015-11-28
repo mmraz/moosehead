@@ -2,8 +2,8 @@
 Name Himura~
 Id   994109924
 Email (null)~
-LogO 1086893746
-Vers 31
+LogO 1346357945
+Vers 33
 Desc A frail, small faerie limps past you...You notice him enough
 to feel a bit of pity for the poor weak creature.
 But, wait...you rub your eyes in disbelief...
@@ -25,10 +25,11 @@ Outc 0
 RufT 0
 MatookT 151
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -40,6 +41,10 @@ LoginsWOKill 12
 LoginsWODeath 12
 LoginsWOCombat 12
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 1904055 matook~
 DeityT -8661 matook~
 Sac  300
@@ -49,18 +54,18 @@ Node 0
 Cap 0
 Created 994109993
 Glad 0 0 0 0 0 0
-LastHost 198.51.251.205~
+LastHost 99.248.113.147~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 2085852
+Plyd 2086380
 Not  1086887854 1086887854 1086887854 1086887854 1086887854 1086887854 1086887854 1086887854 1086887854 1086887854
 Scro 52
 Rank 0
-Room 16503
-HMV  389 389 1977 2125 428 458
+Room 2932
+HMV  389 389 2125 2125 458 458
 Gold 1235
 Silv 6816
 Exp  70450
@@ -73,7 +78,8 @@ IcgB 0
 Icg 0
 Pnet ABCEFHI
 Pos  8
-Prac 46
+Prac 47
+Trai 5
 SkiP 139
 Save  -8
 Alig  -1000
@@ -83,15 +89,15 @@ SecHit   5
 SecDam   6
 ACs -17 -17 -17 -14
 Wimp  10
-Attr 13 25 25 23 13 13 13 13
+Attr 13 25 25 23 13 17 8 13
 AMod 3 7 -1 3 -4 0 0 0
-Pass Hi5F77zormLGE~
-Titl  drinks {Mprune {xjuice to make his bum speak.~
+Pass Hi4moJo27qqgs~
+Titl .~
 Pnts 43
 TSex 1
 LLev 535
 HMVP 329 1410 458
-Cnd  0 0 13 13
+Cnd  0 0 12 12
 Alias arm cast armor~
 Alias gs cast 'giant strength'~
 Alias sh cast shield~
@@ -266,7 +272,7 @@ PrevOwner Himura~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 8 160 0
+Val  52 10 8 164 0
 Spell 3 'remove curse'
 End
 
@@ -345,7 +351,7 @@ PrevOwner Himura~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 7 160 0
+Val  52 10 7 164 0
 Spell 3 'remove curse'
 End
 
@@ -410,7 +416,7 @@ PrevOwner Himura~
 Cond 0
 Wear -1
 Cost 1000
-Val  20 5 3 54 0
+Val  20 5 3 56 0
 Spell 3 'cure critical'
 End
 
@@ -658,20 +664,41 @@ Cost 710
 End
 
 #O
-Vnum 16018
-Nest 1
+Vnum 10403
+Enchanted
+Nest 0
 PrevOwner Himura~
+ExtF 66
+Cond 0
+Wear 16
+Lev  44
+Cost 6300
+Affc 'reserved'   1  37  -1  40  12          0
+Affc 'reserved'   1  37  -1  20  13          0
+Affc 'enchant weapon'   1  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+End
+
+#O
+Vnum 16113
+Enchanted
+Nest 0
+PrevOwner Himura~
+ExtF 323
+Stolen 4446
 Cond 0
 Wear -1
-Cost 2200
-Val  1 2 12 3 13
-Affc 'sharpen'   5  51  -1   0   0          8
+Lev  34
+Cost 2000
+Val  5 4 6 3 4
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   1  53  -1   9  18          0
 End
 
 #O
 Vnum 5416
 Enchanted
-Nest 1
+Nest 0
 PrevOwner Himura~
 ExtF 339
 Cond 0
@@ -686,35 +713,41 @@ Affc 'reserved'   1  23  -1   1   2          0
 End
 
 #O
-Vnum 16113
-Enchanted
-Nest 1
+Vnum 16018
+Nest 0
 PrevOwner Himura~
-ExtF 323
-Stolen 4459
 Cond 0
 Wear -1
-Lev  34
-Cost 2000
-Val  5 4 6 3 4
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   1  53  -1   9  18          0
+Cost 2200
+Val  1 2 12 3 13
+Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
-Vnum 10403
-Enchanted
+Vnum 2919
 Nest 0
-PrevOwner Himura~
-ExtF 66
+PrevOwner (null)~
 Cond 0
-Wear 16
-Lev  44
-Cost 6300
-Affc 'reserved'   1  37  -1  40  12          0
-Affc 'reserved'   1  37  -1  20  13          0
-Affc 'enchant weapon'   1  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1   7  19          0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

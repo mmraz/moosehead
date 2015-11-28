@@ -1,0 +1,149 @@
+#AREA
+../newareas/shadegat.are~
+Shades Gate~
+{ All } Andaron Shades Gate~
+8808 8812
+
+#MOBILES
+#8808
+shade stout man~
+a stout man~
+A stout man sits behind a desk, studiously ignoring you.
+~
+A stout man with short brown hair sits behind his desk and carefully avoids
+directly looking at anyone.  While he appears human, something about his
+expression doesn't look quite right and a feeling that there is something
+unnatural in the room slowly grows the longer you look at him.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABTc 0 0 0
+56 100 0d0+20000 0d0+0 12d12+100 essence
+-50 -50 -50 -50
+EFHNU AB 0 S
+stand stand none 0
+ADHMV 0 giant 0
+#0
+
+#OBJECTS
+#8808
+shade stone~
+a shade stone~
+Darkness shaped like a stone surrounds a tiny glimmer of light.~
+shadow~
+grenade 0 AO
+6 12 0 0 42
+35 1 0 P
+#8809
+amulet striking shadows~
+an amulet of shadow's striking~
+An amulet formed of shadow holds a spark of combat in it.~
+shadow~
+jewelry d AC
+0 0 0 0 0
+46 5 7500 P
+A
+19 2
+A
+13 2
+A
+17 -6
+A
+1 -1
+#8810
+bracer shadows resolve~
+a bracer of shadow's resolve~
+A shadow that appears to form a wide bracer is here.~
+shadow~
+armor d AM
+4 4 4 6 0
+46 20 7000 P
+A
+12 20
+A
+5 1
+#8811
+bracer shadow strength~
+a bracer of shadow's strength~
+A shadow that appears to form a thick bracer is here.~
+shadow~
+armor d AM
+6 6 6 4 0
+46 22 7000 P
+A
+3 1
+A
+4 1
+A
+13 35
+#8812
+ear %s~
+the ear of %s~
+The ear of %s is here.~
+shadow~
+trash U AQ
+0 0 0 0 0
+0 1 0 P
+#0
+
+#ROOMS
+#8808
+The Office~
+You are in a dimly lit, clean looking room.  Illumination is provided from
+single candles set near each corner of the room.  A massive door at the south
+wall leads to places unknown, but powerful glyphs inscribed along the frame
+appear to be sealing it.  The only furniture in the room is a plain wooden desk
+and a chair behind it.
+ 
+There is a sign posted on the wall behind the desk.
+~
+0 D 0
+D2
+Exit ~
+rune door~
+16487 -1 8809
+D4
+Exit ~
+door~
+16384 0 3352
+E
+sign~
+If you would like an assignment, please have a seat and be patient.
+~
+E
+desk~
+A desk made of a dark hardwood stands here.
+~
+S
+#8809
+Total Darkness~
+You are surrounded by total darkness. You should not be here.
+~
+0 0 0
+D0
+Exit ~
+door~
+16386 0 8808
+S
+#0
+
+#RESETS
+D 0 8809   0 16386	* Total Darkness north
+M 0 8808   1 8808  1	* a stout man
+E 1 8808  -1   17	*   a shade stone
+E 1 8809  -1    3	*   an amulet of shadow's striking
+E 1 8810  -1   15	*   a bracer of shadow's resolve
+E 1 8811  -1   14	*   a bracer of shadow's strength
+D 0 8808   2 16487	* The Office south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 8808 spec_shade_bounty   	* a stout man
+S
+
+#$

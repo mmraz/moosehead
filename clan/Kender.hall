@@ -1,0 +1,56 @@
+Label room_1
+Type 33
+Name The Kender Queen's Throne Room~
+Desc You are now standing in what appears to be an elaborate throne room. Jewels
+and other sparkly things adorn the walls, floor, and of course, the throne
+itself.
+~
+Index 1301
+Cost 7000
+Flags 1
+Opt 4 4
+Loc 0
+#End
+Label room_2
+Type 33
+Name A very shiny Magelab~
+Desc You walk into yet another bright a shiny room. On the wall, spelled in jewels
+you can make out the words, "Magelab".
+~
+Index 1302
+Cost 8000
+Flags 2
+Opt 3 0
+Loc 0
+#End
+Label item_1
+Type 36
+Name queen challis uberthrone~
+Short Challi's UBERthrone~
+Long Queen Challi's {GU{CB{bE{BR{Rt{Yh{cr{mo{gn{Ge{x is here.~
+Index 1301
+Cost 2500
+Flags 4
+Opt 1 0
+Loc 1301
+#End
+Label mob_1
+Type 18
+Name kender cleric~
+Short A kender cleric~
+Long A kender cleric sits here, tending to wounds.~
+Desc The jovial looking cleric seems to be wearing a wide variety of colors and has
+a smug look on his face. Perhaps it has something to do with the fact that he's
+charging you for his services
+~
+Index 1301
+Cost 88000
+Flags 6
+Opt 15 8
+Loc 0
+Review
+#End
+Exit 0 1301 -1 -1 5720
+Exit 1 1301 1302 -1 -1
+Exit 3 1302 1301 -1 -1
+#End

@@ -1,0 +1,3006 @@
+#AREA
+../newareas/monks.are~
+Valley of Zanathai~
+{40 51} BS & GW Valley of Zanathai~
+1800 1899
+
+#MOBILES
+#1800
+di'Varnyt herbalist~
+di'Varnyt the Herbalist~
+Di'Varnyt the Herbalist is here, tending his shoppe.
+~
+This old, graying man has been tending herbs for near 200 years, and
+has quite a few stories to tell....but they're really boring so forget it.
+~
+human~
+ABV 0 900 0
+23 0 1d1+999 1d1+99 1d8+22 slap
+-15 -15 -15 -15
+AF ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#1801
+grumpy looking goat~
+a grumpy looking goat~
+A grumpy looking goat is here, chewing on its own beard.
+~
+This grumpy goat has been left out in the rain, and his beard is all
+wet and scraggly.  Better leave him alone, even though he looks cute
+enough to kiss.
+~
+dog~
+AB 0 0 0
+44 0 25d10+2750 22d9+100 8d4+15 charge
+-4 -4 -4 2
+CDFIJN AB 0 0
+stand stand none 0
+HM L medium 0
+F for G
+F par HU
+#1802
+brown cow~
+a befuddled brown cow~
+A befuddled brown cow grazes here, chewing its cud.
+~
+MOOO!   MOOOOO!! Being a cow does not require much thought.  It mostly 
+involves mooing inanely and chewing your cud.  However, there is one 
+question we must ask.....
+"How now brown cow?"
+~
+dog~
+AB 0 0 0
+44 0 25d10+3000 22d9+100 6d6+16 beating
+-4 -4 -4 2
+IJMN AB 0 0
+stand stand none 0
+HM L large 0
+F for G
+F par HU
+#1803
+dirty chicken~
+a dirty chicken~
+A dirty chicken wanders around, clucking insanely.
+~
+The dirty, scrawny chicken standing before you looks mean..so mean 
+that even Colonel Sanders would be hard pressed to pot this bird.
+However, it doesn't look all that edible, and the idea of eating
+this grey mass of feathers is not very appealing.
+~
+water fowl~
+AB 0 0 0
+40 0 15d10+1700 20d9+100 5d6+12 peck
+-8 -8 -8 2
+FLNU AB 0 0
+stand stand none 0
+HV GT small 0
+F aff Tb
+F res R
+F for G
+#1804
+tonnerre bull~
+Tonnerre the Bull~
+Tonnerre the Bull snorts and stamps his feet as he towers over you.
+~
+Tonnerre the Bull is certainly the biggest cow you have ever seen.
+He has a reputation of not being kind to strangers, but luckily you're
+not wearing any red...are you?
+~
+unique~
+ABF DFHVa 0 0
+48 -3 50d10+4250 24d9+100 4d10+18 charge
+-6 -6 -6 0
+CDFIJN ABE 0 0
+sit sit male 0
+AGV ACDEF giant 0
+#1805
+woolly white sheep~
+a woolly, white sheep~
+A woolly, white sheep is here enjoying his wool while he has it.
+~
+Looking at this mindless woolly sheep, you can't help but think 
+about nothing.  Because that's what they do.
+~
+dog~
+AB 0 0 0
+40 0 15d10+1700 20d9+100 5d6+12 bite
+-4 -4 -4 2
+FLNU AB 0 0
+stand stand none 0
+0 0 small 0
+F par JUV
+#1806
+slovenly hog~
+a slovenly hog~
+A slovenly hog sits in the mud, grunting happily.
+~
+Looking at this pig makes your tummy ache for a nice, roasted ham.
+However, it looks as if this large animal could put up quite a fight
+in order to save its bacon.  
+~
+human~
+AB 0 0 0
+42 0 25d10+2250 21d9+100 3d12+14 charge
+-8 -8 -8 0
+CFNU AB 0 0
+stand stand male 0
+G 0 large 0
+F for HM
+F par BGI
+#1807
+green robed monk guard~
+a green-robed monk~
+A monk clad in dark-green robes stands guard here.
+~
+This stern-faced man shows no emotion whatsoever.  His face looks as though
+it were carved of stone.  He is slim, yet well built, and seems to possess
+a subtle grace, like that of a cat.  Although he seems oblivious to you,
+you have an uneasy feeling that your every move is being observed.
+He serves the Order of the Manticore with dedication and unquestionable
+loyalty, and would gladly sacrifice himself to further the causes of 
+Kunji.
+~
+human~
+ABST DFHNQV 1000 0
+49 0 50d10+5000 8d4+16 6d7+20 punch
+-8 -8 -8 1
+BEFJKLU AB 0 0
+stand stand male 2000
+0 0 medium 0
+#1808
+monk blue guard~
+a blue-robed monk~
+A monk clad in sky-blue robes keeps a vigilant watch here.
+~
+This man is tall and muscular, yet displays an intelligence which ennerves 
+you.  He is obviously confident in his weapons and abilities, and carries
+himself with the pride that accompanies membership in the most exhalted
+brotherhood of the citadel, the Order of the Dragon.  This man is
+highly dangerous, being well versed in all aspects of battle.
+~
+human~
+ABST DFHNV 1000 0
+50 0 50d10+5000 25d10+150 6d7+20 punch
+-8 -8 -8 1
+CDEFKLU AB 0 0
+stand stand male 0
+0 0 medium 0
+#1809
+red robed monk~
+a red-robed monk~
+A red-robed monk is watchful for magical trespassers.
+~
+This man is tall and lean, and seems to lack the brawn of his green and
+blue brethren.  However, he taps into the magical weave to unlock 
+mysterious and powerful incantations.  The red robes he wears mark him
+as a studious member of the Order of the Phoenix, a group dedicated to
+the pursuit of sorcerous knowledge.  He narrows his eyes and dips
+his hand into his robes as you approach.
+~
+human~
+AR BDFHNTV 1000 0
+48 0 25d10+3750 25d10+200 6d6+17 punch
+-6 -6 -6 -1
+FKU AB C 0
+stand stand male 0
+0 0 medium 0
+#1810
+yellow robed monk~
+a yellow-robed monk~
+A yellow-robed monk is here, head bowed in supplication.
+~
+This monk is large and muscular, a startling contrast to the serenity
+displayed on his visage.  The members of the Order of the Gryphon 
+are the personal servants of Kunji, and are blessed with strange and
+exotic powers.  The yellow robes he wears do not quite conceal the
+weapons adorning his belt, and you have no doubt that he is able
+to wield them in the name of his deity with courage and incredible 
+skill.
+~
+human~
+AQ DFHNV 1000 0
+48 0 50d10+4500 25d10+200 5d8+19 punch
+-7 -7 -7 0
+FKU AB MN 0
+stand stand male 0
+0 0 medium 0
+#1811
+farmer paddock~
+Farmer Paddock~
+Farmer Paddock is here, chewing on some tobacco.
+~
+Farmer Paddock is a man of great strength and girth, as he obviously
+lives well off the crops he harvests.  He has farmed the Valley
+of Zanathai for hundreds of years, the magical nature of the place
+augmenting his lifespan.  Paddock is content to live out his life
+in the beauty of the Valley, and nothing more is of interest to him.
+~
+human~
+ABT HN 0 0
+46 1 25d10+3250 10d10+5 6d6+16 pound
+-8 -8 -8 4
+CEFJN AB 0 0
+stand stand male 5000
+0 0 medium 0
+F par GHIJK
+#1812
+farmer graymalkin~
+Farmer Graymalkin~
+Farmer Graymalkin is here, munching on a turnip.
+~
+Farmer Graymalkin is a very skinny, dark-haired man, with a scraggly
+beard and beady little eyes.  He, along with his colleague, Paddock,
+provides the Citadel of Kunji with the food stuffs the monks need.
+He is living well off their generosity and plans to spend the rest
+of his life in the wonderful valley.
+~
+human~
+ABT HN 0 0
+46 1 25d10+3250 10d10+5 6d6+16 pound
+-8 -8 -8 4
+CEFJN AB 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#1813
+rabid crazed minotaur~
+an insane minotaur~
+A rabid, crazed minotaur is here, frothing uncontrollably.
+~
+This minotaur was lured into the hedge maze years ago by the resourceful
+monks of Kunji who enlisted him as an involuntary guardian/janitor.
+The cowman is responsible for keeping the hedge clear of garbage and
+unwanted visitors, and does so admirably.  Unfortunately, in the process,
+he has become rather insane, and besides eating and sleeping, he
+entertains himself by frothing and talking to his hand.
+~
+unique~
+ACFGT HJV -400 0
+48 1 50d10+5000 10d10+5 6d7+20 charge
+-7 -7 -7 2
+CDEFIJN ABP CE NQ
+stand stand none 0
+AHMV ABCDEFV huge 0
+#0
+
+#OBJECTS
+#1800
+mystical pond~
+a mystical pond~
+A mystical pond filled with cool crystal-clear water is here.~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+mystical pond~
+This pond is filled with cool, fresh drinking water, pure and refreshing.
+It is unaffected by even the strongest winds, and reflects your face
+perfectly.
+~
+#1801
+fountain water~
+a beautiful marble fountain~
+A beautiful marble fountain bubbles merrily.~
+~
+fountain 0 0
+0 0 'water' 0 0
+0 0 0 G
+E
+fountain marble~
+This beautiful marble fountain depicts a meeting between the four
+mighty creatures of legend: the fiery phoenix, the mighty gryphon,
+the cunning manticore and the powerful dragon.  Legend speaks of a
+pact sealed between them, which dictated the mixture of their life
+essences in the creation of one entity: Kunji.
+~
+#1802
+circular wooden bench~
+a circular wooden bench~
+A circular wooden bench is sitting in the shade of some trees.~
+~
+furniture I 0
+4 100 ADGJN 100 100
+0 0 0 P
+E
+circular wooden bench~
+This bench was masterfully carved from the finest wood by the finest
+artisans.  The natural whorls and streaks of the wood have not been
+eroded away by the elements and generations of contemplative monks.
+~
+E
+benches wooden~
+They are of polished oak and surprisingly comfortable for their
+firmness.
+~
+#1803
+ivory statue syl'Arran~
+the ivory statue~
+An ivory statue depicting an old, robed man holding a staff stands here.~
+~
+trash GR P
+0 0 0 0 0
+0 -31072 0 P
+E
+staff statue ivory~
+The ivory statue depicts an aging man dressed in monkish robes and 
+carrying a stout staff.  You can see a glimmmer of determination and
+power in his eyes, which is both surprising and alarming.
+  The plaque at its base reads:
+ 
+       "syl'Arran, Keeper of the Truth"
+ 
+~
+#1804
+tomato~
+a juicy, fiery red tomato~
+A ripe red tomato is waiting to be consumed.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+#1805
+squash~
+a delectable squash~
+A perfectly formed squash is waiting to be harvested.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+#1806
+golden wheat~
+a bushel of wheat~
+A bushel of golden wheat is ready to be made into bread.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+#1807
+bushel of barley~
+a bushel of barley~
+A bushel of barley is ready to feed the farm animals.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+#1808
+turnip~
+a yummy turnip~
+A yummy looking turnip is lying here on the ground.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+#1809
+potato~
+a spicy potato~
+A spicy potato is ripe for the pickin'.~
+food~
+food 0 A
+25 25 0 0 0
+0 30 14 P
+#1810
+sugarcane~
+some sweet sugarcane~
+Some sweet sugarcane is ready to tempt your tummy.~
+oldstyle~
+pill 0 A
+40 'haste' '' '' ''
+14 10 1520 P
+#1811
+tobacco~
+a stash of tobacco~
+A pile of tobacco is ready for your pipe.~
+oldstyle~
+pill 0 A
+40 'calm' '' '' ''
+14 10 1520 P
+#1812
+cowbell cow bell~
+a cowbell~
+A large brass cowbell lies silent in the dirt.~
+metal~
+clothing Y AC
+0 0 0 0 0
+40 100 0 P
+A
+1 3
+A
+3 -2
+A
+2 -2
+A
+19 1
+#1813
+silver holy symbol kunji~
+a silver holy symbol of Kunji~
+A gleaming silver holy symbol lies here in the dust.~
+silver~
+clothing A AC
+0 0 0 0 0
+47 20 3000 P
+A
+12 25
+A
+3 1
+A
+17 -4
+A
+18 1
+#1814
+bronze holy symbol kunji~
+a bronze holy symbol of Kunji~
+A dull bronze holy symbol lies here in the dust.~
+bronze~
+clothing A AC
+0 0 0 0 0
+46 20 2500 P
+A
+2 -1
+A
+3 1
+A
+12 20
+#1815
+dark green robe manticore~
+a dark green robe of the Manticore~
+A dark green robe emblazoned with a silver manticore lies in a heap.~
+cloth~
+armor K AK
+10 10 10 5 0
+45 40 8000 P
+A
+18 2
+A
+19 2
+A
+20 2
+A
+12 -15
+#1816
+bright yellow robe gryphon~
+a bright yellow robe of the Gryphon~
+A bright yellow robe emblazoned with an ebony gryphon lies here in a heap.~
+cloth~
+armor K AK
+10 10 10 5 0
+46 40 8000 P
+A
+19 2
+A
+18 1
+#1817
+blood red robe phoenix~
+a blood red robe of the Phoenix~
+A blood red robe emblazoned with a golden phoenix lies here in a heap.~
+cloth~
+armor K AK
+10 10 10 5 0
+46 40 8000 P
+F
+A 2 4 V
+#1818
+azure blue robe dragon~
+an azure blue robe of the Dragon~
+An azure blue robe emblazoned with a white dragon lies here in a heap.~
+cloth~
+armor K AK
+10 10 10 5 0
+46 40 8000 P
+A
+12 25
+A
+14 40
+A
+18 2
+A
+19 1
+#1819
+wickedly barbed glaive~
+a wickedly barbed glaive~
+A glaive fixed with large wicked barbs stands here by itself.~
+metal~
+weapon AI AN
+polearm 11 3 thrust 0
+44 100 8000 P
+A
+18 -2
+A
+19 3
+F
+A 0 0 Q
+#1820
+engraved silver ring~
+an engraved silver ring~
+A silver ring, engraved with the symbol of Kunji lies here.~
+silver~
+armor HI AB
+4 4 4 2 0
+30 1 1500 P
+#1821
+mithril warhammer~
+a mithril warhammer~
+A huge warhammer of shining mithril lies on the floor.~
+mithril~
+weapon AI AN
+mace 11 3 beating BF
+44 250 0 P
+A
+2 -1
+A
+1 2
+#1822
+ancient oaken staff~
+an ancient oaken staff~
+A wooden staff of ancient craft hovers here.~
+wood~
+weapon AFGS AN
+staff 11 3 magic G
+44 70 0 P
+A
+12 5
+A
+18 2
+A
+2 1
+#1823
+sword defense~
+a sword of defense~
+A glittering sword is embedded in the ground.~
+metal~
+weapon AG AN
+sword 11 3 cleave 0
+44 100 0 P
+A
+20 -4
+A
+17 -10
+A
+1 -3
+A
+2 3
+A
+19 -4
+A
+18 -4
+#1824
+bag mace~
+a bag of mace~
+A bag labelled mace lies here.~
+organic~
+pill 0 A
+35 'blindness' '' '' ''
+30 5 2000 P
+#1825
+pouch tarragon~
+a pouch of tarragon~
+A pouch of tarragon lies here.~
+organic~
+pill 0 A
+35 'armor' '' '' ''
+30 5 1600 P
+#1826
+bag ginger~
+a bag of ginger~
+A bag of ginger lies here.~
+organic~
+pill 0 A
+35 'blindness' '' '' ''
+30 5 1600 P
+#1827
+packet parsley~
+a small packet of parsley~
+A small packet of parsley lies here.~
+organic~
+pill 0 A
+35 'calm' '' '' ''
+30 5 2000 P
+#1828
+fenugreek seed pouch~
+a pouch stuffed with fenugreek seed~
+A bulging pouch of fenugreek seed lies here.~
+organic~
+pill 0 A
+35 'change sex' '' '' ''
+30 5 800 P
+#1829
+onion powder vial~
+a vial of onion powder~
+A small, glass vial of onion powder lies here.~
+organic~
+pill 0 A
+35 'cure blindness' '' '' ''
+30 5 2000 P
+#1830
+container cinnamon~
+a container filled with cinnamon~
+A glass container filled with cinnamon lies here.~
+organic~
+pill 0 A
+35 'cure disease' '' '' ''
+30 5 2200 P
+#1831
+sprig mint~
+a sprig of mint~
+A green sprig of mint lies here.~
+organic~
+pill 0 A
+35 'cure poison' '' '' ''
+30 5 2100 P
+#1832
+packet marjoram~
+a packet of marjoram~
+A small, cloth packet containing marjoram lies here.~
+organic~
+pill 0 A
+35 'curse' '' '' ''
+30 5 4000 P
+#1833
+1834~
+a mandrake root~
+A small mandrake root lies here.~
+organic~
+pill 0 A
+35 'detect invis' 'detect magic' 'detect hidden' ''
+30 5 2200 P
+#1834
+bag nutmeg~
+a bag of nutmeg~
+A small bag of nutmeg lies here.~
+organic~
+pill 0 A
+35 'fly' '' '' ''
+30 5 1500 P
+#1835
+envelope cayenne pepper~
+an envelope of cayenne pepper~
+An envelope filled to the brim with cayenne peppers lies here.~
+organic~
+pill 0 A
+35 'giant strength' '' '' ''
+30 5 2000 P
+#1836
+curry powder vial~
+a vial of curry powder~
+A clear glass vial of curry powder lies here.~
+organic~
+pill 0 A
+35 'haste' '' '' ''
+30 5 3800 P
+#1837
+bag saffron~
+a bag of saffron~
+A bag of saffron lies here on the ground.~
+organic~
+pill 0 A
+35 'infravision' '' '' ''
+30 5 500 P
+#1838
+laurel wreath~
+a laurel wreath~
+A wreath made of laurels lies on the ground.~
+organic~
+pill 0 A
+35 'know alignment' '' '' ''
+30 5 500 P
+#1839
+pouch sage~
+a pouch of sage~
+A pouch of sage lies here on the ground.~
+organic~
+pill 0 A
+35 'pass door' '' '' ''
+30 5 1000 P
+#1840
+spicy paprika pepper~
+a spicy paprika pepper~
+A lone paprika pepper lies on the ground, lost and forlorn.~
+organic~
+pill 0 A
+35 'plague' '' '' ''
+30 5 2700 P
+#1841
+nightshade mushroom~
+a nightshade mushroom~
+A mushroom you recognize as nightshade is on the ground.~
+organic~
+pill 0 A
+35 'poison' '' '' ''
+30 5 1800 P
+#1842
+bag crushed poppy seeds~
+a bag of crushed poppy seeds~
+A bag of crushed poppy seeds is here.~
+organic~
+pill 0 A
+35 'sleep' '' '' ''
+30 5 2500 P
+#1843
+packet garlic powder~
+a packet of pungeant garlic powder~
+A packet of pungeant powder lies on the ground.~
+organic~
+pill 0 A
+35 'shield' '' '' ''
+30 5 2800 P
+#1844
+thyme bag~
+a bag of thyme~
+A bag of what appears to be thyme is here on the ground.~
+organic~
+pill 0 A
+35 'slow' '' '' ''
+30 5 2300 P
+#1845
+mustard vial~
+a vial of mustard~
+A vial of yellow mustard is here...GREY POUPON!!!!~
+organic~
+pill 0 A
+35 'weaken' '' '' ''
+30 5 2400 P
+#1846
+bright red chili pepper~
+a bright red chili pepper~
+A bright red chili pepper sits ominously on the floor.~
+organic~
+pill 0 A
+35 'frenzy' '' '' ''
+30 5 2400 P
+#1847
+shimmering star symbol~
+a shimmering star-shaped symbol~
+A star-shaped stone lies here, shimmering softly.~
+stone~
+key AP AO
+0 0 0 0 0
+0 1 0 P
+A
+0 0
+#1848
+shimmering moon symbol~
+a shimmering moon-shaped symbol~
+A symbol crafted into the likeness of a moon glows here.~
+stone~
+key AP AO
+0 0 0 0 0
+0 1 0 P
+A
+0 0
+#0
+
+#ROOMS
+#1800
+Entrance to the Hedge Maze~
+The magnificent valley of Zanathai stretches out before you, a valley
+said to be inhabited by a powerful yet secretive order of monks.  In the
+distance you can barely make out the tall spires of a mighty structure.
+However, a great maze of lush hedges impedes your progress to the 
+fabled valley.  You must navigate your way through the hedge alive if
+you are to look upon the wonders of Zanathai.  
+~
+0 C 4
+D0
+Exit ~
+door~
+0 0 1801
+D3
+Exit ~
+door~
+0 0 1819
+S
+#1801
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D2
+Exit ~
+door~
+0 0 1800
+D3
+Exit ~
+door~
+0 0 1818
+S
+#1802
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1803
+D3
+Exit ~
+door~
+0 0 1817
+S
+#1803
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1804
+D2
+Exit ~
+door~
+0 0 1802
+S
+#1804
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1805
+D2
+Exit ~
+door~
+0 0 1803
+S
+#1805
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1806
+D2
+Exit ~
+door~
+0 0 1804
+S
+#1806
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1807
+D2
+Exit ~
+door~
+0 0 1805
+S
+#1807
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1808
+D2
+Exit ~
+door~
+0 0 1806
+S
+#1808
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1809
+D2
+Exit ~
+door~
+0 0 1807
+S
+#1809
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D2
+Exit ~
+door~
+0 0 1808
+D3
+Exit ~
+door~
+0 0 1810
+S
+#1810
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1809
+D2
+Exit ~
+door~
+0 0 1811
+S
+#1811
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1810
+D3
+Exit ~
+door~
+0 0 1826
+S
+#1812
+Dead End~
+You have come to a dead end in the hedge maze.  You will have to 
+retrace your steps and find another way through the maze.  Don't
+give up!
+~
+0 0 4
+D2
+Exit ~
+door~
+0 0 1813
+S
+#1813
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1812
+D2
+Exit ~
+door~
+0 0 1814
+S
+#1814
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1813
+D2
+Exit ~
+door~
+0 0 1815
+S
+#1815
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1814
+D3
+Exit ~
+door~
+0 0 1824
+S
+#1816
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D2
+Exit ~
+door~
+0 0 1817
+D3
+Exit ~
+door~
+0 0 1823
+S
+#1817
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1816
+D1
+Exit ~
+door~
+0 0 1802
+S
+#1818
+Dead End~
+You have come to a dead end in the hedge maze.  You will have to 
+retrace your steps and find another way through the maze.  Don't
+give up!
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1801
+S
+#1819
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1800
+D3
+Exit ~
+door~
+0 0 1820
+S
+#1820
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1819
+D3
+Exit ~
+door~
+0 0 1837
+S
+#1821
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1822
+D3
+Exit ~
+door~
+0 0 1836
+S
+#1822
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1823
+D2
+Exit ~
+door~
+0 0 1821
+S
+#1823
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1816
+D2
+Exit ~
+door~
+0 0 1822
+S
+#1824
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1815
+D3
+Exit ~
+door~
+0 0 1833
+S
+#1825
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1826
+D3
+Exit ~
+door~
+0 0 1830
+S
+#1826
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1811
+D2
+Exit ~
+door~
+0 0 1825
+S
+#1827
+Dead End~
+You have come to a dead end in the hedge maze.  You will have to 
+retrace your steps and find another way through the maze.  Don't
+give up!
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1820
+S
+#1828
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D2
+Exit ~
+door~
+0 0 1829
+D3
+Exit ~
+door~
+0 0 1845
+S
+#1829
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1828
+D2
+Exit ~
+door~
+0 0 1830
+S
+#1830
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1829
+D1
+Exit ~
+door~
+0 0 1825
+S
+#1831
+Dead End~
+You have come to a dead end in the hedge maze.  You will have to 
+retrace your steps and find another way through the maze.  Don't
+give up!
+~
+0 0 4
+D2
+Exit ~
+door~
+0 0 1832
+S
+#1832
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1831
+D3
+Exit ~
+door~
+0 0 1843
+S
+#1833
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1824
+D2
+Exit ~
+door~
+0 0 1834
+D3
+Exit ~
+door~
+0 0 1842
+S
+#1834
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1833
+D2
+Exit ~
+door~
+0 0 1835
+S
+#1835
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1834
+D2
+Exit ~
+door~
+0 0 1836
+D3
+Exit ~
+door~
+0 0 1840
+S
+#1836
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1835
+D1
+Exit ~
+door~
+0 0 1821
+S
+#1837
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1820
+D3
+Exit ~
+door~
+0 0 1838
+S
+#1838
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1839
+D1
+Exit ~
+door~
+0 0 1837
+D3
+Exit ~
+door~
+0 0 1854
+S
+#1839
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1840
+D2
+Exit ~
+door~
+0 0 1838
+D3
+Exit ~
+door~
+0 0 1853
+S
+#1840
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1841
+D1
+Exit ~
+door~
+0 0 1835
+D2
+Exit ~
+door~
+0 0 1839
+D3
+Exit ~
+door~
+0 0 1852
+S
+#1841
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1842
+D2
+Exit ~
+door~
+0 0 1840
+D3
+Exit ~
+door~
+0 0 1851
+S
+#1842
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1843
+D1
+Exit ~
+door~
+0 0 1833
+D2
+Exit ~
+door~
+0 0 1841
+S
+#1843
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1832
+D2
+Exit ~
+door~
+0 0 1842
+D3
+Exit ~
+door~
+0 0 1850
+S
+#1844
+Dead End~
+You have come to a dead end in the hedge maze.  You will have to 
+retrace your steps and find another way through the maze.  Don't
+give up!
+~
+0 0 4
+D3
+Exit ~
+door~
+0 0 1848
+S
+#1845
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1828
+D3
+Exit ~
+door~
+0 0 1846
+S
+#1846
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1845
+D3
+Exit ~
+door~
+0 0 1863
+S
+#1847
+Dead End~
+You have come to a dead end in the hedge maze.  You will have to 
+retrace your steps and find another way through the maze.  Don't
+give up!
+~
+0 0 4
+D2
+Exit ~
+door~
+0 0 1848
+S
+#1848
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1847
+D1
+Exit ~
+door~
+0 0 1844
+D3
+Exit ~
+door~
+0 0 1862
+S
+#1849
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D2
+Exit ~
+door~
+0 0 1850
+D3
+Exit ~
+door~
+0 0 1861
+S
+#1850
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1849
+D1
+Exit ~
+door~
+0 0 1843
+S
+#1851
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1841
+D2
+Exit ~
+door~
+0 0 1852
+S
+#1852
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1851
+D1
+Exit ~
+door~
+0 0 1840
+S
+#1853
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1839
+D2
+Exit ~
+door~
+0 0 1854
+D3
+Exit ~
+door~
+0 0 1856
+S
+#1854
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1853
+D1
+Exit ~
+door~
+0 0 1838
+D3
+Exit ~
+door~
+0 0 1855
+S
+#1855
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1856
+D1
+Exit ~
+door~
+0 0 1854
+S
+#1856
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1857
+D1
+Exit ~
+door~
+0 0 1853
+D2
+Exit ~
+door~
+0 0 1855
+D3
+Exit ~
+door~
+0 0 1869
+S
+#1857
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1858
+D2
+Exit ~
+door~
+0 0 1856
+D3
+Exit ~
+door~
+0 0 1868
+S
+#1858
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D2
+Exit ~
+door~
+0 0 1857
+D3
+Exit ~
+door~
+0 0 1867
+S
+#1859
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1860
+D3
+Exit ~
+door~
+0 0 1866
+S
+#1860
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1861
+D2
+Exit ~
+door~
+0 0 1859
+D3
+Exit ~
+door~
+0 0 1865
+S
+#1861
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1862
+D1
+Exit ~
+door~
+0 0 1849
+D2
+Exit ~
+door~
+0 0 1860
+S
+#1862
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1848
+D2
+Exit ~
+door~
+0 0 1861
+S
+#1863
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1846
+D3
+Exit ~
+door~
+0 0 1864
+S
+#1864
+Entrance to the Valley of Zanathai~
+You emerge from the labyrinthine hedge maze a little weary but still
+in one piece.  The magnificent splendor of the lost vale of Zanathai
+dazzles you.  Colorful fields abundant with crops cover the earth as
+far as the horizon.  Truly this is a wondrous sanctuary of life.
+  A colossal structure dominates the center of the valley, and you
+have little doubt that this is the home of the fabled monks of Kunji.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1872
+D1
+Exit ~
+door~
+0 0 1863
+S
+#1865
+Dead End~
+You have come to a dead end in the hedge maze.  You will have to 
+retrace your steps and find another way through the maze.  Don't
+give up!
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1860
+S
+#1866
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1859
+D2
+Exit ~
+door~
+0 0 1867
+S
+#1867
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1866
+D1
+Exit ~
+door~
+0 0 1858
+D2
+Exit ~
+door~
+0 0 1868
+S
+#1868
+Hedge Maze~
+You are surrounded by lush green hedges, which loom high above you.
+Upon examination, they are covered by sharp thorns, dripping something
+which looks suspiciously like poison.  Obviously you cannot cut or
+climb your way through the hedge.  The monks apparently are not
+particularly fond of visitors.
+  This part of the maze looks the same as the rest, it has become
+difficult to navigate your way through.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1867
+D1
+Exit ~
+door~
+0 0 1857
+D2
+Exit ~
+door~
+0 0 1869
+S
+#1869
+Dead End~
+You have come to a dead end in the hedge maze.  You will have to 
+retrace your steps and find another way through the maze.  Don't
+give up!
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1868
+D1
+Exit ~
+door~
+0 0 1856
+S
+#1870
+Sheep Pasture~
+BAAH!  if the sheep have not been slaughtered already, you hear this
+sound echoing through the valley.  BAAAH!  This sound is becoming
+annoying, and you seek to end the persistent braying.  The grass is
+rich and provides well for the ever-hungry animals.  You have this
+unnerving urge to slap the sheep on the sides of their woolly little
+heads.
+  A wooden bulletin is posted in the center of the field.
+~
+0 0 4
+D3
+Exit ~
+door~
+0 0 1871
+E
+wooden bulletin~
+DON'T SLAP THE SHEEP!
+  -Farmer Graymalkin
+~
+S
+#1871
+Turnip Fields~
+The lush and fertile soil of the mystical valley supports the growth
+of an abundance of turnip plants.  These fields are devoted entirely
+to growing the hardy yellow fruit, and are expertly plowed to allow
+massive amounts of them to ripen each harvest.
+  A small sign pokes out from the ground amongst the turnip plants.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1878
+D1
+Exit ~
+door~
+0 0 1870
+D3
+Exit ~
+door~
+0 0 1872
+E
+small sign~
+TURNIP- (brassica rapa)
+~
+S
+#1872
+A Glittering Quartz Pathway~
+The sunlight is reflected hundred-fold off this scintillating path
+made of the finest quartz.  The path leads northward in a perfectly 
+straight line to the gates of the massive structure which lies at the
+far end of the valley.  Fields abundantly filled with flourishing 
+crops line both sides of the glittering path.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1877
+D1
+Exit ~
+door~
+0 0 1871
+D2
+Exit ~
+door~
+0 0 1864
+D3
+Exit ~
+door~
+0 0 1873
+S
+#1873
+Wheat Fields~
+These fields are lined with row after row of perfectly formed lines of
+golden wheat plants.  The wheat is tall and healthy, and there is enough
+in these fields to provide for an entire city.  Amongst the rows lie
+neatly tied bushels of wheat, ready to be transported and sold to
+the monks of Kunji.
+  A small sign stands amongst the rows of wheat.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1876
+D1
+Exit ~
+door~
+0 0 1872
+D3
+Exit ~
+door~
+0 0 1874
+E
+small sign~
+WHEAT- (triticum vulgare)
+~
+S
+#1874
+Cow Pasture~
+This grassy field is the home to several splotchy brown cows.  Some 
+mystical property of the ground allows the grass to grow back even
+as a cow munches happily on it!  Apart from a few unfortunately placed
+puddles of manure, this field has a rather pleasant quality to it.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1875
+D1
+Exit ~
+door~
+0 0 1873
+S
+#1875
+Pig Pen~
+This disgusting mudhole is one of the most filthy locales you've ever had
+the misfortune of visiting.  The pigs don't seem to mind, as they are 
+covered in the dark, brown muck which looks absolutely awful and
+smells even worse.  Your boots are sunk to the knees in the sludge,
+perhaps it would be best to leave before you slip and fall.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1876
+D2
+Exit ~
+door~
+0 0 1874
+S
+#1876
+Barley Fields~
+Tall stems of barley cover the fields about you.  Their spikelets wave
+softly in the quiet breeze which seems everpresent in this strange
+and magical valley whose beauty tugs at your heart-strings.  The strong
+barley plants provide for the myriad of animals and men which dwell in
+the vale.
+  A small sign pokes out of the ground amongst the plants.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1883
+D1
+Exit ~
+door~
+0 0 1877
+D2
+Exit ~
+door~
+0 0 1873
+D3
+Exit ~
+door~
+0 0 1875
+E
+small sign~
+BARLEY- (hordeum vulgare)
+~
+S
+#1877
+A Glittering Quartz Pathway~
+The fresh air of the valley fills your lungs, and you feel your spirit
+charged with youthfulness and tranquility.  The path stretches onwards
+toward the bastion of the monks, and you can now make out four gleaming
+spires stretching high into the azure skies.  Colorful fields surround
+the path, and you are overwhelmed by the sights and sounds of nature 
+which flow about you.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1882
+D1
+Exit ~
+door~
+0 0 1878
+D2
+Exit ~
+door~
+0 0 1872
+D3
+Exit ~
+door~
+0 0 1876
+S
+#1878
+Squash Fields~
+Squash is grown here in abundance.  It is a staple for the monks of 
+Kunji, who gladly pay a high price for bushels of the fruit.  These 
+fields are nearly empty, as most of the squash has already been 
+harvested and sold to the Bastion.
+  A door blocks your way into a ramshackle hovel to the east.
+  You see a small sign nestled in between the squash plants.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1881
+D1
+Exit ~
+door~
+1 0 1879
+D2
+Exit ~
+door~
+0 0 1871
+D3
+Exit ~
+door~
+0 0 1877
+E
+sign small~
+SQUASH- (cucurbita maxima)
+~
+S
+#1879
+Chicken Coop~
+This rather ramshackle building houses a council of hens, who aren't 
+too impressed by your presence.  This coop is rather dark and hot, with
+only a small window in the roof allowing sunlight to enter.  Farmer
+Graymalkin's egg collecting basket lies on a small shelf, ready to be
+used to collect the hens' freshly laid eggs.
+~
+0 D 4
+D3
+Exit ~
+door~
+1 0 1878
+S
+#1880
+Farmer Graymalkin's Home~
+This home is rather well-appointed for a farmer, with elegant 
+furnishings and colorful tapestries decorating its large halls.  It is
+obvious that Graymalkin makes a fine living providing foodstuffs for 
+the monks of the citadel.  The house is kept in a neat and orderly 
+fashion, and there is not a speck of dust to be seen.
+~
+0 D 4
+D3
+Exit ~
+door~
+1 0 1881
+E
+6~
+Generic extended description.
+~
+S
+#1881
+Potato Fields~
+These fields are freshly plowed for the potato crop which is harvested
+by the spring equinox.  The ground is damp and moist, and ideal for
+nurturing Graymalkin's unique species of spiced potatoes, which can
+season fine stews and render them immaculate.
+  A large farmhouse is situated to the east, a stout oaken door blocking
+entry.
+  You see a small sign partially concealed under the many leaves of a
+potato plant.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1888
+D1
+Exit ~
+door~
+1 0 1880
+D2
+Exit ~
+door~
+0 0 1878
+D3
+Exit ~
+door~
+0 0 1882
+E
+small sign~
+POTATO- (solanum tuberosum)
+~
+S
+#1882
+A Glittering Pathway~
+The brilliant path guides you further through the valley, leading you
+inexorably to the sanctuary of the monks of Kunji.  The warm breeze
+eases your weariness and invigorates your soul.  The citadel before you
+seems to fool the eye, as it seems to shift colors in a confusing yet
+beautiful pattern.  The gates of the citadel beckon with promises of
+ancient knowledge and power.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1887
+D1
+Exit ~
+door~
+0 0 1881
+D2
+Exit ~
+door~
+0 0 1877
+D3
+Exit ~
+door~
+0 0 1883
+S
+#1883
+Tobacco Fields~
+These fields sprout tobacco plants, whose medicinal properties and
+soothing effects are highly sought after by the healers of the Bastion.
+The plants are arranged in tidy rows parallel to the path.  Their bitter
+smell has a calming effect on you, and you stop to rest for awhile to
+admire the valley's visual splendor.
+  A spacious farmhouse lies to the west, however a stout ashwood door
+blocks entry.
+  A small sign is tucked in amongst the tobacco shoots.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1886
+D1
+Exit ~
+door~
+0 0 1882
+D2
+Exit ~
+door~
+0 0 1876
+D3
+Exit ~
+door~
+1 0 1884
+E
+small sign~
+TOBACCO- (nicotiania rustica)
+~
+S
+#1884
+Farmer Paddock's Home~
+This house is luxuriously furnished, which is surprising, given 
+Farmer Paddock's occupation.  The monks of Kunji reward the farmers well
+for their efforts to supply the monks with provisions.  What Paddock
+makes up for in effort, he loses in taste, as his obsession with gold
+threaded tapestries and carpets is rather gaudy.
+~
+0 D 4
+D1
+Exit ~
+door~
+1 0 1883
+S
+#1885
+Goat Pasture~
+This grassy field is usually populated by a couple of ill-tempered,
+wizened old goats who guard their territory with surprising ferocity
+against any intruders.  The sun shining down upon you, and the
+gentle breeze tousling your hair has a calming effect on you, and you
+have this unnerving urge to kiss one of the goats.
+  A wooden bulletin is hammered into the ground in the center of the
+field.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1886
+E
+wooden bulletin~
+DON'T KISS THE GOATS!!
+  -Farmer Paddock
+~
+S
+#1886
+Sugarcane Fields~
+This area of the valley seems very hot and humid.  The magical properties
+of the valley has allowed tropical sugarcane to flourish here.  Indeed,
+these fields seem to be bursting with the giant thick perennial grass
+which adds flavor to any tempting culinary delight.
+  A small sign is partially hidden benath the tall stems of the 
+sugarcane.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1887
+D2
+Exit ~
+door~
+0 0 1883
+D3
+Exit ~
+door~
+0 0 1885
+E
+small sign~
+SUGARCANE- (saccharum officinarum)
+~
+S
+#1887
+A Glittering Pathway~
+The awe-inspiring sight of the citadel looming before you is absolutely
+breathtaking.  The massive walls which surround the bastion, and the
+compound itself, are carved from magical stone, which shift color
+endlessly: from green to yellow to red to blue.  Four tall towers,
+constructed from the same magical material, surround the compound,
+their spires stretching high into the sapphire blue sky.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1890
+D1
+Exit ~
+door~
+0 0 1888
+D2
+Exit ~
+door~
+0 0 1882
+D3
+Exit ~
+door~
+0 0 1886
+S
+#1888
+Tomato Fields~
+These fields are set aside for growing plump, juicy tomatoes.  The soil
+is rich and fertile, and perfect for the lucious red fruit which the
+monks favor in their soups and broths.
+  Mingling in with the tantalizing smell of ripe tomatoes is a horrible
+stench emanating from what appears to be an enclosure to the east.
+  There is a battered bulletin here, partly overgrown with vines.
+  You also spy a familiar little sign nestled amongst the tomatoes.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1889
+D2
+Exit ~
+door~
+0 0 1881
+D3
+Exit ~
+door~
+0 0 1887
+E
+small sign~
+TOMATO- (lycopersicom esculentum)
+~
+E
+battered bulletin~
+The pen to the east houses Tonnerre, the ugliest meanest bull ye
+ever did see!  DON' FEED THE BULL!  He don' like visitors!
+  -Farmer Graymalkin
+~
+S
+#1889
+Pen of the Bull~
+You assume that this pen houses a mighty creature, with rather poor
+sanitary habits.  The fences are lined with steel, and glow with magical
+light.  Obviously whoever occupies this domicile shouldn't be wandering
+the fields unsupervised.
+~
+0 0 4
+D3
+Exit ~
+door~
+0 0 1888
+E
+sign~
+Generic extended description.
+~
+S
+#1890
+Entrance to the Citadel of Kunji~
+The glimmering pathway ends at the magnificent gates to the citadel of
+Kunji.  The entrance to the multi-colored walls of the citadel is 
+blocked by a barbican hosting a gleaming silver portcullis which glows
+with an unearthly violet light.  
+  There is a star-shaped indentation in the finely crafted metal of
+the portcullis gates.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 1847 1891
+D2
+Exit ~
+door~
+0 0 1887
+S
+#1891
+Southern Courtyard~
+The courtyard on the interior of the citadel walls seems larger than it
+is as it is virtually empty.  Marble fountains are placed in each corner
+of the marble-tiled square, but it is the large fountain in the center
+which attracts attention.  Acolytes rushing through the square pay
+you no heed, as they have errands to run for their superiors.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1895
+D1
+Exit ~
+door~
+0 0 1892
+D2
+Exit ~
+door~
+0 1847 1890
+D3
+Exit ~
+door~
+0 0 1897
+S
+#1892
+Herb Garden~
+It is here that the monks grow the herbs needed for their enchantments,
+potions and poultices.  The garden is perfectly arranged in precise 
+rows, with a small sign indicating the name of each herb and plant.
+Tiny bonsai trees grow in beautifully crafted ceramic urns, and are
+tended diligently by the herbalists of the citadel.
+  A sturdy wooden cottage lies to the north.
+~
+0 0 4
+D0
+Exit ~
+door~
+1 0 1894
+D1
+Exit ~
+door~
+0 0 1893
+D3
+Exit ~
+door~
+0 0 1891
+S
+#1893
+Eastern Plaza~
+This rectangular plaza is completely surrounded by gracelful aspen trees,
+arranged precisely around a circular bench carved from heart-oak.  The
+gentle swaying of the aspens fills you with tranquility, and you feel 
+the need to stop and rest awhile.  The silver streaked trunks and 
+emerald green leaves of the aspens are a sight beautiful to behold.
+~
+0 0 4
+D3
+Exit ~
+door~
+0 0 1892
+S
+#1894
+Herbalist's Cottage~
+This cottage is cluttered with vials, beakers, and ceramic pots of 
+every size and description.  Shelves line each wall of the cottage, each
+straining under the weight of countless species of flora.  This is 
+where the monks gather the herbs they grow in their gardens, which are
+vital ingredients for their potions and spells.  Occasionally, 
+di'Varnyt the Herbalist will sell his precious herbs to outsiders, but
+the price is not cheap.
+~
+0 D 4
+D2
+Exit ~
+door~
+1 0 1892
+S
+#1895
+Northern Courtyard~
+The northern courtyard is tiled with tiny pieces of colored stone.  
+Collectively, the green, yellow, red and blue tiles form a mosaic 
+depicting the awakening of a great creature; a flaming dragon with razor
+sharp talons, a cruelly spiked tail and the wings of a great eagle.
+The pattern on the floor is either the work of highly skilled craftsmen
+or is magical in nature.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1899
+D2
+Exit ~
+door~
+0 0 1891
+D3
+Exit ~
+door~
+0 0 1896
+S
+#1896
+Square of Meditation~
+This rather spartan square is where the monks gather to meditate or 
+think in quiet contemplation.  Even now, the echoes of ancient mantras
+fill your ears.  There are no benches, as the monks prefer discomfort
+as a means for spiritual renewal.
+  An ivory statue of a bearded robed man occupies the center of the
+square.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1895
+D2
+Exit ~
+door~
+0 0 1897
+S
+#1897
+Mystical Pond~
+A shimmering, crystal-clear pool of water is situated in an area of
+aspen and willow trees.  The pool is filled with cool water, and not
+a ripple breaks the surface, even when you immerse your hands in it.
+The pool reflects an exact image of your weathered face as you gaze
+into its deep recesses, and you are at complete peace with yourself
+and the world.
+~
+0 0 4
+D0
+Exit ~
+door~
+0 0 1896
+D1
+Exit ~
+door~
+0 0 1891
+D3
+Exit ~
+door~
+0 0 1898
+S
+#1898
+Western Plaza~
+This rectangular plaza is completely surrounded by hardy oak trees, 
+grown diligently over centuries by the patient monks of the Citadel.
+You are awestruck by the sheer magnificence of these ancient trees, 
+which have existed since the dawn of the world.  A circular bench
+carved from aspenwood is placed in the exact center of the plaza.
+~
+0 0 4
+D1
+Exit ~
+door~
+0 0 1897
+S
+#1899
+Entrance to the Temple of Kunji~
+The massive temple stands before you, carved from the living rock of 
+the mountains which encircle the valley of Zanathai.  Its simple 
+rectangular structure belies the power required to construct it, as it 
+is not formed from bricks and mortar, rather made from one single 
+piece of rock, imbued with magic and power beyond your comprehension.
+The rock shifts colors ceaselessly in hypnotic fashion, and you feel
+a sudden surge of vertigo.
+  The way into the temple is blocked by two massive golden gates, which
+glow softly with a pale blue light.  You can barely make out a moon
+shaped indentation carved into one of the gates.
+~
+0 0 4
+D0
+Exit ~
+door~
+4 1848 19600
+D2
+Exit ~
+door~
+0 0 1895
+S
+#0
+
+#RESETS
+M 0 1800   1 1894  1	* di'Varnyt the Herbalist
+G 1 1831  -1     	*   a sprig of mint
+G 1 1838  -1     	*   a laurel wreath
+G 1 1840  -1     	*   a spicy paprika pepper
+G 1 1830  -1     	*   a container filled with cinnamon
+G 1 1835  -1     	*   an envelope of cayenne pepper
+G 1 1833  -1     	*   a mandrake root
+G 1 1841  -1     	*   a nightshade mushroom
+G 1 1827  -1     	*   a small packet of parsley
+G 1 1832  -1     	*   a packet of marjoram
+G 1 1843  -1     	*   a packet of pungeant garlic powder
+G 1 1825  -1     	*   a pouch of tarragon
+G 1 1828  -1     	*   a pouch stuffed with fenugreek seed
+G 1 1839  -1     	*   a pouch of sage
+G 1 1824  -1     	*   a bag of mace
+G 1 1826  -1     	*   a bag of ginger
+G 1 1834  -1     	*   a bag of nutmeg
+G 1 1837  -1     	*   a bag of saffron
+G 1 1842  -1     	*   a bag of crushed poppy seeds
+G 1 1844  -1     	*   a bag of thyme
+G 1 1829  -1     	*   a vial of onion powder
+G 1 1836  -1     	*   a vial of curry powder
+G 1 1845  -1     	*   a vial of mustard
+O 0 1800 100 1897	* a mystical pond
+M 0 1807   2 1890  2	* a green-robed monk
+E 1 1814  -1    3	*   a bronze holy symbol of Kunji
+E 1 1819  -1   16	*   a wickedly barbed glaive
+E 1 1820  -1    1	*   an engraved silver ring
+E 1 1815  -1   12	*   a dark green robe of the Manticore
+M 0 1807   2 1890  2	* a green-robed monk
+E 1 1814  -1    3	*   a bronze holy symbol of Kunji
+E 1 1819  -1   16	*   a wickedly barbed glaive
+E 1 1820  -1    1	*   an engraved silver ring
+E 1 1815  -1   12	*   a dark green robe of the Manticore
+E 1 1847  -1   17	*   a shimmering star-shaped symbol
+D 0 1890   0    2	* Entrance to the Citadel of Kunji north
+O 0 1801 100 1891	* a beautiful marble fountain
+D 0 1891   2    2	* Southern Courtyard south
+M 0 1808   2 1899  2	* a blue-robed monk
+E 1 1823  -1   16	*   a sword of defense
+E 1 1820  -1    1	*   an engraved silver ring
+E 1 1814  -1    3	*   a bronze holy symbol of Kunji
+E 1 1818  -1   12	*   an azure blue robe of the Dragon
+M 0 1808   2 1899  2	* a blue-robed monk
+E 1 1848  -1   17	*   a shimmering moon-shaped symbol
+E 1 1823  -1   16	*   a sword of defense
+E 1 1820  -1    1	*   an engraved silver ring
+E 1 1814  -1    3	*   a bronze holy symbol of Kunji
+E 1 1818  -1   12	*   an azure blue robe of the Dragon
+D 0 1899   0    2	* Entrance to the Temple of Kunji north
+M 0 1810   1 1896  1	* a yellow-robed monk
+E 1 1821  -1   16	*   a mithril warhammer
+E 1 1820  -1    1	*   an engraved silver ring
+E 1 1814  -1    3	*   a bronze holy symbol of Kunji
+E 1 1816  -1   12	*   a bright yellow robe of the Gryphon
+O 0 1803 100 1896	* the ivory statue
+M 0 1809   1 1892  1	* a red-robed monk
+E 1 1822  -1   16	*   an ancient oaken staff
+E 1 1817  -1   12	*   a blood red robe of the Phoenix
+E 1 1820  -1    1	*   an engraved silver ring
+E 1 1814  -1    3	*   a bronze holy symbol of Kunji
+M 0 1809   2 1898  1	* a red-robed monk
+E 1 1822  -1   16	*   an ancient oaken staff
+E 1 1817  -1   12	*   a blood red robe of the Phoenix
+E 1 1820  -1    1	*   an engraved silver ring
+E 1 1814  -1    3	*   a bronze holy symbol of Kunji
+O 0 1802 100 1898	* a circular wooden bench
+M 0 1810   2 1893  1	* a yellow-robed monk
+E 1 1821  -1   16	*   a mithril warhammer
+E 1 1816  -1   12	*   a bright yellow robe of the Gryphon
+E 1 1814  -1    3	*   a bronze holy symbol of Kunji
+E 1 1820  -1    1	*   an engraved silver ring
+O 0 1802 100 1893	* a circular wooden bench
+M 0 1801   2 1885  2	* a grumpy looking goat
+M 0 1801   2 1885  2	* a grumpy looking goat
+M 0 1811   1 1884  1	* Farmer Paddock
+M 0 1806   2 1875  2	* a slovenly hog
+M 0 1806   2 1875  2	* a slovenly hog
+M 0 1802   2 1874  2	* a befuddled brown cow
+M 0 1802   2 1874  2	* a befuddled brown cow
+M 0 1805   3 1870  3	* a woolly, white sheep
+M 0 1805   3 1870  3	* a woolly, white sheep
+M 0 1805   3 1870  3	* a woolly, white sheep
+M 0 1804   1 1889  1	* Tonnerre the Bull
+M 0 1812   1 1880  1	* Farmer Graymalkin
+O 0 1810 100 1886	* some sweet sugarcane
+O 0 1811 100 1883	* a stash of tobacco
+O 0 1811 100 1883	* a stash of tobacco
+O 0 1807 100 1876	* a bushel of barley
+O 0 1807 100 1876	* a bushel of barley
+O 0 1807 100 1876	* a bushel of barley
+O 0 1807 100 1876	* a bushel of barley
+O 0 1807 100 1876	* a bushel of barley
+O 0 1806 100 1873	* a bushel of wheat
+O 0 1806 100 1873	* a bushel of wheat
+O 0 1806 100 1873	* a bushel of wheat
+O 0 1806 100 1873	* a bushel of wheat
+O 0 1806 100 1873	* a bushel of wheat
+O 0 1808 100 1871	* a yummy turnip
+O 0 1808 100 1871	* a yummy turnip
+O 0 1808 100 1871	* a yummy turnip
+O 0 1805 100 1878	* a delectable squash
+O 0 1805 100 1878	* a delectable squash
+O 0 1805 100 1878	* a delectable squash
+O 0 1809 100 1881	* a spicy potato
+O 0 1809 100 1881	* a spicy potato
+O 0 1809 100 1881	* a spicy potato
+O 0 1809 100 1881	* a spicy potato
+O 0 1804 100 1888	* a juicy, fiery red tomato
+O 0 1804 100 1888	* a juicy, fiery red tomato
+O 0 1804 100 1888	* a juicy, fiery red tomato
+O 0 1804 100 1888	* a juicy, fiery red tomato
+M 0 1813   1 1841  1	* an insane minotaur
+E 1 1812  -1    3	*   a cowbell
+S
+
+#SHOPS
+1800  0  0  0  0  0 	 110 100 	 1 23 	* di'Varnyt the Herbalist
+0
+
+#SPECIALS
+M 1807 spec_thief          	* a green-robed monk
+M 1808 spec_breath_any     	* a blue-robed monk
+M 1809 spec_cast_mage      	* a red-robed monk
+M 1810 spec_cast_cleric    	* a yellow-robed monk
+S
+
+#$

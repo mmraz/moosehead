@@ -1,0 +1,549 @@
+#AREA
+../newareas/r_n_stes.are~
+New test area~
+10-51  San_Ran  New test area~
+10100 10130
+
+#MOBILES
+#10100
+A hungry ENORMOUS maggot~
+A hungry , very large maggot~
+The hungry maggot turns and squirms towards you 
+~
+You see a white HUGE maggot. He is equipped with but one tooth.  Or is it one FANG!
+~
+human~
+ABFTe 0 0 0
+20 15 0d0+0 0d0+0 0d0+0 pierce
+-15 -15 -15 -12
+BEFNU 0 0 0
+stand stand none 0
+BR 0 medium 0
+F par GHIJK
+#10101
+Condor~
+THE Condor~
+You see a very large Condor looking down at you. Its sharp beak awaits to penetrate your heart.
+~
+Generic description.~
+dragon~
+ABFST 0 1000 0
+40 20 15d10+1850 15d10+1850 4d8+13 peck
+-1 -1 -1 -1
+DEFHNU ABFLQR AFJP GK
+sit sit female 8000
+MVW B giant 0
+F aff JT
+F res EH
+F vul F
+F par GHIJKPQUVX
+#0
+
+#OBJECTS
+#10100
+polished Toilet~
+A beatifully polished Toidy!~
+You see a Thrown Polished to the hilt. Its a KINGS Toilet!~
+Porcelan~
+furniture A A
+2 0 CFIL 150 150
+1 100 0 P
+A
+12 10
+#10101
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#0
+
+#ROOMS
+#10100
+Path to Jurassic Forest~
+This seems like a path that could be enjoyed by all. You move quickly at first
+but start to calm down as you look around.
+~
+0 C 3
+D0
+Exit ~
+door~
+0 0 10101
+E
+Santi Cave~
+You see Santiago Snoring away in the Corner. 
+Shhhh   don't disturb him
+~
+S
+#10101
+Path to Jurassic Forest~
+This seems like a path that could be enjoyed by all. You move quickly at first
+but start to calm down as you look around.
+~
+0 C 3
+D0
+Exit ~
+door~
+0 0 10102
+D2
+Exit ~
+door~
+0 0 10100
+E
+Santi Cave~
+You see Santiago Snoring away in the Corner. 
+Shhhh   don't disturb him
+~
+S
+#10102
+Path to Jurassic Forest~
+You start to walk northward down a deeply wooded path
+You feel that something is watching you!
+~
+0 0 3
+D2
+Exit ~
+door~
+0 0 10101
+D3
+Exit ~
+door~
+0 0 10103
+S
+#10103
+Path to Jurassic Forest~
+You have been forced to head west due to the nature of the slopes
+You feel a chill in the air and a slight rumbling under your feet
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 10102
+D3
+Exit ~
+door~
+0 0 10104
+S
+#10104
+Path of Decision~
+The path starts to widen and the sky begins to appear through the treetops.
+As you continue to walk ahead a large shadow quickly engulfs you and clears just as suddenly.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 10125
+D1
+Exit ~
+door~
+0 0 10103
+D3
+Exit ~
+door~
+0 0 10105
+S
+#10105
+Path of Enormity~
+You have chosen to walk down a path where everything seems a bit larger
+tThe plant growth now towers at your height and the flowers seem bigger and brighter than ever
+There seems to be large indentations in the path causing you to stumble every so often.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 10104
+D3
+Exit ~
+door~
+0 0 10106
+S
+#10106
+Path of Enormity~
+You have chosen to walk down a path where everything seems a bit larger
+tThe plant growth now towers at your height and the flowers seem bigger and brighter than ever
+There seems to be large indentations in the path causing you to stumble every so often.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 10105
+D2
+Exit ~
+door~
+0 0 10107
+D3
+Exit ~
+door~
+0 0 10108
+S
+#10107
+A Crevice in the Vegetation~
+You have walked through a small crevice in the vegetation. You notice something moving at your feet.
+You realize that the movement are large watermelon sized maggots. Hungry Maggots.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 10106
+S
+#10108
+A Clearing~
+A clearing has appeared almost from nowhere. There is an abundance of folage. Large folage.
+You notice the temperature rising and mist rising from thin cracks in the ground. 
+You feel the ground tremble.
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 10106
+D2
+Exit ~
+door~
+0 0 10109
+S
+#10109
+Path of Vines.~
+You have chosen the Path of Vines. 
+You see before you a wall of thick Vines. Some ascend up taking you to God knows where?
+Some take you downward, along a steep cliff, taking you to Satan knows where.?
+Is there a choice?  NOT!!
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10109
+D4
+Exit ~
+door~
+0 0 10110
+S
+#10110
+Up the Vine~
+You have chosen the upward path. You feel your body weight increasing.
+It's like something is pulling you down. You are beginning to tire. Don't let go. You know
+that there is nothing below to catch your fall. Better to keep going.....you think?
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 10113
+D3
+Exit ~
+door~
+0 0 10112
+D4
+Exit ~
+door~
+0 0 10111
+D5
+Exit ~
+door~
+0 0 10109
+S
+#10111
+Up the Vine~
+You have chosen the upward path. You feel your body weight increasing.
+It's like something is pulling you down. You are beginning to tire. Don't let go. You know
+that there is nothing below to catch your fall. Better to keep going.....you think?
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 10115
+D3
+Exit ~
+door~
+0 0 10114
+D4
+Exit ~
+door~
+0 0 10116
+D5
+Exit ~
+door~
+0 0 10110
+S
+#10112
+Mosquito Nest  ACK!!!~
+You have walked right smack into the middle of a mosquito nest. But one thing...
+These things are ENORMOUS. They have a nozzle as long as your leg.
+Several turn at once as you enter their domain.
+Simple terms           You're Flocked!!!
+~
+0 ANT 2
+D1
+Exit ~
+door~
+0 0 10110
+S
+#10113
+Mosquito Nest  ACK!!!~
+You have walked right smack into the middle of a mosquito nest. But one thing...
+These things are ENORMOUS. They have a nozzle as long as your leg.
+Several turn at once as you enter their domain.
+Simple terms           You're Flocked!!!
+~
+0 ANT 2
+D3
+Exit ~
+door~
+0 0 10110
+S
+#10114
+Wasps Nest.~
+You have now walked into a warm damp environment. You slowly sink in what feels like warm oil.
+You hear a deafening buzzing sound coming from above. You look and see several
+enormous black and yellow wasps. The next death cry may be YOURS!
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 10111
+S
+#10115
+Wasps Nest.~
+You have now walked into a warm damp environment. You slowly sink in what feels like warm oil.
+You hear a deafening buzzing sound coming from above. You look and see several
+enormous black and yellow wasps. The next death cry may be YOURS!
+~
+0 0 2
+D3
+Exit ~
+door~
+0 0 10111
+S
+#10116
+Up the Vine~
+Again you have chosen the upward path and again you feel your body weight increasing.
+Something is now definitely tugging at your feet. Your hands are becoming numb.
+~
+0 0 9
+H 0 M 0
+D1
+Exit ~
+door~
+0 0 10120
+D3
+Exit ~
+door~
+0 0 10119
+D4
+Exit ~
+door~
+0 0 10122
+D5
+Exit ~
+door~
+0 0 10111
+S
+#10117
+A Small Dead End Path~
+It seems there is no longer anymore path for you to follow.
+Bushes block you way in every direction but north. Best turn
+back now and save yourself some trouble.
+~
+0 0 3
+D2
+Exit ~
+bushes ~
+0 0 10118
+E
+stump~
+This is Randal's first room ever on MHS.
+~
+S
+#10118
+The Head of a Secret Path~
+It seems that past the bushes north of here that a small dirt path
+starts. Perhaps you should tread carefully, who knows what danger 
+could be lurking in the dense forest surrounding you.
+~
+0 0 3
+D0
+Exit ~
+bushes ~
+0 0 10117
+S
+#10119
+Black Fly Nest~
+You have stepped into a dark damp area. You feel something hit your head.
+Then you feel it again and again. Black flies bite and if you don't leave they
+surely make a light snack of you.
+~
+0 AN 2
+D1
+Exit ~
+door~
+0 0 10116
+S
+#10120
+Black Fly Nest~
+You have stepped into a dark damp area. You feel something hit your head.
+Then you feel it again and again. Black flies bite and if you don't leave they
+surely make a light snack of you.
+~
+0 AN 2
+D3
+Exit ~
+door~
+0 0 10116
+S
+#10121
+Generic room name~
+Generic room description.
+~
+0 0 2
+S
+#10122
+Up the Vine~
+Again you have chosen the upward path and again you feel your body weight increasing.
+Something is now definitely tugging at your feet. Your hands are becoming numb.
+~
+0 0 9
+H 0 M 0
+D4
+Exit ~
+door~
+0 0 10123
+D5
+Exit ~
+door~
+0 0 10116
+S
+#10123
+Up the Vine~
+Again you have chosen the upward path and again you feel your body weight increasing.
+Something is now definitely tugging at your feet. Your hands are becoming numb.
+~
+0 0 9
+H 0 M 0
+D3
+Exit ~
+door~
+0 0 10124
+D5
+Exit ~
+door~
+0 0 10122
+S
+#10124
+Nest of the Condor~
+You have stepped onto a soft grass filled landing. Your hands are burning from
+all the climbing. You look up to meet eye to eye with THE Condor.
+There is NO escape from this creature as he screams and attacks.
+~
+0 0 9
+D1
+Exit ~
+door~
+0 0 10123
+S
+#10125
+The Northern Expanse~
+You have chosen to walk northward. This way may be hazardous to your health.
+The vegetation seems sooo large, yet the growth seems to be diminishing.
+You start to get a little concerned, yet want to forge on ahead anyway.
+~
+0 N 3
+D0
+Exit ~
+door~
+0 0 10126
+D2
+Exit ~
+door~
+0 0 10104
+S
+#10126
+Path of the Depths~
+You were right. This way may be interesting but is starting to become darker.
+This leaves you with a decision. Turn back now...or face the unreturnable path that
+lays ahead.
+~
+0 0 6
+D0
+Exit ~
+door~
+0 0 10127
+D2
+Exit ~
+door~
+0 0 10125
+S
+#10127
+The Path of Depths~
+Generic room description.
+You have passed the point of NO return. I hope you are prepared for the decision
+that you have made. There may be another place for you to escape the terrors, but
+for now take heed my friend.....death may be closer than you think.
+~
+0 N 7
+D0
+Exit ~
+door~
+0 0 10128
+S
+#10128
+The Path of Depths~
+Generic room description.
+You have passed the point of NO return. I hope you are prepared for the decision
+that you have made. There may be another place for you to escape the terrors, but
+for now take heed my friend.....death may be closer than you think.
+~
+0 N 7
+D2
+Exit ~
+door~
+0 0 10127
+D3
+Exit ~
+door~
+0 0 10129
+S
+#10129
+Nest of the Vine~
+You are attacked immediately by a large like vine. It has the movements and the strength of an anaconda.
+You feel the strength being squeezed from you as this life-like piece of vegetation sucks the life from you.
+~
+0 0 7
+D1
+Exit ~
+door~
+0 0 10130
+S
+#10130
+Nest of the skunk~
+Ohh Great...Now you have disturbed the sweetest smelling creature in the forest. He wastes no time 
+in seeing that your eyesight and health is dramatically changed. Take him and you still lose PeeUuu.
+~
+0 0 7
+D3
+Exit ~
+door~
+0 0 10129
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 10101 spec_breath_acid    	* THE Condor
+S
+
+#$

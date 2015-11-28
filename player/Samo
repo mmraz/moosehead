@@ -2,8 +2,8 @@
 Name Samo~
 Id   984736416
 Email (null)~
-LogO 1132496858
-Vers 31
+LogO 1387913895
+Vers 33
 Prom %hhp %mm %vmv |%Xtnl| $%g|%r|%e|   ~
 Race dragon~
 Clan honor~
@@ -15,6 +15,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 2 1 5
 Steal 0 0 0
+MSteal 0
 LstK Raptyr~
 LstKBy Krush~
 LstAtkedBy no one~
@@ -22,10 +23,16 @@ LstAtkedByTimer 0
 LstCombatDate 1132496192
 LstKillDate 1132496274
 LstDeathDate 1077781640
-LoginsWOKill 1
-LoginsWODeath 11
-LoginsWOCombat 0
+LoginsWOKill 2
+LoginsWODeath 12
+LoginsWOCombat 1
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 257028 hermes~
 DeityT -1153 almighty~
 Sac  300
@@ -35,48 +42,49 @@ Node 0
 Cap 0
 Created 984736473
 Glad 0 0 0 0 0 0
-LastHost ndn-165-129-226.telkomadsl.co.za~
+LastHost 105.225.171.16~
 Cla  9
 Kit wu jen~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 304966
+Plyd 305303
 Not  997395331 0 0 1131210186 1051919524 1132178880 0 1066193394 0 1129478192
 Scro 22
 Rank 2
 Room 31520
-HMV  1011 1331 214 838 715 717
+HMV  1331 1331 838 838 717 717
 Gold 911
 Silv 2038
 Exp  433509
 Act  DEFGHIKQS
 MHSF RS
-AfBy DFHJKTc
+AfBy DFJTc
 Comm 0
 Disp FGIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 24
+Prac 25
+Trai 24
 SkiP 27
-Save  -26
+Save  -29
 Alig  930
-Hit   39
+Hit   42
 Dam   39
-SecHit   27
+SecHit   30
 SecDam   27
 ACs -127 -115 -127 -75
-Attr 23 25 25 23 25 25 24 13
-AMod 4 2 0 3 2 0 0 0
+Attr 23 25 25 23 25 11 14 13
+AMod 0 2 0 3 4 0 0 0
 Pass SaphNrhU1GhUU~
 Titl  Wamo Bamo!~
 Pnts 94
 TSex 2
 LLev 76
 HMVP 1101 763 717
-Cnd  0 37 47 43
+Cnd  0 25 44 37
 Alias fog c 'faerie fog'~
 Alias magic c 'detect magic'~
 Alias ch c charm~
@@ -104,7 +112,6 @@ Sk 1 'change sex'
 Sk 75 'charm person'
 Sk 1 'chill touch'
 Sk 75 'colour spray'
-Sk 1 'cone of silence'
 Sk 75 'control weather'
 Sk 75 'cure critical'
 Sk 1 'cure light'
@@ -225,16 +232,13 @@ Gr 'pyrotechnics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'sanctuary'   0  47   6   0   0        128
-Affc 'curse'   0  49   2   3  24       1024
-Affc 'curse'   0  50   2  -3  18       1024
-Affc 'bless'   0  39  18  -5  24          0
-Affc 'bless'   0  43  18   5  18          0
-Affc 'stone skin'   0  39  11 -40  17          0
-Affc 'shield'   0  39  19 -20  17          0
-Affc 'giant strength'   0  37   5   4   1          0
-Affc 'detect hidden'   0  40  10   0   0         32
-Affc 'detect invis'   0  43   9   0   0          8
+Affc 'enhance'   0  50  12   2   5          0
+Affc 'detect invis'   0  40   0   0   0          8
+Affc 'detect hidden'   0  38   1   0   0         32
+Affc 'shield'   0  36  10 -20  17          0
+Affc 'stone skin'   0  38   2 -40  17          0
+Affc 'bless'   0  39   9   5  18          0
+Affc 'bless'   0  37   9  -5  24          0
 End
 
 #O
@@ -452,8 +456,8 @@ ExtF 67
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   0  53  -1  12  18          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
@@ -466,8 +470,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1000
-Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
@@ -479,9 +483,9 @@ ExtF 98
 Cond 0
 Wear -1
 Cost 15300
-Affc 'reserved'   1  50  -1  50  13          0
-Affc 'enchant weapon'   1  52  -1   9  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   1  52  -1   9  18          0
+Affc 'reserved'   1  50  -1  50  13          0
 End
 
 #O
@@ -493,8 +497,8 @@ ExtF 67
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   1  52  -1  12  19          0
 Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #O
@@ -505,7 +509,7 @@ ExtF 256
 Cond 0
 Wear 8
 Cost 1500
-Affc 'bless'   1  44  35  -1  20        256
+Affc 'bless'   1  42  26  -1  20        256
 End
 
 #O
@@ -516,7 +520,7 @@ ExtF 17301824
 Cond 0
 Wear 2
 Cost 7609
-Affc 'bless'   1  38  31  -1  20        256
+Affc 'bless'   1  38  22  -1  20        256
 End
 
 #O
@@ -527,7 +531,7 @@ ExtF 17301824
 Cond 0
 Wear 1
 Cost 7609
-Affc 'bless'   1  41  31  -1  20        256
+Affc 'bless'   1  39  22  -1  20        256
 End
 
 #O
@@ -538,7 +542,7 @@ ExtF 17301824
 Cond 0
 Wear 4
 Cost 3690
-Affc 'bless'   1  42  31  -1  20        256
+Affc 'bless'   1  38  22  -1  20        256
 End
 
 #O
@@ -549,7 +553,7 @@ ExtF 17301824
 Cond 0
 Wear 3
 Cost 3690
-Affc 'bless'   1  42  31  -1  20        256
+Affc 'bless'   1  39  22  -1  20        256
 End
 
 #O
@@ -560,7 +564,7 @@ ExtF 321
 Cond 0
 Wear 15
 Cost 9999
-Affc 'bless'   1  46  33  -1  20        256
+Affc 'bless'   1  43  24  -1  20        256
 End
 
 #O
@@ -571,7 +575,7 @@ ExtF 321
 Cond 0
 Wear 14
 Cost 9999
-Affc 'bless'   1  43  33  -1  20        256
+Affc 'bless'   1  40  24  -1  20        256
 End
 
 #O
@@ -583,7 +587,7 @@ ExtF 256
 Cond 0
 Wear 9
 Cost 1700
-Affc 'bless'   1  44  34  -1  20        256
+Affc 'bless'   1  42  25  -1  20        256
 End
 
 #O
@@ -604,7 +608,7 @@ ExtF 262401
 Cond 0
 Wear 12
 Cost 0
-Affc 'bless'   1  43  34  -1  20        256
+Affc 'bless'   1  40  25  -1  20        256
 End
 
 #O
@@ -615,7 +619,7 @@ ExtF 16777473
 Cond 0
 Wear 0
 Cost 0
-Affc 'bless'   1  42  31  -1  20        256
+Affc 'bless'   1  41  22  -1  20        256
 End
 
 #O
@@ -626,7 +630,7 @@ ExtF 320
 Cond 0
 Wear 10
 Cost 4250
-Affc 'bless'   1  41  34  -1  20        256
+Affc 'bless'   1  40  25  -1  20        256
 End
 
 #O
@@ -637,7 +641,7 @@ ExtF 18088193
 Cond 0
 Wear 18
 Cost 0
-Affc 'bless'   1  41  35  -1  20        256
+Affc 'bless'   1  40  26  -1  20        256
 End
 
 #O
@@ -648,7 +652,7 @@ ExtF 257
 Cond 0
 Wear 5
 Cost 13700
-Affc 'bless'   1  43  32  -1  20        256
+Affc 'bless'   1  42  23  -1  20        256
 End
 
 #O
@@ -659,7 +663,7 @@ ExtF 256
 Cond 0
 Wear 7
 Cost 2000
-Affc 'bless'   1  43  35  -1  20        256
+Affc 'bless'   1  41  26  -1  20        256
 End
 
 #O
@@ -670,7 +674,7 @@ ExtF 17301760
 Cond 0
 Wear 11
 Cost 12345
-Affc 'bless'   1  46  32  -1  20        256
+Affc 'bless'   1  45  23  -1  20        256
 End
 
 #O
@@ -681,7 +685,7 @@ ExtF 17563968
 Cond 0
 Wear 6
 Cost 7777
-Affc 'bless'   1  43  32  -1  20        256
+Affc 'bless'   1  39  23  -1  20        256
 End
 
 #O
@@ -692,7 +696,7 @@ ExtF 262400
 Cond 0
 Wear 13
 Cost 5500
-Affc 'bless'   1  45  34  -1  20        256
+Affc 'bless'   1  43  25  -1  20        256
 End
 
 #O
@@ -722,8 +726,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -811,8 +815,8 @@ Wear 16
 Lev  50
 Cost 4500
 Val  2 2 20 38 5
-Affc 'enchant weapon'   1  52  -1  12  19          0
 Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #O

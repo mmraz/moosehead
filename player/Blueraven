@@ -3,8 +3,8 @@ Name Blueraven~
 SurN Elegy~
 Id   1076482118
 Email (null)~
-LogO 1095700985
-Vers 31
+LogO 1410717472
+Vers 33
 Desc a {bBlue{Draven{x chases dawn.
 ~
 Prom <%hhp %mm %vmv %Xtnl %gGold %wlbs> ~
@@ -12,11 +12,12 @@ Race lasher~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 7
+SkPTimer 1
+SkPTracker 3
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -28,6 +29,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 xochipili~
 Sac  300
 Sex  2
@@ -36,45 +43,45 @@ Node 0
 Cap 0
 Created 1076483103
 Glad 0 0 0 0 0 0
-LastHost 67.163.146.203~
+LastHost 24.239.104.118~
 Cla  7
 ClaO 1
 Levl 4
 DLevl 0
-Plyd 5479
+Plyd 5753
 Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3001
-HMV  60 60 130 130 116 120
+HMV  60 60 130 130 120 120
 Gold 109
 Silv 34
 Exp  90969
 Act  CDEFGHKQ
 MHSF R
-AfBy TV
+AfBy T
 Comm DEGIRST
 Disp FIJN
 IcgB 0
 Icg 0
 Pos  8
-Prac 17
+Prac 18
+Trai 12
 SkiP 7
 Alig  -1000
-Hit   9
-Dam   10
-SecHit   8
-SecDam   10
-ACs 109 107 107 120
-Attr 17 14 16 12 20 12 21 14
-AMod 7 1 7 6 6 0 3 0
-Pass BlkgZ0D5UWoZQ~
+Hit   1
+Dam   1
+SecDam   1
+ACs 89 87 87 100
+Attr 17 14 16 12 20 10 11 14
+AMod 8 2 2 3 1 0 0 0
+Pass BlYeAJZUU2NaY~
 Titl  the confused~
 Pnts 119
 TSex 2
 LLev 1
 HMVP 60 130 120
-Cnd  0 20 18 40
+Cnd  0 0 10 24
 Alias k kill~
 Alias f flee~
 Sk 1 'aid'
@@ -87,7 +94,6 @@ Sk 1 'calm'
 Sk 1 'cancellation'
 Sk 1 'change sex'
 Sk 1 'charm person'
-Sk 1 'cone of silence'
 Sk 1 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -212,14 +218,7 @@ Gr 'orbs'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'frenzy'   0  50   5  40  17          0
-Affc 'frenzy'   0  51   5   8  19          0
-Affc 'frenzy'   0  50   5   8  18          0
-Affc 'haste'   0  51   0   4   2    2097152
-Affc 'spirit of boar'   0  50   0   5   5          0
-Affc 'spirit of owl'   0  51   0   5   4          0
-Affc 'shield'   0  30   0 -20  17          0
-Affc 'giant strength'   0  40  16   4   1          0
+Affc 'giant strength'   0  38   8   4   1          0
 End
 
 #O
@@ -251,29 +250,11 @@ Cost 0
 End
 
 #O
-Vnum 13206
-Nest 0
-PrevOwner Utena~
-Cond 0
-Wear 2
-Cost 0
-End
-
-#O
-Vnum 13206
-Nest 0
-PrevOwner Utena~
-Cond 0
-Wear 1
-Cost 0
-End
-
-#O
 Vnum 12022
 Nest 0
 PrevOwner Diablero~
 Cond 0
-Wear -1
+Wear 17
 Cost 0
 End
 
@@ -484,15 +465,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
-End
-
-#O
-Vnum 9802
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 17
-Cost 0
 End
 
 #O

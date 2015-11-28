@@ -2,8 +2,8 @@
 Name Solitarino~
 Id   920864752
 Email (null)~
-LogO 992629277
-Vers 27
+LogO 1309193927
+Vers 31
 Desc The crimson coat of fur zips out of nowhere.  
 You can tell that it is insane by the frenzied look in it's eyes.
 "Back off!" it says.
@@ -13,15 +13,22 @@ Race yinn~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 19
-SkPTracker 12
+SkPTimer 1
+SkPTracker 9
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1307335828
+LstKillDate 1307335828
+LstDeathDate 1307335828
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 288449 megena~
 Sac  300
 Sex  1
@@ -30,47 +37,49 @@ Node 0
 Cap 0
 Created 951716317
 Glad 0 0 0 0 0 0
-LastHost pcp023162pcs.unl.edu~
+LastHost 75.135.235.117~
 Cla  6
 Kit barbarian~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 430051
-Not  972854298 972854298 972854298 972854298 972854298 972854298 972854298 972854298 972854298
+Plyd 431019
+Not  972854298 972854298 972854298 972854298 972854298 972854298 972854298 972854298 972854298 0
 Scro 22
 Rank 0
 Room 3054
-HMV  1437 1437 375 375 461 470
-Gold 340
-Silv 7226
+HMV  1437 1437 382 395 372 470
+Gold 360
+Silv 5643
 Exp  271437
 Act  CDEFGHJM
-AfBy JTV
+MHSF R
+AfBy JT
 Comm DEFGILSc
 Disp CFIJ
 IcgB 0
 Icg 0
 Pos  5
-Prac 56
-SkiP 56
+Prac 50
+Trai 2
+SkiP 57
 Save  2
-Alig  635
-Hit   20
-Dam   47
-SecHit   12
-SecDam   39
-ACs -30 -32 -32 13
+Alig  659
+Hit   21
+Dam   42
+SecHit   13
+SecDam   34
+ACs -14 -16 -16 39
 Wimp  287
-Attr 23 18 19 23 22
-AMod 5 -1 5 8 1
-Pass SoR8AQACt9Fcw~
+Attr 23 18 19 23 22 14 14 21
+AMod 3 5 7 2 1 0 0 0
+Pass SojU0WFwDqtTo~
 Titl  I'm {RMad{X with Rage! ~
 Pnts 78
 TSex 1
 LLev 114
 HMVP 1367 375 470
-Cnd  0 7 44 13
+Cnd  0 0 43 21
 Alias gw get all~
 Alias ww wie all~
 Alias ch c heal~
@@ -108,9 +117,9 @@ Sk 31 'farsight'
 Sk 81 'feast'
 Sk 31 'fireproof'
 OldSk 1 'fireproof'
+Sk 31 'floating disc'
 Sk 36 'fly'
 OldSk 25 'fly'
-Sk 31 'floating disc'
 Sk 59 'frenzy'
 Sk 72 'gate'
 OldSk 25 'gate'
@@ -158,7 +167,7 @@ OldSk 40 'backstab'
 Sk 100 'barbarian rage'
 OldSk 16 'barbarian rage'
 OldSk 10 'berserk'
-Sk 47 'bite'
+Sk 54 'bite'
 Sk 100 'daetok'
 OldSk 10 'disarm'
 Sk 100 'dodge'
@@ -169,11 +178,11 @@ Sk 100 'enhanced damage'
 OldSk 90 'enhanced damage'
 Sk 23 'weave resistance'
 OldSk 12 'weave resistance'
-Sk 43 'insanity'
+Sk 63 'insanity'
 OldSk 17 'insanity'
 Sk 89 'hand to hand'
 OldSk 56 'kick'
-Sk 53 'morph'
+Sk 60 'morph'
 Sk 100 'parry'
 OldSk 100 'parry'
 Sk 89 'scan'
@@ -184,7 +193,7 @@ Sk 100 'third attack'
 OldSk 20 'third attack'
 Sk 100 'fast healing'
 OldSk 16 'fast healing'
-Sk 17 'sneak'
+Sk 53 'sneak'
 OldSk 10 'sneak'
 Sk 16 'steal'
 OldSk 13 'steal'
@@ -206,8 +215,8 @@ Gr 'detection'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'shield'   0  39   1 -20  17          0
-Affc 'haste'   0  49   7   4   2    2097152
+Affc 'daetok'   0  47   0   5  19          0
+Affc 'daetok'   0  50   0   5  18          0
 End
 
 #O
@@ -215,7 +224,7 @@ Vnum 3726
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 Val  100 1 0 10 85
 End
@@ -488,51 +497,6 @@ Affc 'enchant weapon'   0  43  -1   2  18          0
 End
 
 #O
-Vnum 5706
-Nest 1
-PrevOwner Solitarino~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 5710
-Nest 1
-PrevOwner Solitarino~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 5706
-Nest 1
-PrevOwner Solitarino~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 5710
-Nest 1
-PrevOwner Solitarino~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 17631
-Nest 1
-PrevOwner Solitarino~
-Cond 0
-Wear -1
-Cost 250
-End
-
-#O
 Vnum 2505
 Nest 0
 PrevOwner (null)~
@@ -628,7 +592,7 @@ Nest 0
 PrevOwner (null)~
 ExtF 1121
 Cond 0
-Wear 1
+Wear -1
 Cost 6900
 End
 
@@ -637,7 +601,7 @@ Vnum 9321
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 2400
 End
 
@@ -664,7 +628,7 @@ Nest 0
 PrevOwner (null)~
 ExtF 1121
 Cond 0
-Wear 2
+Wear -1
 Cost 6900
 End
 
@@ -723,7 +687,7 @@ Vnum 5922
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 4
+Wear -1
 Cost 300
 End
 
@@ -732,7 +696,7 @@ Vnum 5922
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 3
+Wear -1
 Cost 300
 End
 
@@ -742,7 +706,7 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 898
+Time 874
 Cost 1870
 Spell 1 'sleep'
 Spell 2 'blindness'
@@ -824,7 +788,7 @@ Vnum 28016
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 12
 Cost 3500
 End
 
@@ -835,6 +799,51 @@ PrevOwner Solitarino~
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Solitarino~
+Cond 0
+Wear 2
+Cost 1000
+End
+
+#O
+Vnum 5706
+Nest 0
+PrevOwner Solitarino~
+Cond 0
+Wear 4
+Cost 2000
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Solitarino~
+Cond 0
+Wear 1
+Cost 1000
+End
+
+#O
+Vnum 5706
+Nest 0
+PrevOwner Solitarino~
+Cond 0
+Wear 3
+Cost 2000
+End
+
+#O
+Vnum 17631
+Nest 0
+PrevOwner Solitarino~
+Cond 0
+Wear 0
+Cost 250
 End
 
 #END

@@ -3,18 +3,20 @@ Name Msocorcim~
 SurN Nethermancer~
 Id   1034529004
 Email (null)~
-LogO 1097585413
-Vers 31
+LogO 1362962841
+Vers 33
+LnD  A healthy Gladiator~
 Prom <%hhp %mm %vmv> {G*(%wWeight)*{x ->{Y%t:00{x<-(%X) ~
 Race lasher~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +28,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 DeityT -7253 matook~
 Sac  300
@@ -34,53 +42,54 @@ Vump  0
 Node 0
 Cap 0
 Created 1034529030
-Glad 0 0 0 0 0 0
-LastHost 24.157.72.71~
+Glad 1 0 0 0 0 0
+LastHost 99.241.52.126~
 Cla  11
 Kit nethermancer~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 305249
-Not  1036086096 1035673166 0 1036103668 1035855886 1036064444 0 1035821232 0 1035667000
+Plyd 717935
+Not  1355800688 1354913011 0 1356558789 1035855886 1356389981 0 1035821232 0 1356244889
 Scro 22
 Rank 0
-Room 30315
-HMV  1020 1054 881 881 347 347
-Gold 0
-Silv 11
+Room 3054
+HMV  1004 1004 881 881 347 347
+Gold 140
+Silv 3194
 Exp  217010
 Act  CDGHKR
 MHSF R
-AfBy CDEFTUc
+AfBy TUc
 Comm G
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 14
-SkiP 29
+Prac 15
+Trai 21
+SkiP 104
 Save  -1
 Alig  -1000
-Hit   19
-Dam   30
-SecHit   14
-SecDam   25
+Hit   16
+Dam   28
+SecHit   16
+SecDam   28
 ACs 68 68 68 68
-Wimp  20
-Attr 22 22 20 17 22 21 21 22
-AMod 4 13 2 0 2 0 0 0
-Pass MsXQPxAkNW7SM~
+Wimp  10
+Attr 22 22 20 17 22 10 11 22
+AMod 0 13 2 0 2 0 0 0
+Pass Ms/5.rAcvDhGI~
 Titl  the confused.~
 Pnts 77
 TSex 1
 LLev 34
 HMVP 764 731 347
-Cnd  0 28 44 36
+Cnd  0 0 10 6
 Alias k kill~
 Alias / c word~
-Sk 98 'acid blast'
+Sk 100 'acid blast'
 Sk 78 'armor'
 Sk 77 'blindness'
 Sk 92 'blur'
@@ -93,7 +102,6 @@ Sk 1 'change sex'
 Sk 75 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 1 'control weather'
 Sk 1 'curse'
 Sk 1 'detect evil'
@@ -128,7 +136,7 @@ Sk 78 'knock'
 Sk 1 'know alignment'
 Sk 1 'lightning bolt'
 Sk 90 'locate object'
-Sk 90 'magic missile'
+Sk 91 'magic missile'
 Sk 1 'mass invis'
 Sk 1 'nexus'
 Sk 1 'pass door'
@@ -162,11 +170,11 @@ Sk 75 'withstand death'
 Sk 1 'wound transfer'
 Sk 100 'dagger'
 Sk 100 'sword'
-Sk 78 'dodge'
+Sk 89 'dodge'
 Sk 52 'scan'
-Sk 94 'fade'
-Sk 89 'fast healing'
-Sk 95 'meditation'
+Sk 98 'fade'
+Sk 99 'fast healing'
+Sk 99 'meditation'
 Sk 85 'nethermancy'
 Sk 100 'spellcraft'
 Sk 1 'scrolls'
@@ -187,11 +195,6 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'giant strength'   0  52  51   4   1          0
-Affc 'detect good'   0  42  23   0   0          4
-Affc 'detect magic'   0  47  21   0   0         16
-Affc 'detect hidden'   0  45  22   0   0         32
-Affc 'detect invis'   0  41  22   0   0          8
 End
 
 #O
@@ -250,7 +253,7 @@ Desc A Kitty Treat looks good enough to eat.~
 Cond 0
 Wear -1
 Cost 0
-Val  20 169 110 17 -1
+Val  20 174 114 20 -1
 Spell 1 'sanctuary'
 Spell 2 'haste'
 Spell 3 'bless'
@@ -266,7 +269,7 @@ Desc A Kitty Treat looks good enough to eat.~
 Cond 0
 Wear -1
 Cost 0
-Val  20 169 110 17 -1
+Val  20 174 114 20 -1
 Spell 1 'sanctuary'
 Spell 2 'haste'
 Spell 3 'bless'
@@ -282,28 +285,10 @@ Desc A Kitty Treat looks good enough to eat.~
 Cond 0
 Wear -1
 Cost 0
-Val  20 169 110 17 -1
+Val  20 174 114 20 -1
 Spell 1 'sanctuary'
 Spell 2 'haste'
 Spell 3 'bless'
-End
-
-#O
-Vnum 15227
-Nest 1
-PrevOwner Msocorcim~
-Cond 0
-Wear -1
-Cost 20000
-End
-
-#O
-Vnum 4823
-Nest 1
-PrevOwner Msocorcim~
-Cond 0
-Wear -1
-Cost 4500
 End
 
 #O
@@ -313,7 +298,7 @@ PrevOwner Msocorcim~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -330,7 +315,7 @@ Cond 0
 Wear -1
 Lev  24
 Cost 0
-Val  51 72 -1 -1 -1
+Val  51 75 -1 -1 -1
 Spell 1 'dispel magic'
 End
 
@@ -347,7 +332,7 @@ Cond 0
 Wear -1
 Lev  24
 Cost 0
-Val  51 72 -1 -1 -1
+Val  51 75 -1 -1 -1
 Spell 1 'dispel magic'
 End
 
@@ -364,7 +349,7 @@ Cond 0
 Wear -1
 Lev  24
 Cost 0
-Val  51 72 -1 -1 -1
+Val  51 75 -1 -1 -1
 Spell 1 'dispel magic'
 End
 
@@ -381,7 +366,7 @@ Cond 0
 Wear -1
 Lev  24
 Cost 0
-Val  51 72 -1 -1 -1
+Val  51 75 -1 -1 -1
 Spell 1 'dispel magic'
 End
 
@@ -392,15 +377,6 @@ PrevOwner Msocorcim~
 Cond 0
 Wear -1
 Cost 2950
-End
-
-#O
-Vnum 5902
-Nest 1
-PrevOwner Msocorcim~
-Cond 0
-Wear -1
-Cost 4000
 End
 
 #O
@@ -425,7 +401,7 @@ Cond 0
 Wear -1
 Lev  14
 Cost 0
-Val  51 203 -1 -1 -1
+Val  51 208 -1 -1 -1
 Spell 1 'tower of iron will'
 End
 
@@ -442,7 +418,7 @@ Cond 0
 Wear -1
 Lev  14
 Cost 0
-Val  51 203 -1 -1 -1
+Val  51 208 -1 -1 -1
 Spell 1 'tower of iron will'
 End
 
@@ -459,7 +435,7 @@ Cond 0
 Wear -1
 Lev  14
 Cost 0
-Val  51 203 -1 -1 -1
+Val  51 208 -1 -1 -1
 Spell 1 'tower of iron will'
 End
 
@@ -476,7 +452,7 @@ Cond 0
 Wear -1
 Lev  14
 Cost 0
-Val  51 203 -1 -1 -1
+Val  51 208 -1 -1 -1
 Spell 1 'tower of iron will'
 End
 
@@ -493,7 +469,7 @@ Cond 0
 Wear -1
 Lev  14
 Cost 0
-Val  51 203 -1 -1 -1
+Val  51 208 -1 -1 -1
 Spell 1 'tower of iron will'
 End
 
@@ -510,7 +486,7 @@ Cond 0
 Wear -1
 Lev  14
 Cost 0
-Val  51 203 -1 -1 -1
+Val  51 208 -1 -1 -1
 Spell 1 'tower of iron will'
 End
 
@@ -527,7 +503,7 @@ Cond 0
 Wear -1
 Lev  14
 Cost 0
-Val  51 203 -1 -1 -1
+Val  51 208 -1 -1 -1
 Spell 1 'tower of iron will'
 End
 
@@ -544,7 +520,7 @@ Cond 0
 Wear -1
 Lev  14
 Cost 0
-Val  51 203 -1 -1 -1
+Val  51 208 -1 -1 -1
 Spell 1 'tower of iron will'
 End
 
@@ -561,7 +537,7 @@ Cond 0
 Wear -1
 Lev  14
 Cost 0
-Val  51 203 -1 -1 -1
+Val  51 208 -1 -1 -1
 Spell 1 'tower of iron will'
 End
 
@@ -578,7 +554,7 @@ Cond 0
 Wear -1
 Lev  14
 Cost 0
-Val  51 203 -1 -1 -1
+Val  51 208 -1 -1 -1
 Spell 1 'tower of iron will'
 End
 
@@ -623,7 +599,7 @@ Vnum 9322
 Nest 0
 PrevOwner Msocorcim~
 Cond 0
-Wear 1
+Wear 2
 Cost 1690
 End
 
@@ -659,7 +635,7 @@ Vnum 9322
 Nest 0
 PrevOwner Msocorcim~
 Cond 0
-Wear 2
+Wear 1
 Cost 1690
 End
 
@@ -730,7 +706,7 @@ PrevOwner Msocorcim~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 8 161 0
+Val  52 10 8 166 0
 Spell 3 'remove curse'
 End
 
@@ -753,21 +729,48 @@ Cost 1150
 End
 
 #O
-Vnum 3009
-Nest 0
-PrevOwner Msocorcim~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
 Vnum 23577
 Nest 0
 PrevOwner Msocorcim~
 Cond 0
-Wear 13
+Wear -1
 Cost 0
+End
+
+#O
+Vnum 20011
+Nest 1
+PrevOwner Msocorcim~
+Cond 0
+Wear -1
+Cost 150000
+End
+
+#O
+Vnum 20011
+Nest 1
+PrevOwner Msocorcim~
+Cond 0
+Wear -1
+Cost 150000
+End
+
+#O
+Vnum 20011
+Nest 1
+PrevOwner Msocorcim~
+Cond 0
+Wear -1
+Cost 150000
+End
+
+#O
+Vnum 20011
+Nest 1
+PrevOwner Msocorcim~
+Cond 0
+Wear -1
+Cost 150000
 End
 
 #O
@@ -787,25 +790,6 @@ PrevOwner Msocorcim~
 Cond 0
 Wear -1
 Cost 1000
-End
-
-#O
-Vnum 11098
-Enchanted
-Nest 0
-PrevOwner Msocorcim~
-Name blade azure demitra~
-ShD  {Wthe{x {CA{x{cz{x{Bu{x{br{x{Ce{x {RB{x{rl{x{Ra{x{rd{x{Re{x {Wof{x {DD{x{we{x{Dm{x{wi{x{Dt{x{wr{x{Da{x~
-Desc The blade crafted especially for Uniden by Demitra the Yinnish Blacksmith lies here. ~
-ExtF 67
-Cond 0
-Wear 16
-Lev  48
-Cost 3500
-Val  1 2 20 3 2342
-Affc 'reserved'   1  45  -1  50  13          0
-Affc 'enchant weapon'   1  63  -1   5  18          0
-Affc 'enchant weapon'   1  63  -1   5  19          0
 End
 
 #O
@@ -833,60 +817,6 @@ PrevOwner Msocorcim~
 Cond 0
 Wear -1
 Cost 5000
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -954,60 +884,6 @@ Affc 'enchant weapon'   1  53  -1   4  18          0
 End
 
 #O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 1236
 Nest 0
 PrevOwner (null)~
@@ -1021,53 +897,285 @@ Vnum 20011
 Nest 0
 PrevOwner Vampboodrum~
 Cond 0
-Wear -1
-Cost 150000
-End
-
-#O
-Vnum 20011
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 150000
-End
-
-#O
-Vnum 20011
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 150000
-End
-
-#O
-Vnum 20011
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 150000
-End
-
-#O
-Vnum 20011
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
 Wear 11
 Cost 150000
 End
 
 #O
-Vnum 20011
+Vnum 20009
+Nest 0
+PrevOwner FeS~
+Cond 0
+Wear 13
+Cost 100000
+End
+
+#O
+Vnum 5902
+Nest 0
+PrevOwner Msocorcim~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 15227
+Nest 0
+PrevOwner Msocorcim~
+Cond 0
+Wear -1
+Cost 20000
+End
+
+#O
+Vnum 11098
+Enchanted
+Nest 0
+PrevOwner FeS~
+Name blade azure demitra~
+ShD  {Wthe{x {CA{x{cz{x{Bu{x{br{x{Ce{x {RB{x{rl{x{Ra{x{rd{x{Re{x {Wof{x {DD{x{we{x{Dm{x{wi{x{Dt{x{wr{x{Da{x~
+Desc The blade crafted especially for Uniden by Demitra the Yinnish Blacksmith lies here. ~
+ExtF 67
+Cond 0
+Wear -1
+Lev  48
+Cost 3500
+Val  1 2 20 3 2342
+Affc 'reserved'   1  45  -1  50  13          0
+Affc 'enchant weapon'   1  63  -1   5  18          0
+Affc 'enchant weapon'   1  63  -1   5  19          0
+End
+
+#O
+Vnum 18912
+Nest 0
+PrevOwner Friend~
+Cond 0
+Wear -1
+Cost 4800
+End
+
+#O
+Vnum 3611
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2500
+End
+
+#O
+Vnum 22936
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10449
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 9001
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 9001
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 22936
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 22936
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 9511
 Nest 0
 PrevOwner Vampboodrum~
 Cond 0
 Wear -1
-Cost 150000
+Cost 210
+Val  1 1 4 3 2076
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 8136
+Nest 0
+PrevOwner Vampboodrum~
+Cond 0
+Wear -1
+Cost 3350
+Val  7 1 4 4 2052
+End
+
+#O
+Vnum 5943
+Enchanted
+Nest 0
+PrevOwner Vampboodrum~
+ExtF 67
+Cond 0
+Wear -1
+Cost 5000
+Val  9 1 6 2 2068
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
+End
+
+#O
+Vnum 20410
+Enchanted
+Nest 0
+PrevOwner Vampboodrum~
+ExtF 66
+Cond 0
+Wear -1
+Lev  9
+Cost 100
+Val  0 2 2 2 2068
+Affc 'enchant weapon'   1  53  -1   5  19          0
+Affc 'enchant weapon'   0  53  -1   5  18          0
+End
+
+#O
+Vnum 6600
+Nest 0
+PrevOwner Vampboodrum~
+Cond 0
+Wear -1
+Cost 250
+Val  5 1 5 25 2068
+End
+
+#O
+Vnum 6647
+Nest 0
+PrevOwner Vampboodrum~
+Cond 0
+Wear -1
+Cost 300
+Val  3 2 3 2 2104
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 1115
+Nest 0
+PrevOwner Vampboodrum~
+Cond 0
+Wear -1
+Cost 980
+Val  8 2 3 7 2100
+End
+
+#O
+Vnum 8137
+Enchanted
+Nest 0
+PrevOwner Vampboodrum~
+Cond 0
+Wear -1
+Lev  7
+Cost 524
+Val  3 1 5 34 2068
+Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+End
+
+#O
+Vnum 3720
+Enchanted
+Nest 0
+PrevOwner Vampboodrum~
+ExtF 1048643
+Cond 0
+Wear -1
+Lev  12
+Cost 0
+Val  6 1 5 8 2076
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+End
+
+#O
+Vnum 6013
+Nest 0
+PrevOwner Friend~
+Cond 0
+Wear -1
+Cost 0
+Val  256 244 10 1 0
+End
+
+#O
+Vnum 23508
+Enchanted
+Nest 0
+PrevOwner Friend~
+ExtF 67
+Cond 0
+Wear -1
+Cost 1050
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+End
+
+#O
+Vnum 17667
+Nest 0
+PrevOwner Tickler~
+Cond 0
+Wear -1
+Cost 1000
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 1524
+Enchanted
+Nest 0
+PrevOwner Cendron~
+ExtF 67
+Cond 0
+Wear -1
+Lev  14
+Cost 0
+Val  4 2 3 7 2068
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   1  53  -1  11  18          0
 End
 
 #END

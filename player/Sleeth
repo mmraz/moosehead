@@ -2,88 +2,93 @@
 Name Sleeth~
 Id   855080678
 Email (null)~
-LogO 1077476755
-Vers 31
+LogO 1345295358
+Vers 33
 LnD  A Gladiator~
 Desc He's just a harmless plush dragon.
 ~
-Prom <%hh %mm %vv %ww %g/%s %e>%c<%r>%c~
+Prom <%h/%Hh %m/%Mm %v/%Vv %Xx %g/%s %e>%c<%r>%c~
 Race dragon~
 Clan honor~
 Outc 0
-RufT 0
+RufT 84
 MatookT 0
 SkPTimer 0
-SkPTracker 4
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 1 311 3
+MSteal 0
 LstK Ergun~
 LstKBy Sleeth~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1054844418
+LstCombatDate 1316314572
 LstKillDate 1008227996
 LstDeathDate 1008227996
-LoginsWOKill 80
-LoginsWODeath 80
-LoginsWOCombat 30
+LoginsWOKill 102
+LoginsWODeath 102
+LoginsWOCombat 2
 Bnty 0
+DeityFavor 2 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 139530971 mojo~
 DeityT -382 almighty~
-Sac  275
+Sac  300
 Sex  1
 Vump  10
 Node 0
 Cap 0
 Created 951517692
-Glad 0 0 0 0 0 0
-LastHost ip68-1-236-131.dl.dl.cox.net~
+Glad 0 0 0 0 1 0
+LastHost 67.10.187.157~
 Cla  13
 Kit ninja~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 139572032
-Not  1059447540 1058003144 1040861430 1075219622 1068611100 1058002253 1040861430 1058223482 1040861430 1057231227
+Plyd 139592389
+Not  1344586720 1344540565 1320274023 1344812444 1320274023 1345280514 1320274023 1320274023 1320274023 1340517429
 Scro 22
 Rank 3
-Room 31501
-HMV  1321 1321 439 439 369 369
-Gold 2168
-Silv 43
+Room 31518
+HMV  1376 1376 464 464 369 369
+Gold 1765
+Silv 366
 Exp  571200
-Act  DFGHQSZa
+Act  DGHQSZa
 MHSF RS
 ClnF H
-AfBy HJPQT
+AfBy DFJPT
 Comm FOS
 Disp BFIJ
 IcgB 0
 Icg 0
+Wizn W
 Pnet ABCEF
 Pos  8
-Trai 10
-SkiP 214
-Save  -8
+Prac 24
+SkiP 6
+Save  -7
 Alig  1000
-Hit   25
-Dam   35
-SecHit   17
+Hit   26
+Dam   38
+SecHit   15
 SecDam   27
-ACs 36 36 36 42
-Wimp  650
-Attr 21 19 20 22 20 13 13 13
-AMod 3 6 7 3 3 0 0 0
-Pass Sl6sakoGLhn7k~
+ACs 5 5 5 23
+Attr 25 25 21 22 21 11 14 13
+AMod 4 3 4 5 3 0 0 0
+Pass Sl4zGsBpuktME~
 Titl  is cruel to be kind. [Anti-Rogue]~
 Pnts 100
 TSex 1
 LLev 1
 HMVP 1286 409 364
-Cnd  0 0 0 0
-Alias z tail fanar~
-Alias x lo fanar~
+Cnd  0 0 14 0
+Alias z hamstring whis~
+Alias x look whis~
 Alias Hobkin emote whispers,~
 Alias sb bs~
 Alias pirt trip~
@@ -250,10 +255,11 @@ Gr 'draconian'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'bless'   0  40   0   6  18          0
-Affc 'bless'   0  44   0  -6  24          0
-Affc 'sanctuary'   0  39   1   0   0        128
-Affc 'sneak'   0  51  47   0   0      32768
+Affc 'detect invis'   0  37  19   0   0          8
+Affc 'giant strength'   0  37  18   4   1          0
+Affc 'detect hidden'   0  35  18   0   0         32
+Affc 'armor'   0  37   5 -20  17          0
+Affc 'sneak'   0  50  41   0   0      32768
 End
 
 #O
@@ -263,15 +269,6 @@ PrevOwner (null)~
 Cond 0
 Wear 15
 Cost 1150
-End
-
-#O
-Vnum 5936
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 10
-Cost 3000
 End
 
 #O
@@ -329,16 +326,6 @@ Cost 6900
 End
 
 #O
-Vnum 12010
-Nest 0
-PrevOwner (null)~
-ExtF 1196065
-Cond 0
-Wear 18
-Cost 15000
-End
-
-#O
 Vnum 12001
 Nest 0
 PrevOwner Sleeth~
@@ -374,7 +361,7 @@ Vnum 2602
 Nest 0
 PrevOwner Sleeth~
 Cond 0
-Wear 6
+Wear -1
 Cost 5800
 End
 
@@ -383,7 +370,7 @@ Vnum 1345
 Nest 0
 PrevOwner Sleeth~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 End
 
@@ -430,20 +417,6 @@ Cost 4500
 End
 
 #O
-Vnum 18120
-Enchanted
-Nest 1
-PrevOwner (null)~
-ExtF 323
-Cond 0
-Wear -1
-Lev  39
-Cost 1250
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-End
-
-#O
 Vnum 11145
 Nest 1
 PrevOwner (null)~
@@ -471,28 +444,13 @@ Cost 10000
 End
 
 #O
-Vnum 10032
-Enchanted
-Nest 1
-PrevOwner (null)~
-ExtF 323
-Cond 0
-Wear -1
-Lev  48
-Cost 1700
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'reserved'   1  44  -1   2   2          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-End
-
-#O
 Vnum 3034
 Nest 1
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 7000
-Val  38 207 -1 -1 -1
+Val  38 211 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -578,42 +536,6 @@ Cost 10000
 End
 
 #O
-Vnum 2412
-Enchanted
-Nest 1
-PrevOwner (null)~
-ExtF 323
-Cond 0
-Wear -1
-Lev  50
-Cost 3000
-Val  3 4 10 11 1024
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   1  53  -1   8  18          0
-End
-
-#O
-Vnum 1250
-Nest 1
-PrevOwner (null)~
-Name voucher fragment time space~
-ShD  {BA fragment of the space time continuam{x~
-Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5909
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
 Vnum 911
 Nest 1
 PrevOwner Sleeth~
@@ -633,131 +555,12 @@ Cost 4500
 End
 
 #O
-Vnum 11144
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 668
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 7200
-Val  0 6 5 5 1024
-End
-
-#O
-Vnum 23144
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 67
-Cond 0
-Wear -1
-Lev  24
-Cost 4200
-Affc 'enchant weapon'   1  52  -1   4  19          0
-Affc 'enchant weapon'   1  52  -1   4  18          0
-End
-
-#O
-Vnum 15227
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 20000
-Val  -1 -1 -1 -1 -1
-End
-
-#O
-Vnum 11145
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 4657
-End
-
-#O
-Vnum 11145
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6400
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'reserved'   1  47  -1  -5  17          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6886
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'reserved'   1  47  -1  -5  17          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-End
-
-#O
 Vnum 2431
 Nest 1
 PrevOwner Sleeth~
 Cond 0
 Wear -1
 Cost 900
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6400
-Affc 'enchant weapon'   1  52  -1   8  19          0
-Affc 'reserved'   1  47  -1  -5  17          0
-Affc 'enchant weapon'   0  52  -1   6  18          0
-End
-
-#O
-Vnum 20731
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 4163
-Cond 0
-Wear -1
-Cost 6200
-Affc 'enchant weapon'   1  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -776,7 +579,7 @@ PrevOwner Sleeth~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 3 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -787,7 +590,7 @@ PrevOwner Sleeth~
 Cond 0
 Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
+Val  51 3 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -829,45 +632,6 @@ Val  0 0 0 0 22089
 End
 
 #O
-Vnum 18912
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 4800
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 99
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-End
-
-#O
-Vnum 10408
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 10340
-Val  0 7 5 5 1025
-Affc 'reserved'   1  46  -1   1   1          0
-Affc 'enchant weapon'   1  52  -1   8  19          0
-Affc 'enchant weapon'   0  52  -1   5  18          0
-End
-
-#O
 Vnum 22044
 Nest 1
 PrevOwner Sleeth~
@@ -883,19 +647,6 @@ PrevOwner Sleeth~
 Cond 0
 Wear -1
 Cost 100000
-End
-
-#O
-Vnum 20808
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 67
-Cond 0
-Wear -1
-Cost 1000
-Affc 'enchant weapon'   1  52  -1   6  19          0
-Affc 'enchant weapon'   0  52  -1   6  18          0
 End
 
 #O
@@ -908,53 +659,12 @@ Cost 0
 End
 
 #O
-Vnum 10336
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 18011
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 650
-End
-
-#O
 Vnum 12010
 Nest 1
 PrevOwner Sleeth~
 Cond 0
 Wear -1
 Cost 15000
-End
-
-#O
-Vnum 10320
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 67
-Cond 0
-Wear -1
-Cost 9500
-Val  5 5 8 18 1060
-Affc 'enchant weapon'   1  51  -1   9  19          0
-Affc 'enchant weapon'   1  51  -1  11  18          0
-End
-
-#O
-Vnum 23129
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 10000
 End
 
 #O
@@ -967,16 +677,134 @@ Cost 100000
 End
 
 #O
-Vnum 20808
+Vnum 18106
 Enchanted
 Nest 1
 PrevOwner Sleeth~
 ExtF 67
 Cond 0
 Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 10069
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
 Cost 1000
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 5 164 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 911
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 6900
+End
+
+#O
+Vnum 20837
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 11145
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 7000
+Val  38 211 -1 -1 -1
+Spell 1 'vision'
 End
 
 #O
@@ -986,6 +814,186 @@ PrevOwner Sleeth~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 18011
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 650
+End
+
+#O
+Vnum 668
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 7200
+Val  0 6 5 5 1024
+End
+
+#O
+Vnum 1250
+Nest 1
+PrevOwner Sleeth~
+Name voucher fragment time space~
+ShD  {BA fragment of the space time continuam{x~
+Desc {BA fragment of the space time continuam lays here{x Reedeemable by Randal for 3 skill points~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 907
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 1123
+Cond 0
+Wear -1
+Lev  50
+Cost 10300
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   1  53  -1  11  18          0
+End
+
+#O
+Vnum 20819
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 5904
+Nest 1
+PrevOwner Sleeth~
+Name cloud pot smoke~
+ShD  a {GMassive {WCloud{x of {GPot {DSmoke{x~
+Desc You get high as a cloud of pot smoke flys into your face.~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 26
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 0
+Val  51 3 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 17631
+Nest 1
+PrevOwner Sleeth~
+Name TTGOB explosion~
+ShD  A {RTTGOB{x {GE{x{MX{x{YP{x{CL{x{DO{x{BS{x{RI{x{MO{x{YN{x{W!!{x{C!{x{~
+Desc TTGOB EXPLOSION!!! DIE DIE DIE! EXPLOSION KILLS YOU!! TTGOB!!!!!~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 10336
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 4823
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 5909
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 5909
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8510
+Nest 1
+PrevOwner Sleeth~
+Name berzerker rage~
+ShD  a {YB{we{Yr{wz{Ye{wr{Yk{we{Yr{x'{ws{x rage~
+Desc the rage of a berzerker is here, floating~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Val  6 4 10 3 1028
+Affc 'enchant weapon'   1  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 5902
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 67
+Cond 0
+Wear -1
+Cost 4000
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 10032
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 323
+Cond 0
+Wear -1
+Lev  48
+Cost 1700
+Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'reserved'   1  44  -1   2   2          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
@@ -1000,6 +1008,66 @@ Lev  50
 Cost 6500
 Affc 'enchant weapon'   1  37  -1   8  19          0
 Affc 'enchant weapon'   0  37  -1   8  18          0
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6400
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6886
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6400
+Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   0  52  -1   6  18          0
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6400
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   1  53  -1  14  19          0
 End
 
 #O
@@ -1031,7 +1099,7 @@ Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
-Vnum 18106
+Vnum 10431
 Enchanted
 Nest 1
 PrevOwner Sleeth~
@@ -1039,61 +1107,50 @@ ExtF 67
 Cond 0
 Wear -1
 Lev  50
-Cost 4500
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
+Cost 6500
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
-Vnum 18106
+Vnum 20808
 Enchanted
 Nest 1
 PrevOwner Sleeth~
 ExtF 67
 Cond 0
 Wear -1
-Lev  50
-Cost 4500
-Val  6 4 10 3 1028
-Affc 'enchant weapon'   1  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
-Vnum 18106
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 323
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   1  52  -1   9  18          0
-Affc 'enchant weapon'   1  52  -1   8  19          0
-End
-
-#O
-Vnum 4823
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 10069
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
 Cost 1000
-Affc 'enchant weapon'   1  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   1  52  -1   6  19          0
+Affc 'enchant weapon'   0  52  -1   6  18          0
+End
+
+#O
+Vnum 20808
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 67
+Cond 0
+Wear -1
+Cost 1000
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 20731
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 4163
+Cond 0
+Wear -1
+Cost 6200
+Affc 'enchant weapon'   1  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -1111,68 +1168,91 @@ Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
-Vnum 11145
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 20819
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 5 160 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 10320
+Vnum 18120
 Enchanted
 Nest 1
 PrevOwner Sleeth~
+ExtF 323
 Cond 0
 Wear -1
-Cost 10450
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
+Lev  39
+Cost 1250
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
-Vnum 17631
+Vnum 2412
+Enchanted
 Nest 1
 PrevOwner Sleeth~
-Name TTGOB explosion~
-ShD  A {RTTGOB{x {GE{x{MX{x{YP{x{CL{x{DO{x{BS{x{RI{x{MO{x{YN{x{W!!{x{C!{x{~
-Desc TTGOB EXPLOSION!!! DIE DIE DIE! EXPLOSION KILLS YOU!! TTGOB!!!!!~
+ExtF 323
 Cond 0
 Wear -1
-Cost 250
-End
-
-#O
-Vnum 5904
-Nest 1
-PrevOwner Sleeth~
-Name cloud pot smoke~
-ShD  a {GMassive {WCloud{x of {GPot {DSmoke{x~
-Desc You get high as a cloud of pot smoke flys into your face.~
-Cond 0
-Wear -1
+Lev  50
 Cost 3000
+Val  3 4 10 11 1024
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
+End
+
+#O
+Vnum 23144
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 67
+Cond 0
+Wear -1
+Lev  24
+Cost 4200
+Affc 'enchant weapon'   1  52  -1   4  19          0
+Affc 'enchant weapon'   1  52  -1   4  18          0
+End
+
+#O
+Vnum 8017
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 16777283
+Cond 0
+Wear -1
+Lev  41
+Cost 4500
+Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'reserved'   1  35  -1   5  17          0
+End
+
+#O
+Vnum 10408
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 10340
+Val  0 7 5 5 1025
+Affc 'reserved'   1  46  -1   1   1          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   0  52  -1   5  18          0
+End
+
+#O
+Vnum 10014
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 4400
+Affc 'enchant weapon'   0  42  -1   9  18          0
+Affc 'enchant weapon'   1  42  -1   9  19          0
 End
 
 #O
@@ -1207,128 +1287,16 @@ Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
-Vnum 5902
+Vnum 2205
 Enchanted
 Nest 1
 PrevOwner Sleeth~
 ExtF 67
 Cond 0
 Wear -1
-Cost 4000
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 8017
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 16777283
-Cond 0
-Wear -1
-Lev  41
-Cost 4500
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'reserved'   1  35  -1   5  17          0
-End
-
-#O
-Vnum 4826
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 17303619
-Cond 0
-Wear -1
-Lev  50
-Cost 4600
-Affc 'enchant weapon'   0  62  -1  11  18          0
-Affc 'enchant weapon'   1  62  -1  14  19          0
-End
-
-#O
-Vnum 26
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
-Spell 1 'accuracy'
-End
-
-#O
-Vnum 20837
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 5909
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 3000
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
 End
 
 #O
@@ -1355,14 +1323,29 @@ Affc 'enchant weapon'   1  53  -1   5  19          0
 End
 
 #O
-Vnum 3034
+Vnum 10320
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 67
+Cond 0
+Wear -1
+Cost 9500
+Val  5 5 8 18 1060
+Affc 'enchant weapon'   1  51  -1   9  19          0
+Affc 'enchant weapon'   1  51  -1  11  18          0
+End
+
+#O
+Vnum 10320
+Enchanted
 Nest 1
 PrevOwner Sleeth~
 Cond 0
 Wear -1
-Cost 7000
-Val  38 207 -1 -1 -1
-Spell 1 'vision'
+Cost 10450
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
@@ -1380,57 +1363,27 @@ Affc 'enchant weapon'   0  52  -1  10  18          0
 End
 
 #O
-Vnum 911
+Vnum 18119
+Enchanted
 Nest 1
 PrevOwner Sleeth~
+ExtF 99
 Cond 0
 Wear -1
-Cost 6900
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
-Vnum 31509
+Vnum 12010
 Nest 1
 PrevOwner Sleeth~
+ExtF 1196065
 Cond 0
 Wear -1
-Cost 1
-End
-
-#O
-Vnum 31509
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 31509
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 31509
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
-Vnum 31509
-Nest 1
-PrevOwner Sleeth~
-Cond 0
-Wear -1
-Cost 1
+Cost 15000
 End
 
 #O
@@ -1464,86 +1417,36 @@ Affc 'reserved'   1  43  -1   1   2          0
 End
 
 #O
-Vnum 10014
+Vnum 2446
 Enchanted
 Nest 1
 PrevOwner Sleeth~
-ExtF 67
+ExtF 2371
 Cond 0
 Wear -1
 Lev  50
-Cost 4400
-Affc 'enchant weapon'   0  42  -1   9  18          0
-Affc 'enchant weapon'   1  42  -1   9  19          0
-End
-
-#O
-Vnum 10431
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6500
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'reserved'   1  49  -1   0   0          0
+Cost 4500
+Affc 'reserved'   1  49  -1   2   1          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
 Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
-Vnum 8510
+Vnum 11145
 Nest 1
 PrevOwner Sleeth~
-Name berzerker rage~
-ShD  a {YB{we{Yr{wz{Ye{wr{Yk{we{Yr{x'{ws{x rage~
-Desc the rage of a berzerker is here, floating~
 Cond 0
 Wear -1
-Cost 200
+Cost 4500
 End
 
 #O
-Vnum 2205
-Enchanted
+Vnum 907
 Nest 1
 PrevOwner Sleeth~
-ExtF 67
 Cond 0
 Wear -1
-Cost 0
-Affc 'enchant weapon'   1  52  -1  10  19          0
-Affc 'enchant weapon'   0  52  -1  10  18          0
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6400
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'reserved'   1  47  -1  -5  17          0
-Affc 'enchant weapon'   1  53  -1  14  19          0
-End
-
-#O
-Vnum 12014
-Enchanted
-Nest 1
-PrevOwner Sleeth~
-ExtF 323
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
+Cost 10300
 End
 
 #O
@@ -1561,17 +1464,40 @@ Affc 'enchant weapon'   1  53  -1   8  18          0
 End
 
 #O
-Vnum 907
+Vnum 18106
 Enchanted
 Nest 1
 PrevOwner Sleeth~
-ExtF 1123
+ExtF 323
 Cond 0
 Wear -1
 Lev  50
-Cost 10300
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   1  53  -1  11  18          0
+Cost 4500
+Affc 'enchant weapon'   1  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
+End
+
+#O
+Vnum 4826
+Enchanted
+Nest 1
+PrevOwner Sleeth~
+ExtF 17303619
+Cond 0
+Wear -1
+Lev  50
+Cost 4600
+Affc 'enchant weapon'   0  62  -1  11  18          0
+Affc 'enchant weapon'   1  62  -1  14  19          0
+End
+
+#O
+Vnum 11145
+Nest 1
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 4657
 End
 
 #O
@@ -1611,18 +1537,125 @@ Cost 6900
 End
 
 #O
-Vnum 2446
+Vnum 12006
+Nest 0
+PrevOwner Octavi~
+Cond 0
+Wear 10
+Cost 900
+End
+
+#O
+Vnum 12014
 Enchanted
 Nest 0
 PrevOwner Sleeth~
-ExtF 2371
+ExtF 323
 Cond 0
 Wear 16
-Lev  50
+Cost 0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 11144
+Nest 0
+PrevOwner Sleeth~
+Cond 0
+Wear 18
 Cost 4500
-Affc 'reserved'   1  49  -1   2   1          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
+Vnum 15227
+Nest 0
+PrevOwner Sleeth~
+Cond 0
+Wear 12
+Cost 20000
+Val  -1 -1 -1 -1 -1
+End
+
+#O
+Vnum 2602
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 6
+Cost 5800
+End
+
+#O
+Vnum 23129
+Nest 0
+PrevOwner Sleeth~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 643
+Nest 0
+PrevOwner Giles~
+Cond 0
+Wear 9
+Cost 4300
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner FeS~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 12081
+Nest 0
+PrevOwner Foul~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 640
 End
 
 #END

@@ -2,8 +2,8 @@
 Name Julliet~
 Id   846633094
 Email (null)~
-LogO 1003966542
-Vers 28
+LogO 1330236002
+Vers 33
 Desc In Honor of YUKI, NINJA 
 ------------------------------------------
 | ,dP""8a "888888b,  d8b    "888b  ,888" |
@@ -33,60 +33,75 @@ RufT 0
 MatookT 0
 SkPTimer 0
 SkPTracker 0
-LogoutTracker 2
-Kill 0 0 0
-Steal 0 0 0 0
+LogoutTracker 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1306439868
+LstKillDate 1306439868
+LstDeathDate 1306439868
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
-Sac  18
+Sac  225
 Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 962518914
 Glad 0 0 0 0 0 0
-LastHost 24.156.178.245~
+LastHost 64.25.189.48~
 Cla  3
 ClaO 3
 Levl 51
 DLevl 2
-Plyd 2047970
-Not  947805105 909439729 0 947736513 911098438 947778141 0 0 0
+Plyd 2073468
+Not  1330235015 1330235016 0 1326946454 1330235014 1328841862 0 1311729647 0 1330235017
 Scro 18
 Rank 0
-Room 3023
-HMV  586 586 308 308 250 250
-Gold 32
-Silv 659
+Room 1242
+HMV  616 616 503 503 220 220
+Gold 30
+Silv 19
 Exp  88740
 Act  CDEG
-AfBy J
-Comm DEFGIORS
+MHSF R
+AfBy DFJ
+Comm DFGIORS
 Disp CEFGIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 55
-Trai 54
-SkiP 500
-Save  -1
+Prac 46
+Trai 67
+SkiP 509
+Save  -4
 Alig  1000
-Hit   1
-ACs 95 95 95 99
+Hit   12
+Dam   15
+SecHit   8
+SecDam   11
+ACs 42 42 42 61
 Wimp  100
-Attr 14 15 14 14 14
-AMod 0 0 0 -1 0
+Attr 14 15 14 14 14 11 12 13
+AMod 3 5 2 1 0 0 0 0
 Pass JuK8Sfnj6e.IY~
 Titl  flying umop apisdn [SpamClan/5] [DpS]~
 Pnts 49
 TSex 2
 LLev 1
 HMVP 586 308 250
-Cnd  0 0 0 0
+Cnd  0 0 7 25
 Alias cd tell poquah~
 Alias cs c 'create spring'~
 Alias tt tit flying umop apisdn[SpamClan/5]{DpS}~
@@ -130,20 +145,20 @@ OldSk 83 'teleport'
 OldSk 83 'warp'
 OldSk 83 'word of recall'
 Sk 1 'axe'
-Sk 1 'dagger'
+Sk 100 'dagger'
 OldSk 100 'dagger'
 Sk 1 'flail'
 Sk 1 'mace'
 Sk 1 'polearm'
 Sk 1 'spear'
-Sk 80 'sword'
+Sk 100 'sword'
 OldSk 100 'sword'
 Sk 1 'whip'
-Sk 1 'bash'
+Sk 100 'bash'
 OldSk 100 'bash'
 OldSk 88 'bite'
 Sk 1 'disarm'
-Sk 1 'enhanced damage'
+Sk 100 'enhanced damage'
 OldSk 100 'enhanced damage'
 OldSk 76 'morph'
 Sk 1 'parry'
@@ -151,14 +166,14 @@ Sk 1 'rescue'
 Sk 1 'shield block'
 Sk 50 'scan'
 OldSk 11 'scan'
-Sk 1 'second attack'
+Sk 100 'second attack'
 OldSk 100 'second attack'
-Sk 1 'third attack'
+Sk 100 'third attack'
 OldSk 100 'third attack'
 OldSk 100 'fast healing'
-Sk 1 'hide'
+Sk 30 'hide'
 OldSk 30 'hide'
-Sk 1 'sneak'
+Sk 75 'sneak'
 OldSk 75 'sneak'
 Sk 1 'scrolls'
 OldSk 18 'scrolls'
@@ -168,7 +183,7 @@ Sk 1 'wands'
 OldSk 60 'wands'
 Sk 50 'swimming'
 OldSk 49 'swimming'
-Sk 50 'recall'
+Sk 75 'recall'
 OldSk 75 'recall'
 Gr 'rom basics'
 Gr 'warrior basics'
@@ -181,7 +196,7 @@ Vnum 922
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 3
 Cost 4900
 End
 
@@ -205,7 +220,7 @@ Name long thick golden chain ra~
 ShD  a long thick golden chain~
 Desc A long thick golden chain glittering in the light is here.~
 Cond 0
-Wear -1
+Wear 4
 Cost 4900
 End
 
@@ -217,7 +232,7 @@ Name huge fluffy pillow evan~
 ShD  a HUGE fluffy pillow~
 Desc A huge fluffy pillow with Evan's name sewn into it lies here.~
 Cond 0
-Wear 3
+Wear -1
 Cost 710
 End
 
@@ -342,26 +357,6 @@ Cost 0
 End
 
 #O
-Vnum 16605
-Nest 1
-PrevOwner Julliet~
-Cond 0
-Wear -1
-Cost 10000
-Spell 3 'frenzy'
-End
-
-#O
-Vnum 22010
-Nest 1
-PrevOwner Julliet~
-Cond 0
-Wear -1
-Cost 9800
-Spell 3 'animate dead'
-End
-
-#O
 Vnum 15208
 Enchanted
 Nest 1
@@ -372,17 +367,8 @@ Desc A pile of black material lies in a pool of blood.~
 Cond 0
 Wear -1
 Cost 5000
-Affc 'enchant armor'   1  51  -1  -7  17          0
 Affc 'reserved'   1  40  -1   2  19          0
-End
-
-#O
-Vnum 6013
-Nest 1
-PrevOwner Julliet~
-Cond 0
-Wear -1
-Cost 20
+Affc 'enchant armor'   1  51  -1  -7  17          0
 End
 
 #O
@@ -518,41 +504,6 @@ Cost 0
 End
 
 #O
-Vnum 13
-Nest 1
-PrevOwner Julliet~
-ShD  the heart of Jachyra~
-Desc The torn-out heart of Jachyra is lying here.~
-Ityp 13
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 14
-Nest 1
-PrevOwner Julliet~
-ShD  the arm of Evan~
-Desc The sliced-off arm of Evan is lying here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3101
-Nest 1
-PrevOwner Julliet~
-Name Ragebucks coffee cup~
-ShD  a cup of gourmet Ragebucks coffee~
-Desc A cup of Ragebucks coffee sits here, its wonderful aroma promising addictive illicit pleasures that can come only in a steaming cup.~
-Cond 0
-Wear -1
-Cost 6
-End
-
-#O
 Vnum 3032
 Nest 1
 PrevOwner Julliet~
@@ -655,15 +606,6 @@ Cost 5000
 End
 
 #O
-Vnum 5909
-Nest 1
-PrevOwner Julliet~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
 Vnum 28025
 Nest 1
 PrevOwner Julliet~
@@ -680,32 +622,9 @@ PrevOwner Julliet~
 Cond 0
 Wear -1
 Cost 1630
-Affc 'enchant weapon'   0  44  -1   1  18          0
-Affc 'reserved'   1  28  -1  -1   1          0
 Affc 'enchant weapon'   1  44  -1   2  19          0
-End
-
-#O
-Vnum 6601
-Nest 1
-PrevOwner Julliet~
-Name Xenocide heart piece~
-ShD  a piece of Xenocide's heart~
-Desc A piece of Xenocide's heart beats with love.~
-Cond 0
-Wear -1
-Cost 620
-End
-
-#O
-Vnum 13
-Nest 1
-PrevOwner Julliet~
-ShD  the heart of Ruiner~
-Desc The torn-out heart of Ruiner is lying here.~
-Cond 0
-Wear -1
-Cost 0
+Affc 'reserved'   1  28  -1  -1   1          0
+Affc 'enchant weapon'   0  44  -1   1  18          0
 End
 
 #O
@@ -726,42 +645,6 @@ PrevOwner Julliet~
 Cond 0
 Wear -1
 Cost 11600
-End
-
-#O
-Vnum 15207
-Enchanted
-Nest 1
-PrevOwner Julliet~
-Name tatoo heart~
-ShD  a small tatoo of a heart~
-Desc a small red heart is here with Bremen's name in it~
-Cond 0
-Wear -1
-Cost 5000
-Affc 'reserved'   1  40  -1  10  12          0
-Affc 'reserved'   1  40  -1   1  18          0
-End
-
-#O
-Vnum 10003
-Nest 1
-PrevOwner Julliet~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20733
-Nest 1
-PrevOwner Julliet~
-Name handcuffs~
-ShD  a pair of handcuffs~
-Desc A pair of handcuffs sits here, ready for action.~
-Cond 0
-Wear -1
-Cost 3000
 End
 
 #O
@@ -819,42 +702,6 @@ Cost 1140
 End
 
 #O
-Vnum 2390
-Nest 1
-PrevOwner Julliet~
-Name insane stamp~
-ShD  a stamp that reads INSANE~
-Desc This stamp verifies that Julliet is indeed insane. Like anyone DIDN'T know that already.~
-Cond 0
-Wear -1
-Cost 5800
-End
-
-#O
-Vnum 28018
-Nest 1
-PrevOwner Julliet~
-Name gown nightmares~
-ShD  a gown of nightmares~
-Desc a gown of all your fears and nightmares (Julliet + Bremen)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10428
-Nest 1
-PrevOwner Julliet~
-Name beautiful multicolored ring sparkles~
-ShD  a beautiful ring with multicolored sparkles~
-Desc a beautiful multicolored sparkled ring with Julliet loves Gillian enscripted within the band.~
-Cond 0
-Wear -1
-Cost 2900
-End
-
-#O
 Vnum 18909
 Nest 1
 PrevOwner Julliet~
@@ -867,18 +714,6 @@ Cost 7500
 End
 
 #O
-Vnum 15223
-Nest 1
-PrevOwner Julliet~
-Name pants black baggy~
-ShD  baggy black combat pants~
-Desc A pair of rumpled black combat pants lie here.~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
 Vnum 11304
 Nest 1
 PrevOwner Julliet~
@@ -888,51 +723,69 @@ Cost 25
 End
 
 #O
-Vnum 18110
+Vnum 13
 Nest 1
 PrevOwner Julliet~
-Name pair navy blue 8 hole Docs~
-ShD  a pair of navy blue 8 hole Docs~
-Desc A worn-in pair of navy blue Docs lies here.~
+ShD  the heart of Jachyra~
+Desc The torn-out heart of Jachyra is lying here.~
+Ityp 13
 Cond 0
 Wear -1
-Cost 2400
+Cost 0
 End
 
 #O
-Vnum 5031
+Vnum 6601
 Nest 1
 PrevOwner Julliet~
-Name overstuffed pillow julliet~
-ShD  Julliet's huge overstuffed pillow~
-Desc A huge overstuffed pillow lies here. Embroidered on it is the phrase "To Julliet, from your friend for life, Nightdagger."~
+Name Xenocide heart piece~
+ShD  a piece of Xenocide's heart~
+Desc A piece of Xenocide's heart beats with love.~
 Cond 0
 Wear -1
-Cost 2600
+Cost 620
 End
 
 #O
-Vnum 2602
+Vnum 13
 Nest 1
 PrevOwner Julliet~
-Name dark blue nike hat tribune~
-ShD  a dark blue Nike hat~
-Desc A scuffed up dark blue nike hat that used to belong to Wryllish is lying here.~
+ShD  the heart of Ruiner~
+Desc The torn-out heart of Ruiner is lying here.~
 Cond 0
 Wear -1
-Cost 5800
+Cost 0
 End
 
 #O
-Vnum 10447
+Vnum 5909
 Nest 1
 PrevOwner Julliet~
-Name blue sweatshirt~
-ShD  a big blue hooded sweatshirt~
-Desc Damions big blue hooded sweatshirt for Julliet to curl up in.~
 Cond 0
 Wear -1
-Cost 13700
+Cost 3000
+End
+
+#O
+Vnum 22010
+Nest 1
+PrevOwner Julliet~
+Cond 0
+Wear -1
+Cost 9800
+Spell 3 'animate dead'
+End
+
+#O
+Vnum 911
+Nest 1
+PrevOwner Julliet~
+Name endless love token~
+ShD  Mordachai's endless love~
+Desc A token of Mordachai's endless love lies here.~
+Cond 0
+Wear -1
+Cost 6900
 End
 
 #O
@@ -948,6 +801,29 @@ Cost 0
 End
 
 #O
+Vnum 20733
+Nest 1
+PrevOwner Julliet~
+Name handcuffs~
+ShD  a pair of handcuffs~
+Desc A pair of handcuffs sits here, ready for action.~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 14
+Nest 1
+PrevOwner Julliet~
+ShD  the arm of Evan~
+Desc The sliced-off arm of Evan is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
 Vnum 18119
 Enchanted
 Nest 0
@@ -956,22 +832,10 @@ Name sharp blood red nails~
 ShD  sharp blood red nails~
 Desc Sharp blood red nails dripping blood lies here.~
 Cond 0
-Wear -1
+Wear 16
 Cost 4500
-Affc 'enchant weapon'   1  51  -1   4  19          0
 Affc 'enchant weapon'   0  51  -1   4  18          0
-End
-
-#O
-Vnum 911
-Nest 0
-PrevOwner (null)~
-Name endless love token~
-ShD  Mordachai's endless love~
-Desc A token of Mordachai's endless love lies here.~
-Cond 0
-Wear -1
-Cost 6900
+Affc 'enchant weapon'   1  51  -1   4  19          0
 End
 
 #O
@@ -982,7 +846,7 @@ Name ring heart~
 ShD  a brilliant, red, heart-shaped ring~
 Desc This ring has a red glittering jewel shaped as a heart in the middle, as a sign of Valarian's eternal love for Julliet~
 Cond 0
-Wear -1
+Wear 2
 Cost 6900
 End
 
@@ -994,44 +858,336 @@ Name beautiful ladybug~
 ShD  a beautiful ladybug~
 Desc A ladybug flies past, happily going it's buggy way.~
 Cond 0
-Wear -1
+Wear 18
 Cost 5000
 End
 
 #O
 Vnum 3716
 Nest 0
-PrevOwner (null)~
+PrevOwner Julliet~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 Val  0 0 187 0 0
 End
 
 #O
-Vnum 3703
+Vnum 2390
 Nest 0
-PrevOwner (null)~
+PrevOwner Julliet~
+Name insane stamp~
+ShD  a stamp that reads INSANE~
+Desc This stamp verifies that Julliet is indeed insane. Like anyone DIDN'T know that already.~
+Cond 0
+Wear 9
+Cost 5800
+End
+
+#O
+Vnum 15223
+Nest 0
+PrevOwner Julliet~
+Name pants black baggy~
+ShD  baggy black combat pants~
+Desc A pair of rumpled black combat pants lie here.~
+Cond 0
+Wear 7
+Cost 6500
+End
+
+#O
+Vnum 15207
+Enchanted
+Nest 0
+PrevOwner Julliet~
+Name tatoo heart~
+ShD  a small tatoo of a heart~
+Desc a small red heart is here with Bremen's name in it~
+Cond 0
+Wear 10
+Cost 5000
+Affc 'reserved'   1  40  -1   1  18          0
+Affc 'reserved'   1  40  -1  10  12          0
+End
+
+#O
+Vnum 18110
+Nest 0
+PrevOwner Julliet~
+Name pair navy blue 8 hole Docs~
+ShD  a pair of navy blue 8 hole Docs~
+Desc A worn-in pair of navy blue Docs lies here.~
+Cond 0
+Wear 8
+Cost 2400
+End
+
+#O
+Vnum 10447
+Nest 0
+PrevOwner Julliet~
+Name blue sweatshirt~
+ShD  a big blue hooded sweatshirt~
+Desc Damions big blue hooded sweatshirt for Julliet to curl up in.~
 Cond 0
 Wear 5
+Cost 13700
+End
+
+#O
+Vnum 5031
+Nest 0
+PrevOwner Julliet~
+Name overstuffed pillow julliet~
+ShD  Julliet's huge overstuffed pillow~
+Desc A huge overstuffed pillow lies here. Embroidered on it is the phrase "To Julliet, from your friend for life, Nightdagger."~
+Cond 0
+Wear 17
+Cost 2600
+End
+
+#O
+Vnum 10428
+Nest 0
+PrevOwner Julliet~
+Name beautiful multicolored ring sparkles~
+ShD  a beautiful ring with multicolored sparkles~
+Desc a beautiful multicolored sparkled ring with Julliet loves Gillian enscripted within the band.~
+Cond 0
+Wear 1
+Cost 2900
+End
+
+#O
+Vnum 2602
+Nest 0
+PrevOwner Julliet~
+Name dark blue nike hat tribune~
+ShD  a dark blue Nike hat~
+Desc A scuffed up dark blue nike hat that used to belong to Wryllish is lying here.~
+Cond 0
+Wear 6
+Cost 5800
+End
+
+#O
+Vnum 10003
+Nest 0
+PrevOwner Julliet~
+Cond 0
+Wear 0
 Cost 0
 End
 
 #O
-Vnum 3702
+Vnum 6013
 Nest 0
-PrevOwner (null)~
+PrevOwner Julliet~
 Cond 0
-Wear 16
-Cost 360
+Wear -1
+Cost 20
+Val  256 16 25 0 0
 End
 
 #O
-Vnum 3704
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 11
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 28018
+Nest 0
+PrevOwner Julliet~
+Name gown nightmares~
+ShD  a gown of nightmares~
+Desc a gown of all your fears and nightmares (Julliet + Bremen)~
+Cond 0
+Wear 12
 Cost 0
 End
 

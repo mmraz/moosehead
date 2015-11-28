@@ -3,7 +3,7 @@ Name Tess~
 SurN Diablerie~
 Id   1039291215
 Email (null)~
-LogO 1100053264
+LogO 1317682270
 Vers 31
 Prom %hhp %mmana %vmv %Xxp %ggold %ssil ~
 Race faerie~
@@ -12,7 +12,7 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 1
 Steal 0 0 0
@@ -23,10 +23,13 @@ LstAtkedByTimer 0
 LstCombatDate 1039291215
 LstKillDate 1039291215
 LstDeathDate 1070306546
-LoginsWOKill 43
-LoginsWODeath 4
-LoginsWOCombat 43
+LoginsWOKill 44
+LoginsWODeath 5
+LoginsWOCombat 44
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 76736 huitzilopochtli~
 DeityT -1831 almighty~
 Sac  300
@@ -36,31 +39,32 @@ Node 0
 Cap 0
 Created 1039291251
 Glad 0 0 0 0 0 0
-LastHost 157.160.46.2~
+LastHost 71.199.125.21~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 50
 DLevl 0
-Plyd 125111
+Plyd 125820
 Not  1100053227 1100053227 1100053227 1100053227 1100053227 1100053227 1100053227 1100053227 1100053227 1100053227
 Scro 22
 Rank 1
-Room 31918
-HMV  264 264 1362 1374 499 499
+Room 31901
+HMV  264 264 108 1374 499 499
 Gold 270
-Silv 3701
-Exp  144551
+Silv 3761
+Exp  144453
 Act  CDEFGHIKQS
 MHSF R
-AfBy CDFJTV
+AfBy CDFJT
 Comm 0
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEGHI
-Pos  8
+Pos  4
 Prac 22
+Trai 16
 SkiP 22
 Save  -10
 Alig  -1000
@@ -70,15 +74,15 @@ SecHit   17
 SecDam   18
 ACs 11 11 11 17
 Wimp  20
-Attr 5 25 25 25 5 25 16 22
-AMod 10 0 0 8 0 0 0 0
+Attr 5 25 25 25 5 17 8 22
+AMod 10 0 0 4 0 0 0 0
 Pass TebriaTcyHn3Q~
 Titl  is a buff lil {Cfaerie{x. WR~
 Pnts 64
 TSex 2
 LLev 32
 HMVP 179 1236 499
-Cnd  0 34 37 37
+Cnd  0 22 31 31
 Sk 89 'acid blast'
 Sk 75 'armor'
 Sk 76 'blindness'
@@ -123,7 +127,7 @@ Sk 75 'fumble'
 Sk 79 'gate'
 Sk 75 'giant strength'
 Sk 79 'haste'
-Sk 89 'identify'
+Sk 91 'identify'
 Sk 1 'infravision'
 Sk 78 'invisibility'
 Sk 75 'knock'
@@ -192,8 +196,7 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'haste'   0  48  10   4   2    2097152
-Affc 'giant strength'   0  51  36   4   1          0
+Affc 'giant strength'   0  48  19   4   1          0
 End
 
 #O
@@ -389,11 +392,11 @@ Cond 0
 Wear 8
 Lev  34
 Cost 3600
-Affc 'enchant armor'   1  52  -1  -6  17          0
-Affc 'reserved'   1  30  -1  -1  19          0
-Affc 'reserved'   1  30  -1  -1  18          0
-Affc 'reserved'   1  30  -1  30  12          0
 Affc 'reserved'   1  30  -1   1   3          0
+Affc 'reserved'   1  30  -1  30  12          0
+Affc 'reserved'   1  30  -1  -1  18          0
+Affc 'reserved'   1  30  -1  -1  19          0
+Affc 'enchant armor'   1  52  -1  -6  17          0
 End
 
 #O
@@ -476,9 +479,9 @@ Cond 0
 Wear 5
 Lev  49
 Cost 13700
-Affc 'enchant armor'   1  51  -1  -5  17          0
-Affc 'reserved'   1  45  -1  30  12          0
 Affc 'reserved'   1  45  -1  -4  20          0
+Affc 'reserved'   1  45  -1  30  12          0
+Affc 'enchant armor'   1  51  -1  -5  17          0
 End
 
 #O
@@ -503,11 +506,11 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant armor'   1  53  -1  -6  17          0
-Affc 'reserved'   1  46  -1  15  12          0
-Affc 'reserved'   1  46  -1  20  13          0
-Affc 'reserved'   1  46  -1   1  18          0
 Affc 'reserved'   1  46  -1   1  19          0
+Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1  20  13          0
+Affc 'reserved'   1  46  -1  15  12          0
+Affc 'enchant armor'   1  53  -1  -7  17          0
 End
 
 #O
@@ -556,10 +559,10 @@ Cond 0
 Wear 16
 Lev  48
 Cost 4800
-Affc 'reserved'   1  40  -1   0   0          0
-Affc 'reserved'   1  40  -1  -1  20          0
-Affc 'enchant weapon'   1  52  -1   8  19          0
 Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'reserved'   1  40  -1  -1  20          0
+Affc 'reserved'   1  40  -1   0   0          0
 End
 
 #O

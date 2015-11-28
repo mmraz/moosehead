@@ -3,8 +3,8 @@ Name Banger~
 SurN AndLasher~
 Id   1079447188
 Email (null)~
-LogO 1132511112
-Vers 31
+LogO 1340432152
+Vers 33
 LnD  A Gladiator~
 Prom (%h %m %v)[%X][{W%g.%s %n/%N %w{x][%a]%c[%r][%e] ~
 Race dragon~
@@ -13,21 +13,26 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 1 3 0 21
 Steal 0 0 0
+MSteal 0
 LstK Crunk~
 LstKBy Thewhiner~
 LstAtkedBy Bacchanal~
-LstAtkedByTimer 7134
+LstAtkedByTimer 7127
 LstCombatDate 1132509324
 LstKillDate 1132509328
 LstDeathDate 1125413940
-LoginsWOKill 1
-LoginsWODeath 16
-LoginsWOCombat 0
+LoginsWOKill 3
+LoginsWODeath 18
+LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 431898 hermes~
 Sac  300
 Sex  0
@@ -36,31 +41,32 @@ Node 0
 Cap 0
 Created 1079447218
 Glad 0 1 0 0 1 0
-LastHost 196-207-45-254.gprs.vodacom.co.za~
+LastHost 41.9.18.68~
 Cla  7
 Kit lycanthrope hunter~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 963019
-Not  1132509792 1132509792 1132509792 1132509792 1132509792 1132509792 1132509792 1132509792 1132509792 1132509792
+Plyd 963309
+Not  1132509792 1132509792 1132509792 1326946454 1132509792 1132509792 1132509792 1132509792 1132509792 1132509792
 Scro 22
 Rank 4
 Room 31614
-HMV  1323 1323 643 1063 834 834
+HMV  1323 1323 1063 1063 834 834
 Gold 379
 Silv 4159
 Exp  516214
 Act  CDFGHIKQS
 MHSF RSX
-AfBy DEFHJTVce
+AfBy DEFJTVce
 Comm GRST
 Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  4
-Prac 2
+Prac 3
+Trai 7
 SkiP 2
 Save  -6
 Alig  -1000
@@ -69,7 +75,7 @@ Dam   12
 SecHit   27
 SecDam   12
 ACs -59 -59 -54 -30
-Attr 20 23 23 20 25 12 20 17
+Attr 20 23 23 20 25 11 14 17
 AMod 8 2 2 9 2 0 0 3
 Pass Ba47pK6wwtJT6~
 Titl  {MSultan{x of Swing~
@@ -77,7 +83,7 @@ Pnts 103
 TSex 1
 LLev 166
 HMVP 1048 858 834
-Cnd  0 12 39 30
+Cnd  0 4 37 26
 Alias skel cast 'summon dead'~
 Alias kk who clan~
 Alias sk order all hit ~
@@ -113,7 +119,6 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 75 'chill touch'
 Sk 75 'colour spray'
-Sk 1 'cone of silence'
 Sk 1 'control weather'
 Sk 82 'cure blindness'
 Sk 75 'cure critical'
@@ -251,18 +256,16 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'sanctuary'   0  54   6   0   0        128
-Affc 'withstand death'   0  54   7   0   0 1073741824
-Affc 'haste'   0  51  18   4   2    2097152
-Affc 'detect magic'   0  52  30   0   0         16
-Affc 'orb of touch'   0  57   0   0   0          0
-Affc 'detect invis'   0  48  29   0   0          8
-Affc 'detect hidden'   0  52  28   0   0         32
-Affc 'stone skin'   0  47  25 -40  17          0
-Affc 'giant strength'   0  47  25   4   1          0
-Affc 'armor'   0  50   7 -20  17          0
-Affc 'bless'   0  47  31  -6  24          0
-Affc 'bless'   0  51  31   6  18          0
+Affc 'withstand death'   0  52   0   0   0 1073741824
+Affc 'haste'   0  49  11   4   2    2097152
+Affc 'detect magic'   0  51  23   0   0         16
+Affc 'detect invis'   0  45  22   0   0          8
+Affc 'detect hidden'   0  51  21   0   0         32
+Affc 'stone skin'   0  45  18 -40  17          0
+Affc 'giant strength'   0  46  18   4   1          0
+Affc 'armor'   0  48   0 -20  17          0
+Affc 'bless'   0  46  24  -6  24          0
+Affc 'bless'   0  50  24   6  18          0
 End
 
 #O
@@ -723,7 +726,7 @@ PrevOwner Banger~
 Cond 0
 Wear -1
 Cost 1500
-Val  28 5 4 96 0
+Val  28 5 4 97 0
 Spell 3 'flamestrike'
 End
 

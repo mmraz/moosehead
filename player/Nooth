@@ -2,8 +2,8 @@
 Name Nooth~
 Id   993291421
 Email (null)~
-LogO 1104681551
-Vers 31
+LogO 1353461976
+Vers 33
 Prom %hhp %mm %vmv %Xexp %gg %Ssac %eexit ~
 Race dragon~
 Clan zealot~
@@ -11,10 +11,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 1
 Steal 0 0 0
+MSteal 0
 LstK Coumadin~
 LstKBy Haplo~
 LstAtkedBy no one~
@@ -22,10 +23,14 @@ LstAtkedByTimer 0
 LstCombatDate 1051353767
 LstKillDate 1012685466
 LstDeathDate 1050247941
-LoginsWOKill 36
-LoginsWODeath 19
-LoginsWOCombat 10
+LoginsWOKill 41
+LoginsWODeath 24
+LoginsWOCombat 15
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 205728 almighty~
 DeityT -1774 almighty~
 Sac  300
@@ -35,52 +40,52 @@ Node 0
 Cap 0
 Created 993291431
 Glad 0 0 0 0 0 0
-LastHost 80.3.240.121~
+LastHost 110.143.45.115~
 Cla  3
 Kit brawler~
 ClaO 3
 Levl 32
 DLevl 0
-Plyd 246972
+Plyd 248409
 Not  1050944103 1044791166 0 1051199378 1051434944 1045232240 0 1052557763 0 0
 Scro 22
 Rank 2
-Room 15287
-HMV  729 872 173 273 324 337
-Gold 676
-Silv 11610
-Exp  363667
+Room 8594
+HMV  872 872 268 273 337 337
+Gold 692
+Silv 12935
+Exp  364209
 Act  CDEFGHJKS
 MHSF R
-AfBy CJTV
-Comm GIR
+AfBy CJT
+Comm GIRZ
 Disp FIJN
 IcgB 0
 Icg 0
 Pos  8
 Prac 48
 Trai 2
-SkiP 87
+SkiP 89
 Save  -11
-Alig  3
+Alig  1
 Hit   21
 Dam   27
 SecHit   19
 SecDam   25
-ACs 29 29 29 66
+ACs 49 49 49 86
 Wimp  2
 Attr 23 24 23 24 23 22 22 13
-AMod 3 0 1 2 1 0 0 0
-Pass NonZk.NGvrAKc~
+AMod 3 0 1 0 1 0 0 0
+Pass NogG57tswlBhA~
 Titl  raises a Hand and slaps you with it!!~
 Pnts 100
 TSex 1
 LLev 66
 HMVP 832 287 337
-Cnd  0 0 38 4
+Cnd  0 0 4 0
 Spz 'mace'
 Sk 1 'aid'
-Sk 75 'annointment'
+OldSk 75 'annointment'
 Sk 43 'armor'
 Sk 1 'bestow holiness'
 Sk 43 'bless'
@@ -97,7 +102,7 @@ Sk 87 'feast'
 Sk 43 'fireproof'
 Sk 1 'fly'
 Sk 48 'frenzy'
-Sk 51 'gate'
+Sk 53 'gate'
 Sk 78 'heal'
 Sk 1 'holy word'
 Sk 1 'knock'
@@ -123,7 +128,7 @@ Sk 43 'frost breath'
 Sk 1 'gas breath'
 Sk 1 'lightning breath'
 Sk 75 'axe'
-Sk 79 'dagger'
+Sk 84 'dagger'
 Sk 94 'flail'
 Sk 100 'mace'
 Sk 75 'polearm'
@@ -141,7 +146,7 @@ Sk 68 'hand to hand'
 Sk 74 'morph'
 Sk 89 'parry'
 Sk 75 'shield block'
-Sk 77 'scan'
+Sk 78 'scan'
 Sk 86 'second attack'
 Sk 84 'third attack'
 Sk 26 'sneak'
@@ -159,10 +164,8 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'haste'   0  20   3   2   2    2097152
-Affc 'bless'   0  23  16  -3  24          0
-Affc 'bless'   0  24  16   3  18          0
-Affc 'armor'   0  20  10 -20  17          0
+Affc 'bless'   0  25  30  -3  24          0
+Affc 'bless'   0  25  30   3  18          0
 End
 
 #O
@@ -548,16 +551,6 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 9573
-Nest 1
-PrevOwner Nooth~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 2319
 Nest 0
 PrevOwner Nooth~
@@ -685,7 +678,7 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 1251
+Time 1217
 Cost 3000
 Spell 1 'cryogenesis'
 End
@@ -723,7 +716,7 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 2271
+Time 2237
 Cost 3000
 Spell 1 'cryogenesis'
 End

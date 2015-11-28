@@ -1,0 +1,82 @@
+#AREA
+../newareas/testarea.are~
+testarea~
+{ All }         testarea~
+13000 13000
+
+#MOBILES
+#13000
+hell cat hellcat~
+a hellcat~
+A large cat prowls around here, its eyes lit with a demonic light.
+~
+The cat snarls at you, baring its long, sharp fangs, and a jet of flame
+curls out of it's nostrils.  Its muscles tense up, in preperation to
+pounce.
+~
+cat~
+(null)~
+(null)~
+(null)~
+ACFGHT DFU -1000 0
+30 4 20d25+600 1d100+100 6d4+12 flbite
+-13 -13 -13 -2
+DINU 0 ABHLMQ HIJN
+stand stand none 0
+H B medium 0
+F par HJKQUV
+#0
+
+#OBJECTS
+#13000
+finger elf bone~
+the fingerbone of an elf~
+A slim fingerbone lies here, collecting dust.~
+bone~
+key TUY AO
+0 0 0 0 0
+30 4 0 P
+A
+3 1
+#0
+
+#ROOMS
+#13000
+A stairway into darkness~
+As you walk along, an utter silence befalls the area.  You push your
+way through some brush, into a foggy clearing, and the branches seal shut
+behind you, sealing you within the clearing.  You stumble along and find
+yourself standing inside a clearing ringed with huge obsidian pillars, as
+if an ancient temple rested on this spot.  An icy wind chills you to the
+bone as you search around and discover a stairway leading down into
+darkness.  A stone slab is embedded within the ground next to the stairway.
+Perhaps it would be prudent to read it before continuing onward.
+~
+0 ACD 0
+D2
+Exit ~
+door~
+16384 0 9793
+D5
+Exit ~
+stairs~
+16384 0 13001
+E
+slab~
+Warning- the area beyond this stairway is absolutely full of aggressive
+monsters.  If you are below level 30, proceed at your own risk!
+~
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 13000 spec_fido           	* a hellcat
+S
+
+#$

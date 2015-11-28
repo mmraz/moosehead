@@ -2,8 +2,8 @@
 Name Romulus~
 Id   965797723
 Email (null)~
-LogO 1075439670
-Vers 31
+LogO 1444700152
+Vers 33
 Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
 Race dragon~
 Outc 0
@@ -14,6 +14,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 DeityT -2 matook~
 Sac  300
@@ -34,20 +41,20 @@ Node 0
 Cap 0
 Created 965797731
 Glad 0 0 0 0 0 0
-LastHost cras56p2.navix.net~
+LastHost 173.215.8.171~
 Cla  14
 ClaO 3
 Levl 6
 DLevl 0
-Plyd 8242
-Not  1006947363 1006947363 1006947363 1006947363 1006947363 1006947363 1006947363 1006947363 1006947363 0
+Plyd 8507
+Not  1306541900 1006947363 1006947363 1006947363 1006947363 1006947363 1006947363 1006947363 1006947363 0
 Scro 22
 Rank 0
-Room 3001
-HMV  122 122 139 139 116 116
+Room 4418
+HMV  112 122 139 139 110 116
 Gold 0
 Silv 335
-Exp  51022
+Exp  51697
 Act  CDEFGHQ
 MHSF R
 AfBy JT
@@ -56,23 +63,21 @@ Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 42
+Prac 29
 SkiP 8
-Save  -5
 Alig  1000
-Hit   6
-SecHit   5
-ACs 65 50 50 99
+Hit   1
+ACs 78 69 69 99
 Wimp  20
-Attr 20 16 22 17 19 13 13 13
-AMod 4 0 1 2 4 0 0 0
+Attr 20 16 22 17 21 11 14 13
+AMod 5 2 2 2 5 0 0 0
 Pass Ro5ZPvS3bul66~
 Titl , the twin brother of {BRemus{x~
 Pnts 90
 TSex 1
 LLev 1
 HMVP 114 119 116
-Cnd  0 0 28 8
+Cnd  0 20 21 40
 Alias trash drop all.sub~
 Alias bite dbite~
 Sk 1 'armor'
@@ -104,18 +109,18 @@ Sk 1 'gas breath'
 Sk 1 'lightning breath'
 Sk 1 'dagger'
 Sk 84 'sword'
-Sk 1 'bash'
+Sk 75 'bash'
 Sk 1 'disarm'
 Sk 1 'dodge'
 Sk 1 'dual wield'
-Sk 44 'enhanced damage'
+Sk 75 'enhanced damage'
 Sk 1 'hand to hand'
 Sk 1 'kick'
 Sk 1 'parry'
 Sk 1 'rescue'
 Sk 1 'shield block'
 Sk 50 'scan'
-Sk 29 'second attack'
+Sk 75 'second attack'
 Sk 1 'third attack'
 Sk 1 'fast healing'
 Sk 1 'sneak'
@@ -129,8 +134,6 @@ Gr 'warrior basics'
 Gr 'draconian'
 Gr 'protective'
 Gr 'transportation'
-Affc 'bless'   0  36   1  -5  24          0
-Affc 'bless'   0  37   1   5  18          0
 End
 
 #O
@@ -166,7 +169,7 @@ Vnum 4438
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 5
 Cost 0
 End
 
@@ -175,7 +178,7 @@ Vnum 4440
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 13
 Cost 0
 End
 
@@ -265,7 +268,7 @@ Vnum 3053
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 13
+Wear -1
 Cost 136
 End
 
@@ -509,7 +512,7 @@ Vnum 17606
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 6
 Cost 100
 End
 
@@ -559,15 +562,6 @@ Cost 0
 End
 
 #O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
 Vnum 5234
 Nest 0
 PrevOwner (null)~
@@ -608,7 +602,7 @@ Vnum 3073
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 6
+Wear -1
 Cost 420
 End
 
@@ -617,7 +611,7 @@ Vnum 3072
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 5
+Wear -1
 Cost 850
 End
 

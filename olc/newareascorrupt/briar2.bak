@@ -1,0 +1,2062 @@
+#AREA
+../newareas/briar2.are~
+Elven Printing Co~
+{10 15} BriarRz Elven Printing Co~
+22200 22271
+
+#MOBILES
+#22200
+oldstyle bunny rabbit~
+a small bunny~
+A small bunny pokes from bush to bush.
+~
+This bunny looks so adorable, you wished you had one just like this!
+~
+human~
+(null)~
+(null)~
+(null)~
+AGH 0 0 0
+7 0 2d6+85 1d9+100 1d8+1 bite
+8 8 8 10
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+#22201
+oldstyle deer~
+a deer~
+A deer stares back at you.
+~
+The deer looks angered at your intrusion.  He butts his head against you, 
+albeit ineffectively.
+~
+human~
+(null)~
+(null)~
+(null)~
+AGH 0 0 0
+8 0 2d7+96 3d9+100 1d7+2 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#22202
+filth roach~
+filth-roach~
+A nasty little filth-roach
+~
+A nasty filthroach skitters around in the leftovers devouring all it can find.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABFH J -450 0
+15 0 3d9+208 0d9+100 1d6+1 bite
+9 9 9 10
+EFNRU 0 AQ HJP
+sleep sleep male 0
+AHMOV ACFJ small 0
+#22203
+Handyman Paddy~
+Paddy the Handyman~
+Paddy the angry, cussing Handyman comes after you for knocking everything down.
+~
+Paddy is the tallest elf you've ever seen.  His red nose suggests he drinks more than he works.  Everything annoys him, especially you right now.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABFGT 0 -100 0
+15 4 2d10+150 0d0+0 1d10+13 thwack
+0 0 0 0
+EFN 0 A 0
+stand stand male 75
+0 0 medium 0
+F aff J
+F res P
+F vul Z
+#22204
+apprentice printer~
+an apprentice printer~
+An apprentice printer is busy fumbling around with a printing press.
+~
+He looks like he's trying to look busy, but it is
+obvious he has no idea what he is doing.
+~
+elf~
+(null)~
+(null)~
+(null)~
+AGT 0 0 0
+10 5 3d9+208 0d0+0 3d9+208 punch
+-2 -2 -2 -2
+EFIN 0 0 0
+stand stand male 30
+0 0 medium 0
+F aff J
+F res P
+F vul Z
+#22205
+journeyman printer~
+a journeyman printer~
+A journeyman printer loads paper into a machine, trying to look busy.
+~
+You hear him cursing softly under his breath.  It's the third time
+this hour he's had to refill this stupid machine.
+~
+elf~
+(null)~
+(null)~
+(null)~
+AGT 0 0 0
+17 5 3d9+258 0d0+0 3d9+258 punch
+-3 -3 -3 -3
+EFIN 0 0 0
+stand stand male 50
+0 0 medium 0
+F aff J
+F res P
+F vul Z
+#22206
+oldstyle scribe mage~
+an ancient scribe~
+An ancient scribe takes little notice of you.
+~
+The wrinkles in his face are deeper than most canyons you've seen.
+Hunched over, pale, and thin, he doesn't look like that much of a threat.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABGHR D 500 0
+15 0 2d10+190 15d9+100 1d10+3 slash
+-1 -1 -1 5
+FU 0 0 0
+stand stand male 0
+0 0 medium 0
+#22207
+master printer~
+the master printer~
+The Master Printer storms around barking orders
+~
+He's a very important man and he hasnt got time
+for interruptions by the likes of you.
+~
+human~
+(null)~
+(null)~
+(null)~
+AGR D 100 0
+22 0 4d10+360 22d9+100 2d7+5 beating
+-5 -5 -5 3
+FU 0 0 0
+stand stand male 0
+0 0 medium 0
+#22208
+printing press machine~
+a printing press~
+A whirling massive amount of gears and cogs sits here printing massive copies of scrolls and books.
+~
+This printing press doesn't look like anything to mess with.  Careful, don't let that gear grab your shirt, or you'll be sliced, diced, and jullien'ed.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABG 0 0 0
+11 0 2d8+134 5d9+100 1d10+2 crush
+1 1 1 8
+EFNOU 0 0 0
+sit sit female 0
+0 0 huge 0
+F par ABCDEFGHIJK
+#22209
+rabid gander~
+a rabid gander~
+A demented, rabid, wing-flapping gander blocks your progress on this path.
+~
+This gander must have eaten some tainted fish.  He's foaming 
+at the mouth and looks quite disturbed.
+~
+water fowl~
+Quack~
+(null)~
+(null)~
+ABFG 0 1000 0
+15 0 3d9+208 1d1+99 2d6+3 peckb
+10 10 10 10
+F 0 A C
+stand stand either 0
+0 0 small 0
+#0
+
+#OBJECTS
+#22200
+delicate iron bench~
+iron bench~
+A delicate iron bench~
+iron~
+furniture 0 0
+2 0 BEHK 125 125
+0 100 0 P
+#22201
+saucepot~
+a saucepot~
+A gleaming saucepot hangs from a hook in the ceiling.~
+aluminum~
+armor 0 AE
+1 2 1 0 0
+10 10 78 P
+A
+5 2
+A
+3 -1
+#22202
+tape measure~
+A tape measure~
+A 6-foot tape for measuring things lies here.~
+leather~
+weapon 0 AN
+flail 3 4 slash 0
+10 5 115 P
+A
+3 1
+#22203
+quill pen~
+a quill pen~
+a quill pen made from the feather of a peacock lies here~
+feather~
+weapon G AN
+dagger 3 4 stab 0
+11 3 640 P
+A
+4 1
+A
+12 10
+E
+fountain pen~
+Well, then pen IS mightier than the sword...
+~
+#22204
+master printer's desk~
+a large wooden desk~
+A large, well worn desk sits in the middle of the room~
+oldstyle~
+container MR 0
+100 AC 0 1000 10
+0 0 0 P
+#22205
+flannel shirt~
+a soft flannel shirt~
+A soft flannel shirt lies crumpled here.~
+cotton~
+armor 0 AD
+0 0 0 0 0
+10 180 1320 P
+A
+1 1
+A
+13 1
+E
+~
+~
+#22206
+leather coveralls~
+leather coveralls~
+Leather coveralls, covered in ink and stains, sit here waiting for an owner.~
+leather~
+armor 0 AF
+5 4 5 0 3
+10 100 660 P
+#22207
+leather work boots~
+leather workboots~
+A pair of leather workboots have been tossed aside haphazardly.~
+Leather~
+armor 0 AG
+3 3 3 0 0
+7 40 310 P
+A
+2 1
+A
+4 1
+A
+0 0
+E
+boots~
+They are fashioned from rough leather that has been oiled frequently to make
+it stay waterproof.  They look worn but quite functional.
+~
+#22208
+bottle mama's sauce~
+a bottle of Mama's pick-me-up sauce~
+A bottle of Mama Elf's pick-me-up sauce sits here.~
+container~
+potion G AO
+9 'haste' 'cure serious' '' ''
+7 10 10 P
+#22209
+clipboard messy~
+a messy clipboard~
+A messy clipboard full of all kinds of things was dropped here.~
+wood~
+container 0 AO
+200 0 0 15 15
+10 5 100 P
+A
+3 1
+#22210
+ink berry shrub~
+an ink berry bush~
+A dark green shrub with bright blue berries grows here in a sunbeam.~
+vegetation~
+food 0 A
+1 1 0 2 0
+5 10 10 P
+#22211
+membership union card~
+a union membership card~
+A membership card to the Elven Printers Union lies in here in the dust.~
+oldstyle~
+scroll G AO
+10 'giant strength' '' '' ''
+10 150 1280 P
+A
+0 0
+#22212
+rolled-up scroll~
+a rolled-up scroll of cheap paper~
+A rolled-up scroll of cheap paper lies here.~
+paper~
+scroll A AO
+15 'armor' '' '' ''
+10 3 270 W
+#22213
+fountain~
+a drinking fountain~
+Just near the exit a drinking fountain sits bubbling noisily.~
+metal~
+fountain O 0
+0 0 'water' 0 0
+1 1000 50000 R
+#0
+
+#ROOMS
+#22200
+The Gates to The Elven Printing Company~
+You stand before the iron gates of the Elven Printing Company.  Inside 
+the elves work 24 hours a day meeting all the printing needs of Boinga.  
+Woven into the iron of the open gates are different letters and symbols 
+in delicate script.  
+~
+0 C 2
+D0
+Exit ~
+door~
+16384 0 22201
+S
+#22201
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22219
+D1
+Exit ~
+door~
+16384 0 22216
+D2
+Exit ~
+door~
+16384 0 22200
+D3
+Exit ~
+door~
+16384 0 22202
+S
+#22202
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22219
+D1
+Exit ~
+door~
+16384 0 22201
+D3
+Exit ~
+door~
+16384 0 22203
+S
+#22203
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22217
+D1
+Exit ~
+door~
+16384 0 22202
+D3
+Exit ~
+door~
+16384 0 22204
+S
+#22204
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22205
+D1
+Exit ~
+door~
+16384 0 22203
+S
+#22205
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22206
+D1
+Exit ~
+door~
+16384 0 22217
+D2
+Exit ~
+door~
+16384 0 22204
+S
+#22206
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22222
+D1
+Exit ~
+door~
+16384 0 22207
+D2
+Exit ~
+door~
+16384 0 22205
+S
+#22207
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D1
+Exit ~
+door~
+16384 0 22208
+D2
+Exit ~
+door~
+16384 0 22217
+D3
+Exit ~
+door~
+16384 0 22206
+S
+#22208
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D1
+Exit ~
+door~
+16384 0 22209
+D2
+Exit ~
+door~
+16384 0 22219
+D3
+Exit ~
+door~
+16384 0 22207
+S
+#22209
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D1
+Exit ~
+door~
+16384 0 22210
+D2
+Exit ~
+door~
+16384 0 22219
+D3
+Exit ~
+door~
+16384 0 22208
+S
+#22210
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D1
+Exit ~
+door~
+16384 0 22211
+D2
+Exit ~
+door~
+16384 0 22220
+D3
+Exit ~
+door~
+16384 0 22209
+S
+#22211
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D1
+Exit ~
+door~
+16384 0 22212
+D2
+Exit ~
+door~
+16384 0 22221
+D3
+Exit ~
+door~
+16384 0 22210
+S
+#22212
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D2
+Exit ~
+door~
+16384 0 22213
+D3
+Exit ~
+door~
+16384 0 22211
+S
+#22213
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22212
+D2
+Exit ~
+door~
+16384 0 22214
+D3
+Exit ~
+door~
+16384 0 22221
+S
+#22214
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22213
+D3
+Exit ~
+door~
+16384 0 22215
+S
+#22215
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22221
+D1
+Exit ~
+door~
+16384 0 22214
+D3
+Exit ~
+door~
+16384 0 22216
+S
+#22216
+The Courtyards of the Elven Printing Company~
+The path passes by a small pond full of brightly colored
+fish.  A loud honking noise draws your attention back to
+the path.  Oh NO!  Is that thing foaming at the mouth?!?
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22220
+D1
+Exit ~
+door~
+16384 0 22215
+D3
+Exit ~
+door~
+16384 0 22201
+S
+#22217
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22207
+D1
+Exit ~
+door~
+16384 0 22218
+D2
+Exit ~
+door~
+16384 0 22203
+D3
+Exit ~
+door~
+16384 0 22205
+S
+#22218
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D1
+Exit ~
+door~
+16384 0 22219
+D3
+Exit ~
+door~
+16384 0 22217
+S
+#22219
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22208
+D1
+Exit ~
+door~
+16384 0 22220
+D2
+Exit ~
+door~
+16384 0 22201
+D3
+Exit ~
+door~
+16384 0 22218
+S
+#22220
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22210
+D1
+Exit ~
+door~
+16384 0 22221
+D2
+Exit ~
+door~
+16384 0 22216
+D3
+Exit ~
+door~
+16384 0 22219
+S
+#22221
+The Courtyards of the Elven Printing Company~
+You are strolling through the courtyards of the Elven Printing Company.  
+Plants for making ink and paper grow along the sides of the path.  Bunnies
+hop and deer wander.  An occasional bench looks like the perfect place to
+sit and enjoy a snack.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 22210
+D1
+Exit ~
+door~
+16384 0 22213
+D2
+Exit ~
+door~
+16384 0 22216
+D3
+Exit ~
+door~
+16384 0 22220
+S
+#22222
+The Lobby of The Elven Printing Company~
+A large sign on the wall welcomes you to the Main Offices of the Elven 
+Printing Company.  The furniture is sparse and doesn't look very comfortable.
+Obviously, they don't intend for people to wait around in here.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 22270
+D1
+Exit ~
+door~
+16384 0 22223
+D2
+Exit ~
+door~
+16384 0 22206
+S
+#22223
+The Meeting Room~
+Handmade and very worn, the table and chairs are beginning to show their 
+age.  Examples of different type settings are displayed on the walls.  
+Some of this writing must have taken years and years to create.  A 
+discarded set of maps slumps in the corner, neglected and forgotten.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 22224
+D3
+Exit ~
+door~
+16384 0 22222
+S
+#22224
+The Filthy Breakroom~
+Tables and chairs are strewn all around the room.  Food left behind by 
+the workers is being finished by the bugs.  They must be in an awful 
+hurry to leave such a mess.  Maybe you'll find a sandwich or a crust 
+of pie to munch on if you look around.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 22225
+D3
+Exit ~
+door~
+16384 0 22223
+S
+#22225
+The Gormet Kitchen~
+Unlike the dining room, the kitchen is spotless and tidy.  Knives, 
+spoons, and pots hang from the ceiling, and the butcher block 
+sparkles it is so clean.  The hearth and floor of the fireplace 
+are also clean as a whistle.  Either the cook is extra tidy or 
+no one has used this kitchen in a while.  There is crashing and 
+clanking coming from the next room.  I'd be careful if I were you.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 22226
+D3
+Exit ~
+door~
+16384 0 22224
+E
+~
+Generic extended description.
+~
+S
+#22226
+The Supply Closet~
+Whoops, everything has come tumbling down and the maintenance man 
+doesn't seem too happy.  Guess you should have been more careful
+opening the door.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 22227
+D3
+Exit ~
+door~
+16384 0 22225
+S
+#22227
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22262
+D1
+Exit ~
+door~
+16384 0 22228
+D2
+Exit ~
+door~
+16384 0 22226
+D3
+Exit ~
+door~
+16384 0 22250
+S
+#22228
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22269
+D1
+Exit ~
+door~
+16384 0 22231
+D2
+Exit ~
+door~
+16384 0 22229
+D3
+Exit ~
+door~
+16384 0 22227
+S
+#22229
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22228
+D1
+Exit ~
+door~
+16384 0 22230
+S
+#22230
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22231
+D3
+Exit ~
+door~
+16384 0 22229
+S
+#22231
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22232
+D2
+Exit ~
+door~
+16384 0 22230
+D3
+Exit ~
+door~
+16384 0 22228
+S
+#22232
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22233
+D2
+Exit ~
+door~
+16384 0 22231
+D3
+Exit ~
+door~
+16384 0 22269
+S
+#22233
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22234
+D2
+Exit ~
+door~
+16384 0 22232
+D3
+Exit ~
+door~
+16384 0 22268
+S
+#22234
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22235
+D2
+Exit ~
+door~
+16384 0 22233
+D3
+Exit ~
+door~
+16384 0 22267
+S
+#22235
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22236
+D2
+Exit ~
+door~
+16384 0 22234
+D3
+Exit ~
+door~
+16384 0 22266
+S
+#22236
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D2
+Exit ~
+door~
+16384 0 22235
+D3
+Exit ~
+door~
+16384 0 22237
+S
+#22237
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 22236
+D2
+Exit ~
+door~
+16384 0 22266
+D3
+Exit ~
+door~
+16384 0 22238
+S
+#22238
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 22237
+D2
+Exit ~
+door~
+16384 0 22265
+D3
+Exit ~
+door~
+16384 0 22239
+S
+#22239
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 22238
+D2
+Exit ~
+door~
+16384 0 22258
+D3
+Exit ~
+door~
+16384 0 22240
+S
+#22240
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 22239
+D2
+Exit ~
+door~
+16384 0 22257
+D3
+Exit ~
+door~
+16384 0 22241
+S
+#22241
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 22240
+D2
+Exit ~
+door~
+16384 0 22253
+D3
+Exit ~
+door~
+16384 0 22242
+S
+#22242
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22271
+D1
+Exit ~
+door~
+16384 0 22241
+D2
+Exit ~
+door~
+16384 0 22243
+S
+#22243
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22242
+D1
+Exit ~
+door~
+16384 0 22253
+D2
+Exit ~
+door~
+16384 0 22244
+S
+#22244
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22243
+D1
+Exit ~
+door~
+16384 0 22252
+D2
+Exit ~
+door~
+16384 0 22245
+S
+#22245
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22244
+D1
+Exit ~
+door~
+16384 0 22251
+D2
+Exit ~
+door~
+16384 0 22246
+S
+#22246
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22245
+D1
+Exit ~
+door~
+16384 0 22247
+S
+#22247
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22251
+D1
+Exit ~
+door~
+16384 0 22254
+D2
+Exit ~
+door~
+16384 0 22248
+D3
+Exit ~
+door~
+16384 0 22246
+S
+#22248
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22247
+D1
+Exit ~
+door~
+16384 0 22249
+S
+#22249
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22254
+D1
+Exit ~
+door~
+16384 0 22250
+D3
+Exit ~
+door~
+16384 0 22248
+S
+#22250
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22261
+D1
+Exit ~
+door~
+16384 0 22227
+D3
+Exit ~
+door~
+16384 0 22249
+S
+#22251
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22252
+D2
+Exit ~
+door~
+16384 0 22247
+D3
+Exit ~
+door~
+16384 0 22245
+S
+#22252
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22253
+D1
+Exit ~
+door~
+16384 0 22256
+D2
+Exit ~
+door~
+16384 0 22251
+D3
+Exit ~
+door~
+16384 0 22244
+S
+#22253
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22241
+D1
+Exit ~
+door~
+16384 0 22257
+D2
+Exit ~
+door~
+16384 0 22252
+D3
+Exit ~
+door~
+16384 0 22243
+S
+#22254
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22255
+D1
+Exit ~
+door~
+16384 0 22261
+D2
+Exit ~
+door~
+16384 0 22249
+D3
+Exit ~
+door~
+16384 0 22247
+S
+#22255
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22256
+D1
+Exit ~
+door~
+16384 0 22260
+D2
+Exit ~
+door~
+16384 0 22254
+D3
+Exit ~
+door~
+16384 0 22251
+S
+#22256
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22257
+D1
+Exit ~
+door~
+16384 0 22259
+D2
+Exit ~
+door~
+16384 0 22255
+D3
+Exit ~
+door~
+16384 0 22252
+S
+#22257
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22240
+D1
+Exit ~
+door~
+16384 0 22258
+D2
+Exit ~
+door~
+16384 0 22256
+D3
+Exit ~
+door~
+16384 0 22253
+S
+#22258
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22239
+D1
+Exit ~
+door~
+16384 0 22265
+D2
+Exit ~
+door~
+16384 0 22259
+D3
+Exit ~
+door~
+16384 0 22257
+S
+#22259
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22258
+D1
+Exit ~
+door~
+16384 0 22264
+D2
+Exit ~
+door~
+16384 0 22260
+D3
+Exit ~
+door~
+16384 0 22256
+S
+#22260
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22259
+D1
+Exit ~
+door~
+16384 0 22263
+D2
+Exit ~
+door~
+16384 0 22261
+D3
+Exit ~
+door~
+16384 0 22255
+S
+#22261
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22260
+D1
+Exit ~
+door~
+16384 0 22262
+D2
+Exit ~
+door~
+16384 0 22250
+D3
+Exit ~
+door~
+16384 0 22254
+S
+#22262
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22263
+D1
+Exit ~
+door~
+16384 0 22269
+D2
+Exit ~
+door~
+16384 0 22227
+D3
+Exit ~
+door~
+16384 0 22261
+S
+#22263
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22264
+D1
+Exit ~
+door~
+16384 0 22268
+D2
+Exit ~
+door~
+16384 0 22262
+D3
+Exit ~
+door~
+16384 0 22260
+S
+#22264
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22265
+D1
+Exit ~
+door~
+16384 0 22267
+D2
+Exit ~
+door~
+16384 0 22263
+D3
+Exit ~
+door~
+16384 0 22259
+S
+#22265
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22238
+D1
+Exit ~
+door~
+16384 0 22266
+D2
+Exit ~
+door~
+16384 0 22264
+D3
+Exit ~
+door~
+16384 0 22258
+S
+#22266
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22237
+D1
+Exit ~
+door~
+16384 0 22235
+D2
+Exit ~
+door~
+16384 0 22267
+D3
+Exit ~
+door~
+16384 0 22265
+S
+#22267
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22266
+D1
+Exit ~
+door~
+16384 0 22234
+D2
+Exit ~
+door~
+16384 0 22268
+D3
+Exit ~
+door~
+16384 0 22264
+S
+#22268
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22267
+D1
+Exit ~
+door~
+16384 0 22233
+D2
+Exit ~
+door~
+16384 0 22269
+D3
+Exit ~
+door~
+16384 0 22263
+S
+#22269
+The Workroom~
+What a busy place. Everywhere you turn, large machines are slamming 
+and clunking.  Move carefully so you don't snag yourself on one of 
+the many gears or belts.  I wouldn't disturb the workers either.  
+Sometimes they can be a little short tempered.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 22268
+D1
+Exit ~
+door~
+16384 0 22232
+D2
+Exit ~
+door~
+16384 0 22228
+D3
+Exit ~
+door~
+16384 0 22262
+S
+#22270
+The Master Printer's Office~
+Volumes upon volumes of typesetting examples clutter the desks 
+and floors.  A leftover hunk of lead used to make typeset doubles
+as a paperweigt on a stack of papers 4 feet high. A weeks worth
+of un-eaten lunches fill the garbage can.  You could ransack the
+room and I don't think anyone would notice.
+~
+0 D 0
+D2
+Exit ~
+door~
+16384 0 22222
+S
+#22271
+The scribes chambers~
+You've entered a quiet room where a few hunched over monks 
+labor away over various scrolls.  Some of them look older than
+anyone you've ever seen before.  They don't seem to notice you
+at all.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 22242
+S
+#0
+
+#RESETS
+D 0 22205   0 16384	* The Courtyards of the Elven Printing Company north
+D 0 22205   1 16384	* The Courtyards of the Elven Printing Company east
+D 0 22205   2 16384	* The Courtyards of the Elven Printing Company south
+O 0 22200 100 22220	* iron bench
+D 0 22220   0 16384	* The Courtyards of the Elven Printing Company north
+D 0 22220   1 16384	* The Courtyards of the Elven Printing Company east
+D 0 22220   2 16384	* The Courtyards of the Elven Printing Company south
+D 0 22220   3 16384	* The Courtyards of the Elven Printing Company west
+D 0 22223   1 16384	* The Meeting Room east
+D 0 22223   3 16384	* The Meeting Room west
+D 0 22208   1 16384	* The Courtyards of the Elven Printing Company east
+D 0 22208   2 16384	* The Courtyards of the Elven Printing Company south
+D 0 22208   3 16384	* The Courtyards of the Elven Printing Company west
+D 0 22210   1 16384	* The Courtyards of the Elven Printing Company east
+D 0 22210   2 16384	* The Courtyards of the Elven Printing Company south
+D 0 22210   3 16384	* The Courtyards of the Elven Printing Company west
+D 0 22263   0 16384	* The Workroom north
+D 0 22263   1 16384	* The Workroom east
+D 0 22263   2 16384	* The Workroom south
+D 0 22263   3 16384	* The Workroom west
+M 0 22200   5 22204  1	* a small bunny
+M 0 22200   5 22205  2	* a small bunny
+M 0 22200   5 22205  2	* a small bunny
+M 0 22200   5 22206  1	* a small bunny
+M 0 22201   3 22210  1	* a deer
+M 0 22201   3 22218  1	* a deer
+M 0 22204   9 22236  1	* an apprentice printer
+M 0 22204   9 22239  3	* an apprentice printer
+M 0 22204   9 22239  3	* an apprentice printer
+M 0 22204   9 22239  3	* an apprentice printer
+M 0 22205  10 22259  1	* a journeyman printer
+M 0 22205  10 22260  1	* a journeyman printer
+M 0 22205  10 22261  1	* a journeyman printer
+M 0 22205  10 22262  4	* a journeyman printer
+M 0 22205  10 22262  4	* a journeyman printer
+M 0 22205  10 22262  4	* a journeyman printer
+M 0 22205  10 22262  4	* a journeyman printer
+M 0 22204   9 22263  1	* an apprentice printer
+M 0 22205  10 22263  2	* a journeyman printer
+M 0 22205  10 22263  2	* a journeyman printer
+M 0 22205  10 22268  1	* a journeyman printer
+M 0 22204   9 22268  1	* an apprentice printer
+M 0 22204   9 22269  1	* an apprentice printer
+M 0 22203   1 22226  1	* Paddy the Handyman
+E 1 22206  -1    7	*   leather coveralls
+E 1 22202  -1   16	*   A tape measure
+E 1 22205  -1    5	*   a soft flannel shirt
+E 1 22207  -1    8	*   leather workboots
+D 0 22226   0 16384	* The Supply Closet north
+D 0 22226   3 16384	* The Supply Closet west
+M 0 22204   9 22265  1	* an apprentice printer
+D 0 22265   0 16384	* The Workroom north
+D 0 22265   1 16384	* The Workroom east
+D 0 22265   2 16384	* The Workroom south
+D 0 22265   3 16384	* The Workroom west
+O 0 22201 100 22225	* a saucepot
+D 0 22225   1 16384	* The Gormet Kitchen east
+D 0 22225   3 16384	* The Gormet Kitchen west
+M 0 22204   8 22238  1	* an apprentice printer
+M 0 22208   3 22238  1	* a printing press
+D 0 22238   1 16384	* The Workroom east
+D 0 22238   2 16384	* The Workroom south
+D 0 22238   3 16384	* The Workroom west
+M 0 22208   4 22232  1	* a printing press
+D 0 22232   0 16384	* The Workroom north
+D 0 22232   2 16384	* The Workroom south
+D 0 22232   3 16384	* The Workroom west
+M 0 22208   5 22250  1	* a printing press
+D 0 22250   0 16384	* The Workroom north
+D 0 22250   1 16384	* The Workroom east
+D 0 22250   3 16384	* The Workroom west
+M 0 22208   6 22241  1	* a printing press
+D 0 22241   1 16384	* The Workroom east
+D 0 22241   2 16384	* The Workroom south
+D 0 22241   3 16384	* The Workroom west
+M 0 22208   7 22258  1	* a printing press
+M 0 22204   8 22258  1	* an apprentice printer
+D 0 22258   0 16384	* The Workroom north
+D 0 22258   1 16384	* The Workroom east
+D 0 22258   2 16384	* The Workroom south
+D 0 22258   3 16384	* The Workroom west
+O 0 22210 100 22211	* an ink berry bush
+D 0 22211   1 16384	* The Courtyards of the Elven Printing Company east
+D 0 22211   2 16384	* The Courtyards of the Elven Printing Company south
+D 0 22211   3 16384	* The Courtyards of the Elven Printing Company west
+O 0 22210 100 22219	* an ink berry bush
+D 0 22219   0 16384	* The Courtyards of the Elven Printing Company north
+D 0 22219   1 16384	* The Courtyards of the Elven Printing Company east
+D 0 22219   2 16384	* The Courtyards of the Elven Printing Company south
+D 0 22219   3 16384	* The Courtyards of the Elven Printing Company west
+O 0 22210 100 22214	* an ink berry bush
+O 0 22200 100 22214	* iron bench
+D 0 22214   0 16384	* The Courtyards of the Elven Printing Company north
+D 0 22214   3 16384	* The Courtyards of the Elven Printing Company west
+M 0 22201   3 22207  1	* a deer
+O 0 22210 100 22207	* an ink berry bush
+D 0 22207   1 16384	* The Courtyards of the Elven Printing Company east
+D 0 22207   2 16384	* The Courtyards of the Elven Printing Company south
+D 0 22207   3 16384	* The Courtyards of the Elven Printing Company west
+O 0 22210 100 22209	* an ink berry bush
+D 0 22209   1 16384	* The Courtyards of the Elven Printing Company east
+D 0 22209   2 16384	* The Courtyards of the Elven Printing Company south
+D 0 22209   3 16384	* The Courtyards of the Elven Printing Company west
+D 0 22201   0 16384	* The Courtyards of the Elven Printing Company north
+D 0 22201   1 16384	* The Courtyards of the Elven Printing Company east
+D 0 22201   2 16384	* The Courtyards of the Elven Printing Company south
+D 0 22201   3 16384	* The Courtyards of the Elven Printing Company west
+M 0 22209   1 22216  1	* a rabid gander
+D 0 22216   0 16384	* The Courtyards of the Elven Printing Company north
+D 0 22216   1 16384	* The Courtyards of the Elven Printing Company east
+D 0 22216   3 16384	* The Courtyards of the Elven Printing Company west
+M 0 22204   9 22224  1	* an apprentice printer
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+M 0 22202  15 22224 15	* filth-roach
+D 0 22224   1 16384	* The Filthy Breakroom east
+D 0 22224   3 16384	* The Filthy Breakroom west
+D 0 22245   0 16384	* The Workroom north
+D 0 22245   1 16384	* The Workroom east
+D 0 22245   2 16384	* The Workroom south
+M 0 22207   1 22251  1	* the master printer
+G 1 22208  -1     	*   a bottle of Mama's pick-me-up sauce
+E 1 22209  -1   17	*   a messy clipboard
+D 0 22251   0 16384	* The Workroom north
+D 0 22251   2 16384	* The Workroom south
+D 0 22251   3 16384	* The Workroom west
+O 0 22204 100 22270	* a large wooden desk
+P 1 22211  -1 22204  1	*   a union membership card
+D 0 22270   2 16384	* The Master Printer's Office south
+M 0 22206   3 22271  3	* an ancient scribe
+G 1 22212  -1     	*   a rolled-up scroll of cheap paper
+E 1 22203  -1   16	*   a quill pen
+M 0 22206   3 22271  3	* an ancient scribe
+E 1 22203  -1   16	*   a quill pen
+M 0 22206   3 22271  3	* an ancient scribe
+E 1 22203  -1   16	*   a quill pen
+D 0 22271   2 16384	* The scribes chambers south
+O 0 22210 100 22203	* an ink berry bush
+D 0 22203   0 16384	* The Courtyards of the Elven Printing Company north
+D 0 22203   1 16384	* The Courtyards of the Elven Printing Company east
+D 0 22203   3 16384	* The Courtyards of the Elven Printing Company west
+O 0 22213 100 22222	* a drinking fountain
+D 0 22222   0 16384	* The Lobby of The Elven Printing Company north
+D 0 22222   1 16384	* The Lobby of The Elven Printing Company east
+D 0 22222   2 16384	* The Lobby of The Elven Printing Company south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 22206 spec_cast_mage      	* an ancient scribe
+M 22207 spec_cast_mage      	* the master printer
+S
+
+#$

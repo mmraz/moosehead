@@ -2,8 +2,8 @@
 Name Glimpse~
 Id   940173566
 Email (null)~
-LogO 1007405229
-Vers 28
+LogO 1407097807
+Vers 33
 Desc So Cruel:
 
 We crossed the line.
@@ -52,22 +52,35 @@ Desc So Cruel:
 To stay with you I'd be a fool.
 Sweetheart.....you're so cruel.
 ~
-Prom [%hhp %mm %vmv %Ss %w/%Ww %gg %e]  ~
+Prom %h/%Hh %m/%Mm %vmv %w/%Ww %Ss %gg %e ~
 Race faerie~
 Clan matook~
 Outc 0
 RufT 0
-MatookT 7022
-SkPTimer 0
-SkPTracker 2
+MatookT 12001
+SkPTimer 2
+SkPTracker 3
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1306612656
+LstKillDate 1306612656
+LstDeathDate 1306612656
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 441633 matook~
 Sac  300
 Sex  1
@@ -76,66 +89,68 @@ Node 0
 Cap 0
 Created 951449085
 Glad 0 0 0 0 0 0
-LastHost d150-5-59.home.cgocable.net~
+LastHost 70.52.139.65~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 761357
-Not  1007348582 1007348582 1007348582 1007366456 1007348582 1007348582 1007348582 1007348582 1007348582
+Plyd 1145683
+Not  1313983054 1313983054 1313983054 1313983054 1313983054 1313983054 1313983054 1313983054 1313983054 1313983054
 Scro 22
 Rank 0
-Room 3001
-HMV  385 385 483 1953 122 396
-Gold 777
-Silv 3351
+Room 16503
+HMV  454 465 1237 2038 264 396
+Gold 673
+Silv 3124
 Exp  82620
-Act  CDEFGHMQST
-AfBy DEFJTW
-Comm GI
-Disp BFIJ
+Act  CDEFGHMQS
+MHSF R
+AfBy CDEFJTVW
+Comm G
+Disp BFIJN
 IcgB 0
 Icg 0
-Pos  8
-Prac 45
-SkiP 88
-Save  -3
-Alig  455
-Hit   10
-Dam   13
-SecHit   6
-SecDam   4
-ACs 1 1 1 12
-Wimp  100
-Attr 11 22 22 20 12
-AMod 6 3 2 0 0
+Pnet ABCDEFGI
+Pos  5
+Prac 37
+SkiP 10
+Save  -10
+Alig  -1000
+Hit   11
+Dam   6
+SecHit   9
+SecDam   6
+ACs -89 -89 -89 -82
+Wimp  25
+Attr 12 25 22 20 12 17 8 18
+AMod 10 3 1 4 -3 0 0 0
 Pass Glddz/QEpGtqY~
-Titl , wee little enchanter type guy..of {DDeath{x~
+Titl , catch me if you can. [Enchanter]~
 Pnts 47
 TSex 1
 LLev 1
-HMVP 365 1363 396
-Cnd  0 38 9 47
+HMVP 425 1363 396
+Cnd  0 28 38 38
 Alias ew cast 'enchant weapon'~
 Alias dd cast 'dispel magic'~
 Alias oor order all rescue glimpse~
 Alias oob order all backstab~
 Alias oo order all~
 Alias we where~
-Alias pk who clan~
 Alias lo c 'locate object'~
 Alias jj c charm~
 Alias ii c teleport~
 Alias aa cast 'acid blast'~
-Alias fb cast 'fireball'~
 Alias ll c chain~
 Alias ea cast 'enchant armor'~
 Alias f flee~
+Alias cf cast 'create fountain' milk~
+Alias ww cast word~
 Sk 100 'acid blast'
 OldSk 100 'acid blast'
 Sk 77 'adamantite skin'
-Sk 96 'armor'
+Sk 99 'armor'
 OldSk 86 'armor'
 OldSk 96 'blindness'
 Sk 100 'blur'
@@ -154,23 +169,29 @@ Sk 1 'chill touch'
 OldSk 1 'chill touch'
 Sk 1 'colour spray'
 OldSk 95 'colour spray'
+Sk 79 'continual light'
+Sk 75 'create food'
+Sk 91 'create fountain'
+Sk 1 'create rose'
+Sk 75 'create spring'
+Sk 1 'create water'
 OldSk 77 'curse'
 Sk 1 'detect evil'
 OldSk 1 'detect evil'
-Sk 78 'detect good'
+Sk 95 'detect good'
 OldSk 75 'detect good'
 Sk 1 'detect hidden'
 OldSk 1 'detect hidden'
 Sk 1 'detect invis'
 OldSk 1 'detect invis'
-Sk 95 'detect magic'
+Sk 100 'detect magic'
 OldSk 86 'detect magic'
 Sk 1 'detect poison'
 OldSk 1 'detect poison'
-Sk 75 'diamond skin'
+Sk 77 'diamond skin'
 Sk 100 'dispel magic'
 OldSk 100 'dispel magic'
-Sk 80 'enchant armor'
+Sk 96 'enchant armor'
 OldSk 75 'enchant armor'
 Sk 100 'enchant weapon'
 OldSk 100 'enchant weapon'
@@ -179,6 +200,7 @@ OldSk 1 'endure cold'
 Sk 1 'endure heat'
 OldSk 1 'endure heat'
 OldSk 1 'energy drain'
+Sk 75 'enervation'
 OldSk 1 'enervation'
 OldSk 1 'famine'
 Sk 76 'farsight'
@@ -188,7 +210,8 @@ Sk 96 'fireball'
 OldSk 87 'fireball'
 Sk 78 'fireproof'
 OldSk 78 'fireproof'
-Sk 85 'fly'
+Sk 1 'floating disc'
+Sk 92 'fly'
 OldSk 85 'fly'
 OldSk 1 'forget'
 OldSk 1 'fumble'
@@ -200,10 +223,10 @@ Sk 100 'haste'
 OldSk 91 'haste'
 Sk 100 'identify'
 OldSk 100 'identify'
-Sk 79 'infravision'
+Sk 81 'infravision'
 OldSk 75 'infravision'
-Sk 97 'invisibility'
-Sk 92 'knock'
+Sk 100 'invisibility'
+Sk 95 'knock'
 OldSk 1 'knock'
 Sk 1 'know alignment'
 OldSk 1 'know alignment'
@@ -216,31 +239,31 @@ OldSk 100 'magic missile'
 Sk 1 'mass invis'
 Sk 75 'nexus'
 OldSk 75 'nexus'
-Sk 99 'pass door'
+Sk 100 'pass door'
 OldSk 85 'pass door'
 OldSk 1 'plague'
 OldSk 77 'poison'
-Sk 1 'portal'
+Sk 75 'portal'
 OldSk 75 'portal'
 Sk 83 'protection evil'
 OldSk 80 'protection evil'
 Sk 81 'protection good'
 OldSk 81 'protection good'
-Sk 1 'protection neutral'
+Sk 75 'protection neutral'
 OldSk 1 'protection neutral'
 Sk 75 'recharge'
 OldSk 1 'recharge'
-Sk 85 'refresh'
+Sk 94 'refresh'
 OldSk 83 'refresh'
 Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
 Sk 100 'sanctuary'
 OldSk 98 'sanctuary'
-Sk 95 'shield'
+Sk 100 'shield'
 OldSk 91 'shield'
 Sk 1 'shocking grasp'
 OldSk 1 'shocking grasp'
-Sk 78 'sleep'
+Sk 83 'sleep'
 OldSk 78 'sleep'
 OldSk 1 'slow'
 Sk 75 'steel skin'
@@ -250,18 +273,26 @@ Sk 100 'summon'
 OldSk 92 'summon'
 Sk 100 'teleport'
 OldSk 81 'teleport'
-Sk 75 'ventriloquate'
-Sk 75 'warp'
+Sk 77 'ventriloquate'
+Sk 78 'warp'
 OldSk 75 'warp'
 OldSk 1 'weaken'
 Sk 100 'word of recall'
 OldSk 99 'word of recall'
+Sk 77 'animate dead'
 OldSk 75 'animate dead'
+Sk 94 'summon dead'
 OldSk 82 'summon dead'
+Sk 75 'cryogenesis'
 OldSk 75 'cryogenesis'
+Sk 78 'draw life'
 OldSk 75 'draw life'
+Sk 1 'make bag'
+Sk 80 'turn undead'
 OldSk 80 'turn undead'
+Sk 82 'withstand death'
 OldSk 75 'withstand death'
+Sk 1 'wound transfer'
 OldSk 1 'wound transfer'
 Sk 100 'dagger'
 OldSk 100 'dagger'
@@ -274,6 +305,7 @@ Sk 100 'scan'
 OldSk 100 'scan'
 Sk 100 'second attack'
 OldSk 100 'second attack'
+Sk 100 'haggle'
 OldSk 78 'haggle'
 Sk 100 'meditation'
 OldSk 100 'meditation'
@@ -285,70 +317,33 @@ Sk 78 'staves'
 OldSk 75 'staves'
 Sk 91 'wands'
 OldSk 75 'wands'
-Sk 60 'swimming'
+Sk 86 'swimming'
 OldSk 52 'swimming'
 Sk 50 'recall'
 OldSk 50 'recall'
-Sk 11 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'beguiling'
 Gr 'combat'
+Gr 'creation'
 Gr 'detection'
 Gr 'enchantment'
 Gr 'enhancement'
 Gr 'illusion'
+Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
-Affc 'detect magic'   0  48  31   0   0         16
-End
-
-#O
-Vnum 20833
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 12
-Cost 0
-End
-
-#O
-Vnum 20818
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 11
-Cost 4000
-End
-
-#O
-Vnum 5938
-Enchanted
-Nest 0
-PrevOwner (null)~
-ExtF 134217984
-Wt   70
-Cond 0
-Wear 13
-Cost 4000
-Val  7 7 7 4 1
-Affc 'reserved'   1  41  -1  25  12          0
-Affc 'reserved'   1  41  -1   2   1          0
-End
-
-#O
-Vnum 2390
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 9
-Cost 5800
+Affc 'adamantite skin'   0  52  25 -36  17          0
+Affc 'haste'   0  53  20   4   2    2097152
+Affc 'giant strength'   0  50  31   4   1          0
+Affc 'detect magic'   0  44  27   0   0         16
+Affc 'detect good'   0  42  26   0   0          4
 End
 
 #O
 Vnum 2440
 Nest 0
-PrevOwner (null)~
+PrevOwner Glimpse~
 Cond 0
 Wear 15
 Cost 300
@@ -357,49 +352,135 @@ End
 #O
 Vnum 2440
 Nest 0
-PrevOwner (null)~
+PrevOwner Glimpse~
 Cond 0
 Wear 14
 Cost 300
 End
 
 #O
-Vnum 10447
+Vnum 15223
 Enchanted
 Nest 0
-PrevOwner (null)~
-ExtF 64
-Cond 0
-Wear 5
-Lev  47
-Cost 13700
-Affc 'enchant armor'   1  53  -1  -2  17          0
-Affc 'reserved'   1  45  -1  30  12          0
-Affc 'reserved'   1  45  -1  -4  20          0
-End
-
-#O
-Vnum 15223
-Nest 0
-PrevOwner (null)~
+PrevOwner Glimpse~
+ExtF 65
 Cond 0
 Wear 7
+Lev  34
 Cost 6500
+Affc 'enchant armor'   1  53  -1  -5  17          0
+Affc 'reserved'   1  30  -1  20  12          0
+Affc 'reserved'   1  30  -1  20  13          0
 End
 
 #O
 Vnum 17631
 Nest 0
-PrevOwner (null)~
+PrevOwner Glimpse~
 Cond 0
 Wear 0
 Cost 250
 End
 
 #O
-Vnum 23021
+Vnum 1206
+Nest 0
+PrevOwner Glimpse~
+Cond 0
+Wear 17
+Cost 10
+End
+
+#O
+Vnum 10447
+Enchanted
+Nest 0
+PrevOwner Glimpse~
+ExtF 65
+Cond 0
+Wear 5
+Lev  48
+Cost 13700
+Affc 'enchant armor'   1  53  -1  -6  17          0
+Affc 'reserved'   1  45  -1  -4  20          0
+Affc 'reserved'   1  45  -1  30  12          0
+End
+
+#O
+Vnum 10426
+Enchanted
 Nest 0
 PrevOwner (null)~
+ExtF 593
+Cond 0
+Wear 12
+Lev  50
+Cost 18300
+Affc 'enchant armor'   1  53  -1  -4  17          0
+Affc 'reserved'   1  47  -1  75  12          0
+End
+
+#O
+Vnum 16638
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 6372
+End
+
+#O
+Vnum 5937
+Nest 0
+PrevOwner Glimpse~
+ExtF 134217729
+Wt   32
+Cond 0
+Wear 9
+Cost 4000
+Val  8 8 8 5 1
+End
+
+#O
+Vnum 23512
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 6740
+End
+
+#O
+Vnum 23513
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 4
+Cost 6410
+End
+
+#O
+Vnum 23512
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 2
+Cost 6740
+End
+
+#O
+Vnum 23513
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 6410
+End
+
+#O
+Vnum 23021
+Nest 0
+PrevOwner Glimpse~
 Cond 0
 Wear -1
 Cost 710
@@ -415,46 +496,32 @@ Cost 6000
 End
 
 #O
-Vnum 20819
+Vnum 12010
 Nest 1
 PrevOwner Glimpse~
 Cond 0
 Wear -1
-Cost 4000
+Cost 15000
 End
 
 #O
-Vnum 2331
+Vnum 10440
 Nest 1
 PrevOwner Glimpse~
 Cond 0
 Wear -1
-Cost 930
-Spell 3 'cure light'
+Cost 8500
+Val  52 10 4 166 0
+Spell 3 'remove curse'
 End
 
 #O
-Vnum 20802
-Enchanted
-Nest 1
-PrevOwner Glimpse~
-ExtF 2643
-Cond 0
-Wear -1
-Cost 6000
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-End
-
-#O
-Vnum 15213
+Vnum 12010
 Nest 1
 PrevOwner Glimpse~
 Cond 0
 Wear -1
-Cost 5000
-Val  45 3 2 51 0
-Spell 3 'cure disease'
+Cost 15000
 End
 
 #O
@@ -464,43 +531,18 @@ PrevOwner Glimpse~
 Cond 0
 Wear -1
 Cost 17600
-Val  54 10 1 3 0
+Val  54 10 1 6 0
 Spell 3 'acid blast'
 End
 
 #O
-Vnum 8007
-Enchanted
-Nest 1
-PrevOwner Glimpse~
-ExtF 99
-Cond 0
-Wear -1
-Lev  21
-Cost 2800
-Val  2 3 5 3 1024
-Affc 'enchant weapon'   1  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'reserved'   1  18  -1   1   5          0
-Affc 'reserved'   1  18  -1   1   2          0
-End
-
-#O
-Vnum 9103
+Vnum 10440
 Nest 1
 PrevOwner Glimpse~
 Cond 0
 Wear -1
-Cost 1140
-End
-
-#O
-Vnum 9103
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 1140
+Cost 8500
+Spell 3 'remove curse'
 End
 
 #O
@@ -513,77 +555,49 @@ Cost 4000
 End
 
 #O
-Vnum 16638
+Vnum 12010
 Nest 1
 PrevOwner Glimpse~
 Cond 0
 Wear -1
-Cost 6372
+Cost 0
 End
 
 #O
-Vnum 3007
+Vnum 3104
 Nest 1
 PrevOwner Glimpse~
 Cond 0
 Wear -1
-Cost 500000
+Cost 25000
 End
 
 #O
-Vnum 3007
+Vnum 22514
+Enchanted
 Nest 1
 PrevOwner Glimpse~
+ExtF 67
 Cond 0
 Wear -1
-Cost 500000
+Lev  50
+Cost 0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
-Vnum 3007
+Vnum 23505
+Enchanted
 Nest 1
 PrevOwner Glimpse~
+ExtF 67
 Cond 0
 Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 4436
-Nest 1
-PrevOwner Glimpse~
-ExtF 33
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 5101
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 1510
-Val  1 2 7 3 1024
+Lev  50
+Cost 175
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
@@ -593,269 +607,38 @@ PrevOwner Glimpse~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 4 156 0
+Val  52 10 6 166 0
 Spell 3 'remove curse'
 End
 
 #O
-Vnum 8707
+Vnum 5250
 Nest 1
 PrevOwner Glimpse~
 Cond 0
 Wear -1
-Cost 720
+Cost 2500
+Spell 3 'cure critical'
 End
 
 #O
-Vnum 6517
+Vnum 5250
 Nest 1
 PrevOwner Glimpse~
 Cond 0
 Wear -1
-Cost 0
+Cost 2500
+Spell 3 'cure critical'
 End
 
 #O
-Vnum 20738
+Vnum 5250
 Nest 1
 PrevOwner Glimpse~
 Cond 0
 Wear -1
-Cost 4850
-End
-
-#O
-Vnum 9201
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 9103
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 9201
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 28005
-Enchanted
-Nest 1
-PrevOwner Glimpse~
-ExtF 99
-Cond 0
-Wear -1
-Cost 5000
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   1  53  -1  11  18          0
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12006
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 900
-End
-
-#O
-Vnum 12010
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 18104
-Enchanted
-Nest 1
-PrevOwner Glimpse~
-ExtF 67
-Cond 0
-Wear -1
-Lev  37
-Cost 4000
-Affc 'reserved'   1  35  -1   1   1          0
-Affc 'reserved'   1  35  -1  -1   3          0
-Affc 'enchant weapon'   1  53  -1   6  18          0
-Affc 'enchant weapon'   1  53  -1   6  19          0
-End
-
-#O
-Vnum 12010
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12006
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 900
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 3 156 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 4829
-Enchanted
-Nest 1
-PrevOwner Glimpse~
-ExtF 16777283
-Cond 0
-Wear -1
-Lev  39
-Cost 900
-Val  2 5 6 11 12
-Affc 'enchant weapon'   1  53  -1   5  18          0
-Affc 'enchant weapon'   1  53  -1   5  19          0
-Affc 'reserved'   1  36  -1   1   2          0
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Glimpse~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6400
-Affc 'enchant weapon'   1  55  -1   9  19          0
-Affc 'enchant weapon'   0  55  -1   9  18          0
-End
-
-#O
-Vnum 10431
-Enchanted
-Nest 1
-PrevOwner Glimpse~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6500
-Val  4 5 8 7 1280
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
-End
-
-#O
-Vnum 10027
-Enchanted
-Nest 1
-PrevOwner Glimpse~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1000
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
+Cost 2500
+Spell 3 'cure critical'
 End
 
 #O
@@ -873,59 +656,7 @@ Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
-Vnum 3041
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 220
-Spell 1 'detect invis'
-End
-
-#O
-Vnum 2446
-Enchanted
-Nest 1
-PrevOwner Glimpse~
-ExtF 2371
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'reserved'   1  49  -1   2   1          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-End
-
-#O
-Vnum 6704
-Enchanted
-Nest 1
-PrevOwner Glimpse~
-ExtF 66
-Cond 0
-Wear -1
-Lev  36
-Cost 6000
-Val  4 4 6 7 1280
-Affc 'enchant weapon'   1  53  -1   6  19          0
-Affc 'reserved'   1  30  -1  -1   3          0
-Affc 'enchant weapon'   1  53  -1   8  18          0
-End
-
-#O
-Vnum 18901
-Nest 1
-PrevOwner Glimpse~
-Cond 0
-Wear -1
-Cost 6500
-Val  30 5 4 15 0
-Spell 3 'bless'
-End
-
-#O
-Vnum 2409
+Vnum 10431
 Enchanted
 Nest 1
 PrevOwner Glimpse~
@@ -933,20 +664,124 @@ ExtF 67
 Cond 0
 Wear -1
 Lev  50
-Cost 3500
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
+Cost 6500
+Val  4 5 8 7 1280
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
-Vnum 2331
+Vnum 22504
 Nest 1
 PrevOwner Glimpse~
 Cond 0
 Wear -1
-Cost 930
-Val  30 8 2 52 0
-Spell 3 'cure light'
+Cost 0
+End
+
+#O
+Vnum 2421
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12022
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 16753
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 9107
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 9006
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 1347
+Cond 0
+Wear -1
+Lev  50
+Cost 5000
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'reserved'   1  49  -1  -5  17          0
+End
+
+#O
+Vnum 20808
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 67
+Cond 0
+Wear -1
+Cost 1000
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 20802
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 2643
+Cond 0
+Wear -1
+Cost 6000
+Affc 'enchant weapon'   0  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O
@@ -957,105 +792,592 @@ PrevOwner Glimpse~
 ExtF 67
 Cond 0
 Wear -1
-Cost 9500
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
+Cost 0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 12080
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 4805
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 10304
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+Val  31 10 8 20 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 12019
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12019
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 150
+End
+
+#O
+Vnum 12019
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 150
+End
+
+#O
+Vnum 18905
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 1346
+Cond 0
+Wear -1
+Lev  35
+Cost 3900
+Val  6 2 13 4 1280
+Affc 'enchant weapon'   0  52  -1   5  18          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
+Affc 'reserved'   1  30  -1   1   1          0
+Affc 'reserved'   1  30  -1  -1   2          0
+End
+
+#O
+Vnum 12
+Nest 1
+PrevOwner Glimpse~
+ShD  the head of Poquah~
+Desc The severed head of Poquah is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2205
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 322
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 22514
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 2413
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 675
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 10304
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 10304
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 20819
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12087
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 12087
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 7 166 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 8529
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5408
+Nest 1
+PrevOwner Glimpse~
+ExtF 16
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23515
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 7609
+End
+
+#O
+Vnum 23515
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 7609
+End
+
+#O
+Vnum 6425
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3142
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 2
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 17648
+Nest 0
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 12019
+Nest 1
+PrevOwner Rumor~
+Cond 0
+Wear -1
+Cost 150
+End
+
+#O
+Vnum 11145
+Nest 1
+PrevOwner Rumor~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18119
+Nest 1
+PrevOwner Rumor~
+ExtF 96
+Cond 0
+Wear -1
+Cost 4500
+Val  2 2 19 2 8199
+End
+
+#O
+Vnum 22504
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6723
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 66
+Cond 0
+Wear -1
+Lev  42
+Cost 8000
+Val  2 4 8 11 4
+Affc 'enchant weapon'   1  42  -1   7  18          0
+Affc 'enchant weapon'   1  42  -1   7  19          0
+End
+
+#O
+Vnum 11098
+Enchanted
+Nest 1
+PrevOwner Glimpse~
+ExtF 66
+Cond 0
+Wear -1
+Lev  48
+Cost 3500
+Val  1 9 4 3 5
+Affc 'reserved'   1  45  -1  50  13          0
+Affc 'enchant weapon'   1  49  -1   5  18          0
+Affc 'enchant weapon'   1  49  -1   5  19          0
+End
+
+#O
+Vnum 8543
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 4250
+End
+
+#O
+Vnum 8544
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 9999
+End
+
+#O
+Vnum 8544
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 9999
+End
+
+#O
+Vnum 20818
+Enchanted
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 11
+Lev  50
+Cost 4000
+Affc 'enchant armor'   1  53  -1  -5  17          0
+Affc 'reserved'   1  49  -1  30  12          0
+Affc 'reserved'   1  49  -1   1  19          0
+Affc 'reserved'   1  49  -1  -1  20          0
+Affc 'reserved'   1  49  -1   2  18          0
+End
+
+#O
+Vnum 2725
+Enchanted
+Nest 0
+PrevOwner Charron~
+Cond 0
+Wear 8
+Lev  31
+Cost 3600
+Affc 'reserved'   1  30  -1   1   3          0
+Affc 'reserved'   1  30  -1  30  12          0
+Affc 'reserved'   1  30  -1  -1  18          0
+Affc 'reserved'   1  30  -1  -1  19          0
+Affc 'enchant armor'   1  53  -1  -6  17          0
+End
+
+#O
+Vnum 5938
+Enchanted
+Nest 0
+PrevOwner Glimpse~
+ExtF 134218048
+Wt   70
+Cond 0
+Wear 13
+Lev  45
+Cost 4000
+Val  7 7 7 4 1
+Affc 'reserved'   1  41  -1   2   1          0
+Affc 'reserved'   1  41  -1  25  12          0
+Affc 'enchant armor'   1  53  -1  -4  17          0
+End
+
+#O
+Vnum 23129
+Nest 0
+PrevOwner Glimpse~
+Cond 0
+Wear 6
+Cost 10000
 End
 
 #O
 Vnum 8040
 Nest 0
-PrevOwner (null)~
+PrevOwner Glimpse~
 ExtF 18350401
 Cond 0
 Wear 18
 Cost 2500
-End
-
-#O
-Vnum 922
-Nest 0
-PrevOwner Glimpse~
-Cond 0
-Wear 3
-Cost 4900
-End
-
-#O
-Vnum 10428
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 2
-Cost 2900
-End
-
-#O
-Vnum 10030
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 6
-Cost 20000
-End
-
-#O
-Vnum 922
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 4
-Cost 4900
-End
-
-#O
-Vnum 12060
-Enchanted
-Nest 0
-PrevOwner (null)~
-ExtF 554172608
-Cond 0
-Wear -1
-Lev  49
-Cost 5234
-Affc 'enchant weapon'   1  53  -1   1  19          0
-Affc 'enchant weapon'   0  53  -1   1  18          0
-End
-
-#O
-Vnum 15207
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 10
-Cost 5000
-End
-
-#O
-Vnum 2725
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 8
-Cost 3600
-End
-
-#O
-Vnum 10428
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 1
-Cost 2900
-End
-
-#O
-Vnum 1206
-Nest 0
-PrevOwner Glimpse~
-Cond 0
-Wear 17
-Cost 10
 End
 
 #O
@@ -1065,65 +1387,36 @@ Nest 0
 PrevOwner Glimpse~
 ExtF 227
 Cond 0
-Wear 16
+Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   0  53  -1   4  18          0
+Val  2 2 19 2 8199
 Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   4  18          0
 End
 
 #O
-Vnum 3009
+Vnum 10403
 Nest 0
-PrevOwner (null)~
+PrevOwner Glimpse~
 Cond 0
-Wear -1
-Cost 22
+Wear 16
+Cost 6300
 End
 
 #O
-Vnum 3009
+Vnum 5921
+Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Vixon~
+ExtF 195
 Cond 0
 Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 2440
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 300
+Lev  45
+Cost 2000
+Val  8 4 9 34 1056
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
 End
 
 #O
@@ -1132,7 +1425,118 @@ Nest 0
 PrevOwner Glimpse~
 Cond 0
 Wear -1
-Cost 5000
+Cost 0
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 23021
+Nest 0
+PrevOwner Visara~
+Cond 0
+Wear -1
+Cost 710
+End
+
+#O
+Vnum 23514
+Nest 1
+PrevOwner Visara~
+Cond 0
+Wear -1
+Cost 3690
+End
+
+#O
+Vnum 23517
+Nest 1
+PrevOwner Visara~
+Cond 0
+Wear -1
+Cost 4390
+End
+
+#O
+Vnum 12006
+Nest 1
+PrevOwner Visara~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 12004
+Nest 1
+PrevOwner Visara~
+Cond 0
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 23515
+Nest 1
+PrevOwner Visara~
+Cond 0
+Wear -1
+Cost 7609
+End
+
+#O
+Vnum 23515
+Nest 1
+PrevOwner Visara~
+Cond 0
+Wear -1
+Cost 7609
+End
+
+#O
+Vnum 12019
+Nest 1
+PrevOwner Visara~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23514
+Nest 1
+PrevOwner Glimpse~
+Cond 0
+Wear -1
+Cost 3690
+End
+
+#O
+Vnum 18106
+Nest 1
+PrevOwner Glimpse~
+Stolen 1810
+Cond 0
+Wear -1
+Cost 4500
+Val  6 4 10 3 516
+Affc 'bestow holiness'   5  52  -1   0   0        512
+End
+
+#O
+Vnum 2416
+Nest 0
+PrevOwner Meltwater~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

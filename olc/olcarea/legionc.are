@@ -1,0 +1,381 @@
+#AREA
+/mud/moosehead/area/legionc.are~
+Legion Clan Hall~
+{Clan}  Sukkit  Legion Clan Hall~
+4900 4913
+
+#MOBILES
+#4900
+healer old goblin crone~
+a goblin crone~
+A withered old crone cackles gleefully at you.
+~
+This old bag has gotta be at least 200 years old. She's bald, wrinkled,
+and completely insane. She randomly throws spell about the room, and
+when some poor soul is hit with a combat spell, she roars with laughter.
+However, she's quick-witted enough to help when needed, and will do what
+she can for the Legion... at least until she goes absolutely nuts.
+ 
+Type 'heal' for a list of spells.
+~
+goblin~
+(null)~
+(null)~
+(null)~
+ABQVa DFH 1000 0
+50 0 1d1+999 1d1+999 2d4+30 divine
+-15 -15 -15 -15
+FHIK ABCD 0 0
+stand stand female 0
+0 0 medium 0
+F aff J
+F res Q
+F vul J
+#4901
+Hekklokk half goblin~
+Hekklokk~
+Hekklokk, the half goblin, offers to sell you shiny things.
+~
+Hekklokk is a goblin-human crossbreed that was left for dead in the Lost 
+Bog. beinh half-human had given him quite an advantage in intelligence, and
+he uses his smarts to acquire items of power for Legion to use. And he's 
+smart enough to make some money in the process.
+~
+goblin~
+(null)~
+(null)~
+(null)~
+ABQRVe DEF 1000 0
+32 0 1d1+999 1d1+999 10d10+10 magic
+-15 -15 -15 -15
+FGH ABCD 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F res Q
+F vul J
+#0
+
+#OBJECTS
+#4900
+big hole pit~
+a big hole~
+There a big hole in the ground. It's full of junk.~
+~
+container OR 0
+10000 0 0 1000 100
+0 0 0 P
+E
+pit~
+This is where you put money and items to help Bigfoot expand this shrine and
+convert more people to the belief of Mojo, lord of the gods.
+~
+#4901
+trickle water~
+a trickle of water~
+Water trickles down the wall of the cave.~
+stone~
+fountain OR 0
+0 0 'water' 0 0
+0 100 0 P
+#4902
+handfull gunk food~
+a handfull of gunk~
+A pile of gunk is lying on the ground. It looks tasty.~
+slime~
+food 0 A
+25 25 0 0 0
+1 30 1 P
+#4903
+drow~
+the obsidian wall~
+~
+~
+portal R P
+0 0 0 5100 0
+0 100 0 P
+A
+0 0
+#4904
+canyon~
+the obsidian wall~
+~
+~
+portal R P
+0 0 0 9209 0
+0 100 0 P
+#4905
+haon dor~
+the obsidian wall~
+~
+~
+portal R P
+0 0 0 6103 0
+0 100 0 P
+#4906
+pyramid~
+the obsidian wall~
+~
+~
+portal R P
+0 0 0 8701 0
+0 100 0 P
+#4907
+bowl pus~
+a bowl of pus~
+A large bowl of rancid pus is attracting flies.~
+stone~
+fountain OR 0
+0 0 'pus' 0 1
+0 100 0 P
+#4908
+small hand axe~
+A small hand axe~
+A small dwarven hand axe has been thrown to the ground.~
+mithril~
+weapon 0 AN
+axe 1 7 divine 0
+1 50 100 G
+A
+18 -2
+A
+31 1
+#4909
+Shadow axe~
+A shadow axe~
+The Shadow of an huge axe is cast on the nearby wall~
+blood~
+weapon AI AN
+axe 3 5 shock CF
+10 30 400 P
+A
+31 2
+A
+32 -5
+#4910
+Great war axe~
+The great war axe~
+A great axe of the dwarven warriors is on the ground.~
+iron~
+weapon AB AN
+axe 3 8 mblast DH
+20 150 1000 A
+A
+32 1
+A
+31 1
+A
+30 1
+#4911
+flaming battle axe~
+a flaming battle axe~
+A burning battle axe is on the ground, maybe just a bit too hot to touch.~
+silver~
+weapon EM AN
+axe 5 5 flame ADF
+30 170 1500 P
+A
+20 -3
+A
+30 2
+F
+A 0 0 J
+#4912
+Petrified axe gods~
+a petrified axe of the gods~
+There is petrified tree growing here, cut into shape of an axe pointing towards sky.~
+wood~
+weapon GH AN
+axe 5 7 divine HI
+40 120 1800 P
+A
+31 2
+A
+1 2
+A
+20 -5
+#4913
+Destroyer~
+Destroyer~
+There is huge axe used by the very best of the dwarven nation on the ground~
+silver~
+weapon HTYd AN
+axe 6 7 flbite ACDFN
+50 100 2200 P
+A
+19 2
+A
+18 2
+A
+32 3
+A
+1 3
+A
+20 10
+#0
+
+#ROOMS
+#4900
+A dark cave~
+The light from the hole in the ceiling does little to brighten this cave.
+Small torches are lit along the walls, but they only make the shadows deeper
+rather than chase them away. The floor of the cavern is covered in muck and
+slime, making your footing unsteady. Foul smells best left unknown turn your
+stomach and leave you feeling dizzy. As you look around what could only be
+described as a living hell, one thought enters your mind - Home sweet home.
+ 
+The cavern continues into darkness south of you. A large crack, just big
+enough for a goblin to fit through, is in the west wall.
+~
+0 DK 0
+D2
+Exit ~
+door~
+16384 0 4902
+D3
+Exit ~
+door~
+16384 0 4901
+D5
+Exit ~
+door~
+16384 0 4904
+S
+#4901
+A crack in the wall~
+This crack is filled to capacity with junk. A tall goblin stands between
+you and the collection of odd items. Judging from his clothing and very
+large money chest, he's a peddler of some sort.
+~
+0 DK 0
+D1
+Exit ~
+door~
+16384 0 4900
+S
+#4902
+The big cave~
+This huge cavern is the headquarters of Legion. The rough stone walls are
+covered in graffiti of every type imaginable. The floor is covered in mud,
+slime, blood, and who knows what else, sometimes to a depth of a foot. Dead
+and rotting corpses are thrown every which way, some of which appear half
+eaten. Broken dishes, weapons, and bones are strewn about carelessly.
+ 
+Here and there, you can see goblins in varying states of health, from those
+just sleeping to skeletons. Quite a few appear drunk to the world, while
+others must be brain-dead from either alcohol or repeated beatings.
+ 
+Staring at all this, the thought comes to you, "Did I miss the party?"
+~
+0 DK 0
+D0
+Exit ~
+door~
+16384 0 4900
+D1
+Exit ~
+door~
+16384 0 4903
+D5
+Exit ~
+door~
+16384 0 4905
+S
+#4903
+The slime pit~
+This bowl-shaped room sinks to about 2 feet below the outer edges. This
+depression is completely filled with some sort of ooze. The smell rising
+from the gunk is horrendous, nauseating, and oh so sweet! You wade in and
+find a place not occupied, or throw someone out of the way, and settle down
+into the putrid slime, until just your head is above the top layer of scum.
+Instantly, your body starts to tingle as the slime seeps into your pores,
+healing your shattered bones and cut body, mending the punishment you've 
+taken from monsters, enemies, and most of your immediate family.
+ 
+Life couldn't get any better.
+~
+0 DK 0
+H 200 M 200
+D3
+Exit ~
+door~
+16384 0 4902
+S
+#4904
+Legion portal room~
+You are standing in a hot stinky section of the cave, it seems to glow
+with magic. The walls are all cut smooth, and look like they are made
+of obsidian. There is a very unstable looking ladder leading out
+of this room, although it looks like nobody but a goblin could climb
+it without having it break. Also, you notice a small sign on the north
+wall, written on it some barely readable scribblings.
+~
+0 DK 0
+D4
+Exit ~
+door~
+16384 0 4900
+E
+sign~
+Deeze portulz cud tak yu tu deh fulluw'un placez:
+Deh City uv Drow        'enter drow'
+Deh Elemuntul Canyun    'enter canyon'
+Haon Dur                'enter haon'
+Deh Greeat Pyramud      'enter pyramid'
+~
+S
+#4905
+The Planning Room~
+This part of the cave is a mess of papers and books. It looks as
+though a tornado went through a library. In the center of the room 
+there is a rickety looking table, made from old rotting wood.
+The walls and floor are covered in filth, much like the rest of the
+cave. There is an air of thought in this room, for it is where all
+of the Legion's leaders come to discuss what to do about different
+clan affairs.
+~
+0 DJK 0
+D4
+Exit ~
+door~
+16384 0 4902
+S
+#0
+
+#RESETS
+O 0 4906 100 4904	* the obsidian wall
+O 0 4905 100 4904	* the obsidian wall
+O 0 4904 100 4904	* the obsidian wall
+O 0 4903 100 4904	* the obsidian wall
+M 0 4900   1 4902  1	* a goblin crone
+O 0 4901 100 4902	* a trickle of water
+O 0 4900 100 4902	* a big hole
+O 0 4907 100 4903	* a bowl of pus
+M 0 4901   1 4901  1	* Hekklokk
+G 1 4909  -1     	*   A shadow axe
+G 1 4910  -1     	*   The great war axe
+G 1 4911  -1     	*   a flaming battle axe
+G 1 4912  -1     	*   a petrified axe of the gods
+G 1 4913  -1     	*   Destroyer
+G 1 4908  -1     	*   A small hand axe
+G 1 4902  -1     	*   a handfull of gunk
+G 1 3281  -1     	*   a potion of sanctuary
+G 1 3282  -1     	*   a potion of divine protection
+G 1 4426  -1     	*   a potion of negation
+G 1 4420  -1     	*   a potion of cure serious wounds
+G 1 4421  -1     	*   a potion of cure critical wounds
+G 1 4414  -1     	*   a scroll of recall
+G 1 4412  -1     	*   a scroll of identify
+G 1 4428  -1     	*   a potion of true sight
+D 0 4901   1 16384	* A crack in the wall east
+S
+
+#SHOPS
+4901 10  0  0  0  0 	1000 100 	 0 23 	* Hekklokk
+0
+
+#SPECIALS
+M 4900 spec_cast_adept     	* a goblin crone
+S
+
+#$

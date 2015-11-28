@@ -3,34 +3,41 @@ Name Gregory~
 SurN Blackthorne~
 Id   999318164
 Email (null)~
-LogO 1107817100
-Vers 31
+LogO 1403913134
+Vers 33
 LnD  A Gladiator~
 Desc The only thing you fear more than Gregory, is the wrath of the {YAlmighty{x
 as he stares you down, making you feel inferior somewhat..
 ~
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+Prom {%h/%Hhp %m/%Mmana %v/%Vmv %Xxp $%g *%S %w/%Wlbs ~
 Race yinn~
 Clan zealot~
 Outc 0
-RufT 363
+RufT 499
 MatookT 0
 SkPTimer 0
-SkPTracker 4
+SkPTracker 0
 LogoutTracker 0
 Kill 16 28 4 9
 Steal 0 0 0
+MSteal 0
 LstK Baelem~
 LstKBy Nerull~
 LstAtkedBy Vans~
-LstAtkedByTimer 13037
-LstCombatDate 1103092266
+LstAtkedByTimer 12525
+LstCombatDate 1390962667
 LstKillDate 1103090745
 LstDeathDate 1080279747
-LoginsWOKill 1
-LoginsWODeath 6
-LoginsWOCombat 0
+LoginsWOKill 28
+LoginsWODeath 33
+LoginsWOCombat 1
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 127527 almighty~
 DeityT -1516 almighty~
 Sac  300
@@ -40,50 +47,50 @@ Node 0
 Cap 0
 Created 999318173
 Glad 0 2 0 0 1 0
-LastHost 65.31.195.196~
+LastHost 50.65.43.6~
 Cla  9
 Kit wyrmslayer~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 271884
-Not  1103090954 1103090954 1103090954 1103090954 1103090954 1103090954 1103090954 1103090954 1103090954 1103090954
+Plyd 292784
+Not  1327848993 1311087410 1311087410 1343075803 1311087410 1311087410 1311087410 1385305178 1311087410 1311087410
 Scro 22
 Rank 3
-Room 31816
-HMV  1567 1567 381 381 515 515
-Gold 106
-Silv 301
+Room 9168
+HMV  1566 1572 406 406 515 515
+Gold 24
+Silv 115
 Exp  471856
 Act  CDGHJQS
 MHSF RSUX
-AfBy DFJNPc
-Comm IS
-Disp FIJLN
+AfBy CDEFHJLNTce
+Comm IRS
+Disp BFIJLN
 IcgB 0
 Icg 0
 Wizn W
 Pnet ABCDEFGHI
 Pos  8
-Prac 24
-SkiP 33
-Save  -17
-Alig  917
-Hit   37
-Dam   38
-SecHit   32
-SecDam   33
-ACs 49 49 49 76
+Prac 30
+SkiP 100
+Save  -19
+Alig  -1000
+Hit   47
+Dam   56
+SecHit   37
+SecDam   46
+ACs -47 -47 -47 -19
 Wimp  10
-Attr 23 19 19 22 22 16 16 13
-AMod 4 3 3 2 5 0 0 0
-Pass GrrV6f1ktHVHE~
+Attr 23 19 19 22 22 14 14 17
+AMod 6 0 0 1 2 0 0 0
+Pass Gramd9X4jUuNg~
 Titl , {CPOOCHIE{x of {YZealot{x!!!~
 Pnts 97
 TSex 1
 LLev 51
 HMVP 1317 381 480
-Cnd  0 0 42 10
+Cnd  0 16 37 30
 Alias qq scan~
 Alias 1 put all back~
 Alias hi murder~
@@ -91,9 +98,13 @@ Alias ss order all rescue gregory~
 Alias kk throw calais~
 Alias die order all kill~
 Alias tenoch 2s, 21e, 5s, 1d, 13w, 4n, 1w, 2n'~
+Alias x throw cal~
+Alias xx loot all cor~
+Alias k murder~
+Alias z throw~
 Spz 'dagger'
 Sk 1 'aid'
-Sk 75 'annointment'
+OldSk 75 'annointment'
 Sk 72 'armor'
 Sk 1 'bestow holiness'
 Sk 95 'bless'
@@ -114,12 +125,12 @@ Sk 71 'farsight'
 Sk 94 'feast'
 Sk 75 'fireproof'
 Sk 74 'fly'
-Sk 81 'frenzy'
+Sk 82 'frenzy'
 Sk 91 'gate'
 Sk 80 'giant strength'
-Sk 90 'haste'
+Sk 93 'haste'
 Sk 1 'holy word'
-Sk 76 'identify'
+Sk 82 'identify'
 Sk 1 'infravision'
 Sk 1 'knock'
 Sk 1 'know alignment'
@@ -128,13 +139,13 @@ Sk 1 'nexus'
 Sk 76 'pass door'
 Sk 1 'portal'
 Sk 91 'protection evil'
-Sk 79 'protection good'
+Sk 82 'protection good'
 Sk 71 'protection neutral'
 Sk 73 'refresh'
 Sk 77 'remove curse'
 Sk 1 'sacred guardian'
 Sk 97 'sanctuary'
-Sk 75 'shield'
+Sk 77 'shield'
 Sk 71 'stone skin'
 Sk 72 'summon'
 Sk 63 'teleport'
@@ -183,50 +194,147 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'sneak'   0  41  22   0   0      32768
-Affc 'giant strength'   0  43  27   4   1          0
-Affc 'daetok'   0  49   0   5  18          0
+Affc 'armor'   0  41   4 -20  17          0
+Affc 'shield'   0  41  22 -20  17          0
+Affc 'stone skin'   0  34  14 -40  17          0
+Affc 'detect invis'   0  43  15   0   0          8
+Affc 'detect hidden'   0  39  14   0   0         32
+Affc 'detect magic'   0  42  15   0   0         16
+Affc 'detect good'   0  42  14   0   0          4
+Affc 'protection evil'   0  41   2  -1  24       8192
+Affc 'giant strength'   0  38  15   4   1          0
+Affc 'bless'   0  39  21   5  18          0
+Affc 'bless'   0  41  21  -5  24          0
+Affc 'withstand death'   0  44   2   0   0 1073741824
+Affc 'daetok'   0  47   0   5  18          0
 Affc 'daetok'   0  47   0   5  19          0
-Affc 'frenzy'   0  42   3   7  18          0
-Affc 'frenzy'   0  42   3   7  19          0
-Affc 'frenzy'   0  40   3  30  17          0
-Affc 'bless'   0  43  47   5  18          0
-Affc 'bless'   0  44  47  -5  24          0
-Affc 'protection evil'   0  45  23  -1  24       8192
-Affc 'detect invis'   0  45  45   0   0          8
+Affc 'frenzy'   0  42   5   7  18          0
+Affc 'frenzy'   0  41   5   7  19          0
+Affc 'frenzy'   0  42   5  30  17          0
+Affc 'sanctuary'   0  44   1   0   0        128
+Affc 'morph'   0  50   0   0   0       2048
 End
 
 #O
-Vnum 1345
+Vnum 20818
 Nest 0
-PrevOwner Gregory~
-Cond 0
-Wear 12
-Cost 0
-End
-
-#O
-Vnum 5934
-Nest 1
-PrevOwner Gregory~
+PrevOwner Cannibal~
 Cond 0
 Wear -1
 Cost 4000
 End
 
 #O
-Vnum 18115
-Nest 1
-PrevOwner Gregory~
+Vnum 2427
+Enchanted
+Nest 0
+PrevOwner Cannibal~
 Cond 0
-Wear -1
-Cost 3800
+Wear 9
+Cost 2300
+Affc 'reserved'   0  45  -1   0   0         32
+Affc 'reserved'   1  45  -1  -2  20          0
+Affc 'reserved'   1  45  -1   2   2          0
 End
 
 #O
-Vnum 4438
-Nest 1
-PrevOwner Gregory~
+Vnum 5934
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 5913
+Nest 0
+PrevOwner Cannibal~
+ExtF 134217728
+Wt   180
+Cond 0
+Wear 7
+Cost 2000
+Val  7 7 7 4 4
+End
+
+#O
+Vnum 12001
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear 8
+Cost 0
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 8544
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear 15
+Cost 9999
+End
+
+#O
+Vnum 8544
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear 14
+Cost 9999
+End
+
+#O
+Vnum 20801
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear 5
+Cost 10000
+End
+
+#O
+Vnum 11145
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear 18
+Cost 4500
+End
+
+#O
+Vnum 12086
+Nest 0
+PrevOwner Cannibal~
+Damaged 100
+Cond 0
+Wear -1
+Cost 12345
+End
+
+#O
+Vnum 1345
+Nest 0
+PrevOwner Cannibal~
 Cond 0
 Wear -1
 Cost 0
@@ -242,43 +350,7 @@ Cost 5600
 End
 
 #O
-Vnum 10450
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 5743
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5710
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
 Vnum 104
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3715
 Nest 1
 PrevOwner Gregory~
 Cond 0
@@ -293,43 +365,6 @@ PrevOwner Gregory~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 8500
-Spell 3 'remove curse'
 End
 
 #O
@@ -339,15 +374,6 @@ PrevOwner Gregory~
 Cond 0
 Wear -1
 Cost 11800
-End
-
-#O
-Vnum 5706
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2000
 End
 
 #O
@@ -378,34 +404,6 @@ Cost 1400
 End
 
 #O
-Vnum 6406
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 19700
-End
-
-#O
-Vnum 10417
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 7500
-End
-
-#O
-Vnum 16611
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 11500
-Spell 3 'demonfire'
-End
-
-#O
 Vnum 16611
 Nest 1
 PrevOwner Gregory~
@@ -422,24 +420,6 @@ PrevOwner Gregory~
 Cond 0
 Wear -1
 Cost 6200
-End
-
-#O
-Vnum 20731
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 6200
-End
-
-#O
-Vnum 18912
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 4800
 End
 
 #O
@@ -470,76 +450,12 @@ Cost 6400
 End
 
 #O
-Vnum 20740
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 15227
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 20000
-End
-
-#O
-Vnum 2405
-Nest 1
-PrevOwner Gregory~
-ExtF 17694977
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 3375
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3375
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3375
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 18110
 Nest 1
 PrevOwner Gregory~
 Cond 0
 Wear -1
 Cost 2400
-End
-
-#O
-Vnum 28057
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -571,231 +487,12 @@ Cost 0
 End
 
 #O
-Vnum 10425
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 5300
-Val  53 10 8 58 0
-Spell 3 'cure poison'
-End
-
-#O
-Vnum 15227
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 20000
-End
-
-#O
-Vnum 23504
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 23504
-Enchanted
-Nest 1
-PrevOwner Gregory~
-ExtF 537395267
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-End
-
-#O
 Vnum 9107
 Nest 1
 PrevOwner Gregory~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 18106
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 12014
-Enchanted
-Nest 1
-PrevOwner Gregory~
-ExtF 322
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   0  52  -1  12  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-End
-
-#O
-Vnum 23123
-Nest 1
-PrevOwner Gregory~
-Stolen 772
-Cond 0
-Wear -1
-Cost 4125
-End
-
-#O
-Vnum 18105
-Nest 1
-PrevOwner Gregory~
-ExtF 3
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 18150
-Enchanted
-Nest 1
-PrevOwner Gregory~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
-Vnum 8058
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'burning hands'
-End
-
-#O
-Vnum 8058
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'burning hands'
-End
-
-#O
-Vnum 8058
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'burning hands'
-End
-
-#O
-Vnum 8058
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'burning hands'
-End
-
-#O
-Vnum 8058
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'burning hands'
-End
-
-#O
-Vnum 8058
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'burning hands'
-End
-
-#O
-Vnum 8058
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'burning hands'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
 End
 
 #O
@@ -806,33 +503,6 @@ ExtF 98
 Cond 0
 Wear -1
 Cost 15300
-End
-
-#O
-Vnum 4433
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 4433
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 23503
-Nest 1
-PrevOwner Gregory~
-Cond 0
-Wear -1
-Cost 1600
 End
 
 #O
@@ -847,23 +517,23 @@ Cost 2500
 End
 
 #O
-Vnum 2205
+Vnum 16611
 Nest 1
 PrevOwner Gregory~
-ExtF 256
 Cond 0
 Wear -1
-Cost 0
+Cost 11500
+Val  25 2 1 65 0
+Spell 3 'demonfire'
 End
 
 #O
-Vnum 18119
+Vnum 20731
 Nest 1
 PrevOwner Gregory~
-ExtF 96
 Cond 0
 Wear -1
-Cost 4500
+Cost 6200
 End
 
 #O
@@ -886,82 +556,324 @@ Cost 500000
 End
 
 #O
-Vnum 2427
-Enchanted
-Nest 0
+Vnum 18912
+Nest 1
 PrevOwner Gregory~
 Cond 0
-Wear 9
-Cost 2300
-Affc 'reserved'   0  45  -1   0   0         32
-Affc 'reserved'   1  45  -1  -2  20          0
-Affc 'reserved'   1  45  -1   2   2          0
+Wear -1
+Cost 4800
 End
 
 #O
-Vnum 5934
-Nest 0
+Vnum 5743
+Nest 1
 PrevOwner Gregory~
 Cond 0
-Wear 5
-Cost 4000
+Wear -1
+Cost 0
 End
 
 #O
-Vnum 5913
-Nest 0
+Vnum 18115
+Nest 1
 PrevOwner Gregory~
-ExtF 134217728
-Wt   180
 Cond 0
-Wear 7
-Cost 2000
-Val  7 7 7 4 4
+Wear -1
+Cost 3800
 End
 
 #O
-Vnum 2332
+Vnum 12008
 Nest 0
-PrevOwner Gregory~
+PrevOwner Cannibal~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12010
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 12007
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8543
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear 10
+Cost 4250
+End
+
+#O
+Vnum 17648
+Nest 0
+PrevOwner Cannibal~
 Cond 0
 Wear 13
-Cost 7600
-End
-
-#O
-Vnum 5914
-Nest 0
-PrevOwner Gregory~
-ExtF 134217792
-Wt   45
-Cond 0
-Wear 6
 Cost 4000
-Val  7 7 7 4 4
 End
 
 #O
-Vnum 2505
-Nest 0
+Vnum 2405
+Nest 1
 PrevOwner Gregory~
+ExtF 17694977
 Cond 0
-Wear 15
-Cost 1150
+Wear -1
+Cost 1000
 End
 
 #O
-Vnum 23515
-Nest 0
+Vnum 10440
+Nest 1
 PrevOwner Gregory~
 Cond 0
-Wear 2
-Cost 7609
+Wear -1
+Cost 8500
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 20740
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8063
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 8063
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 8063
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 8063
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 23504
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 10425
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 5300
+Val  53 10 8 61 0
+Spell 3 'cure poison'
+End
+
+#O
+Vnum 6406
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 19700
+End
+
+#O
+Vnum 16638
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 6372
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 18106
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 10450
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 11096
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 1
+PrevOwner Gregory~
+ExtF 537395267
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+End
+
+#O
+Vnum 2447
+Enchanted
+Nest 1
+PrevOwner Gregory~
+ExtF 786499
+Cond 0
+Wear -1
+Lev  50
+Cost 150
+Val  2 7 5 2 8
+Affc 'reserved'   1  42  -1  15  12          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 15227
+Nest 1
+PrevOwner Gregory~
+Cond 0
+Wear -1
+Cost 20000
 End
 
 #O
 Vnum 23514
 Nest 0
-PrevOwner Gregory~
+PrevOwner Cannibal~
 Cond 0
 Wear 4
 Cost 3690
@@ -970,7 +882,7 @@ End
 #O
 Vnum 23514
 Nest 0
-PrevOwner Gregory~
+PrevOwner Cannibal~
 Cond 0
 Wear 3
 Cost 3690
@@ -979,7 +891,7 @@ End
 #O
 Vnum 23515
 Nest 0
-PrevOwner Gregory~
+PrevOwner Cannibal~
 Cond 0
 Wear 1
 Cost 7609
@@ -988,7 +900,7 @@ End
 #O
 Vnum 2405
 Nest 0
-PrevOwner Gregory~
+PrevOwner Cannibal~
 Name Azorak Healing Chopstick~
 ShD  {RA{Bz{Go{Yr{Wa{Ck {RH{Be{Ga{Yl{Mi{Wn{Cg {MC{Rh{Bo{Gp{Ys{Wt{Ci{Mc{Rk{Bs{x~
 Desc These chopsticks give Azorak the power to heal all you dumb incap lowbies!~
@@ -999,18 +911,72 @@ Cost 1000
 End
 
 #O
+Vnum 10336
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 5914
+Nest 0
+PrevOwner Cannibal~
+ExtF 134217792
+Wt   45
+Cond 0
+Wear 6
+Cost 4000
+Val  7 7 7 4 4
+End
+
+#O
+Vnum 18150
+Enchanted
+Nest 0
+PrevOwner Cannibal~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 2205
+Nest 0
+PrevOwner Cannibal~
+ExtF 256
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
 Vnum 22504
 Nest 0
-PrevOwner Gregory~
+PrevOwner Cannibal~
 Cond 0
 Wear 0
 Cost 0
 End
 
 #O
+Vnum 23515
+Nest 0
+PrevOwner Cannibal~
+Cond 0
+Wear 2
+Cost 7609
+End
+
+#O
 Vnum 3050
 Nest 0
-PrevOwner Gregory~
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 400
@@ -1019,7 +985,7 @@ End
 #O
 Vnum 3050
 Nest 0
-PrevOwner Gregory~
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 400
@@ -1028,70 +994,170 @@ End
 #O
 Vnum 3050
 Nest 0
-PrevOwner Gregory~
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 400
 End
 
 #O
-Vnum 3050
+Vnum 10407
 Nest 0
-PrevOwner Gregory~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 400
+Cost 4800
 End
 
 #O
-Vnum 3050
+Vnum 10406
 Nest 0
-PrevOwner Gregory~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 400
+Cost 3900
 End
 
 #O
-Vnum 12001
+Vnum 23503
+Enchanted
 Nest 0
-PrevOwner Nerull~
+PrevOwner SixPack~
+ExtF 66
 Cond 0
-Wear 8
-Cost 0
+Wear -1
+Lev  50
+Cost 800
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
-Vnum 12010
-Nest 0
-PrevOwner Popp~
-Cond 0
-Wear 18
-Cost 15000
-End
-
-#O
-Vnum 10336
+Vnum 18119
 Nest 0
 PrevOwner Gregory~
+ExtF 96
 Cond 0
-Wear 11
-Cost 4000
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 4822
+Nest 0
+PrevOwner (null)~
+Damaged 44
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 10308
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10415
+Nest 0
+PrevOwner Vartan~
+Cond 0
+Wear -1
+Cost 5400
+End
+
+#O
+Vnum 15231
+Nest 0
+PrevOwner Vartan~
+Cond 0
+Wear -1
+Cost 8000
 End
 
 #O
 Vnum 22552
 Enchanted
 Nest 0
-PrevOwner Gregory~
+PrevOwner Vartan~
 ExtF 67
 Cond 0
 Wear 16
 Cost 0
-Val  2 10 4 39 10
+Val  2 10 4 39 14
+Affc 'enchant weapon'   1  55  -1  10  19          0
+Affc 'enchant weapon'   0  55  -1  10  18          0
 Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'enchant weapon'   0  55  -1   5  18          0
-Affc 'enchant weapon'   1  55  -1   5  19          0
+End
+
+#O
+Vnum 4822
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 10320
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 9500
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Nike~
+Name idol statue~
+ShD  A Nike Idol~
+Desc a Jewelled Statue of Nike The Assassin of Assassin's is here.~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 15227
+Nest 0
+PrevOwner Gregory~
+Cond 0
+Wear 12
+Cost 20000
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
 End
 
 #END

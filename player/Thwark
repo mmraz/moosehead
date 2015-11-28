@@ -2,7 +2,7 @@
 Name Thwark~
 Id   1006486674
 Email (null)~
-LogO 1046473147
+LogO 1308532019
 Vers 31
 LnD  A Gladiator~
 Prom <%hhp %mmp %vmv %Ssac %gg 5ss %Xexp %e> ~
@@ -11,7 +11,7 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 9
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -34,21 +34,21 @@ Vump  0
 Node 0
 Cap 0
 Created 1006486679
-Glad 0 2 0 0 1 0
-LastHost 207.164.207.246~
+Glad 1 4 0 0 2 0
+LastHost 184.175.2.131~
 Cla  3
 ClaO 3
 Levl 1
 DLevl 0
-Plyd 17377
+Plyd 18137
 Not  1046386479 1046456047 1046386479 1046386479 1046386479 1046467804 1046386479 1046423258 1046386479 1046386479
 Scro 22
 Rank 0
 Room 3054
-HMV  145 145 60 60 200 200
-Gold 23
+HMV  140 140 60 60 200 200
+Gold 66
 Silv 98
-Exp  14673
+Exp  15630
 Act  CDEFGHKQ
 MHSF R
 Comm 0
@@ -56,6 +56,7 @@ Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
+Trai 2
 SkiP 9
 Save  -6
 Alig  1000
@@ -63,17 +64,17 @@ Hit   5
 Dam   3
 SecHit   5
 SecDam   2
-ACs 52 43 45 75
+ACs 53 42 44 75
 Wimp  17
-Attr 20 11 12 11 20 13 13 13
-AMod 2 2 3 2 0 0 0 0
+Attr 20 11 12 11 20 11 14 13
+AMod 2 -1 3 2 1 0 0 0
 Pass Th92jlpG.W4wo~
 Titl  screams "Thwaaaaaaaaaaaaaaaaaaaaark"~
 Pnts 95
 TSex 1
 LLev 1
 HMVP 120 100 100
-Cnd  0 0 3 6
+Cnd  0 4 40 32
 Alias b bash~
 Alias graz grats ThwaaaaaaaaaaaaaaaaaaarK!!!~
 Alias aa put all sat~
@@ -137,9 +138,9 @@ Gr 'weaponsmaster'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'bless'   0  44  45  -5  24          0
-Affc 'bless'   0  43  45   5  18          0
-Affc 'armor'   0  44  29 -20  17          0
+Affc 'bless'   0  43  48  -5  24          0
+Affc 'bless'   0  44  48   5  18          0
+Affc 'armor'   0  35  24 -20  17          0
 End
 
 #O
@@ -226,24 +227,6 @@ Cost 310
 End
 
 #O
-Vnum 3054
-Nest 1
-PrevOwner Thwark~
-Cond 0
-Wear -1
-Cost 220
-End
-
-#O
-Vnum 3715
-Nest 1
-PrevOwner Thwark~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
 Vnum 3021
 Nest 1
 PrevOwner Thwark~
@@ -280,12 +263,57 @@ Cost 0
 End
 
 #O
-Vnum 4440
-Nest 0
+Vnum 3713
+Nest 1
 PrevOwner Thwark~
 Cond 0
-Wear 13
+Wear -1
+Cost 48
+End
+
+#O
+Vnum 3710
+Nest 1
+PrevOwner Thwark~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3709
+Nest 1
+PrevOwner Thwark~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Thwark~
+Cond 0
+Wear -1
 Cost 0
+End
+
+#O
+Vnum 4440
+Nest 1
+PrevOwner Thwark~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9520
+Nest 1
+PrevOwner Thwark~
+Cond 0
+Wear -1
+Cost 250
 End
 
 #O
@@ -304,15 +332,6 @@ PrevOwner Thwark~
 Cond 0
 Wear 2
 Cost 5
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Thwark~
-Cond 0
-Wear -1
-Cost 400
 End
 
 #O
@@ -397,15 +416,6 @@ Cost 10
 End
 
 #O
-Vnum 9520
-Nest 0
-PrevOwner Thwark~
-Cond 0
-Wear 11
-Cost 250
-End
-
-#O
 Vnum 9518
 Nest 0
 PrevOwner Thwark~
@@ -439,49 +449,40 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 86 0 0
+Val  0 0 66 0 0
 End
 
 #O
-Vnum 12007
+Vnum 3050
+Nest 0
+PrevOwner Thwark~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3054
+Nest 0
+PrevOwner Thwark~
+Cond 0
+Wear 13
+Cost 220
+End
+
+#O
+Vnum 3715
 Nest 0
 PrevOwner Thwark~
 Cond 0
 Wear 17
-Cost 0
+Cost 1140
 End
 
 #O
 Vnum 3050
 Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner (null)~
+PrevOwner Catharcys~
 Cond 0
 Wear -1
 Cost 400

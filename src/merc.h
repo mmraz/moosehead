@@ -16,6 +16,29 @@
  ***************************************************************************/
 /* $Id: merc.h,v 1.406 2004/10/25 02:48:45 boogums Exp $"; */
 #define unix
+
+#if     defined(_AIX)
+#if     !defined(const)
+#define const
+#endif
+typedef int                             sh_int;
+typedef int                             bool;
+#define unix
+#else
+typedef short   int                     sh_int;
+typedef unsigned char                   bool;
+#endif
+
+/*
+ * Function types.
+ */
+#define args( list )                    list
+typedef struct  char_data               CHAR_DATA;
+typedef void DO_FUN     args( ( CHAR_DATA *ch, char *argument ) );
+typedef bool SPEC_FUN   args( ( CHAR_DATA *ch ) );
+typedef void SPELL_FUN  args( ( int sn, int level, CHAR_DATA *ch, void *vo,
+        int target ) );
+typedef void MENU_FUN   args( ( CHAR_DATA *ch, int menu_id ) );        
 /*
  *  Accommodate old non-Ansi compilers.
  */
@@ -26,7 +49,6 @@
 #define DECLARE_SPEC_FUN( fun )         bool fun( )
 #define DECLARE_SPELL_FUN( fun )        void fun( )
 #else
-#define args( list )                    list
 #define DECLARE_DO_FUN( fun )           DO_FUN    fun
 #define DECLARE_SPEC_FUN( fun )         SPEC_FUN  fun
 #define DECLARE_SPELL_FUN( fun )        SPELL_FUN fun
@@ -50,34 +72,28 @@ int system();
 #define TRUE     1
 #endif
 
-#if     defined(_AIX)
-#if     !defined(const)
-#define const
-#endif
-typedef int                             sh_int;
-typedef int                             bool;
-#define unix
-#else
-typedef short   int                     sh_int;
-typedef unsigned char                   bool;
-#endif
-
-
 
 /*
  * Structure types.
  */
+typedef struct plan_exit_data PLAN_EXIT_DATA;
+typedef struct alliance_data ALLIANCE_DATA;
+typedef struct clan_data CLAN_DATA;
+typedef struct clan_char CLAN_CHAR;
+typedef struct  merit_tracker           MERIT_TRACKER;
+typedef struct  plan_data               PLAN_DATA;
+typedef struct  damage_data             DAMAGE_DATA;
 typedef struct  affect_data             AFFECT_DATA;
 typedef struct  area_data               AREA_DATA;
 typedef struct  ban_data                BAN_DATA;
 typedef struct  dns_data                DNS_DATA;
 typedef struct  buf_type                BUFFER;
-typedef struct  char_data               CHAR_DATA;
 typedef struct  cstat_data              CSTAT_DATA;
 typedef struct  descriptor_data         DESCRIPTOR_DATA;
 typedef struct  exit_data               EXIT_DATA;
 typedef struct  extra_descr_data        EXTRA_DESCR_DATA;
 typedef struct  help_data               HELP_DATA;
+typedef struct  help_tracker            HELP_TRACKER;// New help code
 typedef struct  kill_data               KILL_DATA;
 typedef struct  mob_index_data          MOB_INDEX_DATA;
 typedef struct  note_data               NOTE_DATA;
@@ -92,7 +108,7 @@ typedef struct  shop_data               SHOP_DATA;
 typedef struct  time_info_data          TIME_INFO_DATA;
 typedef struct  weather_data            WEATHER_DATA;
 typedef struct  menu_item               MENU_ITEM;
-typedef struct  menu_item               MENU_DATA[];
+typedef struct  menu_item               MENU_DATA;
 typedef struct  edit_data               EDIT_DATA;
 typedef struct  macro_data              MACRO_DATA;
 typedef struct  line_data               LINE_DATA; 
@@ -102,14 +118,6 @@ typedef struct  vnum_range_data         VNUM_RANGE_DATA;
 typedef struct  card_data		CARD_DATA;
 typedef struct  recipe_data             RECIPE_DATA;
 
-/*
- * Function types.
- */
-typedef void DO_FUN     args( ( CHAR_DATA *ch, char *argument ) );
-typedef bool SPEC_FUN   args( ( CHAR_DATA *ch ) );
-typedef void SPELL_FUN  args( ( int sn, int level, CHAR_DATA *ch, void *vo,
-        int target ) );
-typedef void MENU_FUN   args( ( CHAR_DATA *ch, int menu_id ) );        
 
 /* UID of the user that the game runs as */
 #define MUD_UID	1001
@@ -194,7 +202,7 @@ Set Graphics Rendition:
 #define MAX_GIFTS		   16
 #define MAX_GIFT		    3
 #define MAX_PC_RACE                17 
-#define MAX_CLAN                   18 
+#define MAX_CLAN                   22 
 #define MAX_DEITY                  11
 #define MAX_SAC_PNTS              300
 #define MAX_OBJ_SIZE		    6
@@ -204,6 +212,7 @@ Set Graphics Rendition:
 #define LEVEL_HERO                 (MAX_LEVEL - 9)
 #define LEVEL_IMMORTAL             (MAX_LEVEL - 8)
 #define MAX_IN_RECIPE              20
+#define MAX_LIQUIDS                38
 
 #define PULSE_PER_SECOND            5
 #define PULSE_VIOLENCE            ( 3 * PULSE_PER_SECOND)
@@ -254,6 +263,170 @@ Set Graphics Rendition:
 #define ICG_BUILD	2
 #define ICG_QUEST	1
 #define ICG_NONE	0
+
+/* Pulse types */
+
+#define PULSE_RECALL 1
+#define PULSE_STEALMERIT 2
+
+/* Item rarity */
+
+#define RARITY_STOCK 1
+#define RARITY_COMMON 2
+#define RARITY_UNCOMMON 4
+#define RARITY_RARE 8
+#define RARITY_GEM 16
+#define RARITY_IMPOSSIBLE 32
+#define RARITY_ALL 63
+#define RARITY_LOOTED 64 /* Just needs to be highest */
+
+/* Live edit defines */
+
+#define PLAN_ROOM    1
+#define PLAN_MOB     2
+#define PLAN_ITEM    4
+#define PLAN_EXIT    8
+#define PLAN_MASK_TYPE 15
+#define PLAN_PLANNED 16
+#define PLAN_PLACED 32
+#define PLAN_PREVIEWED 64
+
+/* Room type flags */
+#define PLAN_ROOM_REGEN 1
+#define PLAN_ROOM_LAB 2
+#define PLAN_ROOM_ALTAR 4
+#define PLAN_ROOM_OUTDOORS 8
+#define PLAN_ROOM_MARKED 16 /* Used for removal marking */
+#define PLAN_ROOM_DARK 32
+
+/* Mob type flags */
+#define PLAN_MOB_MERCHANT 1
+#define PLAN_MOB_HEALER 2
+#define PLAN_MOB_GOOD 4/* Neutral is default */
+#define PLAN_MOB_EVIL 8
+#define PLAN_MOB_NEUTER 16 /* Male is default */
+#define PLAN_MOB_FEMALE 32
+
+/* Item type flags */
+#define PLAN_ITEM_PORTAL 1
+#define PLAN_ITEM_DRINK 2
+#define PLAN_ITEM_FURNITURE 4
+#define PLAN_ITEM_DOODAD 8
+#define PLAN_ITEM_FOUNTAIN 16
+#define PLAN_ITEM_PIT 32
+#define PLAN_MASK_OBJ 63
+#define PLAN_ITEM_HIDDEN 64
+
+#define PLAN_EXIT_CLOSABLE 1
+#define PLAN_EXIT_LOCKABLE 2
+#define PLAN_EXIT_NOPICK 4
+#define PLAN_EXIT_HIDDEN 8
+#define PLAN_EXIT_CLOSED 16
+#define PLAN_EXIT_LOCKED 32
+#define PLAN_EXIT_NOPASS 64
+
+/* To add new defines, any ranges need to be continuous.  Otherwise they may be
+ * added at the end regardless of what the value is for. */
+/* Existing values may be changed, but be VERY CAREFUL incrementing all the
+ * others - they must not overlap, and they must line up with the table define
+ * in const.c */ 
+#define PRICE_ROOM        0
+#define PRICE_R_REGEN     1
+/* Regen values: 100-200% at 25% per = 4
+ * 200%-300% at 10% per = 10.  14 */
+#define PRICE_R_REGEN_MID 4 /* Cutoff for calculation shift */
+#define PRICE_R_REGEN_END 14
+#define PRICE_R_REGEN_COUNT 14 /* Count of them, not index locked */
+#define PRICE_LAB         15
+#define PRICE_LAB_END     19 /* 5 lab types */
+#define PRICE_LAB_COUNT   3 //5 /* Temporary lowering */
+#define PRICE_ALTAR       20
+#define PRICE_ALTAR_END   24 /* 5 altar types */
+#define PRICE_ALTAR_COUNT 5
+#define PRICE_ITEM        25 /* Generic item, probably cost 0 */
+#define PRICE_FURNITURE   26
+#define PRICE_F_REGEN     27
+#define PRICE_F_REGEN_END 30
+#define PRICE_F_REGEN_COUNT 4 /* 4 regen upgrades to furniture */
+#define PRICE_FOUNTAIN    31
+#define PRICE_PIT         32
+#define PRICE_PORTAL      33
+#define PRICE_DOODAD      34
+#define PRICE_DRINK       35
+#define PRICE_MOB         36 /* Generic mob, probably cost 0 */
+#define PRICE_HEALER      37
+#define PRICE_H_LEVEL     38
+#define PRICE_H_LEVEL_END 52 /* 15 levels of healer upgrades */
+#define PRICE_H_LEVEL_COUNT 15
+#define PRICE_MERCHANT    53
+#define PRICE_M_ITEM      54
+#define PRICE_M_DISCOUNT  55
+#define PRICE_M_DISCOUNT_END 59 /* 5 levels of discounts */
+#define PRICE_M_DISCOUNT_COUNT 5
+#define PRICE_EXIT        60 /* Basic exit price */
+#define PRICE_E_CLOSABLE  61 /* Exit settings */
+#define PRICE_E_LOCKABLE  62
+#define PRICE_E_NO_PICK   63
+#define PRICE_E_HIDDEN    64 /* Price to hide an exit */
+#define PRICE_LINK  65 /* Price to add a link between rooms - standard room price only includes one exit */
+#define PRICE_TOTAL       66 /* Make sure this is kept up to date or the PRICE_STR macro breaks */
+/* PRICE_TOTAL should be the final value + 1 -- ie, the count */
+
+#define EDITMODE_HALL     (A)
+#define EDITMODE_PERSONAL (B)
+#define EDITMODE_DESC     (C)
+#define EDITMODE_EDIT     (D)
+#define EDITMODE_RULES    (E)
+#define EDITMODE_CHARTER  (F)
+
+/* Portal vnums */
+#define VNUM_PORTAL_HOAN 6102
+#define VNUM_PORTAL_DROW 5100
+#define VNUM_PORTAL_SANDS 5001
+#define VNUM_PORTAL_THALOS 5300
+#define VNUM_PORTAL_CANYON 9209
+#define VNUM_PORTAL_PYRAMIDS 8701
+#define VNUM_PORTAL_EMERALD 3521
+#define VNUM_PORTAL_ATLANTIS 2318
+#define VNUM_PORTAL_CAMELOT 17676
+#define VNUM_PORTAL_THIEVES 6023
+#define VNUM_PORTAL_NEW_THALOS 9606
+
+#define HALL_TYPE_NONE 0
+#define HALL_TYPE_BASIC 1
+#define HALL_TYPE_ADVANCED 2 /* These are flags */
+#define BASE_BONUS_TRIBUTE 2000000 /* 20000 tribute */
+
+#define CLAN_FILE_VERSION 2
+
+/* Clan type defines */
+#define CLAN_ENEMY_SMALL 1
+#define CLAN_ENEMY_MEDIUM 2
+#define CLAN_ENEMY_LARGE 3
+#define CLAN_ENEMY_FIGHTER 4
+#define CLAN_ENEMY_CASTER 5
+#define CLAN_ENEMY_FLAGGED 6
+#define CLAN_ENEMY_UNFLAGGED 7
+#define CLAN_ENEMY_REMORTED 8
+#define CLAN_ENEMY_UNREMORTED 9
+#define CLAN_ENEMY_LAW 10
+#define CLAN_ENEMY_FAITH 11
+#define CLAN_ENEMY_GREED 12
+#define CLAN_ENEMY_MALICE 13
+#define CLAN_ENEMY_PEACE 14
+#define CLAN_ENEMY_CHAOS 15
+#define CLAN_ENEMY_GANG 16
+
+#define CLAN_TYPE_GANG 0
+#define CLAN_TYPE_LAW 1
+#define CLAN_TYPE_FAITH 2
+#define CLAN_TYPE_GREED 4
+#define CLAN_TYPE_MALICE 8
+#define CLAN_TYPE_PEACE 16
+#define CLAN_TYPE_CHAOS 32
+
+#define CLAN_LONER 1
+#define CLAN_OUTCAST 2
 
 /*
  * Site ban structure.
@@ -341,6 +514,21 @@ struct  weather_data
     int         sunlight;
 };
 
+/* Note and text edit related defines */
+
+#define MAX_CUSTOM_DESC 1500
+#define MAX_NOTE_DESC 4096
+
+/* Break these up based on max length allowed - these are NOT flags */
+#define LONG_EDIT_DESC 1 /* pedit or hedit long edit */
+#define LONG_EDIT_NOTE 2 /* Any kind of note */
+#define EDIT_TYPES 2 /* Update this as more are added, should be a count */
+
+#define LONG_EDIT_EDIT 1
+#define LONG_EDIT_NEWLINE 2
+#define LONG_EDIT_PARAGRAPH 4
+#define LONG_EDIT_DELETE 8
+
 
 /*
  * Connected state for a channel.
@@ -368,6 +556,7 @@ struct  weather_data
 #define CON_PREFRESH_CHAR               20 
 #define CON_TEMP_SMURF_PASSWORD         21
 #define CON_GET_SURNAME		        22
+#define CON_PICK_STATS_DEFAULT          23
 
 /* prepended to alloced memory */ 
 /* struct mem_data {
@@ -392,6 +581,7 @@ struct  descriptor_data
     char                inbuf           [4 * MAX_INPUT_LENGTH];
     char                incomm          [MAX_INPUT_LENGTH];
     char                inlast          [MAX_INPUT_LENGTH];
+    bool                input_received;
     int                 repeat;
     int                 port;
     char *              outbuf;
@@ -491,6 +681,17 @@ struct cstat_data
     sh_int	kills;
 };
     
+// New help code
+#define HELP_STAT_LEGACY 1
+#define HELP_STAT_DRAFT 2
+#define HELP_STAT_REVIEW 4
+#define HELP_STAT_FINAL 8
+#define HELP_STAT_BASICS  15 // For use before saving to strip out temp OLC flags
+// Gap for use in future saved stats if needed
+#define HELP_STAT_MODIFIED 64
+#define HELP_STAT_EDITING 128
+#define HELP_STAT_EXTRAS 192 // The ones not included in HELP_STAT_BASICS
+
 /*
  * Help table types.
  */
@@ -500,6 +701,17 @@ struct  help_data
     sh_int      level;
     char *      keyword;
     char *      text;
+    char *      related;
+    int         status;
+    time_t      modified;
+    char *      editor;
+};
+
+struct  help_tracker
+{
+    char *keyword;
+    HELP_DATA *help;
+    HELP_TRACKER *prev, *next;
 };
 
 
@@ -669,6 +881,7 @@ struct spec_type
 {
     char *      name;                   /* special function name */
     SPEC_FUN *  function;               /* the function */
+    int         bounty_difficulty;      /* For assigning a bounty to this mob */
 };
 
 
@@ -702,6 +915,20 @@ struct  note_data
 };
 
 
+/*
+ * Damage dealt
+ */ 
+struct  damage_data
+{
+  DAMAGE_DATA *      next;
+  bool               valid;
+  sh_int             duration;
+  sh_int             damage;
+  sh_int             type;
+  /* Add maladiction tracking here eventually */
+  char *             source;
+  CHAR_DATA          *temp_target;
+};
 
 /*
  * An affect.
@@ -728,6 +955,7 @@ struct  affect_data
 #define TO_VULN         4
 #define TO_WEAPON       5
 #define DAMAGE_OVER_TIME	6
+#define TO_AFFECTS_EXT	7
 
 /*
  * A kill structure (indexed by level).
@@ -771,6 +999,13 @@ struct  kill_data
 #define VNUM_HERB_JOSHUA		0
 #define VNUM_HERB_NIGHTSHADE		0
 
+#define MOB_VNUM_CLAN_GUARDIAN 14
+#define MOB_VNUM_INSANE_MIME 12
+#define MOB_VNUM_RAINBOW 13
+#define MOB_VNUM_POISON_EATER 3723
+#define MOB_VNUM_BOUNTY_ADMIN 8808
+#define MOB_VNUM_HASSAN 3011
+
 #define MOB_VNUM_FIDO              3090
 #define MOB_VNUM_CITYGUARD         3060
 #define MOB_VNUM_VAMPIRE           3404
@@ -804,6 +1039,10 @@ struct  kill_data
 #define MOB_VNUM_WATER_3           22555
 #define MOB_VNUM_ICE_DRAKE         22556
 #define MOB_VNUM_WATER_WIERD       22557
+
+// Seven deadly sins, maybe eventually includes cardinal virtues
+#define VNUM_SINS_START            20000
+#define VNUM_SINS_END              20030
 
 /* RT ASCII conversions -- used so we can have letters in this file */
 
@@ -934,6 +1173,8 @@ struct  kill_data
 #define DAM_HARM                17
 #define DAM_CHARM               18
 #define DAM_SOUND               19
+#define DAM_NEUTRAL             20
+#define DAM_VULN                21 /* Keep this at the end of the legal damages */
 
 /* alignment ranges for deities */
 #define ALIGN_NONE		0
@@ -965,6 +1206,7 @@ struct  kill_data
 #define ASSIST_VNUM             (U)
 #define OFF_CHARGE              (V)
 #define ASSIST_ELEMENT          (W)
+#define OFF_BANE_TOUCH          (X)
 
 /* return values for check_imm */
 #define IS_NORMAL               0
@@ -1107,6 +1349,12 @@ struct  kill_data
 #define PART_SCALES             (X)
 #define PART_TUSKS              (Y)
 
+/*
+ * Bits for 'affected_by_ext'.
+ */
+#define AFF_EXT_BLOODY          (A)
+#define AFF_EXT_ANNOINTMENT     (B)
+#define AFF_EXT_SHADED          (N)
 
 /*
  * Bits for 'affected_by'.
@@ -1146,6 +1394,9 @@ struct  kill_data
 #define AFF_SLOW                (dd)
 #define AFF_WITHSTAND_DEATH     (ee)
 
+// Bits for room affects (Don't save over reboot)
+#define RAFF_NATURE             (A)
+#define RAFF_SHADED             (B)
 
 /*
  * Sex.
@@ -1187,6 +1438,18 @@ struct  kill_data
  * Well known object virtual numbers.
  * Defined in #OBJECTS.
  */
+#define OBJ_VNUM_SHADE_STONE 8808
+#define OBJ_VNUM_BOUNTY_EAR 8812
+#define OBJ_VNUM_SPIRIT_LINK 3298
+#define OBJ_VNUM_CUTTING_1 3295
+#define OBJ_VNUM_CUTTING_2 3296
+#define OBJ_VNUM_CUTTING_3 3297
+#define OBJ_VNUM_SCROLL_SILENCE 33
+#define OBJ_VNUM_TINYFAVOR 3727
+#define OBJ_VNUM_LESSERFAVOR 3294
+#define OBJ_VNUM_NORMALFAVOR 9608
+#define OBJ_VNUM_GREATERFAVOR 11148
+#define OBJ_VNUM_FRACTAL                1206
 #define OBJ_VNUM_FEATHER		12063
 #define OBJ_VNUM_ASHES			12064
 #define OBJ_VNUM_AMULET			12065
@@ -1228,9 +1491,20 @@ struct  kill_data
 
 #define OBJ_VNUM_ROSE              1001
 
+#define OBJ_VNUM_BLOOD			34
+
 #define OBJ_VNUM_EGG			3007
+#define OBJ_VNUM_BRICK			3142
 #define OBJ_VNUM_SHARD	           22044		
+#define OBJ_VNUM_DIAMOND		3377
 #define OBJ_VNUM_PIT               3010
+#define OBJ_VNUM_MATOOK_PIT		15113
+#define OBJ_VNUM_DEMISE_PIT		31400
+#define OBJ_VNUM_HONOR_PIT		31500
+#define OBJ_VNUM_POSSE_PIT		31600
+#define OBJ_VNUM_ZEALOT_PIT		31800
+#define OBJ_VNUM_WARLOCK_PIT		31900
+#define OBJ_VNUM_FLUZEL_PIT		16514
 
 #define OBJ_VNUM_SCHOOL_MACE       3700
 #define OBJ_VNUM_SCHOOL_DAGGER     3701
@@ -1279,9 +1553,71 @@ struct  kill_data
 
 #define OBJ_VNUM_WHETSTONE         33
        
+/* Maladiction damage values */
+#define MALA_LESSER_DAMAGE 4
+#define MALA_NORMAL_DAMAGE 7
+#define MALA_GREATER_DAMAGE 10
 
+/* Deity favor values */
+#define FAVOR_RARITY    4
 
+#define DEITY_FAVOR_ACTIVATE  0
+#define DEITY_TRIAL_ACTIVATE  1
+#define DEITY_TRIAL_SUCCESS 2
+#define DEITY_TRIAL_FAIL_DEATH  3
+#define DEITY_TRIAL_FAIL_TIMER  4
+#define DEITY_TRIAL_FAIL_PK 5
+#define DEITY_TRIAL_FAIL_QUIT 6
+#define DEITY_TRIAL_FAIL_ABANDON 7
+#define DEITY_TRIAL_FAIL_REQS 8
 
+/* Clan guardian NPC settings */
+#define GUARDIAN_ATTACK    1
+#define GUARDIAN_ASSIST    2
+#define GUARDIAN_FOLLOW    4
+#define GUARDIAN_SNEAK     8
+#define GUARDIAN_PEACE    16
+#define GUARDIAN_SENTINEL 32
+
+/* Quest defines.  Not all quest functions use all defines. */
+#define QSTEP_MOVE 1
+#define QSTEP_WIN 2
+#define QSTEP_DRAW 3
+#define QSTEP_LOSE 4
+#define QSTEP_QUIT 5
+#define QSTEP_NPC_DEAD 6
+
+// Tasks are negative values but use the quest handler - DO NOT STORE IN quest_wins !!!
+#define TASK_POISON_EATER -1 
+#define TASK_RAINBOW -2
+#define TASK_CLAN_GUARDIAN -3
+
+// Quests, increment QUEST_COUNT as more are added
+#define QUEST_MIME 0
+#define QUEST_BOUNTY_KILL 1
+#define QUEST_BOUNTY_CLAIM 2 
+#define QUEST_COUNT 3 /* NEVER DECREMENT THIS OR YOU WILL BREAK LOADING */
+#define QUEST_UNKNOWN QUEST_COUNT // Yes, this changes - it just means we don't know which quest it is
+
+// These are referenced in this order (Including some logic/math) so if any
+// are added be sure to fix/update as needed
+#define BOUNTY_MOB_NAME 1
+#define BOUNTY_ROOM_NAME 2
+#define BOUNTY_ITEM_NAME 3
+#define BOUNTY_MOB_DESC 4
+#define BOUNTY_ROOM_DESC 5
+#define BOUNTY_ITEM_DESC 6
+
+#define BOUNTY_AWARD_STONE 1
+#define BOUNTY_AWARD_UPGRADED 2
+#define BOUNTY_AWARD_HARD 4
+#define BOUNTY_AWARD_DOWNGRADED 8
+
+/* DEBUG CODE - COMMENT OUT BEFORE LIVE */
+//#define DEITY_TRIAL_DEBUG_CODE 
+
+#define LINK_MAX 6
+#define LINK_NORMAL 5
 
 /*
  * Item types.
@@ -1324,6 +1660,7 @@ struct  kill_data
 #define ITEM_PART                    40
 #define ITEM_FORGE		     41
 #define ITEM_HERB		     42
+#define ITEM_CAPSULE                 43
 
 /*
  * Extra flags.
@@ -1362,6 +1699,8 @@ struct  kill_data
 #define ITEM_WARPED	        (bb)
 #define ITEM_TELEPORT		(cc)
 #define ITEM_NOIDENTIFY		(dd)
+
+#define ITEM2_TEMP_UNCURSED     (A)
 
 /*
  * Wear flags.
@@ -1498,6 +1837,9 @@ struct  kill_data
  * Well known room virtual numbers.
  * Defined in #ROOMS.
  */
+#define ROOM_VNUM_BOUNTY_PULL     22911
+#define ROOM_VNUM_BOUNTY_ROOM      8808
+#define ROOM_VNUM_BOUNTY_WATCH     3352
 #define ROOM_VNUM_LIMBO               2
 #define ROOM_VNUM_HUNTER	   3054
 #define ROOM_VNUM_CHAT             1200
@@ -1556,6 +1898,8 @@ struct  kill_data
 #define ROOM_NOCOMBAT           (W)
 #define ROOM_HOLY_GROUND        (X)
 #define ROOM_CLANONLY           (Y)
+#define ROOM_ISOLATED           (Z)// New isolated code
+#define ROOM_NOHALL             (aa)
 
 
 /*
@@ -1616,13 +1960,16 @@ struct  kill_data
 #define SECT_FIRE_PLANE		     19
 #define SECT_WATER_PLANE             20
 #define SECT_OBS_ROOM		     21
-#define SECT_MAX		     22
+#define SECT_MAGELAB_INCREDIBLE 22
+#define SECT_ALTAR_INCREDIBLE 23
+#define SECT_MAX		     24
 
 
 /*
  * Equpiment wear locations.
  * Used in #RESETS.
  */
+#define WEAR_HIDDEN                  -2
 #define WEAR_NONE                    -1
 #define WEAR_LIGHT                    0
 #define WEAR_FINGER_L                 1
@@ -1754,6 +2101,18 @@ struct  kill_data
 #define CLAN_ALLOW_SANC		(I)
 #define CLAN_PAB		(J)
 #define CLAN_BEEN_ZEALOT        (K)
+/* Fine grain control over clan hall building permissions */
+#define CLAN_CAN_BUILD  (L) /* Set if any other permissions are set, or to just allow viewing */
+#define CLAN_CAN_CREATE (M) /* Can only edit a planned item they just created */
+#define CLAN_CAN_EDIT   (N) /* Can edit or delete existing planned items */
+#define CLAN_CAN_PLACE  (O) /* Can place a planned item */
+#define CLAN_CAN_REMOVE (P) /* Can remove a placed item */
+
+/* Extra option bits */
+#define OPT_NOGPROMPT           (A)
+#define OPT_REPLYLOCK           (B)
+#define OPT_CHANNELSTAMP        (C)
+#define OPT_NOSAFELINK            (D)
 
 /*
  * ACT bits for players.
@@ -1840,6 +2199,7 @@ struct  kill_data
 #define PNET_LINKS		(G)
 #define PNET_NOTES		(H)
 #define PNET_MATOOK		(I)
+#define PNET_SHADEBOUNTY        (J)
 
 /* WIZnet flags */
 #define WIZ_ON                  (A)
@@ -1868,7 +2228,16 @@ struct  kill_data
 #define WIZ_NOTES		(X)
 #define WIZ_DEBUG		(aa)
 #define WIZ_ALLNOTES		(bb)
+#define WIZ_DEITYFAVOR		(cc)
+#define WIZ_SHADEBOUNTY         (dd)// 30
 
+// Difficulty descriptions for mob bounties
+#define BOUNTY_EASY             1
+#define BOUNTY_MEDIUM           2
+#define BOUNTY_HARD             3
+#define BOUNTY_VERYHARD         4
+#define BOUNTY_INSANE           5
+#define MAX_BOUNTY_LEVEL        5
 
 /*
  * Prototype for a mob.
@@ -1890,8 +2259,11 @@ struct  mob_index_data
     char *              long_descr;
     char *              description;
     char *              spec_words[3];
+    char *              label;
     long                act;
     long                affected_by;
+    long                affected_by_ext;
+    int                 bounty_level;
     sh_int              alignment;
     sh_int              level;
     sh_int              hitroll;
@@ -1947,6 +2319,7 @@ struct  char_data
     MOB_INDEX_DATA *    pIndexData;
     DESCRIPTOR_DATA *   desc;
     AFFECT_DATA *       affected;
+    AFFECT_DATA *       flash_affected;
     NOTE_DATA *         pnote;
     OBJ_DATA *          carrying;
     OBJ_DATA *          on;
@@ -1970,7 +2343,7 @@ struct  char_data
     sh_int              group;
     sh_int		icg;
     long		icg_bits;
-    sh_int		join;
+    CLAN_DATA *		join;
     sh_int		kit;
     sh_int		species_enemy; /** ranger stuff */
     sh_int		home_terrain;  /*** ranger stuff */
@@ -2007,6 +2380,7 @@ struct  char_data
     sh_int              invis_level;
     sh_int              incog_level;
     long                affected_by;
+    long                affected_by_ext;
     sh_int              position;
     sh_int              practice;
     sh_int              train;
@@ -2043,6 +2417,14 @@ struct  char_data
     sh_int		save_race;
     sh_int		save_con_mod;
     sh_int		saves[MAX_SAVES]; /* 0 = fort, 1 = reflex, 2 = willpower */
+    int        qnum; /* For saving script details - sometimes saving state is needed */
+    int        qnum2;/* Being in all NPCs allows far more complexity in quests */
+    sh_int last_move;
+    int alert;
+    CHAR_DATA *qchar;
+    CHAR_DATA *follower;
+    CHAR_DATA *next_groupmate;
+    DAMAGE_DATA *damaged;
 };
 
 
@@ -2199,6 +2581,7 @@ struct  pc_data
     int			ambush_timer;
     int			trap_timer;
     int                 deity_timer;
+    long                new_opt_flags;
     long		bounty;
 /* used in pkill, no kr or stats change if death timer is not = 0 */
     sh_int		last_death_timer; 
@@ -2213,11 +2596,57 @@ struct  pc_data
     bool		killed_today;
     int			killer_data[4];
     long		steal_data[3];
+    int                 merit_stolen;
     int			gladiator_data[6];
     int			highlander_data[2];
     CHAR_DATA *  	glad_bet_on;
     int			glad_bet_amt;
     int			glad_tot_bet;
+    sh_int		deity_favor;
+    sh_int		deity_favor_timer;
+    sh_int		deity_trial;
+    sh_int		deity_trial_timer;
+    sh_int		pref_stat;
+    sh_int    half_train; // Half a train
+    sh_int    retrain; // Converted trains that can be bought back
+    sh_int    half_retrain; // You don't lose converted trains by remorting
+    sh_int    trained_hit; // For future use with stat balancing
+    sh_int    trained_mana; // For future use with stat balancing
+    sh_int    trained_move; // For future use with stat balancing
+    sh_int fast_h;
+    sh_int fast_m;
+    OBJ_DATA *linked[LINK_MAX];/* Set to NULL */
+    long edit_flags;
+    PLAN_DATA *edit_obj;
+    CLAN_CHAR *clan_info;
+    PLAN_DATA *rev_obj;
+    int rev_type;
+    CLAN_DATA *rev_clan;
+    bool edits_made;
+    int bank_gold;
+    bool bypass_blind;/* Blind bypass code */
+    int quest_wins[QUEST_COUNT];
+    int quest_count;// Number of active quests
+    sh_int edit_type;
+    int edit_limit;
+    int edit_len; /* Index for end of string */
+    int edit_count; /* Index for last line entered */
+    char *edit_str;
+    int timestamps;
+    char *timestamp_color;
+    int rlock_time;
+    int pulse_timer;
+    int pulse_type;
+    void *pulse_target;
+    bool weapon_too_heavy;
+    int corpse_timer;
+    sh_int old_join;
+    int old_c_clan;/* Old clan recording in case of reworking bonus merit */
+    int old_c_hours;
+    int old_c_rank;
+    int bank_eggs;
+    int bank_bricks;
+ 
     /*start_time is to combat ppl using IMs to scout*/
     int                 start_time;
     /*convert_timer is used by the zealot convert skill*/
@@ -2233,6 +2662,143 @@ struct gen_data
     bool        group_chosen[MAX_GROUP];
     int         points_chosen;
     int		bonus_points;
+};
+
+struct merit_tracker
+{
+  MERIT_TRACKER *next;
+  bool valid;
+  int amount;
+  int expire;
+};
+
+/* No next because this is only attached to a room */
+struct plan_exit_data
+{
+  bool valid;
+  PLAN_EXIT_DATA *next; /* For recycling */
+  PLAN_DATA *exit;/* The actual exit object if it exists, default exit otherwise */
+  PLAN_DATA *link; /* The room it's linked to */
+  ROOM_INDEX_DATA *outside;/* Generally NULL */
+};
+
+/* All one type because the convenience is worth it for sorting through lists */
+/* Some of the variables could be compressed, but the code stays a little more
+ * readable by having settings a little more spread out */
+struct plan_data
+{
+  PLAN_DATA *next;
+  CLAN_DATA *clan;
+  bool valid;
+  long type;// Room, mob, item, exit. Planned, placed
+  int plan_index; /* Unique for within this hall, locked on creation */
+  int cost;
+  bool editing; /* Someone is editing it */
+  bool reviewed;
+  bool flagged;
+  char *label; /* Unique identifier */
+  char *name;
+  char *short_d;
+  char *long_d;
+  char *desc;
+  char *previewer;
+  int opt[2];/* Varies based on type */
+  long flags;/* Varies based on type */
+  void *to_place;/* The actual object if it has been placed */
+  int loc;/* If it's placed, the room's index - mob and item only */
+  PLAN_EXIT_DATA *exits;/* Array of exits, set ONLY if this is a placed room */
+};
+
+struct alliance_data
+{
+  CLAN_DATA *clan;
+  int duration;
+  ALLIANCE_DATA *next;
+  bool valid;
+  bool pending;
+  int cost;
+  int bribe;
+  int to_pay;
+  int offer_duration;
+  bool split_pay;
+};
+
+/* There needs to be a loner and outcast clan tracking so that personal rooms
+ * are never lost, unless they completely leave the clan system (Or delete) */
+struct clan_data
+{
+  char *name;
+  CLAN_DATA *        next;
+  int tribute;// Total unspent
+  int max_tribute;// Total ever earned
+  int hall_tribute;// Amount built into the hall
+  int type;
+  bool valid;
+  int vnum_min;
+  int vnum_max;
+  int leaders;
+  SPELL_FUN *        clan_skill_1;
+  SPELL_FUN *        clan_skill_2;
+  SPELL_FUN *        clan_skill_3;
+  CLAN_CHAR *        members;
+  PLAN_DATA *  hall;
+  int hall_index;
+  int version;
+  PLAN_DATA *        planned;
+  char * charter; /* The public charter of the clan */
+  char * rules; /* The rules that only clan members may read */
+  bool hall_mod; /* Modified is used for backing up the hall */
+  bool member_mod; /* Used for backing up the member list if it has changed */
+  int default_clan; /* loner/outcast are default clans */
+  MERIT_TRACKER *to_match;
+  int initiation;
+  time_t init_date;
+  time_t creation;
+  int enemy;
+  char color[3];
+  long hall_type; /* Can have special types for certain features being added */ 
+  int awarded_tribute; /* Awards from imms, doesn't transfer if you merge clans */
+  int kills;
+  int assists;
+  bool inactive;
+  ALLIANCE_DATA *allies;
+};
+
+struct clan_char
+{
+  CLAN_CHAR *        next;
+  char *             name;
+  int                rank;
+  time_t             join_date;
+  time_t             last_login;
+  time_t             invited;
+  bool               valid;
+  int                merit;
+  int                banked_merit; /* Merit in a loner's bank */
+  int                donated;// Tribute added from this source
+  CHAR_DATA *        player; // Set if the character is online
+  long               flags;// Sanctions and permissions are here now -- can be set offline!
+  CLAN_DATA       *  clan;
+  ROOM_INDEX_DATA *  personal;
+  PLAN_DATA *        pers_plan;
+  CLAN_DATA *old_clan;
+  char *messages;
+  int old_donated;
+  int rebel_timer;
+  int primary_merit;
+  int secondary_merit;
+  int award_merit;
+  MERIT_TRACKER *delay_merit;
+  int lost_merit;
+};
+
+/* Hall pricing */
+
+struct hall_pricing
+{
+  sh_int point_cost;
+  sh_int egg_cost;
+  sh_int value;
 };
 
 /*
@@ -2273,11 +2839,13 @@ struct  obj_index_data
     char *              name;
     char *              short_descr;
     char *              description;
+    char *              label;
     sh_int              vnum;
     sh_int              reset_num;
     char *              material;
     sh_int              item_type;
     long                extra_flags;
+    long                extra_flags2;
     long                wear_flags;
     sh_int              level;
     sh_int              condition;
@@ -2338,6 +2906,7 @@ struct  obj_data
     bool                valid;
     bool                enchanted;
     int			warps;
+    int			damaged;
     char *              prev_owner;
     char *              owner;
     char *              name;
@@ -2345,6 +2914,7 @@ struct  obj_data
     char *              description;
     sh_int              item_type;
     int                 extra_flags;
+    int                 extra_flags2;
     int                 wear_flags;
     sh_int              wear_loc;
     sh_int              weight;
@@ -2353,9 +2923,14 @@ struct  obj_data
     sh_int              level;
     sh_int              condition;
     sh_int              stolen_timer;
+    int rarity;
+    DAMAGE_DATA         *loot_track;
+    OBJ_DATA            *loot_next;
+    char                *link_name;
     char *              material;
     sh_int              timer;
     int                 value   [5];
+    bool                original;// Hasn't moved from its start spot
 };
 
 
@@ -2460,6 +3035,8 @@ struct  room_index_data
     sh_int              heal_rate;
     sh_int              mana_rate;
     sh_int              clan;
+    char *              label;
+    long                room_affects;
 };
 
 
@@ -2547,7 +3124,8 @@ struct  skill_type
     char *      noun_damage;            /* Damage message               */
     char *      msg_off;                /* Wear off message             */
     char *      msg_obj;                /* Wear off message for obects  */
-    long        bitvector;          /* For the Bit Vectors          */ 
+    long        bitvector;              /* For the Bit Vectors          */ 
+    double      flags;                  /* Affect flags */
 };
 
 
@@ -2565,6 +3143,9 @@ extern VOIDSIG dummy();
  * These are skill_lookup return values for common skills and spells.
  */
 
+extern  sh_int  gsn_light_blast;
+extern  sh_int  gsn_shaded_room;
+extern  sh_int  gsn_sunburst;
 extern	sh_int	gsn_arcantic_lethargy;
 extern	sh_int	gsn_arcantic_alacrity;
 extern	sh_int	gsn_clarity;
@@ -2595,7 +3176,10 @@ extern sh_int   gsn_connive;
  extern sh_int	gsn_diamond_skin;
  extern sh_int	gsn_adamantite_skin;
  extern sh_int	gsn_alchemy;
+ extern sh_int	gsn_convert;
  extern sh_int	gsn_annointment;
+ extern sh_int	gsn_guardian;
+ extern sh_int	gsn_hemorrhage;
  extern sh_int  gsn_aura_of_valor;
  extern sh_int	gsn_riding;
  extern sh_int	gsn_rage;
@@ -2637,6 +3221,7 @@ extern  sh_int  gsn_scan;
 extern  sh_int  gsn_snatch;
 extern	sh_int  gsn_slice;
 extern  sh_int  gsn_steal;
+extern  sh_int  gsn_bump;
 extern  sh_int	gsn_trap;
 /* Line below added 29AUG00 by Boogums */
 extern  sh_int  gsn_kcharge;
@@ -2663,8 +3248,8 @@ extern  sh_int  gsn_mass_invis;
 extern  sh_int  gsn_plague;
 extern  sh_int  gsn_poison;
 extern  sh_int  gsn_sleep;
-extern  sh_int  gsn_fly;
 extern  sh_int  gsn_sanctuary;
+extern  sh_int  gsn_withstand_death;
 
 /* new gsns */
 extern sh_int  gsn_axe;
@@ -2723,7 +3308,6 @@ extern sh_int	gsn_asphyxiate;
 extern sh_int   gsn_confusion;
 extern sh_int   gsn_cone_of_silence;
 extern sh_int gsn_blade_barrier;
-extern sh_int   gsn_stalk;
 /*
  * Utility macros.
  */
@@ -2823,6 +3407,8 @@ struct  social_type
 /*
  * Global constants.
  */
+
+extern	const	struct	hall_pricing	price_table     []; 
 extern  const   struct  str_app_type    str_app         [26];
 extern  const   struct  int_app_type    int_app         [26];
 extern  const   struct  wis_app_type    wis_app         [26];
@@ -2857,8 +3443,12 @@ extern          struct social_type      social_table    [MAX_SOCIALS];
 /*
  * Global variables.
  */
+extern CLAN_DATA *clan_first;
 extern          CSTAT_DATA        *     cstat_first;
 extern          HELP_DATA         *     help_first;
+extern          HELP_DATA         *     help_last;// New help code
+extern          HELP_TRACKER      *     help_track_first;
+extern          HELP_TRACKER      *     help_tracks     [];
 extern          SHOP_DATA         *     shop_first;
 
 extern          CHAR_DATA         *     char_list;
@@ -2869,13 +3459,13 @@ extern          char                    bug_buf         [];
 extern          char                    dns_buf         [];
 extern          time_t                  current_time;
 extern          bool                    fLogAll;
-extern          FILE *                  fpReserve;
+//extern          FILE *                  fpReserve;
 extern          KILL_DATA               kill_table      [];
 extern          char                    log_buf         [];
 extern          TIME_INFO_DATA          time_info;
 extern          WEATHER_DATA            weather_info;
 extern          int			cfunds[MAX_CLAN];
-extern		bool			override;
+extern		int			override;
 
 extern sh_int      posse_kills;
 extern sh_int      honor_kills;
@@ -2993,6 +3583,7 @@ char *  crypt           args( ( const char *key, const char *salt ) );
 #if defined(macintosh)
 #define PLAYER_DIR      ""              /* Player files                 */
 #define TEMP_FILE       "romtmp"
+#define TEMP_FILE2      "romtmp2"
 #define NULL_FILE       "proto.are"             /* To reserve one stream        */
 #endif
 
@@ -3012,13 +3603,29 @@ char *  crypt           args( ( const char *key, const char *salt ) );
 #define GOD_DIR         "../gods/"      /* list of gods */
 #define COLL_DIR        "../collated/"  /* collated areas output */
 #define CLAN_DIR        "../clan/"      /* clan stuff */
+#define CLAN_BAK_DIR        "../clanbak/"      /* clan stuff */
 #define NEW_DIR         "../newareas/"  /* new areas */
 #ifdef OLC_VERSION
 #define TEMP_FILE       "../player/mhstmp"
+#define TEMP_FILE2      "../player/mhstmp2"
 #else
 #define TEMP_FILE       "../player/romtmp"
+#define TEMP_FILE2      "../player/mhstmp2"
 #endif
 #define NULL_FILE       "/dev/null"     /* To reserve one stream        */
+#endif
+
+#ifdef OLC_VERSION // New help code
+#define HELP_FILE   "../olc/olcarea/new_helps.are"
+#define HELP_BAK    "../olc/olcarea/new_helps.bak"
+#else
+#define HELP_FILE   "../area/new_helps.are"
+#define HELP_BAK   "../area/new_helps.bak"
+#ifdef ANDARONDEV
+#define HELP_FILE_OLC "/mud/moosehead/olc/olcarea/new_helps.are"
+#else
+#define HELP_FILE_OLC "../olc/olcarea/new_helps.are"
+#endif
 #endif
 
 #ifdef OLC_VERSION
@@ -3055,7 +3662,14 @@ char *  crypt           args( ( const char *key, const char *salt ) );
 #define SF      SPEC_FUN
 #define AD      AFFECT_DATA
 
+#define TIMESTAMP_MASK 63
+#define TIMESTAMP_GLOBAL 64
+#define TIMESTAMP_TELLS 128
+#define TIMESTAMP_SHOW  256
+#define TIMESTAMP_UPPERMASK 64 | 128 | 256
+
 /* act_comm.c */
+bool    send_timestamps args( ( CHAR_DATA *ch, bool send_now, bool global) );
 bool	check_parse_name	args( ( char * arg ) );
 bool	check_parse_surname	args( ( char * arg ) );
 void    check_sex       args( ( CHAR_DATA *ch) );
@@ -3069,6 +3683,8 @@ bool	group_has_crusader args( ( CHAR_DATA *ch ) );
 int	group_has_how_many_crusader args( ( CHAR_DATA *ch ) );
 bool    group_has_cavalier      args( ( CHAR_DATA *ch ) ); 
 void	channel_vis_status	args( ( CHAR_DATA *ch, CHAR_DATA *victim ) );
+void remove_from_group args((CHAR_DATA *ch));
+void add_to_group args((CHAR_DATA *leader, CHAR_DATA *victim));
 
 /* act_enter.c */
 RID  *get_random_room   args ( (CHAR_DATA *ch) );
@@ -3079,6 +3695,7 @@ void    set_title       args( ( CHAR_DATA *ch, char *title ) );
 void    show_list_to_char       args( ( OBJ_DATA *list, CHAR_DATA *ch,
              bool fShort, bool fShowNothing , bool fExpand) );
 void	do_surname	args( ( CHAR_DATA *ch, char *argument) );
+void do_look( CHAR_DATA *ch, char *argument );
 
 /* act_move.c */
 bool	is_abolishable	args( ( AFFECT_DATA *af ) );
@@ -3087,10 +3704,17 @@ extern	char	kludge_string[MAX_STRING_LENGTH];
 void 	fade	args( ( CHAR_DATA *ch, char *argument ) );
 
 /* act_obj.c */
+void unlink_item args((CHAR_DATA *ch, OBJ_DATA *obj));
+void do_link args((CHAR_DATA *ch, char *argument));
+void do_unlink args((CHAR_DATA *ch, char *argument));
+void do_linksafe args((CHAR_DATA *ch, char *argument));
+void  steal	args( ( CHAR_DATA *ch, char *arg1, CHAR_DATA *victim) );
 bool can_loot           args( (CHAR_DATA *ch, OBJ_DATA *obj, bool loot_check) );
-void  remove_all_objs  args( (CHAR_DATA *ch) );
+void  remove_all_objs  args( (CHAR_DATA *ch, bool verbose) );
 void    get_obj         args( ( CHAR_DATA *ch, OBJ_DATA *obj,
           OBJ_DATA *container ) );
+void remove_bonuses( CHAR_DATA *ch, OBJ_DATA *obj);
+void add_bonuses( CHAR_DATA *ch, OBJ_DATA *obj);
 
 /* act_wiz.c */
 void wiznet             args( (char *string, CHAR_DATA *ch, OBJ_DATA *obj,
@@ -3123,10 +3747,18 @@ void    act_new         args( ( const char *format, CHAR_DATA *ch,
           int min_pos, bool ooc) );
 
 /* deity.c */
+void do_deity_msg(char *msg, CHAR_DATA *ch);
 void	give_gift	args( (CHAR_DATA *ch, int gift) );
 void	reanimation	args( (CHAR_DATA *ch) );
 bool	has_gift	args( (CHAR_DATA *ch, int gift) );
 bool	is_aligned	args( (CHAR_DATA *ch) );
+void log_deity_favor(CHAR_DATA *ch, CHAR_DATA *alt, int type);
+bool deity_enchant_armor(CHAR_DATA *ch, int amount);
+bool deity_enchant_weapon(CHAR_DATA *ch, OBJ_DATA *obj, int amount);
+int do_favor_error(CHAR_DATA *ch, int rarity, int index, int xp, int favor_strength);
+int do_favor_reward(CHAR_DATA *ch, CHAR_DATA *victim, int rarity, int index, int xp, int favor_strength); 
+int deity_favor_message(CHAR_DATA *ch, CHAR_DATA *victim, int xp);
+int deity_trial_kill(CHAR_DATA *ch, CHAR_DATA *victim, int xp);
 
 /* db.c */
 char *  print_flags     args( ( long flag ));
@@ -3172,6 +3804,7 @@ bool    str_infix       args( ( const char *astr, const char *bstr ) );
 bool    str_suffix      args( ( const char *astr, const char *bstr ) );
 char *  capitalize      args( ( const char *str ) );
 void    append_file     args( ( CHAR_DATA *ch, char *file, char *str ) );
+
 void    bug             args( ( const char *str, int param ) );
 void    log_string      args( ( const char *str ) );
 int     get_area_min_vnum  args( (AREA_DATA *area) );
@@ -3189,6 +3822,8 @@ void    shock_effect    args( (void *vo, int level, int dam, int target) );
 void	trap_effect	args( (CHAR_DATA *ch, AFFECT_DATA *paf ) );
 
 /* fight.c */
+void sort_clanner_items args((CHAR_DATA *ch, OBJ_DATA *container, OBJ_DATA **loot_start, bool do_linked));
+CHAR_DATA *check_is_online args((char *name));
 bool    is_safe         args( (CHAR_DATA *ch, CHAR_DATA *victim ) );
 bool    is_safe_steal   args( (CHAR_DATA *ch, CHAR_DATA *victim ) );
 bool    is_safe_spell   args( (CHAR_DATA *ch, CHAR_DATA *victim, bool area , int sn) );
@@ -3202,9 +3837,17 @@ void    stop_fighting   args( ( CHAR_DATA *ch, bool fBoth ) );
 void    check_killer    args( ( CHAR_DATA *ch, CHAR_DATA *victim) );
 void	raw_kill	args( ( CHAR_DATA *victim, CHAR_DATA *ch) );
 bool    is_clan_guard   args( ( CHAR_DATA *victim) );
+void make_corpse( CHAR_DATA *ch, CHAR_DATA *killer );
 
 /* handler.c */
-bool	room_has_medium	args( ( CHAR_DATA * ) );
+void prompt_pulse_command args((CHAR_DATA *ch));
+void end_pulse_command args((CHAR_DATA *ch, bool success, bool violent));
+bool damage_pulse_command args((CHAR_DATA *ch));
+void damage_add args((CHAR_DATA *ch, CHAR_DATA *victim, int amount, int duration));
+void damage_remove args((CHAR_DATA *ch, DAMAGE_DATA *dam));
+DAMAGE_DATA *damage_find args((CHAR_DATA *victim, char *source));
+void damage_decrement args((CHAR_DATA *ch));
+int	room_has_medium	args( ( CHAR_DATA * ) );
 bool	check_hai_ruki	args( ( CHAR_DATA * ) );
 bool	shogun_in_group args( ( CHAR_DATA * ) );
 int	count_groupies_in_room args( ( CHAR_DATA * ) );
@@ -3252,14 +3895,17 @@ int     can_carry_w     args( ( CHAR_DATA *ch ) );
 int     apply_chi       args( ( CHAR_DATA *ch, int num ) );
 bool    is_name         args( ( char *str, char *namelist ) );
 bool	is_exact_name	args( ( char *str, char *namelist ) );
+void    flash_affect_to_char  args( ( CHAR_DATA *ch, AFFECT_DATA *paf ) );
 void    affect_to_char  args( ( CHAR_DATA *ch, AFFECT_DATA *paf ) );
 void	affect_to_room  args( ( ROOM_INDEX_DATA *room, AFFECT_DATA *paf ) );
 void    affect_to_obj   args( ( OBJ_DATA *obj, AFFECT_DATA *paf ) );
 void	raffect_remove	args( ( ROOM_INDEX_DATA *room, AFFECT_DATA *paf ) );
 bool    check_trap	args( ( ROOM_INDEX_DATA *room, int trap ) );
+void    flash_affect_remove   args( ( CHAR_DATA *ch, AFFECT_DATA *paf, int AppType) );
 void    affect_remove   args( ( CHAR_DATA *ch, AFFECT_DATA *paf, int AppType) );
 void    affect_remove_obj args( (OBJ_DATA *obj, AFFECT_DATA *paf ) );
 void    affect_strip    args( ( CHAR_DATA *ch, int sn ) );
+bool    is_flash_affected     args( ( CHAR_DATA *ch, int sn ) );
 bool    is_affected     args( ( CHAR_DATA *ch, int sn ) );
 bool    is_room_affected args( ( ROOM_INDEX_DATA *room, int sn) );
 void    affect_join     args( ( CHAR_DATA *ch, AFFECT_DATA *paf ) );
@@ -3279,6 +3925,7 @@ void    obj_from_obj    args( ( OBJ_DATA *obj ) );
 void    extract_obj     args( ( OBJ_DATA *obj ) );
 void    extract_char    args( ( CHAR_DATA *ch, bool fPull ) );
 CD *    get_char_room   args( ( CHAR_DATA *ch, char *argument ) );
+CD *    get_char_online args( ( CHAR_DATA *ch, char *argument ) );
 CD *    get_char_world  args( ( CHAR_DATA *ch, char *argument ) );
 OD *    get_obj_type    args( ( OBJ_INDEX_DATA *pObjIndexData ) );
 OD *    get_obj_list    args( ( CHAR_DATA *ch, char *argument,
@@ -3307,6 +3954,7 @@ char *  item_type_name_num  args ( ( int num ) );
 char *  affect_loc_name args( ( int location ) );
 char *  affect_bit_name args( ( int vector ) );
 char *  extra_bit_name  args( ( int extra_flags ) );
+char *  extra_bit_name2 args( ( int extra_flags2 ) );
 char *  wear_bit_name   args( ( int wear_flags ) );
 char *  act_bit_name    args( ( int act_flags ) );
 char *  mhs_bit_name	args( ( int bit_name ) );
@@ -3329,10 +3977,65 @@ int     mult_argument   args( ( char *argument, char *arg) );
 char *  one_argument    args( ( char *argument, char *arg_first ) );
 char *  one_argument_cs args( ( char *argument, char *arg_first ) );
 bool	check_social	args( ( CHAR_DATA *ch, char *command, char *argument ));
+
+/* clan.c */
+int calculate_bonus_merit args((CHAR_DATA *ch, bool new_join));
+void set_clan_skills args((CHAR_DATA *ch));
+bool clan_kill_type args((CHAR_DATA *killer, CHAR_DATA *victim));
+void remove_clan_member args((CLAN_CHAR *cchar));
+void add_clan_member args((CLAN_DATA *clan, CHAR_DATA *ch, int rank));
+CLAN_CHAR *find_char_clan args((char *name));
+
+/* live_edit.c */
+void verify_pricing_table args((void));
+void edit_stop args((CHAR_DATA *ch));
+int count_edit_obj args((CHAR_DATA *ch, int flag, bool verbose, bool hedit));
+PLAN_DATA *find_edit_obj args((CHAR_DATA *ch, char *arg, bool hedit));
+PLAN_DATA *find_edit_obj_by_index args((PLAN_DATA *start, int type, int plan_index));
+PLAN_DATA *find_char_room_obj args((CHAR_DATA *ch, bool hedit));
+// New help code
+void blast_punctuation args((char *arg, bool leave_quote, bool capitalize));
+void lower_only args((char *arg));
+int calc_cost_range args((int start, int count, bool hedit));
+void set_obj_cost args((CHAR_DATA *ch, PLAN_DATA *obj, bool hedit, bool override));
+bool check_can_edit args((CHAR_DATA *ch, int action, bool hedit));
+bool pay_hall_cost args((CHAR_DATA *ch, int amount, bool do_buy, bool hedit));
+void swap_rooms args((CHAR_DATA *ch, PLAN_DATA *old_room, PLAN_DATA *new_room, bool hedit));
+void load_plan_obj args((PLAN_DATA *obj, bool strings));
+void load_room_obj args((PLAN_DATA *obj, bool strings));
+void load_mob_obj args((PLAN_DATA *obj, bool strings));
+void load_item_obj args((PLAN_DATA *obj, bool strings));
+void load_exit_obj args((PLAN_DATA *obj, bool strings));
+void place_hall_obj args((CHAR_DATA *ch, PLAN_DATA *obj, bool hedit));
+int get_refund_amount args((CHAR_DATA *ch, int amount, bool hedit));
+int remove_hall_obj args((CHAR_DATA *ch, PLAN_DATA *obj, bool hedit));
+void reset_hall_obj args((CHAR_DATA *ch, PLAN_DATA *obj, bool reset_all));
+bool save_hall args((char *clan_name, PLAN_DATA *plans, bool save_immediately));
+void save_clan_list args((void));
+void load_clan_list args((void));
+void load_clan args((char *clan_name, int def_clan));
+void do_save_clan args((CLAN_DATA *clan));
+void save_clan args((CHAR_DATA *ch, bool save_c, bool save_h, bool hedit));
+bool fread_plan_obj args((FILE *fp, PLAN_DATA *obj));
+bool fread_plan_exit args((FILE *fp, PLAN_DATA *first, CLAN_DATA *clan));
+void fread_clan_hall args((FILE *fp, PLAN_DATA **head, CLAN_DATA *clan));
+void fread_clan_messages args((FILE *fp, CLAN_DATA *clan));
+void respawn_plan_obj args((PLAN_DATA *obj, PLAN_DATA *start, bool show_creation));
+int get_arg_dir args((char *arg));
+void clear_string args((char **str, char *new_str));
+void search_linked_rooms args((PLAN_DATA *start));
+int new_obj_index args((CHAR_DATA *ch, int type, bool hedit));
+void player_edit args((CHAR_DATA *ch, char *argument, bool hedit));
+void do_hedit args((CHAR_DATA *ch, char *argument));
+void do_pedit args((CHAR_DATA *ch, char *argument));
+
+
 /* mag2.c */
 void	blow_orb	args( ( CHAR_DATA *victim,int sn ) );
 
 /* magic.c */
+bool check_annointment args((CHAR_DATA *victim, CHAR_DATA *ch));
+void apply_mala_damage args((CHAR_DATA *ch, CHAR_DATA *victim, int amount));
 int     find_spell      args( ( CHAR_DATA *ch, const char *name) );
 int      mana_cost 	args( (CHAR_DATA *ch, int min_mana, int level, int sn) );
 int     skill_lookup    args( ( const char *name ) );
@@ -3346,9 +4049,18 @@ extern char *target_name;
 void	dot		args( ( CHAR_DATA *ch, AFFECT_DATA *paf ) );
 bool	reup_affect	args( (CHAR_DATA *ch, int sn, int duration, int level) );
 
+/* note.c */
+void peek_argument args((char *argument, char *arg_first));
+bool start_long_edit args((CHAR_DATA *ch, int limit, int type, char *base_str));
+void do_long_edit args((CHAR_DATA *ch, char *arg, int type, int edit_type));
+void end_long_edit args((CHAR_DATA *ch, char **result));
+
+
 /* save.c */
 void    save_char_obj   args( ( CHAR_DATA *ch ) );
 bool    load_char_obj   args( ( DESCRIPTOR_DATA *d, char *name ) );
+void    save_pits       args( (void) );
+void    load_pits       args( (void) );
 
 /* skills.c */
 int     skill_level	args( ( CHAR_DATA *ch, int sn ) );
@@ -3365,12 +4077,20 @@ void    group_add       args( ( CHAR_DATA *ch, const char *name, bool deduct) );
 void    group_remove    args( ( CHAR_DATA *ch, const char *name) );
 
 /* special.c */
+bool is_bounty_target args ( (CHAR_DATA *victim, bool kill) );
+void describe_mob_bounty args ( (CHAR_DATA *target, CHAR_DATA *teller, bool just_started) );
+bool is_shaded args ( (CHAR_DATA *shade) );
+void remove_shaded_room args ( (CHAR_DATA *shade) );
 SF *    spec_lookup     args( ( const char *name ) );
 char *  spec_name       args( ( SPEC_FUN *function ) );
+void quest_handler(CHAR_DATA *quest_npc, CHAR_DATA *ch, OBJ_DATA *obj, int quest, int update);
+void log_quest_detail(char *buf, int quest);
+
 /* teleport.c 
 RID *   room_by_name    args( ( char *target, int level, bool error) );
 */
 /* update.c */
+bool spawn_rainbow args((void));
 void    advance_level   args( ( CHAR_DATA *ch ) );
 void    gain_exp        args( ( CHAR_DATA *ch, long gain ) );
 void    gain_condition  args( ( CHAR_DATA *ch, int iCond, int value ) );
@@ -3385,7 +4105,6 @@ void clear_macro_marks args ( ( CHAR_DATA *ch ) );
 bool check_macro       args ( ( CHAR_DATA *ch, char *argument ) );
 /* olc.c    */
 bool create_room      ( CHAR_DATA *ch, ROOM_INDEX_DATA *room, int dir, int move_char );
-
 
 #undef  CD
 #undef  MID

@@ -1,0 +1,925 @@
+#AREA
+../newareas/bmnumthr.are~
+Wonderland~
+{ U/C } BM      Wonderland~
+10200 10254
+
+#MOBILES
+#10200
+tiny white ball furr kitten snowdrop~
+Snowdrop~
+A tiny white ball of fur, purring softly.
+~
+Snowdrop is one of Dinah's kittens, Alice's pet cat.  She's a tiny white
+ball of fur, far to cute and cudly to try to kill, for example.
+~
+dog~
+(null)~
+(null)~
+(null)~
+ABGH 0 500 0
+1 0 2d6+10 0d9+100 1d4+0 scratch
+9 9 9 10
+Q 0 0 0
+stand stand female 0
+HM BGI medium 0
+F off H
+F for G
+F par UV
+#0
+
+#OBJECTS
+#10200
+crowbar~
+a lead crowbar~
+~
+lead~
+key TV A
+0 0 0 0 0
+1 100 0 P
+#10201
+chair pink cushioned ~
+a pink cushioned chair~
+ ~
+~
+furniture O 0
+2 0 BEHK 100 100
+0 0 0 P
+E
+pink cushioned chair~
+A soft, pink cushioned chair mathces perfectly with the rest of the decor.
+~
+#0
+
+#ROOMS
+#10200
+A Lovely Garden~
+You're standing in a lovely green garden.  All around you, the mark of summer
+is evident.  A small babbling brook passes happily by to your right, as tall
+gently swaying trees give cool shade to your left.  Thousands of tiny
+wildflowers blanket the ground in beautiful sploches of color; yellows, reds
+blues, purples, and pinks as far as the eye can see.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10201
+D1
+Exit ~
+door~
+0 0 10205
+S
+#10201
+The Lovely Garden~
+You're standing in a lovely green garden.  All around you, the mark of summer
+is evident.  A small babbling brook passes happily by to your right, as tall
+gently swaying trees give cool shade to your left.  Thousands of tiny
+wildflowers blanket the ground in beautiful sploches of color; yellows, reds
+blues, purples, and pinks as far as the eye can see.
+~
+0 0 2
+D1
+Exit ~
+door~
+1 0 10202
+D2
+Exit ~
+door~
+0 0 10200
+S
+#10202
+Main Hall of a Large Home~
+The entire room is decorated tastefully in mid-century, English interior
+design.  Small yet lavish table lamps sit on tables of fine, cherry oak.
+Tiny mirrors rimmed in gold ornament hang from the entrance way; a gold hat
+rack, shoe rack, and similar entranceway objects can be seen.
+A set of stairs leads up to the send level of the home.
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 10203
+D3
+Exit ~
+door~
+1 0 10201
+S
+#10203
+The Parlour~
+This is another tastefully decorated room.  A brilliant stone fireplace warms
+the room, making it very comfortable.  Several plush, rose coloured couches
+are available for you to sit in, matching that of the softer, pink carpet
+beneith your feet.  There is a tiny, marble chess board on a gaming table to 
+the north; red and white men are set upon it.  A tiny white flufball resting
+in one of the chairs appears to be alive, it makes a faint purring noise.
+This room's most distinguishing feature is a huge mirror on the eastern wall.
+~
+0 0 2
+D1
+Exit ~
+looking-glass~
+1 0 10204
+D3
+Exit ~
+door~
+0 0 10202
+E
+ches board men~
+The chess board consists of 32, perfectly carved figurines carved in red and
+white wood.  They are lined up perfectly, ready for you to play chess.
+~
+E
+east~
+A huge mirror dominates almost the entire eastern wall.  As you grow nearer,
+the surface of the mirror seems gauzy, and almost opaque.  You put your hand
+against its surface, and are surprised to find that your hand pushes right
+through, as though the entire mirror is simply, an optical illusion.
+~
+E
+mirror looking glass eas~
+A huge mirror dominates almost the entire eastern wall.  As you grow nearer,
+the surface of the mirror seems gauzy, and almost opauqe.  You put your hand
+against its surface, and are surprised to find that your hand pushes right
+through, as though the entire mirror is simply, an optical illusion.
+~
+E
+west wes mirror looking glass~
+A huge mirror dominates almost the entire western wall.  As you grow nearer,
+the surface of the mirror seems gauzy, and almost opaque.  You put your hand
+against its surface, and are surprised to find that your hand pushes right
+through, as though the entire mirror is simply, an optical illusion.
+~
+S
+#10204
+The Parlour~
+This is another tastefully decorated room.  A brilliant stone fireplace warms
+the room, making it very comfortable.  Several plush, rose coloured couches
+are available for you to sit in, matching that of the softer, pink carpet
+beneith your feet.  There is a tiny, marble chess board on a gaming table to 
+the north; red and white men are set upon it.  A tiny white flufball resting
+in one of the chairs appears to be alive, it makes a faint purring noise.
+This room's most distinguishing feature is a huge mirror on the western wall.
+~
+0 0 2
+D3
+Exit ~
+looking-glass~
+1 0 10203
+E
+ches board men~
+The chess board consists of 32, perfectly carved figurines carved in red and
+white wood.  They are lined up perfectly, ready for you to play chess.
+~
+E
+east~
+A huge mirror dominates almost the entire eastern wall.  As you grow nearer,
+the surface of the mirror seems gauzy, and almost opaque.  You put your hand
+against its surface, and are surprised to find that your hand pushes right
+through, as though the entire mirror is simply, an optical illusion.
+~
+E
+mirror looking glass eas~
+A huge mirror dominates almost the entire eastern wall.  As you grow nearer,
+the surface of the mirror seems gauzy, and almost opauqe.  You put your hand
+against its surface, and are surprised to find that your hand pushes right
+through, as though the entire mirror is simply, an optical illusion.
+~
+E
+west wes mirror looking glass~
+A huge mirror dominates almost the entire western wall.  As you grow nearer,
+the surface of the mirror seems gauzy, and almost opaque.  You put your hand
+against its surface, and are surprised to find that your hand pushes right
+through, as though the entire mirror is simply, an optical illusion.
+~
+S
+#10205
+A Small Meadow~
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 10206
+E
+debris ground~
+You have a pretty good idea of what several objects lying on the ground used
+to be.  Splintered stakes, weapons of every kind, and old pieces of rusted
+metal fencing make up the mix.  Perhaps there is someting salvagable.
+~
+E
+steel doors boarded~
+The doors to the north are very boarded up and do not look passable.  The
+rusted, steel lock makes life even more difficult, this isin't the way in.
+Several obceneties are written on the door.
+~
+E
+obceneties words written~
+"Die evil mage!" and "Rott in hell evil necromancer" are barely legible
+as you attempt to read the words written on the ancient door.  Although
+some are quite clear (scratched into the boards themselves) some are dull,
+and faded, as if they were written with something more..tangible at the time.
+~
+S
+#10206
+The Entrance to a Dark Cavern~
+~
+0 D 2
+H 0 M 0
+D1
+Exit ~
+door~
+0 0 10207
+D3
+Exit ~
+door~
+0 0 10205
+S
+#10207
+Down the Rabbit Hole~
+~
+0 D 2
+D5
+Exit ~
+door~
+0 0 10208
+E
+storm door lock~
+You see a massive storm door on the side of the mansion, leading towards
+the basement.  A huge, rusted lock keeps the door firmly closed.  Not
+even the key to this lock would probably work, perhaps there is something
+lying around you could use instead.
+~
+E
+debris ground~
+You have a pretty good idea of what several objects lying on the ground used
+to be.  Splintered stakes, weapons of every kind, and old pieces of rusted
+metal fencing make up the mix.  You see a crowbar in one, larger pile.
+~
+S
+#10208
+Down the Rabbit Hole~
+~
+0 D 2
+D5
+Exit ~
+door~
+0 0 10209
+S
+#10209
+Falling Down a Long Hole~
+~
+0 D 2
+D5
+Exit ~
+door~
+0 0 10210
+S
+#10210
+Still Falling~
+~
+0 D 2
+D5
+Exit ~
+door~
+0 0 10211
+S
+#10211
+Falling Forever~
+~
+0 D 2
+D5
+Exit ~
+door~
+0 0 10212
+S
+#10212
+Heap of Sticks and Dry Leaves~
+~
+0 D 2
+D1
+Exit ~
+door~
+0 0 10213
+S
+#10213
+A Long Passageway~
+~
+0 D 2
+D1
+Exit ~
+door~
+0 0 10214
+D3
+Exit ~
+door~
+0 0 10212
+S
+#10214
+A Long Low Hallway~
+~
+0 D 2
+D1
+Exit ~
+door~
+0 0 10215
+D3
+Exit ~
+door~
+0 0 10213
+S
+#10215
+The Hallway of Doors~
+~
+0 D 2
+D1
+Exit ~
+door~
+0 0 10216
+D2
+Exit ~
+door~
+1 0 10219
+D3
+Exit ~
+door~
+0 0 10214
+E
+north nor nort south sout sou~
+A murky mist prevents you from seeing far beyond the entrance.
+~
+S
+#10216
+The Hallway of Doors~
+~
+0 D 2
+D1
+Exit ~
+door~
+0 0 10217
+D2
+Exit ~
+door~
+1 0 10218
+D3
+Exit ~
+door~
+0 0 10215
+E
+north nort nor south sout sou~
+A murky mist prevents you from seeing far beyond the entrance.
+~
+S
+#10217
+The Hallway of Doors~
+~
+0 D 2
+D1
+Exit ~
+door~
+1 0 10200
+D3
+Exit ~
+door~
+0 0 10216
+E
+east eas ea~
+A murky mist prevents you from seeing far beyond the entrance.
+~
+E
+south sout sou~
+A murky mist prevents you from seeing far beyond the entrance.
+~
+E
+north nor nort~
+A murky mist prevents you from seeing far beyond the entrance.
+~
+S
+#10218
+Nothingness~
+~
+0 0 2
+S
+#10219
+A Path through the Hedge~
+~
+0 D 2
+D2
+Exit ~
+door~
+0 0 10221
+S
+#10220
+A Small Garden~
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 10221
+D3
+Exit ~
+door~
+1 0 10222
+S
+#10221
+On a Small Path by the Sea~
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10219
+D2
+Exit ~
+door~
+0 0 10225
+D3
+Exit ~
+door~
+0 0 10220
+S
+#10222
+The White Rabbit's House~
+~
+0 D 2
+D1
+Exit ~
+door~
+1 0 10220
+D2
+Exit ~
+door~
+1 0 10223
+D4
+Exit ~
+door~
+0 0 10224
+S
+#10223
+A Path Through the Dark Forest~
+~
+0 0 2
+D0
+Exit ~
+door~
+1 0 10222
+D1
+Exit ~
+door~
+0 0 10226
+S
+#10224
+The White Rabbit's Bedroom~
+~
+0 D 2
+D5
+Exit ~
+door~
+0 0 10222
+S
+#10225
+A Path Through the Dark Forest~
+~
+0 0 2
+D3
+Exit ~
+door~
+0 0 10226
+S
+#10226
+Under a Gigantic Mushroom~
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 10225
+D3
+Exit ~
+door~
+0 0 10223
+D4
+Exit ~
+door~
+0 0 10227
+S
+#10227
+On the Giant Mushroom~
+~
+0 0 2
+D5
+Exit ~
+door~
+0 0 10226
+S
+#10228
+The Long Steps~
+This room is dominated by a massive, curved staircase that leads up to the
+second floor of the mansion.  The same patterned, golden trimmed rug is
+neatly tucked into each stair, as well as a matching crystal chandelier
+from the Entrance hall to the south.
+~
+0 0 2
+D4
+Exit ~
+door~
+0 0 10229
+S
+#10229
+Generic room name~
+Generic room description.
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 10230
+D3
+Exit ~
+door~
+0 0 10243
+D5
+Exit ~
+door~
+0 0 10228
+S
+#10230
+Generic room name~
+Generic room description.
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 10231
+D3
+Exit ~
+door~
+0 0 10229
+S
+#10231
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10230
+D1
+Exit ~
+door~
+0 0 10233
+D2
+Exit ~
+door~
+0 0 10232
+S
+#10232
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10231
+S
+#10233
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10234
+D1
+Exit ~
+door~
+0 0 10236
+D2
+Exit ~
+door~
+0 0 10235
+D3
+Exit ~
+door~
+0 0 10231
+S
+#10234
+Generic room name~
+Generic room description.
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 10233
+S
+#10235
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10233
+S
+#10236
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10237
+D1
+Exit ~
+door~
+0 0 10239
+D2
+Exit ~
+door~
+0 0 10238
+D3
+Exit ~
+door~
+0 0 10233
+S
+#10237
+Generic room name~
+Generic room description.
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 10236
+S
+#10238
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10236
+S
+#10239
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10240
+D2
+Exit ~
+door~
+0 0 10241
+D3
+Exit ~
+door~
+0 0 10236
+D4
+Exit ~
+door~
+0 0 10242
+S
+#10240
+Generic room name~
+Generic room description.
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 10239
+S
+#10241
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10239
+S
+#10242
+Generic room name~
+Generic room description.
+~
+0 0 2
+D5
+Exit ~
+door~
+0 0 10239
+S
+#10243
+Generic room name~
+Generic room description.
+~
+0 0 2
+D1
+Exit ~
+door~
+0 0 10229
+D2
+Exit ~
+door~
+0 0 10244
+S
+#10244
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10243
+D2
+Exit ~
+door~
+0 0 10245
+D3
+Exit ~
+door~
+0 0 10246
+S
+#10245
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10244
+S
+#10246
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10247
+D1
+Exit ~
+door~
+0 0 10244
+D2
+Exit ~
+door~
+0 0 10248
+D3
+Exit ~
+door~
+0 0 10249
+S
+#10247
+Generic room name~
+Generic room description.
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 10246
+S
+#10248
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10246
+S
+#10249
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10250
+D1
+Exit ~
+door~
+0 0 10246
+D2
+Exit ~
+door~
+0 0 10251
+D3
+Exit ~
+door~
+0 0 10252
+S
+#10250
+Generic room name~
+Generic room description.
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 10249
+S
+#10251
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10249
+S
+#10252
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10253
+D1
+Exit ~
+door~
+0 0 10249
+D2
+Exit ~
+door~
+0 0 10254
+S
+#10253
+Generic room name~
+Generic room description.
+~
+0 0 2
+D2
+Exit ~
+door~
+0 0 10252
+S
+#10254
+Generic room name~
+Generic room description.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 10252
+S
+#0
+
+#RESETS
+D 0 10205   0    2	* A Small Meadow north
+O 0 10200 100 10207	* a lead crowbar
+D 0 10207   5    2	* Down the Rabbit Hole down
+D 0 10210   0    1	* Still Falling north
+D 0 10210   2    1	* Still Falling south
+D 0 10213   0    1	* A Long Passageway north
+D 0 10213   2    1	* A Long Passageway south
+D 0 10219   0    1	* A Path through the Hedge north
+D 0 10219   2    1	* A Path through the Hedge south
+D 0 10225   0    1	* A Path Through the Dark Forest north
+D 0 10225   2    1	* A Path Through the Dark Forest south
+D 0 10202   3    1	* Main Hall of a Large Home west
+D 0 10201   1    1	* The Lovely Garden east
+D 0 10204   3    1	* The Parlour west
+M 0 10200   1 10203  1	* Snowdrop
+O 0 10201 100 10203	* a pink cushioned chair
+D 0 10203   1    1	* The Parlour east
+D 0 10217   1    1	* The Hallway of Doors east
+D 0 10216   2    1	* The Hallway of Doors south
+D 0 10215   2    1	* The Hallway of Doors south
+D 0 10222   1    1	* The White Rabbit's House east
+D 0 10222   2    1	* The White Rabbit's House south
+D 0 10220   3    1	* A Small Garden west
+D 0 10223   0    1	* A Path Through the Dark Forest north
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

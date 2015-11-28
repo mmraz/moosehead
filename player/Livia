@@ -3,7 +3,7 @@ Name Livia~
 SurN Constantine~
 Id   1047226963
 Email (null)~
-LogO 1132454332
+LogO 1317430761
 Vers 31
 Prom %hhp %mmana %vmv %ggold %ssil %Xxp %nitems %wweigh ~
 Race faerie~
@@ -11,7 +11,7 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -26,7 +26,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
-Deity 0 huitzilopochtli~
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
+Deity 46362 huitzilopochtli~
 DeityT -875 huitzilopochtli~
 Sac  300
 Sex  2
@@ -35,56 +38,57 @@ Node 0
 Cap 0
 Created 1047226988
 Glad 0 0 0 0 0 0
-LastHost r044-202.seavers.ship.edu~
+LastHost 71.199.125.21~
 Cla  11
 Kit necromancer~
 ClaO 0
-Levl 47
+Levl 26
 DLevl 0
-Plyd 43561
+Plyd 47221
 Not  1079920552 1079920552 1079920552 1079920552 1079920552 1079921878 1079920552 1079920552 1079920552 1079920552
 Scro 22
 Rank 0
-Room 3054
-HMV  333 333 972 972 448 448
-Gold 114
-Silv 59
-Exp  143420
-Act  DFGHKQ
+Room 3001
+HMV  128 228 173 620 172 304
+Gold 775
+Silv 9395
+Exp  78204
+Act  CDFGHIKQ
 MHSF R
-AfBy DFJOT
+AfBy DFJOTV
 Comm 0
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  4
-Prac 68
-SkiP 7
-Save  1
+Prac 25
+StatsTrained 35 20 0
+SkiP 44
+Save  -8
 Alig  -1000
-Hit   8
-Dam   8
-SecHit   8
-SecDam   8
-ACs 52 52 53 63
+Hit   17
+Dam   16
+SecHit   15
+SecDam   14
+ACs 30 30 30 44
 Wimp  20
-Attr 11 25 25 25 13 25 12 16
-AMod 0 0 0 2 4 0 3 0
+Attr 13 25 25 25 13 17 8 21
+AMod 3 0 1 6 5 1 2 -1
 Pass LiMY1t9S4XKMk~
 Titl  teeny {CFaerie{x. ({DVamped/2{x)~
 Pnts 65
 TSex 2
-LLev 11
-HMVP 333 952 443
-Cnd  0 0 12 21
-Sk 95 'acid blast'
+LLev 13
+HMVP 228 600 304
+Cnd  0 48 48 48
+Sk 75 'acid blast'
 Sk 75 'armor'
 Sk 75 'blindness'
 Sk 75 'blur'
 Sk 75 'burning hands'
 Sk 1 'call lightning'
-Sk 76 'cancellation'
+Sk 75 'cancellation'
 Sk 1 'chain lightning'
 Sk 1 'change sex'
 Sk 75 'chill touch'
@@ -94,8 +98,8 @@ Sk 1 'control weather'
 Sk 75 'curse'
 Sk 1 'detect evil'
 Sk 1 'detect good'
-Sk 1 'detect hidden'
-Sk 1 'detect invis'
+Sk 75 'detect hidden'
+Sk 75 'detect invis'
 Sk 75 'detect magic'
 Sk 1 'detect poison'
 Sk 75 'dispel magic'
@@ -103,21 +107,23 @@ Sk 75 'enchant armor'
 Sk 75 'enchant weapon'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
-Sk 80 'energy drain'
+Sk 75 'energy drain'
 Sk 75 'enervation'
+Sk 1 'entrance'
 Sk 1 'faerie fire'
 Sk 75 'faerie fog'
 Sk 75 'famine'
 Sk 75 'farsight'
+Sk 75 'feast'
 Sk 75 'feeblemind'
-Sk 80 'fireball'
+Sk 75 'fireball'
 Sk 75 'fireproof'
 Sk 75 'fly'
 Sk 75 'forget'
 Sk 75 'fumble'
 Sk 75 'gate'
 Sk 75 'giant strength'
-Sk 76 'haste'
+Sk 75 'haste'
 Sk 75 'identify'
 Sk 1 'infravision'
 Sk 75 'invisibility'
@@ -125,7 +131,7 @@ Sk 75 'knock'
 Sk 1 'know alignment'
 Sk 75 'lightning bolt'
 Sk 75 'locate object'
-Sk 100 'magic missile'
+Sk 75 'magic missile'
 Sk 1 'mass invis'
 Sk 1 'nexus'
 Sk 75 'pass door'
@@ -133,14 +139,14 @@ Sk 75 'plague'
 Sk 75 'poison'
 Sk 1 'portal'
 Sk 1 'protection evil'
-Sk 76 'protection good'
+Sk 75 'protection good'
 Sk 1 'protection neutral'
 Sk 1 'recharge'
 Sk 75 'refresh'
 Sk 1 'sacred guardian'
 Sk 75 'sanctuary'
 Sk 75 'shield'
-Sk 80 'shocking grasp'
+Sk 75 'shocking grasp'
 Sk 75 'slow'
 Sk 75 'stone skin'
 Sk 75 'summon'
@@ -148,24 +154,26 @@ Sk 75 'teleport'
 Sk 1 'ventriloquate'
 Sk 75 'warp'
 Sk 75 'weaken'
-Sk 90 'word of recall'
+Sk 75 'word of recall'
 Sk 1 'animate dead'
-Sk 81 'summon dead'
+Sk 77 'summon dead'
 Sk 1 'cryogenesis'
 Sk 75 'draw life'
 Sk 1 'make bag'
 Sk 75 'wraithform'
-Sk 84 'turn undead'
+Sk 75 'turn undead'
 Sk 75 'withstand death'
 Sk 1 'wound transfer'
-Sk 100 'dagger'
-Sk 73 'dodge'
+Sk 15 'axe'
+Sk 75 'dagger'
+Sk 37 'bleed'
+Sk 75 'dodge'
 Sk 51 'scan'
-Sk 84 'meditation'
-Sk 98 'spellcraft'
+Sk 75 'meditation'
+Sk 75 'spellcraft'
 Sk 1 'scrolls'
 Sk 1 'staves'
-Sk 81 'wands'
+Sk 75 'wands'
 Sk 50 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
@@ -180,7 +188,13 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'protection good'   0  45  13  -1  24      16384
+Gr 'nosferatu'
+Affc 'giant strength'   0  26  23   3   1          0
+Affc 'haste'   0  23   1   3   2    2097152
+Affc 'protection good'   0  24   9  -1  24      16384
+Affc 'armor'   0  36  19 -20  17          0
+Affc 'bless'   0  34  31  -5  24          0
+Affc 'bless'   0  35  31   5  18          0
 End
 
 #O
@@ -207,7 +221,7 @@ Vnum 3715
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 17
 Cost 1140
 End
 
@@ -216,7 +230,7 @@ Vnum 2912
 Nest 0
 PrevOwner Trista~
 Cond 0
-Wear 11
+Wear -1
 Cost 0
 End
 
@@ -258,7 +272,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 24
-Val  64 16 0 0 0
+Val  64 0 0 0 0
 End
 
 #O
@@ -266,7 +280,7 @@ Vnum 2911
 Nest 0
 PrevOwner Illfated~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 End
 
@@ -275,7 +289,7 @@ Vnum 4433
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 550
 End
 
@@ -307,33 +321,6 @@ Cost 550
 End
 
 #O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
 Vnum 1395
 Nest 0
 PrevOwner Prettz~
@@ -347,7 +334,7 @@ Vnum 2505
 Nest 0
 PrevOwner Prettz~
 Cond 0
-Wear -1
+Wear 14
 Cost 1150
 End
 
@@ -487,21 +474,11 @@ Cost 5
 End
 
 #O
-Vnum 1260
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-Spell 3 'haste'
-End
-
-#O
 Vnum 13206
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 2
+Wear -1
 Cost 5
 End
 
@@ -510,7 +487,7 @@ Vnum 13206
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 1
+Wear -1
 Cost 5
 End
 
@@ -519,27 +496,8 @@ Vnum 9802
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 0
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 5409
-Nest 0
-PrevOwner Livia~
-Stolen 36
-Cond 0
-Wear -1
-Cost 2500
 End
 
 #O
@@ -547,7 +505,7 @@ Vnum 20703
 Enchanted
 Nest 0
 PrevOwner Livia~
-Stolen 308
+Stolen 220
 Cond 0
 Wear -1
 Lev  15
@@ -557,12 +515,94 @@ Affc 'enchant weapon'   1  53  -1   3  19          0
 End
 
 #O
+Vnum 2803
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 1150
+End
+
+#O
+Vnum 2803
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 2
+Cost 1150
+End
+
+#O
+Vnum 8045
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 11
+Cost 2000
+End
+
+#O
+Vnum 8048
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 0
+Cost 2000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
 Vnum 8503
 Nest 0
 PrevOwner Livia~
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 8509
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5409
+Enchanted
+Nest 0
+PrevOwner Livia~
+ExtF 1048675
+Stolen 42
+Cond 0
+Wear 16
+Lev  19
+Cost 2500
+Affc 'reserved'   1  18  -1  -1  32          0
+Affc 'reserved'   1  18  -1   1  30          0
+Affc 'reserved'   1  18  -1  -2  20          0
+Affc 'reserved'   1  18  -1   2  31          0
+Affc 'enchant weapon'   1  52  -1   2  19          0
+Affc 'enchant weapon'   0  52  -1   2  18          0
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #END

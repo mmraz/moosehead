@@ -3,8 +3,8 @@ Name Slyster~
 SurN Foxx~
 Id   1019798244
 Email (null)~
-LogO 1124966041
-Vers 31
+LogO 1411151819
+Vers 33
 LnD  A Gladiator~
 Desc {WYouve done it!{x
 You spotted the ever illusive Slyster Foxx
@@ -14,78 +14,87 @@ Desc {WYouve done it!{x
 ~
 Prom <%h Hp %m Mn %v Mv>%c<%SDp %gg %ss %e> ~
 Race kender~
-Clan zealot~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 8
+SkPTracker 0
 LogoutTracker 0
 Kill 5 10 0 13
-Steal 630 91739 201
+Steal 643 97295 201
+MSteal 677
 LstK Matthias~
 LstKBy Haplo~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1068489367
+LstCombatDate 1325558359
 LstKillDate 1050308138
 LstDeathDate 1047350353
-LoginsWOKill 63
-LoginsWODeath 77
-LoginsWOCombat 16
-Bnty 600
-Deity 202234 almighty~
+LoginsWOKill 270
+LoginsWODeath 284
+LoginsWOCombat 56
+Bnty 2100
+DeityFavor 2 0
+PrefStat 0
+OldC 0 433 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 202234 mojo~
 DeityT -25372 hermes~
-Sac  150
+Sac  300
 Sex  1
 Vump  4
 Node 0
 Cap 0
 Created 1019798258
 Glad 0 0 0 0 2 0
-LastHost pcp02578340pcs.valenc01.az.comcast.net~
+LastHost 98.225.77.39~
 Cla  13
 Kit ninja~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 1358878
-Not  1077588849 1061278409 1057638248 1069810404 1076291926 1077612926 1057638248 1069562861 1057638248 1068521998
+Plyd 1577237
+Not  1406762244 1406980220 1057638248 1313632141 1315969118 1410058741 1057638248 1325459815 1057638248 1313633735
 Scro 22
-Rank 2
-Room 31816
-HMV  919 919 259 389 491 500
-Gold 31
-Silv 140
+Rank 0
+Room 31705
+HMV  919 919 464 464 491 500
+Gold 137
+Silv 130
 Exp  122443
-Act  BDGHKMQZa
-MHSF RSU
-AfBy CDEFPQTc
-Comm I
+Act  BDEGHKQTZa
+MHSF RSUV
+AfBy CDFHPQTc
+Comm J
 Disp BFGIJN
 IcgB 0
 Icg 0
 Pnet ACDEFH
 Pos  8
-SkiP 134
-Save  -15
+Prac 31
+SkiP 54
+Save  -13
 Alig  -1000
-Hit   27
-Dam   37
-SecHit   14
-SecDam   24
-ACs -14 -10 -14 54
-Wimp  15
-Attr 18 17 17 25 17 18 16 20
-AMod 2 0 -1 -1 2 0 0 0
-Pass SlcyNEbDBF1bM~
-Titl , {WThe Sly One{x~
+Hit   30
+Dam   43
+SecHit   17
+SecDam   30
+ACs -110 -100 -110 -59
+Wimp  30
+Attr 18 17 17 25 17 15 11 25
+AMod 0 4 -1 3 2 0 1 1
+Pass SlRsWQuOa48hc~
+Titl  {WThe Sly One{x {G[Avarice]{x~
 Pnts 64
 TSex 1
 LLev 202
-HMVP 769 321 500
-Cnd  0 0 19 19
-Sk 90 'armor'
+HMVP 769 351 500
+Cnd  0 0 0 0
+Alias sanc c sanc~
+OldSk 1 'convert'
+Sk 93 'armor'
 Sk 88 'cancellation'
 Sk 82 'dispel magic'
 Sk 1 'endure cold'
@@ -103,10 +112,10 @@ Sk 1 'portal'
 Sk 87 'protection evil'
 Sk 1 'protection good'
 Sk 1 'protection neutral'
-Sk 62 'refresh'
+Sk 65 'refresh'
 Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
-Sk 92 'shield'
+Sk 95 'shield'
 Sk 84 'stone skin'
 Sk 99 'summon'
 Sk 82 'teleport'
@@ -133,17 +142,17 @@ Sk 100 'steal'
 Sk 84 'scrolls'
 Sk 75 'staves'
 Sk 74 'wands'
-Sk 58 'swimming'
+Sk 59 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'thief basics'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'detect hidden'   0  10  10   0   0         32
-Affc 'detect magic'   0  10  10   0   0         16
-Affc 'detect invis'   0  10   9   0   0          8
-Affc 'sneak'   0  51  49   0   0      32768
+Affc 'shield'   0  31   4 -20  17          0
+Affc 'sneak'   0  51  47   0   0      32768
+Affc 'sanctuary'   0  39   2   0   0        128
+Affc 'stone skin'   0  40  37 -40  17          0
 End
 
 #O
@@ -151,7 +160,7 @@ Vnum 1387
 Nest 0
 PrevOwner Slyster~
 Cond 0
-Wear 12
+Wear -1
 Cost 2400
 End
 
@@ -166,58 +175,12 @@ Val  0 0 0 0 22089
 End
 
 #O
-Vnum 31723
-Nest 1
-PrevOwner Slyster~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 7827
-Nest 1
-PrevOwner Slyster~
-Name a wand of turn undead~
-ShD  a wand of turn undead~
-Desc A wand of turn undead lies here.
-~
-ExtF 536870913
-Cond 0
-Wear -1
-Lev  20
-Cost 0
-Val  53 5 4 236 -1
-Spell 3 'turn undead'
-End
-
-#O
-Vnum 8063
-Nest 1
-PrevOwner Slyster~
-Cond 0
-Wear -1
-Cost 2167
-Spell 3 'energy drain'
-End
-
-#O
 Vnum 17624
 Nest 1
 PrevOwner Slyster~
 Cond 0
 Wear -1
 Cost 5900
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Slyster~
-Cond 0
-Wear -1
-Cost 8500
-Spell 3 'remove curse'
 End
 
 #O
@@ -249,6 +212,7 @@ Vnum 11145
 Nest 0
 PrevOwner Nike~
 Name Slyster Orb stealth~
+Link Slyster
 ShD  {WHis Orb {Dof Stealth{x~
 Desc {GSlyster's {DOrb of stealth{x lies here.~
 Cond 0
@@ -263,15 +227,6 @@ PrevOwner Nike~
 Cond 0
 Wear 0
 Cost 0
-End
-
-#O
-Vnum 2390
-Nest 0
-PrevOwner Nike~
-Cond 0
-Wear 9
-Cost 5800
 End
 
 #O
@@ -290,15 +245,6 @@ PrevOwner Nike~
 Cond 0
 Wear 4
 Cost 1400
-End
-
-#O
-Vnum 5909
-Nest 0
-PrevOwner Nike~
-Cond 0
-Wear 2
-Cost 3000
 End
 
 #O
@@ -323,20 +269,6 @@ ExtF 1051169
 Cond 0
 Wear 10
 Cost 6372
-End
-
-#O
-Vnum 2405
-Nest 0
-PrevOwner Haplo~
-Name gameboy~
-ShD  {WA Game Boy{x~
-Desc Sly's Gameboy lies here.~
-ExtF 17694977
-Cond 0
-Wear 17
-Cost 1000
-Val  48 16 0 0 0
 End
 
 #O
@@ -387,7 +319,7 @@ Vnum 2513
 Nest 0
 PrevOwner Ripper~
 Cond 0
-Wear 3
+Wear -1
 Cost 710
 End
 
@@ -409,62 +341,49 @@ Val  450 1 -1 90 25
 End
 
 #O
-Vnum 1258
-Nest 0
-PrevOwner Ripper~
-Name bag beta Mitch~
-ShD  a bag made from Mitch's hide~
-Desc A bag of fine Mitch hide catches your eye.  ~
-ExtF 67125248
-WeaF 16385
-Wt   5
-Cond 0
-Wear -1
-Lev  9
-Cost 1450
-Val  290 1 -1 90 25
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Slyster~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 9 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Slyster~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 7 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner Slyster~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 8 161 0
-Spell 3 'remove curse'
-End
-
-#O
 Vnum 17648
 Nest 0
 PrevOwner Ravenclaw~
 Cond 0
 Wear 13
 Cost 4000
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 3298
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 31723
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3297
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 1000000
 End
 
 #O
@@ -479,10 +398,194 @@ End
 #O
 Vnum 8503
 Nest 1
-PrevOwner (null)~
+PrevOwner Slyster~
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 9107
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8526
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 303
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 20
+End
+
+#O
+Vnum 5252
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 18000
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 2390
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 5800
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 16730
+Nest 1
+PrevOwner Slyster~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 10721
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 8500
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 12
+Nest 1
+PrevOwner Slyster~
+ShD  the head of Nike~
+Desc The severed head of Nike is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 26
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 15
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 18
+End
+
+#O
+Vnum 8063
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 2167
+Spell 3 'energy drain'
+End
+
+#O
+Vnum 31729
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 5000
+Spell 3 'poison'
 End
 
 #O
@@ -496,78 +599,196 @@ Spell 1 'frenzy'
 End
 
 #O
-Vnum 10344
+Vnum 7827
 Nest 1
 PrevOwner Slyster~
+Name a wand of turn undead~
+ShD  a wand of turn undead~
+Desc A wand of turn undead lies here.
+~
+ExtF 536870913
 Cond 0
 Wear -1
-Cost 191
-Spell 1 'frenzy'
+Lev  20
+Cost 0
+Val  53 5 4 241 -1
+Spell 3 'turn undead'
 End
 
 #O
-Vnum 10344
+Vnum 28018
 Nest 1
 PrevOwner Slyster~
 Cond 0
 Wear -1
-Cost 234
-Spell 1 'frenzy'
+Cost 0
 End
 
 #O
-Vnum 10344
+Vnum 3138
 Nest 1
 PrevOwner Slyster~
 Cond 0
 Wear -1
-Cost 245
-Spell 1 'frenzy'
+Cost 24
+Val  64 0 0 0 0
 End
 
 #O
-Vnum 23504
-Enchanted
+Vnum 3009
 Nest 1
 PrevOwner Slyster~
-ExtF 66
 Cond 0
 Wear -1
-Lev  50
+Cost 20
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 16
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Sardis~
+Name bag beta Sardis~
+ShD  a bag made from Sardis's hide~
+Desc A bag of fine Sardis hide catches your eye.  ~
+ExtF 67125248
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  15
 Cost 2250
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
+Val  450 1 -1 90 25
 End
 
 #O
-Vnum 6434
+Vnum 8546
 Nest 0
-PrevOwner Nike~
-Name diamond~
-ShD  {YThe Ring bearing {WTHE DIAMOND{x~
-Desc The ring that possesses the biggest Diamond in Boinga lies here.~
+PrevOwner Private~
 Cond 0
-Wear 1
-Cost 5300
+Wear 2
+Cost 10300
 End
 
 #O
-Vnum 12082
+Vnum 8545
+Enchanted
 Nest 0
-PrevOwner Shinziku~
+PrevOwner Private~
+ExtF 1048641
+Cond 0
+Wear 9
+Cost 3400
+Affc 'enchant armor'   1  53  -1 -10  17          0
+Affc 'reserved'   1  50  -1   2  18          0
+Affc 'reserved'   1  50  -1   3  19          0
+End
+
+#O
+Vnum 8544
+Enchanted
+Nest 0
+PrevOwner Private~
 Cond 0
 Wear 14
-Cost 22334
+Lev  50
+Cost 9999
+Affc 'reserved'   1  48  -1   2  18          0
+Affc 'reserved'   1  48  -1   3  19          0
+Affc 'enchant armor'   1  53  -1  -9  17          0
 End
 
 #O
-Vnum 2505
+Vnum 8544
+Enchanted
 Nest 0
-PrevOwner Slyster~
-ExtF 3
+PrevOwner Private~
 Cond 0
 Wear 15
-Cost 1150
+Lev  50
+Cost 9999
+Affc 'reserved'   1  48  -1   2  18          0
+Affc 'reserved'   1  48  -1   3  19          0
+Affc 'enchant armor'   1  53  -1  -9  17          0
+End
+
+#O
+Vnum 8546
+Nest 0
+PrevOwner Tickle~
+Cond 0
+Wear 1
+Cost 10300
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Ripper~
+Name bag beta Ripper~
+ShD  a bag made from Ripper's hide~
+Desc A bag of fine Ripper hide catches your eye.  ~
+ExtF 67125248
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  17
+Cost 2550
+Val  510 1 -1 90 25
 End
 
 #O
@@ -576,6 +797,7 @@ Enchanted
 Nest 0
 PrevOwner Slyster~
 Name foxx weapon talon~
+Link Slyster
 ShD  {YFoxx{x~
 Desc {GSlyster's{x pet foxx awaits his master here.~
 ExtF 66
@@ -589,76 +811,174 @@ Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O
-Vnum 31810
+Vnum 9008
 Nest 0
-PrevOwner (null)~
-Wear -1
-Cost 10
+PrevOwner Banker~
+ExtF 0
+Cond 0
+Wear 3
+Cost 4000
 End
 
 #O
-Vnum 31810
+Vnum 22507
 Nest 0
-PrevOwner (null)~
-Wear -1
-Cost 10
+PrevOwner Banker~
+Name body~
+Link Slyster
+ShD  {MBuu's Big Ass Body{x~
+Desc An Enormous {MPink Body{x lies here.~
+Cond 0
+Wear 12
+Cost 0
 End
 
 #O
-Vnum 23144
+Vnum 2405
+Nest 0
+PrevOwner Slyster~
+Name gameboy~
+Link Slyster
+ShD  {WA Game Boy{x~
+Desc Sly's Gameboy lies here.~
+ExtF 17694977
+Cond 0
+Wear 17
+Cost 1000
+Val  48 16 0 0 0
+End
+
+#O
+Vnum 31723
+Nest 0
+PrevOwner Slyster~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 8058
+Nest 0
+PrevOwner Petri~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 0
+PrevOwner Petri~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 10452
+Enchanted
+Nest 0
+PrevOwner Meltwater~
+ExtF 67
+Cond 0
+Wear -1
+Lev  40
+Cost 0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 3355
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 4200
+Cost 510
 End
 
 #O
-Vnum 3092
+Vnum 3353
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
+Cost 900
 End
 
 #O
-Vnum 3092
+Vnum 3350
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
+Cost 1280
 End
 
 #O
-Vnum 3092
+Vnum 3364
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
+Cost 1280
 End
 
 #O
-Vnum 3092
+Vnum 3365
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
+Cost 640
+End
+
+#O
+Vnum 3355
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 510
+End
+
+#O
+Vnum 3353
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 3350
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 640
 End
 
 #END

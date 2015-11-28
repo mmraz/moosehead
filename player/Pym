@@ -3,18 +3,19 @@ Name Pym~
 SurN McCoy~
 Id   1068840698
 Email (null)~
-LogO 1108242923
-Vers 31
+LogO 1389224870
+Vers 33
 Prom %hhp %mm %vmv %w %g %s %e %X %t ~
 Race gargoyle~
 Outc 0
-RufT 142
+RufT 118
 MatookT 0
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 3
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy Appolyon~
 LstAtkedBy no one~
@@ -26,38 +27,44 @@ LoginsWOKill 108
 LoginsWODeath 3
 LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 253224 matook~
 Sac  300
-Sex  1
+Sex  2
 Vump  0
 Node 31911
 Cap 0
 Created 1068840711
 Glad 0 0 0 0 0 0
-LastHost 70.186.6.61~
+LastHost 68.102.68.53~
 Cla  11
 ClaO 10
 Levl 9
 DLevl 0
-Plyd 11870
-Not  1086270680 1106334234 0 1108240102 1086104389 1106334226 0 1108027084 0 1108240093
+Plyd 12834
+Not  1086270680 1106334234 0 1108240102 1086104389 1389192110 0 1385305178 0 1384474516
 Scro 22
 Rank 0
 Room 3054
-HMV  107 107 178 178 114 114
+HMV  78 107 71 178 114 114
 Gold 0
 Silv 0
-Exp  80874
+Exp  80923
 Act  CDEFGHKQ
 MHSF R
-AfBy DJTZ
+AfBy DJT
 Comm GIRST
-Disp FIJN
+Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 22
+Prac 11
 SkiP 7
 Save  -5
 Alig  0
@@ -65,39 +72,38 @@ Hit   5
 SecHit   5
 ACs 51 51 51 60
 Wimp  5
-Attr 15 20 19 15 16 13 17 11
-AMod 9 3 4 2 6 0 0 0
+Attr 15 21 19 19 16 11 11 14
+AMod 5 3 3 2 5 0 0 0
 Pass PyDVxqSjiBfkQ~
 Titl  )(~
 Pnts 93
 TSex 1
 LLev 2
 HMVP 89 178 114
-Cnd  0 22 35 35
+Cnd  0 0 11 11
 Alias vv c visit~
 Alias aa c asph~
 Alias ii c 'ice storm'~
 Alias tt c 'thunderclap'~
 Sk 1 'acid blast'
-Sk 1 'armor'
+Sk 75 'armor'
 Sk 1 'blindness'
 Sk 1 'blur'
-Sk 1 'burning hands'
+Sk 75 'burning hands'
 Sk 1 'call lightning'
 Sk 1 'calm'
 Sk 1 'cancellation'
 Sk 1 'chain lightning'
 Sk 1 'change sex'
 Sk 1 'charm person'
-Sk 1 'chill touch'
+Sk 76 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 1 'control weather'
 Sk 1 'curse'
 Sk 1 'detect evil'
 Sk 1 'detect good'
 Sk 1 'detect hidden'
-Sk 1 'detect invis'
+Sk 75 'detect invis'
 Sk 75 'detect magic'
 Sk 1 'detect poison'
 Sk 1 'dispel magic'
@@ -135,7 +141,7 @@ Sk 1 'portal'
 Sk 1 'protection evil'
 Sk 1 'protection good'
 Sk 1 'protection neutral'
-Sk 1 'refresh'
+Sk 75 'refresh'
 Sk 1 'sacred guardian'
 Sk 1 'sanctuary'
 Sk 1 'shield'
@@ -162,13 +168,13 @@ Sk 1 'dodge'
 Sk 1 'enhanced damage'
 Sk 1 'parry'
 Sk 50 'scan'
-Sk 12 'meditation'
+Sk 75 'meditation'
 Sk 1 'spellcraft'
-Sk 1 'scrolls'
+Sk 75 'scrolls'
 Sk 1 'staves'
 Sk 79 'wands'
 Sk 50 'swimming'
-Sk 50 'recall'
+Sk 75 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'wizard default'
@@ -182,13 +188,11 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'body weaponry'   0  53  10   0   0   33554432
-Affc 'orb of surprise'   0  54  13   0   0          0
-Affc 'bless'   0  41  29  -5  24          0
-Affc 'bless'   0  38  29   5  18          0
-Affc 'shield'   0  47  24 -20  17          0
-Affc 'armor'   0  42   4 -20  17          0
-Affc 'giant strength'   0  45  16   4   1          0
+Affc 'change sex'   0  12  22   1   6          0
+Affc 'bless'   0  41  37  -5  24          0
+Affc 'bless'   0  40  37   5  18          0
+Affc 'shield'   0  43   0 -20  17          0
+Affc 'armor'   0  41   5 -20  17          0
 End
 
 #O
@@ -472,9 +476,9 @@ Vnum 3044
 Nest 0
 PrevOwner Pym~
 Cond 0
-Wear -1
+Wear 17
 Cost 320
-Val  4 10 9 134 0
+Val  4 10 4 139 0
 Spell 3 'magic missile'
 End
 
@@ -483,7 +487,7 @@ Vnum 3715
 Nest 0
 PrevOwner Pym~
 Cond 0
-Wear 17
+Wear -1
 Cost 1140
 End
 

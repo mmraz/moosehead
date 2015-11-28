@@ -1,9 +1,10 @@
 #PLAYER
 Name Alloishus~
+SurN Beaumains~
 Id   997528370
 Email (null)~
-LogO 1091543313
-Vers 31
+LogO 1375323511
+Vers 33
 LnD  A Gladiator~
 Desc Before you stands a majestic priest dressed from head to toe in the garments
 provided by his {WFaith{x in the {YAlmighty{x. Surrounding him is a bright aura that
@@ -33,64 +34,76 @@ Prom <{w%h{xhp {w%m{xm {w%v{xmv {Y%w{x %t {R%e{x> ~
 Race human~
 Clan zealot~
 Outc 0
-RufT 224
+RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
 Kill 9 50 2 43
 Steal 0 0 0
+MSteal 0
 LstK Deford~
 LstKBy Bloodscream~
 LstAtkedBy Karada~
-LstAtkedByTimer 6725
+LstAtkedByTimer 6393
 LstCombatDate 1091542438
 LstKillDate 1058896429
 LstDeathDate 1091542449
-LoginsWOKill 15
-LoginsWODeath 1
-LoginsWOCombat 0
+LoginsWOKill 55
+LoginsWODeath 41
+LoginsWOCombat 40
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 1545310 almighty~
 DeityT -20953 almighty~
-Sac  46
+Sac  129
 Sex  1
 Vump  2
 Node 0
 Cap 0
 Created 997528382
 Glad 0 3 0 0 6 0
-LastHost net29h192.itsd.state.ms.us~
+LastHost 172.15.132.207~
 Cla  1
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 2983231
-Not  1091513367 1091528872 1015034709 1091396129 1091251327 1091353299 1015034709 1059349245 1015034709 1089243877
+Plyd 2996829
+Not  1373427528 1371914253 1015034709 1371977109 1367893112 1375254499 1015034709 1375318137 1015034709 1368001970
 Scro 22
 Rank 4
-Room 3001
-HMV  263 1052 165 755 187 380
-Gold 261
-Silv 4006
+Room 31806
+HMV  1052 1052 755 755 380 380
+Gold 263
+Silv 5135
 Exp  408009
 Act  CDGHJKQR
 MHSF RU
 ClnF I
-AfBy H
+AfBy DF
 Comm G
 Disp FIJ
 IcgB 0
 Icg 0
 Pnet ACDEFGHI
 Pos  8
-SkiP 307
+Trai 16
+SkiP 309
 Alig  -1000
-ACs 100 100 100 100
+Hit   9
+Dam   11
+SecHit   2
+SecDam   4
+ACs 80 80 80 90
 Wimp  20
-Attr 18 18 21 18 18 18 18 25
-AMod 0 0 0 0 0 0 0 0
+Attr 18 18 21 18 18 10 10 25
+AMod 1 0 0 1 0 0 0 0
 Pass Alrygd1EduR3.~
 Titl  {WAlmighty's{x anointed {YAndre{x {W3000{x.~
 Pnts 100
@@ -102,7 +115,7 @@ Alias c chant~
 Alias sd chant 'summon dead'~
 Alias cast chant~
 Sk 1 'aid'
-Sk 97 'annointment'
+OldSk 97 'annointment'
 Sk 100 'armor'
 Sk 1 'bestow holiness'
 Sk 100 'bless'
@@ -257,7 +270,57 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'garou'
-Affc 'sanctuary'   0  50   6   0   0        128
+End
+
+#O
+Vnum 21
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner Chumbawamba~
+Cond 0
+Wear 4
+Cost 300
+End
+
+#O
+Vnum 28018
+Nest 0
+PrevOwner Rigel~
+ExtF 1
+Cond 0
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner Chumbawamba~
+Cond 0
+Wear 3
+Cost 300
+End
+
+#O
+Vnum 5912
+Enchanted
+Nest 0
+PrevOwner Rigel~
+ExtF 66
+Cond 0
+Wear 16
+Lev  50
+Cost 3000
+Affc 'enchant weapon'   1  52  -1   7  18          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
 End
 
 #END

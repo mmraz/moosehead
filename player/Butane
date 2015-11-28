@@ -3,7 +3,7 @@ Name Butane~
 SurN Torch~
 Id   1046113829
 Email (null)~
-LogO 1046241316
+LogO 1309498468
 Vers 31
 Prom %h %m %v%c> ~
 Race volare~
@@ -26,6 +26,7 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
 Deity 0 matook~
 DeityT -1324 matook~
 Sac  300
@@ -35,12 +36,12 @@ Node 0
 Cap 0
 Created 1046113951
 Glad 0 0 0 0 0 0
-LastHost pool-141-151-238-159.alt.east.verizon.net~
+LastHost 67.171.33.228~
 Cla  0
 ClaO 0
 Levl 23
 DLevl 0
-Plyd 55848
+Plyd 55850
 Not  1046197930 1046176024 1046144454 1046144454 1046144454 1046226979 1046144454 1046194308 1046144454 1046144454
 Scro 22
 Rank 0
@@ -86,6 +87,7 @@ Sk 1 'chain lightning'
 Sk 1 'change sex'
 Sk 75 'chill touch'
 Sk 88 'colour spray'
+Sk 1 'cone of silence'
 Sk 75 'continual light'
 Sk 75 'control weather'
 Sk 75 'create food'
@@ -171,9 +173,9 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'bless'   0  32  24   5  18          0
-Affc 'bless'   0  35  24  -5  24          0
 Affc 'armor'   0  23  23 -20  17          0
+Affc 'bless'   0  35  24  -5  24          0
+Affc 'bless'   0  32  24   5  18          0
 End
 
 #O
@@ -293,9 +295,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
-Spell 1 'sanctuary'
-Spell 2 'haste'
-Spell 3 'bless'
+Val  2 169 110 17 100
 End
 
 #O
@@ -510,8 +510,8 @@ Cond 0
 Wear 16
 Lev  20
 Cost 910
-Affc 'enchant weapon'   1  53  -1   6  18          0
 Affc 'enchant weapon'   1  53  -1   5  19          0
+Affc 'enchant weapon'   1  53  -1   6  18          0
 End
 
 #END

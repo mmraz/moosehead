@@ -3,34 +3,37 @@ Name Trinoa~
 SurN Barton~
 Id   1011751824
 Email (null)~
-LogO 1124860977
+LogO 1314322056
 Vers 31
 LnD  A Gladiator~
 Desc Hmmmm, it apears as if he eats a substance that is made of PEOPLE
 Soilent Green is PEOPLE, PEOPLE i tell you
 ~
-Prom <%hhp %mmp %vmv %Ssac %wlbs %nitem %gg %ss %r %e> ~
+Prom <%hHp %mMp %vmv %SS %gg %ss %wKg %Xxp %r %tH %e> ~
 Race dragon~
 Clan honor~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 6
+SkPTracker 0
 LogoutTracker 0
 Kill 1 81 0 19
 Steal 0 0 0
 LstK Vashe~
 LstKBy Karag~
 LstAtkedBy Raekwon~
-LstAtkedByTimer 2004
+LstAtkedByTimer 1673
 LstCombatDate 1110867035
 LstKillDate 1092868514
 LstDeathDate 1039976422
-LoginsWOKill 212
-LoginsWODeath 639
-LoginsWOCombat 75
+LoginsWOKill 224
+LoginsWODeath 651
+LoginsWOCombat 87
 Bnty 420
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 247628 paladine~
 DeityT -23006 paladine~
 Sac  300
@@ -40,48 +43,48 @@ Node 0
 Cap 0
 Created 1011751906
 Glad 15 54 3 17 24 4
-LastHost Ottawa-HSE-ppp3650445.sympatico.ca~
+LastHost 69.165.162.230~
 Cla  4
 Kit wu jen~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 1564083
-Not  1124860896 1124860896 1124860896 1124860896 1124860896 1124860896 1124860896 1124860896 1124860896 1124860896
-Scro 22
+Plyd 1577563
+Not  1314321996 1314321996 1314321996 1314321996 1314321996 1314321996 1314321996 1314321996 1314321996 1314321996
+Scro 0
 Rank 4
-Room 31520
-HMV  1245 1264 730 785 493 493
-Gold 78
-Silv 97
+Room 31501
+HMV  1314 1314 935 935 493 493
+Gold 145
+Silv 288
 Exp  484608
-Act  BCDGHKQSTa
+Act  BCDEFGHKQSTa
 MHSF RS
-AfBy DFJPT
+AfBy DFJTc
 Comm S
 Disp FIJLN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 3
-SkiP 52
-Save  -5
-Alig  -20
-Hit   38
-Dam   49
-SecHit   28
-SecDam   39
-ACs -171 -171 -171 -171
-Attr 23 25 23 23 23 21 15 13
-AMod 4 0 2 0 2 0 0 0
+Prac 8
+SkiP 86
+Save  -15
+Alig  -1000
+Hit   46
+Dam   42
+SecHit   46
+SecDam   42
+ACs -187 -187 -187 -187
+Attr 25 25 25 25 23 11 14 13
+AMod 4 0 0 -1 2 0 0 0
 Pass TrvjeEs6xfs8s~
-Titl  took a white orchid and turned it blue~
+Titl  is what he is~
 Pnts 98
 TSex 1
 LLev 56
-HMVP 1119 760 458
-Cnd  0 3 18 13
+HMVP 1169 760 458
+Cnd  0 0 16 0
 Alias / c word~
 Alias dd f 'dispel magic'~
 Alias aa put all hole~
@@ -240,9 +243,15 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-Affc 'detect invis'   0  47  47   0   0          8
-Affc 'detect hidden'   0  47  47   0   0         32
-Affc 'sneak'   0  50  46   0   0      32768
+Affc 'frenzy'   0  49   4  40  17          0
+Affc 'frenzy'   0  47   4   8  19          0
+Affc 'frenzy'   0  48   4   8  18          0
+Affc 'detect invis'   0  49  35   0   0          8
+Affc 'detect hidden'   0  48  34   0   0         32
+Affc 'stone skin'   0  50  35 -40  17          0
+Affc 'armor'   0  46   9 -20  17          0
+Affc 'bless'   0  46  25  -6  24          0
+Affc 'bless'   0  50  25   6  18          0
 End
 
 #O
@@ -338,19 +347,30 @@ Cost 9999
 End
 
 #O
-Vnum 8544
+Vnum 2405
 Nest 0
-PrevOwner (null)~
+PrevOwner Trinoa~
+ExtF 17694977
 Cond 0
-Wear 14
-Cost 9999
+Wear 17
+Cost 1000
+Val  48 0 0 0 0
+End
+
+#O
+Vnum 22566
+Nest 0
+PrevOwner Maxim~
+Cond 0
+Wear 13
+Cost 0
 End
 
 #O
 Vnum 11078
 Enchanted
 Nest 0
-PrevOwner Tant~
+PrevOwner Trinoa~
 ExtF 65
 Cond 0
 Wear 11
@@ -363,32 +383,75 @@ Affc 'enchant armor'   1  53  -1  -4  17          0
 End
 
 #O
-Vnum 17622
+Vnum 4822
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 3
-Cost 6300
+Wear -1
+Cost 200
 End
 
 #O
-Vnum 2405
+Vnum 8544
 Nest 0
-PrevOwner Trinoa~
-ExtF 17694977
+PrevOwner (null)~
 Cond 0
-Wear 17
-Cost 1000
-Val  48 0 0 0 0
+Wear 14
+Cost 9999
 End
 
 #O
-Vnum 23021
+Vnum 8500
 Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 23514
+Nest 1
 PrevOwner Trinoa~
 Cond 0
-Wear 4
-Cost 710
+Wear -1
+Cost 3690
+End
+
+#O
+Vnum 23515
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 7609
+End
+
+#O
+Vnum 23514
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 3690
+End
+
+#O
+Vnum 23515
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 7609
 End
 
 #O
@@ -417,16 +480,6 @@ Cond 0
 Wear -1
 Cost 10000
 Spell 3 'haste'
-End
-
-#O
-Vnum 10434
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 18900
-Spell 3 'teleport'
 End
 
 #O
@@ -526,17 +579,6 @@ Cost 3500
 End
 
 #O
-Vnum 8506
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 10000
-Val  30 5 2 110 0
-Spell 3 'haste'
-End
-
-#O
 Vnum 5913
 Nest 1
 PrevOwner Trinoa~
@@ -558,15 +600,6 @@ Cost 5600
 End
 
 #O
-Vnum 10009
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 900
-End
-
-#O
 Vnum 20808
 Enchanted
 Nest 1
@@ -579,79 +612,12 @@ Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
-Vnum 28057
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12072
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 3018
 Nest 1
 PrevOwner Trinoa~
 Cond 0
 Wear -1
 Cost 1310
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 2414
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 3300
 End
 
 #O
@@ -664,17 +630,64 @@ Cost 0
 End
 
 #O
-Vnum 8541
+Vnum 911
+Nest 1
+PrevOwner Trinoa~
+ExtF 1121
+Cond 0
+Wear -1
+Cost 6900
+End
+
+#O
+Vnum 5902
 Enchanted
 Nest 1
 PrevOwner Trinoa~
 ExtF 66
 Cond 0
 Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
+Cost 4000
+Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   9  19          0
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 22506
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 10434
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 18900
+Spell 3 'teleport'
+End
+
+#O
+Vnum 12060
+Nest 1
+PrevOwner Trinoa~
+ExtF 554172416
+Cond 0
+Wear -1
+Cost 5234
 End
 
 #O
@@ -708,6 +721,20 @@ Affc 'enchant weapon'   0  53  -1   7  18          0
 End
 
 #O
+Vnum 8541
+Enchanted
+Nest 1
+PrevOwner Trinoa~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
 Vnum 22552
 Enchanted
 Nest 1
@@ -721,13 +748,13 @@ Affc 'enchant weapon'   1  52  -1   8  19          0
 End
 
 #O
-Vnum 911
+Vnum 6425
 Nest 1
 PrevOwner Trinoa~
-ExtF 1121
 Cond 0
 Wear -1
-Cost 6900
+Cost 0
+Val  50 1 0 5 100
 End
 
 #O
@@ -741,24 +768,6 @@ Val  50 1 0 5 100
 End
 
 #O
-Vnum 23514
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 3690
-End
-
-#O
-Vnum 6602
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 6425
 Nest 1
 PrevOwner Trinoa~
@@ -766,124 +775,17 @@ Cond 0
 Wear -1
 Cost 0
 Val  50 1 0 5 100
-End
-
-#O
-Vnum 10441
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 6700
-End
-
-#O
-Vnum 12060
-Nest 1
-PrevOwner Trinoa~
-ExtF 554172416
-Cond 0
-Wear -1
-Cost 5234
-End
-
-#O
-Vnum 5902
-Enchanted
-Nest 1
-PrevOwner Trinoa~
-ExtF 66
-Cond 0
-Wear -1
-Cost 4000
-Affc 'enchant weapon'   0  52  -1   9  18          0
-Affc 'enchant weapon'   1  52  -1   9  19          0
-End
-
-#O
-Vnum 6425
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 0
-Val  50 1 0 5 100
-End
-
-#O
-Vnum 3032
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 9
-End
-
-#O
-Vnum 8506
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 10000
-Val  30 5 1 110 0
-Spell 3 'haste'
-End
-
-#O
-Vnum 12010
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 22506
-Nest 1
-PrevOwner Trinoa~
-Cond 0
-Wear -1
-Cost 1200
-End
-
-#O
-Vnum 911
-Nest 0
-PrevOwner Trinoa~
-ExtF 1121
-Cond 0
-Wear 2
-Cost 6900
-End
-
-#O
-Vnum 22566
-Nest 0
-PrevOwner Maxim~
-Cond 0
-Wear 13
-Cost 0
-End
-
-#O
-Vnum 5909
-Nest 0
-PrevOwner Trinoa~
-Cond 0
-Wear 1
-Cost 3000
 End
 
 #O
 Vnum 12014
 Enchanted
-Nest 0
+Nest 1
 PrevOwner Trinoa~
 ExtF 323
+Stolen 151
 Cond 0
-Wear 16
+Wear -1
 Cost 0
 Val  6 2 20 7 297
 Affc 'sharpen'   5  51  -1   0   0          8
@@ -892,12 +794,385 @@ Affc 'enchant weapon'   0  52  -1  10  18          0
 End
 
 #O
-Vnum 8503
-Nest 0
+Vnum 2414
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 3300
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9513
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 490
+End
+
+#O
+Vnum 23144
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 4200
+End
+
+#O
+Vnum 18105
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18106
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18107
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 3364
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3364
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 23144
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 4200
+End
+
+#O
+Vnum 3375
+Nest 1
 PrevOwner Trinoa~
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 8546
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 10300
+End
+
+#O
+Vnum 911
+Nest 1
+PrevOwner Trinoa~
+ExtF 1121
+Cond 0
+Wear -1
+Cost 6900
+End
+
+#O
+Vnum 12072
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 9500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 5909
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 17622
+Nest 1
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 6300
+End
+
+#O
+Vnum 23512
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 6740
+End
+
+#O
+Vnum 23512
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 2
+Cost 6740
+End
+
+#O
+Vnum 23513
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 4
+Cost 6410
+End
+
+#O
+Vnum 23513
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 6410
+End
+
+#O
+Vnum 23021
+Nest 0
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 710
+End
+
+#O
+Vnum 28057
+Nest 0
+PrevOwner Trinoa~
+Cond 0
+Wear 16
+Cost 0
+End
+
+#O
+Vnum 10009
+Nest 0
+PrevOwner Trinoa~
+Cond 0
+Wear -1
+Cost 900
 End
 
 #END

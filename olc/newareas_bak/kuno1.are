@@ -1,0 +1,595 @@
+#AREA
+../newareas/kuno1.are~
+Kunos' Test Area~
+{ U/C } Kuno    Kunos' Test Area~
+8400 8431
+
+#MOBILES
+#8400
+Master Citadel~
+The Master of the Citadel~
+The Master of the Citadel is here, looking over the participants.
+~
+The Master of the mighty Citadel looks like he could squash even the mightiest of warriors into the ground with one crushing blow from his massive fist.
+~
+dwarf~
+ABGQUVac DFHTVZc 0 0
+51 100 50d10+5500 100d100+100 50d1+50 divine
+-50 -50 -50 -50
+ABEFHKU ABCD 0 0
+stand stand male 100
+0 0 medium 0
+F aff J
+F res LQ
+F vul R
+#8401
+Ucchan~
+Uchhan~
+Ucchan is standing behind the counter, flipping some okonomiyaki.
+~
+From behind locks of her brown hair that has fallen in front of her eyes she looks at you and says, "What'll it be?"
+~
+human~
+ABV 0 900 0
+25 0 1d1+999 1d1+199 1d8+10 slap
+-15 -15 -15 -15
+FG ABCD 0 0
+stand stand male 100
+0 0 medium 0
+#0
+
+#OBJECTS
+#8400
+Key north ward~
+the nothern seal breaker~
+This scroll has the word needed to break the seal to the northen spell casting chamber.~
+parchment~
+key AGU AO
+0 15 0 0 0
+1 1 0 P
+#8401
+Citadel gate key~
+the key to the Citadel gates~
+This is the key that opens the gates to the Citadel.~
+Steel~
+key U A
+0 0 0 0 0
+53 1 0 P
+#0
+
+#ROOMS
+#8400
+Kuno's Study and Dojo~
+When you first enter the room you are shocked by the rows and rows of
+spell books, scrolls, artifacts, and other miscellaneous magical items
+lining the walls. You look with wondrous awe at all the legendary items
+that are strewn about the room. A small wooden desk catches your eye. A
+small inkwell rests on it, and various parchments are spread across the
+desk's surface. Looking away from the desk you notice a large padded area
+in the corner where Kuno spends his spare time meditating and practicing
+his kendo. Hanging on the wall are pictures of Akane Tendo and the
+Pig-tailed Girl. However, they have both been partly covered by a picture
+of a beautiful angel. It can only be Petal, his loving wife.
+~
+0 CDKST 0
+E
+poster~
+Tacked over the pictures of the Pig-tailed Girl and Akane Tendo is a 
+poster of a strikingly beautiful angel who you realize can be none other 
+then Kuno's wife, Petal. Just looking at this visage of beauty soothes your 
+heart and puts your mind at ease.
+~
+S
+#8401
+The Citadel Preperation Room~
+Lining the walls of these room are all kinds of weapons, from common swords and dagger to polearms so large it looks like it would take a god to wield it.
+~
+0 DKPTU 0
+H 300 M 300
+D0
+Exit ~
+the gates to The Citadel~
+3 8401 8407
+D1
+Exit ~
+door~
+0 0 8406
+D2
+Exit ~
+door~
+0 0 8401
+D3
+Exit ~
+door~
+0 0 8402
+S
+#8402
+The spell casting chambers~
+As you walk into this room your ears are bombarded by the sound of many voice chanting spells and praying for blessings. You notice three doors in this room, all leading to a safe room to cast your spells and pray to your God. 
+~
+0 CDKU 0
+D0
+Exit ~
+A magical ward~
+3 8499 8403
+D1
+Exit ~
+door~
+0 0 8401
+D2
+Exit ~
+A Magic ward~
+3 8497 8405
+D3
+Exit ~
+A magic ward~
+3 8498 8404
+S
+#8403
+A spell casting chamber~
+The chamber is a plain circular room with no distinguishing marks, except the ocassional scorch mark or glowing brick from a spell gone awry.
+~
+0 CDKU 0
+H 300 M 300
+D2
+Exit ~
+A magical ward~
+3 8499 8402
+S
+#8404
+A spell casting chamber~
+The chamber is a plain circular room with no distinguishing marks, except the ocassional scorch mark or glowing brick from a spell gone awry.
+~
+0 CDKU 0
+H 300 M 300
+D1
+Exit ~
+A magic ward~
+3 8498 8402
+S
+#8405
+A spell casting chamber~
+The chamber is a plain circular room with no distinguishing marks, except the ocassional scorch mark or glowing brick from a spell gone awry.
+~
+0 CDKU 0
+H 300 M 300
+D0
+Exit ~
+A Magic ward~
+3 8497 8402
+S
+#8406
+Ucchan's Okonomiyaki~
+As you walk under the curtain into the quiant little shop your
+nostrils as bombarded with the wonderful aroma of okonomiyaki. There is
+a row of 3 stools next to the counter. Right behind the counter you can
+see the cooking surface adorned with all sorts of toppings and additions.
+  Ucchan is standing behind the counter preparing to cook up another
+delicious okonomiyaki.
+~
+0 D 0
+D3
+Exit ~
+door~
+0 0 8401
+S
+#8407
+The Grand Hall~
+A large hall stretches before you. Hanging from the walls are beautiful
+paintings of the past residents of the Citadel. A large red carpet stretches
+from one end of the hall to the other. This dosen't seem wrong to you until
+you realize the carpet was originally white...
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8410
+D3
+Exit ~
+door~
+0 0 8409
+S
+#8408
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#8409
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D1
+Exit ~
+door~
+0 0 8407
+D4
+Exit ~
+door~
+0 0 8420
+S
+#8410
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8411
+D1
+Exit ~
+door~
+0 0 8417
+D2
+Exit ~
+door~
+0 0 8407
+S
+#8411
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8412
+D1
+Exit ~
+door~
+0 0 8418
+D2
+Exit ~
+door~
+0 0 8410
+S
+#8412
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D1
+Exit ~
+door~
+0 0 8413
+D2
+Exit ~
+door~
+0 0 8411
+D4
+Exit ~
+door~
+0 0 8419
+S
+#8413
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D1
+Exit ~
+door~
+0 0 8414
+D3
+Exit ~
+door~
+0 0 8412
+S
+#8414
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D2
+Exit ~
+door~
+0 0 8415
+D3
+Exit ~
+door~
+0 0 8413
+D4
+Exit ~
+door~
+0 0 8422
+S
+#8415
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8414
+D2
+Exit ~
+door~
+0 0 8416
+S
+#8416
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8415
+D3
+Exit ~
+door~
+0 0 8417
+D4
+Exit ~
+door~
+0 0 8421
+S
+#8417
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D1
+Exit ~
+door~
+0 0 8416
+D3
+Exit ~
+door~
+0 0 8410
+S
+#8418
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D3
+Exit ~
+door~
+0 0 8411
+S
+#8419
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D5
+Exit ~
+door~
+0 0 8412
+S
+#8420
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D5
+Exit ~
+door~
+0 0 8409
+S
+#8421
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8423
+D1
+Exit ~
+door~
+0 0 8428
+D2
+Exit ~
+door~
+0 0 8424
+D5
+Exit ~
+door~
+0 0 8416
+S
+#8422
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D2
+Exit ~
+door~
+0 0 8423
+D5
+Exit ~
+door~
+0 0 8414
+S
+#8423
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8422
+D2
+Exit ~
+door~
+0 0 8421
+S
+#8424
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8421
+D1
+Exit ~
+door~
+0 0 8427
+D2
+Exit ~
+door~
+0 0 8425
+S
+#8425
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8424
+D1
+Exit ~
+door~
+0 0 8426
+S
+#8426
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8427
+D3
+Exit ~
+door~
+0 0 8425
+S
+#8427
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8428
+D1
+Exit ~
+door~
+0 0 8430
+D2
+Exit ~
+door~
+0 0 8426
+D3
+Exit ~
+door~
+0 0 8424
+S
+#8428
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D1
+Exit ~
+door~
+0 0 8429
+D2
+Exit ~
+door~
+0 0 8427
+D3
+Exit ~
+door~
+0 0 8421
+S
+#8429
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8431
+D2
+Exit ~
+door~
+0 0 8430
+D3
+Exit ~
+door~
+0 0 8428
+S
+#8430
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D0
+Exit ~
+door~
+0 0 8429
+D3
+Exit ~
+door~
+0 0 8427
+S
+#8431
+Generic room name~
+Generic room description.
+~
+0 CDNU 0
+H 0 M 0
+D2
+Exit ~
+door~
+0 0 8429
+S
+#0
+
+#RESETS
+M 0 8400   1 8401  1	* The Master of the Citadel
+D 0 8401   0    2	* The Citadel Preperation Room north
+O 0 16512 100 8400	* a straw mat
+O 0 16511 100 8400	* Kuno's messy desk
+S
+
+#SHOPS
+8400 10 17 19  1 22 	 600   0 	 0 24 	* The Master of the Citadel
+8401  0  0  0  0  0 	 100 100 	 0 23 	* Uchhan
+0
+
+#SPECIALS
+M 8400 spec_cast_adept     	* The Master of the Citadel
+S
+
+#$

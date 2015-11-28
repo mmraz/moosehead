@@ -2,7 +2,7 @@
 Name Omnus~
 Id   896201697
 Email (null)~
-LogO 1049284886
+LogO 1306546551
 Vers 31
 Desc A huge, magnificent black dragon stands before you.  His 
 blue eyes shine from within their dark sockets, peering about 
@@ -13,28 +13,27 @@ Desc A huge, magnificent black dragon stands before you.  His
 ~
 Prom %c<%h/%Hh %m/%Mm %vmv L:%X Ex:%e> %gg %ss> %r%c> ~
 Race dragon~
-Clan outcast~
-Outc 847
+Clan loner~
+Outc 600
 RufT 0
 MatookT 0
-Abol -1
 SkPTimer 0
-SkPTracker 0
+SkPTracker 8
 LogoutTracker 0
-Kill 0 0 0 0
+Kill 0 0 0 3
 Steal 0 0 0
 LstK no one~
-LstKBy no one~
+LstKBy Sensamilla~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1046065613
+LstCombatDate 1306467222
 LstKillDate 1046060537
-LstDeathDate 1046060537
-LoginsWOKill 4
-LoginsWODeath 4
-LoginsWOCombat 3
+LstDeathDate 1306539625
+LoginsWOKill 8
+LoginsWODeath 2
+LoginsWOCombat 4
 Bnty 0
-Deity 126039 xochipili~
+Deity 126039 mojo~
 DeityT -251 xochipili~
 Sac  600
 Sex  1
@@ -43,46 +42,45 @@ Node 0
 Cap 0
 Created 961012579
 Glad 0 0 0 0 0 0
+LastHost 70.28.25.41~
 Cla  5
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 915431
-Not  930320299 930343011 0 1046114841 1045890212 930314545 0 1045730457 0 1044912119
+Plyd 925289
+Not  1306541900 930343011 0 1046114841 1045890212 1306456219 0 1045730457 0 1044912119
 Scro 22
 Rank 0
-Room 1541
-HMV  709 1438 320 405 384 384
-Gold 65
-Silv 20
+Room 3006
+HMV  68 1402 322 381 304 384
+Gold 73
+Silv 992
 Exp  510000
 Act  CEFGHMQST
 MHSF NR
-AfBy DFJT
+AfBy AJKTXY
 Comm ORS
 Disp ABEFGJ
 IcgB 0
 Icg 0
 Pos  8
 Prac 22
-SkiP 15
-Save  -5
-Alig  -974
-Hit   9
-Dam   17
-SecHit   9
-SecDam   17
-ACs -2 -6 17 37
+SkiP 49
+Save  4
+Alig  -1000
+Hit   -10
+SecHit   -10
+ACs 77 73 78 96
 Wimp  10
 Attr 21 21 21 21 20 19 17 13
-AMod 7 3 3 2 1 0 0 0
-Pass OmvUqJ14kNnwk~
+AMod -7 0 0 -5 0 0 0 0
+Pass OmLIMWnxyq3HI~
 Titl . Shuck this fit.~
 Pnts 100
 TSex 1
 LLev 1
 HMVP 1398 375 384
-Cnd  0 0 14 0
+Cnd  0 0 26 0
 Alias 1 get pie satchel~
 Alias 2 eat pie~
 Alias 3 drink water~
@@ -97,7 +95,6 @@ Sk 1 'aid'
 OldSk 1 'aid'
 Sk 75 'armor'
 OldSk 47 'armor'
-Sk 75 'aura of cthon'
 Sk 1 'bestow holiness'
 OldSk 1 'bestow holiness'
 Sk 75 'bless'
@@ -230,7 +227,7 @@ OldSk 1 'teleport'
 Sk 75 'tower of iron will'
 OldSk 75 'warp'
 OldSk 1 'weaken'
-Sk 75 'word of recall'
+Sk 78 'word of recall'
 OldSk 46 'word of recall'
 Sk 75 'acid breath'
 OldSk 1 'acid breath'
@@ -259,7 +256,7 @@ Sk 98 'bash'
 OldSk 98 'bash'
 Sk 75 'disarm'
 OldSk 64 'disarm'
-Sk 75 'dodge'
+Sk 86 'dodge'
 OldSk 29 'dodge'
 Sk 100 'enhanced damage'
 OldSk 100 'enhanced damage'
@@ -275,7 +272,7 @@ Sk 50 'scan'
 OldSk 100 'scan'
 Sk 100 'second attack'
 OldSk 100 'second attack'
-Sk 75 'third attack'
+Sk 77 'third attack'
 OldSk 29 'third attack'
 Sk 75 'fast healing'
 OldSk 1 'fast healing'
@@ -302,270 +299,103 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
-Affc 'detect hidden'   0  34   7   0   0         32
-Affc 'detect invis'   0  35   5   0   0          8
-Affc 'shield'   0  36   0 -20  17          0
+Affc 'plague'   0  37  45  -3   1    8388608
+Affc 'weaken'   0  49   9  -5   1   16777216
+Affc 'fumble'   0  53   2  -5   2          0
+Affc 'blindness'   0  50   6  -4  18          1
+Affc 'curse'   0  51   8   6  24       1024
+Affc 'curse'   0  49   8  -6  18       1024
 End
 
 #O
-Vnum 17006
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 1200
+Cost 22
 End
 
 #O
-Vnum 20415
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 7
-Cost 10
-End
-
-#O
-Vnum 1615
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 15
-Cost 1540
-End
-
-#O
-Vnum 1615
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 14
-Cost 1540
-End
-
-#O
-Vnum 620
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 2
-Cost 730
-End
-
-#O
-Vnum 620
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 730
+Cost 22
 End
 
 #O
-Vnum 5030
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 17
-Cost 550
-End
-
-#O
-Vnum 11145
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 18
-Cost 4500
-End
-
-#O
-Vnum 11078
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 11
-Cost 3500
-End
-
-#O
-Vnum 15227
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 12
-Cost 20000
-Val  -1 -1 -1 -1 -1
-End
-
-#O
-Vnum 5914
-Nest 0
-PrevOwner (null)~
-ExtF 134217792
-Wt   42
-Wrp 2
-Cond 0
-Wear 6
-Cost 4000
-End
-
-#O
-Vnum 5922
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 300
+Cost 22
 End
 
 #O
-Vnum 5922
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 300
+Cost 22
 End
 
 #O
-Vnum 1900
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 10
-Cost 100
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 4
-Cost 2000
-End
-
-#O
-Vnum 5706
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 3
-Cost 2000
-End
-
-#O
-Vnum 5710
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 1
-Cost 1000
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner Ekard~
-ExtF 257
-Cond 0
-Wear 5
-Cost 0
-End
-
-#O
-Vnum 23112
-Nest 0
-PrevOwner Kerbouchard~
-Cond 0
-Wear 13
-Cost 1500
-End
-
-#O
-Vnum 8502
-Nest 0
-PrevOwner Kerbouchard~
-ExtF 257
-Cond 0
-Wear -1
-Cost 3100
-End
-
-#O
-Vnum 8048
-Nest 0
-PrevOwner Kerbouchard~
-Cond 0
-Wear 0
-Cost 2000
-End
-
-#O
-Vnum 18110
-Nest 0
-PrevOwner Kerbouchard~
-Cond 0
-Wear 8
-Cost 2400
-End
-
-#O
-Vnum 2390
-Nest 0
-PrevOwner Kerbouchard~
-Cond 0
-Wear 9
-Cost 5800
-End
-
-#O
-Vnum 1615
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 1540
+Cost 22
 End
 
 #O
-Vnum 1621
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 767
-Cost 320
-Spell 1 'cure blindness'
-Spell 2 'cure critical'
+Cost 22
 End
 
 #O
-Vnum 1616
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 100
+Cost 22
 End
 
 #O
-Vnum 3357
+Vnum 3009
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 450
+Cost 22
 End
 
 #O
-Vnum 3355
+Vnum 3138
+Nest 0
+PrevOwner Micket~
+Cond 0
+Wear -1
+Cost 24
+Val  64 0 0 0 0
+End
+
+#O
+Vnum 3032
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 510
+Cost 9
 End
 
 #O
@@ -575,6 +405,51 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1280
+End
+
+#O
+Vnum 3359
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 9
+Cost 450
+End
+
+#O
+Vnum 3361
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 12
+Cost 380
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 2
+Cost 1280
+End
+
+#O
+Vnum 3358
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 8
+Cost 450
+End
+
+#O
+Vnum 3360
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 450
 End
 
 #O
@@ -591,26 +466,54 @@ Vnum 3365
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 0
 Cost 640
+Val  0 0 439 0 0
 End
 
 #O
-Vnum 17648
+Vnum 3074
 Nest 0
-PrevOwner Mindweaver~
+PrevOwner Vorge~
 Cond 0
-Wear -1
-Cost 4000
+Wear 7
+Cost 420
 End
 
 #O
-Vnum 1505
+Vnum 6601
 Nest 0
-PrevOwner (null)~
+PrevOwner Ryaen~
+Cond 0
+Wear 1
+Cost 620
+End
+
+#O
+Vnum 16701
+Nest 0
+PrevOwner Ryaen~
 Cond 0
 Wear -1
-Cost 750
+Cost 500
+End
+
+#O
+Vnum 16701
+Nest 0
+PrevOwner Ryaen~
+Cond 0
+Wear 18
+Cost 500
+End
+
+#O
+Vnum 2909
+Nest 0
+PrevOwner Ryaen~
+Cond 0
+Wear -1
+Cost 1500
 End
 
 #END

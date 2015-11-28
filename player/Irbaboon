@@ -2,8 +2,8 @@
 Name IrBaboon~
 Id   996846144
 Email (null)~
-LogO 998559223
-Vers 28
+LogO 1306614650
+Vers 31
 Prom <%h/%Hhp %m/%Mm %v/%Vmv> %Xtnl| $%g|%r|%e|   ~
 Race volare~
 Outc 0
@@ -12,12 +12,19 @@ MatookT 0
 SkPTimer 0
 SkPTracker 2
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1306614620
+LstKillDate 1306614620
+LstDeathDate 1306614620
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 xochipili~
 Sac  111
 Sex  2
@@ -26,21 +33,22 @@ Node 0
 Cap 0
 Created 996846438
 Glad 0 0 0 0 0 0
-LastHost 146.230.147.108~
+LastHost 41.185.143.48~
 Cla  4
 ClaO 1
 Levl 3
 DLevl 0
-Plyd 1710
-Not  0 0 0 0 0 0 0 0 0
+Plyd 1737
+Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3001
-HMV  50 50 116 116 108 108
+HMV  50 40 116 116 108 108
 Gold 36
 Silv 66
 Exp  18943
 Act  CDEFGHKQ
+MHSF R
 AfBy HTV
 Comm DGIR
 Disp FIJ
@@ -48,19 +56,20 @@ IcgB 0
 Icg 0
 Pos  4
 Prac 13
+Trai 10
 SkiP 2
-Save  -6
+Save  -5
 Alig  -1000
-Hit   6
+Hit   5
 SecHit   5
-ACs -43 -43 -43 -43
-Attr 14 18 21 12 13
-AMod 7 0 3 6 2
+ACs 40 40 40 40
+Attr 14 18 21 12 13 13 13 13
+AMod 4 0 0 4 0 0 0 0
 Pass IrmgHcoESS7Gw~
 Titl  is pissed off... and has only just started!~
 Pnts 83
 TSex 2
-LLev 0
+LLev 1
 HMVP 40 116 108
 Cnd  0 22 35 31
 Sk 1 'acid blast'
@@ -93,8 +102,8 @@ Sk 1 'enervation'
 Sk 1 'feast'
 Sk 1 'fireball'
 Sk 1 'fireproof'
-Sk 1 'fly'
 Sk 1 'floating disc'
+Sk 1 'fly'
 Sk 1 'frenzy'
 Sk 1 'gate'
 Sk 1 'heal'
@@ -115,6 +124,7 @@ Sk 1 'sacred guardian'
 Sk 1 'sanctuary'
 Sk 1 'shield'
 Sk 1 'shocking grasp'
+Sk 1 'smoke screen'
 Sk 1 'stone skin'
 Sk 1 'summon'
 Sk 1 'teleport'
@@ -130,7 +140,6 @@ Sk 1 'make bag'
 Sk 1 'turn undead'
 Sk 1 'withstand death'
 Sk 1 'wound transfer'
-Sk 1 'smoke screen'
 Sk 1 'dagger'
 Sk 80 'mace'
 Sk 1 'backstab'
@@ -158,14 +167,14 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'pyrotechnics'
 Gr 'transportation'
-Affc 'haste'   0  53  11   4   2    2097152
-Affc 'blur'   0  52   7 -20  17          0
-Affc 'sanctuary'   0  53   5   0   0        128
-Affc 'bless'   0  41  30  -5  24          0
-Affc 'bless'   0  42  30   5  18          0
-Affc 'giant strength'   0  44  20   4   1          0
-Affc 'shield'   0  46  27 -20  17          0
 Affc 'armor'   0  44   3 -20  17          0
+Affc 'shield'   0  46  27 -20  17          0
+Affc 'giant strength'   0  44  20   4   1          0
+Affc 'bless'   0  42  30   5  18          0
+Affc 'bless'   0  41  30  -5  24          0
+Affc 'sanctuary'   0  53   5   0   0        128
+Affc 'blur'   0  52   7 -20  17          0
+Affc 'haste'   0  53  11   4   2    2097152
 End
 
 #O
@@ -173,7 +182,7 @@ Vnum 3716
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 Val  0 0 158 0 0
 End
@@ -192,7 +201,7 @@ Vnum 3700
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 16
+Wear -1
 Cost 250
 End
 
@@ -201,7 +210,7 @@ Vnum 3704
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 11
+Wear -1
 Cost 0
 End
 
@@ -228,7 +237,7 @@ Vnum 3708
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 8
+Wear -1
 Cost 72
 End
 
@@ -237,7 +246,7 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 15
+Wear -1
 Cost 48
 End
 
@@ -273,7 +282,7 @@ Vnum 3707
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 7
+Wear -1
 Cost 72
 End
 
@@ -282,7 +291,7 @@ Vnum 3715
 Nest 0
 PrevOwner Stoopid~
 Cond 0
-Wear 17
+Wear -1
 Cost 1140
 End
 
@@ -291,7 +300,7 @@ Vnum 3713
 Nest 0
 PrevOwner Stoopid~
 Cond 0
-Wear 14
+Wear -1
 Cost 48
 End
 
@@ -300,7 +309,7 @@ Vnum 3710
 Nest 0
 PrevOwner Stoopid~
 Cond 0
-Wear 10
+Wear -1
 Cost 72
 End
 
@@ -309,7 +318,7 @@ Vnum 3709
 Nest 0
 PrevOwner Stoopid~
 Cond 0
-Wear 9
+Wear -1
 Cost 72
 End
 
@@ -336,7 +345,7 @@ Vnum 3726
 Nest 0
 PrevOwner Stoopid~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 End
 
@@ -372,7 +381,7 @@ Vnum 4438
 Nest 0
 PrevOwner Kangol~
 Cond 0
-Wear 5
+Wear -1
 Cost 0
 End
 
@@ -381,7 +390,7 @@ Vnum 4439
 Nest 0
 PrevOwner Kangol~
 Cond 0
-Wear 18
+Wear -1
 Cost 0
 End
 
@@ -390,7 +399,7 @@ Vnum 4440
 Nest 0
 PrevOwner Kangol~
 Cond 0
-Wear 13
+Wear -1
 Cost 0
 End
 
@@ -408,7 +417,7 @@ Vnum 3705
 Nest 0
 PrevOwner Stoopid~
 Cond 0
-Wear 4
+Wear -1
 Cost 72
 End
 
@@ -417,7 +426,7 @@ Vnum 3705
 Nest 0
 PrevOwner Stoopid~
 Cond 0
-Wear 3
+Wear -1
 Cost 72
 End
 
@@ -453,7 +462,7 @@ Vnum 20405
 Nest 0
 PrevOwner Stoopid~
 Cond 0
-Wear 6
+Wear -1
 Cost 125
 End
 

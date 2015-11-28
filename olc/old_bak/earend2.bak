@@ -1,0 +1,1129 @@
+#AREA
+../newareas/earend2.are~
+Erdanium~
+{{45-51} Earen  Erdanium~
+6800 6842
+
+#MOBILES
+#6800
+Brenholdt~
+Brenholdt the One-Handed~
+Beren One-Handed is here, singing about Luthien
+~
+Beren One-Hand stands before you.  He is the only man to have ever cheated
+death.  He lost his hand to the foul beast Carcaroth.  But do not be wary
+Beren is a kind and gentle soul, who would rather spend his days with his
+beloved Luthien.
+~
+human~
+ABGT H 1000 0
+51 1 50d10+5000 2d10+150 5d8+20 punch
+-21 -20 -19 -8
+BCEFKNU 0 0 0
+stand stand none 4000
+0 0 medium 0
+F par GHIJK
+#6801
+Morgothe~
+Morgoth Bauglir~
+Morgoth Bauglir is here...radiating evil
+~
+Morgoth Bauglir, Melkor, Belegur, The Dark King, the Foe, The Lord of
+Darkness.  Whatever you want to call him Morgoth radiates pure evil.
+He is a tall, dark figure of great majesty, though it is greatness marred.
+His hands are burned and blackened from the holy light of the Silmarils, 
+The scars from the eight wounds of Fingolfin and Thorondor are plainly
+visible.  He appears to be in constant pain...that pain just furthers
+the rage that he feels to all that walk the lands of Beleriand.  Take care
+you are in the presense of the greatest evil in the land.
+~
+human~
+ABRT HJV -1000 0
+60 1 50d10+9500 6d12+850 8d6+28 wrath
+-28 -30 -25 -10
+EFU 0 ABEP N
+stand stand male 10000
+0 0 large 0
+F par GHIJK
+#6802
+Sauron~
+Sauron~
+Sauron, Morgoth's lieutenant is here, scheming.
+~
+You stand before Melkor's lieutenant, Sauron.  Almost as vile as the
+fell Melkor Sauron is a deciever of all men.  He is also a wizard of
+great power.  Treat him with care, for he has already figured out a way
+to defeat you.
+~
+human~
+ABGR V -1000 0
+55 1 50d10+7000 3d9+333 10d4+23 slice
+-25 -22 -25 -9
+EFHKU BP 0 NS
+stand stand none 9000
+0 0 medium 0
+F par GHIJK
+#6803
+Glaurung~
+Glaurung the dragon~
+Glaurung, the Worm of Morgoth, prepaires to attack.
+~
+Glaurung, the first and greatest of the Uroloki, is here.  He is a 
+mighty dragon, one worthy of both respect and fear.  His presence in the
+field of battle has changed the tide of the entire war.  If you manage
+to slay him you would do the cause of light a great service...if you can
+slay him that is...
+~
+dragon~
+ABFT 0 0 0
+55 1 50d10+7500 2d10+150 5d8+20 bite
+-30 -25 -20 -15
+EFIKMNU 0 0 0
+stand stand none 0
+MV B huge 0
+F res E
+F for Z
+F par GHIJKPQUVX
+#6804
+Turgon~
+Turgon, King of Gondolin~
+Turgon, the Elvish King of Gondolin is here.
+~
+Generic description.
+~
+elf~
+ABT H 0 0
+51 1 50d10+4500 1d10+100 5d8+20 punch
+-18 -16 -19 -5
+CDEFIKNU 0 0 0
+stand stand male 6000
+0 0 small 0
+F aff J
+F vul Z
+F par GHIJK
+#6805
+Luthien~
+Luthien Tinuviel~
+Luthien Tinuviel, the most beautiful of all the elves is here.
+~
+The elf notices your intrusion and attacks with determination.
+~
+elf~
+ACFG P 0 0
+53 0 50d10+6000 3d9+100 1d7+1 none
+4 4 4 9
+EFNR 0 0 0
+stand stand female 0
+0 0 medium 0
+#6806
+Feanor~
+Feanor, High King of the Noldor~
+Feanor, the High King of the Nolder stands here.
+~
+Generic description.
+~
+human~
+AT 0 0 0
+56 1 50d10+6000 0d0+0 10d4+24 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#6807
+ungoliant~
+Ungoliant~
+Ungoliant, killer of the two trees is here.
+~
+Generic description.~
+unique~
+ABGT JQV 0 0
+51 20 50d10+5000 3d9+333 5d8+20 slice
+-10 -12 -9 -5
+CDEFJNU 0 0 0
+stand stand female 0
+AHMV ACDEF huge 0
+#6808
+king ahthah~
+King Ahthah~
+King Ahthah is looking for a tasty bowl of chow-dah
+~
+Generic description.~
+human~
+AB 0 0 0
+23 1 5d10+500 5d10+50 2d4+1 punch
+-5 0 -6 0
+CEFNU 0 0 0
+stand stand male 1230
+0 0 medium 0
+F par GHIJK
+#6809
+lanceless~
+Sir Lanceless the Apropos~
+Sir Lanceless is looking for his...well...lance.
+~
+Generic description.~
+human~
+ABT 0 0 0
+19 5 3d10+283 5d9+103 3d5+7 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#6800
+dagger Angril~
+the dagger Angril~
+This short-bladed dagger looks very sharp.~
+adamantite~
+weapon BG AN
+dagger 5 7 slice D
+50 100 1000 P
+A
+18 3
+A
+19 3
+#6801
+narcist~
+the blade Narcist~
+The mighty sword Narcist lies here...it seems to gleem with a cold light.~
+mithril~
+weapon AGK AN
+sword 5 7 slash BJ
+50 150 2500 P
+A
+18 3
+A
+19 3
+#6802
+glamdring~
+Glamdring~
+The mighty Elf-blade Glamdring lies here...glowing a faint blue.~
+mithril~
+weapon AG AN
+sword 5 6 slice 0
+45 100 0 P
+A
+19 4
+F
+A 0 0 C
+F
+A 0 0 C
+A
+18 3
+#6803
+iron crown~
+the Iron Crown~
+The Iron Crown of Melkor lies here~
+iron~
+armor EJLM AE
+12 10 10 7 0
+51 200 3500 P
+A
+17 -2
+A
+20 -3
+#6804
+silmaril~
+a Silmaril~
+A Silmaril glows a pulsating green in your hand~
+emerald~
+gem ABGIKLU AO
+0 0 0 0 0
+51 10 5000 P
+A
+20 -5
+A
+3 3
+A
+12 50
+#6805
+Wrend~
+Wrend~
+Wrend, the hammer of the underworld lies here.~
+Uru~
+weapon BEJL AN
+mace 6 6 pound BI
+51 200 8700 P
+A
+18 3
+A
+19 3
+#6806
+flame brand~
+a flamebrand~
+A sword with a blade of flame lies here.~
+flame~
+weapon AGJ AN
+sword 5 6 slice A
+45 150 4500 P
+A
+18 2
+A
+19 2
+#6807
+Dragon Helm~
+the Dragon-Helm~
+The Dragon-Helm of Dor-Lomin rests on the floor here.~
+steel~
+armor HY AE
+10 9 12 7 0
+40 100 3450 P
+A
+0 0
+#6808
+axe huor~
+the axe of Huor~
+A great axe with the name "Huor" inscribed on the blade.~
+steel~
+weapon AGI AN
+axe 5 7 cleave 0
+40 100 4500 P
+A
+4 2
+A
+18 2
+A
+19 3
+#6809
+nauglimer~
+the Nauglimer~
+The Nauglimer lies here, sparkling in its brilliance.~
+gold~
+jewelry AGKL AC
+0 0 0 0 0
+50 20 7500 P
+A
+20 -4
+A
+19 2
+A
+17 -2
+#6810
+anglachel~
+the sword Anglachel~
+A long sword with a black blade, the edges seem to shine with a pale fire.~
+meteoric iron~
+weapon ABGHJ AN
+sword 4 10 slash E
+46 75 3000 P
+A
+18 3
+A
+19 2
+#6811
+flame whip~
+a whip of flame~
+A whip made of living flame lies in the dust, crackling away.~
+fire~
+weapon ABH AN
+whip 5 7 whip A
+45 125 4500 P
+A
+18 3
+A
+19 2
+A
+2 -2
+#6812
+aranruth~
+Aranruth~
+A sword worthy of a king lies here.~
+mithril~
+weapon BI AN
+sword 6 7 slice 0
+45 125 7500 P
+A
+4 1
+A
+19 4
+A
+18 3
+#6813
+barahir ring~
+the Ring of Barahir~
+A ring shaped like two serpents with emerald eyes, one devouring and the other supporting a crown of flowers.~
+mithril~
+jewelry AGK AB
+0 0 0 0 0
+45 1 5000 P
+A
+14 30
+A
+18 2
+#0
+
+#ROOMS
+#6800
+Generic room name~
+Generic room description.
+~
+0 C 0
+D0
+Exit ~
+door~
+0 0 6801
+D2
+Exit ~
+door~
+0 0 6808
+D3
+Exit ~
+door~
+0 0 6804
+S
+#6801
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6800
+D3
+Exit ~
+door~
+0 0 6802
+S
+#6802
+Entrance to Grimthang~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6813
+D1
+Exit ~
+door~
+0 0 6801
+D2
+Exit ~
+door~
+0 0 6804
+D3
+Exit ~
+door~
+0 0 6803
+S
+#6803
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6802
+D2
+Exit ~
+door~
+0 0 6805
+S
+#6804
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6802
+D1
+Exit ~
+door~
+0 0 6800
+D2
+Exit ~
+door~
+0 0 6806
+S
+#6805
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6803
+D1
+Exit ~
+door~
+0 0 6806
+D2
+Exit ~
+door~
+0 0 6812
+S
+#6806
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6804
+D1
+Exit ~
+door~
+0 0 6807
+D2
+Exit ~
+door~
+0 0 6811
+D3
+Exit ~
+door~
+0 0 6805
+S
+#6807
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6808
+D3
+Exit ~
+door~
+0 0 6806
+S
+#6808
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6800
+D2
+Exit ~
+door~
+0 0 6809
+D3
+Exit ~
+door~
+0 0 6807
+S
+#6809
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6808
+D2
+Exit ~
+door~
+0 0 6810
+S
+#6810
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6809
+D3
+Exit ~
+door~
+0 0 6811
+S
+#6811
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6806
+D1
+Exit ~
+door~
+0 0 6810
+D3
+Exit ~
+door~
+0 0 6812
+S
+#6812
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6805
+D1
+Exit ~
+door~
+0 0 6811
+S
+#6813
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6814
+D2
+Exit ~
+door~
+0 0 6802
+S
+#6814
+Generic room name~
+Generic room description.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 6816
+D2
+Exit ~
+door~
+0 0 6813
+D3
+Exit ~
+door~
+0 0 6815
+S
+#6815
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6818
+D1
+Exit ~
+door~
+0 0 6814
+D2
+Exit ~
+door~
+0 0 6820
+D3
+Exit ~
+door~
+0 0 6816
+S
+#6816
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6817
+D1
+Exit ~
+door~
+0 0 6815
+D2
+Exit ~
+door~
+0 0 6819
+D3
+Exit ~
+door~
+0 0 6814
+S
+#6817
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6820
+D1
+Exit ~
+door~
+0 0 6819
+D2
+Exit ~
+door~
+0 0 6816
+D3
+Exit ~
+door~
+0 0 6818
+S
+#6818
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6819
+D1
+Exit ~
+door~
+0 0 6817
+D2
+Exit ~
+door~
+0 0 6815
+D3
+Exit ~
+door~
+0 0 6820
+S
+#6819
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6816
+D1
+Exit ~
+door~
+0 0 6821
+D2
+Exit ~
+door~
+0 0 6818
+D3
+Exit ~
+door~
+0 0 6817
+S
+#6820
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6815
+D1
+Exit ~
+door~
+0 0 6818
+D2
+Exit ~
+door~
+0 0 6817
+D3
+Exit ~
+door~
+0 0 6821
+S
+#6821
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6822
+D1
+Exit ~
+door~
+0 0 6820
+D3
+Exit ~
+door~
+0 0 6819
+S
+#6822
+Generic room name~
+Generic room description.
+~
+0 D 0
+D2
+Exit ~
+door~
+0 0 6821
+D4
+Exit ~
+door~
+0 0 6823
+S
+#6823
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6827
+D1
+Exit ~
+door~
+0 0 6824
+D2
+Exit ~
+door~
+0 0 6825
+D3
+Exit ~
+door~
+0 0 6829
+D5
+Exit ~
+door~
+0 0 6822
+S
+#6824
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6830
+D1
+Exit ~
+door~
+0 0 6826
+D3
+Exit ~
+door~
+0 0 6823
+S
+#6825
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6823
+D2
+Exit ~
+door~
+0 0 6827
+D3
+Exit ~
+door~
+0 0 6828
+S
+#6826
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6829
+D1
+Exit ~
+door~
+0 0 6831
+D2
+Exit ~
+door~
+0 0 6828
+D3
+Exit ~
+door~
+0 0 6824
+S
+#6827
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6825
+D1
+Exit ~
+door~
+0 0 6830
+D2
+Exit ~
+door~
+0 0 6823
+D3
+Exit ~
+door~
+0 0 6831
+S
+#6828
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6826
+D1
+Exit ~
+door~
+0 0 6825
+D2
+Exit ~
+door~
+0 0 6829
+D3
+Exit ~
+door~
+0 0 6832
+S
+#6829
+Generic room name~
+Generic room description.
+~
+0 D 0
+D0
+Exit ~
+door~
+0 0 6828
+D1
+Exit ~
+door~
+0 0 6823
+D2
+Exit ~
+door~
+0 0 6826
+D3
+Exit ~
+door~
+0 0 6830
+S
+#6830
+Generic room name~
+Generic room description.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 6829
+D2
+Exit ~
+door~
+0 0 6824
+D3
+Exit ~
+door~
+0 0 6827
+S
+#6831
+Generic room name~
+Generic room description.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 6827
+D3
+Exit ~
+door~
+0 0 6826
+S
+#6832
+Generic room name~
+Generic room description.
+~
+0 D 0
+D1
+Exit ~
+door~
+0 0 6828
+D4
+Exit ~
+door~
+0 0 6833
+S
+#6833
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6834
+D5
+Exit ~
+door~
+0 0 6832
+S
+#6834
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6836
+D2
+Exit ~
+door~
+0 0 6835
+D3
+Exit ~
+door~
+0 0 6833
+S
+#6835
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6834
+D3
+Exit ~
+door~
+0 0 6838
+S
+#6836
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+0 0 6834
+D3
+Exit ~
+door~
+0 0 6837
+S
+#6837
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6836
+D3
+Exit ~
+door~
+0 0 6840
+S
+#6838
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6835
+D3
+Exit ~
+door~
+0 0 6839
+S
+#6839
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6841
+D1
+Exit ~
+door~
+0 0 6838
+S
+#6840
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6837
+D2
+Exit ~
+door~
+0 0 6841
+S
+#6841
+Generic room name~
+Generic room description.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 6840
+D2
+Exit ~
+door~
+0 0 6839
+D3
+Exit ~
+door~
+0 0 6842
+S
+#6842
+Generic room name~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 6841
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 6801 spec_breath_any     	* Morgoth Bauglir
+M 6802 spec_cast_mage      	* Sauron
+M 6803 spec_breath_fire    	* Glaurung the dragon
+M 6807 spec_breath_gas     	* Ungoliant
+S
+
+#$

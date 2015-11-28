@@ -2,7 +2,7 @@
 Name Ravenstorme~
 Id   978026775
 Email (null)~
-LogO 1128274625
+LogO 1307475471
 Vers 31
 LnD  A Gladiator~
 Desc buffalo
@@ -12,8 +12,8 @@ Race elf~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 13
-SkPTracker 12
+SkPTimer 0
+SkPTracker 8
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -30,28 +30,28 @@ LoginsWOCombat 0
 Bnty 0
 Deity 211615 huitzilopochtli~
 DeityT -4544 huitzilopochtli~
-Sac  0
+Sac  300
 Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 978026804
 Glad 0 0 0 0 0 0
-LastHost 196.44.10.222~
+LastHost 41.208.250.60~
 Cla  11
 Kit witch~
 ClaO 0
 Levl 38
 DLevl 0
-Plyd 586781
-Not  1062879570 1062762188 1034675101 1034675101 1034675101 1062778456 1034675101 1034675101 1034675101 1059541258
+Plyd 597611
+Not  1062879570 1062762188 1034675101 1034675101 1034675101 1307328400 1034675101 1034675101 1034675101 1059541258
 Scro 22
 Rank 0
-Room 16501
-HMV  399 399 750 750 318 318
-Gold 906
-Silv 18379
-Exp  298583
+Room 3054
+HMV  419 419 748 748 317 318
+Gold 960
+Silv 20620
+Exp  297327
 Act  CDEGHS
 MHSF RX
 AfBy CJ
@@ -60,27 +60,27 @@ Disp FGIJ
 IcgB 0
 Icg 0
 Pnet ABCEF
-Pos  4
+Pos  8
 Prac 37
 Trai 2
-SkiP 9
-Save  -5
-Alig  -1000
-Hit   6
-Dam   3
-SecHit   6
-SecDam   3
-ACs -52 -52 -52 8
+SkiP 27
+Save  -7
+Alig  -194
+Hit   7
+Dam   5
+SecHit   7
+SecDam   5
+ACs 30 24 24 76
 Wimp  15
 Attr 17 22 18 21 16 17 15 23
-AMod 3 3 4 5 3 0 0 0
+AMod 6 2 4 5 3 0 0 0
 Pass Ray.xJXa1630E~
 Titl  the fly witch~
 Pnts 99
 TSex 2
 LLev 148
 HMVP 379 692 318
-Cnd  0 0 8 3
+Cnd  0 46 47 44
 Alias p flee~
 Alias pg c 'protection good'~
 Alias sd c 'summon dead'~
@@ -186,7 +186,7 @@ Sk 100 'dagger'
 Sk 100 'sword'
 Sk 77 'shield block'
 Sk 75 'scan'
-Sk 18 'haggle'
+Sk 20 'haggle'
 Sk 1 'hide'
 Sk 100 'meditation'
 Sk 1 'sneak'
@@ -211,9 +211,7 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'armor'   0  38  23 -20  17          0
-Affc 'stone skin'   0  38  30 -40  17          0
-Affc 'clarity'   0  38  30   0   0          0
+Affc 'giant strength'   0  39  36   4   1          0
 End
 
 #O
@@ -355,13 +353,40 @@ Val  7 7 7 2 2
 End
 
 #O
+Vnum 16721
+Nest 0
+PrevOwner Ravenstorme~
+Cond 0
+Wear 3
+Cost 1400
+End
+
+#O
+Vnum 17631
+Nest 0
+PrevOwner Ravenstorme~
+Cond 0
+Wear 0
+Cost 250
+End
+
+#O
+Vnum 8509
+Nest 0
+PrevOwner Ravenstorme~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
 Vnum 16012
 Nest 0
 PrevOwner Ravenstorme~
 ExtF 134217792
 Wt   45
 Cond 0
-Wear 7
+Wear -1
 Cost 2900
 Val  7 7 7 2 2
 End
@@ -373,18 +398,9 @@ PrevOwner Ravenstorme~
 ExtF 134217792
 Wt   45
 Cond 0
-Wear 5
+Wear -1
 Cost 5000
 Val  7 7 7 2 2
-End
-
-#O
-Vnum 16721
-Nest 0
-PrevOwner Ravenstorme~
-Cond 0
-Wear -1
-Cost 1400
 End
 
 #O
@@ -397,15 +413,6 @@ Cond 0
 Wear 11
 Cost 4200
 Val  7 7 7 2 2
-End
-
-#O
-Vnum 17631
-Nest 0
-PrevOwner Ravenstorme~
-Cond 0
-Wear 0
-Cost 250
 End
 
 #O
@@ -467,38 +474,72 @@ Cost 6900
 End
 
 #O
-Vnum 5710
-Nest 0
-PrevOwner Ravenstorme~
-Cond 0
-Wear 1
-Cost 1000
-End
-
-#O
-Vnum 10008
-Nest 0
-PrevOwner Meld~
-ExtF 16785473
-Cond 0
-Wear 3
-Cost 5000
-Val  10 1 0 20 5
-End
-
-#O
-Vnum 3375
+Vnum 3009
 Nest 1
 PrevOwner Ravenstorme~
 Cond 0
 Wear -1
-Cost 5000
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Ravenstorme~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Ravenstorme~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3013
+Nest 1
+PrevOwner Ravenstorme~
+Cond 0
+Wear -1
+Cost 11
+End
+
+#O
+Vnum 3013
+Nest 1
+PrevOwner Ravenstorme~
+Cond 0
+Wear -1
+Cost 11
+End
+
+#O
+Vnum 3013
+Nest 1
+PrevOwner Ravenstorme~
+Cond 0
+Wear -1
+Cost 11
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Ravenstorme~
+Cond 0
+Wear 2
+Cost 1000
 End
 
 #O
 Vnum 15223
 Nest 0
-PrevOwner (null)~
+PrevOwner Ravenstorme~
 Cond 0
 Wear -1
 Cost 6500
@@ -507,28 +548,10 @@ End
 #O
 Vnum 15223
 Nest 0
-PrevOwner Mongok~
+PrevOwner Ravenstorme~
 Cond 0
-Wear -1
+Wear 7
 Cost 6500
-End
-
-#O
-Vnum 8509
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 17
-Cost 0
-End
-
-#O
-Vnum 8510
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 18
-Cost 200
 End
 
 #O
@@ -543,9 +566,10 @@ End
 #O
 Vnum 29
 Nest 0
-PrevOwner Kritter~
+PrevOwner Ravenstorme~
 Cond 0
 Wear -1
+Time 594
 Cost 0
 Val  35 164 -1 -1 -1
 Spell 1 'restore mana'
@@ -554,9 +578,10 @@ End
 #O
 Vnum 29
 Nest 0
-PrevOwner Kritter~
+PrevOwner Ravenstorme~
 Cond 0
 Wear -1
+Time 493
 Cost 0
 Val  35 164 -1 -1 -1
 Spell 1 'restore mana'
@@ -565,7 +590,7 @@ End
 #O
 Vnum 2101
 Nest 0
-PrevOwner (null)~
+PrevOwner Ravenstorme~
 Cond 0
 Wear -1
 Cost 970
@@ -574,7 +599,7 @@ End
 #O
 Vnum 3021
 Nest 0
-PrevOwner (null)~
+PrevOwner Ravenstorme~
 Cond 0
 Wear 16
 Cost 250
@@ -584,16 +609,16 @@ End
 #O
 Vnum 3066
 Nest 0
-PrevOwner (null)~
+PrevOwner Ravenstorme~
 Cond 0
-Wear -1
+Wear 5
 Cost 430
 End
 
 #O
 Vnum 3052
 Nest 0
-PrevOwner (null)~
+PrevOwner Ravenstorme~
 Cond 0
 Wear -1
 Cost 112
@@ -602,7 +627,7 @@ End
 #O
 Vnum 3138
 Nest 0
-PrevOwner (null)~
+PrevOwner Ravenstorme~
 Cond 0
 Wear -1
 Cost 24
@@ -612,20 +637,56 @@ End
 #O
 Vnum 3000
 Nest 0
-PrevOwner (null)~
+PrevOwner Ravenstorme~
 Cond 0
 Wear -1
 Cost 75
-Val  300 252 1 0 0
+Val  300 180 1 0 0
 End
 
 #O
 Vnum 2010
 Nest 0
-PrevOwner JimmyTheKlaw~
+PrevOwner Ravenstorme~
 Cond 0
 Wear -1
 Cost 1000
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner Ravenstorme~
+Cond 0
+Wear 1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner Ravenstorme~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 10424
+Nest 0
+PrevOwner Ravenstorme~
+Cond 0
+Wear -1
+Cost 5500
+End
+
+#O
+Vnum 8510
+Nest 0
+PrevOwner Vigil~
+Cond 0
+Wear 18
+Cost 200
 End
 
 #END

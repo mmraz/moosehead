@@ -2,24 +2,33 @@
 Name Othello~
 Id   965323068
 Email (null)~
-LogO 1003280041
-Vers 28
+LogO 1310952821
+Vers 31
 Prom <%h/%Hhp %m/%Mm %v/%Vmv %Xxp %Ssac %ggp> ~
 Race dragon~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 8
+SkPTimer 1
+SkPTracker 6
 LogoutTracker 0
 Hstm 208.219.232.34~
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1306983646
+LstKillDate 1306983646
+LstDeathDate 1306983646
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 xochipili~
 Sac  300
 Sex  1
@@ -33,34 +42,37 @@ Cla  8
 ClaO 0
 Levl 13
 DLevl 0
-Plyd 16865
-Not  999958766 999958766 999958766 999958766 999958766 999958766 999958766 999958766 999958766
+Plyd 17276
+Not  1310952761 1310952761 1310952761 1310952761 1310952761 1310952761 1310952761 1310952761 1310952761 1310952761
 Scro 22
 Rank 0
 Room 3770
-HMV  206 206 254 254 268 268
+HMV  197 197 249 249 168 168
 Gold 311
 Silv 8578
 Exp  130205
 Act  CDFGHQ
+MHSF R
 AfBy JT
 Comm DGIRYc
 Disp BFJ
 IcgB 0
 Icg 0
-Pos  8
+Pos  4
 Prac 1
-Trai 7
+Trai 19
 SkiP 8
 Save  -5
 Alig  -944
-Hit   5
-SecHit   5
-ACs 69 68 69 80
+Hit   6
+Dam   1
+SecHit   6
+SecDam   1
+ACs 71 70 71 82
 Wimp  24
-Attr 18 18 19 20 19
-AMod 3 7 6 0 6
-Pass OtAdtDF5cnAdc~
+Attr 18 18 19 20 19 11 14 13
+AMod 2 6 7 0 5 0 0 0
+Pass Ra9QS3cXm0wrg~
 Titl  the confused~
 Pnts 100
 TSex 1
@@ -77,6 +89,7 @@ Sk 1 'chain lightning'
 Sk 1 'change sex'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 1 'curse'
 Sk 88 'detect evil'
 Sk 1 'detect good'
@@ -167,9 +180,9 @@ Gr 'maladictions'
 Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
-Affc 'bless'   0  41  32   5  18          0
-Affc 'bless'   0  42  32  -5  24          0
-Affc 'armor'   0  41  17 -20  17          0
+Affc 'armor'   0  40   7 -20  17          0
+Affc 'bless'   0  42  22  -5  24          0
+Affc 'bless'   0  38  22   5  18          0
 End
 
 #O
@@ -204,7 +217,7 @@ Vnum 6601
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 1
+Wear -1
 Cost 620
 End
 
@@ -240,7 +253,7 @@ Vnum 12007
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 0
 End
 
@@ -249,7 +262,7 @@ Vnum 18000
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 16
+Wear -1
 Cost 550
 End
 
@@ -276,7 +289,7 @@ Vnum 9201
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 1
 Cost 1140
 End
 
@@ -312,7 +325,7 @@ Vnum 18003
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 17
 Cost 950
 End
 
@@ -321,7 +334,7 @@ Vnum 20406
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 225
 End
 
@@ -366,7 +379,7 @@ Vnum 5709
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 8
+Wear -1
 Cost 0
 End
 
@@ -409,9 +422,9 @@ Cond 0
 Wear -1
 Lev  10
 Cost 550
-Affc 'enchant weapon'   0  61  -1   2  18          0
-Affc 'enchant weapon'   1  61  -1   2  19          0
 Affc 'reserved'   1   8  -1   5  12          0
+Affc 'enchant weapon'   1  61  -1   2  19          0
+Affc 'enchant weapon'   0  61  -1   2  18          0
 End
 
 #O
@@ -419,7 +432,7 @@ Vnum 21
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 0
 Cost 0
 End
 
@@ -510,7 +523,7 @@ Nest 0
 PrevOwner (null)~
 ExtF 33
 Cond 0
-Wear 3
+Wear 4
 Cost 1140
 End
 
@@ -543,7 +556,7 @@ Vnum 5704
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 16
 Cost 300
 End
 
@@ -574,7 +587,7 @@ Nest 0
 PrevOwner (null)~
 ExtF 33
 Cond 0
-Wear 4
+Wear 3
 Cost 1140
 End
 

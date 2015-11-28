@@ -3,8 +3,9 @@ Name Fortinbras~
 SurN Marcelo~
 Id   1110318652
 Email (null)~
-LogO 1119407253
+LogO 1308619003
 Vers 31
+LnD  A Gladiator~
 Desc clear
 ~
 Prom <%hhp %mmp %vmv %Ssac %gg %ss %Xexp %e> ~
@@ -13,8 +14,8 @@ Clan loner~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 24
-SkPTracker 12
+SkPTimer 2
+SkPTracker 11
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -25,53 +26,53 @@ LstAtkedByTimer 0
 LstCombatDate 1110767538
 LstKillDate 1110318652
 LstDeathDate 1110318652
-LoginsWOKill 10
-LoginsWODeath 10
-LoginsWOCombat 6
+LoginsWOKill 12
+LoginsWODeath 12
+LoginsWOCombat 8
 Bnty 0
 Deity 0 matook~
-Sac  400
+Sac  500
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1110318744
-Glad 0 0 0 0 0 0
-LastHost Ottawa-HSE-ppp245378.sympatico.ca~
+Glad 0 0 0 0 1 0
+LastHost 184.175.2.131~
 Cla  12
 Kit bishop~
 ClaO 1
 Levl 23
 DLevl 0
-Plyd 62561
+Plyd 63520
 Not  1111062385 1110953859 1110318887 1119238620 1110318887 1119404804 1110318887 1119350849 1110318887 1111048001
 Scro 22
 Rank 0
-Room 3001
-HMV  432 432 363 363 301 301
-Gold 100
-Silv 721
-Exp  357032
+Room 16504
+HMV  382 382 363 363 301 301
+Gold 46
+Silv 51
+Exp  356878
 Act  CDEFGHKQRS
 MHSF RS
-AfBy OTVZ
 Comm ST
 Disp DFIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  8
+Pos  4
+Trai 14
 SkiP 31
-Save  -4
-Alig  -815
-Hit   14
-Dam   19
-SecHit   13
+Save  -1
+Alig  -843
+Hit   12
+Dam   20
+SecHit   11
 SecDam   19
-ACs 33 33 34 59
+ACs 100 100 100 100
 Wimp  10
-Attr 23 16 21 14 20 16 21 18
-AMod 4 -1 2 8 2 4 0 0
+Attr 23 16 21 14 20 8 15 18
+AMod 4 -1 2 6 2 4 0 0
 Pass FoV4jRzgNqpWU~
 Titl  always moves diagonally~
 Pnts 104
@@ -102,7 +103,7 @@ Sk 1 'create rose'
 Sk 1 'create spring'
 Sk 1 'create water'
 Sk 50 'cure blindness'
-Sk 71 'cure critical'
+Sk 73 'cure critical'
 Sk 50 'cure disease'
 Sk 1 'cure light'
 Sk 50 'cure poison'
@@ -211,13 +212,6 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-Affc 'haste'   0  19   6   2   2    2097152
-Affc 'body weaponry'   0  20  13   0   0   33554432
-Affc 'protection good'   0  19   8  -1  24      16384
-Affc 'symbol i'   0  66  50  50  13          0
-Affc 'armor'   0  16   3 -20  17          0
-Affc 'bless'   0  19   3   2  18          0
-Affc 'bless'   0  19   3  -2  24          0
 End
 
 #O
@@ -591,16 +585,6 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 9573
-Nest 1
-PrevOwner Fortinbras~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 5409
 Nest 1
 PrevOwner Fortinbras~
@@ -754,7 +738,7 @@ Vnum 17665
 Nest 0
 PrevOwner Fortinbras~
 Cond 0
-Wear -1
+Wear 16
 Cost 3200
 End
 
@@ -771,10 +755,20 @@ End
 Vnum 8024
 Nest 0
 PrevOwner Fortinbras~
-Stolen 1019
+Stolen 995
 Cond 0
-Wear 16
+Wear -1
 Cost 11000
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
 End
 
 #END

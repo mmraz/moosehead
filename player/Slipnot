@@ -2,8 +2,8 @@
 Name Slipnot~
 Id   965016208
 Email (null)~
-LogO 1103411521
-Vers 31
+LogO 1410977947
+Vers 33
 LnD  A Gladiator~
 Prom [%e %hHp %mMana %n/%N %v(%S)$%g.%s %a %wLbs %X]  ~
 Race dragon~
@@ -11,11 +11,12 @@ Clan honor~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 10
+SkPTimer 2
+SkPTracker 4
 LogoutTracker 0
 Kill 1 2 0 7
 Steal 0 0 0
+MSteal 0
 LstK Eikel~
 LstKBy Manfred~
 LstAtkedBy no one~
@@ -23,10 +24,16 @@ LstAtkedByTimer 0
 LstCombatDate 1089847615
 LstKillDate 1085948550
 LstDeathDate 1089847737
-LoginsWOKill 20
-LoginsWODeath 5
-LoginsWOCombat 4
+LoginsWOKill 34
+LoginsWODeath 19
+LoginsWOCombat 18
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 572572 mojo~
 DeityT 61 mojo~
 Sac  300
@@ -36,53 +43,54 @@ Node 0
 Cap 0
 Created 965016217
 Glad 0 0 0 0 1 0
-LastHost 209.120.156.200~
+LastHost 209.169.196.58~
 Cla  14
 Kit myrmidon~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 631233
-Not  1092457849 1092457849 1092457849 1092457849 1092457849 1092457849 1092457849 1092457849 1092457849 1092457849
+Plyd 641804
+Not  1364005176 1364005176 1364005176 1364005176 1364005176 1364348393 1364005176 1364005176 1364005176 1364005176
 Scro 22
 Rank 2
-Room 31520
-HMV  1425 1425 415 415 504 504
-Gold 260
-Silv 2
+Room 31502
+HMV  257 1555 250 415 345 504
+Gold 1322
+Silv 51
 Exp  571261
 Act  CDEFGHJQ
 MHSF R
-AfBy JT
+AfBy JTVa
 Comm FGS
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ACEFG
 Pos  4
-Prac 32
-SkiP 39
-Save  -14
-Alig  -649
-Hit   25
-Dam   35
-SecHit   26
-SecDam   34
-ACs 100 100 100 100
-Attr 25 25 25 25 25 21 16 13
-AMod 1 0 2 0 2 0 0 0
+Prac 37
+StatsTrained 120 0 0
+SkiP 75
+Save  -10
+Alig  -1000
+Hit   54
+Dam   60
+SecHit   53
+SecDam   57
+ACs 29 27 29 62
+Attr 25 25 25 25 25 11 14 13
+AMod 3 0 2 4 2 0 0 0
 Pass SlFbZ.DjVIWRY~
 Titl  gets around your neck and you're screwed!~
 Pnts 100
 TSex 1
 LLev 1
-HMVP 1390 422 469
-Cnd  0 0 39 2
+HMVP 1510 422 469
+Cnd  0 0 41 6
 Alias ki murder~
 Alias k murder~
 Alias kil murder~
 Alias kill murder~
-Spz 'flail'
+Spz 'sword'
 Sk 1 'aid'
 Sk 86 'armor'
 Sk 1 'bestow holiness'
@@ -96,7 +104,7 @@ Sk 1 'famine'
 Sk 99 'feast'
 Sk 75 'fireproof'
 Sk 1 'fly'
-Sk 75 'frenzy'
+Sk 77 'frenzy'
 Sk 95 'gate'
 Sk 1 'holy word'
 Sk 1 'knock'
@@ -162,18 +170,24 @@ Gr 'draconian'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
+Affc 'berserk'   0  51   0 100  17   67108864
+Affc 'berserk'   0  50   0  10  19   67108864
+Affc 'berserk'   0  51   0  10  18   67108864
+Affc 'haste'   0  35  11   4   2    2097152
+Affc 'stone skin'   0  39  33 -40  17          0
+Affc 'bless'   0  37  39  -5  24          0
+Affc 'bless'   0  38  39   5  18          0
+Affc 'shield'   0  38  41 -20  17          0
+Affc 'armor'   0  40  27 -20  17          0
 End
 
 #O
 Vnum 17648
 Nest 0
 PrevOwner Manfred~
-ExtF 16777472
-Stolen 5
 Cond 0
 Wear 13
 Cost 4000
-Affc 'bless'   1  30   3  -1  20        256
 End
 
 #O
@@ -550,22 +564,12 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 9573
-Nest 1
-PrevOwner Slipnot~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 10416
 Nest 1
 PrevOwner Slipnot~
 Cond 0
 Wear -1
-Time 826
+Time 566
 Cost 1170
 Spell 1 'teleport'
 Spell 2 'remove curse'
@@ -654,76 +658,6 @@ Cost 6300
 End
 
 #O
-Vnum 9573
-Nest 1
-PrevOwner Slipnot~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Slipnot~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Slipnot~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Slipnot~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Slipnot~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Slipnot~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Slipnot~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 10413
 Nest 1
 PrevOwner Slipnot~
@@ -740,21 +674,6 @@ Cond 0
 Wear -1
 Cost 9600
 Spell 3 'small bomb'
-End
-
-#O
-Vnum 18106
-Enchanted
-Nest 1
-PrevOwner Slipnot~
-ExtF 323
-Stolen 47
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   1  53  -1  11  18          0
 End
 
 #O
@@ -845,61 +764,142 @@ Vnum 9107
 Enchanted
 Nest 1
 PrevOwner Slipnot~
-ExtF 323
-Stolen 33
+ExtF 67
 Cond 0
 Wear -1
 Lev  50
 Cost 0
 Val  6 2 19 39 12
-Affc 'bless'   1  32   1  -1  20        256
 Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
+Vnum 22508
+Nest 1
+PrevOwner Slipnot~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Slipnot~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 2423
+Nest 1
+PrevOwner Slipnot~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 2433
+Nest 1
+PrevOwner Slipnot~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 2430
+Nest 1
+PrevOwner Slipnot~
+Cond 0
+Wear -1
+Cost 1800
+End
+
+#O
+Vnum 2447
+Nest 1
+PrevOwner Slipnot~
+Cond 0
+Wear -1
+Cost 150
+End
+
+#O
+Vnum 2422
+Nest 1
+PrevOwner Slipnot~
+Cond 0
+Wear -1
+Cost 700
+End
+
+#O
+Vnum 2415
+Nest 1
+PrevOwner Slipnot~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 2432
+Nest 1
+PrevOwner Slipnot~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner Slipnot~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner Slipnot~
+Damaged 84
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
 Vnum 16721
 Nest 0
 PrevOwner Slipnot~
-ExtF 257
-Stolen 33
 Cond 0
 Wear 4
 Cost 1400
-Affc 'bless'   1  32   3  -1  20        256
 End
 
 #O
 Vnum 22504
 Nest 0
 PrevOwner Slipnot~
-Stolen 23
 Cond 0
 Wear 0
 Cost 0
 End
 
 #O
-Vnum 4825
-Nest 0
-PrevOwner Slipnot~
-Stolen 33
-Cond 0
-Wear 1
-Cost 7000
-End
-
-#O
 Vnum 5922
 Nest 0
 PrevOwner Slipnot~
-ExtF 257
-Stolen 23
 Cond 0
 Wear 3
 Cost 300
-Affc 'bless'   1  32   3  -1  20        256
 End
 
 #O
@@ -907,15 +907,13 @@ Vnum 5913
 Enchanted
 Nest 0
 PrevOwner Slipnot~
-ExtF 134218048
-Stolen 33
+ExtF 134217792
 Wt   100
 Cond 0
 Wear 7
 Lev  42
 Cost 2000
 Val  7 7 7 4 0
-Affc 'bless'   1  26   3  -1  20        256
 Affc 'reserved'   1  39  -1   2  19          0
 Affc 'reserved'   1  39  -1  -2  20          0
 Affc 'enchant armor'   1  53  -1  -3  17          0
@@ -925,131 +923,99 @@ End
 Vnum 11083
 Nest 0
 PrevOwner Slipnot~
-ExtF 256
-Stolen 23
 Cond 0
 Wear 12
 Cost 5700
-Affc 'bless'   1  37   3  -1  20        256
 End
 
 #O
 Vnum 12003
 Nest 0
 PrevOwner Slipnot~
-ExtF 2432
-Stolen 33
 Cond 0
 Wear -1
 Cost 3500
-Affc 'bless'   1  33   2  -1  20        256
 End
 
 #O
 Vnum 10404
 Nest 0
 PrevOwner Slipnot~
-ExtF 4578
-Stolen 13
 Cond 0
 Wear -1
 Cost 15300
-Affc 'bless'   1  29   2  -1  20        256
 End
 
 #O
 Vnum 10454
 Nest 0
 PrevOwner Slipnot~
-ExtF 262592
-Stolen 13
 Cond 0
 Wear -1
 Cost 0
-Affc 'bless'   1  33   2  -1  20        256
 End
 
 #O
 Vnum 12003
 Nest 0
 PrevOwner Slipnot~
-ExtF 2432
-Stolen 13
 Cond 0
 Wear -1
 Cost 3500
-Affc 'bless'   1  31   2  -1  20        256
 End
 
 #O
 Vnum 15202
 Nest 0
 PrevOwner Slipnot~
-ExtF 320
-Stolen 33
 Cond 0
 Wear 6
 Cost 0
-Affc 'bless'   1  31   2  -1  20        256
 End
 
 #O
 Vnum 20740
 Nest 0
 PrevOwner Slipnot~
-ExtF 262400
-Stolen 23
 Cond 0
 Wear 17
 Cost 4500
-Affc 'bless'   1  30   3  -1  20        256
 End
 
 #O
 Vnum 10404
 Nest 0
 PrevOwner Slipnot~
-ExtF 4578
-Stolen 33
 Cond 0
 Wear -1
 Cost 15300
-Affc 'bless'   1  33   2  -1  20        256
 End
 
 #O
 Vnum 10404
 Nest 0
 PrevOwner Slipnot~
-ExtF 4578
-Stolen 23
 Cond 0
 Wear -1
 Cost 15300
-Affc 'bless'   1  29   2  -1  20        256
 End
 
 #O
 Vnum 10454
 Nest 0
 PrevOwner Slipnot~
-ExtF 262592
-Stolen 23
 Cond 0
 Wear -1
 Cost 0
-Affc 'bless'   1  29   1  -1  20        256
 End
 
 #O
 Vnum 23138
 Nest 0
 PrevOwner Slipnot~
-ExtF 18088193
 Cond 0
 Wear 18
 Cost 0
-Affc 'bless'   1  33   2  -1  20        256
 End
 
 #O
@@ -1084,12 +1050,9 @@ End
 Vnum 10442
 Nest 0
 PrevOwner Slipnot~
-ExtF 257
-Stolen 13
 Cond 0
 Wear 5
 Cost 13700
-Affc 'bless'   1  28   3  -1  20        256
 End
 
 #O
@@ -1102,6 +1065,28 @@ Cost 3000
 End
 
 #O
+Vnum 5939
+Enchanted
+Nest 0
+PrevOwner Slipnot~
+ExtF 323
+Cond 0
+Wear 16
+Cost 4000
+Affc 'enchant weapon'   1  52  -1  15  19          0
+Affc 'enchant weapon'   0  52  -1  13  18          0
+End
+
+#O
+Vnum 10454
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
 Vnum 4825
 Nest 0
 PrevOwner Slipnot~
@@ -1111,21 +1096,54 @@ Cost 7000
 End
 
 #O
-Vnum 10445
+Vnum 4825
 Nest 0
 PrevOwner Slipnot~
 Cond 0
-Wear 16
-Cost 6400
+Wear 1
+Cost 7000
 End
 
 #O
-Vnum 10452
+Vnum 2410
+Enchanted
 Nest 0
 PrevOwner Slipnot~
+ExtF 67
 Cond 0
 Wear 19
-Cost 0
+Lev  50
+Cost 1000
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
+End
+
+#O
+Vnum 11078
+Nest 0
+PrevOwner Duno~
+Damaged 38
+Cond 0
+Wear 11
+Cost 3500
+End
+
+#O
+Vnum 2437
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 3005
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5600
 End
 
 #END

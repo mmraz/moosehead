@@ -2,8 +2,8 @@
 Name Gakan~
 Id   1011761702
 Email (null)~
-LogO 1012028948
-Vers 29
+LogO 1383173760
+Vers 33
 Prom <%hhp %mm %vmv> ~
 Race human~
 Clan newbie~
@@ -11,10 +11,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 8
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 mojo~
 DeityT -136 mojo~
 Sac  300
@@ -35,41 +42,44 @@ Node 0
 Cap 0
 Created 1011761710
 Glad 0 0 0 0 0 0
+LastHost 99.241.33.67~
 Cla  13
 ClaO 2
 Levl 5
 DLevl 0
-Plyd 5558
-Not  0 0 0 0 0 0 0 0 0
+Plyd 7256
+Not  0 0 0 1367442505 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3054
-HMV  63 63 135 135 113 113
+HMV  62 63 53 115 71 113
 Gold 39
-Silv 344
-Exp  8542
+Silv 141
+Exp  8438
 Act  CDEFGHKQ
-AfBy B
+MHSF R
 Comm ADEGIR
-Disp FGJ
+Disp BFGIJ
 IcgB 0
 Icg 0
-Pos  8
-SkiP 11
-Save  -6
+Pos  4
+Trai 16
+SkiP 15
+Save  -3
 Alig  -750
-Hit   6
-SecHit   5
-ACs 67 67 67 79
-Attr 11 15 18 14 18
-AMod 2 -1 1 2 5
+Hit   3
+SecHit   3
+ACs 64 62 62 80
+Attr 11 15 18 14 18 10 10 13
+AMod 0 0 1 0 1 0 0 0
 Pass GadRQheF8fsGo~
 Titl  the confused~
 Pnts 51
 TSex 1
 LLev 1
 HMVP 63 115 113
-Cnd  0 2 25 25
+Cnd  0 31 36 45
+Alias xx backstab~
 Sk 80 'dagger'
 Sk 1 'mace'
 Sk 71 'backstab'
@@ -90,18 +100,44 @@ Sk 50 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'thief basics'
-Affc 'armor'   0  43   7 -20  17          0
-Affc 'bless'   0  40  19  -5  24          0
-Affc 'bless'   0  39  19   5  18          0
-Affc 'invisibility'   0  42  28   0   0          2
+Affc 'bless'   0  30  35  -3  24          0
+Affc 'bless'   0  30  35   3  18          0
+Affc 'armor'   0  30  29 -20  17          0
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner Respect~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner Respect~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5740
+Nest 0
+PrevOwner Chipmonk~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
 Vnum 3716
 Nest 0
-PrevOwner (null)~
+PrevOwner Gakan~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 Val  0 0 64 0 0
 End
@@ -109,7 +145,7 @@ End
 #O
 Vnum 3703
 Nest 0
-PrevOwner (null)~
+PrevOwner Gakan~
 Cond 0
 Wear 5
 Cost 0
@@ -118,16 +154,16 @@ End
 #O
 Vnum 3701
 Nest 0
-PrevOwner (null)~
+PrevOwner Gakan~
 Cond 0
-Wear 16
+Wear -1
 Cost 210
 End
 
 #O
 Vnum 3704
 Nest 0
-PrevOwner (null)~
+PrevOwner Gakan~
 Cond 0
 Wear 11
 Cost 0
@@ -136,7 +172,7 @@ End
 #O
 Vnum 2445
 Nest 0
-PrevOwner (null)~
+PrevOwner Gakan~
 Cond 0
 Wear -1
 Cost 1500
@@ -145,7 +181,7 @@ End
 #O
 Vnum 2444
 Nest 0
-PrevOwner (null)~
+PrevOwner Gakan~
 Cond 0
 Wear -1
 Cost 1500
@@ -154,16 +190,16 @@ End
 #O
 Vnum 3708
 Nest 0
-PrevOwner (null)~
+PrevOwner Gakan~
 Cond 0
-Wear 8
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3713
 Nest 0
-PrevOwner (null)~
+PrevOwner Gakan~
 Cond 0
 Wear -1
 Cost 48
@@ -172,7 +208,7 @@ End
 #O
 Vnum 3705
 Nest 0
-PrevOwner (null)~
+PrevOwner Gakan~
 Cond 0
 Wear -1
 Cost 72
@@ -181,7 +217,7 @@ End
 #O
 Vnum 3705
 Nest 0
-PrevOwner (null)~
+PrevOwner Gakan~
 Cond 0
 Wear -1
 Cost 72
@@ -190,37 +226,309 @@ End
 #O
 Vnum 4433
 Nest 0
-PrevOwner Pestilens~
+PrevOwner Gakan~
 Cond 0
-Wear 15
+Wear -1
 Cost 550
 End
 
 #O
 Vnum 4433
 Nest 0
-PrevOwner Pestilens~
+PrevOwner Gakan~
 Cond 0
-Wear 14
+Wear -1
 Cost 550
 End
 
 #O
 Vnum 4434
 Nest 0
-PrevOwner Rum~
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4434
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 3709
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3710
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3713
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 48
+End
+
+#O
+Vnum 3715
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear 17
+Cost 1140
+End
+
+#O
+Vnum 3726
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3705
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3705
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3708
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3713
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 48
+End
+
+#O
+Vnum 3712
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3707
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3706
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3711
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3712
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear 13
+Cost 72
+End
+
+#O
+Vnum 3707
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear 7
+Cost 72
+End
+
+#O
+Vnum 3708
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear 8
+Cost 72
+End
+
+#O
+Vnum 3713
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 48
+End
+
+#O
+Vnum 3705
+Nest 0
+PrevOwner Gakan~
 Cond 0
 Wear 4
-Cost 550
+Cost 72
 End
 
 #O
-Vnum 4434
+Vnum 3705
 Nest 0
-PrevOwner Rum~
+PrevOwner Gakan~
 Cond 0
 Wear 3
-Cost 550
+Cost 72
+End
+
+#O
+Vnum 3706
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3711
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3031
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 75
+Val  0 0 246 0 0
+End
+
+#O
+Vnum 3706
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear 6
+Cost 72
+End
+
+#O
+Vnum 3711
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear 12
+Cost 72
+End
+
+#O
+Vnum 3709
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3710
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3713
+Nest 0
+PrevOwner Gakan~
+Cond 0
+Wear 15
+Cost 48
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3031
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 0
+Cost 75
+Val  0 0 243 0 0
+End
+
+#O
+Vnum 3020
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 16
+Cost 157
 End
 
 #O
@@ -246,170 +554,8 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 14
 Cost 48
-End
-
-#O
-Vnum 3715
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 17
-Cost 1140
-End
-
-#O
-Vnum 3726
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 12
-Cost 0
-End
-
-#O
-Vnum 3705
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3705
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3708
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3713
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 48
-End
-
-#O
-Vnum 3712
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 13
-Cost 72
-End
-
-#O
-Vnum 3707
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3706
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 6
-Cost 72
-End
-
-#O
-Vnum 3711
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3712
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3707
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 7
-Cost 72
-End
-
-#O
-Vnum 3708
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3713
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 48
-End
-
-#O
-Vnum 3705
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3705
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3706
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
-End
-
-#O
-Vnum 3711
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 72
 End
 
 #END

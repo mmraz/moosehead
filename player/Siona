@@ -3,7 +3,7 @@ Name Siona~
 SurN Atreides~
 Id   1032047628
 Email (null)~
-LogO 1032048104
+LogO 1306907997
 Vers 31
 Prom %h %m %v%c> ~
 Race dragon~
@@ -12,7 +12,7 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 0
+SkPTracker 5
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -29,49 +29,52 @@ LoginsWOCombat 0
 Bnty 0
 Deity 0 mojo~
 DeityT -10 mojo~
-Sac  0
+Sac  300
 Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 1032047642
 Glad 0 0 0 0 0 0
-LastHost fw.vanaqua.org~
+LastHost 173.180.222.203~
 Cla  0
 ClaO 0
-Levl 1
+Levl 5
 DLevl 0
-Plyd 405
+Plyd 3576
 Not  0 0 0 0 0 1031961901 0 0 0 0
 Scro 22
 Rank 0
-Room 16502
-HMV  20 20 100 100 100 100
-Gold 27
+Room 3736
+HMV  49 60 64 134 109 112
+Gold 47
 Silv 556
-Exp  2860
-Act  CDEFGHKQ
-AfBy JT
+Exp  14331
+Act  CDEFGHK
+MHSF R
+AfBy HJT
 Comm DGIR
 Disp FJN
 IcgB 0
 Icg 0
 Pos  8
-Prac 5
-Trai 3
-Save  -1
+Prac 9
+Trai 7
+SkiP 7
+Save  -7
 Alig  750
-Hit   1
-ACs 95 95 95 99
+Hit   7
+SecHit   6
+ACs 75 75 75 79
 Attr 17 18 14 15 14 12 16 18
-AMod 0 0 0 0 0 0 0 0
+AMod 2 -1 0 2 0 0 0 0
 Pass SiDSK2hjm97eQ~
 Titl  the confused~
 Pnts 66
 TSex 2
-LLev 1
-HMVP 20 100 100
-Cnd  0 8 38 28
+LLev 0
+HMVP 60 134 112
+Cnd  0 32 18 46
 Sk 1 'acid blast'
 Sk 1 'armor'
 Sk 1 'blindness'
@@ -85,6 +88,7 @@ Sk 1 'change sex'
 Sk 1 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 1 'control weather'
 Sk 1 'curse'
 Sk 1 'detect evil'
@@ -155,7 +159,6 @@ Sk 1 'staves'
 Sk 1 'wands'
 Sk 50 'swimming'
 Sk 50 'recall'
-Sk 1 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'mage default'
@@ -169,6 +172,58 @@ Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
+Affc 'sanctuary'   0  56   2   0   0        128
+Affc 'armor'   0  36   4 -20  17          0
+Affc 'bless'   0  44  30  -6  24          0
+Affc 'bless'   0  44  30   6  18          0
+End
+
+#O
+Vnum 6646
+Nest 0
+PrevOwner Kremit~
+Cond 0
+Wear -1
+Time 543
+Cost 150
+Spell 1 'cure light'
+Spell 2 'armor'
+End
+
+#O
+Vnum 6600
+Nest 0
+PrevOwner Kremit~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 6600
+Nest 0
+PrevOwner Kremit~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 3724
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3726
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 12
+Cost 0
 End
 
 #O
@@ -178,7 +233,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 190 0 0
+Val  0 0 147 0 0
 End
 
 #O
@@ -209,21 +264,77 @@ Cost 0
 End
 
 #O
-Vnum 2445
+Vnum 3716
 Nest 0
-PrevOwner (null)~
+PrevOwner Shaenne~
 Cond 0
 Wear -1
-Cost 1500
+Cost 0
+Val  0 0 5 0 0
 End
 
 #O
-Vnum 2444
+Vnum 11319
+Nest 0
+PrevOwner Kremit~
+Cond 0
+Wear -1
+Cost 15
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Galstaff~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3723
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 1500
+Cost 0
+Spell 1 'fly'
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #END

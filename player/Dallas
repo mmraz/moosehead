@@ -2,8 +2,8 @@
 Name Dallas~
 Id   881801356
 Email (null)~
-LogO 998363769
-Vers 28
+LogO 1309540625
+Vers 31
 ShD  Nimthas is my idol!~
 LnD  and I love him!
 ~
@@ -17,12 +17,20 @@ MatookT 29
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 190 25 6093
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK Canaris~
 LstKBy Dallas~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1309540615
+LstKillDate 1309540615
+LstDeathDate 1309540615
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
 Deity 916882 paladine~
 Sac  300
 Sex  1
@@ -31,14 +39,13 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost ottawa-hs-209-217-123-195.d-ip.magma.ca~
 Cla  7
 Kit enchanter~
 ClaO 3
 Levl 52
 DLevl 0
-Plyd 6028571
-Not  994306705 994306705 994306705 994306705 996533067 994306705 994306705 994306705 994306705
+Plyd 6028581
+Not  994306705 994306705 994306705 994306705 996533067 994306705 994306705 994306705 994306705 0
 Scro 22
 Rank 0
 Room 1243
@@ -55,7 +62,7 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 539
-Trai 56
+Trai 66
 SkiP 18
 Save  -52
 Alig  -1000
@@ -64,8 +71,8 @@ Dam   79
 SecHit   2
 SecDam   4
 ACs -421 -421 -421 -412
-Attr 25 25 25 25 25
-AMod 11 5 0 10 10
+Attr 25 25 25 25 25 13 13 13
+AMod 11 5 0 10 10 0 0 0
 Pass DaeCWJr7CkYH2~
 Bin  Dallas has entered the game.~
 Bout Dallas has left the game.~
@@ -77,8 +84,8 @@ LLev 1672
 HMVP 1047 388 308
 Cnd  0 0 0 0
 Edit ABCEH
-ERange 17100 17199
 ERange 10800 10822
+ERange 17100 17199
 Alias z grat Grats on your accomplishment! WAY TO GO!~
 Alias qq quest Pick a number from 1-5.~
 Alias z chant har dal~
@@ -89,18 +96,18 @@ Alias imm immtalk~
 Alias exitmud gecho From the shadows behind you, Dallas reaches out and squeezes your ass then runs off into the sunset squealing like a little pig! SQUEAL!~
 Alias entrancemud gecho Dallas sneaks up from behind and pinches your ass then runs off into the {Dvoid{x squealing like a little pig! SQUEAL~
 Alias clan immtalk~
-Macro dmid1 at 3051 drop rub; at 3272 drop diam; at 3056 drop rub~
-Macro dmid at 3001 drop diam;at 3005 drop diam;at 3004 drop diam; at 3007 drop rub; at 3025 drop diam; at 3170 drop rub; at 3029 drop rub; at 3050 drop diam; at 3250 drop diam; at 3266 drop diam; at 3263 drop rub; at 3260 drop diam; at 3040 drop rub ~
-Macro tzealot trans %1 31801~
-Macro tavarice trans %1 31701~
-Macro thonor trans %1 31501~
-Macro tposse trans %1 31601~
-Macro tdemise trans %1 31403~
-Macro twarlock trans %1 31901~
-Macro gratz load obj 31088; grat {GWoo{x{Rhooo!{x {W%1{x {Ylevelled!{x; at %1 say {RYeeeeehawww!{x {GGrats{x {Yon your{x {Blevel!{x; at %1 give cheer %1~
-Macro tmatook trans %1 16502~
-Macro trecall trans %1 3001~
 Macro tdallas trans %2 10822~
+Macro trecall trans %1 3001~
+Macro tmatook trans %1 16502~
+Macro gratz load obj 31088; grat {GWoo{x{Rhooo!{x {W%1{x {Ylevelled!{x; at %1 say {RYeeeeehawww!{x {GGrats{x {Yon your{x {Blevel!{x; at %1 give cheer %1~
+Macro twarlock trans %1 31901~
+Macro tdemise trans %1 31403~
+Macro tposse trans %1 31601~
+Macro thonor trans %1 31501~
+Macro tavarice trans %1 31701~
+Macro tzealot trans %1 31801~
+Macro dmid at 3001 drop diam;at 3005 drop diam;at 3004 drop diam; at 3007 drop rub; at 3025 drop diam; at 3170 drop rub; at 3029 drop rub; at 3050 drop diam; at 3250 drop diam; at 3266 drop diam; at 3263 drop rub; at 3260 drop diam; at 3040 drop rub ~
+Macro dmid1 at 3051 drop rub; at 3272 drop diam; at 3056 drop rub~
 Sk 100 'reserved'
 Sk 100 'opiate'
 Sk 100 'accuracy'
@@ -126,13 +133,16 @@ Sk 100 'change sex'
 Sk 100 'charm person'
 Sk 100 'chill touch'
 Sk 100 'colour spray'
+Sk 1 'cone of silence'
 Sk 100 'continual light'
 Sk 100 'control weather'
 Sk 100 'create food'
 Sk 100 'create fountain'
+Sk 100 'create node'
 Sk 100 'create rose'
 Sk 100 'create spring'
 Sk 100 'create water'
+Sk 100 'crusade'
 Sk 100 'cure blindness'
 Sk 100 'cure critical'
 Sk 100 'cure disease'
@@ -140,7 +150,6 @@ Sk 100 'cure light'
 Sk 100 'cure poison'
 Sk 100 'cure serious'
 Sk 100 'curse'
-Sk 100 'create node'
 Sk 100 'demonfire'
 Sk 100 'detect evil'
 Sk 100 'detect good'
@@ -160,6 +169,7 @@ Sk 100 'enchant armor'
 Sk 100 'enchant weapon'
 Sk 100 'endure cold'
 Sk 100 'endure heat'
+Sk 100 'enhance'
 Sk 100 'energy drain'
 Sk 100 'enervation'
 Sk 100 'entrance'
@@ -167,6 +177,7 @@ Sk 100 'faerie fire'
 Sk 100 'faerie fog'
 Sk 100 'famine'
 Sk 100 'farsight'
+Sk 100 'farsee'
 Sk 100 'feast'
 Sk 100 'feeblemind'
 Sk 100 'fireball'
@@ -174,8 +185,8 @@ Sk 100 'fireproof'
 Sk 100 'flamestrike'
 Sk 100 'flamesword'
 Sk 100 'flame shield'
-Sk 100 'fly'
 Sk 100 'floating disc'
+Sk 100 'fly'
 Sk 100 'forget'
 Sk 100 'frenzy'
 Sk 100 'frostsword'
@@ -188,6 +199,7 @@ Sk 100 'haste'
 Sk 100 'heal'
 Sk 100 'heat metal'
 Sk 100 'hold person'
+Sk 100 'holy silence'
 Sk 100 'holy word'
 Sk 100 'ice storm'
 Sk 100 'identify'
@@ -207,11 +219,14 @@ Sk 100 'mass invis'
 Sk 100 'mirror image'
 Sk 100 'mistform'
 Sk 100 'nexus'
+Sk 100 'orb of awakening'
+Sk 100 'orb of surprise'
+Sk 100 'orb of touch'
+Sk 100 'orb of turning'
 Sk 100 'pass door'
 Sk 100 'plague'
 Sk 100 'poison'
 Sk 100 'portal'
-Sk 100 'wrath of the pen'
 Sk 100 'protection evil'
 Sk 100 'protection good'
 Sk 100 'protection neutral'
@@ -229,6 +244,8 @@ Sk 100 'shield'
 Sk 100 'shocking grasp'
 Sk 100 'sleep'
 Sk 100 'slow'
+Sk 100 'smoke screen'
+Sk 100 'see soul'
 Sk 100 'speed'
 Sk 100 'stonefist'
 Sk 100 'stone skin'
@@ -245,6 +262,7 @@ Sk 100 'warp'
 Sk 100 'water breathing'
 Sk 100 'weaken'
 Sk 100 'word of recall'
+Sk 100 'wrath of the pen'
 Sk 100 'acid breath'
 Sk 100 'fire breath'
 Sk 100 'frost breath'
@@ -254,23 +272,13 @@ Sk 100 'small bomb'
 Sk 100 'high explosive'
 Sk 100 'animate dead'
 Sk 100 'summon dead'
+Sk 100 'summon elemental'
 Sk 100 'cryogenesis'
 Sk 100 'draw life'
 Sk 1 'make bag'
 Sk 100 'turn undead'
 Sk 100 'withstand death'
 Sk 100 'wound transfer'
-Sk 100 'smoke screen'
-Sk 100 'orb of awakening'
-Sk 100 'orb of surprise'
-Sk 100 'orb of touch'
-Sk 100 'orb of turning'
-Sk 100 'crusade'
-Sk 100 'holy silence'
-Sk 100 'see soul'
-Sk 100 'farsee'
-Sk 100 'enhance'
-Sk 100 'summon elemental'
 Sk 100 'axe'
 Sk 100 'dagger'
 Sk 100 'flail'
@@ -333,6 +341,7 @@ Sk 1 'nethermancy'
 Sk 100 'peek'
 Sk 100 'pick lock'
 Sk 100 'riding'
+Sk 1 'sharpen'
 Sk 100 'slice'
 Sk 100 'sneak'
 Sk 100 'spellcraft'
@@ -1413,13 +1422,13 @@ Wear -1
 Lev  47
 Cost 4800
 Val  2 2 17 11 2054
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'reserved'   1  40  -1   0   0          0
 Affc 'reserved'   1  40  -1  -1  20          0
-ExDe enscription~ This blade is a symbol of Randal and Abaddon's undying love. As the serpants are bound together forever my magic so are Randal and Abaddon by love.
-~
+Affc 'reserved'   1  40  -1   0   0          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 ExDe this~ blade is a symbol of Randal and Abaddon's undying love. As the serpants are bound together forever my magic so are Randal and Abaddon by love.
+~
+ExDe enscription~ This blade is a symbol of Randal and Abaddon's undying love. As the serpants are bound together forever my magic so are Randal and Abaddon by love.
 ~
 End
 

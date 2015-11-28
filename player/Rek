@@ -2,31 +2,36 @@
 Name Rek~
 Id   1008416030
 Email (null)~
-LogO 1120224279
-Vers 31
+LogO 1326560773
+Vers 33
 LnD  A Gladiator~
 Prom [{Y%e{x] [%g]  %c <%h %m %v {G%X{x> ~
 Race ogre~
 Clan honor~
 Outc 0
-RufT 231
+RufT 0
 MatookT 0
-SkPTimer 3
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
-Kill 3 4 2 14
+Kill 3 4 2 17
 Steal 0 0 0
+MSteal 0
 LstK Amroth~
-LstKBy Tankasaurus~
+LstKBy Tnesa~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1055965730
+LstCombatDate 1309162593
 LstKillDate 1053250890
-LstDeathDate 1062448214
-LoginsWOKill 9
-LoginsWODeath 6
-LoginsWOCombat 7
+LstDeathDate 1315737581
+LoginsWOKill 19
+LoginsWODeath 2
+LoginsWOCombat 6
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 125655 huitzilopochtli~
 DeityT -590 huitzilopochtli~
 Sac  300
@@ -36,21 +41,21 @@ Node 0
 Cap 0
 Created 1008416274
 Glad 0 0 0 0 1 0
-LastHost 82-43-114-80.cable.ubr01.mort.blueyonder.co.uk~
+LastHost 195.11.197.104~
 Cla  3
 ClaO 3
-Levl 30
+Levl 40
 DLevl 0
-Plyd 172311
-Not  1062447660 1062447660 1062447660 1062447660 1062447660 1062447660 1062447660 1062447660 1062447660 1062447660
+Plyd 195038
+Not  1326560757 1326560757 1326560757 1326560757 1326560757 1326560757 1326560757 1326560757 1326560757 1326560757
 Scro 22
 Rank 0
-Room 3054
-HMV  816 816 219 219 209 209
-Gold 47
-Silv 1403
-Exp  208767
-Act  CDEFGKQ
+Room 31501
+HMV  1084 1084 279 279 329 329
+Gold 166
+Silv 3717
+Exp  272338
+Act  CDEFGKQS
 MHSF RSU
 AfBy C
 Comm 0
@@ -58,25 +63,28 @@ Disp BFIJ
 IcgB 0
 Icg 0
 Pnet AFGI
-Pos  8
-Prac 2
-SkiP 214
+Pos  4
+Prac 9
+Trai 2
+ReTrai 4
+StatsTrained 60 0 0
+SkiP 49
 Save  -3
 Alig  -1000
-Hit   14
-Dam   23
-SecHit   13
-SecDam   22
-ACs 59 59 59 75
-Attr 23 16 18 17 21 13 13 13
-AMod 1 0 0 5 2 0 0 0
+Hit   32
+Dam   37
+SecHit   21
+SecDam   26
+ACs 61 61 61 75
+Attr 23 16 18 17 21 11 14 13
+AMod 1 0 0 2 1 0 0 0
 Pass ReuxvEi/ZpBUc~
-Titl  the drunken noob.~
+Titl .~
 Pnts 92
 TSex 1
-LLev 34
-HMVP 825 226 209
-Cnd  0 0 28 8
+LLev 52
+HMVP 1084 276 329
+Cnd  0 0 25 0
 Alias k kill~
 Alias rh emote hops around like a little Ogre.~
 Alias c cast~
@@ -84,13 +92,16 @@ Alias b bash~
 Alias d down~
 Alias m murder~
 Sk 75 'armor'
-Sk 1 'cancellation'
+Sk 76 'cancellation'
 Sk 1 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
 Sk 75 'fireproof'
 Sk 1 'fly'
 Sk 75 'gate'
+Sk 75 'giant strength'
+Sk 75 'haste'
+Sk 1 'infravision'
 Sk 1 'knock'
 Sk 1 'nexus'
 Sk 1 'pass door'
@@ -98,6 +109,7 @@ Sk 1 'portal'
 Sk 75 'protection evil'
 Sk 75 'protection good'
 Sk 1 'protection neutral'
+Sk 75 'refresh'
 Sk 1 'sacred guardian'
 Sk 75 'sanctuary'
 Sk 1 'shield'
@@ -111,22 +123,22 @@ Sk 1 'flail'
 Sk 100 'mace'
 Sk 1 'polearm'
 Sk 1 'spear'
-Sk 82 'sword'
+Sk 100 'sword'
 Sk 1 'whip'
 Sk 98 'bash'
-Sk 75 'berserk'
+Sk 78 'berserk'
 Sk 78 'bludgeon'
-Sk 78 'dirt kicking'
+Sk 79 'dirt kicking'
 Sk 75 'disarm'
-Sk 93 'dodge'
-Sk 87 'enhanced critical'
+Sk 95 'dodge'
+Sk 89 'enhanced critical'
 Sk 100 'enhanced damage'
-Sk 91 'parry'
+Sk 95 'parry'
 Sk 75 'rescue'
-Sk 78 'shield block'
-Sk 83 'scan'
+Sk 86 'shield block'
+Sk 86 'scan'
 Sk 96 'second attack'
-Sk 92 'third attack'
+Sk 96 'third attack'
 Sk 1 'fast healing'
 Sk 1 'scrolls'
 Sk 1 'staves'
@@ -137,133 +149,15 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'weaponsmaster'
+Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
 End
 
 #O
-Vnum 8500
-Nest 0
-PrevOwner Statik~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8500
-Nest 0
-PrevOwner Statik~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3034
-Nest 1
-PrevOwner Rek~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 1
-PrevOwner Rek~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 3034
-Nest 1
-PrevOwner Rek~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Rek~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Rek~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Rek~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner Statik~
-Cond 0
-Wear -1
-Time 540
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 1972
-Nest 0
-PrevOwner Statik~
-Cond 0
-Wear 17
-Cost 0
-End
-
-#O
 Vnum 8309
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
 Wear -1
 Cost 100
@@ -272,7 +166,7 @@ End
 #O
 Vnum 8309
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
 Wear -1
 Cost 100
@@ -281,7 +175,7 @@ End
 #O
 Vnum 23109
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
 Wear 7
 Cost 1500
@@ -290,7 +184,7 @@ End
 #O
 Vnum 23107
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
 Wear 10
 Cost 1500
@@ -299,7 +193,7 @@ End
 #O
 Vnum 23112
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
 Wear 13
 Cost 1500
@@ -308,7 +202,7 @@ End
 #O
 Vnum 23111
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
 Wear 9
 Cost 1500
@@ -317,7 +211,7 @@ End
 #O
 Vnum 23110
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
 Wear 8
 Cost 1500
@@ -326,52 +220,35 @@ End
 #O
 Vnum 23106
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
-Wear 6
+Wear -1
 Cost 1500
 End
 
 #O
 Vnum 8048
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
-Wear 0
+Wear -1
 Cost 2000
 End
 
 #O
 Vnum 8045
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
+Damaged 46
 Cond 0
 Wear 11
 Cost 2000
 End
 
 #O
-Vnum 8502
-Nest 0
-PrevOwner Statik~
-Cond 0
-Wear -1
-Cost 3100
-End
-
-#O
-Vnum 4438
-Nest 0
-PrevOwner Statik~
-Cond 0
-Wear 5
-Cost 0
-End
-
-#O
 Vnum 2505
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
 Wear 15
 Cost 1150
@@ -380,7 +257,7 @@ End
 #O
 Vnum 2505
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
 Wear 14
 Cost 1150
@@ -389,16 +266,7 @@ End
 #O
 Vnum 8502
 Nest 0
-PrevOwner Statik~
-Cond 0
-Wear -1
-Cost 3100
-End
-
-#O
-Vnum 8502
-Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
 Wear -1
 Cost 3100
@@ -407,47 +275,25 @@ End
 #O
 Vnum 16721
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
-Wear 3
+Wear 4
 Cost 1400
 End
 
 #O
 Vnum 1395
 Nest 0
-PrevOwner Statik~
+PrevOwner Rek~
 Cond 0
-Wear 4
+Wear 3
 Cost 1970
-End
-
-#O
-Vnum 8510
-Nest 0
-PrevOwner Statik~
-Cond 0
-Wear 18
-Cost 200
-End
-
-#O
-Vnum 3292
-Nest 0
-PrevOwner Statik~
-Cond 0
-Wear -1
-Time 731
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
 End
 
 #O
 Vnum 2803
 Nest 0
-PrevOwner (null)~
+PrevOwner Rek~
 Cond 0
 Wear 2
 Cost 1150
@@ -456,20 +302,383 @@ End
 #O
 Vnum 2803
 Nest 0
-PrevOwner (null)~
+PrevOwner Rek~
 Cond 0
 Wear 1
 Cost 1150
 End
 
 #O
-Vnum 5406
+Vnum 8502
 Nest 0
 PrevOwner Rek~
-Stolen 27
+Cond 0
+Wear -1
+Cost 3100
+End
+
+#O
+Vnum 4438
+Enchanted
+Nest 0
+PrevOwner Rek~
+ExtF 65
+Cond 0
+Wear 5
+Lev  3
+Cost 0
+Affc 'enchant armor'   1   9  -1  -1  17          0
+Affc 'reserved'   1   2  -1   1   1          0
+Affc 'reserved'   1   2  -1   1   5          0
+End
+
+#O
+Vnum 5706
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5706
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Time 402
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 3138
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 24
+Val  64 48 0 0 0
+End
+
+#O
+Vnum 8510
+Nest 0
+PrevOwner Rek~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 8509
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23023
+Enchanted
+Nest 0
+PrevOwner Randolf~
+ExtF 67
+Cond 0
+Wear -1
+Lev  40
+Cost 2500
+Affc 'reserved'   1  34  -1   2   5          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
+End
+
+#O
+Vnum 15202
+Nest 0
+PrevOwner Randolf~
+Cond 0
+Wear 6
+Cost 0
+End
+
+#O
+Vnum 18116
+Nest 0
+PrevOwner Randolf~
+Cond 0
+Wear 0
+Cost 6000
+End
+
+#O
+Vnum 23124
+Nest 0
+PrevOwner Randolf~
+Cond 0
+Wear 17
+Cost 2400
+End
+
+#O
+Vnum 23138
+Nest 0
+PrevOwner Randolf~
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 5406
+Enchanted
+Nest 0
+PrevOwner Rek~
+ExtF 83
+Stolen 179
 Cond 0
 Wear 16
+Lev  39
 Cost 0
+Affc 'enchant weapon'   1  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'reserved'   1  30  -1 -10  13          0
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

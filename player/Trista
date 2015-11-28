@@ -3,7 +3,7 @@ Name Trista~
 SurN Glory~
 Id   1035128847
 Email (null)~
-LogO 1132534501
+LogO 1318037573
 Vers 31
 LnD  A Gladiator~
 Prom %hhp %mmana %vmv %Xxp %ggold %ssil ~
@@ -27,6 +27,9 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 104261 matook~
 DeityT -5486 matook~
 Sac  300
@@ -36,57 +39,58 @@ Node 0
 Cap 0
 Created 1035129260
 Glad 0 0 0 0 1 0
-LastHost r044-202.seavers.ship.edu~
+LastHost 71.199.125.21~
 Cla  7
 Kit medium~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 455865
-Not  1132463374 1132463374 1132463374 1132463374 1132463374 1132463374 1132463374 1132463374 1132463374 1132463374
+Plyd 482959
+Not  1312936631 1312998973 1132463374 1312098372 1132463374 1312550465 1132463374 1311769662 1132463374 1132463374
 Scro 22
 Rank 0
-Room 3001
-HMV  409 409 1452 1782 494 494
-Gold 269
-Silv 1171
+Room 9062
+HMV  329 329 1431 1742 494 494
+Gold 714
+Silv 20
 Exp  245122
-Act  DGHIKMQ
+Act  DEFGHIKMQ
 MHSF R
-AfBy DEFJT
+AfBy DEFHJT
 Comm S
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
+NewOpts A
 Pos  8
-Prac 68
-SkiP 16
+Prac 71
+SkiP 22
 Save  -12
-Alig  -1000
-Hit   8
-Dam   7
-SecHit   6
-SecDam   7
-ACs 20 20 20 28
+Alig  -958
+Hit   13
+Dam   13
+SecHit   4
+SecDam   3
+ACs -40 -40 -40 -32
 Wimp  10
 Attr 13 25 25 25 13 17 8 13
 AMod 6 7 0 -2 -4 0 0 0
 Pass TrjzqJlYXmm6c~
-Titl  ({BMatook{x).~
+Titl .~
 Pnts 80
 TSex 2
 LLev 38
 HMVP 309 1327 504
-Cnd  0 6 16 16
+Cnd  0 48 48 48
 Sk 100 'acid blast'
 Sk 1 'aid'
-Sk 86 'armor'
+Sk 89 'armor'
 Sk 1 'bestow holiness'
-Sk 86 'bless'
+Sk 88 'bless'
 Sk 93 'blindness'
 Sk 1 'blur'
-Sk 93 'body weaponry'
+Sk 95 'body weaponry'
 Sk 75 'burning hands'
 Sk 75 'call lightning'
 Sk 1 'calm'
@@ -112,21 +116,21 @@ Sk 82 'cure poison'
 Sk 75 'cure serious'
 Sk 80 'curse'
 Sk 75 'demonfire'
-Sk 75 'detect evil'
+Sk 77 'detect evil'
 Sk 1 'detect good'
-Sk 1 'detect hidden'
+Sk 75 'detect hidden'
 Sk 1 'detect invis'
 Sk 84 'detect magic'
 Sk 1 'detect poison'
 Sk 1 'dispel evil'
 Sk 1 'dispel good'
-Sk 83 'dispel magic'
-Sk 81 'earthquake'
+Sk 86 'dispel magic'
+Sk 88 'earthquake'
 Sk 75 'enchant armor'
 Sk 93 'enchant weapon'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
-Sk 76 'energy drain'
+Sk 78 'energy drain'
 Sk 1 'enervation'
 Sk 75 'entrance'
 Sk 75 'faerie fire'
@@ -144,7 +148,7 @@ Sk 1 'forget'
 Sk 98 'frenzy'
 Sk 1 'fumble'
 Sk 100 'gate'
-Sk 85 'giant strength'
+Sk 90 'giant strength'
 Sk 100 'haste'
 Sk 100 'heal'
 Sk 75 'heat metal'
@@ -198,7 +202,7 @@ Sk 100 'summon dead'
 Sk 79 'cryogenesis'
 Sk 75 'draw life'
 Sk 81 'make bag'
-Sk 97 'turn undead'
+Sk 98 'turn undead'
 Sk 93 'withstand death'
 Sk 75 'wound transfer'
 Sk 100 'dagger'
@@ -236,8 +240,11 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'giant strength'   0  48  23   4   1          0
-Affc 'detect magic'   0  43   3   0   0         16
+Affc 'sanctuary'   0  56   7   0   0        128
+Affc 'giant strength'   0  48  18   4   1          0
+Affc 'shield'   0  48  32 -20  17          0
+Affc 'detect magic'   0  50  23   0   0         16
+Affc 'stone skin'   0  54  25 -40  17          0
 End
 
 #O
@@ -248,8 +255,8 @@ PrevOwner Trista~
 Cond 0
 Wear 5
 Cost 13700
-Affc 'reserved'   1  45  -1  -4  20          0
 Affc 'reserved'   1  45  -1  30  12          0
+Affc 'reserved'   1  45  -1  -4  20          0
 End
 
 #O
@@ -259,477 +266,6 @@ PrevOwner Trista~
 Cond 0
 Wear -1
 Cost 710
-End
-
-#O
-Vnum 1374
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
-Vnum 23505
-Nest 2
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 700
-End
-
-#O
-Vnum 23505
-Nest 2
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 700
-End
-
-#O
-Vnum 1347
-Nest 2
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 2
-PrevOwner Trista~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 4846
-Affc 'enchant weapon'   1  53  -1   6  19          0
-Affc 'enchant weapon'   0  53  -1   6  18          0
-End
-
-#O
-Vnum 10440
-Nest 2
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 8 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 8504
-Nest 2
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8517
-Nest 2
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8517
-Nest 2
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5903
-Nest 1
-PrevOwner Trista~
-ExtF 134218257
-Wt   40
-Cond 0
-Wear -1
-Cost 4000
-Val  8 8 8 6 1
-End
-
-#O
-Vnum 3138
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 24
-Val  64 0 10 1 0
-End
-
-#O
-Vnum 23579
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 500
-Spell 1 'turn undead'
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 11023
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 8517
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8517
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10000
 End
 
 #O
@@ -751,15 +287,6 @@ Cost 3600
 End
 
 #O
-Vnum 759
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
 Vnum 2205
 Nest 0
 PrevOwner (null)~
@@ -775,42 +302,6 @@ PrevOwner Charron~
 Cond 0
 Wear -1
 Cost 22334
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Flowergurl~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Maxim~
-Cond 0
-Wear -1
-Cost 10000
 End
 
 #O
@@ -857,24 +348,6 @@ Val  520 1 -1 90 25
 End
 
 #O
-Vnum 23515
-Nest 0
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 7609
-End
-
-#O
-Vnum 23515
-Nest 0
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 7609
-End
-
-#O
 Vnum 18120
 Nest 0
 PrevOwner Trista~
@@ -902,15 +375,6 @@ Cost 0
 End
 
 #O
-Vnum 23516
-Nest 0
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
 Vnum 20703
 Enchanted
 Nest 0
@@ -919,11 +383,11 @@ Name dark doom~
 ShD  The Dark Swoosh of Doom!~
 Desc The Mighty Dark Swoosh is here.~
 Cond 0
-Wear -1
+Wear 16
 Lev  20
 Cost 250
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'enchant weapon'   1  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
 End
 
 #O
@@ -934,8 +398,8 @@ PrevOwner Trista~
 Cond 0
 Wear 13
 Cost 5500
-Affc 'reserved'   1  46  -1   1  18          0
 Affc 'reserved'   1  46  -1   2  19          0
+Affc 'reserved'   1  46  -1   1  18          0
 End
 
 #O
@@ -945,24 +409,6 @@ PrevOwner Trista~
 Cond 0
 Wear -1
 Cost 4500
-End
-
-#O
-Vnum 5904
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 12010
-Nest 0
-PrevOwner Yevon~
-Cond 0
-Wear -1
-Cost 15000
 End
 
 #O
@@ -996,16 +442,6 @@ End
 Vnum 9807
 Nest 0
 PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5408
-Nest 0
-PrevOwner (null)~
-ExtF 16
 Cond 0
 Wear -1
 Cost 0
@@ -1059,15 +495,6 @@ Cost 5000
 End
 
 #O
-Vnum 8503
-Nest 0
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 2732
 Nest 0
 PrevOwner Trista~
@@ -1077,30 +504,12 @@ Cost 4850
 End
 
 #O
-Vnum 2447
-Nest 0
-PrevOwner Trista~
-Cond 0
-Wear -1
-Cost 150
-End
-
-#O
 Vnum 15110
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2000
-End
-
-#O
-Vnum 15111
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2600
 End
 
 #O
@@ -1128,16 +537,6 @@ PrevOwner (null)~
 Cond 0
 Wear 6
 Cost 10000
-End
-
-#O
-Vnum 8040
-Nest 0
-PrevOwner (null)~
-ExtF 18350401
-Cond 0
-Wear -1
-Cost 2500
 End
 
 #O
@@ -1177,97 +576,12 @@ Cost 250
 End
 
 #O
-Vnum 10403
-Nest 0
-PrevOwner Trista~
-Cond 0
-Wear 16
-Cost 6300
-End
-
-#O
 Vnum 15102
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 15
 Cost 3500
-End
-
-#O
-Vnum 13205
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
-Vnum 6519
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 300
-Spell 3 'change sex'
-End
-
-#O
-Vnum 23514
-Nest 0
-PrevOwner Trista~
-Cond 0
-Wear 4
-Cost 3690
-End
-
-#O
-Vnum 23514
-Nest 0
-PrevOwner Trista~
-Cond 0
-Wear 3
-Cost 3690
-End
-
-#O
-Vnum 2010
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 2008
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Time 798
-Cost 880
-Spell 1 'bless'
-Spell 2 'sanctuary'
-End
-
-#O
-Vnum 2009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1450
-End
-
-#O
-Vnum 3364
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1280
 End
 
 #O
@@ -1280,17 +594,185 @@ Cost 3100
 End
 
 #O
-Vnum 2910
+Vnum 5705
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 11023
+Nest 0
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 23516
+Nest 0
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 1374
+Nest 0
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 1347
+Nest 1
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 8 161 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 18119
 Enchanted
 Nest 0
-PrevOwner Shyissath~
+PrevOwner Trista~
 ExtF 67
 Cond 0
 Wear -1
-Lev  18
+Lev  50
+Cost 4846
+Affc 'enchant weapon'   0  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
+End
+
+#O
+Vnum 23505
+Nest 0
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 700
+End
+
+#O
+Vnum 23505
+Nest 0
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 700
+End
+
+#O
+Vnum 2309
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3500
+End
+
+#O
+Vnum 4822
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 5903
+Nest 0
+PrevOwner Trista~
+ExtF 134218257
+Wt   40
+Cond 0
+Wear -1
+Cost 4000
+Val  8 8 8 6 1
+End
+
+#O
+Vnum 12010
+Nest 0
+PrevOwner Trista~
+Cond 0
+Wear -1
 Cost 0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   1  52  -1  12  18          0
+End
+
+#O
+Vnum 5904
+Nest 0
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Trista~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 9106
+Nest 0
+PrevOwner (null)~
+ExtF 537526272
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

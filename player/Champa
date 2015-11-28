@@ -2,8 +2,9 @@
 Name Champa~
 Id   1001842859
 Email (null)~
-LogO 1096252753
-Vers 31
+LogO 1352539679
+Vers 33
+LnD  A dying Gladiator~
 Desc Big Buff Meany type dude!
 ~
 Prom <%h Hp %m Mn %v Mv>%c<%XXp %SDp %gg %ss> ~
@@ -12,10 +13,11 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +29,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -38 xochipili~
 Sac  300
@@ -35,22 +41,22 @@ Vump  0
 Node 0
 Cap 0
 Created 1001842867
-Glad 0 0 0 0 0 0
-LastHost c-67-170-152-250.client.comcast.net~
+Glad 0 0 0 0 1 0
+LastHost 98.232.225.18~
 Cla  6
 Kit barbarian~
 ClaO 3
-Levl 29
+Levl 31
 DLevl 0
-Plyd 67395
-Not  1091425328 1091425328 1091425328 1091425328 1091425328 1091425328 1091425328 1091425328 1091425328 1091425328
+Plyd 69380
+Not  1348143663 1348143663 1348143663 1348143663 1348143663 1348143663 1348143663 1348143663 1348143663 1348143663
 Scro 22
 Rank 0
-Room 3770
-HMV  481 481 224 229 168 334
+Room 3001
+HMV  511 511 239 239 362 362
 Gold 0
-Silv 710
-Exp  153420
+Silv 31
+Exp  161501
 Act  CDEFGKQ
 MHSF R
 Comm GR
@@ -58,24 +64,26 @@ Disp BFGIJ
 IcgB 0
 Icg 0
 Pos  8
-SkiP 5
-Save  -1
+Prac 9
+Trai 2
+ReTrai 11
+SkiP 22
 Alig  -1000
-Hit   10
-Dam   15
+Hit   16
+Dam   19
 SecHit   10
 SecDam   13
-ACs 54 54 54 65
+ACs 58 58 58 66
 Wimp  10
-Attr 20 18 18 19 18 13 18 13
-AMod 2 2 2 6 1 0 0 0
+Attr 20 18 18 19 18 10 10 13
+AMod 2 1 2 5 1 0 0 0
 Pass Ch38KzY3QRrhg~
 Titl .~
 Pnts 86
 TSex 1
-LLev 18
-HMVP 481 229 229
-Cnd  0 0 22 0
+LLev 19
+HMVP 511 239 257
+Cnd  0 0 12 28
 Alias cs c 'colour spray'~
 Alias fb c 'fireball'~
 Alias k kill~
@@ -99,21 +107,23 @@ Sk 76 'barbarian rage'
 Sk 75 'berserk'
 Sk 75 'bludgeon'
 Sk 75 'cleave'
+Sk 75 'dodge'
 Sk 83 'endurance'
 Sk 77 'enhanced critical'
 Sk 100 'enhanced damage'
 Sk 86 'insanity'
 Sk 76 'parry'
+Sk 75 'rescue'
 Sk 53 'scan'
-Sk 81 'second attack'
+Sk 84 'second attack'
 Sk 79 'third attack'
 Sk 75 'fast healing'
 Sk 75 'steal'
 Sk 1 'scrolls'
 Sk 8 'staves'
-Sk 45 'wands'
+Sk 47 'wands'
 Sk 50 'swimming'
-Sk 50 'recall'
+Sk 75 'recall'
 Gr 'rom basics'
 Gr 'berzerker basics'
 Gr 'transportation'
@@ -127,15 +137,6 @@ Cond 0
 Wear 12
 Cost 0
 Val  100 1 0 10 85
-End
-
-#O
-Vnum 5933
-Nest 1
-PrevOwner Champa~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -181,16 +182,6 @@ PrevOwner Champa~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Champa~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
 End
 
 #O
@@ -266,41 +257,6 @@ Cost 14
 End
 
 #O
-Vnum 6000
-Enchanted
-Nest 1
-PrevOwner Champa~
-ExtF 67
-Cond 0
-Wear -1
-Lev  13
-Cost 820
-Affc 'enchant weapon'   1  52  -1   6  19          0
-Affc 'enchant weapon'   0  52  -1   6  18          0
-End
-
-#O
-Vnum 3044
-Nest 1
-PrevOwner Champa~
-Cond 0
-Wear -1
-Cost 320
-Val  4 10 4 134 0
-Spell 3 'magic missile'
-End
-
-#O
-Vnum 3044
-Nest 1
-PrevOwner Champa~
-Cond 0
-Wear -1
-Cost 320
-Spell 3 'magic missile'
-End
-
-#O
 Vnum 6511
 Nest 1
 PrevOwner Champa~
@@ -316,17 +272,6 @@ PrevOwner Champa~
 Cond 0
 Wear -1
 Cost 22
-End
-
-#O
-Vnum 3044
-Nest 1
-PrevOwner Champa~
-Cond 0
-Wear -1
-Cost 320
-Val  4 10 7 134 0
-Spell 3 'magic missile'
 End
 
 #O
@@ -442,7 +387,7 @@ Vnum 3116
 Nest 0
 PrevOwner Champa~
 Cond 0
-Wear 11
+Wear -1
 Cost 1190
 End
 
@@ -462,15 +407,6 @@ PrevOwner Champa~
 Cond 0
 Wear 1
 Cost 1150
-End
-
-#O
-Vnum 12022
-Nest 0
-PrevOwner Champa~
-Cond 0
-Wear 17
-Cost 0
 End
 
 #O
@@ -519,46 +455,46 @@ Cost 6000
 End
 
 #O
-Vnum 8502
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 6000
 Enchanted
 Nest 0
-PrevOwner Champa~
-ExtF 451
-Cond 0
-Wear -1
-Lev  25
-Cost 3100
-Affc 'enchant weapon'   1  48  -1  10  19          0
-Affc 'enchant weapon'   1  48  -1  11  18          0
-Affc 'reserved'   1  15  -1  -1   3          0
-Affc 'reserved'   1  15  -1   1   1          0
-End
-
-#O
-Vnum 8517
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8020
-Nest 0
-PrevOwner (null)~
+PrevOwner Epitaph~
+ExtF 67
 Cond 0
 Wear 16
-Cost 13500
-End
-
-#O
-Vnum 3152
-Nest 0
-PrevOwner Champa~
-Cond 0
-Wear -1
-Cost 14
+Lev  13
+Cost 820
+Affc 'enchant weapon'   1  52  -1   6  19          0
+Affc 'enchant weapon'   0  52  -1   6  18          0
 End
 
 #END

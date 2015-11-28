@@ -2,8 +2,9 @@
 Name Matar~
 Id   1009150090
 Email (null)~
-LogO 1125444019
-Vers 31
+LogO 1360117116
+Vers 33
+LnD  A Gladiator~
 Prom <%hhp %mm %vmv %W# %Spts> ~
 Race dragon~
 Clan honor~
@@ -11,22 +12,27 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 5
+SkPTracker 0
 LogoutTracker 0
 Kill 0 7 0 2
 Steal 0 0 0
+MSteal 0
 LstK Alfred~
 LstKBy Kerbouchard~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1057801376
+LstCombatDate 1311126379
 LstKillDate 1034239751
 LstDeathDate 1012592862
-LoginsWOKill 100
-LoginsWODeath 182
-LoginsWOCombat 64
+LoginsWOKill 106
+LoginsWODeath 188
+LoginsWOCombat 4
 Bnty 200
-Deity 68959 mojo~
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+Deity 68959 paladine~
 DeityT -5467 almighty~
 Sac  300
 Sex  1
@@ -34,60 +40,60 @@ Vump  0
 Node 0
 Cap 0
 Created 1009150095
-Glad 0 0 0 0 0 0
-LastHost 24.16.129.245~
+Glad 0 1 0 0 2 0
+LastHost 50.98.232.71~
 Cla  8
 Kit archeologist~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 553987
-Not  1125437196 1125437196 1125437196 1125437196 1125437196 1125437196 1125437196 1125437196 1125437196 1125437196
+Plyd 564852
+Not  1360041426 1360048238 1360041426 1360041426 1360053622 1360041426 1360041426 1360041426 1360041426 1360041426
 Scro 22
 Rank 4
-Room 31520
-HMV  1306 1306 429 449 496 528
-Gold 68
-Silv 241
+Room 31504
+HMV  1408 1456 449 449 402 528
+Gold 117
+Silv 1471
 Exp  497279
 Act  DGHKQS
 MHSF RSU
 ClnF I
-AfBy DEFJPTU
+AfBy JOQT
 Comm 0
-Disp BFJL
+Disp BFIJL
 IcgB 0
 Icg 0
 Pnet ABCEFGH
 Pos  8
 Prac 2
-Trai 3
-SkiP 273
-Save  -8
-Alig  1000
-Hit   34
-Dam   44
-SecHit   29
+StatsTrained 150 0 0
+SkiP 309
+Save  -3
+Alig  897
+Hit   31
+Dam   47
+SecHit   23
 SecDam   39
-ACs 18 23 18 35
-Attr 23 25 21 23 23 21 16 13
+ACs -62 -57 -62 -45
+Attr 23 25 21 23 23 11 14 13
 AMod 3 0 4 2 2 0 0 0
-Pass MaWdkFEq/HI/Q~
+Pass MaPpmMCEiPVaI~
 Titl .~
 Pnts 99
 TSex 1
 LLev 77
-HMVP 1215 424 493
-Cnd  0 0 31 14
+HMVP 1365 424 493
+Cnd  0 0 26 4
 Alias whoclan who clan 35 51~
 Alias / c word~
 Alias ct cast 'turn undead'~
 Alias cd cast 'dispel magic'~
 Alias h murder~
-Alias 1 gar bele~
+Alias 1 hamstring glad~
 Alias css cast 'summon dead'~
 Alias res order all rescue matar~
-Alias 2 murder ker~
+Alias 2 bs glad~
 Alias 3 trap alarm~
 Alias oak order all kick~
 Alias hit murder~
@@ -107,15 +113,15 @@ Sk 75 'farsight'
 Sk 100 'fireproof'
 Sk 75 'fly'
 Sk 90 'gate'
-Sk 94 'identify'
+Sk 95 'identify'
 Sk 1 'knock'
 Sk 1 'know alignment'
 Sk 92 'locate object'
 Sk 1 'nexus'
-Sk 79 'pass door'
+Sk 82 'pass door'
 Sk 75 'portal'
 Sk 100 'protection evil'
-Sk 83 'protection good'
+Sk 86 'protection good'
 Sk 80 'protection neutral'
 Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
@@ -124,7 +130,7 @@ Sk 85 'stone skin'
 Sk 87 'summon'
 Sk 75 'teleport'
 Sk 100 'word of recall'
-Sk 75 'acid breath'
+Sk 76 'acid breath'
 Sk 1 'fire breath'
 Sk 80 'frost breath'
 Sk 1 'gas breath'
@@ -166,24 +172,19 @@ Gr 'draconian'
 Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
-Affc 'pass door'   0  45  10   0   0    1048576
-Affc 'sneak'   0  47  36   0   0      32768
-Affc 'detect magic'   0  41  30   0   0         16
-Affc 'bless'   0  49  41  -6  24          0
-Affc 'bless'   0  47  41   6  18          0
-Affc 'detect invis'   0  39   5   0   0          8
-Affc 'detect hidden'   0  34   4   0   0         32
+Affc 'protection good'   0  44  16  -1  24      16384
+Affc 'stone skin'   0  41  30 -40  17          0
+Affc 'shield'   0  44  38 -20  17          0
+Affc 'armor'   0  41  20 -20  17          0
 End
 
 #O
 Vnum 8500
 Nest 0
 PrevOwner Matar~
-ExtF 16777344
 Cond 0
 Wear -1
 Cost 3000
-Affc 'fireproof'   1  42   0   0   0   16777216
 End
 
 #O
@@ -483,22 +484,6 @@ Cost 0
 End
 
 #O
-Vnum 18912
-Enchanted
-Nest 1
-PrevOwner Matar~
-ExtF 83
-Cond 0
-Wear -1
-Lev  48
-Cost 4800
-Affc 'reserved'   1  40  -1   0   0          0
-Affc 'reserved'   1  40  -1  -1  20          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
-End
-
-#O
 Vnum 2405
 Nest 1
 PrevOwner Matar~
@@ -518,15 +503,6 @@ Desc A Medallion forged by the gods for {CHalo{x~
 Cond 0
 Wear -1
 Cost 5000
-End
-
-#O
-Vnum 22552
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -568,45 +544,6 @@ Cost 5000
 End
 
 #O
-Vnum 3017
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
-Vnum 3017
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
-Vnum 3017
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
-Vnum 961
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 1700
-Spell 1 'protection evil'
-Spell 2 'frenzy'
-Spell 3 'bless'
-End
-
-#O
 Vnum 3292
 Nest 1
 PrevOwner Matar~
@@ -619,39 +556,6 @@ Spell 3 'detect hidden'
 End
 
 #O
-Vnum 5923
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'frenzy'
-Spell 2 'haste'
-End
-
-#O
-Vnum 5923
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'frenzy'
-Spell 2 'haste'
-End
-
-#O
-Vnum 5923
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'frenzy'
-Spell 2 'haste'
-End
-
-#O
 Vnum 3292
 Nest 1
 PrevOwner Matar~
@@ -661,49 +565,6 @@ Cost 290
 Spell 1 'detect invis'
 Spell 2 'detect magic'
 Spell 3 'detect hidden'
-End
-
-#O
-Vnum 10032
-Enchanted
-Nest 1
-PrevOwner Matar~
-ExtF 323
-Cond 0
-Wear -1
-Lev  50
-Cost 1700
-Val  4 3 12 7 260
-Affc 'enchant weapon'   0  51  -1   7  18          0
-Affc 'reserved'   1  44  -1   2   2          0
-Affc 'enchant weapon'   1  51  -1   9  19          0
-End
-
-#O
-Vnum 3050
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 400
 End
 
 #O
@@ -717,78 +578,12 @@ Spell 3 'change sex'
 End
 
 #O
-Vnum 907
-Enchanted
-Nest 1
-PrevOwner Matar~
-ExtF 1123
-Cond 0
-Wear -1
-Lev  50
-Cost 10300
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   1  53  -1   8  18          0
-End
-
-#O
-Vnum 10069
-Enchanted
-Nest 1
-PrevOwner Matar~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 1000
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   1  53  -1   8  18          0
-End
-
-#O
-Vnum 10027
-Enchanted
-Nest 1
-PrevOwner Matar~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1000
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
-Vnum 5923
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'frenzy'
-Spell 2 'haste'
-End
-
-#O
 Vnum 5902
 Nest 1
 PrevOwner Matar~
 Cond 0
 Wear -1
 Cost 4000
-End
-
-#O
-Vnum 22552
-Enchanted
-Nest 1
-PrevOwner Matar~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
@@ -812,52 +607,14 @@ Spell 1 'sanctuary'
 End
 
 #O
-Vnum 9573
+Vnum 1110
 Nest 1
 PrevOwner Matar~
+ShD  The {REgg{x of {RDoom{x!!!~
 Cond 0
 Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 23504
-Nest 1
-PrevOwner Matar~
-Cond 0
-Wear -1
-Cost 4500
+Cost 2
+Val  12 12 0 1 0
 End
 
 #O
@@ -873,12 +630,170 @@ Cost 72
 End
 
 #O
+Vnum 8022
+Enchanted
+Nest 1
+PrevOwner Matar~
+ExtF 0
+Cond 0
+Wear -1
+Lev  36
+Cost 5000
+End
+
+#O
 Vnum 3017
 Nest 1
 PrevOwner Matar~
 Cond 0
 Wear -1
 Cost 100
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Matar~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 961
+Nest 1
+PrevOwner Matar~
+Cond 0
+Wear -1
+Cost 1700
+Spell 1 'protection evil'
+Spell 2 'frenzy'
+Spell 3 'bless'
+End
+
+#O
+Vnum 5923
+Nest 1
+PrevOwner Matar~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'frenzy'
+Spell 2 'haste'
+End
+
+#O
+Vnum 5923
+Nest 1
+PrevOwner Matar~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'frenzy'
+Spell 2 'haste'
+End
+
+#O
+Vnum 5923
+Nest 1
+PrevOwner Matar~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'frenzy'
+Spell 2 'haste'
+End
+
+#O
+Vnum 10032
+Enchanted
+Nest 1
+PrevOwner Matar~
+ExtF 323
+Cond 0
+Wear -1
+Lev  50
+Cost 1700
+Val  4 3 12 7 260
+Affc 'enchant weapon'   0  51  -1   7  18          0
+Affc 'reserved'   1  44  -1   2   2          0
+Affc 'enchant weapon'   1  51  -1   9  19          0
+End
+
+#O
+Vnum 10069
+Enchanted
+Nest 1
+PrevOwner Matar~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 1000
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
+End
+
+#O
+Vnum 22552
+Nest 1
+PrevOwner Matar~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23504
+Nest 1
+PrevOwner Matar~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 22552
+Enchanted
+Nest 1
+PrevOwner Matar~
+ExtF 67
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
+Vnum 10027
+Enchanted
+Nest 1
+PrevOwner Matar~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1000
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 18912
+Enchanted
+Nest 1
+PrevOwner Matar~
+ExtF 83
+Cond 0
+Wear -1
+Lev  48
+Cost 4800
+Affc 'reserved'   1  40  -1   0   0          0
+Affc 'reserved'   1  40  -1  -1  20          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
@@ -986,19 +901,6 @@ Val  450 1 -1 90 25
 End
 
 #O
-Vnum 23575
-Enchanted
-Nest 0
-PrevOwner Matar~
-ExtF 66
-Cond 0
-Wear 16
-Cost 0
-Affc 'enchant weapon'   1  53  -1   5  19          0
-Affc 'enchant weapon'   0  53  -1   5  18          0
-End
-
-#O
 Vnum 23021
 Nest 0
 PrevOwner (null)~
@@ -1017,15 +919,74 @@ Cost 400
 End
 
 #O
-Vnum 8022
+Vnum 1258
+Nest 0
+PrevOwner Matar~
+Name bag beta Octavi~
+ShD  a bag made from Octavi's hide~
+Desc A bag of fine Octavi hide catches your eye.  ~
+ExtF 67125248
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  15
+Cost 2250
+Val  450 1 -1 90 25
+End
+
+#O
+Vnum 907
 Enchanted
 Nest 0
 PrevOwner Matar~
-ExtF 0
+ExtF 1123
+Cond 0
+Wear 16
+Lev  50
+Cost 10300
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Matar~
 Cond 0
 Wear -1
-Lev  36
-Cost 5000
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Matar~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Matar~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 23575
+Enchanted
+Nest 0
+PrevOwner Matar~
+ExtF 66
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   1  53  -1   5  19          0
+Affc 'enchant weapon'   0  53  -1   5  18          0
 End
 
 #END

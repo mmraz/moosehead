@@ -2,17 +2,17 @@
 Name Wufei~
 Id   1023632939
 Email (null)~
-LogO 1082321097
+LogO 1308095848
 Vers 31
 LnD  A Gladiator~
 Prom <%hhp %mmp %vmv %Ssac %gg %ss %Xexp %e> ~
 Race yinn~
 Clan loner~
 Outc 0
-RufT 456
+RufT 445
 MatookT 0
-SkPTimer 0
-SkPTracker 1
+SkPTimer 2
+SkPTracker 2
 LogoutTracker 0
 Kill 0 5 0 2
 Steal 0 0 0
@@ -20,12 +20,12 @@ LstK Fiendling~
 LstKBy Fetish~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1056219445
+LstCombatDate 1308095469
 LstKillDate 1041228297
 LstDeathDate 1024973116
-LoginsWOKill 5
-LoginsWODeath 26
-LoginsWOCombat 3
+LoginsWOKill 6
+LoginsWODeath 27
+LoginsWOCombat 0
 Bnty 0
 Deity 59876 mojo~
 DeityT -805 almighty~
@@ -36,23 +36,23 @@ Node 0
 Cap 0
 Created 1023632952
 Glad 1 2 0 0 1 0
-LastHost 129.97.249.27~
+LastHost 184.175.2.131~
 Cla  9
 ClaO 10
 Levl 51
 DLevl 0
-Plyd 103656
+Plyd 104337
 Not  1082159671 1082157970 1041228148 1081466501 1081608814 1082320452 1041228148 1081602636 1041228148 1077055791
 Scro 22
 Rank 0
-Room 3001
-HMV  1161 1161 687 687 507 507
-Gold 632
-Silv 13
+Room 16503
+HMV  824 1161 63 687 254 507
+Gold 759
+Silv 3019
 Exp  484744
 Act  CDGHKQSa
 MHSF RSV
-AfBy CJT
+AfBy CEFJTV
 Comm S
 Disp FIJLN
 IcgB 0
@@ -61,24 +61,24 @@ Wizn W
 Pnet ABCDEFGH
 Pos  8
 Prac 53
-SkiP 19
+SkiP 28
 Save  -3
-Alig  -887
+Alig  -894
 Hit   22
 Dam   32
 SecHit   20
 SecDam   30
-ACs -68 -68 -68 -34
+ACs -48 -48 -48 -14
 Wimp  20
 Attr 23 19 19 22 22 21 20 16
-AMod 4 5 2 0 5 0 0 0
+AMod 4 5 2 4 5 0 0 0
 Pass WuQSGUduqomq6~
 Titl  the weak shouldn't fight~
 Pnts 98
 TSex 1
 LLev 26
 HMVP 1046 674 472
-Cnd  0 0 28 0
+Cnd  0 0 12 0
 Alias hh throw~
 Alias m murder~
 Alias aa put all leather~
@@ -99,6 +99,7 @@ Sk 1 'change sex'
 Sk 71 'charm person'
 Sk 75 'chill touch'
 Sk 71 'colour spray'
+Sk 1 'cone of silence'
 Sk 71 'control weather'
 Sk 71 'cure blindness'
 Sk 71 'cure disease'
@@ -198,9 +199,11 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'stone skin'   0  39  25 -40  17          0
-Affc 'shield'   0  43  33 -20  17          0
-Affc 'armor'   0  37  13 -20  17          0
+Affc 'detect hidden'   0  47  45   0   0         32
+Affc 'detect magic'   0  44  32   0   0         16
+Affc 'haste'   0  40   7   4   2    2097152
+Affc 'shield'   0  38  17 -20  17          0
+Affc 'stone skin'   0  35   9 -40  17          0
 End
 
 #O
@@ -273,15 +276,6 @@ PrevOwner Wufei~
 Cond 0
 Wear -1
 Cost 6000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -723,7 +717,7 @@ End
 Vnum 10403
 Nest 0
 PrevOwner Fiendling~
-Stolen 46
+Stolen 31
 Cond 0
 Wear -1
 Cost 6300
@@ -754,6 +748,15 @@ PrevOwner Wufei~
 Cond 0
 Wear -1
 Cost 6000
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Wufei~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

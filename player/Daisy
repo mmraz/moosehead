@@ -2,8 +2,8 @@
 Name Daisy~
 Id   772331949
 Email (null)~
-LogO 994638864
-Vers 27
+LogO 1309577668
+Vers 31
 ShD  Daisy~
 Desc Daisy catches your eye and quickly looks down, blushing.  She pushes her
 long blond hair out of her eyes, looks up, and smiles shyly.
@@ -16,12 +16,20 @@ MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1309540178
+LstKillDate 1309540178
+LstDeathDate 1309540178
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
 Deity 0 mojo~
 Sac  300
 Sex  2
@@ -30,13 +38,12 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost host6-227.prestige.net~
 Cla  2
 ClaO 2
 Levl 52
 DLevl 0
-Plyd 12947785
-Not  991339973 893777738 894416442 994541414 976839873 894398089 0 0 0
+Plyd 12985275
+Not  991339973 893777738 894416442 994541414 976839873 894398089 0 0 0 0
 Scro 22
 Rank 4
 Room 17623
@@ -52,7 +59,7 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 1825
-Trai 454
+Trai 464
 SkiP 1
 Save  -2
 Alig  414
@@ -61,8 +68,8 @@ Dam   20
 SecHit   10
 SecDam   13
 ACs -4 -10 -9 71
-Attr 25 25 25 25 25
-AMod 3 1 0 3 0
+Attr 25 25 25 25 25 13 13 13
+AMod 3 1 0 3 0 0 0 0
 Pass DaU2/wpWJ3JuG~
 Bin  Daisy slinks in wearing a Russian army uniform.~
 Bout Daisy flashes you, then quickly runs down the street.~
@@ -74,18 +81,18 @@ LLev 3595
 HMVP 814 397 516
 Cnd  0 0 8 6
 Edit ABCEH
-ERange 17600 17799
-ERange 30070 30080
 ERange 21000 21099
+ERange 30070 30080
+ERange 17600 17799
 Alias wc reply sorry... wrong channel :)~
 Alias intro gecho You feel someone brush against you.  "Excuse me," Daisy says, blushing.~
 Alias delly imm Dlstr! :)~
 Alias sex say Voulez-vous coucher avec moi ce soir?~
 Alias tongue emote sticks her tongue out at you.~
-Macro quizz goto 17637;load obj 21006;goto 6553;load obj 21007;goto 15201;load obj 21008;goto 331;load obj 21009;goto 16626;load obj 21010~
-Macro quiz goto 7911; load obj 21000;goto 3721;load obj 21001;goto 6303;load obj 21002;goto 9402;load obj 21003;goto 3600; load obj 21004;goto 601;load obj 21005~
-Macro castmilk cast "create spring";set obj spring v2 10;string obj spring long A magical spring of milk flows from the ground.; string obj spring name spring milk~
 Macro trick emote prays for transportation!;emote disappears.~
+Macro castmilk cast "create spring";set obj spring v2 10;string obj spring long A magical spring of milk flows from the ground.; string obj spring name spring milk~
+Macro quiz goto 7911; load obj 21000;goto 3721;load obj 21001;goto 6303;load obj 21002;goto 9402;load obj 21003;goto 3600; load obj 21004;goto 601;load obj 21005~
+Macro quizz goto 17637;load obj 21006;goto 6553;load obj 21007;goto 15201;load obj 21008;goto 331;load obj 21009;goto 16626;load obj 21010~
 Sk 100 'reserved'
 Sk 100 'acid blast'
 Sk 100 'armor'
@@ -140,8 +147,8 @@ Sk 100 'farsight'
 Sk 100 'fireball'
 Sk 100 'fireproof'
 Sk 100 'flamestrike'
-Sk 100 'fly'
 Sk 100 'floating disc'
+Sk 100 'fly'
 Sk 100 'frenzy'
 Sk 100 'gate'
 Sk 100 'giant strength'
@@ -163,6 +170,10 @@ Sk 100 'mass healing'
 Sk 100 'mass invis'
 Sk 100 'mirror image'
 Sk 100 'nexus'
+Sk 100 'orb of awakening'
+Sk 100 'orb of surprise'
+Sk 100 'orb of touch'
+Sk 100 'orb of turning'
 Sk 100 'pass door'
 Sk 100 'plague'
 Sk 100 'poison'
@@ -181,6 +192,7 @@ Sk 100 'shield'
 Sk 100 'shocking grasp'
 Sk 100 'sleep'
 Sk 100 'slow'
+Sk 100 'smoke screen'
 Sk 100 'stone skin'
 Sk 100 'summon'
 Sk 100 'teleport'
@@ -202,11 +214,6 @@ Sk 100 'cryogenesis'
 Sk 100 'draw life'
 Sk 100 'turn undead'
 Sk 100 'withstand death'
-Sk 100 'smoke screen'
-Sk 100 'orb of awakening'
-Sk 100 'orb of surprise'
-Sk 100 'orb of touch'
-Sk 100 'orb of turning'
 Sk 100 'axe'
 Sk 100 'dagger'
 Sk 100 'flail'
@@ -560,7 +567,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2000
-Val  30 5 3 41 0
+Val  30 5 3 48 0
 Spell 3 'create spring'
 End
 
@@ -571,7 +578,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2000
-Val  30 5 4 40 0
+Val  30 5 4 47 0
 Spell 3 'create rose'
 End
 
@@ -873,7 +880,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 200
-Val  45 44 87 158 -1
+Val  45 44 87 201 -1
 Spell 3 'teleport'
 End
 
@@ -995,8 +1002,8 @@ Cond 0
 Wear -1
 Lev  35
 Cost 10100
-Affc 'enchant armor'   1  40  -1  -3  17          0
 Affc 'reserved'   1  32  -1   3   3          0
+Affc 'enchant armor'   1  40  -1  -3  17          0
 End
 
 #O
@@ -1105,8 +1112,8 @@ Cond 0
 Wear 4
 Lev  22
 Cost 1970
-Affc 'enchant armor'   1  40  -1  -4  17          0
 Affc 'reserved'   1  20  -1   2  19          0
+Affc 'enchant armor'   1  40  -1  -4  17          0
 End
 
 #O
@@ -1134,9 +1141,9 @@ Cond 0
 Wear 11
 Lev  34
 Cost 5900
-Affc 'reserved'   1  31  -1   2  19          0
-Affc 'reserved'   1  31  -1   1  18          0
 Affc 'enchant armor'   1  40  -1  -3  17          0
+Affc 'reserved'   1  31  -1   1  18          0
+Affc 'reserved'   1  31  -1   2  19          0
 End
 
 #O
@@ -1151,9 +1158,9 @@ Cond 0
 Wear 9
 Lev  24
 Cost 5800
-Affc 'enchant armor'   1  40  -1  -1  17          0
-Affc 'reserved'   1  23  -1   2  19          0
 Affc 'reserved'   1  23  -1   2   1          0
+Affc 'reserved'   1  23  -1   2  19          0
+Affc 'enchant armor'   1  40  -1  -1  17          0
 End
 
 #O
@@ -1169,9 +1176,9 @@ Cond 0
 Wear 6
 Lev  47
 Cost 6100
-Affc 'enchant armor'   1  40  -1  -4  17          0
-Affc 'reserved'   1  43  -1   2  19          0
 Affc 'reserved'   1  43  -1  -1   3          0
+Affc 'reserved'   1  43  -1   2  19          0
+Affc 'enchant armor'   1  40  -1  -4  17          0
 End
 
 #O
@@ -1284,8 +1291,8 @@ Cond 0
 Wear 5
 Lev  49
 Cost 13700
-Affc 'reserved'   1  45  -1   2  18          0
 Affc 'enchant armor'   1  40  -1  -4  17          0
+Affc 'reserved'   1  45  -1   2  18          0
 End
 
 #O
@@ -1301,9 +1308,9 @@ Cond 0
 Wear 16
 Lev  50
 Cost 5400
-Affc 'reserved'   1  46  -1  25  12          0
-Affc 'enchant weapon'   1  43  -1   7  19          0
 Affc 'enchant weapon'   0  43  -1   7  18          0
+Affc 'enchant weapon'   1  43  -1   7  19          0
+Affc 'reserved'   1  46  -1  25  12          0
 End
 
 #END

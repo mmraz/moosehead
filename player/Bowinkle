@@ -2,20 +2,21 @@
 Name BoWinkle~
 Id   1002014293
 Email (null)~
-LogO 1123963408
-Vers 31
+LogO 1388384079
+Vers 33
 LnD  A Gladiator~
 Prom %hhp %mm %vmv %Xtnl| $%g|%r|%e|   ~
 Race elf~
 Clan loner~
 Outc 0
-RufT 468
+RufT 395
 MatookT 0
-SkPTimer 0
-SkPTracker 5
+SkPTimer 18
+SkPTracker 12
 LogoutTracker 0
 Kill 3 7 0 18
 Steal 158 23365 0
+MSteal 0
 LstK Gingerbread~
 LstKBy DoomHammer~
 LstAtkedBy no one~
@@ -23,10 +24,16 @@ LstAtkedByTimer 0
 LstCombatDate 1123963142
 LstKillDate 1074350403
 LstDeathDate 1063095391
-LoginsWOKill 8
-LoginsWODeath 9
-LoginsWOCombat 0
+LoginsWOKill 11
+LoginsWODeath 12
+LoginsWOCombat 3
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 734239 hermes~
 DeityT -5215 hermes~
 Sac  300
@@ -36,24 +43,24 @@ Node 0
 Cap 0
 Created 1002014307
 Glad 0 1 0 0 1 0
-LastHost ndn-165-130-187.telkomadsl.co.za~
+LastHost 105.224.22.61~
 Cla  8
 Kit ninja~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 1072593
+Plyd 1075589
 Not  1076345650 1052077901 0 1051892967 1052182013 1052290067 0 1058862553 0 1051559723
 Scro 22
 Rank 0
-Room 3265
-HMV  852 1113 33 505 66 401
-Gold 1162
-Silv 12842
+Room 9646
+HMV  1113 1113 505 505 401 401
+Gold 1287
+Silv 893
 Exp  94466
 Act  CDEGHKMOQSZ
 MHSF RSTUV
-AfBy CFHJPQTV
+AfBy CFJPT
 Comm S
 Disp BFGIJ
 IcgB 0
@@ -61,8 +68,9 @@ Icg 0
 Wizn W
 Pnet ABCDEFGHI
 Pos  8
-Prac 16
-SkiP 41
+Prac 20
+Trai 19
+SkiP 8
 Save  -27
 Alig  -1000
 Hit   9
@@ -70,15 +78,15 @@ Dam   20
 SecHit   9
 SecDam   20
 ACs 14 14 14 36
-Attr 17 21 18 22 16 21 21 13
-AMod 6 1 1 1 0 0 0 0
+Attr 17 21 18 22 16 11 12 13
+AMod 6 1 1 -3 0 0 0 0
 Pass BoQaBiPXCaQ2w~
 Titl  {x                        {D[/Ghost\]{x~
 Pnts 53
 TSex 1
 LLev 246
 HMVP 993 447 401
-Cnd  0 17 20 20
+Cnd  0 11 17 17
 Alias g garotte~
 Alias go . {RGOOOOOOOOOOOOOOOOOOOOOOOOOOOOO{BBOOOOOOOOOOOOOOOOOOOOOOOOOO{x~
 Alias 1 c 'cure vision'~
@@ -163,10 +171,8 @@ Gr 'protective'
 Gr 'pyrotechnics'
 Gr 'transportation'
 Gr 'mummy'
-Affc 'giant strength'   0  46  44   4   1          0
-Affc 'haste'   0  45  19   4   2    2097152
-Affc 'sanctuary'   0  45   3   0   0        128
-Affc 'sneak'   0  40  11   0   0      32768
+Affc 'giant strength'   0  39  18   4   1          0
+Affc 'sneak'   0  51  50   0   0      32768
 End
 
 #O
@@ -338,7 +344,6 @@ End
 Vnum 2731
 Nest 0
 PrevOwner BoWinkle~
-Stolen 10
 Cond 0
 Wear 12
 Cost 4600
@@ -604,8 +609,8 @@ Cond 0
 Wear -1
 Lev  35
 Cost 1100
-Affc 'enchant weapon'   0  52  -1   8  18          0
 Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   0  52  -1   8  18          0
 End
 
 #O
@@ -695,33 +700,6 @@ Spell 1 'identify'
 End
 
 #O
-Vnum 3017
-Nest 1
-PrevOwner BoWinkle~
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
-Vnum 3017
-Nest 1
-PrevOwner BoWinkle~
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
-Vnum 3017
-Nest 1
-PrevOwner BoWinkle~
-Cond 0
-Wear -1
-Cost 100
-End
-
-#O
 Vnum 10710
 Nest 1
 PrevOwner BoWinkle~
@@ -787,7 +765,6 @@ End
 Vnum 22552
 Nest 0
 PrevOwner Elmara~
-Stolen 31
 Cond 0
 Wear 16
 Cost 0
@@ -843,15 +820,50 @@ Spell 3 'detect hidden'
 End
 
 #O
-Vnum 3092
+Vnum 3018
 Nest 0
-PrevOwner BoWinkle~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
+Cost 1310
+End
+
+#O
+Vnum 305
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 302
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 312
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Time 2265
+Cost 640
+Spell 1 'protection evil'
+End
+
+#O
+Vnum 307
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1
 End
 
 #END

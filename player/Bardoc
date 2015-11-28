@@ -3,8 +3,8 @@ Name Bardoc~
 SurN Wanderer~
 Id   1048432156
 Email (null)~
-LogO 1092015204
-Vers 31
+LogO 1445871666
+Vers 33
 Prom <%hhp %mm %vmv> {G*(%WWieght)*{w {Y(%t:00){x (%X) ~
 Race ogre~
 Outc 0
@@ -16,6 +16,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 1 0 0
 Steal 0 0 0
+MSteal 0
 LstK Stryg~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +28,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 64347 matook~
 DeityT -2151 matook~
 Sac  600
@@ -36,24 +43,24 @@ Node 0
 Cap 0
 Created 1048432186
 Glad 0 0 0 0 0 0
-LastHost 24.157.72.71~
+LastHost 99.240.240.223~
 Cla  5
 Kit cavalier~
 ClaO 3
 Levl 50
 DLevl 0
-Plyd 130371
-Not  1050485981 1050414152 0 1050462508 1050300202 1050464197 0 1050461429 0 1050339786
+Plyd 141463
+Not  1312458062 1312458062 1312458062 1312458062 1312458062 1312458062 1312458062 1312458062 1312458062 1312458062
 Scro 22
 Rank 0
-Room 16503
-HMV  1170 1170 341 420 204 402
-Gold 66
-Silv 1816
-Exp  297967
+Room 30315
+HMV  1165 1165 395 395 402 402
+Gold 350
+Silv 20
+Exp  296020
 Act  CDGHJK
 MHSF R
-AfBy T
+AfBy EFT
 Comm GIR
 Disp FIJN
 IcgB 0
@@ -61,25 +68,25 @@ Icg 0
 Pnet ABCEFGHI
 Pos  8
 Prac 29
-Trai 7
-SkiP 188
-Save  -2
+Trai 23
+SkiP 300
+Save  3
 Alig  -1000
-Hit   31
-Dam   62
-SecHit   24
-SecDam   50
-ACs 15 21 20 41
+Hit   24
+Dam   59
+SecHit   17
+SecDam   48
+ACs -43 -37 -38 -17
 Wimp  4
-Attr 21 16 19 17 21 17 24 17
-AMod 0 0 0 2 0 0 0 0
-Pass BaxCIOH0OCkBc~
+Attr 21 16 19 17 21 11 14 17
+AMod 4 -1 1 2 0 0 0 0
+Pass Bae7OqAzFnXq2~
 Titl  the confused~
 Pnts 83
 TSex 1
 LLev 31
 HMVP 1065 355 417
-Cnd  0 0 0 0
+Cnd  0 20 38 32
 Alias k kill~
 Alias / c word~
 Spz 'mace'
@@ -112,8 +119,8 @@ Sk 1 'demonfire'
 Sk 1 'detect evil'
 Sk 1 'detect good'
 Sk 49 'detect hidden'
-Sk 47 'detect invis'
-Sk 49 'detect magic'
+Sk 50 'detect invis'
+Sk 52 'detect magic'
 Sk 1 'detect poison'
 Sk 1 'dispel evil'
 Sk 1 'dispel good'
@@ -127,7 +134,7 @@ Sk 1 'faerie fire'
 Sk 1 'faerie fog'
 Sk 1 'famine'
 Sk 1 'farsight'
-Sk 49 'feast'
+Sk 75 'feast'
 Sk 1 'feeblemind'
 Sk 1 'fireproof'
 Sk 59 'flamestrike'
@@ -144,7 +151,7 @@ Sk 1 'heat metal'
 Sk 1 'hold person'
 Sk 1 'holy silence'
 Sk 1 'holy word'
-Sk 51 'identify'
+Sk 63 'identify'
 Sk 1 'indulgence'
 Sk 1 'infravision'
 Sk 1 'knock'
@@ -158,7 +165,7 @@ Sk 1 'plague'
 Sk 1 'poison'
 Sk 1 'portal'
 Sk 58 'protection evil'
-Sk 53 'protection good'
+Sk 56 'protection good'
 Sk 1 'protection neutral'
 Sk 1 'ray of truth'
 Sk 1 'refresh'
@@ -169,11 +176,11 @@ Sk 53 'shield'
 Sk 1 'slow'
 Sk 1 'see soul'
 Sk 81 'stone skin'
-Sk 63 'summon'
+Sk 64 'summon'
 Sk 1 'teleport'
 Sk 50 'warp'
 Sk 1 'weaken'
-Sk 80 'word of recall'
+Sk 82 'word of recall'
 Sk 1 'animate dead'
 Sk 75 'summon dead'
 Sk 1 'cryogenesis'
@@ -182,23 +189,23 @@ Sk 1 'make bag'
 Sk 55 'turn undead'
 Sk 50 'withstand death'
 Sk 1 'wound transfer'
-Sk 75 'dagger'
-Sk 87 'flail'
+Sk 78 'dagger'
+Sk 93 'flail'
 Sk 100 'mace'
 Sk 100 'sword'
 Sk 100 'bash'
-Sk 6 'bite'
-Sk 95 'bludgeon'
+Sk 9 'bite'
+Sk 100 'bludgeon'
 Sk 100 'dodge'
-Sk 97 'enhanced critical'
+Sk 100 'enhanced critical'
 Sk 100 'enhanced damage'
 Sk 26 'morph'
 Sk 99 'parry'
-Sk 46 'shield block'
+Sk 56 'shield block'
 Sk 50 'scan'
 Sk 100 'second attack'
-Sk 89 'third attack'
-Sk 18 'fast healing'
+Sk 94 'third attack'
+Sk 21 'fast healing'
 Sk 100 'riding'
 Sk 1 'scrolls'
 Sk 1 'staves'
@@ -222,129 +229,35 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'garou'
-Affc 'bless'   0  38  10   5  18          0
-Affc 'bless'   0  41  10  -5  24          0
+Affc 'giant strength'   0  36   0   4   1          0
+Affc 'shield'   0  35   8 -20  17          0
+Affc 'stone skin'   0  35   0 -40  17          0
+Affc 'detect hidden'   0  35   1   0   0         32
+Affc 'detect magic'   0  37   0   0   0         16
 End
 
 #O
-Vnum 12007
+Vnum 11145
 Nest 0
 PrevOwner Bardoc~
 Cond 0
-Wear -1
-Cost 0
+Wear 18
+Cost 4500
 End
 
 #O
-Vnum 9201
+Vnum 2407
 Nest 0
-PrevOwner Bardoc~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 1140
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner Bardoc~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner Bardoc~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 5700
-Nest 0
-PrevOwner Bardoc~
-ExtF 134217728
-Wt   24
-Cond 0
-Wear -1
-Cost 1000
-Val  0 0 0 0 0
-End
-
-#O
-Vnum 1395
-Nest 0
-PrevOwner Bardoc~
-Cond 0
-Wear -1
-Cost 1970
-End
-
-#O
-Vnum 1395
-Nest 0
-PrevOwner Bardoc~
-Cond 0
-Wear -1
-Cost 1970
-End
-
-#O
-Vnum 5700
-Nest 0
-PrevOwner PetDog~
-ExtF 134217728
-Wt   24
-Cond 0
-Wear -1
-Cost 1000
-Val  0 0 0 0 0
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner PetDog~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner PetDog~
-Cond 0
-Wear -1
-Cost 1150
-End
-
-#O
-Vnum 4436
-Nest 0
-PrevOwner Bardoc~
-ExtF 33
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 20705
-Nest 0
-PrevOwner PetDog~
-Cond 0
-Wear -1
-Cost 220
+Cost 1500
 End
 
 #O
 Vnum 15202
 Nest 0
-PrevOwner (null)~
+PrevOwner Bardoc~
 Cond 0
 Wear 6
 Cost 0
@@ -353,35 +266,25 @@ End
 #O
 Vnum 5922
 Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 3
-Cost 300
-End
-
-#O
-Vnum 5922
-Nest 0
-PrevOwner (null)~
+PrevOwner Bardoc~
 Cond 0
 Wear 4
 Cost 300
 End
 
 #O
-Vnum 12010
+Vnum 5922
 Nest 0
-PrevOwner PetDog~
-ExtF 1196065
+PrevOwner Bardoc~
 Cond 0
-Wear -1
-Cost 15000
+Wear 3
+Cost 300
 End
 
 #O
 Vnum 12002
 Nest 0
-PrevOwner PetDog~
+PrevOwner Bardoc~
 ExtF 5242880
 Cond 0
 Wear 17
@@ -391,53 +294,16 @@ End
 #O
 Vnum 8545
 Nest 0
-PrevOwner PetDog~
+PrevOwner Bardoc~
 Cond 0
 Wear 9
 Cost 3400
 End
 
 #O
-Vnum 12081
-Nest 0
-PrevOwner PetDog~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 4825
-Nest 0
-PrevOwner PetDog~
-Cond 0
-Wear 2
-Cost 7000
-End
-
-#O
-Vnum 16638
-Nest 0
-PrevOwner PetDog~
-ExtF 1051169
-Cond 0
-Wear 10
-Cost 6372
-End
-
-#O
-Vnum 8546
-Nest 0
-PrevOwner PetDog~
-Cond 0
-Wear 1
-Cost 10300
-End
-
-#O
 Vnum 5913
 Nest 0
-PrevOwner PetDog~
+PrevOwner Bardoc~
 ExtF 134217728
 Wt   180
 Cond 0
@@ -449,7 +315,7 @@ End
 #O
 Vnum 12001
 Nest 0
-PrevOwner PetDog~
+PrevOwner Bardoc~
 Name BattleRage Boots.~
 ShD  Dwarven BattleRage Boots~
 Desc HandCrafted BattleRage Boots.~
@@ -462,79 +328,43 @@ End
 #O
 Vnum 8544
 Nest 0
-PrevOwner PetDog~
-Cond 0
-Wear 14
-Cost 9999
-End
-
-#O
-Vnum 4823
-Nest 0
-PrevOwner PetDog~
-Cond 0
-Wear 0
-Cost 4500
-End
-
-#O
-Vnum 15227
-Nest 0
-PrevOwner PetDog~
-Cond 0
-Wear 12
-Cost 20000
-End
-
-#O
-Vnum 8544
-Nest 0
-PrevOwner PetDog~
+PrevOwner Bardoc~
 Cond 0
 Wear 15
 Cost 9999
 End
 
 #O
-Vnum 11145
+Vnum 15227
 Nest 0
-PrevOwner (null)~
+PrevOwner Bardoc~
 Cond 0
-Wear 18
-Cost 4500
+Wear -1
+Cost 20000
+End
+
+#O
+Vnum 8544
+Nest 0
+PrevOwner Bardoc~
+Cond 0
+Wear 14
+Cost 9999
 End
 
 #O
 Vnum 5934
 Nest 0
-PrevOwner (null)~
+PrevOwner Bardoc~
 Cond 0
 Wear 5
 Cost 4000
 End
 
 #O
-Vnum 4433
-Nest 0
-PrevOwner Bardoc~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 4433
-Nest 0
-PrevOwner Bardoc~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
 Vnum 22566
 Nest 0
-PrevOwner Souzo~
+PrevOwner Bardoc~
 Cond 0
 Wear 13
 Cost 0
@@ -544,8 +374,9 @@ End
 Vnum 18105
 Enchanted
 Nest 0
-PrevOwner Uraqt~
+PrevOwner Bardoc~
 ExtF 323
+Damaged 38
 Cond 0
 Wear 11
 Lev  50
@@ -558,12 +389,187 @@ Affc 'reserved'   1  46  -1   1  19          0
 End
 
 #O
-Vnum 10300
-Enchanted
+Vnum 1345
 Nest 0
 PrevOwner Bardoc~
+Cond 0
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 9500
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 9500
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 9500
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 9500
+End
+
+#O
+Vnum 2412
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 4436
+Nest 1
+PrevOwner Bardoc~
+ExtF 33
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10300
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10300
+Enchanted
+Nest 1
+PrevOwner Bardoc~
 ExtF 66
-Stolen 484
+Stolen 215
 Cond 0
 Wear -1
 Lev  50
@@ -574,30 +580,165 @@ Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
-Vnum 10300
-Nest 0
+Vnum 4433
+Nest 1
 PrevOwner Bardoc~
 Cond 0
 Wear -1
-Cost 6500
+Cost 550
 End
 
 #O
-Vnum 1345
-Nest 0
-PrevOwner Vampboodrum~
+Vnum 4433
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 12081
+Nest 1
+PrevOwner Bardoc~
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 3375
-Nest 0
-PrevOwner (null)~
+Vnum 12010
+Nest 1
+PrevOwner Bardoc~
+ExtF 1196065
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 4436
+Nest 1
+PrevOwner Bardoc~
+ExtF 33
 Cond 0
 Wear -1
 Cost 5000
+End
+
+#O
+Vnum 2505
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 2505
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 1395
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 1970
+End
+
+#O
+Vnum 1395
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 1970
+End
+
+#O
+Vnum 2505
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 2505
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 9201
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2409
+Nest 1
+PrevOwner Bardoc~
+Cond 0
+Wear -1
+Cost 3500
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 0
+PrevOwner Bardoc~
+ExtF 227
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Val  2 2 19 2 519
+Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'bestow holiness'   5  51  -1   0   0        512
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 0
+PrevOwner Bardoc~
+ExtF 67
+Stolen 21
+Cond 0
+Wear 16
+Lev  50
+Cost 7052
+Val  4 5 8 7 1284
+Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -606,7 +747,7 @@ Enchanted
 Nest 0
 PrevOwner Bardoc~
 ExtF 67
-Stolen 69
+Stolen 117
 Cond 0
 Wear -1
 Lev  50
@@ -619,58 +760,10 @@ Affc 'bestow holiness'   5  51  -1   0   0        512
 End
 
 #O
-Vnum 8503
-Nest 0
-PrevOwner Misfortune~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Misfortune~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 22515
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
 Vnum 10419
 Enchanted
 Nest 0
-PrevOwner Vampboodrum~
+PrevOwner Bardoc~
 ExtF 66
 Cond 0
 Wear -1
@@ -683,47 +776,364 @@ Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O
-Vnum 4436
+Vnum 4825
 Nest 0
-PrevOwner Vampboodrum~
-ExtF 33
+PrevOwner Bardoc~
 Cond 0
-Wear -1
-Cost 5000
+Wear 2
+Cost 7000
+End
+
+#O
+Vnum 4823
+Nest 0
+PrevOwner Bardoc~
+Cond 0
+Wear 0
+Cost 4500
+End
+
+#O
+Vnum 16638
+Nest 0
+PrevOwner Bardoc~
+ExtF 1051169
+Cond 0
+Wear 10
+Cost 6372
 End
 
 #O
 Vnum 4825
 Nest 0
-PrevOwner Vampboodrum~
+PrevOwner Bardoc~
 Cond 0
-Wear -1
+Wear 1
 Cost 7000
 End
 
 #O
-Vnum 8546
+Vnum 13207
 Nest 0
-PrevOwner Vampboodrum~
+PrevOwner Trage~
 Cond 0
 Wear -1
-Cost 10300
+Cost 1500
+Val  2 1 10 12 517
 End
 
 #O
-Vnum 18119
+Vnum 4435
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 2800
+Val  6 3 7 8 768
+End
+
+#O
+Vnum 2918
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 1800
+Val  2 2 7 2 528
+End
+
+#O
+Vnum 4057
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 390
+Val  4 2 4 7 512
+End
+
+#O
+Vnum 6408
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 680
+Val  3 5 6 3 512
+End
+
+#O
+Vnum 7707
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 980
+Val  2 3 4 11 512
+End
+
+#O
+Vnum 7707
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 980
+Val  2 3 4 11 512
+End
+
+#O
+Vnum 615
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 122
+Val  3 3 3 2 512
+End
+
+#O
+Vnum 16619
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 1748
+Val  3 5 7 34 640
+End
+
+#O
+Vnum 16618
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 2346
+Val  6 5 7 37 768
+End
+
+#O
+Vnum 5018
+Nest 0
+PrevOwner Trage~
+Cond 0
+Wear -1
+Cost 930
+Val  1 2 7 3 512
+End
+
+#O
+Vnum 9602
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 20410
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 100
+Val  0 2 2 2 512
+End
+
+#O
+Vnum 10320
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 9500
+Val  5 5 8 18 548
+End
+
+#O
+Vnum 10320
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 9500
+Val  5 5 8 18 548
+End
+
+#O
+Vnum 10320
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Val  5 5 8 18 548
+End
+
+#O
+Vnum 11317
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 150
+Val  8 2 7 27 544
+End
+
+#O
+Vnum 8018
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 3000
+Val  8 2 12 1 516
+End
+
+#O
+Vnum 1980
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 900
+Val  7 3 8 3 516
+End
+
+#O
+Vnum 1115
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 980
+Val  8 2 3 7 544
+End
+
+#O
+Vnum 6600
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 250
+Val  5 1 5 25 512
+End
+
+#O
+Vnum 18104
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 4000
+Val  5 7 4 3 520
+End
+
+#O
+Vnum 10415
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 5400
+Val  2 4 10 5 516
+Affc 'bestow holiness'   5  51  -1   0   0        512
+End
+
+#O
+Vnum 3351
 Enchanted
 Nest 0
-PrevOwner Vampboodrum~
-ExtF 227
+PrevOwner Spontaneous~
+ExtF 65
 Cond 0
-Wear 16
-Lev  50
-Cost 4500
-Val  2 2 19 2 519
-Affc 'enchant weapon'   0  53  -1   7  18          0
+Wear -1
+Lev  26
+Cost 590
+Val  2 2 5 11 516
+Affc 'enchant weapon'   1  52  -1   4  19          0
+Affc 'enchant weapon'   0  52  -1   4  18          0
+End
+
+#O
+Vnum 9203
+Nest 0
+PrevOwner Spontaneous~
+Cond 0
+Wear -1
+Cost 0
+Val  2 5 4 11 521
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 4911
+Enchanted
+Nest 0
+PrevOwner Misfortune~
+ExtF 66
+Cond 0
+Wear -1
+Lev  43
+Cost 375
+Val  5 5 5 38 557
+Affc 'enchant weapon'   0  53  -1  12  18          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'bestow holiness'   5  51  -1   0   0        512
+End
+
+#O
+Vnum 20410
+Nest 0
+PrevOwner Misfortune~
+Cond 0
+Wear -1
+Cost 100
+Val  0 2 2 2 516
+End
+
+#O
+Vnum 22559
+Nest 0
+PrevOwner Parry~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 22559
+Nest 0
+PrevOwner Parry~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 22559
+Nest 0
+PrevOwner Parry~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 12003
+Enchanted
+Nest 0
+PrevOwner Cendron~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 1750
+Val  0 6 5 1 520
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #END

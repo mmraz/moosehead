@@ -2,8 +2,8 @@
 Name Kolder~
 Id   789920563
 Email (null)~
-LogO 947632487
-Vers 18
+LogO 1323940122
+Vers 33
 Desc You see a wondrous sight, a fabled White Ice dragon. The light glints of his
 gleaming ice like scales. He notices you looking at him and he smiles, then you
 notice the razor like fangs within that smiling mouth, you suddenly realize your
@@ -14,9 +14,27 @@ Race dragon~
 Outc 0
 RufT 0
 MatookT 0
-Kill 0 0 0
+SkPTimer 0
+SkPTracker 0
+LogoutTracker 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
+LstKBy no one~
 LstAtkedBy (null)~
+LstAtkedByTimer 0
+LstCombatDate 1323940119
+LstKillDate 1323940119
+LstDeathDate 1323940119
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 Sac  300
 Sex  1
@@ -24,13 +42,14 @@ Vump  0
 Node 0
 Cap 0
 Created 0
-LastHost monster57.legend.co.uk 1110~
+Glad 0 0 0 0 0 0
+LastHost 66.87.2.106~
 Cla  7
 ClaO 1
 Levl 3
 DLevl 0
-Plyd 39872
-Not  865756895 892048552 0 928636062 927807782 0 0 0 0
+Plyd 39875
+Not  865756895 892048552 0 928636062 927807782 0 0 0 0 0
 Scro 16
 Rank 0
 Room 112
@@ -39,6 +58,7 @@ Gold 298
 Silv 12
 Exp  161367
 Act  CDEFGHS
+MHSF M
 AfBy JT
 Comm DFIORSc
 Disp ACFJ
@@ -46,13 +66,14 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 1
+Trai 10
 Alig  1000
 Hit   2
 Dam   2
 ACs 84 71 72 99
 Wimp  12
-Attr 17 15 20 16 17
-AMod 4 -1 1 2 1
+Attr 17 15 20 16 17 13 13 13
+AMod 4 -1 1 2 1 0 0 0
 Pass Ko.MGazPcL/Ak~
 Titl  the helpful ice dragon~
 Pnts 145
@@ -115,8 +136,8 @@ Sk 1 'feeblemind'
 Sk 1 'fireball'
 Sk 1 'fireproof'
 Sk 1 'flamestrike'
-Sk 1 'fly'
 Sk 1 'floating disc'
+Sk 1 'fly'
 Sk 1 'forget'
 Sk 1 'frenzy'
 Sk 1 'fumble'
@@ -136,6 +157,10 @@ Sk 1 'locate object'
 Sk 1 'magic missile'
 Sk 1 'mass healing'
 Sk 1 'nexus'
+Sk 1 'orb of awakening'
+Sk 1 'orb of surprise'
+Sk 1 'orb of touch'
+Sk 1 'orb of turning'
 Sk 1 'pass door'
 Sk 1 'plague'
 Sk 1 'poison'
@@ -164,10 +189,6 @@ Sk 1 'fire breath'
 Sk 1 'frost breath'
 Sk 1 'gas breath'
 Sk 1 'lightning breath'
-Sk 1 'orb of awakening'
-Sk 1 'orb of surprise'
-Sk 1 'orb of touch'
-Sk 1 'orb of turning'
 Sk 1 'dagger'
 Sk 1 'mace'
 Sk 44 'sword'
@@ -207,6 +228,7 @@ End
 #O
 Vnum 5705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 13
 Cost 0
@@ -215,6 +237,7 @@ End
 #O
 Vnum 16729
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10
@@ -223,6 +246,7 @@ End
 #O
 Vnum 1369
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 260
@@ -234,6 +258,7 @@ End
 #O
 Vnum 2513
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 710
@@ -242,6 +267,7 @@ End
 #O
 Vnum 3009
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -250,6 +276,7 @@ End
 #O
 Vnum 3009
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -258,6 +285,7 @@ End
 #O
 Vnum 3009
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -266,6 +294,7 @@ End
 #O
 Vnum 3009
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -274,6 +303,7 @@ End
 #O
 Vnum 3009
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -282,6 +312,7 @@ End
 #O
 Vnum 3009
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -290,6 +321,7 @@ End
 #O
 Vnum 3009
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -298,6 +330,7 @@ End
 #O
 Vnum 3009
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -306,6 +339,7 @@ End
 #O
 Vnum 5231
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -314,6 +348,7 @@ End
 #O
 Vnum 3726
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 0
@@ -323,6 +358,7 @@ End
 #O
 Vnum 22044
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 100000
@@ -331,6 +367,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -339,6 +376,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -347,6 +385,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -355,6 +394,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -363,6 +403,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -371,6 +412,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -379,6 +421,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -387,6 +430,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -395,6 +439,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -403,6 +448,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -411,6 +457,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -419,6 +466,7 @@ End
 #O
 Vnum 9224
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -428,6 +476,7 @@ End
 #O
 Vnum 3007
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 500000
@@ -436,6 +485,7 @@ End
 #O
 Vnum 3061
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 6
 Cost 136
@@ -444,6 +494,7 @@ End
 #O
 Vnum 3060
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 5
 Cost 270
@@ -452,6 +503,7 @@ End
 #O
 Vnum 3062
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 7
 Cost 136
@@ -460,6 +512,7 @@ End
 #O
 Vnum 3063
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 8
 Cost 136
@@ -468,6 +521,7 @@ End
 #O
 Vnum 3064
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 9
 Cost 136
@@ -476,6 +530,7 @@ End
 #O
 Vnum 3065
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 10
 Cost 136
@@ -484,6 +539,7 @@ End
 #O
 Vnum 3052
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 15
 Cost 112
@@ -492,6 +548,7 @@ End
 #O
 Vnum 3052
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 14
 Cost 112
@@ -500,6 +557,7 @@ End
 #O
 Vnum 1345
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -508,6 +566,7 @@ End
 #O
 Vnum 1344
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1000
@@ -516,6 +575,7 @@ End
 #O
 Vnum 3138
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 24
@@ -525,6 +585,7 @@ End
 #O
 Vnum 3163
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1500
@@ -533,6 +594,7 @@ End
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 4
 Cost 72
@@ -541,6 +603,7 @@ End
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 3
 Cost 72
@@ -549,6 +612,7 @@ End
 #O
 Vnum 9224
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 200
@@ -558,6 +622,7 @@ End
 #O
 Vnum 3715
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 17
 Cost 1140
@@ -567,18 +632,20 @@ End
 Vnum 3021
 Enchanted
 Nest 0
+PrevOwner (null)~
 ExtF 64
 Cond 0
 Wear 16
 Lev  2
 Cost 250
-Affc 'enchant weapon'   1  53  -1   2  19          0
 Affc 'enchant weapon'   0  53  -1   2  18          0
+Affc 'enchant weapon'   1  53  -1   2  19          0
 End
 
 #O
 Vnum 3377
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -587,6 +654,7 @@ End
 #O
 Vnum 3031
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 75
@@ -597,19 +665,21 @@ End
 Vnum 5933
 Enchanted
 Nest 0
+PrevOwner (null)~
 ExtF 64
 Cond 0
 Wear -1
 Lev  5
 Cost 0
-Affc 'reserved'   1   1  -1   1   3          0
-Affc 'enchant weapon'   1  53  -1   4  19          0
 Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
+Affc 'reserved'   1   1  -1   1   3          0
 End
 
 #O
 Vnum 6601
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 1
 Cost 620
@@ -618,6 +688,7 @@ End
 #O
 Vnum 3715
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
@@ -626,6 +697,7 @@ End
 #O
 Vnum 3715
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
@@ -634,6 +706,7 @@ End
 #O
 Vnum 3117
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 11
 Cost 510
@@ -642,6 +715,7 @@ End
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 48
@@ -650,6 +724,7 @@ End
 #O
 Vnum 3710
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -658,6 +733,7 @@ End
 #O
 Vnum 3709
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -666,6 +742,7 @@ End
 #O
 Vnum 3715
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
@@ -674,6 +751,7 @@ End
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 48
@@ -682,6 +760,7 @@ End
 #O
 Vnum 3708
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -690,6 +769,7 @@ End
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 48
@@ -698,6 +778,7 @@ End
 #O
 Vnum 3708
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -706,6 +787,7 @@ End
 #O
 Vnum 6601
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 2
 Cost 620

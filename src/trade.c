@@ -25,11 +25,12 @@ static char rcsid[] = "$Id: trade.c,v 1.15 2003/09/20 18:34:20 boogums Exp $";
 #define     TRADE_SHOW          7
 #define     TRADE_CLEAR         8
 #define     TRADE_ACCEPT        9
+#define     TRADE_IDENTIFY      10
 
 /* Import */
 DECLARE_DO_FUN( do_help );
 
-OBJ_DATA *get_obj_trade( TRADE_DATA *trade, int trader, char *argument )
+/*OBJ_DATA *get_obj_trade( TRADE_DATA *trade, int trader, char *argument )
 {
     OBJ_DATA *obj;
 
@@ -39,6 +40,55 @@ OBJ_DATA *get_obj_trade( TRADE_DATA *trade, int trader, char *argument )
         if ( is_name( argument, obj->name ) )
             return obj;
     
+    return NULL;
+}*/
+/* This is much more complicated now to handle x.item, particularily for trade identify */
+OBJ_DATA *get_obj_trade( TRADE_DATA *trade, int trader, char *argument )
+{
+    OBJ_DATA *obj;
+    int number, count;
+    char arg[256];
+    int switch_trader = 0;
+
+    number = number_argument( argument, arg );
+    count  = 0;
+
+    if(trader > 1) /* Both traders - used for trade identify */
+    {// 2 is trader 0 first, else trader 1 first
+    /* switch_trader - 1 is used later to reset trader*/
+      if(trader == 2)
+      {
+        switch_trader = 2;
+        trader = 0;
+      }
+      else
+      {
+        switch_trader = 1;
+        trader = 1;
+      }
+    }
+    
+    while(1)
+    {
+      for ( obj = trade->items[trader] ;
+            obj != NULL ;
+            obj = obj->next_in_trade )
+      {
+          if ( is_name( argument, obj->name ) )
+          {
+              count++;
+              if(count == number)
+                return obj;
+          }
+      }
+      if(switch_trader)
+      {// Rerun with the other trader's items
+        trader = switch_trader - 1;
+        switch_trader = 0;
+        continue;
+      }
+      break;
+    }
     return NULL;
 }
 
@@ -52,6 +102,9 @@ bool obj_to_trade( OBJ_DATA *obj, TRADE_DATA *trade, int trader )
     /* no trading Nethermancer Robes */
     if ( obj->pIndexData->vnum == OBJ_VNUM_ROBES )
     	return FALSE;
+
+    if(obj->link_name)
+      return FALSE;
 
     obj->next_in_trade = trade->items[trader];
     trade->items[trader] = obj;
@@ -166,33 +219,41 @@ void do_trade( CHAR_DATA *ch, char *argument )
         return;
     }
     */
-    if ( !str_cmp( cmd, "request" ) )
+    if(cmd[0] == '\0')
+    {
+        do_help(ch,"trade");
+        return;
+    }
+    if ( !str_prefix( cmd, "request" ) )
         state = TRADE_REQUEST;
     else
-    if ( !str_cmp( cmd, "accept" ) )
+    if ( !str_prefix( cmd, "accept" ) )
         state = TRADE_ACCEPT;
     else
-    if ( !str_cmp( cmd, "approve" ) )
+    if ( !str_prefix( cmd, "approve" ) )
         state = TRADE_APPROVE;
     else
-    if ( !str_cmp( cmd, "decline" ) )
+    if ( !str_prefix( cmd, "decline" ) )
         state= TRADE_DECLINE;
     else
-    if ( !str_cmp( cmd, "add" ) )
+    if ( !str_prefix( cmd, "add" ) )
         state = TRADE_ADD;
     else
-    if ( !str_cmp( cmd, "remove" ) )
+    if ( !str_prefix( cmd, "remove" ) )
         state = TRADE_REMOVE;
     else
-    if ( !str_cmp( cmd, "cancel" ) )
+    if ( !str_prefix( cmd, "cancel" ) )
         state = TRADE_CANCEL;
     else
-    if ( !str_cmp( cmd, "clear" ) )
+    if ( !str_prefix( cmd, "clear" ) )
         state = TRADE_CLEAR;
     else
-    if ( !str_cmp( cmd, "view" ) || !str_cmp( cmd, "list" ) ||
-         !str_cmp( cmd, "show" ) )
+    if ( !str_prefix( cmd, "view" ) || !str_prefix( cmd, "list" ) ||
+         !str_prefix( cmd, "show" ) )
          state = TRADE_SHOW;
+    else
+    if ( !str_prefix( cmd, "identify" ) )
+         state = TRADE_IDENTIFY; 
     else
     {
         do_help(ch,"trade");
@@ -207,10 +268,20 @@ void do_trade( CHAR_DATA *ch, char *argument )
         break;
 
     case TRADE_REQUEST:
+	if(arg[0] == '\0')
+	{
+	    send_to_char("Trade with who?\n\r", ch);
+	    return;
+	}
 
         if ( ( victim = get_char_room(ch,arg) ) == NULL )
         {
             send_to_char("That person isn't here.\n\r",ch);
+            return;
+        }
+        if(victim == ch)
+        {
+            send_to_char("You cannot trade with yourself.\n\r", ch);
             return;
         }
         if( is_affected(victim, skill_lookup("wraithform")) )
@@ -487,11 +558,11 @@ void do_trade( CHAR_DATA *ch, char *argument )
 	}
  */
 
-        obj_from_char( obj );
         if ( !obj_to_trade( obj, trade, trader ) )
 	    act("You can't trade $p.",ch,obj,victim,TO_CHAR,FALSE);
 	else
 	{
+            obj_from_char( obj );
             act("You add $p to the trade.",ch,obj,victim,TO_CHAR,FALSE);
             act("$n adds $p to the trade.",ch,obj,victim,TO_VICT,FALSE);
 	}
@@ -570,6 +641,29 @@ void do_trade( CHAR_DATA *ch, char *argument )
         act("You remove $p from the trade.",ch,obj,victim,TO_CHAR,FALSE);
         act("$n removes $p from the trade.",ch,obj,victim,TO_VICT,FALSE);
         break;
+      case TRADE_IDENTIFY: 
+        if ( ( trade = ch->trade ) == NULL )
+        {
+            send_to_char("You are not trading with anybody.\n\r",ch);
+            return;
+        }
+        if(ch->gold * 100 + ch->silver < 1000)
+        {
+            send_to_char("It takes 10 gold to identify a trade item, you don't have enough.\n\r",ch);
+            return;
+        }
+        trader = ( trade->trader[0] == ch ? 0 : 1 );
+        /* Identify your items first, same as trade show does it */
+        if ( ( obj = get_obj_trade(trade,trader + 2,arg) ) == NULL )
+        {
+            send_to_char("That item is not in the current trade.\n\r",ch);
+            return;
+        }
+        deduct_cost(ch, 1000);
+        send_to_char("You offer 10 gold to the gods to provide you insight on your trade.\n\r",ch);
+        spell_identify(gsn_lore, ch->level, ch, obj, TARGET_OBJ);
+        break;
+
     };
 
     return;

@@ -3,8 +3,8 @@ Name Yiu~
 SurN Yiu~
 Id   1089276945
 Email (null)~
-LogO 1089277783
-Vers 31
+LogO 1341168335
+Vers 33
 Prom <{C%e{x> <{Y%g{x> %c <%h %v %m %X> ~
 Race ogre~
 Outc 0
@@ -15,6 +15,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,49 +27,59 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
-Sac  21
+Sac  300
 Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 1089277022
 Glad 0 0 0 0 0 0
-LastHost 196.30.34.178~
+LastHost 195.11.197.104~
 Cla  9
 ClaO 3
-Levl 1
+Levl 4
 DLevl 0
-Plyd 566
-Not  0 0 0 0 0 0 0 0 0 0
+Plyd 3063
+Not  1341167417 1341167417 1341167417 1341167417 1341167417 1341167417 1341167417 1341167417 1341167417 1341167417
 Scro 22
 Rank 0
-Room 3054
-HMV  30 30 100 100 58 100
-Gold 28
-Silv 307
-Exp  26581
+Room 3001
+HMV  77 85 116 116 124 124
+Gold 17
+Silv 17
+Exp  92594
 Act  CDEFGHKQ
 MHSF R
+AfBy HTV
 Comm DGIRT
 Disp FIJN
 IcgB 0
 Icg 0
 Pos  8
-Prac 5
-Save  -1
-Alig  0
-Hit   1
-ACs 95 95 95 99
-Attr 19 12 13 12 21 14 19 13
-AMod 2 0 2 2 1 0 0 0
+Prac 15
+Trai 1
+SkiP 12
+Save  -5
+Alig  -3
+Hit   12
+Dam   6
+SecHit   12
+SecDam   6
+ACs 78 77 77 90
+Attr 22 17 15 12 21 11 14 13
+AMod 6 0 9 4 2 0 0 0
 Pass YijnLdfmOP70s~
 Titl .~
 Pnts 118
 TSex 2
-LLev 1
-HMVP 20 100 100
-Cnd  0 44 47 46
+LLev 0
+HMVP 75 116 124
+Cnd  0 36 45 38
 Alias k kill~
 Sk 1 'armor'
 Sk 1 'cancellation'
@@ -132,6 +143,18 @@ Gr 'weaponsmaster'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
+Affc 'frenzy'   0  37   9  30  17          0
+Affc 'frenzy'   0  37   9   6  19          0
+Affc 'frenzy'   0  37   9   6  18          0
+Affc 'blur'   0  53   7 -20  17          0
+Affc 'haste'   0  20   7   2   2    2097152
+Affc 'sanctuary'   0  59  13   0   0        128
+Affc 'armor'   0  38   8 -20  17          0
+Affc 'bless'   0  40  20   5  18          0
+Affc 'bless'   0  38  20  -5  24          0
+Affc 'giant strength'   0  31  10   4   1          0
+Affc 'spirit of owl'   0  64   5   7   4          0
+Affc 'fly'   0  40  24   0   0     524288
 End
 
 #O
@@ -139,9 +162,9 @@ Vnum 3716
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
-Val  0 0 188 0 0
+Val  0 0 163 0 0
 End
 
 #O
@@ -158,7 +181,7 @@ Vnum 3700
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 16
+Wear -1
 Cost 250
 End
 
@@ -212,7 +235,7 @@ Vnum 3707
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 7
 Cost 72
 End
 
@@ -221,7 +244,7 @@ Vnum 3705
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 4
 Cost 72
 End
 
@@ -230,7 +253,7 @@ Vnum 3705
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 3
 Cost 72
 End
 
@@ -239,7 +262,7 @@ Vnum 3708
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 8
 Cost 72
 End
 
@@ -248,7 +271,7 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 14
 Cost 48
 End
 
@@ -257,7 +280,7 @@ Vnum 3706
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 6
 Cost 72
 End
 
@@ -284,7 +307,7 @@ Vnum 4440
 Nest 0
 PrevOwner Stylee~
 Cond 0
-Wear 13
+Wear -1
 Cost 0
 End
 
@@ -304,6 +327,176 @@ PrevOwner Stylee~
 Cond 0
 Wear 18
 Cost 0
+End
+
+#O
+Vnum 5942
+Nest 0
+PrevOwner Harmony~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5933
+Nest 0
+PrevOwner Harmony~
+Cond 0
+Wear 16
+Cost 0
+End
+
+#O
+Vnum 3159
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 3157
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 0
+Cost 1000
+Val  0 0 215 0 0
+End
+
+#O
+Vnum 1271
+Nest 0
+PrevOwner Bullwart~
+Cond 0
+Wear 13
+Cost 8000
+Val  10 1 0 5 50
+End
+
+#O
+Vnum 1269
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 1261
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
 End
 
 #END

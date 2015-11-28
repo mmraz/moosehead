@@ -2,19 +2,19 @@
 Name Xamin~
 Id   994036957
 Email (null)~
-LogO 1092799432
-Vers 31
+LogO 1408919323
+Vers 33
 Prom [%e %hHp %mMana %n/%N %v(%S)$%g.%s %a %wLbs %X]  ~
 Race dwarf~
-Clan posse~
 Outc 0
-RufT 331
+RufT 152
 MatookT 0
 SkPTimer 0
-SkPTracker 4
+SkPTracker 0
 LogoutTracker 0
 Kill 0 1 0 6
 Steal 0 0 0
+MSteal 0
 LstK Puchiko~
 LstKBy Cease~
 LstAtkedBy no one~
@@ -22,61 +22,68 @@ LstAtkedByTimer 0
 LstCombatDate 1089577491
 LstKillDate 1023670092
 LstDeathDate 1089577838
-LoginsWOKill 36
-LoginsWODeath 2
-LoginsWOCombat 1
+LoginsWOKill 46
+LoginsWODeath 12
+LoginsWOCombat 11
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 5 53 2
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 113173 mojo~
 DeityT -1385 almighty~
-Sac  295
+Sac  150
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 994036976
 Glad 0 0 0 0 0 0
-LastHost 209.120.156.200~
+LastHost 209.169.196.58~
 Cla  3
 Kit battlerager~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 189073
-Not  1092798830 1092798830 1092798830 1092798830 1092798830 1092798830 1092798830 1092798830 1092798830 1092798830
+Plyd 196526
+Not  1408636916 1408636916 1408636916 1408636916 1408636916 1408636916 1408636916 1408636916 1408636916 1408636916
 Scro 22
-Rank 2
-Room 31614
-HMV  1336 1336 317 317 308 308
-Gold 1
-Silv 10
+Rank 0
+Room -1601
+HMV  1336 1336 337 337 308 308
+Gold 56
+Silv 3318
 Exp  179051
-Act  CDEFGHJKQ
+Act  CDEFGHJK
 MHSF R
 ClnF D
-AfBy CDFJ
+AfBy CJT
 Comm GIS
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
 Prac 54
-SkiP 8
-Save  -7
-Alig  21
-Hit   20
-Dam   24
+Trai 17
+SkiP 44
+Save  -6
+Alig  -660
+Hit   29
+Dam   39
 SecHit   16
-SecDam   22
-ACs -3 -3 -3 36
-Attr 22 16 19 16 21 17 22 20
-AMod 4 0 0 1 1 0 0 0
+SecDam   26
+ACs 23 23 51 39
+Attr 22 16 19 16 21 9 13 20
+AMod 2 0 0 0 1 0 0 0
 Pass Xa/VzfustPndQ~
 Titl  says let the boobies hit the floor!! AHHHHH~
 Pnts 75
 TSex 1
 LLev 49
 HMVP 1336 351 273
-Cnd  0 0 0 0
+Cnd  0 0 4 4
 Sk 75 'armor'
 Sk 75 'cancellation'
 Sk 1 'dispel magic'
@@ -89,7 +96,7 @@ Sk 75 'protection evil'
 Sk 1 'protection good'
 Sk 1 'protection neutral'
 Sk 1 'sacred guardian'
-Sk 75 'sanctuary'
+Sk 76 'sanctuary'
 Sk 75 'shield'
 Sk 75 'stone skin'
 Sk 100 'axe'
@@ -108,7 +115,7 @@ Sk 95 'cleave'
 Sk 91 'dirt kicking'
 Sk 1 'disarm'
 Sk 100 'dodge'
-Sk 99 'killing rage'
+Sk 100 'killing rage'
 Sk 98 'enhanced critical'
 Sk 100 'enhanced damage'
 Sk 30 'morph'
@@ -124,13 +131,14 @@ Sk 1 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
 Sk 50 'swimming'
-Sk 50 'recall'
+Sk 53 'recall'
 Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'warrior default'
 Gr 'weaponsmaster'
 Gr 'protective'
 Gr 'garou'
+Affc 'fly'   0  41  16   0   0     524288
 End
 
 #O
@@ -157,15 +165,6 @@ Nest 0
 PrevOwner Xamin~
 Cond 0
 Wear 6
-Cost 0
-End
-
-#O
-Vnum 28018
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear 12
 Cost 0
 End
 
@@ -197,24 +196,6 @@ Cost 1400
 End
 
 #O
-Vnum 10447
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10441
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear 16
-Cost 6700
-End
-
-#O
 Vnum 3000
 Nest 0
 PrevOwner Xamin~
@@ -226,77 +207,312 @@ End
 #O
 Vnum 12001
 Nest 0
-PrevOwner Vent~
-Stolen 37
+PrevOwner Xamin~
 Cond 0
 Wear 8
 Cost 0
 End
 
 #O
-Vnum 11
-Nest 0
-PrevOwner Xamin~
-ShD  the corpse of Xamin~
-Desc The corpse of Xamin is lying here.~
-ExtF 67125248
-Cond 0
-Wear -1
-Lev  51
-Time 5
-Cost 0
-Val  0 0 0 1 4
-End
-
-#O
 Vnum 17648
 Nest 0
-PrevOwner Vent~
-Stolen 27
+PrevOwner Xamin~
 Cond 0
 Wear 13
 Cost 4000
 End
 
 #O
+Vnum 23108
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 10447
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 2414
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 3300
+End
+
+#O
+Vnum 10308
+Nest 1
+PrevOwner Xamin~
+ExtF 257
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 1
+PrevOwner Xamin~
+ExtF 257
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 1
+PrevOwner Xamin~
+ExtF 257
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 1
+PrevOwner Xamin~
+ExtF 257
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 1
+PrevOwner Xamin~
+ExtF 257
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 1
+PrevOwner Xamin~
+ExtF 257
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 1
+PrevOwner Xamin~
+ExtF 257
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10308
+Nest 1
+PrevOwner Xamin~
+ExtF 257
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 12004
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 12006
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 5929
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5938
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 10427
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 11800
+End
+
+#O
 Vnum 10431
-Nest 0
-PrevOwner Vent~
+Nest 1
+PrevOwner Xamin~
 Cond 0
 Wear -1
 Cost 6500
 End
 
 #O
-Vnum 8503
-Nest 0
+Vnum 10447
+Nest 1
 PrevOwner Xamin~
 Cond 0
 Wear -1
-Cost 5000
+Cost 13700
 End
 
 #O
-Vnum 8504
-Nest 0
+Vnum 10443
+Nest 1
 PrevOwner Xamin~
 Cond 0
 Wear -1
-Cost 6000
+Cost 1520
 End
 
 #O
-Vnum 10320
-Nest 0
+Vnum 10431
+Nest 1
 PrevOwner Xamin~
 Cond 0
 Wear -1
-Cost 9500
+Cost 6500
 End
 
 #O
-Vnum 31922
-Nest 0
+Vnum 10442
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 10442
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 28024
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 2332
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 7600
+End
+
+#O
+Vnum 11097
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 0
+Val  4 0 4 10500 0
+End
+
+#O
+Vnum 2919
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2419
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 2100
+End
+
+#O
+Vnum 3364
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 31416
+Nest 1
 PrevOwner Xamin~
 Cond 0
 Wear -1
@@ -305,7 +521,7 @@ End
 
 #O
 Vnum 31417
-Nest 0
+Nest 1
 PrevOwner Xamin~
 Cond 0
 Wear -1
@@ -313,8 +529,8 @@ Cost 0
 End
 
 #O
-Vnum 31416
-Nest 0
+Vnum 31922
+Nest 1
 PrevOwner Xamin~
 Cond 0
 Wear -1
@@ -322,17 +538,71 @@ Cost 0
 End
 
 #O
-Vnum 18106
-Nest 0
+Vnum 10320
+Nest 1
 PrevOwner Xamin~
 Cond 0
 Wear -1
-Cost 4500
+Cost 9500
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10441
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 6700
+End
+
+#O
+Vnum 10447
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 28018
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10442
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 13700
+End
+
+#O
+Vnum 2733
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 4900
 End
 
 #O
 Vnum 3364
-Nest 0
+Nest 1
 PrevOwner Xamin~
 Cond 0
 Wear -1
@@ -340,84 +610,40 @@ Cost 1280
 End
 
 #O
-Vnum 3365
-Nest 0
+Vnum 6434
+Nest 1
 PrevOwner Xamin~
 Cond 0
 Wear -1
-Cost 640
+Cost 5300
 End
 
 #O
-Vnum 2419
-Nest 0
+Vnum 911
+Nest 1
 PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 2100
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Xamin~
+ExtF 1121
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 2919
-Nest 0
+Vnum 9321
+Nest 1
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 2400
+End
+
+#O
+Vnum 10429
+Nest 1
 PrevOwner Xamin~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3364
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear 2
-Cost 1280
-End
-
-#O
-Vnum 3365
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 640
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 1150
 End
 
 #O
@@ -426,6 +652,15 @@ Nest 0
 PrevOwner Xamin~
 Cond 0
 Wear 15
+Cost 1150
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner Xamin~
+Cond 0
+Wear 14
 Cost 1150
 End
 
@@ -442,43 +677,6 @@ Cost 4000
 End
 
 #O
-Vnum 11097
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear 1
-Cost 0
-Val  4 0 4 10500 0
-End
-
-#O
-Vnum 2332
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 7600
-End
-
-#O
-Vnum 28024
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 10442
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
 Vnum 10440
 Nest 0
 PrevOwner Xamin~
@@ -489,109 +687,18 @@ Spell 3 'remove curse'
 End
 
 #O
-Vnum 10442
+Vnum 10308
 Nest 0
 PrevOwner Xamin~
 Cond 0
 Wear -1
 Cost 13700
-End
-
-#O
-Vnum 10431
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 9321
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear 0
-Cost 2400
-End
-
-#O
-Vnum 10443
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 1520
-End
-
-#O
-Vnum 10447
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10431
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 10427
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 11800
-End
-
-#O
-Vnum 5938
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 5929
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear 14
-Cost 0
-End
-
-#O
-Vnum 12006
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 900
-End
-
-#O
-Vnum 12004
-Nest 0
-PrevOwner Xamin~
-Cond 0
-Wear -1
-Cost 40
 End
 
 #O
 Vnum 10308
 Nest 0
 PrevOwner Xamin~
-ExtF 257
 Cond 0
 Wear -1
 Cost 13700
@@ -602,133 +709,104 @@ Vnum 10308
 Nest 0
 PrevOwner Xamin~
 ExtF 257
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner Xamin~
-ExtF 257
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner Xamin~
-ExtF 257
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner Xamin~
-ExtF 257
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner Xamin~
-ExtF 257
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner Xamin~
-ExtF 257
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner Vent~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner Vent~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner Vent~
-ExtF 257
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10308
-Nest 0
-PrevOwner Vent~
-ExtF 257
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 2414
-Nest 0
-PrevOwner Vent~
-Cond 0
-Wear -1
-Cost 3300
-End
-
-#O
-Vnum 10447
-Nest 0
-PrevOwner Vent~
-Cond 0
-Wear -1
-Cost 13700
-End
-
-#O
-Vnum 10442
-Nest 0
-PrevOwner Vent~
 Cond 0
 Wear 5
 Cost 13700
 End
 
 #O
-Vnum 23108
+Vnum 18106
 Nest 0
-PrevOwner Naikon~
+PrevOwner Xamin~
 Cond 0
 Wear -1
-Cost 1500
+Cost 4500
+End
+
+#O
+Vnum 5909
+Nest 0
+PrevOwner Unyn~
+Cond 0
+Wear 1
+Cost 3000
+End
+
+#O
+Vnum 5909
+Nest 0
+PrevOwner Ripper~
+Cond 0
+Wear 2
+Cost 3000
+End
+
+#O
+Vnum 4912
+Enchanted
+Nest 0
+PrevOwner Bullwart~
+ExtF 195
+Cond 0
+Wear -1
+Lev  49
+Cost 1800
+Val  5 5 7 20 392
+Affc 'reserved'   1  40  -1  -5  20          0
+Affc 'reserved'   1  40  -1   2   1          0
+Affc 'reserved'   1  40  -1   2  31          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 20808
+Enchanted
+Nest 0
+PrevOwner Hrungnor~
+ExtF 67
+Cond 0
+Wear -1
+Cost 1000
+Val  5 5 8 30 14
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 4912
+Enchanted
+Nest 0
+PrevOwner Hrungnor~
+ExtF 67
+Cond 0
+Wear 16
+Lev  50
+Cost 900
+Val  5 5 7 20 396
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   1  52  -1  13  19          0
+Affc 'enchant weapon'   0  52  -1  13  18          0
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner Xamin~
+Cond 0
+Wear -1
+Cost 640
 End
 
 #END

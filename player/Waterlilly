@@ -2,7 +2,7 @@
 Name Waterlilly~
 Id   893751206
 Email (null)~
-LogO 1086552753
+LogO 1317680379
 Vers 31
 LnD  A Gladiator~
 Desc The Beauty of this Female takes your breath away.....
@@ -13,7 +13,7 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -28,6 +28,9 @@ LoginsWOKill 2
 LoginsWODeath 2
 LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 megena~
 DeityT -103 megena~
 Sac  300
@@ -37,49 +40,47 @@ Node 0
 Cap 0
 Created 952881101
 Glad 0 0 0 0 0 0
-LastHost Toronto-HSE-ppp3850007.sympatico.ca~
+LastHost 70.53.48.206~
 Cla  14
 Kit myrmidon~
 ClaO 3
-Levl 50
+Levl 51
 DLevl 0
-Plyd 833158
-Not  1086124276 1061613893 983066051 1086394201 1085454727 1061651174 983066051 1056585704 983066051 0
+Plyd 1021227
+Not  1312679032 1311858677 983066051 1314668456 1312519205 1317362951 983066051 1311769662 983066051 1312425079
 Scro 22
 Rank 0
-Room 3054
-HMV  1099 1099 310 310 378 378
-Gold 3142
-Silv 3969
-Exp  403909
-Act  CDGHM
-MHSF R
-AfBy CT
-Comm DGOS
+Room 3033
+HMV  1177 1177 514 514 382 382
+Gold 490
+Silv 892
+Exp  408064
+Act  CDEFGMQ
+MHSF NR
+AfBy T
+Comm DEGOS
 Disp EFGJ
 IcgB 0
 Icg 0
-Pos  5
-Prac 106
-Trai 30
-SkiP 24
-Save  -6
-Alig  -1000
+Pos  8
+Trai 20
+SkiP 290
+Save  -4
+Alig  1000
 Hit   23
-Dam   39
-SecHit   13
-SecDam   29
-ACs 13 13 34 39
-Wimp  300
-Attr 21 18 18 18 18 13 13 13
-AMod 4 0 0 2 3 0 0 0
-Pass Wak4o2y6Ml36o~
+Dam   43
+SecHit   25
+SecDam   43
+ACs 10 10 31 40
+Attr 21 18 18 18 18 10 10 14
+AMod 4 0 0 0 3 0 0 0
+Pass WamBkI.bQ2aIA~
 Titl , Lady of Beauty and Countess of Desire.~
 Pnts 100
 TSex 2
-LLev 1
-HMVP 1029 324 343
-Cnd  0 0 0 0
+LLev 237
+HMVP 1042 489 347
+Cnd  0 0 30 0
 Alias no nod~
 Alias /na who~
 Alias r cast word~
@@ -88,13 +89,17 @@ Alias m say *MASS "O" HUG*~
 Alias g grat THATS FABU!!!!!!!!~
 Spz 'sword'
 OldSk 92 'acid blast'
+Sk 1 'aid'
 OldSk 1 'aid'
-Sk 75 'armor'
+Sk 79 'armor'
 OldSk 75 'armor'
+Sk 1 'bestow holiness'
 OldSk 1 'bestow holiness'
+Sk 41 'bless'
 OldSk 41 'bless'
 OldSk 77 'blindness'
 OldSk 77 'burning hands'
+Sk 45 'calm'
 OldSk 1 'calm'
 Sk 78 'cancellation'
 OldSk 78 'cancellation'
@@ -102,7 +107,7 @@ OldSk 41 'chain lightning'
 OldSk 1 'change sex'
 OldSk 18 'chill touch'
 OldSk 91 'colour spray'
-Sk 1 'cure critical'
+Sk 76 'cure critical'
 OldSk 76 'cure critical'
 Sk 1 'cure light'
 OldSk 1 'cure light'
@@ -117,6 +122,7 @@ Sk 1 'endure heat'
 OldSk 1 'endure heat'
 OldSk 75 'energy drain'
 OldSk 1 'famine'
+Sk 23 'feast'
 OldSk 1 'feast'
 OldSk 1 'feeblemind'
 OldSk 49 'fireball'
@@ -125,20 +131,25 @@ OldSk 1 'fireproof'
 Sk 77 'fly'
 OldSk 77 'fly'
 OldSk 1 'forget'
+Sk 76 'frenzy'
 OldSk 76 'frenzy'
 OldSk 1 'fumble'
-Sk 80 'gate'
+Sk 87 'gate'
 OldSk 73 'gate'
+Sk 62 'giant strength'
+Sk 58 'haste'
 Sk 82 'heal'
 OldSk 81 'heal'
+Sk 25 'holy word'
 OldSk 25 'holy word'
+Sk 51 'infravision'
 Sk 1 'knock'
 OldSk 1 'knock'
 OldSk 1 'lightning bolt'
 OldSk 1 'magic missile'
 Sk 1 'mass healing'
 OldSk 25 'mass healing'
-Sk 1 'nexus'
+Sk 23 'nexus'
 OldSk 1 'nexus'
 Sk 77 'pass door'
 OldSk 77 'pass door'
@@ -146,24 +157,25 @@ OldSk 75 'plague'
 OldSk 41 'poison'
 Sk 31 'portal'
 OldSk 31 'portal'
-Sk 1 'protection evil'
+Sk 46 'protection evil'
 OldSk 21 'protection evil'
-Sk 1 'protection good'
+Sk 41 'protection good'
 OldSk 41 'protection good'
 Sk 1 'protection neutral'
 OldSk 1 'protection neutral'
 Sk 75 'refresh'
 OldSk 24 'refresh'
+Sk 26 'remove curse'
 OldSk 1 'remove curse'
 Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
-Sk 78 'sanctuary'
+Sk 79 'sanctuary'
 OldSk 43 'sanctuary'
-Sk 61 'shield'
+Sk 69 'shield'
 OldSk 61 'shield'
 OldSk 81 'shocking grasp'
 OldSk 75 'slow'
-Sk 75 'stone skin'
+Sk 80 'stone skin'
 OldSk 49 'stone skin'
 Sk 91 'summon'
 OldSk 83 'summon'
@@ -190,9 +202,9 @@ Sk 78 'whip'
 OldSk 78 'whip'
 Sk 100 'bash'
 OldSk 100 'bash'
-Sk 81 'berserk'
-Sk 85 'dirt kicking'
-Sk 43 'disarm'
+Sk 82 'berserk'
+Sk 100 'dirt kicking'
+Sk 44 'disarm'
 OldSk 42 'disarm'
 Sk 100 'dodge'
 OldSk 96 'dodge'
@@ -204,21 +216,21 @@ Sk 100 'parry'
 OldSk 100 'parry'
 Sk 11 'rescue'
 OldSk 1 'rescue'
-Sk 92 'shield block'
+Sk 100 'shield block'
 OldSk 81 'shield block'
-Sk 81 'scan'
+Sk 83 'scan'
 OldSk 79 'scan'
 Sk 100 'second attack'
 OldSk 100 'second attack'
 Sk 100 'third attack'
 OldSk 100 'third attack'
-Sk 1 'fourth attack'
+Sk 92 'fourth attack'
 Sk 100 'fast healing'
 Sk 21 'scrolls'
 OldSk 1 'scrolls'
-Sk 1 'staves'
+Sk 13 'staves'
 OldSk 1 'staves'
-Sk 1 'wands'
+Sk 13 'wands'
 OldSk 1 'wands'
 Sk 50 'swimming'
 OldSk 50 'swimming'
@@ -228,53 +240,19 @@ Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'blademaster default'
 Gr 'weaponsmaster'
+Gr 'benedictions'
+Gr 'enhancement'
 Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 End
 
 #O
-Vnum 2505
-Nest 0
-PrevOwner Waterlilly~
-Cond 0
-Wear 15
-Cost 1150
-End
-
-#O
-Vnum 16721
-Nest 0
-PrevOwner Waterlilly~
-Cond 0
-Wear 4
-Cost 1400
-End
-
-#O
-Vnum 2505
-Nest 0
-PrevOwner Waterlilly~
-Cond 0
-Wear 14
-Cost 1150
-End
-
-#O
 Vnum 5909
 Nest 0
 PrevOwner Waterlilly~
 Cond 0
-Wear 2
-Cost 3000
-End
-
-#O
-Vnum 5909
-Nest 0
-PrevOwner Waterlilly~
-Cond 0
-Wear 1
+Wear -1
 Cost 3000
 End
 
@@ -288,306 +266,13 @@ Cost 4000
 End
 
 #O
-Vnum 11078
-Nest 0
-PrevOwner Waterlilly~
-Cond 0
-Wear 11
-Cost 3500
-End
-
-#O
-Vnum 2332
-Nest 0
-PrevOwner Waterlilly~
-Cond 0
-Wear 13
-Cost 7600
-End
-
-#O
-Vnum 1345
-Nest 0
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3104
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 25000
-End
-
-#O
-Vnum 22010
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 9800
-Spell 3 'animate dead'
-End
-
-#O
-Vnum 17607
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 18912
-Enchanted
-Nest 1
-PrevOwner Waterlilly~
-ExtF 83
-Cond 0
-Wear -1
-Lev  46
-Cost 4800
-Affc 'reserved'   1  40  -1  -1  20          0
-Affc 'reserved'   1  40  -1   0   0          0
-Affc 'enchant weapon'   1  53  -1   6  19          0
-Affc 'enchant weapon'   0  53  -1   6  18          0
-End
-
-#O
-Vnum 5400
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 20808
-Enchanted
-Nest 1
-PrevOwner Waterlilly~
-ExtF 67
-Cond 0
-Wear -1
-Cost 1000
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 2602
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 5800
-End
-
-#O
-Vnum 18909
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 7500
-End
-
-#O
-Vnum 17631
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 250
-End
-
-#O
-Vnum 17631
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 250
-End
-
-#O
-Vnum 4433
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 10424
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 5500
-End
-
-#O
-Vnum 2326
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 550
-End
-
-#O
-Vnum 1344
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 17631
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 250
-End
-
-#O
-Vnum 5710
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5710
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5706
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 5706
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 22928
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 750
-Val  0 2 7 37 1024
-End
-
-#O
-Vnum 20813
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 20813
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 922
-Nest 1
-PrevOwner Waterlilly~
-ExtF 1121
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 922
-Nest 1
-PrevOwner Waterlilly~
-ExtF 1121
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10427
-Nest 1
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 11800
-End
-
-#O
-Vnum 16721
-Nest 0
-PrevOwner Waterlilly~
-Cond 0
-Wear 3
-Cost 1400
-End
-
-#O
 Vnum 10405
+Enchanted
 Nest 0
 PrevOwner Waterlilly~
 Cond 0
 Wear 6
 Cost 7307
-End
-
-#O
-Vnum 1346
-Nest 0
-PrevOwner Waterlilly~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 11145
-Nest 0
-PrevOwner Waterlilly~
-Cond 0
-Wear 18
-Cost 4500
 End
 
 #O
@@ -603,95 +288,6 @@ Cost 0
 End
 
 #O
-Vnum 28018
-Nest 0
-PrevOwner Collapse~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5939
-Enchanted
-Nest 0
-PrevOwner Waterlilly~
-ExtF 323
-Cond 0
-Wear -1
-Cost 4000
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 3374
-Nest 0
-PrevOwner Cresent~
-Name Mark Walberg Doll~
-ShD  A Mark Walberg doll~
-Desc Mark Walberg is here taking it off for you.~
-ExtF 4194305
-Cond 0
-Wear 17
-Cost 500
-End
-
-#O
-Vnum 6517
-Nest 0
-PrevOwner Tikko~
-Name sec thing strange~
-ShD  a sec~
-Desc A very odd looking thing lies here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1313
-Nest 0
-PrevOwner Tikko~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 18432
-Nest 0
-PrevOwner Tikko~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 22504
-Nest 0
-PrevOwner Tikko~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 11098
-Enchanted
-Nest 0
-PrevOwner Waterlilly~
-ExtF 195
-Cond 0
-Wear 16
-Lev  50
-Cost 3500
-Affc 'reserved'   1  45  -1  50  13          0
-Affc 'enchant weapon'   1  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
 Vnum 1345
 Nest 0
 PrevOwner Waterlilly~
@@ -699,7 +295,7 @@ Name backpack leather waterlilly gap~
 ShD  Waterlilly's Gap shopping bag~
 Desc Waterlilly's Gap shopping bag is here~
 Cond 0
-Wear 12
+Wear -1
 Cost 1000
 End
 
@@ -752,9 +348,21 @@ Cost 6372
 End
 
 #O
+Vnum 3009
+Nest 1
+PrevOwner Waterlilly~
+Name foil wrapped chocolate Haryld~
+ShD  a foil wrapped Haryld~
+Desc A foil wrapped chocolate Haryld lies here.~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
 Vnum 3377
 Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
 Name tickle me elmo~
 ShD  a "tickle me" Elmo doll~
 Desc Merry Christmas! have a "tickle me" Elmo doll from BloodMoon :)~
@@ -764,33 +372,9 @@ Cost 10000
 End
 
 #O
-Vnum 9321
-Nest 1
-PrevOwner Tatiana~
-Name light dream might~
-ShD  The Light of Dreams~
-Desc The light of millions of dreams is glowing here.~
-Cond 0
-Wear -1
-Cost 2400
-End
-
-#O
-Vnum 1001
-Nest 1
-PrevOwner Tatiana~
-Name witchblade~
-ShD  Witchblade~
-Desc a Whitchblade lies here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 3138
 Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
 Name teddy Ruxpin~
 ShD  Teddy Ruxpin~
 Desc This adorable bear will sing you to sleep...then slit yer throat!~
@@ -802,7 +386,56 @@ End
 #O
 Vnum 6517
 Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
+Name anthals teddy bear~
+ShD  a fuzzy Anthalas teddy bear~
+Desc a fuzzy Anthalas teddy bear lies here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3033
+Nest 1
+PrevOwner Waterlilly~
+Name present HaryldDay gift~
+ShD  a brightly wrapped HaryldDay present~
+Desc A brightly wrapped box is here with pictures of giants and the words "Have a Big Friendly GiantDay" on it.~
+Cond 0
+Wear -1
+Cost 30
+End
+
+#O
+Vnum 3284
+Nest 1
+PrevOwner Waterlilly~
+Name haryldday bottle cheer~
+ShD  a bottle of HaryldDay cheer~
+Desc A bottle of Haryldday cheer is here, ready to make you feel all better after a long day of partying.~
+Cond 0
+Wear -1
+Cost 220
+Spell 1 'cure serious'
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Waterlilly~
+Name good feel~
+ShD  a good feel~
+Desc Someone gives you a good feel!~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Waterlilly~
 Name blow up party doll~
 ShD  A Guido blow up party doll~
 Desc An inflatable Guido party doll is here, dressed as the faerie queen.~
@@ -812,211 +445,22 @@ Cost 0
 End
 
 #O
-Vnum 3009
-Nest 1
-PrevOwner Tatiana~
-Name foil wrapped chocolate Haryld~
-ShD  a foil wrapped Haryld~
-Desc A foil wrapped chocolate Haryld lies here.~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3033
-Nest 1
-PrevOwner Tatiana~
-Name present HaryldDay gift~
-ShD  a brightly wrapped HaryldDay present~
-Desc A brightly wrapped box is here with pictures of giants and the words "Have a Big Friendly GiantDay" on it.~
-Cond 0
-Wear -1
-Cost 30
-End
-
-#O
 Vnum 6517
 Nest 1
-PrevOwner Tatiana~
-Name godzilla haryld~
-ShD  A Godzilla vs. Haryld Movie Cassette~
-Desc A Godzilla vs Haryld movie tape is lying here. I heard Godzilla lost in this one.~
+PrevOwner Waterlilly~
+Name p-chan doll~
+ShD  a stuffed P-Chan doll~
+Desc This stuffed doll is of a small black pig with a yellow and black bandana around its neck.~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 3033
-Nest 1
-PrevOwner Tatiana~
-Name present HaryldDay gift~
-ShD  a brightly wrapped HaryldDay present~
-Desc A brightly wrapped box is here with pictures of giants and the words "Have a Big Friendly GiantDay" on it.~
-Cond 0
-Wear -1
-Cost 30
-End
-
-#O
-Vnum 20
-Nest 1
-PrevOwner Tatiana~
-Name walnut~
-ShD  a Walnut~
-Desc a walnut sits here looking at you~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10003
-Nest 1
-PrevOwner Tatiana~
-Name erikson cell phone~
-ShD  a super-sleek Erikson cell phone~
-Desc A tiny, super-sleek Erikson cell phone demands to be used as a status symbol.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 15227
-Nest 1
-PrevOwner Tatiana~
-Cond 0
-Wear -1
-Cost 20000
-Val  -1 -1 -1 -1 -1
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner Tatiana~
-Name frog cute~
-ShD  a cute black and white frog~
-Desc A small little frog sits here Moobiting at you, isn't it just soooo cute?!~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 11306
-Nest 1
-PrevOwner Tatiana~
-Cond 0
-Wear -1
-Cost 340
-Spell 1 'burning hands'
-End
-
-#O
-Vnum 3033
-Nest 1
-PrevOwner Tatiana~
-Name sack~
-ShD  a sack of Tootsie Pops~
-Desc A sack of Tootsie Pops~
-Cond 0
-Wear -1
-Cost 30
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner Tatiana~
-Name spell up~
-ShD  a spell up~
-Desc You don't know what this is, but people are always asking for it.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20
-Nest 1
-PrevOwner Tatiana~
-Name can spam~
-ShD  a can of Spam~
-Desc A can of spam lies here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner Tatiana~
-Name mistletoe bunch leaves~
-ShD  a bunch of Mistletoe~
-Desc Some boughs of mistletoe are gathered together here, the symbol of love for the holidays and a great excuse for a passionate kiss.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 28024
-Nest 1
-PrevOwner Tatiana~
-Name salmiakki~
-ShD  Salmiakkirasia~
-Desc Fazer Made in Finland~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner Tatiana~
-Name 2 clubs~
-ShD  a 2 of clubs~
-Desc This is the 2 of clubs from a regular deck of playing cards.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10429
-Nest 1
-PrevOwner Tatiana~
-ShD  a token of Teraptus's undrying love and devotion~
-Desc Waterlilly's beautiful wedding ring.~
-Cond 0
-Wear -1
-Cost 2700
-ExDe inscription~ To my dearest Waterlilly...from now until the end of time my heart will always be yours.
-~
-End
-
-#O
-Vnum 5031
-Nest 1
-PrevOwner Tatiana~
-Name waterlilly bouquet~
-ShD  Waterlilly's Wedding Bouquet~
-Desc A white lily surrounded by tiny white and pale purple rose buds.~
-Cond 0
-Wear -1
-Cost 2600
 End
 
 #O
 Vnum 5937
 Enchanted
 Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
 Name beautiful waterlilly~
 ShD  a beautiful waterlilly~
 Desc A beautiful waterlilly lies here, whose beautiful glow is only lessened by the lady who holds it.~
@@ -1031,34 +475,60 @@ Affc 'enchant armor'   1  53  -1  -2  17          0
 End
 
 #O
-Vnum 1001
+Vnum 20
 Nest 1
-PrevOwner Tatiana~
-Name note waterlilly teraptus~
-ShD  a love note to Waterlilly~
-Desc Just a little reminder that you mean the world to me. -Teraptus-~
+PrevOwner Waterlilly~
+Name can spam~
+ShD  a can of Spam~
+Desc A can of spam lies here.~
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 3374
+Vnum 6517
 Nest 1
-PrevOwner Tatiana~
-Name cd von trapp singers family~
-ShD  a Von Trapp Family Singers cd~
-Desc A Von Trapp Family Singers cd rotates here, hoping for a laser disc player.~
+PrevOwner Waterlilly~
+Name spell up~
+ShD  a spell up~
+Desc You don't know what this is, but people are always asking for it.~
 Cond 0
 Wear -1
-Cost 500
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Waterlilly~
+Name mistletoe bunch leaves~
+ShD  a bunch of Mistletoe~
+Desc Some boughs of mistletoe are gathered together here, the symbol of love for the holidays and a great excuse for a passionate kiss.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 30109
+Nest 1
+PrevOwner Waterlilly~
+Name bmw poquah gift leveling chocolate~
+ShD  a chocolate BMW-Z8~
+Desc An expensive chocolate leveling gift shaped like a BMW-Z8 melts slowly.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 77 125 169 -1
+Spell 3 'sanctuary'
 End
 
 #O
 Vnum 6702
 Enchanted
 Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
 Name can of whipped cream~
 ShD  A can of Whipped Cream~
 Desc An unopened can of Whipped Cream~
@@ -1074,150 +544,72 @@ Affc 'enchant weapon'   1  52  -1  10  18          0
 End
 
 #O
-Vnum 1395
+Vnum 3374
+Nest 1
+PrevOwner Waterlilly~
+Name cd von trapp singers family~
+ShD  a Von Trapp Family Singers cd~
+Desc A Von Trapp Family Singers cd rotates here, hoping for a laser disc player.~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 28024
+Nest 1
+PrevOwner Waterlilly~
+Name salmiakki~
+ShD  Salmiakkirasia~
+Desc Fazer Made in Finland~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 6420
 Enchanted
 Nest 1
-PrevOwner Tatiana~
-Name medallion apocalypse white gold~
-ShD  The Medallion of the Apocalypse~
-Desc A glowing white-gold medallion lies here, emblazoned with the insignia of the Apocalypse.~
+PrevOwner Waterlilly~
+Name tail anthalas~
+ShD  Anthalas' tail~
+Desc Here lies the tail of Anthalas.~
 Cond 0
 Wear -1
-Cost 1970
-Affc 'enchant armor'   1  51  -1  -6  17          0
-Affc 'reserved'   1  20  -1   2  19          0
+Cost 3500
+Affc 'reserved'   1  27  -1   2  19          0
+Affc 'enchant armor'   1  51  -1  -8  17          0
 End
 
 #O
-Vnum 20740
+Vnum 1001
 Nest 1
-PrevOwner Tatiana~
-Name marlboro light~
-ShD  a Marlboro light~
-Desc A Marlboro light is here, spreading ashes and nicotine in its path.~
+PrevOwner Waterlilly~
+Name witchblade~
+ShD  Witchblade~
+Desc a Whitchblade lies here.~
 Cond 0
 Wear -1
-Cost 4500
-End
-
-#O
-Vnum 10027
-Nest 1
-PrevOwner Tatiana~
-Cond 0
-Wear -1
-Cost 1000
+Cost 0
 End
 
 #O
 Vnum 6517
 Nest 1
-PrevOwner Tatiana~
-Name good feel~
-ShD  a good feel~
-Desc Someone gives you a good feel!~
+PrevOwner Waterlilly~
+Name frog cute~
+ShD  a cute black and white frog~
+Desc A small little frog sits here Moobiting at you, isn't it just soooo cute?!~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 30109
-Nest 1
-PrevOwner Tatiana~
-Name bmw poquah gift leveling chocolate~
-ShD  a chocolate BMW-Z8~
-Desc An expensive chocolate leveling gift shaped like a BMW-Z8 melts slowly.~
-Cond 0
-Wear -1
-Cost 0
-Val  50 77 125 168 -1
-Spell 3 'sanctuary'
-End
-
-#O
-Vnum 18912
-Nest 1
-PrevOwner Tatiana~
-Cond 0
-Wear -1
-Cost 4800
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Tatiana~
-Name wedgie~
-ShD  a wedgie~
-Desc Your underwear is jammed up the crack of your butt!!~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 15208
-Enchanted
-Nest 1
-PrevOwner Tatiana~
-Name BMW string keys ~
-ShD  the spare key to Poquah's BMW-Z3 on a string~
-Desc The keys to a blue convertible BMW-Z3 Roadster are here.~
-Cond 0
-Wear -1
-Cost 5000
-Affc 'enchant armor'   1  45  -1  -5  17          0
-Affc 'reserved'   1  40  -1   2  19          0
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner Tatiana~
-Name p-chan doll~
-ShD  a stuffed P-Chan doll~
-Desc This stuffed doll is of a small black pig with a yellow and black bandana around its neck.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8506
-Nest 1
-PrevOwner Tatiana~
-Name guerrand plush doll~
-ShD  a plush Guerrand doll~
-Desc A plush Guerrand doll lies here.~
-ExtF 1
-Cond 0
-Wear -1
-Lev  5
-Cost 10000
-Val  50 10 10 168 0
-Spell 3 'sanctuary'
-End
-
-#O
-Vnum 10415
-Enchanted
-Nest 1
-PrevOwner Tatiana~
-ExtF 82
-Cond 0
-Wear -1
-Lev  50
-Cost 5400
-Affc 'enchant weapon'   0  53  -1   5  18          0
-Affc 'enchant weapon'   1  53  -1   5  19          0
-Affc 'reserved'   1  46  -1  25  12          0
 End
 
 #O
 Vnum 28025
 Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
 Name action figurine~
 ShD  a Mordachai action figurine~
 Desc A posable G.I. Joe action figurine of Mordachai is sitting here, waiting to be played with.~
@@ -1229,19 +621,7 @@ End
 #O
 Vnum 6517
 Nest 1
-PrevOwner Tatiana~
-Name action figure fully functional~
-ShD  a "Fully Functional" Ghanima Action Figure~
-Desc This little doll will do anything for you! Damn elves...~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
 Name action figurine~
 ShD  A Guido action figurine~
 Desc A posable G.I. Joe action figure of Guido is here, waiting to be played with.~
@@ -1251,9 +631,52 @@ Cost 0
 End
 
 #O
+Vnum 20808
+Enchanted
+Nest 1
+PrevOwner Waterlilly~
+ExtF 67
+Cond 0
+Wear -1
+Cost 1000
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 2409
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 3500
+End
+
+#O
+Vnum 4910
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 20730
+Nest 1
+PrevOwner Waterlilly~
+Name worst nightmare~
+ShD  Your Worst Nightmare~
+Desc A demonic creature, with large claws, sharp fangs, and glowing red eyes, floats in mid-air beside the Demon Wizard Bremen.~
+Cond 0
+Wear -1
+Cost 6100
+End
+
+#O
 Vnum 1386
 Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
 Name BINKing paddle~
 ShD  a BINKing paddle~
 Desc This is Toma's official BINKing paddle.  It looks somewhat like a ping pong paddle, and maybe even a little bit like the legendary spanking paddle.  Watch out, or the little bastard will BINK you!  Eek!~
@@ -1266,7 +689,7 @@ End
 Vnum 7802
 Enchanted
 Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
 Name blackwidow fang~
 ShD  a BlackWidows Fang~
 Desc A deadly BlackWidow Fang dripping venom lies here.~
@@ -1280,7 +703,7 @@ End
 #O
 Vnum 28025
 Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
 Name heart satanic~
 ShD  Tisha's satanic heart~
 Desc Thousands of mortals' souls scream out in agony from Tisha's beating, black heart lying here.~
@@ -1290,142 +713,24 @@ Cost 5000
 End
 
 #O
-Vnum 6420
+Vnum 15208
 Enchanted
 Nest 1
-PrevOwner Tatiana~
-Name tail anthalas~
-ShD  Anthalas' tail~
-Desc Here lies the tail of Anthalas.~
+PrevOwner Waterlilly~
+Name BMW string keys ~
+ShD  the spare key to Poquah's BMW-Z3 on a string~
+Desc The keys to a blue convertible BMW-Z3 Roadster are here.~
 Cond 0
 Wear -1
-Cost 3500
-Affc 'reserved'   1  27  -1   2  19          0
-Affc 'enchant armor'   1  51  -1  -8  17          0
-End
-
-#O
-Vnum 20730
-Nest 1
-PrevOwner Tatiana~
-Name worst nightmare~
-ShD  Your Worst Nightmare~
-Desc A demonic creature, with large claws, sharp fangs, and glowing red eyes, floats in mid-air beside the Demon Wizard Bremen.~
-Cond 0
-Wear -1
-Cost 6100
-End
-
-#O
-Vnum 18116
-Nest 1
-PrevOwner Tatiana~
-Name demonic glow~
-ShD  A Demonic Glow~
-Desc Bremen's own skull, obtained from a battle long past, provides him with light.~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 15111
-Enchanted
-Nest 1
-PrevOwner Tatiana~
-Name energy force will gods~
-ShD  the Will of the Gods~
-Desc A powerful force of energy lies here eminating depression.~
-Cond 0
-Wear -1
-Cost 2600
-Affc 'enchant weapon'   1  48  -1   4  19          0
-Affc 'enchant weapon'   0  48  -1   4  18          0
-End
-
-#O
-Vnum 18909
-Nest 1
-PrevOwner Tatiana~
-Name sister your~
-ShD  your sister~
-Desc you see your sister on the floor~
-Cond 0
-Wear -1
-Cost 7500
-End
-
-#O
-Vnum 3284
-Nest 1
-PrevOwner Tatiana~
-Name haryldday bottle cheer~
-ShD  a bottle of HaryldDay cheer~
-Desc A bottle of Haryldday cheer is here, ready to make you feel all better after a long day of partying.~
-Cond 0
-Wear -1
-Cost 220
-Spell 1 'cure serious'
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Tatiana~
-Name foil wrapped chocolate Haryld~
-ShD  a foil wrapped Haryld~
-Desc A foil wrapped chocolate Haryld lies here.~
-Cond 0
-Wear -1
-Cost 22
+Cost 5000
+Affc 'enchant armor'   1  45  -1  -5  17          0
+Affc 'reserved'   1  40  -1   2  19          0
 End
 
 #O
 Vnum 6517
 Nest 1
-PrevOwner Tatiana~
-Name godzilla haryld~
-ShD  A Godzilla vs. Haryld Movie Cassette~
-Desc A Godzilla vs Haryld movie tape is lying here. I heard Godzilla lost in this one.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 4811
-Nest 1
-PrevOwner Tatiana~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5552
-Nest 1
-PrevOwner Tatiana~
-Cond 0
-Wear -1
-Cost 90
-End
-
-#O
-Vnum 18110
-Nest 1
-PrevOwner Tatiana~
-Name boots earth~
-ShD  boots made from the Earth itself~
-Desc These boots have been built solely with earth and other organic materials. Much like Bremen's cloak, they seem to blend in with the surrounding environment, giving the bearer a floating appearance.~
-Cond 0
-Wear -1
-Cost 2400
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
 Name bear brown rusty ~
 ShD  a brown stuffed bear~
 Desc This brown stuffed bear is a perfect size for hugging. He is wearing a name tag that says, "Hi, Im Rusty".~
@@ -1435,22 +740,146 @@ Cost 0
 End
 
 #O
-Vnum 6517
+Vnum 4811
 Nest 1
-PrevOwner Tatiana~
-Name anthals teddy bear~
-ShD  a fuzzy Anthalas teddy bear~
-Desc a fuzzy Anthalas teddy bear lies here.~
+PrevOwner Waterlilly~
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
+Vnum 5552
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 90
+End
+
+#O
+Vnum 2440
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 300
+End
+
+#O
+Vnum 18909
+Nest 1
+PrevOwner Waterlilly~
+Name sister your~
+ShD  your sister~
+Desc you see your sister on the floor~
+Cond 0
+Wear -1
+Cost 7500
+End
+
+#O
+Vnum 1001
+Nest 1
+PrevOwner Waterlilly~
+Name note waterlilly teraptus~
+ShD  a love note to Waterlilly~
+Desc Just a little reminder that you mean the world to me. -Teraptus-~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Waterlilly~
+Name godzilla haryld~
+ShD  A Godzilla vs. Haryld Movie Cassette~
+Desc A Godzilla vs Haryld movie tape is lying here. I heard Godzilla lost in this one.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Waterlilly~
+Name godzilla haryld~
+ShD  A Godzilla vs. Haryld Movie Cassette~
+Desc A Godzilla vs Haryld movie tape is lying here. I heard Godzilla lost in this one.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9321
+Nest 1
+PrevOwner Waterlilly~
+Name light dream might~
+ShD  The Light of Dreams~
+Desc The light of millions of dreams is glowing here.~
+Cond 0
+Wear -1
+Cost 2400
+End
+
+#O
+Vnum 3374
+Nest 1
+PrevOwner Waterlilly~
+Name Mark Walberg Doll~
+ShD  A Mark Walberg doll~
+Desc Mark Walberg is here taking it off for you.~
+ExtF 4194305
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
 Vnum 6434
 Enchanted
 Nest 1
-PrevOwner Tatiana~
+PrevOwner Waterlilly~
 Name hemp ring jewel~
 ShD  a jewel studded hemp ring~
 Desc A tightly braided hemp ring is crafted with expensive jewels rests here, protesting silently.~
@@ -1461,21 +890,90 @@ Affc 'reserved'   1  37  -1  30  12          0
 End
 
 #O
-Vnum 12001
-Nest 0
+Vnum 10003
+Nest 1
 PrevOwner Waterlilly~
+Name erikson cell phone~
+ShD  a super-sleek Erikson cell phone~
+Desc A tiny, super-sleek Erikson cell phone demands to be used as a status symbol.~
 Cond 0
-Wear 8
+Wear -1
 Cost 0
 End
 
 #O
-Vnum 12006
-Nest 0
+Vnum 3007
+Nest 1
 PrevOwner Waterlilly~
 Cond 0
-Wear 10
-Cost 900
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Waterlilly~
+Name wedgie~
+ShD  a wedgie~
+Desc Your underwear is jammed up the crack of your butt!!~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #O
@@ -1489,36 +987,424 @@ Cost 13700
 End
 
 #O
-Vnum 3032
+Vnum 2505
 Nest 0
 PrevOwner Waterlilly~
-Name waterlilly's purse~
-ShD  Waterlilly's Purse~
-Desc Waterlilly's Purse is sitting here.~
+Cond 0
+Wear 14
+Cost 1150
+End
+
+#O
+Vnum 5710
+Nest 0
+PrevOwner Waterlilly~
 Cond 0
 Wear -1
-Cost 9
+Cost 0
+End
+
+#O
+Vnum 2332
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear 13
+Cost 7600
+End
+
+#O
+Vnum 15227
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear 12
+Cost 20000
+Val  -1 -1 -1 -1 -1
+End
+
+#O
+Vnum 12001
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear 8
+Cost 0
+End
+
+#O
+Vnum 20740
+Nest 0
+PrevOwner Waterlilly~
+Name marlboro light~
+ShD  a Marlboro light~
+Desc A Marlboro light is here, spreading ashes and nicotine in its path.~
+Cond 0
+Wear 17
+Cost 4500
+End
+
+#O
+Vnum 10411
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear 10
+Cost 3300
+End
+
+#O
+Vnum 11145
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear 18
+Cost 4500
+End
+
+#O
+Vnum 1345
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 11306
+Nest 1
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 340
+Spell 1 'burning hands'
+End
+
+#O
+Vnum 8506
+Nest 1
+PrevOwner Waterlilly~
+Name guerrand plush doll~
+ShD  a plush Guerrand doll~
+Desc A plush Guerrand doll lies here.~
+ExtF 1
+Cond 0
+Wear -1
+Lev  5
+Cost 10000
+Val  50 10 10 169 0
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 3033
+Nest 1
+PrevOwner Waterlilly~
+Name present HaryldDay gift~
+ShD  a brightly wrapped HaryldDay present~
+Desc A brightly wrapped box is here with pictures of giants and the words "Have a Big Friendly GiantDay" on it.~
+Cond 0
+Wear -1
+Cost 30
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Waterlilly~
+Name foil wrapped chocolate Haryld~
+ShD  a foil wrapped Haryld~
+Desc A foil wrapped chocolate Haryld lies here.~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Waterlilly~
+Name action figure fully functional~
+ShD  a "Fully Functional" Ghanima Action Figure~
+Desc This little doll will do anything for you! Damn elves...~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Waterlilly~
+Name 2 clubs~
+ShD  a 2 of clubs~
+Desc This is the 2 of clubs from a regular deck of playing cards.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 11078
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear 11
+Cost 3500
+End
+
+#O
+Vnum 5939
+Enchanted
+Nest 0
+PrevOwner Waterlilly~
+ExtF 323
+Cond 0
+Wear 16
+Cost 4000
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 23514
+Nest 0
+PrevOwner Patat~
+Cond 0
+Wear 4
+Cost 3690
+End
+
+#O
+Vnum 23514
+Nest 0
+PrevOwner Patat~
+Cond 0
+Wear 3
+Cost 3690
+End
+
+#O
+Vnum 23515
+Nest 0
+PrevOwner Patat~
+Cond 0
+Wear 1
+Cost 7609
+End
+
+#O
+Vnum 23515
+Nest 0
+PrevOwner Patat~
+Cond 0
+Wear 2
+Cost 7609
+End
+
+#O
+Vnum 18909
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 7500
+End
+
+#O
+Vnum 2414
+Enchanted
+Nest 0
+PrevOwner Waterlilly~
+ExtF 66
+Cond 0
+Wear 19
+Lev  50
+Cost 825
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   0  53  -1  13  18          0
+End
+
+#O
+Vnum 18912
+Enchanted
+Nest 0
+PrevOwner Waterlilly~
+ExtF 83
+Cond 0
+Wear -1
+Lev  46
+Cost 4800
+Affc 'reserved'   1  40  -1  -1  20          0
+Affc 'reserved'   1  40  -1   0   0          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'enchant weapon'   0  53  -1   6  18          0
+End
+
+#O
+Vnum 2432
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 18912
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 4800
+End
+
+#O
+Vnum 5909
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 2446
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 22056
+Enchanted
+Nest 0
+PrevOwner Waterlilly~
+ExtF 67
+Cond 0
+Wear -1
+Cost 5780
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 2415
+Enchanted
+Nest 0
+PrevOwner Waterlilly~
+ExtF 64
+Cond 0
+Wear -1
+Lev  48
+Cost 1000
+Affc 'reserved'   1  47  -1 -20  13          0
+Affc 'enchant weapon'   1  75  -1   3  19          0
+Affc 'enchant weapon'   1  75  -1   3  18          0
+End
+
+#O
+Vnum 18116
+Nest 0
+PrevOwner Waterlilly~
+Name demonic glow~
+ShD  A Demonic Glow~
+Desc Bremen's own skull, obtained from a battle long past, provides him with light.~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 10404
+Nest 0
+PrevOwner Waterlilly~
+ExtF 98
+Cond 0
+Wear -1
+Cost 15300
+End
+
+#O
+Vnum 2602
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 5800
+End
+
+#O
+Vnum 22504
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3104
+Nest 0
+PrevOwner Waterlilly~
+Cond 0
+Wear -1
+Cost 25000
 End
 
 #O
 Vnum 10429
-Nest 1
+Nest 0
 PrevOwner Waterlilly~
-Name wedding band ring diamond~
-ShD  a simple wedding band with 3 diamonds on it~
-Desc This simple yet handsome ring was made to signify the love of Waterlilly to Teraptus.~
+ShD  a token of Teraptus's undrying love and devotion~
+Desc Waterlilly's beautiful wedding ring.~
 Cond 0
 Wear -1
 Cost 2700
+ExDe inscription~ To my dearest Waterlilly...from now until the end of time my heart will always be yours.
+~
 End
 
 #O
-Vnum 3007
-Nest 1
+Vnum 3033
+Nest 0
 PrevOwner Waterlilly~
+Name sack~
+ShD  a sack of Tootsie Pops~
+Desc A sack of Tootsie Pops~
 Cond 0
 Wear -1
-Cost 500000
+Cost 30
+End
+
+#O
+Vnum 15111
+Enchanted
+Nest 0
+PrevOwner Waterlilly~
+Name energy force will gods~
+ShD  the Will of the Gods~
+Desc A powerful force of energy lies here eminating depression.~
+Cond 0
+Wear -1
+Cost 2600
+Affc 'enchant weapon'   1  48  -1   4  19          0
+Affc 'enchant weapon'   0  48  -1   4  18          0
+End
+
+#O
+Vnum 5031
+Nest 0
+PrevOwner Waterlilly~
+Name waterlilly bouquet~
+ShD  Waterlilly's Wedding Bouquet~
+Desc A white lily surrounded by tiny white and pale purple rose buds.~
+Cond 0
+Wear -1
+Cost 2600
 End
 
 #END

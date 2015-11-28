@@ -2,15 +2,15 @@
 Name Roggen~
 Id   938490099
 Email (null)~
-LogO 1129957572
+LogO 1314854752
 Vers 31
-Prom %h %v %m %X %S %a %e%c? ~
+Prom %h/%Hhp %v/%Vmv %m/%Mmana %X %S %a %e %c? ~
 Race dragon~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -25,59 +25,65 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 mojo~
 Sac  300
-Sex  1
+Sex  0
 Vump  0
 Node 0
 Cap 0
 Created 1004762108
 Glad 0 0 0 0 0 0
+LastHost 71.50.18.64~
 Cla  2
 ClaO 2
-Levl 8
+Levl 15
 DLevl 0
-Plyd 36513
-Not  1062297043 1061440613 1004762283 1061890717 1062280890 1062168026 1004762283 1062064506 1004762283 1061529915
+Plyd 75907
+Not  1314854749 1314854749 1314854749 1314854749 1314854749 1314854749 1314854749 1314854749 1314854749 1314854749
 Scro 22
 Rank 0
-Room 3053
-HMV  159 159 130 130 144 144
-Gold 10
-Silv 159
-Exp  92877
+Room 3054
+HMV  259 259 141 157 106 212
+Gold 308
+Silv 2081
+Exp  164323
 Act  CDEFGHQR
 MHSF R
 AfBy JT
-Comm DEFGILRc
+Comm DFGILRc
 Disp CFGIJ
 IcgB 0
 Icg 0
 Pos  8
-SkiP 41
-Alig  -1
-Hit   2
-Dam   2
-SecHit   2
-SecDam   2
-ACs 44 26 36 91
+SkiP 24
+Alig  -1000
+Hit   4
+Dam   4
+SecHit   4
+SecDam   4
+ACs 64 60 61 103
 Wimp  20
-Attr 22 20 15 25 17 16 13 13
-AMod 0 0 2 0 1 0 0 0
+Attr 24 22 17 25 23 11 14 13
+AMod 3 0 3 0 1 0 0 0
 Pass Ro.hZRMiVqNj2~
 Titl , Warlord of the Stupid~
 Pnts 99
 TSex 1
-LLev 8
-HMVP 159 130 144
-Cnd  0 0 16 0
+LLev 20
+HMVP 259 167 212
+Cnd  0 12 48 14
 Alias 3 flee~
 Alias 5 backstab ~
 Alias 1 get sword~
 Alias 2 wield sword~
 Alias 4 dirt~
 Alias 6 trip ~
-Sk 1 'armor'
+Alias 9 c word~
+Alias 7 disarm~
+Sk 75 'armor'
 Sk 1 'cancellation'
 Sk 1 'dispel magic'
 Sk 1 'endure cold'
@@ -98,7 +104,7 @@ Sk 1 'shield'
 Sk 1 'stone skin'
 Sk 1 'summon'
 Sk 1 'teleport'
-Sk 1 'word of recall'
+Sk 75 'word of recall'
 Sk 1 'acid breath'
 Sk 1 'fire breath'
 Sk 1 'frost breath'
@@ -112,41 +118,41 @@ Sk 1 'mace'
 OldSk 1 'mace'
 OldSk 1 'polearm'
 OldSk 1 'spear'
-Sk 87 'sword'
+Sk 98 'sword'
 OldSk 59 'sword'
 OldSk 1 'whip'
-Sk 84 'backstab'
+Sk 91 'backstab'
 OldSk 1 'bash'
-Sk 11 'dirt kicking'
-Sk 1 'disarm'
+Sk 82 'dirt kicking'
+Sk 75 'disarm'
 OldSk 1 'disarm'
-Sk 30 'dodge'
+Sk 75 'dodge'
 Sk 1 'enhanced damage'
 OldSk 21 'enhanced damage'
-Sk 1 'hand to hand'
+Sk 43 'hand to hand'
 OldSk 1 'parry'
 OldSk 1 'rescue'
-Sk 31 'trip'
+Sk 75 'trip'
 OldSk 17 'shield block'
 Sk 56 'scan'
 OldSk 50 'scan'
-Sk 1 'second attack'
+Sk 79 'second attack'
 OldSk 1 'second attack'
 Sk 1 'third attack'
 OldSk 1 'third attack'
-Sk 9 'hide'
+Sk 30 'hide'
 Sk 1 'lore'
-Sk 19 'peek'
-Sk 14 'pick lock'
-Sk 11 'sneak'
-Sk 67 'steal'
+Sk 63 'peek'
+Sk 75 'pick lock'
+Sk 32 'sneak'
+Sk 75 'steal'
 Sk 1 'scrolls'
 OldSk 1 'scrolls'
 Sk 1 'staves'
 OldSk 1 'staves'
 Sk 1 'wands'
 OldSk 1 'wands'
-Sk 50 'swimming'
+Sk 75 'swimming'
 OldSk 50 'swimming'
 Sk 50 'recall'
 OldSk 50 'recall'
@@ -156,187 +162,43 @@ Gr 'thief default'
 Gr 'draconian'
 Gr 'protective'
 Gr 'transportation'
-End
-
-#O
-Vnum 3052
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 15
-Cost 112
+Affc 'change sex'   0   9   4  -1   6          0
 End
 
 #O
 Vnum 3715
 Nest 0
-PrevOwner (null)~
+PrevOwner Roggen~
 Cond 0
 Wear 17
 Cost 1140
 End
 
 #O
-Vnum 3361
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 12
-Cost 380
-End
-
-#O
-Vnum 3359
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 9
-Cost 450
-End
-
-#O
-Vnum 2101
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 5
-Cost 970
-End
-
-#O
-Vnum 3052
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 14
-Cost 112
-End
-
-#O
-Vnum 3075
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 8
-Cost 420
-End
-
-#O
 Vnum 3077
 Nest 0
-PrevOwner (null)~
+PrevOwner Roggen~
 Cond 0
 Wear 10
 Cost 420
 End
 
 #O
-Vnum 3000
-Nest 0
-PrevOwner Roggen~
-Cond 0
-Wear -1
-Cost 75
-Val  300 300 0 0 0
-End
-
-#O
-Vnum 3097
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 11
-Cost 750
-End
-
-#O
-Vnum 3355
-Nest 0
-PrevOwner Kronos~
-Cond 0
-Wear 4
-Cost 510
-End
-
-#O
-Vnum 3362
-Nest 0
-PrevOwner Kronos~
-Cond 0
-Wear 13
-Cost 450
-End
-
-#O
 Vnum 20415
 Nest 0
-PrevOwner Lianna~
+PrevOwner Roggen~
 Cond 0
 Wear 7
 Cost 0
 End
 
 #O
-Vnum 6511
-Nest 0
-PrevOwner Lianna~
-Cond 0
-Wear 2
-Cost 0
-End
-
-#O
-Vnum 6511
-Nest 0
-PrevOwner Lianna~
-Cond 0
-Wear 1
-Cost 0
-End
-
-#O
-Vnum 3022
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 16
-Cost 610
-End
-
-#O
-Vnum 1100
-Nest 0
-PrevOwner Didi~
-Cond 0
-Wear 0
-Cost 0
-End
-
-#O
 Vnum 5705
 Nest 0
-PrevOwner Midlind~
+PrevOwner Roggen~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 3009
-Nest 1
-PrevOwner Roggen~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 1100
-Nest 1
-PrevOwner Roggen~
-Cond 0
-Wear -1
-Cost 550
 End
 
 #O
@@ -349,57 +211,228 @@ Cost 225
 End
 
 #O
-Vnum 5710
+Vnum 1100
 Nest 1
 PrevOwner Roggen~
 Cond 0
 Wear -1
-Cost 1000
+Cost 0
 End
 
 #O
-Vnum 101
+Vnum 11310
 Nest 1
 PrevOwner Roggen~
 Cond 0
 Wear -1
-Cost 270
+Cost 100
+Val  100 85 2 0 0
 End
 
 #O
-Vnum 5706
+Vnum 21
 Nest 1
 PrevOwner Roggen~
 Cond 0
 Wear -1
-Cost 2000
+Cost 0
 End
 
 #O
-Vnum 5710
+Vnum 8916
 Nest 1
 PrevOwner Roggen~
 Cond 0
 Wear -1
-Cost 1000
+Cost 360
+Spell 3 'poison'
 End
 
 #O
-Vnum 5706
+Vnum 2913
 Nest 1
 PrevOwner Roggen~
 Cond 0
 Wear -1
-Cost 2000
+Cost 0
 End
 
 #O
-Vnum 6621
+Vnum 2912
 Nest 1
 PrevOwner Roggen~
 Cond 0
 Wear -1
-Cost 780
+Cost 0
+End
+
+#O
+Vnum 2913
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2910
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 11305
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 9103
+Nest 1
+PrevOwner Roggen~
+ExtF 33
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 9103
+Nest 1
+PrevOwner Roggen~
+ExtF 33
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 4102
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Time 842
+Cost 840
+Spell 1 'identify'
+End
+
+#O
+Vnum 3091
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 250
+Spell 1 'fly'
+End
+
+#O
+Vnum 2330
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3365
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 5233
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6506
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 4800
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4154
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 4155
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 3081
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'sanctuary'
+End
+
+#O
+Vnum 3365
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 640
 End
 
 #O
@@ -412,80 +445,8 @@ Cost 110
 End
 
 #O
-Vnum 3377
-Nest 1
-PrevOwner Roggen~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Roggen~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Roggen~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Roggen~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3377
-Nest 1
-PrevOwner Roggen~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 3073
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 6
-Cost 420
-End
-
-#O
-Vnum 20403
-Nest 0
-PrevOwner Roggen~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20411
-Nest 0
-PrevOwner Roggen~
-Cond 0
-Wear 3
-Cost 0
-End
-
-#O
 Vnum 3009
-Nest 0
+Nest 1
 PrevOwner Roggen~
 Cond 0
 Wear -1
@@ -493,66 +454,283 @@ Cost 22
 End
 
 #O
+Vnum 3009
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 20411
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3032
+Nest 0
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 9
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 5710
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 9201
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 9201
+Nest 1
+PrevOwner Roggen~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 3504
+Nest 0
+PrevOwner Roggen~
+Cond 0
+Wear 15
+Cost 0
+End
+
+#O
+Vnum 3504
+Nest 0
+PrevOwner Roggen~
+Cond 0
+Wear 14
+Cost 0
+End
+
+#O
+Vnum 3113
+Nest 0
+PrevOwner Roggen~
+Cond 0
+Wear 8
+Cost 660
+End
+
+#O
+Vnum 1100
+Nest 0
+PrevOwner Roggen~
+Cond 0
+Wear 0
+Cost 550
+End
+
+#O
+Vnum 6511
+Nest 0
+PrevOwner Roggen~
+Cond 0
+Wear 2
+Cost 0
+End
+
+#O
+Vnum 6511
+Nest 0
+PrevOwner Roggen~
+Cond 0
+Wear 1
+Cost 0
+End
+
+#O
+Vnum 6512
+Nest 0
+PrevOwner Roggen~
+Cond 0
+Wear 9
+Cost 2000
+End
+
+#O
 Vnum 3000
 Nest 0
-PrevOwner (null)~
+PrevOwner Roggen~
 Cond 0
 Wear -1
-Cost 75
+Cost 0
+Val  300 236 0 0 0
 End
 
 #O
-Vnum 2101
+Vnum 3116
 Nest 0
-PrevOwner (null)~
+PrevOwner Roggen~
 Cond 0
-Wear -1
-Cost 970
+Wear 11
+Cost 1190
 End
 
 #O
-Vnum 3021
+Vnum 3022
 Nest 0
-PrevOwner (null)~
+PrevOwner Roggen~
 Cond 0
-Wear -1
-Cost 250
+Wear 16
+Cost 610
 End
 
 #O
-Vnum 3066
+Vnum 9519
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
-Cost 430
+Wear 5
+Cost 1280
 End
 
 #O
-Vnum 3052
+Vnum 17666
 Nest 0
-PrevOwner (null)~
+PrevOwner Roggen~
 Cond 0
-Wear -1
-Cost 112
+Wear 4
+Cost 1000
 End
 
 #O
-Vnum 3500
+Vnum 17666
 Nest 0
-PrevOwner Peekay~
+PrevOwner Roggen~
 Cond 0
-Wear -1
-Cost 460
+Wear 3
+Cost 1000
 End
 
 #O
-Vnum 3351
+Vnum 101
 Nest 0
-PrevOwner (null)~
+PrevOwner Roggen~
+Cond 0
+Wear 6
+Cost 270
+End
+
+#O
+Vnum 3167
+Nest 0
+PrevOwner Roggen~
 Cond 0
 Wear -1
-Cost 590
+Cost 2500
 End
 
 #END

@@ -1,0 +1,734 @@
+#AREA
+../newareas/morbtrai.are~
+Morbius's training~
+{ All }         Morbius's training~
+16754 16784
+
+#MOBILES
+#16754
+cacas mass blob~
+Cacas, The Excremental~
+An amorphous mass covered in armor is swinging several weapons at your head!
+~
+Legends speak of a great wizard named Rahat who made a deal with the magic
+dragon clan.  They agreed to give him the secret of immortality in exchange
+for the lives of 10 high level magic users.  Names were given one at a time
+until it came time to collect on the final one, Tampit.  In an epic duel
+turned stalemate Tampit realized what he must do.  He incinerated himself to
+keep from being eaten.  The dragons weren't dismayed though.  They were
+going to collect one way or another.  In the end, Rahat and the magic dragons
+got what they wanted when Rahat became the first meal to a young dragon hatchling
+named Stuff...
+~
+unique~
+(null)~
+(null)~
+(null)~
+ACGTe FHV 0 0
+58 60 1d1+19999 1d1+4999 6d8+10 cleave
+-30 -30 -30 -20
+BEFKN ABEQ FGKL JR
+rest rest none 0
+AHS ABCDEF giant 0
+#16755
+heart worm giant~
+A Giant Heartworm~
+A worm is here gnawing at the walls of the heart.
+~
+Dirofilaria Immitis, more commonly known as Heartworm, is a parasite which
+is transferred from host to host via the bite of a mosquito.  In draconian
+hosts the parasite has been known to grow up to 1,000 times the usual size
+given the special properties of dragon blood.  That being said, the parasite
+is even more difficult to exterminate due to it's resistance to common medicine.
+ 
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABCFGTe Vc 0 0
+55 60 1d1+3999 0d0+0 6d8+10 bite
+-20 -20 -10 -20
+BDELMNU ABKLQR F GH
+stand stand none 0
+AHR ADEFKM large 0
+#0
+
+#OBJECTS
+#16754
+dragon tooth~
+A Dragon's Tooth~
+A massive tooth lies here.~
+Bone~
+trash GT AO
+0 0 0 0 0
+40 60 0 W
+A
+12 60
+E
+Dragon Tooth~
+This tooth is riddled with {Ddecay{x and {ystains{x, most likely from a lifelong
+diet of poor souls foolish enough to test their mettle against the dragon it came
+from.
+~
+#16755
+massive kidney stone~
+A Massive Kidney Stone~
+An odd looking stone with jagged edges lies here.~
+Various Minerals~
+warp_stone 0 AO
+0 0 0 0 0
+40 30 0 P
+E
+kidney stone~
+This stone is actually the collection of several minerals found in the diet
+of the average dragon that have formed into a jagged mass the size of a human
+hand.  No wonder dragons are so angry all the time!
+~
+E
+massive kidney stone~
+Generic extended description.
+~
+#16756
+Heartworm Egg~
+A Heartworm Egg~
+A squishy egg of a giant heartworm lies here.~
+Goo~
+potion STYZd A
+60 'plague' 'poison' 'fumble' ''
+40 1 0 P
+E
+Heartworm Egg~
+This glob of snot called an egg is actually considered to be one of the most
+rare items found in Boinga due to the fact that the creature contained within
+is said to be the only thing that can kill an elder dragon.  Looking through
+its translucent exterior you notice a small larva swimming inside.
+~
+#16757
+broken axe handle~
+A Broken Axe Handle~
+A broken piece of wood in the shape of a handle lies here.~
+Wood~
+trash SY A
+0 0 0 0 0
+1 35 0 P
+E
+Broken Axe Handle~
+Based on the wear of the grip you determine that the weapon this was once
+attatched to was used very little.  Maybe it was used only once... and rather
+unsuccessfully it seems.
+~
+#16758
+kidney secret~
+A Kidney~
+ ~
+(null)~
+container 0 0
+10 0 0 10 100
+0 0 0 P
+E
+ ~
+~
+#0
+
+#ROOMS
+#16754
+The Dragon's Maw~
+You make your way into the very mouth of the beast only to find that
+its closed teeth bar your way out.  A forked tongue writhes side to side
+in a pool of saliva that is already dissolving the hand of a kender.  You
+notice that one of the many massive teeth has come loose from decay.  He
+should have listened to his dentist.  Then again, how many dentists are there
+in Boinga?
+~
+0 ADNZ 0
+D2
+Exit ~
+door~
+16384 0 16755
+S
+#16755
+The Throat~
+You find footing on an old wound that had to come from something big.  Once
+in a while you are drenched in a clear liquid that burns a little bit.  You
+THINK you see some light to the north of you.  You hear a heartbeat to the south.
+~
+0 ADNZ 0
+D0
+Exit ~
+door~
+16384 0 16754
+D2
+Exit ~
+door~
+16384 0 16756
+S
+#16756
+The Trachea~
+Ba-bum... Ba-bum... Ba-bum... Ba-bum... Ba-bum...  You can hear a loud
+heartbeat right above your head.  It's almost deafening.  To the east
+and west are flaps that you assume lead to the lungs.  To the south you hear
+a bubbling lake.
+~
+0 ADNZ 0
+D0
+Exit ~
+door~
+16384 0 16755
+D1
+Exit ~
+flap~
+16387 0 16758
+D2
+Exit ~
+door~
+16384 0 16760
+D3
+Exit ~
+flap~
+16387 0 16757
+D4
+Exit ~
+tissue~
+16391 0 16759
+S
+#16757
+A Lung~
+The wind blows back and forth with near hurricane force as you walk along
+the squishy pockets lining the lung.  You're careful not to step too hard
+or else you will become a flem covered rocket flying through the skies.
+~
+0 ADNZ 0
+D1
+Exit ~
+flap~
+16384 0 16756
+S
+#16758
+A Lung~
+The wind blows back and forth with near hurricane force as you walk along
+the squishy pockets lining the lung.  You're careful not to step too hard
+or else you will become a flem covered rocket flying through the skies.
+~
+0 ADNZ 0
+D3
+Exit ~
+flap~
+16384 0 16756
+S
+#16759
+The Heart~
+Fighting against the strong current of blood you take a firm foothold against
+the wall of the heart.  There are signs of wear and tear due to a very long
+life (and a diet full of dumb adventurers).  Still, this heart beats hard and
+strong.
+ 
+You hear a squishy, squirmy sound coming from along the walls of the heart.
+It sounds like it's getting pretty close to you!
+~
+0 ADNZ 0
+D5
+Exit ~
+tissue~
+16384 0 16756
+S
+#16760
+The Stomach~
+The putrid smell of halfway digested food fills your nose as you try to find
+footing on the back of what's left of a giant.  Swords and armors of all shapes
+and sizes are dissolving in the corrosive acid pool around you.  You need to
+get somewhere other than here fast!
+ 
+Amidst the choir of bubbling noises you can make out the sound of fluids
+pooling up to the east and west.  The digested masses drift off to the south.
+~
+0 ADNZ 6
+D0
+Exit ~
+door~
+16384 0 16756
+D1
+Exit ~
+tissue~
+16391 0 16762
+D2
+Exit ~
+door~
+16384 0 16763
+D3
+Exit ~
+tissue~
+16391 0 16761
+S
+#16761
+A Kidney~
+You have found your way into a kidney that conveniently happens to be
+processing a fresh batch of urine.  You find no obvious exits while swimming
+around, but you do happen to see a hard mass at the bottom of the yellow pool.
+Do you dare swim to the bottom to find out what it is?
+~
+0 ADNZ 6
+D1
+Exit ~
+tissue~
+16384 0 16760
+S
+#16762
+A Kidney~
+You have found your way into a kidney that conveniently happens to be
+processing a fresh batch of urine.  You find no obvious exits while swimming
+around, but you do happen to see a hard mass at the bottom of the yellow pool.
+Do you dare swim to the bottom to find out what it is?
+~
+0 ADNZ 6
+D3
+Exit ~
+tissue~
+16384 0 16760
+S
+#16763
+The Small Intestine~
+The opening closes tightly behind you as you surf on top of a yinn's
+nearly digested corpse.  There is little room for movement as the walls
+spasm and contract.  It's almost as if you are being forced southward.  Well,
+guess there's only one way to go from here.
+~
+0 ADNZ 9
+D2
+Exit ~
+door~
+16384 0 16764
+S
+#16764
+The Large Intestine~
+After a mile of twists and turns you find yourself in a wider area with a
+little bit more room to move around.  The walls are stained with a gooey brown
+substance that seems to be... ALIVE!  The stains form a trail along the floor
+going south.
+~
+0 ADNZ 9
+D0
+Exit ~
+door~
+16384 0 16763
+D2
+Exit ~
+door~
+16384 0 16765
+S
+#16765
+The Colon~
+The trail of sludge leads to a gigantic blob that is layered with armor and
+weapons that have been dulled and pitted from the acid of the dragon's stomach.
+A cluster of muscle is clenched tightly below you, keeping you from freedom.
+~
+0 ADNZ 0
+D0
+Exit ~
+door~
+16384 0 16764
+D5
+Exit ~
+Backdoor~
+16455 0 3014
+S
+#16766
+Entrance to The Cave of Stuff~
+You stare at an opening in the side of a great mountain.  The opening itself
+looks approximately a quarter mile tall as well as it is wide.  You notice that
+the rock lining the cave's entrance is cracked and broken as if something REALLY
+BIG has forced it's way in and out over time.
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16767
+S
+#16767
+Into the Cave~
+The light from outside has almost fades out as you begin to walk towards the
+darkness in front of you.  You trip along several holes along the way, but you
+can't make out exactly what caused them.  The entrance is back to the south.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 16768
+D2
+Exit ~
+door~
+16384 0 16766
+S
+#16768
+Deeper Into The Cave~
+You stumble over what looks like broken pieces of various weapons and armor
+along the way.  You can hear a loud breathing sound once in a while from the
+north.  Your instincts tell you to turn back now, but the adventurer in you
+wants to see what lies ahead.  The entrance is to the south... You think.  It's
+not too late to turn back...
+~
+0 ADN 0
+D0
+Exit ~
+door~
+16384 0 16769
+D2
+Exit ~
+door~
+16384 0 16767
+S
+#16769
+The Grand Dome~
+Your torchlight shines off the glasslike walls to reveal a room with almost
+no visible ceiling.  Every footstep echoes in this massive room.  At your feet
+you notice some bloodstains that are so fresh they are still steaming.  You
+realize one thing from this, you are not alone in here...
+~
+0 ADN 0
+D0
+Exit ~
+door~
+16384 0 16773
+D1
+Exit ~
+door~
+16384 0 16771
+D2
+Exit ~
+door~
+16384 0 16768
+D3
+Exit ~
+door~
+16384 0 16770
+S
+#16770
+The Grand Dome~
+Your torchlight shines off the glasslike walls to reveal a room with almost
+no visible ceiling.  Every footstep echoes in this massive room.  At your feet
+you notice some bloodstains that are so fresh they are still steaming.  You
+realize one thing from this, you are not alone in here...
+~
+0 ADN 0
+D0
+Exit ~
+door~
+16384 0 16772
+D1
+Exit ~
+door~
+16384 0 16769
+S
+#16771
+The Grand Dome~
+Your torchlight shines off the glasslike walls to reveal a room with almost
+no visible ceiling.  Every footstep echoes in this massive room.  At your feet
+you notice some bloodstains that are so fresh they are still steaming.  You
+realize one thing from this, you are not alone in here...
+~
+0 ADN 0
+D0
+Exit ~
+door~
+16384 0 16774
+D3
+Exit ~
+door~
+16384 0 16769
+S
+#16772
+The Grand Dome~
+Your torchlight shines off the glasslike walls to reveal a room with almost
+no visible ceiling.  Every footstep echoes in this massive room.  At your feet
+you notice some bloodstains that are so fresh they are still steaming.  You
+realize one thing from this, you are not alone in here...
+~
+0 ADN 0
+D0
+Exit ~
+door~
+16384 0 16777
+D1
+Exit ~
+door~
+16384 0 16773
+D2
+Exit ~
+door~
+16384 0 16770
+S
+#16773
+The Grand Dome~
+Your torchlight shines off the glasslike walls to reveal a room with almost
+no visible ceiling.  Every footstep echoes in this massive room.  At your feet
+you notice some bloodstains that are so fresh they are still steaming.  You
+realize one thing from this, you are not alone in here...
+~
+0 ADN 0
+D0
+Exit ~
+door~
+16384 0 16776
+D1
+Exit ~
+door~
+16384 0 16774
+D2
+Exit ~
+door~
+16384 0 16769
+D3
+Exit ~
+door~
+16384 0 16772
+S
+#16774
+The Grand Dome~
+Your torchlight shines off the glasslike walls to reveal a room with almost
+no visible ceiling.  Every footstep echoes in this massive room.  At your feet
+you notice some bloodstains that are so fresh they are still steaming.  You
+realize one thing from this, you are not alone in here...
+~
+0 ADN 0
+D0
+Exit ~
+door~
+16384 0 16775
+D2
+Exit ~
+door~
+16384 0 16771
+D3
+Exit ~
+door~
+16384 0 16773
+S
+#16775
+The Grand Dome~
+Your torchlight shines off the glasslike walls to reveal a room with almost
+no visible ceiling.  Every footstep echoes in this massive room.  At your feet
+you notice some bloodstains that are so fresh they are still steaming.  You
+realize one thing from this, you are not alone in here...
+~
+0 ADN 0
+D1
+Exit ~
+door~
+16384 0 16778
+D2
+Exit ~
+door~
+16384 0 16774
+D3
+Exit ~
+door~
+16384 0 16776
+S
+#16776
+The Grand Dome~
+Your torchlight shines off the glasslike walls to reveal a room with almost
+no visible ceiling.  Every footstep echoes in this massive room.  At your feet
+you notice some bloodstains that are so fresh they are still steaming.  You
+realize one thing from this, you are not alone in here...
+~
+0 ADN 0
+D1
+Exit ~
+door~
+16384 0 16775
+D2
+Exit ~
+door~
+16384 0 16773
+D3
+Exit ~
+door~
+16384 0 16777
+S
+#16777
+The Grand Dome~
+Your torchlight shines off the glasslike walls to reveal a room with almost
+no visible ceiling.  Every footstep echoes in this massive room.  At your feet
+you notice some bloodstains that are so fresh they are still steaming.  You
+realize one thing from this, you are not alone in here...
+~
+0 ADN 0
+D1
+Exit ~
+door~
+16384 0 16776
+D2
+Exit ~
+door~
+16384 0 16772
+S
+#16778
+Edge of Fells Lake~
+The shoreline stretches out several meters to the left and right.  A slight
+mist forms along the glasslike surface of the lake itself.  There are no signs
+of life in the still water.  Looks like the perfect spot to go for a swim.
+~
+0 ADN 0
+D1
+Exit ~
+door~
+16384 0 16779
+D3
+Exit ~
+door~
+16384 0 16775
+S
+#16779
+Swimming In Fells Lake~
+The water feels refreshing after a long day of traveling.  After a couple of
+backstrokes you take time to realize that there actually are signs of life in
+this lake.  There are several fish nests along the edge of the bank.  You can't
+tell specifically what kind of fish it is, but since they aren't swimming with
+you up top then maybe they're at the bottom.
+~
+0 ADN 6
+H 110 M 110
+D3
+Exit ~
+door~
+16384 0 16778
+D5
+Exit ~
+door~
+16384 0 16780
+S
+#16780
+The Bottom of Fells Lake~
+You notice that the water is significantly warmer at the bottom of the lake.
+More signs of aquatic life are present as you see some discarded scales and
+a couple of skeletons of some rather large fish here.  One has teeth marks
+on the jawbone as if something was eating it.  You see a coral filled cave to
+the east.
+~
+0 ADN 6
+D1
+Exit ~
+door~
+16384 0 16781
+D4
+Exit ~
+door~
+16384 0 16779
+S
+#16781
+An Underwater Cave~
+The thick coral growth keeps you from swimming back the way you came in.  You
+Notice there are several cave openings large enough for a grown man to just
+fit in.  The gleams of eyes peer through the darkness of some of the openings.
+You feel a wave of slight pressure all over your body as you remember that
+you have been underwater for some time now...
+~
+0 ADN 20
+D2
+Exit ~
+door~
+16384 0 16782
+S
+#16782
+Bottom of the Lake~
+The water much colder than before.  The floor of the lake is barren except
+for a skull of a poor volare who must not have known how to swim.  You see a
+red light above you that looks like the glow of fire.
+~
+0 ADN 6
+D0
+Exit ~
+door~
+16384 0 16781
+D4
+Exit ~
+door~
+16384 0 16783
+S
+#16783
+Top of the Water~
+This water is almost freezing to the touch.  You shiver as you continue to
+swim in it.  You notice a campfire burning on the shoreline to the south.
+You hear the wind blowing through an opening to the southwest.
+~
+0 ADN 6
+H 90 M 90
+D2
+Exit ~
+door~
+16384 0 16784
+D5
+Exit ~
+door~
+16384 0 16782
+S
+#16784
+The Old Man's Campfire~
+You survey your surroundings as you warm your hands by the fire.  The first
+thing you notice is a skeleton in a sitting position against the wall.  The
+skull has a huge hole in it big enough to fit a rock in.  The arms and legs
+are missing from the body itself, but you see those bones are stacked rather
+neatly next to the fire.  The fire looks to be fueled by clothes and small bits
+of paper.  To the west there is a small opening that leads into darkness.
+~
+0 ADN 0
+D0
+Exit ~
+door~
+16384 0 16783
+D3
+Exit ~
+door~
+16384 0 16771
+S
+#0
+
+#RESETS
+M 0 16755   4 16759  4	* A Giant Heartworm
+M 0 16755   4 16759  4	* A Giant Heartworm
+G 1 16756  -1     	*   A Heartworm Egg
+M 0 16755   4 16759  4	* A Giant Heartworm
+M 0 16755   4 16759  4	* A Giant Heartworm
+M 0 16754   1 16765  1	* Cacas, The Excremental
+G 1 16757  -1     	*   A Broken Axe Handle
+O 0 16754 100 16754	* A Dragon's Tooth
+O 0 16758 100 16761	* A Kidney
+P 1 16755  -1 16758  2	*   A Massive Kidney Stone
+P 1 16755  -1 16758  2	*   A Massive Kidney Stone
+O 0 16758 100 16762	* A Kidney
+P 1 16755  -1 16758  2	*   A Massive Kidney Stone
+P 1 16755  -1 16758  2	*   A Massive Kidney Stone
+D 0 16754   2 16384	* The Dragon's Maw south
+D 0 16755   0 16384	* The Throat north
+D 0 16755   2 16384	* The Throat south
+D 0 16756   0 16384	* The Trachea north
+D 0 16756   1 16387	* The Trachea east
+D 0 16756   2 16384	* The Trachea south
+D 0 16756   3 16387	* The Trachea west
+D 0 16756   4 16391	* The Trachea up
+D 0 16757   1 16384	* A Lung east
+D 0 16758   3 16384	* A Lung west
+D 0 16759   5 16384	* The Heart down
+D 0 16760   0 16384	* The Stomach north
+D 0 16760   1 16391	* The Stomach east
+D 0 16760   2 16384	* The Stomach south
+D 0 16760   3 16391	* The Stomach west
+D 0 16761   1 16384	* A Kidney east
+D 0 16762   3 16384	* A Kidney west
+D 0 16763   2 16384	* The Small Intestine south
+D 0 16764   0 16384	* The Large Intestine north
+D 0 16764   2 16384	* The Large Intestine south
+D 0 16765   0 16384	* The Colon north
+D 0 16765   5 16455	* The Colon down
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 16754 spec_breath_any     	* Cacas, The Excremental
+S
+
+#$

@@ -2,7 +2,7 @@
 Name Kemosabi~
 Id   1005289733
 Email (null)~
-LogO 1129876341
+LogO 1307224700
 Vers 31
 Prom [%hHp %mMa %v][%X][%g.%s][%n/%N][%w][%S]%c[%e][%r] ~
 Race faerie~
@@ -22,9 +22,9 @@ LstAtkedByTimer 0
 LstCombatDate 1078777921
 LstKillDate 1076928189
 LstDeathDate 1078739498
-LoginsWOKill 42
-LoginsWODeath 38
-LoginsWOCombat 36
+LoginsWOKill 43
+LoginsWODeath 39
+LoginsWOCombat 37
 Bnty 0
 Deity 91586 huitzilopochtli~
 DeityT -5457 almighty~
@@ -35,24 +35,24 @@ Node 0
 Cap 0
 Created 1005289750
 Glad 0 0 0 0 0 0
-LastHost 146.230.192.193~
+LastHost 41.132.156.47~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 650144
+Plyd 650644
 Not  1092975904 1091591043 1089571854 1091396129 1091251327 1091803105 1089571854 1101727413 1089571854 1089571854
 Scro 22
 Rank 2
-Room 3001
-HMV  261 1011 989 1115 242 488
+Room 31901
+HMV  1011 1011 1115 1115 488 488
 Gold 1164
 Silv 9906
 Exp  134644
 Act  CDGHIKQS
 MHSF RX
-AfBy DFJTUc
+AfBy DFJTc
 Comm GSc
 Disp FIJN
 IcgB 0
@@ -65,10 +65,10 @@ SkiP 988
 Save  -30
 Alig  -351
 Hit   13
-Dam   5
+Dam   10
 SecHit   13
 SecDam   5
-ACs 18 24 22 69
+ACs -30 -24 -26 21
 Wimp  20
 Attr 12 23 21 19 12 13 13 15
 AMod 5 2 0 0 4 0 0 3
@@ -78,7 +78,7 @@ Pnts 62
 TSex 1
 LLev 63
 HMVP 831 955 488
-Cnd  0 47 47 48
+Cnd  0 31 39 40
 Alias pg c 'protection good'~
 Alias pn c 'protection neutral'~
 Alias dis c dispel~
@@ -216,8 +216,8 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'pass door'   0  48   0   0   0    1048576
-Affc 'giant strength'   0  47  28   4   1          0
+Affc 'diamond skin'   0  51   7 -48  17          0
+Affc 'giant strength'   0  44  16   4   1          0
 End
 
 #O
@@ -411,8 +411,8 @@ Wear -1
 Lev  45
 Cost 8000
 Val  2 4 8 11 4
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   1  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -543,9 +543,9 @@ Cond 0
 Wear -1
 Lev  49
 Cost 19800
-Affc 'reserved'   1  47  -1  -4  20          0
-Affc 'reserved'   1  47  -1   2   5          0
 Affc 'enchant armor'   1  53  -1  -3  17          0
+Affc 'reserved'   1  47  -1   2   5          0
+Affc 'reserved'   1  47  -1  -4  20          0
 End
 
 #O
@@ -585,9 +585,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 8400
-Affc 'reserved'   1  45  -1  -4  20          0
-Affc 'reserved'   1  45  -1   2  18          0
 Affc 'enchant armor'   1  53  -1  -9  17          0
+Affc 'reserved'   1  45  -1   2  18          0
+Affc 'reserved'   1  45  -1  -4  20          0
 End
 
 #O
@@ -645,8 +645,8 @@ Cond 0
 Wear -1
 Lev  29
 Cost 0
-Affc 'enchant weapon'   1  53  -1  10  19          0
 Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O
@@ -660,8 +660,8 @@ Wear -1
 Lev  20
 Cost 330
 Val  4 2 7 27 36
-Affc 'enchant weapon'   0  53  -1   6  18          0
 Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'enchant weapon'   0  53  -1   6  18          0
 End
 
 #O
@@ -684,8 +684,8 @@ Cond 0
 Wear -1
 Lev  32
 Cost 2400
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -761,8 +761,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 5234
-Affc 'enchant weapon'   1  53  -1   2  19          0
 Affc 'enchant weapon'   0  53  -1   2  18          0
+Affc 'enchant weapon'   1  53  -1   2  19          0
 End
 
 #O
@@ -775,10 +775,10 @@ Cond 0
 Wear -1
 Lev  50
 Cost 2000
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'reserved'   1  45  -1  -1  20          0
 Affc 'reserved'   1  45  -1  -1   1          0
+Affc 'reserved'   1  45  -1  -1  20          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -795,7 +795,7 @@ Vnum 18119
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 16
 Cost 4500
 End
 

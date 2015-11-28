@@ -2,8 +2,8 @@
 Name Talon~
 Id   819273818
 Email (null)~
-LogO 1025422415
-Vers 31
+LogO 1320870713
+Vers 32
 Desc Talon is a Shadow Dragon, a little on the small side and rather on the fast
 side, well hidden in the shadows.  As you look at him you realise that he has
 already looked you over, and stands there with a slight smile on his face,
@@ -26,6 +26,7 @@ SkPTracker 35
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -37,6 +38,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 44847 megena~
 Sac  300
 Sex  1
@@ -45,12 +50,12 @@ Node 0
 Cap 0
 Created 952796222
 Glad 0 0 0 0 0 0
-LastHost 24-240-227-220.hsacorp.net~
+LastHost 197.107.252.180~
 Cla  13
 ClaO 2
 Levl 41
 DLevl 0
-Plyd 316914
+Plyd 316918
 Not  964908760 971359630 0 971356815 965081866 964895398 957418706 964895402 0 0
 Scro 22
 Rank 0
@@ -271,10 +276,10 @@ Gr 'detection'
 Gr 'draconian'
 Gr 'protective'
 Gr 'transportation'
-Affc 'detect hidden'   0  25  13   0   0         32
-Affc 'detect invis'   0  30  13   0   0          8
-Affc 'armor'   0  30  14 -20  17          0
 Affc 'haste'   0  18   1   2   2    2097152
+Affc 'armor'   0  30  14 -20  17          0
+Affc 'detect invis'   0  30  13   0   0          8
+Affc 'detect hidden'   0  25  13   0   0         32
 End
 
 #O
@@ -1107,8 +1112,8 @@ Cond 0
 Wear 16
 Lev  36
 Cost 2800
-Affc 'enchant weapon'   0  53  -1   8  18          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #END

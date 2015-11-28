@@ -2,8 +2,8 @@
 Name Stonedagger~
 Id   903019799
 Email (null)~
-LogO 1121021737
-Vers 31
+LogO 1354923744
+Vers 33
 Desc Before your eyes stands a weathered monolith of pumice,
 as aged as the mountains, and as much of a victim of 
 erosion as they are as well. This lithic monument 
@@ -26,11 +26,13 @@ Clan matook~
 Outc 0
 RufT 0
 MatookT 20031
+Abol -1
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -42,6 +44,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 1717940 matook~
 Sac  700
 Sex  1
@@ -50,42 +56,50 @@ Node 0
 Cap 0
 Created 952483709
 Glad 0 0 0 0 0 0
+LastHost 99.241.52.126~
 Cla  5
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 5634420
+Plyd 5640936
 Not  972165090 972171790 963005738 972025667 971912185 972164270 963005738 972167328 963005738 0
 Scro 22
 Rank 0
-Room 16507
-HMV  991 991 1112 1112 200 200
-Gold 555
-Silv 8794
+Room 3001
+HMV  1001 1001 1127 1187 141 200
+Gold 549
+Silv 6728
 Exp  620160
 Act  DEFGMQS
 MHSF AR
+AfBy CDF
 Comm GOSc
-Disp FGIJ
+Disp FIJ
 IcgB 0
 Icg 0
+Pnet ABCEFGHI
 Pos  8
-Prac 24
-Trai 10
-SkiP 58
+Trai 14
+ReTrai 1
+SkiP 11
+Save  -7
 Alig  -1000
-ACs 100 100 100 100
-Wimp  100
-Attr 22 14 18 13 20 13 13 13
-AMod 0 0 0 0 0 0 0 0
-Pass StJ46adn4IqCo~
-Titl  exists.~
+Hit   8
+Dam   29
+SecHit   8
+SecDam   29
+ACs 17 17 17 45
+Wimp  1
+Attr 22 14 18 13 20 8 15 13
+AMod 4 4 3 6 0 0 0 0
+Pass StuzsDQbKX8gQ~
+Titl .~
 Pnts 98
 TSex 1
 LLev 1546
 HMVP 991 1112 200
-Cnd  0 0 48 0
+Cnd  0 0 48 31
 Alias c chant~
 Alias p c 'cure crit' wotan~
 Alias ] asdf~
@@ -122,7 +136,6 @@ Sk 1 'change sex'
 OldSk 1 'change sex'
 OldSk 75 'chill touch'
 OldSk 76 'colour spray'
-Sk 1 'cone of silence'
 Sk 92 'continual light'
 OldSk 90 'continual light'
 Sk 1 'control weather'
@@ -289,7 +302,7 @@ Sk 80 'teleport'
 OldSk 80 'teleport'
 Sk 100 'tower of iron will'
 OldSk 100 'tower of iron will'
-Sk 85 'warp'
+Sk 88 'warp'
 OldSk 85 'warp'
 Sk 89 'weaken'
 OldSk 89 'weaken'
@@ -347,6 +360,7 @@ Sk 100 'holy chant'
 OldSk 100 'holy chant'
 OldSk 100 'meditation'
 OldSk 6 'pick lock'
+Sk 12 'riding'
 OldSk 12 'riding'
 OldSk 87 'sneak'
 Sk 76 'scrolls'
@@ -376,6 +390,9 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
+Affc 'detect hidden'   0  47  28   0   0         32
+Affc 'detect invis'   0  47  30   0   0          8
+Affc 'detect good'   0  43  33   0   0          4
 End
 
 #O
@@ -398,7 +415,7 @@ Enchanted
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 5
 Cost 2400
 Affc 'reserved'   1  48  -1  10  13          0
 Affc 'reserved'   1  48  -1   2   4          0
@@ -454,39 +471,16 @@ ExDe retro~ Alrt Clanner!
 End
 
 #O
-Vnum 10028
-Nest 0
-PrevOwner (null)~
-ExtF 0
-Cond 0
-Wear -1
-Cost 700
-Spell 3 'giant strength'
-End
-
-#O
 Vnum 11107
 Enchanted
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 12
 Cost 1500
 Affc 'reserved'   1  45  -1  -3  20          0
 Affc 'reserved'   1  45  -1   2   3          0
 Affc 'reserved'   1  45  -1  50  12          0
-End
-
-#O
-Vnum 12001
-Nest 0
-PrevOwner (null)~
-Name heel~
-ShD  Achilles' Heel~
-Desc You think you can make out a tender greenish crevce in Stonedagger's otherwise impervious lithic heel.~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -503,7 +497,7 @@ Vnum 20813
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 2
 Cost 4000
 End
 
@@ -512,7 +506,7 @@ Vnum 17622
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 4
 Cost 6300
 End
 
@@ -539,7 +533,7 @@ PrevOwner (null)~
 ExtF 134217728
 Wt   52
 Cond 0
-Wear -1
+Wear 9
 Cost 4000
 Val  8 8 8 5 6
 Affc 'reserved'   1  37  -1   2   1          0
@@ -551,7 +545,7 @@ Vnum 11078
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 11
 Cost 3500
 End
 
@@ -562,28 +556,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 4000
-End
-
-#O
-Vnum 8134
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1000
-Spell 3 'protection neutral'
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner (null)~
-Name restring certificate~
-ShD  a restring certificate~
-Desc This is a restring certificate, to be presented to an IMM, courtesy of your friendly neighbourhood mage, Kuno.~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -598,16 +570,6 @@ Cost 0
 End
 
 #O
-Vnum 20731
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6200
-Val  7 7 6 3 512
-End
-
-#O
 Vnum 4436
 Nest 1
 PrevOwner (null)~
@@ -625,26 +587,6 @@ ExtF 33
 Cond 0
 Wear -1
 Cost 5000
-End
-
-#O
-Vnum 10431
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6500
-Val  4 5 8 7 768
-End
-
-#O
-Vnum 11023
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 10000
-Val  2 0 4 11053 0
 End
 
 #O
@@ -654,15 +596,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 16638
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6372
 End
 
 #O
@@ -1022,7 +955,7 @@ Vnum 4823
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 0
 Cost 4500
 End
 
@@ -1050,7 +983,7 @@ Vnum 2803
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 1
 Cost 1150
 End
 
@@ -1059,7 +992,7 @@ Vnum 2505
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 15
 Cost 1150
 End
 
@@ -1068,7 +1001,7 @@ Vnum 1395
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 3
 Cost 1970
 End
 
@@ -1077,7 +1010,7 @@ Vnum 2505
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 14
 Cost 1150
 End
 
@@ -1087,7 +1020,7 @@ Nest 0
 PrevOwner (null)~
 ExtF 320
 Cond 0
-Wear -1
+Wear 6
 Cost 0
 End
 
@@ -1096,7 +1029,7 @@ Vnum 5904
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 18
 Cost 3000
 End
 
@@ -1119,50 +1052,11 @@ Cost 5000
 End
 
 #O
-Vnum 8016
-Enchanted
-Nest 0
-PrevOwner Kanaris~
-ExtF 67
-Cond 0
-Wear -1
-Lev  37
-Cost 1160
-Val  4 2 11 7 1344
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
-End
-
-#O
-Vnum 5913
-Nest 0
-PrevOwner Granith~
-ExtF 134217728
-Wt   180
-Cond 0
-Wear -1
-Cost 2000
-Val  7 7 7 4 4
-End
-
-#O
-Vnum 6517
-Nest 0
-PrevOwner (null)~
-Name suomi mafia action figure~
-ShD  a Suomi Mafia action figure~
-Desc A Suomi Mafia action figure lies here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 17648
 Nest 0
 PrevOwner Granith~
 Cond 0
-Wear -1
+Wear 13
 Cost 4000
 End
 
@@ -1291,31 +1185,12 @@ Spell 1 'sanctuary'
 End
 
 #O
-Vnum 10320
-Nest 1
-PrevOwner Granith~
-Cond 0
-Wear -1
-Cost 9500
-Val  5 5 8 18 548
-End
-
-#O
 Vnum 20813
 Nest 1
 PrevOwner Granith~
 Cond 0
 Wear -1
 Cost 4000
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Granith~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -1335,35 +1210,6 @@ PrevOwner Granith~
 Cond 0
 Wear -1
 Cost 4500
-End
-
-#O
-Vnum 10415
-Enchanted
-Nest 1
-PrevOwner Granith~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 5400
-Affc 'reserved'   1  46  -1  25  12          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-End
-
-#O
-Vnum 5928
-Enchanted
-Nest 1
-PrevOwner Granith~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 3000
-Affc 'enchant weapon'   1  53  -1   6  19          0
-Affc 'enchant weapon'   0  53  -1   3  18          0
 End
 
 #O
@@ -1433,6 +1279,131 @@ PrevOwner Stonedagger~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 12001
+Nest 1
+PrevOwner Stonedagger~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5913
+Nest 0
+PrevOwner Stonedagger~
+ExtF 134217728
+Wt   108
+Wrp 1
+Cond 0
+Wear 7
+Cost 2000
+Val  7 7 7 4 0
+End
+
+#O
+Vnum 11023
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 10000
+Val  2 0 4 11053 0
+End
+
+#O
+Vnum 10431
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+Val  4 5 8 7 768
+End
+
+#O
+Vnum 16638
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 10
+Cost 6372
+End
+
+#O
+Vnum 5928
+Enchanted
+Nest 0
+PrevOwner Granith~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 3000
+Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'enchant weapon'   0  53  -1   3  18          0
+End
+
+#O
+Vnum 10415
+Enchanted
+Nest 0
+PrevOwner Granith~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 5400
+Affc 'reserved'   1  46  -1  25  12          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

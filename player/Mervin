@@ -2,18 +2,19 @@
 Name Mervin~
 Id   992226362
 Email (null)~
-LogO 1075439943
-Vers 31
+LogO 1389154109
+Vers 33
 Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
 Race kender~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
+SkPTimer 1
 SkPTracker 1
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,51 +26,58 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 xochipili~
-Sac  56
+Sac  158
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 992226371
 Glad 0 0 0 0 0 0
-LastHost cras56p2.navix.net~
+LastHost 173.215.8.171~
 Cla  13
 ClaO 2
-Levl 2
+Levl 6
 DLevl 0
-Plyd 1456
-Not  1075439874 1075439874 1075439874 1075439874 1075439874 1075439874 1075439874 1075439874 1075439874 1075439874
+Plyd 2160
+Not  1389153458 1389153458 1389153458 1389153458 1389153458 1389153458 1389153458 1389153458 1389153458 1389153458
 Scro 22
 Rank 0
-Room 3001
-HMV  32 32 104 104 106 106
+Room 3054
+HMV  21 84 117 120 67 255
 Gold 9
 Silv 145
-Exp  9080
+Exp  20557
 Act  CDEFGHKQ
 MHSF R
-AfBy T
 Comm GI
 Disp FIJN
 IcgB 0
 Icg 0
-Pos  8
-SkiP 1
-Save  -3
-Alig  750
-Hit   4
-SecHit   3
-ACs 67 65 65 80
-Attr 17 17 17 21 17 13 13 13
-AMod 3 1 2 2 2 0 0 0
+Pos  4
+Prac 3
+Trai 1
+SkiP 7
+Save  -6
+Alig  1000
+Hit   6
+SecHit   5
+ACs 68 66 66 76
+Attr 18 17 17 23 17 15 11 15
+AMod 3 3 2 2 2 0 0 0
 Pass MeCGtA1.oDDhw~
 Titl , the Sherrif of Rottingham~
 Pnts 72
 TSex 1
-LLev 1
-HMVP 32 104 106
-Cnd  0 32 40 40
+LLev 0
+HMVP 74 120 155
+Cnd  0 0 23 23
 Alias kk enter chart~
 Sk 1 'armor'
 Sk 1 'cancellation'
@@ -108,9 +116,9 @@ Sk 1 'summon'
 Sk 1 'teleport'
 Sk 1 'word of recall'
 Sk 80 'dagger'
-Sk 13 'backstab'
+Sk 75 'backstab'
 Sk 1 'cutpurse'
-Sk 15 'dodge'
+Sk 67 'dodge'
 Sk 1 'infiltrate'
 Sk 1 'enhanced damage'
 Sk 50 'scan'
@@ -131,9 +139,9 @@ Gr 'detection'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'armor'   0  40  19 -20  17          0
-Affc 'bless'   0  27   9  -3  24          0
-Affc 'bless'   0  25   9   3  18          0
+Affc 'bless'   0  41  43  -5  24          0
+Affc 'bless'   0  44  43   5  18          0
+Affc 'armor'   0  37   2 -20  17          0
 End
 
 #O
@@ -141,18 +149,9 @@ Vnum 3716
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 0
 Cost 0
-Val  0 0 183 0 0
-End
-
-#O
-Vnum 3703
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
+Val  0 0 173 0 0
 End
 
 #O
@@ -165,24 +164,6 @@ Cost 0
 End
 
 #O
-Vnum 2445
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 2444
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
 Vnum 3713
 Nest 0
 PrevOwner (null)~
@@ -192,47 +173,11 @@ Cost 48
 End
 
 #O
-Vnum 3708
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 8
-Cost 72
-End
-
-#O
 Vnum 3705
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 4
-Cost 72
-End
-
-#O
-Vnum 3705
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 3
-Cost 72
-End
-
-#O
-Vnum 3711
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 72
-End
-
-#O
-Vnum 3706
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 6
 Cost 72
 End
 
@@ -242,15 +187,6 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 7
-Cost 72
-End
-
-#O
-Vnum 3712
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
 Cost 72
 End
 
@@ -297,6 +233,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
+Val  100 1 0 10 85
 End
 
 #O
@@ -322,7 +259,7 @@ Vnum 4439
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 18
 Cost 0
 End
 
@@ -342,6 +279,7 @@ PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 0
+Val  100 1 0 10 85
 End
 
 #O
@@ -349,7 +287,7 @@ Vnum 3723
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 18
+Wear -1
 Cost 0
 Spell 1 'fly'
 End
@@ -359,8 +297,50 @@ Vnum 5740
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 1000
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner Holey~
+Cond 0
+Wear 3
+Cost 0
+End
+
+#O
+Vnum 5709
+Enchanted
+Nest 0
+PrevOwner Kurosawa~
+ExtF 64
+Cond 0
+Wear 8
+Lev  1
+Cost 0
+Affc 'reserved'   1   0  -1 100  14          0
+Affc 'enchant armor'   1  15  -1  -1  17          0
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner Sumfin~
+Cond 0
+Wear 4
+Cost 0
+End
+
+#O
+Vnum 17606
+Nest 0
+PrevOwner Elrimir~
+Damaged 37
+Cond 0
+Wear 6
+Cost 0
 End
 
 #END

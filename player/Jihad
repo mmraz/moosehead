@@ -2,8 +2,8 @@
 Name Jihad~
 Id   942411741
 Email (null)~
-LogO 1005868824
-Vers 28
+LogO 1312819677
+Vers 31
 Prom <%h/%Hhp %m/%Mm %v/%Vmv %ggp %Ssac %Xxp> ~
 Race yinn~
 Outc 0
@@ -12,13 +12,22 @@ MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
-LstAtkedBy (null)~
+LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1312819574
+LstKillDate 1312819574
+LstDeathDate 1312819574
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 mojo~
 Sac  300
 Sex  1
@@ -31,12 +40,12 @@ Cla  14
 ClaO 3
 Levl 8
 DLevl 0
-Plyd 14374
-Not  948835184 948834896 948834896 948834896 948834896 948834896 948834896 948834896 948834896
+Plyd 14477
+Not  948835184 948834896 948834896 948834896 948834896 948834896 948834896 948834896 948834896 0
 Scro 22
 Rank 0
 Room 3054
-HMV  168 155 152 132 141 141
+HMV  155 155 132 132 141 141
 Gold 295
 Silv 6831
 Exp  215627
@@ -49,7 +58,7 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 12
-Trai 6
+Trai 16
 Save  -5
 Alig  -1000
 Hit   14
@@ -58,15 +67,15 @@ SecHit   14
 SecDam   9
 ACs 120 120 120 120
 Wimp  5
-Attr 21 18 17 17 18
-AMod 0 0 0 4 0
+Attr 21 18 17 17 18 13 13 13
+AMod 0 0 0 4 0 0 0 0
 Pass JimnciYn9S9AM~
 Titl  of the Redundant Holy War.~
 Pnts 124
 TSex 1
 LLev 3
 HMVP 155 132 141
-Cnd  0 0 35 14
+Cnd  0 0 33 10
 Alias pk who clan~
 Sk 1 'aid'
 Sk 1 'armor'
@@ -141,14 +150,14 @@ Gr 'benedictions'
 Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
-Affc 'fly'   0  47  18   0   0     524288
-Affc 'bless'   0  42  34   5  18          0
-Affc 'bless'   0  41  34  -5  24          0
-Affc 'armor'   0  41  19 -20  17          0
-Affc 'haste'   0  54   4   4   2    2097152
-Affc 'frenzy'   0  56  11   9  18          0
-Affc 'frenzy'   0  55  11   9  19          0
-Affc 'frenzy'   0  55  11  40  17          0
+Affc 'frenzy'   0  53   9  40  17          0
+Affc 'frenzy'   0  55   9   9  19          0
+Affc 'frenzy'   0  56   9   9  18          0
+Affc 'haste'   0  54   2   4   2    2097152
+Affc 'armor'   0  40  17 -20  17          0
+Affc 'bless'   0  40  32  -5  24          0
+Affc 'bless'   0  42  32   5  18          0
+Affc 'fly'   0  47  16   0   0     524288
 End
 
 #O
@@ -238,7 +247,7 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 539
+Time 537
 Cost 500
 Spell 1 'fly'
 End
@@ -434,8 +443,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 250
-Affc 'enchant weapon'   1  50  -1   2  19          0
 Affc 'enchant weapon'   1  50  -1   2  18          0
+Affc 'enchant weapon'   1  50  -1   2  19          0
 End
 
 #O

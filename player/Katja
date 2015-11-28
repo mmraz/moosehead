@@ -2,7 +2,7 @@
 Name Katja~
 Id   821115794
 Email (null)~
-LogO 1074000667
+LogO 1306479516
 Vers 31
 Desc She looks like a child, the kind that would grow to be a stunning beauty, 
 but she remains a child, a very cute one. She seems to be a small seven 
@@ -45,13 +45,13 @@ Node 0
 Cap 0
 Created 1012044041
 Glad 0 0 0 0 0 0
-LastHost 196.14.92.40~
+LastHost 202.6.150.248~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 7
-Plyd 1219759
+Plyd 1219818
 Not  1068032016 1068032019 0 1068268916 1066966479 1068032011 0 1067915374 0 1067327463
 Scro 0
 Rank 0
@@ -68,7 +68,7 @@ Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ACEFI
-Pos  4
+Pos  8
 Prac 81
 Trai 45
 SkiP 13
@@ -88,7 +88,7 @@ Pnts 61
 TSex 2
 LLev 309
 HMVP 454 631 250
-Cnd  0 12 31 31
+Cnd  0 10 30 30
 Alias tk c tel katja~
 Alias di c 'detect i'~
 Alias dh c 'detect h'~
@@ -125,6 +125,7 @@ Sk 1 'chill touch'
 OldSk 75 'chill touch'
 Sk 1 'colour spray'
 OldSk 75 'colour spray'
+Sk 1 'cone of silence'
 Sk 76 'continual light'
 OldSk 76 'continual light'
 OldSk 75 'control weather'
@@ -301,10 +302,10 @@ Gr 'illusion'
 Gr 'maladictions'
 Gr 'protective'
 Gr 'transportation'
-Affc 'detect hidden'   0  43  10   0   0         32
-Affc 'detect invis'   0  45  12   0   0          8
-Affc 'giant strength'   0  45   9   4   1          0
-Affc 'invisibility'   0  50  52   0   0          2
+Affc 'invisibility'   0  50  51   0   0          2
+Affc 'giant strength'   0  44   8   4   1          0
+Affc 'detect invis'   0  45  11   0   0          8
+Affc 'detect hidden'   0  43   9   0   0         32
 End
 
 #O
@@ -381,9 +382,9 @@ Cond 0
 Wear -1
 Lev  44
 Cost 5000
-Affc 'reserved'   1  40  -1   1  18          0
-Affc 'reserved'   1  40  -1  10  12          0
 Affc 'enchant armor'   1  51  -1  -4  17          0
+Affc 'reserved'   1  40  -1  10  12          0
+Affc 'reserved'   1  40  -1   1  18          0
 End
 
 #O
@@ -405,11 +406,11 @@ Cond 0
 Wear 11
 Lev  49
 Cost 4500
-Affc 'reserved'   1  46  -1   1  19          0
-Affc 'reserved'   1  46  -1   1  18          0
-Affc 'reserved'   1  46  -1  20  13          0
-Affc 'reserved'   1  46  -1  15  12          0
 Affc 'enchant armor'   1  51  -1  -5  17          0
+Affc 'reserved'   1  46  -1  15  12          0
+Affc 'reserved'   1  46  -1  20  13          0
+Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1   1  19          0
 End
 
 #O
@@ -420,9 +421,9 @@ PrevOwner Katja~
 Cond 0
 Wear 5
 Cost 13700
-Affc 'reserved'   1  45  -1  -4  20          0
-Affc 'reserved'   1  45  -1  30  12          0
 Affc 'enchant armor'   1  51  -1  -3  17          0
+Affc 'reserved'   1  45  -1  30  12          0
+Affc 'reserved'   1  45  -1  -4  20          0
 End
 
 #O
@@ -525,10 +526,10 @@ Cond 0
 Wear -1
 Lev  47
 Cost 12500
-Affc 'reserved'   0  45  -1   0   0       1024
-Affc 'reserved'   1  45  -1  40  13          0
-Affc 'enchant weapon'   1  52  -1   4  19          0
 Affc 'enchant weapon'   0  52  -1   4  18          0
+Affc 'enchant weapon'   1  52  -1   4  19          0
+Affc 'reserved'   1  45  -1  40  13          0
+Affc 'reserved'   0  45  -1   0   0       1024
 End
 
 #O
@@ -574,7 +575,7 @@ PrevOwner Katja~
 Cond 0
 Wear -1
 Cost 930
-Val  30 8 6 56 0
+Val  30 8 6 57 0
 Spell 3 'cure light'
 End
 
@@ -648,7 +649,7 @@ PrevOwner Katja~
 Cond 0
 Wear -1
 Cost 1000
-Val  20 5 4 54 0
+Val  20 5 4 55 0
 Spell 3 'cure critical'
 End
 
@@ -731,8 +732,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 2400
-Affc 'enchant weapon'   1  51  -1   5  19          0
 Affc 'enchant weapon'   0  51  -1   5  18          0
+Affc 'enchant weapon'   1  51  -1   5  19          0
 End
 
 #O
@@ -817,8 +818,8 @@ Cond 0
 Wear 16
 Lev  50
 Cost 1177
-Affc 'enchant weapon'   1  52  -1   6  19          0
 Affc 'enchant weapon'   0  52  -1   6  18          0
+Affc 'enchant weapon'   1  52  -1   6  19          0
 End
 
 #END

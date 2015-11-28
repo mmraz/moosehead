@@ -2,8 +2,8 @@
 Name Gypsum~
 Id   1013831373
 Email (null)~
-LogO 1013834564
-Vers 29
+LogO 1360729822
+Vers 33
 Prom <%hhp %mm %vmv> ~
 Race elf~
 Outc 0
@@ -14,6 +14,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -73 matook~
 Sac  300
@@ -34,21 +39,22 @@ Node 0
 Cap 0
 Created 1013831384
 Glad 0 0 0 0 0 0
-LastHost dsl-63-227-11-233.dnvr.uswest.net~
+LastHost 24.54.128.152~
 Cla  11
 ClaO 0
 Levl 3
 DLevl 0
-Plyd 3033
-Not  1013833777 1013833777 1013833777 1013833777 1013833777 1013833777 1013833777 1013833777 1013833777
+Plyd 3068
+Not  1013833777 1013833777 1013833777 1013833777 1013833777 1013833777 1013833777 1013833777 1013833777 0
 Scro 22
 Rank 0
 Room 16503
-HMV  44 44 124 124 108 108
+HMV  34 34 124 124 108 108
 Gold 28
 Silv 402
 Exp  24643
 Act  CDEFGHKMQ
+MHSF R
 AfBy J
 Comm DGIR
 Disp FJ
@@ -56,21 +62,22 @@ IcgB 0
 Icg 0
 Pos  4
 Prac 9
+Trai 13
 SkiP 12
-Save  -6
+Save  -5
 Alig  -1000
-Hit   6
+Hit   5
 SecHit   5
-ACs 66 64 64 79
-Attr 11 17 18 15 16
-AMod 3 0 2 2 2
+ACs 80 80 80 80
+Attr 11 17 18 15 16 11 12 13
+AMod 0 0 0 0 0 0 0 0
 Pass GyFCJ0nuk7WCM~
 Titl  weaves his magic upon you.~
 Pnts 95
 TSex 1
-LLev 0
+LLev 1
 HMVP 34 124 108
-Cnd  0 26 37 37
+Cnd  0 24 36 36
 Sk 1 'acid blast'
 Sk 1 'armor'
 Sk 1 'blindness'
@@ -162,7 +169,6 @@ Sk 1 'staves'
 Sk 1 'wands'
 Sk 50 'swimming'
 Sk 50 'recall'
-Sk 1 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'wizard default'
@@ -176,9 +182,9 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'bless'   0  40  36  -5  24          0
-Affc 'bless'   0  40  36   5  18          0
-Affc 'armor'   0  42  13 -20  17          0
+Affc 'armor'   0  42  12 -20  17          0
+Affc 'bless'   0  40  35   5  18          0
+Affc 'bless'   0  40  35  -5  24          0
 End
 
 #O
@@ -186,7 +192,7 @@ Vnum 3716
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 Val  0 0 127 0 0
 End
@@ -205,7 +211,7 @@ Vnum 3701
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 16
+Wear -1
 Cost 210
 End
 
@@ -214,7 +220,7 @@ Vnum 3704
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 11
+Wear -1
 Cost 0
 End
 
@@ -241,7 +247,7 @@ Vnum 3726
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 End
 
@@ -250,7 +256,7 @@ Vnum 3708
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 8
+Wear -1
 Cost 72
 End
 
@@ -259,7 +265,7 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 48
 End
 
@@ -268,7 +274,7 @@ Vnum 3705
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 4
+Wear -1
 Cost 72
 End
 
@@ -277,7 +283,7 @@ Vnum 3705
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 3
+Wear -1
 Cost 72
 End
 
@@ -286,7 +292,7 @@ Vnum 3706
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 6
+Wear -1
 Cost 72
 End
 
@@ -313,7 +319,7 @@ Vnum 3707
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 7
+Wear -1
 Cost 72
 End
 
@@ -322,7 +328,7 @@ Vnum 3709
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 9
+Wear -1
 Cost 72
 End
 
@@ -331,7 +337,7 @@ Vnum 3710
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 10
+Wear -1
 Cost 72
 End
 
@@ -340,7 +346,7 @@ Vnum 3713
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 15
+Wear -1
 Cost 48
 End
 
@@ -349,7 +355,7 @@ Vnum 3715
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 1140
 End
 
@@ -358,7 +364,7 @@ Vnum 4439
 Nest 0
 PrevOwner Haplo~
 Cond 0
-Wear 18
+Wear -1
 Cost 0
 End
 
@@ -475,7 +481,7 @@ Vnum 4438
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 5
+Wear -1
 Cost 0
 End
 
@@ -493,7 +499,7 @@ Vnum 4440
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 13
+Wear -1
 Cost 0
 End
 

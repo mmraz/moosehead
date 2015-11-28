@@ -2,8 +2,8 @@
 Name Thule~
 Id   940821436
 Email (null)~
-LogO 1086321171
-Vers 31
+LogO 1370518601
+Vers 33
 LnD  A Gladiator~
 Desc Victims of Thule
 _______________
@@ -118,11 +118,12 @@ Clan demise~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 0
+SkPTimer 1
+SkPTracker 1
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Deathdefyer~
 LstKBy 0~
 LstAtkedBy no one~
@@ -130,32 +131,38 @@ LstAtkedByTimer 0
 LstCombatDate 1012792700
 LstKillDate 1012792700
 LstDeathDate 1012792700
-LoginsWOKill 9
-LoginsWODeath 9
-LoginsWOCombat 9
+LoginsWOKill 10
+LoginsWODeath 10
+LoginsWOCombat 10
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 19800 hermes~
 DeityT -62 hermes~
-Sac  223
+Sac  300
 Sex  1
 Vump  36
 Node 31403
 Cap 0
 Created 955934706
 Glad 0 0 0 0 0 0
-LastHost pool-138-88-83-36.res.east.verizon.net~
+LastHost 49.5.1.12~
 Cla  10
 ClaO 10
 Levl 51
 DLevl 0
-Plyd 1013862
+Plyd 1013987
 Not  1055953184 1056070825 1036365127 1036365127 1036365127 1055990846 1036365127 1055891204 1036365127 1036365127
 Scro 22
 Rank 4
 Room 31422
-HMV  1191 1191 436 769 520 524
-Gold 23
-Silv 33
+HMV  1191 1191 401 769 521 524
+Gold 25
+Silv 154
 Exp  437915
 Act  CDFGHa
 MHSF RS
@@ -167,16 +174,16 @@ Icg 0
 Pos  8
 Prac 150
 Trai 10
-SkiP 13
+SkiP 14
 Save  -15
-Alig  -908
+Alig  -914
 Hit   28
 Dam   49
 SecHit   28
 SecDam   42
 ACs 5 5 5 15
 Wimp  300
-Attr 22 20 19 22 19 13 13 13
+Attr 22 20 19 22 19 14 14 13
 AMod 4 5 4 0 0 0 0 0
 Pass ThA4V/spGz9Ag~
 Titl  nails a right cross for heresy.  Crack!~
@@ -184,7 +191,7 @@ Pnts 99
 TSex 1
 LLev 1
 HMVP 1151 708 489
-Cnd  0 40 46 44
+Cnd  0 28 43 38
 Alias f c ice mickey~
 Alias 4 wield torc~
 Alias 5 wield battle~
@@ -351,13 +358,13 @@ Gr 'element energy'
 Gr 'element fire'
 Gr 'element spirit'
 Gr 'element water'
-Affc 'bless'   0  52  56  -6  24          0
-Affc 'bless'   0  52  56   6  18          0
-Affc 'stonefist'   0  52  14  10  19          0
-Affc 'mistform'   0  52  33 -52  17          0
-Affc 'sanctuary'   0  52   5   0   0        128
-Affc 'daetok'   0  50   9   5  19          0
-Affc 'daetok'   0  51   9   5  18          0
+Affc 'bless'   0  52  53  -6  24          0
+Affc 'bless'   0  51  53   6  18          0
+Affc 'stonefist'   0  51  11  10  19          0
+Affc 'mistform'   0  49  27 -52  17          0
+Affc 'sanctuary'   0  52   2   0   0        128
+Affc 'daetok'   0  49   6   5  19          0
+Affc 'daetok'   0  51   6   5  18          0
 End
 
 #O
@@ -560,7 +567,7 @@ ExtF 0
 Cond 0
 Wear -1
 Cost 1000
-Val  40 35 34 124 0
+Val  40 35 34 130 0
 Spell 3 'invisibility'
 End
 
@@ -571,7 +578,7 @@ PrevOwner Thule~
 Cond 0
 Wear -1
 Cost 7000
-Val  48 207 -1 -1 -1
+Val  48 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -592,7 +599,7 @@ PrevOwner Thule~
 Cond 0
 Wear -1
 Cost 10000
-Val  30 5 3 109 0
+Val  30 5 3 114 0
 Spell 3 'haste'
 End
 
@@ -603,7 +610,7 @@ PrevOwner Thule~
 Cond 0
 Wear -1
 Cost 0
-Val  37 182 -1 -1 -1
+Val  37 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -614,7 +621,7 @@ PrevOwner Thule~
 Cond 0
 Wear -1
 Cost 0
-Val  53 2 -1 -1 -1
+Val  53 5 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -625,7 +632,7 @@ PrevOwner Thule~
 Cond 0
 Wear -1
 Cost 0
-Val  37 2 -1 -1 -1
+Val  37 5 -1 -1 -1
 Spell 1 'accuracy'
 End
 
@@ -1047,7 +1054,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  35 20 -1 -1 -1
+Val  35 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -1064,7 +1071,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  35 20 -1 -1 -1
+Val  35 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -1081,7 +1088,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  35 20 -1 -1 -1
+Val  35 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -1142,7 +1149,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  35 20 -1 -1 -1
+Val  35 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -1441,7 +1448,7 @@ Cond 0
 Wear -1
 Lev  20
 Cost 0
-Val  35 20 -1 -1 -1
+Val  35 23 -1 -1 -1
 Spell 1 'blur'
 End
 
@@ -1697,7 +1704,7 @@ Nest 0
 PrevOwner Arcane~
 Cond 0
 Wear 16
-Time 160
+Time 157
 Cost 0
 End
 

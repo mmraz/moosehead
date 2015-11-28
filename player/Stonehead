@@ -2,8 +2,8 @@
 Name Stonehead~
 Id   991192627
 Email (null)~
-LogO 1121975157
-Vers 31
+LogO 1444615689
+Vers 33
 LnD  A Gladiator~
 Desc STOP LOOKING AT ME!
 STOP LOOKING AT ME!
@@ -11,99 +11,106 @@ Desc STOP LOOKING AT ME!
 STOP LOOKING AT ME!
 STOP LOOKING AT ME!
 STOP LOOKING AT ME!
-STOP LOOKING AT ME!
+
 ~
-Prom %t %e %g:gp %s:sp %w%c%hHP %mMP %vMV %S:sac %X:exp ~
+Prom %e %t %g:GP %s:SP %w%c%h/%H:HP %m/%M:MP %v:MV %X:x ~
 Race gargoyle~
-Clan zealot~
 Outc 0
-RufT 322
-MatookT 0
-SkPTimer 6
-SkPTracker 12
+RufT 289
+MatookT 445
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
-Kill 2 15 0 3
+Kill 2 16 0 3
 Steal 0 0 0
-LstK Oracle~
+MSteal 0
+LstK Malanari~
 LstKBy Yukmouth~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1121974880
-LstKillDate 1100137219
+LstCombatDate 1320203099
+LstKillDate 1320203104
 LstDeathDate 1070953738
-LoginsWOKill 4
-LoginsWODeath 10
-LoginsWOCombat 0
+LoginsWOKill 7
+LoginsWODeath 24
+LoginsWOCombat 6
 Bnty 0
-Deity 134575 almighty~
+DeityFavor 2 0
+PrefStat 0
+OldC 7 123 2
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 134575 hermes~
 DeityT -1633 almighty~
 Sac  300
 Sex  1
-Vump  3
+Vump  4
 Node 0
 Cap 0
 Created 991192634
 Glad 0 2 0 0 1 0
-LastHost 65.28.180.108~
+LastHost 173.215.8.171~
 Cla  9
 Kit wu jen~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 438403
-Not  1121974750 1121974750 1121974750 1121974750 1121974750 1121974750 1121974750 1121974750 1121974750 1121974750
+Plyd 461876
+Not  1321719038 1321719038 1321719038 1323582843 1322548622 1321719038 1321719038 1321719038 1321719038 1321719038
 Scro 22
-Rank 2
-Room 3005
-HMV  1598 1598 362 427 384 386
-Gold 1585
-Silv 230
+Rank 0
+Room -401
+HMV  1623 1623 427 427 386 386
+Gold 2653
+Silv 571
 Exp  537104
 Act  CDGHOQSa
 MHSF RSU
-AfBy CDFHJQTUV
+AfBy DJT
 Comm S
 Disp FIJLN
 IcgB 0
 Icg 0
 Wizn W
 Pnet ABCDEFGHI
-Pos  8
-SkiP 152
+Pos  6
+Prac 24
+SkiP 18
 Save  -12
-Alig  -1000
-Hit   27
-Dam   34
-SecHit   27
-SecDam   34
-ACs 28 28 28 76
-Attr 20 20 19 19 19 13 13 13
-AMod 5 3 0 8 4 0 0 0
+Alig  547
+Hit   24
+Dam   31
+SecHit   20
+SecDam   27
+ACs -2 -2 -2 46
+Attr 20 20 19 19 19 11 11 17
+AMod 4 3 0 2 4 0 0 0
 Pass St.Phy7UGEU.A~
 Titl  is a creature of the {DNight{x.~
 Pnts 99
 TSex 1
 LLev 1
 HMVP 1383 402 251
-Cnd  0 0 1 1
+Cnd  0 0 8 8
 Alias qq scan~
 Alias 1 put all back~
 Alias hi murder~
 Alias dispel focus 'dispel magic'~
 Alias ss order all rescue stonehead~
 Alias die order all kill~
+Alias kk focus sleep mit~
 Spz 'dagger'
 Sk 1 'aid'
-Sk 81 'annointment'
+OldSk 81 'annointment'
 Sk 83 'armor'
 Sk 1 'bestow holiness'
 Sk 100 'bless'
-Sk 90 'blindness'
+Sk 91 'blindness'
 Sk 75 'calm'
 Sk 94 'cancellation'
 Sk 1 'change sex'
 Sk 88 'charm person'
-Sk 1 'cone of silence'
 Sk 91 'cure blindness'
 Sk 84 'cure critical'
 Sk 79 'cure disease'
@@ -112,7 +119,7 @@ Sk 85 'cure poison'
 Sk 75 'cure serious'
 Sk 87 'curse'
 Sk 75 'detect evil'
-Sk 78 'detect good'
+Sk 81 'detect good'
 Sk 93 'detect hidden'
 Sk 79 'detect invis'
 Sk 86 'detect magic'
@@ -120,7 +127,7 @@ Sk 75 'detect poison'
 Sk 96 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
-Sk 84 'enhance'
+Sk 87 'enhance'
 Sk 75 'energy drain'
 Sk 1 'enervation'
 Sk 76 'famine'
@@ -130,7 +137,7 @@ Sk 1 'feeblemind'
 Sk 78 'fireproof'
 Sk 75 'fly'
 Sk 1 'forget'
-Sk 94 'frenzy'
+Sk 95 'frenzy'
 Sk 1 'fumble'
 Sk 99 'gate'
 Sk 92 'giant strength'
@@ -148,15 +155,15 @@ Sk 83 'pass door'
 Sk 78 'plague'
 Sk 80 'poison'
 Sk 77 'portal'
-Sk 84 'protection evil'
+Sk 86 'protection evil'
 Sk 80 'protection good'
 Sk 78 'protection neutral'
 Sk 94 'refresh'
 Sk 86 'remove curse'
 Sk 1 'sacred guardian'
-Sk 95 'sanctuary'
+Sk 100 'sanctuary'
 Sk 78 'shield'
-Sk 94 'sleep'
+Sk 95 'sleep'
 Sk 90 'slow'
 Sk 80 'stone skin'
 Sk 90 'summon'
@@ -193,7 +200,7 @@ Sk 33 'scrolls'
 Sk 1 'staves'
 Sk 75 'wands'
 Sk 50 'swimming'
-Sk 50 'recall'
+Sk 75 'recall'
 Gr 'rom basics'
 Gr 'samurai basics'
 Gr 'beguiling'
@@ -207,18 +214,8 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'mummy'
-Affc 'sanctuary'   0  45   6   0   0        128
-Affc 'detect good'   0  46  41   0   0          4
-Affc 'pass door'   0  44   7   0   0    1048576
-Affc 'haste'   0  44  14   4   2    2097152
-Affc 'enhance'   0  42   9   2   2          0
-Affc 'detect hidden'   0  35   3   0   0         32
-Affc 'bless'   0  42  27   6  18          0
-Affc 'bless'   0  48  27  -6  24          0
-Affc 'frenzy'   0  43   1   7  18          0
-Affc 'frenzy'   0  41   1   7  19          0
-Affc 'frenzy'   0  43   1  30  17          0
-Affc 'giant strength'   0  42  35   4   1          0
+Affc 'bless'   0  42   4  -6  24          0
+Affc 'bless'   0  45   4   6  18          0
 End
 
 #O
@@ -271,8 +268,8 @@ Cond 0
 Wear 7
 Cost 2000
 Val  7 7 7 4 3
-Affc 'reserved'   1  39  -1  -2  20          0
 Affc 'reserved'   1  39  -1   2  19          0
+Affc 'reserved'   1  39  -1  -2  20          0
 End
 
 #O
@@ -327,24 +324,6 @@ PrevOwner Stonehead~
 Cond 0
 Wear 3
 Cost 3690
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Stonehead~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 4805
-Nest 0
-PrevOwner Stonehead~
-Cond 0
-Wear 9
-Cost 5500
 End
 
 #O
@@ -565,33 +544,6 @@ Cost 0
 End
 
 #O
-Vnum 22552
-Nest 1
-PrevOwner Stonehead~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 6406
-Nest 1
-PrevOwner Stonehead~
-Cond 0
-Wear -1
-Cost 19700
-End
-
-#O
-Vnum 6425
-Nest 1
-PrevOwner Yukmouth~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 10069
 Nest 1
 PrevOwner Yukmouth~
@@ -646,31 +598,12 @@ Cost 3400
 End
 
 #O
-Vnum 10415
-Nest 1
-PrevOwner Stonehead~
-ExtF 64
-Cond 0
-Wear -1
-Cost 5400
-End
-
-#O
 Vnum 10445
 Nest 1
 PrevOwner Stonehead~
 Cond 0
 Wear -1
 Cost 6400
-End
-
-#O
-Vnum 22510
-Nest 1
-PrevOwner Stonehead~
-Cond 0
-Wear -1
-Cost 2200
 End
 
 #O
@@ -701,32 +634,13 @@ Cost 15000
 End
 
 #O
-Vnum 10404
-Nest 1
-PrevOwner Stonehead~
-ExtF 98
-Cond 0
-Wear -1
-Cost 15300
-End
-
-#O
-Vnum 23504
-Nest 1
-PrevOwner Stonehead~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
 Vnum 9217
 Nest 1
 PrevOwner Stonehead~
 Cond 0
 Wear -1
 Cost 1000
-Val  5 3 1 76 0
+Val  5 3 1 79 0
 Spell 3 'earthquake'
 End
 
@@ -740,30 +654,86 @@ Cost 10
 End
 
 #O
+Vnum 22510
+Nest 1
+PrevOwner Stonehead~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 6425
+Nest 1
+PrevOwner Stonehead~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10450
+Nest 1
+PrevOwner Stonehead~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 6702
+Nest 1
+PrevOwner Stonehead~
+Cond 0
+Wear -1
+Cost 20000
+End
+
+#O
+Vnum 23504
+Nest 1
+PrevOwner Stonehead~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 22552
+Nest 1
+PrevOwner Stonehead~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10415
+Nest 1
+PrevOwner Stonehead~
+ExtF 64
+Cond 0
+Wear -1
+Cost 5400
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner Stonehead~
+Cond 0
+Wear -1
+Cost 8500
+Spell 3 'remove curse'
+End
+
+#O
 Vnum 1963
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 17
 Cost 1832
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Stonehead~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Stonehead~
-Cond 0
-Wear -1
-Cost 354
 End
 
 #O
@@ -785,22 +755,30 @@ Cost 400
 End
 
 #O
+Vnum 6406
+Nest 0
+PrevOwner Stonehead~
+Cond 0
+Wear 16
+Cost 19700
+End
+
+#O
+Vnum 4805
+Nest 0
+PrevOwner Stonehead~
+Cond 0
+Wear 9
+Cost 5500
+End
+
+#O
 Vnum 12006
 Nest 0
 PrevOwner Stonehead~
 Cond 0
 Wear 10
 Cost 900
-End
-
-#O
-Vnum 22552
-Nest 0
-PrevOwner Stonehead~
-Stolen 47
-Cond 0
-Wear 16
-Cost 0
 End
 
 #END

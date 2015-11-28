@@ -1,0 +1,222 @@
+Label entry
+Type 33
+Name 'The Entrance to a Dark Cave'~
+Desc The entrance to a cave mouth looms before you. The jagged rocks on the cave
+mouth seem to growl at you angrily. A red substance seems to be dripping
+off one of the jagged rocks. A eery howl echos through the cave mouth
+before you before you are engulfed in complete eerie silence. Perhaps you
+should take a closer look inside...
+~
+Index 101
+Cost 1000
+Flags 32
+Opt 0 0
+Loc 0
+#End
+Label roost
+Type 33
+Name {DThe Gargoyle Roost{x~
+Desc You climb up into a massive cavern, stretching into the beyond. At its zennith,
+a glowing crystal is embedded into rock, its candescence the main source of
+illumination in the cave. Around it, various creatures swoop, croon and tussle
+at dizzying heights, as if drawn to its core. On the cavern floor, ruined
+spires and their crumbling steps loom towards the light like fingers clawing
+from the dark. Atop these spires you can faintly make out flickering chromatic
+portals.
+~
+Index 105
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label regen
+Type 33
+Name {DA {rBlood Red {DCavern{x~
+Desc You have entered a huge cavernous space inside the dark cave. There seems
+to be a natural red glow permeating from red lichen growing across the
+cavern walls. Pitch black pockets of the cave lead into distance tunnels,
+some glowing red, others engulfed in complete darkness. You can hear the
+slight trickling of something ahead, and your eyes catch a dull reflection
+off a small stream passing through the cavern. An ancient stone tomb lies
+in the centre of the cavern, inviting you in.
+
+~
+Index 102
+Cost 7000
+Flags 33
+Opt 5 8
+Loc 0
+#End
+Label vault
+Type 33
+Name {DThe {rEnclave {DVault{x~
+Desc A dark tunnel has led you through to another small cavernous space. An
+extremely pale and ancient clan member stands silently in the far left
+corner of the cave. Ahead, a giant, solid rectangular black vault stands
+open. You can just make out rock walls with a torch, burning inside.
+~
+Index 103
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label lab
+Type 33
+Name {DThe {rRitual{D Chamber{x~
+Desc You walk through a pitch black tunnel to the southern side of the main
+cavern. A strange humming sound is coming from further into the tunnel. A
+pulsating glow begins to light the tunnel walls around you. You continue
+walking until you enter a small rocky chamber, the pulsating glow is
+emanating off a strange symbol, covering the entire floor. Torches are
+spread intermittently around the chamber, creating a warm glow and shifting
+shadows across walls. You feel a dark power radiating through the chamber,
+and you think you can hear a faint whisper through the constant deep hum.
+
+~
+Index 104
+Cost 8000
+Flags 2
+Opt 3 0
+Loc 0
+#End
+Label cavern
+Type 17
+Name {DA {RBlood Red{x {DCavern~
+Desc You have entered a huge cavernous space inside the dark cave. There seems
+to be a natural red glow permeating from red lichen growing across the
+cavern walls. Pitch black pockets of the cave lead into distance tunnels,
+some glowing red, others engulfed in complete darkness. You can hear the
+slight trickling of something ahead, and your eyes catch a dull reflection
+off a small stream passing through the cavern. An ancient stone tomb lies
+in the centre of the cavern, inviting you in.
+~
+Index 106
+Cost 7000
+Flags 1
+Opt 4 4
+Loc 0
+Review
+#End
+Label magelab
+Type 17
+Name The {rRitual{x Chamber~
+Desc You walk through a pitch black tunnel to the southern side of the main
+cavern. A strange humming sound is coming from further into the tunnel. A
+pulsating glow begins to light the tunnel walls around you. You continue
+walking until you enter a small rocky chamber, the pulsating glow is
+emanating off a strange symbol, covering the entire floor. Torches are
+spread intermittently around the chamber, creating a warm glow and shifting
+shadows across walls. You feel a dark power radiating through the chamber,
+and you think you can hear a faint whisper through the constant deep hum.
+~
+Index 107
+Cost 8000
+Flags 2
+Opt 3 0
+Loc 0
+Review
+#End
+Label pit
+Type 17
+Name {DThe {rEnclave {DVault{x~
+Desc Test
+~
+Index 108
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+Review
+#End
+Label sarcophagus
+Type 36
+Name an ancient sarcophagus~
+Short An ancient sarchophagus~
+Long An ancient sarcophagus stands here. Glowing {Rred{x lichen softens the bottom.~
+Index 101
+Cost 2500
+Flags 4
+Opt 1 0
+Loc 102
+#End
+Label stream
+Type 36
+Name a stream of blood~
+Short A stream of {rdark red blood{x~
+Long A stream of {rdark red blood{x trickles slowly through the cavern~
+Index 102
+Cost 2000
+Flags 16
+Opt 13 0
+Loc 102
+#End
+Label vault2
+Type 36
+Name the blood vault~
+Short A massive {Dblack{x vault~
+Long A massive {Dblack{x vault stands before you, it's door slightly ajar.~
+Index 103
+Cost 2000
+Flags 32
+Opt 0 0
+Loc 103
+#End
+Label portal1
+Type 36
+Name cot city thieves~
+Short A {Ygolden{x portal to CoT~
+Long A {Ygolden{x chromatic portal to CoT looms above you, crackling with energy.~
+Index 104
+Cost 2000
+Flags 1
+Opt 0 0
+Loc 105
+#End
+Label portalcot
+Type 20
+Name city~
+Short a golden portal to COT~
+Long A {Ygolden{x chromatic portal to {WCoT{x looms above you, crackling with energy~
+Index 105
+Cost 2000
+Flags 1
+Opt 6023 0
+Loc 0
+Review
+#End
+Label bed
+Type 20
+Name bed~
+Short bed~
+Long bed~
+Index 106
+Cost 2500
+Flags 4
+Opt 1 0
+Loc 0
+Review
+#End
+Label cot
+Type 20
+Name cot city thieves~
+Short A {Ygolden{x portal to CoT~
+Long A {Ygolden{x chromatic portal to CoT looms above you, crackling with energy.~
+Index 107
+Cost 2000
+Flags 1
+Opt 6023 0
+Loc 0
+Review
+#End
+Exit 1 101 102 -1 -1
+Exit 3 101 -1 -1 3554
+Exit 5 105 102 -1 -1
+Exit 0 102 103 -1 -1
+Exit 2 102 104 -1 -1
+Exit 3 102 101 -1 -1
+Exit 4 102 105 -1 -1
+Exit 2 103 102 -1 -1
+Exit 0 104 102 -1 -1
+#End

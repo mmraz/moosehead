@@ -3,18 +3,19 @@ Name Sanosuke~
 SurN Zanza~
 Id   1045988605
 Email (null)~
-LogO 1053190844
-Vers 31
+LogO 1354923598
+Vers 33
 Prom %hhp %mm %vmv %Xxp %tclock [{R%e{x] ({M%r{x)%c~
 Race kender~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 0
+SkPTimer 1
+SkPTracker 3
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 31
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -5459 matook~
 Sac  300
@@ -35,52 +40,52 @@ Node 0
 Cap 0
 Created 1045988619
 Glad 0 0 0 0 0 0
-LastHost 66.92.72.189~
+LastHost 99.241.52.126~
 Cla  4
 ClaO 2
-Levl 20
+Levl 26
 DLevl 0
-Plyd 253339
+Plyd 259475
 Not  1053120839 1053120839 1053120839 1053137451 1053120839 1053162699 1053120839 1053120839 1053120839 1053120839
 Scro 52
 Rank 0
-Room 3004
-HMV  313 313 193 193 247 247
-Gold 660
-Silv 95
-Exp  179140
+Room 3054
+HMV  383 383 230 230 331 331
+Gold 1077
+Silv 1711
+Exp  228104
 Act  BCDGHKM
 MHSF R
 Comm RS
-Disp FGIJ
+Disp FIJ
 IcgB 0
 Icg 0
 Pnet ABCEFGHI
 Pos  8
-Prac 23
-SkiP 13
-Save  -14
+Prac 40
+Trai 15
+SkiP 71
+Save  -11
 Alig  -1000
-Hit   12
+Hit   14
 Dam   16
-SecHit   2
-SecDam   6
-ACs -238 -238 -238 -238
-Wimp  20
-Attr 18 16 15 24 17 25 14 18
-AMod 2 4 7 1 4 0 0 0
-Pass SaESh4Tlw6C2w~
+SecHit   12
+SecDam   14
+ACs -225 -225 -225 -225
+Wimp  10
+Attr 18 17 18 24 17 15 11 18
+AMod 2 4 6 1 5 0 0 0
+Pass SaqRLsxP.PH9.~
 Titl  {x~
 Pnts 100
 TSex 1
-LLev 13
-HMVP 268 193 247
-Cnd  0 0 0 0
+LLev 71
+HMVP 343 230 331
+Cnd  0 0 0 6
 Alias loner slap sano~
 Alias lone slap sano~
 Alias lon slap sano~
 Alias lo slap sano~
-Alias level slap sano~
 Alias leve slap sano~
 Alias lev slap sano~
 Alias le slap sano~
@@ -102,7 +107,7 @@ Sk 56 'fireproof'
 Sk 57 'fly'
 Sk 1 'frenzy'
 Sk 1 'gate'
-Sk 1 'giant strength'
+Sk 56 'giant strength'
 Sk 1 'haste'
 Sk 1 'holy word'
 Sk 1 'infravision'
@@ -112,7 +117,7 @@ Sk 1 'mirror image'
 Sk 1 'nexus'
 Sk 1 'pass door'
 Sk 1 'portal'
-Sk 65 'protection evil'
+Sk 75 'protection evil'
 Sk 77 'protection good'
 Sk 59 'protection neutral'
 Sk 1 'psionic blast'
@@ -124,21 +129,21 @@ Sk 1 'shield'
 Sk 1 'stone skin'
 Sk 1 'summon'
 Sk 1 'teleport'
-Sk 1 'tower of iron will'
+Sk 56 'tower of iron will'
 Sk 76 'word of recall'
 Sk 100 'dagger'
-Sk 90 'mace'
-Sk 94 'backstab'
-Sk 73 'dirt kicking'
+Sk 92 'mace'
+Sk 99 'backstab'
+Sk 74 'dirt kicking'
 Sk 19 'disarm'
-Sk 97 'dodge'
+Sk 100 'dodge'
 Sk 100 'kailindo'
-Sk 1 'enhanced damage'
+Sk 24 'enhanced damage'
 Sk 100 'parry'
 Sk 75 'shield block'
 Sk 85 'scan'
 Sk 100 'second attack'
-Sk 1 'third attack'
+Sk 11 'third attack'
 Sk 86 'hide'
 Sk 90 'sneak'
 Sk 75 'steal'
@@ -155,6 +160,13 @@ Gr 'enhancement'
 Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
+Affc 'stone skin'   0  30  17 -40  17          0
+Affc 'armor'   0  19  14 -20  17          0
+Affc 'bless'   0  20  14   2  18          0
+Affc 'bless'   0  19  14  -2  24          0
+Affc 'frenzy'   0  23   1   4  18          0
+Affc 'frenzy'   0  23   1   4  19          0
+Affc 'frenzy'   0  23   1  20  17          0
 End
 
 #O
@@ -202,7 +214,7 @@ Nest 0
 PrevOwner Sanosuke~
 ExtF 33
 Cond 0
-Wear -1
+Wear 4
 Cost 1140
 End
 
@@ -212,7 +224,7 @@ Nest 0
 PrevOwner Sanosuke~
 ExtF 33
 Cond 0
-Wear -1
+Wear 3
 Cost 1140
 End
 
@@ -290,7 +302,7 @@ Vnum 8007
 Nest 0
 PrevOwner Souzo~
 Cond 0
-Wear -1
+Wear 16
 Cost 2800
 Val  2 3 5 3 4
 End
@@ -304,7 +316,7 @@ ExtF 134217793
 Wt   7
 Wrp 6
 Cond 0
-Wear 10
+Wear -1
 Lev  20
 Cost 1280
 Affc 'enchant armor'   1  53  -1  -7  17          0
@@ -481,7 +493,7 @@ ExtF 134217793
 Wt   9
 Wrp 3
 Cond 0
-Wear 13
+Wear -1
 Lev  20
 Cost 3600
 Affc 'enchant armor'   1  53  -1  -6  17          0
@@ -497,7 +509,7 @@ ExtF 134217793
 Wt   7
 Wrp 4
 Cond 0
-Wear 6
+Wear -1
 Lev  20
 Cost 3300
 Affc 'enchant armor'   1  53  -1  -5  17          0
@@ -513,7 +525,7 @@ ExtF 134217792
 Wt   9
 Wrp 3
 Cond 0
-Wear 8
+Wear -1
 Lev  11
 Cost 310
 Affc 'reserved'   1   7  -1   1   2          0
@@ -547,7 +559,7 @@ ExtF 134217728
 Wt   9
 Wrp 1
 Cond 0
-Wear 4
+Wear -1
 Cost 1110
 End
 
@@ -559,7 +571,7 @@ ExtF 134217728
 Wt   9
 Wrp 1
 Cond 0
-Wear 3
+Wear -1
 Cost 1110
 End
 
@@ -710,53 +722,13 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 20413
 Enchanted
 Nest 0
 PrevOwner Sanosuke~
 ExtF 67
 Cond 0
-Wear 16
+Wear -1
 Lev  16
 Cost 85
 Val  4 1 6 41 4
@@ -792,12 +764,180 @@ Cost 22
 End
 
 #O
-Vnum 3009
+Vnum 8517
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 22
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23112
+Nest 0
+PrevOwner Spoook~
+Cond 0
+Wear 13
+Cost 1298
+End
+
+#O
+Vnum 23111
+Nest 0
+PrevOwner Spoook~
+Cond 0
+Wear -1
+Cost 1463
+End
+
+#O
+Vnum 23110
+Nest 0
+PrevOwner Spoook~
+Cond 0
+Wear 8
+Cost 1200
+End
+
+#O
+Vnum 23108
+Nest 0
+PrevOwner Spoook~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 23107
+Nest 0
+PrevOwner Spoook~
+Cond 0
+Wear 10
+Cost 1500
+End
+
+#O
+Vnum 23106
+Nest 0
+PrevOwner Spoook~
+Cond 0
+Wear 6
+Cost 1343
+End
+
+#O
+Vnum 23106
+Nest 0
+PrevOwner Spoook~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 1395
+Nest 0
+PrevOwner Spoook~
+Cond 0
+Wear -1
+Cost 1970
+End
+
+#O
+Vnum 20700
+Nest 0
+PrevOwner Spoook~
+ExtF 134217728
+Wt   24
+Wrp 1
+Cond 0
+Wear -1
+Cost 20
+End
+
+#O
+Vnum 8054
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 8054
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 8058
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 8058
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'burning hands'
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

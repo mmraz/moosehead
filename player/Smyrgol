@@ -2,22 +2,23 @@
 Name Smyrgol~
 Id   900037119
 Email (null)~
-LogO 1122097928
-Vers 31
+LogO 1354923785
+Vers 33
 LnD  A Gladiator~
 Desc you see a dragon composed almost entirely of beer (that is, except for the head:)
 ~
-Prom <%b %m/%Mm %vmv> ~
+Prom <%hhp %mm %vmv> {G*(%WWieght)*{x {Y(%t:00){x (%X)  ~
 Race dragon~
 Clan matook~
 Outc 0
 RufT 0
 MatookT 12001
 SkPTimer 0
-SkPTracker 9
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -29,6 +30,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 569616 matook~
 DeityT -1944 matook~
 Sac  300
@@ -38,18 +43,18 @@ Node 0
 Cap 0
 Created 960222934
 Glad 0 0 0 0 0 0
-LastHost 68-118-143-32.rcp7.ubr1.hst.ne.nebi.com~
+LastHost 99.241.52.126~
 Cla  7
 Kit medium~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 1273247
+Plyd 1274907
 Not  1033060083 1033321996 0 1033265798 1080807612 1032549700 933130708 1032547010 0 1032231598
 Scro 22
 Rank 0
-Room 16503
-HMV  987 987 1455 1455 267 267
+Room 3001
+HMV  987 987 1448 1455 133 267
 Gold 76
 Silv 18
 Exp  347828
@@ -64,23 +69,23 @@ Pos  8
 Prac 48
 Trai 10
 SkiP 9
-Save  -12
+Save  -6
 Alig  -1000
-Hit   23
-Dam   18
-SecHit   12
+Hit   6
+Dam   7
+SecHit   6
 SecDam   7
 ACs -84 -84 -84 -74
 Wimp  20
 Attr 17 23 24 19 24 13 13 13
 AMod 6 2 1 2 -3 0 0 0
-Pass SmvAcX/dfuBMI~
+Pass Sm6pV922o1cuA~
 Titl  the beer dragon~
 Pnts 91
 TSex 1
 LLev 1
 HMVP 947 940 267
-Cnd  0 0 34 10
+Cnd  0 36 45 42
 Alias recall pray recall~
 Alias j order all rescue smyrgol~
 Alias rec cast 'word of recall'~
@@ -385,10 +390,8 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'bless'   0  41   2  -6  24          0
-Affc 'bless'   0  41   2   6  18          0
-Affc 'detect invis'   0  52  32   0   0          8
-Affc 'detect magic'   0  53  52   0   0         16
+Affc 'detect magic'   0  41  13   0   0         16
+Affc 'detect invis'   0  53  48   0   0          8
 End
 
 #O
@@ -540,42 +543,6 @@ Cost 5000
 End
 
 #O
-Vnum 28005
-Enchanted
-Nest 1
-PrevOwner Smyrgol~
-Name white dragons tooth~
-ShD  {WA White Dragon's {YTooth{x~
-Desc The tooth of a {WWhite Dragon{x lies here, waiting to be used by its master.~
-ExtF 99
-Cond 0
-Wear -1
-Cost 5000
-Val  2 5 8 11 6
-Affc 'enchant weapon'   1  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 2437
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 2000
-End
-
-#O
-Vnum 18119
-Nest 1
-PrevOwner Smyrgol~
-ExtF 97
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
 Vnum 961
 Nest 1
 PrevOwner Smyrgol~
@@ -588,36 +555,12 @@ Spell 3 'bless'
 End
 
 #O
-Vnum 6517
-Nest 1
-PrevOwner Smyrgol~
-Name unguaranteed enchant cert~
-ShD  A Boogums Unguaranteed Enchant Cert~
-Desc Won in a Boogums Quest, this cert is for an unguaranteed enchant.~
-ExtF 524289
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 22044
 Nest 1
 PrevOwner Smyrgol~
 Cond 0
 Wear -1
 Cost 100000
-End
-
-#O
-Vnum 7303
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 18600
-Val  13 10 7 169 0
-Spell 3 'sanctuary'
 End
 
 #O
@@ -648,131 +591,16 @@ Cost 4500
 End
 
 #O
-Vnum 3377
-Nest 1
-PrevOwner Smyrgol~
-Name action figure shoggoth~
-ShD  a Shoggoth action figure~
-Desc Your favorite clanner is here in plastic glory.~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 5939
-Enchanted
-Nest 1
-PrevOwner Smyrgol~
-ExtF 67
-Cond 0
-Wear -1
-Cost 4000
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
 Vnum 23560
 Nest 1
 PrevOwner Smyrgol~
 ExtF 538443809
 Cond 0
 Wear -1
-Time 783
+Time 743
 Cost 100
 Spell 1 'traveler fog'
 Spell 2 'teleport'
-End
-
-#O
-Vnum 9001
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 9001
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 9001
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 9001
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 9001
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 9001
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 9001
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 9001
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 9001
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 18423
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 800
 End
 
 #O
@@ -785,47 +613,6 @@ Cost 0
 End
 
 #O
-Vnum 9001
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 15227
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 20000
-Val  -1 -1 -1 -1 -1
-End
-
-#O
-Vnum 11145
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 5913
-Nest 1
-PrevOwner Smyrgol~
-ExtF 134217728
-Wt   140
-Wrp 1
-Cond 0
-Wear -1
-Cost 2000
-Val  7 7 7 4 2
-End
-
-#O
 Vnum 2907
 Nest 1
 PrevOwner Smyrgol~
@@ -833,25 +620,6 @@ Cond 0
 Wear -1
 Cost 10
 Val  6 0 13 0 0
-End
-
-#O
-Vnum 8528
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 2354
-End
-
-#O
-Vnum 2205
-Nest 1
-PrevOwner Smyrgol~
-ExtF 256
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -871,75 +639,6 @@ PrevOwner Smyrgol~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 22919
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 22941
-Nest 2
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2200
-End
-
-#O
-Vnum 16603
-Nest 2
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 200
-Spell 3 'demonfire'
-End
-
-#O
-Vnum 16603
-Nest 2
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 200
-Spell 3 'demonfire'
-End
-
-#O
-Vnum 16603
-Nest 2
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 200
-Spell 3 'demonfire'
-End
-
-#O
-Vnum 16603
-Nest 2
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 200
-Spell 3 'demonfire'
-End
-
-#O
-Vnum 7303
-Nest 1
-PrevOwner Smyrgol~
-Cond 0
-Wear -1
-Cost 18600
-Val  13 10 2 169 0
-Spell 3 'sanctuary'
 End
 
 #O
@@ -1039,7 +738,7 @@ Nest 0
 PrevOwner Smyrgol~
 ExtF 579
 Cond 0
-Wear 16
+Wear -1
 Cost 4000
 Affc 'enchant weapon'   0  54  -1  11  18          0
 Affc 'enchant weapon'   1  54  -1  11  19          0
@@ -1079,6 +778,169 @@ Cond 0
 Wear -1
 Cost 10000
 Spell 3 'haste'
+End
+
+#O
+Vnum 7303
+Nest 0
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 18600
+Val  13 10 2 172 0
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 5913
+Nest 0
+PrevOwner Smyrgol~
+ExtF 134217728
+Wt   140
+Wrp 1
+Cond 0
+Wear -1
+Cost 2000
+Val  7 7 7 4 2
+End
+
+#O
+Vnum 11145
+Nest 0
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 7303
+Nest 0
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 18600
+Val  13 10 7 172 0
+Spell 3 'sanctuary'
+End
+
+#O
+Vnum 8528
+Nest 0
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 2354
+End
+
+#O
+Vnum 5939
+Enchanted
+Nest 0
+PrevOwner Smyrgol~
+ExtF 67
+Cond 0
+Wear -1
+Cost 4000
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 2437
+Nest 0
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 18423
+Nest 0
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner Smyrgol~
+ExtF 97
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 22919
+Nest 0
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 0
+Val  30 1 0 10 100
+End
+
+#O
+Vnum 22941
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 16603
+Nest 1
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 200
+Spell 3 'demonfire'
+End
+
+#O
+Vnum 16603
+Nest 1
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 200
+Spell 3 'demonfire'
+End
+
+#O
+Vnum 16603
+Nest 1
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 200
+Spell 3 'demonfire'
+End
+
+#O
+Vnum 16603
+Nest 1
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 200
+Spell 3 'demonfire'
+End
+
+#O
+Vnum 15227
+Nest 0
+PrevOwner Smyrgol~
+Cond 0
+Wear -1
+Cost 20000
+Val  -1 -1 -1 -1 -1
 End
 
 #END

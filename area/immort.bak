@@ -1,5 +1,5 @@
 #AREA
-/mud/moosehead/area/immort.are~
+../olc/olcarea/immort.are~
 Valhalla~
 {36 40} ROM     Immortal Zone~
 1200 1275
@@ -1163,6 +1163,77 @@ rock hard flesh~
 pill C A
 25 'giant strength' 'haste' '' ''
 1 10 0 P
+#1268
+rose bed~
+a beautiful rose~
+A beautiful rose sits here and lights up the room in soft, colorful hues.~
+wood~
+furniture ORTY 0
+2 0 EHK 100 100
+0 -31072 0 P
+E
+bed petals rose~
+A beautiful rose looks like it would be comfortable if you pulled the petals 
+down as a blanket. It radiates with light and illuminates the room in soft,
+colorful hues.
+~
+#1269
+Heimdall's Wrath~
+{DHeimdall's Wrath{x~
+A blazing weapon lies here, flitting between flaming heat to icy cold.~
+Everything~
+weapon ABGIPTYd AN
+dagger 1 9 wrath ABCGH
+1 1 0 P
+A
+14 20
+A
+12 5
+A
+13 5
+A
+17 2
+A
+20 2
+A
+19 1
+A
+18 1
+E
+wrath~
+In an attempt to find the weakness of Heimdall, Loki, Heimdalls eternal nemesis, created a weapon
+of such power that every known material was used in its forging. Such a weapon should have 
+penetrated Heimdalls defences and provided Loki with the knowledge he needed for the final battle
+between good and evil. Heimdall , knowing nothing of Lokis trickery was surprised when a mere 
+mortal appeared carrying a blazing weapon and mindlessly attacked Heimdall. Heimdall brushed the
+attack aside and crushed the blazing weapon in his grip. In his anger, he cast down the mortal being 
+to his death from the heavens, but soon realized that no mortal could appear in the heavens without 
+the assistance of another immortal. As a reminder to Heimdall of Lokis true nature and of mortals 
+weaknesses, he kept the weapon on him at all times. It still sits within a sheath by his side, waiting 
+for the day he can use it against Loki, for the longer it absorbs the good of Heimdall, the more sure
+Heimdall will be that the weapon will be imbued enough to destroy Loki in the final battle. This is 
+just another trial for both good and evil in the eternal struggle of the gods.
+~
+#1270
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#1271
+Sheath Heimdall Golden~
+Heimdall's golden sheath~
+A golden sheath lies here, radiating a holy light~
+Gold~
+container AI AL
+10 AC 0 5 50
+0 50 8000 P
+A
+18 1
+A
+5 1
 #0
 
 #ROOMS
@@ -2169,11 +2240,35 @@ his loving wife, Tantatalas.
 O immortal~
 S
 #1246
-Generic room name~
-Generic room description.
+Uniball's Cardboard Box~
+Walking down the street, from a distance you see the filthy watersoaked box
+laying half in the gutter. The closer you get to the box you see that there is
+someone or something sitting inside it.
+ 
+As you walk up in front of it you smell the foulest, horrid smell every was.
+Your nose hairs curl up just from the stench coming from the {ycardboard box{x
+and what ever it is that enhabits the box.
+ 
+Sitting inside the box is a dirty filthy little faerie. From the looks of him
+you can tell that he hasn't had a bath in months, and is probably wearing
+the same clothes that he was wearing the day he staggered sleepily into
+this horrid land.
+ 
+Looking around your pretty sure he's the one you've heard people telling
+stories about for, the one they call the recall hobo. Spending most of his
+faerie life either hiding in his box or keeping his old buddy Hassan company.
+ 
 ~
-0 C 0
-O immortal~
+0 DKPQT 0
+O Uniball~
+E
+/d~
+Generic extended description.
+~
+E
+ ~
+Generic extended description.
+~
 S
 #1247
 Generic room name~
@@ -2460,57 +2555,112 @@ S
 #0
 
 #RESETS
-M 0 1207   1 1233  1	* A Blond Woman called Pamela
-M 0 1200   1 1221  1	* Heimdall
-O 0 1213 100 1234	* a black marble fountain
-O 0 1212 100 1234	* an easy chair
-O 0 1211 100 1234	* a comfortable couch
-O 0 1223 100 1240	* a comfy hammock
-O 0 1222 100 1240	* a hat overflowing with liquid
-O 0 1221 100 1240	* the edge
-O 0 1234 100 1237	* the fountain of socialism
-O 0 1220 100 1237	* Soviet's red velvet sofa
-O 0 1238 100 1269	* a fountain of wine
-O 0 1237 100 1269	* A penis testing couch
-O 0 1239 100 1270	* a stone statue of Briareu
-M 0 2400   2 1241  1	* Winky
-M 0 10036   2 1242  1	* Aristotle
-O 0 1242 100 1271	* a small wooden stool
-O 0 1243 100 1273	* the table
-O 0 1235 100 1238	* a plush bed
-O 0 1244 100 1274	* a passion fruit tree
-O 0 1246 100 1274	* a passion fruit
-O 0 1246 100 1274	* a passion fruit
-O 0 1247 100 1243	* a 54" TV
-O 0 1245 100 1243	* a lazy-boy recliner
-M 0 5500   1 1272  1	* A small green Watch-Wyrm
-O 0 31042 100 1272	* a small stream of water
-O 0 1241 100 1272	* a futon
-M 0 8512   1 1239  1	* your ass
-M 0 1216   1 1239  1	* The Grimreaper
 M 0 3722   2 1212  1	* the guildmaster
-O 0 1253 100 1232	* a fountain of flowing body fluids
+M 0 1207   1 1233  1	* A Blond Woman called Pamela
+M 0 1216   1 1239  1	* The Grimreaper
+M 0 8512   1 1239  1	* your ass
+M 0 2400   1 1241  1	* Winky
+M 0 10036   1 1242  1	* Aristotle
+M 0 5500   1 1272  1	* A small green Watch-Wyrm
 O 0 1252 100 1232	* a bed of bones and flesh
+O 0 1253 100 1232	* a fountain of flowing body fluids
+O 0 1211 100 1234	* a comfortable couch
+O 0 1212 100 1234	* an easy chair
+O 0 1213 100 1234	* a black marble fountain
+O 0 1220 100 1237	* Soviet's red velvet sofa
+O 0 1234 100 1237	* the fountain of socialism
+O 0 1235 100 1238	* a plush bed
+O 0 1221 100 1240	* the edge
+O 0 1222 100 1240	* a hat overflowing with liquid
+O 0 1223 100 1240	* a comfy hammock
+O 0 1245 100 1243	* a lazy-boy recliner
+O 0 1247 100 1243	* a 54" TV
+O 0 1265 100 1245	* a sturdy oak chair
 O 0 1257 100 1249	* a pile of brocade pillows
+O 0 1268 100 1249	* a beautiful rose
+O 0 1237 100 1269	* A penis testing couch
+O 0 1238 100 1269	* a fountain of wine
+O 0 1239 100 1270	* a stone statue of Briareu
+O 0 1242 100 1271	* a small wooden stool
+O 0 1241 100 1272	* a futon
+O 0 31042 100 1272	* a small stream of water
+O 0 1243 100 1273	* the table
+O 0 1246 100 1274	* a passion fruit
+O 0 1244 100 1274	* a passion fruit tree
+D 0 1200   2 16384	* The Chat Room south
+D 0 1201   0 16384	* Moses' Hangout north
+D 0 1202   1 16384	* The Center of the Universe east
 D 0 1203   0 16387	* Valhalla north
+D 0 1203   1 16384	* Valhalla east
 D 0 1203   2 16387	* Valhalla south
+D 0 1203   3 16384	* Valhalla west
+D 0 1203   4 16384	* Valhalla up
 D 0 1204   0 16387	* Priscilla's Pleasure Palace  north
 D 0 1207   2 16387	* Thunder's Dorm Room south
 D 0 1208   0 16387	* A Sea Cave north
 D 0 1209   2 16387	* Bunion's Home on the Range south
 D 0 1211   2 16387	* Arena of Judgement south
+D 0 1213   0 16384	* Asgard north
+D 0 1213   1 16384	* Asgard east
+D 0 1213   2 16384	* Asgard south
+D 0 1213   3 16384	* Asgard west
+D 0 1213   5 16384	* Asgard down
+D 0 1214   5 16384	* The Room of Lost Souls down
 D 0 1215   0 16449	* Head of the Rainbow Bridge north
+D 0 1215   4 16384	* Head of the Rainbow Bridge up
+D 0 1215   5 16384	* Head of the Rainbow Bridge down
+D 0 1216   1 16384	* The Entrance of Valhalla east
+D 0 1216   3 16384	* The Entrance of Valhalla west
 D 0 1217   0 16387	* Valhalla north
+D 0 1217   1 16384	* Valhalla east
 D 0 1217   2 16455	* Valhalla south
+D 0 1217   3 16384	* Valhalla west
+D 0 1217   4 16384	* Valhalla up
 D 0 1218   0 16387	* Valhalla north
+D 0 1218   1 16384	* Valhalla east
 D 0 1218   2 16387	* Valhalla south
+D 0 1218   3 16384	* Valhalla west
+D 0 1218   4 16384	* Valhalla up
+D 0 1219   0 16384	* Valhalla north
+D 0 1219   1 16384	* Valhalla east
+D 0 1219   2 16384	* Valhalla south
+D 0 1219   3 16384	* Valhalla west
+D 0 1219   4 16384	* Valhalla up
+D 0 1220   4 16384	* On the Rainbow Bridge up
+D 0 1220   5 16384	* On the Rainbow Bridge down
+D 0 1222   5 16384	* Into the Pandemonium down
+D 0 1223   0 16384	* Pandesmos north
+D 0 1223   1 16384	* Pandesmos east
+D 0 1223   2 16384	* Pandesmos south
+D 0 1223   4 16384	* Pandesmos up
+D 0 1223   5 16384	* Pandesmos down
+D 0 1224   4 16384	* Cocytus up
+D 0 1226   0 16384	* Deep Chasms north
+D 0 1226   2 16384	* Deep Chasms south
+D 0 1227   2 16384	* Large Caverns south
+D 0 1228   0 16384	* Caverns north
+D 0 1228   2 16384	* Caverns south
+D 0 1229   0 16384	* Large Caverns north
+D 0 1230   3 16384	* River Styx west
+D 0 1231   5 16384	* Windrunner's Thundercloud down
 D 0 1234   0 24647	* Guerrand's Private Room north
+D 0 1236   0 16384	* Entrance to the Bloodbath north
 D 0 1236   2 16449	* Entrance to the Bloodbath south
+D 0 1237   4 16384	* Red Square up
+D 0 1238   0 16384	* Hannah's Chamber north
 D 0 1238   1 16387	* Hannah's Chamber east
 D 0 1238   3 16387	* Hannah's Chamber west
+D 0 1238   5 16384	* Hannah's Chamber down
+D 0 1239   5 16384	* The Afterlife down
+D 0 1242   5 16384	* Rage's Favourite Coffee Shop. down
 D 0 1271   3 16387	* Nimthas' Sanctuary west
+D 0 1273   2 16384	* Hannah's Private Courtyard south
 D 0 1274   1 16387	* Valley of Hel east
-O 0 1265 100 1245	* a sturdy oak chair
+M 0 1200   1 1221  1	* Heimdall
+E 1 1271  -1   13	*   Heimdall's golden sheath
+P 1 1269  -1 1271  1	*   {DHeimdall's Wrath{x
+D 0 1221   4 16384	* The End of the Rainbow Bridge up
+D 0 1221   5 16384	* The End of the Rainbow Bridge down
 S
 
 #SHOPS

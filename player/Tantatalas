@@ -3,7 +3,7 @@ Name Tantatalas~
 SurN Snow~
 Id   1006389632
 Email (null)~
-LogO 1046575798
+LogO 1312420425
 Vers 31
 LnD  A Gladiator~
 Desc {WS{xh{Wi{xm{We{xr{Wi{xn{Wg{D before you stands a very small being.
@@ -38,8 +38,8 @@ Race faerie~
 Outc 0
 RufT 0
 MatookT 286
-SkPTimer 0
-SkPTracker 10
+SkPTimer 2
+SkPTracker 9
 LogoutTracker 0
 Kill 0 1 0 0
 Steal 0 0 0
@@ -54,6 +54,9 @@ LoginsWOKill 2
 LoginsWODeath 2
 LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 1207258 huitzilopochtli~
 DeityT -6197 huitzilopochtli~
 Sac  300
@@ -63,22 +66,21 @@ Node 0
 Cap 0
 Created 1006389649
 Glad 0 1 2 9 4 6
-LastHost Ottawa-ppp-199646.sympatico.ca~
 Cla  7
 Kit medium~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 1470903
+Plyd 1470928
 Not  1046384558 1045709274 1045633191 1046114841 1045890212 1046213648 1045633191 1046519692 1045633191 1045633191
 Scro 22
 Rank 0
 Room 3040
-HMV  473 497 1326 1326 442 442
+HMV  497 497 1326 1326 442 442
 Gold 419
 Silv 921
 Exp  477610
-Act  DEFGHIKQRTX
+Act  DEFGHIKQRT
 MHSF R
 AfBy DFJTVW
 Comm GJLSc
@@ -141,6 +143,7 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 75 'chill touch'
 Sk 75 'colour spray'
+Sk 1 'cone of silence'
 Sk 81 'continual light'
 Sk 75 'control weather'
 Sk 75 'create food'
@@ -284,7 +287,7 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'haste'   0  51  12   4   2    2097152
+Affc 'haste'   0  51  11   4   2    2097152
 End
 
 #O
@@ -390,10 +393,10 @@ PrevOwner Tantatalas~
 Cond 0
 Wear 11
 Cost 4000
-Affc 'reserved'   1  49  -1   2  18          0
-Affc 'reserved'   1  49  -1  -1  20          0
-Affc 'reserved'   1  49  -1   1  19          0
 Affc 'reserved'   1  49  -1  30  12          0
+Affc 'reserved'   1  49  -1   1  19          0
+Affc 'reserved'   1  49  -1  -1  20          0
+Affc 'reserved'   1  49  -1   2  18          0
 End
 
 #O
@@ -518,8 +521,8 @@ Cond 0
 Wear 16
 Lev  50
 Cost 0
-Affc 'enchant weapon'   0  53  -1  10  18          0
 Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
@@ -550,9 +553,9 @@ Wear -1
 Lev  50
 Cost 7500
 Val  2 6 6 10 5
-Affc 'reserved'   1  43  -1   2   2          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
 Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'reserved'   1  43  -1   2   2          0
 End
 
 #O
@@ -1040,9 +1043,7 @@ PrevOwner Tantatalas~
 Cond 0
 Wear -1
 Cost 0
-Spell 1 'sanctuary'
-Spell 2 'haste'
-Spell 3 'bless'
+Val  2 169 110 17 100
 End
 
 #O
@@ -1062,7 +1063,7 @@ PrevOwner Tantatalas~
 Cond 0
 Wear -1
 Cost 0
-Spell 3 'giant strength'
+Val  0 0 0 108 0
 End
 
 #O
@@ -1154,7 +1155,7 @@ PrevOwner Tantatalas~
 Cond 0
 Wear -1
 Cost 0
-Spell 3 'giant strength'
+Val  0 0 0 108 0
 End
 
 #O
@@ -1164,7 +1165,7 @@ PrevOwner Tantatalas~
 Cond 0
 Wear -1
 Cost 0
-Spell 3 'giant strength'
+Val  0 0 0 108 0
 End
 
 #O
@@ -1174,7 +1175,7 @@ PrevOwner Tantatalas~
 Cond 0
 Wear -1
 Cost 0
-Spell 3 'giant strength'
+Val  0 0 0 108 0
 End
 
 #O
@@ -1184,7 +1185,7 @@ PrevOwner Tantatalas~
 Cond 0
 Wear -1
 Cost 0
-Spell 3 'giant strength'
+Val  0 0 0 108 0
 End
 
 #O
@@ -1194,7 +1195,7 @@ PrevOwner Tantatalas~
 Cond 0
 Wear -1
 Cost 0
-Spell 3 'giant strength'
+Val  0 0 0 108 0
 End
 
 #O
@@ -1204,7 +1205,7 @@ PrevOwner Tantatalas~
 Cond 0
 Wear -1
 Cost 0
-Spell 3 'giant strength'
+Val  0 0 0 108 0
 End
 
 #O

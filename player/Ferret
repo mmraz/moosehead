@@ -2,15 +2,15 @@
 Name Ferret~
 Id   1000597419
 Email (null)~
-LogO 1120246282
+LogO 1312027093
 Vers 31
-Prom <%hhp %mmp %vmv %Ssac %gg %ss %r %e> ~
+Prom <%hHp %mMp %vmv %SS %gg %ss %wKg %Xxp %r %tH %e> ~
 Race dwarf~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 6
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -25,29 +25,32 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 92891 matook~
 DeityT -804 matook~
-Sac  200
+Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1000597436
 Glad 0 0 0 0 0 0
-LastHost Ottawa-HSE-ppp3650418.sympatico.ca~
+LastHost 76.10.136.95~
 Cla  3
 Kit battlerager~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 105725
-Not  1107639423 1107639423 1107639423 1107639423 1107639423 1107639423 1107639423 1107639423 1107639423 1107639423
+Plyd 114831
+Not  1311760641 1311858677 1107639423 1311897303 1312005671 1311887865 1107639423 1311769662 1107639423 1311544993
 Scro 22
 Rank 0
-Room 3001
-HMV  1915 1915 350 350 316 333
-Gold 507
-Silv 144
+Room 16503
+HMV  1550 1550 350 350 326 333
+Gold 478
+Silv 491
 Exp  51207
 Act  CDEFGHJK
 MHSF R
@@ -58,18 +61,20 @@ IcgB 0
 Icg 0
 Pnet ABCEF
 Pos  8
-Prac 32
-SkiP 13
-Save  -17
+Prac 4
+Trai 6
+ReTrai 8
+SkiP 25
+Save  -8
 Alig  -1000
-Hit   38
-Dam   60
-SecHit   38
-SecDam   60
-ACs 31 37 31 68
+Hit   21
+Dam   40
+SecHit   21
+SecDam   40
+ACs -20 -14 -20 17
 Wimp  5
-Attr 22 16 19 16 21 16 20 13
-AMod 3 2 0 -4 5 0 0 0
+Attr 22 16 19 16 21 9 13 13
+AMod 3 2 0 0 5 0 0 0
 Pass Fejc2QRzG9KJA~
 Titl  takeing a feret nap, beep me~
 Pnts 38
@@ -85,6 +90,7 @@ Alias aa put all sat~
 Alias ferret , overwhelms you with a mighty {RFerret{x Hug. <tm>~
 Alias fbite , just bit your foot! That little rascal.~
 Alias k kick~
+Alias / c word~
 Spz 'axe'
 Sk 1 'armor'
 Sk 1 'cancellation'
@@ -92,8 +98,14 @@ Sk 1 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
 Sk 1 'famine'
-Sk 73 'feast'
+Sk 75 'feast'
 Sk 1 'fireproof'
+Sk 1 'fly'
+Sk 80 'gate'
+Sk 1 'knock'
+Sk 1 'nexus'
+Sk 1 'pass door'
+Sk 1 'portal'
 Sk 1 'protection evil'
 Sk 75 'protection good'
 Sk 1 'protection neutral'
@@ -101,24 +113,27 @@ Sk 1 'sacred guardian'
 Sk 1 'sanctuary'
 Sk 1 'shield'
 Sk 75 'stone skin'
+Sk 1 'summon'
+Sk 1 'teleport'
+Sk 69 'word of recall'
 Sk 100 'axe'
 Sk 75 'sword'
 Sk 75 'berserk'
 Sk 1 'bite'
-Sk 84 'dodge'
+Sk 86 'dodge'
 Sk 87 'killing rage'
-Sk 89 'enhanced critical'
+Sk 94 'enhanced critical'
 Sk 100 'enhanced damage'
 Sk 26 'kick'
 Sk 64 'morph'
-Sk 83 'parry'
+Sk 88 'parry'
 Sk 75 'shield block'
 Sk 53 'scan'
-Sk 82 'second attack'
-Sk 81 'third attack'
-Sk 69 'fast healing'
-Sk 1 'sharpen'
-Sk 1 'scrolls'
+Sk 87 'second attack'
+Sk 83 'third attack'
+Sk 72 'fast healing'
+Sk 80 'sharpen'
+Sk 63 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
 Sk 50 'swimming'
@@ -126,16 +141,8 @@ Sk 50 'recall'
 Gr 'rom basics'
 Gr 'warrior basics'
 Gr 'protective'
+Gr 'transportation'
 Gr 'garou'
-Affc 'killing rage'   2  50   0  -4   0          2
-Affc 'killing rage'   0  50   0  -4  20          0
-Affc 'killing rage'   0  48   0 365  13          0
-Affc 'killing rage'   0  49   0  -4   2          0
-Affc 'killing rage'   0  51   0  51  17          0
-Affc 'killing rage'   0  49   0  18  19          0
-Affc 'killing rage'   0  51   0  10  18          0
-Affc 'bless'   0  41  21   5  18          0
-Affc 'bless'   0  38  21  -5  24          0
 End
 
 #O
@@ -424,56 +431,6 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 9573
-Nest 1
-PrevOwner Ferret~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ferret~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ferret~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ferret~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Ferret~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 6517
 Nest 1
 PrevOwner Ferret~
@@ -513,36 +470,6 @@ Cost 22
 End
 
 #O
-Vnum 3092
-Nest 1
-PrevOwner Ferret~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 11063
-Nest 1
-PrevOwner Ferret~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Ferret~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 1262
 Nest 1
 PrevOwner Ferret~
@@ -591,12 +518,44 @@ Spell 3 'bless'
 End
 
 #O
-Vnum 12060
-Nest 0
-PrevOwner Taistus~
+Vnum 3293
+Nest 1
+PrevOwner Ferret~
 Cond 0
-Wear 16
-Cost 5234
+Wear -1
+Cost 609
+Spell 1 'word of recall'
+End
+
+#O
+Vnum 3293
+Nest 1
+PrevOwner Ferret~
+Cond 0
+Wear -1
+Cost 609
+Spell 1 'word of recall'
+End
+
+#O
+Vnum 3293
+Nest 1
+PrevOwner Ferret~
+Cond 0
+Wear -1
+Cost 609
+Spell 1 'word of recall'
+End
+
+#O
+Vnum 3293
+Nest 1
+PrevOwner Ferret~
+Damaged 36
+Cond 0
+Wear -1
+Cost 609
+Spell 1 'word of recall'
 End
 
 #O
@@ -736,7 +695,7 @@ Vnum 23124
 Nest 0
 PrevOwner Ferret~
 Cond 0
-Wear 17
+Wear -1
 Cost 2400
 End
 
@@ -750,30 +709,12 @@ Cost 3400
 End
 
 #O
-Vnum 15215
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 9000
-End
-
-#O
 Vnum 2440
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 300
-End
-
-#O
-Vnum 15215
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 9000
 End
 
 #O
@@ -789,11 +730,38 @@ End
 Vnum 10441
 Nest 0
 PrevOwner Ferret~
-Stolen 37
 Cond 0
 Wear -1
 Cost 6700
 Val  5 15 2 6 4
+End
+
+#O
+Vnum 11078
+Nest 0
+PrevOwner Reznar~
+Damaged 39
+Cond 0
+Wear 11
+Cost 3500
+End
+
+#O
+Vnum 11063
+Nest 0
+PrevOwner Ferret~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4100
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 940
 End
 
 #O
@@ -806,82 +774,222 @@ Cost 6000
 End
 
 #O
-Vnum 11078
+Vnum 8503
 Nest 0
-PrevOwner Reznar~
+PrevOwner Ferret~
 Cond 0
-Wear 11
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12060
+Nest 0
+PrevOwner Ferret~
+Cond 0
+Wear 16
+Cost 5234
+End
+
+#O
+Vnum 2409
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
 Cost 3500
 End
 
 #O
-Vnum 3293
+Vnum 2440
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 609
-Spell 1 'word of recall'
+Cost 300
 End
 
 #O
-Vnum 3293
+Vnum 2334
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 609
-Spell 1 'word of recall'
+Cost 4300
 End
 
 #O
-Vnum 3293
+Vnum 3040
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 609
-Spell 1 'word of recall'
+Cost 890
+Spell 1 'identify'
 End
 
 #O
-Vnum 3293
+Vnum 3040
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 609
-Spell 1 'word of recall'
+Cost 890
+Spell 1 'identify'
 End
 
 #O
-Vnum 3293
+Vnum 3040
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 609
-Spell 1 'word of recall'
+Cost 890
+Spell 1 'identify'
 End
 
 #O
-Vnum 3293
+Vnum 3040
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 609
-Spell 1 'word of recall'
+Cost 890
+Spell 1 'identify'
 End
 
 #O
-Vnum 3293
+Vnum 3040
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 609
-Spell 1 'word of recall'
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 3040
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 890
+Spell 1 'identify'
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Ferret~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 11001
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2308
+End
+
+#O
+Vnum 2330
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 2331
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 930
+Spell 3 'cure light'
+End
+
+#O
+Vnum 2334
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4300
+End
+
+#O
+Vnum 2330
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 460
+End
+
+#O
+Vnum 2331
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 930
+Spell 3 'cure light'
+End
+
+#O
+Vnum 2334
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4300
+Val  0 3 9 11 544
+End
+
+#O
+Vnum 9602
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
 End
 
 #END

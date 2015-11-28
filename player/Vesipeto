@@ -2,9 +2,9 @@
 Name Vesipeto~
 Id   855353366
 Email (null)~
-LogO 1125045602
-Vers 31
-LnD  A Gladiator~
+LogO 1359006527
+Vers 33
+LnD  A dying Gladiator~
 Desc This warrior lives up to teachings of Sun Tzu
 
 1. All warfare is based on deception
@@ -28,75 +28,80 @@ Prom <%t %w>%c<%n/%N %S>%c<%hhp %mm %vmv> ~
 Race lasher~
 Clan zealot~
 Outc 0
-RufT 12
+RufT 0
 MatookT 0
-SkPTimer 4
-SkPTracker 12
+SkPTimer 2
+SkPTracker 2
 LogoutTracker 0
-Kill 10 27 0 5
+Kill 10 27 0 6
 Steal 0 0 0
+MSteal 0
 LstK Arcadian~
-LstKBy Nod~
+LstKBy Octavi~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1089800031
+LstCombatDate 1317252368
 LstKillDate 1089800031
-LstDeathDate 1046554719
-LoginsWOKill 5
-LoginsWODeath 38
-LoginsWOCombat 4
+LstDeathDate 1316989187
+LoginsWOKill 28
+LoginsWODeath 13
+LoginsWOCombat 7
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 2557188 almighty~
 DeityT -10005 huitzilopochtli~
-Sac  162
+Sac  300
 Sex  0
-Vump  3
+Vump  2
 Node 0
 Cap 0
 Created 951614475
-Glad 2 24 1 6 11 2
-LastHost e81-197-69-143.elisa-laajakaista.fi~
+Glad 2 24 1 6 12 2
+LastHost 91.155.183.55~
 Cla  14
 Kit wyrmslayer~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 3260865
-Not  1089799917 1089799917 1089799917 1089799917 1089799917 1089799917 1089799917 1089799917 1089799917 1089799917
+Plyd 3600412
+Not  1316569191 1316742765 1089799917 1316666711 1316486992 1317362951 1089799917 1320205467 1089799917 1316473948
 Scro 22
 Rank 3
-Room 31816
-HMV  1619 1619 394 394 475 475
-Gold 570
-Silv 3739
+Room 31806
+HMV  1619 1619 349 394 471 475
+Gold 894
+Silv 2
 Exp  469268
-Act  CDGJKMQRSTUad
+Act  DGJKMQSTUd
 MHSF ARS
-AfBy CDFHNPTVa
+AfBy JPTV
 Comm GOS
 Disp BFIJ
 IcgB 0
 Icg 0
-Wizn W
 Pnet ABCDEFGHI
 Pos  8
-SkiP 60
-Save  -35
-Alig  -1000
-Hit   41
-Dam   53
-SecHit   41
-SecDam   55
-ACs 34 40 34 64
-Attr 23 20 20 17 22 16 16 13
-AMod 4 3 3 5 2 0 0 0
+Trai 11
+SkiP 178
+Save  -14
+Alig  -950
+Hit   35
+Dam   47
+SecHit   29
+SecDam   41
+ACs -69 -65 -71 -31
+Attr 23 20 20 17 22 10 11 13
+AMod 4 0 0 5 2 0 0 0
 Pass VeOy67eT5p.7o~
 Titl ...WAR of the Apocalypse~
 Pnts 100
 TSex 0
 LLev 1
 HMVP 1474 401 340
-Cnd  0 0 42 8
+Cnd  0 0 27 10
 Alias 0 pray transport~
 Alias + pray recall~
 Alias di dirt~
@@ -109,7 +114,9 @@ Alias cast blah~
 Alias a attack~
 Alias 2 clan fighting~
 Alias b buy~
-Alias p shield killum~
+Alias p shield mitch~
+Alias sb shieldba~
+Alias ident c ident~
 Spz 'polearm'
 OldSk 75 'acid blast'
 Sk 1 'aid'
@@ -207,7 +214,7 @@ Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
 Sk 100 'sanctuary'
 OldSk 88 'sanctuary'
-Sk 94 'shield'
+Sk 95 'shield'
 OldSk 67 'shield'
 OldSk 1 'shocking grasp'
 Sk 98 'stone skin'
@@ -300,28 +307,45 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'armor'   0  38  19 -20  17          0
-Affc 'shield'   0  36  33 -20  17          0
-Affc 'stone skin'   0  36  25 -40  17          0
-Affc 'giant strength'   0  36  25   4   1          0
-Affc 'protection evil'   0  37  10  -1  24       8192
-Affc 'berserk'   0  50   2  10  18   67108864
-Affc 'berserk'   0  48   2  10  19   67108864
-Affc 'berserk'   0  49   2 100  17   67108864
-Affc 'sanctuary'   0  39   2   0   0        128
-Affc 'haste'   0  40  16   4   2    2097152
-Affc 'sneak'   0  51  48   0   0      32768
+Affc 'haste'   0  40  20   4   2    2097152
+Affc 'infravision'   0  40  80   0   0        512
+Affc 'bless'   0  39  45  -5  24          0
+Affc 'bless'   0  40  45   5  18          0
+Affc 'stone skin'   0  39  39 -40  17          0
+Affc 'shield'   0  40  47 -20  17          0
+Affc 'armor'   0  40  33 -20  17          0
+Affc 'sneak'   0  51  50   0   0      32768
+Affc 'giant strength'   0  40  38   4   1          0
 End
 
 #O
-Vnum 15202
+Vnum 8544
+Nest 0
+PrevOwner Octavi~
+Cond 0
+Wear 15
+Cost 9999
+End
+
+#O
+Vnum 8544
+Nest 0
+PrevOwner Octavi~
+Cond 0
+Wear 14
+Cost 9999
+End
+
+#O
+Vnum 11145
 Nest 0
 PrevOwner Vesipeto~
-ExtF 320
+Name scale white dragon~
+ShD  a white dragon scale~
+Desc A scale from the white dragon lies here.~
 Cond 0
-Wear 6
-Cost 0
-Affc 'bless'   1  40  38  -1  20        256
+Wear 18
+Cost 4923
 End
 
 #O
@@ -334,30 +358,12 @@ Cost 1180
 End
 
 #O
-Vnum 28018
-Enchanted
-Nest 0
-PrevOwner Vesipeto~
-ExtF 321
-Cond 0
-Wear 12
-Lev  38
-Cost 0
-Affc 'reserved'   0  32  -1   0   0         40
-Affc 'reserved'   1  32  -1   1   2          0
-Affc 'reserved'   1  32  -1   1   1          0
-Affc 'bless'   1  38  38  -1  20        256
-End
-
-#O
 Vnum 12001
 Nest 0
 PrevOwner Vesipeto~
-ExtF 17449216
 Cond 0
 Wear 8
 Cost 0
-Affc 'bless'   1  39  37  -1  20        256
 End
 
 #O
@@ -365,372 +371,87 @@ Vnum 1966
 Enchanted
 Nest 0
 PrevOwner Vesipeto~
-ExtF 259
 Cond 0
 Wear 11
 Cost 4000
 Affc 'reserved'   1  35  -1   2  19          0
 Affc 'reserved'   1  35  -1  -1   1          0
 Affc 'reserved'   1  35  -1 100  14          0
-Affc 'bless'   1  39  37  -1  20        256
 End
 
 #O
 Vnum 23515
 Nest 0
 PrevOwner Vesipeto~
-ExtF 17301824
 Cond 0
 Wear 2
 Cost 7609
-Affc 'bless'   1  36  36  -1  20        256
 End
 
 #O
 Vnum 23515
 Nest 0
 PrevOwner Vesipeto~
-ExtF 17301824
 Cond 0
 Wear 1
 Cost 7609
-Affc 'bless'   1  39  36  -1  20        256
 End
 
 #O
 Vnum 23514
 Nest 0
 PrevOwner Vesipeto~
-ExtF 17301824
 Cond 0
-Wear 3
+Wear 4
 Cost 4059
-Affc 'bless'   1  36  36  -1  20        256
 End
 
 #O
 Vnum 5913
 Nest 0
 PrevOwner Vesipeto~
-ExtF 134217984
+ExtF 134217728
 Wt   180
 Cond 0
 Wear 7
 Cost 2000
 Val  7 7 7 4 4
-Affc 'bless'   1  40  39  -1  20        256
 End
 
 #O
 Vnum 16721
 Nest 0
 PrevOwner Vesipeto~
-ExtF 257
 Cond 0
-Wear 4
+Wear 3
 Cost 1400
-Affc 'bless'   1  39  36  -1  20        256
 End
 
 #O
 Vnum 8543
 Nest 0
-PrevOwner (null)~
-ExtF 320
+PrevOwner Vesipeto~
 Cond 0
 Wear 10
 Cost 4250
-Affc 'bless'   1  38  38  -1  20        256
-End
-
-#O
-Vnum 8544
-Nest 0
-PrevOwner (null)~
-ExtF 321
-Cond 0
-Wear 15
-Cost 9999
-Affc 'bless'   1  37  36  -1  20        256
-End
-
-#O
-Vnum 8544
-Nest 0
-PrevOwner (null)~
-ExtF 321
-Cond 0
-Wear 14
-Cost 9999
-Affc 'bless'   1  38  36  -1  20        256
 End
 
 #O
 Vnum 8545
 Nest 0
-PrevOwner (null)~
-ExtF 1048832
+PrevOwner Vesipeto~
 Cond 0
 Wear 9
 Cost 3400
-Affc 'bless'   1  40  37  -1  20        256
 End
 
 #O
 Vnum 23577
 Nest 0
 PrevOwner Vesipeto~
-ExtF 17301824
 Cond 0
 Wear 13
 Cost 0
-Affc 'bless'   1  38  39  -1  20        256
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of dispel magic~
-ShD  a scroll of dispel magic~
-Desc A scroll of dispel magic lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  16
-Cost 0
-Val  53 72 -1 -1 -1
-Spell 1 'dispel magic'
-End
-
-#O
-Vnum 3034
-Nest 1
-PrevOwner Vesipeto~
-Cond 0
-Wear -1
-Cost 7000
-Val  51 208 -1 -1 -1
-Spell 1 'vision'
-End
-
-#O
-Vnum 18108
-Enchanted
-Nest 1
-PrevOwner Vesipeto~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 5600
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
@@ -740,7 +461,7 @@ PrevOwner Vesipeto~
 Cond 0
 Wear -1
 Cost 18900
-Val  54 50 11 201 0
+Val  54 50 11 204 0
 Spell 3 'teleport'
 End
 
@@ -789,26 +510,290 @@ Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
-Vnum 20740
+Vnum 17631
 Nest 1
 PrevOwner Vesipeto~
 Cond 0
 Wear -1
-Cost 4500
+Cost 250
 End
 
 #O
-Vnum 22055
+Vnum 10069
+Nest 1
+PrevOwner Vesipeto~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 22506
 Enchanted
 Nest 1
 PrevOwner Vesipeto~
 ExtF 66
 Cond 0
 Wear -1
-Lev  49
-Cost 3383
-Affc 'enchant weapon'   1  52  -1   5  19          0
-Affc 'enchant weapon'   0  52  -1   5  18          0
+Lev  50
+Cost 600
+Val  1 10 4 38 4
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Vesipeto~
+ExtF 1196065
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23575
+Enchanted
+Nest 1
+PrevOwner Vesipeto~
+ExtF 66
+Cond 0
+Wear -1
+Cost 0
+Val  6 4 10 41 10
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 18108
+Enchanted
+Nest 1
+PrevOwner Vesipeto~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 5600
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
+End
+
+#O
+Vnum 8530
+Enchanted
+Nest 1
+PrevOwner Vesipeto~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 4400
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 28024
+Nest 1
+PrevOwner Vesipeto~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 20745
+Enchanted
+Nest 1
+PrevOwner Vesipeto~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Val  8 3 13 11 136
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 10420
+Enchanted
+Nest 1
+PrevOwner Vesipeto~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 2400
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 8533
+Enchanted
+Nest 1
+PrevOwner Vesipeto~
+ExtF 8514
+Cond 0
+Wear -1
+Lev  50
+Cost 10340
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'reserved'   1  47  -1  30  14          0
+End
+
+#O
+Vnum 28057
+Enchanted
+Nest 1
+PrevOwner Vesipeto~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  52  -1   7  18          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
+End
+
+#O
+Vnum 22514
+Enchanted
+Nest 1
+PrevOwner Vesipeto~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   0  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   9  19          0
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Vesipeto~
+Name a scroll of dispel magic~
+ShD  a scroll of dispel magic~
+Desc A scroll of dispel magic lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  16
+Cost 0
+Val  53 73 -1 -1 -1
+Spell 1 'dispel magic'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Vesipeto~
+Name a scroll of dispel magic~
+ShD  a scroll of dispel magic~
+Desc A scroll of dispel magic lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  16
+Cost 0
+Val  53 73 -1 -1 -1
+Spell 1 'dispel magic'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Vesipeto~
+Name a scroll of dispel magic~
+ShD  a scroll of dispel magic~
+Desc A scroll of dispel magic lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  16
+Cost 0
+Val  53 73 -1 -1 -1
+Spell 1 'dispel magic'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Vesipeto~
+Name a scroll of dispel magic~
+ShD  a scroll of dispel magic~
+Desc A scroll of dispel magic lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  16
+Cost 0
+Val  53 73 -1 -1 -1
+Spell 1 'dispel magic'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Vesipeto~
+Name a scroll of dispel magic~
+ShD  a scroll of dispel magic~
+Desc A scroll of dispel magic lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  16
+Cost 0
+Val  53 73 -1 -1 -1
+Spell 1 'dispel magic'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Vesipeto~
+Name a scroll of dispel magic~
+ShD  a scroll of dispel magic~
+Desc A scroll of dispel magic lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  16
+Cost 0
+Val  53 73 -1 -1 -1
+Spell 1 'dispel magic'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Vesipeto~
+Name a scroll of dispel magic~
+ShD  a scroll of dispel magic~
+Desc A scroll of dispel magic lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  16
+Cost 0
+Val  53 73 -1 -1 -1
+Spell 1 'dispel magic'
 End
 
 #O
@@ -828,123 +813,6 @@ Affc 'reserved'   1  41  -1  -3  17          0
 End
 
 #O
-Vnum 8533
-Enchanted
-Nest 1
-PrevOwner Vesipeto~
-ExtF 8514
-Cond 0
-Wear -1
-Lev  50
-Cost 10340
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'reserved'   1  47  -1  30  14          0
-End
-
-#O
-Vnum 17631
-Nest 1
-PrevOwner Vesipeto~
-Cond 0
-Wear -1
-Cost 250
-End
-
-#O
-Vnum 23575
-Enchanted
-Nest 1
-PrevOwner Vesipeto~
-ExtF 66
-Cond 0
-Wear -1
-Cost 0
-Val  6 4 10 41 10
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 10069
-Nest 1
-PrevOwner Vesipeto~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 28057
-Enchanted
-Nest 1
-PrevOwner Vesipeto~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  52  -1   7  18          0
-Affc 'enchant weapon'   1  52  -1   7  19          0
-End
-
-#O
-Vnum 8530
-Enchanted
-Nest 1
-PrevOwner Vesipeto~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 4400
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-End
-
-#O
-Vnum 22506
-Enchanted
-Nest 1
-PrevOwner Vesipeto~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 600
-Val  1 10 4 38 4
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 22514
-Enchanted
-Nest 1
-PrevOwner Vesipeto~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  52  -1   9  18          0
-Affc 'enchant weapon'   1  52  -1   9  19          0
-End
-
-#O
-Vnum 11145
-Nest 1
-PrevOwner Vesipeto~
-Name scale white dragon~
-ShD  a white dragon scale~
-Desc A scale from the white dragon lies here.~
-Cond 0
-Wear -1
-Cost 4923
-End
-
-#O
 Vnum 22054
 Enchanted
 Nest 1
@@ -959,52 +827,12 @@ Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
-Vnum 3049
-Nest 1
-PrevOwner Vesipeto~
-Name a scroll of blur~
-ShD  a scroll of blur~
-Desc A scroll of blur lies here.
-~
-ExtF 536879105
-Cond 0
-Wear -1
-Lev  12
-Cost 0
-Val  53 20 -1 -1 -1
-Spell 1 'blur'
-End
-
-#O
-Vnum 15225
-Nest 1
-PrevOwner Vesipeto~
-Cond 0
-Wear -1
-Time 1135
-Cost 8500
-Spell 1 'withstand death'
-End
-
-#O
-Vnum 23572
-Nest 0
-PrevOwner (null)~
-ExtF 224
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 11098
 Nest 0
 PrevOwner Vesipeto~
-ExtF 384
 Cond 0
 Wear -1
 Cost 3500
-Affc 'bless'   1  36  38  -1  20        256
 End
 
 #O
@@ -1057,11 +885,9 @@ End
 Vnum 5114
 Nest 0
 PrevOwner Vesipeto~
-ExtF 384
 Cond 0
-Wear -1
+Wear 6
 Cost 1180
-Affc 'bless'   1  37  38  -1  20        256
 End
 
 #O
@@ -1074,18 +900,94 @@ Cost 400
 End
 
 #O
-Vnum 3050
+Vnum 5934
+Enchanted
+Nest 0
+PrevOwner Vesipeto~
+ExtF 65
+Cond 0
+Wear 5
+Lev  45
+Cost 4000
+Affc 'reserved'   1  38  -1  20  13          0
+Affc 'reserved'   1  38  -1   2  19          0
+End
+
+#O
+Vnum 22056
+Enchanted
+Nest 0
+PrevOwner Vesipeto~
+ExtF 195
+Cond 0
+Wear 16
+Cost 6323
+Val  8 6 7 34 36
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 22504
 Nest 0
 PrevOwner Vesipeto~
 Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 20740
+Nest 0
+PrevOwner Vesipeto~
+Cond 0
+Wear 17
+Cost 4500
+End
+
+#O
+Vnum 23572
+Nest 0
+PrevOwner Vesipeto~
+ExtF 224
+Cond 0
 Wear -1
-Cost 400
+Cost 0
+End
+
+#O
+Vnum 28018
+Enchanted
+Nest 0
+PrevOwner Vesipeto~
+ExtF 65
+Cond 0
+Wear 12
+Lev  38
+Cost 0
+Affc 'reserved'   0  32  -1   0   0         40
+Affc 'reserved'   1  32  -1   1   2          0
+Affc 'reserved'   1  32  -1   1   1          0
+End
+
+#O
+Vnum 22055
+Enchanted
+Nest 0
+PrevOwner Vesipeto~
+ExtF 66
+Cond 0
+Wear 19
+Lev  49
+Cost 3383
+Affc 'enchant weapon'   1  52  -1   5  19          0
+Affc 'enchant weapon'   0  52  -1   5  18          0
 End
 
 #O
 Vnum 1345
 Nest 0
-PrevOwner (null)~
+PrevOwner North~
 Cond 0
 Wear -1
 Cost 0
@@ -1155,15 +1057,6 @@ Cost 0
 End
 
 #O
-Vnum 5743
-Nest 1
-PrevOwner Vesipeto~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 8541
 Enchanted
 Nest 1
@@ -1189,16 +1082,7 @@ Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
-Vnum 2447
-Nest 1
-PrevOwner Vesipeto~
-Cond 0
-Wear -1
-Cost 150
-End
-
-#O
-Vnum 22552
+Vnum 5743
 Nest 1
 PrevOwner Vesipeto~
 Cond 0
@@ -1207,106 +1091,21 @@ Cost 0
 End
 
 #O
-Vnum 5934
-Enchanted
-Nest 0
-PrevOwner Vesipeto~
-ExtF 321
-Cond 0
-Wear 5
-Lev  45
-Cost 4000
-Affc 'reserved'   1  38  -1  20  13          0
-Affc 'reserved'   1  38  -1   2  19          0
-Affc 'bless'   1  40  39  -1  20        256
-End
-
-#O
-Vnum 22056
-Enchanted
-Nest 0
-PrevOwner Isilar~
-ExtF 195
-Cond 0
-Wear -1
-Cost 6323
-Val  8 6 7 34 36
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-End
-
-#O
-Vnum 28024
-Nest 0
-PrevOwner Vesipeto~
-ExtF 256
-Cond 0
-Wear 17
-Cost 3000
-Affc 'bless'   1  38  38  -1  20        256
-End
-
-#O
 Vnum 3050
 Nest 0
-PrevOwner Blankie~
+PrevOwner North~
 Cond 0
 Wear -1
 Cost 400
 End
 
 #O
-Vnum 22504
+Vnum 3050
 Nest 0
 PrevOwner Vesipeto~
-ExtF 16777473
 Cond 0
-Wear 0
-Cost 0
-Affc 'bless'   1  38  37  -1  20        256
-End
-
-#O
-Vnum 20745
-Enchanted
-Nest 0
-PrevOwner Vesipeto~
-ExtF 524611
-Cond 0
-Wear 16
-Lev  50
-Cost 0
-Val  8 3 13 11 136
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'sharpen'   5  51  -1   0   0          8
-Affc 'bless'   1  39  39  -1  20        256
-End
-
-#O
-Vnum 12010
-Nest 0
-PrevOwner Vesipeto~
-ExtF 1196321
-Cond 0
-Wear 18
-Cost 0
-Affc 'bless'   1  39  39  -1  20        256
-End
-
-#O
-Vnum 10420
-Enchanted
-Nest 0
-PrevOwner Vesipeto~
-ExtF 322
-Cond 0
-Wear 19
-Lev  50
-Cost 2400
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'bless'   1  39  39  -1  20        256
+Wear -1
+Cost 400
 End
 
 #END

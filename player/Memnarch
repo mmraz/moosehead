@@ -3,8 +3,8 @@ Name Memnarch~
 SurN Razorgrass~
 Id   1092500413
 Email (null)~
-LogO 1114962847
-Vers 31
+LogO 1357914879
+Vers 33
 LnD  A Gladiator~
 Desc If nothing had a form, it would wear this guise. While you're busy trying to
 figure out exactly what you're looking at, you take a look at your gear and
@@ -18,24 +18,29 @@ Prom (%hhp %mmp %vmv %ggold %ssilver %wlbs %n/%N items) ~
 Race dragon~
 Clan zealot~
 Outc 0
-RufT 0
+RufT 462
 MatookT 0
-SkPTimer 25
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 4 3 0 5
 Steal 179 6458 98
+MSteal 0
 LstK Mystik~
 LstKBy Zenlaar~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1103230588
+LstCombatDate 1355502258
 LstKillDate 1101712993
 LstDeathDate 1097185745
-LoginsWOKill 61
-LoginsWODeath 141
-LoginsWOCombat 32
+LoginsWOKill 68
+LoginsWODeath 148
+LoginsWOCombat 2
 Bnty 1300
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 235537 almighty~
 Sac  300
 Sex  1
@@ -44,49 +49,51 @@ Node 0
 Cap 0
 Created 1092500490
 Glad 1 1 0 0 2 0
-LastHost adsl-68-20-217-241.dsl.chcgil.ameritech.net~
+LastHost 173.165.37.81~
 Cla  13
 Kit acrobat~
 ClaO 2
 Levl 51
 DLevl 0
-Plyd 1124498
-Not  1110598699 1110598699 1110598699 1114528329 1110598699 1110598699 1110598699 1110598699 1110598699 1111048001
+Plyd 1127191
+Not  1357914832 1357914832 1357914832 1357914832 1357914832 1357914832 1357914832 1357914832 1357914832 1357914832
 Scro 98
 Rank 3
-Room 31816
-HMV  1423 1493 27 530 349 874
-Gold 841
-Silv 77
+Room 31803
+HMV  1678 1678 616 630 874 874
+Gold 744
+Silv 6
 Exp  414267
 Act  BDFGJKQSZ
 MHSF RSUX
-AfBy CFHJPQTV
+AfBy CFJOT
 Comm GST
-Disp BFIJN
+Disp FIJN
 IcgB 0
 Icg 0
+Wizn W
 Pnet ABCDEFGHI
 Pos  8
-Prac 3
-SkiP 24
-Save  -32
+Prac 10
+StatsTrained 140 90 0
+SkiP 4
+Save  -36
 Alig  -1000
-Hit   27
+Hit   31
 Dam   23
-SecHit   17
+SecHit   21
 SecDam   13
-ACs -70 -70 -64 -43
+ACs -46 -44 -40 -5
 Wimp  20
-Attr 23 23 23 23 23 25 23 14
-AMod 2 2 2 4 0 0 0 0
+Attr 23 23 23 23 23 11 14 14
+AMod 2 1 0 1 2 0 0 0
 Pass Me8tqkncdnS3Y~
 Titl  the {YAlmighty's{x artifact collector.~
 Pnts 89
 TSex 1
 LLev 101
-HMVP 1253 414 874
-Cnd  0 0 24 0
+HMVP 1393 504 874
+Cnd  0 36 47 38
 Alias k murder~
 Alias stats 1009hp 388mana 838moves naked~
 Alias res order all rescue mem~
@@ -134,7 +141,7 @@ Sk 100 'cutpurse'
 Sk 93 'dirt kicking'
 Sk 83 'disarm'
 Sk 100 'dodge'
-Sk 81 'infiltrate'
+Sk 84 'infiltrate'
 Sk 100 'enhanced damage'
 Sk 74 'tumbling'
 Sk 100 'hamstring'
@@ -147,12 +154,11 @@ Sk 100 'scan'
 Sk 100 'second attack'
 Sk 93 'third attack'
 Sk 100 'hide'
-Sk 90 'lore'
+Sk 92 'lore'
 Sk 100 'peek'
 Sk 76 'pick lock'
 Sk 100 'slice'
 Sk 100 'sneak'
-Sk 75 'snatch'
 Sk 100 'steal'
 Sk 99 'scrolls'
 Sk 75 'staves'
@@ -166,14 +172,11 @@ Gr 'draconian'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'sanctuary'   0  40   2   0   0        128
-Affc 'sneak'   0  51  46   0   0      32768
-Affc 'haste'   0  23   2   3   2    2097152
-Affc 'stone skin'   0  37  24 -40  17          0
-Affc 'shield'   0  39  32 -20  17          0
-Affc 'armor'   0  39  18 -20  17          0
-Affc 'bless'   0  46  38  -6  24          0
-Affc 'bless'   0  47  38   6  18          0
+Affc 'armor'   0  39  19 -20  17          0
+Affc 'shield'   0  38  33 -20  17          0
+Affc 'protection good'   0  38   9  -1  24      16384
+Affc 'bless'   0  43  37   5  18          0
+Affc 'bless'   0  41  37  -5  24          0
 End
 
 #O
@@ -305,8 +308,8 @@ Wear -1
 Lev  50
 Cost 850
 Val  4 3 12 7 260
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -337,9 +340,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1700
-Affc 'enchant weapon'   1  52  -1  12  19          0
-Affc 'reserved'   1  44  -1   2   2          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'reserved'   1  44  -1   2   2          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #O
@@ -352,8 +355,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   0  52  -1  12  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
@@ -364,28 +367,6 @@ Cond 0
 Wear -1
 Cost 500
 Spell 1 'turn undead'
-End
-
-#O
-Vnum 27
-Nest 1
-PrevOwner Memnarch~
-Cond 0
-Wear -1
-Cost 0
-Val  28 183 -1 -1 -1
-Spell 1 'speed'
-End
-
-#O
-Vnum 27
-Nest 1
-PrevOwner Memnarch~
-Cond 0
-Wear -1
-Cost 0
-Val  28 183 -1 -1 -1
-Spell 1 'speed'
 End
 
 #O
@@ -460,8 +441,8 @@ PrevOwner Memnarch~
 Cond 0
 Wear -1
 Cost 125
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -469,7 +450,7 @@ Vnum 8027
 Nest 1
 PrevOwner Memnarch~
 ExtF 17301568
-Stolen 1703
+Stolen 1634
 Cond 0
 Wear -1
 Cost 3000
@@ -487,19 +468,9 @@ Cond 0
 Wear -1
 Lev  49
 Cost 40
-Affc 'enchant armor'   1  52  -1  -7  17          0
-Affc 'reserved'   1  44  -1  35  13          0
 Affc 'reserved'   1  44  -1   3   2          0
-End
-
-#O
-Vnum 12079
-Nest 1
-PrevOwner Memnarch~
-ExtF 17301505
-Cond 0
-Wear -1
-Cost 0
+Affc 'reserved'   1  44  -1  35  13          0
+Affc 'enchant armor'   1  52  -1  -7  17          0
 End
 
 #O
@@ -537,40 +508,18 @@ PrevOwner Memnarch~
 Cond 0
 Wear -1
 Cost 5000
-Val  54 10 5 150 0
+Val  54 10 5 153 0
 Spell 3 'poison'
 End
 
 #O
-Vnum 27
+Vnum 12079
 Nest 1
 PrevOwner Memnarch~
+ExtF 17301505
 Cond 0
 Wear -1
 Cost 0
-Val  28 183 -1 -1 -1
-Spell 1 'speed'
-End
-
-#O
-Vnum 1111
-Nest 1
-PrevOwner Memnarch~
-Name gold star~
-ShD  a {Ygold {Wstar{x~
-Desc A {YGold{W Star{x for Speck lies here.~
-Cond 0
-Wear -1
-Cost 11
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Memnarch~
-Cond 0
-Wear -1
-Cost 100000
 End
 
 #O
@@ -704,7 +653,7 @@ Vnum 6404
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 12
 Cost 11600
 End
 
@@ -762,8 +711,8 @@ ExtF 323
 Cond 0
 Wear 16
 Cost 0
-Affc 'enchant weapon'   1  53  -1  10  19          0
 Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O
@@ -771,7 +720,7 @@ Vnum 17631
 Nest 0
 PrevOwner Memnarch~
 Cond 0
-Wear 0
+Wear -1
 Cost 250
 End
 
@@ -780,7 +729,7 @@ Vnum 22504
 Nest 0
 PrevOwner Memnarch~
 Cond 0
-Wear -1
+Wear 0
 Cost 0
 End
 
@@ -842,7 +791,7 @@ PrevOwner Oracle~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 208 -1 -1 -1
+Val  51 211 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -853,7 +802,7 @@ PrevOwner Oracle~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 186 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -864,7 +813,7 @@ PrevOwner Oracle~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 186 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -875,7 +824,7 @@ PrevOwner Oracle~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 208 -1 -1 -1
+Val  51 211 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -940,7 +889,7 @@ PrevOwner Oracle~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 186 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -951,7 +900,7 @@ PrevOwner Oracle~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 186 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -962,7 +911,7 @@ PrevOwner Oracle~
 Cond 0
 Wear -1
 Cost 0
-Val  51 135 -1 -1 -1
+Val  51 138 -1 -1 -1
 Spell 1 'magic resistance'
 End
 
@@ -973,7 +922,7 @@ PrevOwner Oracle~
 Cond 0
 Wear -1
 Cost 0
-Val  51 135 -1 -1 -1
+Val  51 138 -1 -1 -1
 Spell 1 'magic resistance'
 End
 
@@ -1045,26 +994,8 @@ Vnum 1345
 Nest 0
 PrevOwner Memnarch~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
-End
-
-#O
-Vnum 1946
-Nest 1
-PrevOwner Memnarch~
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 16108
-Nest 1
-PrevOwner Memnarch~
-Cond 0
-Wear -1
-Cost 4000
 End
 
 #O
@@ -1105,6 +1036,139 @@ Cond 0
 Wear -1
 Cost 300
 Spell 1 'frenzy'
+End
+
+#O
+Vnum 10344
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 300
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 10344
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 300
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 27
+Nest 0
+PrevOwner Memnarch~
+Cond 0
+Wear -1
+Cost 0
+Val  28 186 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 1111
+Nest 0
+PrevOwner Memnarch~
+Name gold star~
+ShD  a {Ygold {Wstar{x~
+Desc A {YGold{W Star{x for Speck lies here.~
+Cond 0
+Wear -1
+Cost 11
+End
+
+#O
+Vnum 1946
+Nest 0
+PrevOwner Memnarch~
+Cond 0
+Wear -1
+Cost 15000
 End
 
 #END

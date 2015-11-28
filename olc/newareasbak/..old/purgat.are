@@ -1,0 +1,3207 @@
+#AREA
+../newareas/purgat.are~
+Purgatory~
+{ All }         Purgatory~
+11400 11573
+
+#MOBILES
+#11400
+thanatos death ~
+Thanatos~
+Thanatos, the Incarnation of Death, grins wickedly at you.
+~
+To look upon this Incarnation is to look upon fear itself.  A glimpse
+inside the hood of his dark cloak reveals the skeletal face of Death.
+~
+unique~
+ABT DFHV 0 0
+59 20 50d10+9000 0d0+0 8d6+50 grep
+-30 -30 -30 -30
+EFHKNU ABLMPQ C N
+stand stand male 3000
+AHMV ABCDEF large 0
+#11401
+Mars incarnation war~
+Mars~
+Mars, the Incarnation of war, glowers at you.
+~
+The Incarnation of War stands tall and proud.  His chiseled is set
+in determination as his eyes follow you across the room.  You might
+think twice before tangling with this seasoned warrior.
+~
+human~
+ABFT HV 0 0
+56 20 50d10+8000 0d0+0 10d4+23 crush
+-30 -30 -30 -30
+CDEFHINU ABHMN 0 0
+stand stand male 3000
+0 0 huge 0
+F par GHIJK
+#11402
+lachesis fate~
+Lachesis~
+Lachesis, an aspect of Fate, is busy measuring a thread of life.
+~
+This seemingly human woman appears to be in her middle ages.  She
+has piercing green eyes and long, flowing hair.  It is obvious she was
+once very beautiful.
+~
+human~
+ABT DFHV 0 0
+55 1 50d10+7000 0d0+0 10d4+35 slap
+-30 -30 -30 -35
+FHIU ABMNOPQ 0 0
+stand stand female 3000
+0 0 medium 0
+F par GHIJK
+#11403
+clotho fate~
+Clotho~
+Clotho, an aspect of Fate, is busy spinning the thread of life.
+~
+A stunningly beautiful young woman looks up from her work.  Her hair
+is a midnight black so dark it almost appears blue.  She focuses her
+pretty smile on you, almost making you forget why you came...
+~
+human~
+ABT DFHV 0 0
+60 20 50d10+8500 0d0+0 8d6+30 scratch
+-50 -50 -50 -50
+FHINU ABMNOPQ 0 0
+stand stand none 3000
+0 0 medium 0
+F par GHIJK
+#11404
+Atropos fate~
+Atropos~
+Atropos, an aspect of Fate, cuts the threads of life.
+~
+An elderly woman peers over her glasses at you.  She looks like she
+could easily be someone's grandmother.
+~
+human~
+ABT DFHV 0 0
+58 20 50d10+9000 0d0+0 8d6+26 punch
+-30 -30 -30 -30
+EFHINU ABLMNOPQ 0 0
+stand stand female 3000
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#11400
+marble fountain water~
+a beautiful marble fountain~
+A beautiful marble fountain bubbles merrily.~
+~
+fountain 0 0
+0 0 'water' 0 0
+1 0 0 G
+E
+marble fountain~
+This beautiful marble fountain depicts a meeting between the four
+mighty creatures of legend: the fiery phoenix, the mighty gryphon,
+the cunning manticore and the powerful dragon.  Legend speaks of a
+pact sealed between them, which dictated the mixture of their life
+essences in the creation of one entity: Kunji.
+~
+#11401
+bed four poster canopy~
+a four-poster bed~
+A soft bed stuffed with griffin feathers is here.~
+feathers~
+furniture OTY 0
+2 0 BEHK 100 100
+1 100 0 P
+E
+bed~
+Made of the finest enchanted oak and with the expert craftmanship of the
+elven nation this bed is obviously high quality.  You almost miss the ornate
+woodworking on the frame as your eyes are drawn to the drawn chiffon curtains.
+~
+#11402
+burgundy sofa seat couch~
+burgundy velvet sofa~
+A velvet burgundy sofa beckons you to rest.~
+cloth~
+furniture OTY 0
+5 0 BEH 100 100
+1 100 0 P
+E
+love seat~
+Running your hand across this finely textured seat you admire its rich
+burgundy colour and notice the craftmanship of the hand-carved wood.
+~
+#11403
+scythe death~
+a deadly scythe~
+A wicked looking scythe glistens in the light.~
+steel~
+weapon W AN
+polearm 6 6 slice D
+50 70 9000 P
+A
+2 -1
+#11404
+cloak death midnight black~
+a midnight black cloak~
+A dark cloak seems to sap the light out of the room.~
+cloth~
+armor 0 AC
+8 8 8 10 0
+45 20 8000 P
+A
+20 -2
+#11405
+spindle~
+an ancient spindle~
+An old spindle is here.~
+brass~
+wand 0 AO
+40 1 1 'heal' 0
+45 10 0 P
+#11406
+teardrop tear drop~
+a glistening teardrop~
+A teardrop cried from Nature's eye glistens here.~
+salt water~
+gem U AO
+0 0 0 0 0
+40 0 15000 P
+F
+A 0 0 c
+#11407
+red sword ares~
+a glowing red sword~
+A firey red sword hovers mysteriously in the air.~
+fire~
+weapon 0 AN
+sword 4 10 slash A
+48 10 9000 P
+A
+1 1
+A
+19 3
+A
+18 3
+#11408
+war helmet~
+a war helmet~
+An old, but well-cared for helmet is here.~
+steel~
+armor 0 AE
+11 11 11 10 0
+45 40 6000 P
+A
+13 25
+#11409
+hourglass chronos~
+a glowing hourglass~
+A glowing hourglass hovers in the air.~
+glass~
+none G AO
+0 0 0 0 0
+45 0 12000 P
+F
+A 0 0 T
+A
+20 -3
+A
+17 -10
+#11410
+shears fate~
+glowing shears~
+A deadly looking pair of cutting shears is glowing here.~
+brass~
+weapon 0 AN
+exotic 4 10 pierce 0
+50 10 9000 P
+A
+18 4
+A
+19 4
+A
+1 -1
+#11411
+glowing thread fate~
+a glowing thread of life~
+A thread spun by Fate gives off an eerie glow.~
+ether~
+weapon H AN
+whip 7 5 whip C
+45 30 9000 P
+A
+19 2
+A
+18 2
+#11412
+skeleton key death~
+a skeleton key~
+A key with a gruesome skull on it is here.~
+Steel~
+key 0 A
+0 0 0 0 0
+0 1 0 P
+#11413
+stream~
+a trickling stream~
+A stream trickles nearby, babbling softly.~
+water~
+fountain 0 A
+0 0 'water' 0 0
+0 10000 0 P
+#0
+
+#ROOMS
+#11400
+Marina's Sanctuary~
+You feel instantly relaxed upon entring this haven.  Soft music filters
+through the room from an unseen source.  A swirling portrait hangs over
+the crackling fireplace depicting a pleasant green forest scene.  You
+look closer and discover its misty hues shift to reflect Marina's current
+mood.  In front of the fireplace a throw rug of burgundy and deep blues
+covers the hardwood floor.  Marina's silver cat Riley rests on the rug
+quietly preening.  She rumbles a greeting and raises her head, blinking.
+You can't help but give her an affectionate pat or two.
+ 
+An intricately carved emerald vase hovers here atop a pillar of gently
+swirling red flame, providing a haven for a flourish of silver roses.
+~
+0 CDK 0
+S
+#11401
+Crossroads of Purgatory~
+You stand at the Crossroads of Purgatory, home to the Incarnations and
+the poor souls who stand in balance.  Dusty paths lead in each direction.
+You can't help but notice the old-fashoined crossroad sign pointing the
+way.
+~
+0 0 2
+D0
+Exit ~
+door~
+0 0 11478
+D1
+Exit ~
+door~
+0 0 11463
+D2
+Exit ~
+door~
+0 0 11402
+D3
+Exit ~
+door~
+0 0 11420
+D4
+Exit ~
+branches~
+0 0 11515
+E
+~
+Generic extended description.
+~
+E
+signs~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+     +                  Welcome to Purgatory!                       +
+     +                                                              +
+     +     Only the strongest of adventurers may be allowd to       +
+     +     visit the Incarnations.  If you feel you are worthy,     +
+     +     follow the road signs at your own risk!                  +
+     +                                                              +
+     +               North ---> Death's Mansion                     +
+     +               East  ---> Time's Sanctuary                    +
+     +               West  ---> War's Fortress                      +
+     +               South ---> Fate's Abode                        +
+     +                                                              +
+     +     Careful where you step, Traveller.  Nature herself       +
+     +     is watching over you!                                    +
+     +                                                              +
+     ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+S
+#11402
+A silken path~
+You are slightly taken aback to feel the ground has turned somewhat
+spongy.  At closer examination, you notice this path is made of
+thousands of strands of silk.  Surely this trail leads to the Fates.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11401
+D2
+Exit ~
+door~
+0 0 11403
+S
+#11403
+A silken path~
+You continue to follow the strange silk path.  You listen closely
+to your surroundings when you hear faint sounds of scuffling.
+You look up to see hundreds of small spiders busying themselves
+with making webs in the trees.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 11402
+D2
+Exit ~
+door~
+0 0 11404
+S
+#11404
+Further down the silken path~
+Beginning to tire of this walk you look around and examine your
+surroundings.  You see a small clearing to the west and consider
+taking time out for a short rest.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 11403
+D2
+Exit ~
+door~
+0 0 11406
+D3
+Exit ~
+bushes~
+0 0 11405
+S
+#11405
+A spider's lair~
+Perhaps this isn't such a great place to rest after all.  Seeing a
+large black spider directly in front of you prompts you to head
+back in the direction you came, to no avail.  The spider seems
+annoyed at being disturbed and attacks!
+~
+0 0 0
+D1
+Exit ~
+door~
+1 0 11404
+S
+#11406
+In front of Fate's Abode~
+You can just see the strange structure where the Fates reside to the
+south.  Not surprisingly, it looks as though it's made of silken
+threads.  A tall iron gate surrounds the residence.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 11404
+D2
+Exit ~
+gate~
+1 0 11407
+S
+#11407
+The front terrace~
+Closing the gate behind you, you walk up to the front door of
+Fate's Abode.  The "lawn" is still spun from silk threads and
+the small garden, amusingly enough, contains colored silk flowers.
+~
+0 0 0
+D0
+Exit ~
+gate~
+1 0 11406
+D2
+Exit ~
+door~
+1 0 11408
+S
+#11408
+The parlor~
+You are in a waiting room of sorts.  The floor appears to be made
+of the same substance as the path and the rest of the building.
+While it is probably soft enough to sit on, there are two couches
+facing each other for the use of waiting guests.
+~
+0 0 0
+D0
+Exit ~
+door~
+1 0 11407
+D1
+Exit ~
+door~
+1 0 11409
+D2
+Exit ~
+door~
+0 0 11411
+D3
+Exit ~
+door~
+1 0 11410
+S
+#11409
+A bedroom~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+1 0 11408
+S
+#11410
+A bedroom~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+1 0 11408
+S
+#11411
+A hallway~
+The small hallway is covered with spider silk.  You bat some
+away from your eyes as you see where it leads.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 11408
+D1
+Exit ~
+door~
+0 0 11412
+D2
+Exit ~
+door~
+0 0 11414
+D3
+Exit ~
+door~
+0 0 11413
+S
+#11412
+A small kitchen~
+Apparently, the Fates prefer to cook for themselves.  The kitchen
+is rather small and tidy.  Obviously this room has been blessed
+with a woman's touch . . . or three.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 11411
+S
+#11413
+A small dining room~
+A charming candle-filled chandelier hangs over a dark rosewood
+dining table.  This room, like most of the others, gives this dwelling
+a cozy, homey feel.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 11411
+S
+#11414
+A hallway~
+The small hallway is covered with spider silk.  You bat some
+away from your eyes as you see where it leads.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 11411
+D1
+Exit ~
+door~
+0 0 11415
+D2
+Exit ~
+door~
+0 0 11417
+D3
+Exit ~
+door~
+0 0 11416
+S
+#11415
+A small office~
+This office doesn't look like it's used very much.  There is a bit
+more spider silk covering the furniture and walls in this room than
+in others.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 11414
+S
+#11416
+A small storage room~
+Shelves filled with bolts of cloth and spindles of string line
+the walls of this small storage room.  The ever-present spider
+silk hangs from the corners.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 11414
+S
+#11417
+The measuring room~
+This is where the threads of life are measured and destinies made.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 11414
+D1
+Exit ~
+door~
+0 0 11418
+D3
+Exit ~
+door~
+0 0 11419
+S
+#11418
+The spinning room~
+This is where the threads of life are spun from chaos into a fine silk.
+~
+0 0 0
+D3
+Exit ~
+door~
+0 0 11417
+S
+#11419
+The cutting room~
+This is where it is decided when your time is up.  Be sure not to anger
+the Fates during your visit.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 11417
+S
+#11420
+A smokey trail through the forest~
+You've stepped onto a path of sorts.  The ground is hard-packed
+and the leaves on the nearby trees are reddish orange.  The air
+feels smokey and is hard to breathe.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11539
+D1
+Exit ~
+door~
+0 0 11401
+D3
+Exit ~
+door~
+0 0 11421
+S
+#11421
+A smokey trail through the forest~
+Wind stirs suddenly, causing dust to kick up around you.  It is difficult
+to see which way the path heads but you finally discern it leads
+to the north.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11422
+D1
+Exit ~
+door~
+0 0 11420
+S
+#11422
+A smokey trail through the forest~
+The path is getting twisty, making it harder to follow.  It almost seems
+as though the leaves are getting a bit darker the farther you go.
+~
+0 0 3
+D2
+Exit ~
+door~
+0 0 11421
+D3
+Exit ~
+door~
+0 0 11423
+S
+#11423
+A smokey trail through the forest~
+The trees' leaves ARE getting darker!  In fact, some of them look as
+though they're smoldering, a few edges blackened.  The path continues
+to the west and to the south.  You flip a coin and pick a direction.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11422
+D2
+Exit ~
+door~
+0 0 11543
+D3
+Exit ~
+door~
+0 0 11424
+S
+#11424
+A smokey trail through the forest~
+The trail turns to the north.  It seems as if this trail will never go
+anywhere!  Is this really the way to War's Fortress?  If the trees are
+any indication of the local inhabitants, it's a good guess you're going
+the right way.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11425
+D1
+Exit ~
+door~
+0 0 11423
+S
+#11425
+A smokey trail through the forest~
+The tree trunks are starting to look blackened as you walk deep
+into the trail!  The path has straightened and you have a clear view
+to the west.  A tall structure looms in the distance.
+~
+0 0 3
+D2
+Exit ~
+door~
+0 0 11424
+D3
+Exit ~
+door~
+0 0 11426
+S
+#11426
+A smokey trail through the forest~
+The air is unbearably hot!  It feels as if open fire is nearby.  To
+the west you can see a fortress more clearly.  Are those flames
+licking the base?
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11425
+D3
+Exit ~
+door~
+0 0 11427
+S
+#11427
+Before the drawbridge~
+The fortress is easily within view now.  In fact, you can clearly see
+the huge, wooden drawbridge.  The trees behind you are almost black
+from the heat that eminates from the west.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11426
+D3
+Exit ~
+door~
+0 0 11428
+S
+#11428
+The drawbridge~
+A huge, wooden drawbridge looms over you.  The unexpected factor is,
+it spans across a moat of fire!  How is it the drawbridge doesn't
+burn?  Ah, the myserious magic of the Incarnations is not to be
+questioned.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11427
+D3
+Exit ~
+drawbridge~
+3 0 11429
+S
+#11429
+The drawbridge~
+Stepping across the drawbridge you are hit by the heat of the moat in
+full force.  Surprisingly it does no more than make you uncomfortable.
+The moat lies to the north and south, the entrance to the fortress
+to the west.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11430
+D1
+Exit ~
+door~
+3 0 11428
+D2
+Exit ~
+door~
+0 0 11443
+D3
+Exit ~
+door~
+0 0 11445
+S
+#11430
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11431
+D2
+Exit ~
+door~
+0 0 11429
+S
+#11431
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D2
+Exit ~
+door~
+0 0 11430
+D3
+Exit ~
+door~
+0 0 11444
+S
+#11432
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11444
+D3
+Exit ~
+door~
+0 0 11433
+S
+#11433
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11432
+D3
+Exit ~
+door~
+0 0 11434
+S
+#11434
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11433
+D2
+Exit ~
+door~
+0 0 11435
+S
+#11435
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11434
+D2
+Exit ~
+door~
+0 0 11436
+S
+#11436
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11435
+D2
+Exit ~
+door~
+0 0 11437
+S
+#11437
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11436
+D2
+Exit ~
+door~
+0 0 11438
+S
+#11438
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11437
+D1
+Exit ~
+door~
+0 0 11439
+S
+#11439
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11440
+D3
+Exit ~
+door~
+0 0 11438
+S
+#11440
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11441
+D3
+Exit ~
+door~
+0 0 11439
+S
+#11441
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11442
+D3
+Exit ~
+door~
+0 0 11440
+S
+#11442
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11443
+D3
+Exit ~
+door~
+0 0 11441
+S
+#11443
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11429
+D2
+Exit ~
+door~
+0 0 11442
+S
+#11444
+A fiery moat~
+Oddly, you can swim through this moat the way one would through water.
+The flames leap at you dangerously, but do not harm you more than to
+make you uncomfortable.  It is as effective as a water moat, if not
+a bit more dramatic.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11431
+D3
+Exit ~
+door~
+0 0 11432
+S
+#11445
+The grand entrance ~
+This entrance is grand indeed!  Intricate tapestries depicting battle
+scenes cover the walls.  The ceiling towers high over you, giving the
+impression of a cathedral.  War certainly does live in style!
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11446
+D1
+Exit ~
+door~
+0 0 11429
+D2
+Exit ~
+door~
+0 0 11447
+D3
+Exit ~
+door~
+0 0 11448
+S
+#11446
+A practice room~
+This room is used by battle-goers to hone their skills as well as
+their swords.
+~
+0 0 3
+D2
+Exit ~
+door~
+0 0 11445
+D3
+Exit ~
+door~
+0 0 11449
+S
+#11447
+A practice room~
+This room is used by battle-goers to hone their skills as well as
+their swords.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11445
+D3
+Exit ~
+door~
+0 0 11450
+S
+#11448
+A smoke-filled hallway~
+You have trouble seeing through this hall to see where it leads.  The
+air is uncomfortably hot in the belly of this fortress!  You feel around
+and discover store rooms to the north and south, some kind of landing
+to the west.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11449
+D1
+Exit ~
+door~
+0 0 11445
+D2
+Exit ~
+door~
+0 0 11450
+D3
+Exit ~
+door~
+0 0 11451
+S
+#11449
+A smokey storeroom~
+Swords, axes, maces and lots of plate armor are stored in this well-stocked
+storeroom.  Everything looks as though it's been sitting here for some time,
+yet no dust touches any surface.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11446
+D2
+Exit ~
+door~
+0 0 11448
+D3
+Exit ~
+door~
+0 0 11452
+S
+#11450
+A smokey storeroom~
+Swords, axes, maces and lots of plate armor are stored in this well-stocked
+storeroom.  Everything looks as though it's been sitting here for some time,
+yet no dust touches any surface.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11448
+D1
+Exit ~
+door~
+0 0 11447
+D3
+Exit ~
+door~
+0 0 11453
+S
+#11451
+A landing~
+A spiral stairway leads up into the second floor and tower of the 
+fortress.  
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11452
+D1
+Exit ~
+door~
+0 0 11448
+D2
+Exit ~
+door~
+0 0 11453
+D4
+Exit ~
+door~
+0 0 11454
+S
+#11452
+A trophy room~
+Swords, armor, flags and various other trophies of triumph line
+the walls.  In the corner, a full suit of armor stands holding
+a long axe.  Even though it's empty, it seems so full of life.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11449
+D2
+Exit ~
+door~
+0 0 11451
+S
+#11453
+A study~
+A room used for relaxation and comfort between rooms, the study is
+surprisingly cozy.  Samaurai swords of ancient design decorate
+the walls, but are the only decoration pertaining to war.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11451
+D1
+Exit ~
+door~
+0 0 11450
+S
+#11454
+A spiral stairway~
+The dark stairway spirals upward.
+~
+0 0 3
+D4
+Exit ~
+door~
+0 0 11455
+D5
+Exit ~
+door~
+0 0 11451
+S
+#11455
+The battlements~
+From here, defenders of the fortress have a vantage point on any
+would-be sackers below.  Great cauldrons used for boiling oil
+line the walls in beween archer's slots.  Patrols line the
+wall, pacing tirelesly.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11456
+D2
+Exit ~
+door~
+0 0 11457
+D3
+Exit ~
+door~
+0 0 11458
+D4
+Exit ~
+door~
+0 0 11461
+D5
+Exit ~
+door~
+0 0 11454
+S
+#11456
+The battlements~
+From here, defenders of the fortress have a vantage point on any
+would-be sackers below.  Great cauldrons used for boiling oil
+line the walls in beween archer's slots.  Patrols line the
+wall, pacing tirelesly.
+~
+0 0 3
+D2
+Exit ~
+door~
+0 0 11455
+D3
+Exit ~
+door~
+0 0 11459
+S
+#11457
+The battlements~
+From here, defenders of the fortress have a vantage point on any
+would-be sackers below.  Great cauldrons used for boiling oil
+line the walls in beween archer's slots.  Patrols line the
+wall, pacing tirelesly.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11455
+D3
+Exit ~
+door~
+0 0 11460
+S
+#11458
+The battlements~
+From here, defenders of the fortress have a vantage point on any
+would-be sackers below.  Great cauldrons used for boiling oil
+line the walls in beween archer's slots.  Patrols line the
+wall, pacing tirelesly.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11459
+D1
+Exit ~
+door~
+0 0 11455
+D2
+Exit ~
+door~
+0 0 11460
+S
+#11459
+The battlements~
+From here, defenders of the fortress have a vantage point on any
+would-be sackers below.  Great cauldrons used for boiling oil
+line the walls in beween archer's slots.  Patrols line the
+wall, pacing tirelesly.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11456
+D2
+Exit ~
+door~
+0 0 11458
+S
+#11460
+The battlements~
+From here, defenders of the fortress have a vantage point on any
+would-be sackers below.  Great cauldrons used for boiling oil
+line the walls in beween archer's slots.  Patrols line the
+wall, pacing tirelesly.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11458
+D1
+Exit ~
+door~
+0 0 11457
+S
+#11461
+A spiral stairway~
+The dark stariway spirals upward.
+~
+0 0 3
+D4
+Exit ~
+door~
+0 0 11462
+D5
+Exit ~
+door~
+0 0 11455
+S
+#11462
+The war room~
+From here, War does all his planning for the wars of the realm.
+A large table covered with documents and maps fills most of the room.
+Small windows are cut out of the stone, letting Mars see out across
+the land.
+~
+0 0 0
+D5
+Exit ~
+door~
+0 0 11461
+S
+#11463
+A footpath through the plains~
+Leaving the Crossroads behind, you wander into some plains.  They 
+appear to be baren at a first glance, but upon further inspection
+one can see small sparks of life in the meadow flowers and small
+animals.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11464
+D3
+Exit ~
+door~
+0 0 11401
+S
+#11464
+A footpath through the plains~
+An unnatural path is cut through the plains.  It is difficult to
+discern where it leads through the grasses and weeds.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11559
+D2
+Exit ~
+door~
+0 0 11465
+D3
+Exit ~
+door~
+0 0 11463
+S
+#11465
+A footpath through the plains~
+The path branches out in all directions here.  There is no telling
+which direction will lead you to where you need to go.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11464
+D1
+Exit ~
+door~
+0 0 11466
+D2
+Exit ~
+door~
+0 0 11565
+D3
+Exit ~
+door~
+0 0 11563
+S
+#11466
+A footpath through the plains~
+The path straightens for a short while, continuing on to the east.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11467
+D3
+Exit ~
+door~
+0 0 11465
+S
+#11467
+A footpath through the plains~
+This appears to be another crossroads of sorts.  Exits lead in
+all directions.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11468
+D1
+Exit ~
+door~
+0 0 11568
+D2
+Exit ~
+door~
+0 0 11567
+D3
+Exit ~
+door~
+0 0 11466
+S
+#11468
+A footpath through the plains~
+The grass is a little shorter here and it is possible to see a building
+to the east.  The path continues on to the north and to the west.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11570
+D1
+Exit ~
+door~
+0 0 11469
+D2
+Exit ~
+door~
+0 0 11467
+D3
+Exit ~
+door~
+0 0 11569
+S
+#11469
+A small walkway to the gates~
+The short grass is replaced by a cobblestone walkway leading to tall,
+wrought iron gates.  A pleasant looking garden rests on the other side
+of the gates.  Also visible are two forms on either side of the gate.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11470
+D3
+Exit ~
+door~
+0 0 11468
+S
+#11470
+The gates of Time~
+Here lies the crossover into time with Chronos.  You can see from
+here his home and sanctuary are relatively small but comfortable.
+Through the gates you see a lovely garden with a small walk going
+through the middle of it to the front door.
+ .
+PUT GRIFFONS HERE!
+~
+0 0 1
+D1
+Exit ~
+gates~
+1 0 11471
+D3
+Exit ~
+door~
+0 0 11469
+S
+#11471
+A walkway through a garden~
+You stand in front of the Sanctuary of Time.  Beware, once you enter
+Chronos' domain you will be moving backwards in time with him.
+Be careful you don't run into yourself on the way out.
+~
+0 0 1
+D1
+Exit ~
+door~
+1 0 11472
+D3
+Exit ~
+gates~
+1 0 11470
+S
+#11472
+The sitting room~
+This small room is cozy and warm.  No one is around to be seen and it is 
+tempting just to take a load off and rest on one of the comfy looking
+leather sofas.  Alas, there is more adventuring to be had!
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11473
+D1
+Exit ~
+door~
+0 0 11475
+D2
+Exit ~
+door~
+0 0 11474
+D3
+Exit ~
+door~
+1 0 11471
+S
+#11473
+A hallway~
+The hallway is done in a rich oak color and is sparsely decorated
+with pictures and tapestries.  It leads to a small washroom.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11476
+D2
+Exit ~
+door~
+0 0 11472
+S
+#11474
+A hallway~
+The hallway is done in a rich colored oak and is sparsely decorated
+with pictures and tapestries.  It leads to a small storage closet.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11472
+D2
+Exit ~
+door~
+0 0 11477
+S
+#11475
+A hallway~
+The hallway is done in a rich oak color and is sparsely decorated
+with pictures and tapestries.  It leads in all directions to
+various rooms and workshops.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11545
+D1
+Exit ~
+door~
+0 0 11549
+D2
+Exit ~
+door~
+0 0 11551
+D3
+Exit ~
+door~
+0 0 11472
+S
+#11476
+A small washroom~
+The small washroom houses a porcelain wash basin with attached mirror.  
+A small cabinet holds towels to dry with and dusting powders
+to freshen up with.
+.
+ADD CABINET W/ TOWELS AND POWDER
+~
+0 0 1
+D2
+Exit ~
+door~
+0 0 11473
+S
+#11477
+A small closet~
+Generic room description.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11474
+S
+#11478
+A gloomy path~
+The once sunny sky is now darkened by a towering forest.
+The air has a definite chill and dampness to it.  Perhaps this isn't
+the way you want to go.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11479
+D2
+Exit ~
+door~
+0 0 11401
+S
+#11479
+A gloomy path~
+Sounds of the forest cut through the dismal gloom.  You wonder
+if something doesn't want to eat you.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11480
+D2
+Exit ~
+door~
+0 0 11478
+S
+#11480
+A fork in the path~
+You come to a fork in the path.  The path to the east looks overgrown
+and thorny.  The path to the west is clear, but the forest doesn't
+exactly look inviting.  Dense underbrush surrounds you on all sides.
+~
+0 0 3
+D0
+Exit ~
+secret~
+0 0 11490
+D1
+Exit ~
+door~
+0 0 11481
+D2
+Exit ~
+door~
+0 0 11479
+D3
+Exit ~
+door~
+0 0 11485
+S
+#11481
+A dark, overgrown path~
+You start into the thick growth of the unused path.  Thorns tear
+at your clothing but you continue on doggedly.  There's just GOT
+to be something back here!
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11482
+D3
+Exit ~
+door~
+0 0 11480
+S
+#11482
+A dark, overgrown path~
+The path doesn't get any clearer.  Obviously no one's been back here
+for years.  Perhaps it's not worth the effort to get through it.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11483
+D3
+Exit ~
+door~
+0 0 11481
+S
+#11483
+A dark, overgrown path~
+The light fails as the path leads farther into the dense forest.
+You spot a clearing to the east but there is no way to know
+from here what is in it.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11484
+D2
+Exit ~
+door~
+0 0 11482
+S
+#11484
+A dark, shaddowy grove~
+This is apparently the end of the path.  A dark, damp glade surrounds
+you, giving no indication of any other exit.
+~
+0 0 3
+D3
+Exit ~
+door~
+0 0 11483
+S
+#11485
+Trail through a dark forest~
+This trail is definitely clearer than the eastern one.  The path is
+clearer and easier to navigate, but the tall trees still block out
+all light.
+~
+0 0 3
+D0
+Exit ~
+bushes~
+1 0 11489
+D1
+Exit ~
+door~
+0 0 11480
+D3
+Exit ~
+door~
+0 0 11486
+S
+#11486
+Trail through a dark forest~
+Dark shapes move between the trees.  This is the perfect spot for
+any number of creatures to attack unwary travellers.  Even with the
+clear path, the way through the forest is not easy.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11485
+D2
+Exit ~
+door~
+0 0 11487
+S
+#11487
+Trail through a dark forest~
+The path takes a turn.  Dead leaves cover the ground, making the path
+a bit harder to see.  Noises come from the west.  Of what nature,
+is not discernable.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11486
+D3
+Exit ~
+door~
+0 0 11488
+S
+#11488
+End of the trail~
+The trail just stops!  The forest remains clear, though visibility
+has dropped significantly.  
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11487
+S
+#11489
+A break in the underbrush~
+Finally clear of the thorns and undergrowth, it is possible to see
+imposing gates to the north.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11491
+D2
+Exit ~
+door~
+0 0 11492
+S
+#11490
+A hidden path through the dark underbrush~
+Surprisingly enough, there is a way through the dense undergrowth.
+It appears the only further way to travel is to the north.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11492
+D2
+Exit ~
+door~
+0 0 11480
+S
+#11491
+The mansion gates~
+Before you are the gates of the Death Mansion.  Dark black iron bars
+tower up, topped with imposing spikes.  Beyond the gates you see a
+courtyard of sorts.
+~
+0 0 1
+D0
+Exit ~
+gates~
+3 11412 11494
+D2
+Exit ~
+door~
+0 0 11489
+S
+#11492
+A hidden path through the dark underbrush~
+The way through the underbrush is not easy.  Apparently, the sun has
+as much trouble finding this path as travellers do.  Darkness closes
+in, making it difficult to see what direction to travel.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11489
+D2
+Exit ~
+door~
+0 0 11490
+S
+#11493
+Generic room name~
+Generic room description.
+~
+0 0 1
+D2
+Exit ~
+door~
+0 0 11489
+S
+#11494
+The courtyard~
+A gravel path leads through the courtyard to the front door.  Black
+marble benches line the courtyard between thorny bushes.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11495
+D2
+Exit ~
+gates~
+3 11412 11491
+S
+#11495
+The anteroom~
+The first thing you notice about the Death Mansion is its peculiar odor.
+The place reeks of myrrh, the traditional scent of Death.  
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11496
+D2
+Exit ~
+door~
+0 0 11494
+D4
+Exit ~
+door~
+0 0 11507
+S
+#11496
+A dark hallway~
+You can't see much of anything.  The imposing darkness of the hallway
+closes in on you.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11497
+D2
+Exit ~
+door~
+0 0 11495
+S
+#11497
+A dark hallway~
+You can't see much of anything.  The imposing darkness of the hallway
+closes in on you.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11501
+D1
+Exit ~
+door~
+0 0 11498
+D2
+Exit ~
+door~
+0 0 11496
+D3
+Exit ~
+door~
+0 0 11499
+S
+#11498
+A gloomy storeroom~
+Dark shapes cling to the ceiling of the storeroom.  Suspecting they
+might be bats, you quickly go back out to the hallway.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11502
+D3
+Exit ~
+door~
+0 0 11497
+S
+#11499
+A dark sitting room~
+While not the coziest of rooms, the sitting room is furnished with
+comfortable-looking black leather chairs.  A fireplace sits in one wall,
+flickering dully.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11500
+D1
+Exit ~
+door~
+0 0 11497
+S
+#11500
+The library~
+Black leather-bound books line the ceiling high shelves.  Glancing
+at some of the books, you notice none of them focus on cheery subjects.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11505
+D1
+Exit ~
+door~
+0 0 11501
+D2
+Exit ~
+door~
+0 0 11499
+S
+#11501
+The dining room~
+This is by far the most dramatic room you've ever been in.  A long
+dining table stretches across the room, covered in a black cloth.
+Shining candelabras reflect light from chandeliers hanging from the
+high ceiling.  The table has two place settings.  Perhaps Death is
+expecting you?
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11504
+D1
+Exit ~
+door~
+0 0 11502
+D2
+Exit ~
+door~
+0 0 11497
+D3
+Exit ~
+door~
+0 0 11500
+S
+#11502
+A dark conservatory~
+This doesn't look like a normal conservatory.  Blackened plants
+sit in pots all over the room.  No light comes in the windows and the
+wall sconces don't provide much light either, giving the room a gloomy
+atmosphere.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11503
+D2
+Exit ~
+door~
+0 0 11498
+D3
+Exit ~
+door~
+0 0 11501
+S
+#11503
+A dark pantry~
+Shelves lined with foods of various types stretch across the walls
+of a small pantry.  It probably wouldn't be conducive to good health
+to partake in anything in this room!
+~
+0 0 1
+D2
+Exit ~
+door~
+0 0 11502
+D3
+Exit ~
+door~
+0 0 11504
+S
+#11504
+The kitchen~
+Black marble countertops are covered with various implements of cooking.
+At least, you hope that's what they're for!
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11503
+D2
+Exit ~
+door~
+0 0 11501
+D3
+Exit ~
+door~
+0 0 11505
+S
+#11505
+A small, dark office~
+A small desk sits in one corner, a chair facing it.  A plush rug covers the
+floor, but does not keep out the chill of the room.  It's difficult
+to imagine anyone could work in such a room.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11504
+D2
+Exit ~
+door~
+0 0 11500
+S
+#11506
+Generic room name~
+Generic room description.
+~
+0 C 1
+S
+#11507
+A dark stairway~
+The stairway is pitch black.  You have to feel your way up to the top,
+and hope nothing is on the walls.
+~
+0 0 1
+D4
+Exit ~
+door~
+0 0 11508
+D5
+Exit ~
+door~
+0 0 11495
+S
+#11508
+Landing to the second floor~
+Small alcoves lie to the east and west and a dark hallway to the north.
+Beyond that, there is nothing to see here.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11511
+D1
+Exit ~
+door~
+0 0 11509
+D3
+Exit ~
+door~
+0 0 11513
+D5
+Exit ~
+door~
+0 0 11507
+S
+#11509
+A dark alcove~
+The light doesn't quite reach this little corner.  Neither does anything
+else, apparently.  Spider webs stretch across the corners, showing
+just how often this area is visited.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11510
+D3
+Exit ~
+door~
+0 0 11508
+S
+#11510
+A guest room~
+It is beyond you why there would be any need for a guest room here.
+The room is simple, a bed sits against one wall and black curtains
+cover the small window.
+~
+0 0 1
+D2
+Exit ~
+door~
+0 0 11509
+D3
+Exit ~
+door~
+0 0 11511
+S
+#11511
+A dark hallway~
+You can't see much of anything.  The imposing darkness of the hallway
+closes in on you.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11514
+D1
+Exit ~
+door~
+0 0 11510
+D2
+Exit ~
+door~
+0 0 11508
+D3
+Exit ~
+door~
+0 0 11512
+S
+#11512
+A guest room~
+It is beyond you why there would be any need for a guest room here.
+The room is simple, a bed sits against one wall and black curtains
+cover the small window.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11511
+D2
+Exit ~
+door~
+0 0 11513
+S
+#11513
+A dark alcove~
+The light doesn't quite reach this little corner.  Neither does anything
+else, apparently.  Spider webs stretch across the corners, showing
+just how often this area is visited.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11512
+D1
+Exit ~
+door~
+0 0 11508
+S
+#11514
+A shadowy office~
+This isn't the work place of death, that being out among the dying, but
+it is where he spends a great deal of his off time.
+~
+0 0 1
+D2
+Exit ~
+door~
+0 0 11511
+S
+#11515
+The lower branches~
+You are climbing the largest oak tree you have ever seen in your life.
+The branches reach so far into the sky, you can't see the top of
+it from here.  You steadily climb higher to admire the view.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11527
+D3
+Exit ~
+door~
+0 0 11530
+D4
+Exit ~
+door~
+0 0 11516
+D5
+Exit ~
+door~
+0 0 11401
+S
+#11516
+The middle branches~
+You climb higher into the branches of the giant tree.  There is
+still quite a distance from here to the top.  You're not high enough
+yet to worry about any possible falls.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11533
+D3
+Exit ~
+door~
+0 0 11535
+D4
+Exit ~
+door~
+0 0 11517
+D5
+Exit ~
+door~
+0 0 11515
+S
+#11517
+The highest branches~
+You are close to the top of the tree.  These appear to be the highest
+branches you can climb on.  Looking around from this height you can 
+see for miles around.  Nature certainly has an excellent view!
+She must be able to see even more from her treehouse above you.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11537
+D3
+Exit ~
+door~
+0 0 11538
+D4
+Exit ~
+Trap door~
+1 0 11518
+D5
+Exit ~
+door~
+0 0 11516
+S
+#11518
+Nature's Treehouse~
+This is where Nature spends most of her time.  From here she can keep
+her eye on the Realm and dispatch rain and sun at her leisure.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11525
+D1
+Exit ~
+door~
+0 0 11519
+D3
+Exit ~
+door~
+0 0 11526
+D5
+Exit ~
+door~
+1 0 11517
+S
+#11519
+A balcony~
+The vantage from this high up is amazing.  You can see for miles!
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11520
+D3
+Exit ~
+door~
+0 0 11518
+S
+#11520
+A balcony~
+The vantage from this high up is amazing.  You can see for miles!
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11521
+D2
+Exit ~
+door~
+0 0 11519
+D3
+Exit ~
+door~
+0 0 11525
+S
+#11521
+A balcony~
+The vantage from this high up is amazing.  You can see for miles!
+~
+0 0 1
+D2
+Exit ~
+door~
+0 0 11520
+D3
+Exit ~
+door~
+0 0 11522
+S
+#11522
+A balcony~
+The vantage from this high up is amazing.  You can see for miles!
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11521
+D2
+Exit ~
+door~
+0 0 11525
+D3
+Exit ~
+door~
+0 0 11523
+S
+#11523
+A balcony~
+The vantage from this high up is amazing.  You can see for miles!
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11522
+D2
+Exit ~
+door~
+0 0 11524
+S
+#11524
+A balcony~
+The vantage from this high up is amazing.  You can see for miles!
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11523
+D1
+Exit ~
+door~
+0 0 11525
+D2
+Exit ~
+door~
+0 0 11526
+S
+#11525
+A large greenhouse~
+This large room houses rows upon rows of plants and greenery.  This
+is where Nature does most of her growing.  There are so many plants
+and not much walking space, so only one person at a time can pass through!
+exit
+~
+0 L 1
+D0
+Exit ~
+door~
+0 0 11522
+D1
+Exit ~
+door~
+0 0 11520
+D2
+Exit ~
+door~
+0 0 11518
+D3
+Exit ~
+door~
+0 0 11524
+D4
+Exit ~
+door~
+0 0 11573
+S
+#11526
+A balcony~
+The vantage from this high up is amazing.  You can see for miles!
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11524
+D1
+Exit ~
+door~
+0 0 11518
+S
+#11527
+The lower branches~
+These low branches are think and sturdy.  You peer up to look
+through the branches above you, but find they are too thick to
+see very far.  You'll just have to climb higher to explore more.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11528
+D3
+Exit ~
+door~
+0 0 11515
+S
+#11528
+The lower branches~
+These low branches are think and sturdy.  You peer up to look
+through the branches above you, but find they are too thick to
+see very far.  You'll just have to climb higher to explore more.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11529
+D3
+Exit ~
+door~
+0 0 11527
+S
+#11529
+The lower branches~
+These low branches are think and sturdy.  You peer up to look
+through the branches above you, but find they are too thick to
+see very far.  You'll just have to climb higher to explore more.
+~
+0 0 1
+D3
+Exit ~
+door~
+0 0 11528
+S
+#11530
+The lower branches~
+These low branches are think and sturdy.  You peer up to look
+through the branches above you, but find they are too thick to
+see very far.  You'll just have to climb higher to explore more.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11515
+D3
+Exit ~
+door~
+0 0 11531
+S
+#11531
+The lower branches~
+These low branches are think and sturdy.  You peer up to look
+through the branches above you, but find they are too thick to
+see very far.  You'll just have to climb higher to explore more.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11530
+D3
+Exit ~
+door~
+0 0 11532
+S
+#11532
+The lower branches~
+These low branches are think and sturdy.  You peer up to look
+through the branches above you, but find they are too thick to
+see very far.  You'll just have to climb higher to explore more.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11531
+S
+#11533
+The middle branches~
+You climb higher into the branches of the giant tree.  There is
+still quite a distance from here to the top.  You're not high enough
+yet to worry about any possible falls.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11534
+D3
+Exit ~
+door~
+0 0 11516
+S
+#11534
+The middle branches~
+You climb higher into the branches of the giant tree.  There is
+still quite a distance from here to the top.  You're not high enough
+yet to worry about any possible falls.
+~
+0 0 1
+D3
+Exit ~
+door~
+0 0 11533
+S
+#11535
+The middle branches~
+You climb higher into the branches of the giant tree.  There is
+still quite a distance from here to the top.  You're not high enough
+yet to worry about any possible falls.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11516
+D3
+Exit ~
+door~
+0 0 11536
+S
+#11536
+The middle branches~
+You climb higher into the branches of the giant tree.  There is
+still quite a distance from here to the top.  You're not high enough
+yet to worry about any possible falls.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11535
+S
+#11537
+The highest branches~
+You are close to the top of the tree.  These appear to be the highest
+branches you can climb on.  Looking around from this height you can 
+see for miles around.  Nature certainly has an excellent view!
+~
+0 0 1
+D3
+Exit ~
+door~
+0 0 11517
+S
+#11538
+The highest branches~
+You are close to the top of the tree.  These appear to be the highest
+branches you can climb on.  Looking around from this height you can 
+see for miles around.  Nature certainly has an excellent view!
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11517
+S
+#11539
+A smokey trail through the forest~
+The trail winds through the reddish forest.  You kick up clouds
+of dust from the hard trail, making it even harder to breathe.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11540
+D2
+Exit ~
+door~
+0 0 11420
+S
+#11540
+A smokey trail through the forest~
+The trail winds through the reddish forest.  You kick up clouds
+of dust from the hard trail, making it even harder to breathe.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11542
+D2
+Exit ~
+door~
+0 0 11539
+D3
+Exit ~
+door~
+0 0 11541
+S
+#11541
+A smokey trail through the forest~
+The trail ends here, leaving you to turn back the way you came.
+You peer east back into the hazy air and trudge back down the trail.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11540
+S
+#11542
+A hazy clearing~
+A small clearing gives opportunity to rest.  The trees are cleared
+out in a circle, leaving barren ground.  There is very little undergrowth
+but you feel certain little beasties still reside among the trees.
+~
+0 0 3
+D3
+Exit ~
+door~
+0 0 11540
+S
+#11543
+A smokey trail through the forest~
+The path is a bit narrower here and leads only to the west.  The air
+is warm almost to the point of being uncomfortable.  A breeze stirs
+but it does not help any.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11423
+D3
+Exit ~
+door~
+0 0 11544
+S
+#11544
+A dead end~
+The trail ends abrubtly.  There is nothing to indicate why the path
+doesn't finish its course.  You'll have to leave the way you arrived.
+~
+0 0 3
+D1
+Exit ~
+door~
+0 0 11543
+S
+#11545
+A hallway~
+The hallway is done in a rich oak color and is sparsely decorated
+with pictures and tapestries.  It leads to a clock room where
+time pieces are built with care.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11546
+D2
+Exit ~
+door~
+0 0 11475
+S
+#11546
+A clock room~
+Clocks cover every inch of the walls.  They come in various shapes and sizes
+and produce multiple sounds and alarms.  
+.
+ELDERLY CLOCKWORKER PEERS OVER HIS GLASSES AT YOU.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11547
+D2
+Exit ~
+door~
+0 0 11545
+S
+#11547
+A library~
+The world's histories are all housed within the numerous books lining
+ceiling-high shelves.  A rolling ladder provides access to higher shelves.
+~
+0 0 1
+D2
+Exit ~
+door~
+0 0 11548
+D3
+Exit ~
+door~
+0 0 11546
+S
+#11548
+A hallway~
+The hallway is done in a rich oak color and is sparsely decorated 
+with pictures and tapestries.  It leads to a library.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11547
+D2
+Exit ~
+door~
+0 0 11549
+S
+#11549
+A hallway~
+The hallway is done in a rich oak color and is sparsely decorated
+with pictures and tapestries.  It leads in all directions
+to various rooms and workshops.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11548
+D1
+Exit ~
+door~
+1 0 11554
+D2
+Exit ~
+door~
+0 0 11550
+D3
+Exit ~
+door~
+0 0 11475
+S
+#11550
+A hallway~
+The hallway is done in a rich oak color and is sparsely decorated
+with pictures and tapestries.  It leads to a small study.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11549
+D2
+Exit ~
+door~
+0 0 11553
+S
+#11551
+A hallway~
+The hallway is done in a rich oak color and is sparsely decorated
+with pictures and tapestries.  It leads to a tapestry room where
+the lovely weavings are made with care.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11475
+D2
+Exit ~
+door~
+0 0 11552
+S
+#11552
+A tapestry room~
+A giant loom takes up most of the area of this room.  This is where
+the magical story-telling tapestries are woven.  Each one tells
+a story from long ago with moving pictures.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11551
+D1
+Exit ~
+door~
+0 0 11553
+S
+#11553
+A study~
+This room has a cozy glow about it.  A simple, but well-built
+desk sits in one corner.  A fireplace warms the room from one wall,
+and the floor is kept warm by a plush rug.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11550
+D3
+Exit ~
+door~
+0 0 11552
+S
+#11554
+A hallway~
+This hall is done in a rich oak color and is sparsely decorated
+with pictures and tapestries.  It leads to dusty storerooms and
+to Time's favorite work spot.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11555
+D1
+Exit ~
+door~
+0 0 11557
+D2
+Exit ~
+door~
+0 0 11556
+D3
+Exit ~
+door~
+1 0 11549
+D5
+Exit ~
+door~
+0 0 11558
+S
+#11555
+A dusty storeroom~
+This dusty storeroom houses more dust moths than items.  Here and there
+piles of linen and pieces of clock works lie on shelves.
+~
+0 0 1
+D2
+Exit ~
+door~
+0 0 11554
+S
+#11556
+A dusty storeroom~
+This dusty storeroom houses more dust moths than items.  Here and there
+piles of linen and pieces of clock works lie on shelves.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11554
+S
+#11557
+A dusty storeroom~
+This dusty storeroom houses more dust moths than items.  Here and there
+piles of linen and pieces of clock works lie on shelves.
+~
+0 0 1
+D3
+Exit ~
+door~
+0 0 11554
+S
+#11558
+Chronos' observatory~
+It is here that Chronos keeps his eye on the happenings of the
+realm.  Using his favored magic tapestries and famed hourglass
+he has all the tools he needs to keep things ticking.
+~
+0 0 1
+D4
+Exit ~
+door~
+0 0 11554
+S
+#11559
+A footpath through the plains~
+Small flowers dot the grass for miles.  The tiny path cuts through
+the plants, heading north.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11560
+D2
+Exit ~
+door~
+0 0 11464
+S
+#11560
+A footpath through the plains~
+The path turns to the west.  You see something in the distance and
+head off to explore.
+~
+0 0 1
+D2
+Exit ~
+door~
+0 0 11559
+D3
+Exit ~
+door~
+0 0 11561
+S
+#11561
+A footpath through the plains~
+The path continues to the west.  There appears to be an opening to the 
+west, and the air feels a bit more moist.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11560
+D3
+Exit ~
+door~
+0 0 11562
+S
+#11562
+A pleasant resting spot~
+The path appears to have ended, but this seems to be a nice enough
+spot to sit and rest.  The moisture you felt in the air must be
+a result of the small stream trickling by the end of the path.
+This spot must attract a lot of the local wildlife.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11561
+S
+#11563
+A footpath through the plains~
+The path continues on, twisting and turning over itself.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11465
+D2
+Exit ~
+door~
+0 0 11564
+S
+#11564
+A footpath through the plains~
+The path continues on, twisting and turning over itself.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11563
+D1
+Exit ~
+door~
+0 0 11565
+S
+#11565
+A footpath through the plains~
+The path continues on, twisting and turning over itself.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11465
+D1
+Exit ~
+door~
+0 0 11566
+D3
+Exit ~
+door~
+0 0 11564
+S
+#11566
+A footpath through the plains~
+The path stops here.  The only direction out is the one from which
+you arrived.
+~
+0 0 1
+D3
+Exit ~
+door~
+0 0 11565
+S
+#11567
+A footpath through the plains~
+This appears to be a dead end in the path.  Nothing can be seen for miles
+except the path leading north that you just came from.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11467
+S
+#11568
+A footpath through the plains~
+The path ends here.  The only exit is to the west.
+~
+0 0 1
+D3
+Exit ~
+door~
+0 0 11467
+S
+#11569
+A small clearing~
+A small section of grass has been cleared away for some inexplicable purpose.
+It would make a good campsite or resting spot, but be wary of creatures
+lurking in the grass around you.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11468
+S
+#11570
+A footpath through the plains~
+The path continues on through the short grass.
+~
+0 0 1
+D0
+Exit ~
+door~
+0 0 11572
+D2
+Exit ~
+door~
+0 0 11468
+D3
+Exit ~
+door~
+0 0 11571
+S
+#11571
+Generic room name~
+Generic room description.
+~
+0 0 1
+D1
+Exit ~
+door~
+0 0 11570
+S
+#11572
+The end of the path~
+The path ends abruptly.  The grass is tall around the path's end and you
+hear rustling near by.  You think twice about hanging around and head back
+down the path looking for something more usefull and less dangerous!
+~
+0 0 1
+D2
+Exit ~
+door~
+0 0 11570
+S
+#11573
+Nature's lookout~
+This is Nature's office, so to speak.  From atop her treehouse
+she can see and do all she needs to accomplish her job.  You wonder
+if you should even be in here.  You wouldn't want to upset the Green 
+Mother.
+~
+0 0 1
+D5
+Exit ~
+door~
+0 0 11525
+S
+#0
+
+#RESETS
+M 0 11402   1 11417  1	* Lachesis
+E 1 11411  -1   16	*   a glowing thread of life
+M 0 11403   1 11418  1	* Clotho
+E 1 11405  -1   17	*   an ancient spindle
+M 0 11404   1 11419  1	* Atropos
+E 1 11410  -1   16	*   glowing shears
+M 0 11401   1 11462  1	* Mars
+E 1 11408  -1    6	*   a war helmet
+E 1 11407  -1   16	*   a glowing red sword
+O 0 11402 100 11400	* burgundy velvet sofa
+O 0 11401 100 11400	* a four-poster bed
+O 0 11400 100 11400	* a beautiful marble fountain
+O 0 11413 100 11562	* a trickling stream
+D 0 11404   3    1	* Further down the silken path west
+D 0 11406   2    1	* In front of Fate's Abode south
+D 0 11407   0    1	* The front terrace north
+D 0 11407   2    1	* The front terrace south
+D 0 11408   0    1	* The parlor north
+D 0 11408   1    1	* The parlor east
+D 0 11408   3    1	* The parlor west
+D 0 11409   3    1	* A bedroom west
+D 0 11410   1    1	* A bedroom east
+D 0 11428   3    1	* The drawbridge west
+D 0 11480   0    1	* A fork in the path north
+D 0 11485   0    1	* Trail through a dark forest north
+D 0 11511   0    1	* A dark hallway north
+D 0 11517   4    1	* The highest branches up
+D 0 11518   5    1	* Nature's Treehouse down
+M 0 11400   1 11514  1	* Thanatos
+E 1 11404  -1    3	*   a midnight black cloak
+E 1 11403  -1   16	*   a deadly scythe
+D 0 11514   2    1	* A shadowy office south
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 11400 spec_cast_mage      	* Thanatos
+M 11402 spec_cast_cleric    	* Lachesis
+M 11403 spec_monk           	* Clotho
+M 11404 spec_cast_cleric    	* Atropos
+S
+
+#$

@@ -2,19 +2,20 @@
 Name Oreo~
 Id   979144716
 Email (null)~
-LogO 1090029161
-Vers 31
+LogO 1355456098
+Vers 33
 Prom <%hhp %mmp %vmv %X %w/%W> ~
 Race dragon~
 Clan posse~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 68
+SkPTimer 62
 SkPTracker 35
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy Short~
 LstAtkedBy no one~
@@ -22,10 +23,14 @@ LstAtkedByTimer 0
 LstCombatDate 1090029158
 LstKillDate 1090029158
 LstDeathDate 1090029158
-LoginsWOKill 0
-LoginsWODeath 0
-LoginsWOCombat 0
+LoginsWOKill 3
+LoginsWODeath 3
+LoginsWOCombat 3
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 189315 almighty~
 Sac  146
 Sex  1
@@ -34,48 +39,47 @@ Node 0
 Cap 0
 Created 979144722
 Glad 0 0 0 0 0 0
-LastHost 4.11.123.201~
+LastHost 98.193.65.211~
 Cla  6
 Kit barbarian~
 ClaO 3
 Levl 38
 DLevl 0
-Plyd 190090
+Plyd 190371
 Not  981605165 981605165 981605165 981605165 981605165 981605165 981605165 981605165 981605165 0
 Scro 22
 Rank 0
-Room 31601
-HMV  992 992 337 337 450 450
+Room 31614
+HMV  992 992 337 337 425 450
 Gold 568
 Silv 739
 Exp  434072
 Act  CDFGHQS
-MHSF S
-AfBy DEFJTVa
+MHSF RS
+AfBy JT
 Comm GLRS
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
 Prac 76
-Trai 10
+Trai 12
 SkiP 36
-Save  -5
 Alig  -1000
-Hit   40
-Dam   29
-SecHit   31
-SecDam   24
-ACs 24 22 22 103
-Attr 25 25 23 24 21 13 13 13
-AMod 3 -2 1 6 2 0 0 0
+Hit   25
+Dam   17
+SecHit   16
+SecDam   12
+ACs -6 -8 -8 73
+Attr 25 25 23 24 21 11 14 13
+AMod 3 -2 1 4 2 0 0 0
 Pass OrgUSjKWrx2iE~
 Titl  Cookies make flaggers' teeth {Drot{x!~
 Pnts 100
 TSex 1
 LLev 50
 HMVP 892 327 325
-Cnd  0 4 32 36
+Cnd  0 0 26 24
 Alias k kill~
 Alias t pray recall~
 Alias in insanity~
@@ -123,14 +127,6 @@ Gr 'berzerker basics'
 Gr 'warriorberzerker default'
 Gr 'weaponsmaster'
 Gr 'draconian'
-Affc 'berserk'   0  37   1  70  17   67108864
-Affc 'berserk'   0  38   1  10  19   67108864
-Affc 'berserk'   0  36   1  10  18   67108864
-Affc 'detect hidden'   0   8   1   0   0         32
-Affc 'detect magic'   0  10   1   0   0         16
-Affc 'detect invis'   0   6   1   0   0          8
-Affc 'haste'   0  19   1   2   2    2097152
-Affc 'stone skin'   0   9   1 -40  17          0
 End
 
 #O
@@ -166,7 +162,7 @@ Vnum 28024
 Nest 0
 PrevOwner Oreo~
 Cond 0
-Wear 17
+Wear -1
 Cost 3000
 End
 
@@ -193,7 +189,7 @@ Vnum 17626
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 1
+Wear 2
 Cost 6300
 End
 
@@ -202,7 +198,7 @@ Vnum 17626
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 2
+Wear 1
 Cost 6300
 End
 
@@ -211,7 +207,7 @@ Vnum 18111
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 3
+Wear 4
 Cost 1500
 End
 
@@ -232,33 +228,6 @@ ExtF 0
 Cond 0
 Wear -1
 Cost 3000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Oreo~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Oreo~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Oreo~
-Cond 0
-Wear -1
-Cost 100000
 End
 
 #O
@@ -382,15 +351,6 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 23138
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 18
-Cost 0
-End
-
-#O
 Vnum 16104
 Nest 0
 PrevOwner Oreo~
@@ -449,7 +409,7 @@ Vnum 17622
 Nest 0
 PrevOwner Oreo~
 Cond 0
-Wear 4
+Wear 3
 Cost 6300
 End
 
@@ -472,11 +432,11 @@ Cond 0
 Wear 16
 Lev  34
 Cost 5100
-Affc 'enchant weapon'   1  53  -1   5  19          0
-Affc 'reserved'   1  31  -1   1   1          0
-Affc 'reserved'   1  31  -1  -1   3          0
-Affc 'reserved'   1  31  -1  -1   4          0
 Affc 'enchant weapon'   1  53  -1   9  18          0
+Affc 'reserved'   1  31  -1  -1   4          0
+Affc 'reserved'   1  31  -1  -1   3          0
+Affc 'reserved'   1  31  -1   1   1          0
+Affc 'enchant weapon'   1  53  -1   5  19          0
 End
 
 #O
@@ -522,24 +482,6 @@ PrevOwner Oreo~
 Cond 0
 Wear 12
 Cost 3500
-End
-
-#O
-Vnum 8911
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2300
-End
-
-#O
-Vnum 8910
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1500
 End
 
 #O
@@ -621,10 +563,37 @@ Vnum 9571
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 17
 Cost 950
 Spell 1 'stone skin'
 Spell 2 'blindness'
+End
+
+#O
+Vnum 8910
+Nest 0
+PrevOwner Oreo~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 8911
+Nest 0
+PrevOwner Oreo~
+Cond 0
+Wear -1
+Cost 2300
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Pharoah~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

@@ -1,0 +1,119 @@
+Label entryhall
+Type 33
+Name Cave of MoorD~
+Desc There is a smell of earth in the air, old earth as if this place had been
+forgotten long ago. The walls and floor are dirt tree roots are penetrating
+on all sides. The archway to the north is old and beginning to show signs of
+its age. The wood is ornate in nature making it seem as though this was once a
+prominent building the focal point of a town.
+The door has been left ajar and seems to be unmovable. A single beam of
+sunlight shines through a stain glass window in the center of the door is
+adding the only source of {bl{yi{Dg{ch{rt{x to this room.
+Dancing all around, the light adds a sense of comfort.
+~
+Index 1701
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label moord
+Type 17
+Index 1704
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label regenroomredo
+Type 17
+Desc Through the archway, rows and rows of old wooden pews have been left
+unattended.  High among the wooden rafters are some very intriquette stain
+glass windows so covered in dirt they will never see the sun.  A impressive
+sturdy wooden cross hangs above the pulpit.  The altar and the font are
+incredibly detailed and carved out of a single piece of stone.  Antique wrought
+iron lamps hang along the walls dimly lighting the way to the pulpit.  A old
+antique confessional is leaning up against the wall.
+~
+Index 1703
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+Review
+#End
+Label regenroom
+Type 33
+Name An {DAbandon{x Catherdral~
+Desc Through the archway, rows and rows of old wooden pews have been left
+unattended.   High among the wooden rafters are some very intriquette
+stain glass windows so covered in dirt they will never see the sun.  An
+Impressive sturdy wooden cross hangs above the pulpit.  The altar and
+the font are incredibly detailed and carved out of a single piece of stone.
+Antique wrought iron lamps hang along the walls dimly lighting the way
+to pulpit.  A old confessional with the door sealed shut and a small hole at
+the top stands against the wall.
+~
+Index 1702
+Cost 7000
+Flags 1
+Opt 8 8
+Loc 0
+#End
+Label pit
+Type 36
+Name pit hole confessional old~
+Short a confessional~
+Long A old confessional stands here in disrepair. ~
+Index 1701
+Cost 2000
+Flags 32
+Opt 0 0
+Loc 1702
+#End
+Label sleep
+Type 36
+Name old wooden pew~
+Short old wooden pews ~
+Long Rows of old wooden pews line the room.~
+Index 1703
+Cost 4000
+Flags 4
+Opt 4 0
+Loc 1702
+#End
+Label milkfountain
+Type 36
+Name a fat cow~
+Short A {gFat{x {CCow{x~
+Long A {gFat{x ol' {CCow{x stands here ready to serve you the freshest milk.~
+Index 1702
+Cost 2000
+Flags 16
+Opt 10 0
+Loc 1702
+#End
+Label healer
+Type 34
+Name preacher old blind~
+Short a blind old Preacher~
+Long A {Dblindfolded{x old man wanders around whispering {Rv{Derse{Rs{x.~
+Desc A blindfolded old man wanders around whispering verses.  Apparently hes
+forgotten that he was once a great Preacher.   His brain was addled and now
+hes left doing most things from memory.  This old man was in charge of
+this buried church before the rapture came.  Hes was all alone searching for
+something when we asked him to be our healer.
+
+
+
+~
+Index 1701
+Cost 3000
+Flags 10
+Opt 4 2
+Loc 1701
+#End
+Exit 0 1701 1702 -1 -1
+Exit 4 1701 -1 -1 18910
+Exit 2 1702 1701 -1 -1
+#End

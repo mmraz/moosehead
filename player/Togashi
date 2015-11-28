@@ -2,17 +2,16 @@
 Name Togashi~
 Id   907373978
 Email (null)~
-LogO 1018996885
+LogO 1318365806
 Vers 31
 Prom <%hhp %mm %vmv %Xxp AL:%a %Ssac> ~
 Race dragon~
-Clan newbie~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
 SkPTracker 0
-LogoutTracker 5
+LogoutTracker 2
 Kill 0 0 0 0
 Steal 0 0 0
 LstK no one~
@@ -26,6 +25,9 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 35102 xochipili~
 DeityT -63 xochipili~
 Sac  300
@@ -35,46 +37,48 @@ Node 0
 Cap 0
 Created 1018993977
 Glad 0 0 0 0 0 0
-LastHost adsl-64-171-25-106.dsl.sntc01.pacbell.net~
+LastHost 75.37.201.122~
 Cla  9
 ClaO 3
 Levl 3
 DLevl 3
-Plyd 344247
-Not  1018994313 1018994313 1018994313 1018994313 1018994313 1018994313 1018994313 1018994313 1018994313 1018994313
+Plyd 345604
+Not  1317862918 1318364978 1018994313 1318364933 1318364951 1318364974 1018994313 1018994313 1018994313 1318364982
 Scro 22
 Rank 0
-Room 8115
+Room 3758
 HMV  70 70 88 88 211 211
-Gold 100
-Silv 26
+Gold 93
+Silv 57
 Exp  30000
 Act  BCDEFGHMQSd
-MHSF A
+MHSF AR
 AfBy JT
 Comm DGS
 Disp BCFIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 9
-SkiP 20
+Prac 10
+Trai 3
+SkiP 10
+Save  1
 Alig  1000
-Hit   4
-Dam   4
+Hit   2
+Dam   1
 SecHit   1
 SecDam   1
-ACs 9 9 9 45
+ACs 28 24 24 66
 Wimp  40
-Attr 20 17 16 18 20 13 16 14
-AMod 3 0 1 5 1 0 0 0
-Pass Teh.SbgzJ15HY~
+Attr 20 17 17 18 20 11 14 14
+AMod 1 2 1 3 1 0 0 0
+Pass Tok/QgY5RbgzM~
 Titl  Yokuni~
 Pnts 100
 TSex 1
 LLev 95
 HMVP 56 108 110
-Cnd  0 34 26 36
+Cnd  0 4 30 26
 Alias b Bash~
 Alias k Kill~
 Alias rw Rwho MHS~
@@ -286,10 +290,9 @@ Gr 'warriorsamurai default'
 Gr 'weaponsmaster'
 Gr 'benedictions'
 Gr 'draconian'
-Affc 'armor'   0  10  25 -20  17          0
-Affc 'bless'   0  10  11  -1  24          0
-Affc 'bless'   0   8  11   1  18          0
-Affc 'shield'   0  15   6 -20  17          0
+Affc 'bless'   0  33  31   1  18          0
+Affc 'bless'   0  38  31  -1  24          0
+Affc 'armor'   0  36  12 -20  17          0
 End
 
 #O
@@ -297,27 +300,9 @@ Vnum 3726
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 Val  100 1 0 10 85
-End
-
-#O
-Vnum 12007
-Nest 1
-PrevOwner Togashi~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 11063
-Nest 1
-PrevOwner Togashi~
-Cond 0
-Wear -1
-Cost 1500
 End
 
 #O
@@ -335,19 +320,7 @@ Nest 1
 PrevOwner Togashi~
 Cond 0
 Wear -1
-Time 413
-Cost 320
-Spell 1 'cure blindness'
-Spell 2 'cure critical'
-End
-
-#O
-Vnum 1621
-Nest 1
-PrevOwner Togashi~
-Cond 0
-Wear -1
-Time 4
+Time 381
 Cost 320
 Spell 1 'cure blindness'
 Spell 2 'cure critical'
@@ -465,12 +438,24 @@ Cost 200
 End
 
 #O
-Vnum 8112
+Vnum 8109
 Nest 1
 PrevOwner Togashi~
 Cond 0
 Wear -1
-Cost 200
+Cost 980
+End
+
+#O
+Vnum 8137
+Enchanted
+Nest 1
+PrevOwner Togashi~
+Cond 0
+Wear -1
+Cost 480
+Affc 'enchant weapon'   0  52  -1   3  18          0
+Affc 'enchant weapon'   1  52  -1   3  19          0
 End
 
 #O
@@ -480,6 +465,33 @@ PrevOwner Togashi~
 Cond 0
 Wear -1
 Cost 500
+End
+
+#O
+Vnum 8112
+Nest 1
+PrevOwner Togashi~
+Cond 0
+Wear -1
+Cost 200
+End
+
+#O
+Vnum 11063
+Nest 1
+PrevOwner Togashi~
+Cond 0
+Wear -1
+Cost 1500
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Togashi~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -511,15 +523,6 @@ Cost 0
 End
 
 #O
-Vnum 5740
-Nest 1
-PrevOwner Togashi~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
 Vnum 5932
 Nest 1
 PrevOwner Togashi~
@@ -535,6 +538,15 @@ PrevOwner Togashi~
 Cond 0
 Wear -1
 Cost 550
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #O
@@ -743,8 +755,8 @@ PrevOwner Togashi~
 Cond 0
 Wear 8
 Cost 0
-Affc 'reserved'   1   0  -1 100  14          0
 Affc 'enchant armor'   1  52  -1  -4  17          0
+Affc 'reserved'   1   0  -1 100  14          0
 End
 
 #O
@@ -818,8 +830,8 @@ PrevOwner Togashi~
 Cond 0
 Wear 13
 Cost 350
-Affc 'reserved'   1   3  -1   1  13          0
 Affc 'enchant armor'   1  52  -1  -3  17          0
+Affc 'reserved'   1   3  -1   1  13          0
 End
 
 #O
@@ -830,27 +842,8 @@ PrevOwner Togashi~
 Cond 0
 Wear 5
 Cost 320
-Affc 'reserved'   1   2  -1   5  13          0
 Affc 'enchant armor'   1  52  -1  -3  17          0
-End
-
-#O
-Vnum 3716
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 0
-Cost 0
-Val  0 0 159 0 0
-End
-
-#O
-Vnum 3702
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 360
+Affc 'reserved'   1   2  -1   5  13          0
 End
 
 #O
@@ -869,15 +862,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 5
-End
-
-#O
-Vnum 8109
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 980
 End
 
 #O
@@ -908,15 +892,75 @@ Cost 120
 End
 
 #O
-Vnum 8137
-Enchanted
+Vnum 3702
 Nest 0
 PrevOwner Togashi~
 Cond 0
 Wear 16
-Cost 480
-Affc 'enchant weapon'   1  52  -1   3  19          0
-Affc 'enchant weapon'   0  52  -1   3  18          0
+Cost 360
+End
+
+#O
+Vnum 3052
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 15
+Cost 112
+End
+
+#O
+Vnum 3052
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 14
+Cost 112
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3706
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 72
+End
+
+#O
+Vnum 3711
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 12
+Cost 72
+End
+
+#O
+Vnum 5740
+Nest 0
+PrevOwner Togashi~
+Cond 0
+Wear 0
+Cost 1000
 End
 
 #END

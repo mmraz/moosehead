@@ -2,8 +2,8 @@
 Name Coke~
 Id   984795298
 Email (null)~
-LogO 984799041
-Vers 27
+LogO 1307671382
+Vers 31
 Prom %hhp %mm %vmv %e %X ~
 Race volare~
 Outc 0
@@ -12,12 +12,19 @@ MatookT 0
 SkPTimer 0
 SkPTracker 4
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1307671377
+LstKillDate 1307671377
+LstDeathDate 1307671377
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 matook~
 Sac  295
 Sex  1
@@ -26,17 +33,16 @@ Node 0
 Cap 0
 Created 984795329
 Glad 0 0 0 0 0 0
-LastHost AC9FB27B.ipt.aol.com~
 Cla  4
 ClaO 1
 Levl 4
 DLevl 0
-Plyd 3432
-Not  0 0 0 0 0 0 0 0 0
+Plyd 3437
+Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3054
-HMV  54 64 87 125 110 115
+HMV  64 64 125 125 115 115
 Gold 28
 Silv 190
 Exp  38136
@@ -48,20 +54,21 @@ IcgB 0
 Icg 0
 Pos  4
 Prac 10
+Trai 10
 SkiP 4
 Save  -1
 Alig  1000
 Dam   1
 ACs -4 -4 -4 -4
-Attr 16 12 18 18 14
-AMod 4 2 3 2 2
+Attr 16 12 18 18 14 13 13 13
+AMod 4 2 3 2 2 0 0 0
 Pass CoIulDQUKlVr6~
 Titl  {x~
 Pnts 98
 TSex 1
 LLev 0
 HMVP 50 125 115
-Cnd  0 36 42 42
+Cnd  0 34 41 41
 Sk 1 'acid blast'
 Sk 1 'aid'
 Sk 1 'armor'
@@ -78,6 +85,7 @@ Sk 1 'change sex'
 Sk 1 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 1 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -116,8 +124,8 @@ Sk 1 'feeblemind'
 Sk 1 'fireball'
 Sk 1 'fireproof'
 Sk 1 'flamestrike'
-Sk 1 'fly'
 Sk 1 'floating disc'
+Sk 1 'fly'
 Sk 1 'forget'
 Sk 1 'frenzy'
 Sk 1 'fumble'
@@ -203,7 +211,7 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-Affc 'armor'   0  44  30 -20  17          0
+Affc 'armor'   0  44  29 -20  17          0
 End
 
 #O
@@ -213,7 +221,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 131 0 0
+Val  0 0 130 0 0
 End
 
 #O
@@ -442,8 +450,8 @@ Cond 0
 Wear -1
 Lev  6
 Cost 310
-Affc 'enchant weapon'   1  53  -1   7  19          0
 Affc 'enchant weapon'   0  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
 End
 
 #O

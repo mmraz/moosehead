@@ -3,19 +3,19 @@ Name PetDog~
 SurN Pet~
 Id   1049000171
 Email (null)~
-LogO 1103257262
-Vers 31
+LogO 1353514366
+Vers 33
 Prom <%hhp %mm %vmv> {G*(%WWieght)*{x {Y(%t:00){x (%X) ~
 Race ogre~
 Outc 0
 RufT 0
 MatookT 0
-Abol -1
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 152203 matook~
 DeityT -4899 matook~
 Sac  600
@@ -36,17 +40,17 @@ Node 0
 Cap 0
 Created 1049000194
 Glad 0 0 0 0 0 0
-LastHost 208.42.95.246~
+LastHost 99.248.113.147~
 Cla  5
 Kit cavalier~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 226175
+Plyd 227020
 Not  1051330736 0 0 1051199378 0 0 0 0 0 0
 Scro 22
 Rank 0
-Room 30312
+Room 30315
 HMV  1631 1631 559 559 295 295
 Gold 1217
 Silv 6350
@@ -67,17 +71,17 @@ Hit   25
 Dam   54
 SecHit   17
 SecDam   42
-ACs -47 -41 -42 -9
+ACs -7 -1 -2 31
 Wimp  20
 Attr 22 16 19 17 21 17 24 17
-AMod 4 3 0 7 0 0 0 0
-Pass PeT9.WOoAWBsI~
+AMod 0 3 0 7 0 0 0 0
+Pass PeECJ4w3DNOVg~
 Titl  of vamp and warboo loves petfish~
 Pnts 83
 TSex 1
 LLev 51
 HMVP 1471 544 310
-Cnd  0 4 37 26
+Cnd  0 2 38 12
 Spz 'mace'
 Sk 89 'acid blast'
 Sk 1 'aid'
@@ -245,8 +249,6 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'mummy'
-Affc 'giant strength'   0  40   4   4   1          0
-Affc 'stone skin'   0  39   5 -40  17          0
 End
 
 #O
@@ -273,14 +275,14 @@ Enchanted
 Nest 1
 PrevOwner PetDog~
 ExtF 66
-Stolen 10511
+Stolen 10488
 Cond 0
 Wear -1
 Lev  25
 Cost 880
 Val  4 4 4 7 772
-Affc 'enchant weapon'   0  53  -1   6  18          0
 Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'enchant weapon'   0  53  -1   6  18          0
 End
 
 #O
@@ -362,15 +364,6 @@ PrevOwner PetDog~
 Cond 0
 Wear -1
 Cost 10000
-End
-
-#O
-Vnum 23603
-Nest 1
-PrevOwner PetDog~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -379,16 +372,16 @@ Enchanted
 Nest 1
 PrevOwner PetDog~
 ExtF 67
-Stolen 936
+Stolen 913
 Cond 0
 Wear -1
 Lev  43
 Cost 5600
 Val  1 3 13 8 516
-Affc 'reserved'   1  40  -1  -1   1          0
-Affc 'enchant weapon'   1  52  -1   6  18          0
-Affc 'reserved'   1  40  -1   1   5          0
 Affc 'enchant weapon'   1  52  -1   4  19          0
+Affc 'reserved'   1  40  -1   1   5          0
+Affc 'enchant weapon'   1  52  -1   6  18          0
+Affc 'reserved'   1  40  -1  -1   1          0
 End
 
 #O
@@ -402,16 +395,6 @@ Val  2 1 10 12 517
 End
 
 #O
-Vnum 3428
-Nest 1
-PrevOwner PetDog~
-Cond 0
-Wear -1
-Cost 2200
-Val  1 2 12 3 517
-End
-
-#O
 Vnum 1974
 Nest 1
 PrevOwner PetDog~
@@ -419,16 +402,6 @@ Cond 0
 Wear -1
 Cost 900
 Val  4 3 6 8 516
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner PetDog~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
 End
 
 #O
@@ -496,9 +469,9 @@ Wear -1
 Lev  19
 Cost 9800
 Val  4 2 6 8 548
-Affc 'reserved'   1  10  -1   1   4          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
 Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'reserved'   1  10  -1   1   4          0
 End
 
 #O
@@ -511,16 +484,6 @@ Cost 0
 End
 
 #O
-Vnum 3428
-Nest 1
-PrevOwner PetDog~
-Cond 0
-Wear -1
-Cost 2200
-Val  1 2 12 3 517
-End
-
-#O
 Vnum 13207
 Enchanted
 Nest 1
@@ -530,8 +493,38 @@ Cond 0
 Wear -1
 Lev  20
 Cost 1500
-Affc 'enchant weapon'   1  53  -1  14  18          0
 Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   1  53  -1  14  18          0
+End
+
+#O
+Vnum 10329
+Enchanted
+Nest 1
+PrevOwner PetDog~
+ExtF 1835075
+Cond 0
+Wear -1
+Lev  22
+Cost 3200
+Val  4 2 8 38 516
+Affc 'enchant weapon'   1  52  -1   5  19          0
+Affc 'enchant weapon'   1  52  -1   5  18          0
+End
+
+#O
+Vnum 10329
+Enchanted
+Nest 1
+PrevOwner PetDog~
+ExtF 1835075
+Cond 0
+Wear -1
+Lev  26
+Cost 3200
+Val  4 2 8 38 516
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   1  53  -1  10  18          0
 End
 
 #O
@@ -627,10 +620,10 @@ Cond 0
 Wear 8
 Lev  50
 Cost 0
-Affc 'reserved'   1  44  -1  35  14          0
-Affc 'reserved'   1  44  -1   3  19          0
-Affc 'reserved'   1  44  -1   2  18          0
 Affc 'enchant armor'   1  53  -1 -14  17          0
+Affc 'reserved'   1  44  -1   2  18          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1  35  14          0
 End
 
 #O
@@ -705,15 +698,15 @@ Name petdogs bone~
 ShD  {rP{Ye{gt{BD{co{Mg{x'{ms {yb{go{Bn{Re{x~
 Desc {rP{Ye{gt{BD{co{Mg{x'{ms {yb{go{Bn{Re{x lies here in a pool of drool.~
 ExtF 322
-Stolen 25
+Stolen 2
 Cond 0
 Wear 16
 Lev  50
 Cost 6500
 Val  4 5 8 7 772
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'reserved'   0  48  -1   0   0     524288
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
@@ -755,36 +748,6 @@ Cost 0
 End
 
 #O
-Vnum 10329
-Enchanted
-Nest 1
-PrevOwner PetDog~
-ExtF 1835075
-Cond 0
-Wear -1
-Lev  22
-Cost 3200
-Val  4 2 8 38 516
-Affc 'enchant weapon'   1  52  -1   5  18          0
-Affc 'enchant weapon'   1  52  -1   5  19          0
-End
-
-#O
-Vnum 10329
-Enchanted
-Nest 1
-PrevOwner PetDog~
-ExtF 1835075
-Cond 0
-Wear -1
-Lev  26
-Cost 3200
-Val  4 2 8 38 516
-Affc 'enchant weapon'   1  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
 Vnum 18011
 Nest 1
 PrevOwner PetDog~
@@ -804,8 +767,8 @@ Wear -1
 Lev  4
 Cost 210
 Val  2 1 4 11 4
-Affc 'enchant weapon'   1  52  -1   6  18          0
 Affc 'enchant weapon'   1  52  -1   5  19          0
+Affc 'enchant weapon'   1  52  -1   6  18          0
 End
 
 #O
@@ -1009,6 +972,35 @@ PrevOwner PetDog~
 Cond 0
 Wear -1
 Cost 3000
+End
+
+#O
+Vnum 3428
+Nest 0
+PrevOwner PetDog~
+Cond 0
+Wear -1
+Cost 2200
+Val  1 2 12 3 517
+End
+
+#O
+Vnum 3428
+Nest 0
+PrevOwner PetDog~
+Cond 0
+Wear -1
+Cost 2200
+Val  1 2 12 3 517
+End
+
+#O
+Vnum 23603
+Nest 0
+PrevOwner PetDog~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

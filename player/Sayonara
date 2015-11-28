@@ -2,27 +2,36 @@
 Name Sayonara~
 Id   940263116
 Email (null)~
-LogO 1003280879
-Vers 28
+LogO 1311731487
+Vers 31
 Prom <%h/%Hhp %m/%Mm %v/%Vmv>%c<%ggp %Xxp %Ssac %e> ~
 Race elf~
-Clan avarice~
+Clan loner~
 Outc 0
-RufT 329
+RufT 298
 MatookT 0
 SkPTimer 0
-SkPTracker 9
+SkPTracker 0
 LogoutTracker 0
 Hstm 142.142.23.101~
-Kill 0 1 31
-Steal 102 1767 22329 55
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy Shiva~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1306810835
+LstKillDate 1306810835
+LstDeathDate 1306810835
+LoginsWOKill 5
+LoginsWODeath 5
+LoginsWOCombat 5
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 417154 hermes~
-Sac  225
+Sac  300
 Sex  1
 Vump  0
 Node 0
@@ -35,17 +44,18 @@ Kit ninja~
 ClaO 2
 Levl 51
 DLevl 26
-Plyd 587606
-Not  973129482 973129482 973129482 973129482 973129482 973129482 973129482 973129482 973129482
+Plyd 588867
+Not  1311190455 1311190455 1311190455 1311190455 1311190455 1311190455 1311190455 1311190455 1311190455 1311190455
 Scro 22
-Rank 2
-Room 3170
-HMV  1039 1039 450 480 611 627
+Rank 0
+Room 5577
+HMV  1039 1039 213 450 627 627
 Gold 905
 Silv 88
 Exp  408000
 Act  CDFGHQSZd
-AfBy CDFHJNPTV
+MHSF R
+AfBy CJPT
 Comm GRS
 Disp BFJL
 IcgB 0
@@ -53,24 +63,25 @@ Icg 0
 Wizn W
 Pos  8
 Prac 7
-SkiP 124
-Save  -38
+Trai 13
+SkiP 125
+Save  -26
 Alig  -1000
-Hit   15
-Dam   21
-SecHit   11
-SecDam   19
-ACs -67 -65 -67 -40
+Hit   17
+Dam   20
+SecHit   13
+SecDam   18
+ACs 35 35 35 41
 Wimp  99
-Attr 17 19 18 20 16
-AMod 5 5 2 7 0
-Pass HoOYoev6DtS5w~
+Attr 17 19 18 20 16 11 12 13
+AMod 1 4 2 4 1 0 0 0
+Pass SaAUX7VxUcFj.~
 Titl ..say goodbye to your money.~
 Pnts 100
 TSex 1
 LLev 1
 HMVP 1019 427 492
-Cnd  0 0 25 2
+Cnd  0 0 0 0
 Alias pk who clan~
 OldSk 75 'acid blast'
 OldSk 1 'aid'
@@ -98,6 +109,7 @@ OldSk 75 'cure disease'
 OldSk 1 'cure light'
 OldSk 75 'cure poison'
 OldSk 1 'cure serious'
+Sk 75 'cure vision'
 OldSk 75 'curse'
 Sk 1 'detect evil'
 OldSk 1 'detect evil'
@@ -142,7 +154,7 @@ Sk 100 'haste'
 OldSk 97 'haste'
 OldSk 75 'heal'
 OldSk 1 'holy word'
-Sk 88 'identify'
+Sk 89 'identify'
 OldSk 78 'identify'
 Sk 1 'infravision'
 OldSk 1 'infravision'
@@ -200,7 +212,6 @@ OldSk 1 'draw life'
 OldSk 75 'turn undead'
 OldSk 75 'withstand death'
 OldSk 1 'wound transfer'
-Sk 75 'cure vision'
 OldSk 1 'axe'
 Sk 100 'dagger'
 OldSk 100 'dagger'
@@ -272,18 +283,9 @@ Gr 'detection'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'haste'   0  39  19   4   2    2097152
-Affc 'sanctuary'   0  39   1   0   0        128
-Affc 'bless'   0  49  37  -6  24          0
-Affc 'bless'   0  49  37   6  18          0
-Affc 'giant strength'   0  37  19   4   1          0
-Affc 'protection evil'   0  36   4  -1  24       8192
-Affc 'stone skin'   0  35  19 -40  17          0
-Affc 'shield'   0  36  27 -20  17          0
-Affc 'detect invis'   0  34  19   0   0          8
-Affc 'detect hidden'   0  34  19   0   0         32
-Affc 'armor'   0  35  12 -20  17          0
-Affc 'sneak'   0  50  44   0   0      32768
+Affc 'sneak'   0  46  13   0   0      32768
+Affc 'bless'   0  43   6   6  18          0
+Affc 'bless'   0  44   6  -6  24          0
 End
 
 #O
@@ -309,7 +311,7 @@ Vnum 2505
 Nest 0
 PrevOwner Sayonara~
 Cond 0
-Wear 15
+Wear -1
 Cost 1150
 End
 
@@ -318,7 +320,7 @@ Vnum 2505
 Nest 0
 PrevOwner Sayonara~
 Cond 0
-Wear 14
+Wear 15
 Cost 1150
 End
 
@@ -470,33 +472,6 @@ Cost 1690
 End
 
 #O
-Vnum 10441
-Nest 1
-PrevOwner Sayonara~
-Cond 0
-Wear -1
-Cost 6700
-End
-
-#O
-Vnum 10337
-Nest 1
-PrevOwner Sayonara~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3239
-Nest 1
-PrevOwner Sayonara~
-Cond 0
-Wear -1
-Cost 1
-End
-
-#O
 Vnum 3239
 Nest 1
 PrevOwner Sayonara~
@@ -542,30 +517,6 @@ Cond 0
 Wear -1
 Cost 800
 Spell 1 'sanctuary'
-End
-
-#O
-Vnum 10326
-Nest 1
-PrevOwner Sayonara~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Sayonara~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6400
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'reserved'   1  47  -1  -5  17          0
-Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O
@@ -581,19 +532,6 @@ Cost 0
 End
 
 #O
-Vnum 10337
-Enchanted
-Nest 1
-PrevOwner Sayonara~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
 Vnum 6517
 Nest 1
 PrevOwner Sayonara~
@@ -603,101 +541,6 @@ Desc This is a restring certificate, to be presented to an IMM, courtesy of your
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 9203
-Enchanted
-Nest 1
-PrevOwner Sayonara~
-ExtF 67
-Cond 0
-Wear -1
-Lev  35
-Cost 2800
-Affc 'enchant weapon'   1  50  -1  10  19          0
-Affc 'enchant weapon'   0  50  -1   6  18          0
-End
-
-#O
-Vnum 901
-Enchanted
-Nest 1
-PrevOwner Sayonara~
-ExtF 67
-Cond 0
-Wear -1
-Cost 5400
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-End
-
-#O
-Vnum 18106
-Enchanted
-Nest 1
-PrevOwner Sayonara~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-End
-
-#O
-Vnum 10027
-Enchanted
-Nest 1
-PrevOwner Sayonara~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1000
-Affc 'enchant weapon'   1  52  -1  10  19          0
-Affc 'enchant weapon'   0  52  -1  10  18          0
-End
-
-#O
-Vnum 15111
-Enchanted
-Nest 1
-PrevOwner Sayonara~
-ExtF 67
-Cond 0
-Wear -1
-Lev  47
-Cost 2600
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 23144
-Nest 1
-PrevOwner Sayonara~
-Cond 0
-Wear -1
-Cost 4200
-Val  0 4 4 11 640
-End
-
-#O
-Vnum 10431
-Enchanted
-Nest 1
-PrevOwner Sayonara~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 7150
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'reserved'   1  49  -1   0   0          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O
@@ -737,6 +580,141 @@ Cost 100000
 End
 
 #O
+Vnum 23144
+Nest 1
+PrevOwner Sayonara~
+Cond 0
+Wear -1
+Cost 4200
+Val  0 4 4 11 640
+End
+
+#O
+Vnum 9203
+Enchanted
+Nest 1
+PrevOwner Sayonara~
+ExtF 67
+Cond 0
+Wear -1
+Lev  35
+Cost 2800
+Affc 'enchant weapon'   0  50  -1   6  18          0
+Affc 'enchant weapon'   1  50  -1  10  19          0
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 1
+PrevOwner Sayonara~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6400
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Sayonara~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 7150
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
+End
+
+#O
+Vnum 10337
+Enchanted
+Nest 1
+PrevOwner Sayonara~
+ExtF 67
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 1
+PrevOwner Sayonara~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 15111
+Enchanted
+Nest 1
+PrevOwner Sayonara~
+ExtF 67
+Cond 0
+Wear -1
+Lev  47
+Cost 2600
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 10027
+Enchanted
+Nest 1
+PrevOwner Sayonara~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1000
+Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+End
+
+#O
+Vnum 18104
+Enchanted
+Nest 1
+PrevOwner Sayonara~
+ExtF 67
+Cond 0
+Wear -1
+Lev  42
+Cost 4000
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   1  53  -1  10  18          0
+Affc 'reserved'   1  35  -1  -1   3          0
+Affc 'reserved'   1  35  -1   1   1          0
+End
+
+#O
+Vnum 10032
+Nest 1
+PrevOwner Sayonara~
+Cond 0
+Wear -1
+Cost 1700
+End
+
+#O
 Vnum 8502
 Nest 0
 PrevOwner Sayonara~
@@ -759,7 +737,7 @@ Vnum 28024
 Nest 0
 PrevOwner Sayonara~
 Cond 0
-Wear 17
+Wear -1
 Cost 3000
 End
 
@@ -799,7 +777,7 @@ Vnum 6404
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 11600
 End
 
@@ -808,7 +786,7 @@ Vnum 11144
 Nest 0
 PrevOwner Huxley~
 Cond 0
-Wear 18
+Wear -1
 Cost 4500
 End
 
@@ -817,7 +795,7 @@ Vnum 28021
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 13
+Wear -1
 Cost 0
 End
 
@@ -826,7 +804,7 @@ Vnum 15221
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 1
+Wear 2
 Cost 600
 End
 
@@ -835,7 +813,7 @@ Vnum 15221
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 2
+Wear 1
 Cost 600
 End
 
@@ -867,21 +845,21 @@ Cost 5000
 End
 
 #O
+Vnum 10337
+Nest 1
+PrevOwner Sayonara~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
 Vnum 17648
 Nest 0
 PrevOwner Repo~
 Cond 0
-Wear -1
+Wear 13
 Cost 4000
-End
-
-#O
-Vnum 10032
-Nest 0
-PrevOwner Selan~
-Cond 0
-Wear -1
-Cost 1700
 End
 
 #O
@@ -889,7 +867,7 @@ Vnum 11144
 Nest 0
 PrevOwner Selan~
 Cond 0
-Wear -1
+Wear 18
 Cost 4500
 End
 
@@ -898,7 +876,7 @@ Vnum 4433
 Nest 0
 PrevOwner Selan~
 Cond 0
-Wear -1
+Wear 14
 Cost 550
 End
 
@@ -906,11 +884,9 @@ End
 Vnum 20740
 Nest 0
 PrevOwner Selan~
-ExtF 262400
 Cond 0
-Wear -1
+Wear 17
 Cost 4500
-Affc 'bless'   1  24   0  -1  20        256
 End
 
 #O
@@ -923,15 +899,6 @@ Cost 900
 End
 
 #O
-Vnum 908
-Nest 0
-PrevOwner Selan~
-Cond 0
-Wear -1
-Cost 2900
-End
-
-#O
 Vnum 8504
 Nest 0
 PrevOwner Selan~
@@ -941,28 +908,43 @@ Cost 6000
 End
 
 #O
-Vnum 18104
-Enchanted
-Nest 0
-PrevOwner Selan~
-ExtF 67
-Cond 0
-Wear -1
-Lev  42
-Cost 4000
-Affc 'reserved'   1  35  -1   1   1          0
-Affc 'reserved'   1  35  -1  -1   3          0
-Affc 'enchant weapon'   1  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
 Vnum 1345
 Nest 0
 PrevOwner Repo~
 Cond 0
-Wear -1
+Wear 12
 Cost 0
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner Sayonara~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 901
+Enchanted
+Nest 0
+PrevOwner Sayonara~
+ExtF 67
+Cond 0
+Wear -1
+Cost 5400
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 10441
+Nest 0
+PrevOwner Sayonara~
+Cond 0
+Wear -1
+Cost 6700
 End
 
 #END

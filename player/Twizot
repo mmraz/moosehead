@@ -2,19 +2,19 @@
 Name Twizot~
 Id   972604128
 Email (null)~
-LogO 1094793761
-Vers 31
+LogO 1404449581
+Vers 33
 Prom [%e %hHp %mMana %n/%N %v(%S)$%g.%s %a %wLbs %X]  ~
 Race yinn~
-Clan posse~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 19
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 1 0 0 3
 Steal 0 0 0
+MSteal 0
 LstK IttyBit~
 LstKBy Elrimir~
 LstAtkedBy no one~
@@ -22,10 +22,16 @@ LstAtkedByTimer 0
 LstCombatDate 1090725868
 LstKillDate 1060051869
 LstDeathDate 1090725870
-LoginsWOKill 25
-LoginsWODeath 2
-LoginsWOCombat 1
+LoginsWOKill 32
+LoginsWODeath 9
+LoginsWOCombat 8
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 5 60 1
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 206555 mojo~
 DeityT 63 matook~
 Sac  300
@@ -35,21 +41,21 @@ Node 0
 Cap 0
 Created 972604181
 Glad 0 0 1 1 0 1
-LastHost 209.120.156.200~
+LastHost 24.54.128.152~
 Cla  9
 Kit cavalier~
 ClaO 3
-Levl 26
+Levl 28
 DLevl 0
-Plyd 213665
-Not  1088913639 1088913639 1088913639 1088913639 1088913639 1088913639 1088913639 1088913639 1088913639 1088913639
+Plyd 220130
+Not  1403936863 1364350298 1364350298 1364350298 1364350298 1364350298 1364350298 1364350298 1364350298 1364350298
 Scro 22
-Rank 1
-Room 31614
-HMV  137 615 137 250 273 273
-Gold 58
-Silv 1664
-Exp  161188
+Rank 0
+Room 5061
+HMV  825 825 260 260 331 331
+Gold 524
+Silv 97
+Exp  173596
 Act  CDEFGHJQS
 MHSF RT
 AfBy CJ
@@ -58,26 +64,26 @@ Disp FIJN
 IcgB 0
 Icg 0
 Pnet AF
-Pos  4
-Prac 54
-Trai 1
-SkiP 28
+Pos  8
+Prac 65
+StatsTrained 190 0 0
+SkiP 17
 Save  -6
 Alig  -1000
-Hit   16
-Dam   22
-SecHit   14
-SecDam   20
-ACs 46 46 46 61
-Attr 23 19 19 22 22 22 22 21
-AMod 0 5 2 2 0 0 0 0
+Hit   18
+Dam   27
+SecHit   13
+SecDam   22
+ACs 45 45 45 58
+Attr 23 19 19 22 22 14 14 21
+AMod 2 2 2 3 0 1 0 -2
 Pass Tw1d/FkunqdvE~
 Titl  take heed, take notice, TAKE COVER!~
 Pnts 84
 TSex 1
-LLev 58
-HMVP 595 244 303
-Cnd  0 0 43 1
+LLev 60
+HMVP 825 254 331
+Cnd  0 0 43 2
 Alias t throw~
 Sk 75 'call mount'
 Sk 2 'chill touch'
@@ -92,7 +98,7 @@ Sk 1 'portal'
 Sk 74 'summon'
 Sk 1 'teleport'
 Sk 76 'word of recall'
-Sk 73 'axe'
+Sk 79 'axe'
 Sk 80 'dagger'
 Sk 65 'flail'
 Sk 18 'mace'
@@ -103,20 +109,20 @@ Sk 31 'whip'
 Sk 75 'throw'
 Sk 31 'bash'
 Sk 1 'bite'
-Sk 83 'daetok'
+Sk 89 'daetok'
 Sk 76 'dirt kicking'
 Sk 1 'disarm'
-Sk 77 'dodge'
+Sk 79 'dodge'
 Sk 85 'enhanced damage'
 Sk 17 'hand to hand'
 Sk 22 'morph'
-Sk 73 'parry'
+Sk 75 'parry'
 Sk 75 'rescue'
 Sk 40 'shield block'
 Sk 73 'scan'
 Sk 80 'second attack'
 Sk 80 'third attack'
-Sk 87 'chee'
+Sk 89 'chee'
 Sk 12 'riding'
 Sk 1 'scrolls'
 Sk 1 'staves'
@@ -136,7 +142,7 @@ Vnum 16721
 Nest 0
 PrevOwner Twizot~
 Cond 0
-Wear 3
+Wear 4
 Cost 1400
 End
 
@@ -145,7 +151,7 @@ Vnum 16721
 Nest 0
 PrevOwner Twizot~
 Cond 0
-Wear 4
+Wear 3
 Cost 1400
 End
 
@@ -163,7 +169,7 @@ Vnum 23106
 Nest 0
 PrevOwner Twizot~
 Cond 0
-Wear -1
+Wear 6
 Cost 1500
 End
 
@@ -226,7 +232,7 @@ Vnum 2505
 Nest 0
 PrevOwner Twizot~
 Cond 0
-Wear 14
+Wear 15
 Cost 1150
 End
 
@@ -235,7 +241,7 @@ Vnum 2505
 Nest 0
 PrevOwner Twizot~
 Cond 0
-Wear 15
+Wear 14
 Cost 1150
 End
 
@@ -258,21 +264,12 @@ Cost 1150
 End
 
 #O
-Vnum 8509
-Nest 0
-PrevOwner Twizot~
-Cond 0
-Wear 17
-Cost 0
-End
-
-#O
 Vnum 9573
 Nest 0
 PrevOwner Twizot~
 Cond 0
 Wear -1
-Time 650
+Time 488
 Cost 820
 Spell 1 'haste'
 End
@@ -283,7 +280,7 @@ Nest 0
 PrevOwner Twizot~
 Cond 0
 Wear -1
-Time 647
+Time 485
 Cost 820
 Spell 1 'haste'
 End
@@ -294,7 +291,7 @@ Nest 0
 PrevOwner Twizot~
 Cond 0
 Wear -1
-Time 675
+Time 513
 Cost 820
 Spell 1 'haste'
 End
@@ -313,7 +310,7 @@ Vnum 2602
 Nest 0
 PrevOwner Twizot~
 Cond 0
-Wear 6
+Wear -1
 Cost 5800
 End
 
@@ -479,33 +476,129 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 5104
 Nest 0
 PrevOwner Twizot~
-Stolen 182
+Stolen 20
+Cond 0
+Wear -1
+Cost 1530
+End
+
+#O
+Vnum 23144
+Nest 0
+PrevOwner Duno~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8509
+Nest 0
+PrevOwner Whiskerz~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2605
+Nest 0
+PrevOwner Whiskerz~
+Cond 0
+Wear -1
+Cost 670
+End
+
+#O
+Vnum 8053
+Nest 0
+PrevOwner Camell~
+Cond 0
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 5418
+Nest 0
+PrevOwner Duno~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5706
+Nest 0
+PrevOwner Patat~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5706
+Nest 0
+PrevOwner Banker~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4433
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5416
+Enchanted
+Nest 0
+PrevOwner Bykor~
+ExtF 339
 Cond 0
 Wear 16
-Cost 1530
+Lev  28
+Cost 3100
+Affc 'reserved'   1  23  -1   1   2          0
+Affc 'reserved'   1  23  -1   1  30          0
+Affc 'reserved'   1  23  -1  -2  32          0
+Affc 'enchant weapon'   1  52  -1   5  19          0
+Affc 'enchant weapon'   0  52  -1   5  18          0
+End
+
+#O
+Vnum 9608
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 5013
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5
+End
+
+#O
+Vnum 5016
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1410
 End
 
 #END

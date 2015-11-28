@@ -1,21 +1,23 @@
 #PLAYER
 Name Tankz~
+SurN Alot~
 Id   1003136673
 Email (null)~
-LogO 1114584200
-Vers 31
-Desc {WTANKZ ALOT!
+LogO 1354750165
+Vers 33
+Desc I am your {GT{ga{yn{Gk{x.
 ~
 Prom <%h Hp %m Mn %v Mv>%c<%XXp %SDp %gg %ss> ~
 Race rockbiter~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 19
-SkPTracker 12
+SkPTimer 1
+SkPTracker 4
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -23,10 +25,14 @@ LstAtkedByTimer 0
 LstCombatDate 1007435711
 LstKillDate 1007435711
 LstDeathDate 1007435711
-LoginsWOKill 1
-LoginsWODeath 1
-LoginsWOCombat 1
+LoginsWOKill 44
+LoginsWODeath 44
+LoginsWOCombat 44
 Bnty 0
+DeityFavor 0 29
+PrefStat 0
+OldC 0 13 0
+QuestWins 0 0
 Deity 0 xochipili~
 Sac  300
 Sex  1
@@ -35,78 +41,83 @@ Node 0
 Cap 0
 Created 1003136687
 Glad 0 0 0 0 0 0
-LastHost c-24-20-206-252.hsd1.or.comcast.net~
+LastHost 98.232.225.18~
 Cla  14
 ClaO 3
-Levl 13
+Levl 28
 DLevl 0
-Plyd 47933
-Not  1003211156 0 0 0 0 0 0 0 0 0
+Plyd 73837
+Not  1339396555 1339396555 1339396555 1339396555 1339396555 1339396555 1339396555 1339396555 1339396555 1339396555
 Scro 22
 Rank 0
-Room 3054
-HMV  349 349 145 145 175 175
-Gold 36
-Silv 1045
-Exp  149605
-Act  CDEFGHK
+Room 10374
+HMV  686 686 206 206 245 245
+Gold 15
+Silv 682
+Exp  304922
+Act  CDGHKP
 MHSF R
-AfBy GTZ
+AfBy HTV
 Comm D
-Disp BFGIJ
+Disp BCFGIJ
 IcgB 0
 Icg 0
 Pos  8
-SkiP 20
-Save  10
+Prac 12
+Trai 1
+ReTrai 11
+SkiP 18
+Save  -7
 Alig  -1000
-Hit   -5
-Dam   1
-SecHit   -5
-SecDam   1
-ACs 98 98 98 98
-Attr 21 15 20 14 25 13 14 13
-AMod 8 1 2 2 1 0 0 0
+Hit   18
+Dam   16
+SecHit   21
+SecDam   17
+ACs 14 12 12 27
+Wimp  10
+Attr 25 16 23 14 25 8 15 13
+AMod 5 0 0 4 0 0 0 0
 Pass Tau6uIRyHTubs~
-Titl .~
+Titl  Will {gTank{x for YOU!~
 Pnts 94
 TSex 1
-LLev 12
-HMVP 341 145 125
-Cnd  0 0 48 23
+LLev 20
+HMVP 675 206 240
+Cnd  0 0 48 0
 Alias k kill~
 Spz 'sword'
-Sk 1 'fly'
+Sk 75 'fly'
 Sk 1 'gate'
 Sk 1 'knock'
 Sk 1 'nexus'
 Sk 1 'pass door'
 Sk 1 'portal'
-Sk 1 'summon'
+Sk 75 'summon'
 Sk 1 'teleport'
-Sk 75 'word of recall'
+Sk 78 'word of recall'
 Sk 7 'axe'
 Sk 13 'dagger'
 Sk 1 'flail'
 Sk 1 'mace'
 Sk 1 'polearm'
 Sk 1 'spear'
-Sk 96 'sword'
+Sk 100 'sword'
 Sk 9 'whip'
-Sk 87 'bash'
-Sk 1 'berserk'
-Sk 1 'cleave'
-Sk 1 'disarm'
-Sk 1 'dual wield'
-Sk 1 'enhanced critical'
-Sk 75 'enhanced damage'
-Sk 56 'parry'
-Sk 1 'rescue'
-Sk 17 'shield block'
+Sk 100 'bash'
+Sk 75 'berserk'
+Sk 81 'cleave'
+Sk 75 'disarm'
+Sk 78 'dual wield'
+Sk 81 'enhanced critical'
+Sk 96 'enhanced damage'
+Sk 75 'parry'
+Sk 88 'rescue'
+Sk 78 'shield block'
 Sk 50 'scan'
-Sk 82 'second attack'
-Sk 75 'third attack'
-Sk 1 'scrolls'
+Sk 88 'second attack'
+Sk 84 'third attack'
+Sk 75 'fast healing'
+Sk 75 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
 Sk 50 'swimming'
@@ -116,124 +127,517 @@ Gr 'warrior basics'
 Gr 'blademaster default'
 Gr 'weaponsmaster'
 Gr 'transportation'
-Affc 'shield'   0  50  27 -20  17          0
-Affc 'fly'   0  45  22   0   0     524288
-Affc 'giant strength'   0  50  38   4   1          0
-Affc 'tower of iron will'   3  51  11   0   0      32768
-Affc 'body weaponry'   0  53   9   0   0   33554432
+Affc 'giant strength'   0  25   3   4   1          0
+Affc 'armor'   0  33   1 -20  17          0
+Affc 'bless'   0  38  16   5  18          0
+Affc 'bless'   0  39  16  -5  24          0
+Affc 'fly'   0   8   1   0   0     524288
+Affc 'haste'   0  16   0   2   2    2097152
+Affc 'sanctuary'   0  48   2   0   0        128
 End
 
 #O
-Vnum 21
+Vnum 8500
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 1972
 Nest 0
 PrevOwner Tankz~
+ExtF 1
 Cond 0
-Wear 0
+Wear 17
 Cost 0
-End
-
-#O
-Vnum 8309
-Nest 0
-PrevOwner Korn~
-Cond 0
-Wear 4
-Cost 100
-End
-
-#O
-Vnum 4100
-Nest 0
-PrevOwner Tankz~
-Cond 0
-Wear 16
-Cost 940
-End
-
-#O
-Vnum 5709
-Nest 0
-PrevOwner Teris~
-ExtF 134217728
-Wt   43
-Wrp 1
-Cond 0
-Wear 8
-Cost 0
-Val  2 2 2 2 6
 End
 
 #O
 Vnum 3726
 Nest 0
 PrevOwner Tankz~
+ExtF 262209
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 Val  100 1 0 10 85
 End
 
 #O
-Vnum 5231
-Nest 0
+Vnum 3156
+Nest 1
 PrevOwner Tankz~
 Cond 0
-Wear 18
-Cost 550
+Wear -1
+Cost 800
+Spell 1 'giant strength'
 End
 
 #O
-Vnum 20404
-Nest 0
+Vnum 3156
+Nest 1
 PrevOwner Tankz~
 Cond 0
-Wear 3
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 1
+PrevOwner Tankz~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3504
+Enchanted
+Nest 0
+PrevOwner Tankz~
+ExtF 65
+Cond 0
+Wear 15
+Lev  12
+Cost 690
+Affc 'enchant armor'   1  53  -1  -8  17          0
+Affc 'reserved'   1   7  -1   1  18          0
+End
+
+#O
+Vnum 17666
+Nest 0
+PrevOwner Tankz~
+ExtF 262145
+Cond 0
+Wear 4
+Cost 1000
+End
+
+#O
+Vnum 2911
+Nest 0
+PrevOwner Tankz~
+ExtF 1
+Cond 0
+Wear 0
 Cost 0
 End
 
 #O
-Vnum 20405
+Vnum 6511
 Nest 0
 PrevOwner Tankz~
-Cond 0
-Wear 6
-Cost 0
-End
-
-#O
-Vnum 6601
-Nest 0
-PrevOwner Tankz~
+ExtF 65
 Cond 0
 Wear 2
-Cost 620
+Cost 460
 End
 
 #O
-Vnum 6601
+Vnum 6511
 Nest 0
 PrevOwner Tankz~
+ExtF 65
 Cond 0
 Wear 1
-Cost 620
+Cost 460
 End
 
 #O
-Vnum 4433
+Vnum 3427
 Nest 0
 PrevOwner Tankz~
+ExtF 134217793
+Wt   49
+Wrp 1
 Cond 0
-Wear 14
-Cost 550
+Wear 12
+Cost 100
 End
 
 #O
-Vnum 8102
+Vnum 3022
+Enchanted
 Nest 0
+PrevOwner Bullwart~
+ExtF 67
+Cond 0
+Wear 19
+Lev  13
+Cost 601
+Val  1 2 5 3 4
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 2513
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear 3
+Cost 710
+End
+
+#O
+Vnum 3034
+Nest 1
 PrevOwner Tankz~
 Cond 0
-Wear 17
+Wear -1
+Cost 7000
+Val  51 211 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 3034
+Nest 1
+PrevOwner Tankz~
+Cond 0
+Wear -1
+Cost 7000
+Val  51 211 -1 -1 -1
+Spell 1 'vision'
+End
+
+#O
+Vnum 10312
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 11
+Cost 8800
+End
+
+#O
+Vnum 7710
+Enchanted
+Nest 0
+PrevOwner Zest~
+ExtF 67
+Cond 0
+Wear 16
+Lev  24
+Cost 4600
+Affc 'reserved'   1  19  -1   2   2          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   0  53  -1   5  18          0
+End
+
+#O
+Vnum 23106
+Enchanted
+Nest 0
+PrevOwner Matador~
+ExtF 65
+Cond 0
+Wear 6
+Lev  25
 Cost 0
+Affc 'reserved'   1  20  -1   1  19          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'enchant armor'   1  53  -1  -6  17          0
+End
+
+#O
+Vnum 23109
+Enchanted
+Nest 0
+PrevOwner Matador~
+ExtF 65
+Cond 0
+Wear 7
+Lev  26
+Cost 0
+Affc 'reserved'   1  20  -1   1  19          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'enchant armor'   1  53  -1  -7  17          0
+End
+
+#O
+Vnum 23108
+Enchanted
+Nest 0
+PrevOwner Matador~
+ExtF 65
+Cond 0
+Wear 5
+Lev  25
+Cost 0
+Affc 'enchant armor'   1  53  -1  -6  17          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'reserved'   1  20  -1   1  19          0
+End
+
+#O
+Vnum 23111
+Nest 0
+PrevOwner Zoloft~
+Cond 0
+Wear 9
+Cost 0
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 3156
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+Spell 1 'giant strength'
+End
+
+#O
+Vnum 26
+Nest 0
+PrevOwner HarryProtter~
+Cond 0
+Wear -1
+Cost 0
+Val  51 3 -1 -1 -1
+Spell 1 'accuracy'
 End
 
 #END

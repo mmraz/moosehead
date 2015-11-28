@@ -3,19 +3,20 @@ Name Yogen~
 SurN Hunta~
 Id   1087634774
 Email (null)~
-LogO 1104654599
-Vers 31
+LogO 1391504090
+Vers 33
 Prom <%hhp %mma %vmv %Xtnl {G$%g{x> ~
 Race dwarf~
 Clan loner~
 Outc 0
-RufT 245
+RufT 189
 MatookT 0
-SkPTimer 0
-SkPTracker 8
+SkPTimer 1
+SkPTracker 3
 LogoutTracker 0
 Kill 0 0 2 2
 Steal 0 0 0
+MSteal 0
 LstK Remington~
 LstKBy Poncho~
 LstAtkedBy no one~
@@ -23,36 +24,42 @@ LstAtkedByTimer 0
 LstCombatDate 1104641551
 LstKillDate 1102128096
 LstDeathDate 1102194146
-LoginsWOKill 11
-LoginsWODeath 7
-LoginsWOCombat 1
+LoginsWOKill 15
+LoginsWODeath 11
+LoginsWOCombat 5
 Bnty 0
+DeityFavor 0 63
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 87785 xochipili~
-Sac  270
+Sac  400
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 1087634804
 Glad 0 0 0 0 0 0
-LastHost 4.46.204.164~
+LastHost 67.185.179.181~
 Cla  12
 Kit bishop~
 ClaO 1
 Levl 41
 DLevl 0
-Plyd 110479
+Plyd 112773
 Not  1089998937 1089838151 1088822630 1090492891 1089998693 1089898327 1088822630 1101727413 1088822630 1089243877
 Scro 22
 Rank 0
-Room 3303
-HMV  831 831 605 605 681 683
-Gold 709
-Silv 2238
-Exp  377215
+Room 9603
+HMV  923 923 605 605 683 683
+Gold 538
+Silv 733
+Exp  388120
 Act  CDGHIKMQS
 MHSF RU
-AfBy J
+AfBy JOV
 Comm T
 Disp BFIJN
 IcgB 0
@@ -62,23 +69,24 @@ Pnet ABCDEFGHI
 Pos  8
 Prac 44
 Trai 4
-SkiP 58
-Alig  695
-Hit   18
-Dam   17
-SecHit   5
-SecDam   5
-ACs 28 28 28 56
+SkiP 79
+Save  -6
+Alig  -1000
+Hit   29
+Dam   23
+SecHit   16
+SecDam   11
+ACs 58 58 58 86
 Wimp  25
 Attr 20 16 21 16 21 17 24 20
-AMod 4 4 5 2 4 0 2 0
-Pass YoXfwgL/sjDVM~
+AMod 1 4 5 6 4 0 2 0
+Pass YoCjHLY9pt6Jo~
 Titl .~
 Pnts 103
 TSex 1
 LLev 30
 HMVP 816 585 583
-Cnd  0 34 35 35
+Cnd  0 26 34 34
 Alias 6 ch heal~
 Alias ` scan~
 Alias sd ch 'summon dead'~
@@ -198,7 +206,7 @@ Sk 1 'mace'
 Sk 75 'berserk'
 Sk 85 'bleed'
 Sk 83 'dodge'
-Sk 97 'enhanced damage'
+Sk 100 'enhanced damage'
 Sk 75 'parry'
 Sk 78 'shield block'
 Sk 81 'scan'
@@ -227,7 +235,14 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'giant strength'   0  26  21   3   1          0
+Affc 'bless'   0  36  18   5  18          0
+Affc 'bless'   0  34  18  -5  24          0
+Affc 'protection good'   0  38  10  -1  24      16384
+Affc 'haste'   0  33   6   4   2    2097152
+Affc 'frenzy'   0  40   6   6  18          0
+Affc 'frenzy'   0  40   6   6  19          0
+Affc 'frenzy'   0  38   6  30  17          0
+Affc 'aid'   0  38   9  92  13          0
 End
 
 #O
@@ -701,26 +716,6 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 9573
-Nest 1
-PrevOwner Yogen~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Yogen~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 3715
 Nest 0
 PrevOwner Yogen~
@@ -904,7 +899,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -921,7 +916,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -938,7 +933,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -955,7 +950,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -972,7 +967,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -989,7 +984,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1006,7 +1001,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1023,7 +1018,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1040,7 +1035,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1057,7 +1052,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1074,7 +1069,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1091,7 +1086,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1108,7 +1103,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1125,7 +1120,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1142,7 +1137,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1159,7 +1154,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1176,7 +1171,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1193,7 +1188,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1210,7 +1205,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1227,7 +1222,7 @@ Cond 0
 Wear -1
 Lev  18
 Cost 0
-Val  51 230 -1 -1 -1
+Val  51 235 -1 -1 -1
 Spell 1 'summon dead'
 End
 
@@ -1282,13 +1277,40 @@ Enchanted
 Nest 0
 PrevOwner Yogen~
 ExtF 16777298
-Stolen 2289
+Stolen 2232
 Cond 0
 Wear 16
 Lev  30
 Cost 11000
 Affc 'enchant weapon'   1  52  -1  13  18          0
 Affc 'enchant weapon'   1  52  -1  12  19          0
+End
+
+#O
+Vnum 3294
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 9900
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
 End
 
 #END

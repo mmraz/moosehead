@@ -2,18 +2,19 @@
 Name Kye~
 Id   949355695
 Email (null)~
-LogO 1019305840
-Vers 31
+LogO 1335061506
+Vers 33
 Prom <%h/%Hhp %m/%Mm %vmv $%g %X> ~
 Race elf~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 1
-SkPTracker 35
+SkPTracker 5
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,55 +26,61 @@ LoginsWOKill 1
 LoginsWODeath 1
 LoginsWOCombat 1
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -5 xochipili~
-Sac  300
-Sex  0
+Sac  0
+Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 951537263
 Glad 0 0 0 0 0 0
-LastHost 157.89.174.92~
+LastHost 69.176.22.224~
 Cla  12
 ClaO 1
-Levl 16
+Levl 18
 DLevl 0
-Plyd 128734
-Not  960398297 960396298 960396298 960396298 960396298 960396298 960396298 960396298 960396298 0
+Plyd 131511
+Not  1330185590 1330185590 1330185590 1330185590 1330185590 1330185590 1330185590 1330185590 1330185590 1330185590
 Scro 22
 Rank 0
 Room 3001
-HMV  264 264 255 255 146 146
-Gold 106
-Silv 1043
-Exp  158974
+HMV  241 241 277 277 168 168
+Gold 756
+Silv 5816
+Exp  178376
 Act  CDEFGHM
-AfBy JV
+MHSF R
+AfBy J
 Comm S
 Disp FIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 37
-SkiP 175
-Save  -2
+Prac 57
+Trai 9
+SkiP 1
+Save  -5
 Alig  -1000
-Hit   16
+Hit   14
 Dam   9
-SecHit   8
+SecHit   6
 SecDam   2
-ACs 79 67 69 106
+ACs 66 59 59 78
 Wimp  20
-Attr 17 18 20 15 16 16 16 16
-AMod 2 0 0 6 4 0 0 0
+Attr 17 20 20 15 16 11 12 16
+AMod 2 0 2 4 5 0 0 0
 Pass KyIbWBbEisMzg~
 Titl  you are NOT lagging.  You just speed read.~
 Pnts 98
 TSex 1
-LLev 1
-HMVP 220 235 146
-Cnd  0 0 7 0
+LLev 36
+HMVP 241 257 168
+Cnd  7 24 20 36
 Alias 1 cast 'cure critical'~
 Sk 66 'aid'
 OldSk 66 'aid'
@@ -173,7 +180,7 @@ Sk 1 'flamestrike'
 OldSk 1 'flamestrike'
 Sk 1 'floating disc'
 OldSk 1 'floating disc'
-Sk 1 'fly'
+Sk 61 'fly'
 OldSk 1 'fly'
 Sk 1 'forget'
 OldSk 1 'forget'
@@ -216,16 +223,16 @@ Sk 75 'poison'
 OldSk 75 'poison'
 Sk 1 'portal'
 OldSk 1 'portal'
-Sk 1 'protection evil'
+Sk 61 'protection evil'
 OldSk 63 'protection evil'
-Sk 1 'protection good'
+Sk 61 'protection good'
 OldSk 29 'protection good'
 Sk 1 'protection neutral'
 OldSk 1 'protection neutral'
 Sk 1 'psionic blast'
 Sk 1 'ray of truth'
 OldSk 1 'ray of truth'
-Sk 30 'refresh'
+Sk 33 'refresh'
 OldSk 1 'refresh'
 Sk 1 'remove curse'
 OldSk 1 'remove curse'
@@ -243,7 +250,7 @@ Sk 75 'summon'
 OldSk 75 'summon'
 Sk 1 'teleport'
 OldSk 1 'teleport'
-Sk 1 'tower of iron will'
+Sk 50 'tower of iron will'
 Sk 32 'warp'
 OldSk 32 'warp'
 Sk 57 'weaken'
@@ -257,14 +264,14 @@ OldSk 1 'gas breath'
 OldSk 1 'lightning breath'
 Sk 1 'animate dead'
 OldSk 1 'animate dead'
-Sk 1 'summon dead'
+Sk 53 'summon dead'
 OldSk 1 'summon dead'
 Sk 1 'cryogenesis'
 OldSk 1 'cryogenesis'
 Sk 1 'draw life'
 OldSk 1 'draw life'
 Sk 1 'make bag'
-Sk 1 'turn undead'
+Sk 61 'turn undead'
 OldSk 57 'turn undead'
 Sk 1 'withstand death'
 OldSk 1 'withstand death'
@@ -272,7 +279,7 @@ Sk 1 'wound transfer'
 OldSk 1 'wound transfer'
 Sk 1 'flail'
 OldSk 10 'flail'
-Sk 95 'mace'
+Sk 97 'mace'
 OldSk 95 'mace'
 Sk 1 'dodge'
 OldSk 1 'dodge'
@@ -313,11 +320,9 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-Affc 'change sex'   0  15  19  -1   6          0
-Affc 'haste'   0  16   1   2   2    2097152
-Affc 'bless'   0  17  17   2  18          0
-Affc 'bless'   0  17  17  -2  24          0
-Affc 'aid'   0  16   2  24  13          0
+Affc 'shield'   0  47   8 -20  17          0
+Affc 'bless'   0  19  24   2  18          0
+Affc 'bless'   0  19  24  -2  24          0
 End
 
 #O
@@ -334,7 +339,7 @@ Vnum 3502
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 6
+Wear -1
 Cost 490
 End
 
@@ -345,15 +350,6 @@ PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 0
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 400
 End
 
 #O
@@ -379,7 +375,7 @@ Vnum 3072
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 5
+Wear -1
 Cost 850
 End
 
@@ -451,7 +447,7 @@ Vnum 4434
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 4
+Wear -1
 Cost 550
 End
 
@@ -471,42 +467,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
 End
 
 #O
@@ -591,16 +551,6 @@ Cost 10000
 End
 
 #O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 20404
 Nest 0
 PrevOwner (null)~
@@ -641,7 +591,7 @@ Vnum 8509
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 0
 End
 
@@ -650,7 +600,7 @@ Vnum 4434
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 4
 Cost 550
 End
 
@@ -659,7 +609,7 @@ Vnum 4433
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 15
+Wear -1
 Cost 550
 End
 
@@ -731,7 +681,7 @@ Vnum 5707
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 5
 Cost 500
 End
 
@@ -803,7 +753,7 @@ Vnum 3052
 Nest 0
 PrevOwner Kye~
 Cond 0
-Wear 14
+Wear 15
 Cost 0
 End
 
@@ -812,22 +762,58 @@ Vnum 3052
 Nest 0
 PrevOwner Kye~
 Cond 0
-Wear -1
+Wear 14
 Cost 0
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #O
 Vnum 2910
 Enchanted
 Nest 0
-PrevOwner Kye~
+PrevOwner Meltwater~
 ExtF 67
 Cond 0
 Wear 16
-Lev  13
-Cost 1500
-Affc 'enchant weapon'   1  52  -1   8  18          0
-Affc 'enchant weapon'   1  52  -1   7  19          0
+Lev  14
+Cost 0
+Affc 'enchant weapon'   1  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+End
+
+#O
+Vnum 8508
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 17
+Cost 1300
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Kye~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #END

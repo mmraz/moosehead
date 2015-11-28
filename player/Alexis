@@ -2,20 +2,37 @@
 Name Alexis~
 Id   996476672
 Email (null)~
-LogO 1108386204
-Vers 31
+LogO 1445608077
+Vers 33
 LnD  A Gladiator~
-Prom (%h %m %v)[{W%g.%s %n/%N %w %a{x][%t]%c[%r][%e] ~
+Desc ********************************************************************************
+*  An elder Dragon, robed in lambent flame, utters in an ancient voice         *
+*  a sacred prayer of the {DBlood{RLine{x. Alexis, the Bishop of the {DBlood{RLine{x       *
+*  Paladins, is now aware of your presence. An incandescent aura of {Bfaith{x      *
+*  surrounds him, a shield of {Dbrimstone{x guards his power. The sanctified       *
+*  symbols of the {DBlood{RLine{x are forever branded onto his mighty arm. Heathen   *
+*  souls scream for escape from between his horrid claws, his teeth tainted    *
+*  with their {Rblood{x. The brooding legends of the dead speak no truths about    *
+*  this Dragon, his is a terror that has been terribly silenced by the winds   *
+*  of doom. He has vowed eternal {Rdamnation{x to unbelievers, and a path of       *
+*  righteousness for the members of the {DBlood{RLine{x. Know now that if you        *
+*  are within his protection, you have nothing to fear from this Paladin.      *
+*  Be you a heathen, then prepare yourself to meet the wrath of a Knight that  *
+*  will very soon be judge of your spirit.                                     *
+********************************************************************************
+~
+Prom %c[%h%b%m%B%v]%c[%g.%s %n/%N %w/%W %a][%r-%e][%t] ~
 Race dragon~
 Outc 0
 RufT 0
-MatookT 0
+MatookT 24
 Abol -1
-SkPTimer 17
-SkPTracker 12
+SkPTimer 1
+SkPTracker 3
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,58 +44,65 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
-Deity 124628 huitzilopochtli~
+DeityFavor 1 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 8
+QuestWins 2 8
+Deity 124628 mojo~
 DeityT -14318 xochipili~
 Sac  700
-Sex  0
+Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 996476685
 Glad 0 0 1 8 1 1
-LastHost 146.230.192.63~
+LastHost 197.78.156.186~
 Cla  5
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 1117658
-Not  1108092640 1097779769 1097779769 1097779769 1097779769 1097779769 1097779769 1097779769 1097779769 1097779769
+Plyd 1561398
+Not  1443811465 1443811465 1443811465 1443811465 1443811465 1443811465 1443811465 1443811465 1443811465 1443811465
 Scro 98
 Rank 0
 Room 3054
-HMV  1213 1367 1128 1128 304 527
-Gold 85
-Silv 408
+HMV  1307 1307 903 1303 137 527
+Gold 407
+Silv 7376
+BankEggs 29
 Exp  255071
-Act  DGHIKPS
-MHSF RX
-AfBy CHJTVb
-Comm GI
+Act  CDGHIKQS
+MHSF R
+AfBy CDEFJTW
+Comm GS
 Disp AFGIJ
 IcgB 0
 Icg 0
-Pnet ABCDEFGHI
+Pnet ABCDEFGHIJ
 Pos  4
-Prac 3
-SkiP 394
-Save  -13
+Prac 16
+SkiP 390
+Save  -12
 Alig  -1000
-Hit   33
-Dam   29
-SecHit   21
-SecDam   17
-ACs -69 -63 -66 -5
-Wimp  50
-Attr 18 17 20 20 23 17 18 18
-AMod 4 7 5 9 2 2 0 0
-Pass AlVajsDgMkcUI~
-Titl .~
+Hit   26
+Dam   22
+SecHit   25
+SecDam   21
+ACs -198 -192 -198 -183
+Wimp  20
+Attr 21 17 20 20 23 11 14 18
+AMod 6 7 3 5 -1 0 0 0
+Pass AlCsze5JFJcxg~
+Titl  Bishop of the {RBlood{DLine{x~
 Pnts 80
 TSex 1
 LLev 50
-HMVP 1132 943 492
-Cnd  0 3 21 15
+HMVP 1202 943 492
+Cnd  0 28 28 28
 Alias kk who~
 Alias c chant~
 Alias hea chant heal~
@@ -91,37 +115,37 @@ Alias lig chant 'lightning breath'~
 Alias lc l in cor~
 Alias bl chant bless~
 Alias fb chant 'fire breath'~
-Alias zx chant entrance~
 Alias ea chant earthquake~
 Alias h murder~
+Alias dis chant 'dispel mag~
 Sk 100 'acid blast'
 Sk 1 'aid'
 Sk 100 'armor'
 Sk 1 'bestow holiness'
 Sk 100 'bless'
-Sk 80 'body weaponry'
+Sk 84 'body weaponry'
 Sk 1 'burning hands'
 Sk 1 'calm'
-Sk 97 'cancellation'
-Sk 79 'chain lightning'
+Sk 100 'cancellation'
+Sk 89 'chain lightning'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
 Sk 1 'crusade'
-Sk 89 'cure blindness'
+Sk 98 'cure blindness'
 Sk 89 'cure critical'
 Sk 75 'cure disease'
 Sk 1 'cure light'
-Sk 94 'cure poison'
+Sk 99 'cure poison'
 Sk 77 'cure serious'
-Sk 79 'curse'
+Sk 83 'curse'
 Sk 100 'demonfire'
 Sk 1 'detect evil'
-Sk 94 'detect good'
+Sk 100 'detect good'
 Sk 100 'detect hidden'
-Sk 98 'detect invis'
+Sk 100 'detect invis'
 Sk 100 'detect magic'
 Sk 1 'detect poison'
-Sk 78 'dispel evil'
+Sk 81 'dispel evil'
 Sk 75 'dispel good'
 Sk 100 'dispel magic'
 Sk 100 'earthquake'
@@ -131,24 +155,24 @@ Sk 1 'enervation'
 Sk 100 'entrance'
 Sk 100 'famine'
 Sk 83 'farsight'
-Sk 97 'feast'
+Sk 99 'feast'
 Sk 1 'fireball'
 Sk 84 'fireproof'
-Sk 75 'flamestrike'
-Sk 98 'flameseek'
+Sk 86 'flamestrike'
+Sk 100 'flameseek'
 Sk 88 'fly'
-Sk 99 'frenzy'
+Sk 100 'frenzy'
 Sk 100 'gate'
 Sk 100 'giant strength'
 Sk 100 'haste'
 Sk 100 'heal'
-Sk 79 'heat metal'
+Sk 88 'heat metal'
 Sk 1 'hold person'
 Sk 1 'holy silence'
 Sk 75 'holy word'
-Sk 78 'hydrophilia'
+Sk 81 'hydrophilia'
 Sk 100 'identify'
-Sk 96 'indulgence'
+Sk 100 'indulgence'
 Sk 1 'infravision'
 Sk 1 'knock'
 Sk 1 'know alignment'
@@ -156,18 +180,18 @@ Sk 1 'lay on hands'
 Sk 1 'lightning bolt'
 Sk 100 'locate object'
 Sk 1 'magic missile'
-Sk 75 'mass healing'
-Sk 87 'mirror image'
+Sk 79 'mass healing'
+Sk 97 'mirror image'
 Sk 1 'nexus'
 Sk 95 'pass door'
-Sk 84 'portal'
+Sk 87 'portal'
 Sk 77 'protection evil'
 Sk 83 'protection good'
 Sk 78 'protection neutral'
 Sk 1 'psionic blast'
-Sk 75 'ray of truth'
+Sk 78 'ray of truth'
 Sk 100 'refresh'
-Sk 75 'regeneration'
+Sk 78 'regeneration'
 Sk 100 'remove curse'
 Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
@@ -178,20 +202,20 @@ Sk 75 'see soul'
 Sk 100 'stone skin'
 Sk 100 'summon'
 Sk 100 'teleport'
-Sk 82 'tower of iron will'
+Sk 98 'tower of iron will'
 Sk 100 'word of recall'
 Sk 94 'acid breath'
-Sk 87 'fire breath'
-Sk 82 'frost breath'
+Sk 92 'fire breath'
+Sk 88 'frost breath'
 Sk 75 'gas breath'
 Sk 98 'lightning breath'
-Sk 77 'animate dead'
+Sk 79 'animate dead'
 Sk 100 'summon dead'
 Sk 75 'cryogenesis'
-Sk 75 'draw life'
-Sk 78 'make bag'
+Sk 78 'draw life'
+Sk 79 'make bag'
 Sk 100 'turn undead'
-Sk 81 'withstand death'
+Sk 94 'withstand death'
 Sk 77 'wound transfer'
 Sk 100 'axe'
 Sk 100 'dagger'
@@ -200,22 +224,25 @@ Sk 100 'mace'
 Sk 100 'polearm'
 Sk 100 'spear'
 Sk 100 'sword'
-Sk 84 'whip'
+Sk 100 'whip'
 Sk 75 'berserk'
 Sk 100 'bleed'
 Sk 100 'dodge'
+Sk 73 'enhanced critical'
 Sk 100 'enhanced damage'
 Sk 100 'hand to hand'
 Sk 100 'parry'
+Sk 96 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
 Sk 100 'fast healing'
 Sk 100 'holy chant'
+Sk 78 'pick lock'
 Sk 73 'scrolls'
 Sk 75 'staves'
-Sk 79 'wands'
-Sk 95 'swimming'
+Sk 86 'wands'
+Sk 98 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'paladin basics'
@@ -233,64 +260,17 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'sanctuary'   0  47   4   0   0        128
-Affc 'haste'   0  47  20   4   2    2097152
-Affc 'detect good'   0  47  42   0   0          4
-Affc 'bless'   0  40  23  -5  24          0
-Affc 'bless'   0  41  23   5  18          0
-Affc 'shield'   0  36   2 -20  17          0
-End
-
-#O
-Vnum 22507
-Enchanted
-Nest 0
-PrevOwner Alexis~
-Cond 0
-Wear 12
-Cost 0
-Affc 'reserved'   1  50  -1  75  12          0
-Affc 'reserved'   1  50  -1   3   2          0
-Affc 'reserved'   1  50  -1   2   3          0
-End
-
-#O
-Vnum 5937
-Enchanted
-Nest 0
-PrevOwner Alexis~
-ExtF 134217793
-Wt   28
-Cond 0
-Wear 9
-Lev  42
-Cost 4000
-Val  8 8 8 5 0
-Affc 'reserved'   1  37  -1   2  19          0
-Affc 'reserved'   1  37  -1   2   1          0
-End
-
-#O
-Vnum 12004
-Enchanted
-Nest 0
-PrevOwner Alexis~
-ExtF 2113
-Cond 0
-Wear 7
-Lev  50
-Cost 40
-Affc 'reserved'   1  44  -1  35  13          0
-Affc 'reserved'   1  44  -1   3   2          0
-End
-
-#O
-Vnum 22504
-Nest 0
-PrevOwner Alexis~
-Cond 0
-Wear 0
-Cost 0
+Affc 'detect good'   0  47  36   0   0          4
+Affc 'armor'   0  50   9 -20  17          0
+Affc 'shield'   0  43  32 -20  17          0
+Affc 'stone skin'   0  46  24 -40  17          0
+Affc 'giant strength'   0  46  24   4   1          0
+Affc 'bless'   0  48  30   6  18          0
+Affc 'bless'   0  46  30  -6  24          0
+Affc 'detect hidden'   0  49  36   0   0         32
+Affc 'detect invis'   0  47  36   0   0          8
+Affc 'detect magic'   0  48  37   0   0         16
+Affc 'indulgence'   0  48  25   0   0          0
 End
 
 #O
@@ -307,17 +287,12 @@ Cost 710
 End
 
 #O
-Vnum 22506
-Enchanted
+Vnum 11023
 Nest 1
 PrevOwner Alexis~
-ExtF 536870979
 Cond 0
 Wear -1
-Lev  50
-Cost 1200
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
+Cost 10000
 End
 
 #O
@@ -330,25 +305,237 @@ Cost 10000
 End
 
 #O
-Vnum 20839
+Vnum 22506
 Enchanted
 Nest 1
 PrevOwner Alexis~
-ExtF 524355
+ExtF 536870979
+Cond 0
+Wear -1
+Lev  50
+Cost 1200
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 10414
+Nest 1
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 5000
+Spell 3 'sleep'
+End
+
+#O
+Vnum 11023
+Nest 1
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 10708
+Nest 1
+PrevOwner Alexis~
+ExtF 1
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 5408
+Nest 1
+PrevOwner Alexis~
+ExtF 16
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23562
+Nest 1
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 5000
+Spell 3 'protection neutral'
+End
+
+#O
+Vnum 5706
+Nest 1
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 10415
+Nest 1
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 5400
+Val  2 4 10 5 516
+End
+
+#O
+Vnum 18433
+Enchanted
+Nest 1
+PrevOwner Alexis~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 23503
+Enchanted
+Nest 1
+PrevOwner Alexis~
+ExtF 537397315
+Cond 0
+Wear -1
+Lev  50
+Cost 1721
+Affc 'enchant weapon'   1  39  -1  10  19          0
+Affc 'enchant weapon'   0  39  -1  10  18          0
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 1
+PrevOwner Alexis~
+ExtF 537395523
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 23505
+Enchanted
+Nest 1
+PrevOwner Alexis~
+ExtF 538443843
+Cond 0
+Wear -1
+Lev  50
+Cost 700
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 1
+PrevOwner Alexis~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 3200
+Val  4 5 8 38 512
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 5944
+Nest 1
+PrevOwner Alexis~
+ExtF 554173185
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 23506
+Nest 1
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 170
+End
+
+#O
+Vnum 10434
+Nest 1
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 18900
+Val  54 50 30 206 0
+Spell 3 'teleport'
+End
+
+#O
+Vnum 10300
+Enchanted
+Nest 1
+PrevOwner Alexis~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
+Vnum 12001
+Nest 1
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10451
+Enchanted
+Nest 1
+PrevOwner Alexis~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6250
 Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
-Vnum 8504
+Vnum 10431
+Enchanted
 Nest 1
 PrevOwner Alexis~
+ExtF 66
 Cond 0
 Wear -1
-Cost 6000
+Lev  50
+Cost 3250
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
@@ -365,438 +552,25 @@ Wear -1
 Lev  50
 Cost 150
 Val  2 7 5 2 12
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'reserved'   1  42  -1  15  12          0
 Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 23503
-Enchanted
-Nest 1
-PrevOwner Alexis~
-ExtF 537397315
-Cond 0
-Wear -1
-Lev  50
-Cost 1721
-Affc 'enchant weapon'   0  39  -1  10  18          0
-Affc 'enchant weapon'   1  39  -1  10  19          0
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Alexis~
-ExtF 66
-Stolen 774
-Cond 0
-Wear -1
-Lev  50
-Cost 3200
-Val  4 5 8 38 512
-Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'reserved'   1  42  -1  15  12          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
 Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
-Vnum 20010
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 9203
+Vnum 4100
 Enchanted
 Nest 1
 PrevOwner Alexis~
-ExtF 67
+ExtF 2627
+Damaged 10
 Cond 0
 Wear -1
-Lev  37
-Cost 2800
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
-End
-
-#O
-Vnum 9007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 23505
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 700
-End
-
-#O
-Vnum 22552
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 18433
-Enchanted
-Nest 1
-PrevOwner Alexis~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 0
+Lev  21
+Cost 940
 Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
-End
-
-#O
-Vnum 2434
-Enchanted
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 2400
-Affc 'reserved'   1  48  -1  10  13          0
-Affc 'reserved'   1  48  -1   2   4          0
-End
-
-#O
-Vnum 5914
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 23504
-Enchanted
-Nest 1
-PrevOwner Alexis~
-ExtF 537395523
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-End
-
-#O
-Vnum 10450
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 20731
-Enchanted
-Nest 1
-PrevOwner Alexis~
-ExtF 67
-Cond 0
-Wear -1
-Cost 3100
-Val  7 7 6 3 512
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 11023
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 9010
-Nest 1
-PrevOwner Alexis~
-ExtF 0
-Cond 0
-Wear -1
-Cost 1032
-End
-
-#O
-Vnum 16639
-Nest 1
-PrevOwner Alexis~
-ExtF 554175776
-Cond 0
-Wear -1
-Cost 4899
-End
-
-#O
-Vnum 913
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 3600
-Val  5 3 11 1 512
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 1206
-Nest 1
-PrevOwner Alexis~
-ExtF 1572871
-Cond 0
-Wear -1
-Cost 10
-End
-
-#O
-Vnum 20733
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 20733
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 3000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 10309
-Nest 1
-PrevOwner Alexis~
-Name favoured weapons bag~
-ShD  a bag of {RAlexis' {BFAVOURED {DWeapons{x~
-Desc Here lies {RAlexis' {xpersonal bag of {BFAVOURED {DWeapons{x~
-Cond 0
-Wear -1
-Cost 6011
-End
-
-#O
-Vnum 23504
-Nest 2
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 4500
-Val  2 2 20 38 1025
-End
-
-#O
-Vnum 10456
-Enchanted
-Nest 2
-PrevOwner Alexis~
-ExtF 524354
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Val  8 3 13 19 1026
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-End
-
-#O
-Vnum 2413
-Nest 2
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 2700
-Val  4 6 6 8 1027
 End
 
 #O
@@ -812,20 +586,6 @@ Cost 6011
 End
 
 #O
-Vnum 10300
-Enchanted
-Nest 2
-PrevOwner Alexis~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
 Vnum 2419
 Nest 2
 PrevOwner Alexis~
@@ -836,30 +596,6 @@ Val  8 3 13 6 768
 End
 
 #O
-Vnum 10320
-Enchanted
-Nest 2
-PrevOwner Alexis~
-ExtF 67
-Cond 0
-Wear -1
-Cost 9500
-Val  5 5 8 18 548
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   1  53  -1  13  18          0
-End
-
-#O
-Vnum 10415
-Nest 2
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 5400
-Val  2 4 10 5 516
-End
-
-#O
 Vnum 22514
 Nest 2
 PrevOwner Alexis~
@@ -867,6 +603,69 @@ Cond 0
 Wear -1
 Cost 0
 Val  8 3 13 40 544
+End
+
+#O
+Vnum 10300
+Enchanted
+Nest 2
+PrevOwner Alexis~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'reserved'   0  48  -1   0   0     524288
+End
+
+#O
+Vnum 12086
+Enchanted
+Nest 1
+PrevOwner Alexis~
+ExtF 17301569
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant armor'   1  53  -1  -8  17          0
+Affc 'reserved'   1  51  -1   3  19          0
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 9500
+Val  5 5 8 18 548
+End
+
+#O
+Vnum 913
+Nest 1
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 3600
+Val  5 3 11 1 512
+End
+
+#O
+Vnum 5912
+Enchanted
+Nest 1
+PrevOwner Alexis~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1500
+Val  5 4 10 21 1024
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -883,70 +682,213 @@ Wear -1
 Lev  50
 Cost 1000
 Val  3 7 5 34 1536
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O
-Vnum 12079
-Nest 0
-PrevOwner Slammer~
-ExtF 17301505
+Vnum 10309
+Nest 1
+PrevOwner Alexis~
+Name favoured weapons bag~
+ShD  a bag of {RAlexis' {BFAVOURED {DWeapons{x~
+Desc Here lies {RAlexis' {xpersonal bag of {BFAVOURED {DWeapons{x~
 Cond 0
-Wear 10
+Wear -1
+Cost 6011
+End
+
+#O
+Vnum 12063
+Nest 2
+PrevOwner Alexis~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 6517
+Nest 2
+PrevOwner Alexis~
+Cond 0
+Wear -1
 Cost 0
 End
 
 #O
-Vnum 23515
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 2
-Cost 7609
-End
-
-#O
-Vnum 23513
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 3
-Cost 6410
-End
-
-#O
-Vnum 22559
-Nest 0
-PrevOwner Alexis~
-ExtF 1
-Cond 0
-Wear 1
-Cost 3000
-End
-
-#O
-Vnum 8531
-Nest 0
+Vnum 6517
+Nest 2
 PrevOwner Alexis~
 Cond 0
-Wear 13
-Cost 600
+Wear -1
+Cost 0
 End
 
 #O
-Vnum 11078
+Vnum 12063
+Nest 2
+PrevOwner Alexis~
+ExtF 555483201
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 22511
+Nest 2
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 22511
+Nest 2
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 22511
+Nest 2
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 23504
+Nest 2
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 4500
+Val  2 2 20 38 1025
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 2
+PrevOwner Alexis~
+Name slayer elven~
+ShD  The Elf Slayer~
+Desc A large iron weapon lies in the corner, covered in elven blood.~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Val  4 5 8 7 1280
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
+End
+
+#O
+Vnum 12001
+Nest 2
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12001
+Nest 2
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12001
+Nest 2
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12001
+Nest 2
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12001
+Nest 2
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22552
+Enchanted
+Nest 1
+PrevOwner Alexis~
+ExtF 67
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 1
+PrevOwner Alexis~
+ExtF 99
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Val  2 2 19 2 8199
+Affc 'enchant weapon'   1  53  -1  15  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 2437
+Nest 1
+PrevOwner Alexis~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 12004
 Enchanted
 Nest 0
 PrevOwner Alexis~
-ExtF 65
+Name greaves knight alexis~
+ShD  {WThe {DGreaves {Wof the {RKnight{X~
+Desc Here lies {WThe {DGreaves {Wof a {RKnight{X belonging to {RAlexis{x~
+ExtF 2113
 Cond 0
-Wear 11
-Lev  45
-Cost 3500
-Affc 'reserved'   1  42  -1   2   1          0
-Affc 'reserved'   1  42  -1   2  19          0
-Affc 'reserved'   1  42  -1   1  18          0
+Wear 7
+Lev  50
+Cost 40
+Affc 'enchant armor'   1  52  -1 -14  17          0
+Affc 'reserved'   1  44  -1  35  13          0
+Affc 'reserved'   1  44  -1   3   2          0
 End
 
 #O
@@ -954,30 +896,230 @@ Vnum 12001
 Enchanted
 Nest 0
 PrevOwner Alexis~
+Name bloodstained boots alexis~
+ShD  {RBloodstained {Wboots{x~
+Desc Here lies {RBloodstained {WBoots{x belonging to {RAlexis{x~
 ExtF 17449025
 Cond 0
 Wear 8
 Lev  49
 Cost 0
-Affc 'enchant armor'   1  53  -1  -5  17          0
-Affc 'reserved'   1  44  -1  35  14          0
-Affc 'reserved'   1  44  -1   3  19          0
 Affc 'reserved'   1  44  -1   2  18          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1  35  14          0
+Affc 'enchant armor'   1  53  -1  -5  17          0
 End
 
 #O
-Vnum 9008
+Vnum 10447
+Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Alexis~
+Name breastplate bloodline alexis~
+ShD  {WThe {DBreastplate {Wof the {DBlood{RLine{x~
+Desc Here lies {WThe {DBreastplate {Wof the {DBlood{RLine{x belonging to {RAlexis'{x~
+ExtF 65
+Cond 0
+Wear 5
+Lev  50
+Cost 13700
+Affc 'reserved'   1  45  -1  30  12          0
+Affc 'reserved'   1  45  -1  -4  20          0
+Affc 'enchant armor'   1  52  -1 -11  17          0
+End
+
+#O
+Vnum 22504
+Nest 0
+PrevOwner Alexis~
+Name beacon eternal flame alexis~
+ShD  {WThe{x {DBeacon{x {Wof{x {REternal{x {YFlame{x~
+Desc Here lies {WThe{x {DBeacon{x {Wof{x {REternal{x {YFlame{x belonging to {RAlexis{x~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 22559
+Nest 0
+PrevOwner Alexis~
+Name bloodline ring alexis~
+ShD  {WA{x {DBlood{Rline{x {WSignet{x {RRing{x~
+Desc Here lies {WThe{x {DBlood{Rline{x {WSignet{x {RRing{X belonging to {RAlexis{x~
+ExtF 1
+Cond 0
+Wear 2
+Cost 3000
+End
+
+#O
+Vnum 23515
+Nest 0
+PrevOwner Alexis~
+Name Paladin ring alexis~
+ShD  {WA{x {DPaladin{x {WSignet{x {RRing{x~
+Desc Here lies {WA{x {DPaladin{x {WSignet{x {RRing{X belonging to {RAlexis{x~
+ExtF 17301569
+Cond 0
+Wear 1
+Cost 7609
+End
+
+#O
+Vnum 8545
+Enchanted
+Nest 0
+PrevOwner Alexis~
+Name Bloodstained Gauntlets Alexis~
+ShD  {RBloodstained {Wgauntlets{x~
+Desc Here lies {RBloodstained {Wgauntlets{x belonging to {RAlexis'{x~
+ExtF 1048641
+Cond 0
+Wear 9
+Cost 3400
+Affc 'reserved'   1  50  -1   3  19          0
+Affc 'reserved'   1  50  -1   2  18          0
+Affc 'enchant armor'   1  52  -1 -13  17          0
+End
+
+#O
+Vnum 8543
+Nest 0
+PrevOwner Alexis~
+Name Tattoo Black Panther Alexis~
+ShD  {WA{x {DTattoo{x {Wof a{x {DBlack{x {RPanther{x~
+Desc Here lies {WA{x {DTattoo{x {Wof a{x {DBlack{x {RPanther{x belonging to {RAlexis'{x~
+ExtF 65
+Cond 0
+Wear 10
+Cost 4250
+End
+
+#O
+Vnum 11078
+Enchanted
+Nest 0
+PrevOwner Alexis~
+Name Shield Brimstone Alexis~
+ShD  {WA{x {DShield{x {Wof{x {RBrimstone{x~
+Desc Here lies {WA{x {DShield{x {Wof{x {RBrimstone{x belonging to {RAlexis'{x~
+ExtF 65
+Cond 0
+Wear 11
+Lev  50
+Cost 3500
+Affc 'reserved'   1  42  -1   1  18          0
+Affc 'reserved'   1  42  -1   2  19          0
+Affc 'reserved'   1  42  -1   2   1          0
+Affc 'enchant armor'   1  52  -1 -11  17          0
+End
+
+#O
+Vnum 22507
+Enchanted
+Nest 0
+PrevOwner Alexis~
+Name Robe Lambent Alexis~
+ShD  {WA{x {DRobe{x {Wof{x {BLambent{x {YFlames{x~
+Desc Here lies {WA{x {DRobe{x {Wof{x {BLambent{x {YFlames{x belonging to {RAlexis'{x~
+Cond 0
+Wear 12
+Cost 0
+Affc 'reserved'   1  50  -1   2   3          0
+Affc 'reserved'   1  50  -1   3   2          0
+Affc 'reserved'   1  50  -1  75  12          0
+End
+
+#O
+Vnum 20727
+Enchanted
+Nest 0
+PrevOwner Alexis~
+Name Heavy Duty Ammo Belt Alexis~
+ShD  {WA{x {DHeavy{x {WDuty{x {BAmmo{x {RBelt{x~
+Desc Here lies {WA{x {DHeavy{x {WDuty{x {BAmmo{x {RBelt{x belonging to {RAlexis'{x~
+ExtF 262209
+Cond 0
+Wear 13
+Lev  50
+Cost 5500
+Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1   2  19          0
+Affc 'enchant armor'   1  52  -1 -10  17          0
+End
+
+#O
+Vnum 8544
+Enchanted
+Nest 0
+PrevOwner Alexis~
+Name Unobtainium Wristguard Alexis~
+ShD  {WAn{x {DUnobtainium{x {BAlloy{x {RWristguard{x~
+Desc Here lies {WAn{x {DUnobtainium{x {BAlloy{x {RWristguard{x belonging to {RAlexis{x~
+Cond 0
+Wear 15
+Lev  50
+Cost 9999
+Affc 'reserved'   1  48  -1   2  18          0
+Affc 'reserved'   1  48  -1   3  19          0
+Affc 'enchant armor'   1  52  -1 -13  17          0
+End
+
+#O
+Vnum 8544
+Enchanted
+Nest 0
+PrevOwner Alexis~
+Name Unobtainium Wristguard Alexis~
+ShD  {WAn{x {DUnobtainium{x {BAlloy{x {RWristguard{x~
+Desc Here lies {WAn{x {DUnobtainium{x {BAlloy{x {RWristguard{x belonging to {RAlexis{x~
+Cond 0
+Wear 14
+Lev  50
+Cost 9999
+Affc 'reserved'   1  48  -1   2  18          0
+Affc 'reserved'   1  48  -1   3  19          0
+Affc 'enchant armor'   1  52  -1 -13  17          0
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner Banker~
 Cond 0
 Wear -1
-Cost 4000
+Cost 4500
+End
+
+#O
+Vnum 18119
+Nest 0
+PrevOwner Banker~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 23129
+Nest 0
+PrevOwner Alexis~
+Name Visor Knight Alexis~
+ShD  {WThe {DVisor {Wof the {RKnight{X~
+Desc Here lies {WThe {DVisor {Wof a {RKnight{X belonging to {RAlexis'{x~
+Cond 0
+Wear 6
+Cost 10000
 End
 
 #O
 Vnum 12010
 Nest 0
 PrevOwner Alexis~
+Name Aura Faith Alexis~
+ShD  {WAn{x {DAura{x {Wof{x {RFaith{x~
+Desc Here lies {WAn{x {DAura{x {Wof{x {RFaith{x belonging to {RAlexis'{x~
 ExtF 1196065
 Cond 0
 Wear 18
@@ -985,85 +1127,58 @@ Cost 15000
 End
 
 #O
-Vnum 20805
+Vnum 1206
 Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 6
-Cost 300
-End
-
-#O
-Vnum 6423
-Nest 0
-PrevOwner Mairi~
-ExtF 134217728
-Wt   12
-Cond 0
-Wear 5
-Cost 19800
-Val  12 10 11 2 5
-End
-
-#O
-Vnum 12063
-Nest 0
-PrevOwner Eikel~
-ExtF 555483201
+PrevOwner Alexis~
+Name Screaming Soul Alexis~
+ShD  {WA{X {DScreaming{x {RSoul{x~
+Desc Here lies {WA{X {DScreaming{x {RSoul{x belonging to {RAlexis'{x~
+ExtF 1048583
 Cond 0
 Wear 17
-Cost 50000
+Cost 10
 End
 
 #O
-Vnum 8544
-Nest 0
-PrevOwner Alexis~
-Cond 0
-Wear 15
-Cost 9999
-End
-
-#O
-Vnum 8544
-Nest 0
-PrevOwner Alexis~
-Cond 0
-Wear 14
-Cost 9999
-End
-
-#O
-Vnum 18119
-Nest 0
-PrevOwner Alexis~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 2409
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3500
-End
-
-#O
-Vnum 10451
+Vnum 12060
 Enchanted
 Nest 0
 PrevOwner Alexis~
-ExtF 67
-Stolen 582
+Name Axe Vengeance Alexis~
+ShD  {WThe{X {DAxe{x {Wof{x {RVengeance{X~
+Desc {WThe{X {DAxe{x {Wof{x {RVengeance{X belonging to {RAlexis'{x~
+ExtF 554172609
 Cond 0
 Wear 16
-Lev  50
-Cost 6250
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
+Lev  49
+Cost 5234
+Val  5 6 7 38 8716
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'bestow holiness'   5  51  -1   0   0        512
+Affc 'enchant weapon'   1  59  -1   1  19          0
+Affc 'enchant weapon'   0  59  -1   1  18          0
+End
+
+#O
+Vnum 23513
+Nest 0
+PrevOwner Alexis~
+Name pendant illumination alexis~
+ShD  {WThe{x {DPendant{x {Wof{x {RIllumination{x~
+Desc Here lies a {WA{x {DPendant{x {Wof{x {RIllumination{x belonging to {RAlexis{x~
+ExtF 17301569
+Cond 0
+Wear 3
+Cost 6410
+End
+
+#O
+Vnum 2406
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3400
 End
 
 #END

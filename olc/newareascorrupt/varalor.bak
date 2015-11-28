@@ -1,0 +1,910 @@
+#AREA
+../newareas/varalor.are~
+Varalor~
+Ancient City of Varalor~
+16800 16838
+
+#MOBILES
+#16800
+Crystallized Goblin Miner~
+a Crystallized Goblin Miner~
+a Crystallized Goblin Miner stands here, hacking crystals.
+~
+A goblin miner stands here, hacking away at the crystalline walls. A 
+rusting copper helmet rests unevenly atop  its head, providing miniscule 
+protection, especially for its long crooked nose. Its short frame and torso 
+are covered by a rudimentary boiled leather apron. The goblins short thin 
+legs rest inside what could only be called mining "Troggstompers", leather 
+and copper made shoes way too big for its feet, however, obviously 
+providing ample protection from falling crystal shards. There is something 
+odd about this goblin... its skin has taken on a metallic green sheen. The 
+crystals it has been mining seems to be growing over its skin!
+~
+goblin~
+Greaaaargg!~
+(null)~
+(null)~
+ATe 0 150 0
+28 2 5d10+550 0d0+0 2d10+7 slice
+-8 -2 -8 -8
+CEKNRU BIK D E
+stand stand male 20
+0 0 medium 0
+F aff J
+F imm L
+F res Q
+F vul J
+F par GHIJK
+#16801
+Crystallized Goblin~
+{GCrystallized Goblin{x~
+A Crystallized Goblin stands here, manning a winch.
+~
+A goblin stands here manning a winch. He is struggling to hold a rope, 
+together with a number of other goblins. This goblin looks similar to the 
+miners you saw further up the shaft, however its skin has been almost 
+completely dominated by the crystal growth, it almost looks like a 
+completely different creature! The creature snarls at you but is too 
+occupied with its task to do more.
+~
+goblin~
+(null)~
+(null)~
+(null)~
+ATe 0 150 0
+28 2 5d10+550 0d0+0 2d10+7 slice
+-8 -2 -8 -8
+CEKNRU BIK D E
+stand stand male 0
+0 0 medium 0
+F aff J
+F imm L
+F res Q
+F vul J
+F par GHIJK
+#16802
+Crystallized Goblin Supervisor~
+A Crystallized Goblin Supervisor~
+A Crystallized Goblin Supervisor stands here, shouting orders.
+~
+~
+human~
+(null)~
+(null)~
+(null)~
+AT 0 0 0
+30 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#16800
+Crack Vertical Portal~
+A Vertical Crack~
+~
+Whiteshard~
+portal IOT 0
+0 0 0 16803 0
+0 100 0 P
+#16801
+Crack Vertical Portal~
+A Vertical Crack~
+~
+Whiteshard~
+portal IOT 0
+0 0 0 16802 0
+0 100 0 P
+#16802
+Green Crystal Shard~
+{GGreen Crystal{x shards~
+{GGreen Crystal{x shards litter the floor here, gleaming to an unknown light source~
+Green Crystal~
+gem ACRT P
+0 0 0 0 0
+0 100 0 P
+#0
+
+#ROOMS
+#16800
+The Entrance to a Small Tunnel through the {WWhiteshard{x Mountains~
+You are standing at the entrance of a small tunnel. The rock face ahead 
+seems to have been hacked away, leaving a rugged hole just large enough to 
+fit through. It looks as though the rubble and sand around the entrance has 
+only recently fallen; leaving what is now an entrance through the 
+mountains.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 16801
+E
+~
+Generic extended description.
+~
+S
+#16801
+A Small Tunnel Through the {WWhiteshard{x Mountains~
+You have climbed through the small opening and leave what was once the Old 
+Goblin Headquarters behind. A small drop to the ground onto moist dirt
+shows tracks of many small feet passing both ways. The tunnel itself seems 
+to be made up of bone-white rocks shimmering slightly to an unknown light.
+The tunnel widens slightly up ahead before curving sharply to the west.
+~
+0 0 0
+O Karag~
+D0
+Exit ~
+door~
+16384 0 16800
+D2
+Exit ~
+door~
+16384 0 16802
+S
+#16802
+A Wider Part of the Tunnel Through the {WWhiteshard{x Mountains~
+You follow the shimmering rock wall further south into the mountain. The
+walls here have been roughly hacked away, as if in a frenzy. Sharp
+{Wwhite{x rocks protrude all around you like teeth, menacingly growling. If
+it wasnt for the fact that the light was coming from somewhere, you would
+have thought this a dead-end. The light seems to be coming from a small
+vertical crack between the rocks to your left.
+~
+0 0 5
+D0
+Exit ~
+door~
+16384 0 16801
+S
+#16803
+The Entrance to the Cavern of {WShards{x~
+You shave yourself through the crack in the rock only to be momentarily blinded
+by a {Bm{Gu{Yl{Rt{Ci{Mt{Bu{Gd{Ye{x of lights somewhere around you. Your eyes
+adjust to the light but it is still difficult to focus on any specific point for
+long. You have entered a cavernous space, brilliantly white and reflecting light
+infinitely between the crystals lining the walls around you. You can see smaller
+tunnels veering off in all directions, all of them seem to glow and change colour
+in a {Bk{Ga{Yl{Re{Ci{Md{Bo{Gs{Yc{Ro{Cp{Me{x of light reflecting from further in.
+The light must be coming from somewhere.
+~
+0 0 5
+D0
+Exit ~
+door~
+16384 0 16806
+D1
+Exit ~
+door~
+16384 0 16808
+D3
+Exit ~
+door~
+16384 0 16804
+S
+#16804
+The Western Side of the Cavern of {WShards{x~
+The space within the cavern here is so large that it has taken a few minutes
+just to walk to the western side. The entrance to the glowing green tunnels
+loom above you to the west while to the northeast the cavernous space extends
+towards the red cave entrance. The east leads back to the entrance of the
+cavern. Light continues to assault you from all sides, crystals constantly
+gleaming and shimmering all around you.
+~
+0 0 5
+D0
+Exit ~
+door~
+16384 0 16805
+D1
+Exit ~
+door~
+16384 0 16803
+D3
+Exit ~
+door~
+16384 0 16809
+S
+#16805
+The North Western Corner of the Cavern of {WShards{x~
+The space within the cavern here is so large that it has taken a few minutes
+just to walk to the north western corner. To the south you can just see the
+outline of the green tunnels. The far south eastern cavern glows a soft blue
+hue , another tunnel it would seem, dispersing its own coloured light to the
+surrounding area. The southeast leads back to the entrance of the cavern.
+Light continues to assault you from all sides, crystals constantly gleaming
+and shimmering around you. The distant roof of the cavern looks just like a
+perfect night sky.
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 16806
+D2
+Exit ~
+door~
+16384 0 16804
+S
+#16806
+The Northern Side of the Cavern of {WShards{x~
+The space within the cavern here is so large that it has taken a few 
+minutes just to walk to the northern side. The entrance to the glowing red 
+tunnels loom above you to the north while to the southwest the cavernous 
+space extends towards the green cave entrance. The south eastern corner 
+tunnel also seems uniquely coloured, this time a shimmering blue. The south 
+leads back to the entrance of the cavern. Light continues to assault you 
+from all sides, crystals constantly gleaming and shimmering around you.
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 16807
+D2
+Exit ~
+door~
+16384 0 16803
+D3
+Exit ~
+door~
+16384 0 16805
+S
+#16807
+The North Eastern Corner of the Cavern of {WShards{x~
+You reach the north eastern corner after a few minutes of walking. The
+ground here feels slightly softer; you noticed the ground colour change
+slightly from here and on towards the south eastern tunnel, blue lights
+flickering. You can still hear the faint clanging of something hitting
+rock. "Clang...Clang". The shimmering red tunnel lies to your west and you
+can see across the far south western cavern, the green tunnel displaying
+its own array of colour. The cavern sparkles constantly around you.
+~
+0 0 5
+D2
+Exit ~
+door~
+16384 0 16808
+D3
+Exit ~
+door~
+16384 0 16806
+S
+#16808
+The Eastern Side of the Cavern of {WShards{x~
+You have entered a large tunnel to the west of the Cave of Shards. These
+western tunnels reflect light with a pulsating hue of white and green. For
+some reason the crystals here have taken on a green hue, and continue to
+reflect light from further up the tunnel. The rugged walls seem deceptively
+soft, but on closer inspection show razor sharp edges. The sound of active
+mining becomes louder the further you go into the tunnel. The tunnel leads 
+further west, before angling to the north and out of sight.
+~
+0 0 5
+D0
+Exit ~
+door~
+16384 0 16807
+D3
+Exit ~
+door~
+16384 0 16803
+S
+#16809
+The Entrance to the {GGreen Crystal{x Mines~
+You have entered a large tunnel to the west of the Cave of Shards. These
+western tunnels reflect light with a pulsating hue of white and green. For
+some reason the crystals here have taken on a green hue, and continue to
+reflect light from further up the tunnel. The rugged walls seem deceptively
+soft, but on closer inspection show razor sharp edges. The sound of active
+mining becomes louder the further you go into the tunnel. The tunnel leads
+further west, before angling to the north and out of sight.
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 16804
+D3
+Exit ~
+door~
+16384 0 16810
+S
+#16810
+A Tunnel in the {GGreen Crystal{x Mines~
+You follow the green tunnel further west, the crystal walls closing in 
+around you. The sounds of mining and sheer curiosity have brought you 
+face to face with a strange looking creature! Whatever it is, its mining 
+crystals and ignoring your presence. Shards of green crystal fly in every 
+direction, the shards landing on the floor around you, covering the tunnel 
+floor in sharp, deadly looking shards. Careful where you walk!  The tunnel 
+continues westward, the sounds of mining becoming more consistent, 
+there are obviously a lot of the miners down this tunnel. The beauty of 
+the crystals and the gleaming lights never cease to amaze you.
+~
+0 0 18
+D1
+Exit ~
+door~
+16384 0 16809
+D3
+Exit ~
+door~
+16384 0 16811
+S
+#16811
+A Tunnel in the {GGreen Crystal Mines~
+The tunnel continues further into the Whiteshard mountains. More of 
+the Goblin miners can be seen hacking away at the green crystals along 
+the tunnel walls. An iron track has been laid into the compact crystalline 
+floor. Wooden carts are being pushed slowly along by the miners, 
+obviously using them to transport the crystals from deeper inside the 
+mine. The Goblins do not seem affected by the constant shifting of light 
+from the crystals around you. The tunnel curves slightly to the south 
+around the next corner. The sound of winches and shouting goblins can 
+be heard from further inside the mine.
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 16810
+D2
+Exit ~
+door~
+16384 0 16812
+S
+#16812
+A Tunnel in the {GGreen Crystal{x Mines~
+The tunnel continues further into the Whiteshard mountains. More of 
+the Goblin miners can be seen hacking away at the green crystals along 
+the tunnel walls. An iron track has been laid into the compact crystalline 
+floor. Wooden carts are being pushed slowly along by the miners, 
+obviously using them to transport the crystals from deeper inside the 
+mine. The Goblins do not seem affected by the constant shifting of light 
+from the crystals around you. You notice a group of Goblins huddled 
+together, further to the west.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 16811
+D3
+Exit ~
+door~
+16384 0 16813
+S
+#16813
+Looking down the Mineshaft~
+Be careful where you stand! The tunnel has widened out into a larger 
+area. The surrounding crystal walls have been hacked back to allow space 
+for the creation of a mineshaft. A huge hole dominates the center of the 
+tunnel area; it has been cut out of the solid crystal packed floor. The shaft 
+itself is extremely dark the further it goes down until eventually it 
+disappears into nothingness. The crystals glitter all the way down the 
+shaft but provide no immediate light to the surrounding area. The 
+Goblins are busy lowering something down the shaft.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 16812
+D3
+Exit ~
+door~
+16384 0 16827
+D5
+Exit ~
+door~
+16384 0 16814
+S
+#16814
+Deeper into the {GGreen Crystal{x Mineshaft{x~
+The Goblins, in their mindless efforts of lifting and lowering the wooden 
+cart, have failed to notice you hitching a ride! You slowly descend into 
+the darker depths of the mineshaft. The light is slowly receding above you, 
+leaving only small sparkles from the crystals around you. The sounds of 
+mining echo up from beneath you and the sounds of the creaking winches 
+above you don't inspire confidence, you better hold on!
+~
+0 0 0
+D4
+Exit ~
+door~
+16384 0 16813
+D5
+Exit ~
+door~
+16384 0 16815
+S
+#16815
+Deeper into the {GGreen Crystal{x Mineshaft{x~
+The light abruptly disappears and you are engulfed by complete darkness. 
+The sounds of the miners and the creaking of the winch above almost seem to 
+turn ominous. A small scratching sound can be heard to your to your left. 
+Maybe this wasn't such a good idea...
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 16831
+D4
+Exit ~
+door~
+16384 0 16814
+D5
+Exit ~
+door~
+16384 0 16816
+S
+#16816
+Deeper into the {GGreen Crystal{x Mineshaft{x~
+You have made it this far...A faint flickering glow of light begins to colour 
+the mineshaft walls and you can begin to track your downward progress once 
+again. The mineshaft walls are rough cut crystal shards, sticking at random 
+angles. The crystals seem oddly muted the further down you go.
+~
+0 0 0
+D4
+Exit ~
+door~
+16384 0 16815
+D5
+Exit ~
+door~
+16384 0 16817
+S
+#16817
+Near the Bottom of the {GGreen Crystal{x Mineshaft{x~
+The wooden cart abruptly stops and you can hear the screaming and shout of 
+the goblins above you. This little journey seems to have taken much longer 
+than it should have. To your relief you can see, between the gaps between 
+the walls and the cart, a flickering flame somewhere below you.
+~
+0 0 0
+D4
+Exit ~
+door~
+16384 0 16816
+D5
+Exit ~
+door~
+16384 0 16818
+S
+#16818
+The Bottom of the {Green Crystal{x Mineshaft{x~
+The wooden cart comes to an immediate and bumpy stop as you hit the bottom 
+of the mineshaft. You can see the crystal tunnels veering off in every 
+direction. Flaming torches line the walls at random intervals, creating a 
+faint glow across the green crystal shards. The movement of the flames cast 
+frightening shadows on the hard packed crystal floor. You can hear the 
+sounds of falling crystals and frantic hacking from all directions.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 16819
+D1
+Exit ~
+door~
+16384 0 16825
+D2
+Exit ~
+door~
+16384 0 16823
+D3
+Exit ~
+door~
+16384 0 16821
+D4
+Exit ~
+door~
+16384 0 16817
+S
+#16819
+A Branching Tunnel off the Mineshaft~
+You have taken the northern branch off the main mineshaft into a rough-cut
+crystalline tunnel. The tunnels here are supported by thick, dark-wood 
+beams at random intervals. The torches are mounted haphazardly onto the 
+vertical beams, casting an eerie glow through the tunnel. As you walk, the
+mining noises grow louder until you are suddenly surprised by a goblins
+screams. The mining noises you heard earlier were not mining at all...the 
+Goblin is being attacked by a huge creature!
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 16820
+D2
+Exit ~
+door~
+16384 0 16818
+S
+#16820
+A Branching Tunnel off the Mineshaft~
+You continue along the northern branch of the mineshaft tunnels. The rough-
+hewn crystals threaten you with their menacing appearances but you manage 
+to avoid hurting yourself. The tunnel comes to an end up ahead, a 
+Crystalized goblin still mining despite the peril of his fellow miner. How 
+do these crystals affect the Goblins? Is that the end of the tunnel or is 
+it moving!? A creature suddenly detaches itself from the wall of the 
+tunnel.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 16819
+S
+#16821
+A Branching Tunnel off the Mineshaft~
+You have taken the western branch off the main mineshaft into a rough-cut
+crystalline tunnel. The tunnels here are supported by thick, dark-wood 
+beams at random intervals. The torches are mounted haphazardly onto the 
+vertical beams, casting an eerie glow through the tunnel. As you walk, the 
+mining noises grow louder until you are suddenly surprised by a goblins 
+screams. The mining noises you heard earlier were not mining at all...the
+Goblin is being attacked by a huge creature!
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 16818
+D3
+Exit ~
+door~
+16384 0 16822
+S
+#16822
+A Branching Tunnel off the Mineshaft~
+You continue along the western branch of the mineshaft tunnels. The rough-
+hewn crystals threaten you with their menacing appearances but you manage 
+to avoid hurting yourself. The tunnel comes to an end up ahead, a 
+Crystalized goblin still mining despite the peril of his fellow miner. How 
+do these crystals affect the Goblins? Is that the end of the tunnel or is 
+it moving!? A creature suddenly detaches itself from the wall of the 
+tunnel.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 16821
+S
+#16823
+A Branching Tunnel off the Mineshaft~
+You have taken the southern branch off the main mineshaft into a rough-cut 
+crystalline tunnel. The tunnels here are supported by thick, dark-wood 
+beams at random intervals. The torches are mounted haphazardly onto the 
+vertical beams, casting an eerie glow through the tunnel. As you walk, the 
+mining noises grow louder until you are suddenly surprised by a goblins 
+screams. The mining noises you heard earlier were not mining at all the 
+Goblin is being attacked by a huge creature!
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 16818
+D2
+Exit ~
+door~
+16384 0 16824
+S
+#16824
+A Branching Tunnel off the Mineshaft~
+You continue along the southern branch of the mineshaft tunnels. The rough-
+hewn crystals threaten you with their menacing appearances but you manage 
+to avoid hurting yourself. The tunnel comes to an end up ahead, a 
+Crystalized goblin still mining despite the peril of his fellow miner. How 
+do these crystals affect the Goblins? Is that the end of the tunnel or is 
+it moving!? A creature suddenly detaches itself from the wall of the 
+tunnel.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 16823
+S
+#16825
+A Branching Tunnel off the Mineshaft~
+You have taken the eastern branch off the main mineshaft into a rough-cut 
+crystalline tunnel. The tunnels here are supported by thick, dark-wood 
+beams at random intervals. The torches are mounted haphazardly onto the 
+vertical beams, casting an eerie glow through the tunnel. As you walk, the 
+mining noises grow louder until you are suddenly surprised by a goblins 
+screams. The mining noises you heard earlier were not mining at all...the 
+Goblin is being attacked by a huge creature!
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 16826
+D3
+Exit ~
+door~
+16384 0 16818
+S
+#16826
+A Branching Tunnel off the Mineshaft~
+You continue along the eastern branch of the mineshaft tunnels. The rough-
+hewn crystals threaten you with their menacing appearances but you manage 
+to avoid hurting yourself. The tunnel comes to an end up ahead, a 
+Crystalized goblin still mining despite the peril of his fellow miner. How 
+do these crystals affect the Goblins? Is that the end of the tunnel or is 
+it moving!? A creature suddenly detaches itself from the wall of the 
+tunnel.
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 16825
+S
+#16827
+Generic room name~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 16813
+D3
+Exit ~
+door~
+16384 0 16828
+S
+#16828
+Generic room name~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+16384 0 16829
+D1
+Exit ~
+door~
+16384 0 16827
+D2
+Exit ~
+door~
+16384 0 16837
+S
+#16829
+Generic room name~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+16384 0 16830
+D2
+Exit ~
+door~
+16384 0 16828
+S
+#16830
+Generic room name~
+Generic room description.
+~
+0 0 5
+D2
+Exit ~
+door~
+16384 0 16829
+D3
+Exit ~
+door~
+16384 0 16832
+S
+#16831
+Generic room name~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 16815
+S
+#16832
+Generic room name~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 16830
+D3
+Exit ~
+door~
+16384 0 16835
+D5
+Exit ~
+door~
+16384 0 16833
+S
+#16833
+Generic room name~
+Generic room description.
+~
+0 0 5
+D4
+Exit ~
+door~
+16384 0 16832
+D5
+Exit ~
+door~
+16384 0 16834
+S
+#16834
+Generic room name~
+Generic room description.
+~
+0 0 5
+D4
+Exit ~
+door~
+16384 0 16833
+S
+#16835
+Generic room name~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 16832
+D3
+Exit ~
+door~
+16384 0 16836
+S
+#16836
+Generic room name~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 16835
+S
+#16837
+Generic room name~
+Generic room description.
+~
+0 0 5
+D0
+Exit ~
+door~
+16384 0 16828
+D3
+Exit ~
+door~
+16384 0 16838
+S
+#16838
+Generic room name~
+Generic room description.
+~
+0 0 5
+D1
+Exit ~
+door~
+16384 0 16837
+S
+#0
+
+#RESETS
+M 0 16800   3 16810  1	* a Crystallized Goblin Miner
+M 0 16800   3 16811  2	* a Crystallized Goblin Miner
+M 0 16800   3 16811  2	* a Crystallized Goblin Miner
+O 0 16800 100 16802	* A Vertical Crack
+O 0 16801 100 16803	* A Vertical Crack
+D 0 16800   2 16384	* The Entrance to a Small Tunnel through the {WWhiteshard{x Mountains south
+D 0 16801   0 16384	* A Small Tunnel Through the {WWhiteshard{x Mountains north
+D 0 16801   2 16384	* A Small Tunnel Through the {WWhiteshard{x Mountains south
+D 0 16802   0 16384	* A Wider Part of the Tunnel Through the {WWhiteshard{x Mountains north
+D 0 16803   0 16384	* The Entrance to the Cavern of {WShards{x north
+D 0 16803   1 16384	* The Entrance to the Cavern of {WShards{x east
+D 0 16803   3 16384	* The Entrance to the Cavern of {WShards{x west
+D 0 16804   0 16384	* The Western Side of the Cavern of {WShards{x north
+D 0 16804   1 16384	* The Western Side of the Cavern of {WShards{x east
+D 0 16804   3 16384	* The Western Side of the Cavern of {WShards{x west
+D 0 16805   1 16384	* The North Western Corner of the Cavern of {WShards{x east
+D 0 16805   2 16384	* The North Western Corner of the Cavern of {WShards{x south
+D 0 16806   1 16384	* The Northern Side of the Cavern of {WShards{x east
+D 0 16806   2 16384	* The Northern Side of the Cavern of {WShards{x south
+D 0 16806   3 16384	* The Northern Side of the Cavern of {WShards{x west
+D 0 16807   2 16384	* The North Eastern Corner of the Cavern of {WShards{x south
+D 0 16807   3 16384	* The North Eastern Corner of the Cavern of {WShards{x west
+D 0 16808   0 16384	* The Eastern Side of the Cavern of {WShards{x north
+D 0 16808   3 16384	* The Eastern Side of the Cavern of {WShards{x west
+D 0 16809   1 16384	* The Entrance to the {GGreen Crystal{x Mines east
+D 0 16809   3 16384	* The Entrance to the {GGreen Crystal{x Mines west
+D 0 16810   1 16384	* A Tunnel in the {GGreen Crystal{x Mines east
+D 0 16810   3 16384	* A Tunnel in the {GGreen Crystal{x Mines west
+D 0 16811   1 16384	* A Tunnel in the {GGreen Crystal Mines east
+D 0 16811   2 16384	* A Tunnel in the {GGreen Crystal Mines south
+D 0 16812   0 16384	* A Tunnel in the {GGreen Crystal{x Mines north
+D 0 16812   3 16384	* A Tunnel in the {GGreen Crystal{x Mines west
+D 0 16813   1 16384	* Looking down the Mineshaft east
+D 0 16813   3 16384	* Looking down the Mineshaft west
+D 0 16813   5 16384	* Looking down the Mineshaft down
+D 0 16814   4 16384	* Deeper into the {GGreen Crystal{x Mineshaft{x up
+D 0 16814   5 16384	* Deeper into the {GGreen Crystal{x Mineshaft{x down
+D 0 16815   3 16384	* Deeper into the {GGreen Crystal{x Mineshaft{x west
+D 0 16815   4 16384	* Deeper into the {GGreen Crystal{x Mineshaft{x up
+D 0 16815   5 16384	* Deeper into the {GGreen Crystal{x Mineshaft{x down
+D 0 16816   4 16384	* Deeper into the {GGreen Crystal{x Mineshaft{x up
+D 0 16816   5 16384	* Deeper into the {GGreen Crystal{x Mineshaft{x down
+D 0 16817   4 16384	* Near the Bottom of the {GGreen Crystal{x Mineshaft{x up
+D 0 16817   5 16384	* Near the Bottom of the {GGreen Crystal{x Mineshaft{x down
+D 0 16818   0 16384	* The Bottom of the {Green Crystal{x Mineshaft{x north
+D 0 16818   1 16384	* The Bottom of the {Green Crystal{x Mineshaft{x east
+D 0 16818   2 16384	* The Bottom of the {Green Crystal{x Mineshaft{x south
+D 0 16818   3 16384	* The Bottom of the {Green Crystal{x Mineshaft{x west
+D 0 16818   4 16384	* The Bottom of the {Green Crystal{x Mineshaft{x up
+D 0 16819   0 16384	* A Branching Tunnel off the Mineshaft north
+D 0 16819   2 16384	* A Branching Tunnel off the Mineshaft south
+D 0 16820   2 16384	* A Branching Tunnel off the Mineshaft south
+D 0 16821   1 16384	* A Branching Tunnel off the Mineshaft east
+D 0 16821   3 16384	* A Branching Tunnel off the Mineshaft west
+D 0 16822   1 16384	* A Branching Tunnel off the Mineshaft east
+D 0 16823   0 16384	* A Branching Tunnel off the Mineshaft north
+D 0 16823   2 16384	* A Branching Tunnel off the Mineshaft south
+D 0 16824   0 16384	* A Branching Tunnel off the Mineshaft north
+D 0 16825   1 16384	* A Branching Tunnel off the Mineshaft east
+D 0 16825   3 16384	* A Branching Tunnel off the Mineshaft west
+D 0 16826   3 16384	* A Branching Tunnel off the Mineshaft west
+D 0 16827   1 16384	* Generic room name east
+D 0 16827   3 16384	* Generic room name west
+D 0 16828   0 16384	* Generic room name north
+D 0 16828   1 16384	* Generic room name east
+D 0 16828   2 16384	* Generic room name south
+D 0 16829   0 16384	* Generic room name north
+D 0 16829   2 16384	* Generic room name south
+D 0 16830   2 16384	* Generic room name south
+D 0 16830   3 16384	* Generic room name west
+D 0 16831   1 16384	* Generic room name east
+D 0 16832   1 16384	* Generic room name east
+D 0 16832   3 16384	* Generic room name west
+D 0 16832   5 16384	* Generic room name down
+D 0 16833   4 16384	* Generic room name up
+D 0 16833   5 16384	* Generic room name down
+D 0 16834   4 16384	* Generic room name up
+D 0 16835   1 16384	* Generic room name east
+D 0 16835   3 16384	* Generic room name west
+D 0 16836   1 16384	* Generic room name east
+D 0 16837   0 16384	* Generic room name north
+D 0 16837   3 16384	* Generic room name west
+D 0 16838   1 16384	* Generic room name east
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

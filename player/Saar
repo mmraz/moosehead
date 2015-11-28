@@ -2,20 +2,21 @@
 Name Saar~
 Id   939085442
 Email (null)~
-LogO 1127364586
-Vers 31
+LogO 1370518785
+Vers 33
 LnD  Fresr~
 Prom <%hhp %mm %vmv %Xexp %wlb> ~
 Race lasher~
 Clan warlock~
 Outc 0
-RufT 201
+RufT 200
 MatookT 0
-SkPTimer 21
+SkPTimer 20
 SkPTracker 12
 LogoutTracker 0
 Kill 2 4 0 1
 Steal 0 0 0
+MSteal 0
 LstK Dakkar~
 LstKBy Nemo~
 LstAtkedBy no one~
@@ -23,10 +24,16 @@ LstAtkedByTimer 0
 LstCombatDate 1077232334
 LstKillDate 1065398337
 LstDeathDate 1019185800
-LoginsWOKill 10
-LoginsWODeath 100
-LoginsWOCombat 6
+LoginsWOKill 11
+LoginsWODeath 101
+LoginsWOCombat 7
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 307101 matook~
 DeityT -610 matook~
 Sac  300
@@ -36,12 +43,12 @@ Node 0
 Cap 0
 Created 955490428
 Glad 0 0 0 0 0 0
-LastHost yale128036058024.student.yale.edu~
+LastHost 49.5.1.12~
 Cla  7
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 985730
+Plyd 985759
 Not  1123558297 1065331573 994306940 1064969294 1076291926 1123143107 994306940 1127359995 994306940 1065323166
 Scro 22
 Rank 5
@@ -61,8 +68,8 @@ Icg 0
 Wizn W
 Pnet ABCDEFGHI
 Pos  8
-Prac 112
-Trai 7
+Prac 113
+Trai 15
 SkiP 4
 Save  -11
 Alig  -988
@@ -71,7 +78,7 @@ Dam   47
 SecHit   30
 SecDam   34
 ACs -40 -40 -35 -16
-Attr 22 21 21 17 22 16 13 13
+Attr 22 21 21 17 22 10 11 13
 AMod 6 2 3 2 2 4 0 0
 Pass Sa9j0KRPcHRnA~
 Titl  thirsts for bitter blood.  [Red Robe]~
@@ -123,7 +130,6 @@ Sk 1 'chill touch'
 OldSk 1 'chill touch'
 Sk 1 'colour spray'
 OldSk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 75 'continual light'
 OldSk 1 'continual light'
 Sk 75 'control weather'
@@ -374,14 +380,14 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'shield'   0  48  31 -20  17          0
-Affc 'armor'   0  51   6 -20  17          0
-Affc 'giant strength'   0  44  23   4   1          0
-Affc 'bless'   0  50  30  -6  24          0
-Affc 'bless'   0  49  30   6  18          0
-Affc 'detect hidden'   0  43  11   0   0         32
-Affc 'detect invis'   0  53  37   0   0          8
-Affc 'sanctuary'   0  51   1   0   0        128
+Affc 'sanctuary'   0  51   0   0   0        128
+Affc 'detect invis'   0  53  36   0   0          8
+Affc 'detect hidden'   0  42  10   0   0         32
+Affc 'bless'   0  49  29   6  18          0
+Affc 'bless'   0  50  29  -6  24          0
+Affc 'giant strength'   0  44  22   4   1          0
+Affc 'armor'   0  51   5 -20  17          0
+Affc 'shield'   0  48  30 -20  17          0
 End
 
 #O
@@ -419,10 +425,10 @@ Wear -1
 Lev  50
 Cost 4000
 Val  1 6 7 1 2050
-Affc 'enchant weapon'   1  52  -1  12  18          0
-Affc 'reserved'   1  49  -1   2  20          0
-Affc 'reserved'   1  49  -1   1   4          0
 Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'reserved'   1  49  -1   1   4          0
+Affc 'reserved'   1  49  -1   2  20          0
+Affc 'enchant weapon'   1  52  -1  12  18          0
 End
 
 #O
@@ -435,8 +441,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   0  52  -1   5  18          0
 Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1   5  18          0
 End
 
 #O
@@ -528,7 +534,7 @@ PrevOwner Saar~
 Cond 0
 Wear -1
 Cost 8500
-Val  52 10 6 161 0
+Val  52 10 6 166 0
 Spell 3 'remove curse'
 End
 
@@ -539,7 +545,7 @@ PrevOwner Saar~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 208 -1 -1 -1
+Val  51 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -550,7 +556,7 @@ PrevOwner Saar~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 208 -1 -1 -1
+Val  51 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -561,7 +567,7 @@ PrevOwner Saar~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 208 -1 -1 -1
+Val  51 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -572,7 +578,7 @@ PrevOwner Saar~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 208 -1 -1 -1
+Val  51 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -583,7 +589,7 @@ PrevOwner Saar~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 208 -1 -1 -1
+Val  51 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -594,7 +600,7 @@ PrevOwner Saar~
 Cond 0
 Wear -1
 Cost 7000
-Val  51 208 -1 -1 -1
+Val  51 213 -1 -1 -1
 Spell 1 'vision'
 End
 
@@ -638,8 +644,8 @@ Cond 0
 Wear -1
 Cost 0
 Val  6 2 20 7 292
-Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -652,9 +658,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1000
-Affc 'reserved'   1  47  -1 -20  13          0
-Affc 'enchant weapon'   1  47  -1  11  19          0
 Affc 'enchant weapon'   1  47  -1  11  18          0
+Affc 'enchant weapon'   1  47  -1  11  19          0
+Affc 'reserved'   1  47  -1 -20  13          0
 End
 
 #O
@@ -667,8 +673,8 @@ Cond 0
 Wear -1
 Cost 0
 Val  6 4 10 41 6
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -712,8 +718,8 @@ Wear -1
 Lev  50
 Cost 4914
 Val  2 2 19 2 7
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -726,8 +732,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6400
-Affc 'enchant weapon'   0  53  -1  13  18          0
 Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   0  53  -1  13  18          0
 End
 
 #O
@@ -741,8 +747,8 @@ Wear -1
 Lev  50
 Cost 6400
 Val  4 5 8 38 1024
-Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
@@ -755,8 +761,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1000
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   1  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
@@ -769,8 +775,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 1000
-Affc 'enchant weapon'   1  51  -1  11  19          0
 Affc 'enchant weapon'   1  51  -1  10  18          0
+Affc 'enchant weapon'   1  51  -1  11  19          0
 End
 
 #O
@@ -783,10 +789,10 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'reserved'   1  49  -1   0   0          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
 End
 
 #O
@@ -924,8 +930,8 @@ Cond 0
 Wear 16
 Lev  50
 Cost 7150
-Affc 'enchant weapon'   1  53  -1  13  19          0
 Affc 'enchant weapon'   0  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O

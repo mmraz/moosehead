@@ -2,7 +2,7 @@
 Name Bort~
 Id   918311702
 Email (null)~
-LogO 1132465772
+LogO 1307738017
 Vers 31
 LnD  A Gladiator~
 Prom (%h/%Hhp %m/%Mmana %vMV %w/%Wweight $%g) ~
@@ -12,7 +12,7 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 0
+SkPTracker 4
 LogoutTracker 0
 Kill 0 4 0 4
 Steal 0 0 0
@@ -23,9 +23,9 @@ LstAtkedByTimer 0
 LstCombatDate 1044919838
 LstKillDate 1038288716
 LstDeathDate 1044919850
-LoginsWOKill 13
-LoginsWODeath 9
-LoginsWOCombat 8
+LoginsWOKill 14
+LoginsWODeath 10
+LoginsWOCombat 9
 Bnty 0
 Deity 314889 cthon~
 DeityT -832 cthon~
@@ -36,24 +36,24 @@ Node 0
 Cap 0
 Created 983415178
 Glad 0 0 0 0 0 0
-LastHost 24.65.186.188~
+LastHost 99.241.123.77~
 Cla  5
 Kit knight~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 698037
-Not  1115688335 1039061031 1039061031 1106261392 1110312209 1039061031 1039061031 1051094973 1039061031 1039061031
+Plyd 698648
+Not  1115688335 1039061031 1039061031 1106261392 1110312209 1307328400 1039061031 1051094973 1039061031 1039061031
 Scro 22
 Rank 3
-Room 3001
-HMV  1288 1288 747 747 465 465
+Room 31601
+HMV  1252 1288 720 747 441 465
 Gold 682
 Silv 13505
 Exp  510000
 Act  CDEFGHMQSd
 MHSF RS
-AfBy JT
+AfBy HJTV
 Comm GLS
 Disp BFIJ
 IcgB 0
@@ -61,17 +61,17 @@ Icg 0
 Pnet ACDFG
 Pos  8
 Prac 19
-SkiP 149
+SkiP 156
 Save  -4
-Alig  -948
-Hit   25
-Dam   35
-SecHit   15
-SecDam   25
-ACs 26 26 26 44
+Alig  -967
+Hit   32
+Dam   42
+SecHit   22
+SecDam   32
+ACs 56 56 56 74
 Attr 25 25 25 23 25 13 13 13
-AMod 3 0 0 0 2 0 0 0
-Pass BobMRlhwL.7.A~
+AMod 3 0 0 2 2 0 0 0
+Pass BofMrfBwcgg3I~
 Titl  takes your flag and shoves it up your ass.~
 Pnts 100
 TSex 1
@@ -246,6 +246,11 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
+Affc 'frenzy'   0  46  12  30  17          0
+Affc 'frenzy'   0  47  12   7  19          0
+Affc 'frenzy'   0  47  12   7  18          0
+Affc 'sanctuary'   0  55   5   0   0        128
+Affc 'haste'   0  19   5   2   2    2097152
 End
 
 #O
@@ -366,8 +371,8 @@ ExtF 323
 Cond 0
 Wear -1
 Cost 4000
-Affc 'enchant weapon'   0  52  -1   8  18          0
 Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1   8  18          0
 End
 
 #O
@@ -618,16 +623,6 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 11084
-Nest 1
-PrevOwner Bort~
-Cond 0
-Wear -1
-Cost 1200
-Spell 1 'haste'
-End
-
-#O
 Vnum 10300
 Enchanted
 Nest 1
@@ -637,9 +632,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'enchant weapon'   0  53  -1   2  18          0
-Affc 'reserved'   0  48  -1   0   0     524288
 Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'reserved'   0  48  -1   0   0     524288
+Affc 'enchant weapon'   0  53  -1   2  18          0
 End
 
 #O
@@ -683,8 +678,8 @@ Cond 0
 Wear 9
 Cost 4000
 Val  8 8 8 5 5
-Affc 'reserved'   1  37  -1   2   1          0
 Affc 'reserved'   1  37  -1   2  19          0
+Affc 'reserved'   1  37  -1   2   1          0
 End
 
 #O
@@ -706,8 +701,8 @@ ExtF 134217729
 Cond 0
 Wear 7
 Cost 2000
-Affc 'reserved'   1  39  -1   2  19          0
 Affc 'reserved'   1  39  -1  -2  20          0
+Affc 'reserved'   1  39  -1   2  19          0
 End
 
 #O
@@ -731,9 +726,9 @@ Cond 0
 Wear -1
 Cost 15300
 Val  1 9 4 11 544
-Affc 'reserved'   1  50  -1  50  13          0
-Affc 'enchant weapon'   1  52  -1   6  18          0
 Affc 'enchant weapon'   1  52  -1   9  19          0
+Affc 'enchant weapon'   1  52  -1   6  18          0
+Affc 'reserved'   1  50  -1  50  13          0
 End
 
 #O
@@ -745,9 +740,9 @@ ExtF 134217793
 Cond 0
 Wear 6
 Cost 4000
-Affc 'reserved'   1  47  -1  -2  20          0
-Affc 'reserved'   1  47  -1   2  18          0
 Affc 'reserved'   1  47  -1   2  19          0
+Affc 'reserved'   1  47  -1   2  18          0
+Affc 'reserved'   1  47  -1  -2  20          0
 End
 
 #O
@@ -770,8 +765,8 @@ Cond 0
 Wear 16
 Cost 0
 Val  6 2 20 7 293
-Affc 'enchant weapon'   1  52  -1  10  19          0
 Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
 End
 
 #O
@@ -803,9 +798,9 @@ Wear -1
 Lev  50
 Cost 4500
 Val  4 5 8 27 512
-Affc 'enchant weapon'   0  52  -1   8  18          0
-Affc 'enchant weapon'   1  52  -1   8  19          0
 Affc 'reserved'   1  49  -1   2   1          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   0  52  -1   8  18          0
 End
 
 #O
@@ -858,8 +853,24 @@ Wear -1
 Lev  50
 Cost 4500
 Val  6 4 10 3 516
-Affc 'enchant weapon'   1  52  -1   7  19          0
 Affc 'enchant weapon'   1  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1   7  19          0
 End
 
+#PET
+Vnum 11
+Name magestic warhorse war horse~
+LogO 1307738017
+Sex  2
+Levl 35
+HMV  407 611 100 100 423 423
+AfBy S
+Comm VWX
+Pos  8
+Hit  21
+Dam  21
+ACs  -59 -59 -59 -54
+Attr 19 12 13 13 16 13 13 13
+AMod 0 0 0 0 0 0 0 0
+End
 #END

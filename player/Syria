@@ -3,8 +3,8 @@ Name Syria~
 SurN SoulStealer~
 Id   987862658
 Email (null)~
-LogO 1132453684
-Vers 31
+LogO 1408901684
+Vers 33
 Desc What a funny little creature she is!  She is carrying so many items you can barely see her.
 She has cute little wings and is very tiny, she could fit in your hand.
 As she notices you looking at her, she offers you a spell-up or maybe one of her fine weapons?
@@ -16,11 +16,12 @@ Race faerie~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 1
+SkPTimer 1
+SkPTracker 2
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -32,6 +33,12 @@ LoginsWOKill 4
 LoginsWODeath 4
 LoginsWOCombat 4
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 274813 matook~
 DeityT -6078 matook~
 Sac  300
@@ -41,22 +48,22 @@ Node 0
 Cap 0
 Created 987862681
 Glad 0 0 0 0 0 0
-LastHost r045-145.seavers.ship.edu~
+LastHost 71.57.249.53~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 609258
-Not  1132452649 1132452649 1132452649 1132452649 1132452649 1132452649 1132452649 1132452649 1132452649 1132452649
+Plyd 648923
+Not  1408899456 1408899456 1408899456 1408899456 1408899456 1408899456 1408899456 1408899456 1408899456 1408899456
 Scro 22
 Rank 0
 Room 3001
-HMV  342 342 281 1900 260 495
-Gold 405
-Silv 2789
+HMV  288 352 1357 1900 235 495
+Gold 445
+Silv 86
 Exp  165348
-Act  DGHIKMQS
+Act  BDGHIKMQRS
 MHSF R
 AfBy DEFJT
 Comm LS
@@ -65,8 +72,8 @@ IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  5
-Prac 18
-SkiP 8
+Prac 26
+SkiP 25
 Save  -11
 Alig  -1000
 Hit   9
@@ -74,16 +81,15 @@ Dam   4
 SecHit   9
 SecDam   4
 ACs -50 -50 -50 -25
-Wimp  50
-Attr 13 25 25 25 13 18 16 14
-AMod 3 3 -1 3 -4 0 0 0
+Attr 13 25 25 25 13 17 8 22
+AMod 7 3 -1 3 -4 0 0 0
 Pass Syh8Pc2Vf4ymE~
 Titl  {MRiGGa{x{GGooGoo{x {MRiGGa{x{GGooGoo{x{R!{x~
 Pnts 67
 TSex 2
 LLev 87
-HMVP 287 1355 495
-Cnd  0 5 5 5
+HMVP 297 1355 495
+Cnd  0 48 48 48
 Sk 100 'acid blast'
 Sk 75 'armor'
 Sk 81 'blindness'
@@ -97,7 +103,6 @@ Sk 1 'change sex'
 Sk 79 'charm person'
 Sk 75 'chill touch'
 Sk 92 'colour spray'
-Sk 1 'cone of silence'
 Sk 78 'continual light'
 Sk 75 'control weather'
 Sk 1 'create food'
@@ -108,25 +113,25 @@ Sk 1 'create water'
 Sk 75 'curse'
 Sk 75 'detect evil'
 Sk 75 'detect good'
-Sk 75 'detect hidden'
+Sk 78 'detect hidden'
 Sk 75 'detect invis'
 Sk 84 'detect magic'
 Sk 75 'detect poison'
 Sk 89 'diamond skin'
-Sk 89 'dispel magic'
+Sk 92 'dispel magic'
 Sk 100 'enchant armor'
 Sk 100 'enchant weapon'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
-Sk 85 'energy drain'
+Sk 87 'energy drain'
 Sk 75 'enervation'
 Sk 75 'entrance'
 Sk 1 'faerie fire'
 Sk 98 'faerie fog'
 Sk 100 'famine'
-Sk 91 'farsight'
+Sk 93 'farsight'
 Sk 77 'feast'
-Sk 85 'feeblemind'
+Sk 87 'feeblemind'
 Sk 82 'fireball'
 Sk 75 'fireproof'
 Sk 1 'floating disc'
@@ -135,14 +140,14 @@ Sk 88 'forget'
 Sk 91 'fumble'
 Sk 100 'gate'
 Sk 90 'giant strength'
-Sk 94 'haste'
+Sk 96 'haste'
 Sk 100 'identify'
 Sk 75 'infravision'
 Sk 92 'invisibility'
 Sk 85 'knock'
 Sk 75 'know alignment'
 Sk 75 'lightning bolt'
-Sk 91 'locate object'
+Sk 94 'locate object'
 Sk 100 'magic missile'
 Sk 75 'mass invis'
 Sk 75 'nexus'
@@ -154,7 +159,7 @@ Sk 75 'protection evil'
 Sk 75 'protection good'
 Sk 75 'protection neutral'
 Sk 75 'recharge'
-Sk 78 'refresh'
+Sk 80 'refresh'
 Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
 Sk 78 'shield'
@@ -166,8 +171,8 @@ Sk 75 'stone skin'
 Sk 99 'summon'
 Sk 100 'teleport'
 Sk 75 'ventriloquate'
-Sk 75 'warp'
-Sk 78 'weaken'
+Sk 76 'warp'
+Sk 81 'weaken'
 Sk 100 'word of recall'
 Sk 75 'animate dead'
 Sk 97 'summon dead'
@@ -180,7 +185,7 @@ Sk 75 'wound transfer'
 Sk 100 'dagger'
 Sk 100 'bleed'
 Sk 100 'dodge'
-Sk 96 'parry'
+Sk 98 'parry'
 Sk 100 'scan'
 Sk 100 'meditation'
 Sk 69 'peek'
@@ -188,7 +193,7 @@ Sk 100 'spellcraft'
 Sk 75 'scrolls'
 Sk 81 'staves'
 Sk 75 'wands'
-Sk 91 'swimming'
+Sk 94 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
@@ -205,16 +210,112 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect magic'   0  50  14   0   0         16
+Affc 'detect magic'   0  52  47   0   0         16
+Affc 'giant strength'   0  49  39   4   1          0
 End
 
 #O
-Vnum 2732
+Vnum 23512
 Nest 0
 PrevOwner Syria~
 Cond 0
-Wear 18
-Cost 4850
+Wear 2
+Cost 6740
+End
+
+#O
+Vnum 23512
+Nest 0
+PrevOwner Syria~
+Cond 0
+Wear 1
+Cost 6740
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 0
+PrevOwner Syria~
+ExtF 0
+Cond 0
+Wear -1
+Lev  50
+Cost 2250
+End
+
+#O
+Vnum 18912
+Enchanted
+Nest 0
+PrevOwner Syria~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 2400
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 18912
+Enchanted
+Nest 0
+PrevOwner Syria~
+ExtF 0
+Cond 0
+Wear 16
+Lev  50
+Cost 600
+End
+
+#O
+Vnum 10447
+Enchanted
+Nest 0
+PrevOwner Syria~
+ExtF 65
+Cond 0
+Wear 5
+Lev  48
+Cost 13700
+Affc 'enchant armor'   1  53  -1  -8  17          0
+Affc 'reserved'   1  45  -1  -4  20          0
+Affc 'reserved'   1  45  -1  30  12          0
+End
+
+#O
+Vnum 12004
+Enchanted
+Nest 0
+PrevOwner Syria~
+ExtF 2113
+Cond 0
+Wear 7
+Lev  49
+Cost 40
+Affc 'enchant armor'   1  53  -1  -7  17          0
+Affc 'reserved'   1  44  -1  35  13          0
+Affc 'reserved'   1  44  -1   3   2          0
+End
+
+#O
+Vnum 23513
+Nest 0
+PrevOwner Syria~
+Cond 0
+Wear 4
+Cost 6410
+End
+
+#O
+Vnum 23513
+Nest 0
+PrevOwner Syria~
+Cond 0
+Wear 3
+Cost 6410
 End
 
 #O
@@ -254,7 +355,7 @@ ExtF 0
 Cond 0
 Wear -1
 Cost 1000
-Val  40 35 34 125 0
+Val  40 35 34 130 0
 Spell 3 'invisibility'
 End
 
@@ -326,74 +427,6 @@ Cost 1600
 End
 
 #O
-Vnum 23504
-Enchanted
-Nest 1
-PrevOwner Syria~
-ExtF 537395523
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-End
-
-#O
-Vnum 23504
-Nest 1
-PrevOwner Syria~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 10300
-Nest 1
-PrevOwner Syria~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Syria~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Syria~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Syria~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Syria~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
 Vnum 2433
 Nest 1
 PrevOwner Syria~
@@ -439,27 +472,6 @@ Cost 10000
 End
 
 #O
-Vnum 10431
-Nest 1
-PrevOwner Syria~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 18912
-Enchanted
-Nest 1
-PrevOwner Syria~
-ExtF 0
-Cond 0
-Wear -1
-Lev  50
-Cost 1200
-End
-
-#O
 Vnum 5937
 Nest 1
 PrevOwner Syria~
@@ -492,15 +504,723 @@ Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
-Vnum 23504
-Enchanted
+Vnum 3007
 Nest 1
 PrevOwner Syria~
-ExtF 0
 Cond 0
 Wear -1
-Lev  50
-Cost 2250
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 2500000
 End
 
 #O
@@ -546,36 +1266,6 @@ PrevOwner Syria~
 Cond 0
 Wear 14
 Cost 3500
-End
-
-#O
-Vnum 12004
-Enchanted
-Nest 0
-PrevOwner Syria~
-ExtF 2113
-Cond 0
-Wear 7
-Lev  49
-Cost 40
-Affc 'enchant armor'   1  53  -1  -7  17          0
-Affc 'reserved'   1  44  -1  35  13          0
-Affc 'reserved'   1  44  -1   3   2          0
-End
-
-#O
-Vnum 10447
-Enchanted
-Nest 0
-PrevOwner Syria~
-ExtF 65
-Cond 0
-Wear 5
-Lev  48
-Cost 13700
-Affc 'enchant armor'   1  53  -1  -8  17          0
-Affc 'reserved'   1  45  -1  -4  20          0
-Affc 'reserved'   1  45  -1  30  12          0
 End
 
 #O
@@ -659,45 +1349,9 @@ Affc 'reserved'   1  41  -1   2   1          0
 End
 
 #O
-Vnum 23512
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 2
-Cost 6740
-End
-
-#O
-Vnum 23512
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 1
-Cost 6740
-End
-
-#O
-Vnum 23513
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 3
-Cost 6410
-End
-
-#O
-Vnum 23513
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 4
-Cost 6410
-End
-
-#O
 Vnum 23546
 Nest 0
-PrevOwner (null)~
+PrevOwner Syria~
 Cond 0
 Wear -1
 Cost 0
@@ -706,19 +1360,10 @@ End
 #O
 Vnum 18432
 Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 17
-Cost 1500
-End
-
-#O
-Vnum 8503
-Nest 0
 PrevOwner Syria~
 Cond 0
 Wear -1
-Cost 5000
+Cost 1500
 End
 
 #O
@@ -733,10 +1378,91 @@ Cost 2250
 End
 
 #O
-Vnum 23517
+Vnum 1346
+Nest 0
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 2500
+End
+
+#O
+Vnum 10431
 Enchanted
 Nest 0
 PrevOwner Syria~
+Cond 0
+Wear -1
+Lev  50
+Cost 3250
+End
+
+#O
+Vnum 8500
+Nest 0
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3104
+Nest 0
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 25000
+End
+
+#O
+Vnum 8502
+Enchanted
+Nest 0
+PrevOwner Syria~
+ExtF 451
+Cond 0
+Wear -1
+Lev  21
+Cost 3100
+Affc 'enchant weapon'   1  53  -1   7  18          0
+Affc 'reserved'   1  15  -1  -1   3          0
+Affc 'reserved'   1  15  -1   1   1          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
+End
+
+#O
+Vnum 2732
+Nest 0
+PrevOwner Syria~
+Cond 0
+Wear 18
+Cost 4850
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Syria~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 23517
+Enchanted
+Nest 0
+PrevOwner Khaleesi~
 Cond 0
 Wear -1
 Lev  46
@@ -748,30 +1474,119 @@ Affc 'enchant armor'   1  53  -1 -11  17          0
 End
 
 #O
-Vnum 3117
-Enchanted
+Vnum 23527
 Nest 0
-PrevOwner Syria~
-ExtF 65
+PrevOwner (null)~
 Cond 0
 Wear -1
-Lev  15
-Cost 510
-Affc 'enchant armor'   1  53  -1 -19  17          0
+Time 1128
+Cost 2500
+Spell 1 'cure critical'
+Spell 2 'cure critical'
 End
 
 #O
-Vnum 18912
-Enchanted
+Vnum 23505
 Nest 0
+PrevOwner Fortuna~
+Cond 0
+Wear -1
+Cost 700
+End
+
+#O
+Vnum 23578
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 7708
+Nest 0
+PrevOwner Lexy~
+Cond 0
+Wear -1
+Cost 2300
+End
+
+#O
+Vnum 23504
+Nest 0
+PrevOwner Contessa~
+Cond 0
+Wear -1
+Cost 4500
+Val  2 2 20 38 5
+End
+
+#O
+Vnum 23021
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 710
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 1
 PrevOwner Syria~
-ExtF 67
+ExtF 537395523
 Cond 0
 Wear -1
 Lev  50
-Cost 2400
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
+Cost 4500
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
+End
+
+#O
+Vnum 17665
+Enchanted
+Nest 1
+PrevOwner Syria~
+ExtF 262211
+Cond 0
+Wear -1
+Lev  27
+Cost 0
+Val  4 2 8 38 5
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   1  53  -1  10  18          0
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 0
+PrevOwner Contessa~
+ExtF 537395523
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Val  2 2 20 38 5
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 2365
+Enchanted
+Nest 0
+PrevOwner (null)~
+ExtF 66
+Cond 0
+Wear -1
+Lev  25
+Cost 1310
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
 End
 
 #END

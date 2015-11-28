@@ -3,8 +3,8 @@ Name Stench~
 SurN Cloud~
 Id   1048907624
 Email (null)~
-LogO 1048910124
-Vers 31
+LogO 1323463675
+Vers 33
 Prom <%h Hp %m Mn %v Mv>%c<%XXp %SDp %gg %ss> ~
 Race dwarf~
 Outc 0
@@ -15,6 +15,7 @@ SkPTracker 12
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -52 xochipili~
 Sac  280
@@ -35,17 +40,17 @@ Node 0
 Cap 0
 Created 1048907705
 Glad 0 0 0 0 0 0
-LastHost 66.178.136.5~
+LastHost 76.105.134.175~
 Cla  12
 ClaO 1
 Levl 4
 DLevl 0
-Plyd 2151
+Plyd 2154
 Not  0 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
 Room 3001
-HMV  58 58 120 120 109 109
+HMV  58 63 120 120 109 109
 Gold 21
 Silv 329
 Exp  27409
@@ -58,6 +63,7 @@ IcgB 0
 Icg 0
 Pos  5
 Prac 6
+Trai 7
 SkiP 12
 Save  -1
 Alig  1000
@@ -66,14 +72,14 @@ Dam   12
 SecHit   9
 SecDam   9
 ACs 82 78 78 99
-Attr 19 10 19 9 18 10 19 19
+Attr 19 10 19 9 18 9 13 19
 AMod 2 -1 1 8 1 0 0 0
 Pass St9eoHLWNvhMg~
 Titl .~
 Pnts 89
 TSex 1
-LLev 0
-HMVP 49 120 109
+LLev 1
+HMVP 54 120 109
 Cnd  0 0 22 0
 Sk 1 'aid'
 Sk 1 'armor'
@@ -194,15 +200,15 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'aid'   0  50   5   5  13          0
-Affc 'frenzy'   0  49   7  40  17          0
-Affc 'frenzy'   0  47   7   8  19          0
-Affc 'frenzy'   0  49   7   8  18          0
-Affc 'armor'   0  49  26 -20  17          0
-Affc 'haste'   0  52   2   4   2    2097152
-Affc 'body weaponry'   0  41   9   0   0   33554432
-Affc 'tower of iron will'   3  45   8   0   0      32768
 Affc 'shield'   0  35   6 -20  17          0
+Affc 'tower of iron will'   3  45   8   0   0      32768
+Affc 'body weaponry'   0  41   9   0   0   33554432
+Affc 'haste'   0  52   2   4   2    2097152
+Affc 'armor'   0  49  26 -20  17          0
+Affc 'frenzy'   0  49   7   8  18          0
+Affc 'frenzy'   0  47   7   8  19          0
+Affc 'frenzy'   0  49   7  40  17          0
+Affc 'aid'   0  50   5   5  13          0
 End
 
 #O
@@ -253,8 +259,8 @@ Cond 0
 Wear -1
 Lev  5
 Cost 0
-Affc 'enchant weapon'   1  53  -1   4  19          0
 Affc 'enchant weapon'   1  53  -1   5  18          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
 End
 
 #O
@@ -384,8 +390,8 @@ Cond 0
 Wear 16
 Lev  4
 Cost 250
-Affc 'enchant weapon'   1  53  -1   3  19          0
 Affc 'enchant weapon'   1  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   3  19          0
 End
 
 #END

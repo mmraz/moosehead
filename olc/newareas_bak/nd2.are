@@ -1,0 +1,3049 @@
+#AREA
+../newareas/nd2.are~
+nd2~
+{ All }         nd2~
+16200 16299
+
+#MOBILES
+#16200
+lemure~
+a lemure~
+A pitiful lemure is here, trying helplessly to escape it's cruel master.
+~
+It's little more than a brownish blob of goo with sorrowful eyes and a
+gash for a mouth.  It crawls pitifully across the floor, moaning in agony
+as it oozes greenish pus from a thousand lashes across it's form.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AGHT TZ -750 0
+30 3 3d100+1300 1d1+200 4d6+12 thwack
+-10 -15 -14 -2
+CEF AB M N
+stand stand none 1000
+ABHS ADEF small 0
+#16201
+vrock demon daemon~
+a vrock~
+A vulture headed daemon is here.
+~
+A 7 foot tall daemon stands here.  It has the general form of a human,
+but it's head, hands, and feet are those of a vulture.  It hisses at you,
+snapping it's beak angrily and raking the air with it's sharp talons.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ACGT NTVZ -800 0
+40 8 2d100+1800 1d1+99 5d7+18 peck
+-20 -20 -20 -20
+DEFN AB HM N
+stand stand none 2500
+AHMW ABCDEFP large 0
+#16202
+balor~
+a Balor~
+A large, fierce looking Balor is here, hunting down lemures to torture.
+~
+This creature is huge, towering 20 feet tall, and heavily muscled.  It is
+a deep blood red in color, and wears little aside from criss-crossing
+spiked leather straps crossing over it's chest.  It howls at you, striking
+fear into your heart, but it quickly diverts it's attention back to the
+lemures.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AFGT CDFJNTV -900 0
+50 8 5d100+4700 1d1+199 6d7+28 beating
+-30 -30 -30 -15
+DEFIKN AB HMP N
+stand stand none 3000
+AHMX ABCDEF huge 0
+#16203
+yochlol~
+a yochlol~
+A yochlol, a handmaiden of Lloth, charges at you!
+~
+It's vaguely humanoid, though it looks more like a mass of rubber than
+a being.  It has the eyes of a spider, and wears black robes emblazoned
+with a black widow, the symbol of Lloth.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABFQ DFHNT -1000 0
+56 10 5d100+7900 1d100+400 4d10+30 wrath
+-35 -35 -35 -35
+EFHIN ABMQ HJLP N
+stand stand none 3500
+ABHMP ABCDEFU huge 0
+#16204
+drider spider~
+a drider~
+A gruesome Drider is here.
+~
+A disgraced servant of Lloth, this being has the upper body of a male drow
+elf, but the lower body of a gigantic spider.  A castaway from the society
+of the drow for his failure in the service of his goddess, he is trapped
+in the Abyss forever in servitude as a guardian.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABFRT DFHQTVZ -1000 0
+54 11 3d100+7000 1d1+99 6d7+28 pierce
+-30 -30 -30 -30
+EFHIKNU ABLQ M N
+stand stand none 0
+ABHP ABCDEF giant 0
+#16205
+drow high priestess~
+a drow high priestess~
+A high priestess of the drow is here, making a sojourn through the Abyss.
+~
+Beauty incarnate, as if chiseled from pure ebony.  Her face lights up in
+anger as she notices you studying her, and that only enhances her beauty.
+~
+elf~
+(null)~
+(null)~
+(null)~
+AGQ HNPQTV -1000 0
+51 10 4d100+4900 1d100+400 5d7+30 whip
+-30 -30 -30 -30
+FIKNU ABLM 0 NS
+stand stand none 2500
+0 0 medium 0
+F vul Z
+F par GHIJK
+#16206
+glabrezu~
+a Glabrezu~
+A four armed, dog headed Glabrezu stands here.
+~
+It stands 25 feet high, and is muscled like a titan.  It's head appears
+vaguely doglike, and it has 2 pairs of arms, one heavily muscled and
+clawed, the other shorter and thinner, with pincers at the end.
+~
+lasher~
+(null)~
+(null)~
+(null)~
+ABFGT DFHJ -1000 0
+54 10 5d100+7500 1d1+199 5d8+32 claw
+-35 -35 -35 -35
+CDFHI ABJM LQ 0
+stand stand none 3500
+X 0 giant 0
+F res HJ
+F for V
+F par GHIJK
+#16207
+tanar'ri demon~
+a Tanar'ri~
+One of the most feared demons of the Abyss, a Tanar'ri, glares at you.
+~
+It's indescribable, literally.  You can see it, but it's form doesn't
+register in your mind.  All you can tell is that it's huge, it's ugly,
+and it sure is PISSED!
+~
+lasher~
+(null)~
+(null)~
+(null)~
+ABFRT DFHJVc -1000 0
+55 9 5d100+8700 1d1+299 5d8+32 smash
+-40 -40 -40 -40
+EFNU ABH ILMQ 0
+stand stand none 4000
+0 0 giant 0
+F res HJ
+F par GHIJK
+#0
+
+#OBJECTS
+#16200
+ash cloud~
+a cloud of ash~
+ ~
+ash~
+portal TY P
+0 0 0 0 0
+0 10000 0 P
+#16201
+ash cloud~
+a cloud of ash~
+ ~
+ash~
+portal TY P
+0 0 0 0 0
+0 10000 0 P
+#16202
+ash cloud~
+a cloud of ash~
+ ~
+ash~
+portal TY P
+0 0 0 16286 0
+0 10000 0 P
+#16203
+ash cloud~
+a cloud of ash~
+ ~
+ash~
+portal TY P
+0 0 0 16287 0
+0 10000 0 P
+#16204
+shackles balor~
+shackles of a balor~
+A pair of chain shackles lie here, covered in ash.~
+steel~
+armor AEG AG
+6 6 6 6 0
+28 100 1500 P
+A
+31 2
+A
+14 -30
+#16205
+hope soul~
+the broken hopes of a tormented soul~
+A strange glowing soul aura floats here, giving off feeble hope.~
+energy~
+jewelry ABY AQ
+0 0 0 0 0
+25 10 2000 P
+A
+13 15
+A
+32 1
+#16206
+vrock beak~
+a vrock's beak~
+A long beak, severed from a vrock, lies here.~
+flesh~
+weapon E AN
+polearm 4 8 pierce 0
+38 100 3000 P
+A
+19 3
+A
+18 1
+#16207
+crackling fire dagger~
+a crackling dagger of fire~
+A dagger lies here, burning brightly with red flames.~
+fire~
+weapon AGY AN
+dagger 2 20 flame A
+45 20 3500 P
+#16208
+chain shackles~
+a pair of steel chain shackles~
+A heavy pair of steel chain shackles lie here.~
+steel~
+armor H AG
+8 8 8 4 0
+40 250 3000 P
+A
+5 2
+A
+31 3
+#16209
+malleus arachnos~
+Malleus Arachnos~
+An evil looking mace lies here.  An inscription on it dubs it, 'Malleus Arachnos'.~
+evil~
+weapon ABEG AN
+mace 8 4 mblast H
+49 180 4500 P
+A
+30 2
+#16210
+spider leg~
+a sharp spider leg~
+The severed leg of a drider is here.  It would make an excellent spear.~
+flesh~
+weapon E AN
+staff 7 6 thrust 0
+50 50 1500 P
+A
+30 2
+A
+2 2
+#16211
+drider fangs~
+a pair of drider fangs~
+A set of poisonous drider fangs lie here.~
+ivory~
+weapon EJ AN
+exotic 6 7 bite H
+50 15 1000 P
+A
+18 3
+#16212
+adamantite chainmail~
+adamantite chainmail~
+A suit of chainmail lies here, made out of the finest adamantite.~
+adamantite~
+armor AG AD
+10 10 10 12 0
+50 20 5500 P
+A
+19 1
+A
+18 1
+A
+20 -2
+#16213
+snake whip~
+a snake headed whip~
+A whip lies here, 9 poisonous vipers serving as the lashes.~
+flesh~
+weapon ABEHJS AN
+whip 5 8 thwack CH
+45 50 4000 P
+#16214
+spider robes~
+robes emblazoned with a spider crest~
+Silken robes, emblazoned with a spider crest, lie here in a heap.~
+silk~
+armor EG AK
+9 9 9 12 0
+50 50 5000 P
+A
+12 15
+A
+20 -2
+A
+32 2
+#16215
+jade spider ring~
+a jade spider ring~
+A ring is here, set with a jade carved into the effigy of a spider.~
+jade~
+jewelry AT AB
+0 0 0 0 0
+35 10 6000 P
+A
+19 2
+A
+18 1
+#16216
+large ruby~
+a large ruby~
+A large ruby sits here, sparkling as if on fire.~
+ruby~
+warp_stone TY AO
+0 0 0 0 0
+0 5 7000 P
+F
+A 0 0 J
+A
+32 1
+#16217
+heavy iron boot~
+heavy iron boots~
+A pair of heavy boots made completely of iron are here.~
+iron~
+armor 0 AG
+10 10 10 8 0
+50 300 2500 P
+A
+30 -1
+A
+19 2
+A
+18 2
+#16218
+iron armband~
+iron armbands~
+A set of iron armbands lie here.~
+iron~
+armor 0 AI
+10 10 10 8 0
+50 250 2500 P
+A
+2 -1
+A
+19 2
+A
+18 2
+#16219
+wicked sabre shadowcaller~
+a wicked sabre named '{DS{xh{Da{xd{Do{xw{Dc{xa{Dl{Xl{De{xr'~
+A wicked looking sabre lies here.  There is an inscription upon the blade.~
+shadow~
+weapon ABGHJT A
+sword 7 5 cleave C
+50 150 6500 P
+A
+19 3
+A
+18 3
+E
+inscription~
+'{DS{xh{Da{xd{Do{xw{Dc{xa{Dl{xl{De{xr'
+~
+#16220
+ash covered bag~
+an ash-covered bag~
+A bag lies here, completely covered in ash.~
+leather~
+container 0 AO
+750 0 0 50 50
+0 80 2000 P
+#16221
+abysmal ash~
+a piece of Abysmal ash~
+A piece of ash from the Abyss lies here.~
+ash~
+pill 0 A
+35 'frenzy' 'fly' 'poison' ''
+30 1 1500 P
+#16222
+spider widow amulet diamond~
+a black widow amulet~
+An amulet is here, made of a fine diamond.  A live black widow spider is encased inside.~
+diamond~
+jewelry AMTY AC
+0 0 0 0 0
+50 20 8000 P
+A
+32 2
+A
+30 2
+A
+20 -1
+A
+12 20
+#0
+
+#ROOMS
+#16200
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16212
+D1
+Exit ~
+door~
+16384 0 16201
+D2
+Exit ~
+door~
+16384 0 16204
+D3
+Exit ~
+door~
+16384 0 16203
+D4
+Exit ~
+door~
+16384 0 16264
+D5
+Exit ~
+door~
+16384 0 16216
+S
+#16201
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16213
+D1
+Exit ~
+door~
+16384 0 16202
+D2
+Exit ~
+door~
+16384 0 16205
+D3
+Exit ~
+door~
+16384 0 16200
+D4
+Exit ~
+door~
+16384 0 16265
+D5
+Exit ~
+door~
+16384 0 16217
+S
+#16202
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16214
+D1
+Exit ~
+door~
+16384 0 16203
+D2
+Exit ~
+door~
+16384 0 16206
+D3
+Exit ~
+door~
+16384 0 16201
+D4
+Exit ~
+door~
+16384 0 16266
+D5
+Exit ~
+door~
+16384 0 16218
+S
+#16203
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16215
+D1
+Exit ~
+door~
+16384 0 16200
+D2
+Exit ~
+door~
+16384 0 16207
+D3
+Exit ~
+door~
+16384 0 16202
+D4
+Exit ~
+door~
+16384 0 16267
+D5
+Exit ~
+door~
+16384 0 16219
+S
+#16204
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16200
+D1
+Exit ~
+door~
+16384 0 16205
+D2
+Exit ~
+door~
+16384 0 16208
+D3
+Exit ~
+door~
+16384 0 16207
+D4
+Exit ~
+door~
+16384 0 16268
+D5
+Exit ~
+door~
+16384 0 16220
+S
+#16205
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16201
+D1
+Exit ~
+door~
+16384 0 16206
+D2
+Exit ~
+door~
+16384 0 16209
+D3
+Exit ~
+door~
+16384 0 16204
+D4
+Exit ~
+door~
+16384 0 16269
+D5
+Exit ~
+door~
+16384 0 16221
+S
+#16206
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16202
+D1
+Exit ~
+door~
+16384 0 16207
+D2
+Exit ~
+door~
+16384 0 16210
+D3
+Exit ~
+door~
+16384 0 16205
+D4
+Exit ~
+door~
+16384 0 16270
+D5
+Exit ~
+door~
+16384 0 16222
+S
+#16207
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16203
+D1
+Exit ~
+door~
+16384 0 16204
+D2
+Exit ~
+door~
+16384 0 16211
+D3
+Exit ~
+door~
+16384 0 16206
+D4
+Exit ~
+door~
+16384 0 16271
+D5
+Exit ~
+door~
+16384 0 16223
+S
+#16208
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16204
+D1
+Exit ~
+door~
+16384 0 16209
+D2
+Exit ~
+door~
+16384 0 16212
+D3
+Exit ~
+door~
+16384 0 16211
+D4
+Exit ~
+door~
+16384 0 16272
+D5
+Exit ~
+door~
+16384 0 16224
+S
+#16209
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16205
+D1
+Exit ~
+door~
+16384 0 16210
+D2
+Exit ~
+door~
+16384 0 16213
+D3
+Exit ~
+door~
+16384 0 16208
+D4
+Exit ~
+door~
+16384 0 16273
+D5
+Exit ~
+door~
+16384 0 16225
+S
+#16210
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16206
+D1
+Exit ~
+door~
+16384 0 16211
+D2
+Exit ~
+door~
+16384 0 16214
+D3
+Exit ~
+door~
+16384 0 16209
+D4
+Exit ~
+door~
+16384 0 16274
+D5
+Exit ~
+door~
+16384 0 16226
+S
+#16211
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16207
+D1
+Exit ~
+door~
+16384 0 16208
+D2
+Exit ~
+door~
+16384 0 16215
+D3
+Exit ~
+door~
+16384 0 16210
+D4
+Exit ~
+door~
+16384 0 16275
+D5
+Exit ~
+door~
+16384 0 16227
+S
+#16212
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16208
+D1
+Exit ~
+door~
+16384 0 16213
+D2
+Exit ~
+door~
+16384 0 16200
+D3
+Exit ~
+door~
+16384 0 16215
+D4
+Exit ~
+door~
+16384 0 16276
+D5
+Exit ~
+door~
+16384 0 16228
+S
+#16213
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16209
+D1
+Exit ~
+door~
+16384 0 16214
+D2
+Exit ~
+door~
+16384 0 16201
+D3
+Exit ~
+door~
+16384 0 16212
+D4
+Exit ~
+door~
+16384 0 16277
+D5
+Exit ~
+door~
+16384 0 16229
+S
+#16214
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16210
+D1
+Exit ~
+door~
+16384 0 16215
+D2
+Exit ~
+door~
+16384 0 16202
+D3
+Exit ~
+door~
+16384 0 16213
+D4
+Exit ~
+door~
+16384 0 16278
+D5
+Exit ~
+door~
+16384 0 16230
+S
+#16215
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16211
+D1
+Exit ~
+door~
+16384 0 16212
+D2
+Exit ~
+door~
+16384 0 16203
+D3
+Exit ~
+door~
+16384 0 16214
+D4
+Exit ~
+door~
+16384 0 16279
+D5
+Exit ~
+door~
+16384 0 16231
+S
+#16216
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16228
+D1
+Exit ~
+door~
+16384 0 16217
+D2
+Exit ~
+door~
+16384 0 16220
+D3
+Exit ~
+door~
+16384 0 16219
+D4
+Exit ~
+door~
+16384 0 16200
+D5
+Exit ~
+door~
+16384 0 16232
+S
+#16217
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16229
+D1
+Exit ~
+door~
+16384 0 16218
+D2
+Exit ~
+door~
+16384 0 16221
+D3
+Exit ~
+door~
+16384 0 16216
+D4
+Exit ~
+door~
+16384 0 16201
+D5
+Exit ~
+door~
+16384 0 16233
+S
+#16218
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16230
+D1
+Exit ~
+door~
+16384 0 16219
+D2
+Exit ~
+door~
+16384 0 16222
+D3
+Exit ~
+door~
+16384 0 16217
+D4
+Exit ~
+door~
+16384 0 16202
+D5
+Exit ~
+door~
+16384 0 16234
+S
+#16219
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16231
+D1
+Exit ~
+door~
+16384 0 16216
+D2
+Exit ~
+door~
+16384 0 16223
+D3
+Exit ~
+door~
+16384 0 16218
+D4
+Exit ~
+door~
+16384 0 16203
+D5
+Exit ~
+door~
+16384 0 16235
+S
+#16220
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16216
+D1
+Exit ~
+door~
+16384 0 16221
+D2
+Exit ~
+door~
+16384 0 16224
+D3
+Exit ~
+door~
+16384 0 16223
+D4
+Exit ~
+door~
+16384 0 16204
+D5
+Exit ~
+door~
+16384 0 16236
+S
+#16221
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16217
+D1
+Exit ~
+door~
+16384 0 16222
+D2
+Exit ~
+door~
+16384 0 16225
+D3
+Exit ~
+door~
+16384 0 16220
+D4
+Exit ~
+door~
+16384 0 16205
+D5
+Exit ~
+door~
+16384 0 16237
+S
+#16222
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16218
+D1
+Exit ~
+door~
+16384 0 16223
+D2
+Exit ~
+door~
+16384 0 16226
+D3
+Exit ~
+door~
+16384 0 16221
+D4
+Exit ~
+door~
+16384 0 16206
+D5
+Exit ~
+door~
+16384 0 16238
+S
+#16223
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16219
+D1
+Exit ~
+door~
+16384 0 16220
+D2
+Exit ~
+door~
+16384 0 16227
+D3
+Exit ~
+door~
+16384 0 16222
+D4
+Exit ~
+door~
+16384 0 16207
+D5
+Exit ~
+door~
+16384 0 16239
+S
+#16224
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16220
+D1
+Exit ~
+door~
+16384 0 16225
+D2
+Exit ~
+door~
+16384 0 16228
+D3
+Exit ~
+door~
+16384 0 16227
+D4
+Exit ~
+door~
+16384 0 16208
+D5
+Exit ~
+door~
+16384 0 16240
+S
+#16225
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16221
+D1
+Exit ~
+door~
+16384 0 16226
+D2
+Exit ~
+door~
+16384 0 16229
+D3
+Exit ~
+door~
+16384 0 16224
+D4
+Exit ~
+door~
+16384 0 16209
+D5
+Exit ~
+door~
+16384 0 16241
+S
+#16226
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16222
+D1
+Exit ~
+door~
+16384 0 16227
+D2
+Exit ~
+door~
+16384 0 16230
+D3
+Exit ~
+door~
+16384 0 16225
+D4
+Exit ~
+door~
+16384 0 16210
+D5
+Exit ~
+door~
+16384 0 16242
+S
+#16227
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16223
+D1
+Exit ~
+door~
+16384 0 16224
+D2
+Exit ~
+door~
+16384 0 16231
+D3
+Exit ~
+door~
+16384 0 16226
+D4
+Exit ~
+door~
+16384 0 16211
+D5
+Exit ~
+door~
+16384 0 16243
+S
+#16228
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16224
+D1
+Exit ~
+door~
+16384 0 16229
+D2
+Exit ~
+door~
+16384 0 16216
+D3
+Exit ~
+door~
+16384 0 16231
+D4
+Exit ~
+door~
+16384 0 16212
+D5
+Exit ~
+door~
+16384 0 16244
+S
+#16229
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16225
+D1
+Exit ~
+door~
+16384 0 16230
+D2
+Exit ~
+door~
+16384 0 16217
+D3
+Exit ~
+door~
+16384 0 16228
+D4
+Exit ~
+door~
+16384 0 16213
+D5
+Exit ~
+door~
+16384 0 16245
+S
+#16230
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16226
+D1
+Exit ~
+door~
+16384 0 16231
+D2
+Exit ~
+door~
+16384 0 16218
+D3
+Exit ~
+door~
+16384 0 16229
+D4
+Exit ~
+door~
+16384 0 16214
+D5
+Exit ~
+door~
+16384 0 16246
+S
+#16231
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16227
+D1
+Exit ~
+door~
+16384 0 16228
+D2
+Exit ~
+door~
+16384 0 16219
+D3
+Exit ~
+door~
+16384 0 16230
+D4
+Exit ~
+door~
+16384 0 16215
+D5
+Exit ~
+door~
+16384 0 16247
+S
+#16232
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16244
+D1
+Exit ~
+door~
+16384 0 16233
+D2
+Exit ~
+door~
+16384 0 16236
+D3
+Exit ~
+door~
+16384 0 16235
+D4
+Exit ~
+door~
+16384 0 16216
+D5
+Exit ~
+door~
+16384 0 16248
+S
+#16233
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16245
+D1
+Exit ~
+door~
+16384 0 16234
+D2
+Exit ~
+door~
+16384 0 16237
+D3
+Exit ~
+door~
+16384 0 16232
+D4
+Exit ~
+door~
+16384 0 16217
+D5
+Exit ~
+door~
+16384 0 16249
+S
+#16234
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16246
+D1
+Exit ~
+door~
+16384 0 16235
+D2
+Exit ~
+door~
+16384 0 16238
+D3
+Exit ~
+door~
+16384 0 16233
+D4
+Exit ~
+door~
+16384 0 16218
+D5
+Exit ~
+door~
+16384 0 16250
+S
+#16235
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16247
+D1
+Exit ~
+door~
+16384 0 16232
+D2
+Exit ~
+door~
+16384 0 16239
+D3
+Exit ~
+door~
+16384 0 16234
+D4
+Exit ~
+door~
+16384 0 16219
+D5
+Exit ~
+door~
+16384 0 16251
+S
+#16236
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16232
+D1
+Exit ~
+door~
+16384 0 16237
+D2
+Exit ~
+door~
+16384 0 16240
+D3
+Exit ~
+door~
+16384 0 16239
+D4
+Exit ~
+door~
+16384 0 16220
+D5
+Exit ~
+door~
+16384 0 16252
+S
+#16237
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16233
+D1
+Exit ~
+door~
+16384 0 16238
+D2
+Exit ~
+door~
+16384 0 16241
+D3
+Exit ~
+door~
+16384 0 16236
+D4
+Exit ~
+door~
+16384 0 16221
+D5
+Exit ~
+door~
+16384 0 16253
+S
+#16238
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16234
+D1
+Exit ~
+door~
+16384 0 16239
+D2
+Exit ~
+door~
+16384 0 16242
+D3
+Exit ~
+door~
+16384 0 16237
+D4
+Exit ~
+door~
+16384 0 16222
+D5
+Exit ~
+door~
+16384 0 16254
+S
+#16239
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16235
+D1
+Exit ~
+door~
+16384 0 16236
+D2
+Exit ~
+door~
+16384 0 16243
+D3
+Exit ~
+door~
+16384 0 16238
+D4
+Exit ~
+door~
+16384 0 16223
+D5
+Exit ~
+door~
+16384 0 16255
+S
+#16240
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16236
+D1
+Exit ~
+door~
+16384 0 16241
+D2
+Exit ~
+door~
+16384 0 16244
+D3
+Exit ~
+door~
+16384 0 16243
+D4
+Exit ~
+door~
+16384 0 16224
+D5
+Exit ~
+door~
+16384 0 16256
+S
+#16241
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16237
+D1
+Exit ~
+door~
+16384 0 16242
+D2
+Exit ~
+door~
+16384 0 16245
+D3
+Exit ~
+door~
+16384 0 16240
+D4
+Exit ~
+door~
+16384 0 16225
+D5
+Exit ~
+door~
+16384 0 16257
+S
+#16242
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16238
+D1
+Exit ~
+door~
+16384 0 16243
+D2
+Exit ~
+door~
+16384 0 16246
+D3
+Exit ~
+door~
+16384 0 16241
+D4
+Exit ~
+door~
+16384 0 16226
+D5
+Exit ~
+door~
+16384 0 16258
+S
+#16243
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16239
+D1
+Exit ~
+door~
+16384 0 16240
+D2
+Exit ~
+door~
+16384 0 16247
+D3
+Exit ~
+door~
+16384 0 16242
+D4
+Exit ~
+door~
+16384 0 16227
+D5
+Exit ~
+door~
+16384 0 16259
+S
+#16244
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16240
+D1
+Exit ~
+door~
+16384 0 16245
+D2
+Exit ~
+door~
+16384 0 16232
+D3
+Exit ~
+door~
+16384 0 16247
+D4
+Exit ~
+door~
+16384 0 16228
+D5
+Exit ~
+door~
+16384 0 16260
+S
+#16245
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16241
+D1
+Exit ~
+door~
+16384 0 16246
+D2
+Exit ~
+door~
+16384 0 16233
+D3
+Exit ~
+door~
+16384 0 16244
+D4
+Exit ~
+door~
+16384 0 16229
+D5
+Exit ~
+door~
+16384 0 16261
+S
+#16246
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16242
+D1
+Exit ~
+door~
+16384 0 16247
+D2
+Exit ~
+door~
+16384 0 16234
+D3
+Exit ~
+door~
+16384 0 16245
+D4
+Exit ~
+door~
+16384 0 16230
+D5
+Exit ~
+door~
+16384 0 16262
+S
+#16247
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16243
+D1
+Exit ~
+door~
+16384 0 16244
+D2
+Exit ~
+door~
+16384 0 16235
+D3
+Exit ~
+door~
+16384 0 16246
+D4
+Exit ~
+door~
+16384 0 16231
+D5
+Exit ~
+door~
+16384 0 16263
+S
+#16248
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16260
+D1
+Exit ~
+door~
+16384 0 16249
+D2
+Exit ~
+door~
+16384 0 16252
+D3
+Exit ~
+door~
+16384 0 16251
+D4
+Exit ~
+door~
+16384 0 16232
+D5
+Exit ~
+door~
+16384 0 16264
+S
+#16249
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16261
+D1
+Exit ~
+door~
+16384 0 16250
+D2
+Exit ~
+door~
+16384 0 16253
+D3
+Exit ~
+door~
+16384 0 16248
+D4
+Exit ~
+door~
+16384 0 16233
+D5
+Exit ~
+door~
+16384 0 16265
+S
+#16250
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16262
+D1
+Exit ~
+door~
+16384 0 16251
+D2
+Exit ~
+door~
+16384 0 16254
+D3
+Exit ~
+door~
+16384 0 16249
+D4
+Exit ~
+door~
+16384 0 16234
+D5
+Exit ~
+door~
+16384 0 16266
+S
+#16251
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16263
+D1
+Exit ~
+door~
+16384 0 16248
+D2
+Exit ~
+door~
+16384 0 16255
+D3
+Exit ~
+door~
+16384 0 16250
+D4
+Exit ~
+door~
+16384 0 16235
+D5
+Exit ~
+door~
+16384 0 16267
+S
+#16252
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16248
+D1
+Exit ~
+door~
+16384 0 16253
+D2
+Exit ~
+door~
+16384 0 16256
+D3
+Exit ~
+door~
+16384 0 16255
+D4
+Exit ~
+door~
+16384 0 16236
+D5
+Exit ~
+door~
+16384 0 16268
+S
+#16253
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16249
+D1
+Exit ~
+door~
+16384 0 16254
+D2
+Exit ~
+door~
+16384 0 16257
+D3
+Exit ~
+door~
+16384 0 16252
+D4
+Exit ~
+door~
+16384 0 16237
+D5
+Exit ~
+door~
+16384 0 16269
+S
+#16254
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16250
+D1
+Exit ~
+door~
+16384 0 16255
+D2
+Exit ~
+door~
+16384 0 16258
+D3
+Exit ~
+door~
+16384 0 16253
+D4
+Exit ~
+door~
+16384 0 16238
+D5
+Exit ~
+door~
+16384 0 16270
+S
+#16255
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16251
+D1
+Exit ~
+door~
+16384 0 16252
+D2
+Exit ~
+door~
+16384 0 16259
+D3
+Exit ~
+door~
+16384 0 16254
+D4
+Exit ~
+door~
+16384 0 16239
+D5
+Exit ~
+door~
+16384 0 16271
+S
+#16256
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16252
+D1
+Exit ~
+door~
+16384 0 16257
+D2
+Exit ~
+door~
+16384 0 16260
+D3
+Exit ~
+door~
+16384 0 16259
+D4
+Exit ~
+door~
+16384 0 16240
+D5
+Exit ~
+door~
+16384 0 16272
+S
+#16257
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16253
+D1
+Exit ~
+door~
+16384 0 16258
+D2
+Exit ~
+door~
+16384 0 16261
+D3
+Exit ~
+door~
+16384 0 16256
+D4
+Exit ~
+door~
+16384 0 16241
+D5
+Exit ~
+door~
+16384 0 16273
+S
+#16258
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16254
+D1
+Exit ~
+door~
+16384 0 16259
+D2
+Exit ~
+door~
+16384 0 16262
+D3
+Exit ~
+door~
+16384 0 16257
+D4
+Exit ~
+door~
+16384 0 16242
+D5
+Exit ~
+door~
+16384 0 16274
+S
+#16259
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16255
+D1
+Exit ~
+door~
+16384 0 16256
+D2
+Exit ~
+door~
+16384 0 16263
+D3
+Exit ~
+door~
+16384 0 16258
+D4
+Exit ~
+door~
+16384 0 16243
+D5
+Exit ~
+door~
+16384 0 16275
+S
+#16260
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16256
+D1
+Exit ~
+door~
+16384 0 16261
+D2
+Exit ~
+door~
+16384 0 16248
+D3
+Exit ~
+door~
+16384 0 16263
+D4
+Exit ~
+door~
+16384 0 16244
+D5
+Exit ~
+door~
+16384 0 16276
+S
+#16261
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16257
+D1
+Exit ~
+door~
+16384 0 16262
+D2
+Exit ~
+door~
+16384 0 16249
+D3
+Exit ~
+door~
+16384 0 16260
+D4
+Exit ~
+door~
+16384 0 16245
+D5
+Exit ~
+door~
+16384 0 16277
+S
+#16262
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16258
+D1
+Exit ~
+door~
+16384 0 16263
+D2
+Exit ~
+door~
+16384 0 16250
+D3
+Exit ~
+door~
+16384 0 16261
+D4
+Exit ~
+door~
+16384 0 16246
+D5
+Exit ~
+door~
+16384 0 16278
+S
+#16263
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16259
+D1
+Exit ~
+door~
+16384 0 16260
+D2
+Exit ~
+door~
+16384 0 16251
+D3
+Exit ~
+door~
+16384 0 16262
+D4
+Exit ~
+door~
+16384 0 16247
+D5
+Exit ~
+door~
+16384 0 16279
+S
+#16264
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16276
+D1
+Exit ~
+door~
+16384 0 16265
+D2
+Exit ~
+door~
+16384 0 16268
+D3
+Exit ~
+door~
+16384 0 16267
+D4
+Exit ~
+door~
+16384 0 16248
+D5
+Exit ~
+door~
+16384 0 16200
+S
+#16265
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16277
+D1
+Exit ~
+door~
+16384 0 16266
+D2
+Exit ~
+door~
+16384 0 16269
+D3
+Exit ~
+door~
+16384 0 16264
+D4
+Exit ~
+door~
+16384 0 16249
+D5
+Exit ~
+door~
+16384 0 16201
+S
+#16266
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16278
+D1
+Exit ~
+door~
+16384 0 16267
+D2
+Exit ~
+door~
+16384 0 16270
+D3
+Exit ~
+door~
+16384 0 16265
+D4
+Exit ~
+door~
+16384 0 16250
+D5
+Exit ~
+door~
+16384 0 16202
+S
+#16267
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16279
+D1
+Exit ~
+door~
+16384 0 16264
+D2
+Exit ~
+door~
+16384 0 16271
+D3
+Exit ~
+door~
+16384 0 16266
+D4
+Exit ~
+door~
+16384 0 16251
+D5
+Exit ~
+door~
+16384 0 16203
+S
+#16268
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16264
+D1
+Exit ~
+door~
+16384 0 16269
+D2
+Exit ~
+door~
+16384 0 16272
+D3
+Exit ~
+door~
+16384 0 16271
+D4
+Exit ~
+door~
+16384 0 16252
+D5
+Exit ~
+door~
+16384 0 16204
+S
+#16269
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16265
+D1
+Exit ~
+door~
+16384 0 16270
+D2
+Exit ~
+door~
+16384 0 16273
+D3
+Exit ~
+door~
+16384 0 16268
+D4
+Exit ~
+door~
+16384 0 16253
+D5
+Exit ~
+door~
+16384 0 16205
+S
+#16270
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16266
+D1
+Exit ~
+door~
+16384 0 16271
+D2
+Exit ~
+door~
+16384 0 16274
+D3
+Exit ~
+door~
+16384 0 16269
+D4
+Exit ~
+door~
+16384 0 16254
+D5
+Exit ~
+door~
+16384 0 16206
+S
+#16271
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16267
+D1
+Exit ~
+door~
+16384 0 16268
+D2
+Exit ~
+door~
+16384 0 16275
+D3
+Exit ~
+door~
+16384 0 16270
+D4
+Exit ~
+door~
+16384 0 16255
+D5
+Exit ~
+door~
+16384 0 16207
+S
+#16272
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16268
+D1
+Exit ~
+door~
+16384 0 16273
+D2
+Exit ~
+door~
+16384 0 16276
+D3
+Exit ~
+door~
+16384 0 16275
+D4
+Exit ~
+door~
+16384 0 16256
+D5
+Exit ~
+door~
+16384 0 16208
+S
+#16273
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16269
+D1
+Exit ~
+door~
+16384 0 16274
+D2
+Exit ~
+door~
+16384 0 16277
+D3
+Exit ~
+door~
+16384 0 16272
+D4
+Exit ~
+door~
+16384 0 16257
+D5
+Exit ~
+door~
+16384 0 16209
+S
+#16274
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16270
+D1
+Exit ~
+door~
+16384 0 16275
+D2
+Exit ~
+door~
+16384 0 16278
+D3
+Exit ~
+door~
+16384 0 16273
+D4
+Exit ~
+door~
+16384 0 16258
+D5
+Exit ~
+door~
+16384 0 16210
+S
+#16275
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16271
+D1
+Exit ~
+door~
+16384 0 16272
+D2
+Exit ~
+door~
+16384 0 16279
+D3
+Exit ~
+door~
+16384 0 16274
+D4
+Exit ~
+door~
+16384 0 16259
+D5
+Exit ~
+door~
+16384 0 16211
+S
+#16276
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16272
+D1
+Exit ~
+door~
+16384 0 16277
+D2
+Exit ~
+door~
+16384 0 16264
+D3
+Exit ~
+door~
+16384 0 16279
+D4
+Exit ~
+door~
+16384 0 16260
+D5
+Exit ~
+door~
+16384 0 16212
+S
+#16277
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16273
+D1
+Exit ~
+door~
+16384 0 16278
+D2
+Exit ~
+door~
+16384 0 16265
+D3
+Exit ~
+door~
+16384 0 16276
+D4
+Exit ~
+door~
+16384 0 16261
+D5
+Exit ~
+door~
+16384 0 16213
+S
+#16278
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16274
+D1
+Exit ~
+door~
+16384 0 16279
+D2
+Exit ~
+door~
+16384 0 16266
+D3
+Exit ~
+door~
+16384 0 16277
+D4
+Exit ~
+door~
+16384 0 16262
+D5
+Exit ~
+door~
+16384 0 16214
+S
+#16279
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 16275
+D1
+Exit ~
+door~
+16384 0 16276
+D2
+Exit ~
+door~
+16384 0 16267
+D3
+Exit ~
+door~
+16384 0 16278
+D4
+Exit ~
+door~
+16384 0 16263
+D5
+Exit ~
+door~
+16384 0 16215
+S
+#16280
+The Abyss~
+You are floating in an ashen grey void.  All around you, smoke and dust
+swirl about you.  The nothingness extends as far as the eye can see...
+~
+0 C 0
+S
+#16281
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16282
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16283
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16284
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16285
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16286
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16287
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16288
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16289
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16290
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16291
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16292
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16293
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16294
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16295
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16296
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16297
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16298
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#16299
+Generic room name~
+Generic room description.
+~
+0 C 0
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 16202 spec_cast_judge     	* a Balor
+M 16203 spec_cast_cleric    	* a yochlol
+M 16204 spec_cast_mage      	* a drider
+M 16205 spec_cast_cleric    	* a drow high priestess
+M 16206 spec_cast_judge     	* a Glabrezu
+M 16207 spec_cast_mage      	* a Tanar'ri
+S
+
+#$

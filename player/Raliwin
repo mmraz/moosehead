@@ -3,8 +3,8 @@ Name Raliwin~
 SurN Olekar~
 Id   1069182609
 Email (null)~
-LogO 1069201033
-Vers 31
+LogO 1407696771
+Vers 33
 Prom [%e %hHp %mMana %n/%N %v(%S)$%g.%s %a %wLbs %X]  ~
 Race ogre~
 Outc 0
@@ -15,6 +15,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 mojo~
 Sac  300
 Sex  1
@@ -34,17 +41,17 @@ Node 0
 Cap 0
 Created 1069182621
 Glad 0 0 0 0 0 0
-LastHost 216.17.212.200~
+LastHost 209.169.196.58~
 Cla  4
 ClaO 2
 Levl 8
 DLevl 0
-Plyd 11310
-Not  1069183110 1069183110 1069183110 1069196047 1069183110 1069183110 1069183110 1069183110 1069183110 1069183110
+Plyd 11444
+Not  1360282950 1360282950 1360282950 1360282950 1360282950 1360282950 1360282950 1360282950 1360282950 1360282950
 Scro 22
 Rank 0
 Room 3054
-HMV  120 120 138 138 131 133
+HMV  120 120 138 138 133 133
 Gold 55
 Silv 317
 Exp  104166
@@ -57,10 +64,14 @@ Icg 0
 Pnet AF
 Pos  8
 Prac 15
+Trai 8
 SkiP 24
+Save  -5
 Alig  -1000
-ACs -10 -10 -10 -10
-Attr 15 16 16 17 19 16 17 12
+Hit   5
+SecHit   5
+ACs -19 -19 -19 -19
+Attr 15 16 16 17 19 11 14 12
 AMod 4 1 3 2 5 0 0 0
 Pass RaFQhZE/CC6oo~
 Titl  will allways be confused.~
@@ -68,7 +79,7 @@ Pnts 100
 TSex 1
 LLev 2
 HMVP 110 128 133
-Cnd  0 40 47 38
+Cnd  0 44 47 46
 Sk 1 'aid'
 Sk 1 'armor'
 Sk 1 'bestow holiness'
@@ -130,6 +141,8 @@ Gr 'benedictions'
 Gr 'enhancement'
 Gr 'healing'
 Gr 'protective'
+Affc 'bless'   0  44  50   5  18          0
+Affc 'bless'   0  44  50  -5  24          0
 End
 
 #O
@@ -397,7 +410,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 75
-Val  0 0 188 0 0
+Val  0 0 185 0 0
 End
 
 #O

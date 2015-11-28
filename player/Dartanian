@@ -2,23 +2,23 @@
 Name Dartanian~
 Id   962545432
 Email (null)~
-LogO 1114671988
-Vers 31
+LogO 1354961663
+Vers 33
 Desc This Masterful Blademaster can wield a blade like it was his
 his own hand. He stands tall proud fearless, You dont want to be at
 the other end of his weapon, For it would be the last thing you see.
 ~
 Prom <%h Hp %m Mn %v Mv>%c<%XXp %SDp %gg %ss> ~
 Race human~
-Clan loner~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 5
-SkPTracker 12
+SkPTimer 2
+SkPTracker 3
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,10 +26,14 @@ LstAtkedByTimer 0
 LstCombatDate 1009917316
 LstKillDate 1009917316
 LstDeathDate 1009917316
-LoginsWOKill 3
-LoginsWODeath 3
-LoginsWOCombat 3
+LoginsWOKill 17
+LoginsWODeath 17
+LoginsWOCombat 17
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 1 17 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -262 xochipili~
 Sac  300
@@ -39,48 +43,49 @@ Node 0
 Cap 0
 Created 962545454
 Glad 0 0 0 0 0 0
-LastHost c-24-20-206-252.hsd1.or.comcast.net~
+LastHost 98.232.225.18~
 Cla  14
 ClaO 3
 Levl 18
 DLevl 0
-Plyd 62469
-Not  1002187375 1002187375 1002187375 1002187375 1002187375 1002187375 1002187375 1002187375 1002187375 0
+Plyd 63176
+Not  1328834567 1328834567 1328834567 1328834567 1328834567 1328834567 1328834567 1328834567 1328834567 1328834567
 Scro 22
 Rank 0
-Room 3054
+Room 3001
 HMV  324 324 178 178 255 255
-Gold 192
-Silv 1800
-Exp  140676
+Gold 59
+Silv 88
+Exp  140640
 Act  CDEFGH
 MHSF R
-AfBy JTVa
+AfBy JT
 Comm DGIR
 Disp BFGIJ
 IcgB 0
 Icg 0
 Pnet ADEF
 Pos  8
-Prac 38
-SkiP 16
+Prac 29
+ReTrai 6
+SkiP 6
 Save  -5
 Alig  -1000
-Hit   14
-Dam   5
-SecHit   13
-SecDam   5
-ACs 58 57 56 99
+Hit   11
+Dam   2
+SecHit   10
+SecDam   2
+ACs 48 47 46 89
 Wimp  20
-Attr 21 18 18 14 18 13 18 13
-AMod 13 0 1 4 3 0 0 0
+Attr 21 18 18 18 18 10 10 14
+AMod 13 0 1 2 3 0 0 0
 Pass DazxrMY1czymw~
 Titl  D'artagnan~
 Pnts 99
 TSex 1
 LLev 17
 HMVP 296 178 155
-Cnd  0 48 48 48
+Cnd  0 6 27 27
 Alias k kill~
 Alias dd dirt~
 Sk 1 'aid'
@@ -123,6 +128,7 @@ Sk 28 'sword'
 Sk 14 'whip'
 Sk 86 'bash'
 Sk 75 'berserk'
+Sk 1 'cleave'
 Sk 79 'dirt kicking'
 Sk 75 'disarm'
 Sk 54 'dodge'
@@ -147,16 +153,11 @@ Gr 'weaponsmaster'
 Gr 'benedictions'
 Gr 'protective'
 Gr 'transportation'
-Affc 'berserk'   0  18   1  30  17   67108864
-Affc 'berserk'   0  18   1   3  19   67108864
-Affc 'berserk'   0  17   1   3  18   67108864
-Affc 'bless'   0  42  42  -5  24          0
-Affc 'bless'   0  41  42   5  18          0
-Affc 'haste'   0  18   2   2   2    2097152
-Affc 'armor'   0  46  17 -20  17          0
-Affc 'shield'   0  46  31 -20  17          0
-Affc 'giant strength'   0  43  23   4   1          0
-Affc 'fly'   0  49  26   0   0     524288
+Affc 'bless'   0  35  21  -5  24          0
+Affc 'bless'   0  36  21   5  18          0
+Affc 'shield'   0  43  10 -20  17          0
+Affc 'giant strength'   0  38   2   4   1          0
+Affc 'fly'   0  45   5   0   0     524288
 End
 
 #O
@@ -457,7 +458,7 @@ Nest 1
 PrevOwner Dartanian~
 Cond 0
 Wear -1
-Time 494
+Time 472
 Cost 290
 Spell 1 'detect invis'
 Spell 2 'detect magic'
@@ -470,7 +471,7 @@ Nest 1
 PrevOwner Dartanian~
 Cond 0
 Wear -1
-Time 623
+Time 601
 Cost 290
 Spell 1 'detect invis'
 Spell 2 'detect magic'
@@ -483,7 +484,7 @@ Nest 1
 PrevOwner Dartanian~
 Cond 0
 Wear -1
-Time 689
+Time 667
 Cost 290
 Spell 1 'detect invis'
 Spell 2 'detect magic'
@@ -496,7 +497,7 @@ Nest 1
 PrevOwner Dartanian~
 Cond 0
 Wear -1
-Time 596
+Time 574
 Cost 290
 Spell 1 'detect invis'
 Spell 2 'detect magic'
@@ -509,11 +510,31 @@ Nest 1
 PrevOwner Dartanian~
 Cond 0
 Wear -1
-Time 914
+Time 892
 Cost 290
 Spell 1 'detect invis'
 Spell 2 'detect magic'
 Spell 3 'detect hidden'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Dartanian~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Dartanian~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
 End
 
 #O
@@ -678,10 +699,19 @@ Vnum 8502
 Nest 0
 PrevOwner Dartanian~
 ExtF 257
-Stolen 36
+Stolen 14
 Cond 0
 Wear 16
 Cost 3100
+End
+
+#O
+Vnum 8009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 360
 End
 
 #END

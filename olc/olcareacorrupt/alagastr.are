@@ -1,0 +1,1964 @@
+#AREA
+/mud/moosehead/area/alagastr.are~
+Sherwood forest~
+{ All } Alag    Sherwood forest~
+10700 10749
+
+#MOBILES
+#10700
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+yinn~
+(null)~
+(null)~
+(null)~
+ART 0 0 0
+1 0 1d4+1 1d1+99 1d3+2 charge
+2 2 2 2
+EFNU A 0 0
+stand stand none 0
+J 0 medium 0
+F aff J
+F res IJ
+F vul H
+F for V
+F par GHIJK
+#10701
+golem necromancer evil~
+A golem formed from the nastiest things in Boinga~
+A hideous golem is here.  Created from the most vile creatures of boinga and having the soul of a Necromancer
+~
+Generic description.~
+human~
+Foolish mortals, you cannot hope to defeat me!~
+(null)~
+(null)~
+ABFRS DFHTVc 0 0
+58 75 1d1+25000 1d1+99 10d5+35 magic
+-45 -45 -45 -47
+ABDHKNU AB CDEMP NS
+stand stand none 10
+0 0 large 0
+F par GHIJK
+#10702
+sherwood ghost spirit forest~
+a ghost of Sherwood {gForest{x~
+A spirit floats here guarding Sherwood {gForest{x.
+~
+A ghoulish figure floats before you.  You fear that perhaps the stories of spirits
+within the Sherwood {gForest{x are true.  A shiver runs down your spine as the
+ghost screams and attacks!
+~
+unique~
+Leave these woods!~
+The spirits of Sherwood demand a toll!!~
+BOO!~
+ABFT FVZ 0 0
+51 35 10d100+6000 1d1+1 7d7+3 wrath
+-30 -30 -30 -30
+EFNU AB M 0
+stand stand none 10
+AHMV ABCDEF small 0
+#10703
+senior merry man~
+{GSenior Merry Man{x~
+A {GSenior Merry Man{x is eyeing your wallet, gems, gold and all other valuables.
+~
+Once a peasant from the city of Nottingham, now a robbing machine!  He robs from
+the rich and gives to the poor.  He is shrouded in a green garb with the only sign
+of color being the red signant of the house of Locksley worn upon his sleeve.
+~
+human~
+(null)~
+(null)~
+(null)~
+AS 0 -100 0
+51 7 4d100+5000 1d1+99 8d4+7 punch
+-33 -31 -33 -10
+EFNU 0 0 E
+stand stand male 100
+0 0 medium 0
+F par GHIJK
+#10704
+instructor merry man~
+A {GMerry{x Instructor~
+A {GMerry{x Instructor is here, preparing the men.
+~
+This guy although clearly in charge of the troops does not look the type to be in such
+a posistion of authority.   In fact he looks fairly silly, his hat is on backwards
+and his pants aren't up quite as high as they should be.
+~
+human~
+(null)~
+(null)~
+(null)~
+AB DFJV -100 0
+54 0 50d10+6500 27d9+100 7d6+22 pound
+-24 -24 -24 2
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#10705
+senior merry man~
+{GSenior Merry Man{x~
+A {GSenior Merry Man{x is eyeing your wallet, gems, gold and all other valuables.
+~
+Once a peasant from the city of Nottingham, now a robbing machine!  He robs from
+the rich and gives to the poor.  He is shrouded in a green garb with the only sign
+of color being the red signant of the house of Locksley worn upon his sleeve.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABS 0 -100 0
+51 7 4d100+5000 1d1+99 8d4+7 punch
+-33 -31 -33 -10
+EFNU 0 0 E
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#10706
+John Little~
+Little John~
+Here stands John Little, the best man of the forest.
+~
+Little he is not.  A man looms above you.  He must stand over seven feet tall and is
+as broad as any two normal men.  His beard and hair are unkept, but his skill with
+the quarter-staff are as keen as you have ever seen.  He moves quickly for such a
+large man.  Prepare yourself!
+~
+unique~
+I'm the second in command of the {GMerry{x Men.~
+Robin fights with a bow, I prefer to just beat the hell outta people.~
+I'm John Little.  Well met stranger.~
+ABFT DFHNTVWac 0 0
+58 2 50d10+8500 20d10+500 6d10+27 punch
+-28 -28 -28 -20
+ADEFHIKN ABR 0 0
+stand stand male 0
+AHMV ABCDEF giant 0
+#10707
+Junior merry man~
+{GJunior Merry Man{x~
+A {GJunior Merry Man{x is eyeing your wallet.
+~
+It seems he is sizing you up and is likely to rob you if you don't move along
+~
+kender~
+(null)~
+(null)~
+(null)~
+ABCGS BQ 400 0
+17 2 3d20+130 1d1+99 2d4+3 slice
+2 0 0 6
+BFJNQU 0 0 0
+stand stand male 0
+0 0 medium 0
+F res E
+F vul IL
+#10708
+merry archer~
+A {GMerry{x Archer~
+A {GMerry{x Archer stands here practicing his marksmanship.
+~
+Once a peasant from the city of Nottingham, now a robbing machine!  He robs from
+the rich and gives to the poor.  He is shrouded in a green garb with the only sign
+of color being the red signant of the house of Locksley worn upon his sleeve.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABS 0 -100 0
+51 7 4d100+5000 1d1+99 8d4+7 punch
+-33 -31 -33 -10
+EFNPU 0 0 E
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#10709
+jonathan shopkeeper~
+Jonathan the {GMerry{x Shopkeeper~
+Jonathan the {GMerry{x Shopkeeper stands here, doing his own brand of robbing.
+~
+Jonathan is standing here with an arrow in his hand.  He is adjusting the fletching
+so that it flies true.  You can tell he has experience in crafting weapons and such.
+He takes just a minute to look up from his work to acknowledge you have entered his
+shop.
+~
+human~
+(null)~
+(null)~
+(null)~
+AT HV 0 0
+60 1 9d10+800 10d10+100 10d10+85 slash
+-25 -25 -30 -30
+ABDFKOU ABCD 0 0
+stand stand none 1000
+0 0 medium 0
+F par GHIJK
+#10710
+merry lookout~
+A {GMerry{x Lookout~
+A {GMerry{x Lookout is here, watching the camp.
+~
+A rather large {GMerry{x Man is standing here looking over the camp.  As he sees you
+approach he sounds the alarm!
+~
+human~
+HELP! THE CAMP IS BEING INVADED!~
+The Tax Collectors are coming! The Tax Collectors are coming!~
+For King Richard!  Defend all of {gSherwood{x!!~
+ABF DFJV -100 0
+54 0 50d10+6500 27d9+100 7d6+22 pound
+-35 -35 -35 -10
+EFNU 0 0 0
+stand stand male 0
+0 0 medium 0
+#10711
+will scarlett~
+Will {RScarlett{x~
+Will {RScarlett{x is here trying to rally the men against Robin.
+~
+Will tells you: "I don't understand why the people follow him.  He has brought the
+Sheriff's men into the forest.  He has brought war to us yet these men follow him
+without question.  Why!?  Why do they follow him!?
+~
+human~
+How can you follow him?!~
+Robin of Locksley leads you to your death!~
+I cannot stand to see you people die for no reason!~
+ABT DFJ 800 0
+53 2 50d10+5000 25d9+100 5d8+20 cleave
+-21 -21 -21 3
+EFKNU AB 0 0
+stand stand male 0
+0 0 medium 0
+#10712
+duncan servant locksley~
+Duncan~
+Duncan, servant of the house of Locksley, stands here.
+~
+Before you stands a man in very plain clothing.  Around his eyes is a torn bandage
+covering his empty sockets.  He remains loyal to his house and master Robin of
+Locksley.  He has given his sight and is willing to give his life to defend the house
+of Locksley.
+~
+human~
+Point me towards danger Master Robin!~
+The Nottingham guards took my eyes...~
+It does not take eyes to see the the evil of the Sheriff's men.~
+ABT ADFJ 800 0
+52 2 50d10+5000 25d9+100 5d8+20 slice
+-21 -21 -21 3
+EFNU AB 0 0
+stand stand male 0
+0 0 medium 0
+#10713
+Vyldor~
+Vyldor~
+Vyldor is here studying encantations.
+~
+Before you stands a wizened old man.  His shaven head shows a small tatoo of an
+arcanic rune on the back of his head.  Any time he speaks a magical encantation it
+glows a faint, soft light.  His eyes reveal a wisdom beyond his years, and the pain
+that the gift of magic often gives people.  The Loyal Wizard of King Richard, he was
+jailed in the castle by the prince for his loyalty to the king.  Iron bars and minor
+enchantments could not hold him though and now he fights for the cause of Robin of
+Locksley.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABR FHNc 0 0
+55 20 5d100+12000 1d1+499 12d5+5 magic
+-47 -47 -47 -50
+FHKNU AB CDQ 0
+stand stand none 25
+0 0 medium 0
+F par GHIJK
+#10714
+rodd blacksmith~
+Rodd the Blacksmith~
+Rodd the Blacksmith stands here, smithing weapons for the {GMerry{x Men.
+~
+Before you stands a very large man.  With the exception of John Little he is without
+a doubt the largest man you have seen in this camp.  His arms are huge from hammering
+endlessly on various blades for the men.  His skin is blackened from soot and ash
+that are rising from his forge.  He ain't happy that you've disturbed his work.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABST DFJ 800 0
+53 2 50d10+5000 25d9+100 5d8+20 cleave
+-21 -21 -21 3
+EFKNU AB 0 0
+stand stand male 0
+0 0 medium 0
+#10715
+robin locksley~
+Robin of Locksley~
+The leader of all the {GMerry{x Men, Robin of Locksley, is here ready for battle.
+~
+Robin of Locksley.... the legendary leader of the {GMerry{x Men.  Though he does not
+appear menacing his reputation preceeds him.  A hero to the poor and a menace to the
+prince.  The holder of the legendary Bow of Locksley, the man who can split his own
+arrow, survivor of the crusades and now he robs from the rich to give to the poor.
+~
+human~
+Prince will not rule long!~
+(null)~
+(null)~
+ABCFST DFHNc 0 0
+60 90 10d100+19000 1d1+499 9d5+45 punch
+-45 -45 -45 -47
+ABDEFHIKN AB PQ 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#10700
+sign prince john warning~
+A Warning Sign~
+A Warning sign from the Prince himself is nailed to a tree.~
+wood~
+furniture OR 0
+0 0 0 0 0
+0 100 0 P
+E
+sign~
+{RWarning{x: legend has it that these woods are haunted by ghosts.  That is why only
+one fool is stupid enough to live here.  That fool is no other than Robin of Locksley.
+Entrance into these woods is strictly forbidden.  If you are stupid enough to go against
+the wishes of the Prince then be warned, your valuables are not safe and my kingdom
+will not be help responsible for any loses of life or jewels that you may suffer.
+ 
+                                                           -Prince John
+~
+#10701
+forest cloak~
+{gGreen{x Forest Cloak~
+A cloak that would be perfect {Gc{ga{Gm{o{gu{Gf{gl{Ga{gg{Ge{x lies here.~
+cloth~
+armor 0 AC
+0 0 0 0 0
+45 30 0 P
+F
+A 0 0 B
+A
+14 10
+A
+17 -5
+A
+30 2
+#10702
+arrow wooden~
+Wooden Arrow~
+A Wooden Arrow lies here waiting to be fired.~
+wood~
+weapon 0 AN
+exotic 3 4 pierce 0
+15 1 125 P
+#10703
+poison poisonous arrow~
+Poisonous Arrow~
+An arrow lies here, the tip dripping with poison.~
+steel~
+weapon 0 AN
+exotic 4 3 pierce H
+15 1 130 P
+#10704
+quarter staff little john~
+A "Little" Quarterstaff~
+Here lies the staff of Little John~
+wood~
+weapon M AN
+polearm 3 12 pound FI
+45 100 10 W
+A
+31 1
+A
+19 2
+A
+18 1
+A
+13 20
+A
+2 -2
+A
+30 -3
+#10705
+silver arrow~
+Silver Arrow~
+A silver tipped arrow is lying here.~
+silver~
+weapon 0 AN
+exotic 3 4 pierce 0
+18 1 900 P
+#10706
+flaming arrow fire~
+a {RFiery{x arrow~
+An arrow of {RF{Yi{Rr{Ye{x lies here, don't burn yourself!~
+fire~
+weapon 0 AN
+exotic 3 4 pierce A
+20 1 1000 P
+#10707
+quiver merry~
+A {GMerry{x quiver~
+A quiver full of arrows used to smite those Nottingham guards is here.~
+leather~
+container 0 AF
+50 A 0 50 25
+45 20 20 P
+A
+17 -10
+A
+14 10
+A
+2 1
+A
+30 2
+#10708
+hat feather green merry~
+A {Ggreen{x hat with a {Rred{x feather.~
+Here lies a snazzy {Ggreen{x hat with a single {Rred{x feather sticking in it.~
+cotton~
+clothing 0 AE
+0 0 0 0 0
+45 30 2000 P
+A
+32 3
+A
+6 -1
+A
+18 1
+#10709
+short bow~
+A {GMerry{x Short Bow~
+A {GMerry{x Short Bow lies here, string taunt and ready for an arrow!~
+wood~
+weapon 0 AN
+exotic 1 6 thwack 0
+20 35 450 P
+#10710
+will scarlett dagger~
+Will {RScarlett's{x Dagger~
+The dagger of Will {RScarlett{x lies here.~
+steel~
+weapon BI AN
+dagger 5 7 stab D
+50 30 2000 P
+A
+2 2
+A
+30 2
+#10711
+bloody bandage~
+a Bloody Set of Bandages~
+a Bloody Set of Bandages lie here, they look as though they were made to cover an eye wound.~
+cloth~
+clothing ABGPSd AE
+0 0 0 0 0
+45 1 1 P
+A
+17 15
+A
+2 -2
+A
+30 -3
+F
+A 0 0 A
+A
+12 100
+A
+32 -2
+#10712
+sands time hourglass~
+{WSands{x of Time~
+An Hourglass lies here containing the {WSands{x of Time~
+sand~
+wand 0 AO
+25 5 2 'haste' 0
+45 70 0 P
+A
+30 2
+#10713
+ivory gem stone~
+A small {WIvory{x gemstone.~
+A small gemstone made of {WIvory{x rests here in the dust.~
+ivory~
+gem 0 AO
+0 0 0 0 0
+45 15 1500 P
+A
+12 10
+A
+32 2
+#10714
+fire emerald~
+An Emerald of Fire~
+An Emerald of Fire lies here, better watch your hand.~
+fire~
+gem 0 AO
+0 0 0 0 0
+45 15 1500 P
+A
+13 10
+A
+31 2
+#10715
+vial empty~
+an empty glass vial~
+An empty glass vial lies here, I'm sure you could so something with it.~
+glass~
+drink 0 A
+2 0 'water' 0 0
+0 7 10 P
+#10716
+Potion sfainfrauai~
+A potion of sfainfrauai~
+A potion granting the power of sfainfrauai is here.~
+~
+potion AB A
+55 'sanctuary' 'armor' 'stone skin' ''
+45 30 15000 P
+#10717
+frozen necklace water chain~
+a frozen necklace~
+A small drop of frozen water is here, tied upon a {Ggolden{x chain.~
+water~
+clothing 0 AC
+0 0 0 0 0
+18 100 1000 W
+A
+32 1
+A
+18 1
+#10718
+ring thaumaturgy~
+a ring of thaumaturgy~
+A ring of thaumaturgy lies here ready to release it's power.~
+gold~
+armor 0 AB
+0 0 0 0 0
+35 0 5000 D
+A
+12 25
+A
+4 1
+A
+32 1
+#10719
+rainbow rose~
+a {Rr{Ba{Gi{Yn{Wb{Co{Mw{x rose~
+Here lies a {Rr{Ba{Gi{Yn{Wb{Co{Mw{x rose, shedding petals of every color.~
+magic~
+trash TX AO
+0 0 0 0 0
+45 2 0 P
+A
+1 -2
+A
+12 20
+A
+13 20
+A
+32 3
+#10720
+potion hzrzsafh~
+a potion of hzrzsafh~
+A potion of hzrzsafh lies here.~
+glass~
+potion AB AO
+55 'teleport' '' '' ''
+51 11 0 P
+#10721
+fiery short bow~
+a {Rfiery{x shortbow~
+A {GMerry{x short bow is here, a {Rfiery{x arrow nocked and ready to fire.~
+fire~
+weapon X AN
+exotic 4 6 pierce A
+30 20 2000 W
+#10722
+poison short bow~
+a poisonous shortbow~
+A {GMerry{x short bow is here, a poisonous arrow nocked and ready to fire.~
+steel~
+weapon X AN
+exotic 4 6 pierce H
+30 20 2000 W
+#10723
+silver short bow~
+silver shortbow~
+A {GMerry{x short bow is here, a silver arrow nocked and ready to fire.~
+silver~
+weapon 0 AN
+exotic 4 6 pierce 0
+30 20 2500 W
+#10724
+wooden short bow~
+a wooden short bow~
+A {GMerry{x short bow is here, a wooden arrow nocked and ready to fire.~
+wood~
+weapon X AN
+exotic 4 6 pierce 0
+30 20 2000 W
+#10725
+gemstone hzrzsafh sfainfrauai~
+a {Dgemstone{x~
+A {Dgemstone{x lies here.  It absorbs all the light around it, you feel as if it may absorb you.~
+magic~
+gem c AO
+1 0 0 0 10749
+50 13 10 P
+#10726
+bag wizard's dust~
+A bag of wizard's dust~
+A bag of lies here filled with the bones of deceased wizards, crumpled into dust.~
+bone~
+clothing A AO
+0 0 0 0 0
+45 50 2500 W
+A
+3 2
+A
+4 2
+A
+20 -3
+#10727
+bow locksley~
+The Bow of Locksley~
+The Bow of Locksley lies here.  If you had an arrow you'd womp some Notties!~
+wood~
+weapon 0 AN
+exotic 1 10 thwack 0
+40 10 500 P
+A
+2 2
+A
+32 2
+#10728
+silver bow locksley silvery~
+the silvery bow of Locksley~
+The Bow of Locksley lies here, armed with a silver tipped arrow.~
+silver~
+weapon X AN
+exotic 8 4 pierce 0
+45 30 0 G
+A
+14 10
+A
+30 3
+A
+2 2
+#10729
+poison bow locksley poisonous~
+a poisonous bow of Locksley~
+A Bow of Locksley lies here, armed with a poison tipped arrow.~
+steel~
+weapon X AN
+exotic 8 4 pierce H
+45 30 0 G
+A
+2 2
+A
+14 10
+A
+30 3
+#10730
+merry forge~
+A {GMerry{x Forge~
+A {GMerry{x Forge is here, making weapons for the {GMerry{x Men.~
+unknown~
+forge 0 A
+0 0 0 0 0
+60 100 0 P
+#10731
+fiery bow locksley~
+a {Rfiery{x bow of Locksley~
+Here lies a bow of Locksley, a {Rfiery{x arrow is nocked and ready to fire.~
+fire~
+weapon X AN
+exotic 8 4 flame A
+45 30 0 G
+A
+14 10
+A
+30 3
+A
+2 2
+#10732
+wooden bow locksley~
+a wooden bow of Locksley~
+A bow of Locksley lies here, with a wooden arrow ready to fire.~
+wood~
+weapon X AN
+exotic 8 4 pierce 0
+45 30 0 G
+A
+14 10
+A
+30 3
+A
+2 2
+#10733
+luck charm Locksley~
+Locksley's lucky charm~
+A charm of the House of Locksley lies here in the dirt, surely it will grant you luck.~
+gold~
+gem ABX AO
+0 0 0 0 0
+45 0 10000 P
+A
+18 6
+A
+19 6
+#10734
+sword locksley~
+Sword of Locksley~
+Here in the dirt lies the legendary Sword of Locksley.~
+steel~
+weapon ABKM AN
+sword 5 6 slash 0
+50 25 15000 B
+A
+20 -3
+A
+2 1
+A
+30 2
+#10735
+whet stone~
+a whet stone~
+A whet stone used for sharpening weapons lies here.~
+granite~
+warp_stone d AO
+0 0 0 0 0
+5 3 10 P
+#10736
+merry arm band~
+a {GMerry{x armband~
+A {GMerry{x armband lies here in the dirt.~
+cloth~
+armor 0 AI
+10 10 10 8 0
+45 25 1000 W
+A
+30 2
+#10737
+merry gauntlet~
+a {GMerry{x gauntlet~
+A {GMerry{x gauntlet lies here with the ensignia of the house of Locksly upon it.~
+steel~
+armor 0 AH
+10 10 10 9 0
+45 10 1500 A
+A
+20 -3
+A
+12 -10
+A
+31 2
+#10738
+stolen gold necklace~
+a stolen {Ygold{x necklace~
+A {Ygolden{x necklace has been stolen from a rich person, we need to find a poor person to give it to!~
+gold~
+jewelry 0 AC
+0 0 0 0 0
+45 3 50000 P
+A
+18 2
+A
+17 -2
+#10739
+ring stole stolen~
+a stolen {Ygold{x ring~
+Here lies a {YGolden{x ring that has been stolen by one of the {GMerry{x men.~
+gold~
+jewelry 0 AB
+0 0 0 0 0
+45 5 100000 B
+A
+12 10
+A
+19 2
+A
+18 1
+#10740
+hammer blacksmith~
+A blacksmith's hammer~
+A large iron hammer lies here, used for shaping weapons.~
+iron~
+weapon 0 AN
+polearm 3 12 stab A
+45 85 1000 W
+A
+31 2
+#10741
+stolen nottingham forge~
+a stolen Nottingham forge~
+The {GMerry{x Men have even stole a forge from the Nottingham Castle.~
+unknown~
+forge 0 0
+22 23 24 25 26
+0 0 0 P
+#10742
+forge Rodd~
+~
+A forge used by Rodd the blacksmith is here.  The {GMerry{x men will certainly get nifty stuff from this!~
+magic~
+forge 0 0
+27 28 29 30 31
+0 100 0 P
+#10743
+hidden forge~
+A hidden forge~
+~
+metal~
+forge 0 0
+32 0 0 0 0
+50 100 0 P
+#10744
+shard combined~
+a shard shield~
+shards of power combined to make a shield~
+magic~
+armor CGd AJ
+0 0 0 0 0
+51 75 0 P
+A
+13 50
+A
+12 50
+A
+20 -5
+#0
+
+#ROOMS
+#10700
+Alagaster's Mage Lab~
+As you enter this room you can feel the magic swirl about you.  Books are scattered
+about.  Magical symbols are drawn on the floor.  Runes used as protection from the
+dark magics no doubt.  In the center of all of this sets a wizard's stone.  A magical
+place indeed.
+~
+0 C 11
+H 125
+D2
+Exit ~
+door~
+16387 0 10701
+S
+#10701
+The road to Sherwood {gForest{x~
+You stand upon a road that leads to Sherwood {gForest{x.  Off to the West you see
+the city of Nottingham.  Beside the road you notice a very large tree with a {rWARNING{x
+sign posted by the Prince himself.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 10387
+D1
+Exit ~
+door~
+16384 0 10702
+S
+#10702
+At the edge of Sherwood {gForest{x.~
+You stand before the edge of Sherwood {gForest{x.  You can see why the merry men
+would want to hide in such a place.  The trail before you seems to dissappear into
+nothingness.  It occurs to you that if you are not careful then you will surely wonder
+from the trail and become lost.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 10703
+D3
+Exit ~
+door~
+16384 0 10701
+S
+#10703
+Within Sherwood {gForest{x~
+The trail that you have been following splits into three different trails leading in
+totally different directions.  You can hear wildlife in the distance.  At least you
+hope that it's wildlife and not the legendary ghosts of Sherwood {gForest{x.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10704
+D1
+Exit ~
+door~
+16384 0 10705
+D2
+Exit ~
+door~
+16384 0 10705
+D3
+Exit ~
+door~
+16384 0 10702
+S
+#10704
+Somewhere Within Sherwood {gForest{x~
+The trail that you have been following seems to have dissappeared.  The woods seemed 
+to have swallowed it right up.  You continue to hear the animals of the forest all
+about.  At least you hope they are animals....
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10705
+D1
+Exit ~
+door~
+16384 0 10706
+D2
+Exit ~
+door~
+16384 0 10703
+S
+#10705
+Somewhere Within Sherwood {gForest{x~
+The trail that you have been following seems to have dissappeared.  The woods seemed 
+to have swallowed it right up.  You continue to hear the animals of the forest all
+about.  At least you hope they are animals....
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10704
+D1
+Exit ~
+door~
+16384 0 10706
+D2
+Exit ~
+door~
+16384 0 10711
+D3
+Exit ~
+door~
+16384 0 10711
+S
+#10706
+Somewhere Within Sherwood {gForest{x~
+The trail that you have been following seems to have dissappeared.  The woods seemed 
+to have swallowed it right up.  You continue to hear the animals of the forest all
+about.  At least you hope they are animals....
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10705
+D1
+Exit ~
+door~
+16384 0 10707
+D2
+Exit ~
+door~
+16384 0 10705
+D3
+Exit ~
+door~
+16384 0 10704
+S
+#10707
+Somewhere Within Sherwood {gForest{x~
+The trail that you have been following seems to have dissappeared.  The woods seemed 
+to have swallowed it right up.  You continue to hear the animals of the forest all
+about.  At least you hope they are animals....
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10705
+D1
+Exit ~
+door~
+16384 0 10711
+D2
+Exit ~
+door~
+16384 0 10708
+D3
+Exit ~
+door~
+16384 0 10711
+S
+#10708
+Somewhere Within Sherwood {gForest{x~
+The trail that you have been following seems to have dissappeared.  The woods seemed 
+to have swallowed it right up.  You continue to hear the animals of the forest all
+about.  At least you hope they are animals....
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10707
+D1
+Exit ~
+door~
+16384 0 10709
+D2
+Exit ~
+door~
+16384 0 10711
+D3
+Exit ~
+door~
+16384 0 10711
+S
+#10709
+Somewhere Within Sherwood {gForest{x~
+The trail that you have been following seems to have dissappeared.  The woods seemed 
+to have swallowed it right up.  You continue to hear the animals of the forest all
+about.  At least you hope they are animals....
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10711
+D1
+Exit ~
+door~
+16384 0 10711
+D2
+Exit ~
+door~
+16384 0 10710
+D3
+Exit ~
+door~
+16384 0 10708
+S
+#10710
+Somewhere Within Sherwood {gForest{x~
+The trail that you have been following seems to have dissappeared.  The woods seemed 
+to have swallowed it right up.  You continue to hear the animals of the forest all
+about.  At least you hope they are animals....
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10709
+D1
+Exit ~
+door~
+16384 0 10712
+D2
+Exit ~
+door~
+16384 0 10711
+D3
+Exit ~
+door~
+16384 0 10711
+S
+#10711
+Somewhere Within Sherwood {gForest{x~
+The trail that you have been following seems to have dissappeared.  The woods seemed 
+to have swallowed it right up.  You continue to hear the animals of the forest all
+about.  At least you hope they are animals....
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10705
+D1
+Exit ~
+door~
+16384 0 10707
+D2
+Exit ~
+door~
+16384 0 10704
+D3
+Exit ~
+door~
+16384 0 10706
+S
+#10712
+Outside the {GMerry{x Men's camp~
+The forest that you have been wondering through opens up into a very large clearing.
+Makeshift dueling dummies, practice targets and ragged tents are scattered all about.
+You never expected the camp of {GMerry{x Men to be like this.  As soon as you step
+from the woods you realize that there are two bows pointed right at you.  You had
+best watch your step around these men.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 10713
+D3
+Exit ~
+door~
+16384 0 10710
+S
+#10713
+Within the {GMerry{x Men's camp~
+This trail leads directly through the {GMerry{x Men's camp.  Large tents have been
+raised on the north and south side of the trail giving shelter to the {GMerry{x men.
+To the East you can hear the crackling of a large fire.  Just off to the North you
+can hear arrows hitting targets at the practice range.  South of here you can hear
+the clanging of swords as men practice their fencing skills.  What first appeared to
+be chaos now is seen as a well organized training camp.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10715
+D1
+Exit ~
+door~
+16384 0 10714
+D2
+Exit ~
+door~
+16384 0 10716
+D3
+Exit ~
+door~
+16384 0 10712
+S
+#10714
+By the Camp {YF{RI{YR{RE{x~
+There is a large fire here in the middle of the camp.  The men gather here at night
+to tell stories, eat, drink and be {GMerry{x (men).  The heat from the fire is quite
+warming.  There is a large pile of extra fire wood sitting next to the fire pit in
+case the fire begins to die down.  The camp trail splits into four different directions
+here.  You can see the target range to the north, the jousting fields to the south
+and farther to the east you hear the gushing of a river.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10724
+D1
+Exit ~
+door~
+16384 0 10719
+D2
+Exit ~
+door~
+16384 0 10717
+D3
+Exit ~
+door~
+16384 0 10713
+S
+#10715
+Within a {GMerry{x Man's Tent~
+There are very few things within this tent.  Most of the {GMerry{x Men lost all of
+their worldly possessions to Prince John and his army of tax collectors.  A lone
+cot sits in the corner where a {GMerry{x Man rests his head.  Dreaming of the riches
+he will steal from the rich and give to the poor.
+~
+0 C 0
+D2
+Exit ~
+door~
+16384 0 10713
+S
+#10716
+A very {GMerry{x Tent~
+Looking around the inside of this tent you see that some {GMerry{x Man has been
+getting himself some drinks from Friar Tuck's wagon.  Empty jugs are lying all about
+the tent.  It dawns upon you why these people are called {GMerry{x Men.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 10713
+S
+#10717
+Southern Trail within the {GMerry{x Men's Camp~
+The trail leads to the North and South.  To the North you can hear the roar of a
+campfire.  To the South you can hear the clank of swords as the {GMerry{x Men train
+for combat.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10714
+D2
+Exit ~
+door~
+16384 0 10718
+S
+#10718
+Practice Fields~
+This is where the {GMerry{x men train in swordplay.  Swords fashioned from farm 
+tools of every sort and fashion are lying about.  Dummies made of straw are erected
+in the fields.  Each has hack marks from hours of practice from the {GMerry{x men.
+With this much time devoted to swordplay it is no wonder that the {GMerry{x men are
+equals to the Nottingham Cityguards.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10717
+S
+#10719
+By Sherwood River~
+From the West you can hear the {GMerry{x Men singing around their camp fire.  Off to
+the East you can see a log that has been tipped over the river.  It seems to be the
+only safe way to pass over the river safely.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10721
+D1
+Exit ~
+door~
+16384 0 10720
+D3
+Exit ~
+door~
+16384 0 10714
+S
+#10720
+Upon an Unsteady Log~
+You find yourself upon a very unsteady log.  {gMoss{x covers the log making it very
+slippery.  The wet, mossy surface makes the log difficult to walk upon.  To fight
+on such a surface would be almost impossible.
+~
+0 J 3
+D3
+Exit ~
+door~
+16384 0 10719
+S
+#10721
+The Base of a Large Oak~
+You stand before a large oak tree.  Attached to it is a rope ladder.  Above you can
+see a stand that merry men use for a lookout to ensure that no one invades their
+camp.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 10719
+D4
+Exit ~
+door~
+16384 0 10722
+S
+#10722
+High Above Sherwood {gForest{x~
+From here you can see almost all of Sherwood {gForest{x.  You can see deer running
+in the feilds to the North.  To the West you can see the town of Nottingham.  In the
+distance just past the fields and the town you can see the Nottingham Castle looming.
+None one will be able to sneak up on the camp as long as there is a look out on duty
+up here.
+~
+0 0 3
+D5
+Exit ~
+door~
+16384 0 10721
+S
+#10723
+Upon The Practice Fields~
+In the distance you can see piles of straw with targets drawn upon them.  Most of
+the targets have arrows erratically stuck in them.  From the looks of most of the
+targets the Sheriff's men are more then safe from the pierce of the {GMerry{x Men's
+arrows.  There is a target in the center that tells a different story.  There is an
+arrow stuck dead center of the target.  You think of the hundreds of arrows fired
+that a single arrow in the bullseye would not be that big of a deal.  The fact the
+arrow has been split with another arrow shows that someone around here is quite
+possibly the greatest archer in all the land.
+ 
+To the west you can see Ye Olde {GMerry{x Shoppe.  It is the only place in all of
+{gSherwood{x to buy all  your supplies for fighting those nasty Notties.  While off
+to the east you see a trail that goes farther into {gSherwood{x.
+~
+0 C 2
+D1
+Exit ~
+door~
+16384 0 10728
+D2
+Exit ~
+door~
+16384 0 10724
+D3
+Exit ~
+door~
+16384 0 10726
+S
+#10724
+Northern Trail in the {GMerry{x Camp~
+You stand North of the {GMerry{x Men's campfire.  In the distance to the South you
+can hear the roaring fire and the songs of the {GMerry{x men gathered around it.  Off
+to the East you can hear the trickling water of the river.  To the North you can see
+row after row of targets.  The {GMerry{x Men stand out front firing arrow after arrow
+trying to perfect thier archery skills.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10723
+D2
+Exit ~
+door~
+16384 0 10714
+S
+#10725
+Generic room name~
+Generic room description.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 10714
+S
+#10726
+Ye Olde {GMerry{x Shoppe~
+This is the place of {gSherwood{x Forest to buy all of your supplies.  You want to
+an arrow to pierce a Nottingham Guard's heart?  Do you want armor to protect your
+own heart?  If any of these are your needs then this is the place for you!  Our
+prices are not fair!  Why you ask?  Because we are robbing the rich!  Let's face it
+though, these are the weapons for you!
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 10723
+S
+#10727
+Deep within the {GMerry{x Camp~
+This trail leads you past the archery fields deeper into the {GMerry{x camp.  The
+{GMerry{x Men have built a whole village within the trees.  Even if the Nottingham
+Guards were to find this camp the {GMerry{x Men have so many defenses and traps that
+they would most likely be defeated.
+~
+0 0 3
+D3
+Exit ~
+door~
+16384 0 10723
+S
+#10728
+Deep Within {gSherwood{x Forest~
+The heart of the {GMerry{x Men's camp is guarded by trees so thick you can hardly see
+through them.  There seems to be only one opening large enough to get a wagon
+thru and you are standing in that opening.  Straight above your head are two towering
+oak trees.  Each have tree stands built on them where {GMerry{x Men sit so they can
+sound the alarm if any intruders are coming this way.  Your best chance for sneaking
+into the camp is to climb the ladder on the northern tree and kill any guards that
+may be watching for you.
+~
+0 0 3
+D0
+Exit ~
+ladder~
+21504 0 10729
+D1
+Exit ~
+door~
+16384 0 10732
+D3
+Exit ~
+door~
+16384 0 10723
+S
+#10729
+At the Base of a Ladder~
+A ragged rope ladder leads up to the {GMerry{x Men's watchtower.  It's unstable
+rungs will probably hold your weight.  Of course, there is only one way to find out.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 10728
+D4
+Exit ~
+door~
+16384 0 10730
+S
+#10730
+Upon a Ladder~
+The ladder creaks and wiggles as you try to climb it.  You are beginning to second
+guess your plans.  Being in the middle of the ladder both the top and the bottom seem
+too far away now.
+~
+0 0 3
+D4
+Exit ~
+door~
+16384 0 10731
+D5
+Exit ~
+door~
+16384 0 10729
+S
+#10731
+The Top of the Ladder~
+You are upon the tree stand.  It is amazing to look at the {GMerry{x Camp from here.
+There is a large circle of trees so thick that no invading army could get in.  In
+fact the opening below you is probably the only opening within the whole circle that
+anyone could fit.  You can see the whole layout of the inner camp from here.
+ 
+The large circle has {GMerry{x Men posted throughout, acting as guards.  Within the
+circle you see two major paths.  One that runs from North to South, and one that runs
+from East to West.  The circle isn't large enough to hold all of the {GMerry{x Men,
+but is by far the most secure part of the camp.  If the Nottingham Guards destroy
+practice dummies, or archery fields those things can be rebuilt.  This part of the
+camp must hold anything that cannot be replaced easily.
+~
+0 0 3
+D5
+Exit ~
+door~
+16384 0 10730
+S
+#10732
+Deep Within a {GMerry{x Encampment~
+This is the entrance to the deepest part of the camp.  You can see how heavily
+guarded this part of the camp is.  There is a trail that leads around the small
+clearing.  There is also a trail that leads farther into this more secure portion of
+the encampment.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10733
+D2
+Exit ~
+door~
+16384 0 10747
+D3
+Exit ~
+door~
+16384 0 10728
+S
+#10733
+The Trail Around the Inner Encampment~
+You are walking around a natural wall formed by {gSherwood{x.  You can hear the
+sounds of people training, planning and plotting.  To the east you can see a
+{RScarlett{x tent.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10735
+D1
+Exit ~
+door~
+16384 0 10734
+D2
+Exit ~
+door~
+16384 0 10732
+S
+#10734
+The Tent of Will Scarlett~
+You step within the tent of Will {RScarlett{x.  The tent is probably the most
+richly decorated tent that you have seen from any of the {GMerry{x Men.  Will has
+fine taste that's for sure.
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 10733
+S
+#10735
+Trail Beneath A Watchtower~
+You stand beneath a watchtower.  The watchtower is just another measure to ensure
+that this is the safest part of the {GMerry{x camp.  You see a trail that goes to the
+East and to the South.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 10737
+D2
+Exit ~
+door~
+16384 0 10733
+D4
+Exit ~
+door~
+16384 0 10736
+S
+#10736
+Upon the Watch Tower~
+You can see the whole of the inner encampement from here.  This is the perfect place
+to watch for trouble.
+~
+0 0 3
+D5
+Exit ~
+door~
+16384 0 10735
+S
+#10737
+The Trail Around the Inner Encampment~
+You are walking around a natural wall formed by {gSherwood{x.  You can hear the
+sounds of people, training planning and plotting.  To the south you can see the
+tent of Robin of Locksley's servant, Duncan.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 10739
+D2
+Exit ~
+door~
+16384 0 10738
+D3
+Exit ~
+door~
+16384 0 10735
+S
+#10738
+Duncan's tent~
+The decor of this tent is very simple.  The room has everything set against the walls
+a very simple cot is in the corner of the room.  This is the tent that is used by
+Robin of Locksley's servant Duncan.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 10737
+S
+#10739
+Trail Beneath A Watchtower~
+You stand beneath a watchtower.  The watchower is just another measure to ensure
+that this is the safest part of the {GMerry{x camp.  You see a trail that goes to the
+West and to the South.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 10741
+D3
+Exit ~
+door~
+16384 0 10737
+D4
+Exit ~
+door~
+16384 0 10740
+S
+#10740
+Upon the Watch Tower~
+You can see the whole of the inner encampement from here.  This is the perfect place
+to watch for trouble.
+~
+0 0 3
+D5
+Exit ~
+door~
+16384 0 10739
+S
+#10741
+The Trail Around the Inner Encampment~
+You are walking around a natural wall formed by {gSherwood{x.  You can hear the
+sounds of people, training, planning and plotting.  To the West you can see the
+tent of the most magical of all the {Gmerry{x men, Vyldor the wizard.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10739
+D2
+Exit ~
+door~
+16384 0 10743
+D3
+Exit ~
+door~
+16384 0 10742
+S
+#10742
+The tent of Vyldor, the magical {Gmerry{x man.~
+You pass by many different runes as you enter this tent.  Upon the floor is many
+different magical symbols drawn in wizard's sand.  From the ceiling of the tent there
+are various magical artifacts.  Various books are lying about as Vyldor is doing
+much research.  It seems that Vyldor has been reading the Tome of Protection, Book of
+Teleportation and a Volume of the Realms.
+~
+0 0 11
+M 130
+D1
+Exit ~
+door~
+16384 0 10741
+E
+volume~
+Vyldor has marked a page in The Volume of the Realms.  The passage on that page reads
+as follows:
+ 
+For one to be safe in another realm is a great task.  One in which the wizards of old
+have tried to perform multiple times.  Many died before its perfection.  The secret
+as it turns out was taken from two other books, the Tome of Protection and the Book
+of Teleportation.  We used the secrets of these two books and combined them within a
+magical forge.  This gave us a gemstone that granted us a protection like we had
+never experienced before.  The protection of another realm.
+~
+E
+book~
+hzrzsafh
+hzrzsafh to safety with this arcane power
+begin with a trinket from an arcane tower,
+a necklace from a drop of water, froze
+all forged with a rare {Rr{Ba{Gi{Yn{Wb{Co{Mw{x rose
+ 
+~
+E
+tome~
+sfainfrauai
+sfainfraui will come when you find a precious stone
+hidden deep within an {WIvory{x home
+take the stone that you find
+combine it with the {WSands{x of time,
+a rare gemstone from the gates of {RHell{x,
+and a vial taken from the wishing well.
+ 
+If you combine these items four,
+evil will harm you no more.
+your enemies will harm you no more.
+~
+S
+#10743
+Trail Beneath A Watchtower~
+You stand beneath a watchtower.  The watchtower is just another measure to ensure
+that this is the safest part of the {GMerry{x camp.  You see a trail that goes to the
+North and to the West.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10741
+D3
+Exit ~
+door~
+16384 0 10745
+D4
+Exit ~
+door~
+16384 0 10744
+S
+#10744
+Upon the Watch Tower~
+You can see the whole of the inner encampement from here.  This is the perfect place
+to watch for trouble.
+~
+0 0 3
+D5
+Exit ~
+door~
+16384 0 10743
+S
+#10745
+The Trail Around the Inner Emcampment~
+You are walking around a natural wall formed by {gSherwood{x.  You can hear the 
+sounds of people, training, planning and plotting.  To the North you can see the
+tent of the {GMerry{x Blacksmith, Rodd.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10746
+D1
+Exit ~
+door~
+16384 0 10743
+D3
+Exit ~
+door~
+16384 0 10747
+S
+#10746
+A Really Hot Tent~
+As soon as you walk through the flap of this tent the heat almost knocks you down.
+Beads of sweat begin to pop out on your forehead as you wipe your brow.  This is the
+place where all the {GMerry{x Men's weapons are forged.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 10745
+S
+#10747
+Trail Beneath A Watchtower~
+You stand beneath a watchtower.  The watchtower is just another measure to ensure
+that this is the safest part of the {GMerry{x camp.  You see a trail that goes to the
+North and to the East.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 10732
+D1
+Exit ~
+door~
+16384 0 10745
+D4
+Exit ~
+door~
+16384 0 10748
+S
+#10748
+Upon the Watch Tower~
+You can see the whole of the inner encampement from here.  This is the perfect place
+to watch for trouble.
+~
+0 0 3
+D5
+Exit ~
+door~
+16384 0 10747
+S
+#10749
+A sanctuary between realms~
+You feel at peace with yourself as you look around.  You know that only those who
+have the same magical powers and abilities as you can get to such a place.  It is as
+if you are everywhere in Boinga, yet nowhere at all.  There is a complete nothingness
+that surrounds you.  Yet everything is there, just out of reach.  The "walls" of this
+room are flashes of places throughout Boinga that you have either seen or heard of.
+The Shire, the City of Ofcol, The Planes of Time, the City of Magic.  They are all
+there, yet they are all gone at the same time.  Vyldor has outdone himself this is
+the perfect place to hide someone from the Nottingham Guards.
+~
+0 C 11
+H 125
+S
+#0
+
+#RESETS
+M 0 10702   2 10705  1	* a ghost of Sherwood {gForest{x
+M 0 10703   1 10706  1	* {GSenior Merry Man{x
+M 0 10702   2 10711  1	* a ghost of Sherwood {gForest{x
+M 0 10705  10 10715  1	* {GSenior Merry Man{x
+E 1 10708  -1    6	*   A {Ggreen{x hat with a {Rred{x feather.
+M 0 10705  10 10716  1	* {GSenior Merry Man{x
+E 1 10701  -1    3	*   {gGreen{x Forest Cloak
+M 0 10705  10 10718  2	* {GSenior Merry Man{x
+M 0 10705  10 10718  2	* {GSenior Merry Man{x
+M 0 10704   1 10718  1	* A {GMerry{x Instructor
+M 0 10706   1 10720  1	* Little John
+G 1 10704  -1     	*   A "Little" Quarterstaff
+M 0 10707   1 10722  1	* {GJunior Merry Man{x
+M 0 10708   2 10723  2	* A {GMerry{x Archer
+E 1 10707  -1    7	*   A {GMerry{x quiver
+M 0 10708   2 10723  2	* A {GMerry{x Archer
+E 1 10709  -1   16	*   A {GMerry{x Short Bow
+M 0 10709   1 10726  1	* Jonathan the {GMerry{x Shopkeeper
+G 1 10738  -1     	*   a stolen {Ygold{x necklace
+G 1 10703  -1     	*   Poisonous Arrow
+G 1 10702  -1     	*   Wooden Arrow
+G 1 10705  -1     	*   Silver Arrow
+G 1 10706  -1     	*   a {RFiery{x arrow
+G 1 10739  -1     	*   a stolen {Ygold{x ring
+M 0 10710   1 10731  1	* A {GMerry{x Lookout
+M 0 10705  10 10732  2	* {GSenior Merry Man{x
+M 0 10705  10 10732  2	* {GSenior Merry Man{x
+M 0 10711   1 10734  1	* Will {RScarlett{x
+E 1 10710  -1   16	*   Will {RScarlett's{x Dagger
+M 0 10705  10 10736  1	* {GSenior Merry Man{x
+M 0 10712   1 10738  1	* Duncan
+G 1 10711  -1     	*   a Bloody Set of Bandages
+M 0 10705  10 10740  1	* {GSenior Merry Man{x
+M 0 10713   1 10742  1	* Vyldor
+E 1 10726  -1   17	*   A bag of wizard's dust
+M 0 10705  10 10744  1	* {GSenior Merry Man{x
+M 0 10705  10 10748  1	* {GSenior Merry Man{x
+M 0 10715   1 10749  1	* Robin of Locksley
+E 1 10736  -1   10	*   a {GMerry{x armband
+G 1 10727  -1     	*   The Bow of Locksley
+E 1 10733  -1   17	*   Locksley's lucky charm
+E 1 10734  -1   16	*   Sword of Locksley
+E 1 10737  -1    9	*   a {GMerry{x gauntlet
+O 0 10700 100 10701	* A Warning Sign
+D 0 10700   2 16387	* Alagaster's Mage Lab south
+D 0 10701   0 16384	* The road to Sherwood {gForest{x north
+D 0 10701   1 16384	* The road to Sherwood {gForest{x east
+D 0 10702   1 16384	* At the edge of Sherwood {gForest{x. east
+D 0 10702   3 16384	* At the edge of Sherwood {gForest{x. west
+D 0 10703   0 16384	* Within Sherwood {gForest{x north
+D 0 10703   1 16384	* Within Sherwood {gForest{x east
+D 0 10703   2 16384	* Within Sherwood {gForest{x south
+D 0 10703   3 16384	* Within Sherwood {gForest{x west
+D 0 10704   0 16384	* Somewhere Within Sherwood {gForest{x north
+D 0 10704   1 16384	* Somewhere Within Sherwood {gForest{x east
+D 0 10704   2 16384	* Somewhere Within Sherwood {gForest{x south
+D 0 10705   0 16384	* Somewhere Within Sherwood {gForest{x north
+D 0 10705   1 16384	* Somewhere Within Sherwood {gForest{x east
+D 0 10705   2 16384	* Somewhere Within Sherwood {gForest{x south
+D 0 10705   3 16384	* Somewhere Within Sherwood {gForest{x west
+D 0 10706   0 16384	* Somewhere Within Sherwood {gForest{x north
+D 0 10706   1 16384	* Somewhere Within Sherwood {gForest{x east
+D 0 10706   2 16384	* Somewhere Within Sherwood {gForest{x south
+D 0 10706   3 16384	* Somewhere Within Sherwood {gForest{x west
+D 0 10707   0 16384	* Somewhere Within Sherwood {gForest{x north
+D 0 10707   1 16384	* Somewhere Within Sherwood {gForest{x east
+D 0 10707   2 16384	* Somewhere Within Sherwood {gForest{x south
+D 0 10707   3 16384	* Somewhere Within Sherwood {gForest{x west
+D 0 10708   0 16384	* Somewhere Within Sherwood {gForest{x north
+D 0 10708   1 16384	* Somewhere Within Sherwood {gForest{x east
+D 0 10708   2 16384	* Somewhere Within Sherwood {gForest{x south
+D 0 10708   3 16384	* Somewhere Within Sherwood {gForest{x west
+D 0 10709   0 16384	* Somewhere Within Sherwood {gForest{x north
+D 0 10709   1 16384	* Somewhere Within Sherwood {gForest{x east
+D 0 10709   2 16384	* Somewhere Within Sherwood {gForest{x south
+D 0 10709   3 16384	* Somewhere Within Sherwood {gForest{x west
+D 0 10710   0 16384	* Somewhere Within Sherwood {gForest{x north
+D 0 10710   1 16384	* Somewhere Within Sherwood {gForest{x east
+D 0 10710   2 16384	* Somewhere Within Sherwood {gForest{x south
+D 0 10710   3 16384	* Somewhere Within Sherwood {gForest{x west
+D 0 10711   0 16384	* Somewhere Within Sherwood {gForest{x north
+D 0 10711   1 16384	* Somewhere Within Sherwood {gForest{x east
+D 0 10711   2 16384	* Somewhere Within Sherwood {gForest{x south
+D 0 10711   3 16384	* Somewhere Within Sherwood {gForest{x west
+D 0 10712   1 16384	* Outside the {GMerry{x Men's camp east
+D 0 10712   3 16384	* Outside the {GMerry{x Men's camp west
+D 0 10713   0 16384	* Within the {GMerry{x Men's camp north
+D 0 10713   1 16384	* Within the {GMerry{x Men's camp east
+D 0 10713   2 16384	* Within the {GMerry{x Men's camp south
+D 0 10713   3 16384	* Within the {GMerry{x Men's camp west
+D 0 10714   0 16384	* By the Camp {YF{RI{YR{RE{x north
+D 0 10714   1 16384	* By the Camp {YF{RI{YR{RE{x east
+D 0 10714   2 16384	* By the Camp {YF{RI{YR{RE{x south
+D 0 10714   3 16384	* By the Camp {YF{RI{YR{RE{x west
+D 0 10715   2 16384	* Within a {GMerry{x Man's Tent south
+D 0 10716   0 16384	* A very {GMerry{x Tent north
+D 0 10717   0 16384	* Southern Trail within the {GMerry{x Men's Camp north
+D 0 10717   2 16384	* Southern Trail within the {GMerry{x Men's Camp south
+D 0 10718   0 16384	* Practice Fields north
+D 0 10719   0 16384	* By Sherwood River north
+D 0 10719   1 16384	* By Sherwood River east
+D 0 10719   3 16384	* By Sherwood River west
+D 0 10720   3 16384	* Upon an Unsteady Log west
+D 0 10721   2 16384	* The Base of a Large Oak south
+D 0 10721   4 16384	* The Base of a Large Oak up
+D 0 10722   5 16384	* High Above Sherwood {gForest{x down
+D 0 10723   1 16384	* Upon The Practice Fields east
+D 0 10723   2 16384	* Upon The Practice Fields south
+D 0 10723   3 16384	* Upon The Practice Fields west
+D 0 10724   0 16384	* Northern Trail in the {GMerry{x Camp north
+D 0 10724   2 16384	* Northern Trail in the {GMerry{x Camp south
+D 0 10725   2 16384	* Generic room name south
+D 0 10726   1 16384	* Ye Olde {GMerry{x Shoppe east
+D 0 10727   3 16384	* Deep within the {GMerry{x Camp west
+D 0 10728   0 21504	* Deep Within {gSherwood{x Forest north
+D 0 10728   1 16384	* Deep Within {gSherwood{x Forest east
+D 0 10728   3 16384	* Deep Within {gSherwood{x Forest west
+D 0 10729   2 16384	* At the Base of a Ladder south
+D 0 10729   4 16384	* At the Base of a Ladder up
+D 0 10730   4 16384	* Upon a Ladder up
+D 0 10730   5 16384	* Upon a Ladder down
+D 0 10731   5 16384	* The Top of the Ladder down
+D 0 10732   0 16384	* Deep Within a {GMerry{x Encampment north
+D 0 10732   2 16384	* Deep Within a {GMerry{x Encampment south
+D 0 10732   3 16384	* Deep Within a {GMerry{x Encampment west
+D 0 10733   0 16384	* The Trail Around the Inner Encampment north
+D 0 10733   1 16384	* The Trail Around the Inner Encampment east
+D 0 10733   2 16384	* The Trail Around the Inner Encampment south
+D 0 10734   3 16384	* The Tent of Will Scarlett west
+D 0 10735   1 16384	* Trail Beneath A Watchtower east
+D 0 10735   2 16384	* Trail Beneath A Watchtower south
+D 0 10735   4 16384	* Trail Beneath A Watchtower up
+D 0 10736   5 16384	* Upon the Watch Tower down
+D 0 10737   1 16384	* The Trail Around the Inner Encampment east
+D 0 10737   2 16384	* The Trail Around the Inner Encampment south
+D 0 10737   3 16384	* The Trail Around the Inner Encampment west
+D 0 10738   0 16384	* Duncan's tent north
+D 0 10739   2 16384	* Trail Beneath A Watchtower south
+D 0 10739   3 16384	* Trail Beneath A Watchtower west
+D 0 10739   4 16384	* Trail Beneath A Watchtower up
+D 0 10740   5 16384	* Upon the Watch Tower down
+D 0 10741   0 16384	* The Trail Around the Inner Encampment north
+D 0 10741   2 16384	* The Trail Around the Inner Encampment south
+D 0 10741   3 16384	* The Trail Around the Inner Encampment west
+D 0 10742   1 16384	* The tent of Vyldor, the magical {Gmerry{x man. east
+D 0 10743   0 16384	* Trail Beneath A Watchtower north
+D 0 10743   3 16384	* Trail Beneath A Watchtower west
+D 0 10743   4 16384	* Trail Beneath A Watchtower up
+D 0 10744   5 16384	* Upon the Watch Tower down
+D 0 10745   0 16384	* The Trail Around the Inner Emcampment north
+D 0 10745   1 16384	* The Trail Around the Inner Emcampment east
+D 0 10745   3 16384	* The Trail Around the Inner Emcampment west
+D 0 10747   0 16384	* Trail Beneath A Watchtower north
+D 0 10747   1 16384	* Trail Beneath A Watchtower east
+D 0 10747   4 16384	* Trail Beneath A Watchtower up
+D 0 10748   5 16384	* Upon the Watch Tower down
+M 0 10714   1 10746  1	* Rodd the Blacksmith
+E 1 10740  -1   16	*   A blacksmith's hammer
+O 0 10743 100 10746	* A hidden forge
+O 0 10741 100 10746	* a stolen Nottingham forge
+O 0 10742 100 10746	* 
+D 0 10746   2 16384	* A Really Hot Tent south
+S
+
+#SHOPS
+10709  5  9  0  0  0 	 150 100 	 8 20 	* Jonathan the {GMerry{x Shopkeeper
+0
+
+#SPECIALS
+M 10701 spec_cast_mage      	* A golem formed from the nastiest things in Boinga
+M 10702 spec_jabber         	* a ghost of Sherwood {gForest{x
+M 10704 spec_guard_d        	* A {GMerry{x Instructor
+M 10706 spec_jabber         	* Little John
+M 10707 spec_thief          	* {GJunior Merry Man{x
+M 10710 spec_guard_d        	* A {GMerry{x Lookout
+M 10711 spec_jabber         	* Will {RScarlett{x
+M 10712 spec_jabber         	* Duncan
+M 10715 spec_cast_cleric    	* Robin of Locksley
+S
+
+#$

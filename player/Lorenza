@@ -2,8 +2,8 @@
 Name Lorenza~
 Id   930670318
 Email (null)~
-LogO 1078580632
-Vers 31
+LogO 1387847213
+Vers 33
 Desc A portrait of perverse perfection.
 ~
 Prom <%h/%Hhp %m/%M %v/%Vmv>%c<%gg %ss>%b ~
@@ -17,6 +17,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Ikjajuk~
 LstKBy no one~
 LstAtkedBy no one~
@@ -24,70 +25,76 @@ LstAtkedByTimer 0
 LstCombatDate 1078580509
 LstKillDate 1078580509
 LstDeathDate 1078580509
-LoginsWOKill 1
-LoginsWODeath 1
-LoginsWOCombat 1
+LoginsWOKill 14
+LoginsWODeath 14
+LoginsWOCombat 14
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 261001 almighty~
-Sac  7
+Sac  249
 Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 951449876
 Glad 0 0 0 0 0 0
-LastHost Toronto-HSE-ppp3665635.sympatico.ca~
+LastHost 99.249.218.68~
 Cla  12
 Kit battlerager~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 262953
+Plyd 270558
 Not  977610133 981426315 971285613 981130109 992150524 981009100 971285613 995970505 971285613 0
 Scro 22
 Rank 1
-Room 31816
-HMV  1252 1252 713 737 237 338
-Gold 46
-Silv 2
+Room 31806
+HMV  1227 1227 94 737 338 338
+Gold 69
+Silv 0
 Exp  275400
-Act  CDEFGHJQSd
+Act  CDEGHJQSd
 MHSF R
-AfBy DEFJT
+AfBy CDFJN
 Comm GIJRS
 Disp FJ
 IcgB 0
 Icg 0
 Pos  8
-Trai 10
-SkiP 3
-Save  -11
-Alig  0
-Hit   19
-Dam   37
+Trai 14
+SkiP 5
+Save  -30
+Alig  -79
+Hit   21
+Dam   41
 SecHit   12
-SecDam   30
-ACs -58 -52 -54 22
-Wimp  113
-Attr 20 16 21 15 21 13 13 13
-AMod 1 7 6 2 2 0 0 0
+SecDam   32
+ACs -118 -112 -114 -34
+Wimp  20
+Attr 20 16 21 15 21 9 13 13
+AMod 3 7 6 2 2 0 0 0
 Pass LoeCIIJ4huCDE~
 Titl  Pelligrini [*]~
 Pnts 87
 TSex 2
 LLev 65
 HMVP 1227 667 303
-Cnd  0 0 2 2
+Cnd  0 0 1 1
 Alias dis c 'dispel magic'~
 OldSk 100 'acid blast'
 Sk 83 'aid'
 OldSk 1 'aid'
-Sk 1 'annointment'
+OldSk 1 'annointment'
 Sk 90 'armor'
 OldSk 90 'armor'
-Sk 50 'bestow holiness'
+Sk 53 'bestow holiness'
 OldSk 1 'bestow holiness'
-Sk 80 'bless'
+Sk 86 'bless'
 OldSk 76 'bless'
 Sk 97 'blindness'
 OldSk 95 'blindness'
@@ -199,7 +206,7 @@ Sk 1 'heat metal'
 Sk 75 'hold person'
 Sk 1 'holy word'
 OldSk 1 'holy word'
-Sk 86 'identify'
+Sk 92 'identify'
 OldSk 80 'identify'
 OldSk 75 'infravision'
 OldSk 75 'invisibility'
@@ -282,7 +289,7 @@ Sk 86 'withstand death'
 OldSk 86 'withstand death'
 Sk 75 'wound transfer'
 OldSk 75 'wound transfer'
-Sk 83 'axe'
+Sk 88 'axe'
 OldSk 75 'axe'
 OldSk 96 'dagger'
 Sk 75 'flail'
@@ -303,7 +310,7 @@ OldSk 75 'disarm'
 Sk 98 'dodge'
 OldSk 98 'dodge'
 Sk 75 'killing rage'
-Sk 95 'enhanced damage'
+Sk 98 'enhanced damage'
 OldSk 75 'enhanced damage'
 Sk 95 'hand to hand'
 OldSk 90 'hand to hand'
@@ -317,7 +324,7 @@ Sk 75 'shield block'
 OldSk 75 'shield block'
 Sk 100 'scan'
 OldSk 100 'scan'
-Sk 95 'second attack'
+Sk 100 'second attack'
 OldSk 91 'second attack'
 OldSk 100 'third attack'
 OldSk 100 'chee'
@@ -352,66 +359,68 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'garou'
-Affc 'detect magic'   0  38   3   0   0         16
-Affc 'fly'   0  45  17   0   0     524288
-Affc 'detect hidden'   0  43  18   0   0         32
-Affc 'detect invis'   0  47  18   0   0          8
-Affc 'armor'   0  46  10 -20  17          0
+Affc 'protection evil'   0  50  13  -1  24       8192
+Affc 'detect evil'   0  42  18   0   0          4
+Affc 'detect hidden'   0  48  17   0   0         32
+Affc 'detect invis'   0  45  17   0   0          8
+Affc 'stone skin'   0  46  15 -40  17          0
+Affc 'shield'   0  46  23 -20  17          0
+Affc 'armor'   0  47   0 -20  17          0
 End
 
 #O
 Vnum 2505
 Nest 0
 PrevOwner (null)~
+ExtF 258
 Cond 0
 Wear 15
 Cost 1150
+Affc 'bless'   1  49  31  -1  20        256
 End
 
 #O
 Vnum 2390
 Nest 0
 PrevOwner (null)~
+ExtF 322
 Cond 0
-Wear -1
+Wear 9
 Cost 5800
+Affc 'bless'   1  46  30  -1  20        256
 End
 
 #O
 Vnum 2505
 Nest 0
 PrevOwner (null)~
+ExtF 258
 Cond 0
 Wear 14
 Cost 1150
+Affc 'bless'   1  49  30  -1  20        256
 End
 
 #O
 Vnum 17631
 Nest 0
 PrevOwner (null)~
+ExtF 262401
 Cond 0
 Wear 0
 Cost 250
+Affc 'bless'   1  42  28  -1  20        256
 End
 
 #O
 Vnum 17648
 Nest 0
 PrevOwner (null)~
+ExtF 16777472
 Cond 0
 Wear 13
 Cost 4000
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
+Affc 'bless'   1  42  29  -1  20        256
 End
 
 #O
@@ -482,17 +491,6 @@ Cond 0
 Wear -1
 Cost 800
 Spell 1 'sanctuary'
-End
-
-#O
-Vnum 10028
-Nest 1
-PrevOwner (null)~
-ExtF 0
-Cond 0
-Wear -1
-Cost 700
-Spell 3 'giant strength'
 End
 
 #O
@@ -506,88 +504,148 @@ Cost 17800
 End
 
 #O
+Vnum 303
+Nest 1
+PrevOwner Lorenza~
+Cond 0
+Wear -1
+Cost 20
+End
+
+#O
+Vnum 6723
+Enchanted
+Nest 1
+PrevOwner Lorenza~
+ExtF 67
+Cond 0
+Wear -1
+Lev  40
+Cost 8000
+Affc 'enchant weapon'   1  52  -1   7  19          0
+Affc 'enchant weapon'   1  52  -1   7  18          0
+End
+
+#O
+Vnum 10028
+Nest 1
+PrevOwner Lorenza~
+ExtF 0
+Cond 0
+Wear -1
+Cost 700
+Spell 3 'giant strength'
+End
+
+#O
+Vnum 908
+Nest 1
+PrevOwner Lorenza~
+Cond 0
+Wear -1
+Cost 2900
+End
+
+#O
 Vnum 5936
 Nest 0
 PrevOwner (null)~
+ExtF 256
 Cond 0
 Wear 10
 Cost 3000
+Affc 'bless'   1  49  30  -1  20        256
 End
 
 #O
 Vnum 11107
 Nest 0
 PrevOwner (null)~
+ExtF 256
 Cond 0
 Wear 12
 Cost 1500
+Affc 'bless'   1  45  29  -1  20        256
 End
 
 #O
 Vnum 6422
 Nest 0
 PrevOwner (null)~
+ExtF 256
 Cond 0
 Wear 11
 Cost 5900
+Affc 'bless'   1  44  30  -1  20        256
 End
 
 #O
 Vnum 5922
 Nest 0
 PrevOwner (null)~
+ExtF 257
 Cond 0
 Wear 4
 Cost 300
+Affc 'bless'   1  45  30  -1  20        256
 End
 
 #O
 Vnum 20740
 Nest 0
 PrevOwner (null)~
+ExtF 262400
 Cond 0
 Wear 17
 Cost 4500
+Affc 'bless'   1  46  28  -1  20        256
 End
 
 #O
 Vnum 12001
 Nest 0
 PrevOwner (null)~
+ExtF 17449216
 Cond 0
 Wear 8
 Cost 0
+Affc 'bless'   1  45  30  -1  20        256
 End
 
 #O
 Vnum 5904
 Nest 0
 PrevOwner (null)~
+ExtF 256
 Cond 0
 Wear 18
 Cost 3000
+Affc 'bless'   1  47  29  -1  20        256
 End
 
 #O
 Vnum 5913
 Nest 0
 PrevOwner (null)~
-ExtF 134217728
+ExtF 134217984
 Wt   162
 Wrp 1
 Cond 0
 Wear 7
 Cost 2000
 Val  7 7 7 4 3
+Affc 'bless'   1  46  31  -1  20        256
 End
 
 #O
 Vnum 5922
 Nest 0
 PrevOwner (null)~
+ExtF 257
 Cond 0
 Wear 3
 Cost 300
+Affc 'bless'   1  47  29  -1  20        256
 End
 
 #O
@@ -595,21 +653,24 @@ Vnum 20808
 Enchanted
 Nest 0
 PrevOwner (null)~
-ExtF 67
+ExtF 323
 Cond 0
-Wear -1
+Wear 16
 Cost 1000
-Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'bless'   1  45  31  -1  20        256
 Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
 End
 
 #O
 Vnum 6423
 Nest 0
 PrevOwner (null)~
+ExtF 256
 Cond 0
 Wear 5
 Cost 19800
+Affc 'bless'   1  47  31  -1  20        256
 End
 
 #O
@@ -623,21 +684,14 @@ Cost 0
 End
 
 #O
-Vnum 908
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 9
-Cost 2900
-End
-
-#O
 Vnum 911
 Nest 0
 PrevOwner (null)~
+ExtF 1376
 Cond 0
 Wear 2
 Cost 6900
+Affc 'bless'   1  46  29  -1  20        256
 End
 
 #O
@@ -654,33 +708,111 @@ End
 Vnum 911
 Nest 0
 PrevOwner (null)~
-ExtF 1121
+ExtF 1377
 Cond 0
 Wear 1
 Cost 6900
+Affc 'bless'   1  46  29  -1  20        256
 End
 
 #O
-Vnum 6723
-Enchanted
-Nest 0
-PrevOwner (null)~
-ExtF 67
-Cond 0
-Wear 16
-Lev  40
-Cost 8000
-Affc 'enchant weapon'   1  52  -1   7  18          0
-Affc 'enchant weapon'   1  52  -1   7  19          0
-End
-
-#O
-Vnum 303
+Vnum 8800
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 20
+Cost 1870
+End
+
+#O
+Vnum 1900
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100
+End
+
+#O
+Vnum 3803
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4
+End
+
+#O
+Vnum 1970
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3803
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4
+End
+
+#O
+Vnum 1970
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3803
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4
+End
+
+#O
+Vnum 1970
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1652
+Nest 0
+PrevOwner (null)~
+Damaged 35
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 1928
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1929
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 60
 End
 
 #END

@@ -2,19 +2,20 @@
 Name Shione~
 Id   954037387
 Email (null)~
-LogO 1131829867
-Vers 31
+LogO 1406952507
+Vers 33
 Prom %h:%H    %m:%M    %v:%V    %X   %g ~
 Race human~
 Clan outcast~
-Outc 2641
+Outc 2637
 RufT 0
 MatookT 0
-SkPTimer 21
+SkPTimer 17
 SkPTracker 12
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Mindchilde~
 LstKBy Shione~
 LstAtkedBy no one~
@@ -22,42 +23,48 @@ LstAtkedByTimer 0
 LstCombatDate 1051441780
 LstKillDate 1051441780
 LstDeathDate 1051441780
-LoginsWOKill 6
-LoginsWODeath 6
-LoginsWOCombat 6
+LoginsWOKill 9
+LoginsWODeath 9
+LoginsWOCombat 9
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 mojo~
-Sac  186
+Sac  223
 Sex  2
 Vump  3
 Node 0
 Cap 0
 Created 954037397
 Glad 0 0 0 0 0 0
-LastHost CPE00110946b3c3-CM0011e6bea6c7.cpe.net.cable.rogers.com~
+LastHost 68.186.103.129~
 Cla  13
 ClaO 2
 Levl 34
 DLevl 0
-Plyd 101639
+Plyd 101863
 Not  0 0 0 1129145608 955835778 0 0 1051383953 0 0
 Scro 22
 Rank 0
-Room 8555
+Room 8551
 HMV  682 682 294 294 292 292
-Gold 197
-Silv 10638
-Exp  252167
+Gold 208
+Silv 11680
+Exp  252099
 Act  DFGHQSZa
 MHSF R
-AfBy CDFPV
+AfBy CDFP
 Comm G
 Disp FIJN
 IcgB 0
 Icg 0
 Pos  8
 Prac 39
-Trai 10
+Trai 16
 SkiP 132
 Save  -9
 Alig  -1000
@@ -67,15 +74,15 @@ SecHit   15
 SecDam   20
 ACs 39 38 43 81
 Wimp  20
-Attr 17 16 16 20 16 13 13 13
-AMod 2 0 0 3 0 0 0 0
-Pass ShGIak//PD8BM~
+Attr 17 16 16 20 16 10 10 13
+AMod 2 0 0 1 0 0 0 0
+Pass ShNCh6gBb/DHg~
 Titl .~
 Pnts 97
 TSex 2
 LLev 1
 HMVP 662 271 292
-Cnd  0 0 21 0
+Cnd  0 0 17 0
 Sk 63 'armor'
 Sk 75 'cancellation'
 Sk 1 'detect evil'
@@ -139,12 +146,11 @@ Gr 'rogue default'
 Gr 'detection'
 Gr 'protective'
 Gr 'transportation'
-Affc 'sneak'   0  29  19   0   0      32768
-Affc 'bless'   0  29  18   5  18          0
-Affc 'bless'   0  34  18  -5  24          0
-Affc 'haste'   0  18   0   2   2    2097152
-Affc 'detect hidden'   0  24  19   0   0         32
-Affc 'detect invis'   0  24  20   0   0          8
+Affc 'detect invis'   0  23  16   0   0          8
+Affc 'detect hidden'   0  24  15   0   0         32
+Affc 'bless'   0  33  14  -5  24          0
+Affc 'bless'   0  28  14   5  18          0
+Affc 'sneak'   0  28  15   0   0      32768
 End
 
 #O
@@ -182,8 +188,8 @@ PrevOwner (null)~
 Cond 0
 Wear 9
 Cost 5800
-Affc 'reserved'   1  23  -1   2  19          0
 Affc 'reserved'   1  23  -1   2   1          0
+Affc 'reserved'   1  23  -1   2  19          0
 End
 
 #O
@@ -481,8 +487,8 @@ Cond 0
 Wear -1
 Lev  33
 Cost 400
-Affc 'enchant weapon'   0  45  -1  10  18          0
 Affc 'enchant weapon'   1  45  -1  10  19          0
+Affc 'enchant weapon'   0  45  -1  10  18          0
 End
 
 #O
@@ -546,7 +552,7 @@ PrevOwner Whisper~
 Cond 0
 Wear -1
 Cost 10000
-Val  32 4 2 178 0
+Val  32 4 2 183 0
 Spell 3 'sleep'
 End
 
@@ -674,7 +680,7 @@ PrevOwner Morddha~
 Cond 0
 Wear 0
 Cost 640
-Val  0 0 486 0 0
+Val  0 0 482 0 0
 End
 
 #O
@@ -705,8 +711,8 @@ Cond 0
 Wear -1
 Lev  23
 Cost 3200
-Affc 'enchant weapon'   1  53  -1   8  19          0
 Affc 'enchant weapon'   1  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
 End
 
 #O
@@ -719,10 +725,10 @@ Cond 0
 Wear 16
 Lev  30
 Cost 60
-Affc 'enchant weapon'   0  52  -1   8  18          0
-Affc 'enchant weapon'   1  52  -1   8  19          0
-Affc 'reserved'   1  24  -1  10  12          0
 Affc 'reserved'   1  24  -1  -1   2          0
+Affc 'reserved'   1  24  -1  10  12          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   0  52  -1   8  18          0
 End
 
 #END

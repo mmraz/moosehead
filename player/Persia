@@ -2,8 +2,8 @@
 Name Persia~
 Id   940324023
 Email (null)~
-LogO 1056249852
-Vers 31
+LogO 1329974028
+Vers 33
 Prom <%h/%Hhp %m/%Mm %v/%Vmv> %c<%Xxp %gg %ss> ~
 Race human~
 Outc 0
@@ -14,6 +14,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -4 xochipili~
 Sac  300
@@ -34,46 +39,47 @@ Node 0
 Cap 0
 Created 963108774
 Glad 0 0 0 0 0 0
+LastHost 71.56.157.200~
 Cla  12
 ClaO 1
 Levl 6
 DLevl 0
-Plyd 51063
+Plyd 54432
 Not  993073289 993073289 993073289 993073289 993073289 993073289 993073289 993073289 993073289 0
 Scro 22
 Rank 0
 Room 30150
-HMV  92 92 138 138 115 115
+HMV  102 102 158 158 115 115
 Gold 94
-Silv 256
+Silv 220
 Exp  54861
 Act  CDEFGHQ
 MHSF R
-AfBy T
 Comm GILRS
 Disp FGIJ
 IcgB 0
 Icg 0
-Pos  4
-Prac 4
-Trai 11
-SkiP 54
+Pos  8
+Prac 1
+ReTrai 4
+StatsTrained 10 20 0
+SkiP 55
 Alig  1000
 Hit   2
 Dam   3
 SecHit   1
 SecDam   3
-ACs 68 67 67 80
+ACs 88 87 87 100
 Wimp  18
-Attr 13 13 21 11 18 13 13 13
-AMod 9 1 1 0 3 0 0 0
-Pass PeDG.71ZUZXXU~
+Attr 18 18 21 11 18 10 10 13
+AMod 5 0 1 0 3 0 0 0
+Pass PeG.N9UJvmlXc~
 Titl  will intoxicate your senses~
 Pnts 100
 TSex 2
 LLev 12
-HMVP 73 138 115
-Cnd  0 0 0 0
+HMVP 83 158 115
+Cnd  0 2 25 31
 Sk 57 'aid'
 OldSk 1 'aid'
 Sk 75 'armor'
@@ -105,15 +111,15 @@ Sk 1 'create rose'
 OldSk 1 'create rose'
 Sk 1 'create spring'
 OldSk 1 'create spring'
-Sk 1 'create water'
+Sk 45 'create water'
 OldSk 1 'create water'
-Sk 45 'cure blindness'
+Sk 75 'cure blindness'
 OldSk 45 'cure blindness'
 Sk 1 'cure critical'
 OldSk 1 'cure critical'
 Sk 1 'cure disease'
 OldSk 1 'cure disease'
-Sk 1 'cure light'
+Sk 45 'cure light'
 OldSk 1 'cure light'
 Sk 1 'cure poison'
 OldSk 1 'cure poison'
@@ -123,15 +129,15 @@ Sk 1 'curse'
 OldSk 1 'curse'
 Sk 1 'demonfire'
 OldSk 1 'demonfire'
-Sk 1 'detect evil'
+Sk 45 'detect evil'
 OldSk 1 'detect evil'
-Sk 1 'detect good'
+Sk 75 'detect good'
 OldSk 1 'detect good'
 Sk 1 'detect hidden'
 OldSk 1 'detect hidden'
 Sk 1 'detect invis'
 OldSk 1 'detect invis'
-Sk 1 'detect magic'
+Sk 45 'detect magic'
 OldSk 1 'detect magic'
 Sk 1 'detect poison'
 OldSk 1 'detect poison'
@@ -243,7 +249,7 @@ Sk 57 'warp'
 OldSk 1 'warp'
 Sk 1 'weaken'
 OldSk 1 'weaken'
-Sk 1 'word of recall'
+Sk 75 'word of recall'
 OldSk 1 'word of recall'
 Sk 1 'animate dead'
 OldSk 1 'animate dead'
@@ -261,14 +267,14 @@ OldSk 1 'withstand death'
 Sk 1 'wound transfer'
 OldSk 1 'wound transfer'
 OldSk 77 'dagger'
-Sk 1 'flail'
+Sk 29 'flail'
 OldSk 1 'flail'
 Sk 85 'mace'
 OldSk 1 'mace'
 Sk 1 'dodge'
 OldSk 1 'dodge'
 Sk 1 'parry'
-Sk 8 'shield block'
+Sk 75 'shield block'
 OldSk 1 'shield block'
 Sk 50 'scan'
 OldSk 51 'scan'
@@ -278,17 +284,17 @@ Sk 76 'communion'
 OldSk 52 'communion'
 Sk 1 'fast healing'
 OldSk 1 'fast healing'
-Sk 1 'meditation'
+Sk 73 'meditation'
 OldSk 1 'meditation'
-Sk 1 'scrolls'
+Sk 75 'scrolls'
 OldSk 1 'scrolls'
-Sk 1 'staves'
+Sk 50 'staves'
 OldSk 1 'staves'
-Sk 1 'wands'
+Sk 66 'wands'
 OldSk 1 'wands'
 Sk 50 'swimming'
 OldSk 50 'swimming'
-Sk 50 'recall'
+Sk 75 'recall'
 OldSk 50 'recall'
 Gr 'rom basics'
 Gr 'cleric basics'
@@ -304,9 +310,6 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'fly'   0  47  14   0   0     524288
-Affc 'shield'   0  51  18 -20  17          0
-Affc 'giant strength'   0  48  10   4   1          0
 End
 
 #O
@@ -324,15 +327,6 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 17
-Cost 0
-End
-
-#O
-Vnum 4440
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
 Cost 0
 End
 
@@ -454,22 +448,12 @@ Cost 260
 End
 
 #O
-Vnum 5740
-Nest 0
-PrevOwner TheBiggans~
-Cond 0
-Wear 0
-Cost 0
-End
-
-#O
 Vnum 3726
 Nest 0
 PrevOwner Persia~
 Cond 0
 Wear 12
 Cost 0
-Val  100 1 0 10 85
 End
 
 #O
@@ -638,12 +622,66 @@ Cost 0
 End
 
 #O
+Vnum 3009
+Nest 1
+PrevOwner Persia~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Persia~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 5740
+Nest 1
+PrevOwner Persia~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4440
+Nest 1
+PrevOwner Persia~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3138
+Nest 1
+PrevOwner Persia~
+Cond 0
+Wear -1
+Cost 24
+End
+
+#O
 Vnum 2319
 Nest 0
 PrevOwner Persia~
 Cond 0
 Wear 13
 Cost 1000
+End
+
+#O
+Vnum 21
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 0
+Cost 0
 End
 
 #END

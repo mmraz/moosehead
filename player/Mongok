@@ -2,58 +2,60 @@
 Name Mongok~
 Id   941588515
 Email (null)~
-LogO 1077585432
+LogO 1310509918
 Vers 31
 LnD  A Gladiator~
 Prom <%hhp %mmana %vmv %w{Glbs{x %S{csac{x> ~
 Race dwarf~
-Clan outcast~
+Clan loner~
 Outc 0
-RufT 427
+RufT 0
 MatookT 0
-SkPTimer 3
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 5 0 5
 Steal 0 0 0
 LstK Demnogonis~
 LstKBy Fanar~
 LstAtkedBy Raekwon~
-LstAtkedByTimer 13622
-LstCombatDate 1076193989
+LstAtkedByTimer 13050
+LstCombatDate 1307373355
 LstKillDate 1068667458
 LstDeathDate 1076194015
-LoginsWOKill 6
-LoginsWODeath 2
-LoginsWOCombat 1
+LoginsWOKill 17
+LoginsWODeath 13
+LoginsWOCombat 2
 Bnty 0
-Deity 786526 cthon~
+DeityFavor 0 0
+PrefStat 0
+Deity 786526 mojo~
 DeityT -717 cthon~
-Sac  8
+Sac  215
 Sex  1
 Vump  0
 Node 0
 Cap 0
 Created 951525700
 Glad 0 0 0 0 0 0
-LastHost 67.60.23.27~
+LastHost 142.46.160.233~
 Cla  12
 Kit battlerager~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 862097
-Not  1076191871 1076191871 1076191871 1076191871 1076191871 1076191871 1076191871 1076191871 1076191871 1076191871
+Plyd 885829
+Not  1306886525 1307313668 1306886525 1307292613 1306886525 1307335720 1306886525 1307284241 1306886525 1306886525
 Scro 22
 Rank 0
-Room 11108
-HMV  1188 1188 541 683 267 267
-Gold 221
-Silv 72
+Room 3002
+HMV  1206 1228 632 703 147 342
+Gold 361
+Silv 10370
 Exp  265579
-Act  CDEFGHIMQSd
+Act  CDEFGHIMSd
 MHSF RSUV
-AfBy FJ
+AfBy J
 Comm GLS
 Disp BFIJ
 IcgB 0
@@ -61,19 +63,25 @@ Icg 0
 Pnet ACDEFH
 Pos  8
 Prac 11
-SkiP 426
-Alig  722
-ACs 100 100 100 100
+Trai 11
+SkiP 482
+Save  -4
+Alig  955
+Hit   9
+Dam   25
+SecHit   9
+SecDam   25
+ACs -22 -22 -22 15
 Wimp  20
-Attr 20 16 21 16 21 17 16 13
-AMod 0 0 0 0 0 0 0 0
+Attr 20 16 21 16 21 9 13 13
+AMod 2 4 6 5 0 0 0 0
 Pass MoVCETyFjl2Og~
 Titl  the grizzled old fart (Rent a Hero)~
 Pnts 86
 TSex 1
 LLev 1
 HMVP 1188 683 267
-Cnd  0 9 17 17
+Cnd  0 0 0 0
 Alias / ca word~
 Alias zz ca heal~
 Alias z ca 'ray'~
@@ -87,8 +95,8 @@ Alias p ca 'dispel mag'~
 Alias m ca 'mirror image'~
 Alias en ca 'energy drain'~
 Alias 9 order all rescue mongok~
-Alias 1 gl ghe~
-Alias 2 ca heal ghe~
+Alias 1 ca 'ray' ara~
+Alias 2 ca 'hold' nalo~
 Sk 88 'aid'
 OldSk 1 'aid'
 Sk 82 'armor'
@@ -108,14 +116,15 @@ Sk 1 'cause critical'
 Sk 1 'cause light'
 Sk 1 'cause serious'
 Sk 1 'change sex'
-Sk 78 'continual light'
+Sk 1 'cone of silence'
+Sk 80 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
 Sk 75 'create fountain'
 Sk 1 'create rose'
 Sk 1 'create spring'
 Sk 1 'create water'
-Sk 82 'cure blindness'
+Sk 85 'cure blindness'
 Sk 1 'cure critical'
 OldSk 75 'cure critical'
 Sk 81 'cure disease'
@@ -127,7 +136,7 @@ OldSk 1 'cure serious'
 Sk 91 'curse'
 Sk 95 'demonfire'
 Sk 1 'detect evil'
-Sk 80 'detect good'
+Sk 83 'detect good'
 Sk 91 'detect hidden'
 Sk 86 'detect invis'
 Sk 76 'detect magic'
@@ -178,7 +187,7 @@ OldSk 1 'knock'
 Sk 1 'know alignment'
 Sk 52 'lay on hands'
 Sk 1 'lightning bolt'
-Sk 82 'locate object'
+Sk 87 'locate object'
 Sk 73 'mass healing'
 OldSk 1 'mass healing'
 Sk 88 'mirror image'
@@ -196,12 +205,12 @@ Sk 59 'protection good'
 OldSk 50 'protection good'
 Sk 70 'protection neutral'
 OldSk 67 'protection neutral'
-Sk 80 'psionic blast'
+Sk 83 'psionic blast'
 Sk 100 'ray of truth'
 Sk 100 'refresh'
 OldSk 50 'refresh'
 Sk 75 'regeneration'
-Sk 87 'remove curse'
+Sk 90 'remove curse'
 OldSk 1 'remove curse'
 Sk 75 'sacred guardian'
 OldSk 1 'sacred guardian'
@@ -217,12 +226,12 @@ Sk 100 'summon'
 OldSk 77 'summon'
 Sk 1 'symbol iii'
 Sk 75 'symbol iv'
-Sk 93 'teleport'
+Sk 96 'teleport'
 OldSk 45 'teleport'
-Sk 86 'tower of iron will'
+Sk 88 'tower of iron will'
 Sk 75 'warp'
 Sk 76 'weaken'
-Sk 91 'word of recall'
+Sk 94 'word of recall'
 OldSk 81 'word of recall'
 Sk 75 'animate dead'
 Sk 100 'summon dead'
@@ -302,16 +311,435 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect hidden'   0  51  48   0   0         32
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 14
+Cost 1150
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 3
+Cost 300
+End
+
+#O
+Vnum 5922
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 4
+Cost 300
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 15
+Cost 1150
+End
+
+#O
+Vnum 911
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 6900
+End
+
+#O
+Vnum 5937
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 9
+Cost 4000
+End
+
+#O
+Vnum 911
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 2
+Cost 6900
+End
+
+#O
+Vnum 17631
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 0
+Cost 250
+End
+
+#O
+Vnum 17648
+Nest 0
+PrevOwner Atassero~
+Cond 0
+Wear 13
+Cost 4000
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
 End
 
 #O
 Vnum 22044
-Nest 0
-PrevOwner Tatsumaru~
+Nest 1
+PrevOwner Mongok~
 Cond 0
 Wear -1
 Cost 100000
+End
+
+#O
+Vnum 15227
+Nest 1
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 20000
+End
+
+#O
+Vnum 5939
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 5934
+Nest 0
+PrevOwner Mongok~
+ExtF 134217729
+Wt   90
+Cond 0
+Wear 5
+Cost 4000
+Val  7 7 7 6 3
+End
+
+#O
+Vnum 5914
+Nest 0
+PrevOwner Mongok~
+ExtF 134217792
+Wt   40
+Cond 0
+Wear 6
+Cost 4000
+Val  7 7 7 4 3
+End
+
+#O
+Vnum 5913
+Nest 0
+PrevOwner Mongok~
+ExtF 134217728
+Wt   160
+Cond 0
+Wear 7
+Cost 2000
+Val  7 7 7 4 3
+End
+
+#O
+Vnum 10432
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 17
+Cost 11800
+End
+
+#O
+Vnum 12086
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 12345
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 12003
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3500
+End
+
+#O
+Vnum 12081
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 12
+Cost 10000
+End
+
+#O
+Vnum 12080
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 8
+Cost 4500
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 12003
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3500
+End
+
+#O
+Vnum 12006
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 12006
+Nest 0
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 12080
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 40
+End
+
+#O
+Vnum 12003
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3500
+End
+
+#O
+Vnum 12006
+Nest 0
+PrevOwner Mongok~
+Cond 0
+Wear 10
+Cost 900
+End
+
+#O
+Vnum 2015
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Time 420
+Cost 920
+Spell 1 'pass door'
+Spell 2 'faerie fire'
+End
+
+#O
+Vnum 20808
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 16
+Cost 1000
+End
+
+#O
+Vnum 5912
+Nest 0
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 10320
+Nest 0
+PrevOwner Mongok~
+Cond 0
+Wear -1
+Cost 9500
 End
 
 #END

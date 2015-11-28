@@ -3,8 +3,8 @@ Name Bacchanal~
 SurN Kaveli~
 Id   1072821854
 Email (null)~
-LogO 1126332789
-Vers 31
+LogO 1390746073
+Vers 33
 Desc Descent of great spellcasters of dark magic
 this young goblin protects the name of the
 Almighty. Be weary of his magic, great power
@@ -27,17 +27,18 @@ Desc Descent of great spellcasters of dark magic
 . /     ##########     #####     ###   ##  ##/   ####         ##    
 {x
 ~
-Prom {G>{x%hhp %mmagic %vmv $%g %wcap{G<{x ~
+Prom %h/%Hhp %m/%Mmagic %v/%Vmv $%g ~
 Race goblin~
 Clan zealot~
 Outc 0
-RufT 468
+RufT 399
 MatookT 0
 SkPTimer 0
-SkPTracker 4
+SkPTracker 0
 LogoutTracker 0
 Kill 3 5 0 5
 Steal 0 0 0
+MSteal 0
 LstK Banger~
 LstKBy Cease~
 LstAtkedBy no one~
@@ -45,10 +46,16 @@ LstAtkedByTimer 0
 LstCombatDate 1114723195
 LstKillDate 1111500916
 LstDeathDate 1091773393
-LoginsWOKill 42
-LoginsWODeath 71
-LoginsWOCombat 5
+LoginsWOKill 51
+LoginsWODeath 80
+LoginsWOCombat 14
 Bnty 0
+DeityFavor 2 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 102482 almighty~
 Sac  300
 Sex  1
@@ -57,14 +64,14 @@ Node 0
 Cap 0
 Created 1072821989
 Glad 0 0 0 0 0 0
-LastHost c-67-170-18-57.hsd1.wa.comcast.net~
+LastHost 50.181.73.1~
 Cla  0
 Kit wu jen~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 397879
-Not  1126332780 1126332780 1126332780 1126332780 1126332780 1126332780 1126332780 1126332780 1126332780 1126332780
+Plyd 400594
+Not  1311117312 1311117312 1311117312 1311117312 1311117312 1389235336 1311117312 1385305178 1311117312 1384474516
 Scro 98
 Rank 3
 Room 31816
@@ -74,7 +81,7 @@ Silv 44
 Exp  306366
 Act  DFGHMOQRSa
 MHSF RSV
-AfBy J
+AfBy DEFJ
 Comm RT
 Disp BFIJN
 IcgB 0
@@ -82,7 +89,8 @@ Icg 0
 Wizn W
 Pnet ABCDEFGHI
 Pos  8
-Prac 22
+Prac 29
+Trai 14
 SkiP 460
 Save  -9
 Alig  -1000
@@ -91,15 +99,15 @@ Dam   23
 SecHit   11
 SecDam   13
 ACs -14 -14 -14 -11
-Attr 18 21 18 19 17 17 19 16
-AMod 6 5 3 8 -1 0 0 0
+Attr 18 21 18 19 17 11 11 16
+AMod 2 5 3 8 1 0 0 0
 Pass BaRj9MR6KWPFI~
 Titl .~
 Pnts 90
 TSex 1
 LLev 72
 HMVP 854 822 512
-Cnd  0 24 25 25
+Cnd  0 0 8 8
 Alias k murder~
 Alias pr pray recall~
 Alias h murder rox~
@@ -124,19 +132,18 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 75 'chill touch'
 Sk 75 'colour spray'
-Sk 75 'cone of silence'
 Sk 100 'curse'
 Sk 87 'detect evil'
 Sk 1 'detect good'
 Sk 86 'detect hidden'
-Sk 84 'detect invis'
+Sk 86 'detect invis'
 Sk 88 'detect magic'
 Sk 1 'detect poison'
 Sk 79 'diamond skin'
 Sk 97 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
-Sk 86 'enhance'
+Sk 89 'enhance'
 Sk 100 'energy drain'
 Sk 1 'enervation'
 Sk 75 'famine'
@@ -221,7 +228,10 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'mummy'
-Affc 'giant strength'   0  44  20   4   1          0
+Affc 'enhance'   0  47   0   2   5          0
+Affc 'detect magic'   0  49  35   0   0         16
+Affc 'detect hidden'   0  36   1   0   0         32
+Affc 'detect invis'   0  41   0   0   0          8
 End
 
 #O
@@ -415,6 +425,69 @@ Cost 3000
 End
 
 #O
+Vnum 22044
+Nest 1
+PrevOwner Bacchanal~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Bacchanal~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Bacchanal~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Bacchanal~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Bacchanal~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Bacchanal~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Bacchanal~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
 Vnum 5939
 Nest 1
 PrevOwner Bacchanal~
@@ -441,8 +514,8 @@ ExtF 323
 Cond 0
 Wear -1
 Cost 4000
-Affc 'enchant weapon'   1  52  -1   8  19          0
 Affc 'enchant weapon'   0  52  -1   6  18          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
 End
 
 #O
@@ -455,8 +528,8 @@ Cond 0
 Wear -1
 Lev  49
 Cost 1000
-Affc 'enchant weapon'   0  52  -1   7  18          0
 Affc 'enchant weapon'   1  52  -1   7  19          0
+Affc 'enchant weapon'   0  52  -1   7  18          0
 End
 
 #O
@@ -478,8 +551,8 @@ Cond 0
 Wear -1
 Lev  44
 Cost 4800
-Affc 'enchant weapon'   0  52  -1   8  18          0
 Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   0  52  -1   8  18          0
 End
 
 #O
@@ -492,10 +565,10 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'enchant weapon'   1  53  -1   6  19          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'reserved'   1  49  -1   0   0          0
 Affc 'enchant weapon'   0  53  -1   2  18          0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
 End
 
 #O
@@ -509,8 +582,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   1  55  -1  10  19          0
 Affc 'enchant weapon'   0  55  -1   5  18          0
+Affc 'enchant weapon'   1  55  -1  10  19          0
 End
 
 #O
@@ -568,24 +641,6 @@ Cost 5000
 End
 
 #O
-Vnum 22044
-Nest 1
-PrevOwner Bacchanal~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Bacchanal~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
 Vnum 10445
 Enchanted
 Nest 1
@@ -595,9 +650,9 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6400
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'reserved'   1  47  -1  -5  17          0
 Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
@@ -683,7 +738,7 @@ PrevOwner Bacchanal~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -694,7 +749,7 @@ PrevOwner Bacchanal~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -705,7 +760,7 @@ PrevOwner Bacchanal~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -716,7 +771,7 @@ PrevOwner Bacchanal~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
 End
 
@@ -727,35 +782,8 @@ PrevOwner Bacchanal~
 Cond 0
 Wear -1
 Cost 0
-Val  51 183 -1 -1 -1
+Val  51 188 -1 -1 -1
 Spell 1 'speed'
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Bacchanal~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Bacchanal~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Bacchanal~
-Cond 0
-Wear -1
-Cost 100000
 End
 
 #O
@@ -768,48 +796,30 @@ Cost 300
 End
 
 #O
-Vnum 22044
-Nest 1
-PrevOwner Bacchanal~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner Bacchanal~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 2513
-Nest 0
-PrevOwner Bacchanal~
-Cond 0
-Wear -1
-Cost 710
-End
-
-#O
-Vnum 2513
-Nest 0
-PrevOwner Bacchanal~
-Cond 0
-Wear -1
-Cost 710
-End
-
-#O
 Vnum 18106
-Nest 0
+Nest 1
 PrevOwner Bacchanal~
 Cond 0
 Wear -1
 Cost 4500
+End
+
+#O
+Vnum 2513
+Nest 0
+PrevOwner Bacchanal~
+Cond 0
+Wear -1
+Cost 710
+End
+
+#O
+Vnum 2513
+Nest 0
+PrevOwner Bacchanal~
+Cond 0
+Wear -1
+Cost 710
 End
 
 #O
@@ -821,8 +831,8 @@ ExtF 66
 Cond 0
 Wear 16
 Cost 0
-Affc 'enchant weapon'   1  51  -1  10  19          0
 Affc 'enchant weapon'   0  51  -1  10  18          0
+Affc 'enchant weapon'   1  51  -1  10  19          0
 End
 
 #END

@@ -2,8 +2,8 @@
 Name Moridin~
 Id   931354391
 Email (null)~
-LogO 977912999
-Vers 27
+LogO 1394230294
+Vers 33
 Prom <%h %m %v %X %g %e> ~
 Race volare~
 Outc 0
@@ -12,12 +12,26 @@ MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1307322321
+LstKillDate 1307322321
+LstDeathDate 1307322321
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 xochipili~
 Sac  300
 Sex  1
@@ -26,35 +40,38 @@ Node 0
 Cap 0
 Created 951627071
 Glad 0 0 0 0 0 0
-LastHost AC862635.ipt.aol.com 757970~
+LastHost 67.181.218.24~
 Cla  12
 ClaO 1
 Levl 8
 DLevl 0
-Plyd 46896
-Not  977912921 977912921 977912921 977912921 977912921 977912921 977912921 977912921 977912921
+Plyd 47337
+Not  977912921 977912921 977912921 977912921 977912921 977912921 977912921 977912921 977912921 0
 Scro 22
 Rank 0
-Room 2501
-HMV  118 118 186 186 207 228
+Room 3770
+HMV  118 118 186 186 228 228
 Gold 85
 Silv 96
 Exp  67141
 Act  CDEFGHMS
+MHSF R
 AfBy T
-Comm EFISc
+Comm EFIS
 Disp FGIJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 30
+Prac 4
+Trai 5
+SkiP 1
 Alig  -1000
 Hit   3
 SecHit   3
 ACs 76 72 74 91
-Attr 15 18 20 12 17
-AMod 9 3 2 3 2
-Pass Mo1J/RiJr89lI~
+Attr 15 19 22 18 18 10 11 13
+AMod 5 3 2 3 2 0 0 0
+Pass MoLT8Hu/rRHdc~
 Titl , Nae'blis of The Great Lord of the Dark.~
 Pnts 99
 TSex 1
@@ -71,7 +88,7 @@ Sk 1 'bestow holiness'
 OldSk 1 'bestow holiness'
 Sk 75 'bless'
 OldSk 75 'bless'
-Sk 1 'blindness'
+Sk 94 'blindness'
 OldSk 94 'blindness'
 Sk 1 'body weaponry'
 Sk 1 'burning hands'
@@ -90,7 +107,7 @@ Sk 75 'continual light'
 OldSk 75 'continual light'
 Sk 1 'control weather'
 OldSk 1 'control weather'
-Sk 1 'create food'
+Sk 75 'create food'
 OldSk 1 'create food'
 Sk 1 'create fountain'
 OldSk 1 'create fountain'
@@ -100,17 +117,17 @@ Sk 1 'create spring'
 OldSk 1 'create spring'
 Sk 1 'create water'
 OldSk 1 'create water'
-Sk 1 'cure blindness'
+Sk 76 'cure blindness'
 OldSk 76 'cure blindness'
 Sk 1 'cure critical'
 OldSk 75 'cure critical'
 Sk 1 'cure disease'
 OldSk 75 'cure disease'
-Sk 1 'cure light'
+Sk 75 'cure light'
 OldSk 1 'cure light'
 Sk 1 'cure poison'
 OldSk 1 'cure poison'
-Sk 1 'cure serious'
+Sk 75 'cure serious'
 OldSk 1 'cure serious'
 Sk 1 'curse'
 OldSk 1 'curse'
@@ -122,7 +139,7 @@ Sk 1 'detect good'
 OldSk 1 'detect good'
 Sk 1 'detect hidden'
 OldSk 75 'detect hidden'
-Sk 1 'detect invis'
+Sk 75 'detect invis'
 OldSk 75 'detect invis'
 Sk 1 'detect magic'
 OldSk 75 'detect magic'
@@ -161,10 +178,10 @@ Sk 1 'fireproof'
 OldSk 75 'fireproof'
 Sk 1 'flamestrike'
 OldSk 1 'flamestrike'
-Sk 1 'fly'
-OldSk 1 'fly'
 Sk 1 'floating disc'
 OldSk 75 'floating disc'
+Sk 1 'fly'
+OldSk 1 'fly'
 Sk 1 'forget'
 OldSk 1 'forget'
 Sk 1 'frenzy'
@@ -245,10 +262,11 @@ Sk 1 'animate dead'
 OldSk 1 'animate dead'
 Sk 1 'summon dead'
 OldSk 1 'summon dead'
-Sk 1 'cryogenesis'
+Sk 75 'cryogenesis'
 OldSk 1 'cryogenesis'
 Sk 1 'draw life'
 OldSk 1 'draw life'
+Sk 1 'make bag'
 Sk 1 'turn undead'
 OldSk 1 'turn undead'
 Sk 1 'withstand death'
@@ -256,25 +274,25 @@ OldSk 1 'withstand death'
 Sk 1 'wound transfer'
 OldSk 1 'wound transfer'
 OldSk 79 'dagger'
-Sk 29 'flail'
+Sk 75 'flail'
 OldSk 29 'flail'
-Sk 63 'mace'
+Sk 75 'mace'
 OldSk 43 'mace'
 Sk 1 'dodge'
 OldSk 1 'dodge'
 Sk 1 'parry'
 OldSk 1 'parry'
-Sk 25 'shield block'
+Sk 75 'shield block'
 OldSk 25 'shield block'
-Sk 64 'scan'
+Sk 75 'scan'
 OldSk 64 'scan'
 Sk 1 'second attack'
 OldSk 1 'second attack'
-Sk 15 'communion'
+Sk 75 'communion'
 OldSk 86 'holy chant'
-Sk 1 'scrolls'
+Sk 21 'scrolls'
 OldSk 1 'scrolls'
-Sk 1 'staves'
+Sk 21 'staves'
 OldSk 1 'staves'
 Sk 1 'wands'
 OldSk 1 'wands'
@@ -298,7 +316,6 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-Affc 'giant strength'   0  39   5   4   1          0
 End
 
 #O
@@ -561,7 +578,7 @@ Vnum 6601
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 1
+Wear 2
 Cost 620
 End
 
@@ -651,7 +668,7 @@ Vnum 6601
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 2
+Wear 1
 Cost 620
 End
 

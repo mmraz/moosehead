@@ -2,7 +2,7 @@
 Name Alia~
 Id   817706887
 Email (null)~
-LogO 1016955750
+LogO 1306529084
 Vers 31
 Desc Before you stands an ancient elf woman.  It is not her body which tells you
 her age, but her eyes.  Her skin is still as smooth and white as it was when
@@ -17,7 +17,7 @@ Race faerie~
 Clan matook~
 Outc 0
 RufT 0
-MatookT 274
+MatookT 344
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
@@ -43,22 +43,23 @@ Node 0
 Cap 0
 Created 987201045
 Glad 0 0 0 0 0 0
-LastHost 12-222-92-67.client.insightBB.com~
+LastHost 128.211.161.17~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 360776
+Plyd 363619
 Not  922726684 922213393 0 1015987585 984683744 922972910 921557192 0 0 0
 Scro 22
 Rank 0
-Room 16046
-HMV  628 628 894 1158 475 475
+Room 3001
+HMV  618 618 1158 1158 475 475
 Gold 1121
 Silv 5529
 Exp  189720
 Act  CDEFGHQd
+MHSF R
 AfBy DFJT
 Comm DGIOSY
 Disp ABCDFIJ
@@ -66,22 +67,23 @@ IcgB 0
 Icg 0
 Pos  8
 Trai 10
+SkiP 1
 Alig  1000
-Hit   11
-Dam   32
-SecHit   10
-SecDam   29
-ACs 9 10 7 71
+Hit   8
+Dam   28
+SecHit   7
+SecDam   25
+ACs 21 20 21 75
 Wimp  59
 Attr 13 25 25 21 13 13 13 13
-AMod 0 0 2 -1 3 0 0 0
+AMod 4 0 2 -1 3 0 0 0
 Pass AlRecvhUkpHZM~
 Titl .~
 Pnts 71
 TSex 2
 LLev 96
 HMVP 513 1113 500
-Cnd  0 18 38 41
+Cnd  0 0 24 17
 Sk 97 'acid blast'
 OldSk 97 'acid blast'
 Sk 92 'armor'
@@ -105,6 +107,7 @@ Sk 1 'chill touch'
 OldSk 87 'chill touch'
 Sk 1 'colour spray'
 OldSk 91 'colour spray'
+Sk 1 'cone of silence'
 Sk 75 'continual light'
 OldSk 75 'continual light'
 OldSk 76 'control weather'
@@ -270,7 +273,6 @@ Sk 50 'swimming'
 OldSk 53 'swimming'
 Sk 50 'recall'
 OldSk 50 'recall'
-Sk 1 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'combat'
@@ -283,6 +285,7 @@ Gr 'maladictions'
 Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
+Affc 'giant strength'   0  46  21   4   1          0
 End
 
 #O
@@ -429,8 +432,8 @@ PrevOwner Alia~
 Cond 0
 Wear -1
 Cost 1250
-Affc 'enchant weapon'   0  50  -1   2  18          0
 Affc 'enchant weapon'   1  50  -1   2  19          0
+Affc 'enchant weapon'   0  50  -1   2  18          0
 End
 
 #O
@@ -441,8 +444,8 @@ PrevOwner Alia~
 Cond 0
 Wear -1
 Cost 840
-Affc 'enchant weapon'   1  52  -1   3  19          0
 Affc 'enchant weapon'   0  52  -1   3  18          0
+Affc 'enchant weapon'   1  52  -1   3  19          0
 End
 
 #O
@@ -525,9 +528,9 @@ PrevOwner Alia~
 Cond 0
 Wear -1
 Cost 1500
-Affc 'enchant armor'   1  39  -1  -2  17          0
-Affc 'reserved'   1  20  -1   1  18          0
 Affc 'reserved'   1  20  -1   1  19          0
+Affc 'reserved'   1  20  -1   1  18          0
+Affc 'enchant armor'   1  39  -1  -2  17          0
 End
 
 #O
@@ -800,8 +803,8 @@ PrevOwner Alia~
 Cond 0
 Wear 5
 Cost 4200
-Affc 'enchant armor'   1  39  -1  -3  17          0
 Affc 'reserved'   1  22  -1   2  19          0
+Affc 'enchant armor'   1  39  -1  -3  17          0
 End
 
 #O
@@ -812,8 +815,8 @@ PrevOwner Alia~
 Cond 0
 Wear 10
 Cost 2700
-Affc 'reserved'   1  25  -1   1  19          0
 Affc 'reserved'   1  25  -1   1  18          0
+Affc 'reserved'   1  25  -1   1  19          0
 End
 
 #O
@@ -824,9 +827,9 @@ PrevOwner Alia~
 Cond 0
 Wear 9
 Cost 2700
-Affc 'enchant armor'   1  39  -1  -2  17          0
-Affc 'reserved'   1  25  -1   1  19          0
 Affc 'reserved'   1  25  -1   1  18          0
+Affc 'reserved'   1  25  -1   1  19          0
+Affc 'enchant armor'   1  39  -1  -2  17          0
 End
 
 #O
@@ -834,7 +837,7 @@ Vnum 9321
 Nest 0
 PrevOwner Alia~
 Cond 0
-Wear 0
+Wear -1
 Cost 2400
 End
 
@@ -870,7 +873,7 @@ Vnum 6722
 Nest 0
 PrevOwner Alia~
 Cond 0
-Wear 6
+Wear -1
 Cost 2300
 End
 
@@ -990,17 +993,8 @@ PrevOwner Alia~
 Cond 0
 Wear 16
 Cost 2800
-Affc 'enchant weapon'   1  53  -1   3  19          0
 Affc 'enchant weapon'   0  53  -1   1  18          0
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Alia~
-Cond 0
-Wear -1
-Cost 5000
+Affc 'enchant weapon'   1  53  -1   3  19          0
 End
 
 #O
@@ -1026,7 +1020,7 @@ Vnum 1001
 Nest 0
 PrevOwner Holy~
 Cond 0
-Wear -1
+Wear 6
 Cost 0
 End
 
@@ -1061,22 +1055,12 @@ Val  26 52 0 0 0
 End
 
 #O
-Vnum 20
+Vnum 21
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 0
 Cost 0
-Val  26 52 0 0 0
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Alia~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #END

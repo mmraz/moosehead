@@ -21,7 +21,7 @@ while ( 1 )
 
     # Run moose.
     cd /mud/moosehead/olc
-    /mud/moosehead/olc/moose 8080 >&! $logfile
+    /mud/moosehead/olc/moose 4001 >&! $logfile
     gzip $logfile
 
     # output debugging

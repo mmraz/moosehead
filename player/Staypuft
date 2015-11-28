@@ -3,8 +3,8 @@ Name Staypuft~
 SurN MellowMan~
 Id   1054390042
 Email (null)~
-LogO 1054391487
-Vers 31
+LogO 1354750174
+Vers 33
 Desc Full of {WFluffy White {xGoodness.
 ~
 Prom <%h Hp %m Mn %v Mv>%c<%XXp %SDp %gg %ss> ~
@@ -17,6 +17,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -24,10 +25,14 @@ LstAtkedByTimer 0
 LstCombatDate 1054390042
 LstKillDate 1054390042
 LstDeathDate 1054390042
-LoginsWOKill 0
-LoginsWODeath 0
-LoginsWOCombat 0
+LoginsWOKill 30
+LoginsWODeath 30
+LoginsWOCombat 30
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 Sac  600
 Sex  1
@@ -36,44 +41,46 @@ Node 0
 Cap 0
 Created 1054390077
 Glad 0 0 0 0 0 0
-LastHost 66.178.136.5~
+LastHost 98.232.225.18~
 Cla  5
 ClaO 3
-Levl 5
+Levl 17
 DLevl 0
-Plyd 1318
-Not  0 0 0 0 0 0 0 0 0 0
+Plyd 7148
+Not  1331269862 1331269862 1331269862 1331269862 1331269862 1331269862 1331269862 1331269862 1331269862 1331269862
 Scro 22
 Rank 0
-Room 3770
-HMV  17 106 109 109 22 112
-Gold 9
-Silv 68
-Exp  20014
+Room 3001
+HMV  357 357 164 164 199 199
+Gold 606
+Silv 63
+Exp  60499
 Act  CDEFGHKQ
 MHSF R
-Comm DGIR
+Comm GIR
 Disp BFGIJN
 IcgB 0
 Icg 0
 Pnet ABCF
 Pos  8
-Prac 2
-SkiP 3
+Prac 9
+Trai 2
+SkiP 69
 Save  -6
-Alig  1000
-Hit   6
+Alig  -1000
+Hit   5
 SecHit   5
-ACs 45 43 43 59
-Attr 17 8 15 8 22 9 22 10
-AMod 6 -1 1 2 1 0 0 0
+ACs 66 56 64 96
+Wimp  20
+Attr 24 12 19 12 22 9 13 10
+AMod 7 1 -1 2 3 0 0 0
 Pass St9eoHLWNvhMg~
 Titl ,    {WMARSHMELLOWS!{x~
 Pnts 67
 TSex 1
-LLev 0
-HMVP 106 109 112
-Cnd  0 0 34 6
+LLev 1
+HMVP 357 164 199
+Cnd  0 0 31 14
 Sk 1 'bless'
 Sk 1 'crusade'
 Sk 1 'cure critical'
@@ -94,26 +101,26 @@ Sk 1 'refresh'
 Sk 1 'see soul'
 Sk 1 'summon'
 Sk 1 'teleport'
-Sk 1 'word of recall'
+Sk 75 'word of recall'
 Sk 1 'axe'
-Sk 1 'dagger'
+Sk 78 'dagger'
 Sk 1 'flail'
-Sk 80 'mace'
+Sk 82 'mace'
 Sk 1 'polearm'
 Sk 1 'spear'
 Sk 1 'sword'
 Sk 1 'whip'
-Sk 1 'bash'
+Sk 6 'bash'
 Sk 1 'disarm'
-Sk 1 'grab'
-Sk 1 'enhanced damage'
+Sk 5 'grab'
+Sk 21 'enhanced damage'
 Sk 1 'parry'
 Sk 1 'rescue'
-Sk 1 'shield block'
+Sk 5 'shield block'
 Sk 50 'scan'
-Sk 15 'second attack'
-Sk 1 'third attack'
-Sk 1 'fast healing'
+Sk 43 'second attack'
+Sk 26 'third attack'
+Sk 6 'fast healing'
 Sk 1 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
@@ -126,11 +133,9 @@ Gr 'weaponsmaster'
 Gr 'healing'
 Gr 'piety'
 Gr 'transportation'
-Affc 'shield'   0  46  41 -20  17          0
-Affc 'armor'   0  42  21 -20  17          0
-Affc 'bless'   0  31  18  -5  24          0
-Affc 'bless'   0  33  18   5  18          0
-Affc 'giant strength'   0  33  11   4   1          0
+Affc 'bless'   0  40  23   5  18          0
+Affc 'bless'   0  38  23  -5  24          0
+Affc 'giant strength'   0  32  14   4   1          0
 End
 
 #O
@@ -140,25 +145,7 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 168 0 0
-End
-
-#O
-Vnum 3703
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 5
-Cost 0
-End
-
-#O
-Vnum 3704
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 11
-Cost 0
+Val  0 0 26 0 0
 End
 
 #O
@@ -172,103 +159,118 @@ Val  100 1 0 10 85
 End
 
 #O
-Vnum 1276
+Vnum 3156
 Nest 1
 PrevOwner Staypuft~
 Cond 0
 Wear -1
-Cost 0
-Spell 3 'stone skin'
+Cost 800
+Spell 1 'giant strength'
 End
 
 #O
-Vnum 3706
-Nest 0
-PrevOwner (null)~
+Vnum 3156
+Nest 1
+PrevOwner Staypuft~
 Cond 0
-Wear 6
-Cost 72
+Wear -1
+Cost 800
+Spell 1 'giant strength'
 End
 
 #O
-Vnum 3708
-Nest 0
-PrevOwner (null)~
+Vnum 3156
+Nest 1
+PrevOwner Staypuft~
 Cond 0
-Wear 8
-Cost 72
+Wear -1
+Cost 800
+Spell 1 'giant strength'
 End
 
 #O
-Vnum 3713
-Nest 0
-PrevOwner (null)~
+Vnum 3156
+Nest 1
+PrevOwner Staypuft~
 Cond 0
-Wear 15
-Cost 48
+Wear -1
+Cost 800
+Spell 1 'giant strength'
 End
 
 #O
-Vnum 3712
-Nest 0
-PrevOwner (null)~
+Vnum 3156
+Nest 1
+PrevOwner Staypuft~
 Cond 0
-Wear 13
-Cost 72
+Wear -1
+Cost 800
+Spell 1 'giant strength'
 End
 
 #O
-Vnum 3707
-Nest 0
-PrevOwner (null)~
+Vnum 3156
+Nest 1
+PrevOwner Staypuft~
 Cond 0
-Wear 7
-Cost 72
+Wear -1
+Cost 800
+Spell 1 'giant strength'
 End
 
 #O
-Vnum 3705
-Nest 0
-PrevOwner (null)~
+Vnum 3156
+Nest 1
+PrevOwner Staypuft~
 Cond 0
-Wear 4
-Cost 72
+Wear -1
+Cost 800
+Spell 1 'giant strength'
 End
 
 #O
-Vnum 3705
-Nest 0
-PrevOwner (null)~
+Vnum 3146
+Nest 1
+PrevOwner Staypuft~
 Cond 0
-Wear 3
-Cost 72
+Wear -1
+Cost 800
 End
 
 #O
-Vnum 3709
-Nest 0
-PrevOwner (null)~
+Vnum 3146
+Nest 1
+PrevOwner Staypuft~
 Cond 0
-Wear 9
-Cost 72
+Wear -1
+Cost 800
 End
 
 #O
-Vnum 3710
-Nest 0
-PrevOwner (null)~
+Vnum 3146
+Nest 1
+PrevOwner Staypuft~
 Cond 0
-Wear 10
-Cost 72
+Wear -1
+Cost 800
 End
 
 #O
-Vnum 3713
-Nest 0
-PrevOwner (null)~
+Vnum 3146
+Nest 1
+PrevOwner Staypuft~
 Cond 0
-Wear 14
-Cost 48
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 1
+PrevOwner Staypuft~
+Cond 0
+Wear -1
+Cost 800
 End
 
 #O
@@ -281,13 +283,138 @@ Cost 1140
 End
 
 #O
-Vnum 3700
+Vnum 10019
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear 6
+Cost 0
+End
+
+#O
+Vnum 10020
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear 7
+Cost 0
+End
+
+#O
+Vnum 10021
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear 8
+Cost 0
+End
+
+#O
+Vnum 10022
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear 9
+Cost 0
+End
+
+#O
+Vnum 10023
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear 10
+Cost 0
+End
+
+#O
+Vnum 10025
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear 13
+Cost 0
+End
+
+#O
+Vnum 5230
+Nest 0
+PrevOwner Tikko~
+Cond 0
+Wear 18
+Cost 550
+End
+
+#O
+Vnum 8111
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 1
+Cost 100
+End
+
+#O
+Vnum 8111
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 2
+Cost 100
+End
+
+#O
+Vnum 3052
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 14
+Cost 112
+End
+
+#O
+Vnum 3052
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 15
+Cost 112
+End
+
+#O
+Vnum 3066
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 5
+Cost 430
+End
+
+#O
+Vnum 3097
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 11
+Cost 750
+End
+
+#O
+Vnum 104
 Nest 0
 PrevOwner Staypuft~
-Stolen 56
 Cond 0
-Wear 16
-Cost 250
+Wear 3
+Cost 550
+End
+
+#O
+Vnum 104
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 4
+Cost 550
 End
 
 #END

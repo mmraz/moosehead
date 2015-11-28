@@ -2,8 +2,8 @@
 Name Topaz~
 Id   989728058
 Email (null)~
-LogO 998795288
-Vers 28
+LogO 1329714391
+Vers 33
 Desc .
 ~
 Prom {Y%g{y%s {R%X%c{x%r {g%e{x%c[%h/%H %m/%M %v/%V{x] ~
@@ -11,15 +11,27 @@ Race rockbiter~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 7
+SkPTimer 2
+SkPTracker 5
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1323028443
+LstKillDate 1323028443
+LstDeathDate 1323028443
+LoginsWOKill 9
+LoginsWODeath 9
+LoginsWOCombat 9
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 10 0
+QuestWins 0 0
 Deity 0 xochipili~
 Sac  300
 Sex  2
@@ -28,45 +40,49 @@ Node 0
 Cap 0
 Created 989728064
 Glad 0 0 0 0 0 0
-LastHost ACAFD1B6.ipt.aol.com~
+LastHost 67.177.231.143~
 Cla  14
 ClaO 3
-Levl 17
+Levl 19
 DLevl 0
-Plyd 36070
-Not  998731487 998731487 998731487 998731487 998731487 998731487 998731487 998731487 998731487
+Plyd 42038
+Not  1323291937 1323291937 1323291937 1323291937 1323291937 1323291937 1323291937 1323291937 1323291937 1323291937
 Scro 0
 Rank 0
-Room 3001
-HMV  404 454 137 170 61 142
-Gold 336
-Silv 7538
-Exp  212568
+Room 8538
+HMV  572 745 180 180 79 158
+Gold 798
+Silv 6470
+Exp  240233
 Act  CDEFGHK
-AfBy T
-Comm DFGILR
+MHSF R
+AfBy HJV
+Comm GL
 Disp FIJ
 IcgB 0
 Icg 0
+Pnet ACEFH
 Pos  8
-Prac 40
-SkiP 3
-Alig  -760
-Hit   4
-Dam   3
-SecHit   4
-SecDam   3
-ACs 54 43 43 70
+Prac 51
+StatsTrained 150 0 0
+SkiP 17
+Save  -5
+Alig  -1000
+Hit   24
+Dam   14
+SecHit   20
+SecDam   11
+ACs 117 111 111 128
 Wimp  10
-Attr 22 15 18 13 23
-AMod 10 2 2 3 3
-Pass ToEJH/nMc4/o6~
-Titl .~
+Attr 22 16 18 14 23 8 15 13
+AMod 8 1 3 7 1 0 0 0
+Pass ToDs28hTPdJD6~
+Titl  will find strength in pain.~
 Pnts 99
 TSex 2
-LLev 9
-HMVP 454 170 142
-Cnd  0 2 48 31
+LLev 11
+HMVP 651 180 158
+Cnd  0 0 48 25
 Sk 45 'armor'
 Sk 1 'cancellation'
 Sk 1 'cure critical'
@@ -95,7 +111,7 @@ Sk 1 'stone skin'
 Sk 1 'summon'
 Sk 1 'teleport'
 Sk 45 'word of recall'
-Sk 82 'axe'
+Sk 87 'axe'
 Sk 75 'dagger'
 Sk 1 'mace'
 Sk 1 'spear'
@@ -104,11 +120,11 @@ Sk 1 'bash'
 Sk 1 'berserk'
 Sk 1 'dodge'
 Sk 1 'dual wield'
-Sk 85 'enhanced damage'
-Sk 89 'kick'
+Sk 92 'enhanced damage'
+Sk 92 'kick'
 Sk 74 'parry'
 Sk 52 'scan'
-Sk 82 'second attack'
+Sk 84 'second attack'
 Sk 69 'third attack'
 Sk 1 'fast healing'
 Sk 1 'lore'
@@ -122,10 +138,15 @@ Gr 'warrior basics'
 Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
-Affc 'fly'   0  49  31   0   0     524288
-Affc 'giant strength'   0  47  27   4   1          0
-Affc 'shield'   0  50  35 -20  17          0
-Affc 'armor'   0  38   6 -20  17          0
+Affc 'haste'   0  35  15   4   2    2097152
+Affc 'bless'   0  44  47  -5  24          0
+Affc 'bless'   0  43  47   5  18          0
+Affc 'armor'   0  42  32 -20  17          0
+Affc 'sanctuary'   0  43   4   0   0        128
+Affc 'aid'   0  50   8  74  13          0
+Affc 'frenzy'   0  49  10   8  18          0
+Affc 'frenzy'   0  50  10   8  19          0
+Affc 'frenzy'   0  47  10  40  17          0
 End
 
 #O
@@ -142,7 +163,7 @@ Vnum 3715
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 1140
 End
 
@@ -183,15 +204,6 @@ Cost 220
 End
 
 #O
-Vnum 3067
-Nest 0
-PrevOwner Helcaraxe~
-Cond 0
-Wear 6
-Cost 220
-End
-
-#O
 Vnum 3138
 Nest 0
 PrevOwner (null)~
@@ -224,7 +236,7 @@ Vnum 17666
 Nest 0
 PrevOwner Helcaraxe~
 Cond 0
-Wear 4
+Wear 3
 Cost 0
 End
 
@@ -235,15 +247,6 @@ PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 1000
-End
-
-#O
-Vnum 7803
-Nest 0
-PrevOwner Topaz~
-Cond 0
-Wear -1
-Cost 900
 End
 
 #O
@@ -265,26 +268,6 @@ Cost 0
 End
 
 #O
-Vnum 2907
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 10
-Val  6 0 13 0 0
-End
-
-#O
-Vnum 2908
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3000
-Spell 3 'poison'
-End
-
-#O
 Vnum 4101
 Nest 0
 PrevOwner Blighter~
@@ -301,26 +284,8 @@ Vnum 17006
 Nest 0
 PrevOwner Oobe~
 Cond 0
-Wear 13
-Cost 1200
-End
-
-#O
-Vnum 5100
-Nest 0
-PrevOwner (null)~
-Cond 0
 Wear -1
-Cost 910
-End
-
-#O
-Vnum 4433
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 14
-Cost 550
+Cost 1200
 End
 
 #O
@@ -347,7 +312,7 @@ Vnum 17666
 Nest 0
 PrevOwner Ruckus~
 Cond 0
-Wear 3
+Wear 4
 Cost 0
 End
 
@@ -359,6 +324,38 @@ Cond 0
 Wear 12
 Cost 0
 Val  100 1 0 10 85
+End
+
+#O
+Vnum 4436
+Nest 1
+PrevOwner Topaz~
+ExtF 33
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 4436
+Nest 1
+PrevOwner Topaz~
+ExtF 33
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner Topaz~
+Name marble mind CyberDeath CD~
+ShD  one of {CCyberDeath{x's lost marbles~
+Desc Looks like {CCyberDeath{x lost his mind again.~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -376,7 +373,7 @@ Vnum 17671
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 6
 Cost 1500
 End
 
@@ -400,16 +397,6 @@ Spell 3 'fly'
 End
 
 #O
-Vnum 9573
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 9103
 Nest 0
 PrevOwner Topaz~
@@ -420,31 +407,11 @@ Cost 0
 End
 
 #O
-Vnum 4436
-Nest 0
-PrevOwner Topaz~
-ExtF 33
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 4436
-Nest 0
-PrevOwner Topaz~
-ExtF 33
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 5932
 Nest 0
 PrevOwner Topaz~
 Cond 0
-Wear 16
+Wear -1
 Cost 4000
 End
 
@@ -458,82 +425,6 @@ Cost 1300
 End
 
 #O
-Vnum 4054
-Enchanted
-Nest 0
-PrevOwner Deathdefyer~
-Cond 0
-Wear -1
-Lev  15
-Cost 930
-Affc 'enchant weapon'   1  53  -1   4  19          0
-Affc 'enchant weapon'   0  53  -1   3  18          0
-End
-
-#O
-Vnum 8509
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
 Vnum 17651
 Nest 0
 PrevOwner (null)~
@@ -544,41 +435,11 @@ Spell 3 'fly'
 End
 
 #O
-Vnum 17649
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3200
-End
-
-#O
-Vnum 17650
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 3200
-End
-
-#O
-Vnum 6517
-Nest 0
-PrevOwner Topaz~
-Name marble mind CyberDeath CD~
-ShD  one of {CCyberDeath{x's lost marbles~
-Desc Looks like {CCyberDeath{x lost his mind again.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 4440
 Nest 0
 PrevOwner Topaz~
 Cond 0
-Wear -1
+Wear 13
 Cost 0
 End
 
@@ -586,15 +447,6 @@ End
 Vnum 8112
 Nest 0
 PrevOwner Druidium~
-Cond 0
-Wear -1
-Cost 200
-End
-
-#O
-Vnum 8112
-Nest 0
-PrevOwner Horsefly~
 Cond 0
 Wear 15
 Cost 200
@@ -611,63 +463,221 @@ Spell 1 'sanctuary'
 End
 
 #O
-Vnum 3081
+Vnum 8509
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
+Wear 17
+Cost 0
 End
 
 #O
-Vnum 3081
+Vnum 5706
 Nest 0
-PrevOwner (null)~
+PrevOwner Biggy~
 Cond 0
 Wear -1
-Cost 800
-Spell 1 'sanctuary'
+Cost 0
 End
 
 #O
-Vnum 3091
+Vnum 5710
 Nest 0
-PrevOwner (null)~
+PrevOwner Biggy~
 Cond 0
-Wear -1
-Cost 250
-Spell 1 'fly'
+Wear 2
+Cost 0
 End
 
 #O
-Vnum 3091
+Vnum 9573
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 250
-Spell 1 'fly'
+Cost 820
+Spell 1 'haste'
 End
 
 #O
-Vnum 3091
+Vnum 9573
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 250
-Spell 1 'fly'
+Cost 820
+Spell 1 'haste'
 End
 
 #O
-Vnum 3091
+Vnum 9573
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 250
-Spell 1 'fly'
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 9573
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 820
+Spell 1 'haste'
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner Biggy~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 3000
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 75
+Val  300 300 0 0 0
+End
+
+#O
+Vnum 8502
+Enchanted
+Nest 0
+PrevOwner Isobel~
+ExtF 321
+Cond 0
+Wear 16
+Lev  18
+Cost 3100
+Affc 'enchant weapon'   1  53  -1   4  18          0
+Affc 'reserved'   1  15  -1  -1   3          0
+Affc 'reserved'   1  15  -1   1   1          0
+Affc 'enchant weapon'   1  53  -1   3  19          0
+End
+
+#O
+Vnum 8112
+Nest 0
+PrevOwner Topaz~
+Cond 0
+Wear 14
+Cost 200
+End
+
+#O
+Vnum 8508
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1300
+End
+
+#O
+Vnum 8509
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8522
+Nest 0
+PrevOwner Topaz~
+Cond 0
+Wear -1
+Cost 1500
 End
 
 #END

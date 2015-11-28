@@ -3,7 +3,7 @@ Name Bau~
 SurN Dol~
 Id   1087200886
 Email (null)~
-LogO 1088491814
+LogO 1306856694
 Vers 31
 Prom %h/%m/%v/%X/%g/%s/%e ~
 Race faerie~
@@ -12,7 +12,7 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
@@ -35,20 +35,20 @@ Node 0
 Cap 0
 Created 1087200903
 Glad 0 0 0 0 0 0
-LastHost 210.94.1.24~
+LastHost 222.237.17.46~
 Cla  11
 ClaO 0
 Levl 12
 DLevl 0
-Plyd 76256
-Not  1087353270 0 0 1083113144 0 0 0 0 0 1087272210
+Plyd 81724
+Not  1087353270 0 0 1306790463 0 0 0 0 0 1087272210
 Scro 22
 Rank 0
 Room 3054
-HMV  90 90 297 297 140 140
+HMV  87 90 107 297 140 140
 Gold 16
-Silv 162
-Exp  46883
+Silv 144
+Exp  47917
 Act  CDEFGHK
 MHSF R
 AfBy DFJT
@@ -58,39 +58,53 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 25
-SkiP 45
+SkiP 51
 Alig  1000
 Hit   4
 Dam   1
 SecHit   2
-ACs 73 61 67 103
+ACs 53 41 47 83
 Wimp  20
 Attr 5 25 25 17 13 22 16 11
-AMod 3 1 3 0 4 0 0 0
+AMod 4 1 3 0 4 0 0 0
 Pass Ba6ktYnvVV9jg~
 Titl  {Rneeds {Xspells!~
 Pnts 72
 TSex 1
 LLev 19
 HMVP 72 277 140
-Cnd  0 0 10 0
+Cnd  0 10 47 3
 Alias cc cast 'chill touch'~
+Alias bh cast 'burning hand'~
+Alias pe cast 'protection evil'~
+Alias pg cast 'protection good'~
+Alias pn cast 'protection neutral'~
+Alias sl cast 'sleep'~
+Alias sg cast 'shocking grasp'~
+Alias ff cast 'faerie fire'~
+Alias gs cast 'giant strength'~
+Alias weak cast 'weaken'~
+Alias recall cast 'word of recall'~
+Alias cf cast 'create food'~
+Alias arm cast 'armor'~
+Alias cw cast 'create water'~
 Sk 1 'acid blast'
 Sk 77 'armor'
 Sk 75 'blindness'
 Sk 75 'blur'
-Sk 91 'burning hands'
+Sk 93 'burning hands'
 Sk 1 'call lightning'
 Sk 1 'calm'
 Sk 1 'cancellation'
 Sk 1 'chain lightning'
 Sk 1 'change sex'
 Sk 1 'charm person'
-Sk 89 'chill touch'
+Sk 92 'chill touch'
 Sk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 75 'continual light'
 Sk 1 'control weather'
-Sk 75 'create food'
+Sk 78 'create food'
 Sk 1 'create fountain'
 Sk 1 'create rose'
 Sk 1 'create spring'
@@ -123,7 +137,7 @@ Sk 81 'giant strength'
 Sk 1 'haste'
 Sk 1 'identify'
 Sk 75 'infravision'
-Sk 75 'invisibility'
+Sk 78 'invisibility'
 Sk 75 'knock'
 Sk 75 'know alignment'
 Sk 1 'lightning bolt'
@@ -184,6 +198,8 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
+Affc 'armor'   0  12  16 -20  17          0
+Affc 'giant strength'   0  13  11   1   1          0
 End
 
 #O
@@ -322,8 +338,8 @@ Cond 0
 Wear 16
 Lev  8
 Cost 1500
-Affc 'enchant weapon'   1  52  -1   2  18          0
 Affc 'enchant weapon'   1  52  -1   1  19          0
+Affc 'enchant weapon'   1  52  -1   2  18          0
 End
 
 #O
@@ -406,6 +422,51 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 910
+End
+
+#O
+Vnum 5100
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 910
+End
+
+#O
+Vnum 5252
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 590
+End
+
+#O
+Vnum 5233
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
+End
+
+#O
+Vnum 5252
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 590
+End
+
+#O
+Vnum 5231
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 550
 End
 
 #END

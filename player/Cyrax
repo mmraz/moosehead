@@ -2,7 +2,7 @@
 Name Cyrax~
 Id   984722456
 Email (null)~
-LogO 1132415427
+LogO 1309901728
 Vers 31
 Prom <%hHp %mMa %vMv>[%g.%s][%n][%w]%c[%e][%r] ~
 Race dragon~
@@ -10,7 +10,7 @@ Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 1 0 0
 Steal 0 0 0
@@ -25,6 +25,7 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
 Deity 173916 matook~
 DeityT -9792 matook~
 Sac  300
@@ -34,19 +35,19 @@ Node 0
 Cap 0
 Created 984722515
 Glad 0 0 0 0 1 0
-LastHost 196-207-45-254.gprs.vodacom.co.za~
+LastHost 41.132.73.138~
 Cla  11
 Kit alchemist~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 707021
+Plyd 708049
 Not  1063487978 1036479255 0 1129145608 1120825390 1122967276 0 1122244833 0 0
 Scro 22
 Rank 0
-Room 3054
+Room 3001
 HMV  1054 1054 1484 1484 492 492
-Gold 555
+Gold 255
 Silv 52
 Exp  280510
 Act  CDGIK
@@ -57,8 +58,9 @@ Disp FIJ
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  4
+Pos  8
 Prac 12
+Trai 4
 SkiP 538
 Save  -9
 Alig  -1000
@@ -68,15 +70,15 @@ SecHit   17
 SecDam   10
 ACs 21 21 21 38
 Wimp  20
-Attr 17 21 20 19 22 15 13 15
-AMod 6 3 5 3 2 0 0 0
+Attr 17 21 20 19 22 11 14 15
+AMod 2 3 5 3 2 0 0 0
 Pass Cyk6CNCwc597.~
 Titl  Your Resident {DA{gL{WC{gH{DE{gM{WI{gS{DT{x~
 Pnts 85
 TSex 1
 LLev 66
 HMVP 884 1209 492
-Cnd  0 0 6 0
+Cnd  0 0 0 0
 Alias skel c 'summon dead'~
 Alias sk order all h~
 Alias 1 c dispel~
@@ -223,7 +225,6 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'giant strength'   0  39   4   4   1          0
 End
 
 #O
@@ -1041,8 +1042,8 @@ Wear 16
 Lev  50
 Cost 4500
 Val  2 2 19 2 7
-Affc 'enchant weapon'   1  53  -1  15  19          0
 Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  15  19          0
 End
 
 #O
@@ -1071,6 +1072,17 @@ Cond 0
 Wear -1
 Cost 0
 Val  50 1 0 5 100
+End
+
+#O
+Vnum 27
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Val  51 183 -1 -1 -1
+Spell 1 'speed'
 End
 
 #END

@@ -1,10 +1,9 @@
 #PLAYER
 Name Theodoric~
-SurN Alfdur~
 Id   1030892372
 Email (null)~
-LogO 1131358067
-Vers 31
+LogO 1386522657
+Vers 33
 LnD  A Gladiator~
 Desc .   {R-={x{BTHEODORIC{x{R=-{x                                                 {R-={x{BALFDUR{x{R=-{x
 .                                                         .1
@@ -57,12 +56,12 @@ Clan matook~
 Outc 0
 RufT 0
 MatookT 12001
-Abol -1
 SkPTimer 0
-SkPTracker 5
+SkPTracker 0
 LogoutTracker 0
 Kill 0 2 0 0
 Steal 0 0 0
+MSteal 0
 LstK Ax~
 LstKBy no one~
 LstAtkedBy no one~
@@ -74,6 +73,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 238496 matook~
 DeityT -27498 matook~
 Sac  700
@@ -83,48 +88,48 @@ Node 0
 Cap 0
 Created 1030892498
 Glad 1 4 0 2 8 1
-LastHost 146.230.192.137~
+LastHost 197.107.69.26~
 Cla  5
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 2206171
-Not  1126328533 1128463381 1093418126 1131210186 1121859963 1131346367 1093418126 1126315041 1093418126 1129478192
+Plyd 2326175
+Not  1370737946 1311523881 1093418126 1308373938 1362291518 1131346367 1093418126 1323112705 1093418126 1311544993
 Scro 98
 Rank 0
-Room 3054
-HMV  1418 1418 1232 1232 528 528
-Gold 429
-Silv 2424
+Room 3001
+HMV  1518 1518 1062 1062 528 528
+Gold 509
+Silv 504
 Exp  472400
 Act  CDGHIKMS
 MHSF R
-AfBy CDFHJTVWZb
-Comm 0
+AfBy CDEFJT
+Comm S
 Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  4
-Prac 47
-SkiP 27
-Save  -16
+Prac 11
+SkiP 103
+Save  -10
 Alig  -1000
-Hit   37
-Dam   35
-SecHit   27
-SecDam   25
-ACs -81 -75 -81 -66
+Hit   34
+Dam   41
+SecHit   21
+SecDam   29
+ACs -54 -48 -54 -32
 Attr 19 22 25 18 22 11 14 17
-AMod 12 4 0 13 11 0 0 0
-Pass ThGtNNkAwEO7A~
-Titl  {R-={x{BTEUTONIC KNIGHT{x{R=-{x~
+AMod 14 3 0 9 11 0 0 0
+Pass ThsGeMtOpTMYo~
+Titl  {R-++##{x {BTEUTONIC KNIGHT{x {R##++-{x~
 Pnts 97
 TSex 1
 LLev 74
 HMVP 1153 902 493
-Cnd  0 42 48 48
+Cnd  0 0 42 20
 Alias c chant~
 Alias skel chant 'summon dead'~
 Alias res ord skel rescue theo~
@@ -136,10 +141,10 @@ Alias dis chant 'dispel magic'~
 Alias x chant dem~
 Alias z chant 'shield of faith'~
 Alias q chant 'faerie fire'~
-Alias 1 chant 'lightning breath' ~
 Alias kk who clan~
 Alias det2 chant 'detect hid~
 Alias det3 chant 'detect magic'~
+Alias bl bleed~
 Sk 100 'acid blast'
 Sk 1 'aid'
 Sk 100 'armor'
@@ -155,10 +160,9 @@ Sk 78 'chain lightning'
 Sk 1 'change sex'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 75 'cone of silence'
 Sk 1 'control weather'
 Sk 1 'crusade'
-Sk 83 'cure blindness'
+Sk 86 'cure blindness'
 Sk 95 'cure critical'
 Sk 79 'cure disease'
 Sk 1 'cure light'
@@ -180,7 +184,7 @@ Sk 1 'endure cold'
 Sk 1 'endure heat'
 Sk 90 'energy drain'
 Sk 1 'enervation'
-Sk 96 'entrance'
+Sk 98 'entrance'
 Sk 100 'faerie fire'
 Sk 78 'faerie fog'
 Sk 100 'famine'
@@ -199,11 +203,11 @@ Sk 100 'gate'
 Sk 100 'giant strength'
 Sk 100 'haste'
 Sk 100 'heal'
-Sk 95 'heat metal'
+Sk 96 'heat metal'
 Sk 1 'hold person'
 Sk 1 'holy silence'
 Sk 1 'holy word'
-Sk 89 'hydrophilia'
+Sk 90 'hydrophilia'
 Sk 100 'identify'
 Sk 90 'indulgence'
 Sk 1 'infravision'
@@ -241,7 +245,7 @@ Sk 100 'teleport'
 Sk 100 'tower of iron will'
 Sk 95 'weaken'
 Sk 100 'word of recall'
-Sk 76 'acid breath'
+Sk 77 'acid breath'
 Sk 88 'fire breath'
 Sk 78 'frost breath'
 Sk 79 'gas breath'
@@ -252,7 +256,7 @@ Sk 1 'cryogenesis'
 Sk 75 'draw life'
 Sk 85 'make bag'
 Sk 100 'turn undead'
-Sk 80 'withstand death'
+Sk 83 'withstand death'
 Sk 75 'wound transfer'
 Sk 100 'axe'
 Sk 100 'dagger'
@@ -261,7 +265,7 @@ Sk 100 'mace'
 Sk 100 'spear'
 Sk 100 'sword'
 Sk 100 'whip'
-Sk 35 'berserk'
+Sk 75 'berserk'
 Sk 100 'bleed'
 Sk 100 'bludgeon'
 Sk 100 'cleave'
@@ -278,11 +282,12 @@ Sk 100 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
 Sk 100 'holy chant'
-Sk 84 'sneak'
-Sk 51 'scrolls'
+Sk 41 'pick lock'
+Sk 86 'sneak'
+Sk 75 'scrolls'
 Sk 75 'staves'
 Sk 61 'wands'
-Sk 83 'swimming'
+Sk 88 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'paladin basics'
@@ -302,46 +307,13 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'giant strength'   0  45  34   4   1          0
-Affc 'haste'   0  44  14   4   2    2097152
-Affc 'detect invis'   0  46  39   0   0          8
-Affc 'detect hidden'   0  43  40   0   0         32
-Affc 'detect good'   0  44  41   0   0          4
-Affc 'armor'   0  45  29 -20  17          0
-Affc 'shield'   0  47  49 -20  17          0
-Affc 'stone skin'   0  47  41 -40  17          0
-Affc 'bless'   0  44  47   5  18          0
-Affc 'bless'   0  47  47  -5  24          0
-Affc 'tower of iron will'   3  45  17   0   0      32768
-Affc 'body weaponry'   0  44  18   0   0   33554432
-Affc 'sanctuary'   0  47   1   0   0        128
-End
-
-#O
-Vnum 1258
-Nest 0
-PrevOwner Theodoric~
-Name bag beta Theodoric~
-ShD  a bag made from Theodoric's hide~
-Desc A bag of fine Theodoric hide catches your eye.  ~
-ExtF 16384
-WeaF 16385
-Wt   5
-Cond 0
-Wear -1
-Lev  15
-Cost 2350
-Val  470 1 -1 90 25
-End
-
-#O
-Vnum 22564
-Nest 0
-PrevOwner Theodoric~
-ExtF 1
-Cond 0
-Wear 18
-Cost 0
+Affc 'shield'   0  37   7 -20  17          0
+Affc 'giant strength'   0  40   3   4   1          0
+Affc 'detect invis'   0  42  12   0   0          8
+Affc 'detect hidden'   0  44  12   0   0         32
+Affc 'detect magic'   0  43  14   0   0         16
+Affc 'detect good'   0  41  15   0   0          4
+Affc 'armor'   0  49  26 -20  17          0
 End
 
 #O
@@ -367,9 +339,9 @@ Desc the {YE{x{yu{x{Yc{x{yh{x{Ya{x{yr{x{Yi{x{ys{x{Yt{x of {BMatook{x lies here~
 Cond 0
 Wear 12
 Cost 0
-Affc 'reserved'   1  50  -1  75  12          0
-Affc 'reserved'   1  50  -1   3   2          0
 Affc 'reserved'   1  50  -1   2   3          0
+Affc 'reserved'   1  50  -1   3   2          0
+Affc 'reserved'   1  50  -1  75  12          0
 End
 
 #O
@@ -380,8 +352,8 @@ PrevOwner Theodoric~
 Cond 0
 Wear 7
 Cost 2000
-Affc 'reserved'   1  39  -1   2  19          0
 Affc 'reserved'   1  39  -1  -2  20          0
+Affc 'reserved'   1  39  -1   2  19          0
 End
 
 #O
@@ -403,8 +375,8 @@ Cond 0
 Wear 13
 Lev  50
 Cost 0
-Affc 'reserved'   1  45  -1   3  19          0
 Affc 'reserved'   1  45  -1   3  18          0
+Affc 'reserved'   1  45  -1   3  19          0
 End
 
 #O
@@ -417,25 +389,10 @@ Cond 0
 Wear 8
 Lev  50
 Cost 0
-Affc 'reserved'   1  44  -1   2  18          0
-Affc 'reserved'   1  44  -1   3  19          0
-Affc 'reserved'   1  44  -1  35  14          0
 Affc 'enchant armor'   1  53  -1  -8  17          0
-End
-
-#O
-Vnum 5921
-Enchanted
-Nest 0
-PrevOwner Theodoric~
-ExtF 194
-Cond 0
-Wear -1
-Lev  50
-Cost 2000
-Val  8 4 9 34 548
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'reserved'   1  44  -1  35  14          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1   2  18          0
 End
 
 #O
@@ -448,65 +405,6 @@ Cost 710
 End
 
 #O
-Vnum 12001
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 17449025
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant armor'   1  52  -1  -7  17          0
-Affc 'reserved'   1  44  -1   2  18          0
-Affc 'reserved'   1  44  -1   3  19          0
-Affc 'reserved'   1  44  -1  35  14          0
-End
-
-#O
-Vnum 12001
-Nest 1
-PrevOwner Theodoric~
-Name swiftness thought~
-ShD  {R({x{BTEUTON{x{R){x the {YS{x{yw{x{Yi{x{yf{x{Yt{x{yn{x{Ye{x{ys{x{Ys{x of {BThought{x~
-Desc the {YS{x{yw{x{Yi{x{yf{x{Yt{x{yn{x{Ye{x{ys{x{Ys{x of {BThought{x lies here~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2505
-Nest 1
-PrevOwner Theodoric~
-Name tattoo symbol bloodline~
-ShD  a Tattoo Bearing the Symbol of the Bloodline~
-Desc The Symbol of the Bloodline, A Dracolich with an Icicle through its heart.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 22566
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20410
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 100
-Val  0 2 2 2 16
-End
-
-#O
 Vnum 22564
 Nest 1
 PrevOwner Theodoric~
@@ -516,438 +414,12 @@ Cost 0
 End
 
 #O
-Vnum 20012
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 175000
-End
-
-#O
-Vnum 20010
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22516
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 50000
-End
-
-#O
-Vnum 20007
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8531
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 600
-End
-
-#O
-Vnum 11078
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 65
-Cond 0
-Wear -1
-Lev  48
-Cost 3500
-Affc 'enchant armor'   1  53  -1  -8  17          0
-Affc 'reserved'   1  42  -1   1  18          0
-Affc 'reserved'   1  42  -1   2  19          0
-Affc 'reserved'   1  42  -1   2   1          0
-End
-
-#O
-Vnum 12076
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 23513
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 6410
-End
-
-#O
-Vnum 20731
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 64
-Cond 0
-Wear -1
-Cost 3100
-Val  7 7 6 3 512
-Affc 'enchant weapon'   0  53  -1   4  18          0
-Affc 'enchant weapon'   1  53  -1   4  19          0
-End
-
-#O
-Vnum 10320
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 9500
-Val  5 5 8 18 548
-End
-
-#O
-Vnum 10320
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 0
-Val  5 5 8 18 548
-End
-
-#O
-Vnum 10320
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 67
-Cond 0
-Wear -1
-Cost 9500
-Val  5 5 8 18 548
-Affc 'enchant weapon'   1  52  -1  12  18          0
-Affc 'enchant weapon'   1  52  -1  10  19          0
-End
-
-#O
-Vnum 10320
-Nest 1
-PrevOwner Theodoric~
-ExtF 67
-Cond 0
-Wear -1
-Cost 9500
-Val  5 5 8 18 548
-End
-
-#O
-Vnum 2413
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 2700
-Val  4 6 6 8 519
-End
-
-#O
-Vnum 2413
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 2700
-Val  4 6 6 8 515
-End
-
-#O
-Vnum 2413
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 2115
-Cond 0
-Wear -1
-Lev  50
-Cost 2700
-Val  4 6 6 8 519
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'reserved'   1  47  -1  -1   2          0
-Affc 'bestow holiness'   5  51  -1   0   0        512
-End
-
-#O
-Vnum 9227
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 67
-Cond 0
-Wear -1
-Lev  32
-Cost 1630
-Val  2 7 3 11 514
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'reserved'   1  28  -1  -1   1          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-End
-
-#O
-Vnum 3350
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 1280
-Val  1 3 5 3 512
-End
-
-#O
-Vnum 23603
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8022
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 17301587
-Cond 0
-Wear -1
-Lev  44
-Cost 5000
-Val  9 1 7 33 516
-Affc 'reserved'   1  35  -1  -1   2          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
-End
-
-#O
-Vnum 6701
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 0
-Cond 0
-Wear -1
-Lev  41
-Cost 1500
-Val  1 10 3 3 513
-End
-
-#O
-Vnum 8528
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 2354
-Val  2 3 12 11 652
-End
-
-#O
-Vnum 5939
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 4000
-Val  1 5 8 3 584
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 5902
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 579
-Cond 0
-Wear -1
-Cost 4000
-Val  4 6 7 33 516
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-End
-
-#O
-Vnum 20802
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 6000
-Val  6 4 10 7 768
-End
-
-#O
-Vnum 20802
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 6000
-Val  6 4 10 7 768
-End
-
-#O
-Vnum 6702
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 0
-Cond 0
-Wear -1
-Cost 10000
-Val  1 6 6 1 516
-End
-
-#O
-Vnum 647
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 5700
-Val  1 4 6 1 1536
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
-Vnum 10431
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 6500
-Val  4 5 8 7 768
-End
-
-#O
-Vnum 18108
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 5600
-Val  4 4 10 1 516
-End
-
-#O
-Vnum 12079
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 12082
 Nest 1
 PrevOwner Theodoric~
 Cond 0
 Wear -1
 Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 8507
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 10000
-Val  25 5 3 193 0
-Spell 3 'stone skin'
-End
-
-#O
-Vnum 22506
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 1200
-End
-
-#O
-Vnum 10300
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 10300
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 10300
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 6500
-Val  4 5 8 7 772
-End
-
-#O
-Vnum 10300
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 12063
-Nest 1
-PrevOwner Theodoric~
-ExtF 555483201
-Cond 0
-Wear -1
-Cost 50000
 End
 
 #O
@@ -963,13 +435,155 @@ End
 Vnum 1206
 Nest 1
 PrevOwner Theodoric~
-Name necronomicon book dead~
-ShD  The Necronomicon~
-Desc The Book of the Dead lies here.~
-ExtF 1048583
 Cond 0
 Wear -1
 Cost 10
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 22516
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 23514
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 3690
+End
+
+#O
+Vnum 8531
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 600
+End
+
+#O
+Vnum 22559
+Nest 1
+PrevOwner Theodoric~
+ExtF 1
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12079
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22566
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12079
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12076
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23514
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 3690
+End
+
+#O
+Vnum 23513
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 6410
+End
+
+#O
+Vnum 12001
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+ExtF 17449025
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'reserved'   1  44  -1  35  14          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1   2  18          0
+Affc 'enchant armor'   1  52  -1  -7  17          0
+End
+
+#O
+Vnum 12001
+Nest 1
+PrevOwner Theodoric~
+Name swiftness thought~
+ShD  {R({x{BTEUTON{x{R){x the {YS{x{yw{x{Yi{x{yf{x{Yt{x{yn{x{Ye{x{ys{x{Ys{x of {BThought{x~
+Desc the {YS{x{yw{x{Yi{x{yf{x{Yt{x{yn{x{Ye{x{ys{x{Ys{x of {BThought{x lies here~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20010
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 20012
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 175000
 End
 
 #O
@@ -979,16 +593,6 @@ PrevOwner Theodoric~
 Cond 0
 Wear -1
 Cost 800
-End
-
-#O
-Vnum 23548
-Nest 1
-PrevOwner Theodoric~
-ExtF 555221088
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -1032,25 +636,6 @@ Spell 3 'psionic blast'
 End
 
 #O
-Vnum 3049
-Nest 1
-PrevOwner Theodoric~
-Name a scroll of blur~
-ShD  a scroll of blur~
-Desc A scroll of blur lies here.
-~
-ExtF 536879427
-Cond 0
-Wear -1
-Lev  12
-Cost 0
-Val  53 110 171 108 -1
-Spell 1 'haste'
-Spell 2 'shield'
-Spell 3 'giant strength'
-End
-
-#O
 Vnum 23564
 Nest 1
 PrevOwner Theodoric~
@@ -1069,12 +654,72 @@ Cost 0
 End
 
 #O
+Vnum 3049
+Nest 1
+PrevOwner Theodoric~
+Name a scroll of blur~
+ShD  a scroll of blur~
+Desc A scroll of blur lies here.
+~
+ExtF 536879427
+Cond 0
+Wear -1
+Lev  12
+Cost 0
+Val  53 114 176 111 -1
+Spell 1 'haste'
+Spell 2 'shield'
+Spell 3 'giant strength'
+End
+
+#O
 Vnum 23564
 Nest 1
 PrevOwner Theodoric~
 Cond 0
 Wear -1
 Cost 0
+End
+
+#O
+Vnum 8146
+Nest 1
+PrevOwner Theodoric~
+Name candy cane~
+ShD  {RC{Wa{Rn{Wd{Ry {WC{Ra{Wn{Re{x~
+Desc {R*{W/{R*{W/{R*{W/{R*{W/{R*{W/{x~
+Cond 0
+Wear -1
+Cost 1000
+Spell 3 'cure light'
+End
+
+#O
+Vnum 23557
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 5000
+Spell 3 'charm person'
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 100000
 End
 
 #O
@@ -1088,15 +733,6 @@ Val  50 1 0 5 100
 End
 
 #O
-Vnum 3007
-Nest 2
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
 Vnum 22044
 Nest 2
 PrevOwner Theodoric~
@@ -1112,33 +748,6 @@ PrevOwner Theodoric~
 Cond 0
 Wear -1
 Cost 100000
-End
-
-#O
-Vnum 20818
-Enchanted
-Nest 0
-PrevOwner Theodoric~
-Cond 0
-Wear 11
-Cost 4000
-Affc 'reserved'   1  49  -1  30  12          0
-Affc 'reserved'   1  49  -1   1  19          0
-Affc 'reserved'   1  49  -1  -1  20          0
-Affc 'reserved'   1  49  -1   2  18          0
-End
-
-#O
-Vnum 22505
-Nest 0
-PrevOwner Theodoric~
-Name wreath of laurel~
-ShD  {R({x{BTEUTON{x{R){x {Da{x {YW{x{yr{x{Ye{x{ya{x{Yt{x{yh{x {Dof{x {BLaurel{x~
-Desc {Da{x {YW{x{yr{x{Ye{x{ya{x{Yt{x{yh{x {Dof{x {BLaurel{x lies here~
-ExtF 1
-Cond 0
-Wear 6
-Cost 4000
 End
 
 #O
@@ -1151,47 +760,6 @@ Cost 0
 End
 
 #O
-Vnum 20014
-Nest 1
-PrevOwner Theodoric~
-ExtF 18
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 12014
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Val  6 2 20 7 37
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'enchant weapon'   0  53  -1  13  18          0
-End
-
-#O
-Vnum 12014
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-Name flail faith sacred~
-ShD  ({BSacred{x) {Dthe{x {RFlail{x {Dof{x {RFaith{x~
-Desc {Dthe{x {RFlail{x {Dof{x {RFaith{x lies here~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Val  6 2 20 7 37
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-End
-
-#O
 Vnum 23504
 Nest 1
 PrevOwner Theodoric~
@@ -1201,137 +769,18 @@ Cost 4500
 End
 
 #O
-Vnum 23504
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 22056
+Vnum 23575
 Enchanted
 Nest 1
 PrevOwner Theodoric~
 ExtF 67
 Cond 0
 Wear -1
-Cost 5780
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 23503
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
 Cost 0
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-ExtF 99
-Cond 0
-Wear -1
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   1  53  -1  15  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-End
-
-#O
-Vnum 18150
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 28057
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8541
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5932
-Nest 1
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 0
-Val  4 0 0 4 512
-End
-
-#O
-Vnum 23503
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-Name shocking blade~
-ShD  ({WGlowing{x)({RHumming{x) {BShocking Blade{x~
-Desc ({WGlowing{x)({RHumming{x) {BShocking Blade{x belonging to {RAlexis{x lies here.~
-ExtF 537397314
-Cond 0
-Wear -1
-Lev  50
-Cost 1600
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 10419
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-Name deliverance matook~
-ShD  {R({x{BTEUTON{x{R){x the {RD{x{re{x{Rl{x{ri{x{Rv{re{x{Rr{x{ra{x{Rn{x{rc{x{Re{x of {BMatook{x~
-Desc The {RD{x{re{x{Rl{x{ri{x{Rv{re{x{Rr{x{ra{x{Rn{x{rc{x{Re{x of {BMatook{x lies here~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 1330
-Val  3 7 6 11 38
-Affc 'enchant weapon'   0  53  -1  14  18          0
-Affc 'enchant weapon'   1  53  -1  14  19          0
-End
-
-#O
-Vnum 12014
-Enchanted
-Nest 1
-PrevOwner Theodoric~
-Name Uniden wood~
-ShD  {cUniden's{x {YWrath{x {cof{x {gW{x{Doo{x{gd{x~
-Desc The bane of the nosferatu, carved from wood, lies here ripped from the hands of Uniden.~
-ExtF 323
-Cond 0
-Wear -1
-Cost 0
-Val  6 2 20 7 37
-Affc 'enchant weapon'   0  53  -1  12  18          0
+Val  6 4 10 41 10
+Affc 'sharpen'   5  51  -1   0   0          8
 Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
@@ -1347,12 +796,105 @@ Cond 0
 Wear -1
 Cost 12980
 Val  0 12 3 10 516
-Affc 'enchant weapon'   0  53  -1  12  18          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
+End
+
+#O
+Vnum 12014
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+Name flail faith sacred~
+ShD  ({BSacred{x) {Dthe{x {RFlail{x {Dof{x {RFaith{x~
+Desc {Dthe{x {RFlail{x {Dof{x {RFaith{x lies here~
+ExtF 67
+Cond 0
+Wear -1
+Cost 0
+Val  6 2 20 7 37
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
+End
+
+#O
+Vnum 2405
+Nest 1
+PrevOwner Theodoric~
+Name hansa ice pilsener~
+ShD  Thewhiner's {CIce Cold{X {RHansa Pilsener{X~
+Desc A broken Hansa bottle lies here.~
+ExtF 17694721
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 22507
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
 Vnum 22552
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23504
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 12088
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 1
+End
+
+#O
+Vnum 2413
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 2700
+Val  4 6 6 8 1027
+End
+
+#O
+Vnum 23503
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+Name shocking blade~
+ShD  ({WGlowing{x)({RHumming{x) {BShocking Blade{x~
+Desc ({WGlowing{x)({RHumming{x) {BShocking Blade{x belonging to {RAlexis{x lies here.~
+ExtF 537397314
+Cond 0
+Wear -1
+Lev  50
+Cost 1600
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 23503
 Nest 1
 PrevOwner Theodoric~
 Cond 0
@@ -1370,6 +912,29 @@ Cost 1600
 End
 
 #O
+Vnum 22506
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+ExtF 99
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  15  19          0
+End
+
+#O
 Vnum 22552
 Enchanted
 Nest 1
@@ -1378,63 +943,48 @@ ExtF 67
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   1  53  -1  10  19          0
 Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O
-Vnum 23575
+Vnum 12014
 Enchanted
 Nest 1
 PrevOwner Theodoric~
-ExtF 67
+Name Uniden wood~
+ShD  {cUniden's{x {YWrath{x {cof{x {gW{x{Doo{x{gd{x~
+Desc The bane of the nosferatu, carved from wood, lies here ripped from the hands of Uniden.~
+ExtF 323
 Cond 0
 Wear -1
 Cost 0
-Val  6 4 10 41 10
-Affc 'enchant weapon'   0  53  -1  12  18          0
+Val  6 2 20 7 37
 Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
-Vnum 2429
-Enchanted
+Vnum 20014
 Nest 1
 PrevOwner Theodoric~
+ExtF 18
 Cond 0
 Wear -1
-Cost 1100
-Affc 'reserved'   1  47  -1   3  18          0
-Affc 'reserved'   1  47  -1   1   3          0
-Affc 'reserved'   1  47  -1  -2   5          0
+Cost 500000
 End
 
 #O
-Vnum 12088
+Vnum 1206
 Nest 1
 PrevOwner Theodoric~
+Name necronomicon book dead~
+ShD  The Necronomicon~
+Desc The Book of the Dead lies here.~
+ExtF 1048583
 Cond 0
 Wear -1
-Cost 1
-End
-
-#O
-Vnum 23514
-Nest 0
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 3690
-End
-
-#O
-Vnum 23514
-Nest 0
-PrevOwner Theodoric~
-Cond 0
-Wear -1
-Cost 3690
+Cost 10
 End
 
 #O
@@ -1486,24 +1036,133 @@ Cost 0
 End
 
 #O
-Vnum 18106
+Vnum 12014
 Enchanted
 Nest 0
+PrevOwner Theodoric~
+Name doomhammer dastardly doomsday device demise~
+ShD  {RD{ro{Ro{rm{RH{ra{Rm{rm{Re{rr{R'{rs {DD{Wa{Ds{Wt{Da{Wr{Dd{Wl{Dy {RD{ro{Ro{rm{Rs{rd{Ra{ry {DD{We{Dv{Wi{Dc{We{  {Ro{rf {RD{re{Rm{ri{Rs{re{x~
+Desc {RD{ro{Ro{rm{RH{ra{Rm{rm{Re{rr{R'{rs {DD{Wa{Ds{Wt{Da{Wr{Dd{Wl{Dy {RD{ro{Ro{rm{Rs{rd{Ra{ry {DD{We{Dv{Wi{Dc{We{  {Ro{rf {RD{re{Rm{ri{Rs{re{x~
+ExtF 451
+Cond 0
+Wear -1
+Cost 0
+Val  6 2 20 7 549
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'bestow holiness'   5  51  -1   0   0        512
+End
+
+#O
+Vnum 2513
+Nest 0
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 710
+End
+
+#O
+Vnum 10300
+Enchanted
+Nest 1
 PrevOwner Theodoric~
 ExtF 323
 Cond 0
 Wear -1
 Lev  50
-Cost 4500
+Cost 6500
+Affc 'enchant weapon'   0  53  -1   8  18          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   1  53  -1  13  18          0
+Affc 'reserved'   0  48  -1   0   0     524288
+End
+
+#O
+Vnum 10300
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+ExtF 322
+Cond 0
+Wear -1
+Lev  50
+Cost 6500
+Val  4 5 8 7 772
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'reserved'   0  48  -1   0   0     524288
+End
+
+#O
+Vnum 10300
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 647
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 5700
+Val  1 4 6 1 1536
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+End
+
+#O
+Vnum 2413
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+ExtF 2115
+Cond 0
+Wear -1
+Lev  50
+Cost 2700
+Val  4 6 6 8 519
+Affc 'bestow holiness'   5  51  -1   0   0        512
+Affc 'reserved'   1  47  -1  -1   2          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
+End
+
+#O
+Vnum 2413
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 2700
+Val  4 6 6 8 519
+End
+
+#O
+Vnum 20731
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+ExtF 64
+Cond 0
+Wear -1
+Cost 3100
+Val  7 7 6 3 512
+Affc 'enchant weapon'   1  53  -1   4  19          0
+Affc 'enchant weapon'   0  53  -1   4  18          0
 End
 
 #O
 Vnum 9006
 Enchanted
-Nest 0
-PrevOwner DarkDaemon~
+Nest 1
+PrevOwner Theodoric~
 ExtF 1346
 Cond 0
 Wear -1
@@ -1515,27 +1174,212 @@ Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
-Vnum 9006
-Enchanted
-Nest 0
-PrevOwner DarkDaemon~
-ExtF 1346
+Vnum 3350
+Nest 1
+PrevOwner Theodoric~
 Cond 0
 Wear -1
-Lev  50
-Cost 5000
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'reserved'   1  49  -1  -5  17          0
+Cost 1280
+Val  1 3 5 3 512
 End
 
 #O
-Vnum 22559
+Vnum 18108
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 5600
+Val  4 4 10 1 516
+End
+
+#O
+Vnum 5902
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+ExtF 579
+Cond 0
+Wear -1
+Cost 4000
+Val  4 6 7 33 516
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 5932
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 0
+Val  4 0 0 4 512
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 9500
+Val  5 5 8 18 548
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 0
+Val  5 5 8 18 548
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Theodoric~
+ExtF 67
+Cond 0
+Wear -1
+Cost 9500
+Val  5 5 8 18 548
+End
+
+#O
+Vnum 10320
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+ExtF 67
+Cond 0
+Wear -1
+Cost 9500
+Val  5 5 8 18 548
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   1  52  -1  12  18          0
+End
+
+#O
+Vnum 5939
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 4000
+Val  1 5 8 3 584
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Theodoric~
+Cond 0
+Wear -1
+Cost 6500
+Val  4 5 8 7 768
+End
+
+#O
+Vnum 9227
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+ExtF 67
+Cond 0
+Wear -1
+Lev  32
+Cost 1630
+Val  2 7 3 11 514
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'reserved'   1  28  -1  -1   1          0
+Affc 'enchant weapon'   0  53  -1   7  18          0
+End
+
+#O
+Vnum 8022
+Enchanted
+Nest 1
+PrevOwner Theodoric~
+ExtF 17301587
+Cond 0
+Wear -1
+Lev  44
+Cost 5000
+Val  9 1 7 33 516
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'reserved'   1  35  -1  -1   2          0
+End
+
+#O
+Vnum 8528
+Nest 1
+PrevOwner Theodoric~
+Stolen 60
+Cond 0
+Wear -1
+Cost 2354
+Val  2 3 12 11 652
+End
+
+#O
+Vnum 22505
 Nest 0
-PrevOwner Sweetbria~
+PrevOwner Theodoric~
+Name wreath of laurel~
+ShD  {R({x{BTEUTON{x{R){x {Da{x {YW{x{yr{x{Ye{x{ya{x{Yt{x{yh{x {Dof{x {BLaurel{x~
+Desc {Da{x {YW{x{yr{x{Ye{x{ya{x{Yt{x{yh{x {Dof{x {BLaurel{x lies here~
 ExtF 1
 Cond 0
+Wear 6
+Cost 4000
+End
+
+#O
+Vnum 22564
+Nest 0
+PrevOwner Theodoric~
+ExtF 1
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 11078
+Enchanted
+Nest 0
+PrevOwner Theodoric~
+ExtF 65
+Cond 0
+Wear 11
+Lev  48
+Cost 3500
+Affc 'reserved'   1  42  -1   2   1          0
+Affc 'reserved'   1  42  -1   2  19          0
+Affc 'reserved'   1  42  -1   1  18          0
+Affc 'enchant armor'   1  53  -1  -8  17          0
+End
+
+#O
+Vnum 8546
+Nest 0
+PrevOwner Theodoric~
+Cond 0
 Wear 1
+Cost 10300
+End
+
+#O
+Vnum 12080
+Nest 0
+PrevOwner Justo~
+Cond 0
+Wear -1
 Cost 0
 End
 
@@ -1558,12 +1402,13 @@ Cost 5000
 End
 
 #O
-Vnum 1206
+Vnum 12063
 Nest 0
 PrevOwner Theodoric~
+ExtF 555483201
 Cond 0
 Wear 17
-Cost 10
+Cost 50000
 End
 
 #O
@@ -1572,33 +1417,78 @@ Enchanted
 Nest 0
 PrevOwner Theodoric~
 ExtF 322
-Stolen 44
+Stolen 106
 Cond 0
 Wear -1
 Lev  50
 Cost 6500
 Val  4 5 8 7 772
-Affc 'reserved'   0  48  -1   0   0     524288
-Affc 'enchant weapon'   1  53  -1  13  19          0
 Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'reserved'   0  48  -1   0   0     524288
 End
 
 #O
-Vnum 12014
+Vnum 22552
 Enchanted
 Nest 0
 PrevOwner Theodoric~
-Name doomhammer dastardly doomsday device demise~
-ShD  {RD{ro{Ro{rm{RH{ra{Rm{rm{Re{rr{R'{rs {DD{Wa{Ds{Wt{Da{Wr{Dd{Wl{Dy {RD{ro{Ro{rm{Rs{rd{Ra{ry {DD{We{Dv{Wi{Dc{We{  {Ro{rf {RD{re{Rm{ri{Rs{re{x~
-Desc {RD{ro{Ro{rm{RH{ra{Rm{rm{Re{rr{R'{rs {DD{Wa{Ds{Wt{Da{Wr{Dd{Wl{Dy {RD{ro{Ro{rm{Rs{rd{Ra{ry {DD{We{Dv{Wi{Dc{We{  {Ro{rf {RD{re{Rm{ri{Rs{re{x~
-ExtF 451
+ExtF 67
+Stolen 148
+Cond 0
+Wear -1
+Cost 0
+Val  2 10 4 39 518
+Affc 'bestow holiness'   5  51  -1   0   0        512
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   0  53  -1  13  18          0
+End
+
+#O
+Vnum 5921
+Enchanted
+Nest 0
+PrevOwner Theodoric~
+ExtF 194
+Cond 0
+Wear -1
+Lev  50
+Cost 2000
+Val  8 4 9 34 548
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 10419
+Enchanted
+Nest 0
+PrevOwner Theodoric~
+Name deliverance matook~
+ShD  {R({x{BTEUTON{x{R){x the {RD{x{re{x{Rl{x{ri{x{Rv{re{x{Rr{x{ra{x{Rn{x{rc{x{Re{x of {BMatook{x~
+Desc The {RD{x{re{x{Rl{x{ri{x{Rv{re{x{Rr{x{ra{x{Rn{x{rc{x{Re{x of {BMatook{x lies here~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 1330
+Val  3 7 6 11 38
+Affc 'enchant weapon'   1  53  -1  14  19          0
+Affc 'enchant weapon'   0  53  -1  14  18          0
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 0
+PrevOwner Theodoric~
+ExtF 323
 Cond 0
 Wear 16
-Cost 0
-Val  6 2 20 7 549
-Affc 'bestow holiness'   5  51  -1   0   0        512
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   1  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #END

@@ -1,0 +1,145 @@
+Label room_1
+Type 33
+Name {RThe Bonfire{x~
+Desc You become so fascinated with the fire in front of you that it becomes the
+center of your attention.  You feel a sense of calm and comfort here.  Why not
+sit by the fire for a while?
+~
+Index 1
+Cost 1000
+Flags 1
+Opt 0 0
+Loc 0
+#End
+Label room6
+Type 33
+Name {BThe Lunarium{x~
+Desc Your thoughts clear and your heartbeat slows down as you enter here.  There are
+many pictures and charts of the moon on the walls.  The ceiling appears to be
+made of blue stained glass with a chart of the lunar phases beautifully painted
+on it.
+
+~
+Index 6
+Cost 32000
+Flags 1
+Opt 14 14
+Loc 0
+#End
+Label room2
+Type 33
+Name Entrance to The Fortress~
+Desc You stand before the gates of a giant fortress.  The walls are made of steel,
+rock, and what looks like blood made into a type of mortar.  To the east you
+see a raging fire.
+~
+Index 2
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label room3
+Type 33
+Name The Foyer~
+Desc Upon entering you notice that the interior is made of wood, unlike the
+exterior.  The walls are adorned with several trophies of various creatures.
+
+~
+Index 3
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label room4
+Type 33
+Name The Main Hall~
+Desc Your breath echoes in this massive hallway.  Pictures hang from the walls
+depicting various scenes of nature.  You hear chanting coming from the north.
+~
+Index 4
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label room5
+Type 33
+Name {CThe Sanctuary{x~
+Desc An altar sits here glowing with a holy aura as a beautiful lady chants spells
+of healing, protection, and various cures.
+The fragrant scent of jasmine fills the air as it flows from the multitude of
+lit candles in the room.
+
+
+~
+Index 5
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label healer
+Type 34
+Name high priestess~
+Short The High Priestess of The Moon~
+Long The High Priestess of The Moon is standing here.~
+Desc She gives you a glance while mixing some herbs together and says "How may I be
+of service to you?".
+Her silky white hair barely covers her ornate necklace which bears the shape of
+the crescent moon and her robes appear to be made of a material not of this
+world, but almost totally see thru.
+
+~
+Index 1
+Cost 3000
+Flags 34
+Opt 0 0
+Loc 5
+#End
+Label milkfountain
+Type 36
+Name milk~
+Short A fountain of {WMilk{x~
+Long A {WMilk{x fountain is here for you to drink from.~
+Index 1
+Cost 2000
+Flags 16
+Opt 10 0
+Loc 6
+#End
+Label pit
+Type 36
+Name fire pit firepit~
+Short A sacrificial fire pit.~
+Long A fire pit is here for you to poke your hand in.~
+Index 3
+Cost 2000
+Flags 32
+Opt 0 0
+Loc 5
+#End
+Label bloodfountain
+Type 36
+Name blood~
+Short A fountain of {RBlood{x~
+Long A {RBlood{x fountain is here for you to drink from.~
+Index 2
+Cost 2000
+Flags 16
+Opt 13 0
+Loc 6
+#End
+Exit 1 1 -1 -1 6121
+Exit 3 1 2 -1 -1
+Exit 5 6 4 -1 -1
+Exit 0 2 3 -1 -1
+Exit 1 2 1 -1 -1
+Exit 0 3 4 -1 -1
+Exit 2 3 2 -1 -1
+Exit 0 4 5 -1 -1
+Exit 2 4 3 -1 -1
+Exit 4 4 6 -1 -1
+Exit 2 5 4 -1 -1
+#End

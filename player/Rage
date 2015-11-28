@@ -2,35 +2,44 @@
 Name Rage~
 Id   855536394
 Email (null)~
-LogO 1132612403
-Vers 31
+LogO 1446417370
+Vers 33
 ShD  .~
 LnD  Soviet ~
+Desc .
+~
 Prom %r[%R]%c%z: ~
-Race faerie~
+Race human~
 Outc 0
-RufT 0
-MatookT 182
+RufT 494
+MatookT 214
 SkPTimer 0
-SkPTracker 9
+SkPTracker 0
 LogoutTracker 0
 Hstm localhost~
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1007437565
+LstCombatDate 1444269159
 LstKillDate 1007437565
 LstDeathDate 1007437565
 LoginsWOKill 9
 LoginsWODeath 9
-LoginsWOCombat 9
+LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 1000 5
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 15386046 mojo~
 DeityT -8729 almighty~
-Sac  300
+Sac  0
 Sex  1
 Vump  0
 Node 0
@@ -38,35 +47,36 @@ Cap 0
 Created 0
 Glad 0 0 0 0 0 0
 LastHost localhost~
-Cla  13
+Cla  0
 Kit enchanter~
-ClaO 10
-Levl 52
+ClaO 0
+Levl 57
 DLevl 0
-Plyd 17284954
-Not  1129396836 1130446298 1049415870 1131210186 1121859963 1132178880 1125183416 1132606535 1049415870 1129478192
-Scro 18
-Rank 5
-Room 1242
-HMV  1 250 543 964 516 516
-Gold 78803
-Silv 2248
-Exp  124800
-Act  BCDEFLMNQRST
+Plyd 19115738
+Not  1444186039 1406980220 1320846986 1371977109 1361661385 1446076569 1368318568 1443430548 1411683231 1352146418
+Scro 28
+Rank 0
+Room 3054
+HMV  319 319 840 840 804 804
+Gold 78610
+Silv 76
+Exp  57000
+Act  BCDEFLNQRST
 MHSF AIX
 AfBy DFJT
-Comm GLORY
-Disp BCHJ
+Comm GIOY
+Disp BFHJ
 IcgB 0
 Icg 0
-Wizn ACL
+Wizn ACEW
+Pnet A
 Pos  8
-Prac 1041
-Trai 136
-SkiP 622
+Prac 1340
+Trai 212
+SkiP 732
 Alig  -1000
 ACs 100 100 100 100
-Attr 25 25 25 25 3 13 13 13
+Attr 25 25 25 25 3 10 10 13
 AMod 0 0 0 0 0 0 0 0
 Pass RahtdnI70rfFo~
 Bin  Someone utters the words 'yucandusikl'
@@ -74,20 +84,21 @@ Bin  Someone utters the words 'yucandusikl'
 Yummy!
 ~
 Bout Rage leaves left.~
-Titl  is so cool, too bad he's a loser.~
+Titl  is feeling nostalgic.~
 Pnts 40
-WhoName ProudPapa~
+WhoName MonTueRyeday~
 TSex 1
-LLev 4698
-HMVP 250 964 516
+LLev 5086
+HMVP 319 840 804
 Cnd  0 0 -1 -1
 Edit ABCEH
-ERange 22200 22499
 ERange 1 50000
 Alias bli flag mob aristotle aff blind~
 Alias cc c 'cure critical'~
 Alias find sock @*st*~
 Alias fg flag mob aris aff blind~
+Macro goglad goto 10820~
+Macro gift at %1 say Grtz on your level!!!; at %1 give whisky %1~
 Macro bag load obj 1111;clone %1*%2;put all.%2 bag~
 Macro unsmoke afk;titreset~
 Macro duel goto 16175~
@@ -104,7 +115,6 @@ Macro boat goto 10168~
 Macro smoke title is AFK for a smoke, go figure.; afk~
 Macro nc nochannel %1; noshout %1; noemote %1; notell %1~
 Macro mat trans %1 16500~
-Macro gift at %1 say Grtz on your level!!!; at %1 give nico %1~
 Macro egg load obj 3007~
 Macro dick gecho Rage forces you to 'dickwave'.                                                  Oops! You're already doing that.~
 Macro savear main;area;save~
@@ -120,10 +130,13 @@ Sk 100 'acid blast'
 Sk 100 'acclimate'
 Sk 100 'adamantite skin'
 Sk 100 'aid'
+Sk 100 'annointment'
+Sk 100 'aura of valor'
 Sk 100 'arcantic alacrity'
 Sk 100 'arcantic lethargy'
 Sk 100 'armor'
 Sk 100 'asphyxiate'
+Sk 100 'aura of cthon'
 Sk 100 'bestow holiness'
 Sk 100 'betray'
 Sk 100 'blade barrier'
@@ -149,6 +162,7 @@ Sk 100 'charm animal'
 Sk 100 'chill touch'
 Sk 100 'clarity'
 Sk 100 'colour spray'
+Sk 100 'confusion'
 Sk 100 'contagion'
 Sk 100 'continual light'
 Sk 100 'control weather'
@@ -158,14 +172,17 @@ Sk 100 'create node'
 Sk 100 'create rose'
 Sk 100 'create spring'
 Sk 100 'create water'
+Sk 100 'creeping doom'
 Sk 100 'crusade'
 Sk 100 'crushing grip'
+Sk 100 'cuffs of justice'
 Sk 100 'cure blindness'
 Sk 100 'cure critical'
 Sk 100 'cure disease'
 Sk 100 'cure light'
 Sk 100 'cure poison'
 Sk 100 'cure serious'
+Sk 100 'cure vision'
 Sk 100 'curse'
 Sk 100 'demonfire'
 Sk 100 'detect evil'
@@ -221,6 +238,7 @@ Sk 100 'heat metal'
 Sk 100 'hold person'
 Sk 100 'holy silence'
 Sk 100 'holy word'
+Sk 100 'honor guard'
 Sk 100 'hydrophilia'
 Sk 100 'ice storm'
 Sk 100 'identify'
@@ -269,6 +287,7 @@ Sk 100 'remove curse'
 Sk 100 'remove disease'
 Sk 100 'remove poison'
 Sk 100 'restore mana'
+Sk 100 'restrain'
 Sk 100 'rust armor'
 Sk 100 'rust weapon'
 Sk 100 'sacred guardian'
@@ -293,6 +312,7 @@ Sk 100 'spirit of cat'
 Sk 100 'spirit of owl'
 Sk 100 'spirit of phoenix'
 Sk 100 'spirit of wolf'
+Sk 100 'stalk'
 Sk 100 'steel skin'
 Sk 100 'stonefist'
 Sk 100 'stone skin'
@@ -360,6 +380,7 @@ Sk 100 'bleed'
 Sk 100 'bludgeon'
 Sk 100 'breathe'
 Sk 100 'cleave'
+Sk 100 'connive'
 Sk 100 'cutpurse'
 Sk 100 'daetok'
 Sk 100 'dirt kicking'
@@ -369,6 +390,7 @@ Sk 100 'dual wield'
 Sk 100 'endurance'
 Sk 100 'eye gouge'
 Sk 100 'fear'
+Sk 100 'grab'
 Sk 100 'hai-ruki'
 Sk 100 'hex'
 Sk 100 'infiltrate'
@@ -408,15 +430,18 @@ Sk 100 'focus'
 Sk 100 'haggle'
 Sk 100 'hide'
 Sk 100 'holy chant'
+Sk 100 'infuse'
 Sk 100 'lore'
 Sk 100 'meditation'
 Sk 100 'nethermancy'
 Sk 100 'peek'
 Sk 100 'pick lock'
 Sk 100 'riding'
+Sk 100 'sharpen'
 Sk 100 'slice'
 Sk 100 'sneak'
 Sk 100 'spellcraft'
+Sk 100 'endow'
 Sk 100 'steal'
 Sk 100 'scribe'
 Sk 100 'scrolls'
@@ -436,7 +461,6 @@ Gr 'draconian'
 Gr 'illusion'
 Gr 'necromancy'
 Gr 'psionics'
-Affc 'hydrophilia'   4  59   3   0   0     131328
 End
 
 #O
@@ -467,24 +491,6 @@ Val  0 0 0 1 4
 End
 
 #O
-Vnum 20720
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 18914
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
 Vnum 11
 Nest 0
 PrevOwner (null)~
@@ -492,7 +498,7 @@ ShD  the corpse of Ralaana~
 Desc The corpse of Ralaana is lying here.~
 WeaF 16
 Cond 0
-Wear -1
+Wear 6
 Lev  53
 Cost 0
 Val  0 0 0 1 4
@@ -820,8 +826,9 @@ PrevOwner (null)~
 ShD  the corpse of Seog~
 Desc The corpse of Seog is lying here.~
 ExtF 16385
+WeaF 32
 Cond 0
-Wear -1
+Wear 7
 Lev  53
 Cost 0
 Val  0 0 0 1 4
@@ -832,7 +839,7 @@ Vnum 16729
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 6
+Wear -1
 Cost 10
 End
 
@@ -840,12 +847,962 @@ End
 Vnum 31086
 Nest 0
 PrevOwner (null)~
+Damaged 50
 Cond 0
 Wear -1
 Cost 0
 Spell 1 'armor'
 Spell 2 'shield'
 Spell 3 'stone skin'
+End
+
+#O
+Vnum 1261
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'haste'
+End
+
+#O
+Vnum 3101
+Nest 0
+PrevOwner Julliet~
+Name Ragebucks coffee cup~
+ShD  a cup of gourmet Ragebucks coffee~
+Desc A cup of Ragebucks coffee sits here, its wonderful aroma promising addictive illicit pleasures that can come only in a steaming cup.~
+Cond 0
+Wear -1
+Cost 6
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 39
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 99
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 89
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 41
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 43
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 37
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 85
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 46
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 46
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 51
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 51
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 44
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 39
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 41
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 47
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 50
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 45
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 40
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 83
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 78
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 85
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 49
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 97
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 50
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 90
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 53
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 16730
+Nest 0
+PrevOwner (null)~
+Name forty creek rye whisky~
+ShD  a bottle of 40 Creek Rye Whisky~
+Desc A bottle of 40 Creek Whisky lies here.~
+Damaged 48
+Cond 0
+Wear -1
+Cost 0
+Val  50 114 106 -1 -1
+Spell 1 'haste'
+Spell 2 'frenzy'
+End
+
+#O
+Vnum 6517
+Nest 0
+PrevOwner (null)~
+Name badge merit~
+ShD  A Kickass Wingman Merit Badge~
+Desc A Kickass Wingman Merrit Badge certified by Prowler has been left here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22516
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 17
+Cost 50000
+End
+
+#O
+Vnum 8007
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2800
 End
 
 #END

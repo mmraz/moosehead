@@ -1,61 +1,67 @@
 #PLAYER
 Name Jada~
-SurN Kiss~
 Id   1045615371
 Email (null)~
-LogO 1131794178
-Vers 31
+LogO 1387664480
+Vers 33
 Desc You see something very special about her.
 ~
-Prom {G>{x%hhp %mmagic %vmv $%g %wcap %Xtnl{G<{x ~
+Prom %h/%HHP %m/%MMANA %v/%VMOVE $%g %w/%WCAP ~
 Race faerie~
-Clan demise~
+Clan loner~
 Outc 0
-RufT 204
+RufT 358
 MatookT 0
 SkPTimer 0
 SkPTracker 0
 LogoutTracker 0
 Kill 10 24 0 5
 Steal 0 0 0
+MSteal 0
 LstK Brian~
 LstKBy Caliber~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1110921651
+LstCombatDate 1320730373
 LstKillDate 1085978574
 LstDeathDate 1085444767
-LoginsWOKill 42
-LoginsWODeath 47
-LoginsWOCombat 15
+LoginsWOKill 59
+LoginsWODeath 64
+LoginsWOCombat 1
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 119232 huitzilopochtli~
 DeityT -133 matook~
-Sac  225
+Sac  300
 Sex  2
 Vump  4
 Node 0
 Cap 0
 Created 1045615385
 Glad 0 0 0 0 0 0
-LastHost c-67-170-18-57.hsd1.wa.comcast.net~
+LastHost 50.181.73.1~
 Cla  11
 Kit nethermancer~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 672481
-Not  1131322765 1131322765 1131322765 1131322765 1131322765 1131346367 1131322765 1131322765 1131322765 1131322765
+Plyd 694358
+Not  1320727934 1320727934 1320727934 1320727934 1320727934 1320727934 1320727934 1320727934 1320727934 1320727934
 Scro 98
 Rank 1
-Room 31422
-HMV  1089 1089 1272 1272 399 399
-Gold 65
-Silv 2119
+Room 3020
+HMV  1069 1069 1272 1272 399 399
+Gold 656
+Silv 151
 Exp  391805
-Act  DEGHKMOQSTa
+Act  DGHKMOQRSTa
 MHSF HRSUVX
-AfBy CDEFHJNTUVe
+AfBy DEFJTUe
 Comm 0
 Disp BFIJLN
 IcgB 0
@@ -63,23 +69,25 @@ Icg 0
 Wizn W
 Pnet ABCDEFGHI
 Pos  8
-SkiP 428
-Save  -11
+Prac 43
+Trai 10
+SkiP 76
+Save  -4
 Alig  -1000
-Hit   27
+Hit   25
 Dam   32
-SecHit   19
+SecHit   13
 SecDam   20
-ACs -14 -14 -14 -14
-Attr 13 25 25 22 13 19 16 18
-AMod 4 7 -1 4 2 2 0 0
+ACs 6 6 6 6
+Attr 13 25 25 22 13 17 8 18
+AMod 4 7 -1 0 2 2 0 0
 Pass JatLk3/FHGuZg~
 Titl .~
 Pnts 92
 TSex 2
 LLev 62
 HMVP 699 982 399
-Cnd  0 0 6 6
+Cnd  0 0 10 30
 Alias k murder~
 Alias pr pray recall~
 Alias g order all kill~
@@ -90,8 +98,10 @@ Alias dis c 'dispel magic'~
 Alias ch c 'charm'~
 Alias pa pray reanimate~
 Alias ev c 'weaken'~
-Alias i murder yor~
+Alias i c acid sny~
 Alias m murder ely~
+Alias h c 'sleep' pryzm~
+Alias y c sleep sny~
 Sk 100 'acid blast'
 Sk 88 'adamantite skin'
 Sk 100 'armor'
@@ -106,7 +116,6 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 75 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 1 'control weather'
 Sk 100 'curse'
 Sk 89 'detect evil'
@@ -115,7 +124,7 @@ Sk 77 'detect hidden'
 Sk 79 'detect invis'
 Sk 97 'detect magic'
 Sk 1 'detect poison'
-Sk 1 'diamond skin'
+Sk 75 'diamond skin'
 Sk 100 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
@@ -124,7 +133,7 @@ Sk 100 'enervation'
 Sk 75 'faerie fire'
 Sk 82 'faerie fog'
 Sk 76 'famine'
-Sk 1 'farsight'
+Sk 77 'farsight'
 Sk 96 'feast'
 Sk 100 'feeblemind'
 Sk 98 'fireball'
@@ -141,7 +150,7 @@ Sk 80 'invisibility'
 Sk 86 'knock'
 Sk 1 'know alignment'
 Sk 75 'lightning bolt'
-Sk 96 'locate object'
+Sk 99 'locate object'
 Sk 91 'magic missile'
 Sk 75 'mass invis'
 Sk 1 'nexus'
@@ -188,7 +197,7 @@ Sk 100 'parry'
 Sk 85 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
-Sk 99 'fade'
+Sk 100 'fade'
 Sk 95 'nethermancy'
 Sk 100 'spellcraft'
 Sk 1 'scrolls'
@@ -209,18 +218,11 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'mummy'
-Affc 'haste'   0  53  21   4   2    2097152
-Affc 'blur'   0  52   4 -20  17          0
-Affc 'giant strength'   0  53  47   4   1          0
-Affc 'sanctuary'   0  52   2   0   0        128
-Affc 'withstand death'   0  52   9   0   0 1073741824
-Affc 'adamantite skin'   0  52  20 -60  17          0
-Affc 'detect evil'   0  51  47   0   0          4
-Affc 'detect magic'   0  52  45   0   0         16
-Affc 'shield'   0  53  54 -20  17          0
-Affc 'bless'   0  49  50  -6  24          0
-Affc 'bless'   0  50  50   6  18          0
-Affc 'protection evil'   0  49  10  -1  24       8192
+Affc 'detect magic'   0  54  48   0   0         16
+Affc 'giant strength'   0  52  48   4   1          0
+Affc 'shield'   0  49  15 -20  17          0
+Affc 'adamantite skin'   0  50   1 -60  17          0
+Affc 'withstand death'   0  52   3   0   0 1073741824
 End
 
 #O
@@ -269,6 +271,25 @@ Cost 800
 End
 
 #O
+Vnum 22046
+Nest 1
+PrevOwner Jada~
+ExtF 17301504
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
 Vnum 23514
 Nest 0
 PrevOwner Jada~
@@ -302,32 +323,6 @@ Cost 710
 End
 
 #O
-Vnum 10444
-Nest 1
-PrevOwner Jada~
-Cond 0
-Wear -1
-Cost 2900
-Val  2 1 30 5 2048
-End
-
-#O
-Vnum 10415
-Enchanted
-Nest 1
-PrevOwner Jada~
-ExtF 83
-Cond 0
-Wear -1
-Lev  50
-Cost 5400
-Val  2 4 10 5 2052
-Affc 'enchant weapon'   0  51  -1   7  18          0
-Affc 'enchant weapon'   1  51  -1   7  19          0
-Affc 'reserved'   1  46  -1  25  12          0
-End
-
-#O
 Vnum 3281
 Nest 1
 PrevOwner Jada~
@@ -344,21 +339,6 @@ PrevOwner Jada~
 Cond 0
 Wear -1
 Cost 100000
-End
-
-#O
-Vnum 10027
-Enchanted
-Nest 1
-PrevOwner Jada~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1000
-Val  0 2 19 26 2208
-Affc 'enchant weapon'   1  52  -1  10  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
@@ -398,16 +378,6 @@ Cost 100000
 End
 
 #O
-Vnum 20738
-Nest 1
-PrevOwner Jada~
-Cond 0
-Wear -1
-Cost 4850
-Val  0 2 19 2 2304
-End
-
-#O
 Vnum 8541
 Nest 1
 PrevOwner Jada~
@@ -417,60 +387,12 @@ Cost 0
 End
 
 #O
-Vnum 8543
-Nest 1
-PrevOwner Jada~
-Cond 0
-Wear -1
-Cost 4250
-End
-
-#O
-Vnum 3350
-Enchanted
-Nest 1
-PrevOwner Jada~
-ExtF 67
-Cond 0
-Wear -1
-Lev  25
-Cost 1280
-Val  1 3 5 3 512
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   1  53  -1  10  18          0
-End
-
-#O
-Vnum 10069
-Enchanted
-Nest 1
-PrevOwner Jada~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1000
-Val  0 2 19 26 2208
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   1  53  -1   9  18          0
-End
-
-#O
 Vnum 9807
 Nest 1
 PrevOwner Jada~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 8529
-Nest 1
-PrevOwner Jada~
-Cond 0
-Wear -1
-Cost 2000
 End
 
 #O
@@ -493,67 +415,6 @@ Cost 0
 End
 
 #O
-Vnum 2447
-Nest 1
-PrevOwner Jada~
-Cond 0
-Wear -1
-Cost 150
-Val  2 7 5 2 2048
-End
-
-#O
-Vnum 20745
-Enchanted
-Nest 1
-PrevOwner Jada~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Val  8 3 13 11 2176
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-End
-
-#O
-Vnum 20745
-Nest 1
-PrevOwner Jada~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 18106
-Nest 1
-PrevOwner Jada~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
-Vnum 8545
-Nest 1
-PrevOwner Jada~
-Cond 0
-Wear -1
-Cost 3400
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Jada~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 12087
 Nest 1
 PrevOwner Jada~
@@ -572,6 +433,69 @@ Cost 4500
 End
 
 #O
+Vnum 9006
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 9107
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8529
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 8543
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 4250
+End
+
+#O
+Vnum 8545
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 3400
+End
+
+#O
+Vnum 20745
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
 Vnum 22552
 Nest 1
 PrevOwner Jada~
@@ -583,39 +507,153 @@ Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
-Vnum 10032
+Vnum 10431
 Enchanted
 Nest 1
 PrevOwner Jada~
-ExtF 323
+ExtF 67
 Cond 0
 Wear -1
 Lev  50
-Cost 1700
-Val  4 3 12 7 2304
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'reserved'   1  44  -1   2   2          0
+Cost 6500
+Val  4 5 8 7 2304
 Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
-Vnum 23504
+Vnum 20745
 Enchanted
 Nest 1
 PrevOwner Jada~
-ExtF 66
+ExtF 524355
 Cond 0
 Wear -1
 Lev  50
-Cost 2250
+Cost 0
+Val  8 3 13 11 2176
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 10027
+Enchanted
+Nest 1
+PrevOwner Jada~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1000
+Val  0 2 19 26 2208
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   1  52  -1  10  18          0
+End
+
+#O
+Vnum 10069
+Enchanted
+Nest 1
+PrevOwner Jada~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1000
+Val  0 2 19 26 2208
+Affc 'enchant weapon'   1  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 2447
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 150
+Val  2 7 5 2 2048
+End
+
+#O
+Vnum 3005
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 5600
+End
+
+#O
+Vnum 10444
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 2900
+Val  2 1 30 5 2048
+End
+
+#O
+Vnum 16753
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 0
+Val  6 2 19 19 2056
+End
+
+#O
+Vnum 10415
+Enchanted
+Nest 1
+PrevOwner Jada~
+ExtF 83
+Cond 0
+Wear -1
+Lev  50
+Cost 5400
+Val  2 4 10 5 2052
+Affc 'reserved'   1  46  -1  25  12          0
+Affc 'enchant weapon'   1  51  -1   7  19          0
+Affc 'enchant weapon'   0  51  -1   7  18          0
+End
+
+#O
+Vnum 20738
+Nest 1
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 4850
+Val  0 2 19 2 2304
+End
+
+#O
+Vnum 10445
+Enchanted
+Nest 1
+PrevOwner Jada~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 6400
+Val  4 5 8 38 2052
 Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'reserved'   1  47  -1  -5  17          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
 Vnum 10030
 Nest 0
 PrevOwner Jada~
+Damaged 53
 Cond 0
 Wear 6
 Cost 20000
@@ -625,11 +663,9 @@ End
 Vnum 20012
 Nest 0
 PrevOwner Jada~
-ExtF 16777280
 Cond 0
 Wear 8
 Cost 175000
-Affc 'fireproof'   1  48   0   0   0   16777216
 End
 
 #O
@@ -733,24 +769,6 @@ Cost 3690
 End
 
 #O
-Vnum 9107
-Nest 0
-PrevOwner Jada~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 9006
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 9008
 Nest 0
 PrevOwner (null)~
@@ -769,46 +787,103 @@ Cost 1032
 End
 
 #O
-Vnum 16753
-Nest 0
-PrevOwner Jada~
-Cond 0
-Wear -1
-Cost 0
-Val  6 2 19 19 2056
-End
-
-#O
-Vnum 10431
+Vnum 18106
 Enchanted
 Nest 0
 PrevOwner Jada~
-ExtF 67
+ExtF 323
+Stolen 356
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   1  52  -1   9  19          0
+Affc 'enchant weapon'   1  52  -1  10  18          0
+End
+
+#O
+Vnum 10032
+Enchanted
+Nest 0
+PrevOwner Jada~
+ExtF 323
+Cond 0
+Wear -1
+Lev  50
+Cost 1700
+Val  4 3 12 7 2304
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'reserved'   1  44  -1   2   2          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 18106
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18105
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18106
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4500
+Val  6 4 10 3 2052
+End
+
+#O
+Vnum 18105
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 0
+PrevOwner Jada~
+ExtF 66
 Cond 0
 Wear 16
 Lev  50
-Cost 6500
-Val  4 5 8 7 2304
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'reserved'   1  49  -1   0   0          0
-Affc 'reserved'   1  49  -1  20  13          0
+Cost 2250
+Affc 'enchant weapon'   0  53  -1  12  18          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
-Vnum 10445
-Enchanted
+Vnum 8503
 Nest 0
 PrevOwner Jada~
-ExtF 67
 Cond 0
 Wear -1
-Lev  50
-Cost 6400
-Val  4 5 8 38 2052
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'reserved'   1  47  -1  -5  17          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
+Cost 5000
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner Jada~
+Cond 0
+Wear -1
+Cost 6000
 End
 
 #END

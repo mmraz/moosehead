@@ -29,6 +29,7 @@ static char rcsid[] = "$Id: update.c,v 1.313 2004/09/28 01:23:39 boogums Exp $";
 #include "music.h"
 #include "tables.h"
 #include "gladiator.h"
+#include "db.h"
 
 /* command procedures needed */
 DECLARE_DO_FUN(do_quit    );
@@ -58,6 +59,19 @@ void remove_highlander args((CHAR_DATA *ch, CHAR_DATA *victim));
 /* used for saving */
 
 int save_number = 0;
+
+int rainbow = 0;
+time_t rainbow_found = 0;
+AREA_DATA *rainbow_area = NULL;
+
+extern int bounty_timer;
+extern int bounty_complete;
+extern int bounty_vnum;
+extern int bounty_item;
+extern int bounty_room;
+extern int bounty_type;
+extern bool bounty_downgrade;
+void select_bounty(int qualifier);
 
 void check_shapeshifted( CHAR_DATA *ch )
 {
@@ -209,7 +223,7 @@ void check_nethermancer( CHAR_DATA *ch )
 	((weapon = get_eq_char(ch,WEAR_WIELD)) != NULL) &&
 // changed the line below to 4:2 instead of 5:2
 	number_percent() < ch->level / (weapon->enchanted?5:2) &&
-	(!IS_SET(weapon->value[4],WEAPON_VAMPIRIC))  &&
+	(!IS_SET(weapon->value[4],WEAPON_NETHER))  &&
         (!IS_SET(weapon->value[4],WEAPON_FAVORED)) )
    {
         wiznet("{YNether Weapon made by:  $N.{x",ch,NULL,WIZ_NOTES,WIZ_SECURE,get_trust(ch));
@@ -239,7 +253,7 @@ void check_vampirictouch( CHAR_DATA *ch)
       (!IS_SET(weapon->value[4],WEAPON_FAVORED)) 
     )
     {
-      wiznet("{YVampiric Weapon made by:  $N.{x",ch,NULL,WIZ_NOTES,WIZ_SECURE,get_trust(ch));
+      wiznet("Vampiric Weapon made by:  $N.",ch,NULL,WIZ_DEITYFAVOR,0,get_trust(ch));
       SET_BIT(weapon->value[4],WEAPON_VAMPIRIC);
       act("$p suddenly looks a bit more {Dwicked{x.",ch,weapon,NULL,TO_CHAR,FALSE);
       act("$p suddenly looks a bit more {Dwicked{x.",ch,weapon,NULL,TO_ROOM,FALSE);
@@ -309,12 +323,12 @@ if( ch != NULL )
     ch->pcdata->last_level = 
   ( ch->played + (int) (current_time - ch->logon) ) / 3600;
 
+/*    add_hp  = 3*(con_app[get_curr_stat(ch,STAT_CON)].hitp + number_range(
+        class_table[old_class].hp_min,
+        class_table[old_class].hp_max ))/3; */
     add_hp  = 3*(con_app[get_curr_stat(ch,STAT_CON)].hitp + number_range(
         class_table[old_class].hp_min,
-        class_table[old_class].hp_max ))/3;
-    add_hp  = 3*(con_app[get_curr_stat(ch,STAT_END)].hitp + number_range(
-        class_table[old_class].hp_min,
-        class_table[old_class].hp_max ))/4;
+        class_table[old_class].hp_max ))/4;// Replacing END with CON to not screw up gains, but this is broken
     add_hp  = add_hp + ((con_app[get_curr_stat(ch,STAT_STR)].hitp + number_range(
         class_table[old_class].hp_min,
         class_table[old_class].hp_max ))/5);
@@ -381,31 +395,31 @@ if( ch != NULL )
     */
 
     add_move = 3;
+    if (get_curr_stat(ch,STAT_STR) > 24)
+       add_move += 1;
+    if (get_curr_stat(ch,STAT_STR) > 23)
+       add_move += 1;
+    if (get_curr_stat(ch,STAT_STR) > 21)
+       add_move += 1;
+    if (get_curr_stat(ch,STAT_STR) > 19)
+       add_move += 1;
+    if (get_curr_stat(ch,STAT_STR) > 17)
+       add_move += 1;
     if (get_curr_stat(ch,STAT_DEX) > 24)
        add_move += 1;
     if (get_curr_stat(ch,STAT_DEX) > 23)
        add_move += 1;
+    if (get_curr_stat(ch,STAT_DEX) > 22)
+       add_move += 1;
     if (get_curr_stat(ch,STAT_DEX) > 21)
+       add_move += 1;
+    if (get_curr_stat(ch,STAT_DEX) > 20)
        add_move += 1;
     if (get_curr_stat(ch,STAT_DEX) > 19)
        add_move += 1;
+    if (get_curr_stat(ch,STAT_DEX) > 18)
+       add_move += 1;
     if (get_curr_stat(ch,STAT_DEX) > 17)
-       add_move += 1;
-    if (get_curr_stat(ch,STAT_END) > 24)
-       add_move += 1;
-    if (get_curr_stat(ch,STAT_END) > 23)
-       add_move += 1;
-    if (get_curr_stat(ch,STAT_END) > 22)
-       add_move += 1;
-    if (get_curr_stat(ch,STAT_END) > 21)
-       add_move += 1;
-    if (get_curr_stat(ch,STAT_END) > 20)
-       add_move += 1;
-    if (get_curr_stat(ch,STAT_END) > 19)
-       add_move += 1;
-    if (get_curr_stat(ch,STAT_END) > 18)
-       add_move += 1;
-    if (get_curr_stat(ch,STAT_END) > 17)
        add_move += 1;
 
 
@@ -440,7 +454,8 @@ if( ch != NULL )
 
   if ( ch->desc != NULL && ch->desc->connected == CON_PLAYING )
    {
-     sprintf( buf, "You gain hp, mana, moves and %d/%d prac.\n\r",
+     sprintf( buf, "You gain %d hp, %d mana, %d moves and %d/%d prac.\n\r",
+	add_hp, add_mana, add_move,
 	      add_prac, ch->practice );
     send_to_char( buf, ch );
 
@@ -497,6 +512,18 @@ void do_level( CHAR_DATA *ch, char *argument )
        send_to_char("You can not level while fighting.\n\r",ch);
        return;
     }
+
+    if(ch->level == 20 && !is_clan(ch))
+    {// Using confirm_outcast to not interfere with confirm_loner
+      if(!ch->pcdata->confirm_outcast)
+      {
+        send_to_char("{YDid you mean to level without clanning?{x\n\rEnter '{Wlevel{x' again to continue or '{Wloner{x' first.\n\r", ch);
+        ch->pcdata->confirm_outcast = TRUE;
+        return;
+      }
+      ch->pcdata->confirm_outcast = FALSE;
+    }
+    
 	if( ch->pcdata->debit_level > 0 ) 
     {
     	ch->pcdata->debit_level--;
@@ -536,6 +563,7 @@ void gain_exp( CHAR_DATA *ch, long gain )
 {
     char buf[MAX_STRING_LENGTH];
     int count = 1;
+    int cur_exp;
 
     if ( IS_NPC(ch) || ch->level >= LEVEL_HERO )
   return;
@@ -545,8 +573,10 @@ void gain_exp( CHAR_DATA *ch, long gain )
        gain = 0;
 
 
-
+    cur_exp = ch->exp;
     ch->exp = UMAX( exp_per_level(ch,ch->pcdata->points), ch->exp + gain );
+  if(cur_exp != ch->exp)
+  {
     while ( ch->level < LEVEL_HERO && ch->exp >= 
   exp_per_level(ch,ch->pcdata->points) * (ch->level+count ) )
     {
@@ -564,6 +594,7 @@ void gain_exp( CHAR_DATA *ch, long gain )
   save_char_obj(ch);
    count++;
     }
+  }
 
     return;
 }
@@ -575,9 +606,10 @@ void gain_exp( CHAR_DATA *ch, long gain )
  */
 int hit_gain( CHAR_DATA *ch )
 {
-    int val;
     int gain;
     int number;
+
+    int has_medium = 0;
 
     if (ch->in_room == NULL)
   return 0;
@@ -600,6 +632,7 @@ int hit_gain( CHAR_DATA *ch )
     }
     else
     {
+  has_medium = room_has_medium(ch);
   gain = UMAX(3,get_curr_stat(ch,STAT_CON) - 3 + ch->level/2); 
   gain += class_table[ch->class].hp_max - 10;
   number = number_percent();
@@ -624,10 +657,10 @@ int hit_gain( CHAR_DATA *ch )
       case POS_FIGHTING:  gain /= 6;      break;
   }
 
-  if ( ch->pcdata->condition[COND_HUNGER]   == 0 )
+  if (!has_medium && ch->pcdata->condition[COND_HUNGER]   == 0 )
       gain /= 2;
 
-  if ( ch->pcdata->condition[COND_THIRST] == 0 )
+  if (!has_medium && ch->pcdata->condition[COND_THIRST] == 0 )
       gain /= 2;
 
   if ( ch->pcdata->condition[COND_DRUNK] > 10 )
@@ -642,13 +675,13 @@ int hit_gain( CHAR_DATA *ch )
     if (ch->on != NULL && ch->on->item_type == ITEM_FURNITURE)
   gain = gain * ch->on->value[3] / 100;
 
-    if ( IS_AFFECTED(ch, AFF_POISON) )
+    if (!has_medium && IS_AFFECTED(ch, AFF_POISON) )
   gain /= 4;
 
-    if (IS_AFFECTED(ch, AFF_PLAGUE))
+    if (!has_medium && IS_AFFECTED(ch, AFF_PLAGUE))
   gain /= 8;
 
-    if(!IS_SET(ch->mhs,MHS_HIGHLANDER) && !IS_NPC(ch))
+    if(!has_medium && !IS_SET(ch->mhs,MHS_HIGHLANDER) && !IS_NPC(ch))
     {
        if (IS_AFFECTED(ch,AFF_HASTE) || IS_AFFECTED(ch,AFF_SLOW))
           gain /=2 ;
@@ -676,8 +709,11 @@ int hit_gain( CHAR_DATA *ch )
     if (ch->race == race_lookup("smurf"))
        gain *= 2;
 
-    if ( (val = room_has_medium( ch ) ) )
-        gain = ( gain * ( 100 + val ) / 100 );
+    if ( has_medium )
+        gain = ( gain * ( 100 + has_medium ) / 100 );
+
+    if(is_clan(ch) && ch->level <= 20)/* Lower level clanners regen better */
+      gain = (gain * 100) / (50 + (ch->level - 5) * 2);/* 200% - 125% */
 
     return UMIN(gain, ch->max_hit - ch->hit);
 }
@@ -686,9 +722,10 @@ int hit_gain( CHAR_DATA *ch )
 
 int mana_gain( CHAR_DATA *ch )
 {
-    int val;
     int gain;
     int number;
+
+    int has_medium = 0;
 
     if (ch->in_room == NULL)
   return 0;
@@ -706,6 +743,7 @@ int mana_gain( CHAR_DATA *ch )
     }
     else
     {
+  has_medium = room_has_medium(ch);
   gain = (get_curr_stat(ch,STAT_WIS) 
         + get_curr_stat(ch,STAT_INT) + ch->level) / 2;
   number = number_percent();
@@ -734,10 +772,10 @@ int mana_gain( CHAR_DATA *ch )
       case POS_FIGHTING:  gain /= 6;      break;
   }
 
-  if ( ch->pcdata->condition[COND_HUNGER]   == 0 )
+  if (!has_medium && ch->pcdata->condition[COND_HUNGER]   == 0 )
       gain /= 2;
 
-  if ( ch->pcdata->condition[COND_THIRST] == 0 )
+  if (!has_medium && ch->pcdata->condition[COND_THIRST] == 0 )
       gain /= 2;
 
   if ( ch->pcdata->condition[COND_DRUNK] > 10 )  
@@ -753,13 +791,13 @@ int mana_gain( CHAR_DATA *ch )
     if (ch->on != NULL && ch->on->item_type == ITEM_FURNITURE)
   gain = gain * ch->on->value[4] / 100;
 
-    if ( IS_AFFECTED( ch, AFF_POISON ) )
+    if (!has_medium && IS_AFFECTED( ch, AFF_POISON ) )
   gain /= 4;
 
-    if (IS_AFFECTED(ch, AFF_PLAGUE))
+    if (!has_medium && IS_AFFECTED(ch, AFF_PLAGUE))
         gain /= 8;
 
-    if(!IS_SET(ch->mhs,MHS_HIGHLANDER) && !IS_NPC(ch))
+    if(!has_medium && !IS_SET(ch->mhs,MHS_HIGHLANDER) && !IS_NPC(ch))
     {
        if (IS_AFFECTED(ch,AFF_HASTE) || IS_AFFECTED(ch,AFF_SLOW))
           gain /=2 ;
@@ -790,8 +828,11 @@ int mana_gain( CHAR_DATA *ch )
     if( is_affected(ch,gsn_clarity) )
 	gain = ( 100 + (ch->level/2) ) * gain / 100;
 
-    if ( (val = room_has_medium( ch ) ) )
-	gain = ( gain * ( 100 + val ) / 100 );
+    if ( has_medium )
+	gain = ( gain * ( 100 + has_medium ) / 100 );
+
+    if(is_clan(ch) && ch->level <= 20)/* Lower level clanners regen better */
+      gain = (gain * 100) / (50 + (ch->level - 5) * 2);/* 200% - 125% */
 
     return UMIN(gain, ch->max_mana - ch->mana);
 }
@@ -800,8 +841,8 @@ int mana_gain( CHAR_DATA *ch )
 
 int move_gain( CHAR_DATA *ch )
 {
-    int val;
     int gain;
+    int has_medium = 0;
 
     if (ch->in_room == NULL)
   return 0;
@@ -812,7 +853,7 @@ int move_gain( CHAR_DATA *ch )
     }
     else
     {
-
+  has_medium = room_has_medium(ch);
   gain = UMAX( 15, ch->level );
 
   switch ( ch->position )
@@ -821,10 +862,10 @@ int move_gain( CHAR_DATA *ch )
   case POS_RESTING:  gain += get_curr_stat(ch,STAT_DEX) / 2;  break;
   }
 
-  if ( ch->pcdata->condition[COND_HUNGER]   == 0 )
+  if (!has_medium && ch->pcdata->condition[COND_HUNGER]   == 0 )
       gain /= 2;
 
-  if ( ch->pcdata->condition[COND_THIRST] == 0 )
+  if (!has_medium && ch->pcdata->condition[COND_THIRST] == 0 )
       gain /= 2;
     }
 
@@ -833,13 +874,13 @@ int move_gain( CHAR_DATA *ch )
     if (ch->on != NULL && ch->on->item_type == ITEM_FURNITURE)
   gain = gain * ch->on->value[3] / 100;
 
-    if ( IS_AFFECTED(ch, AFF_POISON) )
+    if (!has_medium && IS_AFFECTED(ch, AFF_POISON) )
   gain /= 4;
 
-    if (IS_AFFECTED(ch, AFF_PLAGUE))
+    if (!has_medium && IS_AFFECTED(ch, AFF_PLAGUE))
         gain /= 8;
 
-    if(!IS_SET(ch->mhs,MHS_HIGHLANDER) && !IS_NPC(ch))
+    if(!has_medium && !IS_SET(ch->mhs,MHS_HIGHLANDER) && !IS_NPC(ch))
     {
        if (IS_AFFECTED(ch,AFF_HASTE) || IS_AFFECTED(ch,AFF_SLOW))
           gain /=2 ;
@@ -862,8 +903,11 @@ int move_gain( CHAR_DATA *ch )
     if (ch->race == race_lookup("smurf"))
        gain *= 2;
 
-    if ( (val = room_has_medium( ch ) ) )
-        gain = ( gain * ( 100 + val ) / 100 );
+    if ( has_medium )
+        gain = ( gain * ( 100 + has_medium ) / 100 );
+
+    if(is_clan(ch) && ch->level <= 20)/* Lower level clanners regen better */
+      gain = (gain * 100) / (50 + (ch->level - 5) * 2);/* 200% - 125% */
 
     return UMIN(gain, ch->max_move - ch->move);
 }
@@ -874,7 +918,7 @@ void gain_condition( CHAR_DATA *ch, int iCond, int value )
 {
     int condition;
 
-    if ( value == 0 || IS_NPC(ch) || ch->level >= LEVEL_IMMORTAL)
+    if ( value == 0 || IS_NPC(ch) || (ch->level >= LEVEL_IMMORTAL && value < 0))
   return;
 
     if ( ch->race == race_lookup("rockbiter") )
@@ -940,7 +984,7 @@ void mobile_update( void )
 	|| (IS_AFFECTED(ch,AFF_CHARM) && !IS_SET(ch->mhs, MHS_ELEMENTAL)) )
       continue;
 
-  if (ch->in_room->area->empty && !IS_SET(ch->act,ACT_UPDATE_ALWAYS))
+  if (ch->in_room->area && ch->in_room->area->empty && !IS_SET(ch->act,ACT_UPDATE_ALWAYS))
       continue;
 
   /* Examine call for special procedure */
@@ -965,7 +1009,7 @@ void mobile_update( void )
   /* Scavenge */
   if ( IS_SET(ch->act, ACT_SCAVENGER)
   &&   ch->in_room->contents != NULL
-  &&   number_bits( 6 ) == 0 && !ch->in_room->area->freeze)
+  &&   number_bits( 6 ) == 0 && ch->in_room->area && !ch->in_room->area->freeze)
   {
       OBJ_DATA *obj;
       OBJ_DATA *obj_best;
@@ -1015,6 +1059,91 @@ void mobile_update( void )
 }
 
 
+void load_rbow_char(ROOM_INDEX_DATA *pRoom, int vnum)
+{
+  AFFECT_DATA af;
+  CHAR_DATA *rbowchar = create_mobile(get_mob_index(vnum));
+  char_to_room(rbowchar, pRoom);
+  af.where     = TO_AFFECTS;
+  af.type      = skill_lookup("wraithform");
+  af.level     = rbowchar->level;
+  af.duration  = -1;
+  af.location  = 0;
+  af.modifier  = 0;
+  af.bitvector = 0;
+  affect_to_char( rbowchar, &af );
+  act("$n touches down right in front of you!", rbowchar, NULL, NULL, TO_ROOM, FALSE);
+  /* Activate the AI just in case there's a player in the room already */ 
+  spec_rainbow(rbowchar);
+}
+
+bool spawn_rainbow(void)
+{
+  AREA_DATA *pArea;
+  ROOM_INDEX_DATA *pRoom;
+  int target, sec_target, count = 0;
+  for ( pArea = area_first; pArea != NULL; pArea = pArea->next )
+  {
+    if(!pArea->under_develop)
+      count++;
+  }
+  target = number_range(1, count);
+  for ( pArea = area_first; pArea != NULL; pArea = pArea->next )
+  {
+    if(!pArea->under_develop)
+    {
+      target--;
+      if(!target)
+        break;
+    }
+  }
+  if(!pArea)
+  {
+    bug("No area found to spawn the rainbow in.", 0);
+    rainbow = 0;
+    return FALSE;
+  }
+
+  count = 0;
+  for(target = pArea->min_vnum_room; target < pArea->max_vnum_room; target++)
+  {
+    pRoom = get_room_index(target);
+    if(pRoom && !IS_SET(pRoom->room_flags, ROOM_INDOORS))
+      count++;
+  }
+  if(count < 2)/* Sometimes it can't spawn */
+  {
+    rainbow = 0;
+    return FALSE;
+  }
+
+  /* There's a couple outdoor rooms to spawn the rainbow in */
+  target = number_range(1, count);
+  while((sec_target = number_range(1, count)) == target);// Fun!
+  for(count = pArea->min_vnum_room; count < pArea->max_vnum_room; count++)
+  {
+    pRoom = get_room_index(count);
+    if(pRoom && !IS_SET(pRoom->room_flags, ROOM_INDOORS))
+    {
+      if(target)
+      {
+        target--;
+        if(!target)
+          load_rbow_char(pRoom, MOB_VNUM_RAINBOW);
+      }
+      if(sec_target)
+      {
+        sec_target--;
+        if(!sec_target)
+          load_rbow_char(pRoom, MOB_VNUM_RAINBOW);
+      }
+      if(!target && !sec_target)
+        break;
+    }
+  }
+  rainbow_area = pArea;
+  return TRUE;
+}
 
 /*
  * Update the weather.
@@ -1025,6 +1154,13 @@ void weather_update( void )
     DESCRIPTOR_DATA *d;
     int diff;
 
+  if(rainbow)
+  {
+    if(rainbow > 0)
+      rainbow--;
+    else
+      rainbow++;
+  }
     buf[0] = '\0';
 
     switch ( ++time_info.hour )
@@ -1126,6 +1262,17 @@ void weather_update( void )
   {
       strcat( buf, "The rain stopped.\n\r" );
       weather_info.sky = SKY_CLOUDY;
+      if(time_info.hour >= 6 && time_info.hour < 19 && !rainbow)
+      {/* Rainbows only start in the day */
+        if(current_time - rainbow_found > 36000 || (current_time - rainbow_found > 300 && number_percent() < 30))
+        {/* Always happens at 10 hours+, can happen anytime after 5 minutes */
+          rainbow = 15; /* 15 ticks of rainbow appearing */
+          if(spawn_rainbow())
+          {
+            //log_quest_detail("A rainbow has formed.", TASK_RAINBOW);
+          }
+        }
+      }
   }
   break;
 
@@ -1166,7 +1313,6 @@ void char_update( void )
     CHAR_DATA *ch_next;
     CHAR_DATA *ch_quit;    
     char buf[MAX_STRING_LENGTH];
-
     ch_quit = NULL;
 
     /* update save counter */
@@ -1200,17 +1346,24 @@ void char_update( void )
        
   if ( !IS_NPC(ch) )
             {
-                if (ch->clan == clan_lookup("newbie") &&
+                if(ch->pcdata->rlock_time > 0)
+                {
+                  ch->pcdata->rlock_time--;
+                  if(!ch->pcdata->rlock_time)
+                    send_to_char("Your reply lock has timed out.\n\r", ch);
+                }
+                damage_decrement(ch);
+                if (ch->clan == nonclan_lookup("newbie") &&
                     get_age(ch) > 20)
                 {
                     send_to_char("Your newbie flag has been removed.",ch);
                     ch->clan = 0;
                 }
-                if (ch->clan != clan_lookup("zealot") && ch->pcdata->deity == deity_lookup("almighty") )
+/*                if (ch->clan != nonclan_lookup("zealot") && ch->pcdata->deity == deity_lookup("almighty") )
                 {
                     send_to_char("The Almighty has lost faith in you, and you turn to Mojo.\n\r",ch);
                     ch->pcdata->deity = deity_lookup("mojo");
-                }
+                }*/
 
                 if (ch->pcdata->trap_timer-- < 0 )
                         ch->pcdata->trap_timer = 0;
@@ -1222,6 +1375,33 @@ void char_update( void )
 		        ch->pcdata->deity = ch->pcdata->new_deity;
 		        }
 */
+        if(ch->pcdata->corpse_timer > 0)
+          ch->pcdata->corpse_timer--;
+	if(ch->pcdata->deity_favor_timer > 0)
+		{
+			ch->pcdata->deity_favor_timer--;
+			if(!ch->pcdata->deity_favor_timer)
+			{
+				if(ch->pcdata->deity_trial_timer > 0)
+					ch->pcdata->deity_trial_timer = 1;// Ensure failure
+				sprintf(buf, "%s's gaze turns away from you.\n\r", deity_table[ch->pcdata->deity].pname);
+				send_to_char(buf, ch);
+			}
+			if(ch->pcdata->deity_trial_timer > 0)
+			{
+				ch->pcdata->deity_trial_timer--;
+				if(!ch->pcdata->deity_trial_timer)
+				{
+					sprintf(buf, "You have failed to complete the trial from %s in time.\n\r", deity_table[ch->pcdata->deity].pname);
+					send_to_char(buf, ch);
+					log_deity_favor(ch, NULL, DEITY_TRIAL_FAIL_TIMER);
+				}
+				else if(ch->pcdata->deity_trial_timer == 2)
+				{
+					send_to_char("{RHurry!{x You are running out of time on your trial!\n\r", ch);
+				}
+			}
+		}
 
             }
  
@@ -1232,19 +1412,23 @@ void char_update( void )
 	  }
 
         /* skill point tracker set not gaining skill points */
-	if (!IS_NPC(ch) && !IS_SET(ch->comm,COMM_AFK) )
+	if (!IS_NPC(ch) )
 	{
-           if (ch->pcdata->skill_point_tracker >= 12)
+           if (ch->pcdata->skill_point_tracker > 0)
 	   {
-        /* If the skill point timer is down to 0 then they
-           are allowed to gain skill points again, reset
-           the tracker so it will start gaining */
-
+	    /* If they have skill points, they should have a timer */
 	      ch->pcdata->skill_point_timer =
 	      	UMAX(0,ch->pcdata->skill_point_timer -1);
 
-	      if ((ch->pcdata->skill_point_timer) ==  0) 
-	         ch->pcdata->skill_point_tracker = 0;
+
+	      if (ch->pcdata->skill_point_timer ==  0) 
+	      {
+	         ch->pcdata->skill_point_tracker = 
+		   UMAX(0,ch->pcdata->skill_point_tracker - 1);
+		 if (ch->pcdata->skill_point_tracker > 0)
+			ch->pcdata->skill_point_timer = 2;
+	      }
+		 
 	   }
 
 	   if(ch->pcdata->last_attacked_by_timer == 0)
@@ -1429,7 +1613,7 @@ void char_update( void )
 	&& ch->pcdata->quit_time == 0 )
       --ch->pcdata->ruffT;
 
-  if (!IS_NPC(ch) && ch->clan == clan_lookup("matook"))
+  if (!IS_NPC(ch) && ch->clan == nonclan_lookup("matook"))
   {
      if (ch->pcdata->matookT < 12001)
         ch->pcdata->matookT += 1;
@@ -1469,7 +1653,11 @@ void char_update( void )
     ch->timer = 0;
 
       if (ch->pcdata && ch->pcdata->start_time > 0)
+      {
 	  ch->pcdata->start_time -= 1;
+          if(ch->pcdata->start_time == 0)
+            send_to_char("{WYou may now attack other players.{x\n\r", ch);
+      }
     
       if (ch->pcdata && ch->pcdata->quit_time > 0)
           --ch->pcdata->quit_time;
@@ -1888,12 +2076,21 @@ void obj_update( void )
     obj_to_room(obj, to_room);
     }
   }
-
+  if(obj->pIndexData->vnum == OBJ_VNUM_CORPSE_PC && obj->owner && obj->value[4] > 0)
+  {
+    obj->value[4]--;
+    if(!obj->value[4])
+    {
+      CHAR_DATA *owner = check_is_online(obj->owner);
+      if(owner)
+        return_clan_gear(owner, obj);
+    }
+  }
   /* Decriment the stolen timer */
-  if(obj->stolen_timer > 0)
-  { obj->stolen_timer--;}
+  if(obj->stolen_timer)
+  { obj->stolen_timer--;
   if(obj->stolen_timer < 0)
-  { obj->stolen_timer = 0; }
+   obj->stolen_timer = 0; }
 
   /* go through affects and decrement */
         for ( paf = obj->affected; paf != NULL; paf = paf_next )
@@ -2149,7 +2346,7 @@ void aggr_update( void )
     for ( wch = char_list; wch != NULL; wch = wch_next )
     {
   wch_next = wch->next;
-  if ( IS_NPC(wch)
+  if ( IS_NPC(wch) || !wch->pcdata
   ||   wch->level >= LEVEL_IMMORTAL
   ||   wch->in_room == NULL 
   ||   wch->in_room->area->empty)
@@ -2160,7 +2357,7 @@ void aggr_update( void )
       int count;
 
       ch_next = ch->next_in_room;
-      if ( (wch->pcdata->outcT > 0 && wch->clan == clan_lookup("outcast"))
+      if ((wch->pcdata->outcT > 0 && wch->clan == nonclan_lookup("outcast"))
       &&   IS_NPC(ch)
       && IS_AWAKE(ch)
       && !IS_AFFECTED(ch,AFF_CALM)
@@ -2208,7 +2405,7 @@ void aggr_update( void )
     &&   vch->level < LEVEL_IMMORTAL
     &&  vch->position > POS_INCAP
     &&   ch->level >= vch->level - 5 
-    &&   get_curr_stat(vch,STAT_SOC) <= number_range(16,23) 
+    &&   get_curr_stat(vch,STAT_SOC) + (vch->level - ch->level) / 3 <= number_range(16,23) 
     &&   ( !IS_SET(ch->act, ACT_WIMPY) || !IS_AWAKE(vch) )
     &&   can_see( ch, vch, FALSE ) )
     {
@@ -2251,6 +2448,34 @@ void update_handler( void )
 
     if ( --pulse_area     <= 0 )
     {
+      CLAN_DATA *clan = clan_first;
+      static int auto_save = 0;
+
+      for(; clan; clan = clan->next)
+      {
+        if(clan->to_match)
+        {
+          MERIT_TRACKER *mtrack;
+          while(clan->to_match && clan->to_match->expire <= 0)
+          {
+            mtrack = clan->to_match;
+            clan->to_match = clan->to_match->next;
+            free_merit(mtrack);
+          }
+          for(mtrack = clan->to_match; mtrack; mtrack = mtrack->next)
+          {/* By two minute intervals */
+            mtrack->expire--;
+          }
+        }
+      }
+
+      auto_save++;
+      if(auto_save == 30)
+      {/* Every hour */
+        /* Save all pits */
+        save_pits();
+        auto_save = 0;
+      }
   pulse_area  = PULSE_AREA;
   /* number_range( PULSE_AREA / 2, 3 * PULSE_AREA / 2 ); */
   area_update ( );
@@ -2279,10 +2504,13 @@ void update_handler( void )
     {
   pulse_violence  = PULSE_VIOLENCE;
   violence_update ( );
+  gladiator_rename_all();
     }
 
     if ( --pulse_point    <= 0 )
     {
+  if(override > 0)
+    override--;
   pulse_point     = number_range( 3 * PULSE_TICK / 4, 5 * PULSE_TICK / 4 );
   sprintf(buf,"TICK at %s{G-->{x Next tick lasts %d seconds",
 	(char *) ctime( &current_time ), (pulse_point/5)+2 );
@@ -2292,6 +2520,29 @@ void update_handler( void )
   obj_update  ( );
   room_update ( );
   gladiator_update ( );
+  if(bounty_timer)
+  {
+    if(bounty_timer > 45)// Out of luck for this one
+    {
+      int extra = 0;
+      if(bounty_type==BOUNTY_ITEM_NAME || bounty_type == BOUNTY_ITEM_DESC)
+        extra = bounty_item;
+      if(extra)
+        sprintf(buf, "Mob %d(In %d)(Item %d) bounty failed (%d %d%s).",
+          bounty_vnum, bounty_room, extra, bounty_complete, bounty_type,
+          bounty_downgrade ? " down" : "");
+      else
+        sprintf(buf, "Mob %d(In %d) bounty failed (%d %d%s).", bounty_vnum, 
+          bounty_room, bounty_complete, bounty_type,
+          bounty_downgrade ? " down" : "");
+      bounty_complete = UMAX(0, bounty_complete - 1);
+      log_quest_detail(buf, QUEST_BOUNTY_KILL);
+      select_bounty(bounty_complete);
+      bounty_timer = -3;
+      pnet("A shadow bounty has failed. How disappointing.",NULL,NULL,PNET_SHADEBOUNTY,0,0);
+    }
+    bounty_timer++;
+  }
     }
 
     aggr_update( );
@@ -2310,7 +2561,8 @@ void dot_update( void )
 	
 	sector_damage(ch);
 
-	if ( ch->affected == NULL )
+      if ( ch->affected == NULL || (IS_SET(ch->mhs,MHS_GLADIATOR) && !IS_NPC(ch)
+        && (gladiator_info.time_left > 0 || gladiator_info.bet_counter > 0)))
 	    continue;
 
 	for ( paf = ch->affected ; paf != NULL ; paf = paf_next )

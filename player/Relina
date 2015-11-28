@@ -2,8 +2,8 @@
 Name Relina~
 Id   983257483
 Email (null)~
-LogO 992102381
-Vers 27
+LogO 1407417086
+Vers 33
 Desc You see a girl of about 15 standing before you.
 She seems like a nice enough person however,
 you see a hurt behind thoes beautiful blue eyes.
@@ -23,15 +23,29 @@ Clan zealot~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 25
+SkPTimer 23
 SkPTracker 12
 LogoutTracker 0
-Kill 0 11 18
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy Isam~
 LstAtkedBy no one~
 LstAtkedByTimer 0
+LstCombatDate 1375321029
+LstKillDate 1375321029
+LstDeathDate 1375321029
+LoginsWOKill 3
+LoginsWODeath 3
+LoginsWOCombat 3
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 44629 almighty~
 Sac  300
 Sex  2
@@ -40,35 +54,36 @@ Node 0
 Cap 0
 Created 983257496
 Glad 0 0 0 0 0 0
+LastHost 24.239.104.118~
 Cla  14
 ClaO 3
 Levl 37
 DLevl 0
-Plyd 198294
-Not  988582862 988584829 0 988519656 986842931 988590970 0 988521888 0
+Plyd 198378
+Not  988582862 988584829 0 988519656 986842931 988590970 0 988521888 0 0
 Scro 22
 Rank 2
 Room 5281
-HMV  695 695 328 328 291 291
+HMV  685 685 313 313 291 291
 Gold 227
 Silv 92
 Exp  111255
-Act  CDEFGHKQSX
+Act  CDEFGHKQS
+MHSF R
 Comm DEGIRc
 Disp FJ
 IcgB 0
 Icg 0
-Pos  4
+Pos  8
 Prac 34
+Trai 16
 SkiP 17
 Alig  -41
-Hit   11
-Dam   20
-SecHit   11
-SecDam   19
-ACs -38 -36 -40 -4
-Attr 21 18 18 18 18
-AMod 2 0 1 1 2
+Hit   2
+SecHit   2
+ACs 40 40 40 40
+Attr 21 18 18 18 18 10 10 13
+AMod 0 0 0 1 1 0 0 0
 Pass Rea6lFrdpdOQM~
 Titl  Daralin~
 Pnts 70
@@ -80,6 +95,7 @@ Alias sneak sneak~
 Alias vis \~
 Alias visable visable~
 Alias visible vis~
+OldSk 1 'annointment'
 Sk 75 'fly'
 Sk 84 'gate'
 Sk 1 'knock'
@@ -89,7 +105,6 @@ Sk 1 'portal'
 Sk 76 'summon'
 Sk 1 'teleport'
 Sk 84 'word of recall'
-Sk 1 'annointment'
 Sk 1 'axe'
 Sk 81 'dagger'
 Sk 1 'flail'
@@ -119,8 +134,8 @@ Gr 'warrior basics'
 Gr 'blademaster default'
 Gr 'weaponsmaster'
 Gr 'transportation'
-Affc 'stone skin'   0  34  24 -40  17          0
-Affc 'armor'   0  32  21 -20  17          0
+Affc 'armor'   0  31  19 -20  17          0
+Affc 'stone skin'   0  34  22 -40  17          0
 End
 
 #O
@@ -128,7 +143,7 @@ Vnum 23110
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 8
+Wear -1
 Cost 1500
 End
 
@@ -137,7 +152,7 @@ Vnum 2803
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 2
+Wear -1
 Cost 1150
 End
 
@@ -146,7 +161,7 @@ Vnum 2803
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 1
+Wear -1
 Cost 1150
 End
 
@@ -155,7 +170,7 @@ Vnum 4434
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 3
+Wear -1
 Cost 550
 End
 
@@ -164,7 +179,7 @@ Vnum 23107
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 10
+Wear -1
 Cost 1500
 End
 
@@ -173,7 +188,7 @@ Vnum 23109
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 7
+Wear -1
 Cost 1500
 End
 
@@ -182,7 +197,7 @@ Vnum 23111
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 9
+Wear -1
 Cost 1500
 End
 
@@ -191,7 +206,7 @@ Vnum 23112
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 13
+Wear -1
 Cost 1500
 End
 
@@ -200,7 +215,7 @@ Vnum 2505
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 15
+Wear -1
 Cost 1150
 End
 
@@ -209,7 +224,7 @@ Vnum 2505
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 14
+Wear -1
 Cost 1150
 End
 
@@ -220,13 +235,13 @@ Nest 0
 PrevOwner Relina~
 ExtF 17039424
 Cond 0
-Wear 6
+Wear -1
 Lev  35
 Cost 2300
-Affc 'enchant armor'   1  53  -1  -1  17          0
-Affc 'reserved'   1  34  -1   2  19          0
-Affc 'reserved'   1  34  -1   1  18          0
 Affc 'reserved'   1  34  -1  10  13          0
+Affc 'reserved'   1  34  -1   1  18          0
+Affc 'reserved'   1  34  -1   2  19          0
+Affc 'enchant armor'   1  53  -1  -1  17          0
 End
 
 #O
@@ -243,7 +258,7 @@ Vnum 8049
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 12
+Wear -1
 Cost 2000
 End
 
@@ -261,7 +276,7 @@ Vnum 16016
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 11
+Wear -1
 Cost 4200
 End
 
@@ -270,7 +285,7 @@ Vnum 16003
 Nest 0
 PrevOwner Relina~
 Cond 0
-Wear 5
+Wear -1
 Cost 7600
 End
 
@@ -345,24 +360,6 @@ Wear -1
 Cost 950
 Spell 1 'stone skin'
 Spell 2 'blindness'
-End
-
-#O
-Vnum 22901
-Nest 0
-PrevOwner Mickey~
-Cond 0
-Wear 16
-Cost 600
-End
-
-#O
-Vnum 9513
-Nest 0
-PrevOwner Alena~
-Cond 0
-Wear 19
-Cost 490
 End
 
 #END

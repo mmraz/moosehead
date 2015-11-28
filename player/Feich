@@ -3,7 +3,7 @@ Name Feich~
 SurN Afher~
 Id   1063263143
 Email (null)~
-LogO 1131478251
+LogO 1310293657
 Vers 31
 LnD  A Gladiator~
 Desc $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -54,79 +54,84 @@ Desc $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 Feich the mummified dwarf is in awful condition.
 Feich the mummified human is in awful condition.
 ~
-Prom (%h %m %v) ({R%a %g %s %w %t{x) ({G%r %e %X{x) ~
+Prom %h/%H %m/%M %v/%V {R%g %s %w %t{x ({G%r %e{x) ~
 Race rockbiter~
 Clan demise~
 Outc 0
-RufT 396
+RufT 116
 MatookT 0
-SkPTimer 0
-SkPTracker 6
+Abol -1
+SkPTimer 1
+SkPTracker 3
 LogoutTracker 0
-Kill 9 26 1 37
+Kill 9 28 1 37
 Steal 0 0 0
-LstK Ripper~
+LstK Barbara~
 LstKBy Catharcys~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1129227386
-LstKillDate 1128246179
+LstCombatDate 1308598941
+LstKillDate 1308345810
 LstDeathDate 1128281774
-LoginsWOKill 10
-LoginsWODeath 6
-LoginsWOCombat 1
+LoginsWOKill 8
+LoginsWODeath 15
+LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
 Deity 395106 hermes~
-Sac  450
-Sex  1
-Vump  2
+Sac  600
+Sex  0
+Vump  3
 Node 0
 Cap 0
 Created 1063263163
 Glad 0 0 0 0 2 0
+LastHost 41.51.219.6~
 Cla  5
 Kit cavalier~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 1047608
-Not  1131475681 1131475681 1131475681 1131475681 1131475681 1131475681 1131475681 1131475681 1131475681 1131475681
+Plyd 1083158
+Not  1310293612 1310293612 1310293612 1310293612 1310293612 1310293612 1310293612 1310293612 1310293612 1310293612
 Scro 22
 Rank 1
-Room 31403
+Room 31422
 HMV  1692 1692 470 470 483 483
-Gold 163
-Silv 11
+Gold 612
+Silv 3267
 Exp  554963
-Act  CDGHMOQST
+Act  DGHMOQSTa
 MHSF RS
 ClnF CH
-AfBy Tbc
+AfBy DTbc
 Comm 0
-Disp BFIJN
+Disp FIJN
 IcgB 0
 Icg 0
 Wizn W
 Pnet ABCDEFGHI
 Pos  8
-Prac 61
-SkiP 85
+Prac 29
+Trai 16
+SkiP 137
 Save  -5
-Alig  -63
+Alig  -166
 Hit   42
 Dam   40
 SecHit   30
 SecDam   28
-ACs -10 -4 -5 17
-Attr 25 15 19 14 21 16 23 17
+ACs -30 -24 -25 -3
+Attr 25 15 19 14 21 8 15 17
 AMod 0 2 0 2 2 0 0 0
-Pass FeyKRGFs/sfpk~
+Pass FeBRC/P8sr7W2~
 Titl  apprentice of {D-={RCthon{D=-{x~
 Pnts 94
 TSex 1
 LLev 174
 HMVP 1472 365 483
-Cnd  0 0 48 0
+Cnd  0 3 48 7
 Alias k bash~
 Alias rock order all hit~
 Alias res order all rescue feich~
@@ -138,12 +143,16 @@ Alias hh c heal~
 Alias t order all trip~
 Alias df c demonfire~
 Alias rt c 'ray of truth'~
+Alias le look east~
+Alias lw look west~
+Alias ln look north~
+Alias ls look south~
 Spz 'flail'
-Sk 77 'armor'
+Sk 80 'armor'
 Sk 100 'bless'
 Sk 1 'body weaponry'
 Sk 86 'call mount'
-Sk 87 'cancellation'
+Sk 88 'cancellation'
 Sk 1 'crusade'
 Sk 1 'cure critical'
 Sk 1 'cure light'
@@ -153,7 +162,7 @@ Sk 76 'demonfire'
 Sk 1 'detect evil'
 Sk 67 'detect good'
 Sk 82 'detect hidden'
-Sk 83 'detect invis'
+Sk 85 'detect invis'
 Sk 75 'detect magic'
 Sk 1 'detect poison'
 Sk 1 'dispel evil'
@@ -176,7 +185,7 @@ Sk 100 'heal'
 Sk 1 'heat metal'
 Sk 1 'hold person'
 Sk 1 'holy silence'
-Sk 82 'identify'
+Sk 84 'identify'
 Sk 80 'indulgence'
 Sk 75 'infravision'
 Sk 1 'knock'
@@ -209,7 +218,7 @@ Sk 1 'cryogenesis'
 Sk 1 'draw life'
 Sk 1 'make bag'
 Sk 83 'turn undead'
-Sk 52 'withstand death'
+Sk 57 'withstand death'
 Sk 1 'wound transfer'
 Sk 100 'flail'
 Sk 100 'mace'
@@ -221,7 +230,7 @@ Sk 100 'bludgeon'
 Sk 65 'breathe'
 Sk 51 'disarm'
 Sk 100 'dodge'
-Sk 75 'fear'
+Sk 79 'fear'
 Sk 100 'hex'
 Sk 100 'enhanced critical'
 Sk 100 'enhanced damage'
@@ -230,6 +239,7 @@ Sk 100 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
+Sk 32 'fast healing'
 Sk 100 'hide'
 Sk 100 'riding'
 Sk 97 'sneak'
@@ -250,6 +260,9 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'mummy'
+Affc 'shield'   0  41  32 -20  17          0
+Affc 'detect invis'   0  44  26   0   0          8
+Affc 'change sex'   0  52 102  -1   6          0
 End
 
 #O
@@ -327,8 +340,8 @@ ExtF 450
 Cond 0
 Wear -1
 Cost 0
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -336,7 +349,7 @@ Vnum 23514
 Nest 0
 PrevOwner Feich~
 Cond 0
-Wear 3
+Wear 4
 Cost 3690
 End
 
@@ -387,45 +400,9 @@ Cost 2000
 End
 
 #O
-Vnum 3050
-Nest 0
-PrevOwner Feich~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Feich~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Feich~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
-Vnum 3050
-Nest 0
-PrevOwner Feich~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
 Vnum 22504
 Nest 0
-PrevOwner Xipetotec~
+PrevOwner Feich~
 Cond 0
 Wear 0
 Cost 0
@@ -434,7 +411,7 @@ End
 #O
 Vnum 18105
 Nest 0
-PrevOwner (null)~
+PrevOwner Feich~
 Cond 0
 Wear 11
 Cost 4500
@@ -443,32 +420,55 @@ End
 #O
 Vnum 20727
 Nest 0
-PrevOwner (null)~
+PrevOwner Feich~
 Cond 0
 Wear 13
 Cost 5500
 End
 
 #O
-Vnum 23021
+Vnum 8502
 Nest 0
-PrevOwner (null)~
+PrevOwner Feich~
 Cond 0
-Wear 4
-Cost 710
+Wear -1
+Cost 3100
 End
 
 #O
-Vnum 23575
-Enchanted
-Nest 1
+Vnum 8502
+Nest 0
 PrevOwner Feich~
-ExtF 67
 Cond 0
 Wear -1
+Cost 3100
+End
+
+#O
+Vnum 23138
+Nest 0
+PrevOwner Feich~
+Cond 0
+Wear 18
 Cost 0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 8502
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3100
+End
+
+#O
+Vnum 23021
+Nest 0
+PrevOwner Feich~
+Cond 0
+Wear 3
+Cost 710
 End
 
 #O
@@ -482,22 +482,8 @@ Wear -1
 Lev  50
 Cost 0
 Val  3 3 14 36 12
-Affc 'enchant weapon'   0  52  -1  10  18          0
 Affc 'enchant weapon'   1  52  -1  10  19          0
-End
-
-#O
-Vnum 2447
-Enchanted
-Nest 1
-PrevOwner Feich~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 9
-Affc 'enchant weapon'   1  52  -1  11  19          0
-Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
 End
 
 #O
@@ -510,54 +496,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
+Affc 'enchant weapon'   1  52  -1  11  19          0
 Affc 'enchant weapon'   1  52  -1  12  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-End
-
-#O
-Vnum 23575
-Nest 1
-PrevOwner Feich~
-ExtF 538443891
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5922
-Nest 1
-PrevOwner Feich~
-Cond 0
-Wear -1
-Cost 300
-End
-
-#O
-Vnum 10337
-Enchanted
-Nest 1
-PrevOwner Feich~
-ExtF 67
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
-End
-
-#O
-Vnum 10451
-Enchanted
-Nest 1
-PrevOwner Feich~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6250
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -570,8 +510,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   1  53  -1  14  18          0
 Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   1  53  -1  14  18          0
 End
 
 #O
@@ -584,8 +524,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 0
-Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
 End
 
 #O
@@ -598,8 +538,101 @@ Cond 0
 Wear -1
 Lev  50
 Cost 3250
-Affc 'enchant weapon'   1  53  -1  11  19          0
 Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 2447
+Enchanted
+Nest 1
+PrevOwner Feich~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 9
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 10337
+Enchanted
+Nest 1
+PrevOwner Feich~
+ExtF 67
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -613,47 +646,210 @@ Wear -1
 Lev  50
 Cost 0
 Val  6 2 19 39 516
-Affc 'enchant weapon'   0  53  -1  10  18          0
 Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
 End
 
 #O
-Vnum 23138
-Nest 0
-PrevOwner (null)~
+Vnum 8517
+Nest 1
+PrevOwner Feich~
 Cond 0
-Wear 18
+Wear -1
 Cost 0
 End
 
 #O
-Vnum 3050
-Nest 0
-PrevOwner Ergun~
+Vnum 3375
+Nest 1
+PrevOwner Feich~
 Cond 0
 Wear -1
-Cost 350
+Cost 5000
 End
 
 #O
-Vnum 3050
-Nest 0
-PrevOwner Ergun~
+Vnum 8503
+Nest 1
+PrevOwner Feich~
 Cond 0
 Wear -1
-Cost 290
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8504
+Nest 1
+PrevOwner Feich~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 23575
+Enchanted
+Nest 1
+PrevOwner Feich~
+ExtF 67
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
 End
 
 #O
 Vnum 10419
 Enchanted
-Nest 0
+Nest 1
 PrevOwner Feich~
 ExtF 67
 Cond 0
-Wear 16
+Wear -1
 Lev  50
 Cost 1330
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 10451
+Enchanted
+Nest 0
+PrevOwner Feich~
+ExtF 67
+Stolen 80
+Cond 0
+Wear 16
+Lev  50
+Cost 6250
 Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
 End
@@ -661,11 +857,11 @@ End
 #PET
 Vnum 11
 Name magestic warhorse war horse~
-LogO 1131478251
+LogO 1310293657
 Sex  2
 Levl 33
 HMV  585 585 100 100 405 405
-AfBy QS
+AfBy S
 Comm VWX
 Pos  8
 Hit  19

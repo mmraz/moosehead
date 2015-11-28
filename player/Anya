@@ -2,8 +2,8 @@
 Name Anya~
 Id   886356544
 Email (null)~
-LogO 951704084
-Vers 20
+LogO 1306441278
+Vers 31
 Desc Standing here is a slim young woman with long
 flowing auburn curls cascading down her shoulders
 and over her back. She wears a loose fitting white
@@ -24,10 +24,20 @@ RufT 0
 MatookT 0
 SkPTimer 0
 SkPTracker 0
-LogoutTracker 5
-Kill 0 0 0
+LogoutTracker 4
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
+LstKBy no one~
 LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1306441256
+LstKillDate 1306441256
+LstDeathDate 1306441256
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 mojo~
 Sac  300
 Sex  2
@@ -35,21 +45,23 @@ Vump  0
 Node 0
 Cap 0
 Created 951703075
-LastHost cr574071-a.slnt1.on.wave.home.com 2522~
+Glad 0 0 0 0 0 0
+LastHost 64.25.189.48~
 Cla  11
 ClaO 0
 Levl 1
 DLevl 3
-Plyd 57727
-Not  897323628 897323630 0 897323625 897323626 897323629 0 0 0
+Plyd 57747
+Not  897323628 897323630 0 897323625 897323626 897323629 0 0 0 0
 Scro 22
 Rank 0
 Room 1220
-HMV  20 20 100 100 200 200
+HMV  20 20 100 100 200 100
 Gold 0
 Silv 71
 Exp  7600
 Act  CDEFGHQ
+MHSF R
 AfBy J
 Comm DEFGIOR
 Disp FIJ
@@ -57,13 +69,11 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 5
-Trai 3
-Save  -1
+Trai 13
 Alig  15
-Hit   1
-ACs 87 85 85 97
-Attr 12 18 15 15 12
-AMod 0 0 1 0 1
+ACs 100 100 100 100
+Attr 12 18 15 15 12 13 13 13
+AMod 0 0 0 0 0 0 0 0
 Pass AnDQmSUe/NmcM~
 Titl  every day is heaven with (Nemerle)~
 Pnts 98
@@ -88,6 +98,7 @@ OldSk 1 'change sex'
 Sk 1 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 1 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -131,9 +142,9 @@ OldSk 1 'feeblemind'
 Sk 1 'fireball'
 Sk 1 'fireproof'
 OldSk 1 'fireproof'
+Sk 1 'floating disc'
 Sk 1 'fly'
 OldSk 1 'fly'
-Sk 1 'floating disc'
 Sk 1 'forget'
 OldSk 1 'forget'
 Sk 1 'fumble'
@@ -204,6 +215,7 @@ Sk 1 'animate dead'
 Sk 1 'summon dead'
 Sk 1 'cryogenesis'
 Sk 1 'draw life'
+Sk 1 'make bag'
 Sk 1 'turn undead'
 Sk 1 'withstand death'
 Sk 1 'wound transfer'
@@ -263,70 +275,79 @@ End
 #O
 Vnum 3712
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 13
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 15
+Wear -1
 Cost 48
 End
 
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 4
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 3
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3706
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 6
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3710
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 10
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 48
 End
 
 #O
 Vnum 1345
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 1000
 End
 
 #O
 Vnum 9201
 Nest 1
+PrevOwner (null)~
 Name silver ring~
 ShD  a sterling silver BFF ring~
 Desc A silver puzzle from Amanda signifies best Friends Forever.~
@@ -338,6 +359,7 @@ End
 #O
 Vnum 3361
 Nest 1
+PrevOwner (null)~
 Name dress wedding satin~
 ShD  a wedding dress of fine white satin~
 Desc a satin wedding dress lies here.~
@@ -349,6 +371,7 @@ End
 #O
 Vnum 6511
 Nest 1
+PrevOwner (null)~
 Name gold wedding band~
 ShD  A gold wedding band etched with dragons~
 Desc The inscription reads: To my angel...I love you forever and always. --Nemmy~
@@ -360,6 +383,7 @@ End
 #O
 Vnum 8721
 Nest 1
+PrevOwner (null)~
 Name ramona bug juice~
 ShD  Ramona's bug juice~
 Desc A little glass bottle of dark liquid sits on the ground.~
@@ -374,6 +398,7 @@ End
 #O
 Vnum 5231
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -382,6 +407,7 @@ End
 #O
 Vnum 2326
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -390,6 +416,7 @@ End
 #O
 Vnum 5003
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -398,6 +425,7 @@ End
 #O
 Vnum 5003
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -406,6 +434,7 @@ End
 #O
 Vnum 9201
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
@@ -414,6 +443,7 @@ End
 #O
 Vnum 9201
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
@@ -422,6 +452,7 @@ End
 #O
 Vnum 8721
 Nest 1
+PrevOwner (null)~
 Name ramona bug juice~
 ShD  Ramona's bug juice~
 Desc A little glass bottle of dark liquid sits on the ground.~
@@ -436,6 +467,7 @@ End
 #O
 Vnum 2326
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -444,6 +476,7 @@ End
 #O
 Vnum 3877
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -452,6 +485,7 @@ End
 #O
 Vnum 3009
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 22
@@ -460,6 +494,7 @@ End
 #O
 Vnum 3138
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 24
@@ -468,6 +503,7 @@ End
 #O
 Vnum 6601
 Nest 1
+PrevOwner (null)~
 Name Nemerle's Love~
 ShD  Nemerle's Love~
 Desc A gold ring sparkles with little diamond dragons embedded in it.~
@@ -479,6 +515,7 @@ End
 #O
 Vnum 20407
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 160
@@ -487,6 +524,7 @@ End
 #O
 Vnum 20408
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 180
@@ -495,6 +533,7 @@ End
 #O
 Vnum 20409
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 250
@@ -503,6 +542,7 @@ End
 #O
 Vnum 6601
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 620
@@ -511,6 +551,7 @@ End
 #O
 Vnum 1100
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -519,6 +560,7 @@ End
 #O
 Vnum 3707
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 72
@@ -527,6 +569,7 @@ End
 #O
 Vnum 3704
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 108
@@ -535,6 +578,7 @@ End
 #O
 Vnum 3701
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 210
@@ -543,6 +587,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -551,22 +596,25 @@ End
 #O
 Vnum 3878
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 7
+Wear -1
 Cost 0
 End
 
 #O
 Vnum 5709
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 8
+Wear -1
 Cost 0
 End
 
 #O
 Vnum 9103
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
@@ -575,6 +623,7 @@ End
 #O
 Vnum 9103
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
@@ -583,8 +632,9 @@ End
 #O
 Vnum 3716
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 0
+Wear -1
 Cost 0
 Val  0 0 182 0 0
 End
@@ -592,32 +642,36 @@ End
 #O
 Vnum 3703
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 5
+Wear -1
 Cost 0
 End
 
 #O
 Vnum 3701
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 16
+Wear -1
 Cost 210
 End
 
 #O
 Vnum 3704
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 11
+Wear -1
 Cost 0
 End
 
 #O
 Vnum 3715
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 17
+Wear -1
 Cost 1140
 End
 

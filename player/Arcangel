@@ -2,18 +2,19 @@
 Name Arcangel~
 Id   974101396
 Email (null)~
-LogO 1115130377
-Vers 31
+LogO 1445547070
+Vers 33
 Prom [%hHp %mMa %v][%X][%g.%s][%n/%N][%w][%S]%c[%e][%r] ~
 Race dwarf~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 211053 xochipili~
 DeityT -9 xochipili~
 Sac  185
@@ -34,42 +41,41 @@ Node 0
 Cap 0
 Created 974101420
 Glad 0 0 0 0 0 0
-LastHost 146.230.192.111~
 Cla  12
 Kit battlerager~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 339176
+Plyd 342398
 Not  1084018889 1067638589 1067638589 1084417263 1082949129 1083952320 1067638589 1083727721 1067638589 1067638589
 Scro 22
 Rank 0
 Room 3054
-HMV  1342 1342 984 1066 603 605
+HMV  1199 1199 1066 1066 605 605
 Gold 425
 Silv 847
 Exp  397813
 Act  CDGHIQ
 MHSF R
-AfBy DJc
+AfBy Jc
 Comm GIR
 Disp FGIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  4
-Prac 5
-Trai 5
-SkiP 53
+Pos  8
+Prac 6
+Trai 15
+SkiP 54
 Save  -5
 Alig  -1000
-Hit   21
+Hit   19
 Dam   8
 SecHit   19
 SecDam   8
 ACs -20 -20 -20 20
 Wimp  20
-Attr 20 15 21 16 20 13 19 13
+Attr 20 15 21 16 20 9 13 13
 AMod 2 8 4 7 2 0 0 0
 Pass ArpUnAwo2Ct/U~
 Titl .~
@@ -77,7 +83,7 @@ Pnts 99
 TSex 1
 LLev 72
 HMVP 954 876 605
-Cnd  0 30 43 35
+Cnd  0 0 21 13
 Alias bl c blind~
 Alias skel c 'summon dead'~
 Alias sk order skel h~
@@ -105,7 +111,6 @@ Sk 1 'cause critical'
 Sk 1 'cause light'
 Sk 1 'cause serious'
 Sk 1 'change sex'
-Sk 1 'cone of silence'
 Sk 75 'control weather'
 Sk 75 'cure blindness'
 Sk 1 'cure critical'
@@ -228,8 +233,6 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'aid'   0  51   8 143  13          0
-Affc 'detect invis'   0  48  33   0   0          8
 End
 
 #O
@@ -604,7 +607,7 @@ PrevOwner Arcangel~
 Cond 0
 Wear -1
 Cost 10000
-Val  30 5 3 110 0
+Val  30 5 3 114 0
 Spell 3 'haste'
 End
 
@@ -614,7 +617,7 @@ Enchanted
 Nest 1
 PrevOwner Arcangel~
 ExtF 339
-Stolen 910
+Stolen 829
 Cond 0
 Wear -1
 Lev  33
@@ -744,7 +747,7 @@ Vnum 10320
 Nest 0
 PrevOwner Arcangel~
 Cond 0
-Wear 16
+Wear -1
 Cost 0
 Val  5 5 8 18 1060
 End
@@ -764,10 +767,9 @@ Vnum 22506
 Nest 0
 PrevOwner Arcangel~
 Cond 0
-Wear -1
+Wear 16
 Cost 0
-Val  1 10 4 38 512
-Affc 'bestow holiness'   5  47   9   0   0        512
+Val  1 10 4 38 0
 End
 
 #O
@@ -777,8 +779,7 @@ PrevOwner Arcangel~
 Cond 0
 Wear -1
 Cost 0
-Val  1 10 4 38 512
-Affc 'bestow holiness'   5  45   9   0   0        512
+Val  1 10 4 38 0
 End
 
 #END

@@ -1,8 +1,9 @@
 #PLAYER
 Name Root~
 Id   878705998
-LogO 913179753
-Vers 12
+Email (null)~
+LogO 1446036282
+Vers 33
 Desc Root. The beginning, the end of all things. When
 you seek the source, the root is where it all
 comes together. So too will things begin and end.
@@ -15,19 +16,46 @@ Prom <%hhp %mm %vmv> ~
 Race giant~
 Clan loner~
 Outc 0
-Kill 0 1 0
+RufT 0
+MatookT 0
+SkPTimer 0
+SkPTracker 0
+LogoutTracker 0
+Kill 0 0 0 0
+Steal 0 0 0
+MSteal 0
+LstK no one~
+LstKBy no one~
+LstAtkedBy (null)~
+LstAtkedByTimer 0
+LstCombatDate 1444292722
+LstKillDate 1444292722
+LstDeathDate 1444292722
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 xochipili~
 Sac  300
 Sex  1
 Vump  0
 Node 0
 Cap 0
+Created 0
+Glad 0 0 0 0 0 0
+LastHost 175.30.83.14~
 Cla  1
 ClaO 1
 Levl 21
-Plyd 464502
-Rdid 0
-Not  912997444 886119909 0 912371333 912316100 913154519
+DLevl 0
+Plyd 519301
+Not  912997444 886119909 0 912371333 912316100 913154519 0 0 0 0
 Scro 22
 Rank 5
 Room 16507
@@ -36,24 +64,22 @@ Gold 55
 Silv 3382
 Exp  208241
 Act  CDEFGHQR
+MHSF M
 Comm GORS
 Disp FGJ
 IcgB 0
 Icg 0
-IMC 0
-IMCAllow 0
-IMCDeny 0
-ICEListen red~
 Pos  8
 Prac 8
+Trai 10
 Save  -5
 Alig  1000
 Hit   3
 Dam   9
 ACs 50 56 47 98
 Wimp  50
-Attr 22 11 18 15 19
-AMod 4 1 2 1 0
+Attr 22 11 18 15 19 13 13 13
+AMod 4 1 2 1 0 0 0 0
 Pass RoCxQeLHA.tgQ~
 Titl , King of Tubers.~
 Pnts 93
@@ -111,8 +137,8 @@ Sk 1 'feast'
 Sk 1 'feeblemind'
 Sk 45 'fireproof'
 Sk 45 'flamestrike'
-Sk 45 'fly'
 Sk 45 'floating disc'
+Sk 45 'fly'
 Sk 1 'forget'
 Sk 1 'frenzy'
 Sk 1 'fumble'
@@ -152,6 +178,7 @@ Sk 1 'animate dead'
 Sk 77 'summon dead'
 Sk 45 'cryogenesis'
 Sk 45 'draw life'
+Sk 1 'make bag'
 Sk 45 'turn undead'
 Sk 1 'withstand death'
 Sk 1 'wound transfer'
@@ -159,6 +186,7 @@ Sk 1 'flail'
 Sk 100 'mace'
 Sk 1 'bash'
 Sk 1 'dodge'
+Sk 1 'grab'
 Sk 1 'enhanced damage'
 Sk 15 'hand to hand'
 Sk 2 'parry'
@@ -192,6 +220,7 @@ End
 #O
 Vnum 4101
 Nest 0
+PrevOwner (null)~
 ExtF 134217792
 Cond 0
 Wear 9
@@ -202,6 +231,7 @@ End
 #O
 Vnum 624
 Nest 0
+PrevOwner (null)~
 ExtF 134217792
 Cond 0
 Wear 8
@@ -212,6 +242,7 @@ End
 #O
 Vnum 623
 Nest 0
+PrevOwner (null)~
 ExtF 134217792
 Cond 0
 Wear 7
@@ -222,6 +253,7 @@ End
 #O
 Vnum 622
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 6
 Cost 1280
@@ -230,6 +262,7 @@ End
 #O
 Vnum 626
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 10
 Cost 1280
@@ -238,6 +271,7 @@ End
 #O
 Vnum 621
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 5
 Cost 2400
@@ -246,6 +280,7 @@ End
 #O
 Vnum 17006
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 13
 Cost 1200
@@ -254,6 +289,7 @@ End
 #O
 Vnum 11001
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 15
 Cost 2308
@@ -262,6 +298,7 @@ End
 #O
 Vnum 20710
 Nest 0
+PrevOwner (null)~
 ExtF 1
 Cond 0
 Wear -1
@@ -271,6 +308,7 @@ End
 #O
 Vnum 17666
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 4
 Cost 1000
@@ -279,6 +317,7 @@ End
 #O
 Vnum 17666
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 3
 Cost 1000
@@ -287,6 +326,7 @@ End
 #O
 Vnum 1100
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 550
@@ -295,6 +335,7 @@ End
 #O
 Vnum 2803
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 2
 Cost 1150
@@ -303,6 +344,7 @@ End
 #O
 Vnum 8800
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 14
 Cost 1870
@@ -312,19 +354,21 @@ End
 Vnum 22060
 Enchanted
 Nest 0
+PrevOwner (null)~
 ExtF 67
 Cond 0
 Wear -1
 Lev  19
 Cost 930
-Affc 'reserved'   1  15  -1   2   1          0
-Affc 'enchant weapon'   1  46  -1   5  19          0
 Affc 'enchant weapon'   0  46  -1   5  18          0
+Affc 'enchant weapon'   1  46  -1   5  19          0
+Affc 'reserved'   1  15  -1   2   1          0
 End
 
 #O
 Vnum 5030
 Nest 0
+PrevOwner (null)~
 Name thief certificate~
 ShD  a thief certificate~
 Desc This certificate was awarded to Root for stealing Gabrielle's heart.~
@@ -336,6 +380,7 @@ End
 #O
 Vnum 20
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -345,6 +390,7 @@ End
 #O
 Vnum 9201
 Nest 0
+PrevOwner (null)~
 Name ray moonlight sunshine ring~
 ShD  A ray of moonlight and sunshine entwined together~
 Desc THis beatiful wedding band represent the beatiful unity  of Root and Gabrielle. Their endless days spent together and the love that continues.~
@@ -358,6 +404,7 @@ End
 #O
 Vnum 16100
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2100
@@ -366,6 +413,7 @@ End
 #O
 Vnum 16100
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2100
@@ -374,6 +422,7 @@ End
 #O
 Vnum 16100
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2100
@@ -382,6 +431,7 @@ End
 #O
 Vnum 16100
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2100
@@ -390,6 +440,7 @@ End
 #O
 Vnum 16100
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2100
@@ -398,6 +449,7 @@ End
 #O
 Vnum 16100
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 2100
@@ -406,6 +458,7 @@ End
 #O
 Vnum 16130
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -414,6 +467,7 @@ End
 #O
 Vnum 17665
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 16
 Cost 3200
@@ -422,6 +476,7 @@ End
 #O
 Vnum 1345
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 0
@@ -430,6 +485,7 @@ End
 #O
 Vnum 30160
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -439,6 +495,7 @@ End
 #O
 Vnum 30109
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -448,6 +505,7 @@ End
 #O
 Vnum 5233
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -456,6 +514,7 @@ End
 #O
 Vnum 16701
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 500
@@ -464,6 +523,7 @@ End
 #O
 Vnum 8010
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 670
@@ -472,6 +532,7 @@ End
 #O
 Vnum 5234
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 550
@@ -480,6 +541,7 @@ End
 #O
 Vnum 10443
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1520
@@ -488,6 +550,7 @@ End
 #O
 Vnum 6601
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 620
@@ -496,6 +559,7 @@ End
 #O
 Vnum 5710
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1000
@@ -504,6 +568,7 @@ End
 #O
 Vnum 9103
 Nest 1
+PrevOwner (null)~
 ExtF 33
 Cond 0
 Wear -1
@@ -513,6 +578,7 @@ End
 #O
 Vnum 6621
 Nest 1
+PrevOwner (null)~
 ExtF 134217792
 Cond 0
 Wear -1
@@ -523,6 +589,7 @@ End
 #O
 Vnum 11324
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 15
@@ -531,6 +598,7 @@ End
 #O
 Vnum 625
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1280
@@ -539,6 +607,7 @@ End
 #O
 Vnum 10049
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -550,6 +619,7 @@ End
 #O
 Vnum 6013
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -559,6 +629,7 @@ End
 #O
 Vnum 101
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 270
@@ -567,6 +638,7 @@ End
 #O
 Vnum 6511
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 460
@@ -575,6 +647,7 @@ End
 #O
 Vnum 5003
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -584,20 +657,22 @@ End
 Vnum 8007
 Enchanted
 Nest 1
+PrevOwner (null)~
 ExtF 99
 Cond 0
 Wear -1
 Lev  20
 Cost 2800
-Affc 'enchant weapon'   1  30  -1   6  18          0
-Affc 'enchant weapon'   1  30  -1   6  19          0
-Affc 'reserved'   1  18  -1   1   5          0
 Affc 'reserved'   1  18  -1   1   2          0
+Affc 'reserved'   1  18  -1   1   5          0
+Affc 'enchant weapon'   1  30  -1   6  19          0
+Affc 'enchant weapon'   1  30  -1   6  18          0
 End
 
 #O
 Vnum 2803
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1150
@@ -606,6 +681,7 @@ End
 #O
 Vnum 5110
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1550
@@ -615,6 +691,7 @@ End
 #O
 Vnum 1001
 Nest 1
+PrevOwner (null)~
 Name white orchid~
 ShD  a white wild orchid~
 Desc a white wild orchid, most beautiful of flowers pales beside your beauty.~
@@ -627,6 +704,7 @@ End
 #O
 Vnum 9573
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 820
@@ -636,6 +714,7 @@ End
 #O
 Vnum 9573
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 820
@@ -645,6 +724,7 @@ End
 #O
 Vnum 9573
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 820
@@ -654,6 +734,7 @@ End
 #O
 Vnum 10049
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -665,6 +746,7 @@ End
 #O
 Vnum 30160
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -674,6 +756,7 @@ End
 #O
 Vnum 9103
 Nest 1
+PrevOwner (null)~
 ExtF 33
 Cond 0
 Wear -1
@@ -683,6 +766,7 @@ End
 #O
 Vnum 9103
 Nest 1
+PrevOwner (null)~
 ExtF 33
 Cond 0
 Wear -1
@@ -692,6 +776,7 @@ End
 #O
 Vnum 9201
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
@@ -700,6 +785,7 @@ End
 #O
 Vnum 1335
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
@@ -708,6 +794,7 @@ End
 #O
 Vnum 2326
 Nest 1
+PrevOwner (null)~
 ExtF 65
 Cond 0
 Wear -1
@@ -717,6 +804,7 @@ End
 #O
 Vnum 2326
 Nest 1
+PrevOwner (null)~
 ExtF 65
 Cond 0
 Wear -1
@@ -726,6 +814,7 @@ End
 #O
 Vnum 3715
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1140
@@ -734,6 +823,7 @@ End
 #O
 Vnum 3882
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -742,6 +832,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000
@@ -750,6 +841,7 @@ End
 #O
 Vnum 3377
 Nest 1
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 10000

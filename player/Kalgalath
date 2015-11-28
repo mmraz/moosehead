@@ -2,8 +2,8 @@
 Name Kalgalath~
 Id   885414688
 Email (null)~
-LogO 998720223
-Vers 28
+LogO 1319342348
+Vers 31
 Desc is a lazy butt.
 ~
 Prom %h/%Hh %m/%Mm %v/%Vv %Xx %g/%s %e>%c<%r>%c~
@@ -12,16 +12,26 @@ Clan honor~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 17
-SkPTracker 12
+SkPTimer 2
+SkPTracker 5
 LogoutTracker 0
-Kill 0 2 25
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-Deity 227619 almighty~
+LstCombatDate 1306435622
+LstKillDate 1306435622
+LstDeathDate 1306435622
+LoginsWOKill 12
+LoginsWODeath 12
+LoginsWOCombat 12
+Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
+Deity 227619 mojo~
 Sac  300
 Sex  1
 Vump  0
@@ -29,48 +39,49 @@ Node 0
 Cap 0
 Created 951453955
 Glad 0 0 0 0 0 0
-LastHost 24.28.185.56~
+LastHost 67.11.188.56~
 Cla  14
 Kit myrmidon~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 370522
-Not  997497928 997497928 997497928 997928702 997758590 997497928 997497928 997497928 997497928
+Plyd 376220
+Not  1319341832 1319341832 1319341832 1319341832 1319341832 1319341832 1319341832 1319341832 1319341832 1319341832
 Scro 22
 Rank 2
 Room 31501
-HMV  1502 1502 409 417 454 454
-Gold 2107
-Silv 2499
+HMV  1007 1352 9 417 98 454
+Gold 2192
+Silv 14745
 Exp  428432
-Act  CDGHJQSd
-AfBy CDFJNPT
+Act  CDEFGHJQSd
+MHSF R
+AfBy CDFJNTVa
 Comm OS
 Disp BFIJ
 IcgB 0
 Icg 0
-Pos  8
-Prac 6
-Trai 2
-SkiP 105
-Save  -8
-Alig  897
-Hit   30
-Dam   46
-SecHit   28
-SecDam   45
-ACs -148 -150 -150 -64
-Wimp  150
-Attr 25 25 25 25 25
-AMod 5 0 4 5 2
+Pnet ABCEFG
+Pos  4
+Trai 14
+SkiP 119
+Save  -2
+Alig  1000
+Hit   28
+Dam   56
+SecHit   26
+SecDam   55
+ACs 54 52 52 133
+Wimp  25
+Attr 25 25 25 25 25 11 14 13
+AMod 4 0 2 8 0 0 0 0
 Pass KaVUAomjAMcYc~
 Titl  [Team Mascot]~
 Pnts 90
 TSex 1
 LLev 91
 HMVP 1317 424 419
-Cnd  0 11 46 15
+Cnd  0 16 47 18
 Alias z give 24414 silver otho~
 Alias whisp emote whispers,~
 Alias x scan~
@@ -99,7 +110,7 @@ Sk 75 'fly'
 OldSk 1 'fly'
 Sk 94 'gate'
 OldSk 1 'gate'
-Sk 75 'giant strength'
+Sk 76 'giant strength'
 OldSk 1 'giant strength'
 Sk 79 'haste'
 OldSk 1 'haste'
@@ -129,7 +140,7 @@ Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
 Sk 85 'sanctuary'
 OldSk 1 'sanctuary'
-Sk 81 'shield'
+Sk 83 'shield'
 OldSk 1 'shield'
 Sk 75 'stone skin'
 OldSk 1 'stone skin'
@@ -164,7 +175,7 @@ Sk 100 'bash'
 OldSk 75 'bash'
 Sk 77 'berserk'
 OldSk 1 'berserk'
-Sk 1 'bite'
+Sk 55 'bite'
 Sk 82 'dirt kicking'
 OldSk 77 'dirt kicking'
 Sk 100 'disarm'
@@ -211,13 +222,13 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'bless'   0  50  55  -6  24          0
-Affc 'bless'   0  50  55   6  18          0
-Affc 'stone skin'   0  38  37 -40  17          0
-Affc 'shield'   0  38  44 -20  17          0
-Affc 'protection evil'   0  38  22  -1  24       8192
-Affc 'armor'   0  37  31 -20  17          0
-Affc 'sneak'   0  49  46   0   0      32768
+Affc 'berserk'   0  50   2 100  17   67108864
+Affc 'berserk'   0  51   2  10  19   67108864
+Affc 'berserk'   0  51   2  10  18   67108864
+Affc 'haste'   0  38  11   4   2    2097152
+Affc 'stone skin'   0  39  19 -40  17          0
+Affc 'shield'   0  39  27 -20  17          0
+Affc 'protection evil'   0  38   3  -1  24       8192
 End
 
 #O
@@ -252,7 +263,7 @@ Vnum 2505
 Nest 0
 PrevOwner Kalgalath~
 Cond 0
-Wear -1
+Wear 14
 Cost 1150
 End
 
@@ -261,7 +272,7 @@ Vnum 2301
 Nest 0
 PrevOwner Kalgalath~
 Cond 0
-Wear -1
+Wear 5
 Cost 4200
 End
 
@@ -269,6 +280,7 @@ End
 Vnum 2390
 Nest 0
 PrevOwner Kalgalath~
+Damaged 50
 Cond 0
 Wear 9
 Cost 5800
@@ -279,7 +291,7 @@ Vnum 1345
 Nest 0
 PrevOwner Kalgalath~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 End
 
@@ -290,18 +302,6 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1000
-End
-
-#O
-Vnum 3292
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
 End
 
 #O
@@ -679,21 +679,6 @@ Cost 2600
 End
 
 #O
-Vnum 1376
-Enchanted
-Nest 1
-PrevOwner Kalgalath~
-ExtF 67
-Cond 0
-Wear -1
-Lev  25
-Cost 2100
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'reserved'   1  20  -1   1   2          0
-Affc 'enchant weapon'   0  53  -1   5  18          0
-End
-
-#O
 Vnum 5934
 Nest 1
 PrevOwner Kalgalath~
@@ -808,15 +793,6 @@ Affc 'reserved'   1  18  -1   1   1          0
 End
 
 #O
-Vnum 11145
-Nest 1
-PrevOwner Kalgalath~
-Cond 0
-Wear -1
-Cost 4500
-End
-
-#O
 Vnum 10069
 Enchanted
 Nest 1
@@ -854,24 +830,6 @@ Cost 6000
 End
 
 #O
-Vnum 28018
-Nest 1
-PrevOwner Kalgalath~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 18011
-Nest 1
-PrevOwner Kalgalath~
-Cond 0
-Wear -1
-Cost 650
-End
-
-#O
 Vnum 23129
 Nest 1
 PrevOwner Kalgalath~
@@ -881,12 +839,99 @@ Cost 10000
 End
 
 #O
+Vnum 22044
+Nest 1
+PrevOwner Kalgalath~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Kalgalath~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Kalgalath~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Kalgalath~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Kalgalath~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Kalgalath~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Kalgalath~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Kalgalath~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 1376
+Enchanted
+Nest 1
+PrevOwner Kalgalath~
+ExtF 67
+Cond 0
+Wear -1
+Lev  25
+Cost 2100
+Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'reserved'   1  20  -1   1   2          0
+Affc 'enchant weapon'   0  53  -1   5  18          0
+End
+
+#O
 Vnum 911
 Nest 0
 PrevOwner Kalgalath~
 ExtF 1121
 Cond 0
-Wear 1
+Wear -1
 Cost 6900
 End
 
@@ -936,30 +981,12 @@ Cost 6900
 End
 
 #O
-Vnum 23138
-Nest 0
-PrevOwner Rappier~
-Cond 0
-Wear 18
-Cost 0
-End
-
-#O
 Vnum 5932
 Nest 0
 PrevOwner Kalgalath~
 Cond 0
 Wear -1
 Cost 4000
-End
-
-#O
-Vnum 12050
-Nest 0
-PrevOwner Kalgalath~
-Cond 0
-Wear 6
-Cost 7777
 End
 
 #O
@@ -976,7 +1003,7 @@ Vnum 16721
 Nest 0
 PrevOwner Kalgalath~
 Cond 0
-Wear 3
+Wear 4
 Cost 1400
 End
 
@@ -985,7 +1012,7 @@ Vnum 1395
 Nest 0
 PrevOwner Kalgalath~
 Cond 0
-Wear 4
+Wear 3
 Cost 1970
 End
 
@@ -999,20 +1026,6 @@ Cost 5000
 End
 
 #O
-Vnum 10027
-Enchanted
-Nest 0
-PrevOwner Kalgalath~
-ExtF 66
-Cond 0
-Wear 19
-Lev  50
-Cost 1000
-Affc 'enchant weapon'   1  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-End
-
-#O
 Vnum 5939
 Enchanted
 Nest 0
@@ -1023,33 +1036,6 @@ Wear -1
 Cost 4000
 Affc 'enchant weapon'   0  45  -1  11  18          0
 Affc 'enchant weapon'   1  50  -1  13  19          0
-End
-
-#O
-Vnum 12058
-Nest 0
-PrevOwner Laimen~
-Cond 0
-Wear 14
-Cost 22334
-End
-
-#O
-Vnum 12056
-Nest 0
-PrevOwner Bordil~
-Cond 0
-Wear 5
-Cost 34510
-End
-
-#O
-Vnum 12055
-Nest 0
-PrevOwner Bordil~
-Cond 0
-Wear 11
-Cost 12345
 End
 
 #O
@@ -1067,6 +1053,30 @@ Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O
+Vnum 11097
+Nest 0
+PrevOwner Kalgalath~
+Cond 0
+Wear 1
+Cost 0
+Val  3 0 4 10500 0
+End
+
+#O
+Vnum 10027
+Enchanted
+Nest 0
+PrevOwner Kalgalath~
+ExtF 66
+Cond 0
+Wear 19
+Lev  50
+Cost 1000
+Affc 'enchant weapon'   1  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+End
+
+#O
 Vnum 2415
 Enchanted
 Nest 0
@@ -1081,13 +1091,71 @@ Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
-Vnum 11097
+Vnum 907
+Enchanted
+Nest 0
+PrevOwner Crusher~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 5150
+Affc 'enchant weapon'   1  52  -1   9  19          0
+Affc 'enchant weapon'   0  52  -1   9  18          0
+End
+
+#O
+Vnum 18011
 Nest 0
 PrevOwner Kalgalath~
 Cond 0
+Wear 6
+Cost 650
+End
+
+#O
+Vnum 28018
+Nest 0
+PrevOwner Kalgalath~
+Cond 0
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 11145
+Nest 0
+PrevOwner Kalgalath~
+Cond 0
+Wear 18
+Cost 4500
+End
+
+#O
+Vnum 10456
+Nest 0
+PrevOwner (null)~
+Cond 0
 Wear -1
 Cost 0
-Val  3 0 4 10500 0
+End
+
+#O
+Vnum 10405
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6900
+End
+
+#O
+Vnum 10404
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 15300
 End
 
 #END

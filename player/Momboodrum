@@ -3,18 +3,19 @@ Name Momboodrum~
 SurN Mother~
 Id   1035746544
 Email (null)~
-LogO 1103256800
-Vers 31
+LogO 1355495411
+Vers 33
 Prom <%hhp %mm %vmv> {G*(%wWeight)*{x ->{Y%t:00{x<-(%X) ~
 Race dwarf~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 2
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -4551 matook~
 Sac  600
@@ -35,50 +40,49 @@ Node 0
 Cap 0
 Created 1035746619
 Glad 0 0 0 0 0 0
-LastHost 208.42.95.246~
 Cla  5
 Kit battlerager~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 189711
+Plyd 196055
 Not  1037952717 0 0 0 0 0 0 0 0 0
 Scro 22
 Rank 0
-Room 30315
+Room 30312
 HMV  1307 1307 625 625 333 333
-Gold 631
-Silv 3205
+Gold 738
+Silv 5466
 Exp  244826
 Act  DGHK
 MHSF R
-AfBy DJ
-Comm DEGIJLRc
+AfBy J
+Comm DEGIJLR
 Disp FIJN
 IcgB 0
 Icg 0
 Pos  8
-Prac 41
-Trai 4
-SkiP 219
-Save  -3
+Prac 14
+Trai 10
+SkiP 7
+Save  7
 Alig  -1000
-Hit   33
-Dam   50
+Hit   30
+Dam   49
 SecHit   22
 SecDam   41
-ACs -56 -50 -56 -31
+ACs 4 10 4 29
 Wimp  50
-Attr 21 16 20 16 21 9 19 20
-AMod 4 0 1 0 2 0 0 0
-Pass Mowi6yVUfSzIA~
+Attr 21 16 20 16 21 9 13 20
+AMod 3 0 1 0 2 0 0 3
+Pass MoVlLe8GN8d52~
 Titl  of Warboo, Vampoo and loves her Petfish~
 Pnts 84
 TSex 2
 LLev 27
 HMVP 1127 525 348
-Cnd  0 32 40 40
-Spz 'mace'
+Cnd  0 0 6 6
+Spz 'axe'
 Sk 91 'acid blast'
 Sk 1 'aid'
 Sk 83 'armor'
@@ -93,7 +97,6 @@ Sk 83 'chain lightning'
 Sk 1 'change sex'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 1 'continual light'
 Sk 76 'create food'
 Sk 75 'create fountain'
@@ -173,7 +176,7 @@ Sk 1 'shocking grasp'
 Sk 1 'slow'
 Sk 1 'see soul'
 Sk 81 'stone skin'
-Sk 81 'summon'
+Sk 84 'summon'
 Sk 75 'teleport'
 Sk 1 'tower of iron will'
 Sk 75 'warp'
@@ -206,7 +209,7 @@ Sk 99 'enhanced critical'
 Sk 100 'enhanced damage'
 Sk 100 'parry'
 Sk 75 'rescue'
-Sk 49 'shield block'
+Sk 51 'shield block'
 Sk 50 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
@@ -238,10 +241,6 @@ Gr 'piety'
 Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
-Affc 'giant strength'   0  40   3   4   1          0
-Affc 'detect invis'   0  42  29   0   0          8
-Affc 'armor'   0  38  18 -20  17          0
-Affc 'stone skin'   0  45  39 -40  17          0
 End
 
 #O
@@ -837,7 +836,7 @@ Enchanted
 Nest 0
 PrevOwner Momboodrum~
 Cond 0
-Wear 16
+Wear -1
 Cost 10212
 Val  5 5 8 18 548
 Affc 'enchant weapon'   1  53  -1  11  18          0
@@ -863,12 +862,86 @@ Cost 1000
 End
 
 #O
+Vnum 12060
+Nest 0
+PrevOwner Krung~
+Cond 0
+Wear -1
+Cost 5234
+Val  5 6 7 38 8704
+Affc 'bestow holiness'   5  51  -1   0   0        512
+End
+
+#O
+Vnum 2205
+Enchanted
+Nest 0
+PrevOwner Krung~
+ExtF 451
+Cond 0
+Wear -1
+Cost 0
+Val  6 2 20 7 808
+Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'bestow holiness'   5  51  -1   0   0        512
+End
+
+#O
+Vnum 4913
+Enchanted
+Nest 0
+PrevOwner Krung~
+ExtF 554172610
+Cond 0
+Wear 16
+Cost 2200
+Val  5 6 7 29 8749
+Affc 'reserved'   1  50  -1  10  20          0
+Affc 'reserved'   1  50  -1   3   1          0
+Affc 'reserved'   1  50  -1   3  32          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+Affc 'bestow holiness'   5  51  -1   0   0        512
+End
+
+#O
 Vnum 23518
 Nest 0
-PrevOwner Spontaneous~
+PrevOwner Momboodrum~
 Cond 0
 Wear -1
 Cost 4500
+End
+
+#O
+Vnum 12029
+Nest 0
+PrevOwner Misfortune~
+Cond 0
+Wear -1
+Cost 5400
+Val  8 6 6 2 520
+Affc 'bestow holiness'   5  51  -1   0   0        512
+End
+
+#O
+Vnum 6602
+Nest 0
+PrevOwner Misfortune~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6602
+Nest 0
+PrevOwner Misfortune~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #END

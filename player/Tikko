@@ -3,8 +3,8 @@ Name Tikko~
 SurN Frost~
 Id   991826591
 Email (null)~
-LogO 1131683599
-Vers 31
+LogO 1408320848
+Vers 33
 LnD  A Gladiator~
 Desc Before stands a tall, Broad man wearing dark robes.
 he looks up at you from under his huge heavy hood, His piercing grey eye's
@@ -25,11 +25,12 @@ Race human~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 11
-SkPTracker 13
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -41,7 +42,13 @@ LoginsWOKill 6
 LoginsWODeath 6
 LoginsWOCombat 6
 Bnty 0
-Deity 222013 xochipili~
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 222013 matook~
 DeityT -3071 xochipili~
 Sac  300
 Sex  1
@@ -50,48 +57,49 @@ Node 0
 Cap 0
 Created 991826602
 Glad 0 0 0 0 0 0
-LastHost 209-181-59-152.eugn.qwest.net~
+LastHost 98.232.225.18~
 Cla  11
 Kit necromancer~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 991700
-Not  1115688335 1115723677 1115679451 1115679451 1115679451 1115745749 1115679451 1115679451 1115679451 1115679451
+Plyd 1107928
+Not  1361778193 1361778193 1361778193 1361820324 1361778193 1361778193 1361778193 1361778193 1361778193 1361778193
 Scro 22
 Rank 0
 Room 3001
-HMV  697 706 109 1005 259 469
-Gold 76
-Silv 2203
+HMV  736 736 1145 1145 364 364
+Gold 287
+Silv 67
 Exp  94528
-Act  DEGHIKQ
+Act  DEGHIK
 MHSF R
-AfBy TV
 Comm L
-Disp BFGIJN
+Disp BCFGIJN
 IcgB 0
 Icg 0
 Pnet ABCDF
 Pos  8
-Prac 34
-SkiP 41
-Save  -4
-Alig  -978
-Hit   23
-Dam   9
-SecHit   19
-SecDam   9
-ACs -26 -29 -30 1
-Attr 18 21 18 18 18 13 13 13
-AMod 7 0 1 6 0 0 0 0
+Prac 2
+ReTrai 5
+SkiP 51
+Save  -5
+Alig  -1000
+Hit   21
+Dam   28
+SecHit   9
+SecDam   15
+ACs -7 7 -3 15
+Wimp  10
+Attr 18 21 18 18 18 10 10 14
+AMod 5 4 3 0 0 0 0 0
 Pass TicWYwZ/OMsM.~
-Titl  {r..::{DFather of Bloodline{r::.. {W(Clio){x~
+Titl  {r..::{DFather of the Bloodline{r::.. {D*Necromancer*~
 Pnts 57
 TSex 1
 LLev 1
 HMVP 706 980 364
-Cnd  0 19 37 27
+Cnd  0 0 5 5
 Alias sd c 'summon dead'~
 Alias sanc c sanc~
 Alias k kill~
@@ -108,346 +116,664 @@ Alias hs c haste~
 Sk 100 'acid blast'
 Sk 88 'adamantite skin'
 Sk 93 'armor'
-Sk 77 'blindness'
+Sk 82 'blindness'
+Sk 80 'blur'
 Sk 77 'burning hands'
+Sk 75 'calm'
 Sk 85 'cancellation'
-Sk 89 'chain lightning'
+Sk 100 'chain lightning'
 Sk 1 'change sex'
+Sk 78 'charm person'
 Sk 80 'chill touch'
 Sk 80 'colour spray'
-Sk 1 'cone of silence'
-Sk 81 'curse'
-Sk 1 'detect evil'
-Sk 1 'detect good'
+Sk 86 'curse'
+Sk 75 'detect evil'
+Sk 75 'detect good'
 Sk 78 'detect hidden'
-Sk 78 'detect invis'
-Sk 75 'detect magic'
+Sk 80 'detect invis'
+Sk 81 'detect magic'
 Sk 75 'detect poison'
-Sk 94 'diamond skin'
-Sk 97 'dispel magic'
-Sk 93 'enchant armor'
+Sk 100 'diamond skin'
+Sk 100 'dispel magic'
+Sk 94 'enchant armor'
 Sk 100 'enchant weapon'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
-Sk 93 'energy drain'
-Sk 78 'enervation'
+Sk 98 'energy drain'
+Sk 81 'enervation'
 Sk 81 'entrance'
 Sk 100 'famine'
-Sk 1 'farsight'
-Sk 77 'feast'
+Sk 75 'farsight'
+Sk 80 'feast'
 Sk 76 'feeblemind'
 Sk 95 'fireball'
 Sk 75 'fireproof'
 Sk 80 'flameseek'
-Sk 83 'fly'
+Sk 88 'fly'
 Sk 82 'forget'
 Sk 77 'fumble'
 Sk 100 'gate'
 Sk 100 'giant strength'
 Sk 95 'haste'
-Sk 84 'identify'
+Sk 100 'identify'
 Sk 75 'infravision'
+Sk 78 'invisibility'
 Sk 85 'knock'
-Sk 1 'know alignment'
+Sk 75 'know alignment'
 Sk 75 'lightning bolt'
-Sk 79 'locate object'
+Sk 85 'locate object'
 Sk 86 'magic missile'
+Sk 75 'mass invis'
 Sk 79 'nexus'
 Sk 89 'pass door'
 Sk 78 'plague'
 Sk 77 'poison'
-Sk 1 'portal'
+Sk 75 'portal'
 Sk 75 'protection evil'
 Sk 75 'protection good'
-Sk 1 'protection neutral'
+Sk 75 'protection neutral'
 Sk 75 'recharge'
 Sk 75 'refresh'
 Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
 Sk 90 'shield'
 Sk 76 'shocking grasp'
-Sk 87 'slow'
+Sk 79 'sleep'
+Sk 88 'slow'
 Sk 100 'sonic blast'
 Sk 77 'steel skin'
-Sk 75 'stone skin'
+Sk 77 'stone skin'
 Sk 100 'summon'
-Sk 91 'teleport'
-Sk 77 'warp'
-Sk 75 'weaken'
+Sk 94 'teleport'
+Sk 56 'ventriloquate'
+Sk 80 'warp'
+Sk 82 'weaken'
 Sk 100 'word of recall'
 Sk 89 'animate dead'
 Sk 100 'summon dead'
-Sk 95 'cryogenesis'
+Sk 98 'cryogenesis'
 Sk 100 'draw life'
-Sk 85 'make bag'
+Sk 87 'make bag'
 Sk 99 'wraithform'
-Sk 97 'turn undead'
-Sk 88 'withstand death'
+Sk 98 'turn undead'
+Sk 91 'withstand death'
 Sk 75 'wound transfer'
 Sk 100 'axe'
 Sk 100 'dagger'
 Sk 100 'bleed'
 Sk 100 'dodge'
-Sk 90 'scan'
+Sk 91 'scan'
 Sk 100 'second attack'
 Sk 100 'meditation'
 Sk 100 'spellcraft'
 Sk 100 'scrolls'
-Sk 88 'staves'
+Sk 91 'staves'
 Sk 77 'wands'
-Sk 67 'swimming'
-Sk 50 'recall'
+Sk 75 'swimming'
+Sk 75 'recall'
 Gr 'rom basics'
 Gr 'mage basics'
+Gr 'beguiling'
 Gr 'combat'
 Gr 'detection'
 Gr 'enchantment'
 Gr 'enhancement'
+Gr 'illusion'
 Gr 'maladictions'
 Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'shield'   0  43  24 -20  17          0
-Affc 'armor'   0  42   2 -20  17          0
-Affc 'giant strength'   0  47  17   4   1          0
-Affc 'bless'   0  38  15   5  18          0
-Affc 'bless'   0  40  15  -5  24          0
-Affc 'haste'   0  45   4   4   2    2097152
-Affc 'fly'   0  49  34   0   0     524288
-End
-
-#O
-Vnum 3052
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 15
-Cost 112
-End
-
-#O
-Vnum 3053
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 13
-Cost 136
-End
-
-#O
-Vnum 3364
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 2
-Cost 1280
-End
-
-#O
-Vnum 10409
-Nest 0
-PrevOwner Druidus~
-Cond 0
-Wear 5
-Cost 10000
-End
-
-#O
-Vnum 8044
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 4
-Cost 2000
-End
-
-#O
-Vnum 10336
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 11
-Cost 4000
 End
 
 #O
 Vnum 18004
+Enchanted
 Nest 0
-PrevOwner Nimthas~
+PrevOwner Tikko~
+ExtF 2368
 Cond 0
 Wear 10
+Lev  16
 Cost 650
+Affc 'enchant armor'   1  52  -1  -6  17          0
+Affc 'reserved'   1  10  -1  10  12          0
 End
 
 #O
 Vnum 2513
 Nest 0
-PrevOwner Skrunk~
+PrevOwner Tikko~
 Cond 0
-Wear 3
+Wear 4
 Cost 710
 End
 
 #O
-Vnum 2508
+Vnum 2423
+Enchanted
 Nest 1
 PrevOwner Tikko~
+ExtF 66
 Cond 0
 Wear -1
+Lev  50
+Cost 2200
+Val  6 5 8 26 8
+Affc 'enchant weapon'   1  52  -1  11  19          0
+Affc 'enchant weapon'   1  52  -1  13  18          0
+Affc 'reserved'   1  49  -1  10  12          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 18150
+Enchanted
+Nest 1
+PrevOwner Tikko~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  50
+Cost 0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 16724
+Enchanted
+Nest 1
+PrevOwner Tikko~
+ExtF 595
+Cond 0
+Wear -1
+Cost 2000
+Val  0 4 10 5 5
+Affc 'enchant weapon'   1  53  -1  13  18          0
+Affc 'reserved'   1  50  -1   2   2          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 669
+Enchanted
+Nest 1
+PrevOwner Tikko~
+ExtF 1090
+Cond 0
+Wear -1
+Lev  36
 Cost 4100
+Val  0 3 8 5 16
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
-Vnum 3376
+Vnum 22502
+Enchanted
+Nest 1
+PrevOwner Tikko~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 665
+Val  3 7 6 11 9
+Affc 'enchant weapon'   1  38  -1   9  19          0
+Affc 'enchant weapon'   0  38  -1   9  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 26
 Nest 1
 PrevOwner Tikko~
 Cond 0
 Wear -1
-Cost 6000
+Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
 End
 
 #O
-Vnum 18011
-Nest 0
-PrevOwner Nimthas~
+Vnum 26
+Nest 1
+PrevOwner Tikko~
 Cond 0
 Wear -1
-Cost 650
-End
-
-#O
-Vnum 23111
-Nest 0
-PrevOwner Nimthas~
-Cond 0
-Wear 9
-Cost 1500
-End
-
-#O
-Vnum 15204
-Nest 0
-PrevOwner Pogonip~
-Cond 0
-Wear 1
 Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
 End
 
 #O
-Vnum 18003
-Nest 0
-PrevOwner Nimthas~
+Vnum 26
+Nest 1
+PrevOwner Tikko~
 Cond 0
-Wear 17
-Cost 950
-End
-
-#O
-Vnum 2605
-Nest 0
-PrevOwner Nimthas~
-Cond 0
-Wear 7
-Cost 670
-End
-
-#O
-Vnum 5418
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 18
+Wear -1
 Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 26
+Nest 1
+PrevOwner Tikko~
+Cond 0
+Wear -1
+Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 26
+Nest 1
+PrevOwner Tikko~
+Cond 0
+Wear -1
+Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Tikko~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 106 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Tikko~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 536879105
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 106 -1 -1 -1
+Spell 1 'frenzy'
+End
+
+#O
+Vnum 3049
+Nest 1
+PrevOwner Tikko~
+Name a scroll of frenzy~
+ShD  a scroll of frenzy~
+Desc A scroll of frenzy lies here.
+~
+ExtF 537927683
+Cond 0
+Wear -1
+Lev  24
+Cost 0
+Val  51 30 106 141 -1
+Spell 1 'calm'
+Spell 2 'frenzy'
+Spell 3 'magical rest'
 End
 
 #O
 Vnum 2505
 Nest 0
-PrevOwner (null)~
+PrevOwner Tikko~
+Cond 0
+Wear 15
+Cost 1150
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner Tikko~
 Cond 0
 Wear 14
 Cost 1150
 End
 
 #O
-Vnum 5708
+Vnum 17648
 Nest 0
 PrevOwner Tikko~
-ExtF 134217728
-Wt   33
 Cond 0
-Wear 12
-Cost 1000
-Val  2 2 2 2 3
+Wear 13
+Cost 4000
 End
 
 #O
-Vnum 5709
-Nest 0
+Vnum 31723
+Nest 1
 PrevOwner Tikko~
-ExtF 134217728
-Wt   33
 Cond 0
-Wear 8
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Tikko~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 2919
+Nest 1
+PrevOwner Tikko~
+Cond 0
+Wear -1
 Cost 0
-Val  2 2 2 2 3
 End
 
 #O
-Vnum 2911
+Vnum 2919
+Nest 1
+PrevOwner Tikko~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10403
+Nest 1
+PrevOwner Tikko~
+Cond 0
+Wear -1
+Cost 6300
+Val  4 3 10 12 16
+End
+
+#O
+Vnum 662
+Enchanted
+Nest 1
+PrevOwner Tikko~
+ExtF 1090
+Cond 0
+Wear -1
+Lev  27
+Cost 2600
+Val  0 2 10 5 16
+Affc 'enchant weapon'   0  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
+End
+
+#O
+Vnum 5252
+Nest 1
+PrevOwner Tikko~
+Cond 0
+Wear -1
+Cost 0
+Val  2 2 5 11 28
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 17631
 Nest 0
-PrevOwner (null)~
+PrevOwner Tikko~
 Cond 0
 Wear 0
 Cost 0
 End
 
 #O
-Vnum 10413
+Vnum 20819
 Nest 0
-PrevOwner Druidus~
+PrevOwner Tikko~
 Cond 0
-Wear 16
-Cost 7300
-End
-
-#O
-Vnum 16701
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 500
-End
-
-#O
-Vnum 16753
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
+Wear 17
 Cost 0
 End
 
 #O
-Vnum 16724
+Vnum 2390
+Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Tikko~
+ExtF 67
 Cond 0
-Wear -1
-Cost 2000
+Wear 9
+Lev  27
+Cost 5800
+Affc 'enchant armor'   1  52  -1  -6  17          0
+Affc 'reserved'   1  23  -1   2  19          0
+Affc 'reserved'   1  23  -1   2   1          0
 End
 
 #O
-Vnum 16726
+Vnum 18011
 Nest 0
 PrevOwner Tikko~
-ExtF 134218322
+ExtF 134217985
+Wt   6
+Wrp 1
 Cond 0
 Wear 6
+Cost 0
+End
+
+#O
+Vnum 5901
+Enchanted
+Nest 0
+PrevOwner Tikko~
+ExtF 2641
+Cond 0
+Wear 12
+Lev  50
 Cost 4000
-Val  12 12 12 12 3
+Affc 'enchant armor'   1  52  -1  -2  17          0
+Affc 'reserved'   1  49  -1  35  12          0
+Affc 'reserved'   1  49  -1   2   1          0
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Tikko~
+Name bag beta The hunting horror~
+ShD  a bag made from The hunting horror's hide~
+Desc A bag of fine The hunting horror hide catches your eye.  ~
+ExtF 0
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  18
+Cost 2750
+Val  550 1 -1 90 25
+End
+
+#O
+Vnum 669
+Enchanted
+Nest 1
+PrevOwner Tikko~
+Name vorpal weapon~
+ShD  a {RVORPAL {xweapon~
+Desc yes, a Vorpal weapon lies here.~
+ExtF 67
+Cond 0
+Wear -1
+Lev  37
+Cost 1025
+Val  0 3 8 5 20
+Affc 'enchant weapon'   1  52  -1   5  19          0
+Affc 'enchant weapon'   0  52  -1   5  18          0
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Tikko~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Tikko~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Tikko~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Tikko~
+Name bag beta a {yZ{Ro{ym{Rb{yi{Re{x~
+ShD  a bag made from a {yZ{Ro{ym{Rb{yi{Re{x's hide~
+Desc A bag of fine a {yZ{Ro{ym{Rb{yi{Re{x hide catches your eye.  ~
+ExtF 0
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  18
+Cost 2750
+Val  550 1 -1 90 25
+End
+
+#O
+Vnum 17666
+Nest 0
+PrevOwner Tikko~
+Cond 0
+Wear 3
+Cost 0
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner Tikko~
+Cond 0
+Wear 2
+Cost 1280
+End
+
+#O
+Vnum 5944
+Enchanted
+Nest 0
+PrevOwner Tikko~
+ExtF 554173248
+Cond 0
+Wear 7
+Cost 500
+Affc 'reserved'   1  50  -1   1   2          0
+Affc 'reserved'   1  50  -1   3  18          0
+Affc 'reserved'   1  50  -1   4  27          0
+Affc 'enchant armor'   1  53  -1  -1  17          0
+End
+
+#O
+Vnum 10447
+Nest 0
+PrevOwner Tikko~
+Cond 0
+Wear 5
+Cost 13700
+End
+
+#O
+Vnum 18105
+Enchanted
+Nest 0
+PrevOwner Tikko~
+ExtF 323
+Cond 0
+Wear 11
+Lev  49
+Cost 4500
+Affc 'reserved'   1  46  -1  15  12          0
+Affc 'reserved'   1  46  -1  20  13          0
+Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1   1  19          0
+Affc 'enchant armor'   1  52  -1  -4  17          0
+End
+
+#O
+Vnum 18110
+Nest 0
+PrevOwner Tikko~
+Cond 0
+Wear 8
+Cost 2400
+End
+
+#O
+Vnum 6434
+Nest 0
+PrevOwner Tikko~
+Cond 0
+Wear 1
+Cost 5300
+End
+
+#O
+Vnum 8143
+Enchanted
+Nest 0
+PrevOwner Cresent~
+ExtF 579
+Cond 0
+Wear 16
+Lev  16
+Cost 360
+Val  2 1 3 11 144
+Affc 'enchant weapon'   1  53  -1  12  18          0
+Affc 'reserved'   1   4  -1  -1   4          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 1269
+Nest 0
+PrevOwner Tassy~
+Cond 0
+Wear -1
+Cost 0
+Val  2 1 9 18 207
+Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #END

@@ -3,19 +3,20 @@ Name Spinner~
 SurN Web~
 Id   1061371527
 Email (null)~
-LogO 1125656000
-Vers 31
+LogO 1340650630
+Vers 33
 LnD  A Gladiator~
-Prom (%h %m %v)[%X][{W%g.%s %n/%N %w{x][%a]%c[%r][%e] ~
+Prom [%h/%H %m/%M %v/%V][%g.%s][%w/%W][%X]%c[%r][%e]076 ~
 Race dragon~
 Outc 0
 RufT 0
-MatookT 0
+MatookT 101
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +28,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 288369 xochipili~
 Sac  300
 Sex  1
@@ -35,20 +40,20 @@ Node 0
 Cap 0
 Created 1061371682
 Glad 0 0 0 0 1 0
-LastHost 146.230.192.125~
+LastHost 41.240.95.228~
 Cla  14
 Kit myrmidon~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 465203
-Not  1114508190 1114508190 1114508190 1114508190 1114508190 1114508190 1114508190 1114508190 1114508190 1114508190
+Plyd 471685
+Not  1114508190 1114508190 1114508190 1326946454 1114508190 1114508190 1114508190 1320100637 1114508190 1114508190
 Scro 22
 Rank 0
 Room 3054
-HMV  1444 1444 535 535 835 835
-Gold 1100
-Silv 828
+HMV  1529 1564 535 535 835 835
+Gold 1105
+Silv 1417
 Exp  414268
 Act  CDEFGHIKMQS
 MHSF R
@@ -60,15 +65,17 @@ Icg 0
 Pnet ABCDEFGHI
 Pos  4
 Prac 36
-SkiP 138
-Save  -7
+Trai 9
+SkiP 142
+Save  -12
 Alig  -1000
-Hit   31
+Hit   36
 Dam   30
-SecHit   33
+SecHit   38
 SecDam   32
 ACs -29 -23 -29 8
-Attr 20 23 23 20 23 12 22 12
+Wimp  30
+Attr 20 23 23 20 23 11 14 12
 AMod 2 2 0 2 2 0 0 0
 Pass SpdbfRIog/Fyo~
 Titl  {RThe{x web {BSpinner{x~
@@ -76,7 +83,7 @@ Pnts 89
 TSex 1
 LLev 114
 HMVP 1349 467 835
-Cnd  0 0 28 8
+Cnd  0 0 35 22
 Alias kk who~
 Alias 1 c heal~
 Spz 'sword'
@@ -158,6 +165,9 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'nosferatu'
+Affc 'aid'   0  51  12 120  13          0
+Affc 'bless'   0  43  10  -5  24          0
+Affc 'bless'   0  38  10   5  18          0
 End
 
 #O
@@ -196,10 +206,10 @@ ExtF 262209
 Cond 0
 Wear 12
 Cost 0
-Affc 'enchant armor'   1  52  -1  -5  17          0
-Affc 'reserved'   1  50  -1   2   3          0
-Affc 'reserved'   1  50  -1   3   2          0
 Affc 'reserved'   1  50  -1  75  12          0
+Affc 'reserved'   1  50  -1   3   2          0
+Affc 'reserved'   1  50  -1   2   3          0
+Affc 'enchant armor'   1  52  -1  -5  17          0
 End
 
 #O
@@ -413,19 +423,6 @@ Spell 3 'detect hidden'
 End
 
 #O
-Vnum 3424
-Nest 1
-PrevOwner Spinner~
-Cond 0
-Wear -1
-Time 5
-Cost 0
-Spell 1 'colour spray'
-Spell 2 'create food'
-Spell 3 'magic missile'
-End
-
-#O
 Vnum 2436
 Nest 1
 PrevOwner Spinner~
@@ -448,12 +445,12 @@ Wear -1
 Lev  22
 Cost 0
 Val  2 3 5 2 2048
-Affc 'reserved'   1  18  -1  -1  32          0
-Affc 'reserved'   1  18  -1   1  30          0
-Affc 'reserved'   1  18  -1  -2  20          0
-Affc 'reserved'   1  18  -1   2  31          0
-Affc 'enchant weapon'   1  53  -1   4  19          0
 Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
+Affc 'reserved'   1  18  -1   2  31          0
+Affc 'reserved'   1  18  -1  -2  20          0
+Affc 'reserved'   1  18  -1   1  30          0
+Affc 'reserved'   1  18  -1  -1  32          0
 End
 
 #O
@@ -661,10 +658,410 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear 17
-Time 1656
+Time 1495
 Cost 450
 Spell 1 'detect magic'
 Spell 2 'detect invis'
+End
+
+#O
+Vnum 3000
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 75
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3350
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3353
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 3355
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 510
+End
+
+#O
+Vnum 3362
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 450
+End
+
+#O
+Vnum 3353
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 3350
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3357
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 450
+End
+
+#O
+Vnum 3355
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 510
+End
+
+#O
+Vnum 3350
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3357
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 450
+End
+
+#O
+Vnum 3353
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 3350
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 10320
+Enchanted
+Nest 0
+PrevOwner Kotoo~
+ExtF 0
+Cond 0
+Wear -1
+Cost 4750
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3350
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3359
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 450
+End
+
+#O
+Vnum 3363
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 390
+End
+
+#O
+Vnum 3353
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3350
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3353
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 3355
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 510
+End
+
+#O
+Vnum 3350
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3359
+Nest 0
+PrevOwner (null)~
+Damaged 49
+Cond 0
+Wear -1
+Cost 450
+End
+
+#O
+Vnum 3361
+Nest 0
+PrevOwner (null)~
+Damaged 52
+Cond 0
+Wear -1
+Cost 380
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3358
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 450
+End
+
+#O
+Vnum 3360
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 450
+End
+
+#O
+Vnum 3364
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 3350
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 11310
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 100
 End
 
 #END

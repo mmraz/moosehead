@@ -1,0 +1,119 @@
+#AREA
+../newareas/karag1.are~
+karag1~
+{ All }         karag1~
+15500 15503
+
+#MOBILES
+#15500
+Sexy Lady~
+Karag's Sexy Lady~
+A lasher woman stands here looking sexy.
+~
+A beautiful lasher woman stands here, she glances about the stalks off 
+around the room flashing her long legs.
+~
+lasher~
+Oh Karag, youre so Seeexy !~
+Oh Karag you are sooo Sexy !~
+Well... dont just stand there !~
+AT a -1000 0
+5 0 2d6+60 5d10+0 1d6+1 scratch
+-5 -5 -5 -5
+BEFNU B A 0
+stand stand female 100
+Y 0 medium 0
+F aff T
+F res HJ
+F vul N
+F par GHIJK
+#0
+
+#OBJECTS
+#15500
+Lava Lamp~
+A {GGreen{x Lava Lamp~
+a {GGreen{x Lava Lamp stands here, wax blooping up and down~
+Glass~
+light ASY A
+0 0 0 0 0
+5 10 400 P
+A
+12 20
+#0
+
+#ROOMS
+#15500
+The South Gate of Northtown~
+You have left the dirt road and continue your way to the South gate of
+Northtown on a well-kept cobbled road. Massive white walls stretch to
+either side of you, broken by the great iron gates up ahead. A bell 
+sounds somewhere behind the walls and the gates begin to slide open with
+ease, allowing you entrance into the trade city of Northtown.
+~
+0 C 10
+D0
+Exit ~
+door~
+16384 0 15501
+S
+#15501
+The Cobbled Road Beneath the Great Gates~
+Torches line the walls, allowing you to make your way under the great walls
+of Northtown. You emerge out into the open expanse of the gate district.
+Two guard posts lie to either side of you. The cobbled road continues north.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 15502
+D2
+Exit ~
+door~
+16384 0 15500
+D3
+Exit ~
+door~
+16384 0 15503
+S
+#15502
+A Guardhouse~
+You enter a squat stone guardhouse set against the great southern wall.
+Guardsmen mill about on their various tasks. A dark wooden desk stands in 
+the centre of the room, a man seated behind it, pouring over a dissorganised
+array of documents. The only exit lies back to the west.
+~
+0 D 1
+D3
+Exit ~
+door~
+16384 0 15501
+S
+#15503
+A Guardhouse~
+You enter a squat guardhouse set against the great southern wall. Guardsmen
+mill about on various tasks. A small jail has been built against the
+western wall. The jail is big enough to fit about two men, and is obviously
+used for temporary prisoners, awaiting transfer to a bigger prison. The
+only other exit leads back east.
+~
+0 D 1
+D1
+Exit ~
+door~
+16384 0 15501
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 15500 spec_average        	* Karag's Sexy Lady
+S
+
+#$

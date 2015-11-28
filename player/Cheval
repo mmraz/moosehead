@@ -3,9 +3,9 @@ Name Cheval~
 SurN MonSieur~
 Id   1126086900
 Email (null)~
-LogO 1128517588
-Vers 31
-Prom %hHp %mMn %vMv %XXp {Y%g{C%sAg{x %XXp Exit:%e%c:> ~
+LogO 1352396966
+Vers 33
+Prom %h.%HH %m.%MM %v.%VV %XX {Y%g{C%s{x %XX Exit:%e%c> ~
 Race dragon~
 Clan newbie~
 Outc 0
@@ -16,6 +16,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -27,6 +28,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 Sac  600
 Sex  1
@@ -35,46 +40,47 @@ Node 0
 Cap 0
 Created 1126086919
 Glad 0 0 0 0 0 0
-LastHost 47.141.hiper0-nic0.std.dialup.ncf.ca~
+LastHost 99.246.162.7~
 Cla  5
 ClaO 3
 Levl 10
 DLevl 0
-Plyd 17189
-Not  1128056162 1128056162 1128056162 1128056162 1128056162 1128503091 1128056162 1128056162 1128056162 1128056162
-Scro 22
+Plyd 17930
+Not  1351756075 1128056162 1128056162 1349834978 1128056162 1351529652 1128056162 1352226681 1128056162 1352146418
+Scro 37
 Rank 0
 Room 3034
-HMV  186 186 74 146 145 268
-Gold 626
-Silv 17614
-Exp  196031
+HMV  151 186 146 146 137 268
+Gold 631
+Silv 17636
+Exp  196707
 Act  CDEFGHKQ
 MHSF R
 AfBy JT
 Comm GIT
-Disp BFIJN
+Disp BCFIJN
 IcgB 0
 Icg 0
 Pos  8
-Prac 24
+Prac 25
+Trai 8
 SkiP 8
-Save  -4
-Alig  -1000
-Hit   7
+Save  2
+Alig  -886
+Hit   1
 Dam   -1
-SecHit   7
-ACs 50 48 48 65
+SecHit   1
+ACs 70 68 68 85
 Wimp  20
-Attr 20 18 20 17 21 13 20 13
-AMod 8 8 7 2 2 0 0 0
+Attr 20 18 20 17 21 11 14 13
+AMod 4 8 7 2 2 0 0 0
 Pass ChQj942wLBAO.~
 Titl  is an Iiiidjit~
 Pnts 119
 TSex 1
 LLev 4
 HMVP 181 146 168
-Cnd  0 0 27 6
+Cnd  0 48 48 48
 Alias k kill~
 Alias 2 dirt~
 Alias 3 c 'cure lig'~
@@ -91,7 +97,6 @@ Sk 1 'cause critical'
 Sk 75 'cause light'
 Sk 75 'cause serious'
 Sk 1 'change sex'
-Sk 1 'cone of silence'
 Sk 75 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -189,11 +194,11 @@ Sk 1 'turn undead'
 Sk 1 'withstand death'
 Sk 1 'wound transfer'
 Sk 22 'flail'
-Sk 29 'mace'
+Sk 32 'mace'
 Sk 86 'sword'
 Sk 23 'dirt kicking'
 Sk 1 'dodge'
-Sk 20 'enhanced damage'
+Sk 22 'enhanced damage'
 Sk 18 'hand to hand'
 Sk 29 'shield block'
 Sk 50 'scan'
@@ -223,10 +228,6 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-Affc 'armor'   0  43   8 -20  17          0
-Affc 'giant strength'   0  45  15   4   1          0
-Affc 'bless'   0  43   5  -6  24          0
-Affc 'bless'   0  37   5   6  18          0
 End
 
 #O
@@ -246,21 +247,6 @@ Cond 0
 Wear -1
 Cost 0
 Val  100 1 0 10 85
-End
-
-#O
-Vnum 5933
-Enchanted
-Nest 1
-PrevOwner Cheval~
-ExtF 66
-Cond 0
-Wear -1
-Lev  10
-Cost 0
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'reserved'   1   1  -1   1   3          0
 End
 
 #O
@@ -286,7 +272,7 @@ Vnum 3726
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
 Val  100 1 0 10 85
 End
@@ -332,7 +318,7 @@ Vnum 3726
 Nest 0
 PrevOwner Cheval~
 Cond 0
-Wear -1
+Wear 12
 Cost 0
 Val  100 1 0 10 85
 End
@@ -347,9 +333,9 @@ Cond 0
 Wear -1
 Lev  5
 Cost 4000
-Affc 'reserved'   1   1  -1   1   4          0
-Affc 'enchant weapon'   1  53  -1   4  19          0
 Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
+Affc 'reserved'   1   1  -1   1   4          0
 End
 
 #O
@@ -371,9 +357,9 @@ Cond 0
 Wear -1
 Lev  5
 Cost 500
-Affc 'reserved'   1   1  -1   1   4          0
-Affc 'enchant weapon'   1  53  -1   4  19          0
 Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
+Affc 'reserved'   1   1  -1   1   4          0
 End
 
 #O
@@ -598,13 +584,13 @@ Enchanted
 Nest 1
 PrevOwner Cheval~
 ExtF 1048642
-Stolen 31
+Stolen 12
 Cond 0
 Wear -1
 Lev  5
 Cost 360
-Affc 'enchant weapon'   1  53  -1   4  19          0
 Affc 'enchant weapon'   1  53  -1   5  18          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
 End
 
 #O
@@ -641,6 +627,21 @@ PrevOwner Cheval~
 Cond 0
 Wear -1
 Cost 550
+End
+
+#O
+Vnum 5933
+Enchanted
+Nest 1
+PrevOwner Cheval~
+ExtF 66
+Cond 0
+Wear -1
+Lev  10
+Cost 0
+Affc 'reserved'   1   1  -1   1   3          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
@@ -709,9 +710,9 @@ Cond 0
 Wear 7
 Lev  6
 Cost 670
-Affc 'enchant armor'   1  53  -1  -4  17          0
-Affc 'reserved'   1   3  -1   2  20          0
 Affc 'reserved'   1   3  -1   1   1          0
+Affc 'reserved'   1   3  -1   2  20          0
+Affc 'enchant armor'   1  53  -1  -4  17          0
 End
 
 #O
@@ -724,9 +725,9 @@ Cond 0
 Wear 5
 Lev  5
 Cost 0
-Affc 'enchant armor'   1  53  -1  -4  17          0
-Affc 'reserved'   1   2  -1   1   1          0
 Affc 'reserved'   1   2  -1   1   5          0
+Affc 'reserved'   1   2  -1   1   1          0
+Affc 'enchant armor'   1  53  -1  -4  17          0
 End
 
 #O
@@ -739,8 +740,8 @@ Cond 0
 Wear 8
 Lev  3
 Cost 0
-Affc 'enchant armor'   1  53  -1  -3  17          0
 Affc 'reserved'   1   0  -1 100  14          0
+Affc 'enchant armor'   1  53  -1  -3  17          0
 End
 
 #O
@@ -753,8 +754,8 @@ Cond 0
 Wear 10
 Lev  10
 Cost 0
-Affc 'enchant armor'   1  53  -1  -2  17          0
 Affc 'reserved'   1   8  -1   1  18          0
+Affc 'enchant armor'   1  53  -1  -2  17          0
 End
 
 #O
@@ -764,6 +765,15 @@ PrevOwner Cheval~
 Cond 0
 Wear 14
 Cost 112
+End
+
+#O
+Vnum 5252
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 590
 End
 
 #END

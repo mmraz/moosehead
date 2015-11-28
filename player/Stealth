@@ -3,17 +3,17 @@ Name Stealth~
 SurN Ravens~
 Id   1050134685
 Email (null)~
-LogO 1107807167
+LogO 1315514413
 Vers 31
 LnD  A Gladiator~
 Prom %h HP %m M %v MV {Y%g {W%s {x%w %X%c:%e: ~
 Race dragon~
 Clan zealot~
 Outc 0
-RufT 0
+RufT 443
 MatookT 0
-SkPTimer 0
-SkPTracker 0
+SkPTimer 2
+SkPTracker 2
 LogoutTracker 0
 Kill 0 0 1 2
 Steal 0 0 0
@@ -21,13 +21,16 @@ LstK Stryg~
 LstKBy Mystik~
 LstAtkedBy no one~
 LstAtkedByTimer 0
-LstCombatDate 1101458765
+LstCombatDate 1308935200
 LstKillDate 1051083475
 LstDeathDate 1101458911
-LoginsWOKill 12
-LoginsWODeath 8
-LoginsWOCombat 7
+LoginsWOKill 16
+LoginsWODeath 12
+LoginsWOCombat 1
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 0 almighty~
 DeityT -790 mojo~
 Sac  300
@@ -37,55 +40,56 @@ Node 0
 Cap 0
 Created 1050134922
 Glad 0 0 0 0 1 0
-LastHost MMCDIV.dsl.saunalahti.fi~
+LastHost 84.231.179.199~
 Cla  4
 ClaO 2
-Levl 31
+Levl 32
 DLevl 0
-Plyd 92565
-Not  1107807096 1107807096 1107807096 1107807096 1107807096 1107807096 1107807096 1107807096 1107807096 1107807096
+Plyd 98726
+Not  1315512493 1315512493 1315512493 1315512493 1315512493 1315512493 1315512493 1315512493 1315512493 1315512493
 Scro 22
 Rank 2
 Room 31806
-HMV  544 544 281 281 308 308
-Gold 814
-Silv 11446
-Exp  313088
+HMV  554 563 155 285 230 324
+Gold 26
+Silv 55
+Exp  323104
 Act  BCDGHKQRS
 MHSF R
-AfBy JT
+AfBy DEFJPT
 Comm 0
 Disp FIJN
 IcgB 0
 Icg 0
+Wizn W
 Pnet ABCDEFGHI
 Pos  8
-Prac 2
-SkiP 12
+Prac 7
+SkiP 53
 Save  2
-Alig  -996
+Alig  -1000
 Hit   12
 Dam   21
 SecHit   11
 SecDam   20
-ACs -215 -215 -215 -215
+ACs -275 -275 -275 -275
 Wimp  20
-Attr 23 24 25 21 25 15 15 12
+Attr 25 25 25 21 25 11 14 15
 AMod 3 -1 0 5 1 0 0 0
 Pass Stq/znLS9wVqo~
 Titl  everything that doesn't kill you hurts alot~
 Pnts 100
 TSex 1
-LLev 24
-HMVP 554 281 308
-Cnd  0 0 32 16
+LLev 27
+HMVP 573 285 324
+Cnd  0 0 18 24
 Alias 1 backstab~
-Alias r cast 'word of recall'~
 Alias 2 dbite~
 Alias 0 get hammer~
 Alias 9 wield hammer~
 Alias 3 tail~
 Alias t c 'teleport' self~
+Alias recall cast 'word of recall'~
 Sk 75 'annointment'
 Sk 75 'cure blindness'
 Sk 76 'cure critical'
@@ -120,9 +124,9 @@ Sk 100 'enhanced damage'
 Sk 78 'hand to hand'
 Sk 96 'parry'
 Sk 77 'shield block'
-Sk 79 'scan'
-Sk 97 'second attack'
-Sk 83 'third attack'
+Sk 86 'scan'
+Sk 100 'second attack'
+Sk 86 'third attack'
 Sk 75 'hide'
 Sk 71 'peek'
 Sk 78 'sneak'
@@ -138,6 +142,13 @@ Gr 'curative'
 Gr 'draconian'
 Gr 'healing'
 Gr 'transportation'
+Affc 'detect hidden'   0   9   9   0   0         32
+Affc 'detect magic'   0  10   8   0   0         16
+Affc 'detect invis'   0  10   9   0   0          8
+Affc 'sneak'   0  32  30   0   0      32768
+Affc 'armor'   0  33  18 -20  17          0
+Affc 'stone skin'   0  33  21 -40  17          0
+Affc 'clarity'   0  44   2   0   0          0
 End
 
 #O
@@ -592,26 +603,6 @@ Spell 1 'haste'
 End
 
 #O
-Vnum 9573
-Nest 1
-PrevOwner Stealth~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
-Vnum 9573
-Nest 1
-PrevOwner Stealth~
-Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
-End
-
-#O
 Vnum 22044
 Nest 1
 PrevOwner Stealth~
@@ -642,30 +633,6 @@ Spell 3 'detect hidden'
 End
 
 #O
-Vnum 3092
-Nest 1
-PrevOwner Stealth~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
-Vnum 3092
-Nest 1
-PrevOwner Stealth~
-Cond 0
-Wear -1
-Cost 290
-Spell 1 'detect invis'
-Spell 2 'detect magic'
-Spell 3 'detect hidden'
-End
-
-#O
 Vnum 22044
 Nest 1
 PrevOwner Stealth~
@@ -693,13 +660,27 @@ Cost 1000
 End
 
 #O
-Vnum 9573
+Vnum 3082
 Nest 1
 PrevOwner Stealth~
 Cond 0
 Wear -1
-Cost 820
-Spell 1 'haste'
+Cost 1800
+Spell 1 'sanctuary'
+Spell 2 'stone skin'
+Spell 3 'armor'
+End
+
+#O
+Vnum 3082
+Nest 1
+PrevOwner Stealth~
+Cond 0
+Wear -1
+Cost 1800
+Spell 1 'sanctuary'
+Spell 2 'stone skin'
+Spell 3 'armor'
 End
 
 #O
@@ -844,7 +825,7 @@ PrevOwner Stealth~
 Cond 0
 Wear -1
 Cost 24
-Val  64 0 0 0 0
+Val  64 64 10 0 0
 End
 
 #O
@@ -934,17 +915,6 @@ Cost 0
 End
 
 #O
-Vnum 9571
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 950
-Spell 1 'stone skin'
-Spell 2 'blindness'
-End
-
-#O
 Vnum 753
 Nest 0
 PrevOwner Stealth~
@@ -962,10 +932,22 @@ Cost 0
 End
 
 #O
+Vnum 3092
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
 Vnum 10452
 Nest 0
 PrevOwner Stealth~
-Stolen 247
+Stolen 477
 Cond 0
 Wear 16
 Cost 0

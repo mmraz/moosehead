@@ -2,18 +2,20 @@
 Name Socrates~
 Id   949967456
 Email (null)~
-LogO 1100231540
-Vers 31
+LogO 1320203873
+Vers 32
 Prom <%hhp %mm %vmv %Xexp> ~
 Race faerie~
+Clan loner~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 3
-SkPTracker 12
+SkPTimer 2
+SkPTracker 5
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -21,10 +23,14 @@ LstAtkedByTimer 0
 LstCombatDate 1018385234
 LstKillDate 1018385234
 LstDeathDate 1018385234
-LoginsWOKill 0
-LoginsWODeath 0
-LoginsWOCombat 0
+LoginsWOKill 10
+LoginsWODeath 10
+LoginsWOCombat 10
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 365964 mojo~
 DeityT -1042 mojo~
 Sac  300
@@ -34,55 +40,54 @@ Node 0
 Cap 0
 Created 951447927
 Glad 0 0 0 0 0 0
-LastHost CPE-65-31-195-196.neb.rr.com~
+LastHost 70.74.94.173~
 Cla  11
 Kit alchemist~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 532101
-Not  968027061 954366984 0 967920829 968097373 967918326 952628003 968052211 0 0
+Plyd 538542
+Not  968027061 954366984 0 1307292613 968097373 1307063022 952628003 1307284241 0 0
 Scro 22
 Rank 0
-Room 3014
-HMV  974 974 1237 1237 404 404
-Gold 462
-Silv 1920
+Room 1215
+HMV  939 949 1237 1237 404 404
+Gold 17
+Silv 95
 Exp  101202
 Act  CDEGHIMQ
 MHSF R
-AfBy DFJT
+AfBy DFHJT
 Comm G
 Disp BFIJN
 IcgB 0
 Icg 0
-Pos  4
+Pos  8
 Prac 2
-Trai 3
-SkiP 100
+Trai 8
+SkiP 108
 Alig  -1000
 Hit   19
 Dam   23
 SecHit   8
 SecDam   12
-ACs -8 -8 -1 41
+ACs 28 28 33 65
 Wimp  15
-Attr 13 24 23 20 13 15 13 13
-AMod 0 5 5 4 -1 0 0 0
-Pass So7Q0cw5E5sQw~
-Titl  wishes he was a clanner.~
+Attr 13 24 23 20 13 17 8 13
+AMod 4 7 7 4 -1 0 0 0
+Pass SozE8KtjUZB9.~
+Titl  your private enchanter, enchanter for money!~
 Pnts 53
 TSex 1
 LLev 111
 HMVP 614 1107 404
-Cnd  0 19 28 28
+Cnd  0 0 4 4
 Alias 1 c 'dispel magic'~
 Alias x c 'enchant weapon'~
 Alias gg c acid~
 Alias 0 order all rescue socrates~
 Alias make c 'create fountain'~
 Alias z c 'enchant armor'~
-Alias 9 order all rescue methias~
 Sk 100 'acid blast'
 OldSk 1 'acid blast'
 Sk 81 'armor'
@@ -163,7 +168,7 @@ Sk 75 'fly'
 OldSk 1 'fly'
 Sk 1 'forget'
 OldSk 1 'forget'
-Sk 79 'fumble'
+Sk 80 'fumble'
 OldSk 1 'fumble'
 Sk 95 'gate'
 OldSk 1 'gate'
@@ -225,7 +230,7 @@ Sk 77 'stone skin'
 OldSk 1 'stone skin'
 Sk 97 'summon'
 OldSk 1 'summon'
-Sk 82 'teleport'
+Sk 84 'teleport'
 OldSk 1 'teleport'
 Sk 75 'ventriloquate'
 OldSk 1 'ventriloquate'
@@ -233,7 +238,7 @@ Sk 75 'warp'
 OldSk 1 'warp'
 Sk 75 'weaken'
 OldSk 1 'weaken'
-Sk 87 'word of recall'
+Sk 91 'word of recall'
 OldSk 61 'word of recall'
 Sk 75 'animate dead'
 OldSk 1 'animate dead'
@@ -260,7 +265,7 @@ OldSk 1 'enhanced damage'
 OldSk 1 'hand to hand'
 Sk 100 'parry'
 OldSk 1 'parry'
-Sk 83 'scan'
+Sk 86 'scan'
 OldSk 75 'scan'
 OldSk 1 'second attack'
 Sk 80 'alchemy'
@@ -277,7 +282,6 @@ Sk 62 'swimming'
 OldSk 50 'swimming'
 Sk 50 'recall'
 OldSk 50 'recall'
-Sk 1 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'beguiling'
@@ -292,7 +296,8 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'nosferatu'
-Affc 'shield'   0  45   1 -20  17          0
+Affc 'giant strength'   0  44  31   4   1          0
+Affc 'sanctuary'   0  53   0   0   0        128
 End
 
 #O
@@ -322,9 +327,9 @@ PrevOwner (null)~
 Cond 0
 Wear 9
 Cost 5500
-Affc 'reserved'   1  41  -1  20  13          0
-Affc 'reserved'   1  41  -1  25  12          0
 Affc 'reserved'   1  41  -1  -1   5          0
+Affc 'reserved'   1  41  -1  25  12          0
+Affc 'reserved'   1  41  -1  20  13          0
 End
 
 #O
@@ -332,7 +337,7 @@ Vnum 18419
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear 6
+Wear -1
 Cost 400
 End
 
@@ -413,33 +418,12 @@ Cost 800
 End
 
 #O
-Vnum 30039
-Nest 1
-PrevOwner Socrates~
-Cond 0
-Wear -1
-Cost 1700
-Spell 1 'bless'
-Spell 2 'giant strength'
-Spell 3 'frenzy'
-End
-
-#O
 Vnum 23129
 Nest 1
 PrevOwner Socrates~
 Cond 0
 Wear -1
 Cost 10000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Socrates~
-Cond 0
-Wear -1
-Cost 5000
 End
 
 #O
@@ -499,7 +483,7 @@ Nest 1
 PrevOwner Socrates~
 Cond 0
 Wear -1
-Time 1999
+Time 1838
 Cost 2500
 Spell 1 'cure critical'
 Spell 2 'cure critical'
@@ -511,42 +495,22 @@ Nest 1
 PrevOwner Socrates~
 Cond 0
 Wear -1
-Time 1137
+Time 976
 Cost 2500
 Spell 1 'cure critical'
 Spell 2 'cure critical'
 End
 
 #O
-Vnum 10419
+Vnum 30039
 Nest 1
 PrevOwner Socrates~
 Cond 0
 Wear -1
-Cost 1330
-End
-
-#O
-Vnum 10427
-Enchanted
-Nest 1
-PrevOwner Socrates~
-Cond 0
-Wear -1
-Cost 11800
-Affc 'enchant weapon'   0  53  -1   2  18          0
-Affc 'enchant weapon'   1  53  -1   2  19          0
-Affc 'reserved'   1  50  -1   1   3          0
-Affc 'reserved'   1  50  -1   1   2          0
-End
-
-#O
-Vnum 10415
-Nest 1
-PrevOwner Socrates~
-Cond 0
-Wear -1
-Cost 5400
+Cost 1700
+Spell 1 'bless'
+Spell 2 'giant strength'
+Spell 3 'frenzy'
 End
 
 #O
@@ -575,8 +539,8 @@ PrevOwner (null)~
 Cond 0
 Wear 10
 Cost 900
-Affc 'reserved'   1  40  -1   2   2          0
 Affc 'reserved'   1  40  -1  20  13          0
+Affc 'reserved'   1  40  -1   2   2          0
 End
 
 #O
@@ -631,14 +595,13 @@ Nest 0
 PrevOwner Socrates~
 ShD  {Ga bloody {Dblack{G and {gGREEN{G talon{x ~
 ExtF 83
-Stolen 141
 Cond 0
 Wear 16
 Lev  50
 Cost 5400
-Affc 'reserved'   1  46  -1  25  12          0
-Affc 'enchant weapon'   1  56  -1  11  19          0
 Affc 'enchant weapon'   0  56  -1  11  18          0
+Affc 'enchant weapon'   1  56  -1  11  19          0
+Affc 'reserved'   1  46  -1  25  12          0
 End
 
 #O
@@ -671,6 +634,84 @@ Cond 0
 Wear -1
 Cost 0
 Spell 1 'animate dead'
+End
+
+#O
+Vnum 6504
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 880
+End
+
+#O
+Vnum 8053
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 8014
+Enchanted
+Nest 0
+PrevOwner (null)~
+ExtF 66
+Cond 0
+Wear -1
+Lev  31
+Cost 1700
+Affc 'enchant weapon'   0  53  -1   5  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Socrates~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10424
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 6
+Cost 5500
+End
+
+#O
+Vnum 10419
+Enchanted
+Nest 0
+PrevOwner Socrates~
+ExtF 64
+Cond 0
+Wear -1
+Lev  50
+Cost 665
+Affc 'enchant weapon'   1  53  -1   1  19          0
+Affc 'enchant weapon'   0  53  -1   1  18          0
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 0
+PrevOwner (null)~
+ExtF 323
+Cond 0
+Wear -1
+Lev  48
+Cost 4500
+Affc 'enchant weapon'   1  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   5  19          0
 End
 
 #END

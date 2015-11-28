@@ -1,0 +1,2404 @@
+#AREA
+../newareas/newbie_t.are~
+Newbie School of Cunning~
+Newbie School of Cunning~
+14200 14290
+
+#MOBILES
+#14200
+Newbie Rogue~
+the newbie rogue~
+The newbie rogue is here trying to blend in with his surroundings.
+~
+You can sure tell that he is a newbie. He's still trying to learn how to blend
+in to his surroundings. Watch it though, you can't tell if he has the stealing
+part down or not.
+ 
+~
+kender~
+~
+(null)~
+(null)~
+ABGHU 0 0 0
+2 0 1d1+9 1d1+99 0d0+0 stab
+10 10 10 10
+PU AB 0 C
+stand stand male 100
+0 0 medium 0
+F res E
+F vul IL
+F for H
+F par GHIJK
+#14201
+Newbie Assassin~
+the newbie assassin~
+The newbie assassin is trying to sneak up behind you, whats that he has in his hand?
+~
+You can sure tell that he is a newbie. He's still trying to learn how to blend
+in to his surroundings. Watch it though, you can't tell if he has the stealing
+part down or not.
+ 
+~
+kender~
+(null)~
+(null)~
+(null)~
+ABGHU 0 0 0
+2 0 1d1+9 1d1+99 0d0+0 stab
+10 10 10 10
+PU AB 0 C
+stand stand male 0
+0 0 medium 0
+F res E
+F vul IL
+F for H
+F par GHIJK
+#14202
+Newbie Thief~
+the newbie thief~
+The newbie thief is trying his best to see what is in your pocket without you seeing him.
+~
+Standing before you is a skiddish looking kender, you can tell by the look
+on his face this is the first time he has attempted to steal anything. He 
+is trying his best to see what you have in your pockets without you knowing
+what he is attempting to do, to bad you can clearly tell.
+ 
+~
+kender~
+(null)~
+(null)~
+(null)~
+ABGHU 0 0 0
+2 0 1d1+9 1d1+99 0d0+0 stab
+10 10 10 10
+PU AB 0 C
+stand stand male 0
+0 0 medium 0
+F res E
+F vul IL
+F for H
+F par GHIJK
+#14203
+generic mob~
+Generic short description~
+Generic long description~
+Generic description.~
+human~
+(null)~
+(null)~
+(null)~
+AT 0 0 0
+1 1 0d0+0 0d0+0 0d0+0 slice
+0 0 0 0
+EFNU 0 0 0
+stand stand none 0
+0 0 medium 0
+F par GHIJK
+#0
+
+#OBJECTS
+#14200
+Potion of Quake~
+Potion of Quake~
+There is a potion of quake bouncing around on the ground here.~
+Earth~
+potion BERTWd A
+3 'earthquake' '' '' ''
+10 100 3000 P
+#14201
+Assassin Portal~
+the assassin school portal~
+A Shining portal leading to Assassin School~
+Light~
+portal AORd 0
+0 0 0 14232 0
+0 10000 0 P
+#14202
+Thief Portal~
+the thief school portal~
+A Shining portal leading to Thief school~
+(null)~
+portal AORd 0
+0 0 0 14207 0
+0 10000 0 P
+#14203
+generic object~
+Generic Short Description~
+Generic Description~
+~
+none 0 A
+0 0 0 0 0
+0 100 0 P
+#14204
+Thief Portal~
+the thief school portal~
+A Shining portal leading to Thief school~
+~
+none 0 A
+0 0 0 0 0
+0 10000 0 P
+#0
+
+#ROOMS
+#14200
+Entrance to the {GForest{x of {DShadows{x~
+As you walk down this dark and winding road, you can still hear the faint
+echo's of the busy city in the far distance. Looking ahead you see 2 large oak
+trees on either side of the trail you are on. Nailed to each of the trees are
+worn and tattered signs.
+ 
+Looking ahead of you the trail seems to disappear just past the 2 giant oaks,
+kinda makes you wonder what lies ahead of you.
+ 
+~
+0 C 0
+D1
+Exit ~
+door~
+16384 0 14201
+D2
+Exit ~
+door~
+16384 0 14285
+E
+Sign~
+Holding your light up to the sign you can barely make out the words on the sign
+warning you to stay to the path and watch out for.... (The rest of the sign
+seems to be missing from both signs in the same part)
+ 
+~
+S
+#14201
+Path in the {DDark {GForest~
+As you take a few steps down the trail your light seems to grow dim and you 
+can barely see more than a few steps in front of you. As you light dims 
+your other senses seem to perk up some and you could swear that you hear 
+soft foot steps all around you. Not only do you think you hear footsteps 
+but you could swear that you feel something bumping softly into you, but as
+you reach out you feel nothing but air.
+ 
+You nearly fall into a hole covered by fallen tree branches and dead
+leaves. Almost looks like an entrance of some sort.
+~
+0 0 0
+H 150 M 150
+D0
+Exit ~
+door~
+16384 0 14220
+D1
+Exit ~
+door~
+16384 0 14202
+D2
+Exit ~
+door~
+16384 0 14208
+D3
+Exit ~
+door~
+16384 0 14200
+D5
+Exit ~
+door~
+16384 0 14231
+S
+#14202
+Path in the {DDark {GForest~
+This path has widened a bit here.  You hear the scurry of insects on the
+ground and the shrieking sound of a dying rabbit in the distance.  Your
+father warned you about places such as these, but still you travel on. 
+Clenching your weapon, you prepare for the worst and pray that you find
+the end before something finds you!
+ 
+~
+0 A 0
+H 150 M 150
+D0
+Exit ~
+door~
+16384 0 14221
+D1
+Exit ~
+door~
+16384 0 14203
+D2
+Exit ~
+door~
+16384 0 14209
+D3
+Exit ~
+door~
+16384 0 14201
+S
+#14203
+Path in the {DDark {GForest~
+This path has widened a bit here.  You hear the scurry of insects on the
+ground and the shrieking sound of a dying rabbit in the distance.  Your
+father warned you about places such as these, but still you travel on. 
+Clenching your weapon, you prepare for the worst and pray that you find
+the end before something finds you!
+ 
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 14222
+D1
+Exit ~
+door~
+16384 0 14204
+D2
+Exit ~
+door~
+16384 0 14210
+D3
+Exit ~
+door~
+16384 0 14202
+S
+#14204
+Path in the {DDark {GForest~
+You trip over a skeleton laying in the middle of the path.  You ask 
+yourself "Where in the hell did that come from?".  Upon further inspection 
+you see that the skull has been crushed and the leg bones have been gnawed 
+upon by some wild animal.  You also notice that there is an eerie light 
+ahead of you... could this be the exit?
+ 
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 14223
+D1
+Exit ~
+door~
+16384 0 14205
+D2
+Exit ~
+door~
+16384 0 14211
+D3
+Exit ~
+door~
+16384 0 14203
+S
+#14205
+Path in the {DDark {GForest~
+Breaking through the trees and stuff at the end of the path you come to an
+open spot in the trees. It seems to be a perfect circle cut out of the trees
+and branches above. There is an old run down shack right in the middle of the
+clearing, seems to be where who or whatever was using the path's destination.
+ 
+You notice that all the windows seem to be boarded up letting no light out
+or any peering eyes access inside. 
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 14224
+D1
+Exit ~
+door~
+16384 0 14286
+D2
+Exit ~
+door~
+16384 0 14212
+D3
+Exit ~
+door~
+16384 0 14204
+D5
+Exit ~
+door~
+16384 0 14225
+S
+#14206
+Path in the {DDark {GForest~
+Generic room description.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 14225
+D3
+Exit ~
+door~
+16384 0 14213
+S
+#14207
+Down the Dusty Trail~
+Stepping outside the cathedral you look around and all you see is a wide
+open plain with a dusty trail cutting down the middle of it.
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 14232
+S
+#14208
+Away from the path...~
+You've decided to be a little adventurous and wander off to see what else 
+is lurking here.  The forest floor feels as if it's coming alive as mice 
+and rabbits run away in fear.  Could they be running from you or from 
+something bigger?  Either way it becomes apparent that you don't need to 
+stay here longer than you have to.
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14201
+D1
+Exit ~
+door~
+16384 0 14209
+D2
+Exit ~
+door~
+16384 0 14214
+S
+#14209
+Away from the path...~
+You've decided to be a little adventurous and wander off to see what else 
+is lurking here.  The forest floor feels as if it's coming alive as mice 
+and rabbits run away in fear.  Could they be running from you or from 
+something bigger?  Either way it becomes apparent that you don't need to 
+stay here longer than you have to.
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14202
+D1
+Exit ~
+door~
+16384 0 14210
+D2
+Exit ~
+door~
+16384 0 14215
+D3
+Exit ~
+door~
+16384 0 14208
+S
+#14210
+Away from the path...~
+You've decided to be a little adventurous and wander off to see what else 
+is lurking here.  The forest floor feels as if it's coming alive as mice 
+and rabbits run away in fear.  Could they be running from you or from 
+something bigger?  Either way it becomes apparent that you don't need to 
+stay here longer than you have to.
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14203
+D1
+Exit ~
+door~
+16384 0 14211
+D2
+Exit ~
+door~
+16384 0 14216
+D3
+Exit ~
+door~
+16384 0 14209
+S
+#14211
+Away from the path...~
+You've decided to be a little adventurous and wander off to see what else 
+is lurking here.  The forest floor feels as if it's coming alive as mice 
+and rabbits run away in fear.  Could they be running from you or from 
+something bigger?  Either way it becomes apparent that you don't need to 
+stay here longer than you have to.
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14204
+D1
+Exit ~
+door~
+16384 0 14212
+D2
+Exit ~
+door~
+16384 0 14217
+D3
+Exit ~
+door~
+16384 0 14210
+S
+#14212
+Away from the path...~
+You've decided to be a little adventurous and wander off to see what else 
+is lurking here.  The forest floor feels as if it's coming alive as mice 
+and rabbits run away in fear.  Could they be running from you or from 
+something bigger?  Either way it becomes apparent that you don't need to 
+stay here longer than you have to.
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14205
+D1
+Exit ~
+door~
+16384 0 14235
+D2
+Exit ~
+door~
+16384 0 14218
+D3
+Exit ~
+door~
+16384 0 14211
+S
+#14213
+Generic room name~
+Generic room description.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 14206
+D3
+Exit ~
+door~
+16384 0 14219
+S
+#14214
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14208
+D1
+Exit ~
+door~
+16384 0 14215
+S
+#14215
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14209
+D1
+Exit ~
+door~
+16384 0 14216
+D3
+Exit ~
+door~
+16384 0 14214
+S
+#14216
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14210
+D1
+Exit ~
+door~
+16384 0 14217
+D3
+Exit ~
+door~
+16384 0 14215
+S
+#14217
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14211
+D1
+Exit ~
+door~
+16384 0 14218
+D3
+Exit ~
+door~
+16384 0 14216
+S
+#14218
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14212
+D1
+Exit ~
+door~
+16384 0 14234
+D3
+Exit ~
+door~
+16384 0 14217
+S
+#14219
+Generic room name~
+Generic room description.
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 14213
+D3
+Exit ~
+door~
+16384 0 14231
+S
+#14220
+Away from the path...~
+You've decided to be a little adventurous and wander off to see what else 
+is lurking here.  The forest floor feels as if it's coming alive as mice 
+and rabbits run away in fear.  Could they be running from you or from 
+something bigger?  Either way it becomes apparent that you don't need to 
+stay here longer than you have to.
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14226
+D1
+Exit ~
+door~
+16384 0 14221
+D2
+Exit ~
+door~
+16384 0 14201
+S
+#14221
+Away from the path...~
+You've decided to be a little adventurous and wander off to see what else 
+is lurking here.  The forest floor feels as if it's coming alive as mice 
+and rabbits run away in fear.  Could they be running from you or from 
+something bigger?  Either way it becomes apparent that you don't need to 
+stay here longer than you have to.
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14227
+D1
+Exit ~
+door~
+16384 0 14222
+D2
+Exit ~
+door~
+16384 0 14202
+D3
+Exit ~
+door~
+16384 0 14220
+S
+#14222
+Away from the path...~
+You've decided to be a little adventurous and wander off to see what else 
+is lurking here.  The forest floor feels as if it's coming alive as mice 
+and rabbits run away in fear.  Could they be running from you or from 
+something bigger?  Either way it becomes apparent that you don't need to 
+stay here longer than you have to.
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14228
+D1
+Exit ~
+door~
+16384 0 14223
+D2
+Exit ~
+door~
+16384 0 14203
+D3
+Exit ~
+door~
+16384 0 14221
+S
+#14223
+Away from the path...~
+You've decided to be a little adventurous and wander off to see what else 
+is lurking here.  The forest floor feels as if it's coming alive as mice 
+and rabbits run away in fear.  Could they be running from you or from 
+something bigger?  Either way it becomes apparent that you don't need to 
+stay here longer than you have to.
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14229
+D1
+Exit ~
+door~
+16384 0 14224
+D2
+Exit ~
+door~
+16384 0 14204
+D3
+Exit ~
+door~
+16384 0 14222
+S
+#14224
+Away from the path...~
+You've decided to be a little adventurous and wander off to see what else 
+is lurking here.  The forest floor feels as if it's coming alive as mice 
+and rabbits run away in fear.  Could they be running from you or from 
+something bigger?  Either way it becomes apparent that you don't need to 
+stay here longer than you have to.
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14230
+D1
+Exit ~
+door~
+16384 0 14237
+D2
+Exit ~
+door~
+16384 0 14205
+D3
+Exit ~
+door~
+16384 0 14223
+S
+#14225
+Generic room name~
+Generic room description.
+~
+0 AD 0
+D3
+Exit ~
+door~
+16384 0 14206
+D4
+Exit ~
+door~
+16384 0 14205
+S
+#14226
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D1
+Exit ~
+door~
+16384 0 14227
+D2
+Exit ~
+door~
+16384 0 14220
+S
+#14227
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D1
+Exit ~
+door~
+16384 0 14228
+D2
+Exit ~
+door~
+16384 0 14221
+D3
+Exit ~
+door~
+16384 0 14226
+S
+#14228
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D1
+Exit ~
+door~
+16384 0 14229
+D2
+Exit ~
+door~
+16384 0 14222
+D3
+Exit ~
+door~
+16384 0 14227
+S
+#14229
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D1
+Exit ~
+door~
+16384 0 14230
+D2
+Exit ~
+door~
+16384 0 14223
+D3
+Exit ~
+door~
+16384 0 14228
+S
+#14230
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D1
+Exit ~
+door~
+16384 0 14238
+D2
+Exit ~
+door~
+16384 0 14224
+D3
+Exit ~
+door~
+16384 0 14229
+E
+6~
+~
+S
+#14231
+Inside the hole~
+~
+0 AD 0
+D1
+Exit ~
+door~
+16384 0 14219
+S
+#14232
+Down the Dusty Trail~
+Walking down the trail that seems to stretch out for miles ahead of you 
+start to wonder if you're lost.
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 14233
+D2
+Exit ~
+door~
+16384 0 14207
+S
+#14233
+Down the Dusty Trail~
+Ahead the trail seems to make a sharp turn in front of an old run down
+building. Perhaps its time to stop and check out the building for a while
+or continue on down the trail that leads to right into town.
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 14244
+D2
+Exit ~
+door~
+16384 0 14232
+S
+#14234
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14235
+D1
+Exit ~
+door~
+16384 0 14239
+D3
+Exit ~
+door~
+16384 0 14218
+S
+#14235
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14236
+D1
+Exit ~
+door~
+16384 0 14240
+D2
+Exit ~
+door~
+16384 0 14234
+D3
+Exit ~
+door~
+16384 0 14212
+S
+#14236
+Away from the path...~
+You've decided to be a little adventurous and wander off to see what else 
+is lurking here.  The forest floor feels as if it's coming alive as mice 
+and rabbits run away in fear.  Could they be running from you or from 
+something bigger?  Either way it becomes apparent that you don't need to 
+stay here longer than you have to.
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14237
+D1
+Exit ~
+door~
+16384 0 14241
+D2
+Exit ~
+door~
+16384 0 14235
+D3
+Exit ~
+door~
+16384 0 14205
+S
+#14237
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14238
+D1
+Exit ~
+door~
+16384 0 14242
+D2
+Exit ~
+door~
+16384 0 14236
+D3
+Exit ~
+door~
+16384 0 14224
+S
+#14238
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D1
+Exit ~
+door~
+16384 0 14243
+D2
+Exit ~
+door~
+16384 0 14237
+D3
+Exit ~
+door~
+16384 0 14230
+S
+#14239
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14240
+D3
+Exit ~
+door~
+16384 0 14234
+S
+#14240
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14241
+D2
+Exit ~
+door~
+16384 0 14239
+D3
+Exit ~
+door~
+16384 0 14235
+S
+#14241
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14242
+D2
+Exit ~
+door~
+16384 0 14240
+D3
+Exit ~
+door~
+16384 0 14236
+S
+#14242
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D0
+Exit ~
+door~
+16384 0 14243
+D2
+Exit ~
+door~
+16384 0 14241
+D3
+Exit ~
+door~
+16384 0 14237
+S
+#14243
+Deep in the {GForest{x of {DShadows~
+You are either foolish, brave, or just plain mad to wander this far away 
+from the beaten path.  You hear the sounds of the creatures that the 
+animals were running away from and they sound hungry!  How do you plan to 
+fight what you cannot see unless it's on top of you ready to tear your 
+throat out?  There is only one way to find out...
+~
+0 A 0
+D2
+Exit ~
+door~
+16384 0 14242
+D3
+Exit ~
+door~
+16384 0 14238
+S
+#14244
+Standing Outside~
+You finally reach what looks to be a run down building out in the middle of 
+nowhere. There seems to be patches of the roof missing, the windows are all 
+busted out. The top portion of the chimney is lying in a pile of rubble 
+next to the building. Surely this can't be your destination.
+~
+0 C 0
+D2
+Exit ~
+door~
+16384 0 14233
+D3
+Exit ~
+door~
+16384 0 14245
+S
+#14245
+Inside the Doorway~
+Upon stepping inside the run down building, the door slams shut. A long
+hallway leads off the west, there doesn't seem to be any light inside
+other than the light from the elegant brass sconces that line the walls.
+~
+0 CD 0
+D3
+Exit ~
+door~
+16384 0 14246
+S
+#14246
+Heading down a Dark Hallway~
+Taking a few steps down the hallway, the light from the flames in the
+sconces start to flicker and cast errie shadows donw the hallway ahead.
+There is no evidence that anyone has been here before, at least not for quite
+some time.
+~
+0 CD 0
+D1
+Exit ~
+door~
+16384 0 14245
+D3
+Exit ~
+door~
+16384 0 14247
+S
+#14247
+Dark Hallway~
+Walking further down the hallway there seem to be footsteps in the dust on
+the floor. The footsteps look fairly fresh, and lead off farther down the
+hallway into the shadowy darkness.
+~
+0 CD 0
+D1
+Exit ~
+door~
+16384 0 14246
+D3
+Exit ~
+door~
+16384 0 14248
+S
+#14248
+Dark Intersection~
+The footsteps that led into this room seem to disappear into nothing. The
+brass sconces seem to lead down the northern path even though both exits
+seem to lead to dead ends.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14249
+D1
+Exit ~
+door~
+16384 0 14247
+D2
+Exit ~
+door~
+16384 0 14250
+S
+#14249
+Dead End in the Hallway~
+Looking around the hallway seems to have came to a dead end in this room.
+The brass sconces on the wall light up the room well, and the only thing out
+of the ordinary about this room is the metal grate covering over half of the
+floor. Upon closer investigation the grate looks as if though it has been
+moved recently.
+~
+0 CD 0
+D2
+Exit ~
+door~
+16384 0 14248
+D5
+Exit ~
+door~
+16384 0 14251
+S
+#14250
+Dead End in the Hallway~
+Looking around the hallway seems to have came to a dead end in this room.
+The brass sconces on the wall light up the room well, and the only thing out
+of the ordinary about this room is the metal grate covering over half of the
+floor.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14248
+S
+#14251
+Room under the Grate~
+You climb your way down the ladder and once your feet are safely on the 
+floor you see that the walls in this room are completely smooth. The ladder 
+seems to be connected to thin air, making you not want to attempt to go 
+back up. There is an arched doorway leading to the north.
+~
+0 ADJN 0
+H 200 M 200
+D0
+Exit ~
+door~
+16384 0 14252
+S
+#14252
+An odd Intersection~
+After following the pipes from the arched doorway you come to this odd 
+looking intersection of pipes. You seem to be in one of the oldest parts of 
+Boinga as the pipes looks more like stone tunnels, or could it be that this 
+is a passageway of some sort. You see a well worn path leading north from 
+here, perhaps you should go that way.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14253
+D2
+Exit ~
+door~
+16384 0 14251
+S
+#14253
+Standing on a Ledge~
+You seem to have stumbled out on to what seems to be a ledge, looking down 
+you see what you think could be a path, it looks like it leads off into 
+total darkness.
+~
+0 CD 0
+D2
+Exit ~
+door~
+16384 0 14252
+D5
+Exit ~
+door~
+16384 0 14254
+S
+#14254
+The Wall of the Abyss~
+You hang onto some steps leading down into utter darkness. There's an exit
+leading back up the way you came, but you see no point in going somewhere
+that you have already been.
+~
+0 AD 0
+D4
+Exit ~
+door~
+16384 0 14253
+D5
+Exit ~
+door~
+16384 0 14255
+S
+#14255
+On the Wall of the Abyss~
+You are clutching the steps on the wall so you don't fall into the darkness
+below. The wall to the west of you is oddly-shaped, with a vaguely oval 
+shape shimmering over its surface. Reaching out to touch the oval it seems 
+to be where an exit once was but its frozen solid now.
+~
+0 AD 0
+D4
+Exit ~
+door~
+16384 0 14254
+D5
+Exit ~
+door~
+16384 0 14256
+S
+#14256
+On the Wall of the Abyss~
+Continuing on down the steps you seem to go deeper and deeper into the 
+darkness. You seem to be going nowhere, but somewhere all at the same time.
+Suddenly you notice another shimmering portal on the northern wall, you 
+reach out to touch this one and to your surprise you hand seem to go 
+through.
+~
+0 AD 0
+D0
+Exit ~
+door~
+16384 0 14257
+D4
+Exit ~
+door~
+16384 0 14255
+S
+#14257
+Entranceway to the Training Ground of the Avarice Guild~
+As you walk through the doors the blinding light from rows of brass colored 
+sconces surround you and seem to lead you down the path before you. The 
+doorway behind you seems to disappear into nothingness further more leading
+you ahead. Two rows of elaborate marble columns support the ceiling in
+this Entry way. You can tell this entrance was cut into the Wall of the
+Abyss.
+ 
+Walking down the path you see statues of long forgotten members of the 
+Avarice guild. Looking around you can tell this was once one of the most 
+prosperous Guilds in all of Boinga.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 14258
+S
+#14258
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss. 
+ 
+Statues of past members line the halls, and upon further inspection you 
+notice there is no dust on any of them as if they are protected by magic.
+~
+0 CD 0
+H 200 M 200
+D0
+Exit ~
+door~
+16384 0 14259
+D1
+Exit ~
+door~
+16384 0 14257
+S
+#14259
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss.
+ 
+There is an elegant arched doorway leading to the east here. There is a 
+gold plaque hanging on the wall next to the doorway.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14261
+D1
+Exit ~
+door~
+16384 0 14260
+D2
+Exit ~
+door~
+16384 0 14258
+E
+plaque1~
+The Art of Taking What you want
+~
+S
+#14260
+The Art of Taking What you want~
+The walls of this room are lined with stacks of gold coins that seem to be 
+magically sealed in place. This seems to be a training room of sorts, 
+perhaps this is the room where all the great thieves before you trained and 
+perfected their skills. There seem to be a few chairs left in this room 
+pointing towards the plaque on the wall.
+ 
+ 
+Hanging on the eastern wall you see a large golden plaque with something 
+that seems to be important wrote on it.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 14259
+E
+plaque2~
+* * * * * * * The Art of Taking What you want * * * * * * * 
+ 
+This art is also known as the skill steal. With steal you can attempt to 
+steal coins or an object from other players or non player characters 
+(Mobs).
+ 
+Stealing from players:
+*Steal works better when you have higher Dex that the person you are 
+trying to steal from up to a max of 25.
+ 
+*You can steal anything you can find in the other players inventory, 
+unless it's linked to them, or is cursed and cannot be dropped.
+ 
+*You can also target coins on the other players, this will allow you to 
+steal some of the gold and silver they are carrying on them.
+ 
+*With the addition of tribute to Boinga, thieves have learned the 
+ability to steal tribute from other players as well. There is a slight 
+lag on this though, and you are only allowed to steal up to 15% of what 
+the player is allowed to donate per level.
+ 
+*Also remember if at any time you are caught stealing from another 
+player you will be branded with a ({RTf{x) flag, which will make guards
+not like you very well.
+ 
+ 
+Stealing from non player characters (Mobs)
+*You can steal anything a mob has in its inventory as long as it's not 
+cursed, you can also steal coins from mobs. Be prepared to fight if you 
+fail a steal though.
+~
+S
+#14261
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss.
+ 
+There is an elegant arched doorway leading to the west here. There is a
+gold plaque hanging on the wall next to the doorway.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14263
+D2
+Exit ~
+door~
+16384 0 14259
+D3
+Exit ~
+door~
+16384 0 14262
+E
+plaque3~
+The Art of Violating Privacy 
+~
+S
+#14262
+The Art of Violating Privacy~
+The walls of this room are lined with stacks of gold coins that seem to be 
+magically sealed in place. This seems to be a training room of sorts, 
+perhaps this is the room where all the great thieves before you trained and 
+perfected their skills. There seem to be a few chairs left in this room 
+pointing towards the plaque on the wall.
+ 
+Hanging on the western wall you see a large golden plaque with something 
+that seems to be important wrote on it.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 14261
+E
+plaque4~
+* * * * * * * The Art of Violating Privacy * * * * * * *
+ 
+This Art is commonly known as Peek. With this skill you can peek mobs as 
+well as players to see what they are carrying allowing you use the previous 
+skill steal to take what you want. The higher the Int of the player your 
+peeking the higher the chance of you failing a peek, letting the player 
+know that your are out and about and trying to violate their privacy. Any 
+class can learn peek, but thieves like you seem to be better at it, and 
+find more uses for it.
+~
+S
+#14263
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss.
+ 
+There is an elegant arched doorway leading to the east here. There is a 
+gold plaque hanging on the wall next to the doorway.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14265
+D1
+Exit ~
+door~
+16384 0 14264
+D2
+Exit ~
+door~
+16384 0 14261
+E
+plaque5~
+The Art of Entering and Exiting any Room Unnoticed
+~
+S
+#14264
+The Art of Entering and Exiting any Room Unnoticed~
+The walls of this room are lined with stacks of gold coins that seem to be 
+magically sealed in place. This seems to be a training room of sorts, 
+perhaps this is the room where all the great thieves before you trained and 
+perfected their skills. There seem to be a few chairs left in this room 
+pointing towards the plaque on the wall.
+ 
+Hanging on the eastern wall you see a large golden plaque with something
+that seems to be important wrote on it.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 14263
+E
+plaque6~
+* * * * * The Art of Entering and Exiting any Room Unnoticed * * * * *
+ 
+This art can also be explained as being able to sneak in and out of rooms,
+even past mobs. This skill has a low chance of success towards being not 
+seen by players. The detect hidden skill will show you quite often. Rogues, 
+thieves and Assassins are the only classes that will remain sneaking after 
+combat, other classes will have to sneak after combat. While you are 
+sneaking you can enter and exit any room without the other players in the 
+room being notified of your presence.
+~
+S
+#14265
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss.
+ 
+There is an elegant arched doorway leading to the west here. There is a
+gold plaque hanging on the wall next to the doorway.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14267
+D2
+Exit ~
+door~
+16384 0 14263
+D3
+Exit ~
+door~
+16384 0 14266
+E
+plaque7~
+The Art of Blending into the Shadows
+~
+S
+#14266
+The Art of Blending into the Shadows~
+The walls of this room are lined with stacks of gold coins that seem to be 
+magically sealed in place. This seems to be a training room of sorts, 
+perhaps this is the room where all the great thieves before you trained and
+perfected their skills. There seem to be a few chairs left in this room
+pointing towards the plaque on the wall.
+ 
+Hanging on the western wall you see a large golden plaque with something 
+that seems to be important wrote on it.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 14265
+E
+plaque8~
+* * * * * * * The Art of Blending into the Shadows * * * * * * *
+ 
+The art of blending into the shadows is commonly known as the hide skill. 
+Using hide you have a high chance of being undetected in a room or area as 
+long as you remain stationary. Any movement aside from scan, look and peek 
+will break your hide and you can be seen then. Players with detect hidden 
+affect on the, will also have a chance at seeing you either by looking in 
+the room your in, or scanning you in the area.
+~
+S
+#14267
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss.
+ 
+There is an elegant arched doorway leading to the east here. There is a 
+gold plaque hanging on the wall next to the doorway.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14269
+D1
+Exit ~
+door~
+16384 0 14268
+D2
+Exit ~
+door~
+16384 0 14265
+E
+plaque9~
+The Art The Surprise Attack
+~
+S
+#14268
+The Art The Surprise Attack~
+The walls of this room are lined with stacks of gold coins that seem to be 
+magically sealed in place. This seems to be a training room of sorts, 
+perhaps this is the room where all the great thieves before you trained and
+perfected their skills. There seem to be a few chairs left in this room
+pointing towards the plaque on the wall.
+ 
+Hanging on the western wall you see a large golden plaque with something 
+that seems to be important wrote on it.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 14267
+E
+plaque10~
+* * * * * * * The Art of the Surprise Attack * * * * * * *
+ 
+The surprise attack or better known as backstab, is a powerful opening 
+attack favoured by thieves. It can also be used in battle up the point your 
+enemy hits big nasty wounds. It can be used with any weapon type, but is 
+most effective with piercing weapons. The amount of damage that a thief 
+will inflict with an opening backstab or one used in combat is determined 
+by the attacker's level, the attacker's weapon and backstab skill, and the 
+power of the attackers opponent.
+~
+S
+#14269
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss.
+ 
+There is an elegant arched doorway leading to the west here. There is a
+gold plaque hanging on the wall next to the doorway.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14271
+D2
+Exit ~
+door~
+16384 0 14267
+D3
+Exit ~
+door~
+16384 0 14270
+E
+plaque11~
+The Art Crippling your Enemy
+~
+S
+#14270
+The Art Crippling your Enemy~
+The walls of this room are lined with stacks of gold coins that seem to be 
+magically sealed in place. This seems to be a training room of sorts, 
+perhaps this is the room where all the great thieves before you trained and 
+perfected their skills. There seem to be a few chairs left in this room 
+pointing towards the plaque on the wall.
+ 
+Hanging on the western wall you see a large golden plaque with something
+that seems to be important wrote on it.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 14269
+E
+plaque12~
+* * * * * * * The Art Crippling your Enemy * * * * * * *
+ 
+This art is also knows as Hamstring. Hamstring is a specialized opening 
+move for Rogues, Thieves, and assassins.  Hamstring does not require any 
+special weaponry, and it can in fact be performed using only one's bare 
+hands. When successful, hamstring costs the victim moves, some DEXTERITY, 
+and applies the slow flag.  Hamstring will also strip haste if it's there.
+ 
+A hamstrung victim will occasionally have trouble when moving from room to 
+room. Having high strength and constitution not only reduces this problem,
+but helps to avoid getting hamstrung in the first place.  Hamstrings
+impressive array of debilitative affects are countered by its short 
+duration and the fact that it cannot be used in combat, meaning the thief 
+must give up an opening backstab to use this skill.
+~
+S
+#14271
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss.
+ 
+There is an elegant arched doorway leading to the east here. There is a 
+gold plaque hanging on the wall next to the doorway.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14273
+D1
+Exit ~
+door~
+16384 0 14272
+D2
+Exit ~
+door~
+16384 0 14269
+E
+plaque13~
+The Art of Poisoning your Enemy
+~
+S
+#14272
+The Art of Poisoning your Enemy~
+The walls of this room are lined with stacks of gold coins that seem to be 
+magically sealed in place. This seems to be a training room of sorts, 
+perhaps this is the room where all the great thieves before you trained and 
+perfected their skills. There seem to be a few chairs left in this room 
+pointing towards the plaque on the wall.
+ 
+Hanging on the eastern wall you see a large golden plaque with something 
+that seems to be important wrote on it.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 14271
+E
+plaque14~
+* * * * * * * The Art of Poisoning your Enemy * * * * * * *
+ 
+This art is also called envenom, this skill can be use to poison food, 
+drinks and even weapons. This skill is designed to win a battle through 
+alchemy and treachery rather than with brute strength. Poisoned food and 
+drink puts a milk poison spell on the consumer, and is unlikely to be more 
+than a minor inconvenience due to the fact that the typical adventurer 
+could drink the water you walked through to get to this place and have only 
+a slight trace of the runs. To poison a weapon is has to have a blade and 
+on an opponent as the poison burns through their bloodstream. The poison on 
+the blade evaporates very quickly during combat.
+~
+S
+#14273
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss.
+ 
+There is an elegant arched doorway leading to the west here. There is a
+gold plaque hanging on the wall next to the doorway.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14275
+D2
+Exit ~
+door~
+16384 0 14271
+D3
+Exit ~
+door~
+16384 0 14274
+E
+plaque15~
+The Art of Bypassing Locks
+~
+S
+#14274
+The Art of Bypassing Locks~
+The walls of this room are lined with stacks of gold coins that seem to be 
+magically sealed in place. This seems to be a training room of sorts, 
+perhaps this is the room where all the great thieves before you trained and 
+perfected their skills. There seem to be a few chairs left in this room 
+pointing towards the plaque on the wall.
+ 
+Hanging on the western wall you see a large golden plaque with something 
+that seems to be important wrote on it.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 14273
+E
+plaque16~
+* * * * * * * The Art of Bypassing Locks * * * * * * *
+ 
+Bypassing locks is possible due to the lock pick skill. Lock picking is one 
+of the prime skills of thieves, allowing them to gain access to many 
+secured areas.  Lock picking chances are improved by intelligence, and 
+hindered by the difficulty of the lock. Other classes may learn to pick 
+locks, but they will never find it easy. Not all doors can be picked but 
+the largest majority of them can.
+~
+S
+#14275
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss.
+ 
+There is an elegant arched doorway leading to the east here. There is a 
+gold plaque hanging on the wall next to the doorway.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14276
+D1
+Exit ~
+door~
+16384 0 14279
+D2
+Exit ~
+door~
+16384 0 14273
+E
+plaque17~
+The Art of Understanding your Items
+~
+S
+#14276
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss.
+ 
+There is an elegant arched doorway leading to the west here. There is a
+gold plaque hanging on the wall next to the doorway.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16384 0 14277
+D2
+Exit ~
+door~
+16384 0 14275
+D3
+Exit ~
+door~
+16384 0 14280
+E
+plaque18~
+The Art of Getting More for your Money
+~
+S
+#14277
+A Glittering Hallway~
+The flecks of pure gold embedded in the polished granite walls sparkle by 
+the light coming from the rows of gold sconces that line the hallway. Your 
+footsteps echo further down into the Abyss.
+ 
+Having finished all the classes the only thing that could lay ahead would be
+the training yards and combat area to test all your new found skills.
+~
+0 CD 0
+D2
+Exit ~
+door~
+16384 0 14276
+D3
+Exit ~
+door~
+16384 0 14278
+E
+plaque~
+The Art of Getting More for your Money
+~
+S
+#14278
+Final Days~
+If you have came this far, lets hope that you are ready to use your skills
+and find out how they can be used in the real world. From now on you will
+be trained on most of your skills available to you. How you use them is
+left up to you of course.
+ 
+To your north you see a solid oak door. No way to go around it or through it
+how will you get out of this place?
+~
+0 D 0
+D0
+Exit ~
+door~
+16455 0 14281
+D1
+Exit ~
+door~
+16384 0 14277
+S
+#14279
+The Art of Understanding your Items~
+The walls of this room are lined with stacks of gold coins that seem to be 
+magically sealed in place. This seems to be a training room of sorts, 
+perhaps this is the room where all the great thieves before you trained and 
+perfected their skills. There seem to be a few chairs left in this room 
+pointing towards the plaque on the wall.
+ 
+Hanging on the eastern wall you see a large golden plaque with something 
+that seems to be important wrote on it.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 14275
+E
+plaque17~
+* * * * * * * The Art of Understanding your Items * * * * * * *
+ 
+In order to help thieves understand the world around them, they have access 
+to the lore skill. This skill uses the knowledge of myths and legends to 
+obtain information on weapons, armor, and other objects. There is also a 
+chance of it increasing the value of the object, because you know more 
+about its worth. You use this skill by looking at the item that you want to 
+understand. Although all classes can learn the lore skill, thieves are by 
+far the best at it, and warriors find it very hard to use.
+~
+S
+#14280
+The Art of Getting More for your Money ~
+The walls of this room are lined with stacks of gold coins that seem to be 
+magically sealed in place. This seems to be a training room of sorts, 
+perhaps this is the room where all the great thieves before you trained and 
+perfected their skills. There seem to be a few chairs left in this room 
+pointing towards the plaque on the wall.
+ 
+Hanging on the western wall you see a large golden plaque with something 
+that seems to be important wrote on it.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 14276
+E
+plaque25~
+* * * * * * * The Art of Getting More for your Money * * * * * * *
+ 
+Haggling is an indispensable skill to the trader.  It allows a character to 
+match wits with a merchant, seeking to get a better price for merchandise, 
+or to buy at the lowest possible cost.  Unfortunately, most merchants are 
+already very skilled at haggling, so the untrained adventurer had best 
+guard his treasure closely. Thieves are natural masters at haggling, 
+although other classes may learn it as well.
+~
+S
+#14281
+Outside The School~
+Now that the boring part is behind you, and you have somewhat already learned
+to put your new found skills to the test in the real world. There is a heavily
+worn path leading off towards the west, and a not so worn path leading off
+towards the north.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 14283
+D2
+Exit ~
+door~
+16455 0 14278
+D3
+Exit ~
+door~
+16384 0 14282
+E
+l~
+Generic extended description.
+~
+S
+#14282
+Heavily Travelled Path~
+Heading on west down the dirt trail, noticing how heavily travelled this road
+seems to be, even though the bushes and trees on each side are heavily
+overygrown and almost reach out into the street.
+ 
+Looking towards the north you see the lights of what seens to be a very
+osperous city.
+~
+0 0 0
+D1
+Exit ~
+door~
+16384 0 14281
+D3
+Exit ~
+door~
+16384 0 14284
+S
+#14283
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 14281
+S
+#14284
+Heavily Travelled Path~
+As you walk down the path the tree branches start scrapping your face, and
+the path seems to narrow more and more the farther you get down the path.
+There seems to be a bend up ahead, as the path starts leading off to the south
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 14285
+D1
+Exit ~
+door~
+16384 0 14282
+S
+#14285
+Heading into the Forest~
+The path seems to lead into a dark forest ahead of you, though narrower the
+path seems to still be heavily travelled and only cleared out throughly up
+to about 4 feet tall.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 14200
+D2
+Exit ~
+door~
+16384 0 14284
+S
+#14286
+Inside the Shack~
+Well looks like you made it inside the run down shack all in one piece, let's
+just hope that you didn't wake anyone inside, or catch the attention of anyone
+that could be nearby. Looking around the room you see all sorts of items that
+have been looted and stolen from the city and carted out here to be hidden.
+ 
+Doors seem to lead off in all directions from this main room.
+~
+0 D 0
+D0
+Exit ~
+door~
+16455 0 14288
+D1
+Exit ~
+door~
+16455 0 14289
+D2
+Exit ~
+door~
+16455 0 14287
+D3
+Exit ~
+door~
+16455 0 14205
+S
+#14287
+The Bedroom~
+As you find your way into this room of the house, there seems to more stuff
+stacked to the ceilings in places and other stuff scattered all over the
+floors. Crammed into one corner of the room is what once was a bed. The legs
+have been busted off of it. There are also reminants of what used to be a 
+chest or some other piece of furniture slammed into one of the walls.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 14286
+D1
+Exit ~
+door~
+16384 0 14290
+S
+#14288
+Generic room name~
+Generic room description.
+~
+0 0 0
+D2
+Exit ~
+door~
+16384 0 14286
+S
+#14289
+Generic room name~
+Generic room description.
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 14286
+S
+#14290
+Smaller Bedroom~
+Slipping through the door into what seems to be another messy bedroom you
+can't help but notice the rug in the middle of the floor, the only clean
+part of the entire bedroom. The floors are piled to whats left of the ceiling
+with boxes and other things that appear to be from stores located in the
+nearby city.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 14287
+S
+#0
+
+#RESETS
+O 0 14200 100 14250	* Potion of Quake
+D 0 14200   0 16384	* Entrance to the {GForest{x of {DShadows{x north
+D 0 14200   1 16384	* Entrance to the {GForest{x of {DShadows{x east
+D 0 14201   0 16384	* Path in the {DDark {GForest north
+D 0 14201   1 16384	* Path in the {DDark {GForest east
+D 0 14201   2 16384	* Path in the {DDark {GForest south
+D 0 14201   3 16384	* Path in the {DDark {GForest west
+D 0 14201   5 16384	* Path in the {DDark {GForest down
+D 0 14202   0 16384	* Path in the {DDark {GForest north
+D 0 14202   1 16384	* Path in the {DDark {GForest east
+D 0 14202   2 16384	* Path in the {DDark {GForest south
+D 0 14202   3 16384	* Path in the {DDark {GForest west
+D 0 14203   0 16384	* Path in the {DDark {GForest north
+D 0 14203   1 16384	* Path in the {DDark {GForest east
+D 0 14203   2 16384	* Path in the {DDark {GForest south
+D 0 14203   3 16384	* Path in the {DDark {GForest west
+D 0 14204   0 16384	* Path in the {DDark {GForest north
+D 0 14204   1 16384	* Path in the {DDark {GForest east
+D 0 14204   2 16384	* Path in the {DDark {GForest south
+D 0 14204   3 16384	* Path in the {DDark {GForest west
+D 0 14205   0 16384	* Path in the {DDark {GForest north
+D 0 14205   1 16384	* Path in the {DDark {GForest east
+D 0 14205   2 16384	* Path in the {DDark {GForest south
+D 0 14205   3 16384	* Path in the {DDark {GForest west
+D 0 14205   5 16384	* Path in the {DDark {GForest down
+D 0 14206   1 16384	* Path in the {DDark {GForest east
+D 0 14206   3 16384	* Path in the {DDark {GForest west
+D 0 14207   0 16384	* Down the Dusty Trail north
+D 0 14208   0 16384	* Away from the path... north
+D 0 14208   1 16384	* Away from the path... east
+D 0 14208   2 16384	* Away from the path... south
+D 0 14209   0 16384	* Away from the path... north
+D 0 14209   1 16384	* Away from the path... east
+D 0 14209   2 16384	* Away from the path... south
+D 0 14209   3 16384	* Away from the path... west
+D 0 14210   0 16384	* Away from the path... north
+D 0 14210   1 16384	* Away from the path... east
+D 0 14210   2 16384	* Away from the path... south
+D 0 14210   3 16384	* Away from the path... west
+D 0 14211   0 16384	* Away from the path... north
+D 0 14211   1 16384	* Away from the path... east
+D 0 14211   2 16384	* Away from the path... south
+D 0 14211   3 16384	* Away from the path... west
+D 0 14212   0 16384	* Away from the path... north
+D 0 14212   1 16384	* Away from the path... east
+D 0 14212   2 16384	* Away from the path... south
+D 0 14212   3 16384	* Away from the path... west
+D 0 14213   1 16384	* Generic room name east
+D 0 14213   3 16384	* Generic room name west
+D 0 14214   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14214   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14215   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14215   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14215   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14216   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14216   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14216   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14217   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14217   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14217   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14218   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14218   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14218   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14219   1 16384	* Generic room name east
+D 0 14219   3 16384	* Generic room name west
+D 0 14220   0 16384	* Away from the path... north
+D 0 14220   1 16384	* Away from the path... east
+D 0 14220   2 16384	* Away from the path... south
+D 0 14221   0 16384	* Away from the path... north
+D 0 14221   1 16384	* Away from the path... east
+D 0 14221   2 16384	* Away from the path... south
+D 0 14221   3 16384	* Away from the path... west
+D 0 14222   0 16384	* Away from the path... north
+D 0 14222   1 16384	* Away from the path... east
+D 0 14222   2 16384	* Away from the path... south
+D 0 14222   3 16384	* Away from the path... west
+D 0 14223   0 16384	* Away from the path... north
+D 0 14223   1 16384	* Away from the path... east
+D 0 14223   2 16384	* Away from the path... south
+D 0 14223   3 16384	* Away from the path... west
+D 0 14224   0 16384	* Away from the path... north
+D 0 14224   1 16384	* Away from the path... east
+D 0 14224   2 16384	* Away from the path... south
+D 0 14224   3 16384	* Away from the path... west
+D 0 14225   3 16384	* Generic room name west
+D 0 14225   4 16384	* Generic room name up
+D 0 14226   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14226   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14227   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14227   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14227   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14228   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14228   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14228   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14229   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14229   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14229   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14230   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14230   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14230   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14231   1 16384	* Inside the hole east
+D 0 14232   0 16384	* Down the Dusty Trail north
+D 0 14232   2 16384	* Down the Dusty Trail south
+D 0 14233   0 16384	* Down the Dusty Trail north
+D 0 14233   2 16384	* Down the Dusty Trail south
+D 0 14234   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14234   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14234   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14235   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14235   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14235   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14235   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14236   0 16384	* Away from the path... north
+D 0 14236   1 16384	* Away from the path... east
+D 0 14236   2 16384	* Away from the path... south
+D 0 14236   3 16384	* Away from the path... west
+D 0 14237   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14237   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14237   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14237   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14238   1 16384	* Deep in the {GForest{x of {DShadows east
+D 0 14238   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14238   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14239   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14239   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14240   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14240   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14240   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14241   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14241   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14241   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14242   0 16384	* Deep in the {GForest{x of {DShadows north
+D 0 14242   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14242   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14243   2 16384	* Deep in the {GForest{x of {DShadows south
+D 0 14243   3 16384	* Deep in the {GForest{x of {DShadows west
+D 0 14244   2 16384	* Standing Outside south
+D 0 14244   3 16384	* Standing Outside west
+D 0 14245   3 16384	* Inside the Doorway west
+D 0 14246   1 16384	* Heading down a Dark Hallway east
+D 0 14246   3 16384	* Heading down a Dark Hallway west
+D 0 14247   1 16384	* Dark Hallway east
+D 0 14247   3 16384	* Dark Hallway west
+D 0 14248   0 16384	* Dark Intersection north
+D 0 14248   1 16384	* Dark Intersection east
+D 0 14248   2 16384	* Dark Intersection south
+D 0 14249   2 16384	* Dead End in the Hallway south
+D 0 14249   5 16384	* Dead End in the Hallway down
+D 0 14250   0 16384	* Dead End in the Hallway north
+D 0 14251   0 16384	* Room under the Grate north
+D 0 14252   0 16384	* An odd Intersection north
+D 0 14252   2 16384	* An odd Intersection south
+D 0 14253   2 16384	* Standing on a Ledge south
+D 0 14253   5 16384	* Standing on a Ledge down
+D 0 14254   4 16384	* The Wall of the Abyss up
+D 0 14254   5 16384	* The Wall of the Abyss down
+D 0 14255   4 16384	* On the Wall of the Abyss up
+D 0 14255   5 16384	* On the Wall of the Abyss down
+D 0 14256   0 16384	* On the Wall of the Abyss north
+D 0 14256   4 16384	* On the Wall of the Abyss up
+D 0 14257   3 16384	* Entranceway to the Training Ground of the Avarice Guild west
+D 0 14258   0 16384	* A Glittering Hallway north
+D 0 14258   1 16384	* A Glittering Hallway east
+D 0 14259   0 16384	* A Glittering Hallway north
+D 0 14259   1 16384	* A Glittering Hallway east
+D 0 14259   2 16384	* A Glittering Hallway south
+D 0 14260   3 16384	* The Art of Taking What you want west
+D 0 14261   0 16384	* A Glittering Hallway north
+D 0 14261   2 16384	* A Glittering Hallway south
+D 0 14261   3 16384	* A Glittering Hallway west
+D 0 14262   1 16384	* The Art of Violating Privacy east
+D 0 14263   0 16384	* A Glittering Hallway north
+D 0 14263   1 16384	* A Glittering Hallway east
+D 0 14263   2 16384	* A Glittering Hallway south
+D 0 14264   3 16384	* The Art of Entering and Exiting any Room Unnoticed west
+D 0 14265   0 16384	* A Glittering Hallway north
+D 0 14265   2 16384	* A Glittering Hallway south
+D 0 14265   3 16384	* A Glittering Hallway west
+D 0 14266   1 16384	* The Art of Blending into the Shadows east
+D 0 14267   0 16384	* A Glittering Hallway north
+D 0 14267   1 16384	* A Glittering Hallway east
+D 0 14267   2 16384	* A Glittering Hallway south
+D 0 14268   3 16384	* The Art The Surprise Attack west
+D 0 14269   0 16384	* A Glittering Hallway north
+D 0 14269   2 16384	* A Glittering Hallway south
+D 0 14269   3 16384	* A Glittering Hallway west
+D 0 14270   1 16384	* The Art Crippling your Enemy east
+D 0 14271   0 16384	* A Glittering Hallway north
+D 0 14271   1 16384	* A Glittering Hallway east
+D 0 14271   2 16384	* A Glittering Hallway south
+D 0 14272   3 16384	* The Art of Poisoning your Enemy west
+D 0 14273   0 16384	* A Glittering Hallway north
+D 0 14273   2 16384	* A Glittering Hallway south
+D 0 14273   3 16384	* A Glittering Hallway west
+D 0 14274   1 16384	* The Art of Bypassing Locks east
+D 0 14275   0 16384	* A Glittering Hallway north
+D 0 14275   1 16384	* A Glittering Hallway east
+D 0 14275   2 16384	* A Glittering Hallway south
+D 0 14276   0 16384	* A Glittering Hallway north
+D 0 14276   2 16384	* A Glittering Hallway south
+D 0 14276   3 16384	* A Glittering Hallway west
+D 0 14277   2 16384	* A Glittering Hallway south
+D 0 14277   3 16384	* A Glittering Hallway west
+D 0 14278   0 16455	* Final Days north
+D 0 14278   1 16384	* Final Days east
+D 0 14279   3 16384	* The Art of Understanding your Items west
+D 0 14280   1 16384	* The Art of Getting More for your Money  east
+D 0 14281   0 16384	* Outside The School north
+D 0 14281   2 16455	* Outside The School south
+D 0 14281   3 16384	* Outside The School west
+D 0 14282   1 16384	* Heavily Travelled Path east
+D 0 14282   3 16384	* Heavily Travelled Path west
+D 0 14283   2 16384	* Generic room name south
+D 0 14284   1 16384	* Heavily Travelled Path east
+D 0 14284   2 16384	* Heavily Travelled Path south
+D 0 14285   0 16384	* Heading into the Forest north
+D 0 14285   2 16384	* Heading into the Forest south
+D 0 14286   0 16455	* Inside the Shack north
+D 0 14286   1 16455	* Inside the Shack east
+D 0 14286   2 16455	* Inside the Shack south
+D 0 14286   3 16455	* Inside the Shack west
+D 0 14287   0 16384	* The Bedroom north
+D 0 14287   1 16384	* The Bedroom east
+D 0 14288   2 16384	* Generic room name south
+D 0 14289   3 16384	* Generic room name west
+D 0 14290   3 16384	* Smaller Bedroom west
+S
+
+#SHOPS
+14203 11  0  0  0  0 	  10  10 	 0 24 	* Generic short description
+0
+
+#SPECIALS
+M 14200 spec_thief          	* the newbie rogue
+M 14201 spec_thief          	* the newbie assassin
+M 14202 spec_thief          	* the newbie thief
+S
+
+#$

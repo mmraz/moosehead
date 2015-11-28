@@ -2,19 +2,20 @@
 Name Lockra~
 Id   1013941419
 Email (null)~
-LogO 1045699138
-Vers 31
+LogO 1323463766
+Vers 33
 LnD  A Gladiator~
 Prom <%h Hp %m Mn %v Mv>%c<%XXp %SDp %gg %ss> ~
 Race human~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 8
+SkPTimer 2
+SkPTracker 7
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 xochipili~
 DeityT -649 xochipili~
 Sac  200
@@ -35,18 +40,18 @@ Node 0
 Cap 0
 Created 1013941427
 Glad 0 0 0 0 1 0
-LastHost 66.178.136.5~
+LastHost 76.105.134.175~
 Cla  10
 Kit summoner~
 ClaO 10
 Levl 20
 DLevl 0
-Plyd 27193
+Plyd 27208
 Not  1019645824 1019645824 1019645824 1019645824 1019645824 1019645824 1019645824 1019645824 1019645824 1019645824
 Scro 22
 Rank 0
 Room 3001
-HMV  276 276 11 302 69 169
+HMV  276 276 302 302 169 169
 Gold 36
 Silv 25
 Exp  50072
@@ -58,6 +63,7 @@ Disp BFGJN
 IcgB 0
 Icg 0
 Pos  8
+Trai 6
 SkiP 6
 Save  -2
 Alig  -1000
@@ -67,7 +73,7 @@ SecHit   1
 SecDam   1
 ACs 57 62 58 90
 Wimp  8
-Attr 18 21 18 16 18 13 13 17
+Attr 18 21 18 16 18 10 10 17
 AMod 10 3 4 7 3 0 0 0
 Pass Lo0gQEu1MEVvg~
 Titl  the Wanderer. *Not all Wanderer's are Lost*~
@@ -75,7 +81,7 @@ Pnts 65
 TSex 1
 LLev 6
 HMVP 246 302 169
-Cnd  0 0 12 23
+Cnd  0 0 11 22
 Sk 1 'acid blast'
 Sk 1 'asphyxiate'
 Sk 75 'bless'
@@ -145,10 +151,10 @@ Gr 'element energy'
 Gr 'element fire'
 Gr 'element spirit'
 Gr 'element water'
-Affc 'giant strength'   0  51  49   4   1          0
-Affc 'sanctuary'   0  53   3   0   0        128
-Affc 'haste'   0  50   8   4   2    2097152
-Affc 'blur'   0  52   5 -20  17          0
+Affc 'blur'   0  52   4 -20  17          0
+Affc 'haste'   0  49   7   4   2    2097152
+Affc 'sanctuary'   0  53   2   0   0        128
+Affc 'giant strength'   0  51  48   4   1          0
 End
 
 #O
@@ -436,8 +442,8 @@ Cond 0
 Wear 16
 Lev  17
 Cost 590
-Affc 'enchant weapon'   1  53  -1  10  19          0
 Affc 'enchant weapon'   1  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O

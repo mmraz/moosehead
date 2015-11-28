@@ -3,18 +3,19 @@ Name Dadboodrum~
 SurN Father~
 Id   1038076154
 Email (null)~
-LogO 1107406554
-Vers 31
+LogO 1358773882
+Vers 33
 Prom <%hhp %mm %vmv> {G*(%wWeight)*{x ->{Y%t:00{x<-(%X) ~
 Race rockbiter~
 Outc 0
 RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 1
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 110083 matook~
 DeityT -5066 matook~
 Sac  500
@@ -35,17 +40,17 @@ Node 0
 Cap 0
 Created 1038076181
 Glad 0 0 0 0 0 0
-LastHost 208.42.95.246~
+LastHost 99.241.52.126~
 Cla  12
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 220286
+Plyd 221755
 Not  1039796095 0 0 1034821889 0 0 0 1039645307 0 0
 Scro 22
 Rank 0
-Room 16503
+Room 30315
 HMV  1134 1134 1185 1185 286 286
 Gold 61
 Silv 137
@@ -58,8 +63,8 @@ Disp FGIJN
 IcgB 0
 Icg 0
 Pos  8
-Prac 9
-Trai 2
+Prac 10
+Trai 3
 SkiP 296
 Save  -4
 Alig  -1000
@@ -69,15 +74,15 @@ SecHit   22
 SecDam   32
 ACs -52 -46 -52 -19
 Wimp  30
-Attr 25 16 25 14 25 9 15 19
+Attr 25 16 25 14 25 8 15 19
 AMod 5 5 2 6 0 0 0 0
-Pass DayrN57Ehkezg~
+Pass Da8reJNiWlDCE~
 Titl  of Warboo and Vampoo husband of Momboo~
 Pnts 69
 TSex 1
 LLev 38
 HMVP 1074 937 251
-Cnd  0 0 48 0
+Cnd  0 12 48 18
 Alias c chant~
 Sk 75 'aid'
 Sk 80 'armor'
@@ -92,7 +97,6 @@ Sk 1 'cause critical'
 Sk 1 'cause light'
 Sk 1 'cause serious'
 Sk 1 'change sex'
-Sk 1 'cone of silence'
 Sk 78 'continual light'
 Sk 75 'control weather'
 Sk 75 'create food'
@@ -144,7 +148,7 @@ Sk 75 'heat metal'
 Sk 1 'hold person'
 Sk 75 'holy word'
 Sk 75 'hydrophilia'
-Sk 82 'identify'
+Sk 86 'identify'
 Sk 1 'knock'
 Sk 75 'know alignment'
 Sk 75 'lay on hands'
@@ -301,15 +305,6 @@ Cond 0
 Wear -1
 Cost 0
 Val  0 0 0 0 23567
-End
-
-#O
-Vnum 18106
-Nest 1
-PrevOwner Dadboodrum~
-Cond 0
-Wear -1
-Cost 4500
 End
 
 #O
@@ -534,16 +529,6 @@ PrevOwner Tommen~
 Cond 0
 Wear -1
 Cost 3300
-End
-
-#O
-Vnum 10448
-Nest 0
-PrevOwner Dadboodrum~
-Cond 0
-Wear -1
-Cost 6400
-Val  5 7 5 21 1024
 End
 
 #O
@@ -1158,6 +1143,64 @@ PrevOwner Dadboodrum~
 Cond 0
 Wear -1
 Cost 2500000
+End
+
+#O
+Vnum 18106
+Nest 0
+PrevOwner Dadboodrum~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 3377
+Nest 0
+PrevOwner Smyrgol~
+Name action figure shoggoth~
+ShD  a Shoggoth action figure~
+Desc Your favorite clanner is here in plastic glory.~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 20731
+Nest 0
+PrevOwner Stonedagger~
+Cond 0
+Wear -1
+Cost 6200
+Val  7 7 6 3 512
+End
+
+#O
+Vnum 28005
+Enchanted
+Nest 0
+PrevOwner Smyrgol~
+Name white dragons tooth~
+ShD  {WA White Dragon's {YTooth{x~
+Desc The tooth of a {WWhite Dragon{x lies here, waiting to be used by its master.~
+ExtF 99
+Cond 0
+Wear -1
+Cost 5000
+Val  2 5 8 11 6
+Affc 'enchant weapon'   1  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 10320
+Nest 0
+PrevOwner Stonedagger~
+Cond 0
+Wear -1
+Cost 9500
+Val  5 5 8 18 548
 End
 
 #END

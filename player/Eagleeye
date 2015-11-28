@@ -2,8 +2,8 @@
 Name EagleEye~
 Id   958883752
 Email (null)~
-LogO 958884709
-Vers 22
+LogO 1308641350
+Vers 31
 Prom <%hhp %mm %vmv> ~
 Race yinn~
 Outc 0
@@ -12,11 +12,19 @@ MatookT 0
 SkPTimer 0
 SkPTracker 1
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1308641347
+LstKillDate 1308641347
+LstDeathDate 1308641347
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 megena~
 Sac  58
 Sex  1
@@ -24,18 +32,18 @@ Vump  0
 Node 0
 Cap 0
 Created 958883758
-Glad 0 0
-LastHost dial125.b3.tnt5.sea.wa.freei.net 3670~
+Glad 0 0 0 0 0 0
+LastHost 41.49.28.195~
 Cla  7
 ClaO 1
 Levl 2
 DLevl 0
-Plyd 677
-Not  958884037 958884037 958884037 958884037 958884037 958884037 958884037 958884037 958884037
+Plyd 680
+Not  958884037 958884037 958884037 958884037 958884037 958884037 958884037 958884037 958884037 0
 Scro 22
 Rank 0
 Room 3054
-HMV  29 29 110 110 70 103
+HMV  29 29 110 110 103 103
 Gold 21
 Silv 1025
 Exp  17015
@@ -47,6 +55,7 @@ IcgB 0
 Icg 0
 Pos  4
 Prac 8
+Trai 10
 SkiP 11
 Save  -4
 Alig  750
@@ -54,8 +63,8 @@ Hit   4
 SecHit   3
 ACs 65 63 63 79
 Wimp  4
-Attr 17 16 20 15 16
-AMod 2 -1 1 2 1
+Attr 17 16 20 15 16 13 13 13
+AMod 2 -1 1 2 1 0 0 0
 Pass EavEG4CbvuyqU~
 Titl  the wise.~
 Pnts 98
@@ -79,6 +88,7 @@ Sk 1 'chain lightning'
 Sk 1 'change sex'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 1 'control weather'
 Sk 1 'cure critical'
 Sk 1 'cure light'
@@ -122,6 +132,10 @@ Sk 1 'mass healing'
 Sk 1 'mass invis'
 Sk 1 'mirror image'
 Sk 1 'nexus'
+Sk 1 'orb of awakening'
+Sk 1 'orb of surprise'
+Sk 1 'orb of touch'
+Sk 1 'orb of turning'
 Sk 1 'pass door'
 Sk 1 'plague'
 Sk 1 'poison'
@@ -149,13 +163,10 @@ Sk 1 'animate dead'
 Sk 1 'summon dead'
 Sk 1 'cryogenesis'
 Sk 1 'draw life'
+Sk 1 'make bag'
 Sk 1 'turn undead'
 Sk 1 'withstand death'
 Sk 1 'wound transfer'
-Sk 1 'orb of awakening'
-Sk 1 'orb of surprise'
-Sk 1 'orb of touch'
-Sk 1 'orb of turning'
 Sk 80 'dagger'
 Sk 1 'mace'
 Sk 1 'daetok'
@@ -184,14 +195,15 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
-Affc 'armor'   0  44  33 -20  17          0
-Affc 'bless'   0  28  27  -3  24          0
 Affc 'bless'   0  27  27   3  18          0
+Affc 'bless'   0  28  27  -3  24          0
+Affc 'armor'   0  44  33 -20  17          0
 End
 
 #O
 Vnum 3716
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
@@ -201,6 +213,7 @@ End
 #O
 Vnum 3703
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 5
 Cost 0
@@ -209,6 +222,7 @@ End
 #O
 Vnum 3701
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 16
 Cost 210
@@ -217,6 +231,7 @@ End
 #O
 Vnum 3704
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 11
 Cost 0
@@ -225,6 +240,7 @@ End
 #O
 Vnum 2445
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1500
@@ -233,6 +249,7 @@ End
 #O
 Vnum 2444
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1500
@@ -241,6 +258,7 @@ End
 #O
 Vnum 3726
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 0
@@ -249,6 +267,7 @@ End
 #O
 Vnum 3724
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -257,6 +276,7 @@ End
 #O
 Vnum 3707
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 7
 Cost 72
@@ -265,6 +285,7 @@ End
 #O
 Vnum 3712
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 13
 Cost 72
@@ -273,6 +294,7 @@ End
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 4
 Cost 72
@@ -281,6 +303,7 @@ End
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 3
 Cost 72
@@ -289,6 +312,7 @@ End
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 14
 Cost 48
@@ -297,6 +321,7 @@ End
 #O
 Vnum 3708
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 8
 Cost 72
@@ -305,6 +330,7 @@ End
 #O
 Vnum 3706
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 6
 Cost 72
@@ -313,6 +339,7 @@ End
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 15
 Cost 48
@@ -321,6 +348,7 @@ End
 #O
 Vnum 3710
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 10
 Cost 72
@@ -329,6 +357,7 @@ End
 #O
 Vnum 3709
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 9
 Cost 72
@@ -337,6 +366,7 @@ End
 #O
 Vnum 3715
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 17
 Cost 1140
@@ -345,6 +375,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -353,6 +384,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -361,6 +393,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -369,6 +402,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -377,6 +411,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -385,6 +420,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -393,6 +429,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -401,6 +438,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -409,6 +447,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -417,6 +456,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -425,6 +465,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -433,6 +474,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -441,6 +483,7 @@ End
 #O
 Vnum 3011
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 9
@@ -449,6 +492,7 @@ End
 #O
 Vnum 31088
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0

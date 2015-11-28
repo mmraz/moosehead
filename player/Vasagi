@@ -2,16 +2,16 @@
 Name Vasagi~
 Id   998278283
 Email (null)~
-LogO 1093068119
+LogO 1311612939
 Vers 31
 Prom <%hhp %mm %vmv> ~
 Race elf~
 Clan posse~
 Outc 0
-RufT 373
+RufT 353
 MatookT 0
-SkPTimer 15
-SkPTracker 12
+SkPTimer 1
+SkPTracker 9
 LogoutTracker 0
 Kill 0 6 0 6
 Steal 0 0 0
@@ -22,10 +22,13 @@ LstAtkedByTimer 0
 LstCombatDate 1070237039
 LstKillDate 1015804256
 LstDeathDate 1015803160
-LoginsWOKill 25
-LoginsWODeath 25
-LoginsWOCombat 2
+LoginsWOKill 27
+LoginsWODeath 27
+LoginsWOCombat 4
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 353393 cthon~
 DeityT -675 cthon~
 Sac  225
@@ -35,24 +38,24 @@ Node 0
 Cap 0
 Created 998278373
 Glad 0 0 0 0 0 0
-LastHost host-65-6-253-143.clt.bellsouth.net~
+LastHost 74.251.225.253~
 Cla  9
 Kit wu jen~
 ClaO 0
 Levl 42
 DLevl 0
-Plyd 446315
+Plyd 447071
 Not  1061469472 1061469472 1061469472 1061469472 1061469472 1061469472 1061469472 1093065870 1061469472 1061469472
 Scro 22
 Rank 2
 Room 31614
-HMV  162 647 406 772 380 384
+HMV  647 647 752 772 384 384
 Gold 345
 Silv 69
 Exp  375584
 Act  CDGHJQS
 MHSF R
-AfBy CDFHJOVe
+AfBy CFJL
 Comm R
 Disp FIJ
 IcgB 0
@@ -60,24 +63,25 @@ Icg 0
 Wizn W
 Pos  8
 Prac 1
+Trai 18
 SkiP 68
-Save  -7
+Save  -6
 Alig  -1000
-Hit   30
-Dam   31
-SecHit   24
-SecDam   26
-ACs -36 -36 -36 -13
+Hit   31
+Dam   33
+SecHit   25
+SecDam   28
+ACs -44 -45 -44 -12
 Wimp  20
-Attr 18 21 18 21 16 20 21 13
-AMod 6 0 0 4 0 0 0 0
+Attr 18 21 18 21 16 11 12 13
+AMod 6 0 0 2 0 0 0 0
 Pass VaRdGaLyh1R2A~
 Titl  the {RSuck.{x~
 Pnts 100
 TSex 1
 LLev 117
 HMVP 617 776 384
-Cnd  0 14 17 17
+Cnd  0 17 19 19
 Sk 91 'acid blast'
 Sk 94 'armor'
 Sk 88 'blindness'
@@ -91,6 +95,7 @@ Sk 1 'change sex'
 Sk 78 'charm person'
 Sk 92 'chill touch'
 Sk 84 'colour spray'
+Sk 1 'cone of silence'
 Sk 75 'control weather'
 Sk 80 'curse'
 Sk 1 'detect evil'
@@ -195,16 +200,13 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'garou'
-Affc 'withstand death'   0  38   8   0   0 1073741824
-Affc 'haste'   0  40  14   4   2    2097152
-Affc 'sanctuary'   0  38   0   0   0        128
-Affc 'protection good'   0  38   4  -1  24      16384
-Affc 'giant strength'   0  34  20   4   1          0
-Affc 'stone skin'   0  37  20 -40  17          0
-Affc 'shield'   0  36  28 -20  17          0
-Affc 'armor'   0  38  14 -20  17          0
-Affc 'detect hidden'   0  34  20   0   0         32
-Affc 'detect invis'   0  34  18   0   0          8
+Affc 'morph'   0  42   4   0   0       2048
+Affc 'armor'   0  43  33 -20  17          0
+Affc 'enhance'   0  42   5   2   2          0
+Affc 'detect hidden'   0  32   0   0   0         32
+Affc 'shield'   0  31   8 -20  17          0
+Affc 'stone skin'   0  34   0 -40  17          0
+Affc 'giant strength'   0  37  21   4   1          0
 End
 
 #O
@@ -693,6 +695,15 @@ Cost 2200
 End
 
 #O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
 Vnum 3375
 Nest 0
 PrevOwner (null)~
@@ -845,7 +856,7 @@ Vnum 6422
 Nest 0
 PrevOwner Vasagi~
 Cond 0
-Wear -1
+Wear 11
 Cost 5900
 End
 
@@ -859,8 +870,8 @@ Cond 0
 Wear 16
 Lev  33
 Cost 2200
-Affc 'enchant weapon'   1  53  -1   5  19          0
 Affc 'enchant weapon'   1  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   5  19          0
 End
 
 #O

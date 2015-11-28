@@ -1,0 +1,78 @@
+Label entranceway
+Type 33
+Name Hunters Great Hall~
+Desc A large wooden door staning 20 feet tall is before you,
+with a sign engraved into it's center.
+---------------------------------------------
+. For all those who have sinned, there lies .
+.             REDEMPTION                    .
+---------------------------------------------
+~
+Index 601
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label magelab
+Type 33
+Name Mage Lab~
+Desc You've entered a perfectly circular room, with only
+portal below your feet to exit.  The walls are crackling
+static electricity, small snaps can be heard in all directions.
+~
+Index 604
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label mage
+Type 17
+Name {YA{Rd{rv{Ra{rn{Rc{re{Rd{c Mage Lab~
+Index 603
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label sleep
+Type 33
+Name Sleeping Shacks~
+Desc A room full of freshly picked hay rests on the floor
+prepaired in bundles for slept on.  Walls are covered with a thick
+bear skin to keep out the cold.
+~
+Index 602
+Cost 1000
+Flags 1
+Opt 9 2
+Loc 0
+#End
+Label cow
+Type 36
+Name cow~
+Short An over fed cow.~
+Long An over fed cow is here, with its utters looking to be drank from.~
+Index 601
+Cost 2000
+Flags 16
+Opt 10 0
+Loc 601
+#End
+Label endless
+Type 20
+Name endless pit of plunder~
+Short A pit~
+Index 602
+Cost 2000
+Flags 32
+Opt 0 0
+Loc 0
+#End
+Exit 0 601 -1 -1 6906
+Exit 1 601 602 -1 -1
+Exit 4 601 604 -1 -1
+Exit 5 604 601 -1 -1
+Exit 3 602 601 -1 -1
+#End

@@ -2,8 +2,8 @@
 Name Tuefry~
 Id   819778224
 Email (null)~
-LogO 957502996
-Vers 22
+LogO 1306879439
+Vers 31
 Prom %h.%H %m.%M %v.%V %n/%N %w/%W %s,%g %a%c%r-%e> ~
 Race human~
 Outc 0
@@ -11,12 +11,20 @@ RufT 0
 MatookT 0
 SkPTimer 0
 SkPTracker 0
-LogoutTracker 5
-Kill 0 0 0
-Steal 0 0 0 0
+LogoutTracker 3
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1306875745
+LstKillDate 1306875745
+LstDeathDate 1306875745
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 megena~
 Sac  95
 Sex  1
@@ -24,42 +32,47 @@ Vump  0
 Node 0
 Cap 0
 Created 957501774
-LastHost modemcable180.153-200-24.hull.mc.videotron.net 63932~
+Glad 0 0 0 0 0 0
+LastHost 67.193.6.69~
 Cla  11
 ClaO 0
-Levl 1
-DLevl 4
-Plyd 103719
-Not  957451565 957502178 0 957330265 957502066 957502165 957502175 957502176 0
+Levl 3
+DLevl 2
+Plyd 106085
+Not  957451565 957502178 0 1306795136 957502066 957502165 957502175 1306874349 0 0
 Scro 16
 Rank 0
-Room 3758
-HMV  14 20 100 100 59 100
+Room 3770
+HMV  32 32 49 116 106 106
 Gold 150
 Silv 110
-Exp  8000
+Exp  24000
 Act  CDEFGMQRSTd
-MHSF A
-Comm DEFGIOS
+MHSF AR
+AfBy HV
+Comm DFGIOS
 Disp BFJ
 IcgB 0
 Icg 0
 Pos  8
-Prac 5
-Save  -1
+Prac 11
+Trai 12
+SkiP 20
+Save  -7
 Alig  1000
-Hit   1
-ACs 83 81 81 99
+Hit   6
+SecHit   6
+ACs 79 79 79 79
 Wimp  13
-Attr 11 15 18 12 15
-AMod 0 0 1 0 1
-Pass TuS8aU9Q90TcA~
+Attr 11 15 18 12 15 13 13 13
+AMod 4 2 7 3 1 0 0 0
+Pass Tu7gfnqYH7tuA~
 Titl .~
 Pnts 100
 TSex 1
-LLev 24
-HMVP 20 100 100
-Cnd  0 18 0 39
+LLev 28
+HMVP 32 116 106
+Cnd  0 0 0 0
 Alias dd who 43 51 clan~
 Alias k kill~
 Alias gg cast 'sleep'~
@@ -92,6 +105,7 @@ Sk 1 'chill touch'
 OldSk 1 'chill touch'
 Sk 1 'colour spray'
 OldSk 1 'colour spray'
+Sk 1 'cone of silence'
 Sk 1 'continual light'
 OldSk 1 'continual light'
 Sk 1 'control weather'
@@ -157,10 +171,10 @@ OldSk 1 'fireball'
 Sk 1 'fireproof'
 OldSk 1 'fireproof'
 OldSk 1 'flamestrike'
-Sk 1 'fly'
-OldSk 1 'fly'
 Sk 1 'floating disc'
 OldSk 1 'floating disc'
+Sk 1 'fly'
+OldSk 1 'fly'
 Sk 1 'forget'
 OldSk 1 'forget'
 OldSk 1 'frenzy'
@@ -226,6 +240,7 @@ Sk 1 'sleep'
 OldSk 1 'sleep'
 Sk 1 'slow'
 OldSk 1 'slow'
+OldSk 1 'smoke screen'
 Sk 1 'stone skin'
 OldSk 1 'stone skin'
 Sk 1 'summon'
@@ -246,10 +261,10 @@ Sk 1 'animate dead'
 Sk 1 'summon dead'
 Sk 1 'cryogenesis'
 Sk 1 'draw life'
+Sk 1 'make bag'
 Sk 1 'turn undead'
 Sk 1 'withstand death'
 Sk 1 'wound transfer'
-OldSk 1 'smoke screen'
 Sk 80 'dagger'
 OldSk 77 'dagger'
 OldSk 1 'flail'
@@ -303,11 +318,19 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
+Affc 'bless'   0  52  56  -6  24          0
+Affc 'bless'   0  53  56   6  18          0
+Affc 'shield'   0  53  58 -20  17          0
+Affc 'giant strength'   0  53  50   4   1          0
+Affc 'spirit of owl'   0  53  22   5   4          0
+Affc 'haste'   0  53   9   4   2    2097152
+Affc 'sanctuary'   0  51   4   0   0        128
 End
 
 #O
 Vnum 3703
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 144
@@ -316,6 +339,7 @@ End
 #O
 Vnum 3701
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 210
@@ -324,6 +348,7 @@ End
 #O
 Vnum 3704
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 108
@@ -332,86 +357,97 @@ End
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 4
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 3
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3711
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 12
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3708
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 8
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 15
+Wear -1
 Cost 48
 End
 
 #O
 Vnum 3712
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 13
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3707
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 7
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3709
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 9
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3710
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 10
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 14
+Wear -1
 Cost 48
 End
 
 #O
 Vnum 3715
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 17
 Cost 1140
@@ -420,14 +456,16 @@ End
 #O
 Vnum 3706
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 6
+Wear -1
 Cost 72
 End
 
 #O
 Vnum 101
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 270
@@ -436,22 +474,25 @@ End
 #O
 Vnum 20404
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 4
 Cost 110
 End
 
 #O
 Vnum 20404
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 3
 Cost 110
 End
 
 #O
 Vnum 20
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -460,6 +501,7 @@ End
 #O
 Vnum 20
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -468,6 +510,7 @@ End
 #O
 Vnum 20
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -476,6 +519,7 @@ End
 #O
 Vnum 20
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -484,6 +528,7 @@ End
 #O
 Vnum 20
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -492,14 +537,7 @@ End
 #O
 Vnum 20
 Nest 0
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20
-Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
@@ -508,6 +546,7 @@ End
 #O
 Vnum 6601
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 620
@@ -516,6 +555,7 @@ End
 #O
 Vnum 6601
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 620
@@ -524,6 +564,7 @@ End
 #O
 Vnum 6600
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 250
@@ -532,6 +573,7 @@ End
 #O
 Vnum 6601
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 620
@@ -540,6 +582,7 @@ End
 #O
 Vnum 101
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 270
@@ -548,6 +591,7 @@ End
 #O
 Vnum 3716
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 380
@@ -556,6 +600,7 @@ End
 #O
 Vnum 3716
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 380
@@ -564,50 +609,57 @@ End
 #O
 Vnum 3716
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 182 0 0
+Val  0 0 142 0 0
 End
 
 #O
 Vnum 3703
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 5
+Wear -1
 Cost 0
 End
 
 #O
 Vnum 3701
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 16
+Wear -1
 Cost 210
 End
 
 #O
 Vnum 3704
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 11
+Wear -1
 Cost 0
 End
 
 #O
 Vnum 101
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 6
 Cost 270
 End
 
 #O
 Vnum 3726
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 0
+Val  100 1 0 10 85
 End
 
 #END

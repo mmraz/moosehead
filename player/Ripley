@@ -2,30 +2,35 @@
 Name Ripley~
 Id   999866302
 Email (null)~
-LogO 1083583376
-Vers 31
+LogO 1324072221
+Vers 33
 Prom %hhp %mm %vmv |{C%w{x|({Y%g.%s|{M%e{x|%a) ~
 Race lasher~
 Clan honor~
 Outc 0
-RufT 145
+RufT 119
 MatookT 0
-SkPTimer 0
-SkPTracker 10
+SkPTimer 2
+SkPTracker 2
 LogoutTracker 0
 Kill 0 6 0 6
 Steal 0 0 0
+MSteal 0
 LstK Grube~
 LstKBy DoomHammer~
 LstAtkedBy Milag~
-LstAtkedByTimer 14806
+LstAtkedByTimer 14780
 LstCombatDate 1078238596
 LstKillDate 1078237749
 LstDeathDate 1064841694
-LoginsWOKill 5
-LoginsWODeath 8
-LoginsWOCombat 4
+LoginsWOKill 6
+LoginsWODeath 9
+LoginsWOCombat 5
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 202258 hermes~
 DeityT -1401 hermes~
 Sac  300
@@ -35,47 +40,48 @@ Node 0
 Cap 0
 Created 999866314
 Glad 0 0 0 0 1 0
-LastHost 146.230.45.158~
+LastHost 41.133.230.56~
 Cla  7
 Kit wyrmslayer~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 281630
-Not  1011029279 1062089295 0 1022359155 1034225322 1000937209 0 1034251852 0 1023852062
+Plyd 282762
+Not  1323282766 1062089295 0 1022359155 1034225322 1000937209 0 1034251852 0 1023852062
 Scro 22
 Rank 1
-Room 31520
-HMV  962 1260 700 1049 381 381
-Gold 428
-Silv 2798
+Room 31501
+HMV  1104 1260 832 1049 381 381
+Gold 438
+Silv 3259
 Exp  118830
 Act  CDEGIKMQS
 MHSF RSUV
-AfBy HT
+AfBy DFHTV
 Comm GRc
 Disp FGIJ
 IcgB 0
 Icg 0
-Pos  4
+Pos  8
 Prac 13
-SkiP 175
-Save  -4
-Alig  -984
-Hit   37
+Trai 13
+SkiP 178
+Save  -10
+Alig  -1000
+Hit   43
 Dam   30
-SecHit   29
+SecHit   35
 SecDam   17
-ACs 58 58 58 82
-Attr 22 21 21 17 22 21 13 13
-AMod 0 4 5 0 2 0 0 0
+ACs -22 -22 -22 2
+Attr 22 21 21 17 22 10 11 13
+AMod 0 4 5 4 2 0 0 0
 Pass RiRXh6QQ7bboo~
 Titl ...~
 Pnts 60
 TSex 2
 LLev 57
 HMVP 1190 854 346
-Cnd  0 47 47 47
+Cnd  0 21 21 21
 Alias ot c 'orb of touch'~
 Alias di c 'detect invis'~
 Alias dh c 'detect hidden'~
@@ -141,7 +147,7 @@ Sk 100 'harm'
 Sk 94 'haste'
 Sk 100 'heal'
 Sk 1 'holy word'
-Sk 84 'identify'
+Sk 88 'identify'
 Sk 75 'infravision'
 Sk 1 'knock'
 Sk 1 'know alignment'
@@ -217,7 +223,16 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'sanctuary'   0  52   0   0   0        128
+Affc 'sanctuary'   0  54   3   0   0        128
+Affc 'orb of turning'   0  54  20   0   0          0
+Affc 'armor'   0  53  29 -20  17          0
+Affc 'stone skin'   0  54  47 -40  17          0
+Affc 'shield'   0  53  55 -20  17          0
+Affc 'detect invis'   0  52  47   0   0          8
+Affc 'detect hidden'   0  52  47   0   0         32
+Affc 'bless'   0  54  52  -6  24          0
+Affc 'bless'   0  54  52   6  18          0
+Affc 'haste'   0  53  18   4   2    2097152
 End
 
 #O
@@ -351,24 +366,6 @@ Cost 3750
 End
 
 #O
-Vnum 20803
-Nest 0
-PrevOwner Ripley~
-Cond 0
-Wear -1
-Cost 20000
-End
-
-#O
-Vnum 20803
-Nest 0
-PrevOwner Ripley~
-Cond 0
-Wear -1
-Cost 20000
-End
-
-#O
 Vnum 22504
 Nest 0
 PrevOwner Ripley~
@@ -405,8 +402,8 @@ Cond 0
 Wear 16
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   1  53  -1  13  19          0
 Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O
@@ -545,15 +542,6 @@ Cost 550
 End
 
 #O
-Vnum 20700
-Nest 1
-PrevOwner Ripley~
-Cond 0
-Wear -1
-Cost 20
-End
-
-#O
 Vnum 2912
 Nest 1
 PrevOwner Ripley~
@@ -668,6 +656,24 @@ PrevOwner (null)~
 Cond 0
 Wear 6
 Cost 5500
+End
+
+#O
+Vnum 20700
+Nest 0
+PrevOwner Ripley~
+Cond 0
+Wear -1
+Cost 20
+End
+
+#O
+Vnum 10326
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
 End
 
 #END

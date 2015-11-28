@@ -2,8 +2,8 @@
 Name Quicksilver~
 Id   970148267
 Email (null)~
-LogO 1064917260
-Vers 31
+LogO 1408758075
+Vers 33
 Desc Long ago, when the Almighty first created the world, he peopled
 his creation with dragons. These dragons were not like the ones
 commonly seen in this day and age. No... they were something
@@ -37,11 +37,12 @@ Clan zealot~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 0
-SkPTracker 6
+SkPTimer 2
+SkPTracker 1
 LogoutTracker 0
 Kill 0 0 0 1
 Steal 5 256 0
+MSteal 0
 LstK PurEvil~
 LstKBy Appolyon~
 LstAtkedBy no one~
@@ -49,10 +50,16 @@ LstAtkedByTimer 0
 LstCombatDate 1062577797
 LstKillDate 1024303763
 LstDeathDate 1055057549
-LoginsWOKill 30
-LoginsWODeath 19
-LoginsWOCombat 1
+LoginsWOKill 35
+LoginsWODeath 24
+LoginsWOCombat 6
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 55683 almighty~
 DeityT -341 almighty~
 Sac  300
@@ -62,24 +69,24 @@ Node 0
 Cap 0
 Created 970148282
 Glad 0 0 0 0 0 0
-LastHost 64.146.166.218.genext.net~
+LastHost 68.186.103.129~
 Cla  13
 Kit ninja~
 ClaO 2
 Levl 37
 DLevl 0
-Plyd 253270
-Not  1064916078 1064916078 1064916078 1064916078 1064916078 1064916078 1064916078 1064916078 1064916078 1064916078
+Plyd 253763
+Not  1306541900 1064916078 1064916078 1064916078 1064916078 1306688199 1064916078 1064916078 1064916078 1064916078
 Scro 22
 Rank 3
-Room 31800
-HMV  851 851 309 309 182 354
+Room 31806
+HMV  851 851 309 309 346 354
 Gold 139
-Silv 48
-Exp  419249
+Silv 42
+Exp  419101
 Act  CDFGHKMQRS
 MHSF RSUV
-AfBy BCJPT
+AfBy CJQT
 Comm 0
 Disp FIJ
 IcgB 0
@@ -87,6 +94,7 @@ Icg 0
 Pnet ABCDEFGHI
 Pos  8
 Prac 18
+Trai 5
 SkiP 42
 Save  -8
 Alig  -1000
@@ -95,7 +103,7 @@ Dam   24
 SecHit   18
 SecDam   24
 ACs 51 51 51 89
-Attr 18 21 22 20 23 16 13 13
+Attr 18 21 22 20 23 11 14 13
 AMod 2 0 0 3 0 0 0 0
 Pass QuRsDAmT9JX4U~
 Titl  yells 'SUCK ME, BEAUTIFUL!!!'~
@@ -103,8 +111,8 @@ Pnts 100
 TSex 1
 LLev 58
 HMVP 821 306 349
-Cnd  0 0 34 20
-Sk 75 'annointment'
+Cnd  0 21 23 23
+OldSk 75 'annointment'
 Sk 75 'armor'
 Sk 1 'blur'
 Sk 77 'cancellation'
@@ -168,10 +176,8 @@ Gr 'draconian'
 Gr 'illusion'
 Gr 'protective'
 Gr 'transportation'
-Affc 'invisibility'   0  28  28   0   0          2
-Affc 'sneak'   0  32  24   0   0      32768
-Affc 'bless'   0  33  14   5  18          0
-Affc 'bless'   0  36  14  -5  24          0
+Affc 'bless'   0  33   3  -5  24          0
+Affc 'bless'   0  30   3   5  18          0
 End
 
 #O
@@ -393,7 +399,7 @@ PrevOwner Quicksilver~
 Cond 0
 Wear -1
 Cost 5000
-Val  48 10 8 177 0
+Val  48 10 8 183 0
 Spell 3 'sleep'
 End
 
@@ -567,8 +573,8 @@ Cond 0
 Wear -1
 Lev  29
 Cost 400
-Affc 'enchant weapon'   1  53  -1   4  19          0
 Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
 End
 
 #O
@@ -884,8 +890,8 @@ Cond 0
 Wear -1
 Lev  24
 Cost 1050
-Affc 'enchant weapon'   0  40  -1   7  18          0
 Affc 'enchant weapon'   1  40  -1   9  19          0
+Affc 'enchant weapon'   0  40  -1   7  18          0
 End
 
 #O
@@ -1045,8 +1051,8 @@ Cond 0
 Wear -1
 Lev  35
 Cost 0
-Affc 'enchant weapon'   0  53  -1   6  18          0
 Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'enchant weapon'   0  53  -1   6  18          0
 End
 
 #O
@@ -1059,8 +1065,8 @@ Cond 0
 Wear -1
 Lev  24
 Cost 808
-Affc 'enchant weapon'   0  52  -1  10  18          0
 Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
 End
 
 #O
@@ -1142,7 +1148,6 @@ End
 Vnum 8002
 Nest 0
 PrevOwner (null)~
-Stolen 9
 Cond 0
 Wear -1
 Cost 1000

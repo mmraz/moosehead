@@ -2,7 +2,7 @@
 Name Ghanima~
 Id   819739950
 Email (null)~
-LogO 1106287041
+LogO 1306904805
 Vers 31
 ShD  Jen~
 LnD  Insane quiescent omniscient empiricist borg elf.  Flibbertigibbet.  BORAX.
@@ -39,16 +39,16 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost d154-20-117-200.bchsia.telus.net~
+LastHost 173.180.222.203~
 Cla  1
 ClaO 1
 Levl 52
 DLevl 0
-Plyd 12219945
+Plyd 12223056
 Not  1052525755 934773663 938139012 949439687 1050300202 1106276538 934929512 936329807 0 0
 Scro 22
 Rank 0
-Room 10099
+Room 16503
 HMV  572 572 837 837 442 442
 Gold 25166
 Silv 40897
@@ -63,7 +63,7 @@ Wizn ACDEFIJLNOPQRSTX
 Pos  8
 Prac 178
 Trai 74
-SkiP 20
+SkiP 22
 Save  2
 Alig  -1000
 Hit   3
@@ -77,51 +77,51 @@ AMod 1 0 0 1 0 0 0 0
 Pass GhE/Ykldf0NMM~
 Bin  You are blinded by a magnificent white light- when your vision returns to you, Ghanima Scully sits before you patiently.~
 Bout The same blinding beam of light that earlier delivered Ghanima Scully to you suddenly engulfs her in a massive whoosh.~
-Titl , a ghost from the past~
+Titl , just the same, but brand new.~
 Pnts 47
 TSex 2
 LLev 2917
 HMVP 568 827 442
 Cnd  0 0 2 -1
 Edit ABCEH
-ERange 6800 6899
-ERange 2900 2999
 ERange 22590 22594
+ERange 2900 2999
+ERange 6800 6899
 Alias go gossip~
 Alias q inote read~
 Alias p onote read~
 Alias c change~
 Alias i idea read~
-Macro warlock trans %1 31901~
-Macro victim goto volcanic;sweep volcanic;goto earendil~
-Macro nuke noeverything %1; freeze %1~
-Macro noeverything nochannel %1;noemote %1; notell %1;noshout %1~
-Macro sx string obj %1 extended %2 $3~
-Macro lair goto 2937~
-Macro duel trans %1 16174~
-Macro st string char %1 title $2~
-Macro zxx goto 30243~
-Macro loner trans %1 6100~
-Macro matook trans %1 16501~
-Macro legion trans %1 4900~
-Macro camorra trans %1 4600~
-Macro riders trans %1 6900~
-Macro posse trans %1 4700~
-Macro balance trans %1 4500~
-Macro circle trans %1 4400~
-Macro zx goto 18976~
-Macro ss string obj %1 short $2~
-Macro sl string obj %1 long $2~
-Macro sn string obj %1 name $2~
-Macro rft tell %1 Ready for transfer?~
-Macro z goto 10099~
-Macro qq load obj 30160;at %1 say Grats on your level!;at %1 give sunflower %1~
-Macro pp goto %1; give %2 %1;force %1 hold %2~
-Macro weapon cast 'enchant weapon' %1~
-Macro qz goto 6780~
-Macro qw load obj 2916;at %1 say Grats on the level!;at %1 give bean %1~
-Macro honor trans %1 31501~
 Macro demise trans %1 31403~
+Macro honor trans %1 31501~
+Macro qw load obj 2916;at %1 say Grats on the level!;at %1 give bean %1~
+Macro qz goto 6780~
+Macro weapon cast 'enchant weapon' %1~
+Macro pp goto %1; give %2 %1;force %1 hold %2~
+Macro qq load obj 30160;at %1 say Grats on your level!;at %1 give sunflower %1~
+Macro z goto 10099~
+Macro rft tell %1 Ready for transfer?~
+Macro sn string obj %1 name $2~
+Macro sl string obj %1 long $2~
+Macro ss string obj %1 short $2~
+Macro zx goto 18976~
+Macro circle trans %1 4400~
+Macro balance trans %1 4500~
+Macro posse trans %1 4700~
+Macro riders trans %1 6900~
+Macro camorra trans %1 4600~
+Macro legion trans %1 4900~
+Macro matook trans %1 16501~
+Macro loner trans %1 6100~
+Macro zxx goto 30243~
+Macro st string char %1 title $2~
+Macro duel trans %1 16174~
+Macro lair goto 2937~
+Macro sx string obj %1 extended %2 $3~
+Macro noeverything nochannel %1;noemote %1; notell %1;noshout %1~
+Macro nuke noeverything %1; freeze %1~
+Macro victim goto volcanic;sweep volcanic;goto earendil~
+Macro warlock trans %1 31901~
 Sk 100 'reserved'
 Sk 100 'acid blast'
 Sk 1 'aid'
@@ -520,8 +520,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'enchant weapon'   1  42  -1   7  19          0
 Affc 'enchant weapon'   0  42  -1   7  18          0
+Affc 'enchant weapon'   1  42  -1   7  19          0
 End
 
 #O
@@ -759,9 +759,9 @@ Desc This is a small lotus petal that is a striking lightning blue. It radiates 
 Cond 0
 Wear -1
 Cost 313
-ExDe radiance~ ~
 ExDe radiance~ Jen, I owe you more the you can ever imagine. You were there for me when I needed someone to talk to and I will never forget it.
 ~
+ExDe radiance~ ~
 End
 
 #O
@@ -938,8 +938,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'enchant weapon'   0  42  -1   7  18          0
 Affc 'enchant weapon'   1  42  -1   7  19          0
+Affc 'enchant weapon'   0  42  -1   7  18          0
 End
 
 #O
@@ -1041,8 +1041,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4850
-Affc 'enchant weapon'   1  42  -1   5  19          0
 Affc 'enchant weapon'   0  42  -1   5  18          0
+Affc 'enchant weapon'   1  42  -1   5  19          0
 End
 
 #O

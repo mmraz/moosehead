@@ -3,8 +3,8 @@ Name Jarax~
 SurN Alchemist~
 Id   1035155287
 Email (null)~
-LogO 1096749885
-Vers 31
+LogO 1350259068
+Vers 33
 Prom <%hhp %mm %vmv> {G*(%wWeight)*{x ->{Y%t:00{x<-(%X) ~
 Race goblin~
 Outc 0
@@ -15,6 +15,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -26,6 +27,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 0 matook~
 DeityT -2041 matook~
 Sac  300
@@ -35,50 +40,50 @@ Node 0
 Cap 0
 Created 1035155704
 Glad 0 0 0 0 0 0
-LastHost 24.157.72.71~
+LastHost 99.248.113.147~
 Cla  0
 Kit alchemist~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 87915
-Not  1035466285 1035334922 0 1035517741 1030903840 1035482111 0 0 0 0
+Plyd 91990
+Not  1035466285 1307016309 0 1306795136 1030903840 1306980472 0 0 0 0
 Scro 22
 Rank 0
-Room 30312
-HMV  576 576 859 868 433 433
-Gold 86
-Silv 11553
+Room 3059
+HMV  576 576 868 868 431 433
+Gold 99
+Silv 13232
 Exp  224529
 Act  CDGHK
 MHSF R
-AfBy JT
-Comm DGILR
+AfBy J
+Comm GILR
 Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCEFGHI
 Pos  8
-Prac 28
-Trai 10
-SkiP 20
-Save  -8
+Prac 29
+Trai 26
+SkiP 27
+Save  -7
 Alig  -1000
-Hit   17
-Dam   15
+Hit   28
+Dam   23
 SecHit   16
 SecDam   12
 ACs 52 58 49 89
 Wimp  2
-Attr 18 21 18 19 17 19 19 16
-AMod 6 6 5 3 1 0 0 0
-Pass JasEwtmY2ybRs~
+Attr 18 21 18 19 17 11 11 16
+AMod 2 4 5 3 1 0 0 0
+Pass JavZqr0tDYVw6~
 Titl  the confused {WPotion{x Maker 4hire.~
 Pnts 82
 TSex 1
 LLev 21
 HMVP 571 718 428
-Cnd  0 0 0 0
+Cnd  0 8 0 33
 Alias k kill~
 Alias / c word~
 Sk 82 'acid blast'
@@ -94,7 +99,6 @@ Sk 1 'change sex'
 Sk 1 'charm person'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 1 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -122,13 +126,13 @@ Sk 1 'feeblemind'
 Sk 1 'fireball'
 Sk 1 'fireproof'
 Sk 1 'floating disc'
-Sk 75 'fly'
+Sk 76 'fly'
 Sk 1 'forget'
 Sk 1 'fumble'
 Sk 78 'gate'
 Sk 81 'giant strength'
 Sk 76 'haste'
-Sk 78 'identify'
+Sk 83 'identify'
 Sk 1 'infravision'
 Sk 1 'invisibility'
 Sk 1 'knock'
@@ -158,7 +162,7 @@ Sk 1 'teleport'
 Sk 1 'ventriloquate'
 Sk 75 'warp'
 Sk 1 'weaken'
-Sk 81 'word of recall'
+Sk 84 'word of recall'
 Sk 1 'animate dead'
 Sk 83 'summon dead'
 Sk 1 'cryogenesis'
@@ -172,10 +176,10 @@ Sk 100 'sword'
 Sk 93 'dodge'
 Sk 50 'scan'
 Sk 92 'second attack'
-Sk 86 'alchemy'
+Sk 87 'alchemy'
 Sk 42 'fast healing'
-Sk 50 'meditation'
-Sk 51 'spellcraft'
+Sk 52 'meditation'
+Sk 53 'spellcraft'
 Sk 1 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
@@ -195,8 +199,6 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'fly'   0  44  11   0   0     524288
-Affc 'giant strength'   0  37  14   4   1          0
 End
 
 #O
@@ -256,7 +258,7 @@ PrevOwner Jarax~
 Cond 0
 Wear -1
 Cost 0
-Val  51 135 -1 -1 -1
+Val  51 138 -1 -1 -1
 Spell 1 'magic resistance'
 End
 
@@ -267,7 +269,7 @@ PrevOwner Jarax~
 Cond 0
 Wear -1
 Cost 0
-Val  51 164 -1 -1 -1
+Val  51 167 -1 -1 -1
 Spell 1 'restore mana'
 End
 
@@ -288,6 +290,120 @@ PrevOwner Jarax~
 Cond 0
 Wear -1
 Cost 25
+End
+
+#O
+Vnum 27
+Nest 1
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 0
+Val  51 186 -1 -1 -1
+Spell 1 'speed'
+End
+
+#O
+Vnum 28
+Nest 1
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 0
+Val  51 138 -1 -1 -1
+Spell 1 'magic resistance'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 0
+Val  51 167 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 26
+Nest 1
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 0
+Val  51 3 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
+End
+
+#O
+Vnum 22515
+Nest 1
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 0
+Spell 1 'water breathing'
 End
 
 #O
@@ -469,20 +585,6 @@ Cost 5000
 End
 
 #O
-Vnum 8528
-Nest 0
-PrevOwner Jarax~
-Name snakebite snake bit dagger~
-ShD  {D==[{R({GS{R/{GN{R/{GA{R/{GK{R/{GE{R/{GB{R/{GI{R/{GT{R/{GE{R){D>{x~
-Desc {D==[{R({GS{R/{GN{R/{GA{R/{GK{R/{GE{R/{GB{R/{GI{R/{GT{R/{GE{R){D>{x dagger is lying here.~
-Stolen 27
-Cond 0
-Wear 16
-Cost 2354
-Val  2 3 12 11 1160
-End
-
-#O
 Vnum 9103
 Nest 0
 PrevOwner Jarax~
@@ -509,33 +611,6 @@ PrevOwner Jarax~
 Cond 0
 Wear -1
 Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Jarax~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 22
-End
-
-#O
-Vnum 3009
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 22
 End
 
 #O
@@ -635,173 +710,11 @@ Nest 0
 PrevOwner Jarax~
 ExtF 66
 Cond 0
-Wear -1
+Wear 16
 Lev  39
 Cost 2200
 Affc 'enchant weapon'   1  53  -1  12  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -822,107 +735,36 @@ PrevOwner Vampboodrum~
 Cond 0
 Wear -1
 Cost 0
-Val  2 0 0 2 8
+Val  2 0 0 2 136
+Affc 'poison'   5  54  14   0   0        128
 Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
-Vnum 2919
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 22515
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22515
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'water breathing'
-End
-
-#O
-Vnum 22044
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 26
+Vnum 3375
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 0
-Val  51 2 -1 -1 -1
-Spell 1 'accuracy'
+Cost 5000
+End
+
+#O
+Vnum 3375
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Jarax~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

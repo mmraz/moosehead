@@ -23,6 +23,7 @@ static char rcsid[] = "$Id: db2.c,v 1.10 2001/06/25 20:40:04 mud Exp $";
 /* values for db2.c */
 struct                         social_type social_table    [MAX_SOCIALS];
 int                            social_count    = 0;
+int                            social_count_targeted = 0;
 extern AREA_DATA *             area_last;
 
 extern void rename_area (char *strArea);
@@ -113,7 +114,10 @@ void load_socials( FILE *fp)
              continue;
         }
         else
-      social.vict_found = temp;
+	{
+	     social.vict_found = temp;
+	     social_count_targeted++;
+	}
 
         temp = fread_string_eol(fp);
         if (!strcmp(temp,"$"))

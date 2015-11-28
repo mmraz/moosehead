@@ -1,0 +1,1439 @@
+#AREA
+../newareas/ned.are~
+ChessBoard~
+01 51 MoonWind  ChessBoard~
+9900 9965
+
+#MOBILES
+#9900
+Elton Price~
+Shopkeeper Elton Price~
+Elton Price awaits your business.
+~
+Elton Price, Shopkeeper to the Kings is here.  At a mere word, he'll show
+you wares worthy of a King and his army.
+~
+half-elf~
+ABCGTUVe CHTUVZabce 0 0
+60 100 100d10+10 10d10+10 40d10+10 slime
+0 0 0 0
+ABFGJLMOU ABCDEFGHIJKLMOPQRS EFR 0
+stand stand male 4000
+CDLZ 0 medium 0
+F res B
+F vul Z
+F par HIJK
+#0
+
+#OBJECTS
+#9900
+sharpened stick~
+Sharpened wooden stick~
+A wooden stick, hastily sharpened to form a crude weapon has fallen to the ground here.~
+wood~
+weapon CSY ANO
+exotic 2 3 bite 0
+0 21 10 W
+F
+A 0 0 c
+A
+18 -1
+A
+19 2
+F
+A 0 0 G
+#9901
+Fortress Sword~
+Fortress Sword~
+This gleaming sword made of stainless steel is very sharp!~
+Stainless Steel~
+weapon AD AN
+exotic 5 6 none ACD
+46 20 30 P
+A
+1 0
+F
+A 0 0 Z
+A
+20 0
+A
+20 -1
+A
+19 2
+A
+18 5
+A
+17 -5
+#0
+
+#ROOMS
+#9900
+The other side of the mirror~
+As you step through the mirror, you realise that this is not real.  It is but
+a game.  A game you must win, or you will die.  A game of kings and queens.  
+A game of strategy.  A game of conquering.  A game of survival.  Are you fit
+enough?
+~
+0 C 5
+D3
+Exit ~
+door~
+0 0 9901
+E
+door~
+A steel door appears to be locked.  You wonder who has the key....hmmmm
+~
+E
+steel~
+The steel door is locked.  You wonder who might have the key....hmmm
+~
+S
+#9901
+The King's Shop~
+Welcome to the King's Shop.  Your last point for supplies before entering the
+field of battle.  Choose your weapons carefully.  Choose your foes carefully
+as well.  Supplies are also an important part of the battle.  Choose wisely
+The fate of Good and Evil lies in your hands.  This is but a game, but it's
+for keeps.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 9900
+S
+#9902
+White Queen's Rook Two~
+You are standing on  a slab of black marble, 8 feet by 8 feet.
+There is a white marble wall to the east.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9925
+D2
+Exit ~
+door~
+0 0 9910
+D3
+Exit ~
+door~
+0 0 9911
+S
+#9903
+White King's Bishop One~
+You are standing on a slab of black marble, 8 feet by 8 feet.
+There is a white marble wall to the south.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9915
+D1
+Exit ~
+door~
+0 0 9906
+D3
+Exit ~
+door~
+0 0 9905
+S
+#9904
+White King's Rook One~
+You are standing on a slab of black marble, 8 feet by 8 feet.
+There is a white marble wall to the west and to the south.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 9917
+D1
+Exit ~
+door~
+0 0 9905
+S
+#9905
+White King's Knight One~
+You are standing on a slab of white marble, 8 feet by 8 feet.
+There is a black marble wall to the south.
+~
+0 0 0
+D0
+Exit ~
+door~
+0 0 9916
+D1
+Exit ~
+door~
+0 0 9903
+D3
+Exit ~
+door~
+0 0 9904
+S
+#9906
+White King One~
+You are standing on a slab of white marble, 8 feet by 8 feet.
+There is a black marble wall to the south.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9914
+D1
+Exit ~
+door~
+0 0 9907
+D3
+Exit ~
+door~
+0 0 9903
+S
+#9907
+White Queen One~
+You are standing on a slab of black marble, 8 feet by 8 feet.
+There is a white marble wall to the south.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9913
+D1
+Exit ~
+door~
+0 0 9908
+D3
+Exit ~
+door~
+0 0 9906
+S
+#9908
+White Queen's Bishop One~
+You are standing on a slab of black marble, 8 feet by 8 feet.
+There is a white marble wall to the south.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9912
+D1
+Exit ~
+door~
+0 0 9909
+D3
+Exit ~
+door~
+0 0 9907
+S
+#9909
+White Queen's Knight One~
+You are standing on a slab of white marble, 8 feet by 8 feet.
+There is a black marble wall to the south.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9911
+D1
+Exit ~
+door~
+0 0 9910
+D3
+Exit ~
+door~
+0 0 9908
+S
+#9910
+White Queen's Rook One~
+You are standing on a slab of black marble, 8 feet by 8 feet.
+There are white marble walls to both the south and the east.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9902
+D3
+Exit ~
+door~
+0 0 9909
+S
+#9911
+White Queen's Knight Two~
+You're standing on an eight by eight foot slab of white marble.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9924
+D1
+Exit ~
+door~
+0 0 9902
+D2
+Exit ~
+door~
+0 0 9909
+D3
+Exit ~
+door~
+0 0 9912
+S
+#9912
+White Queen's Bishop Two~
+You're standing on an 8 by 8 foot slab of black marble.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9923
+D1
+Exit ~
+door~
+0 0 9911
+D2
+Exit ~
+door~
+0 0 9908
+D3
+Exit ~
+door~
+0 0 9913
+S
+#9913
+White Queen Two~
+You're standing on an eight by eight foot slab of white marble.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9922
+D1
+Exit ~
+door~
+0 0 9912
+D2
+Exit ~
+door~
+0 0 9907
+D3
+Exit ~
+door~
+0 0 9914
+S
+#9914
+White King Two~
+You stand upon a black marble square 8' by 8'.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9921
+D1
+Exit ~
+door~
+0 0 9913
+D2
+Exit ~
+door~
+0 0 9906
+D3
+Exit ~
+door~
+0 0 9915
+S
+#9915
+White King's Bishop Two~
+You are standing on an 8' square slab of white marble.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9920
+D1
+Exit ~
+door~
+0 0 9914
+D2
+Exit ~
+door~
+0 0 9903
+D3
+Exit ~
+door~
+0 0 9916
+S
+#9916
+White King's Knight Two~
+You're on an 8 by 8 slab of black marble.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9919
+D1
+Exit ~
+door~
+0 0 9915
+D2
+Exit ~
+door~
+0 0 9905
+D3
+Exit ~
+door~
+0 0 9917
+S
+#9917
+White King's Rook Two~
+You're on an 8 foot by 8 foot slab of white marble.
+To the west is a black marble wall.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9918
+D1
+Exit ~
+door~
+0 0 9916
+D2
+Exit ~
+door~
+0 0 9904
+S
+#9918
+White King's Rook Three~
+You're on an 8 by 8 foot slab of black marble.
+To the west is a white marble wall.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9933
+D1
+Exit ~
+door~
+0 0 9919
+D2
+Exit ~
+door~
+0 0 9917
+S
+#9919
+White King's Knight Three~
+You're on an eight foot by eight foot slab of white marble.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9932
+D1
+Exit ~
+door~
+0 0 9920
+D2
+Exit ~
+door~
+0 0 9916
+D3
+Exit ~
+door~
+0 0 9918
+S
+#9920
+White King's Bishop Three~
+You're on an eight by eight foot slab of black marble.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9931
+D1
+Exit ~
+door~
+0 0 9921
+D2
+Exit ~
+door~
+0 0 9915
+D3
+Exit ~
+door~
+0 0 9919
+S
+#9921
+White King Three~
+This is a slab of white marble, eight feet by eight feet in size.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9930
+D1
+Exit ~
+door~
+0 0 9922
+D2
+Exit ~
+door~
+0 0 9914
+D3
+Exit ~
+door~
+0 0 9920
+S
+#9922
+White Queen Three~
+Plain and simple black marble, in a slab eight feet on both sides.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9929
+D1
+Exit ~
+door~
+0 0 9923
+D2
+Exit ~
+door~
+0 0 9913
+D3
+Exit ~
+door~
+0 0 9921
+S
+#9923
+White Queen's Bishop Three~
+Another simple, but effective delination of game position... An 8' by 8' slab
+of white marble.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9928
+D1
+Exit ~
+door~
+0 0 9924
+D2
+Exit ~
+door~
+0 0 9912
+D3
+Exit ~
+door~
+0 0 9922
+S
+#9924
+White Queen's Knight Three~
+You're on another black slab of marble, 8 feet by 8 feet.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9927
+D1
+Exit ~
+door~
+0 0 9925
+D2
+Exit ~
+door~
+0 0 9911
+D3
+Exit ~
+door~
+0 0 9923
+S
+#9925
+White Queen's Rook Three~
+This slab of white marble is eight feet squared.
+To the east, there is a wall of black marble.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9926
+D2
+Exit ~
+door~
+0 0 9902
+D3
+Exit ~
+door~
+0 0 9924
+S
+#9926
+White Queen's Rook Four~
+You're on an eight by eight foot of black marble.  There is a white marble
+wall on the eastern-most side of this room.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9941
+D2
+Exit ~
+door~
+0 0 9925
+D3
+Exit ~
+door~
+0 0 9927
+S
+#9927
+White Queen's Knight Four~
+You're on a slab of white marble 8' by 8'.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9940
+D1
+Exit ~
+door~
+0 0 9926
+D2
+Exit ~
+door~
+0 0 9924
+D3
+Exit ~
+door~
+0 0 9928
+S
+#9928
+White Queen's Bishop Four~
+You are upon a slab of black marble, eight feet by eight feet.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9939
+D1
+Exit ~
+door~
+0 0 9927
+D2
+Exit ~
+door~
+0 0 9923
+D3
+Exit ~
+door~
+0 0 9929
+S
+#9929
+White Queen Four~
+You're on a set of 4 square slabs of white marble, forming a larger square
+which is eight feet on a side.  There isn't any dirt between the smaller slabs.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9938
+D1
+Exit ~
+door~
+0 0 9928
+D2
+Exit ~
+door~
+0 0 9922
+D3
+Exit ~
+door~
+0 0 9930
+S
+#9930
+White King Four~
+You're on 4 slabs of black marble, each being 4 feet on each side.  They
+touch in the center, forming a larger square.  There is no dirt visible in
+the groove between the individual slabs.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9937
+D1
+Exit ~
+door~
+0 0 9929
+D2
+Exit ~
+door~
+0 0 9921
+D3
+Exit ~
+door~
+0 0 9931
+S
+#9931
+White King's Bishop Four~
+The marble slab you're on is white, and measures eight feet on each side.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9936
+D1
+Exit ~
+door~
+0 0 9930
+D2
+Exit ~
+door~
+0 0 9920
+D3
+Exit ~
+door~
+0 0 9932
+S
+#9932
+White King's Knight Four~
+The square you're on is of black marble, and is 8 feet on a side.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9935
+D1
+Exit ~
+door~
+0 0 9931
+D2
+Exit ~
+door~
+0 0 9919
+D3
+Exit ~
+door~
+0 0 9933
+S
+#9933
+White King's Rook Four~
+This eight foot square slab of white marble is bordered on the western side
+by a black marble wall.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9934
+D1
+Exit ~
+door~
+0 0 9932
+D2
+Exit ~
+door~
+0 0 9918
+S
+#9934
+Black Queen's Rook Four~
+This square is a black slab of marble, eight feet on the side.  To the west
+is a white marble wall.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9949
+D1
+Exit ~
+door~
+0 0 9935
+D2
+Exit ~
+door~
+0 0 9933
+S
+#9935
+Black Queen's Knight Four~
+You're on a slab of white marble, 8 feet on each side.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9948
+D1
+Exit ~
+door~
+0 0 9936
+D2
+Exit ~
+door~
+0 0 9932
+D3
+Exit ~
+door~
+0 0 9934
+E
+edit room~
+black
+~
+S
+#9936
+Black Queen's Bishop Four~
+A black slab of marble, 8 by 8, forms the floor of this square room.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9947
+D1
+Exit ~
+door~
+0 0 9937
+D2
+Exit ~
+door~
+0 0 9931
+D3
+Exit ~
+door~
+0 0 9935
+S
+#9937
+Black Queen Four~
+You're on a slab of white marble, 8 feet by 8 feet.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9946
+D1
+Exit ~
+door~
+0 0 9938
+D2
+Exit ~
+door~
+0 0 9930
+D3
+Exit ~
+door~
+0 0 9936
+S
+#9938
+Black King Four~
+Marble of the deepest black, almost unearthly; this slab, 8 feet on each
+side adsorbs the light here, and seems to lead... Elsewhere...
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9945
+D1
+Exit ~
+door~
+0 0 9939
+D2
+Exit ~
+door~
+0 0 9929
+D3
+Exit ~
+door~
+0 0 9937
+S
+#9939
+Black King's Bishop Four~
+You are upon a slab of white marble eight feet squared.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9944
+D1
+Exit ~
+door~
+0 0 9940
+D2
+Exit ~
+door~
+0 0 9928
+D3
+Exit ~
+door~
+0 0 9938
+S
+#9940
+Black King's Knight Four~
+This square is of black marble.  Eight feet on a side, it seems to be the
+standard for this chessboard.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9943
+D1
+Exit ~
+door~
+0 0 9941
+D2
+Exit ~
+door~
+0 0 9927
+S
+#9941
+Black King's Rook Four~
+You are upon a white marble slab, 8 feet squared.
+Bordering the east side is a black marble wall.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9942
+D2
+Exit ~
+door~
+0 0 9926
+D3
+Exit ~
+door~
+0 0 9940
+S
+#9942
+Black King's Rook Three~
+This is a square slab of black marble, eight feet on each side.
+There is a white marble wall to the east.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9957
+D2
+Exit ~
+door~
+0 0 9941
+D3
+Exit ~
+door~
+0 0 9943
+S
+#9943
+Black King's Knight Three~
+This square of white marble, 8 feet on a side, is one of many on this playing
+field.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9956
+D1
+Exit ~
+door~
+0 0 9942
+D2
+Exit ~
+door~
+0 0 9940
+D3
+Exit ~
+door~
+0 0 9944
+S
+#9944
+Black King's Bishop Three~
+This slab of black marble is 8 feet on a side.  It is one of many forming
+the playing field.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9955
+D1
+Exit ~
+door~
+0 0 9943
+D2
+Exit ~
+door~
+0 0 9939
+D3
+Exit ~
+door~
+0 0 9945
+S
+#9945
+Black King Three~
+This white slab of marble is 8 feet by 8 feet.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9954
+D1
+Exit ~
+door~
+0 0 9944
+D2
+Exit ~
+door~
+0 0 9938
+D3
+Exit ~
+door~
+0 0 9946
+S
+#9946
+Black Queen Three~
+You tread upon a square slab of black marble, 8 feet on each side.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9953
+D1
+Exit ~
+door~
+0 0 9945
+D2
+Exit ~
+door~
+0 0 9937
+D3
+Exit ~
+door~
+0 0 9947
+S
+#9947
+Black Queen's Bishop Three~
+You are on a white block of marble, eight feet by eight feet.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9952
+D1
+Exit ~
+door~
+0 0 9946
+D2
+Exit ~
+door~
+0 0 9936
+D3
+Exit ~
+door~
+0 0 9948
+S
+#9948
+Black Queen's Knight Three~
+This slab of black marble is 8' X 8', a perfect square.  It is standard for
+this gaming board.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9951
+D1
+Exit ~
+door~
+0 0 9947
+D2
+Exit ~
+door~
+0 0 9935
+D3
+Exit ~
+door~
+0 0 9949
+S
+#9949
+Black Queen's Rook Three~
+You are on a slab of white marble, eight feet squared.
+To the west, there is a solid wall of black marble.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9950
+D1
+Exit ~
+door~
+0 0 9948
+D2
+Exit ~
+door~
+0 0 9934
+S
+#9950
+Black Queen's Rook Two~
+You are on an eight by eight slab of black marble.
+To the west is a wall of white marble.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9965
+D1
+Exit ~
+door~
+0 0 9951
+D2
+Exit ~
+door~
+0 0 9949
+S
+#9951
+Black Queen's Knight Two~
+This slab of marble is eight feet on the side, and snow white.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9964
+D1
+Exit ~
+door~
+0 0 9952
+D2
+Exit ~
+door~
+0 0 9948
+D3
+Exit ~
+door~
+0 0 9950
+S
+#9952
+Black Queen's Bishop Two~
+This coal-black marble square is eight feet on each side.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9963
+D1
+Exit ~
+door~
+0 0 9953
+D2
+Exit ~
+door~
+0 0 9947
+D3
+Exit ~
+door~
+0 0 9951
+S
+#9953
+Black Queen Two~
+This grouping of 4 snow-white squares of marble, each 4 feet on each side
+comprise a greater square.  The seams between some of these blocks appear
+to be clear of refuse, as if there's something below.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9962
+D1
+Exit ~
+door~
+0 0 9954
+D2
+Exit ~
+door~
+0 0 9946
+D3
+Exit ~
+door~
+0 0 9952
+S
+#9954
+Black King Two~
+This square is  made of jet.  It is highly polished, and seems somewhat out
+of place, in this mostly marble board.  Eight feet on a side, it could have
+only been created by magical means.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9961
+D1
+Exit ~
+door~
+0 0 9955
+D2
+Exit ~
+door~
+0 0 9945
+D3
+Exit ~
+door~
+0 0 9953
+S
+#9955
+Black King's Bishop Two~
+This is a square, eight feet on a side, of marble inlayed with mother of
+pearl.  Unlike the rest of the board, it stands out.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9960
+D1
+Exit ~
+door~
+0 0 9956
+D2
+Exit ~
+door~
+0 0 9944
+D3
+Exit ~
+door~
+0 0 9954
+S
+#9956
+Black King's Knight Two~
+You're upon a slab of black marble, eight feet on each side, forming a square.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9959
+D1
+Exit ~
+door~
+0 0 9957
+D2
+Exit ~
+door~
+0 0 9943
+D3
+Exit ~
+door~
+0 0 9955
+S
+#9957
+Black King's Rook Two~
+You're upon a slab of white marble, eight feet on each side, forming a
+square.  There is a wall of black marble to the east.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 9958
+D2
+Exit ~
+door~
+0 0 9942
+D3
+Exit ~
+door~
+0 0 9956
+S
+#9958
+Black King's Rook One~
+This eight foot square slab of black marble is bordered on the east and north
+sides by a white marble wall.
+~
+0 0 5
+D2
+Exit ~
+door~
+0 0 9957
+D3
+Exit ~
+door~
+0 0 9959
+S
+#9959
+Black King's Knight One~
+You're upon an 8*8 slab of white marble.  To the north is a black marble wall.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 9958
+D2
+Exit ~
+door~
+0 0 9956
+D3
+Exit ~
+door~
+0 0 9960
+S
+#9960
+Black King's Bishop One~
+To the north is a white marble wall that borders the gameboard.  This square
+is eight feet on a side, and of the purest black marble.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 9959
+D2
+Exit ~
+door~
+0 0 9955
+D3
+Exit ~
+door~
+0 0 9961
+S
+#9961
+Black King One~
+Another slab of white marble forms the floor of this eight-foot playing
+sqare which is bordered by a black marble wall to the north.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 9960
+D2
+Exit ~
+door~
+0 0 9954
+D3
+Exit ~
+door~
+0 0 9962
+S
+#9962
+Black Queen One~
+This square block of black marble is eight feet on the side.  The room is
+bordered to the north by a white marble wall.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 9961
+D2
+Exit ~
+door~
+0 0 9953
+D3
+Exit ~
+door~
+0 0 9963
+S
+#9963
+Black Queen's Bishop One~
+To the north of this eight foot square block of white marble is a wall of the
+blackest marble.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 9962
+D2
+Exit ~
+door~
+0 0 9952
+D3
+Exit ~
+door~
+0 0 9964
+S
+#9964
+Black Queen's Knight One~
+Facing north, you come up against a wall of marble.  White marble.
+Below you, a 8 foot by 8 foot block of black  marble graces you with it's
+presence.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 9963
+D2
+Exit ~
+door~
+0 0 9951
+D3
+Exit ~
+door~
+0 0 9965
+S
+#9965
+Black Queen's Rook One~
+You are on a slab of white marble, 8' on each side.  It is perfectly square
+and bordered on the north and west by a wall of the blackest marble.
+~
+0 0 5
+D1
+Exit ~
+door~
+0 0 9964
+D2
+Exit ~
+door~
+0 0 9950
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+9900  9 19  5  8 12 	 150 200 	 0 24 	* Shopkeeper Elton Price
+0
+
+#SPECIALS
+S
+
+#$

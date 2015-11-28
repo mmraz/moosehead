@@ -3,8 +3,8 @@ Name Silvermane~
 SurN Kintaro~
 Id   1046931581
 Email (null)~
-LogO 1115380577
-Vers 31
+LogO 1321290274
+Vers 32
 Desc This age of pagan tormoil will very soon face the final judgemnet of the 
 {YAlmighty{x.  Safe is he that resides in the halls of the Church, for he has 
 truly found his salvation!  This ancient Bishop, chanting the rite of the
@@ -25,13 +25,14 @@ Prom (%h %m %v)[%X][{W%g.%s %n/%N %w{x][%a]%c[%r][%e] ~
 Race dragon~
 Clan zealot~
 Outc 0
-RufT 500
+RufT 453
 MatookT 0
-SkPTimer 13
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 1 5 0 11
 Steal 0 0 0
+MSteal 0
 LstK Popp~
 LstKBy Kalamity~
 LstAtkedBy no one~
@@ -39,10 +40,14 @@ LstAtkedByTimer 0
 LstCombatDate 1115380415
 LstKillDate 1083246345
 LstDeathDate 1107352700
-LoginsWOKill 25
-LoginsWODeath 2
-LoginsWOCombat 0
+LoginsWOKill 27
+LoginsWODeath 4
+LoginsWOCombat 2
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 215551 almighty~
 DeityT -11 almighty~
 Sac  400
@@ -52,24 +57,24 @@ Node 0
 Cap 0
 Created 1046931644
 Glad 0 0 0 0 0 1
-LastHost 146.230.193.251~
+LastHost 41.54.155.40~
 Cla  12
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 354371
+Plyd 356272
 Not  1097604591 1097604591 1097604591 1107331041 1097604591 1106873835 1097604591 1114975753 1097604591 1102104367
 Scro 98
 Rank 2
-Room 31816
-HMV  673 1355 305 1021 634 810
-Gold 433
-Silv 616
+Room 31806
+HMV  1355 1355 961 1021 810 810
+Gold 442
+Silv 732
 Exp  437838
 Act  CDGHIKMQS
 MHSF RUX
-AfBy CHJTV
+AfBy CJT
 Comm GI
 Disp FGIJN
 IcgB 0
@@ -77,25 +82,26 @@ Icg 0
 Wizn W
 Pnet ABCDEFGHI
 Pos  4
-Prac 19
+Prac 20
+Trai 12
 SkiP 36
-Save  -38
+Save  -29
 Alig  -1000
-Hit   23
+Hit   29
 Dam   13
-SecHit   23
+SecHit   29
 SecDam   13
 ACs -14 -16 -11 30
 Wimp  10
-Attr 21 23 25 21 23 17 20 18
-AMod 4 5 0 7 2 0 0 0
+Attr 21 23 25 21 23 11 14 18
+AMod 4 5 0 5 2 0 0 0
 Pass SixYQYE462UwE~
 Titl  {B..:""{x {WIceman{x {B"":..{x~
 Pnts 99
 TSex 1
 LLev 85
 HMVP 1140 900 810
-Cnd  0 33 48 48
+Cnd  0 0 32 19
 Alias kk who clan~
 Alias c chant~
 Alias skel chant 'summon dead'~
@@ -110,7 +116,7 @@ Alias cb chant 'cure blind'~
 Alias cd chant 'cure disease'~
 Alias x chant dem~
 Sk 99 'aid'
-Sk 1 'annointment'
+OldSk 1 'annointment'
 Sk 85 'armor'
 Sk 77 'bestow holiness'
 Sk 100 'bless'
@@ -132,7 +138,7 @@ Sk 1 'cure light'
 Sk 75 'cure poison'
 Sk 75 'cure serious'
 Sk 92 'curse'
-Sk 88 'demonfire'
+Sk 90 'demonfire'
 Sk 1 'detect evil'
 Sk 1 'detect good'
 Sk 85 'detect hidden'
@@ -193,7 +199,7 @@ Sk 81 'sacred guardian'
 Sk 95 'sanctuary'
 Sk 89 'shield'
 Sk 78 'shield of faith'
-Sk 95 'slow'
+Sk 97 'slow'
 Sk 80 'stone skin'
 Sk 99 'summon'
 Sk 78 'symbol i'
@@ -252,42 +258,35 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'haste'   0  21   6   2   2    2097152
-Affc 'sanctuary'   0  50   4   0   0        128
-Affc 'tower of iron will'   3  46   9   0   0      32768
+Affc 'bless'   0  45  11   6  18          0
+Affc 'bless'   0  45  11  -6  24          0
 End
 
 #O
 Vnum 23138
 Nest 0
 PrevOwner Silvermane~
-ExtF 18088193
 Cond 0
 Wear 18
 Cost 0
-Affc 'bless'   1  45  31  -1  20        256
 End
 
 #O
 Vnum 20733
 Nest 0
 PrevOwner Silvermane~
-ExtF 262400
 Cond 0
 Wear 15
 Cost 3000
-Affc 'bless'   1  46  31  -1  20        256
 End
 
 #O
 Vnum 11107
 Nest 0
 PrevOwner Silvermane~
-ExtF 256
 Cond 0
 Wear 12
 Cost 1500
-Affc 'bless'   1  47  31  -1  20        256
 End
 
 #O
@@ -303,35 +302,30 @@ End
 Vnum 23512
 Nest 0
 PrevOwner Silvermane~
-ExtF 17301824
 Cond 0
 Wear 2
 Cost 6740
-Affc 'bless'   1  46  30  -1  20        256
 End
 
 #O
 Vnum 23512
 Nest 0
 PrevOwner Silvermane~
-ExtF 17301824
 Cond 0
 Wear 1
 Cost 6740
-Affc 'bless'   1  45  29  -1  20        256
 End
 
 #O
 Vnum 5937
 Nest 0
 PrevOwner Silvermane~
-ExtF 134217984
+ExtF 134217728
 Wt   48
 Cond 0
 Wear 9
 Cost 4000
 Val  8 8 8 5 5
-Affc 'bless'   1  44  32  -1  20        256
 End
 
 #O
@@ -356,44 +350,36 @@ End
 Vnum 12080
 Nest 0
 PrevOwner Silvermane~
-ExtF 17563904
 Cond 0
 Wear 8
 Cost 4500
-Affc 'bless'   1  47  32  -1  20        256
 End
 
 #O
 Vnum 12004
 Nest 0
 PrevOwner Silvermane~
-ExtF 2304
 Cond 0
 Wear 7
 Cost 40
-Affc 'bless'   1  43  30  -1  20        256
 End
 
 #O
 Vnum 12079
 Nest 0
 PrevOwner Silvermane~
-ExtF 17301760
 Cond 0
 Wear 10
 Cost 0
-Affc 'bless'   1  48  31  -1  20        256
 End
 
 #O
 Vnum 22504
 Nest 0
 PrevOwner Silvermane~
-ExtF 16777473
 Cond 0
 Wear 0
 Cost 0
-Affc 'bless'   1  44  29  -1  20        256
 End
 
 #O
@@ -410,22 +396,18 @@ End
 Vnum 16721
 Nest 0
 PrevOwner Silvermane~
-ExtF 257
 Cond 0
 Wear 4
 Cost 1400
-Affc 'bless'   1  50  30  -1  20        256
 End
 
 #O
 Vnum 16721
 Nest 0
 PrevOwner Silvermane~
-ExtF 257
 Cond 0
 Wear 3
 Cost 1400
-Affc 'bless'   1  47  30  -1  20        256
 End
 
 #O
@@ -587,16 +569,6 @@ Spell 3 'energy drain'
 End
 
 #O
-Vnum 8063
-Nest 1
-PrevOwner Silvermane~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'energy drain'
-End
-
-#O
 Vnum 10419
 Nest 1
 PrevOwner Silvermane~
@@ -652,11 +624,9 @@ End
 Vnum 20733
 Nest 0
 PrevOwner Silvermane~
-ExtF 262400
 Cond 0
 Wear 14
 Cost 3000
-Affc 'bless'   1  46  31  -1  20        256
 End
 
 #O
@@ -672,11 +642,9 @@ End
 Vnum 15215
 Nest 0
 PrevOwner Silvermane~
-ExtF 322
 Cond 0
 Wear 13
 Cost 9000
-Affc 'bless'   1  47  31  -1  20        256
 End
 
 #O
@@ -726,17 +694,6 @@ Cost 400
 End
 
 #O
-Vnum 10419
-Nest 0
-PrevOwner Silvermane~
-ExtF 256
-Cond 0
-Wear 16
-Cost 1330
-Affc 'bless'   1  50  48  -1  20        256
-End
-
-#O
 Vnum 18105
 Nest 0
 PrevOwner (null)~
@@ -749,21 +706,21 @@ End
 Vnum 28024
 Nest 0
 PrevOwner (null)~
-ExtF 256
 Cond 0
 Wear 17
 Cost 3000
-Affc 'bless'   1  46  30  -1  20        256
 End
 
 #O
-Vnum 9573
+Vnum 10419
 Nest 0
 PrevOwner Silvermane~
+ExtF 256
+Stolen 50
 Cond 0
-Wear -1
-Cost 820
-Spell 1 'haste'
+Wear 16
+Cost 1330
+Affc 'bless'   1  39   1  -1  20        256
 End
 
 #END

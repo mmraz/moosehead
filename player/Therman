@@ -3,21 +3,22 @@ Name Therman~
 SurN Ivorytooth~
 Id   848508297
 Email (null)~
-LogO 1130081206
-Vers 31
+LogO 1388826289
+Vers 33
 LnD  A Gladiator~
 Desc Ancient White Snail
 ~
-Prom <%S %n/%N>%c<%hhp %mm %vmv> ~
+Prom <%S %n/%N %w/%W %e>%c<%h/%Hhp %m/%Mm %v/%Vmv>%c~
 Race dragon~
 Outc 0
 RufT 0
-MatookT 0
+MatookT 7312
 SkPTimer 0
-SkPTracker 6
+SkPTracker 0
 LogoutTracker 0
 Kill 3 3 0 0
 Steal 0 0 0
+MSteal 0
 LstK Wardo~
 LstKBy Arcane~
 LstAtkedBy no one~
@@ -29,6 +30,12 @@ LoginsWOKill 0
 LoginsWODeath 64
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 12
+QuestWins 2 13
 Deity 3253647 huitzilopochtli~
 DeityT -1147 huitzilopochtli~
 Sac  300
@@ -37,50 +44,54 @@ Vump  0
 Node 0
 Cap 0
 Created 951447949
-Glad 0 0 1 1 1 1
-LastHost e81-197-72-54.elisa-laajakaista.fi~
+Glad 1 0 1 1 1 1
+LastHost 91.155.177.70~
 Cla  7
 Kit medium~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 3478837
-Not  1130080287 1130080287 1130080287 1130080287 1130080287 1130080287 1130080287 1130080287 1130080287 1130080287
-Scro 22
+Plyd 4364968
+Not  1388826055 1388826055 1388826055 1388826055 1388826055 1388826055 1388826055 1388826055 1388826055 1388826055
+Scro 98
 Rank 0
-Room 3054
-HMV  1230 1235 605 1225 254 512
-Gold 342
-Silv 1733
+Room 16503
+HMV  1235 1235 1225 1225 512 512
+Gold 566
+Silv 5067
+BankEggs 5
+BankBricks 11
 Exp  448920
 Act  BDEFGIKMQRUd
 MHSF R
-AfBy BCDEFHJTW
-Comm O
+AfBy EJTVW
+Comm OS
 Disp FIJM
 IcgB 0
 Icg 0
-Pnet ABCDEFGHI
-Pos  8
-Prac 40
-Trai 1
-SkiP 142
-Save  -20
-Alig  -856
-Hit   39
+Pnet ABCDEFGHIJ
+TimeStamps 256
+TimeStmpColor WcW~
+Pos  5
+Prac 37
+ReTrai 3
+SkiP 143
+Save  -14
+Alig  -1000
+Hit   33
 Dam   34
-SecHit   27
+SecHit   21
 SecDam   22
-ACs -53 -47 -48 -50
-Attr 23 25 25 23 25 13 13 18
-AMod 3 2 0 6 3 2 0 0
-Pass ThbZXRThbs5do~
+ACs -64 -58 -59 -61
+Attr 23 25 25 23 25 11 14 18
+AMod 3 2 0 8 3 2 0 0
+Pass ThaifJemJirKA~
 Titl , Last Arch Druid in society of dragons~
 Pnts 100
 TSex 1
 LLev 1
 HMVP 1130 780 477
-Cnd  0 33 39 37
+Cnd  0 0 30 12
 Alias p ord all rescue therman~
 Alias + c 'dispel magic'~
 Alias 2 c 'orb of surprise'~
@@ -89,6 +100,7 @@ Alias 3 c 'orb of turning'~
 Alias 8 c 'faerie fog'~
 Alias b buy~
 Alias 1 c 'orb of touch'~
+Alias o bleed~
 Sk 100 'acid blast'
 OldSk 1 'acid blast'
 Sk 98 'acclimate'
@@ -108,7 +120,7 @@ Sk 100 'body weaponry'
 OldSk 1 'body weaponry'
 Sk 1 'burning hands'
 OldSk 1 'burning hands'
-Sk 77 'call lightning'
+Sk 78 'call lightning'
 OldSk 1 'call lightning'
 Sk 100 'calm'
 OldSk 1 'calm'
@@ -117,7 +129,7 @@ OldSk 1 'cancellation'
 Sk 1 'cause critical'
 Sk 1 'cause light'
 Sk 1 'cause serious'
-Sk 94 'chain lightning'
+Sk 98 'chain lightning'
 OldSk 1 'chain lightning'
 Sk 1 'change sex'
 OldSk 1 'change sex'
@@ -127,7 +139,6 @@ Sk 78 'chill touch'
 OldSk 1 'chill touch'
 Sk 1 'colour spray'
 OldSk 1 'colour spray'
-Sk 75 'cone of silence'
 Sk 84 'continual light'
 OldSk 75 'continual light'
 Sk 75 'control weather'
@@ -178,7 +189,7 @@ Sk 100 'dispel magic'
 OldSk 1 'dispel magic'
 Sk 100 'earthquake'
 OldSk 1 'earthquake'
-Sk 89 'enchant armor'
+Sk 92 'enchant armor'
 OldSk 1 'enchant armor'
 Sk 100 'enchant weapon'
 OldSk 1 'enchant weapon'
@@ -233,7 +244,7 @@ Sk 95 'heat metal'
 OldSk 1 'heat metal'
 Sk 1 'hold person'
 OldSk 1 'hold person'
-Sk 43 'holy word'
+Sk 75 'holy word'
 OldSk 1 'holy word'
 Sk 91 'hydrophilia'
 Sk 100 'identify'
@@ -276,7 +287,7 @@ Sk 91 'plague'
 OldSk 1 'plague'
 Sk 100 'poison'
 OldSk 1 'poison'
-Sk 79 'portal'
+Sk 81 'portal'
 OldSk 1 'portal'
 Sk 96 'protection evil'
 OldSk 75 'protection evil'
@@ -303,9 +314,9 @@ Sk 100 'sanctuary'
 OldSk 1 'sanctuary'
 Sk 100 'shield'
 OldSk 1 'shield'
-Sk 79 'shield of blades'
+Sk 80 'shield of blades'
 Sk 75 'shield of brambles'
-Sk 90 'shield of faith'
+Sk 93 'shield of faith'
 Sk 75 'shield of spikes'
 Sk 78 'shield of thorns'
 Sk 1 'shocking grasp'
@@ -314,7 +325,7 @@ Sk 100 'sleep'
 OldSk 78 'sleep'
 Sk 100 'slow'
 OldSk 1 'slow'
-Sk 86 'sonic blast'
+Sk 95 'sonic blast'
 Sk 100 'stone skin'
 OldSk 1 'stone skin'
 Sk 100 'summon'
@@ -341,7 +352,7 @@ Sk 77 'gas breath'
 OldSk 1 'gas breath'
 Sk 75 'lightning breath'
 OldSk 1 'lightning breath'
-Sk 83 'animate dead'
+Sk 85 'animate dead'
 OldSk 1 'animate dead'
 Sk 100 'summon dead'
 OldSk 1 'summon dead'
@@ -354,7 +365,7 @@ Sk 100 'turn undead'
 OldSk 1 'turn undead'
 Sk 99 'withstand death'
 OldSk 1 'withstand death'
-Sk 75 'wound transfer'
+Sk 76 'wound transfer'
 OldSk 1 'wound transfer'
 Sk 100 'axe'
 Sk 100 'dagger'
@@ -376,10 +387,11 @@ OldSk 1 'parry'
 OldSk 63 'shield block'
 Sk 100 'scan'
 OldSk 65 'scan'
+Sk 81 'second attack'
 Sk 100 'meditation'
 OldSk 70 'meditation'
-Sk 91 'peek'
-Sk 76 'pick lock'
+Sk 100 'peek'
+Sk 79 'pick lock'
 Sk 87 'scrolls'
 OldSk 71 'scrolls'
 Sk 75 'staves'
@@ -388,7 +400,7 @@ Sk 86 'wands'
 OldSk 81 'wands'
 Sk 100 'swimming'
 OldSk 50 'swimming'
-Sk 50 'recall'
+Sk 100 'recall'
 OldSk 50 'recall'
 Gr 'rom basics'
 Gr 'druid basics'
@@ -414,498 +426,8 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'invisibility'   0  54  65   0   0          2
-Affc 'sanctuary'   0  55   8   0   0        128
-Affc 'detect magic'   0  47  36   0   0         16
-Affc 'detect hidden'   0  51  35   0   0         32
-Affc 'detect invis'   0  48  36   0   0          8
-Affc 'detect evil'   0  42   2   0   0          4
-Affc 'bless'   0  40   9   6  18          0
-Affc 'bless'   0  45   9  -6  24          0
-End
-
-#O
-Vnum 23577
-Nest 0
-PrevOwner Therman~
-Name Ear ~
-ShD  Your Ear~
-Desc a Cut off ear is on the ground~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 0
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 20735
-Nest 1
-PrevOwner Therman~
-Cond 0
-Wear -1
-Cost 1500
-Spell 1 'detect evil'
-Spell 2 'detect good'
-Spell 3 'bless'
-End
-
-#O
-Vnum 10419
-Enchanted
-Nest 1
-PrevOwner Therman~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 1330
-Val  3 7 6 11 38
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'enchant weapon'   1  53  -1  12  19          0
-End
-
-#O
-Vnum 22507
-Enchanted
-Nest 0
-PrevOwner Therman~
-Cond 0
-Wear 12
-Cost 0
-Affc 'reserved'   1  50  -1  75  12          0
-Affc 'reserved'   1  50  -1   3   2          0
-Affc 'reserved'   1  50  -1   2   3          0
+Affc 'haste'   0  20   7   2   2    2097152
+Affc 'detect magic'   0  43   9   0   0         16
 End
 
 #O
@@ -916,23 +438,6 @@ ExtF 65
 Cond 0
 Wear 13
 Cost 600
-End
-
-#O
-Vnum 10447
-Enchanted
-Nest 0
-PrevOwner Therman~
-ExtF 134217793
-Wt   36
-Cond 0
-Wear 5
-Lev  50
-Cost 13700
-Val  6 6 6 12 5
-Affc 'reserved'   1  45  -1  -4  20          0
-Affc 'reserved'   1  45  -1  30  12          0
-Affc 'enchant armor'   1  53  -1 -12  17          0
 End
 
 #O
@@ -978,16 +483,6 @@ Cost 6740
 End
 
 #O
-Vnum 23512
-Nest 0
-PrevOwner Therman~
-ExtF 17301569
-Cond 0
-Wear 1
-Cost 6740
-End
-
-#O
 Vnum 23513
 Nest 0
 PrevOwner Therman~
@@ -1025,46 +520,6 @@ Affc 'reserved'   1  44  -1  35  13          0
 End
 
 #O
-Vnum 8545
-Nest 0
-PrevOwner Therman~
-ExtF 135274497
-Wt   33
-Wrp 1
-Cond 0
-Wear 9
-Cost 3400
-Val  8 2 8 10 5
-End
-
-#O
-Vnum 8544
-Enchanted
-Nest 0
-PrevOwner Therman~
-ExtF 134225985
-Wt   24
-Cond 0
-Wear 14
-Cost 9999
-Val  6 6 6 4 5
-Affc 'reserved'   1  48  -1   3  19          0
-Affc 'reserved'   1  48  -1   2  18          0
-End
-
-#O
-Vnum 8544
-Nest 0
-PrevOwner Therman~
-ExtF 134225985
-Wt   24
-Cond 0
-Wear 15
-Cost 9999
-Val  6 6 6 4 5
-End
-
-#O
 Vnum 8543
 Nest 0
 PrevOwner (null)~
@@ -1097,10 +552,14 @@ End
 #O
 Vnum 18105
 Nest 0
-PrevOwner (null)~
+PrevOwner Therman~
+ExtF 134217987
+Wt   11
+Wrp 1
 Cond 0
 Wear 11
 Cost 4500
+Val  5 5 0 0 5
 End
 
 #O
@@ -1116,6 +575,16 @@ Val  10 10 10 10 5
 End
 
 #O
+Vnum 23512
+Nest 0
+PrevOwner Therman~
+ExtF 17301569
+Cond 0
+Wear 1
+Cost 6740
+End
+
+#O
 Vnum 22552
 Enchanted
 Nest 0
@@ -1124,13 +593,696 @@ Name icy finger death~
 ShD  {bIcy{x finger of {wdeath{x~
 Desc A cut off finger is on the ground.~
 ExtF 67
-Stolen 51
 Cond 0
 Wear 16
 Cost 0
 Val  2 10 4 39 6
 Affc 'enchant weapon'   1  53  -1  12  19          0
 Affc 'enchant weapon'   0  53  -1  12  18          0
+End
+
+#O
+Vnum 8544
+Enchanted
+Nest 0
+PrevOwner Therman~
+ExtF 134217793
+Wt   24
+Cond 0
+Wear 14
+Lev  50
+Cost 9999
+Val  6 6 6 4 5
+Affc 'enchant armor'   1  55  -1  -5  17          0
+Affc 'reserved'   1  48  -1   3  19          0
+Affc 'reserved'   1  48  -1   2  18          0
+End
+
+#O
+Vnum 8544
+Enchanted
+Nest 0
+PrevOwner Therman~
+ExtF 134225985
+Wt   24
+Wrp 1
+Cond 0
+Wear 15
+Lev  50
+Cost 9999
+Val  6 6 6 4 5
+Affc 'reserved'   1  48  -1   3  19          0
+Affc 'reserved'   1  48  -1   2  18          0
+Affc 'enchant armor'   1  54  -1  -3  17          0
+End
+
+#O
+Vnum 10447
+Enchanted
+Nest 0
+PrevOwner Therman~
+ExtF 134217793
+Wt   36
+Cond 0
+Wear 5
+Lev  49
+Cost 13700
+Val  6 6 6 12 5
+Affc 'enchant armor'   1  54  -1  -6  17          0
+Affc 'reserved'   1  45  -1  -4  20          0
+Affc 'reserved'   1  45  -1  30  12          0
+End
+
+#O
+Vnum 22507
+Enchanted
+Nest 0
+PrevOwner Therman~
+ExtF 134479873
+Wt   12
+Cond 0
+Wear 12
+Cost 0
+Val  12 12 12 15 5
+Affc 'reserved'   1  50  -1  75  12          0
+Affc 'reserved'   1  50  -1   3   2          0
+Affc 'reserved'   1  50  -1   2   3          0
+End
+
+#O
+Vnum 8545
+Enchanted
+Nest 0
+PrevOwner (null)~
+ExtF 1048641
+Cond 0
+Wear 9
+Cost 3400
+Affc 'enchant armor'   1  55  -1  -7  17          0
+Affc 'reserved'   1  50  -1   2  18          0
+Affc 'reserved'   1  50  -1   3  19          0
+End
+
+#O
+Vnum 23577
+Nest 0
+PrevOwner Therman~
+Name Ear ~
+ShD  Your Ear~
+Desc a Cut off ear is on the ground~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2506
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+Spell 3 'word of recall'
+End
+
+#O
+Vnum 12008
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10419
+Enchanted
+Nest 1
+PrevOwner Therman~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1330
+Val  3 7 6 11 38
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 5907
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 10449
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
+End
+
+#O
+Vnum 29
+Nest 1
+PrevOwner Therman~
+Cond 0
+Wear -1
+Cost 0
+Val  51 169 -1 -1 -1
+Spell 1 'restore mana'
 End
 
 #END

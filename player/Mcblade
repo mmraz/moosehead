@@ -2,7 +2,7 @@
 Name McBlade~
 Id   922268733
 Email (null)~
-LogO 1115467292
+LogO 1316956957
 Vers 31
 LnD  A Gladiator~
 Desc You see very handsome human, who has quite strong body.
@@ -25,7 +25,7 @@ Desc You see very handsome human, who has quite strong body.
 'Something on your mind, friend'
 
 ~
-Prom %hHP %mM %vMV {Y%g {W%s {x%w %n/%N %t:00%c:%e: ~
+Prom %hhp %mm %vmv {Y%g{x {W%s{x %n/%N %w/%W%c%e ~
 Race human~
 Clan matook~
 Outc 0
@@ -47,6 +47,9 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+QuestWins 0 0
 Deity 254320 mojo~
 DeityT -13954 mojo~
 Sac  300
@@ -56,53 +59,55 @@ Node 0
 Cap 0
 Created 951501339
 Glad 2 2 0 0 5 0
-LastHost YGMYDCXXV.dsl.saunalahti.fi~
+LastHost 84.231.179.199~
 Cla  11
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 1448894
-Not  1115151441 1114209301 1058382153 1115324225 1110312209 1115064035 1058382153 1110177501 1058382153 1111048001
+Plyd 1538856
+Not  1316956738 1316956738 1316956738 1316956738 1316956738 1316956738 1316956738 1316956738 1316956738 1316956738
 Scro 22
 Rank 0
 Room 3001
-HMV  647 647 1506 1506 362 362
-Gold 166
-Silv 2415
+HMV  822 822 1171 1171 362 362
+Gold 1141
+Silv 2598
 Exp  132649
-Act  CDGHIQU
+Act  DEGHIQRU
 MHSF R
-AfBy W
+AfBy CDEFc
 Comm 0
-Disp BFIJN
+Disp FIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-SkiP 31
-Save  -6
-Alig  1000
-Hit   9
-Dam   3
-SecHit   3
-SecDam   1
-ACs -34 -34 -34 -26
+Prac 17
+ReTrai 8
+SkiP 19
+Save  -8
+Alig  -1000
+Hit   25
+Dam   24
+SecHit   18
+SecDam   12
+ACs -55 -55 -55 -40
 Wimp  20
-Attr 18 21 18 18 18 18 18 25
-AMod 4 4 2 0 -4 0 0 0
+Attr 18 21 18 18 18 10 10 25
+AMod 6 5 3 2 1 0 0 0
 Pass McKao3St43Spo~
-Titl  life sucks and then you fucking die, you know~
+Titl  {BT{xeam {BT{xampere 4 life!~
 Pnts 66
 TSex 1
 LLev 137
-HMVP 607 821 362
-Cnd  0 48 48 48
+HMVP 617 891 362
+Cnd  0 16 31 31
 Alias 1 bleed~
 Alias r c 'word of recall'~
 Alias ew c 'enchant weapon'~
 Alias ea c 'enchant armor'~
-Alias np say Be careful, life sucks and then you fucking die, you know?!~
+Alias np say Be careful, and don't run into any sharp objects!~
 Alias 0 get all corpse~
 Alias 9 get all bag~
 Alias 2 c 'famine'~
@@ -112,6 +117,7 @@ Alias 8 drop bag~
 Alias 7 sac bag~
 Alias 5 get gold corpse~
 Alias fog c 'faerie fog'~
+Alias recall cast 'word of recall~
 Sk 100 'acid blast'
 OldSk 1 'acid blast'
 Sk 100 'armor'
@@ -132,22 +138,22 @@ Sk 85 'chain lightning'
 OldSk 1 'chain lightning'
 Sk 1 'change sex'
 OldSk 1 'change sex'
-Sk 83 'charm person'
+Sk 87 'charm person'
 OldSk 75 'charm person'
-Sk 75 'chill touch'
+Sk 78 'chill touch'
 OldSk 1 'chill touch'
 Sk 87 'colour spray'
 OldSk 78 'colour spray'
 Sk 1 'cone of silence'
-Sk 88 'continual light'
+Sk 91 'continual light'
 OldSk 76 'continual light'
-Sk 75 'control weather'
+Sk 81 'control weather'
 OldSk 1 'control weather'
 Sk 100 'create food'
 OldSk 96 'create food'
-Sk 75 'create fountain'
+Sk 76 'create fountain'
 OldSk 1 'create fountain'
-Sk 75 'create rose'
+Sk 82 'create rose'
 OldSk 1 'create rose'
 Sk 75 'create spring'
 OldSk 1 'create spring'
@@ -159,18 +165,18 @@ Sk 77 'detect evil'
 OldSk 1 'detect evil'
 Sk 91 'detect good'
 OldSk 1 'detect good'
-Sk 95 'detect hidden'
+Sk 97 'detect hidden'
 OldSk 77 'detect hidden'
 Sk 100 'detect invis'
 OldSk 77 'detect invis'
-Sk 95 'detect magic'
+Sk 100 'detect magic'
 OldSk 1 'detect magic'
 Sk 75 'detect poison'
 OldSk 1 'detect poison'
-Sk 84 'diamond skin'
+Sk 86 'diamond skin'
 Sk 100 'dispel magic'
 OldSk 77 'dispel magic'
-Sk 84 'enchant armor'
+Sk 87 'enchant armor'
 OldSk 75 'enchant armor'
 Sk 100 'enchant weapon'
 OldSk 80 'enchant weapon'
@@ -201,7 +207,7 @@ OldSk 75 'fireproof'
 Sk 98 'flameseek'
 Sk 82 'floating disc'
 OldSk 1 'floating disc'
-Sk 90 'fly'
+Sk 92 'fly'
 OldSk 78 'fly'
 Sk 91 'forget'
 OldSk 75 'forget'
@@ -215,7 +221,7 @@ Sk 100 'haste'
 OldSk 81 'haste'
 Sk 100 'identify'
 OldSk 83 'identify'
-Sk 90 'infravision'
+Sk 93 'infravision'
 OldSk 75 'infravision'
 Sk 92 'invisibility'
 OldSk 75 'invisibility'
@@ -225,7 +231,7 @@ Sk 75 'know alignment'
 OldSk 75 'know alignment'
 Sk 75 'lightning bolt'
 OldSk 75 'lightning bolt'
-Sk 89 'locate object'
+Sk 94 'locate object'
 OldSk 75 'locate object'
 Sk 81 'magic missile'
 OldSk 85 'magic missile'
@@ -235,7 +241,7 @@ Sk 75 'nexus'
 OldSk 1 'nexus'
 Sk 86 'pass door'
 OldSk 75 'pass door'
-Sk 78 'plague'
+Sk 83 'plague'
 OldSk 75 'plague'
 Sk 90 'poison'
 OldSk 75 'poison'
@@ -243,7 +249,7 @@ Sk 80 'portal'
 OldSk 1 'portal'
 Sk 84 'protection evil'
 OldSk 75 'protection evil'
-Sk 75 'protection good'
+Sk 78 'protection good'
 OldSk 1 'protection good'
 Sk 75 'protection neutral'
 OldSk 1 'protection neutral'
@@ -255,16 +261,16 @@ Sk 1 'sacred guardian'
 OldSk 1 'sacred guardian'
 Sk 100 'sanctuary'
 OldSk 1 'sanctuary'
-Sk 99 'shield'
+Sk 100 'shield'
 OldSk 80 'shield'
 Sk 76 'shocking grasp'
 OldSk 1 'shocking grasp'
-Sk 82 'sleep'
+Sk 85 'sleep'
 OldSk 75 'sleep'
 Sk 100 'slow'
 OldSk 75 'slow'
 Sk 75 'steel skin'
-Sk 81 'stone skin'
+Sk 87 'stone skin'
 OldSk 75 'stone skin'
 Sk 100 'summon'
 OldSk 75 'summon'
@@ -289,18 +295,19 @@ OldSk 1 'draw life'
 Sk 78 'make bag'
 Sk 93 'turn undead'
 OldSk 75 'turn undead'
-Sk 83 'withstand death'
+Sk 86 'withstand death'
 OldSk 1 'withstand death'
 Sk 75 'wound transfer'
 OldSk 1 'wound transfer'
 Sk 100 'dagger'
 OldSk 96 'dagger'
 Sk 100 'mace'
-Sk 70 'whip'
+Sk 100 'whip'
 Sk 100 'bleed'
 Sk 100 'dodge'
 Sk 100 'enhanced damage'
-Sk 79 'scan'
+Sk 81 'parry'
+Sk 81 'scan'
 OldSk 50 'scan'
 Sk 100 'second attack'
 Sk 100 'haggle'
@@ -313,9 +320,9 @@ Sk 75 'scrolls'
 OldSk 1 'scrolls'
 Sk 86 'staves'
 OldSk 1 'staves'
-Sk 75 'wands'
+Sk 78 'wands'
 OldSk 1 'wands'
-Sk 78 'swimming'
+Sk 81 'swimming'
 OldSk 50 'swimming'
 Sk 50 'recall'
 OldSk 50 'recall'
@@ -335,57 +342,12 @@ Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-End
-
-#O
-Vnum 10447
-Enchanted
-Nest 0
-PrevOwner McBlade~
-Name attack chestplate~
-ShD  {RAttack Chestplate{x~
-Desc {RAttack Chestplate{x.~
-ExtF 65
-Cond 0
-Wear 5
-Lev  50
-Cost 13700
-Affc 'enchant armor'   1  52  -1 -10  17          0
-Affc 'reserved'   1  45  -1  30  12          0
-Affc 'reserved'   1  45  -1  -4  20          0
-End
-
-#O
-Vnum 17631
-Nest 0
-PrevOwner McBlade~
-Name attack light~
-ShD  {RAttack Light{x~
-Desc {RAttack Light{x.~
-Cond 0
-Wear 0
-Cost 250
-End
-
-#O
-Vnum 6434
-Nest 0
-PrevOwner McBlade~
-Name signet ring family~
-ShD  {RSignet{x ring of McBlade's family~
-Desc A {RSignet{x ring of McBlade's family is here.~
-Cond 0
-Wear 2
-Cost 5300
-End
-
-#O
-Vnum 2440
-Nest 0
-PrevOwner McBlade~
-Cond 0
-Wear 15
-Cost 300
+Affc 'detect invis'   0  45   7   0   0          8
+Affc 'detect magic'   0  41  11   0   0         16
+Affc 'detect evil'   0  44  10   0   0          4
+Affc 'detect hidden'   0  45   9   0   0         32
+Affc 'giant strength'   0  47  10   4   1          0
+Affc 'stone skin'   0  45  10 -40  17          0
 End
 
 #O
@@ -395,7 +357,7 @@ PrevOwner McBlade~
 Name bag beta Wicked old witch~
 ShD  a bag made from Wicked old witch's hide~
 Desc A bag of fine Wicked old witch hide catches your eye.  ~
-ExtF 0
+ExtF 1
 WeaF 16385
 Wt   5
 Cond 0
@@ -406,17 +368,34 @@ Val  450 1 -1 90 25
 End
 
 #O
-Vnum 2405
+Vnum 12079
 Nest 1
 PrevOwner McBlade~
-Name nature rune grace water~
-ShD  {W({DE{Ws{xs{De{Wn{xc{De{W) {Ga{C R{xu{Gn{Ce{x o{Gf{C N{xa{Gt{Cu{xr{Ge{x~
-Desc Nature's grace is kept in this Rune.~
-ExtF 17694977
+Name attack bands~
+ShD  {RAttack Bands{x~
+Desc {RAttack Bands{x.~
+ExtF 17301505
 Cond 0
 Wear -1
-Cost 1000
-Val  48 0 0 0 0
+Cost 0
+End
+
+#O
+Vnum 12004
+Enchanted
+Nest 1
+PrevOwner McBlade~
+Name attack trousers~
+ShD  {RAttack Trousers{x~
+Desc {RAttack Trousers{x.~
+ExtF 2113
+Cond 0
+Wear -1
+Lev  49
+Cost 40
+Affc 'reserved'   1  44  -1   3   2          0
+Affc 'reserved'   1  44  -1  35  13          0
+Affc 'enchant armor'   1  52  -1  -6  17          0
 End
 
 #O
@@ -430,24 +409,6 @@ ExtF 17563649
 Cond 0
 Wear -1
 Cost 4500
-End
-
-#O
-Vnum 15227
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 20000
-End
-
-#O
-Vnum 8546
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 10300
 End
 
 #O
@@ -479,72 +440,6 @@ Cost 6300
 End
 
 #O
-Vnum 12082
-Enchanted
-Nest 1
-PrevOwner McBlade~
-ExtF 17301569
-Cond 0
-Wear -1
-Cost 22334
-Affc 'enchant armor'   1  52  -1  -2  17          0
-Affc 'reserved'   1  51  -1   2  19          0
-End
-
-#O
-Vnum 12004
-Enchanted
-Nest 1
-PrevOwner McBlade~
-Name attack trousers~
-ShD  {RAttack Trousers{x~
-Desc {RAttack Trousers{x.~
-ExtF 2113
-Cond 0
-Wear -1
-Lev  49
-Cost 40
-Affc 'reserved'   1  44  -1   3   2          0
-Affc 'reserved'   1  44  -1  35  13          0
-Affc 'enchant armor'   1  52  -1  -6  17          0
-End
-
-#O
-Vnum 18111
-Nest 1
-PrevOwner McBlade~
-Name attack collar~
-ShD  {RAttack Collar{x~
-Desc {RAttack Collar{x.~
-ExtF 1048641
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 18111
-Nest 1
-PrevOwner McBlade~
-Name attack scarf~
-ShD  {RAttack Scarf{x~
-Desc {RAttack Scarf{x.~
-ExtF 1048641
-Cond 0
-Wear -1
-Cost 1500
-End
-
-#O
-Vnum 6404
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 11600
-End
-
-#O
 Vnum 8545
 Nest 1
 PrevOwner McBlade~
@@ -563,45 +458,404 @@ Cost 4250
 End
 
 #O
-Vnum 22566
-Enchanted
+Vnum 8544
 Nest 1
 PrevOwner McBlade~
-Name attack belt~
-ShD  {RAttack Belt{x~
-Desc {RAttack Belt{x.~
-ExtF 65
 Cond 0
 Wear -1
-Lev  49
-Cost 0
-Affc 'reserved'   1  45  -1   5  18          0
-Affc 'reserved'   1  45  -1   3  19          0
-Affc 'enchant armor'   1  53  -1  -5  17          0
+Cost 9999
 End
 
 #O
-Vnum 2513
+Vnum 2440
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 300
+End
+
+#O
+Vnum 20740
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 662
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2600
+End
+
+#O
+Vnum 17631
+Nest 1
+PrevOwner McBlade~
+Name attack light~
+ShD  {RAttack Light{x~
+Desc {RAttack Light{x.~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 23129
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 8040
+Nest 1
+PrevOwner McBlade~
+ExtF 18350401
+Cond 0
+Wear -1
+Cost 2500
+End
+
+#O
+Vnum 23021
 Nest 0
 PrevOwner McBlade~
-ExtF 16779777
+ExtF 16778241
 Cond 0
 Wear -1
 Cost 710
 End
 
 #O
-Vnum 10069
+Vnum 8546
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 10300
+End
+
+#O
+Vnum 2602
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 5800
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner McBlade~
+Name cyan clump dakky playdoh~
+ShD  a {Ccyan{x clump of Dakky's Play-Doh~
+Desc A {Ccyan{x clump of Dakky's Play-Doh lies here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 11083
 Enchanted
 Nest 1
 PrevOwner McBlade~
-ExtF 66
+ExtF 65
+Cond 0
+Wear -1
+Lev  46
+Cost 5700
+Affc 'reserved'   1  41  -1   2  19          0
+Affc 'reserved'   1  41  -1   1  18          0
+End
+
+#O
+Vnum 5939
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 5933
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23548
+Nest 1
+PrevOwner McBlade~
+ExtF 555221089
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3715
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 1140
+End
+
+#O
+Vnum 4803
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 1700
+End
+
+#O
+Vnum 23133
+Nest 1
+PrevOwner McBlade~
+Name nokia cell phone~
+ShD  Nokia 6310 Cell phone~
+Desc A nokia 6310 Cellular phone~
+ExtF 1
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 3 161 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 5 161 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 8500
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 8 161 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 8 161 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 10440
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 8500
+Val  52 10 5 161 0
+Spell 3 'remove curse'
+End
+
+#O
+Vnum 8056
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2200
+Spell 3 'acid blast'
+End
+
+#O
+Vnum 17667
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 0
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 5914
+Nest 1
+PrevOwner McBlade~
+ExtF 134217793
+Wt   40
+Cond 0
+Wear -1
+Cost 4000
+Val  7 7 7 4 3
+End
+
+#O
+Vnum 23506
+Enchanted
+Nest 1
+PrevOwner McBlade~
+ExtF 537395266
 Cond 0
 Wear -1
 Lev  50
-Cost 1000
-Affc 'enchant weapon'   1  52  -1  10  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
+Cost 170
+Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 12082
+Nest 1
+PrevOwner McBlade~
+ExtF 17301505
+Cond 0
+Wear -1
+Cost 22334
+End
+
+#O
+Vnum 12082
+Enchanted
+Nest 1
+PrevOwner McBlade~
+ExtF 17301569
+Cond 0
+Wear -1
+Cost 22334
+Affc 'enchant armor'   1  52  -1  -2  17          0
+Affc 'reserved'   1  51  -1   2  19          0
+End
+
+#O
+Vnum 12081
+Nest 1
+PrevOwner McBlade~
+ExtF 17301569
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 12081
+Nest 1
+PrevOwner McBlade~
+ExtF 17301569
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 15207
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 5901
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 4825
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 7000
+End
+
+#O
+Vnum 20804
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 300
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner McBlade~
+Name bag beta McBlade~
+ShD  a bag made from McBlade's hide~
+Desc A bag of fine McBlade hide catches your eye.  ~
+ExtF 16385
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  17
+Cost 2600
+Val  520 1 -1 90 25
+End
+
+#O
+Vnum 23504
+Enchanted
+Nest 1
+PrevOwner McBlade~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 2250
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'enchant weapon'   0  53  -1  12  18          0
 End
 
 #O
@@ -626,26 +880,252 @@ Vnum 23504
 Enchanted
 Nest 1
 PrevOwner McBlade~
-Cond 0
-Wear -1
-Lev  49
-Cost 4500
-Affc 'enchant weapon'   1  52  -1   2  19          0
-Affc 'enchant weapon'   0  52  -1   2  18          0
-End
-
-#O
-Vnum 23506
-Enchanted
-Nest 1
-PrevOwner McBlade~
-ExtF 537395266
+ExtF 537395523
 Cond 0
 Wear -1
 Lev  50
-Cost 170
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
+Cost 4500
+Affc 'enchant weapon'   1  52  -1   9  19          0
+Affc 'enchant weapon'   0  52  -1   9  18          0
+End
+
+#O
+Vnum 10337
+Enchanted
+Nest 1
+PrevOwner McBlade~
+ExtF 536871267
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   1  52  -1   2  19          0
+Affc 'enchant weapon'   0  52  -1   6  18          0
+End
+
+#O
+Vnum 10403
+Nest 1
+PrevOwner McBlade~
+ExtF 1
+Cond 0
+Wear -1
+Cost 6300
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
+End
+
+#O
+Vnum 3142
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2500000
 End
 
 #O
@@ -661,17 +1141,142 @@ Cost 100000
 End
 
 #O
-Vnum 22552
+Vnum 3007
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 3007
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 500000
+End
+
+#O
+Vnum 17
+Nest 1
+PrevOwner McBlade~
+ShD  the brains of Stryg~
+Desc The splattered brains of Stryg are lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 15
+Nest 1
+PrevOwner McBlade~
+ShD  the leg of Regulator~
+Desc The sliced-off leg of Regulator is lying here.~
+Ityp 13
+Cond 0
+Wear -1
+Cost 0
+Val  20 20 4 0 0
+End
+
+#O
+Vnum 10069
+Enchanted
+Nest 1
+PrevOwner McBlade~
+ExtF 66
+Cond 0
+Wear -1
+Lev  50
+Cost 1000
+Affc 'enchant weapon'   1  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  11  19          0
+End
+
+#O
+Vnum 10431
 Enchanted
 Nest 1
 PrevOwner McBlade~
 ExtF 67
 Cond 0
 Wear -1
+Lev  50
+Cost 6500
+Val  4 5 8 7 1280
+Affc 'enchant weapon'   1  76  -1  10  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'enchant weapon'   0  76  -1   6  18          0
+End
+
+#O
+Vnum 8048
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 18110
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 2400
+End
+
+#O
+Vnum 922
+Nest 1
+PrevOwner McBlade~
+ExtF 1121
+Cond 0
+Wear -1
+Cost 4900
+End
+
+#O
+Vnum 922
+Nest 1
+PrevOwner McBlade~
+ExtF 1121
+Cond 0
+Wear -1
+Cost 4900
+End
+
+#O
+Vnum 20833
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
 Cost 0
-Val  2 10 4 39 6
-Affc 'enchant weapon'   0  52  -1  10  18          0
-Affc 'enchant weapon'   1  52  -1  10  19          0
+End
+
+#O
+Vnum 6404
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 11600
+End
+
+#O
+Vnum 1206
+Nest 1
+PrevOwner McBlade~
+ExtF 1572871
+Cond 0
+Wear -1
+Cost 10
 End
 
 #O
@@ -692,49 +1297,58 @@ Affc 'enchant weapon'   0  52  -1  12  18          0
 End
 
 #O
-Vnum 10431
-Enchanted
+Vnum 20833
 Nest 1
 PrevOwner McBlade~
-ExtF 67
 Cond 0
 Wear -1
-Lev  50
-Cost 6500
-Val  4 5 8 7 1280
-Affc 'enchant weapon'   1  76  -1   9  19          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'reserved'   1  49  -1   0   0          0
-Affc 'enchant weapon'   0  76  -1   5  18          0
+Cost 0
 End
 
 #O
-Vnum 10403
+Vnum 22044
 Nest 1
 PrevOwner McBlade~
-ExtF 1
 Cond 0
 Wear -1
-Cost 6300
+Cost 100000
 End
 
 #O
-Vnum 23021
+Vnum 22044
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner McBlade~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 2513
 Nest 0
 PrevOwner McBlade~
-ExtF 16778241
+ExtF 16779777
 Cond 0
 Wear -1
 Cost 710
 End
 
 #O
-Vnum 2602
+Vnum 2440
 Nest 1
 PrevOwner McBlade~
 Cond 0
 Wear -1
-Cost 5800
+Cost 300
 End
 
 #O
@@ -747,203 +1361,73 @@ Cost 300
 End
 
 #O
-Vnum 10440
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 8500
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 8500
-Val  52 10 5 161 0
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 3715
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 1140
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 8500
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner McBlade~
-Name attractive flyer luria narcissism contest~
-ShD  an {Mattractive {Cflyer{x~
-Desc Join {MLuria's {Ynarcissism {Gcontest{x! Make a {Rcreative {Coutfit{x and go to Market Square on {WTuesday, May 27th, 5pm system time{x. There are {Ycool prizes{x to win! Check qnote for details. =^_^=~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12081
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 12006
-Nest 1
-PrevOwner McBlade~
-Name wings wing horus essence~
-ShD  {W({DE{Ws{xs{De{Wn{xc{De{W) {Bt{Dh{xe{B w{Di{xn{Bg{Ds{x o{Bf{D H{xo{Br{Du{xs~
-Desc The clipped wings of a fallen god?~
-ExtF 2049
-Cond 0
-Wear -1
-Cost 900
-End
-
-#O
-Vnum 8056
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2200
-Spell 3 'acid blast'
-End
-
-#O
-Vnum 8544
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 9999
-End
-
-#O
-Vnum 17667
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 1000
-Val  20 5 3 55 0
-Spell 3 'cure critical'
-End
-
-#O
-Vnum 10440
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 8500
-Spell 3 'remove curse'
-End
-
-#O
-Vnum 23504
+Vnum 22552
 Enchanted
 Nest 1
 PrevOwner McBlade~
 ExtF 67
 Cond 0
 Wear -1
-Lev  50
-Cost 2250
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
-End
-
-#O
-Vnum 12082
-Nest 1
-PrevOwner McBlade~
-ExtF 17301505
-Cond 0
-Wear -1
-Cost 22334
-End
-
-#O
-Vnum 22504
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
 Cost 0
+Val  2 10 4 39 6
+Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
 End
 
 #O
-Vnum 8048
+Vnum 13207
+Enchanted
 Nest 1
 PrevOwner McBlade~
+ExtF 67
 Cond 0
 Wear -1
-Cost 2000
+Lev  15
+Cost 1500
+Affc 'enchant weapon'   1  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
 End
 
 #O
-Vnum 20740
+Vnum 5932
+Enchanted
 Nest 1
 PrevOwner McBlade~
+ExtF 67
 Cond 0
 Wear -1
-Cost 4500
-End
-
-#O
-Vnum 12079
-Nest 1
-PrevOwner McBlade~
-Name attack bands~
-ShD  {RAttack Bands{x~
-Desc {RAttack Bands{x.~
-ExtF 17301505
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 23133
-Nest 1
-PrevOwner McBlade~
-Name nokia cell phone~
-ShD  Nokia 6310 Cell phone~
-Desc A nokia 6310 Cellular phone~
-ExtF 1
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 5901
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
+Lev  9
 Cost 4000
+Affc 'enchant weapon'   0  52  -1   8  18          0
+Affc 'enchant weapon'   1  52  -1   8  19          0
+Affc 'reserved'   1   1  -1   1   3          0
+End
+
+#O
+Vnum 931
+Enchanted
+Nest 1
+PrevOwner McBlade~
+ExtF 66
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
+End
+
+#O
+Vnum 5105
+Enchanted
+Nest 1
+PrevOwner McBlade~
+ExtF 67
+Cond 0
+Wear -1
+Lev  28
+Cost 2100
+Affc 'enchant weapon'   1  52  -1  10  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
 End
 
 #O
@@ -953,508 +1437,6 @@ PrevOwner McBlade~
 Cond 0
 Wear -1
 Cost 300
-End
-
-#O
-Vnum 6415
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 9000
-End
-
-#O
-Vnum 18110
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2400
-End
-
-#O
-Vnum 12081
-Nest 1
-PrevOwner McBlade~
-ExtF 17301569
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 4803
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 1700
-End
-
-#O
-Vnum 4825
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 7000
-End
-
-#O
-Vnum 22520
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 20804
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 300
-End
-
-#O
-Vnum 5933
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5914
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 5939
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 4000
-End
-
-#O
-Vnum 5743
-Enchanted
-Nest 1
-PrevOwner McBlade~
-ExtF 0
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-End
-
-#O
-Vnum 5914
-Enchanted
-Nest 1
-PrevOwner McBlade~
-ExtF 134217793
-Wt   40
-Cond 0
-Wear -1
-Lev  50
-Cost 4000
-Val  7 7 7 4 3
-Affc 'reserved'   1  47  -1  -2  20          0
-Affc 'reserved'   1  47  -1   2  18          0
-Affc 'reserved'   1  47  -1   2  19          0
-Affc 'enchant armor'   1  52  -1 -10  17          0
-End
-
-#O
-Vnum 12010
-Nest 1
-PrevOwner McBlade~
-ExtF 1196065
-Cond 0
-Wear -1
-Cost 15000
-End
-
-#O
-Vnum 11083
-Enchanted
-Nest 1
-PrevOwner McBlade~
-ExtF 65
-Cond 0
-Wear -1
-Lev  46
-Cost 5700
-Affc 'reserved'   1  41  -1   2  19          0
-Affc 'reserved'   1  41  -1   1  18          0
-End
-
-#O
-Vnum 23548
-Nest 1
-PrevOwner McBlade~
-ExtF 555221089
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 17
-Nest 1
-PrevOwner McBlade~
-ShD  the brains of Stryg~
-Desc The splattered brains of Stryg are lying here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 10431
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 6517
-Nest 1
-PrevOwner McBlade~
-Name cyan clump dakky playdoh~
-ShD  a {Ccyan{x clump of Dakky's Play-Doh~
-Desc A {Ccyan{x clump of Dakky's Play-Doh lies here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 1258
-Nest 0
-PrevOwner McBlade~
-Name bag beta McBlade~
-ShD  a bag made from McBlade's hide~
-Desc A bag of fine McBlade hide catches your eye.  ~
-ExtF 16384
-WeaF 16385
-Wt   5
-Cond 0
-Wear -1
-Lev  17
-Cost 2600
-Val  520 1 -1 90 25
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 3007
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 500000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 22044
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 100000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 3142
-Nest 1
-PrevOwner McBlade~
-Cond 0
-Wear -1
-Cost 2500000
-End
-
-#O
-Vnum 1206
-Nest 0
-PrevOwner McBlade~
-ExtF 1572871
-Cond 0
-Wear 17
-Cost 10
 End
 
 #O
@@ -1476,6 +1458,16 @@ Cost 5300
 End
 
 #O
+Vnum 12010
+Nest 0
+PrevOwner McBlade~
+ExtF 1196065
+Cond 0
+Wear 18
+Cost 15000
+End
+
+#O
 Vnum 2440
 Nest 0
 PrevOwner McBlade~
@@ -1485,10 +1477,19 @@ Cost 300
 End
 
 #O
+Vnum 2440
+Nest 0
+PrevOwner McBlade~
+Cond 0
+Wear 15
+Cost 300
+End
+
+#O
 Vnum 15223
 Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner McBlade~
 ExtF 65
 Cond 0
 Wear 7
@@ -1500,113 +1501,189 @@ Affc 'enchant armor'   1  52  -1 -12  17          0
 End
 
 #O
-Vnum 922
-Nest 0
-PrevOwner McBlade~
-ExtF 1121
-Cond 0
-Wear 4
-Cost 4900
-End
-
-#O
-Vnum 922
-Nest 0
-PrevOwner McBlade~
-ExtF 1121
-Cond 0
-Wear 3
-Cost 4900
-End
-
-#O
-Vnum 5938
-Nest 0
-PrevOwner McBlade~
-ExtF 134217984
-Wt   90
-Cond 0
-Wear 13
-Cost 4000
-Val  7 7 7 4 3
-End
-
-#O
-Vnum 20818
+Vnum 22504
 Nest 0
 PrevOwner McBlade~
 Cond 0
-Wear 11
-Cost 4000
-End
-
-#O
-Vnum 20833
-Nest 0
-PrevOwner McBlade~
-Cond 0
-Wear 12
+Wear 0
 Cost 0
+End
+
+#O
+Vnum 6434
+Nest 0
+PrevOwner McBlade~
+Name signet ring family~
+ShD  {RSignet{x ring of McBlade's family~
+Desc A {RSignet{x ring of McBlade's family is here.~
+Cond 0
+Wear 2
+Cost 5300
 End
 
 #O
 Vnum 4805
 Nest 0
-PrevOwner (null)~
+PrevOwner McBlade~
 Cond 0
 Wear 9
 Cost 5500
 End
 
 #O
-Vnum 15207
+Vnum 12006
 Nest 0
-PrevOwner (null)~
+PrevOwner McBlade~
+Name wings wing horus essence~
+ShD  {W({DE{Ws{xs{De{Wn{xc{De{W) {Bt{Dh{xe{B w{Di{xn{Bg{Ds{x o{Bf{D H{xo{Br{Du{xs~
+Desc The clipped wings of a fallen god?~
+ExtF 2049
 Cond 0
 Wear 10
-Cost 5000
+Cost 900
 End
 
 #O
-Vnum 23129
+Vnum 22566
+Enchanted
 Nest 0
-PrevOwner Fortuna~
+PrevOwner McBlade~
+Name attack belt~
+ShD  {RAttack Belt{x~
+Desc {RAttack Belt{x.~
+ExtF 65
 Cond 0
-Wear 6
-Cost 10000
+Wear 13
+Lev  49
+Cost 0
+Affc 'reserved'   1  45  -1   5  18          0
+Affc 'reserved'   1  45  -1   3  19          0
+Affc 'enchant armor'   1  53  -1  -5  17          0
 End
 
 #O
-Vnum 8040
+Vnum 10447
+Enchanted
 Nest 0
-PrevOwner Fortuna~
-ExtF 18350401
+PrevOwner McBlade~
+Name attack chestplate~
+ShD  {RAttack Chestplate{x~
+Desc {RAttack Chestplate{x.~
+ExtF 65
 Cond 0
-Wear 18
-Cost 2500
+Wear 5
+Lev  50
+Cost 13700
+Affc 'enchant armor'   1  52  -1 -10  17          0
+Affc 'reserved'   1  45  -1  30  12          0
+Affc 'reserved'   1  45  -1  -4  20          0
 End
 
 #O
-Vnum 18913
+Vnum 18111
+Nest 0
+PrevOwner McBlade~
+Name attack collar~
+ShD  {RAttack Collar{x~
+Desc {RAttack Collar{x.~
+ExtF 1048641
+Cond 0
+Wear 3
+Cost 1500
+End
+
+#O
+Vnum 18111
+Nest 0
+PrevOwner McBlade~
+Name attack scarf~
+ShD  {RAttack Scarf{x~
+Desc {RAttack Scarf{x.~
+ExtF 1048641
+Cond 0
+Wear 4
+Cost 1500
+End
+
+#O
+Vnum 2276
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 5500
-Spell 3 'energy drain'
+Cost 1910
 End
 
 #O
-Vnum 10337
+Vnum 5914
 Enchanted
 Nest 0
 PrevOwner McBlade~
-ExtF 536871267
+ExtF 134217793
+Wt   40
+Cond 0
+Wear 6
+Lev  50
+Cost 4000
+Val  7 7 7 4 3
+Affc 'reserved'   1  47  -1  -2  20          0
+Affc 'reserved'   1  47  -1   2  18          0
+Affc 'reserved'   1  47  -1   2  19          0
+Affc 'enchant armor'   1  52  -1 -10  17          0
+End
+
+#O
+Vnum 15227
+Nest 0
+PrevOwner McBlade~
+Cond 0
+Wear 12
+Cost 20000
+End
+
+#O
+Vnum 2405
+Nest 0
+PrevOwner McBlade~
+Name nature rune grace water~
+ShD  {W({DE{Ws{xs{De{Wn{xc{De{W) {Ga{C R{xu{Gn{Ce{x o{Gf{C N{xa{Gt{Cu{xr{Ge{x~
+Desc Nature's grace is kept in this Rune.~
+ExtF 17694977
+Cond 0
+Wear 17
+Cost 1000
+Val  48 0 0 0 0
+End
+
+#O
+Vnum 20818
+Enchanted
+Nest 0
+PrevOwner Dakky~
+Cond 0
+Wear 11
+Lev  50
+Cost 0
+Affc 'enchant armor'   1  52  -1  -7  17          0
+Affc 'reserved'   1  49  -1  30  12          0
+Affc 'reserved'   1  49  -1   1  19          0
+Affc 'reserved'   1  49  -1  -1  20          0
+Affc 'reserved'   1  49  -1   2  18          0
+End
+
+#O
+Vnum 18119
+Enchanted
+Nest 0
+PrevOwner McBlade~
+ExtF 227
 Cond 0
 Wear 16
-Cost 0
-Affc 'enchant weapon'   1  52  -1   2  19          0
-Affc 'enchant weapon'   0  52  -1   6  18          0
+Lev  50
+Cost 4500
+Val  2 2 19 2 8199
+Affc 'enchant weapon'   0  52  -1   7  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #END

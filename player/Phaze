@@ -3,8 +3,8 @@ Name Phaze~
 SurN MistWing~
 Id   972032315
 Email (null)~
-LogO 1062856688
-Vers 31
+LogO 1321285213
+Vers 32
 LnD  A Gladiator~
 Desc You're not quite sure if his IS there ...
 Maybe he is ... maybe he isn't ...
@@ -12,7 +12,7 @@ Desc You're not quite sure if his IS there ...
 It's almost like he doesn't exist!
 Maybe it's just your imagination ...
 ~
-Prom <H:%h M:%m Mv:%v {M(%X) {B%W{x %th | {c%r{x: %e>%c~
+Prom <H:%h M:%m Mv:%v {M(%X) {B%w{x %th | {c%r{x: %e>%c~
 Race dragon~
 Clan warlock~
 Outc 0
@@ -23,6 +23,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 1 5 1 2
 Steal 0 0 0
+MSteal 0
 LstK Eva~
 LstKBy Darmor~
 LstAtkedBy no one~
@@ -30,10 +31,14 @@ LstAtkedByTimer 0
 LstCombatDate 1037667279
 LstKillDate 1019319793
 LstDeathDate 1017506108
-LoginsWOKill 382
-LoginsWODeath 399
-LoginsWOCombat 229
+LoginsWOKill 420
+LoginsWODeath 437
+LoginsWOCombat 267
 Bnty 200
+DeityFavor 2 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 161558 huitzilopochtli~
 DeityT -17224 huitzilopochtli~
 Sac  300
@@ -43,48 +48,50 @@ Node 0
 Cap 0
 Created 972032353
 Glad 0 1 0 0 1 0
+LastHost 41.213.113.115~
 Cla  11
 Kit nethermancer~
 ClaO 0
 Levl 39
 DLevl 0
-Plyd 2817328
-Not  1062297043 1062762188 1014666116 1062754719 1062280890 1062778456 1014666116 1062772451 1014666116 1062033058
+Plyd 2846450
+Not  1320890377 1321245460 1320697049 1320889729 1321075694 1320711312 1320697049 1320697049 1320697049 1320697049
 Scro 22
 Rank 5
-Room 23740
+Room 31901
 HMV  664 664 737 737 377 377
-Gold 262
-Silv 14
-Exp  349589
-Act  EFGHKQRSTX
+Gold 602
+Silv 11514
+Exp  346875
+Act  EFGHKQRST
 MHSF HR
 AfBy JTU
-Comm G
+Comm AG
 Disp BFIJN
 IcgB 0
 Icg 0
 Pnet BCDEFGHI
 Pos  8
-Prac 23
-SkiP 73
+Prac 33
+Trai 11
+SkiP 88
 Save  -15
 Alig  -1000
-Hit   19
-Dam   22
+Hit   22
+Dam   29
 SecHit   13
 SecDam   16
-ACs 75 75 75 75
+ACs 55 55 55 55
 Wimp  20
-Attr 25 19 25 25 25 15 21 18
-AMod -1 10 0 0 0 0 0 0
+Attr 25 19 25 25 25 11 14 18
+AMod 0 10 0 0 0 0 0 0
 Pass Phs8UulWyBPgU~
 Titl  {x          [{WWhite Robe{x]~
 Pnts 100
 TSex 1
 LLev 703
 HMVP 654 602 377
-Cnd  0 0 32 16
+Cnd  0 36 45 42
 Alias p flee~
 Alias o c word~
 Alias sf who clan~
@@ -112,6 +119,7 @@ Sk 1 'change sex'
 Sk 100 'charm person'
 Sk 100 'chill touch'
 Sk 100 'colour spray'
+Sk 1 'cone of silence'
 Sk 100 'continual light'
 Sk 100 'control weather'
 Sk 100 'create food'
@@ -213,7 +221,6 @@ Sk 75 'staves'
 Sk 82 'wands'
 Sk 100 'swimming'
 Sk 50 'recall'
-Sk 95 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'wizard default'
@@ -230,6 +237,7 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
+Affc 'shield'   0  26   6 -20  17          0
 End
 
 #O
@@ -339,6 +347,36 @@ Cond 0
 Wear -1
 Cost 0
 Val  20 20 8503 0 0
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Phaze~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 1
+PrevOwner Phaze~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 17
+Nest 1
+PrevOwner Phaze~
+ShD  the brains of Nottingham Cityguard~
+Desc The splattered brains of Nottingham Cityguard are lying here.~
+Cond 0
+Wear -1
+Cost 0
+Val  10 10 10308 0 0
 End
 
 #O
@@ -1202,6 +1240,39 @@ Val  380 1 -1 90 25
 End
 
 #O
+Vnum 17
+Nest 1
+PrevOwner Phaze~
+ShD  the brains of Phaze~
+Desc The splattered brains of Phaze are lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 17
+Nest 1
+PrevOwner Phaze~
+ShD  the brains of Phaze~
+Desc The splattered brains of Phaze are lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 16
+Nest 1
+PrevOwner Phaze~
+ShD  the guts of Phaze~
+Desc A steaming pile of Phaze's entrails is lying here.~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
 Vnum 16
 Nest 1
 PrevOwner Phaze~
@@ -1235,39 +1306,6 @@ Cost 0
 End
 
 #O
-Vnum 16
-Nest 1
-PrevOwner Phaze~
-ShD  the guts of Phaze~
-Desc A steaming pile of Phaze's entrails is lying here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 17
-Nest 1
-PrevOwner Phaze~
-ShD  the brains of Phaze~
-Desc The splattered brains of Phaze are lying here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 17
-Nest 1
-PrevOwner Phaze~
-ShD  the brains of Phaze~
-Desc The splattered brains of Phaze are lying here.~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 15
 Nest 1
 PrevOwner Phaze~
@@ -1276,25 +1314,6 @@ Desc The sliced-off leg of Phaze is lying here.~
 Cond 0
 Wear -1
 Cost 0
-End
-
-#O
-Vnum 17667
-Nest 1
-PrevOwner Phaze~
-Cond 0
-Wear -1
-Cost 1000
-Spell 3 'cure critical'
-End
-
-#O
-Vnum 18110
-Nest 1
-PrevOwner Phaze~
-Cond 0
-Wear -1
-Cost 2400
 End
 
 #O
@@ -1457,13 +1476,33 @@ Cost 800
 End
 
 #O
-Vnum 8503
-Nest 0
+Vnum 1956
+Enchanted
+Nest 1
 PrevOwner Phaze~
-ExtF 16777217
+ExtF 264787
 Cond 0
 Wear -1
-Cost 5000
+Lev  38
+Cost 1300
+Val  2 3 9 11 2060
+Affc 'enchant weapon'   0  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   6  19          0
+Affc 'reserved'   1  33  -1  -1   1          0
+End
+
+#O
+Vnum 8027
+Enchanted
+Nest 1
+PrevOwner Phaze~
+Cond 0
+Wear -1
+Lev  39
+Cost 3000
+Val  2 3 10 2 2304
+Affc 'enchant weapon'   0  53  -1   4  18          0
+Affc 'enchant weapon'   1  53  -1   4  19          0
 End
 
 #O
@@ -1838,34 +1877,6 @@ Val  540 1 -1 90 25
 End
 
 #O
-Vnum 9203
-Enchanted
-Nest 1
-PrevOwner Phaze~
-ExtF 67
-Cond 0
-Wear -1
-Lev  36
-Cost 2800
-Affc 'enchant weapon'   1  53  -1  13  19          0
-Affc 'enchant weapon'   0  53  -1   9  18          0
-End
-
-#O
-Vnum 8027
-Enchanted
-Nest 1
-PrevOwner Phaze~
-Cond 0
-Wear -1
-Lev  39
-Cost 3000
-Val  2 3 10 2 2304
-Affc 'enchant weapon'   1  53  -1   4  19          0
-Affc 'enchant weapon'   0  53  -1   4  18          0
-End
-
-#O
 Vnum 1258
 Nest 0
 PrevOwner Infamous~
@@ -1954,26 +1965,81 @@ End
 Vnum 9802
 Nest 0
 PrevOwner Bong~
+ExtF 17039617
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 1956
+Vnum 9203
 Enchanted
 Nest 0
 PrevOwner Phaze~
-ExtF 264787
-Stolen 76
+ExtF 67
 Cond 0
 Wear 16
-Lev  38
-Cost 1300
-Val  2 3 9 11 2060
-Affc 'reserved'   1  33  -1  -1   1          0
-Affc 'enchant weapon'   1  53  -1   6  19          0
-Affc 'enchant weapon'   0  53  -1   6  18          0
+Lev  36
+Cost 2800
+Affc 'enchant weapon'   0  53  -1   9  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
+End
+
+#O
+Vnum 18110
+Nest 0
+PrevOwner Phaze~
+Cond 0
+Wear -1
+Cost 2400
+End
+
+#O
+Vnum 17667
+Nest 0
+PrevOwner Phaze~
+Cond 0
+Wear -1
+Cost 1000
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner Phaze~
+ExtF 16777217
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8500
+Nest 0
+PrevOwner (null)~
+ExtF 129
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

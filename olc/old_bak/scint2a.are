@@ -1,0 +1,169 @@
+#AREA
+../newareas/scint2a.are~
+The Raging Storm~
+{ U/C }  Scint  The Raging Storm~
+5800 5809
+
+#MOBILES
+#0
+
+#OBJECTS
+#5800
+test item~
+Generic Short Description~
+Generic Description~
+~
+key 0 A
+0 0 0 0 0
+0 100 0 P
+#0
+
+#ROOMS
+#5800
+A Path Across the Summit~
+You travel a small path across the summit of the mountain. A storm vents 
+its' rage all around you. Thunderheads rush past you, blown by the fierce 
+wind. Flashes of deep blue and golden light briefly illuminate the world
+around you. Icy gusts of wind gnaw at your armor, chilling you to the bone.
+Dark clouds shroud the path ahead.
+~
+0 A 5
+D0
+Exit ~
+door~
+0 0 5801
+S
+#5801
+A Path Across the Summit~
+Generic room description.
+~
+0 A 5
+D0
+Exit ~
+door~
+0 0 5802
+D2
+Exit ~
+door~
+0 0 5800
+S
+#5802
+The Center of the Summit~
+Generic room description.
+~
+0 A 5
+D0
+Exit ~
+door~
+0 0 5803
+D1
+Exit ~
+door~
+0 0 5807
+D2
+Exit ~
+door~
+0 0 5801
+D3
+Exit ~
+door~
+0 0 5805
+D5
+Exit ~
+snow~
+1 0 5809
+S
+#5803
+A Path Across the Summit~
+Generic room description.
+~
+0 A 5
+D0
+Exit ~
+door~
+0 0 5804
+D2
+Exit ~
+door~
+0 0 5802
+S
+#5804
+A Path Across the Summit~
+Generic room description.
+~
+0 A 5
+D2
+Exit ~
+door~
+0 0 5803
+S
+#5805
+A Path Across the Summit~
+Generic room description.
+~
+0 A 5
+D1
+Exit ~
+door~
+0 0 5802
+D3
+Exit ~
+door~
+0 0 5806
+S
+#5806
+Generic room name~
+Generic room description.
+~
+0 A 5
+D1
+Exit ~
+door~
+0 0 5805
+S
+#5807
+A Path Across the Summit~
+Generic room description.
+~
+0 A 5
+D1
+Exit ~
+door~
+0 0 5808
+D3
+Exit ~
+door~
+0 0 5802
+S
+#5808
+A Path Across the Summit~
+Generic room description.
+~
+0 A 5
+D3
+Exit ~
+door~
+0 0 5807
+S
+#5809
+Generic room name~
+Generic room description.
+~
+0 AD 0
+D4
+Exit ~
+crack~
+1 0 5802
+S
+#0
+
+#RESETS
+S
+
+#SHOPS
+0
+
+#SPECIALS
+S
+
+#$

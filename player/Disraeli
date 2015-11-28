@@ -3,8 +3,8 @@ Name Disraeli~
 SurN Ilearsid~
 Id   1025093743
 Email (null)~
-LogO 1125181489
-Vers 31
+LogO 1390772019
+Vers 33
 Desc {DThis Volare carefully stumbles from place to place, in
 search of what he does not know already. Forever powered
 from the sizzurp which he sips, you always know it's
@@ -18,16 +18,18 @@ Desc {DThis Volare carefully stumbles from place to place, in
 As the smoke clears, Disraeli has vanished.
 {x
 ~
-Prom {G>{x%hhps %mmana %vmv $%g %wcap{G<{x ~
+Prom >%h/%HHP %m/%MMAGIK %v/%VMOVE $%g %w/%WWEIGHT< ~
 Race volare~
+Clan matook~
 Outc 0
 RufT 0
-MatookT 12001
+MatookT 2620
 SkPTimer 0
-SkPTracker 7
+SkPTracker 0
 LogoutTracker 0
 Kill 1 0 1 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -39,84 +41,92 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
-Deity 127333 huitzilopochtli~
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 127333 matook~
 DeityT -10742 matook~
 Sac  700
-Sex  1
+Sex  2
 Vump  0
 Node 0
 Cap 0
 Created 1025093997
 Glad 0 0 0 0 0 0
-LastHost c-67-170-18-57.hsd1.wa.comcast.net~
+LastHost 50.181.73.1~
 Cla  5
 Kit bishop~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 1322554
-Not  1111094179 1111094179 1111094179 1111901610 1111094179 1111094179 1111094179 1111094179 1111094179 1111094179
+Plyd 1465114
+Not  1324422309 1324422309 1324422309 1324422309 1324422309 1390255126 1324422309 1385305178 1324422309 1384474516
 Scro 98
 Rank 0
 Room 3001
-HMV  897 897 873 960 372 372
-Gold 4534
-Silv 900
+HMV  1157 1157 991 1000 407 407
+Gold 854
+Silv 98
 Exp  510162
-Act  BCDEGIKQS
+Act  BDEFGIKQS
 MHSF RX
-AfBy TW
+AfBy CDEFTVZ
 Comm LS
 Disp BFIJN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
 Pos  8
-Prac 3
-SkiP 310
-Save  -2
+Prac 69
+Trai 16
+SkiP 320
+Save  -15
 Alig  -1000
-Hit   10
-Dam   15
-SecHit   10
-SecDam   15
-ACs -12 -12 -12 19
-Attr 18 19 21 18 18 18 19 22
-AMod 4 0 4 2 5 0 0 0
+Hit   26
+Dam   26
+SecHit   18
+SecDam   14
+ACs -82 -84 -79 -40
+Attr 18 19 21 18 18 10 11 22
+AMod 4 7 7 12 1 0 0 3
 Pass DiX/5rMUk9NF6~
 Titl .~
 Pnts 100
 TSex 1
 LLev 51
 HMVP 782 860 372
-Cnd  0 19 21 21
+Cnd  0 20 25 25
 Alias ser chant 'cure serious'~
 Alias res order all rescue Disraeli~
 Alias 8 c 'cure serious' isilar~
 Alias c chant~
 Alias k kill~
 Alias summon c 'summon'~
-Alias id chant 'identify'~
 Alias locate chant 'locate'~
 Alias g order all kill ~
 Alias i drop 1 silver~
 Alias h c heal sym~
-Alias dis chant 'dispel magic'~
+Alias bl bleed~
+Alias ct chant 'continual light' ~
+Alias fs chant 'flameseek'~
+Alias skel chant 'summon dead'~
 Sk 100 'acid blast'
 Sk 1 'aid'
 Sk 100 'armor'
 Sk 1 'bestow holiness'
 Sk 100 'bless'
-Sk 81 'blindness'
+Sk 98 'blindness'
 Sk 99 'body weaponry'
 Sk 1 'burning hands'
 Sk 1 'calm'
-Sk 89 'cancellation'
-Sk 90 'chain lightning'
+Sk 93 'cancellation'
+Sk 95 'chain lightning'
 Sk 1 'change sex'
 Sk 1 'chill touch'
 Sk 1 'colour spray'
-Sk 1 'cone of silence'
 Sk 100 'continual light'
 Sk 75 'create food'
 Sk 1 'create fountain'
@@ -130,7 +140,7 @@ Sk 79 'cure disease'
 Sk 1 'cure light'
 Sk 86 'cure poison'
 Sk 100 'cure serious'
-Sk 80 'curse'
+Sk 100 'curse'
 Sk 88 'demonfire'
 Sk 95 'detect evil'
 Sk 1 'detect good'
@@ -140,22 +150,23 @@ Sk 100 'detect magic'
 Sk 1 'detect poison'
 Sk 1 'dispel evil'
 Sk 1 'dispel good'
-Sk 86 'dispel magic'
+Sk 88 'dispel magic'
 Sk 99 'earthquake'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
 Sk 1 'energy drain'
 Sk 1 'enervation'
-Sk 1 'entrance'
+Sk 75 'entrance'
 Sk 100 'famine'
 Sk 78 'farsight'
 Sk 87 'feast'
 Sk 1 'feeblemind'
-Sk 99 'fireball'
-Sk 94 'fireproof'
+Sk 100 'fireball'
+Sk 97 'fireproof'
 Sk 71 'flamestrike'
+Sk 75 'flameseek'
 Sk 71 'floating disc'
-Sk 75 'fly'
+Sk 78 'fly'
 Sk 1 'forget'
 Sk 100 'frenzy'
 Sk 1 'fumble'
@@ -180,8 +191,8 @@ Sk 1 'mass healing'
 Sk 91 'mirror image'
 Sk 1 'nexus'
 Sk 78 'pass door'
-Sk 78 'plague'
-Sk 91 'poison'
+Sk 92 'plague'
+Sk 99 'poison'
 Sk 78 'portal'
 Sk 82 'protection evil'
 Sk 83 'protection good'
@@ -189,21 +200,21 @@ Sk 86 'protection neutral'
 Sk 75 'psionic blast'
 Sk 93 'ray of truth'
 Sk 100 'refresh'
-Sk 73 'regeneration'
-Sk 92 'remove curse'
+Sk 77 'regeneration'
+Sk 95 'remove curse'
 Sk 1 'sacred guardian'
 Sk 100 'sanctuary'
 Sk 100 'shield'
 Sk 71 'shield of faith'
 Sk 1 'shocking grasp'
-Sk 1 'slow'
+Sk 97 'slow'
 Sk 1 'see soul'
 Sk 92 'stone skin'
 Sk 100 'summon'
 Sk 100 'teleport'
-Sk 97 'tower of iron will'
+Sk 100 'tower of iron will'
 Sk 76 'warp'
-Sk 75 'weaken'
+Sk 85 'weaken'
 Sk 100 'word of recall'
 Sk 1 'animate dead'
 Sk 100 'summon dead'
@@ -220,11 +231,11 @@ Sk 100 'mace'
 Sk 94 'spear'
 Sk 100 'sword'
 Sk 100 'bleed'
-Sk 92 'bludgeon'
+Sk 94 'bludgeon'
 Sk 100 'dodge'
 Sk 100 'enhanced damage'
 Sk 100 'parry'
-Sk 95 'shield block'
+Sk 100 'shield block'
 Sk 100 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
@@ -235,7 +246,7 @@ Sk 75 'sneak'
 Sk 77 'scrolls'
 Sk 1 'staves'
 Sk 1 'wands'
-Sk 88 'swimming'
+Sk 92 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'paladin basics'
@@ -254,88 +265,18 @@ Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
 Gr 'nosferatu'
-End
-
-#O
-Vnum 23513
-Nest 0
-PrevOwner Disraeli~
-ExtF 17301569
-Cond 0
-Wear -1
-Cost 6410
-End
-
-#O
-Vnum 2434
-Nest 0
-PrevOwner Disraeli~
-Name diamond breastplate satan~
-ShD  ({REvil{x) {WDiamond{x Breastplate of {RSatan{x~
-Desc A magnificant diamond breastplate belonging Satan himself.~
-Cond 0
-Wear 5
-Cost 2400
-End
-
-#O
-Vnum 12085
-Nest 0
-PrevOwner Disraeli~
-Name dirty denim jeans~
-ShD  {DDirty Denim Jeans{x~
-Desc A dirty pair of denim jeans is her.~
-ExtF 17301505
-Cond 0
-Wear 7
-Cost 8765
-End
-
-#O
-Vnum 5937
-Enchanted
-Nest 0
-PrevOwner Disraeli~
-Name gauntlets gods~
-ShD  {WGauntlets{x of the {WGods{x~
-Desc The gauntlets of speed, strength, and wisdom of the gods are here.~
-ExtF 1
-Cond 0
-Wear 9
-Cost 4000
-Affc 'reserved'   1  37  -1   2  19          0
-Affc 'reserved'   1  37  -1   2   1          0
-End
-
-#O
-Vnum 12079
-Nest 0
-PrevOwner Disraeli~
-ExtF 17301505
-Cond 0
-Wear 10
-Cost 0
-End
-
-#O
-Vnum 22504
-Nest 0
-PrevOwner Disraeli~
-Name eternal spliff~
-ShD  {DEternal {RSmoking {WSpliff{x~
-Desc A spliff which you can smoke eternally smells here.~
-Cond 0
-Wear 0
-Cost 0
-End
-
-#O
-Vnum 20813
-Nest 0
-PrevOwner Disraeli~
-Cond 0
-Wear 2
-Cost 4000
+Affc 'haste'   0  49   4   4   2    2097152
+Affc 'tower of iron will'   3  48   4   0   0      32768
+Affc 'body weaponry'   0  48   3   0   0   33554432
+Affc 'shield'   0  43  38 -20  17          0
+Affc 'stone skin'   0  47  30 -40  17          0
+Affc 'bless'   0  44  36  -6  24          0
+Affc 'bless'   0  50  36   6  18          0
+Affc 'armor'   0  49  15 -20  17          0
+Affc 'detect hidden'   0  43  29   0   0         32
+Affc 'detect invis'   0  45  28   0   0          8
+Affc 'detect magic'   0  43  13   0   0         16
+Affc 'giant strength'   0  45  22   4   1          0
 End
 
 #O
@@ -343,8 +284,304 @@ Vnum 1345
 Nest 0
 PrevOwner Disraeli~
 Cond 0
-Wear 12
+Wear -1
 Cost 0
+End
+
+#O
+Vnum 8544
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 9999
+End
+
+#O
+Vnum 8544
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 9999
+End
+
+#O
+Vnum 18105
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18105
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18105
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 20738
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 4850
+End
+
+#O
+Vnum 10451
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 12500
+End
+
+#O
+Vnum 22566
+Nest 1
+PrevOwner Disraeli~
+ExtF 1
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10431
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 6500
+Val  4 5 8 7 772
+End
+
+#O
+Vnum 6411
+Enchanted
+Nest 1
+PrevOwner Disraeli~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 5600
+Val  1 3 13 8 520
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'reserved'   1  40  -1   1   5          0
+Affc 'enchant weapon'   1  53  -1  14  18          0
+Affc 'reserved'   1  40  -1  -1   1          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 12063
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 50000
+End
+
+#O
+Vnum 20839
+Enchanted
+Nest 1
+PrevOwner Disraeli~
+ExtF 524355
+Cond 0
+Wear -1
+Cost 0
+Val  8 3 13 41 768
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+End
+
+#O
+Vnum 20731
+Enchanted
+Nest 1
+PrevOwner Disraeli~
+ExtF 66
+Cond 0
+Wear -1
+Cost 6200
+Val  7 7 6 3 512
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   1  53  -1  11  18          0
+End
+
+#O
+Vnum 22514
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12010
+Nest 1
+PrevOwner Disraeli~
+ExtF 1196065
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 22506
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 23129
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 22566
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22559
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 22559
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 3000
+End
+
+#O
+Vnum 22563
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 9500
+Val  5 5 8 18 548
+End
+
+#O
+Vnum 13002
+Enchanted
+Nest 1
+PrevOwner Disraeli~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 1750
+Val  6 6 5 6 522
+Affc 'enchant weapon'   0  52  -1  12  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Disraeli~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 3250
+Val  4 5 8 7 772
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 5704
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 300
+Val  2 3 3 2 16
+End
+
+#O
+Vnum 3350
+Enchanted
+Nest 1
+PrevOwner Disraeli~
+ExtF 67
+Cond 0
+Wear -1
+Lev  25
+Cost 1280
+Val  1 3 5 3 512
+Affc 'enchant weapon'   1  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
+End
+
+#O
+Vnum 5332
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 4400
+Val  1 4 7 21 552
 End
 
 #O
@@ -356,62 +593,845 @@ ShD  Hallowed Pendant of {RHell{x~
 Desc Inside this pendant you sell Hell; you look no further.~
 ExtF 16779777
 Cond 0
-Wear 4
+Wear -1
 Cost 710
 End
 
 #O
-Vnum 8544
-Nest 0
+Vnum 23512
+Nest 1
 PrevOwner Disraeli~
 Cond 0
-Wear 15
-Cost 9999
+Wear -1
+Cost 6740
 End
 
 #O
-Vnum 8544
-Nest 0
+Vnum 23512
+Nest 1
 PrevOwner Disraeli~
 Cond 0
-Wear 14
-Cost 9999
+Wear -1
+Cost 6740
+End
+
+#O
+Vnum 20813
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 4000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 23513
+Nest 1
+PrevOwner Disraeli~
+ExtF 17301569
+Cond 0
+Wear -1
+Cost 6410
+End
+
+#O
+Vnum 23513
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 6410
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 2919
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 2919
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20009
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 12001
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20012
+Nest 1
+PrevOwner Disraeli~
+Name timberland boots~
+ShD  {DBlack Suede Timberland Boots{x~
+Desc A clean pair of timerberland boots sit here.~
+ExtF 65
+Cond 0
+Wear -1
+Cost 175000
+End
+
+#O
+Vnum 23513
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 6410
+End
+
+#O
+Vnum 22508
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 1206
+Nest 1
+PrevOwner Disraeli~
+Name bottle alize cranberry~
+ShD  Bottle of {RCranberry Alize{x~
+Desc You see a half emptied bottle of Alize here.~
+ExtF 1572871
+Cond 0
+Wear -1
+Cost 10
+End
+
+#O
+Vnum 22505
+Enchanted
+Nest 1
+PrevOwner Disraeli~
+ExtF 1
+Cond 0
+Wear -1
+Cost 4000
+Affc 'reserved'   1  50  -1   2   1          0
+Affc 'reserved'   1  50  -1   3   5          0
+Affc 'reserved'   1  50  -1   2  19          0
+End
+
+#O
+Vnum 22563
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22506
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 1200
+End
+
+#O
+Vnum 22552
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22568
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22563
+Nest 1
+PrevOwner Disraeli~
+ExtF 1
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 18107
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 18106
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18105
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 10708
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 23514
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 3690
+End
+
+#O
+Vnum 2504
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 1160
+End
+
+#O
+Vnum 22566
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22506
+Enchanted
+Nest 1
+PrevOwner Disraeli~
+ExtF 536870979
+Cond 0
+Wear -1
+Lev  50
+Cost 1200
+Val  1 10 4 38 516
+Affc 'bestow holiness'   5  51  -1   0   0        512
+Affc 'enchant weapon'   1  53  -1  10  19          0
+Affc 'enchant weapon'   0  53  -1  10  18          0
+End
+
+#O
+Vnum 23578
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5743
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3378
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 23539
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 5743
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 3378
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 2000
+End
+
+#O
+Vnum 23128
+Nest 1
+PrevOwner Disraeli~
+Damaged 35
+Cond 0
+Wear -1
+Cost 6000
+Spell 3 'acid blast'
+End
+
+#O
+Vnum 8002
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 1000
+Spell 3 'cure critical'
+End
+
+#O
+Vnum 9107
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9107
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9107
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9107
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9107
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9107
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9107
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9107
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9107
+Nest 1
+PrevOwner Disraeli~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 18119
+Nest 1
+PrevOwner Disraeli~
+ExtF 96
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18119
+Nest 1
+PrevOwner Disraeli~
+ExtF 96
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18119
+Nest 1
+PrevOwner Disraeli~
+ExtF 96
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18119
+Nest 1
+PrevOwner Disraeli~
+ExtF 97
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18119
+Nest 1
+PrevOwner Disraeli~
+ExtF 97
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 18119
+Nest 1
+PrevOwner Disraeli~
+ExtF 97
+Cond 0
+Wear -1
+Cost 4500
+End
+
+#O
+Vnum 10404
+Enchanted
+Nest 1
+PrevOwner Disraeli~
+ExtF 99
+Cond 0
+Wear -1
+Cost 15300
+Val  1 9 4 11 556
+Affc 'reserved'   1  50  -1  50  13          0
+Affc 'enchant weapon'   1  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
 Vnum 23514
 Nest 0
 PrevOwner Disraeli~
+ExtF 17301569
+Cond 0
+Wear 4
+Cost 3690
+End
+
+#O
+Vnum 23515
+Nest 0
+PrevOwner Patat~
+ExtF 17301569
+Cond 0
+Wear 2
+Cost 7609
+End
+
+#O
+Vnum 23515
+Nest 0
+PrevOwner Patat~
+ExtF 17301569
+Cond 0
+Wear 1
+Cost 7609
+End
+
+#O
+Vnum 23514
+Nest 0
+PrevOwner Patat~
+ExtF 17301569
 Cond 0
 Wear 3
 Cost 3690
 End
 
 #O
-Vnum 22505
-Enchanted
+Vnum 22504
 Nest 0
-PrevOwner Patat~
-ExtF 1
+PrevOwner (null)~
 Cond 0
-Wear 6
-Cost 4000
-Affc 'reserved'   1  50  -1   2  19          0
-Affc 'reserved'   1  50  -1   3   5          0
-Affc 'reserved'   1  50  -1   2   1          0
+Wear 0
+Cost 0
 End
 
 #O
-Vnum 1206
+Vnum 2434
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 5
+Cost 2400
+End
+
+#O
+Vnum 4805
+Nest 0
+PrevOwner Justo~
+ExtF 2051
+Cond 0
+Wear 9
+Cost 5500
+End
+
+#O
+Vnum 15215
+Nest 0
+PrevOwner (null)~
+ExtF 67
+Cond 0
+Wear 13
+Cost 9000
+End
+
+#O
+Vnum 20733
+Nest 0
+PrevOwner (null)~
+ExtF 262145
+Cond 0
+Wear 15
+Cost 3000
+End
+
+#O
+Vnum 20733
+Nest 0
+PrevOwner (null)~
+ExtF 262145
+Cond 0
+Wear 14
+Cost 3000
+End
+
+#O
+Vnum 1258
+Nest 0
+PrevOwner Disraeli~
+Name bag beta Borb~
+ShD  a bag made from Borb's hide~
+Desc A bag of fine Borb hide catches your eye.  ~
+ExtF 67125248
+WeaF 16385
+Wt   5
+Cond 0
+Wear -1
+Lev  18
+Cost 2750
+Val  550 1 -1 90 25
+End
+
+#O
+Vnum 12001
+Nest 0
+PrevOwner Disraeli~
+ExtF 17448961
+Cond 0
+Wear 8
+Cost 0
+End
+
+#O
+Vnum 8529
 Nest 0
 PrevOwner Patat~
-Name bottle alize cranberry~
-ShD  Bottle of {RCranberry Alize{x~
-Desc You see a half emptied bottle of Alize here.~
-ExtF 1572871
+ExtF 524305
+Cond 0
+Wear 6
+Cost 2000
+End
+
+#O
+Vnum 12070
+Nest 0
+PrevOwner Tickle~
 Cond 0
 Wear 17
-Cost 10
+Cost 25000
+End
+
+#O
+Vnum 22563
+Nest 0
+PrevOwner Disraeli~
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 22507
+Nest 0
+PrevOwner Private~
+Cond 0
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 12006
+Nest 0
+PrevOwner Banker~
+Cond 0
+Wear 10
+Cost 900
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner Disraeli~
+Cond 0
+Wear 7
+Cost 0
+End
+
+#O
+Vnum 4913
+Enchanted
+Nest 0
+PrevOwner Octavi~
+ExtF 554172608
+Cond 0
+Wear -1
+Cost 2200
+Affc 'enchant weapon'   1  52  -1   4  19          0
+Affc 'enchant weapon'   1  52  -1   4  18          0
+Affc 'reserved'   1  50  -1   3  32          0
+Affc 'reserved'   1  50  -1   3   1          0
+Affc 'reserved'   1  50  -1  10  20          0
+End
+
+#O
+Vnum 23127
+Nest 0
+PrevOwner Zod~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 18105
+Nest 0
+PrevOwner Disraeli~
+Cond 0
+Wear 11
+Cost 4500
+End
+
+#O
+Vnum 10300
+Enchanted
+Nest 0
+PrevOwner Disraeli~
+Name Zoff holy mace~
+ShD  {CFriar {YZoff{x'{Ys{x {CHoly Mace{x~
+ExtF 323
+Cond 0
+Wear 16
+Lev  50
+Cost 6500
+Val  4 5 8 7 772
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'reserved'   0  48  -1   0   0     524288
+End
+
+#O
+Vnum 8504
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6000
+End
+
+#O
+Vnum 8503
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 5000
 End
 
 #END

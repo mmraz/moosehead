@@ -3,8 +3,8 @@ Name Amanda~
 SurN Goatnad~
 Id   875682281
 Email (null)~
-LogO 1125239255
-Vers 31
+LogO 1387237620
+Vers 33
 Desc An angel has entered your presence. Long black hair falls loosely
 over slim shoulders and shimmering silken wings. Bright blue eyes
 gleam with the love and compassion that all angels have. She
@@ -20,12 +20,13 @@ Prom %h/%H %m/%M %v/%V %g %a ~
 Race volare~
 Outc 0
 RufT 0
-MatookT 0
+MatookT 148
 SkPTimer 0
-SkPTracker 6
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Dreamlyn~
 LstKBy Mushtaq~
 LstAtkedBy no one~
@@ -37,6 +38,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 4460143 matook~
 DeityT -2289 matook~
 Sac  300
@@ -46,31 +53,32 @@ Node 0
 Cap 0
 Created 952557027
 Glad 0 0 0 0 0 0
-LastHost ip68-13-141-183.om.om.cox.net~
+LastHost 166.137.110.191~
 Cla  7
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 7588231
-Not  1111550888 1111676409 962088866 1110408641 1053966823 1123626414 962088866 1110846765 962088866 1111048001
+Plyd 7620006
+Not  1373427528 1362496198 962088866 1371977109 1357071901 1380254889 962088866 1359874532 962088866 1111048001
 Scro 22
 Rank 4
-Room 3001
-HMV  1148 1148 1049 1049 188 285
-Gold 246
-Silv 5423
+Room 3014
+HMV  1148 1148 1049 1049 285 285
+Gold 195
+Silv 3997
 Exp  306000
 Act  CDEGHMd
 MHSF AR
-AfBy DFTW
+AfBy CDTW
 Comm DFILORS
 Disp BCFGIJN
 IcgB 0
 Icg 0
+Pnet AEFI
 Pos  8
-Prac 43
-Trai 7
-SkiP 12
+Prac 44
+Trai 12
+SkiP 13
 Save  -4
 Alig  950
 Hit   12
@@ -79,15 +87,15 @@ SecHit   7
 SecDam   30
 ACs 1 -1 -1 20
 Wimp  20
-Attr 12 19 19 10 15 13 13 13
+Attr 12 19 19 10 15 10 11 13
 AMod 5 2 6 3 -3 0 0 0
 Pass AmYxe1z3hj5Pc~
-Titl  runnin her hands through his fro [STYLEE]~
+Titl  is the new Muggerrud. [STYLEE]~
 Pnts 90
 TSex 2
 LLev 1710
 HMVP 1088 699 250
-Cnd  0 44 46 44
+Cnd  0 0 13 0
 Alias f c 'create food'~
 Alias sp cast 'create spring'~
 Alias sa cast sanctuary~
@@ -359,8 +367,8 @@ Gr 'orbs'
 Gr 'protective'
 Gr 'psionics'
 Gr 'transportation'
-Affc 'detect hidden'   0  53  41   0   0         32
-Affc 'detect invis'   0  53  42   0   0          8
+Affc 'detect invis'   0  49  26   0   0          8
+Affc 'detect good'   0  49  11   0   0          4
 End
 
 #O
@@ -557,8 +565,8 @@ Desc A red aura emits from Amanda's fingertips which is used for healing.~
 Cond 0
 Wear 9
 Cost 4000
-Affc 'reserved'   1  37  -1   2  19          0
 Affc 'reserved'   1  37  -1   2   1          0
+Affc 'reserved'   1  37  -1   2  19          0
 End
 
 #O
@@ -603,7 +611,7 @@ End
 #O
 Vnum 6517
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name bad monkey~
 ShD  Bad Monkey Award.~
 Desc A Bad Monkey Award~
@@ -616,22 +624,22 @@ End
 Vnum 6419
 Enchanted
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name hair scrunchie~
 ShD  a flowing red ponytail~
 Desc You see a lock of beautiful red hair.~
 Cond 0
 Wear -1
 Cost 8400
-Affc 'reserved'   1  45  -1  -4  20          0
-Affc 'reserved'   1  45  -1   2  18          0
 Affc 'enchant armor'   1  51  -1  -9  17          0
+Affc 'reserved'   1  45  -1   2  18          0
+Affc 'reserved'   1  45  -1  -4  20          0
 End
 
 #O
 Vnum 6517
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name blow up party doll~
 ShD  A Guido blow up party doll~
 Desc An inflatable Guido party doll is here, dressed as the faerie queen.~
@@ -643,7 +651,7 @@ End
 #O
 Vnum 1246
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 14
@@ -652,7 +660,7 @@ End
 #O
 Vnum 922
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 4900
@@ -661,7 +669,7 @@ End
 #O
 Vnum 922
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 4900
@@ -670,7 +678,7 @@ End
 #O
 Vnum 31087
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 0
@@ -680,7 +688,7 @@ End
 #O
 Vnum 1251
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name picture named~
 ShD  A {MNAKED{x Picture of {GRobinhood{x~
 Desc A {MNAKED{x Picture of {GRobinhood{x is here making you drool.~
@@ -693,7 +701,7 @@ End
 #O
 Vnum 6517
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name bear teddy cuddley~
 ShD  A {Wcuddley{x {yteddy{x {Dbear{x.~
 Desc A cute adorable little teddy Moose sits on the ground waiting to be hugged.~
@@ -705,7 +713,7 @@ End
 #O
 Vnum 15
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 ShD  the leg of Ruiner~
 Desc The sliced-off leg of Ruiner is lying here.~
 Cond 0
@@ -716,7 +724,7 @@ End
 #O
 Vnum 15
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 ShD  the leg of Hannah~
 Desc The sliced-off leg of Hannah is lying here.~
 Ityp 13
@@ -728,7 +736,7 @@ End
 #O
 Vnum 6517
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name Needle Codine~
 ShD  A Big Needle full of Codine~
 Desc A huge needle lays here.~
@@ -740,7 +748,7 @@ End
 #O
 Vnum 5904
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 3000
@@ -749,7 +757,7 @@ End
 #O
 Vnum 10303
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 50
@@ -758,7 +766,7 @@ End
 #O
 Vnum 30042
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 0
@@ -768,7 +776,7 @@ End
 #O
 Vnum 1251
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name Picture naked robinhood~
 ShD  A {MNAKED{x Picture of {GRobinhood{x!~
 Desc A {MNAKED{x Picture of {GRobinhood{x is here making you drool.~
@@ -781,7 +789,7 @@ End
 #O
 Vnum 15227
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 20000
@@ -791,7 +799,7 @@ End
 #O
 Vnum 5904
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 0
@@ -800,7 +808,7 @@ End
 #O
 Vnum 3377
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 10000
@@ -809,7 +817,7 @@ End
 #O
 Vnum 28024
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name orgasm screaming moaning~
 ShD  an orgasm~
 Desc An orgasm, with lots of screaming and moaning, is here.~
@@ -821,7 +829,7 @@ End
 #O
 Vnum 10446
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name baseball cap~
 ShD  an "Amanda is a Hottie!!" baseball cap~
 Desc a baseball cap with bold neon lettering lies here~
@@ -833,7 +841,7 @@ End
 #O
 Vnum 6517
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name blow up doll guido~
 ShD  a Guido blow up doll~
 Desc A Guido blow up party doll is sitting here, waiting to pleasure you.~
@@ -845,7 +853,7 @@ End
 #O
 Vnum 8518
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 0
@@ -855,7 +863,7 @@ End
 #O
 Vnum 6517
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name guido trading card~
 ShD  A Guido trading card~
 Desc A small card with a picture of Guido exuding coolness is here. Collect all 6!~
@@ -868,22 +876,22 @@ End
 Vnum 12001
 Enchanted
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 ExtF 17449025
 Cond 0
 Wear -1
 Lev  45
 Cost 0
-Affc 'enchant armor'   1  53  -1  -2  17          0
-Affc 'reserved'   1  44  -1   2  18          0
-Affc 'reserved'   1  44  -1   3  19          0
 Affc 'reserved'   1  44  -1  35  14          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1   2  18          0
+Affc 'enchant armor'   1  53  -1  -2  17          0
 End
 
 #O
 Vnum 1929
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 60
@@ -894,7 +902,7 @@ End
 Vnum 5914
 Enchanted
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 ExtF 134217792
 Wt   39
 Wrp 1
@@ -903,32 +911,32 @@ Wear -1
 Lev  49
 Cost 4000
 Val  7 7 7 4 4
-Affc 'enchant armor'   1  53  -1  -2  17          0
-Affc 'reserved'   1  47  -1   2  19          0
-Affc 'reserved'   1  47  -1   2  18          0
 Affc 'reserved'   1  47  -1  -2  20          0
+Affc 'reserved'   1  47  -1   2  18          0
+Affc 'reserved'   1  47  -1   2  19          0
+Affc 'enchant armor'   1  53  -1  -2  17          0
 End
 
 #O
 Vnum 16115
 Enchanted
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name leg plates bones~
 ShD  leg plates of bones~
 Desc A pair of leg plates made out of bones has been buried here.~
 Cond 0
 Wear -1
 Cost 3500
-Affc 'reserved'   1  30  -1   1   1          0
-Affc 'reserved'   1  30  -1   1   2          0
 Affc 'enchant armor'   1  50  -1 -10  17          0
+Affc 'reserved'   1  30  -1   1   2          0
+Affc 'reserved'   1  30  -1   1   1          0
 End
 
 #O
 Vnum 8503
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 5000
@@ -937,7 +945,7 @@ End
 #O
 Vnum 31087
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 0
@@ -947,7 +955,7 @@ End
 #O
 Vnum 5909
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 3000
@@ -956,7 +964,7 @@ End
 #O
 Vnum 5909
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Cond 0
 Wear -1
 Cost 3000
@@ -965,7 +973,7 @@ End
 #O
 Vnum 8504
 Nest 1
-PrevOwner (null)~
+PrevOwner Amanda~
 Name range rover~
 ShD  A rough and rugged champagne coloured Range Rover~
 Desc A rough and rugged looking Range Rover sits solidly here.~
@@ -1025,22 +1033,8 @@ Cond 0
 Wear -1
 Lev  35
 Cost 3600
-Affc 'enchant weapon'   1  41  -1   6  19          0
 Affc 'enchant weapon'   1  41  -1   8  18          0
-End
-
-#O
-Vnum 5221
-Enchanted
-Nest 1
-PrevOwner Amanda~
-ExtF 1091
-Cond 0
-Wear -1
-Lev  31
-Cost 3300
-Affc 'enchant weapon'   1  52  -1  10  19          0
-Affc 'enchant weapon'   1  52  -1   9  18          0
+Affc 'enchant weapon'   1  41  -1   6  19          0
 End
 
 #O
@@ -1053,10 +1047,10 @@ Cond 0
 Wear -1
 Cost 11800
 Val  0 12 3 10 2052
-Affc 'reserved'   1  50  -1   1   3          0
-Affc 'reserved'   1  50  -1   1   2          0
-Affc 'enchant weapon'   1  52  -1   6  19          0
 Affc 'enchant weapon'   0  52  -1   6  18          0
+Affc 'enchant weapon'   1  52  -1   6  19          0
+Affc 'reserved'   1  50  -1   1   2          0
+Affc 'reserved'   1  50  -1   1   3          0
 End
 
 #O
@@ -1069,10 +1063,10 @@ Cond 0
 Wear -1
 Lev  47
 Cost 4800
-Affc 'enchant weapon'   0  53  -1   9  18          0
-Affc 'enchant weapon'   1  53  -1   9  19          0
-Affc 'reserved'   1  40  -1   0   0          0
 Affc 'reserved'   1  40  -1  -1  20          0
+Affc 'reserved'   1  40  -1   0   0          0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
@@ -1085,8 +1079,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 4500
-Affc 'enchant weapon'   0  55  -1   5  18          0
 Affc 'enchant weapon'   1  55  -1   7  19          0
+Affc 'enchant weapon'   0  55  -1   5  18          0
 End
 
 #O
@@ -1099,10 +1093,10 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6500
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'reserved'   1  49  -1   0   0          0
-Affc 'reserved'   1  49  -1  20  13          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
 End
 
 #O
@@ -1151,6 +1145,36 @@ Cost 0
 End
 
 #O
+Vnum 3364
+Nest 1
+PrevOwner Amanda~
+Cond 0
+Wear -1
+Cost 1280
+End
+
+#O
+Vnum 3365
+Nest 1
+PrevOwner Amanda~
+Cond 0
+Wear -1
+Cost 640
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Amanda~
+Name cloud 9~
+ShD  Cloud #9~
+Desc A fluffy white cloud is floating here, perfect for some beauty sleep.~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
 Vnum 1264
 Nest 1
 PrevOwner Amanda~
@@ -1172,20 +1196,68 @@ ExtF 96
 Cond 0
 Wear 16
 Cost 4500
-Affc 'enchant weapon'   0 3000  -1   5  18          0
 Affc 'enchant weapon'   1 3000  -1   5  19          0
+Affc 'enchant weapon'   0 3000  -1   5  18          0
 End
 
 #O
-Vnum 8503
+Vnum 5221
+Enchanted
 Nest 0
 PrevOwner Amanda~
-Name cloud 9~
-ShD  Cloud #9~
-Desc A fluffy white cloud is floating here, perfect for some beauty sleep.~
+ExtF 1091
 Cond 0
 Wear -1
-Cost 5000
+Lev  31
+Cost 3300
+Affc 'enchant weapon'   1  52  -1   9  18          0
+Affc 'enchant weapon'   1  52  -1  10  19          0
+End
+
+#O
+Vnum 4822
+Nest 0
+PrevOwner Stylee~
+Cond 0
+Wear -1
+Cost 200
+Val  25 23 5 0 0
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
 End
 
 #END

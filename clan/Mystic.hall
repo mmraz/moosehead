@@ -1,0 +1,44 @@
+Label entryhall
+Type 65
+Name A room filled with coloured mist.~
+Desc The room is filled with coloured mists all over the place. Only a master
+magician can see through it. The mists seems to sift out unworthy visitors.
+~
+Index 1201
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label restoration
+Type 65
+Name A {CS{Mophisticated{x {CR{Mejuvenation{x {Groom{x~
+Desc As you enter this room you feel its power seeping into your body. Neat {RA{rrcane{x
+runes can be seen marked on the walls. The room is filled with {GOrbs{x, enchanted
+{YGems{x and ancient {DRelics{x. A Mystical aura surrounds the entire room and 
+furniture.
+~
+Index 1202
+Cost 3250
+Flags 1
+Opt 1 2
+Loc 0
+#End
+Label manapool
+Type 65
+Name A {mMystic{x Room Radiating with magic~
+Desc This is a large classy room. You notice a manificent pool filled with mana,
+with bluish purple mists steaming out of it.
+~
+Index 1203
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Exit 0 1201 -1 -1 11109
+Exit 2 1201 1203 -1 -1
+Exit 4 1201 1202 -1 -1
+Exit 5 1202 1201 -1 -1
+Exit 0 1203 1201 -1 -1
+#End

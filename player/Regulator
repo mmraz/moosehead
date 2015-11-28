@@ -2,81 +2,90 @@
 Name Regulator~
 Id   990018020
 Email (null)~
-LogO 1131643927
-Vers 31
+LogO 1445800856
+Vers 33
 LnD  A Gladiator~
-Prom <%hHp %mMa %vMv>[%g.%s][%w][%S][%t]%c[%e][%r] ~
+Prom [%h/%H %m/%M %v/%V][%g.%s][%w/%W]%c[%r][%e] ~
 Race dragon~
 Clan demise~
 Outc 0
-RufT 361
+RufT 0
 MatookT 0
 SkPTimer 0
-SkPTracker 3
+SkPTracker 0
 LogoutTracker 0
-Kill 13 76 0 27
-Steal 4 6389 0
-LstK Kalamity~
-LstKBy Nerrad~
+Kill 13 79 0 29
+Steal 4 6584 0
+MSteal 0
+LstK Davey~
+LstKBy Corrupt~
 LstAtkedBy Elliot~
-LstAtkedByTimer 13238
-LstCombatDate 1129386070
-LstKillDate 1114160986
-LstDeathDate 1129386072
-LoginsWOKill 31
-LoginsWODeath 10
-LoginsWOCombat 9
+LstAtkedByTimer 9170
+LstCombatDate 1445172309
+LstKillDate 1308592997
+LstDeathDate 1310691372
+LoginsWOKill 60
+LoginsWODeath 50
+LoginsWOCombat 15
 Bnty 0
-Deity 391813 hermes~
+DeityFavor 2 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
+Deity 391813 cthon~
 DeityT -24971 almighty~
 Sac  300
-Sex  0
+Sex  1
 Vump  2
 Node 0
 Cap 0
 Created 990018043
 Glad 2 7 1 1 7 1
-LastHost 196-207-45-254.gprs.vodacom.co.za~
+LastHost 197.86.168.43~
 Cla  4
 Kit acrobat~
 ClaO 1
 Levl 51
 DLevl 0
-Plyd 2403513
-Not  1126328533 1128463381 1107437728 1131210186 1107437728 1131346367 1107437728 1127060125 1107437728 1129478192
+Plyd 2567273
+Not  1444489282 1128463381 1107437728 1308379536 1107437728 1444750340 1107437728 1319995477 1107437728 1129478192
 Scro 22
-Rank 0
+Rank 3
 Room 31403
-HMV  1473 1473 840 840 497 497
-Gold 79
-Silv 3119
+HMV  1598 1598 905 905 497 497
+Gold 162
+Silv 2736
 Exp  497431
-Act  CDEFGHIKQST
+Act  CDGHIKQST
 MHSF RS
-AfBy CDEFJTbc
+AfBy CDEFJTc
 Comm 0
 Disp FGIJLN
 IcgB 0
 Icg 0
 Pnet ABCDEFGHI
-Pos  4
-SkiP 241
-Save  -13
+Pos  8
+Prac 1
+SkiP 799
+Save  -20
 Alig  -1000
-Hit   28
-Dam   34
+Hit   34
+Dam   30
 SecHit   21
-SecDam   22
-ACs -319 -319 -319 -319
-Attr 19 20 18 20 22 20 17 15
-AMod 6 0 4 -1 4 2 0 0
+SecDam   17
+ACs -51 -51 -51 -51
+Wimp  5
+Attr 19 25 25 20 22 11 14 15
+AMod 2 0 0 6 1 0 0 0
 Pass Re5mLbcy3f9Zg~
-Titl .~
+Titl  Colonel of {RCthon's{x armies.~
 Pnts 99
 TSex 1
 LLev 149
 HMVP 1273 832 497
-Cnd  0 0 35 22
+Cnd  0 0 3 0
 Alias 1 c 'dispel magic'~
 Alias 2 c heal~
 Alias skel c 'summon dead'~
@@ -90,7 +99,8 @@ Alias ch c charm~
 Alias ors order all rescue regulator~
 Alias 7 c gate desk clerk ~
 Alias 6 pray transport~
-Alias 5 c gate spirit sailor~
+Alias 5 c mirr~
+Alias ot order all trip~
 Sk 1 'aid'
 Sk 100 'armor'
 Sk 1 'bestow holiness'
@@ -105,8 +115,7 @@ Sk 1 'cause light'
 Sk 1 'cause serious'
 Sk 1 'change sex'
 Sk 100 'charm person'
-Sk 1 'cone of silence'
-Sk 87 'continual light'
+Sk 89 'continual light'
 Sk 80 'control weather'
 Sk 1 'create food'
 Sk 1 'create fountain'
@@ -238,7 +247,7 @@ Sk 84 'steal'
 Sk 78 'scrolls'
 Sk 1 'staves'
 Sk 81 'wands'
-Sk 73 'swimming'
+Sk 74 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'monk basics'
@@ -260,149 +269,18 @@ Gr 'pyrotechnics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'nosferatu'
-Affc 'detect magic'   0  34   3   0   0         16
-Affc 'detect hidden'   0  41   2   0   0         32
-Affc 'detect invis'   0  34   3   0   0          8
-Affc 'stone skin'   0  37   3 -40  17          0
-Affc 'bless'   0  41   9  -5  24          0
-Affc 'bless'   0  38   9   5  18          0
-Affc 'giant strength'   0  37   2   4   1          0
-Affc 'shield'   0  39  10 -20  17          0
-End
-
-#O
-Vnum 18105
-Nest 0
-PrevOwner Regulator~
-Cond 0
-Wear 11
-Cost 4500
-End
-
-#O
-Vnum 6423
-Enchanted
-Nest 0
-PrevOwner Regulator~
-ExtF 134217729
-Wt   12
-Cond 0
-Wear 5
-Cost 19800
-Val  12 10 11 2 5
-Affc 'reserved'   1  47  -1  -4  20          0
-Affc 'reserved'   1  47  -1   2   5          0
-End
-
-#O
-Vnum 20733
-Nest 0
-PrevOwner Regulator~
-ExtF 262145
-Cond 0
-Wear 15
-Cost 3000
-End
-
-#O
-Vnum 5937
-Nest 0
-PrevOwner Regulator~
-ExtF 134217729
-Wt   48
-Cond 0
-Wear 9
-Cost 4000
-Val  8 8 8 5 5
-End
-
-#O
-Vnum 16721
-Nest 0
-PrevOwner Regulator~
-Cond 0
-Wear 4
-Cost 1400
-End
-
-#O
-Vnum 18011
-Nest 0
-PrevOwner Regulator~
-Cond 0
-Wear 6
-Cost 650
-End
-
-#O
-Vnum 20733
-Nest 0
-PrevOwner Regulator~
-ExtF 262145
-Cond 0
-Wear 14
-Cost 3000
-End
-
-#O
-Vnum 2205
-Enchanted
-Nest 0
-PrevOwner Regulator~
-ExtF 451
-Cond 0
-Wear -1
-Cost 0
-Affc 'enchant weapon'   0  52  -1  11  18          0
-Affc 'enchant weapon'   1  52  -1  11  19          0
-End
-
-#O
-Vnum 20813
-Nest 0
-PrevOwner Regulator~
-Cond 0
-Wear 1
-Cost 4000
-End
-
-#O
-Vnum 20813
-Nest 0
-PrevOwner Regulator~
-Cond 0
-Wear 2
-Cost 4000
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 0
-PrevOwner Regulator~
-ExtF 227
-Cond 0
-Wear 16
-Lev  50
-Cost 4500
-Affc 'enchant weapon'   0  52  -1   7  18          0
-Affc 'enchant weapon'   1  52  -1  12  19          0
-End
-
-#O
-Vnum 8543
-Nest 0
-PrevOwner Regulator~
-ExtF 65
-Cond 0
-Wear 10
-Cost 4250
+Affc 'detect magic'   0  42  19   0   0         16
+Affc 'detect hidden'   0  42  20   0   0         32
+Affc 'detect invis'   0  49  19   0   0          8
+Affc 'shield'   0  45  18 -20  17          0
+Affc 'bless'   0  47  16   6  18          0
+Affc 'bless'   0  42  16  -6  24          0
 End
 
 #O
 Vnum 2513
 Nest 0
-PrevOwner Regulator~
+PrevOwner Matthias~
 ExtF 16779777
 Cond 0
 Wear 3
@@ -410,98 +288,26 @@ Cost 710
 End
 
 #O
-Vnum 2205
-Nest 1
-PrevOwner Regulator~
-ExtF 257
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 5902
-Enchanted
+Vnum 22044
 Nest 1
 PrevOwner Regulator~
 Cond 0
 Wear -1
-Cost 4000
-Affc 'enchant weapon'   0  53  -1   7  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
+Cost 100000
 End
 
 #O
-Vnum 9007
+Vnum 5743
 Enchanted
 Nest 1
 PrevOwner Regulator~
-ExtF 339
+ExtF 524355
 Cond 0
 Wear -1
 Lev  50
-Cost 5000
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'reserved'   1  49  -1  -5  17          0
-End
-
-#O
-Vnum 911
-Nest 1
-PrevOwner Regulator~
-ExtF 1121
-Cond 0
-Wear -1
-Cost 6900
-End
-
-#O
-Vnum 18108
-Enchanted
-Nest 1
-PrevOwner Regulator~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 5600
-Affc 'enchant weapon'   1  53  -1  14  19          0
-Affc 'enchant weapon'   0  53  -1  14  18          0
-End
-
-#O
-Vnum 3081
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 26
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
 Cost 0
-Val  51 2 -1 -1 -1
-Spell 1 'accuracy'
-End
-
-#O
-Vnum 20802
-Enchanted
-Nest 1
-PrevOwner Regulator~
-ExtF 67
-Cond 0
-Wear -1
-Cost 3000
-Affc 'enchant weapon'   1  38  -1  11  19          0
-Affc 'enchant weapon'   0  38  -1  11  18          0
+Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
 End
 
 #O
@@ -521,160 +327,58 @@ Affc 'reserved'   1  46  -1   2   5          0
 End
 
 #O
-Vnum 9107
+Vnum 20802
 Enchanted
 Nest 1
 PrevOwner Regulator~
 ExtF 67
 Cond 0
 Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
+Cost 3000
+Affc 'enchant weapon'   1  38  -1  11  19          0
+Affc 'enchant weapon'   0  38  -1  11  18          0
 End
 
 #O
-Vnum 2405
-Nest 1
-PrevOwner Regulator~
-Name hansa ice pilsener~
-ShD  Thewhiner's {CIce Cold{X {RHansa Pilsener{X~
-Desc A broken Hansa bottle lies here.~
-ExtF 17694721
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 5743
+Vnum 9007
 Enchanted
 Nest 1
 PrevOwner Regulator~
-ExtF 524355
+ExtF 339
 Cond 0
 Wear -1
 Lev  50
-Cost 0
-Affc 'enchant weapon'   0  53  -1   8  18          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-End
-
-#O
-Vnum 10320
-Enchanted
-Nest 1
-PrevOwner Regulator~
-ExtF 67
-Cond 0
-Wear -1
-Cost 9500
-Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   1  53  -1  12  18          0
-End
-
-#O
-Vnum 20818
-Enchanted
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 4000
-Affc 'reserved'   1  49  -1   2  18          0
-Affc 'reserved'   1  49  -1  -1  20          0
-Affc 'reserved'   1  49  -1   1  19          0
-Affc 'reserved'   1  49  -1  30  12          0
-End
-
-#O
-Vnum 10445
-Enchanted
-Nest 1
-PrevOwner Regulator~
-ExtF 67
-Cond 0
-Wear -1
-Lev  50
-Cost 6400
-Val  4 5 8 38 4
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'reserved'   1  47  -1  -5  17          0
-Affc 'enchant weapon'   1  53  -1  13  19          0
-End
-
-#O
-Vnum 911
-Nest 1
-PrevOwner Regulator~
-ExtF 1121
-Cond 0
-Wear -1
-Cost 6900
-End
-
-#O
-Vnum 2447
-Enchanted
-Nest 1
-PrevOwner Regulator~
-ExtF 786499
-Cond 0
-Wear -1
-Lev  50
-Cost 150
-Affc 'reserved'   1  42  -1  15  12          0
-Affc 'enchant weapon'   1  53  -1   8  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 3081
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 3081
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 800
-Spell 1 'sanctuary'
-End
-
-#O
-Vnum 28057
-Enchanted
-Nest 1
-PrevOwner Regulator~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  53  -1  10  18          0
-Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 9107
-Enchanted
-Nest 1
-PrevOwner Regulator~
-ExtF 524355
-Cond 0
-Wear -1
-Lev  50
-Cost 0
+Cost 5000
 Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'reserved'   1  49  -1  -5  17          0
+End
+
+#O
+Vnum 12086
+Nest 1
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 12345
+End
+
+#O
+Vnum 12086
+Nest 1
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 12345
+End
+
+#O
+Vnum 2432
+Nest 1
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 1200
 End
 
 #O
@@ -692,35 +396,57 @@ Affc 'enchant weapon'   1  52  -1   9  19          0
 End
 
 #O
-Vnum 22506
-Enchanted
+Vnum 12006
 Nest 1
 PrevOwner Regulator~
-ExtF 536870979
 Cond 0
 Wear -1
-Lev  50
-Cost 1200
-Affc 'enchant weapon'   0  53  -1  11  18          0
-Affc 'enchant weapon'   1  53  -1  11  19          0
+Cost 900
 End
 
 #O
-Vnum 23504
+Vnum 12006
 Nest 1
 PrevOwner Regulator~
 Cond 0
 Wear -1
-Cost 4500
+Cost 900
 End
 
 #O
-Vnum 2414
+Vnum 12004
 Nest 1
 PrevOwner Regulator~
 Cond 0
 Wear -1
-Cost 3300
+Cost 40
+End
+
+#O
+Vnum 12079
+Nest 1
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12007
+Nest 1
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12081
+Nest 1
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 10000
 End
 
 #O
@@ -733,139 +459,24 @@ Cost 18300
 End
 
 #O
-Vnum 10450
+Vnum 22044
 Nest 1
 PrevOwner Regulator~
 Cond 0
 Wear -1
-Cost 10000
+Cost 100000
 End
 
 #O
-Vnum 17007
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 1400
-End
-
-#O
-Vnum 17010
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 17007
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 1400
-End
-
-#O
-Vnum 8504
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 6000
-End
-
-#O
-Vnum 8503
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 2432
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 1200
-End
-
-#O
-Vnum 2101
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 970
-End
-
-#O
-Vnum 28021
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 3365
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 640
-End
-
-#O
-Vnum 23505
+Vnum 5902
 Enchanted
 Nest 1
 PrevOwner Regulator~
-ExtF 67
 Cond 0
 Wear -1
-Lev  50
-Cost 350
-Affc 'enchant weapon'   0  53  -1  10  18          0
+Cost 4000
+Affc 'enchant weapon'   0  53  -1   7  18          0
 Affc 'enchant weapon'   1  53  -1  10  19          0
-End
-
-#O
-Vnum 3365
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 640
-End
-
-#O
-Vnum 3364
-Nest 1
-PrevOwner Regulator~
-Cond 0
-Wear -1
-Cost 1280
-End
-
-#O
-Vnum 18119
-Enchanted
-Nest 1
-PrevOwner Regulator~
-ExtF 66
-Cond 0
-Wear -1
-Lev  50
-Cost 2250
-Affc 'enchant weapon'   0  52  -1  13  18          0
-Affc 'enchant weapon'   1  52  -1  13  19          0
 End
 
 #O
@@ -883,31 +494,43 @@ Affc 'enchant weapon'   1  53  -1  11  18          0
 End
 
 #O
-Vnum 18150
-Enchanted
+Vnum 22044
 Nest 1
 PrevOwner Regulator~
-ExtF 524354
 Cond 0
 Wear -1
-Lev  50
-Cost 0
-Affc 'enchant weapon'   0  51  -1  11  18          0
-Affc 'enchant weapon'   1  51  -1  11  19          0
+Cost 100000
 End
 
 #O
-Vnum 10431
+Vnum 22044
+Nest 1
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 10320
 Enchanted
 Nest 1
 PrevOwner Regulator~
 ExtF 67
 Cond 0
 Wear -1
-Lev  50
-Cost 3250
+Cost 9500
 Affc 'enchant weapon'   1  53  -1  10  19          0
-Affc 'enchant weapon'   0  53  -1  10  18          0
+Affc 'enchant weapon'   1  53  -1  12  18          0
 End
 
 #O
@@ -925,61 +548,311 @@ Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O
-Vnum 2205
-Enchanted
-Nest 1
-PrevOwner Regulator~
-ExtF 67
+Vnum 12084
+Nest 0
+PrevOwner Matthias~
+ExtF 17563713
 Cond 0
-Wear -1
-Cost 0
-Val  6 2 20 7 300
-Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'enchant weapon'   0  53  -1  12  18          0
-Affc 'sharpen'   5  51  -1   0   0          8
+Wear 6
+Cost 7777
 End
 
 #O
 Vnum 23515
-Nest 1
+Nest 0
 PrevOwner Regulator~
+ExtF 17301569
 Cond 0
-Wear -1
+Wear 2
 Cost 7609
 End
 
 #O
 Vnum 23515
-Nest 1
+Nest 0
 PrevOwner Regulator~
+ExtF 17301569
 Cond 0
-Wear -1
+Wear 1
 Cost 7609
 End
 
 #O
-Vnum 22504
+Vnum 12080
 Nest 0
 PrevOwner Regulator~
-Cond 0
-Wear 0
-Cost 0
-End
-
-#O
-Vnum 10339
-Nest 0
-PrevOwner Ergun~
-ExtF 17448961
+ExtF 17563649
 Cond 0
 Wear 8
+Cost 4500
+End
+
+#O
+Vnum 12004
+Nest 0
+PrevOwner Regulator~
+ExtF 2049
+Cond 0
+Wear 7
+Cost 40
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 0
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 0
+Val  0 0 0 0 22089
+End
+
+#O
+Vnum 12079
+Nest 0
+PrevOwner Regulator~
+ExtF 17301505
+Cond 0
+Wear 10
+Cost 0
+End
+
+#O
+Vnum 28021
+Nest 0
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 2500
+End
+
+#O
+Vnum 2101
+Nest 0
+PrevOwner Regulator~
+Cond 0
+Wear -1
+Cost 970
+End
+
+#O
+Vnum 20818
+Enchanted
+Nest 0
+PrevOwner Regulator~
+Cond 0
+Wear 11
+Cost 4000
+Affc 'reserved'   1  49  -1   2  18          0
+Affc 'reserved'   1  49  -1  -1  20          0
+Affc 'reserved'   1  49  -1   1  19          0
+Affc 'reserved'   1  49  -1  30  12          0
+End
+
+#O
+Vnum 8048
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 0
+Cost 2000
+End
+
+#O
+Vnum 2505
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 16721
+Nest 0
+PrevOwner (null)~
+Damaged 46
+Cond 0
+Wear 4
+Cost 1400
+End
+
+#O
+Vnum 8509
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 904
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2200
+End
+
+#O
+Vnum 5934
+Nest 0
+PrevOwner Regulator~
+ExtF 134217729
+Wt   110
+Cond 0
+Wear 5
+Cost 4000
+Val  7 7 7 6 5
+End
+
+#O
+Vnum 5938
+Nest 0
+PrevOwner Regulator~
+ExtF 134217984
+Wt   110
+Cond 0
+Wear -1
+Cost 4000
+Val  7 7 7 4 5
+End
+
+#O
+Vnum 5937
+Nest 0
+PrevOwner Regulator~
+ExtF 134217729
+Wt   48
+Damaged 52
+Cond 0
+Wear 9
+Cost 4000
+Val  8 8 8 5 5
+End
+
+#O
+Vnum 2431
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 900
+End
+
+#O
+Vnum 2414
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3300
+End
+
+#O
+Vnum 15227
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 12
 Cost 20000
+End
+
+#O
+Vnum 2205
+Enchanted
+Nest 0
+PrevOwner Regulator~
+ExtF 66
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+End
+
+#O
+Vnum 12010
+Nest 0
+PrevOwner Scribbles~
+ExtF 1196065
+Cond 0
+Wear -1
+Cost 15000
+End
+
+#O
+Vnum 20727
+Nest 0
+PrevOwner (null)~
+ExtF 262145
+Cond 0
+Wear 13
+Cost 5500
+End
+
+#O
+Vnum 20733
+Nest 0
+PrevOwner (null)~
+ExtF 262145
+Cond 0
+Wear 14
+Cost 3000
+End
+
+#O
+Vnum 22563
+Nest 0
+PrevOwner Regulator~
+ExtF 1
+Cond 0
+Wear 18
+Cost 0
+End
+
+#O
+Vnum 20733
+Nest 0
+PrevOwner (null)~
+ExtF 262145
+Cond 0
+Wear 15
+Cost 3000
+End
+
+#O
+Vnum 2422
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 700
+End
+
+#O
+Vnum 2434
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2400
 End
 
 #O
 Vnum 2405
 Nest 0
-PrevOwner Regulator~
+PrevOwner (null)~
 ExtF 17694977
 Cond 0
 Wear 17
@@ -987,92 +860,54 @@ Cost 1000
 End
 
 #O
-Vnum 8531
-Nest 0
-PrevOwner Ergun~
-ExtF 65
-Cond 0
-Wear 13
-Cost 600
-End
-
-#O
-Vnum 23127
+Vnum 23129
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 800
+Cost 10000
 End
 
 #O
-Vnum 23128
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6000
-Spell 3 'acid blast'
-End
-
-#O
-Vnum 23128
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6000
-Spell 3 'acid blast'
-End
-
-#O
-Vnum 23128
-Nest 1
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 6000
-Spell 3 'acid blast'
-End
-
-#O
-Vnum 23127
+Vnum 1271
 Nest 0
 PrevOwner (null)~
-ExtF 16777217
+Damaged 100
 Cond 0
-Wear 7
-Cost 800
+Wear -1
+Cost 8000
 End
 
 #O
-Vnum 23128
+Vnum 1269
 Nest 1
 PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 6000
-Spell 3 'acid blast'
+Cost 0
 End
 
 #O
-Vnum 23128
-Nest 1
-PrevOwner (null)~
+Vnum 18119
+Enchanted
+Nest 0
+PrevOwner Bullwart~
+ExtF 67
 Cond 0
-Wear -1
-Cost 6000
-Spell 3 'acid blast'
+Wear 16
+Lev  50
+Cost 2250
+Affc 'enchant weapon'   0  52  -1  13  18          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
 End
 
 #O
-Vnum 23128
-Nest 1
-PrevOwner (null)~
+Vnum 23504
+Nest 0
+PrevOwner Regulator~
 Cond 0
 Wear -1
-Cost 6000
-Spell 3 'acid blast'
+Cost 4500
 End
 
 #END

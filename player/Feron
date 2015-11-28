@@ -2,7 +2,7 @@
 Name Feron~
 Id   859612507
 Email (null)~
-LogO 1036432588
+LogO 1306701986
 Vers 31
 Prom <%h/%Hhp %m/%Mm %v/%Vmv %Xexp> ~
 Race dragon~
@@ -11,7 +11,7 @@ RufT 0
 MatookT 0
 SkPTimer 0
 SkPTracker 2
-LogoutTracker 3
+LogoutTracker 2
 Kill 0 0 0 0
 Steal 0 0 0
 LstK no one~
@@ -33,20 +33,20 @@ Node 0
 Cap 0
 Created 962476245
 Glad 0 0 0 0 0 0
-LastHost 212.246.206.224~
+LastHost 85.194.235.75~
 Cla  11
 ClaO 0
 Levl 2
 DLevl 0
-Plyd 31588
+Plyd 31613
 Not  962507056 962507056 962507056 962507056 962507056 962507056 962507056 962507056 962507056 0
 Scro 22
 Rank 0
 Room 3721
-HMV  43 33 107 107 103 103
+HMV  33 33 107 107 103 103
 Gold 41
 Silv 173
-Exp  20524
+Exp  20520
 Act  CDEFGQRS
 MHSF R
 AfBy JT
@@ -58,7 +58,10 @@ Pos  4
 Prac 8
 Trai 11
 SkiP 12
+Save  -3
 Alig  1000
+Hit   3
+SecHit   3
 ACs 100 100 100 100
 Wimp  4
 Attr 16 17 21 16 19 13 13 13
@@ -69,7 +72,7 @@ Pnts 100
 TSex 1
 LLev 8
 HMVP 33 107 103
-Cnd  0 0 2 9
+Cnd  0 0 1 7
 Alias f flee~
 Alias k kill~
 Sk 1 'acid blast'
@@ -97,6 +100,7 @@ Sk 1 'chill touch'
 OldSk 75 'chill touch'
 Sk 1 'colour spray'
 OldSk 1 'colour spray'
+Sk 1 'cone of silence'
 OldSk 51 'continual light'
 Sk 1 'control weather'
 OldSk 1 'create food'
@@ -263,7 +267,6 @@ Sk 50 'swimming'
 OldSk 1 'swimming'
 Sk 50 'recall'
 OldSk 50 'recall'
-Sk 1 'research'
 Gr 'rom basics'
 Gr 'mage basics'
 Gr 'wizard default'
@@ -279,6 +282,8 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
+Affc 'bless'   0  30  36  -3  24          0
+Affc 'bless'   0  30  36   3  18          0
 End
 
 #O
@@ -415,8 +420,8 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 360
-Affc 'enchant weapon'   1  30  -1   0  19          0
 Affc 'enchant weapon'   0  30  -1   0  18          0
+Affc 'enchant weapon'   1  30  -1   0  19          0
 End
 
 #O
@@ -742,7 +747,7 @@ PrevOwner (null)~
 ExtF 0
 Cond 0
 Wear -1
-Time 6
+Time 5
 Cost 0
 End
 

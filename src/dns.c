@@ -37,7 +37,7 @@ void save_dns(void)
     FILE *fp;
     bool found = FALSE;
 
-    fclose( fpReserve ); 
+//    fclose( fpReserve ); 
     if ( ( fp = fopen( DNS_FILE, "w" ) ) == NULL )
     {
         perror( NOTE_FILE );
@@ -50,7 +50,7 @@ void save_dns(void)
      }
 
      fclose(fp);
-     fpReserve = fopen( NULL_FILE, "r" );
+//     fpReserve = fopen( NULL_FILE, "r" );
      if (!found)
   unlink(DNS_FILE);
 }

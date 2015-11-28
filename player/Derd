@@ -2,18 +2,19 @@
 Name Derd~
 Id   961399211
 Email (null)~
-LogO 1124805290
-Vers 31
+LogO 1445438278
+Vers 33
 Prom <%h/%Hhp %m/%Mma %v/%Vmv>[%g.%s][%Xtl]%c%c[%e][%r] ~
 Race faerie~
 Outc 0
 RufT 0
 MatookT 0
-SkPTimer 22
+SkPTimer 18
 SkPTracker 12
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -25,6 +26,12 @@ LoginsWOKill 3
 LoginsWODeath 3
 LoginsWOCombat 3
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 475299 xochipili~
 DeityT -1573 xochipili~
 Sac  300
@@ -34,18 +41,18 @@ Node 0
 Cap 0
 Created 961399240
 Glad 0 0 0 0 0 0
-LastHost 146.230.193.187~
+LastHost 197.89.108.59~
 Cla  0
 Kit enchanter~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 1343963
+Plyd 1344121
 Not  1124599128 1017686840 0 1089684158 1096333685 1018747840 0 1018753091 0 1016465445
 Scro 22
 Rank 0
 Room 3054
-HMV  303 393 235 1342 246 496
+HMV  393 393 1318 1342 496 496
 Gold 650
 Silv 3390
 Exp  177529
@@ -57,7 +64,8 @@ Disp FGIJ
 IcgB 0
 Icg 0
 Pos  4
-Trai 9
+Prac 1
+Trai 14
 SkiP 1544
 Alig  -1000
 Hit   6
@@ -66,7 +74,7 @@ SecHit   6
 SecDam   5
 ACs 60 60 60 72
 Wimp  20
-Attr 13 25 25 25 13 13 13 14
+Attr 13 25 25 25 13 17 8 14
 AMod 0 2 2 1 0 4 0 11
 Pass Deyh/t65tIEGo~
 Titl .~
@@ -74,7 +82,7 @@ Pnts 69
 TSex 1
 LLev 1
 HMVP 353 1277 486
-Cnd  0 40 44 44
+Cnd  0 36 42 42
 Alias ea c 'enchant armor'~
 Alias skel c 'summon d'~
 Alias ew c 'enchant weapon'~
@@ -102,7 +110,6 @@ Sk 1 'change sex'
 Sk 96 'charm person'
 Sk 93 'chill touch'
 Sk 75 'colour spray'
-Sk 1 'cone of silence'
 Sk 84 'continual light'
 Sk 1 'create food'
 Sk 1 'create fountain'
@@ -328,8 +335,8 @@ Cond 0
 Wear -1
 Lev  36
 Cost 3000
-Affc 'enchant weapon'   1  53  -1   8  19          0
 Affc 'enchant weapon'   0  53  -1   8  18          0
+Affc 'enchant weapon'   1  53  -1   8  19          0
 End
 
 #O
@@ -441,7 +448,7 @@ Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
-Time 970
+Time 966
 Cost 0
 Spell 1 'fireball'
 End

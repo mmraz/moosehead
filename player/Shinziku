@@ -3,8 +3,8 @@ Name Shinziku~
 SurN Suzuki~
 Id   1017303898
 Email (null)~
-LogO 1127194019
-Vers 31
+LogO 1390745589
+Vers 33
 LnD  A Gladiator~
 Desc A Lasher from the shadows no longer moves silently about
 As you pause from fear, you hear his flail in the wind 
@@ -17,55 +17,62 @@ Desc A Lasher from the shadows no longer moves silently about
 legend of Shinziku Suzuki still lives on, as he who stands
 before you this very moment feels no mercy.
 ~
-Prom {G>{x%hhps %mmana %vmv %wcap $%g{G<{x ~
+Prom %h/%HHP %m/%MMANA %v/%VMOVE $%g %w/%WCAP ~
 Race lasher~
 Clan demise~
 Outc 0
-RufT 473
+RufT 126
 MatookT 0
 SkPTimer 0
-SkPTracker 11
+SkPTracker 0
 LogoutTracker 0
-Kill 37 170 3 128
+Kill 37 171 3 128
 Steal 0 0 0
-LstK BlackRainbow~
+MSteal 0
+LstK Kenlor~
 LstKBy BlackRainbow~
 LstAtkedBy Sadl~
-LstAtkedByTimer 5065
-LstCombatDate 1126232987
-LstKillDate 1125619313
+LstAtkedByTimer 4724
+LstCombatDate 1311476985
+LstKillDate 1307916885
 LstDeathDate 1125902105
-LoginsWOKill 8
-LoginsWODeath 6
-LoginsWOCombat 3
+LoginsWOKill 14
+LoginsWODeath 23
+LoginsWOCombat 7
 Bnty 0
+DeityFavor 2 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 411408 huitzilopochtli~
 DeityT -63288 almighty~
-Sac  150
+Sac  300
 Sex  1
-Vump  2
+Vump  3
 Node 0
 Cap 0
 Created 1017303951
 Glad 1 15 2 7 23 6
-LastHost c-67-170-18-57.hsd1.wa.comcast.net~
+LastHost 50.181.73.1~
 Cla  14
 Kit myrmidon~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 4111377
-Not  1126331756 1127109902 1126331756 1126331756 1126331756 1126916461 1126331756 1127060125 1126331756 1126331756
+Plyd 4126173
+Not  1390745478 1390745478 1390745478 1390745478 1390745478 1390745478 1390745478 1390745478 1390745478 1390745478
 Scro 98
 Rank 3
-Room 31422
-HMV  1233 1233 332 337 364 364
-Gold 884
-Silv 6522
+Room 31403
+HMV  1503 1503 322 322 364 364
+Gold 2352
+Silv 2222
 Exp  469514
-Act  DFGHJMQRSTU
+Act  DFGHJMQRSTUa
 MHSF RSX
-AfBy CNPTVc
+AfBy CTc
 Comm S
 Disp BFIJLN
 IcgB 0
@@ -74,24 +81,25 @@ Wizn W
 Pnet ABCDEFGHI
 Pos  8
 Prac 41
-SkiP 29
-Save  -31
-Alig  -515
-Hit   36
-Dam   36
-SecHit   27
-SecDam   24
-ACs -121 -115 -118 -58
+StatsTrained 170 0 0
+SkiP 106
+Save  -14
+Alig  -1000
+Hit   33
+Dam   37
+SecHit   21
+SecDam   25
+ACs -28 -22 -20 46
 Wimp  3
-Attr 24 20 20 17 22 18 20 14
-AMod 6 3 4 9 4 0 0 0
+Attr 24 20 20 17 22 10 11 14
+AMod 2 3 0 5 4 0 0 0
 Pass ShWHlyiqR32G.~
-Titl  wants to fight~
+Titl .~
 Pnts 100
 TSex 1
 LLev 264
-HMVP 993 289 329
-Cnd  0 16 46 18
+HMVP 1163 289 329
+Cnd  0 4 44 12
 Alias k murder~
 Alias b bash~
 Alias ; murder~
@@ -100,12 +108,13 @@ Alias pr pray recall~
 Alias 1 say EAT MY SHIELD!~
 Alias x shieldbash~
 Alias pa pray reanimation~
-Alias j shieldbash bug~
+Alias j drop all.raft~
 Alias res rescue~
-Alias h murder black~
-Alias i loot back cor~
+Alias h bash maj~
+Alias i murder sar~
 Alias y c demon self~
 Alias o loot pouch cor~
+Alias cb c 'bless'~
 Spz 'flail'
 Sk 1 'aid'
 Sk 100 'armor'
@@ -182,7 +191,7 @@ Sk 100 'kick'
 Sk 89 'morph'
 Sk 100 'parry'
 Sk 95 'rescue'
-Sk 91 'trip'
+Sk 94 'trip'
 Sk 100 'shield bash'
 Sk 100 'shield block'
 Sk 100 'scan'
@@ -211,26 +220,15 @@ Gr 'healing'
 Gr 'protective'
 Gr 'transportation'
 Gr 'garou'
-Affc 'shield'   0  34  18 -20  17          0
-Affc 'armor'   0  36  11 -20  17          0
-Affc 'bless'   0  37  23   5  18          0
-Affc 'bless'   0  34  23  -5  24          0
-Affc 'stone skin'   0  37  17 -40  17          0
-Affc 'giant strength'   0  32  17   4   1          0
-Affc 'protection evil'   0  35   1  -1  24       8192
-Affc 'haste'   0  36   3   4   2    2097152
-Affc 'sneak'   0  49  37   0   0      32768
 End
 
 #O
 Vnum 22504
 Nest 0
 PrevOwner Shinziku~
-ExtF 16777473
 Cond 0
 Wear 0
 Cost 0
-Affc 'bless'   1  37  33  -1  20        256
 End
 
 #O
@@ -250,35 +248,31 @@ End
 Vnum 5937
 Nest 0
 PrevOwner Shinziku~
-ExtF 134217985
+ExtF 134217729
 Wt   44
 Cond 0
 Wear 9
 Cost 4000
 Val  8 8 8 5 4
-Affc 'bless'   1  38  34  -1  20        256
 End
 
 #O
 Vnum 12001
 Nest 0
 PrevOwner Shinziku~
-ExtF 17449217
+ExtF 17448961
 Cond 0
 Wear 8
 Cost 0
-Affc 'bless'   1  36  34  -1  20        256
 End
 
 #O
 Vnum 12079
 Nest 0
 PrevOwner Shinziku~
-ExtF 17301760
 Cond 0
 Wear 10
 Cost 0
-Affc 'bless'   1  38  34  -1  20        256
 End
 
 #O
@@ -286,7 +280,6 @@ Vnum 8544
 Enchanted
 Nest 0
 PrevOwner Shinziku~
-ExtF 321
 Cond 0
 Wear 15
 Lev  50
@@ -294,23 +287,6 @@ Cost 9999
 Affc 'enchant armor'   1  53  -1  -6  17          0
 Affc 'reserved'   1  48  -1   2  18          0
 Affc 'reserved'   1  48  -1   3  19          0
-Affc 'bless'   1  40  34  -1  20        256
-End
-
-#O
-Vnum 8544
-Enchanted
-Nest 0
-PrevOwner Shinziku~
-ExtF 321
-Cond 0
-Wear 14
-Lev  50
-Cost 10858
-Affc 'enchant armor'   1  53  -1  -7  17          0
-Affc 'reserved'   1  48  -1   2  18          0
-Affc 'reserved'   1  48  -1   3  19          0
-Affc 'bless'   1  39  34  -1  20        256
 End
 
 #O
@@ -318,7 +294,7 @@ Vnum 6423
 Enchanted
 Nest 0
 PrevOwner Shinziku~
-ExtF 134218049
+ExtF 134217793
 Wt   7
 Cond 0
 Wear 5
@@ -328,7 +304,6 @@ Val  12 10 11 2 0
 Affc 'enchant armor'   1  53  -1  -6  17          0
 Affc 'reserved'   1  47  -1   2   5          0
 Affc 'reserved'   1  47  -1  -4  20          0
-Affc 'bless'   1  37  34  -1  20        256
 End
 
 #O
@@ -360,78 +335,18 @@ End
 Vnum 23514
 Nest 0
 PrevOwner Shinziku~
-ExtF 17301824
 Cond 0
 Wear 4
 Cost 3690
-Affc 'bless'   1  37  33  -1  20        256
 End
 
 #O
 Vnum 16721
 Nest 0
 PrevOwner Shinziku~
-ExtF 257
 Cond 0
 Wear 3
-Cost 1400
-Affc 'bless'   1  38  33  -1  20        256
-End
-
-#O
-Vnum 20813
-Nest 0
-PrevOwner Shinziku~
-ExtF 2881
-Cond 0
-Wear 2
-Cost 4000
-Affc 'bless'   1  38  33  -1  20        256
-End
-
-#O
-Vnum 20813
-Nest 0
-PrevOwner Shinziku~
-ExtF 2881
-Cond 0
-Wear 1
-Cost 4000
-Affc 'bless'   1  40  33  -1  20        256
-End
-
-#O
-Vnum 20818
-Enchanted
-Nest 0
-PrevOwner Shinziku~
-ExtF 2369
-Cond 0
-Wear 11
-Lev  50
-Cost 4000
-Affc 'enchant armor'   1  53  -1  -4  17          0
-Affc 'reserved'   1  49  -1  30  12          0
-Affc 'reserved'   1  49  -1   1  19          0
-Affc 'reserved'   1  49  -1  -1  20          0
-Affc 'reserved'   1  49  -1   2  18          0
-Affc 'bless'   1  37  34  -1  20        256
-End
-
-#O
-Vnum 12004
-Enchanted
-Nest 0
-PrevOwner Shinziku~
-ExtF 2369
-Cond 0
-Wear 7
-Lev  49
-Cost 40
-Affc 'enchant armor'   1  53  -1  -5  17          0
-Affc 'reserved'   1  44  -1  35  13          0
-Affc 'reserved'   1  44  -1   3   2          0
-Affc 'bless'   1  39  34  -1  20        256
+Cost 1531
 End
 
 #O
@@ -444,15 +359,6 @@ Cost 2200
 End
 
 #O
-Vnum 8503
-Nest 0
-PrevOwner Shinziku~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
 Vnum 15227
 Nest 0
 PrevOwner Shinziku~
@@ -462,20 +368,11 @@ Cost 20000
 End
 
 #O
-Vnum 3050
-Nest 0
-PrevOwner Shinziku~
-Cond 0
-Wear -1
-Cost 400
-End
-
-#O
 Vnum 12014
 Enchanted
 Nest 0
 PrevOwner Shinziku~
-ExtF 323
+ExtF 67
 Cond 0
 Wear 16
 Cost 0
@@ -483,51 +380,21 @@ Val  6 2 20 7 297
 Affc 'sharpen'   5  51  -1   0   0          8
 Affc 'enchant weapon'   0  53  -1  12  18          0
 Affc 'enchant weapon'   1  53  -1  12  19          0
-Affc 'bless'   1  35  34  -1  20        256
 End
 
 #O
 Vnum 8500
 Nest 0
 PrevOwner BlackRainbow~
-ExtF 16777344
 Cond 0
 Wear -1
 Cost 3000
-Affc 'fireproof'   1  40   3   0   0   16777216
-End
-
-#O
-Vnum 22508
-Nest 1
-PrevOwner BlackRainbow~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8517
-Nest 1
-PrevOwner BlackRainbow~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 8517
-Nest 1
-PrevOwner BlackRainbow~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
 Vnum 22044
 Nest 1
-PrevOwner BlackRainbow~
+PrevOwner Shinziku~
 Cond 0
 Wear -1
 Cost 100000
@@ -536,32 +403,61 @@ End
 #O
 Vnum 22044
 Nest 1
-PrevOwner BlackRainbow~
+PrevOwner Shinziku~
 Cond 0
 Wear -1
 Cost 100000
 End
 
 #O
-Vnum 10431
-Enchanted
+Vnum 22044
 Nest 1
-PrevOwner BlackRainbow~
-ExtF 66
+PrevOwner Shinziku~
 Cond 0
 Wear -1
-Lev  50
-Cost 6500
-Affc 'reserved'   1  49  -1   0   0          0
-Affc 'reserved'   1  49  -1  20  13          0
-Affc 'enchant weapon'   1  52  -1  14  19          0
-Affc 'enchant weapon'   0  52  -1  10  18          0
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 8517
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
 Vnum 23129
 Nest 1
-PrevOwner BlackRainbow~
+PrevOwner Shinziku~
 Cond 0
 Wear -1
 Cost 10000
@@ -570,7 +466,34 @@ End
 #O
 Vnum 8503
 Nest 1
-PrevOwner (null)~
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 2505
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 1150
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Shinziku~
 Cond 0
 Wear -1
 Cost 5000
@@ -591,48 +514,259 @@ Affc 'enchant weapon'   1  52  -1  11  19          0
 End
 
 #O
-Vnum 3050
-Nest 0
-PrevOwner (null)~
+Vnum 10431
+Enchanted
+Nest 1
+PrevOwner Shinziku~
+ExtF 66
 Cond 0
 Wear -1
-Cost 400
+Lev  50
+Cost 6500
+Affc 'reserved'   1  49  -1   0   0          0
+Affc 'reserved'   1  49  -1  20  13          0
+Affc 'enchant weapon'   1  52  -1  14  19          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
 End
 
 #O
-Vnum 3050
-Nest 0
-PrevOwner (null)~
+Vnum 20738
+Enchanted
+Nest 1
+PrevOwner Shinziku~
+ExtF 66
 Cond 0
 Wear -1
-Cost 400
+Lev  50
+Cost 606
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
 End
 
 #O
-Vnum 22044
-Nest 0
-PrevOwner BlackRainbow~
+Vnum 3503
+Nest 1
+PrevOwner Shinziku~
 Cond 0
 Wear -1
-Cost 100000
+Cost 310
 End
 
 #O
-Vnum 22044
-Nest 0
-PrevOwner BlackRainbow~
+Vnum 22508
+Nest 1
+PrevOwner Shinziku~
 Cond 0
 Wear -1
-Cost 100000
+Cost 0
 End
 
 #O
-Vnum 22044
-Nest 0
-PrevOwner BlackRainbow~
+Vnum 3292
+Nest 1
+PrevOwner Shinziku~
 Cond 0
 Wear -1
-Cost 100000
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 3292
+Nest 1
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 290
+Spell 1 'detect invis'
+Spell 2 'detect magic'
+Spell 3 'detect hidden'
+End
+
+#O
+Vnum 23515
+Nest 0
+PrevOwner Kenlor~
+Cond 0
+Wear 2
+Cost 7609
+End
+
+#O
+Vnum 23515
+Nest 0
+PrevOwner Kenlor~
+Cond 0
+Wear 1
+Cost 7609
+End
+
+#O
+Vnum 8544
+Enchanted
+Nest 0
+PrevOwner Xar~
+Cond 0
+Wear 14
+Lev  50
+Cost 10858
+Affc 'enchant armor'   1  53  -1  -7  17          0
+Affc 'reserved'   1  48  -1   2  18          0
+Affc 'reserved'   1  48  -1   3  19          0
+End
+
+#O
+Vnum 18105
+Enchanted
+Nest 0
+PrevOwner Xar~
+ExtF 67
+Cond 0
+Wear 11
+Lev  50
+Cost 4500
+Affc 'reserved'   1  46  -1  15  12          0
+Affc 'reserved'   1  46  -1  20  13          0
+Affc 'reserved'   1  46  -1   1  18          0
+Affc 'reserved'   1  46  -1   1  19          0
+Affc 'enchant armor'   1  53  -1  -6  17          0
+End
+
+#O
+Vnum 20730
+Nest 0
+PrevOwner Xar~
+Cond 0
+Wear 18
+Cost 6100
+End
+
+#O
+Vnum 12004
+Enchanted
+Nest 0
+PrevOwner Shinziku~
+ExtF 2113
+Cond 0
+Wear 7
+Lev  49
+Cost 40
+Affc 'enchant armor'   1  53  -1  -5  17          0
+Affc 'reserved'   1  44  -1  35  13          0
+Affc 'reserved'   1  44  -1   3   2          0
+End
+
+#O
+Vnum 931
+Enchanted
+Nest 0
+PrevOwner Shinziku~
+ExtF 524354
+Cond 0
+Wear -1
+Cost 0
+Affc 'enchant weapon'   1  53  -1   9  19          0
+Affc 'enchant weapon'   0  53  -1   9  18          0
+End
+
+#O
+Vnum 18106
+Enchanted
+Nest 0
+PrevOwner Shinziku~
+ExtF 323
+Cond 0
+Wear -1
+Lev  50
+Cost 4500
+Affc 'enchant weapon'   1  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  10  19          0
 End
 
 #O
@@ -645,21 +779,39 @@ Cost 400
 End
 
 #O
-Vnum 8503
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 16724
+Vnum 3050
 Nest 0
 PrevOwner Shinziku~
 Cond 0
-Wear 19
-Cost 2000
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 3050
+Nest 0
+PrevOwner Shinziku~
+Cond 0
+Wear -1
+Cost 400
+End
+
+#O
+Vnum 22566
+Nest 0
+PrevOwner Patat~
+Cond 0
+Wear 13
+Cost 0
 End
 
 #END

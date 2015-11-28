@@ -2,21 +2,22 @@
 Name Xtasy~
 Id   862600168
 Email (null)~
-LogO 1074921665
-Vers 31
+LogO 1404449674
+Vers 33
 Desc Do You Like What You See
 ~
 Prom [%e %h/%HH %m/%MM %n/%N %v(%S)$%g.%s %a %w/%WW %X] ~
 Race human~
 Clan zealot~
 Outc 0
-RufT 438
+RufT 418
 MatookT 0
 SkPTimer 0
-SkPTracker 6
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK Tnarg~
 LstKBy Thurdenl~
 LstAtkedBy no one~
@@ -24,10 +25,16 @@ LstAtkedByTimer 0
 LstCombatDate 1010865518
 LstKillDate 1010865518
 LstDeathDate 1010865518
-LoginsWOKill 7
-LoginsWODeath 7
-LoginsWOCombat 7
+LoginsWOKill 14
+LoginsWODeath 14
+LoginsWOCombat 14
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 129395 almighty~
 DeityT -6 almighty~
 Sac  300
@@ -37,13 +44,13 @@ Node 0
 Cap 0
 Created 952899456
 Glad 0 0 0 0 0 0
-LastHost 209.120.156.200~
+LastHost 24.54.128.152~
 Cla  13
 ClaO 2
 Levl 10
 DLevl 0
-Plyd 130907
-Not  1072577330 1072577330 1072577330 1072583388 1072577330 1072577330 1072577330 1072577330 1072577330 1072577330
+Plyd 131808
+Not  1403592575 1360729864 1360729864 1367820823 1367893112 1369432447 1360729864 1360729864 1360729864 1368001970
 Scro 22
 Rank 2
 Room 31806
@@ -60,7 +67,7 @@ Icg 0
 Wizn W
 Pos  4
 Prac 23
-Trai 14
+Trai 20
 SkiP 66
 Save  -5
 Alig  1000
@@ -68,7 +75,7 @@ Hit   5
 SecHit   5
 ACs 80 80 80 80
 Wimp  10
-Attr 12 17 18 16 16 13 13 13
+Attr 12 17 18 16 16 10 10 13
 AMod 0 0 0 0 0 0 0 0
 Pass Xtg47lH/FQ032~
 Titl  emptys your pockets along with your heart [!]~
@@ -76,12 +83,12 @@ Pnts 99
 TSex 2
 LLev 31
 HMVP 142 146 141
-Cnd  0 40 44 44
+Cnd  0 30 39 39
 Alias cm c "magic"~
 Alias k kill~
 Alias zx c "chill"~
 OldSk 1 'acid blast'
-Sk 1 'annointment'
+OldSk 1 'annointment'
 Sk 1 'armor'
 OldSk 1 'armor'
 OldSk 1 'blindness'
@@ -219,9 +226,9 @@ Gr 'detection'
 Gr 'enhancement'
 Gr 'protective'
 Gr 'transportation'
-Affc 'bless'   0  43  43  -5  24          0
-Affc 'bless'   0  43  43   5  18          0
-Affc 'armor'   0  41  28 -20  17          0
+Affc 'armor'   0  43  30 -20  17          0
+Affc 'bless'   0  43  48   5  18          0
+Affc 'bless'   0  44  48  -5  24          0
 End
 
 #O
@@ -361,8 +368,8 @@ Cond 0
 Wear -1
 Lev  10
 Cost 360
-Affc 'enchant weapon'   1  53  -1   7  19          0
 Affc 'enchant weapon'   0  53  -1   7  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
 End
 
 #END

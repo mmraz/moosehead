@@ -3,20 +3,20 @@ Name Cendron~
 SurN TheGreat~
 Id   1035746286
 Email (null)~
-LogO 1098361830
-Vers 31
-LnD  A Gladiator~
+LogO 1445879681
+Vers 33
+LnD  A healthy Gladiator~
 Prom <%hhp %mm %vmv> {G*(%wWeight)*{x ->{Y%t:00{x<-(%X) ~
 Race dwarf~
 Outc 0
 RufT 0
 MatookT 0
-Abol 1
-SkPTimer 6
-SkPTracker 12
+SkPTimer 0
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -28,6 +28,12 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 0 matook~
 DeityT -4791 matook~
 Sac  700
@@ -37,52 +43,54 @@ Node 0
 Cap 0
 Created 1035746356
 Glad 0 0 0 0 1 0
-LastHost 24.157.72.71~
+LastHost 99.240.240.223~
 Cla  5
 Kit bishop~
 ClaO 3
 Levl 51
 DLevl 0
-Plyd 509797
-Not  1098229713 1098127150 0 1096905167 1096333685 1098113229 0 1097158830 0 1089243877
+Plyd 570414
+Not  1098229713 1098127150 0 1344345840 1096333685 1098113229 0 1097158830 0 1089243877
 Scro 22
 Rank 0
-Room 3001
-HMV  975 975 453 453 386 386
-Gold 3634
-Silv 4
+Room 30315
+HMV  1130 1130 392 453 386 386
+Gold 1431
+Silv 14
 Exp  244903
-Act  CDGHKQ
+Act  CDEGHKQ
 MHSF R
 AfBy J
 Comm GIL
-Disp BEFIJN
+Disp EFIJN
 IcgB 0
 Icg 0
 Pnet ABCEFGI
 Pos  8
-Prac 33
-SkiP 56
-Alig  -912
-Hit   20
-Dam   37
-SecHit   9
-SecDam   26
-ACs -126 -126 -126 -92
-Attr 21 16 20 16 21 17 24 20
-AMod 4 2 3 3 4 0 0 0
-Pass CecrGOBvxnLKE~
+Prac 29
+Trai 19
+SkiP 231
+Save  -4
+Alig  -917
+Hit   34
+Dam   39
+SecHit   23
+SecDam   28
+ACs -45 -18 -45 -13
+Attr 21 16 20 16 21 9 13 20
+AMod 3 2 0 4 6 0 0 0
+Pass CeZiQKDqlNlH2~
 Titl  the BlackSmith with Sharpen at 100%~
 Pnts 84
 TSex 1
 LLev 21
 HMVP 975 378 351
-Cnd  0 0 0 0
+Cnd  0 40 44 44
 Alias k kill~
 Alias c chant~
 Alias / chant word~
-Sk 53 'armor'
-Sk 63 'bless'
+Sk 56 'armor'
+Sk 64 'bless'
 Sk 55 'cancellation'
 Sk 1 'crusade'
 Sk 79 'cure critical'
@@ -91,16 +99,16 @@ Sk 1 'cure serious'
 Sk 1 'curse'
 Sk 1 'detect evil'
 Sk 1 'detect good'
-Sk 57 'detect hidden'
-Sk 55 'detect invis'
-Sk 54 'detect magic'
+Sk 63 'detect hidden'
+Sk 58 'detect invis'
+Sk 58 'detect magic'
 Sk 1 'detect poison'
 Sk 1 'dispel magic'
 Sk 1 'endure cold'
 Sk 1 'endure heat'
 Sk 1 'farsight'
 Sk 1 'fireproof'
-Sk 42 'fly'
+Sk 45 'fly'
 Sk 100 'gate'
 Sk 86 'heal'
 Sk 1 'holy silence'
@@ -111,20 +119,20 @@ Sk 1 'know alignment'
 Sk 77 'locate object'
 Sk 1 'mass healing'
 Sk 1 'nexus'
-Sk 62 'pass door'
+Sk 64 'pass door'
 Sk 1 'portal'
-Sk 52 'protection evil'
+Sk 55 'protection evil'
 Sk 52 'protection good'
 Sk 1 'protection neutral'
-Sk 56 'refresh'
+Sk 58 'refresh'
 Sk 1 'sacred guardian'
 Sk 85 'sanctuary'
 Sk 56 'shield'
 Sk 1 'see soul'
 Sk 53 'stone skin'
-Sk 89 'summon'
+Sk 91 'summon'
 Sk 1 'teleport'
-Sk 92 'word of recall'
+Sk 93 'word of recall'
 Sk 100 'axe'
 Sk 100 'dagger'
 Sk 100 'flail'
@@ -133,16 +141,16 @@ Sk 100 'polearm'
 Sk 100 'spear'
 Sk 100 'sword'
 Sk 100 'whip'
-Sk 89 'bash'
-Sk 71 'berserk'
-Sk 51 'bludgeon'
+Sk 91 'bash'
+Sk 72 'berserk'
+Sk 70 'bludgeon'
 Sk 13 'disarm'
 Sk 100 'dodge'
 Sk 100 'enhanced critical'
 Sk 100 'enhanced damage'
 Sk 100 'parry'
-Sk 27 'rescue'
-Sk 22 'shield block'
+Sk 70 'rescue'
+Sk 27 'shield block'
 Sk 83 'scan'
 Sk 100 'second attack'
 Sk 100 'third attack'
@@ -151,7 +159,7 @@ Sk 99 'sharpen'
 Sk 82 'scrolls'
 Sk 7 'staves'
 Sk 23 'wands'
-Sk 90 'swimming'
+Sk 91 'swimming'
 Sk 50 'recall'
 Gr 'rom basics'
 Gr 'paladin basics'
@@ -162,27 +170,6 @@ Gr 'healing'
 Gr 'piety'
 Gr 'protective'
 Gr 'transportation'
-Affc 'shield'   0  41  29 -20  17          0
-Affc 'stone skin'   0  39  22 -40  17          0
-Affc 'armor'   0  40  12 -20  17          0
-End
-
-#O
-Vnum 2254
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear 9
-Cost 2500
-End
-
-#O
-Vnum 23107
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear 10
-Cost 1500
 End
 
 #O
@@ -195,112 +182,12 @@ Cost 0
 End
 
 #O
-Vnum 23109
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear 7
-Cost 1298
-End
-
-#O
-Vnum 4825
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear 2
-Cost 7000
-End
-
-#O
-Vnum 4825
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear 1
-Cost 7000
-End
-
-#O
-Vnum 5922
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear 4
-Cost 300
-End
-
-#O
-Vnum 5922
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear 3
-Cost 300
-End
-
-#O
-Vnum 12001
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear 8
-Cost 0
-End
-
-#O
-Vnum 22566
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear 13
-Cost 0
-End
-
-#O
-Vnum 1100
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear 0
-Cost 550
-End
-
-#O
 Vnum 22507
 Nest 0
 PrevOwner Dukey~
 Cond 0
 Wear 12
 Cost 0
-End
-
-#O
-Vnum 22505
-Nest 0
-PrevOwner Souzo~
-ExtF 1
-Cond 0
-Wear 6
-Cost 4000
-End
-
-#O
-Vnum 12082
-Nest 0
-PrevOwner Nazgul~
-Cond 0
-Wear 15
-Cost 22334
-End
-
-#O
-Vnum 12082
-Nest 0
-PrevOwner Nazgul~
-Cond 0
-Wear 14
-Cost 22334
 End
 
 #O
@@ -313,8 +200,79 @@ Cost 0
 End
 
 #O
-Vnum 5705
-Nest 0
+Vnum 26
+Nest 1
+PrevOwner Cendron~
+Damaged 55
+Cond 0
+Wear -1
+Cost 0
+Val  51 5 -1 -1 -1
+Spell 1 'accuracy'
+End
+
+#O
+Vnum 8503
+Nest 1
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 5000
+End
+
+#O
+Vnum 11091
+Nest 1
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 4500
+Val  25 8 2 198 0
+Spell 3 'stone skin'
+End
+
+#O
+Vnum 11091
+Nest 1
+PrevOwner Cendron~
+Damaged 43
+Cond 0
+Wear -1
+Cost 4500
+Val  25 8 7 198 0
+Spell 3 'stone skin'
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 10300
+Nest 1
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 3377
+Nest 1
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 10000
+End
+
+#O
+Vnum 22566
+Nest 1
 PrevOwner Cendron~
 Cond 0
 Wear -1
@@ -322,13 +280,21 @@ Cost 0
 End
 
 #O
-Vnum 12063
+Vnum 23107
 Nest 1
 PrevOwner Cendron~
-ExtF 555483201
 Cond 0
 Wear -1
-Cost 50000
+Cost 1500
+End
+
+#O
+Vnum 5705
+Nest 0
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 0
 End
 
 #O
@@ -362,32 +328,6 @@ Cost 0
 End
 
 #O
-Vnum 22566
-Nest 1
-PrevOwner Cendron~
-ExtF 1
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 12001
-Enchanted
-Nest 1
-PrevOwner Cendron~
-ExtF 17449025
-Cond 0
-Wear -1
-Lev  50
-Cost 0
-Affc 'enchant armor'   1  53  -1 -14  17          0
-Affc 'reserved'   1  44  -1   2  18          0
-Affc 'reserved'   1  44  -1   3  19          0
-Affc 'reserved'   1  44  -1  35  14          0
-End
-
-#O
 Vnum 3094
 Nest 1
 PrevOwner Cendron~
@@ -416,165 +356,12 @@ Spell 3 'stone skin'
 End
 
 #O
-Vnum 10320
+Vnum 1206
 Nest 1
 PrevOwner Cendron~
 Cond 0
 Wear -1
-Cost 9500
-Val  5 5 8 18 1572
-Affc 'bestow holiness'   5  51  -1   0   0        512
-End
-
-#O
-Vnum 5939
-Nest 1
-PrevOwner Cendron~
-Cond 0
-Wear -1
-Cost 4000
-Val  1 5 8 3 588
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 4003
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear -1
-Cost 165
-Val  2 1 5 2 8
-Affc 'sharpen'   5  50  43   0   0          8
-End
-
-#O
-Vnum 4003
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear -1
-Cost 165
-Val  2 1 5 2 8
-Affc 'sharpen'   5  51  -1   0   0          8
-End
-
-#O
-Vnum 10449
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10449
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10449
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10450
-Nest 0
-PrevOwner Nike~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 10449
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10450
-Nest 0
-PrevOwner Willy~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 10300
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 6500
-End
-
-#O
-Vnum 5221
-Nest 0
-PrevOwner Vampboodrum~
-Cond 0
-Wear -1
-Cost 3300
-Val  1 2 12 25 544
-End
-
-#O
-Vnum 10449
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10449
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 10449
-Nest 0
-PrevOwner Quist~
-Cond 0
-Wear -1
-Cost 5000
-End
-
-#O
-Vnum 8503
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear -1
-Cost 5000
+Cost 10
 End
 
 #O
@@ -619,25 +406,32 @@ Affc 'sharpen'   5  43  -1   0   0          8
 End
 
 #O
-Vnum 1320
+Vnum 12082
 Nest 1
 PrevOwner Cendron~
 Cond 0
 Wear -1
-Cost 0
-Val  3 1 4 8 8
-Affc 'sharpen'   5  51  -1   0   0          8
+Cost 22334
 End
 
 #O
-Vnum 1320
+Vnum 12082
 Nest 1
 PrevOwner Cendron~
 Cond 0
 Wear -1
-Cost 0
-Val  3 1 4 8 8
-Affc 'sharpen'   5  51  -1   0   0          8
+Cost 22334
+End
+
+#O
+Vnum 10320
+Nest 1
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 9500
+Val  5 5 8 18 1572
+Affc 'bestow holiness'   5  51  -1   0   0        512
 End
 
 #O
@@ -652,16 +446,569 @@ Affc 'sharpen'   5  51  -1   0   0          8
 End
 
 #O
-Vnum 12007
+Vnum 5221
+Nest 1
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 3300
+Val  1 2 12 25 544
+End
+
+#O
+Vnum 5939
+Nest 1
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 4000
+Val  1 5 8 3 588
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 8020
+Enchanted
+Nest 1
+PrevOwner Cendron~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  30
+Cost 12488
+Val  5 5 4 25 10
+Affc 'reserved'   1  22  -1  -1  20          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
+Affc 'reserved'   1  22  -1  -1   1          0
+Affc 'enchant weapon'   0  52  -1  10  18          0
+Affc 'sharpen'   5  51  -1   0   0          8
+End
+
+#O
+Vnum 12014
+Enchanted
 Nest 0
-PrevOwner Quist~
+PrevOwner Cendron~
+ExtF 451
+Cond 0
+Wear 16
+Cost 0
+Val  6 2 20 7 813
+Affc 'sharpen'   5  51  -1   0   0          8
+Affc 'bestow holiness'   5  51  -1   0   0        512
+Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
+End
+
+#O
+Vnum 22566
+Nest 0
+PrevOwner Cendron~
+ExtF 1
+Cond 0
+Wear 13
+Cost 0
+End
+
+#O
+Vnum 8543
+Nest 0
+PrevOwner Molotov~
+Cond 0
+Wear 10
+Cost 4250
+End
+
+#O
+Vnum 23514
+Nest 0
+PrevOwner Molotov~
+Cond 0
+Wear 4
+Cost 3690
+End
+
+#O
+Vnum 23514
+Nest 0
+PrevOwner Molotov~
+Cond 0
+Wear 3
+Cost 3690
+End
+
+#O
+Vnum 23515
+Nest 0
+PrevOwner Molotov~
+Cond 0
+Wear 2
+Cost 7609
+End
+
+#O
+Vnum 23515
+Nest 0
+PrevOwner Molotov~
+Cond 0
+Wear 1
+Cost 7609
+End
+
+#O
+Vnum 8545
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 9
+Cost 3400
+End
+
+#O
+Vnum 8544
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear 15
+Cost 9999
+End
+
+#O
+Vnum 6013
+Nest 0
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 0
+Val  256 148 10 0 0
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Damaged 38
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Damaged 39
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 3146
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 800
+End
+
+#O
+Vnum 22504
+Nest 0
+PrevOwner Nike~
+Cond 0
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 22505
+Nest 0
+PrevOwner Zest~
+ExtF 1
+Cond 0
+Wear 6
+Cost 4000
+End
+
+#O
+Vnum 5944
+Enchanted
+Nest 0
+PrevOwner Friend~
+ExtF 554173249
+Cond 0
+Wear 7
+Cost 0
+Affc 'reserved'   1  50  -1   1   2          0
+Affc 'reserved'   1  50  -1   3  18          0
+Affc 'reserved'   1  50  -1   4  27          0
+Affc 'enchant armor'   1  52  -1  -7  17          0
+End
+
+#O
+Vnum 8544
+Nest 0
+PrevOwner Cendron~
+Cond 0
+Wear 14
+Cost 9999
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Cendron~
+Damaged 44
+Cond 0
+Wear -1
+Cost 22
+Val  20 40 0 1 0
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 31732
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 31732
+Nest 0
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 31732
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 31732
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 31732
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 31732
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 31732
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 31732
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 250
+End
+
+#O
+Vnum 22936
+Nest 0
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 10304
+Nest 0
+PrevOwner Cendron~
+Damaged 34
+Cond 0
+Wear -1
+Cost 0
+Val  31 10 1 20 0
+Spell 3 'bless'
+End
+
+#O
+Vnum 2254
+Nest 0
+PrevOwner Cendron~
+Cond 0
+Wear -1
+Cost 2500
+End
+
+#O
+Vnum 22044
+Nest 0
+PrevOwner Matador~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 12001
+Enchanted
+Nest 0
+PrevOwner Cendron~
+ExtF 17449025
+Cond 0
+Wear 8
+Lev  50
+Cost 0
+Affc 'enchant armor'   1  53  -1 -14  17          0
+Affc 'reserved'   1  44  -1   2  18          0
+Affc 'reserved'   1  44  -1   3  19          0
+Affc 'reserved'   1  44  -1  35  14          0
+End
+
+#O
+Vnum 4056
+Nest 0
+PrevOwner SixPack~
+Cond 0
+Wear -1
+Cost 290
+Val  6 1 7 27 8
+Affc 'sharpen'   5  37   7   0   0          8
+End
+
+#O
+Vnum 8020
+Enchanted
+Nest 0
+PrevOwner SixPack~
+ExtF 524355
+Cond 0
+Wear -1
+Lev  32
+Cost 13500
+Val  5 5 4 25 10
+Affc 'reserved'   1  22  -1  -1  20          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
+Affc 'reserved'   1  22  -1  -1   1          0
+Affc 'enchant weapon'   0  52  -1  11  18          0
+Affc 'sharpen'   5  45   6   0   0          8
+End
+
+#O
+Vnum 4912
+Nest 0
+PrevOwner Misfortune~
+ExtF 64
+Cond 0
+Wear -1
+Cost 1800
+Val  5 5 7 20 904
+Affc 'bestow holiness'   5  51  -1   0   0        512
+Affc 'sharpen'   5  44   6   0   0          8
+End
+
+#O
+Vnum 711
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3000
+Spell 1 'giant strength'
+Spell 2 'protection good'
+Spell 3 'poison'
+End
+
+#O
+Vnum 711
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3000
+Spell 1 'giant strength'
+Spell 2 'protection good'
+Spell 3 'poison'
+End
+
+#O
+Vnum 711
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3000
+Spell 1 'giant strength'
+Spell 2 'protection good'
+Spell 3 'poison'
+End
+
+#O
+Vnum 711
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 3000
+Spell 1 'giant strength'
+Spell 2 'protection good'
+Spell 3 'poison'
+End
+
+#O
+Vnum 4912
+Enchanted
+Nest 0
+PrevOwner Friend~
+ExtF 67
+Cond 0
+Wear -1
+Lev  50
+Cost 450
+Val  5 5 7 20 392
+Affc 'enchant weapon'   0  52  -1  13  18          0
+Affc 'enchant weapon'   1  52  -1  13  19          0
+Affc 'sharpen'   5  37   5   0   0          8
+End
+
+#O
+Vnum 6434
+Nest 0
+PrevOwner Windwalker~
 Cond 0
 Wear -1
 Cost 0
 End
 
 #O
-Vnum 13208
+Vnum 22936
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 9001
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 22936
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 6500
+End
+
+#O
+Vnum 9001
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 9602
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 9001
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 9602
 Nest 0
 PrevOwner (null)~
 Cond 0
@@ -679,23 +1026,93 @@ Cost 1000
 End
 
 #O
-Vnum 4003
+Vnum 9001
 Nest 0
-PrevOwner Cendron~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 165
-Val  2 1 5 2 8
-Affc 'sharpen'   5  51  -1   0   0          8
+Cost 500
 End
 
 #O
-Vnum 13208
+Vnum 12019
+Nest 0
+PrevOwner Patat~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 12022
+Nest 0
+PrevOwner Patat~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 9602
 Nest 0
 PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1000
+End
+
+#O
+Vnum 9001
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 3009
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 22
+End
+
+#O
+Vnum 9602
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 1000
+End
+
+#O
+Vnum 9001
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 3611
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2500
 End
 
 #O
@@ -717,355 +1134,6 @@ Cost 2500
 End
 
 #O
-Vnum 13208
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 9602
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 13208
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 3377
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear -1
-Cost 10000
-End
-
-#O
-Vnum 9602
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 4003
-Nest 0
-PrevOwner Cendron~
-Cond 0
-Wear -1
-Cost 165
-End
-
-#O
-Vnum 13208
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 2919
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
-Vnum 13208
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1000
-End
-
-#O
-Vnum 4003
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 165
-End
-
-#O
-Vnum 11091
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4500
-Spell 3 'stone skin'
-End
-
-#O
-Vnum 11091
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 4500
-Val  25 8 5 193 0
-Spell 3 'stone skin'
-End
-
-#O
-Vnum 10304
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-Val  31 10 8 17 0
-Spell 3 'bless'
-End
-
-#O
-Vnum 6013
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 0
-Val  256 64 10 0 0
-End
-
-#O
-Vnum 12014
-Enchanted
-Nest 0
-PrevOwner Cendron~
-ExtF 451
-Cond 0
-Wear 16
-Cost 0
-Val  6 2 20 7 805
-Affc 'bestow holiness'   5  51  -1   0   0        512
-Affc 'enchant weapon'   1  53  -1  11  19          0
-Affc 'enchant weapon'   0  53  -1  11  18          0
-End
-
-#O
-Vnum 9227
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 1630
-Val  2 7 3 11 10
-Affc 'sharpen'   5  50  42   0   0          8
-End
-
-#O
-Vnum 9220
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 730
-End
-
-#O
-Vnum 11073
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 11073
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 11073
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 11073
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 11073
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 11073
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 11073
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2500
-End
-
-#O
-Vnum 11073
-Nest 0
-PrevOwner (null)~
-Cond 0
-Wear -1
-Cost 2500
-Val  2 3 9 11 8
-Affc 'sharpen'   5  36   0   0   0          8
-End
-
-#O
 Vnum 8503
 Nest 0
 PrevOwner Cendron~
@@ -1075,65 +1143,85 @@ Cost 5000
 End
 
 #O
-Vnum 10442
+Vnum 22053
+Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Uraqt~
+ExtF 323
 Cond 0
 Wear -1
-Cost 13700
+Lev  49
+Cost 3240
+Val  8 4 8 34 41
+Affc 'sharpen'   5  48  37   0   0          8
+Affc 'enchant weapon'   0  53  -1  13  18          0
+Affc 'enchant weapon'   1  53  -1  13  19          0
 End
 
 #O
-Vnum 2919
+Vnum 18922
+Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Uraqt~
+ExtF 67
 Cond 0
 Wear -1
-Cost 0
+Lev  35
+Cost 3800
+Val  5 5 4 1 104
+Affc 'sharpen'   5  48  38   0   0          8
+Affc 'enchant weapon'   0  53  -1  11  18          0
+Affc 'enchant weapon'   1  53  -1  11  19          0
 End
 
 #O
-Vnum 2919
+Vnum 16601
+Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Uraqt~
+ExtF 16780098
 Cond 0
 Wear -1
-Cost 0
+Lev  47
+Cost 34000
+Val  5 7 4 3 9
+Affc 'sharpen'   5  50  38   0   0          8
+Affc 'enchant weapon'   0  53  -1  12  18          0
+Affc 'enchant weapon'   1  53  -1  12  19          0
+Affc 'reserved'   0  35  -1   0   0          4
+Affc 'reserved'   1  35  -1   2   2          0
 End
 
 #O
-Vnum 2919
+Vnum 8024
+Enchanted
 Nest 0
-PrevOwner (null)~
+PrevOwner Uraqt~
+ExtF 16777299
 Cond 0
 Wear -1
-Cost 0
+Lev  29
+Cost 11000
+Val  6 2 8 21 12
+Affc 'sharpen'   5  51  45   0   0          8
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   1  53  -1  14  18          0
 End
 
 #O
-Vnum 2919
+Vnum 8024
+Enchanted
 Nest 0
-PrevOwner (null)~
-Cond 0
-Wear 17
-Cost 0
-End
-
-#O
-Vnum 1258
-Nest 0
-PrevOwner Sticker~
-Name bag beta The city executioner~
-ShD  a bag made from The city executioner's hide~
-Desc A bag of fine The city executioner hide catches your eye.  ~
-ExtF 0
-WeaF 16385
-Wt   5
+PrevOwner Uraqt~
+ExtF 16777298
 Cond 0
 Wear -1
-Lev  18
-Cost 2700
-Val  540 1 -1 90 25
+Lev  31
+Cost 11000
+Val  6 2 8 21 12
+Affc 'sharpen'   5  50  45   0   0          8
+Affc 'enchant weapon'   1  53  -1  13  19          0
+Affc 'enchant weapon'   1  53  -1  14  18          0
 End
 
 #END

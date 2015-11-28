@@ -1,0 +1,4589 @@
+#AREA
+../newareas/newbie_m.are~
+Hogwart's School of Magic~
+{ }             Hogwart's School of Magic~
+13300 13395
+
+#MOBILES
+#13300
+baggage man~
+a baggage man~
+A man wearing a red uniform is behind the baggage counter.
+~
+A heavy set man with a red sweating face is collecting all the students
+luggage and cages. He also dispenses boarding passes and food for your
+traveling needs.  Please type LIST to see what he has.
+~
+human~
+Get your {cboarding pass{x here and {YHOLD{x it to board the {Dtrain{x.~
+Before boarding the train, buy some traveling necessities here!~
+Type {CLIST{x to see what I have for sale.~
+ABGTe DEF 0 0
+0 1 50d10+9500 0d0+0 8d6+28 slice
+-3 0 0 -3
+EFNU ABC ABCQ 0
+stand stand male 5000
+0 0 medium 0
+F par GHIJK
+#13301
+Baldric the Hunter~
+Baldric the hunter~
+Baldric the Hunter is here.
+~
+A HUGE man stands before you. He has wild bushy hair and
+long beard. He is dressed in leather top to bottom. His
+large belt holds a dagger sheath. His boots are big, rugged
+and durable.
+~
+giant~
+~
+(null)~
+(null)~
+ABGTe DEFHa 0 0
+53 1 50d10+6500 50d10+6500 7d6+22 pound
+-2 -2 -2 -3
+CDEFNOU AB CEL R
+stand stand male 1000
+0 0 giant 0
+F res H
+F par GHIJK
+#13302
+Whomping Willow~
+A whomping willow~
+A whomping willow is moving it's branches around wildly.
+~
+A Whomping Willow that is centuries old is moving it's branches
+wildly and thumping them on the ground. Inside the branches you
+see an old wrecked car. How on earth did that get up there?
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABGTe 0 0 0
+60 1 50d10+9500 0d0+0 8d6+28 pound
+20 40 10 10
+CDEFNOU ABCEIP EFIP HJQ
+stand stand none 750
+CHJ CDEF giant 0
+#13303
+Pet Shopkeeper~
+a pet shopkeeper~
+A shopkeeper is here helping students choose a familiar.
+~
+This apprentice is the only one you have seen so far with a yellow
+sash over a white robe. His job is to help new students pick out
+their familiars.  Familiars are very important here at Hogwart's.
+They are used to help in magic training, fighting and as messengers.
+Type LIST to have him show you what pets are available.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABGe DEFH 0 0
+34 1 10d10+1200 10d10+3500 4d7+10 slice
+-1 -1 -1 -25
+EFNU ABCP MO E
+stand stand male 0
+0 0 medium 0
+F aff J
+F vul Z
+F par GHIJK
+#13304
+black kitten pet~
+a {Dblack kitten{x~
+A {Dblack kitten{x is sneaking here.
+~
+This {Dblack kitten{x is extremely loyal to it's owner. They
+have a  magical connection that cannot be broken. The kitten
+is black as night and very hard to see in the shadows.
+~
+cat~
+(null)~
+(null)~
+(null)~
+ABITU DEFPV 0 0
+2 1 2d6+35 2d6+60 0d0+0 slice
+7 7 7 10
+ELNU 0 0 0
+stand stand female 0
+H B small 0
+F aff J
+F for G
+F par HKQUV
+#13305
+student shopkeeper~
+a student shopkeeper~
+A student shopkeeper is waiting to take your order.
+~
+This apprentice is working in the store today. He is waiting to take
+your order.  Type LIST to see what he has for sale.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABGe DEFH 0 0
+34 1 10d10+1200 10d10+3500 4d7+10 slice
+-1 -1 -1 -25
+EFNU ABCP MO E
+stand stand male 0
+0 0 medium 0
+F aff J
+F vul Z
+F par GHIJK
+#13306
+Administrative Secretary~
+an administrative secretary~
+A secretary is sitting at her desk.
+~
+Her age is hard to guess. Her long brown hair is piled up on top of her head.
+She has several pencils stuck in her hair. Her thick black glasses are perched
+precariously on the tip of her nose. She looks up at you expectantly.
+~
+half-elf~
+Potter cannot see you at this time. He is in a meeting.~
+(null)~
+(null)~
+ABGRc DEFHV 0 0
+51 1 50d10+5000 50d10+5500 5d8+20 slice
+-2 -2 -2 -5
+EFINU AB CNP 0
+sit sit female 3000
+0 0 medium 0
+F aff J
+F res B
+F vul Z
+F par GHIJK
+#13307
+Hogwart's Master Trainer~
+Hogwart's Master Trainer~
+A Hogwart's Master Trainer is here to help you.
+~
+This is Hogwart's Master Trainer.  He is here to help all school apprentices
+train as they advance through their studies. To see what he can do for you,
+type HELP TRAIN, HELP PRACTICE, or HELP GAIN.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABJKTVb 0 0 0
+50 1 1d1+1 1d1+1 1d1+1 slice
+0 0 0 0
+EFNU ABCP 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#13308
+Madam Pomfrey healer~
+Madam Pomfrey healer~
+Madam Pomfrey is here to heal the sick.
+~
+You assume this woman is a nurse and housekeeper of this area. She is
+wearing a dark purple robe and an apron. Madam Pomfrey is busy stripping beds
+and putting clean fresh sheets on them.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABGRae 0 0 0
+50 1 50d10+4500 50d10+9500 0d0+0 slice
+0 0 0 0
+EFNU ABCP 0 0
+stand stand female 0
+0 0 medium 0
+F par GHIJK
+#13309
+Professor Sprout~
+Professor Sprout~
+Professor Sprout is here working with the plants.
+~
+Professor Sprout is short and plump. On her head is a tall, patched black hat
+over her wild and unruly hair. She is covered in dirt and mud all over her clothes
+and her fingernails. Professor Sprout is definately not afraid to get her hands
+dirty.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABGRc CDEH 0 0
+51 1 50d10+5000 50d10+7000 5d8+20 slice
+-2 -2 -2 20
+EFNU ABCP 0 0
+stand stand female 5000
+0 0 medium 0
+F par GHIJK
+#13310
+strange plant~
+a strange {gplant{x~
+A strange {gplant{x is running around the grass.
+~
+How odd! A small {gplant{x with a {Wwhite flowering head{x, is running all around
+the grass looking for some shade.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABGTc 0 0 0
+5 1 2d6+35 2d6+60 1d6+0 thwack
+0 0 0 0
+EFNU AB MP HIQ
+stand stand none 0
+AEH ADEF medium 0
+#13311
+baby spider~
+a {rbaby {Dspider{x~
+A {rbaby {Dspider{x is crawling among the debris.
+~
+The {rbaby {Dspider{x is tiny, so small you can barely see
+it running around on the ground. You don't know if it is
+poisonous or not.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ACFGTce DEF 1 0
+3 1 2d6+35 2d6+35 1d6+0 bite
+0 0 0 0
+EFHU ABKL BFP HI
+stand stand none 250
+ABHP ABCDEFU tiny 0
+#13312
+wand teacher~
+a wand teacher~
+A teacher is here waiting to teach you.
+~
+You see a lovely young elf in a shimmering robe of blue. She holds a wand that
+sparkles and shines. This is her class. She will be teaching you all about 
+creating, using, and the care of wands.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABGTc DEFH 0 0
+50 1 50d10+4500 50d10+5500 5d8+19 slice
+0 0 0 0
+EFNU ABCD 0 0
+stand stand female 0
+0 0 medium 0
+F aff J
+F res P
+F vul Z
+F par GHIJK
+#13313
+alchemy teacher~
+an alchemy teacher~
+An alchemy teacher is here waiting to teach you.
+~
+This dragon is here to teach you the art of Alchemy. He holds a thick book 
+next to his robe with a firm grip.  He looks like a no-nonsense teacher. Better
+keep on your toes.
+~
+dragon~
+(null)~
+(null)~
+(null)~
+ABGTce DEFH 0 0
+50 1 50d10+4500 50d10+5500 5d8+19 slice
+0 0 0 0
+EFNU ABCD 0 0
+stand stand male 0
+MV B medium 0
+F aff JT
+F res BEH
+F vul FI
+F for Z
+F par GHIJKPQUVX
+#13314
+scabbers the rat~
+Scabbers, the rat~
+Scabbers, the rat, is scurring here.
+~
+Scabbers is a big gray rat!  He makes a good familiar for young apprentices to
+practice with. He is loyal and will fight for you too.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AI DEFJQV 0 0
+3 1 2d6+35 2d6+35 1d5+0 bite
+0 0 0 0
+EFHNU 0 0 0
+stand stand male 55
+AGHV ACDEFQ tiny 0
+#13315
+Hedwig snowy owl~
+Hedwig, the snowy owl~
+Hedwig, the snowy owl, is flying here.
+~
+Hedwig, the snowy owl, is a beautiful bird with white feathers and amber eyes.
+She is a great help in delivering messages, fighting in your battles, and being
+a friendly ear you can talk to.  Hedwig is extremely loyal to her owner.
+Hedwig is a dignified and proud owl.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABITce DEFHT 0 0
+5 1 2d6+60 2d6+85 1d6+1 bite
+0 0 0 0
+EFHNU A IQ E
+stand stand female 2500
+AHMVW ACDEFPT small 0
+#13316
+student waiter~
+the student waiter~
+A student waiter is here to take your order.
+~
+This student is helping in the dining room today. He will be taking your order
+when you are ready. Just type LIST to see what he offers.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABV 0 900 0
+23 0 1d1+999 1d1+99 1d8+20 beating
+-15 -15 -15 -15
+CDF ABCD 0 0
+stand stand male 0
+0 0 medium 0
+#13317
+the bloody baron~
+the Bloody Baron~
+The Bloody Baron is floating by here.
+~
+The Bloody Baron is the Slytherin House ghost. The Baron's nickname comes from
+the fact that he is covered with blood, which appears silvery on his ghostly
+form. He tried to bring Helena Ravenclaw back to Hogwart's and when she refused
+the Baron killed her in a fit of rage, and then, in remorse, killed himself with
+the same weapon. He has thus haunted Hogwart's ever since, weaing his ghostly
+chains as a form of penance.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AGOTce DEFHTU 0 0
+50 1 50d10+4000 50d10+5500 5d8+19 drain
+-2 -2 -2 -10
+EFNU ABCD EFGHI 0
+stand stand male 0
+CKLM ABCDEF medium 0
+#13318
+frier fat~
+The Fat Frier~
+The Fat Frier, the Hufflepuff House ghost, is here.
+~
+The Fat Friar is the Hufflepuff House ghost.  He is a very jolly man and very
+forgiving.
+~
+human~
+(null)~
+(null)~
+(null)~
+AGOce DEFHTU 0 0
+48 1 25d10+3750 25d10+4500 6d6+18 slice
+-1 -1 -1 -5
+EFNU ABCD 0 0
+stand stand male 0
+K 0 medium 0
+F for AHV
+F par GHIJK
+#13319
+The Grey Lady~
+the Grey Lady~
+The Grey Lady is the Ravenclaw House ghost is here.
+~
+The Grey Lady is the Ravenclaw House ghost. She is a highly intellectual young
+lady. She never found true love as she never found a man up to her standards.
+~
+human~
+(null)~
+(null)~
+(null)~
+AGOce DEFHTU 0 0
+48 1 25d10+3750 25d10+4500 6d6+18 slice
+-1 -1 -1 -5
+EFNU ABCD 0 0
+stand stand female 0
+K 0 medium 0
+F for AHV
+F par GHIJK
+#13320
+Sir Nicholas~
+Sir Nicholas~
+Sir Nicholas of Gryffindor House is floating here. 
+~
+Sir Nicholas de Mimsy-Porpington is often referred to as Nearly Headless Nick, 
+or Sir Nicholas. He is the Gryffindor House ghost who in life was sentenced to
+death by beheading after a teeth-straightening spell went awry on Lady Grieve.
+Unfortunately, the executioner's axe was blunt and after 45 hacks Nick's head
+was still only partially severed.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AGce DEFHTU 0 0
+48 1 25d10+3750 25d10+4500 6d6+18 slice
+-1 -1 -1 -5
+EFNU ABCD 0 0
+stand stand male 0
+KL ABCDEF medium 0
+#13321
+glow worm~
+a {Yglow worm{x~
+A {Yglow worm{x is crawling along the ground.
+~
+A {rbaby {Dspider{x is crawling among all the debris on the ground. It is very
+tiny. You are not sure if it is poisonous.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ACGHTZce DEF 0 0
+5 1 2d6+60 2d6+60 1d6+1 digestion
+1 0 0 0
+EFNU A LR J
+stand stand none 0
+AHR ADEF medium 0
+#13322
+Dobby the house-elf~
+Dobby, the house-elf~
+Dobby, the house-elf, is here.
+~
+House-elves are small elves that are used by wizards as slaves. Dobby, is two
+to three feet tall, with spindly arms and legs and oversized head and eyes. He
+has pointed, bat-like ears and a high squeaky voice. Dobby is very loyal.
+~
+elf~
+(null)~
+(null)~
+(null)~
+AGIRc DEFV 0 0
+7 1 2d6+85 2d6+110 1d8+1 magic
+0 0 0 0
+EFHINU A CQ 0
+stand stand male 1000
+0 0 small 0
+F aff J
+F res P
+F vul Z
+F par GHK
+#13323
+slytherin snake~
+a {gslytherin snake{x~
+A {gslytherin snake{x is hissing here.
+~
+A snake from the Slytherin House is here.  It is nothing extrodinary looking.
+It is dark green in color with spots of red.  It hisses a lot.
+~
+snake~
+(null)~
+(null)~
+(null)~
+AGITc DEFJQ 0 0
+1 1 2d6+10 0d0+0 1d4+0 bite
+0 0 0 0
+EFNU L KR 0
+stand stand none 0
+B 0 small 0
+F res L
+F vul I
+F for Gc
+F par KQVX
+#13324
+plain broom~
+a plain broom~
+A plain broom that looks rather worn is here.
+~
+This is just an ordinary plain broom, that looks well worn. It still looks 
+servicable. The wood handle is kind of rough, easy to get splinters. The
+straw on the bottom is getting kind of broken and thinned out. This broom is
+on it's last legs.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ATZc TV 0 0
+4 1 2d7+46 2d7+49 1d5+1 beating
+0 0 0 0
+EFNU AB CIPQR HJ
+stand stand none 200
+CHJ D medium 0
+#13325
+School Mascot Phoenix~
+School's mascot {RP{yh{Ro{Ye{Rn{Yi{Rx{x~
+The school's mascot, the {RP{yh{Ro{Ye{Rn{Yi{Rx{x, is on his stand.
+~
+A phoenix is a large swan-size scarlet bird with red and gold plumage, along 
+with a golden beak and talons, black eyes, and a tail as long as a peacock's.
+It's scarlet feathers glow faintly in darkness, while it's golden tail feathers
+are hot to the touch. Phoenixes are known for nesting on mountain peaks. They
+are herbivores and are not known for fighting. As phoenixes approach their
+burning day they resemble a half-plucked turkey. Their eyes become dull, their
+feathers start to fall out, and it begins to make gagging noises. The the bird
+suddenly bursts into flames only to rise from the ashes shortly after. In a
+number of days, they grow back to full size. Hence, phoenixes are immortal.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABCGTce DEFHTVZc 1000 0
+55 70 1d1+9999 50d10+7000 8d8+50 flame
+-40 -40 -40 -40
+EFNU ABFHNQ KO IM
+stand stand none 0
+AHMW ABCDEFPQ large 0
+#13326
+Firebolt broomstick~
+a {RFirebolt {ybroomstick{x~
+A {RFirebolt {ybroomstick{x is here.
+~
+A Firebolt is an advanced professional-level flying broomstick and the most
+expensive and fastest racing broom in existance.  It is said that they are
+the best in the world. They can even fly out of the atmosphere if the weather
+conditions are fair.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AGZc T 0 0
+5 1 2d6+60 2d6+70 1d6+1 pound
+0 0 0 -1
+CEFKNU LPQR C H
+stand stand none 0
+CHJ ADEF large 0
+#13327
+ticket broomstick seller~
+a ticket and broomstick seller~
+A ticket and broomstick seller is here.
+~
+This man sells broomsticks and tickets.  If your heart yearns for a broom of your
+own, this is the place to buy it!
+~
+human~
+Buy your brooms here! Special prices today only!~
+Sorry! Tickets are all sold out!~
+We now carry the NEW {RFirebolt{x!~
+ABGTc DEFH 0 0
+50 1 50d10+4500 50d10+5000 5d8+19 pound
+-2 -2 -2 -4
+EFNU 0 0 0
+stand stand male 5000
+0 0 medium 0
+F par GHIJK
+#13328
+pixie~
+a {Cpixie{x~
+A {Cpixie{x is flying here.
+~
+Apixie is a small, bright blue mischief-maker, and loves tricks and practical
+jokes. They fly and have incredible strength for creatures of their size. Pixies
+can only communicate with other pixies, their voices are so shrill it is like 
+listening to a lot of arguing budgies.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AFGTce DETV 0 0
+2 1 2d7+0 2d7+25 1d5+0 bite
+9 9 9 9
+EFNU AB I E
+stand stand none 75
+AHMV ABCDEFP tiny 0
+#13329
+small mandrake root~
+a small {ymandrake root{x~
+A small {ymandrake root{x is here.
+~
+A Mandrake, also known as Mandragora, is a plant which has a root that looks
+human. Whenever unearthed, the root screams. The scream of a mature Mandrake
+will kill any person who hears it. However, a young Mandrake's screams will usually
+only knock a person out for several hours.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABGTce Z 0 0
+1 1 2d6+10 2d6+15 1d4+0 thwack
+0 0 0 0
+EFJNU AB 0 0
+sit sit none 200
+AHMV ABCDEF small 0
+#13330
+a scavenger rat~
+a scavenger rat~
+A scavenger rat chitters angrily at you.
+~
+It may look like a small furry creature, but size is not always an 
+indicator. Like in this case.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ACGTce DFJVa 0 0
+5 0 2d6+60 2d6+60 1d7+1 bite
+0 0 0 0
+EFNU ABLQ LQ HR
+stand stand none 500
+AGHV ABCDEF small 0
+#13331
+apprentice healer~
+A apprentice healer~
+A grey portal is shifting and swirling in the corner.
+~
+A Hogwart's Apprentice Healer is here to help heal your wounds during combat
+training. Type HEAL to see what spells you can buy if needed.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABGae 0 0 0
+50 1 50d10+4500 50d10+9500 0d0+0 slice
+0 0 0 0
+EFNU ABCP 0 0
+stand stand female 0
+0 0 medium 0
+F par GHIJK
+#13332
+baby Basilisk~
+a baby Basilisk~
+A baby Basilisk is hissing here.
+~
+Of the many fearsome beasts and monsters that roam our land, there is none more
+curious or more deadly than the Basilisk, known also as the King Of Serpents.
+This snake may reach gigantic size, and live many hundreds of years, is born
+from a chicken egg, hatched beneath a toad. It's methods of killing are most
+wonderous, for aside from it's deadly and venomous fangs, the Basilisk has
+a murderous stare, and all who are fixed with the beam of it's eye shall suffer
+instant death, except from a young Basilisk, who will just petrify you.
+~
+snake~
+(null)~
+(null)~
+(null)~
+ABFGTce DEFJZ -1000 0
+6 1 2d7+85 2d7+71 1d7+2 bite
+0 0 0 0
+CDEFMNU ABKLR EIQ FN
+stand stand none 1000
+BH 0 large 0
+F res L
+F vul I
+F for GXc
+F par KQVX
+#13333
+little kender~
+A little kender~
+A little kender is here to spar with you.
+~
+He thinks he's big. He thinks he's bad. Show him how tough YOU are!
+~
+kender~
+(null)~
+(null)~
+(null)~
+ABG CDF 0 0
+9 -5 1d1+49 1d1+0 1d1+0 beating
+-15 -15 -15 -15
+FN AB CD 0
+stand stand male 100
+0 0 large 0
+F res E
+F vul IL
+F par IJK
+#13334
+Cathy the crying ghost~
+Cathy the crying ghost~
+Cathy the crying ghost is haunting the bathroom here.
+~
+This ghost only haunts this bathroom of the school. She is a squat ghost with
+lank hair, pimples, and thick glasses. She seldom smiles and takes offense at
+the least excuse, crying rivers of tears and wailing. Rumor has it that she 
+committed suicide in here over a broken relationship.
+ 
+~
+unique~
+Don't you think I know what people are saying behind my back?~
+Why did he do it? What has she got that I don't?~
+Nobody understands me. Nobody cares.~
+AGOce DEFHTU 0 0
+48 1 25d10+3750 25d10+4500 6d6+18 slice
+-1 -1 -1 -5
+EFNU ABCD 0 0
+stand stand female 0
+HKLM ABCDEF medium 0
+#13335
+medium Mandrake Root~
+a medium-sized {yMandrake root{x~
+A medum-sized {yMandrake root{x is here.
+~
+A Mandrake, also known as Mandragora, is a plant which has a root that looks
+human. Whenever unearthed, the root screams. The scream of a mature Mandrake
+will kill any person who hears it. However, a young Mandrake's screams will usually
+only knock a person out for several hours.
+~
+unique~
+(null)~
+(null)~
+(null)~
+AGTce Z 0 0
+10 1 2d7+121 2d7+22 2d4+2 thwack
+0 0 0 0
+EFJNU AB 0 0
+sit sit none 500
+AHMV ADEF medium 0
+#13336
+Enchanter Teacher~
+an Enchanter Teacher~
+A teacher is here to help you with Enchanting.
+~
+Your here to learn the art of Enchanting! You will be able to make weapons and
+armor better. You are one of the finest enchanters in all of Boinga if you
+have an Enchanter Kit.
+~
+mutant~
+(null)~
+(null)~
+(null)~
+ABGTce DEFH 0 0
+50 1 50d10+4500 50d10+5500 5d8+19 slice
+0 0 0 0
+EFNU ABCD 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#13337
+Scribe Teacher~
+the Scribe Teacher~
+A Scribe Teacher is here to help you.
+~
+You are here to learn the art of the Scribe. You will eventually learn to create
+scrolls and spell pages. You will need to acquire the Scribe Kit.
+~
+mutant~
+(null)~
+(null)~
+(null)~
+ABGTce DEFH 0 0
+50 1 50d10+4500 50d10+5500 5d8+19 slice
+0 0 0 0
+EFNU ABCD 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#13338
+wizard welcoming~
+the Welcoming Wizard~
+A powerful wizard is here to help you get started.
+~
+This is a Welcoming Wizard sent by Hogwart's to help you get started before 
+you reach the school. He will teach you basic commands you will need to know.
+To get started  please type: Help Commands (this will show you the very basics)
+If you type just the word Commands, you will see every command in the game you
+can use. A little overwhelming at this point.
+ 
+The commands below just type the word. These you NEED TO KNOW to learn about, use
+and react to your environment.  Remember, just type the WORD.
+ 
+SCORE - To find out your attributes. You can improve your attributes at a trainer
+or in a practice room.
+EQUIPMENT (EQUIP) - Will tell you what your are currently wearing.
+INVENTORY - Will tell you what your carrying.
+GET <item> - To pick something up off the ground.  You can type: GET ALL to get everything.
+WEAR <item> - To wear a piece of equipment, clothing, or jewelry.
+HOLD <item> - This is usually to hold a light source.
+WIELD <item> - To wield a weapon. It will automatically remove your old one.
+ 
+To wear, wield, hold everything in your inventory type: WEAR ALL
+ 
+Please LOOK <name> or EXAM <name> of everything you can about a person or object.
+Look <name> will give you information about it, but EXAM <name> will also tell you what they
+are wearing and wielding but also will tell you what is IN a container. It is more thorough.
+ 
+Always try to exam or look at KEY WORDS in a room description, or items, persons you see in
+a new room.  It can give you a wealth of information about the area, or help you accomplish
+something that needs to be done or found.
+ 
+Enjoy your stay at Hogwart's!
+~
+human~
+{CLOOK{x wizard to get some basic information from me.~
+Type {CEQ{x to see what you are wearing. {CINV{x to see what your carrying.~
+It is important to {CEXAM/LOOK/READ{x item to get informationo about an item.~
+AT DEFHT 0 0
+51 1 50d10+5000 50d10+5500 5d8+19 slice
+-2 -2 -2 -5
+EFNU ABCD 0 0
+stand stand male 0
+0 0 medium 0
+F par GHIJK
+#13339
+black ant~
+a {Dblack ant{x~
+A {Dblack ant{x is here.
+~
+This is just a {Dblack ant{x. He is big for an ant but your sure you can
+take him down.
+~
+school monster~
+(null)~
+(null)~
+(null)~
+AGH 0 0 0
+2 0 1d1+7 1d1+99 1d2+0 claw
+10 10 10 10
+O 0 0 0
+stand stand none 0
+0 0 medium 0
+F par BJQU
+#13340
+monster wimpy aggressive~
+REUSE THIS MOB VNUM~
+There is a wimpy aggressive monster leashed here.
+~
+He looks mean, but you feel comfortable that you can kill him, especially since
+he is leashed up, and you are not.
+~
+school monster~
+(null)~
+(null)~
+(null)~
+ABFH 0 0 0
+2 0 1d1+7 1d1+99 1d3+0 claw
+10 10 10 10
+J 0 0 0
+stand stand none 0
+0 0 medium 0
+#13341
+baby spider~
+REUSE THIS MOB VNUM~
+A {rbaby {Dspider{x is crawling among the debris.
+~
+The {rbaby {Dspider{x is tiny, so small you can barely see
+it running around on the ground. You don't know if it is
+poisonous or not.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ACFGTce DEFQ 1 0
+3 1 2d6+35 2d6+35 1d6+0 bite
+0 0 0 0
+EFHU ABKL BFP HI
+stand stand none 0
+ABHP ABCDEFU tiny 0
+#13342
+Cleric teacher~
+a Cleric teacher~
+A Cleric is here to teach her class.
+~
+Your teacher is a master Cleric. She is here to teach you in the arts of healing.
+You will learn the healing arts as well as some potent spells you will use in
+your chosen path.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABGTc DEFH 0 0
+50 1 50d10+4500 50d10+5500 5d8+19 slice
+0 0 0 0
+EFNU ABCD 0 0
+stand stand female 0
+0 0 medium 0
+F aff J
+F res P
+F vul Z
+F par GHIJK
+#13343
+staff teacher~
+a Staff Teacher~
+A teacher with a large staff is here.
+~
+The teacher looks at you and sizes you up. He is quite handsome and tall. His
+flowing robe is covered in symbols. The large staff he holds is a wonder to 
+behold. It is perfectly balanced and made with great craftmanship.
+~
+half-elf~
+(null)~
+(null)~
+(null)~
+ABGTce DEFH 0 0
+50 1 50d10+4500 50d10+5500 5d8+19 slice
+0 0 0 0
+EFNU ABCD 0 0
+stand stand male 0
+0 0 medium 0
+F aff J
+F res B
+F vul Z
+F par GHIJK
+#13344
+swarm black flies~
+a {Dswarm of black flies{x~
+A {Dswarm of black flies{x are circling the debris.
+~
+A big black swarm of flies are very unhappy about your presence!
+~
+unique~
+(null)~
+(null)~
+(null)~
+ACGHTce 0 0 0
+10 2 2d7+121 0d0+0 1d4+0 bite
+1 1 1 1
+ABDFH 0 0 0
+stand stand none 0
+AHO ACDEFP medium 0
+#13345
+purple frog~
+a {Mpurple frog{x~
+A {Mpurple frog{x is hopping in the grass.
+~
+A small {Mpurple frog{x is hopping through the grass. It looks like some student
+made a mistake with their wand practice.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABGHc JZb 0 0
+15 0 3d9+208 0d9+100 1d6+1 slime
+9 9 9 10
+FN ALR LQ HJP
+sit sit male 0
+AHa ACFL small 0
+#13346
+lost girl child~
+a lost girl~
+A lost child is crying by the wall. No one notices her in their rush to get to their destinations.
+~
+A lost child is crying by the wall. People are hurrying all around and no one
+seems to notice her.
+~
+human~
+(null)~
+(null)~
+(null)~
+ABGTc HV 0 0
+53 1 50d10+6000 50d10+6000 6d7+21 scratch
+-2 -2 -2 -2
+DEFHIJNU AB 0 0
+stand stand female 0
+0 0 small 0
+F par GHIJK
+#13347
+USE THIS MOB AGAIN~
+REUSE~
+REUSE
+~
+A small gnome is puffing on his pipe watching you approach. He is sitting on
+a mushroom growing off a tree about five feet above the ground.
+He looks up at you and says, "Hi! My name is Puck! What's yours?"
+~
+unique~
+(null)~
+(null)~
+(null)~
+AB CDEFHVe 0 0
+20 1 3d9+333 3d9+333 2d8+20 magic
+0 0 0 0
+ABDEFGHK AB CD 0
+sit sit male 10000
+ACHMV ABCDEFG tiny 0
+#0
+
+#OBJECTS
+#13300
+shimmering sign~
+a {Cshimmering sign{x~
+A {Cmagic sign{x floats and shimmers in front of you.~
+magic~
+trash ABGM 0
+0 0 0 0 0
+0 100 0 P
+E
+sign~
+Non-magic users are completely oblivious to this sign.
+The sign reads: The secret entrance is to the North through the wall.
+~
+#13301
+boarding pass~
+a {cboarding pass{x~
+A piece of crumpled paper is on the ground.~
+paper~
+gem NUWXc AO
+1 0 0 0 13302
+1 10 10 P
+E
+boarding pass~
+This is your {cboarding pass{x to ride the train. When you are ready to board
+the train, {YHOLD{x the pass in your hand to show the conductor.
+~
+#13302
+wizard flask~
+a {Dwizard flask{x~
+A beautiful flask with strange runic inscriptions is here.~
+Unknown~
+drink ABGNYd A
+40 40 'water' 0 0
+0 50 35 P
+A
+5 1
+A
+28 1
+E
+flask wizard~
+A beautiful flask with strange runic inscriptions is here.
+The quality of the workmanship is astounding. The material
+is unknown.  It was magically created by a powerful wizard.
+~
+#13303
+cream puffs~
+a {ycream puff{x~
+A {ycream puff{x is getting moldy here.~
+cake~
+food N A
+20 40 0 0 0
+0 20 25 P
+E
+cream puff~
+This {ycream puff{x probably looked delicious when it was fresh.
+Now it looks soggy and starting to mold. It might still be ok 
+to eat.
+~
+#13304
+Baldric's Dagger~
+{DBaldric's Dagger{x~
+A wicked looking {Ddagger{x glints in the light.~
+metal~
+weapon BGTYd AN
+dagger 6 7 slice DFH
+51 20 4948 P
+A
+19 4
+A
+1 -1
+A
+18 3
+E
+dagger blade~
+The blade on this dagger is about eight inches long and extremely sharp.
+You could probably shave with it, but you wouldn't want to because the
+blade is covered with a fine coat of venom. The dagger is perfectly balanced
+in your hand. It would make a perfect throwing knife.
+ 
+~
+#13305
+desk counter~
+a large desk counter~
+A large front desk is here.~
+wood~
+container MRY P
+500 0 0 100 25
+0 2000 0 A
+E
+desk~
+A long desk is right inside the front door. The top is filled with
+papers and forms of all kinds. Pamphlet guides, maps and a wealth
+of other information are all stacked here for students to pick up.
+EXAM the desk to see what is available for you to take.
+~
+#13306
+Hogwart guide book~
+a Hogwart's Student Guide~
+A Hogwart's Student Guidebook is here.~
+paper~
+trash ABGNTY AO
+60 500 -1 0 0
+0 1 500 P
+A
+4 1
+E
+4 Locations~
+The main locations you should be aware of are:
+1. The Library.  It is located by going to the north foyer and
+following the North Main Hallway. It will be seen on your left.
+2. The Infirmary is also located in the North Main Hallway.
+3. The Dining room and Community Room are located in the East
+Main Hallway off the northern foyer.
+4. All classrooms are located off the West Main Hallway from the
+northern foyer.
+The Administration offices are on the Second Floor by way of the 
+northern foyer.
+School supplies are off the main foyer on the west side.
+Luggage and Familiars and pets are off the main foyer east side.
+This school also has an Infirmary, State of the Art Magelab, an Altar for worship.
+Our Healers and Trainers are here to help you twenty-four hours a day.
+ 
+Noted areas of interest you could also visit are:
+Diagon Alley - a magic shoppers paradise.
+Forbidden Forest - a forest of mystery filled with rare species.
+The school does not take responsibility if you go there.
+Our Teacher for the training and care of Magical Creatures is Rubeus Hagrid. He
+lives behind the school in a Cabin he built himself.
+The Dungeons for our new students to hone their fighting skills.
+Last but definately not least, is our own Sports Arena where the school holds
+exciting games of Quidditch.
+ 
+Enjoy your stay with us!
+~
+E
+INDEX~
+Chapter 1. Classes offered at Hogwart's.
+Chapter 2. Fields of Study
+Chapter 3. Teachers and their classes
+Chapter 4. Locations and Noted Areas of Interest
+Chapter 5. Miscellaneous items
+ 
+To READ the chapters just type LOOK or READ #
+So to read chapter 1 type READ 1 or LOOK 1.
+~
+E
+5 Miscellaneous~
+This section is being edited. It will be magically updated when
+it is complete.
+~
+E
+3 Teachers~
+The teachers at Hogwart's have been chosen for their
+achievements in their field of magic. All the staff
+at Hogwart's are more than qualified and will give
+their best to give you the finest training you will
+need for your life outside this school.
+This year there are many new teachers and we will 
+update this guide as soon as possible for a 
+complete list.
+~
+E
+2 Fields~
+Hogwart's offers a complete education in the field of Magic.
+You will be able to choose your field of study whether that
+is white or dark magic, Enchanting, Alchemy, Scriber, or
+craftsmen such as wand maker, staff crafter others.
+~
+E
+1 classes~
+The classes offered at Hogwart's are varied and many.
+In this guide we will give you a few highlights of what
+is offered. For a complete listing of all classes you 
+will need to refer yourself to your Hogwart's Schoolbook.
+A partial list of classes is as follows:
+Wands - the making, use and care of wands.
+Enchanting -All aspects of enchanting weapons and armor.
+Alchemey - How to create potions and pills, herbs and
+their uses.
+Spellcrafting - The use of spells and their effects.
+Dark Magics such as Necromancy for example.
+Healing Arts - This is very helpful for the clerics.
+ 
+Many other classes are available. Enjoy your stay at
+Hogwart's!
+~
+E
+guide~
+Welcome to Hogwart's School of Magic! We hope you enjoy your time
+here with us.  Hogwart's School is the finest magic school in all
+of Boinga.  We pride ourselves on the quality of teaching offered.
+To use this guide, first read the INDEX. Type LOOK Index or
+READ Index.
+~
+#13307
+wizard hat~
+a {Dwizard hat{x~
+A dusty {Dblack wizard hat{x is lost here.~
+silk~
+container ABGNTYd AE
+450 0 0 35 25
+1 10 125 P
+A
+32 1
+A
+4 1
+A
+12 1
+E
+hat wizard~
+A black {Dwizard hat{x looks just your size! What a lucky find.
+You can feel it's magic humming in your hand. You have a great
+urge to examing it further. It holds many secrets.
+~
+#13308
+apprentice dagger~
+an {rapprentice{x {Ddagger{x~
+An {rapprentice{x {Ddagger{x has been dropped here.~
+bone~
+weapon ANU AN
+dagger 1 5 stab D
+1 10 125 P
+A
+18 1
+A
+18 2
+A
+19 1
+E
+dagger~
+This dagger is what is issued to new apprentices at Hogwart's.
+It is a fine weapon to help you in your combat training.
+Sometimes you need more than magic to fight.
+~
+#13309
+lost and found box~
+a lost and found box~
+A lost and found box sits against the wall.~
+wood~
+container M 0
+10000 0 0 1000 100
+0 10000 0 P
+E
+lost found box~
+A lost and found box is sitting against the wall. You are
+welcome to look for items that might be of interest to you.
+People sometimes discard things they no longer want or use.
+Help yourself but don't be greedy. To get something from
+the box type "get item_name from box".  To put something
+in the box for someone else, type "put item_name box".
+~
+#13310
+lamp magic glow~
+a {Dmagic {Yglow {Dlamp{x~
+A beautiful hand-crafted magic glow lamp is here shining brightly.~
+magic~
+light ABGN AQ
+0 0 -1 0 0
+1 8 35 P
+A
+18 1
+E
+magic glow lamp~
+A beautiful hand-crafted {Cmagic {Yglow {Clamp was created by a local artisian.
+Her magic is infused into the metal work as it is formed into this delicate
+lamp, which creates it's magic glow.  No two lamps are alike.
+~
+#13311
+beef jerky~
+{rbeef jerky{x~
+Some {rbeef jerky{x has spilled out of a bag.~
+beef~
+food N A
+20 40 0 0 0
+0 100 30 P
+A
+14 1
+E
+beef jerky~
+This jerky looks like it has been laying around in the sun a long time.
+It looks very dry but still nutricious.  Would make a great snack on the road.
+~
+#13312
+practice weapon~
+a {ypractice weapon{x~
+A weapon used to practice on, is dented and abused.~
+metal~
+weapon 0 AN
+dagger 4 1 stab 0
+0 10 10 P
+A
+14 10
+E
+practice weapon~
+This is a refurbished weapon to be used for practicing enchanting. It shows
+signs of wear and tear but is still servicable.
+~
+#13313
+strange brew~
+a strange brew~
+A potion of strange brew is sitting here.~
+liquid~
+potion ABGd A
+20 'refresh' 'haste' '' ''
+0 10 0 P
+E
+tag~
+The tag reads: For a quick pick-me-up, quaff me.
+~
+E
+strange brew~
+You don't know what this stuff is. It smells like nothing you have ever smelled
+before. It is thick and very dark. It is multi-colored with brown, black and
+deep purples. There is a tag on the side you probably should read.
+~
+#13314
+infirmary bed~
+an infirmary bed~
+Rows of beds are lined against the walls.~
+mattress~
+furniture MRYd 0
+25 0 BEHK 200 200
+0 500 0 P
+E
+beds~
+Beds are lined up on both sides of the room. There are ten beds on each
+side. Half of them are neatly made and the others have been stripped of their
+bedding. Madam Pomfrey must be doing housework besides her healing. There is a
+sign above the east door that leads to another area of the infirmary.
+~
+#13315
+dark portal~
+a {Ddark portal{x~
+A {Ddark swirling portal{x is in the corner.~
+swirling wind~
+portal ABGLT 0
+0 0 0 13381 0
+0 0 0 P
+E
+portal~
+The portal is swirling with blacks and grey. You strain to look into it's foggy
+depths. You see tall dark trees shrouded in fog. Dark shadows move among the
+trees but you can't really make out what they are. A thick fog rolls in and you
+can't see anymore.
+~
+#13316
+beautiful hand-carved bench~
+a beautiful hand-carved bench~
+A beautiful hand-carved bench is sitting here invitingly.~
+wood~
+furniture M 0
+2 0 BEHK 100 100
+0 100 0 P
+E
+bench~
+A beautiful hand-carved bench is sitting here.  Someone took great care making
+this masterpiece. Delicate flowers and intricate scrolling adorn this bench.
+~
+#13317
+wizard robe~
+a {Dwizard robe{x~
+A crumpled up {Dwizard's robe{x is here.~
+unknown~
+container AGNY AK
+150 0 0 25 25
+1 2 125 P
+A
+12 2
+A
+5 2
+A
+17 -1
+E
+robe~
+This {Dwizard's robe{x has the name Hogwart's on it. It is made of a strange
+{Dblack material{x you don't really recognize, but it is like silk. There are
+pockets in different areas.  It would probably be pretty handy for school.
+~
+#13318
+white flowering thistle~
+a white flowering thistle~
+A white flowering thistle is on the ground.~
+flower~
+food G A
+20 40 0 0 0
+1 5 50 P
+F
+A 0 0 R
+E
+flower thistle~
+A white flowering thistle is here. This thistle only blooms their flowers once
+a year. The fragrance of the flower makes you a little dizzy when you smell it.
+It looks very edible.
+~
+#13319
+cauldron pot~
+a black cauldron~
+There is a big black cauldron in the massive stone fireplace.~
+metal~
+container MY P
+250 0 0 30 25
+0 1000 0 P
+E
+pot cauldron~
+You look inside the pot and see something boiling. Whatever is cooking in the
+pot smells good. Chunks of meat and bone rise and sink below the bubbles.
+~
+#13320
+Debris~
+debris~
+Piles of debris are everywhere.~
+debris~
+container MY P
+200 0 0 25 15
+0 1000 0 P
+E
+debris~
+There are bones, meat, shreded material throughout these piles of debris.
+Everything looks as if it was ripped by claws, chewed by teeth, or spoiled and
+rotting. It is NOT appetizing.  Flies are everywhere.
+~
+#13321
+practice armor~
+{ypractice armor{x~
+There is armor here to practice your enchanting skills on.~
+copper~
+armor NT AK
+0 0 0 0 0
+0 100 10 P
+E
+armor~
+The school has provided students with armor to practice on before they use
+the real thing. Enchant away!  It doesn't matter if you blow it up. It is
+recyclable. The armor has some dents and burnt areas but is still servicable.
+~
+#13322
+desk chair~
+a desk and chair~
+A student's desk and chair are sitting here.~
+wood~
+furniture MTd 0
+20 0 BEHK 100 100
+0 1000 0 P
+E
+desk chair~
+A student's desk and chair are available at the moment. You can sit here and 
+study or do some homework. Other students are hard at work here.
+~
+#13323
+a wand of yew~
+a wand of yew~
+A twig has fallen off of a near by tree and lies here.~
+wood~
+wand N AO
+0 0 0 '' 0
+0 1 0 P
+#13324
+eye of newt pudding~
+{yeye of newt pudding{x~
+You see a dish of some kind of {ypudding{x here.~
+newt pudding~
+food NUY A
+30 40 0 0 0
+0 1 30 P
+E
+eye newt pudding~
+This is a delicious pudding made by the cooks at Hogwart's. It has a custard
+consistency with delicious eye of newt mixed in.  Only the cooks at Hogwart's
+know how to make this special dish.
+~
+#13325
+glass dragon blood milk~
+a glass of {rdragon blood {Wmilk{x~
+A glass of {rdragon blood {Wmilk{x is bubbling in the glass.~
+glass~
+drink GNTd AO
+10 10 'milk' 0 0
+0 10 15 P
+A
+5 2
+F
+A 0 0 c
+E
+jug dragn blood milk~
+Generic extended description.
+~
+E
+glass dragon blood milk~
+This {Rdragon blood milk{x is a Hogwart's speciality. It is known far and
+wide for it's health benefits. Most love it once they get past the smell and
+the burning sensation while swallowing it. It is a thick, reddish pink,
+liquid simular to a thick mulkshake. It goes down like hot lava.
+~
+#13326
+prime rib of centaur~
+prime rib of centaur~
+A plate of prime rib of centaur is steaming here.~
+meat~
+food N A
+30 40 0 0 0
+1 20 100 P
+E
+prime rib centaur~
+A large prime rib of centaur is steaming on a plate. It is really juicy, tender
+and cooked to perfection. A big side of gravy is with it.
+~
+#13327
+glass blood~
+a glass of {rblood{x~
+You see a glass of {rblood{x.~
+glass~
+drink N A
+16 16 'blood' 0 0
+0 10 5 P
+#13328
+bowl hagrid stew~
+a bowl of Hagrid's Stew~
+A bowl of Hagrid's Stew is steaming here.~
+stew~
+food NTW A
+50 50 0 0 0
+1 20 150 P
+A
+13 20
+A
+28 1
+E
+hagrid stew~
+A heaping bowl of Hagrid's Stew is steaming here. On close inspection, you see
+pieces of bone, eyes, meat, skin and some guts.  This stew has been boiling 
+for a week to imbue all the flavors together.  You see pieces of mushroom, 
+garlic, and onions mixed in.
+~
+#13329
+spider ring~
+a {rspider {Dring{x~
+A {rspider {Dring{x is half buried here.~
+unknown~
+jewelry BGNSY AB
+0 0 0 0 0
+5 5 500 P
+F
+A 0 0 JQc
+A
+2 1
+E
+spider ring~
+This {rspider {Dring{x looks ancient. The {Dblack band{x is topped by a very
+realistic {rspider{x. You have to touch it to make sure it isn't really a
+real {rspider{x on top of a band. You can feel a power in the ring. It makes
+your hand tingle slightly.
+~
+#13330
+snowy owl stone~
+a {WSnowy White Owl{x~
+A strange looking stone is on the ground.~
+stone~
+warp_stone 0 AQ
+0 0 0 0 0
+3 1 500 P
+A
+3 1
+A
+4 2
+F
+A 0 0 T
+E
+stone strange~
+This stone is like no other you have seen before. It glows with an inner white
+light with flashes of amber throughout.  As you study the stone you can barely
+makeout a delicate carving ofa {WSnowy White Owl{x.
+~
+#13331
+Grey Portal~
+a {Dgrey portal{x~
+A {Dgrey portal{x is shifting and swirling in the corner.~
+unknown~
+portal BGMRYd 0
+0 0 0 13379 0
+0 0 0 P
+E
+grey portal~
+The portal is very hard to look into, kind of like trying to look through moving
+water. What you can make out before the pictures disappear are some very unusual
+shops.
+~
+#13332
+plush couch~
+plush couch~
+A plush couch is here.~
+plush~
+furniture 0 0
+40 0 BEHK 100 100
+0 3000 0 P
+E
+plush couch~
+This is a very nice couch!  It is big and long and the cushions are thick and
+soft. It looks extremely comfortable.
+~
+#13333
+huge stone slab fireplace~
+a huge stone slab fireplace~
+A huge stone slab fireplace covers one wall.~
+slate~
+container GMY 0
+10000 0 0 1000 0
+0 10000 0 P
+E
+18~
+~
+E
+~
+Generic extended description.
+~
+E
+fireplace hearth~
+A huge stone fireplace takes up one whole wall. The stones are big slabs
+of slate fitted tightly together. School awards, trophies, and school pictures
+are on the top of the large mantle piece. A large slate hearth has plenty of
+room for sitting to keep warm.
+~
+#13334
+glowing fire~
+a {Yglowing {Rfire{x~
+A {Yglowing {Rfire{x is in the fireplace.~
+fire~
+trash AGMR 0
+0 0 0 0 0
+0 20 0 P
+#13335
+steamed vegetables~
+steamed {gvegetables{x~
+A bowl of steamed {gvegetables{x.~
+vegetables~
+food N A
+45 50 0 0 0
+1 10 55 P
+#13336
+mahogany desk~
+A large mahogany desk~
+A large mahogany desk is here.~
+~
+container 0 0
+10000 AC 0 1000 25
+52 100 0 P
+E
+desk~
+This desk is a massive mahogany masterpiece.  It is very old but polished to a
+brilliant sheen. Quill pens are in a holder on the desk, also a bottle of ink.
+~
+#13337
+teachers lounge key~
+a teacher's lounge key~
+A silver key is here.~
+silver~
+key Y A
+0 0 0 0 0
+0 1 0 P
+E
+key~
+A silver key is fairly large.  It looks like it would open a main door. It has
+a big letter "T" on the end of the key.
+~
+#13338
+harry potter desk~
+A large mahogany desk~
+A large mahogany desk is here.~
+~
+container 0 0
+10000 ACD 0 1000 10
+52 100 0 P
+E
+desk~
+This desk is a massive mahogany masterpiece.  It is very old but polished to a
+brilliant sheen. Quill pens are in a holder on the desk, also a bottle of ink.
+~
+#13339
+Administrator's Office Key~
+Administrator's Office Key~
+A beautiful large gold key is here.~
+gold~
+key ABGY AO
+0 0 0 0 0
+0 10 0 P
+E
+key~
+This is a beautiful large gold key and very heavy. A large phoenix bird is 
+displayed on the top of the key.
+ 
+~
+#13340
+bird stand~
+A large bird stand ~
+A large bird stand is here.~
+wood gold~
+furniture MTd 0
+1 0 BEHK 100 100
+0 500 0 P
+E
+bird stand~
+A large and tall bird stand is here. It is made of wood and gold. A large base
+toward the middle of the stand is filled with sand.  It is quite exquisitely
+made.
+~
+#13341
+baby basilisk fang~
+a baby basilisk fang~
+A baby fang is here, dripping poison.~
+fang~
+weapon HTYd AN
+dagger 1 6 bite H
+5 10 350 P
+A
+5 1
+E
+fang~
+This is a small fang that most likely came from a snake, because you can see
+where little drops of venom come out of it.
+~
+#13342
+golden snitch~
+a {ygolden snitch{x~
+A {ygolden snitch{x is flying above your head.~
+gold~
+warp_stone ABGTd AQ
+0 0 0 0 0
+5 50 0 P
+A
+2 2
+E
+golden snitch~
+The {yGolden Snitch{x, sometimes called simply the Snitch, is the third ball
+used in Quidditch. It is a small gold-colored sphere with silver wings and is
+about the size of a walnut. It flies around the Quidditch field at high speeds,
+sometimes pausing and hovering in place.
+~
+#13343
+red sign~
+a {Rred sign{x~
+A {RSIGN{x is flashing before you.~
+magic~
+trash ABGM 0
+0 0 0 0 0
+0 100 0 P
+E
+red sign~
+{RNOTICE!{x Before entering the portal to the Combat Training Area, enter the
+Practice Room to practice your combat skills with a weapon. This will help you
+immensely on improving your skills with a weapon before entering the Combat
+Training Grounds.
+{YPRACTICE ROOM IS NORTH{x
+~
+#13344
+toilet~
+a toilet~
+You see a toilet.~
+ceramic~
+furniture MR 0
+50 0 BEHK 100 100
+0 450 0 P
+E
+toilet~
+It looks like an ordinary toilet. To flush it, type Look flush.
+~
+E
+flush~
+You flush the toilet and watch the swirling water empty. Don't forget to put
+the seat and lid down - and wash your hands!
+~
+#13345
+pixie dust potion~
+pixie dust potion~
+A tiny bottle with sparkling liquid is sitting on the ground.~
+glass~
+potion GNY A
+20 'haste' 'fly' 'cure light' ''
+2 10 1400 P
+E
+potion~
+A little label on the side of the bottle reads, "Quaff Me".
+~
+#13346
+Hogwart's Schoolbook~
+Hogwart's Schoolbook~
+Hogwart's Schoolbook has been dropped here.~
+paper~
+trash ABGHY AO
+0 0 0 0 0
+1 50 0 P
+A
+4 2
+A
+0 0
+E
+book schoolbook~
+This is a Hogwart's Student Schoolbook.  This book is very important to your
+studies here at Hogwart's and in the outside world. Take care of your book.
+To read this book, you should start with the Index. Type READ INDEX.
+To read any other part of the book READ CHAPTER # or READ ITEM your interested
+in. Welcome to Hogwart's!  We hope your time here will be a learning 
+experience.
+~
+E
+Wands, Scrolls, Staves~
+Magical items require training to use properly. If you lack the necessary skill
+to use an item, you will fail, possibly destroying it. The item skills are as
+follows:
+Scrolls - The reading of magical scrolls and books. Use RECITE to read them.
+Staves - The use of staves, staffs, and simular items. Use BRANDISH.
+Wands - The use of wands and simular items. Use ZAP.
+~
+E
+Index~
+Welcome! This is instructions on how to use your Hogwart's Schoolbook.
+If you need help on using magical items, use the following words for help:
+Help Brandish, Help Quaff, Help Recite, Help Zap. These commands are what are
+used to use different magical items. Staves/staffs, potions, scrolls and spell
+pages, and wands.  You may type help for each of these items too.  For example:
+Help wand, help stave.
+ 
+To understand the different types of kits a mage/wizard/cleric can take type
+HELP KIT LIST.  This will list all kits available.  For example: It will tell
+you the Enchanter kit is available for a Mage/wizard.  A cleric could take the
+Bishop Kit.  A mage or wizard can become an Alchemist.  If you want to know
+what an alchemist does, type Help Alchemist.
+~
+#13347
+bathroom sink~
+a bathroom sink~
+A bathroom sink is here.~
+ceramic~
+fountain MY 0
+0 0 'water' 0 0
+0 500 0 P
+E
+sink bathroom~
+The sink is clean but doesn't look like it has been used much.  While your
+looking at the sink, you decide to wash your hands and maybe get a drink.
+~
+#13348
+large willow switch~
+a large willow switch~
+A large flexible willow switch has been dropped.~
+willow~
+weapon GNT AN
+whip 5 8 slash I
+50 50 5000 P
+E
+switch~
+A very long piece of willow is here. It is very flexible. It could be used to
+hit a bird in flight.
+~
+#13349
+wizard sandles~
+{Dwizard sandles{x~
+A pair of dusty {Dwizard sandles{x are here.~
+leather~
+armor N AG
+2 2 2 0 0
+1 10 125 P
+E
+sandles~
+These sandles are well worn but still have a lot of wear left in them.
+A little wipe down and they will almost be good as new.
+~
+#13350
+hogwart school staff~
+a Hogwart school staff~
+A Hogwart's school issued staff is here.~
+wood~
+weapon U AN
+staff 1 5 pound F
+1 40 290 P
+A
+19 1
+A
+18 2
+E
+staff~
+This staff was a school issue of Hogwart's. It is for first year students to
+practice with.
+~
+#13351
+hogwart school bracer~
+a Hogwart's school bracer~
+A Hogwart's school uniform bracer is here.~
+bronze~
+armor U AM
+0 1 1 0 0
+0 10 48 P
+E
+bracer~
+You see a bracer of good craftmanship but made of cheap materials. It is issued
+to beginning students at Hogwart's.
+~
+#13352
+hogwart school belt~
+Hogwart's school belt~
+A Hogwart's school issued belt is here.~
+leather~
+armor U AL
+1 1 1 0 0
+0 10 72 P
+E
+belt~
+This belt is issued to first year students at Hogwart's.
+~
+#13353
+hogwart school cape~
+a Hogwart's school cape~
+A Hogwart's school uniform cape is here.~
+cloth~
+armor U AK
+1 1 1 0 0
+0 20 72 P
+E
+cape~
+You see a cape of great craftmanship but made with cheap material. This cape is
+issued to beginning students at Hogwart's.
+~
+#13354
+hogwart school sleeves~
+Hogwart's school sleeves~
+A pair of Hogwart's school issued sleeves is here.~
+leather~
+armor U AI
+1 1 1 0 0
+0 20 72 P
+E
+sleeves~
+This is a pair of Hogwart's school issued sleeves for first year students.
+~
+#13355
+hogwart school gloves~
+Hogwart's school gloves~
+A pair of Hogwart's school uniform gloves is here.~
+leather~
+armor U AH
+1 1 1 0 0
+0 10 72 P
+E
+gloves~
+You see gloves of great craftmanship but made with inferior materia. These 
+gloves are issued free to beginning students at Hogwart's.
+~
+#13356
+hogwart school boots~
+Hogwart's school boots~
+A pair of Hogwart's school issue boots is here.~
+leather~
+armor U AG
+1 1 1 0 0
+0 30 72 P
+E
+boots~
+These boots are standard issued boots for first year students at Hogwart's.
+~
+#13357
+hogwart school leggings~
+Hogwart's school leggings~
+A pair of Hogwart's school uniform leggings are here.~
+leather~
+armor U AF
+1 1 1 0 0
+0 30 72 P
+E
+leggings~
+You see leggings of great craftmanship but made with inferior material. These 
+are issued to beginning students at Howart's.
+~
+#13358
+hogwart school hat~
+a Hogwart's school hat~
+A Hogwart's school uniform hat is here.~
+leather~
+armor U AE
+1 1 1 0 0
+0 30 72 P
+E
+hat~
+A A Hogwart's school uniform hat is issued to beginning students. It is well
+made but not to last.
+~
+#13359
+hogwart school whip~
+Hogwart's school whip~
+A Hogwart's school issued whip is here.~
+leather~
+weapon U AN
+whip 2 2 whip 0
+1 20 330 P
+A
+18 2
+E
+whip~
+You see a whip of great craftmanship but made with inferior material. This 
+whip is assigned to beginning students at Hogwart's.
+~
+#13360
+hogwart school cloak~
+a Hogwart's school cloak~
+A Hogwart's school cloak is here.~
+cloth~
+armor U AC
+1 1 1 0 0
+0 40 72 P
+E
+cloak~
+A Hogwart's first year student standard issue cloak.
+~
+#13361
+hogwart school shield~
+a Hogwart's school shield~
+A Hogwart's school uniform shield is here.~
+wood~
+armor U AJ
+1 1 1 0 0
+0 30 108 P
+E
+shield~
+You see a shield made of great craftmanship but using inferior material. This 
+shield is issued to beginning students at Hogwart's.
+~
+#13362
+hogwart school vest~
+a Hogwart's school vest~
+A Hogwart's school uniform vest is here.~
+leather~
+armor U AD
+1 1 1 0 0
+0 50 144 P
+E
+vest~
+A Hogwart's school uniform vest is here. 
+~
+#13363
+hogwart school sword~
+a Hogwart's school sword~
+A Hogwart's school issue sword is here.~
+bronze~
+weapon U AN
+sword 1 6 slash 0
+1 30 360 P
+A
+18 1
+E
+sword~
+You see a sword of great craftmanship but made with inferior material. This
+sword is issued to beginning students at Hogwart's.
+~
+#13364
+hogwart school dagger~
+a Hogwart's school dagger~
+A Hogwart's school issued dagger is here.~
+bronze~
+weapon U AN
+dagger 1 4 pierce 0
+0 10 210 P
+A
+18 1
+E
+dagger~
+You see a dagger that is issued to new students at Hogwart's School of Magic.
+It is a great dagger but clearly not made to last.
+~
+#13365
+hogwart school mace~
+a Hogwart's school mace~
+A Hogwart's school issued mace is here.~
+bronze~
+weapon U AN
+mace 1 6 pound 0
+1 60 250 P
+A
+18 1
+E
+mace~
+You see a mace of great craftmanship but made with inferior material. This is
+issued to beginning students at Hogwart's.
+~
+#13366
+hogwart school spear~
+a Hogwart's school spear~
+A Hogwart's school issued spear is here.~
+wood~
+weapon U AN
+staff 1 6 thrust 0
+1 50 111 P
+A
+18 1
+E
+spear~
+You see a Hogwart's new student standard issue spear here. A weapon well made 
+but clearly not made to last.
+~
+#13367
+hogwart school flail~
+a Hogwart's school flail~
+A Hogwart's school issued flail is here.~
+bronze~
+weapon U AN
+flail 1 5 crush 0
+1 50 310 P
+A
+19 1
+E
+flail~
+You see a flail of great craftmanship but made with inferior material. This is
+issued to beginning students at Hogwart's.
+~
+#13368
+hogwart school glaive~
+a Hogwart's school glaive~
+A Hogwart's school issued glaive is here.~
+wood~
+weapon U AN
+polearm 1 7 slash F
+1 80 183 P
+A
+19 1
+E
+glaive~
+This glaive is a Hogwart's school issue give to beginning students at Hogwart's.
+It is well made but clearly not made to last.
+~
+#13369
+hogwart school axe~
+a Hogwart's school axe~
+A Hogwart's school issued axe is here.~
+bronze~
+weapon U AN
+axe 1 6 chop 0
+1 50 350 P
+A
+18 1
+E
+axe~
+You see an axe of great craftmanship but made with inferior material. This is
+issued to beginning students at Hogwart's.
+~
+#13370
+ripped Quidditch ticket~
+a ripped Quidditch ticket~
+A ripped Quidditch ticket has been thrown away here.~
+paper~
+trash GNST AO
+0 0 0 0 0
+5 2 500 P
+A
+12 5
+A
+13 5
+A
+14 25
+#13371
+bubbling clear creek~
+a clear bubbling creek~
+A crystal clear creek is bubbling along here.~
+water~
+drink MS 0
+1000 1000 'water' 0 0
+0 10000 0 P
+E
+creek~
+A beautiful crystal clear creek is bubbling along here. Fish are swimming in 
+the deep pools of the cold water.
+~
+#13372
+wizard satchel~
+a {Dwizard's satchel{x~
+A {Dwizard satchel{x is on the ground gathering dust.~
+leather~
+container GNSW AL
+250 AC 0 50 15
+1 1 250 P
+A
+2 2
+A
+1 2
+A
+3 1
+E
+satchel~
+This is a handy little satchel to carry important items. It is made of sturdy
+leather and has several pockets to hold small items. One large pocket will 
+hold things of greater bulk. Fancy tooling on the leather looks like runic
+symbols that you cannot read.
+~
+#13373
+fire pit~
+a fire pit~
+A fire pit is here.~
+rock~
+container M 0
+150 0 0 50 25
+0 500 0 P
+E
+fire pit~
+The fire pit is built with several rows of rocks stacked upon each other. Dead
+wood has been stacked in the center, waiting to be lit.
+~
+#13374
+picnic table~
+a picnic table~
+A large picnic table is here.~
+wood~
+furniture 0 0
+40 0 ADGJ 100 100
+0 3000 0 P
+E
+picnic table bench~
+This picnic table is made of wood and hand polished to a brilliant shine. How
+it keeps it's shine out in the open is a mystery.
+~
+#13375
+mysterious portal~
+a mysterious portal~
+A mysterious {Dblack portal{x is swirling close by.~
+water~
+portal 0 0
+0 0 0 23514 0
+0 1 0 P
+E
+portal~
+A mysterious {Dblack portal{x is swirling close by. It expands and contracts.
+Be careful you don't get too close or you will be sucked in. This leads to a 
+HIGH LEVEL area. You have been warned!
+~
+#13376
+trout fried platter~
+a platter of fried trout~
+You see a platter filled with fried trout with lemon sauce.~
+trout~
+food 0 A
+40 40 0 0 0
+0 20 20 P
+E
+platter trout~
+A large platter filled with fried trout, has lemon sauce with fresh lemon
+slices adorning it. It was caught fresh in Hogwart's lake this morning.
+~
+#13377
+plant poison ivy~
+an {givy plant{x~
+A small dusk of {gpoison ivy{x is in the dirt.~
+ivy~
+food NW A
+1 1 0 1 0
+0 10 0 P
+E
+plant ivy~
+This plant has dark green juicy leaves.
+You notice some small white thorns on it.~
+#13378
+large table chair~
+large table and chair~
+You see a large hand-made table and chair.~
+oak~
+furniture M 0
+50 0 ADGJ 0 0
+0 1000 0 P
+E
+table chair~
+A large table has a plank of wood for the top. The legs are a log split into
+fourths. The chair is big and sturdy and could hold a great amount of weight.
+~
+#13379
+red portal~
+a {rred portal{x~
+A swirling {rred portal{x is in the center of the room.~
+magic~
+portal BGMTY 0
+0 0 0 13366 0
+0 0 0 P
+E
+red portal~
+A swirling {Rred portal{x spins wildly in the center of the room. This portal
+will transfer you to the Triwizard Tournament Grounds which also doubles as
+a Hogwart's Combat Training Ground when tournaments are not being held.
+~
+#13380
+foyer sign~
+foyer sign~
+A large {YSIGN{x is in the middle of the foyer.~
+wood~
+trash AMY 0
+0 0 0 0 0
+0 100 0 P
+E
+direction sign~
+{YNORTH HALLWAY{X
+Library - Infirmary - North Gate - Groundskeeper Cabin - Forbidden Forest
+{YEAST HALLWAY{X
+Dining Room - Community Room - East Gate - Town of Goderick
+{YWEST HALLWAY{X
+Classrooms - Mage Laboratory - Chapel - West Gate - Sports Arena - Black Lake
+{YSOUTH{X
+Foyer Entrance - School Supplies - Pets and Storage
+{YSECOND FLOOR{X
+Administration - Teacher Lounge - Detention
+~
+#13381
+natural spring pool~
+a natural spring pool~
+A fresh cold pool of water is bubbling up from the ground.~
+water~
+fountain IMORSTY P
+0 0 'water' 0 0
+0 0 1 P
+E
+pool~
+The pool seems to go down forever.  Far, far below you see a faint
+shimmer of gold.  Could this be where the dragons' hoard is hidden?
+~
+E
+water~
+The water glitters and shines like diamonds, making you wonder where
+you've seen such beauty before...
+~
+#13382
+school portal~
+school portal~
+A {Mglowing portal{x is here to take you back to the school.~
+magic~
+portal AB 0
+0 0 0 13357 0
+0 100 0 P
+#13383
+dragon balloon~
+a dragon balloon~
+A balloon the shape of a dragon floats here.~
+balloon~
+trash X AQ
+0 0 0 0 0
+5 1 200 P
+A
+19 2
+A
+2 1
+A
+32 2
+#0
+
+#ROOMS
+#13300
+Train Station~
+People are running all around you buying tickets, checking baggage, chasing
+children, boarding and unboarding the trains. Porters are pushing big carts of
+luggage among the noisy crowds.
+~
+0 0 0
+D0
+Exit ~
+wall door north~
+24576 0 13301
+S
+#13301
+Train Station Platform~
+You emerge on the other side of the wall. Students are checking in 
+their luggage and boarding the train. Your luggage was sent ahead and
+is waiting you at the school. Students are waving and calling to
+each other as they board the train.
+A {YBILLBOARD{x is on the wall above the baggage area. A {Dtrain{x is sitting
+in the station, smoke billowing in the air.
+~
+0 CKW 1
+D2
+Exit ~
+door~
+16384 0 13300
+E
+billboard~
+BOARDING PASSES / LUGGAGE CHECK-IN
+Don't forget to pick up your pre-registered boarding passes from the
+baggage man or you cannot board the train. A concession stand is at the
+baggage counter for your basic traveling needs.
+When you are ready to board the train {YHOLD{x your boarding pass in your
+hand.
+~
+E
+train~
+An old fashioned train is billowing steam and is about to leave
+the station. You see excited laughing faces through the windows.
+All around students are rushing to board the train. You only have
+a few minutes to get your boarding pass!
+~
+S
+#13302
+Inside the Train~
+You are finally in your seat as the train leaves the station. The door to
+the train car is closed for your safety. You are finally on your way to the
+School of Magic. Several hours pass, and the train pulls into the train
+station. The students are busy collecting their carry on luggage and throwing
+taunts and paper at each other. Excitement fills the air. Open the door to the
+East to exit the train car.
+~
+0 DKW 0
+D1
+Exit ~
+door~
+16387 0 13303
+S
+#13303
+School of Magic Train Platform~
+You disembark the train and are now standing on the platform. Luggage is
+being loaded into a big wagon. Students are climbing into the carriages that are
+lined up to take them to their last leg of the journey to the school. A carriage
+awaits you to the North.
+~
+0 NW 3
+D0
+Exit ~
+door~
+16384 0 13304
+E
+carriage~
+A line of carriages are ready to carry students to Hogwart's School
+These carriages appear not to have any apparant ways of moving.
+There are no horses or other animals to pull them. Students are boarding
+them however.
+~
+S
+#13304
+Inside the Carriage~
+You settle comfortably inside the carriage and close the door as it starts
+to move. The trip is fairly short and you see through the window a huge
+building up ahead. The carriage comes to a full stop in front of enormous
+gates. Please open the carriage door to exit.
+~
+0 KW 0
+D1
+Exit ~
+east carriage door~
+16387 0 13305
+S
+#13305
+Entrance Gates to School of Magic~
+You finally are here! The entrance to the school is north through the gates.
+This school looks enormous and formidable behind the gates. High in the sky 
+above you see dragons flying! Students rush toward the gates excited to be
+here. The gates are north.
+~
+0 CW 1
+D0
+Exit ~
+Gate North~
+16387 0 13306
+E
+Gates~
+Massive gates are humming with magic. A soft blue light shines 
+from within the intricate metalwork of the gate.
+~
+S
+#13306
+Entrance to the School of Magic~
+You are in the front courtyard. The massive gates have been closed and locked
+behind you. Students are pushing past you and entering the school building to
+the north. Far in the distance you see a wood hut with smoke billowing out of
+the chimmney. A large dark forest is even further behind the cabin. Even from
+here it looks forboding.
+~
+0 0 3
+D0
+Exit ~
+door~
+16387 0 13307
+D1
+Exit ~
+door~
+16384 0 13348
+D3
+Exit ~
+door~
+16384 0 13349
+D5
+Exit ~
+door~
+25601 0 13392
+E
+forest~
+You can barely make out a forest that looks dark and very
+forbidding. The fog hangs heavily in the air there.
+~
+E
+wood hut~
+From what you can see from this distance it looks very rustic.
+The walls are made from huge logs. Smoke billows out of the 
+chimney. A dark forest is behind the cabin.
+~
+E
+gate south~
+The southern gates have been closed and locked for the school year. You cannot
+go back that way.
+~
+S
+#13307
+Hogwart's Foyer~
+You are in the magnificent foyer of Hogwart's School. Magic crackles and hums
+in the air. Students are going in and out of rooms collecting their familiars
+and buying school supplies. Some students are standing around the counter
+reading their {yGuides{x. Others are studying a huge {yMAP{x on the wall. It would
+be wise to LOOK at or EXAM everything here to help you get the best start at
+the school.
+~
+0 DKW 0
+D0
+Exit ~
+door~
+19457 0 13310
+D1
+Exit ~
+door~
+16384 0 13308
+D2
+Exit ~
+door~
+16387 0 13306
+D3
+Exit ~
+west door~
+17409 0 13331
+E
+map~
+A large map hangs on the wall with a large {Rred X{x that says
+You are here next to it. The map shows classroom locations
+the library, the dining hall, infirmary, and administration
+offices. Your relieved to see the bathroom locations are also
+listed. The school is too big to try and find them on your own.
+~
+S
+#13308
+Pet Familiars and Luggage Pick-Up~
+You enter a room filled with luggage on the north side of the room. Your
+suitcases are sitting on the very bottom of the pile. You will have to 
+come back later for it. the other side of the room is filled with cages of
+all kinds of animals. They are the wizards best friend - their familiars.
+The apprentice will help you pick your familiar. Just type LIST to see
+what he has available for you to purchase.
+~
+0 DKMNW 0
+D3
+Exit ~
+door~
+16384 0 13307
+S
+#13309
+Pet Storage~
+This is the pet storage room
+~
+0 CDKNW 0
+S
+#13310
+North End of Foyer~
+This room is a cavernous extention of the foyer to the south. All around the
+foyer above are walkways on every level. The height of the levels is dizzying.
+Students are talking to one another as they lean over the railings to watch
+the people below. Three main hallways lead off this room to the North, East, 
+and West.
+~
+0 DW 0
+D0
+Exit ~
+door~
+16384 0 13320
+D1
+Exit ~
+door~
+16384 0 13312
+D2
+Exit ~
+door~
+19457 0 13307
+D3
+Exit ~
+door~
+16384 0 13311
+D4
+Exit ~
+door~
+16384 0 13313
+S
+#13311
+West Main Hallway~
+This hallway leads to the Classrooms, Mage Laboratory, Portal to the Combat 
+Training Grounds, and the West Gates. Hogwart's Sports Arena is to the west and
+through the West Gates.
+~
+0 DKW 0
+D0
+Exit ~
+door~
+17409 0 13333
+D1
+Exit ~
+door~
+16384 0 13310
+D2
+Exit ~
+north door~
+17409 0 13332
+D3
+Exit ~
+door~
+17409 0 13334
+E
+~
+Generic extended description.
+~
+S
+#13312
+Eastern Main Hallway~
+The East Hallway leads to the Dining Room, the Community Room, and the door
+east to the East Gate.
+~
+0 DKW 0
+D0
+Exit ~
+door~
+16384 0 13343
+D1
+Exit ~
+east door~
+16387 0 13347
+D2
+Exit ~
+door~
+16384 0 13344
+D3
+Exit ~
+door~
+16384 0 13310
+S
+#13313
+Second Floor Hallway~
+The stairs pause and you are on the second floor walkway. The center of the
+walkway is open so you can look down to the main floor, or up to higher levels.
+North is to the Administration Offices.
+~
+0 0 0
+D0
+Exit ~
+door~
+16384 0 13316
+D1
+Exit ~
+door~
+17409 0 13314
+D3
+Exit ~
+door~
+16384 0 13395
+D5
+Exit ~
+door~
+16384 0 13310
+S
+#13314
+Second Floor Hallway~
+The hallway continues south and west. You see people below in the foyer.
+~
+0 D 0
+D2
+Exit ~
+door~
+16384 0 13315
+D3
+Exit ~
+door~
+17409 0 13313
+S
+#13315
+Second Floor Hallway~
+The hallway continues north and west. The second floor bathroom is to the east.
+~
+0 C 0
+D0
+Exit ~
+door~
+16384 0 13314
+D1
+Exit ~
+door~
+16387 0 13393
+D3
+Exit ~
+door~
+17409 0 13317
+S
+#13316
+Administration Offices Main Office.~
+You are in the Administration Offices Main Office.  The room is fairly large.
+A couple of chairs sit facing the secretary's desk. You see doors leading off
+from this room, all closed except the one to the south.
+~
+0 0 0
+D0
+Exit ~
+north door~
+16487 13339 13318
+D1
+Exit ~
+door~
+16387 0 13352
+D2
+Exit ~
+door~
+16384 0 13313
+D3
+Exit ~
+door~
+16391 13337 13319
+E
+pictures~
+These pictures are magical.  The people inside them move and talk as if they 
+were still here. Most of them are past administrators, healers, and teachers
+who excelled at this school.  The current administrator is a very old man. His
+name says Professor Harry Potter.
+~
+S
+#13317
+Second Floor Hallway~
+The hallway continues north and east.
+~
+0 D 0
+D0
+Exit ~
+door~
+16384 0 13395
+D1
+Exit ~
+door~
+17409 0 13315
+S
+#13318
+School Administrator's Office~
+If you are in here, you must be in trouble or he has a special assignment for
+you. Never come in here without an invitation! The magic in here is powerful
+and probing. The walls are filled with shelves of books, scrolls, and many
+unidentified magical items you have never seen before.
+~
+0 0 0
+D2
+Exit ~
+north door~
+16487 13339 13316
+S
+#13319
+Teachers Lounge~
+You are not allowed in here! You best leave before you get caught.
+One long counter is against the west wall where a coffee pot and assorted
+snacks are sitting.
+~
+0 0 0
+D1
+Exit ~
+door~
+16385 13337 13316
+S
+#13320
+North Main Hallway~
+The library is to the west. The Infirmary is to the east, and the North Gate
+is north.
+~
+0 DKW 0
+D0
+Exit ~
+door~
+16387 0 13324
+D1
+Exit ~
+door~
+16384 0 13322
+D2
+Exit ~
+door~
+16384 0 13310
+D3
+Exit ~
+door~
+16384 0 13321
+S
+#13321
+Library~
+The library is three floors high and filled to overflowing with scrolls, books
+and assorted parchments.  There are special areas only certain students may 
+enter with permission from the school.  Even then, they need a professor to go
+with them.  This is because some manuscripts are so old they are falling apart.
+~
+0 CDKW 0
+D1
+Exit ~
+door~
+16384 0 13320
+S
+#13322
+Infirmary~
+You enter a large room that has strange odors that are mingling in the air.
+Tall narrow windows are above the rows of beds, shining some light in the 
+otherwise dark room.
+If you are ill, please type HEAL to see what Madam Pomfrey can heal for you.
+~
+0 DKW 0
+H 200 M 200
+D1
+Exit ~
+door~
+16384 0 13323
+D3
+Exit ~
+door~
+16384 0 13320
+E
+~
+~
+E
+sign east~
+Infirmary Supply Room and Herbal Garden
+~
+S
+#13323
+Infirmary Supply Room~
+You enter this room and discover this is where all the strange exotic scents 
+are coming from. Row after row of plants are growing in plant beds. Shelves 
+line every available wall space. They are filled with vials, potions, pills, 
+dried herbs and books. The room has a glass in the ceiling over the plants. It
+is hot and muggy in here like a greenhouse.
+~
+0 D 0
+D3
+Exit ~
+door~
+16384 0 13322
+E
+plants~
+The plants growing here you are strange and exotic. Some move of their own 
+accord. Others are eating insects or spraying obnoxious odors. You decide you
+probably shouldn't get too close at this time.
+~
+S
+#13324
+North Gates Courtyard~
+You step into a large garden courtyard. Massive gates are to the north that
+lead off to a path. Tall stone walls encircle this courtyard. Flowers covering
+all the colors of a rainbow fill the area with intoxicating aromas.
+~
+0 0 1
+D0
+Exit ~
+door gates north~
+16387 0 13325
+D1
+Exit ~
+door~
+16384 0 13346
+D2
+Exit ~
+door~
+16385 0 13320
+D3
+Exit ~
+door~
+16384 0 13351
+S
+#13325
+Well Travelled Path~
+A winding pathway meanders through the edge of a dark foggy forest. The wind
+is quite chilly here. The sky is darker here and the fog hangs low over the
+forest. The forest seems dead and empty from where you stand.  Your thankful
+for the little sunshine that is on the path.
+~
+0 C 3
+D1
+Exit ~
+door~
+16384 0 13326
+D2
+Exit ~
+door gates north~
+16387 0 13324
+E
+forest~
+The forest is dark and forbidding. Strange sounds echo through it's trees.
+Scurring noises make you check around your feet.
+~
+S
+#13326
+Winding Pathway~
+The pathway continues on. The forest trees are much thicker here by the side
+of the road. You see shadows scurrying by you on the left. Thank goodness you
+are on the the path at the edge of the forest and not IN it. You hope nothing
+decides to come out of it.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 13327
+D3
+Exit ~
+door~
+16384 0 13325
+S
+#13327
+Pathway~
+The pathway looks much brighter ahead. The dark forest to your left is 
+thinning out and you can actually see between some of the trees now. You
+spy a cabin up head through the tree line.
+~
+0 C 3
+D0
+Exit ~
+door~
+16384 0 13328
+D2
+Exit ~
+door~
+16384 0 13326
+S
+#13328
+Hagrid's Front Yard~
+You stand in front of a log cabin. Smoke is billowing out of the chimney. The
+windows are pretty dirty so you can't see through them to see if anyone is at
+home. The cabin is to the west and the path continues north and south.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 13387
+D2
+Exit ~
+door~
+16384 0 13327
+D3
+Exit ~
+door east~
+16387 0 13329
+E
+cabin hut hagrid~
+The cabin is made from huge logs that are dark in color. The were probably
+gathered in the dark forest behind the cabin.  It is quite large for a cabin
+in the woods.  It took someone many days to make this building.
+~
+S
+#13329
+Inside Hagrid's Cabin~
+You are standing inside Rubeus Hagrid's cabin.  It is surprisingly roomy for
+a cabin.  The hand-made furniture is on the large size.  A big man must live
+here. There are four windows, all of them dirty.  A roaring fire is in the
+fireplace.
+~
+0 CD 0
+D0
+Exit ~
+door~
+16387 0 13330
+D1
+Exit ~
+door east~
+16387 0 13328
+E
+fireplace~
+A massive stone fireplace takes up one wall of this cabin. It has a large
+opening that has an iron bar with a hook to hold a big pot to cook things.
+There are pictures on the mantle of the fireplace. The fire is burning hotly.
+~
+E
+pictures~
+You see pictures of wizards and animals. There is one picture of an enormous
+spider. On the bottom of the picture you see the name Aragog engraved in the
+frame. He looks huge and viscious. You hope you never meet him face to face.
+~
+S
+#13330
+Hagrid's Back Yard~
+The back yard is pretty messy.  Piles of debris are laying all over the place.
+A path continues into that dark forbidding woods. All is dark and silent 
+except for the constant rustling in the underbrush.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 13375
+D1
+Exit ~
+door~
+16384 0 13387
+D2
+Exit ~
+door~
+16387 0 13329
+S
+#13331
+Student Supply Room~
+This is the School Supply Room. It has many essentials for classes and
+schol projects. What isn't for sale here you can pick up at Diagon Alley, not far
+from the school. You see shelves filled with books, parchments, wand making
+supplies, potion supplies and such.  There are bottles and vials filled
+with colored liquids, animal parts, and assorted herbs.
+~
+0 0 0
+D1
+Exit ~
+west door~
+17409 0 13307
+S
+#13332
+Mage Laboratory~
+You are in the schools Mage Laboratory. Students and professors alike are 
+working side by side. The air is filled with electricity and magic. People are
+creating, modifying, warping and exploding magic items. Tubes, bottles, and 
+supplies are scattered around the long tables. Armor and weapons warped and 
+damaged beyond replair lay in a stack in the corner.
+~
+0 DKW 14
+M 200
+D0
+Exit ~
+north door~
+17409 0 13311
+S
+#13333
+Classroom Area for Beginners~
+This room is a study area for the various classrooms. Helpers are here to help
+you in your studies. Classrooms lead off in all directions. If you are lost
+just read the signs by typing Read north, read east or just LOOK north to see
+where it goes. A {RPortal{x is downstairs to go to the Combat Training Grounds.
+~
+0 DKW 0
+D0
+Exit ~
+door~
+16384 0 13337
+D1
+Exit ~
+door~
+16384 0 13336
+D2
+Exit ~
+door~
+17409 0 13311
+D3
+Exit ~
+door~
+16384 0 13335
+D5
+Exit ~
+door~
+16384 0 13357
+E
+~
+~
+E
+west~
+The class to the west is Wands 101
+~
+E
+east~
+The classroom east is for Enchanting 101
+~
+E
+north~
+North is to more classrooms.
+~
+S
+#13334
+Hallway West ~
+The hallway continues west towards the West Gates doorway. There are various
+classrooms to the east, and a bathroom is to the north.
+~
+0 0 0
+D0
+Exit ~
+door~
+16387 0 13373
+D1
+Exit ~
+door~
+17409 0 13311
+D3
+Exit ~
+door~
+16387 0 13350
+S
+#13335
+Wands 101~
+Wands 101 is a beginning class on making, using, and the care of your wands.
+You will learn how to make a wand correctly by using the correct materials for
+the type of wand you need.  We have a superior mage laboratory here in the
+school for all your magic needs.  The school supply room will have most of the
+supplies you need.  Otherwise you may need to visit Professor Sprout, or 
+visit Diagon Alley.
+~
+0 DKW 0
+D1
+Exit ~
+door~
+16384 0 13333
+S
+#13336
+Enchanting 101~
+The Enchanter is the absolute finest enchanting mage in the realm. In this 
+class you will learn the basics of being a great Enchanter. You will learn
+how to enchant weapons and armor. You will learn how to warp equipment to
+fit all who come to you no matter what their race or size.
+Welcome to Enchanting 101!
+~
+0 DKW 0
+D3
+Exit ~
+door~
+16384 0 13333
+S
+#13337
+Classroom Hallway~
+Classrooms are to the east and west and the hallway continues north.
+~
+0 DKW 0
+D0
+Exit ~
+door~
+16384 0 13340
+D1
+Exit ~
+door~
+16384 0 13338
+D2
+Exit ~
+door~
+16384 0 13333
+D3
+Exit ~
+door~
+16384 0 13339
+S
+#13338
+Alchemy - Potions and Pills 101~
+Welcome to Alchemy 101! If you love to create, mix up ingrediants for a 
+special effect, you have come to the right class!  You will learn about
+herbs and their uses. How to make potions and pills for all your magic
+needs.
+~
+0 DKW 0
+D3
+Exit ~
+door~
+16384 0 13337
+S
+#13339
+Scribe 101~
+On entering this room the first thing you notice is rows of desks.  Each desk
+has quill and parchment ready for your scribe training. A large blackboard is
+at the front of the room with formula's written on it. 
+~
+0 DKW 0
+D1
+Exit ~
+door~
+16384 0 13337
+S
+#13340
+Classroom Hallway~
+Classrooms are to the east and west and the hallway continues north.
+~
+0 DKW 0
+D1
+Exit ~
+door~
+16384 0 13342
+D2
+Exit ~
+door~
+16384 0 13337
+D3
+Exit ~
+door~
+16384 0 13341
+S
+#13341
+Cleric Studies 101~
+This room is actually very soothing for a classroom. Students are practicing
+their skills in healing, creating food and water, and curses. Some are 
+creating storms which makes the room smell fresh like after a rain storm.
+To the north is the Altar.
+~
+0 DKW 0
+D0
+Exit ~
+door~
+16384 0 13345
+D1
+Exit ~
+door~
+16384 0 13340
+S
+#13342
+Staff Crafters 101~
+Welcome to Staff Crafters 101 !
+Here you will learn the art of endowing staves with the power of your deity.
+~
+0 0 0
+D3
+Exit ~
+door~
+16384 0 13340
+S
+#13343
+The Great Hall Dining Room~
+The dining room is filled with delicious aromas. There are rows of very long
+tables. The day begins at Hogwarts with breakfast in the Great Hall. Students sit
+at their own House table and can eat and socialize, or finish homework. The 
+Headmaster or Headmistress eats with the professors at the High Table placed
+at the far end of the hall. During breakfast, owls bring in the students posts,
+generally consisting of "The Daily Prophet", letters from parents or friends,
+and packages from home. A bell signals the start of the first class at 9 a.m.
+in the morning.
+~
+0 DKW 0
+D2
+Exit ~
+door~
+16384 0 13312
+S
+#13344
+Community Room~
+You are in the student's Community Room.  There are comfortable couches and chairs
+all over the room.  Big pillows are on the floor and chairs.  A very large stone
+fireplace dominates the room on one wall.  Students are lounging, reading, writing
+talking and relaxing here.
+~
+0 DKW 0
+D0
+Exit ~
+door~
+16384 0 13312
+S
+#13345
+Hogwart's Altar~
+This altar room is beautiful and quiet. Statues of the various Dieties are on
+polished wood stands around the room. Tables are also over in a section to the
+north. Pictures of great Clerics are on the walls. The library has biographical
+books on them.  The altar room has a very calming, soothing effect.
+~
+0 DKW 16
+H 200 M 200
+D2
+Exit ~
+door~
+16384 0 13341
+E
+altar~
+A large altar is in an alcove in the corner. Statues of Dieties are on stand
+along the sides of the alcove wall. Large white candles are lit on both sides
+of the altar. A table against the wall also has small candles for people to 
+light in worship.
+~
+S
+#13346
+Northeast Corner Courtyard~
+You continue around the large courtyard surrounding the school. Tall stone
+walls encircle around the courtyard. Flowers and bushes fill the air with
+intoxicating aromas.
+~
+0 0 1
+D2
+Exit ~
+door~
+16384 0 13347
+D3
+Exit ~
+door~
+16384 0 13324
+S
+#13347
+East Gate Courtyard~
+You are at the East Gate Courtyard. The courtyard continues north and south.
+Plants of all kinds fill the area with sweet aromas. The walkways are smooth
+to walk on. You see a doorway to the west and gates to the east.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 13346
+D1
+Exit ~
+gate east door~
+16387 0 13356
+D2
+Exit ~
+door~
+16384 0 13348
+D3
+Exit ~
+east door~
+16387 0 13312
+S
+#13348
+Southeast Corner Courtyard~
+You continue along the garden path. The tall walls protect you from the winds.
+Beautiful flowers line the pathway around the school.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 13347
+D3
+Exit ~
+door~
+16384 0 13306
+S
+#13349
+Southwest Courtyard~
+You continue around the courtyard path. The tall stone walls surrounding the
+courtyard are high, but they don't keep out the sun. Trees, plants and bushes
+fill the air with sweet aromas.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 13350
+D1
+Exit ~
+door~
+16384 0 13306
+S
+#13350
+West Gate Courtyard~
+You have entered the West Gate Courtyard. Tall stone walls encircle the courtyard.
+Flowers and bushes fill the area with intoxicating aromas. The sounds of people
+shouting and yelling come from the west where the sports arena is.
+~
+0 0 1
+D0
+Exit ~
+door~
+16384 0 13351
+D1
+Exit ~
+door~
+16387 0 13334
+D2
+Exit ~
+door~
+16384 0 13349
+D3
+Exit ~
+gates~
+16387 0 13353
+S
+#13351
+Northwest Courtyard~
+You are in a large garden courtyard.  Tall stone walls encircle this courtyard.
+Flowers and bushes fill the area with intoxicating aromas.
+~
+0 0 1
+D1
+Exit ~
+door~
+16384 0 13324
+D2
+Exit ~
+door~
+16384 0 13350
+S
+#13352
+Detention Room~
+You are in the Detention room.  You must have been in trouble to be sent here.
+There isn't a lot to do in here but your homework. There are no windows and one
+door.
+~
+0 DNTW 0
+D3
+Exit ~
+door~
+16387 0 13316
+S
+#13353
+Path to the Sport's Arena~
+You are on a path. To the east is back to Hogwart's School. North is to the 
+Sport's Arena.
+~
+0 C 3
+D0
+Exit ~
+door~
+16384 0 13354
+D1
+Exit ~
+gates~
+16387 0 13350
+D3
+Exit ~
+door~
+16384 0 13389
+E
+path~
+The path continues east and west. To the north is the Sport's Arena.
+~
+S
+#13354
+Sports Arena~
+You are in the entrance to the Sports Arena. People are crowded on the benches 
+watching a game of Quidditch. The boys in the center of the arena are flying on
+their brooms, playing the ariel sport. It is an extremely rough semi-contact
+sport. Two teams of seven players using four balls and six elevated ring-shaped
+goals, three on each side of the Quidditch Pitch. The crowd is cheering on
+their favorite teams.
+~
+0 M 2
+D0
+Exit ~
+door~
+16384 0 13388
+D2
+Exit ~
+door~
+16384 0 13353
+S
+#13355
+Broomstick Storage Room~
+This is the broomstick storage room.
+~
+0 CDM 0
+S
+#13356
+Pathway East to Diagon Alley~
+This area is beautiful. Tall full trees hundreds of years old are throughout
+the area. The air smells fresh and the sun warms your bones. The pathway 
+continues east or you can go back through the gates to Hogwart's to the west.
+~
+0 C 3
+D1
+Exit ~
+door~
+16384 0 13376
+D3
+Exit ~
+gate east door~
+16387 0 13347
+S
+#13357
+Portal To Triwizard Tounament and Combat Training Grounds~
+You are in the portal room to the Triwizard Tournament Grounds held every three
+years at Hogwart's. When the tournaments are not on, the area is used as a combat
+training area for the students at Hogwart's.
+~
+0 CDKRW 0
+H 200 M 200
+D0
+Exit ~
+door~
+16384 0 13372
+D4
+Exit ~
+door~
+16384 0 13333
+S
+#13358
+Triwizard Tournament and Combat Training Grounds~
+You go down a slight incline in the rough terrain. The ground is a mixture
+of dried blood and dirt.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13361
+D1
+Exit ~
+door~
+16384 0 13365
+D2
+Exit ~
+door~
+16384 0 13383
+D3
+Exit ~
+door~
+16384 0 13359
+S
+#13359
+Triwizard Tournament and Combat Training Grounds~
+Plants are lush in this area making walking more difficult. The leaves have
+been slightly singed from fire of some kind. The air smells of sulpher.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13360
+D1
+Exit ~
+door~
+16384 0 13358
+D2
+Exit ~
+door~
+16384 0 13382
+D3
+Exit ~
+door~
+16384 0 13366
+S
+#13360
+Triwizard Tournament and Combat Training Grounds~
+More bones!  Only this time it is a skeleton of a dragon! It must be from the
+last Triwizard Tournaments.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13367
+D1
+Exit ~
+door~
+16384 0 13361
+D2
+Exit ~
+door~
+16384 0 13359
+D3
+Exit ~
+door~
+16384 0 13364
+S
+#13361
+Triwizard Tournament and Combat Training Grounds~
+Moving is difficult in this area. Large boulders are everywhere. Climbing to
+the top of the boulders you see a large cave below on a ledge. You can't figure
+out how to get over there.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13368
+D1
+Exit ~
+door~
+16384 0 13362
+D2
+Exit ~
+door~
+16384 0 13358
+D3
+Exit ~
+door~
+16384 0 13360
+S
+#13362
+Triwizard Tournament and Combat Training Grounds~
+There is moss on the ground and a few rotting logs. A small pool of cold water
+is bubbling up from the ground. There must be a natural springs below.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13369
+D1
+Exit ~
+door~
+16384 0 13363
+D2
+Exit ~
+door~
+16384 0 13384
+D3
+Exit ~
+door~
+16384 0 13361
+S
+#13363
+Triwizard Tournament and Combat Training Grounds~
+The ground is in good shape here. The grass is green, flowers are blooming.
+The brush is pretty dense in areas.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13370
+D1
+Exit ~
+door~
+16384 0 13364
+D2
+Exit ~
+door~
+16384 0 13365
+D3
+Exit ~
+door~
+16384 0 13362
+S
+#13364
+Triwizard Tournament and Combat Training Grounds~
+You almost trip over a pile of bones.  They look well chewed. Dust from the
+ground is covering your shoes.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13371
+D1
+Exit ~
+door~
+16384 0 13360
+D2
+Exit ~
+door~
+16384 0 13366
+D3
+Exit ~
+door~
+16384 0 13363
+S
+#13365
+Triwizard Tournament and Combat Training Grounds~
+Trees are torn up from the roots. The whole area here has burned grass and
+branches. Definately signs of dragons.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13363
+D1
+Exit ~
+door~
+16384 0 13366
+D2
+Exit ~
+door~
+16384 0 13385
+D3
+Exit ~
+door~
+16384 0 13358
+S
+#13366
+Triwizard Tournament and Combat Training Grounds~
+You are in the combat training grounds. There are broken dragon eggshells 
+from the last Triwizard Tournament. The ground is uneven with claw marks and
+torn up branches. You feel a slight breeze blowing in from the Black Lake.
+~
+0 C 2
+D0
+Exit ~
+door~
+16384 0 13364
+D1
+Exit ~
+door~
+16384 0 13359
+D2
+Exit ~
+door~
+16384 0 13386
+D3
+Exit ~
+door~
+16384 0 13365
+S
+#13367
+Triwizard Tournament and Combat Training Grounds~
+The air is fresh and cool here. The clouds are dark and gray. A thunderstorm
+is approaching.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13382
+D1
+Exit ~
+door~
+16384 0 13368
+D2
+Exit ~
+door~
+16384 0 13360
+D3
+Exit ~
+door~
+16384 0 13371
+S
+#13368
+Triwizard Tournament and Combat Training Grounds~
+The air is fresh and cool here. The clouds are dark and gray. A thunderstorm
+is approaching.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13383
+D1
+Exit ~
+door~
+16384 0 13369
+D2
+Exit ~
+door~
+16384 0 13361
+D3
+Exit ~
+door~
+16384 0 13367
+S
+#13369
+Triwizard Tournament and Combat Training Grounds~
+The air is fresh and cool here. The clouds are dark and gray. A thunderstorm
+is approaching.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13384
+D1
+Exit ~
+door~
+16384 0 13370
+D2
+Exit ~
+door~
+16384 0 13362
+D3
+Exit ~
+door~
+16384 0 13368
+S
+#13370
+Triwizard Tournament and Combat Training Grounds~
+Thunder claps overhead.  The sky turns dark and light rain starts to fall.
+The ground is getting slippery and muddy.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13385
+D1
+Exit ~
+door~
+16384 0 13371
+D2
+Exit ~
+door~
+16384 0 13363
+D3
+Exit ~
+door~
+16384 0 13369
+S
+#13371
+Triwizard Tournament and Combat Training Grounds~
+The trees are thick in this area. Hard to see what is behind them.
+Fog is starting to roll into the area. You hear thunder in the distance.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13386
+D1
+Exit ~
+door~
+16384 0 13367
+D2
+Exit ~
+door~
+16384 0 13364
+D3
+Exit ~
+door~
+16384 0 13370
+S
+#13372
+Practice Fighting Room~
+This room is to practice you weapon skills before going to the Combat Training
+Area. You will need to practice your skills to survive.
+~
+0 R 0
+D2
+Exit ~
+door~
+16384 0 13357
+S
+#13373
+Main Bathroom~
+You are in the bathroom on the main floor. Sinks are in the center and the 
+stalls are lined up against the walls. Water has been thrown all over here by
+someone. One bathroom stall is available to the west.
+~
+0 DKW 0
+D2
+Exit ~
+door~
+16387 0 13334
+D3
+Exit ~
+stall door ~
+16385 0 13374
+S
+#13374
+Bathroom Stall~
+You are in a bathroom stall. Water has been thrown everywhere.
+~
+0 0 0
+D1
+Exit ~
+stall door ~
+16387 0 13373
+S
+#13375
+Path to the Forbidden Forest~
+Your on a dark and lonely path. To the west you see a dark, foggy, forest with
+deep shadows through the trees. The path further ahead looks darker, the path 
+south you can see Hagrid's Cabin and more light.
+~
+0 C 3
+D2
+Exit ~
+door~
+16384 0 13330
+D3
+Exit ~
+door~
+16384 0 13380
+S
+#13376
+Path to Diagon Alley~
+The path travels down a small hill. A sweet creek runs by the path. You see a
+few small fish jump in the water. The water is clear and cold.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 13377
+D3
+Exit ~
+door~
+16384 0 13356
+S
+#13377
+Path to Diagon Alley~
+The path levels out here and you emerge from the trees. Lush grass surrounds
+you. A few bushes and flowers sprinkle throughout the grass.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 13378
+D2
+Exit ~
+door~
+16384 0 13376
+S
+#13378
+Path to Diagon Alley~
+The path turns north here, and you see a building in the distance. A sign is
+pointing in that direction.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 13379
+D3
+Exit ~
+door~
+16384 0 13377
+E
+sign~
+The sign reads: The Leaky Cauldron
+~
+S
+#13379
+End of the Path~
+You have come to the end of the path. A building stands to the north.
+~
+0 0 3
+D0
+Exit ~
+door~
+16387 0 13425
+D2
+Exit ~
+door~
+16384 0 13378
+S
+#13380
+Path to the Forbidden Forest~
+Fog rolls out of the forest to you. The air is heavy and moist. You smell decay
+and death. There is no where to go but deeper into the forest or back toward
+Hagrid's Cabin and Hogwart's School.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 13375
+D3
+Exit ~
+door~
+16384 0 13381
+S
+#13381
+Path to the Forbidden Forest~
+The Forbidden Forest looms to the north. The fog is thick and dense among
+the sparse trees. The forest is dark and forboding with shifting shadows.
+Strange sounds echo from within it's borders.
+~
+0 0 3
+D0
+Exit ~
+door~
+16384 0 13585
+D1
+Exit ~
+door~
+16384 0 13380
+S
+#13382
+Triwizard Tournament and Combat Training Grounds~
+The dark clouds have drifted away. The rain is a fine mist and the sun is 
+peeking through the retreating clouds.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13359
+D1
+Exit ~
+door~
+16384 0 13383
+D2
+Exit ~
+door~
+16384 0 13367
+D3
+Exit ~
+door~
+16384 0 13386
+S
+#13383
+Triwizard Tournament and Combat Training Grounds~
+Rain is falling so heavily you can barely see your way through the undergrowth.
+Water is now squishing inside your shoes and your clothes are soaked.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13358
+D1
+Exit ~
+door~
+16384 0 13384
+D2
+Exit ~
+door~
+16384 0 13368
+D3
+Exit ~
+door~
+16384 0 13382
+S
+#13384
+Triwizard Tournament and Combat Training Grounds~
+Rain is falling so heavily you can barely see your way through the undergrowth.
+Thunder shakes the ground, forcing you to grab a tree. Lightning flashes before
+you and strikes the ground shattering a small tree. You are momentarily blinded.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13362
+D1
+Exit ~
+door~
+16384 0 13385
+D2
+Exit ~
+door~
+16384 0 13369
+D3
+Exit ~
+door~
+16384 0 13383
+S
+#13385
+Triwizard Tournament and Combat Training Grounds~
+The trees are thick in this area. Hard to see what is behind them.
+Fog is starting to roll into the area. You hear thunder in the distance.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13365
+D1
+Exit ~
+door~
+16384 0 13386
+D2
+Exit ~
+door~
+16384 0 13370
+D3
+Exit ~
+door~
+16384 0 13384
+S
+#13386
+Triwizard Tournament and Combat Training Grounds~
+The trees are thick in this area. Hard to see what is behind them.
+Fog is starting to roll into the area. You hear thunder in the distance.
+~
+0 0 2
+D0
+Exit ~
+door~
+16384 0 13366
+D1
+Exit ~
+door~
+16384 0 13382
+D2
+Exit ~
+door~
+16384 0 13371
+D3
+Exit ~
+door~
+16384 0 13385
+S
+#13387
+The pathway on the side of Hagrid's Cabin~
+You follow the path around the side of Hagrid's Cabin that is southwest from 
+here. To the west is Hagrid's back yard and to the north of there the path
+contiues to the Forbidden Forest.
+~
+0 0 3
+D2
+Exit ~
+door~
+16384 0 13328
+D3
+Exit ~
+door~
+16384 0 13330
+S
+#13388
+Quidditch Arena~
+You are in the center of the arena. Players are flying above you playing a game
+of Quiddich. The audience is booing you for disrupting the game. You probably 
+should leave.
+~
+0 0 2
+D2
+Exit ~
+door~
+16384 0 13354
+S
+#13389
+The Black Lake~
+A beautiful lake is before you. Maple trees, fir, and oak surround the lake.
+Picnic tables and fire pits are scattered throughout the area.
+Hogwart's is on the shore of the lake. The lake has giant squid, merpeople, and
+very cold waters. A {GSIGN{x is nailed to a tree.
+~
+0 0 3
+D1
+Exit ~
+door~
+16384 0 13353
+D3
+Exit ~
+door~
+16384 0 13390
+E
+sign~
+Species that live in The Black Lake
+Giant Squid - they do not attack humans and act as lifeguards when students enter
+the lake.
+Merpeople - You will probably not run across these as they live in the deepest
+coldest parts of the lake. If found please use caution.
+Fish - There are many fish in this lake. Fishing is allowed. However, you may
+NOT fish the merpeople!
+~
+S
+#13390
+On The Black Lake~
+The water is crystal blue and cold. Fish jump around you biting at insects. It
+is very peaceful here.
+~
+0 0 6
+D0
+Exit ~
+door~
+16384 0 13391
+D1
+Exit ~
+door~
+16384 0 13389
+S
+#13391
+Deep End of the Lake~
+This part of the lake is very deep and very cold. If you were swimming you 
+would get hypothermia.
+~
+0 0 7
+D2
+Exit ~
+door~
+16384 0 13390
+S
+#13392
+Tunnel~
+You are in a dark tunnel.
+~
+0 ACDL 0
+D3
+Exit ~
+door~
+28672 0 13458
+D4
+Exit ~
+door~
+28672 0 13306
+S
+#13393
+Second Floor Bathroom~
+You are in the second floor bathroom. Sinks are in the center of the room and 
+the stalls line the walls. Water has been thrown all over here by someone. One
+stall is to the east.
+~
+0 DKW 0
+D1
+Exit ~
+door~
+16387 0 13394
+D3
+Exit ~
+door~
+16387 0 13315
+S
+#13394
+Bathroom Stall~
+You are in a bathroom stall. Water has been thrown everywhere.
+~
+0 0 0
+D3
+Exit ~
+door~
+16387 0 13393
+S
+#13395
+Third Floor Stairwell~
+This is the stairwell to the third floor. The way up is currently blocked by
+an UNDER CONSTRUCTION - NO ADMITTANCE sign.
+~
+0 D 0
+D1
+Exit ~
+door~
+16384 0 13313
+D2
+Exit ~
+door~
+16384 0 13317
+S
+#0
+
+#RESETS
+D 0 13311   0 17409	* West Main Hallway north
+D 0 13311   1 16384	* West Main Hallway east
+D 0 13311   2 17409	* West Main Hallway south
+D 0 13311   3 17409	* West Main Hallway west
+D 0 13322   1 16384	* Infirmary east
+D 0 13322   3 16384	* Infirmary west
+D 0 13326   0 16384	* Winding Pathway north
+D 0 13326   3 16384	* Winding Pathway west
+D 0 13327   0 16384	* Pathway north
+D 0 13327   2 16384	* Pathway south
+D 0 13328   2 16384	* Hagrid's Front Yard south
+D 0 13328   3 16387	* Hagrid's Front Yard west
+D 0 13332   0 17409	* Mage Laboratory north
+D 0 13334   0 16387	* Hallway West  north
+D 0 13334   1 17409	* Hallway West  east
+D 0 13334   3 16387	* Hallway West  west
+M 0 13308   1 13322  1	* Madam Pomfrey healer
+M 0 13311  11 13328  3	* a {rbaby {Dspider{x
+M 0 13311  11 13328  3	* a {rbaby {Dspider{x
+M 0 13311  11 13328  3	* a {rbaby {Dspider{x
+M 0 13319   1 13344  1	* the Grey Lady
+M 0 13326   1 13355  1	* a {RFirebolt {ybroomstick{x
+M 0 13324   1 13355  1	* a plain broom
+M 0 13311  11 13359  1	* a {rbaby {Dspider{x
+M 0 13330   5 13370  2	* a scavenger rat
+M 0 13330   5 13370  2	* a scavenger rat
+M 0 13311  11 13370  1	* a {rbaby {Dspider{x
+D 0 13312   1 16387	* Eastern Main Hallway east
+D 0 13312   3 16384	* Eastern Main Hallway west
+D 0 13353   1 16387	* Path to the Sport's Arena east
+M 0 13335   2 13348  1	* a medium-sized {yMandrake root{x
+M 0 13335   4 13351  1	* a medium-sized {yMandrake root{x
+M 0 13317   1 13351  1	* the Bloody Baron
+M 0 13320   1 13351  1	* Sir Nicholas
+M 0 13311  11 13367  1	* a {rbaby {Dspider{x
+M 0 13311  11 13368  1	* a {rbaby {Dspider{x
+M 0 13330   5 13368  1	* a scavenger rat
+M 0 13329   5 13368  2	* a small {ymandrake root{x
+M 0 13329   5 13368  2	* a small {ymandrake root{x
+M 0 13335   4 13346  1	* a medium-sized {yMandrake root{x
+M 0 13310   2 13350  1	* a strange {gplant{x
+D 0 13350   1 16387	* West Gate Courtyard east
+D 0 13350   3 16387	* West Gate Courtyard west
+M 0 13310   4 13349  1	* a strange {gplant{x
+M 0 13335   4 13349  1	* a medium-sized {yMandrake root{x
+D 0 13320   0 16387	* North Main Hallway north
+D 0 13320   2 16384	* North Main Hallway south
+D 0 13320   3 16384	* North Main Hallway west
+D 0 13325   1 16384	* Well Travelled Path east
+D 0 13325   2 16387	* Well Travelled Path south
+D 0 13319   1 16385	* Teachers Lounge east
+M 0 13334   1 13373  1	* Cathy the crying ghost
+D 0 13373   2 16387	* Main Bathroom south
+D 0 13373   3 16385	* Main Bathroom west
+M 0 13343   1 13342  1	* a Staff Teacher
+D 0 13342   3 16384	* Staff Crafters 101 west
+M 0 13337   1 13339  1	* the Scribe Teacher
+D 0 13339   1 16384	* Scribe 101 east
+M 0 13313   1 13338  1	* an alchemy teacher
+D 0 13338   3 16384	* Alchemy - Potions and Pills 101 west
+M 0 13312   1 13335  1	* a wand teacher
+D 0 13335   1 16384	* Wands 101 east
+M 0 13318   1 13336  1	* The Fat Frier
+M 0 13336   1 13336  1	* an Enchanter Teacher
+D 0 13336   3 16384	* Enchanting 101 west
+M 0 13327   1 13354  1	* a ticket and broomstick seller
+G 1 13370  -1     	*   a ripped Quidditch ticket
+G 1 13370  -1     	*   a ripped Quidditch ticket
+D 0 13354   2 16384	* Sports Arena south
+D 0 13379   0 16387	* End of the Path north
+D 0 13379   2 16384	* End of the Path south
+D 0 13392   3 28672	* Tunnel west
+D 0 13392   4 28672	* Tunnel up
+M 0 13323   1 13309  1	* a {gslytherin snake{x
+M 0 13304   1 13309  1	* a {Dblack kitten{x
+M 0 13314   1 13309  1	* Scabbers, the rat
+M 0 13315   1 13309  1	* Hedwig, the snowy owl
+M 0 13322   1 13309  1	* Dobby, the house-elf
+D 0 13305   0 16387	* Entrance Gates to School of Magic north
+D 0 13307   0 19457	* Hogwart's Foyer north
+D 0 13307   1 16384	* Hogwart's Foyer east
+D 0 13307   2 16387	* Hogwart's Foyer south
+D 0 13307   3 17409	* Hogwart's Foyer west
+M 0 13303   1 13308  1	* a pet shopkeeper
+D 0 13308   3 16384	* Pet Familiars and Luggage Pick-Up west
+M 0 13329   6 13323  1	* a small {ymandrake root{x
+M 0 13309   1 13323  1	* Professor Sprout
+D 0 13323   3 16384	* Infirmary Supply Room west
+M 0 13321   5 13363  1	* a {Yglow worm{x
+M 0 13329   5 13363  1	* a small {ymandrake root{x
+G 1 13351  -1     	*   a Hogwart's school bracer
+D 0 13363   0 16384	* Triwizard Tournament and Combat Training Grounds north
+D 0 13363   1 16384	* Triwizard Tournament and Combat Training Grounds east
+D 0 13363   2 16384	* Triwizard Tournament and Combat Training Grounds south
+D 0 13363   3 16384	* Triwizard Tournament and Combat Training Grounds west
+M 0 13321   6 13360  1	* a {Yglow worm{x
+D 0 13360   0 16384	* Triwizard Tournament and Combat Training Grounds north
+D 0 13360   1 16384	* Triwizard Tournament and Combat Training Grounds east
+D 0 13360   2 16384	* Triwizard Tournament and Combat Training Grounds south
+M 0 13321   7 13384  1	* a {Yglow worm{x
+G 1 13361  -1     	*   a Hogwart's school shield
+M 0 13339  10 13384  1	* a {Dblack ant{x
+G 1 13352  -1     	*   Hogwart's school belt
+G 1 13353  -1     	*   a Hogwart's school cape
+D 0 13384   1 16384	* Triwizard Tournament and Combat Training Grounds east
+D 0 13384   2 16384	* Triwizard Tournament and Combat Training Grounds south
+D 0 13384   3 16384	* Triwizard Tournament and Combat Training Grounds west
+M 0 13318   2 13341  1	* The Fat Frier
+M 0 13342   1 13341  1	* a Cleric teacher
+D 0 13341   0 16384	* Cleric Studies 101 north
+D 0 13341   1 16384	* Cleric Studies 101 east
+M 0 13330   5 13364  1	* a scavenger rat
+M 0 13321   7 13364  1	* a {Yglow worm{x
+M 0 13339  10 13364  2	* a {Dblack ant{x
+G 1 13354  -1     	*   Hogwart's school sleeves
+M 0 13339  10 13364  2	* a {Dblack ant{x
+G 1 13358  -1     	*   a Hogwart's school hat
+D 0 13364   0 16384	* Triwizard Tournament and Combat Training Grounds north
+D 0 13364   2 16384	* Triwizard Tournament and Combat Training Grounds south
+D 0 13364   3 16384	* Triwizard Tournament and Combat Training Grounds west
+D 0 13365   0 16384	* Triwizard Tournament and Combat Training Grounds north
+D 0 13365   1 16384	* Triwizard Tournament and Combat Training Grounds east
+D 0 13365   3 16384	* Triwizard Tournament and Combat Training Grounds west
+M 0 13330   5 13371  1	* a scavenger rat
+G 1 13351  -1     	*   a Hogwart's school bracer
+M 0 13321   7 13371  1	* a {Yglow worm{x
+M 0 13332   1 13371  1	* a baby Basilisk
+G 1 13345  -1     	*   pixie dust potion
+E 1 13341  -1   16	*   a baby basilisk fang
+D 0 13371   0 16384	* Triwizard Tournament and Combat Training Grounds north
+D 0 13371   2 16384	* Triwizard Tournament and Combat Training Grounds south
+D 0 13371   3 16384	* Triwizard Tournament and Combat Training Grounds west
+M 0 13339  10 13369  2	* a {Dblack ant{x
+G 1 13367  -1     	*   a Hogwart's school flail
+G 1 13353  -1     	*   a Hogwart's school cape
+M 0 13321   7 13369  1	* a {Yglow worm{x
+G 1 13345  -1     	*   pixie dust potion
+M 0 13339  10 13369  2	* a {Dblack ant{x
+G 1 13353  -1     	*   a Hogwart's school cape
+G 1 13352  -1     	*   Hogwart's school belt
+D 0 13369   0 16384	* Triwizard Tournament and Combat Training Grounds north
+D 0 13369   1 16384	* Triwizard Tournament and Combat Training Grounds east
+D 0 13369   2 16384	* Triwizard Tournament and Combat Training Grounds south
+D 0 13369   3 16384	* Triwizard Tournament and Combat Training Grounds west
+M 0 13339  10 13361  1	* a {Dblack ant{x
+G 1 13354  -1     	*   Hogwart's school sleeves
+G 1 13352  -1     	*   Hogwart's school belt
+M 0 13328   4 13361  2	* a {Cpixie{x
+G 1 13345  -1     	*   pixie dust potion
+G 1 13345  -1     	*   pixie dust potion
+M 0 13328   4 13361  2	* a {Cpixie{x
+G 1 13345  -1     	*   pixie dust potion
+G 1 13345  -1     	*   pixie dust potion
+G 1 13365  -1     	*   a Hogwart's school mace
+D 0 13361   0 16384	* Triwizard Tournament and Combat Training Grounds north
+D 0 13361   1 16384	* Triwizard Tournament and Combat Training Grounds east
+D 0 13361   2 16384	* Triwizard Tournament and Combat Training Grounds south
+D 0 13361   3 16384	* Triwizard Tournament and Combat Training Grounds west
+D 0 13314   2 16384	* Second Floor Hallway south
+D 0 13314   3 17409	* Second Floor Hallway west
+D 0 13315   0 16384	* Second Floor Hallway north
+D 0 13315   1 16387	* Second Floor Hallway east
+D 0 13315   3 17409	* Second Floor Hallway west
+M 0 13320   1 13343  1	* Sir Nicholas
+M 0 13316   1 13343  1	* the student waiter
+G 1 13335  -1     	*   steamed {gvegetables{x
+G 1 13326  -1     	*   prime rib of centaur
+G 1 13325  -1     	*   a glass of {rdragon blood {Wmilk{x
+G 1 13324  -1     	*   {yeye of newt pudding{x
+G 1 13327  -1     	*   a glass of {rblood{x
+G 1 13376  -1     	*   a platter of fried trout
+D 0 13343   2 16384	* The Great Hall Dining Room south
+M 0 13339  10 13358  1	* a {Dblack ant{x
+G 1 13354  -1     	*   Hogwart's school sleeves
+M 0 13330   5 13358  1	* a scavenger rat
+D 0 13358   0 16384	* Triwizard Tournament and Combat Training Grounds north
+D 0 13358   3 16384	* Triwizard Tournament and Combat Training Grounds west
+M 0 13333   1 13372  1	* A little kender
+M 0 13330   5 13386  1	* a scavenger rat
+D 0 13386   2 16384	* Triwizard Tournament and Combat Training Grounds south
+D 0 13386   3 16384	* Triwizard Tournament and Combat Training Grounds west
+M 0 13344   3 13385  1	* a {Dswarm of black flies{x
+D 0 13385   1 16384	* Triwizard Tournament and Combat Training Grounds east
+D 0 13385   2 16384	* Triwizard Tournament and Combat Training Grounds south
+D 0 13385   3 16384	* Triwizard Tournament and Combat Training Grounds west
+O 0 13305 100 13307	* a large desk counter
+P 1 13306  -1 13305  1	*   a Hogwart's Student Guide
+O 0 13309 100 13307	* a lost and found box
+O 0 13372 100 13308	* a {Dwizard's satchel{x
+O 0 13313 100 13319	* a strange brew
+O 0 13314 100 13322	* an infirmary bed
+O 0 13318 100 13323	* a white flowering thistle
+O 0 13315 100 13323	* a {Ddark portal{x
+O 0 13377 100 13323	* an {givy plant{x
+O 0 13322 100 13335	* a desk and chair
+O 0 13322 100 13336	* a desk and chair
+O 0 13322 100 13338	* a desk and chair
+O 0 13322 100 13339	* a desk and chair
+O 0 13322 100 13341	* a desk and chair
+O 0 13322 100 13342	* a desk and chair
+O 0 13332 100 13344	* plush couch
+O 0 13333 100 13344	* a huge stone slab fireplace
+O 0 13316 100 13346	* a beautiful hand-carved bench
+O 0 13316 100 13348	* a beautiful hand-carved bench
+O 0 13316 100 13349	* a beautiful hand-carved bench
+O 0 13316 100 13351	* a beautiful hand-carved bench
+O 0 13370 100 13354	* a ripped Quidditch ticket
+O 0 13347 100 13373	* a bathroom sink
+O 0 13371 100 13376	* a clear bubbling creek
+O 0 13342 100 13388	* a {ygolden snitch{x
+O 0 13374 100 13389	* a picnic table
+O 0 13373 100 13389	* a fire pit
+D 0 13383   1 16384	* Triwizard Tournament and Combat Training Grounds east
+D 0 13383   2 16384	* Triwizard Tournament and Combat Training Grounds south
+D 0 13383   3 16384	* Triwizard Tournament and Combat Training Grounds west
+M 0 13321   7 13382  1	* a {Yglow worm{x
+G 1 13357  -1     	*   Hogwart's school leggings
+M 0 13328   4 13382  1	* a {Cpixie{x
+G 1 13365  -1     	*   a Hogwart's school mace
+G 1 13345  -1     	*   pixie dust potion
+G 1 13345  -1     	*   pixie dust potion
+D 0 13382   1 16384	* Triwizard Tournament and Combat Training Grounds east
+D 0 13382   2 16384	* Triwizard Tournament and Combat Training Grounds south
+M 0 13302   1 13306  1	* A whomping willow
+E 1 13348  -1   16	*   a large willow switch
+G 1 13348  -1     	*   a large willow switch
+D 0 13306   0 16387	* Entrance to the School of Magic north
+D 0 13306   1 16384	* Entrance to the School of Magic east
+D 0 13306   3 16384	* Entrance to the School of Magic west
+D 0 13306   5 25601	* Entrance to the School of Magic down
+M 0 13319   1 13331  1	* the Grey Lady
+M 0 13305   1 13331  1	* a student shopkeeper
+G 1 13312  -1     	*   a {ypractice weapon{x
+G 1 13321  -1     	*   {ypractice armor{x
+G 1 13302  -1     	*   a {Dwizard flask{x
+G 1 13310  -1     	*   a {Dmagic {Yglow {Dlamp{x
+G 1 13317  -1     	*   a {Dwizard robe{x
+G 1 13349  -1     	*   {Dwizard sandles{x
+G 1 13307  -1     	*   a {Dwizard hat{x
+G 1 13372  -1     	*   a {Dwizard's satchel{x
+O 0 13331 100 13331	* a {Dgrey portal{x
+O 0 13307 100 13331	* a {Dwizard hat{x
+P 1 13308  -1 13307  1	*   an {rapprentice{x {Ddagger{x
+D 0 13331   1 17409	* Student Supply Room east
+O 0 13344 100 13374	* a toilet
+D 0 13374   1 16387	* Bathroom Stall east
+O 0 13380 100 13310	* foyer sign
+D 0 13310   0 16384	* North End of Foyer north
+D 0 13310   1 16384	* North End of Foyer east
+D 0 13310   2 19457	* North End of Foyer south
+D 0 13310   3 16384	* North End of Foyer west
+D 0 13310   4 16384	* North End of Foyer up
+M 0 13307   1 13321  1	* Hogwart's Master Trainer
+O 0 13346 100 13321	* Hogwart's Schoolbook
+D 0 13321   1 16384	* Library east
+M 0 13328   4 13362  1	* a {Cpixie{x
+G 1 13345  -1     	*   pixie dust potion
+G 1 13345  -1     	*   pixie dust potion
+O 0 13381 100 13362	* a natural spring pool
+D 0 13362   0 16384	* Triwizard Tournament and Combat Training Grounds north
+D 0 13362   1 16384	* Triwizard Tournament and Combat Training Grounds east
+D 0 13362   3 16384	* Triwizard Tournament and Combat Training Grounds west
+M 0 13344   4 13330  1	* a {Dswarm of black flies{x
+M 0 13311  11 13330  2	* a {rbaby {Dspider{x
+M 0 13311  11 13330  2	* a {rbaby {Dspider{x
+O 0 13320 100 13330	* debris
+P 1 13329  -1 13320  1	*   a {rspider {Dring{x
+D 0 13330   0 16384	* Hagrid's Back Yard north
+D 0 13330   1 16384	* Hagrid's Back Yard east
+D 0 13330   2 16387	* Hagrid's Back Yard south
+M 0 13319   1 13333  1	* the Grey Lady
+D 0 13333   0 16384	* Classroom Area for Beginners north
+D 0 13333   1 16384	* Classroom Area for Beginners east
+D 0 13333   2 17409	* Classroom Area for Beginners south
+D 0 13333   3 16384	* Classroom Area for Beginners west
+D 0 13333   5 16384	* Classroom Area for Beginners down
+O 0 13343 100 13357	* a {Rred sign{x
+O 0 13379 100 13357	* a {rred portal{x
+D 0 13357   0 16384	* Portal To Triwizard Tounament and Combat Training Grounds north
+D 0 13357   4 16384	* Portal To Triwizard Tounament and Combat Training Grounds up
+O 0 13382 100 13366	* school portal
+D 0 13366   0 16384	* Triwizard Tournament and Combat Training Grounds north
+D 0 13366   1 16384	* Triwizard Tournament and Combat Training Grounds east
+D 0 13366   2 16384	* Triwizard Tournament and Combat Training Grounds south
+D 0 13366   3 16384	* Triwizard Tournament and Combat Training Grounds west
+M 0 13345   1 13324  1	* a {Mpurple frog{x
+M 0 13310   4 13324  1	* a strange {gplant{x
+G 1 13318  -1     	*   a white flowering thistle
+O 0 13316 100 13324	* a beautiful hand-carved bench
+D 0 13324   0 16387	* North Gates Courtyard north
+D 0 13324   1 16384	* North Gates Courtyard east
+D 0 13324   2 16385	* North Gates Courtyard south
+D 0 13324   3 16384	* North Gates Courtyard west
+M 0 13345   2 13347  1	* a {Mpurple frog{x
+M 0 13310   4 13347  1	* a strange {gplant{x
+O 0 13316 100 13347	* a beautiful hand-carved bench
+D 0 13347   0 16384	* East Gate Courtyard north
+D 0 13347   1 16387	* East Gate Courtyard east
+D 0 13347   2 16384	* East Gate Courtyard south
+D 0 13347   3 16387	* East Gate Courtyard west
+M 0 13346   1 13300  1	* a lost girl
+E 1 13383  -1   18	*   a dragon balloon
+O 0 13300 100 13300	* a {Cshimmering sign{x
+D 0 13300   0 24576	* Train Station north
+M 0 13318   2 13316  1	* The Fat Frier
+M 0 13306   1 13316  1	* an administrative secretary
+E 1 13339  -1   17	*   Administrator's Office Key
+O 0 13336 100 13316	* A large mahogany desk
+P 1 13337  -1 13336  1	*   a teacher's lounge key
+D 0 13316   0 16487	* Administration Offices Main Office. north
+D 0 13316   1 16387	* Administration Offices Main Office. east
+D 0 13316   2 16384	* Administration Offices Main Office. south
+D 0 13316   3 16391	* Administration Offices Main Office. west
+D 0 13304   1 16387	* Inside the Carriage east
+M 0 13338   1 13302  1	* the Welcoming Wizard
+D 0 13302   1 16387	* Inside the Train east
+M 0 13301   2 13303  1	* Baldric the hunter
+E 1 13304  -1   16	*   {DBaldric's Dagger{x
+G 1 13304  -1     	*   {DBaldric's Dagger{x
+D 0 13303   0 16384	* School of Magic Train Platform north
+M 0 13301   2 13329  1	* Baldric the hunter
+E 1 13304  -1   16	*   {DBaldric's Dagger{x
+G 1 13304  -1     	*   {DBaldric's Dagger{x
+O 0 13319 100 13329	* a black cauldron
+P 1 13328  -1 13319  1	*   a bowl of Hagrid's Stew
+O 0 13378 100 13329	* large table and chair
+D 0 13329   0 16387	* Inside Hagrid's Cabin north
+D 0 13329   1 16387	* Inside Hagrid's Cabin east
+D 0 13391   2 16384	* Deep End of the Lake south
+M 0 13325   1 13318  1	* School's mascot {RP{yh{Ro{Ye{Rn{Yi{Rx{x
+O 0 13375 100 13318	* a mysterious portal
+O 0 13340 100 13318	* A large bird stand 
+O 0 13338 100 13318	* A large mahogany desk
+D 0 13318   2 16487	* School Administrator's Office south
+O 0 13322 100 13352	* a desk and chair
+D 0 13352   3 16387	* Detention Room west
+D 0 13393   1 16387	* Second Floor Bathroom east
+D 0 13393   3 16387	* Second Floor Bathroom west
+M 0 13334   2 13394  1	* Cathy the crying ghost
+O 0 13344 100 13394	* a toilet
+D 0 13394   3 16387	* Bathroom Stall west
+D 0 13317   1 17409	* Second Floor Hallway east
+M 0 13318   2 13313  1	* The Fat Frier
+D 0 13313   0 16384	* Second Floor Hallway north
+D 0 13313   1 17409	* Second Floor Hallway east
+D 0 13313   3 16384	* Second Floor Hallway west
+D 0 13313   5 16384	* Second Floor Hallway down
+D 0 13395   1 16384	* Third Floor Stairwell east
+D 0 13381   0 16384	* Path to the Forbidden Forest north
+D 0 13381   1 16384	* Path to the Forbidden Forest east
+M 0 13300   1 13301  1	* a baggage man
+G 1 13301  -1     	*   a {cboarding pass{x
+G 1 13372  -1     	*   a {Dwizard's satchel{x
+G 1 13302  -1     	*   a {Dwizard flask{x
+G 1 13303  -1     	*   a {ycream puff{x
+G 1 13311  -1     	*   {rbeef jerky{x
+G 1 13310  -1     	*   a {Dmagic {Yglow {Dlamp{x
+D 0 13301   2 16384	* Train Station Platform south
+S
+
+#SHOPS
+13300  0  0  0  0  0 	 100 100 	 0 23 	* a baggage man
+13303 -1  0  0  0  0 	 100 100 	 0 24 	* a pet shopkeeper
+13305  0  0  0  0  0 	 100 100 	 0 23 	* a student shopkeeper
+13309  0  0  0  0  0 	 100 100 	 0 23 	* Professor Sprout
+13316  0  0  0  0  0 	 100 100 	 0 23 	* the student waiter
+13327 -1  0  0  0  0 	 100 100 	 0 23 	* a ticket and broomstick seller
+0
+
+#SPECIALS
+M 13300 spec_jabber         	* a baggage man
+M 13303 spec_cast_mage      	* a pet shopkeeper
+M 13305 spec_cast_mage      	* a student shopkeeper
+M 13311 spec_poison         	* a {rbaby {Dspider{x
+M 13322 spec_cast_mage      	* Dobby, the house-elf
+M 13325 spec_breath_fire    	* School's mascot {RP{yh{Ro{Ye{Rn{Yi{Rx{x
+M 13327 spec_jabber         	* a ticket and broomstick seller
+M 13332 spec_poison         	* a baby Basilisk
+M 13334 spec_jabber         	* Cathy the crying ghost
+M 13338 spec_jabber         	* the Welcoming Wizard
+M 13341 spec_poison         	* REUSE THIS MOB VNUM
+S
+
+#$

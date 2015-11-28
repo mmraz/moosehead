@@ -1,0 +1,590 @@
+#AREA
+../newareas/seog1.are~
+Cave of Ancients~
+{ all } Seog    Cave of Ancients~
+17500 17522
+
+#MOBILES
+#17500
+cave worm~
+an ancient cave worm~
+An ancient cave worm crawls here.
+~
+This worm is mottled and grey, with irregular growths on it.  Though
+it seems racked with age, it appears to be in good health...for a worm.
+~
+unique~
+~
+(null)~
+(null)~
+ABCH J 0 0
+14 0 3d9+208 0d9+100 1d6+1 bite
+9 9 9 10
+EFNRU A Q HJP
+stand stand male 0
+AHMOV ACFJ small 0
+#17501
+cave roach~
+a cave roach~
+A cave roach skitters here.
+~
+This little cave roach appears harmless.
+~
+fido~
+(null)~
+(null)~
+(null)~
+ACT D 0 0
+1 100 6d1+0 0d0+0 1d1+0 bite
+-50 50 -50 0
+LNU ABK JR 0
+stand stand none 0
+HO B small 0
+F vul C
+F for GV
+F par DHJQV
+#17502
+bear~
+an ancient bear~
+An ancient bear has made his home here.
+~
+This is no ordinary bear.  You sense that it has been here for centuries,
+if not millennia.
+~
+bear~
+Who disturbs my slumber?~
+Leave me in peace.~
+Who disturbs my slumber?~
+ABG a 10 0
+11 0 2d7+150 4d9+100 1d7+2 claw
+3 3 3 9
+ACFN 0 0 C
+sit sit none 0
+0 0 huge 0
+#17503
+ancient guardian~
+the ancient guardian~
+The first ancient guardian stands here.
+~
+He looks weary from ages passed while bound to his duty.
+~
+human~
+Turn back now!~
+Level two lies below...but do not venture there.~
+Do not disturb the ancients!~
+ABCS DFZ 0 0
+8 1 6d8+80 1d1+99 1d5+1 punch
+2 4 3 7
+EFJN ABFG 0 CH
+stand stand either 0
+0 0 medium 0
+#0
+
+#OBJECTS
+#17500
+roach resin~
+some roach resin~
+Some roach resin, ripped from an unfortunate cave roach, is here.~
+food~
+pill HZ A
+10 'cure light' 'cure light' 'faerie fire' ''
+1 1 1 P
+#17501
+gland~
+a worm gland~
+A gland from a deceased cave worm is here.~
+food~
+pill 0 A
+11 'refresh' 'armor' 'feast' ''
+1 1 1 P
+#17502
+bear feet~
+bear feet~
+The feet of an ancient bear are here.~
+fur~
+clothing GS AG
+0 0 0 0 0
+5 40 0 P
+A
+18 2
+A
+12 -20
+A
+13 15
+A
+1 1
+#17503
+old felt pants~
+some old felt pants~
+Some old felt pants are here.~
+felt~
+clothing 0 AF
+0 0 0 0 0
+8 100 660 P
+A
+18 1
+A
+12 10
+#17504
+key second~
+a small key~
+The key to the second level is here.~
+bronze~
+key U AO
+0 0 0 0 0
+1 100 0 P
+#0
+
+#ROOMS
+#17500
+Cave entrance~
+You stand in the entrance to a cave.  Something ominous can be felt
+further into the cave, though no sound can be heard.  It is quite
+dark, and your light seems somehow inadequate to dispell the
+shadows.  Wisdom tells you to turn back now...
+~
+0 CD 0
+B 3001
+D0
+Exit ~
+door~
+16384 0 17501
+S
+#17501
+Inside the cave~
+Once inside the cave, you begin to realize that the cavern
+is truly vast.  The blackness suggests an ominous depth.
+In addition to the stifling dark, the presence of things
+ancient and forgotten can be felt.
+~
+0 ADNT 0
+D0
+Exit ~
+door~
+16384 0 17502
+D1
+Exit ~
+door~
+16384 0 17507
+D2
+Exit ~
+door~
+16384 0 17500
+D3
+Exit ~
+door~
+16384 0 17503
+S
+#17502
+Inside a cave~
+You are surrounded by ominous, stifling blackness.  An
+ancient presence can be felt somewhere, perhaps far
+below in the depths of the earth.
+~
+0 ADNT 0
+D0
+Exit ~
+door~
+16384 0 17506
+D1
+Exit ~
+door~
+16384 0 17508
+D2
+Exit ~
+door~
+16384 0 17501
+D3
+Exit ~
+door~
+16384 0 17504
+S
+#17503
+Inside a cave~
+You are surrounded by ominous, stifling blackness.  An
+ancient presence can be felt somewhere, perhaps far
+below in the depths of the earth.
+~
+0 ADNT 0
+D0
+Exit ~
+door~
+16384 0 17504
+D1
+Exit ~
+door~
+16384 0 17501
+S
+#17504
+Inside a cave~
+You are surrounded by ominous, stifling blackness.  An
+ancient presence can be felt somewhere, perhaps far
+below in the depths of the earth.
+~
+0 ADNT 0
+D0
+Exit ~
+door~
+16384 0 17505
+D1
+Exit ~
+door~
+16384 0 17502
+D2
+Exit ~
+door~
+16384 0 17503
+D3
+Exit ~
+door~
+16384 0 17509
+S
+#17505
+Inside a cave~
+You are surrounded by ominous, stifling blackness.  An
+ancient presence can be felt somewhere, perhaps far
+below in the depths of the earth.
+~
+0 ADNT 0
+D1
+Exit ~
+door~
+16384 0 17506
+D2
+Exit ~
+door~
+16384 0 17504
+S
+#17506
+Inside a cave~
+You are surrounded by ominous, stifling blackness.  An
+ancient presence can be felt somewhere, perhaps far
+below in the depths of the earth.
+~
+0 ADNT 0
+D2
+Exit ~
+door~
+16384 0 17502
+D3
+Exit ~
+door~
+16384 0 17505
+S
+#17507
+Inside a cave~
+You are surrounded by ominous, stifling blackness.  An
+ancient presence can be felt somewhere, perhaps far
+below in the depths of the earth.
+~
+0 ADNT 0
+D0
+Exit ~
+door~
+16384 0 17508
+D3
+Exit ~
+door~
+16384 0 17501
+S
+#17508
+Inside a cave~
+You are surrounded by ominous, stifling blackness.  An
+ancient presence can be felt somewhere, perhaps far
+below in the depths of the earth.
+~
+0 ADNT 0
+D0
+Exit ~
+door~
+16384 0 17510
+D2
+Exit ~
+door~
+16384 0 17507
+D3
+Exit ~
+door~
+16384 0 17502
+S
+#17509
+A steep slope~
+The ground here slopes sharply down.  It looks like you can
+manage it safely if you'd like to try it...but who knows
+what dangers could lurk below?
+There is a sign here that a long forgotton adventurer must
+have left...
+~
+0 ADNT 0
+D1
+Exit ~
+door~
+16384 0 17504
+D5
+Exit ~
+grate~
+16487 17504 17511
+E
+sign~
+The sign reads:
+To level two.  Turn back now!
+~
+S
+#17510
+Inside a cave~
+You are surrounded by ominous, stifling blackness.  An
+ancient presence can be felt somewhere, perhaps far
+below in the depths of the earth.
+A tunnel leads north.
+~
+0 ADNT 0
+D0
+Exit ~
+door~
+16384 0 17512
+D2
+Exit ~
+door~
+16384 0 17508
+S
+#17511
+Inside a cave~
+You are surrounded by ominous, stifling blackness.  An
+ancient presence can be felt somewhere, perhaps far
+below in the depths of the earth.
+~
+0 ADNT 0
+D4
+Exit ~
+grate~
+16487 17504 17509
+S
+#17512
+A short tunnel~
+You are surrounded by ominous, stifling blackness.  An
+ancient presence can be felt somewhere, perhaps far
+below in the depths of the earth.
+To north the air seems cool and moist.
+~
+0 ADNT 0
+D0
+Exit ~
+door~
+16384 0 17513
+D2
+Exit ~
+door~
+16384 0 17510
+S
+#17513
+Dark water~
+You are in cold, dark water inside a cave.  From time
+to time you can hear distant splashes.  The water isn't
+very deep, but there's no telling what could lurk
+nearby!
+~
+0 ADNT 6
+D1
+Exit ~
+door~
+16384 0 17514
+D2
+Exit ~
+door~
+16384 0 17512
+D3
+Exit ~
+door~
+16384 0 17522
+S
+#17514
+Dark water~
+You are in cold, dark water inside a cave.  From time
+to time you can hear distant splashes.  The water isn't
+very deep, but there's no telling what could lurk
+nearby!
+~
+0 ADNT 6
+D1
+Exit ~
+door~
+16384 0 17515
+D3
+Exit ~
+door~
+16384 0 17513
+S
+#17515
+Dark water~
+You are in cold, dark water inside a cave.  From time
+to time you can hear distant splashes.  The water isn't
+very deep, but there's no telling what could lurk
+nearby!
+~
+0 ADNT 6
+D0
+Exit ~
+door~
+16384 0 17516
+D3
+Exit ~
+door~
+16384 0 17514
+S
+#17516
+Dark water~
+You are in cold, dark water inside a cave.  From time
+to time you can hear distant splashes.  The water isn't
+very deep, but there's no telling what could lurk
+nearby!
+~
+0 ADNT 6
+D0
+Exit ~
+door~
+16384 0 17517
+D2
+Exit ~
+door~
+16384 0 17515
+S
+#17517
+Dark water~
+You are in cold, dark water inside a cave.  From time
+to time you can hear distant splashes.  The water isn't
+very deep, but there's no telling what could lurk
+nearby!
+~
+0 ADNT 6
+D2
+Exit ~
+door~
+16384 0 17516
+D3
+Exit ~
+door~
+16384 0 17518
+S
+#17518
+Dark water~
+You are in cold, dark water inside a cave.  From time
+to time you can hear distant splashes.  The water isn't
+very deep, but there's no telling what could lurk
+nearby!
+~
+0 ADNT 6
+D1
+Exit ~
+door~
+16384 0 17517
+D3
+Exit ~
+door~
+16384 0 17519
+S
+#17519
+Dark water~
+You are in cold, dark water inside a cave.  From time
+to time you can hear distant splashes.  The water isn't
+very deep, but there's no telling what could lurk
+nearby!
+~
+0 ADNT 6
+D1
+Exit ~
+door~
+16384 0 17518
+D3
+Exit ~
+door~
+16384 0 17520
+S
+#17520
+Dark water~
+You are in cold, dark water inside a cave.  From time
+to time you can hear distant splashes.  The water isn't
+very deep, but there's no telling what could lurk
+nearby!
+~
+0 ADNT 6
+D1
+Exit ~
+door~
+16384 0 17519
+D2
+Exit ~
+door~
+16384 0 17521
+S
+#17521
+Dark water~
+You are in cold, dark water inside a cave.  From time
+to time you can hear distant splashes.  The water isn't
+very deep, but there's no telling what could lurk
+nearby!
+~
+0 ADNT 6
+D0
+Exit ~
+door~
+16384 0 17520
+D2
+Exit ~
+door~
+16384 0 17522
+S
+#17522
+Dark water~
+You are in cold, dark water inside a cave.  From time
+to time you can hear distant splashes.  The water isn't
+very deep, but there's no telling what could lurk
+nearby!
+~
+0 ADNT 6
+D0
+Exit ~
+door~
+16384 0 17521
+D1
+Exit ~
+door~
+16384 0 17513
+S
+#0
+
+#RESETS
+M 0 17501   1 17500  1	* a cave roach
+G 1 17500  -1     	*   some roach resin
+M 0 17501   2 17501  1	* a cave roach
+G 1 17500  -1     	*   some roach resin
+M 0 17500   0 17502  2	* an ancient cave worm
+G 1 17501  -1     	*   a worm gland
+M 0 17500   0 17502  2	* an ancient cave worm
+G 1 17501  -1     	*   a worm gland
+M 0 17500   1 17503  1	* an ancient cave worm
+G 1 17501  -1     	*   a worm gland
+M 0 17501   3 17504  1	* a cave roach
+G 1 17500  -1     	*   some roach resin
+M 0 17500   2 17505  1	* an ancient cave worm
+G 1 17501  -1     	*   a worm gland
+M 0 17502   1 17506  1	* an ancient bear
+E 1 17502  -1    8	*   bear feet
+M 0 17500   3 17508  1	* an ancient cave worm
+G 1 17501  -1     	*   a worm gland
+M 0 17503   1 17509  1	* the ancient guardian
+E 1 17504  -1   17	*   a small key
+E 1 17503  -1    7	*   some old felt pants
+D 0 17509   1 16384	* A steep slope east
+D 0 17509   5 16487	* A steep slope down
+D 0 17511   4 16487	* Inside a cave up
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 17502 spec_average        	* an ancient bear
+M 17503 spec_average        	* the ancient guardian
+S
+
+#$

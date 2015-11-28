@@ -1,0 +1,100 @@
+Label room_1
+Type 33
+Name Slacker Central~
+Desc Here is where the Slackers come to lick their wounds. You see nothing of
+particular interest in the room other than a few sleeping pads here and there.
+~
+Index 401
+Cost 7000
+Flags 1
+Opt 4 4
+Loc 0
+#End
+Label goodies
+Type 33
+Name Goodies for Slackers~
+Desc Here you seea nearly empty room, save for a lazy looking peddler in the corner.
+~
+Index 402
+Cost 1000
+Flags 0
+Opt 0 0
+Loc 0
+#End
+Label west
+Type 33
+Name Slacker West~
+Desc Here is the western wing of Slacker hall. On the floor you see various bits of
+trash and other items which you can't distinguish.
+~
+Index 403
+Cost 8000
+Flags 18
+Opt 3 0
+Loc 0
+#End
+Label mob_1
+Type 34
+Name adept of slacking~
+Short An Adept of Slacking~
+Long The Adept of Slacking is here, wondering why you're doing anything.~
+Desc A tall ogre stands here, looking very lazy. He peers at you with a boggled look
+on his face.
+~
+Index 401
+Cost 88000
+Flags 2
+Opt 15 6
+Loc 401
+#End
+Label item_1
+Type 20
+Name pit fire~
+Short A poorly upkept fire pit.~
+Long A fire pit is here, with no fire in it.~
+Index 401
+Cost 2000
+Flags 32
+Opt 0 0
+Loc 401
+Review
+#End
+Label item_2
+Type 36
+Name fire pit~
+Short A poorly kept fire pit~
+Long A poorly kept fire pit lays here, someone forgot to add wood.~
+Index 402
+Cost 2000
+Flags 32
+Opt 0 0
+Loc 401
+#End
+Label item_3
+Type 36
+Name portal new thalos~
+Short A portal to New Thalos~
+Long A portal leading to New Thalos sits here, humming softly.~
+Index 403
+Cost 2000
+Flags 1
+Opt 9606 0
+Loc 403
+#End
+Label item_4
+Type 36
+Name leather recliner~
+Short A row of leather recliners~
+Long A row of leather recliners is here looking awfully comfortable.~
+Index 404
+Cost 2000
+Flags 4
+Opt 0 0
+Loc 401
+#End
+Exit 0 401 -1 -1 930
+Exit 1 401 402 -1 -1
+Exit 3 401 403 -1 -1
+Exit 3 402 401 -1 -1
+Exit 1 403 401 -1 -1
+#End

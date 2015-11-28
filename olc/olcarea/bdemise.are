@@ -1,0 +1,104 @@
+#AREA
+/mud/moosehead/area/bdemise.are~
+bdemise~
+{ All } MHS     Demise Branch Halls~
+25500 25504
+
+#MOBILES
+#25500
+Demise Hall Guard~
+A Demise Hall Guard~
+A Demise Hall Guard stands here, pledging his service to Cthon.
+~
+This guard lives to defend Demise and its holdings.
+~
+unique~
+(null)~
+(null)~
+(null)~
+ABTV 0 0 0
+40 15 15d10+4000 25d10+2250 6d6+16 thwack
+-1 -1 -1 -1
+CEFNU AB 0 0
+stand stand male 0
+AHMV ABCDEF medium 0
+#0
+
+#OBJECTS
+#25500
+helm of cthon~
+a helm of Cthon~
+A dark metal helm of Cthon sits here looking evil.~
+evil~
+armor G AE
+10 10 10 5 0
+30 100 0 P
+#25501
+black leather boots~
+a pair of black leather boots~
+A pair of black leather boots has been left here.~
+leather~
+armor S AG
+9 9 8 7 0
+30 60 0 P
+#25502
+dark metal shield cthon~
+a dark metal shield of Cthon~
+A dark metal shield of Cthon is looking more evil than the Helm of Cthon.~
+metal~
+armor G AJ
+10 10 10 10 0
+30 100 0 P
+#25503
+black leather vest~
+a black leather vest~
+This black leather vest is extremely evil.~
+leather~
+armor S AD
+10 10 10 5 0
+30 50 0 P
+#25504
+black metal leggings~
+black metal leggings~
+A pair of black metal leggins lies here.~
+obsidian~
+armor G AF
+9 9 9 3 0
+30 400 0 P
+#0
+
+#ROOMS
+#25500
+Demise Branch Hall~
+If you can read this, it means your clan leader hasn't submitted
+a description for this room.  This space intentionally left blank.
+~
+0 CDNY 0
+D1
+Exit ~
+door~
+16385 0 10540
+D5
+Exit ~
+demise~
+24643 0 31400
+S
+#0
+
+#RESETS
+M 0 25500   1 25500  1	* A Demise Hall Guard
+E 1 25500  -1    6	*   a helm of Cthon
+E 1 25501  -1    8	*   a pair of black leather boots
+E 1 25503  -1    5	*   a black leather vest
+E 1 25504  -1    7	*   black metal leggings
+D 0 25500   1 16385	* Demise Branch Hall east
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 25500 spec_demise_guard   	* A Demise Hall Guard
+S
+
+#$

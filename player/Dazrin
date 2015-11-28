@@ -1,8 +1,9 @@
 #PLAYER
 Name Dazrin~
+SurN Drak'arden~
 Id   772351413
 Email (null)~
-LogO 1061207870
+LogO 1308843077
 Vers 31
 LnD  No other characters.
 ~
@@ -11,7 +12,7 @@ Desc A tall gold elf stands before you gazing at you with penetrating green eyes
 his shoulders framing his delicate features. His skin is a rich copper brown
 both from his golden elf heritage and from being in the sun.
 ~
-Prom Zone: %z>%cRoom #: %R> ~
+Prom %c%r in %z #%R Exits: %e>%c%h/%Hhp %m/%Mm %v/%Vmv> ~
 Race elf~
 Outc 0
 RufT 0
@@ -40,41 +41,43 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
+LastHost 86.16.146.158~
 Cla  3
 ClaO 3
 Levl 52
 DLevl 0
-Plyd 8246295
-Not  892947864 892993763 892964744 893049903 892002684 892977741 0 0 0 0
+Plyd 8296253
+Not  1308757301 892993763 892964744 893049903 892002684 1308699374 0 0 0 0
 Scro 18
 Rank 5
 Room 22020
-HMV  887 887 483 483 422 422
+HMV  897 897 488 488 422 422
 Gold 3326
 Silv 2930
 Exp  78000
 Act  BCDEFGHNQST
 AfBy JTV
-Comm DFIJORS
+Comm FJOSZ
 Disp AFGHJ
 IcgB 0
 Icg 0
 Wizn CDEFIJLRSTU
-Pos  5
+Pos  6
 Prac 451
-Trai 123
+Trai 126
+SkiP 4
 Alig  804
-Hit   1
-Dam   5
-SecHit   1
-SecDam   5
-ACs 85 88 91 103
-Attr 25 25 25 25 25 13 13 13
-AMod 0 0 -1 0 0 0 0 0
-Pass DaxH5pD.TfKKe~
+Hit   27
+Dam   45
+SecHit   6
+SecDam   24
+ACs 5 2 3 70
+Attr 25 25 25 25 25 11 12 13
+AMod 9 0 -2 0 0 0 0 0
+Pass DaQphL8F9czWw~
 Bin  A small localised rain of tears falls about you briefly forming a small rose. The rose slowly transforms into Dazrin, the God of Depression.~
 Bout Dazrin has left the game.~
-Titl  the Ex-God of Depression.~
+Titl  the God of Depression~
 Pnts 45
 TSex 1
 LLev 2276
@@ -87,8 +90,8 @@ Alias 3 c heal~
 Alias 1 get all~
 Alias d disarm~
 Alias div tag diva~
-Macro eiram at eiram sweep eiram;tell eiram hello sexy~
 Macro shutup $1; nochannel $1; noemote $1; noshout $1; notell $1~
+Macro eiram at eiram sweep eiram;tell eiram hello sexy~
 Sk 100 'reserved'
 Sk 100 'acid blast'
 Sk 100 'armor'
@@ -284,25 +287,8 @@ Name bracer melikki~
 ShD  a shiny bracer of the Harpers~
 Desc A shiny bracer emminating goodness is here. It has a strange symbol.~
 Cond 0
-Wear -1
+Wear 15
 Cost 0
-End
-
-#O
-Vnum 10442
-Enchanted
-Nest 0
-PrevOwner (null)~
-Name leather armor~
-ShD  a suit of weathered leather armor~
-Desc This is a remarkable suit of leather armor. Despite its obvious long use, it is still in top condition and, although made of leather, you just know it is very strong.~
-ExtF 65
-Cond 0
-Wear -1
-Lev  50
-Cost 13700
-Affc 'reserved'   1  45  -1   2  18          0
-Affc 'enchant armor'   1  41  -1  -7  17          0
 End
 
 #O
@@ -313,7 +299,7 @@ Name small wooden buckler~
 ShD  a small wooden buckler bearing the symbol of Melikki~
 Desc A small wooden shield lies here bearing the symbol of Melikki.~
 Cond 0
-Wear -1
+Wear 11
 Cost 5900
 End
 
@@ -325,7 +311,7 @@ Name bracer shiny~
 ShD  a bracer of Melikki~
 Desc A well-made bracer bearing a strange symbol lies here.~
 Cond 0
-Wear -1
+Wear 14
 Cost 1870
 End
 
@@ -337,7 +323,7 @@ Name armplates leather~
 ShD  old weathered leather armplates~
 Desc Some well-worn leather armplates lie here.~
 Cond 0
-Wear -1
+Wear 10
 Cost 3100
 End
 
@@ -349,7 +335,7 @@ Name doe-skin leather breeches~
 ShD  soft doe-skin leather breeches~
 Desc Finely made breeches from the skin of an animal lie here.~
 Cond 0
-Wear -1
+Wear 7
 Cost 0
 End
 
@@ -460,19 +446,6 @@ Cost 0
 End
 
 #O
-Vnum 6517
-Nest 1
-PrevOwner (null)~
-Name book pictures~
-ShD  a book of pictures~
-Desc A sorely needed mark from one of the Imm's papers.~
-Wt   1
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 1001
 Nest 1
 PrevOwner (null)~
@@ -553,9 +526,9 @@ Cond 0
 Wear -1
 Lev  22
 Cost 650
-Affc 'enchant armor'   1  41  -1  -5  17          0
-Affc 'reserved'   1  18  -1   1  18          0
 Affc 'reserved'   1  18  -1   2  19          0
+Affc 'reserved'   1  18  -1   1  18          0
+Affc 'enchant armor'   1  41  -1  -5  17          0
 End
 
 #O
@@ -578,10 +551,10 @@ Cond 0
 Wear -1
 Lev  40
 Cost 34000
-Affc 'enchant weapon'   0  51  -1   5  18          0
-Affc 'enchant weapon'   1  51  -1   5  19          0
-Affc 'reserved'   0  35  -1   0   0          4
 Affc 'reserved'   1  35  -1   2   2          0
+Affc 'reserved'   0  35  -1   0   0          4
+Affc 'enchant weapon'   1  51  -1   5  19          0
+Affc 'enchant weapon'   0  51  -1   5  18          0
 End
 
 #O
@@ -637,6 +610,31 @@ Cost 0
 End
 
 #O
+Vnum 1001
+Nest 1
+PrevOwner (null)~
+Name wedding certificate Eiram Dazrin~
+ShD  Eiram and Dazrin's wedding certificate~
+Desc On this Day of the Moon, 14th the Month of the Winter Wolf, Eiram and Dazrin    were joined as one in matrimony.  The service was performed by Palin, and was   witnessed by TallTree and Krantzstone. [Sept. 12/95]~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 6517
+Nest 1
+PrevOwner (null)~
+Name book pictures~
+ShD  a book of pictures~
+Desc A sorely needed mark from one of the Imm's papers.~
+Wt   1
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
 Vnum 6517
 Nest 1
 PrevOwner (null)~
@@ -653,18 +651,6 @@ ExDe dazrin's~ Business Card reads: Dazrin, SLED Psychologist and Depressant (or
 End
 
 #O
-Vnum 1001
-Nest 1
-PrevOwner (null)~
-Name wedding certificate Eiram Dazrin~
-ShD  Eiram and Dazrin's wedding certificate~
-Desc On this Day of the Moon, 14th the Month of the Winter Wolf, Eiram and Dazrin    were joined as one in matrimony.  The service was performed by Palin, and was   witnessed by TallTree and Krantzstone. [Sept. 12/95]~
-Cond 0
-Wear -1
-Cost 0
-End
-
-#O
 Vnum 18110
 Nest 0
 PrevOwner (null)~
@@ -672,7 +658,7 @@ Name boots leather riding~
 ShD  elven leather boots of silence~
 Desc These boots are made of soft leather and have been finely crafted by the elves to produce no sound.~
 Cond 0
-Wear -1
+Wear 8
 Cost 2400
 End
 
@@ -696,7 +682,7 @@ Name necklace~
 ShD  a necklace bearing the holy symbol of Melikki~
 Desc A strange necklace lies here. It radiates power and goodness.~
 Cond 0
-Wear -1
+Wear 3
 Cost 1500
 End
 
@@ -710,11 +696,11 @@ ShD  a leather belt and scabbard~
 Desc A simple and plain leather belt is here. There is a ornately carved scabbard attatched to it. The name 'Dazrin' has been written on the belt.~
 ExtF 64
 Cond 0
-Wear -1
+Wear 13
 Lev  30
 Cost 3500
-Affc 'reserved'   1  27  -1   2  19          0
 Affc 'enchant armor'   1  41  -1  -3  17          0
+Affc 'reserved'   1  27  -1   2  19          0
 End
 
 #O
@@ -727,12 +713,12 @@ ShD  soft elven leather gloves~
 Desc You see a pair of soft leather gloves. Elven craftsmen have done a superb job making them.~
 ExtF 67
 Cond 0
-Wear -1
+Wear 9
 Lev  25
 Cost 5800
-Affc 'reserved'   1  23  -1   2   1          0
-Affc 'reserved'   1  23  -1   2  19          0
 Affc 'enchant armor'   1  41  -1  -3  17          0
+Affc 'reserved'   1  23  -1   2  19          0
+Affc 'reserved'   1  23  -1   2   1          0
 End
 
 #O
@@ -1029,7 +1015,7 @@ Vnum 10429
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 2
 Cost 2700
 End
 
@@ -1084,7 +1070,7 @@ Vnum 21
 Nest 0
 PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 0
 Cost 0
 End
 
@@ -1098,10 +1084,10 @@ Cond 0
 Wear -1
 Lev  40
 Cost 34000
-Affc 'reserved'   1  35  -1   2   2          0
-Affc 'reserved'   0  35  -1   0   0          4
-Affc 'enchant weapon'   1  51  -1   5  19          0
 Affc 'enchant weapon'   0  51  -1   5  18          0
+Affc 'enchant weapon'   1  51  -1   5  19          0
+Affc 'reserved'   0  35  -1   0   0          4
+Affc 'reserved'   1  35  -1   2   2          0
 End
 
 #O
@@ -1224,7 +1210,7 @@ ShD  a glowing rose made from tears~
 Desc A rose made of tears lies here eminating saddness.~
 ExtF 1
 Cond 0
-Wear -1
+Wear 6
 Cost 0
 End
 
@@ -1752,12 +1738,12 @@ ShD  Dazrin's Katana of Speed~
 Desc Dazrin's Katana of Speed is here.~
 ExtF 67
 Cond 0
-Wear -1
+Wear 16
 Lev  52
 Cost 5400
 Val  4 15 10 6 256
-Affc 'enchant weapon'   1  42  -1  21  19          0
 Affc 'enchant weapon'   0  42  -1  21  18          0
+Affc 'enchant weapon'   1  42  -1  21  19          0
 End
 
 #O
@@ -1918,7 +1904,7 @@ Name green cloak~
 ShD  an old weathered green traveling cloak~
 Desc You see a well worn and weathered green traveling cloak. The name 'Dazrin' has been sewn into the inside.~
 Cond 0
-Wear -1
+Wear 12
 Cost 1380
 End
 
@@ -1930,8 +1916,25 @@ Name black wedding tuxedo Dazrin~
 ShD  a black wedding tuxedo~
 Desc A gorgeous black wedding tuxedo lies here, worn by Dazrin on his marriage to the beautiful Eiram.~
 Cond 0
-Wear 5
+Wear -1
 Cost 1470
+End
+
+#O
+Vnum 10442
+Enchanted
+Nest 0
+PrevOwner (null)~
+Name leather armor~
+ShD  a suit of weathered leather armor~
+Desc This is a remarkable suit of leather armor. Despite its obvious long use, it is still in top condition and, although made of leather, you just know it is very strong.~
+ExtF 65
+Cond 0
+Wear 5
+Lev  50
+Cost 13700
+Affc 'enchant armor'   1  41  -1  -7  17          0
+Affc 'reserved'   1  45  -1   2  18          0
 End
 
 #END

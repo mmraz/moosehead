@@ -2,9 +2,9 @@
 Name Yoshimuri~
 Id   956511565
 Email (null)~
-LogO 956512540
-Vers 22
-Prom <%h/%Hhp %m/%Mm %v/%Vmv %Xxp> ~
+LogO 1306865921
+Vers 31
+Prom <%hhp %mm %vmv %Xxp %r %e> ~
 Race faerie~
 Outc 0
 RufT 0
@@ -12,11 +12,19 @@ MatookT 0
 SkPTimer 0
 SkPTracker 2
 LogoutTracker 0
-Kill 0 0 0
-Steal 0 0 0 0
+Kill 0 0 0 0
+Steal 0 0 0
 LstK no one~
 LstKBy no one~
-LstAtkedBy (null)~
+LstAtkedBy no one~
+LstAtkedByTimer 0
+LstCombatDate 1306865838
+LstKillDate 1306865838
+LstDeathDate 1306865838
+LoginsWOKill 0
+LoginsWODeath 0
+LoginsWOCombat 0
+Bnty 0
 Deity 0 xochipili~
 Sac  26
 Sex  1
@@ -24,13 +32,14 @@ Vump  0
 Node 0
 Cap 0
 Created 956511580
-LastHost jcdsl3.dsl.radiks.net 2294~
+Glad 0 0 0 0 0 0
+LastHost 68.224.161.143~
 Cla  4
 ClaO 1
 Levl 1
 DLevl 0
-Plyd 827
-Not  956511716 956511716 956511716 956511716 956511716 956511716 956511716 956511716 956511716
+Plyd 907
+Not  956511716 956511716 956511716 956511716 956511716 956511716 956511716 956511716 956511716 0
 Scro 22
 Rank 0
 Room 3054
@@ -39,6 +48,7 @@ Gold 21
 Silv 36
 Exp  18409
 Act  CDEFGHQ
+MHSF R
 AfBy DFJT
 Comm DGIR
 Disp FIJ
@@ -46,22 +56,23 @@ IcgB 0
 Icg 0
 Pos  8
 Prac 5
+Trai 10
 SkiP 2
 Save  -6
 Alig  750
-Hit   6
+Hit   5
 SecHit   5
 ACs -41 -41 -41 -41
 Wimp  4
-Attr 11 21 23 20 10
-AMod 2 0 2 2 1
+Attr 11 21 23 20 10 13 13 13
+AMod 2 1 2 2 1 0 0 0
 Pass YoljUPcPyPoQQ~
 Titl .~
 Pnts 100
 TSex 1
-LLev 0
+LLev 1
 HMVP 20 100 100
-Cnd  0 42 45 45
+Cnd  0 38 43 43
 Alias k kill~
 Sk 1 'aid'
 Sk 1 'armor'
@@ -72,6 +83,7 @@ Sk 1 'call lightning'
 Sk 1 'calm'
 Sk 1 'cancellation'
 Sk 1 'change sex'
+Sk 1 'cone of silence'
 Sk 1 'continual light'
 Sk 1 'control weather'
 Sk 1 'create food'
@@ -109,8 +121,8 @@ Sk 1 'feast'
 Sk 1 'feeblemind'
 Sk 1 'fireproof'
 Sk 1 'flamestrike'
-Sk 1 'fly'
 Sk 1 'floating disc'
+Sk 1 'fly'
 Sk 1 'forget'
 Sk 1 'frenzy'
 Sk 1 'fumble'
@@ -150,6 +162,7 @@ Sk 1 'animate dead'
 Sk 1 'summon dead'
 Sk 1 'cryogenesis'
 Sk 1 'draw life'
+Sk 1 'make bag'
 Sk 1 'turn undead'
 Sk 1 'withstand death'
 Sk 1 'wound transfer'
@@ -184,23 +197,25 @@ Gr 'necromancy'
 Gr 'protective'
 Gr 'transportation'
 Gr 'weather'
-Affc 'bless'   0  37  35  -5  24          0
-Affc 'bless'   0  36  35   5  18          0
-Affc 'armor'   0  37  23 -20  17          0
+Affc 'armor'   0  42  31 -20  17          0
+Affc 'bless'   0  40  41   5  18          0
+Affc 'bless'   0  40  41  -5  24          0
 End
 
 #O
 Vnum 3716
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 0
 Cost 0
-Val  0 0 184 0 0
+Val  0 0 183 0 0
 End
 
 #O
 Vnum 3703
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 5
 Cost 0
@@ -209,14 +224,16 @@ End
 #O
 Vnum 3700
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 16
+Wear -1
 Cost 250
 End
 
 #O
 Vnum 3704
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 11
 Cost 0
@@ -225,6 +242,7 @@ End
 #O
 Vnum 3726
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 12
 Cost 0
@@ -234,14 +252,16 @@ End
 #O
 Vnum 5932
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear -1
+Wear 16
 Cost 0
 End
 
 #O
 Vnum 4440
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 13
 Cost 0
@@ -250,6 +270,7 @@ End
 #O
 Vnum 3706
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 6
 Cost 72
@@ -258,6 +279,7 @@ End
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 4
 Cost 72
@@ -266,6 +288,7 @@ End
 #O
 Vnum 3705
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 3
 Cost 72
@@ -274,14 +297,16 @@ End
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 14
+Wear 15
 Cost 48
 End
 
 #O
 Vnum 3708
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 8
 Cost 72
@@ -290,6 +315,7 @@ End
 #O
 Vnum 3707
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 7
 Cost 72
@@ -298,14 +324,16 @@ End
 #O
 Vnum 3713
 Nest 0
+PrevOwner (null)~
 Cond 0
-Wear 15
+Wear 14
 Cost 48
 End
 
 #O
 Vnum 3710
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 10
 Cost 72
@@ -314,6 +342,7 @@ End
 #O
 Vnum 3709
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 9
 Cost 72
@@ -322,6 +351,7 @@ End
 #O
 Vnum 3715
 Nest 0
+PrevOwner (null)~
 Cond 0
 Wear 17
 Cost 1140

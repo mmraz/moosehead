@@ -1,0 +1,1146 @@
+#AREA
+../newareas/allanon.are~
+The Shattered Lands~
+{none } Allanon The Shattered Lands~
+11200 11249
+
+#MOBILES
+#11200
+grey hamster~
+A small grey hamster~
+There is a little grey rodent here.
+~
+This little creature has long grey hair, and tiny black eyes.  It claws
+frantically at its cage, wanting nothing more than to get out and run
+around for a little while.  Of course, it might be in the cage because
+it's a bloodthirsty monster.....maybe not.
+~
+rabbit~
+(null)~
+(null)~
+(null)~
+ACGQRSc Hc 0 0
+53 1 0d0+10000 0d0+10000 4d23+15 bite
+-50 -50 -50 -50
+ACDKU HIP 0 0
+sit sit male 5000
+H 0 tiny 0
+F par FHJK
+#11201
+Galaphile druid~
+Galaphile the Druid~
+Galaphile, the first of the Druids is briefly visiting from the netherworld.
+~
+You can see through Galaphile, as if he isn't totally in this world.  He
+is surrounded by a faint aura, seeming to radiate power.  Galaphile was the
+first of the Druids.  He founded the council at Paranor, but was killed in
+defence of the stronghold when the Dark Lord attacked.  He is now between
+worlds, guarding against future attacks by servants of evil.
+~
+elf~
+(null)~
+(null)~
+(null)~
+ABOQRU DFHZ 0 0
+50 25 5d10+5020 10d10+6000 5d9+10 magic
+0 0 0 0
+HKNU ABEHIJKLQ 0 MNO
+stand stand male 5000
+C 0 medium 0
+F aff J
+F res B
+F vul Z
+F for AHMV
+F par ABCDEFGHIJK
+#11202
+mist demon~
+The Mist Demon~
+The mist twists into the shape of a demonic being.
+~
+Generic description.~
+unique~
+(null)~
+(null)~
+(null)~
+AHST DFTc -300 0
+1 1 0d0+5500 0d0+2000 0d0+0 pound
+0 0 0 0
+BEFIN ABFKL Q HI
+stand stand none 7500
+AHMV ABC large 0
+#0
+
+#OBJECTS
+#11200
+hamster cage~
+The hamster's cage~
+A small metal cage is here.~
+metal~
+furniture 0 A
+0 0 0 0 0
+52 30 0 P
+E
+cage~
+Inside the cage, you see a small rodent, clawing at the bars.  It looks
+so cute!  Best not touch it though, those teeth look mighty sharp!
+~
+#11201
+allanon  throne~
+Allanon's Throne~
+Allanon's throne is here.~
+leather~
+furniture AR P
+1 0 CFIL 1500 1500
+0 500 50000 P
+F
+A 0 0 He
+#11202
+whirlpool~
+A whirlpool~
+You see a swirling whirlpool in the lake~
+water~
+portal Y A
+1 A A 3001 1
+52 120 0 P
+#11203
+ruhk staff~
+The Ruhk Staff~
+A staff with a glowing jewel on one end is here.~
+wood~
+weapon AGIKY AN
+exotic 0 0 none 0
+50 150 12000 P
+A
+0 0
+A
+20 0
+A
+19 2
+A
+18 2
+A
+12 15
+A
+3 3
+#11204
+allanon ring silver~
+An old silver ring~
+A battered old silver ring lies here.~
+Silver~
+jewelry ABHRTZc AB
+0 0 0 0 22089
+0 0 0 P
+#11205
+hole cave~
+A small save~
+You see a small cave in the ground.~
+stone~
+portal RTY 0
+4 0 0 11210 0
+10 100 0 D
+F
+A 0 0 B
+#11206
+mist cloud~
+A cloud of mist~
+There is a small cloud of mist here~
+mist~
+portal RT 0
+3 0 0 11234 0
+15 100 0 P
+F
+A 0 0 P
+#11207
+pile rubble~
+A small pile of rubble~
+There is a pile of rubble lying on the ground here~
+rubble~
+portal RT 0
+10 0 0 11228 0
+15 100 0 P
+F
+A 0 0 U
+#0
+
+#ROOMS
+#11200
+Mckay's Bedroom~
+This room has a low ceiling, and very poor lighting.  The floor is covered 
+by a soft blue carpet.  Off to one side of the room is a small metal cage
+containing a small furry creature of some sort.  On the other side of the 
+room is a leather chair sitting next to a table with a computer on it. 
+Very little light gets through the window, telling you that you are indeed
+underground.  What kind of person could live in a cave like this, you ask
+yourself.
+~
+0 AD 0
+H 1000 M 1000
+D0
+Exit ~
+door~
+0 0 11201
+S
+#11201
+The Hadenshorn~
+The ground is littered with jagged black rocks, and the sky is dark.  There
+is a storm brewing over the middle of the valley, and you suddenly realize
+where you are.  The Hadenshorn, the gateway between the living and the dead.
+As you step towards the edge of the waters, the lake begins to churn and
+bubble.  A massive black form erupts from the surface: Galaphile, the first
+Druid!  Lesser spirits encircle him, wanting to escape the afterworld, but 
+they, like the Druid are locked forever in the netherworld.
+~
+0 A 0
+D2
+Exit ~
+door~
+0 0 11200
+S
+#11202
+As Island in the Void~
+You are standing on a rock, floating in nothingness.  All around you is 
+the emptiness of the void.  The horizon on this small world doesn't extend
+very far at all.
+~
+0 0 2
+H 120 M 40
+D0
+Exit ~
+door~
+0 0 11203
+S
+#11203
+The Center of the Island~
+From here you can see the entire island upon which you stand.  In the
+distance of the Void, you can see other similar islans floating in
+nothingness.  You cannot tell wether they are small or large, as your
+perspective is distorted.
+~
+0 0 5
+D0
+Exit ~
+door~
+0 0 11206
+D1
+Exit ~
+door~
+0 0 11204
+D2
+Exit ~
+door~
+0 0 11202
+D3
+Exit ~
+door~
+0 0 11205
+S
+#11204
+As Island in the Void~
+You are standing on a rock, floating in nothingness.  All around you is 
+the emptiness of the void.  The horizon on this small world doesn't extend
+very far at all.
+~
+0 0 2
+D3
+Exit ~
+door~
+0 0 11203
+S
+#11205
+As Island in the Void~
+You are standing on a rock, floating in nothingness.  All around you is 
+the emptiness of the void.  The horizon on this small world doesn't extend
+very far at all.
+~
+0 0 2
+H 150 M 25
+D1
+Exit ~
+door~
+0 0 11203
+S
+#11206
+As Island in the Void~
+You are standing on a rock, floating in nothingness.  All around you is 
+the emptiness of the void.  The horizon on this small world doesn't extend
+very far at all.
+~
+0 0 2
+H 120 M 40
+D2
+Exit ~
+door~
+0 0 11203
+S
+#11207
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D1
+Exit ~
+door~
+0 0 11208
+S
+#11208
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 11214
+D1
+Exit ~
+door~
+0 0 11209
+D3
+Exit ~
+door~
+0 0 11207
+S
+#11209
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 11215
+D1
+Exit ~
+door~
+0 0 11210
+D3
+Exit ~
+door~
+0 0 11208
+S
+#11210
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 11216
+D1
+Exit ~
+door~
+0 0 11211
+D3
+Exit ~
+door~
+0 0 11209
+S
+#11211
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 11217
+D1
+Exit ~
+door~
+0 0 11212
+D3
+Exit ~
+door~
+0 0 11210
+S
+#11212
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 11218
+D1
+Exit ~
+door~
+0 0 11213
+D3
+Exit ~
+door~
+0 0 11211
+S
+#11213
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D3
+Exit ~
+door~
+0 0 11212
+S
+#11214
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D1
+Exit ~
+door~
+0 0 11215
+D2
+Exit ~
+door~
+0 0 11208
+S
+#11215
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 11219
+D1
+Exit ~
+door~
+0 0 11216
+D2
+Exit ~
+door~
+0 0 11209
+D3
+Exit ~
+door~
+0 0 11214
+S
+#11216
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 11220
+D1
+Exit ~
+door~
+0 0 11217
+D2
+Exit ~
+door~
+0 0 11210
+D3
+Exit ~
+door~
+0 0 11215
+S
+#11217
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 11221
+D1
+Exit ~
+door~
+0 0 11218
+D2
+Exit ~
+door~
+0 0 11211
+D3
+Exit ~
+door~
+0 0 11216
+S
+#11218
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D2
+Exit ~
+door~
+0 0 11212
+D3
+Exit ~
+door~
+0 0 11217
+S
+#11219
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D1
+Exit ~
+door~
+0 0 11220
+D2
+Exit ~
+door~
+0 0 11215
+S
+#11220
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 11222
+D1
+Exit ~
+door~
+0 0 11221
+D2
+Exit ~
+door~
+0 0 11216
+D3
+Exit ~
+door~
+0 0 11219
+S
+#11221
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D2
+Exit ~
+door~
+0 0 11217
+D3
+Exit ~
+door~
+0 0 11220
+S
+#11222
+The Wedge-Shaped Island~
+This is a moderately sized, wedge-shaped island.  The horizon is still
+very limited, as there is no curve to the small world.  There are some
+disfigured forms wandering about on the furface of this desert-like
+island.
+~
+0 0 10
+D0
+Exit ~
+door~
+0 0 11224
+D2
+Exit ~
+door~
+0 0 11220
+S
+#11223
+Shredded Space~
+You seem to have falled into a patch of shredded space.  Everything is 
+distorted.  The floor is both up and down, you feel like you're spinning, 
+but your eyes tell you that you're immobile.  You reach out and your hand 
+vanishes, but you can still feel it.  You pull it back to find it unharmed.
+Although movement does not seem to hurt you, simply standing still is taking
+its toll.  Small scars are appearing on your hands and face, while larger
+wounds quickly follow.  You realise how much you have to find a way to 
+escape the whirlpool of destructive magic.
+~
+0 ACT 10
+H -75 M -75
+S
+#11224
+The Land Bridge~
+You have left the desert-like island behind you, and are not travelling
+towards what looks like a ruined city.  The magic wars that created this
+bizarre world must have distorted both time as well as space.  You cannot
+tell what city it used to be from this distance, and doubt you will be 
+able to once you get there.
+~
+0 C 2
+H 50 M 50
+D0
+Exit ~
+door~
+0 0 11225
+D2
+Exit ~
+door~
+0 0 11222
+S
+#11225
+The Land Bridge~
+You have left the desert-like island behind you, and are not travelling
+towards what looks like a ruined city.  The magic wars that created this
+bizarre world must have distorted both time as well as space.  You cannot
+tell what city it used to be from this distance, and doubt you will be 
+able to once you get there.
+~
+0 C 2
+H 50 M 50
+D0
+Exit ~
+door~
+0 0 11226
+D2
+Exit ~
+door~
+0 0 11224
+S
+#11226
+The Land Bridge~
+You have left the desert-like island behind you, and are not travelling
+towards what looks like a ruined city.  The magic wars that created this
+bizarre world must have distorted both time as well as space.  You cannot
+tell what city it used to be from this distance, and doubt you will be 
+able to once you get there.  As you proceed, you realise that even the very
+bridge that you are standing on is in ruins, and a large section has fallen
+away to the north of you.  At once you see that it is too far to jump...
+~
+0 C 2
+H 50 M 50
+D0
+Exit ~
+door~
+0 0 11227
+D2
+Exit ~
+door~
+0 0 11225
+S
+#11227
+The Gap~
+You are floating in nothingness. To the south is the land bridge, and to
+the north is the ruined city. It appears that you can travel east and west
+but you have no idea where you might end up.
+~
+0 0 9
+H 50 M 50
+D0
+Exit ~
+door~
+0 0 11228
+D1
+Exit ~
+door~
+0 0 11223
+D2
+Exit ~
+door~
+0 0 11226
+D3
+Exit ~
+door~
+0 0 11223
+S
+#11228
+Entrance to the Ruined City~
+The entrance to the city is nothing but rubble.  The gate appears to have 
+fallen down long ago, creating a pile of rocks and mortar.  You have to
+climb your way over the rubble in order to enter the city.
+~
+0 0 1
+H 125 M 85
+D2
+Exit ~
+door~
+0 0 11227
+S
+#11229
+At the Base of the Tower~
+You are standing at the base of an immense pillar of mist.  There is no
+stairway or ladder for you to use, and you are puzzled as to how to climb
+the tower.  As you wander about the room, you realise that the floor is
+made entirely of mist. Now you understand. The mist is thick enough to
+support your weight, and you begin to climb up the tower into the unknown.
+~
+0 0 3
+H 200
+D0
+Exit ~
+door~
+0 0 11230
+D1
+Exit ~
+door~
+0 0 11232
+D2
+Exit ~
+door~
+0 0 11234
+D3
+Exit ~
+door~
+0 0 11231
+D4
+Exit ~
+door~
+0 0 11242
+S
+#11230
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D0
+Exit ~
+door~
+0 0 11238
+D1
+Exit ~
+door~
+0 0 11235
+D2
+Exit ~
+door~
+0 0 11229
+D3
+Exit ~
+door~
+0 0 11236
+S
+#11231
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D0
+Exit ~
+door~
+0 0 11236
+D1
+Exit ~
+door~
+0 0 11229
+D2
+Exit ~
+door~
+0 0 11237
+D3
+Exit ~
+door~
+0 0 11241
+S
+#11232
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D0
+Exit ~
+door~
+0 0 11235
+D1
+Exit ~
+door~
+0 0 11239
+D2
+Exit ~
+door~
+0 0 11233
+D3
+Exit ~
+door~
+0 0 11229
+S
+#11233
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D0
+Exit ~
+door~
+0 0 11232
+D3
+Exit ~
+door~
+0 0 11234
+S
+#11234
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D0
+Exit ~
+door~
+0 0 11229
+D1
+Exit ~
+door~
+0 0 11233
+D2
+Exit ~
+door~
+0 0 11240
+D3
+Exit ~
+door~
+0 0 11237
+S
+#11235
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D2
+Exit ~
+door~
+0 0 11232
+D3
+Exit ~
+door~
+0 0 11230
+S
+#11236
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D1
+Exit ~
+door~
+0 0 11230
+D2
+Exit ~
+door~
+0 0 11231
+S
+#11237
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D0
+Exit ~
+door~
+0 0 11231
+D1
+Exit ~
+door~
+0 0 11234
+S
+#11238
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D2
+Exit ~
+door~
+0 0 11230
+D4
+Exit ~
+door~
+0 0 11248
+S
+#11239
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D3
+Exit ~
+door~
+0 0 11232
+D4
+Exit ~
+door~
+0 0 11245
+S
+#11240
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D0
+Exit ~
+door~
+0 0 11234
+D4
+Exit ~
+door~
+0 0 11246
+S
+#11241
+The Island of Mist~
+All round you is evidence of magic. The mist seems to take on forms, which
+vanish soon after.  Springs appear, and disappear.  Magic food grown in
+abundance, some appearing very tasty, and some looking quite poisonous.
+Creatures of all sizes pick and choose at the food, seeming to know what
+is safe, and what isn't.  You wonder how so much magic can exist without
+a source...
+~
+0 0 3
+H 200 M -50
+D1
+Exit ~
+door~
+0 0 11231
+D4
+Exit ~
+door~
+0 0 11247
+S
+#11242
+The Tower of Mist~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11248
+D1
+Exit ~
+door~
+0 0 11245
+D2
+Exit ~
+door~
+0 0 11246
+D3
+Exit ~
+door~
+0 0 11247
+D4
+Exit ~
+door~
+0 0 11243
+D5
+Exit ~
+door~
+0 0 11229
+S
+#11243
+The Tower of Mist~
+Generic room description.
+~
+0 0 3
+D4
+Exit ~
+door~
+0 0 11244
+D5
+Exit ~
+door~
+0 0 11242
+S
+#11244
+Top of the Tower of Mist~
+Generic room description.
+~
+0 0 3
+D5
+Exit ~
+door~
+0 0 11243
+S
+#11245
+The Eastern Colunm of Mist~
+Generic room description.
+~
+0 0 3
+D3
+Exit ~
+door~
+0 0 11242
+D5
+Exit ~
+door~
+0 0 11239
+S
+#11246
+The Southern Column of Mist~
+Generic room description.
+~
+0 0 3
+D0
+Exit ~
+door~
+0 0 11242
+D5
+Exit ~
+door~
+0 0 11240
+S
+#11247
+The Western Colunm of Mist~
+Generic room description.
+~
+0 0 0
+D1
+Exit ~
+door~
+0 0 11242
+D5
+Exit ~
+door~
+0 0 11241
+S
+#11248
+The Northern Colunm of Mist~
+Generic room description.
+~
+0 0 3
+D2
+Exit ~
+door~
+0 0 11242
+D5
+Exit ~
+door~
+0 0 11238
+S
+#11249
+Below the Island~
+You have fallen off the island!  There is no way but down, into the swirling
+magic cesspool below...
+~
+0 AN 3
+D5
+Exit ~
+door~
+0 0 11223
+S
+#0
+
+#RESETS
+M 0 11200   1 11200  1	* A small grey hamster
+O 0 11201 100 11200	* Allanon's Throne
+O 0 11200 100 11200	* The hamster's cage
+M 0 11201   1 11201  1	* Galaphile the Druid
+O 0 11202 100 11201	* A whirlpool
+O 0 11205 100 11204	* A small save
+O 0 11206 100 11206	* A cloud of mist
+O 0 11207 100 11205	* A small pile of rubble
+S
+
+#SHOPS
+0
+
+#SPECIALS
+M 11200 spec_breath_fire    	* A small grey hamster
+S
+
+#$

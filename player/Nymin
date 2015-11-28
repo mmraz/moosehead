@@ -2,8 +2,8 @@
 Name Nymin~
 Id   922236863
 Email (null)~
-LogO 1132531128
-Vers 31
+LogO 1413972127
+Vers 33
 Desc Nymin says, 'I offer the following spells:'
 
 Armor:              Free      
@@ -34,10 +34,11 @@ Outc 0
 RufT 0
 MatookT 12001
 SkPTimer 0
-SkPTracker 9
+SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -49,6 +50,12 @@ LoginsWOKill 4
 LoginsWODeath 4
 LoginsWOCombat 4
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
+QuestWins 1 0
+QuestWins 2 0
 Deity 230400 matook~
 DeityT -6215 matook~
 Sac  300
@@ -58,22 +65,22 @@ Node 0
 Cap 0
 Created 951455943
 Glad 0 0 0 0 0 0
-LastHost CPE002078d6dfb7-CM00e06f1624cc.cpe.net.cable.rogers.com~
+LastHost 206.186.142.1~
 Cla  7
 Kit spirit caller~
 ClaO 0
 Levl 51
 DLevl 0
-Plyd 3368784
-Not  1124776094 1108484582 927054688 1131210186 1121859963 1132178880 952030120 1124775873 0 1129478192
+Plyd 3399353
+Not  1410235890 1406980220 927054688 1371977109 1367893112 1410235987 952030120 1407046784 0 1384474516
 Scro 22
 Rank 0
-Room 3001
-HMV  347 347 395 2231 300 300
-Gold 373
-Silv 7772
+Room 16503
+HMV  347 347 2231 2231 300 300
+Gold 582
+Silv 5246
 Exp  354960
-Act  DGMQS
+Act  CDGMQRS
 MHSF R
 AfBy DFJTW
 Comm S
@@ -81,39 +88,40 @@ Disp CFGIJN
 IcgB 0
 Icg 0
 Pos  8
-Prac 15
-SkiP 509
+Prac 14
+Trai 5
+SkiP 556
 Save  -7
-Alig  885
+Alig  571
 Hit   6
 SecHit   6
 ACs -15 -15 -15 2
 Wimp  40
-Attr 7 23 23 18 10 13 13 13
-AMod 3 0 0 -1 -4 0 0 0
+Attr 7 23 23 18 10 17 8 13
+AMod 7 0 0 -1 -4 0 0 0
 Pass Ny6dQ36Z3Fe5k~
 Titl , the Legend of {BMatook{x. [{cRetired{x]~
 Pnts 89
 TSex 1
 LLev 1
 HMVP 307 1581 300
-Cnd  0 2 15 15
+Cnd  0 26 37 37
 Alias f order all kill~
 Alias 1 cast 'acid blast'~
 Alias q cast 'dispel magic'~
-Alias dead cast 'summon dead'~
 Alias cc cast 'cure critical'~
 Alias p order all rescue nymin~
 Alias 0 order all kick~
 Alias pk who 40 51~
-Alias 7 cast 'faerie fog'~
-Alias 24473 merfolk assassin~
+Alias 7 order all back~
 Alias delete whap self~
 Alias 9 3s 2e 2s 6w 1n 1w 2s 3e~
+Alias 6 order lawyer kill~
+Alias 8 order all wear all~
 Sk 100 'acid blast'
 OldSk 100 'acid blast'
 Sk 1 'aid'
-Sk 98 'armor'
+Sk 100 'armor'
 OldSk 87 'armor'
 Sk 1 'bestow holiness'
 Sk 100 'bless'
@@ -140,7 +148,6 @@ Sk 1 'chill touch'
 OldSk 1 'chill touch'
 Sk 1 'colour spray'
 OldSk 75 'colour spray'
-Sk 1 'cone of silence'
 Sk 82 'continual light'
 Sk 1 'control weather'
 OldSk 71 'control weather'
@@ -231,7 +238,7 @@ Sk 81 'invisibility'
 OldSk 75 'invisibility'
 Sk 1 'knock'
 OldSk 1 'knock'
-Sk 1 'know alignment'
+Sk 79 'know alignment'
 OldSk 1 'know alignment'
 Sk 75 'lay on hands'
 Sk 1 'lightning bolt'
@@ -362,6 +369,7 @@ Gr 'psionics'
 Gr 'transportation'
 Gr 'weather'
 Gr 'spiritcaller'
+Affc 'giant strength'   0  53  48   4   1          0
 End
 
 #O
@@ -390,8 +398,8 @@ PrevOwner (null)~
 Cond 0
 Wear 14
 Cost 3500
-Affc 'reserved'   1  35  -1  -1  20          0
 Affc 'reserved'   1  35  -1  15  12          0
+Affc 'reserved'   1  35  -1  -1  20          0
 End
 
 #O
@@ -414,8 +422,8 @@ Desc A pair of pants lies here.~
 Cond 0
 Wear 7
 Cost 6500
-Affc 'reserved'   1  30  -1  20  12          0
 Affc 'reserved'   1  30  -1  20  13          0
+Affc 'reserved'   1  30  -1  20  12          0
 End
 
 #O
@@ -493,8 +501,8 @@ Cond 0
 Wear 13
 Cost 4000
 Val  7 7 7 4 1
-Affc 'reserved'   1  41  -1   2   1          0
 Affc 'reserved'   1  41  -1  25  12          0
+Affc 'reserved'   1  41  -1   2   1          0
 End
 
 #O
@@ -563,21 +571,6 @@ Cost 5000
 End
 
 #O
-Vnum 10410
-Enchanted
-Nest 1
-PrevOwner Nymin~
-ExtF 67
-Cond 0
-Wear -1
-Lev  42
-Cost 7600
-Val  0 7 4 10 1024
-Affc 'enchant weapon'   1  51  -1  13  18          0
-Affc 'enchant weapon'   1  51  -1   8  19          0
-End
-
-#O
 Vnum 753
 Nest 1
 PrevOwner Nymin~
@@ -587,67 +580,12 @@ Val  2 3 7 2 516
 End
 
 #O
-Vnum 8007
-Enchanted
-Nest 1
-PrevOwner Nymin~
-ExtF 99
-Cond 0
-Wear -1
-Lev  19
-Cost 2800
-Val  2 3 5 3 1024
-Affc 'enchant weapon'   1  53  -1   3  18          0
-Affc 'enchant weapon'   1  53  -1   3  19          0
-Affc 'reserved'   1  18  -1   1   5          0
-Affc 'reserved'   1  18  -1   1   2          0
-End
-
-#O
 Vnum 5740
 Nest 1
 PrevOwner Nymin~
 Cond 0
 Wear -1
 Cost 835
-End
-
-#O
-Vnum 20703
-Enchanted
-Nest 1
-PrevOwner Nymin~
-Cond 0
-Wear -1
-Lev  20
-Cost 234
-Val  2 1 12 2 1028
-Affc 'enchant weapon'   1  53  -1   7  19          0
-Affc 'enchant weapon'   1  53  -1   6  18          0
-End
-
-#O
-Vnum 3020
-Enchanted
-Nest 1
-PrevOwner Nymin~
-ExtF 67
-Cond 0
-Wear -1
-Lev  7
-Cost 157
-Affc 'enchant weapon'   1  44  -1  10  19          0
-Affc 'enchant weapon'   0  44  -1  10  18          0
-End
-
-#O
-Vnum 5100
-Nest 1
-PrevOwner Nymin~
-Cond 0
-Wear -1
-Cost 910
-Val  1 2 6 3 512
 End
 
 #O
@@ -669,12 +607,73 @@ Cost 0
 End
 
 #O
-Vnum 922
-Nest 0
+Vnum 10410
+Enchanted
+Nest 1
+PrevOwner Nymin~
+ExtF 67
+Cond 0
+Wear -1
+Lev  42
+Cost 7600
+Val  0 7 4 10 1024
+Affc 'enchant weapon'   1  51  -1   8  19          0
+Affc 'enchant weapon'   1  51  -1  13  18          0
+End
+
+#O
+Vnum 8007
+Enchanted
+Nest 1
+PrevOwner Nymin~
+ExtF 99
+Cond 0
+Wear -1
+Lev  19
+Cost 2800
+Val  2 3 5 3 1024
+Affc 'reserved'   1  18  -1   1   2          0
+Affc 'reserved'   1  18  -1   1   5          0
+Affc 'enchant weapon'   1  53  -1   3  19          0
+Affc 'enchant weapon'   1  53  -1   3  18          0
+End
+
+#O
+Vnum 3020
+Enchanted
+Nest 1
+PrevOwner Nymin~
+ExtF 67
+Cond 0
+Wear -1
+Lev  7
+Cost 157
+Affc 'enchant weapon'   0  44  -1  10  18          0
+Affc 'enchant weapon'   1  44  -1  10  19          0
+End
+
+#O
+Vnum 5100
+Nest 1
 PrevOwner Nymin~
 Cond 0
-Wear 4
-Cost 4900
+Wear -1
+Cost 910
+Val  1 2 6 3 512
+End
+
+#O
+Vnum 20703
+Enchanted
+Nest 1
+PrevOwner Nymin~
+Cond 0
+Wear -1
+Lev  20
+Cost 234
+Val  2 1 12 2 1028
+Affc 'enchant weapon'   1  53  -1   6  18          0
+Affc 'enchant weapon'   1  53  -1   7  19          0
 End
 
 #O
@@ -687,42 +686,12 @@ Cost 200
 End
 
 #O
-Vnum 20818
+Vnum 8309
 Nest 0
-PrevOwner Nymin~
+PrevOwner (null)~
 Cond 0
-Wear 11
-Cost 4000
-End
-
-#O
-Vnum 4805
-Enchanted
-Nest 0
-PrevOwner Nymin~
-ExtF 134219779
-Wt   28
-Wrp 1
-Cond 0
-Wear 9
-Cost 5500
-Val  10 10 10 3 1
-Affc 'reserved'   1  41  -1  -1   5          0
-Affc 'reserved'   1  41  -1  25  12          0
-Affc 'reserved'   1  41  -1  20  13          0
-Affc 'enchant armor'   1  55  -1  -2  17          0
-End
-
-#O
-Vnum 20833
-Nest 0
-PrevOwner Nymin~
-Name holy robe nymin~
-ShD  Matook's holy gloves~
-Desc A part of an antique set of Matook armor is here.~
-Cond 0
-Wear 12
-Cost 0
+Wear -1
+Cost 100
 End
 
 #O
@@ -730,7 +699,7 @@ Vnum 23021
 Nest 0
 PrevOwner Nymin~
 Cond 0
-Wear 3
+Wear 4
 Cost 710
 End
 
@@ -780,15 +749,6 @@ PrevOwner Nymin~
 Cond 0
 Wear -1
 Cost 5800
-End
-
-#O
-Vnum 10337
-Nest 1
-PrevOwner Nymin~
-Cond 0
-Wear -1
-Cost 0
 End
 
 #O
@@ -850,8 +810,8 @@ Cond 0
 Wear -1
 Lev  48
 Cost 2300
-Affc 'enchant weapon'   1  52  -1  12  19          0
 Affc 'enchant weapon'   1  52  -1  11  18          0
+Affc 'enchant weapon'   1  52  -1  12  19          0
 End
 
 #O
@@ -864,8 +824,8 @@ Cond 0
 Wear -1
 Lev  50
 Cost 6937
-Affc 'enchant weapon'   0  53  -1  11  18          0
 Affc 'enchant weapon'   1  53  -1  11  19          0
+Affc 'enchant weapon'   0  53  -1  11  18          0
 End
 
 #O
@@ -1458,8 +1418,8 @@ Wear -1
 Lev  6
 Cost 165
 Val  2 1 5 2 1024
-Affc 'enchant weapon'   1  53  -1   6  18          0
 Affc 'enchant weapon'   1  53  -1   7  19          0
+Affc 'enchant weapon'   1  53  -1   6  18          0
 End
 
 #O
@@ -1538,30 +1498,187 @@ Cost 100000
 End
 
 #O
-Vnum 8309
+Vnum 10337
+Nest 1
+PrevOwner Nymin~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 22044
+Nest 1
+PrevOwner Nymin~
+Cond 0
+Wear -1
+Cost 100000
+End
+
+#O
+Vnum 922
+Nest 0
+PrevOwner Nymin~
+Cond 0
+Wear 3
+Cost 4900
+End
+
+#O
+Vnum 20818
+Nest 0
+PrevOwner Nymin~
+Cond 0
+Wear 11
+Cost 4000
+End
+
+#O
+Vnum 4805
+Enchanted
+Nest 0
+PrevOwner Nymin~
+ExtF 134219779
+Wt   28
+Wrp 1
+Cond 0
+Wear 9
+Cost 5500
+Val  10 10 10 3 1
+Affc 'enchant armor'   1  55  -1  -2  17          0
+Affc 'reserved'   1  41  -1  20  13          0
+Affc 'reserved'   1  41  -1  25  12          0
+Affc 'reserved'   1  41  -1  -1   5          0
+End
+
+#O
+Vnum 20833
+Nest 0
+PrevOwner Nymin~
+Name holy robe nymin~
+ShD  Matook's holy gloves~
+Desc A part of an antique set of Matook armor is here.~
+Cond 0
+Wear 12
+Cost 0
+End
+
+#O
+Vnum 2416
 Nest 0
 PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 500
+End
+
+#O
+Vnum 22011
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 2700
+End
+
+#O
+Vnum 4438
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4439
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 4440
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 0
+End
+
+#O
+Vnum 20404
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 110
+End
+
+#O
+Vnum 20405
+Nest 0
+PrevOwner (null)~
+Cond 0
+Wear -1
+Cost 125
+End
+
+#O
+Vnum 8309
+Nest 0
+PrevOwner Costello~
 Cond 0
 Wear -1
 Cost 100
 End
 
 #O
-Vnum 8503
+Vnum 10429
 Nest 0
-PrevOwner Nymin~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 5000
+Cost 2295
 End
 
 #O
-Vnum 8503
+Vnum 10429
 Nest 0
-PrevOwner Nymin~
+PrevOwner (null)~
 Cond 0
 Wear -1
-Cost 5000
+Cost 1985
+End
+
+#O
+Vnum 3428
+Enchanted
+Nest 0
+PrevOwner (null)~
+ExtF 66
+Cond 0
+Wear -1
+Lev  32
+Cost 2200
+Affc 'enchant weapon'   1  54  -1   4  19          0
+Affc 'enchant weapon'   1  54  -1   5  18          0
+End
+
+#O
+Vnum 5332
+Enchanted
+Nest 0
+PrevOwner (null)~
+ExtF 1090
+Cond 0
+Wear -1
+Lev  37
+Cost 4400
+Affc 'enchant weapon'   1  55  -1   5  18          0
+Affc 'enchant weapon'   1  55  -1   6  19          0
 End
 
 #END

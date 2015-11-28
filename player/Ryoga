@@ -2,8 +2,8 @@
 Name Ryoga~
 Id   851468011
 Email (null)~
-LogO 1019099686
-Vers 31
+LogO 1353121834
+Vers 33
 ShD  the Lost Boy~
 Desc Ryoga is a well-built youth, with dark hair kept in place
 by a yellow and black bandana. You have heard the rumors,
@@ -38,6 +38,7 @@ SkPTracker 0
 LogoutTracker 0
 Kill 0 0 0 0
 Steal 0 0 0
+MSteal 0
 LstK no one~
 LstKBy no one~
 LstAtkedBy no one~
@@ -49,6 +50,10 @@ LoginsWOKill 0
 LoginsWODeath 0
 LoginsWOCombat 0
 Bnty 0
+DeityFavor 0 0
+PrefStat 0
+OldC 0 0 0
+QuestWins 0 0
 Deity 2714799 megena~
 DeityT -1135 megena~
 Sac  300
@@ -58,17 +63,17 @@ Node 0
 Cap 0
 Created 0
 Glad 0 0 0 0 0 0
-LastHost adsl-66-125-225-72.dsl.sntc01.pacbell.net~
+LastHost 75.37.200.79~
 Cla  14
 Kit barbarian~
 ClaO 3
 Levl 52
 DLevl 0
-Plyd 4941620
-Not  1018899901 1019022129 941340309 1018724476 1019056065 1019010767 1019022135 1019022168 0 1019022126
+Plyd 4942421
+Not  1318350750 1318350752 941340309 1318350825 1318350754 1318350708 1318350777 1019022168 0 1318350769
 Scro 23
 Rank 0
-Room 8160
+Room 18491
 HMV  16013 16013 14466 14466 461 461
 Gold 146218
 Silv 81
@@ -76,14 +81,15 @@ Exp  23838000
 Act  BCDEFGHMNQRS
 AfBy DFHJTVace
 Comm DGOS
-Disp HIJ
+Disp FHIJ
 IcgB FJNPTVY
 Icg 2
 Wizn ACDEFIJLRSTX
 Invi 52
 Pos  8
-Prac 5
-Trai 36
+Prac 6
+Trai 38
+SkiP 1
 Save  -96
 Alig  740
 Hit   81
@@ -92,9 +98,9 @@ SecHit   81
 SecDam   87
 ACs -995 -993 -991 -953
 Wimp  3133
-Attr 25 25 25 25 25 13 13 13
+Attr 25 25 25 25 25 11 14 13
 AMod 24 9 -1 21 20 0 0 0
-Pass Ryacuquc8juO2~
+Pass RyXKFMCx.7mSE~
 Bin  Ryoga wanders into the room, screaming "Where am I this time?!?"~
 Bout Ryoga wanders off again, completely oblivious.~
 Titl  Hibiki, the Eternal Lost Boy~
@@ -1157,7 +1163,7 @@ Desc A snack item that Ryoga brought back from Kyoto is here.~
 Cond 0
 Wear -1
 Cost 5775
-Val  35 78 78 107 -1
+Val  35 78 78 113 -1
 Spell 3 'heal'
 End
 
@@ -1171,7 +1177,7 @@ Desc A snack item that Ryoga brought back from Kyoto is here.~
 Cond 0
 Wear -1
 Cost 5775
-Val  35 78 78 107 -1
+Val  35 78 78 113 -1
 Spell 3 'heal'
 End
 
@@ -1185,7 +1191,7 @@ Desc A snack item that Ryoga brought back from Kyoto is here.~
 Cond 0
 Wear -1
 Cost 5775
-Val  35 78 78 107 -1
+Val  35 78 78 113 -1
 Spell 3 'heal'
 End
 
@@ -1196,7 +1202,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1700
-Val  25 19 106 99 -1
+Val  25 22 112 104 -1
 Spell 1 'body of stone'
 Spell 2 'haste'
 Spell 3 'frenzy'
@@ -1209,7 +1215,7 @@ PrevOwner (null)~
 Cond 0
 Wear -1
 Cost 1700
-Val  25 19 106 99 -1
+Val  25 22 112 104 -1
 Spell 1 'body of stone'
 Spell 2 'haste'
 Spell 3 'frenzy'
@@ -1337,7 +1343,7 @@ Cond 0
 Wear -1
 Lev  0
 Cost 400
-Val  1 106 17 152 -1
+Val  1 112 20 159 -1
 Spell 1 'haste'
 Spell 2 'blindness'
 Spell 3 'psionic blast'
@@ -1354,39 +1360,10 @@ Cond 0
 Wear -1
 Lev  0
 Cost 400
-Val  1 106 17 152 -1
+Val  1 112 20 159 -1
 Spell 1 'haste'
 Spell 2 'blindness'
 Spell 3 'psionic blast'
-End
-
-#O
-Vnum 6
-Nest 1
-PrevOwner (null)~
-Name penis head severed~
-ShD  Tiag's penis~
-Desc Tiag's severed penis is here.~
-WeaF 2049
-Cond 0
-Wear -1
-Lev  54
-Cost 0
-Val  0 0 9 0 0
-End
-
-#O
-Vnum 16605
-Nest 1
-PrevOwner (null)~
-Name gift tiag cheese devil queso diablo~
-ShD  {YQueso{x del {RDiablo{x~
-Desc Here is some cheese that was made in hell with lots of zing!~
-Cond 0
-Wear -1
-Lev  3
-Cost 10000
-Spell 3 'frenzy'
 End
 
 #O
@@ -1505,6 +1482,35 @@ Spell 3 'protection neutral'
 End
 
 #O
+Vnum 6
+Nest 1
+PrevOwner (null)~
+Name penis head severed~
+ShD  Tiag's penis~
+Desc Tiag's severed penis is here.~
+WeaF 2049
+Cond 0
+Wear -1
+Lev  54
+Cost 0
+Val  0 0 9 0 0
+End
+
+#O
+Vnum 16605
+Nest 1
+PrevOwner (null)~
+Name gift tiag cheese devil queso diablo~
+ShD  {YQueso{x del {RDiablo{x~
+Desc Here is some cheese that was made in hell with lots of zing!~
+Cond 0
+Wear -1
+Lev  3
+Cost 10000
+Spell 3 'frenzy'
+End
+
+#O
 Vnum 4800
 Nest 0
 PrevOwner (null)~
@@ -1618,7 +1624,7 @@ Cond 0
 Wear -1
 Lev  0
 Cost 1820
-Val  35 104 187 164 -1
+Val  35 109 196 172 -1
 Spell 1 'giant strength'
 Spell 2 'stone skin'
 Spell 3 'sanctuary'
