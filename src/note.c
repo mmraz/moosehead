@@ -28,7 +28,7 @@ static char rcsid[] = "$Id: note.c,v 1.57 2003/01/01 17:04:27 rusty Exp $";
 #include <stdlib.h>
 #include <time.h>
 //#ifdef GAME_VERSION
-#include "gc.h"
+#include <gc.h>
 //#endif
 #include "merc.h"
 #include "recycle.h"

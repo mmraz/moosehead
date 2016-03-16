@@ -30,7 +30,7 @@ static char rcsid[] = "$Id: db.c,v 1.186 2004/08/26 01:30:26 boogums Exp $";
 #include <sys/resource.h>
 #endif
 
-#include "gc.h"
+#include <gc.h>
 #include "merc.h"
 #include "db.h"
 #include "recycle.h"

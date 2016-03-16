@@ -21,7 +21,7 @@ static char rcsid[] = "$Id: db3.c,v 1.11 2001/12/04 17:54:52 rage Exp $";
 #include <stdlib.h>
 #include <ctype.h>
 #ifdef GAME_VERSION
-#include "gc.h"
+#include <gc.h>
 #endif
 #include <time.h>
 #if defined(macintosh)

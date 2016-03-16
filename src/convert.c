@@ -22,7 +22,7 @@ static char rcsid[] = "$Id: convert.c,v 1.3 2002/03/09 19:14:28 rusty Exp $";
 #include <sys/types.h>
 #include <sys/time.h>
 #endif
- #include <gc.h>
+#include <gc.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

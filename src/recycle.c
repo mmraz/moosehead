@@ -25,7 +25,7 @@ static char rcsid[] = "$Id: recycle.c,v 1.8 2001/04/09 18:33:00 mud Exp $";
 #endif
 #include <stdio.h>
 #include <string.h>
-#include "gc.h"
+#include <gc.h>
 #include <stdlib.h>
 #include "merc.h"
 #include "recycle.h"

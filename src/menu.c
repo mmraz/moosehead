@@ -52,14 +52,14 @@ void do_menu ( CHAR_DATA *ch, char *arg )
   ch->pcdata->interp_fun = &do_menu;
   if (arg) one_argument(arg,arg);  
     
-  if ((arg == NULL) || (arg[0] == NULL)) {
+  if (!arg || !arg[0] ) {
     if (ch->pcdata->macro_count) return;
-    sprintf (buf,"\n\r-= %s =-\n\r",(*menu)[0].text);
+    sprintf (buf,"\n\r-= %s =-\n\r",*menu[0].text);
     send_to_char (buf,ch);
-    if ((*menu)[0].menu_fun) 
-      (*(*menu)[0].menu_fun) (ch,0);
+    if (*menu[0].menu_fun)
+      (**menu[0].menu_fun) (ch,0);
     for (t = 0;; t++) {
-      if ( (*menu)[t].text == NULL ) {
+      if ( *menu[t].text == NULL ) {
         break;
       }
     }    
@@ -67,20 +67,20 @@ void do_menu ( CHAR_DATA *ch, char *arg )
       send_to_char (">  ",ch);
       return;
     }
-    if ((*menu)[0].id > 0) {  /* multi-column */
+    if (menu[0].id > 0) {  /* multi-column */
       char format[50];
-      sprintf (format,"%%d.  %%-%ds%%s",(*menu)[0].id);
+      sprintf (format,"%%d.  %%-%ds%%s",menu[0].id);
 
       for (choice = 1;; choice++) {      
-        if (( (*menu)[choice].text == NULL ) || (choice > t/2)) {
+        if (( *menu[choice].text == NULL ) || (choice > t/2)) {
           send_to_char (">  ", ch);  
           return;
         } else {
-          sprintf (buf,format,choice,(*menu)[choice].text,
+          sprintf (buf,format,choice,*menu[choice].text,
             (choice < 10) ? " ":"");
           send_to_char (buf,ch);
-          if ((*menu)[choice+t/2].text) {
-            sprintf (buf,"%d.  %s\n\r",choice+t/2,(*menu)[choice+t/2].text);
+          if (*menu[choice+t/2].text) {
+            sprintf (buf,"%d.  %s\n\r",choice+t/2,*menu[choice+t/2].text);
             send_to_char (buf,ch);
           } else  {
             send_to_char ("\n\r>  ", ch);  
@@ -90,11 +90,11 @@ void do_menu ( CHAR_DATA *ch, char *arg )
       }
     } else {                /* single column */
       for (choice = 1;; choice++) {
-        if ( (*menu)[choice].text == NULL ) {
+        if ( *menu[choice].text == NULL ) {
           send_to_char (">  ", ch);  
           return;
         } else {
-          sprintf (buf,"%d.  %s\n\r",choice,(*menu)[choice].text);
+          sprintf (buf,"%d.  %s\n\r",choice,*menu[choice].text);
           send_to_char (buf,ch);
         }
       }
@@ -104,25 +104,25 @@ void do_menu ( CHAR_DATA *ch, char *arg )
   if (is_number (arg)) {
     choice = atoi (arg);
     for (t = 1; t <= choice; t++) {
-      if ((*menu)[t].text == NULL) {
+      if (*menu[t].text == NULL) {
         send_to_char ("Invalid choice.\n\r>  ", ch);  
         return;
       }
     }
   } else {
     for (choice = 1;; choice++) {
-      if ( (*menu)[choice].text == NULL ) {
+      if ( *menu[choice].text == NULL ) {
         send_to_char ("Invalid choice.\n\r>  ", ch);  
         return;
       } else {
-        if (!str_prefix (arg, (*menu)[choice].context)) {
+        if (!str_prefix (arg, *menu[choice].context)) {
           break;
         }
       }
     }
   }
-  if ((*menu)[choice].menu_fun)
-    (*(*menu)[choice].menu_fun) (ch, (*menu)[choice].id);
+  if (*menu[choice].menu_fun)
+    (**menu[choice].menu_fun) (ch, menu[choice].id);
   else
     bug ("NULL for menu fuction in do_menu",0);
 }

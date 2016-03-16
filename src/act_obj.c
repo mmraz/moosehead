@@ -23,7 +23,7 @@ static char rcsid[] = "$Id: act_obj.c,v 1.414 2005/02/08 20:33:53 rusty Exp $";
 #include <sys/types.h>
 #include <sys/time.h>
 #endif
-#include "gc.h"
+#include <gc.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
