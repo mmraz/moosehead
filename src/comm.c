@@ -41,7 +41,7 @@ static char rcsid[] = "$Id: comm.c,v 1.311 2004/10/20 18:59:00 rusty Exp $";
 #include <sys/types.h>
 #include <sys/time.h>
 #endif
-#include <gc.h>
+#include "gc.h"
 #include <unistd.h>
 #include <signal.h>
 #include <ctype.h>

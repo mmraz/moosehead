@@ -23,7 +23,7 @@ static char rcsid[] = "$Id: act_info.c,v 1.423 2004/04/02 04:42:07 boogums Exp $
  #include <unistd.h>
  #include <sys/time.h>
  #endif
- #include <gc.h>
+ #include "gc.h"
  #include <stdio.h>
  #include <string.h>
  #include <stdlib.h>

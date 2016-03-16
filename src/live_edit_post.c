@@ -25,7 +25,7 @@ static char rcsid[] = "$Id: live_edit.c,v 1.0 2011/08/19 18:33:00 mud Exp $";
 #endif
 #include <stdio.h>
 #include <string.h>
-#include <gc.h>
+#include "gc.h"
 #include <stdlib.h>
 #include "merc.h"
 #include "recycle.h"

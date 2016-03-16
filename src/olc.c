@@ -15,6 +15,7 @@
  *  around, comes around.                                                  *
  ***************************************************************************/
 
+static char rcsid[] = "$Id: olc.c,v 1.48 2003/09/26 04:07:13 boogums Exp $";
 #if defined(macintosh)
 #include <types.h>
 #else
@@ -347,7 +348,7 @@ void edit_obj_modify    ( CHAR_DATA *ch, int num );
 void edit_obj_type      ( CHAR_DATA *ch, int num );
 void edit_obj_add_aff   ( CHAR_DATA *ch, int num );
 
-MENU_DATA edit_menu[] = {
+MENU_DATA edit_menu = {
   {"Edit Menu","",0,NULL},
   {"Personal [Settings]","settings",ID_EDIT_SETTINGS,edit_main},
   {"Edit [Area]","area",ID_EDIT_AREA,edit_main},
@@ -359,7 +360,7 @@ MENU_DATA edit_menu[] = {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA settings_menu[] = {
+MENU_DATA settings_menu = {
   {"Personal Settings","",0,NULL},
   {"Toggle [Room]   - Default to current room","room",ID_SETTINGS_DEF_ROOM,edit_settings},
   {"Toggle [Mob]    - Default to first mob in room","mob",ID_SETTINGS_DEF_MOB,edit_settings},
@@ -373,7 +374,7 @@ MENU_DATA settings_menu[] = {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA area_menu[] = {
+MENU_DATA area_menu = {
   {"Area Menu","",20,edit_area_init},
   {"[Select] New Area","select",ID_EDIT_AREA_SELECT,edit_area},
   {"Area [Info]","info",ID_EDIT_AREA_INFO,edit_area},
@@ -390,7 +391,7 @@ MENU_DATA area_menu[] = {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA reset_menu[] = {
+MENU_DATA reset_menu = {
   {"Reset Menu","",0,edit_reset_init},
   {"Reload [Mob] Resets", "mob", ID_EDIT_RESET_MOB,edit_reset_main},
   {"Reload [Object] Resets","object",ID_EDIT_RESET_OBJECT,edit_reset_main},
@@ -402,7 +403,7 @@ MENU_DATA reset_menu[] = {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA room_menu[] = {
+MENU_DATA room_menu = {
   {"Room Menu","",0,edit_room_init},
   {"[Select] Room Vnum","select",ID_EDIT_VNUM,edit_room},
   {"[List] Rooms in Area","list",ID_EDIT_LIST,edit_room},
@@ -415,7 +416,7 @@ MENU_DATA room_menu[] = {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA room_modify_menu[] = {
+MENU_DATA room_modify_menu = {
   {" Modify Room Menu","",0,edit_room_init},
   {" Modify [Name]","name",ID_ROOM_NAME,edit_room_modify},
   {" Modify [Description]","description",ID_ROOM_DESC,edit_room_modify},
@@ -435,7 +436,7 @@ MENU_DATA room_modify_menu[] = {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA exit_modify_menu[] = {
+MENU_DATA exit_modify_menu = {
   {"Modify Door Menu","",0,edit_exit_init},
   {"Toggle Door [Mode] (Double/Single)","mode",ID_SETTINGS_DOOR,edit_settings},
   {"[Select] Door","select",ID_DOOR_SELECT,edit_room_exits},
@@ -452,7 +453,7 @@ MENU_DATA exit_modify_menu[] = {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA sector_menu[] = {
+MENU_DATA sector_menu = {
   {"Select Sector","",0,edit_sector_init},
   {"Set Sector to [Inside]","inside",SECT_INSIDE,edit_sector},
   {"Set Sector to [City]","city",SECT_CITY,edit_sector},
@@ -482,7 +483,7 @@ MENU_DATA sector_menu[] = {
 };
 
 
-MENU_DATA mob_menu[] =  {
+MENU_DATA mob_menu =  {
   {"Mob Menu","",0,edit_mob_init},
   {" [Select] Mob Vnum","select",ID_EDIT_VNUM,edit_mob},
   {" [List] Mobs in Area","list",ID_EDIT_LIST,edit_mob},
@@ -497,7 +498,7 @@ MENU_DATA mob_menu[] =  {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA mob_modify_menu[] = {
+MENU_DATA mob_modify_menu = {
   {"Modify Mob Menu","",30,edit_mob_init},
   {" Modify [Name]","name",ID_MOB_NAME,edit_mob_modify},
   {" Modify [Level]","level",ID_MOB_LEVEL,edit_mob_modify},
@@ -532,7 +533,7 @@ MENU_DATA mob_modify_menu[] = {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA mob_shop_menu[]  = {
+MENU_DATA mob_shop_menu  = {
   {"Mob Shop Menu","",0,NULL},
   {"[Copy] Shop","copy",ID_SHOP_CLONE,edit_mob_shop},
   {"Modify Shop [Buy] Types","buy",ID_SHOP_BUY,edit_mob_shop},
@@ -546,7 +547,7 @@ MENU_DATA mob_shop_menu[]  = {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA mob_size_menu[] = {
+MENU_DATA mob_size_menu = {
   {"Modify Mob Size Menu","",0,edit_mob_size_init},
   {"Set Size to [Tiny]","tiny",SIZE_TINY,edit_mob_size},
   {"Set Size to [Small]","small",SIZE_SMALL,edit_mob_size},
@@ -558,7 +559,7 @@ MENU_DATA mob_size_menu[] = {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA mob_position_menu[] = {
+MENU_DATA mob_position_menu = {
   {"Modify Mob Position","",0,edit_mob_pos_init},
   {"Position [Sleeping]","sleeping",POS_SLEEPING,edit_mob_position},
   {"Position [Resting]","resting",POS_RESTING,edit_mob_position},
@@ -570,7 +571,7 @@ MENU_DATA mob_position_menu[] = {
 
 MENU_DATA *mob_modify_att_menu;
 
-MENU_DATA object_menu[] = {
+MENU_DATA object_menu = {
   {"Object Menu","",0,edit_obj_init},
   {"[Select] Object Vnum","select",ID_EDIT_VNUM,edit_object},
   {"[List] Objects in Area","list",ID_EDIT_LIST,edit_object},
@@ -585,7 +586,7 @@ MENU_DATA object_menu[] = {
 };
 
 
-MENU_DATA obj_modify_menu[] = {
+MENU_DATA obj_modify_menu = {
   {"Object Modify Menu","",30,NULL},
   {" Modify [Name]","name",ID_OBJ_NAME,edit_obj_modify},
   {" Modify [Level]","level",ID_OBJ_LEVEL,edit_obj_modify},
@@ -610,7 +611,7 @@ MENU_DATA obj_modify_menu[] = {
   {NULL,"",0,NULL}
 };
 
-MENU_DATA obj_affect_menu[] = {
+MENU_DATA obj_affect_menu = {
   {"Add Affect Menu","",30,NULL},
   {"Apply [Str]","str",APPLY_STR,edit_obj_add_aff},
   {"Apply [Dex]","dex",APPLY_DEX,edit_obj_add_aff},
@@ -661,7 +662,7 @@ MENU_DATA obj_affect_menu[] = {
    valuesfs
 */
 
-MENU_DATA obj_type_menu[] = {
+MENU_DATA obj_type_menu = {
   {"Object Type Menu","",30,NULL},
   {" Type [Light]","light",ITEM_LIGHT,edit_obj_type},
   {" Type [Scroll]","scroll",ITEM_SCROLL,edit_obj_type},
@@ -1208,16 +1209,16 @@ void build_flag_menu ( char **flag_table, char *title, CHAR_DATA *ch )
 
   flag_menu = alloc_mem (sizeof(MENU_ITEM)*(count+3));
   if (title) {
-    *flag_menu[0].text = str_dup (title);
+    (*flag_menu)[0].text = str_dup (title);
   } else {
-    *flag_menu[0].text = str_dup ("Set Flags");
+    (*flag_menu)[0].text = str_dup ("Set Flags");
   }
-  flag_menu[0].menu_fun = edit_flags_init;
-  *flag_menu[0].context = "";
+  (*flag_menu)[0].menu_fun = edit_flags_init;
+  (*flag_menu)[0].context = "";
   if (count > 8)
-    flag_menu[0].id = 30;
+    (*flag_menu)[0].id = 30;
   else
-    flag_menu[0].id = 0;
+    (*flag_menu)[0].id = 0;
   idx = 1;
   for ( t = 0;; t++ )
   {
@@ -1226,20 +1227,20 @@ void build_flag_menu ( char **flag_table, char *title, CHAR_DATA *ch )
     if (!flag_table[t] || (idx > 45)) break;
     if (str_cmp(flag_table[t],"NA")) {
       sprintf (buf,"Toggle Flag [%s]",flag_table[t]);
-      *flag_menu[idx].text = str_dup (buf);
-      *flag_menu[idx].context = flag_table[t];
-      flag_menu[idx].id = 1 << t;
-      flag_menu[idx].menu_fun = edit_flags;
+      (*flag_menu)[idx].text = str_dup (buf);
+      (*flag_menu)[idx].context = flag_table[t];
+      (*flag_menu)[idx].id = 1 << t;
+      (*flag_menu)[idx].menu_fun = edit_flags;
       idx++;
     }
   }
-  *flag_menu[idx].text = str_dup ("[Done] Setting Flags");
-  *flag_menu[idx].context = "done";
-  flag_menu[idx].id = ID_EDIT_DONE;
-  flag_menu[idx].menu_fun = edit_flags;
+  (*flag_menu)[idx].text = str_dup ("[Done] Setting Flags");
+  (*flag_menu)[idx].context = "done";
+  (*flag_menu)[idx].id = ID_EDIT_DONE;
+  (*flag_menu)[idx].menu_fun = edit_flags;
   idx++;
-  *flag_menu[idx].text = NULL;
-  flag_menu[idx].menu_fun = NULL;
+  (*flag_menu)[idx].text = NULL;
+  (*flag_menu)[idx].menu_fun = NULL;
 
   ch->pcdata->edit.prev_menu = ch->pcdata->menu;
   ch->pcdata->menu = flag_menu;
@@ -1256,8 +1257,8 @@ void destroy_flag_menu ( CHAR_DATA *ch )
   count = 0;
   for ( t = 0; t < 50; t++) {
     count++;
-    if (!*flag_menu[t].text) break;
-    free_string ( *flag_menu[t].text );
+    if (!(*flag_menu)[t].text) break;
+    free_string ( (*flag_menu)[t].text );
   }
 
   free_mem (flag_menu,sizeof (MENU_ITEM)*(count));
@@ -1277,32 +1278,32 @@ void build_spec_menu ( CHAR_DATA *ch )
     }
 
     spec_menu = alloc_mem (sizeof(MENU_ITEM)*(count+4));
-    *spec_menu[0].text = "Select Special";
+    (*spec_menu)[0].text = "Select Special";
 
-    spec_menu[0].menu_fun = edit_mob_spec_init;
-    *spec_menu[0].context = "";
-    spec_menu[0].id = 30;
+    (*spec_menu)[0].menu_fun = edit_mob_spec_init;
+    (*spec_menu)[0].context = "";
+    (*spec_menu)[0].id = 30;
 
     for ( t = 0; t < count; t++ )
     {
       char buf[MAX_STRING_LENGTH];
 
       sprintf (buf,"%sSet [%s]",t < 9 ? " ":"",spec_table[t].name);
-      *spec_menu[t+1].text = str_dup (buf);
-      *spec_menu[t+1].context = spec_table[t].name;
-      spec_menu[t+1].id = t;
-      spec_menu[t+1].menu_fun = edit_mob_spec;
+      (*spec_menu)[t+1].text = str_dup (buf);
+      (*spec_menu)[t+1].context = spec_table[t].name;
+      (*spec_menu)[t+1].id = t;
+      (*spec_menu)[t+1].menu_fun = edit_mob_spec;
     }
-    *spec_menu[count+1].text = "[Cancel] Selection";
-    *spec_menu[count+1].context = "cancel";
-    spec_menu[count+1].id = ID_EDIT_DONE;
-    spec_menu[count+1].menu_fun = edit_mob_spec;
-    *spec_menu[count+2].text = "[Remove] Special";
-    *spec_menu[count+2].context = "remove";
-    spec_menu[count+2].id = ID_SPEC_NONE;
-    spec_menu[count+2].menu_fun = edit_mob_spec;
-    *spec_menu[count+3].text = NULL;
-    spec_menu[count+3].menu_fun = NULL;
+    (*spec_menu)[count+1].text = "[Cancel] Selection";
+    (*spec_menu)[count+1].context = "cancel";
+    (*spec_menu)[count+1].id = ID_EDIT_DONE;
+    (*spec_menu)[count+1].menu_fun = edit_mob_spec;
+    (*spec_menu)[count+2].text = "[Remove] Special";
+    (*spec_menu)[count+2].context = "remove";
+    (*spec_menu)[count+2].id = ID_SPEC_NONE;
+    (*spec_menu)[count+2].menu_fun = edit_mob_spec;
+    (*spec_menu)[count+3].text = NULL;
+    (*spec_menu)[count+3].menu_fun = NULL;
   }
 
   ch->pcdata->edit.prev_menu = ch->pcdata->menu;
@@ -1322,28 +1323,28 @@ void build_race_menu ( CHAR_DATA *ch )
     }
 
     race_menu = alloc_mem (sizeof(MENU_ITEM)*(count+3));
-    *race_menu[0].text = "Select a Race";
+    (*race_menu)[0].text = "Select a Race";
 
-    race_menu[0].menu_fun = edit_mob_race_init;
-    *race_menu[0].context = "";
-    race_menu[0].id = 30;
+    (*race_menu)[0].menu_fun = edit_mob_race_init;
+    (*race_menu)[0].context = "";
+    (*race_menu)[0].id = 30;
 
     for ( t = 0; t < count; t++ )
     {
       char buf[MAX_STRING_LENGTH];
 
       sprintf (buf,"%sSet race to [%s]",t < 9 ? " ":"",race_table[t].name);
-      *race_menu[t+1].text = str_dup (buf);
-      *race_menu[t+1].context = race_table[t].name;
-      race_menu[t+1].id = t;
-      race_menu[t+1].menu_fun = edit_mob_race;
+      (*race_menu)[t+1].text = str_dup (buf);
+      (*race_menu)[t+1].context = race_table[t].name;
+      (*race_menu)[t+1].id = t;
+      (*race_menu)[t+1].menu_fun = edit_mob_race;
     }
-    *race_menu[count+1].text = "[Cancel] Race Selection";
-    *race_menu[count+1].context = "cancel";
-    race_menu[count+1].id = ID_EDIT_DONE;
-    race_menu[count+1].menu_fun = edit_mob_race;
-    *race_menu[count+2].text = NULL;
-    race_menu[count+2].menu_fun = NULL;
+    (*race_menu)[count+1].text = "[Cancel] Race Selection";
+    (*race_menu)[count+1].context = "cancel";
+    (*race_menu)[count+1].id = ID_EDIT_DONE;
+    (*race_menu)[count+1].menu_fun = edit_mob_race;
+    (*race_menu)[count+2].text = NULL;
+    (*race_menu)[count+2].menu_fun = NULL;
   }
 
   ch->pcdata->edit.prev_menu = ch->pcdata->menu;
@@ -1357,30 +1358,30 @@ void build_average_menu ( char *title, CHAR_DATA *ch, MENU_FUN *call_back )
 
   avg_menu = alloc_mem (sizeof(MENU_ITEM)*13);
   if (title) {
-    *avg_menu[0].text = str_dup (title);
+    (*avg_menu)[0].text = str_dup (title);
   } else {
-    *avg_menu[0].text = str_dup ("Average Menu");
+    (*avg_menu)[0].text = str_dup ("Average Menu");
   }
 
-  avg_menu[0].menu_fun = call_back;
-  avg_menu[0].context = "";
-  avg_menu[0].id = 0;
+  (*avg_menu)[0].menu_fun = call_back;
+  (*avg_menu)[0].context = "";
+  (*avg_menu)[0].id = 0;
   for ( t = 1; t <= 10; t++ )
   {
     char buf[MAX_STRING_LENGTH];
 
     sprintf (buf,"%s%s",(t < 10) ? " ":"",capitalize (avg_table[t]));
-    avg_menu[t].text = str_dup (buf);
-    avg_menu[t].context = avg_table[t];
-    avg_menu[t].id = t;
-    avg_menu[t].menu_fun = call_back;
+    (*avg_menu)[t].text = str_dup (buf);
+    (*avg_menu)[t].context = avg_table[t];
+    (*avg_menu)[t].id = t;
+    (*avg_menu)[t].menu_fun = call_back;
   }
-  avg_menu[11].text = str_dup ("[Cancel]");
-  avg_menu[11].context = "cancel";
-  avg_menu[11].id = ID_EDIT_CANCEL;
-  avg_menu[11].menu_fun = call_back;
-  avg_menu[12].text = NULL;
-  avg_menu[12].menu_fun = NULL;
+  (*avg_menu)[11].text = str_dup ("[Cancel]");
+  (*avg_menu)[11].context = "cancel";
+  (*avg_menu)[11].id = ID_EDIT_CANCEL;
+  (*avg_menu)[11].menu_fun = call_back;
+  (*avg_menu)[12].text = NULL;
+  (*avg_menu)[12].menu_fun = NULL;
 
   ch->pcdata->edit.prev_menu = ch->pcdata->menu;
   ch->pcdata->menu = avg_menu;
@@ -1393,8 +1394,8 @@ void destroy_avg_menu (CHAR_DATA *ch)
 
   avg_menu = ch->pcdata->menu;
   for ( t = 0; t <= 12; t++) {
-    if (!*avg_menu[t].text) break;
-    free_string ( *avg_menu[t].text );
+    if (!(*avg_menu)[t].text) break;
+    free_string ( (*avg_menu)[t].text );
   }
 
   free_mem (avg_menu,sizeof (MENU_ITEM)*13);
@@ -1414,27 +1415,27 @@ void build_attack_menu (CHAR_DATA *ch, MENU_FUN call_back)
   count -= 2;
   att_menu = alloc_mem (sizeof(MENU_ITEM)*(count+3));
 
-  *att_menu[0].text = str_dup ("Attack Type Menu");
+  (*att_menu)[0].text = str_dup ("Attack Type Menu");
 
-  att_menu[0].menu_fun = call_back;
-  *att_menu[0].context = "";
-  att_menu[0].id = 20;
+  (*att_menu)[0].menu_fun = call_back;
+  (*att_menu)[0].context = "";
+  (*att_menu)[0].id = 20;
   for ( t = 1; t <= count; t++ )
   {
     char buf[MAX_STRING_LENGTH];
 
     sprintf (buf,"%s%s",(t < 10) ? " ":"",capitalize (attack_table[t].name));
-    *att_menu[t].text = str_dup (buf);
-    *att_menu[t].context = attack_table[t].name;
-    att_menu[t].id = t;
-    att_menu[t].menu_fun = call_back;
+    (*att_menu)[t].text = str_dup (buf);
+    (*att_menu)[t].context = attack_table[t].name;
+    (*att_menu)[t].id = t;
+    (*att_menu)[t].menu_fun = call_back;
   }
-  *att_menu[count+1].text = str_dup ("[Cancel]");
-  *att_menu[count+1].context = "cancel";
-  att_menu[count+1].id = ID_EDIT_CANCEL;
-  att_menu[count+1].menu_fun = call_back;
-  *att_menu[count+2].text = NULL;
-  att_menu[count+2].menu_fun = NULL;
+  (*att_menu)[count+1].text = str_dup ("[Cancel]");
+  (*att_menu)[count+1].context = "cancel";
+  (*att_menu)[count+1].id = ID_EDIT_CANCEL;
+  (*att_menu)[count+1].menu_fun = call_back;
+  (*att_menu)[count+2].text = NULL;
+  (*att_menu)[count+2].menu_fun = NULL;
 
   ch->pcdata->edit.prev_menu = ch->pcdata->menu;
   ch->pcdata->menu = att_menu;
@@ -1454,8 +1455,8 @@ void destroy_attack_menu (CHAR_DATA *ch)
   count = 0;
   for ( t = 0; t <= (count+2); t++) {
     count++;
-    if (!*att_menu[t].text) break;
-    free_string ( *att_menu[t].text );
+    if (!(*att_menu)[t].text) break;
+    free_string ( (*att_menu)[t].text );
   }
 
   free_mem (att_menu,sizeof (MENU_ITEM)*count);
@@ -1504,11 +1505,11 @@ void edit_flags ( CHAR_DATA *ch, int num )
 
     TOGGLE_BIT (*ch->pcdata->edit.mod_flags, num);
     for ( t = 1; t < 50; t++ ) {
-      if (*flag_menu[t].text == NULL) {
+      if ((*flag_menu)[t].text == NULL) {
         break;
       }
-      if (flag_menu[t].id == num) {
-        flag = *flag_menu[t].context;
+      if ((*flag_menu)[t].id == num) {
+        flag = (*flag_menu)[t].context;
         break;
       }
     }
